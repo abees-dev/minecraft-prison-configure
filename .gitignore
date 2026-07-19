@@ -1,0 +1,39 @@
+# Minecraft Server Git Ignore
+
+# Minecraft/Paper server executables and libraries
+/*.jar
+/cache/
+/libraries/
+/logs/
+/versions/
+
+# World folders (contains gigabytes of chunk data)
+/world/
+/world_nether/
+/world_the_end/
+/test/
+
+# Runtime and dynamic server data files
+/usercache.json
+/usernamecache.json
+/whitelist.json
+/ops.json
+/banned-ips.json
+/banned-players.json
+
+# Plugin executable files (.jar)
+/plugins/*.jar
+/plugins/**/*.jar
+
+# Plugin temporary/updater/statistics directories
+/plugins/update/
+/plugins/Updater/
+/plugins/bStats/
+/plugins/pStats/
+/plugins/PluginMetrics/
+
+# Databases and temporary files
+/*.db
+/plugins/**/*.db
+.DS_Store
+Thumbs.db
