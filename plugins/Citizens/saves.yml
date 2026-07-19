@@ -27,7 +27,7 @@ npc:
       shop:
         rightClickShop: 2db1e537-31d5-4b44-aad1-4e88e17d293a
       type: PLAYER
-    traitnames: location,targetable,spawned,type,scoreboardtrait,shop,owner,skintrait,inventory
+    traitnames: location,spawned,targetable,owner,inventory,type,scoreboardtrait,shop,skintrait
     navigator:
       speedmodifier: 1.0
       avoidwater: false
@@ -65,7 +65,7 @@ npc:
       spawned: true
       shop:
         rightClickShop: 6abcae72-650d-4e34-a5dc-d4ada5696aec
-    traitnames: location,spawned,type,scoreboardtrait,rotationtrait,shop,owner,skintrait,lookclose,inventory
+    traitnames: location,rotationtrait,spawned,owner,inventory,lookclose,type,scoreboardtrait,shop,skintrait
     navigator:
       speedmodifier: 1.0
       avoidwater: false

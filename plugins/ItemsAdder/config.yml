@@ -11,11 +11,11 @@ resource-pack:
     self-host:
       enabled: false
       server-ip: 127.0.0.1
-      pack-port: 25565
+      pack-port: 8163
     external-host:
       enabled: true
-      url: https://www.dropbox.com/scl/fi/1ivkml45ybm68npceney1/generated.zip?rlkey=eqdf6dkz1x6lt62cfj4o5otpj&st=o6byst27&dl=0
-      skip-url-file-type-check___DONT_ASK_HELP_IF_SET_TRUE: false
+      url: https://dl.dropboxusercontent.com/scl/fi/nkcnz9tksu24mw3v88aa6/generated.zip?rlkey=nx6nf187ssnab2yer08pguhsm&st=pj21ojqg
+      skip-url-file-type-check___DONT_ASK_HELP_IF_SET_TRUE: true
   apply-on-join: true
   kick-player-on-decline: false
   kick-player-on-fail: false
