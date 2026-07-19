@@ -1,0 +1,364 @@
+info:
+  namespace: fantasy_weapons
+
+items:
+  amethyst_greatblade:
+    display_name: Amethyst Greatblade
+    resource:
+      material: IRON_SWORD
+      generate: false
+      model_path: item/amethyst_greatblade
+  phantomguard_greatsword:
+    display_name: Phantomguard Greatsword
+    resource:
+      material: IRON_SWORD
+      generate: false
+      model_path: item/phantomguard_greatsword
+  heavenly_partisan:
+    display_name: Heavenly Partisan
+    resource:
+      material: IRON_SWORD
+      generate: false
+      model_path: item/heavenly_partisan
+  valhakyra:
+    display_name: Valhakyra
+    resource:
+      material: IRON_SWORD
+      generate: false
+      model_path: item/valhakyra
+  black_iron_greatsword:
+    display_name: Black Iron Greatsword
+    resource:
+      material: IRON_SWORD
+      generate: false
+      model_path: item/black_iron_greatsword
+  phantomguard_partisan:
+    display_name: Phantomguard Partisan
+    resource:
+      material: IRON_SWORD
+      generate: false
+      model_path: item/phantomguard_partisan
+  talonbrand:
+    display_name: Talonbrand
+    resource:
+      material: IRON_SWORD
+      generate: false
+      model_path: item/talonbrand
+  windreaper:
+    display_name: Windreaper
+    resource:
+      material: IRON_SWORD
+      generate: false
+      model_path: item/windreaper
+  crystal_frostblade:
+    display_name: Crystal Frostblade
+    resource:
+      material: IRON_SWORD
+      generate: false
+      model_path: item/crystal_frostblade
+  lycanbane:
+    display_name: Lycanbane
+    resource:
+      material: IRON_SWORD
+      generate: false
+      model_path: item/lycanbane
+  grand_claymore:
+    display_name: Grand Claymore
+    resource:
+      material: IRON_SWORD
+      generate: false
+      model_path: item/grand_claymore
+  solstice:
+    display_name: Solstice
+    resource:
+      material: IRON_SWORD
+      generate: false
+      model_path: item/solstice
+  gloomsteel_katana:
+    display_name: Gloomsteel Katana
+    resource:
+      material: IRON_SWORD
+      generate: false
+      model_path: item/gloomsteel_katana
+  gloomsteel_knife:
+    display_name: Gloomsteel Knife
+    resource:
+      material: IRON_SWORD
+      generate: false
+      model_path: item/gloomsteel_knife
+  vesper:
+    display_name: Vesper
+    resource:
+      material: IRON_SWORD
+      generate: false
+      model_path: item/vesper
+  calamity_blade:
+    display_name: Calamity Blade
+    resource:
+      material: IRON_SWORD
+      generate: false
+      model_path: item/calamity_blade
+  ancient_greatslab:
+    display_name: Ancient Greatslab
+    resource:
+      material: STONE_SWORD
+      generate: false
+      model_path: item/ancient_greatslab
+  demons_blood_blade:
+    display_name: Demon's Blood Blade
+    resource:
+      material: IRON_SWORD
+      generate: false
+      model_path: item/demons_blood_blade
+  demonslayers_greatsword:
+    display_name: Demonslayer's Greatsword
+    resource:
+      material: IRON_SWORD
+      generate: false
+      model_path: item/demonslayers_greatsword
+  moonlight:
+    display_name: Moonlight
+    resource:
+      material: IRON_SWORD
+      generate: false
+      model_path: item/moonlight
+  oculus:
+    display_name: Oculus
+    resource:
+      material: IRON_SWORD
+      generate: false
+      model_path: item/oculus
+  azure_greatsword:
+    display_name: Azure Greatsword
+    resource:
+      material: DIAMOND_SWORD
+      generate: false
+      model_path: item/azure_greatsword
+  azure_dagger:
+    display_name: Azure Dagger
+    resource:
+      material: IRON_SWORD
+      generate: false
+      model_path: item/azure_dagger
+  azure_sabre:
+    display_name: Azure Sabre
+    resource:
+      material: IRON_SWORD
+      generate: false
+      model_path: item/azure_sabre
+  dragon_sword:
+    display_name: Dragon Sword
+    resource:
+      material: IRON_SWORD
+      generate: false
+      model_path: item/dragon_sword
+  spider_sword:
+    display_name: Spider Sword
+    resource:
+      material: IRON_SWORD
+      generate: false
+      model_path: item/spider_sword
+  runic_piercer:
+    display_name: Runic Piercer
+    resource:
+      material: IRON_SWORD
+      generate: false
+      model_path: item/runic_piercer
+  demonic_sword:
+    display_name: Demonic Sword
+    resource:
+      material: IRON_SWORD
+      generate: false
+      model_path: item/demonic_sword
+  nature_sword:
+    display_name: Nature Sword
+    resource:
+      material: WOODEN_SWORD
+      generate: false
+      model_path: item/nature_sword
+  vindicator:
+    display_name: Vindicator
+    resource:
+      material: IRON_SWORD
+      generate: false
+      model_path: item/vindicator
+  black_iron_greataxe:
+    display_name: Black Iron Greataxe
+    resource:
+      material: IRON_AXE
+      generate: false
+      model_path: item/black_iron_greataxe
+  viridian_greataxe:
+    display_name: Viridian Greataxe
+    resource:
+      material: IRON_AXE
+      generate: false
+      model_path: item/viridian_greataxe
+  crescent_greataxe:
+    display_name: Crescent Greataxe
+    resource:
+      material: IRON_AXE
+      generate: false
+      model_path: item/crescent_greataxe
+  berserkers_greataxe:
+    display_name: Berserker's Greataxe
+    resource:
+      material: IRON_AXE
+      generate: false
+      model_path: item/berserkers_greataxe
+  berserkers_cleaver:
+    display_name: Berserker's Cleaver
+    resource:
+      material: IRON_AXE
+      generate: false
+      model_path: item/berserkers_cleaver
+  revenants_gravescepter:
+    display_name: Revenant's Gravescepter
+    resource:
+      material: IRON_AXE
+      generate: false
+      model_path: item/revenants_gravescepter
+  crystal_frostscythe:
+    display_name: Crystal Frostscythe
+    resource:
+      material: IRON_AXE
+      generate: false
+      model_path: item/crystal_frostscythe
+  black_iron_clobberer:
+    display_name: Black Iron Clobberer
+    resource:
+      material: IRON_AXE
+      generate: false
+      model_path: item/black_iron_clobberer
+  revenants_gravecleaver:
+    display_name: Revenant's Gravecleaver
+    resource:
+      material: IRON_AXE
+      generate: false
+      model_path: item/revenants_gravecleaver
+  gloomsteel_greataxe:
+    display_name: Gloomsteel Greataxe
+    resource:
+      material: IRON_AXE
+      generate: false
+      model_path: item/gloomsteel_greataxe
+  emerald_greatcleaver:
+    display_name: Emerald Greatcleaver
+    resource:
+      material: IRON_AXE
+      generate: false
+      model_path: item/emerald_greatcleaver
+  sacrificial_cleaver:
+    display_name: Sacrificial Cleaver
+    resource:
+      material: IRON_AXE
+      generate: false
+      model_path: item/sacrificial_cleaver
+  crimson_cleaver:
+    display_name: Crimson Cleaver
+    resource:
+      material: IRON_AXE
+      generate: false
+      model_path: item/crimson_cleaver
+  azure_greataxe:
+    display_name: Azure Greataxe
+    resource:
+      material: DIAMOND_AXE
+      generate: false
+      model_path: item/azure_greataxe
+  azure_scythe:
+    display_name: Azure Scythe
+    resource:
+      material: IRON_HOE
+      generate: false
+      model_path: item/azure_scythe
+  skeleton_axe:
+    display_name: Skeleton Axe
+    resource:
+      material: IRON_AXE
+      generate: false
+      model_path: item/skeleton_axe
+  treacherous_cleaver:
+    display_name: Treacherous Cleaver
+    resource:
+      material: IRON_AXE
+      generate: false
+      model_path: item/treacherous_cleaver
+  wooden_bludgeon:
+    display_name: Wooden Bludgeon
+    resource:
+      material: WOODEN_AXE
+      generate: false
+      model_path: item/wooden_bludgeon
+  iron_mace:
+    display_name: Iron Mace
+    resource:
+      material: IRON_AXE
+      generate: false
+      model_path: item/iron_mace
+  wooden_tonfa:
+    display_name: Wooden Tonfa
+    resource:
+      material: WOODEN_AXE
+      generate: false
+      model_path: item/wooden_tonfa
+  iron_sai:
+    display_name: Iron Sai
+    resource:
+      material: IRON_AXE
+      generate: false
+      model_path: item/iron_sai
+  iron_dagger:
+    display_name: Iron Dagger
+    resource:
+      material: IRON_SWORD
+      generate: false
+      model_path: item/iron_dagger
+  iron_greataxe:
+    display_name: Iron Greataxe
+    resource:
+      material: IRON_AXE
+      generate: false
+      model_path: item/iron_greataxe
+  iron_polearm:
+    display_name: Iron Polearm
+    resource:
+      material: IRON_AXE
+      generate: false
+      model_path: item/iron_polearm
+  iron_halberd:
+    display_name: Iron Halberd
+    resource:
+      material: IRON_AXE
+      generate: false
+      model_path: item/iron_halberd
+  iron_broadsword:
+    display_name: Iron Broadsword
+    resource:
+      material: IRON_SWORD
+      generate: false
+      model_path: item/iron_broadsword
+  iron_battle_axe:
+    display_name: Iron Battle Axe
+    resource:
+      material: IRON_AXE
+      generate: false
+      model_path: item/iron_battle_axe
+  flamberge:
+    display_name: Flamberge
+    resource:
+      material: IRON_SWORD
+      generate: false
+      model_path: item/flamberge
+  claymore:
+    display_name: Claymore
+    resource:
+      material: IRON_SWORD
+      generate: false
+      model_path: item/claymore
+  uchigatana:
+    display_name: Uchigatana
+    resource:
+      material: IRON_SWORD
+      generate: false
+      model_path: item/uchigatana

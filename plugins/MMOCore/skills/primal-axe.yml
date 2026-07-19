@@ -1,0 +1,35 @@
+name: Primal Axe
+lore:
+- '&4Hurl an axe forwards, striking all enemies in contact.'
+- '&4The axe gets pinned when it gets in contact with a block.'
+- '&4Picking it up instantly resets your Primal Axe skill cooldown.'
+- ''
+- '&c{damage} Damage'
+- '&e{cooldown}s Cooldown'
+- '&9Costs {mana} {mana_name}'
+material: 'COAL:2182'
+damage:
+  base: 4
+  per-level: 1
+  min: 4
+  max: 7
+timer:
+  base: 0
+  per-level: 0
+  min: 0
+  max: 0
+mana:
+  base: 0
+  per-level: 0
+  min: 0
+  max: 0
+stamina:
+  base: 0
+  per-level: 0
+  min: 0
+  max: 0
+cooldown:
+  base: 0
+  per-level: 0
+  min: 0
+  max: 0

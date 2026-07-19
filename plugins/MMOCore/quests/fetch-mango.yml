@@ -1,0 +1,38 @@
+# Display options
+name: 'Trái Cây Kỳ Lạ'
+
+# Quest lore displayed in the quest menu.
+lore:
+  - 'Làm ơn cho tôi xin xoài.'
+  - ''
+  - '&ePhần thưởng:'
+  - '&7► 10 Đồng vàng'
+  - '&7► 30 Kinh nghiệm'
+
+# Quests the player must finish
+# in order to unlock this one.
+parent: []
+
+# Cooldown in hours. Don't put any
+# to make the quest a one-time quest.
+# Put it to 0 to make it instantly redoable.
+delay: 0
+
+# Objectives the player needs to
+# complete. Once they're all complete,
+# the quest will end.
+objectives:
+  1:
+    type: 'mineblock{type=OAK_LOG;amount=8}'
+    lore: 'Xoài chỉ mọc trên cây Sồi. Hãy chặt 8 khúc gỗ sồi!'
+    triggers:
+      - message{format="&aCảm ơn! Những quả xoài sẽ rơi từ những chiếc lá này."}
+      - sound{sound=ENTITY_EXPERIENCE_ORB_PICKUP;pitch=1;volume=1}
+  2:
+    type: 'getitem{type=APPLE;npc=1;amount=2}'
+    lore: 'Mang cho tôi xoài.'
+    triggers:
+      - message{format="&aNhìn giống táo. Nhưng không sao, cảm ơn! Đây là một vài đồng xu."}
+      - sound{sound=ENTITY_EXPERIENCE_ORB_PICKUP;pitch=1;volume=1}
+      - command{format="mmocore coins %player% 10"}
+      - 'experience{amount=30}'

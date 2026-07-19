@@ -1,0 +1,160 @@
+display:
+  name: 'Chiến Binh'
+  lore:
+    - 'Chiến binh có khả năng chiến đấu và'
+    - 'phát triển phi thường, mang lại chỉ số'
+    - 'mỗi cấp độ cao hơn nhiều so với các lớp khác.'
+    - ''
+    - 'Chiến binh tích lũy cơn thịnh nộ khi thi triển kỹ năng,'
+    - 'tạm thời tăng sát thương cơ bản của mình.'
+  attribute-lore:
+    - '&a+ &7Sát Thương Tấn Công'
+    - '&a+ &7Tốc Độ Tấn Công'
+    - '&a+ &7Máu Tối Đa'
+    - '&a+ &7Giảm Hiệu Ứng Chậm Tốc Độ'
+    - '&c- &7Tốc Độ Di Chuyển'
+    - ''
+    - '&8&lSức Mạnh'
+    - '&7  Sát Thương Tấn Công: &c2 &7(+&c0.1&7)'
+    - '&7  Tốc Độ Tấn Công: &c4.2 &7(+&c0.05&7)'
+    - '&7  Máu Tối Đa: &c24 &7(+&c0.5&7)'
+    - ''
+    - '&8&lNhanh Nhẹn'
+    - '&7  Kháng Đẩy Lùi: &a0% &7(+&a0%&7)'
+    - '&7  Tốc Độ Di Chuyển: &a19 &7(+&a0&7)'
+    - '&7  Giảm Hiệu Ứng Chậm Tốc Độ: &a40% &7(+&a2%&7)'
+    - ''
+    - '&8&lÝ Chí'
+    - '&7  Thịnh Nộ Tối Đa: &c20 &7(+&c1&7)'
+    - '&7  Hồi Máu: &90.1 &7(+&90&7)'
+    - '&7  Giảm Thịnh Nộ: &9-0.5&7/s'
+  item: IRON_SWORD:0 # Hỗ trợ dữ liệu mô hình tùy chỉnh/kết cấu theo độ bền
+
+# Must match an existing exp curve filename from the 'expcurves' folder
+exp-curve: levels
+
+# The maximum level players can reach
+max-level: 100
+
+skill-slots:
+  1:
+    name: 'Skill Slot I'
+    unlocked-by-default: true
+  2:
+    name: 'Skill Slot II'
+    unlocked-by-default: true
+  3:
+    name: 'Skill Slot III'
+    unlocked-by-default: true
+  4:
+    name: 'Skill Slot IV'
+    unlocked-by-default: true
+
+skill-trees:
+  - 'general'
+  - 'warrior-paladin'
+  - 'combat'
+
+# Warrior has rage which he gains while casting spells
+# Rage increase its skill damage. Use <mmocore.rage>
+# to get the player's rage (MythicMobs formulas)
+#
+# 'char' is the character used to generate the mana bar as a message
+# 'color' are also the colors used to generate the mana bar
+# 'icon' is the icon display on the player action bar
+# 'name' is basically displayed everywhere
+mana:
+  char: ♦
+  icon: '&4♦'
+  color:
+    full: DARK_RED
+    half: RED
+    empty: WHITE
+  name: 'Rage'
+
+exp-table: class_exp_table
+
+# Rage charges when dealing weapon and physical damage.
+triggers:
+  weapon-damage:
+    - 'mana{operation=GIVE;amount=2-3}'
+  physical-damage:
+    - 'mana{operation=GIVE;amount=2-3}'
+
+cast-particle:
+  particle: REDSTONE
+  color:
+    red: 255
+    green: 0
+    blue: 0
+
+# Rage only decays when out of combat
+options:
+  off-combat-mana-regen: true
+  needs-permission: false
+
+skills:
+  DEEP_WOUND:
+    level: 1
+    max-level: 30
+  WEAKEN:
+    level: 3
+    max-level: 30
+  EMPOWERED_ATTACK:
+    level: 5
+    max-level: 30
+  COMBO_ATTACK:
+    level: 7
+    max-level: 30
+  MINOR_HEALINGS:
+    level: 10
+    max-level: 30
+  FIRE_BERSERKER:
+    level: 15
+  BRUTAL_STRIKE:
+    level: 1
+    max-level: 30
+  CHARGE:
+    level: 1
+    max-level: 30
+  RAMPAGE:
+    level: 1
+    max-level: 30
+  SHIELD_BARRIER:
+    level: 1
+    max-level: 30
+  CHAIN_HOOK:
+    level: 1
+    max-level: 30
+  JUDGEMENT:
+    level: 1
+    max-level: 20
+
+attributes:
+  mana-regeneration:
+    base: -0.5
+    per-level: 0
+  speed-malus-reduction:
+    base: 50
+    per-level: 2
+  max-mana:
+    base: 20
+    per-level: 1
+  max-health:
+    base: 24
+    per-level: 0.5
+  movement-speed:
+    base: .12
+    per-level: 0
+  attack-damage:
+    base: 2
+    per-level: 0.1
+  attack-speed:
+    base: 4.2
+    per-level: 0.05
+
+# Experience sources for main class experience.
+# TODO: Update this to match your server's economy
+main-exp-sources:
+  - 'killmob{type=ZOMBIE;amount=50-70}'
+  - 'killmob{type=ENDERMAN;amount=6-9}'

@@ -1,0 +1,36 @@
+name: Ném TNT
+lore:
+  - Ném một chất nổ mạnh mẽ,
+  - phá hủy mục tiêu
+  - và các khối xung quanh
+  - điểm va chạm.
+  - ''
+  - '&e{cooldown} giây hồi chiêu'
+  - '&9Tiêu hao {mana} {mana_name}'
+material: BOOK
+timer:
+  base: 0
+  per-level: 0
+  min: 0
+  max: 0
+  #Optional: The decimal format used for this skill parameter.
+  decimal-format: '0.#'
+delay:
+  base: 0
+  per-level: 0
+  min: 0
+  max: 0
+mana:
+  base: 4
+  per-level: 0.5
+stamina:
+  base: 0
+  per-level: 0
+  min: 0
+  max: 0
+cooldown:
+  base: 10
+  per-level: 0.5
+force:
+  base: 4
+  per-level: 0.5

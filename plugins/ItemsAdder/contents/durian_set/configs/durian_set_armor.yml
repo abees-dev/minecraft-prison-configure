@@ -1,0 +1,53 @@
+armors_rendering:
+  durianarmor:
+    color: '#fce818'
+    layer_1: armor/durian_armor_layer_1
+    layer_2: armor/durian_armor_layer_2
+    use_color: false
+info:
+  namespace: durian_set
+items:
+  durianboots:
+    display_name: Durian Boots
+    permission: durian.boots
+    resource:
+      generate: true
+      textures:
+      - armor/durian_boots_icon.png
+    specific_properties:
+      armor:
+        custom_armor: durianarmor
+        slot: feet
+  durianchestplate:
+    display_name: Durian Chestplate
+    permission: durian.chestplate
+    resource:
+      generate: true
+      textures:
+      - armor/durian_chestplate_icon.png
+    specific_properties:
+      armor:
+        custom_armor: durianarmor
+        slot: chest
+  durianhelmet:
+    display_name: Durian Helmet
+    permission: durian.helmet
+    resource:
+      generate: true
+      textures:
+      - armor/durian_helmet_icon.png
+    specific_properties:
+      armor:
+        custom_armor: durianarmor
+        slot: head
+  durianleggings:
+    display_name: Durian Leggings
+    permission: durian.leggings
+    resource:
+      generate: true
+      textures:
+      - armor/durian_leggings_icon.png
+    specific_properties:
+      armor:
+        custom_armor: durianarmor
+        slot: legs

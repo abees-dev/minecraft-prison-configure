@@ -1,0 +1,71 @@
+armors_rendering:
+  plny_halloweenarmor:
+    color: '#e37d2c'
+    layer_1: armor/plny_halloween_armor_layer_1
+    layer_2: armor/plny_halloween_armor_layer_2
+    use_color: false
+info:
+  namespace: plny_halloween_set
+items:
+  plny_halloweenhelmet:
+    display_name: §fHalloween Helmet
+    permission: plny_halloween_set.helmet
+    resource:
+      generate: true
+      textures:
+      - armor/plny_halloween_helmet_icon.png
+    specific_properties:
+      armor:
+        custom_armor: plny_halloweenarmor
+        slot: head
+    durability:
+      max_custom_durability: 165
+    attribute_modifiers:
+      head:
+        armor: 2
+  plny_halloweenchestplate:
+    display_name: §fHalloween Chestplate
+    permission: plny_halloween_set.chestplate
+    resource:
+      generate: true
+      textures:
+      - armor/plny_halloween_chestplate_icon.png
+    specific_properties:
+      armor:
+        custom_armor: plny_halloweenarmor
+        slot: chest
+    durability:
+      max_custom_durability: 240
+    attribute_modifiers:
+      chest:
+        armor: 6
+  plny_halloweenleggings:
+    display_name: §fHalloween Leggings
+    permission: plny_halloween_set.leggings
+    resource:
+      generate: true
+      textures:
+      - armor/plny_halloween_leggings_icon.png
+    specific_properties:
+      armor:
+        custom_armor: plny_halloweenarmor
+        slot: legs
+    attribute_modifiers:
+      legs:
+        armor: 5
+  plny_halloweenboots:
+    display_name: §fHalloween Boots
+    permission: plny_halloween_set.boots
+    resource:
+      generate: true
+      textures:
+      - armor/plny_halloween_boots_icon.png
+    specific_properties:
+      armor:
+        custom_armor: plny_halloweenarmor
+        slot: feet
+    durability:
+      max_custom_durability: 165
+    attribute_modifiers:
+      feet:
+        armor: 2

@@ -1,0 +1,21 @@
+strength:
+  name: Sức Mạnh
+  max-points: 500
+  buff:
+    weapon_damage: 0.2
+    max_health: 1%
+
+dexterity:
+  name: Nhanh Nhẹn
+  max-points: 500
+  buff:
+    physical_damage: 0.2
+    projectile_damage: 0.1
+    attack_speed: 0.1%
+
+intelligence:
+  name: Trí Tuệ
+  max-points: 500
+  buff:
+    magic_damage: 0.1
+    cooldown_reduction: 1

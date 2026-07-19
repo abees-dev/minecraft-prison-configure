@@ -1,0 +1,200 @@
+info:
+  namespace: elitecreatures
+armors_rendering:
+  valkyrie_animated_v2:
+    color: "#8c1955"
+    layer_1: valkyrie_animated_v2/armor/valkyrie_armor_layer_1
+    layer_2: valkyrie_animated_v2/armor/valkyrie_armor_layer_2
+    use_color: false
+items:
+  # Armor
+
+  valkyrie_animated_v2_helmet:
+    display_name: Valkyrie Helmet
+    resource:
+      generate: true
+      textures:
+        - valkyrie_animated_v2/armor/valkyrie_helmet.png
+    specific_properties:
+      armor:
+        slot: head
+        custom_armor: valkyrie_animated_v2
+  valkyrie_animated_v2_chestplate:
+    display_name: Valkyrie Chestplate
+    resource:
+      generate: true
+      textures:
+        - valkyrie_animated_v2/armor/valkyrie_chestplate.png
+    specific_properties:
+      armor:
+        slot: chest
+        custom_armor: valkyrie_animated_v2
+  valkyrie_animated_v2_leggings:
+    display_name: Valkyrie Leggings
+    resource:
+      generate: true
+      textures:
+        - valkyrie_animated_v2/armor/valkyrie_leggings.png
+    specific_properties:
+      armor:
+        slot: legs
+        custom_armor: valkyrie_animated_v2
+  valkyrie_animated_v2_boots:
+    display_name: Valkyrie Boots
+    resource:
+      generate: true
+      textures:
+        - valkyrie_animated_v2/armor/valkyrie_boots.png
+    specific_properties:
+      armor:
+        slot: FEET
+        custom_armor: valkyrie_animated_v2
+
+  # Items
+
+  valkyrie_animated_v2_axe:
+    display_name: Axe
+    resource:
+      material: IRON_AXE
+      generate: false
+      model_path: valkyrie_animated_v2/axe
+  valkyrie_animated_v2_backpack:
+    display_name: Backpack
+    resource:
+      material: PAPER
+      generate: false
+      model_path: valkyrie_animated_v2/backpack
+  valkyrie_animated_v2_bow:
+    display_name: Bow
+    resource:
+      material: BOW
+      generate: false
+      model_path: valkyrie_animated_v2/bow
+  valkyrie_animated_v2_chest:
+    display_name: Chest
+    resource:
+      material: PAPER
+      generate: false
+      model_path: valkyrie_animated_v2/chest
+    behaviours:
+      furniture:
+        solid: false
+        fixed_rotation: true
+        entity: armor_stand
+        hitbox:
+          length: 1
+          width: 1
+          height: 1
+          length_offset: 0
+          width_offset: 0
+          height_offset: 0
+        placeable_on:
+          walls: false
+          ceiling: false
+          floor: true
+  valkyrie_animated_v2_crossbow:
+    display_name: Crossbow
+    resource:
+      material: CROSSBOW
+      generate: false
+      model_path: valkyrie_animated_v2/crossbow
+  valkyrie_animated_v2_dagger:
+    display_name: Dagger
+    resource:
+      material: IRON_SWORD
+      generate: false
+      model_path: valkyrie_animated_v2/dagger
+  valkyrie_animated_v2_fishing_rod:
+    display_name: Fishing Rod
+    resource:
+      material: FISHING_ROD
+      generate: false
+      model_path: valkyrie_animated_v2/fishing_rod
+  valkyrie_animated_v2_greatsword:
+    display_name: Greatsword
+    resource:
+      material: IRON_SWORD
+      generate: false
+      model_path: valkyrie_animated_v2/greatsword
+  valkyrie_animated_v2_hammer:
+    display_name: Hammer
+    resource:
+      material: IRON_AXE
+      generate: false
+      model_path: valkyrie_animated_v2/hammer
+  valkyrie_animated_v2_hat:
+    display_name: Hat
+    resource:
+      material: PAPER
+      generate: false
+      model_path: valkyrie_animated_v2/hat
+    behaviours:
+      hat: true
+  valkyrie_animated_v2_hoe:
+    display_name: Hoe
+    resource:
+      material: IRON_HOE
+      generate: false
+      model_path: valkyrie_animated_v2/hoe
+  valkyrie_animated_v2_key:
+    display_name: Key
+    resource:
+      material: PAPER
+      generate: false
+      model_path: valkyrie_animated_v2/key
+  valkyrie_animated_v2_mace:
+    display_name: Mace
+    resource:
+      material: IRON_AXE
+      generate: false
+      model_path: valkyrie_animated_v2/mace
+  valkyrie_animated_v2_pickaxe:
+    display_name: Pickaxe
+    resource:
+      material: IRON_PICKAXE
+      generate: false
+      model_path: valkyrie_animated_v2/pickaxe
+  valkyrie_animated_v2_shield:
+    display_name: Shield
+    resource:
+      material: SHIELD
+      generate: false
+      model_path: valkyrie_animated_v2/shield
+  valkyrie_animated_v2_shovel:
+    display_name: Shovel
+    resource:
+      material: IRON_SHOVEL
+      generate: false
+      model_path: valkyrie_animated_v2/shovel
+  valkyrie_animated_v2_spear:
+    display_name: Spear
+    resource:
+      material: IRON_SWORD
+      generate: false
+      model_path: valkyrie_animated_v2/spear
+  valkyrie_animated_v2_staff:
+    display_name: Staff
+    resource:
+      material: IRON_SWORD
+      generate: false
+      model_path: valkyrie_animated_v2/staff
+  valkyrie_animated_v2_sword:
+    display_name: Sword
+    resource:
+      material: IRON_SWORD
+      generate: false
+      model_path: valkyrie_animated_v2/sword
+  valkyrie_animated_v2_wings:
+    display_name: Wings
+    resource:
+      material: PAPER
+      generate: false
+      model_path: valkyrie_animated_v2/wings
+  valkyrie_animated_v2_wings_self:
+    display_name: Wings Self
+    resource:
+      material: PAPER
+      generate: false
+      model_path: valkyrie_animated_v2/wings_self
+
+#Qme0UjW5UEcDRUexY0UZNkSRR0YxkERPFTRq5EMRRlT5lkaaljbslWOYVUW0YFNiRHcThXN

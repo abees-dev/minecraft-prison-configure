@@ -1,0 +1,35 @@
+name: Double Edge
+lore:
+- '&4Release a wide double slash, damaging and causing'
+- '&4bleeding to hit enemies. This powerful move gives you'
+- '&4the same amount of damage and bleeding.'
+- ''
+- '&c{damage} Damage'
+- '&e{cooldown}s Cooldown'
+- '&9Costs {mana} {mana_name}'
+material: 'COAL:2180'
+damage:
+  base: 6
+  per-level: 1
+  min: 6
+  max: 8
+timer:
+  base: 0
+  per-level: 0
+  min: 0
+  max: 0
+mana:
+  base: 0
+  per-level: 0
+  min: 0
+  max: 0
+stamina:
+  base: 0
+  per-level: 0
+  min: 0
+  max: 0
+cooldown:
+  base: 4
+  per-level: -0.1
+  min: 3
+  max: 4

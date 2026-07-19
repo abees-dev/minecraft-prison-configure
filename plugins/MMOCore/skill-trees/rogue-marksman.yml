@@ -1,0 +1,487 @@
+id: 'rogue-marksman'
+name: '&4Rogue&Marksman'
+type: 'custom'
+item: 'DIAMOND_AXE'
+lore:
+  - '&6Cây kỹ năng này chỉ dành cho lớp Rogue & Marksman!'
+max-point-spent: 21
+
+nodes:
+  #### A
+  a1:
+    name: 'Kinh Nghiệm Bổ Sung'
+    coordinates:
+      x: -3
+      y: 0
+
+    max-level: 1
+    is-root: true
+    size: 1
+    point-consumed: 1
+    experience-table:
+      first_table_item:
+        triggers:
+          - 'stat{stat="ADDITIONAL_EXPERIENCE";amount=2;type="FLAT"}'
+    lores:
+      0:
+        - '&eKinh nghiệm bổ sung +%2'
+      1:
+        - '&eKinh nghiệm bổ sung +%2'
+  a2:
+    name: 'Kinh Nghiệm Bổ Sung'
+    coordinates:
+      x: -2
+      y: 0
+
+    parents:
+      strong:
+        a1: 1
+
+    max-level: 1
+    size: 1
+    point-consumed: 1
+    experience-table:
+      first_table_item:
+        triggers:
+          - 'stat{stat="ADDITIONAL_EXPERIENCE";amount=3;type="FLAT"}'
+    lores:
+      0:
+        - '&eKinh nghiệm bổ sung +%3'
+      1:
+        - '&eKinh nghiệm bổ sung +%3'
+  a3:
+    name: 'Kinh Nghiệm Bổ Sung'
+    coordinates:
+      x: -1
+      y: 0
+
+    parents:
+      strong:
+        a2: 1
+
+    max-level: 1
+    size: 1
+    point-consumed: 1
+    experience-table:
+      first_table_item:
+        triggers:
+          - 'stat{stat="ADDITIONAL_EXPERIENCE";amount=5;type="FLAT"}'
+    lores:
+      0:
+        - '&eKinh nghiệm bổ sung +%5'
+      1:
+        - '&eKinh nghiệm bổ sung +%5'
+
+  ## B
+
+  b1:
+    name: 'Tốc Độ Mũi Tên'
+    coordinates:
+      x: -1
+      y: -1
+
+    parents:
+      strong:
+        a3: 1
+
+    max-level: 1
+    size: 1
+    point-consumed: 1
+    experience-table:
+      first_table_item:
+        triggers:
+          - 'stat{stat="ARROW_VELOCITY";amount=10;type="RELATIVE"}'
+    lores:
+      0:
+        - '&eXác định khoảng cách vũ khí của bạn có thể bắn +%10'
+      1:
+        - '&eXác định khoảng cách vũ khí của bạn có thể bắn +%10'
+  b2:
+    name: 'Tốc Độ Mũi Tên'
+    coordinates:
+      x: -1
+      y: -2
+
+    parents:
+      strong:
+        b1: 1
+
+    max-level: 1
+    size: 1
+    point-consumed: 1
+    experience-table:
+      first_table_item:
+        triggers:
+          - 'stat{stat="ARROW_VELOCITY";amount=15;type="RELATIVE"}'
+    lores:
+      0:
+        - '&eXác định khoảng cách vũ khí của bạn có thể bắn +%15'
+      1:
+        - '&eXác định khoảng cách vũ khí của bạn có thể bắn +%15'
+  b3:
+    name: 'Tốc Độ Mũi Tên'
+    coordinates:
+      x: 0
+      y: -2
+
+    parents:
+      strong:
+        b2: 1
+
+    max-level: 1
+    size: 1
+    point-consumed: 1
+    experience-table:
+      first_table_item:
+        triggers:
+          - 'stat{stat="ARROW_VELOCITY";amount=25;type="RELATIVE"}'
+    lores:
+      0:
+        - '&eXác định khoảng cách vũ khí của bạn có thể bắn +%25'
+      1:
+        - '&eXác định khoảng cách vũ khí của bạn có thể bắn +%25'
+
+  ## C
+
+  c1:
+    name: 'Hút Máu'
+    coordinates:
+      x: 1
+      y: -2
+
+    parents:
+      strong:
+        b3: 1
+
+    max-level: 1
+    size: 1
+    point-consumed: 1
+    experience-table:
+      first_table_item:
+        triggers:
+          - 'stat{stat="LIFESTEAL";amount=2;type="FLAT"}'
+    lores:
+      0:
+        - '&ePhần trăm sát thương bạn nhận lại dưới dạng máu khi gây sát thương vũ khí +%1'
+      1:
+        - '&ePhần trăm sát thương bạn nhận lại dưới dạng máu khi gây sát thương vũ khí +%1'
+  c2:
+    name: 'Hút Máu'
+    coordinates:
+      x: 2
+      y: -2
+
+    parents:
+      strong:
+        c1: 1
+
+    max-level: 1
+    size: 1
+    point-consumed: 1
+    experience-table:
+      first_table_item:
+        triggers:
+          - 'stat{stat="LIFESTEAL";amount=2;type="FLAT"}'
+    lores:
+      0:
+        - '&ePhần trăm sát thương bạn nhận lại dưới dạng máu khi gây sát thương vũ khí +%2'
+      1:
+        - '&ePhần trăm sát thương bạn nhận lại dưới dạng máu khi gây sát thương vũ khí +%2'
+  c3:
+    name: 'Hút Máu'
+    coordinates:
+      x: 3
+      y: -2
+
+    parents:
+      strong:
+        c2: 1
+
+    max-level: 1
+    size: 1
+    point-consumed: 1
+    experience-table:
+      first_table_item:
+        triggers:
+          - 'stat{stat="LIFESTEAL";amount=2;type="FLAT"}'
+    lores:
+      0:
+        - '&ePhần trăm sát thương bạn nhận lại dưới dạng máu khi gây sát thương vũ khí +%2'
+      1:
+        - '&ePhần trăm sát thương bạn nhận lại dưới dạng máu khi gây sát thương vũ khí +%2'
+
+  ## D
+
+  d1:
+    name: 'Kháng Đẩy Lùi'
+    coordinates:
+      x: 3
+      y: -1
+
+    parents:
+      strong:
+        c3: 1
+
+    max-level: 1
+    size: 1
+    point-consumed: 1
+    experience-table:
+      first_table_item:
+        triggers:
+          - 'stat{stat="KNOCKBACK_RESISTANCE";amount=5;type="FLAT"}'
+    lores:
+      0:
+        - '&eCơ hội bạn chặn đẩy lùi +%5'
+      1:
+        - '&eCơ hội bạn chặn đẩy lùi +%5'
+  d2:
+    name: 'Kháng Đẩy Lùi'
+    coordinates:
+      x: 4
+      y: -1
+
+    parents:
+      strong:
+        d1: 1
+
+    max-level: 1
+    size: 1
+    point-consumed: 1
+    experience-table:
+      first_table_item:
+        triggers:
+          - 'stat{stat="KNOCKBACK_RESISTANCE";amount=5;type="FLAT"}'
+    lores:
+      0:
+        - '&eCơ hội bạn chặn đẩy lùi +%5'
+      1:
+        - '&eCơ hội bạn chặn đẩy lùi +%5'
+  d3:
+    name: 'Kháng Đẩy Lùi'
+    coordinates:
+      x: 4
+      y: 0
+
+    parents:
+      strong:
+        d2: 1
+
+    max-level: 1
+    size: 1
+    point-consumed: 1
+    experience-table:
+      first_table_item:
+        triggers:
+          - 'stat{stat="KNOCKBACK_RESISTANCE";amount=5;type="FLAT"}'
+    lores:
+      0:
+        - '&eCơ hội bạn chặn đẩy lùi +%5'
+      1:
+        - '&eCơ hội bạn chặn đẩy lùi +%5'
+
+  ## E
+
+  e1:
+    name: 'Tỷ Lệ Đánh Chí Mạng'
+    coordinates:
+      x: 4
+      y: 1
+
+    parents:
+      strong:
+        d3: 1
+
+    max-level: 1
+    size: 1
+    point-consumed: 1
+    experience-table:
+      first_table_item:
+        triggers:
+          - 'stat{stat="CRITICAL_STRIKE_CHANCE";amount=2;type="FLAT"}'
+    lores:
+      0:
+        - '&eĐòn đánh chí mạng gây thêm sát thương với tỷ lệ +%2'
+      1:
+        - '&eĐòn đánh chí mạng gây thêm sát thương với tỷ lệ +%2'
+  e2:
+    name: 'Tỷ Lệ Đánh Chí Mạng'
+    coordinates:
+      x: 4
+      y: 2
+
+    parents:
+      strong:
+        e1: 1
+
+    max-level: 1
+    size: 1
+    point-consumed: 1
+    experience-table:
+      first_table_item:
+        triggers:
+          - 'stat{stat="CRITICAL_STRIKE_CHANCE";amount=3;type="FLAT"}'
+    lores:
+      0:
+        - '&eĐòn đánh chí mạng gây thêm sát thương với tỷ lệ +%3'
+      1:
+        - '&eĐòn đánh chí mạng gây thêm sát thương với tỷ lệ +%3'
+  e3:
+    name: 'Tỷ Lệ Đánh Chí Mạng'
+    coordinates:
+      x: 3
+      y: 2
+
+    parents:
+      strong:
+        e2: 1
+
+    max-level: 1
+    size: 1
+    point-consumed: 1
+    experience-table:
+      first_table_item:
+        triggers:
+          - 'stat{stat="CRITICAL_STRIKE_CHANCE";amount=5;type="FLAT"}'
+    lores:
+      0:
+        - '&eĐòn đánh chí mạng gây thêm sát thương với tỷ lệ +%5'
+      1:
+        - '&eĐòn đánh chí mạng gây thêm sát thương với tỷ lệ +%5'
+
+  ## F
+
+  f1:
+    name: 'Tốc Độ Di Chuyển'
+    coordinates:
+      x: 2
+      y: 2
+
+    parents:
+      strong:
+        e3: 1
+
+    max-level: 1
+    size: 1
+    point-consumed: 1
+    experience-table:
+      first_table_item:
+        triggers:
+          - 'stat{stat="MOVEMENT_SPEED";amount=2;type="RELATIVE"}'
+    lores:
+      0:
+        - '&eTốc độ di chuyển tăng tốc độ đi bộ. +%2'
+      1:
+        - '&eTốc độ di chuyển tăng tốc độ đi bộ. +%2'
+  f2:
+    name: 'Tốc Độ Di Chuyển'
+    coordinates:
+      x: 2
+      y: 1
+
+    parents:
+      strong:
+        f1: 1
+
+    max-level: 1
+    size: 1
+    point-consumed: 1
+    experience-table:
+      first_table_item:
+        triggers:
+          - 'stat{stat="MOVEMENT_SPEED";amount=2;type="RELATIVE"}'
+    lores:
+      0:
+        - '&eTốc độ di chuyển tăng tốc độ đi bộ. +%2'
+      1:
+        - '&eTốc độ di chuyển tăng tốc độ đi bộ. +%2'
+  f3:
+    name: 'Tốc Độ Di Chuyển'
+    coordinates:
+      x: 1
+      y: 1
+
+    parents:
+      strong:
+        f2: 1
+
+    max-level: 1
+    size: 1
+    point-consumed: 1
+    experience-table:
+      first_table_item:
+        triggers:
+          - 'stat{stat="MOVEMENT_SPEED";amount=6;type="RELATIVE"}'
+    lores:
+      0:
+        - '&eTốc độ di chuyển tăng tốc độ đi bộ. +%6'
+      1:
+        - '&eTốc độ di chuyển tăng tốc độ đi bộ. +%6'
+
+  ## G
+
+  g1:
+    name: 'Sát Thương Dự Án'
+    coordinates:
+      x: 0
+      y: 1
+
+    parents:
+      strong:
+        f3: 1
+
+    max-level: 1
+    size: 1
+    point-consumed: 1
+    experience-table:
+      first_table_item:
+        triggers:
+          - 'stat{stat="PROJECTILE_DAMAGE";amount=2;type="RELATIVE"}'
+    lores:
+      0:
+        - '&eSát thương kỹ năng/vũ khí bổ sung +%2'
+      1:
+        - '&eSát thương kỹ năng/vũ khí bổ sung +%2'
+  g2:
+    name: 'Sát Thương Dự Án'
+    coordinates:
+      x: 0
+      y: 2
+
+    parents:
+      strong:
+        g1: 1
+
+    max-level: 1
+    size: 1
+    point-consumed: 1
+    experience-table:
+      first_table_item:
+        triggers:
+          - 'stat{stat="PROJECTILE_DAMAGE";amount=2;type="RELATIVE"}'
+    lores:
+      0:
+        - '&eSát thương kỹ năng/vũ khí bổ sung +%2'
+      1:
+        - '&eSát thương kỹ năng/vũ khí bổ sung +%2'
+  g3:
+    name: 'Sát Thương Dự Án'
+    coordinates:
+      x: -1
+      y: 2
+
+    parents:
+      strong:
+        g2: 1
+
+    max-level: 1
+    size: 1
+    point-consumed: 1
+    experience-table:
+      first_table_item:
+        triggers:
+          - 'stat{stat="PROJECTILE_DAMAGE";amount=6;type="RELATIVE"}'
+    lores:
+      0:
+        - '&eSát thương kỹ năng/vũ khí bổ sung +%6'
+      1:
+        - '&eSát thương kỹ năng/vũ khí bổ sung +%6'

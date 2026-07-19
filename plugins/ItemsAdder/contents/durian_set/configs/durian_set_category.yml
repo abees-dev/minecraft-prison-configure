@@ -1,0 +1,22 @@
+info:
+    namespace: durian_set
+categories:
+    durian_set:
+        name: Durian Tools & Cosmetics Set Pack
+        enabled: true
+        icon: durian_set:durian_sword
+        permission: ia.menu.durian_set
+        items:
+        - durian_set:durianhelmet
+        - durian_set:durian_helmet
+        - durian_set:durianchestplate
+        - durian_set:durianleggings
+        - durian_set:durianboots
+        - durian_set:durian_hoe
+        - durian_set:durian_axe
+        - durian_set:durian_pickaxe
+        - durian_set:durian_shovel
+        - durian_set:durian_sword
+        - durian_set:durian_cape
+
+#MlYlhkRxFlN1RnZXRlcXF0crZUY3lkeNFzZ61EejRUTws2aXdVdMN1UNdGbRhGMoVjTadFO

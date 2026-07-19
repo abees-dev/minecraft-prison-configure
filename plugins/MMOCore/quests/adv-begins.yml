@@ -1,0 +1,29 @@
+# Display options
+name: 'Khởi Đầu Của Một Cuộc Phiêu Lưu'
+lore:
+  - 'Một ví dụ về nhiệm vụ khác.'
+  - ''
+  - '&ePhần Thưởng:'
+  - '&7► Dụng Cụ Đá'
+  - '&7► 30 Kinh Nghiệm'
+
+# Parent quests
+parent:
+  - 'hướng dẫn'
+
+# Quest objectives
+objectives:
+  1:
+    type: 'goto{world="world";x=120;y=46;z=652;range=10}'
+    lore: 'Đi đến trại.'
+    triggers:
+      - 'message{format="Làm tốt lắm!"}'
+  2:
+    type: 'talkto{npc=0}'
+    lore: 'Đi nói chuyện với Thợ Rèn.'
+    triggers:
+      - 'message{format="Thợ rèn bảo bạn đến gặp tôi... ?"}'
+      - 'item{type=STONE_SWORD}'
+      - 'item{type=STONE_AXE}'
+      - 'item{type=STONE_PICKAXE}'
+      - 'experience{amount=30}'

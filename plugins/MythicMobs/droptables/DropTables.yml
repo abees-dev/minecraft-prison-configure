@@ -1,0 +1,17 @@
+ZombieNormalItemDrops:
+  MinItems: 1
+  MaxItems: 3
+  Drops:
+    - money 100to200 0.3
+    - exp 20to30 1
+    - iadungeon:crystal_of_destruction_1 1to2 0.1
+ZomebieWarriorDrops:
+  MinItems: 1
+  MaxItems: 3
+  Drops:
+    - money 200to300 0.3
+HuskWarriorDrops:
+  MinItems: 1
+  MaxItems: 3
+  Drops:
+    - money 300to400 0.3

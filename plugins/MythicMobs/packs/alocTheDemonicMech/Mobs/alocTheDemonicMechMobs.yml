@@ -1,0 +1,102 @@
+alocTheDemonicMech:
+  Type: silverfish
+  Health: 500
+  Options:
+    Collidable: false
+    FollowRange: 80
+    MovementSpeed: 0.001
+    PreventBlockInfection: true
+    PreventOtherDrops: true
+    KnockbackResistance: 1
+    Silent: true 
+  BossBar:
+    Enabled: true
+    Range: 80
+    Color: RED
+    Style: SEGMENTED_20
+    Title: "Áloc, the Demonic Mech"
+  AIGoalSelectors:
+  - clear 
+  - meleeattack
+  AITargetSelectors:
+  - clear
+  - players  
+  KillMessages:
+  - '<target.name> was slay by &cÁloc The Demonic Mech'  
+  Skills:
+  - skill:alocDemonicMechBGSpawn @Self ~onSpawn 
+  - skill{s=[ 
+      - cancelEvent
+      - skill:alocDemonicMechBGMeleeAttackI 
+    ];sync=true} @Self ~onAttack
+  - skill:alocTheDemonicMechDamaged @Self ~onDamaged 
+  - skill:alocDemonicMechBGSpawn_Start @PIR{r=40;ignore=creative,spectators} ~onTimer:30
+  - randomskill{
+      s=
+        alocDemonicMechBGFireBallShoot,alocDemonicMechBGFireBallShootRote,alocDemonicMechBGFireBallShootShort,alocDemonicMechBGMeleeAttackI
+      } @Self ~onTimer:80
+  - skill:alocDemonicMechBGCast ~onDamaged 0.55 <90%
+  - skill:alocDemonicMechBGDespawn ~onDespawn
+  - skill:alocDemonicMechBGDeath @Self ~onDeath
+alocTheDemonicMechNormalBallVFX:
+  Type: silverfish
+  Options:
+    PreventBlockInfection: true
+    PreventOtherDrops: true
+    Invincible: true 
+    Collidable: false
+    Despawn: falses
+    Silent: true
+    NoAI: true 
+  Skills:
+  - skill{s=[
+      - model{m=aloc_the_demonic_mech_normal_fireball;usm=true;r=90} 
+      - brightness{mid=aloc_the_demonic_mech_normal_fireball;b=15;s=15} @Self 
+    ]} @Self ~onSpawn 
+alocTheDemonicMechShrapnelVFX:
+  Type: silverfish
+  Options:
+    PreventBlockInfection: true
+    PreventOtherDrops: true
+    Invincible: true 
+    Collidable: false
+    Despawn: falses
+    Silent: true
+    NoAI: true 
+  Skills:
+  - skill{s=[
+      - model{m=aloc_the_demonic_mech_shrapnel;usm=true;r=90} 
+      - brightness{mid=aloc_the_demonic_mech_shrapnel;b=15;s=15} @Self 
+    ]} @Self ~onSpawn 
+alocTheDemonicMechBladesVFX:
+  Type: silverfish
+  Options:
+    PreventBlockInfection: true
+    PreventOtherDrops: true
+    Invincible: true 
+    Collidable: false
+    Despawn: falses
+    Silent: true
+    NoAI: true 
+  Skills:
+  - skill{s=[
+      - model{m=aloc_the_demonic_mech_blades;usm=true;r=90} 
+      - brightness{mid=aloc_the_demonic_mech_blades;b=15;s=15} @Self 
+    ]} @Self ~onSpawn 
+alocTheDemonicMechBaseDummy:
+  Type: silverfish
+  Options:
+    PreventBlockInfection: true
+    PreventOtherDrops: true
+    Despawn: false 
+    Invincible: true
+    Invisible: true
+    Silent: true
+    NoAI: true
+  Skills:
+  - skill{s=[
+      - model{m=aloc_the_demonic_mech_base;usm=true;r=60;d=false}
+      - brightness{p=base;b=15;s=15} @Self
+    ]} @Self ~onSpawn
+#33d0a4cd2c87c3ef1ab31d89e544dd15
+#Y1UlNjMq1GdBVVOEZkY3MjbVRUT3lkeNFzZ61EejRUTwUEMNh2VPRTZ3lkRVZnNwNDSwZFO

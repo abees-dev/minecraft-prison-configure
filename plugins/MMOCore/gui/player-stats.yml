@@ -1,0 +1,240 @@
+# Tên hiển thị GUI
+name: Nhân Vật Của Bạn
+
+# Số lượng ô trong kho của bạn. Phải nằm trong khoảng từ 9 đến 54 và phải là bội số của 9.
+slots: 54
+
+items:
+  mining-profession:
+    slots: [10]
+    function: profession_mining
+    item: IRON_PICKAXE
+    name: '&aKhai Thác'
+    hide-flags: true
+    lore:
+      - ''
+      - '&7Cấp Hiện Tại: &e{level}'
+      - '&8[&e{progress}&8] &e{percent}%'
+      - ''
+      - '&7&oKhai thác mở khóa các quặng và nguyên liệu thô hiếm.'
+      - '&7&oĐiều này rất quan trọng cho sự thăng tiến của bạn,'
+      - '&7&ohãy khai thác thường xuyên để nhận được các vật phẩm độc đáo và hiếm.'
+  woodcutting-profession:
+    slots: [11]
+    function: profession_woodcutting
+    item: IRON_AXE
+    name: '&aĐốn Củi'
+    hide-flags: true
+    lore:
+      - ''
+      - '&7Cấp Hiện Tại: &e{level}'
+      - '&8[&e{progress}&8] &e{percent}%'
+      - ''
+      - '&7&oMặc dù có vẻ như là một công việc nhàm chán, đốn củi'
+      - '&7&orất quan trọng để thu thập nguyên liệu dùng cho chế tạo và thương mại,'
+      - '&7&ovà sẽ giúp bạn có lợi thế trong các cách thức huyền bí.'
+  farming-profession:
+    slots: [12]
+    function: profession_farming
+    item: IRON_HOE
+    name: '&aNông Nghiệp'
+    hide-flags: true
+    lore:
+      - ''
+      - '&7Cấp Hiện Tại: &e{level}'
+      - '&8[&e{progress}&8] &e{percent}%'
+      - ''
+      - '&7&oVới nhiều công thức nấu ăn và tiêu thụ mới,'
+      - '&7&obạn sẽ cần phải chăm sóc cây trồng để'
+      - '&7&ocó được thực phẩm và đồ uống tốt nhất để giữ sức khỏe.'
+  fishing-profession:
+    slots: [19]
+    function: profession_fishing
+    item: FISHING_ROD
+    name: '&aCâu Cá'
+    hide-flags: true
+    lore:
+      - ''
+      - '&7Cấp Hiện Tại: &e{level}'
+      - '&8[&e{progress}&8] &e{percent}%'
+      - ''
+      - '&7&oCâu cá có thể mang lại cho bạn những vật phẩm độc đáo'
+      - '&7&omà bạn không thể tìm thấy ở bất kỳ đâu khác. Càng câu nhiều,'
+      - '&7&obạn càng dễ dàng tìm thấy những vật phẩm này.'
+      - ''
+      - '&7Sức Mạnh Câu Cá: &c{fishing_strength}%'
+      - '&7Tỷ Lệ Câu Cá Chí Mạng: &c{critical_fishing_chance}%'
+      - '&7Tỷ Lệ Thất Bại Chí Mạng: &c{critical_fishing_failure_chance}%'
+  alchemy-profession:
+    slots: [20]
+    function: profession_alchemy
+    item: BREWING_STAND
+    name: '&aThuật Giả Kim'
+    lore:
+      - ''
+      - '&7Cấp Hiện Tại: &e{level}'
+      - '&8[&e{progress}&8] &e{percent}%'
+      - ''
+      - '&7&oTrong một thế giới mà bạn không còn bị giới hạn bởi'
+      - '&7&ocác loại thuốc đơn giản, hãy thử học các công thức pha chế mới'
+      - '&7&onhiều để có lợi thế trên chiến trường.'
+  smithing-profession:
+    slots: [21]
+    function: profession_smithing
+    item: ANVIL
+    name: '&aRèn'
+    lore:
+      - ''
+      - '&7Cấp Hiện Tại: &e{level}'
+      - '&8[&e{progress}&8] &e{percent}%'
+      - ''
+      - '&7&oĐâm kẻ thù và bị chúng cười nhạo là điều tồi tệ nhất,'
+      - '&7&oLuyện tập làm cho hoàn hảo khi nói đến rèn.'
+      - '&7&o&nChiến tranh được thắng bởi người có cây gậy nhọn nhất.'
+  enchanting-profession:
+    slots: [28]
+    function: profession_enchanting
+    item: ENCHANTED_BOOK
+    name: '&aPhù Phép'
+    lore:
+      - ''
+      - '&7Cấp Hiện Tại: &e{level}'
+      - '&8[&e{progress}&8] &e{percent}%'
+      - ''
+      - '&7&oLorem ipsum dolor sit amet, consectetur'
+      - '&7&oadipiscing elit. Proin malesuada maximus massa,'
+      - '&7&osodales imperdiet sapien fermentum at.'
+  smelting-profession:
+    slots: [29]
+    function: profession_smelting
+    item: FURNACE
+    name: '&aNấu Chảy'
+    lore:
+      - ''
+      - '&7Cấp Hiện Tại: &e{level}'
+      - '&8[&e{progress}&8] &e{percent}%'
+      - ''
+      - '&7&oViệc hát lông mày sẽ trở nên tiêu chuẩn.'
+      - '&7&oNhững giờ dài bên nhiệt sẽ làm bạn'
+      - '&7&onhanh hơn và hiệu quả hơn với lò của mình.'
+  boost-display:
+    slots: [47, 48, 49, 50, 51]
+    function: boost
+    item: BARRIER
+    no-boost:
+      item: GRAY_STAINED_GLASS_PANE
+      name: '&aKhông Có Tăng Cường'
+      lore: {}
+
+    # Tăng kinh nghiệm nghề nghiệp
+    profession:
+      item: EXPERIENCE_BOTTLE
+      name: '&aTăng EXP'
+      lore:
+        - '&7Số Lượng: &6+{value}%'
+        - '&7Thời Gian Còn Lại: &6{left}'
+        - '&7Nghề Nghiệp: &6{profession}'
+        - '&7'
+        - '&eBắt đầu bởi {author}'
+
+    # Tăng kinh nghiệm cấp chính
+    main-level:
+      item: EXPERIENCE_BOTTLE
+      name: '&aTăng EXP'
+      lore:
+        - '&7Số Lượng: &6+{value}%'
+        - '&7Thời Gian Còn Lại: &6{left}'
+        - '&7'
+        - '&eBắt đầu bởi {author}'
+  boost-next:
+    slots: [52]
+    function: boost-next
+    item: PLAYER_HEAD
+    texture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTliZjMyOTJlMTI2YTEwNWI1NGViYTcxM2FhMWIxNTJkNTQxYTFkODkzODgyOWM1NjM2NGQxNzhlZDIyYmYifX19
+    name: '&aTiếp Theo'
+    lore: {}
+  boost-prev:
+    slots: [46]
+    function: boost-previous
+    item: PLAYER_HEAD
+    texture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmQ2OWUwNmU1ZGFkZmQ4NGU1ZjNkMWMyMTA2M2YyNTUzYjJmYTk0NWVlMWQ0ZDcxNTJmZGM1NDI1YmMxMmE5In19fQ==
+    name: '&aTrước'
+    lore: {}
+  party:
+    slots: [16]
+    function: party
+    item: CAKE
+    name: '&aTinh Thần Đội'
+    lore:
+      - '&7&oChơi với bạn bè'
+      - '&7&orất khuyến khích bạn!'
+      - ''
+      - '&7Phần Thưởng Đội ({count}):'
+      - '&8+{buff_additional_experience} Kinh Nghiệm Nhận Được!'
+      - '&8+{buff_health_regeneration} Hồi Phục Sức Khỏe'
+  stats:
+    slots: [15]
+    function: profile
+    item: PLAYER_HEAD
+    name: '&e{player}'
+    lore:
+      - ''
+      - '&7Cấp Hiện Tại: &e{level}'
+      - '&7Tiến Trình: &e{exp} / {next_level}'
+      - '&8[&e{progress}&8] &e{percent}%'
+      - '&7Điểm Kỹ Năng: &6{skill_points}'
+      - ''
+      - '&7Lớp Hiện Tại: &c{class}'
+      - '&7Điểm Lớp: &c{class_points}'
+  phys:
+    slots: [32]
+    function: stats
+    name: '&cThể Chất'
+    item: GOLDEN_APPLE
+    hide-flags: true
+    lore:
+      - ''
+      - 'Sức Mạnh Hiện Tại: &c&l{attribute_strength}'
+      - ''
+      - '✦ Sát Thương Tấn Công: &c{attack_damage} &7(&c{attack_damage_base} &7+ &c{attack_damage_extra}&7)'
+      - '✦ Tốc Độ Tấn Công: &c{attack_speed} &7(&c{attack_speed_base} &7+ &c{attack_speed_extra}&7)'
+      - ''
+      - '❤ Máu Tối Đa: &c{max_health} &7(&c{max_health_base} &7+ &c{max_health_extra}&7)'
+      - '❤ Hồi Phục Máu: &c{health_regeneration} &7(&c{health_regeneration_base} &7+ &c{health_regeneration_extra}&7)'
+      - ''
+      - '✤ Thể Lực Tối Đa: &9{max_stamina} &7(&9{max_stamina_base} &7+ &9{max_stamina_extra}&7)'
+      - '✤ Hồi Phục Thể Lực: &9{stamina_regeneration} &7(&9{stamina_regeneration_base} &7+ &9{stamina_regeneration_extra}&7)'
+      - ''
+      - '❖ Giáp: &c{armor} &7(&c{armor_base} &7+ &c{armor_extra}&7)'
+      - '❖ Độ Bền Giáp: &c{armor_toughness} &7(&c{armor_toughness_base} &7+ &c{armor_toughness_extra}&7)'
+  dex:
+    slots: [33]
+    function: stats
+    name: '&aKhéo Léo'
+    item: LEATHER_BOOTS
+    hide-flags: true
+    lore:
+      - ''
+      - 'Khéo Léo Hiện Tại: &a&l{attribute_dexterity}'
+      - ''
+      - '✤ Kháng Đẩy Lùi: &f{knockback_resistance} &7(&f{knockback_resistance_base} &7+ &f{knockback_resistance_extra}&7)'
+      - '✤ Tốc Độ Di Chuyển: &f{movement_speed} &7(&f{movement_speed_base} &7+ &f{movement_speed_extra}&7)'
+      - '✤ Giảm Tốc Độ Bị Giảm: &f{speed_malus_reduction}% &7(&f{speed_malus_reduction_base} &7+ &f{speed_malus_reduction_extra}&7)'
+  int:
+    slots: [34]
+    function: stats
+    name: '&bTrí Tuệ'
+    item: BOOK
+    hide-flags: true
+    lore:
+      - ''
+      - 'Trí Tuệ Hiện Tại: &b&l{attribute_intelligence}'
+      - ''
+      - '✤ Mana Tối Đa: &9{max_mana} &7(&9{max_mana_base} &7+ &9{max_mana_extra}&7)'
+      - '✤ Hồi Phục Mana: &9{mana_regeneration} &7(&9{mana_regeneration_base} &7+ &9{mana_regeneration_extra}&7)'
+      - ''
+      - '✤ Giảm Thời Gian Hồi Chiêu: &9{cooldown_reduction} &7(&9{cooldown_reduction_base} &7+ &9{cooldown_reduction_extra}&7)'
+      - '✤ Kinh Nghiệm Thêm: &9{additional_experience} &7(&9{additional_experience_base} &7+ &9{additional_experience_extra}&7)'
+      - ''
+      - '❊ Stellium Tối Đa: &9{max_stellium} &7(&9{max_stellium_base} &7+ &9{max_stellium_extra}&7)'
+      - '❊ Hồi Phục Stellium: &9{stellium_regeneration} &7(&9{stellium_regeneration_base} &7+ &9{stellium_regeneration_extra}&7)'

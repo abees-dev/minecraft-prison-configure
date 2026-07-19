@@ -1,0 +1,77 @@
+info:
+  namespace: sushiset
+items:
+  sushi_cosmetics_backpack:
+    display_name: Sushi Backpack Cosmetics
+    permission: sushiset.sushi_cosmetics_backpack
+    resource:
+      generate: false
+      model_path: backpack_cosmetic
+      material: POTION
+      model_id: 9223000
+  sushi_cosmetics_backpack_self:
+    display_name: Sushi Backpack Cosmetics Self
+    permission: sushiset.sushi_cosmetics_backpack_self
+    resource:
+      generate: false
+      model_path: backpack_cosmetic_self
+      material: POTION
+      model_id: 9223001
+  sushi_cosmetics_backpack_self_2:
+    display_name: Sushi Backpack Cosmetics Self 2
+    permission: sushiset.sushi_cosmetics_backpack_self_2
+    resource:
+      generate: false
+      model_path: backpack_cosmetic_self_2
+      material: POTION
+      model_id: 9223002
+  sushi_cosmetics_backpack_normal_2:
+    display_name: Sushi Backpack Cosmetics Normal 2
+    permission: sushiset.sushi_cosmetics_backpack_normal_2
+    resource:
+      generate: false
+      model_path: backpack_cosmetic_normal_2
+      material: POTION
+      model_id: 9223003
+  sushi_cosmetics_hat:
+    display_name: Sushi Hat Cosmetics
+    permission: sushiset.sushi_cosmetics_hat
+    resource:
+      generate: false
+      model_path: hat
+      material: POTION
+      model_id: 9223004
+  sushi_cosmetics_wings:
+    display_name: Sushi Wings Cosmetics
+    permission: sushiset.sushi_cosmetics_wings
+    resource:
+      generate: false
+      model_path: wings_cosmetic
+      material: POTION
+      model_id: 9223005
+  sushi_cosmetics_wings_self:
+    display_name: Sushi Wings Cosmetics Self
+    permission: sushiset.sushi_cosmetics_wings_self
+    resource:
+      generate: false
+      model_path: wings_cosmetic_self
+      material: POTION
+      model_id: 9223006
+  sushi_cosmetics_wings_self_2:
+    display_name: Sushi Wings Cosmetics Self 2
+    permission: sushiset.sushi_cosmetics_wings_self_2
+    resource:
+      generate: false
+      model_path: wings_cosmetic_self_2
+      material: POTION
+      model_id: 9223007
+  sushi_cosmetics_wings_normal_2:
+    display_name: Sushi Wings Cosmetics Normal 2
+    permission: sushiset.sushi_cosmetics_wings_normal_2
+    resource:
+      generate: false
+      model_path: wings_cosmetic_normal_2
+      material: POTION
+      model_id: 9223008
+
+#ADSXRDa2t0RpdTZaJDNLVVcjdUYxkERPFTRq5EMRRlT5d3RVNDdiVmat5GZht0NwQHT4QUN

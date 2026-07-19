@@ -1,0 +1,151 @@
+# Weapon Stats
+attack-damage: '&8[&c🗡&8] &7ATK: &c{value}' # Red for Attack Damage
+attack-speed: '&8[&c⚔&8] &7ATS: &c{value}' # Red for Attack Speed
+critical-strike-chance: '&8[&6⚡&8] &7CRIT: &6+{value}%' # Yellow for Critical Chance
+critical-strike-power: '&8[&6⚡&8] &7CRIT DMG: &6+{value}%' # Yellow for Critical Damage
+skill-critical-strike-chance: '&8[&6⚡&8] &7SKILL CRIT: &6+{value}%' # Yellow for Skill Critical Chance
+skill-critical-strike-power: '&8[&6⚡&8] &7SKILL CRIT DMG: &6+{value}%' # Yellow for Skill Critical Damage
+range: '&8[&6📏&8] &7RANGE: &6{value}' # Yellow for Range
+mana-cost: '&8[&9💧&8] &7MP COST: &9{value}' # Blue for Mana
+stamina-cost: '&8[&9💪&8] &7STAMINA: &9{value}' # Blue for Stamina
+arrow-velocity: '&8[&6🏹&8] &7ARROW SPD: &6{value}' # Yellow for Arrow Speed
+blunt-power: '&8[&6💥&8] &7BLUNT PWR: &6{value}' # Yellow for Blunt Power
+blunt-rating: '&8[&6💥&8] &7BLUNT RATE: &6{value}%' # Yellow for Blunt Rating
+two-handed: '&8[&c✖&8] &7TWO-HANDED' # Red for Two-Handed
+handworn: '&8[&7✋&8] &7HANDWORN' # Gray for Handworn
+knockback: '&8[&6🌀&8] &7KB: &6{value}' # Yellow for Knockback
+recoil: '&8[&6🔄&8] &7RECOIL: &6{value}%' # Yellow for Recoil
+note-weight: '&8[&6🎵&8] &7NOTE WGT: &6{value}' # Yellow for Note Weight
+lifesteal: '&8[&c❤&8] &7LIFESTEAL: &c+{value}%' # Red for Lifesteal
+spell-vampirism: '&8[&c🧙&8] &7SPELL VAMP: &c+{value}%' # Red for Spell Vamp
+
+# Extra Damage
+pve-damage: '&8[&7⚔&8] &7PvE: &6+{value}%' # Yellow for PvE Damage
+pvp-damage: '&8[&7⚔&8] &7PvP: &6+{value}%' # Yellow for PvP Damage
+magic-damage: '&8[&7✨&8] &7MAGIC: &6+{value}%' # Yellow for Magic Damage
+weapon-damage: '&8[&7🗡&8] &7WEAPON: &6+{value}%' # Yellow for Weapon Damage
+undead-damage: '&8[&7☠&8] &7UNDEAD: &6+{value}%' # Yellow for Undead Damage
+skill-damage: '&8[&7🎯&8] &7SKILL: &6+{value}%' # Yellow for Skill Damage
+physical-damage: '&8[&7💪&8] &7PHYS: &6+{value}%' # Yellow for Physical Damage
+projectile-damage: '&8[&7🎯&8] &7PROJECTILE: &6+{value}%' # Yellow for Projectile Damage
+faction-damage-undead: '&8[&7☠&8] &7FACTION (UNDEAD): &6+{value}%' # Yellow for Faction Damage (Undead)
+
+# Abilities
+ability-format: '&a>&8| &7{trigger} &8|&e|&8| &7&l{ability}'
+ability-modifier: ' &7>&8|&7 {modifier}&8: {value}'
+ability-splitter: '&8'
+# Armor Stats
+block-power: '&8[&6🛡&8] &7Block Pwr: &6<plus>{value}%'
+block-rating: '&8[&6🛡&8] &7Block Rtng: &6<plus>{value}%'
+block-cooldown-reduction: '&8[&6⏳&8] &7Block CD Rdnctn: &6<plus>{value}%'
+dodge-rating: '&8[&6💨&8] &7Dodge Rtng: &6<plus>{value}%'
+dodge-cooldown-reduction: '&8[&6⏳&8] &7Dodge CD Rdnctn: &6<plus>{value}%'
+parry-rating: '&8[&6⚔&8] &7Parry Rtng: &6<plus>{value}%'
+parry-cooldown-reduction: '&8[&6⏳&8] &7Parry CD Rdnctn: &6<plus>{value}%'
+armor: '&8[&6🦾&8] &7Armor: &6<plus>{value}'
+armor-toughness: '&8[&6🛡&8] &7Armor Tough: &6<plus>{value}'
+knockback-resistance: '&8[&6🌀&8] &7Knockback Res: &6<plus>{value}%'
+max-health: '&8[&c❤&8] &7Max HP: &c<plus>{value}'
+movement-speed: '&8[&6⚡&8] &7Move Spd: &6<plus>{value}'
+
+# Damage Reduction Stats
+defense: '&8[&6🛡&8] &7Defense: &6<plus>{value}'
+damage-reduction: '&8[&6🔻&8] &7Damage Reduction: &6<plus>{value}%'
+fall-damage-reduction: '&8[&6🪂&8] &7Fall Damage Reduction: &6<plus>{value}%'
+fire-damage-reduction: '&8[&6🔥&8] &7Fire Damage Reduction: &6<plus>{value}%'
+magic-damage-reduction: '&8[&6🔮&8] &7Magic Damage Reduction: &6<plus>{value}%'
+projectile-damage-reduction: '&8[&6🏹&8] &7Projectile Damage Reduction: &6<plus>{value}%'
+physical-damage-reduction: '&8[&6⚔&8] &7Physical Damage Reduction: &6<plus>{value}%'
+pve-damage-reduction: '&8[&6🛡&8] &7PvE Damage Reduction: &6<plus>{value}%'
+pvp-damage-reduction: '&8[&6⚔&8] &7PvP Damage Reduction: &6<plus>{value}%'
+
+# RPG Stats
+health-regeneration: '&8[&c❤️‍🩹&8] &7Health Regen: &c<plus>{value}'
+max-mana: '&8[&6🔵&8] &7Max Mana: &6<plus>{value}'
+mana-regeneration: '&8[&6🔄&8] &7Mana Regen: &6<plus>{value}'
+max-stamina: '&8[&6🏃&8] &7Max Stamina: &6<plus>{value}'
+stamina-regeneration: '&8[&6🔄&8] &7Stamina Regen: &6<plus>{value}'
+cooldown-reduction: '&8[&6⏳&8] &7Cooldown Reduction: &6<plus>{value}%'
+
+# Additional Experience Stats
+additional-experience: '&8[&6✨&8] &7Experience: &6<plus>{value}%'
+additional-experience-alchemy: '&8[&6🧪&8] &7Alchemy Experience: &6<plus>{value}%'
+additional-experience-enchanting: '&8[&6🔮&8] &7Enchanting Experience: &6<plus>{value}%'
+additional-experience-farming: '&8[&6🌾&8] &7Farming Experience: &6<plus>{value}%'
+additional-experience-fishing: '&8[&6🎣&8] &7Fishing Experience: &6<plus>{value}%'
+additional-experience-mining: '&8[&6⛏️&8] &7Mining Experience: &6<plus>{value}%'
+additional-experience-smelting: '&8[&6🔥&8] &7Smelting Experience: &6<plus>{value}%'
+additional-experience-smithing: '&8[&6⚒️&8] &7Smithing Experience: &6<plus>{value}%'
+additional-experience-woodcutting: '&8[&6🪓&8] &7Woodcutting Experience: &6<plus>{value}%'
+
+# Extra Options
+perm-effect: '&7Permanent Effect: {effect}'
+command: '&7Command: {format} &7(&7{cooldown}&7s)'
+item-cooldown: '&7Item Cooldown: &6{value}s' # Yellow for Item Cooldown
+arrow-potion-effects: '&7Arrow Potion Effects: {effect}'
+
+# Consumables
+restore-health: '&7Restore &c{value} Health' # Red for Health Restore
+restore-food: '&7Restore {value} Food'
+restore-saturation: '&7Restore {value} Saturation'
+restore-mana: '&7Restore {value} Mana'
+restore-stamina: '&7Restore {value} Stamina'
+effect: '&7Increase {effect} for {duration} s'
+repair: '&7Repair: &6{value}' # Yellow for Repair
+repair-percent: '&7Repair: &6{value}%' # Yellow for Repair
+can-identify: '&7Identify: &aYes' # Green for "Yes"
+can-deconstruct: '&7Deconstruct: &aYes' # Green for "Yes"
+can-deskin: '&7Deskin: &aYes' # Green for "Yes"
+success-rate: '&7Success Rate: &a&l{value}%' # Green for Success Rate
+max-consume: '&7Remaining Uses: {value}'
+
+# Gem Stones
+empty-gem-socket: '&a◆ Empty Gem'
+filled-gem-socket: '&a◆ {name}'
+when-applied: '&aWhen Applied:'
+gem-stone-lore: '&8&l[&2&l*&8&l] &aDrag into item &7to apply!'
+
+# Soulbound
+soulbinding-chance: '&7Soulbind Chance: &a{value}%' # Green for Soulbind
+soulbound-break-chance: '&7Soulbind Break Chance: &a{value}%' # Green for Soulbind Break
+soulbound-level: '&7Soulbound Level &e{value}' # Yellow for Soulbound
+
+# Tools
+autosmelt: '&7Auto Smelt'
+bouncing-crack: '&7Bouncing Crack'
+pickaxe-power: '&7Pickaxe Power: &a{value}'
+durability: '&7Durability: &6{current} / {max}' # Yellow for Durability
+
+# General
+item-type: '&7{type}'
+tier: '[ {value} &f]'
+required-class: '&7Required Class: {value}'
+required-level: '&eRequired Level: {value}'
+
+# MMOCore Attributes
+required-dexterity: '&eRequired &c{value} &eDexterity'
+required-strength: '&eRequired &c{value} &eStrength'
+required-intelligence: '&eRequired &c{value} &eIntelligence'
+
+additional-dexterity: '&3 &7◆ Additional Dexterity: &f<plus>{value}'
+additional-strength: '&3 &7◆ Additional Strength: &f<plus>{value}'
+additional-intelligence: '&3 &7◆ Additional Intelligence: &f<plus>{value}'
+
+# Professions
+profession-alchemy: '&eAlchemy Level: &c{value}'
+profession-enchanting: '&eEnchanting Level: &c{value}'
+profession-farming: '&eFarming Level: &c{value}'
+profession-fishing: '&eFishing Level: &c{value}'
+profession-mining: '&eMining Level: &c{value}'
+profession-smelting: '&eSmelting Level: &c{value}'
+profession-smithing: '&eSmithing Level: &c{value}'
+profession-woodcutting: '&eWoodcutting Level: &c{value}'
+
+# Elemental Stat Format
+elemental-damage: '&8[&6🛡&8] &7{value} Damage {element}'
+elemental-damage-percent: '&8[&6🔥&8] &7+{value}% Damage {element}'
+elemental-defense: '&8[&6🛡&8] &7{value} Defense {element}'
+elemental-defense-percent: '&8[&6🛡&8] &7+{value}% Defense {element}'
+elemental-weakness: '&8[&6⚡&8] &7{value}% Weakness {element}'
+elemental-resistance: '&8[&6🔥&8] &7{value}% Resistance {element}'
+elemental-immunity: '&8[&6🔥&8] &7{value}% Immunity {element}'

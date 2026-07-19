@@ -1,0 +1,41 @@
+display:
+    name: '&b&lVoid Edge'
+    lore:
+    - '&cR|RPG Necromancer Class'
+    item: PAPER:40001 # Supports custom model data/texture by durability
+
+# Must match an existing exp curve filename from the 'expcurves' folder
+exp-curve: levels
+
+# The maximum level players can reach
+max-level: 100
+
+exp-table: class_exp_table
+
+skills:
+    VOID_EDGE_DIMENSION_BENEDICTION:
+        level: 1
+        max-level: 30
+    VOID_EDGE_DIMENSION_CUT:
+        level: 1
+        max-level: 30
+    VOID_EDGE_KATANA_UPPER_SLASH:
+        level: 1
+        max-level: 30
+    VOID_EDGE_PIERCING_DIMENSION:
+        level: 1
+        max-level: 20
+
+skill-slots:
+    1:
+        name: "&aSkill Slot I (Passive)"
+        unlocked-by-default: true
+    2:
+        name: "&aSkill Slot II"
+        unlocked-by-default: true
+    3:
+        name: "&aSkill Slot III"
+        unlocked-by-default: true
+    4:
+        name: "&aSkill Slot IV"
+        unlocked-by-default: true

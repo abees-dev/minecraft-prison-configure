@@ -1,0 +1,1 @@
+{"textures":{"52":"modelengine:entity/frost53"},"elements":[{"from":[0.0,8.0,0.0],"to":[16.0,8.0,16.0],"faces":{"up":{"uv":[16.0,16.0,0.0,0.0],"tintindex":0,"rotation":0,"texture":"#52"},"down":{"uv":[16.0,0.0,0.0,16.0],"tintindex":0,"rotation":0,"texture":"#52"}}}],"display":{"gui":{"rotation":[30,225,0]}}}

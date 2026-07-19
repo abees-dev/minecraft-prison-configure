@@ -1,0 +1,23 @@
+info:
+  namespace: base_item
+categories:
+  upgrades:
+    enabled: true
+    name: '&6 base_item'
+    icon: base_item:jewelry_shard_1
+    items:
+      - base_item:armor_shard_1
+      - base_item:armor_shard_2
+      - base_item:armor_shard_3
+      - base_item:armor_shard_4
+      - base_item:armor_shard_5
+      - base_item:weapon_shard_1
+      - base_item:weapon_shard_2
+      - base_item:weapon_shard_3
+      - base_item:weapon_shard_4
+      - base_item:weapon_shard_5
+      - base_item:jewelry_shard_1
+      - base_item:jewelry_shard_2
+      - base_item:jewelry_shard_3
+      - base_item:jewelry_shard_4
+      - base_item:jewelry_shard_5

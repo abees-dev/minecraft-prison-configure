@@ -1,0 +1,32 @@
+info:
+    namespace: spartan_set
+categories:
+    spartan_set:
+        name: Spartan Animated Weapons And Tools Set
+        enabled: true
+        icon: spartan_set:spartan_helmet
+        permission: ia.menu.spartan_set
+        items:
+        - spartan_set:spartanhelmet
+        - spartan_set:spartanchestplate
+        - spartan_set:spartanleggings
+        - spartan_set:spartanboots
+        - spartan_set:spartan_helmet
+        - spartan_set:spartan_cape
+        - spartan_set:spartan_axe
+        - spartan_set:spartan_pickaxe
+        - spartan_set:spartan_shovel
+        - spartan_set:spartan_hoe
+        - spartan_set:spartan_fishing_rod
+        - spartan_set:spartan_sword
+        - spartan_set:spartan_shield
+        - spartan_set:spartan_crossbow
+        - spartan_set:spartan_bow
+        - spartan_set:spartan_staff
+        - spartan_set:spartan_trident
+        - spartan_set:spartan_hammer
+        - spartan_set:spartan_spear
+        - spartan_set:spartan_scythe
+        - spartan_set:spartan_knife
+        - spartan_set:spartan_chest
+        - spartan_set:spartan_key

@@ -1,0 +1,166 @@
+info:
+  namespace: firework_set
+items:
+  firework_axe:
+    display_name: Firework Axe
+    permission: firework_set.axe
+    resource:
+      material: IRON_AXE
+      generate: false
+      model_path: axe
+  firework_bow:
+    display_name: Firework Bow
+    permission: firework_set.bow
+    resource:
+      material: BOW
+      generate: false
+      model_path: bow
+  firework_chest:
+    display_name: Firework Chest
+    permission: firework_set.chest
+    resource:
+      material: PAPER
+      generate: false
+      model_path: chest
+    behaviours:
+      furniture:
+        entity: item_frame
+        fixed_rotation: true
+        hitbox:
+          height: 1
+          height_offset: 0
+          length: 1
+          length_offset: 0
+          width: 1
+          width_offset: 0
+        placeable_on:
+          ceiling: false
+          floor: true
+          walls: false
+        solid: true
+  firework_crossbow:
+    display_name: Firework Crossbow
+    permission: firework_set.crossbow
+    resource:
+      material: CROSSBOW
+      generate: false
+      model_path: crossbow
+  firework_fishing_rod:
+    display_name: Firework Fishing Rod
+    permission: firework_set.fishing_rod
+    resource:
+      material: FISHING_ROD
+      generate: false
+      model_path: fishing_rod
+  firework_greatsword:
+    display_name: Firework Greatsword
+    permission: firework_set.greatsword
+    resource:
+      material: IRON_SWORD
+      generate: false
+      model_path: greatsword
+  firework_hammer:
+    display_name: Firework Hammer
+    permission: firework_set.hammer
+    resource:
+      material: IRON_SWORD
+      generate: false
+      model_path: hammer
+  firework_helmet:
+    display_name: Firework Helmet
+    permission: firework_set.helmet
+    resource:
+      material: PAPER
+      generate: false
+      model_path: helmet
+    attribute_modifiers:
+      head:
+        armor: 2
+    behaviours:
+      hat: true
+    durability:
+      max_custom_durability: 165
+  firework_hoe:
+    display_name: Firework Hoe
+    permission: firework_set.hoe
+    resource:
+      material: IRON_HOE
+      generate: false
+      model_path: hoe
+  firework_key:
+    display_name: Firework Key
+    permission: firework_set.key
+    resource:
+      material: PAPER
+      generate: false
+      model_path: key
+  firework_pickaxe:
+    display_name: Firework Pickaxe
+    permission: firework_set.pickaxe
+    resource:
+      material: IRON_PICKAXE
+      generate: false
+      model_path: pickaxe
+  firework_scythe:
+    display_name: Firework Scythe
+    permission: firework_set.scythe
+    resource:
+      material: IRON_SWORD
+      generate: false
+      model_path: scythe
+  firework_shield:
+    display_name: Firework Shield
+    permission: firework_set.shield
+    resource:
+      material: SHIELD
+      generate: false
+      model_path: shield
+  firework_shovel:
+    display_name: Firework Shovel
+    permission: firework_set.shovel
+    resource:
+      material: IRON_SHOVEL
+      generate: false
+      model_path: shovel
+  firework_spear:
+    display_name: Firework Spear
+    permission: firework_set.spear
+    resource:
+      material: IRON_SWORD
+      generate: false
+      model_path: spear
+  firework_staff:
+    display_name: Firework Staff
+    permission: firework_set.staff
+    resource:
+      material: IRON_SWORD
+      generate: false
+      model_path: staff
+  firework_sword:
+    display_name: Firework Sword
+    permission: firework_set.sword
+    resource:
+      material: IRON_SWORD
+      generate: false
+      model_path: sword
+  firework_trident:
+    display_name: Firework Trident
+    permission: firework_set.trident
+    resource:
+      material: IRON_SWORD
+      generate: false
+      model_path: trident
+  firework_wings:
+    display_name: Firework Wings
+    permission: firework_set.wings
+    resource:
+      material: PAPER
+      generate: false
+      model_path: wings
+    attribute_modifiers:
+      head:
+        armor: 2
+    behaviours:
+      hat: true
+    durability:
+      max_custom_durability: 165

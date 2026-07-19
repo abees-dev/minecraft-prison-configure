@@ -1,0 +1,9 @@
+spawns:
+  default:
+    world: d5e3c010-6520-4498-8bfa-9a467d779179
+    world-name: test
+    x: 8.5
+    y: -60.0
+    z: 10.5
+    yaw: 86.34139251708984
+    pitch: 23.10577964782715

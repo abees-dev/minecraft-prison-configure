@@ -1,0 +1,35 @@
+info:
+  namespace: elitecreatures
+categories:
+  valentine_heart_metal_animated_set:
+    enabled: true
+    icon: "elitecreatures:valentine_heart_metal_animated_set_axe"
+    name: "Valentine Heart Metal Animated Set"
+    permission: "ia.menu.valentine_heart_metal_animated_set"
+    items:
+      - "elitecreatures:valentine_heart_metal_animated_set_axe"
+      - "elitecreatures:valentine_heart_metal_animated_set_backpack"
+      - "elitecreatures:valentine_heart_metal_animated_set_bow"
+      - "elitecreatures:valentine_heart_metal_animated_set_chest"
+      - "elitecreatures:valentine_heart_metal_animated_set_crossbow"
+      - "elitecreatures:valentine_heart_metal_animated_set_dagger"
+      - "elitecreatures:valentine_heart_metal_animated_set_fishing_rod"
+      - "elitecreatures:valentine_heart_metal_animated_set_greatsword"
+      - "elitecreatures:valentine_heart_metal_animated_set_hammer"
+      - "elitecreatures:valentine_heart_metal_animated_set_hat"
+      - "elitecreatures:valentine_heart_metal_animated_set_hoe"
+      - "elitecreatures:valentine_heart_metal_animated_set_key"
+      - "elitecreatures:valentine_heart_metal_animated_set_mace"
+      - "elitecreatures:valentine_heart_metal_animated_set_pickaxe"
+      - "elitecreatures:valentine_heart_metal_animated_set_shield"
+      - "elitecreatures:valentine_heart_metal_animated_set_shovel"
+      - "elitecreatures:valentine_heart_metal_animated_set_spear"
+      - "elitecreatures:valentine_heart_metal_animated_set_staff"
+      - "elitecreatures:valentine_heart_metal_animated_set_sword"
+      - "elitecreatures:valentine_heart_metal_animated_set_wing"
+      - "elitecreatures:valentine_heart_metal_animated_set_helmet"
+      - "elitecreatures:valentine_heart_metal_animated_set_chestplate"
+      - "elitecreatures:valentine_heart_metal_animated_set_leggings"
+      - "elitecreatures:valentine_heart_metal_animated_set_boots"
+
+#78eac6f7216ec066832de2b0c905f535

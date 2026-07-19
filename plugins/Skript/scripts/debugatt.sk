@@ -1,0 +1,46 @@
+import:
+    net.Indyuce.mmocore.MMOCore
+    net.Indyuce.mmocore.manager.AttributeManager
+    net.Indyuce.mmocore.api.player.attribute.PlayerAttribute
+    net.Indyuce.mmocore.api.player.PlayerData
+
+# function resetAttribute(p: player) :: number:
+#     broadcast "Player: %{_p}%"
+#     set {_mmoplayer} to PlayerData.get({_p})
+
+#     if {_mmoplayer} is not set:
+#         return 0
+
+#     set {_mmocore} to MMOCore.getPlugin(MMOCore.class)
+
+#     set {_attributeManagerField} to {_mmocore}.getClass().getDeclaredField("attributeManager")
+#     {_attributeManagerField}.setAccessible(true)
+#     set {_attributeManager} to {_attributeManagerField}.get({_mmocore})
+
+#     set {_attributeMapField} to {_attributeManager}.getClass().getDeclaredField("map")
+#     {_attributeMapField}.setAccessible(true)
+#     set {_attributeMap} to {_attributeMapField}.get({_attributeManager})
+
+#     set {_keySet} to {_attributeMap}.keySet()
+
+#     set {_totalATT} to 0
+
+#     loop numbers from 1 to {_keySet}.size():
+#         set {_attribute} to {_attributeMap}.get({_keySet}.toArray()[loop-number - 1])
+#         set {_attributeID} to {_attribute}.getId()
+#         set {_attributeValue} to {_mmoplayer}.getAttributes().getInstance({_attributeID}).getBase()
+#         add {_attributeValue} to {_totalATT}
+    
+#     return {_totalATT}
+
+command /listattributes <player>:
+    trigger:
+        send "&aĐang tìm kiếm thuộc tính của &e%arg-1%..."
+        # if arg-1 is online:
+        #     set {_total} to resetAttribute(arg-1)
+        #     if {_total} is 0:
+        #         send "&cKhông tìm thấy dữ liệu người chơi hoặc thuộc tính không hợp lệ."
+        #     else:
+        #         send "&aTổng thuộc tính của &e%arg-1% &alà &b%{_total}%"
+        # else:
+        #     send "&cNgười chơi không online."

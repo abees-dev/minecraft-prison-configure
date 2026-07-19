@@ -1,0 +1,38 @@
+# Tên hiển thị GUI, được sử dụng mặc định
+name: 'Xác nhận: {class}'
+
+# Số khe trong kho đồ của bạn. Phải nằm trong khoảng
+# từ 9 đến 54 và phải là bội số của 9.
+slots: 27
+
+items:
+  yes:
+    slots: [12]
+    function: 'yes'
+
+    # Hiển thị khi người chơi đã chọn lớp này
+    # trước đó (chỉ khi các khe lớp được bật trong cấu hình).
+    unlocked:
+      item: GREEN_TERRACOTTA
+      name: '&aChọn {class}'
+      lore:
+        - ''
+        - '&7Cấp độ lớp: &e{level}'
+        - '&7Tiến trình: &e{exp} / {next_level}'
+        - '&8[&e{progress}&8] &e{percent}%'
+        - ''
+        - '&7Điểm kỹ năng: &6{skill_points}'
+        - '&7Kỹ năng bạn đã mở khóa: &6{unlocked_skills}&7/&6{class_skills}'
+
+    # Hiển thị khi lớp được chọn lần đầu tiên.
+    locked:
+      item: GREEN_TERRACOTTA
+      name: '&aChọn {class}'
+      lore: {}
+
+  back:
+    slots: [14]
+    item: RED_TERRACOTTA
+    function: back
+    name: '&aQuay lại'
+    lore: {}

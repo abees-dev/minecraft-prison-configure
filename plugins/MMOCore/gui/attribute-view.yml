@@ -1,0 +1,69 @@
+# Tên hiển thị GUI
+name: Thuộc Tính Người Chơi
+
+# Số khe trong kho đồ của bạn. Phải nằm trong khoảng từ 9 đến 54 và phải là bội số của 9.
+slots: 27
+
+items:
+  reallocate:
+    slots: [26]
+    function: reallocation
+    item: CAULDRON
+    name: '&aĐiểm Thuộc Tính'
+    lore:
+      - ''
+      - 'Bạn đã sử dụng tổng cộng &6{total}&7 điểm thuộc tính.'
+      - '&7Nhấp chuột phải để phân bổ lại.'
+      - ''
+      - '&eTốn 1 điểm phân bổ lại thuộc tính.'
+      - '&e◆ Điểm Phân Bổ Lại Thuộc Tính: &6{points}'
+  str:
+    slots: [11]
+    function: attribute_strength
+    name: '&a{name}'
+    item: GOLDEN_APPLE
+    lore:
+      - ''
+      - '&7Điểm Đã Dùng: &6{spent}&7/&6{max}'
+      - '&7{name} Hiện Tại: &6&l{current}'
+      - ''
+      - '&8Khi Nâng Cấp:'
+      - '&7  +{buff_weapon_damage}% Sát Thương Vũ Khí (&a+{total_weapon_damage}%&7)'
+      - '&7  +{buff_max_health} Máu Tối Đa (&a+{total_max_health}&7)'
+      - ''
+      - '&eNhấp để nâng cấp với 1 điểm thuộc tính.'
+      - '&e◆ Điểm Thuộc Tính Hiện Tại: {attribute_points}'
+  dex:
+    slots: [13]
+    function: attribute_dexterity
+    name: '&a{name}'
+    item: LEATHER_BOOTS
+    hide-flags: true
+    lore:
+      - ''
+      - '&7Điểm Đã Dùng: &6{spent}&7/&6{max}'
+      - '&7{name} Hiện Tại: &6&l{current}'
+      - ''
+      - '&8Khi Nâng Cấp:'
+      - '&7  +{buff_physical_damage}% Sát Thương Vật Lý (&a+{total_physical_damage}%&7)'
+      - '&7  +{buff_projectile_damage}% Sát Thương Dự Án (&a+{total_projectile_damage}%&7)'
+      - '&7  +{buff_attack_speed} Tốc Độ Tấn Công (&a+{total_attack_speed}&7)'
+      - ''
+      - '&eNhấp để nâng cấp với 1 điểm thuộc tính.'
+      - '&e◆ Điểm Thuộc Tính Hiện Tại: {attribute_points}'
+  int:
+    slots: [15]
+    function: attribute_intelligence
+    name: '&a{name}'
+    item: BOOK
+    lore:
+      - ''
+      - '&7Điểm Đã Dùng: &6{spent}&7/&6{max}'
+      - '&7{name} Hiện Tại: &6&l{current}'
+      - ''
+      - '&8Khi Nâng Cấp:'
+      - '&7  +{buff_magic_damage}% Sát Thương Phép (&a+{total_magic_damage}%&7)'
+      - '&7  +{buff_cooldown_reduction}% Giảm Thời Gian Hồi Chiêu (&a+{total_cooldown_reduction}%&7)'
+      - ''
+      - '&eNhấp để nâng cấp với 1 điểm thuộc tính.'
+      - '&e◆ Điểm Thuộc Tính Hiện Tại: {attribute_points}'

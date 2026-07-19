@@ -1,0 +1,15 @@
+staff-spirit:
+  nether-spirit: '&3■ Địa Ngục'
+  void-spirit: '&3■ Hư Không'
+  mana-spirit: '&3■ Mana'
+  lightning-spirit: '&3■ Sét'
+  xray-spirit: '&3■ X-Quang'
+  thunder-spirit: '&3■ Sấm Sét'
+  sunfire-spirit: '&3■ Lửa Mặt Trời'
+lute-attack:
+  wave: '&3■ Sóng'
+  circular: '&3■ Vòng Tròn'
+  slash: '&3■ Chém'
+  simple: '&3■ Đơn Giản'
+  brute: '&3■ Thô Bạo'
+  heavy: '&3■ Nặng Nề'

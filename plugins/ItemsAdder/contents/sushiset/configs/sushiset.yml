@@ -1,0 +1,166 @@
+info:
+  namespace: sushiset
+items:
+  sushi_axe:
+    display_name: Sushi Axe
+    permission: sushiset.axe
+    resource:
+      material: IRON_AXE
+      generate: false
+      model_path: axe
+  sushi_backpack:
+    display_name: Sushi Backpack
+    permission: sushiset.backpack
+    resource:
+      material: PAPER
+      generate: false
+      model_path: backpack
+  sushi_bow:
+    display_name: Sushi Bow
+    permission: sushiset.bow
+    resource:
+      material: BOW
+      generate: false
+      model_path: bow
+  sushi_chest:
+    display_name: Sushi Chest
+    permission: sushiset.chest
+    resource:
+      material: SEA_LANTERN
+      generate: false
+      model_path: chest
+    behaviours:
+      furniture:
+        entity: item_frame
+        fixed_rotation: true
+        hitbox:
+          height: 1
+          height_offset: 0
+          length: 1
+          length_offset: 0
+          width: 1
+          width_offset: 0
+        placeable_on:
+          ceiling: false
+          floor: true
+          walls: false
+        solid: true
+  sushi_crossbow:
+    display_name: Sushi Crossbow
+    permission: sushiset.crossbow
+    resource:
+      material: CROSSBOW
+      generate: false
+      model_path: crossbow
+  sushi_fishing_rod:
+    display_name: Sushi Fishing Rod
+    permission: sushiset.fishing_rod
+    resource:
+      material: FISHING_ROD
+      generate: false
+      model_path: fishing_rod
+  sushi_greatsword:
+    display_name: Sushi Greatsword
+    permission: sushiset.greatsword
+    resource:
+      material: IRON_SWORD
+      generate: false
+      model_path: greatsword
+  sushi_hammer:
+    display_name: Sushi Hammer
+    permission: sushiset.hammer
+    resource:
+      material: IRON_SWORD
+      generate: false
+      model_path: hammer
+  sushi_hat:
+    display_name: Sushi Hat
+    permission: sushiset.hat
+    resource:
+      material: PAPER
+      generate: false
+      model_path: hat
+    attribute_modifiers:
+      head:
+        armor: 2
+    behaviours:
+      hat: true
+    durability:
+      max_custom_durability: 165
+  sushi_hoe:
+    display_name: Sushi Hoe
+    permission: sushiset.hoe
+    resource:
+      material: IRON_HOE
+      generate: false
+      model_path: hoe
+  sushi_key:
+    display_name: Sushi Key
+    permission: sushiset.key
+    resource:
+      material: PAPER
+      generate: false
+      model_path: key
+  sushi_pickaxe:
+    display_name: Sushi Pickaxe
+    permission: sushiset.pickaxe
+    resource:
+      material: IRON_PICKAXE
+      generate: false
+      model_path: pickaxe
+  sushi_scythe:
+    display_name: Sushi Scythe
+    permission: sushiset.scythe
+    resource:
+      material: IRON_SWORD
+      generate: false
+      model_path: scythe
+  sushi_shield:
+    display_name: Sushi Shield
+    permission: sushiset.shield
+    resource:
+      material: SHIELD
+      generate: false
+      model_path: shield
+  sushi_shovel:
+    display_name: Sushi Shovel
+    permission: sushiset.shovel
+    resource:
+      material: IRON_SHOVEL
+      generate: false
+      model_path: shovel
+  sushi_spear:
+    display_name: Sushi Spear
+    permission: sushiset.spear
+    resource:
+      material: IRON_SWORD
+      generate: false
+      model_path: spear
+  sushi_staff:
+    display_name: Sushi Staff
+    permission: sushiset.staff
+    resource:
+      material: IRON_SWORD
+      generate: false
+      model_path: staff
+  sushi_sword:
+    display_name: Sushi Sword
+    permission: sushiset.sword
+    resource:
+      material: IRON_SWORD
+      generate: false
+      model_path: sword
+  sushi_trident:
+    display_name: Sushi Trident
+    permission: sushiset.trident
+    resource:
+      material: IRON_SWORD
+      generate: false
+      model_path: trident
+  sushi_wings:
+    display_name: Sushi Wings
+    permission: sushiset.wings
+    resource:
+      material: PAPER
+      generate: false
+      model_path: wings

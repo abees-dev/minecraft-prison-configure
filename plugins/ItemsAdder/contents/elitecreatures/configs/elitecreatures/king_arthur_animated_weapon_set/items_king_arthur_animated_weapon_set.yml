@@ -1,0 +1,190 @@
+info:
+  namespace: elitecreatures
+armors_rendering:
+  king_arthur_animated_weapon_set:
+    color: '#8c196b'
+    layer_1: king_arthur_animated_weapon_set/king_arthur_armor_layer_1
+    layer_2: king_arthur_animated_weapon_set/king_arthur_armor_layer_2
+    use_color: false
+items:
+  king_arthur_animated_weapon_set_chestplate:
+    display_name: King Arthur Chestplate
+    resource:
+      generate: true
+      textures:
+      - king_arthur_animated_weapon_set/king_arthur_chestplate.png
+    specific_properties:
+      armor:
+        slot: chest
+        custom_armor: king_arthur_animated_weapon_set
+  king_arthur_animated_weapon_set_leggings:
+    display_name: King Arthur Leggings
+    resource:
+      generate: true
+      textures:
+      - king_arthur_animated_weapon_set/king_arthur_leggings.png
+    specific_properties:
+      armor:
+        slot: legs
+        custom_armor: king_arthur_animated_weapon_set
+  king_arthur_animated_weapon_set_boots:
+    display_name: King Arthur Boots
+    resource:
+      generate: true
+      textures:
+      - king_arthur_animated_weapon_set/king_arthur_boots.png
+    specific_properties:
+      armor:
+        slot: FEET
+        custom_armor: king_arthur_animated_weapon_set
+  king_arthur_animated_weapon_set_axe:
+    display_name: Axe
+    permission: elitecreatures.use
+    resource:
+      material: IRON_AXE
+      generate: false
+      model_path: king_arthur_animated_weapon_set/axe
+  king_arthur_animated_weapon_set_balloon:
+    display_name: Balloon
+    permission: elitecreatures.use
+    resource:
+      material: PAPER
+      generate: false
+      model_path: king_arthur_animated_weapon_set/balloon
+  king_arthur_animated_weapon_set_bow:
+    display_name: Bow
+    permission: elitecreatures.use
+    resource:
+      material: BOW
+      generate: false
+      model_path: king_arthur_animated_weapon_set/bow
+  king_arthur_animated_weapon_set_chest:
+    display_name: Chest
+    permission: elitecreatures.use
+    resource:
+      material: PAPER
+      generate: false
+      model_path: king_arthur_animated_weapon_set/chest
+    behaviours:
+      furniture:
+        solid: true
+        fixed_rotation: true
+        entity: armor_stand
+        hitbox:
+          length: 1
+          width: 1
+          height: 1
+          length_offset: 0
+          width_offset: 0
+          height_offset: 0
+        placeable_on:
+          walls: false
+          ceiling: false
+          floor: true
+  king_arthur_animated_weapon_set_crossbow:
+    display_name: Crossbow
+    permission: elitecreatures.use
+    resource:
+      material: CROSSBOW
+      generate: false
+      model_path: king_arthur_animated_weapon_set/crossbow
+  king_arthur_animated_weapon_set_fishing_rod:
+    display_name: Fishing Rod
+    permission: elitecreatures.use
+    resource:
+      material: FISHING_ROD
+      generate: false
+      model_path: king_arthur_animated_weapon_set/fishing_rod
+  king_arthur_animated_weapon_set_hammer:
+    display_name: Hammer
+    permission: elitecreatures.use
+    resource:
+      material: IRON_AXE
+      generate: false
+      model_path: king_arthur_animated_weapon_set/hammer
+  king_arthur_animated_weapon_set_helmet:
+    display_name: Helmet
+    permission: elitecreatures.use
+    resource:
+      material: PAPER
+      generate: false
+      model_path: king_arthur_animated_weapon_set/helmet
+    behaviours:
+      hat: true
+  king_arthur_animated_weapon_set_hoe:
+    display_name: Hoe
+    permission: elitecreatures.use
+    resource:
+      material: IRON_HOE
+      generate: false
+      model_path: king_arthur_animated_weapon_set/hoe
+  king_arthur_animated_weapon_set_key:
+    display_name: Key
+    permission: elitecreatures.use
+    resource:
+      material: PAPER
+      generate: false
+      model_path: king_arthur_animated_weapon_set/key
+  king_arthur_animated_weapon_set_pickaxe:
+    display_name: Pickaxe
+    permission: elitecreatures.use
+    resource:
+      material: IRON_PICKAXE
+      generate: false
+      model_path: king_arthur_animated_weapon_set/pickaxe
+  king_arthur_animated_weapon_set_quiver:
+    display_name: Quiver
+    permission: elitecreatures.use
+    resource:
+      material: PAPER
+      generate: false
+      model_path: king_arthur_animated_weapon_set/quiver
+  king_arthur_animated_weapon_set_shield:
+    display_name: Shield
+    permission: elitecreatures.use
+    resource:
+      material: SHIELD
+      generate: false
+      model_path: king_arthur_animated_weapon_set/shield
+  king_arthur_animated_weapon_set_shovel:
+    display_name: Shovel
+    permission: elitecreatures.use
+    resource:
+      material: IRON_SHOVEL
+      generate: false
+      model_path: king_arthur_animated_weapon_set/shovel
+  king_arthur_animated_weapon_set_sickle:
+    display_name: Sickle
+    permission: elitecreatures.use
+    resource:
+      material: IRON_HOE
+      generate: false
+      model_path: king_arthur_animated_weapon_set/sickle
+  king_arthur_animated_weapon_set_spear:
+    display_name: Spear
+    permission: elitecreatures.use
+    resource:
+      material: IRON_SWORD
+      generate: false
+      model_path: king_arthur_animated_weapon_set/spear
+  king_arthur_animated_weapon_set_staff:
+    display_name: Staff
+    permission: elitecreatures.use
+    resource:
+      material: IRON_SWORD
+      generate: false
+      model_path: king_arthur_animated_weapon_set/staff
+  king_arthur_animated_weapon_set_sword:
+    display_name: Sword
+    permission: elitecreatures.use
+    resource:
+      material: IRON_SWORD
+      generate: false
+      model_path: king_arthur_animated_weapon_set/sword
+  king_arthur_animated_weapon_set_wing:
+    display_name: Wing
+    permission: elitecreatures.use
+    resource:
+      material: PAPER
+      generate: false
+      model_path: king_arthur_animated_weapon_set/wing

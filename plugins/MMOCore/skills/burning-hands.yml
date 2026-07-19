@@ -1,0 +1,37 @@
+name: Bàn Tay Lửa
+lore:
+  - Tập trung năng lượng ma thuật của bạn
+  - và phóng ra một dòng lửa ngang
+  - về phía mục tiêu của bạn
+  - ''
+  - '&e{cooldown}s Hồi chiêu'
+  - '&9Tốn {mana} {mana_name}'
+material: BLAZE_ROD
+duration:
+  base: 2
+  per-level: 1
+  decimal-format: '0.#'
+timer:
+  base: 0
+  per-level: 0
+  min: 0
+  max: 0
+damage:
+  base: 4
+  per-level: 1
+delay:
+  base: 0
+  per-level: 0
+  min: 0
+  max: 0
+mana:
+  base: 2
+  per-level: 1
+stamina:
+  base: 0
+  per-level: 0
+  min: 0
+  max: 0
+cooldown:
+  base: 2
+  per-level: 1

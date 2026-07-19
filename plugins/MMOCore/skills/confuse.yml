@@ -1,0 +1,30 @@
+name: Rối Loạn
+lore:
+  - Làm rối loạn kẻ thù của bạn bằng cách
+  - thực hiện một cú lật 180 độ nhanh chóng vào mục tiêu
+  - ''
+  - '&e{cooldown}s Hồi chiêu'
+  - '&9Tốn {mana} {mana_name}'
+material: ENCHANTED_BOOK
+timer:
+  base: 2
+  per-level: 1
+  min: 0
+  max: 0
+  decimal-format: '0.#'
+delay:
+  base: 0
+  per-level: 0
+  min: 0
+  max: 0
+mana:
+  base: 2
+  per-level: 1
+stamina:
+  base: 0
+  per-level: 0
+  min: 0
+  max: 0
+cooldown:
+  base: 2
+  per-level: 1

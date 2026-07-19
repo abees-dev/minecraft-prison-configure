@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.0.0.1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1740921896132
+  login: 1740921875487
+money: '0'
+last-account-name: abees1
+lastlocation:
+  world: 53174f76-03c2-48ce-9873-4b83a4712636
+  world-name: world
+  x: -58.5
+  y: 64.0
+  z: 11.5
+  yaw: 0.0
+  pitch: 0.0
+logoutlocation:
+  world: 53174f76-03c2-48ce-9873-4b83a4712636
+  world-name: world
+  x: 25.638620247086465
+  y: -3.0
+  z: 9.22847885804809
+  yaw: 109.14656066894531
+  pitch: -0.30474424362182617

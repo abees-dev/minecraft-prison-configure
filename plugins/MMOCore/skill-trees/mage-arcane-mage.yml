@@ -1,0 +1,487 @@
+id: 'mage-arcane-mage'
+name: '&4Pháp Sư'
+type: 'custom'
+item: 'DIAMOND_AXE'
+lore:
+  - '&6Cây kỹ năng này chỉ dành cho lớp Pháp Sư & Pháp Sư Huyền Bí!'
+max-point-spent: 21
+
+nodes:
+  #### A
+  a1:
+    name: 'Hồi Phục Mana'
+    coordinates:
+      x: 1
+      y: -2
+
+    max-level: 1
+    is-root: true
+    size: 1
+    point-consumed: 1
+    experience-table:
+      first_table_item:
+        triggers:
+          - 'stat{stat="MANA_REGENERATION";amount=1;type="FLAT"}'
+    lores:
+      0:
+        - '&eHồi phục mana trong pts/giây +1'
+      1:
+        - '&eHồi phục mana trong pts/giây +1'
+  a2:
+    name: 'Hồi Phục Mana'
+    coordinates:
+      x: 0
+      y: -2
+
+    parents:
+      strong:
+        a1: 1
+
+    max-level: 1
+    size: 1
+    point-consumed: 1
+    experience-table:
+      first_table_item:
+        triggers:
+          - 'stat{stat="MANA_REGENERATION";amount=2;type="FLAT"}'
+    lores:
+      0:
+        - '&eHồi phục mana trong pts/giây +2'
+      1:
+        - '&eHồi phục mana trong pts/giây +2'
+  a3:
+    name: 'Hồi Phục Mana'
+    coordinates:
+      x: -1
+      y: -2
+
+    parents:
+      strong:
+        a2: 1
+
+    max-level: 1
+    size: 1
+    point-consumed: 1
+    experience-table:
+      first_table_item:
+        triggers:
+          - 'stat{stat="MANA_REGENERATION";amount=2;type="FLAT"}'
+    lores:
+      0:
+        - '&eHồi phục mana trong pts/giây +2'
+      1:
+        - '&eHồi phục mana trong pts/giây +2'
+
+  ## B
+
+  b1:
+    name: 'Sát Thương Kỹ Năng'
+    coordinates:
+      x: -2
+      y: -1
+
+    parents:
+      strong:
+        a3: 1
+
+    max-level: 1
+    size: 1
+    point-consumed: 1
+    experience-table:
+      first_table_item:
+        triggers:
+          - 'stat{stat="SKILL_DAMAGE";amount=5;type="FLAT"}'
+    lores:
+      0:
+        - '&eSát thương kỹ năng thêm +%5'
+      1:
+        - '&eSát thương kỹ năng thêm +%5'
+  b2:
+    name: 'Sát Thương Kỹ Năng'
+    coordinates:
+      x: -3
+      y: 0
+
+    parents:
+      strong:
+        b1: 1
+
+    max-level: 1
+    size: 1
+    point-consumed: 1
+    experience-table:
+      first_table_item:
+        triggers:
+          - 'stat{stat="SKILL_DAMAGE";amount=5;type="FLAT"}'
+    lores:
+      0:
+        - '&eSát thương kỹ năng thêm +%5'
+      1:
+        - '&eSát thương kỹ năng thêm +%5'
+  b3:
+    name: 'Sát Thương Kỹ Năng'
+    coordinates:
+      x: -2
+      y: 1
+
+    parents:
+      strong:
+        b2: 1
+
+    max-level: 1
+    size: 1
+    point-consumed: 1
+    experience-table:
+      first_table_item:
+        triggers:
+          - 'stat{stat="SKILL_DAMAGE";amount=10;type="FLAT"}'
+    lores:
+      0:
+        - '&eSát thương kỹ năng thêm +%10'
+      1:
+        - '&eSát thương kỹ năng thêm +%10'
+
+  ## C
+
+  c1:
+    name: 'Hút Máu Kỹ Năng'
+    coordinates:
+      x: -2
+      y: 2
+
+    parents:
+      strong:
+        b3: 1
+
+    max-level: 1
+    size: 1
+    point-consumed: 1
+    experience-table:
+      first_table_item:
+        triggers:
+          - 'stat{stat="SPELL_VAMPIRISM";amount=2;type="FLAT"}'
+    lores:
+      0:
+        - '&ePhần trăm sát thương bạn nhận lại dưới dạng máu khi gây sát thương kỹ năng +%2'
+      1:
+        - '&ePhần trăm sát thương bạn nhận lại dưới dạng máu khi gây sát thương kỹ năng +%2'
+  c2:
+    name: 'Hút Máu Kỹ Năng'
+    coordinates:
+      x: -1
+      y: 2
+
+    parents:
+      strong:
+        c1: 1
+
+    max-level: 1
+    size: 1
+    point-consumed: 1
+    experience-table:
+      first_table_item:
+        triggers:
+          - 'stat{stat="SPELL_VAMPIRISM";amount=2;type="FLAT"}'
+    lores:
+      0:
+        - '&ePhần trăm sát thương bạn nhận lại dưới dạng máu khi gây sát thương kỹ năng +%2'
+      1:
+        - '&ePhần trăm sát thương bạn nhận lại dưới dạng máu khi gây sát thương kỹ năng +%2'
+  c3:
+    name: 'Hút Máu Kỹ Năng'
+    coordinates:
+      x: 0
+      y: 2
+
+    parents:
+      strong:
+        c2: 1
+
+    max-level: 1
+    size: 1
+    point-consumed: 1
+    experience-table:
+      first_table_item:
+        triggers:
+          - 'stat{stat="SPELL_VAMPIRISM";amount=6;type="FLAT"}'
+    lores:
+      0:
+        - '&ePhần trăm sát thương bạn nhận lại dưới dạng máu khi gây sát thương kỹ năng +%6'
+      1:
+        - '&ePhần trăm sát thương bạn nhận lại dưới dạng máu khi gây sát thương kỹ năng +%6'
+
+  ## D
+
+  d1:
+    name: 'Kinh Nghiệm Thêm'
+    coordinates:
+      x: 0
+      y: 1
+
+    parents:
+      strong:
+        c3: 1
+
+    max-level: 1
+    size: 1
+    point-consumed: 1
+    experience-table:
+      first_table_item:
+        triggers:
+          - 'stat{stat="ADDITIONAL_EXPERIENCE";amount=2;type="FLAT"}'
+    lores:
+      0:
+        - '&eKinh nghiệm chính MMOCore thêm +%2'
+      1:
+        - '&eKinh nghiệm chính MMOCore thêm +%2'
+  d2:
+    name: 'Kinh Nghiệm Thêm'
+    coordinates:
+      x: 0
+      y: 0
+
+    parents:
+      strong:
+        d1: 1
+
+    max-level: 1
+    size: 1
+    point-consumed: 1
+    experience-table:
+      first_table_item:
+        triggers:
+          - 'stat{stat="ADDITIONAL_EXPERIENCE";amount=3;type="FLAT"}'
+    lores:
+      0:
+        - '&eKinh nghiệm chính MMOCore thêm +%3'
+      1:
+        - '&eKinh nghiệm chính MMOCore thêm +%3'
+  d3:
+    name: 'Kinh Nghiệm Thêm'
+    coordinates:
+      x: 1
+      y: 0
+
+    parents:
+      strong:
+        d2: 1
+
+    max-level: 1
+    size: 1
+    point-consumed: 1
+    experience-table:
+      first_table_item:
+        triggers:
+          - 'stat{stat="ADDITIONAL_EXPERIENCE";amount=5;type="FLAT"}'
+    lores:
+      0:
+        - '&eKinh nghiệm chính MMOCore thêm +%5'
+      1:
+        - '&eKinh nghiệm chính MMOCore thêm +%5'
+
+  ## E
+
+  e1:
+    name: 'Giảm Sát Thương Phép'
+    coordinates:
+      x: 2
+      y: 0
+
+    parents:
+      strong:
+        d3: 1
+
+    max-level: 1
+    size: 1
+    point-consumed: 1
+    experience-table:
+      first_table_item:
+        triggers:
+          - 'stat{stat="MAGIC_DAMAGE_REDUCTION";amount=5;type="FLAT"}'
+    lores:
+      0:
+        - '&eGiảm sát thương phép gây ra bởi thuốc %5'
+      1:
+        - '&eGiảm sát thương phép gây ra bởi thuốc %5'
+  e2:
+    name: 'Giảm Sát Thương Phép'
+    coordinates:
+      x: 2
+      y: 1
+
+    parents:
+      strong:
+        e1: 1
+
+    max-level: 1
+    size: 1
+    point-consumed: 1
+    experience-table:
+      first_table_item:
+        triggers:
+          - 'stat{stat="MAGIC_DAMAGE_REDUCTION";amount=5;type="FLAT"}'
+    lores:
+      0:
+        - '&eGiảm sát thương phép gây ra bởi thuốc %5'
+      1:
+        - '&eGiảm sát thương phép gây ra bởi thuốc %5'
+  e3:
+    name: 'Giảm Sát Thương Phép'
+    coordinates:
+      x: 2
+      y: 2
+
+    parents:
+      strong:
+        e2: 1
+
+    max-level: 1
+    size: 1
+    point-consumed: 1
+    experience-table:
+      first_table_item:
+        triggers:
+          - 'stat{stat="MAGIC_DAMAGE_REDUCTION";amount=10;type="FLAT"}'
+    lores:
+      0:
+        - '&eGiảm sát thương phép gây ra bởi thuốc %10'
+      1:
+        - '&eGiảm sát thương phép gây ra bởi thuốc %10'
+
+  ## F
+
+  f1:
+    name: 'Tỷ Lệ Chí Mạng Kỹ Năng'
+    coordinates:
+      x: 3
+      y: 2
+
+    parents:
+      strong:
+        e3: 1
+
+    max-level: 1
+    size: 1
+    point-consumed: 1
+    experience-table:
+      first_table_item:
+        triggers:
+          - 'stat{stat="SKILL_CRITICAL_STRIKE_CHANCE";amount=5;type="FLAT"}'
+    lores:
+      0:
+        - '&eTăng tỷ lệ chí mạng kỹ năng +%5'
+      1:
+        - '&eTăng tỷ lệ chí mạng kỹ năng +%5'
+  f2:
+    name: 'Tỷ Lệ Chí Mạng Kỹ Năng'
+    coordinates:
+      x: 4
+      y: 2
+
+    parents:
+      strong:
+        f1: 1
+
+    max-level: 1
+    size: 1
+    point-consumed: 1
+    experience-table:
+      first_table_item:
+        triggers:
+          - 'stat{stat="SKILL_CRITICAL_STRIKE_CHANCE";amount=10;type="FLAT"}'
+    lores:
+      0:
+        - '&eTăng tỷ lệ chí mạng kỹ năng +%10'
+      1:
+        - '&eTăng tỷ lệ chí mạng kỹ năng +%10'
+  f3:
+    name: 'Tỷ Lệ Chí Mạng Kỹ Năng'
+    coordinates:
+      x: 4
+      y: 1
+
+    parents:
+      strong:
+        f2: 1
+
+    max-level: 1
+    size: 1
+    point-consumed: 1
+    experience-table:
+      first_table_item:
+        triggers:
+          - 'stat{stat="SKILL_CRITICAL_STRIKE_CHANCE";amount=15;type="FLAT"}'
+    lores:
+      0:
+        - '&eTăng tỷ lệ chí mạng kỹ năng +%15'
+      1:
+        - '&eTăng tỷ lệ chí mạng kỹ năng +%15'
+
+  ## G
+
+  g1:
+    name: 'Sát Thương Phép'
+    coordinates:
+      x: 4
+      y: 0
+
+    parents:
+      strong:
+        f3: 1
+
+    max-level: 1
+    size: 1
+    point-consumed: 1
+    experience-table:
+      first_table_item:
+        triggers:
+          - 'stat{stat="MAGIC_DAMAGE";amount=1;type="FLAT"}'
+    lores:
+      0:
+        - '&eSát thương kỹ năng phép thêm +%1'
+      1:
+        - '&eSát thương kỹ năng phép thêm +%1'
+  g2:
+    name: 'Sát Thương Phép'
+    coordinates:
+      x: 4
+      y: -1
+
+    parents:
+      strong:
+        g1: 1
+
+    max-level: 1
+    size: 1
+    point-consumed: 1
+    experience-table:
+      first_table_item:
+        triggers:
+          - 'stat{stat="MAGIC_DAMAGE";amount=2;type="FLAT"}'
+    lores:
+      0:
+        - '&eSát thương kỹ năng phép thêm +%2'
+      1:
+        - '&eSát thương kỹ năng phép thêm +%2'
+  g3:
+    name: 'Sát Thương Phép'
+    coordinates:
+      x: 4
+      y: -2
+
+    parents:
+      strong:
+        g2: 1
+
+    max-level: 1
+    size: 1
+    point-consumed: 1
+    experience-table:
+      first_table_item:
+        triggers:
+          - 'stat{stat="MAGIC_DAMAGE";amount=2;type="FLAT"}'
+    lores:
+      0:
+        - '&eSát thương kỹ năng phép thêm +%2'
+      1:
+        - '&eSát thương kỹ năng phép thêm +%2'

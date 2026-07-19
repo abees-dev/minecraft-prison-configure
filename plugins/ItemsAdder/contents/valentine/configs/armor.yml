@@ -1,0 +1,55 @@
+armors_rendering:
+  valentinearmor:
+    color: '#5d7eb0'
+    layer_1: armor/armor_main
+    layer_2: armor/armor_leggings
+    use_color: false
+info:
+  namespace: valentine
+items:
+  valentineboots:
+    display_name: Valentine Boots
+    permission: valentine.boots
+    resource:
+      generate: true
+      textures:
+      - armor/boots.png
+    specific_properties:
+      armor:
+        custom_armor: valentinearmor
+        slot: feet
+  valentinechestplate:
+    display_name: Valentine Chestplate
+    permission: valentine.chestplate
+    resource:
+      generate: true
+      textures:
+      - armor/chestplate.png
+    specific_properties:
+      armor:
+        custom_armor: valentinearmor
+        slot: chest
+  valentineleggings:
+    display_name: Valentine Leggings
+    permission: valentine.leggings
+    resource:
+      generate: true
+      textures:
+      - armor/leggings.png
+    specific_properties:
+      armor:
+        custom_armor: valentinearmor
+        slot: legs
+  valentinehelmet:
+    display_name: Valentine Helmet
+    permission: valentine.Helmet
+    resource:
+      generate: true
+      textures:
+      - armor/helmet.png
+    specific_properties:
+      armor:
+        custom_armor: valentinearmor
+        slot: head
+
+#9febaacb89f828c3c49efc5e2901ccaf

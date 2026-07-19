@@ -1,0 +1,41 @@
+name: Eternal Fury
+lore:
+- '&4Release your full internal rage, gain resistance,'
+- '&4speed, and regeneration. Your Rageblade skill becomes'
+- '&4stronger, wider, and bleeding chance increases to 50%.'
+- ''
+- '&c{damage} Damage'
+- '&c{duration}s Duration'
+- '&e{cooldown}s Cooldown'
+- '&9Costs {mana} {mana_name}'
+material: 'COAL:2181'
+damage:
+  base: 5
+  per-level: 1
+  min: 5
+  max: 8
+timer:
+  base: 0
+  per-level: 0
+  min: 0
+  max: 0
+mana:
+  base: 0
+  per-level: 0
+  min: 0
+  max: 0
+stamina:
+  base: 0
+  per-level: 0
+  min: 0
+  max: 0
+duration:
+  base: 10
+  per-level: 0.2
+  min: 10
+  max: 12
+cooldown:
+  base: 15
+  per-level: 0.1
+  min: 16
+  max: 15

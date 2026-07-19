@@ -1,0 +1,32 @@
+# Tên hiển thị GUI
+name: Nhóm ({players}/{max})
+
+# Số lượng ô trong kho đồ. Phải nằm trong khoảng
+# từ 9 đến 54 và phải là bội số của 9.
+slots: 54
+
+items:
+  member:
+    slots: [10, 12, 14, 16, 28, 30, 32, 34]
+    function: thành viên
+    empty:
+      item: GRAY_STAINED_GLASS_PANE
+      name: '&aKhông có người chơi'
+    member:
+      item: PLAYER_HEAD
+      name: '&a{name}'
+      lore:
+        - '&7Cấp độ {level} {class}'
+        - '&7Trực tuyến từ: {since}'
+  leave:
+    slots: [50]
+    function: rời
+    item: REDSTONE
+    name: '&cRời khỏi nhóm'
+    lore: {}
+  request:
+    slots: [48]
+    function: mời
+    item: WRITABLE_BOOK
+    name: '&aMời người chơi...'
+    lore: {}

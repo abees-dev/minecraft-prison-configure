@@ -1,0 +1,58 @@
+name: §6§lĐá Cổ Xưa # In đậm tên
+lore:
+  - ''
+  - §7Một viên đá cổ xưa
+  - §7bị nguyền rủa, tỏa ra
+  - §7năng lượng ma quái.
+  - ''
+  - §bTrao đổi tại /warp trade.
+material: PAPER
+disableStack: false
+keepItemOnDeath: true
+canBeUsedOnlyByTheOwner: false
+cancelEventIfNotOwner: false
+onlyOwnerBlackListedActivators: []
+storeItemInfo: false
+unbreakable: false
+cancelEventIfNoPermission: false
+whitelistedWorlds: []
+recognitions: []
+keepDefaultAttributes: true
+ignoreKeepDefaultAttributesFeature: false
+customModelData: 10067
+config_5: true
+config_update: false
+glow: true
+playerConditions: {}
+usageFeatures:
+  usage: 1
+  isRefreshableClean: false
+  usageLimit: -1
+dropOptions:
+  glowDrop: true
+  glowDropColor: WHITE
+  displayNameDrop: false
+enchantments: {}
+hiders:
+  hideEnchantments: false
+  hideUnbreakable: false
+  hideAttributes: false
+  hideUsage: true
+  hideDestroys: false
+  hidePlacedOn: false
+  hideDye: false
+  hidePotionEffects: false
+giveFirstJoin:
+  giveFirstJoin: false
+  giveFirstJoinAmount: 1
+  giveFirstJoinSlot: 0
+restrictions: {}
+variables: {}
+activators: {}
+displayConditions:
+  playerConditions: {}
+  worldConditions: {}
+  itemConditions: {}
+  placeholdersConditions: {}
+  enableFeature: false
+attributes: {}

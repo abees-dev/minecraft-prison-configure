@@ -1,0 +1,20 @@
+# Tên hiển thị GUI
+name: Tạo Bang Hội
+
+# Số lượng ô trong kho của bạn. Phải nằm trong khoảng
+# từ 9 đến 54 và phải là bội số của 9.
+slots: 27
+
+items:
+  create:
+    slots: [12]
+    item: GREEN_TERRACOTTA
+    function: 'create'
+    name: '&aTạo bang hội!'
+    lore: {}
+  back:
+    slots: [14]
+    item: RED_TERRACOTTA
+    function: back
+    name: '&aQuay lại'
+    lore: {}

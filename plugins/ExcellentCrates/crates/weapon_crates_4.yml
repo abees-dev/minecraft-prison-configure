@@ -1,0 +1,45 @@
+Name: Hòm vũ khí &7[&dIV&7]
+Preview_Config: default
+Permission_Required: false
+Opening:
+  Cooldown: 0
+Key:
+  # Sets whether or not keys are required to open this crate.
+  Required: false
+  Ids: []
+Item:
+  Material: PLAYER_HEAD
+  SkinURL: 3dc36e24f4119fcf3b5fb3c1a1decf662f9f771562f34a608340f1389b4ef9b6
+  Name: Hòm vũ khí &7[&dIV&7]
+  Lore:
+  - '&f'
+  - '&fMột hòm chứa vũ khí.'
+  - '&f'
+  - '&6Cách nhận: &7Mở hòm weapon.'
+  - '&f'
+  - '&eNhấn chuột phải để mở.'
+  - '&f'
+  - '&f[ &d&l✯✯✯✯&8✯ &f]'
+  Item_Flags:
+  - HIDE_ENCHANTS
+  - HIDE_ATTRIBUTES
+  - HIDE_UNBREAKABLE
+  - HIDE_DESTROYS
+  - HIDE_PLACED_ON
+  - HIDE_POTION_EFFECTS
+  - HIDE_DYE
+  - HIDE_ARMOR_TRIM
+Block:
+  Positions: []
+  Pushback:
+    Enabled: true
+  Hologram:
+    Enabled: true
+    Template: default
+    Y_Offset: 0.0
+  Effect:
+    Model: HELIX
+    Particle:
+      Name: CLOUD
+Milestones:
+  Repeatable: false

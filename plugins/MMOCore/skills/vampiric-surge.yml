@@ -1,0 +1,67 @@
+name: Vampiric Surge
+lore:
+- "&7&m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+- ""
+- "&c&lVampiric Dash (Blades): &7Perform an explosive dash, slashing through all"
+- "&7enemies and draining their health."
+- "&c&lBat Swarm (Grimoire): &7Fire blood bats, draining the health of all hit enemies."
+- "&c&lBloodburst (Needles): &7Explode all stacked needles on nearby enemies,"
+- "&7more needles dealing more damage and draining more health."
+- "&c&lSoul Harvester (Scythe): &7Throw your spinning blood scythe, knocking back"
+- "&7and draining the health of hit enemies. Your thrown blood scythe"
+- "&7slows down and comes back to you, this time pulling enemies in."
+- "&c🗡 {damage} Damage"
+- "&a🗡 {heal} Life Dragin"
+- "&e⌛ {bladescooldown}s Cooldown (Blades)"
+- "&e⌛ {grimoirecooldown}s Cooldown (Grimoire)"
+- "&e⌛ {needlescooldown}s Cooldown (Needles)"
+- "&e⌛ {scythecooldown}s Cooldown (Scythe)"
+- ""
+- "&7&m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+material: 'COAL:2234'
+timer:
+  base: 0
+  per-level: 0
+  min: 0
+  max: 0
+damage:
+  base: 4
+  per-level: 1
+  min: 4
+  max: 7
+heal:
+  base: 2
+  per-level: 1
+  min: 2
+  max: 4
+mana:
+  base: 0
+  per-level: 0
+  min: 0
+  max: 0
+stamina:
+  base: 0
+  per-level: 0
+  min: 0
+  max: 0
+bladescooldown:
+  base: 3
+  per-level: -0.1
+  min: 2
+  max: 3
+grimoirecooldown:
+  base: 3
+  per-level: -0.1
+  min: 2
+  max: 3
+needlescooldown:
+  base: 3
+  per-level: -0.1
+  min: 2
+  max: 3
+scythecooldown:
+  base: 4
+  per-level: -0.1
+  min: 3
+  max: 4
+#MGSwEXc1sGexsmWh5kUTN2QVh0T31keNJTUE90MFRUT4NWblBnWWd2SvBTbGRkRwQVUjhmM

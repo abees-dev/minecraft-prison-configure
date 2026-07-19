@@ -1,0 +1,42 @@
+info:
+  namespace: elitecreatures
+categories:
+  loki_animated:
+    enabled: true
+    icon: "elitecreatures:loki_animated-hat"
+    name: " Loki Animated " 
+    permission: "ia.menu.loki_animated"
+    items:
+
+    ########### ARMORS
+      - "elitecreatures:loki_animated-hat"
+      - "elitecreatures:loki_animated-helmet"
+      - "elitecreatures:loki_animated-chestplate"
+      - "elitecreatures:loki_animated-leggings"
+      - "elitecreatures:loki_animated-boots"
+  
+   ########### FUNDAMENTAL ITEMS
+      - "elitecreatures:loki_animated-axe"
+      - "elitecreatures:loki_animated-bow"
+      - "elitecreatures:loki_animated-crossbow"
+      - "elitecreatures:loki_animated-fishing_rod"
+      - "elitecreatures:loki_animated-hoe"
+      - "elitecreatures:loki_animated-pickaxe"
+      - "elitecreatures:loki_animated-shield"
+      - "elitecreatures:loki_animated-shovel"
+      - "elitecreatures:loki_animated-sword"
+   
+   ########### FANTASY WEAPONS
+      - "elitecreatures:loki_animated-dagger"
+      - "elitecreatures:loki_animated-greatsword"
+      - "elitecreatures:loki_animated-hammer"
+      - "elitecreatures:loki_animated-spear"
+      - "elitecreatures:loki_animated-mace"
+      - "elitecreatures:loki_animated-staff"
+
+   ########### COSMETICS
+      - "elitecreatures:loki_animated-back"
+      - "elitecreatures:loki_animated-backpack"
+   ########### CHEST AND KEY
+      - "elitecreatures:loki_animated-key"
+      - "elitecreatures:loki_animated-chest"

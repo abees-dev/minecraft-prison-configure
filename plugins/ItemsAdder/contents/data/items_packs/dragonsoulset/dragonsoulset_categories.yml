@@ -1,0 +1,35 @@
+info:
+  namespace: dragonsoulset
+categories:
+  dragonsoulset:
+    enabled: true
+    skip_if_already: false
+    icon: "dragonsoulset:dragonsoul_bow"
+    name: Dragon Soul Weapons & Tools Set
+    permission: ia.menu
+    items:
+      - "dragonsoulset:dragonsoul_sword"
+      - "dragonsoulset:dragonsoul_spear"
+      - "dragonsoulset:dragonsoul_hammer"
+      - "dragonsoulset:dragonsoul_crossbow"
+      - "dragonsoulset:dragonsoul_bow"
+      - "dragonsoulset:dragonsoul_axe"
+      - "dragonsoulset:dragonsoul_hoe"
+      - "dragonsoulset:dragonsoul_pickaxe"
+      - "dragonsoulset:dragonsoul_shovel"
+      - "dragonsoulset:dragonsoul_fishing_rod"
+      - "dragonsoulset:dragonsoul_shield"
+      - "dragonsoulset:dragonsoul_chest"
+      - "dragonsoulset:dragonsoul_chest_opening"
+      - "dragonsoulset:dragonsoul_key"
+      - "dragonsoulset:dragonsoulchestplate"
+      - "dragonsoulset:dragonsoulleggings"
+      - "dragonsoulset:dragonsoulboots"
+      - "dragonsoulset:dragonsoul_helmet"
+      - "dragonsoulset:dragonsoul_wings"
+      - "dragonsoulset:dragonsoul_scythe"
+      - "dragonsoulset:dragonsoul_staff"
+      - "dragonsoulset:dragonsoul_greatsword"
+      - "dragonsoulset:dragonsoul_trident"
+
+#YHUEZWN55ETnRVSwoleXZkejxmU3llaOl3aq5UMNRUT5FEVjFTMqR1aDl1TXd2YPt2a2ZFN

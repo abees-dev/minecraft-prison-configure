@@ -1,0 +1,17 @@
+menu_title: 'Default Menu'
+open_command: menu-test
+size: 9
+open_requirement:
+  requirements:
+    permission:
+      type: has permission
+      permission: deluxemenus.admin
+      deny_commands:
+        - "[message] &cYou don't have permission to do that!"
+items:
+  'dirt':
+    material: DIRT
+    slot: 0
+    click_commands:
+      - '[message] %mmocore_attribute_points%'
+      - '[message] %mmocore_attribute_reallocation_points%'

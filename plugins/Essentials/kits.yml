@@ -1,0 +1,108 @@
+kits:
+  tools:
+    delay: 10
+    items:
+    - stonesword 1
+    - stoneshovel 1
+    - stonepickaxe 1
+    - stoneaxe 1
+  dtools:
+    delay: 600
+    items:
+    - dpickaxe 1 efficiency:1 durability:1 fortune:1 name:&4Gigadrill lore:The_drill_that_&npierces|the_heavens
+    - dshovel 1 digspeed:3 name:Dwarf lore:Diggy|Diggy|Hole
+    - lhelm 1 color:255,255,255 name:Top_Hat lore:Good_day,_Good_day
+    - daxe:780 1
+    - /broadcast {USERNAME} just got some fancy tools!
+  notch:
+    delay: 6000
+    items:
+    - playerhead 1 player:Notch
+  color:
+    delay: 6000
+    items:
+    - writtenbook 1 title:&4Book_&9o_&6Colors author:KHobbits lore:Ingame_color_codes
+      book:Colors
+  firework:
+    delay: 6000
+    items:
+    - fireworkrocket 1 name:Angry_Creeper color:red fade:green type:creeper power:1
+    - fireworkrocket 1 name:Starry_Night color:yellow,orange fade:blue type:star effect:trail,twinkle
+      power:1
+    - fireworkrocket 2 name:Solar_Wind color:yellow,orange fade:red shape:large effect:twinkle
+      color:yellow,orange fade:red shape:ball effect:trail color:red,purple fade:pink
+      shape:star effect:trail power:1
+  vip:
+    delay: 3600
+    items:
+    - birch_planks 1
+    - jungle_stairs 1
+    - iron_sword 1 name:&cFiery_&eKiếm_Rỉ_Sét_Của_Người_Lữ_Hành lore:&f|&8[&c🗡&8]_&7ATK:_&c11.5|&8[&c⚔&8]_&7ATS:_&c1.3|&f|&a>&8\|_&7Tấn_Công_&8\|&e\|&8\|_&7&lBurn|&f|&eRequired_Level:_0|&f|&7Một_thanh_kiếm_cũ_kỹ,_nhưng_vẫn_sắc_bén.|&7Từng_thuộc_về_một_nhà_thám_hiểm_vô_danh.|&7Much_sharper!|&f|&7Sword
+      damage_all:2000 itemflags:HIDE_ATTRIBUTES,HIDE_UNBREAKABLE
+    - bone 5
+    - iron_sword 1 name:&f_뀐_&#DC143CT&#DF2337h&#E13233e&#E4412E_&#E7502AG&#E95F25u&#EC6E20i&#EF7D1Cl&#F28C17l&#F49B12o&#F7AA0Et&#FAB909i&#FCC805n&#FFD700e
+      lore:&f|&8[&c🗡&8]_&7ATK:_&c150|&8[&c⚔&8]_&7ATS:_&c2|&8[&6⚡&8]_&7CRIT:_&6+100%|&8[&6⚡&8]_&7CRIT_DMG:_&6+100%|&8[&c❤&8]_&7LIFESTEAL:_&c+0.5%|&f|&f_뀒_|&f_뀁_|&f_뀁_&f్_ʜᴇᴍᴏʀʀʜᴀɢᴇ_&f᎙|&f_뀁_&7Your_attacks_cause_targets|&f_뀁_&7to_&#DC143Cbleed&7,_dealing&c_100&7_damage|&f_뀁_&7per_second_and_&bslowing&7_them.|&f_뀁_&7Target_inflicted_with_&c5_stacks|&f_뀁_&7is_marked_as_&#DC143CG&#E23532u&#E85528i&#EE761El&#F39614t&#F9B70Ay&#FFD700!|&f_뀁_|&f_뀁_&f౎_ᴊᴜꜱᴛɪᴄᴇ_ꜱᴇʀᴠᴇᴅ_&f᎙|&f_뀁_&7You_&dblink&7_to_the_target&7,_then|&f_뀁_&7strike_them_down_with_godlike|&f_뀁_&7force,_dealing_&c1.000&7_damage.|&f_뀁_&7If_the_target_is_&#DC143CG&#E23532u&#E85528i&#EE761El&#F39614t&#F9B70Ay&#FFD700!&7,_they|&f_뀁_&7are_immediately_&4&lEXECUTED&7.|&f_뀁_&8_\|_&#AEC6CF⌚120s_&b✎300_&8\||&f|&a◆_Empty_Gem|&a◆_Empty_Gem|&f|&7Sword
+      itemflags:HIDE_ATTRIBUTES,HIDE_UNBREAKABLE
+    - iron_sword 1 name:&f_뀐_&#DC143CT&#DF2337h&#E13233e&#E4412E_&#E7502AG&#E95F25u&#EC6E20i&#EF7D1Cl&#F28C17l&#F49B12o&#F7AA0Et&#FAB909i&#FCC805n&#FFD700e
+      lore:&f|&8[&c🗡&8]_&7ATK:_&c150|&8[&c⚔&8]_&7ATS:_&c2|&8[&6⚡&8]_&7CRIT:_&6+100%|&8[&6⚡&8]_&7CRIT_DMG:_&6+100%|&8[&c❤&8]_&7LIFESTEAL:_&c+0.5%|&f|&a>&8\|_&7Tấn_Công_&8\|&e\|&8\|_&7&lSmite|&f_&7>&8\|&7_Timer&8:_2|&f_&7>&8\|&7_Damage&8:_15|&f_&7>&8\|&7_Mana&8:_5|&f|&f_뀒_|&f_뀁_|&f_뀁_&f్_ʜᴇᴍᴏʀʀʜᴀɢᴇ_&f᎙|&f_뀁_&7Your_attacks_cause_targets|&f_뀁_&7to_&#DC143Cbleed&7,_dealing&c_100&7_damage|&f_뀁_&7per_second_and_&bslowing&7_them.|&f_뀁_&7Target_inflicted_with_&c5_stacks|&f_뀁_&7is_marked_as_&#DC143CG&#E23532u&#E85528i&#EE761El&#F39614t&#F9B70Ay&#FFD700!|&f_뀁_|&f_뀁_&f౎_ᴊᴜꜱᴛɪᴄᴇ_ꜱᴇʀᴠᴇᴅ_&f᎙|&f_뀁_&7You_&dblink&7_to_the_target&7,_then|&f_뀁_&7strike_them_down_with_godlike|&f_뀁_&7force,_dealing_&c1.000&7_damage.|&f_뀁_&7If_the_target_is_&#DC143CG&#E23532u&#E85528i&#EE761El&#F39614t&#F9B70Ay&#FFD700!&7,_they|&f_뀁_&7are_immediately_&4&lEXECUTED&7.|&f_뀁_&8_\|_&#AEC6CF⌚120s_&b✎300_&8\||&f|&a◆_Empty_Gem|&a◆_Empty_Gem|&f|&7Sword
+      damage_all:5 itemflags:HIDE_ATTRIBUTES,HIDE_UNBREAKABLE
+    - iron_sword 1 name:&f_뀐_&#DC143CT&#DF2337h&#E13233e&#E4412E_&#E7502AG&#E95F25u&#EC6E20i&#EF7D1Cl&#F28C17l&#F49B12o&#F7AA0Et&#FAB909i&#FCC805n&#FFD700e
+      lore:&f|&8[&c🗡&8]_&7ATK:_&c150|&8[&c⚔&8]_&7ATS:_&c2|&8[&6⚡&8]_&7CRIT:_&6+100%|&8[&6⚡&8]_&7CRIT_DMG:_&6+100%|&8[&c❤&8]_&7LIFESTEAL:_&c+0.5%|&f|&a>&8\|_&7Tấn_Công_&8\|&e\|&8\|_&7&lSmite|&f_&7>&8\|&7_Timer&8:_2|&f_&7>&8\|&7_Damage&8:_15|&f_&7>&8\|&7_Mana&8:_5|&f|&f_뀒_|&f_뀁_|&f_뀁_&f్_ʜᴇᴍᴏʀʀʜᴀɢᴇ_&f᎙|&f_뀁_&7Your_attacks_cause_targets|&f_뀁_&7to_&#DC143Cbleed&7,_dealing&c_100&7_damage|&f_뀁_&7per_second_and_&bslowing&7_them.|&f_뀁_&7Target_inflicted_with_&c5_stacks|&f_뀁_&7is_marked_as_&#DC143CG&#E23532u&#E85528i&#EE761El&#F39614t&#F9B70Ay&#FFD700!|&f_뀁_|&f_뀁_&f౎_ᴊᴜꜱᴛɪᴄᴇ_ꜱᴇʀᴠᴇᴅ_&f᎙|&f_뀁_&7You_&dblink&7_to_the_target&7,_then|&f_뀁_&7strike_them_down_with_godlike|&f_뀁_&7force,_dealing_&c1.000&7_damage.|&f_뀁_&7If_the_target_is_&#DC143CG&#E23532u&#E85528i&#EE761El&#F39614t&#F9B70Ay&#FFD700!&7,_they|&f_뀁_&7are_immediately_&4&lEXECUTED&7.|&f_뀁_&8_\|_&#AEC6CF⌚120s_&b✎300_&8\||&f|&a◆_Empty_Gem|&a◆_Empty_Gem|&f|&7Sword
+      itemflags:HIDE_ATTRIBUTES,HIDE_UNBREAKABLE
+    - white_wool 1
+    - mutton 1
+    - leather_leggings 1 name:&f_뀐_&#5C416EA&#664979r&#705284c&#7A5A8Fa&#7A5A8Fn&#85669Ae&#9171A5_&#9C7DB0H&#9C7DB0e&#AB8EBEl&#BB9ECDm&#CAAFDBe&#CAAFDBt
+      lore:&f|&8[&7🗡&8]_&7WEAPON:_&6+-30%|&8[&7🎯&8]_&7SKILL:_&6+165%|&8[&6🛡&8]_&7Defense:_&6+50|&8[&c❤&8]_&7Max_HP:_&c+50|&8[&6⏳&8]_&7Cooldown_Reduction:_&6+15%|&f|&f_뀒_|&f_뀁_|&f_뀁_&fౙ_ᴀʀᴄᴀɴɪᴄ_ᴀᴅᴀᴘᴛ_᎚_&8+_&f᎙|&f_뀁_&7Switches_between_3_states,|&f_뀁_&7each_one_having_different|&f_뀁_&7effects:|&f_뀁_&7|&f_뀁_&c&lArcane:_&7Dealing_skill_DMG|&f_뀁_&7triggers_a_magic_burst_that|&f_뀁_&7deals_&c100_&7damage_to_nearby|&f_뀁_&7targets.|&f_뀁_&7|&f_뀁_&d&lEnsorcel:_&7Gains_ramping|&f_뀁_&f᎕_᎖&7_by_dealing_skill_damage|&f_뀁_&7increasing_by_5%_each.|&f_뀁_&7|&f_뀁_&3&lGuarding:_&7Taking_damage|&f_뀁_&7knocks_back_nearby_enemies|&f_뀁_&7and_slowing_them.|&f|&7Armor
+      itemflags:HIDE_ATTRIBUTES,HIDE_DYEcolor:10255792
+    - leather_boots 1 name:&f_뀐_&#5C416EA&#664979r&#705284c&#7A5A8Fa&#7A5A8Fn&#85669Ae&#9171A5_&#9C7DB0H&#9C7DB0e&#AB8EBEl&#BB9ECDm&#CAAFDBe&#CAAFDBt
+      lore:&f|&8[&7🗡&8]_&7WEAPON:_&6+-10%|&8[&7🎯&8]_&7SKILL:_&6+135%|&8[&6🛡&8]_&7Defense:_&6+40|&8[&c❤&8]_&7Max_HP:_&c+45|&8[&6⚡&8]_&7Move_Spd:_&6+8|&8[&6⏳&8]_&7Cooldown_Reduction:_&6+10%|&f|&f_뀒_|&f_뀁_|&f_뀁_&fౙ_ᴀʀᴄᴀɴɪᴄ_ᴀᴅᴀᴘᴛ_᎚_&8+_&f᎙|&f_뀁_&7Switches_between_3_states,|&f_뀁_&7each_one_having_different|&f_뀁_&7effects:|&f_뀁_&7|&f_뀁_&c&lArcane:_&7Dealing_skill_DMG|&f_뀁_&7triggers_a_magic_burst_that|&f_뀁_&7deals_&c100_&7damage_to_nearby|&f_뀁_&7targets.|&f_뀁_&7|&f_뀁_&d&lEnsorcel:_&7Gains_ramping|&f_뀁_&f᎕_᎖&7_by_dealing_skill_damage|&f_뀁_&7increasing_by_5%_each.|&f_뀁_&7|&f_뀁_&3&lGuarding:_&7Taking_damage|&f_뀁_&7knocks_back_nearby_enemies|&f_뀁_&7and_slowing_them.|&f|&7Armor
+      itemflags:HIDE_ATTRIBUTES,HIDE_DYEcolor:13283291
+    - leather_chestplate 1 name:&f_뀐_&#5C416EA&#664979r&#705284c&#7A5A8Fa&#7A5A8Fn&#85669Ae&#9171A5_&#9C7DB0H&#9C7DB0e&#AB8EBEl&#BB9ECDm&#CAAFDBe&#CAAFDBt
+      lore:&f|&8[&7🗡&8]_&7WEAPON:_&6+-40%|&8[&7🎯&8]_&7SKILL:_&6+200%|&8[&6🛡&8]_&7Defense:_&6+70|&8[&c❤&8]_&7Max_HP:_&c+60|&8[&6⏳&8]_&7Cooldown_Reduction:_&6+15%|&f|&f_뀒_|&f_뀁_|&f_뀁_&fౙ_ᴀʀᴄᴀɴɪᴄ_ᴀᴅᴀᴘᴛ_᎚_&8+_&f᎙|&f_뀁_&7Switches_between_3_states,|&f_뀁_&7each_one_having_different|&f_뀁_&7effects:|&f_뀁_&7|&f_뀁_&c&lArcane:_&7Dealing_skill_DMG|&f_뀁_&7triggers_a_magic_burst_that|&f_뀁_&7deals_&c100_&7damage_to_nearby|&f_뀁_&7targets.|&f_뀁_&7|&f_뀁_&d&lEnsorcel:_&7Gains_ramping|&f_뀁_&f᎕_᎖&7_by_dealing_skill_damage|&f_뀁_&7increasing_by_5%_each.|&f_뀁_&7|&f_뀁_&3&lGuarding:_&7Taking_damage|&f_뀁_&7knocks_back_nearby_enemies|&f_뀁_&7and_slowing_them.|&f|&7Armor
+      itemflags:HIDE_ATTRIBUTES,HIDE_DYEcolor:8018575
+    - string 1
+    - slime_ball 64
+    - iron_sword 1 name:&f_뀐_&#DC143CT&#DF2337h&#E13233e&#E4412E_&#E7502AG&#E95F25u&#EC6E20i&#EF7D1Cl&#F28C17l&#F49B12o&#F7AA0Et&#FAB909i&#FCC805n&#FFD700e
+      lore:&f|&8[&c🗡&8]_&7ATK:_&c150|&8[&c⚔&8]_&7ATS:_&c2|&8[&6⚡&8]_&7CRIT:_&6+-100%|&8[&c❤&8]_&7LIFESTEAL:_&c+0.5%|&f|&f_뀒_|&f_뀁_|&f_뀁_&f్_ʜᴇᴍᴏʀʀʜᴀɢᴇ_&f᎙|&f_뀁_&7Your_attacks_cause_targets|&f_뀁_&7to_&#DC143Cbleed&7,_dealing&c_100&7_damage|&f_뀁_&7per_second_and_&bslowing&7_them.|&f_뀁_&7Target_inflicted_with_&c5_stacks|&f_뀁_&7is_marked_as_&#DC143CG&#E23532u&#E85528i&#EE761El&#F39614t&#F9B70Ay&#FFD700!|&f_뀁_|&f_뀁_&f౎_ᴊᴜꜱᴛɪᴄᴇ_ꜱᴇʀᴠᴇᴅ_&f᎙|&f_뀁_&7You_&dblink&7_to_the_target&7,_then|&f_뀁_&7strike_them_down_with_godlike|&f_뀁_&7force,_dealing_&c1.000&7_damage.|&f_뀁_&7If_the_target_is_&#DC143CG&#E23532u&#E85528i&#EE761El&#F39614t&#F9B70Ay&#FFD700!&7,_they|&f_뀁_&7are_immediately_&4&lEXECUTED&7.|&f_뀁_&8_\|_&#AEC6CF⌚120s_&b✎300_&8\||&f|&a◆_Empty_Gem|&a◆_Empty_Gem|&f|&7Sword
+      itemflags:HIDE_ATTRIBUTES,HIDE_UNBREAKABLE
+    - iron_sword 1 name:&f_뀀_&#7DA27EE&#7B9877a&#7A8E6Fr&#788468t&#777A60h&#756F59b&#746551o&#725B4Au&#715142n&#6F473Bd
+      lore:&f|&8[&c🗡&8]_&7ATK:_&c30|&8[&6⚡&8]_&7CRIT:_&6+100%|&8[&6⚔&8]_&7Parry_Rtng:_&6+15%|&f|&f_뀃_|&f_뀁_|&f_뀁_&fౌ_ʟᴇᴀᴘ_ᴏꜰ_ꜰᴀɪᴛʜ_&f᎙|&f_뀁_&7You_turn_&6immune&7_to_damage|&f_뀁_&7then_&#7DA27Eleap_upwards&7_before|&f_뀁_&4striking&7_the_ground_below.|&f_뀁_&7Targets_hit_take_&c&l1.000&7_dmg|&f_뀁_&7and_are_&#6F473Bcrumbled&7,_taking_&c25%|&f_뀁_&7more_damage_and_are_&#6F473Brooted|&f_뀁_&7for_the_duration.|&f_뀁_&8_\|_&#AEC6CF⌚120s_&8\||&f|&a◆_Empty_Gem|&a◆_Empty_Gem|&f|&7Sword
+      itemflags:HIDE_ATTRIBUTES,HIDE_UNBREAKABLE
+    - player_head 1 name:&fHòm_Mảnh_Giáp_&7[&dIV&7] lore:&f|&fMột_hòm_chứa_mảnh_giáp.|&f|&6Cách_nhận:_&7Mở_hòm_armors.|&f|&eNhấn_chuột_phải_để_mở.|&f|&f[_&d&l✯✯✯✯&8✯_&f]
+      itemflags:HIDE_ATTRIBUTESplayer:7a3c8c6d3aaa9636
+    - iron_sword 1 name:&f_뀐_&#71BEBDL&#70B7BEa&#70B0BFs&#6FA9BFt&#6EA2C0_&#6E9BC1B&#6D93C2r&#6C8CC3e&#6B85C3a&#6B7EC4t&#6A77C5h
+      lore:&f|&8[&c🗡&8]_&7ATK:_&c100|&8[&c⚔&8]_&7ATS:_&c12|&8[&6⚡&8]_&7CRIT:_&6+-100%|&8[&6⚡&8]_&7CRIT_DMG:_&6+350%|&8[&c❤&8]_&7LIFESTEAL:_&c+0.5%|&f|&f_뀒_|&f_뀁_|&f_뀁_&f丯_ᴜʟᴛɪᴍᴀᴛᴜᴍ_&f᎙|&f_뀁_&7You_&dblink&7_to_the_target._You|&f_뀁_&7then_rapidly_knock_them_up|&f_뀁_&7in_the_air,_unleashing_rapid|&f_뀁_&7slashes_that_deal_&c500_&7DMG|&f_뀁_&7each._The_slashes_always|&f_뀁_&4&lCRIT&7._You_ultimately_knock_it|&f_뀁_&7down,_dealing_&c&l10x&7_of_your_&fᎈ|&f_뀁_&#AEC6CFAttack_Damage&7._You_are_&f᎛|&f_뀁_&#ECA42Cinvulnerable&7_while_casting.|&f_뀁_&8_\|_&#AEC6CF⌚120s_&b✎300_&8\||&f|&a◆_Empty_Gem|&a◆_Empty_Gem|&f|&7Sword
+      itemflags:HIDE_ATTRIBUTES,HIDE_UNBREAKABLE
+    - leather_leggings 1 name:&f_뀐_&#7D8F69U&#85966Dr&#8D9C72a&#95A376n&#9DA97Bi&#A5B07Fu&#ADB784m&#B6BD88_&#BEC48DH&#C6CB91e&#CED196l&#D6D89Am&#DEDE9Fe&#E6E5A3t
+      lore:&f|&8[&6⚡&8]_&7CRIT:_&6+15%|&8[&6⚡&8]_&7CRIT_DMG:_&6+40%|&8[&6🛡&8]_&7Defense:_&6+55|&8[&c❤&8]_&7Max_HP:_&c+55|&f|&f_뀒_|&f_뀁_|&f_뀁_&fヸ_ᴍᴀᴛᴄʜɪɴɢ_ᴀᴛᴛɪʀᴇꜱ|&f_뀁_&7For_each_&#7D8F69Uranium_Equipments&7|&f_뀁_&7you_equip,_gain_&f+5🛡_Defense|&f_뀁_&7and_&c+5%_Damage&7.|&f_뀁_|&f_뀁_&fヹ_ʀᴀᴅɪᴀᴛɪᴏɴ|&f_뀁_&7Attacking_enemies_inflicts_it|&f_뀁_&7with_&fヹ&7_which_stacks_up_to_&c15|&f_뀁_&ctimes&7,_upon_which_a_&#7D8F69radiation|&f_뀁_&#7D8F69burst_&7occurs,_dealing_&c1000|&f_뀁_&7damage_to_nearby_enemies.|&f|&7Armor
+      itemflags:HIDE_ATTRIBUTES,HIDE_DYEcolor:2
+    - leather_chestplate 1 name:&f_뀐_&#7D8F69U&#85966Dr&#8D9C72a&#95A376n&#9DA97Bi&#A5B07Fu&#ADB784m&#B6BD88_&#BEC48DH&#C6CB91e&#CED196l&#D6D89Am&#DEDE9Fe&#E6E5A3t
+      lore:&f|&8[&6⚡&8]_&7CRIT:_&6+20%|&8[&6⚡&8]_&7CRIT_DMG:_&6+50%|&8[&6🛡&8]_&7Defense:_&6+75|&8[&c❤&8]_&7Max_HP:_&c+70|&f|&f_뀒_|&f_뀁_|&f_뀁_&fヸ_ᴍᴀᴛᴄʜɪɴɢ_ᴀᴛᴛɪʀᴇꜱ|&f_뀁_&7For_each_&#7D8F69Uranium_Equipments&7|&f_뀁_&7you_equip,_gain_&f+5🛡_Defense|&f_뀁_&7and_&c+5%_Damage&7.|&f_뀁_|&f_뀁_&fヹ_ʀᴀᴅɪᴀᴛɪᴏɴ|&f_뀁_&7Attacking_enemies_inflicts_it|&f_뀁_&7with_&fヹ&7_which_stacks_up_to_&c15|&f_뀁_&ctimes&7,_upon_which_a_&#7D8F69radiation|&f_뀁_&#7D8F69burst_&7occurs,_dealing_&c1000|&f_뀁_&7damage_to_nearby_enemies.|&f|&7Armor
+      itemflags:HIDE_ATTRIBUTES,HIDE_DYEcolor:2
+    - leather_helmet 1 name:&f_뀐_&#7D8F69U&#85966Dr&#8D9C72a&#95A376n&#9DA97Bi&#A5B07Fu&#ADB784m&#B6BD88_&#BEC48DH&#C6CB91e&#CED196l&#D6D89Am&#DEDE9Fe&#E6E5A3t
+      lore:&f|&8[&6⚡&8]_&7CRIT:_&6+15%|&8[&6⚡&8]_&7CRIT_DMG:_&6+35%|&8[&6🛡&8]_&7Defense:_&6+60|&8[&c❤&8]_&7Max_HP:_&c+45|&f|&f_뀒_|&f_뀁_|&f_뀁_&fヸ_ᴍᴀᴛᴄʜɪɴɢ_ᴀᴛᴛɪʀᴇꜱ|&f_뀁_&7For_each_&#7D8F69Uranium_Equipments&7|&f_뀁_&7you_equip,_gain_&f+5🛡_Defense|&f_뀁_&7and_&c+5%_Damage&7.|&f_뀁_|&f_뀁_&fヹ_ʀᴀᴅɪᴀᴛɪᴏɴ|&f_뀁_&7Attacking_enemies_inflicts_it|&f_뀁_&7with_&fヹ&7_which_stacks_up_to_&c15|&f_뀁_&ctimes&7,_upon_which_a_&#7D8F69radiation|&f_뀁_&#7D8F69burst_&7occurs,_dealing_&c1000|&f_뀁_&7damage_to_nearby_enemies.|&f|&7Armor
+      itemflags:HIDE_ATTRIBUTES,HIDE_DYEcolor:2
+    - slime_ball 64
+    - arrow 5
+    - leather_boots 1 name:&f_뀐_&#7D8F69U&#85966Dr&#8D9C72a&#95A376n&#9DA97Bi&#A5B07Fu&#ADB784m&#B6BD88_&#BEC48DH&#C6CB91e&#CED196l&#D6D89Am&#DEDE9Fe&#E6E5A3t
+      lore:&f|&8[&6⚡&8]_&7CRIT:_&6+12.5%|&8[&6⚡&8]_&7CRIT_DMG:_&6+25%|&8[&6🛡&8]_&7Defense:_&6+45|&8[&c❤&8]_&7Max_HP:_&c+50|&8[&6⚡&8]_&7Move_Spd:_&6+5|&f|&f_뀒_|&f_뀁_|&f_뀁_&fヸ_ᴍᴀᴛᴄʜɪɴɢ_ᴀᴛᴛɪʀᴇꜱ|&f_뀁_&7For_each_&#7D8F69Uranium_Equipments&7|&f_뀁_&7you_equip,_gain_&f+5🛡_Defense|&f_뀁_&7and_&c+5%_Damage&7.|&f_뀁_|&f_뀁_&fヹ_ʀᴀᴅɪᴀᴛɪᴏɴ|&f_뀁_&7Attacking_enemies_inflicts_it|&f_뀁_&7with_&fヹ&7_which_stacks_up_to_&c15|&f_뀁_&ctimes&7,_upon_which_a_&#7D8F69radiation|&f_뀁_&#7D8F69burst_&7occurs,_dealing_&c1000|&f_뀁_&7damage_to_nearby_enemies.|&f|&7Armor
+      itemflags:HIDE_ATTRIBUTES,HIDE_DYEcolor:2
+    - iron_sword 1 name:&f_뀐_&#DC143CT&#DF2337h&#E13233e&#E4412E_&#E7502AG&#E95F25u&#EC6E20i&#EF7D1Cl&#F28C17l&#F49B12o&#F7AA0Et&#FAB909i&#FCC805n&#FFD700e
+      lore:&f|&8[&c🗡&8]_&7ATK:_&c150|&8[&c⚔&8]_&7ATS:_&c2|&8[&6⚡&8]_&7CRIT:_&6+100%|&8[&6⚡&8]_&7CRIT_DMG:_&6+100%|&8[&c❤&8]_&7LIFESTEAL:_&c+0.5%|&f|&a>&8\|_&7Tấn_Công_&8\|&e\|&8\|_&7&lSmite|&f_&7>&8\|&7_Timer&8:_2|&f_&7>&8\|&7_Damage&8:_200|&f_&7>&8\|&7_Mana&8:_5|&f|&f_뀒_|&f_뀁_|&f_뀁_&f్_ʜᴇᴍᴏʀʀʜᴀɢᴇ_&f᎙|&f_뀁_&7Your_attacks_cause_targets|&f_뀁_&7to_&#DC143Cbleed&7,_dealing&c_100&7_damage|&f_뀁_&7per_second_and_&bslowing&7_them.|&f_뀁_&7Target_inflicted_with_&c5_stacks|&f_뀁_&7is_marked_as_&#DC143CG&#E23532u&#E85528i&#EE761El&#F39614t&#F9B70Ay&#FFD700!|&f_뀁_|&f_뀁_&f౎_ᴊᴜꜱᴛɪᴄᴇ_ꜱᴇʀᴠᴇᴅ_&f᎙|&f_뀁_&7You_&dblink&7_to_the_target&7,_then|&f_뀁_&7strike_them_down_with_godlike|&f_뀁_&7force,_dealing_&c1.000&7_damage.|&f_뀁_&7If_the_target_is_&#DC143CG&#E23532u&#E85528i&#EE761El&#F39614t&#F9B70Ay&#FFD700!&7,_they|&f_뀁_&7are_immediately_&4&lEXECUTED&7.|&f_뀁_&8_\|_&#AEC6CF⌚120s_&b✎300_&8\||&f|&a◆_Empty_Gem|&a◆_Empty_Gem|&f|&7Sword
+      itemflags:HIDE_ATTRIBUTES,HIDE_UNBREAKABLE
+    - slime_ball 22
+    - player_head 2 name:&f_뀐_&#5C416EA&#664979r&#705284c&#7A5A8Fa&#7A5A8Fn&#85669Ae&#9171A5_&#9C7DB0H&#9C7DB0e&#AB8EBEl&#BB9ECDm&#CAAFDBe&#CAAFDBt
+      lore:&f|&8[&7🗡&8]_&7WEAPON:_&6+-20%|&8[&7🎯&8]_&7SKILL:_&6+120%|&8[&6🛡&8]_&7Defense:_&6+55|&8[&c❤&8]_&7Max_HP:_&c+40|&8[&6⏳&8]_&7Cooldown_Reduction:_&6+10%|&f|&f_뀒_|&f_뀁_|&f_뀁_&fౙ_ᴀʀᴄᴀɴɪᴄ_ᴀᴅᴀᴘᴛ_᎚_&8+_&f᎙|&f_뀁_&7Switches_between_3_states,|&f_뀁_&7each_one_having_different|&f_뀁_&7effects:|&f_뀁_&7|&f_뀁_&c&lArcane:_&7Dealing_skill_DMG|&f_뀁_&7triggers_a_magic_burst_that|&f_뀁_&7deals_&c100_&7damage_to_nearby|&f_뀁_&7targets.|&f_뀁_&7|&f_뀁_&d&lEnsorcel:_&7Gains_ramping|&f_뀁_&f᎕_᎖&7_by_dealing_skill_damage|&f_뀁_&7increasing_by_5%_each.|&f_뀁_&7|&f_뀁_&3&lGuarding:_&7Taking_damage|&f_뀁_&7knocks_back_nearby_enemies|&f_뀁_&7and_slowing_them.|&f|&7Armor
+      itemflags:HIDE_ATTRIBUTES
+    - leather_boots 1 name:&f_뀐_&#1F67FFB&#2D75FFo&#3B84FFo&#4992FFt&#57A1FFs&#65AFFF_&#73BDFFo&#81CCFFf&#8FDAFF_&#8FDAFFt&#9ADDFFh&#A6E0FFe&#B1E2FF_&#BCE5FFD&#C7E8FFa&#D3EBFFm&#DEEDFFn&#E9F0FFe&#E9F0FFd
+      lore:&f|&8[&6⚡&8]_&7CRIT:_&6+5%|&8[&6⚡&8]_&7CRIT_DMG:_&6+80%|&8[&7🗡&8]_&7WEAPON:_&6+2.5%|&8[&6🛡&8]_&7Defense:_&6+40|&8[&c❤&8]_&7Max_HP:_&c+45|&8[&6⚡&8]_&7Move_Spd:_&6+8|&f|&f_뀒_|&f_뀁_|&f_뀁_&fౚ_ꜱᴏᴜʟ_ʜᴀʀᴠᴇꜱᴛᴇʀ_|&f_뀁_&7Killing_an_enemy_harvests|&f_뀁_&7its_&#8FDAFFsoul&7._Souls_reside_within|&f_뀁_&7you_and_stack_&#1F67FFindefinitely&7.|&f_뀁_&7|&f_뀁_&7Your_attacks_are_modified_to|&f_뀁_&7deal_extra_damage_equals_to|&f_뀁_&#8FDAFF0.001%_Soul&7.|&f_뀁_&7|&f_뀁_&7At_&#8FDAFF1.000_souls&7,_you_heal_for|&f_뀁_&c5%❤&7_for_kills.|&f_뀁_&7|&f_뀁_&7At_&#8FDAFF10.000_souls&7,_you_become|&f_뀁_&f᎛_&#ECA42Cinvulnerable&7_for_3s_after|&f_뀁_&7mob_kills.|&f|&7Armor
+      itemflags:HIDE_ATTRIBUTES,HIDE_DYEcolor:1
+    - leather_leggings 1 name:&f_뀐_&#1F67FFL&#2A73FFe&#357EFFg&#418AFFg&#4C95FFi&#57A1FFn&#62ACFFg&#6DB8FFs&#79C3FF_&#84CFFFo&#8FDAFFf&#8FDAFF_&#98DCFFt&#A1DEFFh&#AAE1FFe&#B3E3FF_&#BCE5FFD&#C5E7FFa&#CEE9FFm&#D7ECFFn&#E0EEFFe&#E9F0FFd
+      lore:&f|&8[&6⚡&8]_&7CRIT:_&6+10%|&8[&6⚡&8]_&7CRIT_DMG:_&6+125%|&8[&7🗡&8]_&7WEAPON:_&6+5%|&8[&6🛡&8]_&7Defense:_&6+50|&8[&c❤&8]_&7Max_HP:_&c+50|&f|&f_뀒_|&f_뀁_|&f_뀁_&fౚ_ꜱᴏᴜʟ_ʜᴀʀᴠᴇꜱᴛᴇʀ_|&f_뀁_&7Killing_an_enemy_harvests|&f_뀁_&7its_&#8FDAFFsoul&7._Souls_reside_within|&f_뀁_&7you_and_stack_&#1F67FFindefinitely&7.|&f_뀁_&7|&f_뀁_&7Your_attacks_are_modified_to|&f_뀁_&7deal_extra_damage_equals_to|&f_뀁_&#8FDAFF0.001%_Soul&7.|&f_뀁_&7|&f_뀁_&7At_&#8FDAFF1.000_souls&7,_you_heal_for|&f_뀁_&c5%❤&7_for_kills.|&f_뀁_&7|&f_뀁_&7At_&#8FDAFF10.000_souls&7,_you_become|&f_뀁_&f᎛_&#ECA42Cinvulnerable&7_for_3s_after|&f_뀁_&7mob_kills.|&f|&7Armor
+      itemflags:HIDE_ATTRIBUTES,HIDE_DYEcolor:1
+    - leather_chestplate 1 name:&f_뀐_&#1F67FFC&#2971FFh&#337CFFe&#3E86FFs&#4891FFt&#529BFFp&#5CA6FFl&#66B0FFa&#70BBFFt&#7BC5FFe&#85D0FF_&#8FDAFFo&#8FDAFFf&#97DCFF_&#9FDEFFt&#A8E0FFh&#B0E2FFe&#B8E4FF_&#C0E6FFD&#C8E8FFa&#D0EAFFm&#D9ECFFn&#E1EEFFe&#E9F0FFd
+      lore:&f|&8[&6⚡&8]_&7CRIT:_&6+10%|&8[&6⚡&8]_&7CRIT_DMG:_&6+150%|&8[&7🗡&8]_&7WEAPON:_&6+10%|&8[&6🛡&8]_&7Defense:_&6+65|&8[&c❤&8]_&7Max_HP:_&c+55|&f|&f_뀒_|&f_뀁_|&f_뀁_&fౚ_ꜱᴏᴜʟ_ʜᴀʀᴠᴇꜱᴛᴇʀ_|&f_뀁_&7Killing_an_enemy_harvests|&f_뀁_&7its_&#8FDAFFsoul&7._Souls_reside_within|&f_뀁_&7you_and_stack_&#1F67FFindefinitely&7.|&f_뀁_&7|&f_뀁_&7Your_attacks_are_modified_to|&f_뀁_&7deal_extra_damage_equals_to|&f_뀁_&#8FDAFF0.001%_Soul&7.|&f_뀁_&7|&f_뀁_&7At_&#8FDAFF1.000_souls&7,_you_heal_for|&f_뀁_&c5%❤&7_for_kills.|&f_뀁_&7|&f_뀁_&7At_&#8FDAFF10.000_souls&7,_you_become|&f_뀁_&f᎛_&#ECA42Cinvulnerable&7_for_3s_after|&f_뀁_&7mob_kills.|&f|&7Armor
+      itemflags:HIDE_ATTRIBUTES,HIDE_DYEcolor:1
+    - leather_helmet 1 name:&f_뀐_&#1F67FFH&#2B74FFe&#3881FFl&#448DFFm&#519AFFe&#5DA7FFt&#6AB4FF_&#76C0FFo&#83CDFFf&#8FDAFF_&#8FDAFFt&#99DCFFh&#A3DFFFe&#ADE1FF_&#B7E4FFD&#C1E6FFa&#CBE9FFm&#D5EBFFn&#DFEEFFe&#E9F0FFd
+      lore:&f|&8[&6⚡&8]_&7CRIT:_&6+5%|&8[&6⚡&8]_&7CRIT_DMG:_&6+100%|&8[&7🗡&8]_&7WEAPON:_&6+2.5%|&8[&6🛡&8]_&7Defense:_&6+50|&8[&c❤&8]_&7Max_HP:_&c+40|&f|&f_뀒_|&f_뀁_|&f_뀁_&fౚ_ꜱᴏᴜʟ_ʜᴀʀᴠᴇꜱᴛᴇʀ_|&f_뀁_&7Killing_an_enemy_harvests|&f_뀁_&7its_&#8FDAFFsoul&7._Souls_reside_within|&f_뀁_&7you_and_stack_&#1F67FFindefinitely&7.|&f_뀁_&7|&f_뀁_&7Your_attacks_are_modified_to|&f_뀁_&7deal_extra_damage_equals_to|&f_뀁_&#8FDAFF0.001%_Soul&7.|&f_뀁_&7|&f_뀁_&7At_&#8FDAFF1.000_souls&7,_you_heal_for|&f_뀁_&c5%❤&7_for_kills.|&f_뀁_&7|&f_뀁_&7At_&#8FDAFF10.000_souls&7,_you_become|&f_뀁_&f᎛_&#ECA42Cinvulnerable&7_for_3s_after|&f_뀁_&7mob_kills.|&f|&7Armor
+      itemflags:HIDE_ATTRIBUTES,HIDE_DYEcolor:1

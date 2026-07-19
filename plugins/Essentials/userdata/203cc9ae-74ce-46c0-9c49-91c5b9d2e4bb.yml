@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 0:0:0:0:0:0:0:1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1740836249922
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1740838231474
+  login: 1740831840475
+money: '172.75136734490485'
+last-account-name: RayPVP666_VN
+lastlocation:
+  world: b0c26e18-02d5-4469-a296-8e26fe556551
+  world-name: dungeon
+  x: -31.573567927656704
+  y: 86.73982632308875
+  z: -31.986976245315287
+  yaw: -171.01309204101562
+  pitch: 28.91965675354004
+logoutlocation:
+  world: 8f9024e5-d71f-4200-aab6-20b47c44d0ba
+  world-name: world
+  x: -53.846978527116754
+  y: 6.214724316607601
+  z: 48.51654526946192
+  yaw: 87.16961669921875
+  pitch: 23.297103881835938

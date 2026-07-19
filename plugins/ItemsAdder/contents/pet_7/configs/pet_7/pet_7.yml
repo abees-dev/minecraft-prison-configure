@@ -1,0 +1,108 @@
+info:
+  namespace: pet_7
+items:
+  icon_alchemist:
+    display_name: "icon_alchemist"
+    permission: icon_alchemist
+    resource:
+      material: BRICK
+      model_id: 3550
+      generate: false
+      model_path: rpg_pet_3_model/icon_alchemist
+  icon_archer:
+    display_name: "icon_archer"
+    permission: icon_archer
+    resource:
+      material: BRICK
+      model_id: 3551
+      generate: false
+      model_path: rpg_pet_3_model/icon_archer
+  icon_archmage:
+    display_name: "icon_archmage"
+    permission: icon_archmage
+    resource:
+      material: BRICK
+      model_id: 3552
+      generate: false
+      model_path: rpg_pet_3_model/icon_archmage
+  icon_beastmaster:
+    display_name: "icon_beastmaster"
+    permission: icon_beastmaster
+    resource:
+      material: BRICK
+      model_id: 3554
+      generate: false
+      model_path: rpg_pet_3_model/icon_beastmaster
+  icon_druid:
+    display_name: "icon_druid"
+    permission: icon_druid
+    resource:
+      material: BRICK
+      model_id: 3556
+      generate: false
+      model_path: rpg_pet_3_model/icon_druid
+  icon_gunner:
+    display_name: "icon_gunner"
+    permission: icon_gunner
+    resource:
+      material: BRICK
+      model_id: 3558
+      generate: false
+      model_path: rpg_pet_3_model/icon_gunner
+  icon_illusionist:
+    display_name: "icon_illusionist"
+    permission: icon_illusionist
+    resource:
+      material: BRICK
+      model_id: 3559
+      generate: false
+      model_path: rpg_pet_3_model/icon_illusionist
+  icon_mage:
+    display_name: "icon_mage"
+    permission: icon_mage
+    resource:
+      material: BRICK
+      model_id: 3560
+      generate: false
+      model_path: rpg_pet_3_model/icon_mage
+  fx_arrow_archer:
+    display_name: "fx_arrow_archer"
+    permission: fx_arrow_archer
+    resource:
+      material: COAL
+      model_id: 5622
+      generate: false
+      model_path: rpg_pet_3_model/fx_arrow_archer
+  fx_arrow_beastmaster:
+    display_name: "fx_arrow_beastmaster"
+    permission: fx_arrow_beastmaster
+    resource:
+      material: COAL
+      model_id: 5623
+      generate: false
+      model_path: rpg_pet_3_model/fx_arrow_beastmaster
+  fx_beam_1:
+    display_name: "fx_beam_1"
+    permission: fx_beam_1
+    resource:
+      material: COAL
+      model_id: 5624
+      generate: false
+      model_path: rpg_pet_3_model/fx_beam_1
+  fx_beam_2:
+    display_name: "fx_beam_2"
+    permission: fx_beam_2
+    resource:
+      material: COAL
+      model_id: 5625
+      generate: false
+      model_path: rpg_pet_3_model/fx_beam_2
+  fx_potion:
+    display_name: "fx_potion"
+    permission: fx_potion
+    resource:
+      material: COAL
+      model_id: 5626
+      generate: false
+      model_path: rpg_pet_3_model/fx_potion
+  

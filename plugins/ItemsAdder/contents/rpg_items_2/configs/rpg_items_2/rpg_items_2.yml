@@ -1,0 +1,131 @@
+info:
+  namespace: rpg_items_2
+items:
+  battledancer:
+    display_name: "battledancer"
+    permission: battledancer
+    resource:
+      material: STONE_SWORD
+      model_id: 2073
+      generate: false
+      model_path: rpg_items_2_model/battledancer
+  eye_of_abyss:
+    display_name: "eye_of_abyss"
+    permission: eye_of_abyss
+    resource:
+      material: STONE_SWORD
+      model_id: 2074
+      generate: false
+      model_path: rpg_items_2_model/eye_of_abyss
+  ghost_fang:
+    display_name: "ghost_fang"
+    permission: ghost_fang
+    resource:
+      material: STONE_SWORD
+      model_id: 2075
+      generate: false
+      model_path: rpg_items_2_model/ghost_fang
+  icon_basher:
+    display_name: "icon_basher"
+    permission: icon_basher
+    resource:
+      material: COAL
+      model_id: 2235
+      generate: false
+      model_path: rpg_items_2_model/icon_basher
+  icon_convergence:
+    display_name: "icon_convergence"
+    permission: icon_convergence
+    resource:
+      material: COAL
+      model_id: 2236
+      generate: false
+      model_path: rpg_items_2_model/icon_convergence
+  icon_earthquake:
+    display_name: "icon_earthquake"
+    permission: icon_earthquake
+    resource:
+      material: COAL
+      model_id: 2238
+      generate: false
+      model_path: rpg_items_2_model/icon_earthquake
+  icon_earth_pound:
+    display_name: "icon_earth_pound"
+    permission: icon_earth_pound
+    resource:
+      material: COAL
+      model_id: 2237
+      generate: false
+      model_path: rpg_items_2_model/icon_earth_pound
+  icon_ghostblades:
+    display_name: "icon_ghostblades"
+    permission: icon_ghostblades
+    resource:
+      material: COAL
+      model_id: 2239
+      generate: false
+      model_path: rpg_items_2_model/icon_ghostblades
+  icon_incinerator:
+    display_name: "icon_incinerator"
+    permission: icon_incinerator
+    resource:
+      material: COAL
+      model_id: 2240
+      generate: false
+      model_path: rpg_items_2_model/icon_incinerator
+  icon_oceanborne:
+    display_name: "icon_oceanborne"
+    permission: icon_oceanborne
+    resource:
+      material: COAL
+      model_id: 2241
+      generate: false
+      model_path: rpg_items_2_model/icon_oceanborne
+  icon_pathfinder:
+    display_name: "icon_pathfinder"
+    permission: icon_pathfinder
+    resource:
+      material: COAL
+      model_id: 2242
+      generate: false
+      model_path: rpg_items_2_model/icon_pathfinder
+  icon_plague:
+    display_name: "icon_plague"
+    permission: icon_plague
+    resource:
+      material: COAL
+      model_id: 2243
+      generate: false
+      model_path: rpg_items_2_model/icon_plague
+  icon_whispering_talon:
+    display_name: "icon_whispering_talon"
+    permission: icon_whispering_talon
+    resource:
+      material: COAL
+      model_id: 2244
+      generate: false
+      model_path: rpg_items_2_model/icon_whispering_talon
+  lightbinder:
+    display_name: "lightbinder"
+    permission: lightbinder
+    resource:
+      material: STONE_SWORD
+      model_id: 2076
+      generate: false
+      model_path: rpg_items_2_model/lightbinder
+  necrosis:
+    display_name: "necrosis"
+    permission: necrosis
+    resource:
+      material: CARVED_PUMPKIN
+      model_id: 2002
+      generate: false
+      model_path: rpg_items_2_model/necrosis
+  terra_warhammer:
+    display_name: "terra_warhammer"
+    permission: terra_warhammer
+    resource:
+      material: STONE_SWORD
+      model_id: 2077
+      generate: false
+      model_path: rpg_items_2_model/terra_warhammer

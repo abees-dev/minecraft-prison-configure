@@ -1,0 +1,169 @@
+info:
+  namespace: valentine2025set
+items:
+  valentine2025_axe:
+    display_name: Valentine 2025 Axe
+    permission: valentine2025set.axe
+    resource:
+      material: IRON_AXE
+      generate: false
+      model_path: axe
+  valentine2025_bow:
+    display_name: Valentine 2025 Bow
+    permission: valentine2025set.bow
+    resource:
+      material: BOW
+      generate: false
+      model_path: bow
+  valentine2025_chest:
+    display_name: Valentine 2025 Chest
+    permission: valentine2025set.chest
+    resource:
+      material: PAPER
+      generate: false
+      model_path: chest
+    behaviours:
+      furniture:
+        entity: item_frame
+        fixed_rotation: false
+        hitbox:
+          height: 1
+          height_offset: 0
+          length: 1
+          length_offset: 0
+          width: 1
+          width_offset: 0
+        placeable_on:
+          ceiling: false
+          floor: true
+          walls: false
+        solid: false
+  valentine2025_crossbow:
+    display_name: Valentine 2025 Crossbow
+    permission: valentine2025set.crossbow
+    resource:
+      material: CROSSBOW
+      generate: false
+      model_path: crossbow
+  valentine2025_fishing_rod:
+    display_name: Valentine 2025 Fishing Rod
+    permission: valentine2025set.fishing_rod
+    resource:
+      material: FISHING_ROD
+      generate: false
+      model_path: fishing_rod
+  valentine2025_hammer:
+    display_name: Valentine 2025 Hammer
+    permission: valentine2025set.hammer
+    resource:
+      material: IRON_SWORD
+      generate: false
+      model_path: hammer
+  valentine2025_helmet:
+    display_name: Valentine 2025 Helmet
+    permission: valentine2025set.helmet
+    resource:
+      material: PAPER
+      generate: false
+      model_path: helmet
+    attribute_modifiers:
+      head:
+        armor: 2
+    behaviours:
+      hat: true
+    durability:
+      max_custom_durability: 165
+  valentine2025_hoe:
+    display_name: Valentine 2025 Hoe
+    permission: valentine2025set.hoe
+    resource:
+      material: IRON_HOE
+      generate: false
+      model_path: hoe
+  valentine2025_key:
+    display_name: Valentine 2025 Key
+    permission: valentine2025set.key
+    resource:
+      material: PAPER
+      generate: false
+      model_path: key
+  valentine2025_mace:
+    display_name: Valentine 2025 Mace
+    permission: valentine2025set.mace
+    resource:
+      material: IRON_SWORD
+      generate: false
+      model_path: mace
+  valentine2025_pickaxe:
+    display_name: Valentine 2025 Pickaxe
+    permission: valentine2025set.pickaxe
+    resource:
+      material: IRON_PICKAXE
+      generate: false
+      model_path: pickaxe
+  valentine2025_scythe:
+    display_name: Valentine 2025 Scythe
+    permission: valentine2025set.scythe
+    resource:
+      material: IRON_SWORD
+      generate: false
+      model_path: scythe
+  valentine2025_shield:
+    display_name: Valentine 2025 Shield
+    permission: valentine2025set.shield
+    resource:
+      material: SHIELD
+      generate: false
+      model_path: shield
+  valentine2025_shovel:
+    display_name: Valentine 2025 Shovel
+    permission: valentine2025set.shovel
+    resource:
+      material: IRON_SHOVEL
+      generate: false
+      model_path: shovel
+  valentine2025_spear:
+    display_name: Valentine 2025 Spear
+    permission: valentine2025set.spear
+    resource:
+      material: IRON_SWORD
+      generate: false
+      model_path: spear
+  valentine2025_staff:
+    display_name: Valentine 2025 Staff
+    permission: valentine2025set.staff
+    resource:
+      material: IRON_SWORD
+      generate: false
+      model_path: staff
+  valentine2025_sword:
+    display_name: Valentine 2025 Sword
+    permission: valentine2025set.sword
+    resource:
+      material: IRON_SWORD
+      generate: false
+      model_path: sword
+  valentine2025_trident:
+    display_name: Valentine 2025 Trident
+    permission: valentine2025set.trident
+    resource:
+      material: IRON_SWORD
+      generate: false
+      model_path: trident
+  valentine2025_wings:
+    display_name: Valentine 2025 Wings
+    permission: valentine2025set.wings
+    resource:
+      material: PAPER
+      generate: false
+      model_path: wings
+    attribute_modifiers:
+      head:
+        armor: 2
+    behaviours:
+      hat: true
+    durability:
+      max_custom_durability: 165
+
+#340be9fa0a8daa6dbfba39328beb988d
+#QzVJd1R01WNOVkcXd1TTdkVVdlY3lkeNFzZ61EejRUTwkESUljaxtUVzATZu9WS48kV09EO

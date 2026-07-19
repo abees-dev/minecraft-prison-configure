@@ -1,0 +1,33 @@
+info:
+    namespace: sushiset
+categories:
+    sushiset:
+        name: Sushi Weapons, Tools And Cosmetics Set
+        enabled: true
+        icon: sushiset:sushi_wings
+        permission: ia.menu.sushiset
+        items:
+        - sushiset:sushihelmet
+        - sushiset:sushichestplate
+        - sushiset:sushileggings
+        - sushiset:sushiboots
+        - sushiset:sushi_axe
+        - sushiset:sushi_pickaxe
+        - sushiset:sushi_shovel
+        - sushiset:sushi_hoe
+        - sushiset:sushi_fishing_rod
+        - sushiset:sushi_greatsword
+        - sushiset:sushi_sword
+        - sushiset:sushi_shield
+        - sushiset:sushi_crossbow
+        - sushiset:sushi_bow
+        - sushiset:sushi_staff
+        - sushiset:sushi_trident
+        - sushiset:sushi_hammer
+        - sushiset:sushi_spear
+        - sushiset:sushi_scythe
+        - sushiset:sushi_chest
+        - sushiset:sushi_key
+        - sushiset:sushi_hat
+        - sushiset:sushi_backpack
+        - sushiset:sushi_wings

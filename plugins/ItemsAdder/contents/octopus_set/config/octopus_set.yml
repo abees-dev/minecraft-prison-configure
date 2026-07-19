@@ -1,0 +1,123 @@
+info:
+  namespace: octopus_set
+
+armors_rendering:
+  octopus_armor:
+    color: '#23c1d9'
+    layer_1: octopus_armor_main
+    layer_2: octopus_armor_leggings
+    use_color: false
+
+items:
+
+  octopus_helmet:
+    display_name: "Octopus Helmet"
+    permission: octopus_set
+    resource:
+      generate: false
+      material: PAPER
+      model_path: "octopus_helmet"
+    behaviours:
+      hat: true
+
+  octopus_chestplate:
+    display_name: "Octopus Chestplate"
+    permission: octopus_set
+    resource:
+      generate: true
+      textures:
+        - octopus_chestplate
+    specific_properties:
+      armor:
+        slot: CHEST
+        custom_armor: octopus_armor
+    
+  octopus_leggings:
+    display_name: "Octopus Leggings"
+    permission: octopus_set
+    resource:
+      generate: true
+      textures:
+        - octopus_leggings
+    specific_properties:
+      armor:
+        slot: LEGS
+        custom_armor: octopus_armor
+
+  octopus_boots:
+    display_name: "Octopus Boots"
+    permission: octopus_set
+    resource:
+      generate: true
+      textures:
+        - octopus_boots
+    specific_properties:
+      armor:
+        slot: FEET
+        custom_armor: octopus_armor
+      
+  octopus_sword:
+    display_name: "Octopus Sword"
+    permission: octopus_set
+    resource:
+      generate: false
+      material: WOODEN_SWORD
+      model_path: "octopus_sword"
+
+  octopus_pickaxe:
+    display_name: "Octopus Pickaxe"
+    permission: octopus_set
+    resource:
+      generate: false
+      material: WOODEN_PICKAXE
+      model_path: "octopus_pickaxe"
+
+  octopus_shovel:
+    display_name: "Octopus Shovel"
+    permission: octopus_set
+    resource:
+      generate: false
+      material: WOODEN_SHOVEL
+      model_path: "octopus_shovel"
+
+  octopus_hoe:
+    display_name: "Octopus Hoe"
+    permission: octopus_set
+    resource:
+      generate: false
+      material: WOODEN_HOE
+      model_path: "octopus_hoe"
+
+  octopus_axe:
+    display_name: "Octopus Axe"
+    permission: octopus_set
+    resource:
+      generate: false
+      material: WOODEN_AXE
+      model_path: "octopus_axe"
+
+  octopus_bow:
+    display_name: "Octopus Bow"
+    permission: octopus_set
+    resource:
+      generate: false
+      material: BOW
+      model_path: "octopus_bow"
+
+  octopus_crate:
+    display_name: "Octopus Crate"
+    permission: octopus_set
+    resource:
+      generate: false
+      material: PAPER
+      model_path: "octopus_crate"
+    behaviours:
+      furniture:
+        fixed_rotation: true
+        solid: true
+        placeable_on:
+          floor: true
+          ceiling: false
+          walls: false
+        hitbox:
+          height: 1

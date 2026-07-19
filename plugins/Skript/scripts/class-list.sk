@@ -1,0 +1,21 @@
+import:
+    net.Indyuce.mmocore.MMOCore
+    net.Indyuce.mmocore.manager.ClassManager
+    java.util.Map
+
+command /debugclass:
+    trigger:
+        set {_mmocore} to MMOCore.getPlugin(MMOCore.class) # ✅ Lấy instance MMOCore
+        set {_classManagerField} to {_mmocore}.getClass().getDeclaredField("classManager") # ✅ Lấy Field classManager
+        {_classManagerField}.setAccessible(true) # ✅ Cho phép truy cập Field
+        set {_classManager} to {_classManagerField}.get({_mmocore}) # ✅ Lấy ClassManager từ instance MMOCore
+
+        set {_classMapField} to {_classManager}.getClass().getDeclaredField("map") # ✅ Lấy Field map chứa class
+        {_classMapField}.setAccessible(true) # ✅ Cho phép truy cập Field
+        set {_classMap} to {_classMapField}.get({_classManager}) # ✅ Lấy danh sách class
+
+        set {_classKeys::*} to {_classMap}.keySet().toArray() # ✅ Chuyển danh sách ID class
+
+        send "&aDanh sách ID class trong MMOCore:"
+        loop {_classKeys::*}:
+            send "&b- %loop-value%"

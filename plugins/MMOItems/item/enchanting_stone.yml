@@ -1,0 +1,113 @@
+ENCHANTING_STONE_1:
+  base:
+    material: HEART_OF_THE_SEA
+    enchants:
+      loyalty: 1.0
+    hide-enchants: true
+    disable-enchanting: true
+    disable-crafting: true
+    disable-interaction: true
+    disable-repairing: true
+    disable-droping: true
+    durability-bar: true
+    name: Đá Cường Hóa &7[&fI&7]
+    lore-format: item-trade
+    custom-model-data: 10000.0
+    lore:
+      - '&7Năng lượng cổ đại, tăng sức mạnh trang bị cơ bản.'
+      - '&7Tăng nhẹ công/thủ. Tỷ lệ thành công cao.'
+      - ''
+      - '&eSử dụng:&7 Lò Rèn/bàn nâng cấp.'
+      - '&eCách Nhận:&7 Quái vật cấp thấp, &e/warp trade.'
+    tier: COMMON
+ENCHANTING_STONE_2:
+  base:
+    material: HEART_OF_THE_SEA
+    enchants:
+      loyalty: 1.0
+    hide-enchants: true
+    disable-enchanting: true
+    disable-crafting: true
+    disable-interaction: true
+    disable-repairing: true
+    disable-droping: true
+    durability-bar: true
+    name: §aĐá Cường Hóa &7[&aII&7]
+    lore-format: item-trade
+    custom-model-data: 10001.0
+    lore:
+      - '&7Năng lượng cổ đại, tăng sức mạnh trang bị cơ bản.'
+      - '&7Tăng nhẹ công/thủ. Tỷ lệ thành công cao.'
+      - ''
+      - '&eSử dụng:&7 Lò Rèn/bàn nâng cấp.'
+      - '&eCách Nhận:&7 Quái vật cấp thấp, &e/warp trade.'
+    tier: UNCOMMON
+
+ENCHANTING_STONE_3:
+  base:
+    material: HEART_OF_THE_SEA
+    enchants:
+      loyalty: 1.0
+    hide-enchants: true
+    disable-enchanting: true
+    disable-crafting: true
+    disable-interaction: true
+    disable-repairing: true
+    disable-droping: true
+    durability-bar: true
+    name: §9Đá Cường Hóa &7[&bIII&7]
+    lore-format: item-trade
+    custom-model-data: 10002.0
+    lore:
+      - '&7Năng lượng cổ đại, tăng sức mạnh trang bị cơ bản.'
+      - '&7Tăng nhẹ công/thủ. Tỷ lệ thành công cao.'
+      - ''
+      - '&eSử dụng:&7 Lò Rèn/bàn nâng cấp.'
+      - '&eCách Nhận:&7 Quái vật cấp thấp, &e/warp trade.'
+    tier: RARE
+
+ENCHANTING_STONE_4:
+  base:
+    material: HEART_OF_THE_SEA
+    enchants:
+      loyalty: 1.0
+    hide-enchants: true
+    disable-enchanting: true
+    disable-crafting: true
+    disable-interaction: true
+    disable-repairing: true
+    disable-droping: true
+    durability-bar: true
+    name: §5Đá Cường Hóa &7[&dIV&7]
+    lore-format: item-trade
+    custom-model-data: 10003.0
+    lore:
+      - '&7Năng lượng cổ đại, tăng sức mạnh trang bị cơ bản.'
+      - '&7Tăng nhẹ công/thủ. Tỷ lệ thành công cao.'
+      - ''
+      - '&eSử dụng:&7 Lò Rèn/bàn nâng cấp.'
+      - '&eCách Nhận:&7 Quái vật cấp thấp, &e/warp trade.'
+    tier: EPIC
+
+ENCHANTING_STONE_5:
+  base:
+    material: HEART_OF_THE_SEA
+    enchants:
+      loyalty: 1.0
+    hide-enchants: true
+    disable-enchanting: true
+    disable-crafting: true
+    disable-interaction: true
+    disable-repairing: true
+    disable-droping: true
+    durability-bar: true
+    name: §eĐá Cường Hóa &7[&eV&7]
+    lore-format: item-trade
+    custom-model-data: 10004.0
+    lore:
+      - '&7Năng lượng cổ đại, tăng sức mạnh trang bị cơ bản.'
+      - '&7Tăng nhẹ công/thủ. Tỷ lệ thành công cao.'
+      - ''
+      - '&eSử dụng:&7 Lò Rèn/bàn nâng cấp.'
+      - '&eCách Nhận:&7 Quái vật cấp thấp, &e/warp trade.'
+    tier: LEGENDARY

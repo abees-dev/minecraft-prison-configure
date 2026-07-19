@@ -1,0 +1,1097 @@
+######## created by samus2002 #########
+
+Changetarget:
+  Cooldown: 0
+  Skills:
+    - runaitargetselector{target=clear}
+    - runaitargetselector{target=players}
+
+Cancelattack:
+  Skills:
+    - CancelEvent
+
+Entity_Step:
+  Skills:
+    - effect:sound{s=entity.polar_bear.step;volume=0.6;pitch=1} @self
+
+Boss_Step:
+  Skills:
+    - effect:sound{s=entity.polar_bear.step;volume=1.7;pitch=0.6} @self
+
+# Aurorafowl #
+
+Aurorafowl_Hit:
+  Cooldown: 1
+  Skills:
+    - effect:sound{s=entity.parrot.hurt;volume=0.5;pitch=0.4} @self
+
+Aurorafowl_Attack:
+  Skills:
+    - randomskill{skills=Aurorafowl_Attack_1 25,Aurorafowl_Attack_2 75}
+
+Aurorafowl_Attack_1:
+  Conditions:
+    - offgcd
+    - targetwithin{d=3.5} true
+  Skills:
+    - gcd{ticks=41}
+    - setAI{ai=false} @self
+    - setAI{ai=true;delay=41} @self
+    - state{s=attack} @self
+    - effect:sound{s=entity.parrot.ambient;volume=0.75;pitch=0.4} @self 0.5
+    - delay 18
+
+    - effect:sound{s=entity.player.attack.crit;volume=0.7;pitch=1.5} @self
+    - totem{md=2;c=1;oH=Aurorafowl_Attack_DAMAGE1;hnp=false;hp=true;hR=2;vR=2;i=1} @forward{f=1}
+
+Aurorafowl_Attack_DAMAGE1:
+  TargetConditions:
+    - isblocking false
+  Skills:
+    - basedamage{m=1;pkb=true}
+
+Aurorafowl_Attack_2:
+  Conditions:
+    - offgcd
+    - targetwithin{d=3.5} true
+  Skills:
+    - gcd{ticks=30}
+    - setAI{ai=false} @self
+    - setAI{ai=true;delay=30} @self
+    - state{s=attack;speed=1.7} @self
+    - effect:sound{s=entity.parrot.ambient;volume=0.75;pitch=0.4} @self 0.5
+    - delay 11
+
+    - effect:sound{s=entity.player.attack.crit;volume=0.7;pitch=1.5} @self
+    - totem{md=2;c=1;oH=Aurorafowl_Attack_DAMAGE2;hnp=false;hp=true;hR=2;vR=2;i=1} @forward{f=1}
+
+Aurorafowl_Attack_DAMAGE2:
+  TargetConditions:
+    - isblocking false
+  Skills:
+    - basedamage{m=1.5;pkb=true}
+
+Aurorafowl_Dash:
+  Skills:
+    - randomskill{skills=Aurorafowl_Walk 75,Aurorafowl_Run 25}
+
+Aurorafowl_Walk:
+  Cooldown: 99999
+  Skills:
+    - setSkillCooldown{skill=Aurorafowl_Run;seconds=0} @self
+    - defaultstate{t=walk;s=walk} @self
+    - setspeed{speed=1.3;type=walking} @self
+
+Aurorafowl_Run:
+  Cooldown: 99999
+  Skills:
+    - setSkillCooldown{skill=Aurorafowl_Walk;seconds=0} @self
+    - defaultstate{t=walk;s=run} @self
+    - setspeed{speed=2;type=walking} @self
+
+# Cryonic Crab #
+
+Cryonic_Crab_Hit:
+  Cooldown: 1
+  Skills:
+    - effect:sound{s=entity.glow_squid.hurt;volume=0.5;pitch=0.4} @self
+
+Cryonic_Crab_Attack:
+  Skills:
+    - randomskill{skills=Cryonic_Crab_Attack_1 40,Cryonic_Crab_Attack_2 40, Cryonic_Crab_Power_Snap 20}
+
+Cryonic_Crab_Attack_1:
+  Conditions:
+    - offgcd
+    - targetwithin{d=4} true
+  Skills:
+    - effect:sound{s=entity.evoker_fangs.attack;volume=0.7;pitch=0.6} @self
+    - delay 5
+    - gcd{ticks=34}
+    - setAI{ai=false} @self
+    - setAI{ai=true;delay=34} @self
+    - state{s=attack_left} @self
+    - effect:sound{s=entity.glow_squid.squirt;volume=0.75;pitch=0.4} @self 0.5
+    - delay 8
+
+    - totem{md=2;c=1;oH=Cryonic_Crab_Attack_DAMAGE1;hnp=false;hp=true;hR=2;vR=2;i=1} @forward{f=1}
+
+Cryonic_Crab_Attack_2:
+  Conditions:
+    - offgcd
+    - targetwithin{d=4} true
+  Skills:
+    - effect:sound{s=entity.evoker_fangs.attack;volume=0.7;pitch=0.6} @self
+    - delay 5
+    - gcd{ticks=34}
+    - setAI{ai=false} @self
+    - setAI{ai=true;delay=34} @self
+    - state{s=attack_right} @self
+    - effect:sound{s=entity.glow_squid.squirt;volume=0.75;pitch=0.4} @self 0.5
+    - delay 8
+
+    - totem{md=2;c=1;oH=Cryonic_Crab_Attack_DAMAGE1;hnp=false;hp=true;hR=2;vR=2;i=1} @forward{f=1}
+
+Cryonic_Crab_Attack_DAMAGE1:
+  TargetConditions:
+    - isblocking false
+  Skills:
+    - basedamage{m=1;pkb=true}
+
+Cryonic_Crab_Power_Snap:
+  Conditions:
+    - offgcd
+    - targetwithin{d=4} true
+  Skills:
+    - gcd{ticks=65}
+    - setAI{ai=false} @self
+    - setAI{ai=true;delay=65} @self
+    - state{s=skill_power_snap} @self
+    - effect:sound{s=entity.glow_squid.squirt;volume=0.75;pitch=0.4} @self
+    - effect:sound{s=entity.evoker_fangs.attack;volume=1;pitch=0.4;delay=10} @self
+    - delay 26
+
+    - totem{md=2;c=1;oH=Cryonic_Crab_Power_Snap_DAMAGE;hnp=false;hp=true;hR=2;vR=2;i=1} @forward{f=1}
+
+Cryonic_Crab_Power_Snap_DAMAGE:
+  TargetConditions:
+    - isblocking false
+  Skills:
+    - basedamage{m=2;pkb=true}
+
+Cryonic_Crab_Dash:
+  Skills:
+    - randomskill{skills=Cryonic_Crab_Walk 75,Cryonic_Crab_Run 25}
+
+Cryonic_Crab_Walk:
+  Cooldown: 99999
+  Skills:
+    - setSkillCooldown{skill=Cryonic_Crab_Run;seconds=0} @self
+    - defaultstate{t=walk;s=walk} @self
+    - setspeed{speed=1.15;type=walking} @self
+
+Cryonic_Crab_Run:
+  Cooldown: 99999
+  Skills:
+    - setSkillCooldown{skill=Cryonic_Crab_Walk;seconds=0} @self
+    - defaultstate{t=walk;s=run} @self
+    - setspeed{speed=1.8;type=walking} @self
+
+# Permafrost Sentinel #
+
+Permafrost_Sentinel_Hit:
+  Cooldown: 1
+  Skills:
+    - effect:sound{s=entity.blaze.hurt;volume=0.5;pitch=0.4} @self
+
+Permafrost_Sentinel_Death:
+  Skills:
+    - swapmodel{m=permafrost_sentinel;nid=permafrost_sentinel_death} @self
+
+Permafrost_Sentinel_Attack:
+  Skills:
+    - randomskill{skills=Permafrost_Sentinel_Attack_1 40,Permafrost_Sentinel_Attack_2 40, Permafrost_Sentinel_Ice_Cannon 20}
+
+Permafrost_Sentinel_Attack_1:
+  Conditions:
+    - offgcd
+    - targetwithin{d=3} true
+  Skills:
+    - gcd{ticks=60}
+    - setAI{ai=false} @self
+    - setAI{ai=true;delay=60} @self
+    - state{s=attack_left} @self
+    - effect:sound{s=entity.warden.attack_impact;volume=0.75;pitch=1;delay=15} @self
+    - delay 19
+
+    - slash{y=1.8;w=4;h=2;mpd=true;a=180;oP=[ e:p{p=redstone;color=#bffeff} ];roll=35;d=10} @self
+    - totem{md=2;c=1;oH=Permafrost_Sentinel_Attack_DAMAGE1;hnp=false;hp=true;hR=2;vR=2;i=1} @forward{f=1}
+
+Permafrost_Sentinel_Attack_2:
+  Conditions:
+    - offgcd
+    - targetwithin{d=3} true
+  Skills:
+    - gcd{ticks=60}
+    - setAI{ai=false} @self
+    - setAI{ai=true;delay=60} @self
+    - state{s=attack_right} @self
+    - effect:sound{s=entity.warden.attack_impact;volume=0.75;pitch=1;delay=15} @self
+    - delay 19
+
+    - slash{y=1.8;w=4;h=2;mpd=true;a=180;oP=[ e:p{p=redstone;color=#bffeff} ];roll=145;d=10} @self
+    - totem{md=2;c=1;oH=Permafrost_Sentinel_Attack_DAMAGE1;hnp=false;hp=true;hR=2;vR=2;i=1} @forward{f=1}
+
+Permafrost_Sentinel_Attack_DAMAGE1:
+  TargetConditions:
+    - isblocking false
+  Skills:
+    - basedamage{m=1;pkb=true}
+
+Permafrost_Sentinel_Ice_Cannon:
+  Conditions:
+    - offgcd
+    - targetwithin{d=14} true
+  Skills:
+    - gcd{ticks=90}
+    - potion{type=SLOW;duration=40;level=50;hasParticles=false} @self
+    - setAI{ai=false;delay=40} @self
+    - setAI{ai=true;delay=90} @self
+    - state{s=skill_ice_cannon} @self
+    - effect:sound{s=block.beacon.activate;volume=1;pitch=1.4;delay=32} @self
+    - skill{s=Ice_Cannon_Load;delay=32} @modelpart{p=energy}
+    - delay 48
+
+    - skill{s=Ice_Cannon_Fire}
+    - effect:sound{s=entity.generic.explode;volume=1;pitch=0.5} @self
+
+Ice_Cannon_Load:
+  Skills:
+    - projectile{oT=Ice_Cannon_Load_TICK;v=15;i=1;hR=1;vR=1;mr=2.5;hnp=false;hO=0;sE=false;sB=false;hs=false;hfs=0;syo=3;tyo=0.1;sfo=2.5;sso=-1.5}
+    - delay 3
+    - projectile{oT=Ice_Cannon_Load_TICK;v=18;i=1;hR=1;vR=1;mr=2.5;hnp=false;hO=0;sE=false;sB=false;hs=false;hfs=0;syo=3.3;tyo=0.1;sfo=2.5;sso=3.5}
+    - delay 3
+    - projectile{oT=Ice_Cannon_Load_TICK;v=12;i=1;hR=1;vR=1;mr=2.5;hnp=false;hO=0;sE=false;sB=false;hs=false;hfs=0;syo=2.7;tyo=0.1;sfo=2.5;sso=1}
+    - delay 3
+    - projectile{oT=Ice_Cannon_Load_TICK;v=14;i=1;hR=1;vR=1;mr=2.5;hnp=false;hO=0;sE=false;sB=false;hs=false;hfs=0;syo=1.7;tyo=0.1;sfo=2.5;sso=-2}
+    - delay 3
+    - projectile{oT=Ice_Cannon_Load_TICK;v=17;i=1;hR=1;vR=1;mr=2.5;hnp=false;hO=0;sE=false;sB=false;hs=false;hfs=0;syo=1;tyo=0.1;sfo=2.5;sso=3}
+    - delay 3
+    - projectile{oT=Ice_Cannon_Load_TICK;v=17;i=1;hR=1;vR=1;mr=2.5;hnp=false;hO=0;sE=false;sB=false;hs=false;hfs=0;syo=-0.3;tyo=0.1;sfo=2.5;sso=-2.5}
+
+Ice_Cannon_Load_TICK:
+  Skills:
+    - effect:particles{p=redstone;color=#bffeff;amount=10;size=0.75;hS=0.03;vS=0.03;y=0;forwardOffset=0;sideOffset=0} @origin
+    - modifyProjectile{trait=VELOCITY;action=MULTIPLY;value=0.9}
+
+Ice_Cannon_Fire:
+  Skills:
+    - projectile{md=25;oH=Permafrost_Sentinel_Ice_Cannon_DAMAGE;oT=Ice_Cannon_Fire_TICK;v=25;i=1;hR=1;vR=1;mr=14;hnp=false;hO=0;sE=true;sB=true;hs=false;hfs=0;syo=1.5;tyo=2} @forward{f=10;y=0}
+
+Ice_Cannon_Fire_TICK:
+  Skills:
+    - effect:particles{p=redstone;color=#bffeff;amount=30;size=0.75;hS=0.3;vS=0.3;y=0;forwardOffset=0;sideOffset=0} @origin
+    - modifyProjectile{trait=VELOCITY;action=MULTIPLY;value=0.9}
+
+Permafrost_Sentinel_Ice_Cannon_DAMAGE:
+  TargetConditions:
+    - isblocking false
+  Skills:
+    - basedamage{m=2;pkb=true}
+    - potion{type=SLOW;duration=60;level=1;hasParticles=false}
+    - effect:sound{s=item.trident.hit_ground;volume=1;pitch=0.7} @self
+    - orbital{r=0.65;onTick=Permafrost_Sentinel_Ice_Cannon_DAMAGE_TICK;points=16;interval=1;duration=60;oy=0.1}
+
+Permafrost_Sentinel_Ice_Cannon_DAMAGE_TICK:
+  Skills:
+    - effect:particles{p=redstone;color=#99dfff;amount=2;speed=0;hS=0;vS=0} @origin
+
+Permafrost_Sentinel_Dash:
+  Skills:
+    - randomskill{skills=Permafrost_Sentinel_Walk 75,Permafrost_Sentinel_Run 25}
+
+Permafrost_Sentinel_Walk:
+  Cooldown: 99999
+  Skills:
+    - setSkillCooldown{skill=Permafrost_Sentinel_Run;seconds=0} @self
+    - setspeed{speed=1.15;type=walking} @self
+
+Permafrost_Sentinel_Run:
+  Cooldown: 99999
+  Skills:
+    - setSkillCooldown{skill=Permafrost_Sentinel_Walk;seconds=0} @self
+    - setspeed{speed=1.7;type=walking} @self
+
+# Arctic Colossus #
+
+Arctic_Colossus_Skill:
+  Conditions:
+    - hasaura{n=Wild_Stomp_Left_AURA} false
+    - hasaura{n=Wild_Stomp_Right_AURA} false
+  Skills:
+    - randomskill{skills=Arctic_Colossus_Freezing_Sweep 35,Glacial_Roar 25,Arctic_Fury 20,Ice_Age 20}
+
+Arctic_Colossus_Freezing_Sweep:
+  Conditions:
+    - hasaura{n=Wild_Stomp_Left_AURA} false
+    - hasaura{n=Wild_Stomp_Right_AURA} false
+  Skills:
+    - randomskill{skills=Arctic_Colossus_Freezing_Sweep_1,Arctic_Colossus_Freezing_Sweep_2}
+
+Arctic_Colossus_Hit:
+  Cooldown: 1
+  Skills:
+    - effect:sound{s=entity.warden.hurt;volume=1;pitch=0.5} @self
+
+Arctic_Colossus_Freezing_Sweep_1:
+  Conditions:
+    - offgcd
+    - targetwithin{d=15} true
+  Skills:
+    - gcd{ticks=126}
+    - setAI{ai=false} @self
+    - setAI{ai=true;delay=126} @self
+    - state{s=skill_freezing_sweep_left} @self
+    - effect:sound{s=entity.warden.roar;volume=1;pitch=0.5} @self 0.6
+    - delay 40
+
+    - effect:sound{s=entity.warden.sonic_boom;volume=1.2;pitch=0.3;repeat=2;repeati=15} @modelpart{p=left_hand}
+    - totem{md=2;c=1;oH=Arctic_Colossus_Attack_DAMAGE;hnp=false;hp=true;hR=4;vR=4;i=1;repeat=6;repeati=6} @modelpart{p=left_hand;o=LOCAL;x=3.5}
+    - effect:particles{particle=block_crack;m=SNOW_BLOCK;amount=200;hS=2.3;vS=1.8;y=0.9;speed=0;forwardOffset=0;sideOffset=0;repeat=19;repeati=2} @modelpart{p=left_hand;o=LOCAL;x=3.5}
+
+Arctic_Colossus_Freezing_Sweep_2:
+  Conditions:
+    - offgcd
+    - targetwithin{d=15} true
+  Skills:
+    - gcd{ticks=126}
+    - setAI{ai=false} @self
+    - setAI{ai=true;delay=126} @self
+    - state{s=skill_freezing_sweep_right} @self
+    - effect:sound{s=entity.warden.roar;volume=1;pitch=0.5} @self 0.6
+    - delay 40
+
+    - effect:sound{s=entity.warden.sonic_boom;volume=1.2;pitch=0.3;repeat=2;repeati=15} @modelpart{p=right_hand}
+    - totem{md=2;c=1;oH=Arctic_Colossus_Attack_DAMAGE;hnp=false;hp=true;hR=4;vR=4;i=1;repeat=6;repeati=6} @modelpart{p=right_hand;o=LOCAL;x=3.5}
+    - effect:particles{particle=block_crack;m=SNOW_BLOCK;amount=200;hS=2.3;vS=1.8;y=-3.2;speed=0;forwardOffset=0;sideOffset=0;repeat=19;repeati=2} @modelpart{p=right_hand;o=LOCAL;x=3.5}
+
+Arctic_Colossus_Attack_DAMAGE:
+  TargetConditions:
+    - isblocking false
+  Skills:
+    - basedamage{m=1;pkb=true}
+    - throw{velocity=15;velocityY=2}
+
+# Wild Stomp #
+
+Wild_Stomp_Left_AURA:
+  Cooldown: 4
+  #Conditions:
+  #- lastsignal{s=LEFT_HIT} true
+  Skills:
+    - Aura{auraName=Wild_Stomp_Left_AURA;duration=80} @self
+    - stun{d=60;f=true} @self
+
+Wild_Stomp_Left_STUN:
+  Cooldown: 4
+  Skills:
+    - runaigoalselector{goal=clear} @self
+    - stun{d=60;f=true} @self
+    - delay 60
+    - runaigoalselector{goal=clear} @self
+    - runaigoalselector{goal=meleeattack} @self
+    - runaigoalselector{goal=movetowardstarget} @self
+    - runaigoalselector{goal=randomstroll} @self
+
+Wild_Stomp_Left:
+  Cooldown: 4
+  Conditions:
+    - offgcd
+    - targetwithin{d=15} true
+    - hasaura{n=Wild_Stomp_Left_AURA} true
+  Skills:
+    - auraremove{aura=Wild_Stomp_Left_AURA} @self
+    - signal{s=NORMAL;delay=1} @self
+    - gcd{ticks=60}
+    - setAI{ai=false} @self
+    - setAI{ai=true;delay=60} @self
+    - state{s=skill_wild_stomp_leg_left} @self
+    - effect:sound{s=entity.warden.roar;volume=1;pitch=0.5} @self 0.6
+    - delay 30
+
+    - effect:sound{s=entity.player.attack.crit;volume=1.2;pitch=0.4} @modelpart{p=left_foot}
+    - effect:sound{s=block.glass.break;volume=1.2;pitch=0.4} @modelpart{p=left_foot}
+    - effect:sound{s=entity.lightning_bolt.thunder;volume=1.2;pitch=1.7} @modelpart{p=left_foot}
+    - totem{md=2;c=1;oH=Wild_Stomp_Left_DAMAGE;hnp=false;hp=true;hR=5;vR=4;i=1} @modelpart{p=left_foot}
+    - effect:particles{particle=block_crack;m=ICE;amount=200;hS=2.3;vS=1.8;y=0.2;speed=0;forwardOffset=0;sideOffset=0} @modelpart{p=left_foot}
+
+Wild_Stomp_Right_AURA:
+  Cooldown: 4
+  #Conditions:
+  #- lastsignal{s=RIGHT_HIT} true
+  Skills:
+    - Aura{auraName=Wild_Stomp_Right_AURA;duration=80} @self
+    - stun{d=60;f=true} @self
+
+Wild_Stomp_Right_STUN:
+  Cooldown: 4
+  Skills:
+    - runaigoalselector{goal=clear} @self
+    - stun{d=60;f=true} @self
+    - delay 60
+    - runaigoalselector{goal=clear} @self
+    - runaigoalselector{goal=meleeattack} @self
+    - runaigoalselector{goal=movetowardstarget} @self
+    - runaigoalselector{goal=randomstroll} @self
+
+Wild_Stomp_Right:
+  Cooldown: 4
+  Conditions:
+    - offgcd
+    - targetwithin{d=15} true
+    - hasaura{n=Wild_Stomp_Right_AURA} true
+  Skills:
+    - auraremove{aura=Wild_Stomp_Right_AURA} @self
+    - signal{s=NORMAL;delay=1} @self
+    - gcd{ticks=60}
+    - setAI{ai=false} @self
+    - setAI{ai=true;delay=60} @self
+    - state{s=skill_wild_stomp_leg_right} @self
+    - effect:sound{s=entity.warden.roar;volume=1;pitch=0.5} @self 0.6
+    - delay 30
+
+    - effect:sound{s=entity.player.attack.crit;volume=1.2;pitch=0.4} @modelpart{p=right_foot}
+    - effect:sound{s=block.glass.break;volume=1.2;pitch=0.4} @modelpart{p=right_foot}
+    - effect:sound{s=entity.lightning_bolt.thunder;volume=1.2;pitch=1.7} @modelpart{p=right_foot}
+    - totem{md=2;c=1;oH=Wild_Stomp_Left_DAMAGE;hnp=false;hp=true;hR=5;vR=4;i=1} @modelpart{p=right_foot}
+    - effect:particles{particle=block_crack;m=ICE;amount=200;hS=2.3;vS=1.8;y=0.2;speed=0;forwardOffset=0;sideOffset=0} @modelpart{p=right_foot}
+
+Wild_Stomp_Left_DAMAGE:
+  TargetConditions:
+    - isblocking false
+  Skills:
+    - basedamage{m=1.3;pkb=true}
+    - throw{velocity=11;velocityY=2}
+    - potion{type=SLOW;duration=80;level=1;hasParticles=false}
+    - orbital{r=0.65;onTick=Wild_Stomp_Left_DAMAGE_TICK;points=16;interval=1;duration=80;oy=0.1}
+
+Wild_Stomp_Left_DAMAGE_TICK:
+  Skills:
+    - effect:particles{p=redstone;color=#99dfff;amount=2;speed=0;hS=0;vS=0} @origin
+
+# Glacial Roar #
+
+Glacial_Roar:
+  Cooldown: 10
+  Conditions:
+    - offgcd
+    - targetwithin{d=25} true
+  Skills:
+    - gcd{ticks=130}
+    - setAI{ai=false} @self
+    - setAI{ai=true;delay=130} @self
+    - state{s=skill_glacial_roar} @self
+    - effect:sound{s=entity.ravager.roar;volume=2;pitch=0.3;delay=35} @self
+    - effect:sound{s=entity.ravager.roar;volume=1.5;pitch=0.3;delay=65} @self
+    - effect:sound{s=entity.ravager.roar;volume=1;pitch=0.3;delay=95} @self
+    - delay 50
+
+    - effect:sound{s=entity.wither.death;volume=1.7;pitch=0.2} @self
+    - skill{s=Glacial_Roar_13}
+    - delay 15
+    - skill{s=Glacial_Roar_23}
+
+Glacial_Roar_13:
+  Skills:
+    - projectile{md=80;oS=Glacial_Roar_SFX;onTick=Glacial_Roar_FX;onHit=Glacial_Roar_DAMAGE;v=30;i=1;hR=2;vR=5;mr=30;hnp=false;hO=0;sE=false;sB=false;hs=true;hfs=0} @forward
+    - projectile{md=80;oS=Glacial_Roar_SFX;onTick=Glacial_Roar_FX;onHit=Glacial_Roar_DAMAGE;v=30;i=1;hR=2;vR=5;mr=30;hnp=false;hO=36;sE=false;sB=false;hs=true;hfs=0} @forward
+    - projectile{md=80;oS=Glacial_Roar_SFX;onTick=Glacial_Roar_FX;onHit=Glacial_Roar_DAMAGE;v=30;i=1;hR=2;vR=5;mr=30;hnp=false;hO=72;sE=false;sB=false;hs=true;hfs=0} @forward
+    - projectile{md=80;oS=Glacial_Roar_SFX;onTick=Glacial_Roar_FX;onHit=Glacial_Roar_DAMAGE;v=30;i=1;hR=2;vR=5;mr=30;hnp=false;hO=108;sE=false;sB=false;hs=true;hfs=0} @forward
+    - projectile{md=80;oS=Glacial_Roar_SFX;onTick=Glacial_Roar_FX;onHit=Glacial_Roar_DAMAGE;v=30;i=1;hR=2;vR=5;mr=30;hnp=false;hO=144;sE=false;sB=false;hs=true;hfs=0} @forward
+    - projectile{md=80;oS=Glacial_Roar_SFX;onTick=Glacial_Roar_FX;onHit=Glacial_Roar_DAMAGE;v=30;i=1;hR=2;vR=5;mr=30;hnp=false;hO=180;sE=false;sB=false;hs=true;hfs=0} @forward
+    - projectile{md=80;oS=Glacial_Roar_SFX;onTick=Glacial_Roar_FX;onHit=Glacial_Roar_DAMAGE;v=30;i=1;hR=2;vR=5;mr=30;hnp=false;hO=216;sE=false;sB=false;hs=true;hfs=0} @forward
+    - projectile{md=80;oS=Glacial_Roar_SFX;onTick=Glacial_Roar_FX;onHit=Glacial_Roar_DAMAGE;v=30;i=1;hR=2;vR=5;mr=30;hnp=false;hO=252;sE=false;sB=false;hs=true;hfs=0} @forward
+    - projectile{md=80;oS=Glacial_Roar_SFX;onTick=Glacial_Roar_FX;onHit=Glacial_Roar_DAMAGE;v=30;i=1;hR=2;vR=5;mr=30;hnp=false;hO=288;sE=false;sB=false;hs=true;hfs=0} @forward
+    - projectile{md=80;oS=Glacial_Roar_SFX;onTick=Glacial_Roar_FX;onHit=Glacial_Roar_DAMAGE;v=30;i=1;hR=2;vR=5;mr=30;hnp=false;hO=324;sE=false;sB=false;hs=true;hfs=0} @forward
+
+Glacial_Roar_23:
+  Skills:
+    - projectile{md=80;oS=Glacial_Roar_SFX;onTick=Glacial_Roar_FX;onHit=Glacial_Roar_DAMAGE;v=30;i=1;hR=2;vR=5;mr=30;hnp=false;hO=18;sE=false;sB=false;hs=true;hfs=0} @forward
+    - projectile{md=80;oS=Glacial_Roar_SFX;onTick=Glacial_Roar_FX;onHit=Glacial_Roar_DAMAGE;v=30;i=1;hR=2;vR=5;mr=30;hnp=false;hO=54;sE=false;sB=false;hs=true;hfs=0} @forward
+    - projectile{md=80;oS=Glacial_Roar_SFX;onTick=Glacial_Roar_FX;onHit=Glacial_Roar_DAMAGE;v=30;i=1;hR=2;vR=5;mr=30;hnp=false;hO=90;sE=false;sB=false;hs=true;hfs=0} @forward
+    - projectile{md=80;oS=Glacial_Roar_SFX;onTick=Glacial_Roar_FX;onHit=Glacial_Roar_DAMAGE;v=30;i=1;hR=2;vR=5;mr=30;hnp=false;hO=126;sE=false;sB=false;hs=true;hfs=0} @forward
+    - projectile{md=80;oS=Glacial_Roar_SFX;onTick=Glacial_Roar_FX;onHit=Glacial_Roar_DAMAGE;v=30;i=1;hR=2;vR=5;mr=30;hnp=false;hO=162;sE=false;sB=false;hs=true;hfs=0} @forward
+    - projectile{md=80;oS=Glacial_Roar_SFX;onTick=Glacial_Roar_FX;onHit=Glacial_Roar_DAMAGE;v=30;i=1;hR=2;vR=5;mr=30;hnp=false;hO=198;sE=false;sB=false;hs=true;hfs=0} @forward
+    - projectile{md=80;oS=Glacial_Roar_SFX;onTick=Glacial_Roar_FX;onHit=Glacial_Roar_DAMAGE;v=30;i=1;hR=2;vR=5;mr=30;hnp=false;hO=234;sE=false;sB=false;hs=true;hfs=0} @forward
+    - projectile{md=80;oS=Glacial_Roar_SFX;onTick=Glacial_Roar_FX;onHit=Glacial_Roar_DAMAGE;v=30;i=1;hR=2;vR=5;mr=30;hnp=false;hO=270;sE=false;sB=false;hs=true;hfs=0} @forward
+    - projectile{md=80;oS=Glacial_Roar_SFX;onTick=Glacial_Roar_FX;onHit=Glacial_Roar_DAMAGE;v=30;i=1;hR=2;vR=5;mr=30;hnp=false;hO=306;sE=false;sB=false;hs=true;hfs=0} @forward
+    - projectile{md=80;oS=Glacial_Roar_SFX;onTick=Glacial_Roar_FX;onHit=Glacial_Roar_DAMAGE;v=30;i=1;hR=2;vR=5;mr=30;hnp=false;hO=342;sE=false;sB=false;hs=true;hfs=0} @forward
+
+Glacial_Roar_FX:
+  Skills:
+    - effect:particles{particle=explosion_large;amount=14;y=0.1;hS=0.6;vS=6;speed=0} @origin
+    - effect:particles{particle=snowflake;amount=10;y=0.1;hS=0.7;vS=5;speed=0} @origin
+    - modifyProjectile{trait=VELOCITY;action=MULTIPLY;value=0.93}
+
+Glacial_Roar_SFX:
+  Skills:
+    - delay 10
+    - effect:sound{s=entity.wither.ambient;volume=1.1;pitch=0.3} @origin
+    - delay 10
+    - effect:sound{s=entity.wither.ambient;volume=1.1;pitch=0.3} @origin
+
+Glacial_Roar_DAMAGE:
+  TargetConditions:
+    - isblocking false
+  Skills:
+    - basedamage{m=1.5;pkb=true}
+    - throw{velocity=15;velocityY=2}
+
+# Arctic Fury #
+
+Arctic_Fury:
+  Cooldown: 12
+  Conditions:
+    - offgcd
+    - targetwithin{d=30} true
+  Skills:
+    - gcd{ticks=150}
+    - setAI{ai=false} @self
+    - setAI{ai=true;delay=150} @self
+    - state{s=skill_arctic_fury} @self
+    - effect:sound{s=entity.warden.roar;volume=2;pitch=0.4;delay=30} @self
+    - delay 50
+
+    - effect:sound{s=entity.lightning_bolt.thunder;volume=1.7;pitch=0.2} @self
+    - pull{velocity=2;repeat=9;repeati=7} @PIR{r=30}
+    - basedamage{m=1.5;pkb=true;repeat=4;repeati=15} @PIR{r=15}
+    - freeze{ticks=60;repeat=4;repeati=15} @PIR{r=15} 0.5
+    - effect:particlering{particle=snowflake;radius=30;points=100;amount=1;hS=0;vS=0;y=0.1;repeat=6;repeati=10} @self
+    - effect:particlering{particle=end_rod;radius=15;points=70;amount=1;hS=0;vS=0;y=0.1;repeat=6;repeati=10} @self
+    - skill{s=Arctic_Fury_Load;repeat=3;repeati=20} @self
+
+Arctic_Fury_Load:
+  Skills:
+    - effect:particlering{particle=snowflake;radius=28;points=100;amount=1;hS=0;vS=0;y=0.1}
+    - delay 1
+    - effect:particlering{particle=snowflake;radius=26;points=90;amount=1;hS=0;vS=0;y=0.1}
+    - delay 1
+    - effect:particlering{particle=snowflake;radius=24;points=80;amount=1;hS=0;vS=0;y=0.1}
+    - delay 1
+    - effect:particlering{particle=snowflake;radius=22;points=80;amount=1;hS=0;vS=0;y=0.1}
+    - delay 1
+    - effect:particlering{particle=snowflake;radius=20;points=70;amount=1;hS=0;vS=0;y=0.1}
+    - delay 1
+    - effect:particlering{particle=snowflake;radius=18;points=70;amount=1;hS=0;vS=0;y=0.1}
+    - delay 1
+    - effect:particlering{particle=snowflake;radius=16;points=60;amount=1;hS=0;vS=0;y=0.1}
+    - delay 1
+    - effect:particlering{particle=snowflake;radius=14;points=60;amount=1;hS=0;vS=0;y=0.1}
+    - delay 1
+    - effect:particlering{particle=snowflake;radius=13;points=50;amount=1;hS=0;vS=0;y=0.1}
+    - delay 1
+    - effect:particlering{particle=snowflake;radius=12;points=50;amount=1;hS=0;vS=0;y=0.1}
+    - delay 1
+    - effect:particlering{particle=snowflake;radius=11;points=60;amount=1;hS=0;vS=0;y=0.1}
+    - delay 1
+    - effect:particlering{particle=snowflake;radius=10;points=50;amount=1;hS=0;vS=0;y=0.1}
+    - delay 1
+    - effect:particlering{particle=snowflake;radius=9;points=50;amount=1;hS=0;vS=0;y=0.1}
+    - delay 1
+    - effect:particlering{particle=snowflake;radius=8;points=60;amount=1;hS=0;vS=0;y=0.1}
+    - delay 1
+    - effect:particlering{particle=snowflake;radius=7;points=50;amount=1;hS=0;vS=0;y=0.1}
+    - delay 1
+    - effect:particlering{particle=snowflake;radius=6.5;points=50;amount=1;hS=0;vS=0;y=0.1}
+    - delay 1
+    - effect:particlering{particle=snowflake;radius=6;points=60;amount=1;hS=0;vS=0;y=0.1}
+    - delay 1
+    - effect:particlering{particle=snowflake;radius=5.5;points=50;amount=1;hS=0;vS=0;y=0.1}
+    - delay 1
+    - effect:particlering{particle=snowflake;radius=5;points=50;amount=1;hS=0;vS=0;y=0.1}
+    - delay 1
+    - effect:particlering{particle=snowflake;radius=4.5;points=50;amount=1;hS=0;vS=0;y=0.1}
+    - delay 1
+    - effect:particlering{particle=snowflake;radius=4;points=60;amount=1;hS=0;vS=0;y=0.1}
+    - delay 1
+    - effect:particlering{particle=snowflake;radius=3.5;points=50;amount=1;hS=0;vS=0;y=0.1}
+    - delay 1
+    - effect:particlering{particle=snowflake;radius=3;points=50;amount=1;hS=0;vS=0;y=0.1}
+    - delay 1
+    - effect:particlering{particle=snowflake;radius=2.5;points=50;amount=1;hS=0;vS=0;y=0.1}
+    - delay 1
+    - effect:particlering{particle=snowflake;radius=2;points=60;amount=1;hS=0;vS=0;y=0.1}
+    - delay 1
+    - effect:particlering{particle=snowflake;radius=1.5;points=50;amount=1;hS=0;vS=0;y=0.1}
+    - delay 1
+    - effect:particlering{particle=snowflake;radius=1;points=50;amount=1;hS=0;vS=0;y=0.1}
+
+# Ice Age #
+
+Ice_Age:
+  Cooldown: 40
+  Conditions:
+    - offgcd
+    - targetwithin{d=30} true
+    - children{a=>2} false
+  Skills:
+    - gcd{ticks=80}
+    - setAI{ai=false} @self
+    - setAI{ai=true;delay=80} @self
+    - state{s=skill_ice_age} @self
+    - effect:sound{s=entity.warden.roar;volume=2;pitch=0.4;delay=17} @self
+    - delay 39
+
+    - effect:sound{s=entity.player.attack.crit;volume=1.5;pitch=0.4} @self
+    - effect:sound{s=block.glass.break;volume=1.5;pitch=0.4} @self
+    - effect:sound{s=entity.lightning_bolt.thunder;volume=1.5;pitch=1.7} @self
+    - summon{type=Fx_Ice_Crystal;amount=1;radius=30;yRadius=0;onSurface=true;repeat=5;repeati=15} @self
+    - summon{type=Fx_Ice_Crystal_SHINY;amount=1;radius=30;yRadius=0;onSurface=true;repeat=1;repeati=30} @self
+
+Ice_Age_Spike:
+  Skills:
+    - effect:particles{particle=block_crack;m=ICE;amount=60;hS=1.4;vS=0.1;y=0.12;speed=0;forwardOffset=0;sideOffset=0;repeat=4;repeati=8} @self
+    - delay 40
+    - model{mid=fx_ice_crystal;n=false} @self
+    - state{s=skill} @self
+    - delay 3
+    - effect:sound{s=entity.player.attack.crit;volume=1.5;pitch=0.4} @self
+    - basedamage{m=1;pkb=true} @PIR{r=4}
+    - freeze{ticks=100} @PIR{r=4}
+    - throw{velocity=2;velocityY=13} @PIR{r=4}
+
+Ice_Age_Spike_REMOVE:
+  Skills:
+    - effect:particles{particle=block_crack;m=ICE;amount=50;hS=1.3;vS=1.4;y=0.5;speed=0;forwardOffset=0;sideOffset=0} @self
+    - effect:particles{particle=explosion_huge;amount=1;hS=0;vS=0;y=0.4;speed=0;forwardOffset=0;sideOffset=0} @self
+    - effect:sound{s=block.glass.break;volume=1.1;pitch=0.4} @self
+    - effect:sound{s=entity.generic.explode;volume=0.8;pitch=0.7} @self
+    - remove @self
+
+Ice_Age_Spike_HEAL:
+  Skills:
+    - effect:particleline{particle=redstone;color=#99dfff;amount=1;fromOrigin=false;syo=1;tyo=3.5;forwardOffset=0.7;sso=0.7} @parent
+
+Ice_Age_Spike_HEALS:
+  Skills:
+    - heal{a=1} @parent
+
+Ice_Age_Spike_SHINY_HEAL:
+  Skills:
+    - effect:particleline{db=1.5;particle=sonic_boom;amount=1;fromOrigin=false;syo=1;tyo=3.5;forwardOffset=0.7;sso=0.7} @parent
+
+Ice_Age_Spike_SHINY_HEALS:
+  Skills:
+    - heal{a=3} @parent
+
+Ice_Age_Spike_REMOVE_SHINY:
+  Skills:
+    - effect:particles{particle=block_crack;m=ICE;amount=50;hS=1.3;vS=1.4;y=0.5;speed=0;forwardOffset=0;sideOffset=0} @self
+    - effect:particles{particle=explosion_huge;amount=1;hS=0;vS=0;y=0.4;speed=0;forwardOffset=0;sideOffset=0} @self
+    - effect:sound{s=block.glass.break;volume=1.1;pitch=0.4} @self
+    - effect:sound{s=entity.generic.explode;volume=0.8;pitch=0.7} @self
+
+    - effect:sound{s=entity.generic.explode;volume=1.2;pitch=0.6} @parent
+    - effect:sound{s=entity.ravager.roar;volume=1.3;pitch=0.8} @parent
+    - effect:particles{particle=explosion_huge;amount=4;hS=2;vS=2;y=1.3;speed=0;forwardOffset=0;sideOffset=0} @parent
+    - sudoskill{s=Ice_Age_Spike_REMOVE_SHINYD;cat=true} @parent
+
+    - delay 1
+    - remove @self
+
+Ice_Age_Spike_REMOVE_SHINYD:
+  Skills:
+    - basedamage{m=2;pkb=true} @self
+
+# Boss Stun #
+
+Ice_Boss_Stun:
+  Cooldown: 30
+  Conditions:
+    - offgcd
+    - targetwithin{d=30} true
+  Skills:
+    - state{s=stun;li=15;lo=15} @self
+    - state{s=stun;remove=true;delay=100} @self
+    - setAI{ai=false} @self
+    - setAI{ai=true;delay=100} @self
+    - potion{type=SLOW;duration=100;level=99;hasParticles=false} @self
+    - gcd{ticks=100}
+  #- stun{d=100;f=true;CancelOnDeath=true} @self
+  #- orbital{r=2;onTick=Ice_Boss_Stun_TICK;points=40;interval=1;duration=100;oy=0} @modelpart{p=stun}
+
+Ice_Boss_Stun_TICK:
+  Skills:
+    - effect:particles{p=crit;amount=5;speed=0;hS=0.1;vS=0.1} @origin
+
+Ice_Boss_DeathR2:
+  Skills:
+    - skill{s=Ice_Boss_DeathR} 0.5
+
+Ice_Boss_DeathR:
+  Skills:
+    - randomskill{skills=Ice_Boss_Death1,Ice_Boss_Death2,Ice_Boss_Death3,Ice_Boss_Death4,Ice_Boss_Death5,Ice_Boss_Death6,Ice_Boss_Death7,Ice_Boss_Death7,Ice_Boss_Death9,Ice_Boss_Death10,Ice_Boss_Death11,Ice_Boss_Death12,Ice_Boss_Death13}
+    - effect:sound{s=entity.generic.explode;volume=2;pitch=0.6} @self
+
+Ice_Boss_Death1:
+  Skills:
+    - effect:particles{particle=explosion_huge;amount=2;hS=0.2;vS=0.2;y=0;speed=0;forwardOffset=0;sideOffset=0} @modelpart{p=head}
+Ice_Boss_Death2:
+  Skills:
+    - effect:particles{particle=explosion_huge;amount=2;hS=0.2;vS=0.2;y=0;speed=0;forwardOffset=0;sideOffset=0} @modelpart{p=tail}
+Ice_Boss_Death3:
+  Skills:
+    - effect:particles{particle=explosion_huge;amount=2;hS=0.2;vS=0.2;y=0;speed=0;forwardOffset=0;sideOffset=0} @modelpart{p=right_arm}
+Ice_Boss_Death4:
+  Skills:
+    - effect:particles{particle=explosion_huge;amount=2;hS=0.2;vS=0.2;y=0;speed=0;forwardOffset=0;sideOffset=0} @modelpart{p=left_leg}
+Ice_Boss_Death5:
+  Skills:
+    - effect:particles{particle=explosion_huge;amount=2;hS=0.2;vS=0.2;y=0;speed=0;forwardOffset=0;sideOffset=0} @modelpart{p=neck}
+Ice_Boss_Death6:
+  Skills:
+    - effect:particles{particle=explosion_huge;amount=2;hS=0.2;vS=0.2;y=0;speed=0;forwardOffset=0;sideOffset=0} @modelpart{p=left_thigh}
+Ice_Boss_Death7:
+  Skills:
+    - effect:particles{particle=explosion_huge;amount=2;hS=0.2;vS=0.2;y=0;speed=0;forwardOffset=0;sideOffset=0} @modelpart{p=stomach}
+Ice_Boss_Death8:
+  Skills:
+    - effect:particles{particle=explosion_huge;amount=2;hS=0.2;vS=0.2;y=0;speed=0;forwardOffset=0;sideOffset=0} @modelpart{p=chest}
+Ice_Boss_Death9:
+  Skills:
+    - effect:particles{particle=explosion_huge;amount=2;hS=0.2;vS=0.2;y=0;speed=0;forwardOffset=0;sideOffset=0} @modelpart{p=left_arm}
+Ice_Boss_Death10:
+  Skills:
+    - effect:particles{particle=explosion_huge;amount=2;hS=0.2;vS=0.2;y=0;speed=0;forwardOffset=0;sideOffset=0} @modelpart{p=right_foot}
+Ice_Boss_Death11:
+  Skills:
+    - effect:particles{particle=explosion_huge;amount=2;hS=0.2;vS=0.2;y=0;speed=0;forwardOffset=0;sideOffset=0} @modelpart{p=left_hand}
+Ice_Boss_Death12:
+  Skills:
+    - effect:particles{particle=explosion_huge;amount=2;hS=0.2;vS=0.2;y=0;speed=0;forwardOffset=0;sideOffset=0} @modelpart{p=tail_end}
+Ice_Boss_Death13:
+  Skills:
+    - effect:particles{particle=explosion_huge;amount=2;hS=0.2;vS=0.2;y=0;speed=0;forwardOffset=0;sideOffset=0} @modelpart{p=jaw}
+
+Ice_Boss_Death:
+  Skills:
+    - skill{s=Ice_Boss_DeathR2;repeat=14;repeati=10}
+    - skill{s=Ice_Boss_DeathR2;repeat=14;repeati=10;delay=5}
+    - delay 95
+    - effect:sound{s=entity.wither.death;volume=2;pitch=0.4} @self
+    - effect:sound{s=entity.ravager.roar;volume=2;pitch=0.5} @self
+
+# Arctic Colossus #
+
+Arctic_Colossus_Skill_2:
+  Conditions:
+    - hasaura{n=Wild_Stomp_Left_AURA} false
+    - hasaura{n=Wild_Stomp_Right_AURA} false
+  Skills:
+    - randomskill{skills=Arctic_Colossus_Freezing_Sweep_2 35,Glacial_Roar_2 25,Arctic_Fury_2 20,Ice_Age_2 20}
+
+# Arctic_Colossus_Freezing_Sweep_2:
+#   Conditions:
+#   - hasaura{n=Wild_Stomp_Left_AURA} false
+#   - hasaura{n=Wild_Stomp_Right_AURA} false
+#   Skills:
+#   - randomskill{skills=Arctic_Colossus_Freezing_Sweep_2_1,Arctic_Colossus_Freezing_Sweep_2_2}
+
+# Arctic_Colossus_Freezing_Sweep_2_1:
+#   Conditions:
+#   - offgcd
+#   - targetwithin{d=15} true
+#   Skills:
+#   - gcd{ticks=126}
+#   - setAI{ai=false} @self
+#   - setAI{ai=true;delay=126} @self
+#   - state{s=skill_freezing_sweep_left} @self
+#   - effect:sound{s=entity.warden.roar;volume=1;pitch=0.5} @self 0.6
+#   - delay 40
+
+#   - effect:sound{s=entity.warden.sonic_boom;volume=1.2;pitch=0.3;repeat=2;repeati=15} @modelpart{p=left_hand}
+#   - totem{md=2;c=1;oH=Arctic_Colossus_Attack_DAMAGE_2;hnp=false;hp=true;hR=4;vR=4;i=1;repeat=6;repeati=6} @modelpart{p=left_hand;o=LOCAL;x=3.5}
+#   - effect:particles{particle=block_crack;m=SNOW_BLOCK;amount=200;hS=2.3;vS=1.8;y=0.9;speed=0;forwardOffset=0;sideOffset=0;repeat=19;repeati=2} @modelpart{p=left_hand;o=LOCAL;x=3.5}
+#   - effect:particles{particle=block_crack;m=ICE;amount=100;hS=2.3;vS=1.8;y=0.9;speed=0;forwardOffset=0;sideOffset=0;repeat=19;repeati=2} @modelpart{p=left_hand;o=LOCAL;x=3.5}
+
+Arctic_Colossus_Freezing_Sweep_2_2:
+  Conditions:
+    - offgcd
+    - targetwithin{d=15} true
+  Skills:
+    - gcd{ticks=126}
+    - setAI{ai=false} @self
+    - setAI{ai=true;delay=126} @self
+    - state{s=skill_freezing_sweep_right} @self
+    - effect:sound{s=entity.warden.roar;volume=1;pitch=0.5} @self 0.6
+    - delay 40
+
+    - effect:sound{s=entity.warden.sonic_boom;volume=1.2;pitch=0.3;repeat=2;repeati=15} @modelpart{p=right_hand}
+    - totem{md=2;c=1;oH=Arctic_Colossus_Attack_DAMAGE_2;hnp=false;hp=true;hR=4;vR=4;i=1;repeat=6;repeati=6} @modelpart{p=right_hand;o=LOCAL;x=3.5}
+    - effect:particles{particle=block_crack;m=SNOW_BLOCK;amount=200;hS=2.3;vS=1.8;y=-3.2;speed=0;forwardOffset=0;sideOffset=0;repeat=19;repeati=2} @modelpart{p=right_hand;o=LOCAL;x=3.5}
+    - effect:particles{particle=block_crack;m=ICE;amount=100;hS=2.3;vS=1.8;y=0.9;speed=0;forwardOffset=0;sideOffset=0;repeat=19;repeati=2} @modelpart{p=right_hand;o=LOCAL;x=3.5}
+
+Arctic_Colossus_Attack_DAMAGE_2:
+  TargetConditions:
+    - isblocking false
+  Skills:
+    - basedamage{m=1.5;pkb=true}
+    - throw{velocity=15;velocityY=10}
+
+# Wild Stomp #
+
+Wild_Stomp_Left_2:
+  Cooldown: 4
+  Conditions:
+    - offgcd
+    - targetwithin{d=15} true
+    - hasaura{n=Wild_Stomp_Left_AURA} true
+  Skills:
+    - auraremove{aura=Wild_Stomp_Left_AURA} @self
+    - signal{s=NORMAL;delay=1} @self
+    - gcd{ticks=60}
+    - setAI{ai=false} @self
+    - setAI{ai=true;delay=60} @self
+    - state{s=skill_wild_stomp_leg_left} @self
+    - effect:sound{s=entity.warden.roar;volume=1;pitch=0.5} @self 0.6
+    - delay 30
+
+    - effect:sound{s=entity.player.attack.crit;volume=1.2;pitch=0.4} @modelpart{p=left_foot}
+    - effect:sound{s=block.glass.break;volume=1.2;pitch=0.4} @modelpart{p=left_foot}
+    - effect:sound{s=entity.lightning_bolt.thunder;volume=1.2;pitch=1.7} @modelpart{p=left_foot}
+    - totem{md=2;c=1;oH=Wild_Stomp_Left_DAMAGE_2;hnp=false;hp=true;hR=5;vR=4;i=1} @modelpart{p=left_foot}
+    - effect:particles{particle=block_crack;m=ICE;amount=200;hS=2.3;vS=1.8;y=0.2;speed=0;forwardOffset=0;sideOffset=0} @modelpart{p=left_foot}
+
+Wild_Stomp_Right_2:
+  Cooldown: 4
+  Conditions:
+    - offgcd
+    - targetwithin{d=15} true
+    - hasaura{n=Wild_Stomp_Right_AURA} true
+  Skills:
+    - auraremove{aura=Wild_Stomp_Right_AURA} @self
+    - signal{s=NORMAL;delay=1} @self
+    - gcd{ticks=60}
+    - setAI{ai=false} @self
+    - setAI{ai=true;delay=60} @self
+    - state{s=skill_wild_stomp_leg_right} @self
+    - effect:sound{s=entity.warden.roar;volume=1;pitch=0.5} @self 0.6
+    - delay 30
+
+    - effect:sound{s=entity.player.attack.crit;volume=1.2;pitch=0.4} @modelpart{p=right_foot}
+    - effect:sound{s=block.glass.break;volume=1.2;pitch=0.4} @modelpart{p=right_foot}
+    - effect:sound{s=entity.lightning_bolt.thunder;volume=1.2;pitch=1.7} @modelpart{p=right_foot}
+    - totem{md=2;c=1;oH=Wild_Stomp_Left_DAMAGE_2;hnp=false;hp=true;hR=5;vR=4;i=1} @modelpart{p=right_foot}
+    - effect:particles{particle=block_crack;m=ICE;amount=200;hS=2.3;vS=1.8;y=0.2;speed=0;forwardOffset=0;sideOffset=0} @modelpart{p=right_foot}
+
+Wild_Stomp_Left_DAMAGE_2:
+  TargetConditions:
+    - isblocking false
+  Skills:
+    - basedamage{m=1.7;pkb=true}
+    - throw{velocity=13;velocityY=5}
+    - potion{type=SLOW;duration=120;level=2;hasParticles=false}
+    - orbital{r=0.65;onTick=Wild_Stomp_Left_DAMAGE_TICK;points=16;interval=1;duration=120;oy=0.1}
+
+# Glacial Roar #
+
+Glacial_Roar_2:
+  Cooldown: 10
+  Conditions:
+    - offgcd
+    - targetwithin{d=25} true
+  Skills:
+    - gcd{ticks=130}
+    - setAI{ai=false} @self
+    - setAI{ai=true;delay=130} @self
+    - state{s=skill_glacial_roar;speed=0.75} @self
+    - effect:sound{s=entity.ravager.roar;volume=2;pitch=0.3;delay=35} @self
+    - effect:sound{s=entity.ravager.roar;volume=1.5;pitch=0.3;delay=65} @self
+    - effect:sound{s=entity.ravager.roar;volume=1;pitch=0.3;delay=95} @self
+    - delay 65
+
+    - effect:sound{s=entity.wither.death;volume=1.7;pitch=0.2} @self
+    - skill{s=Glacial_Roar_11}
+    - delay 15
+    - skill{s=Glacial_Roar_22}
+    - delay 15
+    - skill{s=Glacial_Roar_11}
+    - delay 15
+    - skill{s=Glacial_Roar_22}
+
+Glacial_Roar_11:
+  Skills:
+    - projectile{md=80;oS=Glacial_Roar_SFX;onTick=Glacial_Roar_FX;onHit=Glacial_Roar_DAMAGE_2;v=30;i=1;hR=2;vR=5;mr=30;hnp=false;hO=0;sE=false;sB=false;hs=true;hfs=0} @forward
+    - projectile{md=80;oS=Glacial_Roar_SFX;onTick=Glacial_Roar_FX;onHit=Glacial_Roar_DAMAGE_2;v=30;i=1;hR=2;vR=5;mr=30;hnp=false;hO=36;sE=false;sB=false;hs=true;hfs=0} @forward
+    - projectile{md=80;oS=Glacial_Roar_SFX;onTick=Glacial_Roar_FX;onHit=Glacial_Roar_DAMAGE_2;v=30;i=1;hR=2;vR=5;mr=30;hnp=false;hO=72;sE=false;sB=false;hs=true;hfs=0} @forward
+    - projectile{md=80;oS=Glacial_Roar_SFX;onTick=Glacial_Roar_FX;onHit=Glacial_Roar_DAMAGE_2;v=30;i=1;hR=2;vR=5;mr=30;hnp=false;hO=108;sE=false;sB=false;hs=true;hfs=0} @forward
+    - projectile{md=80;oS=Glacial_Roar_SFX;onTick=Glacial_Roar_FX;onHit=Glacial_Roar_DAMAGE_2;v=30;i=1;hR=2;vR=5;mr=30;hnp=false;hO=144;sE=false;sB=false;hs=true;hfs=0} @forward
+    - projectile{md=80;oS=Glacial_Roar_SFX;onTick=Glacial_Roar_FX;onHit=Glacial_Roar_DAMAGE_2;v=30;i=1;hR=2;vR=5;mr=30;hnp=false;hO=180;sE=false;sB=false;hs=true;hfs=0} @forward
+    - projectile{md=80;oS=Glacial_Roar_SFX;onTick=Glacial_Roar_FX;onHit=Glacial_Roar_DAMAGE_2;v=30;i=1;hR=2;vR=5;mr=30;hnp=false;hO=216;sE=false;sB=false;hs=true;hfs=0} @forward
+    - projectile{md=80;oS=Glacial_Roar_SFX;onTick=Glacial_Roar_FX;onHit=Glacial_Roar_DAMAGE_2;v=30;i=1;hR=2;vR=5;mr=30;hnp=false;hO=252;sE=false;sB=false;hs=true;hfs=0} @forward
+    - projectile{md=80;oS=Glacial_Roar_SFX;onTick=Glacial_Roar_FX;onHit=Glacial_Roar_DAMAGE_2;v=30;i=1;hR=2;vR=5;mr=30;hnp=false;hO=288;sE=false;sB=false;hs=true;hfs=0} @forward
+    - projectile{md=80;oS=Glacial_Roar_SFX;onTick=Glacial_Roar_FX;onHit=Glacial_Roar_DAMAGE_2;v=30;i=1;hR=2;vR=5;mr=30;hnp=false;hO=324;sE=false;sB=false;hs=true;hfs=0} @forward
+
+Glacial_Roar_22:
+  Skills:
+    - projectile{md=80;oS=Glacial_Roar_SFX;onTick=Glacial_Roar_FX;onHit=Glacial_Roar_DAMAGE_2;v=30;i=1;hR=2;vR=5;mr=30;hnp=false;hO=18;sE=false;sB=false;hs=true;hfs=0} @forward
+    - projectile{md=80;oS=Glacial_Roar_SFX;onTick=Glacial_Roar_FX;onHit=Glacial_Roar_DAMAGE_2;v=30;i=1;hR=2;vR=5;mr=30;hnp=false;hO=54;sE=false;sB=false;hs=true;hfs=0} @forward
+    - projectile{md=80;oS=Glacial_Roar_SFX;onTick=Glacial_Roar_FX;onHit=Glacial_Roar_DAMAGE_2;v=30;i=1;hR=2;vR=5;mr=30;hnp=false;hO=90;sE=false;sB=false;hs=true;hfs=0} @forward
+    - projectile{md=80;oS=Glacial_Roar_SFX;onTick=Glacial_Roar_FX;onHit=Glacial_Roar_DAMAGE_2;v=30;i=1;hR=2;vR=5;mr=30;hnp=false;hO=126;sE=false;sB=false;hs=true;hfs=0} @forward
+    - projectile{md=80;oS=Glacial_Roar_SFX;onTick=Glacial_Roar_FX;onHit=Glacial_Roar_DAMAGE_2;v=30;i=1;hR=2;vR=5;mr=30;hnp=false;hO=162;sE=false;sB=false;hs=true;hfs=0} @forward
+    - projectile{md=80;oS=Glacial_Roar_SFX;onTick=Glacial_Roar_FX;onHit=Glacial_Roar_DAMAGE_2;v=30;i=1;hR=2;vR=5;mr=30;hnp=false;hO=198;sE=false;sB=false;hs=true;hfs=0} @forward
+    - projectile{md=80;oS=Glacial_Roar_SFX;onTick=Glacial_Roar_FX;onHit=Glacial_Roar_DAMAGE_2;v=30;i=1;hR=2;vR=5;mr=30;hnp=false;hO=234;sE=false;sB=false;hs=true;hfs=0} @forward
+    - projectile{md=80;oS=Glacial_Roar_SFX;onTick=Glacial_Roar_FX;onHit=Glacial_Roar_DAMAGE_2;v=30;i=1;hR=2;vR=5;mr=30;hnp=false;hO=270;sE=false;sB=false;hs=true;hfs=0} @forward
+    - projectile{md=80;oS=Glacial_Roar_SFX;onTick=Glacial_Roar_FX;onHit=Glacial_Roar_DAMAGE_2;v=30;i=1;hR=2;vR=5;mr=30;hnp=false;hO=306;sE=false;sB=false;hs=true;hfs=0} @forward
+    - projectile{md=80;oS=Glacial_Roar_SFX;onTick=Glacial_Roar_FX;onHit=Glacial_Roar_DAMAGE_2;v=30;i=1;hR=2;vR=5;mr=30;hnp=false;hO=342;sE=false;sB=false;hs=true;hfs=0} @forward
+
+# Glacial_Roar_FX:
+#   Skills:
+#   - effect:particles{particle=explosion_large;amount=14;y=0.1;hS=0.6;vS=6;speed=0} @origin
+#   - effect:particles{particle=snowflake;amount=10;y=0.1;hS=0.7;vS=5;speed=0} @origin
+#   - modifyProjectile{trait=VELOCITY;action=MULTIPLY;value=0.93}
+
+Glacial_Roar_DAMAGE_2:
+  TargetConditions:
+    - isblocking false
+  Skills:
+    - basedamage{m=2;pkb=true}
+    - throw{velocity=15;velocityY=2}
+
+# Arctic Fury #
+
+Arctic_Fury_2:
+  Cooldown: 12
+  Conditions:
+    - offgcd
+    - targetwithin{d=30} true
+  Skills:
+    - gcd{ticks=150}
+    - setAI{ai=false} @self
+    - setAI{ai=true;delay=150} @self
+    - state{s=skill_arctic_fury} @self
+    - effect:sound{s=entity.warden.roar;volume=2;pitch=0.4;delay=30} @self
+    - delay 50
+
+    - effect:sound{s=entity.lightning_bolt.thunder;volume=1.7;pitch=0.2} @self
+    - pull{velocity=2;repeat=9;repeati=7} @PIR{r=30}
+    - basedamage{m=2;pkb=true;repeat=4;repeati=15} @PIR{r=15}
+    - freeze{ticks=100;repeat=4;repeati=15} @PIR{r=15} 0.5
+    - effect:particlering{particle=snowflake;radius=30;points=100;amount=1;hS=0;vS=0;y=0.1;repeat=6;repeati=10} @self
+    - effect:particlering{particle=end_rod;radius=15;points=70;amount=1;hS=0;vS=0;y=0.1;repeat=6;repeati=10} @self
+    - skill{s=Arctic_Fury_Load;repeat=3;repeati=20} @self
+    - skill{s=Arctic_Fury_Load2;repeat=3;repeati=20} @self
+
+Arctic_Fury_Load2:
+  Skills:
+    - effect:particlering{particle=block_crack;m=ICE;radius=28;points=100;amount=1;hS=0;vS=0;y=0.1}
+    - delay 1
+    - effect:particlering{particle=block_crack;m=ICE;radius=26;points=90;amount=1;hS=0;vS=0;y=0.1}
+    - delay 1
+    - effect:particlering{particle=block_crack;m=ICE;radius=24;points=80;amount=1;hS=0;vS=0;y=0.1}
+    - delay 1
+    - effect:particlering{particle=block_crack;m=ICE;radius=22;points=80;amount=1;hS=0;vS=0;y=0.1}
+    - delay 1
+    - effect:particlering{particle=block_crack;m=ICE;radius=20;points=70;amount=1;hS=0;vS=0;y=0.1}
+    - delay 1
+    - effect:particlering{particle=block_crack;m=ICE;radius=18;points=70;amount=1;hS=0;vS=0;y=0.1}
+    - delay 1
+    - effect:particlering{particle=block_crack;m=ICE;radius=16;points=60;amount=1;hS=0;vS=0;y=0.1}
+    - delay 1
+    - effect:particlering{particle=block_crack;m=ICE;radius=14;points=60;amount=1;hS=0;vS=0;y=0.1}
+    - delay 1
+    - effect:particlering{particle=block_crack;m=ICE;radius=13;points=50;amount=1;hS=0;vS=0;y=0.1}
+    - delay 1
+    - effect:particlering{particle=block_crack;m=ICE;radius=12;points=50;amount=1;hS=0;vS=0;y=0.1}
+    - delay 1
+    - effect:particlering{particle=block_crack;m=ICE;radius=11;points=60;amount=1;hS=0;vS=0;y=0.1}
+    - delay 1
+    - effect:particlering{particle=block_crack;m=ICE;radius=10;points=50;amount=1;hS=0;vS=0;y=0.1}
+    - delay 1
+    - effect:particlering{particle=block_crack;m=ICE;radius=9;points=50;amount=1;hS=0;vS=0;y=0.1}
+    - delay 1
+    - effect:particlering{particle=block_crack;m=ICE;radius=8;points=60;amount=1;hS=0;vS=0;y=0.1}
+    - delay 1
+    - effect:particlering{particle=block_crack;m=ICE;radius=7;points=50;amount=1;hS=0;vS=0;y=0.1}
+    - delay 1
+    - effect:particlering{particle=block_crack;m=ICE;radius=6.5;points=50;amount=1;hS=0;vS=0;y=0.1}
+    - delay 1
+    - effect:particlering{particle=block_crack;m=ICE;radius=6;points=60;amount=1;hS=0;vS=0;y=0.1}
+    - delay 1
+    - effect:particlering{particle=block_crack;m=ICE;radius=5.5;points=50;amount=1;hS=0;vS=0;y=0.1}
+    - delay 1
+    - effect:particlering{particle=block_crack;m=ICE;radius=5;points=50;amount=1;hS=0;vS=0;y=0.1}
+    - delay 1
+    - effect:particlering{particle=block_crack;m=ICE;radius=4.5;points=50;amount=1;hS=0;vS=0;y=0.1}
+    - delay 1
+    - effect:particlering{particle=block_crack;m=ICE;radius=4;points=60;amount=1;hS=0;vS=0;y=0.1}
+    - delay 1
+    - effect:particlering{particle=block_crack;m=ICE;radius=3.5;points=50;amount=1;hS=0;vS=0;y=0.1}
+    - delay 1
+    - effect:particlering{particle=block_crack;m=ICE;radius=3;points=50;amount=1;hS=0;vS=0;y=0.1}
+    - delay 1
+    - effect:particlering{particle=block_crack;m=ICE;radius=2.5;points=50;amount=1;hS=0;vS=0;y=0.1}
+    - delay 1
+    - effect:particlering{particle=block_crack;m=ICE;radius=2;points=60;amount=1;hS=0;vS=0;y=0.1}
+    - delay 1
+    - effect:particlering{particle=block_crack;m=ICE;radius=1.5;points=50;amount=1;hS=0;vS=0;y=0.1}
+    - delay 1
+    - effect:particlering{particle=block_crack;m=ICE;radius=1;points=50;amount=1;hS=0;vS=0;y=0.1}
+
+# Ice Age #
+
+Ice_Age_2:
+  Cooldown: 40
+  Conditions:
+    - offgcd
+    - targetwithin{d=30} true
+    - children{a=>2} false
+  Skills:
+    - gcd{ticks=80}
+    - setAI{ai=false} @self
+    - setAI{ai=true;delay=80} @self
+    - state{s=skill_ice_age} @self
+    - effect:sound{s=entity.warden.roar;volume=2;pitch=0.4;delay=17} @self
+    - delay 39
+
+    - effect:sound{s=entity.player.attack.crit;volume=1.5;pitch=0.4} @self
+    - effect:sound{s=block.glass.break;volume=1.5;pitch=0.4} @self
+    - effect:sound{s=entity.lightning_bolt.thunder;volume=1.5;pitch=1.7} @self
+    - summon{type=Fx_Ice_Crystal;amount=1;radius=30;yRadius=0;onSurface=true;repeat=6;repeati=15} @self
+    - summon{type=Fx_Ice_Crystal_SHINY;amount=1;radius=30;yRadius=0;onSurface=true;repeat=2;repeati=30} @self
+# Ice_Age_Spike:
+#   Skills:
+#   - effect:particles{particle=block_crack;m=ICE;amount=60;hS=1.4;vS=0.1;y=0.12;speed=0;forwardOffset=0;sideOffset=0;repeat=4;repeati=8} @self
+#   - delay 40
+#   - model{mid=fx_ice_crystal;n=false} @self
+#   - state{s=skill} @self
+#   - delay 3
+#   - effect:sound{s=entity.player.attack.crit;volume=1.5;pitch=0.4} @self
+#   - basedamage{m=1.5;pkb=true} @PIR{r=4}
+#   - freeze{ticks=100} @PIR{r=4}
+#   - throw{velocity=2;velocityY=13} @PIR{r=4}
+
+# Ice_Age_Spike_REMOVE:
+#   Skills:
+#   - effect:particles{particle=block_crack;m=ICE;amount=50;hS=1.3;vS=1.4;y=0.5;speed=0;forwardOffset=0;sideOffset=0} @self
+#   - effect:particles{particle=explosion_huge;amount=1;hS=0;vS=0;y=0.4;speed=0;forwardOffset=0;sideOffset=0} @self
+#   - effect:sound{s=block.glass.break;volume=1.1;pitch=0.4} @self
+#   - effect:sound{s=entity.generic.explode;volume=0.8;pitch=0.7} @self
+#   - remove @self
+
+# Ice_Age_Spike_HEAL:
+#   Skills:
+#   - effect:particleline{particle=redstone;color=#99dfff;amount=1;fromOrigin=false;syo=1;tyo=3.5;forwardOffset=0.7;sso=0.7} @parent
+
+# Ice_Age_Spike_HEALS:
+#   Skills:
+#   - heal{a=1} @parent
+
+# Ice_Age_Spike_SHINY_HEAL:
+#   Skills:
+#   - effect:particleline{db=1.5;particle=sonic_boom;amount=1;fromOrigin=false;syo=1;tyo=3.5;forwardOffset=0.7;sso=0.7} @parent
+
+# Ice_Age_Spike_SHINY_HEALS:
+#   Skills:
+#   - heal{a=3} @parent
+
+# Ice_Age_Spike_REMOVE_SHINY:
+#   Skills:
+#   - effect:particles{particle=block_crack;m=ICE;amount=50;hS=1.3;vS=1.4;y=0.5;speed=0;forwardOffset=0;sideOffset=0} @self
+#   - effect:particles{particle=explosion_huge;amount=1;hS=0;vS=0;y=0.4;speed=0;forwardOffset=0;sideOffset=0} @self
+#   - effect:sound{s=block.glass.break;volume=1.1;pitch=0.4} @self
+#   - effect:sound{s=entity.generic.explode;volume=0.8;pitch=0.7} @self
+
+#   - effect:sound{s=entity.generic.explode;volume=1.2;pitch=0.6} @parent
+#   - effect:sound{s=entity.ravager.roar;volume=1.3;pitch=0.8} @parent
+#   - effect:particles{particle=explosion_huge;amount=4;hS=2;vS=2;y=1.3;speed=0;forwardOffset=0;sideOffset=0} @parent
+#   - sudoskill{s=Ice_Age_Spike_REMOVE_SHINYD;cat=true} @parent
+
+#   - delay 1
+#   - remove @self
+
+# Ice_Age_Spike_REMOVE_SHINYD:
+#   Skills:
+#   - basedamage{m=2;pkb=true} @self
+
+#wmZzZVYVRmNws0MzIzTN1kWJhlU3llaOl3aq5UMNRUT5N3RN52dtBTOzAzVolnYMV0a0hEN

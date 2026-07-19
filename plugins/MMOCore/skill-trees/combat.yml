@@ -1,0 +1,518 @@
+id: 'combat'
+name: '&4Chiến Đấu'
+lore:
+  - '&6Cây kỹ năng này được sử dụng cho các khả năng chiến đấu!'
+type: 'linked'
+item: 'DIAMOND_AXE'
+max-point-spent: 20
+nodes:
+  a1:
+    name: 'Giảm Thời Gian Hồi Chiêu'
+    coordinates:
+      x: -3
+      y: -2
+    max-level: 1
+    is-root: true
+    size: 1
+    point-consumed: 1
+    experience-table:
+      first_table_item:
+        triggers:
+          - 'stat{stat="COOLDOWN_REDUCTION";amount=5;type="FLAT"}'
+    lores:
+      0:
+        - '&eGiảm thời gian hồi chiêu của vật phẩm/kỹ năng lớp (5%)'
+      1:
+        - '&eGiảm thời gian hồi chiêu của vật phẩm/kỹ năng lớp (5%)'
+
+  a2:
+    name: 'Giảm Thời Gian Hồi Chiêu'
+    size: 1
+    point-consumed: 1
+    max-children: 1
+    experience-table:
+      first_table_item:
+        triggers:
+          - 'stat{stat="COOLDOWN_REDUCTION";amount=10;type="FLAT"}'
+    coordinates:
+      x: -2
+      y: -2
+    lores:
+      0:
+        - '&eGiảm thời gian hồi chiêu của vật phẩm/kỹ năng lớp (10%)'
+      1:
+        - '&eGiảm thời gian hồi chiêu của vật phẩm/kỹ năng lớp (20%)'
+
+  a3:
+    name: 'Giảm Thời Gian Hồi Chiêu'
+    size: 1
+    point-consumed: 1
+    max-children: 1
+    experience-table:
+      first_table_item:
+        triggers:
+          - 'stat{stat="COOLDOWN_REDUCTION";amount=15;type="FLAT"}'
+    coordinates:
+      x: -1
+      y: -2
+    lores:
+      0:
+        - '&eGiảm thời gian hồi chiêu của vật phẩm/kỹ năng lớp (15%)'
+      1:
+        - '&eGiảm thời gian hồi chiêu của vật phẩm/kỹ năng lớp (30%)'
+
+  ### B
+
+  b1:
+    name: 'Tỷ Lệ Đánh Chí Mạng'
+    size: 1
+    point-consumed: 1
+    max-children: 1
+    experience-table:
+      first_table_item:
+        triggers:
+          - 'stat{stat="CRITICAL_STRIKE_CHANCE";amount=1;type="FLAT"}'
+    coordinates:
+      x: 0
+      y: -2
+    lores:
+      0:
+        - '&eĐòn đánh chí mạng gây thêm sát thương theo tỷ lệ %'
+      1:
+        - '&eĐòn đánh chí mạng gây thêm sát thương theo tỷ lệ +%1'
+
+  b2:
+    name: 'Tỷ Lệ Đánh Chí Mạng'
+    size: 1
+    point-consumed: 1
+    max-children: 1
+    experience-table:
+      first_table_item:
+        triggers:
+          - 'stat{stat="CRITICAL_STRIKE_CHANCE";amount=2;type="FLAT"}'
+    coordinates:
+      x: 0
+      y: -1
+    lores:
+      0:
+        - '&eĐòn đánh chí mạng gây thêm sát thương theo tỷ lệ %'
+      1:
+        - '&eĐòn đánh chí mạng gây thêm sát thương theo tỷ lệ +%3'
+
+  b3:
+    name: 'Tỷ Lệ Đánh Chí Mạng'
+    size: 1
+    point-consumed: 1
+    max-children: 2
+    experience-table:
+      first_table_item:
+        triggers:
+          - 'stat{stat="CRITICAL_STRIKE_CHANCE";amount=3;type="FLAT"}'
+    coordinates:
+      x: 0
+      y: 0
+    lores:
+      0:
+        - '&eĐòn đánh chí mạng gây thêm sát thương theo tỷ lệ %'
+      1:
+        - '&eĐòn đánh chí mạng gây thêm sát thương theo tỷ lệ +%5'
+
+  ## C
+
+  c1:
+    name: 'Hút Máu'
+    size: 1
+    point-consumed: 1
+    max-children: 1
+    experience-table:
+      first_table_item:
+        triggers:
+          - 'stat{stat="LIFESTEAL";amount=1;type="FLAT"}'
+    coordinates:
+      x: -1
+      y: 0
+    lores:
+      0:
+        - '&ePhần trăm sát thương bạn nhận lại dưới dạng máu khi gây sát thương bằng vũ khí +%1'
+      1:
+        - '&ePhần trăm sát thương bạn nhận lại dưới dạng máu khi gây sát thương bằng vũ khí +%1'
+
+  c2:
+    name: 'Hút Máu'
+    size: 1
+    point-consumed: 1
+    max-children: 1
+    experience-table:
+      first_table_item:
+        triggers:
+          - 'stat{stat="LIFESTEAL";amount=2;type="FLAT"}'
+    coordinates:
+      x: -2
+      y: 0
+    lores:
+      0:
+        - '&ePhần trăm sát thương bạn nhận lại dưới dạng máu khi gây sát thương bằng vũ khí +%2'
+      1:
+        - '&ePhần trăm sát thương bạn nhận lại dưới dạng máu khi gây sát thương bằng vũ khí +%2'
+
+  c3:
+    name: 'Hút Máu'
+    size: 1
+    point-consumed: 1
+    max-children: 1
+    experience-table:
+      first_table_item:
+        triggers:
+          - 'stat{stat="LIFESTEAL";amount=3;type="FLAT"}'
+    coordinates:
+      x: -3
+      y: 0
+    lores:
+      0:
+        - '&ePhần trăm sát thương bạn nhận lại dưới dạng máu khi gây sát thương bằng vũ khí +%3'
+      1:
+        - '&ePhần trăm sát thương bạn nhận lại dưới dạng máu khi gây sát thương bằng vũ khí +%3'
+
+  ## D
+
+  d1:
+    name: 'Giảm Sát Thương'
+    size: 1
+    point-consumed: 1
+    max-children: 1
+    experience-table:
+      first_table_item:
+        triggers:
+          - 'stat{stat="DAMAGE_REDUCTION";amount=1;type="FLAT"}'
+    coordinates:
+      x: 0
+      y: 1
+    lores:
+      0:
+        - '&eGiảm sát thương từ bất kỳ nguồn nào +%1'
+      1:
+        - '&eGiảm sát thương từ bất kỳ nguồn nào +%1'
+
+  d2:
+    name: 'Giảm Sát Thương'
+    size: 1
+    point-consumed: 1
+    max-children: 2
+    experience-table:
+      first_table_item:
+        triggers:
+          - 'stat{stat="DAMAGE_REDUCTION";amount=2;type="FLAT"}'
+    coordinates:
+      x: 0
+      y: 2
+    lores:
+      0:
+        - '&eGiảm sát thương từ bất kỳ nguồn nào +%2'
+      1:
+        - '&eGiảm sát thương từ bất kỳ nguồn nào +%2'
+
+  d3:
+    name: 'Giảm Sát Thương'
+    size: 1
+    point-consumed: 1
+    max-children: 1
+    experience-table:
+      first_table_item:
+        triggers:
+          - 'stat{stat="DAMAGE_REDUCTION";amount=2;type="FLAT"}'
+    coordinates:
+      x: -1
+      y: 2
+    lores:
+      0:
+        - '&eGiảm sát thương từ bất kỳ nguồn nào +%2'
+      1:
+        - '&eGiảm sát thương từ bất kỳ nguồn nào +%2'
+
+  ## E
+
+  e1:
+    name: 'Hồi Máu'
+    size: 1
+    point-consumed: 1
+    max-children: 1
+    experience-table:
+      first_table_item:
+        triggers:
+          - 'stat{stat="HEALTH_REGENERATION";amount=1;type="FLAT"}'
+    coordinates:
+      x: -2
+      y: 2
+    lores:
+      0:
+        - '&eHồi máu theo điểm/giây +1'
+      1:
+        - '&eHồi máu theo điểm/giây +1'
+
+  e2:
+    name: 'Hồi Máu'
+    size: 1
+    point-consumed: 1
+    max-children: 1
+    experience-table:
+      first_table_item:
+        triggers:
+          - 'stat{stat="HEALTH_REGENERATION";amount=2;type="FLAT"}'
+    coordinates:
+      x: -3
+      y: 2
+    lores:
+      0:
+        - '&eHồi máu theo điểm/giây +2'
+      1:
+        - '&eHồi máu theo điểm/giây +2'
+
+  e3:
+    name: 'Hồi Máu'
+    size: 1
+    point-consumed: 1
+    max-children: 1
+    experience-table:
+      first_table_item:
+        triggers:
+          - 'stat{stat="HEALTH_REGENERATION";amount=2;type="FLAT"}'
+    coordinates:
+      x: -3
+      y: 1
+    lores:
+      0:
+        - '&eHồi máu theo điểm/giây +2'
+      1:
+        - '&eHồi máu theo điểm/giây +2'
+
+  ## F
+
+  f1:
+    name: 'Hồi Mana'
+    size: 1
+    point-consumed: 1
+    max-children: 1
+    experience-table:
+      first_table_item:
+        triggers:
+          - 'stat{stat="MANA_REGENERATION";amount=1;type="FLAT"}'
+    coordinates:
+      x: 1
+      y: 2
+    lores:
+      0:
+        - '&eHồi mana theo điểm/giây +1'
+      1:
+        - '&eHồi mana theo điểm/giây +1'
+
+  f2:
+    name: 'Hồi Mana'
+    size: 1
+    point-consumed: 1
+    max-children: 1
+    experience-table:
+      first_table_item:
+        triggers:
+          - 'stat{stat="MANA_REGENERATION";amount=2;type="FLAT"}'
+    coordinates:
+      x: 2
+      y: 2
+    lores:
+      0:
+        - '&eHồi mana theo điểm/giây +2'
+      1:
+        - '&eHồi mana theo điểm/giây +2'
+
+  f3:
+    name: 'Hồi Mana'
+    size: 1
+    point-consumed: 1
+    max-children: 1
+    experience-table:
+      first_table_item:
+        triggers:
+          - 'stat{stat="MANA_REGENERATION";amount=2;type="FLAT"}'
+    coordinates:
+      x: 3
+      y: 2
+    lores:
+      0:
+        - '&eHồi mana theo điểm/giây +2'
+      1:
+        - '&eHồi mana theo điểm/giây +2'
+
+  ## G
+
+  g1:
+    name: 'Sát Thương Phép Thuật'
+    size: 1
+    point-consumed: 1
+    max-children: 1
+    experience-table:
+      first_table_item:
+        triggers:
+          - 'stat{stat="MAGIC_DAMAGE";amount=1;type="FLAT"}'
+    coordinates:
+      x: 3
+      y: 1
+    lores:
+      0:
+        - '&eSát thương kỹ năng phép thuật thêm +%1'
+      1:
+        - '&eSát thương kỹ năng phép thuật thêm +%1'
+
+  g2:
+    name: 'Sát Thương Phép Thuật'
+    size: 1
+    point-consumed: 1
+    max-children: 1
+    experience-table:
+      first_table_item:
+        triggers:
+          - 'stat{stat="MAGIC_DAMAGE";amount=2;type="FLAT"}'
+    coordinates:
+      x: 4
+      y: 1
+    lores:
+      0:
+        - '&eSát thương kỹ năng phép thuật thêm +%2'
+      1:
+        - '&eSát thương kỹ năng phép thuật thêm +%2'
+
+  g3:
+    name: 'Sát Thương Phép Thuật'
+    size: 1
+    point-consumed: 1
+    max-children: 1
+    experience-table:
+      first_table_item:
+        triggers:
+          - 'stat{stat="MAGIC_DAMAGE";amount=2;type="FLAT"}'
+    coordinates:
+      x: 4
+      y: 0
+    lores:
+      0:
+        - '&eSát thương kỹ năng phép thuật thêm +%2'
+      1:
+        - '&eSát thương kỹ năng phép thuật thêm +%2'
+
+  ## H
+
+  h1:
+    name: 'Máu Tối Đa'
+    size: 1
+    point-consumed: 1
+    max-children: 1
+    experience-table:
+      first_table_item:
+        triggers:
+          - 'stat{stat="MAX_HEALTH";amount=2;type="RELATIVE"}'
+    coordinates:
+      x: 4
+      y: -1
+    lores:
+      0:
+        - '&eLượng máu tối đa thêm +%2'
+      1:
+        - '&eLượng máu tối đa thêm +%2'
+
+  h2:
+    name: 'Máu Tối Đa'
+    size: 1
+    point-consumed: 1
+    max-children: 1
+    experience-table:
+      first_table_item:
+        triggers:
+          - 'stat{stat="MAX_HEALTH";amount=4;type="RELATIVE"}'
+    coordinates:
+      x: 4
+      y: -2
+    lores:
+      0:
+        - '&eLượng máu tối đa thêm +%4'
+      1:
+        - '&eLượng máu tối đa thêm +%4'
+
+  h3:
+    name: 'Máu Tối Đa'
+    size: 1
+    point-consumed: 1
+    max-children: 1
+    experience-table:
+      first_table_item:
+        triggers:
+          - 'stat{stat="MAX_HEALTH";amount=4;type="RELATIVE"}'
+    coordinates:
+      x: 3
+      y: -2
+    lores:
+      0:
+        - '&eLượng máu tối đa thêm +%4'
+      1:
+        - '&eLượng máu tối đa thêm +%4'
+
+  ## J
+
+  j1:
+    name: 'Sát Thương Vũ Khí'
+    size: 1
+    point-consumed: 1
+    max-children: 1
+    experience-table:
+      first_table_item:
+        triggers:
+          - 'stat{stat="WEAPON_DAMAGE";amount=2;type="FLAT"}'
+    coordinates:
+      x: 2
+      y: -2
+    lores:
+      0:
+        - '&eSát thương vũ khí khi đánh thêm +%2.'
+      1:
+        - '&eSát thương vũ khí khi đánh thêm +%2.'
+
+  j2:
+    name: 'Sát Thương Vũ Khí'
+    size: 1
+    point-consumed: 1
+    max-children: 1
+    experience-table:
+      first_table_item:
+        triggers:
+          - 'stat{stat="WEAPON_DAMAGE";amount=4;type="FLAT"}'
+    coordinates:
+      x: 2
+      y: -1
+    lores:
+      0:
+        - '&eSát thương vũ khí khi đánh thêm +%4'
+      1:
+        - '&eSát thương vũ khí khi đánh thêm +%4'
+
+  j3:
+    name: 'Sát Thương Vũ Khí'
+    size: 1
+    point-consumed: 1
+    max-children: 1
+    experience-table:
+      first_table_item:
+        triggers:
+          - 'stat{stat="WEAPON_DAMAGE";amount=4;type="FLAT"}'
+    coordinates:
+      x: 2
+      y: 0
+    lores:
+      0:
+        - '&eSát thương vũ khí khi đánh thêm +%4'
+      1:
+        - '&eSát thương vũ khí khi đánh thêm +%4'
+
+paths:
+  path1:
+    x: 2
+    y: 2
+  path2:
+    x: 2
+    y: 3

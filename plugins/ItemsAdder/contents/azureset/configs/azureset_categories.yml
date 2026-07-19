@@ -1,0 +1,35 @@
+info:
+  namespace: azureset
+categories:
+  azureset:
+    enabled: true
+    skip_if_already: false
+    icon: "azureset:azure_sword"
+    name: Azure Weapons & Tools Set
+    permission: azureset.menu
+    items:
+      - "azureset:azure_sword"
+      - "azureset:azure_greatsword"
+      - "azureset:azure_spear"
+      - "azureset:azure_trident"
+      - "azureset:azure_hammer"
+      - "azureset:azure_scythe"
+      - "azureset:azure_staff"
+      - "azureset:azure_bow"
+      - "azureset:azure_crossbow"
+      - "azureset:azure_axe"
+      - "azureset:azure_hoe"
+      - "azureset:azure_pickaxe"
+      - "azureset:azure_shovel"
+      - "azureset:azure_fishing_rod"
+      - "azureset:azure_shield"
+      - "azureset:azure_chest"
+      - "azureset:azure_chest_opening"
+      - "azureset:azure_key"
+      - "azureset:azurechestplate"
+      - "azureset:azureleggings"
+      - "azureset:azureboots"
+      - "azureset:azurehelmet"
+      - "azureset:azure_helmet"
+      - "azureset:azure_wings"
+#8kdSd0Yad3avpHcwVnSJlTSvtmU31keNJTUE90MFRUT4FVRkRnY090N1o2M2VlVWFkUyckM

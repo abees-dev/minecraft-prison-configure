@@ -1,0 +1,6 @@
+Name: Weapons Key
+Virtual: true
+Item:
+  Material: PAPER
+  Name: '&fLava Key'
+  Custom_Model_Data: 10118

@@ -1,0 +1,147 @@
+info:
+  namespace: void_crystal_pack
+items:
+  void_crystal_axe:
+    display_name: §fVoid Crystal Axe
+    permission: void_crystal_pack.axe
+    resource:
+      material: IRON_AXE
+      generate: false
+      model_path: axe
+  void_crystal_battle_axe:
+    display_name: §fVoid Crystal Battle Axe
+    permission: void_crystal_pack.battle_axe
+    resource:
+      material: IRON_SWORD
+      generate: false
+      model_path: battle_axe
+  void_crystal_blade:
+    display_name: §fVoid Crystal Blade
+    permission: void_crystal_pack.blade
+    resource:
+      material: IRON_SWORD
+      generate: false
+      model_path: blade
+  void_crystal_bow:
+    display_name: §fVoid Crystal Bow
+    permission: void_crystal_pack.bow
+    resource:
+      material: BOW
+      generate: false
+      model_path: bow
+  void_crystal_chest:
+    display_name: §fVoid Crystal Chest
+    permission: void_crystal_pack.chest
+    resource:
+      material: PAPER
+      generate: false
+      model_path: chest
+    behaviours:
+      furniture:
+        entity: item_frame
+        fixed_rotation: true
+        hitbox:
+          height: 1
+          height_offset: 0
+          length: 1
+          length_offset: 0
+          width: 1
+          width_offset: 0
+        placeable_on:
+          ceiling: false
+          floor: true
+          walls: false
+        solid: true
+  void_crystal_dagger:
+    display_name: §fVoid Crystal Dagger
+    permission: void_crystal_pack.dagger
+    resource:
+      material: IRON_SWORD
+      generate: false
+      model_path: dagger
+  void_crystal_fishing_rod:
+    display_name: §fVoid Crystal Fishing Rod
+    permission: void_crystal_pack.fishing_rod
+    resource:
+      material: FISHING_ROD
+      generate: false
+      model_path: fishing_rod
+  void_crystal_hoe:
+    display_name: §fVoid Crystal Hoe
+    permission: void_crystal_pack.hoe
+    resource:
+      material: IRON_HOE
+      generate: false
+      model_path: hoe
+  void_crystal_key:
+    display_name: §fVoid Crystal Key
+    permission: void_crystal_pack.key
+    resource:
+      material: PAPER
+      generate: false
+      model_path: key
+  void_crystal_pickaxe:
+    display_name: §fVoid Crystal Pickaxe
+    permission: void_crystal_pack.pickaxe
+    resource:
+      material: IRON_PICKAXE
+      generate: false
+      model_path: pickaxe
+  void_crystal_shield:
+    display_name: §fVoid Crystal Shield
+    permission: void_crystal_pack.shield
+    resource:
+      material: SHIELD
+      generate: false
+      model_path: shield
+  void_crystal_shovel:
+    display_name: §fVoid Crystal Shovel
+    permission: void_crystal_pack.shovel
+    resource:
+      material: IRON_SHOVEL
+      generate: false
+      model_path: shovel
+  void_crystal_sickle:
+    display_name: §fVoid Crystal Sickle
+    permission: void_crystal_pack.sickle
+    resource:
+      material: IRON_SWORD
+      generate: false
+      model_path: sickle
+  void_crystal_spear:
+    display_name: §fVoid Crystal Spear
+    permission: void_crystal_pack.spear
+    resource:
+      material: IRON_SWORD
+      generate: false
+      model_path: spear
+  void_crystal_staff:
+    display_name: §fVoid Crystal Staff
+    permission: void_crystal_pack.staff
+    resource:
+      material: IRON_SWORD
+      generate: false
+      model_path: staff
+  void_crystal_sword:
+    display_name: §fVoid Crystal Sword
+    permission: void_crystal_pack.sword
+    resource:
+      material: IRON_SWORD
+      generate: false
+      model_path: sword
+  void_crystal_wings:
+    display_name: §fVoid Crystal Wings
+    permission: void_crystal_pack.wings
+    resource:
+      material: PAPER
+      generate: false
+      model_path: wings
+    attribute_modifiers:
+      head:
+        armor: 2
+    behaviours:
+      hat: true
+    durability:
+      max_custom_durability: 165
+
+#MlcQNWRvFmdxRVQXNHSul2TNZ0U3lkeNFzZ61EejRUTwAzVNt0Rml1Mp9EealndWNzRudFO

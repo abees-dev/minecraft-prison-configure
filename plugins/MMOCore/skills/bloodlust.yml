@@ -1,0 +1,29 @@
+name: Bloodlust
+lore:
+- '&4You have a 5% chance to heal yourself whenever you strike an enemy.'
+- ''
+- '&e{cooldown}s Cooldown'
+- '&c{duration}s Duration'
+- '&9Costs {mana} {mana_name}'
+material: 'COAL:2179'
+passive-type: TIMER
+timer:
+  base: 10
+  per-level: 0
+  min: 10
+  max: 10
+mana:
+  base: 0
+  per-level: 0
+  min: 0
+  max: 0
+stamina:
+  base: 0
+  per-level: 0
+  min: 0
+  max: 0
+cooldown:
+  base: 0
+  per-level: 0
+  min: 0
+  max: 0

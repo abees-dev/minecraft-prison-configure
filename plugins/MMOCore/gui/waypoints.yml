@@ -1,0 +1,107 @@
+# Tên hiển thị GUI
+name: Điểm Dừng
+name-on-waypoint: 'Điểm Dừng: {waypoint}'
+
+# Số khe trong kho đồ. Phải nằm trong khoảng
+# từ 9 đến 54 và phải là bội số của 9.
+slots: 45
+
+items:
+  waypoint:
+    slots:
+      [
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+      ]
+    function: waypoint
+
+    # Hiển thị khi không có điểm dừng
+    no-waypoint:
+      item: GRAY_STAINED_GLASS_PANE
+      name: '&a'
+      lore: {}
+
+    # Hiển thị khi điểm dừng chưa được mở khóa.
+    locked:
+      name: '&c- Chưa Mở Khóa -'
+      item: GRAY_DYE
+      lore: {}
+
+    # Khi hai điểm dừng không được liên kết với nhau
+    not-a-destination:
+      name: '&a{name}'
+      item: ENDER_PEARL
+
+      # Vật liệu hiển thị khi điểm dừng không sẵn sàng
+      not-ready: ENDER_PEARL
+
+      lore:
+        - '&7Bạn không thể dịch chuyển vì hai điểm dừng không được liên kết.'
+
+    # Khi bạn không thể dịch chuyển đến điểm dừng không động
+    not-dynamic:
+      name: '&a{name}'
+      item: ENDER_PEARL
+
+      lore:
+        - '&7Bạn không thể dịch chuyển vì bạn không đứng trên điểm dừng.'
+
+    current-waypoint:
+      name: '&a{name}'
+      item: ENDER_PEARL
+
+      lore:
+        - '&7Điểm dừng bạn đang đứng tại.'
+
+    # Khi bạn không có đủ Stellium
+    not-enough-stellium:
+      name: '&a{name}'
+      item: ENDER_PEARL
+
+      lore:
+        - '&7Bạn không thể dịch chuyển vì bạn không có đủ Stellium.'
+        - '&7Dịch chuyển tốn &b{normal_cost}&7/&b{dynamic_cost} &7Stellium.'
+
+    # Hiển thị khi điểm dừng đã được mở khóa và có thể sử dụng
+    display:
+      name: '&a{name}'
+      item: ENDER_EYE
+
+      lore:
+        - '&7Bạn có thể dịch chuyển đến điểm dừng này.'
+        - '&7Điểm dừng trung gian: {intermediary_waypoints}'
+        - '&7Nhấn để dịch chuyển với &b{current_cost} &7Stellium.'
+
+  next:
+    slots: [26]
+    function: next
+    item: PLAYER_HEAD
+    texture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTliZjMyOTJlMTI2YTEwNWI1NGViYTcxM2FhMWIxNTJkNTQxYTFkODkzODgyOWM1NjM2NGQxNzhlZDIyYmYifX19
+    name: '&aTrang Tiếp Theo'
+    lore: []
+  previous:
+    slots: [18]
+    function: previous
+    item: PLAYER_HEAD
+    texture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmQ2OWUwNmU1ZGFkZmQ4NGU1ZjNkMWMyMTA2M2YyNTUzYjJmYTk0NWVlMWQ0ZDcxNTJmZGM1NDI1YmMxMmE5In19fQ==
+    name: '&aTrang Trước'
+    lore: []

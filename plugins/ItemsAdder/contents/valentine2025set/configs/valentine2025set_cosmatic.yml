@@ -1,0 +1,45 @@
+info:
+  namespace: valentine2025set
+items:
+  valentine2025_cosmetics_helmet:
+    display_name: Valentine 2025 Helmet Cosmetics
+    permission: valentine2025set.valentine2025_cosmetics_helmet
+    resource:
+      generate: false
+      model_path: helmet
+      material: POTION
+      model_id: 9924781
+  valentine2025_cosmetics_wings:
+    display_name: Valentine 2025 Wings Cosmetics
+    permission: valentine2025set.valentine2025_cosmetics_wings
+    resource:
+      generate: false
+      model_path: wings_cosmetic
+      material: POTION
+      model_id: 9924782
+  valentine2025_cosmetics_wings_self:
+    display_name: Valentine 2025 Wings Cosmetics Self
+    permission: valentine2025set.valentine2025_cosmetics_wings_self
+    resource:
+      generate: false
+      model_path: wings_cosmetic_self
+      material: POTION
+      model_id: 9924783
+  valentine2025_cosmetics_wings_self_2:
+    display_name: Valentine 2025 Wings Cosmetics Self 2
+    permission: valentine2025set.valentine2025_cosmetics_wings_self_2
+    resource:
+      generate: false
+      model_path: wings_cosmetic_self_2
+      material: POTION
+      model_id: 9924784
+  valentine2025_cosmetics_wings_normal_2:
+    display_name: Valentine 2025 Wings Cosmetics Normal 2
+    permission: valentine2025set.valentine2025_cosmetics_wings_normal_2
+    resource:
+      generate: false
+      model_path: wings_cosmetic_normal_2
+      material: POTION
+      model_id: 9924785
+
+#340be9fa0a8daa6dbfba39328beb988d

@@ -1,0 +1,73 @@
+# Tên hiển thị GUI
+name: Lựa Chọn Lớp
+
+# Số khe trong kho đồ. Phải nằm trong khoảng
+# từ 9 đến 54 và phải là bội số của 9.
+slots: 27
+
+items:
+  class-warrior:
+    slots: [10]
+    function: class-warrior
+    name: '&a&lChiến Binh'
+    hide-flags: true
+    lore:
+      - '{lore}'
+      - ''
+      - '{attribute-lore}'
+    icon: 'diamond_sword'
+
+  class-mage:
+    slots: [12]
+    function: class-mage
+    name: '&a&lPháp Sư'
+    hide-flags: true
+    lore:
+      - '{lore}'
+      - ''
+      - '{attribute-lore}'
+    icon: 'blaze_rod'
+
+  class-marksman:
+    slots: [14]
+    function: class-marksman
+    name: '&a&lXạ Thủ'
+    hide-flags: true
+    lore:
+      - '{lore}'
+      - ''
+      - '{attribute-lore}'
+    icon: 'bow'
+
+  voidedge:
+    slots: [15]
+    function: voidedge
+    name: '&b&lVoid Edge'
+    hide-flags: true
+    lore:
+      - '{lore}'
+      - ''
+      - '{attribute-lore}'
+    icon: 'paper:40001'
+
+  # class-paladin:
+  #   slots: [16]
+  #   function: class-paladin
+  #   name: '&a&lHiệp Sĩ'
+  #   hide-flags: true
+  #   lore:
+  #     - '{lore}'
+  #     - ''
+  #     - '{attribute-lore}'
+  #   icon: 'golden_sword'
+
+  # class-rogue:
+  #   slots: [22]
+  #   function: class-rogue
+  #   name: '&a&lĐạo Tặc'
+  #   hide-flags: true
+  #   lore:
+  #     - '{lore}'
+  #     - ''
+  #     - '{attribute-lore}'
+  #   icon: 'iron_sword'

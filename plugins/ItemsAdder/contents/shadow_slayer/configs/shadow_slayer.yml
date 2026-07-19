@@ -1,0 +1,207 @@
+info:
+  namespace: shadow_slayer
+items:
+  shadow_slayer_axe:
+    display_name: Shadow_slayer Axe
+    permission: pack.shadow_slayer
+    resource:
+      material: DIAMOND_AXE
+      generate: false
+      model_path: axe
+  shadow_slayer_bow:
+    display_name: Shadow_slayer Bow
+    permission: pack.shadow_slayer
+    resource:
+      material: BOW
+      generate: false
+      model_path: bow
+  shadow_slayer_chest:
+    display_name: Shadow_slayer Chest
+    permission: pack.shadow_slayer
+    resource:
+      material: DIAMOND_SWORD
+      generate: false
+      model_path: chest
+    behaviours:
+      furniture:
+        fixed_rotation: true
+        hitbox:
+          height: 1
+          height_offset: 0
+          length: 1
+          length_offset: 0
+          width: 1
+          width_offset: 0
+        placeable_on:
+          ceiling: false
+          floor: true
+          walls: false
+        solid: true
+  shadow_slayer_crossbow:
+    display_name: Shadow_slayer Crossbow
+    permission: pack.shadow_slayer
+    resource:
+      material: CROSSBOW
+      generate: false
+      model_path: crossbow
+  shadow_slayer_dagger:
+    display_name: Shadow_slayer Dagger
+    permission: pack.shadow_slayer
+    resource:
+      material: DIAMOND_SWORD
+      generate: false
+      model_path: dagger
+  shadow_slayer_fishing_rod:
+    display_name: Shadow_slayer Fishing_rod
+    permission: pack.shadow_slayer
+    resource:
+      material: FISHING_ROD
+      generate: false
+      model_path: fishing_rod
+  shadow_slayer_hammer:
+    display_name: Shadow_slayer Hammer
+    permission: pack.shadow_slayer
+    resource:
+      material: DIAMOND_SWORD
+      generate: false
+      model_path: hammer
+  shadow_slayer_hat:
+    display_name: Shadow_slayer Hat
+    permission: pack.shadow_slayer
+    resource:
+      material: DIAMOND_SWORD
+      generate: false
+      model_path: hat
+  shadow_slayer_hoe:
+    display_name: Shadow_slayer Hoe
+    permission: pack.shadow_slayer
+    resource:
+      material: DIAMOND_HOE
+      generate: false
+      model_path: hoe
+  shadow_slayer_key:
+    display_name: Shadow_slayer Key
+    permission: pack.shadow_slayer
+    resource:
+      material: DIAMOND_SWORD
+      generate: false
+      model_path: key
+  shadow_slayer_pickaxe:
+    display_name: Shadow_slayer Pickaxe
+    permission: pack.shadow_slayer
+    resource:
+      material: DIAMOND_PICKAXE
+      generate: false
+      model_path: pickaxe
+  shadow_slayer_rapier_sword:
+    display_name: Shadow_slayer Rapier_sword
+    permission: pack.shadow_slayer
+    resource:
+      material: DIAMOND_SWORD
+      generate: false
+      model_path: rapier_sword
+  shadow_slayer_scythe:
+    display_name: Shadow_slayer Scythe
+    permission: pack.shadow_slayer
+    resource:
+      material: DIAMOND_SWORD
+      generate: false
+      model_path: scythe
+  shadow_slayer_shield:
+    display_name: Shadow_slayer Shield
+    permission: pack.shadow_slayer
+    resource:
+      material: SHIELD
+      generate: false
+      model_path: shield
+  shadow_slayer_shovel:
+    display_name: Shadow_slayer Shovel
+    permission: pack.shadow_slayer
+    resource:
+      material: DIAMOND_SHOVEL
+      generate: false
+      model_path: shovel
+  shadow_slayer_spear:
+    display_name: Shadow_slayer Spear
+    permission: pack.shadow_slayer
+    resource:
+      material: DIAMOND_SWORD
+      generate: false
+      model_path: spear
+  shadow_slayer_staff:
+    display_name: Shadow_slayer Staff
+    permission: pack.shadow_slayer
+    resource:
+      material: DIAMOND_SWORD
+      generate: false
+      model_path: staff
+  shadow_slayer_sword:
+    display_name: Shadow_slayer Sword
+    permission: pack.shadow_slayer
+    resource:
+      material: DIAMOND_SWORD
+      generate: false
+      model_path: sword
+  shadow_slayer_trident:
+    display_name: Shadow_slayer Trident
+    permission: pack.shadow_slayer
+    resource:
+      material: DIAMOND_SWORD
+      generate: false
+      model_path: trident
+  shadow_slayer_wing:
+    display_name: Shadow_slayer Wing
+    permission: pack.shadow_slayer
+    resource:
+      material: PAPER
+      generate: false
+      model_path: wing
+  shadow_slayer_wing_self:
+    display_name: Shadow_slayer Wing_self
+    permission: pack.shadow_slayer
+    resource:
+      material: DIAMOND_SWORD
+      generate: false
+      model_path: wing_self
+  shadow_slayer_wing_self2:
+    display_name: Shadow_slayer Wing_self2
+    permission: pack.shadow_slayer
+    resource:
+      material: DIAMOND_SWORD
+      generate: false
+      model_path: wing_self2
+categories:
+  shadow_slayer:
+    enabled: true
+    skip_if_already: false
+    icon: shadow_slayer:shadow_slayer_chest
+    name: shadow_slayer set
+    permission: ia.menu
+    items:
+    - shadow_slayer:shadow_slayer_axe
+    - shadow_slayer:shadow_slayer_bow
+    - shadow_slayer:shadow_slayer_chest
+    - shadow_slayer:shadow_slayer_crossbow
+    - shadow_slayer:shadow_slayer_dagger
+    - shadow_slayer:shadow_slayer_fishing_rod
+    - shadow_slayer:shadow_slayer_hammer
+    - shadow_slayer:shadow_slayer_hat
+    - shadow_slayer:shadow_slayer_hoe
+    - shadow_slayer:shadow_slayer_key
+    - shadow_slayer:shadow_slayer_pickaxe
+    - shadow_slayer:shadow_slayer_rapier_sword
+    - shadow_slayer:shadow_slayer_scythe
+    - shadow_slayer:shadow_slayer_shield
+    - shadow_slayer:shadow_slayer_shovel
+    - shadow_slayer:shadow_slayer_spear
+    - shadow_slayer:shadow_slayer_staff
+    - shadow_slayer:shadow_slayer_sword
+    - shadow_slayer:shadow_slayer_trident
+    - shadow_slayer:shadow_slayer_wing
+    - shadow_slayer:shadow_slayerboots
+    - shadow_slayer:shadow_slayerchestplate
+    - shadow_slayer:shadow_slayerleggings
+    - shadow_slayer:shadow_slayerhelmet
+
+#73b0cd70c274c7779817272e30fcb5c3
+#8kUz0kdO1mbI5keHJETI9WSJV1VxcGRORTQ610dnRlTwc2RNx2RD5GUql0YllGeXxURqdVO

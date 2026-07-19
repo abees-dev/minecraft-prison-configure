@@ -1,0 +1,45 @@
+info:
+  namespace: firework_set
+items:
+  firework_cosmetics_helmet:
+    display_name: Firework Helmet Cosmetics
+    permission: firework_set.firework_cosmetics_helmet
+    resource:
+      generate: false
+      model_path: helmet
+      material: POTION
+      model_id: 9924554
+  firework_cosmetics_wings:
+    display_name: Firework Wings Cosmetics
+    permission: firework_set.firework_cosmetics_wings
+    resource:
+      generate: false
+      model_path: wings_cosmetic
+      material: POTION
+      model_id: 9924555
+  firework_cosmetics_wings_self:
+    display_name: Firework Wings Cosmetics Self
+    permission: firework_set.firework_cosmetics_wings_self
+    resource:
+      generate: false
+      model_path: wings_cosmetic_self
+      material: POTION
+      model_id: 9924556
+  firework_cosmetics_wings_self_2:
+    display_name: Firework Wings Cosmetics Self 2
+    permission: firework_set.firework_cosmetics_wings_self_2
+    resource:
+      generate: false
+      model_path: wings_cosmetic_self_2
+      material: POTION
+      model_id: 9924557
+  firework_cosmetics_wings_normal_2:
+    display_name: Firework Wings Cosmetics Normal 2
+    permission: firework_set.firework_cosmetics_wings_normal_2
+    resource:
+      generate: false
+      model_path: wings_cosmetic_normal_2
+      material: POTION
+      model_id: 9924558
+
+#QEOMJGRRx2TnlVVuF2bzgHSwsmTxcGRORTQ610dnRlTwMmbZt0QShjNl9WQ5NDaHR1SspXO

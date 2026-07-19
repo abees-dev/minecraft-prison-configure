@@ -1,0 +1,23 @@
+cast-mode:
+  cast: Thi triển
+  shoot-bow: Bắn Cung
+  shoot-trident: Bắn Đinh Ba
+  sneak: Lén Lút
+  shift-left-click: Shift Chuột Trái
+  arrow-tick: Tick Mũi Tên
+  timer: Hẹn Giờ
+  death: Tử Vong
+  trident-land: Đinh Ba Rơi
+  arrow-land: Mũi Tên Rơi
+  trident-tick: Tick Đinh Ba
+  kill-entity: Giết Thực Thể
+  right-click: Chuột Phải
+  attack: Tấn Công
+  arrow-hit: Mũi Tên Trúng
+  login: Đăng Nhập
+  api: Api
+  damaged: Bị Sát Thương
+  left-click: Chuột Trái
+  trident-hit: Đinh Ba Trúng
+  damaged-by-entity: Bị Sát Thương Bởi Thực Thể
+  shift-right-click: Shift Chuột Phải

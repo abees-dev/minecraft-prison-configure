@@ -1,0 +1,67 @@
+# Các cấp độ người chơi phải đạt được
+# để mở khóa nhiệm vụ này.
+level-req:
+  main: 10
+  mining: 5
+
+# Tên nhiệm vụ hiển thị trong menu nhiệm vụ.
+name: 'Một Thế Giới Hoàn Toàn Mới'
+
+# Mô tả nhiệm vụ hiển thị trong menu nhiệm vụ.
+lore:
+  - 'Đây là nhiệm vụ hướng dẫn.'
+  - 'Ví dụ về mô tả...'
+  - ''
+  - '&ePhần thưởng:'
+  - '&7► Dụng cụ gỗ'
+  - '&7► Áo giáp da'
+  - '&7► 100 EXP'
+
+# Nhiệm vụ người chơi phải hoàn thành
+# để mở khóa nhiệm vụ này.
+parent: []
+
+# Thời gian chờ (giờ). Không đặt gì
+# để làm nhiệm vụ một lần. Đặt 0 để làm lại ngay lập tức.
+delay: 12
+
+# Các mục tiêu người chơi cần
+# hoàn thành. Khi hoàn thành tất cả,
+# nhiệm vụ sẽ kết thúc.
+objectives:
+  1:
+    type: 'goto{world="world";x=56;y=68;z=115;range=5}'
+    lore: 'Đi đến trại.'
+    triggers:
+      - 'message{format="&aThợ Rèn> &fXin chào, %player%! Tôi đang cần một số trợ giúp."}'
+      - 'message{format="&aThợ Rèn> &fBạn có thể lấy cho tôi 3 khúc gỗ sồi không?"}'
+      - 'sound{sound=ENTITY_EXPERIENCE_ORB_PICKUP}'
+  2:
+    type: 'mineblock{type="OAK_LOG";amount=3}'
+    lore: 'Lấy ba khúc gỗ sồi!'
+    triggers:
+      - 'message{format="&aThợ Rèn> &fTốt lắm, bây giờ mang những khúc gỗ này về cho tôi!"}'
+      - 'sound{sound="ENTITY_EXPERIENCE_ORB_PICKUP"}'
+  3:
+    type: 'getitem{type="OAK_LOG";amount=3;npc=0}'
+    lore: 'Đưa những khúc gỗ sồi này cho thợ rèn.'
+    triggers:
+      - 'message{format="&aThợ Rèn> &fTốt lắm, bây giờ nói chuyện với thợ rèn để nhận vũ khí của bạn!"}'
+      - 'sound{sound=ENTITY_EXPERIENCE_ORB_PICKUP}'
+  4:
+    type: 'talkto{npc=0}'
+    lore: 'Nhận vũ khí từ thợ rèn!'
+    triggers:
+      - 'item{type=WOODEN_SWORD}'
+      - 'item{type=WOODEN_AXE}'
+      - 'item{type=BOW}'
+      - 'message{format="&aThợ Rèn> &fBây giờ hãy đi giết 5 hiệp sĩ xương để hoàn thành hướng dẫn!"}'
+      - 'sound{sound=ENTITY_PLAYER_LEVELUP}'
+  5:
+    type: 'killmythicmob{name="SkeletalKnight";amount=5}'
+    lore: 'Giết 5 hiệp sĩ xương!'
+    triggers:
+      - 'message{format="&aBạn đã hoàn thành hướng dẫn thành công!"}'
+      - 'sound{sound="ENTITY_PLAYER_LEVELUP"}'
+      - 'mmoitem{type=SWORD;id=CUTLASS}'
+      - 'experience{amount=100}'

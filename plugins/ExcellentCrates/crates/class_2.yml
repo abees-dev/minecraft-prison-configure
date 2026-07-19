@@ -1,0 +1,54 @@
+Name: upgrade class
+Preview_Config: default
+Permission_Required: false
+Opening:
+  Cooldown: 0
+Key:
+  # Sets whether or not keys are required to open this crate.
+  Required: false
+  Ids: []
+Block:
+  Positions: []
+  Pushback:
+    Enabled: true
+  Hologram:
+    Enabled: true
+    Template: default
+    Y_Offset: 0.0
+  Effect:
+    Model: HELIX
+    Particle:
+      Name: CLOUD
+Milestones:
+  Repeatable: false
+Rewards:
+  List:
+    class:
+      Name: Class
+      Weight: 25.0
+      Rarity: common
+      Broadcast: false
+      Placeholder_Apply: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Preview: k00010004qb400amqqbeclhn4ob6egt70r31f5in4nr8clgm82g00dq62poa00556qrldhm4utreclp0g0049pgmqp8020p3ec1lcpi3id3161hj8cph74p0m00295i000000jg94c8fm313itlln5ol1gq3eb30k00aa1p6us35e9q6ipbj1400gt35f1q7asj5ec500000044001amc5m7ap80mhiniihgb9c6gc34b156oorp94r6auaaah9j0r2f95l70dq9dpb7ioi394r4irb861i4gg9m9hsjic2qb1k30p2o99m66u9lehgledbcb4pkkq2qdp8naojdaoo4ocqidhikgkhhcdmlatidd9hnejinb9lkul2id16kej9g9lt4adadd9i6qmbaa9m4sqid6lcmkgjdb4p5kqae8hlj6jakchm4sh25f56mkpphb5a42uapd98nkjqnalrkql25f5d4ehbp9lmkiuaqah56ombp98smcm1g7k0000000400agrfeln78080
+      Commands:
+      - '[CONSOLE] upgradeclass %player_name% MAGE'
+      Items: []
+      Ignored_For_Permissions: []
+Item:
+  Material: PAPER
+  Enchants:
+    loyalty: 1
+  Item_Flags:
+  - HIDE_ENCHANTS
+  - HIDE_ATTRIBUTES

@@ -1,0 +1,21 @@
+info:
+  namespace: octopus_set
+categories: 
+  octopus_set:
+    enabled: true
+    skip_if_already: false
+    icon: "octopus_set:octopus_crate"
+    name: Octopus Set
+    permission: ia.menu
+    items:
+      - "octopus_set:octopus_helmet"
+      - "octopus_set:octopus_chestplate"
+      - "octopus_set:octopus_leggings"
+      - "octopus_set:octopus_boots"
+      - "octopus_set:octopus_sword"
+      - "octopus_set:octopus_pickaxe"
+      - "octopus_set:octopus_hoe"
+      - "octopus_set:octopus_shovel"
+      - "octopus_set:octopus_axe"
+      - "octopus_set:octopus_bow"
+      - "octopus_set:octopus_crate"

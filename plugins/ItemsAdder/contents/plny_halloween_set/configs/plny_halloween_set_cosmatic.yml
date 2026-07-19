@@ -1,0 +1,45 @@
+info:
+  namespace: plny_halloween_set
+items:
+  plny_halloween_cosmetics_helmet:
+    display_name: §fHalloween Helmet Cosmetics
+    permission: plny_halloween_set.plny_halloween_cosmetics_helmet
+    resource:
+      generate: false
+      model_path: helmet
+      material: POTION
+      model_id: 9923190
+  plny_halloween_cosmetics_wings:
+    display_name: §fHalloween Wings Cosmetics
+    permission: plny_halloween_set.plny_halloween_cosmetics_wings
+    resource:
+      generate: false
+      model_path: wings_cosmetic
+      material: POTION
+      model_id: 9923191
+  plny_halloween_cosmetics_wings_self:
+    display_name: §fHalloween Wings Cosmetics Self
+    permission: plny_halloween_set.plny_halloween_cosmetics_wings_self
+    resource:
+      generate: false
+      model_path: wings_cosmetic_self
+      material: POTION
+      model_id: 9923192
+  plny_halloween_cosmetics_wings_self_2:
+    display_name: §fHalloween Wings Cosmetics Self 2
+    permission: plny_halloween_set.plny_halloween_cosmetics_wings_self_2
+    resource:
+      generate: false
+      model_path: wings_cosmetic_self_2
+      material: POTION
+      model_id: 9923193
+  plny_halloween_cosmetics_wings_normal_2:
+    display_name: §fHalloween Wings Cosmetics Normal 2
+    permission: plny_halloween_set.plny_halloween_cosmetics_wings_normal_2
+    resource:
+      generate: false
+      model_path: wings_cosmetic_normal_2
+      material: POTION
+      model_id: 9923194
+
+#gTVQtEbhR0RrFVMu1GWhZ0ZztWV3tGVPRTTU5keVRUT6RTVZl0NIVzcnlWSrBlQoZ3UMVmN

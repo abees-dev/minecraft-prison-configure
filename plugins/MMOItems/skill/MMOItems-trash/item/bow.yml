@@ -1,0 +1,92 @@
+MARKING_BOW:
+  base:
+    material: BOW
+    enchants:
+      unbreaking: 3
+    name: '&8Marking Bow'
+    attack-damage: 7.0
+    arrow-particles:
+      particle: SMOKE_NORMAL
+      amount: 3
+      speed: 0.05
+    ability:
+      ability1:
+        type: WEAKEN_TARGET
+        mode: ATTACK
+        extra-damage: 60.0
+    dodge-rating: 10.0
+    damage-reduction: -5.0
+    required-level: 10.0
+    lore:
+    - '&7Shoot an entity to &cmark &7it. The'
+    - '&7next attack against this entity'
+    - '&7will deal &c60%&7 extra damage.'
+NETHERITE_BOW:
+  base:
+    material: BOW
+    max-durability: 8500.0
+    name: §c§lDark Netherite Bow
+    lore:
+    - §6§o"Bows made of metal can't work."
+    - §8§oBut it's a video game!
+    attack-damage: 25.0
+    arrow-velocity: 1.5
+    pvp-damage:
+      base: 25.0
+      scale: 0.1
+      spread: 0.2
+    projectile-damage:
+      base: 10.0
+      scale: 0.08
+      spread: 0.14
+    tier: RARE
+    ability:
+      ability1:
+        type: WITHER
+        mode: ATTACK
+        duration: 6.0
+        cooldown: 5.0
+        amplifier: 1.0
+    element:
+      darkness:
+        damage:
+          base: 60.0
+          scale: 0.2
+          spread: 0.35
+          max-spread: 0.0
+      fire:
+        damage:
+          base: 20.0
+          scale: 0.05
+          spread: 0.1
+          max-spread: 0.0
+    gem-sockets:
+    - Nether
+    - Nether
+    crafting:
+      smithing:
+        '1':
+          input: v bow - 1.0..|m material dark_netherite 1.0..
+    required-level: 14.0
+CUNG_HONMANG:
+  base:
+    material: BOW
+    disable-crafting: true
+    enchants:
+      punch: 1.0
+    name: Cung Khởi Phát
+    disable-droping: true
+    required-level: 3.0
+    attack-damage: 10.0
+    critical-strike-chance: 3.0
+    critical-strike-power: 3.0
+    unbreakable: true
+    tier: COMMON
+    gem-sockets:
+    - '1'
+    lore:
+    - Cung Khởi Phát là vũ khí lý tưởng cho các tân thủ
+    - Dù không sở hữu nhiều tính năng phức tạp
+    - nó mang đến sự ổn định và chính xác
+    - Đây là công cụ tuyệt vời để bước vào thế giới chiến đấu
+    - '§eCách §eNhận: tại /warp trade'

@@ -1,0 +1,39 @@
+name: Dấu Ấn Sức Mạnh
+lore:
+  - Tấn công kẻ địch sẽ áp dụng một dấu ấn ma thuật chết người
+  - lan rộng trên mặt đất. Dấu ấn này tích lũy &6{ratio}%
+  - sát thương gây ra cho mục tiêu ban đầu
+  - trong &6{duration} &7giây.
+  - ''
+  - Sau khoảng thời gian này, dấu ấn phát nổ, gây
+  - sát thương tích lũy cho kẻ địch gần đó và
+  - làm choáng chúng trong &6{stun} &7giây.
+  - ''
+  - Càng nhiều sát thương, thời gian choáng càng lâu.
+  - ''
+  - '&e{cooldown} giây hồi chiêu'
+material: WITHER_SKELETON_SKULL
+duration:
+  base: 10.0
+  per-level: 1.1
+  #Optional: The decimal format used for this skill parameter.
+  decimal-format: '0.#'
+mana:
+  base: 2.0
+  per-level: 1.0
+  max: 0.0
+  min: 0.0
+stamina:
+  base: 2.0
+  per-level: 1.0
+  max: 0.0
+  min: 0.0
+cooldown:
+  base: 30.0
+  per-level: 1.0
+stun:
+  base: 2.4
+  per-level: 1.03
+ratio:
+  base: 10.0
+  per-level: 5.0

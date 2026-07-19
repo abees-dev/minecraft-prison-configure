@@ -1,0 +1,55 @@
+armors_rendering:
+  protocalarmor:
+    color: '#a11106'
+    layer_1: armor/protocal_armor_layer_1
+    layer_2: armor/protocal_armor_layer_2
+    use_color: false
+info:
+  namespace: protocalset
+items:
+  protocalhat:
+    display_name: Protocal Helmet
+    permission: protocalset.helmet
+    resource:
+      generate: true
+      textures:
+      - armor/protocal_helmet_icon.png
+    specific_properties:
+      armor:
+        custom_armor: protocalarmor
+        slot: head
+  protocalboots:
+    display_name: Protocal Boots
+    permission: protocalset.boots
+    resource:
+      generate: true
+      textures:
+      - armor/protocal_boots_icon.png
+    specific_properties:
+      armor:
+        custom_armor: protocalarmor
+        slot: feet
+  protocalchestplate:
+    display_name: Protocal Chestplate
+    permission: protocalset.chestplate
+    resource:
+      generate: true
+      textures:
+      - armor/protocal_chestplate_icon.png
+    specific_properties:
+      armor:
+        custom_armor: protocalarmor
+        slot: chest
+  protocalleggings:
+    display_name: Protocal Leggings
+    permission: protocalset.leggings
+    resource:
+      generate: true
+      textures:
+      - armor/protocal_leggings_icon.png
+    specific_properties:
+      armor:
+        custom_armor: protocalarmor
+        slot: legs
+
+#o0aCl2QlZ0d3BVYhxEdahlU4ckV3lkeNFzZ61EejRUTwUUMVplR5dEcspkRqVWS1gnM0RHO

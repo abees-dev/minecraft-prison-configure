@@ -1,0 +1,161 @@
+info:
+  namespace: mysticcyanset
+items:
+  mysticcyan_axe:
+    display_name: Mystic Cyan Axe
+    permission: mysticcyan.axe
+    resource:
+      generate: false
+      material: IRON_AXE
+      model_path: axe
+  mysticcyan_bow:
+    display_name: Mystic Cyan Bow
+    permission: mysticcyan.bow
+    resource:
+      generate: false
+      material: BOW
+      model_path: bow
+  mysticcyan_chest:
+    behaviours:
+      furniture:
+        fixed_rotation: true
+        hitbox:
+          height: 1
+          height_offset: 0
+          length: 1
+          length_offset: 0
+          width: 1
+          width_offset: 0
+        placeable_on:
+          ceiling: false
+          floor: true
+          walls: false
+        solid: true
+    display_name: Mystic Cyan Chest
+    permission: mysticcyan.chest
+    resource:
+      generate: false
+      material: SEA_LANTERN
+      model_path: chest
+
+  mysticcyan_crossbow:
+    display_name: Mystic Cyan Crossbow
+    permission: mysticcyan.crossbow
+    resource:
+      generate: false
+      material: CROSSBOW
+      model_path: crossbow
+  mysticcyan_fishing_rod:
+    display_name: Mystic Cyan Fishing Rod
+    permission: mysticcyan.fishing_rod
+    resource:
+      generate: false
+      material: FISHING_ROD
+      model_path: fishing_rod
+  mysticcyan_greatsword:
+    display_name: Mystic Cyan Greatsword
+    permission: mysticcyan.greatsword
+    resource:
+      generate: false
+      material: IRON_SWORD
+      model_path: greatsword
+  mysticcyan_hammer:
+    display_name: Mystic Cyan Hammer
+    permission: mysticcyan.hammer
+    resource:
+      generate: false
+      material: IRON_SWORD
+      model_path: hammer
+  mysticcyan_hoe:
+    display_name: Mystic Cyan Hoe
+    permission: mysticcyan.hoe
+    resource:
+      generate: false
+      material: IRON_HOE
+      model_path: hoe
+  mysticcyan_key:
+    display_name: Mystic Cyan Key
+    permission: mysticcyan.key
+    resource:
+      generate: false
+      material: PAPER
+      model_path: key
+  mysticcyan_pickaxe:
+    display_name: Mystic Cyan Pickaxe
+    permission: mysticcyan.pickaxe
+    resource:
+      generate: false
+      material: IRON_PICKAXE
+      model_path: pickaxe
+  mysticcyan_scythe:
+    display_name: Mystic Cyan Scythe
+    permission: mysticcyan.scythe
+    resource:
+      generate: false
+      material: IRON_SWORD
+      model_path: scythe
+  mysticcyan_shield:
+    display_name: Mystic Cyan Shield
+    permission: mysticcyan.shield
+    resource:
+      generate: false
+      material: SHIELD
+      model_path: shield
+  mysticcyan_shovel:
+    display_name: Mystic Cyan Shovel
+    permission: mysticcyan.shovel
+    resource:
+      generate: false
+      material: IRON_SHOVEL
+      model_path: shovel
+  mysticcyan_spear:
+    display_name: Mystic Cyan Spear
+    permission: mysticcyan.spear
+    resource:
+      generate: false
+      material: IRON_SWORD
+      model_path: spear
+  mysticcyan_staff:
+    display_name: Mystic Cyan Staff
+    permission: mysticcyan.staff
+    resource:
+      generate: false
+      material: IRON_SWORD
+      model_path: staff
+  mysticcyan_sword:
+    display_name: Mystic Cyan Sword
+    permission: mysticcyan.sword
+    resource:
+      generate: false
+      material: IRON_SWORD
+      model_path: sword
+  mysticcyan_trident:
+    display_name: Mystic Cyan Trident
+    permission: mysticcyan.trident
+    resource:
+      generate: false
+      material: IRON_SWORD
+      model_path: trident
+  mysticcyan_backpack:
+    display_name: Mystic Cyan Backpack
+    permission: mysticcyan.backpack
+    resource:
+      generate: false
+      material: PAPER
+      model_path: backpack
+  mysticcyan_wings:
+    display_name: Mystic Cyan Wing
+    permission: mysticcyan.wings
+    resource:
+      generate: false
+      material: PAPER
+      model_path: wings
+  mysticcyan_helmet:
+    behaviours:
+      hat: true
+    display_name: Mystic Cyan Helmet
+    permission: mysticcyan.helmet
+    resource:
+      generate: false
+      material: PAPER
+      model_path: helmet

@@ -1,0 +1,6 @@
+{
+    "parent": "wyrmsteel_set:wyrmsteel_set/wyrmsteel_fishing_rod",
+    "textures": {
+        "layer0": "wyrmsteel_set:wyrmsteel_set/wyrmsteel_fishing_rod_cast"
+    }
+}

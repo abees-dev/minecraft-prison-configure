@@ -1,0 +1,42 @@
+armors_rendering:
+  christmasarmor:
+    color: '#9c3620'
+    layer_1: armor/armor_main
+    layer_2: armor/armor_leggings
+    use_color: false
+info:
+  namespace: christmas
+items:
+  christmasboots:
+    display_name: Christmas Boots
+    permission: christmas.boots
+    resource:
+      generate: true
+      textures:
+      - armor/boots.png
+    specific_properties:
+      armor:
+        custom_armor: christmasarmor
+        slot: feet
+  christmaschestplate:
+    display_name: Christmas Chestplate
+    permission: christmas.chestplate
+    resource:
+      generate: true
+      textures:
+      - armor/chestplate.png
+    specific_properties:
+      armor:
+        custom_armor: christmasarmor
+        slot: chest
+  christmasleggings:
+    display_name: Christmas Leggings
+    permission: christmas.leggings
+    resource:
+      generate: true
+      textures:
+      - armor/leggings.png
+    specific_properties:
+      armor:
+        custom_armor: christmasarmor
+        slot: legs

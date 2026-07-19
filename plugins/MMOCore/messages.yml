@@ -1,0 +1,223 @@
+# Level & Experience
+level-up:
+  - ''
+  - '&eChúc mừng, bạn đã đạt cấp &6{level}&e!'
+  - '&eSử dụng &6/p &eđể xem thống kê mới của bạn!'
+  - ''
+profession-level-up:
+  - '&eBạn đã đạt cấp &6{level}&e trong &6{profession}&e!'
+exp-notification: '%&f{profession} &e{progress} &e{ratio}%'
+exp-hologram: '&e+{exp} EXP!'
+class-select: '&eBạn đã trở thành &6{class}&e!'
+already-on-class: '&cBạn đã là {class}.'
+death-exp-loss:
+  - ''
+  - '&4Bạn đã chết và mất {loss} kinh nghiệm.'
+  - ''
+
+# General
+not-enough-perms: '&cBạn không có đủ quyền.'
+
+# Experience boosters
+booster-main:
+  - '&e'
+  - '&eMột bộ nhân EXP &6{multiplier}x&e đang hoạt động!'
+  - '&e'
+booster-skill:
+  - '&e'
+  - '&eMột bộ nhân EXP &6{multiplier}x&e cho &6{profession} &eđang hoạt động!'
+  - '&e'
+booster-expired: '&cĐã hết hạn!'
+
+# PvP Mode
+pvp-mode:
+  cooldown: '&cVui lòng chờ {remaining} giây để sử dụng lệnh này lần nữa.'
+
+  # When you cannot hit another player
+  cannot-hit:
+    high-level-difference: '&cChênh lệch cấp độ quá cao để đánh người chơi này.'
+    low-level-target: '&cBạn không thể đánh người chơi này vì cấp độ của họ quá thấp.'
+    low-level-self: '&cCấp độ của bạn quá thấp để đánh người chơi khác.'
+    pvp-mode-disabled-target: '&cNgười chơi này chưa bật chế độ PvP.'
+    pvp-mode-disabled-self: '&cBạn chưa bật chế độ PvP.'
+    invulnerable-self: '&cBạn vẫn còn miễn nhiễm trong {left} giây.'
+    invulnerable-target: '&cNgười chơi này còn miễn nhiễm trong {left} giây.'
+
+  # When using /pvpmode
+  toggle:
+    on-safe: '&aBạn sẽ có thể đánh người chơi khác trong khu vực dành riêng.'
+    on-invulnerable: '&aBạn sẽ có thể đánh người chơi khác sau {time} giây.'
+    off-safe: '&cBạn không thể đánh người chơi khác nữa.'
+
+  # Entering/leaving regions
+  leave:
+    pvp-allowed: '&cBạn đã rời khỏi khu vực PVP nhưng vẫn dễ bị tấn công trong {remaining} giây!'
+    pvp-denied: '&cBạn đã rời khỏi khu vực PVP.'
+  enter:
+    pvp-mode-on: '&aBạn đã vào khu vực PVP và được miễn nhiễm trong {time} giây!'
+    pvp-mode-off: '&aBạn đã vào khu vực PVP. Bạn có thể sử dụng /pvpmode để đánh người chơi khác.'
+
+# Fishing Profession
+caught-fish: '&cBạn đã bắt được cá!'
+fish-out-water: '&aLàm tốt lắm!'
+fish-out-water-crit: '&aCá Chí Mạng!'
+
+# Player Input
+player-input:
+  anvil:
+    friend-request: 'Tên bạn bè..'
+    party-invite: 'Tên người chơi..'
+    guild-invite: 'Tên người chơi..'
+    guild-creation-tag: 'Tag bang hội..'
+    guild-creation-name: 'Tên bang hội..'
+  chat:
+    friend-request: '&eViết tên người chơi trong chat.'
+    party-invite: '&eViết tên người chơi bạn muốn mời trong chat.'
+    guild-invite: '&eViết tên người chơi bạn muốn mời trong chat.'
+    guild-creation-tag: '&eViết TAG của bang hội bạn muốn tạo trong chat.'
+    guild-creation-name: '&eViết tên của bang hội bạn muốn tạo trong chat.'
+    cancel: "&eViết &c'cancel' &eđể hủy."
+
+# Spell Casting
+casting:
+  action-bar:
+    ready: '&6[{index}] &a&l{skill}'
+    on-cooldown: '&6[{index}] &c&l{skill} &6(&c{cooldown}&6)'
+    no-mana: '&6[{index}] &9&l{skill}'
+    no-stamina: '&6[{index}] &9&l{skill}'
+  split: '&7 &7 - &7 '
+  no-longer: '%&cBạn đã hủy bỏ việc sử dụng kỹ năng.'
+  no-mana: '&cBạn không có đủ {mana}, cần thêm {mana-required}!'
+  no-stamina: '&cBạn không có đủ thể lực!'
+  on-cooldown: '&cKỹ năng này đang trong thời gian hồi {cooldown}s.'
+
+# Combat Log
+now-in-combat: '%&cBạn đang trong trận chiến!'
+leave-combat: '%&aBạn đã rời khỏi trận chiến.'
+
+# Waypoints
+new-waypoint: '%&eBạn đã mở khóa điểm đến &6{waypoint}&e!'
+new-waypoint-book: '%&eBạn đã mở khóa điểm đến &6{waypoint}&e!'
+not-enough-stellium: '&cBạn không có đủ stellium: cần thêm {more}.'
+waypoint-cooldown: '&cVui lòng chờ {cooldown} trước khi sử dụng điểm đến lần nữa.'
+not-unlocked-waypoint: '&cBạn chưa mở khóa điểm đến đó.'
+not-dynamic-waypoint: '&cBạn chỉ có thể dịch chuyển đến điểm đến không động khi đứng trên một điểm đến khác.'
+standing-on-waypoint: '&cBạn đang đứng trên điểm đến này.'
+warping-canceled: '%&cDịch chuyển điểm đến đã bị hủy.'
+warping-comencing: '%&cKHÔNG DI CHUYỂN!&e Bạn sẽ được dịch chuyển trong {left} giây.'
+cannot-teleport-to: '&cHai điểm đến không được liên kết.'
+
+# Cash
+deposit: '&eBạn đã gửi thành công &6{worth}g&e.'
+withdrawing: '&eGõ số lượng &6vàng&e bạn muốn &6rút&e trong chat.'
+withdraw-cancel: '&eRút tiền đã bị hủy.'
+withdrew: '&eBạn đã rút thành công &6{worth}g&e.'
+wrong-number: '&c{arg} không phải là số hợp lệ.'
+not-enough-money: '&cBạn không có đủ tiền, cần thêm {left} vàng.'
+stand-near-enderchest: '&cBạn phải đứng gần ngân hàng để làm điều đó.'
+
+# Blocks
+cannot-break: '%&cBạn không có công cụ phù hợp để phá vỡ khối này.'
+
+# Friends
+no-longer-friends: '&cBạn và {unfriend} không còn là bạn bè.'
+not-online-player: '&c{player} không trực tuyến.'
+sent-friend-request: '&eBạn đã gửi yêu cầu kết bạn đến &6{player}&e.'
+now-friends: '&eBạn đã trở thành bạn bè với &6{player}&e.'
+friend-request-cooldown: '&cVui lòng chờ {cooldown}.'
+cant-request-to-yourself: '&cBạn không thể gửi yêu cầu cho chính mình.'
+already-friends: '&cBạn đã là bạn bè với {player}.'
+friend-request:
+  - '{"text":""}'
+  - '{"text":"&6{player} &evừa gửi cho bạn yêu cầu kết bạn!"}'
+  - '[{"text":"        ","hoverEvent":{}},{"text":"&8[&a&lCHẤP NHẬN&8]","clickEvent":{"action":"run_command","value":"/friends accept {uuid}"},"hoverEvent":{"action":"show_text","value":"&eNhấn để chấp nhận!"}},{"text":"&r             ","hoverEvent":{}},{"text":"&8[&c&lTỪ CHỐI&8]","clickEvent":{"action":"run_command","value":"/friends deny {uuid}"},"hoverEvent":{"action":"show_text","value":"&eNhấn để từ chối."}}]'
+  - '{"text":""}'
+
+# Parties
+party-chat: '&5[Nhóm] {player}: {message}'
+sent-party-invite: '&eBạn đã gửi lời mời nhóm đến &6{player}&e.'
+already-in-party: '&c{player} đã ở trong nhóm của bạn.'
+party-invite:
+  - '{"text":""}'
+  - '{"text":"&6{player} &eđã mời bạn vào nhóm của họ!"}'
+  - '[{"text":"        "},{"text":"&8[&a&lCHẤP NHẬN&8]","clickEvent":{"action":"run_command","value":"/party accept {uuid}"},"hoverEvent":{"action":"show_text","value":"&eNhấn để chấp nhận!"}},{"text":"&r             "},{"text":"&8[&c&lTỪ CHỐI&8]","clickEvent":{"action":"run_command","value":"/party deny {uuid}"},"hoverEvent":{"action":"show_text","value":"&eNhấn để từ chối."}}]'
+  - '{"text":""}'
+party-is-full: '&cXin lỗi, nhóm của bạn đã đầy.'
+party-joined: '&eBạn đã tham gia thành công nhóm của &6{owner}&e.'
+party-joined-other: '&6{player}&e đã tham gia nhóm của bạn!'
+transfer-party-ownership: '&eBạn đã được chuyển quyền sở hữu nhóm.'
+kick-from-party: '&eBạn đã đuổi thành công &6{player}&e khỏi nhóm.'
+party-invite-cooldown: '&cVui lòng chờ {cooldown} trước khi mời {player}.'
+high-level-difference: '&cBạn không thể mời {player} vì chênh lệch cấp độ quá cao ({diff}).'
+
+# Guilds
+guild-chat: '&a[{tag}] {player}: {message}'
+sent-guild-invite: '&eBạn đã gửi lời mời bang hội đến &6{player}&e.'
+already-in-guild: '&c{player} đã ở trong bang hội của bạn.'
+guild-invite:
+  - '{"text":""}'
+  - '{"text":"&6{player} &eđã mời bạn vào bang hội của họ!"}'
+  - '[{"text":"        "},{"text":"&8[&a&lCHẤP NHẬN&8]","clickEvent":{"action":"run_command","value":"/guild accept {uuid}"},"hoverEvent":{"action":"show_text","value":"&eNhấn để chấp nhận!"}},{"text":"&r             "},{"text":"&8[&c&lTỪ CHỐI&8]","clickEvent":{"action":"run_command","value":"/guild deny {uuid}"},"hoverEvent":{"action":"show_text","value":"&eNhấn để từ chối."}}]'
+  - '{"text":""}'
+#guild-is-full: '&cXin lỗi, bang hội của bạn đã đầy.' -Unused right now
+guild-joined: '&eBạn đã tham gia thành công bang hội của &6{owner}&e.'
+guild-joined-other: '&6{player}&e đã tham gia bang hội của bạn!'
+transfer-guild-ownership: '&eBạn đã được chuyển quyền sở hữu bang hội.'
+kick-from-guild: '&eBạn đã đuổi thành công &6{player}&e khỏi bang hội.'
+guild-invite-cooldown: '&cVui lòng chờ {cooldown} trước khi mời {player}.'
+guild-creation:
+  failed: '&cKhông thể tạo bang hội: {reason}'
+  reasons:
+    invalid-characters: '&eKý tự không hợp lệ!'
+    invalid-length: '&eĐộ dài phải từ {min} đến {max}!'
+    already-exists: '&eTag bang hội đó đã tồn tại!'
+
+# Quests
+already-on-quest: '&cBạn đã có nhiệm vụ.'
+cancel-quest: '&eBạn đã hủy nhiệm vụ thành công.'
+quest-level-restriction: '&cBạn cần đạt cấp {level} {count}.'
+cant-redo-quest: '&cBạn không thể bắt đầu nhiệm vụ này hai lần.'
+quest-cooldown: '&cBạn cần chờ {delay}.'
+start-quest: '&eBạn đã bắt đầu thành công &6{quest}&e.'
+
+# Attributes
+no-attribute-points-spent: '&cBạn chưa sử dụng điểm thuộc tính nào.'
+not-attribute-reallocation-point: '&cBạn không có điểm tái phân bổ thuộc tính.'
+not-attribute-point: '&cBạn không có điểm thuộc tính.'
+not-attribute-point-shift: '&cBạn phải có &4{shift_points} &cđiểm thuộc tính.'
+attribute-points-reallocated: '&eBạn đã đặt lại thuộc tính thành công. Bạn hiện có &6{points} &eđiểm thuộc tính.'
+attribute-max-points-hit: '&cBạn không thể nâng cấp thuộc tính này nữa.'
+attribute-level-up: '&eBạn đã nâng cấp thành công thuộc tính &6{attribute}&e!' # {level}
+
+# Class selection
+cant-choose-new-class:
+  - '&cBạn cần một điểm lớp để thực hiện hành động này.'
+no-permission-for-class:
+  - '&cBạn không có quyền chọn lớp này.'
+
+# Skills
+no-class-skill: '&cLớp của bạn không có kỹ năng.'
+not-enough-skill-points: '&cBạn cần một điểm kỹ năng.'
+not-enough-skill-points-shift: '&cBạn cần {shift_points} điểm kỹ năng.'
+upgrade-skill: '&eKỹ năng &6{skill} &ecủa bạn đã đạt cấp &6{level}&e!'
+skill-level-not-met: '&cBạn chưa thể sử dụng kỹ năng này.'
+no-skill-bound: '&cBạn không có kỹ năng nào được gán vào ô này.'
+not-compatible-skill: '&cKỹ năng được chọn không tương thích với ô này.'
+cant-manually-bind: '&cBạn không thể tự gán/bỏ gán kỹ năng vào ô này.'
+skill-max-level-hit: '&cBạn đã đạt cấp tối đa cho kỹ năng này.'
+no-skill-placeholder: 'Không có kỹ năng'
+not-skill-reallocation-point: '&cBạn không có điểm tái phân bổ kỹ năng.'
+no-skill-points-spent: '&cBạn chưa sử dụng điểm kỹ năng nào.'
+skill-points-reallocated: '&eBạn đã đặt lại điểm kỹ năng thành công. Bạn hiện có &6{points} &eđiểm kỹ năng.'
+max-points-reached: '&cBạn đã đạt số điểm tối đa có thể sử dụng. Bạn cần tái phân bổ điểm để quay lại.'
+
+# Skill Trees
+no-skill-tree-points-spent: '&cBạn chưa sử dụng điểm cây kỹ năng nào.'
+locked-node: '&cKỹ năng này bị khóa!'
+upgrade-skill-node: '&eNút kỹ năng &6{skill-node} &ecủa bạn đã đạt cấp &6{level}&e!'
+skill-node-max-level-hit: '&cBạn đã đạt cấp tối đa cho nút kỹ năng này.'
+missing-skill-node-permission: '&cBạn không có quyền mở khóa nút kỹ năng này.'
+not-enough-skill-tree-points: '&cBạn cần {point} điểm cây kỹ năng.'
+reallocated-points: '&eBạn đã đặt lại cây kỹ năng {skill-tree} thành công. Bạn hiện có &6{points} &eđiểm cây kỹ năng.'
+not-skill-tree-reallocation-point: '&cBạn không có điểm tái phân bổ cây kỹ năng.'
+no-skill-tree: '&cLớp của bạn không có cây kỹ năng.'

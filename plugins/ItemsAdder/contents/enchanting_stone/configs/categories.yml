@@ -1,0 +1,18 @@
+info:
+  namespace: enchanting_stone
+categories:
+  upgrades:
+    enabled: true
+    name: '&6 Đá Cường Hóa'
+    icon: enchanting_stone:enchanting_stone_6
+    items:
+      - enchanting_stone:enchanting_stone_1
+      - enchanting_stone:enchanting_stone_2
+      - enchanting_stone:enchanting_stone_3
+      - enchanting_stone:enchanting_stone_4
+      - enchanting_stone:enchanting_stone_5
+      - enchanting_stone:enchanting_stone_6
+      - enchanting_stone:enchanting_stone_7
+      - enchanting_stone:enchanting_stone_8
+      - enchanting_stone:enchanting_stone_9
+      - enchanting_stone:enchanting_stone_10

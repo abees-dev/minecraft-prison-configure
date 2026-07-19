@@ -1,0 +1,6 @@
+Name: Jewelry Key
+Virtual: true
+Item:
+  Material: PAPER
+  Name: '&fWind Key'
+  Custom_Model_Data: 10121
