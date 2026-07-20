@@ -1,0 +1,13 @@
+# Lore format riêng cho giáp Prison (lore-only, gọn gàng).
+# Gán vào item bằng: lore-format: armor-lore
+lore-format:
+  - '{bar}&8&m----------------------------'
+  - '&b&l◆ Chỉ Số'
+  - '#armor#'
+  - '#max-health#'
+  - '#armor-toughness#'
+  - '{bar}'
+  - '#lore#'
+  - '{bar}&8&m----------------------------'
+  - '#tier#'
+  - '#durability#'

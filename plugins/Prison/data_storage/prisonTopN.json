@@ -4,8 +4,8 @@
       "name": "ABeess",
       "uuid": "57481db9-38f7-3a96-b52d-ff0f7993c232",
       "playerState": "online",
-      "lastSeen": 1784572470288,
-      "lastSeenFormatted": "2026-07-21 01:34:30",
+      "lastSeen": 1784573370282,
+      "lastSeenFormatted": "2026-07-21 01:49:30",
       "balance": 0.0,
       "rankScore": 0.0,
       "rankScorePenalty": 0.0,
@@ -19,8 +19,8 @@
   ],
   "archivedList": [],
   "statsBuildDataNanoSec": 2055200,
-  "statsRefreshDataNanoSec": 201900,
-  "statsSaveDataNanoSec": 5101300,
+  "statsRefreshDataNanoSec": 181900,
+  "statsSaveDataNanoSec": 4559900,
   "statsLoadDataNanoSec": 0,
   "loading": true
 }

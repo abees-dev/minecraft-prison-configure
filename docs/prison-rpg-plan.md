@@ -91,23 +91,34 @@ Chuẩn bị world, region, permission track, và chốt kinh tế trước khi 
   | I | Vượt Ngục | Diamond 30% | Emerald 70% |
 
   Tỷ lệ ore rất cao (không có filler vô giá trị như stone) — **bắt buộc phải rà lại ở Phase 6 (cân bằng kinh tế)**, thu nhập/giờ sẽ cao hơn nhiều so với prison server thông thường (thường ore hiếm chỉ chiếm 5-20%, có filler chiếm phần lớn). Cần cân đối lại giá rank/sellwand hoặc giảm giá trị sellwand từng loại ore để tránh lạm phát kinh tế sớm. Cấu hình qua `/mines block add|remove|setChance <mine> <block> <percent>` (RCON dùng ổn định cho các lệnh này, không gặp bug như `/ranks delete`).
-- ✅ **Enchant cuốc — đổi hướng**: Prison KHÔNG có hệ token-enchant built-in (chỉ hỗ trợ enchant vanilla). Đã thử cài `PrisonEnchantsFree` (plugin riêng, free, có custom enchant + token/gems/shards) — load thành công, hook WorldGuard/PlaceholderAPI ổn — nhưng **sau đó quyết định KHÔNG dùng nữa** (rủi ro xung đột NBT/lore với MMOItems) và đã gỡ (`plugins/PrisonEnchantsFree*` — file jar còn sót lại chờ restart để xóa dứt điểm do bị khóa khi server đang chạy).
-- ✅ **Chuyển hướng: dùng MMOItems làm hệ thống cuốc chính** thay vì plugin enchant riêng:
-  - Đã xóa sạch toàn bộ item mẫu/demo trong `plugins/MMOItems/item/*.yml` (32 file, ~200 item mẫu — không phải nội dung tự tạo).
-  - Đã tạo 9 cuốc thật trong `plugins/MMOItems/item/tool.yml`, mỗi cuốc ứng với 1 rank, dùng tier có sẵn trong `item-tiers.yml` (đã có sẵn 10 tier TRASH→UNIQUE): TRASH, COMMON, UNCOMMON, RARE, VERY_RARE, LEGENDARY, MYTHICAL, EPIC, UNIQUE.
-  - Đã test qua `/mmoitems give TOOL <id> <player>` — item load đúng, tên tiếng Việt hiển thị chính xác.
-  - **Đã mở rộng lại (2026-07-21): mỗi rank có 10 cấp bậc phụ** — ID đổi thành `PICKAXE_<RANK>_<1-10>` (vd `PICKAXE_TAN_BINH_1` → `PICKAXE_VUOT_NGUC_10`), tổng cộng 90 item, sinh bằng script Node.js (`gen-tools.js`, không lưu trong repo — chỉ chạy 1 lần rồi ghi thẳng ra `tool.yml`, cần thiết thì viết lại). Ý định: cấp bậc tăng dần qua **cơ chế Trade tại NPC** (đổi cuốc cấp N + Point lấy cuốc cấp N+1) — thuộc tính năng Trade đồ ↔ Point (mục dưới), NPC/script thật sự chưa xây, hiện chỉ có item tĩnh.
-    - Hiệu Suất (Efficiency) đã **giảm mạnh** so với bản đầu: 1 (rank A cấp 1) → 30 (rank I cấp 10), thay vì 10-90 như thiết kế cũ (quá cao, gây mất cân bằng).
-    - Gia Tài (Fortune) ≈ nửa Hiệu Suất, tăng cùng nhịp.
-    - Thêm **Bền Bỉ (Unbreaking)**: 1-5, tăng dần theo cấp bậc/rank, có dòng ghi chú riêng trong `< Tiểu Sử >`.
-    - `pickaxe-power` tăng tuyến tính 1→90 theo tổng số bước (rank×10+cấp).
-    - Tier MMOItems, vật liệu (material), độ bền (durability) và autosmelt (chỉ 2 rank cao nhất) vẫn giữ theo RANK, không đổi theo từng cấp bậc con.
-  - **Đã thử và loại bỏ: MMOItems Upgrade Template** cho việc tăng cấp (1 item + template thay vì 90 item tĩnh) — **KHÔNG dùng được cho enchant vanilla**. Test trực tiếp: tạo template với `efficiency`/`fortune`/`unbreaking`, log báo rõ `Stat 'EFFICIENCY' not found.` (tương tự FORTUNE, UNBREAKING) — Upgrade Template chỉ nhận các stat riêng của MMOItems (vd `pickaxe-power`, `attack-damage`), không nhận enchant vanilla áp qua mục `enchants:`. Kết luận: cách 90-item-tĩnh là bắt buộc, không có đường tắt nào khác cho hướng thiết kế hiện tại (enchant vanilla tăng dần theo cấp).
-  - Lore dùng chung 1 file format `plugins/MMOItems/language/lore-formats/lore-only.yml` (đổi tên từ `tool-mine.yml` ban đầu), gán qua `lore-format: lore-only` trong từng item — tách biệt hoàn toàn khỏi `lore-format.yml` mặc định (dùng cho item type khác sau này).
-  - Đã Việt hóa toàn bộ `plugins/MMOItems/language/stats.yml` (tên chỉ số, icon, màu theo nhóm).
-  - Màu lore: header (`Chỉ Số`/`Tiểu Sử`/`Kĩ Năng`), icon, đường kẻ, bullet đều dùng chung 1 màu aqua (&b) xuyên suốt mọi rank — chỉ tên item giữ màu riêng theo rank. Số liệu hiển thị dạng thường (không La Mã), màu vàng (&e), không in đậm.
-  - **Việc phát trang bị theo rank/cấp bậc chưa tự động** — hiện chỉ có thể `/mmoitems give` thủ công; cầu nối rank-up → tự động phát cuốc + cơ chế trade nâng cấp thuộc Phase 4 / tính năng Trade-Point.
-- ⏸ Chưa làm: prestige liên kết RPG, cầu nối rank-up → MMOCore/MMOItems tự động (Phase 4), NPC trade nâng cấp cuốc thật (chỉ mới có item tĩnh).
+- ✅ **Enchant cuốc — đổi hướng**: Prison KHÔNG có hệ token-enchant built-in (chỉ hỗ trợ enchant vanilla). Đã thử cài `PrisonEnchantsFree` (plugin riêng, free, có custom enchant + token/gems/shards) — load thành công — nhưng **quyết định KHÔNG dùng** (rủi ro xung đột NBT/lore với MMOItems) và đã gỡ hoàn toàn.
+- ✅ **Chuyển hướng: dùng MMOItems làm hệ thống trang bị chính** thay vì plugin enchant riêng. Đã xóa sạch toàn bộ item mẫu/demo gốc của MMOItems (32 file `item/*.yml`, ~200 item, không phải nội dung tự tạo).
+
+### Trạng thái cuối cùng (2026-07-21) — Bộ cuốc + giáp MMOItems
+
+**Cuốc — `plugins/MMOItems/item/tool.yml`** (45 item: 9 rank × 5 cấp con, ID `PICKAXE_<RANK>_<1-5>`):
+- Mỗi rank có 5 cấp con, đại diện cho việc **trade nâng cấp dần tại NPC** (chưa xây NPC thật, mới chỉ có item tĩnh) — không dùng "+N" để tránh nhầm với cường hóa thật sau này; thay vào đó dùng **số La Mã in đậm màu vàng** (I, II, III, IV, V) làm hậu tố tên item.
+- 3 chỉ số **luân phiên tăng mỗi cấp** (không cấp nào đứng yên cả 3): Hiệu Suất (Efficiency) → Gia Tài (Fortune) → Bền Bỉ (Unbreaking) → lặp lại chu kỳ. Bắt đầu từ 1/1/1 (rank A cấp I), kết thúc ở rank I cấp V khoảng 16/16/15 — mức trần thấp hơn nhiều so với thiết kế đầu tiên (từng lên tới 90, bị chê quá cao).
+- `pickaxe-power` tăng tuyến tính theo tổng bước (rank×5+cấp, 1→45). 2 rank cao nhất (Bá Chủ Ngục Tù, Vượt Ngục) có `autosmelt: true`.
+- Tier/vật liệu/độ bền vẫn theo RANK (không đổi theo cấp con).
+- `will-break: false`, `unbreakable: false` — cuốc có hao mòn durability thật (không phải bất tử), người chơi cần tự sửa.
+- Lore chỉ còn phần **Tiểu Sử** (header + 2 bullet ngắn); phần **Chỉ Số** hiển thị tự động qua `lore-format: tool-lore` (`plugins/MMOItems/language/lore-formats/tool-lore.yml`) dùng **custom-stat** (`custom-miningefficiency/fortune/unbreaking`, giá trị đồng bộ 1:1 với enchant thật) thay vì viết tay từng dòng.
+
+**Giáp — `plugins/MMOItems/item/armor.yml`** (180 item: 4 mảnh Nón/Áo/Quần/Giày × 9 rank × 5 cấp, ID `<HELMET|CHESTPLATE|LEGGINGS|BOOTS>_<RANK>_<1-5>`):
+- Cùng công thức luân phiên tăng: Giáp (armor) → Máu Tối Đa (max-health) → Độ Bền Giáp (armor-toughness) → lặp lại. Cùng mốc 1→~16.
+- Type MMOItems chung là `ARMOR` (không có type riêng per-slot — slot đeo do `material` quyết định, vd `IRON_HELMET` vs `IRON_CHESTPLATE`).
+- Lore riêng `plugins/MMOItems/language/lore-formats/armor-lore.yml` (icon ◆ cho header, khác cuốc dùng ⛏) hiển thị Giáp/Máu Tối Đa/Độ Bền Giáp qua custom-stat tương ứng.
+- **Lưu ý quan trọng cho Phase 4/tương lai**: giáp dùng stat thật của MMOItems (`armor`, `max-health`, `armor-toughness`), khác cuốc dùng enchant vanilla — nghĩa là **giáp CÓ THỂ chuyển sang MMOItems Upgrade Template thật** (1 item/rank + cường hóa qua NBT, không cần 45 item tĩnh/mảnh) nếu sau này muốn làm cường hóa thật cho giáp. Đã bàn với người dùng nhưng **quyết định giữ nguyên 180 item tĩnh** cho hệ thống trade hiện tại, để dành slot "+N"/cường hóa thật cho một lớp nâng cấp khác sau này (chưa xây).
+
+### Phát hiện kỹ thuật quan trọng (áp dụng cho mọi việc chỉnh MMOItems sau này)
+1. **MMOItems Upgrade Template KHÔNG áp dụng được lên enchant vanilla** (`efficiency`/`fortune`/`unbreaking` qua mục `enchants:`) — test trực tiếp cho lỗi `Stat 'EFFICIENCY' not found.` Chỉ áp dụng được lên stat thật của MMOItems (`pickaxe-power`, `armor`, `attack-damage`...). Vì vậy cuốc bắt buộc dùng item tĩnh nhiều cấp; giáp thì có lựa chọn dùng Upgrade Template thật.
+2. **Custom-stat (`custom-stats.yml`) hoạt động nhưng có 2 cái bẫy**:
+   - Tên custom-stat **không được chứa dấu gạch ngang** (vd `mining-efficiency` → lỗi `Stat not found`; phải đổi thành camelCase `MiningEfficiency` mới nhận, tự động thành ID `custom-miningefficiency`).
+   - Custom-stat mới thêm vào `custom-stats.yml` **chỉ được đăng ký lúc plugin khởi động (onEnable)** — `/mmoitems reload` (kể cả `reload all`) KHÔNG đủ để nhận custom-stat mới, bắt buộc phải restart server. Sau khi đã đăng ký đúng tên (không gạch ngang), các thay đổi giá trị/gán vào item thì `/mmoitems reload` bình thường là đủ.
+3. **File `lore-format` bị xóa nhầm giữa chừng** (`lore-only.yml`, sau đổi tên `tool-lore.yml`) từng làm hỏng lore của **toàn bộ 90 item cùng lúc** (lỗi `Could not find lore format with ID 'lore-only'`) — bài học: file lore-format riêng cần được backup/kiểm tra định kỳ vì bất kỳ ai (kể cả tự tay) xóa nhầm sẽ crash hiển thị hàng loạt item ngay, dù item vẫn "tồn tại" (chỉ lore bị lỗi).
+4. **Icon Unicode cao (🛡🦾 — emoji ngoài Basic Multilingual Plane) không hiển thị được trong font Minecraft mặc định** — bị lỗi/không hiện. Bộ icon đã xác nhận AN TOÀN, dùng xuyên suốt: `⛏ ✦ ● ◆ »`.
+5. **Sửa cú pháp YAML thiếu dấu `"` đóng có thể làm MMOItems tự tắt hẳn plugin** (không chỉ lỗi reload) — khi đó lệnh `/mi` báo "plugin is disabled", bắt buộc restart server mới khôi phục (không tự phục hồi qua reload vì chính lệnh reload cũng thuộc plugin đang tắt).
+- ⏸ Chưa làm: phát trang bị tự động theo rank/cấp (hiện chỉ `/mmoitems give` thủ công), NPC trade nâng cấp cuốc/giáp thật, prestige liên kết RPG, cầu nối rank-up → MMOCore/MMOItems tự động (Phase 4).
 
 **Bài học RCON quan trọng**: `/ranks delete <rank>` bị lỗi (NullPointerException) khi chạy qua RCON/console — làm hỏng dữ liệu ladder (rank bị rớt khỏi danh sách ladder dù file vẫn còn) khi thử chạy nhiều lệnh liên tiếp. Phải sửa tay file JSON tại `plugins/Prison/data_storage/ranksDb/ranks/rank_*.json` và `plugins/Prison/data_storage/ranksDb/ladders/ladder_default.json` để phục hồi. Các lệnh Prison khác (`/mines`, `/ranks list`, `/ranks set ...`) chạy qua RCON bình thường — chỉ riêng `ranks delete` có bug này, nên tránh dùng qua console, để người chơi tự chạy trong game nếu cần xóa rank sau này. Ngoài ra `/mines delete <mine> confirm` qua RCON có tỷ lệ thất bại ngẫu nhiên (~50%, cần thử lại) dù không phá dữ liệu.
 
