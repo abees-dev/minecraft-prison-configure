@@ -1,0 +1,3420 @@
+HELMET_TAN_BINH_1:
+  base:
+    material: LEATHER_HELMET
+    name: '&fNón Tân Binh &e+1'
+    max-durability: 400
+    tier: TRASH
+    hide-enchants: true
+    lore-format: tool-lore
+    lore:
+      - '&b&l✦ Tiểu Sử'
+      - '&7 &b●&7 Giáp khởi đầu của mọi tù nhân'
+      - '&7 &b●&7 Độ Bền Giáp 1 - càng nâng cấp càng chắc chắn'
+    armor: 1.0
+    max-health: 1.0
+    armor-toughness: 1.0
+    will-break: false
+    unbreakable: false
+    custom-miningefficiency: 0.0
+
+HELMET_TAN_BINH_2:
+  base:
+    material: LEATHER_HELMET
+    name: '&fNón Tân Binh &e+2'
+    max-durability: 400
+    tier: TRASH
+    hide-enchants: true
+    lore-format: tool-lore
+    lore:
+      - '&b&l✦ Tiểu Sử'
+      - '&7 &b●&7 Giáp khởi đầu của mọi tù nhân'
+      - '&7 &b●&7 Độ Bền Giáp 1 - càng nâng cấp càng chắc chắn'
+    armor: 2.0
+    max-health: 1.0
+    armor-toughness: 1.0
+    will-break: false
+    unbreakable: false
+    custom-miningefficiency: 0.0
+
+HELMET_TAN_BINH_3:
+  base:
+    material: LEATHER_HELMET
+    name: '&fNón Tân Binh &e+3'
+    max-durability: 400
+    tier: TRASH
+    hide-enchants: true
+    lore-format: tool-lore
+    lore:
+      - '&b&l✦ Tiểu Sử'
+      - '&7 &b●&7 Giáp khởi đầu của mọi tù nhân'
+      - '&7 &b●&7 Độ Bền Giáp 1 - càng nâng cấp càng chắc chắn'
+    armor: 2.0
+    max-health: 2.0
+    armor-toughness: 1.0
+    will-break: false
+    unbreakable: false
+    custom-miningefficiency: 0.0
+
+HELMET_TAN_BINH_4:
+  base:
+    material: LEATHER_HELMET
+    name: '&fNón Tân Binh &e+4'
+    max-durability: 400
+    tier: TRASH
+    hide-enchants: true
+    lore-format: tool-lore
+    lore:
+      - '&b&l✦ Tiểu Sử'
+      - '&7 &b●&7 Giáp khởi đầu của mọi tù nhân'
+      - '&7 &b●&7 Độ Bền Giáp 2 - càng nâng cấp càng chắc chắn'
+    armor: 2.0
+    max-health: 2.0
+    armor-toughness: 2.0
+    will-break: false
+    unbreakable: false
+    custom-miningefficiency: 0.0
+
+HELMET_TAN_BINH_5:
+  base:
+    material: LEATHER_HELMET
+    name: '&fNón Tân Binh &e+5'
+    max-durability: 400
+    tier: TRASH
+    hide-enchants: true
+    lore-format: tool-lore
+    lore:
+      - '&b&l✦ Tiểu Sử'
+      - '&7 &b●&7 Giáp khởi đầu của mọi tù nhân'
+      - '&7 &b●&7 Độ Bền Giáp 2 - càng nâng cấp càng chắc chắn'
+    armor: 3.0
+    max-health: 2.0
+    armor-toughness: 2.0
+    will-break: false
+    unbreakable: false
+    custom-miningefficiency: 0.0
+
+HELMET_TU_NHAN_1:
+  base:
+    material: LEATHER_HELMET
+    name: '&aNón Tù Nhân &e+1'
+    max-durability: 800
+    tier: COMMON
+    hide-enchants: true
+    lore-format: tool-lore
+    lore:
+      - '&b&l✦ Tiểu Sử'
+      - '&7 &b●&7 Che chắn tạm đủ qua ngày lao động'
+      - '&7 &b●&7 Độ Bền Giáp 2 - càng nâng cấp càng chắc chắn'
+    armor: 3.0
+    max-health: 3.0
+    armor-toughness: 2.0
+    will-break: false
+    unbreakable: false
+    custom-miningefficiency: 0.0
+
+HELMET_TU_NHAN_2:
+  base:
+    material: LEATHER_HELMET
+    name: '&aNón Tù Nhân &e+2'
+    max-durability: 800
+    tier: COMMON
+    hide-enchants: true
+    lore-format: tool-lore
+    lore:
+      - '&b&l✦ Tiểu Sử'
+      - '&7 &b●&7 Che chắn tạm đủ qua ngày lao động'
+      - '&7 &b●&7 Độ Bền Giáp 3 - càng nâng cấp càng chắc chắn'
+    armor: 3.0
+    max-health: 3.0
+    armor-toughness: 3.0
+    will-break: false
+    unbreakable: false
+    custom-miningefficiency: 0.0
+
+HELMET_TU_NHAN_3:
+  base:
+    material: LEATHER_HELMET
+    name: '&aNón Tù Nhân &e+3'
+    max-durability: 800
+    tier: COMMON
+    hide-enchants: true
+    lore-format: tool-lore
+    lore:
+      - '&b&l✦ Tiểu Sử'
+      - '&7 &b●&7 Che chắn tạm đủ qua ngày lao động'
+      - '&7 &b●&7 Độ Bền Giáp 3 - càng nâng cấp càng chắc chắn'
+    armor: 4.0
+    max-health: 3.0
+    armor-toughness: 3.0
+    will-break: false
+    unbreakable: false
+    custom-miningefficiency: 0.0
+
+HELMET_TU_NHAN_4:
+  base:
+    material: LEATHER_HELMET
+    name: '&aNón Tù Nhân &e+4'
+    max-durability: 800
+    tier: COMMON
+    hide-enchants: true
+    lore-format: tool-lore
+    lore:
+      - '&b&l✦ Tiểu Sử'
+      - '&7 &b●&7 Che chắn tạm đủ qua ngày lao động'
+      - '&7 &b●&7 Độ Bền Giáp 3 - càng nâng cấp càng chắc chắn'
+    armor: 4.0
+    max-health: 4.0
+    armor-toughness: 3.0
+    will-break: false
+    unbreakable: false
+    custom-miningefficiency: 0.0
+
+HELMET_TU_NHAN_5:
+  base:
+    material: LEATHER_HELMET
+    name: '&aNón Tù Nhân &e+5'
+    max-durability: 800
+    tier: COMMON
+    hide-enchants: true
+    lore-format: tool-lore
+    lore:
+      - '&b&l✦ Tiểu Sử'
+      - '&7 &b●&7 Che chắn tạm đủ qua ngày lao động'
+      - '&7 &b●&7 Độ Bền Giáp 4 - càng nâng cấp càng chắc chắn'
+    armor: 4.0
+    max-health: 4.0
+    armor-toughness: 4.0
+    will-break: false
+    unbreakable: false
+    custom-miningefficiency: 0.0
+
+HELMET_LAO_CONG_1:
+  base:
+    material: CHAINMAIL_HELMET
+    name: '&bNón Lao Công &e+1'
+    max-durability: 1600
+    tier: UNCOMMON
+    hide-enchants: true
+    lore-format: tool-lore
+    lore:
+      - '&b&l✦ Tiểu Sử'
+      - '&7 &b●&7 Dấu ấn của người lao động chính thức'
+      - '&7 &b●&7 Độ Bền Giáp 4 - càng nâng cấp càng chắc chắn'
+    armor: 5.0
+    max-health: 4.0
+    armor-toughness: 4.0
+    will-break: false
+    unbreakable: false
+    custom-miningefficiency: 0.0
+
+HELMET_LAO_CONG_2:
+  base:
+    material: CHAINMAIL_HELMET
+    name: '&bNón Lao Công &e+2'
+    max-durability: 1600
+    tier: UNCOMMON
+    hide-enchants: true
+    lore-format: tool-lore
+    lore:
+      - '&b&l✦ Tiểu Sử'
+      - '&7 &b●&7 Dấu ấn của người lao động chính thức'
+      - '&7 &b●&7 Độ Bền Giáp 4 - càng nâng cấp càng chắc chắn'
+    armor: 5.0
+    max-health: 5.0
+    armor-toughness: 4.0
+    will-break: false
+    unbreakable: false
+    custom-miningefficiency: 0.0
+
+HELMET_LAO_CONG_3:
+  base:
+    material: CHAINMAIL_HELMET
+    name: '&bNón Lao Công &e+3'
+    max-durability: 1600
+    tier: UNCOMMON
+    hide-enchants: true
+    lore-format: tool-lore
+    lore:
+      - '&b&l✦ Tiểu Sử'
+      - '&7 &b●&7 Dấu ấn của người lao động chính thức'
+      - '&7 &b●&7 Độ Bền Giáp 5 - càng nâng cấp càng chắc chắn'
+    armor: 5.0
+    max-health: 5.0
+    armor-toughness: 5.0
+    will-break: false
+    unbreakable: false
+    custom-miningefficiency: 0.0
+
+HELMET_LAO_CONG_4:
+  base:
+    material: CHAINMAIL_HELMET
+    name: '&bNón Lao Công &e+4'
+    max-durability: 1600
+    tier: UNCOMMON
+    hide-enchants: true
+    lore-format: tool-lore
+    lore:
+      - '&b&l✦ Tiểu Sử'
+      - '&7 &b●&7 Dấu ấn của người lao động chính thức'
+      - '&7 &b●&7 Độ Bền Giáp 5 - càng nâng cấp càng chắc chắn'
+    armor: 6.0
+    max-health: 5.0
+    armor-toughness: 5.0
+    will-break: false
+    unbreakable: false
+    custom-miningefficiency: 0.0
+
+HELMET_LAO_CONG_5:
+  base:
+    material: CHAINMAIL_HELMET
+    name: '&bNón Lao Công &e+5'
+    max-durability: 1600
+    tier: UNCOMMON
+    hide-enchants: true
+    lore-format: tool-lore
+    lore:
+      - '&b&l✦ Tiểu Sử'
+      - '&7 &b●&7 Dấu ấn của người lao động chính thức'
+      - '&7 &b●&7 Độ Bền Giáp 5 - càng nâng cấp càng chắc chắn'
+    armor: 6.0
+    max-health: 6.0
+    armor-toughness: 5.0
+    will-break: false
+    unbreakable: false
+    custom-miningefficiency: 0.0
+
+HELMET_THO_DAO_1:
+  base:
+    material: IRON_HELMET
+    name: '&eNón Thợ Đào &e+1'
+    max-durability: 2400
+    tier: RARE
+    hide-enchants: true
+    lore-format: tool-lore
+    lore:
+      - '&b&l✦ Tiểu Sử'
+      - '&7 &b●&7 Vững vàng trước hiểm nguy trong mỏ sâu'
+      - '&7 &b●&7 Độ Bền Giáp 6 - càng nâng cấp càng chắc chắn'
+    armor: 6.0
+    max-health: 6.0
+    armor-toughness: 6.0
+    will-break: false
+    unbreakable: false
+    custom-miningefficiency: 0.0
+
+HELMET_THO_DAO_2:
+  base:
+    material: IRON_HELMET
+    name: '&eNón Thợ Đào &e+2'
+    max-durability: 2400
+    tier: RARE
+    hide-enchants: true
+    lore-format: tool-lore
+    lore:
+      - '&b&l✦ Tiểu Sử'
+      - '&7 &b●&7 Vững vàng trước hiểm nguy trong mỏ sâu'
+      - '&7 &b●&7 Độ Bền Giáp 6 - càng nâng cấp càng chắc chắn'
+    armor: 7.0
+    max-health: 6.0
+    armor-toughness: 6.0
+    will-break: false
+    unbreakable: false
+    custom-miningefficiency: 0.0
+
+HELMET_THO_DAO_3:
+  base:
+    material: IRON_HELMET
+    name: '&eNón Thợ Đào &e+3'
+    max-durability: 2400
+    tier: RARE
+    hide-enchants: true
+    lore-format: tool-lore
+    lore:
+      - '&b&l✦ Tiểu Sử'
+      - '&7 &b●&7 Vững vàng trước hiểm nguy trong mỏ sâu'
+      - '&7 &b●&7 Độ Bền Giáp 6 - càng nâng cấp càng chắc chắn'
+    armor: 7.0
+    max-health: 7.0
+    armor-toughness: 6.0
+    will-break: false
+    unbreakable: false
+    custom-miningefficiency: 0.0
+
+HELMET_THO_DAO_4:
+  base:
+    material: IRON_HELMET
+    name: '&eNón Thợ Đào &e+4'
+    max-durability: 2400
+    tier: RARE
+    hide-enchants: true
+    lore-format: tool-lore
+    lore:
+      - '&b&l✦ Tiểu Sử'
+      - '&7 &b●&7 Vững vàng trước hiểm nguy trong mỏ sâu'
+      - '&7 &b●&7 Độ Bền Giáp 7 - càng nâng cấp càng chắc chắn'
+    armor: 7.0
+    max-health: 7.0
+    armor-toughness: 7.0
+    will-break: false
+    unbreakable: false
+    custom-miningefficiency: 0.0
+
+HELMET_THO_DAO_5:
+  base:
+    material: IRON_HELMET
+    name: '&eNón Thợ Đào &e+5'
+    max-durability: 2400
+    tier: RARE
+    hide-enchants: true
+    lore-format: tool-lore
+    lore:
+      - '&b&l✦ Tiểu Sử'
+      - '&7 &b●&7 Vững vàng trước hiểm nguy trong mỏ sâu'
+      - '&7 &b●&7 Độ Bền Giáp 7 - càng nâng cấp càng chắc chắn'
+    armor: 8.0
+    max-health: 7.0
+    armor-toughness: 7.0
+    will-break: false
+    unbreakable: false
+    custom-miningefficiency: 0.0
+
+HELMET_DOI_TRUONG_1:
+  base:
+    material: IRON_HELMET
+    name: '&6Nón Đội Trưởng &e+1'
+    max-durability: 3600
+    tier: VERY_RARE
+    hide-enchants: true
+    lore-format: tool-lore
+    lore:
+      - '&b&l✦ Tiểu Sử'
+      - '&7 &b●&7 Bảo vệ cả đội trước mọi hiểm nguy'
+      - '&7 &b●&7 Độ Bền Giáp 7 - càng nâng cấp càng chắc chắn'
+    armor: 8.0
+    max-health: 8.0
+    armor-toughness: 7.0
+    will-break: false
+    unbreakable: false
+    custom-miningefficiency: 0.0
+
+HELMET_DOI_TRUONG_2:
+  base:
+    material: IRON_HELMET
+    name: '&6Nón Đội Trưởng &e+2'
+    max-durability: 3600
+    tier: VERY_RARE
+    hide-enchants: true
+    lore-format: tool-lore
+    lore:
+      - '&b&l✦ Tiểu Sử'
+      - '&7 &b●&7 Bảo vệ cả đội trước mọi hiểm nguy'
+      - '&7 &b●&7 Độ Bền Giáp 8 - càng nâng cấp càng chắc chắn'
+    armor: 8.0
+    max-health: 8.0
+    armor-toughness: 8.0
+    will-break: false
+    unbreakable: false
+    custom-miningefficiency: 0.0
+
+HELMET_DOI_TRUONG_3:
+  base:
+    material: IRON_HELMET
+    name: '&6Nón Đội Trưởng &e+3'
+    max-durability: 3600
+    tier: VERY_RARE
+    hide-enchants: true
+    lore-format: tool-lore
+    lore:
+      - '&b&l✦ Tiểu Sử'
+      - '&7 &b●&7 Bảo vệ cả đội trước mọi hiểm nguy'
+      - '&7 &b●&7 Độ Bền Giáp 8 - càng nâng cấp càng chắc chắn'
+    armor: 9.0
+    max-health: 8.0
+    armor-toughness: 8.0
+    will-break: false
+    unbreakable: false
+    custom-miningefficiency: 0.0
+
+HELMET_DOI_TRUONG_4:
+  base:
+    material: IRON_HELMET
+    name: '&6Nón Đội Trưởng &e+4'
+    max-durability: 3600
+    tier: VERY_RARE
+    hide-enchants: true
+    lore-format: tool-lore
+    lore:
+      - '&b&l✦ Tiểu Sử'
+      - '&7 &b●&7 Bảo vệ cả đội trước mọi hiểm nguy'
+      - '&7 &b●&7 Độ Bền Giáp 8 - càng nâng cấp càng chắc chắn'
+    armor: 9.0
+    max-health: 9.0
+    armor-toughness: 8.0
+    will-break: false
+    unbreakable: false
+    custom-miningefficiency: 0.0
+
+HELMET_DOI_TRUONG_5:
+  base:
+    material: IRON_HELMET
+    name: '&6Nón Đội Trưởng &e+5'
+    max-durability: 3600
+    tier: VERY_RARE
+    hide-enchants: true
+    lore-format: tool-lore
+    lore:
+      - '&b&l✦ Tiểu Sử'
+      - '&7 &b●&7 Bảo vệ cả đội trước mọi hiểm nguy'
+      - '&7 &b●&7 Độ Bền Giáp 9 - càng nâng cấp càng chắc chắn'
+    armor: 9.0
+    max-health: 9.0
+    armor-toughness: 9.0
+    will-break: false
+    unbreakable: false
+    custom-miningefficiency: 0.0
+
+HELMET_PHO_QUAN_NGUC_1:
+  base:
+    material: DIAMOND_HELMET
+    name: '&cNón Phó Quản Ngục &e+1'
+    max-durability: 4800
+    tier: LEGENDARY
+    hide-enchants: true
+    lore-format: tool-lore
+    lore:
+      - '&b&l✦ Tiểu Sử'
+      - '&7 &b●&7 Uy quyền hiện diện qua từng lớp giáp'
+      - '&7 &b●&7 Độ Bền Giáp 9 - càng nâng cấp càng chắc chắn'
+    armor: 10.0
+    max-health: 9.0
+    armor-toughness: 9.0
+    will-break: false
+    unbreakable: false
+    custom-miningefficiency: 0.0
+
+HELMET_PHO_QUAN_NGUC_2:
+  base:
+    material: DIAMOND_HELMET
+    name: '&cNón Phó Quản Ngục &e+2'
+    max-durability: 4800
+    tier: LEGENDARY
+    hide-enchants: true
+    lore-format: tool-lore
+    lore:
+      - '&b&l✦ Tiểu Sử'
+      - '&7 &b●&7 Uy quyền hiện diện qua từng lớp giáp'
+      - '&7 &b●&7 Độ Bền Giáp 9 - càng nâng cấp càng chắc chắn'
+    armor: 10.0
+    max-health: 10.0
+    armor-toughness: 9.0
+    will-break: false
+    unbreakable: false
+    custom-miningefficiency: 0.0
+
+HELMET_PHO_QUAN_NGUC_3:
+  base:
+    material: DIAMOND_HELMET
+    name: '&cNón Phó Quản Ngục &e+3'
+    max-durability: 4800
+    tier: LEGENDARY
+    hide-enchants: true
+    lore-format: tool-lore
+    lore:
+      - '&b&l✦ Tiểu Sử'
+      - '&7 &b●&7 Uy quyền hiện diện qua từng lớp giáp'
+      - '&7 &b●&7 Độ Bền Giáp 10 - càng nâng cấp càng chắc chắn'
+    armor: 10.0
+    max-health: 10.0
+    armor-toughness: 10.0
+    will-break: false
+    unbreakable: false
+    custom-miningefficiency: 0.0
+
+HELMET_PHO_QUAN_NGUC_4:
+  base:
+    material: DIAMOND_HELMET
+    name: '&cNón Phó Quản Ngục &e+4'
+    max-durability: 4800
+    tier: LEGENDARY
+    hide-enchants: true
+    lore-format: tool-lore
+    lore:
+      - '&b&l✦ Tiểu Sử'
+      - '&7 &b●&7 Uy quyền hiện diện qua từng lớp giáp'
+      - '&7 &b●&7 Độ Bền Giáp 10 - càng nâng cấp càng chắc chắn'
+    armor: 11.0
+    max-health: 10.0
+    armor-toughness: 10.0
+    will-break: false
+    unbreakable: false
+    custom-miningefficiency: 0.0
+
+HELMET_PHO_QUAN_NGUC_5:
+  base:
+    material: DIAMOND_HELMET
+    name: '&cNón Phó Quản Ngục &e+5'
+    max-durability: 4800
+    tier: LEGENDARY
+    hide-enchants: true
+    lore-format: tool-lore
+    lore:
+      - '&b&l✦ Tiểu Sử'
+      - '&7 &b●&7 Uy quyền hiện diện qua từng lớp giáp'
+      - '&7 &b●&7 Độ Bền Giáp 10 - càng nâng cấp càng chắc chắn'
+    armor: 11.0
+    max-health: 11.0
+    armor-toughness: 10.0
+    will-break: false
+    unbreakable: false
+    custom-miningefficiency: 0.0
+
+HELMET_QUAN_NGUC_1:
+  base:
+    material: DIAMOND_HELMET
+    name: '&dNón Quản Ngục &e+1'
+    max-durability: 6400
+    tier: MYTHICAL
+    hide-enchants: true
+    lore-format: tool-lore
+    lore:
+      - '&b&l✦ Tiểu Sử'
+      - '&7 &b●&7 Không có sát thương nào chạm tới được'
+      - '&7 &b●&7 Độ Bền Giáp 11 - càng nâng cấp càng chắc chắn'
+    armor: 11.0
+    max-health: 11.0
+    armor-toughness: 11.0
+    will-break: false
+    unbreakable: false
+    custom-miningefficiency: 0.0
+
+HELMET_QUAN_NGUC_2:
+  base:
+    material: DIAMOND_HELMET
+    name: '&dNón Quản Ngục &e+2'
+    max-durability: 6400
+    tier: MYTHICAL
+    hide-enchants: true
+    lore-format: tool-lore
+    lore:
+      - '&b&l✦ Tiểu Sử'
+      - '&7 &b●&7 Không có sát thương nào chạm tới được'
+      - '&7 &b●&7 Độ Bền Giáp 11 - càng nâng cấp càng chắc chắn'
+    armor: 12.0
+    max-health: 11.0
+    armor-toughness: 11.0
+    will-break: false
+    unbreakable: false
+    custom-miningefficiency: 0.0
+
+HELMET_QUAN_NGUC_3:
+  base:
+    material: DIAMOND_HELMET
+    name: '&dNón Quản Ngục &e+3'
+    max-durability: 6400
+    tier: MYTHICAL
+    hide-enchants: true
+    lore-format: tool-lore
+    lore:
+      - '&b&l✦ Tiểu Sử'
+      - '&7 &b●&7 Không có sát thương nào chạm tới được'
+      - '&7 &b●&7 Độ Bền Giáp 11 - càng nâng cấp càng chắc chắn'
+    armor: 12.0
+    max-health: 12.0
+    armor-toughness: 11.0
+    will-break: false
+    unbreakable: false
+    custom-miningefficiency: 0.0
+
+HELMET_QUAN_NGUC_4:
+  base:
+    material: DIAMOND_HELMET
+    name: '&dNón Quản Ngục &e+4'
+    max-durability: 6400
+    tier: MYTHICAL
+    hide-enchants: true
+    lore-format: tool-lore
+    lore:
+      - '&b&l✦ Tiểu Sử'
+      - '&7 &b●&7 Không có sát thương nào chạm tới được'
+      - '&7 &b●&7 Độ Bền Giáp 12 - càng nâng cấp càng chắc chắn'
+    armor: 12.0
+    max-health: 12.0
+    armor-toughness: 12.0
+    will-break: false
+    unbreakable: false
+    custom-miningefficiency: 0.0
+
+HELMET_QUAN_NGUC_5:
+  base:
+    material: DIAMOND_HELMET
+    name: '&dNón Quản Ngục &e+5'
+    max-durability: 6400
+    tier: MYTHICAL
+    hide-enchants: true
+    lore-format: tool-lore
+    lore:
+      - '&b&l✦ Tiểu Sử'
+      - '&7 &b●&7 Không có sát thương nào chạm tới được'
+      - '&7 &b●&7 Độ Bền Giáp 12 - càng nâng cấp càng chắc chắn'
+    armor: 13.0
+    max-health: 12.0
+    armor-toughness: 12.0
+    will-break: false
+    unbreakable: false
+    custom-miningefficiency: 0.0
+
+HELMET_BA_CHU_NGUC_TU_1:
+  base:
+    material: NETHERITE_HELMET
+    name: '&5Nón Bá Chủ Ngục Tù &e+1'
+    max-durability: 8000
+    tier: EPIC
+    hide-enchants: true
+    lore-format: tool-lore
+    lore:
+      - '&b&l✦ Tiểu Sử'
+      - '&7 &b●&7 Bức tường thành của cả nhà tù'
+      - '&7 &b●&7 Độ Bền Giáp 12 - càng nâng cấp càng chắc chắn'
+    armor: 13.0
+    max-health: 13.0
+    armor-toughness: 12.0
+    will-break: false
+    unbreakable: false
+    custom-miningefficiency: 0.0
+
+HELMET_BA_CHU_NGUC_TU_2:
+  base:
+    material: NETHERITE_HELMET
+    name: '&5Nón Bá Chủ Ngục Tù &e+2'
+    max-durability: 8000
+    tier: EPIC
+    hide-enchants: true
+    lore-format: tool-lore
+    lore:
+      - '&b&l✦ Tiểu Sử'
+      - '&7 &b●&7 Bức tường thành của cả nhà tù'
+      - '&7 &b●&7 Độ Bền Giáp 13 - càng nâng cấp càng chắc chắn'
+    armor: 13.0
+    max-health: 13.0
+    armor-toughness: 13.0
+    will-break: false
+    unbreakable: false
+    custom-miningefficiency: 0.0
+
+HELMET_BA_CHU_NGUC_TU_3:
+  base:
+    material: NETHERITE_HELMET
+    name: '&5Nón Bá Chủ Ngục Tù &e+3'
+    max-durability: 8000
+    tier: EPIC
+    hide-enchants: true
+    lore-format: tool-lore
+    lore:
+      - '&b&l✦ Tiểu Sử'
+      - '&7 &b●&7 Bức tường thành của cả nhà tù'
+      - '&7 &b●&7 Độ Bền Giáp 13 - càng nâng cấp càng chắc chắn'
+    armor: 14.0
+    max-health: 13.0
+    armor-toughness: 13.0
+    will-break: false
+    unbreakable: false
+    custom-miningefficiency: 0.0
+
+HELMET_BA_CHU_NGUC_TU_4:
+  base:
+    material: NETHERITE_HELMET
+    name: '&5Nón Bá Chủ Ngục Tù &e+4'
+    max-durability: 8000
+    tier: EPIC
+    hide-enchants: true
+    lore-format: tool-lore
+    lore:
+      - '&b&l✦ Tiểu Sử'
+      - '&7 &b●&7 Bức tường thành của cả nhà tù'
+      - '&7 &b●&7 Độ Bền Giáp 13 - càng nâng cấp càng chắc chắn'
+    armor: 14.0
+    max-health: 14.0
+    armor-toughness: 13.0
+    will-break: false
+    unbreakable: false
+    custom-miningefficiency: 0.0
+
+HELMET_BA_CHU_NGUC_TU_5:
+  base:
+    material: NETHERITE_HELMET
+    name: '&5Nón Bá Chủ Ngục Tù &e+5'
+    max-durability: 8000
+    tier: EPIC
+    hide-enchants: true
+    lore-format: tool-lore
+    lore:
+      - '&b&l✦ Tiểu Sử'
+      - '&7 &b●&7 Bức tường thành của cả nhà tù'
+      - '&7 &b●&7 Độ Bền Giáp 14 - càng nâng cấp càng chắc chắn'
+    armor: 14.0
+    max-health: 14.0
+    armor-toughness: 14.0
+    will-break: false
+    unbreakable: false
+    custom-miningefficiency: 0.0
+
+HELMET_VUOT_NGUC_1:
+  base:
+    material: NETHERITE_HELMET
+    name: '&4Nón Vượt Ngục &e+1'
+    max-durability: 12000
+    tier: UNIQUE
+    hide-enchants: true
+    lore-format: tool-lore
+    lore:
+      - '&b&l✦ Tiểu Sử'
+      - '&7 &b●&7 Lớp giáp cuối cùng trước tự do'
+      - '&7 &b●&7 Độ Bền Giáp 14 - càng nâng cấp càng chắc chắn'
+    armor: 15.0
+    max-health: 14.0
+    armor-toughness: 14.0
+    will-break: false
+    unbreakable: false
+    custom-miningefficiency: 0.0
+
+HELMET_VUOT_NGUC_2:
+  base:
+    material: NETHERITE_HELMET
+    name: '&4Nón Vượt Ngục &e+2'
+    max-durability: 12000
+    tier: UNIQUE
+    hide-enchants: true
+    lore-format: tool-lore
+    lore:
+      - '&b&l✦ Tiểu Sử'
+      - '&7 &b●&7 Lớp giáp cuối cùng trước tự do'
+      - '&7 &b●&7 Độ Bền Giáp 14 - càng nâng cấp càng chắc chắn'
+    armor: 15.0
+    max-health: 15.0
+    armor-toughness: 14.0
+    will-break: false
+    unbreakable: false
+    custom-miningefficiency: 0.0
+
+HELMET_VUOT_NGUC_3:
+  base:
+    material: NETHERITE_HELMET
+    name: '&4Nón Vượt Ngục &e+3'
+    max-durability: 12000
+    tier: UNIQUE
+    hide-enchants: true
+    lore-format: tool-lore
+    lore:
+      - '&b&l✦ Tiểu Sử'
+      - '&7 &b●&7 Lớp giáp cuối cùng trước tự do'
+      - '&7 &b●&7 Độ Bền Giáp 15 - càng nâng cấp càng chắc chắn'
+    armor: 15.0
+    max-health: 15.0
+    armor-toughness: 15.0
+    will-break: false
+    unbreakable: false
+    custom-miningefficiency: 0.0
+
+HELMET_VUOT_NGUC_4:
+  base:
+    material: NETHERITE_HELMET
+    name: '&4Nón Vượt Ngục &e+4'
+    max-durability: 12000
+    tier: UNIQUE
+    hide-enchants: true
+    lore-format: tool-lore
+    lore:
+      - '&b&l✦ Tiểu Sử'
+      - '&7 &b●&7 Lớp giáp cuối cùng trước tự do'
+      - '&7 &b●&7 Độ Bền Giáp 15 - càng nâng cấp càng chắc chắn'
+    armor: 16.0
+    max-health: 15.0
+    armor-toughness: 15.0
+    will-break: false
+    unbreakable: false
+    custom-miningefficiency: 0.0
+
+HELMET_VUOT_NGUC_5:
+  base:
+    material: NETHERITE_HELMET
+    name: '&4Nón Vượt Ngục &e+5'
+    max-durability: 12000
+    tier: UNIQUE
+    hide-enchants: true
+    lore-format: tool-lore
+    lore:
+      - '&b&l✦ Tiểu Sử'
+      - '&7 &b●&7 Lớp giáp cuối cùng trước tự do'
+      - '&7 &b●&7 Độ Bền Giáp 15 - càng nâng cấp càng chắc chắn'
+    armor: 16.0
+    max-health: 16.0
+    armor-toughness: 15.0
+    will-break: false
+    unbreakable: false
+    custom-miningefficiency: 0.0
+
+CHESTPLATE_TAN_BINH_1:
+  base:
+    material: LEATHER_CHESTPLATE
+    name: '&fÁo Tân Binh &e+1'
+    max-durability: 400
+    tier: TRASH
+    hide-enchants: true
+    lore-format: tool-lore
+    lore:
+      - '&b&l✦ Tiểu Sử'
+      - '&7 &b●&7 Giáp khởi đầu của mọi tù nhân'
+      - '&7 &b●&7 Độ Bền Giáp 1 - càng nâng cấp càng chắc chắn'
+    armor: 1.0
+    max-health: 1.0
+    armor-toughness: 1.0
+    will-break: false
+    unbreakable: false
+    custom-miningefficiency: 0.0
+
+CHESTPLATE_TAN_BINH_2:
+  base:
+    material: LEATHER_CHESTPLATE
+    name: '&fÁo Tân Binh &e+2'
+    max-durability: 400
+    tier: TRASH
+    hide-enchants: true
+    lore-format: tool-lore
+    lore:
+      - '&b&l✦ Tiểu Sử'
+      - '&7 &b●&7 Giáp khởi đầu của mọi tù nhân'
+      - '&7 &b●&7 Độ Bền Giáp 1 - càng nâng cấp càng chắc chắn'
+    armor: 2.0
+    max-health: 1.0
+    armor-toughness: 1.0
+    will-break: false
+    unbreakable: false
+    custom-miningefficiency: 0.0
+
+CHESTPLATE_TAN_BINH_3:
+  base:
+    material: LEATHER_CHESTPLATE
+    name: '&fÁo Tân Binh &e+3'
+    max-durability: 400
+    tier: TRASH
+    hide-enchants: true
+    lore-format: tool-lore
+    lore:
+      - '&b&l✦ Tiểu Sử'
+      - '&7 &b●&7 Giáp khởi đầu của mọi tù nhân'
+      - '&7 &b●&7 Độ Bền Giáp 1 - càng nâng cấp càng chắc chắn'
+    armor: 2.0
+    max-health: 2.0
+    armor-toughness: 1.0
+    will-break: false
+    unbreakable: false
+    custom-miningefficiency: 0.0
+
+CHESTPLATE_TAN_BINH_4:
+  base:
+    material: LEATHER_CHESTPLATE
+    name: '&fÁo Tân Binh &e+4'
+    max-durability: 400
+    tier: TRASH
+    hide-enchants: true
+    lore-format: tool-lore
+    lore:
+      - '&b&l✦ Tiểu Sử'
+      - '&7 &b●&7 Giáp khởi đầu của mọi tù nhân'
+      - '&7 &b●&7 Độ Bền Giáp 2 - càng nâng cấp càng chắc chắn'
+    armor: 2.0
+    max-health: 2.0
+    armor-toughness: 2.0
+    will-break: false
+    unbreakable: false
+    custom-miningefficiency: 0.0
+
+CHESTPLATE_TAN_BINH_5:
+  base:
+    material: LEATHER_CHESTPLATE
+    name: '&fÁo Tân Binh &e+5'
+    max-durability: 400
+    tier: TRASH
+    hide-enchants: true
+    lore-format: tool-lore
+    lore:
+      - '&b&l✦ Tiểu Sử'
+      - '&7 &b●&7 Giáp khởi đầu của mọi tù nhân'
+      - '&7 &b●&7 Độ Bền Giáp 2 - càng nâng cấp càng chắc chắn'
+    armor: 3.0
+    max-health: 2.0
+    armor-toughness: 2.0
+    will-break: false
+    unbreakable: false
+    custom-miningefficiency: 0.0
+
+CHESTPLATE_TU_NHAN_1:
+  base:
+    material: LEATHER_CHESTPLATE
+    name: '&aÁo Tù Nhân &e+1'
+    max-durability: 800
+    tier: COMMON
+    hide-enchants: true
+    lore-format: tool-lore
+    lore:
+      - '&b&l✦ Tiểu Sử'
+      - '&7 &b●&7 Che chắn tạm đủ qua ngày lao động'
+      - '&7 &b●&7 Độ Bền Giáp 2 - càng nâng cấp càng chắc chắn'
+    armor: 3.0
+    max-health: 3.0
+    armor-toughness: 2.0
+    will-break: false
+    unbreakable: false
+    custom-miningefficiency: 0.0
+
+CHESTPLATE_TU_NHAN_2:
+  base:
+    material: LEATHER_CHESTPLATE
+    name: '&aÁo Tù Nhân &e+2'
+    max-durability: 800
+    tier: COMMON
+    hide-enchants: true
+    lore-format: tool-lore
+    lore:
+      - '&b&l✦ Tiểu Sử'
+      - '&7 &b●&7 Che chắn tạm đủ qua ngày lao động'
+      - '&7 &b●&7 Độ Bền Giáp 3 - càng nâng cấp càng chắc chắn'
+    armor: 3.0
+    max-health: 3.0
+    armor-toughness: 3.0
+    will-break: false
+    unbreakable: false
+    custom-miningefficiency: 0.0
+
+CHESTPLATE_TU_NHAN_3:
+  base:
+    material: LEATHER_CHESTPLATE
+    name: '&aÁo Tù Nhân &e+3'
+    max-durability: 800
+    tier: COMMON
+    hide-enchants: true
+    lore-format: tool-lore
+    lore:
+      - '&b&l✦ Tiểu Sử'
+      - '&7 &b●&7 Che chắn tạm đủ qua ngày lao động'
+      - '&7 &b●&7 Độ Bền Giáp 3 - càng nâng cấp càng chắc chắn'
+    armor: 4.0
+    max-health: 3.0
+    armor-toughness: 3.0
+    will-break: false
+    unbreakable: false
+    custom-miningefficiency: 0.0
+
+CHESTPLATE_TU_NHAN_4:
+  base:
+    material: LEATHER_CHESTPLATE
+    name: '&aÁo Tù Nhân &e+4'
+    max-durability: 800
+    tier: COMMON
+    hide-enchants: true
+    lore-format: tool-lore
+    lore:
+      - '&b&l✦ Tiểu Sử'
+      - '&7 &b●&7 Che chắn tạm đủ qua ngày lao động'
+      - '&7 &b●&7 Độ Bền Giáp 3 - càng nâng cấp càng chắc chắn'
+    armor: 4.0
+    max-health: 4.0
+    armor-toughness: 3.0
+    will-break: false
+    unbreakable: false
+    custom-miningefficiency: 0.0
+
+CHESTPLATE_TU_NHAN_5:
+  base:
+    material: LEATHER_CHESTPLATE
+    name: '&aÁo Tù Nhân &e+5'
+    max-durability: 800
+    tier: COMMON
+    hide-enchants: true
+    lore-format: tool-lore
+    lore:
+      - '&b&l✦ Tiểu Sử'
+      - '&7 &b●&7 Che chắn tạm đủ qua ngày lao động'
+      - '&7 &b●&7 Độ Bền Giáp 4 - càng nâng cấp càng chắc chắn'
+    armor: 4.0
+    max-health: 4.0
+    armor-toughness: 4.0
+    will-break: false
+    unbreakable: false
+    custom-miningefficiency: 0.0
+
+CHESTPLATE_LAO_CONG_1:
+  base:
+    material: CHAINMAIL_CHESTPLATE
+    name: '&bÁo Lao Công &e+1'
+    max-durability: 1600
+    tier: UNCOMMON
+    hide-enchants: true
+    lore-format: tool-lore
+    lore:
+      - '&b&l✦ Tiểu Sử'
+      - '&7 &b●&7 Dấu ấn của người lao động chính thức'
+      - '&7 &b●&7 Độ Bền Giáp 4 - càng nâng cấp càng chắc chắn'
+    armor: 5.0
+    max-health: 4.0
+    armor-toughness: 4.0
+    will-break: false
+    unbreakable: false
+    custom-miningefficiency: 0.0
+
+CHESTPLATE_LAO_CONG_2:
+  base:
+    material: CHAINMAIL_CHESTPLATE
+    name: '&bÁo Lao Công &e+2'
+    max-durability: 1600
+    tier: UNCOMMON
+    hide-enchants: true
+    lore-format: tool-lore
+    lore:
+      - '&b&l✦ Tiểu Sử'
+      - '&7 &b●&7 Dấu ấn của người lao động chính thức'
+      - '&7 &b●&7 Độ Bền Giáp 4 - càng nâng cấp càng chắc chắn'
+    armor: 5.0
+    max-health: 5.0
+    armor-toughness: 4.0
+    will-break: false
+    unbreakable: false
+    custom-miningefficiency: 0.0
+
+CHESTPLATE_LAO_CONG_3:
+  base:
+    material: CHAINMAIL_CHESTPLATE
+    name: '&bÁo Lao Công &e+3'
+    max-durability: 1600
+    tier: UNCOMMON
+    hide-enchants: true
+    lore-format: tool-lore
+    lore:
+      - '&b&l✦ Tiểu Sử'
+      - '&7 &b●&7 Dấu ấn của người lao động chính thức'
+      - '&7 &b●&7 Độ Bền Giáp 5 - càng nâng cấp càng chắc chắn'
+    armor: 5.0
+    max-health: 5.0
+    armor-toughness: 5.0
+    will-break: false
+    unbreakable: false
+    custom-miningefficiency: 0.0
+
+CHESTPLATE_LAO_CONG_4:
+  base:
+    material: CHAINMAIL_CHESTPLATE
+    name: '&bÁo Lao Công &e+4'
+    max-durability: 1600
+    tier: UNCOMMON
+    hide-enchants: true
+    lore-format: tool-lore
+    lore:
+      - '&b&l✦ Tiểu Sử'
+      - '&7 &b●&7 Dấu ấn của người lao động chính thức'
+      - '&7 &b●&7 Độ Bền Giáp 5 - càng nâng cấp càng chắc chắn'
+    armor: 6.0
+    max-health: 5.0
+    armor-toughness: 5.0
+    will-break: false
+    unbreakable: false
+    custom-miningefficiency: 0.0
+
+CHESTPLATE_LAO_CONG_5:
+  base:
+    material: CHAINMAIL_CHESTPLATE
+    name: '&bÁo Lao Công &e+5'
+    max-durability: 1600
+    tier: UNCOMMON
+    hide-enchants: true
+    lore-format: tool-lore
+    lore:
+      - '&b&l✦ Tiểu Sử'
+      - '&7 &b●&7 Dấu ấn của người lao động chính thức'
+      - '&7 &b●&7 Độ Bền Giáp 5 - càng nâng cấp càng chắc chắn'
+    armor: 6.0
+    max-health: 6.0
+    armor-toughness: 5.0
+    will-break: false
+    unbreakable: false
+    custom-miningefficiency: 0.0
+
+CHESTPLATE_THO_DAO_1:
+  base:
+    material: IRON_CHESTPLATE
+    name: '&eÁo Thợ Đào &e+1'
+    max-durability: 2400
+    tier: RARE
+    hide-enchants: true
+    lore-format: tool-lore
+    lore:
+      - '&b&l✦ Tiểu Sử'
+      - '&7 &b●&7 Vững vàng trước hiểm nguy trong mỏ sâu'
+      - '&7 &b●&7 Độ Bền Giáp 6 - càng nâng cấp càng chắc chắn'
+    armor: 6.0
+    max-health: 6.0
+    armor-toughness: 6.0
+    will-break: false
+    unbreakable: false
+    custom-miningefficiency: 0.0
+
+CHESTPLATE_THO_DAO_2:
+  base:
+    material: IRON_CHESTPLATE
+    name: '&eÁo Thợ Đào &e+2'
+    max-durability: 2400
+    tier: RARE
+    hide-enchants: true
+    lore-format: tool-lore
+    lore:
+      - '&b&l✦ Tiểu Sử'
+      - '&7 &b●&7 Vững vàng trước hiểm nguy trong mỏ sâu'
+      - '&7 &b●&7 Độ Bền Giáp 6 - càng nâng cấp càng chắc chắn'
+    armor: 7.0
+    max-health: 6.0
+    armor-toughness: 6.0
+    will-break: false
+    unbreakable: false
+    custom-miningefficiency: 0.0
+
+CHESTPLATE_THO_DAO_3:
+  base:
+    material: IRON_CHESTPLATE
+    name: '&eÁo Thợ Đào &e+3'
+    max-durability: 2400
+    tier: RARE
+    hide-enchants: true
+    lore-format: tool-lore
+    lore:
+      - '&b&l✦ Tiểu Sử'
+      - '&7 &b●&7 Vững vàng trước hiểm nguy trong mỏ sâu'
+      - '&7 &b●&7 Độ Bền Giáp 6 - càng nâng cấp càng chắc chắn'
+    armor: 7.0
+    max-health: 7.0
+    armor-toughness: 6.0
+    will-break: false
+    unbreakable: false
+    custom-miningefficiency: 0.0
+
+CHESTPLATE_THO_DAO_4:
+  base:
+    material: IRON_CHESTPLATE
+    name: '&eÁo Thợ Đào &e+4'
+    max-durability: 2400
+    tier: RARE
+    hide-enchants: true
+    lore-format: tool-lore
+    lore:
+      - '&b&l✦ Tiểu Sử'
+      - '&7 &b●&7 Vững vàng trước hiểm nguy trong mỏ sâu'
+      - '&7 &b●&7 Độ Bền Giáp 7 - càng nâng cấp càng chắc chắn'
+    armor: 7.0
+    max-health: 7.0
+    armor-toughness: 7.0
+    will-break: false
+    unbreakable: false
+    custom-miningefficiency: 0.0
+
+CHESTPLATE_THO_DAO_5:
+  base:
+    material: IRON_CHESTPLATE
+    name: '&eÁo Thợ Đào &e+5'
+    max-durability: 2400
+    tier: RARE
+    hide-enchants: true
+    lore-format: tool-lore
+    lore:
+      - '&b&l✦ Tiểu Sử'
+      - '&7 &b●&7 Vững vàng trước hiểm nguy trong mỏ sâu'
+      - '&7 &b●&7 Độ Bền Giáp 7 - càng nâng cấp càng chắc chắn'
+    armor: 8.0
+    max-health: 7.0
+    armor-toughness: 7.0
+    will-break: false
+    unbreakable: false
+    custom-miningefficiency: 0.0
+
+CHESTPLATE_DOI_TRUONG_1:
+  base:
+    material: IRON_CHESTPLATE
+    name: '&6Áo Đội Trưởng &e+1'
+    max-durability: 3600
+    tier: VERY_RARE
+    hide-enchants: true
+    lore-format: tool-lore
+    lore:
+      - '&b&l✦ Tiểu Sử'
+      - '&7 &b●&7 Bảo vệ cả đội trước mọi hiểm nguy'
+      - '&7 &b●&7 Độ Bền Giáp 7 - càng nâng cấp càng chắc chắn'
+    armor: 8.0
+    max-health: 8.0
+    armor-toughness: 7.0
+    will-break: false
+    unbreakable: false
+    custom-miningefficiency: 0.0
+
+CHESTPLATE_DOI_TRUONG_2:
+  base:
+    material: IRON_CHESTPLATE
+    name: '&6Áo Đội Trưởng &e+2'
+    max-durability: 3600
+    tier: VERY_RARE
+    hide-enchants: true
+    lore-format: tool-lore
+    lore:
+      - '&b&l✦ Tiểu Sử'
+      - '&7 &b●&7 Bảo vệ cả đội trước mọi hiểm nguy'
+      - '&7 &b●&7 Độ Bền Giáp 8 - càng nâng cấp càng chắc chắn'
+    armor: 8.0
+    max-health: 8.0
+    armor-toughness: 8.0
+    will-break: false
+    unbreakable: false
+    custom-miningefficiency: 0.0
+
+CHESTPLATE_DOI_TRUONG_3:
+  base:
+    material: IRON_CHESTPLATE
+    name: '&6Áo Đội Trưởng &e+3'
+    max-durability: 3600
+    tier: VERY_RARE
+    hide-enchants: true
+    lore-format: tool-lore
+    lore:
+      - '&b&l✦ Tiểu Sử'
+      - '&7 &b●&7 Bảo vệ cả đội trước mọi hiểm nguy'
+      - '&7 &b●&7 Độ Bền Giáp 8 - càng nâng cấp càng chắc chắn'
+    armor: 9.0
+    max-health: 8.0
+    armor-toughness: 8.0
+    will-break: false
+    unbreakable: false
+    custom-miningefficiency: 0.0
+
+CHESTPLATE_DOI_TRUONG_4:
+  base:
+    material: IRON_CHESTPLATE
+    name: '&6Áo Đội Trưởng &e+4'
+    max-durability: 3600
+    tier: VERY_RARE
+    hide-enchants: true
+    lore-format: tool-lore
+    lore:
+      - '&b&l✦ Tiểu Sử'
+      - '&7 &b●&7 Bảo vệ cả đội trước mọi hiểm nguy'
+      - '&7 &b●&7 Độ Bền Giáp 8 - càng nâng cấp càng chắc chắn'
+    armor: 9.0
+    max-health: 9.0
+    armor-toughness: 8.0
+    will-break: false
+    unbreakable: false
+    custom-miningefficiency: 0.0
+
+CHESTPLATE_DOI_TRUONG_5:
+  base:
+    material: IRON_CHESTPLATE
+    name: '&6Áo Đội Trưởng &e+5'
+    max-durability: 3600
+    tier: VERY_RARE
+    hide-enchants: true
+    lore-format: tool-lore
+    lore:
+      - '&b&l✦ Tiểu Sử'
+      - '&7 &b●&7 Bảo vệ cả đội trước mọi hiểm nguy'
+      - '&7 &b●&7 Độ Bền Giáp 9 - càng nâng cấp càng chắc chắn'
+    armor: 9.0
+    max-health: 9.0
+    armor-toughness: 9.0
+    will-break: false
+    unbreakable: false
+    custom-miningefficiency: 0.0
+
+CHESTPLATE_PHO_QUAN_NGUC_1:
+  base:
+    material: DIAMOND_CHESTPLATE
+    name: '&cÁo Phó Quản Ngục &e+1'
+    max-durability: 4800
+    tier: LEGENDARY
+    hide-enchants: true
+    lore-format: tool-lore
+    lore:
+      - '&b&l✦ Tiểu Sử'
+      - '&7 &b●&7 Uy quyền hiện diện qua từng lớp giáp'
+      - '&7 &b●&7 Độ Bền Giáp 9 - càng nâng cấp càng chắc chắn'
+    armor: 10.0
+    max-health: 9.0
+    armor-toughness: 9.0
+    will-break: false
+    unbreakable: false
+    custom-miningefficiency: 0.0
+
+CHESTPLATE_PHO_QUAN_NGUC_2:
+  base:
+    material: DIAMOND_CHESTPLATE
+    name: '&cÁo Phó Quản Ngục &e+2'
+    max-durability: 4800
+    tier: LEGENDARY
+    hide-enchants: true
+    lore-format: tool-lore
+    lore:
+      - '&b&l✦ Tiểu Sử'
+      - '&7 &b●&7 Uy quyền hiện diện qua từng lớp giáp'
+      - '&7 &b●&7 Độ Bền Giáp 9 - càng nâng cấp càng chắc chắn'
+    armor: 10.0
+    max-health: 10.0
+    armor-toughness: 9.0
+    will-break: false
+    unbreakable: false
+    custom-miningefficiency: 0.0
+
+CHESTPLATE_PHO_QUAN_NGUC_3:
+  base:
+    material: DIAMOND_CHESTPLATE
+    name: '&cÁo Phó Quản Ngục &e+3'
+    max-durability: 4800
+    tier: LEGENDARY
+    hide-enchants: true
+    lore-format: tool-lore
+    lore:
+      - '&b&l✦ Tiểu Sử'
+      - '&7 &b●&7 Uy quyền hiện diện qua từng lớp giáp'
+      - '&7 &b●&7 Độ Bền Giáp 10 - càng nâng cấp càng chắc chắn'
+    armor: 10.0
+    max-health: 10.0
+    armor-toughness: 10.0
+    will-break: false
+    unbreakable: false
+    custom-miningefficiency: 0.0
+
+CHESTPLATE_PHO_QUAN_NGUC_4:
+  base:
+    material: DIAMOND_CHESTPLATE
+    name: '&cÁo Phó Quản Ngục &e+4'
+    max-durability: 4800
+    tier: LEGENDARY
+    hide-enchants: true
+    lore-format: tool-lore
+    lore:
+      - '&b&l✦ Tiểu Sử'
+      - '&7 &b●&7 Uy quyền hiện diện qua từng lớp giáp'
+      - '&7 &b●&7 Độ Bền Giáp 10 - càng nâng cấp càng chắc chắn'
+    armor: 11.0
+    max-health: 10.0
+    armor-toughness: 10.0
+    will-break: false
+    unbreakable: false
+    custom-miningefficiency: 0.0
+
+CHESTPLATE_PHO_QUAN_NGUC_5:
+  base:
+    material: DIAMOND_CHESTPLATE
+    name: '&cÁo Phó Quản Ngục &e+5'
+    max-durability: 4800
+    tier: LEGENDARY
+    hide-enchants: true
+    lore-format: tool-lore
+    lore:
+      - '&b&l✦ Tiểu Sử'
+      - '&7 &b●&7 Uy quyền hiện diện qua từng lớp giáp'
+      - '&7 &b●&7 Độ Bền Giáp 10 - càng nâng cấp càng chắc chắn'
+    armor: 11.0
+    max-health: 11.0
+    armor-toughness: 10.0
+    will-break: false
+    unbreakable: false
+    custom-miningefficiency: 0.0
+
+CHESTPLATE_QUAN_NGUC_1:
+  base:
+    material: DIAMOND_CHESTPLATE
+    name: '&dÁo Quản Ngục &e+1'
+    max-durability: 6400
+    tier: MYTHICAL
+    hide-enchants: true
+    lore-format: tool-lore
+    lore:
+      - '&b&l✦ Tiểu Sử'
+      - '&7 &b●&7 Không có sát thương nào chạm tới được'
+      - '&7 &b●&7 Độ Bền Giáp 11 - càng nâng cấp càng chắc chắn'
+    armor: 11.0
+    max-health: 11.0
+    armor-toughness: 11.0
+    will-break: false
+    unbreakable: false
+    custom-miningefficiency: 0.0
+
+CHESTPLATE_QUAN_NGUC_2:
+  base:
+    material: DIAMOND_CHESTPLATE
+    name: '&dÁo Quản Ngục &e+2'
+    max-durability: 6400
+    tier: MYTHICAL
+    hide-enchants: true
+    lore-format: tool-lore
+    lore:
+      - '&b&l✦ Tiểu Sử'
+      - '&7 &b●&7 Không có sát thương nào chạm tới được'
+      - '&7 &b●&7 Độ Bền Giáp 11 - càng nâng cấp càng chắc chắn'
+    armor: 12.0
+    max-health: 11.0
+    armor-toughness: 11.0
+    will-break: false
+    unbreakable: false
+    custom-miningefficiency: 0.0
+
+CHESTPLATE_QUAN_NGUC_3:
+  base:
+    material: DIAMOND_CHESTPLATE
+    name: '&dÁo Quản Ngục &e+3'
+    max-durability: 6400
+    tier: MYTHICAL
+    hide-enchants: true
+    lore-format: tool-lore
+    lore:
+      - '&b&l✦ Tiểu Sử'
+      - '&7 &b●&7 Không có sát thương nào chạm tới được'
+      - '&7 &b●&7 Độ Bền Giáp 11 - càng nâng cấp càng chắc chắn'
+    armor: 12.0
+    max-health: 12.0
+    armor-toughness: 11.0
+    will-break: false
+    unbreakable: false
+    custom-miningefficiency: 0.0
+
+CHESTPLATE_QUAN_NGUC_4:
+  base:
+    material: DIAMOND_CHESTPLATE
+    name: '&dÁo Quản Ngục &e+4'
+    max-durability: 6400
+    tier: MYTHICAL
+    hide-enchants: true
+    lore-format: tool-lore
+    lore:
+      - '&b&l✦ Tiểu Sử'
+      - '&7 &b●&7 Không có sát thương nào chạm tới được'
+      - '&7 &b●&7 Độ Bền Giáp 12 - càng nâng cấp càng chắc chắn'
+    armor: 12.0
+    max-health: 12.0
+    armor-toughness: 12.0
+    will-break: false
+    unbreakable: false
+    custom-miningefficiency: 0.0
+
+CHESTPLATE_QUAN_NGUC_5:
+  base:
+    material: DIAMOND_CHESTPLATE
+    name: '&dÁo Quản Ngục &e+5'
+    max-durability: 6400
+    tier: MYTHICAL
+    hide-enchants: true
+    lore-format: tool-lore
+    lore:
+      - '&b&l✦ Tiểu Sử'
+      - '&7 &b●&7 Không có sát thương nào chạm tới được'
+      - '&7 &b●&7 Độ Bền Giáp 12 - càng nâng cấp càng chắc chắn'
+    armor: 13.0
+    max-health: 12.0
+    armor-toughness: 12.0
+    will-break: false
+    unbreakable: false
+    custom-miningefficiency: 0.0
+
+CHESTPLATE_BA_CHU_NGUC_TU_1:
+  base:
+    material: NETHERITE_CHESTPLATE
+    name: '&5Áo Bá Chủ Ngục Tù &e+1'
+    max-durability: 8000
+    tier: EPIC
+    hide-enchants: true
+    lore-format: tool-lore
+    lore:
+      - '&b&l✦ Tiểu Sử'
+      - '&7 &b●&7 Bức tường thành của cả nhà tù'
+      - '&7 &b●&7 Độ Bền Giáp 12 - càng nâng cấp càng chắc chắn'
+    armor: 13.0
+    max-health: 13.0
+    armor-toughness: 12.0
+    will-break: false
+    unbreakable: false
+    custom-miningefficiency: 0.0
+
+CHESTPLATE_BA_CHU_NGUC_TU_2:
+  base:
+    material: NETHERITE_CHESTPLATE
+    name: '&5Áo Bá Chủ Ngục Tù &e+2'
+    max-durability: 8000
+    tier: EPIC
+    hide-enchants: true
+    lore-format: tool-lore
+    lore:
+      - '&b&l✦ Tiểu Sử'
+      - '&7 &b●&7 Bức tường thành của cả nhà tù'
+      - '&7 &b●&7 Độ Bền Giáp 13 - càng nâng cấp càng chắc chắn'
+    armor: 13.0
+    max-health: 13.0
+    armor-toughness: 13.0
+    will-break: false
+    unbreakable: false
+    custom-miningefficiency: 0.0
+
+CHESTPLATE_BA_CHU_NGUC_TU_3:
+  base:
+    material: NETHERITE_CHESTPLATE
+    name: '&5Áo Bá Chủ Ngục Tù &e+3'
+    max-durability: 8000
+    tier: EPIC
+    hide-enchants: true
+    lore-format: tool-lore
+    lore:
+      - '&b&l✦ Tiểu Sử'
+      - '&7 &b●&7 Bức tường thành của cả nhà tù'
+      - '&7 &b●&7 Độ Bền Giáp 13 - càng nâng cấp càng chắc chắn'
+    armor: 14.0
+    max-health: 13.0
+    armor-toughness: 13.0
+    will-break: false
+    unbreakable: false
+    custom-miningefficiency: 0.0
+
+CHESTPLATE_BA_CHU_NGUC_TU_4:
+  base:
+    material: NETHERITE_CHESTPLATE
+    name: '&5Áo Bá Chủ Ngục Tù &e+4'
+    max-durability: 8000
+    tier: EPIC
+    hide-enchants: true
+    lore-format: tool-lore
+    lore:
+      - '&b&l✦ Tiểu Sử'
+      - '&7 &b●&7 Bức tường thành của cả nhà tù'
+      - '&7 &b●&7 Độ Bền Giáp 13 - càng nâng cấp càng chắc chắn'
+    armor: 14.0
+    max-health: 14.0
+    armor-toughness: 13.0
+    will-break: false
+    unbreakable: false
+    custom-miningefficiency: 0.0
+
+CHESTPLATE_BA_CHU_NGUC_TU_5:
+  base:
+    material: NETHERITE_CHESTPLATE
+    name: '&5Áo Bá Chủ Ngục Tù &e+5'
+    max-durability: 8000
+    tier: EPIC
+    hide-enchants: true
+    lore-format: tool-lore
+    lore:
+      - '&b&l✦ Tiểu Sử'
+      - '&7 &b●&7 Bức tường thành của cả nhà tù'
+      - '&7 &b●&7 Độ Bền Giáp 14 - càng nâng cấp càng chắc chắn'
+    armor: 14.0
+    max-health: 14.0
+    armor-toughness: 14.0
+    will-break: false
+    unbreakable: false
+    custom-miningefficiency: 0.0
+
+CHESTPLATE_VUOT_NGUC_1:
+  base:
+    material: NETHERITE_CHESTPLATE
+    name: '&4Áo Vượt Ngục &e+1'
+    max-durability: 12000
+    tier: UNIQUE
+    hide-enchants: true
+    lore-format: tool-lore
+    lore:
+      - '&b&l✦ Tiểu Sử'
+      - '&7 &b●&7 Lớp giáp cuối cùng trước tự do'
+      - '&7 &b●&7 Độ Bền Giáp 14 - càng nâng cấp càng chắc chắn'
+    armor: 15.0
+    max-health: 14.0
+    armor-toughness: 14.0
+    will-break: false
+    unbreakable: false
+    custom-miningefficiency: 0.0
+
+CHESTPLATE_VUOT_NGUC_2:
+  base:
+    material: NETHERITE_CHESTPLATE
+    name: '&4Áo Vượt Ngục &e+2'
+    max-durability: 12000
+    tier: UNIQUE
+    hide-enchants: true
+    lore-format: tool-lore
+    lore:
+      - '&b&l✦ Tiểu Sử'
+      - '&7 &b●&7 Lớp giáp cuối cùng trước tự do'
+      - '&7 &b●&7 Độ Bền Giáp 14 - càng nâng cấp càng chắc chắn'
+    armor: 15.0
+    max-health: 15.0
+    armor-toughness: 14.0
+    will-break: false
+    unbreakable: false
+    custom-miningefficiency: 0.0
+
+CHESTPLATE_VUOT_NGUC_3:
+  base:
+    material: NETHERITE_CHESTPLATE
+    name: '&4Áo Vượt Ngục &e+3'
+    max-durability: 12000
+    tier: UNIQUE
+    hide-enchants: true
+    lore-format: tool-lore
+    lore:
+      - '&b&l✦ Tiểu Sử'
+      - '&7 &b●&7 Lớp giáp cuối cùng trước tự do'
+      - '&7 &b●&7 Độ Bền Giáp 15 - càng nâng cấp càng chắc chắn'
+    armor: 15.0
+    max-health: 15.0
+    armor-toughness: 15.0
+    will-break: false
+    unbreakable: false
+    custom-miningefficiency: 0.0
+
+CHESTPLATE_VUOT_NGUC_4:
+  base:
+    material: NETHERITE_CHESTPLATE
+    name: '&4Áo Vượt Ngục &e+4'
+    max-durability: 12000
+    tier: UNIQUE
+    hide-enchants: true
+    lore-format: tool-lore
+    lore:
+      - '&b&l✦ Tiểu Sử'
+      - '&7 &b●&7 Lớp giáp cuối cùng trước tự do'
+      - '&7 &b●&7 Độ Bền Giáp 15 - càng nâng cấp càng chắc chắn'
+    armor: 16.0
+    max-health: 15.0
+    armor-toughness: 15.0
+    will-break: false
+    unbreakable: false
+    custom-miningefficiency: 0.0
+
+CHESTPLATE_VUOT_NGUC_5:
+  base:
+    material: NETHERITE_CHESTPLATE
+    name: '&4Áo Vượt Ngục &e+5'
+    max-durability: 12000
+    tier: UNIQUE
+    hide-enchants: true
+    lore-format: tool-lore
+    lore:
+      - '&b&l✦ Tiểu Sử'
+      - '&7 &b●&7 Lớp giáp cuối cùng trước tự do'
+      - '&7 &b●&7 Độ Bền Giáp 15 - càng nâng cấp càng chắc chắn'
+    armor: 16.0
+    max-health: 16.0
+    armor-toughness: 15.0
+    will-break: false
+    unbreakable: false
+    custom-miningefficiency: 0.0
+
+LEGGINGS_TAN_BINH_1:
+  base:
+    material: LEATHER_LEGGINGS
+    name: '&fQuần Tân Binh &e+1'
+    max-durability: 400
+    tier: TRASH
+    hide-enchants: true
+    lore-format: tool-lore
+    lore:
+      - '&b&l✦ Tiểu Sử'
+      - '&7 &b●&7 Giáp khởi đầu của mọi tù nhân'
+      - '&7 &b●&7 Độ Bền Giáp 1 - càng nâng cấp càng chắc chắn'
+    armor: 1.0
+    max-health: 1.0
+    armor-toughness: 1.0
+    will-break: false
+    unbreakable: false
+    custom-miningefficiency: 0.0
+
+LEGGINGS_TAN_BINH_2:
+  base:
+    material: LEATHER_LEGGINGS
+    name: '&fQuần Tân Binh &e+2'
+    max-durability: 400
+    tier: TRASH
+    hide-enchants: true
+    lore-format: tool-lore
+    lore:
+      - '&b&l✦ Tiểu Sử'
+      - '&7 &b●&7 Giáp khởi đầu của mọi tù nhân'
+      - '&7 &b●&7 Độ Bền Giáp 1 - càng nâng cấp càng chắc chắn'
+    armor: 2.0
+    max-health: 1.0
+    armor-toughness: 1.0
+    will-break: false
+    unbreakable: false
+    custom-miningefficiency: 0.0
+
+LEGGINGS_TAN_BINH_3:
+  base:
+    material: LEATHER_LEGGINGS
+    name: '&fQuần Tân Binh &e+3'
+    max-durability: 400
+    tier: TRASH
+    hide-enchants: true
+    lore-format: tool-lore
+    lore:
+      - '&b&l✦ Tiểu Sử'
+      - '&7 &b●&7 Giáp khởi đầu của mọi tù nhân'
+      - '&7 &b●&7 Độ Bền Giáp 1 - càng nâng cấp càng chắc chắn'
+    armor: 2.0
+    max-health: 2.0
+    armor-toughness: 1.0
+    will-break: false
+    unbreakable: false
+    custom-miningefficiency: 0.0
+
+LEGGINGS_TAN_BINH_4:
+  base:
+    material: LEATHER_LEGGINGS
+    name: '&fQuần Tân Binh &e+4'
+    max-durability: 400
+    tier: TRASH
+    hide-enchants: true
+    lore-format: tool-lore
+    lore:
+      - '&b&l✦ Tiểu Sử'
+      - '&7 &b●&7 Giáp khởi đầu của mọi tù nhân'
+      - '&7 &b●&7 Độ Bền Giáp 2 - càng nâng cấp càng chắc chắn'
+    armor: 2.0
+    max-health: 2.0
+    armor-toughness: 2.0
+    will-break: false
+    unbreakable: false
+    custom-miningefficiency: 0.0
+
+LEGGINGS_TAN_BINH_5:
+  base:
+    material: LEATHER_LEGGINGS
+    name: '&fQuần Tân Binh &e+5'
+    max-durability: 400
+    tier: TRASH
+    hide-enchants: true
+    lore-format: tool-lore
+    lore:
+      - '&b&l✦ Tiểu Sử'
+      - '&7 &b●&7 Giáp khởi đầu của mọi tù nhân'
+      - '&7 &b●&7 Độ Bền Giáp 2 - càng nâng cấp càng chắc chắn'
+    armor: 3.0
+    max-health: 2.0
+    armor-toughness: 2.0
+    will-break: false
+    unbreakable: false
+    custom-miningefficiency: 0.0
+
+LEGGINGS_TU_NHAN_1:
+  base:
+    material: LEATHER_LEGGINGS
+    name: '&aQuần Tù Nhân &e+1'
+    max-durability: 800
+    tier: COMMON
+    hide-enchants: true
+    lore-format: tool-lore
+    lore:
+      - '&b&l✦ Tiểu Sử'
+      - '&7 &b●&7 Che chắn tạm đủ qua ngày lao động'
+      - '&7 &b●&7 Độ Bền Giáp 2 - càng nâng cấp càng chắc chắn'
+    armor: 3.0
+    max-health: 3.0
+    armor-toughness: 2.0
+    will-break: false
+    unbreakable: false
+    custom-miningefficiency: 0.0
+
+LEGGINGS_TU_NHAN_2:
+  base:
+    material: LEATHER_LEGGINGS
+    name: '&aQuần Tù Nhân &e+2'
+    max-durability: 800
+    tier: COMMON
+    hide-enchants: true
+    lore-format: tool-lore
+    lore:
+      - '&b&l✦ Tiểu Sử'
+      - '&7 &b●&7 Che chắn tạm đủ qua ngày lao động'
+      - '&7 &b●&7 Độ Bền Giáp 3 - càng nâng cấp càng chắc chắn'
+    armor: 3.0
+    max-health: 3.0
+    armor-toughness: 3.0
+    will-break: false
+    unbreakable: false
+    custom-miningefficiency: 0.0
+
+LEGGINGS_TU_NHAN_3:
+  base:
+    material: LEATHER_LEGGINGS
+    name: '&aQuần Tù Nhân &e+3'
+    max-durability: 800
+    tier: COMMON
+    hide-enchants: true
+    lore-format: tool-lore
+    lore:
+      - '&b&l✦ Tiểu Sử'
+      - '&7 &b●&7 Che chắn tạm đủ qua ngày lao động'
+      - '&7 &b●&7 Độ Bền Giáp 3 - càng nâng cấp càng chắc chắn'
+    armor: 4.0
+    max-health: 3.0
+    armor-toughness: 3.0
+    will-break: false
+    unbreakable: false
+    custom-miningefficiency: 0.0
+
+LEGGINGS_TU_NHAN_4:
+  base:
+    material: LEATHER_LEGGINGS
+    name: '&aQuần Tù Nhân &e+4'
+    max-durability: 800
+    tier: COMMON
+    hide-enchants: true
+    lore-format: tool-lore
+    lore:
+      - '&b&l✦ Tiểu Sử'
+      - '&7 &b●&7 Che chắn tạm đủ qua ngày lao động'
+      - '&7 &b●&7 Độ Bền Giáp 3 - càng nâng cấp càng chắc chắn'
+    armor: 4.0
+    max-health: 4.0
+    armor-toughness: 3.0
+    will-break: false
+    unbreakable: false
+    custom-miningefficiency: 0.0
+
+LEGGINGS_TU_NHAN_5:
+  base:
+    material: LEATHER_LEGGINGS
+    name: '&aQuần Tù Nhân &e+5'
+    max-durability: 800
+    tier: COMMON
+    hide-enchants: true
+    lore-format: tool-lore
+    lore:
+      - '&b&l✦ Tiểu Sử'
+      - '&7 &b●&7 Che chắn tạm đủ qua ngày lao động'
+      - '&7 &b●&7 Độ Bền Giáp 4 - càng nâng cấp càng chắc chắn'
+    armor: 4.0
+    max-health: 4.0
+    armor-toughness: 4.0
+    will-break: false
+    unbreakable: false
+    custom-miningefficiency: 0.0
+
+LEGGINGS_LAO_CONG_1:
+  base:
+    material: CHAINMAIL_LEGGINGS
+    name: '&bQuần Lao Công &e+1'
+    max-durability: 1600
+    tier: UNCOMMON
+    hide-enchants: true
+    lore-format: tool-lore
+    lore:
+      - '&b&l✦ Tiểu Sử'
+      - '&7 &b●&7 Dấu ấn của người lao động chính thức'
+      - '&7 &b●&7 Độ Bền Giáp 4 - càng nâng cấp càng chắc chắn'
+    armor: 5.0
+    max-health: 4.0
+    armor-toughness: 4.0
+    will-break: false
+    unbreakable: false
+    custom-miningefficiency: 0.0
+
+LEGGINGS_LAO_CONG_2:
+  base:
+    material: CHAINMAIL_LEGGINGS
+    name: '&bQuần Lao Công &e+2'
+    max-durability: 1600
+    tier: UNCOMMON
+    hide-enchants: true
+    lore-format: tool-lore
+    lore:
+      - '&b&l✦ Tiểu Sử'
+      - '&7 &b●&7 Dấu ấn của người lao động chính thức'
+      - '&7 &b●&7 Độ Bền Giáp 4 - càng nâng cấp càng chắc chắn'
+    armor: 5.0
+    max-health: 5.0
+    armor-toughness: 4.0
+    will-break: false
+    unbreakable: false
+    custom-miningefficiency: 0.0
+
+LEGGINGS_LAO_CONG_3:
+  base:
+    material: CHAINMAIL_LEGGINGS
+    name: '&bQuần Lao Công &e+3'
+    max-durability: 1600
+    tier: UNCOMMON
+    hide-enchants: true
+    lore-format: tool-lore
+    lore:
+      - '&b&l✦ Tiểu Sử'
+      - '&7 &b●&7 Dấu ấn của người lao động chính thức'
+      - '&7 &b●&7 Độ Bền Giáp 5 - càng nâng cấp càng chắc chắn'
+    armor: 5.0
+    max-health: 5.0
+    armor-toughness: 5.0
+    will-break: false
+    unbreakable: false
+    custom-miningefficiency: 0.0
+
+LEGGINGS_LAO_CONG_4:
+  base:
+    material: CHAINMAIL_LEGGINGS
+    name: '&bQuần Lao Công &e+4'
+    max-durability: 1600
+    tier: UNCOMMON
+    hide-enchants: true
+    lore-format: tool-lore
+    lore:
+      - '&b&l✦ Tiểu Sử'
+      - '&7 &b●&7 Dấu ấn của người lao động chính thức'
+      - '&7 &b●&7 Độ Bền Giáp 5 - càng nâng cấp càng chắc chắn'
+    armor: 6.0
+    max-health: 5.0
+    armor-toughness: 5.0
+    will-break: false
+    unbreakable: false
+    custom-miningefficiency: 0.0
+
+LEGGINGS_LAO_CONG_5:
+  base:
+    material: CHAINMAIL_LEGGINGS
+    name: '&bQuần Lao Công &e+5'
+    max-durability: 1600
+    tier: UNCOMMON
+    hide-enchants: true
+    lore-format: tool-lore
+    lore:
+      - '&b&l✦ Tiểu Sử'
+      - '&7 &b●&7 Dấu ấn của người lao động chính thức'
+      - '&7 &b●&7 Độ Bền Giáp 5 - càng nâng cấp càng chắc chắn'
+    armor: 6.0
+    max-health: 6.0
+    armor-toughness: 5.0
+    will-break: false
+    unbreakable: false
+    custom-miningefficiency: 0.0
+
+LEGGINGS_THO_DAO_1:
+  base:
+    material: IRON_LEGGINGS
+    name: '&eQuần Thợ Đào &e+1'
+    max-durability: 2400
+    tier: RARE
+    hide-enchants: true
+    lore-format: tool-lore
+    lore:
+      - '&b&l✦ Tiểu Sử'
+      - '&7 &b●&7 Vững vàng trước hiểm nguy trong mỏ sâu'
+      - '&7 &b●&7 Độ Bền Giáp 6 - càng nâng cấp càng chắc chắn'
+    armor: 6.0
+    max-health: 6.0
+    armor-toughness: 6.0
+    will-break: false
+    unbreakable: false
+    custom-miningefficiency: 0.0
+
+LEGGINGS_THO_DAO_2:
+  base:
+    material: IRON_LEGGINGS
+    name: '&eQuần Thợ Đào &e+2'
+    max-durability: 2400
+    tier: RARE
+    hide-enchants: true
+    lore-format: tool-lore
+    lore:
+      - '&b&l✦ Tiểu Sử'
+      - '&7 &b●&7 Vững vàng trước hiểm nguy trong mỏ sâu'
+      - '&7 &b●&7 Độ Bền Giáp 6 - càng nâng cấp càng chắc chắn'
+    armor: 7.0
+    max-health: 6.0
+    armor-toughness: 6.0
+    will-break: false
+    unbreakable: false
+    custom-miningefficiency: 0.0
+
+LEGGINGS_THO_DAO_3:
+  base:
+    material: IRON_LEGGINGS
+    name: '&eQuần Thợ Đào &e+3'
+    max-durability: 2400
+    tier: RARE
+    hide-enchants: true
+    lore-format: tool-lore
+    lore:
+      - '&b&l✦ Tiểu Sử'
+      - '&7 &b●&7 Vững vàng trước hiểm nguy trong mỏ sâu'
+      - '&7 &b●&7 Độ Bền Giáp 6 - càng nâng cấp càng chắc chắn'
+    armor: 7.0
+    max-health: 7.0
+    armor-toughness: 6.0
+    will-break: false
+    unbreakable: false
+    custom-miningefficiency: 0.0
+
+LEGGINGS_THO_DAO_4:
+  base:
+    material: IRON_LEGGINGS
+    name: '&eQuần Thợ Đào &e+4'
+    max-durability: 2400
+    tier: RARE
+    hide-enchants: true
+    lore-format: tool-lore
+    lore:
+      - '&b&l✦ Tiểu Sử'
+      - '&7 &b●&7 Vững vàng trước hiểm nguy trong mỏ sâu'
+      - '&7 &b●&7 Độ Bền Giáp 7 - càng nâng cấp càng chắc chắn'
+    armor: 7.0
+    max-health: 7.0
+    armor-toughness: 7.0
+    will-break: false
+    unbreakable: false
+    custom-miningefficiency: 0.0
+
+LEGGINGS_THO_DAO_5:
+  base:
+    material: IRON_LEGGINGS
+    name: '&eQuần Thợ Đào &e+5'
+    max-durability: 2400
+    tier: RARE
+    hide-enchants: true
+    lore-format: tool-lore
+    lore:
+      - '&b&l✦ Tiểu Sử'
+      - '&7 &b●&7 Vững vàng trước hiểm nguy trong mỏ sâu'
+      - '&7 &b●&7 Độ Bền Giáp 7 - càng nâng cấp càng chắc chắn'
+    armor: 8.0
+    max-health: 7.0
+    armor-toughness: 7.0
+    will-break: false
+    unbreakable: false
+    custom-miningefficiency: 0.0
+
+LEGGINGS_DOI_TRUONG_1:
+  base:
+    material: IRON_LEGGINGS
+    name: '&6Quần Đội Trưởng &e+1'
+    max-durability: 3600
+    tier: VERY_RARE
+    hide-enchants: true
+    lore-format: tool-lore
+    lore:
+      - '&b&l✦ Tiểu Sử'
+      - '&7 &b●&7 Bảo vệ cả đội trước mọi hiểm nguy'
+      - '&7 &b●&7 Độ Bền Giáp 7 - càng nâng cấp càng chắc chắn'
+    armor: 8.0
+    max-health: 8.0
+    armor-toughness: 7.0
+    will-break: false
+    unbreakable: false
+    custom-miningefficiency: 0.0
+
+LEGGINGS_DOI_TRUONG_2:
+  base:
+    material: IRON_LEGGINGS
+    name: '&6Quần Đội Trưởng &e+2'
+    max-durability: 3600
+    tier: VERY_RARE
+    hide-enchants: true
+    lore-format: tool-lore
+    lore:
+      - '&b&l✦ Tiểu Sử'
+      - '&7 &b●&7 Bảo vệ cả đội trước mọi hiểm nguy'
+      - '&7 &b●&7 Độ Bền Giáp 8 - càng nâng cấp càng chắc chắn'
+    armor: 8.0
+    max-health: 8.0
+    armor-toughness: 8.0
+    will-break: false
+    unbreakable: false
+    custom-miningefficiency: 0.0
+
+LEGGINGS_DOI_TRUONG_3:
+  base:
+    material: IRON_LEGGINGS
+    name: '&6Quần Đội Trưởng &e+3'
+    max-durability: 3600
+    tier: VERY_RARE
+    hide-enchants: true
+    lore-format: tool-lore
+    lore:
+      - '&b&l✦ Tiểu Sử'
+      - '&7 &b●&7 Bảo vệ cả đội trước mọi hiểm nguy'
+      - '&7 &b●&7 Độ Bền Giáp 8 - càng nâng cấp càng chắc chắn'
+    armor: 9.0
+    max-health: 8.0
+    armor-toughness: 8.0
+    will-break: false
+    unbreakable: false
+    custom-miningefficiency: 0.0
+
+LEGGINGS_DOI_TRUONG_4:
+  base:
+    material: IRON_LEGGINGS
+    name: '&6Quần Đội Trưởng &e+4'
+    max-durability: 3600
+    tier: VERY_RARE
+    hide-enchants: true
+    lore-format: tool-lore
+    lore:
+      - '&b&l✦ Tiểu Sử'
+      - '&7 &b●&7 Bảo vệ cả đội trước mọi hiểm nguy'
+      - '&7 &b●&7 Độ Bền Giáp 8 - càng nâng cấp càng chắc chắn'
+    armor: 9.0
+    max-health: 9.0
+    armor-toughness: 8.0
+    will-break: false
+    unbreakable: false
+    custom-miningefficiency: 0.0
+
+LEGGINGS_DOI_TRUONG_5:
+  base:
+    material: IRON_LEGGINGS
+    name: '&6Quần Đội Trưởng &e+5'
+    max-durability: 3600
+    tier: VERY_RARE
+    hide-enchants: true
+    lore-format: tool-lore
+    lore:
+      - '&b&l✦ Tiểu Sử'
+      - '&7 &b●&7 Bảo vệ cả đội trước mọi hiểm nguy'
+      - '&7 &b●&7 Độ Bền Giáp 9 - càng nâng cấp càng chắc chắn'
+    armor: 9.0
+    max-health: 9.0
+    armor-toughness: 9.0
+    will-break: false
+    unbreakable: false
+    custom-miningefficiency: 0.0
+
+LEGGINGS_PHO_QUAN_NGUC_1:
+  base:
+    material: DIAMOND_LEGGINGS
+    name: '&cQuần Phó Quản Ngục &e+1'
+    max-durability: 4800
+    tier: LEGENDARY
+    hide-enchants: true
+    lore-format: tool-lore
+    lore:
+      - '&b&l✦ Tiểu Sử'
+      - '&7 &b●&7 Uy quyền hiện diện qua từng lớp giáp'
+      - '&7 &b●&7 Độ Bền Giáp 9 - càng nâng cấp càng chắc chắn'
+    armor: 10.0
+    max-health: 9.0
+    armor-toughness: 9.0
+    will-break: false
+    unbreakable: false
+    custom-miningefficiency: 0.0
+
+LEGGINGS_PHO_QUAN_NGUC_2:
+  base:
+    material: DIAMOND_LEGGINGS
+    name: '&cQuần Phó Quản Ngục &e+2'
+    max-durability: 4800
+    tier: LEGENDARY
+    hide-enchants: true
+    lore-format: tool-lore
+    lore:
+      - '&b&l✦ Tiểu Sử'
+      - '&7 &b●&7 Uy quyền hiện diện qua từng lớp giáp'
+      - '&7 &b●&7 Độ Bền Giáp 9 - càng nâng cấp càng chắc chắn'
+    armor: 10.0
+    max-health: 10.0
+    armor-toughness: 9.0
+    will-break: false
+    unbreakable: false
+    custom-miningefficiency: 0.0
+
+LEGGINGS_PHO_QUAN_NGUC_3:
+  base:
+    material: DIAMOND_LEGGINGS
+    name: '&cQuần Phó Quản Ngục &e+3'
+    max-durability: 4800
+    tier: LEGENDARY
+    hide-enchants: true
+    lore-format: tool-lore
+    lore:
+      - '&b&l✦ Tiểu Sử'
+      - '&7 &b●&7 Uy quyền hiện diện qua từng lớp giáp'
+      - '&7 &b●&7 Độ Bền Giáp 10 - càng nâng cấp càng chắc chắn'
+    armor: 10.0
+    max-health: 10.0
+    armor-toughness: 10.0
+    will-break: false
+    unbreakable: false
+    custom-miningefficiency: 0.0
+
+LEGGINGS_PHO_QUAN_NGUC_4:
+  base:
+    material: DIAMOND_LEGGINGS
+    name: '&cQuần Phó Quản Ngục &e+4'
+    max-durability: 4800
+    tier: LEGENDARY
+    hide-enchants: true
+    lore-format: tool-lore
+    lore:
+      - '&b&l✦ Tiểu Sử'
+      - '&7 &b●&7 Uy quyền hiện diện qua từng lớp giáp'
+      - '&7 &b●&7 Độ Bền Giáp 10 - càng nâng cấp càng chắc chắn'
+    armor: 11.0
+    max-health: 10.0
+    armor-toughness: 10.0
+    will-break: false
+    unbreakable: false
+    custom-miningefficiency: 0.0
+
+LEGGINGS_PHO_QUAN_NGUC_5:
+  base:
+    material: DIAMOND_LEGGINGS
+    name: '&cQuần Phó Quản Ngục &e+5'
+    max-durability: 4800
+    tier: LEGENDARY
+    hide-enchants: true
+    lore-format: tool-lore
+    lore:
+      - '&b&l✦ Tiểu Sử'
+      - '&7 &b●&7 Uy quyền hiện diện qua từng lớp giáp'
+      - '&7 &b●&7 Độ Bền Giáp 10 - càng nâng cấp càng chắc chắn'
+    armor: 11.0
+    max-health: 11.0
+    armor-toughness: 10.0
+    will-break: false
+    unbreakable: false
+    custom-miningefficiency: 0.0
+
+LEGGINGS_QUAN_NGUC_1:
+  base:
+    material: DIAMOND_LEGGINGS
+    name: '&dQuần Quản Ngục &e+1'
+    max-durability: 6400
+    tier: MYTHICAL
+    hide-enchants: true
+    lore-format: tool-lore
+    lore:
+      - '&b&l✦ Tiểu Sử'
+      - '&7 &b●&7 Không có sát thương nào chạm tới được'
+      - '&7 &b●&7 Độ Bền Giáp 11 - càng nâng cấp càng chắc chắn'
+    armor: 11.0
+    max-health: 11.0
+    armor-toughness: 11.0
+    will-break: false
+    unbreakable: false
+    custom-miningefficiency: 0.0
+
+LEGGINGS_QUAN_NGUC_2:
+  base:
+    material: DIAMOND_LEGGINGS
+    name: '&dQuần Quản Ngục &e+2'
+    max-durability: 6400
+    tier: MYTHICAL
+    hide-enchants: true
+    lore-format: tool-lore
+    lore:
+      - '&b&l✦ Tiểu Sử'
+      - '&7 &b●&7 Không có sát thương nào chạm tới được'
+      - '&7 &b●&7 Độ Bền Giáp 11 - càng nâng cấp càng chắc chắn'
+    armor: 12.0
+    max-health: 11.0
+    armor-toughness: 11.0
+    will-break: false
+    unbreakable: false
+    custom-miningefficiency: 0.0
+
+LEGGINGS_QUAN_NGUC_3:
+  base:
+    material: DIAMOND_LEGGINGS
+    name: '&dQuần Quản Ngục &e+3'
+    max-durability: 6400
+    tier: MYTHICAL
+    hide-enchants: true
+    lore-format: tool-lore
+    lore:
+      - '&b&l✦ Tiểu Sử'
+      - '&7 &b●&7 Không có sát thương nào chạm tới được'
+      - '&7 &b●&7 Độ Bền Giáp 11 - càng nâng cấp càng chắc chắn'
+    armor: 12.0
+    max-health: 12.0
+    armor-toughness: 11.0
+    will-break: false
+    unbreakable: false
+    custom-miningefficiency: 0.0
+
+LEGGINGS_QUAN_NGUC_4:
+  base:
+    material: DIAMOND_LEGGINGS
+    name: '&dQuần Quản Ngục &e+4'
+    max-durability: 6400
+    tier: MYTHICAL
+    hide-enchants: true
+    lore-format: tool-lore
+    lore:
+      - '&b&l✦ Tiểu Sử'
+      - '&7 &b●&7 Không có sát thương nào chạm tới được'
+      - '&7 &b●&7 Độ Bền Giáp 12 - càng nâng cấp càng chắc chắn'
+    armor: 12.0
+    max-health: 12.0
+    armor-toughness: 12.0
+    will-break: false
+    unbreakable: false
+    custom-miningefficiency: 0.0
+
+LEGGINGS_QUAN_NGUC_5:
+  base:
+    material: DIAMOND_LEGGINGS
+    name: '&dQuần Quản Ngục &e+5'
+    max-durability: 6400
+    tier: MYTHICAL
+    hide-enchants: true
+    lore-format: tool-lore
+    lore:
+      - '&b&l✦ Tiểu Sử'
+      - '&7 &b●&7 Không có sát thương nào chạm tới được'
+      - '&7 &b●&7 Độ Bền Giáp 12 - càng nâng cấp càng chắc chắn'
+    armor: 13.0
+    max-health: 12.0
+    armor-toughness: 12.0
+    will-break: false
+    unbreakable: false
+    custom-miningefficiency: 0.0
+
+LEGGINGS_BA_CHU_NGUC_TU_1:
+  base:
+    material: NETHERITE_LEGGINGS
+    name: '&5Quần Bá Chủ Ngục Tù &e+1'
+    max-durability: 8000
+    tier: EPIC
+    hide-enchants: true
+    lore-format: tool-lore
+    lore:
+      - '&b&l✦ Tiểu Sử'
+      - '&7 &b●&7 Bức tường thành của cả nhà tù'
+      - '&7 &b●&7 Độ Bền Giáp 12 - càng nâng cấp càng chắc chắn'
+    armor: 13.0
+    max-health: 13.0
+    armor-toughness: 12.0
+    will-break: false
+    unbreakable: false
+    custom-miningefficiency: 0.0
+
+LEGGINGS_BA_CHU_NGUC_TU_2:
+  base:
+    material: NETHERITE_LEGGINGS
+    name: '&5Quần Bá Chủ Ngục Tù &e+2'
+    max-durability: 8000
+    tier: EPIC
+    hide-enchants: true
+    lore-format: tool-lore
+    lore:
+      - '&b&l✦ Tiểu Sử'
+      - '&7 &b●&7 Bức tường thành của cả nhà tù'
+      - '&7 &b●&7 Độ Bền Giáp 13 - càng nâng cấp càng chắc chắn'
+    armor: 13.0
+    max-health: 13.0
+    armor-toughness: 13.0
+    will-break: false
+    unbreakable: false
+    custom-miningefficiency: 0.0
+
+LEGGINGS_BA_CHU_NGUC_TU_3:
+  base:
+    material: NETHERITE_LEGGINGS
+    name: '&5Quần Bá Chủ Ngục Tù &e+3'
+    max-durability: 8000
+    tier: EPIC
+    hide-enchants: true
+    lore-format: tool-lore
+    lore:
+      - '&b&l✦ Tiểu Sử'
+      - '&7 &b●&7 Bức tường thành của cả nhà tù'
+      - '&7 &b●&7 Độ Bền Giáp 13 - càng nâng cấp càng chắc chắn'
+    armor: 14.0
+    max-health: 13.0
+    armor-toughness: 13.0
+    will-break: false
+    unbreakable: false
+    custom-miningefficiency: 0.0
+
+LEGGINGS_BA_CHU_NGUC_TU_4:
+  base:
+    material: NETHERITE_LEGGINGS
+    name: '&5Quần Bá Chủ Ngục Tù &e+4'
+    max-durability: 8000
+    tier: EPIC
+    hide-enchants: true
+    lore-format: tool-lore
+    lore:
+      - '&b&l✦ Tiểu Sử'
+      - '&7 &b●&7 Bức tường thành của cả nhà tù'
+      - '&7 &b●&7 Độ Bền Giáp 13 - càng nâng cấp càng chắc chắn'
+    armor: 14.0
+    max-health: 14.0
+    armor-toughness: 13.0
+    will-break: false
+    unbreakable: false
+    custom-miningefficiency: 0.0
+
+LEGGINGS_BA_CHU_NGUC_TU_5:
+  base:
+    material: NETHERITE_LEGGINGS
+    name: '&5Quần Bá Chủ Ngục Tù &e+5'
+    max-durability: 8000
+    tier: EPIC
+    hide-enchants: true
+    lore-format: tool-lore
+    lore:
+      - '&b&l✦ Tiểu Sử'
+      - '&7 &b●&7 Bức tường thành của cả nhà tù'
+      - '&7 &b●&7 Độ Bền Giáp 14 - càng nâng cấp càng chắc chắn'
+    armor: 14.0
+    max-health: 14.0
+    armor-toughness: 14.0
+    will-break: false
+    unbreakable: false
+    custom-miningefficiency: 0.0
+
+LEGGINGS_VUOT_NGUC_1:
+  base:
+    material: NETHERITE_LEGGINGS
+    name: '&4Quần Vượt Ngục &e+1'
+    max-durability: 12000
+    tier: UNIQUE
+    hide-enchants: true
+    lore-format: tool-lore
+    lore:
+      - '&b&l✦ Tiểu Sử'
+      - '&7 &b●&7 Lớp giáp cuối cùng trước tự do'
+      - '&7 &b●&7 Độ Bền Giáp 14 - càng nâng cấp càng chắc chắn'
+    armor: 15.0
+    max-health: 14.0
+    armor-toughness: 14.0
+    will-break: false
+    unbreakable: false
+    custom-miningefficiency: 0.0
+
+LEGGINGS_VUOT_NGUC_2:
+  base:
+    material: NETHERITE_LEGGINGS
+    name: '&4Quần Vượt Ngục &e+2'
+    max-durability: 12000
+    tier: UNIQUE
+    hide-enchants: true
+    lore-format: tool-lore
+    lore:
+      - '&b&l✦ Tiểu Sử'
+      - '&7 &b●&7 Lớp giáp cuối cùng trước tự do'
+      - '&7 &b●&7 Độ Bền Giáp 14 - càng nâng cấp càng chắc chắn'
+    armor: 15.0
+    max-health: 15.0
+    armor-toughness: 14.0
+    will-break: false
+    unbreakable: false
+    custom-miningefficiency: 0.0
+
+LEGGINGS_VUOT_NGUC_3:
+  base:
+    material: NETHERITE_LEGGINGS
+    name: '&4Quần Vượt Ngục &e+3'
+    max-durability: 12000
+    tier: UNIQUE
+    hide-enchants: true
+    lore-format: tool-lore
+    lore:
+      - '&b&l✦ Tiểu Sử'
+      - '&7 &b●&7 Lớp giáp cuối cùng trước tự do'
+      - '&7 &b●&7 Độ Bền Giáp 15 - càng nâng cấp càng chắc chắn'
+    armor: 15.0
+    max-health: 15.0
+    armor-toughness: 15.0
+    will-break: false
+    unbreakable: false
+    custom-miningefficiency: 0.0
+
+LEGGINGS_VUOT_NGUC_4:
+  base:
+    material: NETHERITE_LEGGINGS
+    name: '&4Quần Vượt Ngục &e+4'
+    max-durability: 12000
+    tier: UNIQUE
+    hide-enchants: true
+    lore-format: tool-lore
+    lore:
+      - '&b&l✦ Tiểu Sử'
+      - '&7 &b●&7 Lớp giáp cuối cùng trước tự do'
+      - '&7 &b●&7 Độ Bền Giáp 15 - càng nâng cấp càng chắc chắn'
+    armor: 16.0
+    max-health: 15.0
+    armor-toughness: 15.0
+    will-break: false
+    unbreakable: false
+    custom-miningefficiency: 0.0
+
+LEGGINGS_VUOT_NGUC_5:
+  base:
+    material: NETHERITE_LEGGINGS
+    name: '&4Quần Vượt Ngục &e+5'
+    max-durability: 12000
+    tier: UNIQUE
+    hide-enchants: true
+    lore-format: tool-lore
+    lore:
+      - '&b&l✦ Tiểu Sử'
+      - '&7 &b●&7 Lớp giáp cuối cùng trước tự do'
+      - '&7 &b●&7 Độ Bền Giáp 15 - càng nâng cấp càng chắc chắn'
+    armor: 16.0
+    max-health: 16.0
+    armor-toughness: 15.0
+    will-break: false
+    unbreakable: false
+    custom-miningefficiency: 0.0
+
+BOOTS_TAN_BINH_1:
+  base:
+    material: LEATHER_BOOTS
+    name: '&fGiày Tân Binh &e+1'
+    max-durability: 400
+    tier: TRASH
+    hide-enchants: true
+    lore-format: tool-lore
+    lore:
+      - '&b&l✦ Tiểu Sử'
+      - '&7 &b●&7 Giáp khởi đầu của mọi tù nhân'
+      - '&7 &b●&7 Độ Bền Giáp 1 - càng nâng cấp càng chắc chắn'
+    armor: 1.0
+    max-health: 1.0
+    armor-toughness: 1.0
+    will-break: false
+    unbreakable: false
+    custom-miningefficiency: 0.0
+
+BOOTS_TAN_BINH_2:
+  base:
+    material: LEATHER_BOOTS
+    name: '&fGiày Tân Binh &e+2'
+    max-durability: 400
+    tier: TRASH
+    hide-enchants: true
+    lore-format: tool-lore
+    lore:
+      - '&b&l✦ Tiểu Sử'
+      - '&7 &b●&7 Giáp khởi đầu của mọi tù nhân'
+      - '&7 &b●&7 Độ Bền Giáp 1 - càng nâng cấp càng chắc chắn'
+    armor: 2.0
+    max-health: 1.0
+    armor-toughness: 1.0
+    will-break: false
+    unbreakable: false
+    custom-miningefficiency: 0.0
+
+BOOTS_TAN_BINH_3:
+  base:
+    material: LEATHER_BOOTS
+    name: '&fGiày Tân Binh &e+3'
+    max-durability: 400
+    tier: TRASH
+    hide-enchants: true
+    lore-format: tool-lore
+    lore:
+      - '&b&l✦ Tiểu Sử'
+      - '&7 &b●&7 Giáp khởi đầu của mọi tù nhân'
+      - '&7 &b●&7 Độ Bền Giáp 1 - càng nâng cấp càng chắc chắn'
+    armor: 2.0
+    max-health: 2.0
+    armor-toughness: 1.0
+    will-break: false
+    unbreakable: false
+    custom-miningefficiency: 0.0
+
+BOOTS_TAN_BINH_4:
+  base:
+    material: LEATHER_BOOTS
+    name: '&fGiày Tân Binh &e+4'
+    max-durability: 400
+    tier: TRASH
+    hide-enchants: true
+    lore-format: tool-lore
+    lore:
+      - '&b&l✦ Tiểu Sử'
+      - '&7 &b●&7 Giáp khởi đầu của mọi tù nhân'
+      - '&7 &b●&7 Độ Bền Giáp 2 - càng nâng cấp càng chắc chắn'
+    armor: 2.0
+    max-health: 2.0
+    armor-toughness: 2.0
+    will-break: false
+    unbreakable: false
+    custom-miningefficiency: 0.0
+
+BOOTS_TAN_BINH_5:
+  base:
+    material: LEATHER_BOOTS
+    name: '&fGiày Tân Binh &e+5'
+    max-durability: 400
+    tier: TRASH
+    hide-enchants: true
+    lore-format: tool-lore
+    lore:
+      - '&b&l✦ Tiểu Sử'
+      - '&7 &b●&7 Giáp khởi đầu của mọi tù nhân'
+      - '&7 &b●&7 Độ Bền Giáp 2 - càng nâng cấp càng chắc chắn'
+    armor: 3.0
+    max-health: 2.0
+    armor-toughness: 2.0
+    will-break: false
+    unbreakable: false
+    custom-miningefficiency: 0.0
+
+BOOTS_TU_NHAN_1:
+  base:
+    material: LEATHER_BOOTS
+    name: '&aGiày Tù Nhân &e+1'
+    max-durability: 800
+    tier: COMMON
+    hide-enchants: true
+    lore-format: tool-lore
+    lore:
+      - '&b&l✦ Tiểu Sử'
+      - '&7 &b●&7 Che chắn tạm đủ qua ngày lao động'
+      - '&7 &b●&7 Độ Bền Giáp 2 - càng nâng cấp càng chắc chắn'
+    armor: 3.0
+    max-health: 3.0
+    armor-toughness: 2.0
+    will-break: false
+    unbreakable: false
+    custom-miningefficiency: 0.0
+
+BOOTS_TU_NHAN_2:
+  base:
+    material: LEATHER_BOOTS
+    name: '&aGiày Tù Nhân &e+2'
+    max-durability: 800
+    tier: COMMON
+    hide-enchants: true
+    lore-format: tool-lore
+    lore:
+      - '&b&l✦ Tiểu Sử'
+      - '&7 &b●&7 Che chắn tạm đủ qua ngày lao động'
+      - '&7 &b●&7 Độ Bền Giáp 3 - càng nâng cấp càng chắc chắn'
+    armor: 3.0
+    max-health: 3.0
+    armor-toughness: 3.0
+    will-break: false
+    unbreakable: false
+    custom-miningefficiency: 0.0
+
+BOOTS_TU_NHAN_3:
+  base:
+    material: LEATHER_BOOTS
+    name: '&aGiày Tù Nhân &e+3'
+    max-durability: 800
+    tier: COMMON
+    hide-enchants: true
+    lore-format: tool-lore
+    lore:
+      - '&b&l✦ Tiểu Sử'
+      - '&7 &b●&7 Che chắn tạm đủ qua ngày lao động'
+      - '&7 &b●&7 Độ Bền Giáp 3 - càng nâng cấp càng chắc chắn'
+    armor: 4.0
+    max-health: 3.0
+    armor-toughness: 3.0
+    will-break: false
+    unbreakable: false
+    custom-miningefficiency: 0.0
+
+BOOTS_TU_NHAN_4:
+  base:
+    material: LEATHER_BOOTS
+    name: '&aGiày Tù Nhân &e+4'
+    max-durability: 800
+    tier: COMMON
+    hide-enchants: true
+    lore-format: tool-lore
+    lore:
+      - '&b&l✦ Tiểu Sử'
+      - '&7 &b●&7 Che chắn tạm đủ qua ngày lao động'
+      - '&7 &b●&7 Độ Bền Giáp 3 - càng nâng cấp càng chắc chắn'
+    armor: 4.0
+    max-health: 4.0
+    armor-toughness: 3.0
+    will-break: false
+    unbreakable: false
+    custom-miningefficiency: 0.0
+
+BOOTS_TU_NHAN_5:
+  base:
+    material: LEATHER_BOOTS
+    name: '&aGiày Tù Nhân &e+5'
+    max-durability: 800
+    tier: COMMON
+    hide-enchants: true
+    lore-format: tool-lore
+    lore:
+      - '&b&l✦ Tiểu Sử'
+      - '&7 &b●&7 Che chắn tạm đủ qua ngày lao động'
+      - '&7 &b●&7 Độ Bền Giáp 4 - càng nâng cấp càng chắc chắn'
+    armor: 4.0
+    max-health: 4.0
+    armor-toughness: 4.0
+    will-break: false
+    unbreakable: false
+    custom-miningefficiency: 0.0
+
+BOOTS_LAO_CONG_1:
+  base:
+    material: CHAINMAIL_BOOTS
+    name: '&bGiày Lao Công &e+1'
+    max-durability: 1600
+    tier: UNCOMMON
+    hide-enchants: true
+    lore-format: tool-lore
+    lore:
+      - '&b&l✦ Tiểu Sử'
+      - '&7 &b●&7 Dấu ấn của người lao động chính thức'
+      - '&7 &b●&7 Độ Bền Giáp 4 - càng nâng cấp càng chắc chắn'
+    armor: 5.0
+    max-health: 4.0
+    armor-toughness: 4.0
+    will-break: false
+    unbreakable: false
+    custom-miningefficiency: 0.0
+
+BOOTS_LAO_CONG_2:
+  base:
+    material: CHAINMAIL_BOOTS
+    name: '&bGiày Lao Công &e+2'
+    max-durability: 1600
+    tier: UNCOMMON
+    hide-enchants: true
+    lore-format: tool-lore
+    lore:
+      - '&b&l✦ Tiểu Sử'
+      - '&7 &b●&7 Dấu ấn của người lao động chính thức'
+      - '&7 &b●&7 Độ Bền Giáp 4 - càng nâng cấp càng chắc chắn'
+    armor: 5.0
+    max-health: 5.0
+    armor-toughness: 4.0
+    will-break: false
+    unbreakable: false
+    custom-miningefficiency: 0.0
+
+BOOTS_LAO_CONG_3:
+  base:
+    material: CHAINMAIL_BOOTS
+    name: '&bGiày Lao Công &e+3'
+    max-durability: 1600
+    tier: UNCOMMON
+    hide-enchants: true
+    lore-format: tool-lore
+    lore:
+      - '&b&l✦ Tiểu Sử'
+      - '&7 &b●&7 Dấu ấn của người lao động chính thức'
+      - '&7 &b●&7 Độ Bền Giáp 5 - càng nâng cấp càng chắc chắn'
+    armor: 5.0
+    max-health: 5.0
+    armor-toughness: 5.0
+    will-break: false
+    unbreakable: false
+    custom-miningefficiency: 0.0
+
+BOOTS_LAO_CONG_4:
+  base:
+    material: CHAINMAIL_BOOTS
+    name: '&bGiày Lao Công &e+4'
+    max-durability: 1600
+    tier: UNCOMMON
+    hide-enchants: true
+    lore-format: tool-lore
+    lore:
+      - '&b&l✦ Tiểu Sử'
+      - '&7 &b●&7 Dấu ấn của người lao động chính thức'
+      - '&7 &b●&7 Độ Bền Giáp 5 - càng nâng cấp càng chắc chắn'
+    armor: 6.0
+    max-health: 5.0
+    armor-toughness: 5.0
+    will-break: false
+    unbreakable: false
+    custom-miningefficiency: 0.0
+
+BOOTS_LAO_CONG_5:
+  base:
+    material: CHAINMAIL_BOOTS
+    name: '&bGiày Lao Công &e+5'
+    max-durability: 1600
+    tier: UNCOMMON
+    hide-enchants: true
+    lore-format: tool-lore
+    lore:
+      - '&b&l✦ Tiểu Sử'
+      - '&7 &b●&7 Dấu ấn của người lao động chính thức'
+      - '&7 &b●&7 Độ Bền Giáp 5 - càng nâng cấp càng chắc chắn'
+    armor: 6.0
+    max-health: 6.0
+    armor-toughness: 5.0
+    will-break: false
+    unbreakable: false
+    custom-miningefficiency: 0.0
+
+BOOTS_THO_DAO_1:
+  base:
+    material: IRON_BOOTS
+    name: '&eGiày Thợ Đào &e+1'
+    max-durability: 2400
+    tier: RARE
+    hide-enchants: true
+    lore-format: tool-lore
+    lore:
+      - '&b&l✦ Tiểu Sử'
+      - '&7 &b●&7 Vững vàng trước hiểm nguy trong mỏ sâu'
+      - '&7 &b●&7 Độ Bền Giáp 6 - càng nâng cấp càng chắc chắn'
+    armor: 6.0
+    max-health: 6.0
+    armor-toughness: 6.0
+    will-break: false
+    unbreakable: false
+    custom-miningefficiency: 0.0
+
+BOOTS_THO_DAO_2:
+  base:
+    material: IRON_BOOTS
+    name: '&eGiày Thợ Đào &e+2'
+    max-durability: 2400
+    tier: RARE
+    hide-enchants: true
+    lore-format: tool-lore
+    lore:
+      - '&b&l✦ Tiểu Sử'
+      - '&7 &b●&7 Vững vàng trước hiểm nguy trong mỏ sâu'
+      - '&7 &b●&7 Độ Bền Giáp 6 - càng nâng cấp càng chắc chắn'
+    armor: 7.0
+    max-health: 6.0
+    armor-toughness: 6.0
+    will-break: false
+    unbreakable: false
+    custom-miningefficiency: 0.0
+
+BOOTS_THO_DAO_3:
+  base:
+    material: IRON_BOOTS
+    name: '&eGiày Thợ Đào &e+3'
+    max-durability: 2400
+    tier: RARE
+    hide-enchants: true
+    lore-format: tool-lore
+    lore:
+      - '&b&l✦ Tiểu Sử'
+      - '&7 &b●&7 Vững vàng trước hiểm nguy trong mỏ sâu'
+      - '&7 &b●&7 Độ Bền Giáp 6 - càng nâng cấp càng chắc chắn'
+    armor: 7.0
+    max-health: 7.0
+    armor-toughness: 6.0
+    will-break: false
+    unbreakable: false
+    custom-miningefficiency: 0.0
+
+BOOTS_THO_DAO_4:
+  base:
+    material: IRON_BOOTS
+    name: '&eGiày Thợ Đào &e+4'
+    max-durability: 2400
+    tier: RARE
+    hide-enchants: true
+    lore-format: tool-lore
+    lore:
+      - '&b&l✦ Tiểu Sử'
+      - '&7 &b●&7 Vững vàng trước hiểm nguy trong mỏ sâu'
+      - '&7 &b●&7 Độ Bền Giáp 7 - càng nâng cấp càng chắc chắn'
+    armor: 7.0
+    max-health: 7.0
+    armor-toughness: 7.0
+    will-break: false
+    unbreakable: false
+    custom-miningefficiency: 0.0
+
+BOOTS_THO_DAO_5:
+  base:
+    material: IRON_BOOTS
+    name: '&eGiày Thợ Đào &e+5'
+    max-durability: 2400
+    tier: RARE
+    hide-enchants: true
+    lore-format: tool-lore
+    lore:
+      - '&b&l✦ Tiểu Sử'
+      - '&7 &b●&7 Vững vàng trước hiểm nguy trong mỏ sâu'
+      - '&7 &b●&7 Độ Bền Giáp 7 - càng nâng cấp càng chắc chắn'
+    armor: 8.0
+    max-health: 7.0
+    armor-toughness: 7.0
+    will-break: false
+    unbreakable: false
+    custom-miningefficiency: 0.0
+
+BOOTS_DOI_TRUONG_1:
+  base:
+    material: IRON_BOOTS
+    name: '&6Giày Đội Trưởng &e+1'
+    max-durability: 3600
+    tier: VERY_RARE
+    hide-enchants: true
+    lore-format: tool-lore
+    lore:
+      - '&b&l✦ Tiểu Sử'
+      - '&7 &b●&7 Bảo vệ cả đội trước mọi hiểm nguy'
+      - '&7 &b●&7 Độ Bền Giáp 7 - càng nâng cấp càng chắc chắn'
+    armor: 8.0
+    max-health: 8.0
+    armor-toughness: 7.0
+    will-break: false
+    unbreakable: false
+    custom-miningefficiency: 0.0
+
+BOOTS_DOI_TRUONG_2:
+  base:
+    material: IRON_BOOTS
+    name: '&6Giày Đội Trưởng &e+2'
+    max-durability: 3600
+    tier: VERY_RARE
+    hide-enchants: true
+    lore-format: tool-lore
+    lore:
+      - '&b&l✦ Tiểu Sử'
+      - '&7 &b●&7 Bảo vệ cả đội trước mọi hiểm nguy'
+      - '&7 &b●&7 Độ Bền Giáp 8 - càng nâng cấp càng chắc chắn'
+    armor: 8.0
+    max-health: 8.0
+    armor-toughness: 8.0
+    will-break: false
+    unbreakable: false
+    custom-miningefficiency: 0.0
+
+BOOTS_DOI_TRUONG_3:
+  base:
+    material: IRON_BOOTS
+    name: '&6Giày Đội Trưởng &e+3'
+    max-durability: 3600
+    tier: VERY_RARE
+    hide-enchants: true
+    lore-format: tool-lore
+    lore:
+      - '&b&l✦ Tiểu Sử'
+      - '&7 &b●&7 Bảo vệ cả đội trước mọi hiểm nguy'
+      - '&7 &b●&7 Độ Bền Giáp 8 - càng nâng cấp càng chắc chắn'
+    armor: 9.0
+    max-health: 8.0
+    armor-toughness: 8.0
+    will-break: false
+    unbreakable: false
+    custom-miningefficiency: 0.0
+
+BOOTS_DOI_TRUONG_4:
+  base:
+    material: IRON_BOOTS
+    name: '&6Giày Đội Trưởng &e+4'
+    max-durability: 3600
+    tier: VERY_RARE
+    hide-enchants: true
+    lore-format: tool-lore
+    lore:
+      - '&b&l✦ Tiểu Sử'
+      - '&7 &b●&7 Bảo vệ cả đội trước mọi hiểm nguy'
+      - '&7 &b●&7 Độ Bền Giáp 8 - càng nâng cấp càng chắc chắn'
+    armor: 9.0
+    max-health: 9.0
+    armor-toughness: 8.0
+    will-break: false
+    unbreakable: false
+    custom-miningefficiency: 0.0
+
+BOOTS_DOI_TRUONG_5:
+  base:
+    material: IRON_BOOTS
+    name: '&6Giày Đội Trưởng &e+5'
+    max-durability: 3600
+    tier: VERY_RARE
+    hide-enchants: true
+    lore-format: tool-lore
+    lore:
+      - '&b&l✦ Tiểu Sử'
+      - '&7 &b●&7 Bảo vệ cả đội trước mọi hiểm nguy'
+      - '&7 &b●&7 Độ Bền Giáp 9 - càng nâng cấp càng chắc chắn'
+    armor: 9.0
+    max-health: 9.0
+    armor-toughness: 9.0
+    will-break: false
+    unbreakable: false
+    custom-miningefficiency: 0.0
+
+BOOTS_PHO_QUAN_NGUC_1:
+  base:
+    material: DIAMOND_BOOTS
+    name: '&cGiày Phó Quản Ngục &e+1'
+    max-durability: 4800
+    tier: LEGENDARY
+    hide-enchants: true
+    lore-format: tool-lore
+    lore:
+      - '&b&l✦ Tiểu Sử'
+      - '&7 &b●&7 Uy quyền hiện diện qua từng lớp giáp'
+      - '&7 &b●&7 Độ Bền Giáp 9 - càng nâng cấp càng chắc chắn'
+    armor: 10.0
+    max-health: 9.0
+    armor-toughness: 9.0
+    will-break: false
+    unbreakable: false
+    custom-miningefficiency: 0.0
+
+BOOTS_PHO_QUAN_NGUC_2:
+  base:
+    material: DIAMOND_BOOTS
+    name: '&cGiày Phó Quản Ngục &e+2'
+    max-durability: 4800
+    tier: LEGENDARY
+    hide-enchants: true
+    lore-format: tool-lore
+    lore:
+      - '&b&l✦ Tiểu Sử'
+      - '&7 &b●&7 Uy quyền hiện diện qua từng lớp giáp'
+      - '&7 &b●&7 Độ Bền Giáp 9 - càng nâng cấp càng chắc chắn'
+    armor: 10.0
+    max-health: 10.0
+    armor-toughness: 9.0
+    will-break: false
+    unbreakable: false
+    custom-miningefficiency: 0.0
+
+BOOTS_PHO_QUAN_NGUC_3:
+  base:
+    material: DIAMOND_BOOTS
+    name: '&cGiày Phó Quản Ngục &e+3'
+    max-durability: 4800
+    tier: LEGENDARY
+    hide-enchants: true
+    lore-format: tool-lore
+    lore:
+      - '&b&l✦ Tiểu Sử'
+      - '&7 &b●&7 Uy quyền hiện diện qua từng lớp giáp'
+      - '&7 &b●&7 Độ Bền Giáp 10 - càng nâng cấp càng chắc chắn'
+    armor: 10.0
+    max-health: 10.0
+    armor-toughness: 10.0
+    will-break: false
+    unbreakable: false
+    custom-miningefficiency: 0.0
+
+BOOTS_PHO_QUAN_NGUC_4:
+  base:
+    material: DIAMOND_BOOTS
+    name: '&cGiày Phó Quản Ngục &e+4'
+    max-durability: 4800
+    tier: LEGENDARY
+    hide-enchants: true
+    lore-format: tool-lore
+    lore:
+      - '&b&l✦ Tiểu Sử'
+      - '&7 &b●&7 Uy quyền hiện diện qua từng lớp giáp'
+      - '&7 &b●&7 Độ Bền Giáp 10 - càng nâng cấp càng chắc chắn'
+    armor: 11.0
+    max-health: 10.0
+    armor-toughness: 10.0
+    will-break: false
+    unbreakable: false
+    custom-miningefficiency: 0.0
+
+BOOTS_PHO_QUAN_NGUC_5:
+  base:
+    material: DIAMOND_BOOTS
+    name: '&cGiày Phó Quản Ngục &e+5'
+    max-durability: 4800
+    tier: LEGENDARY
+    hide-enchants: true
+    lore-format: tool-lore
+    lore:
+      - '&b&l✦ Tiểu Sử'
+      - '&7 &b●&7 Uy quyền hiện diện qua từng lớp giáp'
+      - '&7 &b●&7 Độ Bền Giáp 10 - càng nâng cấp càng chắc chắn'
+    armor: 11.0
+    max-health: 11.0
+    armor-toughness: 10.0
+    will-break: false
+    unbreakable: false
+    custom-miningefficiency: 0.0
+
+BOOTS_QUAN_NGUC_1:
+  base:
+    material: DIAMOND_BOOTS
+    name: '&dGiày Quản Ngục &e+1'
+    max-durability: 6400
+    tier: MYTHICAL
+    hide-enchants: true
+    lore-format: tool-lore
+    lore:
+      - '&b&l✦ Tiểu Sử'
+      - '&7 &b●&7 Không có sát thương nào chạm tới được'
+      - '&7 &b●&7 Độ Bền Giáp 11 - càng nâng cấp càng chắc chắn'
+    armor: 11.0
+    max-health: 11.0
+    armor-toughness: 11.0
+    will-break: false
+    unbreakable: false
+    custom-miningefficiency: 0.0
+
+BOOTS_QUAN_NGUC_2:
+  base:
+    material: DIAMOND_BOOTS
+    name: '&dGiày Quản Ngục &e+2'
+    max-durability: 6400
+    tier: MYTHICAL
+    hide-enchants: true
+    lore-format: tool-lore
+    lore:
+      - '&b&l✦ Tiểu Sử'
+      - '&7 &b●&7 Không có sát thương nào chạm tới được'
+      - '&7 &b●&7 Độ Bền Giáp 11 - càng nâng cấp càng chắc chắn'
+    armor: 12.0
+    max-health: 11.0
+    armor-toughness: 11.0
+    will-break: false
+    unbreakable: false
+    custom-miningefficiency: 0.0
+
+BOOTS_QUAN_NGUC_3:
+  base:
+    material: DIAMOND_BOOTS
+    name: '&dGiày Quản Ngục &e+3'
+    max-durability: 6400
+    tier: MYTHICAL
+    hide-enchants: true
+    lore-format: tool-lore
+    lore:
+      - '&b&l✦ Tiểu Sử'
+      - '&7 &b●&7 Không có sát thương nào chạm tới được'
+      - '&7 &b●&7 Độ Bền Giáp 11 - càng nâng cấp càng chắc chắn'
+    armor: 12.0
+    max-health: 12.0
+    armor-toughness: 11.0
+    will-break: false
+    unbreakable: false
+    custom-miningefficiency: 0.0
+
+BOOTS_QUAN_NGUC_4:
+  base:
+    material: DIAMOND_BOOTS
+    name: '&dGiày Quản Ngục &e+4'
+    max-durability: 6400
+    tier: MYTHICAL
+    hide-enchants: true
+    lore-format: tool-lore
+    lore:
+      - '&b&l✦ Tiểu Sử'
+      - '&7 &b●&7 Không có sát thương nào chạm tới được'
+      - '&7 &b●&7 Độ Bền Giáp 12 - càng nâng cấp càng chắc chắn'
+    armor: 12.0
+    max-health: 12.0
+    armor-toughness: 12.0
+    will-break: false
+    unbreakable: false
+    custom-miningefficiency: 0.0
+
+BOOTS_QUAN_NGUC_5:
+  base:
+    material: DIAMOND_BOOTS
+    name: '&dGiày Quản Ngục &e+5'
+    max-durability: 6400
+    tier: MYTHICAL
+    hide-enchants: true
+    lore-format: tool-lore
+    lore:
+      - '&b&l✦ Tiểu Sử'
+      - '&7 &b●&7 Không có sát thương nào chạm tới được'
+      - '&7 &b●&7 Độ Bền Giáp 12 - càng nâng cấp càng chắc chắn'
+    armor: 13.0
+    max-health: 12.0
+    armor-toughness: 12.0
+    will-break: false
+    unbreakable: false
+    custom-miningefficiency: 0.0
+
+BOOTS_BA_CHU_NGUC_TU_1:
+  base:
+    material: NETHERITE_BOOTS
+    name: '&5Giày Bá Chủ Ngục Tù &e+1'
+    max-durability: 8000
+    tier: EPIC
+    hide-enchants: true
+    lore-format: tool-lore
+    lore:
+      - '&b&l✦ Tiểu Sử'
+      - '&7 &b●&7 Bức tường thành của cả nhà tù'
+      - '&7 &b●&7 Độ Bền Giáp 12 - càng nâng cấp càng chắc chắn'
+    armor: 13.0
+    max-health: 13.0
+    armor-toughness: 12.0
+    will-break: false
+    unbreakable: false
+    custom-miningefficiency: 0.0
+
+BOOTS_BA_CHU_NGUC_TU_2:
+  base:
+    material: NETHERITE_BOOTS
+    name: '&5Giày Bá Chủ Ngục Tù &e+2'
+    max-durability: 8000
+    tier: EPIC
+    hide-enchants: true
+    lore-format: tool-lore
+    lore:
+      - '&b&l✦ Tiểu Sử'
+      - '&7 &b●&7 Bức tường thành của cả nhà tù'
+      - '&7 &b●&7 Độ Bền Giáp 13 - càng nâng cấp càng chắc chắn'
+    armor: 13.0
+    max-health: 13.0
+    armor-toughness: 13.0
+    will-break: false
+    unbreakable: false
+    custom-miningefficiency: 0.0
+
+BOOTS_BA_CHU_NGUC_TU_3:
+  base:
+    material: NETHERITE_BOOTS
+    name: '&5Giày Bá Chủ Ngục Tù &e+3'
+    max-durability: 8000
+    tier: EPIC
+    hide-enchants: true
+    lore-format: tool-lore
+    lore:
+      - '&b&l✦ Tiểu Sử'
+      - '&7 &b●&7 Bức tường thành của cả nhà tù'
+      - '&7 &b●&7 Độ Bền Giáp 13 - càng nâng cấp càng chắc chắn'
+    armor: 14.0
+    max-health: 13.0
+    armor-toughness: 13.0
+    will-break: false
+    unbreakable: false
+    custom-miningefficiency: 0.0
+
+BOOTS_BA_CHU_NGUC_TU_4:
+  base:
+    material: NETHERITE_BOOTS
+    name: '&5Giày Bá Chủ Ngục Tù &e+4'
+    max-durability: 8000
+    tier: EPIC
+    hide-enchants: true
+    lore-format: tool-lore
+    lore:
+      - '&b&l✦ Tiểu Sử'
+      - '&7 &b●&7 Bức tường thành của cả nhà tù'
+      - '&7 &b●&7 Độ Bền Giáp 13 - càng nâng cấp càng chắc chắn'
+    armor: 14.0
+    max-health: 14.0
+    armor-toughness: 13.0
+    will-break: false
+    unbreakable: false
+    custom-miningefficiency: 0.0
+
+BOOTS_BA_CHU_NGUC_TU_5:
+  base:
+    material: NETHERITE_BOOTS
+    name: '&5Giày Bá Chủ Ngục Tù &e+5'
+    max-durability: 8000
+    tier: EPIC
+    hide-enchants: true
+    lore-format: tool-lore
+    lore:
+      - '&b&l✦ Tiểu Sử'
+      - '&7 &b●&7 Bức tường thành của cả nhà tù'
+      - '&7 &b●&7 Độ Bền Giáp 14 - càng nâng cấp càng chắc chắn'
+    armor: 14.0
+    max-health: 14.0
+    armor-toughness: 14.0
+    will-break: false
+    unbreakable: false
+    custom-miningefficiency: 0.0
+
+BOOTS_VUOT_NGUC_1:
+  base:
+    material: NETHERITE_BOOTS
+    name: '&4Giày Vượt Ngục &e+1'
+    max-durability: 12000
+    tier: UNIQUE
+    hide-enchants: true
+    lore-format: tool-lore
+    lore:
+      - '&b&l✦ Tiểu Sử'
+      - '&7 &b●&7 Lớp giáp cuối cùng trước tự do'
+      - '&7 &b●&7 Độ Bền Giáp 14 - càng nâng cấp càng chắc chắn'
+    armor: 15.0
+    max-health: 14.0
+    armor-toughness: 14.0
+    will-break: false
+    unbreakable: false
+    custom-miningefficiency: 0.0
+
+BOOTS_VUOT_NGUC_2:
+  base:
+    material: NETHERITE_BOOTS
+    name: '&4Giày Vượt Ngục &e+2'
+    max-durability: 12000
+    tier: UNIQUE
+    hide-enchants: true
+    lore-format: tool-lore
+    lore:
+      - '&b&l✦ Tiểu Sử'
+      - '&7 &b●&7 Lớp giáp cuối cùng trước tự do'
+      - '&7 &b●&7 Độ Bền Giáp 14 - càng nâng cấp càng chắc chắn'
+    armor: 15.0
+    max-health: 15.0
+    armor-toughness: 14.0
+    will-break: false
+    unbreakable: false
+    custom-miningefficiency: 0.0
+
+BOOTS_VUOT_NGUC_3:
+  base:
+    material: NETHERITE_BOOTS
+    name: '&4Giày Vượt Ngục &e+3'
+    max-durability: 12000
+    tier: UNIQUE
+    hide-enchants: true
+    lore-format: tool-lore
+    lore:
+      - '&b&l✦ Tiểu Sử'
+      - '&7 &b●&7 Lớp giáp cuối cùng trước tự do'
+      - '&7 &b●&7 Độ Bền Giáp 15 - càng nâng cấp càng chắc chắn'
+    armor: 15.0
+    max-health: 15.0
+    armor-toughness: 15.0
+    will-break: false
+    unbreakable: false
+    custom-miningefficiency: 0.0
+
+BOOTS_VUOT_NGUC_4:
+  base:
+    material: NETHERITE_BOOTS
+    name: '&4Giày Vượt Ngục &e+4'
+    max-durability: 12000
+    tier: UNIQUE
+    hide-enchants: true
+    lore-format: tool-lore
+    lore:
+      - '&b&l✦ Tiểu Sử'
+      - '&7 &b●&7 Lớp giáp cuối cùng trước tự do'
+      - '&7 &b●&7 Độ Bền Giáp 15 - càng nâng cấp càng chắc chắn'
+    armor: 16.0
+    max-health: 15.0
+    armor-toughness: 15.0
+    will-break: false
+    unbreakable: false
+    custom-miningefficiency: 0.0
+
+BOOTS_VUOT_NGUC_5:
+  base:
+    material: NETHERITE_BOOTS
+    name: '&4Giày Vượt Ngục &e+5'
+    max-durability: 12000
+    tier: UNIQUE
+    hide-enchants: true
+    lore-format: tool-lore
+    lore:
+      - '&b&l✦ Tiểu Sử'
+      - '&7 &b●&7 Lớp giáp cuối cùng trước tự do'
+      - '&7 &b●&7 Độ Bền Giáp 15 - càng nâng cấp càng chắc chắn'
+    armor: 16.0
+    max-health: 16.0
+    armor-toughness: 15.0
+    will-break: false
+    unbreakable: false
+    custom-miningefficiency: 0.0
+

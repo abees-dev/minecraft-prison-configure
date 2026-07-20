@@ -146,3 +146,5 @@ lore-format:
 
   - "{sbar}"
   - "#item-type#"
+  - "#custom-miningeff#"
+  - "#custom-myluck#"

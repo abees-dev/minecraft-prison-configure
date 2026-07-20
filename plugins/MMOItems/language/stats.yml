@@ -149,3 +149,9 @@ elemental-defense-percent: "&8[&6🛡&8] &7+{value}% Phòng thủ {element}"
 elemental-weakness: "&8[&6⚡&8] &7{value}% Suy yếu {element}"
 elemental-resistance: "&8[&6🔥&8] &7{value}% Kháng {element}"
 elemental-immunity: "&8[&6🔥&8] &7{value}% Miễn nhiễm {element}"
+
+# Custom Stats
+custom-miningefficiency: "&7Hiệu Suất: &e{value}"
+custom-miningfortune: "&7Gia tài: &e{value}"
+custom-miningunbreaking: "&7Chậm hỏng: &e{value}"
+custom-myluck: "&7May Mắn (custom): &e{value}"
