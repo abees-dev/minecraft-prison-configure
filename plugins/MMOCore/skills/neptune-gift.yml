@@ -1,9 +1,0 @@
-name: Quà Tặng Neptune
-lore:
-  - Tốc độ hồi phục tài nguyên tăng thêm &8{extra}% &7khi đứng trong nước.
-material: LILY_PAD
-extra:
-  base: 30.0
-  per-level: 5.0
-  #Optional: The decimal format used for this skill parameter.
-  decimal-format: '0.#'

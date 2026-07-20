@@ -1,1 +1,0 @@
-{"textures":{"0":"modelengine:entity/aurorafowl"},"elements":[{"from":[-3.0,7.993683,7.9975834],"to":[19.0,7.993683,20.997585],"faces":{"up":{"uv":[5.625,5.125,2.875,3.5],"tintindex":0,"rotation":0,"texture":"#0"},"down":{"uv":[2.75,3.75,0.0,5.375],"tintindex":0,"rotation":0,"texture":"#0"}}}],"display":{"gui":{"rotation":[30,225,0]}}}

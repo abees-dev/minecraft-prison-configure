@@ -1,1 +1,0 @@
-{"textures":{"0":"modelengine:entity/aloc_main"},"elements":[{"from":[7.983333,-8.666668,5.6666665],"to":[8.016666,24.666668,19.666668],"faces":{"east":{"uv":[0.0,12.875,1.3125,16.0],"tintindex":0,"rotation":0,"texture":"#0"},"west":{"uv":[1.3125,12.875,0.0,16.0],"tintindex":0,"rotation":0,"texture":"#0"}}}],"display":{"gui":{"rotation":[30,225,0]}}}

@@ -1,6 +1,0 @@
-{
-    "parent": "wyrmsteel_set:wyrmsteel_set/wyrmsteel_bow",
-    "textures": {
-        "layer0": "wyrmsteel_set:wyrmsteel_set/wyrmsteel_bow_1"
-    }
-}
