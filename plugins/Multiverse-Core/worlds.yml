@@ -2,7 +2,7 @@ worlds:
   world:
     ==: MVWorld
     hidden: 'false'
-    alias: ''
+    alias: world
     color: WHITE
     style: NORMAL
     pvp: 'true'
@@ -49,7 +49,7 @@ worlds:
   world_the_end:
     ==: MVWorld
     hidden: 'false'
-    alias: ''
+    alias: world_the_end
     color: WHITE
     style: NORMAL
     pvp: 'true'
@@ -93,10 +93,57 @@ worlds:
     generator: 'null'
     playerLimit: '-1'
     allowFlight: 'true'
+  world_prison:
+    ==: MVWorld
+    hidden: 'false'
+    alias: world_prison
+    color: WHITE
+    style: NORMAL
+    pvp: 'true'
+    scale: '1.0'
+    respawnWorld: ''
+    allowWeather: 'true'
+    difficulty: PEACEFUL
+    spawning:
+      ==: MVSpawnSettings
+      animals:
+        ==: MVSpawnSubSettings
+        spawn: 'true'
+        spawnrate: '-1'
+        exceptions: []
+      monsters:
+        ==: MVSpawnSubSettings
+        spawn: 'true'
+        spawnrate: '-1'
+        exceptions: []
+    entryfee:
+      ==: MVEntryFee
+      amount: '0.0'
+    hunger: 'true'
+    autoHeal: 'true'
+    adjustSpawn: 'true'
+    portalForm: ALL
+    gameMode: SURVIVAL
+    keepSpawnInMemory: 'true'
+    spawnLocation:
+      ==: MVSpawnLocation
+      x: 5.074202761903383
+      y: -56.0
+      z: 122.47272227824737
+      pitch: 47.191856
+      yaw: 90.06329
+    autoLoad: 'true'
+    bedRespawn: 'true'
+    worldBlacklist: []
+    environment: NORMAL
+    seed: '-9161745179895597657'
+    generator: 'null'
+    playerLimit: '-1'
+    allowFlight: 'true'
   world_nether:
     ==: MVWorld
     hidden: 'false'
-    alias: ''
+    alias: world_nether
     color: WHITE
     style: NORMAL
     pvp: 'true'

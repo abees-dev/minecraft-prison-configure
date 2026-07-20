@@ -1,0 +1,26 @@
+{
+  "topNList": [
+    {
+      "name": "ABeess",
+      "uuid": "57481db9-38f7-3a96-b52d-ff0f7993c232",
+      "playerState": "online",
+      "lastSeen": 1784569665358,
+      "lastSeenFormatted": "2026-07-21 24:47:45",
+      "balance": 0.0,
+      "rankScore": 0.0,
+      "rankScorePenalty": 0.0,
+      "rankPositionDefault": 8,
+      "rankPositionPrestiges": -1,
+      "blocks": 0,
+      "timeMining": 0,
+      "timeOnline": 0,
+      "tokens": 0
+    }
+  ],
+  "archivedList": [],
+  "statsBuildDataNanoSec": 26900100,
+  "statsRefreshDataNanoSec": 199600,
+  "statsSaveDataNanoSec": 4765400,
+  "statsLoadDataNanoSec": 0,
+  "loading": true
+}

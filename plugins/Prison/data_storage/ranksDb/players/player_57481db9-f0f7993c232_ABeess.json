@@ -1,0 +1,29 @@
+{
+  "uid": "57481db9-38f7-3a96-b52d-ff0f7993c232",
+  "lastRefreshed": 1784557854543,
+  "ranks": {
+    "default": {
+      "ladderName": "default",
+      "rankId": -1,
+      "rankName": "I"
+    }
+  },
+  "names": [
+    {
+      "name": "ABeess",
+      "date": 1784551545711
+    }
+  ],
+  "balance": 0.0,
+  "lastSeenDate": 0,
+  "sellallMultipliers": [
+    "1.0 - Sellall multipler is disabled. Default value."
+  ],
+  "sellallMultiplier": 1.0,
+  "totalTokens": 0,
+  "permsSnapShot": [
+    "group.default"
+  ],
+  "totalBlocks": 0,
+  "lastSaved": 1784557854543
+}

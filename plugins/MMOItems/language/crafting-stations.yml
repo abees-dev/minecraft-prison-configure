@@ -1,22 +1,22 @@
 condition:
   profession:
-    positive: '&a✔ Requires #level# in #profession#'
-    negative: '&c✖ Requires #level# in #profession#'
+    positive: '&a✔ Yêu cầu cấp #level# trong #profession#'
+    negative: '&c✖ Yêu cầu cấp #level# trong #profession#'
   mana:
-    positive: '&a✔ Requires #mana# Mana'
-    negative: '&c✖ Requires #mana# Mana'
+    positive: '&a✔ Yêu cầu #mana# Mana'
+    negative: '&c✖ Yêu cầu #mana# Mana'
   money:
-    positive: '&a✔ Requires $#money#'
-    negative: '&c✖ Requires $#money#'
+    positive: '&a✔ Yêu cầu $#money#'
+    negative: '&c✖ Yêu cầu $#money#'
   level:
-    positive: '&a✔ Requires Level #level#'
-    negative: '&c✖ Requires Level #level#'
+    positive: '&a✔ Yêu cầu Cấp #level#'
+    negative: '&c✖ Yêu cầu Cấp #level#'
   stellium:
-    positive: '&a✔ Requires #stellium# Stellium'
-    negative: '&c✖ Requires #stellium# Stellium'
+    positive: '&a✔ Yêu cầu #stellium# Stellium'
+    negative: '&c✖ Yêu cầu #stellium# Stellium'
   stamina:
-    positive: '&a✔ Requires #stamina# Stamina'
-    negative: '&c✖ Requires #stamina# Stamina'
+    positive: '&a✔ Yêu cầu #stamina# Thể Lực'
+    negative: '&c✖ Yêu cầu #stamina# Thể Lực'
   permission:
     positive: '&a✔ #display#'
     negative: '&c✖ #display#'
@@ -24,14 +24,21 @@ condition:
     positive: '&a✔ #display#'
     negative: '&c✖ #display#'
   attribute:
-    positive: '&a✔ Requires #points# #attribute#'
-    negative: '&c✖ Requires #points# #attribute#'
+    positive: '&a✔ Yêu cầu #points# #attribute#'
+    negative: '&c✖ Yêu cầu #points# #attribute#'
   class:
-    positive: '&a✔ Required Class: #class#'
-    negative: '&c✖ Required Class: #class#'
+    positive: '&a✔ Lớp Yêu Cầu: #class#'
+    negative: '&c✖ Lớp Yêu Cầu: #class#'
   food:
-    positive: '&a✔ Requires #food# Food'
-    negative: '&c✖ Requires #food# Food'
+    positive: '&a✔ Yêu cầu #food# Thức Ăn'
+    negative: '&c✖ Yêu cầu #food# Thức Ăn'
+  ingredient:
+    mmoitem:
+      positive: '&8✔ &7#amount# #level##item#'
+      negative: '&c✖ &7#amount# #level##item#'
+    vanilla:
+      positive: '&8✔ &7#amount# #item#'
+      negative: '&c✖ &7#amount# #item#'
 ingredient:
   mmoitem:
     positive: '&8✔ &7#amount# #level##item#'

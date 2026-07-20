@@ -1,66 +1,2598 @@
-STEEL_PICKAXE:
+PICKAXE_TAN_BINH_1:
+  base:
+    material: WOODEN_PICKAXE
+    name: "&fCuốc Tân Binh"
+    max-durability: 500
+    tier: TRASH
+    hide-enchants: true
+    lore-format: lore-only
+    lore:
+      - "&b&m                                  "
+      - "&b&l⛏ Chỉ Số"
+      - "&7Cấp bậc &8» &e1&7/&e10"
+      - "&7Hiệu Suất &8» &e1"
+      - "&7Gia Tài &8» &e1"
+      - "&7Bền Bỉ &8» &e1"
+      - ""
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Cuốc khởi đầu của mọi tù nhân"
+      - "&7 &b●&7 Bền Bỉ 1 - càng nâng cấp càng khó vỡ"
+      - "&b&m                                  "
+    enchants:
+      efficiency: 1.0
+      fortune: 1.0
+      unbreaking: 1.0
+    pickaxe-power: 1.0
+    will-break: false
+    unbreakable: false
+PICKAXE_TAN_BINH_2:
+  base:
+    material: WOODEN_PICKAXE
+    name: "&fCuốc Tân Binh &7+1"
+    max-durability: 500
+    tier: TRASH
+    hide-enchants: true
+    lore-format: lore-only
+    lore:
+      - "&b&m                                  "
+      - "&b&l⛏ Chỉ Số"
+      - "&7Cấp bậc &8» &e2&7/&e10"
+      - "&7Hiệu Suất &8» &e1"
+      - "&7Gia Tài &8» &e1"
+      - "&7Bền Bỉ &8» &e1"
+      - ""
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Cuốc khởi đầu của mọi tù nhân"
+      - "&7 &b●&7 Bền Bỉ 1 - càng nâng cấp càng khó vỡ"
+      - "&b&m                                  "
+    enchants:
+      efficiency: 1.0
+      fortune: 1.0
+      unbreaking: 1.0
+    pickaxe-power: 2.0
+    will-break: false
+    unbreakable: false
+
+PICKAXE_TAN_BINH_3:
+  base:
+    material: WOODEN_PICKAXE
+    name: "&fCuốc Tân Binh &7+2"
+    max-durability: 500
+    tier: TRASH
+    hide-enchants: true
+    lore-format: lore-only
+    lore:
+      - "&b&m                                  "
+      - "&b&l⛏ Chỉ Số"
+      - "&7Cấp bậc &8» &e3&7/&e10"
+      - "&7Hiệu Suất &8» &e1"
+      - "&7Gia Tài &8» &e1"
+      - "&7Bền Bỉ &8» &e1"
+      - ""
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Cuốc khởi đầu của mọi tù nhân"
+      - "&7 &b●&7 Bền Bỉ 1 - càng nâng cấp càng khó vỡ"
+      - "&b&m                                  "
+    enchants:
+      efficiency: 1.0
+      fortune: 1.0
+      unbreaking: 1.0
+    pickaxe-power: 3.0
+    will-break: false
+    unbreakable: false
+
+PICKAXE_TAN_BINH_4:
+  base:
+    material: WOODEN_PICKAXE
+    name: "&fCuốc Tân Binh &7+3"
+    max-durability: 500
+    tier: TRASH
+    hide-enchants: true
+    lore-format: lore-only
+    lore:
+      - "&b&m                                  "
+      - "&b&l⛏ Chỉ Số"
+      - "&7Cấp bậc &8» &e4&7/&e10"
+      - "&7Hiệu Suất &8» &e2"
+      - "&7Gia Tài &8» &e1"
+      - "&7Bền Bỉ &8» &e1"
+      - ""
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Cuốc khởi đầu của mọi tù nhân"
+      - "&7 &b●&7 Bền Bỉ 1 - càng nâng cấp càng khó vỡ"
+      - "&b&m                                  "
+    enchants:
+      efficiency: 2.0
+      fortune: 1.0
+      unbreaking: 1.0
+    pickaxe-power: 4.0
+    will-break: false
+    unbreakable: false
+
+PICKAXE_TAN_BINH_5:
+  base:
+    material: WOODEN_PICKAXE
+    name: "&fCuốc Tân Binh &7+4"
+    max-durability: 500
+    tier: TRASH
+    hide-enchants: true
+    lore-format: lore-only
+    lore:
+      - "&b&m                                  "
+      - "&b&l⛏ Chỉ Số"
+      - "&7Cấp bậc &8» &e5&7/&e10"
+      - "&7Hiệu Suất &8» &e2"
+      - "&7Gia Tài &8» &e1"
+      - "&7Bền Bỉ &8» &e1"
+      - ""
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Cuốc khởi đầu của mọi tù nhân"
+      - "&7 &b●&7 Bền Bỉ 1 - càng nâng cấp càng khó vỡ"
+      - "&b&m                                  "
+    enchants:
+      efficiency: 2.0
+      fortune: 1.0
+      unbreaking: 1.0
+    pickaxe-power: 5.0
+    will-break: false
+    unbreakable: false
+
+PICKAXE_TAN_BINH_6:
+  base:
+    material: WOODEN_PICKAXE
+    name: "&fCuốc Tân Binh &7+5"
+    max-durability: 500
+    tier: TRASH
+    hide-enchants: true
+    lore-format: lore-only
+    lore:
+      - "&b&m                                  "
+      - "&b&l⛏ Chỉ Số"
+      - "&7Cấp bậc &8» &e6&7/&e10"
+      - "&7Hiệu Suất &8» &e2"
+      - "&7Gia Tài &8» &e1"
+      - "&7Bền Bỉ &8» &e1"
+      - ""
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Cuốc khởi đầu của mọi tù nhân"
+      - "&7 &b●&7 Bền Bỉ 1 - càng nâng cấp càng khó vỡ"
+      - "&b&m                                  "
+    enchants:
+      efficiency: 2.0
+      fortune: 1.0
+      unbreaking: 1.0
+    pickaxe-power: 6.0
+    will-break: false
+    unbreakable: false
+
+PICKAXE_TAN_BINH_7:
+  base:
+    material: WOODEN_PICKAXE
+    name: "&fCuốc Tân Binh &7+6"
+    max-durability: 500
+    tier: TRASH
+    hide-enchants: true
+    lore-format: lore-only
+    lore:
+      - "&b&m                                  "
+      - "&b&l⛏ Chỉ Số"
+      - "&7Cấp bậc &8» &e7&7/&e10"
+      - "&7Hiệu Suất &8» &e3"
+      - "&7Gia Tài &8» &e2"
+      - "&7Bền Bỉ &8» &e1"
+      - ""
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Cuốc khởi đầu của mọi tù nhân"
+      - "&7 &b●&7 Bền Bỉ 1 - càng nâng cấp càng khó vỡ"
+      - "&b&m                                  "
+    enchants:
+      efficiency: 3.0
+      fortune: 2.0
+      unbreaking: 1.0
+    pickaxe-power: 7.0
+    will-break: false
+    unbreakable: false
+
+PICKAXE_TAN_BINH_8:
+  base:
+    material: WOODEN_PICKAXE
+    name: "&fCuốc Tân Binh &7+7"
+    max-durability: 500
+    tier: TRASH
+    hide-enchants: true
+    lore-format: lore-only
+    lore:
+      - "&b&m                                  "
+      - "&b&l⛏ Chỉ Số"
+      - "&7Cấp bậc &8» &e8&7/&e10"
+      - "&7Hiệu Suất &8» &e3"
+      - "&7Gia Tài &8» &e2"
+      - "&7Bền Bỉ &8» &e1"
+      - ""
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Cuốc khởi đầu của mọi tù nhân"
+      - "&7 &b●&7 Bền Bỉ 1 - càng nâng cấp càng khó vỡ"
+      - "&b&m                                  "
+    enchants:
+      efficiency: 3.0
+      fortune: 2.0
+      unbreaking: 1.0
+    pickaxe-power: 8.0
+    will-break: false
+    unbreakable: false
+
+PICKAXE_TAN_BINH_9:
+  base:
+    material: WOODEN_PICKAXE
+    name: "&fCuốc Tân Binh &7+8"
+    max-durability: 500
+    tier: TRASH
+    hide-enchants: true
+    lore-format: lore-only
+    lore:
+      - "&b&m                                  "
+      - "&b&l⛏ Chỉ Số"
+      - "&7Cấp bậc &8» &e9&7/&e10"
+      - "&7Hiệu Suất &8» &e3"
+      - "&7Gia Tài &8» &e2"
+      - "&7Bền Bỉ &8» &e1"
+      - ""
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Cuốc khởi đầu của mọi tù nhân"
+      - "&7 &b●&7 Bền Bỉ 1 - càng nâng cấp càng khó vỡ"
+      - "&b&m                                  "
+    enchants:
+      efficiency: 3.0
+      fortune: 2.0
+      unbreaking: 1.0
+    pickaxe-power: 9.0
+    will-break: false
+    unbreakable: false
+
+PICKAXE_TAN_BINH_10:
+  base:
+    material: WOODEN_PICKAXE
+    name: "&fCuốc Tân Binh &7+9"
+    max-durability: 500
+    tier: TRASH
+    hide-enchants: true
+    lore-format: lore-only
+    lore:
+      - "&b&m                                  "
+      - "&b&l⛏ Chỉ Số"
+      - "&7Cấp bậc &8» &e10&7/&e10"
+      - "&7Hiệu Suất &8» &e4"
+      - "&7Gia Tài &8» &e2"
+      - "&7Bền Bỉ &8» &e1"
+      - ""
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Cuốc khởi đầu của mọi tù nhân"
+      - "&7 &b●&7 Bền Bỉ 1 - càng nâng cấp càng khó vỡ"
+      - "&b&m                                  "
+    enchants:
+      efficiency: 4.0
+      fortune: 2.0
+      unbreaking: 1.0
+    pickaxe-power: 10.0
+    will-break: false
+    unbreakable: false
+
+PICKAXE_TU_NHAN_1:
+  base:
+    material: STONE_PICKAXE
+    name: "&aCuốc Tù Nhân"
+    max-durability: 1000
+    tier: COMMON
+    hide-enchants: true
+    lore-format: lore-only
+    lore:
+      - "&b&m                                  "
+      - "&b&l⛏ Chỉ Số"
+      - "&7Cấp bậc &8» &e1&7/&e10"
+      - "&7Hiệu Suất &8» &e4"
+      - "&7Gia Tài &8» &e2"
+      - "&7Bền Bỉ &8» &e1"
+      - ""
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Dành cho ai đã quen việc đào bới"
+      - "&7 &b●&7 Bền Bỉ 1 - càng nâng cấp càng khó vỡ"
+      - "&b&m                                  "
+    enchants:
+      efficiency: 4.0
+      fortune: 2.0
+      unbreaking: 1.0
+    pickaxe-power: 11.0
+    will-break: false
+    unbreakable: false
+
+PICKAXE_TU_NHAN_2:
+  base:
+    material: STONE_PICKAXE
+    name: "&aCuốc Tù Nhân &7+1"
+    max-durability: 1000
+    tier: COMMON
+    hide-enchants: true
+    lore-format: lore-only
+    lore:
+      - "&b&m                                  "
+      - "&b&l⛏ Chỉ Số"
+      - "&7Cấp bậc &8» &e2&7/&e10"
+      - "&7Hiệu Suất &8» &e4"
+      - "&7Gia Tài &8» &e2"
+      - "&7Bền Bỉ &8» &e1"
+      - ""
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Dành cho ai đã quen việc đào bới"
+      - "&7 &b●&7 Bền Bỉ 1 - càng nâng cấp càng khó vỡ"
+      - "&b&m                                  "
+    enchants:
+      efficiency: 4.0
+      fortune: 2.0
+      unbreaking: 1.0
+    pickaxe-power: 12.0
+    will-break: false
+    unbreakable: false
+
+PICKAXE_TU_NHAN_3:
+  base:
+    material: STONE_PICKAXE
+    name: "&aCuốc Tù Nhân &7+2"
+    max-durability: 1000
+    tier: COMMON
+    hide-enchants: true
+    lore-format: lore-only
+    lore:
+      - "&b&m                                  "
+      - "&b&l⛏ Chỉ Số"
+      - "&7Cấp bậc &8» &e3&7/&e10"
+      - "&7Hiệu Suất &8» &e5"
+      - "&7Gia Tài &8» &e3"
+      - "&7Bền Bỉ &8» &e1"
+      - ""
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Dành cho ai đã quen việc đào bới"
+      - "&7 &b●&7 Bền Bỉ 1 - càng nâng cấp càng khó vỡ"
+      - "&b&m                                  "
+    enchants:
+      efficiency: 5.0
+      fortune: 3.0
+      unbreaking: 1.0
+    pickaxe-power: 13.0
+    will-break: false
+    unbreakable: false
+
+PICKAXE_TU_NHAN_4:
+  base:
+    material: STONE_PICKAXE
+    name: "&aCuốc Tù Nhân &7+3"
+    max-durability: 1000
+    tier: COMMON
+    hide-enchants: true
+    lore-format: lore-only
+    lore:
+      - "&b&m                                  "
+      - "&b&l⛏ Chỉ Số"
+      - "&7Cấp bậc &8» &e4&7/&e10"
+      - "&7Hiệu Suất &8» &e5"
+      - "&7Gia Tài &8» &e3"
+      - "&7Bền Bỉ &8» &e1"
+      - ""
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Dành cho ai đã quen việc đào bới"
+      - "&7 &b●&7 Bền Bỉ 1 - càng nâng cấp càng khó vỡ"
+      - "&b&m                                  "
+    enchants:
+      efficiency: 5.0
+      fortune: 3.0
+      unbreaking: 1.0
+    pickaxe-power: 14.0
+    will-break: false
+    unbreakable: false
+
+PICKAXE_TU_NHAN_5:
+  base:
+    material: STONE_PICKAXE
+    name: "&aCuốc Tù Nhân &7+4"
+    max-durability: 1000
+    tier: COMMON
+    hide-enchants: true
+    lore-format: lore-only
+    lore:
+      - "&b&m                                  "
+      - "&b&l⛏ Chỉ Số"
+      - "&7Cấp bậc &8» &e5&7/&e10"
+      - "&7Hiệu Suất &8» &e5"
+      - "&7Gia Tài &8» &e3"
+      - "&7Bền Bỉ &8» &e1"
+      - ""
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Dành cho ai đã quen việc đào bới"
+      - "&7 &b●&7 Bền Bỉ 1 - càng nâng cấp càng khó vỡ"
+      - "&b&m                                  "
+    enchants:
+      efficiency: 5.0
+      fortune: 3.0
+      unbreaking: 1.0
+    pickaxe-power: 15.0
+    will-break: false
+    unbreakable: false
+
+PICKAXE_TU_NHAN_6:
+  base:
+    material: STONE_PICKAXE
+    name: "&aCuốc Tù Nhân &7+5"
+    max-durability: 1000
+    tier: COMMON
+    hide-enchants: true
+    lore-format: lore-only
+    lore:
+      - "&b&m                                  "
+      - "&b&l⛏ Chỉ Số"
+      - "&7Cấp bậc &8» &e6&7/&e10"
+      - "&7Hiệu Suất &8» &e6"
+      - "&7Gia Tài &8» &e3"
+      - "&7Bền Bỉ &8» &e1"
+      - ""
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Dành cho ai đã quen việc đào bới"
+      - "&7 &b●&7 Bền Bỉ 1 - càng nâng cấp càng khó vỡ"
+      - "&b&m                                  "
+    enchants:
+      efficiency: 6.0
+      fortune: 3.0
+      unbreaking: 1.0
+    pickaxe-power: 16.0
+    will-break: false
+    unbreakable: false
+
+PICKAXE_TU_NHAN_7:
+  base:
+    material: STONE_PICKAXE
+    name: "&aCuốc Tù Nhân &7+6"
+    max-durability: 1000
+    tier: COMMON
+    hide-enchants: true
+    lore-format: lore-only
+    lore:
+      - "&b&m                                  "
+      - "&b&l⛏ Chỉ Số"
+      - "&7Cấp bậc &8» &e7&7/&e10"
+      - "&7Hiệu Suất &8» &e6"
+      - "&7Gia Tài &8» &e3"
+      - "&7Bền Bỉ &8» &e1"
+      - ""
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Dành cho ai đã quen việc đào bới"
+      - "&7 &b●&7 Bền Bỉ 1 - càng nâng cấp càng khó vỡ"
+      - "&b&m                                  "
+    enchants:
+      efficiency: 6.0
+      fortune: 3.0
+      unbreaking: 1.0
+    pickaxe-power: 17.0
+    will-break: false
+    unbreakable: false
+
+PICKAXE_TU_NHAN_8:
+  base:
+    material: STONE_PICKAXE
+    name: "&aCuốc Tù Nhân &7+7"
+    max-durability: 1000
+    tier: COMMON
+    hide-enchants: true
+    lore-format: lore-only
+    lore:
+      - "&b&m                                  "
+      - "&b&l⛏ Chỉ Số"
+      - "&7Cấp bậc &8» &e8&7/&e10"
+      - "&7Hiệu Suất &8» &e6"
+      - "&7Gia Tài &8» &e3"
+      - "&7Bền Bỉ &8» &e1"
+      - ""
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Dành cho ai đã quen việc đào bới"
+      - "&7 &b●&7 Bền Bỉ 1 - càng nâng cấp càng khó vỡ"
+      - "&b&m                                  "
+    enchants:
+      efficiency: 6.0
+      fortune: 3.0
+      unbreaking: 1.0
+    pickaxe-power: 18.0
+    will-break: false
+    unbreakable: false
+
+PICKAXE_TU_NHAN_9:
+  base:
+    material: STONE_PICKAXE
+    name: "&aCuốc Tù Nhân &7+8"
+    max-durability: 1000
+    tier: COMMON
+    hide-enchants: true
+    lore-format: lore-only
+    lore:
+      - "&b&m                                  "
+      - "&b&l⛏ Chỉ Số"
+      - "&7Cấp bậc &8» &e9&7/&e10"
+      - "&7Hiệu Suất &8» &e7"
+      - "&7Gia Tài &8» &e4"
+      - "&7Bền Bỉ &8» &e2"
+      - ""
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Dành cho ai đã quen việc đào bới"
+      - "&7 &b●&7 Bền Bỉ 2 - càng nâng cấp càng khó vỡ"
+      - "&b&m                                  "
+    enchants:
+      efficiency: 7.0
+      fortune: 4.0
+      unbreaking: 2.0
+    pickaxe-power: 19.0
+    will-break: false
+    unbreakable: false
+
+PICKAXE_TU_NHAN_10:
+  base:
+    material: STONE_PICKAXE
+    name: "&aCuốc Tù Nhân &7+9"
+    max-durability: 1000
+    tier: COMMON
+    hide-enchants: true
+    lore-format: lore-only
+    lore:
+      - "&b&m                                  "
+      - "&b&l⛏ Chỉ Số"
+      - "&7Cấp bậc &8» &e10&7/&e10"
+      - "&7Hiệu Suất &8» &e7"
+      - "&7Gia Tài &8» &e4"
+      - "&7Bền Bỉ &8» &e2"
+      - ""
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Dành cho ai đã quen việc đào bới"
+      - "&7 &b●&7 Bền Bỉ 2 - càng nâng cấp càng khó vỡ"
+      - "&b&m                                  "
+    enchants:
+      efficiency: 7.0
+      fortune: 4.0
+      unbreaking: 2.0
+    pickaxe-power: 20.0
+    will-break: false
+    unbreakable: false
+
+PICKAXE_LAO_CONG_1:
   base:
     material: IRON_PICKAXE
-    name: '&fSteel Pickaxe'
-    max-durability: 1000
-    tier: COMMON
+    name: "&bCuốc Lao Công"
+    max-durability: 2000
+    tier: UNCOMMON
+    hide-enchants: true
+    lore-format: lore-only
     lore:
-    - '&7A much more durable iron pick.'
-    will-break: true
-    unbreakable: true
-STEEL_SHOVEL:
+      - "&b&m                                  "
+      - "&b&l⛏ Chỉ Số"
+      - "&7Cấp bậc &8» &e1&7/&e10"
+      - "&7Hiệu Suất &8» &e7"
+      - "&7Gia Tài &8» &e4"
+      - "&7Bền Bỉ &8» &e2"
+      - ""
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Dấu ấn của người lao động chính thức"
+      - "&7 &b●&7 Bền Bỉ 2 - càng nâng cấp càng khó vỡ"
+      - "&b&m                                  "
+    enchants:
+      efficiency: 7.0
+      fortune: 4.0
+      unbreaking: 2.0
+    pickaxe-power: 21.0
+    will-break: false
+    unbreakable: false
+
+PICKAXE_LAO_CONG_2:
   base:
-    material: IRON_SHOVEL
-    name: '&fSteel Shovel'
-    max-durability: 1000
-    tier: COMMON
+    material: IRON_PICKAXE
+    name: "&bCuốc Lao Công &7+1"
+    max-durability: 2000
+    tier: UNCOMMON
+    hide-enchants: true
+    lore-format: lore-only
     lore:
-    - '&7A much more durable iron spade.'
-    will-break: true
-    unbreakable: true
-CRACK_PICKAXE:
+      - "&b&m                                  "
+      - "&b&l⛏ Chỉ Số"
+      - "&7Cấp bậc &8» &e2&7/&e10"
+      - "&7Hiệu Suất &8» &e8"
+      - "&7Gia Tài &8» &e4"
+      - "&7Bền Bỉ &8» &e2"
+      - ""
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Dấu ấn của người lao động chính thức"
+      - "&7 &b●&7 Bền Bỉ 2 - càng nâng cấp càng khó vỡ"
+      - "&b&m                                  "
+    enchants:
+      efficiency: 8.0
+      fortune: 4.0
+      unbreaking: 2.0
+    pickaxe-power: 22.0
+    will-break: false
+    unbreakable: false
+
+PICKAXE_LAO_CONG_3:
+  base:
+    material: IRON_PICKAXE
+    name: "&bCuốc Lao Công &7+2"
+    max-durability: 2000
+    tier: UNCOMMON
+    hide-enchants: true
+    lore-format: lore-only
+    lore:
+      - "&b&m                                  "
+      - "&b&l⛏ Chỉ Số"
+      - "&7Cấp bậc &8» &e3&7/&e10"
+      - "&7Hiệu Suất &8» &e8"
+      - "&7Gia Tài &8» &e4"
+      - "&7Bền Bỉ &8» &e2"
+      - ""
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Dấu ấn của người lao động chính thức"
+      - "&7 &b●&7 Bền Bỉ 2 - càng nâng cấp càng khó vỡ"
+      - "&b&m                                  "
+    enchants:
+      efficiency: 8.0
+      fortune: 4.0
+      unbreaking: 2.0
+    pickaxe-power: 23.0
+    will-break: false
+    unbreakable: false
+
+PICKAXE_LAO_CONG_4:
+  base:
+    material: IRON_PICKAXE
+    name: "&bCuốc Lao Công &7+3"
+    max-durability: 2000
+    tier: UNCOMMON
+    hide-enchants: true
+    lore-format: lore-only
+    lore:
+      - "&b&m                                  "
+      - "&b&l⛏ Chỉ Số"
+      - "&7Cấp bậc &8» &e4&7/&e10"
+      - "&7Hiệu Suất &8» &e8"
+      - "&7Gia Tài &8» &e4"
+      - "&7Bền Bỉ &8» &e2"
+      - ""
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Dấu ấn của người lao động chính thức"
+      - "&7 &b●&7 Bền Bỉ 2 - càng nâng cấp càng khó vỡ"
+      - "&b&m                                  "
+    enchants:
+      efficiency: 8.0
+      fortune: 4.0
+      unbreaking: 2.0
+    pickaxe-power: 24.0
+    will-break: false
+    unbreakable: false
+
+PICKAXE_LAO_CONG_5:
+  base:
+    material: IRON_PICKAXE
+    name: "&bCuốc Lao Công &7+4"
+    max-durability: 2000
+    tier: UNCOMMON
+    hide-enchants: true
+    lore-format: lore-only
+    lore:
+      - "&b&m                                  "
+      - "&b&l⛏ Chỉ Số"
+      - "&7Cấp bậc &8» &e5&7/&e10"
+      - "&7Hiệu Suất &8» &e9"
+      - "&7Gia Tài &8» &e5"
+      - "&7Bền Bỉ &8» &e2"
+      - ""
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Dấu ấn của người lao động chính thức"
+      - "&7 &b●&7 Bền Bỉ 2 - càng nâng cấp càng khó vỡ"
+      - "&b&m                                  "
+    enchants:
+      efficiency: 9.0
+      fortune: 5.0
+      unbreaking: 2.0
+    pickaxe-power: 25.0
+    will-break: false
+    unbreakable: false
+
+PICKAXE_LAO_CONG_6:
+  base:
+    material: IRON_PICKAXE
+    name: "&bCuốc Lao Công &7+5"
+    max-durability: 2000
+    tier: UNCOMMON
+    hide-enchants: true
+    lore-format: lore-only
+    lore:
+      - "&b&m                                  "
+      - "&b&l⛏ Chỉ Số"
+      - "&7Cấp bậc &8» &e6&7/&e10"
+      - "&7Hiệu Suất &8» &e9"
+      - "&7Gia Tài &8» &e5"
+      - "&7Bền Bỉ &8» &e2"
+      - ""
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Dấu ấn của người lao động chính thức"
+      - "&7 &b●&7 Bền Bỉ 2 - càng nâng cấp càng khó vỡ"
+      - "&b&m                                  "
+    enchants:
+      efficiency: 9.0
+      fortune: 5.0
+      unbreaking: 2.0
+    pickaxe-power: 26.0
+    will-break: false
+    unbreakable: false
+
+PICKAXE_LAO_CONG_7:
+  base:
+    material: IRON_PICKAXE
+    name: "&bCuốc Lao Công &7+6"
+    max-durability: 2000
+    tier: UNCOMMON
+    hide-enchants: true
+    lore-format: lore-only
+    lore:
+      - "&b&m                                  "
+      - "&b&l⛏ Chỉ Số"
+      - "&7Cấp bậc &8» &e7&7/&e10"
+      - "&7Hiệu Suất &8» &e9"
+      - "&7Gia Tài &8» &e5"
+      - "&7Bền Bỉ &8» &e2"
+      - ""
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Dấu ấn của người lao động chính thức"
+      - "&7 &b●&7 Bền Bỉ 2 - càng nâng cấp càng khó vỡ"
+      - "&b&m                                  "
+    enchants:
+      efficiency: 9.0
+      fortune: 5.0
+      unbreaking: 2.0
+    pickaxe-power: 27.0
+    will-break: false
+    unbreakable: false
+
+PICKAXE_LAO_CONG_8:
+  base:
+    material: IRON_PICKAXE
+    name: "&bCuốc Lao Công &7+7"
+    max-durability: 2000
+    tier: UNCOMMON
+    hide-enchants: true
+    lore-format: lore-only
+    lore:
+      - "&b&m                                  "
+      - "&b&l⛏ Chỉ Số"
+      - "&7Cấp bậc &8» &e8&7/&e10"
+      - "&7Hiệu Suất &8» &e10"
+      - "&7Gia Tài &8» &e5"
+      - "&7Bền Bỉ &8» &e2"
+      - ""
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Dấu ấn của người lao động chính thức"
+      - "&7 &b●&7 Bền Bỉ 2 - càng nâng cấp càng khó vỡ"
+      - "&b&m                                  "
+    enchants:
+      efficiency: 10.0
+      fortune: 5.0
+      unbreaking: 2.0
+    pickaxe-power: 28.0
+    will-break: false
+    unbreakable: false
+
+PICKAXE_LAO_CONG_9:
+  base:
+    material: IRON_PICKAXE
+    name: "&bCuốc Lao Công &7+8"
+    max-durability: 2000
+    tier: UNCOMMON
+    hide-enchants: true
+    lore-format: lore-only
+    lore:
+      - "&b&m                                  "
+      - "&b&l⛏ Chỉ Số"
+      - "&7Cấp bậc &8» &e9&7/&e10"
+      - "&7Hiệu Suất &8» &e10"
+      - "&7Gia Tài &8» &e5"
+      - "&7Bền Bỉ &8» &e2"
+      - ""
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Dấu ấn của người lao động chính thức"
+      - "&7 &b●&7 Bền Bỉ 2 - càng nâng cấp càng khó vỡ"
+      - "&b&m                                  "
+    enchants:
+      efficiency: 10.0
+      fortune: 5.0
+      unbreaking: 2.0
+    pickaxe-power: 29.0
+    will-break: false
+    unbreakable: false
+
+PICKAXE_LAO_CONG_10:
+  base:
+    material: IRON_PICKAXE
+    name: "&bCuốc Lao Công &7+9"
+    max-durability: 2000
+    tier: UNCOMMON
+    hide-enchants: true
+    lore-format: lore-only
+    lore:
+      - "&b&m                                  "
+      - "&b&l⛏ Chỉ Số"
+      - "&7Cấp bậc &8» &e10&7/&e10"
+      - "&7Hiệu Suất &8» &e10"
+      - "&7Gia Tài &8» &e5"
+      - "&7Bền Bỉ &8» &e2"
+      - ""
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Dấu ấn của người lao động chính thức"
+      - "&7 &b●&7 Bền Bỉ 2 - càng nâng cấp càng khó vỡ"
+      - "&b&m                                  "
+    enchants:
+      efficiency: 10.0
+      fortune: 5.0
+      unbreaking: 2.0
+    pickaxe-power: 30.0
+    will-break: false
+    unbreakable: false
+
+PICKAXE_THO_DAO_1:
+  base:
+    material: IRON_PICKAXE
+    name: "&eCuốc Thợ Đào"
+    max-durability: 3000
+    tier: RARE
+    hide-enchants: true
+    lore-format: lore-only
+    lore:
+      - "&b&m                                  "
+      - "&b&l⛏ Chỉ Số"
+      - "&7Cấp bậc &8» &e1&7/&e10"
+      - "&7Hiệu Suất &8» &e11"
+      - "&7Gia Tài &8» &e6"
+      - "&7Bền Bỉ &8» &e2"
+      - ""
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Đôi tay lành nghề, mạch quặng khó thoát"
+      - "&7 &b●&7 Bền Bỉ 2 - càng nâng cấp càng khó vỡ"
+      - "&b&m                                  "
+    enchants:
+      efficiency: 11.0
+      fortune: 6.0
+      unbreaking: 2.0
+    pickaxe-power: 31.0
+    will-break: false
+    unbreakable: false
+
+PICKAXE_THO_DAO_2:
+  base:
+    material: IRON_PICKAXE
+    name: "&eCuốc Thợ Đào &7+1"
+    max-durability: 3000
+    tier: RARE
+    hide-enchants: true
+    lore-format: lore-only
+    lore:
+      - "&b&m                                  "
+      - "&b&l⛏ Chỉ Số"
+      - "&7Cấp bậc &8» &e2&7/&e10"
+      - "&7Hiệu Suất &8» &e11"
+      - "&7Gia Tài &8» &e6"
+      - "&7Bền Bỉ &8» &e2"
+      - ""
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Đôi tay lành nghề, mạch quặng khó thoát"
+      - "&7 &b●&7 Bền Bỉ 2 - càng nâng cấp càng khó vỡ"
+      - "&b&m                                  "
+    enchants:
+      efficiency: 11.0
+      fortune: 6.0
+      unbreaking: 2.0
+    pickaxe-power: 32.0
+    will-break: false
+    unbreakable: false
+
+PICKAXE_THO_DAO_3:
+  base:
+    material: IRON_PICKAXE
+    name: "&eCuốc Thợ Đào &7+2"
+    max-durability: 3000
+    tier: RARE
+    hide-enchants: true
+    lore-format: lore-only
+    lore:
+      - "&b&m                                  "
+      - "&b&l⛏ Chỉ Số"
+      - "&7Cấp bậc &8» &e3&7/&e10"
+      - "&7Hiệu Suất &8» &e11"
+      - "&7Gia Tài &8» &e6"
+      - "&7Bền Bỉ &8» &e2"
+      - ""
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Đôi tay lành nghề, mạch quặng khó thoát"
+      - "&7 &b●&7 Bền Bỉ 2 - càng nâng cấp càng khó vỡ"
+      - "&b&m                                  "
+    enchants:
+      efficiency: 11.0
+      fortune: 6.0
+      unbreaking: 2.0
+    pickaxe-power: 33.0
+    will-break: false
+    unbreakable: false
+
+PICKAXE_THO_DAO_4:
+  base:
+    material: IRON_PICKAXE
+    name: "&eCuốc Thợ Đào &7+3"
+    max-durability: 3000
+    tier: RARE
+    hide-enchants: true
+    lore-format: lore-only
+    lore:
+      - "&b&m                                  "
+      - "&b&l⛏ Chỉ Số"
+      - "&7Cấp bậc &8» &e4&7/&e10"
+      - "&7Hiệu Suất &8» &e12"
+      - "&7Gia Tài &8» &e6"
+      - "&7Bền Bỉ &8» &e2"
+      - ""
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Đôi tay lành nghề, mạch quặng khó thoát"
+      - "&7 &b●&7 Bền Bỉ 2 - càng nâng cấp càng khó vỡ"
+      - "&b&m                                  "
+    enchants:
+      efficiency: 12.0
+      fortune: 6.0
+      unbreaking: 2.0
+    pickaxe-power: 34.0
+    will-break: false
+    unbreakable: false
+
+PICKAXE_THO_DAO_5:
+  base:
+    material: IRON_PICKAXE
+    name: "&eCuốc Thợ Đào &7+4"
+    max-durability: 3000
+    tier: RARE
+    hide-enchants: true
+    lore-format: lore-only
+    lore:
+      - "&b&m                                  "
+      - "&b&l⛏ Chỉ Số"
+      - "&7Cấp bậc &8» &e5&7/&e10"
+      - "&7Hiệu Suất &8» &e12"
+      - "&7Gia Tài &8» &e6"
+      - "&7Bền Bỉ &8» &e2"
+      - ""
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Đôi tay lành nghề, mạch quặng khó thoát"
+      - "&7 &b●&7 Bền Bỉ 2 - càng nâng cấp càng khó vỡ"
+      - "&b&m                                  "
+    enchants:
+      efficiency: 12.0
+      fortune: 6.0
+      unbreaking: 2.0
+    pickaxe-power: 35.0
+    will-break: false
+    unbreakable: false
+
+PICKAXE_THO_DAO_6:
+  base:
+    material: IRON_PICKAXE
+    name: "&eCuốc Thợ Đào &7+5"
+    max-durability: 3000
+    tier: RARE
+    hide-enchants: true
+    lore-format: lore-only
+    lore:
+      - "&b&m                                  "
+      - "&b&l⛏ Chỉ Số"
+      - "&7Cấp bậc &8» &e6&7/&e10"
+      - "&7Hiệu Suất &8» &e12"
+      - "&7Gia Tài &8» &e6"
+      - "&7Bền Bỉ &8» &e2"
+      - ""
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Đôi tay lành nghề, mạch quặng khó thoát"
+      - "&7 &b●&7 Bền Bỉ 2 - càng nâng cấp càng khó vỡ"
+      - "&b&m                                  "
+    enchants:
+      efficiency: 12.0
+      fortune: 6.0
+      unbreaking: 2.0
+    pickaxe-power: 36.0
+    will-break: false
+    unbreakable: false
+
+PICKAXE_THO_DAO_7:
+  base:
+    material: IRON_PICKAXE
+    name: "&eCuốc Thợ Đào &7+6"
+    max-durability: 3000
+    tier: RARE
+    hide-enchants: true
+    lore-format: lore-only
+    lore:
+      - "&b&m                                  "
+      - "&b&l⛏ Chỉ Số"
+      - "&7Cấp bậc &8» &e7&7/&e10"
+      - "&7Hiệu Suất &8» &e13"
+      - "&7Gia Tài &8» &e7"
+      - "&7Bền Bỉ &8» &e3"
+      - ""
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Đôi tay lành nghề, mạch quặng khó thoát"
+      - "&7 &b●&7 Bền Bỉ 3 - càng nâng cấp càng khó vỡ"
+      - "&b&m                                  "
+    enchants:
+      efficiency: 13.0
+      fortune: 7.0
+      unbreaking: 3.0
+    pickaxe-power: 37.0
+    will-break: false
+    unbreakable: false
+
+PICKAXE_THO_DAO_8:
+  base:
+    material: IRON_PICKAXE
+    name: "&eCuốc Thợ Đào &7+7"
+    max-durability: 3000
+    tier: RARE
+    hide-enchants: true
+    lore-format: lore-only
+    lore:
+      - "&b&m                                  "
+      - "&b&l⛏ Chỉ Số"
+      - "&7Cấp bậc &8» &e8&7/&e10"
+      - "&7Hiệu Suất &8» &e13"
+      - "&7Gia Tài &8» &e7"
+      - "&7Bền Bỉ &8» &e3"
+      - ""
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Đôi tay lành nghề, mạch quặng khó thoát"
+      - "&7 &b●&7 Bền Bỉ 3 - càng nâng cấp càng khó vỡ"
+      - "&b&m                                  "
+    enchants:
+      efficiency: 13.0
+      fortune: 7.0
+      unbreaking: 3.0
+    pickaxe-power: 38.0
+    will-break: false
+    unbreakable: false
+
+PICKAXE_THO_DAO_9:
+  base:
+    material: IRON_PICKAXE
+    name: "&eCuốc Thợ Đào &7+8"
+    max-durability: 3000
+    tier: RARE
+    hide-enchants: true
+    lore-format: lore-only
+    lore:
+      - "&b&m                                  "
+      - "&b&l⛏ Chỉ Số"
+      - "&7Cấp bậc &8» &e9&7/&e10"
+      - "&7Hiệu Suất &8» &e13"
+      - "&7Gia Tài &8» &e7"
+      - "&7Bền Bỉ &8» &e3"
+      - ""
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Đôi tay lành nghề, mạch quặng khó thoát"
+      - "&7 &b●&7 Bền Bỉ 3 - càng nâng cấp càng khó vỡ"
+      - "&b&m                                  "
+    enchants:
+      efficiency: 13.0
+      fortune: 7.0
+      unbreaking: 3.0
+    pickaxe-power: 39.0
+    will-break: false
+    unbreakable: false
+
+PICKAXE_THO_DAO_10:
+  base:
+    material: IRON_PICKAXE
+    name: "&eCuốc Thợ Đào &7+9"
+    max-durability: 3000
+    tier: RARE
+    hide-enchants: true
+    lore-format: lore-only
+    lore:
+      - "&b&m                                  "
+      - "&b&l⛏ Chỉ Số"
+      - "&7Cấp bậc &8» &e10&7/&e10"
+      - "&7Hiệu Suất &8» &e14"
+      - "&7Gia Tài &8» &e7"
+      - "&7Bền Bỉ &8» &e3"
+      - ""
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Đôi tay lành nghề, mạch quặng khó thoát"
+      - "&7 &b●&7 Bền Bỉ 3 - càng nâng cấp càng khó vỡ"
+      - "&b&m                                  "
+    enchants:
+      efficiency: 14.0
+      fortune: 7.0
+      unbreaking: 3.0
+    pickaxe-power: 40.0
+    will-break: false
+    unbreakable: false
+
+PICKAXE_DOI_TRUONG_1:
   base:
     material: DIAMOND_PICKAXE
-    name: §7§lCrack Pickaxe
-    enchants:
-      fortune: 2.0
-      efficiency: 1.0
-    max-durability: 3650.0
-    tier: RARE
-    attack-damage: 6.0
-    attack-speed: 1.5
-    pickaxe-power: 4.0
-    bouncing-crack: true
+    name: "&6Cuốc Đội Trưởng"
+    max-durability: 4500
+    tier: VERY_RARE
+    hide-enchants: true
+    lore-format: lore-only
     lore:
-      - §cWill break adjacent blocks!
-AUTOSMELT_PICKAXE:
+      - "&b&m                                  "
+      - "&b&l⛏ Chỉ Số"
+      - "&7Cấp bậc &8» &e1&7/&e10"
+      - "&7Hiệu Suất &8» &e14"
+      - "&7Gia Tài &8» &e7"
+      - "&7Bền Bỉ &8» &e3"
+      - ""
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Dẫn dắt cả đội đào xuyên lòng đất"
+      - "&7 &b●&7 Bền Bỉ 3 - càng nâng cấp càng khó vỡ"
+      - "&b&m                                  "
+    enchants:
+      efficiency: 14.0
+      fortune: 7.0
+      unbreaking: 3.0
+    pickaxe-power: 41.0
+    will-break: false
+    unbreakable: false
+
+PICKAXE_DOI_TRUONG_2:
+  base:
+    material: DIAMOND_PICKAXE
+    name: "&6Cuốc Đội Trưởng &7+1"
+    max-durability: 4500
+    tier: VERY_RARE
+    hide-enchants: true
+    lore-format: lore-only
+    lore:
+      - "&b&m                                  "
+      - "&b&l⛏ Chỉ Số"
+      - "&7Cấp bậc &8» &e2&7/&e10"
+      - "&7Hiệu Suất &8» &e14"
+      - "&7Gia Tài &8» &e7"
+      - "&7Bền Bỉ &8» &e3"
+      - ""
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Dẫn dắt cả đội đào xuyên lòng đất"
+      - "&7 &b●&7 Bền Bỉ 3 - càng nâng cấp càng khó vỡ"
+      - "&b&m                                  "
+    enchants:
+      efficiency: 14.0
+      fortune: 7.0
+      unbreaking: 3.0
+    pickaxe-power: 42.0
+    will-break: false
+    unbreakable: false
+
+PICKAXE_DOI_TRUONG_3:
+  base:
+    material: DIAMOND_PICKAXE
+    name: "&6Cuốc Đội Trưởng &7+2"
+    max-durability: 4500
+    tier: VERY_RARE
+    hide-enchants: true
+    lore-format: lore-only
+    lore:
+      - "&b&m                                  "
+      - "&b&l⛏ Chỉ Số"
+      - "&7Cấp bậc &8» &e3&7/&e10"
+      - "&7Hiệu Suất &8» &e15"
+      - "&7Gia Tài &8» &e8"
+      - "&7Bền Bỉ &8» &e3"
+      - ""
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Dẫn dắt cả đội đào xuyên lòng đất"
+      - "&7 &b●&7 Bền Bỉ 3 - càng nâng cấp càng khó vỡ"
+      - "&b&m                                  "
+    enchants:
+      efficiency: 15.0
+      fortune: 8.0
+      unbreaking: 3.0
+    pickaxe-power: 43.0
+    will-break: false
+    unbreakable: false
+
+PICKAXE_DOI_TRUONG_4:
+  base:
+    material: DIAMOND_PICKAXE
+    name: "&6Cuốc Đội Trưởng &7+3"
+    max-durability: 4500
+    tier: VERY_RARE
+    hide-enchants: true
+    lore-format: lore-only
+    lore:
+      - "&b&m                                  "
+      - "&b&l⛏ Chỉ Số"
+      - "&7Cấp bậc &8» &e4&7/&e10"
+      - "&7Hiệu Suất &8» &e15"
+      - "&7Gia Tài &8» &e8"
+      - "&7Bền Bỉ &8» &e3"
+      - ""
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Dẫn dắt cả đội đào xuyên lòng đất"
+      - "&7 &b●&7 Bền Bỉ 3 - càng nâng cấp càng khó vỡ"
+      - "&b&m                                  "
+    enchants:
+      efficiency: 15.0
+      fortune: 8.0
+      unbreaking: 3.0
+    pickaxe-power: 44.0
+    will-break: false
+    unbreakable: false
+
+PICKAXE_DOI_TRUONG_5:
+  base:
+    material: DIAMOND_PICKAXE
+    name: "&6Cuốc Đội Trưởng &7+4"
+    max-durability: 4500
+    tier: VERY_RARE
+    hide-enchants: true
+    lore-format: lore-only
+    lore:
+      - "&b&m                                  "
+      - "&b&l⛏ Chỉ Số"
+      - "&7Cấp bậc &8» &e5&7/&e10"
+      - "&7Hiệu Suất &8» &e15"
+      - "&7Gia Tài &8» &e8"
+      - "&7Bền Bỉ &8» &e3"
+      - ""
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Dẫn dắt cả đội đào xuyên lòng đất"
+      - "&7 &b●&7 Bền Bỉ 3 - càng nâng cấp càng khó vỡ"
+      - "&b&m                                  "
+    enchants:
+      efficiency: 15.0
+      fortune: 8.0
+      unbreaking: 3.0
+    pickaxe-power: 45.0
+    will-break: false
+    unbreakable: false
+
+PICKAXE_DOI_TRUONG_6:
+  base:
+    material: DIAMOND_PICKAXE
+    name: "&6Cuốc Đội Trưởng &7+5"
+    max-durability: 4500
+    tier: VERY_RARE
+    hide-enchants: true
+    lore-format: lore-only
+    lore:
+      - "&b&m                                  "
+      - "&b&l⛏ Chỉ Số"
+      - "&7Cấp bậc &8» &e6&7/&e10"
+      - "&7Hiệu Suất &8» &e16"
+      - "&7Gia Tài &8» &e8"
+      - "&7Bền Bỉ &8» &e3"
+      - ""
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Dẫn dắt cả đội đào xuyên lòng đất"
+      - "&7 &b●&7 Bền Bỉ 3 - càng nâng cấp càng khó vỡ"
+      - "&b&m                                  "
+    enchants:
+      efficiency: 16.0
+      fortune: 8.0
+      unbreaking: 3.0
+    pickaxe-power: 46.0
+    will-break: false
+    unbreakable: false
+
+PICKAXE_DOI_TRUONG_7:
+  base:
+    material: DIAMOND_PICKAXE
+    name: "&6Cuốc Đội Trưởng &7+6"
+    max-durability: 4500
+    tier: VERY_RARE
+    hide-enchants: true
+    lore-format: lore-only
+    lore:
+      - "&b&m                                  "
+      - "&b&l⛏ Chỉ Số"
+      - "&7Cấp bậc &8» &e7&7/&e10"
+      - "&7Hiệu Suất &8» &e16"
+      - "&7Gia Tài &8» &e8"
+      - "&7Bền Bỉ &8» &e3"
+      - ""
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Dẫn dắt cả đội đào xuyên lòng đất"
+      - "&7 &b●&7 Bền Bỉ 3 - càng nâng cấp càng khó vỡ"
+      - "&b&m                                  "
+    enchants:
+      efficiency: 16.0
+      fortune: 8.0
+      unbreaking: 3.0
+    pickaxe-power: 47.0
+    will-break: false
+    unbreakable: false
+
+PICKAXE_DOI_TRUONG_8:
+  base:
+    material: DIAMOND_PICKAXE
+    name: "&6Cuốc Đội Trưởng &7+7"
+    max-durability: 4500
+    tier: VERY_RARE
+    hide-enchants: true
+    lore-format: lore-only
+    lore:
+      - "&b&m                                  "
+      - "&b&l⛏ Chỉ Số"
+      - "&7Cấp bậc &8» &e8&7/&e10"
+      - "&7Hiệu Suất &8» &e16"
+      - "&7Gia Tài &8» &e8"
+      - "&7Bền Bỉ &8» &e3"
+      - ""
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Dẫn dắt cả đội đào xuyên lòng đất"
+      - "&7 &b●&7 Bền Bỉ 3 - càng nâng cấp càng khó vỡ"
+      - "&b&m                                  "
+    enchants:
+      efficiency: 16.0
+      fortune: 8.0
+      unbreaking: 3.0
+    pickaxe-power: 48.0
+    will-break: false
+    unbreakable: false
+
+PICKAXE_DOI_TRUONG_9:
+  base:
+    material: DIAMOND_PICKAXE
+    name: "&6Cuốc Đội Trưởng &7+8"
+    max-durability: 4500
+    tier: VERY_RARE
+    hide-enchants: true
+    lore-format: lore-only
+    lore:
+      - "&b&m                                  "
+      - "&b&l⛏ Chỉ Số"
+      - "&7Cấp bậc &8» &e9&7/&e10"
+      - "&7Hiệu Suất &8» &e17"
+      - "&7Gia Tài &8» &e9"
+      - "&7Bền Bỉ &8» &e3"
+      - ""
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Dẫn dắt cả đội đào xuyên lòng đất"
+      - "&7 &b●&7 Bền Bỉ 3 - càng nâng cấp càng khó vỡ"
+      - "&b&m                                  "
+    enchants:
+      efficiency: 17.0
+      fortune: 9.0
+      unbreaking: 3.0
+    pickaxe-power: 49.0
+    will-break: false
+    unbreakable: false
+
+PICKAXE_DOI_TRUONG_10:
+  base:
+    material: DIAMOND_PICKAXE
+    name: "&6Cuốc Đội Trưởng &7+9"
+    max-durability: 4500
+    tier: VERY_RARE
+    hide-enchants: true
+    lore-format: lore-only
+    lore:
+      - "&b&m                                  "
+      - "&b&l⛏ Chỉ Số"
+      - "&7Cấp bậc &8» &e10&7/&e10"
+      - "&7Hiệu Suất &8» &e17"
+      - "&7Gia Tài &8» &e9"
+      - "&7Bền Bỉ &8» &e3"
+      - ""
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Dẫn dắt cả đội đào xuyên lòng đất"
+      - "&7 &b●&7 Bền Bỉ 3 - càng nâng cấp càng khó vỡ"
+      - "&b&m                                  "
+    enchants:
+      efficiency: 17.0
+      fortune: 9.0
+      unbreaking: 3.0
+    pickaxe-power: 50.0
+    will-break: false
+    unbreakable: false
+
+PICKAXE_PHO_QUAN_NGUC_1:
+  base:
+    material: DIAMOND_PICKAXE
+    name: "&cCuốc Phó Quản Ngục"
+    max-durability: 6000
+    tier: LEGENDARY
+    hide-enchants: true
+    lore-format: lore-only
+    lore:
+      - "&b&m                                  "
+      - "&b&l⛏ Chỉ Số"
+      - "&7Cấp bậc &8» &e1&7/&e10"
+      - "&7Hiệu Suất &8» &e17"
+      - "&7Gia Tài &8» &e9"
+      - "&7Bền Bỉ &8» &e3"
+      - ""
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Quyền lực đi kèm trách nhiệm"
+      - "&7 &b●&7 Bền Bỉ 3 - càng nâng cấp càng khó vỡ"
+      - "&b&m                                  "
+    enchants:
+      efficiency: 17.0
+      fortune: 9.0
+      unbreaking: 3.0
+    pickaxe-power: 51.0
+    will-break: false
+    unbreakable: false
+
+PICKAXE_PHO_QUAN_NGUC_2:
+  base:
+    material: DIAMOND_PICKAXE
+    name: "&cCuốc Phó Quản Ngục &7+1"
+    max-durability: 6000
+    tier: LEGENDARY
+    hide-enchants: true
+    lore-format: lore-only
+    lore:
+      - "&b&m                                  "
+      - "&b&l⛏ Chỉ Số"
+      - "&7Cấp bậc &8» &e2&7/&e10"
+      - "&7Hiệu Suất &8» &e18"
+      - "&7Gia Tài &8» &e9"
+      - "&7Bền Bỉ &8» &e3"
+      - ""
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Quyền lực đi kèm trách nhiệm"
+      - "&7 &b●&7 Bền Bỉ 3 - càng nâng cấp càng khó vỡ"
+      - "&b&m                                  "
+    enchants:
+      efficiency: 18.0
+      fortune: 9.0
+      unbreaking: 3.0
+    pickaxe-power: 52.0
+    will-break: false
+    unbreakable: false
+
+PICKAXE_PHO_QUAN_NGUC_3:
+  base:
+    material: DIAMOND_PICKAXE
+    name: "&cCuốc Phó Quản Ngục &7+2"
+    max-durability: 6000
+    tier: LEGENDARY
+    hide-enchants: true
+    lore-format: lore-only
+    lore:
+      - "&b&m                                  "
+      - "&b&l⛏ Chỉ Số"
+      - "&7Cấp bậc &8» &e3&7/&e10"
+      - "&7Hiệu Suất &8» &e18"
+      - "&7Gia Tài &8» &e9"
+      - "&7Bền Bỉ &8» &e3"
+      - ""
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Quyền lực đi kèm trách nhiệm"
+      - "&7 &b●&7 Bền Bỉ 3 - càng nâng cấp càng khó vỡ"
+      - "&b&m                                  "
+    enchants:
+      efficiency: 18.0
+      fortune: 9.0
+      unbreaking: 3.0
+    pickaxe-power: 53.0
+    will-break: false
+    unbreakable: false
+
+PICKAXE_PHO_QUAN_NGUC_4:
+  base:
+    material: DIAMOND_PICKAXE
+    name: "&cCuốc Phó Quản Ngục &7+3"
+    max-durability: 6000
+    tier: LEGENDARY
+    hide-enchants: true
+    lore-format: lore-only
+    lore:
+      - "&b&m                                  "
+      - "&b&l⛏ Chỉ Số"
+      - "&7Cấp bậc &8» &e4&7/&e10"
+      - "&7Hiệu Suất &8» &e18"
+      - "&7Gia Tài &8» &e9"
+      - "&7Bền Bỉ &8» &e3"
+      - ""
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Quyền lực đi kèm trách nhiệm"
+      - "&7 &b●&7 Bền Bỉ 3 - càng nâng cấp càng khó vỡ"
+      - "&b&m                                  "
+    enchants:
+      efficiency: 18.0
+      fortune: 9.0
+      unbreaking: 3.0
+    pickaxe-power: 54.0
+    will-break: false
+    unbreakable: false
+
+PICKAXE_PHO_QUAN_NGUC_5:
+  base:
+    material: DIAMOND_PICKAXE
+    name: "&cCuốc Phó Quản Ngục &7+4"
+    max-durability: 6000
+    tier: LEGENDARY
+    hide-enchants: true
+    lore-format: lore-only
+    lore:
+      - "&b&m                                  "
+      - "&b&l⛏ Chỉ Số"
+      - "&7Cấp bậc &8» &e5&7/&e10"
+      - "&7Hiệu Suất &8» &e19"
+      - "&7Gia Tài &8» &e10"
+      - "&7Bền Bỉ &8» &e4"
+      - ""
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Quyền lực đi kèm trách nhiệm"
+      - "&7 &b●&7 Bền Bỉ 4 - càng nâng cấp càng khó vỡ"
+      - "&b&m                                  "
+    enchants:
+      efficiency: 19.0
+      fortune: 10.0
+      unbreaking: 4.0
+    pickaxe-power: 55.0
+    will-break: false
+    unbreakable: false
+
+PICKAXE_PHO_QUAN_NGUC_6:
+  base:
+    material: DIAMOND_PICKAXE
+    name: "&cCuốc Phó Quản Ngục &7+5"
+    max-durability: 6000
+    tier: LEGENDARY
+    hide-enchants: true
+    lore-format: lore-only
+    lore:
+      - "&b&m                                  "
+      - "&b&l⛏ Chỉ Số"
+      - "&7Cấp bậc &8» &e6&7/&e10"
+      - "&7Hiệu Suất &8» &e19"
+      - "&7Gia Tài &8» &e10"
+      - "&7Bền Bỉ &8» &e4"
+      - ""
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Quyền lực đi kèm trách nhiệm"
+      - "&7 &b●&7 Bền Bỉ 4 - càng nâng cấp càng khó vỡ"
+      - "&b&m                                  "
+    enchants:
+      efficiency: 19.0
+      fortune: 10.0
+      unbreaking: 4.0
+    pickaxe-power: 56.0
+    will-break: false
+    unbreakable: false
+
+PICKAXE_PHO_QUAN_NGUC_7:
+  base:
+    material: DIAMOND_PICKAXE
+    name: "&cCuốc Phó Quản Ngục &7+6"
+    max-durability: 6000
+    tier: LEGENDARY
+    hide-enchants: true
+    lore-format: lore-only
+    lore:
+      - "&b&m                                  "
+      - "&b&l⛏ Chỉ Số"
+      - "&7Cấp bậc &8» &e7&7/&e10"
+      - "&7Hiệu Suất &8» &e19"
+      - "&7Gia Tài &8» &e10"
+      - "&7Bền Bỉ &8» &e4"
+      - ""
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Quyền lực đi kèm trách nhiệm"
+      - "&7 &b●&7 Bền Bỉ 4 - càng nâng cấp càng khó vỡ"
+      - "&b&m                                  "
+    enchants:
+      efficiency: 19.0
+      fortune: 10.0
+      unbreaking: 4.0
+    pickaxe-power: 57.0
+    will-break: false
+    unbreakable: false
+
+PICKAXE_PHO_QUAN_NGUC_8:
+  base:
+    material: DIAMOND_PICKAXE
+    name: "&cCuốc Phó Quản Ngục &7+7"
+    max-durability: 6000
+    tier: LEGENDARY
+    hide-enchants: true
+    lore-format: lore-only
+    lore:
+      - "&b&m                                  "
+      - "&b&l⛏ Chỉ Số"
+      - "&7Cấp bậc &8» &e8&7/&e10"
+      - "&7Hiệu Suất &8» &e20"
+      - "&7Gia Tài &8» &e10"
+      - "&7Bền Bỉ &8» &e4"
+      - ""
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Quyền lực đi kèm trách nhiệm"
+      - "&7 &b●&7 Bền Bỉ 4 - càng nâng cấp càng khó vỡ"
+      - "&b&m                                  "
+    enchants:
+      efficiency: 20.0
+      fortune: 10.0
+      unbreaking: 4.0
+    pickaxe-power: 58.0
+    will-break: false
+    unbreakable: false
+
+PICKAXE_PHO_QUAN_NGUC_9:
+  base:
+    material: DIAMOND_PICKAXE
+    name: "&cCuốc Phó Quản Ngục &7+8"
+    max-durability: 6000
+    tier: LEGENDARY
+    hide-enchants: true
+    lore-format: lore-only
+    lore:
+      - "&b&m                                  "
+      - "&b&l⛏ Chỉ Số"
+      - "&7Cấp bậc &8» &e9&7/&e10"
+      - "&7Hiệu Suất &8» &e20"
+      - "&7Gia Tài &8» &e10"
+      - "&7Bền Bỉ &8» &e4"
+      - ""
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Quyền lực đi kèm trách nhiệm"
+      - "&7 &b●&7 Bền Bỉ 4 - càng nâng cấp càng khó vỡ"
+      - "&b&m                                  "
+    enchants:
+      efficiency: 20.0
+      fortune: 10.0
+      unbreaking: 4.0
+    pickaxe-power: 59.0
+    will-break: false
+    unbreakable: false
+
+PICKAXE_PHO_QUAN_NGUC_10:
+  base:
+    material: DIAMOND_PICKAXE
+    name: "&cCuốc Phó Quản Ngục &7+9"
+    max-durability: 6000
+    tier: LEGENDARY
+    hide-enchants: true
+    lore-format: lore-only
+    lore:
+      - "&b&m                                  "
+      - "&b&l⛏ Chỉ Số"
+      - "&7Cấp bậc &8» &e10&7/&e10"
+      - "&7Hiệu Suất &8» &e20"
+      - "&7Gia Tài &8» &e10"
+      - "&7Bền Bỉ &8» &e4"
+      - ""
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Quyền lực đi kèm trách nhiệm"
+      - "&7 &b●&7 Bền Bỉ 4 - càng nâng cấp càng khó vỡ"
+      - "&b&m                                  "
+    enchants:
+      efficiency: 20.0
+      fortune: 10.0
+      unbreaking: 4.0
+    pickaxe-power: 60.0
+    will-break: false
+    unbreakable: false
+
+PICKAXE_QUAN_NGUC_1:
   base:
     material: NETHERITE_PICKAXE
-    name: §cAutosmelt pickaxe
+    name: "&dCuốc Quản Ngục"
+    max-durability: 8000
+    tier: MYTHICAL
+    hide-enchants: true
+    lore-format: lore-only
     lore:
-      - §7Will §csmelt§7 ores, like it
-      - §7implies. Works with enchantments.
-    attack-damage: 7.5
-    attack-speed: 1.6
-    tier: UNCOMMON
-    required-level: 5.0
-    pickaxe-power: 5.0
-    autosmelt: true
-    crafting:
-      shaped:
-        '1':
-          input:
-            - v magma_cream - 1.0..|v netherite_block - 1.0..|v magma_cream - 1.0..
-            - v AIR 0 1..|v stick - 1.0..|v AIR 0 1..
-            - v AIR 0 1..|v stick - 1.0..|v AIR 0 1..
-UNBREAKABLE_SHEARS:
-  base:
-    material: SHEARS
+      - "&b&m                                  "
+      - "&b&l⛏ Chỉ Số"
+      - "&7Cấp bậc &8» &e1&7/&e10"
+      - "&7Hiệu Suất &8» &e21"
+      - "&7Gia Tài &8» &e11"
+      - "&7Bền Bỉ &8» &e4"
+      - ""
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Cai quản toàn bộ khu mỏ"
+      - "&7 &b●&7 Bền Bỉ 4 - càng nâng cấp càng khó vỡ"
+      - "&b&m                                  "
     enchants:
-      silk_touch: 1.0
+      efficiency: 21.0
+      fortune: 11.0
+      unbreaking: 4.0
+    pickaxe-power: 61.0
+    will-break: false
+    unbreakable: false
+
+PICKAXE_QUAN_NGUC_2:
+  base:
+    material: NETHERITE_PICKAXE
+    name: "&dCuốc Quản Ngục &7+1"
+    max-durability: 8000
+    tier: MYTHICAL
+    hide-enchants: true
+    lore-format: lore-only
     lore:
-      - §7If you're tired to craft new shears,
-      - §7try out this one! It can also
-      - §7pick up §9glass§7 or §2grass§7!
-    tier: UNCOMMON
-    required-level: 5.0
+      - "&b&m                                  "
+      - "&b&l⛏ Chỉ Số"
+      - "&7Cấp bậc &8» &e2&7/&e10"
+      - "&7Hiệu Suất &8» &e21"
+      - "&7Gia Tài &8» &e11"
+      - "&7Bền Bỉ &8» &e4"
+      - ""
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Cai quản toàn bộ khu mỏ"
+      - "&7 &b●&7 Bền Bỉ 4 - càng nâng cấp càng khó vỡ"
+      - "&b&m                                  "
+    enchants:
+      efficiency: 21.0
+      fortune: 11.0
+      unbreaking: 4.0
+    pickaxe-power: 62.0
+    will-break: false
+    unbreakable: false
+
+PICKAXE_QUAN_NGUC_3:
+  base:
+    material: NETHERITE_PICKAXE
+    name: "&dCuốc Quản Ngục &7+2"
+    max-durability: 8000
+    tier: MYTHICAL
+    hide-enchants: true
+    lore-format: lore-only
+    lore:
+      - "&b&m                                  "
+      - "&b&l⛏ Chỉ Số"
+      - "&7Cấp bậc &8» &e3&7/&e10"
+      - "&7Hiệu Suất &8» &e21"
+      - "&7Gia Tài &8» &e11"
+      - "&7Bền Bỉ &8» &e4"
+      - ""
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Cai quản toàn bộ khu mỏ"
+      - "&7 &b●&7 Bền Bỉ 4 - càng nâng cấp càng khó vỡ"
+      - "&b&m                                  "
+    enchants:
+      efficiency: 21.0
+      fortune: 11.0
+      unbreaking: 4.0
+    pickaxe-power: 63.0
+    will-break: false
+    unbreakable: false
+
+PICKAXE_QUAN_NGUC_4:
+  base:
+    material: NETHERITE_PICKAXE
+    name: "&dCuốc Quản Ngục &7+3"
+    max-durability: 8000
+    tier: MYTHICAL
+    hide-enchants: true
+    lore-format: lore-only
+    lore:
+      - "&b&m                                  "
+      - "&b&l⛏ Chỉ Số"
+      - "&7Cấp bậc &8» &e4&7/&e10"
+      - "&7Hiệu Suất &8» &e22"
+      - "&7Gia Tài &8» &e11"
+      - "&7Bền Bỉ &8» &e4"
+      - ""
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Cai quản toàn bộ khu mỏ"
+      - "&7 &b●&7 Bền Bỉ 4 - càng nâng cấp càng khó vỡ"
+      - "&b&m                                  "
+    enchants:
+      efficiency: 22.0
+      fortune: 11.0
+      unbreaking: 4.0
+    pickaxe-power: 64.0
+    will-break: false
+    unbreakable: false
+
+PICKAXE_QUAN_NGUC_5:
+  base:
+    material: NETHERITE_PICKAXE
+    name: "&dCuốc Quản Ngục &7+4"
+    max-durability: 8000
+    tier: MYTHICAL
+    hide-enchants: true
+    lore-format: lore-only
+    lore:
+      - "&b&m                                  "
+      - "&b&l⛏ Chỉ Số"
+      - "&7Cấp bậc &8» &e5&7/&e10"
+      - "&7Hiệu Suất &8» &e22"
+      - "&7Gia Tài &8» &e11"
+      - "&7Bền Bỉ &8» &e4"
+      - ""
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Cai quản toàn bộ khu mỏ"
+      - "&7 &b●&7 Bền Bỉ 4 - càng nâng cấp càng khó vỡ"
+      - "&b&m                                  "
+    enchants:
+      efficiency: 22.0
+      fortune: 11.0
+      unbreaking: 4.0
+    pickaxe-power: 65.0
+    will-break: false
+    unbreakable: false
+
+PICKAXE_QUAN_NGUC_6:
+  base:
+    material: NETHERITE_PICKAXE
+    name: "&dCuốc Quản Ngục &7+5"
+    max-durability: 8000
+    tier: MYTHICAL
+    hide-enchants: true
+    lore-format: lore-only
+    lore:
+      - "&b&m                                  "
+      - "&b&l⛏ Chỉ Số"
+      - "&7Cấp bậc &8» &e6&7/&e10"
+      - "&7Hiệu Suất &8» &e22"
+      - "&7Gia Tài &8» &e11"
+      - "&7Bền Bỉ &8» &e4"
+      - ""
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Cai quản toàn bộ khu mỏ"
+      - "&7 &b●&7 Bền Bỉ 4 - càng nâng cấp càng khó vỡ"
+      - "&b&m                                  "
+    enchants:
+      efficiency: 22.0
+      fortune: 11.0
+      unbreaking: 4.0
+    pickaxe-power: 66.0
+    will-break: false
+    unbreakable: false
+
+PICKAXE_QUAN_NGUC_7:
+  base:
+    material: NETHERITE_PICKAXE
+    name: "&dCuốc Quản Ngục &7+6"
+    max-durability: 8000
+    tier: MYTHICAL
+    hide-enchants: true
+    lore-format: lore-only
+    lore:
+      - "&b&m                                  "
+      - "&b&l⛏ Chỉ Số"
+      - "&7Cấp bậc &8» &e7&7/&e10"
+      - "&7Hiệu Suất &8» &e23"
+      - "&7Gia Tài &8» &e12"
+      - "&7Bền Bỉ &8» &e4"
+      - ""
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Cai quản toàn bộ khu mỏ"
+      - "&7 &b●&7 Bền Bỉ 4 - càng nâng cấp càng khó vỡ"
+      - "&b&m                                  "
+    enchants:
+      efficiency: 23.0
+      fortune: 12.0
+      unbreaking: 4.0
+    pickaxe-power: 67.0
+    will-break: false
+    unbreakable: false
+
+PICKAXE_QUAN_NGUC_8:
+  base:
+    material: NETHERITE_PICKAXE
+    name: "&dCuốc Quản Ngục &7+7"
+    max-durability: 8000
+    tier: MYTHICAL
+    hide-enchants: true
+    lore-format: lore-only
+    lore:
+      - "&b&m                                  "
+      - "&b&l⛏ Chỉ Số"
+      - "&7Cấp bậc &8» &e8&7/&e10"
+      - "&7Hiệu Suất &8» &e23"
+      - "&7Gia Tài &8» &e12"
+      - "&7Bền Bỉ &8» &e4"
+      - ""
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Cai quản toàn bộ khu mỏ"
+      - "&7 &b●&7 Bền Bỉ 4 - càng nâng cấp càng khó vỡ"
+      - "&b&m                                  "
+    enchants:
+      efficiency: 23.0
+      fortune: 12.0
+      unbreaking: 4.0
+    pickaxe-power: 68.0
+    will-break: false
+    unbreakable: false
+
+PICKAXE_QUAN_NGUC_9:
+  base:
+    material: NETHERITE_PICKAXE
+    name: "&dCuốc Quản Ngục &7+8"
+    max-durability: 8000
+    tier: MYTHICAL
+    hide-enchants: true
+    lore-format: lore-only
+    lore:
+      - "&b&m                                  "
+      - "&b&l⛏ Chỉ Số"
+      - "&7Cấp bậc &8» &e9&7/&e10"
+      - "&7Hiệu Suất &8» &e23"
+      - "&7Gia Tài &8» &e12"
+      - "&7Bền Bỉ &8» &e4"
+      - ""
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Cai quản toàn bộ khu mỏ"
+      - "&7 &b●&7 Bền Bỉ 4 - càng nâng cấp càng khó vỡ"
+      - "&b&m                                  "
+    enchants:
+      efficiency: 23.0
+      fortune: 12.0
+      unbreaking: 4.0
+    pickaxe-power: 69.0
+    will-break: false
+    unbreakable: false
+
+PICKAXE_QUAN_NGUC_10:
+  base:
+    material: NETHERITE_PICKAXE
+    name: "&dCuốc Quản Ngục &7+9"
+    max-durability: 8000
+    tier: MYTHICAL
+    hide-enchants: true
+    lore-format: lore-only
+    lore:
+      - "&b&m                                  "
+      - "&b&l⛏ Chỉ Số"
+      - "&7Cấp bậc &8» &e10&7/&e10"
+      - "&7Hiệu Suất &8» &e24"
+      - "&7Gia Tài &8» &e12"
+      - "&7Bền Bỉ &8» &e4"
+      - ""
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Cai quản toàn bộ khu mỏ"
+      - "&7 &b●&7 Bền Bỉ 4 - càng nâng cấp càng khó vỡ"
+      - "&b&m                                  "
+    enchants:
+      efficiency: 24.0
+      fortune: 12.0
+      unbreaking: 4.0
+    pickaxe-power: 70.0
+    will-break: false
+    unbreakable: false
+
+PICKAXE_BA_CHU_NGUC_TU_1:
+  base:
+    material: NETHERITE_PICKAXE
+    name: "&5Cuốc Bá Chủ Ngục Tù"
+    max-durability: 10000
+    tier: EPIC
+    hide-enchants: true
+    lore-format: lore-only
+    lore:
+      - "&b&m                                  "
+      - "&b&l⛏ Chỉ Số"
+      - "&7Cấp bậc &8» &e1&7/&e10"
+      - "&7Hiệu Suất &8» &e24"
+      - "&7Gia Tài &8» &e12"
+      - "&7Bền Bỉ &8» &e4"
+      - ""
+      - "&b&l⚡ Kĩ Năng"
+      - "&b ● (Tự động) Nung chảy quặng khi đào"
+      - ""
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Không ai dám trái lệnh"
+      - "&7 &b●&7 Bền Bỉ 4 - càng nâng cấp càng khó vỡ"
+      - "&b&m                                  "
+    enchants:
+      efficiency: 24.0
+      fortune: 12.0
+      unbreaking: 4.0
+    pickaxe-power: 71.0
+    autosmelt: true
+    will-break: false
+    unbreakable: false
+
+PICKAXE_BA_CHU_NGUC_TU_2:
+  base:
+    material: NETHERITE_PICKAXE
+    name: "&5Cuốc Bá Chủ Ngục Tù &7+1"
+    max-durability: 10000
+    tier: EPIC
+    hide-enchants: true
+    lore-format: lore-only
+    lore:
+      - "&b&m                                  "
+      - "&b&l⛏ Chỉ Số"
+      - "&7Cấp bậc &8» &e2&7/&e10"
+      - "&7Hiệu Suất &8» &e24"
+      - "&7Gia Tài &8» &e12"
+      - "&7Bền Bỉ &8» &e4"
+      - ""
+      - "&b&l⚡ Kĩ Năng"
+      - "&b ● (Tự động) Nung chảy quặng khi đào"
+      - ""
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Không ai dám trái lệnh"
+      - "&7 &b●&7 Bền Bỉ 4 - càng nâng cấp càng khó vỡ"
+      - "&b&m                                  "
+    enchants:
+      efficiency: 24.0
+      fortune: 12.0
+      unbreaking: 4.0
+    pickaxe-power: 72.0
+    autosmelt: true
+    will-break: false
+    unbreakable: false
+
+PICKAXE_BA_CHU_NGUC_TU_3:
+  base:
+    material: NETHERITE_PICKAXE
+    name: "&5Cuốc Bá Chủ Ngục Tù &7+2"
+    max-durability: 10000
+    tier: EPIC
+    hide-enchants: true
+    lore-format: lore-only
+    lore:
+      - "&b&m                                  "
+      - "&b&l⛏ Chỉ Số"
+      - "&7Cấp bậc &8» &e3&7/&e10"
+      - "&7Hiệu Suất &8» &e25"
+      - "&7Gia Tài &8» &e13"
+      - "&7Bền Bỉ &8» &e5"
+      - ""
+      - "&b&l⚡ Kĩ Năng"
+      - "&b ● (Tự động) Nung chảy quặng khi đào"
+      - ""
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Không ai dám trái lệnh"
+      - "&7 &b●&7 Bền Bỉ 5 - càng nâng cấp càng khó vỡ"
+      - "&b&m                                  "
+    enchants:
+      efficiency: 25.0
+      fortune: 13.0
+      unbreaking: 5.0
+    pickaxe-power: 73.0
+    autosmelt: true
+    will-break: false
+    unbreakable: false
+
+PICKAXE_BA_CHU_NGUC_TU_4:
+  base:
+    material: NETHERITE_PICKAXE
+    name: "&5Cuốc Bá Chủ Ngục Tù &7+3"
+    max-durability: 10000
+    tier: EPIC
+    hide-enchants: true
+    lore-format: lore-only
+    lore:
+      - "&b&m                                  "
+      - "&b&l⛏ Chỉ Số"
+      - "&7Cấp bậc &8» &e4&7/&e10"
+      - "&7Hiệu Suất &8» &e25"
+      - "&7Gia Tài &8» &e13"
+      - "&7Bền Bỉ &8» &e5"
+      - ""
+      - "&b&l⚡ Kĩ Năng"
+      - "&b ● (Tự động) Nung chảy quặng khi đào"
+      - ""
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Không ai dám trái lệnh"
+      - "&7 &b●&7 Bền Bỉ 5 - càng nâng cấp càng khó vỡ"
+      - "&b&m                                  "
+    enchants:
+      efficiency: 25.0
+      fortune: 13.0
+      unbreaking: 5.0
+    pickaxe-power: 74.0
+    autosmelt: true
+    will-break: false
+    unbreakable: false
+
+PICKAXE_BA_CHU_NGUC_TU_5:
+  base:
+    material: NETHERITE_PICKAXE
+    name: "&5Cuốc Bá Chủ Ngục Tù &7+4"
+    max-durability: 10000
+    tier: EPIC
+    hide-enchants: true
+    lore-format: lore-only
+    lore:
+      - "&b&m                                  "
+      - "&b&l⛏ Chỉ Số"
+      - "&7Cấp bậc &8» &e5&7/&e10"
+      - "&7Hiệu Suất &8» &e25"
+      - "&7Gia Tài &8» &e13"
+      - "&7Bền Bỉ &8» &e5"
+      - ""
+      - "&b&l⚡ Kĩ Năng"
+      - "&b ● (Tự động) Nung chảy quặng khi đào"
+      - ""
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Không ai dám trái lệnh"
+      - "&7 &b●&7 Bền Bỉ 5 - càng nâng cấp càng khó vỡ"
+      - "&b&m                                  "
+    enchants:
+      efficiency: 25.0
+      fortune: 13.0
+      unbreaking: 5.0
+    pickaxe-power: 75.0
+    autosmelt: true
+    will-break: false
+    unbreakable: false
+
+PICKAXE_BA_CHU_NGUC_TU_6:
+  base:
+    material: NETHERITE_PICKAXE
+    name: "&5Cuốc Bá Chủ Ngục Tù &7+5"
+    max-durability: 10000
+    tier: EPIC
+    hide-enchants: true
+    lore-format: lore-only
+    lore:
+      - "&b&m                                  "
+      - "&b&l⛏ Chỉ Số"
+      - "&7Cấp bậc &8» &e6&7/&e10"
+      - "&7Hiệu Suất &8» &e26"
+      - "&7Gia Tài &8» &e13"
+      - "&7Bền Bỉ &8» &e5"
+      - ""
+      - "&b&l⚡ Kĩ Năng"
+      - "&b ● (Tự động) Nung chảy quặng khi đào"
+      - ""
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Không ai dám trái lệnh"
+      - "&7 &b●&7 Bền Bỉ 5 - càng nâng cấp càng khó vỡ"
+      - "&b&m                                  "
+    enchants:
+      efficiency: 26.0
+      fortune: 13.0
+      unbreaking: 5.0
+    pickaxe-power: 76.0
+    autosmelt: true
+    will-break: false
+    unbreakable: false
+
+PICKAXE_BA_CHU_NGUC_TU_7:
+  base:
+    material: NETHERITE_PICKAXE
+    name: "&5Cuốc Bá Chủ Ngục Tù &7+6"
+    max-durability: 10000
+    tier: EPIC
+    hide-enchants: true
+    lore-format: lore-only
+    lore:
+      - "&b&m                                  "
+      - "&b&l⛏ Chỉ Số"
+      - "&7Cấp bậc &8» &e7&7/&e10"
+      - "&7Hiệu Suất &8» &e26"
+      - "&7Gia Tài &8» &e13"
+      - "&7Bền Bỉ &8» &e5"
+      - ""
+      - "&b&l⚡ Kĩ Năng"
+      - "&b ● (Tự động) Nung chảy quặng khi đào"
+      - ""
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Không ai dám trái lệnh"
+      - "&7 &b●&7 Bền Bỉ 5 - càng nâng cấp càng khó vỡ"
+      - "&b&m                                  "
+    enchants:
+      efficiency: 26.0
+      fortune: 13.0
+      unbreaking: 5.0
+    pickaxe-power: 77.0
+    autosmelt: true
+    will-break: false
+    unbreakable: false
+
+PICKAXE_BA_CHU_NGUC_TU_8:
+  base:
+    material: NETHERITE_PICKAXE
+    name: "&5Cuốc Bá Chủ Ngục Tù &7+7"
+    max-durability: 10000
+    tier: EPIC
+    hide-enchants: true
+    lore-format: lore-only
+    lore:
+      - "&b&m                                  "
+      - "&b&l⛏ Chỉ Số"
+      - "&7Cấp bậc &8» &e8&7/&e10"
+      - "&7Hiệu Suất &8» &e26"
+      - "&7Gia Tài &8» &e13"
+      - "&7Bền Bỉ &8» &e5"
+      - ""
+      - "&b&l⚡ Kĩ Năng"
+      - "&b ● (Tự động) Nung chảy quặng khi đào"
+      - ""
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Không ai dám trái lệnh"
+      - "&7 &b●&7 Bền Bỉ 5 - càng nâng cấp càng khó vỡ"
+      - "&b&m                                  "
+    enchants:
+      efficiency: 26.0
+      fortune: 13.0
+      unbreaking: 5.0
+    pickaxe-power: 78.0
+    autosmelt: true
+    will-break: false
+    unbreakable: false
+
+PICKAXE_BA_CHU_NGUC_TU_9:
+  base:
+    material: NETHERITE_PICKAXE
+    name: "&5Cuốc Bá Chủ Ngục Tù &7+8"
+    max-durability: 10000
+    tier: EPIC
+    hide-enchants: true
+    lore-format: lore-only
+    lore:
+      - "&b&m                                  "
+      - "&b&l⛏ Chỉ Số"
+      - "&7Cấp bậc &8» &e9&7/&e10"
+      - "&7Hiệu Suất &8» &e27"
+      - "&7Gia Tài &8» &e14"
+      - "&7Bền Bỉ &8» &e5"
+      - ""
+      - "&b&l⚡ Kĩ Năng"
+      - "&b ● (Tự động) Nung chảy quặng khi đào"
+      - ""
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Không ai dám trái lệnh"
+      - "&7 &b●&7 Bền Bỉ 5 - càng nâng cấp càng khó vỡ"
+      - "&b&m                                  "
+    enchants:
+      efficiency: 27.0
+      fortune: 14.0
+      unbreaking: 5.0
+    pickaxe-power: 79.0
+    autosmelt: true
+    will-break: false
+    unbreakable: false
+
+PICKAXE_BA_CHU_NGUC_TU_10:
+  base:
+    material: NETHERITE_PICKAXE
+    name: "&5Cuốc Bá Chủ Ngục Tù &7+9"
+    max-durability: 10000
+    tier: EPIC
+    hide-enchants: true
+    lore-format: lore-only
+    lore:
+      - "&b&m                                  "
+      - "&b&l⛏ Chỉ Số"
+      - "&7Cấp bậc &8» &e10&7/&e10"
+      - "&7Hiệu Suất &8» &e27"
+      - "&7Gia Tài &8» &e14"
+      - "&7Bền Bỉ &8» &e5"
+      - ""
+      - "&b&l⚡ Kĩ Năng"
+      - "&b ● (Tự động) Nung chảy quặng khi đào"
+      - ""
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Không ai dám trái lệnh"
+      - "&7 &b●&7 Bền Bỉ 5 - càng nâng cấp càng khó vỡ"
+      - "&b&m                                  "
+    enchants:
+      efficiency: 27.0
+      fortune: 14.0
+      unbreaking: 5.0
+    pickaxe-power: 80.0
+    autosmelt: true
+    will-break: false
+    unbreakable: false
+
+PICKAXE_VUOT_NGUC_1:
+  base:
+    material: NETHERITE_PICKAXE
+    name: "&4Cuốc Vượt Ngục"
+    max-durability: 15000
+    tier: UNIQUE
+    hide-enchants: true
+    lore-format: lore-only
+    lore:
+      - "&b&m                                  "
+      - "&b&l⛏ Chỉ Số"
+      - "&7Cấp bậc &8» &e1&7/&e10"
+      - "&7Hiệu Suất &8» &e27"
+      - "&7Gia Tài &8» &e14"
+      - "&7Bền Bỉ &8» &e5"
+      - ""
+      - "&b&l⚡ Kĩ Năng"
+      - "&b ● (Tự động) Nung chảy quặng khi đào"
+      - ""
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Bước cuối cùng trước ngưỡng cửa tự do"
+      - "&7 &b●&7 Bền Bỉ 5 - càng nâng cấp càng khó vỡ"
+      - "&b&m                                  "
+    enchants:
+      efficiency: 27.0
+      fortune: 14.0
+      unbreaking: 5.0
+    pickaxe-power: 81.0
+    autosmelt: true
+    will-break: false
+    unbreakable: false
+
+PICKAXE_VUOT_NGUC_2:
+  base:
+    material: NETHERITE_PICKAXE
+    name: "&4Cuốc Vượt Ngục &7+1"
+    max-durability: 15000
+    tier: UNIQUE
+    hide-enchants: true
+    lore-format: lore-only
+    lore:
+      - "&b&m                                  "
+      - "&b&l⛏ Chỉ Số"
+      - "&7Cấp bậc &8» &e2&7/&e10"
+      - "&7Hiệu Suất &8» &e28"
+      - "&7Gia Tài &8» &e14"
+      - "&7Bền Bỉ &8» &e5"
+      - ""
+      - "&b&l⚡ Kĩ Năng"
+      - "&b ● (Tự động) Nung chảy quặng khi đào"
+      - ""
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Bước cuối cùng trước ngưỡng cửa tự do"
+      - "&7 &b●&7 Bền Bỉ 5 - càng nâng cấp càng khó vỡ"
+      - "&b&m                                  "
+    enchants:
+      efficiency: 28.0
+      fortune: 14.0
+      unbreaking: 5.0
+    pickaxe-power: 82.0
+    autosmelt: true
+    will-break: false
+    unbreakable: false
+
+PICKAXE_VUOT_NGUC_3:
+  base:
+    material: NETHERITE_PICKAXE
+    name: "&4Cuốc Vượt Ngục &7+2"
+    max-durability: 15000
+    tier: UNIQUE
+    hide-enchants: true
+    lore-format: lore-only
+    lore:
+      - "&b&m                                  "
+      - "&b&l⛏ Chỉ Số"
+      - "&7Cấp bậc &8» &e3&7/&e10"
+      - "&7Hiệu Suất &8» &e28"
+      - "&7Gia Tài &8» &e14"
+      - "&7Bền Bỉ &8» &e5"
+      - ""
+      - "&b&l⚡ Kĩ Năng"
+      - "&b ● (Tự động) Nung chảy quặng khi đào"
+      - ""
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Bước cuối cùng trước ngưỡng cửa tự do"
+      - "&7 &b●&7 Bền Bỉ 5 - càng nâng cấp càng khó vỡ"
+      - "&b&m                                  "
+    enchants:
+      efficiency: 28.0
+      fortune: 14.0
+      unbreaking: 5.0
+    pickaxe-power: 83.0
+    autosmelt: true
+    will-break: false
+    unbreakable: false
+
+PICKAXE_VUOT_NGUC_4:
+  base:
+    material: NETHERITE_PICKAXE
+    name: "&4Cuốc Vượt Ngục &7+3"
+    max-durability: 15000
+    tier: UNIQUE
+    hide-enchants: true
+    lore-format: lore-only
+    lore:
+      - "&b&m                                  "
+      - "&b&l⛏ Chỉ Số"
+      - "&7Cấp bậc &8» &e4&7/&e10"
+      - "&7Hiệu Suất &8» &e28"
+      - "&7Gia Tài &8» &e14"
+      - "&7Bền Bỉ &8» &e5"
+      - ""
+      - "&b&l⚡ Kĩ Năng"
+      - "&b ● (Tự động) Nung chảy quặng khi đào"
+      - ""
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Bước cuối cùng trước ngưỡng cửa tự do"
+      - "&7 &b●&7 Bền Bỉ 5 - càng nâng cấp càng khó vỡ"
+      - "&b&m                                  "
+    enchants:
+      efficiency: 28.0
+      fortune: 14.0
+      unbreaking: 5.0
+    pickaxe-power: 84.0
+    autosmelt: true
+    will-break: false
+    unbreakable: false
+
+PICKAXE_VUOT_NGUC_5:
+  base:
+    material: NETHERITE_PICKAXE
+    name: "&4Cuốc Vượt Ngục &7+4"
+    max-durability: 15000
+    tier: UNIQUE
+    hide-enchants: true
+    lore-format: lore-only
+    lore:
+      - "&b&m                                  "
+      - "&b&l⛏ Chỉ Số"
+      - "&7Cấp bậc &8» &e5&7/&e10"
+      - "&7Hiệu Suất &8» &e29"
+      - "&7Gia Tài &8» &e15"
+      - "&7Bền Bỉ &8» &e5"
+      - ""
+      - "&b&l⚡ Kĩ Năng"
+      - "&b ● (Tự động) Nung chảy quặng khi đào"
+      - ""
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Bước cuối cùng trước ngưỡng cửa tự do"
+      - "&7 &b●&7 Bền Bỉ 5 - càng nâng cấp càng khó vỡ"
+      - "&b&m                                  "
+    enchants:
+      efficiency: 29.0
+      fortune: 15.0
+      unbreaking: 5.0
+    pickaxe-power: 85.0
+    autosmelt: true
+    will-break: false
+    unbreakable: false
+
+PICKAXE_VUOT_NGUC_6:
+  base:
+    material: NETHERITE_PICKAXE
+    name: "&4Cuốc Vượt Ngục &7+5"
+    max-durability: 15000
+    tier: UNIQUE
+    hide-enchants: true
+    lore-format: lore-only
+    lore:
+      - "&b&m                                  "
+      - "&b&l⛏ Chỉ Số"
+      - "&7Cấp bậc &8» &e6&7/&e10"
+      - "&7Hiệu Suất &8» &e29"
+      - "&7Gia Tài &8» &e15"
+      - "&7Bền Bỉ &8» &e5"
+      - ""
+      - "&b&l⚡ Kĩ Năng"
+      - "&b ● (Tự động) Nung chảy quặng khi đào"
+      - ""
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Bước cuối cùng trước ngưỡng cửa tự do"
+      - "&7 &b●&7 Bền Bỉ 5 - càng nâng cấp càng khó vỡ"
+      - "&b&m                                  "
+    enchants:
+      efficiency: 29.0
+      fortune: 15.0
+      unbreaking: 5.0
+    pickaxe-power: 86.0
+    autosmelt: true
+    will-break: false
+    unbreakable: false
+
+PICKAXE_VUOT_NGUC_7:
+  base:
+    material: NETHERITE_PICKAXE
+    name: "&4Cuốc Vượt Ngục &7+6"
+    max-durability: 15000
+    tier: UNIQUE
+    hide-enchants: true
+    lore-format: lore-only
+    lore:
+      - "&b&m                                  "
+      - "&b&l⛏ Chỉ Số"
+      - "&7Cấp bậc &8» &e7&7/&e10"
+      - "&7Hiệu Suất &8» &e29"
+      - "&7Gia Tài &8» &e15"
+      - "&7Bền Bỉ &8» &e5"
+      - ""
+      - "&b&l⚡ Kĩ Năng"
+      - "&b ● (Tự động) Nung chảy quặng khi đào"
+      - ""
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Bước cuối cùng trước ngưỡng cửa tự do"
+      - "&7 &b●&7 Bền Bỉ 5 - càng nâng cấp càng khó vỡ"
+      - "&b&m                                  "
+    enchants:
+      efficiency: 29.0
+      fortune: 15.0
+      unbreaking: 5.0
+    pickaxe-power: 87.0
+    autosmelt: true
+    will-break: false
+    unbreakable: false
+
+PICKAXE_VUOT_NGUC_8:
+  base:
+    material: NETHERITE_PICKAXE
+    name: "&4Cuốc Vượt Ngục &7+7"
+    max-durability: 15000
+    tier: UNIQUE
+    hide-enchants: true
+    lore-format: lore-only
+    lore:
+      - "&b&m                                  "
+      - "&b&l⛏ Chỉ Số"
+      - "&7Cấp bậc &8» &e8&7/&e10"
+      - "&7Hiệu Suất &8» &e30"
+      - "&7Gia Tài &8» &e15"
+      - "&7Bền Bỉ &8» &e5"
+      - ""
+      - "&b&l⚡ Kĩ Năng"
+      - "&b ● (Tự động) Nung chảy quặng khi đào"
+      - ""
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Bước cuối cùng trước ngưỡng cửa tự do"
+      - "&7 &b●&7 Bền Bỉ 5 - càng nâng cấp càng khó vỡ"
+      - "&b&m                                  "
+    enchants:
+      efficiency: 30.0
+      fortune: 15.0
+      unbreaking: 5.0
+    pickaxe-power: 88.0
+    autosmelt: true
+    will-break: false
+    unbreakable: false
+
+PICKAXE_VUOT_NGUC_9:
+  base:
+    material: NETHERITE_PICKAXE
+    name: "&4Cuốc Vượt Ngục &7+8"
+    max-durability: 15000
+    tier: UNIQUE
+    hide-enchants: true
+    lore-format: lore-only
+    lore:
+      - "&b&m                                  "
+      - "&b&l⛏ Chỉ Số"
+      - "&7Cấp bậc &8» &e9&7/&e10"
+      - "&7Hiệu Suất &8» &e30"
+      - "&7Gia Tài &8» &e15"
+      - "&7Bền Bỉ &8» &e5"
+      - ""
+      - "&b&l⚡ Kĩ Năng"
+      - "&b ● (Tự động) Nung chảy quặng khi đào"
+      - ""
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Bước cuối cùng trước ngưỡng cửa tự do"
+      - "&7 &b●&7 Bền Bỉ 5 - càng nâng cấp càng khó vỡ"
+      - "&b&m                                  "
+    enchants:
+      efficiency: 30.0
+      fortune: 15.0
+      unbreaking: 5.0
+    pickaxe-power: 89.0
+    autosmelt: true
+    will-break: false
+    unbreakable: false
+
+PICKAXE_VUOT_NGUC_10:
+  base:
+    material: NETHERITE_PICKAXE
+    name: "&4Cuốc Vượt Ngục &7+9"
+    max-durability: 15000
+    tier: UNIQUE
+    hide-enchants: true
+    lore-format: lore-only
+    lore:
+      - "&b&m                                  "
+      - "&b&l⛏ Chỉ Số"
+      - "&7Cấp bậc &8» &e10&7/&e10"
+      - "&7Hiệu Suất &8» &e30"
+      - "&7Gia Tài &8» &e15"
+      - "&7Bền Bỉ &8» &e5"
+      - ""
+      - "&b&l⚡ Kĩ Năng"
+      - "&b ● (Tự động) Nung chảy quặng khi đào"
+      - ""
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Bước cuối cùng trước ngưỡng cửa tự do"
+      - "&7 &b●&7 Bền Bỉ 5 - càng nâng cấp càng khó vỡ"
+      - "&b&m                                  "
+    enchants:
+      efficiency: 30.0
+      fortune: 15.0
+      unbreaking: 5.0
+    pickaxe-power: 90.0
+    autosmelt: true
+    will-break: false
+    unbreakable: false

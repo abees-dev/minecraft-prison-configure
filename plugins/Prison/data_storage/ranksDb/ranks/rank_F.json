@@ -1,0 +1,9 @@
+{
+  "mines": [
+    "MINE,F,-1,&c[&4Phó Quản Ngục&c]"
+  ],
+  "cost": 350000.0,
+  "name": "F",
+  "tag": "&c[&4Phó Quản Ngục&c]",
+  "commands": []
+}

@@ -1,151 +1,151 @@
 # Weapon Stats
-attack-damage: '&3 &7➸ Attack Damage: &f{value}'
-attack-speed: '&3 &7➸ Attack Speed: &f{value}'
-critical-strike-chance: '&3 &7■ Crit Strike Chance: &f<plus>{value}%'
-critical-strike-power: '&3 &7■ Crit Strike Power: &f<plus>{value}%'
-skill-critical-strike-chance: '&3 &7■ Skill Crit Chance: &f<plus>{value}%'
-skill-critical-strike-power: '&3 &7■ Skill Crit Power: &f<plus>{value}%'
-range: '&3 &7■ Range: &f{value}'
-mana-cost: '&3 &7■ Uses &9{value} Mana'
-stamina-cost: '&3 &7■ Uses &9{value} Stamina'
-arrow-velocity: '&3 &7■ Arrow Velocity: &f{value}'
-blunt-power: '&3 &7■ Blunt Power: &f{value}'
-blunt-rating: '&3 &7■ Blunt Rating: &f{value}%'
-two-handed: '&3 &7■ Two Handed'
-handworn: '&3 &7■ Handworn'
-knockback: '&3 &7■ Knockback: &f{value}'
-recoil: '&3 &7■ Recoil: &f{value}%'
-note-weight: '&3 &7■ Note Weight: &f{value}'
-lifesteal: '&3 &7■ Lifesteal: &c+{value}%'
-spell-vampirism: '&3 &7■ Spell Vampirism: &c+{value}%'
+attack-damage: "&8[&c🗡&8] &7Sát thương: &c{value}" # Red for Attack Damage
+attack-speed: "&8[&c⚔&8] &7Tốc đánh: &c{value}" # Red for Attack Speed
+critical-strike-chance: "&8[&6⚡&8] &7Chí mạng: &6+{value}%" # Yellow for Critical Chance
+critical-strike-power: "&8[&6⚡&8] &7ST chí mạng: &6+{value}%" # Yellow for Critical Damage
+skill-critical-strike-chance: "&8[&6⚡&8] &7Chí mạng kỹ năng: &6+{value}%" # Yellow for Skill Critical Chance
+skill-critical-strike-power: "&8[&6⚡&8] &7ST chí mạng kỹ năng: &6+{value}%" # Yellow for Skill Critical Damage
+range: "&8[&6📏&8] &7Tầm xa: &6{value}" # Yellow for Range
+mana-cost: "&8[&9💧&8] &7Tốn mana: &9{value}" # Blue for Mana
+stamina-cost: "&8[&9💪&8] &7Tốn thể lực: &9{value}" # Blue for Stamina
+arrow-velocity: "&8[&6🏹&8] &7Tốc mũi tên: &6{value}" # Yellow for Arrow Speed
+blunt-power: "&8[&6💥&8] &7Lực đánh choáng: &6{value}" # Yellow for Blunt Power
+blunt-rating: "&8[&6💥&8] &7Tỉ lệ đánh choáng: &6{value}%" # Yellow for Blunt Rating
+two-handed: "&8[&c✖&8] &7Hai tay" # Red for Two-Handed
+handworn: "&8[&7✋&8] &7Đeo tay" # Gray for Handworn
+knockback: "&8[&6🌀&8] &7Đẩy lùi: &6{value}" # Yellow for Knockback
+recoil: "&8[&6🔄&8] &7Giật lại: &6{value}%" # Yellow for Recoil
+note-weight: "&8[&6🎵&8] &7Trọng lượng: &6{value}" # Yellow for Note Weight
+lifesteal: "&8[&c❤&8] &7Hút máu: &c+{value}%" # Red for Lifesteal
+spell-vampirism: "&8[&c🧙&8] &7Hút máu phép: &c+{value}%" # Red for Spell Vamp
 
 # Extra Damage
-pve-damage: '&3 &7■ PvE Damage: &f<plus>{value}%'
-pvp-damage: '&3 &7■ PvP Damage: &f<plus>{value}%'
-magic-damage: '&3 &7■ Magic Damage: &f<plus>{value}%'
-weapon-damage: '&3 &7■ Weapon Damage: &f<plus>{value}%'
-undead-damage: '&3 &7■ Undead Damage: &f<plus>{value}%'
-skill-damage: '&3 &7■ Skill Damage: &f<plus>{value}%'
-physical-damage: '&3 &7■ Physical Damage: &f<plus>{value}%'
-projectile-damage: '&3 &7■ Projectile Damage: &f<plus>{value}%'
-faction-damage-undead: '&3 &7■ Undead Faction Damage: &f<plus>{value}%'
+pve-damage: "&8[&7⚔&8] &7ST quái: &6+{value}%" # Yellow for PvE Damage
+pvp-damage: "&8[&7⚔&8] &7ST người: &6+{value}%" # Yellow for PvP Damage
+magic-damage: "&8[&7✨&8] &7ST phép: &6+{value}%" # Yellow for Magic Damage
+weapon-damage: "&8[&7🗡&8] &7ST vũ khí: &6+{value}%" # Yellow for Weapon Damage
+undead-damage: "&8[&7☠&8] &7ST bất tử: &6+{value}%" # Yellow for Undead Damage
+skill-damage: "&8[&7🎯&8] &7ST kỹ năng: &6+{value}%" # Yellow for Skill Damage
+physical-damage: "&8[&7💪&8] &7ST vật lý: &6+{value}%" # Yellow for Physical Damage
+projectile-damage: "&8[&7🎯&8] &7ST đạn: &6+{value}%" # Yellow for Projectile Damage
+faction-damage-undead: "&8[&7☠&8] &7ST phe bất tử: &6+{value}%" # Yellow for Faction Damage (Undead)
 
 # Abilities
-ability-format: '&a>&8| &7{trigger} &8|&e|&8| &7&l{ability}'
-ability-modifier: ' &3>&8|&7 {modifier}&8: &f{value}'
-ability-splitter: '&8'
-
+ability-format: "&a>&8| &7{trigger} &8|&e|&8| &7&l{ability}"
+ability-modifier: " &7>&8|&7 {modifier}&8: {value}"
+ability-splitter: "&8"
 # Armor Stats
-block-power: '&3 &7■ Block Power: &f<plus>{value}%'
-block-rating: '&3 &7■ Block Rating: &f<plus>{value}%'
-block-cooldown-reduction: '&3 &7■ Block Cooldown Reduction: &f<plus>{value}%'
-dodge-rating: '&3 &7■ Dodge Rating: &f<plus>{value}%'
-dodge-cooldown-reduction: '&3 &7■ Dodge Cooldown Reduction: &f<plus>{value}%'
-parry-rating: '&3 &7■ Parry Rating: &f<plus>{value}%'
-parry-cooldown-reduction: '&3 &7■ Parry Cooldown Reduction: &f<plus>{value}%'
-armor: '&3 &7✠ Armor: &f<plus>{value}'
-armor-toughness: '&3 &7✠ Armor Toughness: &f<plus>{value}'
-knockback-resistance: '&3 &7✠ Knockback Resistance: &f<plus>{value}%'
-max-health: '&3 &7❤ Health:&c <plus>{value}'
-movement-speed: '&3 &7■ Movement Speed: &f<plus>{value}'
+block-power: "&8[&6🛡&8] &7Lực đỡ: &6<plus>{value}%"
+block-rating: "&8[&6🛡&8] &7Tỉ lệ đỡ: &6<plus>{value}%"
+block-cooldown-reduction: "&8[&6⏳&8] &7Hồi chiêu đỡ: &6<plus>{value}%"
+dodge-rating: "&8[&6💨&8] &7Né tránh: &6<plus>{value}%"
+dodge-cooldown-reduction: "&8[&6⏳&8] &7Hồi chiêu né: &6<plus>{value}%"
+parry-rating: "&8[&6⚔&8] &7Phản đòn: &6<plus>{value}%"
+parry-cooldown-reduction: "&8[&6⏳&8] &7Hồi chiêu phản: &6<plus>{value}%"
+armor: "&8[&6🦾&8] &7Giáp: &6<plus>{value}"
+armor-toughness: "&8[&6🛡&8] &7Độ bền giáp: &6<plus>{value}"
+knockback-resistance: "&8[&6🌀&8] &7Kháng đẩy lùi: &6<plus>{value}%"
+max-health: "&8[&c❤&8] &7Máu tối đa: &c<plus>{value}" # Red for Health
+movement-speed: "&8[&6⚡&8] &7Tốc di chuyển: &6<plus>{value}"
 
-# Damage Reduction
-defense: '&3 &7■ Defense: &f<plus>{value}'
-damage-reduction: '&3 &7■ Damage Reduction: &f<plus>{value}%'
-fall-damage-reduction: '&3 &7■ Fall Damage Reduction: &f<plus>{value}%'
-fire-damage-reduction: '&3 &7■ Fire Damage Reduction: &f<plus>{value}%'
-magic-damage-reduction: '&3 &7■ Magic Damage Reduction: &f<plus>{value}%'
-projectile-damage-reduction: '&3 &7■ Projectile Damage Reduction: &f<plus>{value}%'
-physical-damage-reduction: '&3 &7■ Physical Damage Reduction: &f<plus>{value}%'
-pve-damage-reduction: '&3 &7■ PvE Damage Reduction: &f<plus>{value}%'
-pvp-damage-reduction: '&3 &7■ PvP Damage Reduction: &f<plus>{value}%'
+# Damage Reduction Stats
+defense: "&8[&6🛡&8] &7Phòng thủ: &6<plus>{value}"
+damage-reduction: "&8[&6🔻&8] &7Giảm sát thương: &6<plus>{value}%"
+fall-damage-reduction: "&8[&6🪂&8] &7Giảm ST rơi: &6<plus>{value}%"
+fire-damage-reduction: "&8[&6🔥&8] &7Giảm ST lửa: &6<plus>{value}%"
+magic-damage-reduction: "&8[&6🔮&8] &7Giảm ST phép: &6<plus>{value}%"
+projectile-damage-reduction: "&8[&6🏹&8] &7Giảm ST đạn: &6<plus>{value}%"
+physical-damage-reduction: "&8[&6⚔&8] &7Giảm ST vật lý: &6<plus>{value}%"
+pve-damage-reduction: "&8[&6🛡&8] &7Giảm ST quái: &6<plus>{value}%"
+pvp-damage-reduction: "&8[&6⚔&8] &7Giảm ST người: &6<plus>{value}%"
 
-# RPG stats
-health-regeneration: '&3 &7■ Health Regeneration: &f<plus>{value}'
-max-mana: '&3 &7■ Max Mana: &f<plus>{value}'
-mana-regeneration: '&3 &7■ Mana Regeneration: &f<plus>{value}'
-max-stamina: '&3 &7■ Max Stamina: &f<plus>{value}'
-stamina-regeneration: '&3 &7■ Stamina Regeneration: &f<plus>{value}'
-cooldown-reduction: '&3 &7■ Skill Cooldown Reduction: &f<plus>{value}%'
-additional-experience: '&3 &7■ Additional Experience: &f<plus>{value}%'
-additional-experience-alchemy: '&7■ Additional Alchemy Experience: &f<plus>{value}%'
-additional-experience-enchanting: '&7■ Additional Enchanting Experience: &f<plus>{value}%'
-additional-experience-farming: '&7■ Additional Farming Experience: &f<plus>{value}%'
-additional-experience-fishing: '&7■ Additional Fishing Experience: &f<plus>{value}%'
-additional-experience-mining: '&7■ Additional Mining Experience: &f<plus>{value}%'
-additional-experience-smelting: '&7■ Additional Smelting Experience: &f<plus>{value}%'
-additional-experience-smithing: '&7■ Additional Smithing Experience: &f<plus>{value}%'
-additional-experience-woodcutting: '&7■ Additional Woodcutting Experience: &f<plus>{value}%'
+# RPG Stats
+health-regeneration: "&8[&c❤️‍🩹&8] &7Hồi máu: &c<plus>{value}" # Red for Health Regen
+max-mana: "&8[&9🔵&8] &7Mana tối đa: &9<plus>{value}" # Blue for Mana
+mana-regeneration: "&8[&9🔄&8] &7Hồi mana: &9<plus>{value}" # Blue for Mana
+max-stamina: "&8[&6🏃&8] &7Thể lực tối đa: &6<plus>{value}"
+stamina-regeneration: "&8[&6🔄&8] &7Hồi thể lực: &6<plus>{value}"
+cooldown-reduction: "&8[&6⏳&8] &7Giảm hồi chiêu: &6<plus>{value}%"
+
+# Additional Experience Stats
+additional-experience: "&8[&6✨&8] &7Kinh nghiệm: &6<plus>{value}%"
+additional-experience-alchemy: "&8[&6🧪&8] &7KN Luyện đan: &6<plus>{value}%"
+additional-experience-enchanting: "&8[&6🔮&8] &7KN Phù phép: &6<plus>{value}%"
+additional-experience-farming: "&8[&6🌾&8] &7KN Nông nghiệp: &6<plus>{value}%"
+additional-experience-fishing: "&8[&6🎣&8] &7KN Câu cá: &6<plus>{value}%"
+additional-experience-mining: "&8[&6⛏️&8] &7KN Đào mỏ: &6<plus>{value}%"
+additional-experience-smelting: "&8[&6🔥&8] &7KN Nung chảy: &6<plus>{value}%"
+additional-experience-smithing: "&8[&6⚒️&8] &7KN Rèn: &6<plus>{value}%"
+additional-experience-woodcutting: "&8[&6🪓&8] &7KN Đốn gỗ: &6<plus>{value}%"
 
 # Extra Options
-perm-effect: '&3 &7■ Permanent &f{effect}'
-command: '&3 &7■ Command: &f{format} &3 &7(&f{cooldown}&3 &7s)'
-item-cooldown: '&3 &7■ &f{value}&3 &7s Cooldown'
-arrow-potion-effects: '&3 &7■ Arrow Effect: &f{effect}'
+perm-effect: "&7Hiệu ứng vĩnh viễn: {effect}"
+command: "&7Lệnh: {format} &7(&7{cooldown}&7s)"
+item-cooldown: "&7Hồi chiêu vật phẩm: &6{value}s" # Yellow for Item Cooldown
+arrow-potion-effects: "&7Hiệu ứng mũi tên: {effect}"
 
 # Consumables
-restore-health: '&3 &7■ Restores &f{value} &7Health'
-restore-food: '&3 &7■ Restores &f{value} &7Food'
-restore-saturation: '&3 &7■ Restores &f{value} &7Saturation'
-restore-mana: '&3 &7■ Restores &f{value} &7Mana'
-restore-stamina: '&3 &7■ Restores &f{value} &7Stamina'
-effect: '&3 &7■ Grants &f{effect} &7for &f{duration} &7s'
-repair: '&3 &7■ Repair: &f{value}'
-repair-percent: '&3 &7■ Repair: &f{value}%'
-can-identify: '&3 &7■ Can identify items.'
-can-deconstruct: '&3 &7■ Can deconstruct tiered items.'
-can-deskin: '&3 &7■ Can de-skin skinned items.'
-success-rate: '&3 &7■ Success Rate: &a&l{value}%'
-max-consume: '&3 &7■ &f{value} &7Uses Left'
+restore-health: "&7Hồi &c{value} máu" # Red for Health Restore
+restore-food: "&7Hồi {value} độ no"
+restore-saturation: "&7Hồi {value} độ bão hòa"
+restore-mana: "&7Hồi {value} mana"
+restore-stamina: "&7Hồi {value} thể lực"
+effect: "&7Tăng {effect} trong {duration} giây"
+repair: "&7Sửa chữa: &6{value}" # Yellow for Repair
+repair-percent: "&7Sửa chữa: &6{value}%" # Yellow for Repair
+can-identify: "&7Giám định: &aCó" # Green for "Yes"
+can-deconstruct: "&7Tháo rời: &aCó" # Green for "Yes"
+can-deskin: "&7Đổi skin: &aCó" # Green for "Yes"
+success-rate: "&7Tỉ lệ thành công: &a&l{value}%" # Green for Success Rate
+max-consume: "&7Lượt dùng còn lại: {value}"
 
 # Gem Stones
-empty-gem-socket: '&a◆ Empty {name} Gem Socket'
-filled-gem-socket: '&a◆ {name}'
-when-applied: '&aWhen Applied:'
-gem-stone-lore: '&8&l[&2&l*&8&l] &aDrag onto an item &7to apply!'
+empty-gem-socket: "&a◆ Ô đá quý trống"
+filled-gem-socket: "&a◆ {name}"
+when-applied: "&aKhi áp dụng:"
+gem-stone-lore: "&8&l[&2&l*&8&l] &aKéo vào item &7để áp dụng!"
 
 # Soulbound
-soulbinding-chance: '&3 &7■ Has a &a{value}% &7chance to bind your item.'
-soulbound-break-chance: '&3 &7■ Has a &a{value}% &7chance to break soulbounds.'
-soulbound-level: '&3 &7■ Level &e{value} &7Soulbound'
+soulbinding-chance: "&7Tỉ lệ khóa hồn: &a{value}%" # Green for Soulbind
+soulbound-break-chance: "&7Tỉ lệ vỡ khóa hồn: &a{value}%" # Green for Soulbind Break
+soulbound-level: "&7Cấp khóa hồn: &e{value}" # Yellow for Soulbound
 
 # Tools
-autosmelt: '&3 &7■ &fAutosmelt'
-bouncing-crack: '&3 &7■ &fBouncing Crack'
-pickaxe-power: '&3 &7■ &fPickaxe Power: &a{value}'
-durability: '&7Durability: {current} / {max}'
+autosmelt: "&8[&6🔥&8] &7Tự nung chảy"
+bouncing-crack: "&8[&6💥&8] &7Nứt vỡ dội"
+pickaxe-power: "&8[&a⛏&8] &7Sức mạnh cuốc: &a{value}" # Green for Pickaxe Power
+durability: "&7Độ bền: &6{current} / {max}" # Yellow for Durability
 
 # General
-item-type: '&c{type}'
-tier: '&3 &7Tier: {value}'
-required-class: '&3 &7{value} Item'
-required-level: '&eRequires Lvl {value}'
+item-type: "&7{type}"
+tier: "[ {value} &f]"
+required-class: "&7Yêu cầu lớp: {value}"
+required-level: "&eYêu cầu cấp: {value}"
 
 # MMOCore Attributes
-required-dexterity: '&eRequires &c{value} &eDexterity'
-required-strength: '&eRequires &c{value} &eStrength'
-required-intelligence: '&eRequires &c{value} &eIntelligence'
+required-dexterity: "&eYêu cầu &c{value} &eNhanh nhẹn"
+required-strength: "&eYêu cầu &c{value} &eSức mạnh"
+required-intelligence: "&eYêu cầu &c{value} &eTrí tuệ"
 
-additional-dexterity: '&3 &7■ Extra Dexterity: &f<plus>{value}'
-additional-strength: '&3 &7■ Extra Strength: &f<plus>{value}'
-additional-intelligence: '&3 &7■ Extra Intelligence: &f<plus>{value}'
+additional-dexterity: "&3 &7◆ Nhanh nhẹn: &f<plus>{value}"
+additional-strength: "&3 &7◆ Sức mạnh: &f<plus>{value}"
+additional-intelligence: "&3 &7◆ Trí tuệ: &f<plus>{value}"
 
 # Professions
-profession-alchemy: '&eAlchemy Level: &c{value}'
-profession-enchanting: '&eEnchanting Level: &c{value}'
-profession-farming: '&eFarming Level: &c{value}'
-profession-fishing: '&eFishing Level: &c{value}'
-profession-mining: '&eMining Level: &c{value}'
-profession-smelting: '&eSmelting Level: &c{value}'
-profession-smithing: '&eSmithing Level: &c{value}'
-profession-woodcutting: '&eWoodcutting Level: &c{value}'
+profession-alchemy: "&eCấp Luyện đan: &c{value}"
+profession-enchanting: "&eCấp Phù phép: &c{value}"
+profession-farming: "&eCấp Nông nghiệp: &c{value}"
+profession-fishing: "&eCấp Câu cá: &c{value}"
+profession-mining: "&eCấp Đào mỏ: &c{value}"
+profession-smelting: "&eCấp Nung chảy: &c{value}"
+profession-smithing: "&eCấp Rèn: &c{value}"
+profession-woodcutting: "&eCấp Đốn gỗ: &c{value}"
 
 # Elemental Stat Format
-elemental-damage: '{color}{icon}&7 {value} {element} Damage'
-elemental-damage-percent: '{color}{icon}&7 +{value}% {element} Damage'
-elemental-defense: '{color}{icon}&7 {value} {element} Defense'
-elemental-defense-percent: '{color}{icon}&7 +{value}% {element} Defense'
-elemental-weakness: '{color}{icon}&7 {value}% {element} Weakness'
-
-# Custom stats
-custom-myluck: '&3 &7■ Luck: &f<plus>{value}'
+elemental-damage: "&8[&6🛡&8] &7{value} Sát thương {element}"
+elemental-damage-percent: "&8[&6🔥&8] &7+{value}% Sát thương {element}"
+elemental-defense: "&8[&6🛡&8] &7{value} Phòng thủ {element}"
+elemental-defense-percent: "&8[&6🛡&8] &7+{value}% Phòng thủ {element}"
+elemental-weakness: "&8[&6⚡&8] &7{value}% Suy yếu {element}"
+elemental-resistance: "&8[&6🔥&8] &7{value}% Kháng {element}"
+elemental-immunity: "&8[&6🔥&8] &7{value}% Miễn nhiễm {element}"

@@ -46,7 +46,7 @@ default-playerdata:
 #
 # ^ will enable custom mining server wide
 custom-mine-conditions:
-  - 'world{name="world,world_nether,world_the_end"}'
+  - 'world{name="world_prison"}'
   - 'region{name="example_region,example_region2,__global__"}'
 
 # Set to true to prevent vanilla blocks from being

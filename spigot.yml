@@ -171,6 +171,8 @@ world-settings:
     dragon-death-sound-radius: 0
   worldeditregentempworld:
     verbose: false
+  faweregentempworld:
+    verbose: false
 config-version: 12
 stats:
   disable-saving: false

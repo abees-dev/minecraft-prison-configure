@@ -1,0 +1,35 @@
+{
+  "ranks": [
+    {
+      "rankName": "A"
+    },
+    {
+      "rankName": "B"
+    },
+    {
+      "rankName": "C"
+    },
+    {
+      "rankName": "D"
+    },
+    {
+      "rankName": "E"
+    },
+    {
+      "rankName": "F"
+    },
+    {
+      "rankName": "G"
+    },
+    {
+      "rankName": "H"
+    },
+    {
+      "rankName": "I"
+    }
+  ],
+  "rankCostMultiplierPerRank": 0.0,
+  "name": "default",
+  "applyRankCostMultiplierToLadder": true,
+  "commands": []
+}
