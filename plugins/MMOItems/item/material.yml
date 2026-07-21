@@ -1,0 +1,80 @@
+DA_NANG_CAP_TAN_BINH:
+  base:
+    material: AMETHYST_SHARD
+    name: '&d✦ Đá Nâng Cấp &f&lTân Binh'
+    tier: TRASH
+    lore:
+      - '&7 &d●&7 Chế từ Cobblestone đào ở mỏ Tân Binh'
+      - '&7 &d●&7 Dùng để nâng cấp cuốc/giáp rank Tân Binh'
+
+DA_NANG_CAP_TU_NHAN:
+  base:
+    material: AMETHYST_SHARD
+    name: '&d✦ Đá Nâng Cấp &f&lTù Nhân'
+    tier: TRASH
+    lore:
+      - '&7 &d●&7 Chế từ Coal đào ở mỏ Tù Nhân'
+      - '&7 &d●&7 Dùng để nâng cấp cuốc/giáp rank Tù Nhân'
+
+DA_NANG_CAP_LAO_CONG:
+  base:
+    material: AMETHYST_SHARD
+    name: '&d✦ Đá Nâng Cấp &f&lLao Công'
+    tier: TRASH
+    lore:
+      - '&7 &d●&7 Chế từ Raw Copper đào ở mỏ Lao Công'
+      - '&7 &d●&7 Dùng để nâng cấp cuốc/giáp rank Lao Công'
+
+DA_NANG_CAP_THO_DAO:
+  base:
+    material: AMETHYST_SHARD
+    name: '&d✦ Đá Nâng Cấp &f&lThợ Đào'
+    tier: COMMON
+    lore:
+      - '&7 &d●&7 Chế từ Raw Iron đào ở mỏ Thợ Đào'
+      - '&7 &d●&7 Dùng để nâng cấp cuốc/giáp rank Thợ Đào'
+
+DA_NANG_CAP_DOI_TRUONG:
+  base:
+    material: AMETHYST_SHARD
+    name: '&d✦ Đá Nâng Cấp &f&lĐội Trưởng'
+    tier: COMMON
+    lore:
+      - '&7 &d●&7 Chế từ Raw Gold đào ở mỏ Đội Trưởng'
+      - '&7 &d●&7 Dùng để nâng cấp cuốc/giáp rank Đội Trưởng'
+
+DA_NANG_CAP_PHO_QUAN_NGUC:
+  base:
+    material: AMETHYST_SHARD
+    name: '&d✦ Đá Nâng Cấp &f&lPhó Quản Ngục'
+    tier: COMMON
+    lore:
+      - '&7 &d●&7 Chế từ Redstone đào ở mỏ Phó Quản Ngục'
+      - '&7 &d●&7 Dùng để nâng cấp cuốc/giáp rank Phó Quản Ngục'
+
+DA_NANG_CAP_QUAN_NGUC:
+  base:
+    material: AMETHYST_SHARD
+    name: '&d✦ Đá Nâng Cấp &f&lQuản Ngục'
+    tier: UNCOMMON
+    lore:
+      - '&7 &d●&7 Chế từ Lapis Lazuli đào ở mỏ Quản Ngục'
+      - '&7 &d●&7 Dùng để nâng cấp cuốc/giáp rank Quản Ngục'
+
+DA_NANG_CAP_BA_CHU_NGUC_TU:
+  base:
+    material: AMETHYST_SHARD
+    name: '&d✦ Đá Nâng Cấp &f&lBá Chủ Ngục Tù'
+    tier: UNCOMMON
+    lore:
+      - '&7 &d●&7 Chế từ Diamond đào ở mỏ Bá Chủ Ngục Tù'
+      - '&7 &d●&7 Dùng để nâng cấp cuốc/giáp rank Bá Chủ Ngục Tù'
+
+DA_NANG_CAP_VUOT_NGUC:
+  base:
+    material: AMETHYST_SHARD
+    name: '&d✦ Đá Nâng Cấp &f&lVượt Ngục'
+    tier: UNCOMMON
+    lore:
+      - '&7 &d●&7 Chế từ Emerald đào ở mỏ Vượt Ngục'
+      - '&7 &d●&7 Dùng để nâng cấp cuốc/giáp rank Vượt Ngục'

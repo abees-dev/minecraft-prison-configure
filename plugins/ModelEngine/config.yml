@@ -13,13 +13,13 @@ Model-Engine:
     SPAWN: spawn
     DEATH: death
 Model-Generator:
-  Register-Post-Server: true
-  Assets-Post-Server: true
-  Compile-Post-Server: true
+  Register-Post-Server: false
+  Assets-Post-Server: false
+  Compile-Post-Server: false
   Enable-Error: true
   Debug-Level: 1
   Namespace: modelengine
-  Create-Zip: true
+  Create-Zip: false
   Create-Atlas: true
   Create-Shader: true
   Item-Model: LEATHER_HORSE_ARMOR

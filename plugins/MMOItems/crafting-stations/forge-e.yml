@@ -1,0 +1,77 @@
+
+# Name which will be displayed
+# when opening the station
+name: 'Lò Rèn Đội Trưởng (#page#/#max#)'
+
+# The maximum amount of items in the crafting queue ie. the
+# max number of items players are able to craft simultaneously.
+# Must be between 1 and 64.
+max-queue-size: 10
+
+# The sound that plays whenever an action is
+# completed in the crafting station.
+sound: ENTITY_EXPERIENCE_ORB_PICKUP
+
+# This is how the gui looks. You can define your own
+# in crafting-stations/layouts by creating a new
+# file with the name of the file as the id.
+layout: default
+
+# Configure GUI items here
+items:
+    fill:
+        material: AIR
+    no-recipe:
+        material: GRAY_STAINED_GLASS_PANE
+        name: '&aNo Recipe'
+    no-queue-item:
+        material: GRAY_STAINED_GLASS_PANE
+        name: '&aNo Item in Queue'
+
+# Tram craft rieng cho mo E (rank Đội Trưởng) - chi chua recipe cua rank nay,
+# khong cho craft/nang cap do cua rank khac. Xem docs/prison-rpg-plan.md.
+recipes:
+    che-da-doi-truong:
+        output:
+            type: MATERIAL
+            id: DA_NANG_CAP_DOI_TRUONG
+            amount: 1
+        crafting-time: 3
+        ingredients:
+        - vanilla{type=RAW_GOLD,amount=16,display="Raw Gold"}
+    nangcap-doi-truong-1-2:
+        output:
+            type: TOOL
+            id: PICKAXE_DOI_TRUONG_2
+            amount: 1
+        crafting-time: 5
+        ingredients:
+        - mmoitem{type=TOOL,id=PICKAXE_DOI_TRUONG_1,amount=1,display="Cuốc Đội Trưởng I"}
+        - mmoitem{type=MATERIAL,id=DA_NANG_CAP_DOI_TRUONG,amount=2,display="Đá Nâng Cấp Đội Trưởng"}
+    nangcap-doi-truong-2-3:
+        output:
+            type: TOOL
+            id: PICKAXE_DOI_TRUONG_3
+            amount: 1
+        crafting-time: 5
+        ingredients:
+        - mmoitem{type=TOOL,id=PICKAXE_DOI_TRUONG_2,amount=1,display="Cuốc Đội Trưởng II"}
+        - mmoitem{type=MATERIAL,id=DA_NANG_CAP_DOI_TRUONG,amount=3,display="Đá Nâng Cấp Đội Trưởng"}
+    nangcap-doi-truong-3-4:
+        output:
+            type: TOOL
+            id: PICKAXE_DOI_TRUONG_4
+            amount: 1
+        crafting-time: 5
+        ingredients:
+        - mmoitem{type=TOOL,id=PICKAXE_DOI_TRUONG_3,amount=1,display="Cuốc Đội Trưởng III"}
+        - mmoitem{type=MATERIAL,id=DA_NANG_CAP_DOI_TRUONG,amount=4,display="Đá Nâng Cấp Đội Trưởng"}
+    nangcap-doi-truong-4-5:
+        output:
+            type: TOOL
+            id: PICKAXE_DOI_TRUONG_5
+            amount: 1
+        crafting-time: 5
+        ingredients:
+        - mmoitem{type=TOOL,id=PICKAXE_DOI_TRUONG_4,amount=1,display="Cuốc Đội Trưởng IV"}
+        - mmoitem{type=MATERIAL,id=DA_NANG_CAP_DOI_TRUONG,amount=6,display="Đá Nâng Cấp Đội Trưởng"}

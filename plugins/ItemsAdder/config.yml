@@ -1,5 +1,5 @@
 metrics: true
-update-checker: true
+update-checker: false
 disable-plugin-loading-messages_DONT_ASK_ME_FOR_SUPPORT_IF_YOU_SET_TRUE__THANKS: false
 ignore-server-compatibility-check: false
 resource-pack:
@@ -9,13 +9,13 @@ resource-pack:
     lobfile:
       enabled: false
     self-host:
-      enabled: false
+      enabled: true
       server-ip: 127.0.0.1
-      pack-port: 8163
+      pack-port: 8080
     external-host:
       enabled: false
-      url: ''
-      skip-url-file-type-check___DONT_ASK_HELP_IF_SET_TRUE: false
+      url: https://dl.dropboxusercontent.com/scl/fi/nkcnz9tksu24mw3v88aa6/generated.zip?rlkey=nx6nf187ssnab2yer08pguhsm&st=gmj066ng
+      skip-url-file-type-check___DONT_ASK_HELP_IF_SET_TRUE: true
   apply-on-join: true
   kick-player-on-decline: false
   kick-player-on-fail: false
@@ -110,7 +110,7 @@ blocks:
   remove-unused-palettes-on-region-save: false
 items:
   fix-show-attack-and-damage-as-lore: true
-  give_death_location_maps: true
+  give_death_location_maps: false
   hide-custom-durability-lore: true
   show_item_durability:
     in_ia_menu: true
@@ -144,11 +144,11 @@ compatibility:
 font_images:
   replace-in-customitems-name-and-lore: true
   chat:
-    enabled: true
+    enabled: false
     add-hover-suggestion: true
     tab-autocompletion_1_19_1_plus: true
   command:
-    enabled: true
+    enabled: false
     commandblocks: true
     excluded:
     - home
@@ -182,13 +182,15 @@ effects:
     customitem-name-and-lore:
       enabled: true
     chat:
-      enabled: true
+      enabled: false
     sign:
       enabled: true
     book:
       enabled: true
     anvil:
       enabled: true
+advanced_enchantments:
+  enable_custom_enchants_in_items_configs: true
 entities:
   max-furniture-vehicles-per-chunk: 30
   allow-removing-old-furnitures_2_3_11: false

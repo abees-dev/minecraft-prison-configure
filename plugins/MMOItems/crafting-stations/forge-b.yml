@@ -1,0 +1,77 @@
+
+# Name which will be displayed
+# when opening the station
+name: 'Lò Rèn Tù Nhân (#page#/#max#)'
+
+# The maximum amount of items in the crafting queue ie. the
+# max number of items players are able to craft simultaneously.
+# Must be between 1 and 64.
+max-queue-size: 10
+
+# The sound that plays whenever an action is
+# completed in the crafting station.
+sound: ENTITY_EXPERIENCE_ORB_PICKUP
+
+# This is how the gui looks. You can define your own
+# in crafting-stations/layouts by creating a new
+# file with the name of the file as the id.
+layout: default
+
+# Configure GUI items here
+items:
+    fill:
+        material: AIR
+    no-recipe:
+        material: GRAY_STAINED_GLASS_PANE
+        name: '&aNo Recipe'
+    no-queue-item:
+        material: GRAY_STAINED_GLASS_PANE
+        name: '&aNo Item in Queue'
+
+# Tram craft rieng cho mo B (rank Tù Nhân) - chi chua recipe cua rank nay,
+# khong cho craft/nang cap do cua rank khac. Xem docs/prison-rpg-plan.md.
+recipes:
+    che-da-tu-nhan:
+        output:
+            type: MATERIAL
+            id: DA_NANG_CAP_TU_NHAN
+            amount: 1
+        crafting-time: 3
+        ingredients:
+        - vanilla{type=COAL,amount=16,display="Coal"}
+    nangcap-tu-nhan-1-2:
+        output:
+            type: TOOL
+            id: PICKAXE_TU_NHAN_2
+            amount: 1
+        crafting-time: 5
+        ingredients:
+        - mmoitem{type=TOOL,id=PICKAXE_TU_NHAN_1,amount=1,display="Cuốc Tù Nhân I"}
+        - mmoitem{type=MATERIAL,id=DA_NANG_CAP_TU_NHAN,amount=2,display="Đá Nâng Cấp Tù Nhân"}
+    nangcap-tu-nhan-2-3:
+        output:
+            type: TOOL
+            id: PICKAXE_TU_NHAN_3
+            amount: 1
+        crafting-time: 5
+        ingredients:
+        - mmoitem{type=TOOL,id=PICKAXE_TU_NHAN_2,amount=1,display="Cuốc Tù Nhân II"}
+        - mmoitem{type=MATERIAL,id=DA_NANG_CAP_TU_NHAN,amount=3,display="Đá Nâng Cấp Tù Nhân"}
+    nangcap-tu-nhan-3-4:
+        output:
+            type: TOOL
+            id: PICKAXE_TU_NHAN_4
+            amount: 1
+        crafting-time: 5
+        ingredients:
+        - mmoitem{type=TOOL,id=PICKAXE_TU_NHAN_3,amount=1,display="Cuốc Tù Nhân III"}
+        - mmoitem{type=MATERIAL,id=DA_NANG_CAP_TU_NHAN,amount=4,display="Đá Nâng Cấp Tù Nhân"}
+    nangcap-tu-nhan-4-5:
+        output:
+            type: TOOL
+            id: PICKAXE_TU_NHAN_5
+            amount: 1
+        crafting-time: 5
+        ingredients:
+        - mmoitem{type=TOOL,id=PICKAXE_TU_NHAN_4,amount=1,display="Cuốc Tù Nhân IV"}
+        - mmoitem{type=MATERIAL,id=DA_NANG_CAP_TU_NHAN,amount=6,display="Đá Nâng Cấp Tù Nhân"}

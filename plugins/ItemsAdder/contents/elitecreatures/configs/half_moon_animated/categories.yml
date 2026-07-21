@@ -1,0 +1,44 @@
+info:
+  namespace: elitecreatures
+categories:
+  half_moon_animated:
+    enabled: true
+    icon: "elitecreatures:half_moon_animated-hat"
+    name: " Half Moon Animated " 
+    permission: "ia.menu.half_moon_animated"
+    items:
+
+    ########### ARMORS
+      - "elitecreatures:half_moon_animated-hat"
+      - "elitecreatures:half_moon_animated-helmet"
+      - "elitecreatures:half_moon_animated-chestplate"
+      - "elitecreatures:half_moon_animated-leggings"
+      - "elitecreatures:half_moon_animated-boots"
+  
+   ########### FUNDAMENTAL ITEMS
+      - "elitecreatures:half_moon_animated-axe"
+      - "elitecreatures:half_moon_animated-bow"
+      - "elitecreatures:half_moon_animated-crossbow"
+      - "elitecreatures:half_moon_animated-fishing_rod"
+      - "elitecreatures:half_moon_animated-hoe"
+      - "elitecreatures:half_moon_animated-pickaxe"
+      - "elitecreatures:half_moon_animated-shield"
+      - "elitecreatures:half_moon_animated-shovel"
+      - "elitecreatures:half_moon_animated-sword"
+   
+   ########### FANTASY WEAPONS
+      - "elitecreatures:half_moon_animated-dagger"
+      - "elitecreatures:half_moon_animated-greatsword"
+      - "elitecreatures:half_moon_animated-hammer"
+      - "elitecreatures:half_moon_animated-spear"
+      - "elitecreatures:half_moon_animated-mace"
+      - "elitecreatures:half_moon_animated-staff"
+
+   ########### COSMETICS
+      - "elitecreatures:half_moon_animated-back"
+      - "elitecreatures:half_moon_animated-backpack"
+   ########### CHEST AND KEY
+      - "elitecreatures:half_moon_animated-key"
+      - "elitecreatures:half_moon_animated-chest"
+
+#gzbKh3R1hmQ1FHM21URxNnczJjUxsGROVTW65kMJRlT49mMiV1dxBDdPpkQwQ1Nvd3R0V0M

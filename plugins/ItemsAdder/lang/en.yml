@@ -31,7 +31,7 @@ resourcepack-apply-title: '&a&lApplying resourcepack...'
 resourcepack-apply-subtitle: '&6Please be patient, it will only take some seconds!'
 resourcepack-popup-message: |-
   &6Welcome &b{player}, &6please accept the resourcepack to enjoy all the amazing features of our server.
-   &aYou need to download it only once.
+  &aYou need to download it only once.
 wrong-command-usage: '&cWrong command usage'
 emoji-gui-title: '&3&lEmoji List'
 map-death-location: Death Location
@@ -102,11 +102,21 @@ max-furnitures-vehicles-reached: '&cMax number of furnitures/vehicles reached in
   chunk ({value}). Consider removing some mobs/armorstands/furnitures/vehicles from
   this chunk.'
 tripwires-disabled: '&cTripwires are disabled on this server.'
-font-image-chat-hover: "&fEmoji: {font_image} \nUsage: &7{placeholder} \n\n&eHINT:\
-  \ \n&7You can use the &e/e &7command to send public \nmessages/commands with emojis\
-  \ easier. \nWrite the emoji name and press &eTAB. \n \nExamples: \n&e/e Hello smile\
-  \ \n&7prints &fHello :smile: \n \n&e/e /tell Notch Hello smile \n&7sends the command\
-  \ &f/tell Notch Hello :smile:"
+font-image-chat-hover: |-
+  &fEmoji: {font_image}
+  Usage: &7{placeholder}
+
+  &eHINT:
+  &7You can use the &e/e &7command to send public
+  messages/commands with emojis easier.
+  Write the emoji name and press &eTAB.
+
+  Examples:
+  &e/e Hello smile
+  &7prints &fHello :smile:
+
+  &e/e /tell Notch Hello smile
+  &7sends the command &f/tell Notch Hello :smile:
 ia-button-surface-decorators: '&fSpawn info'
 ia-button-trees-populators: '&fSpawn info'
 please-wait-command-cooldown: '&cPlease wait &6{interval} &cto use this command.'

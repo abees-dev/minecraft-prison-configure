@@ -1,3 +1,40 @@
 # Citizens NPC Storage
 
-{}
+last-created-npc-id: 0
+npc:
+  '0':
+    name: Thợ Rèn
+    uuid: fc71c29a-22b3-4767-86da-7022cd229cbe
+    traits:
+      location:
+        bodyYaw: 5.0345964
+        world: world_prison
+        x: -8.4225
+        y: -57.0
+        z: 116.335
+        yaw: 5.0346
+        pitch: 23.2668
+      skintrait: {}
+      owner:
+        uuid: 57481db9-38f7-3a96-b52d-ff0f7993c232
+      spawned: false
+      commandtrait:
+        commands:
+          '0':
+            command: mi stations open pickaxe-forge
+            hand: RIGHT
+            player: true
+            npc: false
+            op: false
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+            cost: -1.0
+            experienceCost: -1
+      type: PLAYER
+    traitnames: spawned,commandtrait,skintrait,owner,scoreboardtrait,type,inventory,location
+    navigator:
+      speedmodifier: 1.0
+      avoidwater: false
+      usedefaultstuckaction: false

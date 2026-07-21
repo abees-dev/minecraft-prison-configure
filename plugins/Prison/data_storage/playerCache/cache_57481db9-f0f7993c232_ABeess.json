@@ -1,0 +1,19 @@
+{
+  "playerUuid": "57481db9-38f7-3a96-b52d-ff0f7993c232",
+  "playerName": "ABeess",
+  "lastSeenDate": 0,
+  "onlineTimeTotal": 0,
+  "onlineAFKTimeTotal": 0,
+  "onlineMiningTimeTotal": 0,
+  "blocksTotal": 0,
+  "blocksByMine": {},
+  "blocksByType": {},
+  "timeByMine": {},
+  "earningsByMine": {},
+  "tokens": 0,
+  "tokensTotal": 0,
+  "tokensTotalAdminAdded": 0,
+  "tokensTotalAdminRemoved": 0,
+  "tokensLastBlocksTotals": 0,
+  "tokensByMine": {}
+}

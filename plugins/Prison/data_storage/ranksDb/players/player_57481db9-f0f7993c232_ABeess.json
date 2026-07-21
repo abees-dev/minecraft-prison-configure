@@ -5,7 +5,7 @@
     "default": {
       "ladderName": "default",
       "rankId": -1,
-      "rankName": "I"
+      "rankName": "emerald"
     }
   },
   "names": [
@@ -14,12 +14,12 @@
       "date": 1784551545711
     }
   ],
-  "balance": 0.0,
+  "balance": 0,
   "lastSeenDate": 0,
   "sellallMultipliers": [
     "1.0 - Sellall multipler is disabled. Default value."
   ],
-  "sellallMultiplier": 1.0,
+  "sellallMultiplier": 1,
   "totalTokens": 0,
   "permsSnapShot": [
     "group.default"

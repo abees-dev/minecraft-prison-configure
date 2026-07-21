@@ -78,7 +78,7 @@ inventory-button:
 # Enable/disable auto resource pack download. Requires a server reload when changed.
 # Default RP: https://www.dropbox.com/s/1lftxmzh0q4b5yu/mmoinv_rp_3.zip?dl=1
 resource-pack:
-  enabled: true
+  enabled: false
   url: resource_pack_url
   delay: 20
 
