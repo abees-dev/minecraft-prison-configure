@@ -1,0 +1,160 @@
+info:
+  namespace: lunarset
+items:
+  lunar_axe:
+    display_name: lunar Axe
+    permission: permission_model
+    resource:
+      material: IRON_AXE
+      generate: false
+      model_path: axe
+  lunar_bow:
+    display_name: lunar Bow
+    permission: permission_model
+    resource:
+      material: BOW
+      generate: false
+      model_path: bow
+  lunar_chest:
+    display_name: lunar Chest
+    permission: permission_model
+    resource:
+      material: PAPER
+      generate: false
+      model_path: chest
+    behaviours:
+      furniture:
+        entity: item_frame
+        solid: true
+        hitbox:
+          width: 1.0
+          height: 1.0
+          length: 1.0
+  lunar_chest_opening:
+    display_name: lunar Chest Opening
+    permission: permission_model
+    resource:
+      material: PAPER
+      generate: false
+      model_path: chest_opening
+    behaviours:
+      furniture:
+        entity: item_frame
+        solid: true
+        hitbox:
+          width: 1.0
+          height: 1.0
+          length: 1.0
+  lunar_crossbow:
+    display_name: lunar Crossbow
+    permission: permission_model
+    resource:
+      material: CROSSBOW
+      generate: false
+      model_path: crossbow
+  lunar_helmet:
+    display_name: lunar Helmet
+    permission: permission_model
+    resource:
+      material: PAPER
+      generate: false
+      model_path: helmet
+  lunar_fishing_rod:
+    display_name: lunar Fishing Rod
+    permission: permission_model
+    resource:
+      material: FISHING_ROD
+      generate: false
+      model_path: fishing_rod
+  lunar_hammer:
+    display_name: lunar Hammer
+    permission: permission_model
+    resource:
+      material: IRON_SWORD
+      generate: false
+      model_path: hammer
+  lunar_hoe:
+    display_name: lunar Hoe
+    permission: permission_model
+    resource:
+      material: IRON_HOE
+      generate: false
+      model_path: hoe
+  lunar_key:
+    display_name: lunar Key
+    permission: permission_model
+    resource:
+      material: PAPER
+      generate: false
+      model_path: key
+  lunar_pickaxe:
+    display_name: lunar Pickaxe
+    permission: permission_model
+    resource:
+      material: IRON_PICKAXE
+      generate: false
+      model_path: pickaxe
+  lunar_shield:
+    display_name: lunar Shield
+    permission: permission_model
+    resource:
+      material: SHIELD
+      generate: false
+      model_path: shield
+  lunar_shovel:
+    display_name: lunar Shovel
+    permission: permission_model
+    resource:
+      material: IRON_SHOVEL
+      generate: false
+      model_path: shovel
+  lunar_spear:
+    display_name: lunar Spear
+    permission: permission_model
+    resource:
+      material: IRON_SWORD
+      generate: false
+      model_path: spear
+  lunar_sword:
+    display_name: lunar Sword
+    permission: permission_model
+    resource:
+      material: IRON_SWORD
+      generate: false
+      model_path: sword
+  lunar_scythe:
+    display_name: lunar Scythe
+    permission: permission_model
+    resource:
+      material: IRON_SWORD
+      generate: false
+      model_path: scythe
+  lunar_staff:
+    display_name: lunar Staff
+    permission: permission_model
+    resource:
+      material: IRON_SWORD
+      generate: false
+      model_path: staff
+  lunar_greatsword:
+    display_name: lunar Greatsword
+    permission: permission_model
+    resource:
+      material: IRON_SWORD
+      generate: false
+      model_path: greatsword
+  lunar_trident:
+    display_name: lunar Trident
+    permission: permission_model
+    resource:
+      material: IRON_SWORD
+      generate: false
+      model_path: trident
+  lunar_tail:
+    display_name: lunar Tail
+    permission: permission_model
+    resource:
+      material: PAPER
+      generate: false
+      model_path: tail
+#gkVvFTTrp3ThNmaPVzY4cEUVpWW3tGVPRTTU5keVRUT6VkaXlDaxV2dkpUb5M0TolTO41kN

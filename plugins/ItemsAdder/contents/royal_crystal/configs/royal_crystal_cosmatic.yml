@@ -1,0 +1,35 @@
+info:
+  namespace: royal_crystal
+items:
+  royal_crysta_cosmetics_wings:
+    display_name: Royal Crystal Wings Cosmetics
+    permission: royal_crystal.royal_crysta_cosmetics_wings
+    resource:
+      generate: false
+      model_path: wings_cosmetic
+      material: POTION
+      model_id: 8623000
+  royal_crysta_cosmetics_wings_self:
+    display_name: Royal Crystal Wings Cosmetics Self
+    permission: royal_crystal.royal_crysta_cosmetics_wings_self
+    resource:
+      generate: false
+      model_path: wings_cosmetic_self
+      material: POTION
+      model_id: 8623001
+  royal_crysta_cosmetics_wings_self_2:
+    display_name: Royal Crystal Wings Cosmetics Self 2
+    permission: royal_crystal.royal_crysta_cosmetics_wings_self_2
+    resource:
+      generate: false
+      model_path: wings_cosmetic_self_2
+      material: POTION
+      model_id: 8623002
+  royal_crysta_cosmetics_wings_normal_2:
+    display_name: Royal Crystal Wings Cosmetics Normal 2
+    permission: royal_crystal.royal_crysta_cosmetics_wings_normal_2
+    resource:
+      generate: false
+      model_path: wings_cosmetic_normal_2
+      material: POTION
+      model_id: 8623003

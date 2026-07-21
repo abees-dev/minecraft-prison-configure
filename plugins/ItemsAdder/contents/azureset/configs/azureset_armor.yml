@@ -1,0 +1,53 @@
+armors_rendering:
+  azurearmor:
+    color: '#274d9a'
+    layer_1: armor/azure_armor_layer_1
+    layer_2: armor/azure_armor_layer_2
+    use_color: false
+info:
+  namespace: azureset
+items:
+  azureboots:
+    display_name: Azure Boots
+    permission: azure.boots
+    resource:
+      generate: true
+      textures:
+      - armor/azure_boots_icon.png
+    specific_properties:
+      armor:
+        custom_armor: azurearmor
+        slot: feet
+  azurechestplate:
+    display_name: Azure Chestplate
+    permission: azure.chestplate
+    resource:
+      generate: true
+      textures:
+      - armor/azure_chestplate_icon.png
+    specific_properties:
+      armor:
+        custom_armor: azurearmor
+        slot: chest
+  azureleggings:
+    display_name: Azure Leggings
+    permission: azure.leggings
+    resource:
+      generate: true
+      textures:
+      - armor/azure_leggings_icon.png
+    specific_properties:
+      armor:
+        custom_armor: azurearmor
+        slot: legs
+  azurehelmet:
+    display_name: Azure Helmet
+    permission: azure.helmet
+    resource:
+      generate: true
+      textures:
+      - armor/azure_helmet_icon.png
+    specific_properties:
+      armor:
+        custom_armor: azurearmor
+        slot: head

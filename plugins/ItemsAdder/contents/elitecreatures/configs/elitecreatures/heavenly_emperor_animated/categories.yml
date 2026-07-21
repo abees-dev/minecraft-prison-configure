@@ -1,0 +1,44 @@
+info:
+  namespace: elitecreatures
+categories:
+  heavenly_emperor_animated:
+    enabled: true
+    icon: "elitecreatures:heavenly_emperor_animated-hat"
+    name: " Heavenly Emperor Animated " 
+    permission: "ia.menu.heavenly_emperor_animated"
+    items:
+
+    ########### ARMORS
+      - "elitecreatures:heavenly_emperor_animated-hat"
+      - "elitecreatures:heavenly_emperor_animated-helmet"
+      - "elitecreatures:heavenly_emperor_animated-chestplate"
+      - "elitecreatures:heavenly_emperor_animated-leggings"
+      - "elitecreatures:heavenly_emperor_animated-boots"
+  
+   ########### FUNDAMENTAL ITEMS
+      - "elitecreatures:heavenly_emperor_animated-axe"
+      - "elitecreatures:heavenly_emperor_animated-bow"
+      - "elitecreatures:heavenly_emperor_animated-crossbow"
+      - "elitecreatures:heavenly_emperor_animated-fishing_rod"
+      - "elitecreatures:heavenly_emperor_animated-hoe"
+      - "elitecreatures:heavenly_emperor_animated-pickaxe"
+      - "elitecreatures:heavenly_emperor_animated-shield"
+      - "elitecreatures:heavenly_emperor_animated-shovel"
+      - "elitecreatures:heavenly_emperor_animated-sword"
+   
+   ########### FANTASY WEAPONS
+      - "elitecreatures:heavenly_emperor_animated-dagger"
+      - "elitecreatures:heavenly_emperor_animated-greatsword"
+      - "elitecreatures:heavenly_emperor_animated-hammer"
+      - "elitecreatures:heavenly_emperor_animated-spear"
+      - "elitecreatures:heavenly_emperor_animated-mace"
+      - "elitecreatures:heavenly_emperor_animated-staff"
+
+   ########### COSMETICS
+      - "elitecreatures:heavenly_emperor_animated-back"
+      - "elitecreatures:heavenly_emperor_animated-backpack"
+   ########### CHEST AND KEY
+      - "elitecreatures:heavenly_emperor_animated-key"
+      - "elitecreatures:heavenly_emperor_animated-chest"
+
+#w0cDJ3VkhFUhlFb6Vmc2tGe4UVV3llaOl3aq5UMNRUT5VlRXJnR1dUbDhDNDdDc1oFezoFN

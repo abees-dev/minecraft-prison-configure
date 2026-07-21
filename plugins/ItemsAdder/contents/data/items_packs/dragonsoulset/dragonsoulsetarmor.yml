@@ -1,0 +1,44 @@
+info:
+  namespace: dragonsoulset
+armors_rendering:
+  dragonsoularmor:
+    color: '#51a661'
+    layer_1: armor/dragonsoul_chestplate
+    layer_2: armor/dragonsoul_leggings
+    use_color: false
+items:
+  dragonsoulchestplate:
+    display_name: Dragon Soul Chestplate
+    permission: simple
+    resource:
+      generate: true
+      textures:
+      - armor/dragon_soul_chestplate_icon.png
+    specific_properties:
+      armor:
+        slot: chest
+        custom_armor: dragonsoularmor
+  dragonsoulleggings:
+    display_name: Dragon Soul Leggings
+    permission: simple
+    resource:
+      generate: true
+      textures:
+      - armor/dragon_soul_leggings_icon.png
+    specific_properties:
+      armor:
+        slot: legs
+        custom_armor: dragonsoularmor
+  dragonsoulboots:
+    display_name: Dragon Soul Boots
+    permission: simple
+    resource:
+      generate: true
+      textures:
+      - armor/dragon_soul_boots_icon.png
+    specific_properties:
+      armor:
+        slot: feet
+        custom_armor: dragonsoularmor
+
+# YHUEZWN55ETnRVSwoleXZkejxmU3llaOl3aq5UMNRUT5FEVjFTMqR1aDl1TXd2YPt2a2ZFN

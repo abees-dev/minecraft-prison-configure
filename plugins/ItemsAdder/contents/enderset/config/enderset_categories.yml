@@ -1,0 +1,20 @@
+info:
+  namespace: enderset
+categories: 
+  enderset:
+    enabled: true
+    skip_if_already: false
+    icon: "enderset:ender_sword"
+    name: Ender Set
+    permission: ia.menu
+    items:
+      - "enderset:ender_helmet"
+      - "enderset:ender_chestplate"
+      - "enderset:ender_leggings"
+      - "enderset:ender_boots"
+      - "enderset:ender_sword"
+      - "enderset:ender_pickaxe"
+      - "enderset:ender_hoe"
+      - "enderset:ender_shovel"
+      - "enderset:ender_axe"
+      - "enderset:ender_bow"

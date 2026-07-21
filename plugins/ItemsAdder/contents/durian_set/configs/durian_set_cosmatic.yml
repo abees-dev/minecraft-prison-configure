@@ -1,0 +1,43 @@
+info:
+  namespace: durian_set
+items:
+  durian_cosmetics_cape:
+    display_name: Durian Cape Cosmetics
+    permission: durian_set.durian_cosmetics_cape
+    resource:
+      generate: false
+      model_path: cape_cosmetic
+      material: POTION
+      model_id: 8190004
+  durian_cosmetics_cape_self:
+    display_name: Durian Cape Cosmetics Self
+    permission: durian_set.durian_cosmetics_cape_self
+    resource:
+      generate: false
+      model_path: cape_cosmetic_self
+      material: POTION
+      model_id: 8190005
+  durian_cosmetics_cape_self_2:
+    display_name: Durian Cape Cosmetics Self 2
+    permission: durian_set.durian_cosmetics_cape_self_2
+    resource:
+      generate: false
+      model_path: cape_cosmetic_self_2
+      material: POTION
+      model_id: 8190006
+  durian_cosmetics_cape_normal_2:
+    display_name: Durian Cape Cosmetics Normal 2
+    permission: durian_set.durian_cosmetics_cape_normal_2
+    resource:
+      generate: false
+      model_path: cape_cosmetic_normal_2
+      material: POTION
+      model_id: 8190007
+  durian_cosmetics_helmet:
+    display_name: Durian Helmet Cosmetics
+    permission: durian_set.durian_cosmetics_helmet
+    resource:
+      generate: false
+      model_path: helmet
+      material: POTION
+      model_id: 8190008

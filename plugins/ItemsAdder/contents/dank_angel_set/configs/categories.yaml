@@ -1,0 +1,21 @@
+info:
+  namespace: dark-angel-set
+categories:
+  dark-angel-set:
+    enabled: true
+    name: dark-angel-set
+    # icon: dark_angel_axe
+    items:
+      - dark-angel-set:dark-angel-axe
+      - dark-angel-set:dark-angel-hoe
+      - dark-angel-set:dark-angel-pickaxe
+      - dark-angel-set:dark-angel-shovel
+      - dark-angel-set:dark-angel-sword
+      - dark-angel-set:dark-angel_helmet
+      - dark-angel-set:dark-angel_chestplate
+      - dark-angel-set:dark-angel_leggings
+      - dark-angel-set:dark-angel_boots
+      - dark-angel-set:dark-angle-crate
+      - dark-angel-set:dark-angel-halo
+      - dark-angel-set:dark-angel-pitchfork
+      - dark-angel-set:dark-angel-wings

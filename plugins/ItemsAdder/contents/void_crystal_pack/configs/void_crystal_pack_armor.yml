@@ -1,0 +1,71 @@
+armors_rendering:
+  void_crystalarmor:
+    color: '#281d73'
+    layer_1: armor/void_crystal_armor_layer_1
+    layer_2: armor/void_crystal_armor_layer_2
+    use_color: false
+info:
+  namespace: void_crystal_pack
+items:
+  void_crystalhelmet:
+    display_name: §fVoid Crystal Helmet
+    permission: void_crystal_pack.helmet
+    resource:
+      generate: true
+      textures:
+      - armor/void_crystal_helmet_icon.png
+    specific_properties:
+      armor:
+        custom_armor: void_crystalarmor
+        slot: head
+    durability:
+      max_custom_durability: 165
+    attribute_modifiers:
+      head:
+        armor: 2
+  void_crystalchestplate:
+    display_name: §fVoid Crystal Chestplate
+    permission: void_crystal_pack.chestplate
+    resource:
+      generate: true
+      textures:
+      - armor/void_crystal_chestplate_icon.png
+    specific_properties:
+      armor:
+        custom_armor: void_crystalarmor
+        slot: chest
+    durability:
+      max_custom_durability: 240
+    attribute_modifiers:
+      chest:
+        armor: 6
+  void_crystalleggings:
+    display_name: §fVoid Crystal Leggings
+    permission: void_crystal_pack.leggings
+    resource:
+      generate: true
+      textures:
+      - armor/void_crystal_leggings_icon.png
+    specific_properties:
+      armor:
+        custom_armor: void_crystalarmor
+        slot: legs
+    attribute_modifiers:
+      legs:
+        armor: 5
+  void_crystalboots:
+    display_name: §fVoid Crystal Boots
+    permission: void_crystal_pack.boots
+    resource:
+      generate: true
+      textures:
+      - armor/void_crystal_boots_icon.png
+    specific_properties:
+      armor:
+        custom_armor: void_crystalarmor
+        slot: feet
+    durability:
+      max_custom_durability: 165
+    attribute_modifiers:
+      feet:
+        armor: 2

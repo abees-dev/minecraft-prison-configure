@@ -1,0 +1,160 @@
+info:
+  namespace: dragonsoulset
+items:
+  dragonsoul_axe:
+    display_name: dragonsoul Axe
+    permission: permission_model
+    resource:
+      material: IRON_AXE
+      generate: false
+      model_path: axe
+  dragonsoul_bow:
+    display_name: dragonsoul Bow
+    permission: permission_model
+    resource:
+      material: BOW
+      generate: false
+      model_path: bow
+  dragonsoul_chest:
+    display_name: dragonsoul Chest
+    permission: permission_model
+    resource:
+      material: PAPER
+      generate: false
+      model_path: chest
+    behaviours:
+      furniture:
+        entity: item_frame
+        solid: true
+        hitbox:
+          width: 1.0
+          height: 1.0
+          length: 1.0
+  dragonsoul_chest_opening:
+    display_name: dragonsoul Chest Opening
+    permission: permission_model
+    resource:
+      material: PAPER
+      generate: false
+      model_path: chest_opening
+    behaviours:
+      furniture:
+        entity: item_frame
+        solid: true
+        hitbox:
+          width: 1.0
+          height: 1.0
+          length: 1.0
+  dragonsoul_crossbow:
+    display_name: dragonsoul Crossbow
+    permission: permission_model
+    resource:
+      material: CROSSBOW
+      generate: false
+      model_path: crossbow
+  dragonsoul_helmet:
+    display_name: dragonsoul Helmet
+    permission: permission_model
+    resource:
+      material: PAPER
+      generate: false
+      model_path: helmet
+  dragonsoul_fishing_rod:
+    display_name: dragonsoul Fishing Rod
+    permission: permission_model
+    resource:
+      material: FISHING_ROD
+      generate: false
+      model_path: fishing_rod
+  dragonsoul_hammer:
+    display_name: dragonsoul Hammer
+    permission: permission_model
+    resource:
+      material: IRON_SWORD
+      generate: false
+      model_path: hammer
+  dragonsoul_hoe:
+    display_name: dragonsoul Hoe
+    permission: permission_model
+    resource:
+      material: IRON_HOE
+      generate: false
+      model_path: hoe
+  dragonsoul_key:
+    display_name: dragonsoul Key
+    permission: permission_model
+    resource:
+      material: PAPER
+      generate: false
+      model_path: key
+  dragonsoul_pickaxe:
+    display_name: dragonsoul Pickaxe
+    permission: permission_model
+    resource:
+      material: IRON_PICKAXE
+      generate: false
+      model_path: pickaxe
+  dragonsoul_shield:
+    display_name: dragonsoul Shield
+    permission: permission_model
+    resource:
+      material: SHIELD
+      generate: false
+      model_path: shield
+  dragonsoul_shovel:
+    display_name: dragonsoul Shovel
+    permission: permission_model
+    resource:
+      material: IRON_SHOVEL
+      generate: false
+      model_path: shovel
+  dragonsoul_spear:
+    display_name: dragonsoul Spear
+    permission: permission_model
+    resource:
+      material: IRON_SWORD
+      generate: false
+      model_path: spear
+  dragonsoul_sword:
+    display_name: dragonsoul Sword
+    permission: permission_model
+    resource:
+      material: IRON_SWORD
+      generate: false
+      model_path: sword
+  dragonsoul_scythe:
+    display_name: dragonsoul Scythe
+    permission: permission_model
+    resource:
+      material: IRON_SWORD
+      generate: false
+      model_path: scythe
+  dragonsoul_staff:
+    display_name: dragonsoul Staff
+    permission: permission_model
+    resource:
+      material: IRON_SWORD
+      generate: false
+      model_path: staff
+  dragonsoul_greatsword:
+    display_name: dragonsoul Greatsword
+    permission: permission_model
+    resource:
+      material: IRON_SWORD
+      generate: false
+      model_path: greatsword
+  dragonsoul_trident:
+    display_name: dragonsoul Trident
+    permission: permission_model
+    resource:
+      material: IRON_SWORD
+      generate: false
+      model_path: trident
+  dragonsoul_wings:
+    display_name: dragonsoul Wings
+    permission: permission_model
+    resource:
+      material: PAPER
+      generate: false
+      model_path: wings
+#YHUEZWN55ETnRVSwoleXZkejxmU3llaOl3aq5UMNRUT5FEVjFTMqR1aDl1TXd2YPt2a2ZFN

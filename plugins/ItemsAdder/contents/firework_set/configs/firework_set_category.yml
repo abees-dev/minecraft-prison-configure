@@ -1,0 +1,32 @@
+info:
+    namespace: firework_set
+categories:
+    firework_set:
+        name: Firework Animated Weapons And Tools Set
+        enabled: true
+        icon: firework_set:firework_wings
+        permission: ia.menu.firework_set
+        items:
+        - firework_set:fireworkhelmet
+        - firework_set:fireworkchestplate
+        - firework_set:fireworkleggings
+        - firework_set:fireworkboots
+        - firework_set:firework_helmet
+        - firework_set:firework_axe
+        - firework_set:firework_pickaxe
+        - firework_set:firework_shovel
+        - firework_set:firework_hoe
+        - firework_set:firework_fishing_rod
+        - firework_set:firework_greatsword
+        - firework_set:firework_sword
+        - firework_set:firework_shield
+        - firework_set:firework_crossbow
+        - firework_set:firework_bow
+        - firework_set:firework_staff
+        - firework_set:firework_trident
+        - firework_set:firework_hammer
+        - firework_set:firework_spear
+        - firework_set:firework_scythe
+        - firework_set:firework_chest
+        - firework_set:firework_key
+        - firework_set:firework_wings

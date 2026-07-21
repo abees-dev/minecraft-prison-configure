@@ -1,0 +1,30 @@
+info:
+  namespace: am_fantasypets_palcat
+items:
+  am_icon_palcat_artist:
+    display_name: "am_icon_palcat_artist"
+    permission: am_icon_palcat_artist
+    resource:
+      material: PAPER
+      model_id: 17401
+      generate: false
+      model_path: am_fantasypets_palcat_models/am_icon_palcat_artist
+  am_icon_palcat_musician:
+    display_name: "am_icon_palcat_musician"
+    permission: am_icon_palcat_musician
+    resource:
+      material: PAPER
+      model_id: 17402
+      generate: false
+      model_path: am_fantasypets_palcat_models/am_icon_palcat_musician
+  am_icon_palcat_shoveler:
+    display_name: "am_icon_palcat_shoveler"
+    permission: am_icon_palcat_shoveler
+    resource:
+      material: PAPER
+      model_id: 17403
+      generate: false
+      model_path: am_fantasypets_palcat_models/am_icon_palcat_shoveler
+
+#9c4d84eb39a150275d94e5e94ccaf0c0
+#UGMsBzbC1mQMZVNzd1Mi1GWvZ1VxcGRORTQ610dnRlTwkkeiVzNW5kW48kUQhWd0N3biZTO

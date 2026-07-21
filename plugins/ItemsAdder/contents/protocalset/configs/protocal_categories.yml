@@ -1,0 +1,34 @@
+info:
+  namespace: protocalset
+categories:
+  protocalset:
+    enabled: true
+    skip_if_already: false
+    icon: "protocalset:protocal_sword"
+    name: Protocal Weapons & Tools Set
+    permission: protocalset.menu
+    items:
+      - "protocalset:protocal_sword"
+      - "protocalset:protocal_greatsword"
+      - "protocalset:protocal_spear"
+      - "protocalset:protocal_trident"
+      - "protocalset:protocal_hammer"
+      - "protocalset:protocal_scythe"
+      - "protocalset:protocal_staff"
+      - "protocalset:protocal_bow"
+      - "protocalset:protocal_crossbow"
+      - "protocalset:protocal_axe"
+      - "protocalset:protocal_hoe"
+      - "protocalset:protocal_pickaxe"
+      - "protocalset:protocal_shovel"
+      - "protocalset:protocal_fishing_rod"
+      - "protocalset:protocal_shield"
+      - "protocalset:protocal_chest"
+      - "protocalset:protocal_chest_opening"
+      - "protocalset:protocal_key"
+      - "protocalset:protocalhat"
+      - "protocalset:protocalchestplate"
+      - "protocalset:protocalleggings"
+      - "protocalset:protocalboots"
+      - "protocalset:protocal_helmet"
+      - "protocalset:protocal_wings"

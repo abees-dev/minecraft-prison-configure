@@ -1,0 +1,18 @@
+info:
+    namespace: solarfissure_items
+categories:
+    solarfissure_items:
+        name: Solar Fissure Pack
+        enabled: true
+        icon: solarfissure_items:meteoricore_bow
+        permission: ia.menu.meteoricore
+        items:
+        - solarfissure_items:meteoricore_sword
+        - solarfissure_items:meteoricore_axe
+        - solarfissure_items:meteoricore_hoe
+        - solarfissure_items:meteoricore_bow
+        - solarfissure_items:meteoricore_pickaxe
+        - solarfissure_items:meteoricore_shovel
+        - solarfissure_items:meteoricore_fishing_rod
+
+#smeRZXa0tUQwMUQqRWaQtWTZRUZxUFVNlXWE5UeZRlT6VUMZpGeBNVeNV1RoNmMuFmQF50N

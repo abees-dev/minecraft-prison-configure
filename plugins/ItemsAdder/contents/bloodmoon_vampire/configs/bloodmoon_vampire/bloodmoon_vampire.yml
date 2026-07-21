@@ -1,0 +1,75 @@
+info:
+  namespace: bloodmoon_vampire
+items:
+  bloodmoon_orb:
+    display_name: "bloodmoon_orb"
+    permission: bloodmoon_orb
+    resource:
+      material: STONE_SWORD
+      model_id: 2071
+      generate: false
+      model_path: bloodmoon_vampire_model/bloodmoon_orb
+  ethereal_orb:
+    display_name: "ethereal_orb"
+    permission: ethereal_orb
+    resource:
+      material: STONE_SWORD
+      model_id: 2072
+      generate: false
+      model_path: bloodmoon_vampire_model/ethereal_orb
+  icon_bloodbending:
+    display_name: "icon_bloodbending"
+    permission: icon_bloodbending
+    resource:
+      material: COAL
+      model_id: 2228
+      generate: false
+      model_path: bloodmoon_vampire_model/icon_bloodbending
+  icon_bloodborne_blades:
+    display_name: "icon_bloodborne_blades"
+    permission: icon_bloodborne_blades
+    resource:
+      material: COAL
+      model_id: 2229
+      generate: false
+      model_path: bloodmoon_vampire_model/icon_bloodborne_blades
+  icon_bloodborne_grimoire:
+    display_name: "icon_bloodborne_grimoire"
+    permission: icon_bloodborne_grimoire
+    resource:
+      material: COAL
+      model_id: 2230
+      generate: false
+      model_path: bloodmoon_vampire_model/icon_bloodborne_grimoire
+  icon_bloodborne_needles:
+    display_name: "icon_bloodborne_needles"
+    permission: icon_bloodborne_needles
+    resource:
+      material: COAL
+      model_id: 2231
+      generate: false
+      model_path: bloodmoon_vampire_model/icon_bloodborne_needles
+  icon_bloodborne_scythe:
+    display_name: "icon_bloodborne_scythe"
+    permission: icon_bloodborne_scythe
+    resource:
+      material: COAL
+      model_id: 2232
+      generate: false
+      model_path: bloodmoon_vampire_model/icon_bloodborne_scythe
+  icon_bloodmoon_combo:
+    display_name: "icon_bloodmoon_combo"
+    permission: icon_bloodmoon_combo
+    resource:
+      material: COAL
+      model_id: 2233
+      generate: false
+      model_path: bloodmoon_vampire_model/icon_bloodmoon_combo
+  icon_vampiric_surge:
+    display_name: "icon_vampiric_surge"
+    permission: icon_vampiric_surge
+    resource:
+      material: COAL
+      model_id: 2234
+      generate: false
+      model_path: bloodmoon_vampire_model/icon_vampiric_surge

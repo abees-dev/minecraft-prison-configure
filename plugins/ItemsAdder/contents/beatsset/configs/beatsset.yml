@@ -1,0 +1,177 @@
+info:
+  namespace: beatsset
+items:
+  beats_axe:
+    display_name: Beats Axe
+    permission: beats.axe
+    resource:
+      generate: false
+      material: IRON_AXE
+      model_path: axe
+  beats_bow:
+    display_name: Beats Bow
+    permission: beats.bow
+    resource:
+      generate: false
+      material: BOW
+      model_path: bow
+  beats_chest:
+    behaviours:
+      furniture:
+        fixed_rotation: true
+        hitbox:
+          height: 1
+          height_offset: 0
+          length: 1
+          length_offset: 0
+          width: 1
+          width_offset: 0
+        placeable_on:
+          ceiling: false
+          floor: true
+          walls: false
+        solid: true
+    display_name: Beats Chest
+    permission: beats.chest
+    resource:
+      generate: false
+      material: SEA_LANTERN
+      model_path: chest
+  beats_chest_opening:
+    behaviours:
+      furniture:
+        fixed_rotation: true
+        hitbox:
+          height: 2
+          height_offset: 0
+          length: 1
+          length_offset: 0
+          width: 1
+          width_offset: 0
+        placeable_on:
+          ceiling: false
+          floor: true
+          walls: false
+        solid: true
+    display_name: Beats Chest Opening
+    permission: beats.chest_opening
+    resource:
+      generate: false
+      material: SEA_LANTERN
+      model_path: chest_opening
+  beats_crossbow:
+    display_name: Beats Crossbow
+    permission: beats.crossbow
+    resource:
+      generate: false
+      material: CROSSBOW
+      model_path: crossbow
+  beats_fishing_rod:
+    display_name: Beats Fishing Rod
+    permission: beats.fishing_rod
+    resource:
+      generate: false
+      material: FISHING_ROD
+      model_path: fishing_rod
+  beats_greatsword:
+    display_name: Beats Greatsword
+    permission: beats.greatsword
+    resource:
+      generate: false
+      material: IRON_SWORD
+      model_path: greatsword
+  beats_hammer:
+    display_name: Beats Hammer
+    permission: beats.hammer
+    resource:
+      generate: false
+      material: IRON_SWORD
+      model_path: hammer
+  beats_hoe:
+    display_name: Beats Hoe
+    permission: beats.hoe
+    resource:
+      generate: false
+      material: IRON_HOE
+      model_path: hoe
+  beats_key:
+    display_name: Beats Key
+    permission: beats.key
+    resource:
+      generate: false
+      material: PAPER
+      model_path: key
+  beats_pickaxe:
+    display_name: Beats Pickaxe
+    permission: beats.pickaxe
+    resource:
+      generate: false
+      material: IRON_PICKAXE
+      model_path: pickaxe
+  beats_scythe:
+    display_name: Beats Scythe
+    permission: beats.scythe
+    resource:
+      generate: false
+      material: IRON_SWORD
+      model_path: scythe
+  beats_shield:
+    display_name: Beats Shield
+    permission: beats.shield
+    resource:
+      generate: false
+      material: SHIELD
+      model_path: shield
+  beats_shovel:
+    display_name: Beats Shovel
+    permission: beats.shovel
+    resource:
+      generate: false
+      material: IRON_SHOVEL
+      model_path: shovel
+  beats_spear:
+    display_name: Beats Spear
+    permission: beats.spear
+    resource:
+      generate: false
+      material: IRON_SWORD
+      model_path: spear
+  beats_staff:
+    display_name: Beats Staff
+    permission: beats.staff
+    resource:
+      generate: false
+      material: IRON_SWORD
+      model_path: staff
+  beats_sword:
+    display_name: Beats Sword
+    permission: beats.sword
+    resource:
+      generate: false
+      material: IRON_SWORD
+      model_path: sword
+  beats_trident:
+    display_name: Beats Trident
+    permission: beats.trident
+    resource:
+      generate: false
+      material: IRON_SWORD
+      model_path: trident
+  beats_wings:
+    behaviours:
+      hat: true
+    display_name: Beats Wing
+    permission: beats.wings
+    resource:
+      generate: false
+      material: PAPER
+      model_path: wings
+  beats_helmet:
+    behaviours:
+      hat: true
+    display_name: Beats Helmet
+    permission: beats.helmet
+    resource:
+      generate: false
+      material: PAPER
+      model_path: helmet

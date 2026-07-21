@@ -1,0 +1,106 @@
+info:
+  namespace: elitecreatures
+armors_rendering:
+  loki_animated:
+    color: '#fffffa'
+    layer_1: loki_animated/armor/lokianimated_armor_1
+    layer_2: loki_animated/armor/lokianimated_armor_2
+    use_color: false
+
+items:
+  loki_animated-hat:
+    display_name: DISPLAY
+    permission: loki_animated
+    attribute_modifiers:
+      chest:
+        armor: 7
+        armorToughness: 1
+    resource:
+      material: PAPER
+      model_path: loki_animated/armor/hat
+      #model_id: Define your ModelData
+      generate: false
+    behaviours:
+      hat: true
+
+  loki_animated-helmet:
+    display_name: DISPLAY
+    permission: loki_animated
+    attribute_modifiers:
+      chest:
+        armor: 7
+        armorToughness: 1
+    resource:
+      generate: true
+      #model_path: loki_animated/armor/chestplate
+      #model_id: Define your ModelData
+      textures:
+      - loki_animated/armor/lokianimated_helmet
+    durability:
+      max_custom_durability: 1000
+    specific_properties:
+      armor:
+        slot: head
+        custom_armor: loki_animated
+
+
+  loki_animated-chestplate:
+    display_name: DISPLAY
+    permission: loki_animated
+    attribute_modifiers:
+      chest:
+        armor: 7
+        armorToughness: 1
+    resource:
+      generate: true
+      #model_path: loki_animated/armor/chestplate
+      #model_id: Define your ModelData
+      textures:
+      - loki_animated/armor/lokianimated_chestplate
+    durability:
+      max_custom_durability: 1000
+    specific_properties:
+      armor:
+        slot: chest
+        custom_armor: loki_animated
+
+  loki_animated-leggings:
+    display_name: DISPLAY
+    permission: loki_animated
+    attribute_modifiers:
+      chest:
+        armor: 7
+        armorToughness: 1
+    resource:
+      generate: true
+      #model_path: loki_animated/armor/leggings
+      #model_id: Define your ModelData
+      textures:
+      - loki_animated/armor/lokianimated_leggings
+    durability:
+      max_custom_durability: 1000
+    specific_properties:
+      armor:
+        slot: legs
+        custom_armor: loki_animated
+
+  loki_animated-boots:
+    display_name: DISPLAY
+    permission: loki_animated
+    attribute_modifiers:
+      chest:
+        armor: 7
+        armorToughness: 1
+    resource:
+      generate: true
+      #model_path: loki_animated/armor/boots
+      #model_id: Define your ModelData
+      textures:
+      - loki_animated/armor/lokianimated_boots
+    durability:
+      max_custom_durability: 1000
+    specific_properties:
+      armor:
+        slot: feet
+        custom_armor: loki_animated
+#cjejlkbNJFOwIkM2QWNVlDRvBDZ3lkeNFzZ61EejRUTw0UMiN3Vxd3RlpEeRdjSOhlb4JEO

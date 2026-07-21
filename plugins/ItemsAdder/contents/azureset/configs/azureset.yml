@@ -1,0 +1,179 @@
+info:
+  namespace: azureset
+items:
+  azure_axe:
+    display_name: Azure Axe
+    permission: azure.axe
+    resource:
+      generate: false
+      material: IRON_AXE
+      model_path: axe
+  azure_bow:
+    display_name: Azure Bow
+    permission: azure.bow
+    resource:
+      generate: false
+      material: BOW
+      model_path: bow
+  azure_chest:
+    behaviours:
+      furniture:
+        fixed_rotation: true
+        hitbox:
+          height: 1
+          height_offset: 0
+          length: 1
+          length_offset: 0
+          width: 1
+          width_offset: 0
+        placeable_on:
+          ceiling: false
+          floor: true
+          walls: false
+        solid: true
+    display_name: Azure Chest
+    permission: azure.chest
+    resource:
+      generate: false
+      material: SEA_LANTERN
+      model_path: chest
+  azure_chest_opening:
+    behaviours:
+      furniture:
+        fixed_rotation: true
+        hitbox:
+          height: 2
+          height_offset: 0
+          length: 1
+          length_offset: 0
+          width: 1
+          width_offset: 0
+        placeable_on:
+          ceiling: false
+          floor: true
+          walls: false
+        solid: true
+    display_name: Azure Chest Opening
+    permission: azure.chest_opening
+    resource:
+      generate: false
+      material: SEA_LANTERN
+      model_path: chest_opening
+  azure_crossbow:
+    display_name: Azure Crossbow
+    permission: azure.crossbow
+    resource:
+      generate: false
+      material: CROSSBOW
+      model_path: crossbow
+  azure_fishing_rod:
+    display_name: Azure Fishing Rod
+    permission: azure.fishing_rod
+    resource:
+      generate: false
+      material: FISHING_ROD
+      model_path: fishing_rod
+  azure_greatsword:
+    display_name: Azure Greatsword
+    permission: azure.greatsword
+    resource:
+      generate: false
+      material: IRON_SWORD
+      model_path: greatsword
+  azure_hammer:
+    display_name: Azure Hammer
+    permission: azure.hammer
+    resource:
+      generate: false
+      material: IRON_SWORD
+      model_path: hammer
+  azure_hoe:
+    display_name: Azure Hoe
+    permission: azure.hoe
+    resource:
+      generate: false
+      material: IRON_HOE
+      model_path: hoe
+  azure_key:
+    display_name: Azure Key
+    permission: azure.key
+    resource:
+      generate: false
+      material: PAPER
+      model_path: key
+  azure_pickaxe:
+    display_name: Azure Pickaxe
+    permission: azure.pickaxe
+    resource:
+      generate: false
+      material: IRON_PICKAXE
+      model_path: pickaxe
+  azure_scythe:
+    display_name: Azure Scythe
+    permission: azure.scythe
+    resource:
+      generate: false
+      material: IRON_SWORD
+      model_path: scythe
+  azure_shield:
+    display_name: Azure Shield
+    permission: azure.shield
+    resource:
+      generate: false
+      material: SHIELD
+      model_path: shield
+  azure_shovel:
+    display_name: Azure Shovel
+    permission: azure.shovel
+    resource:
+      generate: false
+      material: IRON_SHOVEL
+      model_path: shovel
+  azure_spear:
+    display_name: Azure Spear
+    permission: azure.spear
+    resource:
+      generate: false
+      material: IRON_SWORD
+      model_path: spear
+  azure_staff:
+    display_name: Azure Staff
+    permission: azure.staff
+    resource:
+      generate: false
+      material: IRON_SWORD
+      model_path: staff
+  azure_sword:
+    display_name: Azure Sword
+    permission: azure.sword
+    resource:
+      generate: false
+      material: IRON_SWORD
+      model_path: sword
+  azure_trident:
+    display_name: Azure Trident
+    permission: azure.trident
+    resource:
+      generate: false
+      material: IRON_SWORD
+      model_path: trident
+  azure_wings:
+    behaviours:
+      hat: true
+    display_name: Azure Wing
+    permission: azure.wings
+    resource:
+      generate: false
+      material: PAPER
+      model_path: wings
+  azure_helmet:
+    behaviours:
+      hat: true
+    display_name: Azure Helmet
+    permission: azure.helmet
+    resource:
+      generate: false
+      material: PAPER
+      model_path: helmet
+
+#8kdSd0Yad3avpHcwVnSJlTSvtmU31keNJTUE90MFRUT4FVRkRnY090N1o2M2VlVWFkUyckM

@@ -1,0 +1,154 @@
+info:
+  namespace: elitecreatures
+items:
+  elite_crates_ice_chest:
+    display_name: Ice Chest
+    permission: elitecreatures.use
+    resource:
+      material: PAPER
+      generate: false
+      model_path: elite_crates/icechest
+    behaviours:
+      furniture:
+        solid: true
+        fixed_rotation: true
+        entity: item_frame
+        hitbox:
+          length: 1
+          width: 1
+          height: 1
+          length_offset: 0
+          width_offset: 0
+          height_offset: 0
+        placeable_on:
+          walls: false
+          ceiling: false
+          floor: true
+  elite_crates_ice_key:
+    display_name: Ice Key
+    permission: elitecreatures.use
+    resource:
+      material: PAPER
+      generate: false
+      model_path: elite_crates/icekey
+  elite_crates_nature_chest:
+    display_name: Nature Chest
+    permission: elitecreatures.use
+    resource:
+      material: PAPER
+      generate: false
+      model_path: elite_crates/naturechest
+    behaviours:
+      furniture:
+        solid: true
+        fixed_rotation: true
+        entity: item_frame
+        hitbox:
+          length: 1
+          width: 1
+          height: 1
+          length_offset: 0
+          width_offset: 0
+          height_offset: 0
+        placeable_on:
+          walls: false
+          ceiling: false
+          floor: true
+  elite_crates_valentine_chest:
+    display_name: Valentine Chest
+    permission: elitecreatures.use
+    resource:
+      material: PAPER
+      generate: false
+      model_path: elite_crates/lovechest
+    behaviours:
+      furniture:
+        solid: true
+        fixed_rotation: true
+        entity: item_frame
+        hitbox:
+          length: 1
+          width: 1
+          height: 1
+          length_offset: 0
+          width_offset: 0
+          height_offset: 0
+        placeable_on:
+          walls: false
+          ceiling: false
+          floor: true
+  elite_crates_wind_chest:
+    display_name: Wind Chest
+    permission: elitecreatures.use
+    resource:
+      material: PAPER
+      generate: false
+      model_path: elite_crates/windchest
+    behaviours:
+      furniture:
+        solid: true
+        fixed_rotation: true
+        entity: item_frame
+        hitbox:
+          length: 1
+          width: 1
+          height: 1
+          length_offset: 0
+          width_offset: 0
+          height_offset: 0
+        placeable_on:
+          walls: false
+          ceiling: false
+          floor: true
+  elite_crates_lava_chest:
+    display_name: Lava Chest
+    permission: elitecreatures.use
+    resource:
+      material: PAPER
+      generate: false
+      model_path: elite_crates/lavachest
+    behaviours:
+      furniture:
+        solid: true
+        fixed_rotation: true
+        entity: item_frame
+        hitbox:
+          length: 1
+          width: 1
+          height: 1
+          length_offset: 0
+          width_offset: 0
+          height_offset: 0
+        placeable_on:
+          walls: false
+          ceiling: false
+          floor: true
+  elite_crates_lava_key:
+    display_name: Lava Key
+    permission: elitecreatures.use
+    resource:
+      material: PAPER
+      generate: false
+      model_path: elite_crates/lavakey
+  elite_crates_nature_key:
+    display_name: Nature Key
+    permission: elitecreatures.use
+    resource:
+      material: PAPER
+      generate: false
+      model_path: elite_crates/naturekey
+  elite_crates_valentine_key:
+    display_name: Valentine Key
+    permission: elitecreatures.use
+    resource:
+      material: PAPER
+      generate: false
+      model_path: elite_crates/valentinekey
+  elite_crates_wind_key:
+    display_name: Wind Key
+    permission: elitecreatures.use
+    resource:
+      material: PAPER
+      generate: false
+      model_path: elite_crates/windkey
+#MTdwZVU0kmYndjdERneZl2N4UEVxsGROVTW65kMJRlT4lFVSRTdqZGR0JXVnVVYLlHORV1M

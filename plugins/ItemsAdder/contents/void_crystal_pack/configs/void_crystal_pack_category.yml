@@ -1,0 +1,30 @@
+info:
+    namespace: void_crystal_pack
+categories:
+    void_crystal_pack:
+        name: Void Crystal Weapons And Tools Set
+        enabled: true
+        icon: void_crystal_pack:void_crystal_wings
+        permission: ia.menu.void_crystal_pack
+        items:
+        - void_crystal_pack:void_crystalhelmet
+        - void_crystal_pack:void_crystalchestplate
+        - void_crystal_pack:void_crystalleggings
+        - void_crystal_pack:void_crystalboots
+        - void_crystal_pack:void_crystal_axe
+        - void_crystal_pack:void_crystal_pickaxe
+        - void_crystal_pack:void_crystal_shovel
+        - void_crystal_pack:void_crystal_hoe
+        - void_crystal_pack:void_crystal_fishing_rod
+        - void_crystal_pack:void_crystal_sword
+        - void_crystal_pack:void_crystal_shield
+        - void_crystal_pack:void_crystal_bow
+        - void_crystal_pack:void_crystal_staff
+        - void_crystal_pack:void_crystal_spear
+        - void_crystal_pack:void_crystal_chest
+        - void_crystal_pack:void_crystal_key
+        - void_crystal_pack:void_crystal_battle_axe
+        - void_crystal_pack:void_crystal_blade
+        - void_crystal_pack:void_crystal_dagger
+        - void_crystal_pack:void_crystal_sickle
+        - void_crystal_pack:void_crystal_wings

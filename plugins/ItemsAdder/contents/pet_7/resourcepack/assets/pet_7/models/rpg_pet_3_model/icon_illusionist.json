@@ -1,0 +1,69 @@
+{
+	"credit": "Made by samus2002",
+	"texture_size": [64, 64],
+	"textures": {
+		"0": "pet_7:rpg_pet_3_texture/pet_illusionist",
+		"particle": "pet_7:rpg_pet_3_texture/pet_illusionist"
+	},
+	"elements": [
+		{
+			"from": [3.5, 3.5, 3.5],
+			"to": [12.5, 11.5, 12.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [11.5, 5.5, 11.5]},
+			"faces": {
+				"north": {"uv": [0, 6.5, 2.25, 8.5], "texture": "#0"},
+				"east": {"uv": [9.75, 8, 7.5, 10], "texture": "#0"},
+				"south": {"uv": [5, 8, 7.25, 10], "texture": "#0"},
+				"west": {"uv": [7.5, 8, 9.75, 10], "texture": "#0"},
+				"up": {"uv": [5.5, 7.75, 3.25, 5.5], "texture": "#0"},
+				"down": {"uv": [8, 5.5, 5.75, 7.75], "texture": "#0"}
+			}
+		},
+		{
+			"from": [3, 4.5, 3.125],
+			"to": [13, 6.5, 13.125],
+			"rotation": {"angle": 0, "axis": "y", "origin": [11, 5.5, 12.125]},
+			"faces": {
+				"north": {"uv": [5.75, 10.25, 8.25, 10.75], "texture": "#0"},
+				"east": {"uv": [8.5, 10.25, 11, 10.75], "texture": "#0"},
+				"south": {"uv": [10.75, 4.5, 13.25, 5], "texture": "#0"},
+				"west": {"uv": [10.75, 5.25, 13.25, 5.75], "texture": "#0"},
+				"up": {"uv": [5.75, 2.5, 3.25, 0], "texture": "#0"},
+				"down": {"uv": [5.75, 2.75, 3.25, 5.25], "texture": "#0"}
+			}
+		},
+		{
+			"from": [3.5, 10.5, 3.5],
+			"to": [12.5, 15.5, 12.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [11.5, 5.5, 11.5]},
+			"faces": {
+				"north": {"uv": [8.25, 5, 10.5, 6.25], "texture": "#0"},
+				"east": {"uv": [8.25, 6.5, 10.5, 7.75], "texture": "#0"},
+				"south": {"uv": [8.5, 0, 10.75, 1.25], "texture": "#0"},
+				"west": {"uv": [8.5, 1.5, 10.75, 2.75], "texture": "#0"},
+				"up": {"uv": [8.25, 2.25, 6, 0], "texture": "#0"},
+				"down": {"uv": [8.25, 2.5, 6, 4.75], "texture": "#0"}
+			}
+		},
+		{
+			"from": [2, 9.5, 2.125],
+			"to": [14, 11.5, 14.125],
+			"rotation": {"angle": 0, "axis": "y", "origin": [12, 5.5, 12.125]},
+			"faces": {
+				"north": {"uv": [10, 8, 13, 8.5], "texture": "#0"},
+				"east": {"uv": [10, 8.75, 13, 9.25], "texture": "#0"},
+				"south": {"uv": [10, 9.5, 13, 10], "texture": "#0"},
+				"west": {"uv": [0, 10.25, 3, 10.75], "texture": "#0"},
+				"up": {"uv": [3, 3, 0, 0], "texture": "#0"},
+				"down": {"uv": [3, 3.25, 0, 6.25], "texture": "#0"}
+			}
+		}
+	],
+	"gui_light": "front",
+	"display": {
+		"gui": {
+			"rotation": [0, 180, 0],
+			"translation": [0, -1.5, 0]
+		}
+	}
+}

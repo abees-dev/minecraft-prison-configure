@@ -1,0 +1,64 @@
+info:
+  namespace: wyrmsteel_set
+armors_rendering:
+  wyrmsteel_set:
+    color: '#fffff2'
+    layer_1: wyrmsteel_set/armor/wyrmsteel_armor_layer_1
+    layer_2: wyrmsteel_set/armor/wyrmsteel_armor_layer_2
+    use_color: true
+
+items:
+  wyrmsteel_helmet:
+    display_name: '&8》 &bWyrmsteel Helmet &8《'
+    permission: wyrmsteel_set
+    resource:
+      generate: true
+      textures:
+      - wyrmsteel_set/armor/wyrmsteel_helmet.png
+    durability:
+      max_custom_durability: 1000
+    specific_properties:
+      armor:
+        slot: head
+        custom_armor: wyrmsteel_set
+  wyrmsteel_chestplate:
+    display_name: '&8》 &bWyrmsteel Chestplate &8《'
+    permission: wyrmsteel_set
+    resource:
+      generate: true
+      textures:
+      - wyrmsteel_set/armor/wyrmsteel_chestplate.png
+    durability:
+      max_custom_durability: 1000
+    specific_properties:
+      armor:
+        slot: chest
+        custom_armor: wyrmsteel_set
+  wyrmsteel_leggings:
+    display_name: '&8》 &bWyrmsteel Leggings &8《'
+    permission: wyrmsteel_set
+    resource:
+      generate: true
+      textures:
+      - wyrmsteel_set/armor/wyrmsteel_leggings.png
+    durability:
+      max_custom_durability: 1000
+    specific_properties:
+      armor:
+        slot: legs
+        custom_armor: wyrmsteel_set
+  wyrmsteel_boots:
+    display_name: '&8》 &bWyrmsteel Boots &8《'
+    permission: wyrmsteel_set
+    resource:
+      generate: true
+      textures:
+      - wyrmsteel_set/armor/wyrmsteel_boots.png
+    durability:
+      max_custom_durability: 1000
+    specific_properties:
+      armor:
+        slot: feet
+        custom_armor: wyrmsteel_set
+
+#UFaXJ2YWNEZVlVaZZWbl50Ynd1U31keNJTUE90MFRUT4VkROFTd5QlQHh0VwZnU11ERqJlM

@@ -1,0 +1,21 @@
+info:
+  namespace: elitecreatures
+categories:
+  elite_crates:
+    enabled: true
+    icon: "elitecreatures:elite_crates_ice_chest"
+    name: "Elite Crates"
+    permission: "ia.menu.elite_crates"
+    items:
+      - "elitecreatures:elite_crates_ice_key"
+      - "elitecreatures:elite_crates_nature_key"
+      - "elitecreatures:elite_crates_valentine_key"
+      - "elitecreatures:elite_crates_wind_key"
+      - "elitecreatures:elite_crates_lava_key"
+      - "elitecreatures:elite_crates_ice_chest"
+      - "elitecreatures:elite_crates_nature_chest"
+      - "elitecreatures:elite_crates_valentine_chest"
+      - "elitecreatures:elite_crates_wind_chest"
+      - "elitecreatures:elite_crates_lava_chest"
+
+#MTdwZVU0kmYndjdERneZl2N4UEVxsGROVTW65kMJRlT4lFVSRTdqZGR0JXVnVVYLlHORV1M

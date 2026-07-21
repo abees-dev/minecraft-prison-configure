@@ -1,0 +1,37 @@
+info:
+  namespace: littledragonset
+categories:
+  littledragonset:
+    enabled: true
+    skip_if_already: false
+    icon: "littledragonset:littledragon_sword"
+    name: Littledragon Weapons & Tools Set
+    permission: littledragonset.menu
+    items:
+      - "littledragonset:littledragon_sword"
+      - "littledragonset:littledragon_greatsword"
+      - "littledragonset:littledragon_spear"
+      - "littledragonset:littledragon_trident"
+      - "littledragonset:littledragon_hammer"
+      - "littledragonset:littledragon_scythe"
+      - "littledragonset:littledragon_staff"
+      - "littledragonset:littledragon_bow"
+      - "littledragonset:littledragon_crossbow"
+      - "littledragonset:littledragon_axe"
+      - "littledragonset:littledragon_hoe"
+      - "littledragonset:littledragon_pickaxe"
+      - "littledragonset:littledragon_shovel"
+      - "littledragonset:littledragon_fishing_rod"
+      - "littledragonset:littledragon_shield"
+      - "littledragonset:littledragon_chest"
+      - "littledragonset:littledragon_chest_opening"
+      - "littledragonset:littledragon_key"
+      - "littledragonset:littledragonchestplate"
+      - "littledragonset:littledragonleggings"
+      - "littledragonset:littledragonboots"
+      - "littledragonset:littledragonhelmet"
+      - "littledragonset:littledragon"
+      - "littledragonset:littledragon_helmet"
+      - "littledragonset:littledragon_backpack"
+      - "littledragonset:littledragon_wings"
+      - "littledragonset:littledragon_flag"

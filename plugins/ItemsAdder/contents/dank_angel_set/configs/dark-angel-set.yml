@@ -1,0 +1,142 @@
+info:
+  namespace: dark-angel-set
+armors_rendering:
+  dark-angel-armor:
+    color: '#d60000'
+    layer_1: dark_angel_armor_1
+    layer_2: dark_angel_armor_2
+items:
+  dark-angel-axe:
+    display_name: Dark Angel axe
+    resource:
+      material: DIAMOND_AXE
+      generate: true
+      model_path: dark_angel_axe
+  dark-angel-hoe:
+    display_name: Dark Angel hoe
+    resource:
+      material: DIAMOND_HOE
+      generate: true
+      model_path: dark_angel_hoe
+  dark-angel-pickaxe:
+    display_name: Dark Angel pickaxe
+    resource:
+      material: DIAMOND_PICKAXE
+      generate: true
+      model_path: dark_angel_pickaxe
+  dark-angel-shovel:
+    display_name: Dark Angel shovel
+    resource:
+      material: DIAMOND_SHOVEL
+      generate: true
+      model_path: dark_angel_shovel
+  dark-angel-sword:
+    display_name: Dark Angel sword
+    resource:
+      material: DIAMOND_SWORD
+      generate: true
+      model_path: dark_angel_sword
+  dark_angel_helmet:
+    display_name: Dark Angel helmet
+    resource:
+      generate: true
+      textures:
+        - dark_angel_helmet
+    durability:
+      max_custom_durability: 275
+    specific_properties:
+      armor:
+        slot: head
+        custom_armor: dark-angel-armor
+    attribute_modifiers:
+      head:
+        armor: 9
+        armorToughness: 1
+  dark_angel_chestplate:
+    display_name: Dark Angel chestplate
+    resource:
+      generate: true
+      textures:
+        - dark_angel_chestplate
+    durability:
+      max_custom_durability: 400
+    specific_properties:
+      armor:
+        slot: chest
+        custom_armor: dark-angel-armor
+    attribute_modifiers:
+      chest:
+        armor: 7
+        armorToughness: 1
+  dark_angel_leggings:
+    display_name: Dark Angel leggings
+    resource:
+      generate: true
+      textures:
+        - dark_angel_leggings
+    durability:
+      max_custom_durability: 375
+    specific_properties:
+      armor:
+        slot: legs
+        custom_armor: dark-angel-armor
+    attribute_modifiers:
+      legs:
+        armor: 5
+        armorToughness: 1
+  dark_angel_boots:
+    display_name: Dark Angel boots
+    resource:
+      generate: true
+      textures:
+        - dark_angel_boots
+    durability:
+      max_custom_durability: 325
+    specific_properties:
+      armor:
+        slot: FEET
+        custom_armor: dark-angel-armor
+    attribute_modifiers:
+      feet:
+        armor: 3
+        armorToughness: 1
+  dark-angle-crate:
+    display_name: Dark Angel crate
+    resource:
+      material: PAPER
+      generate: true
+      model_path: dark_angel_crate
+    behaviours:
+      furniture:
+        entity: item_frame
+        small: true
+        solid: true
+        fixed_rotation: true
+        hitbox:
+          length: 1
+          width: 1
+          height: 1
+          width_offset: 0
+        placeable_on:
+          walls: true
+          ceiling: true
+          floor: true
+  dark-angel-halo:
+    display_name: Dark Angel halo
+    resource:
+      material: PAPER
+      generate: true
+      model_path: dark_angel_halo
+  dark-angel-pitchfork:
+    display_name: Dark Angel pitchfork
+    resource:
+      material: PAPER
+      generate: true
+      model_path: dark_angel_pitchfork
+  dark-angel-wings:
+    display_name: Dark Angel wings
+    resource:
+      material: PAPER
+      generate: true
+      model_path: dark_angel_wings
+#f411df77694644c0bd346d69ef86a197

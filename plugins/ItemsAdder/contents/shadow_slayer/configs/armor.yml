@@ -1,0 +1,55 @@
+armors_rendering:
+  shadow_slayerarmor:
+    color: '#2a9fcc'
+    layer_1: armor/armor_main
+    layer_2: armor/armor_leggings
+    use_color: false
+info:
+  namespace: shadow_slayer
+items:
+  shadow_slayerboots:
+    display_name: Shadow_slayer Boots
+    permission: shadow_slayer.boots
+    resource:
+      generate: true
+      textures:
+      - armor/boots.png
+    specific_properties:
+      armor:
+        custom_armor: shadow_slayerarmor
+        slot: feet
+  shadow_slayerchestplate:
+    display_name: Shadow_slayer Chestplate
+    permission: shadow_slayer.chestplate
+    resource:
+      generate: true
+      textures:
+      - armor/chestplate.png
+    specific_properties:
+      armor:
+        custom_armor: shadow_slayerarmor
+        slot: chest
+  shadow_slayerleggings:
+    display_name: Shadow_slayer Leggings
+    permission: shadow_slayer.leggings
+    resource:
+      generate: true
+      textures:
+      - armor/leggings.png
+    specific_properties:
+      armor:
+        custom_armor: shadow_slayerarmor
+        slot: legs
+  shadow_slayerhelmet:
+    display_name: Shadow_slayer Helmet
+    permission: shadow_slayer.Helmet
+    resource:
+      generate: true
+      textures:
+      - armor/helmet.png
+    specific_properties:
+      armor:
+        custom_armor: shadow_slayerarmor
+        slot: head
+
+#73b0cd70c274c7779817272e30fcb5c3

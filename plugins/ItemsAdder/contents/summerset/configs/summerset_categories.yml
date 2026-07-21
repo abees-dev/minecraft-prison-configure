@@ -1,0 +1,34 @@
+info:
+  namespace: summerset
+categories:
+  summerset:
+    enabled: true
+    skip_if_already: false
+    icon: "summerset:summer_sword"
+    name: Summer Weapons & Tools Set
+    permission: summerset.menu
+    items:
+      - "summerset:summer_sword"
+      - "summerset:summer_greatsword"
+      - "summerset:summer_spear"
+      - "summerset:summer_trident"
+      - "summerset:summer_hammer"
+      - "summerset:summer_scythe"
+      - "summerset:summer_staff"
+      - "summerset:summer_bow"
+      - "summerset:summer_crossbow"
+      - "summerset:summer_axe"
+      - "summerset:summer_hoe"
+      - "summerset:summer_pickaxe"
+      - "summerset:summer_shovel"
+      - "summerset:summer_fishing_rod"
+      - "summerset:summer_shield"
+      - "summerset:summer_chest"
+      - "summerset:summer_chest_opening"
+      - "summerset:summer_key"
+      - "summerset:summerchestplate"
+      - "summerset:summerleggings"
+      - "summerset:summerboots"
+      - "summerset:summerhelmet"
+      - "summerset:summer_helmet"
+      - "summerset:summer_wings"

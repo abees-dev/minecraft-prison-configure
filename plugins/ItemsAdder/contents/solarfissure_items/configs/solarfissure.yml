@@ -1,0 +1,54 @@
+info:
+  namespace: solarfissure_items
+items:
+  meteoricore_bow:
+    display_name: <#E7B563>Solar <#93593F>Fissure <#E7B563>Bow
+    permission: solarfissure_items.meteoricore_bow
+    resource:
+      material: BOW
+      generate: false
+      model_path: meteoricore_bow
+  meteoricore_sword:
+    display_name: <#E7B563>Solar <#93593F>Fissure <#E7B563>Sword
+    permission: solarfissure_items.meteoricore_sword
+    resource:
+      material: IRON_SWORD
+      generate: false
+      model_path: meteoricore_sword
+  meteoricore_axe:
+    display_name: <#E7B563>Solar <#93593F>Fissure <#E7B563>Axe
+    permission: solarfissure_items.meteoricore_axe
+    resource:
+      material: IRON_AXE
+      generate: false
+      model_path: meteoricore_axe
+  meteoricore_hoe:
+    display_name: <#E7B563>Solar <#93593F>Fissure <#E7B563>Hoe
+    permission: solarfissure_items.meteoricore_hoe
+    resource:
+      material: IRON_HOE
+      generate: false
+      model_path: meteoricore_hoe
+  meteoricore_pickaxe:
+    display_name: <#E7B563>Solar <#93593F>Fissure <#E7B563>Pickaxe
+    permission: solarfissure_items.meteoricore_pickaxe
+    resource:
+      material: IRON_PICKAXE
+      generate: false
+      model_path: meteoricore_pickaxe
+  meteoricore_shovel:
+    display_name: <#E7B563>Solar <#93593F>Fissure <#E7B563>Pickaxe
+    permission: solarfissure_items.meteoricore_pickaxe
+    resource:
+      material: IRON_SHOVEL
+      generate: false
+      model_path: meteoricore_shovel
+  meteoricore_fishing_rod:
+    display_name: <#E7B563>Solar <#93593F>Fissure Fishing <#E7B563>Rod
+    permission: solarfissure_items.meteoricore_fishing_rod
+    resource:
+      material: FISHING_ROD
+      generate: false
+      model_path: meteoricore_fishing_rod
+
+#smeRZXa0tUQwMUQqRWaQtWTZRUZxUFVNlXWE5UeZRlT6VUMZpGeBNVeNV1RoNmMuFmQF50N

@@ -1,0 +1,30 @@
+  
+info:
+  namespace: beatsset
+items:
+  beats_cosmeticscore_wings:
+    display_name: Beats Wing Cosmeticscore
+    permission: beats.wings_cosmeticscore
+    resource:
+      generate: false
+      material: POTION
+      model_path: wings_cosmeticscore
+      model_id: 2200001
+  beats_cosmeticscore_wings_self:
+    display_name: Beats Wing Cosmeticscore Self
+    permission: beats.wings_cosmeticscore_self
+    resource:
+      generate: false
+      material: POTION
+      model_path: wings_cosmeticscore_self
+      model_id: 2200002
+  beats_cosmeticscore_helmet:
+    display_name: Beats Helmet Cosmeticscore
+    permission: beats.helmet_cosmeticscore
+    resource:
+      generate: false
+      material: POTION
+      model_path: helmet
+      model_id: 2200003
+
+#E0dLNVeN9kVjt0b4dnemZ1TJJjU3lkeNFzZ61EejRUTw8GMT50ZkNXRY90MjFjWWVzTRFHO

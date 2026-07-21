@@ -1,0 +1,56 @@
+info:
+  namespace: durian_set
+items:
+  durian_axe:
+    display_name: Durian Axe
+    permission: durian_set.axe
+    resource:
+      generate: false
+      material: IRON_AXE
+      model_path: axe
+  durian_cape:
+    display_name: Durian Cape
+    permission: durian_set.cape
+    resource:
+      generate: false
+      material: PAPER
+      model_path: cape
+  durian_helmet:
+    behaviours:
+      hat: true
+    display_name: Durian Helmet
+    permission: durian_set.helmet
+    resource:
+      generate: false
+      material: PAPER
+      model_path: helmet
+  durian_hoe:
+    display_name: Durian Hoe
+    permission: durian_set.hoe
+    resource:
+      generate: false
+      material: IRON_HOE
+      model_path: hoe
+  durian_pickaxe:
+    display_name: Durian Pickaxe
+    permission: durian_set.pickaxe
+    resource:
+      generate: false
+      material: IRON_PICKAXE
+      model_path: pickaxe
+  durian_shovel:
+    display_name: Durian Shovel
+    permission: durian_set.shovel
+    resource:
+      generate: false
+      material: IRON_SHOVEL
+      model_path: shovel
+  durian_sword:
+    display_name: Durian Sword
+    permission: durian_set.sword
+    resource:
+      generate: false
+      material: IRON_SWORD
+      model_path: sword
+
+#MlYlhkRxFlN1RnZXRlcXF0crZUY3lkeNFzZ61EejRUTws2aXdVdMN1UNdGbRhGMoVjTadFO

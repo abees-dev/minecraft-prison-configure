@@ -1,0 +1,73 @@
+armors_rendering:
+  valentine2025armor:
+    color: '#ff3462'
+    layer_1: armor/valentine2025_armor_layer_1
+    layer_2: armor/valentine2025_armor_layer_2
+    use_color: false
+info:
+  namespace: valentine2025set
+items:
+  valentine2025helmet:
+    display_name: Valentine 2025 Helmet
+    permission: valentine2025set.helmet
+    resource:
+      generate: true
+      textures:
+      - armor/valentine2025_helmet_icon.png
+    specific_properties:
+      armor:
+        custom_armor: valentine2025armor
+        slot: head
+    durability:
+      max_custom_durability: 165
+    attribute_modifiers:
+      head:
+        armor: 2
+  valentine2025chestplate:
+    display_name: Valentine 2025 Chestplate
+    permission: valentine2025set.chestplate
+    resource:
+      generate: true
+      textures:
+      - armor/valentine2025_chestplate_icon.png
+    specific_properties:
+      armor:
+        custom_armor: valentine2025armor
+        slot: chest
+    durability:
+      max_custom_durability: 240
+    attribute_modifiers:
+      chest:
+        armor: 6
+  valentine2025leggings:
+    display_name: Valentine 2025 Leggings
+    permission: valentine2025set.leggings
+    resource:
+      generate: true
+      textures:
+      - armor/valentine2025_leggings_icon.png
+    specific_properties:
+      armor:
+        custom_armor: valentine2025armor
+        slot: legs
+    attribute_modifiers:
+      legs:
+        armor: 5
+  valentine2025boots:
+    display_name: Valentine 2025 Boots
+    permission: valentine2025set.boots
+    resource:
+      generate: true
+      textures:
+      - armor/valentine2025_boots_icon.png
+    specific_properties:
+      armor:
+        custom_armor: valentine2025armor
+        slot: feet
+    durability:
+      max_custom_durability: 165
+    attribute_modifiers:
+      feet:
+        armor: 2
+
+#340be9fa0a8daa6dbfba39328beb988d

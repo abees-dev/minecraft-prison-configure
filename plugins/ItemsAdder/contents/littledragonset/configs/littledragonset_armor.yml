@@ -1,0 +1,55 @@
+armors_rendering:
+  littledragonarmor:
+    color: '#ffcb44'
+    layer_1: armor/littledragon_armor_layer_1
+    layer_2: armor/littledragon_armor_layer_2
+    use_color: false
+info:
+  namespace: littledragonset
+items:
+  littledragonboots:
+    display_name: Little Dragon Boots
+    permission: littledragon.boots
+    resource:
+      generate: true
+      textures:
+      - armor/littledragon_boots_icon.png
+    specific_properties:
+      armor:
+        custom_armor: littledragonarmor
+        slot: feet
+  littledragonchestplate:
+    display_name: Little Dragon Chestplate
+    permission: littledragon.chestplate
+    resource:
+      generate: true
+      textures:
+      - armor/littledragon_chestplate_icon.png
+    specific_properties:
+      armor:
+        custom_armor: littledragonarmor
+        slot: chest
+  littledragonleggings:
+    display_name: Little Dragon Leggings
+    permission: littledragon.leggings
+    resource:
+      generate: true
+      textures:
+      - armor/littledragon_leggings_icon.png
+    specific_properties:
+      armor:
+        custom_armor: littledragonarmor
+        slot: legs
+  littledragonhelmet:
+    display_name: Little Dragon Helmet
+    permission: littledragon.helmet
+    resource:
+      generate: true
+      textures:
+      - armor/littledragon_helmet_icon.png
+    specific_properties:
+      armor:
+        custom_armor: littledragonarmor
+        slot: head
+
+#olShFFOMx0QyJ3bGNkUGljVNR1U31keNJTUE90MFRUT4VVVh9EaDtWUodDb0EjMtF1MuFnM

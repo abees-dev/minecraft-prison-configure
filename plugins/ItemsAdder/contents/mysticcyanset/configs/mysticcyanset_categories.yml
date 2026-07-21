@@ -1,0 +1,36 @@
+info:
+  namespace: mysticcyanset
+categories:
+  mysticcyanset:
+    enabled: true
+    skip_if_already: false
+    icon: "mysticcyanset:mysticcyan_sword"
+    name: Mystic Cyan Weapons & Tools Set
+    permission: mysticcyanset.menu
+    items:
+      - "mysticcyanset:mysticcyan_sword"
+      - "mysticcyanset:mysticcyan_greatsword"
+      - "mysticcyanset:mysticcyan_spear"
+      - "mysticcyanset:mysticcyan_trident"
+      - "mysticcyanset:mysticcyan_hammer"
+      - "mysticcyanset:mysticcyan_scythe"
+      - "mysticcyanset:mysticcyan_staff"
+      - "mysticcyanset:mysticcyan_bow"
+      - "mysticcyanset:mysticcyan_crossbow"
+      - "mysticcyanset:mysticcyan_axe"
+      - "mysticcyanset:mysticcyan_hoe"
+      - "mysticcyanset:mysticcyan_pickaxe"
+      - "mysticcyanset:mysticcyan_shovel"
+      - "mysticcyanset:mysticcyan_fishing_rod"
+      - "mysticcyanset:mysticcyan_shield"
+      - "mysticcyanset:mysticcyan_chest"
+      - "mysticcyanset:mysticcyan_chest_opening"
+      - "mysticcyanset:mysticcyan_key"
+      - "mysticcyanset:mysticcyanchestplate"
+      - "mysticcyanset:mysticcyanleggings"
+      - "mysticcyanset:mysticcyanboots"
+      - "mysticcyanset:mysticcyanhelmet"
+      - "mysticcyanset:mysticcyan_helmet"
+      - "mysticcyanset:mysticcyan_wings"
+      - "mysticcyanset:mysticcyan_backpack"
+    

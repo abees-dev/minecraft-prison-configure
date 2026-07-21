@@ -1,0 +1,106 @@
+info:
+  namespace: elitecreatures
+armors_rendering:
+  heavenly_emperor_animated:
+    color: '#fffffc'
+    layer_1: heavenly_emperor_animated/armor/heavenlyemperoranimated_armor_1
+    layer_2: heavenly_emperor_animated/armor/heavenlyemperoranimated_armor_2
+    use_color: false
+
+items:
+  heavenly_emperor_animated-hat:
+    display_name: DISPLAY
+    permission: heavenly_emperor_animated
+    attribute_modifiers:
+      chest:
+        armor: 3
+        armorToughness: 2
+    resource:
+      material: PAPER
+      model_path: heavenly_emperor_animated/armor/hat
+      # model_id: Define your ModelData
+      generate: false
+    behaviours:
+      hat: true
+  
+  heavenly_emperor_animated-helmet:
+    display_name: DISPLAY
+    permission: heavenly_emperor_animated
+    attribute_modifiers:
+      chest:
+        armor: 3
+        armorToughness: 2
+    resource:
+      generate: true
+      # model_path: heavenly_emperor_animated/armor/chestplate
+      # model_id: Define your ModelData
+      textures:
+      - heavenly_emperor_animated/armor/heavenlyemperoranimated_helmet
+    durability:
+      max_custom_durability: 1000
+    specific_properties:
+      armor:
+        slot: head
+        custom_armor: heavenly_emperor_animated
+  
+  
+  heavenly_emperor_animated-chestplate:
+    display_name: DISPLAY
+    permission: heavenly_emperor_animated
+    attribute_modifiers:
+      chest:
+        armor: 8
+        armorToughness: 2
+    resource:
+      generate: true
+      # model_path: heavenly_emperor_animated/armor/chestplate
+      # model_id: Define your ModelData
+      textures:
+      - heavenly_emperor_animated/armor/heavenlyemperoranimated_chestplate
+    durability:
+      max_custom_durability: 1000
+    specific_properties:
+      armor:
+        slot: chest
+        custom_armor: heavenly_emperor_animated
+  
+  heavenly_emperor_animated-leggings:
+    display_name: DISPLAY
+    permission: heavenly_emperor_animated
+    attribute_modifiers:
+      chest:
+        armor: 6
+        armorToughness: 2
+    resource:
+      generate: true
+      # model_path: heavenly_emperor_animated/armor/leggings
+      # model_id: Define your ModelData
+      textures:
+      - heavenly_emperor_animated/armor/heavenlyemperoranimated_leggings
+    durability:
+      max_custom_durability: 1000
+    specific_properties:
+      armor:
+        slot: legs
+        custom_armor: heavenly_emperor_animated
+  
+  heavenly_emperor_animated-boots:
+    display_name: DISPLAY
+    permission: heavenly_emperor_animated
+    attribute_modifiers:
+      chest:
+        armor: 3
+        armorToughness: 2
+    resource:
+      generate: true
+      # model_path: heavenly_emperor_animated/armor/boots
+      # model_id: Define your ModelData
+      textures:
+      - heavenly_emperor_animated/armor/heavenlyemperoranimated_boots
+    durability:
+      max_custom_durability: 1000
+    specific_properties:
+      armor:
+        slot: feet
+        custom_armor: heavenly_emperor_animated
+# w0cDJ3VkhFUhlFb6Vmc2tGe4UVV3llaOl3aq5UMNRUT5VlRXJnR1dUbDhDNDdDc1oFezoFN

@@ -1,0 +1,45 @@
+info:
+  namespace: plny_springset
+items:
+  plny_springset_cosmetics_helmet:
+    display_name: Spring Season Helmet Cosmetics
+    permission: plny_springset.plny_springset_cosmetics_helmet
+    resource:
+      generate: false
+      model_path: helmet
+      material: POTION
+      model_id: 9924917
+  plny_springset_cosmetics_wings:
+    display_name: Spring Season Wings Cosmetics
+    permission: plny_springset.plny_springset_cosmetics_wings
+    resource:
+      generate: false
+      model_path: wings_cosmetic
+      material: POTION
+      model_id: 9924918
+  plny_springset_cosmetics_wings_self:
+    display_name: Spring Season Wings Cosmetics Self
+    permission: plny_springset.plny_springset_cosmetics_wings_self
+    resource:
+      generate: false
+      model_path: wings_cosmetic_self
+      material: POTION
+      model_id: 9924919
+  plny_springset_cosmetics_wings_self_2:
+    display_name: Spring Season Wings Cosmetics Self 2
+    permission: plny_springset.plny_springset_cosmetics_wings_self_2
+    resource:
+      generate: false
+      model_path: wings_cosmetic_self_2
+      material: POTION
+      model_id: 9924920
+  plny_springset_cosmetics_wings_normal_2:
+    display_name: Spring Season Wings Cosmetics Normal 2
+    permission: plny_springset.plny_springset_cosmetics_wings_normal_2
+    resource:
+      generate: false
+      model_path: wings_cosmetic_normal_2
+      material: POTION
+      model_id: 9924921
+
+#8c1d39b242b407556cdcb09cf1a7599f
