@@ -1,0 +1,33 @@
+{
+  "name": "lao_cong",
+  "teleport-location": null,
+  "region": {
+    "min": {
+      "x": -1406.0,
+      "y": -58.0,
+      "z": -15.0,
+      "world": "world_prison"
+    },
+    "max": {
+      "x": -1348.0,
+      "y": -58.0,
+      "z": 43.0,
+      "world": "world_prison"
+    }
+  },
+  "blocks": {
+    "IRON_ORE": 40.0,
+    "LAPIS_ORE": 10.0,
+    "GOLD_ORE": 20.0,
+    "COAL_ORE": 30.0
+  },
+  "reset-type": "Instant",
+  "reset-percentage": 50.0,
+  "reset-time": 10,
+  "broadcast-reset": true,
+  "hologram-blocks-mined": null,
+  "hologram-blocks-left": null,
+  "hologram-timed-reset": null,
+  "world-guard-region": "lao_cong",
+  "effects": {}
+}

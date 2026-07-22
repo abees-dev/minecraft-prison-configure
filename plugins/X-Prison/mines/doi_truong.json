@@ -1,0 +1,33 @@
+{
+  "name": "doi_truong",
+  "teleport-location": null,
+  "region": {
+    "min": {
+      "x": -1876.0,
+      "y": -60.0,
+      "z": -358.0,
+      "world": "world_prison"
+    },
+    "max": {
+      "x": -1834.0,
+      "y": -60.0,
+      "z": -316.0,
+      "world": "world_prison"
+    }
+  },
+  "blocks": {
+    "IRON_ORE": 15.0,
+    "REDSTONE_ORE": 30.0,
+    "EMERALD_ORE": 25.0,
+    "DIAMOND_ORE": 30.0
+  },
+  "reset-type": "Instant",
+  "reset-percentage": 50.0,
+  "reset-time": 10,
+  "broadcast-reset": true,
+  "hologram-blocks-mined": null,
+  "hologram-blocks-left": null,
+  "hologram-timed-reset": null,
+  "world-guard-region": "doi_truong",
+  "effects": {}
+}

@@ -1,0 +1,32 @@
+{
+  "name": "ba_chu_nguc_tu",
+  "teleport-location": null,
+  "region": {
+    "min": {
+      "x": -2377.0,
+      "y": -57.0,
+      "z": -763.0,
+      "world": "world_prison"
+    },
+    "max": {
+      "x": -2315.0,
+      "y": -57.0,
+      "z": -701.0,
+      "world": "world_prison"
+    }
+  },
+  "blocks": {
+    "EMERALD_ORE": 35.0,
+    "DIAMOND_ORE": 30.0,
+    "ANCIENT_DEBRIS": 35.0
+  },
+  "reset-type": "Instant",
+  "reset-percentage": 50.0,
+  "reset-time": 10,
+  "broadcast-reset": true,
+  "hologram-blocks-mined": null,
+  "hologram-blocks-left": null,
+  "hologram-timed-reset": null,
+  "world-guard-region": "ba_chu_nguc_tu",
+  "effects": {}
+}

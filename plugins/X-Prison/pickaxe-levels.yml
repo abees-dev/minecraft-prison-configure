@@ -5,23 +5,34 @@
 levels:
   '1':
     # Pickaxe display name
-    display_name: '<gray>Level I Pickaxe'
+    display_name: '<gray>Level 1 Pickaxe'
     # Experience required to reach this level (legacy key 'blocks_required' is still accepted)
     exp_required: 0
-  '2':
-    # Pickaxe display name
-    display_name: '<green>Level II Pickaxe'
-    # Experience required to reach this level (legacy key 'blocks_required' is still accepted)
-    exp_required: 1000
-    # Commands executed when reaching this level
+  '10':
+    display_name: '<green>Level 10 Pickaxe'
     rewards:
-      - tokens give %player% 10000000
+      - tokens give %player% 5000
+  '25':
+    display_name: '<aqua>Level 25 Pickaxe'
+    rewards:
+      - tokens give %player% 25000
+      - gems give %player% 10
+  '50':
+    display_name: '<light_purple>Level 50 Pickaxe'
+    rewards:
+      - tokens give %player% 100000
+      - gems give %player% 50
+  '100':
+    display_name: '<gold><bold>Level 100 Pickaxe</bold></gold>'
+    rewards:
+      - tokens give %player% 500000
+      - gems give %player% 200
 # Optional formula-generated level curve. When 'formula' is set, levels 1..max-level are generated
 # from it (cumulative exp, variable: level) and the entries in 'levels' above only override
 # display_name / rewards / exp_required for those specific levels.
 levels-formula:
   # e.g. '1000 * (level - 1)^1.5'
-  formula: ''
+  formula: '500 * (level - 1)^1.6'
   max-level: 100
   # Display name used for generated levels (%level% is replaced with the level number)
   display-name: '<gray>Level %level% Pickaxe'

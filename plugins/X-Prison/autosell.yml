@@ -52,7 +52,25 @@ earnings-actionbar:
   reset-after-seconds: 3
 # GOLD_ORE: 250.0
 # Per region sell prices defined here
-per-region-sell-prices: {}
+per-region-sell-prices:
+  tan_binh:
+    world: world_prison
+  tu_nhan:
+    world: world_prison
+  lao_cong:
+    world: world_prison
+  tho_dao:
+    world: world_prison
+  doi_truong:
+    world: world_prison
+  pho_quan_nguc:
+    world: world_prison
+  quan_nguc:
+    world: world_prison
+  ba_chu_nguc_tu:
+    world: world_prison
+  vuot_nguc:
+    world: world_prison
 # Currency this module works with (eg. Money, Tokens, Gems)
 currency: money
 global-sell-prices:

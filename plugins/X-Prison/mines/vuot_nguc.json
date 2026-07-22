@@ -1,0 +1,32 @@
+{
+  "name": "vuot_nguc",
+  "teleport-location": null,
+  "region": {
+    "min": {
+      "x": -2152.0,
+      "y": -19.0,
+      "z": -1121.0,
+      "world": "world_prison"
+    },
+    "max": {
+      "x": -2100.0,
+      "y": -19.0,
+      "z": -1069.0,
+      "world": "world_prison"
+    }
+  },
+  "blocks": {
+    "EMERALD_ORE": 25.0,
+    "DIAMOND_ORE": 25.0,
+    "ANCIENT_DEBRIS": 50.0
+  },
+  "reset-type": "Instant",
+  "reset-percentage": 50.0,
+  "reset-time": 10,
+  "broadcast-reset": true,
+  "hologram-blocks-mined": null,
+  "hologram-blocks-left": null,
+  "hologram-timed-reset": null,
+  "world-guard-region": "vuot_nguc",
+  "effects": {}
+}

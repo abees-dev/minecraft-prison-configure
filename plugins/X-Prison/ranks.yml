@@ -31,10 +31,50 @@ rankup-sound:
 # Ranks settings
 Ranks:
   '1':
-    Prefix: <green><bold>A</bold></green>
+    Prefix: <white><bold>[Tân Binh]</bold></white>
     Cost: 0
     CMD:
-      - lp user %player% perm set essentials.warps.A
+      - lp user %player% parent set xprison_rank_1
+  '2':
+    Prefix: <gray><bold>[Tù Nhân]</bold></gray>
+    Cost: 50000
+    CMD:
+      - lp user %player% parent set xprison_rank_2
+  '3':
+    Prefix: <green><bold>[Lao Công]</bold></green>
+    Cost: 250000
+    CMD:
+      - lp user %player% parent set xprison_rank_3
+  '4':
+    Prefix: <dark_green><bold>[Thợ Đào]</bold></dark_green>
+    Cost: 1000000
+    CMD:
+      - lp user %player% parent set xprison_rank_4
+  '5':
+    Prefix: <aqua><bold>[Đội Trưởng]</bold></aqua>
+    Cost: 5000000
+    CMD:
+      - lp user %player% parent set xprison_rank_5
+  '6':
+    Prefix: <blue><bold>[Phó Quản Ngục]</bold></blue>
+    Cost: 20000000
+    CMD:
+      - lp user %player% parent set xprison_rank_6
+  '7':
+    Prefix: <light_purple><bold>[Quản Ngục]</bold></light_purple>
+    Cost: 100000000
+    CMD:
+      - lp user %player% parent set xprison_rank_7
+  '8':
+    Prefix: <gold><bold>[Bá Chủ Ngục Tù]</bold></gold>
+    Cost: 500000000
+    CMD:
+      - lp user %player% parent set xprison_rank_8
+  '9':
+    Prefix: <red><bold>[Vượt Ngục]</bold></red>
+    Cost: 2000000000
+    CMD:
+      - lp user %player% parent set xprison_rank_9
 
 # ---------------------------------------------------------------------------
 # Ranks GUI (opened with /ranks). Fully configurable.

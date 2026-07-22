@@ -3,10 +3,33 @@ messages:
  multi_reset: "<gradient:#FFD700:#FFAA00><bold>MULTIPLIER</bold> <dark_gray>»</dark_gray></gradient> <red>Your %currency% Multiplier was reset."
 # Rank Multipliers settings
 rank-multipliers:
-  #small: #Permission node / LuckPerms group
-    #tokens: 1.25 #Currency name + multiplier
-    #gems: 1.25
-    #money: 1.25
+  xprison_rank_1:
+    money: 1.0
+    tokens: 1.0
+  xprison_rank_2:
+    money: 1.05
+    tokens: 1.05
+  xprison_rank_3:
+    money: 1.1
+    tokens: 1.1
+  xprison_rank_4:
+    money: 1.15
+    tokens: 1.1
+  xprison_rank_5:
+    money: 1.2
+    tokens: 1.15
+  xprison_rank_6:
+    money: 1.3
+    tokens: 1.2
+  xprison_rank_7:
+    money: 1.4
+    tokens: 1.25
+  xprison_rank_8:
+    money: 1.5
+    tokens: 1.3
+  xprison_rank_9:
+    money: 1.6
+    tokens: 1.4
 # Should the plugins check for LuckPerms groups instead of Xprison permissions?
 use-luckperms-groups: true
 # Interval for refreshing online players rank mulipliers in seconds

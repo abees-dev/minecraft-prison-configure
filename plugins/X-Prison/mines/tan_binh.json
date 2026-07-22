@@ -1,0 +1,32 @@
+{
+  "name": "tan_binh",
+  "teleport-location": null,
+  "region": {
+    "min": {
+      "x": -91.0,
+      "y": -57.0,
+      "z": 92.0,
+      "world": "world_prison"
+    },
+    "max": {
+      "x": -31.0,
+      "y": -57.0,
+      "z": 152.0,
+      "world": "world_prison"
+    }
+  },
+  "blocks": {
+    "COBBLESTONE": 30.0,
+    "COAL_ORE": 10.0,
+    "STONE": 60.0
+  },
+  "reset-type": "Instant",
+  "reset-percentage": 50.0,
+  "reset-time": 10,
+  "broadcast-reset": true,
+  "hologram-blocks-mined": null,
+  "hologram-blocks-left": null,
+  "hologram-timed-reset": null,
+  "world-guard-region": "tan_binh",
+  "effects": {}
+}

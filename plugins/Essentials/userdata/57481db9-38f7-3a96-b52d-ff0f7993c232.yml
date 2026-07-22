@@ -11,7 +11,7 @@ powertoolsenabled: true
 accepting-pay: true
 baltop-exempt: false
 timestamps:
-  lastteleport: 1784735780087
+  lastteleport: 1784741998529
   lastheal: 0
   mute: 0
   jail: 0
@@ -23,11 +23,11 @@ last-account-name: ABeess
 lastlocation:
   world: 4de2ffa4-302f-4704-923e-3c97da6850a3
   world-name: world_prison
-  x: -458.9079428054211
-  y: -55.0
-  z: 46.04004835044213
-  yaw: -7.44102668762207
-  pitch: 11.542228698730469
+  x: -2345.4287959222956
+  y: -38.38299791035936
+  z: -710.4186641532768
+  yaw: 178.74630737304688
+  pitch: 23.078601837158203
 logoutlocation:
   world: 4de2ffa4-302f-4704-923e-3c97da6850a3
   world-name: world_prison

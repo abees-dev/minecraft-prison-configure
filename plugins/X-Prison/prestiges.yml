@@ -44,37 +44,40 @@ prestige-top-format:
 # Infinite prestiges settings
 unlimited_prestiges:
   # Should we enable infinite prestiges ?
-  enabled: false
+  enabled: true
   # Top limit of prestige
-  max_prestige: 1000000
-  # Initial cost of prestige
-  prestige_cost: 1000000
+  max_prestige: 100
+  # Initial cost of prestige (paid once you reach the last rank, Vượt Ngục)
+  prestige_cost: 3000000000
   # Increasing cost of prestige
   increase_cost:
     enabled: true
-    increase_cost_by: 1.25
+    increase_cost_by: 1.3
   # Prestige prefix
-  prefix: '<dark_green><bold>P%prestige%'
+  prefix: '<gradient:#2ecc71:#27ae60><bold>P%prestige%</bold></gradient>'
   # Rewarding players after each prestige
   rewards-per-prestige:
-    enabled: false
+    enabled: true
     # Commands to be exectured
     rewards:
-      - 'money give %player% 1'
+      - 'money give %player% 10000000'
+      - 'tokens give %player% 5000'
   # Rewarding players on different prestiges
   rewards:
     10:
-      - 'tokens give %player% 10'
-# Manual prestige settings
+      - 'gems give %player% 100'
+    25:
+      - 'gems give %player% 300'
+    50:
+      - 'gems give %player% 750'
+      - 'tokens give %player% 100000'
+    100:
+      - 'gems give %player% 2000'
+      - 'tokens give %player% 500000'
+# Manual prestige settings (unused while unlimited_prestiges.enabled: true)
 Prestige:
   '0':
     Prefix: <white><bold>P0</bold></white>
-  #'1':
-    #Prefix: <dark_green><bold>P1</bold></dark_green>
-    #Cost: 10000000
-    #CMD:
-      #- pmine forceexpand %player%
-      #- pmine forceupgrade %player% A
 
 # ---------------------------------------------------------------------------
 # Prestiges GUI (opened with /prestiges). Fully configurable.
