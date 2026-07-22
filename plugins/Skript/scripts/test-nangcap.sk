@@ -1,0 +1,76 @@
+import:
+	io.lumine.mythic.lib.api.item.NBTItem
+
+command /invscan2 <player>:
+	trigger:
+		set {_p} to arg-1
+		set {_slotnum} to 0
+		loop all items in {_p}'s inventory:
+			if loop-value is not air:
+				set {_realitem} to item in loop-value
+				set {_nbt} to try NBTItem.get({_realitem})
+				set {_id} to ""
+				if {_nbt} is set:
+					set {_id} to try {_nbt}.getString("MMOITEMS_ITEM_ID")
+				send "slot#%{_slotnum}%: %{_realitem}% | id=%{_id}%" to console
+			add 1 to {_slotnum}
+
+command /nangcapcuoctest2 <player>:
+	trigger:
+		set {_p} to arg-1
+		set {_item} to {_p}'s tool
+		if {_item} is air:
+			send "no item in hand" to console
+			stop trigger
+		set {_nbt} to try NBTItem.get({_item})
+		if {_nbt} is not set:
+			send "nbt read failed" to console
+			stop trigger
+		set {_curid} to try {_nbt}.getString("MMOITEMS_ITEM_ID")
+		if {_curid} is not set:
+			send "no curid" to console
+			stop trigger
+		if {_curid} is "":
+			send "empty curid" to console
+			stop trigger
+		if {pickaxe_next::%{_curid}%} is not set:
+			send "max tier, curid=%{_curid}%" to console
+			stop trigger
+
+		set {_nextid} to {pickaxe_next::%{_curid}%}
+		set {_stoneid} to {pickaxe_stoneid::%{_curid}%}
+		set {_stonecost} to {pickaxe_stonecost::%{_curid}%}
+		set {_moneycost} to {pickaxe_moneycost::%{_curid}%}
+		set {_successrate} to {pickaxe_success::%{_curid}%}
+		send "curid=%{_curid}% nextid=%{_nextid}% stoneid=%{_stoneid}% stonecost=%{_stonecost}% moneycost=%{_moneycost}% successrate=%{_successrate}%" to console
+
+		if {_p}'s balance < {_moneycost}:
+			send "not enough money" to console
+			stop trigger
+
+		set {_stonecount} to 0
+		loop all items in {_p}'s inventory:
+			if loop-value is not air:
+				set {_realitem} to item in loop-value
+				set {_checknbt} to try NBTItem.get({_realitem})
+				if {_checknbt} is set:
+					set {_checkid} to try {_checknbt}.getString("MMOITEMS_ITEM_ID")
+					if {_checkid} is {_stoneid}:
+						add (amount of {_realitem}) to {_stonecount}
+		send "stonecount=%{_stonecount}%" to console
+
+		if {_stonecount} < {_stonecost}:
+			send "not enough stones" to console
+			stop trigger
+
+		remove {_moneycost} from {_p}'s balance
+		make console execute command "mmoitems take MATERIAL %{_stoneid}% %{_p}'s name% %{_stonecost}%"
+
+		set {_roll} to a random integer between 1 and 100
+		send "roll=%{_roll}% vs successrate=%{_successrate}%" to console
+		if {_roll} <= {_successrate}:
+			make console execute command "mmoitems take TOOL %{_curid}% %{_p}'s name% 1"
+			make console execute command "mmoitems give TOOL %{_nextid}% %{_p}'s name% 1"
+			send "SUCCESS new balance=%{_p}'s balance%" to console
+		else:
+			send "FAIL new balance=%{_p}'s balance%" to console

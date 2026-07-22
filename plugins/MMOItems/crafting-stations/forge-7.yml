@@ -1,0 +1,50 @@
+
+# Name which will be displayed
+# when opening the station
+name: 'Lò Rèn Quản Ngục (#page#/#max#)'
+
+# The maximum amount of items in the crafting queue ie. the
+# max number of items players are able to craft simultaneously.
+# Must be between 1 and 64.
+max-queue-size: 10
+
+# The sound that plays whenever an action is
+# completed in the crafting station.
+sound: ENTITY_EXPERIENCE_ORB_PICKUP
+
+# This is how the gui looks. You can define your own
+# in crafting-stations/layouts by creating a new
+# file with the name of the file as the id.
+layout: default
+
+# Configure GUI items here
+items:
+    fill:
+        material: AIR
+    no-recipe:
+        material: GRAY_STAINED_GLASS_PANE
+        name: '&aNo Recipe'
+    no-queue-item:
+        material: GRAY_STAINED_GLASS_PANE
+        name: '&aNo Item in Queue'
+
+# Tram craft rieng cho rank Quản Ngục - chi chua recipe che nguyen lieu (nen + che da)
+# cua rank nay. Nang cap cuoc (co tien + ti le that bai) chuyen sang Skript
+# (xem plugins/Skript/scripts/pickaxe-upgrade.sk). Xem docs/prison-rpg-plan.md.
+recipes:
+    nen-doi-quan-nguc:
+        output:
+            type: MATERIAL
+            id: NEN_DOI_QUAN_NGUC
+            amount: 1
+        crafting-time: 0
+        ingredients:
+        - vanilla{type=LAPIS_BLOCK,amount=9,display="Lapis Block"}
+    che-da-quan-nguc:
+        output:
+            type: MATERIAL
+            id: DA_NANG_CAP_QUAN_NGUC
+            amount: 1
+        crafting-time: 0
+        ingredients:
+        - mmoitem{type=MATERIAL,id=NEN_DOI_QUAN_NGUC,amount=2,display="Nén Đôi Quản Ngục"}

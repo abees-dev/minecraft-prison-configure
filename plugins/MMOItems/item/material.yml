@@ -1,80 +1,228 @@
 DA_NANG_CAP_TAN_BINH:
   base:
-    material: AMETHYST_SHARD
+    material: COBBLESTONE
     name: '&d✦ Đá Nâng Cấp &f&lTân Binh'
     tier: TRASH
+    hide-enchants: true
+    enchants:
+      unbreaking: 1
     lore:
       - '&7 &d●&7 Chế từ Cobblestone đào ở mỏ Tân Binh'
       - '&7 &d●&7 Dùng để nâng cấp cuốc/giáp rank Tân Binh'
 
 DA_NANG_CAP_TU_NHAN:
   base:
-    material: AMETHYST_SHARD
+    material: COAL_BLOCK
     name: '&d✦ Đá Nâng Cấp &f&lTù Nhân'
     tier: TRASH
+    hide-enchants: true
+    enchants:
+      unbreaking: 1
     lore:
       - '&7 &d●&7 Chế từ Coal đào ở mỏ Tù Nhân'
       - '&7 &d●&7 Dùng để nâng cấp cuốc/giáp rank Tù Nhân'
 
 DA_NANG_CAP_LAO_CONG:
   base:
-    material: AMETHYST_SHARD
+    material: COPPER_BLOCK
     name: '&d✦ Đá Nâng Cấp &f&lLao Công'
     tier: TRASH
+    hide-enchants: true
+    enchants:
+      unbreaking: 1
     lore:
       - '&7 &d●&7 Chế từ Raw Copper đào ở mỏ Lao Công'
       - '&7 &d●&7 Dùng để nâng cấp cuốc/giáp rank Lao Công'
 
 DA_NANG_CAP_THO_DAO:
   base:
-    material: AMETHYST_SHARD
+    material: IRON_BLOCK
     name: '&d✦ Đá Nâng Cấp &f&lThợ Đào'
     tier: COMMON
+    hide-enchants: true
+    enchants:
+      unbreaking: 1
     lore:
       - '&7 &d●&7 Chế từ Raw Iron đào ở mỏ Thợ Đào'
       - '&7 &d●&7 Dùng để nâng cấp cuốc/giáp rank Thợ Đào'
 
 DA_NANG_CAP_DOI_TRUONG:
   base:
-    material: AMETHYST_SHARD
+    material: GOLD_BLOCK
     name: '&d✦ Đá Nâng Cấp &f&lĐội Trưởng'
     tier: COMMON
+    hide-enchants: true
+    enchants:
+      unbreaking: 1
     lore:
       - '&7 &d●&7 Chế từ Raw Gold đào ở mỏ Đội Trưởng'
       - '&7 &d●&7 Dùng để nâng cấp cuốc/giáp rank Đội Trưởng'
 
 DA_NANG_CAP_PHO_QUAN_NGUC:
   base:
-    material: AMETHYST_SHARD
+    material: REDSTONE_BLOCK
     name: '&d✦ Đá Nâng Cấp &f&lPhó Quản Ngục'
     tier: COMMON
+    hide-enchants: true
+    enchants:
+      unbreaking: 1
     lore:
       - '&7 &d●&7 Chế từ Redstone đào ở mỏ Phó Quản Ngục'
       - '&7 &d●&7 Dùng để nâng cấp cuốc/giáp rank Phó Quản Ngục'
 
 DA_NANG_CAP_QUAN_NGUC:
   base:
-    material: AMETHYST_SHARD
+    material: LAPIS_BLOCK
     name: '&d✦ Đá Nâng Cấp &f&lQuản Ngục'
     tier: UNCOMMON
+    hide-enchants: true
+    enchants:
+      unbreaking: 1
     lore:
       - '&7 &d●&7 Chế từ Lapis Lazuli đào ở mỏ Quản Ngục'
       - '&7 &d●&7 Dùng để nâng cấp cuốc/giáp rank Quản Ngục'
 
 DA_NANG_CAP_BA_CHU_NGUC_TU:
   base:
-    material: AMETHYST_SHARD
+    material: DIAMOND_BLOCK
     name: '&d✦ Đá Nâng Cấp &f&lBá Chủ Ngục Tù'
     tier: UNCOMMON
+    hide-enchants: true
+    enchants:
+      unbreaking: 1
     lore:
       - '&7 &d●&7 Chế từ Diamond đào ở mỏ Bá Chủ Ngục Tù'
       - '&7 &d●&7 Dùng để nâng cấp cuốc/giáp rank Bá Chủ Ngục Tù'
 
 DA_NANG_CAP_VUOT_NGUC:
   base:
-    material: AMETHYST_SHARD
+    material: EMERALD_BLOCK
     name: '&d✦ Đá Nâng Cấp &f&lVượt Ngục'
     tier: UNCOMMON
+    hide-enchants: true
+    enchants:
+      unbreaking: 1
     lore:
       - '&7 &d●&7 Chế từ Emerald đào ở mỏ Vượt Ngục'
       - '&7 &d●&7 Dùng để nâng cấp cuốc/giáp rank Vượt Ngục'
+
+NEN_DOI_TAN_BINH:
+  base:
+    material: COBBLESTONE
+    name: '&e◆ Nén Đôi &f&lTân Binh'
+    tier: TRASH
+    hide-enchants: true
+    enchants:
+      unbreaking: 1
+    lore:
+      - '&7 &e●&7 Nén từ 9 Cobblestone'
+      - '&7 &e●&7 Dùng để chế Đá Nâng Cấp Tân Binh'
+
+NEN_DOI_TU_NHAN:
+  base:
+    material: COAL_BLOCK
+    name: '&e◆ Nén Đôi &f&lTù Nhân'
+    tier: TRASH
+    hide-enchants: true
+    enchants:
+      unbreaking: 1
+    lore:
+      - '&7 &e●&7 Nén từ 9 Coal Block'
+      - '&7 &e●&7 Dùng để chế Đá Nâng Cấp Tù Nhân'
+
+NEN_DOI_LAO_CONG:
+  base:
+    material: COPPER_BLOCK
+    name: '&e◆ Nén Đôi &f&lLao Công'
+    tier: TRASH
+    hide-enchants: true
+    enchants:
+      unbreaking: 1
+    lore:
+      - '&7 &e●&7 Nén từ 9 Copper Block'
+      - '&7 &e●&7 Dùng để chế Đá Nâng Cấp Lao Công'
+
+NEN_DOI_THO_DAO:
+  base:
+    material: IRON_BLOCK
+    name: '&e◆ Nén Đôi &f&lThợ Đào'
+    tier: COMMON
+    hide-enchants: true
+    enchants:
+      unbreaking: 1
+    lore:
+      - '&7 &e●&7 Nén từ 9 Iron Block'
+      - '&7 &e●&7 Dùng để chế Đá Nâng Cấp Thợ Đào'
+
+NEN_DOI_DOI_TRUONG:
+  base:
+    material: GOLD_BLOCK
+    name: '&e◆ Nén Đôi &f&lĐội Trưởng'
+    tier: COMMON
+    hide-enchants: true
+    enchants:
+      unbreaking: 1
+    lore:
+      - '&7 &e●&7 Nén từ 9 Gold Block'
+      - '&7 &e●&7 Dùng để chế Đá Nâng Cấp Đội Trưởng'
+
+NEN_DOI_PHO_QUAN_NGUC:
+  base:
+    material: REDSTONE_BLOCK
+    name: '&e◆ Nén Đôi &f&lPhó Quản Ngục'
+    tier: COMMON
+    hide-enchants: true
+    enchants:
+      unbreaking: 1
+    lore:
+      - '&7 &e●&7 Nén từ 9 Redstone Block'
+      - '&7 &e●&7 Dùng để chế Đá Nâng Cấp Phó Quản Ngục'
+
+NEN_DOI_QUAN_NGUC:
+  base:
+    material: LAPIS_BLOCK
+    name: '&e◆ Nén Đôi &f&lQuản Ngục'
+    tier: UNCOMMON
+    hide-enchants: true
+    enchants:
+      unbreaking: 1
+    lore:
+      - '&7 &e●&7 Nén từ 9 Lapis Block'
+      - '&7 &e●&7 Dùng để chế Đá Nâng Cấp Quản Ngục'
+
+NEN_DOI_BA_CHU_NGUC_TU:
+  base:
+    material: DIAMOND_BLOCK
+    name: '&e◆ Nén Đôi &f&lBá Chủ Ngục Tù'
+    tier: UNCOMMON
+    hide-enchants: true
+    enchants:
+      unbreaking: 1
+    lore:
+      - '&7 &e●&7 Nén từ 9 Diamond Block'
+      - '&7 &e●&7 Dùng để chế Đá Nâng Cấp Bá Chủ Ngục Tù'
+
+NEN_DOI_VUOT_NGUC:
+  base:
+    material: EMERALD_BLOCK
+    name: '&e◆ Nén Đôi &f&lVượt Ngục'
+    tier: UNCOMMON
+    hide-enchants: true
+    enchants:
+      unbreaking: 1
+    lore:
+      - '&7 &e●&7 Nén từ 9 Emerald Block'
+      - '&7 &e●&7 Dùng để chế Nén Ba Vượt Ngục'
+
+NEN_BA_VUOT_NGUC:
+  base:
+    material: NETHERITE_BLOCK
+    name: '&4» Nén Ba &f&lVượt Ngục'
+    tier: UNIQUE
+    hide-enchants: true
+    enchants:
+      unbreaking: 1
+    lore:
+      - '&7 &4●&7 Nén từ 9 Nén Đôi Vượt Ngục (81 Emerald Block)'
+      - '&7 &4●&7 Dùng để chế Đá Nâng Cấp Vượt Ngục'
+      - '&7 &4●&7 Tầng nén cao nhất, chỉ có ở rank cuối'
