@@ -1,0 +1,57 @@
+# Pickaxe Levels settings
+#
+# Pickaxes level up by gaining experience. By default every broken block grants 1 exp,
+# tunable via 'exp-sources' (per gain source) and 'exp-per-block' (per block type) below.
+levels:
+  '1':
+    # Pickaxe display name
+    display_name: '<gray>Level I Pickaxe'
+    # Experience required to reach this level (legacy key 'blocks_required' is still accepted)
+    exp_required: 0
+  '2':
+    # Pickaxe display name
+    display_name: '<green>Level II Pickaxe'
+    # Experience required to reach this level (legacy key 'blocks_required' is still accepted)
+    exp_required: 1000
+    # Commands executed when reaching this level
+    rewards:
+      - tokens give %player% 10000000
+# Optional formula-generated level curve. When 'formula' is set, levels 1..max-level are generated
+# from it (cumulative exp, variable: level) and the entries in 'levels' above only override
+# display_name / rewards / exp_required for those specific levels.
+levels-formula:
+  # e.g. '1000 * (level - 1)^1.5'
+  formula: ''
+  max-level: 100
+  # Display name used for generated levels (%level% is replaced with the level number)
+  display-name: '<gray>Level %level% Pickaxe'
+# Multiplier applied to pickaxe exp per gain source (1 block = 1 exp before multipliers).
+# Note: area enchants additionally award the origin block's manual exp, matching how the
+# blocks-broken statistic has always counted it.
+exp-sources:
+  manual: 1.0
+  area-enchants: 1.0
+  autominer: 1.0
+  # Exp granted through the XPrison API by addons
+  api: 1.0
+# Exp awarded per broken block type. Supports vanilla materials and custom-block ids
+# (ItemsAdder 'namespace:id', Nexo 'nexo:id', Oraxen 'oraxen:id'). Unlisted blocks use 'default'.
+exp-per-block:
+  default: 1
+  # ANCIENT_DEBRIS: 10
+  # 'nexo:mythril_ore': 25
+# Progress bar delimiter
+progress-bar-delimiter: ":"
+# Length of progress bar
+progress-bar-length: 20
+# Display progress (level + exp) directly on player experience bar
+show-pickaxe-level-progress-on-exp-bar: true
+messages:
+  pickaxe-level-up: '<yellow><bold>PICKAXE <dark_gray>» <white>Your pickaxe just leveled up to <yellow>Level %level%'
+  pickaxe-progress: '<yellow><bold>PICKAXE <dark_gray>» <gray>Current progress: <yellow>%exp%<gray>/<yellow>%exp_required% XP'
+  no-permission: '<yellow><bold>PICKAXE <dark_gray>» <red>You do not have permission to use this command.'
+  admin-usage: '<yellow><bold>PICKAXE <dark_gray>» <gray>Usage: <yellow>/pickaxelevel set <player> <level>'
+  admin-set: '<yellow><bold>PICKAXE <dark_gray>» <white>Set <yellow>%player%''s <white>pickaxe to <yellow>Level %level%<white>.'
+  player-not-online: '<yellow><bold>PICKAXE <dark_gray>» <red>Player <yellow>%player% <red>is not online.'
+  invalid-level: '<yellow><bold>PICKAXE <dark_gray>» <red>There is no pickaxe level <yellow>%level%<red>.'
+  no-pickaxe-found: '<yellow><bold>PICKAXE <dark_gray>» <red>Player <yellow>%player% <red>has no pickaxe in their inventory.'

@@ -1,15 +1,15 @@
 PICKAXE_TAN_BINH_1:
   base:
     material: WOODEN_PICKAXE
-    name: '&fCuốc Tân Binh &e&lI'
+    name: "&fCuốc Tân Binh &e&lI"
     max-durability: 500
     tier: TRASH
     hide-enchants: true
     lore-format: tool-lore
     lore:
-      - '&b&l✦ Tiểu Sử'
-      - '&7 &b●&7 Cuốc khởi đầu của mọi tù nhân'
-      - '&7 &b●&7 Bền Bỉ 1 - càng nâng cấp càng khó vỡ'
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Cuốc khởi đầu của mọi tù nhân"
+      - "&7 &b●&7 Bền Bỉ 1 - càng nâng cấp càng khó vỡ"
     enchants:
       efficiency: 1.0
       fortune: 1.0
@@ -24,15 +24,15 @@ PICKAXE_TAN_BINH_1:
 PICKAXE_TAN_BINH_2:
   base:
     material: WOODEN_PICKAXE
-    name: '&fCuốc Tân Binh &e&lII'
+    name: "&fCuốc Tân Binh &e&lII"
     max-durability: 500
     tier: TRASH
     hide-enchants: true
     lore-format: tool-lore
     lore:
-      - '&b&l✦ Tiểu Sử'
-      - '&7 &b●&7 Cuốc khởi đầu của mọi tù nhân'
-      - '&7 &b●&7 Bền Bỉ 1 - càng nâng cấp càng khó vỡ'
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Cuốc khởi đầu của mọi tù nhân"
+      - "&7 &b●&7 Bền Bỉ 1 - càng nâng cấp càng khó vỡ"
     enchants:
       efficiency: 2.0
       fortune: 1.0
@@ -47,15 +47,15 @@ PICKAXE_TAN_BINH_2:
 PICKAXE_TAN_BINH_3:
   base:
     material: WOODEN_PICKAXE
-    name: '&fCuốc Tân Binh &e&lIII'
+    name: "&fCuốc Tân Binh &e&lIII"
     max-durability: 500
     tier: TRASH
     hide-enchants: true
     lore-format: tool-lore
     lore:
-      - '&b&l✦ Tiểu Sử'
-      - '&7 &b●&7 Cuốc khởi đầu của mọi tù nhân'
-      - '&7 &b●&7 Bền Bỉ 1 - càng nâng cấp càng khó vỡ'
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Cuốc khởi đầu của mọi tù nhân"
+      - "&7 &b●&7 Bền Bỉ 1 - càng nâng cấp càng khó vỡ"
     enchants:
       efficiency: 2.0
       fortune: 2.0
@@ -70,15 +70,15 @@ PICKAXE_TAN_BINH_3:
 PICKAXE_TAN_BINH_4:
   base:
     material: WOODEN_PICKAXE
-    name: '&fCuốc Tân Binh &e&lIV'
+    name: "&fCuốc Tân Binh &e&lIV"
     max-durability: 500
     tier: TRASH
     hide-enchants: true
     lore-format: tool-lore
     lore:
-      - '&b&l✦ Tiểu Sử'
-      - '&7 &b●&7 Cuốc khởi đầu của mọi tù nhân'
-      - '&7 &b●&7 Bền Bỉ 2 - càng nâng cấp càng khó vỡ'
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Cuốc khởi đầu của mọi tù nhân"
+      - "&7 &b●&7 Bền Bỉ 2 - càng nâng cấp càng khó vỡ"
     enchants:
       efficiency: 2.0
       fortune: 2.0
@@ -93,15 +93,15 @@ PICKAXE_TAN_BINH_4:
 PICKAXE_TAN_BINH_5:
   base:
     material: WOODEN_PICKAXE
-    name: '&fCuốc Tân Binh &e&lV'
+    name: "&fCuốc Tân Binh &e&lV"
     max-durability: 500
     tier: TRASH
     hide-enchants: true
     lore-format: tool-lore
     lore:
-      - '&b&l✦ Tiểu Sử'
-      - '&7 &b●&7 Cuốc khởi đầu của mọi tù nhân'
-      - '&7 &b●&7 Bền Bỉ 2 - càng nâng cấp càng khó vỡ'
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Cuốc khởi đầu của mọi tù nhân"
+      - "&7 &b●&7 Bền Bỉ 2 - càng nâng cấp càng khó vỡ"
     enchants:
       efficiency: 3.0
       fortune: 2.0
@@ -116,15 +116,15 @@ PICKAXE_TAN_BINH_5:
 PICKAXE_TU_NHAN_1:
   base:
     material: STONE_PICKAXE
-    name: '&aCuốc Tù Nhân &e&lI'
+    name: "&aCuốc Tù Nhân &e&lI"
     max-durability: 1000
     tier: COMMON
     hide-enchants: true
     lore-format: tool-lore
     lore:
-      - '&b&l✦ Tiểu Sử'
-      - '&7 &b●&7 Dành cho ai đã quen việc đào bới'
-      - '&7 &b●&7 Bền Bỉ 2 - càng nâng cấp càng khó vỡ'
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Dành cho ai đã quen việc đào bới"
+      - "&7 &b●&7 Bền Bỉ 2 - càng nâng cấp càng khó vỡ"
     enchants:
       efficiency: 3.0
       fortune: 3.0
@@ -139,15 +139,15 @@ PICKAXE_TU_NHAN_1:
 PICKAXE_TU_NHAN_2:
   base:
     material: STONE_PICKAXE
-    name: '&aCuốc Tù Nhân &e&lII'
+    name: "&aCuốc Tù Nhân &e&lII"
     max-durability: 1000
     tier: COMMON
     hide-enchants: true
     lore-format: tool-lore
     lore:
-      - '&b&l✦ Tiểu Sử'
-      - '&7 &b●&7 Dành cho ai đã quen việc đào bới'
-      - '&7 &b●&7 Bền Bỉ 3 - càng nâng cấp càng khó vỡ'
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Dành cho ai đã quen việc đào bới"
+      - "&7 &b●&7 Bền Bỉ 3 - càng nâng cấp càng khó vỡ"
     enchants:
       efficiency: 3.0
       fortune: 3.0
@@ -162,15 +162,15 @@ PICKAXE_TU_NHAN_2:
 PICKAXE_TU_NHAN_3:
   base:
     material: STONE_PICKAXE
-    name: '&aCuốc Tù Nhân &e&lIII'
+    name: "&aCuốc Tù Nhân &e&lIII"
     max-durability: 1000
     tier: COMMON
     hide-enchants: true
     lore-format: tool-lore
     lore:
-      - '&b&l✦ Tiểu Sử'
-      - '&7 &b●&7 Dành cho ai đã quen việc đào bới'
-      - '&7 &b●&7 Bền Bỉ 3 - càng nâng cấp càng khó vỡ'
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Dành cho ai đã quen việc đào bới"
+      - "&7 &b●&7 Bền Bỉ 3 - càng nâng cấp càng khó vỡ"
     enchants:
       efficiency: 4.0
       fortune: 3.0
@@ -185,15 +185,15 @@ PICKAXE_TU_NHAN_3:
 PICKAXE_TU_NHAN_4:
   base:
     material: STONE_PICKAXE
-    name: '&aCuốc Tù Nhân &e&lIV'
+    name: "&aCuốc Tù Nhân &e&lIV"
     max-durability: 1000
     tier: COMMON
     hide-enchants: true
     lore-format: tool-lore
     lore:
-      - '&b&l✦ Tiểu Sử'
-      - '&7 &b●&7 Dành cho ai đã quen việc đào bới'
-      - '&7 &b●&7 Bền Bỉ 3 - càng nâng cấp càng khó vỡ'
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Dành cho ai đã quen việc đào bới"
+      - "&7 &b●&7 Bền Bỉ 3 - càng nâng cấp càng khó vỡ"
     enchants:
       efficiency: 4.0
       fortune: 4.0
@@ -208,15 +208,15 @@ PICKAXE_TU_NHAN_4:
 PICKAXE_TU_NHAN_5:
   base:
     material: STONE_PICKAXE
-    name: '&aCuốc Tù Nhân &e&lV'
+    name: "&aCuốc Tù Nhân &e&lV"
     max-durability: 1000
     tier: COMMON
     hide-enchants: true
     lore-format: tool-lore
     lore:
-      - '&b&l✦ Tiểu Sử'
-      - '&7 &b●&7 Dành cho ai đã quen việc đào bới'
-      - '&7 &b●&7 Bền Bỉ 4 - càng nâng cấp càng khó vỡ'
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Dành cho ai đã quen việc đào bới"
+      - "&7 &b●&7 Bền Bỉ 4 - càng nâng cấp càng khó vỡ"
     enchants:
       efficiency: 4.0
       fortune: 4.0
@@ -231,15 +231,15 @@ PICKAXE_TU_NHAN_5:
 PICKAXE_LAO_CONG_1:
   base:
     material: IRON_PICKAXE
-    name: '&bCuốc Lao Công &e&lI'
+    name: "&bCuốc Lao Công &e&lI"
     max-durability: 2000
     tier: UNCOMMON
     hide-enchants: true
     lore-format: tool-lore
     lore:
-      - '&b&l✦ Tiểu Sử'
-      - '&7 &b●&7 Dấu ấn của người lao động chính thức'
-      - '&7 &b●&7 Bền Bỉ 4 - càng nâng cấp càng khó vỡ'
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Dấu ấn của người lao động chính thức"
+      - "&7 &b●&7 Bền Bỉ 4 - càng nâng cấp càng khó vỡ"
     enchants:
       efficiency: 5.0
       fortune: 4.0
@@ -254,15 +254,15 @@ PICKAXE_LAO_CONG_1:
 PICKAXE_LAO_CONG_2:
   base:
     material: IRON_PICKAXE
-    name: '&bCuốc Lao Công &e&lII'
+    name: "&bCuốc Lao Công &e&lII"
     max-durability: 2000
     tier: UNCOMMON
     hide-enchants: true
     lore-format: tool-lore
     lore:
-      - '&b&l✦ Tiểu Sử'
-      - '&7 &b●&7 Dấu ấn của người lao động chính thức'
-      - '&7 &b●&7 Bền Bỉ 4 - càng nâng cấp càng khó vỡ'
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Dấu ấn của người lao động chính thức"
+      - "&7 &b●&7 Bền Bỉ 4 - càng nâng cấp càng khó vỡ"
     enchants:
       efficiency: 5.0
       fortune: 5.0
@@ -277,15 +277,15 @@ PICKAXE_LAO_CONG_2:
 PICKAXE_LAO_CONG_3:
   base:
     material: IRON_PICKAXE
-    name: '&bCuốc Lao Công &e&lIII'
+    name: "&bCuốc Lao Công &e&lIII"
     max-durability: 2000
     tier: UNCOMMON
     hide-enchants: true
     lore-format: tool-lore
     lore:
-      - '&b&l✦ Tiểu Sử'
-      - '&7 &b●&7 Dấu ấn của người lao động chính thức'
-      - '&7 &b●&7 Bền Bỉ 5 - càng nâng cấp càng khó vỡ'
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Dấu ấn của người lao động chính thức"
+      - "&7 &b●&7 Bền Bỉ 5 - càng nâng cấp càng khó vỡ"
     enchants:
       efficiency: 5.0
       fortune: 5.0
@@ -300,15 +300,15 @@ PICKAXE_LAO_CONG_3:
 PICKAXE_LAO_CONG_4:
   base:
     material: IRON_PICKAXE
-    name: '&bCuốc Lao Công &e&lIV'
+    name: "&bCuốc Lao Công &e&lIV"
     max-durability: 2000
     tier: UNCOMMON
     hide-enchants: true
     lore-format: tool-lore
     lore:
-      - '&b&l✦ Tiểu Sử'
-      - '&7 &b●&7 Dấu ấn của người lao động chính thức'
-      - '&7 &b●&7 Bền Bỉ 5 - càng nâng cấp càng khó vỡ'
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Dấu ấn của người lao động chính thức"
+      - "&7 &b●&7 Bền Bỉ 5 - càng nâng cấp càng khó vỡ"
     enchants:
       efficiency: 6.0
       fortune: 5.0
@@ -323,15 +323,15 @@ PICKAXE_LAO_CONG_4:
 PICKAXE_LAO_CONG_5:
   base:
     material: IRON_PICKAXE
-    name: '&bCuốc Lao Công &e&lV'
+    name: "&bCuốc Lao Công &e&lV"
     max-durability: 2000
     tier: UNCOMMON
     hide-enchants: true
     lore-format: tool-lore
     lore:
-      - '&b&l✦ Tiểu Sử'
-      - '&7 &b●&7 Dấu ấn của người lao động chính thức'
-      - '&7 &b●&7 Bền Bỉ 5 - càng nâng cấp càng khó vỡ'
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Dấu ấn của người lao động chính thức"
+      - "&7 &b●&7 Bền Bỉ 5 - càng nâng cấp càng khó vỡ"
     enchants:
       efficiency: 6.0
       fortune: 6.0
@@ -346,15 +346,15 @@ PICKAXE_LAO_CONG_5:
 PICKAXE_THO_DAO_1:
   base:
     material: IRON_PICKAXE
-    name: '&eCuốc Thợ Đào &e&lI'
+    name: "&eCuốc Thợ Đào &e&lI"
     max-durability: 3000
     tier: RARE
     hide-enchants: true
     lore-format: tool-lore
     lore:
-      - '&b&l✦ Tiểu Sử'
-      - '&7 &b●&7 Đôi tay lành nghề, mạch quặng khó thoát'
-      - '&7 &b●&7 Bền Bỉ 6 - càng nâng cấp càng khó vỡ'
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Đôi tay lành nghề, mạch quặng khó thoát"
+      - "&7 &b●&7 Bền Bỉ 6 - càng nâng cấp càng khó vỡ"
     enchants:
       efficiency: 6.0
       fortune: 6.0
@@ -369,15 +369,15 @@ PICKAXE_THO_DAO_1:
 PICKAXE_THO_DAO_2:
   base:
     material: IRON_PICKAXE
-    name: '&eCuốc Thợ Đào &e&lII'
+    name: "&eCuốc Thợ Đào &e&lII"
     max-durability: 3000
     tier: RARE
     hide-enchants: true
     lore-format: tool-lore
     lore:
-      - '&b&l✦ Tiểu Sử'
-      - '&7 &b●&7 Đôi tay lành nghề, mạch quặng khó thoát'
-      - '&7 &b●&7 Bền Bỉ 6 - càng nâng cấp càng khó vỡ'
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Đôi tay lành nghề, mạch quặng khó thoát"
+      - "&7 &b●&7 Bền Bỉ 6 - càng nâng cấp càng khó vỡ"
     enchants:
       efficiency: 7.0
       fortune: 6.0
@@ -392,15 +392,15 @@ PICKAXE_THO_DAO_2:
 PICKAXE_THO_DAO_3:
   base:
     material: IRON_PICKAXE
-    name: '&eCuốc Thợ Đào &e&lIII'
+    name: "&eCuốc Thợ Đào &e&lIII"
     max-durability: 3000
     tier: RARE
     hide-enchants: true
     lore-format: tool-lore
     lore:
-      - '&b&l✦ Tiểu Sử'
-      - '&7 &b●&7 Đôi tay lành nghề, mạch quặng khó thoát'
-      - '&7 &b●&7 Bền Bỉ 6 - càng nâng cấp càng khó vỡ'
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Đôi tay lành nghề, mạch quặng khó thoát"
+      - "&7 &b●&7 Bền Bỉ 6 - càng nâng cấp càng khó vỡ"
     enchants:
       efficiency: 7.0
       fortune: 7.0
@@ -415,15 +415,15 @@ PICKAXE_THO_DAO_3:
 PICKAXE_THO_DAO_4:
   base:
     material: IRON_PICKAXE
-    name: '&eCuốc Thợ Đào &e&lIV'
+    name: "&eCuốc Thợ Đào &e&lIV"
     max-durability: 3000
     tier: RARE
     hide-enchants: true
     lore-format: tool-lore
     lore:
-      - '&b&l✦ Tiểu Sử'
-      - '&7 &b●&7 Đôi tay lành nghề, mạch quặng khó thoát'
-      - '&7 &b●&7 Bền Bỉ 7 - càng nâng cấp càng khó vỡ'
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Đôi tay lành nghề, mạch quặng khó thoát"
+      - "&7 &b●&7 Bền Bỉ 7 - càng nâng cấp càng khó vỡ"
     enchants:
       efficiency: 7.0
       fortune: 7.0
@@ -438,15 +438,15 @@ PICKAXE_THO_DAO_4:
 PICKAXE_THO_DAO_5:
   base:
     material: IRON_PICKAXE
-    name: '&eCuốc Thợ Đào &e&lV'
+    name: "&eCuốc Thợ Đào &e&lV"
     max-durability: 3000
     tier: RARE
     hide-enchants: true
     lore-format: tool-lore
     lore:
-      - '&b&l✦ Tiểu Sử'
-      - '&7 &b●&7 Đôi tay lành nghề, mạch quặng khó thoát'
-      - '&7 &b●&7 Bền Bỉ 7 - càng nâng cấp càng khó vỡ'
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Đôi tay lành nghề, mạch quặng khó thoát"
+      - "&7 &b●&7 Bền Bỉ 7 - càng nâng cấp càng khó vỡ"
     enchants:
       efficiency: 8.0
       fortune: 7.0
@@ -461,15 +461,15 @@ PICKAXE_THO_DAO_5:
 PICKAXE_DOI_TRUONG_1:
   base:
     material: DIAMOND_PICKAXE
-    name: '&6Cuốc Đội Trưởng &e&lI'
+    name: "&6Cuốc Đội Trưởng &e&lI"
     max-durability: 4500
     tier: VERY_RARE
     hide-enchants: true
     lore-format: tool-lore
     lore:
-      - '&b&l✦ Tiểu Sử'
-      - '&7 &b●&7 Dẫn dắt cả đội đào xuyên lòng đất'
-      - '&7 &b●&7 Bền Bỉ 7 - càng nâng cấp càng khó vỡ'
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Dẫn dắt cả đội đào xuyên lòng đất"
+      - "&7 &b●&7 Bền Bỉ 7 - càng nâng cấp càng khó vỡ"
     enchants:
       efficiency: 8.0
       fortune: 8.0
@@ -484,15 +484,15 @@ PICKAXE_DOI_TRUONG_1:
 PICKAXE_DOI_TRUONG_2:
   base:
     material: DIAMOND_PICKAXE
-    name: '&6Cuốc Đội Trưởng &e&lII'
+    name: "&6Cuốc Đội Trưởng &e&lII"
     max-durability: 4500
     tier: VERY_RARE
     hide-enchants: true
     lore-format: tool-lore
     lore:
-      - '&b&l✦ Tiểu Sử'
-      - '&7 &b●&7 Dẫn dắt cả đội đào xuyên lòng đất'
-      - '&7 &b●&7 Bền Bỉ 8 - càng nâng cấp càng khó vỡ'
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Dẫn dắt cả đội đào xuyên lòng đất"
+      - "&7 &b●&7 Bền Bỉ 8 - càng nâng cấp càng khó vỡ"
     enchants:
       efficiency: 8.0
       fortune: 8.0
@@ -507,15 +507,15 @@ PICKAXE_DOI_TRUONG_2:
 PICKAXE_DOI_TRUONG_3:
   base:
     material: DIAMOND_PICKAXE
-    name: '&6Cuốc Đội Trưởng &e&lIII'
+    name: "&6Cuốc Đội Trưởng &e&lIII"
     max-durability: 4500
     tier: VERY_RARE
     hide-enchants: true
     lore-format: tool-lore
     lore:
-      - '&b&l✦ Tiểu Sử'
-      - '&7 &b●&7 Dẫn dắt cả đội đào xuyên lòng đất'
-      - '&7 &b●&7 Bền Bỉ 8 - càng nâng cấp càng khó vỡ'
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Dẫn dắt cả đội đào xuyên lòng đất"
+      - "&7 &b●&7 Bền Bỉ 8 - càng nâng cấp càng khó vỡ"
     enchants:
       efficiency: 9.0
       fortune: 8.0
@@ -530,15 +530,15 @@ PICKAXE_DOI_TRUONG_3:
 PICKAXE_DOI_TRUONG_4:
   base:
     material: DIAMOND_PICKAXE
-    name: '&6Cuốc Đội Trưởng &e&lIV'
+    name: "&6Cuốc Đội Trưởng &e&lIV"
     max-durability: 4500
     tier: VERY_RARE
     hide-enchants: true
     lore-format: tool-lore
     lore:
-      - '&b&l✦ Tiểu Sử'
-      - '&7 &b●&7 Dẫn dắt cả đội đào xuyên lòng đất'
-      - '&7 &b●&7 Bền Bỉ 8 - càng nâng cấp càng khó vỡ'
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Dẫn dắt cả đội đào xuyên lòng đất"
+      - "&7 &b●&7 Bền Bỉ 8 - càng nâng cấp càng khó vỡ"
     enchants:
       efficiency: 9.0
       fortune: 9.0
@@ -553,15 +553,15 @@ PICKAXE_DOI_TRUONG_4:
 PICKAXE_DOI_TRUONG_5:
   base:
     material: DIAMOND_PICKAXE
-    name: '&6Cuốc Đội Trưởng &e&lV'
+    name: "&6Cuốc Đội Trưởng &e&lV"
     max-durability: 4500
     tier: VERY_RARE
     hide-enchants: true
     lore-format: tool-lore
     lore:
-      - '&b&l✦ Tiểu Sử'
-      - '&7 &b●&7 Dẫn dắt cả đội đào xuyên lòng đất'
-      - '&7 &b●&7 Bền Bỉ 9 - càng nâng cấp càng khó vỡ'
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Dẫn dắt cả đội đào xuyên lòng đất"
+      - "&7 &b●&7 Bền Bỉ 9 - càng nâng cấp càng khó vỡ"
     enchants:
       efficiency: 9.0
       fortune: 9.0
@@ -576,15 +576,15 @@ PICKAXE_DOI_TRUONG_5:
 PICKAXE_PHO_QUAN_NGUC_1:
   base:
     material: DIAMOND_PICKAXE
-    name: '&cCuốc Phó Quản Ngục &e&lI'
+    name: "&cCuốc Phó Quản Ngục &e&lI"
     max-durability: 6000
     tier: LEGENDARY
     hide-enchants: true
     lore-format: tool-lore
     lore:
-      - '&b&l✦ Tiểu Sử'
-      - '&7 &b●&7 Quyền lực đi kèm trách nhiệm'
-      - '&7 &b●&7 Bền Bỉ 9 - càng nâng cấp càng khó vỡ'
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Quyền lực đi kèm trách nhiệm"
+      - "&7 &b●&7 Bền Bỉ 9 - càng nâng cấp càng khó vỡ"
     enchants:
       efficiency: 10.0
       fortune: 9.0
@@ -599,15 +599,15 @@ PICKAXE_PHO_QUAN_NGUC_1:
 PICKAXE_PHO_QUAN_NGUC_2:
   base:
     material: DIAMOND_PICKAXE
-    name: '&cCuốc Phó Quản Ngục &e&lII'
+    name: "&cCuốc Phó Quản Ngục &e&lII"
     max-durability: 6000
     tier: LEGENDARY
     hide-enchants: true
     lore-format: tool-lore
     lore:
-      - '&b&l✦ Tiểu Sử'
-      - '&7 &b●&7 Quyền lực đi kèm trách nhiệm'
-      - '&7 &b●&7 Bền Bỉ 9 - càng nâng cấp càng khó vỡ'
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Quyền lực đi kèm trách nhiệm"
+      - "&7 &b●&7 Bền Bỉ 9 - càng nâng cấp càng khó vỡ"
     enchants:
       efficiency: 10.0
       fortune: 10.0
@@ -622,15 +622,15 @@ PICKAXE_PHO_QUAN_NGUC_2:
 PICKAXE_PHO_QUAN_NGUC_3:
   base:
     material: DIAMOND_PICKAXE
-    name: '&cCuốc Phó Quản Ngục &e&lIII'
+    name: "&cCuốc Phó Quản Ngục &e&lIII"
     max-durability: 6000
     tier: LEGENDARY
     hide-enchants: true
     lore-format: tool-lore
     lore:
-      - '&b&l✦ Tiểu Sử'
-      - '&7 &b●&7 Quyền lực đi kèm trách nhiệm'
-      - '&7 &b●&7 Bền Bỉ 10 - càng nâng cấp càng khó vỡ'
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Quyền lực đi kèm trách nhiệm"
+      - "&7 &b●&7 Bền Bỉ 10 - càng nâng cấp càng khó vỡ"
     enchants:
       efficiency: 10.0
       fortune: 10.0
@@ -645,15 +645,15 @@ PICKAXE_PHO_QUAN_NGUC_3:
 PICKAXE_PHO_QUAN_NGUC_4:
   base:
     material: DIAMOND_PICKAXE
-    name: '&cCuốc Phó Quản Ngục &e&lIV'
+    name: "&cCuốc Phó Quản Ngục &e&lIV"
     max-durability: 6000
     tier: LEGENDARY
     hide-enchants: true
     lore-format: tool-lore
     lore:
-      - '&b&l✦ Tiểu Sử'
-      - '&7 &b●&7 Quyền lực đi kèm trách nhiệm'
-      - '&7 &b●&7 Bền Bỉ 10 - càng nâng cấp càng khó vỡ'
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Quyền lực đi kèm trách nhiệm"
+      - "&7 &b●&7 Bền Bỉ 10 - càng nâng cấp càng khó vỡ"
     enchants:
       efficiency: 11.0
       fortune: 10.0
@@ -668,15 +668,15 @@ PICKAXE_PHO_QUAN_NGUC_4:
 PICKAXE_PHO_QUAN_NGUC_5:
   base:
     material: DIAMOND_PICKAXE
-    name: '&cCuốc Phó Quản Ngục &e&lV'
+    name: "&cCuốc Phó Quản Ngục &e&lV"
     max-durability: 6000
     tier: LEGENDARY
     hide-enchants: true
     lore-format: tool-lore
     lore:
-      - '&b&l✦ Tiểu Sử'
-      - '&7 &b●&7 Quyền lực đi kèm trách nhiệm'
-      - '&7 &b●&7 Bền Bỉ 10 - càng nâng cấp càng khó vỡ'
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Quyền lực đi kèm trách nhiệm"
+      - "&7 &b●&7 Bền Bỉ 10 - càng nâng cấp càng khó vỡ"
     enchants:
       efficiency: 11.0
       fortune: 11.0
@@ -691,15 +691,15 @@ PICKAXE_PHO_QUAN_NGUC_5:
 PICKAXE_QUAN_NGUC_1:
   base:
     material: NETHERITE_PICKAXE
-    name: '&dCuốc Quản Ngục &e&lI'
+    name: "&dCuốc Quản Ngục &e&lI"
     max-durability: 8000
     tier: MYTHICAL
     hide-enchants: true
     lore-format: tool-lore
     lore:
-      - '&b&l✦ Tiểu Sử'
-      - '&7 &b●&7 Cai quản toàn bộ khu mỏ'
-      - '&7 &b●&7 Bền Bỉ 11 - càng nâng cấp càng khó vỡ'
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Cai quản toàn bộ khu mỏ"
+      - "&7 &b●&7 Bền Bỉ 11 - càng nâng cấp càng khó vỡ"
     enchants:
       efficiency: 11.0
       fortune: 11.0
@@ -714,15 +714,15 @@ PICKAXE_QUAN_NGUC_1:
 PICKAXE_QUAN_NGUC_2:
   base:
     material: NETHERITE_PICKAXE
-    name: '&dCuốc Quản Ngục &e&lII'
+    name: "&dCuốc Quản Ngục &e&lII"
     max-durability: 8000
     tier: MYTHICAL
     hide-enchants: true
     lore-format: tool-lore
     lore:
-      - '&b&l✦ Tiểu Sử'
-      - '&7 &b●&7 Cai quản toàn bộ khu mỏ'
-      - '&7 &b●&7 Bền Bỉ 11 - càng nâng cấp càng khó vỡ'
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Cai quản toàn bộ khu mỏ"
+      - "&7 &b●&7 Bền Bỉ 11 - càng nâng cấp càng khó vỡ"
     enchants:
       efficiency: 12.0
       fortune: 11.0
@@ -737,15 +737,15 @@ PICKAXE_QUAN_NGUC_2:
 PICKAXE_QUAN_NGUC_3:
   base:
     material: NETHERITE_PICKAXE
-    name: '&dCuốc Quản Ngục &e&lIII'
+    name: "&dCuốc Quản Ngục &e&lIII"
     max-durability: 8000
     tier: MYTHICAL
     hide-enchants: true
     lore-format: tool-lore
     lore:
-      - '&b&l✦ Tiểu Sử'
-      - '&7 &b●&7 Cai quản toàn bộ khu mỏ'
-      - '&7 &b●&7 Bền Bỉ 11 - càng nâng cấp càng khó vỡ'
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Cai quản toàn bộ khu mỏ"
+      - "&7 &b●&7 Bền Bỉ 11 - càng nâng cấp càng khó vỡ"
     enchants:
       efficiency: 12.0
       fortune: 12.0
@@ -760,15 +760,15 @@ PICKAXE_QUAN_NGUC_3:
 PICKAXE_QUAN_NGUC_4:
   base:
     material: NETHERITE_PICKAXE
-    name: '&dCuốc Quản Ngục &e&lIV'
+    name: "&dCuốc Quản Ngục &e&lIV"
     max-durability: 8000
     tier: MYTHICAL
     hide-enchants: true
     lore-format: tool-lore
     lore:
-      - '&b&l✦ Tiểu Sử'
-      - '&7 &b●&7 Cai quản toàn bộ khu mỏ'
-      - '&7 &b●&7 Bền Bỉ 12 - càng nâng cấp càng khó vỡ'
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Cai quản toàn bộ khu mỏ"
+      - "&7 &b●&7 Bền Bỉ 12 - càng nâng cấp càng khó vỡ"
     enchants:
       efficiency: 12.0
       fortune: 12.0
@@ -783,15 +783,15 @@ PICKAXE_QUAN_NGUC_4:
 PICKAXE_QUAN_NGUC_5:
   base:
     material: NETHERITE_PICKAXE
-    name: '&dCuốc Quản Ngục &e&lV'
+    name: "&dCuốc Quản Ngục &e&lV"
     max-durability: 8000
     tier: MYTHICAL
     hide-enchants: true
     lore-format: tool-lore
     lore:
-      - '&b&l✦ Tiểu Sử'
-      - '&7 &b●&7 Cai quản toàn bộ khu mỏ'
-      - '&7 &b●&7 Bền Bỉ 12 - càng nâng cấp càng khó vỡ'
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Cai quản toàn bộ khu mỏ"
+      - "&7 &b●&7 Bền Bỉ 12 - càng nâng cấp càng khó vỡ"
     enchants:
       efficiency: 13.0
       fortune: 12.0
@@ -806,15 +806,15 @@ PICKAXE_QUAN_NGUC_5:
 PICKAXE_BA_CHU_NGUC_TU_1:
   base:
     material: NETHERITE_PICKAXE
-    name: '&5Cuốc Bá Chủ Ngục Tù &e&lI'
+    name: "&5Cuốc Bá Chủ Ngục Tù &e&lI"
     max-durability: 10000
     tier: EPIC
     hide-enchants: true
     lore-format: tool-lore
     lore:
-      - '&b&l✦ Tiểu Sử'
-      - '&7 &b●&7 Không ai dám trái lệnh'
-      - '&7 &b●&7 Bền Bỉ 12 - càng nâng cấp càng khó vỡ'
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Không ai dám trái lệnh"
+      - "&7 &b●&7 Bền Bỉ 12 - càng nâng cấp càng khó vỡ"
     enchants:
       efficiency: 13.0
       fortune: 13.0
@@ -830,15 +830,15 @@ PICKAXE_BA_CHU_NGUC_TU_1:
 PICKAXE_BA_CHU_NGUC_TU_2:
   base:
     material: NETHERITE_PICKAXE
-    name: '&5Cuốc Bá Chủ Ngục Tù &e&lII'
+    name: "&5Cuốc Bá Chủ Ngục Tù &e&lII"
     max-durability: 10000
     tier: EPIC
     hide-enchants: true
     lore-format: tool-lore
     lore:
-      - '&b&l✦ Tiểu Sử'
-      - '&7 &b●&7 Không ai dám trái lệnh'
-      - '&7 &b●&7 Bền Bỉ 13 - càng nâng cấp càng khó vỡ'
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Không ai dám trái lệnh"
+      - "&7 &b●&7 Bền Bỉ 13 - càng nâng cấp càng khó vỡ"
     enchants:
       efficiency: 13.0
       fortune: 13.0
@@ -854,15 +854,15 @@ PICKAXE_BA_CHU_NGUC_TU_2:
 PICKAXE_BA_CHU_NGUC_TU_3:
   base:
     material: NETHERITE_PICKAXE
-    name: '&5Cuốc Bá Chủ Ngục Tù &e&lIII'
+    name: "&5Cuốc Bá Chủ Ngục Tù &e&lIII"
     max-durability: 10000
     tier: EPIC
     hide-enchants: true
     lore-format: tool-lore
     lore:
-      - '&b&l✦ Tiểu Sử'
-      - '&7 &b●&7 Không ai dám trái lệnh'
-      - '&7 &b●&7 Bền Bỉ 13 - càng nâng cấp càng khó vỡ'
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Không ai dám trái lệnh"
+      - "&7 &b●&7 Bền Bỉ 13 - càng nâng cấp càng khó vỡ"
     enchants:
       efficiency: 14.0
       fortune: 13.0
@@ -878,15 +878,15 @@ PICKAXE_BA_CHU_NGUC_TU_3:
 PICKAXE_BA_CHU_NGUC_TU_4:
   base:
     material: NETHERITE_PICKAXE
-    name: '&5Cuốc Bá Chủ Ngục Tù &e&lIV'
+    name: "&5Cuốc Bá Chủ Ngục Tù &e&lIV"
     max-durability: 10000
     tier: EPIC
     hide-enchants: true
     lore-format: tool-lore
     lore:
-      - '&b&l✦ Tiểu Sử'
-      - '&7 &b●&7 Không ai dám trái lệnh'
-      - '&7 &b●&7 Bền Bỉ 13 - càng nâng cấp càng khó vỡ'
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Không ai dám trái lệnh"
+      - "&7 &b●&7 Bền Bỉ 13 - càng nâng cấp càng khó vỡ"
     enchants:
       efficiency: 14.0
       fortune: 14.0
@@ -902,15 +902,15 @@ PICKAXE_BA_CHU_NGUC_TU_4:
 PICKAXE_BA_CHU_NGUC_TU_5:
   base:
     material: NETHERITE_PICKAXE
-    name: '&5Cuốc Bá Chủ Ngục Tù &e&lV'
+    name: "&5Cuốc Bá Chủ Ngục Tù &e&lV"
     max-durability: 10000
     tier: EPIC
     hide-enchants: true
     lore-format: tool-lore
     lore:
-      - '&b&l✦ Tiểu Sử'
-      - '&7 &b●&7 Không ai dám trái lệnh'
-      - '&7 &b●&7 Bền Bỉ 14 - càng nâng cấp càng khó vỡ'
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Không ai dám trái lệnh"
+      - "&7 &b●&7 Bền Bỉ 14 - càng nâng cấp càng khó vỡ"
     enchants:
       efficiency: 14.0
       fortune: 14.0
@@ -926,15 +926,15 @@ PICKAXE_BA_CHU_NGUC_TU_5:
 PICKAXE_VUOT_NGUC_1:
   base:
     material: NETHERITE_PICKAXE
-    name: '&4Cuốc Vượt Ngục &e&lI'
+    name: "&4Cuốc Vượt Ngục &e&lI"
     max-durability: 15000
     tier: UNIQUE
     hide-enchants: true
     lore-format: tool-lore
     lore:
-      - '&b&l✦ Tiểu Sử'
-      - '&7 &b●&7 Bước cuối cùng trước ngưỡng cửa tự do'
-      - '&7 &b●&7 Bền Bỉ 14 - càng nâng cấp càng khó vỡ'
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Bước cuối cùng trước ngưỡng cửa tự do"
+      - "&7 &b●&7 Bền Bỉ 14 - càng nâng cấp càng khó vỡ"
     enchants:
       efficiency: 15.0
       fortune: 14.0
@@ -950,15 +950,15 @@ PICKAXE_VUOT_NGUC_1:
 PICKAXE_VUOT_NGUC_2:
   base:
     material: NETHERITE_PICKAXE
-    name: '&4Cuốc Vượt Ngục &e&lII'
+    name: "&4Cuốc Vượt Ngục &e&lII"
     max-durability: 15000
     tier: UNIQUE
     hide-enchants: true
     lore-format: tool-lore
     lore:
-      - '&b&l✦ Tiểu Sử'
-      - '&7 &b●&7 Bước cuối cùng trước ngưỡng cửa tự do'
-      - '&7 &b●&7 Bền Bỉ 14 - càng nâng cấp càng khó vỡ'
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Bước cuối cùng trước ngưỡng cửa tự do"
+      - "&7 &b●&7 Bền Bỉ 14 - càng nâng cấp càng khó vỡ"
     enchants:
       efficiency: 15.0
       fortune: 15.0
@@ -974,15 +974,15 @@ PICKAXE_VUOT_NGUC_2:
 PICKAXE_VUOT_NGUC_3:
   base:
     material: NETHERITE_PICKAXE
-    name: '&4Cuốc Vượt Ngục &e&lIII'
+    name: "&4Cuốc Vượt Ngục &e&lIII"
     max-durability: 15000
     tier: UNIQUE
     hide-enchants: true
     lore-format: tool-lore
     lore:
-      - '&b&l✦ Tiểu Sử'
-      - '&7 &b●&7 Bước cuối cùng trước ngưỡng cửa tự do'
-      - '&7 &b●&7 Bền Bỉ 15 - càng nâng cấp càng khó vỡ'
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Bước cuối cùng trước ngưỡng cửa tự do"
+      - "&7 &b●&7 Bền Bỉ 15 - càng nâng cấp càng khó vỡ"
     enchants:
       efficiency: 15.0
       fortune: 15.0
@@ -998,15 +998,15 @@ PICKAXE_VUOT_NGUC_3:
 PICKAXE_VUOT_NGUC_4:
   base:
     material: NETHERITE_PICKAXE
-    name: '&4Cuốc Vượt Ngục &e&lIV'
+    name: "&4Cuốc Vượt Ngục &e&lIV"
     max-durability: 15000
     tier: UNIQUE
     hide-enchants: true
     lore-format: tool-lore
     lore:
-      - '&b&l✦ Tiểu Sử'
-      - '&7 &b●&7 Bước cuối cùng trước ngưỡng cửa tự do'
-      - '&7 &b●&7 Bền Bỉ 15 - càng nâng cấp càng khó vỡ'
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Bước cuối cùng trước ngưỡng cửa tự do"
+      - "&7 &b●&7 Bền Bỉ 15 - càng nâng cấp càng khó vỡ"
     enchants:
       efficiency: 16.0
       fortune: 15.0
@@ -1022,15 +1022,15 @@ PICKAXE_VUOT_NGUC_4:
 PICKAXE_VUOT_NGUC_5:
   base:
     material: NETHERITE_PICKAXE
-    name: '&4Cuốc Vượt Ngục &e&lV'
+    name: "&4Cuốc Vượt Ngục &e&lV"
     max-durability: 15000
     tier: UNIQUE
     hide-enchants: true
     lore-format: tool-lore
     lore:
-      - '&b&l✦ Tiểu Sử'
-      - '&7 &b●&7 Bước cuối cùng trước ngưỡng cửa tự do'
-      - '&7 &b●&7 Bền Bỉ 15 - càng nâng cấp càng khó vỡ'
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Bước cuối cùng trước ngưỡng cửa tự do"
+      - "&7 &b●&7 Bền Bỉ 15 - càng nâng cấp càng khó vỡ"
     enchants:
       efficiency: 16.0
       fortune: 16.0
@@ -1042,4 +1042,16 @@ PICKAXE_VUOT_NGUC_5:
     custom-miningefficiency: 16.0
     custom-miningfortune: 16.0
     custom-miningunbreaking: 15.0
-
+PICKAXE_UPGTEST:
+  base:
+    material: WOODEN_PICKAXE
+    name: "&fUpgrade Test Pickaxe"
+    tier: TRASH
+    enchants:
+      efficiency: 1.0
+    upgrade:
+      workbench: true
+      template: test-enchant-template
+      max: 5
+      success: 100.0
+      destroy: false

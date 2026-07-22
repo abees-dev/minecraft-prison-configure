@@ -33,7 +33,7 @@ npc:
             cost: -1.0
             experienceCost: -1
       type: PLAYER
-    traitnames: location,spawned,scoreboardtrait,commandtrait,type,skintrait,owner,inventory
+    traitnames: location,inventory,type,scoreboardtrait,spawned,skintrait,owner,commandtrait
     navigator:
       speedmodifier: 1.0
       avoidwater: false

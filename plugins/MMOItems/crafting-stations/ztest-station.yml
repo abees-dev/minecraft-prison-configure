@@ -1,0 +1,20 @@
+name: 'Test Station (#page#/#max#)'
+max-queue-size: 10
+sound: ENTITY_EXPERIENCE_ORB_PICKUP
+layout: default
+items:
+    fill:
+        material: AIR
+    no-recipe:
+        material: GRAY_STAINED_GLASS_PANE
+        name: '&aNo Recipe'
+    no-queue-item:
+        material: GRAY_STAINED_GLASS_PANE
+        name: '&aNo Item in Queue'
+recipes:
+    upgtest-recipe:
+        item:
+            type: TOOL
+            id: PICKAXE_UPGTEST
+        ingredients:
+        - vanilla{type=COBBLESTONE,amount=1,display="Cobblestone"}
