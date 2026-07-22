@@ -1,3 +1,47 @@
+TEST_ARMOR_FULL_STATS:
+  base:
+    material: NETHERITE_CHESTPLATE
+    name: '&c&l🛡 Áo Giáp Thử Nghiệm &e&l[FULL STATS]'
+    tier: UNIQUE
+    lore-format: armor-lore
+    hide-enchants: true
+    lore:
+      - '&7Vật phẩm dùng để thử nghiệm toàn bộ chỉ số'
+      - '&7và giao diện hiển thị Lore của Giáp MMOItems.'
+    armor: 25.0
+    armor-toughness: 10.0
+    max-health: 50.0
+    defense: 15.0
+    damage-reduction: 10.0
+    fall-damage-reduction: 20.0
+    fire-damage-reduction: 15.0
+    magic-damage-reduction: 15.0
+    projectile-damage-reduction: 15.0
+    physical-damage-reduction: 15.0
+    pve-damage-reduction: 10.0
+    pvp-damage-reduction: 10.0
+    knockback-resistance: 30.0
+    block-power: 25.0
+    block-rating: 15.0
+    dodge-rating: 10.0
+    parry-rating: 10.0
+    health-regeneration: 5.0
+    max-mana: 100.0
+    mana-regeneration: 10.0
+    max-stamina: 50.0
+    stamina-regeneration: 5.0
+    movement-speed: 0.05
+    cooldown-reduction: 10.0
+    additional-dexterity: 15.0
+    additional-strength: 20.0
+    additional-intelligence: 15.0
+    gem-sockets:
+      - UNCOLORED
+      - UNCOLORED
+    max-durability: 1000
+    will-break: false
+    unbreakable: false
+
 HELMET_TAN_BINH_1:
   base:
     material: LEATHER_HELMET

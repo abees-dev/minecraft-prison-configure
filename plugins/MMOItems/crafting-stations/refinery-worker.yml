@@ -1,0 +1,56 @@
+name: 'Trạm Tinh Luyện Lao Công (#page#/#max#)'
+max-queue-size: 10
+sound: ENTITY_EXPERIENCE_ORB_PICKUP
+layout: default
+
+items:
+    fill:
+        material: AIR
+    no-recipe:
+        material: GRAY_STAINED_GLASS_PANE
+        name: '&aNo Recipe'
+    no-queue-item:
+        material: GRAY_STAINED_GLASS_PANE
+        name: '&aNo Item in Queue'
+
+recipes:
+    nen-iron-lao-cong:
+        output:
+            type: MATERIAL
+            id: NEN_DOI_LAO_CONG
+            amount: 1
+        crafting-time: 0
+        ingredients:
+        - vanilla{type=IRON_BLOCK,amount=6,display="Iron Block"}
+    nen-coal-lao-cong:
+        output:
+            type: MATERIAL
+            id: NEN_DOI_LAO_CONG
+            amount: 1
+        crafting-time: 0
+        ingredients:
+        - vanilla{type=COAL_BLOCK,amount=8,display="Coal Block"}
+    nen-gold-lao-cong:
+        output:
+            type: MATERIAL
+            id: NEN_DOI_LAO_CONG
+            amount: 1
+        crafting-time: 0
+        ingredients:
+        - vanilla{type=GOLD_BLOCK,amount=6,display="Gold Block"}
+    nen-lapis-lao-cong:
+        output:
+            type: MATERIAL
+            id: NEN_DOI_LAO_CONG
+            amount: 1
+        crafting-time: 0
+        ingredients:
+        - vanilla{type=LAPIS_BLOCK,amount=6,display="Lapis Block"}
+    che-da-lao-cong:
+        output:
+            type: MATERIAL
+            id: DA_NANG_CAP_LAO_CONG
+            amount: 1
+        crafting-time: 0
+        ingredients:
+        - mmoitem{type=MATERIAL,id=NEN_DOI_LAO_CONG,amount=4,display="Quặng Tinh Luyện Lao Công"}

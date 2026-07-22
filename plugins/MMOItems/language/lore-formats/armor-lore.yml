@@ -1,13 +1,75 @@
-# Lore format riêng cho giáp Prison (lore-only, gọn gàng).
+# Lore format riêng cho giáp (có khoảng trắng break line động & tiêu đề động).
 # Gán vào item bằng: lore-format: armor-lore
 lore-format:
-  - '{bar}&8&m----------------------------'
-  - '&b&l◆ Chỉ Số'
-  - '#armor#'
-  - '#max-health#'
-  - '#armor-toughness#'
+  # ==================== Yêu Cầu & Khóa Hồn ====================
+  - '{bar}'
+  - "#required-class#"
+  - "#required-level#"
+  - "#required-dexterity#"
+  - "#required-strength#"
+  - "#required-intelligence#"
+  - "#soulbound#"
+
+  # ==================== Chỉ Số Phòng Thủ & Giáp ====================
+  - '{bar}&f'
+  - '{bar}&8&m-----------&r &b&l🛡 CHỈ SỐ GIÁP &8&m-----------'
+  - "#armor#"
+  - "#armor-toughness#"
+  - "#max-health#"
+  - "#defense#"
+  - "#damage-reduction#"
+  - "#fall-damage-reduction#"
+  - "#fire-damage-reduction#"
+  - "#magic-damage-reduction#"
+  - "#projectile-damage-reduction#"
+  - "#physical-damage-reduction#"
+  - "#pve-damage-reduction#"
+  - "#pvp-damage-reduction#"
+  - "#knockback-resistance#"
+  - "#block-power#"
+  - "#block-rating#"
+  - "#dodge-rating#"
+  - "#parry-rating#"
+  - "#block-cooldown-reduction#"
+  - "#dodge-cooldown-reduction#"
+  - "#parry-cooldown-reduction#"
+
+  # ==================== Hồi Phục & Thuộc Tính RPG ====================
+  - '{bar}&f'
+  - '{bar}&8&m-------&r &e&l✨ THUỘC TÍNH & HỒI PHỤC &8&m-------'
+  - "#health-regeneration#"
+  - "#max-mana#"
+  - "#mana-regeneration#"
+  - "#max-stamina#"
+  - "#stamina-regeneration#"
+  - "#movement-speed#"
+  - "#cooldown-reduction#"
+  - "#additional-dexterity#"
+  - "#additional-strength#"
+  - "#additional-intelligence#"
+
+  # ==================== Phù Phép & Nguyên Tố ====================
+  - '{bar}&f'
+  - '{bar}'
+  - '#elements#'
+  - '#effects#'
+
+  # ==================== Kỹ Năng ====================
+  - '{bar}&f'
+  - '{bar}&8&m-------&r &a&l⚡ KỸ NĂNG ĐẶC BIỆT &8&m-------'
+  - '#abilities#'
+
+  # ==================== Đá Quý ====================
+  - '{bar}&f'
+  - '{bar}&8&m-------&r &d&l🔮 Ô KHẢM ĐÁ QUÝ &8&m-------'
+  - '#gem-stones#'
+  - '#gem-stone-lore#'
+
+  # ==================== Mô Tả & Thông Tin Vật Phẩm ====================
+  - '{bar}&f'
   - '{bar}'
   - '#lore#'
-  - '{bar}&8&m----------------------------'
+  - '{sbar}&8&m---------------------------------'
   - '#tier#'
   - '#durability#'
+  - '#item-type#'

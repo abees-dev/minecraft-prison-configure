@@ -1,0 +1,48 @@
+name: 'Trạm Tinh Luyện Tân Binh (#page#/#max#)'
+max-queue-size: 10
+sound: ENTITY_EXPERIENCE_ORB_PICKUP
+layout: default
+
+items:
+    fill:
+        material: AIR
+    no-recipe:
+        material: GRAY_STAINED_GLASS_PANE
+        name: '&aNo Recipe'
+    no-queue-item:
+        material: GRAY_STAINED_GLASS_PANE
+        name: '&aNo Item in Queue'
+
+recipes:
+    nen-stone-tan-binh:
+        output:
+            type: MATERIAL
+            id: NEN_DOI_TAN_BINH
+            amount: 1
+        crafting-time: 0
+        ingredients:
+        - vanilla{type=SMOOTH_STONE,amount=4,display="Smooth Stone"}
+    nen-cobble-tan-binh:
+        output:
+            type: MATERIAL
+            id: NEN_DOI_TAN_BINH
+            amount: 1
+        crafting-time: 0
+        ingredients:
+        - vanilla{type=COBBLESTONE,amount=16,display="Cobblestone"}
+    nen-coal-tan-binh:
+        output:
+            type: MATERIAL
+            id: NEN_DOI_TAN_BINH
+            amount: 1
+        crafting-time: 0
+        ingredients:
+        - vanilla{type=COAL_BLOCK,amount=4,display="Coal Block"}
+    che-da-tan-binh:
+        output:
+            type: MATERIAL
+            id: DA_NANG_CAP_TAN_BINH
+            amount: 1
+        crafting-time: 0
+        ingredients:
+        - mmoitem{type=MATERIAL,id=NEN_DOI_TAN_BINH,amount=2,display="Quặng Tinh Luyện Tân Binh"}

@@ -22,3 +22,114 @@ armor-template-example:
 test-enchant-template:
   enchants:
     - 'EFFICIENCY +1'
+
+# Template nâng cấp Vanilla Enchantment mẫu
+vanilla-enchant-upgrade:
+  enchants:
+    - 'EFFICIENCY +1'     # Tăng cấp Eficiency (Hiệu Suất) +1 mỗi cấp
+    - 'FORTUNE +1'        # Tăng cấp Fortune (Gia Tăng) +1 mỗi cấp
+    - 'UNBREAKING +1'     # Tăng cấp Unbreaking (Bền Bỉ) +1 mỗi cấp
+    - 'SHARPNESS +1'      # Tăng cấp Sharpness (Sắc Bén) +1 mỗi cấp
+    - 'PROTECTION +1'     # Tăng cấp Protection (Bảo Vệ) +1 mỗi cấp
+
+# Template nâng cấp chỉ số & enchant cho Cuốc Tân Binh
+pickaxe-tan-binh-template:
+  pickaxe-power: 1
+  custom-miningefficiency: 0.5
+  custom-miningfortune: 0.25
+  custom-miningunbreaking: 0.25
+  enchants:
+    - 'EFFICIENCY +0.5'
+    - 'FORTUNE +0.25'
+    - 'UNBREAKING +0.25'
+
+# Template nâng cấp cho Cuốc Tù Nhân
+pickaxe-tu-nhan-template:
+  pickaxe-power: 1
+  custom-miningefficiency: 0.25
+  custom-miningfortune: 0.25
+  custom-miningunbreaking: 0.5
+  enchants:
+    - 'EFFICIENCY +0.25'
+    - 'FORTUNE +0.25'
+    - 'UNBREAKING +0.5'
+
+# Template nâng cấp cho Cuốc Lao Công
+pickaxe-lao-cong-template:
+  pickaxe-power: 1
+  custom-miningefficiency: 0.25
+  custom-miningfortune: 0.5
+  custom-miningunbreaking: 0.25
+  enchants:
+    - 'EFFICIENCY +0.25'
+    - 'FORTUNE +0.5'
+    - 'UNBREAKING +0.25'
+
+# Template nâng cấp cho Cuốc Thợ Đào
+pickaxe-tho-dao-template:
+  pickaxe-power: 1
+  custom-miningefficiency: 0.5
+  custom-miningfortune: 0.25
+  custom-miningunbreaking: 0.25
+  enchants:
+    - 'EFFICIENCY +0.5'
+    - 'FORTUNE +0.25'
+    - 'UNBREAKING +0.25'
+
+# Template nâng cấp cho Cuốc Đội Trưởng
+pickaxe-doi-truong-template:
+  pickaxe-power: 1
+  custom-miningefficiency: 0.25
+  custom-miningfortune: 0.25
+  custom-miningunbreaking: 0.5
+  enchants:
+    - 'EFFICIENCY +0.25'
+    - 'FORTUNE +0.25'
+    - 'UNBREAKING +0.5'
+
+# Template nâng cấp cho Cuốc Phó Quản Ngục
+pickaxe-pho-quan-nguc-template:
+  pickaxe-power: 1
+  custom-miningefficiency: 0.25
+  custom-miningfortune: 0.5
+  custom-miningunbreaking: 0.25
+  enchants:
+    - 'EFFICIENCY +0.25'
+    - 'FORTUNE +0.5'
+    - 'UNBREAKING +0.25'
+
+# Template nâng cấp cho Cuốc Quản Ngục
+pickaxe-quan-nguc-template:
+  pickaxe-power: 1
+  custom-miningefficiency: 0.5
+  custom-miningfortune: 0.25
+  custom-miningunbreaking: 0.25
+  enchants:
+    - 'EFFICIENCY +0.5'
+    - 'FORTUNE +0.25'
+    - 'UNBREAKING +0.25'
+
+# Template nâng cấp cho Cuốc Bá Chủ Ngục Tù
+pickaxe-ba-chu-nguc-tu-template:
+  pickaxe-power: 1
+  custom-miningefficiency: 0.25
+  custom-miningfortune: 0.25
+  custom-miningunbreaking: 0.5
+  enchants:
+    - 'EFFICIENCY +0.25'
+    - 'FORTUNE +0.25'
+    - 'UNBREAKING +0.5'
+
+# Template nâng cấp cho Cuốc Vượt Ngục
+pickaxe-vuot-nguc-template:
+  pickaxe-power: 1
+  custom-miningefficiency: 0.25
+  custom-miningfortune: 0.5
+  custom-miningunbreaking: 0.25
+  enchants:
+    - 'EFFICIENCY +0.25'
+    - 'FORTUNE +0.5'
+    - 'UNBREAKING +0.25'
+
+
+

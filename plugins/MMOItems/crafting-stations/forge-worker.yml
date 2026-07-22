@@ -1,0 +1,68 @@
+name: 'Lò Rèn Lao Công (#page#/#max#)'
+max-queue-size: 10
+sound: ENTITY_EXPERIENCE_ORB_PICKUP
+layout: default
+
+items:
+    fill:
+        material: AIR
+    no-recipe:
+        material: GRAY_STAINED_GLASS_PANE
+        name: '&aNo Recipe'
+    no-queue-item:
+        material: GRAY_STAINED_GLASS_PANE
+        name: '&aNo Item in Queue'
+
+recipes:
+    cuoc-lao-cong-2:
+        output:
+            type: TOOL
+            id: PICKAXE_LAO_CONG_2
+            amount: 1
+        enchantments: MAXIMUM
+        crafting-time: 0
+        options:
+            success-rate: 75
+        ingredients:
+        - mmoitem{type=TOOL,id=PICKAXE_LAO_CONG_1,amount=1,display="Cuốc Lao Công I"}
+        - mmoitem{type=MATERIAL,id=DA_NANG_CAP_LAO_CONG,amount=4,display="Cường Hóa Thạch Lao Công"}
+        - mmoitem{type=MATERIAL,id=NEN_DOI_LAO_CONG,amount=4,display="Quặng Tinh Luyện Lao Công"}
+    cuoc-lao-cong-3:
+        output:
+            type: TOOL
+            id: PICKAXE_LAO_CONG_3
+            amount: 1
+        enchantments: MAXIMUM
+        crafting-time: 0
+        options:
+            success-rate: 65
+        ingredients:
+        - mmoitem{type=TOOL,id=PICKAXE_LAO_CONG_2,amount=1,display="Cuốc Lao Công II"}
+        - mmoitem{type=MATERIAL,id=DA_NANG_CAP_LAO_CONG,amount=8,display="Cường Hóa Thạch Lao Công"}
+        - mmoitem{type=MATERIAL,id=NEN_DOI_LAO_CONG,amount=8,display="Quặng Tinh Luyện Lao Công"}
+    cuoc-lao-cong-4:
+        output:
+            type: TOOL
+            id: PICKAXE_LAO_CONG_4
+            amount: 1
+        enchantments: MAXIMUM
+        crafting-time: 0
+        options:
+            success-rate: 55
+        ingredients:
+        - mmoitem{type=TOOL,id=PICKAXE_LAO_CONG_3,amount=1,display="Cuốc Lao Công III"}
+        - mmoitem{type=MATERIAL,id=DA_NANG_CAP_LAO_CONG,amount=16,display="Cường Hóa Thạch Lao Công"}
+        - mmoitem{type=MATERIAL,id=NEN_DOI_LAO_CONG,amount=16,display="Quặng Tinh Luyện Lao Công"}
+    cuoc-lao-cong-5:
+        output:
+            type: TOOL
+            id: PICKAXE_LAO_CONG_5
+            amount: 1
+        enchantments: MAXIMUM
+        crafting-time: 0
+        options:
+            success-rate: 45
+        ingredients:
+        - mmoitem{type=TOOL,id=PICKAXE_LAO_CONG_4,amount=1,display="Cuốc Lao Công IV"}
+        - mmoitem{type=MATERIAL,id=DA_NANG_CAP_LAO_CONG,amount=32,display="Cường Hóa Thạch Lao Công"}
+        - mmoitem{type=MATERIAL,id=NEN_DOI_LAO_CONG,amount=32,display="Quặng Tinh Luyện Lao Công"}

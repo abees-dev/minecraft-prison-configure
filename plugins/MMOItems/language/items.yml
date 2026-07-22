@@ -1,55 +1,57 @@
 CONFIRM:
-  name: '&aXác Nhận'
+  name: '&a✔ Xác Nhận'
   lore: []
 FILL:
   name: '&8'
   lore: []
 PREVIOUS_PAGE:
-  name: '&aTrang Trước'
+  name: '&e◀ Trang Trước'
   lore: []
 NEXT_PAGE:
-  name: '&aTrang Sau'
+  name: '&eTrang Sau ▶'
   lore: []
 PREVIOUS_IN_QUEUE:
-  name: '&aTrước'
+  name: '&e◀ Trước'
   lore: []
 NEXT_IN_QUEUE:
-  name: '&aSau'
+  name: '&eSau ▶'
   lore: []
 BACK:
-  name: '&aTrở Lại'
+  name: '&c◀ Trở Lại'
   lore: []
 CRAFTING_RECIPE_DISPLAY:
-  name: '&a&lChế Tạo&f #name#'
+  name: '&a&l⚒ CHẾ TẠO: &f#name#'
   lore:
+  - '&8&m----------------------------'
   - '{conditions}'
-  - '{conditions}&8Điều Kiện:'
-  - '{crafting_time}'
-  - '{crafting_time}&7Thời Gian Chế Tạo: &c#crafting-time#&7s'
+  - '{conditions}&e📌 &lĐiều Kiện Yêu Cầu:'
+  - '{crafting_time}&7⏱ Thời Gian: &e#crafting-time#s'
   - ''
-  - '&8Nguyên Liệu:'
+  - '&6📦 &lNguyên Liệu Cần Có:'
   - '#ingredients#'
-  - ''
-  - '&eNhấp Chuột Trái để chế tạo!'
-  - '&eNhấp Chuột Phải để xem trước!'
+  - '&8&m----------------------------'
+  - '&a▶ Click Trái &7để tiến hành chế tạo'
+  - '&b▶ Click Phải &7để xem trước vật phẩm'
 UPGRADING_RECIPE_DISPLAY:
-  name: '&e&lNâng Cấp&f #name#'
+  name: '&e&l⚡ NÂNG CẤP: &f#name#'
   lore:
+  - '&8&m----------------------------'
   - '{conditions}'
-  - '{conditions}&8Điều Kiện:'
+  - '{conditions}&e📌 &lĐiều Kiện Yêu Cầu:'
   - ''
-  - '&8Nguyên Liệu:'
+  - '&6📦 &lNguyên Liệu Cần Có:'
   - '#ingredients#'
-  - ''
-  - '&eNhấp Chuột Trái để chế tạo!'
-  - '&eNhấp Chuột Phải để xem trước!'
+  - '&8&m----------------------------'
+  - '&a▶ Click Trái &7để nâng cấp ngay'
+  - '&b▶ Click Phải &7để xem trước kết quả'
 QUEUE_ITEM_DISPLAY:
-  name: '&6&lHàng Chờ&f #name#'
+  name: '&6&l⏳ HÀNG CHỜ: &f#name#'
   lore:
-  - '{ready}&7&oVật phẩm này đã được chế tạo thành công.'
-  - '{queue}&7&oVật phẩm này đang trong hàng chờ chế tạo.'
+  - '&8&m----------------------------'
+  - '{ready}&a✔ &7Vật phẩm đã chế tạo hoàn tất.'
+  - '{queue}&e⏳ &7Vật phẩm đang được chế tạo...'
   - '{queue}'
-  - '{queue}&7Thời Gian Còn Lại: &c#left#'
-  - ''
-  - '{ready}&eNhấp để nhận!'
-  - '{queue}&eNhấp để hủy.'
+  - '{queue}&7Thời gian còn lại: &c#left#'
+  - '&8&m----------------------------'
+  - '{ready}&a▶ Click &7để nhận vật phẩm!'
+  - '{queue}&c▶ Click &7để hủy chế tạo.'

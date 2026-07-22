@@ -1,0 +1,68 @@
+name: 'Lò Rèn Tù Nhân (#page#/#max#)'
+max-queue-size: 10
+sound: ENTITY_EXPERIENCE_ORB_PICKUP
+layout: default
+
+items:
+    fill:
+        material: AIR
+    no-recipe:
+        material: GRAY_STAINED_GLASS_PANE
+        name: '&aNo Recipe'
+    no-queue-item:
+        material: GRAY_STAINED_GLASS_PANE
+        name: '&aNo Item in Queue'
+
+recipes:
+    cuoc-tu-nhan-2:
+        output:
+            type: TOOL
+            id: PICKAXE_TU_NHAN_2
+            amount: 1
+        enchantments: MAXIMUM
+        crafting-time: 0
+        options:
+            success-rate: 80
+        ingredients:
+        - mmoitem{type=TOOL,id=PICKAXE_TU_NHAN_1,amount=1,display="Cuốc Tù Nhân I"}
+        - mmoitem{type=MATERIAL,id=DA_NANG_CAP_TU_NHAN,amount=3,display="Cường Hóa Thạch Tù Nhân"}
+        - mmoitem{type=MATERIAL,id=NEN_DOI_TU_NHAN,amount=3,display="Quặng Tinh Luyện Tù Nhân"}
+    cuoc-tu-nhan-3:
+        output:
+            type: TOOL
+            id: PICKAXE_TU_NHAN_3
+            amount: 1
+        enchantments: MAXIMUM
+        crafting-time: 0
+        options:
+            success-rate: 70
+        ingredients:
+        - mmoitem{type=TOOL,id=PICKAXE_TU_NHAN_2,amount=1,display="Cuốc Tù Nhân II"}
+        - mmoitem{type=MATERIAL,id=DA_NANG_CAP_TU_NHAN,amount=6,display="Cường Hóa Thạch Tù Nhân"}
+        - mmoitem{type=MATERIAL,id=NEN_DOI_TU_NHAN,amount=6,display="Quặng Tinh Luyện Tù Nhân"}
+    cuoc-tu-nhan-4:
+        output:
+            type: TOOL
+            id: PICKAXE_TU_NHAN_4
+            amount: 1
+        enchantments: MAXIMUM
+        crafting-time: 0
+        options:
+            success-rate: 60
+        ingredients:
+        - mmoitem{type=TOOL,id=PICKAXE_TU_NHAN_3,amount=1,display="Cuốc Tù Nhân III"}
+        - mmoitem{type=MATERIAL,id=DA_NANG_CAP_TU_NHAN,amount=12,display="Cường Hóa Thạch Tù Nhân"}
+        - mmoitem{type=MATERIAL,id=NEN_DOI_TU_NHAN,amount=12,display="Quặng Tinh Luyện Tù Nhân"}
+    cuoc-tu-nhan-5:
+        output:
+            type: TOOL
+            id: PICKAXE_TU_NHAN_5
+            amount: 1
+        enchantments: MAXIMUM
+        crafting-time: 0
+        options:
+            success-rate: 50
+        ingredients:
+        - mmoitem{type=TOOL,id=PICKAXE_TU_NHAN_4,amount=1,display="Cuốc Tù Nhân IV"}
+        - mmoitem{type=MATERIAL,id=DA_NANG_CAP_TU_NHAN,amount=24,display="Cường Hóa Thạch Tù Nhân"}
+        - mmoitem{type=MATERIAL,id=NEN_DOI_TU_NHAN,amount=24,display="Quặng Tinh Luyện Tù Nhân"}

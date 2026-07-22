@@ -9,7 +9,7 @@ PICKAXE_TAN_BINH_1:
     lore:
       - "&b&l✦ Tiểu Sử"
       - "&7 &b●&7 Cuốc khởi đầu của mọi tù nhân"
-      - "&7 &b●&7 Bền Bỉ 1 - càng nâng cấp càng khó vỡ"
+      - "&7 &b●&7 Nâng cấp tại Lò Rèn để lên cấp tiếp theo"
     enchants:
       efficiency: 1.0
       fortune: 1.0
@@ -32,7 +32,7 @@ PICKAXE_TAN_BINH_2:
     lore:
       - "&b&l✦ Tiểu Sử"
       - "&7 &b●&7 Cuốc khởi đầu của mọi tù nhân"
-      - "&7 &b●&7 Bền Bỉ 1 - càng nâng cấp càng khó vỡ"
+      - "&7 &b●&7 Nâng cấp tại Lò Rèn để lên cấp tiếp theo"
     enchants:
       efficiency: 2.0
       fortune: 1.0
@@ -55,7 +55,7 @@ PICKAXE_TAN_BINH_3:
     lore:
       - "&b&l✦ Tiểu Sử"
       - "&7 &b●&7 Cuốc khởi đầu của mọi tù nhân"
-      - "&7 &b●&7 Bền Bỉ 1 - càng nâng cấp càng khó vỡ"
+      - "&7 &b●&7 Nâng cấp tại Lò Rèn để lên cấp tiếp theo"
     enchants:
       efficiency: 2.0
       fortune: 2.0
@@ -78,7 +78,7 @@ PICKAXE_TAN_BINH_4:
     lore:
       - "&b&l✦ Tiểu Sử"
       - "&7 &b●&7 Cuốc khởi đầu của mọi tù nhân"
-      - "&7 &b●&7 Bền Bỉ 2 - càng nâng cấp càng khó vỡ"
+      - "&7 &b●&7 Nâng cấp tại Lò Rèn để lên cấp tiếp theo"
     enchants:
       efficiency: 2.0
       fortune: 2.0
@@ -101,7 +101,7 @@ PICKAXE_TAN_BINH_5:
     lore:
       - "&b&l✦ Tiểu Sử"
       - "&7 &b●&7 Cuốc khởi đầu của mọi tù nhân"
-      - "&7 &b●&7 Bền Bỉ 2 - càng nâng cấp càng khó vỡ"
+      - "&7 &b●&7 Cấp tối đa của rank Tân Binh"
     enchants:
       efficiency: 3.0
       fortune: 2.0
@@ -124,7 +124,7 @@ PICKAXE_TU_NHAN_1:
     lore:
       - "&b&l✦ Tiểu Sử"
       - "&7 &b●&7 Dành cho ai đã quen việc đào bới"
-      - "&7 &b●&7 Bền Bỉ 2 - càng nâng cấp càng khó vỡ"
+      - "&7 &b●&7 Nâng cấp tại Lò Rèn để lên cấp tiếp theo"
     enchants:
       efficiency: 3.0
       fortune: 3.0
@@ -147,7 +147,7 @@ PICKAXE_TU_NHAN_2:
     lore:
       - "&b&l✦ Tiểu Sử"
       - "&7 &b●&7 Dành cho ai đã quen việc đào bới"
-      - "&7 &b●&7 Bền Bỉ 3 - càng nâng cấp càng khó vỡ"
+      - "&7 &b●&7 Nâng cấp tại Lò Rèn để lên cấp tiếp theo"
     enchants:
       efficiency: 3.0
       fortune: 3.0
@@ -170,7 +170,7 @@ PICKAXE_TU_NHAN_3:
     lore:
       - "&b&l✦ Tiểu Sử"
       - "&7 &b●&7 Dành cho ai đã quen việc đào bới"
-      - "&7 &b●&7 Bền Bỉ 3 - càng nâng cấp càng khó vỡ"
+      - "&7 &b●&7 Nâng cấp tại Lò Rèn để lên cấp tiếp theo"
     enchants:
       efficiency: 4.0
       fortune: 3.0
@@ -193,7 +193,7 @@ PICKAXE_TU_NHAN_4:
     lore:
       - "&b&l✦ Tiểu Sử"
       - "&7 &b●&7 Dành cho ai đã quen việc đào bới"
-      - "&7 &b●&7 Bền Bỉ 3 - càng nâng cấp càng khó vỡ"
+      - "&7 &b●&7 Nâng cấp tại Lò Rèn để lên cấp tiếp theo"
     enchants:
       efficiency: 4.0
       fortune: 4.0
@@ -216,7 +216,7 @@ PICKAXE_TU_NHAN_5:
     lore:
       - "&b&l✦ Tiểu Sử"
       - "&7 &b●&7 Dành cho ai đã quen việc đào bới"
-      - "&7 &b●&7 Bền Bỉ 4 - càng nâng cấp càng khó vỡ"
+      - "&7 &b●&7 Cấp tối đa của rank Tù Nhân"
     enchants:
       efficiency: 4.0
       fortune: 4.0
@@ -239,7 +239,7 @@ PICKAXE_LAO_CONG_1:
     lore:
       - "&b&l✦ Tiểu Sử"
       - "&7 &b●&7 Dấu ấn của người lao động chính thức"
-      - "&7 &b●&7 Bền Bỉ 4 - càng nâng cấp càng khó vỡ"
+      - "&7 &b●&7 Nâng cấp tại Lò Rèn để lên cấp tiếp theo"
     enchants:
       efficiency: 5.0
       fortune: 4.0
@@ -262,7 +262,7 @@ PICKAXE_LAO_CONG_2:
     lore:
       - "&b&l✦ Tiểu Sử"
       - "&7 &b●&7 Dấu ấn của người lao động chính thức"
-      - "&7 &b●&7 Bền Bỉ 4 - càng nâng cấp càng khó vỡ"
+      - "&7 &b●&7 Nâng cấp tại Lò Rèn để lên cấp tiếp theo"
     enchants:
       efficiency: 5.0
       fortune: 5.0
@@ -285,7 +285,7 @@ PICKAXE_LAO_CONG_3:
     lore:
       - "&b&l✦ Tiểu Sử"
       - "&7 &b●&7 Dấu ấn của người lao động chính thức"
-      - "&7 &b●&7 Bền Bỉ 5 - càng nâng cấp càng khó vỡ"
+      - "&7 &b●&7 Nâng cấp tại Lò Rèn để lên cấp tiếp theo"
     enchants:
       efficiency: 5.0
       fortune: 5.0
@@ -308,7 +308,7 @@ PICKAXE_LAO_CONG_4:
     lore:
       - "&b&l✦ Tiểu Sử"
       - "&7 &b●&7 Dấu ấn của người lao động chính thức"
-      - "&7 &b●&7 Bền Bỉ 5 - càng nâng cấp càng khó vỡ"
+      - "&7 &b●&7 Nâng cấp tại Lò Rèn để lên cấp tiếp theo"
     enchants:
       efficiency: 6.0
       fortune: 5.0
@@ -331,7 +331,7 @@ PICKAXE_LAO_CONG_5:
     lore:
       - "&b&l✦ Tiểu Sử"
       - "&7 &b●&7 Dấu ấn của người lao động chính thức"
-      - "&7 &b●&7 Bền Bỉ 5 - càng nâng cấp càng khó vỡ"
+      - "&7 &b●&7 Cấp tối đa của rank Lao Công"
     enchants:
       efficiency: 6.0
       fortune: 6.0
@@ -354,7 +354,7 @@ PICKAXE_THO_DAO_1:
     lore:
       - "&b&l✦ Tiểu Sử"
       - "&7 &b●&7 Đôi tay lành nghề, mạch quặng khó thoát"
-      - "&7 &b●&7 Bền Bỉ 6 - càng nâng cấp càng khó vỡ"
+      - "&7 &b●&7 Nâng cấp tại Lò Rèn để lên cấp tiếp theo"
     enchants:
       efficiency: 6.0
       fortune: 6.0
@@ -377,7 +377,7 @@ PICKAXE_THO_DAO_2:
     lore:
       - "&b&l✦ Tiểu Sử"
       - "&7 &b●&7 Đôi tay lành nghề, mạch quặng khó thoát"
-      - "&7 &b●&7 Bền Bỉ 6 - càng nâng cấp càng khó vỡ"
+      - "&7 &b●&7 Nâng cấp tại Lò Rèn để lên cấp tiếp theo"
     enchants:
       efficiency: 7.0
       fortune: 6.0
@@ -400,7 +400,7 @@ PICKAXE_THO_DAO_3:
     lore:
       - "&b&l✦ Tiểu Sử"
       - "&7 &b●&7 Đôi tay lành nghề, mạch quặng khó thoát"
-      - "&7 &b●&7 Bền Bỉ 6 - càng nâng cấp càng khó vỡ"
+      - "&7 &b●&7 Nâng cấp tại Lò Rèn để lên cấp tiếp theo"
     enchants:
       efficiency: 7.0
       fortune: 7.0
@@ -423,7 +423,7 @@ PICKAXE_THO_DAO_4:
     lore:
       - "&b&l✦ Tiểu Sử"
       - "&7 &b●&7 Đôi tay lành nghề, mạch quặng khó thoát"
-      - "&7 &b●&7 Bền Bỉ 7 - càng nâng cấp càng khó vỡ"
+      - "&7 &b●&7 Nâng cấp tại Lò Rèn để lên cấp tiếp theo"
     enchants:
       efficiency: 7.0
       fortune: 7.0
@@ -446,7 +446,7 @@ PICKAXE_THO_DAO_5:
     lore:
       - "&b&l✦ Tiểu Sử"
       - "&7 &b●&7 Đôi tay lành nghề, mạch quặng khó thoát"
-      - "&7 &b●&7 Bền Bỉ 7 - càng nâng cấp càng khó vỡ"
+      - "&7 &b●&7 Cấp tối đa của rank Thợ Đào"
     enchants:
       efficiency: 8.0
       fortune: 7.0
@@ -469,7 +469,7 @@ PICKAXE_DOI_TRUONG_1:
     lore:
       - "&b&l✦ Tiểu Sử"
       - "&7 &b●&7 Dẫn dắt cả đội đào xuyên lòng đất"
-      - "&7 &b●&7 Bền Bỉ 7 - càng nâng cấp càng khó vỡ"
+      - "&7 &b●&7 Nâng cấp tại Lò Rèn để lên cấp tiếp theo"
     enchants:
       efficiency: 8.0
       fortune: 8.0
@@ -492,7 +492,7 @@ PICKAXE_DOI_TRUONG_2:
     lore:
       - "&b&l✦ Tiểu Sử"
       - "&7 &b●&7 Dẫn dắt cả đội đào xuyên lòng đất"
-      - "&7 &b●&7 Bền Bỉ 8 - càng nâng cấp càng khó vỡ"
+      - "&7 &b●&7 Nâng cấp tại Lò Rèn để lên cấp tiếp theo"
     enchants:
       efficiency: 8.0
       fortune: 8.0
@@ -515,7 +515,7 @@ PICKAXE_DOI_TRUONG_3:
     lore:
       - "&b&l✦ Tiểu Sử"
       - "&7 &b●&7 Dẫn dắt cả đội đào xuyên lòng đất"
-      - "&7 &b●&7 Bền Bỉ 8 - càng nâng cấp càng khó vỡ"
+      - "&7 &b●&7 Nâng cấp tại Lò Rèn để lên cấp tiếp theo"
     enchants:
       efficiency: 9.0
       fortune: 8.0
@@ -538,7 +538,7 @@ PICKAXE_DOI_TRUONG_4:
     lore:
       - "&b&l✦ Tiểu Sử"
       - "&7 &b●&7 Dẫn dắt cả đội đào xuyên lòng đất"
-      - "&7 &b●&7 Bền Bỉ 8 - càng nâng cấp càng khó vỡ"
+      - "&7 &b●&7 Nâng cấp tại Lò Rèn để lên cấp tiếp theo"
     enchants:
       efficiency: 9.0
       fortune: 9.0
@@ -561,7 +561,7 @@ PICKAXE_DOI_TRUONG_5:
     lore:
       - "&b&l✦ Tiểu Sử"
       - "&7 &b●&7 Dẫn dắt cả đội đào xuyên lòng đất"
-      - "&7 &b●&7 Bền Bỉ 9 - càng nâng cấp càng khó vỡ"
+      - "&7 &b●&7 Cấp tối đa của rank Đội Trưởng"
     enchants:
       efficiency: 9.0
       fortune: 9.0
@@ -584,7 +584,7 @@ PICKAXE_PHO_QUAN_NGUC_1:
     lore:
       - "&b&l✦ Tiểu Sử"
       - "&7 &b●&7 Quyền lực đi kèm trách nhiệm"
-      - "&7 &b●&7 Bền Bỉ 9 - càng nâng cấp càng khó vỡ"
+      - "&7 &b●&7 Nâng cấp tại Lò Rèn để lên cấp tiếp theo"
     enchants:
       efficiency: 10.0
       fortune: 9.0
@@ -607,7 +607,7 @@ PICKAXE_PHO_QUAN_NGUC_2:
     lore:
       - "&b&l✦ Tiểu Sử"
       - "&7 &b●&7 Quyền lực đi kèm trách nhiệm"
-      - "&7 &b●&7 Bền Bỉ 9 - càng nâng cấp càng khó vỡ"
+      - "&7 &b●&7 Nâng cấp tại Lò Rèn để lên cấp tiếp theo"
     enchants:
       efficiency: 10.0
       fortune: 10.0
@@ -630,7 +630,7 @@ PICKAXE_PHO_QUAN_NGUC_3:
     lore:
       - "&b&l✦ Tiểu Sử"
       - "&7 &b●&7 Quyền lực đi kèm trách nhiệm"
-      - "&7 &b●&7 Bền Bỉ 10 - càng nâng cấp càng khó vỡ"
+      - "&7 &b●&7 Nâng cấp tại Lò Rèn để lên cấp tiếp theo"
     enchants:
       efficiency: 10.0
       fortune: 10.0
@@ -653,7 +653,7 @@ PICKAXE_PHO_QUAN_NGUC_4:
     lore:
       - "&b&l✦ Tiểu Sử"
       - "&7 &b●&7 Quyền lực đi kèm trách nhiệm"
-      - "&7 &b●&7 Bền Bỉ 10 - càng nâng cấp càng khó vỡ"
+      - "&7 &b●&7 Nâng cấp tại Lò Rèn để lên cấp tiếp theo"
     enchants:
       efficiency: 11.0
       fortune: 10.0
@@ -676,7 +676,7 @@ PICKAXE_PHO_QUAN_NGUC_5:
     lore:
       - "&b&l✦ Tiểu Sử"
       - "&7 &b●&7 Quyền lực đi kèm trách nhiệm"
-      - "&7 &b●&7 Bền Bỉ 10 - càng nâng cấp càng khó vỡ"
+      - "&7 &b●&7 Cấp tối đa của rank Phó Quản Ngục"
     enchants:
       efficiency: 11.0
       fortune: 11.0
@@ -699,7 +699,7 @@ PICKAXE_QUAN_NGUC_1:
     lore:
       - "&b&l✦ Tiểu Sử"
       - "&7 &b●&7 Cai quản toàn bộ khu mỏ"
-      - "&7 &b●&7 Bền Bỉ 11 - càng nâng cấp càng khó vỡ"
+      - "&7 &b●&7 Nâng cấp tại Lò Rèn để lên cấp tiếp theo"
     enchants:
       efficiency: 11.0
       fortune: 11.0
@@ -722,7 +722,7 @@ PICKAXE_QUAN_NGUC_2:
     lore:
       - "&b&l✦ Tiểu Sử"
       - "&7 &b●&7 Cai quản toàn bộ khu mỏ"
-      - "&7 &b●&7 Bền Bỉ 11 - càng nâng cấp càng khó vỡ"
+      - "&7 &b●&7 Nâng cấp tại Lò Rèn để lên cấp tiếp theo"
     enchants:
       efficiency: 12.0
       fortune: 11.0
@@ -745,7 +745,7 @@ PICKAXE_QUAN_NGUC_3:
     lore:
       - "&b&l✦ Tiểu Sử"
       - "&7 &b●&7 Cai quản toàn bộ khu mỏ"
-      - "&7 &b●&7 Bền Bỉ 11 - càng nâng cấp càng khó vỡ"
+      - "&7 &b●&7 Nâng cấp tại Lò Rèn để lên cấp tiếp theo"
     enchants:
       efficiency: 12.0
       fortune: 12.0
@@ -768,7 +768,7 @@ PICKAXE_QUAN_NGUC_4:
     lore:
       - "&b&l✦ Tiểu Sử"
       - "&7 &b●&7 Cai quản toàn bộ khu mỏ"
-      - "&7 &b●&7 Bền Bỉ 12 - càng nâng cấp càng khó vỡ"
+      - "&7 &b●&7 Nâng cấp tại Lò Rèn để lên cấp tiếp theo"
     enchants:
       efficiency: 12.0
       fortune: 12.0
@@ -791,7 +791,7 @@ PICKAXE_QUAN_NGUC_5:
     lore:
       - "&b&l✦ Tiểu Sử"
       - "&7 &b●&7 Cai quản toàn bộ khu mỏ"
-      - "&7 &b●&7 Bền Bỉ 12 - càng nâng cấp càng khó vỡ"
+      - "&7 &b●&7 Cấp tối đa của rank Quản Ngục"
     enchants:
       efficiency: 13.0
       fortune: 12.0
@@ -814,7 +814,7 @@ PICKAXE_BA_CHU_NGUC_TU_1:
     lore:
       - "&b&l✦ Tiểu Sử"
       - "&7 &b●&7 Không ai dám trái lệnh"
-      - "&7 &b●&7 Bền Bỉ 12 - càng nâng cấp càng khó vỡ"
+      - "&7 &b●&7 Nâng cấp tại Lò Rèn để lên cấp tiếp theo"
     enchants:
       efficiency: 13.0
       fortune: 13.0
@@ -838,7 +838,7 @@ PICKAXE_BA_CHU_NGUC_TU_2:
     lore:
       - "&b&l✦ Tiểu Sử"
       - "&7 &b●&7 Không ai dám trái lệnh"
-      - "&7 &b●&7 Bền Bỉ 13 - càng nâng cấp càng khó vỡ"
+      - "&7 &b●&7 Nâng cấp tại Lò Rèn để lên cấp tiếp theo"
     enchants:
       efficiency: 13.0
       fortune: 13.0
@@ -862,7 +862,7 @@ PICKAXE_BA_CHU_NGUC_TU_3:
     lore:
       - "&b&l✦ Tiểu Sử"
       - "&7 &b●&7 Không ai dám trái lệnh"
-      - "&7 &b●&7 Bền Bỉ 13 - càng nâng cấp càng khó vỡ"
+      - "&7 &b●&7 Nâng cấp tại Lò Rèn để lên cấp tiếp theo"
     enchants:
       efficiency: 14.0
       fortune: 13.0
@@ -886,7 +886,7 @@ PICKAXE_BA_CHU_NGUC_TU_4:
     lore:
       - "&b&l✦ Tiểu Sử"
       - "&7 &b●&7 Không ai dám trái lệnh"
-      - "&7 &b●&7 Bền Bỉ 13 - càng nâng cấp càng khó vỡ"
+      - "&7 &b●&7 Nâng cấp tại Lò Rèn để lên cấp tiếp theo"
     enchants:
       efficiency: 14.0
       fortune: 14.0
@@ -910,7 +910,7 @@ PICKAXE_BA_CHU_NGUC_TU_5:
     lore:
       - "&b&l✦ Tiểu Sử"
       - "&7 &b●&7 Không ai dám trái lệnh"
-      - "&7 &b●&7 Bền Bỉ 14 - càng nâng cấp càng khó vỡ"
+      - "&7 &b●&7 Cấp tối đa của rank Bá Chủ Ngục Tù"
     enchants:
       efficiency: 14.0
       fortune: 14.0
@@ -934,7 +934,7 @@ PICKAXE_VUOT_NGUC_1:
     lore:
       - "&b&l✦ Tiểu Sử"
       - "&7 &b●&7 Bước cuối cùng trước ngưỡng cửa tự do"
-      - "&7 &b●&7 Bền Bỉ 14 - càng nâng cấp càng khó vỡ"
+      - "&7 &b●&7 Nâng cấp tại Lò Rèn để lên cấp tiếp theo"
     enchants:
       efficiency: 15.0
       fortune: 14.0
@@ -958,7 +958,7 @@ PICKAXE_VUOT_NGUC_2:
     lore:
       - "&b&l✦ Tiểu Sử"
       - "&7 &b●&7 Bước cuối cùng trước ngưỡng cửa tự do"
-      - "&7 &b●&7 Bền Bỉ 14 - càng nâng cấp càng khó vỡ"
+      - "&7 &b●&7 Nâng cấp tại Lò Rèn để lên cấp tiếp theo"
     enchants:
       efficiency: 15.0
       fortune: 15.0
@@ -982,7 +982,7 @@ PICKAXE_VUOT_NGUC_3:
     lore:
       - "&b&l✦ Tiểu Sử"
       - "&7 &b●&7 Bước cuối cùng trước ngưỡng cửa tự do"
-      - "&7 &b●&7 Bền Bỉ 15 - càng nâng cấp càng khó vỡ"
+      - "&7 &b●&7 Nâng cấp tại Lò Rèn để lên cấp tiếp theo"
     enchants:
       efficiency: 15.0
       fortune: 15.0
@@ -1006,7 +1006,7 @@ PICKAXE_VUOT_NGUC_4:
     lore:
       - "&b&l✦ Tiểu Sử"
       - "&7 &b●&7 Bước cuối cùng trước ngưỡng cửa tự do"
-      - "&7 &b●&7 Bền Bỉ 15 - càng nâng cấp càng khó vỡ"
+      - "&7 &b●&7 Nâng cấp tại Lò Rèn để lên cấp tiếp theo"
     enchants:
       efficiency: 16.0
       fortune: 15.0
@@ -1030,7 +1030,7 @@ PICKAXE_VUOT_NGUC_5:
     lore:
       - "&b&l✦ Tiểu Sử"
       - "&7 &b●&7 Bước cuối cùng trước ngưỡng cửa tự do"
-      - "&7 &b●&7 Bền Bỉ 15 - càng nâng cấp càng khó vỡ"
+      - "&7 &b●&7 Cấp tối đa của rank Vượt Ngục"
     enchants:
       efficiency: 16.0
       fortune: 16.0
@@ -1042,16 +1042,3 @@ PICKAXE_VUOT_NGUC_5:
     custom-miningefficiency: 16.0
     custom-miningfortune: 16.0
     custom-miningunbreaking: 15.0
-PICKAXE_UPGTEST:
-  base:
-    material: WOODEN_PICKAXE
-    name: "&fUpgrade Test Pickaxe"
-    tier: TRASH
-    enchants:
-      efficiency: 1.0
-    upgrade:
-      workbench: true
-      template: test-enchant-template
-      max: 5
-      success: 100.0
-      destroy: false

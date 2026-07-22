@@ -1,0 +1,48 @@
+name: 'Trạm Tinh Luyện Tù Nhân (#page#/#max#)'
+max-queue-size: 10
+sound: ENTITY_EXPERIENCE_ORB_PICKUP
+layout: default
+
+items:
+    fill:
+        material: AIR
+    no-recipe:
+        material: GRAY_STAINED_GLASS_PANE
+        name: '&aNo Recipe'
+    no-queue-item:
+        material: GRAY_STAINED_GLASS_PANE
+        name: '&aNo Item in Queue'
+
+recipes:
+    nen-stone-tu-nhan:
+        output:
+            type: MATERIAL
+            id: NEN_DOI_TU_NHAN
+            amount: 1
+        crafting-time: 0
+        ingredients:
+        - vanilla{type=SMOOTH_STONE,amount=8,display="Smooth Stone"}
+    nen-coal-tu-nhan:
+        output:
+            type: MATERIAL
+            id: NEN_DOI_TU_NHAN
+            amount: 1
+        crafting-time: 0
+        ingredients:
+        - vanilla{type=COAL_BLOCK,amount=6,display="Coal Block"}
+    nen-iron-tu-nhan:
+        output:
+            type: MATERIAL
+            id: NEN_DOI_TU_NHAN
+            amount: 1
+        crafting-time: 0
+        ingredients:
+        - vanilla{type=IRON_BLOCK,amount=6,display="Iron Block"}
+    che-da-tu-nhan:
+        output:
+            type: MATERIAL
+            id: DA_NANG_CAP_TU_NHAN
+            amount: 1
+        crafting-time: 0
+        ingredients:
+        - mmoitem{type=MATERIAL,id=NEN_DOI_TU_NHAN,amount=3,display="Quặng Tinh Luyện Tù Nhân"}

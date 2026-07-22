@@ -1,0 +1,56 @@
+name: 'Trạm Tinh Luyện Quản Ngục (#page#/#max#)'
+max-queue-size: 10
+sound: ENTITY_EXPERIENCE_ORB_PICKUP
+layout: default
+
+items:
+    fill:
+        material: AIR
+    no-recipe:
+        material: GRAY_STAINED_GLASS_PANE
+        name: '&aNo Recipe'
+    no-queue-item:
+        material: GRAY_STAINED_GLASS_PANE
+        name: '&aNo Item in Queue'
+
+recipes:
+    nen-emerald-quan-nguc:
+        output:
+            type: MATERIAL
+            id: NEN_DOI_QUAN_NGUC
+            amount: 1
+        crafting-time: 0
+        ingredients:
+        - vanilla{type=EMERALD_BLOCK,amount=8,display="Emerald Block"}
+    nen-diamond-quan-nguc:
+        output:
+            type: MATERIAL
+            id: NEN_DOI_QUAN_NGUC
+            amount: 1
+        crafting-time: 0
+        ingredients:
+        - vanilla{type=DIAMOND_BLOCK,amount=8,display="Diamond Block"}
+    nen-quartz-quan-nguc:
+        output:
+            type: MATERIAL
+            id: NEN_DOI_QUAN_NGUC
+            amount: 1
+        crafting-time: 0
+        ingredients:
+        - vanilla{type=QUARTZ_BLOCK,amount=12,display="Quartz Block"}
+    nen-debris-quan-nguc:
+        output:
+            type: MATERIAL
+            id: NEN_DOI_QUAN_NGUC
+            amount: 1
+        crafting-time: 0
+        ingredients:
+        - vanilla{type=ANCIENT_DEBRIS,amount=6,display="Ancient Debris"}
+    che-da-quan-nguc:
+        output:
+            type: MATERIAL
+            id: DA_NANG_CAP_QUAN_NGUC
+            amount: 1
+        crafting-time: 0
+        ingredients:
+        - mmoitem{type=MATERIAL,id=NEN_DOI_QUAN_NGUC,amount=8,display="Quặng Tinh Luyện Quản Ngục"}

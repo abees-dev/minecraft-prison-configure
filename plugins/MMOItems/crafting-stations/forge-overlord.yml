@@ -1,0 +1,68 @@
+name: 'Lò Rèn Bá Chủ Ngục Tù (#page#/#max#)'
+max-queue-size: 10
+sound: ENTITY_EXPERIENCE_ORB_PICKUP
+layout: default
+
+items:
+    fill:
+        material: AIR
+    no-recipe:
+        material: GRAY_STAINED_GLASS_PANE
+        name: '&aNo Recipe'
+    no-queue-item:
+        material: GRAY_STAINED_GLASS_PANE
+        name: '&aNo Item in Queue'
+
+recipes:
+    cuoc-ba-chu-nguc-tu-2:
+        output:
+            type: TOOL
+            id: PICKAXE_BA_CHU_NGUC_TU_2
+            amount: 1
+        enchantments: MAXIMUM
+        crafting-time: 0
+        options:
+            success-rate: 50
+        ingredients:
+        - mmoitem{type=TOOL,id=PICKAXE_BA_CHU_NGUC_TU_1,amount=1,display="Cuốc Bá Chủ Ngục Tù I"}
+        - mmoitem{type=MATERIAL,id=DA_NANG_CAP_BA_CHU_NGUC_TU,amount=10,display="Cường Hóa Thạch Bá Chủ Ngục Tù"}
+        - mmoitem{type=MATERIAL,id=NEN_DOI_BA_CHU_NGUC_TU,amount=10,display="Quặng Tinh Luyện Bá Chủ Ngục Tù"}
+    cuoc-ba-chu-nguc-tu-3:
+        output:
+            type: TOOL
+            id: PICKAXE_BA_CHU_NGUC_TU_3
+            amount: 1
+        enchantments: MAXIMUM
+        crafting-time: 0
+        options:
+            success-rate: 40
+        ingredients:
+        - mmoitem{type=TOOL,id=PICKAXE_BA_CHU_NGUC_TU_2,amount=1,display="Cuốc Bá Chủ Ngục Tù II"}
+        - mmoitem{type=MATERIAL,id=DA_NANG_CAP_BA_CHU_NGUC_TU,amount=20,display="Cường Hóa Thạch Bá Chủ Ngục Tù"}
+        - mmoitem{type=MATERIAL,id=NEN_DOI_BA_CHU_NGUC_TU,amount=20,display="Quặng Tinh Luyện Bá Chủ Ngục Tù"}
+    cuoc-ba-chu-nguc-tu-4:
+        output:
+            type: TOOL
+            id: PICKAXE_BA_CHU_NGUC_TU_4
+            amount: 1
+        enchantments: MAXIMUM
+        crafting-time: 0
+        options:
+            success-rate: 30
+        ingredients:
+        - mmoitem{type=TOOL,id=PICKAXE_BA_CHU_NGUC_TU_3,amount=1,display="Cuốc Bá Chủ Ngục Tù III"}
+        - mmoitem{type=MATERIAL,id=DA_NANG_CAP_BA_CHU_NGUC_TU,amount=40,display="Cường Hóa Thạch Bá Chủ Ngục Tù"}
+        - mmoitem{type=MATERIAL,id=NEN_DOI_BA_CHU_NGUC_TU,amount=40,display="Quặng Tinh Luyện Bá Chủ Ngục Tù"}
+    cuoc-ba-chu-nguc-tu-5:
+        output:
+            type: TOOL
+            id: PICKAXE_BA_CHU_NGUC_TU_5
+            amount: 1
+        enchantments: MAXIMUM
+        crafting-time: 0
+        options:
+            success-rate: 20
+        ingredients:
+        - mmoitem{type=TOOL,id=PICKAXE_BA_CHU_NGUC_TU_4,amount=1,display="Cuốc Bá Chủ Ngục Tù IV"}
+        - mmoitem{type=MATERIAL,id=DA_NANG_CAP_BA_CHU_NGUC_TU,amount=64,display="Cường Hóa Thạch Bá Chủ Ngục Tù"}
+        - mmoitem{type=MATERIAL,id=NEN_DOI_BA_CHU_NGUC_TU,amount=64,display="Quặng Tinh Luyện Bá Chủ Ngục Tù"}

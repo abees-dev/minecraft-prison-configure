@@ -1,0 +1,7 @@
+# Lore format riêng cho nguyên liệu chế tạo / vật phẩm ghép (gọn gàng, không có item-type).
+# Gán vào item MMOItems bằng option: lore-format: ingredient-lore
+lore-format:
+  - '{bar}'
+  - '#lore#'
+  - '{sbar}&8&m----------------------------'
+  - '#tier#'

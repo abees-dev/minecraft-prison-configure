@@ -1,48 +1,48 @@
 condition:
   profession:
-    positive: '&a✔ Yêu cầu cấp #level# trong #profession#'
-    negative: '&c✖ Yêu cầu cấp #level# trong #profession#'
+    positive: '  &a✔ &7Cấp &e#level# &7nghề &e#profession#'
+    negative: '  &c✖ &7Yêu cầu cấp &c#level# &7nghề &c#profession#'
   mana:
-    positive: '&a✔ Yêu cầu #mana# Mana'
-    negative: '&c✖ Yêu cầu #mana# Mana'
+    positive: '  &a✔ &7Yêu cầu &9#mana# &7Mana'
+    negative: '  &c✖ &7Yêu cầu &c#mana# &7Mana'
   money:
-    positive: '&a✔ Yêu cầu $#money#'
-    negative: '&c✖ Yêu cầu $#money#'
+    positive: '  &a✔ &7Kinh phí &a$#money#'
+    negative: '  &c✖ &7Yêu cầu &c$#money#'
   level:
-    positive: '&a✔ Yêu cầu Cấp #level#'
-    negative: '&c✖ Yêu cầu Cấp #level#'
+    positive: '  &a✔ &7Cấp độ nhân vật &e#level#'
+    negative: '  &c✖ &7Yêu cầu cấp &c#level#'
   stellium:
-    positive: '&a✔ Yêu cầu #stellium# Stellium'
-    negative: '&c✖ Yêu cầu #stellium# Stellium'
+    positive: '  &a✔ &7Yêu cầu &b#stellium# &7Stellium'
+    negative: '  &c✖ &7Yêu cầu &c#stellium# &7Stellium'
   stamina:
-    positive: '&a✔ Yêu cầu #stamina# Thể Lực'
-    negative: '&c✖ Yêu cầu #stamina# Thể Lực'
+    positive: '  &a✔ &7Yêu cầu &e#stamina# &7Thể Lực'
+    negative: '  &c✖ &7Yêu cầu &c#stamina# &7Thể Lực'
   permission:
-    positive: '&a✔ #display#'
-    negative: '&c✖ #display#'
+    positive: '  &a✔ &7#display#'
+    negative: '  &c✖ &7#display#'
   placeholder:
-    positive: '&a✔ #display#'
-    negative: '&c✖ #display#'
+    positive: '  &a✔ &7#display#'
+    negative: '  &c✖ &7#display#'
   attribute:
-    positive: '&a✔ Yêu cầu #points# #attribute#'
-    negative: '&c✖ Yêu cầu #points# #attribute#'
+    positive: '  &a✔ &7Yêu cầu &e#points# &7điểm &e#attribute#'
+    negative: '  &c✖ &7Yêu cầu &c#points# &7điểm &c#attribute#'
   class:
-    positive: '&a✔ Lớp Yêu Cầu: #class#'
-    negative: '&c✖ Lớp Yêu Cầu: #class#'
+    positive: '  &a✔ &7Lớp nhân vật: &e#class#'
+    negative: '  &c✖ &7Lớp nhân vật yêu cầu: &c#class#'
   food:
-    positive: '&a✔ Yêu cầu #food# Thức Ăn'
-    negative: '&c✖ Yêu cầu #food# Thức Ăn'
+    positive: '  &a✔ &7Yêu cầu &e#food# &7Độ no'
+    negative: '  &c✖ &7Yêu cầu &c#food# &7Độ no'
   ingredient:
     mmoitem:
-      positive: '&8✔ &7#amount# #level##item#'
-      negative: '&c✖ &7#amount# #level##item#'
+      positive: '  &a✔ &7#amount#x #level##item#'
+      negative: '  &c✖ &7#amount#x #level##item#'
     vanilla:
-      positive: '&8✔ &7#amount# #item#'
-      negative: '&c✖ &7#amount# #item#'
+      positive: '  &a✔ &7#amount#x #item#'
+      negative: '  &c✖ &7#amount#x #item#'
 ingredient:
   mmoitem:
-    positive: '&8✔ &7#amount# #level##item#'
-    negative: '&c✖ &7#amount# #level##item#'
+    positive: '  &a✔ &7#amount#x #level##item#'
+    negative: '  &c✖ &7#amount#x #level##item#'
   vanilla:
-    positive: '&8✔ &7#amount# #item#'
-    negative: '&c✖ &7#amount# #item#'
+    positive: '  &a✔ &7#amount#x #item#'
+    negative: '  &c✖ &7#amount#x #item#'

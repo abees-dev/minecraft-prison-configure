@@ -1,0 +1,48 @@
+name: 'Trạm Tinh Luyện Bá Chủ Ngục Tù (#page#/#max#)'
+max-queue-size: 10
+sound: ENTITY_EXPERIENCE_ORB_PICKUP
+layout: default
+
+items:
+    fill:
+        material: AIR
+    no-recipe:
+        material: GRAY_STAINED_GLASS_PANE
+        name: '&aNo Recipe'
+    no-queue-item:
+        material: GRAY_STAINED_GLASS_PANE
+        name: '&aNo Item in Queue'
+
+recipes:
+    nen-netherite-ba-chu-nguc-tu:
+        output:
+            type: MATERIAL
+            id: NEN_DOI_BA_CHU_NGUC_TU
+            amount: 1
+        crafting-time: 0
+        ingredients:
+        - vanilla{type=NETHERITE_BLOCK,amount=3,display="Netherite Block"}
+    nen-emerald-ba-chu-nguc-tu:
+        output:
+            type: MATERIAL
+            id: NEN_DOI_BA_CHU_NGUC_TU
+            amount: 1
+        crafting-time: 0
+        ingredients:
+        - vanilla{type=EMERALD_BLOCK,amount=12,display="Emerald Block"}
+    nen-diamond-ba-chu-nguc-tu:
+        output:
+            type: MATERIAL
+            id: NEN_DOI_BA_CHU_NGUC_TU
+            amount: 1
+        crafting-time: 0
+        ingredients:
+        - vanilla{type=DIAMOND_BLOCK,amount=12,display="Diamond Block"}
+    che-da-ba-chu-nguc-tu:
+        output:
+            type: MATERIAL
+            id: DA_NANG_CAP_BA_CHU_NGUC_TU
+            amount: 1
+        crafting-time: 0
+        ingredients:
+        - mmoitem{type=MATERIAL,id=NEN_DOI_BA_CHU_NGUC_TU,amount=8,display="Quặng Tinh Luyện Bá Chủ Ngục Tù"}

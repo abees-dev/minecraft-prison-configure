@@ -1,7 +1,15 @@
 lore-format:
-  # ==================== General Information ====================
+  # ==================== Yêu Cầu & Giới Hạn ====================
+  - '{bar}'
+  - "#required-class#"
+  - "#required-level#"
+  - "#required-dexterity#"
+  - "#required-strength#"
+  - "#required-intelligence#"
+  - "#soulbound#"
 
-  # ========================= Professions =========================
+  # ========================= Nghề Nghệp =========================
+  - '{bar}'
   - "#profession-alchemy#"
   - "#profession-enchanting#"
   - "#profession-farming#"
@@ -11,23 +19,27 @@ lore-format:
   - "#profession-smithing#"
   - "#profession-woodcutting#"
 
-  # ========================= Item Statistics =========================
-  - "{bar}"
+  # ========================= Chỉ Số Vật Phẩm =========================
+  - '{bar}'
   - "#custom-myluck#"
-  - "#can-identify#"
-  - "#can-deconstruct#"
-  - "#can-deskin#"
+  - "#custom-miningefficiency#"
+  - "#custom-miningfortune#"
+  - "#custom-miningunbreaking#"
+  - "#pickaxe-power#"
+  - "#autosmelt#"
+  - "#bouncing-crack#"
   - "#attack-damage#"
-  - "#knockback#"
-  - "#recoil#"
-  - "#note-weight#"
   - "#attack-speed#"
-  - "#arrow-velocity#"
   - "#critical-strike-chance#"
   - "#critical-strike-power#"
   - "#skill-critical-strike-chance#"
   - "#skill-critical-strike-power#"
   - "#range#"
+  - "#lifesteal#"
+  - "#spell-vampirism#"
+  - "#knockback#"
+  - "#recoil#"
+  - "#note-weight#"
   - "#pvp-damage#"
   - "#pve-damage#"
   - "#blunt-power#"
@@ -37,6 +49,10 @@ lore-format:
   - "#skill-damage#"
   - "#physical-damage#"
   - "#projectile-damage#"
+  - "#undead-damage#"
+  - "#faction-damage-undead#"
+  - "#armor#"
+  - "#armor-toughness#"
   - "#defense#"
   - "#damage-reduction#"
   - "#fall-damage-reduction#"
@@ -46,17 +62,6 @@ lore-format:
   - "#physical-damage-reduction#"
   - "#pve-damage-reduction#"
   - "#pvp-damage-reduction#"
-  - "#undead-damage#"
-  - "#faction-damage-undead#"
-  - "#block-power#"
-  - "#block-rating#"
-  - "#dodge-rating#"
-  - "#parry-rating#"
-  - "#block-cooldown-reduction#"
-  - "#dodge-cooldown-reduction#"
-  - "#parry-cooldown-reduction#"
-  - "#armor#"
-  - "#armor-toughness#"
   - "#knockback-resistance#"
   - "#max-health#"
   - "#max-mana#"
@@ -65,26 +70,16 @@ lore-format:
   - "#mana-regeneration#"
   - "#stamina-regeneration#"
   - "#movement-speed#"
-  - "#staff-spirit#"
-  - "#lute-attack-effect#"
+  - "#cooldown-reduction#"
+  - "#block-power#"
+  - "#block-rating#"
+  - "#dodge-rating#"
+  - "#parry-rating#"
+  - "#block-cooldown-reduction#"
+  - "#dodge-cooldown-reduction#"
+  - "#parry-cooldown-reduction#"
   - "#two-handed#"
   - "#handworn#"
-  - "#autosmelt#"
-  - "#bouncing-crack#"
-  - "#pickaxe-power#"
-  - "#restore-health#"
-  - "#restore-food#"
-  - "#restore-saturation#"
-  - "#restore-mana#"
-  - "#restore-stamina#"
-  - "#soulbinding-chance#"
-  - "#soulbound-break-chance#"
-  - "#soulbound-level#"
-  - "#repair#"
-  - "#repair-percent#"
-  - "#item-cooldown#"
-  - "#lifesteal#"
-  - "#spell-vampirism#"
   - "#additional-dexterity#"
   - "#additional-strength#"
   - "#additional-intelligence#"
@@ -97,54 +92,50 @@ lore-format:
   - "#additional-experience-smelting#"
   - "#additional-experience-smithing#"
   - "#additional-experience-woodcutting#"
-  - "#cooldown-reduction#"
-  - "#mana-cost#"
-  - "#stamina-cost#"
-  - "#max-consume#"
 
-  # =========================== Elements ============================
-  - "{bar}"
+  # ========================= Tiêu Thụ & Tỷ Lệ =========================
+  - '{bar}'
+  - "#success-rate#"
+  - "#can-identify#"
+  - "#can-deconstruct#"
+  - "#can-deskin#"
+  - "#restore-health#"
+  - "#restore-food#"
+  - "#restore-saturation#"
+  - "#restore-mana#"
+  - "#restore-stamina#"
+  - "#max-consume#"
+  - "#repair#"
+  - "#repair-percent#"
+  - "#item-cooldown#"
+
+  # =========================== Nguyên Tố ============================
+  - '{bar}'
   - "#elements#"
 
-  # ============================= Effects ============================
-  - "{bar}"
+  # ============================= Hiệu Ứng ============================
+  - '{bar}'
   - "#effects#"
 
-  # ============================ Abilities ============================
-  - "{bar}"
+  # ============================ Kỹ Năng ============================
+  - '{bar}'
   - "#abilities#"
 
-  # ============================ Commands ============================
-  - "{bar}"
+  # ============================ Lệnh ============================
+  - '{bar}'
   - "#commands#"
-  - "{bar}"
-  - "#required-class#"
-  - "#required-level#"
-  - "#required-dexterity#"
-  - "#required-strength#"
-  - "#required-intelligence#"
-  - "#success-rate#"
 
-  # ============================ Set Information ======================
-  - "{bar}"
+  # ============================ Truyền Thuyết & Đá Quý ======================
+  - '{bar}'
   - "#lore#"
-  - "{bar}"
+  - '{bar}'
   - "#set#"
-  - "{bar}"
+  - '{bar}'
   - "#gem-stones#"
-
-  # ============================== Lore ===============================
-  - "{bar}"
   - "#gem-stone-lore#"
-  - "{bar}"
+
+  # ============================== Thông Tin Đáy ===============================
+  - '{sbar}'
   - "#tier#"
   - "#durability#"
-  - "#soulbound#"
-  - "#enchantment-efficiency#"
-  - "#enchantment-fortune#"
-  - "#enchantment-unbreaking#"
-
-  - "{sbar}"
   - "#item-type#"
-  - "#custom-miningeff#"
-  - "#custom-myluck#"

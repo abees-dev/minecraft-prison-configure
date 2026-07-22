@@ -1,0 +1,56 @@
+name: 'Trạm Tinh Luyện Vượt Ngục (#page#/#max#)'
+max-queue-size: 10
+sound: ENTITY_EXPERIENCE_ORB_PICKUP
+layout: default
+
+items:
+    fill:
+        material: AIR
+    no-recipe:
+        material: GRAY_STAINED_GLASS_PANE
+        name: '&aNo Recipe'
+    no-queue-item:
+        material: GRAY_STAINED_GLASS_PANE
+        name: '&aNo Item in Queue'
+
+recipes:
+    nen-netherite-vuot-nguc:
+        output:
+            type: MATERIAL
+            id: NEN_DOI_VUOT_NGUC
+            amount: 1
+        crafting-time: 0
+        ingredients:
+        - vanilla{type=NETHERITE_BLOCK,amount=4,display="Netherite Block"}
+    nen-emerald-vuot-nguc:
+        output:
+            type: MATERIAL
+            id: NEN_DOI_VUOT_NGUC
+            amount: 1
+        crafting-time: 0
+        ingredients:
+        - vanilla{type=EMERALD_BLOCK,amount=16,display="Emerald Block"}
+    nen-diamond-vuot-nguc:
+        output:
+            type: MATERIAL
+            id: NEN_DOI_VUOT_NGUC
+            amount: 1
+        crafting-time: 0
+        ingredients:
+        - vanilla{type=DIAMOND_BLOCK,amount=16,display="Diamond Block"}
+    nen-ba-vuot-nguc:
+        output:
+            type: MATERIAL
+            id: NEN_BA_VUOT_NGUC
+            amount: 1
+        crafting-time: 0
+        ingredients:
+        - mmoitem{type=MATERIAL,id=NEN_DOI_VUOT_NGUC,amount=9,display="Quặng Tinh Luyện Vượt Ngục"}
+    che-da-vuot-nguc:
+        output:
+            type: MATERIAL
+            id: DA_NANG_CAP_VUOT_NGUC
+            amount: 1
+        crafting-time: 0
+        ingredients:
+        - mmoitem{type=MATERIAL,id=NEN_BA_VUOT_NGUC,amount=8,display="Quặng Đại Tinh Luyện Vượt Ngục"}
