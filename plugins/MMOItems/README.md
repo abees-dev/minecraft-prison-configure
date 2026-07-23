@@ -38,36 +38,207 @@ Lệnh tổng quát: `/mi give MATERIAL <ITEM_ID> [player] [amount]`
 
 ---
 
-## 🏛️ 2. Cấu Hình NPC & Các Trạm Mở GUI (Crafting Stations)
+## 🏛️ 2. Cấu Hình & Quản Lý NPC Mở Trạm GUI (Crafting Stations)
 
-Hệ thống được tách thành 2 loại NPC cho mỗi Rank để người chơi tương tác rõ ràng:
+Hệ thống được tách thành 3 loại NPC cho mỗi Rank để người chơi tương tác rõ ràng.
 
-### 📦 NPC 1: Trạm Tinh Luyện Nguyên Liệu (Nén Block Mỏ ➔ Quặng TL ➔ Cường Hóa Thạch)
-Sử dụng lệnh Citizens (`/npc cmd add mi station open <station_id>`) hoặc CommandNPC:
+### 🤖 A. Hướng Dẫn Tạo & Lệnh Quản Lý NPC (Citizens & CommandNPC)
 
-* **Rank 1 (Tân Binh)**: `/mi stations open refinery-rookie`
-* **Rank 2 (Tù Nhân)**: `/mi stations open refinery-prisoner`
-* **Rank 3 (Lao Công)**: `/mi stations open refinery-worker`
-* **Rank 4 (Thợ Đào)**: `/mi stations open refinery-miner`
-* **Rank 5 (Đội Trưởng)**: `/mi stations open refinery-captain`
-* **Rank 6 (Phó Quản Ngục)**: `/mi stations open refinery-vice-warden`
-* **Rank 7 (Quản Ngục)**: `/mi stations open refinery-warden`
-* **Rank 8 (Bá Chủ Ngục Tù)**: `/mi stations open refinery-overlord`
-* **Rank 9 (Vượt Ngục)**: `/mi stations open refinery-jailbreak`
+#### 1. Tạo & Cài Đặt NPC:
+* **Tạo NPC mới**: `/npc create <Tên NPC> --type PLAYER` (Ví dụ: `/npc create &f&lTINH LUYỆN &8• &f&lTÂN BINH --type PLAYER`)
+* **Đổi skin cho NPC**: `/npc skin <tên_player_hoặc_skin>`
+  * *Skin Tinh Luyện (Merchant/Quản đốc)*: `Merchant`, `Alchemist`, `Worker`, `Trader`
+  * *Skin Lò Rèn Cúp (Thợ Đào Mỏ)*: `Miner`, `Dwarf`, `Diggy`, `Blacksmith`
+  * *Skin Lò Rèn Giáp (Vệ Binh/Quản Ngục)*: `Guard`, `Warden`, `Knight`, `Armor`
+* **Bật/Tắt chế độ NPC xoay đầu nhìn người chơi khi đi qua**: `/npc look` (hoặc `/npc lookclose`)
+* **Chỉnh độ cao của tên bay trên đầu NPC**: `/npc height 2.5` (nâng cao lên 2.5 cho đẹp)
+
+#### 2. Gán Lệnh Mở GUI Cho NPC (Fix lỗi "Please specify a valid player"):
+> ⚠️ **Lý do lỗi:** Mặc định Citizens chạy lệnh dưới quyền Console, nên cần truyền thêm tên người chơi `<p>`.
+* **Cách 1: Chạy dưới quyền Console (Khuyên dùng - tự động bypass quyền & có tham số `<p>`):**
+  `/npc cmd add mi stations open <STATION_ID> <p>`
+* **Cách 2: Chạy dưới quyền OP (`-o` flag):**
+  `/npc cmd add -o mi stations open <STATION_ID>`
+* **Cách 3: Chạy dưới quyền Người Chơi thường (`-p` flag):**
+  `/npc cmd add -p mi stations open <STATION_ID>` *(Yêu cầu người chơi có quyền `mmoitems.station.<STATION_ID>`)*
+
+#### 3. Xóa / Tìm Lại NPC Khi Bị Mất Vị Trí:
+* **Xóa NPC trực tiếp theo ID/Tên (không cần tìm đến tận nơi):**
+  `/npc remove <ID>` hoặc `/npc remove <Tên_NPC>`
+* **Xem danh sách tất cả NPC (kèm ID & thế giới):**
+  `/npc list` (hoặc `/npc list 2`, `/npc list 3`)
+* **Chọn NPC theo ID:**
+  `/npc select <ID>`
+* **Kéo NPC bị mất về vị trí bạn đang đứng:**
+  `/npc tphere`
+* **Dịch chuyển bạn đến tận vị trí NPC:**
+  `/npc tp`
 
 ---
 
-### 🔨 NPC 2: Lò Rèn Nâng Cấp Cúp (Ghép Cúp Cấp Dưới + Nguyên Liệu)
+### 📜 B. Danh Sách Lệnh Tạo & Gán NPC Nhóm Theo 9 Rank (Dùng Skin Chuẩn Đã Kiểm Tra)
 
-* **Rank 1 (Tân Binh)**: `/mi stations open forge-rookie`
-* **Rank 2 (Tù Nhân)**: `/mi stations open forge-prisoner`
-* **Rank 3 (Lao Công)**: `/mi stations open forge-worker`
-* **Rank 4 (Thợ Đào)**: `/mi stations open forge-miner`
-* **Rank 5 (Đội Trưởng)**: `/mi stations open forge-captain`
-* **Rank 6 (Phó Quản Ngục)**: `/mi stations open forge-vice-warden`
-* **Rank 7 (Quản Ngục)**: `/mi stations open forge-warden`
-* **Rank 8 (Bá Chủ Ngục Tù)**: `/mi stations open forge-overlord`
-* **Rank 9 (Vượt Ngục)**: `/mi stations open forge-jailbreak`
+#### ⚪ Rank 1: Tân Binh (Rookie)
+```bash
+# 1. Trạm Tinh Luyện
+/npc create &f&lTINH LUYỆN &8• &f&lTÂN BINH --type PLAYER
+/npc skin Merchant
+/npc cmd add mi stations open refinery-rookie <p>
+
+# 2. Lò Rèn Cúp
+/npc create &f&lLÒ RÈN CÚP &8• &f&lTÂN BINH --type PLAYER
+/npc skin Steve
+/npc cmd add mi stations open forge-rookie <p>
+
+# 3. Lò Rèn Giáp
+/npc create &f&lLÒ RÈN GIÁP &8• &f&lTÂN BINH --type PLAYER
+/npc skin Guard
+/npc cmd add mi stations open armor-forge-rookie <p>
+```
+
+#### 🟢 Rank 2: Tù Nhân (Prisoner)
+```bash
+# 1. Trạm Tinh Luyện
+/npc create &a&lTINH LUYỆN &8• &a&lTÙ NHÂN --type PLAYER
+/npc skin Trader
+/npc cmd add mi stations open refinery-prisoner <p>
+
+# 2. Lò Rèn Cúp
+/npc create &a&lLÒ RÈN CÚP &8• &a&lTÙ NHÂN --type PLAYER
+/npc skin Miner
+/npc cmd add mi stations open forge-prisoner <p>
+
+# 3. Lò Rèn Giáp
+/npc create &a&lLÒ RÈN GIÁP &8• &a&lTÙ NHÂN --type PLAYER
+/npc skin Knight
+/npc cmd add mi stations open armor-forge-prisoner <p>
+```
+
+#### 🔵 Rank 3: Lao Công (Worker)
+```bash
+# 1. Trạm Tinh Luyện
+/npc create &b&lTINH LUYỆN &8• &b&lLAO CÔNG --type PLAYER
+/npc skin Alchemist
+/npc cmd add mi stations open refinery-worker <p>
+
+# 2. Lò Rèn Cúp
+/npc create &b&lLÒ RÈN CÚP &8• &b&lLAO CÔNG --type PLAYER
+/npc skin Dwarf
+/npc cmd add mi stations open forge-worker <p>
+
+# 3. Lò Rèn Giáp
+/npc create &b&lLÒ RÈN GIÁP &8• &b&lLAO CÔNG --type PLAYER
+/npc skin Captain
+/npc cmd add mi stations open armor-forge-worker <p>
+```
+
+#### 🟡 Rank 4: Thợ Đào (Miner)
+```bash
+# 1. Trạm Tinh Luyện
+/npc create &e&lTINH LUYỆN &8• &e&lTHỢ ĐÀO --type PLAYER
+/npc skin Merchant
+/npc cmd add mi stations open refinery-miner <p>
+
+# 2. Lò Rèn Cúp
+/npc create &e&lLÒ RÈN CÚP &8• &e&lTHỢ ĐÀO --type PLAYER
+/npc skin Miner
+/npc cmd add mi stations open forge-miner <p>
+
+# 3. Lò Rèn Giáp
+/npc create &e&lLÒ RÈN GIÁP &8• &e&lTHỢ ĐÀO --type PLAYER
+/npc skin Knight
+/npc cmd add mi stations open armor-forge-miner <p>
+```
+
+#### 🟠 Rank 5: Đội Trưởng (Captain)
+```bash
+# 1. Trạm Tinh Luyện
+/npc create &6&lTINH LUYỆN &8• &6&lĐỘI TRƯỜNG --type PLAYER
+/npc skin Trader
+/npc cmd add mi stations open refinery-captain <p>
+
+# 2. Lò Rèn Cúp
+/npc create &6&lLÒ RÈN CÚP &8• &6&lĐỘI TRƯỜNG --type PLAYER
+/npc skin Blacksmith
+/npc cmd add mi stations open forge-captain <p>
+
+# 3. Lò Rèn Giáp
+/npc create &6&lLÒ RÈN GIÁP &8• &6&lĐỘI TRƯỜNG --type PLAYER
+/npc skin Captain
+/npc cmd add mi stations open armor-forge-captain <p>
+```
+
+#### 🔴 Rank 6: Phó Quản Ngục (Vice Warden)
+```bash
+# 1. Trạm Tinh Luyện
+/npc create &c&lTINH LUYỆN &8• &c&lPHÓ QUẢN NGỤC --type PLAYER
+/npc skin Alchemist
+/npc cmd add mi stations open refinery-vice-warden <p>
+
+# 2. Lò Rèn Cúp
+/npc create &c&lLÒ RÈN CÚP &8• &c&lPHÓ QUẢN NGỤC --type PLAYER
+/npc skin Dwarf
+/npc cmd add mi stations open forge-vice-warden <p>
+
+# 3. Lò Rèn Giáp
+/npc create &c&lLÒ RÈN GIÁP &8• &c&lPHÓ QUẢN NGỤC --type PLAYER
+/npc skin Guard
+/npc cmd add mi stations open armor-forge-vice-warden <p>
+```
+
+#### 🟣 Rank 7: Quản Ngục (Warden)
+```bash
+# 1. Trạm Tinh Luyện
+/npc create &d&lTINH LUYỆN &8• &d&lQUẢN NGỤC --type PLAYER
+/npc skin King
+/npc cmd add mi stations open refinery-warden <p>
+
+# 2. Lò Rèn Cúp
+/npc create &d&lLÒ RÈN CÚP &8• &d&lQUẢN NGỤC --type PLAYER
+/npc skin Blacksmith
+/npc cmd add mi stations open forge-warden <p>
+
+# 3. Lò Rèn Giáp
+/npc create &d&lLÒ RÈN GIÁP &8• &d&lQUẢN NGỤC --type PLAYER
+/npc skin Warden
+/npc cmd add mi stations open armor-forge-warden <p>
+```
+
+#### 🔮 Rank 8: Bá Chủ Ngục Tù (Overlord)
+```bash
+# 1. Trạm Tinh Luyện
+/npc create &5&lTINH LUYỆN &8• &5&lBÁ CHỦ --type PLAYER
+/npc skin King
+/npc cmd add mi stations open refinery-overlord <p>
+
+# 2. Lò Rèn Cúp
+/npc create &5&lLÒ RÈN CÚP &8• &5&lBÁ CHỦ --type PLAYER
+/npc skin Miner
+/npc cmd add mi stations open forge-overlord <p>
+
+# 3. Lò Rèn Giáp
+/npc create &5&lLÒ RÈN GIÁP &8• &5&lBÁ CHỦ --type PLAYER
+/npc skin Warden
+/npc cmd add mi stations open armor-forge-overlord <p>
+```
+
+#### 🔥 Rank 9: Vượt Ngục (Jailbreak)
+```bash
+# 1. Trạm Tinh Luyện
+/npc create &4&lTINH LUYỆN &8• &4&lVƯỢT NGỤC --type PLAYER
+/npc skin Merchant
+/npc cmd add mi stations open refinery-jailbreak <p>
+
+# 2. Lò Rèn Cúp
+/npc create &4&lLÒ RÈN CÚP &8• &4&lVƯỢT NGỤC --type PLAYER
+/npc skin Blacksmith
+/npc cmd add mi stations open forge-jailbreak <p>
+
+# 3. Lò Rèn Giáp
+/npc create &4&lLÒ RÈN GIÁP &8• &4&lVƯỢT NGỤC --type PLAYER
+/npc skin Knight
+/npc cmd add mi stations open armor-forge-jailbreak <p>
+```
 
 ---
 
