@@ -47,10 +47,11 @@ function getSwordStats(rIdx, tIdx) {
   const baseCrit = [1, 3, 5, 8, 10, 12, 15, 18, 20][rIdx];
   const crit = baseCrit + (tIdx * 0.5);
 
-  const baseLifesteal = [0, 0, 0, 0, 1.5, 2.5, 4.0, 6.0, 8.0][rIdx];
-  const lifesteal = baseLifesteal > 0 ? baseLifesteal + (tIdx * 0.5) : 0;
+  const basePhysDmg = [0, 0, 0, 0, 3.0, 6.0, 9.0, 12.0, 15.0][rIdx];
+  const stepPhysDmg = [0, 0, 0, 0, 0.5, 0.5, 0.5, 0.5, 1.0][rIdx];
+  const physicalDamage = basePhysDmg > 0 ? basePhysDmg + (stepPhysDmg * tIdx) : 0;
 
-  return { dmg, speed: 1.6, crit, lifesteal };
+  return { dmg, speed: 1.6, crit, physicalDamage };
 }
 
 // 2. Công thức Rìu Chiến (Combat Axe)
@@ -111,8 +112,8 @@ ranks.forEach((r, rIdx) => {
     attack-speed: ${stats.speed}
     critical-strike-chance: ${stats.crit.toFixed(1)}
 `;
-    if (stats.lifesteal > 0) {
-      swordContent += `    lifesteal: ${stats.lifesteal.toFixed(1)}\n`;
+    if (stats.physicalDamage > 0) {
+      swordContent += `    physical-damage: ${stats.physicalDamage.toFixed(1)}\n`;
     }
     swordContent += getSocketsYAML(rIdx);
     swordContent += `    will-break: false
@@ -121,6 +122,143 @@ ranks.forEach((r, rIdx) => {
 `;
   }
 });
+
+swordContent += `GACHA_SWORD_DEMON_SLAYER:
+  base:
+    material: IRON_SWORD
+    custom-model-data: 10017
+    itemsadder-item: "fantasy_weapons:demonslayers_greatsword"
+    name: "&c&lMa Kiếm Thần Long &7[&6&lGACHA&7]"
+    max-durability: 20000
+    tier: UNIQUE
+    hide-enchants: true
+    lore-format: weapon-lore
+    lore:
+      - "&b&l✦ Vật Phẩm Gacha Độc Quyền"
+      - "&7 &c●&7 Cổ kiếm diệt rồng chứa sức mạnh ma thuật cổ xưa"
+      - "&7 &c●&7 Sát thương bộc phát cực cao & phần trăm sát thương gia tăng"
+    attack-damage: 53.0
+    attack-speed: 1.6
+    critical-strike-chance: 25.0
+    physical-damage: 25.0
+    pve-damage: 15.0
+    ability:
+      ability-1:
+        type: DRAGON_BREATH
+        mode: RIGHT_CLICK
+        cooldown: 8.0
+        damage: 20.0
+    gem-sockets:
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
+    will-break: false
+    unbreakable: false
+
+GACHA_SWORD_DARK_SOUL_KATANA:
+  base:
+    material: IRON_SWORD
+    custom-model-data: 10012
+    itemsadder-item: "fantasy_weapons:gloomsteel_katana"
+    name: "&5&lĐêm Tối Diệt Vong &7[&6&lGACHA&7]"
+    max-durability: 20000
+    tier: UNIQUE
+    hide-enchants: true
+    lore-format: weapon-lore
+    lore:
+      - "&b&l✦ Vật Phẩm Gacha Độc Quyền"
+      - "&7 &5●&7 Thanh Katana rèn từ kim loại bóng tối"
+      - "&7 &5●&7 Tốc độ chém cực nhanh và chuyên trảm Boss/PvE"
+    attack-damage: 51.5
+    attack-speed: 1.8
+    critical-strike-chance: 28.0
+    critical-strike-power: 30.0
+    pve-damage: 20.0
+    ability:
+      ability-1:
+        type: CIRCULAR_SLASH
+        mode: RIGHT_CLICK
+        cooldown: 6.0
+        damage: 18.0
+    gem-sockets:
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
+    will-break: false
+    unbreakable: false
+
+GACHA_SWORD_AZURE_FROST:
+  base:
+    material: DIAMOND_SWORD
+    custom-model-data: 10000
+    itemsadder-item: "fantasy_weapons:azure_greatsword"
+    name: "&3&lÁnh Băng Long Tinh &7[&6&lGACHA&7]"
+    max-durability: 20000
+    tier: UNIQUE
+    hide-enchants: true
+    lore-format: weapon-lore
+    lore:
+      - "&b&l✦ Vật Phẩm Gacha Độc Quyền"
+      - "&7 &3●&7 Đại kiếm mang năng lượng hàn băng vĩnh cửu"
+      - "&7 &3●&7 Gia tăng lượng lớn máu và khả năng phòng thủ cho chủ nhân"
+    attack-damage: 52.5
+    attack-speed: 1.6
+    defense: 8.0
+    max-health: 10.0
+    physical-damage: 15.0
+    ability:
+      ability-1:
+        type: FROST_NOVA
+        mode: RIGHT_CLICK
+        cooldown: 8.0
+        damage: 16.0
+    gem-sockets:
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
+    will-break: false
+    unbreakable: false
+
+GACHA_SWORD_PHANTOM_PARTISAN:
+  base:
+    material: IRON_SWORD
+    custom-model-data: 10002
+    itemsadder-item: "fantasy_weapons:heavenly_partisan"
+    name: "&e&lHoàng Kim Diệt Thần Thương &7[&6&lGACHA&7]"
+    max-durability: 20000
+    tier: UNIQUE
+    hide-enchants: true
+    lore-format: weapon-lore
+    lore:
+      - "&b&l✦ Vật Phẩm Gacha Độc Quyền"
+      - "&7 &e●&7 Huyễn thương tỏa ánh hào quang thánh thần"
+      - "&7 &e●&7 Xuyên thủng mọi loại giáp kiên cố nhất"
+    attack-damage: 54.5
+    attack-speed: 1.5
+    critical-strike-chance: 22.0
+    armor-penetration: 15.0
+    ability:
+      ability-1:
+        type: THRUST
+        mode: RIGHT_CLICK
+        cooldown: 5.0
+        damage: 22.0
+    gem-sockets:
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
+    will-break: false
+    unbreakable: false
+`;
+
 fs.writeFileSync(path.join(baseDir, 'item', 'sword.yml'), swordContent, 'utf8');
 
 // Generate axe.yml

@@ -398,7 +398,7 @@ SWORD_DOI_TRUONG_1:
     attack-damage: 14.0
     attack-speed: 1.6
     critical-strike-chance: 10.0
-    lifesteal: 1.5
+    physical-damage: 3.0
     gem-sockets:
       - Uncolored
       - Uncolored
@@ -421,7 +421,7 @@ SWORD_DOI_TRUONG_2:
     attack-damage: 15.0
     attack-speed: 1.6
     critical-strike-chance: 10.5
-    lifesteal: 2.0
+    physical-damage: 3.5
     gem-sockets:
       - Uncolored
       - Uncolored
@@ -444,7 +444,7 @@ SWORD_DOI_TRUONG_3:
     attack-damage: 16.0
     attack-speed: 1.6
     critical-strike-chance: 11.0
-    lifesteal: 2.5
+    physical-damage: 4.0
     gem-sockets:
       - Uncolored
       - Uncolored
@@ -467,7 +467,7 @@ SWORD_DOI_TRUONG_4:
     attack-damage: 17.0
     attack-speed: 1.6
     critical-strike-chance: 11.5
-    lifesteal: 3.0
+    physical-damage: 4.5
     gem-sockets:
       - Uncolored
       - Uncolored
@@ -490,7 +490,7 @@ SWORD_DOI_TRUONG_5:
     attack-damage: 18.0
     attack-speed: 1.6
     critical-strike-chance: 12.0
-    lifesteal: 3.5
+    physical-damage: 5.0
     gem-sockets:
       - Uncolored
       - Uncolored
@@ -513,7 +513,7 @@ SWORD_PHO_QUAN_NGUC_1:
     attack-damage: 18.5
     attack-speed: 1.6
     critical-strike-chance: 12.0
-    lifesteal: 2.5
+    physical-damage: 6.0
     gem-sockets:
       - Uncolored
       - Uncolored
@@ -537,7 +537,7 @@ SWORD_PHO_QUAN_NGUC_2:
     attack-damage: 19.8
     attack-speed: 1.6
     critical-strike-chance: 12.5
-    lifesteal: 3.0
+    physical-damage: 6.5
     gem-sockets:
       - Uncolored
       - Uncolored
@@ -561,7 +561,7 @@ SWORD_PHO_QUAN_NGUC_3:
     attack-damage: 21.0
     attack-speed: 1.6
     critical-strike-chance: 13.0
-    lifesteal: 3.5
+    physical-damage: 7.0
     gem-sockets:
       - Uncolored
       - Uncolored
@@ -585,7 +585,7 @@ SWORD_PHO_QUAN_NGUC_4:
     attack-damage: 22.3
     attack-speed: 1.6
     critical-strike-chance: 13.5
-    lifesteal: 4.0
+    physical-damage: 7.5
     gem-sockets:
       - Uncolored
       - Uncolored
@@ -609,7 +609,7 @@ SWORD_PHO_QUAN_NGUC_5:
     attack-damage: 23.5
     attack-speed: 1.6
     critical-strike-chance: 14.0
-    lifesteal: 4.5
+    physical-damage: 8.0
     gem-sockets:
       - Uncolored
       - Uncolored
@@ -633,7 +633,7 @@ SWORD_QUAN_NGUC_1:
     attack-damage: 24.0
     attack-speed: 1.6
     critical-strike-chance: 15.0
-    lifesteal: 4.0
+    physical-damage: 9.0
     gem-sockets:
       - Uncolored
       - Uncolored
@@ -657,7 +657,7 @@ SWORD_QUAN_NGUC_2:
     attack-damage: 25.5
     attack-speed: 1.6
     critical-strike-chance: 15.5
-    lifesteal: 4.5
+    physical-damage: 9.5
     gem-sockets:
       - Uncolored
       - Uncolored
@@ -681,7 +681,7 @@ SWORD_QUAN_NGUC_3:
     attack-damage: 27.0
     attack-speed: 1.6
     critical-strike-chance: 16.0
-    lifesteal: 5.0
+    physical-damage: 10.0
     gem-sockets:
       - Uncolored
       - Uncolored
@@ -705,7 +705,7 @@ SWORD_QUAN_NGUC_4:
     attack-damage: 28.5
     attack-speed: 1.6
     critical-strike-chance: 16.5
-    lifesteal: 5.5
+    physical-damage: 10.5
     gem-sockets:
       - Uncolored
       - Uncolored
@@ -729,7 +729,7 @@ SWORD_QUAN_NGUC_5:
     attack-damage: 30.0
     attack-speed: 1.6
     critical-strike-chance: 17.0
-    lifesteal: 6.0
+    physical-damage: 11.0
     gem-sockets:
       - Uncolored
       - Uncolored
@@ -753,7 +753,7 @@ SWORD_BA_CHU_NGUC_TU_1:
     attack-damage: 31.0
     attack-speed: 1.6
     critical-strike-chance: 18.0
-    lifesteal: 6.0
+    physical-damage: 12.0
     gem-sockets:
       - Uncolored
       - Uncolored
@@ -778,7 +778,7 @@ SWORD_BA_CHU_NGUC_TU_2:
     attack-damage: 32.8
     attack-speed: 1.6
     critical-strike-chance: 18.5
-    lifesteal: 6.5
+    physical-damage: 12.5
     gem-sockets:
       - Uncolored
       - Uncolored
@@ -803,7 +803,7 @@ SWORD_BA_CHU_NGUC_TU_3:
     attack-damage: 34.5
     attack-speed: 1.6
     critical-strike-chance: 19.0
-    lifesteal: 7.0
+    physical-damage: 13.0
     gem-sockets:
       - Uncolored
       - Uncolored
@@ -828,7 +828,7 @@ SWORD_BA_CHU_NGUC_TU_4:
     attack-damage: 36.3
     attack-speed: 1.6
     critical-strike-chance: 19.5
-    lifesteal: 7.5
+    physical-damage: 13.5
     gem-sockets:
       - Uncolored
       - Uncolored
@@ -853,7 +853,7 @@ SWORD_BA_CHU_NGUC_TU_5:
     attack-damage: 38.0
     attack-speed: 1.6
     critical-strike-chance: 20.0
-    lifesteal: 8.0
+    physical-damage: 14.0
     gem-sockets:
       - Uncolored
       - Uncolored
@@ -878,7 +878,7 @@ SWORD_VUOT_NGUC_1:
     attack-damage: 39.0
     attack-speed: 1.6
     critical-strike-chance: 20.0
-    lifesteal: 8.0
+    physical-damage: 15.0
     gem-sockets:
       - Uncolored
       - Uncolored
@@ -903,7 +903,7 @@ SWORD_VUOT_NGUC_2:
     attack-damage: 41.3
     attack-speed: 1.6
     critical-strike-chance: 20.5
-    lifesteal: 8.5
+    physical-damage: 16.0
     gem-sockets:
       - Uncolored
       - Uncolored
@@ -928,7 +928,7 @@ SWORD_VUOT_NGUC_3:
     attack-damage: 43.5
     attack-speed: 1.6
     critical-strike-chance: 21.0
-    lifesteal: 9.0
+    physical-damage: 17.0
     gem-sockets:
       - Uncolored
       - Uncolored
@@ -953,7 +953,7 @@ SWORD_VUOT_NGUC_4:
     attack-damage: 45.8
     attack-speed: 1.6
     critical-strike-chance: 21.5
-    lifesteal: 9.5
+    physical-damage: 18.0
     gem-sockets:
       - Uncolored
       - Uncolored
@@ -978,7 +978,7 @@ SWORD_VUOT_NGUC_5:
     attack-damage: 48.0
     attack-speed: 1.6
     critical-strike-chance: 22.0
-    lifesteal: 10.0
+    physical-damage: 19.0
     gem-sockets:
       - Uncolored
       - Uncolored
@@ -1001,11 +1001,11 @@ GACHA_SWORD_DEMON_SLAYER:
     lore:
       - "&b&l✦ Vật Phẩm Gacha Độc Quyền"
       - "&7 &c●&7 Cổ kiếm diệt rồng chứa sức mạnh ma thuật cổ xưa"
-      - "&7 &c●&7 Sát thương bộc phát cực cao & khả năng hút máu vượt trội"
+      - "&7 &c●&7 Sát thương bộc phát cực cao & phần trăm sát thương gia tăng"
     attack-damage: 53.0
     attack-speed: 1.6
     critical-strike-chance: 25.0
-    lifesteal: 12.0
+    physical-damage: 25.0
     pve-damage: 15.0
     ability:
       ability-1:
@@ -1074,7 +1074,7 @@ GACHA_SWORD_AZURE_FROST:
     attack-speed: 1.6
     defense: 8.0
     max-health: 10.0
-    lifesteal: 8.0
+    physical-damage: 15.0
     ability:
       ability-1:
         type: FROST_NOVA
@@ -1122,5 +1122,3 @@ GACHA_SWORD_PHANTOM_PARTISAN:
       - Uncolored
     will-break: false
     unbreakable: false
-
-

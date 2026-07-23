@@ -57,7 +57,7 @@ HAC_AM_RING_2:
     name: "&d&lNhẫn Hắc Ám &7[Tả]"
     set: HAC_AM_SET
     magic-damage: 8.0
-    lifesteal: 3.0
+    max-mana: 50.0
 
 LOI_THAN_RING_1:
   base:
@@ -229,8 +229,7 @@ HAC_AM_GLOVES:
     itemsadder-item: "rings_pack:glove_2"
     name: "&d&lGăng Tay Hắc Ám"
     set: HAC_AM_SET
-    magic-damage: 10.0
-    lifesteal: 5.0
+    magic-damage: 15.0
 
 LOI_THAN_GLOVES:
   base:

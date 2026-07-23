@@ -41,17 +41,19 @@ LONG_VUONG_SET:
             attack-damage: 45
             critical-strike-chance: 15
             critical-strike-power: 25
+            lifesteal: 8
         '5':
             attack-damage: 75
             critical-strike-chance: 25
             critical-strike-power: 50
+            lifesteal: 15
             potion-increase_damage: 2
     lore-tag:
     - '&c&l✦ Kích Hoạt Bộ Long Vương:'
     - '&7  [2 món] &c+15 &7Sát Thương, &6+5% &7Chí Mạng'
     - '&7  [3 món] &c+30 &7Sát Thương, &6+10% &7Chí Mạng'
-    - '&7  [4 món] &c+45 &7Sát Thương, &6+15% &7Chí Mạng, &6+25% &7ST CM'
-    - '&6  [5 món FULL SET] &c+75 &7ST, &6+25% &7Chí Mạng, &6+50% &7ST CM & &cSức Mạnh II'
+    - '&7  [4 món] &c+45 &7Sát Thương, &6+15% &7Chí Mạng, &6+25% &7ST CM, &c+8% &7Hút Máu'
+    - '&6  [5 món FULL SET] &c+75 &7ST, &6+25% &7Chí Mạng, &6+50% &7ST CM, &c+15% &7Hút Máu & &cSức Mạnh II'
 
 BANG_TINH_SET:
     name: '&b&lBộ Băng Tinh (Frost Set)'
@@ -142,15 +144,17 @@ HOANG_GIA_SET:
             physical-damage: 30
             max-health: 350
             magic-damage: 20
+            lifesteal: 7
         '5':
             physical-damage: 45
             magic-damage: 35
             max-health: 500
             max-mana: 300
+            lifesteal: 12
             potion-regeneration: 2
     lore-tag:
     - '&6&l✦ Kích Hoạt Bộ Hoàng Gia:'
     - '&7  [2 món] &c+10% &7ST Vật Lý, &c+100 &7Máu'
     - '&7  [3 món] &c+20% &7ST Vật Lý, &c+200 &7Máu'
-    - '&7  [4 món] &c+30% &7ST Vật Lý, &c+350 &7Máu, &d+20% &7ST Phép'
-    - '&6  [5 món FULL SET] &c+45% &7ST VL, &d+35% &7ST Phép, &c+500 &7Máu, &9+300 &7Mana & &aHồi Phục II'
+    - '&7  [4 món] &c+30% &7ST Vật Lý, &c+350 &7Máu, &d+20% &7ST Phép, &c+7% &7Hút Máu'
+    - '&6  [5 món FULL SET] &c+45% &7ST VL, &d+35% &7ST Phép, &c+500 &7Máu, &9+300 &7Mana, &c+12% &7Hút Máu & &aHồi Phục II'

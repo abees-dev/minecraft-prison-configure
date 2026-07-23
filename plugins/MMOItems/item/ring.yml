@@ -57,7 +57,7 @@ HAC_AM_RING_2:
     name: "&d&lNhẫn Hắc Ám &7[Tả]"
     set: HAC_AM_SET
     magic-damage: 8.0
-    lifesteal: 3.0
+    max-mana: 50.0
 
 LOI_THAN_RING_1:
   base:
