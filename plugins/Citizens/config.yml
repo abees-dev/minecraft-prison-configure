@@ -238,7 +238,7 @@ general:
     locale: ''
   # The resource pack path to save resource packs to
   resource-pack-path: plugins/Citizens/resourcepack
-  reload-warning-enabled: true
+  reload-warning-enabled: false
 advanced:
   # Whether to check the minecraft version for compatibility (do not change)
   check-minecraft-version: true

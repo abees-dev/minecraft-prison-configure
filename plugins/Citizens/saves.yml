@@ -1,29 +1,29 @@
 # Citizens NPC Storage
 
-last-created-npc-id: 0
+last-created-npc-id: 31
 npc:
-  '0':
-    name: Thợ Rèn
-    uuid: fc71c29a-22b3-4767-86da-7022cd229cbe
+  '2':
+    name: '&f&lTINH LUYỆN &8• &f&lTÂN BINH'
+    uuid: a81a17f4-abac-4947-94aa-0ace3c7446ed
     traits:
-      location:
-        bodyYaw: 5.0345964
-        world: world_prison
-        x: -8.4225
-        y: -57.0
-        z: 116.335
-        yaw: 5.0346
-        pitch: 23.2668
-      skintrait: {}
+      type: PLAYER
       owner:
         uuid: 57481db9-38f7-3a96-b52d-ff0f7993c232
-      spawned: false
+      spawned: true
+      location:
+        bodyYaw: 145.86993
+        world: world_prison
+        x: -29.3934
+        y: -56.0
+        z: 127.427
+        yaw: 127.0278
+        pitch: -3.8859
       commandtrait:
         commands:
           '0':
-            command: mi stations open pickaxe-forge
+            command: mi stations open refinery-rookie <p>
             hand: RIGHT
-            player: true
+            player: false
             npc: false
             op: false
             cooldown: 0
@@ -32,8 +32,1349 @@ npc:
             delay: 0
             cost: -1.0
             experienceCost: -1
+      lookclose:
+        range: 10.0
+        enabled: true
+        randomPitchRange:
+          '0': 0.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+      skintrait:
+        signature: NJhXeCfcwZ7HXMJr9AeJ4ZorA7xhQHrLkYYNr8EL5XY1+OuaWnj3o1zXwrZ585n66o/mZEZ6gV1PR+nyTXN4XPCQR7fRY5MzgWmFEJDGimjefyc4unvQQNZqeMIL9/B4Pg5F3WVJPatk05ZWTu7EDYRxxohWrvupnFVoy/KC+eRNjS1Zdjh04WZHyRGqcPM4I2oPINncYllipHn+9daLP4mlW4CnZdXNjLUqPjTanDwOPmVNZXFEcfQCbIL927aFkXKJZmPkL5J1vRtISPqI3iWdoXQKlIUShhNX6WCpFhiw9tEPKNmE35kNCaWfZoyAonzdmW7UWsyXjL0YV1jt0WOKY4vg8hRmxvJpy+KcoiRCzlVN99TthPDMWTnJyifrRo6cQDR78cUTkbHcR//MfM+xdGUvvrLOZklCtCtQ5jZoE8fb2Sfdjubb9y63zAA5OSvIzGsqyw33qoJIDFOyG2C0lj1arq4ZOuCGMMoH2hAZSGtY8KqK/sUaOLAjRau5KaObURq8QCF9siFUD9u8LZrRNBY2IFPgwjKkxeGh+LIKLSkxZFRGpOMrhK9yBRQi2oeVHGBuDr3rpImH+a0mtbu9oeGSqgNjcVhdP28gtDm0HJ1oVi2mwtA2SMGAnTu6Vh5209SLFIzdgdJ0xqfjT+/0Eqm/z1vIdCC2pR7dXS4=
+        skinName: Merchant
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTc4NDc3NjY4NjcyNSwKICAicHJvZmlsZUlkIiA6ICJhMzllZjU3YTM4N2M0Y2QxOTc0MDU5YjczMmViYzdhNSIsCiAgInByb2ZpbGVOYW1lIiA6ICJNZXJjaGFudCIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS84NjRkNDMxNjUxZDhjZTdkYTJkOGY4OGRkODIyZDk1NTdkN2JjZjliMGI1ZDBhOGVkMTNiOTg5ODgxZmFkYmVmIgogICAgfQogIH0KfQ==
+    traitnames: type,owner,lookclose,inventory,rotationtrait,spawned,hologramtrait,location,scoreboardtrait,commandtrait,skintrait
+    navigator:
+      speedmodifier: 1.0
+      avoidwater: false
+      usedefaultstuckaction: false
+    metadata:
+      cached-skin-uuid: a39ef57a-387c-4cd1-9740-59b732ebc7a5
+      cached-skin-uuid-name: merchant
+  '3':
+    name: '&f&lLÒ RÈN CÚP &8• &f&lTÂN BINH'
+    uuid: 07e7e924-2f6a-4e69-8b15-020f26c496b2
+    traits:
       type: PLAYER
-    traitnames: location,inventory,type,scoreboardtrait,spawned,skintrait,owner,commandtrait
+      owner:
+        uuid: 57481db9-38f7-3a96-b52d-ff0f7993c232
+      spawned: true
+      location:
+        bodyYaw: 78.05626
+        world: world_prison
+        x: -29.5565
+        y: -56.0
+        z: 117.5767
+        yaw: 78.0563
+        pitch: 0.0
+      commandtrait:
+        commands:
+          '0':
+            command: mi stations open forge-rookie <p>
+            hand: RIGHT
+            player: false
+            npc: false
+            op: false
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+            cost: -1.0
+            experienceCost: -1
+      lookclose:
+        range: 10.0
+        enabled: true
+        randomPitchRange:
+          '0': 0.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+      skintrait:
+        signature: hmX7RwvZSadwBD0Vu1Llq2o58Zf2JGsibegjfc0nOqx25/IqTN0JF0lEyK09a7wHFm06fA1Dl8C9zivWS1rLURwV8aCMhIL8kYy8xRXoytImttvpQ2B2DkKic5tqqXj+0PRD0fpF7YxOHYDj8kkHjKSeojp3Cs8CHVKxMgUeRoHPxRGTrxJWzCHDsuIC5237y9H+Nl7PQzQiB5ps9zfL+y81xVZCLXAsIZp7mbLLKFSd+ZXeo22HONkaJj+mysLTM0ZgVC0xzJmzs/LD17Cow2tSY1TybDy+HF/6+zGIa2QA/XR/8R9+h1EANYmTphcxkhCV8nKmdUOllxPxFS4oaTN4NMHCYj8XubFO9A/Takqf6Fj+Fn6jxBkjb9VpFwkTYFtVdgOFrSA9G8B32147UU8i9XiT04ChWZIoMulPDfKED7F7OPHgcud3PsUbAsoyU225KjO8HqHYVCpP9T/3JkgXYyN/FOhvUfVzdcJr3D4GBtIqRFMd1KdDVn++WOYRAOjm3dzi+SWG5gy34CTaodo+4m0ewDvXcdLHBMtVxiaOoRvsgvwW0j5MO94yU8MCDC4M5tew14wtiaBn+olLfUlmn0m202Z8jBpSROhuk6OW7dhPMcBk4O5FQBAlIvyCi9ozF5/kf/6gO/R+vefNr8dM3lZyXcqmtVDhLe3uFeM=
+        skinName: Steve
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTc4NDc3NjczMjk3NSwKICAicHJvZmlsZUlkIiA6ICI4NjY3YmE3MWI4NWE0MDA0YWY1NDQ1N2E5NzM0ZWVkNyIsCiAgInByb2ZpbGVOYW1lIiA6ICJTdGV2ZSIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS82MGE1YmQwMTZiM2M5YTFiOTI3MmU0OTI5ZTMwODI3YTY3YmU0ZWJiMjE5MDE3YWRiYmM0YTRkMjJlYmQ1YjEiCiAgICB9LAogICAgIkNBUEUiIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzk1M2NhYzhiNzc5ZmU0MTM4M2U2NzVlZTJiODYwNzFhNzE2NThmMjE4MGY1NmZiY2U4YWEzMTVlYTcwZTJlZDYiCiAgICB9CiAgfQp9
+    traitnames: type,owner,lookclose,inventory,rotationtrait,spawned,hologramtrait,location,scoreboardtrait,commandtrait,skintrait
+    navigator:
+      speedmodifier: 1.0
+      avoidwater: false
+      usedefaultstuckaction: false
+    metadata:
+      cached-skin-uuid: 8667ba71-b85a-4004-af54-457a9734eed7
+      cached-skin-uuid-name: steve
+  '5':
+    name: '&f&lLÒ RÈN GIÁP &8• &f&lTÂN BINH'
+    uuid: fedbf243-3751-424f-ae0a-ae713b623587
+    traits:
+      type: PLAYER
+      owner:
+        uuid: 57481db9-38f7-3a96-b52d-ff0f7993c232
+      spawned: true
+      location:
+        bodyYaw: 48.932648
+        world: world_prison
+        x: -29.5281
+        y: -56.0
+        z: 114.0594
+        yaw: 48.9326
+        pitch: -6.1382
+      commandtrait:
+        commands:
+          '0':
+            command: mi stations open armor-forge-rookie <p>
+            hand: RIGHT
+            player: false
+            npc: false
+            op: false
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+            cost: -1.0
+            experienceCost: -1
+      lookclose:
+        range: 10.0
+        enabled: true
+        randomPitchRange:
+          '0': 0.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+      skintrait:
+        signature: N7MnWsnJxWgm36GueoyIUHx1b/uCQPExW7hoF7KWs2mvRhJCIxllW5QIarn21Um1bzOkc/nThj/61s2BC418sU4eyjFC3gLwqqCtgiAyfzdjzSdg7hQVACIoD+o6UWUSLFGxmcz7sUATDSiw4F787AGruE6Rvp9vvXkkbXXbfo2YTwNe0K4Q6MnjRJph/YLscvJOjkQ4blus1lnBNMu9QyYiaYckirQSgsvLf7g6jdbfKZqgFogY6TRaFRuUZzmcpYXhvDljiyN4PEwDCbSzd7buTQsZP9DZzZ1SVtap5CMOza/cvf48YdnWMhTl+7DqB9HFbOUsOAoxMgxxNnmbQ/ezjXyfrn4q/ntEkD+tONEbYeMA0cV3JDLrJBJJXl+Ooww+unvSivM3g5+zGUITzo8Wv4S5AIpwgNrudMvzOzftfnTw3qY/xcJmRuWWKh97FvGWNuoGwFj80e+Pxuvs0A6ugAKENBSieZvp3RvqoX1mxw4vEvXpaZKq3jWIbrHgVtKsDLZxHDfZtLybo//vSVrR22l+dQId3O4f0YWa+ni2kiPQYMfQQPSRh7k+i+fqP8aaGSHdt99UtNcMIWR5jWqTIxSRTOM40VNvms7yQu7jr0/xZnytDHVo/Zn40ESTRRVLaJf72bB3xb5FlAJYK/JY7QC0+PSSgg2/Urs9oBo=
+        skinName: Guard
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTc4NDc3Njk2NTc4NCwKICAicHJvZmlsZUlkIiA6ICI1MjA2YmU1YmMxMDM0M2U5Yjg2NmY5ZGZjMWNlOTg3MiIsCiAgInByb2ZpbGVOYW1lIiA6ICJHdWFyZCIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS81MTE4MmNmNjVkMTgwZWNmMDhmYWIyMzExYWJlZDBjZmNlZTk2MGU2ZGY1YTNiYTUyOGY3ZWE0N2NjNDFmMGEyIgogICAgfQogIH0KfQ==
+    traitnames: type,owner,lookclose,inventory,rotationtrait,spawned,hologramtrait,location,scoreboardtrait,commandtrait,skintrait
+    navigator:
+      speedmodifier: 1.0
+      avoidwater: false
+      usedefaultstuckaction: false
+    metadata:
+      cached-skin-uuid: 5206be5b-c103-43e9-b866-f9dfc1ce9872
+      cached-skin-uuid-name: guard
+  '6':
+    metadata:
+      cached-skin-uuid: 9e87549c-ce8a-4e28-bfc5-1c6a9024d2f5
+      cached-skin-uuid-name: trader
+    name: '&a&lTINH LUYỆN &8• &a&lTÙ NHÂN'
+    uuid: 86f26e50-f9f4-408a-907c-3b5c2a5485f9
+    traits:
+      type: PLAYER
+      owner:
+        uuid: 57481db9-38f7-3a96-b52d-ff0f7993c232
+      spawned: true
+      location:
+        bodyYaw: 100.21245
+        world: world_prison
+        x: -459.4955
+        y: -55.0
+        z: 46.6844
+        yaw: 100.2124
+        pitch: -17.0487
+      commandtrait:
+        commands:
+          '0':
+            command: mi stations open refinery-prisoner <p>
+            hand: RIGHT
+            player: false
+            npc: false
+            op: false
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+            cost: -1.0
+            experienceCost: -1
+      skintrait:
+        signature: TE3G61HqfSwi37cC3LpRzK7OkSvmohWbVA/q1vEF5uQJjfqj9F3t8zAE+e7e054CVfo6AdKc8G7/aMcVHpf6fvQM0TM14Skyy1zfGu99ljmVRkQRRSPL8zMvWZ8zZGV53trV6IHdqB2qwghhPH7wjNEG9/5cGVhHEWDd1QZuZZMEOBkHT6AwWAYJg31KYhq6GAFWI4PDf9OIphpb6uX+6hsYptuMddlWseBzSo115Q/oZQILbcZ33pLHvO7pMdSzzwgGalbi/Jap4FC0T+ZWdluE9LQglAKJFXHRnhPQvslFleMZIk3sSZaV8vZ/NQCl43tF/k7NJmAajngGTiCpK+bAprs9egVwnoaKl/liQH8sbulK+teZojQeG3yRRSO94KxAHxXL72qOpOMOSOOgsu1j6ieOxQsbwi/s56IKiGhKqzb1pJctEiVikt+F+/3rtMCd+Bw8bnBZAVShCOxcuRTxxAS0sqb1lHyMvVv+Df4BpuyyXaa50F3wiKVNvvJMZ6jmAxtwJchdbUZGLgEemzwTlvuGYSitUa4fh5WCo9R7N5DIuFAjD2+kDELxHlzW+A9PDk1xeOCsFg9E2QE/9AVmUyvpk5/MwdXsibUQTK8nu7/0kvQqGcNFHKK7F5f/9Wx0IaS/cRgn5U1mvJYapHxkcmubRtXu0avb46A0Mhs=
+        skinName: Trader
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTc4NDc3NjY5OTY5NCwKICAicHJvZmlsZUlkIiA6ICI5ZTg3NTQ5Y2NlOGE0ZTI4YmZjNTFjNmE5MDI0ZDJmNSIsCiAgInByb2ZpbGVOYW1lIiA6ICJUcmFkZXIiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvY2NmOTU4NjQyMmM4NmI5ODk5N2QxMTYyNzc2OTYzNDcyZTQ1YzE4MzE0Y2Q3ODY1ZmY5NzYxOGE5MzdkYmQ2OCIKICAgIH0KICB9Cn0=
+      lookclose:
+        range: 10.0
+        enabled: true
+        randomPitchRange:
+          '0': 0.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+    traitnames: type,owner,lookclose,inventory,spawned,hologramtrait,location,scoreboardtrait,commandtrait,skintrait
+    navigator:
+      speedmodifier: 1.0
+      avoidwater: false
+      usedefaultstuckaction: false
+  '8':
+    metadata:
+      cached-skin-uuid: 457b7d2c-258f-4a1b-9243-78835e4f1e23
+      cached-skin-uuid-name: knight
+    name: '&a&lLÒ RÈN GIÁP &8• &a&lTÙ NHÂN'
+    uuid: ea744077-30ca-4541-b2f4-38de5094f653
+    traits:
+      type: PLAYER
+      owner:
+        uuid: 57481db9-38f7-3a96-b52d-ff0f7993c232
+      spawned: true
+      location:
+        bodyYaw: 91.73471
+        world: world_prison
+        x: -459.493
+        y: -55.0
+        z: 32.1207
+        yaw: 91.7347
+        pitch: 15.8252
+      commandtrait:
+        commands:
+          '0':
+            command: mi stations open armor-forge-prisoner <p>
+            hand: RIGHT
+            player: false
+            npc: false
+            op: false
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+            cost: -1.0
+            experienceCost: -1
+      skintrait:
+        signature: OHHdtKx0DdwS2z6YaoCTC9yTXZP8JiKlY0YmhU7IiF3Rk8QOgvuBVtRMZsgKkkLV0CiVZ53QhPrO3NYCkB9a9eLnj60YVIvsE+jodYTh1Xg8inT1236jDi6ReaWmxfG8Lbj08GGWdo9cuvHMpJsAi9xgxYQ6Mf2i/wvuI0Y2ogjeOMLnchP1CvIzG7dJP6HMPlK9v1/Aap4isAvMDyV6DcOd7A3RtE1YahrDAJXSqRsbZn7cXkpFEybmq3Gf6020/Rwry3N5/7zzbFXVrTURcyQJSK3MNLBbjrMfH4EixnuV8rAEzQeUmW87MbF9MaCZH1ZMgaCKnrlD8836p9AhtxdA5ZoiuBSLpJL0uowFlEsxY/man2CzLFZW1H604mCzBNFi9y4nHqbwJeSfIugE2g0GiKz8lAprxT+cCN0emMu7uuC8YXfSVhIKHUNj2e/2XhQvzmzfnIuH++6eIEEKHrcpFML+6hJvlxTLxcAyzUEW3gS620fyM11ocwqrZJFepXiTbB2cgAaZ+UgWwkEeFLEFNzrgbOnZQUpgnp5kl+7NYbqQ0GRJkRlbQlPFdtM4hIkMflD+wZreMl55UfqieEwqwOhJUUiprcsJqHC3zz0LVBu4xH0BLAgXHsyS2VbPYaxNUZBeugPmps5mQZsac8iPO90qammNmN87zxjabzQ=
+        skinName: Knight
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTc4NDc3NjY1NjY4OSwKICAicHJvZmlsZUlkIiA6ICI0NTdiN2QyYzI1OGY0YTFiOTI0Mzc4ODM1ZTRmMWUyMyIsCiAgInByb2ZpbGVOYW1lIiA6ICJLbmlnaHQiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTJlMmRjMTA5ZDIyYjYxMDA0M2EyNTU2N2FiOTZjNTE3OWE2MzM4NDYxYjQwNzI1ZjA2ODc0ZGNhYmIxNDViIgogICAgfQogIH0KfQ==
+      lookclose:
+        range: 10.0
+        enabled: true
+        randomPitchRange:
+          '0': 0.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+    traitnames: type,owner,lookclose,inventory,spawned,hologramtrait,location,scoreboardtrait,commandtrait,skintrait
+    navigator:
+      speedmodifier: 1.0
+      avoidwater: false
+      usedefaultstuckaction: false
+  '9':
+    metadata:
+      cached-skin-uuid: 6a7b43e5-543b-4542-a365-d9106e16ce17
+      cached-skin-uuid-name: alchemist
+    name: '&b&lTINH LUYỆN &8• &b&lLAO CÔNG'
+    uuid: 7bdbb111-ec2e-4bcc-8be7-34ccdb3b83d6
+    traits:
+      type: PLAYER
+      owner:
+        uuid: 57481db9-38f7-3a96-b52d-ff0f7993c232
+      spawned: true
+      location:
+        bodyYaw: 90.70153
+        world: world_prison
+        x: -1346.5376
+        y: -57.0
+        z: 19.4054
+        yaw: 90.7015
+        pitch: -29.8588
+      commandtrait:
+        commands:
+          '0':
+            command: mi stations open refinery-worker <p>
+            hand: RIGHT
+            player: false
+            npc: false
+            op: false
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+            cost: -1.0
+            experienceCost: -1
+      skintrait:
+        signature: EsB0oV9o4LYCuFDo5v7yvzdMKfCiG35a9xWiO2dh7JAvwI6l/Zny4wwIqCleSy27b/pf+0tHY5TziE4XTvPnNguyP45gbNv/CUYawM6ynmHAEcpemLfYI1RpLCp/CX9LxQGbEvFVfMm21GcAOPSvml1HnZLbjl+xVbZwD/NjAJlQfDmHsVdCFIKXLT5XLWn2BkeHX9smczYnx0HaeGCN4yg4cRHHVQtHV2pLMykzvQqKVJ0HPGpmjIsTlW/Ej9o5r7CRZJMPY6MORXskd9KV7q5z9wW2+UY2cW7aVN3XeLX+55wMPj+2WlJYoX9tgH4XoXRXB9r45j1ZApvojcIe2wLRpXa7CTB0LqMT+Tkt3Fx5ojOPPIWeccqEhzR1gSd62yfK0KwIeO6VPHsFZcDqeaGrILkm/sY8NKCERqyb8WsHmGaBwPm4MD0dcb7Ld6of7d+kZNrJ985udTzRobhB/uItNP0SY6l1Q4hqVDNuAlMCq1BLFQNiUN6zYAEkgA86iLk+AXdG9Wl3misfz4N9QWXkGzQZPeoa3YEl4oPipzZ/MciTpHGX9MfXve/xI9Zwy+FHv/VqT/DjNzq9BQ1XLhWIwpoTXRNCWzSW66SKddu5ddgwRYVDq558nTVr8H6npul4wLiqJwlBoml/o8F/iqTCJFCA6A5qkKdoV8MDg9E=
+        skinName: Alchemist
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTc4NDc3NjY5MzAyMiwKICAicHJvZmlsZUlkIiA6ICI2YTdiNDNlNTU0M2I0NTQyYTM2NWQ5MTA2ZTE2Y2UxNyIsCiAgInByb2ZpbGVOYW1lIiA6ICJBbGNoZW1pc3QiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGMwMzExOWM2ODVkNDQ4NjUyMzk4YmMwYjc0ZDY4ODFmMjQ5ODA2NWM1ZWVjOTY3ZGJlZjQ4Yzc0YzY3ZjdiNiIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9LAogICAgIkNBUEUiIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzIzNDBjMGUwM2RkMjRhMTFiMTVhOGIzM2MyYTdlOWUzMmFiYjIwNTFiMjQ4MWQwYmE3ZGVmZDYzNWNhN2E5MzMiCiAgICB9CiAgfQp9
+      lookclose:
+        range: 10.0
+        enabled: true
+        randomPitchRange:
+          '0': 0.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+    traitnames: type,owner,lookclose,inventory,spawned,hologramtrait,location,scoreboardtrait,commandtrait,skintrait
+    navigator:
+      speedmodifier: 1.0
+      avoidwater: false
+      usedefaultstuckaction: false
+  '11':
+    metadata:
+      cached-skin-uuid: 8c65eac5-b044-4b60-b3e9-c21765bf38ca
+      cached-skin-uuid-name: captain
+    name: '&b&lLÒ RÈN GIÁP &8• &b&lLAO CÔNG'
+    uuid: 24ce8399-6699-40b9-8bb1-c39b4219adf2
+    traits:
+      type: PLAYER
+      owner:
+        uuid: 57481db9-38f7-3a96-b52d-ff0f7993c232
+      spawned: true
+      location:
+        bodyYaw: 96.05713
+        world: world_prison
+        x: -1346.6643
+        y: -57.0
+        z: 3.5553
+        yaw: 96.0571
+        pitch: 2.5441
+      commandtrait:
+        commands:
+          '0':
+            command: mi stations open armor-forge-worker <p>
+            hand: RIGHT
+            player: false
+            npc: false
+            op: false
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+            cost: -1.0
+            experienceCost: -1
+      skintrait:
+        signature: v1joqojJymywrCqjhT/6HZy3qiVMfRLcftTxfUiTbnSEnB89DqpXyqOJMKXFGN+8Mwx6+6xwfejFkjKprsnDN10Fwu5k6JxS+OKaVTiLZoYQYM4m/VPZW+a14FulaKhkhuS+OJZI/gB4nY+vVSaAdTJjzKe6+gBZkTL10pqE4FMGcNc0UL08TrvJm2wsusuVfkM6ySBsP/Hs8eeStTwm981mWJ0ZHgpnvc3+mUWz8yNsWILvC36OaSbR3PgrcCox5NfTYiJtICtRxCFZ+O8q5nzG+V/SxsUJ9gJx5TsH1vAWvC/3E0nuKMtkySTl+ia7tUN8X5qemNBlkPt86/BSE82r0xEgnq1MAO9az5YQlJN2EQCzkN+Meia6xsXjblr+0yDuHqRct4cAJouR7T7fufpUG42iSBszNEKsXO89bFbYAXhFycpNtM6avNcl4/2OaUc2dL1KVlhlV3NKo8YpWjUV7LgEbaC8gqGAsCsipynS3BPhlogmZ7pJvbGtQ7RD8vZaeU3Q1e47Zhn67A5Vnd8gamRRZAJMZEwdy6v3QICPYTd1hWj1pbRnEj32ehMnO7MxJcr6TrGohmLcgVN2q+s9ETnfXVvIAqhN6xV36I7pvZPPpA5AoNkxNICRpadtrltc1MM7gBIBxVoo2LVLNsrAHEJ8yzrPZSvx0O8koaE=
+        skinName: Captain
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTc4NDc3NjY3NTk5MSwKICAicHJvZmlsZUlkIiA6ICI4YzY1ZWFjNWIwNDQ0YjYwYjNlOWMyMTc2NWJmMzhjYSIsCiAgInByb2ZpbGVOYW1lIiA6ICJDYXB0YWluIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzQ0NDUyZTJjOWRhNzE3ZDBiN2JhNDYxZWYxNzc2MTIxZjY4OThiM2VmZDI2NjQzZGU5ZWNmOGI4NGYzZTFlOSIKICAgIH0KICB9Cn0=
+      lookclose:
+        range: 10.0
+        enabled: true
+        randomPitchRange:
+          '0': 0.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+    traitnames: type,owner,lookclose,inventory,spawned,hologramtrait,location,scoreboardtrait,commandtrait,skintrait
+    navigator:
+      speedmodifier: 1.0
+      avoidwater: false
+      usedefaultstuckaction: false
+  '10':
+    metadata:
+      cached-skin-uuid: bb13fd11-f983-46e4-abd4-827dd2436f63
+      cached-skin-uuid-name: dwarf
+    name: '&b&lLÒ RÈN CÚP &8• &b&lLAO CÔNG'
+    uuid: 8c2d5a30-5626-44f8-9ee3-1c3e4e69072c
+    traits:
+      type: PLAYER
+      owner:
+        uuid: 57481db9-38f7-3a96-b52d-ff0f7993c232
+      spawned: true
+      location:
+        bodyYaw: 91.34671
+        world: world_prison
+        x: -1346.7666
+        y: -57.0
+        z: 9.5242
+        yaw: 91.3467
+        pitch: -9.9838
+      commandtrait:
+        commands:
+          '0':
+            command: mi stations open forge-worker <p>
+            hand: RIGHT
+            player: false
+            npc: false
+            op: false
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+            cost: -1.0
+            experienceCost: -1
+      skintrait:
+        signature: K6Qm3fq7md8QZTXepewOGncWpJggyyfL3oCyph2KB/njJG1nriGiEsiz9oPlZ3sOXHqBtGenhFUMSlBEMGGYyIm9vb4vcmmRkBhayxJqasJNGLdBjK64zn8pPEkw6uXzgCvyLqkdbSasEY8MDbDZNBz64W9NniaArJ1KQ901nJEJkP8avNFtJRQBoWJyXsQF3j67BXrMr2U9c5sxaE9H4LBmXyjtDyY3RD3he+MGwYJFWW1Bd4H7KFwzp/UHrR0X6Y4ZA9HHw20IBisB8wyFvZFIIw0yBF5QD82EvXU8B4iiN24MK/F+bAaa3zbMauQhQEFFRxEZ2ZK5/exU9cMiFVTXkitFXhd2eI8+3ODTlCKqgK9e8SSiSQ6XeYCEpyQ+RSBI/Aq8nvmdCI4H0OX9VlPZjRKfSnNepm+CJog3+kt9HGJ9GXh0esW6kOpkjpTRbrJsdy59WczEDuk7j5f+60B2TpfNcDMHJlN3unnOrl0P+89RT66HdYGEbVgHADxrS6C0gzquehKv6SvqCgYeaoZz57oKSwPggHWzJfQirYq0duGgtREzklCSyjAmdrVkSB4kSMiPnwvTQDI0XwH70zQWOKGzQnIN36IrfVR3BQQkMWNm/eZailW5JGyYJcu2JGRN7HXzwiB/RUdhAaf1cRQ44k67ETt066LFzRa3rtk=
+        skinName: Dwarf
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTc4NDc3NjcyMTE5NCwKICAicHJvZmlsZUlkIiA6ICJiYjEzZmQxMWY5ODM0NmU0YWJkNDgyN2RkMjQzNmY2MyIsCiAgInByb2ZpbGVOYW1lIiA6ICJEd2FyZiIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS84NDYyMDkzMWViMDg5ZWRkY2UyNzkzNmNlMTIyYTQ2ODM3ZTFmYmU2NjA4YTYzMmQ5Njk2NGI3NzQyMGUzYWIiCiAgICB9CiAgfQp9
+      lookclose:
+        range: 10.0
+        enabled: true
+        randomPitchRange:
+          '0': 0.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+    traitnames: type,owner,lookclose,inventory,spawned,hologramtrait,location,scoreboardtrait,commandtrait,skintrait
+    navigator:
+      speedmodifier: 1.0
+      avoidwater: false
+      usedefaultstuckaction: false
+  '7':
+    metadata:
+      cached-skin-uuid: 4e94f45c-759c-4293-af16-fdf219237a5d
+      cached-skin-uuid-name: miner
+    name: '&a&lLÒ RÈN CÚP &8• &a&lTÙ NHÂN'
+    uuid: 935d2d56-ecaf-4dc8-b253-4fa06b305086
+    traits:
+      type: PLAYER
+      owner:
+        uuid: 57481db9-38f7-3a96-b52d-ff0f7993c232
+      spawned: true
+      location:
+        bodyYaw: 109.91545
+        world: world_prison
+        x: -459.5511
+        y: -55.0
+        z: 36.2443
+        yaw: 109.9155
+        pitch: 15.731
+      commandtrait:
+        commands:
+          '0':
+            command: mi stations open forge-prisoner <p>
+            hand: RIGHT
+            player: false
+            npc: false
+            op: false
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+            cost: -1.0
+            experienceCost: -1
+      skintrait:
+        signature: cznwxSSMJmxBqwWGVbyA5LspGIqBXnANeA7GpQR2ePRzhJtbx86iimrtMf58XDFUi0InjrRpHjUaCVoCM5IsqFAOvnf5BACrnsfMImibwHmotqhBT/DeX2eVvP2x1FGJSRY/m76/xV4XUkjsl4l+NJZEXR4Afy//s2JGy5bUUhnnkofLaaWdRpmFHXqTNbPDrCKgBj4TEskMUznJgPSUtL2Eo5kafqd4js/oU6lMyK3MjxjQMOah2M3pMQ0bSeERRUFufIyLVxngRGfhH+ciRPQixYP3UnHNDGw8+7pMhUkorVgdCp9/i7uFhvPohRIaj0S5bDZ5ySCpHdxqLNWaEa7QkxIqxwiG2RDsPu2oo6CIRNXMojX/8/hwHrEhuqtGBOjMbj86GfQJwwtVEji6TFJzEPu7gQJ/J1WGeK71uC7ms0KtiwBnblodUeDNwKxC8aHW4818F6tb8UNl7q4Wd9IMiNQ5x3GkswsDFd4q4Dh6PgjhM8PBKTe3hWyTn61FBKmM8vKkcqZSHklRtX3AhBMa3gut150fM1Qm0kBgC1oHHD8Vgp5WqItceC+RJ/Mdquz30ihqwefGWEMmq9KzpNF1hvUDeJgvrmfF5jZTykTQvEUWTu/F3wtTYJSrcB/PfqFWdBkC7wX9Vg0RX/7sHD7Sq6kA0zJ4vFcKxNHutUU=
+        skinName: Miner
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTc4NDc3NjcxMzM0OCwKICAicHJvZmlsZUlkIiA6ICI0ZTk0ZjQ1Yzc1OWM0MjkzYWYxNmZkZjIxOTIzN2E1ZCIsCiAgInByb2ZpbGVOYW1lIiA6ICJNaW5lciIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9iYTRiNTFiZjg1M2JlZjdlODhjMGQxODhhOGNhMWE2ZGUwZmFhMjIyZjdhYmI1MmU3YjhjYWY3YmNmNzBhZTYyIgogICAgfSwKICAgICJDQVBFIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9mOWE3NjUzNzY0Nzk4OWY5YTBiNmQwMDFlMzIwZGFjNTkxYzM1OWU5ZTYxYTMxZjRjZTExYzg4ZjIwN2YwYWQ0IgogICAgfQogIH0KfQ==
+      lookclose:
+        range: 10.0
+        enabled: true
+        randomPitchRange:
+          '0': 0.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+    traitnames: type,owner,lookclose,inventory,spawned,hologramtrait,location,scoreboardtrait,commandtrait,skintrait
+    navigator:
+      speedmodifier: 1.0
+      avoidwater: false
+      usedefaultstuckaction: false
+  '29':
+    metadata:
+      cached-skin-uuid: 453cce52-89b2-436b-a19e-0567d4ae96ff
+      cached-skin-uuid-name: blacksmith
+    name: '&4&lLÒ RÈN CÚP &8• &4&lVƯỢT NGỤC'
+    uuid: 9a47f229-bb14-4faf-b670-211f493b9411
+    traits:
+      type: PLAYER
+      owner:
+        uuid: 57481db9-38f7-3a96-b52d-ff0f7993c232
+      spawned: true
+      location:
+        bodyYaw: -0.6784009
+        world: world_prison
+        x: -2130.3407
+        y: -18.0
+        z: -1121.4643
+        yaw: -0.6784
+        pitch: 23.8325
+      commandtrait:
+        commands:
+          '0':
+            command: mi stations open forge-jailbreak <p>
+            hand: RIGHT
+            player: false
+            npc: false
+            op: false
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+            cost: -1.0
+            experienceCost: -1
+      skintrait:
+        signature: Ten28ierjf4ITHnwrCk1VWFc8biJpUS5DPjhvQQfQzD9WJryPaswyOX2YpJ7dDXwSQED6icHUeU0vrrJUrX1MoCTqV7DCyzxruKs4I6x5dQ1uf1y727ioNMKMsOZOmnVniO0DM+c0wUyRbL1DThG1zs5EUh/Y9cLb3maTVh9phlNuhEUcu/f4xy8ENLUQPeeDrCfDrEEFrMCAppZjTYxjBEDdKTbBU09cZfrXIHkiYKoua3PmGrBewj+UAfHSS7r7SEy1mI4IeL7NFfqifD7l14YuYCGyDnBbEEiooo14G7bErfPJ7+PEIOGHk6Fc58zikyPYggopBzjBbZxy9h6WWVUeKUxdW+n4KHKZp04KYMfVcFyZe1iew+wdv429knaKl7rfIl0r9WkCz07s8Ii5loo8so/rsSB1ENPbilA9K5FdKAWxOLu1zWZK58vkqcJRR7bHsYxC6YOz8eJPhpK5+9vJtQ5Ec46A2fgqNhrb5rNJje2O1fjwE4tNzZAO5wdo5iSv50Wtrtddn2wbKppEHBYBFhC+wLatgsHpUPQnaHxG1e/l95h8iOpoJbNdXrJKSueLGDAznGRwdSb952qi61bsjyMloKuK2/Ay56qbGXDghZr2tmQ3Q/PchzWwNPz01S9zrb4O1cAD1HoxI5UAjN6RkO8X1wQCGACmKrbuSw=
+        skinName: Blacksmith
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTc4NDc3Nzc1OTcxMSwKICAicHJvZmlsZUlkIiA6ICI0NTNjY2U1Mjg5YjI0MzZiYTE5ZTA1NjdkNGFlOTZmZiIsCiAgInByb2ZpbGVOYW1lIiA6ICJCbGFja3NtaXRoIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2UxNDliOTgwMzAwYmI3MDBmNjIwYWRiYzRjNDVlY2JiNTU5NWMwMjg4MjViNWI3OGQzNzg3MDVlY2ZhZTVhMzciCiAgICB9CiAgfQp9
+      lookclose:
+        range: 10.0
+        enabled: true
+        randomPitchRange:
+          '0': 0.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+    traitnames: type,owner,lookclose,inventory,spawned,hologramtrait,location,scoreboardtrait,commandtrait,skintrait
+    navigator:
+      speedmodifier: 1.0
+      avoidwater: false
+      usedefaultstuckaction: false
+  '25':
+    metadata:
+      cached-skin-uuid: b2b5e42c-3c1d-46e7-a9e9-b968e5b2af13
+      cached-skin-uuid-name: king
+    name: '&5&lTINH LUYỆN &8• &5&lBÁ CHỦ'
+    uuid: c714fae1-0f6e-43d1-8243-9cf82e092745
+    traits:
+      type: PLAYER
+      owner:
+        uuid: 57481db9-38f7-3a96-b52d-ff0f7993c232
+      spawned: true
+      location:
+        bodyYaw: -174.47183
+        world: world_prison
+        x: -2352.569
+        y: -56.0
+        z: -699.5739
+        yaw: -174.4718
+        pitch: 16.2024
+      commandtrait:
+        commands:
+          '0':
+            command: mi stations open refinery-overlord <p>
+            hand: RIGHT
+            player: false
+            npc: false
+            op: false
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+            cost: -1.0
+            experienceCost: -1
+      skintrait:
+        signature: RbEZck7rrMX0QhNC3OuswtoFfOmi/p6C4aq4kNfsuwTIQC9JhifiTjfVuNs/CyjlIdl2gWUXuDaDMm7ruYnsBfV3t1284tlCA4hGYMrTRlTbQyqEMAlFPzK4zxv3wiGK4AFqWwEsjZSC1tDeZMa+XYbt8bjwxugKH6OBrvlUyOhN5PGPjI9QBqKoKqG0b5BTw6K002jSfk21MM8kO/vxMD18WR5dF6dVunFzmQOGGQ7fchCPTzCI+x8/kTB0hbB2uNUklbqn3KFT64mpoOdlehnrsgbOvsh6GIp/AJx0mERj0o8E7Z0vysuRZ9DIveBfOZbH6H3A9V995dSx4fbBVVsgrD/y/OpI3tLfjMbtTc96kM1erxhcMZWe8aySETMwLaTXRWOgdsSfiO4PwFwzyKpirgaZ6tPbz0XEKNFnY609oU4McINFTFqUTwgfL8LyFW1qILfxUnp7a2L5M7yfZbK1VX32mM8iC1vIjIklIefA/SCxMS2Qj23xXKO7hSTpHNdvqQsDxJRD4WToHAAiQVAjI8mT7nc6gZ93oi+HRrGQzp0o/nX9xm9FZZwbQmVCuZJLXkI+w+17D9SpLeLECKqcY4RgbdBSCNpjC7FaskYB/BU2D3YKdQT/xnWOaXq/FEsHnzU+bAgXXFUv0AL13l7otPzym30AvZoh8UKSNYA=
+        skinName: King
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTc4NDc3NzczODU1NSwKICAicHJvZmlsZUlkIiA6ICJiMmI1ZTQyYzNjMWQ0NmU3YTllOWI5NjhlNWIyYWYxMyIsCiAgInByb2ZpbGVOYW1lIiA6ICJLaW5nIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzNkZjY5NDQwNWJlYzFkMWJkMjk0OGRiYzhjODAxYzQzNWJjOGI2YmZlYWQ5NzVhMTljNTZjNzM2NGFkN2NjMmQiCiAgICB9CiAgfQp9
+      lookclose:
+        range: 10.0
+        enabled: true
+        randomPitchRange:
+          '0': 0.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+    traitnames: type,owner,lookclose,inventory,spawned,hologramtrait,location,scoreboardtrait,commandtrait,skintrait
+    navigator:
+      speedmodifier: 1.0
+      avoidwater: false
+      usedefaultstuckaction: false
+  '12':
+    metadata:
+      cached-skin-uuid: a39ef57a-387c-4cd1-9740-59b732ebc7a5
+      cached-skin-uuid-name: merchant
+    name: '&e&lTINH LUYỆN &8• &e&lTHỢ ĐÀO'
+    uuid: 20930aa4-dfa9-4778-8b41-021285a2dd55
+    traits:
+      type: PLAYER
+      owner:
+        uuid: 57481db9-38f7-3a96-b52d-ff0f7993c232
+      spawned: true
+      location:
+        bodyYaw: 94.58578
+        world: world_prison
+        x: -1842.5115
+        y: -56.0
+        z: 50.5728
+        yaw: 94.5858
+        pitch: 0.8486
+      commandtrait:
+        commands:
+          '0':
+            command: mi stations open refinery-miner <p>
+            hand: RIGHT
+            player: false
+            npc: false
+            op: false
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+            cost: -1.0
+            experienceCost: -1
+      skintrait:
+        signature: nNu269ygYsb38roCkKqKamnGaLGaOO1aCfTt887IB1tgA+vLZdpmLS9mLt00NDYSd1tCZGnMe5n5qzVeZxpbJfOUprzxGWKn0rpkRtzDXOmctCaSeVObyPVY7waIGlCq98iX9URFaenXEaD/sQxomULFlZbjNOyA332nhcoSdSaAcGa6JxOK/Z2GLw6q6F4qMjKLI/77J008uCdEJxcZ3KeHnhM1vn45nzL6lparPCfpbvFSzR2QI9dLMJtA9/J+ZXUAMPqMyLgawaT5K28DG9kQ629A0a8KeNia5SVUb5VATyY2jsgDIYgIrNVzv/tx7fOzlqzD9VY9Dd0ovu7HNW79JI4jZiEsa821Z8fG0zYPRtlPzur5NSMyWQ6aZlu2dHWv8OX/cmgGtaO0W8HA3VAr9hRoJE7Cr1xhkAbYU90QWDFwSEiamhbzkLqljjkEWOORwG5UkFf+EpwOCxmjFo7IN9gvgsqKl0YBe3oltyU2th8ppUOPWwScWt/UAJurm8H/b1/mbSmkFasjfgIXQ4gTJ5zWvfcnlP6M6IHAQ8wlkl8D+tMYEJ7PUbBgbC4gspX1zSCtu9BeuIk5LRPbnT9Lj/DVjC2X8gHHNV2tthtnfDQWSFXD/6BwK8VjllrKvqwWNjmTib2NomMJgoejHae859lU+l+l9RCiwyQDc30=
+        skinName: Merchant
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTc4NDc3NjkyNjA3MCwKICAicHJvZmlsZUlkIiA6ICJhMzllZjU3YTM4N2M0Y2QxOTc0MDU5YjczMmViYzdhNSIsCiAgInByb2ZpbGVOYW1lIiA6ICJNZXJjaGFudCIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS84NjRkNDMxNjUxZDhjZTdkYTJkOGY4OGRkODIyZDk1NTdkN2JjZjliMGI1ZDBhOGVkMTNiOTg5ODgxZmFkYmVmIgogICAgfQogIH0KfQ==
+      lookclose:
+        range: 10.0
+        enabled: true
+        randomPitchRange:
+          '0': 0.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+    traitnames: type,owner,lookclose,inventory,spawned,hologramtrait,location,scoreboardtrait,commandtrait,skintrait
+    navigator:
+      speedmodifier: 1.0
+      avoidwater: false
+      usedefaultstuckaction: false
+  '13':
+    metadata:
+      cached-skin-uuid: 4e94f45c-759c-4293-af16-fdf219237a5d
+      cached-skin-uuid-name: miner
+    name: '&e&lLÒ RÈN CÚP &8• &e&lTHỢ ĐÀO'
+    uuid: 3685b865-1938-4ba3-82de-04ac2c26ec0a
+    traits:
+      type: PLAYER
+      owner:
+        uuid: 57481db9-38f7-3a96-b52d-ff0f7993c232
+      spawned: true
+      location:
+        bodyYaw: 93.456085
+        world: world_prison
+        x: -1842.724
+        y: -56.0
+        z: 38.5961
+        yaw: 93.4561
+        pitch: -6.3102
+      commandtrait:
+        commands:
+          '0':
+            command: mi stations open forge-miner <p>
+            hand: RIGHT
+            player: false
+            npc: false
+            op: false
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+            cost: -1.0
+            experienceCost: -1
+      skintrait:
+        signature: jyAT28o2OSyjixPY3tQfwIooozQsVWZDIGifj+PdEFICIXvdLB739AlWJ/++PnyRn9oIAL0lHGxKC1gVYpNteKkt0Oor53LNsc/W/0y8tJqH4p0lXN+6gVZgifAUA2oal+VQy955zCmfw7NBxNGfLHj8Nd1Wrg/vY0jYAkXTzwrswtFSl3nz4bCtdO68aH4gn31RM0fAPAJwgsGXPJCOsYjB/T85ieyv34pl2iDMLK5DJyfM9sQd0d1Awd3PUTY/XpLGAtbBONVJwNvCj9qhQttllirOIB6cAxPpX1opfwLB1NpYJwt4v4JmVkAcrxBmr2y4pyKi0ZICdM9GwTxqAgZ4EJlRQhrTcB2hl0H0OhGCFJJiG5Nlf9yXxEzgijZnernVfeUquWjD8aKlQFmzZ5Mmao/SKkqaC42i6nxc1VbSBUCy+q+AeGwXPZZcNQNPUyt+R+uJwY4uemFgomqTKiW4p47MVP6pe0ba6qVw1MQ66SaUAhdVsINIR/q+zAX/5uwyd6Y9Oh5phyhf6VkZNxEosPSDUhD553mOkwjZdiv2RpbvD1Kq6R5UApDmJEJhCc/qIYqydYyhvKneJ27RsZY5CYvFxwIsVrlr5SFU1q0vrrEJJeGki4CPzQdmIQ2AtrAPSMNULfxEvh8YIbpt09zYMRIBTmG0ppP7oim6ez0=
+        skinName: Miner
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTc4NDc3NzA0NjA0MCwKICAicHJvZmlsZUlkIiA6ICI0ZTk0ZjQ1Yzc1OWM0MjkzYWYxNmZkZjIxOTIzN2E1ZCIsCiAgInByb2ZpbGVOYW1lIiA6ICJNaW5lciIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9iYTRiNTFiZjg1M2JlZjdlODhjMGQxODhhOGNhMWE2ZGUwZmFhMjIyZjdhYmI1MmU3YjhjYWY3YmNmNzBhZTYyIgogICAgfSwKICAgICJDQVBFIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9mOWE3NjUzNzY0Nzk4OWY5YTBiNmQwMDFlMzIwZGFjNTkxYzM1OWU5ZTYxYTMxZjRjZTExYzg4ZjIwN2YwYWQ0IgogICAgfQogIH0KfQ==
+      lookclose:
+        range: 10.0
+        enabled: true
+        randomPitchRange:
+          '0': 0.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+    traitnames: type,owner,lookclose,inventory,spawned,hologramtrait,location,scoreboardtrait,commandtrait,skintrait
+    navigator:
+      speedmodifier: 1.0
+      avoidwater: false
+      usedefaultstuckaction: false
+  '28':
+    metadata:
+      cached-skin-uuid: a39ef57a-387c-4cd1-9740-59b732ebc7a5
+      cached-skin-uuid-name: merchant
+    name: '&4&lTINH LUYỆN &8• &4&lVƯỢT NGỤC'
+    uuid: 5dfec873-24bb-4da4-98d1-b2638d153d63
+    traits:
+      type: PLAYER
+      owner:
+        uuid: 57481db9-38f7-3a96-b52d-ff0f7993c232
+      spawned: true
+      location:
+        bodyYaw: 2.335492
+        world: world_prison
+        x: -2119.8056
+        y: -18.0
+        z: -1121.477
+        yaw: 2.3355
+        pitch: 11.3988
+      commandtrait:
+        commands:
+          '0':
+            command: mi stations open refinery-jailbreak <p>
+            hand: RIGHT
+            player: false
+            npc: false
+            op: false
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+            cost: -1.0
+            experienceCost: -1
+      skintrait:
+        signature: xLDD+oPNP17SxOG173LRGkEltAQmWEvNccapqWnAHl6L5N62trrVncTNKZ1eQeJhXbd6letXIy5kCWIZNcljMCpiVa6nXj2CI1FqpznO/ANbLvl+Wg1j7hBurDC2r33vz+wBxfYS5xDjBQtIBdDWkdk9m9g7XFQZtWkgT+bnJkaX0mx2vpwcZ5+4U+RExeyBUkmVo9qJW+9vq/XV7lMVz7PrS7LHAD2QZ2x+lJf20oPZWvSwNUj2lleTBfltakscohfNtWOujMJhi3nAJiTN8YaHJHgiDidPg3CIx3c6gGK49Q4QafIyKcaQb9h0lg/4YC4w3QquPodnzznekcPFQ91kxLIV0CpZN+/WBf3ImQ0bMiqSujv4lynsPwhcXeROpWhFLq23pLM9hQH5MvoOwoxUj6KDcpL/Lq+T54kyQtxm7qJ5yxav46IhquYYCYfUmxS2gdrwPAdT1xNi5syKRTnbzUD6Ugb+M1nWP6hCnVLDTkUbr9jDF/0mjLPqsJOKgTicHK1ztTJvm/GwCR/KRZ9kc+Y1kUY3XD9Tpblm0OqrBuUjM74wut8zxQKngwbAfDeUNtlB2osPI426BSfHF/p1JPN666QgVWNL/x1MeXmn0pkE6zGDJSt1Qut767HXd7W4OJoe8OpHiUQbwKyHWA2m4Yjhf/uDIcIVQFr66Q8=
+        skinName: Merchant
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTc4NDc3NzMyOTc4MywKICAicHJvZmlsZUlkIiA6ICJhMzllZjU3YTM4N2M0Y2QxOTc0MDU5YjczMmViYzdhNSIsCiAgInByb2ZpbGVOYW1lIiA6ICJNZXJjaGFudCIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS84NjRkNDMxNjUxZDhjZTdkYTJkOGY4OGRkODIyZDk1NTdkN2JjZjliMGI1ZDBhOGVkMTNiOTg5ODgxZmFkYmVmIgogICAgfQogIH0KfQ==
+      lookclose:
+        range: 10.0
+        enabled: true
+        randomPitchRange:
+          '0': 0.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+    traitnames: type,owner,lookclose,inventory,spawned,hologramtrait,location,scoreboardtrait,commandtrait,skintrait
+    navigator:
+      speedmodifier: 1.0
+      avoidwater: false
+      usedefaultstuckaction: false
+  '24':
+    metadata:
+      cached-skin-uuid: 417948c3-5ead-4f80-85c4-d053dac4918e
+      cached-skin-uuid-name: warden
+    name: '&d&lLÒ RÈN GIÁP &8• &d&lQUẢN NGỤC'
+    uuid: 39f6ad01-fe99-4e9b-ae39-44591f422448
+    traits:
+      type: PLAYER
+      owner:
+        uuid: 57481db9-38f7-3a96-b52d-ff0f7993c232
+      spawned: true
+      location:
+        bodyYaw: 86.291115
+        world: world_prison
+        x: -1956.6678
+        y: -54.0
+        z: -658.454
+        yaw: 86.2911
+        pitch: 8.1959
+      commandtrait:
+        commands:
+          '0':
+            command: mi stations open armor-forge-warden <p>
+            hand: RIGHT
+            player: false
+            npc: false
+            op: false
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+            cost: -1.0
+            experienceCost: -1
+      skintrait:
+        signature: t6rcwpExBzjwpu1PTKL1+9+fU+zQrWlY0ept1pFkNM6/3qAQ0ofa7Gpl+ooIijLfFGeryI7X5XCv7+fOgqPjkFotYYGiKl7oHNoa7rGhUBTDLkoblyZXwD5NIwElToYe8CLK6rI3mZvN8+wUxJ31BlCh++r4z9/VhDoxvvOS48/3fAKAihlP9ebbbQVq4jrWQQ62NOEOUq1Zw2MPRLfpkEI7kMEQYxMjuFSfjVc1/0BqH6vusxLtf0hqgqGYIu9HCfc+sZXh03wa4gTPdOu+8eBSII4qweWjkL7m0VFQDtijS0uA6uce9bApf3lsZvAZMevwDzZqCya5FaBG3fkVzT+qpYddXDpPvpr+xX/fiKzAqsgaXiEFShFbqpe27hb9Y3t9z+L7r0cyKdx5csRPhuGA+phbqkuIdV27IUddn11RGalz30oszLhgXtNW/VsbwGp36R43K4LeJRv52pRNIMl2W0Yxh46w4rWG8SpU/bMJZHEOU1BG6gxyUe389p3Xq76ehsJP3JTiqKapxHbmbfHRH91q53hTdRbWjmYr1poeBzOjbPWcXrBld13YUc9qhBX2YKjTBt2m3zbDr1IU5Uj9X1bEd5hHhc8gjWdfhrLaf3PgIKmOOz1emjWVqrhZWet6VHLHzg/R7VqgYaLxlSrxInWNR5ZmqPVJ4+N4++g=
+        skinName: Warden
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTc4NDc3NjY2NTk5OSwKICAicHJvZmlsZUlkIiA6ICI0MTc5NDhjMzVlYWQ0ZjgwODVjNGQwNTNkYWM0OTE4ZSIsCiAgInByb2ZpbGVOYW1lIiA6ICJXYXJkZW4iLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZWQ3NDU5YjgwM2YwMzM5YjU4M2Y4NmNhYmZhNzljZjA4MWU0YjU2OThjNTNhNTY1YzIwMjYyMGU1MjVmMjI0ZCIKICAgIH0KICB9Cn0=
+      lookclose:
+        range: 10.0
+        enabled: true
+        randomPitchRange:
+          '0': 0.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+    traitnames: type,owner,lookclose,inventory,spawned,hologramtrait,location,scoreboardtrait,commandtrait,skintrait
+    navigator:
+      speedmodifier: 1.0
+      avoidwater: false
+      usedefaultstuckaction: false
+  '26':
+    metadata:
+      cached-skin-uuid: 4e94f45c-759c-4293-af16-fdf219237a5d
+      cached-skin-uuid-name: miner
+    name: '&5&lLÒ RÈN CÚP &8• &5&lBÁ CHỦ'
+    uuid: d4e56cf8-7f10-4ebc-a639-7286374f7398
+    traits:
+      type: PLAYER
+      owner:
+        uuid: 57481db9-38f7-3a96-b52d-ff0f7993c232
+      spawned: true
+      location:
+        bodyYaw: 171.87024
+        world: world_prison
+        x: -2340.3836
+        y: -56.0
+        z: -699.6513
+        yaw: 171.8702
+        pitch: 6.312
+      commandtrait:
+        commands:
+          '0':
+            command: mi stations open forge-overlord <p>
+            hand: RIGHT
+            player: false
+            npc: false
+            op: false
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+            cost: -1.0
+            experienceCost: -1
+      skintrait:
+        signature: hjvdqWVa9SjXuIxqeXw6otIkosBLbgGVwILbQ25lWqDBTeKLuaHTuUalOF4YX6tYNIlfxiUSPXIlMcGwpKlkX8gTM2kWW7sfMDqAH0fq4Q6sNDPooVq9Du8rgyiRtnR+OwhEFsTio4vAC/rhmYWz38WaktLhx6aV57t13+3+ES4U7hKMXrVqccjUtZAGkG3GTLYBGWWzW2BEkoJgzKxCk+BHgc1otx58CzEsVdd9jFdITb6bcUaGXpaOgBCS3yT3wuuV6WZq3m6mlJjJaeZYHbtnWGSccyWlahI/uvI21ViSlTDCzyferD9yy8TesBMvyXpUqiVxZrSpnhTeB8ZZTE4VsNm8kFW6nBujCYn+2huP9+XH9rgDUVcS9ffkUxvEt0llVA8BiMKehQ70GjR1GouzNcmSCYrBtJysTppgQE0qgXPywqnNKlLCV0XRBn+rq+gYb2y7chsg6cFBzX3lhL3snhegT4GnsgE5orTL69BnVYp/wHIru5uI2ZULpWxpkfepF8GRibQnt50kEoYhkEC7Jtce975XK5+bFGA3NZEe2P8JzajFeEuKyHWLRDZiQfB/Sd6p0zYnOlnOOVvQIwloz7Bd/5/pjQenLXaa8a0oQ6TjhU0SE3r21kPj+9mn7gUhN+9x4GWB71W8OCg5NtNDI8whlBtBZHS0la12iAM=
+        skinName: Miner
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTc4NDc3NzM0ODczNCwKICAicHJvZmlsZUlkIiA6ICI0ZTk0ZjQ1Yzc1OWM0MjkzYWYxNmZkZjIxOTIzN2E1ZCIsCiAgInByb2ZpbGVOYW1lIiA6ICJNaW5lciIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9iYTRiNTFiZjg1M2JlZjdlODhjMGQxODhhOGNhMWE2ZGUwZmFhMjIyZjdhYmI1MmU3YjhjYWY3YmNmNzBhZTYyIgogICAgfSwKICAgICJDQVBFIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9mOWE3NjUzNzY0Nzk4OWY5YTBiNmQwMDFlMzIwZGFjNTkxYzM1OWU5ZTYxYTMxZjRjZTExYzg4ZjIwN2YwYWQ0IgogICAgfQogIH0KfQ==
+      lookclose:
+        range: 10.0
+        enabled: true
+        randomPitchRange:
+          '0': 0.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+    traitnames: type,owner,lookclose,inventory,spawned,hologramtrait,location,scoreboardtrait,commandtrait,skintrait
+    navigator:
+      speedmodifier: 1.0
+      avoidwater: false
+      usedefaultstuckaction: false
+  '16':
+    metadata:
+      cached-skin-uuid: 453cce52-89b2-436b-a19e-0567d4ae96ff
+      cached-skin-uuid-name: blacksmith
+    name: '&6&lLÒ RÈN CÚP &8• &6&lĐỘI TRƯỜNG'
+    uuid: ade2057c-38a0-4c0d-beb1-96356bbcc9bf
+    traits:
+      type: PLAYER
+      owner:
+        uuid: 57481db9-38f7-3a96-b52d-ff0f7993c232
+      spawned: true
+      location:
+        bodyYaw: 170.39832
+        world: world_prison
+        x: -1839.5004
+        y: -59.0
+        z: -314.4369
+        yaw: 170.3983
+        pitch: -24.2071
+      commandtrait:
+        commands:
+          '0':
+            command: mi stations open forge-captain <p>
+            hand: RIGHT
+            player: false
+            npc: false
+            op: false
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+            cost: -1.0
+            experienceCost: -1
+      skintrait:
+        signature: WpArOuInMxWSdUBbKn23axdWoggY2pRNY0jD1zlL9UnZzzzly+qkd9DDWKV8+qh+6ueIAwvrgM5ccZv2yWEWhH0nXRgjyi1HiN4aDLcbxpkIZ2K0OjfhgsTMxxsaG0yfsJ2YERGioXZrgUReVuChR7xdgln7h1v03qcu1QKbWdUdD1ytiEwAPSuxFq1zEBMV2qztsijrupUYOTkCuWiPdMSAnamLtZXrg8wMb+nJd/3wu+jrsIlyDVtem+J6ADS9hveWL8zZ7H5hWau0OYllgpPGxKkVKXp2/t9FeuL2xrxEXgp5cDLi9lzCtmz7GLfikw5DL2PT6QNP9eq7/3PYvIvIv9cFXOJzlvO2NaNky+HFwcma3kXNYhXstY4oyq2YDttQ0Rqxjgr7xaXUrPWIt+6nKJTKBj4QBZb9JJgPKeC2T2fWJG/dQtXs0CDdAgLdLetA9IbUYKkdBBkOzGhBrCE/Iq9z5xUL9HL61d2V99CpI0MccmaHNazZ2WhhJFi048k9j+2Jojga93GFwByxHjkwlTRsK3hXl4HUgBBxzM9UgOK+/k6DYLxpgoWumeSXhXfZ4hLFSbYMP/wLj2KqAlKFerxOHwC7PigbcaX3XW31kKSEPL8EThoU47MnfrETdqzPvvdM95hyrCNX/hCXoUpvC99SKYeJzKL91yhiqXU=
+        skinName: Blacksmith
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTc4NDc3NjcyNjk3NSwKICAicHJvZmlsZUlkIiA6ICI0NTNjY2U1Mjg5YjI0MzZiYTE5ZTA1NjdkNGFlOTZmZiIsCiAgInByb2ZpbGVOYW1lIiA6ICJCbGFja3NtaXRoIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2UxNDliOTgwMzAwYmI3MDBmNjIwYWRiYzRjNDVlY2JiNTU5NWMwMjg4MjViNWI3OGQzNzg3MDVlY2ZhZTVhMzciCiAgICB9CiAgfQp9
+      lookclose:
+        range: 10.0
+        enabled: true
+        randomPitchRange:
+          '0': 0.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+    traitnames: type,owner,lookclose,inventory,spawned,hologramtrait,location,scoreboardtrait,commandtrait,skintrait
+    navigator:
+      speedmodifier: 1.0
+      avoidwater: false
+      usedefaultstuckaction: false
+  '17':
+    metadata:
+      cached-skin-uuid: 8c65eac5-b044-4b60-b3e9-c21765bf38ca
+      cached-skin-uuid-name: captain
+    name: '&6&lLÒ RÈN GIÁP &8• &6&lĐỘI TRƯỜNG'
+    uuid: 5e73235e-0e0f-47ea-82f7-cd65a7d75bb7
+    traits:
+      type: PLAYER
+      owner:
+        uuid: 57481db9-38f7-3a96-b52d-ff0f7993c232
+      spawned: true
+      location:
+        bodyYaw: -176.50732
+        world: world_prison
+        x: -1846.7359
+        y: -58.5
+        z: -314.6454
+        yaw: -176.5073
+        pitch: 5.9352
+      commandtrait:
+        commands:
+          '0':
+            command: mi stations open armor-forge-captain <p>
+            hand: RIGHT
+            player: false
+            npc: false
+            op: false
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+            cost: -1.0
+            experienceCost: -1
+      skintrait:
+        signature: Vnw3CVi/6GzDzLzlVSdgftlDVJkl8I7h+xeS02EqnCs/m31brJknz6r0cZKvsKZyK9L8MHBWRkVSGyPRk7tgAh28mL+CiDhy2VDXtWnCR0eNDXPO+nGaLoXW3wSWNPlyLWEGTxOJq/zJZm9X9gSjqDxAv+Rfr2qtCxHPI/uU+eZfR6+kFgCq6k6B3fx9SjCvOEXCVhpdNwG4dR8hcV9nMobFmCiGT6evVygvnKu4ipubDbMyk7fzefVqzLwW277K0HHR9XCNl0vR9Qr+48i3WgKD0AGoHP/5o7hqrvVDfuROvo1wYeaxz6V8j4V7mpo80wHhiIQigOgJ5r6CoNsWsFoDRCzzeuqfmXBnqB+uxwa+1CSXTkRBDVlYDRl+jLdVRyqdXya/2bNvbNOz7DmiHsRgpGxX2ZihJRxs1SRmY1UB18RfPb5YtCt1JgLFLv4UcrgSx6JtBXV7NVd6SHyoG4Pt9AwJ0FRWSRtzcaNPLTj0s8STXFnjr0Qq/S0eIXyI4NLHA9YCfZRxmvnYyJZ53YhNv0T1YiW2PvZUSwgeBHp4rHyNJSMMfQULU/Aq31iNgnQbenkxdJPzbFpSmPNPeyjwOp4gqsHh+kRwOmYWeRHvssgW4XN57hWw/E8CFBB8kMZzmV/HMFb3JtOU76Lb1AjEhpjGGeuyoUKWTuaPElc=
+        skinName: Captain
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTc4NDc3NzE4NzA5OSwKICAicHJvZmlsZUlkIiA6ICI4YzY1ZWFjNWIwNDQ0YjYwYjNlOWMyMTc2NWJmMzhjYSIsCiAgInByb2ZpbGVOYW1lIiA6ICJDYXB0YWluIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzQ0NDUyZTJjOWRhNzE3ZDBiN2JhNDYxZWYxNzc2MTIxZjY4OThiM2VmZDI2NjQzZGU5ZWNmOGI4NGYzZTFlOSIKICAgIH0KICB9Cn0=
+      lookclose:
+        range: 10.0
+        enabled: true
+        randomPitchRange:
+          '0': 0.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+    traitnames: type,owner,lookclose,inventory,spawned,hologramtrait,location,scoreboardtrait,commandtrait,skintrait
+    navigator:
+      speedmodifier: 1.0
+      avoidwater: false
+      usedefaultstuckaction: false
+  '19':
+    metadata:
+      cached-skin-uuid: 6a7b43e5-543b-4542-a365-d9106e16ce17
+      cached-skin-uuid-name: alchemist
+    name: '&c&lTINH LUYỆN &8• &c&lPHÓ QUẢN NGỤC'
+    uuid: b563e432-c2b7-4e9c-9f44-96932998a68a
+    traits:
+      type: PLAYER
+      owner:
+        uuid: 57481db9-38f7-3a96-b52d-ff0f7993c232
+      spawned: true
+      location:
+        bodyYaw: 93.407166
+        world: world_prison
+        x: -1519.8145
+        y: -57.0
+        z: -358.5279
+        yaw: 93.4072
+        pitch: -3.2961
+      commandtrait:
+        commands:
+          '0':
+            command: mi stations open refinery-vice-warden <p>
+            hand: RIGHT
+            player: false
+            npc: false
+            op: false
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+            cost: -1.0
+            experienceCost: -1
+      skintrait:
+        signature: O+Ah05BVUCKQpQQZ+QqOMtbGmCPv0oubAPJmlcpt7+JAl/Jx/euTpSsA8R/BTEu92u4gLEI7qsV+x6b/44KMkQP+QJqJZhcCR/mmodaMVJo57Uen7v8qzmCBGm1sO0GoZo7lxgCp3fdsKz6dIPwz/ahxRrycjtX3LFafV9rMaDtHTLiP1rXtQ4h+CKYhWreK19C6YZNoVMtegM+J+P4SiQOEc+pGus9gR9hcDqvj616az8ZPOqeVQkAxMPL5TSaWJgHEtmdfFhh2yNqP/6D+++vV62EfTzPByfBi2bKptdGEL5X57zndSz/fb7CRHruYjAXIYLr78aGBP0TuohojdgyQuu5munmxK9MQOLOtnOD0hz3gguPf4BnFqPgPoN/YKm2iQAYzAx7MP2zZta5iNC2rMecUmSi+OuYCRaNFT18My/gYNGw91Wowj/xyIdA6mzRs1tYeUTaVs/bzs2L1Ir+xGm/iaVxygoioc7OgiXQ5iuZvijcps+Y0qRe7wQJEZ96OZ4qF6VZ9nhkPMz6yoMa7w/Z8LqGYmVsNJxK1WjrMNbvfS9CyVwbGxeloNGYh5OgAKNJETabYfrzVNt6mfEzYE93REjnO4qR2LWvAkHO8LdIHtLVe04kmXg+Zyqb2D50eCcmWUbxhKoCrOwW/rj2huAVA/bwwrNRHCJl7ihQ=
+        skinName: Alchemist
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTc4NDc3NzU5NDQ0OCwKICAicHJvZmlsZUlkIiA6ICI2YTdiNDNlNTU0M2I0NTQyYTM2NWQ5MTA2ZTE2Y2UxNyIsCiAgInByb2ZpbGVOYW1lIiA6ICJBbGNoZW1pc3QiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGMwMzExOWM2ODVkNDQ4NjUyMzk4YmMwYjc0ZDY4ODFmMjQ5ODA2NWM1ZWVjOTY3ZGJlZjQ4Yzc0YzY3ZjdiNiIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9LAogICAgIkNBUEUiIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzIzNDBjMGUwM2RkMjRhMTFiMTVhOGIzM2MyYTdlOWUzMmFiYjIwNTFiMjQ4MWQwYmE3ZGVmZDYzNWNhN2E5MzMiCiAgICB9CiAgfQp9
+      lookclose:
+        range: 10.0
+        enabled: true
+        randomPitchRange:
+          '0': 0.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+    traitnames: type,owner,lookclose,inventory,spawned,hologramtrait,location,scoreboardtrait,commandtrait,skintrait
+    navigator:
+      speedmodifier: 1.0
+      avoidwater: false
+      usedefaultstuckaction: false
+  '23':
+    metadata:
+      cached-skin-uuid: 453cce52-89b2-436b-a19e-0567d4ae96ff
+      cached-skin-uuid-name: blacksmith
+    name: '&d&lLÒ RÈN CÚP &8• &d&lQUẢN NGỤC'
+    uuid: 9282a74c-b0ec-482f-8a6d-63d7f36ab11c
+    traits:
+      type: PLAYER
+      owner:
+        uuid: 57481db9-38f7-3a96-b52d-ff0f7993c232
+      spawned: true
+      location:
+        bodyYaw: 92.31945
+        world: world_prison
+        x: -1956.694
+        y: -54.0
+        z: -652.4893
+        yaw: 92.3195
+        pitch: 8.9495
+      commandtrait:
+        commands:
+          '0':
+            command: mi stations open forge-warden <p>
+            hand: RIGHT
+            player: false
+            npc: false
+            op: false
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+            cost: -1.0
+            experienceCost: -1
+      skintrait:
+        signature: nkjNwjwCZvACbFrPPia3NMRduwne6tcrCG2eMN7vZ9L1BcIYcOlisGpDbZv6G4HvxSAu3FjFMHkWiAI7qilk1e9B8BWktVIvopWq4VBj2E9OQtOleq5TSarLc93eXFVlFCgKZ36Fl/+TrQ819oLxW4/qiuW4JBs3Ec1YIVqN+zbY5+NIvPCUlg7eytZVgClX8gV/M1K0l8cU7hPCPr2DDeYjRhr/b7rIwHH1nL40VgiJvFneiUIqlySRTTpsTzbQTFo+OyHUghOWeUAA5Gei3HQ3i1ELa7kUSiXviATMO/kQKY0P57TUW6MlX+CqN7y3KGXY637Th727JIV11MEZzI4X0Mt8q4Vd+bIpT2zhMIyxK8xePlh7pCT/CBIJ2Wj9valxdiO2n32gbpfb2gHR3VDk1XAHe8IanTm4JjTgWzbKRG5NJQlPxOXPiznv/b3a4Ca1PuYG4FYVR/wWPdCJXA+iEX0zzS9VLGB/pUt2f33GAcNFkgbwJhVCtKCu11c+lTqjtQ1749MkuDk0kCw7gCJRzXN0rh+PN7ra+xzzsrLeySBMriDWYfRO7Ai+g+N5A8Fi1fa7mYRqrOjhkJBOUPhSor+hFDK9w+s0yPmz37LrCkjWJNUxQmPXyCEFhQ/sNnNmeY/PPuNS73TEV2wCBb8a0sn3d0bgeix24lBXqc0=
+        skinName: Blacksmith
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTc4NDc3NzUwMjM4NSwKICAicHJvZmlsZUlkIiA6ICI0NTNjY2U1Mjg5YjI0MzZiYTE5ZTA1NjdkNGFlOTZmZiIsCiAgInByb2ZpbGVOYW1lIiA6ICJCbGFja3NtaXRoIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2UxNDliOTgwMzAwYmI3MDBmNjIwYWRiYzRjNDVlY2JiNTU5NWMwMjg4MjViNWI3OGQzNzg3MDVlY2ZhZTVhMzciCiAgICB9CiAgfQp9
+      lookclose:
+        range: 10.0
+        enabled: true
+        randomPitchRange:
+          '0': 0.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+    traitnames: type,owner,lookclose,inventory,spawned,hologramtrait,location,scoreboardtrait,commandtrait,skintrait
+    navigator:
+      speedmodifier: 1.0
+      avoidwater: false
+      usedefaultstuckaction: false
+  '20':
+    metadata:
+      cached-skin-uuid: bb13fd11-f983-46e4-abd4-827dd2436f63
+      cached-skin-uuid-name: dwarf
+    name: '&c&lLÒ RÈN CÚP &8• &c&lPHÓ QUẢN NGỤC'
+    uuid: 335eb3c2-ac19-4781-be91-f739c7043873
+    traits:
+      type: PLAYER
+      owner:
+        uuid: 57481db9-38f7-3a96-b52d-ff0f7993c232
+      spawned: true
+      location:
+        bodyYaw: 90.76922
+        world: world_prison
+        x: -1519.4745
+        y: -57.0
+        z: -370.4184
+        yaw: 90.7692
+        pitch: 4.1453
+      commandtrait:
+        commands:
+          '0':
+            command: mi stations open forge-vice-warden <p>
+            hand: RIGHT
+            player: false
+            npc: false
+            op: false
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+            cost: -1.0
+            experienceCost: -1
+      skintrait:
+        signature: cGmyP1wlygBPS5Mi1A8+jhWFftOhDeKj2ToGCE2j+09XDq3zsfUjE1Gnz/6R3HPj4BYu84uG8F7Ftseqq2r5XSf/roAGYmjV6RfG8pC7xFRtH4XvEvlBLib5pR5WBSztO1AA3YbS3yKZZMVS1m/KL1g5YoliAWJ/cr85OEDDA/0TxJHGvc0xbvv8Iw0occyiUq316w31q0h17dny0DMOC9AAeHwqoLVH6Y6QGC3zW7OuSP6cGbDeegwVvI3CKHv1lij/TEbqpEmY+LFyHMRq3p0rcZzKJ2Tq4+ugGfncAOUL3cwVvqrEH8G6ncRr63jGU7IvLHf/xPGUBRr2XTl/1Sou2ceQGuCTcozTmFcgQ7VbvOSSGl37PZ3XdRtHZLC37UrPQtQ/3iaMUAxkr1LTJzXhl5BihycFg/0DgtXe/GBDxpOpahc1Xly+kls0N81XJNjtlXgMYlvJb/yTrNtrXfPzkifLsP9n20AJamCL299PcUVWaed59CQZCxOP6srB04+JLlIUfFupcsrm+RbP9MGhVlz6pFSAy8aHHW6yfEZFtZc7OIaHDn5V3c1czU05F69uWr5cqibCKLlFXHSSyN2lQ9EooADHTSxLCOEBE/7hFYZDX2UiVsJm0MjQnLsCURshk2YQe/hFF69DweD77d2JMaHbrXxFvuiPVXEwWoQ=
+        skinName: Dwarf
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTc4NDc3NzE2NjY5NywKICAicHJvZmlsZUlkIiA6ICJiYjEzZmQxMWY5ODM0NmU0YWJkNDgyN2RkMjQzNmY2MyIsCiAgInByb2ZpbGVOYW1lIiA6ICJEd2FyZiIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS84NDYyMDkzMWViMDg5ZWRkY2UyNzkzNmNlMTIyYTQ2ODM3ZTFmYmU2NjA4YTYzMmQ5Njk2NGI3NzQyMGUzYWIiCiAgICB9CiAgfQp9
+      lookclose:
+        range: 10.0
+        enabled: true
+        randomPitchRange:
+          '0': 0.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+    traitnames: type,owner,lookclose,inventory,spawned,hologramtrait,location,scoreboardtrait,commandtrait,skintrait
+    navigator:
+      speedmodifier: 1.0
+      avoidwater: false
+      usedefaultstuckaction: false
+  '22':
+    metadata:
+      cached-skin-uuid: b2b5e42c-3c1d-46e7-a9e9-b968e5b2af13
+      cached-skin-uuid-name: king
+    name: '&d&lTINH LUYỆN &8• &d&lQUẢN NGỤC'
+    uuid: 993eea35-b036-40da-9414-baa16bfa4134
+    traits:
+      type: PLAYER
+      owner:
+        uuid: 57481db9-38f7-3a96-b52d-ff0f7993c232
+      spawned: true
+      location:
+        bodyYaw: 85.914
+        world: world_prison
+        x: -1956.4645
+        y: -54.0
+        z: -640.4649
+        yaw: 85.914
+        pitch: -4.7088
+      commandtrait:
+        commands:
+          '0':
+            command: mi stations open refinery-warden <p>
+            hand: RIGHT
+            player: false
+            npc: false
+            op: false
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+            cost: -1.0
+            experienceCost: -1
+      skintrait:
+        signature: s2lc6yMQIneZNKju5aqw1aU10GDaPyA10O1pCM2++m24bEM4zzd/fDHww+TLq+OAQiu8uDVKePPnI4pqjOOiIE9xAEk80Sv5+ywHFlpt4X+T/krU1YtWBlxIH8qdVuH70qFuxrvPfBYeA4KjB+t1kdRo0jKbDbxb1vLdqWlMjE9RWnmxiNGpUGmw7EPFfRfVNEZgddsktxtfhbBR+TY6SPHUu6Dd7ZMbpDO1szRZdQfBkuaQDO+zgD6F/XrH+y1VNn4j0W+WdG2p09XiJzwslOBe3BYmzcvK9ElTyhTdYdu2u5VMKrqq7TOQrhh/3KBHIAskXc9FlodxGGcPCHNHNcJqYJ/Vu45eM3bZcmpqrt3vHPVIeToWE3zm67b54OPASH6yWE8SKWP/r9z7vTndXIwP+PNnGsWCfzwSRIVme4dCZaCf4xuOtEIp6s2mshMMcYw4xPJmGIL9RO0rqWjxINFxFJQ07M8MuOFqq+dmQXov6sB+QxKUmAg5CRnGm9VUbKtJrtO1Lv38Ff9pK/djPlF+xmVozScZa8v1sE/SN68sEx1GAIry+5FzUTRXIKsZWFea1NNUxmadW4RidoWKX3RDHnGSpXSUkv2lzPEFWkg4vSc8YmKHiLQt8vkDLltlIpoaw4baDjlNkDAXThGsuBLTvD0tzYEQec4IwTzpv4Y=
+        skinName: King
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTc4NDc3NjcwNDgzMiwKICAicHJvZmlsZUlkIiA6ICJiMmI1ZTQyYzNjMWQ0NmU3YTllOWI5NjhlNWIyYWYxMyIsCiAgInByb2ZpbGVOYW1lIiA6ICJLaW5nIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzNkZjY5NDQwNWJlYzFkMWJkMjk0OGRiYzhjODAxYzQzNWJjOGI2YmZlYWQ5NzVhMTljNTZjNzM2NGFkN2NjMmQiCiAgICB9CiAgfQp9
+      lookclose:
+        range: 10.0
+        enabled: true
+        randomPitchRange:
+          '0': 0.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+    traitnames: type,owner,lookclose,inventory,spawned,hologramtrait,location,scoreboardtrait,commandtrait,skintrait
+    navigator:
+      speedmodifier: 1.0
+      avoidwater: false
+      usedefaultstuckaction: false
+  '21':
+    metadata:
+      cached-skin-uuid: 5206be5b-c103-43e9-b866-f9dfc1ce9872
+      cached-skin-uuid-name: guard
+    name: '&c&lLÒ RÈN GIÁP &8• &c&lPHÓ QUẢN NGỤC'
+    uuid: 004c5a06-6dfc-4b32-9bf1-be15a49561cd
+    traits:
+      type: PLAYER
+      owner:
+        uuid: 57481db9-38f7-3a96-b52d-ff0f7993c232
+      spawned: true
+      location:
+        bodyYaw: 85.023476
+        world: world_prison
+        x: -1519.4798
+        y: -57.0
+        z: -375.5656
+        yaw: 85.0235
+        pitch: 10.4564
+      commandtrait:
+        commands:
+          '0':
+            command: mi stations open armor-forge-vice-warden <p>
+            hand: RIGHT
+            player: false
+            npc: false
+            op: false
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+            cost: -1.0
+            experienceCost: -1
+      skintrait:
+        signature: N7MnWsnJxWgm36GueoyIUHx1b/uCQPExW7hoF7KWs2mvRhJCIxllW5QIarn21Um1bzOkc/nThj/61s2BC418sU4eyjFC3gLwqqCtgiAyfzdjzSdg7hQVACIoD+o6UWUSLFGxmcz7sUATDSiw4F787AGruE6Rvp9vvXkkbXXbfo2YTwNe0K4Q6MnjRJph/YLscvJOjkQ4blus1lnBNMu9QyYiaYckirQSgsvLf7g6jdbfKZqgFogY6TRaFRuUZzmcpYXhvDljiyN4PEwDCbSzd7buTQsZP9DZzZ1SVtap5CMOza/cvf48YdnWMhTl+7DqB9HFbOUsOAoxMgxxNnmbQ/ezjXyfrn4q/ntEkD+tONEbYeMA0cV3JDLrJBJJXl+Ooww+unvSivM3g5+zGUITzo8Wv4S5AIpwgNrudMvzOzftfnTw3qY/xcJmRuWWKh97FvGWNuoGwFj80e+Pxuvs0A6ugAKENBSieZvp3RvqoX1mxw4vEvXpaZKq3jWIbrHgVtKsDLZxHDfZtLybo//vSVrR22l+dQId3O4f0YWa+ni2kiPQYMfQQPSRh7k+i+fqP8aaGSHdt99UtNcMIWR5jWqTIxSRTOM40VNvms7yQu7jr0/xZnytDHVo/Zn40ESTRRVLaJf72bB3xb5FlAJYK/JY7QC0+PSSgg2/Urs9oBo=
+        skinName: Guard
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTc4NDc3Njk2NTc4NCwKICAicHJvZmlsZUlkIiA6ICI1MjA2YmU1YmMxMDM0M2U5Yjg2NmY5ZGZjMWNlOTg3MiIsCiAgInByb2ZpbGVOYW1lIiA6ICJHdWFyZCIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS81MTE4MmNmNjVkMTgwZWNmMDhmYWIyMzExYWJlZDBjZmNlZTk2MGU2ZGY1YTNiYTUyOGY3ZWE0N2NjNDFmMGEyIgogICAgfQogIH0KfQ==
+      lookclose:
+        range: 10.0
+        enabled: true
+        randomPitchRange:
+          '0': 0.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+    traitnames: type,owner,lookclose,inventory,spawned,hologramtrait,location,scoreboardtrait,commandtrait,skintrait
+    navigator:
+      speedmodifier: 1.0
+      avoidwater: false
+      usedefaultstuckaction: false
+  '27':
+    metadata:
+      cached-skin-uuid: 417948c3-5ead-4f80-85c4-d053dac4918e
+      cached-skin-uuid-name: warden
+    name: '&5&lLÒ RÈN GIÁP &8• &5&lBÁ CHỦ'
+    uuid: 8ed6c07b-36bc-4307-a503-27b20ea68ca9
+    traits:
+      type: PLAYER
+      owner:
+        uuid: 57481db9-38f7-3a96-b52d-ff0f7993c232
+      spawned: true
+      location:
+        bodyYaw: -163.07423
+        world: world_prison
+        x: -2334.8219
+        y: -56.0
+        z: -699.3008
+        yaw: -163.0742
+        pitch: 23.267
+      commandtrait:
+        commands:
+          '0':
+            command: mi stations open armor-forge-overlord <p>
+            hand: RIGHT
+            player: false
+            npc: false
+            op: false
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+            cost: -1.0
+            experienceCost: -1
+      skintrait:
+        signature: hd1xfrPCyz2/Ce1gnHXINSvyM3b4Ypsk+wYqYKYGBl7HdvGBOOobcRqk22sTANjLDs0gBmLTbZM2rJpAdvT8QL44I0Vtv/sdAMPpxEmlo27XJWFaUKKxZMoIq/39iR2lFxZmemU+6Ex3ayOIddV0TMpxs2yk1bUOURtr5pbMqP5AiSQ+3gIsukkbMhIC1Cu3FjXV+hCXqoSX6MFduut4YJkjtMqhVxVmWwTQ8CHbJ0GCOUs2q86Cb8T+Vll7w48iM5+lNVFscp1HSmUMKb6RxRJvbePrhcwXaQcSCbxT7+z23ujoRLJjN2D61lUE29jPP95O2FNa2S0xls8evQpm1ltyM6b91SFyqbbhZWD0DgQ9S3//z/axbU63pOwac1KatJpO75IaFdbNvarNfQJhNiSkPUBurCh7WExlU87kGWZaYS6Ce1DMkj0Fk8medOIbu5k5cwMQal8H9fuB4z70xQsTAMIlS3BsF2XdtPepo5lv674kEExS+pXzapfaYyXoLIQAhRs/lm/HtPIbpYM5CpFKvldathHs1qG0fu74kU3Qf4fdOC8pag7wJwj8T+pioR0vR1r3mxZv+Qsh+HLDa21RyJFocsNyy/0tkR4EI2gE0qKH1ShAhvBzrkiODPk3Nd9eLUzwXAcbRfwkCj0wrlYzCQI4Y5cHi9Iz0CLK2w4=
+        skinName: Warden
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTc4NDc3Nzc3NzA5NCwKICAicHJvZmlsZUlkIiA6ICI0MTc5NDhjMzVlYWQ0ZjgwODVjNGQwNTNkYWM0OTE4ZSIsCiAgInByb2ZpbGVOYW1lIiA6ICJXYXJkZW4iLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZWQ3NDU5YjgwM2YwMzM5YjU4M2Y4NmNhYmZhNzljZjA4MWU0YjU2OThjNTNhNTY1YzIwMjYyMGU1MjVmMjI0ZCIKICAgIH0KICB9Cn0=
+      lookclose:
+        range: 10.0
+        enabled: true
+        randomPitchRange:
+          '0': 0.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+    traitnames: type,owner,lookclose,inventory,spawned,hologramtrait,location,scoreboardtrait,commandtrait,skintrait
+    navigator:
+      speedmodifier: 1.0
+      avoidwater: false
+      usedefaultstuckaction: false
+  '15':
+    metadata:
+      cached-skin-uuid: 9e87549c-ce8a-4e28-bfc5-1c6a9024d2f5
+      cached-skin-uuid-name: trader
+    name: '&6&lTINH LUYỆN &8• &6&lĐỘI TRƯỜNG'
+    uuid: e9b0e3ea-258a-4c9b-b3ff-76f0946cf2bf
+    traits:
+      type: PLAYER
+      owner:
+        uuid: 57481db9-38f7-3a96-b52d-ff0f7993c232
+      spawned: true
+      location:
+        bodyYaw: 96.54559
+        world: world_prison
+        x: -1832.6168
+        y: -59.0
+        z: -321.5786
+        yaw: 96.5456
+        pitch: -15.2587
+      commandtrait:
+        commands:
+          '0':
+            command: mi stations open refinery-captain <p>
+            hand: RIGHT
+            player: false
+            npc: false
+            op: false
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+            cost: -1.0
+            experienceCost: -1
+      skintrait:
+        signature: IOIZTWbCnz83Y+qkcst51QwsCT4aKOTeDSD3pB4OHC1sCMOQQcfm/QQkCawxhsYmJJa657U/U8pNzph2VzWusacHXlnuWKjN2oqNyU/BDp9Yjlkr7VHEFHcV4kcI5zmYUqFa9sONcTQSsjKIn5UMtHn1Odh1n5jFJBXEWlyW0BNZL4v9ymmwFpm4rRaI/+PSkA/ZdTakB8lA+kmYfw6WBjkuVo7LwLC5Wfk68T7xLs98SIMF0ODMTdoc8muMCL0/FWWhQ0r7tZ5pIoRAPAKmAcgGmFl7SfcpoEvZXBbqwckw+se2qiAxvHpJU2YqOTN5Z2ClesbKiXO6262472ZkWXUFdHUtk7ej3mvK0PNHF7ut626zFvuhZ5sedD6btwxT4TRvqclx6tgO2iRjMJV8nfYy42lzxZ7kwNxxQ/mSv3Aok5tnafnZcZYy9tas/KvttNPPHYoV75C05nRwL4gpnyEImSjZzZ8dIZyjhrE5crN/tAKyHkKWSWgVy6XetCgp4EZ3aqoH7P8Y2Yido6C3AIupzzxYE5OS3HZp737fejTt6M+hvEpIrlbanq0dg1N1DOS6XXrdZEUBPscvsr1ikGvjznGZAcd1OErShyxEgOTXlxa+zf9e5ugh6sy1LHkgyDYyhTZgX3m/2uN57n8JLLtGwSxUQtT0+0baVWwetR4=
+        skinName: Trader
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTc4NDc3NzAxNDQwNSwKICAicHJvZmlsZUlkIiA6ICI5ZTg3NTQ5Y2NlOGE0ZTI4YmZjNTFjNmE5MDI0ZDJmNSIsCiAgInByb2ZpbGVOYW1lIiA6ICJUcmFkZXIiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvY2NmOTU4NjQyMmM4NmI5ODk5N2QxMTYyNzc2OTYzNDcyZTQ1YzE4MzE0Y2Q3ODY1ZmY5NzYxOGE5MzdkYmQ2OCIKICAgIH0KICB9Cn0=
+      lookclose:
+        range: 10.0
+        enabled: true
+        randomPitchRange:
+          '0': 0.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+    traitnames: type,owner,lookclose,inventory,spawned,hologramtrait,location,scoreboardtrait,commandtrait,skintrait
+    navigator:
+      speedmodifier: 1.0
+      avoidwater: false
+      usedefaultstuckaction: false
+  '14':
+    metadata:
+      cached-skin-uuid: 457b7d2c-258f-4a1b-9243-78835e4f1e23
+      cached-skin-uuid-name: knight
+    name: '&e&lLÒ RÈN GIÁP &8• &e&lTHỢ ĐÀO'
+    uuid: 3ef3abfa-b1cc-4df5-a8fe-bcf2be5191da
+    traits:
+      type: PLAYER
+      owner:
+        uuid: 57481db9-38f7-3a96-b52d-ff0f7993c232
+      spawned: true
+      location:
+        bodyYaw: 92.41987
+        world: world_prison
+        x: -1842.6452
+        y: -56.0
+        z: 34.4266
+        yaw: 92.4199
+        pitch: -16.7658
+      commandtrait:
+        commands:
+          '0':
+            command: mi stations open armor-forge-miner <p>
+            hand: RIGHT
+            player: false
+            npc: false
+            op: false
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+            cost: -1.0
+            experienceCost: -1
+      skintrait:
+        signature: hWc/fVGlqFiEuMHfABtcdKjvnOTLeWi2XfAIq7i3AuFGlSTQzaCB82XGsqwdU7OJoiCu0XgjwYR/RTYGpYcXER+Xbc7eaTiA1y4rUupLBzPfOVe5gKgZhHcnw3P7XdmEeoecc+Zsz/qqenCN288T1hZk2UekjS0NIW5LJhZIgO3fesbsPvKLJIm9cR+JNDE3xmJ7k+0GsB1TfsBP6/8DwI/oeynghOViABBpPfcdtVn/CjwovW+5UsrIujJdrNNGpS8kQddvnxuqlD4vZzo/pN0WMJ6uOQZKWhHooNHNIi2ZGWZTS2LGsZlbBVU+HHjyljUX0OzrzYL2X/eypghyry1TZPYDsk/uss5Y1yzWt9o/07sPulwoCJUZ1wsyitwZVH5dNnlCAkNeps5GAK8QhVX2E4LOh38s2wxDSuSqzqCxsnzRLFJCWpgj0PEQ2H9oA8SC0d07rZwd0TV+PC7fk6JU7QMTmC/GjagU15ekk1h7tcBeJMtGPSK1TP5y2kdXWS1w7U+UtkIZLAcTAEZXBDdlt8ysrE0b+QtaJfR5IprJBfprlKDae2pyo0nixoRHLfLRIEHCWUrz2fWdFNK+LIyg3yPxUpNswfYA0lUxGC8Ltl8sNLIqbVXJOxQa0H/8SZ6l87kwW5Cg/PSstsm9aTXKw1Voq8oD2mZBIO/CoeA=
+        skinName: Knight
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTc4NDc3NzA4NTY5NSwKICAicHJvZmlsZUlkIiA6ICI0NTdiN2QyYzI1OGY0YTFiOTI0Mzc4ODM1ZTRmMWUyMyIsCiAgInByb2ZpbGVOYW1lIiA6ICJLbmlnaHQiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTJlMmRjMTA5ZDIyYjYxMDA0M2EyNTU2N2FiOTZjNTE3OWE2MzM4NDYxYjQwNzI1ZjA2ODc0ZGNhYmIxNDViIgogICAgfQogIH0KfQ==
+      lookclose:
+        range: 10.0
+        enabled: true
+        randomPitchRange:
+          '0': 0.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+    traitnames: type,owner,lookclose,inventory,spawned,hologramtrait,location,scoreboardtrait,commandtrait,skintrait
+    navigator:
+      speedmodifier: 1.0
+      avoidwater: false
+      usedefaultstuckaction: false
+  '31':
+    metadata:
+      cached-skin-uuid: 457b7d2c-258f-4a1b-9243-78835e4f1e23
+      cached-skin-uuid-name: knight
+    name: '&4&lLÒ RÈN GIÁP &8• &4&lVƯỢT NGỤC'
+    uuid: c6932c0d-c1ab-4351-b226-c6d5c136ee08
+    traits:
+      type: PLAYER
+      owner:
+        uuid: 57481db9-38f7-3a96-b52d-ff0f7993c232
+      spawned: true
+      location:
+        bodyYaw: 7.610747
+        world: world_prison
+        x: -2135.177
+        y: -18.0
+        z: -1121.4118
+        yaw: 7.6107
+        pitch: 25.7164
+      commandtrait:
+        commands:
+          '0':
+            command: mi stations open armor-forge-jailbreak <p>
+            hand: RIGHT
+            player: false
+            npc: false
+            op: false
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+            cost: -1.0
+            experienceCost: -1
+      skintrait:
+        signature: kqrNk9SSWJmMWwQ8o2z7MZViSlr7O5IAKMEYdnHdKPBUAZ06lrSiff1tB7aGGrJNV7rmt7IGMDW1NuHKqshQX0BlrS48sEYS8eHcUZk1qnWVsUDxSa4s61s8F9GHHRHDo+yQfHpyzYNgHecxb1pLByFghWfCq44KD488PnC1RMkX0BXfadJFWLm55A8aU0O08RmVr0Tu8aGvVzNb3LkCOvQxj14bvvK6S4MK2w8c8+IlZM0rx8fH35p6e+N3NTQMvLdPzwdFLoDljZDY/bozBKLjPypTvu65Gpoza8ZKCza3oXASrWobfNVmFkRCFa3z/jhpB6pM4ZNO+Dnq+9gcR0Wc3YmOwgk22Vvf2gtlN4RMipXEHtbZf36y2CqWc29pHpccZqIy4o54qkBhQFd4cK+YFdJbu4kz783Ng4y+nyabE33y5Ha85UsMBEzl2SnKn4Y1JXhD/NWasSJht2KgWQ4yK3GIsz2FxwQl+GNmOhNHubMlMqCTwlrQsozw796p4glKPZpdOonoLle+UdcDaW1W3mBu+Rl3EEcVh7swC56gD8N6FioPRsZWIo2rDye7I0T31EsWxpFl8dDfR9COtriVZyflIm6KF2gKzjd4lg9L3ddYcY9nxn0RyoNR66jWm/beuwLiRcEq/FYa+NtVxST9T3yTEqjurvthhZAUKh4=
+        skinName: Knight
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTc4NDc3NzkyNzg0MiwKICAicHJvZmlsZUlkIiA6ICI0NTdiN2QyYzI1OGY0YTFiOTI0Mzc4ODM1ZTRmMWUyMyIsCiAgInByb2ZpbGVOYW1lIiA6ICJLbmlnaHQiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTJlMmRjMTA5ZDIyYjYxMDA0M2EyNTU2N2FiOTZjNTE3OWE2MzM4NDYxYjQwNzI1ZjA2ODc0ZGNhYmIxNDViIgogICAgfQogIH0KfQ==
+      lookclose:
+        range: 10.0
+        enabled: true
+        randomPitchRange:
+          '0': 0.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+    traitnames: type,owner,lookclose,inventory,spawned,hologramtrait,location,scoreboardtrait,commandtrait,skintrait
     navigator:
       speedmodifier: 1.0
       avoidwater: false
