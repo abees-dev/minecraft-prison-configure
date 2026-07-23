@@ -1,4 +1,4 @@
-# Lore format riêng cho vũ khí (Kiếm, Rìu Chiến, Trượng Phép).
+# Lore format riêng cho vũ khí (Kiếm, Rìu Chiến, Trượng Phép, Dao Găm).
 # Gán vào item bằng: lore-format: weapon-lore
 lore-format:
   - '{bar}&8&m----------------------------'
@@ -17,11 +17,16 @@ lore-format:
   - '#additional-strength#'
   - '#additional-intelligence#'
   - '{bar}&f'
+  - '{bar}&8&m-------&r &6&l⚡ KỸ NĂNG VŨ KHÍ &8&m-------'
+  - '#abilities#'
+  - '{bar}&f'
   - '{bar}&8&m-------&r &d&l🔮 Ô KHẢM ĐÁ QUÝ &8&m-------'
   - '#gem-stones#'
   - '#gem-stone-lore#'
   - '{bar}'
-  - '#lore#'
+  - '#lore#
+  - '{bar}&f'
+  - '#set#''
   - '{sbar}&8&m----------------------------'
   - '#tier#'
   - '#durability#'

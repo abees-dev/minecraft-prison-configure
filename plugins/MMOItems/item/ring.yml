@@ -1,0 +1,100 @@
+
+LONG_VUONG_RING_1:
+  base:
+    material: PAPER
+    custom-model-data: 19201
+    itemsadder-item: "rings_pack:set1_ring_1"
+    name: "&c&lNhẫn Long Vương &7[Hữu]"
+    set: LONG_VUONG_SET
+    attack-damage: 15.0
+    critical-strike-chance: 5.0
+
+LONG_VUONG_RING_2:
+  base:
+    material: PAPER
+    custom-model-data: 19202
+    itemsadder-item: "rings_pack:set1_ring_2"
+    name: "&c&lNhẫn Long Vương &7[Tả]"
+    set: LONG_VUONG_SET
+    attack-damage: 15.0
+    critical-strike-power: 10.0
+
+BANG_TINH_RING_1:
+  base:
+    material: PAPER
+    custom-model-data: 19210
+    itemsadder-item: "rings_pack:set2_ring_1"
+    name: "&b&lNhẫn Băng Tinh &7[Hữu]"
+    set: BANG_TINH_SET
+    max-health: 80.0
+    damage-reduction: 3.0
+
+BANG_TINH_RING_2:
+  base:
+    material: PAPER
+    custom-model-data: 19211
+    itemsadder-item: "rings_pack:set2_ring_2"
+    name: "&b&lNhẫn Băng Tinh &7[Tả]"
+    set: BANG_TINH_SET
+    max-health: 80.0
+    armor: 8.0
+
+HAC_AM_RING_1:
+  base:
+    material: PAPER
+    custom-model-data: 19220
+    itemsadder-item: "rings_pack:set3_ring_1"
+    name: "&d&lNhẫn Hắc Ám &7[Hữu]"
+    set: HAC_AM_SET
+    magic-damage: 8.0
+    max-mana: 50.0
+
+HAC_AM_RING_2:
+  base:
+    material: PAPER
+    custom-model-data: 19221
+    itemsadder-item: "rings_pack:set3_ring_2"
+    name: "&d&lNhẫn Hắc Ám &7[Tả]"
+    set: HAC_AM_SET
+    magic-damage: 8.0
+    lifesteal: 3.0
+
+LOI_THAN_RING_1:
+  base:
+    material: PAPER
+    custom-model-data: 19240
+    itemsadder-item: "rings_pack:set5_ring_1"
+    name: "&e&lNhẫn Lôi Thần &7[Hữu]"
+    set: LOI_THAN_SET
+    attack-speed: 8.0
+    movement-speed: 0.01
+
+LOI_THAN_RING_2:
+  base:
+    material: PAPER
+    custom-model-data: 19241
+    itemsadder-item: "rings_pack:set5_ring_2"
+    name: "&e&lNhẫn Lôi Thần &7[Tả]"
+    set: LOI_THAN_SET
+    attack-speed: 8.0
+    dodge-rating: 4.0
+
+HOANG_GIA_RING_1:
+  base:
+    material: PAPER
+    custom-model-data: 19270
+    itemsadder-item: "rings_pack:set8_ring_1"
+    name: "&6&lNhẫn Hoàng Gia &7[Hữu]"
+    set: HOANG_GIA_SET
+    physical-damage: 8.0
+    max-health: 60.0
+
+HOANG_GIA_RING_2:
+  base:
+    material: PAPER
+    custom-model-data: 19271
+    itemsadder-item: "rings_pack:set8_ring_2"
+    name: "&6&lNhẫn Hoàng Gia &7[Tả]"
+    set: HOANG_GIA_SET
+    magic-damage: 8.0
+    max-mana: 40.0

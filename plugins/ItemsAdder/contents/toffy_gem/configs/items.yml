@@ -7,7 +7,7 @@ items:
     lore:
       - "&7Đá quý nguyên tố Bóng Tối."
     resource:
-      material: CARROT_ON_A_STICK
+      material: PAPER
       generate: false
       model_path: gems/toffy_blackgem
       model_id: 15001
@@ -17,7 +17,7 @@ items:
     lore:
       - "&7Đá quý nguyên tố Nước."
     resource:
-      material: CARROT_ON_A_STICK
+      material: PAPER
       generate: false
       model_path: gems/toffy_bluegem
       model_id: 15002
@@ -27,7 +27,7 @@ items:
     lore:
       - "&7Đá quý nguyên tố Đất."
     resource:
-      material: CARROT_ON_A_STICK
+      material: PAPER
       generate: false
       model_path: gems/toffy_browngem
       model_id: 15003
@@ -37,7 +37,7 @@ items:
     lore:
       - "&7Đá quý nguyên tố Băng."
     resource:
-      material: CARROT_ON_A_STICK
+      material: PAPER
       generate: false
       model_path: gems/toffy_cyangem
       model_id: 15004
@@ -47,7 +47,7 @@ items:
     lore:
       - "&7Đá quý nguyên tố Phong."
     resource:
-      material: CARROT_ON_A_STICK
+      material: PAPER
       generate: false
       model_path: gems/toffy_greengem
       model_id: 15005
@@ -57,7 +57,7 @@ items:
     lore:
       - "&7Đá quý nguyên tố Năng Lượng."
     resource:
-      material: CARROT_ON_A_STICK
+      material: PAPER
       generate: false
       model_path: gems/toffy_orangegem
       model_id: 15006
@@ -67,7 +67,7 @@ items:
     lore:
       - "&7Đá quý nguyên tố Sấm Sét."
     resource:
-      material: CARROT_ON_A_STICK
+      material: PAPER
       generate: false
       model_path: gems/toffy_purplegem
       model_id: 15007
@@ -77,7 +77,7 @@ items:
     lore:
       - "&7Đá quý nguyên tố Hỏa."
     resource:
-      material: CARROT_ON_A_STICK
+      material: PAPER
       generate: false
       model_path: gems/toffy_redgem
       model_id: 15008
@@ -87,7 +87,7 @@ items:
     lore:
       - "&7Đá quý nguyên tố Ánh Sáng."
     resource:
-      material: CARROT_ON_A_STICK
+      material: PAPER
       generate: false
       model_path: gems/toffy_whitegem
       model_id: 15009
@@ -97,7 +97,7 @@ items:
     lore:
       - "&7Đá quý nguyên tố Kim."
     resource:
-      material: CARROT_ON_A_STICK
+      material: PAPER
       generate: false
       model_path: gems/toffy_yellowgem
       model_id: 15010

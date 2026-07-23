@@ -1,4 +1,3 @@
-
 # Default item types. These cannot be removed. They
 # may be used as 'parents' to create new item types
 # which will behave just like another item type. Parents
@@ -552,6 +551,63 @@ MATERIAL:
     parent: 'MISCELLANEOUS'
     unident-item:
         name: '&f#prefix#Unidentified Material'
+        lore:
+        - '&7This item is unidentified. I must'
+        - '&7find a way to identify it!'
+        - '{tier}'
+        - '{tier}&8Item Info:'
+        - '{range}&8- &7Lvl Range: &e#range#'
+        - '{tier}&8- &7Item Tier: #prefix##tier#'
+
+# Jewelry Types
+RING:
+    display: PAPER
+    name: 'Ring'
+    parent: 'ACCESSORY'
+    unident-item:
+        name: '&f#prefix#Unidentified Ring'
+        lore:
+        - '&7This item is unidentified. I must'
+        - '&7find a way to identify it!'
+        - '{tier}'
+        - '{tier}&8Item Info:'
+        - '{range}&8- &7Lvl Range: &e#range#'
+        - '{tier}&8- &7Item Tier: #prefix##tier#'
+
+AMULET:
+    display: PAPER
+    name: 'Amulet'
+    parent: 'ACCESSORY'
+    unident-item:
+        name: '&f#prefix#Unidentified Amulet'
+        lore:
+        - '&7This item is unidentified. I must'
+        - '&7find a way to identify it!'
+        - '{tier}'
+        - '{tier}&8Item Info:'
+        - '{range}&8- &7Lvl Range: &e#range#'
+        - '{tier}&8- &7Item Tier: #prefix##tier#'
+
+BRACELET:
+    display: PAPER
+    name: 'Bracelet'
+    parent: 'ACCESSORY'
+    unident-item:
+        name: '&f#prefix#Unidentified Bracelet'
+        lore:
+        - '&7This item is unidentified. I must'
+        - '&7find a way to identify it!'
+        - '{tier}'
+        - '{tier}&8Item Info:'
+        - '{range}&8- &7Lvl Range: &e#range#'
+        - '{tier}&8- &7Item Tier: #prefix##tier#'
+
+GLOVES:
+    display: PAPER
+    name: 'Gloves'
+    parent: 'ACCESSORY'
+    unident-item:
+        name: '&f#prefix#Unidentified Gloves'
         lore:
         - '&7This item is unidentified. I must'
         - '&7find a way to identify it!'

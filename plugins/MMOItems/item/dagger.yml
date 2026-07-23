@@ -1,0 +1,32 @@
+GACHA_DAGGER_VESPER_SHADOW:
+  base:
+    material: IRON_SWORD
+    custom-model-data: 10014
+    itemsadder-item: "fantasy_weapons:vesper"
+    name: "&d&lHắc Ám Tà Thần Song Chủy &7[&6&lGACHA&7]"
+    max-durability: 20000
+    tier: UNIQUE
+    hide-enchants: true
+    lore-format: weapon-lore
+    lore:
+      - "&b&l✦ Vật Phẩm Gacha Độc Quyền"
+      - "&7 &d●&7 Cặp dao găm sát thủ mang hơi thở bóng đêm"
+      - "&7 &d●&7 Tốc độ tấn công cực nhanh và tỉ lệ chí mạng đoạt mạng"
+    attack-damage: 46.0
+    attack-speed: 2.2
+    critical-strike-chance: 35.0
+    critical-strike-power: 45.0
+    movement-speed: 0.03
+    ability:
+      ability-1:
+        type: QUICK_DASH
+        mode: RIGHT_CLICK
+        cooldown: 5.0
+    gem-sockets:
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
+    will-break: false
+    unbreakable: false

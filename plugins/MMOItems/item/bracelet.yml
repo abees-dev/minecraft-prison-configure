@@ -1,0 +1,50 @@
+
+LONG_VUONG_BRACELET:
+  base:
+    material: PAPER
+    custom-model-data: 19205
+    itemsadder-item: "rings_pack:set1_ring_5"
+    name: "&c&lVòng Tay Long Vương"
+    set: LONG_VUONG_SET
+    attack-damage: 10.0
+    critical-strike-power: 15.0
+
+BANG_TINH_BRACELET:
+  base:
+    material: PAPER
+    custom-model-data: 19214
+    itemsadder-item: "rings_pack:set2_ring_5"
+    name: "&b&lVòng Tay Băng Tinh"
+    set: BANG_TINH_SET
+    max-health: 100.0
+    armor: 10.0
+
+HAC_AM_BRACELET:
+  base:
+    material: PAPER
+    custom-model-data: 19224
+    itemsadder-item: "rings_pack:set3_ring_5"
+    name: "&d&lVòng Tay Hắc Ám"
+    set: HAC_AM_SET
+    magic-damage: 10.0
+    max-mana: 80.0
+
+LOI_THAN_BRACELET:
+  base:
+    material: PAPER
+    custom-model-data: 19244
+    itemsadder-item: "rings_pack:set5_ring_5"
+    name: "&e&lVòng Tay Lôi Thần"
+    set: LOI_THAN_SET
+    attack-speed: 10.0
+    dodge-rating: 5.0
+
+HOANG_GIA_BRACELET:
+  base:
+    material: PAPER
+    custom-model-data: 19274
+    itemsadder-item: "rings_pack:set8_ring_5"
+    name: "&6&lVòng Tay Hoàng Gia"
+    set: HOANG_GIA_SET
+    physical-damage: 10.0
+    magic-damage: 5.0

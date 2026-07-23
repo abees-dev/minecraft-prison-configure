@@ -1,0 +1,50 @@
+
+LONG_VUONG_AMULET:
+  base:
+    material: PAPER
+    custom-model-data: 19401
+    itemsadder-item: "rings_pack:set1_necklace_1"
+    name: "&c&lDây Chuyền Long Vương"
+    set: LONG_VUONG_SET
+    attack-damage: 20.0
+    critical-strike-chance: 8.0
+
+BANG_TINH_AMULET:
+  base:
+    material: PAPER
+    custom-model-data: 19413
+    itemsadder-item: "rings_pack:set2_necklace_2"
+    name: "&b&lDây Chuyền Băng Tinh"
+    set: BANG_TINH_SET
+    max-health: 120.0
+    damage-reduction: 5.0
+
+HAC_AM_AMULET:
+  base:
+    material: PAPER
+    custom-model-data: 19415
+    itemsadder-item: "rings_pack:set3_necklace_1"
+    name: "&d&lDây Chuyền Hắc Ám"
+    set: HAC_AM_SET
+    magic-damage: 12.0
+    max-mana: 100.0
+
+LOI_THAN_AMULET:
+  base:
+    material: PAPER
+    custom-model-data: 19421
+    itemsadder-item: "rings_pack:set5_necklace_1"
+    name: "&e&lDây Chuyền Lôi Thần"
+    set: LOI_THAN_SET
+    attack-speed: 12.0
+    movement-speed: 0.02
+
+HOANG_GIA_AMULET:
+  base:
+    material: PAPER
+    custom-model-data: 19431
+    itemsadder-item: "rings_pack:set8_necklace_1"
+    name: "&6&lDây Chuyền Hoàng Gia"
+    set: HOANG_GIA_SET
+    physical-damage: 12.0
+    max-health: 100.0

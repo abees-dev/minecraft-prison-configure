@@ -988,3 +988,45 @@ STAFF_VUOT_NGUC_5:
     will-break: false
     unbreakable: false
 
+GACHA_STAFF_CELESTIAL:
+  base:
+    material: DIAMOND_SWORD
+    custom-model-data: 10043
+    itemsadder-item: "shadow_slayer:shadow_slayer_staff"
+    name: "&b&lThiên Uy Quang Trượng &7[&6&lGACHA&7]"
+    max-durability: 20000
+    tier: UNIQUE
+    hide-enchants: true
+    lore-format: weapon-lore
+    lore:
+      - "&b&l✦ Vật Phẩm Gacha Độc Quyền"
+      - "&7 &b●&7 Trượng phép tối cao kết tinh từ ánh tinh tú"
+      - "&7 &b●&7 Sát thương phép vô song & tối ưu hóa lượng Mana tiêu hao"
+    attack-damage: 48.0
+    magic-damage: 155.0
+    mana-cost: 14
+    spell-vampirism: 10.5
+    cooldown-reduction: 8.0
+    ability:
+      ability-1:
+        type: STARFALL
+        mode: RIGHT_CLICK
+        cooldown: 6.0
+        mana: 15
+        damage: 25.0
+      ability-2:
+        type: ARCANE_HAIL
+        mode: SHIFT_RIGHT_CLICK
+        cooldown: 10.0
+        mana: 25
+        damage: 30.0
+    gem-sockets:
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
+    will-break: false
+    unbreakable: false
+
+

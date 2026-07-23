@@ -1,0 +1,50 @@
+
+LONG_VUONG_GLOVES:
+  base:
+    material: PAPER
+    custom-model-data: 19537
+    itemsadder-item: "rings_pack:glove_37"
+    name: "&c&lGăng Tay Long Vương"
+    set: LONG_VUONG_SET
+    attack-damage: 12.0
+    critical-strike-chance: 6.0
+
+BANG_TINH_GLOVES:
+  base:
+    material: PAPER
+    custom-model-data: 19561
+    itemsadder-item: "rings_pack:glove_61"
+    name: "&b&lGăng Tay Băng Tinh"
+    set: BANG_TINH_SET
+    max-health: 90.0
+    damage-reduction: 4.0
+
+HAC_AM_GLOVES:
+  base:
+    material: PAPER
+    custom-model-data: 19502
+    itemsadder-item: "rings_pack:glove_2"
+    name: "&d&lGăng Tay Hắc Ám"
+    set: HAC_AM_SET
+    magic-damage: 10.0
+    lifesteal: 5.0
+
+LOI_THAN_GLOVES:
+  base:
+    material: PAPER
+    custom-model-data: 19501
+    itemsadder-item: "rings_pack:glove_1"
+    name: "&e&lGăng Tay Lôi Thần"
+    set: LOI_THAN_SET
+    attack-speed: 10.0
+    movement-speed: 0.015
+
+HOANG_GIA_GLOVES:
+  base:
+    material: PAPER
+    custom-model-data: 19585
+    itemsadder-item: "rings_pack:glove_85"
+    name: "&6&lGăng Tay Hoàng Gia"
+    set: HOANG_GIA_SET
+    physical-damage: 10.0
+    max-health: 80.0

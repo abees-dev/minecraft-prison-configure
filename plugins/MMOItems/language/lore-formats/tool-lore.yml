@@ -13,3 +13,5 @@ lore-format:
   - '#tier#'
   - '#durability#'
   - '#item-type#'
+  - '{bar}&f'
+  - '#set#'
