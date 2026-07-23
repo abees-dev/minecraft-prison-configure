@@ -1,0 +1,194 @@
+######## created by samus2002 #########
+
+# VFX #
+
+VFX_Explosive_Arrow_Charge:
+  Type: ARMOR_STAND
+  Options:
+    Marker: true
+    Small: false
+    HasArms: true
+    Invisible: true
+    Invincible: true
+  Skills:
+  - model{usestatemachine=true;mid=vfx_archer_arrow_impact;scale=1} @self ~onSpawn
+  - brightness{mid=vfx_archer_arrow_impact;b=15;s=15} @self ~onSpawn
+  - BodyRotation{playermode=true;stable=0;rdelay=0;rduration=0} @self ~onSpawn
+  - state{s=charge;speed=1} @self ~onSpawn
+  - tint{m=vfx_archer_arrow_impact;c=db2100} @self ~onSpawn
+  - remove{delay=32} @self ~onSpawn
+VFX_Explosive_Arrow_Impact:
+  Type: ARMOR_STAND
+  Options:
+    Marker: true
+    Small: false
+    HasArms: true
+    Invisible: true
+    Invincible: true
+  Skills:
+  - model{usestatemachine=true;mid=vfx_archer_arrow_impact;scale=1.1} @self ~onSpawn
+  - brightness{mid=vfx_archer_arrow_impact;b=15;s=15} @self ~onSpawn
+  - BodyRotation{playermode=true;stable=0;rdelay=0;rduration=0} @self ~onSpawn
+  - state{s=impact;speed=1.5} @self ~onSpawn
+  - tint{m=vfx_archer_arrow_impact;c=db2100} @self ~onSpawn
+  - remove{delay=17} @self ~onSpawn
+VFX_Explosive_Arrow_Arrow:
+  Type: ARMOR_STAND
+  Options:
+    Marker: true
+    Small: false
+    HasArms: true
+    Invisible: true
+    Invincible: true
+  Skills:
+  - model{usestatemachine=true;mid=vfx_archer_arrow} @self ~onSpawn
+  - brightness{mid=vfx_archer_arrow;b=15;s=15} @self ~onSpawn
+  - effect:particles{p=campfire_cosy_smoke;amount=1;hS=0;vS=0;y=0;size=0.5;speed=0} @modelpart{p=body} ~onTimer:1
+  - BodyRotation{playermode=true;stable=0;rdelay=0;rduration=0} @self ~onSpawn
+  - tint{m=vfx_archer_arrow;c=db2100} @self ~onSpawn
+  - state{s=shoot;p=1} @self ~onSpawn
+  - state{s=shoot_end;delay=20;p=2} @self ~onSpawn
+VFX_Explosive_Arrow_Explosion:
+  Type: ARMOR_STAND
+  Options:
+    Marker: true
+    Small: false
+    HasArms: true
+    Invisible: true
+    Invincible: true
+  Skills:
+  - model{usestatemachine=true;mid=vfx_eruption_explosion_1;lockpitch=true;scale=<random.float.0.5to0.7>} @self ~onSpawn
+  - brightness{mid=vfx_eruption_explosion_1;b=15;s=15} @self ~onSpawn
+  - BodyRotation{playermode=false;stable=0;rdelay=0;rduration=0} @self ~onSpawn
+  - skill{s=VFX_Explosive_Arrow_RAN} @self ~onSpawn
+
+  - effect:particles{p=smoke;amount=30;hS=1;vS=1;y=0;size=1;speed=0.05;delay=2} @modelpart{p=body} ~onSpawn
+  - effect:particles{p=campfire_cosy_smoke;amount=10;hS=1;vS=1;y=0;size=1;speed=0.1;delay=2} @modelpart{p=body} ~onSpawn
+  - effect:particles{p=lava;amount=7;hS=0.7;vS=0.7;y=0;size=1;speed=0.1;delay=2} @modelpart{p=body} ~onSpawn
+  
+  - changepart{m=vfx_eruption_explosion_1;p=body;nm=vfx_eruption_explosion_2;np=body;delay=2} @self ~onSpawn
+  - changepart{m=vfx_eruption_explosion_1;p=body;nm=vfx_eruption_explosion_3;np=body;delay=4} @self ~onSpawn
+  - changepart{m=vfx_eruption_explosion_1;p=body;nm=vfx_eruption_explosion_4;np=body;delay=6} @self ~onSpawn
+  - changepart{m=vfx_eruption_explosion_1;p=body;nm=vfx_eruption_explosion_5;np=body;delay=8} @self ~onSpawn
+  - changepart{m=vfx_eruption_explosion_1;p=body;nm=vfx_eruption_explosion_6;np=body;delay=10} @self ~onSpawn
+  - changepart{m=vfx_eruption_explosion_1;p=body;nm=vfx_eruption_explosion_7;np=body;delay=12} @self ~onSpawn
+  - changepart{m=vfx_eruption_explosion_1;p=body;nm=vfx_eruption_explosion_8;np=body;delay=14} @self ~onSpawn
+  - changepart{m=vfx_eruption_explosion_1;p=body;nm=vfx_eruption_explosion_9;np=body;delay=16} @self ~onSpawn
+  - changepart{m=vfx_eruption_explosion_1;p=body;nm=vfx_eruption_explosion_10;np=body;delay=18} @self ~onSpawn
+  - changepart{m=vfx_eruption_explosion_1;p=body;nm=vfx_eruption_explosion_11;np=body;delay=20} @self ~onSpawn
+  - changepart{m=vfx_eruption_explosion_1;p=body;nm=vfx_eruption_explosion_12;np=body;delay=22} @self ~onSpawn
+  - remove{delay=24} @self ~onSpawn
+  
+  
+  
+VFX_Arrow_Shower_Fireup:
+  Type: ARMOR_STAND
+  Options:
+    Marker: true
+    Small: false
+    HasArms: true
+    Invisible: true
+    Invincible: true
+  Skills:
+  - model{usestatemachine=true;mid=vfx_archer_fireup;scale=0.7} @self ~onSpawn
+  - brightness{mid=vfx_archer_fireup;b=15;s=15} @self ~onSpawn
+  - BodyRotation{playermode=true;stable=0;rdelay=0;rduration=0} @self ~onSpawn
+  - skill{s=VFX_Arrow_Shower_Arrow_SHOT_RD} @self ~onSpawn
+  - tint{m=vfx_archer_fireup;c=ff993b} @self ~onSpawn
+  - remove{delay=8} @self ~onSpawn
+VFX_Arrow_Shower_Impact:
+  Type: ARMOR_STAND
+  Options:
+    Marker: true
+    Small: false
+    HasArms: true
+    Invisible: true
+    Invincible: true
+  Skills:
+  - model{usestatemachine=true;mid=vfx_archer_arrow_impact;scale=0.8} @self ~onSpawn
+  - brightness{mid=vfx_archer_arrow_impact;b=15;s=15} @self ~onSpawn
+  - BodyRotation{playermode=true;stable=0;rdelay=0;rduration=0} @self ~onSpawn
+  - state{s=up_impact;speed=1.5} @self ~onSpawn
+  - tint{m=vfx_archer_arrow_impact;c=ff993b} @self ~onSpawn
+  - remove{delay=17} @self ~onSpawn
+VFX_Arrow_Shower_Arrow:
+  Type: ARMOR_STAND
+  Options:
+    Marker: true
+    Small: false
+    HasArms: true
+    Invisible: true
+    Invincible: true
+  Skills:
+  - model{usestatemachine=true;mid=vfx_archer_arrow} @self ~onSpawn
+  - brightness{mid=vfx_archer_arrow;b=15;s=15} @self ~onSpawn
+  - BodyRotation{playermode=true;stable=0;rdelay=0;rduration=0} @self ~onSpawn
+  - skill{s=VFX_Arrow_Shower_Arrow_RD} @self ~onSpawn
+  - tint{m=vfx_archer_arrow;c=ff993b} @self ~onSpawn
+  #- effect:sound{s=item.trident.hit;volume=2.5;pitch=1.8;delay=7} @self ~onSpawn
+  - effect:sound{s=entity.arrow.hit;volume=0.25;pitch=1.4;delay=7} @self ~onSpawn
+  - remove{delay=31} @self ~onSpawn
+
+
+VFX_Hurricane_Shot_Arrow:
+  Type: ARMOR_STAND
+  Options:
+    Marker: true
+    Small: false
+    HasArms: true
+    Invisible: true
+    Invincible: true
+  Skills:
+  - model{usestatemachine=true;mid=vfx_archer_arrow} @self ~onSpawn
+  - brightness{mid=vfx_archer_arrow;b=15;s=15} @self ~onSpawn
+  - BodyRotation{playermode=true;stable=0;rdelay=0;rduration=0} @self ~onSpawn
+  - tint{m=vfx_archer_arrow;c=b5efa6} @self ~onSpawn
+  - state{s=shoot;p=1} @self ~onSpawn
+  - state{s=shoot_end;delay=20;p=2} @self ~onSpawn
+VFX_Hurricane_Shot_Charge:
+  Type: ARMOR_STAND
+  Options:
+    Marker: true
+    Small: false
+    HasArms: true
+    Invisible: true
+    Invincible: true
+  Skills:
+  - model{usestatemachine=true;mid=vfx_archer_arrow_impact;scale=1} @self ~onSpawn
+  - brightness{mid=vfx_archer_arrow_impact;b=15;s=15} @self ~onSpawn
+  - BodyRotation{playermode=true;stable=0;rdelay=0;rduration=0} @self ~onSpawn
+  - state{s=charge;speed=1} @self ~onSpawn
+  - tint{m=vfx_archer_arrow_impact;c=b5efa6} @self ~onSpawn
+  - remove{delay=25} @self ~onSpawn
+VFX_Hurricane_Shot_Impact:
+  Type: ARMOR_STAND
+  Options:
+    Marker: true
+    Small: false
+    HasArms: true
+    Invisible: true
+    Invincible: true
+  Skills:
+  - model{usestatemachine=true;mid=vfx_archer_arrow_impact;scale=2} @self ~onSpawn
+  - brightness{mid=vfx_archer_arrow_impact;b=15;s=15} @self ~onSpawn
+  - BodyRotation{playermode=true;stable=0;rdelay=0;rduration=0} @self ~onSpawn
+  - state{s=impact;speed=1} @self ~onSpawn
+  - tint{m=vfx_archer_arrow_impact;c=b5efa6} @self ~onSpawn
+  - remove{delay=25} @self ~onSpawn
+VFX_Hurricane_Shot_T:
+  Type: ARMOR_STAND
+  Options:
+    Marker: true
+    Small: false
+    HasArms: true
+    Invisible: true
+    Invincible: true
+  Skills:
+  - model{usestatemachine=true;mid=vfx_archer_hurricane_trail;scale=1.5} @self ~onSpawn
+  - brightness{mid=vfx_archer_hurricane_trail;b=15;s=15} @self ~onSpawn
+  - BodyRotation{playermode=true;stable=0;rdelay=0;rduration=0} @self ~onSpawn
+  - state{s=skill;speed=1} @self ~onSpawn
+  - tint{m=vfx_archer_hurricane_trail;c=b5efa6} @self ~onSpawn
+  - remove{delay=23} @self ~onSpawn
+
+  

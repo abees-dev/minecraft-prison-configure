@@ -1,0 +1,40 @@
+name: Death Sentence
+lore:
+- "&7&m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+- ""
+- "&7Spread your deathly wings and soar into the air, inhaling"
+- "&7necrotic energy to slowly summon your soul blade, locating your"
+- "&7target zone. Dive toward the chosen location with terrifying force,"
+- "&7slashing all enemies with your soul blade."
+- "&7Enemies with fully charged cursed seals are instantly executed,"
+- "&7leaving no chance of survival."
+- "&c🗡 {damage} Damage"
+- "&e⌛ {cooldown}s Cooldown"
+- ""
+- "&7&m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+material: 'COAL:2260'
+timer:
+  base: 0
+  per-level: 0
+  min: 0
+  max: 0
+damage:
+  base: 5
+  per-level: 1
+  min: 5
+  max: 9
+mana:
+  base: 0
+  per-level: 0
+  min: 0
+  max: 0
+stamina:
+  base: 0
+  per-level: 0
+  min: 0
+  max: 0
+cooldown:
+  base: 8
+  per-level: -0.01
+  min: 7
+  max: 8

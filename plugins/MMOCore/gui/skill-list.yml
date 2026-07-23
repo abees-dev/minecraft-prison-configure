@@ -47,7 +47,7 @@ items:
       - '&e◆ Skill Reallocation Points: &6{points}'
 
   slot:
-    slots: [ 8,17,26,35,44,53 ]
+    slots: [ 7,8,17,26,35,44,53 ]
     function: slot
     item: GRAY_DYE
 

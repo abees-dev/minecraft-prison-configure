@@ -1,0 +1,15 @@
+EXPLOSIVE_ARROW:
+    mythicmobs-skill-id: Explosive_Arrow
+    modifiers:
+    - damage
+ 
+ARROW_SHOWER:
+    mythicmobs-skill-id: Arrow_Shower
+    modifiers:
+    - damage
+    
+HURRICANE_SHOT:
+    mythicmobs-skill-id: Hurricane_Shot
+    modifiers:
+    - damage
+#E2b2Anbo5mQ2UXWtx2aMhHRFFjU3llaOl3aq5UMNRUT5tGSlB3NN90ZxNjeTNEMUNXV0EFN

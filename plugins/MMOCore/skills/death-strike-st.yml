@@ -1,0 +1,40 @@
+name: Death Strike
+lore:
+- "&7&m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+- ""
+- "&7Unleash a forward slash, knocking back enemies. On the third cast,"
+- "&7hurl chains of death forward, latching onto blocks or enemies and"
+- "&7pulling yourself toward the landing point. On the fourth cast,"
+- "&7step back and slam the ground with immense force, releasing a"
+- "&7massive necrotic shockwave."
+- "&c🗡 {damage} Damage"
+- "&e⌛ {cooldown}s Cooldown"
+- ""
+- "&7&m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+material: 'COAL:2261'
+timer:
+  base: 0
+  per-level: 0
+  min: 0
+  max: 0
+damage:
+  base: 3
+  per-level: 1
+  min: 3
+  max: 6
+mana:
+  base: 0
+  per-level: 0
+  min: 0
+  max: 0
+stamina:
+  base: 0
+  per-level: 0
+  min: 0
+  max: 0
+cooldown:
+  base: 0.5
+  per-level: -0.01
+  min: 0.3
+  max: 0.5
+#claSFzT5NVanVkNUF2NQJTdZpXY31keNJTUE90MFRUT4RjMR9EUjtWZpt0SMFmYshUW0IlM

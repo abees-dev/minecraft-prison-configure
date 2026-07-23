@@ -1,0 +1,315 @@
+info:
+  namespace: mage
+items:
+  mage_staff:
+    display_name: "mage_staff"
+    permission: mage_staff
+    resource:
+      material: STONE_SWORD
+      model_id: 2021
+      generate: false
+      model_path: mage_model/mage_staff
+  mage_staff_shiny:
+    display_name: "mage_staff_shiny"
+    permission: mage_staff_shiny
+    resource:
+      material: STONE_SWORD
+      model_id: 2022
+      generate: false
+      model_path: mage_model/mage_staff_shiny
+  icon_arcane_missile:
+    display_name: "icon_arcane_missile"
+    permission: icon_arcane_missile
+    resource:
+      material: COAL
+      model_id: 2064
+      generate: false
+      model_path: mage_model/icon_arcane_missile
+  icon_blink:
+    display_name: "icon_blink"
+    permission: icon_blink
+    resource:
+      material: COAL
+      model_id: 2065
+      generate: false
+      model_path: mage_model/icon_blink
+  icon_fireball:
+    display_name: "icon_fireball"
+    permission: icon_fireball
+    resource:
+      material: COAL
+      model_id: 2066
+      generate: false
+      model_path: mage_model/icon_fireball
+  icon_frost_nova:
+    display_name: "icon_frost_nova"
+    permission: icon_frost_nova
+    resource:
+      material: COAL
+      model_id: 2067
+      generate: false
+      model_path: mage_model/icon_frost_nova
+  icon_inferno_chains:
+    display_name: "icon_inferno_chains"
+    permission: icon_inferno_chains
+    resource:
+      material: COAL
+      model_id: 2068
+      generate: false
+      model_path: mage_model/icon_inferno_chains
+  icon_meteor:
+    display_name: "icon_meteor"
+    permission: icon_meteor
+    resource:
+      material: COAL
+      model_id: 2069
+      generate: false
+      model_path: mage_model/icon_meteor
+  arcane_missile:
+    display_name: "arcane_missile"
+    permission: arcane_missile
+    resource:
+      material: PAPER
+      model_id: 2244
+      generate: false
+      model_path: mage_model/arcane_missile
+  blink_1:
+    display_name: "blink_1"
+    permission: blink_1
+    resource:
+      material: PAPER
+      model_id: 2245
+      generate: false
+      model_path: mage_model/blink_1
+  blink_2:
+    display_name: "blink_2"
+    permission: blink_2
+    resource:
+      material: PAPER
+      model_id: 2246
+      generate: false
+      model_path: mage_model/blink_2
+  blink_3:
+    display_name: "blink_3"
+    permission: blink_3
+    resource:
+      material: PAPER
+      model_id: 2247
+      generate: false
+      model_path: mage_model/blink_3
+  blink_4:
+    display_name: "blink_4"
+    permission: blink_4
+    resource:
+      material: PAPER
+      model_id: 2248
+      generate: false
+      model_path: mage_model/blink_4
+  blink_5:
+    display_name: "blink_5"
+    permission: blink_5
+    resource:
+      material: PAPER
+      model_id: 2249
+      generate: false
+      model_path: mage_model/blink_5
+  blink_6:
+    display_name: "blink_6"
+    permission: blink_6
+    resource:
+      material: PAPER
+      model_id: 2250
+      generate: false
+      model_path: mage_model/blink_6
+  fireball:
+    display_name: "fireball"
+    permission: fireball
+    resource:
+      material: PAPER
+      model_id: 2251
+      generate: false
+      model_path: mage_model/fireball
+  frost_nova_1:
+    display_name: "frost_nova_1"
+    permission: frost_nova_1
+    resource:
+      material: PAPER
+      model_id: 2252
+      generate: false
+      model_path: mage_model/frost_nova_1
+  frost_nova_2:
+    display_name: "frost_nova_2"
+    permission: frost_nova_2
+    resource:
+      material: PAPER
+      model_id: 2253
+      generate: false
+      model_path: mage_model/frost_nova_2
+  frost_nova_3:
+    display_name: "frost_nova_3"
+    permission: frost_nova_3
+    resource:
+      material: PAPER
+      model_id: 2254
+      generate: false
+      model_path: mage_model/frost_nova_3
+  frost_nova_4:
+    display_name: "frost_nova_4"
+    permission: frost_nova_4
+    resource:
+      material: PAPER
+      model_id: 2255
+      generate: false
+      model_path: mage_model/frost_nova_4
+  frost_nova_5:
+    display_name: "frost_nova_5"
+    permission: frost_nova_5
+    resource:
+      material: PAPER
+      model_id: 2256
+      generate: false
+      model_path: mage_model/frost_nova_5
+  frost_nova_6:
+    display_name: "frost_nova_6"
+    permission: frost_nova_6
+    resource:
+      material: PAPER
+      model_id: 2257
+      generate: false
+      model_path: mage_model/frost_nova_6
+  ground_crack_1:
+    display_name: "ground_crack_1"
+    permission: ground_crack_1
+    resource:
+      material: PAPER
+      model_id: 2258
+      generate: false
+      model_path: mage_model/ground_crack_1
+  ground_crack_2:
+    display_name: "ground_crack_2"
+    permission: ground_crack_2
+    resource:
+      material: PAPER
+      model_id: 2259
+      generate: false
+      model_path: mage_model/ground_crack_2
+  ground_crack_3:
+    display_name: "ground_crack_3"
+    permission: ground_crack_3
+    resource:
+      material: PAPER
+      model_id: 2260
+      generate: false
+      model_path: mage_model/ground_crack_3
+  ground_crack_4:
+    display_name: "ground_crack_4"
+    permission: ground_crack_4
+    resource:
+      material: PAPER
+      model_id: 2261
+      generate: false
+      model_path: mage_model/ground_crack_4
+  ground_crack_5:
+    display_name: "ground_crack_5"
+    permission: ground_crack_5
+    resource:
+      material: PAPER
+      model_id: 2262
+      generate: false
+      model_path: mage_model/ground_crack_5
+  ground_crack_6:
+    display_name: "ground_crack_6"
+    permission: ground_crack_6
+    resource:
+      material: PAPER
+      model_id: 2263
+      generate: false
+      model_path: mage_model/ground_crack_6
+  ground_crack_explode_1:
+    display_name: "ground_crack_explode_1"
+    permission: ground_crack_explode_1
+    resource:
+      material: PAPER
+      model_id: 2264
+      generate: false
+      model_path: mage_model/ground_crack_explode_1
+  ground_crack_explode_2:
+    display_name: "ground_crack_explode_2"
+    permission: ground_crack_explode_2
+    resource:
+      material: PAPER
+      model_id: 2265
+      generate: false
+      model_path: mage_model/ground_crack_explode_2
+  ground_crack_explode_3:
+    display_name: "ground_crack_explode_3"
+    permission: ground_crack_explode_3
+    resource:
+      material: PAPER
+      model_id: 2266
+      generate: false
+      model_path: mage_model/ground_crack_explode_3
+  inferno_chains_1:
+    display_name: "inferno_chains_1"
+    permission: inferno_chains_1
+    resource:
+      material: PAPER
+      model_id: 2267
+      generate: false
+      model_path: mage_model/inferno_chains_1
+  inferno_chains_2:
+    display_name: "inferno_chains_2"
+    permission: inferno_chains_2
+    resource:
+      material: PAPER
+      model_id: 2268
+      generate: false
+      model_path: mage_model/inferno_chains_2
+  inferno_chains_3:
+    display_name: "inferno_chains_3"
+    permission: inferno_chains_3
+    resource:
+      material: PAPER
+      model_id: 2269
+      generate: false
+      model_path: mage_model/inferno_chains_3
+  inferno_chains_4:
+    display_name: "inferno_chains_4"
+    permission: inferno_chains_4
+    resource:
+      material: PAPER
+      model_id: 2270
+      generate: false
+      model_path: mage_model/inferno_chains_4
+  inferno_chains_5:
+    display_name: "inferno_chains_5"
+    permission: inferno_chains_5
+    resource:
+      material: PAPER
+      model_id: 2271
+      generate: false
+      model_path: mage_model/inferno_chains_5
+  inferno_chains_6:
+    display_name: "inferno_chains_6"
+    permission: inferno_chains_6
+    resource:
+      material: PAPER
+      model_id: 2272
+      generate: false
+      model_path: mage_model/inferno_chains_6
+  inferno_chains_7:
+    display_name: "inferno_chains_7"
+    permission: inferno_chains_7
+    resource:
+      material: PAPER
+      model_id: 2273
+      generate: false
+      model_path: mage_model/inferno_chains_7
+  meteor:
+    display_name: "meteor"
+    permission: meteor
+    resource:
+      material: PAPER
+      model_id: 2274
+      generate: false
+      model_path: mage_model/meteor

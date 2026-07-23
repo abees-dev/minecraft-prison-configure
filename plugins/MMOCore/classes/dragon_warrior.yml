@@ -1,0 +1,75 @@
+display:
+    name: 'Chiến Binh Rồng'
+    lore:
+    - '&7Một chiến binh cuồng bạo mang trong mình sức'
+    - '&7mạnh của loài rồng, thiêu đốt kẻ địch bằng'
+    - '&7lửa và dung nham.'
+    attribute-lore:
+    - '&a+ &7Sát Thương Đánh Thường'
+    - '&a+ &7Máu Tối Đa'
+    - '&c- &7Tốc Độ Đánh'
+    - ''
+    - '&8&lSức Mạnh'
+    - '&7  Sát Thương: &c2.3 &7(+&c0.12&7/cấp)'
+    - '&7  Tốc Độ Đánh: &c3.9 &7(+&c0&7/cấp)'
+    - '&7  Máu Tối Đa: &c22 &7(+&c0.4&7/cấp)'
+    item: BLAZE_ROD
+
+exp-curve: levels
+max-level: 100
+exp-table: class_exp_table
+
+skill-slots:
+    1:
+        name: "&aSkill Slot I"
+        unlocked-by-default: true
+    2:
+        name: "&aSkill Slot II"
+        unlocked-by-default: true
+    3:
+        name: "&aSkill Slot III"
+        unlocked-by-default: true
+    4:
+        name: "&aSkill Slot IV"
+        unlocked-by-default: true
+
+cast-particle:
+    particle: FLAME
+
+options:
+    needs-permission: false
+
+attributes:
+    attack-damage:
+        base: 2.3
+        per-level: .12
+    attack-speed:
+        base: 3.9
+        per-level: 0
+    max-health:
+        base: 22
+        per-level: .4
+
+skills:
+    BURNING_HANDS:
+        level: 1
+        max-level: 30
+    IGNITE:
+        level: 3
+        max-level: 30
+    FIRE_RAGE:
+        level: 5
+        max-level: 30
+    MAGMA_FISSURE:
+        level: 8
+        max-level: 30
+    EARTHQUAKE:
+        level: 11
+        max-level: 30
+    FIRE_CRITICAL_STRIKE:
+        level: 15
+        max-level: 30
+
+main-exp-sources:
+- 'killmob{type=ZOMBIE;amount=1-3}'
+- 'killmob{type=ENDERMAN;amount=6-9}'

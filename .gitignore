@@ -40,3 +40,8 @@ Thumbs.db
 /jre-17/
 
 world_prison
+.mmocore_inspect
+skill/**/
+
+# ItemsAdder / plugin resourcepack assets (large binary textures & models)
+**/resourcepack/

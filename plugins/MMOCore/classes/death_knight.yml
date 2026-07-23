@@ -1,0 +1,82 @@
+display:
+    name: 'Hiệp Sĩ Tử Thần'
+    lore:
+    - '&7Một chiến binh sa ngã, gắn kết với sức mạnh'
+    - '&7bóng tối, hút sinh lực kẻ địch để trụ vững'
+    - '&7trong những trận chiến kéo dài.'
+    attribute-lore:
+    - '&a+ &7Sát Thương Đánh Thường'
+    - '&a+ &7Máu Tối Đa'
+    - '&c- &7Tốc Độ Di Chuyển'
+    - '&c- &7Tốc Độ Đánh'
+    - ''
+    - '&8&lSức Mạnh'
+    - '&7  Sát Thương: &c2.2 &7(+&c0.12&7/cấp)'
+    - '&7  Tốc Độ Đánh: &c3.8 &7(+&c0&7/cấp)'
+    - '&7  Máu Tối Đa: &c23 &7(+&c0.4&7/cấp)'
+    - ''
+    - '&8&lNhanh Nhẹn'
+    - '&7  Tốc Độ Di Chuyển: &a0.09 &7(+&a0&7/cấp)'
+    item: NETHERITE_SWORD
+
+exp-curve: levels
+max-level: 100
+exp-table: class_exp_table
+
+skill-slots:
+    1:
+        name: "&aSkill Slot I"
+        unlocked-by-default: true
+    2:
+        name: "&aSkill Slot II"
+        unlocked-by-default: true
+    3:
+        name: "&aSkill Slot III"
+        unlocked-by-default: true
+    4:
+        name: "&aSkill Slot IV"
+        unlocked-by-default: true
+
+cast-particle:
+    particle: SMOKE_NORMAL
+
+options:
+    needs-permission: false
+
+attributes:
+    attack-damage:
+        base: 2.2
+        per-level: .12
+    attack-speed:
+        base: 3.8
+        per-level: 0
+    max-health:
+        base: 23
+        per-level: .4
+    movement-speed:
+        base: .09
+        per-level: 0
+
+skills:
+    DEEP_WOUND:
+        level: 1
+        max-level: 30
+    CORRUPT:
+        level: 3
+        max-level: 30
+    CORROSION:
+        level: 5
+        max-level: 30
+    CURSED_BEAM:
+        level: 8
+        max-level: 30
+    DEATH_MARK:
+        level: 11
+        max-level: 30
+    VAMPIRISM:
+        level: 15
+        max-level: 30
+
+main-exp-sources:
+- 'killmob{type=ZOMBIE;amount=1-3}'
+- 'killmob{type=ENDERMAN;amount=6-9}'

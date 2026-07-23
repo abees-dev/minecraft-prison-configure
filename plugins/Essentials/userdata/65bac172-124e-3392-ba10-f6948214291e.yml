@@ -16,7 +16,7 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1784780026327
+  logout: 1784781768639
   login: 1784780458326
 money: '99999100'
 last-account-name: AbeesShadow
@@ -31,8 +31,8 @@ lastlocation:
 logoutlocation:
   world: 4fc353f3-5233-45c3-a419-97d34b1bffd7
   world-name: world
-  x: -16.928163120535284
-  y: 81.0
-  z: -1.576886011639403
-  yaw: 8.948508262634277
-  pitch: 7.347199440002441
+  x: -44.91708241738168
+  y: 82.0
+  z: 1.0284808987131524
+  yaw: -57.55257034301758
+  pitch: 11.021771430969238

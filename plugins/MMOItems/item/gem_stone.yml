@@ -1,0 +1,1500 @@
+RED_GEM_LV1:
+  base:
+    material: CARROT_ON_A_STICK
+    custom-model-data: 15008
+    name: "&c&lHồng Ngọc &e&lLv.I"
+    gem-color: "Red"
+    success-rate: 95
+    lore:
+      - "&7Đá quý mang năng lượng nguyên tố Hỏa."
+      - "&7Kéo thả vào trang bị có ô khảm để tăng sức mạnh."
+    attack-damage: 0.5
+    max-stack: 1
+    will-break: false
+    unbreakable: false
+
+RED_GEM_LV2:
+  base:
+    material: CARROT_ON_A_STICK
+    custom-model-data: 15008
+    name: "&c&lHồng Ngọc &e&lLv.II"
+    gem-color: "Red"
+    success-rate: 85
+    lore:
+      - "&7Đá quý mang năng lượng nguyên tố Hỏa."
+      - "&7Kéo thả vào trang bị có ô khảm để tăng sức mạnh."
+    attack-damage: 1
+    max-stack: 1
+    will-break: false
+    unbreakable: false
+
+RED_GEM_LV3:
+  base:
+    material: CARROT_ON_A_STICK
+    custom-model-data: 15008
+    name: "&c&lHồng Ngọc &e&lLv.III"
+    gem-color: "Red"
+    success-rate: 70
+    lore:
+      - "&7Đá quý mang năng lượng nguyên tố Hỏa."
+      - "&7Kéo thả vào trang bị có ô khảm để tăng sức mạnh."
+    attack-damage: 1.5
+    max-stack: 1
+    will-break: false
+    unbreakable: false
+
+RED_GEM_LV4:
+  base:
+    material: CARROT_ON_A_STICK
+    custom-model-data: 15008
+    name: "&c&lHồng Ngọc &e&lLv.IV"
+    gem-color: "Red"
+    success-rate: 55
+    lore:
+      - "&7Đá quý mang năng lượng nguyên tố Hỏa."
+      - "&7Kéo thả vào trang bị có ô khảm để tăng sức mạnh."
+    attack-damage: 2
+    max-stack: 1
+    will-break: false
+    unbreakable: false
+
+RED_GEM_LV5:
+  base:
+    material: CARROT_ON_A_STICK
+    custom-model-data: 15008
+    name: "&c&lHồng Ngọc &e&lLv.V"
+    gem-color: "Red"
+    success-rate: 40
+    lore:
+      - "&7Đá quý mang năng lượng nguyên tố Hỏa."
+      - "&7Kéo thả vào trang bị có ô khảm để tăng sức mạnh."
+    attack-damage: 2.8
+    max-stack: 1
+    will-break: false
+    unbreakable: false
+
+RED_GEM_LV6:
+  base:
+    material: CARROT_ON_A_STICK
+    custom-model-data: 15008
+    name: "&c&lHồng Ngọc &e&lLv.VI"
+    gem-color: "Red"
+    success-rate: 28
+    lore:
+      - "&7Đá quý mang năng lượng nguyên tố Hỏa."
+      - "&7Kéo thả vào trang bị có ô khảm để tăng sức mạnh."
+    attack-damage: 3.6
+    max-stack: 1
+    will-break: false
+    unbreakable: false
+
+RED_GEM_LV7:
+  base:
+    material: CARROT_ON_A_STICK
+    custom-model-data: 15008
+    name: "&c&lHồng Ngọc &e&lLv.VII"
+    gem-color: "Red"
+    success-rate: 18
+    lore:
+      - "&7Đá quý mang năng lượng nguyên tố Hỏa."
+      - "&7Kéo thả vào trang bị có ô khảm để tăng sức mạnh."
+    attack-damage: 4.5
+    max-stack: 1
+    will-break: false
+    unbreakable: false
+
+RED_GEM_LV8:
+  base:
+    material: CARROT_ON_A_STICK
+    custom-model-data: 15008
+    name: "&c&lHồng Ngọc &e&lLv.VIII"
+    gem-color: "Red"
+    success-rate: 10
+    lore:
+      - "&7Đá quý mang năng lượng nguyên tố Hỏa."
+      - "&7Kéo thả vào trang bị có ô khảm để tăng sức mạnh."
+    attack-damage: 5.5
+    max-stack: 1
+    will-break: false
+    unbreakable: false
+
+RED_GEM_LV9:
+  base:
+    material: CARROT_ON_A_STICK
+    custom-model-data: 15008
+    name: "&c&lHồng Ngọc &e&lLv.IX"
+    gem-color: "Red"
+    success-rate: 5
+    lore:
+      - "&7Đá quý mang năng lượng nguyên tố Hỏa."
+      - "&7Kéo thả vào trang bị có ô khảm để tăng sức mạnh."
+    attack-damage: 6.8
+    max-stack: 1
+    will-break: false
+    unbreakable: false
+
+RED_GEM_LV10:
+  base:
+    material: CARROT_ON_A_STICK
+    custom-model-data: 15008
+    name: "&c&lHồng Ngọc &e&lLv.X"
+    gem-color: "Red"
+    success-rate: 3
+    lore:
+      - "&7Đá quý mang năng lượng nguyên tố Hỏa."
+      - "&7Kéo thả vào trang bị có ô khảm để tăng sức mạnh."
+    attack-damage: 8
+    max-stack: 1
+    will-break: false
+    unbreakable: false
+
+BLUE_GEM_LV1:
+  base:
+    material: CARROT_ON_A_STICK
+    custom-model-data: 15002
+    name: "&9&lLam Ngọc &e&lLv.I"
+    gem-color: "Blue"
+    success-rate: 95
+    lore:
+      - "&7Đá quý mang năng lượng nguyên tố Nước."
+      - "&7Kéo thả vào trang bị có ô khảm để tăng sức mạnh."
+    max-mana: 5
+    max-stack: 1
+    will-break: false
+    unbreakable: false
+
+BLUE_GEM_LV2:
+  base:
+    material: CARROT_ON_A_STICK
+    custom-model-data: 15002
+    name: "&9&lLam Ngọc &e&lLv.II"
+    gem-color: "Blue"
+    success-rate: 85
+    lore:
+      - "&7Đá quý mang năng lượng nguyên tố Nước."
+      - "&7Kéo thả vào trang bị có ô khảm để tăng sức mạnh."
+    max-mana: 10
+    max-stack: 1
+    will-break: false
+    unbreakable: false
+
+BLUE_GEM_LV3:
+  base:
+    material: CARROT_ON_A_STICK
+    custom-model-data: 15002
+    name: "&9&lLam Ngọc &e&lLv.III"
+    gem-color: "Blue"
+    success-rate: 70
+    lore:
+      - "&7Đá quý mang năng lượng nguyên tố Nước."
+      - "&7Kéo thả vào trang bị có ô khảm để tăng sức mạnh."
+    max-mana: 16
+    max-stack: 1
+    will-break: false
+    unbreakable: false
+
+BLUE_GEM_LV4:
+  base:
+    material: CARROT_ON_A_STICK
+    custom-model-data: 15002
+    name: "&9&lLam Ngọc &e&lLv.IV"
+    gem-color: "Blue"
+    success-rate: 55
+    lore:
+      - "&7Đá quý mang năng lượng nguyên tố Nước."
+      - "&7Kéo thả vào trang bị có ô khảm để tăng sức mạnh."
+    max-mana: 24
+    max-stack: 1
+    will-break: false
+    unbreakable: false
+
+BLUE_GEM_LV5:
+  base:
+    material: CARROT_ON_A_STICK
+    custom-model-data: 15002
+    name: "&9&lLam Ngọc &e&lLv.V"
+    gem-color: "Blue"
+    success-rate: 40
+    lore:
+      - "&7Đá quý mang năng lượng nguyên tố Nước."
+      - "&7Kéo thả vào trang bị có ô khảm để tăng sức mạnh."
+    max-mana: 34
+    max-stack: 1
+    will-break: false
+    unbreakable: false
+
+BLUE_GEM_LV6:
+  base:
+    material: CARROT_ON_A_STICK
+    custom-model-data: 15002
+    name: "&9&lLam Ngọc &e&lLv.VI"
+    gem-color: "Blue"
+    success-rate: 28
+    lore:
+      - "&7Đá quý mang năng lượng nguyên tố Nước."
+      - "&7Kéo thả vào trang bị có ô khảm để tăng sức mạnh."
+    max-mana: 45
+    max-stack: 1
+    will-break: false
+    unbreakable: false
+
+BLUE_GEM_LV7:
+  base:
+    material: CARROT_ON_A_STICK
+    custom-model-data: 15002
+    name: "&9&lLam Ngọc &e&lLv.VII"
+    gem-color: "Blue"
+    success-rate: 18
+    lore:
+      - "&7Đá quý mang năng lượng nguyên tố Nước."
+      - "&7Kéo thả vào trang bị có ô khảm để tăng sức mạnh."
+    max-mana: 58
+    max-stack: 1
+    will-break: false
+    unbreakable: false
+
+BLUE_GEM_LV8:
+  base:
+    material: CARROT_ON_A_STICK
+    custom-model-data: 15002
+    name: "&9&lLam Ngọc &e&lLv.VIII"
+    gem-color: "Blue"
+    success-rate: 10
+    lore:
+      - "&7Đá quý mang năng lượng nguyên tố Nước."
+      - "&7Kéo thả vào trang bị có ô khảm để tăng sức mạnh."
+    max-mana: 72
+    max-stack: 1
+    will-break: false
+    unbreakable: false
+
+BLUE_GEM_LV9:
+  base:
+    material: CARROT_ON_A_STICK
+    custom-model-data: 15002
+    name: "&9&lLam Ngọc &e&lLv.IX"
+    gem-color: "Blue"
+    success-rate: 5
+    lore:
+      - "&7Đá quý mang năng lượng nguyên tố Nước."
+      - "&7Kéo thả vào trang bị có ô khảm để tăng sức mạnh."
+    max-mana: 88
+    max-stack: 1
+    will-break: false
+    unbreakable: false
+
+BLUE_GEM_LV10:
+  base:
+    material: CARROT_ON_A_STICK
+    custom-model-data: 15002
+    name: "&9&lLam Ngọc &e&lLv.X"
+    gem-color: "Blue"
+    success-rate: 3
+    lore:
+      - "&7Đá quý mang năng lượng nguyên tố Nước."
+      - "&7Kéo thả vào trang bị có ô khảm để tăng sức mạnh."
+    max-mana: 105
+    max-stack: 1
+    will-break: false
+    unbreakable: false
+
+GREEN_GEM_LV1:
+  base:
+    material: CARROT_ON_A_STICK
+    custom-model-data: 15005
+    name: "&a&lLục Ngọc &e&lLv.I"
+    gem-color: "Green"
+    success-rate: 95
+    lore:
+      - "&7Đá quý mang năng lượng nguyên tố Phong."
+      - "&7Kéo thả vào trang bị có ô khảm để tăng sức mạnh."
+    attack-speed: 0.02
+    max-stack: 1
+    will-break: false
+    unbreakable: false
+
+GREEN_GEM_LV2:
+  base:
+    material: CARROT_ON_A_STICK
+    custom-model-data: 15005
+    name: "&a&lLục Ngọc &e&lLv.II"
+    gem-color: "Green"
+    success-rate: 85
+    lore:
+      - "&7Đá quý mang năng lượng nguyên tố Phong."
+      - "&7Kéo thả vào trang bị có ô khảm để tăng sức mạnh."
+    attack-speed: 0.04
+    max-stack: 1
+    will-break: false
+    unbreakable: false
+
+GREEN_GEM_LV3:
+  base:
+    material: CARROT_ON_A_STICK
+    custom-model-data: 15005
+    name: "&a&lLục Ngọc &e&lLv.III"
+    gem-color: "Green"
+    success-rate: 70
+    lore:
+      - "&7Đá quý mang năng lượng nguyên tố Phong."
+      - "&7Kéo thả vào trang bị có ô khảm để tăng sức mạnh."
+    attack-speed: 0.06
+    max-stack: 1
+    will-break: false
+    unbreakable: false
+
+GREEN_GEM_LV4:
+  base:
+    material: CARROT_ON_A_STICK
+    custom-model-data: 15005
+    name: "&a&lLục Ngọc &e&lLv.IV"
+    gem-color: "Green"
+    success-rate: 55
+    lore:
+      - "&7Đá quý mang năng lượng nguyên tố Phong."
+      - "&7Kéo thả vào trang bị có ô khảm để tăng sức mạnh."
+    attack-speed: 0.08
+    max-stack: 1
+    will-break: false
+    unbreakable: false
+
+GREEN_GEM_LV5:
+  base:
+    material: CARROT_ON_A_STICK
+    custom-model-data: 15005
+    name: "&a&lLục Ngọc &e&lLv.V"
+    gem-color: "Green"
+    success-rate: 40
+    lore:
+      - "&7Đá quý mang năng lượng nguyên tố Phong."
+      - "&7Kéo thả vào trang bị có ô khảm để tăng sức mạnh."
+    attack-speed: 0.1
+    max-stack: 1
+    will-break: false
+    unbreakable: false
+
+GREEN_GEM_LV6:
+  base:
+    material: CARROT_ON_A_STICK
+    custom-model-data: 15005
+    name: "&a&lLục Ngọc &e&lLv.VI"
+    gem-color: "Green"
+    success-rate: 28
+    lore:
+      - "&7Đá quý mang năng lượng nguyên tố Phong."
+      - "&7Kéo thả vào trang bị có ô khảm để tăng sức mạnh."
+    attack-speed: 0.12
+    max-stack: 1
+    will-break: false
+    unbreakable: false
+
+GREEN_GEM_LV7:
+  base:
+    material: CARROT_ON_A_STICK
+    custom-model-data: 15005
+    name: "&a&lLục Ngọc &e&lLv.VII"
+    gem-color: "Green"
+    success-rate: 18
+    lore:
+      - "&7Đá quý mang năng lượng nguyên tố Phong."
+      - "&7Kéo thả vào trang bị có ô khảm để tăng sức mạnh."
+    attack-speed: 0.15
+    max-stack: 1
+    will-break: false
+    unbreakable: false
+
+GREEN_GEM_LV8:
+  base:
+    material: CARROT_ON_A_STICK
+    custom-model-data: 15005
+    name: "&a&lLục Ngọc &e&lLv.VIII"
+    gem-color: "Green"
+    success-rate: 10
+    lore:
+      - "&7Đá quý mang năng lượng nguyên tố Phong."
+      - "&7Kéo thả vào trang bị có ô khảm để tăng sức mạnh."
+    attack-speed: 0.18
+    max-stack: 1
+    will-break: false
+    unbreakable: false
+
+GREEN_GEM_LV9:
+  base:
+    material: CARROT_ON_A_STICK
+    custom-model-data: 15005
+    name: "&a&lLục Ngọc &e&lLv.IX"
+    gem-color: "Green"
+    success-rate: 5
+    lore:
+      - "&7Đá quý mang năng lượng nguyên tố Phong."
+      - "&7Kéo thả vào trang bị có ô khảm để tăng sức mạnh."
+    attack-speed: 0.22
+    max-stack: 1
+    will-break: false
+    unbreakable: false
+
+GREEN_GEM_LV10:
+  base:
+    material: CARROT_ON_A_STICK
+    custom-model-data: 15005
+    name: "&a&lLục Ngọc &e&lLv.X"
+    gem-color: "Green"
+    success-rate: 3
+    lore:
+      - "&7Đá quý mang năng lượng nguyên tố Phong."
+      - "&7Kéo thả vào trang bị có ô khảm để tăng sức mạnh."
+    attack-speed: 0.25
+    max-stack: 1
+    will-break: false
+    unbreakable: false
+
+BLACK_GEM_LV1:
+  base:
+    material: CARROT_ON_A_STICK
+    custom-model-data: 15001
+    name: "&8&lHắc Ngọc &e&lLv.I"
+    gem-color: "Black"
+    success-rate: 95
+    lore:
+      - "&7Đá quý mang năng lượng nguyên tố Bóng Tối."
+      - "&7Kéo thả vào trang bị có ô khảm để tăng sức mạnh."
+    pve-damage: 1
+    max-stack: 1
+    will-break: false
+    unbreakable: false
+
+BLACK_GEM_LV2:
+  base:
+    material: CARROT_ON_A_STICK
+    custom-model-data: 15001
+    name: "&8&lHắc Ngọc &e&lLv.II"
+    gem-color: "Black"
+    success-rate: 85
+    lore:
+      - "&7Đá quý mang năng lượng nguyên tố Bóng Tối."
+      - "&7Kéo thả vào trang bị có ô khảm để tăng sức mạnh."
+    pve-damage: 2
+    max-stack: 1
+    will-break: false
+    unbreakable: false
+
+BLACK_GEM_LV3:
+  base:
+    material: CARROT_ON_A_STICK
+    custom-model-data: 15001
+    name: "&8&lHắc Ngọc &e&lLv.III"
+    gem-color: "Black"
+    success-rate: 70
+    lore:
+      - "&7Đá quý mang năng lượng nguyên tố Bóng Tối."
+      - "&7Kéo thả vào trang bị có ô khảm để tăng sức mạnh."
+    pve-damage: 3
+    max-stack: 1
+    will-break: false
+    unbreakable: false
+
+BLACK_GEM_LV4:
+  base:
+    material: CARROT_ON_A_STICK
+    custom-model-data: 15001
+    name: "&8&lHắc Ngọc &e&lLv.IV"
+    gem-color: "Black"
+    success-rate: 55
+    lore:
+      - "&7Đá quý mang năng lượng nguyên tố Bóng Tối."
+      - "&7Kéo thả vào trang bị có ô khảm để tăng sức mạnh."
+    pve-damage: 4
+    max-stack: 1
+    will-break: false
+    unbreakable: false
+
+BLACK_GEM_LV5:
+  base:
+    material: CARROT_ON_A_STICK
+    custom-model-data: 15001
+    name: "&8&lHắc Ngọc &e&lLv.V"
+    gem-color: "Black"
+    success-rate: 40
+    lore:
+      - "&7Đá quý mang năng lượng nguyên tố Bóng Tối."
+      - "&7Kéo thả vào trang bị có ô khảm để tăng sức mạnh."
+    pve-damage: 5
+    max-stack: 1
+    will-break: false
+    unbreakable: false
+
+BLACK_GEM_LV6:
+  base:
+    material: CARROT_ON_A_STICK
+    custom-model-data: 15001
+    name: "&8&lHắc Ngọc &e&lLv.VI"
+    gem-color: "Black"
+    success-rate: 28
+    lore:
+      - "&7Đá quý mang năng lượng nguyên tố Bóng Tối."
+      - "&7Kéo thả vào trang bị có ô khảm để tăng sức mạnh."
+    pve-damage: 6.5
+    max-stack: 1
+    will-break: false
+    unbreakable: false
+
+BLACK_GEM_LV7:
+  base:
+    material: CARROT_ON_A_STICK
+    custom-model-data: 15001
+    name: "&8&lHắc Ngọc &e&lLv.VII"
+    gem-color: "Black"
+    success-rate: 18
+    lore:
+      - "&7Đá quý mang năng lượng nguyên tố Bóng Tối."
+      - "&7Kéo thả vào trang bị có ô khảm để tăng sức mạnh."
+    pve-damage: 8
+    max-stack: 1
+    will-break: false
+    unbreakable: false
+
+BLACK_GEM_LV8:
+  base:
+    material: CARROT_ON_A_STICK
+    custom-model-data: 15001
+    name: "&8&lHắc Ngọc &e&lLv.VIII"
+    gem-color: "Black"
+    success-rate: 10
+    lore:
+      - "&7Đá quý mang năng lượng nguyên tố Bóng Tối."
+      - "&7Kéo thả vào trang bị có ô khảm để tăng sức mạnh."
+    pve-damage: 10
+    max-stack: 1
+    will-break: false
+    unbreakable: false
+
+BLACK_GEM_LV9:
+  base:
+    material: CARROT_ON_A_STICK
+    custom-model-data: 15001
+    name: "&8&lHắc Ngọc &e&lLv.IX"
+    gem-color: "Black"
+    success-rate: 5
+    lore:
+      - "&7Đá quý mang năng lượng nguyên tố Bóng Tối."
+      - "&7Kéo thả vào trang bị có ô khảm để tăng sức mạnh."
+    pve-damage: 12
+    max-stack: 1
+    will-break: false
+    unbreakable: false
+
+BLACK_GEM_LV10:
+  base:
+    material: CARROT_ON_A_STICK
+    custom-model-data: 15001
+    name: "&8&lHắc Ngọc &e&lLv.X"
+    gem-color: "Black"
+    success-rate: 3
+    lore:
+      - "&7Đá quý mang năng lượng nguyên tố Bóng Tối."
+      - "&7Kéo thả vào trang bị có ô khảm để tăng sức mạnh."
+    pve-damage: 15
+    max-stack: 1
+    will-break: false
+    unbreakable: false
+
+WHITE_GEM_LV1:
+  base:
+    material: CARROT_ON_A_STICK
+    custom-model-data: 15009
+    name: "&f&lBạch Ngọc &e&lLv.I"
+    gem-color: "White"
+    success-rate: 95
+    lore:
+      - "&7Đá quý mang năng lượng nguyên tố Ánh Sáng."
+      - "&7Kéo thả vào trang bị có ô khảm để tăng sức mạnh."
+    defense: 0.5
+    max-stack: 1
+    will-break: false
+    unbreakable: false
+
+WHITE_GEM_LV2:
+  base:
+    material: CARROT_ON_A_STICK
+    custom-model-data: 15009
+    name: "&f&lBạch Ngọc &e&lLv.II"
+    gem-color: "White"
+    success-rate: 85
+    lore:
+      - "&7Đá quý mang năng lượng nguyên tố Ánh Sáng."
+      - "&7Kéo thả vào trang bị có ô khảm để tăng sức mạnh."
+    defense: 1
+    max-stack: 1
+    will-break: false
+    unbreakable: false
+
+WHITE_GEM_LV3:
+  base:
+    material: CARROT_ON_A_STICK
+    custom-model-data: 15009
+    name: "&f&lBạch Ngọc &e&lLv.III"
+    gem-color: "White"
+    success-rate: 70
+    lore:
+      - "&7Đá quý mang năng lượng nguyên tố Ánh Sáng."
+      - "&7Kéo thả vào trang bị có ô khảm để tăng sức mạnh."
+    defense: 1.5
+    max-stack: 1
+    will-break: false
+    unbreakable: false
+
+WHITE_GEM_LV4:
+  base:
+    material: CARROT_ON_A_STICK
+    custom-model-data: 15009
+    name: "&f&lBạch Ngọc &e&lLv.IV"
+    gem-color: "White"
+    success-rate: 55
+    lore:
+      - "&7Đá quý mang năng lượng nguyên tố Ánh Sáng."
+      - "&7Kéo thả vào trang bị có ô khảm để tăng sức mạnh."
+    defense: 2.2
+    max-stack: 1
+    will-break: false
+    unbreakable: false
+
+WHITE_GEM_LV5:
+  base:
+    material: CARROT_ON_A_STICK
+    custom-model-data: 15009
+    name: "&f&lBạch Ngọc &e&lLv.V"
+    gem-color: "White"
+    success-rate: 40
+    lore:
+      - "&7Đá quý mang năng lượng nguyên tố Ánh Sáng."
+      - "&7Kéo thả vào trang bị có ô khảm để tăng sức mạnh."
+    defense: 3
+    max-stack: 1
+    will-break: false
+    unbreakable: false
+
+WHITE_GEM_LV6:
+  base:
+    material: CARROT_ON_A_STICK
+    custom-model-data: 15009
+    name: "&f&lBạch Ngọc &e&lLv.VI"
+    gem-color: "White"
+    success-rate: 28
+    lore:
+      - "&7Đá quý mang năng lượng nguyên tố Ánh Sáng."
+      - "&7Kéo thả vào trang bị có ô khảm để tăng sức mạnh."
+    defense: 4
+    max-stack: 1
+    will-break: false
+    unbreakable: false
+
+WHITE_GEM_LV7:
+  base:
+    material: CARROT_ON_A_STICK
+    custom-model-data: 15009
+    name: "&f&lBạch Ngọc &e&lLv.VII"
+    gem-color: "White"
+    success-rate: 18
+    lore:
+      - "&7Đá quý mang năng lượng nguyên tố Ánh Sáng."
+      - "&7Kéo thả vào trang bị có ô khảm để tăng sức mạnh."
+    defense: 5.2
+    max-stack: 1
+    will-break: false
+    unbreakable: false
+
+WHITE_GEM_LV8:
+  base:
+    material: CARROT_ON_A_STICK
+    custom-model-data: 15009
+    name: "&f&lBạch Ngọc &e&lLv.VIII"
+    gem-color: "White"
+    success-rate: 10
+    lore:
+      - "&7Đá quý mang năng lượng nguyên tố Ánh Sáng."
+      - "&7Kéo thả vào trang bị có ô khảm để tăng sức mạnh."
+    defense: 6.5
+    max-stack: 1
+    will-break: false
+    unbreakable: false
+
+WHITE_GEM_LV9:
+  base:
+    material: CARROT_ON_A_STICK
+    custom-model-data: 15009
+    name: "&f&lBạch Ngọc &e&lLv.IX"
+    gem-color: "White"
+    success-rate: 5
+    lore:
+      - "&7Đá quý mang năng lượng nguyên tố Ánh Sáng."
+      - "&7Kéo thả vào trang bị có ô khảm để tăng sức mạnh."
+    defense: 8
+    max-stack: 1
+    will-break: false
+    unbreakable: false
+
+WHITE_GEM_LV10:
+  base:
+    material: CARROT_ON_A_STICK
+    custom-model-data: 15009
+    name: "&f&lBạch Ngọc &e&lLv.X"
+    gem-color: "White"
+    success-rate: 3
+    lore:
+      - "&7Đá quý mang năng lượng nguyên tố Ánh Sáng."
+      - "&7Kéo thả vào trang bị có ô khảm để tăng sức mạnh."
+    defense: 10
+    max-stack: 1
+    will-break: false
+    unbreakable: false
+
+YELLOW_GEM_LV1:
+  base:
+    material: CARROT_ON_A_STICK
+    custom-model-data: 15010
+    name: "&e&lHoàng Ngọc &e&lLv.I"
+    gem-color: "Yellow"
+    success-rate: 95
+    lore:
+      - "&7Đá quý mang năng lượng nguyên tố Kim."
+      - "&7Kéo thả vào trang bị có ô khảm để tăng sức mạnh."
+    critical-strike-power: 2
+    max-stack: 1
+    will-break: false
+    unbreakable: false
+
+YELLOW_GEM_LV2:
+  base:
+    material: CARROT_ON_A_STICK
+    custom-model-data: 15010
+    name: "&e&lHoàng Ngọc &e&lLv.II"
+    gem-color: "Yellow"
+    success-rate: 85
+    lore:
+      - "&7Đá quý mang năng lượng nguyên tố Kim."
+      - "&7Kéo thả vào trang bị có ô khảm để tăng sức mạnh."
+    critical-strike-power: 4
+    max-stack: 1
+    will-break: false
+    unbreakable: false
+
+YELLOW_GEM_LV3:
+  base:
+    material: CARROT_ON_A_STICK
+    custom-model-data: 15010
+    name: "&e&lHoàng Ngọc &e&lLv.III"
+    gem-color: "Yellow"
+    success-rate: 70
+    lore:
+      - "&7Đá quý mang năng lượng nguyên tố Kim."
+      - "&7Kéo thả vào trang bị có ô khảm để tăng sức mạnh."
+    critical-strike-power: 6
+    max-stack: 1
+    will-break: false
+    unbreakable: false
+
+YELLOW_GEM_LV4:
+  base:
+    material: CARROT_ON_A_STICK
+    custom-model-data: 15010
+    name: "&e&lHoàng Ngọc &e&lLv.IV"
+    gem-color: "Yellow"
+    success-rate: 55
+    lore:
+      - "&7Đá quý mang năng lượng nguyên tố Kim."
+      - "&7Kéo thả vào trang bị có ô khảm để tăng sức mạnh."
+    critical-strike-power: 9
+    max-stack: 1
+    will-break: false
+    unbreakable: false
+
+YELLOW_GEM_LV5:
+  base:
+    material: CARROT_ON_A_STICK
+    custom-model-data: 15010
+    name: "&e&lHoàng Ngọc &e&lLv.V"
+    gem-color: "Yellow"
+    success-rate: 40
+    lore:
+      - "&7Đá quý mang năng lượng nguyên tố Kim."
+      - "&7Kéo thả vào trang bị có ô khảm để tăng sức mạnh."
+    critical-strike-power: 12
+    max-stack: 1
+    will-break: false
+    unbreakable: false
+
+YELLOW_GEM_LV6:
+  base:
+    material: CARROT_ON_A_STICK
+    custom-model-data: 15010
+    name: "&e&lHoàng Ngọc &e&lLv.VI"
+    gem-color: "Yellow"
+    success-rate: 28
+    lore:
+      - "&7Đá quý mang năng lượng nguyên tố Kim."
+      - "&7Kéo thả vào trang bị có ô khảm để tăng sức mạnh."
+    critical-strike-power: 16
+    max-stack: 1
+    will-break: false
+    unbreakable: false
+
+YELLOW_GEM_LV7:
+  base:
+    material: CARROT_ON_A_STICK
+    custom-model-data: 15010
+    name: "&e&lHoàng Ngọc &e&lLv.VII"
+    gem-color: "Yellow"
+    success-rate: 18
+    lore:
+      - "&7Đá quý mang năng lượng nguyên tố Kim."
+      - "&7Kéo thả vào trang bị có ô khảm để tăng sức mạnh."
+    critical-strike-power: 20
+    max-stack: 1
+    will-break: false
+    unbreakable: false
+
+YELLOW_GEM_LV8:
+  base:
+    material: CARROT_ON_A_STICK
+    custom-model-data: 15010
+    name: "&e&lHoàng Ngọc &e&lLv.VIII"
+    gem-color: "Yellow"
+    success-rate: 10
+    lore:
+      - "&7Đá quý mang năng lượng nguyên tố Kim."
+      - "&7Kéo thả vào trang bị có ô khảm để tăng sức mạnh."
+    critical-strike-power: 25
+    max-stack: 1
+    will-break: false
+    unbreakable: false
+
+YELLOW_GEM_LV9:
+  base:
+    material: CARROT_ON_A_STICK
+    custom-model-data: 15010
+    name: "&e&lHoàng Ngọc &e&lLv.IX"
+    gem-color: "Yellow"
+    success-rate: 5
+    lore:
+      - "&7Đá quý mang năng lượng nguyên tố Kim."
+      - "&7Kéo thả vào trang bị có ô khảm để tăng sức mạnh."
+    critical-strike-power: 30
+    max-stack: 1
+    will-break: false
+    unbreakable: false
+
+YELLOW_GEM_LV10:
+  base:
+    material: CARROT_ON_A_STICK
+    custom-model-data: 15010
+    name: "&e&lHoàng Ngọc &e&lLv.X"
+    gem-color: "Yellow"
+    success-rate: 3
+    lore:
+      - "&7Đá quý mang năng lượng nguyên tố Kim."
+      - "&7Kéo thả vào trang bị có ô khảm để tăng sức mạnh."
+    critical-strike-power: 38
+    max-stack: 1
+    will-break: false
+    unbreakable: false
+
+BROWN_GEM_LV1:
+  base:
+    material: CARROT_ON_A_STICK
+    custom-model-data: 15003
+    name: "&6&lThổ Ngọc &e&lLv.I"
+    gem-color: "Brown"
+    success-rate: 95
+    lore:
+      - "&7Đá quý mang năng lượng nguyên tố Đất."
+      - "&7Kéo thả vào trang bị có ô khảm để tăng sức mạnh."
+    max-health: 1
+    max-stack: 1
+    will-break: false
+    unbreakable: false
+
+BROWN_GEM_LV2:
+  base:
+    material: CARROT_ON_A_STICK
+    custom-model-data: 15003
+    name: "&6&lThổ Ngọc &e&lLv.II"
+    gem-color: "Brown"
+    success-rate: 85
+    lore:
+      - "&7Đá quý mang năng lượng nguyên tố Đất."
+      - "&7Kéo thả vào trang bị có ô khảm để tăng sức mạnh."
+    max-health: 2
+    max-stack: 1
+    will-break: false
+    unbreakable: false
+
+BROWN_GEM_LV3:
+  base:
+    material: CARROT_ON_A_STICK
+    custom-model-data: 15003
+    name: "&6&lThổ Ngọc &e&lLv.III"
+    gem-color: "Brown"
+    success-rate: 70
+    lore:
+      - "&7Đá quý mang năng lượng nguyên tố Đất."
+      - "&7Kéo thả vào trang bị có ô khảm để tăng sức mạnh."
+    max-health: 4
+    max-stack: 1
+    will-break: false
+    unbreakable: false
+
+BROWN_GEM_LV4:
+  base:
+    material: CARROT_ON_A_STICK
+    custom-model-data: 15003
+    name: "&6&lThổ Ngọc &e&lLv.IV"
+    gem-color: "Brown"
+    success-rate: 55
+    lore:
+      - "&7Đá quý mang năng lượng nguyên tố Đất."
+      - "&7Kéo thả vào trang bị có ô khảm để tăng sức mạnh."
+    max-health: 6
+    max-stack: 1
+    will-break: false
+    unbreakable: false
+
+BROWN_GEM_LV5:
+  base:
+    material: CARROT_ON_A_STICK
+    custom-model-data: 15003
+    name: "&6&lThổ Ngọc &e&lLv.V"
+    gem-color: "Brown"
+    success-rate: 40
+    lore:
+      - "&7Đá quý mang năng lượng nguyên tố Đất."
+      - "&7Kéo thả vào trang bị có ô khảm để tăng sức mạnh."
+    max-health: 9
+    max-stack: 1
+    will-break: false
+    unbreakable: false
+
+BROWN_GEM_LV6:
+  base:
+    material: CARROT_ON_A_STICK
+    custom-model-data: 15003
+    name: "&6&lThổ Ngọc &e&lLv.VI"
+    gem-color: "Brown"
+    success-rate: 28
+    lore:
+      - "&7Đá quý mang năng lượng nguyên tố Đất."
+      - "&7Kéo thả vào trang bị có ô khảm để tăng sức mạnh."
+    max-health: 12
+    max-stack: 1
+    will-break: false
+    unbreakable: false
+
+BROWN_GEM_LV7:
+  base:
+    material: CARROT_ON_A_STICK
+    custom-model-data: 15003
+    name: "&6&lThổ Ngọc &e&lLv.VII"
+    gem-color: "Brown"
+    success-rate: 18
+    lore:
+      - "&7Đá quý mang năng lượng nguyên tố Đất."
+      - "&7Kéo thả vào trang bị có ô khảm để tăng sức mạnh."
+    max-health: 14
+    max-stack: 1
+    will-break: false
+    unbreakable: false
+
+BROWN_GEM_LV8:
+  base:
+    material: CARROT_ON_A_STICK
+    custom-model-data: 15003
+    name: "&6&lThổ Ngọc &e&lLv.VIII"
+    gem-color: "Brown"
+    success-rate: 10
+    lore:
+      - "&7Đá quý mang năng lượng nguyên tố Đất."
+      - "&7Kéo thả vào trang bị có ô khảm để tăng sức mạnh."
+    max-health: 16
+    max-stack: 1
+    will-break: false
+    unbreakable: false
+
+BROWN_GEM_LV9:
+  base:
+    material: CARROT_ON_A_STICK
+    custom-model-data: 15003
+    name: "&6&lThổ Ngọc &e&lLv.IX"
+    gem-color: "Brown"
+    success-rate: 5
+    lore:
+      - "&7Đá quý mang năng lượng nguyên tố Đất."
+      - "&7Kéo thả vào trang bị có ô khảm để tăng sức mạnh."
+    max-health: 18
+    max-stack: 1
+    will-break: false
+    unbreakable: false
+
+BROWN_GEM_LV10:
+  base:
+    material: CARROT_ON_A_STICK
+    custom-model-data: 15003
+    name: "&6&lThổ Ngọc &e&lLv.X"
+    gem-color: "Brown"
+    success-rate: 3
+    lore:
+      - "&7Đá quý mang năng lượng nguyên tố Đất."
+      - "&7Kéo thả vào trang bị có ô khảm để tăng sức mạnh."
+    max-health: 20
+    max-stack: 1
+    will-break: false
+    unbreakable: false
+
+ORANGE_GEM_LV1:
+  base:
+    material: CARROT_ON_A_STICK
+    custom-model-data: 15006
+    name: "&6&lCam Ngọc &e&lLv.I"
+    gem-color: "Orange"
+    success-rate: 95
+    lore:
+      - "&7Đá quý mang năng lượng nguyên tố Năng Lượng."
+      - "&7Kéo thả vào trang bị có ô khảm để tăng sức mạnh."
+    cooldown-reduction: 0.5
+    max-stack: 1
+    will-break: false
+    unbreakable: false
+
+ORANGE_GEM_LV2:
+  base:
+    material: CARROT_ON_A_STICK
+    custom-model-data: 15006
+    name: "&6&lCam Ngọc &e&lLv.II"
+    gem-color: "Orange"
+    success-rate: 85
+    lore:
+      - "&7Đá quý mang năng lượng nguyên tố Năng Lượng."
+      - "&7Kéo thả vào trang bị có ô khảm để tăng sức mạnh."
+    cooldown-reduction: 1
+    max-stack: 1
+    will-break: false
+    unbreakable: false
+
+ORANGE_GEM_LV3:
+  base:
+    material: CARROT_ON_A_STICK
+    custom-model-data: 15006
+    name: "&6&lCam Ngọc &e&lLv.III"
+    gem-color: "Orange"
+    success-rate: 70
+    lore:
+      - "&7Đá quý mang năng lượng nguyên tố Năng Lượng."
+      - "&7Kéo thả vào trang bị có ô khảm để tăng sức mạnh."
+    cooldown-reduction: 1.5
+    max-stack: 1
+    will-break: false
+    unbreakable: false
+
+ORANGE_GEM_LV4:
+  base:
+    material: CARROT_ON_A_STICK
+    custom-model-data: 15006
+    name: "&6&lCam Ngọc &e&lLv.IV"
+    gem-color: "Orange"
+    success-rate: 55
+    lore:
+      - "&7Đá quý mang năng lượng nguyên tố Năng Lượng."
+      - "&7Kéo thả vào trang bị có ô khảm để tăng sức mạnh."
+    cooldown-reduction: 2
+    max-stack: 1
+    will-break: false
+    unbreakable: false
+
+ORANGE_GEM_LV5:
+  base:
+    material: CARROT_ON_A_STICK
+    custom-model-data: 15006
+    name: "&6&lCam Ngọc &e&lLv.V"
+    gem-color: "Orange"
+    success-rate: 40
+    lore:
+      - "&7Đá quý mang năng lượng nguyên tố Năng Lượng."
+      - "&7Kéo thả vào trang bị có ô khảm để tăng sức mạnh."
+    cooldown-reduction: 2.8
+    max-stack: 1
+    will-break: false
+    unbreakable: false
+
+ORANGE_GEM_LV6:
+  base:
+    material: CARROT_ON_A_STICK
+    custom-model-data: 15006
+    name: "&6&lCam Ngọc &e&lLv.VI"
+    gem-color: "Orange"
+    success-rate: 28
+    lore:
+      - "&7Đá quý mang năng lượng nguyên tố Năng Lượng."
+      - "&7Kéo thả vào trang bị có ô khảm để tăng sức mạnh."
+    cooldown-reduction: 3.6
+    max-stack: 1
+    will-break: false
+    unbreakable: false
+
+ORANGE_GEM_LV7:
+  base:
+    material: CARROT_ON_A_STICK
+    custom-model-data: 15006
+    name: "&6&lCam Ngọc &e&lLv.VII"
+    gem-color: "Orange"
+    success-rate: 18
+    lore:
+      - "&7Đá quý mang năng lượng nguyên tố Năng Lượng."
+      - "&7Kéo thả vào trang bị có ô khảm để tăng sức mạnh."
+    cooldown-reduction: 4.5
+    max-stack: 1
+    will-break: false
+    unbreakable: false
+
+ORANGE_GEM_LV8:
+  base:
+    material: CARROT_ON_A_STICK
+    custom-model-data: 15006
+    name: "&6&lCam Ngọc &e&lLv.VIII"
+    gem-color: "Orange"
+    success-rate: 10
+    lore:
+      - "&7Đá quý mang năng lượng nguyên tố Năng Lượng."
+      - "&7Kéo thả vào trang bị có ô khảm để tăng sức mạnh."
+    cooldown-reduction: 5.5
+    max-stack: 1
+    will-break: false
+    unbreakable: false
+
+ORANGE_GEM_LV9:
+  base:
+    material: CARROT_ON_A_STICK
+    custom-model-data: 15006
+    name: "&6&lCam Ngọc &e&lLv.IX"
+    gem-color: "Orange"
+    success-rate: 5
+    lore:
+      - "&7Đá quý mang năng lượng nguyên tố Năng Lượng."
+      - "&7Kéo thả vào trang bị có ô khảm để tăng sức mạnh."
+    cooldown-reduction: 6.8
+    max-stack: 1
+    will-break: false
+    unbreakable: false
+
+ORANGE_GEM_LV10:
+  base:
+    material: CARROT_ON_A_STICK
+    custom-model-data: 15006
+    name: "&6&lCam Ngọc &e&lLv.X"
+    gem-color: "Orange"
+    success-rate: 3
+    lore:
+      - "&7Đá quý mang năng lượng nguyên tố Năng Lượng."
+      - "&7Kéo thả vào trang bị có ô khảm để tăng sức mạnh."
+    cooldown-reduction: 8
+    max-stack: 1
+    will-break: false
+    unbreakable: false
+
+CYAN_GEM_LV1:
+  base:
+    material: CARROT_ON_A_STICK
+    custom-model-data: 15004
+    name: "&b&lBăng Ngọc &e&lLv.I"
+    gem-color: "Cyan"
+    success-rate: 95
+    lore:
+      - "&7Đá quý mang năng lượng nguyên tố Băng."
+      - "&7Kéo thả vào trang bị có ô khảm để tăng sức mạnh."
+    magic-damage: 1
+    max-stack: 1
+    will-break: false
+    unbreakable: false
+
+CYAN_GEM_LV2:
+  base:
+    material: CARROT_ON_A_STICK
+    custom-model-data: 15004
+    name: "&b&lBăng Ngọc &e&lLv.II"
+    gem-color: "Cyan"
+    success-rate: 85
+    lore:
+      - "&7Đá quý mang năng lượng nguyên tố Băng."
+      - "&7Kéo thả vào trang bị có ô khảm để tăng sức mạnh."
+    magic-damage: 2
+    max-stack: 1
+    will-break: false
+    unbreakable: false
+
+CYAN_GEM_LV3:
+  base:
+    material: CARROT_ON_A_STICK
+    custom-model-data: 15004
+    name: "&b&lBăng Ngọc &e&lLv.III"
+    gem-color: "Cyan"
+    success-rate: 70
+    lore:
+      - "&7Đá quý mang năng lượng nguyên tố Băng."
+      - "&7Kéo thả vào trang bị có ô khảm để tăng sức mạnh."
+    magic-damage: 3
+    max-stack: 1
+    will-break: false
+    unbreakable: false
+
+CYAN_GEM_LV4:
+  base:
+    material: CARROT_ON_A_STICK
+    custom-model-data: 15004
+    name: "&b&lBăng Ngọc &e&lLv.IV"
+    gem-color: "Cyan"
+    success-rate: 55
+    lore:
+      - "&7Đá quý mang năng lượng nguyên tố Băng."
+      - "&7Kéo thả vào trang bị có ô khảm để tăng sức mạnh."
+    magic-damage: 4
+    max-stack: 1
+    will-break: false
+    unbreakable: false
+
+CYAN_GEM_LV5:
+  base:
+    material: CARROT_ON_A_STICK
+    custom-model-data: 15004
+    name: "&b&lBăng Ngọc &e&lLv.V"
+    gem-color: "Cyan"
+    success-rate: 40
+    lore:
+      - "&7Đá quý mang năng lượng nguyên tố Băng."
+      - "&7Kéo thả vào trang bị có ô khảm để tăng sức mạnh."
+    magic-damage: 5
+    max-stack: 1
+    will-break: false
+    unbreakable: false
+
+CYAN_GEM_LV6:
+  base:
+    material: CARROT_ON_A_STICK
+    custom-model-data: 15004
+    name: "&b&lBăng Ngọc &e&lLv.VI"
+    gem-color: "Cyan"
+    success-rate: 28
+    lore:
+      - "&7Đá quý mang năng lượng nguyên tố Băng."
+      - "&7Kéo thả vào trang bị có ô khảm để tăng sức mạnh."
+    magic-damage: 6.5
+    max-stack: 1
+    will-break: false
+    unbreakable: false
+
+CYAN_GEM_LV7:
+  base:
+    material: CARROT_ON_A_STICK
+    custom-model-data: 15004
+    name: "&b&lBăng Ngọc &e&lLv.VII"
+    gem-color: "Cyan"
+    success-rate: 18
+    lore:
+      - "&7Đá quý mang năng lượng nguyên tố Băng."
+      - "&7Kéo thả vào trang bị có ô khảm để tăng sức mạnh."
+    magic-damage: 8
+    max-stack: 1
+    will-break: false
+    unbreakable: false
+
+CYAN_GEM_LV8:
+  base:
+    material: CARROT_ON_A_STICK
+    custom-model-data: 15004
+    name: "&b&lBăng Ngọc &e&lLv.VIII"
+    gem-color: "Cyan"
+    success-rate: 10
+    lore:
+      - "&7Đá quý mang năng lượng nguyên tố Băng."
+      - "&7Kéo thả vào trang bị có ô khảm để tăng sức mạnh."
+    magic-damage: 10
+    max-stack: 1
+    will-break: false
+    unbreakable: false
+
+CYAN_GEM_LV9:
+  base:
+    material: CARROT_ON_A_STICK
+    custom-model-data: 15004
+    name: "&b&lBăng Ngọc &e&lLv.IX"
+    gem-color: "Cyan"
+    success-rate: 5
+    lore:
+      - "&7Đá quý mang năng lượng nguyên tố Băng."
+      - "&7Kéo thả vào trang bị có ô khảm để tăng sức mạnh."
+    magic-damage: 12
+    max-stack: 1
+    will-break: false
+    unbreakable: false
+
+CYAN_GEM_LV10:
+  base:
+    material: CARROT_ON_A_STICK
+    custom-model-data: 15004
+    name: "&b&lBăng Ngọc &e&lLv.X"
+    gem-color: "Cyan"
+    success-rate: 3
+    lore:
+      - "&7Đá quý mang năng lượng nguyên tố Băng."
+      - "&7Kéo thả vào trang bị có ô khảm để tăng sức mạnh."
+    magic-damage: 15
+    max-stack: 1
+    will-break: false
+    unbreakable: false
+
+PURPLE_GEM_LV1:
+  base:
+    material: CARROT_ON_A_STICK
+    custom-model-data: 15007
+    name: "&5&lTử Ngọc &e&lLv.I"
+    gem-color: "Purple"
+    success-rate: 95
+    lore:
+      - "&7Đá quý mang năng lượng nguyên tố Sấm Sét."
+      - "&7Kéo thả vào trang bị có ô khảm để tăng sức mạnh."
+    critical-strike-chance: 0.5
+    max-stack: 1
+    will-break: false
+    unbreakable: false
+
+PURPLE_GEM_LV2:
+  base:
+    material: CARROT_ON_A_STICK
+    custom-model-data: 15007
+    name: "&5&lTử Ngọc &e&lLv.II"
+    gem-color: "Purple"
+    success-rate: 85
+    lore:
+      - "&7Đá quý mang năng lượng nguyên tố Sấm Sét."
+      - "&7Kéo thả vào trang bị có ô khảm để tăng sức mạnh."
+    critical-strike-chance: 1
+    max-stack: 1
+    will-break: false
+    unbreakable: false
+
+PURPLE_GEM_LV3:
+  base:
+    material: CARROT_ON_A_STICK
+    custom-model-data: 15007
+    name: "&5&lTử Ngọc &e&lLv.III"
+    gem-color: "Purple"
+    success-rate: 70
+    lore:
+      - "&7Đá quý mang năng lượng nguyên tố Sấm Sét."
+      - "&7Kéo thả vào trang bị có ô khảm để tăng sức mạnh."
+    critical-strike-chance: 1.5
+    max-stack: 1
+    will-break: false
+    unbreakable: false
+
+PURPLE_GEM_LV4:
+  base:
+    material: CARROT_ON_A_STICK
+    custom-model-data: 15007
+    name: "&5&lTử Ngọc &e&lLv.IV"
+    gem-color: "Purple"
+    success-rate: 55
+    lore:
+      - "&7Đá quý mang năng lượng nguyên tố Sấm Sét."
+      - "&7Kéo thả vào trang bị có ô khảm để tăng sức mạnh."
+    critical-strike-chance: 2
+    max-stack: 1
+    will-break: false
+    unbreakable: false
+
+PURPLE_GEM_LV5:
+  base:
+    material: CARROT_ON_A_STICK
+    custom-model-data: 15007
+    name: "&5&lTử Ngọc &e&lLv.V"
+    gem-color: "Purple"
+    success-rate: 40
+    lore:
+      - "&7Đá quý mang năng lượng nguyên tố Sấm Sét."
+      - "&7Kéo thả vào trang bị có ô khảm để tăng sức mạnh."
+    critical-strike-chance: 2.5
+    max-stack: 1
+    will-break: false
+    unbreakable: false
+
+PURPLE_GEM_LV6:
+  base:
+    material: CARROT_ON_A_STICK
+    custom-model-data: 15007
+    name: "&5&lTử Ngọc &e&lLv.VI"
+    gem-color: "Purple"
+    success-rate: 28
+    lore:
+      - "&7Đá quý mang năng lượng nguyên tố Sấm Sét."
+      - "&7Kéo thả vào trang bị có ô khảm để tăng sức mạnh."
+    critical-strike-chance: 3.2
+    max-stack: 1
+    will-break: false
+    unbreakable: false
+
+PURPLE_GEM_LV7:
+  base:
+    material: CARROT_ON_A_STICK
+    custom-model-data: 15007
+    name: "&5&lTử Ngọc &e&lLv.VII"
+    gem-color: "Purple"
+    success-rate: 18
+    lore:
+      - "&7Đá quý mang năng lượng nguyên tố Sấm Sét."
+      - "&7Kéo thả vào trang bị có ô khảm để tăng sức mạnh."
+    critical-strike-chance: 4
+    max-stack: 1
+    will-break: false
+    unbreakable: false
+
+PURPLE_GEM_LV8:
+  base:
+    material: CARROT_ON_A_STICK
+    custom-model-data: 15007
+    name: "&5&lTử Ngọc &e&lLv.VIII"
+    gem-color: "Purple"
+    success-rate: 10
+    lore:
+      - "&7Đá quý mang năng lượng nguyên tố Sấm Sét."
+      - "&7Kéo thả vào trang bị có ô khảm để tăng sức mạnh."
+    critical-strike-chance: 5
+    max-stack: 1
+    will-break: false
+    unbreakable: false
+
+PURPLE_GEM_LV9:
+  base:
+    material: CARROT_ON_A_STICK
+    custom-model-data: 15007
+    name: "&5&lTử Ngọc &e&lLv.IX"
+    gem-color: "Purple"
+    success-rate: 5
+    lore:
+      - "&7Đá quý mang năng lượng nguyên tố Sấm Sét."
+      - "&7Kéo thả vào trang bị có ô khảm để tăng sức mạnh."
+    critical-strike-chance: 6.2
+    max-stack: 1
+    will-break: false
+    unbreakable: false
+
+PURPLE_GEM_LV10:
+  base:
+    material: CARROT_ON_A_STICK
+    custom-model-data: 15007
+    name: "&5&lTử Ngọc &e&lLv.X"
+    gem-color: "Purple"
+    success-rate: 3
+    lore:
+      - "&7Đá quý mang năng lượng nguyên tố Sấm Sét."
+      - "&7Kéo thả vào trang bị có ô khảm để tăng sức mạnh."
+    critical-strike-chance: 7.5
+    max-stack: 1
+    will-break: false
+    unbreakable: false
+

@@ -1,0 +1,92 @@
+display:
+    name: 'Tu Sĩ'
+    lore:
+    - '&7Tu sĩ triệu hồi sức mạnh thánh thần để trừng'
+    - '&7phạt kẻ địch và giữ đồng đội đứng vững, đánh'
+    - '&7đổi sát thương để lấy khả năng hồi phục và hỗ trợ.'
+    attribute-lore:
+    - '&a+ &7Hồi Mana'
+    - '&a+ &7Hồi Máu'
+    - '&a+ &7Mana Tối Đa'
+    - '&c- &7Máu Tối Đa'
+    - ''
+    - '&8&lSức Mạnh'
+    - '&7  Máu Tối Đa: &c19 &7(+&c0.2&7/cấp)'
+    - ''
+    - '&8&lTrí Tuệ'
+    - '&7  Mana Tối Đa: &926 &7(+&91.2&7/cấp)'
+    - '&7  Hồi Mana: &90.22 &7(+&90.04&7/cấp)'
+    - '&7  Hồi Máu: &90.15 &7(+&90.01&7/cấp)'
+    item: ENCHANTED_GOLDEN_APPLE
+
+exp-curve: levels
+max-level: 100
+exp-table: class_exp_table
+
+skill-slots:
+    1:
+        name: "&aSkill Slot I"
+        unlocked-by-default: true
+    2:
+        name: "&aSkill Slot II"
+        unlocked-by-default: true
+    3:
+        name: "&aSkill Slot III"
+        unlocked-by-default: true
+    4:
+        name: "&aSkill Slot IV"
+        unlocked-by-default: true
+
+mana:
+    char: ■
+    icon: '&e✚'
+    color:
+        full: YELLOW
+        half: GOLD
+        empty: WHITE
+    name: 'Faith'
+
+cast-particle:
+    particle: VILLAGER_HAPPY
+
+options:
+    off-combat-mana-regen: true
+    needs-permission: false
+
+attributes:
+    max-mana:
+        base: 26
+        per-level: 1.2
+    mana-regeneration:
+        base: .22
+        per-level: .04
+    health-regeneration:
+        base: .15
+        per-level: .01
+    max-health:
+        base: 19
+        per-level: .2
+
+skills:
+    HEAL:
+        level: 1
+        max-level: 30
+    HOLY_MISSILE:
+        level: 3
+        max-level: 30
+    REGEN_ALLY:
+        level: 5
+        max-level: 30
+    SMITE:
+        level: 8
+        max-level: 30
+    GRAND_HEAL:
+        level: 12
+        max-level: 30
+    GREATER_HEALINGS:
+        level: 15
+        max-level: 30
+
+main-exp-sources:
+- 'killmob{type=ZOMBIE;amount=1-3}'
+- 'killmob{type=ENDERMAN;amount=6-9}'

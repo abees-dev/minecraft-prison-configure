@@ -193,6 +193,8 @@ STAFF_LAO_CONG_1:
     attack-damage: 7.0
     magic-damage: 18.0
     mana-cost: 5
+    gem-sockets:
+      - Uncolored
     will-break: false
     unbreakable: false
 
@@ -211,6 +213,8 @@ STAFF_LAO_CONG_2:
     attack-damage: 7.6
     magic-damage: 20.0
     mana-cost: 5
+    gem-sockets:
+      - Uncolored
     will-break: false
     unbreakable: false
 
@@ -229,6 +233,8 @@ STAFF_LAO_CONG_3:
     attack-damage: 8.3
     magic-damage: 22.0
     mana-cost: 5
+    gem-sockets:
+      - Uncolored
     will-break: false
     unbreakable: false
 
@@ -247,6 +253,8 @@ STAFF_LAO_CONG_4:
     attack-damage: 8.9
     magic-damage: 24.0
     mana-cost: 5
+    gem-sockets:
+      - Uncolored
     will-break: false
     unbreakable: false
 
@@ -265,6 +273,8 @@ STAFF_LAO_CONG_5:
     attack-damage: 9.5
     magic-damage: 26.0
     mana-cost: 5
+    gem-sockets:
+      - Uncolored
     will-break: false
     unbreakable: false
 
@@ -283,6 +293,9 @@ STAFF_THO_DAO_1:
     attack-damage: 10.0
     magic-damage: 28.0
     mana-cost: 6
+    gem-sockets:
+      - Uncolored
+      - Uncolored
     will-break: false
     unbreakable: false
 
@@ -301,6 +314,9 @@ STAFF_THO_DAO_2:
     attack-damage: 10.8
     magic-damage: 30.0
     mana-cost: 6
+    gem-sockets:
+      - Uncolored
+      - Uncolored
     will-break: false
     unbreakable: false
 
@@ -319,6 +335,9 @@ STAFF_THO_DAO_3:
     attack-damage: 11.5
     magic-damage: 32.0
     mana-cost: 6
+    gem-sockets:
+      - Uncolored
+      - Uncolored
     will-break: false
     unbreakable: false
 
@@ -337,6 +356,9 @@ STAFF_THO_DAO_4:
     attack-damage: 12.3
     magic-damage: 34.0
     mana-cost: 6
+    gem-sockets:
+      - Uncolored
+      - Uncolored
     will-break: false
     unbreakable: false
 
@@ -355,6 +377,9 @@ STAFF_THO_DAO_5:
     attack-damage: 13.0
     magic-damage: 36.0
     mana-cost: 6
+    gem-sockets:
+      - Uncolored
+      - Uncolored
     will-break: false
     unbreakable: false
 
@@ -374,6 +399,10 @@ STAFF_DOI_TRUONG_1:
     magic-damage: 40.0
     mana-cost: 8
     spell-vampirism: 1.5
+    gem-sockets:
+      - Uncolored
+      - Uncolored
+      - Uncolored
     will-break: false
     unbreakable: false
 
@@ -393,6 +422,10 @@ STAFF_DOI_TRUONG_2:
     magic-damage: 42.0
     mana-cost: 8
     spell-vampirism: 1.8
+    gem-sockets:
+      - Uncolored
+      - Uncolored
+      - Uncolored
     will-break: false
     unbreakable: false
 
@@ -412,6 +445,10 @@ STAFF_DOI_TRUONG_3:
     magic-damage: 44.0
     mana-cost: 8
     spell-vampirism: 2.1
+    gem-sockets:
+      - Uncolored
+      - Uncolored
+      - Uncolored
     will-break: false
     unbreakable: false
 
@@ -431,6 +468,10 @@ STAFF_DOI_TRUONG_4:
     magic-damage: 46.0
     mana-cost: 8
     spell-vampirism: 2.4
+    gem-sockets:
+      - Uncolored
+      - Uncolored
+      - Uncolored
     will-break: false
     unbreakable: false
 
@@ -450,6 +491,10 @@ STAFF_DOI_TRUONG_5:
     magic-damage: 48.0
     mana-cost: 8
     spell-vampirism: 2.7
+    gem-sockets:
+      - Uncolored
+      - Uncolored
+      - Uncolored
     will-break: false
     unbreakable: false
 
@@ -469,6 +514,11 @@ STAFF_PHO_QUAN_NGUC_1:
     magic-damage: 55.0
     mana-cost: 10
     spell-vampirism: 3.0
+    gem-sockets:
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
     will-break: false
     unbreakable: false
 
@@ -488,6 +538,11 @@ STAFF_PHO_QUAN_NGUC_2:
     magic-damage: 57.0
     mana-cost: 10
     spell-vampirism: 3.3
+    gem-sockets:
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
     will-break: false
     unbreakable: false
 
@@ -507,6 +562,11 @@ STAFF_PHO_QUAN_NGUC_3:
     magic-damage: 59.0
     mana-cost: 10
     spell-vampirism: 3.6
+    gem-sockets:
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
     will-break: false
     unbreakable: false
 
@@ -526,6 +586,11 @@ STAFF_PHO_QUAN_NGUC_4:
     magic-damage: 61.0
     mana-cost: 10
     spell-vampirism: 3.9
+    gem-sockets:
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
     will-break: false
     unbreakable: false
 
@@ -545,6 +610,11 @@ STAFF_PHO_QUAN_NGUC_5:
     magic-damage: 63.0
     mana-cost: 10
     spell-vampirism: 4.2
+    gem-sockets:
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
     will-break: false
     unbreakable: false
 
@@ -564,6 +634,11 @@ STAFF_QUAN_NGUC_1:
     magic-damage: 75.0
     mana-cost: 12
     spell-vampirism: 4.5
+    gem-sockets:
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
     will-break: false
     unbreakable: false
 
@@ -583,6 +658,11 @@ STAFF_QUAN_NGUC_2:
     magic-damage: 77.0
     mana-cost: 12
     spell-vampirism: 4.8
+    gem-sockets:
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
     will-break: false
     unbreakable: false
 
@@ -602,6 +682,11 @@ STAFF_QUAN_NGUC_3:
     magic-damage: 79.0
     mana-cost: 12
     spell-vampirism: 5.1
+    gem-sockets:
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
     will-break: false
     unbreakable: false
 
@@ -621,6 +706,11 @@ STAFF_QUAN_NGUC_4:
     magic-damage: 81.0
     mana-cost: 12
     spell-vampirism: 5.4
+    gem-sockets:
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
     will-break: false
     unbreakable: false
 
@@ -640,6 +730,11 @@ STAFF_QUAN_NGUC_5:
     magic-damage: 83.0
     mana-cost: 12
     spell-vampirism: 5.7
+    gem-sockets:
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
     will-break: false
     unbreakable: false
 
@@ -659,6 +754,12 @@ STAFF_BA_CHU_NGUC_TU_1:
     magic-damage: 100.0
     mana-cost: 14
     spell-vampirism: 6.0
+    gem-sockets:
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
     will-break: false
     unbreakable: false
 
@@ -678,6 +779,12 @@ STAFF_BA_CHU_NGUC_TU_2:
     magic-damage: 102.0
     mana-cost: 14
     spell-vampirism: 6.3
+    gem-sockets:
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
     will-break: false
     unbreakable: false
 
@@ -697,6 +804,12 @@ STAFF_BA_CHU_NGUC_TU_3:
     magic-damage: 104.0
     mana-cost: 14
     spell-vampirism: 6.6
+    gem-sockets:
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
     will-break: false
     unbreakable: false
 
@@ -716,6 +829,12 @@ STAFF_BA_CHU_NGUC_TU_4:
     magic-damage: 106.0
     mana-cost: 14
     spell-vampirism: 6.9
+    gem-sockets:
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
     will-break: false
     unbreakable: false
 
@@ -735,6 +854,12 @@ STAFF_BA_CHU_NGUC_TU_5:
     magic-damage: 108.0
     mana-cost: 14
     spell-vampirism: 7.2
+    gem-sockets:
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
     will-break: false
     unbreakable: false
 
@@ -754,6 +879,12 @@ STAFF_VUOT_NGUC_1:
     magic-damage: 130.0
     mana-cost: 16
     spell-vampirism: 8.0
+    gem-sockets:
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
     will-break: false
     unbreakable: false
 
@@ -773,6 +904,12 @@ STAFF_VUOT_NGUC_2:
     magic-damage: 132.0
     mana-cost: 16
     spell-vampirism: 8.3
+    gem-sockets:
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
     will-break: false
     unbreakable: false
 
@@ -792,6 +929,12 @@ STAFF_VUOT_NGUC_3:
     magic-damage: 134.0
     mana-cost: 16
     spell-vampirism: 8.6
+    gem-sockets:
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
     will-break: false
     unbreakable: false
 
@@ -811,6 +954,12 @@ STAFF_VUOT_NGUC_4:
     magic-damage: 136.0
     mana-cost: 16
     spell-vampirism: 8.9
+    gem-sockets:
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
     will-break: false
     unbreakable: false
 
@@ -830,6 +979,12 @@ STAFF_VUOT_NGUC_5:
     magic-damage: 138.0
     mana-cost: 16
     spell-vampirism: 9.2
+    gem-sockets:
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
     will-break: false
     unbreakable: false
 

@@ -1,0 +1,27 @@
+info:
+  namespace: archer_expansion
+items:
+  icon_arrow_shower:
+    display_name: "icon_arrow_shower"
+    permission: icon_arrow_shower
+    resource:
+      material: COAL
+      model_id: 2225
+      generate: false
+      model_path: archer_expansion_model/icon_arrow_shower
+  icon_explosive_arrow:
+    display_name: "icon_explosive_arrow"
+    permission: icon_explosive_arrow
+    resource:
+      material: COAL
+      model_id: 2226
+      generate: false
+      model_path: archer_expansion_model/icon_explosive_arrow
+  icon_hurricane_shot:
+    display_name: "icon_hurricane_shot"
+    permission: icon_hurricane_shot
+    resource:
+      material: COAL
+      model_id: 2227
+      generate: false
+      model_path: archer_expansion_model/icon_hurricane_shot

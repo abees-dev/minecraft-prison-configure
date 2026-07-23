@@ -1,0 +1,18 @@
+info:
+  namespace: toffy_gem
+categories:
+  toffy_gem:
+    enabled: true
+    name: "&e&lToffy Gems"
+    icon: toffy_gem:toffy_redgem
+    items:
+      - toffy_gem:toffy_blackgem
+      - toffy_gem:toffy_bluegem
+      - toffy_gem:toffy_browngem
+      - toffy_gem:toffy_cyangem
+      - toffy_gem:toffy_greengem
+      - toffy_gem:toffy_orangegem
+      - toffy_gem:toffy_purplegem
+      - toffy_gem:toffy_redgem
+      - toffy_gem:toffy_whitegem
+      - toffy_gem:toffy_yellowgem

@@ -245,6 +245,8 @@ PICKAXE_LAO_CONG_1:
       fortune: 4.0
       unbreaking: 4.0
     pickaxe-power: 11.0
+    gem-sockets:
+      - Uncolored
     will-break: false
     unbreakable: false
     custom-miningefficiency: 5.0
@@ -268,6 +270,8 @@ PICKAXE_LAO_CONG_2:
       fortune: 5.0
       unbreaking: 4.0
     pickaxe-power: 12.0
+    gem-sockets:
+      - Uncolored
     will-break: false
     unbreakable: false
     custom-miningefficiency: 5.0
@@ -291,6 +295,8 @@ PICKAXE_LAO_CONG_3:
       fortune: 5.0
       unbreaking: 5.0
     pickaxe-power: 13.0
+    gem-sockets:
+      - Uncolored
     will-break: false
     unbreakable: false
     custom-miningefficiency: 5.0
@@ -314,6 +320,8 @@ PICKAXE_LAO_CONG_4:
       fortune: 5.0
       unbreaking: 5.0
     pickaxe-power: 14.0
+    gem-sockets:
+      - Uncolored
     will-break: false
     unbreakable: false
     custom-miningefficiency: 6.0
@@ -337,6 +345,8 @@ PICKAXE_LAO_CONG_5:
       fortune: 6.0
       unbreaking: 5.0
     pickaxe-power: 15.0
+    gem-sockets:
+      - Uncolored
     will-break: false
     unbreakable: false
     custom-miningefficiency: 6.0
@@ -360,6 +370,9 @@ PICKAXE_THO_DAO_1:
       fortune: 6.0
       unbreaking: 6.0
     pickaxe-power: 16.0
+    gem-sockets:
+      - Uncolored
+      - Uncolored
     will-break: false
     unbreakable: false
     custom-miningefficiency: 6.0
@@ -383,6 +396,9 @@ PICKAXE_THO_DAO_2:
       fortune: 6.0
       unbreaking: 6.0
     pickaxe-power: 17.0
+    gem-sockets:
+      - Uncolored
+      - Uncolored
     will-break: false
     unbreakable: false
     custom-miningefficiency: 7.0
@@ -406,6 +422,9 @@ PICKAXE_THO_DAO_3:
       fortune: 7.0
       unbreaking: 6.0
     pickaxe-power: 18.0
+    gem-sockets:
+      - Uncolored
+      - Uncolored
     will-break: false
     unbreakable: false
     custom-miningefficiency: 7.0
@@ -429,6 +448,9 @@ PICKAXE_THO_DAO_4:
       fortune: 7.0
       unbreaking: 7.0
     pickaxe-power: 19.0
+    gem-sockets:
+      - Uncolored
+      - Uncolored
     will-break: false
     unbreakable: false
     custom-miningefficiency: 7.0
@@ -452,6 +474,9 @@ PICKAXE_THO_DAO_5:
       fortune: 7.0
       unbreaking: 7.0
     pickaxe-power: 20.0
+    gem-sockets:
+      - Uncolored
+      - Uncolored
     will-break: false
     unbreakable: false
     custom-miningefficiency: 8.0
@@ -475,6 +500,10 @@ PICKAXE_DOI_TRUONG_1:
       fortune: 8.0
       unbreaking: 7.0
     pickaxe-power: 21.0
+    gem-sockets:
+      - Uncolored
+      - Uncolored
+      - Uncolored
     will-break: false
     unbreakable: false
     custom-miningefficiency: 8.0
@@ -498,6 +527,10 @@ PICKAXE_DOI_TRUONG_2:
       fortune: 8.0
       unbreaking: 8.0
     pickaxe-power: 22.0
+    gem-sockets:
+      - Uncolored
+      - Uncolored
+      - Uncolored
     will-break: false
     unbreakable: false
     custom-miningefficiency: 8.0
@@ -521,6 +554,10 @@ PICKAXE_DOI_TRUONG_3:
       fortune: 8.0
       unbreaking: 8.0
     pickaxe-power: 23.0
+    gem-sockets:
+      - Uncolored
+      - Uncolored
+      - Uncolored
     will-break: false
     unbreakable: false
     custom-miningefficiency: 9.0
@@ -544,6 +581,10 @@ PICKAXE_DOI_TRUONG_4:
       fortune: 9.0
       unbreaking: 8.0
     pickaxe-power: 24.0
+    gem-sockets:
+      - Uncolored
+      - Uncolored
+      - Uncolored
     will-break: false
     unbreakable: false
     custom-miningefficiency: 9.0
@@ -567,6 +608,10 @@ PICKAXE_DOI_TRUONG_5:
       fortune: 9.0
       unbreaking: 9.0
     pickaxe-power: 25.0
+    gem-sockets:
+      - Uncolored
+      - Uncolored
+      - Uncolored
     will-break: false
     unbreakable: false
     custom-miningefficiency: 9.0
@@ -590,6 +635,11 @@ PICKAXE_PHO_QUAN_NGUC_1:
       fortune: 9.0
       unbreaking: 9.0
     pickaxe-power: 26.0
+    gem-sockets:
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
     will-break: false
     unbreakable: false
     custom-miningefficiency: 10.0
@@ -613,6 +663,11 @@ PICKAXE_PHO_QUAN_NGUC_2:
       fortune: 10.0
       unbreaking: 9.0
     pickaxe-power: 27.0
+    gem-sockets:
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
     will-break: false
     unbreakable: false
     custom-miningefficiency: 10.0
@@ -636,6 +691,11 @@ PICKAXE_PHO_QUAN_NGUC_3:
       fortune: 10.0
       unbreaking: 10.0
     pickaxe-power: 28.0
+    gem-sockets:
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
     will-break: false
     unbreakable: false
     custom-miningefficiency: 10.0
@@ -659,6 +719,11 @@ PICKAXE_PHO_QUAN_NGUC_4:
       fortune: 10.0
       unbreaking: 10.0
     pickaxe-power: 29.0
+    gem-sockets:
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
     will-break: false
     unbreakable: false
     custom-miningefficiency: 11.0
@@ -682,6 +747,11 @@ PICKAXE_PHO_QUAN_NGUC_5:
       fortune: 11.0
       unbreaking: 10.0
     pickaxe-power: 30.0
+    gem-sockets:
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
     will-break: false
     unbreakable: false
     custom-miningefficiency: 11.0
@@ -705,6 +775,11 @@ PICKAXE_QUAN_NGUC_1:
       fortune: 11.0
       unbreaking: 11.0
     pickaxe-power: 31.0
+    gem-sockets:
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
     will-break: false
     unbreakable: false
     custom-miningefficiency: 11.0
@@ -728,6 +803,11 @@ PICKAXE_QUAN_NGUC_2:
       fortune: 11.0
       unbreaking: 11.0
     pickaxe-power: 32.0
+    gem-sockets:
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
     will-break: false
     unbreakable: false
     custom-miningefficiency: 12.0
@@ -751,6 +831,11 @@ PICKAXE_QUAN_NGUC_3:
       fortune: 12.0
       unbreaking: 11.0
     pickaxe-power: 33.0
+    gem-sockets:
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
     will-break: false
     unbreakable: false
     custom-miningefficiency: 12.0
@@ -774,6 +859,11 @@ PICKAXE_QUAN_NGUC_4:
       fortune: 12.0
       unbreaking: 12.0
     pickaxe-power: 34.0
+    gem-sockets:
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
     will-break: false
     unbreakable: false
     custom-miningefficiency: 12.0
@@ -797,6 +887,11 @@ PICKAXE_QUAN_NGUC_5:
       fortune: 12.0
       unbreaking: 12.0
     pickaxe-power: 35.0
+    gem-sockets:
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
     will-break: false
     unbreakable: false
     custom-miningefficiency: 13.0
@@ -821,6 +916,12 @@ PICKAXE_BA_CHU_NGUC_TU_1:
       unbreaking: 12.0
     pickaxe-power: 36.0
     autosmelt: true
+    gem-sockets:
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
     will-break: false
     unbreakable: false
     custom-miningefficiency: 13.0
@@ -845,6 +946,12 @@ PICKAXE_BA_CHU_NGUC_TU_2:
       unbreaking: 13.0
     pickaxe-power: 37.0
     autosmelt: true
+    gem-sockets:
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
     will-break: false
     unbreakable: false
     custom-miningefficiency: 13.0
@@ -869,6 +976,12 @@ PICKAXE_BA_CHU_NGUC_TU_3:
       unbreaking: 13.0
     pickaxe-power: 38.0
     autosmelt: true
+    gem-sockets:
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
     will-break: false
     unbreakable: false
     custom-miningefficiency: 14.0
@@ -893,6 +1006,12 @@ PICKAXE_BA_CHU_NGUC_TU_4:
       unbreaking: 13.0
     pickaxe-power: 39.0
     autosmelt: true
+    gem-sockets:
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
     will-break: false
     unbreakable: false
     custom-miningefficiency: 14.0
@@ -917,6 +1036,12 @@ PICKAXE_BA_CHU_NGUC_TU_5:
       unbreaking: 14.0
     pickaxe-power: 40.0
     autosmelt: true
+    gem-sockets:
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
     will-break: false
     unbreakable: false
     custom-miningefficiency: 14.0
@@ -941,6 +1066,12 @@ PICKAXE_VUOT_NGUC_1:
       unbreaking: 14.0
     pickaxe-power: 41.0
     autosmelt: true
+    gem-sockets:
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
     will-break: false
     unbreakable: false
     custom-miningefficiency: 15.0
@@ -965,6 +1096,12 @@ PICKAXE_VUOT_NGUC_2:
       unbreaking: 14.0
     pickaxe-power: 42.0
     autosmelt: true
+    gem-sockets:
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
     will-break: false
     unbreakable: false
     custom-miningefficiency: 15.0
@@ -989,6 +1126,12 @@ PICKAXE_VUOT_NGUC_3:
       unbreaking: 15.0
     pickaxe-power: 43.0
     autosmelt: true
+    gem-sockets:
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
     will-break: false
     unbreakable: false
     custom-miningefficiency: 15.0
@@ -1013,6 +1156,12 @@ PICKAXE_VUOT_NGUC_4:
       unbreaking: 15.0
     pickaxe-power: 44.0
     autosmelt: true
+    gem-sockets:
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
     will-break: false
     unbreakable: false
     custom-miningefficiency: 16.0
@@ -1036,6 +1185,12 @@ PICKAXE_VUOT_NGUC_5:
       unbreaking: 15.0
     pickaxe-power: 45.0
     autosmelt: true
+    gem-sockets:
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
     will-break: false
     unbreakable: false
     custom-miningefficiency: 16.0

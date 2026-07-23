@@ -1,0 +1,34 @@
+######## Mob test damage - dùng để thử skill/dame class mới ########
+
+TrainingDummy:
+  Type: VILLAGER
+  Display: '&6&lNPC Test Damage'
+  Health: 100000000
+  Damage: 0
+  BossBar:
+    Enabled: true
+    Title: '&6NPC Test &7| &c❤ <mobhealth.rounded>&7/&c<mobmaxhealth.rounded>'
+    Range: 40
+    Color: RED
+    Style: SEGMENTED_10
+  Options:
+    MovementSpeed: 0
+    AlwaysShowName: true
+    Knockback: false
+    NoDamageTicks: 0
+    PreventItemPickup: true
+    PreventOtherDrops: true
+    PreventMobKillDrops: true
+    Despawn: false
+    CanBreed: false
+    CanPickupItems: false
+  AIGoalSelectors:
+  - none
+  AITargetSelectors:
+  - none
+  Skills:
+  - disguise{d="player Steve"} ~onSpawn
+  - message{m="&7[&6NPC&7] &fBạn vừa gây &c<trigger.damage.round(2)> &fsát thương!"} ~onDamaged
+  - heal{amount=100000000} ~onTimer:5
+  - effect:particles{particle=heart;amount=2;hS=0.4;vS=0.2;y=2.2} ~onTimer:5
+  - actionmessage{m="&a❤ NPC đang tự hồi đầy máu..."} ~onTimer:20

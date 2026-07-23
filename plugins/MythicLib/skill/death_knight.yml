@@ -1,0 +1,38 @@
+CURSED_SEAL:
+    mythicmobs-skill-id: Cursed_Seal
+    passive-type: TIMER
+
+DEATH_STRIKE_ST:
+    mythicmobs-skill-id: Death_Strike_ST
+    modifiers:
+    - damage
+    
+PHANTOM_CHARGE:
+    mythicmobs-skill-id: Phantom_Charge
+    modifiers:
+    - damage
+
+WRAITHBOUND_CHAINS:
+    mythicmobs-skill-id: Wraithbound_Chains
+    modifiers:
+    - damage
+    - skillcooldown
+
+SOUL_BARRIER:
+    mythicmobs-skill-id: Soul_Barrier
+    passive-type: TIMER
+    modifiers:
+    - duration
+    - skillcooldown
+    
+NECROTIC_WHIRLWIND:
+    mythicmobs-skill-id: Necrotic_Whirlwind
+    modifiers:
+    - damage
+    - heal
+    
+DEATH_SENTENCE:
+    mythicmobs-skill-id: Death_Sentence
+    modifiers:
+    - damage
+#claSFzT5NVanVkNUF2NQJTdZpXY31keNJTUE90MFRUT4RjMR9EUjtWZpt0SMFmYshUW0IlM

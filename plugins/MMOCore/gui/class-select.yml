@@ -1,6 +1,6 @@
 
 # GUI display name
-name: Class Selection
+name: Chọn Lớp Nhân Vật
 
 # Number of slots in your inventory. Must be
 # between 9 and 54 and must be a multiple of 9.
@@ -8,10 +8,16 @@ slots: 27
 
 items:
 
-    class-rogue:
-        slots: [11]
-        function: class-rogue
-        name: '&a&lThe Rogue'
+    border:
+        slots: [0,1,6,7,8,9,10,11,12,13,14,15,16,17,18,19,24,25,26]
+        item: BLACK_STAINED_GLASS_PANE
+        name: '&r'
+        lore: {}
+
+    class-warrior:
+        slots: [2]
+        function: class-warrior
+        name: '&a&lChiến Binh'
         hide-flags: true
         lore:
             - '{lore}'
@@ -19,41 +25,71 @@ items:
             - '{attribute-lore}'
 
     class-mage:
-      slots: [12]
-      function: class-mage
-      name: '&a&lThe Mage'
-      hide-flags: true
-      lore:
-        - '{lore}'
-        - ''
-        - '{attribute-lore}'
-
-    class-marksman:
-      slots: [13]
-      function: class-marksman
-      name: '&a&lThe Marksman'
-      hide-flags: true
-      lore:
-        - '{lore}'
-        - ''
-        - '{attribute-lore}'
-
-    class-warrior:
-        slots: [14]
-        function: class-warrior
-        name: '&a&lThe Warrior'
+        slots: [3]
+        function: class-mage
+        name: '&a&lPháp Sư'
         hide-flags: true
         lore:
             - '{lore}'
             - ''
             - '{attribute-lore}'
 
-    class-paladin:
-        slots: [15]
-        function: class-paladin
-        name: '&a&lThe Paladin'
+    class-archer_expansion:
+        slots: [4]
+        function: class-archer_expansion
+        name: '&a&lCung Thủ'
         hide-flags: true
         lore:
-        - '{lore}'
-        - ''
-        - '{attribute-lore}'
+            - '{lore}'
+            - ''
+            - '{attribute-lore}'
+
+    class-cleric:
+        slots: [5]
+        function: class-cleric
+        name: '&a&lTu Sĩ'
+        hide-flags: true
+        lore:
+            - '{lore}'
+            - ''
+            - '{attribute-lore}'
+
+    class-death_knight:
+        slots: [20]
+        function: class-death_knight
+        name: '&a&lHiệp Sĩ Tử Thần'
+        hide-flags: true
+        lore:
+            - '{lore}'
+            - ''
+            - '{attribute-lore}'
+
+    class-beastmaster:
+        slots: [21]
+        function: class-beastmaster
+        name: '&a&lChủ Thú'
+        hide-flags: true
+        lore:
+            - '{lore}'
+            - ''
+            - '{attribute-lore}'
+
+    class-summoner:
+        slots: [22]
+        function: class-summoner
+        name: '&a&lTriệu Hồi Sư'
+        hide-flags: true
+        lore:
+            - '{lore}'
+            - ''
+            - '{attribute-lore}'
+
+    class-dragon_warrior:
+        slots: [23]
+        function: class-dragon_warrior
+        name: '&a&lChiến Binh Rồng'
+        hide-flags: true
+        lore:
+            - '{lore}'
+            - ''
+            - '{attribute-lore}'

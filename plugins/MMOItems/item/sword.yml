@@ -193,6 +193,8 @@ SWORD_LAO_CONG_1:
     attack-damage: 7.5
     attack-speed: 1.6
     critical-strike-chance: 5.0
+    gem-sockets:
+      - Uncolored
     will-break: false
     unbreakable: false
 
@@ -211,6 +213,8 @@ SWORD_LAO_CONG_2:
     attack-damage: 8.1
     attack-speed: 1.6
     critical-strike-chance: 5.5
+    gem-sockets:
+      - Uncolored
     will-break: false
     unbreakable: false
 
@@ -229,6 +233,8 @@ SWORD_LAO_CONG_3:
     attack-damage: 8.8
     attack-speed: 1.6
     critical-strike-chance: 6.0
+    gem-sockets:
+      - Uncolored
     will-break: false
     unbreakable: false
 
@@ -247,6 +253,8 @@ SWORD_LAO_CONG_4:
     attack-damage: 9.4
     attack-speed: 1.6
     critical-strike-chance: 6.5
+    gem-sockets:
+      - Uncolored
     will-break: false
     unbreakable: false
 
@@ -265,6 +273,8 @@ SWORD_LAO_CONG_5:
     attack-damage: 10.0
     attack-speed: 1.6
     critical-strike-chance: 7.0
+    gem-sockets:
+      - Uncolored
     will-break: false
     unbreakable: false
 
@@ -283,6 +293,9 @@ SWORD_THO_DAO_1:
     attack-damage: 10.5
     attack-speed: 1.6
     critical-strike-chance: 8.0
+    gem-sockets:
+      - Uncolored
+      - Uncolored
     will-break: false
     unbreakable: false
 
@@ -301,6 +314,9 @@ SWORD_THO_DAO_2:
     attack-damage: 11.3
     attack-speed: 1.6
     critical-strike-chance: 8.5
+    gem-sockets:
+      - Uncolored
+      - Uncolored
     will-break: false
     unbreakable: false
 
@@ -319,6 +335,9 @@ SWORD_THO_DAO_3:
     attack-damage: 12.0
     attack-speed: 1.6
     critical-strike-chance: 9.0
+    gem-sockets:
+      - Uncolored
+      - Uncolored
     will-break: false
     unbreakable: false
 
@@ -337,6 +356,9 @@ SWORD_THO_DAO_4:
     attack-damage: 12.8
     attack-speed: 1.6
     critical-strike-chance: 9.5
+    gem-sockets:
+      - Uncolored
+      - Uncolored
     will-break: false
     unbreakable: false
 
@@ -355,6 +377,9 @@ SWORD_THO_DAO_5:
     attack-damage: 13.5
     attack-speed: 1.6
     critical-strike-chance: 10.0
+    gem-sockets:
+      - Uncolored
+      - Uncolored
     will-break: false
     unbreakable: false
 
@@ -374,6 +399,10 @@ SWORD_DOI_TRUONG_1:
     attack-speed: 1.6
     critical-strike-chance: 10.0
     lifesteal: 1.5
+    gem-sockets:
+      - Uncolored
+      - Uncolored
+      - Uncolored
     will-break: false
     unbreakable: false
 
@@ -393,6 +422,10 @@ SWORD_DOI_TRUONG_2:
     attack-speed: 1.6
     critical-strike-chance: 10.5
     lifesteal: 2.0
+    gem-sockets:
+      - Uncolored
+      - Uncolored
+      - Uncolored
     will-break: false
     unbreakable: false
 
@@ -412,6 +445,10 @@ SWORD_DOI_TRUONG_3:
     attack-speed: 1.6
     critical-strike-chance: 11.0
     lifesteal: 2.5
+    gem-sockets:
+      - Uncolored
+      - Uncolored
+      - Uncolored
     will-break: false
     unbreakable: false
 
@@ -431,6 +468,10 @@ SWORD_DOI_TRUONG_4:
     attack-speed: 1.6
     critical-strike-chance: 11.5
     lifesteal: 3.0
+    gem-sockets:
+      - Uncolored
+      - Uncolored
+      - Uncolored
     will-break: false
     unbreakable: false
 
@@ -450,6 +491,10 @@ SWORD_DOI_TRUONG_5:
     attack-speed: 1.6
     critical-strike-chance: 12.0
     lifesteal: 3.5
+    gem-sockets:
+      - Uncolored
+      - Uncolored
+      - Uncolored
     will-break: false
     unbreakable: false
 
@@ -469,6 +514,11 @@ SWORD_PHO_QUAN_NGUC_1:
     attack-speed: 1.6
     critical-strike-chance: 12.0
     lifesteal: 2.5
+    gem-sockets:
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
     will-break: false
     unbreakable: false
 
@@ -488,6 +538,11 @@ SWORD_PHO_QUAN_NGUC_2:
     attack-speed: 1.6
     critical-strike-chance: 12.5
     lifesteal: 3.0
+    gem-sockets:
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
     will-break: false
     unbreakable: false
 
@@ -507,6 +562,11 @@ SWORD_PHO_QUAN_NGUC_3:
     attack-speed: 1.6
     critical-strike-chance: 13.0
     lifesteal: 3.5
+    gem-sockets:
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
     will-break: false
     unbreakable: false
 
@@ -526,6 +586,11 @@ SWORD_PHO_QUAN_NGUC_4:
     attack-speed: 1.6
     critical-strike-chance: 13.5
     lifesteal: 4.0
+    gem-sockets:
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
     will-break: false
     unbreakable: false
 
@@ -545,6 +610,11 @@ SWORD_PHO_QUAN_NGUC_5:
     attack-speed: 1.6
     critical-strike-chance: 14.0
     lifesteal: 4.5
+    gem-sockets:
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
     will-break: false
     unbreakable: false
 
@@ -564,6 +634,11 @@ SWORD_QUAN_NGUC_1:
     attack-speed: 1.6
     critical-strike-chance: 15.0
     lifesteal: 4.0
+    gem-sockets:
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
     will-break: false
     unbreakable: false
 
@@ -583,6 +658,11 @@ SWORD_QUAN_NGUC_2:
     attack-speed: 1.6
     critical-strike-chance: 15.5
     lifesteal: 4.5
+    gem-sockets:
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
     will-break: false
     unbreakable: false
 
@@ -602,6 +682,11 @@ SWORD_QUAN_NGUC_3:
     attack-speed: 1.6
     critical-strike-chance: 16.0
     lifesteal: 5.0
+    gem-sockets:
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
     will-break: false
     unbreakable: false
 
@@ -621,6 +706,11 @@ SWORD_QUAN_NGUC_4:
     attack-speed: 1.6
     critical-strike-chance: 16.5
     lifesteal: 5.5
+    gem-sockets:
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
     will-break: false
     unbreakable: false
 
@@ -640,6 +730,11 @@ SWORD_QUAN_NGUC_5:
     attack-speed: 1.6
     critical-strike-chance: 17.0
     lifesteal: 6.0
+    gem-sockets:
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
     will-break: false
     unbreakable: false
 
@@ -659,6 +754,12 @@ SWORD_BA_CHU_NGUC_TU_1:
     attack-speed: 1.6
     critical-strike-chance: 18.0
     lifesteal: 6.0
+    gem-sockets:
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
     will-break: false
     unbreakable: false
 
@@ -678,6 +779,12 @@ SWORD_BA_CHU_NGUC_TU_2:
     attack-speed: 1.6
     critical-strike-chance: 18.5
     lifesteal: 6.5
+    gem-sockets:
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
     will-break: false
     unbreakable: false
 
@@ -697,6 +804,12 @@ SWORD_BA_CHU_NGUC_TU_3:
     attack-speed: 1.6
     critical-strike-chance: 19.0
     lifesteal: 7.0
+    gem-sockets:
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
     will-break: false
     unbreakable: false
 
@@ -716,6 +829,12 @@ SWORD_BA_CHU_NGUC_TU_4:
     attack-speed: 1.6
     critical-strike-chance: 19.5
     lifesteal: 7.5
+    gem-sockets:
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
     will-break: false
     unbreakable: false
 
@@ -735,6 +854,12 @@ SWORD_BA_CHU_NGUC_TU_5:
     attack-speed: 1.6
     critical-strike-chance: 20.0
     lifesteal: 8.0
+    gem-sockets:
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
     will-break: false
     unbreakable: false
 
@@ -754,6 +879,12 @@ SWORD_VUOT_NGUC_1:
     attack-speed: 1.6
     critical-strike-chance: 20.0
     lifesteal: 8.0
+    gem-sockets:
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
     will-break: false
     unbreakable: false
 
@@ -773,6 +904,12 @@ SWORD_VUOT_NGUC_2:
     attack-speed: 1.6
     critical-strike-chance: 20.5
     lifesteal: 8.5
+    gem-sockets:
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
     will-break: false
     unbreakable: false
 
@@ -792,6 +929,12 @@ SWORD_VUOT_NGUC_3:
     attack-speed: 1.6
     critical-strike-chance: 21.0
     lifesteal: 9.0
+    gem-sockets:
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
     will-break: false
     unbreakable: false
 
@@ -811,6 +954,12 @@ SWORD_VUOT_NGUC_4:
     attack-speed: 1.6
     critical-strike-chance: 21.5
     lifesteal: 9.5
+    gem-sockets:
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
     will-break: false
     unbreakable: false
 
@@ -830,6 +979,12 @@ SWORD_VUOT_NGUC_5:
     attack-speed: 1.6
     critical-strike-chance: 22.0
     lifesteal: 10.0
+    gem-sockets:
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
     will-break: false
     unbreakable: false
 

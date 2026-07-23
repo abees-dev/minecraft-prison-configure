@@ -1,0 +1,44 @@
+name: Necrotic Whirlwind
+lore:
+- "&7&m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+- ""
+- "&7Spin your Necroslayer in a deadly vortex, slightly lifting"
+- "&7enemies into the air upon contact. As the skill ends, summon"
+- "&7necrotic claws to slash nearby enemies, healing yourself based"
+- "&7on the amount of enemies hit. Enemies get knocked back and slowed."
+- "&c🗡 {damage} Damage"
+- "&a❤ {heal} Heal"
+- "&e⌛ {cooldown}s Cooldown"
+- ""
+- "&7&m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+material: 'COAL:2262'
+timer:
+  base: 0
+  per-level: 0
+  min: 0
+  max: 0
+damage:
+  base: 2
+  per-level: 1
+  min: 2
+  max: 5
+heal:
+  base: 3
+  per-level: 1
+  min: 3
+  max: 6
+mana:
+  base: 0
+  per-level: 0
+  min: 0
+  max: 0
+stamina:
+  base: 0
+  per-level: 0
+  min: 0
+  max: 0
+cooldown:
+  base: 8
+  per-level: -0.01
+  min: 7
+  max: 8

@@ -1,0 +1,172 @@
+######## created by samus2002 #########
+
+# Explosive Arrow #
+
+Explosive_Arrow:
+  Skills:
+  - effect:sound{s=entity.warden.sonic_charge;volume=0.7;pitch=1.5} @self
+  - delay 5
+  - summon{type=VFX_Explosive_Arrow_Charge;amount=1;radius=0;yRadius=0;onSurface=false} @forward{f=1;y=0.4}
+  - potion{type=SLOW;duration=20;level=50;hasParticles=false} @self
+  
+  - delay 20
+  
+  - lunge{velocity=1;velocityY=-0.1} @forward{f=-5;y=-2}
+  - effect:sound{s=item.trident.riptide_1;volume=0.7;pitch=2} @self
+  - effect:sound{s=entity.arrow.shoot;volume=0.7;pitch=1.1} @self
+  - effect:sound{s=block.lava.extinguish;volume=0.7;pitch=1} @self
+  - summon{type=VFX_Explosive_Arrow_Impact;amount=1;radius=0;yRadius=0;onSurface=true} @forward{f=1;y=0.5}
+  - projectile{bulletType=MOB;mob=VFX_Explosive_Arrow_Arrow;onHit=Explosive_Arrow_PASS_D;onEnd=Explosive_Arrow_DAMAGE_D;v=28;i=1;hR=1;vR=1;mr=30;hnp=true;hO=0;sE=false;sB=true;hs=false;hfs=0;sfo=0.5;syo=1.9;tyo=1.5;sso=0;hitConditions=[- entitytype{t=ARMOR_STAND} false]} @Forward{f=25;y=0}
+  
+Explosive_Arrow_PASS_D:
+  Skills:
+  - skill{s=Explosive_Arrow_PASS} @EntitiesNearOrigin{r=3}
+Explosive_Arrow_PASS:
+  TargetConditions:
+  - entitytype{t=ARMOR_STAND} false
+  - mmoCanTarget{interaction=OFFENSE_ACTION} true
+  - hasaura{n=Explosive_Arrow_PASS} false
+  Skills:
+  - aura{auraName=Explosive_Arrow_PASS;duration=10}
+  - effect:sound{s=item.trident.hit;volume=1;pitch=1.8}
+  - effect:sound{s=entity.arrow.hit;volume=1;pitch=1.4}
+  - damage{a="<modifier.damage>";pkb=true;hnp=true;hp=true}
+  - effect:sound{s=entity.dragon_fireball.explode;volume=0.5;pitch=0.8}
+  - effect:sound{s=entity.ender_dragon.hurt;volume=0.5;pitch=0.7}
+  - effect:sound{s=entity.dragon_fireball.explode;volume=0.5;pitch=0.6;delay=2}
+  - summon{type=VFX_Explosive_Arrow_Explosion;amount=1;radius=0;yRadius=0;onSurface=false}
+  
+Explosive_Arrow_DAMAGE_D:
+  Skills:
+  - skill{s=Explosive_Arrow_DAMAGE} @EntitiesNearOrigin{r=5}
+  - summon{type=VFX_Explosive_Arrow_Explosion;amount=3;radius=4;yRadiusUpOnly=false;yRadius=4;onSurface=false;repeat=2;repeati=2} @origin{yoffset=-1}
+  #- summon{type=VFX_Explosive_Arrow_Explosion;amount=2;radius=4;yRadiusUpOnly=true;yRadius=0.5;onSurface=false;repeat=1;repeati=2} @origin{yoffset=1.5}
+  #- effect:particles{particle=campfire_cosy_smoke;amount=30;hS=2;vS=1;y=0.8;speed=0;forwardOffset=0;sideOffset=0} @origin
+  #- effect:particles{particle=flame;amount=30;hS=2;vS=1;y=0.8;speed=0.1;forwardOffset=0;sideOffset=0} @origin
+  - effect:sound{s=entity.dragon_fireball.explode;volume=1.5;pitch=0.8} @origin
+  - effect:sound{s=entity.ender_dragon.hurt;volume=1.5;pitch=0.7} @origin
+  - effect:sound{s=entity.dragon_fireball.explode;volume=1.5;pitch=1;delay=2} @origin
+  - effect:sound{s=entity.dragon_fireball.explode;volume=1.5;pitch=0.5;delay=4} @origin
+Explosive_Arrow_DAMAGE:
+  TargetConditions:
+  - entitytype{t=ARMOR_STAND} false
+  - mmoCanTarget{interaction=OFFENSE_ACTION} true
+  Skills:
+  - damage{a="<modifier.damage>";pkb=true;hnp=true;hp=true}
+
+VFX_Explosive_Arrow_RAN:
+  Skills:
+  - randomskill{skills=VFX_Explosive_Arrow_1,VFX_Explosive_Arrow_2,VFX_Explosive_Arrow_3}
+VFX_Explosive_Arrow_1:
+  Skills:
+  - state{s=skill} @self
+VFX_Explosive_Arrow_2:
+  Skills:
+  - state{s=skill2} @self
+VFX_Explosive_Arrow_3:
+  Skills:
+  - state{s=skill3} @self
+  
+# Arrow Shower #
+
+Arrow_Shower:
+  Skills:
+  - effect:sound{s=item.trident.riptide_1;volume=0.5;pitch=2.4;repeat=5;repeati=2} @origin
+  - effect:sound{s=entity.arrow.shoot;volume=0.5;pitch=1.8;repeat=5;repeati=2} @origin
+  - summon{type=VFX_Arrow_Shower_Impact;amount=1;radius=0;yRadius=0;onSurface=true;repeat=5;repeati=2} @forward{f=0.5;y=1.3;lockpitch=true}
+  
+  - projectile{onEnd=Arrow_Shower_PRO;v=35;i=1;hR=1;vR=1;mr=15;hnp=false;hO=0;sE=false;sB=true;hs=false;hfs=0;syo=1.5;tyo=1.5} @targetblock
+  
+Arrow_Shower_PRO:
+  Skills:
+  - delay 10
+  - totem{md=100;oT=Arrow_Shower_SUM;hnp=true;hp=true;hR=2;vR=1;i=5} @origin
+  - totem{md=100;oT=Arrow_Shower_SUM;hnp=true;hp=true;hR=2;vR=1;i=5;delay=3} @origin
+  - totem{md=100;oT=Arrow_Shower_SUM;hnp=true;hp=true;hR=2;vR=1;i=6;delay=2} @origin
+  - totem{md=100;oT=Arrow_Shower_DAMAGE_D;hnp=true;hp=true;hR=2;vR=1;i=10;delay=7} @origin
+
+Arrow_Shower_SUM:
+  Skills:
+  - effect:sound{s=item.trident.riptide_1;volume=0.25;pitch=2} @origin
+  - effect:sound{s=entity.arrow.shoot;volume=0.25;pitch=1.1} @origin
+  - summon{type=VFX_Arrow_Shower_Arrow;amount=1;radius=4;yRadius=0;onSurface=true} @origin
+  
+Arrow_Shower_DAMAGE_D:
+  Skills:
+  - skill{s=Arrow_Shower_DAMAGE} @EntitiesNearOrigin{r=5}
+Arrow_Shower_DAMAGE:
+  TargetConditions:
+  - entitytype{t=ARMOR_STAND} false
+  - mmoCanTarget{interaction=OFFENSE_ACTION} true
+  - hasaura{n=Arrow_Shower_AURA} false
+  Skills:
+  - aura{auraName=Arrow_Shower_AURA;duration=10}
+  - effect:sound{s=entity.blaze.hurt;volume=0.3;pitch=1.9}
+  - damage{a="<modifier.damage>";pkb=true;hnp=true;hp=true}
+
+VFX_Arrow_Shower_Arrow_SHOT_RD:
+  Skills:
+  - randomskill{skills=VFX_Arrow_Shower_Arrow_SHOT_RD1,VFX_Arrow_Shower_Arrow_SHOT_RD2,VFX_Arrow_Shower_Arrow_SHOT_RD3}
+VFX_Arrow_Shower_Arrow_SHOT_RD1:
+  Skills:
+  - state{s=skill} @self
+VFX_Arrow_Shower_Arrow_SHOT_RD2:
+  Skills:
+  - state{s=skill2} @self
+VFX_Arrow_Shower_Arrow_SHOT_RD3:
+  Skills:
+  - state{s=skill3} @self
+  
+VFX_Arrow_Shower_Arrow_RD:
+  Skills:
+  - randomskill{skills=VFX_Arrow_Shower_Arrow_RD0,VFX_Arrow_Shower_Arrow_RD1,VFX_Arrow_Shower_Arrow_RD2,VFX_Arrow_Shower_Arrow_RD3,VFX_Arrow_Shower_Arrow_RD4}
+VFX_Arrow_Shower_Arrow_RD0:
+  Skills:
+  - state{s=rain;speed=1.2} @self
+VFX_Arrow_Shower_Arrow_RD1:
+  Skills:
+  - state{s=rain1;speed=1.2} @self
+VFX_Arrow_Shower_Arrow_RD2:
+  Skills:
+  - state{s=rain2;speed=1.2} @self
+VFX_Arrow_Shower_Arrow_RD3:
+  Skills:
+  - state{s=rain3;speed=1.2} @self
+VFX_Arrow_Shower_Arrow_RD4:
+  Skills:
+  - state{s=rain4;speed=1.2} @self
+  
+# Hurricane Shot #
+
+Hurricane_Shot:
+  Skills:
+  - effect:sound{s=entity.phantom.ambient;volume=1.2;pitch=1} @self
+  - effect:sound{s=item.crossbow.loading_start;volume=0.8;pitch=0.8} @self
+  - summon{type=VFX_Hurricane_Shot_Charge;amount=1;radius=0;yRadius=0;onSurface=false;repeat=2;repeati=5} @forward{f=1;y=0.4}
+  - potion{type=SLOW;duration=40;level=50;hasParticles=false} @self
+  
+  - delay 40
+  
+  - effect:sound{s=entity.blaze.shoot;volume=0.7;pitch=1.6} @self
+  - effect:sound{s=entity.wither.shoot;volume=0.5;pitch=1.7} @self
+  - effect:sound{s=item.trident.riptide_2;volume=0.7;pitch=0.6} @self
+  - summon{type=VFX_Hurricane_Shot_Impact;amount=1;radius=0;yRadius=0;onSurface=true;repeat=1;repeati=3} @forward{f=1;y=-0.5}
+  - projectile{bulletType=MOB;mob=VFX_Hurricane_Shot_Arrow;oT=Hurricane_Shot_T;onHit=Hurricane_Shot_DAMAGE_D;v=35;i=1;hR=1;vR=1;mr=38;hnp=true;hO=0;sE=false;sB=true;hs=false;hfs=0;sfo=0.5;syo=1.9;tyo=1.5;sso=0;hitConditions=[- entitytype{t=ARMOR_STAND} false]} @Forward{f=25;y=0}
+  
+
+Hurricane_Shot_T:
+  Skills:
+  - summon{type=VFX_Hurricane_Shot_T;amount=1;radius=0;yRadius=0;onSurface=false} @origin{y=-2}
+Hurricane_Shot_DAMAGE_D:
+  Skills:
+  - skill{s=Hurricane_Shot_DAMAGE} @EntitiesNearOrigin{r=5}
+Hurricane_Shot_DAMAGE:
+  TargetConditions:
+  - entitytype{t=ARMOR_STAND} false
+  - mmoCanTarget{interaction=OFFENSE_ACTION} true
+  - hasaura{n=Hurricane_Shot_AURA} false
+  Skills:
+  - aura{auraName=Hurricane_Shot_AURA;duration=10}
+  - effect:sound{s=entity.breeze.hurt;volume=0.7;pitch=1.5}
+  - damage{a="<modifier.damage>";pkb=true;hnp=true;hp=true}
+  - throw{velocity=15;velocityY=0;delay=1}

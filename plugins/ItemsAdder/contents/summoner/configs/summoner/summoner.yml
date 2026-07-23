@@ -1,0 +1,68 @@
+info:
+  namespace: summoner
+items:
+  summoner_tome:
+    display_name: "summoner_tome"
+    permission: summoner_tome
+    resource:
+      material: STONE_SWORD
+      model_id: 2033
+      generate: false
+      model_path: summoner_model/summoner_tome
+  summoner_tome_shiny:
+    display_name: "summoner_tome_shiny"
+    permission: summoner_tome_shiny
+    resource:
+      material: STONE_SWORD
+      model_id: 2034
+      generate: false
+      model_path: summoner_model/summoner_tome_shiny
+  icon_guardians_defense:
+    display_name: "icon_guardians_defense"
+    permission: icon_guardians_defense
+    resource:
+      material: COAL
+      model_id: 2100
+      generate: false
+      model_path: summoner_model/icon_guardians_defense
+  icon_magical_blades:
+    display_name: "icon_magical_blades"
+    permission: icon_magical_blades
+    resource:
+      material: COAL
+      model_id: 2101
+      generate: false
+      model_path: summoner_model/icon_magical_blades
+  icon_soul_strike:
+    display_name: "icon_soul_strike"
+    permission: icon_soul_strike
+    resource:
+      material: COAL
+      model_id: 2102
+      generate: false
+      model_path: summoner_model/icon_soul_strike
+  icon_spirit_guardian:
+    display_name: "icon_spirit_guardian"
+    permission: icon_spirit_guardian
+    resource:
+      material: COAL
+      model_id: 2103
+      generate: false
+      model_path: summoner_model/icon_spirit_guardian
+  icon_summon_horse:
+    display_name: "icon_summon_horse"
+    permission: icon_summon_horse
+    resource:
+      material: COAL
+      model_id: 2104
+      generate: false
+      model_path: summoner_model/icon_summon_horse
+  icon_summon_phoenix:
+    display_name: "icon_summon_phoenix"
+    permission: icon_summon_phoenix
+    resource:
+      material: COAL
+      model_id: 2105
+      generate: false
+      model_path: summoner_model/icon_summon_phoenix
+  

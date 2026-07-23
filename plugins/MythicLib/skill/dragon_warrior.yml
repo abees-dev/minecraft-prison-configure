@@ -1,0 +1,30 @@
+DRAGON_SLASH:
+    mythicmobs-skill-id: Dragon_Slash
+    modifiers:
+    - damage
+
+DRAGON_DASH:
+    mythicmobs-skill-id: Dragon_Dash
+    modifiers:
+    - damage
+    
+DRAGON_SKIN:
+    mythicmobs-skill-id: Dragon_Skin
+    passive-type: DAMAGED
+    modifiers:
+    - damage
+    
+DRAGON_ZONE:
+    mythicmobs-skill-id: Dragon_Zone
+    modifiers:
+    - duration
+    
+DRAGON_BREATH:
+    mythicmobs-skill-id: Dragon_Breath
+    modifiers:
+    - damage
+    
+DRAGONBORN:
+    mythicmobs-skill-id: Dragonborn
+    modifiers:
+    - damage

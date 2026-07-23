@@ -1,0 +1,79 @@
+display:
+    name: 'Chủ Thú'
+    lore:
+    - '&7Một thợ săn nhanh nhẹn, ra đòn từ trong bóng'
+    - '&7tối và di chuyển nhanh hơn bất kỳ kẻ địch nào'
+    - '&7có thể phản ứng kịp.'
+    attribute-lore:
+    - '&a+ &7Tốc Độ Đánh'
+    - '&a+ &7Tốc Độ Di Chuyển'
+    - '&c- &7Máu Tối Đa'
+    - ''
+    - '&8&lSức Mạnh'
+    - '&7  Tốc Độ Đánh: &c4.3 &7(+&c0.05&7/cấp)'
+    - '&7  Máu Tối Đa: &c17 &7(+&c0&7/cấp)'
+    - ''
+    - '&8&lNhanh Nhẹn'
+    - '&7  Tốc Độ Di Chuyển: &a0.115 &7(+&a0.001&7/cấp)'
+    item: LEATHER_BOOTS
+
+exp-curve: levels
+max-level: 100
+exp-table: class_exp_table
+
+skill-slots:
+    1:
+        name: "&aSkill Slot I"
+        unlocked-by-default: true
+    2:
+        name: "&aSkill Slot II"
+        unlocked-by-default: true
+    3:
+        name: "&aSkill Slot III"
+        unlocked-by-default: true
+    4:
+        name: "&aSkill Slot IV"
+        unlocked-by-default: true
+
+cast-particle:
+    particle: SPELL_WITCH
+
+options:
+    off-combat-mana-regen: true
+    off-combat-health-regen: true
+    needs-permission: false
+
+attributes:
+    attack-speed:
+        base: 4.3
+        per-level: .05
+    movement-speed:
+        base: .115
+        per-level: .001
+    max-health:
+        base: 17
+        per-level: 0
+
+skills:
+    LEAP:
+        level: 1
+        max-level: 30
+    POISON:
+        level: 3
+        max-level: 30
+    SWIFTNESS:
+        level: 5
+        max-level: 30
+    BACKSTAB:
+        level: 7
+        max-level: 30
+    EVADE:
+        level: 9
+        max-level: 30
+    FURTIVE_STRIKE:
+        level: 11
+        max-level: 30
+
+main-exp-sources:
+- 'killmob{type=ZOMBIE;amount=1-3}'
+- 'killmob{type=ENDERMAN;amount=6-9}'

@@ -1,6 +1,12 @@
 /**
  * Script tự động khởi tạo và tính toán chỉ số CÂN BẰNG cho Vũ khí MMOItems (Kiếm, Rìu Chiến, Trượng Phép)
- * Đã điều chỉnh tỉ lệ Dame/HP cân bằng với Giáp (Loại bỏ 1-hit kill, combat 4-7 hits)
+ * Tích hợp sẵn số Ô Khảm (Gem Sockets) theo Rank:
+ * - Tân Binh, Tù Nhân: 0 ô
+ * - Lao Công: 1 ô
+ * - Thợ Đào: 2 ô
+ * - Đội Trưởng: 3 ô
+ * - Phó Quản Ngục, Quản Ngục: 4 ô
+ * - Bá Chủ Ngục Tù, Vượt Ngục: 5 ô (MAX)
  * Run: node scripts/generate_weapons.js
  */
 
@@ -21,7 +27,18 @@ const ranks = [
 
 const romanMap = ['I', 'II', 'III', 'IV', 'V'];
 
-// 1. Công thức Kiếm (Sword): Tốc đánh nhanh (1.6), Dame cân bằng với HP Giáp
+function getSocketsYAML(rIdx) {
+  const socketCounts = [0, 0, 1, 2, 3, 4, 4, 5, 5];
+  const count = socketCounts[rIdx] || 0;
+  if (count === 0) return '';
+  let res = '    gem-sockets:\n';
+  for (let i = 0; i < count; i++) {
+    res += '      - Uncolored\n';
+  }
+  return res;
+}
+
+// 1. Công thức Kiếm (Sword)
 function getSwordStats(rIdx, tIdx) {
   const baseDmg = [3.0, 5.0, 7.5, 10.5, 14.0, 18.5, 24.0, 31.0, 39.0][rIdx];
   const stepDmg = [0.375, 0.5, 0.625, 0.75, 1.0, 1.25, 1.5, 1.75, 2.25][rIdx];
@@ -36,7 +53,7 @@ function getSwordStats(rIdx, tIdx) {
   return { dmg, speed: 1.6, crit, lifesteal };
 }
 
-// 2. Công thức Rìu Chiến (Combat Axe): Dame bộc phát (+20% so với Kiếm), Tốc đánh chậm (1.0), Phá giáp & Đẩy lùi
+// 2. Công thức Rìu Chiến (Combat Axe)
 function getAxeStats(rIdx, tIdx) {
   const baseDmg = [4.0, 6.5, 9.5, 13.0, 17.5, 23.0, 29.0, 37.0, 46.0][rIdx];
   const stepDmg = [0.5, 0.625, 0.75, 0.875, 1.125, 1.375, 1.75, 2.0, 2.5][rIdx];
@@ -51,7 +68,7 @@ function getAxeStats(rIdx, tIdx) {
   return { dmg, speed: 1.0, knockback, critPwr };
 }
 
-// 3. Công thức Trượng Phép (Staff): Dame phép vừa phải, Tiêu hao Mana, Hút máu phép
+// 3. Công thức Trượng Phép (Staff)
 function getStaffStats(rIdx, tIdx) {
   const baseDmg = [2.5, 4.5, 7.0, 10.0, 13.5, 18.0, 23.5, 30.0, 38.0][rIdx];
   const stepDmg = [0.375, 0.5, 0.625, 0.75, 1.0, 1.25, 1.5, 1.75, 2.0][rIdx];
@@ -97,6 +114,7 @@ ranks.forEach((r, rIdx) => {
     if (stats.lifesteal > 0) {
       swordContent += `    lifesteal: ${stats.lifesteal.toFixed(1)}\n`;
     }
+    swordContent += getSocketsYAML(rIdx);
     swordContent += `    will-break: false
     unbreakable: false
 
@@ -132,6 +150,7 @@ ranks.forEach((r, rIdx) => {
     if (stats.critPwr > 0) {
       axeContent += `    critical-strike-power: ${stats.critPwr.toFixed(1)}\n`;
     }
+    axeContent += getSocketsYAML(rIdx);
     axeContent += `    will-break: false
     unbreakable: false
 
@@ -167,6 +186,7 @@ ranks.forEach((r, rIdx) => {
     if (stats.spellVamp > 0) {
       staffContent += `    spell-vampirism: ${stats.spellVamp.toFixed(1)}\n`;
     }
+    staffContent += getSocketsYAML(rIdx);
     staffContent += `    will-break: false
     unbreakable: false
 
@@ -175,4 +195,4 @@ ranks.forEach((r, rIdx) => {
 });
 fs.writeFileSync(path.join(baseDir, 'item', 'staff.yml'), staffContent, 'utf8');
 
-console.log('✅ Đã cân bằng lại toàn bộ 135 vật phẩm vũ khí thành công!');
+console.log('✅ Đã cập nhật xong số ô khảm Gem Sockets theo Rank cho toàn bộ Vũ Khí!');

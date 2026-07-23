@@ -1,0 +1,38 @@
+name: Soul Barrier
+lore:
+- "&7&m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+- ""
+- "&7Conjure a barrier of necrotic energy, granting yourself"
+- "&7invulnerability for a few seconds. During this time, all"
+- "&7incoming damage is absorbed and converted into healing,"
+- "&7restoring your health."
+- "&9🕗 {duration}s Duration"
+- "&e⌛ {cooldown}s Cooldown"
+- ""
+- "&7&m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+material: 'COAL:2264'
+timer:
+  base: 0
+  per-level: 0
+  min: 0
+  max: 0
+duration:
+  base: 9
+  per-level: 0.2
+  min: 9
+  max: 11
+mana:
+  base: 0
+  per-level: 0
+  min: 0
+  max: 0
+stamina:
+  base: 0
+  per-level: 0
+  min: 0
+  max: 0
+cooldown:
+  base: 15
+  per-level: -0.01
+  min: 14
+  max: 15

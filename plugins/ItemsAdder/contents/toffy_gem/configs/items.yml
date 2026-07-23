@@ -1,0 +1,103 @@
+info:
+  namespace: toffy_gem
+items:
+  toffy_blackgem:
+    display_name: "&8&lHắc Ngọc"
+    enabled: true
+    lore:
+      - "&7Đá quý nguyên tố Bóng Tối."
+    resource:
+      material: CARROT_ON_A_STICK
+      generate: false
+      model_path: gems/toffy_blackgem
+      model_id: 15001
+  toffy_bluegem:
+    display_name: "&9&lLam Ngọc"
+    enabled: true
+    lore:
+      - "&7Đá quý nguyên tố Nước."
+    resource:
+      material: CARROT_ON_A_STICK
+      generate: false
+      model_path: gems/toffy_bluegem
+      model_id: 15002
+  toffy_browngem:
+    display_name: "&6&lThổ Ngọc"
+    enabled: true
+    lore:
+      - "&7Đá quý nguyên tố Đất."
+    resource:
+      material: CARROT_ON_A_STICK
+      generate: false
+      model_path: gems/toffy_browngem
+      model_id: 15003
+  toffy_cyangem:
+    display_name: "&b&lBăng Ngọc"
+    enabled: true
+    lore:
+      - "&7Đá quý nguyên tố Băng."
+    resource:
+      material: CARROT_ON_A_STICK
+      generate: false
+      model_path: gems/toffy_cyangem
+      model_id: 15004
+  toffy_greengem:
+    display_name: "&a&lLục Ngọc"
+    enabled: true
+    lore:
+      - "&7Đá quý nguyên tố Phong."
+    resource:
+      material: CARROT_ON_A_STICK
+      generate: false
+      model_path: gems/toffy_greengem
+      model_id: 15005
+  toffy_orangegem:
+    display_name: "&6&lCam Ngọc"
+    enabled: true
+    lore:
+      - "&7Đá quý nguyên tố Năng Lượng."
+    resource:
+      material: CARROT_ON_A_STICK
+      generate: false
+      model_path: gems/toffy_orangegem
+      model_id: 15006
+  toffy_purplegem:
+    display_name: "&5&lTử Ngọc"
+    enabled: true
+    lore:
+      - "&7Đá quý nguyên tố Sấm Sét."
+    resource:
+      material: CARROT_ON_A_STICK
+      generate: false
+      model_path: gems/toffy_purplegem
+      model_id: 15007
+  toffy_redgem:
+    display_name: "&c&lHồng Ngọc"
+    enabled: true
+    lore:
+      - "&7Đá quý nguyên tố Hỏa."
+    resource:
+      material: CARROT_ON_A_STICK
+      generate: false
+      model_path: gems/toffy_redgem
+      model_id: 15008
+  toffy_whitegem:
+    display_name: "&f&lBạch Ngọc"
+    enabled: true
+    lore:
+      - "&7Đá quý nguyên tố Ánh Sáng."
+    resource:
+      material: CARROT_ON_A_STICK
+      generate: false
+      model_path: gems/toffy_whitegem
+      model_id: 15009
+  toffy_yellowgem:
+    display_name: "&e&lHoàng Ngọc"
+    enabled: true
+    lore:
+      - "&7Đá quý nguyên tố Kim."
+    resource:
+      material: CARROT_ON_A_STICK
+      generate: false
+      model_path: gems/toffy_yellowgem
+      model_id: 15010
