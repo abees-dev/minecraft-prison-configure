@@ -107,6 +107,12 @@ mitigation:
     knockback: 1.0
     cooldown: 8.0
 
+# Force hologram backend. On Paper 1.19.4, TEXT_DISPLAYS crashes
+# (NoSuchMethodError: TextDisplay.setTeleportDuration — added in 1.20.2).
+# Valid: TEXT_DISPLAYS, DECENT_HOLOGRAMS, CMI, HOLOGRAPHIC_DISPLAYS,
+#        HOLOGRAMS, LEGACY_ARMOR_STANDS, TR_HOLOGRAM
+hologram-provider: DECENT_HOLOGRAMS
+
 # Displays in-game damage or heal indicators.
 # Requires /reload when changed.
 # Supported Plugins:
@@ -120,7 +126,7 @@ game-indicators:
   # Use format: 'ᜌ{icon} &f{value}ᜌ' along with the resource pack
   # provided in the wiki in order to remove the gray background
   damage:
-    enabled: false
+    enabled: true
     decimal-format: "0.#"
     format: "{icon} &f{value}"
     custom-font:

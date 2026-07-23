@@ -1,0 +1,835 @@
+SWORD_TAN_BINH_1:
+  base:
+    material: WOODEN_SWORD
+    name: "&fKiếm Tân Binh &e&lI"
+    max-durability: 500
+    tier: TRASH
+    hide-enchants: true
+    lore-format: weapon-lore
+    lore:
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Vũ khí cận chiến sắc bén của Tân Binh"
+      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng sát thương"
+    attack-damage: 3.0
+    attack-speed: 1.6
+    critical-strike-chance: 1.0
+    will-break: false
+    unbreakable: false
+
+SWORD_TAN_BINH_2:
+  base:
+    material: WOODEN_SWORD
+    name: "&fKiếm Tân Binh &e&lII"
+    max-durability: 500
+    tier: TRASH
+    hide-enchants: true
+    lore-format: weapon-lore
+    lore:
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Vũ khí cận chiến sắc bén của Tân Binh"
+      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng sát thương"
+    attack-damage: 3.4
+    attack-speed: 1.6
+    critical-strike-chance: 1.5
+    will-break: false
+    unbreakable: false
+
+SWORD_TAN_BINH_3:
+  base:
+    material: WOODEN_SWORD
+    name: "&fKiếm Tân Binh &e&lIII"
+    max-durability: 500
+    tier: TRASH
+    hide-enchants: true
+    lore-format: weapon-lore
+    lore:
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Vũ khí cận chiến sắc bén của Tân Binh"
+      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng sát thương"
+    attack-damage: 3.8
+    attack-speed: 1.6
+    critical-strike-chance: 2.0
+    will-break: false
+    unbreakable: false
+
+SWORD_TAN_BINH_4:
+  base:
+    material: WOODEN_SWORD
+    name: "&fKiếm Tân Binh &e&lIV"
+    max-durability: 500
+    tier: TRASH
+    hide-enchants: true
+    lore-format: weapon-lore
+    lore:
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Vũ khí cận chiến sắc bén của Tân Binh"
+      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng sát thương"
+    attack-damage: 4.1
+    attack-speed: 1.6
+    critical-strike-chance: 2.5
+    will-break: false
+    unbreakable: false
+
+SWORD_TAN_BINH_5:
+  base:
+    material: WOODEN_SWORD
+    name: "&fKiếm Tân Binh &e&lV"
+    max-durability: 500
+    tier: TRASH
+    hide-enchants: true
+    lore-format: weapon-lore
+    lore:
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Vũ khí cận chiến sắc bén của Tân Binh"
+      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng sát thương"
+    attack-damage: 4.5
+    attack-speed: 1.6
+    critical-strike-chance: 3.0
+    will-break: false
+    unbreakable: false
+
+SWORD_TU_NHAN_1:
+  base:
+    material: STONE_SWORD
+    name: "&aKiếm Tù Nhân &e&lI"
+    max-durability: 1000
+    tier: COMMON
+    hide-enchants: true
+    lore-format: weapon-lore
+    lore:
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Vũ khí cận chiến sắc bén của Tù Nhân"
+      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng sát thương"
+    attack-damage: 5.0
+    attack-speed: 1.6
+    critical-strike-chance: 3.0
+    will-break: false
+    unbreakable: false
+
+SWORD_TU_NHAN_2:
+  base:
+    material: STONE_SWORD
+    name: "&aKiếm Tù Nhân &e&lII"
+    max-durability: 1000
+    tier: COMMON
+    hide-enchants: true
+    lore-format: weapon-lore
+    lore:
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Vũ khí cận chiến sắc bén của Tù Nhân"
+      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng sát thương"
+    attack-damage: 5.5
+    attack-speed: 1.6
+    critical-strike-chance: 3.5
+    will-break: false
+    unbreakable: false
+
+SWORD_TU_NHAN_3:
+  base:
+    material: STONE_SWORD
+    name: "&aKiếm Tù Nhân &e&lIII"
+    max-durability: 1000
+    tier: COMMON
+    hide-enchants: true
+    lore-format: weapon-lore
+    lore:
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Vũ khí cận chiến sắc bén của Tù Nhân"
+      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng sát thương"
+    attack-damage: 6.0
+    attack-speed: 1.6
+    critical-strike-chance: 4.0
+    will-break: false
+    unbreakable: false
+
+SWORD_TU_NHAN_4:
+  base:
+    material: STONE_SWORD
+    name: "&aKiếm Tù Nhân &e&lIV"
+    max-durability: 1000
+    tier: COMMON
+    hide-enchants: true
+    lore-format: weapon-lore
+    lore:
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Vũ khí cận chiến sắc bén của Tù Nhân"
+      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng sát thương"
+    attack-damage: 6.5
+    attack-speed: 1.6
+    critical-strike-chance: 4.5
+    will-break: false
+    unbreakable: false
+
+SWORD_TU_NHAN_5:
+  base:
+    material: STONE_SWORD
+    name: "&aKiếm Tù Nhân &e&lV"
+    max-durability: 1000
+    tier: COMMON
+    hide-enchants: true
+    lore-format: weapon-lore
+    lore:
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Vũ khí cận chiến sắc bén của Tù Nhân"
+      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng sát thương"
+    attack-damage: 7.0
+    attack-speed: 1.6
+    critical-strike-chance: 5.0
+    will-break: false
+    unbreakable: false
+
+SWORD_LAO_CONG_1:
+  base:
+    material: IRON_SWORD
+    name: "&bKiếm Lao Công &e&lI"
+    max-durability: 2000
+    tier: UNCOMMON
+    hide-enchants: true
+    lore-format: weapon-lore
+    lore:
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Vũ khí cận chiến sắc bén của Lao Công"
+      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng sát thương"
+    attack-damage: 7.5
+    attack-speed: 1.6
+    critical-strike-chance: 5.0
+    will-break: false
+    unbreakable: false
+
+SWORD_LAO_CONG_2:
+  base:
+    material: IRON_SWORD
+    name: "&bKiếm Lao Công &e&lII"
+    max-durability: 2000
+    tier: UNCOMMON
+    hide-enchants: true
+    lore-format: weapon-lore
+    lore:
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Vũ khí cận chiến sắc bén của Lao Công"
+      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng sát thương"
+    attack-damage: 8.1
+    attack-speed: 1.6
+    critical-strike-chance: 5.5
+    will-break: false
+    unbreakable: false
+
+SWORD_LAO_CONG_3:
+  base:
+    material: IRON_SWORD
+    name: "&bKiếm Lao Công &e&lIII"
+    max-durability: 2000
+    tier: UNCOMMON
+    hide-enchants: true
+    lore-format: weapon-lore
+    lore:
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Vũ khí cận chiến sắc bén của Lao Công"
+      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng sát thương"
+    attack-damage: 8.8
+    attack-speed: 1.6
+    critical-strike-chance: 6.0
+    will-break: false
+    unbreakable: false
+
+SWORD_LAO_CONG_4:
+  base:
+    material: IRON_SWORD
+    name: "&bKiếm Lao Công &e&lIV"
+    max-durability: 2000
+    tier: UNCOMMON
+    hide-enchants: true
+    lore-format: weapon-lore
+    lore:
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Vũ khí cận chiến sắc bén của Lao Công"
+      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng sát thương"
+    attack-damage: 9.4
+    attack-speed: 1.6
+    critical-strike-chance: 6.5
+    will-break: false
+    unbreakable: false
+
+SWORD_LAO_CONG_5:
+  base:
+    material: IRON_SWORD
+    name: "&bKiếm Lao Công &e&lV"
+    max-durability: 2000
+    tier: UNCOMMON
+    hide-enchants: true
+    lore-format: weapon-lore
+    lore:
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Vũ khí cận chiến sắc bén của Lao Công"
+      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng sát thương"
+    attack-damage: 10.0
+    attack-speed: 1.6
+    critical-strike-chance: 7.0
+    will-break: false
+    unbreakable: false
+
+SWORD_THO_DAO_1:
+  base:
+    material: IRON_SWORD
+    name: "&eKiếm Thợ Đào &e&lI"
+    max-durability: 3000
+    tier: RARE
+    hide-enchants: true
+    lore-format: weapon-lore
+    lore:
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Vũ khí cận chiến sắc bén của Thợ Đào"
+      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng sát thương"
+    attack-damage: 10.5
+    attack-speed: 1.6
+    critical-strike-chance: 8.0
+    will-break: false
+    unbreakable: false
+
+SWORD_THO_DAO_2:
+  base:
+    material: IRON_SWORD
+    name: "&eKiếm Thợ Đào &e&lII"
+    max-durability: 3000
+    tier: RARE
+    hide-enchants: true
+    lore-format: weapon-lore
+    lore:
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Vũ khí cận chiến sắc bén của Thợ Đào"
+      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng sát thương"
+    attack-damage: 11.3
+    attack-speed: 1.6
+    critical-strike-chance: 8.5
+    will-break: false
+    unbreakable: false
+
+SWORD_THO_DAO_3:
+  base:
+    material: IRON_SWORD
+    name: "&eKiếm Thợ Đào &e&lIII"
+    max-durability: 3000
+    tier: RARE
+    hide-enchants: true
+    lore-format: weapon-lore
+    lore:
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Vũ khí cận chiến sắc bén của Thợ Đào"
+      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng sát thương"
+    attack-damage: 12.0
+    attack-speed: 1.6
+    critical-strike-chance: 9.0
+    will-break: false
+    unbreakable: false
+
+SWORD_THO_DAO_4:
+  base:
+    material: IRON_SWORD
+    name: "&eKiếm Thợ Đào &e&lIV"
+    max-durability: 3000
+    tier: RARE
+    hide-enchants: true
+    lore-format: weapon-lore
+    lore:
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Vũ khí cận chiến sắc bén của Thợ Đào"
+      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng sát thương"
+    attack-damage: 12.8
+    attack-speed: 1.6
+    critical-strike-chance: 9.5
+    will-break: false
+    unbreakable: false
+
+SWORD_THO_DAO_5:
+  base:
+    material: IRON_SWORD
+    name: "&eKiếm Thợ Đào &e&lV"
+    max-durability: 3000
+    tier: RARE
+    hide-enchants: true
+    lore-format: weapon-lore
+    lore:
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Vũ khí cận chiến sắc bén của Thợ Đào"
+      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng sát thương"
+    attack-damage: 13.5
+    attack-speed: 1.6
+    critical-strike-chance: 10.0
+    will-break: false
+    unbreakable: false
+
+SWORD_DOI_TRUONG_1:
+  base:
+    material: DIAMOND_SWORD
+    name: "&6Kiếm Đội Trưởng &e&lI"
+    max-durability: 4500
+    tier: VERY_RARE
+    hide-enchants: true
+    lore-format: weapon-lore
+    lore:
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Vũ khí cận chiến sắc bén của Đội Trưởng"
+      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng sát thương"
+    attack-damage: 14.0
+    attack-speed: 1.6
+    critical-strike-chance: 10.0
+    lifesteal: 1.5
+    will-break: false
+    unbreakable: false
+
+SWORD_DOI_TRUONG_2:
+  base:
+    material: DIAMOND_SWORD
+    name: "&6Kiếm Đội Trưởng &e&lII"
+    max-durability: 4500
+    tier: VERY_RARE
+    hide-enchants: true
+    lore-format: weapon-lore
+    lore:
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Vũ khí cận chiến sắc bén của Đội Trưởng"
+      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng sát thương"
+    attack-damage: 15.0
+    attack-speed: 1.6
+    critical-strike-chance: 10.5
+    lifesteal: 2.0
+    will-break: false
+    unbreakable: false
+
+SWORD_DOI_TRUONG_3:
+  base:
+    material: DIAMOND_SWORD
+    name: "&6Kiếm Đội Trưởng &e&lIII"
+    max-durability: 4500
+    tier: VERY_RARE
+    hide-enchants: true
+    lore-format: weapon-lore
+    lore:
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Vũ khí cận chiến sắc bén của Đội Trưởng"
+      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng sát thương"
+    attack-damage: 16.0
+    attack-speed: 1.6
+    critical-strike-chance: 11.0
+    lifesteal: 2.5
+    will-break: false
+    unbreakable: false
+
+SWORD_DOI_TRUONG_4:
+  base:
+    material: DIAMOND_SWORD
+    name: "&6Kiếm Đội Trưởng &e&lIV"
+    max-durability: 4500
+    tier: VERY_RARE
+    hide-enchants: true
+    lore-format: weapon-lore
+    lore:
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Vũ khí cận chiến sắc bén của Đội Trưởng"
+      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng sát thương"
+    attack-damage: 17.0
+    attack-speed: 1.6
+    critical-strike-chance: 11.5
+    lifesteal: 3.0
+    will-break: false
+    unbreakable: false
+
+SWORD_DOI_TRUONG_5:
+  base:
+    material: DIAMOND_SWORD
+    name: "&6Kiếm Đội Trưởng &e&lV"
+    max-durability: 4500
+    tier: VERY_RARE
+    hide-enchants: true
+    lore-format: weapon-lore
+    lore:
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Vũ khí cận chiến sắc bén của Đội Trưởng"
+      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng sát thương"
+    attack-damage: 18.0
+    attack-speed: 1.6
+    critical-strike-chance: 12.0
+    lifesteal: 3.5
+    will-break: false
+    unbreakable: false
+
+SWORD_PHO_QUAN_NGUC_1:
+  base:
+    material: DIAMOND_SWORD
+    name: "&cKiếm Phó Quản Ngục &e&lI"
+    max-durability: 6000
+    tier: LEGENDARY
+    hide-enchants: true
+    lore-format: weapon-lore
+    lore:
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Vũ khí cận chiến sắc bén của Phó Quản Ngục"
+      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng sát thương"
+    attack-damage: 18.5
+    attack-speed: 1.6
+    critical-strike-chance: 12.0
+    lifesteal: 2.5
+    will-break: false
+    unbreakable: false
+
+SWORD_PHO_QUAN_NGUC_2:
+  base:
+    material: DIAMOND_SWORD
+    name: "&cKiếm Phó Quản Ngục &e&lII"
+    max-durability: 6000
+    tier: LEGENDARY
+    hide-enchants: true
+    lore-format: weapon-lore
+    lore:
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Vũ khí cận chiến sắc bén của Phó Quản Ngục"
+      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng sát thương"
+    attack-damage: 19.8
+    attack-speed: 1.6
+    critical-strike-chance: 12.5
+    lifesteal: 3.0
+    will-break: false
+    unbreakable: false
+
+SWORD_PHO_QUAN_NGUC_3:
+  base:
+    material: DIAMOND_SWORD
+    name: "&cKiếm Phó Quản Ngục &e&lIII"
+    max-durability: 6000
+    tier: LEGENDARY
+    hide-enchants: true
+    lore-format: weapon-lore
+    lore:
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Vũ khí cận chiến sắc bén của Phó Quản Ngục"
+      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng sát thương"
+    attack-damage: 21.0
+    attack-speed: 1.6
+    critical-strike-chance: 13.0
+    lifesteal: 3.5
+    will-break: false
+    unbreakable: false
+
+SWORD_PHO_QUAN_NGUC_4:
+  base:
+    material: DIAMOND_SWORD
+    name: "&cKiếm Phó Quản Ngục &e&lIV"
+    max-durability: 6000
+    tier: LEGENDARY
+    hide-enchants: true
+    lore-format: weapon-lore
+    lore:
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Vũ khí cận chiến sắc bén của Phó Quản Ngục"
+      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng sát thương"
+    attack-damage: 22.3
+    attack-speed: 1.6
+    critical-strike-chance: 13.5
+    lifesteal: 4.0
+    will-break: false
+    unbreakable: false
+
+SWORD_PHO_QUAN_NGUC_5:
+  base:
+    material: DIAMOND_SWORD
+    name: "&cKiếm Phó Quản Ngục &e&lV"
+    max-durability: 6000
+    tier: LEGENDARY
+    hide-enchants: true
+    lore-format: weapon-lore
+    lore:
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Vũ khí cận chiến sắc bén của Phó Quản Ngục"
+      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng sát thương"
+    attack-damage: 23.5
+    attack-speed: 1.6
+    critical-strike-chance: 14.0
+    lifesteal: 4.5
+    will-break: false
+    unbreakable: false
+
+SWORD_QUAN_NGUC_1:
+  base:
+    material: NETHERITE_SWORD
+    name: "&dKiếm Quản Ngục &e&lI"
+    max-durability: 8000
+    tier: MYTHICAL
+    hide-enchants: true
+    lore-format: weapon-lore
+    lore:
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Vũ khí cận chiến sắc bén của Quản Ngục"
+      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng sát thương"
+    attack-damage: 24.0
+    attack-speed: 1.6
+    critical-strike-chance: 15.0
+    lifesteal: 4.0
+    will-break: false
+    unbreakable: false
+
+SWORD_QUAN_NGUC_2:
+  base:
+    material: NETHERITE_SWORD
+    name: "&dKiếm Quản Ngục &e&lII"
+    max-durability: 8000
+    tier: MYTHICAL
+    hide-enchants: true
+    lore-format: weapon-lore
+    lore:
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Vũ khí cận chiến sắc bén của Quản Ngục"
+      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng sát thương"
+    attack-damage: 25.5
+    attack-speed: 1.6
+    critical-strike-chance: 15.5
+    lifesteal: 4.5
+    will-break: false
+    unbreakable: false
+
+SWORD_QUAN_NGUC_3:
+  base:
+    material: NETHERITE_SWORD
+    name: "&dKiếm Quản Ngục &e&lIII"
+    max-durability: 8000
+    tier: MYTHICAL
+    hide-enchants: true
+    lore-format: weapon-lore
+    lore:
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Vũ khí cận chiến sắc bén của Quản Ngục"
+      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng sát thương"
+    attack-damage: 27.0
+    attack-speed: 1.6
+    critical-strike-chance: 16.0
+    lifesteal: 5.0
+    will-break: false
+    unbreakable: false
+
+SWORD_QUAN_NGUC_4:
+  base:
+    material: NETHERITE_SWORD
+    name: "&dKiếm Quản Ngục &e&lIV"
+    max-durability: 8000
+    tier: MYTHICAL
+    hide-enchants: true
+    lore-format: weapon-lore
+    lore:
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Vũ khí cận chiến sắc bén của Quản Ngục"
+      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng sát thương"
+    attack-damage: 28.5
+    attack-speed: 1.6
+    critical-strike-chance: 16.5
+    lifesteal: 5.5
+    will-break: false
+    unbreakable: false
+
+SWORD_QUAN_NGUC_5:
+  base:
+    material: NETHERITE_SWORD
+    name: "&dKiếm Quản Ngục &e&lV"
+    max-durability: 8000
+    tier: MYTHICAL
+    hide-enchants: true
+    lore-format: weapon-lore
+    lore:
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Vũ khí cận chiến sắc bén của Quản Ngục"
+      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng sát thương"
+    attack-damage: 30.0
+    attack-speed: 1.6
+    critical-strike-chance: 17.0
+    lifesteal: 6.0
+    will-break: false
+    unbreakable: false
+
+SWORD_BA_CHU_NGUC_TU_1:
+  base:
+    material: NETHERITE_SWORD
+    name: "&5Kiếm Bá Chủ Ngục Tù &e&lI"
+    max-durability: 10000
+    tier: EPIC
+    hide-enchants: true
+    lore-format: weapon-lore
+    lore:
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Vũ khí cận chiến sắc bén của Bá Chủ Ngục Tù"
+      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng sát thương"
+    attack-damage: 31.0
+    attack-speed: 1.6
+    critical-strike-chance: 18.0
+    lifesteal: 6.0
+    will-break: false
+    unbreakable: false
+
+SWORD_BA_CHU_NGUC_TU_2:
+  base:
+    material: NETHERITE_SWORD
+    name: "&5Kiếm Bá Chủ Ngục Tù &e&lII"
+    max-durability: 10000
+    tier: EPIC
+    hide-enchants: true
+    lore-format: weapon-lore
+    lore:
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Vũ khí cận chiến sắc bén của Bá Chủ Ngục Tù"
+      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng sát thương"
+    attack-damage: 32.8
+    attack-speed: 1.6
+    critical-strike-chance: 18.5
+    lifesteal: 6.5
+    will-break: false
+    unbreakable: false
+
+SWORD_BA_CHU_NGUC_TU_3:
+  base:
+    material: NETHERITE_SWORD
+    name: "&5Kiếm Bá Chủ Ngục Tù &e&lIII"
+    max-durability: 10000
+    tier: EPIC
+    hide-enchants: true
+    lore-format: weapon-lore
+    lore:
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Vũ khí cận chiến sắc bén của Bá Chủ Ngục Tù"
+      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng sát thương"
+    attack-damage: 34.5
+    attack-speed: 1.6
+    critical-strike-chance: 19.0
+    lifesteal: 7.0
+    will-break: false
+    unbreakable: false
+
+SWORD_BA_CHU_NGUC_TU_4:
+  base:
+    material: NETHERITE_SWORD
+    name: "&5Kiếm Bá Chủ Ngục Tù &e&lIV"
+    max-durability: 10000
+    tier: EPIC
+    hide-enchants: true
+    lore-format: weapon-lore
+    lore:
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Vũ khí cận chiến sắc bén của Bá Chủ Ngục Tù"
+      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng sát thương"
+    attack-damage: 36.3
+    attack-speed: 1.6
+    critical-strike-chance: 19.5
+    lifesteal: 7.5
+    will-break: false
+    unbreakable: false
+
+SWORD_BA_CHU_NGUC_TU_5:
+  base:
+    material: NETHERITE_SWORD
+    name: "&5Kiếm Bá Chủ Ngục Tù &e&lV"
+    max-durability: 10000
+    tier: EPIC
+    hide-enchants: true
+    lore-format: weapon-lore
+    lore:
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Vũ khí cận chiến sắc bén của Bá Chủ Ngục Tù"
+      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng sát thương"
+    attack-damage: 38.0
+    attack-speed: 1.6
+    critical-strike-chance: 20.0
+    lifesteal: 8.0
+    will-break: false
+    unbreakable: false
+
+SWORD_VUOT_NGUC_1:
+  base:
+    material: NETHERITE_SWORD
+    name: "&4Kiếm Vượt Ngục &e&lI"
+    max-durability: 15000
+    tier: UNIQUE
+    hide-enchants: true
+    lore-format: weapon-lore
+    lore:
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Vũ khí cận chiến sắc bén của Vượt Ngục"
+      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng sát thương"
+    attack-damage: 39.0
+    attack-speed: 1.6
+    critical-strike-chance: 20.0
+    lifesteal: 8.0
+    will-break: false
+    unbreakable: false
+
+SWORD_VUOT_NGUC_2:
+  base:
+    material: NETHERITE_SWORD
+    name: "&4Kiếm Vượt Ngục &e&lII"
+    max-durability: 15000
+    tier: UNIQUE
+    hide-enchants: true
+    lore-format: weapon-lore
+    lore:
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Vũ khí cận chiến sắc bén của Vượt Ngục"
+      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng sát thương"
+    attack-damage: 41.3
+    attack-speed: 1.6
+    critical-strike-chance: 20.5
+    lifesteal: 8.5
+    will-break: false
+    unbreakable: false
+
+SWORD_VUOT_NGUC_3:
+  base:
+    material: NETHERITE_SWORD
+    name: "&4Kiếm Vượt Ngục &e&lIII"
+    max-durability: 15000
+    tier: UNIQUE
+    hide-enchants: true
+    lore-format: weapon-lore
+    lore:
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Vũ khí cận chiến sắc bén của Vượt Ngục"
+      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng sát thương"
+    attack-damage: 43.5
+    attack-speed: 1.6
+    critical-strike-chance: 21.0
+    lifesteal: 9.0
+    will-break: false
+    unbreakable: false
+
+SWORD_VUOT_NGUC_4:
+  base:
+    material: NETHERITE_SWORD
+    name: "&4Kiếm Vượt Ngục &e&lIV"
+    max-durability: 15000
+    tier: UNIQUE
+    hide-enchants: true
+    lore-format: weapon-lore
+    lore:
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Vũ khí cận chiến sắc bén của Vượt Ngục"
+      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng sát thương"
+    attack-damage: 45.8
+    attack-speed: 1.6
+    critical-strike-chance: 21.5
+    lifesteal: 9.5
+    will-break: false
+    unbreakable: false
+
+SWORD_VUOT_NGUC_5:
+  base:
+    material: NETHERITE_SWORD
+    name: "&4Kiếm Vượt Ngục &e&lV"
+    max-durability: 15000
+    tier: UNIQUE
+    hide-enchants: true
+    lore-format: weapon-lore
+    lore:
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Vũ khí cận chiến sắc bén của Vượt Ngục"
+      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng sát thương"
+    attack-damage: 48.0
+    attack-speed: 1.6
+    critical-strike-chance: 22.0
+    lifesteal: 10.0
+    will-break: false
+    unbreakable: false
+

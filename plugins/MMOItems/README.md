@@ -8,16 +8,19 @@ Tài liệu hướng dẫn chi tiết cấu trúc item, trạm rèn, tỷ lệ x
 
 ### ⛏️ Lấy Cúp (TOOL):
 Lệnh tổng quát: `/mi give TOOL <ITEM_ID> [player] [amount]`
+* **Item ID mẫu**: `PICKAXE_TAN_BINH_1` đến `PICKAXE_VUOT_NGUC_5`
 
-* **Rank 1 (Tân Binh)**: `PICKAXE_TAN_BINH_1` đến `PICKAXE_TAN_BINH_5`
-* **Rank 2 (Tù Nhân)**: `PICKAXE_TU_NHAN_1` đến `PICKAXE_TU_NHAN_5`
-* **Rank 3 (Lao Công)**: `PICKAXE_LAO_CONG_1` đến `PICKAXE_LAO_CONG_5`
-* **Rank 4 (Thợ Đào)**: `PICKAXE_THO_DAO_1` đến `PICKAXE_THO_DAO_5`
-* **Rank 5 (Đội Trưởng)**: `PICKAXE_DOI_TRUONG_1` đến `PICKAXE_DOI_TRUONG_5`
-* **Rank 6 (Phó Quản Ngục)**: `PICKAXE_PHO_QUAN_NGUC_1` đến `PICKAXE_PHO_QUAN_NGUC_5`
-* **Rank 7 (Quản Ngục)**: `PICKAXE_QUAN_NGUC_1` đến `PICKAXE_QUAN_NGUC_5`
-* **Rank 8 (Bá Chủ Ngục Tù)**: `PICKAXE_BA_CHU_NGUC_TU_1` đến `PICKAXE_BA_CHU_NGUC_TU_5`
-* **Rank 9 (Vượt Ngục)**: `PICKAXE_VUOT_NGUC_1` đến `PICKAXE_VUOT_NGUC_5`
+### 🗡️ Lấy Kiếm (SWORD):
+Lệnh tổng quát: `/mi give SWORD <ITEM_ID> [player] [amount]`
+* **Item ID mẫu**: `SWORD_TAN_BINH_1` đến `SWORD_VUOT_NGUC_5`
+
+### 🪓 Lấy Rìu Chiến Cận Chiến (AXE):
+Lệnh tổng quát: `/mi give AXE <ITEM_ID> [player] [amount]`
+* **Item ID mẫu**: `AXE_TAN_BINH_1` đến `AXE_VUOT_NGUC_5`
+
+### 🪄 Lấy Trượng Phép (STAFF):
+Lệnh tổng quát: `/mi give STAFF <ITEM_ID> [player] [amount]`
+* **Item ID mẫu**: `STAFF_TAN_BINH_1` đến `STAFF_VUOT_NGUC_5`
 
 ---
 
@@ -283,3 +286,19 @@ Hệ thống được tách thành 3 loại NPC cho mỗi Rank để người ch
 ## ⚡ 4. Lệnh Reload MMOItems
 Sau khi chỉnh sửa bất kỳ file config nào trong MMOItems:
 * Gõ lệnh in-game: `/mi reload` (yêu cầu quyền OP hoặc `mmoitems.admin`).
+
+---
+
+## ⚙️ 5. Các Script Hỗ Trợ Tự Động (Scripts & Utilities)
+
+Tệp script tự động khởi tạo và cập nhật hàng loạt vũ khí theo 9 Rank được lưu tại:
+* 📁 **[scripts/generate_weapons.js](file:///d:/server-minecraft/plugins/MMOItems/scripts/generate_weapons.js)**
+
+### 🚀 Cách sử dụng:
+Nếu bạn muốn chỉnh sửa lại công thức tính sát thương / cấp độ vũ khí toàn bộ 135 vật phẩm (Kiếm, Rìu Chiến, Trượng Phép):
+1. Mở file [generate_weapons.js](file:///d:/server-minecraft/plugins/MMOItems/scripts/generate_weapons.js) và thay đổi công thức chỉ số trong các hàm `getSwordStats`, `getAxeStats`, `getStaffStats`.
+2. Mở Terminal tại thư mục `plugins/MMOItems` và gõ:
+   ```bash
+   node scripts/generate_weapons.js
+   ```
+3. Script sẽ tự động ghi đè và tính toán lại 3 file `item/sword.yml`, `item/axe.yml`, `item/staff.yml` lập tức.

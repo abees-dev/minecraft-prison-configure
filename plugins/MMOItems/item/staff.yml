@@ -1,0 +1,835 @@
+STAFF_TAN_BINH_1:
+  base:
+    material: STICK
+    name: "&fTrượng Phép Tân Binh &e&lI"
+    max-durability: 500
+    tier: TRASH
+    hide-enchants: true
+    lore-format: weapon-lore
+    lore:
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &d●&7 Trượng phép chứa quyền năng ma thuật ngục tù"
+      - "&7 &d●&7 Nâng cấp tại Lò Rèn để tăng sát thương phép"
+    attack-damage: 2.5
+    magic-damage: 5.0
+    mana-cost: 3
+    will-break: false
+    unbreakable: false
+
+STAFF_TAN_BINH_2:
+  base:
+    material: STICK
+    name: "&fTrượng Phép Tân Binh &e&lII"
+    max-durability: 500
+    tier: TRASH
+    hide-enchants: true
+    lore-format: weapon-lore
+    lore:
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &d●&7 Trượng phép chứa quyền năng ma thuật ngục tù"
+      - "&7 &d●&7 Nâng cấp tại Lò Rèn để tăng sát thương phép"
+    attack-damage: 2.9
+    magic-damage: 7.0
+    mana-cost: 3
+    will-break: false
+    unbreakable: false
+
+STAFF_TAN_BINH_3:
+  base:
+    material: STICK
+    name: "&fTrượng Phép Tân Binh &e&lIII"
+    max-durability: 500
+    tier: TRASH
+    hide-enchants: true
+    lore-format: weapon-lore
+    lore:
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &d●&7 Trượng phép chứa quyền năng ma thuật ngục tù"
+      - "&7 &d●&7 Nâng cấp tại Lò Rèn để tăng sát thương phép"
+    attack-damage: 3.3
+    magic-damage: 9.0
+    mana-cost: 3
+    will-break: false
+    unbreakable: false
+
+STAFF_TAN_BINH_4:
+  base:
+    material: STICK
+    name: "&fTrượng Phép Tân Binh &e&lIV"
+    max-durability: 500
+    tier: TRASH
+    hide-enchants: true
+    lore-format: weapon-lore
+    lore:
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &d●&7 Trượng phép chứa quyền năng ma thuật ngục tù"
+      - "&7 &d●&7 Nâng cấp tại Lò Rèn để tăng sát thương phép"
+    attack-damage: 3.6
+    magic-damage: 11.0
+    mana-cost: 3
+    will-break: false
+    unbreakable: false
+
+STAFF_TAN_BINH_5:
+  base:
+    material: STICK
+    name: "&fTrượng Phép Tân Binh &e&lV"
+    max-durability: 500
+    tier: TRASH
+    hide-enchants: true
+    lore-format: weapon-lore
+    lore:
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &d●&7 Trượng phép chứa quyền năng ma thuật ngục tù"
+      - "&7 &d●&7 Nâng cấp tại Lò Rèn để tăng sát thương phép"
+    attack-damage: 4.0
+    magic-damage: 13.0
+    mana-cost: 3
+    will-break: false
+    unbreakable: false
+
+STAFF_TU_NHAN_1:
+  base:
+    material: STICK
+    name: "&aTrượng Phép Tù Nhân &e&lI"
+    max-durability: 1000
+    tier: COMMON
+    hide-enchants: true
+    lore-format: weapon-lore
+    lore:
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &d●&7 Trượng phép chứa quyền năng ma thuật ngục tù"
+      - "&7 &d●&7 Nâng cấp tại Lò Rèn để tăng sát thương phép"
+    attack-damage: 4.5
+    magic-damage: 10.0
+    mana-cost: 4
+    will-break: false
+    unbreakable: false
+
+STAFF_TU_NHAN_2:
+  base:
+    material: STICK
+    name: "&aTrượng Phép Tù Nhân &e&lII"
+    max-durability: 1000
+    tier: COMMON
+    hide-enchants: true
+    lore-format: weapon-lore
+    lore:
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &d●&7 Trượng phép chứa quyền năng ma thuật ngục tù"
+      - "&7 &d●&7 Nâng cấp tại Lò Rèn để tăng sát thương phép"
+    attack-damage: 5.0
+    magic-damage: 12.0
+    mana-cost: 4
+    will-break: false
+    unbreakable: false
+
+STAFF_TU_NHAN_3:
+  base:
+    material: STICK
+    name: "&aTrượng Phép Tù Nhân &e&lIII"
+    max-durability: 1000
+    tier: COMMON
+    hide-enchants: true
+    lore-format: weapon-lore
+    lore:
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &d●&7 Trượng phép chứa quyền năng ma thuật ngục tù"
+      - "&7 &d●&7 Nâng cấp tại Lò Rèn để tăng sát thương phép"
+    attack-damage: 5.5
+    magic-damage: 14.0
+    mana-cost: 4
+    will-break: false
+    unbreakable: false
+
+STAFF_TU_NHAN_4:
+  base:
+    material: STICK
+    name: "&aTrượng Phép Tù Nhân &e&lIV"
+    max-durability: 1000
+    tier: COMMON
+    hide-enchants: true
+    lore-format: weapon-lore
+    lore:
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &d●&7 Trượng phép chứa quyền năng ma thuật ngục tù"
+      - "&7 &d●&7 Nâng cấp tại Lò Rèn để tăng sát thương phép"
+    attack-damage: 6.0
+    magic-damage: 16.0
+    mana-cost: 4
+    will-break: false
+    unbreakable: false
+
+STAFF_TU_NHAN_5:
+  base:
+    material: STICK
+    name: "&aTrượng Phép Tù Nhân &e&lV"
+    max-durability: 1000
+    tier: COMMON
+    hide-enchants: true
+    lore-format: weapon-lore
+    lore:
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &d●&7 Trượng phép chứa quyền năng ma thuật ngục tù"
+      - "&7 &d●&7 Nâng cấp tại Lò Rèn để tăng sát thương phép"
+    attack-damage: 6.5
+    magic-damage: 18.0
+    mana-cost: 4
+    will-break: false
+    unbreakable: false
+
+STAFF_LAO_CONG_1:
+  base:
+    material: BONE
+    name: "&bTrượng Phép Lao Công &e&lI"
+    max-durability: 2000
+    tier: UNCOMMON
+    hide-enchants: true
+    lore-format: weapon-lore
+    lore:
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &d●&7 Trượng phép chứa quyền năng ma thuật ngục tù"
+      - "&7 &d●&7 Nâng cấp tại Lò Rèn để tăng sát thương phép"
+    attack-damage: 7.0
+    magic-damage: 18.0
+    mana-cost: 5
+    will-break: false
+    unbreakable: false
+
+STAFF_LAO_CONG_2:
+  base:
+    material: BONE
+    name: "&bTrượng Phép Lao Công &e&lII"
+    max-durability: 2000
+    tier: UNCOMMON
+    hide-enchants: true
+    lore-format: weapon-lore
+    lore:
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &d●&7 Trượng phép chứa quyền năng ma thuật ngục tù"
+      - "&7 &d●&7 Nâng cấp tại Lò Rèn để tăng sát thương phép"
+    attack-damage: 7.6
+    magic-damage: 20.0
+    mana-cost: 5
+    will-break: false
+    unbreakable: false
+
+STAFF_LAO_CONG_3:
+  base:
+    material: BONE
+    name: "&bTrượng Phép Lao Công &e&lIII"
+    max-durability: 2000
+    tier: UNCOMMON
+    hide-enchants: true
+    lore-format: weapon-lore
+    lore:
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &d●&7 Trượng phép chứa quyền năng ma thuật ngục tù"
+      - "&7 &d●&7 Nâng cấp tại Lò Rèn để tăng sát thương phép"
+    attack-damage: 8.3
+    magic-damage: 22.0
+    mana-cost: 5
+    will-break: false
+    unbreakable: false
+
+STAFF_LAO_CONG_4:
+  base:
+    material: BONE
+    name: "&bTrượng Phép Lao Công &e&lIV"
+    max-durability: 2000
+    tier: UNCOMMON
+    hide-enchants: true
+    lore-format: weapon-lore
+    lore:
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &d●&7 Trượng phép chứa quyền năng ma thuật ngục tù"
+      - "&7 &d●&7 Nâng cấp tại Lò Rèn để tăng sát thương phép"
+    attack-damage: 8.9
+    magic-damage: 24.0
+    mana-cost: 5
+    will-break: false
+    unbreakable: false
+
+STAFF_LAO_CONG_5:
+  base:
+    material: BONE
+    name: "&bTrượng Phép Lao Công &e&lV"
+    max-durability: 2000
+    tier: UNCOMMON
+    hide-enchants: true
+    lore-format: weapon-lore
+    lore:
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &d●&7 Trượng phép chứa quyền năng ma thuật ngục tù"
+      - "&7 &d●&7 Nâng cấp tại Lò Rèn để tăng sát thương phép"
+    attack-damage: 9.5
+    magic-damage: 26.0
+    mana-cost: 5
+    will-break: false
+    unbreakable: false
+
+STAFF_THO_DAO_1:
+  base:
+    material: BONE
+    name: "&eTrượng Phép Thợ Đào &e&lI"
+    max-durability: 3000
+    tier: RARE
+    hide-enchants: true
+    lore-format: weapon-lore
+    lore:
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &d●&7 Trượng phép chứa quyền năng ma thuật ngục tù"
+      - "&7 &d●&7 Nâng cấp tại Lò Rèn để tăng sát thương phép"
+    attack-damage: 10.0
+    magic-damage: 28.0
+    mana-cost: 6
+    will-break: false
+    unbreakable: false
+
+STAFF_THO_DAO_2:
+  base:
+    material: BONE
+    name: "&eTrượng Phép Thợ Đào &e&lII"
+    max-durability: 3000
+    tier: RARE
+    hide-enchants: true
+    lore-format: weapon-lore
+    lore:
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &d●&7 Trượng phép chứa quyền năng ma thuật ngục tù"
+      - "&7 &d●&7 Nâng cấp tại Lò Rèn để tăng sát thương phép"
+    attack-damage: 10.8
+    magic-damage: 30.0
+    mana-cost: 6
+    will-break: false
+    unbreakable: false
+
+STAFF_THO_DAO_3:
+  base:
+    material: BONE
+    name: "&eTrượng Phép Thợ Đào &e&lIII"
+    max-durability: 3000
+    tier: RARE
+    hide-enchants: true
+    lore-format: weapon-lore
+    lore:
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &d●&7 Trượng phép chứa quyền năng ma thuật ngục tù"
+      - "&7 &d●&7 Nâng cấp tại Lò Rèn để tăng sát thương phép"
+    attack-damage: 11.5
+    magic-damage: 32.0
+    mana-cost: 6
+    will-break: false
+    unbreakable: false
+
+STAFF_THO_DAO_4:
+  base:
+    material: BONE
+    name: "&eTrượng Phép Thợ Đào &e&lIV"
+    max-durability: 3000
+    tier: RARE
+    hide-enchants: true
+    lore-format: weapon-lore
+    lore:
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &d●&7 Trượng phép chứa quyền năng ma thuật ngục tù"
+      - "&7 &d●&7 Nâng cấp tại Lò Rèn để tăng sát thương phép"
+    attack-damage: 12.3
+    magic-damage: 34.0
+    mana-cost: 6
+    will-break: false
+    unbreakable: false
+
+STAFF_THO_DAO_5:
+  base:
+    material: BONE
+    name: "&eTrượng Phép Thợ Đào &e&lV"
+    max-durability: 3000
+    tier: RARE
+    hide-enchants: true
+    lore-format: weapon-lore
+    lore:
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &d●&7 Trượng phép chứa quyền năng ma thuật ngục tù"
+      - "&7 &d●&7 Nâng cấp tại Lò Rèn để tăng sát thương phép"
+    attack-damage: 13.0
+    magic-damage: 36.0
+    mana-cost: 6
+    will-break: false
+    unbreakable: false
+
+STAFF_DOI_TRUONG_1:
+  base:
+    material: BLAZE_ROD
+    name: "&6Trượng Phép Đội Trưởng &e&lI"
+    max-durability: 4500
+    tier: VERY_RARE
+    hide-enchants: true
+    lore-format: weapon-lore
+    lore:
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &d●&7 Trượng phép chứa quyền năng ma thuật ngục tù"
+      - "&7 &d●&7 Nâng cấp tại Lò Rèn để tăng sát thương phép"
+    attack-damage: 13.5
+    magic-damage: 40.0
+    mana-cost: 8
+    spell-vampirism: 1.5
+    will-break: false
+    unbreakable: false
+
+STAFF_DOI_TRUONG_2:
+  base:
+    material: BLAZE_ROD
+    name: "&6Trượng Phép Đội Trưởng &e&lII"
+    max-durability: 4500
+    tier: VERY_RARE
+    hide-enchants: true
+    lore-format: weapon-lore
+    lore:
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &d●&7 Trượng phép chứa quyền năng ma thuật ngục tù"
+      - "&7 &d●&7 Nâng cấp tại Lò Rèn để tăng sát thương phép"
+    attack-damage: 14.5
+    magic-damage: 42.0
+    mana-cost: 8
+    spell-vampirism: 1.8
+    will-break: false
+    unbreakable: false
+
+STAFF_DOI_TRUONG_3:
+  base:
+    material: BLAZE_ROD
+    name: "&6Trượng Phép Đội Trưởng &e&lIII"
+    max-durability: 4500
+    tier: VERY_RARE
+    hide-enchants: true
+    lore-format: weapon-lore
+    lore:
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &d●&7 Trượng phép chứa quyền năng ma thuật ngục tù"
+      - "&7 &d●&7 Nâng cấp tại Lò Rèn để tăng sát thương phép"
+    attack-damage: 15.5
+    magic-damage: 44.0
+    mana-cost: 8
+    spell-vampirism: 2.1
+    will-break: false
+    unbreakable: false
+
+STAFF_DOI_TRUONG_4:
+  base:
+    material: BLAZE_ROD
+    name: "&6Trượng Phép Đội Trưởng &e&lIV"
+    max-durability: 4500
+    tier: VERY_RARE
+    hide-enchants: true
+    lore-format: weapon-lore
+    lore:
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &d●&7 Trượng phép chứa quyền năng ma thuật ngục tù"
+      - "&7 &d●&7 Nâng cấp tại Lò Rèn để tăng sát thương phép"
+    attack-damage: 16.5
+    magic-damage: 46.0
+    mana-cost: 8
+    spell-vampirism: 2.4
+    will-break: false
+    unbreakable: false
+
+STAFF_DOI_TRUONG_5:
+  base:
+    material: BLAZE_ROD
+    name: "&6Trượng Phép Đội Trưởng &e&lV"
+    max-durability: 4500
+    tier: VERY_RARE
+    hide-enchants: true
+    lore-format: weapon-lore
+    lore:
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &d●&7 Trượng phép chứa quyền năng ma thuật ngục tù"
+      - "&7 &d●&7 Nâng cấp tại Lò Rèn để tăng sát thương phép"
+    attack-damage: 17.5
+    magic-damage: 48.0
+    mana-cost: 8
+    spell-vampirism: 2.7
+    will-break: false
+    unbreakable: false
+
+STAFF_PHO_QUAN_NGUC_1:
+  base:
+    material: BLAZE_ROD
+    name: "&cTrượng Phép Phó Quản Ngục &e&lI"
+    max-durability: 6000
+    tier: LEGENDARY
+    hide-enchants: true
+    lore-format: weapon-lore
+    lore:
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &d●&7 Trượng phép chứa quyền năng ma thuật ngục tù"
+      - "&7 &d●&7 Nâng cấp tại Lò Rèn để tăng sát thương phép"
+    attack-damage: 18.0
+    magic-damage: 55.0
+    mana-cost: 10
+    spell-vampirism: 3.0
+    will-break: false
+    unbreakable: false
+
+STAFF_PHO_QUAN_NGUC_2:
+  base:
+    material: BLAZE_ROD
+    name: "&cTrượng Phép Phó Quản Ngục &e&lII"
+    max-durability: 6000
+    tier: LEGENDARY
+    hide-enchants: true
+    lore-format: weapon-lore
+    lore:
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &d●&7 Trượng phép chứa quyền năng ma thuật ngục tù"
+      - "&7 &d●&7 Nâng cấp tại Lò Rèn để tăng sát thương phép"
+    attack-damage: 19.3
+    magic-damage: 57.0
+    mana-cost: 10
+    spell-vampirism: 3.3
+    will-break: false
+    unbreakable: false
+
+STAFF_PHO_QUAN_NGUC_3:
+  base:
+    material: BLAZE_ROD
+    name: "&cTrượng Phép Phó Quản Ngục &e&lIII"
+    max-durability: 6000
+    tier: LEGENDARY
+    hide-enchants: true
+    lore-format: weapon-lore
+    lore:
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &d●&7 Trượng phép chứa quyền năng ma thuật ngục tù"
+      - "&7 &d●&7 Nâng cấp tại Lò Rèn để tăng sát thương phép"
+    attack-damage: 20.5
+    magic-damage: 59.0
+    mana-cost: 10
+    spell-vampirism: 3.6
+    will-break: false
+    unbreakable: false
+
+STAFF_PHO_QUAN_NGUC_4:
+  base:
+    material: BLAZE_ROD
+    name: "&cTrượng Phép Phó Quản Ngục &e&lIV"
+    max-durability: 6000
+    tier: LEGENDARY
+    hide-enchants: true
+    lore-format: weapon-lore
+    lore:
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &d●&7 Trượng phép chứa quyền năng ma thuật ngục tù"
+      - "&7 &d●&7 Nâng cấp tại Lò Rèn để tăng sát thương phép"
+    attack-damage: 21.8
+    magic-damage: 61.0
+    mana-cost: 10
+    spell-vampirism: 3.9
+    will-break: false
+    unbreakable: false
+
+STAFF_PHO_QUAN_NGUC_5:
+  base:
+    material: BLAZE_ROD
+    name: "&cTrượng Phép Phó Quản Ngục &e&lV"
+    max-durability: 6000
+    tier: LEGENDARY
+    hide-enchants: true
+    lore-format: weapon-lore
+    lore:
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &d●&7 Trượng phép chứa quyền năng ma thuật ngục tù"
+      - "&7 &d●&7 Nâng cấp tại Lò Rèn để tăng sát thương phép"
+    attack-damage: 23.0
+    magic-damage: 63.0
+    mana-cost: 10
+    spell-vampirism: 4.2
+    will-break: false
+    unbreakable: false
+
+STAFF_QUAN_NGUC_1:
+  base:
+    material: END_ROD
+    name: "&dTrượng Phép Quản Ngục &e&lI"
+    max-durability: 8000
+    tier: MYTHICAL
+    hide-enchants: true
+    lore-format: weapon-lore
+    lore:
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &d●&7 Trượng phép chứa quyền năng ma thuật ngục tù"
+      - "&7 &d●&7 Nâng cấp tại Lò Rèn để tăng sát thương phép"
+    attack-damage: 23.5
+    magic-damage: 75.0
+    mana-cost: 12
+    spell-vampirism: 4.5
+    will-break: false
+    unbreakable: false
+
+STAFF_QUAN_NGUC_2:
+  base:
+    material: END_ROD
+    name: "&dTrượng Phép Quản Ngục &e&lII"
+    max-durability: 8000
+    tier: MYTHICAL
+    hide-enchants: true
+    lore-format: weapon-lore
+    lore:
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &d●&7 Trượng phép chứa quyền năng ma thuật ngục tù"
+      - "&7 &d●&7 Nâng cấp tại Lò Rèn để tăng sát thương phép"
+    attack-damage: 25.0
+    magic-damage: 77.0
+    mana-cost: 12
+    spell-vampirism: 4.8
+    will-break: false
+    unbreakable: false
+
+STAFF_QUAN_NGUC_3:
+  base:
+    material: END_ROD
+    name: "&dTrượng Phép Quản Ngục &e&lIII"
+    max-durability: 8000
+    tier: MYTHICAL
+    hide-enchants: true
+    lore-format: weapon-lore
+    lore:
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &d●&7 Trượng phép chứa quyền năng ma thuật ngục tù"
+      - "&7 &d●&7 Nâng cấp tại Lò Rèn để tăng sát thương phép"
+    attack-damage: 26.5
+    magic-damage: 79.0
+    mana-cost: 12
+    spell-vampirism: 5.1
+    will-break: false
+    unbreakable: false
+
+STAFF_QUAN_NGUC_4:
+  base:
+    material: END_ROD
+    name: "&dTrượng Phép Quản Ngục &e&lIV"
+    max-durability: 8000
+    tier: MYTHICAL
+    hide-enchants: true
+    lore-format: weapon-lore
+    lore:
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &d●&7 Trượng phép chứa quyền năng ma thuật ngục tù"
+      - "&7 &d●&7 Nâng cấp tại Lò Rèn để tăng sát thương phép"
+    attack-damage: 28.0
+    magic-damage: 81.0
+    mana-cost: 12
+    spell-vampirism: 5.4
+    will-break: false
+    unbreakable: false
+
+STAFF_QUAN_NGUC_5:
+  base:
+    material: END_ROD
+    name: "&dTrượng Phép Quản Ngục &e&lV"
+    max-durability: 8000
+    tier: MYTHICAL
+    hide-enchants: true
+    lore-format: weapon-lore
+    lore:
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &d●&7 Trượng phép chứa quyền năng ma thuật ngục tù"
+      - "&7 &d●&7 Nâng cấp tại Lò Rèn để tăng sát thương phép"
+    attack-damage: 29.5
+    magic-damage: 83.0
+    mana-cost: 12
+    spell-vampirism: 5.7
+    will-break: false
+    unbreakable: false
+
+STAFF_BA_CHU_NGUC_TU_1:
+  base:
+    material: END_ROD
+    name: "&5Trượng Phép Bá Chủ Ngục Tù &e&lI"
+    max-durability: 10000
+    tier: EPIC
+    hide-enchants: true
+    lore-format: weapon-lore
+    lore:
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &d●&7 Trượng phép chứa quyền năng ma thuật ngục tù"
+      - "&7 &d●&7 Nâng cấp tại Lò Rèn để tăng sát thương phép"
+    attack-damage: 30.0
+    magic-damage: 100.0
+    mana-cost: 14
+    spell-vampirism: 6.0
+    will-break: false
+    unbreakable: false
+
+STAFF_BA_CHU_NGUC_TU_2:
+  base:
+    material: END_ROD
+    name: "&5Trượng Phép Bá Chủ Ngục Tù &e&lII"
+    max-durability: 10000
+    tier: EPIC
+    hide-enchants: true
+    lore-format: weapon-lore
+    lore:
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &d●&7 Trượng phép chứa quyền năng ma thuật ngục tù"
+      - "&7 &d●&7 Nâng cấp tại Lò Rèn để tăng sát thương phép"
+    attack-damage: 31.8
+    magic-damage: 102.0
+    mana-cost: 14
+    spell-vampirism: 6.3
+    will-break: false
+    unbreakable: false
+
+STAFF_BA_CHU_NGUC_TU_3:
+  base:
+    material: END_ROD
+    name: "&5Trượng Phép Bá Chủ Ngục Tù &e&lIII"
+    max-durability: 10000
+    tier: EPIC
+    hide-enchants: true
+    lore-format: weapon-lore
+    lore:
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &d●&7 Trượng phép chứa quyền năng ma thuật ngục tù"
+      - "&7 &d●&7 Nâng cấp tại Lò Rèn để tăng sát thương phép"
+    attack-damage: 33.5
+    magic-damage: 104.0
+    mana-cost: 14
+    spell-vampirism: 6.6
+    will-break: false
+    unbreakable: false
+
+STAFF_BA_CHU_NGUC_TU_4:
+  base:
+    material: END_ROD
+    name: "&5Trượng Phép Bá Chủ Ngục Tù &e&lIV"
+    max-durability: 10000
+    tier: EPIC
+    hide-enchants: true
+    lore-format: weapon-lore
+    lore:
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &d●&7 Trượng phép chứa quyền năng ma thuật ngục tù"
+      - "&7 &d●&7 Nâng cấp tại Lò Rèn để tăng sát thương phép"
+    attack-damage: 35.3
+    magic-damage: 106.0
+    mana-cost: 14
+    spell-vampirism: 6.9
+    will-break: false
+    unbreakable: false
+
+STAFF_BA_CHU_NGUC_TU_5:
+  base:
+    material: END_ROD
+    name: "&5Trượng Phép Bá Chủ Ngục Tù &e&lV"
+    max-durability: 10000
+    tier: EPIC
+    hide-enchants: true
+    lore-format: weapon-lore
+    lore:
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &d●&7 Trượng phép chứa quyền năng ma thuật ngục tù"
+      - "&7 &d●&7 Nâng cấp tại Lò Rèn để tăng sát thương phép"
+    attack-damage: 37.0
+    magic-damage: 108.0
+    mana-cost: 14
+    spell-vampirism: 7.2
+    will-break: false
+    unbreakable: false
+
+STAFF_VUOT_NGUC_1:
+  base:
+    material: END_ROD
+    name: "&4Trượng Phép Vượt Ngục &e&lI"
+    max-durability: 15000
+    tier: UNIQUE
+    hide-enchants: true
+    lore-format: weapon-lore
+    lore:
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &d●&7 Trượng phép chứa quyền năng ma thuật ngục tù"
+      - "&7 &d●&7 Nâng cấp tại Lò Rèn để tăng sát thương phép"
+    attack-damage: 38.0
+    magic-damage: 130.0
+    mana-cost: 16
+    spell-vampirism: 8.0
+    will-break: false
+    unbreakable: false
+
+STAFF_VUOT_NGUC_2:
+  base:
+    material: END_ROD
+    name: "&4Trượng Phép Vượt Ngục &e&lII"
+    max-durability: 15000
+    tier: UNIQUE
+    hide-enchants: true
+    lore-format: weapon-lore
+    lore:
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &d●&7 Trượng phép chứa quyền năng ma thuật ngục tù"
+      - "&7 &d●&7 Nâng cấp tại Lò Rèn để tăng sát thương phép"
+    attack-damage: 40.0
+    magic-damage: 132.0
+    mana-cost: 16
+    spell-vampirism: 8.3
+    will-break: false
+    unbreakable: false
+
+STAFF_VUOT_NGUC_3:
+  base:
+    material: END_ROD
+    name: "&4Trượng Phép Vượt Ngục &e&lIII"
+    max-durability: 15000
+    tier: UNIQUE
+    hide-enchants: true
+    lore-format: weapon-lore
+    lore:
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &d●&7 Trượng phép chứa quyền năng ma thuật ngục tù"
+      - "&7 &d●&7 Nâng cấp tại Lò Rèn để tăng sát thương phép"
+    attack-damage: 42.0
+    magic-damage: 134.0
+    mana-cost: 16
+    spell-vampirism: 8.6
+    will-break: false
+    unbreakable: false
+
+STAFF_VUOT_NGUC_4:
+  base:
+    material: END_ROD
+    name: "&4Trượng Phép Vượt Ngục &e&lIV"
+    max-durability: 15000
+    tier: UNIQUE
+    hide-enchants: true
+    lore-format: weapon-lore
+    lore:
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &d●&7 Trượng phép chứa quyền năng ma thuật ngục tù"
+      - "&7 &d●&7 Nâng cấp tại Lò Rèn để tăng sát thương phép"
+    attack-damage: 44.0
+    magic-damage: 136.0
+    mana-cost: 16
+    spell-vampirism: 8.9
+    will-break: false
+    unbreakable: false
+
+STAFF_VUOT_NGUC_5:
+  base:
+    material: END_ROD
+    name: "&4Trượng Phép Vượt Ngục &e&lV"
+    max-durability: 15000
+    tier: UNIQUE
+    hide-enchants: true
+    lore-format: weapon-lore
+    lore:
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &d●&7 Trượng phép chứa quyền năng ma thuật ngục tù"
+      - "&7 &d●&7 Nâng cấp tại Lò Rèn để tăng sát thương phép"
+    attack-damage: 46.0
+    magic-damage: 138.0
+    mana-cost: 16
+    spell-vampirism: 9.2
+    will-break: false
+    unbreakable: false
+

@@ -1,0 +1,835 @@
+AXE_TAN_BINH_1:
+  base:
+    material: WOODEN_AXE
+    name: "&fRìu Chiến Tân Binh &e&lI"
+    max-durability: 500
+    tier: TRASH
+    hide-enchants: true
+    lore-format: weapon-lore
+    lore:
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &c●&7 Rìu chiến hạng nặng - Chuyên cận chiến & phá giáp"
+      - "&7 &c●&7 Nâng cấp tại Lò Rèn để tăng sát thương bộc phát"
+    attack-damage: 4.0
+    attack-speed: 1
+    knockback: 0.2
+    will-break: false
+    unbreakable: false
+
+AXE_TAN_BINH_2:
+  base:
+    material: WOODEN_AXE
+    name: "&fRìu Chiến Tân Binh &e&lII"
+    max-durability: 500
+    tier: TRASH
+    hide-enchants: true
+    lore-format: weapon-lore
+    lore:
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &c●&7 Rìu chiến hạng nặng - Chuyên cận chiến & phá giáp"
+      - "&7 &c●&7 Nâng cấp tại Lò Rèn để tăng sát thương bộc phát"
+    attack-damage: 4.5
+    attack-speed: 1
+    knockback: 0.3
+    will-break: false
+    unbreakable: false
+
+AXE_TAN_BINH_3:
+  base:
+    material: WOODEN_AXE
+    name: "&fRìu Chiến Tân Binh &e&lIII"
+    max-durability: 500
+    tier: TRASH
+    hide-enchants: true
+    lore-format: weapon-lore
+    lore:
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &c●&7 Rìu chiến hạng nặng - Chuyên cận chiến & phá giáp"
+      - "&7 &c●&7 Nâng cấp tại Lò Rèn để tăng sát thương bộc phát"
+    attack-damage: 5.0
+    attack-speed: 1
+    knockback: 0.3
+    will-break: false
+    unbreakable: false
+
+AXE_TAN_BINH_4:
+  base:
+    material: WOODEN_AXE
+    name: "&fRìu Chiến Tân Binh &e&lIV"
+    max-durability: 500
+    tier: TRASH
+    hide-enchants: true
+    lore-format: weapon-lore
+    lore:
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &c●&7 Rìu chiến hạng nặng - Chuyên cận chiến & phá giáp"
+      - "&7 &c●&7 Nâng cấp tại Lò Rèn để tăng sát thương bộc phát"
+    attack-damage: 5.5
+    attack-speed: 1
+    knockback: 0.4
+    will-break: false
+    unbreakable: false
+
+AXE_TAN_BINH_5:
+  base:
+    material: WOODEN_AXE
+    name: "&fRìu Chiến Tân Binh &e&lV"
+    max-durability: 500
+    tier: TRASH
+    hide-enchants: true
+    lore-format: weapon-lore
+    lore:
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &c●&7 Rìu chiến hạng nặng - Chuyên cận chiến & phá giáp"
+      - "&7 &c●&7 Nâng cấp tại Lò Rèn để tăng sát thương bộc phát"
+    attack-damage: 6.0
+    attack-speed: 1
+    knockback: 0.4
+    will-break: false
+    unbreakable: false
+
+AXE_TU_NHAN_1:
+  base:
+    material: STONE_AXE
+    name: "&aRìu Chiến Tù Nhân &e&lI"
+    max-durability: 1000
+    tier: COMMON
+    hide-enchants: true
+    lore-format: weapon-lore
+    lore:
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &c●&7 Rìu chiến hạng nặng - Chuyên cận chiến & phá giáp"
+      - "&7 &c●&7 Nâng cấp tại Lò Rèn để tăng sát thương bộc phát"
+    attack-damage: 6.5
+    attack-speed: 1
+    knockback: 0.4
+    will-break: false
+    unbreakable: false
+
+AXE_TU_NHAN_2:
+  base:
+    material: STONE_AXE
+    name: "&aRìu Chiến Tù Nhân &e&lII"
+    max-durability: 1000
+    tier: COMMON
+    hide-enchants: true
+    lore-format: weapon-lore
+    lore:
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &c●&7 Rìu chiến hạng nặng - Chuyên cận chiến & phá giáp"
+      - "&7 &c●&7 Nâng cấp tại Lò Rèn để tăng sát thương bộc phát"
+    attack-damage: 7.1
+    attack-speed: 1
+    knockback: 0.5
+    will-break: false
+    unbreakable: false
+
+AXE_TU_NHAN_3:
+  base:
+    material: STONE_AXE
+    name: "&aRìu Chiến Tù Nhân &e&lIII"
+    max-durability: 1000
+    tier: COMMON
+    hide-enchants: true
+    lore-format: weapon-lore
+    lore:
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &c●&7 Rìu chiến hạng nặng - Chuyên cận chiến & phá giáp"
+      - "&7 &c●&7 Nâng cấp tại Lò Rèn để tăng sát thương bộc phát"
+    attack-damage: 7.8
+    attack-speed: 1
+    knockback: 0.5
+    will-break: false
+    unbreakable: false
+
+AXE_TU_NHAN_4:
+  base:
+    material: STONE_AXE
+    name: "&aRìu Chiến Tù Nhân &e&lIV"
+    max-durability: 1000
+    tier: COMMON
+    hide-enchants: true
+    lore-format: weapon-lore
+    lore:
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &c●&7 Rìu chiến hạng nặng - Chuyên cận chiến & phá giáp"
+      - "&7 &c●&7 Nâng cấp tại Lò Rèn để tăng sát thương bộc phát"
+    attack-damage: 8.4
+    attack-speed: 1
+    knockback: 0.6
+    will-break: false
+    unbreakable: false
+
+AXE_TU_NHAN_5:
+  base:
+    material: STONE_AXE
+    name: "&aRìu Chiến Tù Nhân &e&lV"
+    max-durability: 1000
+    tier: COMMON
+    hide-enchants: true
+    lore-format: weapon-lore
+    lore:
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &c●&7 Rìu chiến hạng nặng - Chuyên cận chiến & phá giáp"
+      - "&7 &c●&7 Nâng cấp tại Lò Rèn để tăng sát thương bộc phát"
+    attack-damage: 9.0
+    attack-speed: 1
+    knockback: 0.6
+    will-break: false
+    unbreakable: false
+
+AXE_LAO_CONG_1:
+  base:
+    material: IRON_AXE
+    name: "&bRìu Chiến Lao Công &e&lI"
+    max-durability: 2000
+    tier: UNCOMMON
+    hide-enchants: true
+    lore-format: weapon-lore
+    lore:
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &c●&7 Rìu chiến hạng nặng - Chuyên cận chiến & phá giáp"
+      - "&7 &c●&7 Nâng cấp tại Lò Rèn để tăng sát thương bộc phát"
+    attack-damage: 9.5
+    attack-speed: 1
+    knockback: 0.6
+    will-break: false
+    unbreakable: false
+
+AXE_LAO_CONG_2:
+  base:
+    material: IRON_AXE
+    name: "&bRìu Chiến Lao Công &e&lII"
+    max-durability: 2000
+    tier: UNCOMMON
+    hide-enchants: true
+    lore-format: weapon-lore
+    lore:
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &c●&7 Rìu chiến hạng nặng - Chuyên cận chiến & phá giáp"
+      - "&7 &c●&7 Nâng cấp tại Lò Rèn để tăng sát thương bộc phát"
+    attack-damage: 10.3
+    attack-speed: 1
+    knockback: 0.7
+    will-break: false
+    unbreakable: false
+
+AXE_LAO_CONG_3:
+  base:
+    material: IRON_AXE
+    name: "&bRìu Chiến Lao Công &e&lIII"
+    max-durability: 2000
+    tier: UNCOMMON
+    hide-enchants: true
+    lore-format: weapon-lore
+    lore:
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &c●&7 Rìu chiến hạng nặng - Chuyên cận chiến & phá giáp"
+      - "&7 &c●&7 Nâng cấp tại Lò Rèn để tăng sát thương bộc phát"
+    attack-damage: 11.0
+    attack-speed: 1
+    knockback: 0.7
+    will-break: false
+    unbreakable: false
+
+AXE_LAO_CONG_4:
+  base:
+    material: IRON_AXE
+    name: "&bRìu Chiến Lao Công &e&lIV"
+    max-durability: 2000
+    tier: UNCOMMON
+    hide-enchants: true
+    lore-format: weapon-lore
+    lore:
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &c●&7 Rìu chiến hạng nặng - Chuyên cận chiến & phá giáp"
+      - "&7 &c●&7 Nâng cấp tại Lò Rèn để tăng sát thương bộc phát"
+    attack-damage: 11.8
+    attack-speed: 1
+    knockback: 0.8
+    will-break: false
+    unbreakable: false
+
+AXE_LAO_CONG_5:
+  base:
+    material: IRON_AXE
+    name: "&bRìu Chiến Lao Công &e&lV"
+    max-durability: 2000
+    tier: UNCOMMON
+    hide-enchants: true
+    lore-format: weapon-lore
+    lore:
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &c●&7 Rìu chiến hạng nặng - Chuyên cận chiến & phá giáp"
+      - "&7 &c●&7 Nâng cấp tại Lò Rèn để tăng sát thương bộc phát"
+    attack-damage: 12.5
+    attack-speed: 1
+    knockback: 0.8
+    will-break: false
+    unbreakable: false
+
+AXE_THO_DAO_1:
+  base:
+    material: IRON_AXE
+    name: "&eRìu Chiến Thợ Đào &e&lI"
+    max-durability: 3000
+    tier: RARE
+    hide-enchants: true
+    lore-format: weapon-lore
+    lore:
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &c●&7 Rìu chiến hạng nặng - Chuyên cận chiến & phá giáp"
+      - "&7 &c●&7 Nâng cấp tại Lò Rèn để tăng sát thương bộc phát"
+    attack-damage: 13.0
+    attack-speed: 1
+    knockback: 0.8
+    will-break: false
+    unbreakable: false
+
+AXE_THO_DAO_2:
+  base:
+    material: IRON_AXE
+    name: "&eRìu Chiến Thợ Đào &e&lII"
+    max-durability: 3000
+    tier: RARE
+    hide-enchants: true
+    lore-format: weapon-lore
+    lore:
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &c●&7 Rìu chiến hạng nặng - Chuyên cận chiến & phá giáp"
+      - "&7 &c●&7 Nâng cấp tại Lò Rèn để tăng sát thương bộc phát"
+    attack-damage: 13.9
+    attack-speed: 1
+    knockback: 0.9
+    will-break: false
+    unbreakable: false
+
+AXE_THO_DAO_3:
+  base:
+    material: IRON_AXE
+    name: "&eRìu Chiến Thợ Đào &e&lIII"
+    max-durability: 3000
+    tier: RARE
+    hide-enchants: true
+    lore-format: weapon-lore
+    lore:
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &c●&7 Rìu chiến hạng nặng - Chuyên cận chiến & phá giáp"
+      - "&7 &c●&7 Nâng cấp tại Lò Rèn để tăng sát thương bộc phát"
+    attack-damage: 14.8
+    attack-speed: 1
+    knockback: 0.9
+    will-break: false
+    unbreakable: false
+
+AXE_THO_DAO_4:
+  base:
+    material: IRON_AXE
+    name: "&eRìu Chiến Thợ Đào &e&lIV"
+    max-durability: 3000
+    tier: RARE
+    hide-enchants: true
+    lore-format: weapon-lore
+    lore:
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &c●&7 Rìu chiến hạng nặng - Chuyên cận chiến & phá giáp"
+      - "&7 &c●&7 Nâng cấp tại Lò Rèn để tăng sát thương bộc phát"
+    attack-damage: 15.6
+    attack-speed: 1
+    knockback: 1.0
+    will-break: false
+    unbreakable: false
+
+AXE_THO_DAO_5:
+  base:
+    material: IRON_AXE
+    name: "&eRìu Chiến Thợ Đào &e&lV"
+    max-durability: 3000
+    tier: RARE
+    hide-enchants: true
+    lore-format: weapon-lore
+    lore:
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &c●&7 Rìu chiến hạng nặng - Chuyên cận chiến & phá giáp"
+      - "&7 &c●&7 Nâng cấp tại Lò Rèn để tăng sát thương bộc phát"
+    attack-damage: 16.5
+    attack-speed: 1
+    knockback: 1.0
+    will-break: false
+    unbreakable: false
+
+AXE_DOI_TRUONG_1:
+  base:
+    material: DIAMOND_AXE
+    name: "&6Rìu Chiến Đội Trưởng &e&lI"
+    max-durability: 4500
+    tier: VERY_RARE
+    hide-enchants: true
+    lore-format: weapon-lore
+    lore:
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &c●&7 Rìu chiến hạng nặng - Chuyên cận chiến & phá giáp"
+      - "&7 &c●&7 Nâng cấp tại Lò Rèn để tăng sát thương bộc phát"
+    attack-damage: 17.5
+    attack-speed: 1
+    knockback: 1.0
+    critical-strike-power: 10.0
+    will-break: false
+    unbreakable: false
+
+AXE_DOI_TRUONG_2:
+  base:
+    material: DIAMOND_AXE
+    name: "&6Rìu Chiến Đội Trưởng &e&lII"
+    max-durability: 4500
+    tier: VERY_RARE
+    hide-enchants: true
+    lore-format: weapon-lore
+    lore:
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &c●&7 Rìu chiến hạng nặng - Chuyên cận chiến & phá giáp"
+      - "&7 &c●&7 Nâng cấp tại Lò Rèn để tăng sát thương bộc phát"
+    attack-damage: 18.6
+    attack-speed: 1
+    knockback: 1.1
+    critical-strike-power: 11.0
+    will-break: false
+    unbreakable: false
+
+AXE_DOI_TRUONG_3:
+  base:
+    material: DIAMOND_AXE
+    name: "&6Rìu Chiến Đội Trưởng &e&lIII"
+    max-durability: 4500
+    tier: VERY_RARE
+    hide-enchants: true
+    lore-format: weapon-lore
+    lore:
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &c●&7 Rìu chiến hạng nặng - Chuyên cận chiến & phá giáp"
+      - "&7 &c●&7 Nâng cấp tại Lò Rèn để tăng sát thương bộc phát"
+    attack-damage: 19.8
+    attack-speed: 1
+    knockback: 1.1
+    critical-strike-power: 12.0
+    will-break: false
+    unbreakable: false
+
+AXE_DOI_TRUONG_4:
+  base:
+    material: DIAMOND_AXE
+    name: "&6Rìu Chiến Đội Trưởng &e&lIV"
+    max-durability: 4500
+    tier: VERY_RARE
+    hide-enchants: true
+    lore-format: weapon-lore
+    lore:
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &c●&7 Rìu chiến hạng nặng - Chuyên cận chiến & phá giáp"
+      - "&7 &c●&7 Nâng cấp tại Lò Rèn để tăng sát thương bộc phát"
+    attack-damage: 20.9
+    attack-speed: 1
+    knockback: 1.1
+    critical-strike-power: 13.0
+    will-break: false
+    unbreakable: false
+
+AXE_DOI_TRUONG_5:
+  base:
+    material: DIAMOND_AXE
+    name: "&6Rìu Chiến Đội Trưởng &e&lV"
+    max-durability: 4500
+    tier: VERY_RARE
+    hide-enchants: true
+    lore-format: weapon-lore
+    lore:
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &c●&7 Rìu chiến hạng nặng - Chuyên cận chiến & phá giáp"
+      - "&7 &c●&7 Nâng cấp tại Lò Rèn để tăng sát thương bộc phát"
+    attack-damage: 22.0
+    attack-speed: 1
+    knockback: 1.2
+    critical-strike-power: 14.0
+    will-break: false
+    unbreakable: false
+
+AXE_PHO_QUAN_NGUC_1:
+  base:
+    material: DIAMOND_AXE
+    name: "&cRìu Chiến Phó Quản Ngục &e&lI"
+    max-durability: 6000
+    tier: LEGENDARY
+    hide-enchants: true
+    lore-format: weapon-lore
+    lore:
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &c●&7 Rìu chiến hạng nặng - Chuyên cận chiến & phá giáp"
+      - "&7 &c●&7 Nâng cấp tại Lò Rèn để tăng sát thương bộc phát"
+    attack-damage: 23.0
+    attack-speed: 1
+    knockback: 1.2
+    critical-strike-power: 15.0
+    will-break: false
+    unbreakable: false
+
+AXE_PHO_QUAN_NGUC_2:
+  base:
+    material: DIAMOND_AXE
+    name: "&cRìu Chiến Phó Quản Ngục &e&lII"
+    max-durability: 6000
+    tier: LEGENDARY
+    hide-enchants: true
+    lore-format: weapon-lore
+    lore:
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &c●&7 Rìu chiến hạng nặng - Chuyên cận chiến & phá giáp"
+      - "&7 &c●&7 Nâng cấp tại Lò Rèn để tăng sát thương bộc phát"
+    attack-damage: 24.4
+    attack-speed: 1
+    knockback: 1.3
+    critical-strike-power: 16.0
+    will-break: false
+    unbreakable: false
+
+AXE_PHO_QUAN_NGUC_3:
+  base:
+    material: DIAMOND_AXE
+    name: "&cRìu Chiến Phó Quản Ngục &e&lIII"
+    max-durability: 6000
+    tier: LEGENDARY
+    hide-enchants: true
+    lore-format: weapon-lore
+    lore:
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &c●&7 Rìu chiến hạng nặng - Chuyên cận chiến & phá giáp"
+      - "&7 &c●&7 Nâng cấp tại Lò Rèn để tăng sát thương bộc phát"
+    attack-damage: 25.8
+    attack-speed: 1
+    knockback: 1.3
+    critical-strike-power: 17.0
+    will-break: false
+    unbreakable: false
+
+AXE_PHO_QUAN_NGUC_4:
+  base:
+    material: DIAMOND_AXE
+    name: "&cRìu Chiến Phó Quản Ngục &e&lIV"
+    max-durability: 6000
+    tier: LEGENDARY
+    hide-enchants: true
+    lore-format: weapon-lore
+    lore:
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &c●&7 Rìu chiến hạng nặng - Chuyên cận chiến & phá giáp"
+      - "&7 &c●&7 Nâng cấp tại Lò Rèn để tăng sát thương bộc phát"
+    attack-damage: 27.1
+    attack-speed: 1
+    knockback: 1.4
+    critical-strike-power: 18.0
+    will-break: false
+    unbreakable: false
+
+AXE_PHO_QUAN_NGUC_5:
+  base:
+    material: DIAMOND_AXE
+    name: "&cRìu Chiến Phó Quản Ngục &e&lV"
+    max-durability: 6000
+    tier: LEGENDARY
+    hide-enchants: true
+    lore-format: weapon-lore
+    lore:
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &c●&7 Rìu chiến hạng nặng - Chuyên cận chiến & phá giáp"
+      - "&7 &c●&7 Nâng cấp tại Lò Rèn để tăng sát thương bộc phát"
+    attack-damage: 28.5
+    attack-speed: 1
+    knockback: 1.4
+    critical-strike-power: 19.0
+    will-break: false
+    unbreakable: false
+
+AXE_QUAN_NGUC_1:
+  base:
+    material: NETHERITE_AXE
+    name: "&dRìu Chiến Quản Ngục &e&lI"
+    max-durability: 8000
+    tier: MYTHICAL
+    hide-enchants: true
+    lore-format: weapon-lore
+    lore:
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &c●&7 Rìu chiến hạng nặng - Chuyên cận chiến & phá giáp"
+      - "&7 &c●&7 Nâng cấp tại Lò Rèn để tăng sát thương bộc phát"
+    attack-damage: 29.0
+    attack-speed: 1
+    knockback: 1.5
+    critical-strike-power: 20.0
+    will-break: false
+    unbreakable: false
+
+AXE_QUAN_NGUC_2:
+  base:
+    material: NETHERITE_AXE
+    name: "&dRìu Chiến Quản Ngục &e&lII"
+    max-durability: 8000
+    tier: MYTHICAL
+    hide-enchants: true
+    lore-format: weapon-lore
+    lore:
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &c●&7 Rìu chiến hạng nặng - Chuyên cận chiến & phá giáp"
+      - "&7 &c●&7 Nâng cấp tại Lò Rèn để tăng sát thương bộc phát"
+    attack-damage: 30.8
+    attack-speed: 1
+    knockback: 1.6
+    critical-strike-power: 21.0
+    will-break: false
+    unbreakable: false
+
+AXE_QUAN_NGUC_3:
+  base:
+    material: NETHERITE_AXE
+    name: "&dRìu Chiến Quản Ngục &e&lIII"
+    max-durability: 8000
+    tier: MYTHICAL
+    hide-enchants: true
+    lore-format: weapon-lore
+    lore:
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &c●&7 Rìu chiến hạng nặng - Chuyên cận chiến & phá giáp"
+      - "&7 &c●&7 Nâng cấp tại Lò Rèn để tăng sát thương bộc phát"
+    attack-damage: 32.5
+    attack-speed: 1
+    knockback: 1.6
+    critical-strike-power: 22.0
+    will-break: false
+    unbreakable: false
+
+AXE_QUAN_NGUC_4:
+  base:
+    material: NETHERITE_AXE
+    name: "&dRìu Chiến Quản Ngục &e&lIV"
+    max-durability: 8000
+    tier: MYTHICAL
+    hide-enchants: true
+    lore-format: weapon-lore
+    lore:
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &c●&7 Rìu chiến hạng nặng - Chuyên cận chiến & phá giáp"
+      - "&7 &c●&7 Nâng cấp tại Lò Rèn để tăng sát thương bộc phát"
+    attack-damage: 34.3
+    attack-speed: 1
+    knockback: 1.6
+    critical-strike-power: 23.0
+    will-break: false
+    unbreakable: false
+
+AXE_QUAN_NGUC_5:
+  base:
+    material: NETHERITE_AXE
+    name: "&dRìu Chiến Quản Ngục &e&lV"
+    max-durability: 8000
+    tier: MYTHICAL
+    hide-enchants: true
+    lore-format: weapon-lore
+    lore:
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &c●&7 Rìu chiến hạng nặng - Chuyên cận chiến & phá giáp"
+      - "&7 &c●&7 Nâng cấp tại Lò Rèn để tăng sát thương bộc phát"
+    attack-damage: 36.0
+    attack-speed: 1
+    knockback: 1.7
+    critical-strike-power: 24.0
+    will-break: false
+    unbreakable: false
+
+AXE_BA_CHU_NGUC_TU_1:
+  base:
+    material: NETHERITE_AXE
+    name: "&5Rìu Chiến Bá Chủ Ngục Tù &e&lI"
+    max-durability: 10000
+    tier: EPIC
+    hide-enchants: true
+    lore-format: weapon-lore
+    lore:
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &c●&7 Rìu chiến hạng nặng - Chuyên cận chiến & phá giáp"
+      - "&7 &c●&7 Nâng cấp tại Lò Rèn để tăng sát thương bộc phát"
+    attack-damage: 37.0
+    attack-speed: 1
+    knockback: 1.8
+    critical-strike-power: 25.0
+    will-break: false
+    unbreakable: false
+
+AXE_BA_CHU_NGUC_TU_2:
+  base:
+    material: NETHERITE_AXE
+    name: "&5Rìu Chiến Bá Chủ Ngục Tù &e&lII"
+    max-durability: 10000
+    tier: EPIC
+    hide-enchants: true
+    lore-format: weapon-lore
+    lore:
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &c●&7 Rìu chiến hạng nặng - Chuyên cận chiến & phá giáp"
+      - "&7 &c●&7 Nâng cấp tại Lò Rèn để tăng sát thương bộc phát"
+    attack-damage: 39.0
+    attack-speed: 1
+    knockback: 1.9
+    critical-strike-power: 26.0
+    will-break: false
+    unbreakable: false
+
+AXE_BA_CHU_NGUC_TU_3:
+  base:
+    material: NETHERITE_AXE
+    name: "&5Rìu Chiến Bá Chủ Ngục Tù &e&lIII"
+    max-durability: 10000
+    tier: EPIC
+    hide-enchants: true
+    lore-format: weapon-lore
+    lore:
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &c●&7 Rìu chiến hạng nặng - Chuyên cận chiến & phá giáp"
+      - "&7 &c●&7 Nâng cấp tại Lò Rèn để tăng sát thương bộc phát"
+    attack-damage: 41.0
+    attack-speed: 1
+    knockback: 1.9
+    critical-strike-power: 27.0
+    will-break: false
+    unbreakable: false
+
+AXE_BA_CHU_NGUC_TU_4:
+  base:
+    material: NETHERITE_AXE
+    name: "&5Rìu Chiến Bá Chủ Ngục Tù &e&lIV"
+    max-durability: 10000
+    tier: EPIC
+    hide-enchants: true
+    lore-format: weapon-lore
+    lore:
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &c●&7 Rìu chiến hạng nặng - Chuyên cận chiến & phá giáp"
+      - "&7 &c●&7 Nâng cấp tại Lò Rèn để tăng sát thương bộc phát"
+    attack-damage: 43.0
+    attack-speed: 1
+    knockback: 2.0
+    critical-strike-power: 28.0
+    will-break: false
+    unbreakable: false
+
+AXE_BA_CHU_NGUC_TU_5:
+  base:
+    material: NETHERITE_AXE
+    name: "&5Rìu Chiến Bá Chủ Ngục Tù &e&lV"
+    max-durability: 10000
+    tier: EPIC
+    hide-enchants: true
+    lore-format: weapon-lore
+    lore:
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &c●&7 Rìu chiến hạng nặng - Chuyên cận chiến & phá giáp"
+      - "&7 &c●&7 Nâng cấp tại Lò Rèn để tăng sát thương bộc phát"
+    attack-damage: 45.0
+    attack-speed: 1
+    knockback: 2.0
+    critical-strike-power: 29.0
+    will-break: false
+    unbreakable: false
+
+AXE_VUOT_NGUC_1:
+  base:
+    material: NETHERITE_AXE
+    name: "&4Rìu Chiến Vượt Ngục &e&lI"
+    max-durability: 15000
+    tier: UNIQUE
+    hide-enchants: true
+    lore-format: weapon-lore
+    lore:
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &c●&7 Rìu chiến hạng nặng - Chuyên cận chiến & phá giáp"
+      - "&7 &c●&7 Nâng cấp tại Lò Rèn để tăng sát thương bộc phát"
+    attack-damage: 46.0
+    attack-speed: 1
+    knockback: 2.0
+    critical-strike-power: 30.0
+    will-break: false
+    unbreakable: false
+
+AXE_VUOT_NGUC_2:
+  base:
+    material: NETHERITE_AXE
+    name: "&4Rìu Chiến Vượt Ngục &e&lII"
+    max-durability: 15000
+    tier: UNIQUE
+    hide-enchants: true
+    lore-format: weapon-lore
+    lore:
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &c●&7 Rìu chiến hạng nặng - Chuyên cận chiến & phá giáp"
+      - "&7 &c●&7 Nâng cấp tại Lò Rèn để tăng sát thương bộc phát"
+    attack-damage: 48.5
+    attack-speed: 1
+    knockback: 2.0
+    critical-strike-power: 31.0
+    will-break: false
+    unbreakable: false
+
+AXE_VUOT_NGUC_3:
+  base:
+    material: NETHERITE_AXE
+    name: "&4Rìu Chiến Vượt Ngục &e&lIII"
+    max-durability: 15000
+    tier: UNIQUE
+    hide-enchants: true
+    lore-format: weapon-lore
+    lore:
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &c●&7 Rìu chiến hạng nặng - Chuyên cận chiến & phá giáp"
+      - "&7 &c●&7 Nâng cấp tại Lò Rèn để tăng sát thương bộc phát"
+    attack-damage: 51.0
+    attack-speed: 1
+    knockback: 2.1
+    critical-strike-power: 32.0
+    will-break: false
+    unbreakable: false
+
+AXE_VUOT_NGUC_4:
+  base:
+    material: NETHERITE_AXE
+    name: "&4Rìu Chiến Vượt Ngục &e&lIV"
+    max-durability: 15000
+    tier: UNIQUE
+    hide-enchants: true
+    lore-format: weapon-lore
+    lore:
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &c●&7 Rìu chiến hạng nặng - Chuyên cận chiến & phá giáp"
+      - "&7 &c●&7 Nâng cấp tại Lò Rèn để tăng sát thương bộc phát"
+    attack-damage: 53.5
+    attack-speed: 1
+    knockback: 2.1
+    critical-strike-power: 33.0
+    will-break: false
+    unbreakable: false
+
+AXE_VUOT_NGUC_5:
+  base:
+    material: NETHERITE_AXE
+    name: "&4Rìu Chiến Vượt Ngục &e&lV"
+    max-durability: 15000
+    tier: UNIQUE
+    hide-enchants: true
+    lore-format: weapon-lore
+    lore:
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &c●&7 Rìu chiến hạng nặng - Chuyên cận chiến & phá giáp"
+      - "&7 &c●&7 Nâng cấp tại Lò Rèn để tăng sát thương bộc phát"
+    attack-damage: 56.0
+    attack-speed: 1
+    knockback: 2.2
+    critical-strike-power: 34.0
+    will-break: false
+    unbreakable: false
+
