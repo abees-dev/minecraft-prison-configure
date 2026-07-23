@@ -1,19 +1,26 @@
 messages:
-  autosell_enable: <gradient:#FFFF00:#FFD700:#FFA500><bold>AUTOSELL</bold></gradient>
+  autosell_enable:
+    <gradient:#FFFF00:#FFD700:#FFA500><bold>AUTOSELL</bold></gradient>
     <dark_gray>»</dark_gray> <gray>You've <yellow><bold>ENABLED</bold> <gray>Autosell.
-  autosell_disable: <gradient:#FFFF00:#FFD700:#FFA500><bold>AUTOSELL</bold></gradient>
+  autosell_disable:
+    <gradient:#FFFF00:#FFD700:#FFA500><bold>AUTOSELL</bold></gradient>
     <dark_gray>»</dark_gray> <gray>You've <red><bold>DISABLED</bold> <gray>Autosell.
-  sell_all_complete: <gradient:#FFFF00:#FFD700:#FFA500><bold>SELLALL</bold></gradient>
+  sell_all_complete:
+    <gradient:#FFFF00:#FFD700:#FFA500><bold>SELLALL</bold></gradient>
     <dark_gray>»</dark_gray> <gray>You've sold your inventory for <yellow>%price%
-  sell_all_nothing: <gradient:#FFFF00:#FFD700:#FFA500><bold>SELLALL</bold></gradient>
+  sell_all_nothing:
+    <gradient:#FFFF00:#FFD700:#FFA500><bold>SELLALL</bold></gradient>
     <dark_gray>»</dark_gray> <red>You have nothing to sell!
-  not_in_region: '&e&l(!) &cYou must be in region to use /sellall'
-  invalid_region: '&e&l(!) &cYou have specified invalid region.'
-  no_permission_autosell_toggle: <gradient:#FFFF00:#FFD700:#FFA500><bold>AUTOSELL</bold></gradient>
+  not_in_region: "&e&l(!) &cYou must be in region to use /sellall"
+  invalid_region: "&e&l(!) &cYou have specified invalid region."
+  no_permission_autosell_toggle:
+    <gradient:#FFFF00:#FFD700:#FFA500><bold>AUTOSELL</bold></gradient>
     <dark_gray>»</dark_gray> <red>You do not have permission to toggle autosell feature!
-  no_permission_sell: '&e&l(!) &cYou do not have permission to sell in this region!
-    (%perm%)'
-  no_permission_sellall: <gradient:#FFFF00:#FFD700:#FFA500><bold>SELLALL</bold></gradient>
+  no_permission_sell:
+    "&e&l(!) &cYou do not have permission to sell in this region!
+    (%perm%)"
+  no_permission_sellall:
+    <gradient:#FFFF00:#FFD700:#FFA500><bold>SELLALL</bold></gradient>
     <dark_gray>»</dark_gray> <red>You do not have permission to use /sellall!
 # Should be autosell enabled automatically on player join?
 enable-autosell-automatically: true
@@ -32,12 +39,13 @@ inventory_full_notification:
   title:
     # Set enabled: false to fall back to the chat message below instead
     enabled: true
-    text: '&e&lInventory Full!'
-    subtitle: '&7Type /sellall to sell your inventory'
+    text: "&e&lInventory Full!"
+    subtitle: "&7Type /sellall to sell your inventory"
     fade-in: 1
     stay: 3
     fade-out: 1
-  chat: <red><bold>(!)</bold> <yellow>Your inventory is full! Type /sellall to sell
+  chat:
+    <red><bold>(!)</bold> <yellow>Your inventory is full! Type /sellall to sell
     your inventory
 # Live action bar showing earnings while auto-selling / using /sellall.
 # Earnings are batched and shown once every flush-ticks to avoid spam while mining.
@@ -74,15 +82,15 @@ per-region-sell-prices:
 # Currency this module works with (eg. Money, Tokens, Gems)
 currency: money
 global-sell-prices:
-  RAW_GOLD: '1000.0'
-  EMERALD: '8000.0'
-  LAPIS_LAZULI: '140.0'
-  REDSTONE: '270.0'
-  GOLD_NUGGET: '750.0'
-  DIAMOND: '5000.0'
-  COBBLESTONE: '25.0'
-  RAW_IRON: '400.0'
-  COAL: '150.0'
-  STONE: '50.0'
-  ANCIENT_DEBRIS: '25000.0'
-  QUARTZ: '2000.0'
+  RAW_GOLD: "1000.0"
+  EMERALD: "8000.0"
+  LAPIS_LAZULI: "140.0"
+  REDSTONE: "270.0"
+  GOLD_NUGGET: "750.0"
+  DIAMOND: "5000.0"
+  COBBLESTONE: "25.0"
+  RAW_IRON: "400.0"
+  COAL: "150.0"
+  STONE: "50.0"
+  QUARTZ: "2000.0"
+  NETHERITE_SCRAP: "25000.0"

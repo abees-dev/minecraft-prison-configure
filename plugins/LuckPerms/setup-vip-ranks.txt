@@ -1,0 +1,120 @@
+# =============================================================================
+# VIP DONOR RANK SETUP - LuckPerms command script
+# =============================================================================
+# LuckPerms on this server uses H2 database storage (see config.yml
+# storage-method: h2), so groups/permissions can't be edited by hand in a
+# yaml file - they only exist in the database. Run every line below, in
+# order, either pasted into the server CONSOLE or in-game as an op
+# (drop the leading "lp " and type "/lp ..." instead).
+#
+# This creates 6 donor ranks stacked ON TOP of the existing xprison_rank_1..9
+# prison ladder (parent ADD, not "parent set" - so players keep their prison
+# rank and their VIP tier at the same time). Each tier inherits the one
+# below it, so MVP also has every VIP perk, LEGEND has every perk, etc.
+#
+# Purchasing is done in-game via the new /viprank menu
+# (plugins/DeluxeMenus/gui_menus/vip_ranks.yml), which runs "lp user ...
+# parent add <group>" itself after taking payment - you do NOT need to run
+# the "parent add" lines per-player below, those are just for reference/testing.
+# You only need to run this script ONCE to create the groups themselves.
+# =============================================================================
+
+# --- 1. Create the 6 groups -------------------------------------------------
+lp creategroup vip
+lp creategroup vipplus
+lp creategroup mvp
+lp creategroup mvpplus
+lp creategroup elite
+lp creategroup legend
+
+# --- 2. Chain inheritance so each tier includes all lower tiers -------------
+lp group vip parent add default
+lp group vipplus parent add vip
+lp group mvp parent add vipplus
+lp group mvpplus parent add mvp
+lp group elite parent add mvpplus
+lp group legend parent add elite
+
+# --- 3. Weights (higher = takes priority for prefix/display) ---------------
+lp group vip setweight 10
+lp group vipplus setweight 20
+lp group mvp setweight 30
+lp group mvpplus setweight 40
+lp group elite setweight 50
+lp group legend setweight 60
+
+# --- 4. Prefixes (TAB + EssentialsX chat already read %luckperms-prefix%,
+#        no extra config needed - this alone makes it show in tab/chat) ----
+lp group vip meta setprefix 100 "<green><bold>[VIP]</bold></green> "
+lp group vipplus meta setprefix 100 "<dark_aqua><bold>[VIP+]</bold></dark_aqua> "
+lp group mvp meta setprefix 100 "<aqua><bold>[MVP]</bold></aqua> "
+lp group mvpplus meta setprefix 100 "<light_purple><bold>[MVP+]</bold></light_purple> "
+lp group elite meta setprefix 100 "<gold><bold>[ELITE]</bold></gold> "
+lp group legend meta setprefix 100 "<gradient:#FF5555:#FFD700><bold>[LEGEND]</bold></gradient> "
+
+# --- 5. Perks - VIP (tier 1) -------------------------------------------------
+lp group vip permission set essentials.fly true
+lp group vip permission set essentials.sethome.multiple true
+lp group vip permission set essentials.sethome.multiple.vip true
+lp group vip permission set essentials.kits.vip true
+lp group vip permission set essentials.workbench true
+lp group vip permission set essentials.hat true
+lp group vip permission set playervaults.amount.3 true
+
+# --- 6. Perks - VIP+ (tier 2, adds on top of VIP) ---------------------------
+lp group vipplus permission set essentials.sethome.multiple.vipplus true
+lp group vipplus permission set essentials.kits.vipplus true
+lp group vipplus permission set essentials.enderchest true
+lp group vipplus permission set essentials.color true
+lp group vipplus permission set playervaults.amount.4 true
+
+# --- 7. Perks - MVP (tier 3, adds on top of VIP+) ---------------------------
+lp group mvp permission set essentials.sethome.multiple.mvp true
+lp group mvp permission set essentials.kits.mvp true
+lp group mvp permission set essentials.heal true
+lp group mvp permission set essentials.feed true
+lp group mvp permission set xprison.fly.keep true
+lp group mvp permission set playervaults.amount.5 true
+
+# --- 8. Perks - MVP+ (tier 4, adds on top of MVP) ---------------------------
+lp group mvpplus permission set essentials.sethome.multiple.mvpplus true
+lp group mvpplus permission set essentials.kits.mvpplus true
+lp group mvpplus permission set essentials.nick true
+lp group mvpplus permission set essentials.repair true
+lp group mvpplus permission set playervaults.amount.6 true
+
+# --- 9. Perks - ELITE (tier 5, adds on top of MVP+) -------------------------
+lp group elite permission set essentials.sethome.multiple.elite true
+lp group elite permission set essentials.kits.elite true
+lp group elite permission set essentials.speed true
+lp group elite permission set xprison.battlepass.premium true
+lp group elite permission set playervaults.amount.8 true
+
+# --- 10. Perks - LEGEND (tier 6, adds on top of ELITE, the "fun" tier) -----
+lp group legend permission set essentials.sethome.multiple.legend true
+lp group legend permission set essentials.kits.legend true
+lp group legend permission set libsdisguises.seecmd.disguise true
+lp group legend permission set libsdisguises.seecmd.undisguise true
+lp group legend permission set disguise.* true
+lp group legend permission set playervaults.amount.10 true
+
+# --- 11. Optional: put the 6 groups on a track (mirrors the existing
+#         "prision_ranks" track already created for xprison_rank_1..9) -----
+lp createtrack vip_donors
+lp track vip_donors append vip
+lp track vip_donors append vipplus
+lp track vip_donors append mvp
+lp track vip_donors append mvpplus
+lp track vip_donors append elite
+lp track vip_donors append legend
+
+# =============================================================================
+# Manual grant/revoke reference (what the /viprank menu runs automatically):
+#   lp user <player> parent add vip
+#   lp user <player> parent add vipplus
+#   lp user <player> parent add mvp
+#   lp user <player> parent add mvpplus
+#   lp user <player> parent add elite
+#   lp user <player> parent add legend
+#   lp user <player> parent remove <group>      (to revoke a tier)
+# =============================================================================

@@ -12,3 +12,5 @@ gui_menus:
     file: advanced_menu.yml
   requirements_menu:
     file: requirements_menu.yml
+  vip_ranks:
+    file: vip_ranks.yml

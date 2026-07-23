@@ -1,0 +1,79 @@
+pages:
+  page1:
+    items:
+      '1':
+        material: TORCH
+        buy: 5
+        sell: 1.25
+      '2':
+        material: LADDER
+        buy: 8
+        sell: 2
+      '3':
+        material: WATER_BUCKET
+        buy: 50
+        sell: 12.5
+      '4':
+        material: LAVA_BUCKET
+        buy: 60
+        sell: 15
+      '5':
+        material: ENDER_PEARL
+        buy: 200
+        sell: 50
+      '6':
+        material: STRING
+        buy: 10
+        sell: 2.5
+      '7':
+        material: ARROW
+        buy: 5
+        sell: 1.25
+      '8':
+        material: BONE
+        buy: 8
+        sell: 2
+      '9':
+        material: LEAD
+        buy: 30
+        sell: 7.5
+      '10':
+        material: NAME_TAG
+        buy: 100
+        sell: 25
+      '11':
+        material: FLINT_AND_STEEL
+        buy: 40
+        sell: 10
+      '12':
+        material: TNT
+        buy: 150
+        sell: -1
+      '13':
+        material: BOOK
+        buy: 15
+        sell: 3.75
+      '14':
+        material: GLASS
+        buy: 5
+        sell: 1.25
+      '15':
+        material: GLASS_BOTTLE
+        buy: 8
+        sell: 2
+      '16':
+        material: FIREWORK_ROCKET
+        buy: 20
+        sell: 5
+      '17':
+        material: SADDLE
+        buy: 250
+        sell: 62.5
+      '18':
+        material: CHEST
+        buy: 30
+        sell: 7.5
+      '19':
+        material: BOOKSHELF
+        buy: 100
+        sell: 25

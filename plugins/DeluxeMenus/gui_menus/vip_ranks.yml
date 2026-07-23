@@ -1,0 +1,343 @@
+#  VIP Donor Ranks - purchase menu
+#  Opens with /viprank (or /vipranks, /vip)
+#  Sells the 6 LuckPerms donor groups created by
+#  plugins/LuckPerms/setup-vip-ranks.txt (vip, vipplus, mvp, mvpplus, elite, legend).
+#  Each purchase takes money via Vault ("eco take", requires any Vault-hooked
+#  economy plugin, e.g. EssentialsX) then grants the group with
+#  "lp user <player> parent add <group>" - tiers stack, a player can own several.
+#
+#  Deliberately Vault-based (not X-Prison's own internal money/tokens/gems
+#  currency) so this menu is portable to any server that has Vault + an
+#  economy plugin, without depending on X-Prison being installed at all.
+#  Note: this means the VIP price is paid from the player's Vault/Essentials
+#  balance, which is separate from whatever X-Prison currency they mine/earn.
+#=========================================================
+menu_title: '&8> &6&l⭐ &eVIP DONOR RANKS &6&l⭐'
+open_command:
+  - viprank
+  - vipranks
+  - vip
+open_commands:
+  - '[sound] BLOCK_NOTE_BLOCK_CHIME'
+size: 27
+items:
+  'info':
+    material: BOOK
+    slot: 4
+    priority: 1
+    hide_attributes: true
+    display_name: '&e&lVIP Donor Ranks'
+    lore:
+      - '&7Mua rank donor để nhận thêm quyền lợi:'
+      - '&7fly, home, kit riêng, vault, và nhiều hơn.'
+      - ''
+      - '&7Các rank có thể mua độc lập, không'
+      - '&7cần mua theo thứ tự từ thấp đến cao.'
+      - ''
+      - '&7Lưu ý: mua 1 hạng cao sẽ tự động bao'
+      - '&7gồm toàn bộ quyền lợi của các hạng thấp'
+      - '&7hơn - nên các hạng dưới cũng hiện'
+      - '&7"Đã sở hữu" là bình thường.'
+
+  # ---------------- VIP ----------------
+  'vip_owned':
+    material: EMERALD
+    slot: 10
+    priority: 1
+    hide_attributes: true
+    display_name: '&a&lVIP &7(&aĐã sở hữu&7)'
+    lore:
+      - '&7Quyền lợi của hạng này:'
+      - '&8- &7/fly, 5 /home, kit &avip'
+      - '&8- &7Workbench di động, /hat'
+      - ''
+      - '&a✔ Bạn đã có đủ quyền lợi hạng này.'
+    view_requirement:
+      requirements:
+        owns_vip:
+          type: has permission
+          permission: group.vip
+  'vip_buy':
+    material: EMERALD
+    slot: 10
+    priority: 2
+    hide_attributes: true
+    display_name: '&a&lVIP'
+    lore:
+      - '&7Quyền lợi:'
+      - '&8- &7/fly, 5 /home, kit &avip'
+      - '&8- &7Workbench di động, /hat'
+      - ''
+      - '&7Giá: &f15,000,000 &7money'
+      - '&eClick để mua!'
+    left_click_requirement:
+      requirements:
+        balance_check:
+          type: has money
+          amount: 15000000
+          deny_commands:
+            - "[message] &c&lVIP &7» Bạn không đủ tiền! Cần &f15,000,000 &7money."
+    left_click_commands:
+      - '[sound] ENTITY_PLAYER_LEVELUP'
+      - '[console] eco take %player_name% 15000000'
+      - '[console] lp user %player_name% parent add vip'
+      - '[message] &a&lVIP &7» Chúc mừng, bạn đã mua rank &a&lVIP&7!'
+      - '[close]'
+
+  # ---------------- VIP+ ----------------
+  'vipplus_owned':
+    material: DIAMOND
+    slot: 11
+    priority: 1
+    hide_attributes: true
+    display_name: '&b&lVIP+ &7(&aĐã sở hữu&7)'
+    lore:
+      - '&7Quyền lợi của hạng này (đã bao gồm VIP):'
+      - '&8- &77 /home, kit &bvip+'
+      - '&8- &7Enderchest di động, chat màu'
+      - ''
+      - '&a✔ Bạn đã có đủ quyền lợi hạng này.'
+    view_requirement:
+      requirements:
+        owns_vipplus:
+          type: has permission
+          permission: group.vipplus
+  'vipplus_buy':
+    material: DIAMOND
+    slot: 11
+    priority: 2
+    hide_attributes: true
+    display_name: '&b&lVIP+'
+    lore:
+      - '&7Kèm toàn bộ quyền lợi &aVIP&7, cộng thêm:'
+      - '&8- &77 /home, kit &bvip+'
+      - '&8- &7Enderchest di động, chat màu'
+      - ''
+      - '&7Giá: &f40,000,000 &7money'
+      - '&eClick để mua!'
+    left_click_requirement:
+      requirements:
+        balance_check:
+          type: has money
+          amount: 40000000
+          deny_commands:
+            - "[message] &c&lVIP+ &7» Bạn không đủ tiền! Cần &f40,000,000 &7money."
+    left_click_commands:
+      - '[sound] ENTITY_PLAYER_LEVELUP'
+      - '[console] eco take %player_name% 40000000'
+      - '[console] lp user %player_name% parent add vipplus'
+      - '[message] &b&lVIP+ &7» Chúc mừng, bạn đã mua rank &b&lVIP+&7!'
+      - '[close]'
+
+  # ---------------- MVP ----------------
+  'mvp_owned':
+    material: DIAMOND_BLOCK
+    slot: 12
+    priority: 1
+    hide_attributes: true
+    display_name: '&d&lMVP &7(&aĐã sở hữu&7)'
+    lore:
+      - '&7Quyền lợi của hạng này (đã bao gồm VIP+):'
+      - '&8- &79 /home, kit &dmvp'
+      - '&8- &7/heal, /feed, giữ fly khi chết'
+      - ''
+      - '&a✔ Bạn đã có đủ quyền lợi hạng này.'
+    view_requirement:
+      requirements:
+        owns_mvp:
+          type: has permission
+          permission: group.mvp
+  'mvp_buy':
+    material: DIAMOND_BLOCK
+    slot: 12
+    priority: 2
+    hide_attributes: true
+    display_name: '&d&lMVP'
+    lore:
+      - '&7Kèm toàn bộ quyền lợi &bVIP+&7, cộng thêm:'
+      - '&8- &79 /home, kit &dmvp'
+      - '&8- &7/heal, /feed, giữ fly khi chết'
+      - ''
+      - '&7Giá: &f90,000,000 &7money'
+      - '&eClick để mua!'
+    left_click_requirement:
+      requirements:
+        balance_check:
+          type: has money
+          amount: 90000000
+          deny_commands:
+            - "[message] &c&lMVP &7» Bạn không đủ tiền! Cần &f90,000,000 &7money."
+    left_click_commands:
+      - '[sound] ENTITY_PLAYER_LEVELUP'
+      - '[console] eco take %player_name% 90000000'
+      - '[console] lp user %player_name% parent add mvp'
+      - '[message] &d&lMVP &7» Chúc mừng, bạn đã mua rank &d&lMVP&7!'
+      - '[close]'
+
+  # ---------------- MVP+ ----------------
+  'mvpplus_owned':
+    material: BEACON
+    slot: 13
+    priority: 1
+    hide_attributes: true
+    display_name: '&5&lMVP+ &7(&aĐã sở hữu&7)'
+    lore:
+      - '&7Quyền lợi của hạng này (đã bao gồm MVP):'
+      - '&8- &711 /home, kit &5mvp+'
+      - '&8- &7/nick, /repair'
+      - ''
+      - '&a✔ Bạn đã có đủ quyền lợi hạng này.'
+    view_requirement:
+      requirements:
+        owns_mvpplus:
+          type: has permission
+          permission: group.mvpplus
+  'mvpplus_buy':
+    material: BEACON
+    slot: 13
+    priority: 2
+    hide_attributes: true
+    display_name: '&5&lMVP+'
+    lore:
+      - '&7Kèm toàn bộ quyền lợi &dMVP&7, cộng thêm:'
+      - '&8- &711 /home, kit &5mvp+'
+      - '&8- &7/nick, /repair'
+      - ''
+      - '&7Giá: &f180,000,000 &7money'
+      - '&eClick để mua!'
+    left_click_requirement:
+      requirements:
+        balance_check:
+          type: has money
+          amount: 180000000
+          deny_commands:
+            - "[message] &c&lMVP+ &7» Bạn không đủ tiền! Cần &f180,000,000 &7money."
+    left_click_commands:
+      - '[sound] ENTITY_PLAYER_LEVELUP'
+      - '[console] eco take %player_name% 180000000'
+      - '[console] lp user %player_name% parent add mvpplus'
+      - '[message] &5&lMVP+ &7» Chúc mừng, bạn đã mua rank &5&lMVP+&7!'
+      - '[close]'
+
+  # ---------------- ELITE ----------------
+  'elite_owned':
+    material: ENCHANTED_GOLDEN_APPLE
+    slot: 14
+    priority: 1
+    hide_attributes: true
+    display_name: '&6&lELITE &7(&aĐã sở hữu&7)'
+    lore:
+      - '&7Quyền lợi của hạng này (đã bao gồm MVP+):'
+      - '&8- &713 /home, kit &6elite'
+      - '&8- &7/speed, BattlePass Premium'
+      - ''
+      - '&a✔ Bạn đã có đủ quyền lợi hạng này.'
+    view_requirement:
+      requirements:
+        owns_elite:
+          type: has permission
+          permission: group.elite
+  'elite_buy':
+    material: ENCHANTED_GOLDEN_APPLE
+    slot: 14
+    priority: 2
+    hide_attributes: true
+    display_name: '&6&lELITE'
+    lore:
+      - '&7Kèm toàn bộ quyền lợi &5MVP+&7, cộng thêm:'
+      - '&8- &713 /home, kit &6elite'
+      - '&8- &7/speed, BattlePass Premium'
+      - ''
+      - '&7Giá: &f350,000,000 &7money'
+      - '&eClick để mua!'
+    left_click_requirement:
+      requirements:
+        balance_check:
+          type: has money
+          amount: 350000000
+          deny_commands:
+            - "[message] &c&lELITE &7» Bạn không đủ tiền! Cần &f350,000,000 &7money."
+    left_click_commands:
+      - '[sound] ENTITY_PLAYER_LEVELUP'
+      - '[console] eco take %player_name% 350000000'
+      - '[console] lp user %player_name% parent add elite'
+      - '[message] &6&lELITE &7» Chúc mừng, bạn đã mua rank &6&lELITE&7!'
+      - '[close]'
+
+  # ---------------- LEGEND ----------------
+  'legend_owned':
+    material: NETHERITE_BLOCK
+    slot: 15
+    priority: 1
+    hide_attributes: true
+    display_name: '&c&lLEGEND &7(&aĐã sở hữu&7)'
+    lore:
+      - '&7Quyền lợi của hạng này (đã bao gồm ELITE):'
+      - '&8- &715 /home, kit &clegend'
+      - '&8- &7Disguise (/disguise)'
+      - ''
+      - '&a✔ Bạn đã có đủ quyền lợi hạng cao nhất.'
+    view_requirement:
+      requirements:
+        owns_legend:
+          type: has permission
+          permission: group.legend
+  'legend_buy':
+    material: NETHERITE_BLOCK
+    slot: 15
+    priority: 2
+    hide_attributes: true
+    display_name: '&c&lLEGEND'
+    lore:
+      - '&7Kèm toàn bộ quyền lợi &6ELITE&7, cộng thêm:'
+      - '&8- &715 /home, kit &clegend'
+      - '&8- &7Disguise (/disguise)'
+      - ''
+      - '&7Giá: &f750,000,000 &7money'
+      - '&eClick để mua!'
+    left_click_requirement:
+      requirements:
+        balance_check:
+          type: has money
+          amount: 750000000
+          deny_commands:
+            - "[message] &c&lLEGEND &7» Bạn không đủ tiền! Cần &f750,000,000 &7money."
+    left_click_commands:
+      - '[sound] ENTITY_PLAYER_LEVELUP'
+      - '[console] eco take %player_name% 750000000'
+      - '[console] lp user %player_name% parent add legend'
+      - '[message] &c&lLEGEND &7» Chúc mừng, bạn đã mua rank &c&lLEGEND&7!'
+      - '[close]'
+
+  'close':
+    material: BARRIER
+    slot: 22
+    priority: 1
+    hide_attributes: true
+    display_name: '&c&lĐóng'
+    left_click_commands:
+      - '[close]'
+
+  'filler_item':
+    material: GRAY_STAINED_GLASS_PANE
+    slots:
+      - 0
+      - 1
+      - 2
+      - 3
+      - 5
+      - 6
+      - 7
+      - 8
+      - 9
+      - 16
+      - 17
+      - 18
+      - 19
+      - 20
+      - 21
+      - 23
+      - 24
+      - 25
+      - 26
+    display_name: ' '

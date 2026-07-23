@@ -30,8 +30,8 @@ number-format:
 # natural   <-> non-elemental damage
 # elemental <-> fire/water/.. damage
 defense-application:
-  natural: '#damage# - #defense#'
-  elemental: '#damage# * (1 - (#defense# / (5 * #damage# + #defense#)))'
+  natural: "#damage# - #defense#"
+  elemental: "#damage# * (1 - (#defense# / (5 * #damage# + #defense#)))"
 
 # Allows to scale health up/down to a specific
 # amount so extra health does not fill up the screen.
@@ -81,22 +81,20 @@ casting-delay:
 
   bossbar: # Displayed during casting delay
     enabled: true
-    format: 'CASTING'
+    format: "CASTING"
 
 # Default and max. values of armor stats. These systems
 # all have a cooldown which can be reduced using the
 # '*** Cooldown Reduction' item stat.
 mitigation:
-
   # Edit mitigation messages here. Leave to blank for no message.
   message:
-
     # Whether or not they should display on action bar instead of chat
     action-bar: true
 
-    parry: '&cYou just parried #damage# damage.'
-    block: '&cYou just blocked #damage# damage.' # Use #power# to display block power.
-    dodge: '&cYou just dodged #damage# damage.'
+    parry: "&cYou just parried #damage# damage."
+    block: "&cYou just blocked #damage# damage." # Use #power# to display block power.
+    dodge: "&cYou just dodged #damage# damage."
 
   block:
     cooldown: 5.0
@@ -118,50 +116,49 @@ mitigation:
 # - Holograms
 # - TrHologram
 game-indicators:
-
   # When an entity is being damaged
   # Use format: 'ᜌ{icon} &f{value}ᜌ' along with the resource pack
   # provided in the wiki in order to remove the gray background
   damage:
-    enabled: true
-    decimal-format: '0.#'
-    format: '{icon} &f{value}'
+    enabled: false
+    decimal-format: "0.#"
+    format: "{icon} &f{value}"
     custom-font:
       enabled: false
       normal:
-        '0': 'ᜀ'
-        '1': 'ᜁ'
-        '2': 'ᜂ'
-        '3': 'ᜃ'
-        '4': 'ᜄ'
-        '5': 'ᜅ'
-        '6': 'ᜆ'
-        '7': 'ᜇ'
-        '8': 'ᜈ'
-        '9': 'ᜉ'
-        'dot': 'ᜊ'
-        'inter': 'ᜍ'
+        "0": "ᜀ"
+        "1": "ᜁ"
+        "2": "ᜂ"
+        "3": "ᜃ"
+        "4": "ᜄ"
+        "5": "ᜅ"
+        "6": "ᜆ"
+        "7": "ᜇ"
+        "8": "ᜈ"
+        "9": "ᜉ"
+        "dot": "ᜊ"
+        "inter": "ᜍ"
       crit:
-        '0': 'ᜐ'
-        '1': 'ᜑ'
-        '2': 'ᜒ'
-        '3': 'ᜓ'
-        '4': '᜔'
-        '5': '᜕'
-        '6': '᜖'
-        '7': '᜗'
-        '8': '᜘'
-        '9': '᜙'
-        'dot': 'ᜋ'
-        'inter': 'ᜍ'
+        "0": "ᜐ"
+        "1": "ᜑ"
+        "2": "ᜒ"
+        "3": "ᜓ"
+        "4": "᜔"
+        "5": "᜕"
+        "6": "᜖"
+        "7": "᜗"
+        "8": "᜘"
+        "9": "᜙"
+        "dot": "ᜋ"
+        "inter": "ᜍ"
     icon:
       weapon:
-        normal: '&c🗡'
-        crit: '&c&l🗡'
+        normal: "&c🗡"
+        crit: "&c&l🗡"
       skill:
-        normal: '&6★'
-        crit: '&6&l★'
-    split-holograms: true
+        normal: "&6★"
+        crit: "&6&l★"
+    split-holograms: false
     radial-velocity: 1
     gravity: 1
     initial-upward-velocity: 1
@@ -171,8 +168,8 @@ game-indicators:
   # When an entity regens some health
   regen:
     enabled: false
-    decimal-format: '0.#'
-    format: '&a+#'
+    decimal-format: "0.#"
+    format: "&a+#"
     radial-velocity: 1
     gravity: 1
     initial-upward-velocity: 1
@@ -207,7 +204,6 @@ fix-too-large-packets: false
 # More info available on the wiki
 # https://gitlab.com/phoenix-dvpmt/mmocore/-/wikis/Combat
 interaction_rules:
-
   # When enabled, apply PvP interaction rules for skills, melee and projectile hits.
   # This option is toggled off by default to reduce confusion for new users.
   enabled: true
@@ -218,7 +214,6 @@ interaction_rules:
 
   # When PvP is turned off
   pvp_off:
-
     # Ability to heal other players when PvP is off
     support:
       party_member: true
@@ -229,7 +224,6 @@ interaction_rules:
 
   ## When PvP is turned on
   pvp_on:
-
     # Ability to heal other players when PvP is on
     support:
       party_member: true

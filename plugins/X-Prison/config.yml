@@ -22,18 +22,18 @@ feedback:
 #   QT = 10^21, S = 10^24, SP = 10^27, O = 10^30, N = 10^33, D = 10^36
 number-format:
   suffixes:
-    - k
-    - M
-    - B
-    - T
-    - q
-    - Q
-    - QT
-    - S
-    - SP
-    - O
-    - N
-    - D
+  - k
+  - M
+  - B
+  - T
+  - q
+  - Q
+  - QT
+  - S
+  - SP
+  - O
+  - N
+  - D
 # Should plugin send your server data to bStats ? (https://bstats.org/)
 enable-metrics: false
 # Database type (H2, SQLite, MySQL)
@@ -65,36 +65,35 @@ connection_properties:
   character_encoding: utf8
 # Enabling / Disabling of specific modules
 modules:
-  currencies: true
+  currencies: false
   blocks: true
   ranks: true
   prestiges: true
   rebirths: true
-  multipliers: true
-  enchants: true
-  autosell: true
+  multipliers: false
+  enchants: false
+  autosell: false
   autominer: true
-  pickaxe_levels: true
-  pickaxe_skins: true
-  gangs: true
+  pickaxe_levels: false
+  pickaxe_skins: false
+  gangs: false
   mines: true
   bombs: true
   history: true
-  mining_stats: true
-  battlepass: true
-  quests: true
-  dailyrewards: true
+  mining_stats: false
+  battlepass: false
+  quests: false
+  dailyrewards: false
 # List of supported pickaxes by UPC Enchants
 supported-pickaxes:
-  - DIAMOND_PICKAXE
+- DIAMOND_PICKAXE
 # Aliases for main command
 main-command-aliases:
-  - xprison
-  - prison
+- xprison
+- prison
 # Plugin prefix, usable via PAPI %xprison_prefix%, can be used across all messages
-prefix:
-  "<dark_gray>[</dark_gray><gradient:#f7b733:#fc4a1a><bold>X-PRISON</bold></gradient><dark_gray>]</dark_gray>
-  <gray>»</gray> "
+prefix: '<dark_gray>[</dark_gray><gradient:#f7b733:#fc4a1a><bold>X-PRISON</bold></gradient><dark_gray>]</dark_gray>
+  <gray>»</gray> '
 # How often (in minutes) all online player data is saved to the database as a safety checkpoint.
 # Set to 0 to disable the periodic save entirely.
 player-data-save-interval: 5

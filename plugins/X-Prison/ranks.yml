@@ -37,42 +37,42 @@ Ranks:
       - lp user %player% parent set xprison_rank_1
   '2':
     Prefix: <gray><bold>[Tù Nhân]</bold></gray>
-    Cost: 50000
+    Cost: 85000
     CMD:
       - lp user %player% parent set xprison_rank_2
   '3':
     Prefix: <green><bold>[Lao Công]</bold></green>
-    Cost: 250000
+    Cost: 290000
     CMD:
       - lp user %player% parent set xprison_rank_3
   '4':
     Prefix: <dark_green><bold>[Thợ Đào]</bold></dark_green>
-    Cost: 1000000
+    Cost: 1075000
     CMD:
       - lp user %player% parent set xprison_rank_4
   '5':
     Prefix: <aqua><bold>[Đội Trưởng]</bold></aqua>
-    Cost: 5000000
+    Cost: 5400000
     CMD:
       - lp user %player% parent set xprison_rank_5
   '6':
     Prefix: <blue><bold>[Phó Quản Ngục]</bold></blue>
-    Cost: 20000000
+    Cost: 21700000
     CMD:
       - lp user %player% parent set xprison_rank_6
   '7':
     Prefix: <light_purple><bold>[Quản Ngục]</bold></light_purple>
-    Cost: 100000000
+    Cost: 32000000
     CMD:
       - lp user %player% parent set xprison_rank_7
   '8':
     Prefix: <gold><bold>[Bá Chủ Ngục Tù]</bold></gold>
-    Cost: 500000000
+    Cost: 43500000
     CMD:
       - lp user %player% parent set xprison_rank_8
   '9':
     Prefix: <red><bold>[Vượt Ngục]</bold></red>
-    Cost: 2000000000
+    Cost: 64500000
     CMD:
       - lp user %player% parent set xprison_rank_9
 
@@ -82,68 +82,94 @@ Ranks:
 # viewing player's progress: owned (already passed), current (their rank),
 # next (the rank they can buy - clicking it ranks up), locked (further away).
 # Placeholders for rank items: %id%, %prefix% / %rank%, %cost%, %currency%
+# (these are the only placeholders X-Prison's ranks GUI supports - the perk
+# lines below are intentionally generic/static since per-rank custom lore
+# isn't supported by the plugin, only the shared templates below)
 # ---------------------------------------------------------------------------
 gui:
-  title: '<gradient:#FFD700:#FFA500><bold>RANKS</bold></gradient>'
+  title: '<gradient:#FFD700:#FFA500><bold>⛏ RANKS ⛏</bold></gradient>'
   rows: 6
-  filler: BLACK_STAINED_GLASS_PANE
-  # Slots where ranks are placed (one page). Add/remove slots to resize.
-  rank-slots: [10, 11, 12, 13, 14, 15, 16, 19, 20, 21, 22, 23, 24, 25, 28, 29, 30, 31, 32, 33, 34]
+  filler: GRAY_STAINED_GLASS_PANE
+  # Centered 3x3 ladder layout - one slot per existing rank (1-9).
+  # Add more slots here if you add more ranks; the GUI paginates automatically.
+  rank-slots: [12, 13, 14, 21, 22, 23, 30, 31, 32]
   rank:
     owned:
       material: LIME_STAINED_GLASS_PANE
       glow: false
-      name: '%prefix% <dark_gray>(<green>Unlocked</green>)'
+      name: '%prefix% <dark_gray>(<green>Đã sở hữu</green>)'
       lore:
         - '<gray>Rank <white>#%id%'
-        - '<green>✔ You already own this rank.'
+        - '<green>✔ Bạn đã vượt qua rank này.'
+        - ' '
+        - '<gray>Quyền lợi:'
+        - '<dark_gray>• <gray>Mở khóa khu mine của rank'
+        - '<dark_gray>• <gray>Hệ số nhân %currency%/tokens cao hơn'
+        - '<dark_gray>• <gray>Nhóm LuckPerms: <white>xprison_rank_%id%'
     current:
       material: NETHER_STAR
       glow: true
-      name: '%prefix% <dark_gray>(<yellow>Your Rank</yellow>)'
+      name: '%prefix% <dark_gray>(<yellow>Rank hiện tại</yellow>)'
       lore:
         - '<gray>Rank <white>#%id%'
-        - '<yellow>➤ This is your current rank.'
+        - '<yellow>➤ Đây là rank hiện tại của bạn.'
+        - ' '
+        - '<gray>Quyền lợi:'
+        - '<dark_gray>• <gray>Mở khóa khu mine của rank'
+        - '<dark_gray>• <gray>Hệ số nhân %currency%/tokens cao hơn'
+        - '<dark_gray>• <gray>Nhóm LuckPerms: <white>xprison_rank_%id%'
     next:
       material: GOLD_INGOT
-      glow: false
-      name: '%prefix% <dark_gray>(<gold>Next</gold>)'
+      glow: true
+      name: '%prefix% <dark_gray>(<gold>Rank tiếp theo</gold>)'
       lore:
         - '<gray>Rank <white>#%id%'
-        - '<gray>Cost: <gold>%cost% <gray>%currency%'
+        - '<gray>Giá: <gold>%cost% <gray>%currency%'
         - ' '
-        - '<yellow>Click to rank up!'
+        - '<gray>Quyền lợi khi lên rank:'
+        - '<dark_gray>• <gray>Mở khóa khu mine mới'
+        - '<dark_gray>• <gray>Tăng hệ số nhân %currency%/tokens'
+        - '<dark_gray>• <gray>Nhóm LuckPerms: <white>xprison_rank_%id%'
+        - ' '
+        - '<yellow><bold>➤ Click để rankup!'
     locked:
       material: RED_STAINED_GLASS_PANE
       glow: false
-      name: '%prefix% <dark_gray>(<red>Locked</red>)'
+      name: '%prefix% <dark_gray>(<red>Chưa mở khóa</red>)'
       lore:
         - '<gray>Rank <white>#%id%'
-        - '<gray>Cost: <gold>%cost% <gray>%currency%'
-        - '<red>🔒 Rank up to unlock.'
+        - '<gray>Giá: <gold>%cost% <gray>%currency%'
+        - ' '
+        - '<red>🔒 Hãy rankup tuần tự để đến rank này.'
   items:
     info:
       slot: 4
       material: BOOK
-      name: '<yellow><bold>Ranks'
+      name: '<yellow><bold>Thông tin Rank'
       lore:
-        - '<gray>Rank up to access better mines'
-        - '<gray>and unlock rewards along the way.'
+        - '<gray>Rank up để mở khóa mine mới,'
+        - '<gray>hệ số nhân cao hơn và các quyền lợi.'
         - ' '
-        - '<gray>Use <yellow>/rankup <gray>or click the'
-        - '<gray>next rank below to advance.'
+        - '<gray>Dùng <yellow>/rankup <gray>hoặc click vào'
+        - '<gray>rank tiếp theo bên dưới để lên rank.'
+        - ' '
+        - '<green>■ <gray>Xanh lá - Đã sở hữu   <yellow>■ <gray>Vàng - Hiện tại'
+        - '<gold>■ <gray>Cam - Tiếp theo   <red>■ <gray>Đỏ - Chưa mở khóa'
+        - ' '
+        - '<gray>Muốn nhiều quyền lợi hơn nữa?'
+        - '<gray>Xem thêm rank VIP với <yellow>/viprank'
     close:
       slot: 49
       material: BARRIER
-      name: '<red><bold>Close'
+      name: '<red><bold>Đóng'
       lore: []
     prev-page:
       slot: 48
       material: ARROW
-      name: '<yellow>« Previous Page'
+      name: '<yellow>« Trang trước'
       lore: []
     next-page:
       slot: 50
       material: ARROW
-      name: '<yellow>Next Page »'
+      name: '<yellow>Trang sau »'
       lore: []

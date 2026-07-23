@@ -762,6 +762,11 @@ world-home-permissions: false
 sethome-multiple:
   default: 3
   vip: 5
+  vipplus: 7
+  mvp: 9
+  mvpplus: 11
+  elite: 13
+  legend: 15
   staff: 10
 
 # In this example someone with 'essentials.sethome.multiple' and 'essentials.sethome.multiple.vip' will have 5 homes.
