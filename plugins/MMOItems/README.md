@@ -1,4 +1,4 @@
-# 📘 HƯỚNG DẪN VẬN HÀNH HỆ THỐNG TINH LUYỆN & NÂNG CẤP CUỐC (MMOITEMS 9 RANK)
+# 📘 HƯỚNG DẪN VẬN HÀNH HỆ THỐNG TINH LUYỆN & NÂNG CẤP CÚP (MMOITEMS 9 RANK)
 
 Tài liệu hướng dẫn chi tiết cấu trúc item, trạm rèn, tỷ lệ xịt/thành công, công thức cấp số nhân và cách gán NPC cho hệ thống Prison.
 
@@ -6,7 +6,7 @@ Tài liệu hướng dẫn chi tiết cấu trúc item, trạm rèn, tỷ lệ x
 
 ## 🛠️ 1. Lệnh Lấy Vật Phẩm Để Test (Admin Commands)
 
-### ⛏️ Lấy Cuốc (TOOL):
+### ⛏️ Lấy Cúp (TOOL):
 Lệnh tổng quát: `/mi give TOOL <ITEM_ID> [player] [amount]`
 
 * **Rank 1 (Tân Binh)**: `PICKAXE_TAN_BINH_1` đến `PICKAXE_TAN_BINH_5`
@@ -57,7 +57,7 @@ Sử dụng lệnh Citizens (`/npc cmd add mi station open <station_id>`) hoặc
 
 ---
 
-### 🔨 NPC 2: Lò Rèn Nâng Cấp Cuốc (Ghép Cuốc Cấp Dưới + Nguyên Liệu)
+### 🔨 NPC 2: Lò Rèn Nâng Cấp Cúp (Ghép Cúp Cấp Dưới + Nguyên Liệu)
 
 * **Rank 1 (Tân Binh)**: `/mi stations open forge-rookie`
 * **Rank 2 (Tù Nhân)**: `/mi stations open forge-prisoner`
@@ -73,9 +73,9 @@ Sử dụng lệnh Citizens (`/npc cmd add mi station open <station_id>`) hoặc
 
 ## ⚖️ 3. Cơ Chế Thăng Tiến & Tỷ Lệ Xịt/Thành Công
 
-### 📈 Bảng Cấp Số Nhân Yêu Cầu Nguyên Liệu Nâng Cấp Cuốc:
+### 📈 Bảng Cấp Số Nhân Yêu Cầu Nguyên Liệu Nâng Cấp Cúp:
 
-| Rank / Lò Rèn | Cuốc I ➔ II | Cuốc II ➔ III | Cuốc III ➔ IV | Cuốc IV ➔ V (Cấp Cuối) |
+| Rank / Lò Rèn | Cúp I ➔ II | Cúp II ➔ III | Cúp III ➔ IV | Cúp IV ➔ V (Cấp Cuối) |
 | :--- | :---: | :---: | :---: | :---: |
 | **Rank 1: Tân Binh** | **2x** CHT + **2x** QTL | **4x** CHT + **4x** QTL | **8x** CHT + **8x** QTL | **16x** CHT + **16x** QTL |
 | **Rank 2: Tù Nhân** | **3x** CHT + **3x** QTL | **6x** CHT + **6x** QTL | **12x** CHT + **12x** QTL | **24x** CHT + **24x** QTL |
@@ -89,9 +89,9 @@ Sử dụng lệnh Citizens (`/npc cmd add mi station open <station_id>`) hoặc
 
 ---
 
-### 🎲 Bảng Tỷ Lệ Thành Công Nâng Cấp Cuốc:
+### 🎲 Bảng Tỷ Lệ Thành Công Nâng Cấp Cúp:
 
-| Rank / Lò Rèn | Cuốc I ➔ II | Cuốc II ➔ III | Cuốc III ➔ IV | Cuốc IV ➔ V (Cấp Cuối) |
+| Rank / Lò Rèn | Cúp I ➔ II | Cúp II ➔ III | Cúp III ➔ IV | Cúp IV ➔ V (Cấp Cuối) |
 | :--- | :---: | :---: | :---: | :---: |
 | **Rank 1: Tân Binh** | **85%** | **75%** | **65%** | **55%** |
 | **Rank 2: Tù Nhân** | **80%** | **70%** | **60%** | **50%** |
@@ -104,7 +104,7 @@ Sử dụng lệnh Citizens (`/npc cmd add mi station open <station_id>`) hoặc
 | **Rank 9: Vượt Ngục** | **45%** | **35%** | **25%** | **15%** |
 
 ### 🛡️ Cơ chế thất bại (Xịt):
-- **KHÔNG BỊ MẤT CUỐC**: Cuốc cấp dưới đặt làm nguyên liệu đầu vào luôn được bảo toàn khi xịt.
+- **KHÔNG BỊ MẤT CÚP**: Cúp cấp dưới đặt làm nguyên liệu đầu vào luôn được bảo toàn khi xịt.
 - Chỉ bị khấu trừ các nguyên liệu tiêu hao (`Cường Hóa Thạch` & `Quặng Tinh Luyện`) dùng cho lượt ép đó.
 
 ---

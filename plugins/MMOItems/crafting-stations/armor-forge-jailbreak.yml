@@ -1,0 +1,231 @@
+name: 'Lò Rèn Giáp Vượt Ngục (#page#/#max#)'
+max-queue-size: 10
+sound: ENTITY_EXPERIENCE_ORB_PICKUP
+layout: default
+
+items:
+    fill:
+        material: AIR
+    no-recipe:
+        material: GRAY_STAINED_GLASS_PANE
+        name: '&aNo Recipe'
+    no-queue-item:
+        material: GRAY_STAINED_GLASS_PANE
+        name: '&aNo Item in Queue'
+
+recipes:
+    # --- NÓN ---
+    non-vuot-nguc-2:
+        output:
+            type: ARMOR
+            id: HELMET_VUOT_NGUC_2
+            amount: 1
+        enchantments: MAXIMUM
+        crafting-time: 0
+        options:
+            success-rate: 45
+        ingredients:
+        - mmoitem{type=ARMOR,id=HELMET_VUOT_NGUC_1,amount=1,display="Nón Vượt Ngục I"}
+        - mmoitem{type=MATERIAL,id=DA_NANG_CAP_VUOT_NGUC,amount=9,display="Cường Hóa Thạch Vượt Ngục"}
+        - mmoitem{type=MATERIAL,id=NEN_DOI_VUOT_NGUC,amount=9,display="Quặng Tinh Luyện Vượt Ngục"}
+    non-vuot-nguc-3:
+        output:
+            type: ARMOR
+            id: HELMET_VUOT_NGUC_3
+            amount: 1
+        enchantments: MAXIMUM
+        crafting-time: 0
+        options:
+            success-rate: 35
+        ingredients:
+        - mmoitem{type=ARMOR,id=HELMET_VUOT_NGUC_2,amount=1,display="Nón Vượt Ngục II"}
+        - mmoitem{type=MATERIAL,id=DA_NANG_CAP_VUOT_NGUC,amount=18,display="Cường Hóa Thạch Vượt Ngục"}
+        - mmoitem{type=MATERIAL,id=NEN_DOI_VUOT_NGUC,amount=18,display="Quặng Tinh Luyện Vượt Ngục"}
+    non-vuot-nguc-4:
+        output:
+            type: ARMOR
+            id: HELMET_VUOT_NGUC_4
+            amount: 1
+        enchantments: MAXIMUM
+        crafting-time: 0
+        options:
+            success-rate: 25
+        ingredients:
+        - mmoitem{type=ARMOR,id=HELMET_VUOT_NGUC_3,amount=1,display="Nón Vượt Ngục III"}
+        - mmoitem{type=MATERIAL,id=DA_NANG_CAP_VUOT_NGUC,amount=36,display="Cường Hóa Thạch Vượt Ngục"}
+        - mmoitem{type=MATERIAL,id=NEN_DOI_VUOT_NGUC,amount=36,display="Quặng Tinh Luyện Vượt Ngục"}
+    non-vuot-nguc-5:
+        output:
+            type: ARMOR
+            id: HELMET_VUOT_NGUC_5
+            amount: 1
+        enchantments: MAXIMUM
+        crafting-time: 0
+        options:
+            success-rate: 15
+        ingredients:
+        - mmoitem{type=ARMOR,id=HELMET_VUOT_NGUC_4,amount=1,display="Nón Vượt Ngục IV"}
+        - mmoitem{type=MATERIAL,id=DA_NANG_CAP_VUOT_NGUC,amount=52,display="Cường Hóa Thạch Vượt Ngục"}
+        - mmoitem{type=MATERIAL,id=NEN_DOI_VUOT_NGUC,amount=52,display="Quặng Tinh Luyện Vượt Ngục"}
+
+    # --- ÁO ---
+    ao-vuot-nguc-2:
+        output:
+            type: ARMOR
+            id: CHESTPLATE_VUOT_NGUC_2
+            amount: 1
+        enchantments: MAXIMUM
+        crafting-time: 0
+        options:
+            success-rate: 45
+        ingredients:
+        - mmoitem{type=ARMOR,id=CHESTPLATE_VUOT_NGUC_1,amount=1,display="Áo Vượt Ngục I"}
+        - mmoitem{type=MATERIAL,id=DA_NANG_CAP_VUOT_NGUC,amount=12,display="Cường Hóa Thạch Vượt Ngục"}
+        - mmoitem{type=MATERIAL,id=NEN_DOI_VUOT_NGUC,amount=12,display="Quặng Tinh Luyện Vượt Ngục"}
+    ao-vuot-nguc-3:
+        output:
+            type: ARMOR
+            id: CHESTPLATE_VUOT_NGUC_3
+            amount: 1
+        enchantments: MAXIMUM
+        crafting-time: 0
+        options:
+            success-rate: 35
+        ingredients:
+        - mmoitem{type=ARMOR,id=CHESTPLATE_VUOT_NGUC_2,amount=1,display="Áo Vượt Ngục II"}
+        - mmoitem{type=MATERIAL,id=DA_NANG_CAP_VUOT_NGUC,amount=24,display="Cường Hóa Thạch Vượt Ngục"}
+        - mmoitem{type=MATERIAL,id=NEN_DOI_VUOT_NGUC,amount=24,display="Quặng Tinh Luyện Vượt Ngục"}
+    ao-vuot-nguc-4:
+        output:
+            type: ARMOR
+            id: CHESTPLATE_VUOT_NGUC_4
+            amount: 1
+        enchantments: MAXIMUM
+        crafting-time: 0
+        options:
+            success-rate: 25
+        ingredients:
+        - mmoitem{type=ARMOR,id=CHESTPLATE_VUOT_NGUC_3,amount=1,display="Áo Vượt Ngục III"}
+        - mmoitem{type=MATERIAL,id=DA_NANG_CAP_VUOT_NGUC,amount=48,display="Cường Hóa Thạch Vượt Ngục"}
+        - mmoitem{type=MATERIAL,id=NEN_DOI_VUOT_NGUC,amount=48,display="Quặng Tinh Luyện Vượt Ngục"}
+    ao-vuot-nguc-5:
+        output:
+            type: ARMOR
+            id: CHESTPLATE_VUOT_NGUC_5
+            amount: 1
+        enchantments: MAXIMUM
+        crafting-time: 0
+        options:
+            success-rate: 15
+        ingredients:
+        - mmoitem{type=ARMOR,id=CHESTPLATE_VUOT_NGUC_4,amount=1,display="Áo Vượt Ngục IV"}
+        - mmoitem{type=MATERIAL,id=DA_NANG_CAP_VUOT_NGUC,amount=64,display="Cường Hóa Thạch Vượt Ngục"}
+        - mmoitem{type=MATERIAL,id=NEN_DOI_VUOT_NGUC,amount=64,display="Quặng Tinh Luyện Vượt Ngục"}
+
+    # --- QUẦN ---
+    quan-vuot-nguc-2:
+        output:
+            type: ARMOR
+            id: LEGGINGS_VUOT_NGUC_2
+            amount: 1
+        enchantments: MAXIMUM
+        crafting-time: 0
+        options:
+            success-rate: 45
+        ingredients:
+        - mmoitem{type=ARMOR,id=LEGGINGS_VUOT_NGUC_1,amount=1,display="Quần Vượt Ngục I"}
+        - mmoitem{type=MATERIAL,id=DA_NANG_CAP_VUOT_NGUC,amount=12,display="Cường Hóa Thạch Vượt Ngục"}
+        - mmoitem{type=MATERIAL,id=NEN_DOI_VUOT_NGUC,amount=12,display="Quặng Tinh Luyện Vượt Ngục"}
+    quan-vuot-nguc-3:
+        output:
+            type: ARMOR
+            id: LEGGINGS_VUOT_NGUC_3
+            amount: 1
+        enchantments: MAXIMUM
+        crafting-time: 0
+        options:
+            success-rate: 35
+        ingredients:
+        - mmoitem{type=ARMOR,id=LEGGINGS_VUOT_NGUC_2,amount=1,display="Quần Vượt Ngục II"}
+        - mmoitem{type=MATERIAL,id=DA_NANG_CAP_VUOT_NGUC,amount=24,display="Cường Hóa Thạch Vượt Ngục"}
+        - mmoitem{type=MATERIAL,id=NEN_DOI_VUOT_NGUC,amount=24,display="Quặng Tinh Luyện Vượt Ngục"}
+    quan-vuot-nguc-4:
+        output:
+            type: ARMOR
+            id: LEGGINGS_VUOT_NGUC_4
+            amount: 1
+        enchantments: MAXIMUM
+        crafting-time: 0
+        options:
+            success-rate: 25
+        ingredients:
+        - mmoitem{type=ARMOR,id=LEGGINGS_VUOT_NGUC_3,amount=1,display="Quần Vượt Ngục III"}
+        - mmoitem{type=MATERIAL,id=DA_NANG_CAP_VUOT_NGUC,amount=48,display="Cường Hóa Thạch Vượt Ngục"}
+        - mmoitem{type=MATERIAL,id=NEN_DOI_VUOT_NGUC,amount=48,display="Quặng Tinh Luyện Vượt Ngục"}
+    quan-vuot-nguc-5:
+        output:
+            type: ARMOR
+            id: LEGGINGS_VUOT_NGUC_5
+            amount: 1
+        enchantments: MAXIMUM
+        crafting-time: 0
+        options:
+            success-rate: 15
+        ingredients:
+        - mmoitem{type=ARMOR,id=LEGGINGS_VUOT_NGUC_4,amount=1,display="Quần Vượt Ngục IV"}
+        - mmoitem{type=MATERIAL,id=DA_NANG_CAP_VUOT_NGUC,amount=64,display="Cường Hóa Thạch Vượt Ngục"}
+        - mmoitem{type=MATERIAL,id=NEN_DOI_VUOT_NGUC,amount=64,display="Quặng Tinh Luyện Vượt Ngục"}
+
+    # --- GIÀY ---
+    giay-vuot-nguc-2:
+        output:
+            type: ARMOR
+            id: BOOTS_VUOT_NGUC_2
+            amount: 1
+        enchantments: MAXIMUM
+        crafting-time: 0
+        options:
+            success-rate: 45
+        ingredients:
+        - mmoitem{type=ARMOR,id=BOOTS_VUOT_NGUC_1,amount=1,display="Giày Vượt Ngục I"}
+        - mmoitem{type=MATERIAL,id=DA_NANG_CAP_VUOT_NGUC,amount=9,display="Cường Hóa Thạch Vượt Ngục"}
+        - mmoitem{type=MATERIAL,id=NEN_DOI_VUOT_NGUC,amount=9,display="Quặng Tinh Luyện Vượt Ngục"}
+    giay-vuot-nguc-3:
+        output:
+            type: ARMOR
+            id: BOOTS_VUOT_NGUC_3
+            amount: 1
+        enchantments: MAXIMUM
+        crafting-time: 0
+        options:
+            success-rate: 35
+        ingredients:
+        - mmoitem{type=ARMOR,id=BOOTS_VUOT_NGUC_2,amount=1,display="Giày Vượt Ngục II"}
+        - mmoitem{type=MATERIAL,id=DA_NANG_CAP_VUOT_NGUC,amount=18,display="Cường Hóa Thạch Vượt Ngục"}
+        - mmoitem{type=MATERIAL,id=NEN_DOI_VUOT_NGUC,amount=18,display="Quặng Tinh Luyện Vượt Ngục"}
+    giay-vuot-nguc-4:
+        output:
+            type: ARMOR
+            id: BOOTS_VUOT_NGUC_4
+            amount: 1
+        enchantments: MAXIMUM
+        crafting-time: 0
+        options:
+            success-rate: 25
+        ingredients:
+        - mmoitem{type=ARMOR,id=BOOTS_VUOT_NGUC_3,amount=1,display="Giày Vượt Ngục III"}
+        - mmoitem{type=MATERIAL,id=DA_NANG_CAP_VUOT_NGUC,amount=36,display="Cường Hóa Thạch Vượt Ngục"}
+        - mmoitem{type=MATERIAL,id=NEN_DOI_VUOT_NGUC,amount=36,display="Quặng Tinh Luyện Vượt Ngục"}
+    giay-vuot-nguc-5:
+        output:
+            type: ARMOR
+            id: BOOTS_VUOT_NGUC_5
+            amount: 1
+        enchantments: MAXIMUM
+        crafting-time: 0
+        options:
+            success-rate: 15
+        ingredients:
+        - mmoitem{type=ARMOR,id=BOOTS_VUOT_NGUC_4,amount=1,display="Giày Vượt Ngục IV"}
+        - mmoitem{type=MATERIAL,id=DA_NANG_CAP_VUOT_NGUC,amount=52,display="Cường Hóa Thạch Vượt Ngục"}
+        - mmoitem{type=MATERIAL,id=NEN_DOI_VUOT_NGUC,amount=52,display="Quặng Tinh Luyện Vượt Ngục"}

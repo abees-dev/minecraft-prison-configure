@@ -32,7 +32,7 @@ vanilla-enchant-upgrade:
     - 'SHARPNESS +1'      # Tăng cấp Sharpness (Sắc Bén) +1 mỗi cấp
     - 'PROTECTION +1'     # Tăng cấp Protection (Bảo Vệ) +1 mỗi cấp
 
-# Template nâng cấp chỉ số & enchant cho Cuốc Tân Binh
+# Template nâng cấp chỉ số & enchant cho Cúp Tân Binh
 pickaxe-tan-binh-template:
   pickaxe-power: 1
   custom-miningefficiency: 0.5
@@ -43,7 +43,7 @@ pickaxe-tan-binh-template:
     - 'FORTUNE +0.25'
     - 'UNBREAKING +0.25'
 
-# Template nâng cấp cho Cuốc Tù Nhân
+# Template nâng cấp cho Cúp Tù Nhân
 pickaxe-tu-nhan-template:
   pickaxe-power: 1
   custom-miningefficiency: 0.25
@@ -54,7 +54,7 @@ pickaxe-tu-nhan-template:
     - 'FORTUNE +0.25'
     - 'UNBREAKING +0.5'
 
-# Template nâng cấp cho Cuốc Lao Công
+# Template nâng cấp cho Cúp Lao Công
 pickaxe-lao-cong-template:
   pickaxe-power: 1
   custom-miningefficiency: 0.25
@@ -65,7 +65,7 @@ pickaxe-lao-cong-template:
     - 'FORTUNE +0.5'
     - 'UNBREAKING +0.25'
 
-# Template nâng cấp cho Cuốc Thợ Đào
+# Template nâng cấp cho Cúp Thợ Đào
 pickaxe-tho-dao-template:
   pickaxe-power: 1
   custom-miningefficiency: 0.5
@@ -76,7 +76,7 @@ pickaxe-tho-dao-template:
     - 'FORTUNE +0.25'
     - 'UNBREAKING +0.25'
 
-# Template nâng cấp cho Cuốc Đội Trưởng
+# Template nâng cấp cho Cúp Đội Trưởng
 pickaxe-doi-truong-template:
   pickaxe-power: 1
   custom-miningefficiency: 0.25
@@ -87,7 +87,7 @@ pickaxe-doi-truong-template:
     - 'FORTUNE +0.25'
     - 'UNBREAKING +0.5'
 
-# Template nâng cấp cho Cuốc Phó Quản Ngục
+# Template nâng cấp cho Cúp Phó Quản Ngục
 pickaxe-pho-quan-nguc-template:
   pickaxe-power: 1
   custom-miningefficiency: 0.25
@@ -98,7 +98,7 @@ pickaxe-pho-quan-nguc-template:
     - 'FORTUNE +0.5'
     - 'UNBREAKING +0.25'
 
-# Template nâng cấp cho Cuốc Quản Ngục
+# Template nâng cấp cho Cúp Quản Ngục
 pickaxe-quan-nguc-template:
   pickaxe-power: 1
   custom-miningefficiency: 0.5
@@ -109,7 +109,7 @@ pickaxe-quan-nguc-template:
     - 'FORTUNE +0.25'
     - 'UNBREAKING +0.25'
 
-# Template nâng cấp cho Cuốc Bá Chủ Ngục Tù
+# Template nâng cấp cho Cúp Bá Chủ Ngục Tù
 pickaxe-ba-chu-nguc-tu-template:
   pickaxe-power: 1
   custom-miningefficiency: 0.25
@@ -120,7 +120,7 @@ pickaxe-ba-chu-nguc-tu-template:
     - 'FORTUNE +0.25'
     - 'UNBREAKING +0.5'
 
-# Template nâng cấp cho Cuốc Vượt Ngục
+# Template nâng cấp cho Cúp Vượt Ngục
 pickaxe-vuot-nguc-template:
   pickaxe-power: 1
   custom-miningefficiency: 0.25

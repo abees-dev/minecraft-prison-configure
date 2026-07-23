@@ -1,14 +1,14 @@
 PICKAXE_TAN_BINH_1:
   base:
     material: WOODEN_PICKAXE
-    name: "&fCuốc Tân Binh &e&lI"
+    name: "&fCúp Tân Binh &e&lI"
     max-durability: 500
     tier: TRASH
     hide-enchants: true
     lore-format: tool-lore
     lore:
       - "&b&l✦ Tiểu Sử"
-      - "&7 &b●&7 Cuốc khởi đầu của mọi tù nhân"
+      - "&7 &b●&7 Cúp khởi đầu của mọi tù nhân"
       - "&7 &b●&7 Nâng cấp tại Lò Rèn để lên cấp tiếp theo"
     enchants:
       efficiency: 1.0
@@ -24,14 +24,14 @@ PICKAXE_TAN_BINH_1:
 PICKAXE_TAN_BINH_2:
   base:
     material: WOODEN_PICKAXE
-    name: "&fCuốc Tân Binh &e&lII"
+    name: "&fCúp Tân Binh &e&lII"
     max-durability: 500
     tier: TRASH
     hide-enchants: true
     lore-format: tool-lore
     lore:
       - "&b&l✦ Tiểu Sử"
-      - "&7 &b●&7 Cuốc khởi đầu của mọi tù nhân"
+      - "&7 &b●&7 Cúp khởi đầu của mọi tù nhân"
       - "&7 &b●&7 Nâng cấp tại Lò Rèn để lên cấp tiếp theo"
     enchants:
       efficiency: 2.0
@@ -47,14 +47,14 @@ PICKAXE_TAN_BINH_2:
 PICKAXE_TAN_BINH_3:
   base:
     material: WOODEN_PICKAXE
-    name: "&fCuốc Tân Binh &e&lIII"
+    name: "&fCúp Tân Binh &e&lIII"
     max-durability: 500
     tier: TRASH
     hide-enchants: true
     lore-format: tool-lore
     lore:
       - "&b&l✦ Tiểu Sử"
-      - "&7 &b●&7 Cuốc khởi đầu của mọi tù nhân"
+      - "&7 &b●&7 Cúp khởi đầu của mọi tù nhân"
       - "&7 &b●&7 Nâng cấp tại Lò Rèn để lên cấp tiếp theo"
     enchants:
       efficiency: 2.0
@@ -70,14 +70,14 @@ PICKAXE_TAN_BINH_3:
 PICKAXE_TAN_BINH_4:
   base:
     material: WOODEN_PICKAXE
-    name: "&fCuốc Tân Binh &e&lIV"
+    name: "&fCúp Tân Binh &e&lIV"
     max-durability: 500
     tier: TRASH
     hide-enchants: true
     lore-format: tool-lore
     lore:
       - "&b&l✦ Tiểu Sử"
-      - "&7 &b●&7 Cuốc khởi đầu của mọi tù nhân"
+      - "&7 &b●&7 Cúp khởi đầu của mọi tù nhân"
       - "&7 &b●&7 Nâng cấp tại Lò Rèn để lên cấp tiếp theo"
     enchants:
       efficiency: 2.0
@@ -93,14 +93,14 @@ PICKAXE_TAN_BINH_4:
 PICKAXE_TAN_BINH_5:
   base:
     material: WOODEN_PICKAXE
-    name: "&fCuốc Tân Binh &e&lV"
+    name: "&fCúp Tân Binh &e&lV"
     max-durability: 500
     tier: TRASH
     hide-enchants: true
     lore-format: tool-lore
     lore:
       - "&b&l✦ Tiểu Sử"
-      - "&7 &b●&7 Cuốc khởi đầu của mọi tù nhân"
+      - "&7 &b●&7 Cúp khởi đầu của mọi tù nhân"
       - "&7 &b●&7 Cấp tối đa của rank Tân Binh"
     enchants:
       efficiency: 3.0
@@ -116,7 +116,7 @@ PICKAXE_TAN_BINH_5:
 PICKAXE_TU_NHAN_1:
   base:
     material: STONE_PICKAXE
-    name: "&aCuốc Tù Nhân &e&lI"
+    name: "&aCúp Tù Nhân &e&lI"
     max-durability: 1000
     tier: COMMON
     hide-enchants: true
@@ -139,7 +139,7 @@ PICKAXE_TU_NHAN_1:
 PICKAXE_TU_NHAN_2:
   base:
     material: STONE_PICKAXE
-    name: "&aCuốc Tù Nhân &e&lII"
+    name: "&aCúp Tù Nhân &e&lII"
     max-durability: 1000
     tier: COMMON
     hide-enchants: true
@@ -162,7 +162,7 @@ PICKAXE_TU_NHAN_2:
 PICKAXE_TU_NHAN_3:
   base:
     material: STONE_PICKAXE
-    name: "&aCuốc Tù Nhân &e&lIII"
+    name: "&aCúp Tù Nhân &e&lIII"
     max-durability: 1000
     tier: COMMON
     hide-enchants: true
@@ -185,7 +185,7 @@ PICKAXE_TU_NHAN_3:
 PICKAXE_TU_NHAN_4:
   base:
     material: STONE_PICKAXE
-    name: "&aCuốc Tù Nhân &e&lIV"
+    name: "&aCúp Tù Nhân &e&lIV"
     max-durability: 1000
     tier: COMMON
     hide-enchants: true
@@ -208,7 +208,7 @@ PICKAXE_TU_NHAN_4:
 PICKAXE_TU_NHAN_5:
   base:
     material: STONE_PICKAXE
-    name: "&aCuốc Tù Nhân &e&lV"
+    name: "&aCúp Tù Nhân &e&lV"
     max-durability: 1000
     tier: COMMON
     hide-enchants: true
@@ -231,7 +231,7 @@ PICKAXE_TU_NHAN_5:
 PICKAXE_LAO_CONG_1:
   base:
     material: IRON_PICKAXE
-    name: "&bCuốc Lao Công &e&lI"
+    name: "&bCúp Lao Công &e&lI"
     max-durability: 2000
     tier: UNCOMMON
     hide-enchants: true
@@ -254,7 +254,7 @@ PICKAXE_LAO_CONG_1:
 PICKAXE_LAO_CONG_2:
   base:
     material: IRON_PICKAXE
-    name: "&bCuốc Lao Công &e&lII"
+    name: "&bCúp Lao Công &e&lII"
     max-durability: 2000
     tier: UNCOMMON
     hide-enchants: true
@@ -277,7 +277,7 @@ PICKAXE_LAO_CONG_2:
 PICKAXE_LAO_CONG_3:
   base:
     material: IRON_PICKAXE
-    name: "&bCuốc Lao Công &e&lIII"
+    name: "&bCúp Lao Công &e&lIII"
     max-durability: 2000
     tier: UNCOMMON
     hide-enchants: true
@@ -300,7 +300,7 @@ PICKAXE_LAO_CONG_3:
 PICKAXE_LAO_CONG_4:
   base:
     material: IRON_PICKAXE
-    name: "&bCuốc Lao Công &e&lIV"
+    name: "&bCúp Lao Công &e&lIV"
     max-durability: 2000
     tier: UNCOMMON
     hide-enchants: true
@@ -323,7 +323,7 @@ PICKAXE_LAO_CONG_4:
 PICKAXE_LAO_CONG_5:
   base:
     material: IRON_PICKAXE
-    name: "&bCuốc Lao Công &e&lV"
+    name: "&bCúp Lao Công &e&lV"
     max-durability: 2000
     tier: UNCOMMON
     hide-enchants: true
@@ -346,7 +346,7 @@ PICKAXE_LAO_CONG_5:
 PICKAXE_THO_DAO_1:
   base:
     material: IRON_PICKAXE
-    name: "&eCuốc Thợ Đào &e&lI"
+    name: "&eCúp Thợ Đào &e&lI"
     max-durability: 3000
     tier: RARE
     hide-enchants: true
@@ -369,7 +369,7 @@ PICKAXE_THO_DAO_1:
 PICKAXE_THO_DAO_2:
   base:
     material: IRON_PICKAXE
-    name: "&eCuốc Thợ Đào &e&lII"
+    name: "&eCúp Thợ Đào &e&lII"
     max-durability: 3000
     tier: RARE
     hide-enchants: true
@@ -392,7 +392,7 @@ PICKAXE_THO_DAO_2:
 PICKAXE_THO_DAO_3:
   base:
     material: IRON_PICKAXE
-    name: "&eCuốc Thợ Đào &e&lIII"
+    name: "&eCúp Thợ Đào &e&lIII"
     max-durability: 3000
     tier: RARE
     hide-enchants: true
@@ -415,7 +415,7 @@ PICKAXE_THO_DAO_3:
 PICKAXE_THO_DAO_4:
   base:
     material: IRON_PICKAXE
-    name: "&eCuốc Thợ Đào &e&lIV"
+    name: "&eCúp Thợ Đào &e&lIV"
     max-durability: 3000
     tier: RARE
     hide-enchants: true
@@ -438,7 +438,7 @@ PICKAXE_THO_DAO_4:
 PICKAXE_THO_DAO_5:
   base:
     material: IRON_PICKAXE
-    name: "&eCuốc Thợ Đào &e&lV"
+    name: "&eCúp Thợ Đào &e&lV"
     max-durability: 3000
     tier: RARE
     hide-enchants: true
@@ -461,7 +461,7 @@ PICKAXE_THO_DAO_5:
 PICKAXE_DOI_TRUONG_1:
   base:
     material: DIAMOND_PICKAXE
-    name: "&6Cuốc Đội Trưởng &e&lI"
+    name: "&6Cúp Đội Trưởng &e&lI"
     max-durability: 4500
     tier: VERY_RARE
     hide-enchants: true
@@ -484,7 +484,7 @@ PICKAXE_DOI_TRUONG_1:
 PICKAXE_DOI_TRUONG_2:
   base:
     material: DIAMOND_PICKAXE
-    name: "&6Cuốc Đội Trưởng &e&lII"
+    name: "&6Cúp Đội Trưởng &e&lII"
     max-durability: 4500
     tier: VERY_RARE
     hide-enchants: true
@@ -507,7 +507,7 @@ PICKAXE_DOI_TRUONG_2:
 PICKAXE_DOI_TRUONG_3:
   base:
     material: DIAMOND_PICKAXE
-    name: "&6Cuốc Đội Trưởng &e&lIII"
+    name: "&6Cúp Đội Trưởng &e&lIII"
     max-durability: 4500
     tier: VERY_RARE
     hide-enchants: true
@@ -530,7 +530,7 @@ PICKAXE_DOI_TRUONG_3:
 PICKAXE_DOI_TRUONG_4:
   base:
     material: DIAMOND_PICKAXE
-    name: "&6Cuốc Đội Trưởng &e&lIV"
+    name: "&6Cúp Đội Trưởng &e&lIV"
     max-durability: 4500
     tier: VERY_RARE
     hide-enchants: true
@@ -553,7 +553,7 @@ PICKAXE_DOI_TRUONG_4:
 PICKAXE_DOI_TRUONG_5:
   base:
     material: DIAMOND_PICKAXE
-    name: "&6Cuốc Đội Trưởng &e&lV"
+    name: "&6Cúp Đội Trưởng &e&lV"
     max-durability: 4500
     tier: VERY_RARE
     hide-enchants: true
@@ -576,7 +576,7 @@ PICKAXE_DOI_TRUONG_5:
 PICKAXE_PHO_QUAN_NGUC_1:
   base:
     material: DIAMOND_PICKAXE
-    name: "&cCuốc Phó Quản Ngục &e&lI"
+    name: "&cCúp Phó Quản Ngục &e&lI"
     max-durability: 6000
     tier: LEGENDARY
     hide-enchants: true
@@ -599,7 +599,7 @@ PICKAXE_PHO_QUAN_NGUC_1:
 PICKAXE_PHO_QUAN_NGUC_2:
   base:
     material: DIAMOND_PICKAXE
-    name: "&cCuốc Phó Quản Ngục &e&lII"
+    name: "&cCúp Phó Quản Ngục &e&lII"
     max-durability: 6000
     tier: LEGENDARY
     hide-enchants: true
@@ -622,7 +622,7 @@ PICKAXE_PHO_QUAN_NGUC_2:
 PICKAXE_PHO_QUAN_NGUC_3:
   base:
     material: DIAMOND_PICKAXE
-    name: "&cCuốc Phó Quản Ngục &e&lIII"
+    name: "&cCúp Phó Quản Ngục &e&lIII"
     max-durability: 6000
     tier: LEGENDARY
     hide-enchants: true
@@ -645,7 +645,7 @@ PICKAXE_PHO_QUAN_NGUC_3:
 PICKAXE_PHO_QUAN_NGUC_4:
   base:
     material: DIAMOND_PICKAXE
-    name: "&cCuốc Phó Quản Ngục &e&lIV"
+    name: "&cCúp Phó Quản Ngục &e&lIV"
     max-durability: 6000
     tier: LEGENDARY
     hide-enchants: true
@@ -668,7 +668,7 @@ PICKAXE_PHO_QUAN_NGUC_4:
 PICKAXE_PHO_QUAN_NGUC_5:
   base:
     material: DIAMOND_PICKAXE
-    name: "&cCuốc Phó Quản Ngục &e&lV"
+    name: "&cCúp Phó Quản Ngục &e&lV"
     max-durability: 6000
     tier: LEGENDARY
     hide-enchants: true
@@ -691,7 +691,7 @@ PICKAXE_PHO_QUAN_NGUC_5:
 PICKAXE_QUAN_NGUC_1:
   base:
     material: NETHERITE_PICKAXE
-    name: "&dCuốc Quản Ngục &e&lI"
+    name: "&dCúp Quản Ngục &e&lI"
     max-durability: 8000
     tier: MYTHICAL
     hide-enchants: true
@@ -714,7 +714,7 @@ PICKAXE_QUAN_NGUC_1:
 PICKAXE_QUAN_NGUC_2:
   base:
     material: NETHERITE_PICKAXE
-    name: "&dCuốc Quản Ngục &e&lII"
+    name: "&dCúp Quản Ngục &e&lII"
     max-durability: 8000
     tier: MYTHICAL
     hide-enchants: true
@@ -737,7 +737,7 @@ PICKAXE_QUAN_NGUC_2:
 PICKAXE_QUAN_NGUC_3:
   base:
     material: NETHERITE_PICKAXE
-    name: "&dCuốc Quản Ngục &e&lIII"
+    name: "&dCúp Quản Ngục &e&lIII"
     max-durability: 8000
     tier: MYTHICAL
     hide-enchants: true
@@ -760,7 +760,7 @@ PICKAXE_QUAN_NGUC_3:
 PICKAXE_QUAN_NGUC_4:
   base:
     material: NETHERITE_PICKAXE
-    name: "&dCuốc Quản Ngục &e&lIV"
+    name: "&dCúp Quản Ngục &e&lIV"
     max-durability: 8000
     tier: MYTHICAL
     hide-enchants: true
@@ -783,7 +783,7 @@ PICKAXE_QUAN_NGUC_4:
 PICKAXE_QUAN_NGUC_5:
   base:
     material: NETHERITE_PICKAXE
-    name: "&dCuốc Quản Ngục &e&lV"
+    name: "&dCúp Quản Ngục &e&lV"
     max-durability: 8000
     tier: MYTHICAL
     hide-enchants: true
@@ -806,7 +806,7 @@ PICKAXE_QUAN_NGUC_5:
 PICKAXE_BA_CHU_NGUC_TU_1:
   base:
     material: NETHERITE_PICKAXE
-    name: "&5Cuốc Bá Chủ Ngục Tù &e&lI"
+    name: "&5Cúp Bá Chủ Ngục Tù &e&lI"
     max-durability: 10000
     tier: EPIC
     hide-enchants: true
@@ -830,7 +830,7 @@ PICKAXE_BA_CHU_NGUC_TU_1:
 PICKAXE_BA_CHU_NGUC_TU_2:
   base:
     material: NETHERITE_PICKAXE
-    name: "&5Cuốc Bá Chủ Ngục Tù &e&lII"
+    name: "&5Cúp Bá Chủ Ngục Tù &e&lII"
     max-durability: 10000
     tier: EPIC
     hide-enchants: true
@@ -854,7 +854,7 @@ PICKAXE_BA_CHU_NGUC_TU_2:
 PICKAXE_BA_CHU_NGUC_TU_3:
   base:
     material: NETHERITE_PICKAXE
-    name: "&5Cuốc Bá Chủ Ngục Tù &e&lIII"
+    name: "&5Cúp Bá Chủ Ngục Tù &e&lIII"
     max-durability: 10000
     tier: EPIC
     hide-enchants: true
@@ -878,7 +878,7 @@ PICKAXE_BA_CHU_NGUC_TU_3:
 PICKAXE_BA_CHU_NGUC_TU_4:
   base:
     material: NETHERITE_PICKAXE
-    name: "&5Cuốc Bá Chủ Ngục Tù &e&lIV"
+    name: "&5Cúp Bá Chủ Ngục Tù &e&lIV"
     max-durability: 10000
     tier: EPIC
     hide-enchants: true
@@ -902,7 +902,7 @@ PICKAXE_BA_CHU_NGUC_TU_4:
 PICKAXE_BA_CHU_NGUC_TU_5:
   base:
     material: NETHERITE_PICKAXE
-    name: "&5Cuốc Bá Chủ Ngục Tù &e&lV"
+    name: "&5Cúp Bá Chủ Ngục Tù &e&lV"
     max-durability: 10000
     tier: EPIC
     hide-enchants: true
@@ -926,7 +926,7 @@ PICKAXE_BA_CHU_NGUC_TU_5:
 PICKAXE_VUOT_NGUC_1:
   base:
     material: NETHERITE_PICKAXE
-    name: "&4Cuốc Vượt Ngục &e&lI"
+    name: "&4Cúp Vượt Ngục &e&lI"
     max-durability: 15000
     tier: UNIQUE
     hide-enchants: true
@@ -950,7 +950,7 @@ PICKAXE_VUOT_NGUC_1:
 PICKAXE_VUOT_NGUC_2:
   base:
     material: NETHERITE_PICKAXE
-    name: "&4Cuốc Vượt Ngục &e&lII"
+    name: "&4Cúp Vượt Ngục &e&lII"
     max-durability: 15000
     tier: UNIQUE
     hide-enchants: true
@@ -974,7 +974,7 @@ PICKAXE_VUOT_NGUC_2:
 PICKAXE_VUOT_NGUC_3:
   base:
     material: NETHERITE_PICKAXE
-    name: "&4Cuốc Vượt Ngục &e&lIII"
+    name: "&4Cúp Vượt Ngục &e&lIII"
     max-durability: 15000
     tier: UNIQUE
     hide-enchants: true
@@ -998,7 +998,7 @@ PICKAXE_VUOT_NGUC_3:
 PICKAXE_VUOT_NGUC_4:
   base:
     material: NETHERITE_PICKAXE
-    name: "&4Cuốc Vượt Ngục &e&lIV"
+    name: "&4Cúp Vượt Ngục &e&lIV"
     max-durability: 15000
     tier: UNIQUE
     hide-enchants: true
@@ -1022,10 +1022,9 @@ PICKAXE_VUOT_NGUC_4:
 PICKAXE_VUOT_NGUC_5:
   base:
     material: NETHERITE_PICKAXE
-    name: "&4Cuốc Vượt Ngục &e&lV"
+    name: "&4Cúp Vượt Ngục &e&lV"
     max-durability: 15000
     tier: UNIQUE
-    hide-enchants: true
     lore-format: tool-lore
     lore:
       - "&b&l✦ Tiểu Sử"

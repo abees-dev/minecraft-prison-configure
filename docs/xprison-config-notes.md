@@ -87,24 +87,29 @@ Rebirth `0` (stub mặc định, không yêu cầu gì) giữ nguyên làm rebir
 
 ## 5. `autosell.yml`
 
-`global-sell-prices` mở rộng từ chỉ có STONE sang đủ block dự kiến dùng trong 9 mine (xem bảng mine ở mục 7):
+`global-sell-prices` mở rộng từ chỉ có STONE sang đủ item dự kiến rớt ra khi đào 9 mine (xem bảng block đặt trong mine ở mục 7).
 
-> Lưu ý: dòng `per-region-sell-prices` hiện có `tan_binh: { world: world_prison }` — **người dùng đã tự thêm/sửa phần này sau khi mình config xong** (không phải mình viết), nên khi sửa tiếp `autosell.yml` cần giữ nguyên khối đó, không ghi đè.
+> Lưu ý: dòng `per-region-sell-prices` hiện có 9 entry (`tan_binh`..`vuot_nguc`, world: `world_prison`) — **người dùng đã tự tạo 9 mine trong game rồi**, khớp đúng tên slug đã đề xuất. Khi sửa tiếp `autosell.yml` cần giữ nguyên khối đó, không ghi đè.
 
-| Block | Giá bán |
-|---|---:|
-| STONE | 50 |
-| COBBLESTONE | 25 |
-| COAL_ORE | 150 |
-| IRON_ORE | 400 |
-| GOLD_ORE | 1,000 |
-| LAPIS_ORE | 900 |
-| REDSTONE_ORE | 1,200 |
-| DIAMOND_ORE | 5,000 |
-| EMERALD_ORE | 8,000 |
-| NETHER_GOLD_ORE | 3,000 |
-| NETHER_QUARTZ_ORE | 2,000 |
-| ANCIENT_DEBRIS | 25,000 |
+**Bài học quan trọng (phát hiện 2026-07-23, do người dùng test trực tiếp trong game)**: key của `global-sell-prices` phải là **tên ITEM thực tế rớt ra khi đập block**, không phải tên block đặt trong mine. Phá ore vanilla (không Silk Touch) hầu hết rớt ra item khác tên block hẳn — bản đầu mình dùng nhầm tên block (`IRON_ORE`, `GOLD_ORE`...) làm key nên giá không bao giờ khớp được với item người chơi thực sự nhận. Bảng đã sửa lại:
+
+| Block đặt trong mine | Item thực tế rớt ra (key đúng) | Số lượng rớt/lần đập (trước Fortune) | Giá/đơn vị |
+|---|---|---|---:|
+| STONE | STONE (chỉ khi Silk Touch, coi như không dùng) | 1 | 50 |
+| STONE (không Silk Touch) | COBBLESTONE | 1 | 25 |
+| COBBLESTONE | COBBLESTONE | 1 | 25 |
+| COAL_ORE | COAL | 1 | 150 |
+| IRON_ORE | RAW_IRON | 1 (không bị Fortune ảnh hưởng) | 400 |
+| GOLD_ORE | RAW_GOLD | 1 (không bị Fortune ảnh hưởng) | 1,000 |
+| LAPIS_ORE | LAPIS_LAZULI | 4-9 | 140 (hạ từ 900 vì rớt nhiều đơn vị/lần) |
+| REDSTONE_ORE | REDSTONE | 4-5 | 270 (hạ từ 1,200 vì rớt nhiều đơn vị/lần) |
+| DIAMOND_ORE | DIAMOND | 1 | 5,000 |
+| EMERALD_ORE | EMERALD | 1 | 8,000 |
+| NETHER_GOLD_ORE | GOLD_NUGGET | 2-6 | 750 (hạ từ 3,000 vì rớt nhiều đơn vị/lần) |
+| NETHER_QUARTZ_ORE | QUARTZ | 1 | 2,000 |
+| ANCIENT_DEBRIS | ANCIENT_DEBRIS (rớt chính nó, miễn nhiễm Fortune) | 1 | 25,000 |
+
+Giá/đơn vị các ore rớt nhiều item (lapis/redstone/nugget) được tính lại theo công thức `giá_per_block_mong_muốn ÷ số_lượng_trung_bình` để tổng giá trị mỗi lần đập 1 block vẫn tương đương ý đồ ban đầu (không tự nhiên đội giá vì rớt nhiều đơn vị). Iron/Gold raw KHÔNG bị Fortune ảnh hưởng (chỉ Silk Touch mới đổi loại item, không tăng số lượng) — khác với coal/diamond/emerald/redstone/lapis/quartz/nugget đều bị Fortune tăng số lượng rớt.
 
 ## 6. `pickaxe-levels.yml`
 
@@ -140,7 +145,9 @@ Composition đề xuất cho từng mine (khớp bảng giá ở mục 5), tên 
 | 8 | ba_chu_nguc_tu | Bá Chủ Ngục Tù | ANCIENT_DEBRIS 35, EMERALD_ORE 35, DIAMOND_ORE 30 |
 | 9 | vuot_nguc | Vượt Ngục | ANCIENT_DEBRIS 50, EMERALD_ORE 25, DIAMOND_ORE 25 |
 
-**Trạng thái**: chưa xác nhận người dùng đã tạo mine `tan_binh` hay chưa — dòng `per-region-sell-prices.tan_binh` mới xuất hiện trong `autosell.yml` (world: `world_prison`) gợi ý có thể đã bắt đầu, nhưng chưa thấy world `world_prison` hay region WorldGuard tương ứng được xác nhận trong phiên làm việc này. Cần hỏi lại/kiểm tra khi tiếp tục phần này.
+**Trạng thái (cập nhật 2026-07-23)**: người dùng đã tự tạo xong cả 9 mine trong game (`per-region-sell-prices` trong `autosell.yml` giờ có đủ 9 entry `tan_binh`..`vuot_nguc`, world `world_prison`) — đã test đập thử và phát hiện lỗi key sai tên item (xem "Bài học quan trọng" ở mục 5), đã sửa xong.
+
+**Lưu ý vận hành phát hiện được**: sau khi tự sửa file `autosell.yml` trực tiếp trên đĩa trong lúc server đang chạy, phải chạy `/xprison reload all` (hoặc `/prison reload all`, alias tương đương) thì thay đổi mới có hiệu lực — X-Prison không tự động theo dõi file thay đổi.
 
 ## Chưa cân bằng / cần rà lại sau
 

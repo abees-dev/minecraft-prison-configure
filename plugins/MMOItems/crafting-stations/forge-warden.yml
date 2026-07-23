@@ -14,7 +14,7 @@ items:
         name: '&aNo Item in Queue'
 
 recipes:
-    cuoc-quan-nguc-2:
+    cup-quan-nguc-2:
         output:
             type: TOOL
             id: PICKAXE_QUAN_NGUC_2
@@ -24,10 +24,10 @@ recipes:
         options:
             success-rate: 55
         ingredients:
-        - mmoitem{type=TOOL,id=PICKAXE_QUAN_NGUC_1,amount=1,display="Cuốc Quản Ngục I"}
+        - mmoitem{type=TOOL,id=PICKAXE_QUAN_NGUC_1,amount=1,display="Cúp Quản Ngục I"}
         - mmoitem{type=MATERIAL,id=DA_NANG_CAP_QUAN_NGUC,amount=8,display="Cường Hóa Thạch Quản Ngục"}
         - mmoitem{type=MATERIAL,id=NEN_DOI_QUAN_NGUC,amount=8,display="Quặng Tinh Luyện Quản Ngục"}
-    cuoc-quan-nguc-3:
+    cup-quan-nguc-3:
         output:
             type: TOOL
             id: PICKAXE_QUAN_NGUC_3
@@ -37,10 +37,10 @@ recipes:
         options:
             success-rate: 45
         ingredients:
-        - mmoitem{type=TOOL,id=PICKAXE_QUAN_NGUC_2,amount=1,display="Cuốc Quản Ngục II"}
+        - mmoitem{type=TOOL,id=PICKAXE_QUAN_NGUC_2,amount=1,display="Cúp Quản Ngục II"}
         - mmoitem{type=MATERIAL,id=DA_NANG_CAP_QUAN_NGUC,amount=16,display="Cường Hóa Thạch Quản Ngục"}
         - mmoitem{type=MATERIAL,id=NEN_DOI_QUAN_NGUC,amount=16,display="Quặng Tinh Luyện Quản Ngục"}
-    cuoc-quan-nguc-4:
+    cup-quan-nguc-4:
         output:
             type: TOOL
             id: PICKAXE_QUAN_NGUC_4
@@ -50,10 +50,10 @@ recipes:
         options:
             success-rate: 35
         ingredients:
-        - mmoitem{type=TOOL,id=PICKAXE_QUAN_NGUC_3,amount=1,display="Cuốc Quản Ngục III"}
+        - mmoitem{type=TOOL,id=PICKAXE_QUAN_NGUC_3,amount=1,display="Cúp Quản Ngục III"}
         - mmoitem{type=MATERIAL,id=DA_NANG_CAP_QUAN_NGUC,amount=32,display="Cường Hóa Thạch Quản Ngục"}
         - mmoitem{type=MATERIAL,id=NEN_DOI_QUAN_NGUC,amount=32,display="Quặng Tinh Luyện Quản Ngục"}
-    cuoc-quan-nguc-5:
+    cup-quan-nguc-5:
         output:
             type: TOOL
             id: PICKAXE_QUAN_NGUC_5
@@ -63,6 +63,6 @@ recipes:
         options:
             success-rate: 25
         ingredients:
-        - mmoitem{type=TOOL,id=PICKAXE_QUAN_NGUC_4,amount=1,display="Cuốc Quản Ngục IV"}
+        - mmoitem{type=TOOL,id=PICKAXE_QUAN_NGUC_4,amount=1,display="Cúp Quản Ngục IV"}
         - mmoitem{type=MATERIAL,id=DA_NANG_CAP_QUAN_NGUC,amount=64,display="Cường Hóa Thạch Quản Ngục"}
         - mmoitem{type=MATERIAL,id=NEN_DOI_QUAN_NGUC,amount=64,display="Quặng Tinh Luyện Quản Ngục"}

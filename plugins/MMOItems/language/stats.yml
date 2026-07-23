@@ -114,7 +114,7 @@ soulbound-level: "&8[&d&l🔮&8] &7Cấp khóa hồn: &d{value}"
 # Tools
 autosmelt: "&8[&c&l🔥&8] &7Tự động nung"
 bouncing-crack: "&8[&6&l💥&8] &7Nứt vỡ dội"
-pickaxe-power: "&8[&a&l⛏&8] &7Sức mạnh cuốc: &a{value}"
+pickaxe-power: "&8[&a&l⛏&8] &7Sức mạnh cúp: &a{value}"
 durability: "&8[&7&l🛡&8] &7Độ bền: &e{current} / {max}"
 
 # General
@@ -154,5 +154,5 @@ elemental-immunity: "&8[&6&l🔥&8] &7{value}% Miễn nhiễm {element}"
 # Custom Stats
 custom-miningefficiency: "&8[&e&l⚡&8] &7Hiệu suất đào: &e+{value}"
 custom-miningfortune: "&8[&a&l☘&8] &7Gia tài may mắn: &a+{value}"
-custom-miningunbreaking: "&8[&7&l🛡&8] &7Chống hỏng cuốc: &7+{value}"
+custom-miningunbreaking: "&8[&7&l🛡&8] &7Chống hỏng cúp: &7+{value}"
 custom-myluck: "&8[&a&l☘&8] &7May mắn: &a+{value}"

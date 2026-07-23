@@ -14,7 +14,7 @@ items:
         name: '&aNo Item in Queue'
 
 recipes:
-    cuoc-ba-chu-nguc-tu-2:
+    cup-ba-chu-nguc-tu-2:
         output:
             type: TOOL
             id: PICKAXE_BA_CHU_NGUC_TU_2
@@ -24,10 +24,10 @@ recipes:
         options:
             success-rate: 50
         ingredients:
-        - mmoitem{type=TOOL,id=PICKAXE_BA_CHU_NGUC_TU_1,amount=1,display="Cuốc Bá Chủ Ngục Tù I"}
+        - mmoitem{type=TOOL,id=PICKAXE_BA_CHU_NGUC_TU_1,amount=1,display="Cúp Bá Chủ Ngục Tù I"}
         - mmoitem{type=MATERIAL,id=DA_NANG_CAP_BA_CHU_NGUC_TU,amount=10,display="Cường Hóa Thạch Bá Chủ Ngục Tù"}
         - mmoitem{type=MATERIAL,id=NEN_DOI_BA_CHU_NGUC_TU,amount=10,display="Quặng Tinh Luyện Bá Chủ Ngục Tù"}
-    cuoc-ba-chu-nguc-tu-3:
+    cup-ba-chu-nguc-tu-3:
         output:
             type: TOOL
             id: PICKAXE_BA_CHU_NGUC_TU_3
@@ -37,10 +37,10 @@ recipes:
         options:
             success-rate: 40
         ingredients:
-        - mmoitem{type=TOOL,id=PICKAXE_BA_CHU_NGUC_TU_2,amount=1,display="Cuốc Bá Chủ Ngục Tù II"}
+        - mmoitem{type=TOOL,id=PICKAXE_BA_CHU_NGUC_TU_2,amount=1,display="Cúp Bá Chủ Ngục Tù II"}
         - mmoitem{type=MATERIAL,id=DA_NANG_CAP_BA_CHU_NGUC_TU,amount=20,display="Cường Hóa Thạch Bá Chủ Ngục Tù"}
         - mmoitem{type=MATERIAL,id=NEN_DOI_BA_CHU_NGUC_TU,amount=20,display="Quặng Tinh Luyện Bá Chủ Ngục Tù"}
-    cuoc-ba-chu-nguc-tu-4:
+    cup-ba-chu-nguc-tu-4:
         output:
             type: TOOL
             id: PICKAXE_BA_CHU_NGUC_TU_4
@@ -50,10 +50,10 @@ recipes:
         options:
             success-rate: 30
         ingredients:
-        - mmoitem{type=TOOL,id=PICKAXE_BA_CHU_NGUC_TU_3,amount=1,display="Cuốc Bá Chủ Ngục Tù III"}
+        - mmoitem{type=TOOL,id=PICKAXE_BA_CHU_NGUC_TU_3,amount=1,display="Cúp Bá Chủ Ngục Tù III"}
         - mmoitem{type=MATERIAL,id=DA_NANG_CAP_BA_CHU_NGUC_TU,amount=40,display="Cường Hóa Thạch Bá Chủ Ngục Tù"}
         - mmoitem{type=MATERIAL,id=NEN_DOI_BA_CHU_NGUC_TU,amount=40,display="Quặng Tinh Luyện Bá Chủ Ngục Tù"}
-    cuoc-ba-chu-nguc-tu-5:
+    cup-ba-chu-nguc-tu-5:
         output:
             type: TOOL
             id: PICKAXE_BA_CHU_NGUC_TU_5
@@ -63,6 +63,6 @@ recipes:
         options:
             success-rate: 20
         ingredients:
-        - mmoitem{type=TOOL,id=PICKAXE_BA_CHU_NGUC_TU_4,amount=1,display="Cuốc Bá Chủ Ngục Tù IV"}
+        - mmoitem{type=TOOL,id=PICKAXE_BA_CHU_NGUC_TU_4,amount=1,display="Cúp Bá Chủ Ngục Tù IV"}
         - mmoitem{type=MATERIAL,id=DA_NANG_CAP_BA_CHU_NGUC_TU,amount=64,display="Cường Hóa Thạch Bá Chủ Ngục Tù"}
         - mmoitem{type=MATERIAL,id=NEN_DOI_BA_CHU_NGUC_TU,amount=64,display="Quặng Tinh Luyện Bá Chủ Ngục Tù"}

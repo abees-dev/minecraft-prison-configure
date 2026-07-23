@@ -9,7 +9,7 @@ DA_NANG_CAP_TAN_BINH:
       unbreaking: 1
     lore:
       - '&7 &d●&7 Chế từ Cobblestone / Smooth Stone mỏ Tân Binh'
-      - '&7 &d●&7 Dùng để nâng cấp cuốc/giáp rank Tân Binh'
+      - '&7 &d●&7 Dùng để nâng cấp cúp/giáp rank Tân Binh'
 
 DA_NANG_CAP_TU_NHAN:
   base:
@@ -22,7 +22,7 @@ DA_NANG_CAP_TU_NHAN:
       unbreaking: 1
     lore:
       - '&7 &d●&7 Chế từ Coal Ore đào ở mỏ Tù Nhân'
-      - '&7 &d●&7 Dùng để nâng cấp cuốc/giáp rank Tù Nhân'
+      - '&7 &d●&7 Dùng để nâng cấp cúp/giáp rank Tù Nhân'
 
 DA_NANG_CAP_LAO_CONG:
   base:
@@ -35,7 +35,7 @@ DA_NANG_CAP_LAO_CONG:
       unbreaking: 1
     lore:
       - '&7 &d●&7 Chế từ Iron Ore đào ở mỏ Lao Công'
-      - '&7 &d●&7 Dùng để nâng cấp cuốc/giáp rank Lao Công'
+      - '&7 &d●&7 Dùng để nâng cấp cúp/giáp rank Lao Công'
 
 DA_NANG_CAP_THO_DAO:
   base:
@@ -48,7 +48,7 @@ DA_NANG_CAP_THO_DAO:
       unbreaking: 1
     lore:
       - '&7 &d●&7 Chế từ Gold Ore đào ở mỏ Thợ Đào'
-      - '&7 &d●&7 Dùng để nâng cấp cuốc/giáp rank Thợ Đào'
+      - '&7 &d●&7 Dùng để nâng cấp cúp/giáp rank Thợ Đào'
 
 DA_NANG_CAP_DOI_TRUONG:
   base:
@@ -61,7 +61,7 @@ DA_NANG_CAP_DOI_TRUONG:
       unbreaking: 1
     lore:
       - '&7 &d●&7 Chế từ Redstone Ore đào ở mỏ Đội Trưởng'
-      - '&7 &d●&7 Dùng để nâng cấp cuốc/giáp rank Đội Trưởng'
+      - '&7 &d●&7 Dùng để nâng cấp cúp/giáp rank Đội Trưởng'
 
 DA_NANG_CAP_PHO_QUAN_NGUC:
   base:
@@ -74,7 +74,7 @@ DA_NANG_CAP_PHO_QUAN_NGUC:
       unbreaking: 1
     lore:
       - '&7 &d●&7 Chế từ Diamond Ore đào ở mỏ Phó Quản Ngục'
-      - '&7 &d●&7 Dùng để nâng cấp cuốc/giáp rank Phó Quản Ngục'
+      - '&7 &d●&7 Dùng để nâng cấp cúp/giáp rank Phó Quản Ngục'
 
 DA_NANG_CAP_QUAN_NGUC:
   base:
@@ -87,7 +87,7 @@ DA_NANG_CAP_QUAN_NGUC:
       unbreaking: 1
     lore:
       - '&7 &d●&7 Chế từ Emerald Ore đào ở mỏ Quản Ngục'
-      - '&7 &d●&7 Dùng để nâng cấp cuốc/giáp rank Quản Ngục'
+      - '&7 &d●&7 Dùng để nâng cấp cúp/giáp rank Quản Ngục'
 
 DA_NANG_CAP_BA_CHU_NGUC_TU:
   base:
@@ -100,7 +100,7 @@ DA_NANG_CAP_BA_CHU_NGUC_TU:
       unbreaking: 1
     lore:
       - '&7 &d●&7 Chế từ Ancient Debris đào ở mỏ Bá Chủ Ngục Tù'
-      - '&7 &d●&7 Dùng để nâng cấp cuốc/giáp rank Bá Chủ Ngục Tù'
+      - '&7 &d●&7 Dùng để nâng cấp cúp/giáp rank Bá Chủ Ngục Tù'
 
 DA_NANG_CAP_VUOT_NGUC:
   base:
@@ -113,7 +113,7 @@ DA_NANG_CAP_VUOT_NGUC:
       unbreaking: 1
     lore:
       - '&7 &d●&7 Chế từ Netherite / Ancient Debris đào ở mỏ Vượt Ngục'
-      - '&7 &d●&7 Dùng để nâng cấp cuốc/giáp rank Vượt Ngục'
+      - '&7 &d●&7 Dùng để nâng cấp cúp/giáp rank Vượt Ngục'
 
 NEN_DOI_TAN_BINH:
   base:
@@ -126,7 +126,7 @@ NEN_DOI_TAN_BINH:
       unbreaking: 1
     lore:
       - '&7 &e●&7 Tinh luyện từ các khối vật phẩm (Block) Tân Binh'
-      - '&7 &e●&7 Dùng để chế Cường Hóa Thạch & Nâng Cấp Cuốc'
+      - '&7 &e●&7 Dùng để chế Cường Hóa Thạch & Nâng Cấp Cúp'
 
 NEN_DOI_TU_NHAN:
   base:
@@ -139,7 +139,7 @@ NEN_DOI_TU_NHAN:
       unbreaking: 1
     lore:
       - '&7 &e●&7 Tinh luyện từ các khối vật phẩm (Block) Tù Nhân'
-      - '&7 &e●&7 Dùng để chế Cường Hóa Thạch & Nâng Cấp Cuốc'
+      - '&7 &e●&7 Dùng để chế Cường Hóa Thạch & Nâng Cấp Cúp'
 
 NEN_DOI_LAO_CONG:
   base:
@@ -152,7 +152,7 @@ NEN_DOI_LAO_CONG:
       unbreaking: 1
     lore:
       - '&7 &e●&7 Tinh luyện từ các khối vật phẩm (Block) Lao Công'
-      - '&7 &e●&7 Dùng để chế Cường Hóa Thạch & Nâng Cấp Cuốc'
+      - '&7 &e●&7 Dùng để chế Cường Hóa Thạch & Nâng Cấp Cúp'
 
 NEN_DOI_THO_DAO:
   base:
@@ -165,7 +165,7 @@ NEN_DOI_THO_DAO:
       unbreaking: 1
     lore:
       - '&7 &e●&7 Tinh luyện từ các khối vật phẩm (Block) Thợ Đào'
-      - '&7 &e●&7 Dùng để chế Cường Hóa Thạch & Nâng Cấp Cuốc'
+      - '&7 &e●&7 Dùng để chế Cường Hóa Thạch & Nâng Cấp Cúp'
 
 NEN_DOI_DOI_TRUONG:
   base:
@@ -178,7 +178,7 @@ NEN_DOI_DOI_TRUONG:
       unbreaking: 1
     lore:
       - '&7 &e●&7 Tinh luyện từ các khối vật phẩm (Block) Đội Trưởng'
-      - '&7 &e●&7 Dùng để chế Cường Hóa Thạch & Nâng Cấp Cuốc'
+      - '&7 &e●&7 Dùng để chế Cường Hóa Thạch & Nâng Cấp Cúp'
 
 NEN_DOI_PHO_QUAN_NGUC:
   base:
@@ -191,7 +191,7 @@ NEN_DOI_PHO_QUAN_NGUC:
       unbreaking: 1
     lore:
       - '&7 &e●&7 Tinh luyện từ các khối vật phẩm (Block) Phó Quản Ngục'
-      - '&7 &e●&7 Dùng để chế Cường Hóa Thạch & Nâng Cấp Cuốc'
+      - '&7 &e●&7 Dùng để chế Cường Hóa Thạch & Nâng Cấp Cúp'
 
 NEN_DOI_QUAN_NGUC:
   base:
@@ -204,7 +204,7 @@ NEN_DOI_QUAN_NGUC:
       unbreaking: 1
     lore:
       - '&7 &e●&7 Tinh luyện từ các khối vật phẩm (Block) Quản Ngục'
-      - '&7 &e●&7 Dùng để chế Cường Hóa Thạch & Nâng Cấp Cuốc'
+      - '&7 &e●&7 Dùng để chế Cường Hóa Thạch & Nâng Cấp Cúp'
 
 NEN_DOI_BA_CHU_NGUC_TU:
   base:
@@ -217,7 +217,7 @@ NEN_DOI_BA_CHU_NGUC_TU:
       unbreaking: 1
     lore:
       - '&7 &e●&7 Tinh luyện từ các khối vật phẩm (Block) Bá Chủ Ngục Tù'
-      - '&7 &e●&7 Dùng để chế Cường Hóa Thạch & Nâng Cấp Cuốc'
+      - '&7 &e●&7 Dùng để chế Cường Hóa Thạch & Nâng Cấp Cúp'
 
 NEN_DOI_VUOT_NGUC:
   base:
@@ -243,5 +243,5 @@ NEN_BA_VUOT_NGUC:
       unbreaking: 1
     lore:
       - '&7 &4●&7 Tinh luyện từ 9 Quặng Tinh Luyện Vượt Ngục'
-      - '&7 &4●&7 Dùng để chế Cường Hóa Thạch & Nâng Cấp Cuốc Vượt Ngục'
+      - '&7 &4●&7 Dùng để chế Cường Hóa Thạch & Nâng Cấp Cúp Vượt Ngục'
       - '&7 &4●&7 Cấp tinh luyện cao nhất, chỉ có ở rank cuối'

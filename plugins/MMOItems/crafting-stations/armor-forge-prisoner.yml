@@ -1,0 +1,231 @@
+name: 'Lò Rèn Giáp Tù Nhân (#page#/#max#)'
+max-queue-size: 10
+sound: ENTITY_EXPERIENCE_ORB_PICKUP
+layout: default
+
+items:
+    fill:
+        material: AIR
+    no-recipe:
+        material: GRAY_STAINED_GLASS_PANE
+        name: '&aNo Recipe'
+    no-queue-item:
+        material: GRAY_STAINED_GLASS_PANE
+        name: '&aNo Item in Queue'
+
+recipes:
+    # --- NÓN ---
+    non-tu-nhan-2:
+        output:
+            type: ARMOR
+            id: HELMET_TU_NHAN_2
+            amount: 1
+        enchantments: MAXIMUM
+        crafting-time: 0
+        options:
+            success-rate: 80
+        ingredients:
+        - mmoitem{type=ARMOR,id=HELMET_TU_NHAN_1,amount=1,display="Nón Tù Nhân I"}
+        - mmoitem{type=MATERIAL,id=DA_NANG_CAP_TU_NHAN,amount=2,display="Cường Hóa Thạch Tù Nhân"}
+        - mmoitem{type=MATERIAL,id=NEN_DOI_TU_NHAN,amount=2,display="Quặng Tinh Luyện Tù Nhân"}
+    non-tu-nhan-3:
+        output:
+            type: ARMOR
+            id: HELMET_TU_NHAN_3
+            amount: 1
+        enchantments: MAXIMUM
+        crafting-time: 0
+        options:
+            success-rate: 70
+        ingredients:
+        - mmoitem{type=ARMOR,id=HELMET_TU_NHAN_2,amount=1,display="Nón Tù Nhân II"}
+        - mmoitem{type=MATERIAL,id=DA_NANG_CAP_TU_NHAN,amount=4,display="Cường Hóa Thạch Tù Nhân"}
+        - mmoitem{type=MATERIAL,id=NEN_DOI_TU_NHAN,amount=4,display="Quặng Tinh Luyện Tù Nhân"}
+    non-tu-nhan-4:
+        output:
+            type: ARMOR
+            id: HELMET_TU_NHAN_4
+            amount: 1
+        enchantments: MAXIMUM
+        crafting-time: 0
+        options:
+            success-rate: 60
+        ingredients:
+        - mmoitem{type=ARMOR,id=HELMET_TU_NHAN_3,amount=1,display="Nón Tù Nhân III"}
+        - mmoitem{type=MATERIAL,id=DA_NANG_CAP_TU_NHAN,amount=8,display="Cường Hóa Thạch Tù Nhân"}
+        - mmoitem{type=MATERIAL,id=NEN_DOI_TU_NHAN,amount=8,display="Quặng Tinh Luyện Tù Nhân"}
+    non-tu-nhan-5:
+        output:
+            type: ARMOR
+            id: HELMET_TU_NHAN_5
+            amount: 1
+        enchantments: MAXIMUM
+        crafting-time: 0
+        options:
+            success-rate: 50
+        ingredients:
+        - mmoitem{type=ARMOR,id=HELMET_TU_NHAN_4,amount=1,display="Nón Tù Nhân IV"}
+        - mmoitem{type=MATERIAL,id=DA_NANG_CAP_TU_NHAN,amount=16,display="Cường Hóa Thạch Tù Nhân"}
+        - mmoitem{type=MATERIAL,id=NEN_DOI_TU_NHAN,amount=16,display="Quặng Tinh Luyện Tù Nhân"}
+
+    # --- ÁO ---
+    ao-tu-nhan-2:
+        output:
+            type: ARMOR
+            id: CHESTPLATE_TU_NHAN_2
+            amount: 1
+        enchantments: MAXIMUM
+        crafting-time: 0
+        options:
+            success-rate: 80
+        ingredients:
+        - mmoitem{type=ARMOR,id=CHESTPLATE_TU_NHAN_1,amount=1,display="Áo Tù Nhân I"}
+        - mmoitem{type=MATERIAL,id=DA_NANG_CAP_TU_NHAN,amount=3,display="Cường Hóa Thạch Tù Nhân"}
+        - mmoitem{type=MATERIAL,id=NEN_DOI_TU_NHAN,amount=3,display="Quặng Tinh Luyện Tù Nhân"}
+    ao-tu-nhan-3:
+        output:
+            type: ARMOR
+            id: CHESTPLATE_TU_NHAN_3
+            amount: 1
+        enchantments: MAXIMUM
+        crafting-time: 0
+        options:
+            success-rate: 70
+        ingredients:
+        - mmoitem{type=ARMOR,id=CHESTPLATE_TU_NHAN_2,amount=1,display="Áo Tù Nhân II"}
+        - mmoitem{type=MATERIAL,id=DA_NANG_CAP_TU_NHAN,amount=6,display="Cường Hóa Thạch Tù Nhân"}
+        - mmoitem{type=MATERIAL,id=NEN_DOI_TU_NHAN,amount=6,display="Quặng Tinh Luyện Tù Nhân"}
+    ao-tu-nhan-4:
+        output:
+            type: ARMOR
+            id: CHESTPLATE_TU_NHAN_4
+            amount: 1
+        enchantments: MAXIMUM
+        crafting-time: 0
+        options:
+            success-rate: 60
+        ingredients:
+        - mmoitem{type=ARMOR,id=CHESTPLATE_TU_NHAN_3,amount=1,display="Áo Tù Nhân III"}
+        - mmoitem{type=MATERIAL,id=DA_NANG_CAP_TU_NHAN,amount=12,display="Cường Hóa Thạch Tù Nhân"}
+        - mmoitem{type=MATERIAL,id=NEN_DOI_TU_NHAN,amount=12,display="Quặng Tinh Luyện Tù Nhân"}
+    ao-tu-nhan-5:
+        output:
+            type: ARMOR
+            id: CHESTPLATE_TU_NHAN_5
+            amount: 1
+        enchantments: MAXIMUM
+        crafting-time: 0
+        options:
+            success-rate: 50
+        ingredients:
+        - mmoitem{type=ARMOR,id=CHESTPLATE_TU_NHAN_4,amount=1,display="Áo Tù Nhân IV"}
+        - mmoitem{type=MATERIAL,id=DA_NANG_CAP_TU_NHAN,amount=24,display="Cường Hóa Thạch Tù Nhân"}
+        - mmoitem{type=MATERIAL,id=NEN_DOI_TU_NHAN,amount=24,display="Quặng Tinh Luyện Tù Nhân"}
+
+    # --- QUẦN ---
+    quan-tu-nhan-2:
+        output:
+            type: ARMOR
+            id: LEGGINGS_TU_NHAN_2
+            amount: 1
+        enchantments: MAXIMUM
+        crafting-time: 0
+        options:
+            success-rate: 80
+        ingredients:
+        - mmoitem{type=ARMOR,id=LEGGINGS_TU_NHAN_1,amount=1,display="Quần Tù Nhân I"}
+        - mmoitem{type=MATERIAL,id=DA_NANG_CAP_TU_NHAN,amount=3,display="Cường Hóa Thạch Tù Nhân"}
+        - mmoitem{type=MATERIAL,id=NEN_DOI_TU_NHAN,amount=3,display="Quặng Tinh Luyện Tù Nhân"}
+    quan-tu-nhan-3:
+        output:
+            type: ARMOR
+            id: LEGGINGS_TU_NHAN_3
+            amount: 1
+        enchantments: MAXIMUM
+        crafting-time: 0
+        options:
+            success-rate: 70
+        ingredients:
+        - mmoitem{type=ARMOR,id=LEGGINGS_TU_NHAN_2,amount=1,display="Quần Tù Nhân II"}
+        - mmoitem{type=MATERIAL,id=DA_NANG_CAP_TU_NHAN,amount=6,display="Cường Hóa Thạch Tù Nhân"}
+        - mmoitem{type=MATERIAL,id=NEN_DOI_TU_NHAN,amount=6,display="Quặng Tinh Luyện Tù Nhân"}
+    quan-tu-nhan-4:
+        output:
+            type: ARMOR
+            id: LEGGINGS_TU_NHAN_4
+            amount: 1
+        enchantments: MAXIMUM
+        crafting-time: 0
+        options:
+            success-rate: 60
+        ingredients:
+        - mmoitem{type=ARMOR,id=LEGGINGS_TU_NHAN_3,amount=1,display="Quần Tù Nhân III"}
+        - mmoitem{type=MATERIAL,id=DA_NANG_CAP_TU_NHAN,amount=12,display="Cường Hóa Thạch Tù Nhân"}
+        - mmoitem{type=MATERIAL,id=NEN_DOI_TU_NHAN,amount=12,display="Quặng Tinh Luyện Tù Nhân"}
+    quan-tu-nhan-5:
+        output:
+            type: ARMOR
+            id: LEGGINGS_TU_NHAN_5
+            amount: 1
+        enchantments: MAXIMUM
+        crafting-time: 0
+        options:
+            success-rate: 50
+        ingredients:
+        - mmoitem{type=ARMOR,id=LEGGINGS_TU_NHAN_4,amount=1,display="Quần Tù Nhân IV"}
+        - mmoitem{type=MATERIAL,id=DA_NANG_CAP_TU_NHAN,amount=24,display="Cường Hóa Thạch Tù Nhân"}
+        - mmoitem{type=MATERIAL,id=NEN_DOI_TU_NHAN,amount=24,display="Quặng Tinh Luyện Tù Nhân"}
+
+    # --- GIÀY ---
+    giay-tu-nhan-2:
+        output:
+            type: ARMOR
+            id: BOOTS_TU_NHAN_2
+            amount: 1
+        enchantments: MAXIMUM
+        crafting-time: 0
+        options:
+            success-rate: 80
+        ingredients:
+        - mmoitem{type=ARMOR,id=BOOTS_TU_NHAN_1,amount=1,display="Giày Tù Nhân I"}
+        - mmoitem{type=MATERIAL,id=DA_NANG_CAP_TU_NHAN,amount=2,display="Cường Hóa Thạch Tù Nhân"}
+        - mmoitem{type=MATERIAL,id=NEN_DOI_TU_NHAN,amount=2,display="Quặng Tinh Luyện Tù Nhân"}
+    giay-tu-nhan-3:
+        output:
+            type: ARMOR
+            id: BOOTS_TU_NHAN_3
+            amount: 1
+        enchantments: MAXIMUM
+        crafting-time: 0
+        options:
+            success-rate: 70
+        ingredients:
+        - mmoitem{type=ARMOR,id=BOOTS_TU_NHAN_2,amount=1,display="Giày Tù Nhân II"}
+        - mmoitem{type=MATERIAL,id=DA_NANG_CAP_TU_NHAN,amount=4,display="Cường Hóa Thạch Tù Nhân"}
+        - mmoitem{type=MATERIAL,id=NEN_DOI_TU_NHAN,amount=4,display="Quặng Tinh Luyện Tù Nhân"}
+    giay-tu-nhan-4:
+        output:
+            type: ARMOR
+            id: BOOTS_TU_NHAN_4
+            amount: 1
+        enchantments: MAXIMUM
+        crafting-time: 0
+        options:
+            success-rate: 60
+        ingredients:
+        - mmoitem{type=ARMOR,id=BOOTS_TU_NHAN_3,amount=1,display="Giày Tù Nhân III"}
+        - mmoitem{type=MATERIAL,id=DA_NANG_CAP_TU_NHAN,amount=8,display="Cường Hóa Thạch Tù Nhân"}
+        - mmoitem{type=MATERIAL,id=NEN_DOI_TU_NHAN,amount=8,display="Quặng Tinh Luyện Tù Nhân"}
+    giay-tu-nhan-5:
+        output:
+            type: ARMOR
+            id: BOOTS_TU_NHAN_5
+            amount: 1
+        enchantments: MAXIMUM
+        crafting-time: 0
+        options:
+            success-rate: 50
+        ingredients:
+        - mmoitem{type=ARMOR,id=BOOTS_TU_NHAN_4,amount=1,display="Giày Tù Nhân IV"}
+        - mmoitem{type=MATERIAL,id=DA_NANG_CAP_TU_NHAN,amount=16,display="Cường Hóa Thạch Tù Nhân"}
+        - mmoitem{type=MATERIAL,id=NEN_DOI_TU_NHAN,amount=16,display="Quặng Tinh Luyện Tù Nhân"}

@@ -14,7 +14,7 @@ items:
         name: '&aNo Item in Queue'
 
 recipes:
-    cuoc-lao-cong-2:
+    cup-lao-cong-2:
         output:
             type: TOOL
             id: PICKAXE_LAO_CONG_2
@@ -24,10 +24,10 @@ recipes:
         options:
             success-rate: 75
         ingredients:
-        - mmoitem{type=TOOL,id=PICKAXE_LAO_CONG_1,amount=1,display="Cuốc Lao Công I"}
+        - mmoitem{type=TOOL,id=PICKAXE_LAO_CONG_1,amount=1,display="Cúp Lao Công I"}
         - mmoitem{type=MATERIAL,id=DA_NANG_CAP_LAO_CONG,amount=4,display="Cường Hóa Thạch Lao Công"}
         - mmoitem{type=MATERIAL,id=NEN_DOI_LAO_CONG,amount=4,display="Quặng Tinh Luyện Lao Công"}
-    cuoc-lao-cong-3:
+    cup-lao-cong-3:
         output:
             type: TOOL
             id: PICKAXE_LAO_CONG_3
@@ -37,10 +37,10 @@ recipes:
         options:
             success-rate: 65
         ingredients:
-        - mmoitem{type=TOOL,id=PICKAXE_LAO_CONG_2,amount=1,display="Cuốc Lao Công II"}
+        - mmoitem{type=TOOL,id=PICKAXE_LAO_CONG_2,amount=1,display="Cúp Lao Công II"}
         - mmoitem{type=MATERIAL,id=DA_NANG_CAP_LAO_CONG,amount=8,display="Cường Hóa Thạch Lao Công"}
         - mmoitem{type=MATERIAL,id=NEN_DOI_LAO_CONG,amount=8,display="Quặng Tinh Luyện Lao Công"}
-    cuoc-lao-cong-4:
+    cup-lao-cong-4:
         output:
             type: TOOL
             id: PICKAXE_LAO_CONG_4
@@ -50,10 +50,10 @@ recipes:
         options:
             success-rate: 55
         ingredients:
-        - mmoitem{type=TOOL,id=PICKAXE_LAO_CONG_3,amount=1,display="Cuốc Lao Công III"}
+        - mmoitem{type=TOOL,id=PICKAXE_LAO_CONG_3,amount=1,display="Cúp Lao Công III"}
         - mmoitem{type=MATERIAL,id=DA_NANG_CAP_LAO_CONG,amount=16,display="Cường Hóa Thạch Lao Công"}
         - mmoitem{type=MATERIAL,id=NEN_DOI_LAO_CONG,amount=16,display="Quặng Tinh Luyện Lao Công"}
-    cuoc-lao-cong-5:
+    cup-lao-cong-5:
         output:
             type: TOOL
             id: PICKAXE_LAO_CONG_5
@@ -63,6 +63,6 @@ recipes:
         options:
             success-rate: 45
         ingredients:
-        - mmoitem{type=TOOL,id=PICKAXE_LAO_CONG_4,amount=1,display="Cuốc Lao Công IV"}
+        - mmoitem{type=TOOL,id=PICKAXE_LAO_CONG_4,amount=1,display="Cúp Lao Công IV"}
         - mmoitem{type=MATERIAL,id=DA_NANG_CAP_LAO_CONG,amount=32,display="Cường Hóa Thạch Lao Công"}
         - mmoitem{type=MATERIAL,id=NEN_DOI_LAO_CONG,amount=32,display="Quặng Tinh Luyện Lao Công"}

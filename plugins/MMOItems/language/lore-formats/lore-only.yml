@@ -1,4 +1,4 @@
-# Lore format riêng cho cuốc Prison (lore-only, gọn gàng).
+# Lore format riêng cho cúp Prison (lore-only, gọn gàng).
 # Gán vào item bằng: lore-format: lore-only
 lore-format:
   - '#lore#'

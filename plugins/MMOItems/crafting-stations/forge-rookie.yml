@@ -14,7 +14,7 @@ items:
         name: '&aNo Item in Queue'
 
 recipes:
-    cuoc-tan-binh-2:
+    cup-tan-binh-2:
         output:
             type: TOOL
             id: PICKAXE_TAN_BINH_2
@@ -24,10 +24,10 @@ recipes:
         options:
             success-rate: 85
         ingredients:
-        - mmoitem{type=TOOL,id=PICKAXE_TAN_BINH_1,amount=1,display="Cuốc Tân Binh I"}
+        - mmoitem{type=TOOL,id=PICKAXE_TAN_BINH_1,amount=1,display="Cúp Tân Binh I"}
         - mmoitem{type=MATERIAL,id=DA_NANG_CAP_TAN_BINH,amount=2,display="Cường Hóa Thạch Tân Binh"}
         - mmoitem{type=MATERIAL,id=NEN_DOI_TAN_BINH,amount=2,display="Quặng Tinh Luyện Tân Binh"}
-    cuoc-tan-binh-3:
+    cup-tan-binh-3:
         output:
             type: TOOL
             id: PICKAXE_TAN_BINH_3
@@ -37,10 +37,10 @@ recipes:
         options:
             success-rate: 75
         ingredients:
-        - mmoitem{type=TOOL,id=PICKAXE_TAN_BINH_2,amount=1,display="Cuốc Tân Binh II"}
+        - mmoitem{type=TOOL,id=PICKAXE_TAN_BINH_2,amount=1,display="Cúp Tân Binh II"}
         - mmoitem{type=MATERIAL,id=DA_NANG_CAP_TAN_BINH,amount=4,display="Cường Hóa Thạch Tân Binh"}
         - mmoitem{type=MATERIAL,id=NEN_DOI_TAN_BINH,amount=4,display="Quặng Tinh Luyện Tân Binh"}
-    cuoc-tan-binh-4:
+    cup-tan-binh-4:
         output:
             type: TOOL
             id: PICKAXE_TAN_BINH_4
@@ -50,10 +50,10 @@ recipes:
         options:
             success-rate: 65
         ingredients:
-        - mmoitem{type=TOOL,id=PICKAXE_TAN_BINH_3,amount=1,display="Cuốc Tân Binh III"}
+        - mmoitem{type=TOOL,id=PICKAXE_TAN_BINH_3,amount=1,display="Cúp Tân Binh III"}
         - mmoitem{type=MATERIAL,id=DA_NANG_CAP_TAN_BINH,amount=8,display="Cường Hóa Thạch Tân Binh"}
         - mmoitem{type=MATERIAL,id=NEN_DOI_TAN_BINH,amount=8,display="Quặng Tinh Luyện Tân Binh"}
-    cuoc-tan-binh-5:
+    cup-tan-binh-5:
         output:
             type: TOOL
             id: PICKAXE_TAN_BINH_5
@@ -63,6 +63,6 @@ recipes:
         options:
             success-rate: 55
         ingredients:
-        - mmoitem{type=TOOL,id=PICKAXE_TAN_BINH_4,amount=1,display="Cuốc Tân Binh IV"}
+        - mmoitem{type=TOOL,id=PICKAXE_TAN_BINH_4,amount=1,display="Cúp Tân Binh IV"}
         - mmoitem{type=MATERIAL,id=DA_NANG_CAP_TAN_BINH,amount=16,display="Cường Hóa Thạch Tân Binh"}
         - mmoitem{type=MATERIAL,id=NEN_DOI_TAN_BINH,amount=16,display="Quặng Tinh Luyện Tân Binh"}

@@ -14,7 +14,7 @@ items:
         name: '&aNo Item in Queue'
 
 recipes:
-    cuoc-tu-nhan-2:
+    cup-tu-nhan-2:
         output:
             type: TOOL
             id: PICKAXE_TU_NHAN_2
@@ -24,10 +24,10 @@ recipes:
         options:
             success-rate: 80
         ingredients:
-        - mmoitem{type=TOOL,id=PICKAXE_TU_NHAN_1,amount=1,display="Cuốc Tù Nhân I"}
+        - mmoitem{type=TOOL,id=PICKAXE_TU_NHAN_1,amount=1,display="Cúp Tù Nhân I"}
         - mmoitem{type=MATERIAL,id=DA_NANG_CAP_TU_NHAN,amount=3,display="Cường Hóa Thạch Tù Nhân"}
         - mmoitem{type=MATERIAL,id=NEN_DOI_TU_NHAN,amount=3,display="Quặng Tinh Luyện Tù Nhân"}
-    cuoc-tu-nhan-3:
+    cup-tu-nhan-3:
         output:
             type: TOOL
             id: PICKAXE_TU_NHAN_3
@@ -37,10 +37,10 @@ recipes:
         options:
             success-rate: 70
         ingredients:
-        - mmoitem{type=TOOL,id=PICKAXE_TU_NHAN_2,amount=1,display="Cuốc Tù Nhân II"}
+        - mmoitem{type=TOOL,id=PICKAXE_TU_NHAN_2,amount=1,display="Cúp Tù Nhân II"}
         - mmoitem{type=MATERIAL,id=DA_NANG_CAP_TU_NHAN,amount=6,display="Cường Hóa Thạch Tù Nhân"}
         - mmoitem{type=MATERIAL,id=NEN_DOI_TU_NHAN,amount=6,display="Quặng Tinh Luyện Tù Nhân"}
-    cuoc-tu-nhan-4:
+    cup-tu-nhan-4:
         output:
             type: TOOL
             id: PICKAXE_TU_NHAN_4
@@ -50,10 +50,10 @@ recipes:
         options:
             success-rate: 60
         ingredients:
-        - mmoitem{type=TOOL,id=PICKAXE_TU_NHAN_3,amount=1,display="Cuốc Tù Nhân III"}
+        - mmoitem{type=TOOL,id=PICKAXE_TU_NHAN_3,amount=1,display="Cúp Tù Nhân III"}
         - mmoitem{type=MATERIAL,id=DA_NANG_CAP_TU_NHAN,amount=12,display="Cường Hóa Thạch Tù Nhân"}
         - mmoitem{type=MATERIAL,id=NEN_DOI_TU_NHAN,amount=12,display="Quặng Tinh Luyện Tù Nhân"}
-    cuoc-tu-nhan-5:
+    cup-tu-nhan-5:
         output:
             type: TOOL
             id: PICKAXE_TU_NHAN_5
@@ -63,6 +63,6 @@ recipes:
         options:
             success-rate: 50
         ingredients:
-        - mmoitem{type=TOOL,id=PICKAXE_TU_NHAN_4,amount=1,display="Cuốc Tù Nhân IV"}
+        - mmoitem{type=TOOL,id=PICKAXE_TU_NHAN_4,amount=1,display="Cúp Tù Nhân IV"}
         - mmoitem{type=MATERIAL,id=DA_NANG_CAP_TU_NHAN,amount=24,display="Cường Hóa Thạch Tù Nhân"}
         - mmoitem{type=MATERIAL,id=NEN_DOI_TU_NHAN,amount=24,display="Quặng Tinh Luyện Tù Nhân"}

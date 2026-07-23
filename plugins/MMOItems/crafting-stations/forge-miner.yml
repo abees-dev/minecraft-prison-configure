@@ -14,7 +14,7 @@ items:
         name: '&aNo Item in Queue'
 
 recipes:
-    cuoc-tho-dao-2:
+    cup-tho-dao-2:
         output:
             type: TOOL
             id: PICKAXE_THO_DAO_2
@@ -24,10 +24,10 @@ recipes:
         options:
             success-rate: 70
         ingredients:
-        - mmoitem{type=TOOL,id=PICKAXE_THO_DAO_1,amount=1,display="Cuốc Thợ Đào I"}
+        - mmoitem{type=TOOL,id=PICKAXE_THO_DAO_1,amount=1,display="Cúp Thợ Đào I"}
         - mmoitem{type=MATERIAL,id=DA_NANG_CAP_THO_DAO,amount=5,display="Cường Hóa Thạch Thợ Đào"}
         - mmoitem{type=MATERIAL,id=NEN_DOI_THO_DAO,amount=5,display="Quặng Tinh Luyện Thợ Đào"}
-    cuoc-tho-dao-3:
+    cup-tho-dao-3:
         output:
             type: TOOL
             id: PICKAXE_THO_DAO_3
@@ -37,10 +37,10 @@ recipes:
         options:
             success-rate: 60
         ingredients:
-        - mmoitem{type=TOOL,id=PICKAXE_THO_DAO_2,amount=1,display="Cuốc Thợ Đào II"}
+        - mmoitem{type=TOOL,id=PICKAXE_THO_DAO_2,amount=1,display="Cúp Thợ Đào II"}
         - mmoitem{type=MATERIAL,id=DA_NANG_CAP_THO_DAO,amount=10,display="Cường Hóa Thạch Thợ Đào"}
         - mmoitem{type=MATERIAL,id=NEN_DOI_THO_DAO,amount=10,display="Quặng Tinh Luyện Thợ Đào"}
-    cuoc-tho-dao-4:
+    cup-tho-dao-4:
         output:
             type: TOOL
             id: PICKAXE_THO_DAO_4
@@ -50,10 +50,10 @@ recipes:
         options:
             success-rate: 50
         ingredients:
-        - mmoitem{type=TOOL,id=PICKAXE_THO_DAO_3,amount=1,display="Cuốc Thợ Đào III"}
+        - mmoitem{type=TOOL,id=PICKAXE_THO_DAO_3,amount=1,display="Cúp Thợ Đào III"}
         - mmoitem{type=MATERIAL,id=DA_NANG_CAP_THO_DAO,amount=20,display="Cường Hóa Thạch Thợ Đào"}
         - mmoitem{type=MATERIAL,id=NEN_DOI_THO_DAO,amount=20,display="Quặng Tinh Luyện Thợ Đào"}
-    cuoc-tho-dao-5:
+    cup-tho-dao-5:
         output:
             type: TOOL
             id: PICKAXE_THO_DAO_5
@@ -63,6 +63,6 @@ recipes:
         options:
             success-rate: 40
         ingredients:
-        - mmoitem{type=TOOL,id=PICKAXE_THO_DAO_4,amount=1,display="Cuốc Thợ Đào IV"}
+        - mmoitem{type=TOOL,id=PICKAXE_THO_DAO_4,amount=1,display="Cúp Thợ Đào IV"}
         - mmoitem{type=MATERIAL,id=DA_NANG_CAP_THO_DAO,amount=40,display="Cường Hóa Thạch Thợ Đào"}
         - mmoitem{type=MATERIAL,id=NEN_DOI_THO_DAO,amount=40,display="Quặng Tinh Luyện Thợ Đào"}

@@ -14,7 +14,7 @@ items:
         name: '&aNo Item in Queue'
 
 recipes:
-    cuoc-pho-quan-nguc-2:
+    cup-pho-quan-nguc-2:
         output:
             type: TOOL
             id: PICKAXE_PHO_QUAN_NGUC_2
@@ -24,10 +24,10 @@ recipes:
         options:
             success-rate: 60
         ingredients:
-        - mmoitem{type=TOOL,id=PICKAXE_PHO_QUAN_NGUC_1,amount=1,display="Cuốc Phó Quản Ngục I"}
+        - mmoitem{type=TOOL,id=PICKAXE_PHO_QUAN_NGUC_1,amount=1,display="Cúp Phó Quản Ngục I"}
         - mmoitem{type=MATERIAL,id=DA_NANG_CAP_PHO_QUAN_NGUC,amount=7,display="Cường Hóa Thạch Phó Quản Ngục"}
         - mmoitem{type=MATERIAL,id=NEN_DOI_PHO_QUAN_NGUC,amount=7,display="Quặng Tinh Luyện Phó Quản Ngục"}
-    cuoc-pho-quan-nguc-3:
+    cup-pho-quan-nguc-3:
         output:
             type: TOOL
             id: PICKAXE_PHO_QUAN_NGUC_3
@@ -37,10 +37,10 @@ recipes:
         options:
             success-rate: 50
         ingredients:
-        - mmoitem{type=TOOL,id=PICKAXE_PHO_QUAN_NGUC_2,amount=1,display="Cuốc Phó Quản Ngục II"}
+        - mmoitem{type=TOOL,id=PICKAXE_PHO_QUAN_NGUC_2,amount=1,display="Cúp Phó Quản Ngục II"}
         - mmoitem{type=MATERIAL,id=DA_NANG_CAP_PHO_QUAN_NGUC,amount=14,display="Cường Hóa Thạch Phó Quản Ngục"}
         - mmoitem{type=MATERIAL,id=NEN_DOI_PHO_QUAN_NGUC,amount=14,display="Quặng Tinh Luyện Phó Quản Ngục"}
-    cuoc-pho-quan-nguc-4:
+    cup-pho-quan-nguc-4:
         output:
             type: TOOL
             id: PICKAXE_PHO_QUAN_NGUC_4
@@ -50,10 +50,10 @@ recipes:
         options:
             success-rate: 40
         ingredients:
-        - mmoitem{type=TOOL,id=PICKAXE_PHO_QUAN_NGUC_3,amount=1,display="Cuốc Phó Quản Ngục III"}
+        - mmoitem{type=TOOL,id=PICKAXE_PHO_QUAN_NGUC_3,amount=1,display="Cúp Phó Quản Ngục III"}
         - mmoitem{type=MATERIAL,id=DA_NANG_CAP_PHO_QUAN_NGUC,amount=28,display="Cường Hóa Thạch Phó Quản Ngục"}
         - mmoitem{type=MATERIAL,id=NEN_DOI_PHO_QUAN_NGUC,amount=28,display="Quặng Tinh Luyện Phó Quản Ngục"}
-    cuoc-pho-quan-nguc-5:
+    cup-pho-quan-nguc-5:
         output:
             type: TOOL
             id: PICKAXE_PHO_QUAN_NGUC_5
@@ -63,6 +63,6 @@ recipes:
         options:
             success-rate: 30
         ingredients:
-        - mmoitem{type=TOOL,id=PICKAXE_PHO_QUAN_NGUC_4,amount=1,display="Cuốc Phó Quản Ngục IV"}
+        - mmoitem{type=TOOL,id=PICKAXE_PHO_QUAN_NGUC_4,amount=1,display="Cúp Phó Quản Ngục IV"}
         - mmoitem{type=MATERIAL,id=DA_NANG_CAP_PHO_QUAN_NGUC,amount=56,display="Cường Hóa Thạch Phó Quản Ngục"}
         - mmoitem{type=MATERIAL,id=NEN_DOI_PHO_QUAN_NGUC,amount=56,display="Quặng Tinh Luyện Phó Quản Ngục"}

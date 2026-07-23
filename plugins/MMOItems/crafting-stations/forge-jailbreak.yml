@@ -14,7 +14,7 @@ items:
         name: '&aNo Item in Queue'
 
 recipes:
-    cuoc-vuot-nguc-2:
+    cup-vuot-nguc-2:
         output:
             type: TOOL
             id: PICKAXE_VUOT_NGUC_2
@@ -24,10 +24,10 @@ recipes:
         options:
             success-rate: 45
         ingredients:
-        - mmoitem{type=TOOL,id=PICKAXE_VUOT_NGUC_1,amount=1,display="Cuốc Vượt Ngục I"}
+        - mmoitem{type=TOOL,id=PICKAXE_VUOT_NGUC_1,amount=1,display="Cúp Vượt Ngục I"}
         - mmoitem{type=MATERIAL,id=DA_NANG_CAP_VUOT_NGUC,amount=12,display="Cường Hóa Thạch Vượt Ngục"}
         - mmoitem{type=MATERIAL,id=NEN_DOI_VUOT_NGUC,amount=12,display="Quặng Tinh Luyện Vượt Ngục"}
-    cuoc-vuot-nguc-3:
+    cup-vuot-nguc-3:
         output:
             type: TOOL
             id: PICKAXE_VUOT_NGUC_3
@@ -37,10 +37,10 @@ recipes:
         options:
             success-rate: 35
         ingredients:
-        - mmoitem{type=TOOL,id=PICKAXE_VUOT_NGUC_2,amount=1,display="Cuốc Vượt Ngục II"}
+        - mmoitem{type=TOOL,id=PICKAXE_VUOT_NGUC_2,amount=1,display="Cúp Vượt Ngục II"}
         - mmoitem{type=MATERIAL,id=DA_NANG_CAP_VUOT_NGUC,amount=24,display="Cường Hóa Thạch Vượt Ngục"}
         - mmoitem{type=MATERIAL,id=NEN_DOI_VUOT_NGUC,amount=24,display="Quặng Tinh Luyện Vượt Ngục"}
-    cuoc-vuot-nguc-4:
+    cup-vuot-nguc-4:
         output:
             type: TOOL
             id: PICKAXE_VUOT_NGUC_4
@@ -50,10 +50,10 @@ recipes:
         options:
             success-rate: 25
         ingredients:
-        - mmoitem{type=TOOL,id=PICKAXE_VUOT_NGUC_3,amount=1,display="Cuốc Vượt Ngục III"}
+        - mmoitem{type=TOOL,id=PICKAXE_VUOT_NGUC_3,amount=1,display="Cúp Vượt Ngục III"}
         - mmoitem{type=MATERIAL,id=DA_NANG_CAP_VUOT_NGUC,amount=48,display="Cường Hóa Thạch Vượt Ngục"}
         - mmoitem{type=MATERIAL,id=NEN_DOI_VUOT_NGUC,amount=48,display="Quặng Tinh Luyện Vượt Ngục"}
-    cuoc-vuot-nguc-5:
+    cup-vuot-nguc-5:
         output:
             type: TOOL
             id: PICKAXE_VUOT_NGUC_5
@@ -63,6 +63,6 @@ recipes:
         options:
             success-rate: 15
         ingredients:
-        - mmoitem{type=TOOL,id=PICKAXE_VUOT_NGUC_4,amount=1,display="Cuốc Vượt Ngục IV"}
+        - mmoitem{type=TOOL,id=PICKAXE_VUOT_NGUC_4,amount=1,display="Cúp Vượt Ngục IV"}
         - mmoitem{type=MATERIAL,id=DA_NANG_CAP_VUOT_NGUC,amount=64,display="Cường Hóa Thạch Vượt Ngục"}
         - mmoitem{type=MATERIAL,id=NEN_DOI_VUOT_NGUC,amount=64,display="Quặng Tinh Luyện Vượt Ngục"}
