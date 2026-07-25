@@ -6,7 +6,7 @@ TRADE_RING_HOA_LONG_1:
     material: PAPER
     custom-model-data: 19201
     name: "&6&l🔥 Nhẫn Hỏa Long I"
-    tier: UNIQUE
+    tier: RARE
     set: HOA_LONG_SET
     critical-strike-power: 45
     physical-damage: 25
@@ -23,7 +23,7 @@ TRADE_RING_HOA_LONG_2:
     material: PAPER
     custom-model-data: 19202
     name: "&6&l🔥 Nhẫn Hỏa Long II"
-    tier: UNIQUE
+    tier: RARE
     set: HOA_LONG_SET
     critical-strike-power: 45
     physical-damage: 25
@@ -35,7 +35,7 @@ TRADE_RING_HOA_LONG_2:
 TRADE_RING_HAC_LONG_1:
   itemsadder-item: "rings_pack:set3_ring_1"
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 7.0
     revision-id: 1
     material: PAPER
     custom-model-data: 19220
@@ -52,7 +52,7 @@ TRADE_RING_HAC_LONG_1:
 TRADE_RING_HAC_LONG_2:
   itemsadder-item: "rings_pack:set3_ring_2"
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 7.0
     revision-id: 1
     material: PAPER
     custom-model-data: 19221
@@ -69,12 +69,12 @@ TRADE_RING_HAC_LONG_2:
 TRADE_RING_LOI_LONG_1:
   itemsadder-item: "rings_pack:set8_ring_1"
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 5.0
     revision-id: 1
     material: PAPER
     custom-model-data: 19270
     name: "&e&l⚡ Nhẫn Lôi Long I"
-    tier: UNIQUE
+    tier: LEGENDARY
     set: LOI_LONG_SET
     critical-strike-power: 30
     attack-speed: 20
@@ -87,12 +87,12 @@ TRADE_RING_LOI_LONG_1:
 TRADE_RING_LOI_LONG_2:
   itemsadder-item: "rings_pack:set8_ring_2"
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 5.0
     revision-id: 1
     material: PAPER
     custom-model-data: 19271
     name: "&e&l⚡ Nhẫn Lôi Long II"
-    tier: UNIQUE
+    tier: LEGENDARY
     set: LOI_LONG_SET
     critical-strike-power: 30
     attack-speed: 20
@@ -105,12 +105,12 @@ TRADE_RING_LOI_LONG_2:
 TRADE_RING_PHONG_LONG_1:
   itemsadder-item: "rings_pack:set5_ring_1"
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 6.0
     revision-id: 1
     material: PAPER
     custom-model-data: 19240
     name: "&2&l✦ Nhẫn Phong Long I"
-    tier: UNIQUE
+    tier: MYTHICAL
     set: PHONG_LONG_SET
     critical-strike-power: 45
     armor-penetration: 12
@@ -122,12 +122,12 @@ TRADE_RING_PHONG_LONG_1:
 TRADE_RING_PHONG_LONG_2:
   itemsadder-item: "rings_pack:set5_ring_2"
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 6.0
     revision-id: 1
     material: PAPER
     custom-model-data: 19241
     name: "&2&l✦ Nhẫn Phong Long II"
-    tier: UNIQUE
+    tier: MYTHICAL
     set: PHONG_LONG_SET
     critical-strike-power: 45
     armor-penetration: 12
@@ -139,12 +139,12 @@ TRADE_RING_PHONG_LONG_2:
 TRADE_RING_BANG_LONG_1:
   itemsadder-item: "rings_pack:set2_ring_1"
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 4.0
     revision-id: 1
     material: PAPER
     custom-model-data: 19210
     name: "&3&l✦ Nhẫn Băng Long I"
-    tier: UNIQUE
+    tier: EPIC
     set: BANG_LONG_SET
     critical-strike-power: 30
     max-health: 160
@@ -157,12 +157,12 @@ TRADE_RING_BANG_LONG_1:
 TRADE_RING_BANG_LONG_2:
   itemsadder-item: "rings_pack:set2_ring_2"
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 4.0
     revision-id: 1
     material: PAPER
     custom-model-data: 19211
     name: "&3&l✦ Nhẫn Băng Long II"
-    tier: UNIQUE
+    tier: EPIC
     set: BANG_LONG_SET
     critical-strike-power: 30
     max-health: 160
@@ -175,12 +175,12 @@ TRADE_RING_BANG_LONG_2:
 DONATE_RING_LONG_CHIEN_1:
   itemsadder-item: "rings_pack:set4_ring_1"
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 6.0
     revision-id: 1
     material: PAPER
     custom-model-data: 19230
     name: "&e&l⚔ Nhẫn Chiến Long I"
-    tier: UNIQUE
+    tier: MYTHICAL
     set: LONG_CHIEN_SET
     critical-strike-power: 45
     physical-damage: 25
@@ -192,12 +192,12 @@ DONATE_RING_LONG_CHIEN_1:
 DONATE_RING_LONG_CHIEN_2:
   itemsadder-item: "rings_pack:set4_ring_2"
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 6.0
     revision-id: 1
     material: PAPER
     custom-model-data: 19231
     name: "&e&l⚔ Nhẫn Chiến Long II"
-    tier: UNIQUE
+    tier: MYTHICAL
     set: LONG_CHIEN_SET
     critical-strike-power: 45
     physical-damage: 25
@@ -209,12 +209,12 @@ DONATE_RING_LONG_CHIEN_2:
 DONATE_RING_LONG_THAN_1:
   itemsadder-item: "rings_pack:set6_ring_1"
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 6.0
     revision-id: 1
     material: PAPER
     custom-model-data: 19250
     name: "&b&l✦ Nhẫn Thần Long I"
-    tier: UNIQUE
+    tier: MYTHICAL
     set: LONG_THAN_SET
     critical-strike-power: 45
     magic-damage: 40
@@ -226,12 +226,12 @@ DONATE_RING_LONG_THAN_1:
 DONATE_RING_LONG_THAN_2:
   itemsadder-item: "rings_pack:set6_ring_2"
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 6.0
     revision-id: 1
     material: PAPER
     custom-model-data: 19251
     name: "&b&l✦ Nhẫn Thần Long II"
-    tier: UNIQUE
+    tier: MYTHICAL
     set: LONG_THAN_SET
     critical-strike-power: 45
     magic-damage: 40
@@ -243,7 +243,7 @@ DONATE_RING_LONG_THAN_2:
 DONATE_RING_LONG_HOANG_1:
   itemsadder-item: "rings_pack:set9_ring_1"
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 7.0
     revision-id: 1
     material: PAPER
     custom-model-data: 19280
@@ -261,7 +261,7 @@ DONATE_RING_LONG_HOANG_1:
 DONATE_RING_LONG_HOANG_2:
   itemsadder-item: "rings_pack:set9_ring_2"
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 7.0
     revision-id: 1
     material: PAPER
     custom-model-data: 19281
@@ -279,7 +279,7 @@ DONATE_RING_LONG_HOANG_2:
 DONATE_RING_LONG_DE_1:
   itemsadder-item: "rings_pack:set7_ring_1"
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 7.0
     revision-id: 1
     material: PAPER
     custom-model-data: 19260
@@ -296,7 +296,7 @@ DONATE_RING_LONG_DE_1:
 DONATE_RING_LONG_DE_2:
   itemsadder-item: "rings_pack:set7_ring_2"
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 7.0
     revision-id: 1
     material: PAPER
     custom-model-data: 19261
@@ -313,12 +313,12 @@ DONATE_RING_LONG_DE_2:
 DONATE_RING_LONG_VE_1:
   itemsadder-item: "rings_pack:set1_ring_3"
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 5.0
     revision-id: 1
     material: PAPER
     custom-model-data: 19203
     name: "&a&l✦ Nhẫn Hộ Long I"
-    tier: UNIQUE
+    tier: LEGENDARY
     set: LONG_VE_SET
     critical-strike-power: 30
     max-health: 160
@@ -331,12 +331,12 @@ DONATE_RING_LONG_VE_1:
 DONATE_RING_LONG_VE_2:
   itemsadder-item: "rings_pack:set1_ring_4"
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 5.0
     revision-id: 1
     material: PAPER
     custom-model-data: 19204
     name: "&a&l✦ Nhẫn Hộ Long II"
-    tier: UNIQUE
+    tier: LEGENDARY
     set: LONG_VE_SET
     critical-strike-power: 30
     max-health: 160
@@ -349,7 +349,7 @@ DONATE_RING_LONG_VE_2:
 FREE_RING_THANH_LONG_1:
   itemsadder-item: "rings_pack:ring_4"
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 7.0
     revision-id: 1
     material: PAPER
     custom-model-data: 19004
@@ -366,7 +366,7 @@ FREE_RING_THANH_LONG_1:
 FREE_RING_THANH_LONG_2:
   itemsadder-item: "rings_pack:ring_5"
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 7.0
     revision-id: 1
     material: PAPER
     custom-model-data: 19005
@@ -383,7 +383,7 @@ FREE_RING_THANH_LONG_2:
 FREE_RING_XICH_LONG_1:
   itemsadder-item: "rings_pack:ring_7"
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 7.0
     revision-id: 1
     material: PAPER
     custom-model-data: 19007
@@ -400,7 +400,7 @@ FREE_RING_XICH_LONG_1:
 FREE_RING_XICH_LONG_2:
   itemsadder-item: "rings_pack:ring_8"
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 7.0
     revision-id: 1
     material: PAPER
     custom-model-data: 19008
@@ -417,7 +417,7 @@ FREE_RING_XICH_LONG_2:
 FREE_RING_KIM_LONG_1:
   itemsadder-item: "rings_pack:ring_10"
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 7.0
     revision-id: 1
     material: PAPER
     custom-model-data: 19010
@@ -435,7 +435,7 @@ FREE_RING_KIM_LONG_1:
 FREE_RING_KIM_LONG_2:
   itemsadder-item: "rings_pack:set11_ring_1"
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 7.0
     revision-id: 1
     material: PAPER
     custom-model-data: 19221
@@ -453,7 +453,7 @@ FREE_RING_KIM_LONG_2:
 FREE_RING_THIEN_LONG_1:
   itemsadder-item: "rings_pack:set11_ring_2"
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 7.0
     revision-id: 1
     material: PAPER
     custom-model-data: 19222
@@ -470,7 +470,7 @@ FREE_RING_THIEN_LONG_1:
 FREE_RING_THIEN_LONG_2:
   itemsadder-item: "rings_pack:set11_ring_3"
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 7.0
     revision-id: 1
     material: PAPER
     custom-model-data: 19223
@@ -487,7 +487,7 @@ FREE_RING_THIEN_LONG_2:
 FREE_RING_BAC_LONG_1:
   itemsadder-item: "rings_pack:ring_1"
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 7.0
     revision-id: 1
     material: PAPER
     custom-model-data: 19001
@@ -505,7 +505,7 @@ FREE_RING_BAC_LONG_1:
 FREE_RING_BAC_LONG_2:
   itemsadder-item: "rings_pack:ring_2"
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 7.0
     revision-id: 1
     material: PAPER
     custom-model-data: 19002

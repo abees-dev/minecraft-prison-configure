@@ -1,6 +1,6 @@
 ﻿TEST_ARMOR_FULL_STATS:
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 7.0
     revision-id: 1
     material: NETHERITE_CHESTPLATE
     name: "&c&l🛡 Áo Giáp Thử Nghiệm &e&l[FULL STATS]"
@@ -47,7 +47,7 @@
 
 HELMET_TAN_BINH_1:
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 1.0
     revision-id: 1
     material: LEATHER_HELMET
     name: "&fNón Tân Binh &e&lI"
@@ -70,7 +70,7 @@ HELMET_TAN_BINH_1:
 
 HELMET_TAN_BINH_2:
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 1.0
     revision-id: 1
     material: LEATHER_HELMET
     name: "&fNón Tân Binh &e&lII"
@@ -93,7 +93,7 @@ HELMET_TAN_BINH_2:
 
 HELMET_TAN_BINH_3:
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 1.0
     revision-id: 1
     material: LEATHER_HELMET
     name: "&fNón Tân Binh &e&lIII"
@@ -116,7 +116,7 @@ HELMET_TAN_BINH_3:
 
 HELMET_TAN_BINH_4:
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 1.0
     revision-id: 1
     material: LEATHER_HELMET
     name: "&fNón Tân Binh &e&lIV"
@@ -139,7 +139,7 @@ HELMET_TAN_BINH_4:
 
 HELMET_TAN_BINH_5:
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 1.0
     revision-id: 1
     material: LEATHER_HELMET
     name: "&fNón Tân Binh &e&lV"
@@ -162,7 +162,7 @@ HELMET_TAN_BINH_5:
 
 HELMET_TU_NHAN_1:
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 2.0
     revision-id: 1
     material: LEATHER_HELMET
     name: "&aNón Tù Nhân &e&lI"
@@ -185,7 +185,7 @@ HELMET_TU_NHAN_1:
 
 HELMET_TU_NHAN_2:
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 2.0
     revision-id: 1
     material: LEATHER_HELMET
     name: "&aNón Tù Nhân &e&lII"
@@ -208,7 +208,7 @@ HELMET_TU_NHAN_2:
 
 HELMET_TU_NHAN_3:
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 2.0
     revision-id: 1
     material: LEATHER_HELMET
     name: "&aNón Tù Nhân &e&lIII"
@@ -231,7 +231,7 @@ HELMET_TU_NHAN_3:
 
 HELMET_TU_NHAN_4:
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 2.0
     revision-id: 1
     material: LEATHER_HELMET
     name: "&aNón Tù Nhân &e&lIV"
@@ -254,7 +254,7 @@ HELMET_TU_NHAN_4:
 
 HELMET_TU_NHAN_5:
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 2.0
     revision-id: 1
     material: LEATHER_HELMET
     name: "&aNón Tù Nhân &e&lV"
@@ -277,7 +277,7 @@ HELMET_TU_NHAN_5:
 
 HELMET_LAO_CONG_1:
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 2.0
     revision-id: 1
     material: CHAINMAIL_HELMET
     name: "&bNón Lao Công &e&lI"
@@ -302,7 +302,7 @@ HELMET_LAO_CONG_1:
 
 HELMET_LAO_CONG_2:
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 2.0
     revision-id: 1
     material: CHAINMAIL_HELMET
     name: "&bNón Lao Công &e&lII"
@@ -327,7 +327,7 @@ HELMET_LAO_CONG_2:
 
 HELMET_LAO_CONG_3:
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 2.0
     revision-id: 1
     material: CHAINMAIL_HELMET
     name: "&bNón Lao Công &e&lIII"
@@ -352,7 +352,7 @@ HELMET_LAO_CONG_3:
 
 HELMET_LAO_CONG_4:
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 2.0
     revision-id: 1
     material: CHAINMAIL_HELMET
     name: "&bNón Lao Công &e&lIV"
@@ -377,7 +377,7 @@ HELMET_LAO_CONG_4:
 
 HELMET_LAO_CONG_5:
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 2.0
     revision-id: 1
     material: CHAINMAIL_HELMET
     name: "&bNón Lao Công &e&lV"
@@ -662,12 +662,12 @@ HELMET_DOI_TRUONG_5:
 
 HELMET_PHO_QUAN_NGUC_1:
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 4.0
     revision-id: 1
     material: DIAMOND_HELMET
     name: "&cNón Phó Quản Ngục &e&lI"
     max-durability: 5200
-    tier: LEGENDARY
+    tier: EPIC
     hide-enchants: true
     lore-format: armor-lore
     lore:
@@ -688,12 +688,12 @@ HELMET_PHO_QUAN_NGUC_1:
 
 HELMET_PHO_QUAN_NGUC_2:
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 4.0
     revision-id: 1
     material: DIAMOND_HELMET
     name: "&cNón Phó Quản Ngục &e&lII"
     max-durability: 5200
-    tier: LEGENDARY
+    tier: EPIC
     hide-enchants: true
     lore-format: armor-lore
     lore:
@@ -714,12 +714,12 @@ HELMET_PHO_QUAN_NGUC_2:
 
 HELMET_PHO_QUAN_NGUC_3:
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 4.0
     revision-id: 1
     material: DIAMOND_HELMET
     name: "&cNón Phó Quản Ngục &e&lIII"
     max-durability: 5200
-    tier: LEGENDARY
+    tier: EPIC
     hide-enchants: true
     lore-format: armor-lore
     lore:
@@ -740,12 +740,12 @@ HELMET_PHO_QUAN_NGUC_3:
 
 HELMET_PHO_QUAN_NGUC_4:
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 4.0
     revision-id: 1
     material: DIAMOND_HELMET
     name: "&cNón Phó Quản Ngục &e&lIV"
     max-durability: 5200
-    tier: LEGENDARY
+    tier: EPIC
     hide-enchants: true
     lore-format: armor-lore
     lore:
@@ -766,12 +766,12 @@ HELMET_PHO_QUAN_NGUC_4:
 
 HELMET_PHO_QUAN_NGUC_5:
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 4.0
     revision-id: 1
     material: DIAMOND_HELMET
     name: "&cNón Phó Quản Ngục &e&lV"
     max-durability: 5200
-    tier: LEGENDARY
+    tier: EPIC
     hide-enchants: true
     lore-format: armor-lore
     lore:
@@ -792,12 +792,12 @@ HELMET_PHO_QUAN_NGUC_5:
 
 HELMET_QUAN_NGUC_1:
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 5.0
     revision-id: 1
     material: NETHERITE_HELMET
     name: "&dNón Quản Ngục &e&lI"
     max-durability: 7000
-    tier: MYTHICAL
+    tier: LEGENDARY
     hide-enchants: true
     lore-format: armor-lore
     lore:
@@ -818,12 +818,12 @@ HELMET_QUAN_NGUC_1:
 
 HELMET_QUAN_NGUC_2:
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 5.0
     revision-id: 1
     material: NETHERITE_HELMET
     name: "&dNón Quản Ngục &e&lII"
     max-durability: 7000
-    tier: MYTHICAL
+    tier: LEGENDARY
     hide-enchants: true
     lore-format: armor-lore
     lore:
@@ -844,12 +844,12 @@ HELMET_QUAN_NGUC_2:
 
 HELMET_QUAN_NGUC_3:
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 5.0
     revision-id: 1
     material: NETHERITE_HELMET
     name: "&dNón Quản Ngục &e&lIII"
     max-durability: 7000
-    tier: MYTHICAL
+    tier: LEGENDARY
     hide-enchants: true
     lore-format: armor-lore
     lore:
@@ -870,12 +870,12 @@ HELMET_QUAN_NGUC_3:
 
 HELMET_QUAN_NGUC_4:
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 5.0
     revision-id: 1
     material: NETHERITE_HELMET
     name: "&dNón Quản Ngục &e&lIV"
     max-durability: 7000
-    tier: MYTHICAL
+    tier: LEGENDARY
     hide-enchants: true
     lore-format: armor-lore
     lore:
@@ -896,12 +896,12 @@ HELMET_QUAN_NGUC_4:
 
 HELMET_QUAN_NGUC_5:
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 5.0
     revision-id: 1
     material: NETHERITE_HELMET
     name: "&dNón Quản Ngục &e&lV"
     max-durability: 7000
-    tier: MYTHICAL
+    tier: LEGENDARY
     hide-enchants: true
     lore-format: armor-lore
     lore:
@@ -922,12 +922,12 @@ HELMET_QUAN_NGUC_5:
 
 HELMET_BA_CHU_NGUC_TU_1:
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 6.0
     revision-id: 1
     material: NETHERITE_HELMET
     name: "&5Nón Bá Chủ Ngục Tù &e&lI"
     max-durability: 9000
-    tier: EPIC
+    tier: MYTHICAL
     hide-enchants: true
     lore-format: armor-lore
     lore:
@@ -948,12 +948,12 @@ HELMET_BA_CHU_NGUC_TU_1:
 
 HELMET_BA_CHU_NGUC_TU_2:
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 6.0
     revision-id: 1
     material: NETHERITE_HELMET
     name: "&5Nón Bá Chủ Ngục Tù &e&lII"
     max-durability: 9000
-    tier: EPIC
+    tier: MYTHICAL
     hide-enchants: true
     lore-format: armor-lore
     lore:
@@ -974,12 +974,12 @@ HELMET_BA_CHU_NGUC_TU_2:
 
 HELMET_BA_CHU_NGUC_TU_3:
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 6.0
     revision-id: 1
     material: NETHERITE_HELMET
     name: "&5Nón Bá Chủ Ngục Tù &e&lIII"
     max-durability: 9000
-    tier: EPIC
+    tier: MYTHICAL
     hide-enchants: true
     lore-format: armor-lore
     lore:
@@ -1000,12 +1000,12 @@ HELMET_BA_CHU_NGUC_TU_3:
 
 HELMET_BA_CHU_NGUC_TU_4:
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 6.0
     revision-id: 1
     material: NETHERITE_HELMET
     name: "&5Nón Bá Chủ Ngục Tù &e&lIV"
     max-durability: 9000
-    tier: EPIC
+    tier: MYTHICAL
     hide-enchants: true
     lore-format: armor-lore
     lore:
@@ -1026,12 +1026,12 @@ HELMET_BA_CHU_NGUC_TU_4:
 
 HELMET_BA_CHU_NGUC_TU_5:
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 6.0
     revision-id: 1
     material: NETHERITE_HELMET
     name: "&5Nón Bá Chủ Ngục Tù &e&lV"
     max-durability: 9000
-    tier: EPIC
+    tier: MYTHICAL
     hide-enchants: true
     lore-format: armor-lore
     lore:
@@ -1052,7 +1052,7 @@ HELMET_BA_CHU_NGUC_TU_5:
 
 HELMET_VUOT_NGUC_1:
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 7.0
     revision-id: 1
     material: NETHERITE_HELMET
     name: "&4Nón Vượt Ngục &e&lI"
@@ -1078,7 +1078,7 @@ HELMET_VUOT_NGUC_1:
 
 HELMET_VUOT_NGUC_2:
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 7.0
     revision-id: 1
     material: NETHERITE_HELMET
     name: "&4Nón Vượt Ngục &e&lII"
@@ -1104,7 +1104,7 @@ HELMET_VUOT_NGUC_2:
 
 HELMET_VUOT_NGUC_3:
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 7.0
     revision-id: 1
     material: NETHERITE_HELMET
     name: "&4Nón Vượt Ngục &e&lIII"
@@ -1130,7 +1130,7 @@ HELMET_VUOT_NGUC_3:
 
 HELMET_VUOT_NGUC_4:
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 7.0
     revision-id: 1
     material: NETHERITE_HELMET
     name: "&4Nón Vượt Ngục &e&lIV"
@@ -1156,7 +1156,7 @@ HELMET_VUOT_NGUC_4:
 
 HELMET_VUOT_NGUC_5:
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 7.0
     revision-id: 1
     material: NETHERITE_HELMET
     name: "&4Nón Vượt Ngục &e&lV"
@@ -1182,7 +1182,7 @@ HELMET_VUOT_NGUC_5:
 
 CHESTPLATE_TAN_BINH_1:
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 1.0
     revision-id: 1
     material: LEATHER_CHESTPLATE
     name: "&fÁo Giáp Tân Binh &e&lI"
@@ -1205,7 +1205,7 @@ CHESTPLATE_TAN_BINH_1:
 
 CHESTPLATE_TAN_BINH_2:
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 1.0
     revision-id: 1
     material: LEATHER_CHESTPLATE
     name: "&fÁo Giáp Tân Binh &e&lII"
@@ -1228,7 +1228,7 @@ CHESTPLATE_TAN_BINH_2:
 
 CHESTPLATE_TAN_BINH_3:
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 1.0
     revision-id: 1
     material: LEATHER_CHESTPLATE
     name: "&fÁo Giáp Tân Binh &e&lIII"
@@ -1251,7 +1251,7 @@ CHESTPLATE_TAN_BINH_3:
 
 CHESTPLATE_TAN_BINH_4:
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 1.0
     revision-id: 1
     material: LEATHER_CHESTPLATE
     name: "&fÁo Giáp Tân Binh &e&lIV"
@@ -1274,7 +1274,7 @@ CHESTPLATE_TAN_BINH_4:
 
 CHESTPLATE_TAN_BINH_5:
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 1.0
     revision-id: 1
     material: LEATHER_CHESTPLATE
     name: "&fÁo Giáp Tân Binh &e&lV"
@@ -1297,7 +1297,7 @@ CHESTPLATE_TAN_BINH_5:
 
 CHESTPLATE_TU_NHAN_1:
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 2.0
     revision-id: 1
     material: LEATHER_CHESTPLATE
     name: "&aÁo Giáp Tù Nhân &e&lI"
@@ -1320,7 +1320,7 @@ CHESTPLATE_TU_NHAN_1:
 
 CHESTPLATE_TU_NHAN_2:
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 2.0
     revision-id: 1
     material: LEATHER_CHESTPLATE
     name: "&aÁo Giáp Tù Nhân &e&lII"
@@ -1343,7 +1343,7 @@ CHESTPLATE_TU_NHAN_2:
 
 CHESTPLATE_TU_NHAN_3:
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 2.0
     revision-id: 1
     material: LEATHER_CHESTPLATE
     name: "&aÁo Giáp Tù Nhân &e&lIII"
@@ -1366,7 +1366,7 @@ CHESTPLATE_TU_NHAN_3:
 
 CHESTPLATE_TU_NHAN_4:
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 2.0
     revision-id: 1
     material: LEATHER_CHESTPLATE
     name: "&aÁo Giáp Tù Nhân &e&lIV"
@@ -1389,7 +1389,7 @@ CHESTPLATE_TU_NHAN_4:
 
 CHESTPLATE_TU_NHAN_5:
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 2.0
     revision-id: 1
     material: LEATHER_CHESTPLATE
     name: "&aÁo Giáp Tù Nhân &e&lV"
@@ -1412,7 +1412,7 @@ CHESTPLATE_TU_NHAN_5:
 
 CHESTPLATE_LAO_CONG_1:
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 2.0
     revision-id: 1
     material: CHAINMAIL_CHESTPLATE
     name: "&bÁo Giáp Lao Công &e&lI"
@@ -1436,7 +1436,7 @@ CHESTPLATE_LAO_CONG_1:
 
 CHESTPLATE_LAO_CONG_2:
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 2.0
     revision-id: 1
     material: CHAINMAIL_CHESTPLATE
     name: "&bÁo Giáp Lao Công &e&lII"
@@ -1460,7 +1460,7 @@ CHESTPLATE_LAO_CONG_2:
 
 CHESTPLATE_LAO_CONG_3:
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 2.0
     revision-id: 1
     material: CHAINMAIL_CHESTPLATE
     name: "&bÁo Giáp Lao Công &e&lIII"
@@ -1484,7 +1484,7 @@ CHESTPLATE_LAO_CONG_3:
 
 CHESTPLATE_LAO_CONG_4:
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 2.0
     revision-id: 1
     material: CHAINMAIL_CHESTPLATE
     name: "&bÁo Giáp Lao Công &e&lIV"
@@ -1508,7 +1508,7 @@ CHESTPLATE_LAO_CONG_4:
 
 CHESTPLATE_LAO_CONG_5:
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 2.0
     revision-id: 1
     material: CHAINMAIL_CHESTPLATE
     name: "&bÁo Giáp Lao Công &e&lV"
@@ -1782,12 +1782,12 @@ CHESTPLATE_DOI_TRUONG_5:
 
 CHESTPLATE_PHO_QUAN_NGUC_1:
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 4.0
     revision-id: 1
     material: DIAMOND_CHESTPLATE
     name: "&cÁo Giáp Phó Quản Ngục &e&lI"
     max-durability: 5200
-    tier: LEGENDARY
+    tier: EPIC
     hide-enchants: true
     lore-format: armor-lore
     lore:
@@ -1807,12 +1807,12 @@ CHESTPLATE_PHO_QUAN_NGUC_1:
 
 CHESTPLATE_PHO_QUAN_NGUC_2:
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 4.0
     revision-id: 1
     material: DIAMOND_CHESTPLATE
     name: "&cÁo Giáp Phó Quản Ngục &e&lII"
     max-durability: 5200
-    tier: LEGENDARY
+    tier: EPIC
     hide-enchants: true
     lore-format: armor-lore
     lore:
@@ -1832,12 +1832,12 @@ CHESTPLATE_PHO_QUAN_NGUC_2:
 
 CHESTPLATE_PHO_QUAN_NGUC_3:
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 4.0
     revision-id: 1
     material: DIAMOND_CHESTPLATE
     name: "&cÁo Giáp Phó Quản Ngục &e&lIII"
     max-durability: 5200
-    tier: LEGENDARY
+    tier: EPIC
     hide-enchants: true
     lore-format: armor-lore
     lore:
@@ -1857,12 +1857,12 @@ CHESTPLATE_PHO_QUAN_NGUC_3:
 
 CHESTPLATE_PHO_QUAN_NGUC_4:
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 4.0
     revision-id: 1
     material: DIAMOND_CHESTPLATE
     name: "&cÁo Giáp Phó Quản Ngục &e&lIV"
     max-durability: 5200
-    tier: LEGENDARY
+    tier: EPIC
     hide-enchants: true
     lore-format: armor-lore
     lore:
@@ -1882,12 +1882,12 @@ CHESTPLATE_PHO_QUAN_NGUC_4:
 
 CHESTPLATE_PHO_QUAN_NGUC_5:
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 4.0
     revision-id: 1
     material: DIAMOND_CHESTPLATE
     name: "&cÁo Giáp Phó Quản Ngục &e&lV"
     max-durability: 5200
-    tier: LEGENDARY
+    tier: EPIC
     hide-enchants: true
     lore-format: armor-lore
     lore:
@@ -1907,12 +1907,12 @@ CHESTPLATE_PHO_QUAN_NGUC_5:
 
 CHESTPLATE_QUAN_NGUC_1:
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 5.0
     revision-id: 1
     material: NETHERITE_CHESTPLATE
     name: "&dÁo Giáp Quản Ngục &e&lI"
     max-durability: 7000
-    tier: MYTHICAL
+    tier: LEGENDARY
     hide-enchants: true
     lore-format: armor-lore
     lore:
@@ -1932,12 +1932,12 @@ CHESTPLATE_QUAN_NGUC_1:
 
 CHESTPLATE_QUAN_NGUC_2:
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 5.0
     revision-id: 1
     material: NETHERITE_CHESTPLATE
     name: "&dÁo Giáp Quản Ngục &e&lII"
     max-durability: 7000
-    tier: MYTHICAL
+    tier: LEGENDARY
     hide-enchants: true
     lore-format: armor-lore
     lore:
@@ -1957,12 +1957,12 @@ CHESTPLATE_QUAN_NGUC_2:
 
 CHESTPLATE_QUAN_NGUC_3:
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 5.0
     revision-id: 1
     material: NETHERITE_CHESTPLATE
     name: "&dÁo Giáp Quản Ngục &e&lIII"
     max-durability: 7000
-    tier: MYTHICAL
+    tier: LEGENDARY
     hide-enchants: true
     lore-format: armor-lore
     lore:
@@ -1982,12 +1982,12 @@ CHESTPLATE_QUAN_NGUC_3:
 
 CHESTPLATE_QUAN_NGUC_4:
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 5.0
     revision-id: 1
     material: NETHERITE_CHESTPLATE
     name: "&dÁo Giáp Quản Ngục &e&lIV"
     max-durability: 7000
-    tier: MYTHICAL
+    tier: LEGENDARY
     hide-enchants: true
     lore-format: armor-lore
     lore:
@@ -2007,12 +2007,12 @@ CHESTPLATE_QUAN_NGUC_4:
 
 CHESTPLATE_QUAN_NGUC_5:
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 5.0
     revision-id: 1
     material: NETHERITE_CHESTPLATE
     name: "&dÁo Giáp Quản Ngục &e&lV"
     max-durability: 7000
-    tier: MYTHICAL
+    tier: LEGENDARY
     hide-enchants: true
     lore-format: armor-lore
     lore:
@@ -2032,12 +2032,12 @@ CHESTPLATE_QUAN_NGUC_5:
 
 CHESTPLATE_BA_CHU_NGUC_TU_1:
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 6.0
     revision-id: 1
     material: NETHERITE_CHESTPLATE
     name: "&5Áo Giáp Bá Chủ Ngục Tù &e&lI"
     max-durability: 9000
-    tier: EPIC
+    tier: MYTHICAL
     hide-enchants: true
     lore-format: armor-lore
     lore:
@@ -2057,12 +2057,12 @@ CHESTPLATE_BA_CHU_NGUC_TU_1:
 
 CHESTPLATE_BA_CHU_NGUC_TU_2:
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 6.0
     revision-id: 1
     material: NETHERITE_CHESTPLATE
     name: "&5Áo Giáp Bá Chủ Ngục Tù &e&lII"
     max-durability: 9000
-    tier: EPIC
+    tier: MYTHICAL
     hide-enchants: true
     lore-format: armor-lore
     lore:
@@ -2082,12 +2082,12 @@ CHESTPLATE_BA_CHU_NGUC_TU_2:
 
 CHESTPLATE_BA_CHU_NGUC_TU_3:
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 6.0
     revision-id: 1
     material: NETHERITE_CHESTPLATE
     name: "&5Áo Giáp Bá Chủ Ngục Tù &e&lIII"
     max-durability: 9000
-    tier: EPIC
+    tier: MYTHICAL
     hide-enchants: true
     lore-format: armor-lore
     lore:
@@ -2107,12 +2107,12 @@ CHESTPLATE_BA_CHU_NGUC_TU_3:
 
 CHESTPLATE_BA_CHU_NGUC_TU_4:
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 6.0
     revision-id: 1
     material: NETHERITE_CHESTPLATE
     name: "&5Áo Giáp Bá Chủ Ngục Tù &e&lIV"
     max-durability: 9000
-    tier: EPIC
+    tier: MYTHICAL
     hide-enchants: true
     lore-format: armor-lore
     lore:
@@ -2132,12 +2132,12 @@ CHESTPLATE_BA_CHU_NGUC_TU_4:
 
 CHESTPLATE_BA_CHU_NGUC_TU_5:
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 6.0
     revision-id: 1
     material: NETHERITE_CHESTPLATE
     name: "&5Áo Giáp Bá Chủ Ngục Tù &e&lV"
     max-durability: 9000
-    tier: EPIC
+    tier: MYTHICAL
     hide-enchants: true
     lore-format: armor-lore
     lore:
@@ -2157,7 +2157,7 @@ CHESTPLATE_BA_CHU_NGUC_TU_5:
 
 CHESTPLATE_VUOT_NGUC_1:
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 7.0
     revision-id: 1
     material: NETHERITE_CHESTPLATE
     name: "&4Áo Giáp Vượt Ngục &e&lI"
@@ -2182,7 +2182,7 @@ CHESTPLATE_VUOT_NGUC_1:
 
 CHESTPLATE_VUOT_NGUC_2:
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 7.0
     revision-id: 1
     material: NETHERITE_CHESTPLATE
     name: "&4Áo Giáp Vượt Ngục &e&lII"
@@ -2207,7 +2207,7 @@ CHESTPLATE_VUOT_NGUC_2:
 
 CHESTPLATE_VUOT_NGUC_3:
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 7.0
     revision-id: 1
     material: NETHERITE_CHESTPLATE
     name: "&4Áo Giáp Vượt Ngục &e&lIII"
@@ -2232,7 +2232,7 @@ CHESTPLATE_VUOT_NGUC_3:
 
 CHESTPLATE_VUOT_NGUC_4:
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 7.0
     revision-id: 1
     material: NETHERITE_CHESTPLATE
     name: "&4Áo Giáp Vượt Ngục &e&lIV"
@@ -2257,7 +2257,7 @@ CHESTPLATE_VUOT_NGUC_4:
 
 CHESTPLATE_VUOT_NGUC_5:
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 7.0
     revision-id: 1
     material: NETHERITE_CHESTPLATE
     name: "&4Áo Giáp Vượt Ngục &e&lV"
@@ -2282,7 +2282,7 @@ CHESTPLATE_VUOT_NGUC_5:
 
 LEGGINGS_TAN_BINH_1:
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 1.0
     revision-id: 1
     material: LEATHER_LEGGINGS
     name: "&fQuần Giáp Tân Binh &e&lI"
@@ -2305,7 +2305,7 @@ LEGGINGS_TAN_BINH_1:
 
 LEGGINGS_TAN_BINH_2:
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 1.0
     revision-id: 1
     material: LEATHER_LEGGINGS
     name: "&fQuần Giáp Tân Binh &e&lII"
@@ -2328,7 +2328,7 @@ LEGGINGS_TAN_BINH_2:
 
 LEGGINGS_TAN_BINH_3:
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 1.0
     revision-id: 1
     material: LEATHER_LEGGINGS
     name: "&fQuần Giáp Tân Binh &e&lIII"
@@ -2351,7 +2351,7 @@ LEGGINGS_TAN_BINH_3:
 
 LEGGINGS_TAN_BINH_4:
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 1.0
     revision-id: 1
     material: LEATHER_LEGGINGS
     name: "&fQuần Giáp Tân Binh &e&lIV"
@@ -2374,7 +2374,7 @@ LEGGINGS_TAN_BINH_4:
 
 LEGGINGS_TAN_BINH_5:
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 1.0
     revision-id: 1
     material: LEATHER_LEGGINGS
     name: "&fQuần Giáp Tân Binh &e&lV"
@@ -2397,7 +2397,7 @@ LEGGINGS_TAN_BINH_5:
 
 LEGGINGS_TU_NHAN_1:
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 2.0
     revision-id: 1
     material: LEATHER_LEGGINGS
     name: "&aQuần Giáp Tù Nhân &e&lI"
@@ -2420,7 +2420,7 @@ LEGGINGS_TU_NHAN_1:
 
 LEGGINGS_TU_NHAN_2:
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 2.0
     revision-id: 1
     material: LEATHER_LEGGINGS
     name: "&aQuần Giáp Tù Nhân &e&lII"
@@ -2443,7 +2443,7 @@ LEGGINGS_TU_NHAN_2:
 
 LEGGINGS_TU_NHAN_3:
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 2.0
     revision-id: 1
     material: LEATHER_LEGGINGS
     name: "&aQuần Giáp Tù Nhân &e&lIII"
@@ -2466,7 +2466,7 @@ LEGGINGS_TU_NHAN_3:
 
 LEGGINGS_TU_NHAN_4:
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 2.0
     revision-id: 1
     material: LEATHER_LEGGINGS
     name: "&aQuần Giáp Tù Nhân &e&lIV"
@@ -2489,7 +2489,7 @@ LEGGINGS_TU_NHAN_4:
 
 LEGGINGS_TU_NHAN_5:
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 2.0
     revision-id: 1
     material: LEATHER_LEGGINGS
     name: "&aQuần Giáp Tù Nhân &e&lV"
@@ -2512,7 +2512,7 @@ LEGGINGS_TU_NHAN_5:
 
 LEGGINGS_LAO_CONG_1:
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 2.0
     revision-id: 1
     material: CHAINMAIL_LEGGINGS
     name: "&bQuần Giáp Lao Công &e&lI"
@@ -2536,7 +2536,7 @@ LEGGINGS_LAO_CONG_1:
 
 LEGGINGS_LAO_CONG_2:
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 2.0
     revision-id: 1
     material: CHAINMAIL_LEGGINGS
     name: "&bQuần Giáp Lao Công &e&lII"
@@ -2560,7 +2560,7 @@ LEGGINGS_LAO_CONG_2:
 
 LEGGINGS_LAO_CONG_3:
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 2.0
     revision-id: 1
     material: CHAINMAIL_LEGGINGS
     name: "&bQuần Giáp Lao Công &e&lIII"
@@ -2584,7 +2584,7 @@ LEGGINGS_LAO_CONG_3:
 
 LEGGINGS_LAO_CONG_4:
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 2.0
     revision-id: 1
     material: CHAINMAIL_LEGGINGS
     name: "&bQuần Giáp Lao Công &e&lIV"
@@ -2608,7 +2608,7 @@ LEGGINGS_LAO_CONG_4:
 
 LEGGINGS_LAO_CONG_5:
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 2.0
     revision-id: 1
     material: CHAINMAIL_LEGGINGS
     name: "&bQuần Giáp Lao Công &e&lV"
@@ -2882,12 +2882,12 @@ LEGGINGS_DOI_TRUONG_5:
 
 LEGGINGS_PHO_QUAN_NGUC_1:
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 4.0
     revision-id: 1
     material: DIAMOND_LEGGINGS
     name: "&cQuần Giáp Phó Quản Ngục &e&lI"
     max-durability: 5200
-    tier: LEGENDARY
+    tier: EPIC
     hide-enchants: true
     lore-format: armor-lore
     lore:
@@ -2907,12 +2907,12 @@ LEGGINGS_PHO_QUAN_NGUC_1:
 
 LEGGINGS_PHO_QUAN_NGUC_2:
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 4.0
     revision-id: 1
     material: DIAMOND_LEGGINGS
     name: "&cQuần Giáp Phó Quản Ngục &e&lII"
     max-durability: 5200
-    tier: LEGENDARY
+    tier: EPIC
     hide-enchants: true
     lore-format: armor-lore
     lore:
@@ -2932,12 +2932,12 @@ LEGGINGS_PHO_QUAN_NGUC_2:
 
 LEGGINGS_PHO_QUAN_NGUC_3:
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 4.0
     revision-id: 1
     material: DIAMOND_LEGGINGS
     name: "&cQuần Giáp Phó Quản Ngục &e&lIII"
     max-durability: 5200
-    tier: LEGENDARY
+    tier: EPIC
     hide-enchants: true
     lore-format: armor-lore
     lore:
@@ -2957,12 +2957,12 @@ LEGGINGS_PHO_QUAN_NGUC_3:
 
 LEGGINGS_PHO_QUAN_NGUC_4:
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 4.0
     revision-id: 1
     material: DIAMOND_LEGGINGS
     name: "&cQuần Giáp Phó Quản Ngục &e&lIV"
     max-durability: 5200
-    tier: LEGENDARY
+    tier: EPIC
     hide-enchants: true
     lore-format: armor-lore
     lore:
@@ -2982,12 +2982,12 @@ LEGGINGS_PHO_QUAN_NGUC_4:
 
 LEGGINGS_PHO_QUAN_NGUC_5:
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 4.0
     revision-id: 1
     material: DIAMOND_LEGGINGS
     name: "&cQuần Giáp Phó Quản Ngục &e&lV"
     max-durability: 5200
-    tier: LEGENDARY
+    tier: EPIC
     hide-enchants: true
     lore-format: armor-lore
     lore:
@@ -3007,12 +3007,12 @@ LEGGINGS_PHO_QUAN_NGUC_5:
 
 LEGGINGS_QUAN_NGUC_1:
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 5.0
     revision-id: 1
     material: NETHERITE_LEGGINGS
     name: "&dQuần Giáp Quản Ngục &e&lI"
     max-durability: 7000
-    tier: MYTHICAL
+    tier: LEGENDARY
     hide-enchants: true
     lore-format: armor-lore
     lore:
@@ -3032,12 +3032,12 @@ LEGGINGS_QUAN_NGUC_1:
 
 LEGGINGS_QUAN_NGUC_2:
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 5.0
     revision-id: 1
     material: NETHERITE_LEGGINGS
     name: "&dQuần Giáp Quản Ngục &e&lII"
     max-durability: 7000
-    tier: MYTHICAL
+    tier: LEGENDARY
     hide-enchants: true
     lore-format: armor-lore
     lore:
@@ -3057,12 +3057,12 @@ LEGGINGS_QUAN_NGUC_2:
 
 LEGGINGS_QUAN_NGUC_3:
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 5.0
     revision-id: 1
     material: NETHERITE_LEGGINGS
     name: "&dQuần Giáp Quản Ngục &e&lIII"
     max-durability: 7000
-    tier: MYTHICAL
+    tier: LEGENDARY
     hide-enchants: true
     lore-format: armor-lore
     lore:
@@ -3082,12 +3082,12 @@ LEGGINGS_QUAN_NGUC_3:
 
 LEGGINGS_QUAN_NGUC_4:
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 5.0
     revision-id: 1
     material: NETHERITE_LEGGINGS
     name: "&dQuần Giáp Quản Ngục &e&lIV"
     max-durability: 7000
-    tier: MYTHICAL
+    tier: LEGENDARY
     hide-enchants: true
     lore-format: armor-lore
     lore:
@@ -3107,12 +3107,12 @@ LEGGINGS_QUAN_NGUC_4:
 
 LEGGINGS_QUAN_NGUC_5:
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 5.0
     revision-id: 1
     material: NETHERITE_LEGGINGS
     name: "&dQuần Giáp Quản Ngục &e&lV"
     max-durability: 7000
-    tier: MYTHICAL
+    tier: LEGENDARY
     hide-enchants: true
     lore-format: armor-lore
     lore:
@@ -3132,12 +3132,12 @@ LEGGINGS_QUAN_NGUC_5:
 
 LEGGINGS_BA_CHU_NGUC_TU_1:
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 6.0
     revision-id: 1
     material: NETHERITE_LEGGINGS
     name: "&5Quần Giáp Bá Chủ Ngục Tù &e&lI"
     max-durability: 9000
-    tier: EPIC
+    tier: MYTHICAL
     hide-enchants: true
     lore-format: armor-lore
     lore:
@@ -3157,12 +3157,12 @@ LEGGINGS_BA_CHU_NGUC_TU_1:
 
 LEGGINGS_BA_CHU_NGUC_TU_2:
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 6.0
     revision-id: 1
     material: NETHERITE_LEGGINGS
     name: "&5Quần Giáp Bá Chủ Ngục Tù &e&lII"
     max-durability: 9000
-    tier: EPIC
+    tier: MYTHICAL
     hide-enchants: true
     lore-format: armor-lore
     lore:
@@ -3182,12 +3182,12 @@ LEGGINGS_BA_CHU_NGUC_TU_2:
 
 LEGGINGS_BA_CHU_NGUC_TU_3:
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 6.0
     revision-id: 1
     material: NETHERITE_LEGGINGS
     name: "&5Quần Giáp Bá Chủ Ngục Tù &e&lIII"
     max-durability: 9000
-    tier: EPIC
+    tier: MYTHICAL
     hide-enchants: true
     lore-format: armor-lore
     lore:
@@ -3207,12 +3207,12 @@ LEGGINGS_BA_CHU_NGUC_TU_3:
 
 LEGGINGS_BA_CHU_NGUC_TU_4:
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 6.0
     revision-id: 1
     material: NETHERITE_LEGGINGS
     name: "&5Quần Giáp Bá Chủ Ngục Tù &e&lIV"
     max-durability: 9000
-    tier: EPIC
+    tier: MYTHICAL
     hide-enchants: true
     lore-format: armor-lore
     lore:
@@ -3232,12 +3232,12 @@ LEGGINGS_BA_CHU_NGUC_TU_4:
 
 LEGGINGS_BA_CHU_NGUC_TU_5:
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 6.0
     revision-id: 1
     material: NETHERITE_LEGGINGS
     name: "&5Quần Giáp Bá Chủ Ngục Tù &e&lV"
     max-durability: 9000
-    tier: EPIC
+    tier: MYTHICAL
     hide-enchants: true
     lore-format: armor-lore
     lore:
@@ -3257,7 +3257,7 @@ LEGGINGS_BA_CHU_NGUC_TU_5:
 
 LEGGINGS_VUOT_NGUC_1:
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 7.0
     revision-id: 1
     material: NETHERITE_LEGGINGS
     name: "&4Quần Giáp Vượt Ngục &e&lI"
@@ -3282,7 +3282,7 @@ LEGGINGS_VUOT_NGUC_1:
 
 LEGGINGS_VUOT_NGUC_2:
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 7.0
     revision-id: 1
     material: NETHERITE_LEGGINGS
     name: "&4Quần Giáp Vượt Ngục &e&lII"
@@ -3307,7 +3307,7 @@ LEGGINGS_VUOT_NGUC_2:
 
 LEGGINGS_VUOT_NGUC_3:
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 7.0
     revision-id: 1
     material: NETHERITE_LEGGINGS
     name: "&4Quần Giáp Vượt Ngục &e&lIII"
@@ -3332,7 +3332,7 @@ LEGGINGS_VUOT_NGUC_3:
 
 LEGGINGS_VUOT_NGUC_4:
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 7.0
     revision-id: 1
     material: NETHERITE_LEGGINGS
     name: "&4Quần Giáp Vượt Ngục &e&lIV"
@@ -3357,7 +3357,7 @@ LEGGINGS_VUOT_NGUC_4:
 
 LEGGINGS_VUOT_NGUC_5:
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 7.0
     revision-id: 1
     material: NETHERITE_LEGGINGS
     name: "&4Quần Giáp Vượt Ngục &e&lV"
@@ -3382,7 +3382,7 @@ LEGGINGS_VUOT_NGUC_5:
 
 BOOTS_TAN_BINH_1:
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 1.0
     revision-id: 1
     material: LEATHER_BOOTS
     name: "&fGiày Tân Binh &e&lI"
@@ -3405,7 +3405,7 @@ BOOTS_TAN_BINH_1:
 
 BOOTS_TAN_BINH_2:
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 1.0
     revision-id: 1
     material: LEATHER_BOOTS
     name: "&fGiày Tân Binh &e&lII"
@@ -3428,7 +3428,7 @@ BOOTS_TAN_BINH_2:
 
 BOOTS_TAN_BINH_3:
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 1.0
     revision-id: 1
     material: LEATHER_BOOTS
     name: "&fGiày Tân Binh &e&lIII"
@@ -3451,7 +3451,7 @@ BOOTS_TAN_BINH_3:
 
 BOOTS_TAN_BINH_4:
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 1.0
     revision-id: 1
     material: LEATHER_BOOTS
     name: "&fGiày Tân Binh &e&lIV"
@@ -3474,7 +3474,7 @@ BOOTS_TAN_BINH_4:
 
 BOOTS_TAN_BINH_5:
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 1.0
     revision-id: 1
     material: LEATHER_BOOTS
     name: "&fGiày Tân Binh &e&lV"
@@ -3497,7 +3497,7 @@ BOOTS_TAN_BINH_5:
 
 BOOTS_TU_NHAN_1:
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 2.0
     revision-id: 1
     material: LEATHER_BOOTS
     name: "&aGiày Tù Nhân &e&lI"
@@ -3520,7 +3520,7 @@ BOOTS_TU_NHAN_1:
 
 BOOTS_TU_NHAN_2:
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 2.0
     revision-id: 1
     material: LEATHER_BOOTS
     name: "&aGiày Tù Nhân &e&lII"
@@ -3543,7 +3543,7 @@ BOOTS_TU_NHAN_2:
 
 BOOTS_TU_NHAN_3:
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 2.0
     revision-id: 1
     material: LEATHER_BOOTS
     name: "&aGiày Tù Nhân &e&lIII"
@@ -3566,7 +3566,7 @@ BOOTS_TU_NHAN_3:
 
 BOOTS_TU_NHAN_4:
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 2.0
     revision-id: 1
     material: LEATHER_BOOTS
     name: "&aGiày Tù Nhân &e&lIV"
@@ -3589,7 +3589,7 @@ BOOTS_TU_NHAN_4:
 
 BOOTS_TU_NHAN_5:
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 2.0
     revision-id: 1
     material: LEATHER_BOOTS
     name: "&aGiày Tù Nhân &e&lV"
@@ -3612,7 +3612,7 @@ BOOTS_TU_NHAN_5:
 
 BOOTS_LAO_CONG_1:
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 2.0
     revision-id: 1
     material: CHAINMAIL_BOOTS
     name: "&bGiày Lao Công &e&lI"
@@ -3636,7 +3636,7 @@ BOOTS_LAO_CONG_1:
 
 BOOTS_LAO_CONG_2:
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 2.0
     revision-id: 1
     material: CHAINMAIL_BOOTS
     name: "&bGiày Lao Công &e&lII"
@@ -3660,7 +3660,7 @@ BOOTS_LAO_CONG_2:
 
 BOOTS_LAO_CONG_3:
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 2.0
     revision-id: 1
     material: CHAINMAIL_BOOTS
     name: "&bGiày Lao Công &e&lIII"
@@ -3684,7 +3684,7 @@ BOOTS_LAO_CONG_3:
 
 BOOTS_LAO_CONG_4:
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 2.0
     revision-id: 1
     material: CHAINMAIL_BOOTS
     name: "&bGiày Lao Công &e&lIV"
@@ -3708,7 +3708,7 @@ BOOTS_LAO_CONG_4:
 
 BOOTS_LAO_CONG_5:
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 2.0
     revision-id: 1
     material: CHAINMAIL_BOOTS
     name: "&bGiày Lao Công &e&lV"
@@ -3987,12 +3987,12 @@ BOOTS_DOI_TRUONG_5:
 
 BOOTS_PHO_QUAN_NGUC_1:
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 4.0
     revision-id: 1
     material: DIAMOND_BOOTS
     name: "&cGiày Phó Quản Ngục &e&lI"
     max-durability: 5200
-    tier: LEGENDARY
+    tier: EPIC
     hide-enchants: true
     lore-format: armor-lore
     lore:
@@ -4013,12 +4013,12 @@ BOOTS_PHO_QUAN_NGUC_1:
 
 BOOTS_PHO_QUAN_NGUC_2:
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 4.0
     revision-id: 1
     material: DIAMOND_BOOTS
     name: "&cGiày Phó Quản Ngục &e&lII"
     max-durability: 5200
-    tier: LEGENDARY
+    tier: EPIC
     hide-enchants: true
     lore-format: armor-lore
     lore:
@@ -4039,12 +4039,12 @@ BOOTS_PHO_QUAN_NGUC_2:
 
 BOOTS_PHO_QUAN_NGUC_3:
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 4.0
     revision-id: 1
     material: DIAMOND_BOOTS
     name: "&cGiày Phó Quản Ngục &e&lIII"
     max-durability: 5200
-    tier: LEGENDARY
+    tier: EPIC
     hide-enchants: true
     lore-format: armor-lore
     lore:
@@ -4065,12 +4065,12 @@ BOOTS_PHO_QUAN_NGUC_3:
 
 BOOTS_PHO_QUAN_NGUC_4:
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 4.0
     revision-id: 1
     material: DIAMOND_BOOTS
     name: "&cGiày Phó Quản Ngục &e&lIV"
     max-durability: 5200
-    tier: LEGENDARY
+    tier: EPIC
     hide-enchants: true
     lore-format: armor-lore
     lore:
@@ -4091,12 +4091,12 @@ BOOTS_PHO_QUAN_NGUC_4:
 
 BOOTS_PHO_QUAN_NGUC_5:
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 4.0
     revision-id: 1
     material: DIAMOND_BOOTS
     name: "&cGiày Phó Quản Ngục &e&lV"
     max-durability: 5200
-    tier: LEGENDARY
+    tier: EPIC
     hide-enchants: true
     lore-format: armor-lore
     lore:
@@ -4117,12 +4117,12 @@ BOOTS_PHO_QUAN_NGUC_5:
 
 BOOTS_QUAN_NGUC_1:
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 5.0
     revision-id: 1
     material: NETHERITE_BOOTS
     name: "&dGiày Quản Ngục &e&lI"
     max-durability: 7000
-    tier: MYTHICAL
+    tier: LEGENDARY
     hide-enchants: true
     lore-format: armor-lore
     lore:
@@ -4143,12 +4143,12 @@ BOOTS_QUAN_NGUC_1:
 
 BOOTS_QUAN_NGUC_2:
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 5.0
     revision-id: 1
     material: NETHERITE_BOOTS
     name: "&dGiày Quản Ngục &e&lII"
     max-durability: 7000
-    tier: MYTHICAL
+    tier: LEGENDARY
     hide-enchants: true
     lore-format: armor-lore
     lore:
@@ -4169,12 +4169,12 @@ BOOTS_QUAN_NGUC_2:
 
 BOOTS_QUAN_NGUC_3:
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 5.0
     revision-id: 1
     material: NETHERITE_BOOTS
     name: "&dGiày Quản Ngục &e&lIII"
     max-durability: 7000
-    tier: MYTHICAL
+    tier: LEGENDARY
     hide-enchants: true
     lore-format: armor-lore
     lore:
@@ -4195,12 +4195,12 @@ BOOTS_QUAN_NGUC_3:
 
 BOOTS_QUAN_NGUC_4:
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 5.0
     revision-id: 1
     material: NETHERITE_BOOTS
     name: "&dGiày Quản Ngục &e&lIV"
     max-durability: 7000
-    tier: MYTHICAL
+    tier: LEGENDARY
     hide-enchants: true
     lore-format: armor-lore
     lore:
@@ -4221,12 +4221,12 @@ BOOTS_QUAN_NGUC_4:
 
 BOOTS_QUAN_NGUC_5:
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 5.0
     revision-id: 1
     material: NETHERITE_BOOTS
     name: "&dGiày Quản Ngục &e&lV"
     max-durability: 7000
-    tier: MYTHICAL
+    tier: LEGENDARY
     hide-enchants: true
     lore-format: armor-lore
     lore:
@@ -4247,12 +4247,12 @@ BOOTS_QUAN_NGUC_5:
 
 BOOTS_BA_CHU_NGUC_TU_1:
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 6.0
     revision-id: 1
     material: NETHERITE_BOOTS
     name: "&5Giày Bá Chủ Ngục Tù &e&lI"
     max-durability: 9000
-    tier: EPIC
+    tier: MYTHICAL
     hide-enchants: true
     lore-format: armor-lore
     lore:
@@ -4273,12 +4273,12 @@ BOOTS_BA_CHU_NGUC_TU_1:
 
 BOOTS_BA_CHU_NGUC_TU_2:
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 6.0
     revision-id: 1
     material: NETHERITE_BOOTS
     name: "&5Giày Bá Chủ Ngục Tù &e&lII"
     max-durability: 9000
-    tier: EPIC
+    tier: MYTHICAL
     hide-enchants: true
     lore-format: armor-lore
     lore:
@@ -4299,12 +4299,12 @@ BOOTS_BA_CHU_NGUC_TU_2:
 
 BOOTS_BA_CHU_NGUC_TU_3:
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 6.0
     revision-id: 1
     material: NETHERITE_BOOTS
     name: "&5Giày Bá Chủ Ngục Tù &e&lIII"
     max-durability: 9000
-    tier: EPIC
+    tier: MYTHICAL
     hide-enchants: true
     lore-format: armor-lore
     lore:
@@ -4325,12 +4325,12 @@ BOOTS_BA_CHU_NGUC_TU_3:
 
 BOOTS_BA_CHU_NGUC_TU_4:
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 6.0
     revision-id: 1
     material: NETHERITE_BOOTS
     name: "&5Giày Bá Chủ Ngục Tù &e&lIV"
     max-durability: 9000
-    tier: EPIC
+    tier: MYTHICAL
     hide-enchants: true
     lore-format: armor-lore
     lore:
@@ -4351,12 +4351,12 @@ BOOTS_BA_CHU_NGUC_TU_4:
 
 BOOTS_BA_CHU_NGUC_TU_5:
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 6.0
     revision-id: 1
     material: NETHERITE_BOOTS
     name: "&5Giày Bá Chủ Ngục Tù &e&lV"
     max-durability: 9000
-    tier: EPIC
+    tier: MYTHICAL
     hide-enchants: true
     lore-format: armor-lore
     lore:
@@ -4377,7 +4377,7 @@ BOOTS_BA_CHU_NGUC_TU_5:
 
 BOOTS_VUOT_NGUC_1:
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 7.0
     revision-id: 1
     material: NETHERITE_BOOTS
     name: "&4Giày Vượt Ngục &e&lI"
@@ -4403,7 +4403,7 @@ BOOTS_VUOT_NGUC_1:
 
 BOOTS_VUOT_NGUC_2:
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 7.0
     revision-id: 1
     material: NETHERITE_BOOTS
     name: "&4Giày Vượt Ngục &e&lII"
@@ -4429,7 +4429,7 @@ BOOTS_VUOT_NGUC_2:
 
 BOOTS_VUOT_NGUC_3:
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 7.0
     revision-id: 1
     material: NETHERITE_BOOTS
     name: "&4Giày Vượt Ngục &e&lIII"
@@ -4455,7 +4455,7 @@ BOOTS_VUOT_NGUC_3:
 
 BOOTS_VUOT_NGUC_4:
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 7.0
     revision-id: 1
     material: NETHERITE_BOOTS
     name: "&4Giày Vượt Ngục &e&lIV"
@@ -4481,7 +4481,7 @@ BOOTS_VUOT_NGUC_4:
 
 BOOTS_VUOT_NGUC_5:
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 7.0
     revision-id: 1
     material: NETHERITE_BOOTS
     name: "&4Giày Vượt Ngục &e&lV"
@@ -4514,7 +4514,7 @@ BOOTS_VUOT_NGUC_5:
 DONATE_HELMET_LONG_VE:
   itemsadder-item: "littledragonset:littledragonhelmet"
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 5.0
     revision-id: 1
     material: LEATHER_HELMET
     custom-model-data: 10029
@@ -4522,7 +4522,7 @@ DONATE_HELMET_LONG_VE:
     hide-dye: true
     name: "&a&l✦ Hộ Long Mũ"
     max-durability: 20000
-    tier: RARE
+    tier: LEGENDARY
     set: LONG_VE_SET
     hide-enchants: true
     lore-format: armor-lore
@@ -4544,7 +4544,7 @@ DONATE_HELMET_LONG_VE:
 DONATE_CHESTPLATE_LONG_VE:
   itemsadder-item: "littledragonset:littledragonchestplate"
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 5.0
     revision-id: 1
     material: LEATHER_CHESTPLATE
     custom-model-data: 10037
@@ -4552,7 +4552,7 @@ DONATE_CHESTPLATE_LONG_VE:
     hide-dye: true
     name: "&a&l✦ Hộ Long Chiến Giáp"
     max-durability: 20000
-    tier: RARE
+    tier: LEGENDARY
     set: LONG_VE_SET
     hide-enchants: true
     lore-format: armor-lore
@@ -4574,7 +4574,7 @@ DONATE_CHESTPLATE_LONG_VE:
 DONATE_LEGGINGS_LONG_VE:
   itemsadder-item: "littledragonset:littledragonleggings"
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 5.0
     revision-id: 1
     material: LEATHER_LEGGINGS
     custom-model-data: 10037
@@ -4582,7 +4582,7 @@ DONATE_LEGGINGS_LONG_VE:
     hide-dye: true
     name: "&a&l✦ Hộ Long Hộ Tất"
     max-durability: 20000
-    tier: RARE
+    tier: LEGENDARY
     set: LONG_VE_SET
     hide-enchants: true
     lore-format: armor-lore
@@ -4604,7 +4604,7 @@ DONATE_LEGGINGS_LONG_VE:
 DONATE_BOOTS_LONG_VE:
   itemsadder-item: "littledragonset:littledragonboots"
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 5.0
     revision-id: 1
     material: LEATHER_BOOTS
     custom-model-data: 10037
@@ -4612,7 +4612,7 @@ DONATE_BOOTS_LONG_VE:
     hide-dye: true
     name: "&a&l✦ Hộ Long Hài"
     max-durability: 20000
-    tier: RARE
+    tier: LEGENDARY
     set: LONG_VE_SET
     hide-enchants: true
     lore-format: armor-lore
@@ -4637,7 +4637,7 @@ DONATE_BOOTS_LONG_VE:
 DONATE_HELMET_LONG_CHIEN:
   itemsadder-item: "spartan_set:spartanhelmet"
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 6.0
     revision-id: 1
     material: LEATHER_HELMET
     custom-model-data: 10012
@@ -4645,7 +4645,7 @@ DONATE_HELMET_LONG_CHIEN:
     hide-dye: true
     name: "&e&l⚔ Chiến Long Mũ"
     max-durability: 20000
-    tier: VERY_RARE
+    tier: MYTHICAL
     set: LONG_CHIEN_SET
     hide-enchants: true
     lore-format: armor-lore
@@ -4667,7 +4667,7 @@ DONATE_HELMET_LONG_CHIEN:
 DONATE_CHESTPLATE_LONG_CHIEN:
   itemsadder-item: "spartan_set:spartanchestplate"
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 6.0
     revision-id: 1
     material: LEATHER_CHESTPLATE
     custom-model-data: 10016
@@ -4675,7 +4675,7 @@ DONATE_CHESTPLATE_LONG_CHIEN:
     hide-dye: true
     name: "&e&l⚔ Chiến Long Chiến Giáp"
     max-durability: 20000
-    tier: VERY_RARE
+    tier: MYTHICAL
     set: LONG_CHIEN_SET
     hide-enchants: true
     lore-format: armor-lore
@@ -4697,7 +4697,7 @@ DONATE_CHESTPLATE_LONG_CHIEN:
 DONATE_LEGGINGS_LONG_CHIEN:
   itemsadder-item: "spartan_set:spartanleggings"
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 6.0
     revision-id: 1
     material: LEATHER_LEGGINGS
     custom-model-data: 10016
@@ -4705,7 +4705,7 @@ DONATE_LEGGINGS_LONG_CHIEN:
     hide-dye: true
     name: "&e&l⚔ Chiến Long Hộ Tất"
     max-durability: 20000
-    tier: VERY_RARE
+    tier: MYTHICAL
     set: LONG_CHIEN_SET
     hide-enchants: true
     lore-format: armor-lore
@@ -4727,7 +4727,7 @@ DONATE_LEGGINGS_LONG_CHIEN:
 DONATE_BOOTS_LONG_CHIEN:
   itemsadder-item: "spartan_set:spartanboots"
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 6.0
     revision-id: 1
     material: LEATHER_BOOTS
     custom-model-data: 10016
@@ -4735,7 +4735,7 @@ DONATE_BOOTS_LONG_CHIEN:
     hide-dye: true
     name: "&e&l⚔ Chiến Long Hài"
     max-durability: 20000
-    tier: VERY_RARE
+    tier: MYTHICAL
     set: LONG_CHIEN_SET
     hide-enchants: true
     lore-format: armor-lore
@@ -4760,7 +4760,7 @@ DONATE_BOOTS_LONG_CHIEN:
 DONATE_HELMET_LONG_THAN:
   itemsadder-item: "azureset:azurehelmet"
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 6.0
     revision-id: 1
     material: LEATHER_HELMET
     custom-model-data: 10018
@@ -4768,7 +4768,7 @@ DONATE_HELMET_LONG_THAN:
     hide-dye: true
     name: "&b&l✦ Thần Long Mũ"
     max-durability: 20000
-    tier: LEGENDARY
+    tier: MYTHICAL
     set: LONG_THAN_SET
     hide-enchants: true
     lore-format: armor-lore
@@ -4790,7 +4790,7 @@ DONATE_HELMET_LONG_THAN:
 DONATE_CHESTPLATE_LONG_THAN:
   itemsadder-item: "azureset:azurechestplate"
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 6.0
     revision-id: 1
     material: LEATHER_CHESTPLATE
     custom-model-data: 10024
@@ -4798,7 +4798,7 @@ DONATE_CHESTPLATE_LONG_THAN:
     hide-dye: true
     name: "&b&l✦ Thần Long Thánh Giáp"
     max-durability: 20000
-    tier: LEGENDARY
+    tier: MYTHICAL
     set: LONG_THAN_SET
     hide-enchants: true
     lore-format: armor-lore
@@ -4820,7 +4820,7 @@ DONATE_CHESTPLATE_LONG_THAN:
 DONATE_LEGGINGS_LONG_THAN:
   itemsadder-item: "azureset:azureleggings"
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 6.0
     revision-id: 1
     material: LEATHER_LEGGINGS
     custom-model-data: 10024
@@ -4828,7 +4828,7 @@ DONATE_LEGGINGS_LONG_THAN:
     hide-dye: true
     name: "&b&l✦ Thần Long Hộ Tất"
     max-durability: 20000
-    tier: LEGENDARY
+    tier: MYTHICAL
     set: LONG_THAN_SET
     hide-enchants: true
     lore-format: armor-lore
@@ -4850,7 +4850,7 @@ DONATE_LEGGINGS_LONG_THAN:
 DONATE_BOOTS_LONG_THAN:
   itemsadder-item: "azureset:azureboots"
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 6.0
     revision-id: 1
     material: LEATHER_BOOTS
     custom-model-data: 10024
@@ -4858,7 +4858,7 @@ DONATE_BOOTS_LONG_THAN:
     hide-dye: true
     name: "&b&l✦ Thần Long Hài"
     max-durability: 20000
-    tier: LEGENDARY
+    tier: MYTHICAL
     set: LONG_THAN_SET
     hide-enchants: true
     lore-format: armor-lore
@@ -4883,7 +4883,7 @@ DONATE_BOOTS_LONG_THAN:
 DONATE_HELMET_LONG_DE:
   itemsadder-item: "demon_edgeset:demon_edgehelmet"
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 7.0
     revision-id: 1
     material: LEATHER_HELMET
     custom-model-data: 10032
@@ -4891,7 +4891,7 @@ DONATE_HELMET_LONG_DE:
     hide-dye: true
     name: "&4&l◆ Đế Long Mũ"
     max-durability: 20000
-    tier: EPIC
+    tier: UNIQUE
     set: LONG_DE_SET
     hide-enchants: true
     lore-format: armor-lore
@@ -4913,7 +4913,7 @@ DONATE_HELMET_LONG_DE:
 DONATE_CHESTPLATE_LONG_DE:
   itemsadder-item: "demon_edgeset:demon_edgechestplate"
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 7.0
     revision-id: 1
     material: LEATHER_CHESTPLATE
     custom-model-data: 10040
@@ -4921,7 +4921,7 @@ DONATE_CHESTPLATE_LONG_DE:
     hide-dye: true
     name: "&4&l◆ Đế Long Diệt Giáp"
     max-durability: 20000
-    tier: EPIC
+    tier: UNIQUE
     set: LONG_DE_SET
     hide-enchants: true
     lore-format: armor-lore
@@ -4943,7 +4943,7 @@ DONATE_CHESTPLATE_LONG_DE:
 DONATE_LEGGINGS_LONG_DE:
   itemsadder-item: "demon_edgeset:demon_edgeleggings"
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 7.0
     revision-id: 1
     material: LEATHER_LEGGINGS
     custom-model-data: 10040
@@ -4951,7 +4951,7 @@ DONATE_LEGGINGS_LONG_DE:
     hide-dye: true
     name: "&4&l◆ Đế Long Hộ Tất"
     max-durability: 20000
-    tier: EPIC
+    tier: UNIQUE
     set: LONG_DE_SET
     hide-enchants: true
     lore-format: armor-lore
@@ -4973,7 +4973,7 @@ DONATE_LEGGINGS_LONG_DE:
 DONATE_BOOTS_LONG_DE:
   itemsadder-item: "demon_edgeset:demon_edgeboots"
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 7.0
     revision-id: 1
     material: LEATHER_BOOTS
     custom-model-data: 10040
@@ -4981,7 +4981,7 @@ DONATE_BOOTS_LONG_DE:
     hide-dye: true
     name: "&4&l◆ Đế Long Hài"
     max-durability: 20000
-    tier: EPIC
+    tier: UNIQUE
     set: LONG_DE_SET
     hide-enchants: true
     lore-format: armor-lore
@@ -5006,7 +5006,7 @@ DONATE_BOOTS_LONG_DE:
 DONATE_HELMET_LONG_HOANG:
   itemsadder-item: "lunarset:lunar_helmet"
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 7.0
     revision-id: 2
     material: PAPER
     custom-model-data: 10124
@@ -5036,7 +5036,7 @@ DONATE_HELMET_LONG_HOANG:
 DONATE_CHESTPLATE_LONG_HOANG:
   itemsadder-item: "lunarset:lunarchestplate"
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 7.0
     revision-id: 2
     material: LEATHER_CHESTPLATE
     custom-model-data: 10000
@@ -5066,7 +5066,7 @@ DONATE_CHESTPLATE_LONG_HOANG:
 DONATE_LEGGINGS_LONG_HOANG:
   itemsadder-item: "lunarset:lunarleggings"
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 7.0
     revision-id: 2
     material: LEATHER_LEGGINGS
     custom-model-data: 10000
@@ -5096,7 +5096,7 @@ DONATE_LEGGINGS_LONG_HOANG:
 DONATE_BOOTS_LONG_HOANG:
   itemsadder-item: "lunarset:lunarboots"
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 7.0
     revision-id: 2
     material: LEATHER_BOOTS
     custom-model-data: 10000
@@ -5256,7 +5256,7 @@ TRADE_BOOTS_HOA_LONG:
 TRADE_HELMET_BANG_LONG:
   itemsadder-item: "mysticcyanset:mysticcyanhelmet"
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 4.0
     revision-id: 1
     material: LEATHER_HELMET
     custom-model-data: 10020
@@ -5264,7 +5264,7 @@ TRADE_HELMET_BANG_LONG:
     hide-dye: true
     name: "&3&l✦ Băng Long Giáp Miện"
     max-durability: 18000
-    tier: VERY_RARE
+    tier: EPIC
     set: BANG_LONG_SET
     hide-enchants: true
     lore-format: armor-lore
@@ -5286,7 +5286,7 @@ TRADE_HELMET_BANG_LONG:
 TRADE_CHESTPLATE_BANG_LONG:
   itemsadder-item: "mysticcyanset:mysticcyanchestplate"
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 4.0
     revision-id: 1
     material: LEATHER_CHESTPLATE
     custom-model-data: 10027
@@ -5294,7 +5294,7 @@ TRADE_CHESTPLATE_BANG_LONG:
     hide-dye: true
     name: "&3&l✦ Băng Long Hàn Giáp"
     max-durability: 18000
-    tier: VERY_RARE
+    tier: EPIC
     set: BANG_LONG_SET
     hide-enchants: true
     lore-format: armor-lore
@@ -5316,7 +5316,7 @@ TRADE_CHESTPLATE_BANG_LONG:
 TRADE_LEGGINGS_BANG_LONG:
   itemsadder-item: "mysticcyanset:mysticcyanleggings"
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 4.0
     revision-id: 1
     material: LEATHER_LEGGINGS
     custom-model-data: 10027
@@ -5324,7 +5324,7 @@ TRADE_LEGGINGS_BANG_LONG:
     hide-dye: true
     name: "&3&l✦ Băng Long Hộ Tất"
     max-durability: 18000
-    tier: VERY_RARE
+    tier: EPIC
     set: BANG_LONG_SET
     hide-enchants: true
     lore-format: armor-lore
@@ -5346,7 +5346,7 @@ TRADE_LEGGINGS_BANG_LONG:
 TRADE_BOOTS_BANG_LONG:
   itemsadder-item: "mysticcyanset:mysticcyanboots"
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 4.0
     revision-id: 1
     material: LEATHER_BOOTS
     custom-model-data: 10027
@@ -5354,7 +5354,7 @@ TRADE_BOOTS_BANG_LONG:
     hide-dye: true
     name: "&3&l✦ Băng Long Hàn Hài"
     max-durability: 18000
-    tier: VERY_RARE
+    tier: EPIC
     set: BANG_LONG_SET
     hide-enchants: true
     lore-format: armor-lore
@@ -5379,7 +5379,7 @@ TRADE_BOOTS_BANG_LONG:
 TRADE_HELMET_LOI_LONG:
   itemsadder-item: "elitecreatures:king_arthur_animated_weapon_set_helmet"
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 5.0
     revision-id: 1
     material: PAPER
     custom-model-data: 10353
@@ -5387,7 +5387,7 @@ TRADE_HELMET_LOI_LONG:
     hide-dye: true
     name: "&e&l⚡ Lôi Long Giáp Miện"
     max-durability: 18000
-    tier: UNIQUE
+    tier: LEGENDARY
     set: LOI_LONG_SET
     hide-enchants: true
     lore-format: armor-lore
@@ -5409,7 +5409,7 @@ TRADE_HELMET_LOI_LONG:
 TRADE_CHESTPLATE_LOI_LONG:
   itemsadder-item: "elitecreatures:king_arthur_animated_weapon_set_chestplate"
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 5.0
     revision-id: 1
     material: LEATHER_CHESTPLATE
     custom-model-data: 10031
@@ -5417,7 +5417,7 @@ TRADE_CHESTPLATE_LOI_LONG:
     hide-dye: true
     name: "&e&l⚡ Lôi Long Chấn Giáp"
     max-durability: 18000
-    tier: UNIQUE
+    tier: LEGENDARY
     set: LOI_LONG_SET
     hide-enchants: true
     lore-format: armor-lore
@@ -5439,7 +5439,7 @@ TRADE_CHESTPLATE_LOI_LONG:
 TRADE_LEGGINGS_LOI_LONG:
   itemsadder-item: "elitecreatures:king_arthur_animated_weapon_set_leggings"
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 5.0
     revision-id: 1
     material: LEATHER_LEGGINGS
     custom-model-data: 10031
@@ -5447,7 +5447,7 @@ TRADE_LEGGINGS_LOI_LONG:
     hide-dye: true
     name: "&e&l⚡ Lôi Long Hộ Tất"
     max-durability: 18000
-    tier: UNIQUE
+    tier: LEGENDARY
     set: LOI_LONG_SET
     hide-enchants: true
     lore-format: armor-lore
@@ -5469,7 +5469,7 @@ TRADE_LEGGINGS_LOI_LONG:
 TRADE_BOOTS_LOI_LONG:
   itemsadder-item: "elitecreatures:king_arthur_animated_weapon_set_boots"
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 5.0
     revision-id: 1
     material: LEATHER_BOOTS
     custom-model-data: 10031
@@ -5477,7 +5477,7 @@ TRADE_BOOTS_LOI_LONG:
     hide-dye: true
     name: "&e&l⚡ Lôi Long Chấn Hài"
     max-durability: 18000
-    tier: UNIQUE
+    tier: LEGENDARY
     set: LOI_LONG_SET
     hide-enchants: true
     lore-format: armor-lore
@@ -5502,7 +5502,7 @@ TRADE_BOOTS_LOI_LONG:
 TRADE_HELMET_PHONG_LONG:
   itemsadder-item: "nanoedge_set:nanoedgehelmet"
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 6.0
     revision-id: 1
     material: LEATHER_HELMET
     custom-model-data: 10016
@@ -5510,7 +5510,7 @@ TRADE_HELMET_PHONG_LONG:
     hide-dye: true
     name: "&2&l✦ Phong Long Giáp Miện"
     max-durability: 18000
-    tier: EPIC
+    tier: MYTHICAL
     set: PHONG_LONG_SET
     hide-enchants: true
     lore-format: armor-lore
@@ -5532,7 +5532,7 @@ TRADE_HELMET_PHONG_LONG:
 TRADE_CHESTPLATE_PHONG_LONG:
   itemsadder-item: "nanoedge_set:nanoedgechestplate"
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 6.0
     revision-id: 1
     material: LEATHER_CHESTPLATE
     custom-model-data: 10021
@@ -5540,7 +5540,7 @@ TRADE_CHESTPLATE_PHONG_LONG:
     hide-dye: true
     name: "&2&l✦ Phong Long Liệt Giáp"
     max-durability: 18000
-    tier: EPIC
+    tier: MYTHICAL
     set: PHONG_LONG_SET
     hide-enchants: true
     lore-format: armor-lore
@@ -5562,7 +5562,7 @@ TRADE_CHESTPLATE_PHONG_LONG:
 TRADE_LEGGINGS_PHONG_LONG:
   itemsadder-item: "nanoedge_set:nanoedgeleggings"
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 6.0
     revision-id: 1
     material: LEATHER_LEGGINGS
     custom-model-data: 10021
@@ -5570,7 +5570,7 @@ TRADE_LEGGINGS_PHONG_LONG:
     hide-dye: true
     name: "&2&l✦ Phong Long Hộ Tất"
     max-durability: 18000
-    tier: EPIC
+    tier: MYTHICAL
     set: PHONG_LONG_SET
     hide-enchants: true
     lore-format: armor-lore
@@ -5592,7 +5592,7 @@ TRADE_LEGGINGS_PHONG_LONG:
 TRADE_BOOTS_PHONG_LONG:
   itemsadder-item: "nanoedge_set:nanoedgeboots"
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 6.0
     revision-id: 1
     material: LEATHER_BOOTS
     custom-model-data: 10021
@@ -5600,7 +5600,7 @@ TRADE_BOOTS_PHONG_LONG:
     hide-dye: true
     name: "&2&l✦ Phong Long Phong Hài"
     max-durability: 18000
-    tier: EPIC
+    tier: MYTHICAL
     set: PHONG_LONG_SET
     hide-enchants: true
     lore-format: armor-lore
@@ -5625,7 +5625,7 @@ TRADE_BOOTS_PHONG_LONG:
 TRADE_HELMET_HAC_LONG:
   itemsadder-item: "obsidianset:co_helmet"
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 7.0
     revision-id: 1
     material: LEATHER_HELMET
     custom-model-data: 10002
@@ -5633,7 +5633,7 @@ TRADE_HELMET_HAC_LONG:
     hide-dye: true
     name: "&5&l◆ Hắc Long Ma Miện"
     max-durability: 18000
-    tier: LEGENDARY
+    tier: UNIQUE
     set: HAC_LONG_SET
     hide-enchants: true
     lore-format: armor-lore
@@ -5655,7 +5655,7 @@ TRADE_HELMET_HAC_LONG:
 TRADE_CHESTPLATE_HAC_LONG:
   itemsadder-item: "obsidianset:co_chestplate"
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 7.0
     revision-id: 1
     material: LEATHER_CHESTPLATE
     custom-model-data: 10004
@@ -5663,7 +5663,7 @@ TRADE_CHESTPLATE_HAC_LONG:
     hide-dye: true
     name: "&5&l◆ Hắc Long Ma Giáp"
     max-durability: 18000
-    tier: LEGENDARY
+    tier: UNIQUE
     set: HAC_LONG_SET
     hide-enchants: true
     lore-format: armor-lore
@@ -5685,7 +5685,7 @@ TRADE_CHESTPLATE_HAC_LONG:
 TRADE_LEGGINGS_HAC_LONG:
   itemsadder-item: "obsidianset:co_leggings"
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 7.0
     revision-id: 1
     material: LEATHER_LEGGINGS
     custom-model-data: 10004
@@ -5693,7 +5693,7 @@ TRADE_LEGGINGS_HAC_LONG:
     hide-dye: true
     name: "&5&l◆ Hắc Long Ma Tất"
     max-durability: 18000
-    tier: LEGENDARY
+    tier: UNIQUE
     set: HAC_LONG_SET
     hide-enchants: true
     lore-format: armor-lore
@@ -5715,7 +5715,7 @@ TRADE_LEGGINGS_HAC_LONG:
 TRADE_BOOTS_HAC_LONG:
   itemsadder-item: "obsidianset:co_boots"
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 7.0
     revision-id: 1
     material: LEATHER_BOOTS
     custom-model-data: 10004
@@ -5723,7 +5723,7 @@ TRADE_BOOTS_HAC_LONG:
     hide-dye: true
     name: "&5&l◆ Hắc Long Ma Hài"
     max-durability: 18000
-    tier: LEGENDARY
+    tier: UNIQUE
     set: HAC_LONG_SET
     hide-enchants: true
     lore-format: armor-lore

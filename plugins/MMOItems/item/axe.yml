@@ -1,6 +1,6 @@
 AXE_TAN_BINH_1:
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 1.0
     revision-id: 1
     material: WOODEN_AXE
     name: "&fRìu Chiến Tân Binh &e&lI"
@@ -24,7 +24,7 @@ AXE_TAN_BINH_1:
 
 AXE_TAN_BINH_2:
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 1.0
     revision-id: 1
     material: WOODEN_AXE
     name: "&fRìu Chiến Tân Binh &e&lII"
@@ -48,7 +48,7 @@ AXE_TAN_BINH_2:
 
 AXE_TAN_BINH_3:
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 1.0
     revision-id: 1
     material: WOODEN_AXE
     name: "&fRìu Chiến Tân Binh &e&lIII"
@@ -72,7 +72,7 @@ AXE_TAN_BINH_3:
 
 AXE_TAN_BINH_4:
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 1.0
     revision-id: 1
     material: WOODEN_AXE
     name: "&fRìu Chiến Tân Binh &e&lIV"
@@ -96,7 +96,7 @@ AXE_TAN_BINH_4:
 
 AXE_TAN_BINH_5:
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 1.0
     revision-id: 1
     material: WOODEN_AXE
     name: "&fRìu Chiến Tân Binh &e&lV"
@@ -120,7 +120,7 @@ AXE_TAN_BINH_5:
 
 AXE_TU_NHAN_1:
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 2.0
     revision-id: 1
     material: STONE_AXE
     name: "&aRìu Chiến Tù Nhân &e&lI"
@@ -144,7 +144,7 @@ AXE_TU_NHAN_1:
 
 AXE_TU_NHAN_2:
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 2.0
     revision-id: 1
     material: STONE_AXE
     name: "&aRìu Chiến Tù Nhân &e&lII"
@@ -168,7 +168,7 @@ AXE_TU_NHAN_2:
 
 AXE_TU_NHAN_3:
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 2.0
     revision-id: 1
     material: STONE_AXE
     name: "&aRìu Chiến Tù Nhân &e&lIII"
@@ -192,7 +192,7 @@ AXE_TU_NHAN_3:
 
 AXE_TU_NHAN_4:
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 2.0
     revision-id: 1
     material: STONE_AXE
     name: "&aRìu Chiến Tù Nhân &e&lIV"
@@ -216,7 +216,7 @@ AXE_TU_NHAN_4:
 
 AXE_TU_NHAN_5:
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 2.0
     revision-id: 1
     material: STONE_AXE
     name: "&aRìu Chiến Tù Nhân &e&lV"
@@ -240,7 +240,7 @@ AXE_TU_NHAN_5:
 
 AXE_LAO_CONG_1:
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 2.0
     revision-id: 1
     material: IRON_AXE
     name: "&bRìu Chiến Lao Công &e&lI"
@@ -264,7 +264,7 @@ AXE_LAO_CONG_1:
 
 AXE_LAO_CONG_2:
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 2.0
     revision-id: 1
     material: IRON_AXE
     name: "&bRìu Chiến Lao Công &e&lII"
@@ -288,7 +288,7 @@ AXE_LAO_CONG_2:
 
 AXE_LAO_CONG_3:
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 2.0
     revision-id: 1
     material: IRON_AXE
     name: "&bRìu Chiến Lao Công &e&lIII"
@@ -312,7 +312,7 @@ AXE_LAO_CONG_3:
 
 AXE_LAO_CONG_4:
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 2.0
     revision-id: 1
     material: IRON_AXE
     name: "&bRìu Chiến Lao Công &e&lIV"
@@ -336,7 +336,7 @@ AXE_LAO_CONG_4:
 
 AXE_LAO_CONG_5:
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 2.0
     revision-id: 1
     material: IRON_AXE
     name: "&bRìu Chiến Lao Công &e&lV"
@@ -605,12 +605,12 @@ AXE_DOI_TRUONG_5:
 
 AXE_PHO_QUAN_NGUC_1:
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 4.0
     revision-id: 1
     material: DIAMOND_AXE
     name: "&cRìu Chiến Phó Quản Ngục &e&lI"
     max-durability: 6000
-    tier: LEGENDARY
+    tier: EPIC
     hide-enchants: true
     lore-format: weapon-lore
     lore:
@@ -630,12 +630,12 @@ AXE_PHO_QUAN_NGUC_1:
 
 AXE_PHO_QUAN_NGUC_2:
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 4.0
     revision-id: 1
     material: DIAMOND_AXE
     name: "&cRìu Chiến Phó Quản Ngục &e&lII"
     max-durability: 6000
-    tier: LEGENDARY
+    tier: EPIC
     hide-enchants: true
     lore-format: weapon-lore
     lore:
@@ -655,12 +655,12 @@ AXE_PHO_QUAN_NGUC_2:
 
 AXE_PHO_QUAN_NGUC_3:
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 4.0
     revision-id: 1
     material: DIAMOND_AXE
     name: "&cRìu Chiến Phó Quản Ngục &e&lIII"
     max-durability: 6000
-    tier: LEGENDARY
+    tier: EPIC
     hide-enchants: true
     lore-format: weapon-lore
     lore:
@@ -680,12 +680,12 @@ AXE_PHO_QUAN_NGUC_3:
 
 AXE_PHO_QUAN_NGUC_4:
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 4.0
     revision-id: 1
     material: DIAMOND_AXE
     name: "&cRìu Chiến Phó Quản Ngục &e&lIV"
     max-durability: 6000
-    tier: LEGENDARY
+    tier: EPIC
     hide-enchants: true
     lore-format: weapon-lore
     lore:
@@ -705,12 +705,12 @@ AXE_PHO_QUAN_NGUC_4:
 
 AXE_PHO_QUAN_NGUC_5:
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 4.0
     revision-id: 1
     material: DIAMOND_AXE
     name: "&cRìu Chiến Phó Quản Ngục &e&lV"
     max-durability: 6000
-    tier: LEGENDARY
+    tier: EPIC
     hide-enchants: true
     lore-format: weapon-lore
     lore:
@@ -730,12 +730,12 @@ AXE_PHO_QUAN_NGUC_5:
 
 AXE_QUAN_NGUC_1:
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 5.0
     revision-id: 1
     material: NETHERITE_AXE
     name: "&dRìu Chiến Quản Ngục &e&lI"
     max-durability: 8000
-    tier: MYTHICAL
+    tier: LEGENDARY
     hide-enchants: true
     lore-format: weapon-lore
     lore:
@@ -755,12 +755,12 @@ AXE_QUAN_NGUC_1:
 
 AXE_QUAN_NGUC_2:
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 5.0
     revision-id: 1
     material: NETHERITE_AXE
     name: "&dRìu Chiến Quản Ngục &e&lII"
     max-durability: 8000
-    tier: MYTHICAL
+    tier: LEGENDARY
     hide-enchants: true
     lore-format: weapon-lore
     lore:
@@ -780,12 +780,12 @@ AXE_QUAN_NGUC_2:
 
 AXE_QUAN_NGUC_3:
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 5.0
     revision-id: 1
     material: NETHERITE_AXE
     name: "&dRìu Chiến Quản Ngục &e&lIII"
     max-durability: 8000
-    tier: MYTHICAL
+    tier: LEGENDARY
     hide-enchants: true
     lore-format: weapon-lore
     lore:
@@ -805,12 +805,12 @@ AXE_QUAN_NGUC_3:
 
 AXE_QUAN_NGUC_4:
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 5.0
     revision-id: 1
     material: NETHERITE_AXE
     name: "&dRìu Chiến Quản Ngục &e&lIV"
     max-durability: 8000
-    tier: MYTHICAL
+    tier: LEGENDARY
     hide-enchants: true
     lore-format: weapon-lore
     lore:
@@ -830,12 +830,12 @@ AXE_QUAN_NGUC_4:
 
 AXE_QUAN_NGUC_5:
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 5.0
     revision-id: 1
     material: NETHERITE_AXE
     name: "&dRìu Chiến Quản Ngục &e&lV"
     max-durability: 8000
-    tier: MYTHICAL
+    tier: LEGENDARY
     hide-enchants: true
     lore-format: weapon-lore
     lore:
@@ -855,12 +855,12 @@ AXE_QUAN_NGUC_5:
 
 AXE_BA_CHU_NGUC_TU_1:
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 6.0
     revision-id: 1
     material: NETHERITE_AXE
     name: "&5Rìu Chiến Bá Chủ Ngục Tù &e&lI"
     max-durability: 10000
-    tier: EPIC
+    tier: MYTHICAL
     hide-enchants: true
     lore-format: weapon-lore
     lore:
@@ -880,12 +880,12 @@ AXE_BA_CHU_NGUC_TU_1:
 
 AXE_BA_CHU_NGUC_TU_2:
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 6.0
     revision-id: 1
     material: NETHERITE_AXE
     name: "&5Rìu Chiến Bá Chủ Ngục Tù &e&lII"
     max-durability: 10000
-    tier: EPIC
+    tier: MYTHICAL
     hide-enchants: true
     lore-format: weapon-lore
     lore:
@@ -905,12 +905,12 @@ AXE_BA_CHU_NGUC_TU_2:
 
 AXE_BA_CHU_NGUC_TU_3:
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 6.0
     revision-id: 1
     material: NETHERITE_AXE
     name: "&5Rìu Chiến Bá Chủ Ngục Tù &e&lIII"
     max-durability: 10000
-    tier: EPIC
+    tier: MYTHICAL
     hide-enchants: true
     lore-format: weapon-lore
     lore:
@@ -930,12 +930,12 @@ AXE_BA_CHU_NGUC_TU_3:
 
 AXE_BA_CHU_NGUC_TU_4:
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 6.0
     revision-id: 1
     material: NETHERITE_AXE
     name: "&5Rìu Chiến Bá Chủ Ngục Tù &e&lIV"
     max-durability: 10000
-    tier: EPIC
+    tier: MYTHICAL
     hide-enchants: true
     lore-format: weapon-lore
     lore:
@@ -955,12 +955,12 @@ AXE_BA_CHU_NGUC_TU_4:
 
 AXE_BA_CHU_NGUC_TU_5:
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 6.0
     revision-id: 1
     material: NETHERITE_AXE
     name: "&5Rìu Chiến Bá Chủ Ngục Tù &e&lV"
     max-durability: 10000
-    tier: EPIC
+    tier: MYTHICAL
     hide-enchants: true
     lore-format: weapon-lore
     lore:
@@ -980,7 +980,7 @@ AXE_BA_CHU_NGUC_TU_5:
 
 AXE_VUOT_NGUC_1:
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 7.0
     revision-id: 1
     material: NETHERITE_AXE
     name: "&4Rìu Chiến Vượt Ngục &e&lI"
@@ -1005,7 +1005,7 @@ AXE_VUOT_NGUC_1:
 
 AXE_VUOT_NGUC_2:
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 7.0
     revision-id: 1
     material: NETHERITE_AXE
     name: "&4Rìu Chiến Vượt Ngục &e&lII"
@@ -1030,7 +1030,7 @@ AXE_VUOT_NGUC_2:
 
 AXE_VUOT_NGUC_3:
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 7.0
     revision-id: 1
     material: NETHERITE_AXE
     name: "&4Rìu Chiến Vượt Ngục &e&lIII"
@@ -1055,7 +1055,7 @@ AXE_VUOT_NGUC_3:
 
 AXE_VUOT_NGUC_4:
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 7.0
     revision-id: 1
     material: NETHERITE_AXE
     name: "&4Rìu Chiến Vượt Ngục &e&lIV"
@@ -1080,7 +1080,7 @@ AXE_VUOT_NGUC_4:
 
 AXE_VUOT_NGUC_5:
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 7.0
     revision-id: 1
     material: NETHERITE_AXE
     name: "&4Rìu Chiến Vượt Ngục &e&lV"
@@ -1106,7 +1106,7 @@ AXE_VUOT_NGUC_5:
 GACHA_AXE_VIRIDIAN:
   itemsadder-item: "fantasy_weapons:viridian_greataxe"
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 7.0
     revision-id: 1
     material: IRON_AXE
     custom-model-data: 10001
@@ -1139,7 +1139,7 @@ GACHA_AXE_VIRIDIAN:
 GACHA_AXE_AZURE:
   itemsadder-item: "fantasy_weapons:azure_greataxe"
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 7.0
     revision-id: 1
     material: DIAMOND_AXE
     custom-model-data: 10000
@@ -1173,7 +1173,7 @@ GACHA_AXE_AZURE:
 GACHA_AXE_SACRIFICIAL:
   itemsadder-item: "fantasy_weapons:sacrificial_cleaver"
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 7.0
     revision-id: 1
     material: IRON_AXE
     custom-model-data: 10011

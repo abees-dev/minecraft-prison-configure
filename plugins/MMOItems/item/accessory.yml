@@ -15,6 +15,7 @@ LONG_VUONG_RING_1:
       reference: armor-upgrade-template
       max: 100
 
+    tier: RARE
 LONG_VUONG_RING_2:
   itemsadder-item: "rings_pack:set1_ring_2"
   base:
@@ -31,6 +32,7 @@ LONG_VUONG_RING_2:
       reference: armor-upgrade-template
       max: 100
 
+    tier: RARE
 BANG_TINH_RING_1:
   itemsadder-item: "rings_pack:set2_ring_1"
   base:
@@ -47,6 +49,7 @@ BANG_TINH_RING_1:
       reference: armor-upgrade-template
       max: 100
 
+    tier: RARE
 BANG_TINH_RING_2:
   itemsadder-item: "rings_pack:set2_ring_2"
   base:
@@ -63,6 +66,7 @@ BANG_TINH_RING_2:
       reference: armor-upgrade-template
       max: 100
 
+    tier: RARE
 HAC_AM_RING_1:
   itemsadder-item: "rings_pack:set3_ring_1"
   base:
@@ -79,6 +83,7 @@ HAC_AM_RING_1:
       reference: armor-upgrade-template
       max: 100
 
+    tier: RARE
 HAC_AM_RING_2:
   itemsadder-item: "rings_pack:set3_ring_2"
   base:
@@ -95,6 +100,7 @@ HAC_AM_RING_2:
       reference: armor-upgrade-template
       max: 100
 
+    tier: RARE
 LOI_THAN_RING_1:
   itemsadder-item: "rings_pack:set5_ring_1"
   base:
@@ -111,6 +117,7 @@ LOI_THAN_RING_1:
       reference: armor-upgrade-template
       max: 100
 
+    tier: RARE
 LOI_THAN_RING_2:
   itemsadder-item: "rings_pack:set5_ring_2"
   base:
@@ -127,6 +134,7 @@ LOI_THAN_RING_2:
       reference: armor-upgrade-template
       max: 100
 
+    tier: RARE
 HOANG_GIA_RING_1:
   itemsadder-item: "rings_pack:set8_ring_1"
   base:
@@ -143,6 +151,7 @@ HOANG_GIA_RING_1:
       reference: armor-upgrade-template
       max: 100
 
+    tier: RARE
 HOANG_GIA_RING_2:
   itemsadder-item: "rings_pack:set8_ring_2"
   base:
@@ -160,6 +169,7 @@ HOANG_GIA_RING_2:
       max: 100
 
 
+    tier: RARE
 LONG_VUONG_AMULET:
   itemsadder-item: "rings_pack:set1_necklace_1"
   base:
@@ -176,6 +186,7 @@ LONG_VUONG_AMULET:
       reference: armor-upgrade-template
       max: 100
 
+    tier: RARE
 BANG_TINH_AMULET:
   itemsadder-item: "rings_pack:set2_necklace_2"
   base:
@@ -192,6 +203,7 @@ BANG_TINH_AMULET:
       reference: armor-upgrade-template
       max: 100
 
+    tier: RARE
 HAC_AM_AMULET:
   itemsadder-item: "rings_pack:set3_necklace_1"
   base:
@@ -208,6 +220,7 @@ HAC_AM_AMULET:
       reference: armor-upgrade-template
       max: 100
 
+    tier: RARE
 LOI_THAN_AMULET:
   itemsadder-item: "rings_pack:set5_necklace_1"
   base:
@@ -224,6 +237,7 @@ LOI_THAN_AMULET:
       reference: armor-upgrade-template
       max: 100
 
+    tier: RARE
 HOANG_GIA_AMULET:
   itemsadder-item: "rings_pack:set8_necklace_1"
   base:
@@ -241,6 +255,7 @@ HOANG_GIA_AMULET:
       max: 100
 
 
+    tier: RARE
 LONG_VUONG_BRACELET:
   itemsadder-item: "rings_pack:set1_ring_5"
   base:
@@ -257,6 +272,7 @@ LONG_VUONG_BRACELET:
       reference: armor-upgrade-template
       max: 100
 
+    tier: RARE
 BANG_TINH_BRACELET:
   itemsadder-item: "rings_pack:set2_ring_5"
   base:
@@ -273,6 +289,7 @@ BANG_TINH_BRACELET:
       reference: armor-upgrade-template
       max: 100
 
+    tier: RARE
 HAC_AM_BRACELET:
   itemsadder-item: "rings_pack:set3_ring_5"
   base:
@@ -289,6 +306,7 @@ HAC_AM_BRACELET:
       reference: armor-upgrade-template
       max: 100
 
+    tier: RARE
 LOI_THAN_BRACELET:
   itemsadder-item: "rings_pack:set5_ring_5"
   base:
@@ -305,6 +323,7 @@ LOI_THAN_BRACELET:
       reference: armor-upgrade-template
       max: 100
 
+    tier: RARE
 HOANG_GIA_BRACELET:
   itemsadder-item: "rings_pack:set8_ring_5"
   base:
@@ -322,6 +341,7 @@ HOANG_GIA_BRACELET:
       max: 100
 
 
+    tier: RARE
 LONG_VUONG_GLOVES:
   itemsadder-item: "rings_pack:glove_37"
   base:
@@ -338,6 +358,7 @@ LONG_VUONG_GLOVES:
       reference: armor-upgrade-template
       max: 100
 
+    tier: RARE
 BANG_TINH_GLOVES:
   itemsadder-item: "rings_pack:glove_61"
   base:
@@ -354,6 +375,7 @@ BANG_TINH_GLOVES:
       reference: armor-upgrade-template
       max: 100
 
+    tier: RARE
 HAC_AM_GLOVES:
   itemsadder-item: "rings_pack:glove_2"
   base:
@@ -369,6 +391,7 @@ HAC_AM_GLOVES:
       reference: armor-upgrade-template
       max: 100
 
+    tier: RARE
 LOI_THAN_GLOVES:
   itemsadder-item: "rings_pack:glove_1"
   base:
@@ -385,6 +408,7 @@ LOI_THAN_GLOVES:
       reference: armor-upgrade-template
       max: 100
 
+    tier: RARE
 HOANG_GIA_GLOVES:
   itemsadder-item: "rings_pack:glove_85"
   base:
@@ -400,3 +424,5 @@ HOANG_GIA_GLOVES:
       template: armor-upgrade-template
       reference: armor-upgrade-template
       max: 100
+
+    tier: RARE

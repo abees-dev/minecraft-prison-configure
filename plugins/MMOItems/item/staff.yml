@@ -1,6 +1,6 @@
 STAFF_TAN_BINH_1:
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 1.0
     revision-id: 1
     material: STICK
     name: "&fTrượng Phép Tân Binh &e&lI"
@@ -31,7 +31,7 @@ STAFF_TAN_BINH_1:
 
 STAFF_TAN_BINH_2:
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 1.0
     revision-id: 1
     material: STICK
     name: "&fTrượng Phép Tân Binh &e&lII"
@@ -62,7 +62,7 @@ STAFF_TAN_BINH_2:
 
 STAFF_TAN_BINH_3:
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 1.0
     revision-id: 1
     material: STICK
     name: "&fTrượng Phép Tân Binh &e&lIII"
@@ -93,7 +93,7 @@ STAFF_TAN_BINH_3:
 
 STAFF_TAN_BINH_4:
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 1.0
     revision-id: 1
     material: STICK
     name: "&fTrượng Phép Tân Binh &e&lIV"
@@ -124,7 +124,7 @@ STAFF_TAN_BINH_4:
 
 STAFF_TAN_BINH_5:
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 1.0
     revision-id: 1
     material: STICK
     name: "&fTrượng Phép Tân Binh &e&lV"
@@ -155,7 +155,7 @@ STAFF_TAN_BINH_5:
 
 STAFF_TU_NHAN_1:
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 2.0
     revision-id: 1
     material: STICK
     name: "&aTrượng Phép Tù Nhân &e&lI"
@@ -186,7 +186,7 @@ STAFF_TU_NHAN_1:
 
 STAFF_TU_NHAN_2:
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 2.0
     revision-id: 1
     material: STICK
     name: "&aTrượng Phép Tù Nhân &e&lII"
@@ -217,7 +217,7 @@ STAFF_TU_NHAN_2:
 
 STAFF_TU_NHAN_3:
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 2.0
     revision-id: 1
     material: STICK
     name: "&aTrượng Phép Tù Nhân &e&lIII"
@@ -248,7 +248,7 @@ STAFF_TU_NHAN_3:
 
 STAFF_TU_NHAN_4:
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 2.0
     revision-id: 1
     material: STICK
     name: "&aTrượng Phép Tù Nhân &e&lIV"
@@ -279,7 +279,7 @@ STAFF_TU_NHAN_4:
 
 STAFF_TU_NHAN_5:
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 2.0
     revision-id: 1
     material: STICK
     name: "&aTrượng Phép Tù Nhân &e&lV"
@@ -311,7 +311,7 @@ STAFF_TU_NHAN_5:
 STAFF_LAO_CONG_1:
   itemsadder-item: "firework_set:firework_staff"
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 2.0
     revision-id: 1
     material: IRON_SWORD
     name: "&bTrượng Phép Lao Công &e&lI"
@@ -348,7 +348,7 @@ STAFF_LAO_CONG_1:
 STAFF_LAO_CONG_2:
   itemsadder-item: "firework_set:firework_staff"
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 2.0
     revision-id: 1
     material: IRON_SWORD
     name: "&bTrượng Phép Lao Công &e&lII"
@@ -385,7 +385,7 @@ STAFF_LAO_CONG_2:
 STAFF_LAO_CONG_3:
   itemsadder-item: "firework_set:firework_staff"
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 2.0
     revision-id: 1
     material: IRON_SWORD
     name: "&bTrượng Phép Lao Công &e&lIII"
@@ -422,7 +422,7 @@ STAFF_LAO_CONG_3:
 STAFF_LAO_CONG_4:
   itemsadder-item: "firework_set:firework_staff"
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 2.0
     revision-id: 1
     material: IRON_SWORD
     name: "&bTrượng Phép Lao Công &e&lIV"
@@ -459,7 +459,7 @@ STAFF_LAO_CONG_4:
 STAFF_LAO_CONG_5:
   itemsadder-item: "firework_set:firework_staff"
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 2.0
     revision-id: 1
     material: IRON_SWORD
     name: "&bTrượng Phép Lao Công &e&lV"
@@ -871,12 +871,12 @@ STAFF_DOI_TRUONG_5:
 STAFF_PHO_QUAN_NGUC_1:
   itemsadder-item: "demon_edgeset:demon_edge_staff"
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 4.0
     revision-id: 1
     material: IRON_SWORD
     name: "&cTrượng Phép Phó Quản Ngục &e&lI"
     max-durability: 6000
-    tier: LEGENDARY
+    tier: EPIC
     hide-enchants: true
     lore-format: weapon-lore
     lore:
@@ -910,12 +910,12 @@ STAFF_PHO_QUAN_NGUC_1:
 STAFF_PHO_QUAN_NGUC_2:
   itemsadder-item: "demon_edgeset:demon_edge_staff"
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 4.0
     revision-id: 1
     material: IRON_SWORD
     name: "&cTrượng Phép Phó Quản Ngục &e&lII"
     max-durability: 6000
-    tier: LEGENDARY
+    tier: EPIC
     hide-enchants: true
     lore-format: weapon-lore
     lore:
@@ -949,12 +949,12 @@ STAFF_PHO_QUAN_NGUC_2:
 STAFF_PHO_QUAN_NGUC_3:
   itemsadder-item: "demon_edgeset:demon_edge_staff"
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 4.0
     revision-id: 1
     material: IRON_SWORD
     name: "&cTrượng Phép Phó Quản Ngục &e&lIII"
     max-durability: 6000
-    tier: LEGENDARY
+    tier: EPIC
     hide-enchants: true
     lore-format: weapon-lore
     lore:
@@ -988,12 +988,12 @@ STAFF_PHO_QUAN_NGUC_3:
 STAFF_PHO_QUAN_NGUC_4:
   itemsadder-item: "demon_edgeset:demon_edge_staff"
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 4.0
     revision-id: 1
     material: IRON_SWORD
     name: "&cTrượng Phép Phó Quản Ngục &e&lIV"
     max-durability: 6000
-    tier: LEGENDARY
+    tier: EPIC
     hide-enchants: true
     lore-format: weapon-lore
     lore:
@@ -1027,12 +1027,12 @@ STAFF_PHO_QUAN_NGUC_4:
 STAFF_PHO_QUAN_NGUC_5:
   itemsadder-item: "demon_edgeset:demon_edge_staff"
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 4.0
     revision-id: 1
     material: IRON_SWORD
     name: "&cTrượng Phép Phó Quản Ngục &e&lV"
     max-durability: 6000
-    tier: LEGENDARY
+    tier: EPIC
     hide-enchants: true
     lore-format: weapon-lore
     lore:
@@ -1066,12 +1066,12 @@ STAFF_PHO_QUAN_NGUC_5:
 STAFF_QUAN_NGUC_1:
   itemsadder-item: "necros_set:necros_staff"
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 5.0
     revision-id: 1
     material: IRON_SWORD
     name: "&dTrượng Phép Quản Ngục &e&lI"
     max-durability: 8000
-    tier: MYTHICAL
+    tier: LEGENDARY
     hide-enchants: true
     lore-format: weapon-lore
     lore:
@@ -1110,12 +1110,12 @@ STAFF_QUAN_NGUC_1:
 STAFF_QUAN_NGUC_2:
   itemsadder-item: "necros_set:necros_staff"
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 5.0
     revision-id: 1
     material: IRON_SWORD
     name: "&dTrượng Phép Quản Ngục &e&lII"
     max-durability: 8000
-    tier: MYTHICAL
+    tier: LEGENDARY
     hide-enchants: true
     lore-format: weapon-lore
     lore:
@@ -1154,12 +1154,12 @@ STAFF_QUAN_NGUC_2:
 STAFF_QUAN_NGUC_3:
   itemsadder-item: "necros_set:necros_staff"
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 5.0
     revision-id: 1
     material: IRON_SWORD
     name: "&dTrượng Phép Quản Ngục &e&lIII"
     max-durability: 8000
-    tier: MYTHICAL
+    tier: LEGENDARY
     hide-enchants: true
     lore-format: weapon-lore
     lore:
@@ -1198,12 +1198,12 @@ STAFF_QUAN_NGUC_3:
 STAFF_QUAN_NGUC_4:
   itemsadder-item: "necros_set:necros_staff"
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 5.0
     revision-id: 1
     material: IRON_SWORD
     name: "&dTrượng Phép Quản Ngục &e&lIV"
     max-durability: 8000
-    tier: MYTHICAL
+    tier: LEGENDARY
     hide-enchants: true
     lore-format: weapon-lore
     lore:
@@ -1242,12 +1242,12 @@ STAFF_QUAN_NGUC_4:
 STAFF_QUAN_NGUC_5:
   itemsadder-item: "necros_set:necros_staff"
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 5.0
     revision-id: 1
     material: IRON_SWORD
     name: "&dTrượng Phép Quản Ngục &e&lV"
     max-durability: 8000
-    tier: MYTHICAL
+    tier: LEGENDARY
     hide-enchants: true
     lore-format: weapon-lore
     lore:
@@ -1286,12 +1286,12 @@ STAFF_QUAN_NGUC_5:
 STAFF_BA_CHU_NGUC_TU_1:
   itemsadder-item: "royal_crystal:royal_crysta_staff"
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 6.0
     revision-id: 1
     material: IRON_SWORD
     name: "&5Trượng Phép Bá Chủ Ngục Tù &e&lI"
     max-durability: 10000
-    tier: EPIC
+    tier: MYTHICAL
     hide-enchants: true
     lore-format: weapon-lore
     lore:
@@ -1330,12 +1330,12 @@ STAFF_BA_CHU_NGUC_TU_1:
 STAFF_BA_CHU_NGUC_TU_2:
   itemsadder-item: "royal_crystal:royal_crysta_staff"
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 6.0
     revision-id: 1
     material: IRON_SWORD
     name: "&5Trượng Phép Bá Chủ Ngục Tù &e&lII"
     max-durability: 10000
-    tier: EPIC
+    tier: MYTHICAL
     hide-enchants: true
     lore-format: weapon-lore
     lore:
@@ -1374,12 +1374,12 @@ STAFF_BA_CHU_NGUC_TU_2:
 STAFF_BA_CHU_NGUC_TU_3:
   itemsadder-item: "royal_crystal:royal_crysta_staff"
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 6.0
     revision-id: 1
     material: IRON_SWORD
     name: "&5Trượng Phép Bá Chủ Ngục Tù &e&lIII"
     max-durability: 10000
-    tier: EPIC
+    tier: MYTHICAL
     hide-enchants: true
     lore-format: weapon-lore
     lore:
@@ -1418,12 +1418,12 @@ STAFF_BA_CHU_NGUC_TU_3:
 STAFF_BA_CHU_NGUC_TU_4:
   itemsadder-item: "royal_crystal:royal_crysta_staff"
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 6.0
     revision-id: 1
     material: IRON_SWORD
     name: "&5Trượng Phép Bá Chủ Ngục Tù &e&lIV"
     max-durability: 10000
-    tier: EPIC
+    tier: MYTHICAL
     hide-enchants: true
     lore-format: weapon-lore
     lore:
@@ -1462,12 +1462,12 @@ STAFF_BA_CHU_NGUC_TU_4:
 STAFF_BA_CHU_NGUC_TU_5:
   itemsadder-item: "royal_crystal:royal_crysta_staff"
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 6.0
     revision-id: 1
     material: IRON_SWORD
     name: "&5Trượng Phép Bá Chủ Ngục Tù &e&lV"
     max-durability: 10000
-    tier: EPIC
+    tier: MYTHICAL
     hide-enchants: true
     lore-format: weapon-lore
     lore:
@@ -1506,7 +1506,7 @@ STAFF_BA_CHU_NGUC_TU_5:
 STAFF_VUOT_NGUC_1:
   itemsadder-item: "archmage:archmage_staff"
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 7.0
     revision-id: 1
     material: STONE_SWORD
     custom-model-data: 2043
@@ -1551,7 +1551,7 @@ STAFF_VUOT_NGUC_1:
 STAFF_VUOT_NGUC_2:
   itemsadder-item: "archmage:archmage_staff"
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 7.0
     revision-id: 1
     material: STONE_SWORD
     custom-model-data: 2043
@@ -1596,7 +1596,7 @@ STAFF_VUOT_NGUC_2:
 STAFF_VUOT_NGUC_3:
   itemsadder-item: "archmage:archmage_staff"
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 7.0
     revision-id: 1
     material: STONE_SWORD
     custom-model-data: 2043
@@ -1641,7 +1641,7 @@ STAFF_VUOT_NGUC_3:
 STAFF_VUOT_NGUC_4:
   itemsadder-item: "archmage:archmage_staff"
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 7.0
     revision-id: 1
     material: STONE_SWORD
     custom-model-data: 2043
@@ -1686,7 +1686,7 @@ STAFF_VUOT_NGUC_4:
 STAFF_VUOT_NGUC_5:
   itemsadder-item: "archmage:archmage_staff_shiny"
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 7.0
     revision-id: 1
     material: STONE_SWORD
     custom-model-data: 2044
@@ -1731,7 +1731,7 @@ STAFF_VUOT_NGUC_5:
 GACHA_STAFF_REVENANT:
   itemsadder-item: "fantasy_weapons:revenants_gravescepter"
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 7.0
     revision-id: 1
     material: IRON_AXE
     custom-model-data: 10005
@@ -1779,7 +1779,7 @@ GACHA_STAFF_REVENANT:
 GACHA_STAFF_AZURE_SCYTHE:
   itemsadder-item: "fantasy_weapons:azure_scythe"
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 7.0
     revision-id: 1
     material: IRON_HOE
     custom-model-data: 10000
@@ -1826,7 +1826,7 @@ GACHA_STAFF_AZURE_SCYTHE:
 GACHA_STAFF_OCULUS:
   itemsadder-item: "fantasy_weapons:oculus"
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 7.0
     revision-id: 1
     material: IRON_SWORD
     custom-model-data: 10019

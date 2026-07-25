@@ -344,11 +344,11 @@ MANH_HUY_HIEU_TRIEU_HOI:
 # ĐÁ CƯỜNG HÓA VŨ KHÍ & GIÁP (MATERIAL)
 # ==========================================================
 DA_CUONG_HOA_VU_KHI_SO_CAP:
-  itemsadder-item: "enchanting_stone:enchanting_stone_1"
+  itemsadder-item: "iadungeon:crystal_of_invasion_70"
   base:
     revision-id: 1
     material: PAPER
-    custom-model-data: 10001
+    custom-model-data: 10069
     name: "&a✦ Đá Cường Hóa Vũ Khí &7[Sơ Cấp LV 1-20]"
     tier: UNCOMMON
     hide-enchants: true
@@ -360,11 +360,11 @@ DA_CUONG_HOA_VU_KHI_SO_CAP:
       - "&7 &a●&7 Tỷ lệ thành công: &a85%"
 
 DA_CUONG_HOA_VU_KHI_TRUNG_CAP:
-  itemsadder-item: "enchanting_stone:enchanting_stone_2"
+  itemsadder-item: "iadungeon:crystal_of_frost_29"
   base:
     revision-id: 1
     material: PAPER
-    custom-model-data: 10002
+    custom-model-data: 10028
     name: "&e✦ Đá Cường Hóa Vũ Khí &7[Trung Cấp LV 21-40]"
     tier: RARE
     hide-enchants: true
@@ -376,11 +376,11 @@ DA_CUONG_HOA_VU_KHI_TRUNG_CAP:
       - "&7 &e●&7 Tỷ lệ thành công: &e65%"
 
 DA_CUONG_HOA_VU_KHI_CAO_CAP:
-  itemsadder-item: "enchanting_stone:enchanting_stone_3"
+  itemsadder-item: "iadungeon:crystal_of_fury_19"
   base:
     revision-id: 1
     material: PAPER
-    custom-model-data: 10003
+    custom-model-data: 10018
     name: "&6✦ Đá Cường Hóa Vũ Khí &7[Cao Cấp LV 41-60]"
     tier: RARE
     hide-enchants: true
@@ -392,11 +392,11 @@ DA_CUONG_HOA_VU_KHI_CAO_CAP:
       - "&7 &6●&7 Tỷ lệ thành công: &645%"
 
 DA_CUONG_HOA_VU_KHI_SIEU_CAP:
-  itemsadder-item: "enchanting_stone:enchanting_stone_4"
+  itemsadder-item: "iadungeon:crystal_of_silence_30"
   base:
     revision-id: 1
     material: PAPER
-    custom-model-data: 10005
+    custom-model-data: 10029
     name: "&c✦ Đá Cường Hóa Vũ Khí &7[Siêu Cấp LV 61-80]"
     tier: LEGENDARY
     hide-enchants: true
@@ -408,11 +408,11 @@ DA_CUONG_HOA_VU_KHI_SIEU_CAP:
       - "&7 &c●&7 Tỷ lệ thành công: &c25%"
 
 DA_CUONG_HOA_VU_KHI_HUYEN_THOAI:
-  itemsadder-item: "enchanting_stone:enchanting_stone_5"
+  itemsadder-item: "iadungeon:crystal_of_contagion_71"
   base:
     revision-id: 1
     material: PAPER
-    custom-model-data: 10006
+    custom-model-data: 10070
     name: "&d&l✦ Đá Cường Hóa Vũ Khí &7[Huyền Thoại LV 81-100]"
     tier: MYTHICAL
     hide-enchants: true
@@ -424,11 +424,11 @@ DA_CUONG_HOA_VU_KHI_HUYEN_THOAI:
       - "&7 &d●&7 Tỷ lệ thành công: &d10%"
 
 DA_CUONG_HOA_GIAP_SO_CAP:
-  itemsadder-item: "toffy_gem:toffy_greengem"
+  itemsadder-item: "iadungeon:crystal_of_chaos_66"
   base:
     revision-id: 1
     material: PAPER
-    custom-model-data: 10004
+    custom-model-data: 10065
     name: "&a✦ Đá Cường Hóa Giáp &7[Sơ Cấp LV 1-20]"
     tier: UNCOMMON
     hide-enchants: true
@@ -440,11 +440,11 @@ DA_CUONG_HOA_GIAP_SO_CAP:
       - "&7 &a●&7 Tỷ lệ thành công: &a85%"
 
 DA_CUONG_HOA_GIAP_TRUNG_CAP:
-  itemsadder-item: "toffy_gem:toffy_cyangem"
+  itemsadder-item: "iadungeon:crystal_of_despair_58"
   base:
     revision-id: 1
     material: PAPER
-    custom-model-data: 10007
+    custom-model-data: 10057
     name: "&e✦ Đá Cường Hóa Giáp &7[Trung Cấp LV 21-40]"
     tier: RARE
     hide-enchants: true
@@ -456,11 +456,11 @@ DA_CUONG_HOA_GIAP_TRUNG_CAP:
       - "&7 &e●&7 Tỷ lệ thành công: &e65%"
 
 DA_CUONG_HOA_GIAP_CAO_CAP:
-  itemsadder-item: "toffy_gem:toffy_bluegem"
+  itemsadder-item: "iadungeon:crystal_of_destruction_69"
   base:
     revision-id: 1
     material: PAPER
-    custom-model-data: 10008
+    custom-model-data: 10068
     name: "&6✦ Đá Cường Hóa Giáp &7[Cao Cấp LV 41-60]"
     tier: RARE
     hide-enchants: true
@@ -472,11 +472,11 @@ DA_CUONG_HOA_GIAP_CAO_CAP:
       - "&7 &6●&7 Tỷ lệ thành công: &645%"
 
 DA_CUONG_HOA_GIAP_SIEU_CAP:
-  itemsadder-item: "toffy_gem:toffy_purplegem"
+  itemsadder-item: "iadungeon:crystal_of_frenzy_67"
   base:
     revision-id: 1
     material: PAPER
-    custom-model-data: 10013
+    custom-model-data: 10066
     name: "&c✦ Đá Cường Hóa Giáp &7[Siêu Cấp LV 61-80]"
     tier: LEGENDARY
     hide-enchants: true
@@ -488,11 +488,11 @@ DA_CUONG_HOA_GIAP_SIEU_CAP:
       - "&7 &c●&7 Tỷ lệ thành công: &c25%"
 
 DA_CUONG_HOA_GIAP_HUYEN_THOAI:
-  itemsadder-item: "toffy_gem:toffy_redgem"
+  itemsadder-item: "iadungeon:crystal_of_madness_68"
   base:
     revision-id: 1
     material: PAPER
-    custom-model-data: 10014
+    custom-model-data: 10067
     name: "&d&l✦ Đá Cường Hóa Giáp &7[Huyền Thoại LV 81-100]"
     tier: MYTHICAL
     hide-enchants: true
@@ -504,11 +504,11 @@ DA_CUONG_HOA_GIAP_HUYEN_THOAI:
       - "&7 &d●&7 Tỷ lệ thành công: &d10%"
 
 DA_CUONG_HOA_THIEN_MENH:
-  itemsadder-item: "enchanting_stone:enchanting_stone_6"
+  itemsadder-item: "iadungeon:crystal_of_geomagnetic_storm_88"
   base:
     revision-id: 1
     material: PAPER
-    custom-model-data: 10009
+    custom-model-data: 10087
     name: "&d&l✦ Đá Cường Hóa Thiên Mệnh &7[100% Thành Công]"
     tier: MYTHICAL
     hide-enchants: true
@@ -520,15 +520,15 @@ DA_CUONG_HOA_THIEN_MENH:
       - "&7 &d●&7 Tỷ lệ thành công: &a&l100% (Hoàn Hảo)"
 
 # ==========================================================
-# ĐÁ ĐỤC LỖ TRANG BỊ (SOCKET PUNCH STONES)
+# MŨI KHOAN ĐỤC LỖ TRANG BỊ (DRILLS & SOCKET PUNCH STONES)
 # ==========================================================
 DA_DUC_LO_1:
-  itemsadder-item: "enchanting_stone:enchanting_stone_1"
+  itemsadder-item: "duclo:mdrill_r226"
   base:
     revision-id: 1
     material: PAPER
-    custom-model-data: 10010
-    name: "&a✦ Đá Đục Lỗ Sơ Cấp &7[Ô 1 - 100%]"
+    custom-model-data: 11001
+    name: "&a✦ Mũi Khoan Đục Lỗ Sơ Cấp &7[Ô 1 - 100%]"
     tier: UNCOMMON
     hide-enchants: true
     enchants:
@@ -539,12 +539,12 @@ DA_DUC_LO_1:
       - "&7 &a●&7 Tỷ lệ thành công: &a100%"
 
 DA_DUC_LO_2:
-  itemsadder-item: "enchanting_stone:enchanting_stone_2"
+  itemsadder-item: "duclo:mdrill_r326"
   base:
     revision-id: 1
     material: PAPER
-    custom-model-data: 10011
-    name: "&e✦ Đá Đục Lỗ Trung Cấp &7[Ô 2 - 70%]"
+    custom-model-data: 11002
+    name: "&e✦ Mũi Khoan Đục Lỗ Trung Cấp &7[Ô 2 - 70%]"
     tier: RARE
     hide-enchants: true
     enchants:
@@ -555,12 +555,12 @@ DA_DUC_LO_2:
       - "&7 &e●&7 Tỷ lệ thành công: &e70%"
 
 DA_DUC_LO_3:
-  itemsadder-item: "enchanting_stone:enchanting_stone_3"
+  itemsadder-item: "duclo:tdrill_x355"
   base:
     revision-id: 1
     material: PAPER
-    custom-model-data: 10012
-    name: "&6✦ Đá Đục Lỗ Cao Cấp &7[Ô 3 - 40%]"
+    custom-model-data: 11003
+    name: "&6✦ Mũi Khoan Đục Lỗ Cao Cấp &7[Ô 3 - 40%]"
     tier: RARE
     hide-enchants: true
     enchants:
@@ -571,12 +571,12 @@ DA_DUC_LO_3:
       - "&7 &6●&7 Tỷ lệ thành công: &640%"
 
 DA_DUC_LO_4:
-  itemsadder-item: "enchanting_stone:enchanting_stone_4"
+  itemsadder-item: "duclo:tdrill_x455"
   base:
     revision-id: 1
     material: PAPER
-    custom-model-data: 10015
-    name: "&c✦ Đá Đục Lỗ Siêu Cấp &7[Ô 4 - 25%]"
+    custom-model-data: 11004
+    name: "&c✦ Mũi Khoan Đục Lỗ Siêu Cấp &7[Ô 4 - 25%]"
     tier: LEGENDARY
     hide-enchants: true
     enchants:
@@ -587,12 +587,12 @@ DA_DUC_LO_4:
       - "&7 &c●&7 Tỷ lệ thành công: &c25%"
 
 DA_DUC_LO_5:
-  itemsadder-item: "enchanting_stone:enchanting_stone_5"
+  itemsadder-item: "duclo:tdrill_x555"
   base:
     revision-id: 1
     material: PAPER
-    custom-model-data: 10016
-    name: "&d&l✦ Đá Đục Lỗ Huyền Thoại &7[Ô 5 - 10%]"
+    custom-model-data: 11005
+    name: "&d&l✦ Mũi Khoan Đục Lỗ Huyền Thoại &7[Ô 5 - 10%]"
     tier: MYTHICAL
     hide-enchants: true
     enchants:
@@ -602,20 +602,53 @@ DA_DUC_LO_5:
       - "&7 &d●&7 Dùng để đục: &eÔ Khảm Thứ 5"
       - "&7 &d●&7 Tỷ lệ thành công: &d10%"
 
-DA_DUC_LO_THIEN_MENH:
-  itemsadder-item: "enchanting_stone:enchanting_stone_6"
+DA_DUC_LO_6:
+  itemsadder-item: "duclo:tdrill_x655"
   base:
     revision-id: 1
     material: PAPER
-    custom-model-data: 10017
-    name: "&d&l✦ Đá Đục Lỗ Thiên Mệnh &7[Hoàn Hảo 100%]"
+    custom-model-data: 11006
+    name: "&6&l✦ Mũi Khoan Đục Lỗ Thần Thoại &7[Ô 6 - 5%]"
     tier: MYTHICAL
     hide-enchants: true
     enchants:
       unbreaking: 1
     lore:
-      - "&7 &d●&7 Viên đá chứa năng lượng vận mệnh khai mở ô khảm"
+      - "&7 &6●&7 Nguyên liệu dùng tại &e/duclo &7để đục ô khảm"
+      - "&7 &6●&7 Dùng để đục: &eÔ Khảm Thứ 6 (Đồ Trade/Donate)"
+      - "&7 &6●&7 Tỷ lệ thành công: &c5%"
+
+DA_DUC_LO_7:
+  itemsadder-item: "duclo:topaz_drill"
+  base:
+    revision-id: 1
+    material: PAPER
+    custom-model-data: 11007
+    name: "&4&l✦ Mũi Khoan Đục Lỗ Bá Chủ &7[Ô 7 - 2%]"
+    tier: MYTHICAL
+    hide-enchants: true
+    enchants:
+      unbreaking: 1
+    lore:
+      - "&7 &4●&7 Nguyên liệu dùng tại &e/duclo &7để đục ô khảm"
+      - "&7 &4●&7 Dùng để đục: &eÔ Khảm Thứ 7 (Đồ Donate)"
+      - "&7 &4●&7 Tỷ lệ thành công: &c2%"
+
+DA_DUC_LO_THIEN_MENH:
+  itemsadder-item: "duclo:ruby_drill"
+  base:
+    revision-id: 1
+    material: PAPER
+    custom-model-data: 11008
+    name: "&d&l✦ Mũi Khoan Đục Lỗ Thiên Mệnh &7[Hoàn Hảo 100%]"
+    tier: MYTHICAL
+    hide-enchants: true
+    enchants:
+      unbreaking: 1
+    lore:
+      - "&7 &d●&7 Mũi khoan chứa năng lượng vận mệnh khai mở ô khảm"
       - "&7 &d●&7 Dùng tại &e/duclo &7cho bất kỳ ô khảm nào"
       - "&7 &d●&7 Tỷ lệ thành công: &a&l100% (Hoàn Hảo)"
+
 
 

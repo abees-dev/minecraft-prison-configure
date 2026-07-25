@@ -21,9 +21,10 @@ TEST_REVISION_SWORD:
     will-break: false
     unbreakable: false
 
+    tier: RARE
 SWORD_TAN_BINH_1:
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 1.0
     revision-id: 1
     material: WOODEN_SWORD
     name: "&fKiếm Tân Binh &e&lI"
@@ -47,7 +48,7 @@ SWORD_TAN_BINH_1:
 
 SWORD_TAN_BINH_2:
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 1.0
     revision-id: 1
     material: WOODEN_SWORD
     name: "&fKiếm Tân Binh &e&lII"
@@ -71,7 +72,7 @@ SWORD_TAN_BINH_2:
 
 SWORD_TAN_BINH_3:
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 1.0
     revision-id: 1
     material: WOODEN_SWORD
     name: "&fKiếm Tân Binh &e&lIII"
@@ -95,7 +96,7 @@ SWORD_TAN_BINH_3:
 
 SWORD_TAN_BINH_4:
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 1.0
     revision-id: 1
     material: WOODEN_SWORD
     name: "&fKiếm Tân Binh &e&lIV"
@@ -119,7 +120,7 @@ SWORD_TAN_BINH_4:
 
 SWORD_TAN_BINH_5:
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 1.0
     revision-id: 1
     material: WOODEN_SWORD
     name: "&fKiếm Tân Binh &e&lV"
@@ -143,7 +144,7 @@ SWORD_TAN_BINH_5:
 
 SWORD_TU_NHAN_1:
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 2.0
     revision-id: 1
     material: STONE_SWORD
     name: "&aKiếm Tù Nhân &e&lI"
@@ -167,7 +168,7 @@ SWORD_TU_NHAN_1:
 
 SWORD_TU_NHAN_2:
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 2.0
     revision-id: 1
     material: STONE_SWORD
     name: "&aKiếm Tù Nhân &e&lII"
@@ -191,7 +192,7 @@ SWORD_TU_NHAN_2:
 
 SWORD_TU_NHAN_3:
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 2.0
     revision-id: 1
     material: STONE_SWORD
     name: "&aKiếm Tù Nhân &e&lIII"
@@ -215,7 +216,7 @@ SWORD_TU_NHAN_3:
 
 SWORD_TU_NHAN_4:
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 2.0
     revision-id: 1
     material: STONE_SWORD
     name: "&aKiếm Tù Nhân &e&lIV"
@@ -239,7 +240,7 @@ SWORD_TU_NHAN_4:
 
 SWORD_TU_NHAN_5:
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 2.0
     revision-id: 1
     material: STONE_SWORD
     name: "&aKiếm Tù Nhân &e&lV"
@@ -263,7 +264,7 @@ SWORD_TU_NHAN_5:
 
 SWORD_LAO_CONG_1:
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 2.0
     revision-id: 1
     material: IRON_SWORD
     name: "&bKiếm Lao Công &e&lI"
@@ -287,7 +288,7 @@ SWORD_LAO_CONG_1:
 
 SWORD_LAO_CONG_2:
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 2.0
     revision-id: 1
     material: IRON_SWORD
     name: "&bKiếm Lao Công &e&lII"
@@ -311,7 +312,7 @@ SWORD_LAO_CONG_2:
 
 SWORD_LAO_CONG_3:
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 2.0
     revision-id: 1
     material: IRON_SWORD
     name: "&bKiếm Lao Công &e&lIII"
@@ -335,7 +336,7 @@ SWORD_LAO_CONG_3:
 
 SWORD_LAO_CONG_4:
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 2.0
     revision-id: 1
     material: IRON_SWORD
     name: "&bKiếm Lao Công &e&lIV"
@@ -359,7 +360,7 @@ SWORD_LAO_CONG_4:
 
 SWORD_LAO_CONG_5:
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 2.0
     revision-id: 1
     material: IRON_SWORD
     name: "&bKiếm Lao Công &e&lV"
@@ -628,12 +629,12 @@ SWORD_DOI_TRUONG_5:
 
 SWORD_PHO_QUAN_NGUC_1:
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 4.0
     revision-id: 1
     material: DIAMOND_SWORD
     name: "&cKiếm Phó Quản Ngục &e&lI"
     max-durability: 6000
-    tier: LEGENDARY
+    tier: EPIC
     hide-enchants: true
     lore-format: weapon-lore
     lore:
@@ -653,12 +654,12 @@ SWORD_PHO_QUAN_NGUC_1:
 
 SWORD_PHO_QUAN_NGUC_2:
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 4.0
     revision-id: 1
     material: DIAMOND_SWORD
     name: "&cKiếm Phó Quản Ngục &e&lII"
     max-durability: 6000
-    tier: LEGENDARY
+    tier: EPIC
     hide-enchants: true
     lore-format: weapon-lore
     lore:
@@ -678,12 +679,12 @@ SWORD_PHO_QUAN_NGUC_2:
 
 SWORD_PHO_QUAN_NGUC_3:
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 4.0
     revision-id: 1
     material: DIAMOND_SWORD
     name: "&cKiếm Phó Quản Ngục &e&lIII"
     max-durability: 6000
-    tier: LEGENDARY
+    tier: EPIC
     hide-enchants: true
     lore-format: weapon-lore
     lore:
@@ -703,12 +704,12 @@ SWORD_PHO_QUAN_NGUC_3:
 
 SWORD_PHO_QUAN_NGUC_4:
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 4.0
     revision-id: 1
     material: DIAMOND_SWORD
     name: "&cKiếm Phó Quản Ngục &e&lIV"
     max-durability: 6000
-    tier: LEGENDARY
+    tier: EPIC
     hide-enchants: true
     lore-format: weapon-lore
     lore:
@@ -728,12 +729,12 @@ SWORD_PHO_QUAN_NGUC_4:
 
 SWORD_PHO_QUAN_NGUC_5:
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 4.0
     revision-id: 1
     material: DIAMOND_SWORD
     name: "&cKiếm Phó Quản Ngục &e&lV"
     max-durability: 6000
-    tier: LEGENDARY
+    tier: EPIC
     hide-enchants: true
     lore-format: weapon-lore
     lore:
@@ -753,12 +754,12 @@ SWORD_PHO_QUAN_NGUC_5:
 
 SWORD_QUAN_NGUC_1:
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 5.0
     revision-id: 1
     material: NETHERITE_SWORD
     name: "&dKiếm Quản Ngục &e&lI"
     max-durability: 8000
-    tier: MYTHICAL
+    tier: LEGENDARY
     hide-enchants: true
     lore-format: weapon-lore
     lore:
@@ -778,12 +779,12 @@ SWORD_QUAN_NGUC_1:
 
 SWORD_QUAN_NGUC_2:
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 5.0
     revision-id: 1
     material: NETHERITE_SWORD
     name: "&dKiếm Quản Ngục &e&lII"
     max-durability: 8000
-    tier: MYTHICAL
+    tier: LEGENDARY
     hide-enchants: true
     lore-format: weapon-lore
     lore:
@@ -803,12 +804,12 @@ SWORD_QUAN_NGUC_2:
 
 SWORD_QUAN_NGUC_3:
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 5.0
     revision-id: 1
     material: NETHERITE_SWORD
     name: "&dKiếm Quản Ngục &e&lIII"
     max-durability: 8000
-    tier: MYTHICAL
+    tier: LEGENDARY
     hide-enchants: true
     lore-format: weapon-lore
     lore:
@@ -828,12 +829,12 @@ SWORD_QUAN_NGUC_3:
 
 SWORD_QUAN_NGUC_4:
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 5.0
     revision-id: 1
     material: NETHERITE_SWORD
     name: "&dKiếm Quản Ngục &e&lIV"
     max-durability: 8000
-    tier: MYTHICAL
+    tier: LEGENDARY
     hide-enchants: true
     lore-format: weapon-lore
     lore:
@@ -853,12 +854,12 @@ SWORD_QUAN_NGUC_4:
 
 SWORD_QUAN_NGUC_5:
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 5.0
     revision-id: 1
     material: NETHERITE_SWORD
     name: "&dKiếm Quản Ngục &e&lV"
     max-durability: 8000
-    tier: MYTHICAL
+    tier: LEGENDARY
     hide-enchants: true
     lore-format: weapon-lore
     lore:
@@ -878,12 +879,12 @@ SWORD_QUAN_NGUC_5:
 
 SWORD_BA_CHU_NGUC_TU_1:
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 6.0
     revision-id: 1
     material: NETHERITE_SWORD
     name: "&5Kiếm Bá Chủ Ngục Tù &e&lI"
     max-durability: 10000
-    tier: EPIC
+    tier: MYTHICAL
     hide-enchants: true
     lore-format: weapon-lore
     lore:
@@ -903,12 +904,12 @@ SWORD_BA_CHU_NGUC_TU_1:
 
 SWORD_BA_CHU_NGUC_TU_2:
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 6.0
     revision-id: 1
     material: NETHERITE_SWORD
     name: "&5Kiếm Bá Chủ Ngục Tù &e&lII"
     max-durability: 10000
-    tier: EPIC
+    tier: MYTHICAL
     hide-enchants: true
     lore-format: weapon-lore
     lore:
@@ -928,12 +929,12 @@ SWORD_BA_CHU_NGUC_TU_2:
 
 SWORD_BA_CHU_NGUC_TU_3:
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 6.0
     revision-id: 1
     material: NETHERITE_SWORD
     name: "&5Kiếm Bá Chủ Ngục Tù &e&lIII"
     max-durability: 10000
-    tier: EPIC
+    tier: MYTHICAL
     hide-enchants: true
     lore-format: weapon-lore
     lore:
@@ -953,12 +954,12 @@ SWORD_BA_CHU_NGUC_TU_3:
 
 SWORD_BA_CHU_NGUC_TU_4:
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 6.0
     revision-id: 1
     material: NETHERITE_SWORD
     name: "&5Kiếm Bá Chủ Ngục Tù &e&lIV"
     max-durability: 10000
-    tier: EPIC
+    tier: MYTHICAL
     hide-enchants: true
     lore-format: weapon-lore
     lore:
@@ -978,12 +979,12 @@ SWORD_BA_CHU_NGUC_TU_4:
 
 SWORD_BA_CHU_NGUC_TU_5:
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 6.0
     revision-id: 1
     material: NETHERITE_SWORD
     name: "&5Kiếm Bá Chủ Ngục Tù &e&lV"
     max-durability: 10000
-    tier: EPIC
+    tier: MYTHICAL
     hide-enchants: true
     lore-format: weapon-lore
     lore:
@@ -1003,7 +1004,7 @@ SWORD_BA_CHU_NGUC_TU_5:
 
 SWORD_VUOT_NGUC_1:
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 7.0
     revision-id: 1
     material: NETHERITE_SWORD
     name: "&4Kiếm Vượt Ngục &e&lI"
@@ -1028,7 +1029,7 @@ SWORD_VUOT_NGUC_1:
 
 SWORD_VUOT_NGUC_2:
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 7.0
     revision-id: 1
     material: NETHERITE_SWORD
     name: "&4Kiếm Vượt Ngục &e&lII"
@@ -1053,7 +1054,7 @@ SWORD_VUOT_NGUC_2:
 
 SWORD_VUOT_NGUC_3:
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 7.0
     revision-id: 1
     material: NETHERITE_SWORD
     name: "&4Kiếm Vượt Ngục &e&lIII"
@@ -1078,7 +1079,7 @@ SWORD_VUOT_NGUC_3:
 
 SWORD_VUOT_NGUC_4:
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 7.0
     revision-id: 1
     material: NETHERITE_SWORD
     name: "&4Kiếm Vượt Ngục &e&lIV"
@@ -1103,7 +1104,7 @@ SWORD_VUOT_NGUC_4:
 
 SWORD_VUOT_NGUC_5:
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 7.0
     revision-id: 1
     material: NETHERITE_SWORD
     name: "&4Kiếm Vượt Ngục &e&lV"
@@ -1129,7 +1130,7 @@ SWORD_VUOT_NGUC_5:
 GACHA_SWORD_AMETHYST:
   itemsadder-item: "fantasy_weapons:amethyst_greatblade"
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 7.0
     revision-id: 1
     material: IRON_SWORD
     custom-model-data: 10000
@@ -1162,7 +1163,7 @@ GACHA_SWORD_AMETHYST:
 GACHA_SWORD_PHANTOMGUARD:
   itemsadder-item: "fantasy_weapons:phantomguard_greatsword"
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 7.0
     revision-id: 1
     material: IRON_SWORD
     custom-model-data: 10001
@@ -1196,7 +1197,7 @@ GACHA_SWORD_PHANTOMGUARD:
 GACHA_SWORD_VALHAKYRA:
   itemsadder-item: "fantasy_weapons:valhakyra"
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 7.0
     revision-id: 1
     material: IRON_SWORD
     custom-model-data: 10003
@@ -1229,7 +1230,7 @@ GACHA_SWORD_VALHAKYRA:
 GACHA_SWORD_CRYSTAL_FROST:
   itemsadder-item: "fantasy_weapons:crystal_frostblade"
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 7.0
     revision-id: 1
     material: IRON_SWORD
     custom-model-data: 10008
@@ -1262,7 +1263,7 @@ GACHA_SWORD_CRYSTAL_FROST:
 GACHA_SWORD_DEMONS_BLOOD:
   itemsadder-item: "fantasy_weapons:demons_blood_blade"
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 7.0
     revision-id: 1
     material: IRON_SWORD
     custom-model-data: 10016
@@ -1295,7 +1296,7 @@ GACHA_SWORD_DEMONS_BLOOD:
 GACHA_SWORD_MOONLIGHT:
   itemsadder-item: "fantasy_weapons:moonlight"
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 7.0
     revision-id: 1
     material: IRON_SWORD
     custom-model-data: 10018
@@ -1332,13 +1333,13 @@ GACHA_SWORD_MOONLIGHT:
 DONATE_SWORD_LONG_VE:
   itemsadder-item: "littledragonset:littledragon_sword"
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 5.0
     revision-id: 1
     material: IRON_SWORD
     custom-model-data: 10191
     name: "&a&l✦ Hộ Long Bảo Kiếm"
     max-durability: 20000
-    tier: RARE
+    tier: LEGENDARY
     hide-enchants: true
     lore-format: weapon-lore
     lore:
@@ -1359,13 +1360,13 @@ DONATE_SWORD_LONG_VE:
 DONATE_SWORD_LONG_CHIEN:
   itemsadder-item: "spartan_set:spartan_sword"
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 6.0
     revision-id: 1
     material: IRON_SWORD
     custom-model-data: 10086
     name: "&e&l⚔ Chiến Long Cuồng Kiếm"
     max-durability: 20000
-    tier: VERY_RARE
+    tier: MYTHICAL
     hide-enchants: true
     lore-format: weapon-lore
     lore:
@@ -1386,13 +1387,13 @@ DONATE_SWORD_LONG_CHIEN:
 DONATE_SWORD_LONG_THAN:
   itemsadder-item: "azureset:azure_sword"
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 6.0
     revision-id: 1
     material: IRON_SWORD
     custom-model-data: 10122
     name: "&b&l✦ Thần Long Thánh Kiếm"
     max-durability: 20000
-    tier: LEGENDARY
+    tier: MYTHICAL
     hide-enchants: true
     lore-format: weapon-lore
     lore:
@@ -1413,13 +1414,13 @@ DONATE_SWORD_LONG_THAN:
 DONATE_SWORD_LONG_DE:
   itemsadder-item: "demon_edgeset:demon_edge_sword"
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 7.0
     revision-id: 1
     material: IRON_SWORD
     custom-model-data: 10177
     name: "&4&l◆ Đế Long Diệt Kiếm"
     max-durability: 20000
-    tier: EPIC
+    tier: UNIQUE
     hide-enchants: true
     lore-format: weapon-lore
     lore:
@@ -1440,7 +1441,7 @@ DONATE_SWORD_LONG_DE:
 DONATE_SWORD_LONG_HOANG:
   itemsadder-item: "lunarset:lunar_sword"
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 7.0
     revision-id: 2
     material: IRON_SWORD
     custom-model-data: 10034
@@ -1498,13 +1499,13 @@ TRADE_SWORD_HOA_LONG:
 TRADE_SWORD_BANG_LONG:
   itemsadder-item: "fantasy_weapons:crystal_frostblade"
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 4.0
     revision-id: 1
     material: IRON_SWORD
     custom-model-data: 10008
     name: "&3&l✦ Băng Long Hàn Kiếm"
     max-durability: 18000
-    tier: VERY_RARE
+    tier: EPIC
     hide-enchants: true
     lore-format: weapon-lore
     lore:
@@ -1525,13 +1526,13 @@ TRADE_SWORD_BANG_LONG:
 TRADE_SWORD_LOI_LONG:
   itemsadder-item: "elitecreatures:king_arthur_animated_weapon_set_sword"
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 5.0
     revision-id: 1
     material: IRON_SWORD
     custom-model-data: 10167
     name: "&e&l⚡ Lôi Long Chấn Kiếm"
     max-durability: 18000
-    tier: UNIQUE
+    tier: LEGENDARY
     hide-enchants: true
     lore-format: weapon-lore
     lore:
@@ -1552,13 +1553,13 @@ TRADE_SWORD_LOI_LONG:
 TRADE_SWORD_PHONG_LONG:
   itemsadder-item: "nanoedge_set:nanoedge_sword"
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 6.0
     revision-id: 1
     material: IRON_SWORD
     custom-model-data: 10107
     name: "&2&l✦ Phong Long Liệt Kiếm"
     max-durability: 18000
-    tier: EPIC
+    tier: MYTHICAL
     hide-enchants: true
     lore-format: weapon-lore
     lore:
@@ -1579,13 +1580,13 @@ TRADE_SWORD_PHONG_LONG:
 TRADE_SWORD_HAC_LONG:
   itemsadder-item: "fantasy_weapons:demonic_sword"
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 7.0
     revision-id: 1
     material: IRON_SWORD
     custom-model-data: 10025
     name: "&5&l◆ Hắc Long Ma Kiếm"
     max-durability: 18000
-    tier: LEGENDARY
+    tier: UNIQUE
     hide-enchants: true
     lore-format: weapon-lore
     lore:

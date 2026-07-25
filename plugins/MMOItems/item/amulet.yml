@@ -6,7 +6,7 @@ TRADE_AMULET_HOA_LONG:
     material: PAPER
     custom-model-data: 19401
     name: "&6&l🔥 Dây Chuyền Hỏa Long"
-    tier: UNIQUE
+    tier: RARE
     set: HOA_LONG_SET
     critical-strike-chance: 18
     max-health: 120
@@ -18,7 +18,7 @@ TRADE_AMULET_HOA_LONG:
 TRADE_AMULET_HAC_LONG:
   itemsadder-item: "rings_pack:set3_necklace_1"
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 7.0
     revision-id: 1
     material: PAPER
     custom-model-data: 19415
@@ -36,12 +36,12 @@ TRADE_AMULET_HAC_LONG:
 TRADE_AMULET_LOI_LONG:
   itemsadder-item: "rings_pack:set8_necklace_1"
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 5.0
     revision-id: 1
     material: PAPER
     custom-model-data: 19431
     name: "&e&l⚡ Dây Chuyền Lôi Long"
-    tier: UNIQUE
+    tier: LEGENDARY
     set: LOI_LONG_SET
     critical-strike-chance: 14
     lifesteal: 8
@@ -54,12 +54,12 @@ TRADE_AMULET_LOI_LONG:
 TRADE_AMULET_PHONG_LONG:
   itemsadder-item: "rings_pack:set5_necklace_1"
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 6.0
     revision-id: 1
     material: PAPER
     custom-model-data: 19421
     name: "&2&l✦ Dây Chuyền Phong Long"
-    tier: UNIQUE
+    tier: MYTHICAL
     set: PHONG_LONG_SET
     critical-strike-chance: 14
     dodge-rating: 15
@@ -72,12 +72,12 @@ TRADE_AMULET_PHONG_LONG:
 TRADE_AMULET_BANG_LONG:
   itemsadder-item: "rings_pack:set2_necklace_2"
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 4.0
     revision-id: 1
     material: PAPER
     custom-model-data: 19413
     name: "&3&l✦ Dây Chuyền Băng Long"
-    tier: UNIQUE
+    tier: EPIC
     set: BANG_LONG_SET
     max-health: 220
     defense: 20
@@ -90,12 +90,12 @@ TRADE_AMULET_BANG_LONG:
 DONATE_AMULET_LONG_CHIEN:
   itemsadder-item: "rings_pack:set4_necklace_1"
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 6.0
     revision-id: 1
     material: PAPER
     custom-model-data: 19418
     name: "&e&l⚔ Dây Chuyền Chiến Long"
-    tier: UNIQUE
+    tier: MYTHICAL
     set: LONG_CHIEN_SET
     critical-strike-chance: 18
     max-health: 120
@@ -107,12 +107,12 @@ DONATE_AMULET_LONG_CHIEN:
 DONATE_AMULET_LONG_THAN:
   itemsadder-item: "rings_pack:set6_necklace_1"
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 6.0
     revision-id: 1
     material: PAPER
     custom-model-data: 19424
     name: "&b&l✦ Dây Chuyền Thần Long"
-    tier: UNIQUE
+    tier: MYTHICAL
     set: LONG_THAN_SET
     critical-strike-chance: 18
     max-mana: 250
@@ -125,7 +125,7 @@ DONATE_AMULET_LONG_THAN:
 DONATE_AMULET_LONG_HOANG:
   itemsadder-item: "rings_pack:set9_necklace_1"
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 7.0
     revision-id: 1
     material: PAPER
     custom-model-data: 19434
@@ -143,7 +143,7 @@ DONATE_AMULET_LONG_HOANG:
 DONATE_AMULET_LONG_DE:
   itemsadder-item: "rings_pack:set7_necklace_1"
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 7.0
     revision-id: 1
     material: PAPER
     custom-model-data: 19427
@@ -161,12 +161,12 @@ DONATE_AMULET_LONG_DE:
 DONATE_AMULET_LONG_VE:
   itemsadder-item: "rings_pack:set1_necklace_2"
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 5.0
     revision-id: 1
     material: PAPER
     custom-model-data: 19402
     name: "&a&l✦ Dây Chuyền Hộ Long"
-    tier: UNIQUE
+    tier: LEGENDARY
     set: LONG_VE_SET
     max-health: 220
     defense: 20
@@ -179,7 +179,7 @@ DONATE_AMULET_LONG_VE:
 FREE_AMULET_THANH_LONG:
   itemsadder-item: "rings_pack:set10_necklace_2"
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 7.0
     revision-id: 1
     material: PAPER
     custom-model-data: 19406
@@ -196,7 +196,7 @@ FREE_AMULET_THANH_LONG:
 FREE_AMULET_XICH_LONG:
   itemsadder-item: "rings_pack:set11_necklace_1"
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 7.0
     revision-id: 1
     material: PAPER
     custom-model-data: 19409
@@ -214,7 +214,7 @@ FREE_AMULET_XICH_LONG:
 FREE_AMULET_KIM_LONG:
   itemsadder-item: "rings_pack:set11_necklace_2"
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 7.0
     revision-id: 1
     material: PAPER
     custom-model-data: 19410
@@ -232,7 +232,7 @@ FREE_AMULET_KIM_LONG:
 FREE_AMULET_THIEN_LONG:
   itemsadder-item: "rings_pack:set12_necklace_1"
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 7.0
     revision-id: 1
     material: PAPER
     custom-model-data: 19411
@@ -250,7 +250,7 @@ FREE_AMULET_THIEN_LONG:
 FREE_AMULET_BAC_LONG:
   itemsadder-item: "rings_pack:set10_necklace_1"
   base:
-    custom-maxsockets: 3.0
+    custom-maxsockets: 7.0
     revision-id: 1
     material: PAPER
     custom-model-data: 19405
