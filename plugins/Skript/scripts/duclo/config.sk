@@ -1,0 +1,96 @@
+# ============================================================================
+# FILE CẤU HÌNH HỆ THỐNG ĐỤC LỖ (MESSAGES & PUNCH RATES CONFIG)
+# Vị trí: plugins/Skript/scripts/duclo/config.sk
+# ============================================================================
+
+# ----------------------------------------------------------------------------
+# HÀM QUẢN LÝ THÔNG BÁO (MESSAGES CONSTANTS)
+# ----------------------------------------------------------------------------
+function get_duclo_msg(key: text, val1: text = "", val2: text = "") :: text:
+	if {_key} is "SUCCESS":
+		return "&a&l[✦] ĐỤC LỖ THÀNH CÔNG! &7Đã đục thành công ô khảm thứ &e%{_val1}%&7 cho trang bị!"
+
+	if {_key} is "FAIL":
+		return "&c&l[-] ĐỤC LỖ THẤT BẠI! &7Đá đục lỗ đã bị tiêu hao, trang bị không tăng thêm ô khảm."
+
+	if {_key} is "NO_ITEM":
+		return "&c[!] Hãy đặt Trang Bị cần đục lỗ vào ô bên trái!"
+
+	if {_key} is "INVALID_ITEM":
+		return "&c[!] Vật phẩm này không hợp lệ hoặc không có dữ liệu MMOItems!"
+
+	if {_key} is "NOT_MMOITEM":
+		return "&c[!] Trang bị này không phải là MMOItem hợp lệ!"
+
+	if {_key} is "UNSUPPORTED_TYPE":
+		return "&c[!] Vật phẩm loại '%{_val1}%' không thể đục lỗ khảm đá quý!"
+
+	if {_key} is "NOT_PUNCHABLE":
+		return "&c[!] Trang bị không được phép đục lỗ!"
+
+
+
+	if {_key} is "MAX_SOCKETS_REACHED":
+		return "&e[!] Trang bị này đã đạt giới hạn đục tối đa (%{_val1}%/%{_val2}% Ô) của trang bị đó!"
+
+	if {_key} is "NO_STONE":
+		return "&c[!] Hãy đặt Đá Đục Lỗ vào ô bên phải!"
+
+	if {_key} is "INVALID_STONE":
+		return "&c[!] Vật phẩm đá không phải Đá Đục Lỗ hợp lệ!"
+
+	if {_key} is "NEED_PREVIOUS_SOCKET":
+		return "&c[!] Cần đục ô thứ %{_val1}% trước khi dùng loại đá này!"
+
+	if {_key} is "MISMATCH_STONE":
+		return "&c[!] Đá đục lỗ không phù hợp với thứ tự ô hiện tại (Hiện có %{_val1}% ô)!"
+
+	return ""
+
+# ----------------------------------------------------------------------------
+# HÀM QUẢN LÝ TÊN GUI
+# ----------------------------------------------------------------------------
+function get_duclo_gui_title() :: text:
+	return "&8[&b✦&8] &b&lĐỤC LỖ TRANG BỊ"
+
+
+# ----------------------------------------------------------------------------
+# HÀM QUẢN LÝ TỶ LỆ ĐỤC LỖ THEO THỨ TỰ Ô & CẤP ĐÁ
+# ----------------------------------------------------------------------------
+function get_socket_punch_rate(stone_id: text, cur_sockets: number) :: number:
+
+	# Đá Thiên Mệnh (Đục bất kỳ ô tiếp theo, 100% thành công)
+	if {_stone_id} is "DA_DUC_LO_THIEN_MENH":
+		return 100
+
+	# Đá Sơ Cấp: Đục ô thứ 1 (100% thành công)
+	if {_stone_id} is "DA_DUC_LO_1":
+		if {_cur_sockets} is 0:
+			return 100
+		return -1
+
+	# Đá Trung Cấp: Đục ô thứ 2 (70% thành công)
+	if {_stone_id} is "DA_DUC_LO_2":
+		if {_cur_sockets} is 1:
+			return 70
+		return -1
+
+	# Đá Cao Cấp: Đục ô thứ 3 (40% thành công)
+	if {_stone_id} is "DA_DUC_LO_3":
+		if {_cur_sockets} is 2:
+			return 40
+		return -1
+
+	# Đá Siêu Cấp: Đục ô thứ 4 (25% thành công)
+	if {_stone_id} is "DA_DUC_LO_4":
+		if {_cur_sockets} is 3:
+			return 25
+		return -1
+
+	# Đá Huyền Thoại: Đục ô thứ 5 (10% thành công)
+	if {_stone_id} is "DA_DUC_LO_5":
+		if {_cur_sockets} is 4:
+			return 10
+		return -1
+
+	return -1

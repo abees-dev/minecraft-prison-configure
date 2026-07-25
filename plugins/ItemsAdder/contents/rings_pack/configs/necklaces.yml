@@ -1,0 +1,363 @@
+info:
+  namespace: rings_pack
+items:
+  set1_necklace_1:
+    display_name: "&fDây Chuyền Set 1 (#1)"
+    enabled: true
+    resource:
+      material: PAPER
+      generate: true
+      model_id: 19401
+      textures:
+      - items/necklaces/set1-necklace1
+  set1_necklace_2:
+    display_name: "&fDây Chuyền Set 1 (#2)"
+    enabled: true
+    resource:
+      material: PAPER
+      generate: true
+      model_id: 19402
+      textures:
+      - items/necklaces/set1-necklace2
+  set1_necklace_3:
+    display_name: "&fDây Chuyền Set 1 (#3)"
+    enabled: true
+    resource:
+      material: PAPER
+      generate: true
+      model_id: 19403
+      textures:
+      - items/necklaces/set1-necklace3
+  set1_necklace_4:
+    display_name: "&fDây Chuyền Set 1 (#4)"
+    enabled: true
+    resource:
+      material: PAPER
+      generate: true
+      model_id: 19404
+      textures:
+      - items/necklaces/set1-necklace4
+  set10_necklace_1:
+    display_name: "&fDây Chuyền Set 10 (#1)"
+    enabled: true
+    resource:
+      material: PAPER
+      generate: true
+      model_id: 19405
+      textures:
+      - items/necklaces/set10-necklace1
+  set10_necklace_2:
+    display_name: "&fDây Chuyền Set 10 (#2)"
+    enabled: true
+    resource:
+      material: PAPER
+      generate: true
+      model_id: 19406
+      textures:
+      - items/necklaces/set10-necklace2
+  set10_necklace_3:
+    display_name: "&fDây Chuyền Set 10 (#3)"
+    enabled: true
+    resource:
+      material: PAPER
+      generate: true
+      model_id: 19407
+      textures:
+      - items/necklaces/set10-necklace3
+  set10_necklace_4:
+    display_name: "&fDây Chuyền Set 10 (#4)"
+    enabled: true
+    resource:
+      material: PAPER
+      generate: true
+      model_id: 19408
+      textures:
+      - items/necklaces/set10-necklace4
+  set11_necklace_1:
+    display_name: "&fDây Chuyền Set 11 (#1)"
+    enabled: true
+    resource:
+      material: PAPER
+      generate: true
+      model_id: 19409
+      textures:
+      - items/necklaces/set11-necklace1
+  set11_necklace_2:
+    display_name: "&fDây Chuyền Set 11 (#2)"
+    enabled: true
+    resource:
+      material: PAPER
+      generate: true
+      model_id: 19410
+      textures:
+      - items/necklaces/set11-necklace2
+  set11_necklace_3:
+    display_name: "&fDây Chuyền Set 11 (#3)"
+    enabled: true
+    resource:
+      material: PAPER
+      generate: true
+      model_id: 19411
+      textures:
+      - items/necklaces/set11-necklace3
+  set11_necklace_4:
+    display_name: "&fDây Chuyền Set 11 (#4)"
+    enabled: true
+    resource:
+      material: PAPER
+      generate: true
+      model_id: 19412
+      textures:
+      - items/necklaces/set11-necklace4
+  set2_necklace_2:
+    display_name: "&fDây Chuyền Set 2 (#2)"
+    enabled: true
+    resource:
+      material: PAPER
+      generate: true
+      model_id: 19413
+      textures:
+      - items/necklaces/set2-necklace2
+  set2_necklace_3:
+    display_name: "&fDây Chuyền Set 2 (#3)"
+    enabled: true
+    resource:
+      material: PAPER
+      generate: true
+      model_id: 19414
+      textures:
+      - items/necklaces/set2-necklace3
+  set3_necklace_1:
+    display_name: "&fDây Chuyền Set 3 (#1)"
+    enabled: true
+    resource:
+      material: PAPER
+      generate: true
+      model_id: 19415
+      textures:
+      - items/necklaces/set3-necklace1
+  set3_necklace_4:
+    display_name: "&fDây Chuyền Set 3 (#4)"
+    enabled: true
+    resource:
+      material: PAPER
+      generate: true
+      model_id: 19416
+      textures:
+      - items/necklaces/set3-necklace4
+  set3_necklace_5:
+    display_name: "&fDây Chuyền Set 3 (#5)"
+    enabled: true
+    resource:
+      material: PAPER
+      generate: true
+      model_id: 19417
+      textures:
+      - items/necklaces/set3-necklace5
+  set3_necklace_6:
+    display_name: "&fDây Chuyền Set 3 (#6)"
+    enabled: true
+    resource:
+      material: PAPER
+      generate: true
+      model_id: 19418
+      textures:
+      - items/necklaces/set3-necklace6
+  set3_necklace_7:
+    display_name: "&fDây Chuyền Set 3 (#7)"
+    enabled: true
+    resource:
+      material: PAPER
+      generate: true
+      model_id: 19419
+      textures:
+      - items/necklaces/set3-necklace7
+  set3_necklace_8:
+    display_name: "&fDây Chuyền Set 3 (#8)"
+    enabled: true
+    resource:
+      material: PAPER
+      generate: true
+      model_id: 19420
+      textures:
+      - items/necklaces/set3-necklace8
+  set5_necklace_1:
+    display_name: "&fDây Chuyền Set 5 (#1)"
+    enabled: true
+    resource:
+      material: PAPER
+      generate: true
+      model_id: 19421
+      textures:
+      - items/necklaces/set5-necklace1
+  set5_necklace_2:
+    display_name: "&fDây Chuyền Set 5 (#2)"
+    enabled: true
+    resource:
+      material: PAPER
+      generate: true
+      model_id: 19422
+      textures:
+      - items/necklaces/set5-necklace2
+  set5_necklace_3:
+    display_name: "&fDây Chuyền Set 5 (#3)"
+    enabled: true
+    resource:
+      material: PAPER
+      generate: true
+      model_id: 19423
+      textures:
+      - items/necklaces/set5-necklace3
+  set5_necklace_4:
+    display_name: "&fDây Chuyền Set 5 (#4)"
+    enabled: true
+    resource:
+      material: PAPER
+      generate: true
+      model_id: 19424
+      textures:
+      - items/necklaces/set5-necklace4
+  set6_necklace_1:
+    display_name: "&fDây Chuyền Set 6 (#1)"
+    enabled: true
+    resource:
+      material: PAPER
+      generate: true
+      model_id: 19425
+      textures:
+      - items/necklaces/set6-necklace1
+  set6_necklace_2:
+    display_name: "&fDây Chuyền Set 6 (#2)"
+    enabled: true
+    resource:
+      material: PAPER
+      generate: true
+      model_id: 19426
+      textures:
+      - items/necklaces/set6-necklace2
+  set7_necklace_1:
+    display_name: "&fDây Chuyền Set 7 (#1)"
+    enabled: true
+    resource:
+      material: PAPER
+      generate: true
+      model_id: 19427
+      textures:
+      - items/necklaces/set7-necklace1
+  set7_necklace_2:
+    display_name: "&fDây Chuyền Set 7 (#2)"
+    enabled: true
+    resource:
+      material: PAPER
+      generate: true
+      model_id: 19428
+      textures:
+      - items/necklaces/set7-necklace2
+  set7_necklace_3:
+    display_name: "&fDây Chuyền Set 7 (#3)"
+    enabled: true
+    resource:
+      material: PAPER
+      generate: true
+      model_id: 19429
+      textures:
+      - items/necklaces/set7-necklace3
+  set7_necklace_4:
+    display_name: "&fDây Chuyền Set 7 (#4)"
+    enabled: true
+    resource:
+      material: PAPER
+      generate: true
+      model_id: 19430
+      textures:
+      - items/necklaces/set7-necklace4
+  set8_necklace_1:
+    display_name: "&fDây Chuyền Set 8 (#1)"
+    enabled: true
+    resource:
+      material: PAPER
+      generate: true
+      model_id: 19431
+      textures:
+      - items/necklaces/set8-necklace1
+  set8_necklace_2:
+    display_name: "&fDây Chuyền Set 8 (#2)"
+    enabled: true
+    resource:
+      material: PAPER
+      generate: true
+      model_id: 19432
+      textures:
+      - items/necklaces/set8-necklace2
+  set8_necklace_3:
+    display_name: "&fDây Chuyền Set 8 (#3)"
+    enabled: true
+    resource:
+      material: PAPER
+      generate: true
+      model_id: 19433
+      textures:
+      - items/necklaces/set8-necklace3
+  set8_necklace_4:
+    display_name: "&fDây Chuyền Set 8 (#4)"
+    enabled: true
+    resource:
+      material: PAPER
+      generate: true
+      model_id: 19434
+      textures:
+      - items/necklaces/set8-necklace4
+  set8_necklace_5:
+    display_name: "&fDây Chuyền Set 8 (#5)"
+    enabled: true
+    resource:
+      material: PAPER
+      generate: true
+      model_id: 19435
+      textures:
+      - items/necklaces/set8-necklace5
+  set9_necklace_1:
+    display_name: "&fDây Chuyền Set 9 (#1)"
+    enabled: true
+    resource:
+      material: PAPER
+      generate: true
+      model_id: 19436
+      textures:
+      - items/necklaces/set9-necklace1
+  set9_necklace_2:
+    display_name: "&fDây Chuyền Set 9 (#2)"
+    enabled: true
+    resource:
+      material: PAPER
+      generate: true
+      model_id: 19437
+      textures:
+      - items/necklaces/set9-necklace2
+  set9_necklace_3:
+    display_name: "&fDây Chuyền Set 9 (#3)"
+    enabled: true
+    resource:
+      material: PAPER
+      generate: true
+      model_id: 19438
+      textures:
+      - items/necklaces/set9-necklace3
+  set9_necklace_4:
+    display_name: "&fDây Chuyền Set 9 (#4)"
+    enabled: true
+    resource:
+      material: PAPER
+      generate: true
+      model_id: 19439
+      textures:
+      - items/necklaces/set9-necklace4
+  set9_necklace_5:
+    display_name: "&fDây Chuyền Set 9 (#5)"
+    enabled: true
+    resource:
+      material: PAPER
+      generate: true
+      model_id: 19440
+      textures:
+      - items/necklaces/set9-necklace5
