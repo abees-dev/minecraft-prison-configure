@@ -80,13 +80,65 @@ const gemTypes = [
     name: "Băng Ngọc",
     color: "&b&l",
     gemColor: "Cyan",
-    cmd: 15000,
+    cmd: 15004,
     lore: [
       "&7Đá quý mang năng lượng Băng Giá.",
       "&7Kéo thả vào trang bị có ô khảm để tăng Tỷ Lệ Bạo Kích.",
     ],
     statKey: "critical-strike-chance",
     statFormula: (lv) => Number((0.5 + lv * 0.5).toFixed(1)),
+  },
+  {
+    prefix: "BLACK_GEM",
+    name: "Hắc Ngọc",
+    color: "&8&l",
+    gemColor: "Black",
+    cmd: 15009,
+    lore: [
+      "&7Đá quý mang năng lượng Bóng Tối.",
+      "&7Kéo thả vào trang bị có ô khảm để tăng Sát Thương Bạo Kích.",
+    ],
+    statKey: "critical-strike-power",
+    statFormula: (lv) => Number((1.0 + lv * 1.5).toFixed(1)),
+  },
+  {
+    prefix: "WHITE_GEM",
+    name: "Bạch Ngọc",
+    color: "&f&l",
+    gemColor: "White",
+    cmd: 15001,
+    lore: [
+      "&7Đá quý mang năng lượng Ánh Sáng.",
+      "&7Kéo thả vào trang bị có ô khảm để tăng Hồi Phục Máu.",
+    ],
+    statKey: "health-regeneration",
+    statFormula: (lv) => Number((0.2 + lv * 0.3).toFixed(1)),
+  },
+  {
+    prefix: "BROWN_GEM",
+    name: "Thổ Ngọc",
+    color: "&6&l",
+    gemColor: "Brown",
+    cmd: 15003,
+    lore: [
+      "&7Đá quý mang năng lượng Thổ Nguyên.",
+      "&7Kéo thả vào trang bị có ô khảm để tăng Độ Bền Sắt (Armor Toughness).",
+    ],
+    statKey: "armor-toughness",
+    statFormula: (lv) => Number((0.3 + lv * 0.4).toFixed(1)),
+  },
+  {
+    prefix: "ORANGE_GEM",
+    name: "Cam Ngọc",
+    color: "&6&l",
+    gemColor: "Orange",
+    cmd: 15006,
+    lore: [
+      "&7Đá quý mang năng lượng Năng Lượng.",
+      "&7Kéo thả vào trang bị có ô khảm để tăng Tốc Độ Di Chuyển.",
+    ],
+    statKey: "movement-speed",
+    statFormula: (lv) => Number((0.005 + lv * 0.005).toFixed(3)),
   },
 ];
 
@@ -101,6 +153,7 @@ gemTypes.forEach((gt) => {
 
     gemContent += `${id}:
   base:
+    revision-id: 1
     material: PAPER
     custom-model-data: ${gt.cmd}
     name: "${gt.color}${gt.name} &e&lLv.${roman}"
