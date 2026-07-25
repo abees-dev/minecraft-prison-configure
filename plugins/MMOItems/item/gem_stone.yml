@@ -7,8 +7,8 @@ RED_GEM_LV1:
     success-rate: 95
     lore:
       - "&7Đá quý mang năng lượng nguyên tố Hỏa."
-      - "&7Kéo thả vào trang bị có ô khảm để tăng sức mạnh."
-    attack-damage: 0.5
+      - "&7Kéo thả vào trang bị có ô khảm để tăng sát thương."
+    attack-damage: 1.3
     max-stack: 1
     will-break: false
     unbreakable: false
@@ -22,8 +22,8 @@ RED_GEM_LV2:
     success-rate: 85
     lore:
       - "&7Đá quý mang năng lượng nguyên tố Hỏa."
-      - "&7Kéo thả vào trang bị có ô khảm để tăng sức mạnh."
-    attack-damage: 1
+      - "&7Kéo thả vào trang bị có ô khảm để tăng sát thương."
+    attack-damage: 2
     max-stack: 1
     will-break: false
     unbreakable: false
@@ -37,8 +37,8 @@ RED_GEM_LV3:
     success-rate: 70
     lore:
       - "&7Đá quý mang năng lượng nguyên tố Hỏa."
-      - "&7Kéo thả vào trang bị có ô khảm để tăng sức mạnh."
-    attack-damage: 1.5
+      - "&7Kéo thả vào trang bị có ô khảm để tăng sát thương."
+    attack-damage: 2.8
     max-stack: 1
     will-break: false
     unbreakable: false
@@ -52,8 +52,8 @@ RED_GEM_LV4:
     success-rate: 55
     lore:
       - "&7Đá quý mang năng lượng nguyên tố Hỏa."
-      - "&7Kéo thả vào trang bị có ô khảm để tăng sức mạnh."
-    attack-damage: 2
+      - "&7Kéo thả vào trang bị có ô khảm để tăng sát thương."
+    attack-damage: 3.5
     max-stack: 1
     will-break: false
     unbreakable: false
@@ -67,8 +67,8 @@ RED_GEM_LV5:
     success-rate: 40
     lore:
       - "&7Đá quý mang năng lượng nguyên tố Hỏa."
-      - "&7Kéo thả vào trang bị có ô khảm để tăng sức mạnh."
-    attack-damage: 2.8
+      - "&7Kéo thả vào trang bị có ô khảm để tăng sát thương."
+    attack-damage: 4.3
     max-stack: 1
     will-break: false
     unbreakable: false
@@ -82,8 +82,8 @@ RED_GEM_LV6:
     success-rate: 28
     lore:
       - "&7Đá quý mang năng lượng nguyên tố Hỏa."
-      - "&7Kéo thả vào trang bị có ô khảm để tăng sức mạnh."
-    attack-damage: 3.6
+      - "&7Kéo thả vào trang bị có ô khảm để tăng sát thương."
+    attack-damage: 5
     max-stack: 1
     will-break: false
     unbreakable: false
@@ -97,8 +97,8 @@ RED_GEM_LV7:
     success-rate: 18
     lore:
       - "&7Đá quý mang năng lượng nguyên tố Hỏa."
-      - "&7Kéo thả vào trang bị có ô khảm để tăng sức mạnh."
-    attack-damage: 4.5
+      - "&7Kéo thả vào trang bị có ô khảm để tăng sát thương."
+    attack-damage: 5.8
     max-stack: 1
     will-break: false
     unbreakable: false
@@ -112,8 +112,8 @@ RED_GEM_LV8:
     success-rate: 10
     lore:
       - "&7Đá quý mang năng lượng nguyên tố Hỏa."
-      - "&7Kéo thả vào trang bị có ô khảm để tăng sức mạnh."
-    attack-damage: 5.5
+      - "&7Kéo thả vào trang bị có ô khảm để tăng sát thương."
+    attack-damage: 6.5
     max-stack: 1
     will-break: false
     unbreakable: false
@@ -127,8 +127,8 @@ RED_GEM_LV9:
     success-rate: 5
     lore:
       - "&7Đá quý mang năng lượng nguyên tố Hỏa."
-      - "&7Kéo thả vào trang bị có ô khảm để tăng sức mạnh."
-    attack-damage: 6.8
+      - "&7Kéo thả vào trang bị có ô khảm để tăng sát thương."
+    attack-damage: 7.3
     max-stack: 1
     will-break: false
     unbreakable: false
@@ -142,7 +142,7 @@ RED_GEM_LV10:
     success-rate: 3
     lore:
       - "&7Đá quý mang năng lượng nguyên tố Hỏa."
-      - "&7Kéo thả vào trang bị có ô khảm để tăng sức mạnh."
+      - "&7Kéo thả vào trang bị có ô khảm để tăng sát thương."
     attack-damage: 8
     max-stack: 1
     will-break: false
@@ -157,8 +157,8 @@ BLUE_GEM_LV1:
     success-rate: 95
     lore:
       - "&7Đá quý mang năng lượng nguyên tố Nước."
-      - "&7Kéo thả vào trang bị có ô khảm để tăng sức mạnh."
-    max-mana: 5
+      - "&7Kéo thả vào trang bị có ô khảm để tăng Năng Lượng."
+    max-mana: 12
     max-stack: 1
     will-break: false
     unbreakable: false
@@ -172,8 +172,8 @@ BLUE_GEM_LV2:
     success-rate: 85
     lore:
       - "&7Đá quý mang năng lượng nguyên tố Nước."
-      - "&7Kéo thả vào trang bị có ô khảm để tăng sức mạnh."
-    max-mana: 10
+      - "&7Kéo thả vào trang bị có ô khảm để tăng Năng Lượng."
+    max-mana: 20
     max-stack: 1
     will-break: false
     unbreakable: false
@@ -187,8 +187,8 @@ BLUE_GEM_LV3:
     success-rate: 70
     lore:
       - "&7Đá quý mang năng lượng nguyên tố Nước."
-      - "&7Kéo thả vào trang bị có ô khảm để tăng sức mạnh."
-    max-mana: 16
+      - "&7Kéo thả vào trang bị có ô khảm để tăng Năng Lượng."
+    max-mana: 27
     max-stack: 1
     will-break: false
     unbreakable: false
@@ -202,8 +202,8 @@ BLUE_GEM_LV4:
     success-rate: 55
     lore:
       - "&7Đá quý mang năng lượng nguyên tố Nước."
-      - "&7Kéo thả vào trang bị có ô khảm để tăng sức mạnh."
-    max-mana: 24
+      - "&7Kéo thả vào trang bị có ô khảm để tăng Năng Lượng."
+    max-mana: 35
     max-stack: 1
     will-break: false
     unbreakable: false
@@ -217,8 +217,8 @@ BLUE_GEM_LV5:
     success-rate: 40
     lore:
       - "&7Đá quý mang năng lượng nguyên tố Nước."
-      - "&7Kéo thả vào trang bị có ô khảm để tăng sức mạnh."
-    max-mana: 34
+      - "&7Kéo thả vào trang bị có ô khảm để tăng Năng Lượng."
+    max-mana: 42
     max-stack: 1
     will-break: false
     unbreakable: false
@@ -232,8 +232,8 @@ BLUE_GEM_LV6:
     success-rate: 28
     lore:
       - "&7Đá quý mang năng lượng nguyên tố Nước."
-      - "&7Kéo thả vào trang bị có ô khảm để tăng sức mạnh."
-    max-mana: 45
+      - "&7Kéo thả vào trang bị có ô khảm để tăng Năng Lượng."
+    max-mana: 50
     max-stack: 1
     will-break: false
     unbreakable: false
@@ -247,8 +247,8 @@ BLUE_GEM_LV7:
     success-rate: 18
     lore:
       - "&7Đá quý mang năng lượng nguyên tố Nước."
-      - "&7Kéo thả vào trang bị có ô khảm để tăng sức mạnh."
-    max-mana: 58
+      - "&7Kéo thả vào trang bị có ô khảm để tăng Năng Lượng."
+    max-mana: 57
     max-stack: 1
     will-break: false
     unbreakable: false
@@ -262,8 +262,8 @@ BLUE_GEM_LV8:
     success-rate: 10
     lore:
       - "&7Đá quý mang năng lượng nguyên tố Nước."
-      - "&7Kéo thả vào trang bị có ô khảm để tăng sức mạnh."
-    max-mana: 72
+      - "&7Kéo thả vào trang bị có ô khảm để tăng Năng Lượng."
+    max-mana: 65
     max-stack: 1
     will-break: false
     unbreakable: false
@@ -277,8 +277,8 @@ BLUE_GEM_LV9:
     success-rate: 5
     lore:
       - "&7Đá quý mang năng lượng nguyên tố Nước."
-      - "&7Kéo thả vào trang bị có ô khảm để tăng sức mạnh."
-    max-mana: 88
+      - "&7Kéo thả vào trang bị có ô khảm để tăng Năng Lượng."
+    max-mana: 72
     max-stack: 1
     will-break: false
     unbreakable: false
@@ -292,8 +292,8 @@ BLUE_GEM_LV10:
     success-rate: 3
     lore:
       - "&7Đá quý mang năng lượng nguyên tố Nước."
-      - "&7Kéo thả vào trang bị có ô khảm để tăng sức mạnh."
-    max-mana: 105
+      - "&7Kéo thả vào trang bị có ô khảm để tăng Năng Lượng."
+    max-mana: 80
     max-stack: 1
     will-break: false
     unbreakable: false
@@ -301,14 +301,14 @@ BLUE_GEM_LV10:
 GREEN_GEM_LV1:
   base:
     material: PAPER
-    custom-model-data: 15005
+    custom-model-data: 15004
     name: "&a&lLục Ngọc &e&lLv.I"
     gem-color: "Green"
     success-rate: 95
     lore:
       - "&7Đá quý mang năng lượng nguyên tố Phong."
-      - "&7Kéo thả vào trang bị có ô khảm để tăng sức mạnh."
-    attack-speed: 0.02
+      - "&7Kéo thả vào trang bị có ô khảm để tăng Máu Tối Đa."
+    max-health: 4.5
     max-stack: 1
     will-break: false
     unbreakable: false
@@ -316,14 +316,14 @@ GREEN_GEM_LV1:
 GREEN_GEM_LV2:
   base:
     material: PAPER
-    custom-model-data: 15005
+    custom-model-data: 15004
     name: "&a&lLục Ngọc &e&lLv.II"
     gem-color: "Green"
     success-rate: 85
     lore:
       - "&7Đá quý mang năng lượng nguyên tố Phong."
-      - "&7Kéo thả vào trang bị có ô khảm để tăng sức mạnh."
-    attack-speed: 0.04
+      - "&7Kéo thả vào trang bị có ô khảm để tăng Máu Tối Đa."
+    max-health: 7
     max-stack: 1
     will-break: false
     unbreakable: false
@@ -331,14 +331,14 @@ GREEN_GEM_LV2:
 GREEN_GEM_LV3:
   base:
     material: PAPER
-    custom-model-data: 15005
+    custom-model-data: 15004
     name: "&a&lLục Ngọc &e&lLv.III"
     gem-color: "Green"
     success-rate: 70
     lore:
       - "&7Đá quý mang năng lượng nguyên tố Phong."
-      - "&7Kéo thả vào trang bị có ô khảm để tăng sức mạnh."
-    attack-speed: 0.06
+      - "&7Kéo thả vào trang bị có ô khảm để tăng Máu Tối Đa."
+    max-health: 9.5
     max-stack: 1
     will-break: false
     unbreakable: false
@@ -346,14 +346,14 @@ GREEN_GEM_LV3:
 GREEN_GEM_LV4:
   base:
     material: PAPER
-    custom-model-data: 15005
+    custom-model-data: 15004
     name: "&a&lLục Ngọc &e&lLv.IV"
     gem-color: "Green"
     success-rate: 55
     lore:
       - "&7Đá quý mang năng lượng nguyên tố Phong."
-      - "&7Kéo thả vào trang bị có ô khảm để tăng sức mạnh."
-    attack-speed: 0.08
+      - "&7Kéo thả vào trang bị có ô khảm để tăng Máu Tối Đa."
+    max-health: 12
     max-stack: 1
     will-break: false
     unbreakable: false
@@ -361,14 +361,14 @@ GREEN_GEM_LV4:
 GREEN_GEM_LV5:
   base:
     material: PAPER
-    custom-model-data: 15005
+    custom-model-data: 15004
     name: "&a&lLục Ngọc &e&lLv.V"
     gem-color: "Green"
     success-rate: 40
     lore:
       - "&7Đá quý mang năng lượng nguyên tố Phong."
-      - "&7Kéo thả vào trang bị có ô khảm để tăng sức mạnh."
-    attack-speed: 0.1
+      - "&7Kéo thả vào trang bị có ô khảm để tăng Máu Tối Đa."
+    max-health: 14.5
     max-stack: 1
     will-break: false
     unbreakable: false
@@ -376,14 +376,14 @@ GREEN_GEM_LV5:
 GREEN_GEM_LV6:
   base:
     material: PAPER
-    custom-model-data: 15005
+    custom-model-data: 15004
     name: "&a&lLục Ngọc &e&lLv.VI"
     gem-color: "Green"
     success-rate: 28
     lore:
       - "&7Đá quý mang năng lượng nguyên tố Phong."
-      - "&7Kéo thả vào trang bị có ô khảm để tăng sức mạnh."
-    attack-speed: 0.12
+      - "&7Kéo thả vào trang bị có ô khảm để tăng Máu Tối Đa."
+    max-health: 17
     max-stack: 1
     will-break: false
     unbreakable: false
@@ -391,14 +391,14 @@ GREEN_GEM_LV6:
 GREEN_GEM_LV7:
   base:
     material: PAPER
-    custom-model-data: 15005
+    custom-model-data: 15004
     name: "&a&lLục Ngọc &e&lLv.VII"
     gem-color: "Green"
     success-rate: 18
     lore:
       - "&7Đá quý mang năng lượng nguyên tố Phong."
-      - "&7Kéo thả vào trang bị có ô khảm để tăng sức mạnh."
-    attack-speed: 0.15
+      - "&7Kéo thả vào trang bị có ô khảm để tăng Máu Tối Đa."
+    max-health: 19.5
     max-stack: 1
     will-break: false
     unbreakable: false
@@ -406,14 +406,14 @@ GREEN_GEM_LV7:
 GREEN_GEM_LV8:
   base:
     material: PAPER
-    custom-model-data: 15005
+    custom-model-data: 15004
     name: "&a&lLục Ngọc &e&lLv.VIII"
     gem-color: "Green"
     success-rate: 10
     lore:
       - "&7Đá quý mang năng lượng nguyên tố Phong."
-      - "&7Kéo thả vào trang bị có ô khảm để tăng sức mạnh."
-    attack-speed: 0.18
+      - "&7Kéo thả vào trang bị có ô khảm để tăng Máu Tối Đa."
+    max-health: 22
     max-stack: 1
     will-break: false
     unbreakable: false
@@ -421,14 +421,14 @@ GREEN_GEM_LV8:
 GREEN_GEM_LV9:
   base:
     material: PAPER
-    custom-model-data: 15005
+    custom-model-data: 15004
     name: "&a&lLục Ngọc &e&lLv.IX"
     gem-color: "Green"
     success-rate: 5
     lore:
       - "&7Đá quý mang năng lượng nguyên tố Phong."
-      - "&7Kéo thả vào trang bị có ô khảm để tăng sức mạnh."
-    attack-speed: 0.22
+      - "&7Kéo thả vào trang bị có ô khảm để tăng Máu Tối Đa."
+    max-health: 24.5
     max-stack: 1
     will-break: false
     unbreakable: false
@@ -436,314 +436,14 @@ GREEN_GEM_LV9:
 GREEN_GEM_LV10:
   base:
     material: PAPER
-    custom-model-data: 15005
+    custom-model-data: 15004
     name: "&a&lLục Ngọc &e&lLv.X"
     gem-color: "Green"
     success-rate: 3
     lore:
       - "&7Đá quý mang năng lượng nguyên tố Phong."
-      - "&7Kéo thả vào trang bị có ô khảm để tăng sức mạnh."
-    attack-speed: 0.25
-    max-stack: 1
-    will-break: false
-    unbreakable: false
-
-BLACK_GEM_LV1:
-  base:
-    material: PAPER
-    custom-model-data: 15001
-    name: "&8&lHắc Ngọc &e&lLv.I"
-    gem-color: "Black"
-    success-rate: 95
-    lore:
-      - "&7Đá quý mang năng lượng nguyên tố Bóng Tối."
-      - "&7Kéo thả vào trang bị có ô khảm để tăng sức mạnh."
-    pve-damage: 1
-    max-stack: 1
-    will-break: false
-    unbreakable: false
-
-BLACK_GEM_LV2:
-  base:
-    material: PAPER
-    custom-model-data: 15001
-    name: "&8&lHắc Ngọc &e&lLv.II"
-    gem-color: "Black"
-    success-rate: 85
-    lore:
-      - "&7Đá quý mang năng lượng nguyên tố Bóng Tối."
-      - "&7Kéo thả vào trang bị có ô khảm để tăng sức mạnh."
-    pve-damage: 2
-    max-stack: 1
-    will-break: false
-    unbreakable: false
-
-BLACK_GEM_LV3:
-  base:
-    material: PAPER
-    custom-model-data: 15001
-    name: "&8&lHắc Ngọc &e&lLv.III"
-    gem-color: "Black"
-    success-rate: 70
-    lore:
-      - "&7Đá quý mang năng lượng nguyên tố Bóng Tối."
-      - "&7Kéo thả vào trang bị có ô khảm để tăng sức mạnh."
-    pve-damage: 3
-    max-stack: 1
-    will-break: false
-    unbreakable: false
-
-BLACK_GEM_LV4:
-  base:
-    material: PAPER
-    custom-model-data: 15001
-    name: "&8&lHắc Ngọc &e&lLv.IV"
-    gem-color: "Black"
-    success-rate: 55
-    lore:
-      - "&7Đá quý mang năng lượng nguyên tố Bóng Tối."
-      - "&7Kéo thả vào trang bị có ô khảm để tăng sức mạnh."
-    pve-damage: 4
-    max-stack: 1
-    will-break: false
-    unbreakable: false
-
-BLACK_GEM_LV5:
-  base:
-    material: PAPER
-    custom-model-data: 15001
-    name: "&8&lHắc Ngọc &e&lLv.V"
-    gem-color: "Black"
-    success-rate: 40
-    lore:
-      - "&7Đá quý mang năng lượng nguyên tố Bóng Tối."
-      - "&7Kéo thả vào trang bị có ô khảm để tăng sức mạnh."
-    pve-damage: 5
-    max-stack: 1
-    will-break: false
-    unbreakable: false
-
-BLACK_GEM_LV6:
-  base:
-    material: PAPER
-    custom-model-data: 15001
-    name: "&8&lHắc Ngọc &e&lLv.VI"
-    gem-color: "Black"
-    success-rate: 28
-    lore:
-      - "&7Đá quý mang năng lượng nguyên tố Bóng Tối."
-      - "&7Kéo thả vào trang bị có ô khảm để tăng sức mạnh."
-    pve-damage: 6.5
-    max-stack: 1
-    will-break: false
-    unbreakable: false
-
-BLACK_GEM_LV7:
-  base:
-    material: PAPER
-    custom-model-data: 15001
-    name: "&8&lHắc Ngọc &e&lLv.VII"
-    gem-color: "Black"
-    success-rate: 18
-    lore:
-      - "&7Đá quý mang năng lượng nguyên tố Bóng Tối."
-      - "&7Kéo thả vào trang bị có ô khảm để tăng sức mạnh."
-    pve-damage: 8
-    max-stack: 1
-    will-break: false
-    unbreakable: false
-
-BLACK_GEM_LV8:
-  base:
-    material: PAPER
-    custom-model-data: 15001
-    name: "&8&lHắc Ngọc &e&lLv.VIII"
-    gem-color: "Black"
-    success-rate: 10
-    lore:
-      - "&7Đá quý mang năng lượng nguyên tố Bóng Tối."
-      - "&7Kéo thả vào trang bị có ô khảm để tăng sức mạnh."
-    pve-damage: 10
-    max-stack: 1
-    will-break: false
-    unbreakable: false
-
-BLACK_GEM_LV9:
-  base:
-    material: PAPER
-    custom-model-data: 15001
-    name: "&8&lHắc Ngọc &e&lLv.IX"
-    gem-color: "Black"
-    success-rate: 5
-    lore:
-      - "&7Đá quý mang năng lượng nguyên tố Bóng Tối."
-      - "&7Kéo thả vào trang bị có ô khảm để tăng sức mạnh."
-    pve-damage: 12
-    max-stack: 1
-    will-break: false
-    unbreakable: false
-
-BLACK_GEM_LV10:
-  base:
-    material: PAPER
-    custom-model-data: 15001
-    name: "&8&lHắc Ngọc &e&lLv.X"
-    gem-color: "Black"
-    success-rate: 3
-    lore:
-      - "&7Đá quý mang năng lượng nguyên tố Bóng Tối."
-      - "&7Kéo thả vào trang bị có ô khảm để tăng sức mạnh."
-    pve-damage: 15
-    max-stack: 1
-    will-break: false
-    unbreakable: false
-
-WHITE_GEM_LV1:
-  base:
-    material: PAPER
-    custom-model-data: 15009
-    name: "&f&lBạch Ngọc &e&lLv.I"
-    gem-color: "White"
-    success-rate: 95
-    lore:
-      - "&7Đá quý mang năng lượng nguyên tố Ánh Sáng."
-      - "&7Kéo thả vào trang bị có ô khảm để tăng sức mạnh."
-    defense: 0.5
-    max-stack: 1
-    will-break: false
-    unbreakable: false
-
-WHITE_GEM_LV2:
-  base:
-    material: PAPER
-    custom-model-data: 15009
-    name: "&f&lBạch Ngọc &e&lLv.II"
-    gem-color: "White"
-    success-rate: 85
-    lore:
-      - "&7Đá quý mang năng lượng nguyên tố Ánh Sáng."
-      - "&7Kéo thả vào trang bị có ô khảm để tăng sức mạnh."
-    defense: 1
-    max-stack: 1
-    will-break: false
-    unbreakable: false
-
-WHITE_GEM_LV3:
-  base:
-    material: PAPER
-    custom-model-data: 15009
-    name: "&f&lBạch Ngọc &e&lLv.III"
-    gem-color: "White"
-    success-rate: 70
-    lore:
-      - "&7Đá quý mang năng lượng nguyên tố Ánh Sáng."
-      - "&7Kéo thả vào trang bị có ô khảm để tăng sức mạnh."
-    defense: 1.5
-    max-stack: 1
-    will-break: false
-    unbreakable: false
-
-WHITE_GEM_LV4:
-  base:
-    material: PAPER
-    custom-model-data: 15009
-    name: "&f&lBạch Ngọc &e&lLv.IV"
-    gem-color: "White"
-    success-rate: 55
-    lore:
-      - "&7Đá quý mang năng lượng nguyên tố Ánh Sáng."
-      - "&7Kéo thả vào trang bị có ô khảm để tăng sức mạnh."
-    defense: 2.2
-    max-stack: 1
-    will-break: false
-    unbreakable: false
-
-WHITE_GEM_LV5:
-  base:
-    material: PAPER
-    custom-model-data: 15009
-    name: "&f&lBạch Ngọc &e&lLv.V"
-    gem-color: "White"
-    success-rate: 40
-    lore:
-      - "&7Đá quý mang năng lượng nguyên tố Ánh Sáng."
-      - "&7Kéo thả vào trang bị có ô khảm để tăng sức mạnh."
-    defense: 3
-    max-stack: 1
-    will-break: false
-    unbreakable: false
-
-WHITE_GEM_LV6:
-  base:
-    material: PAPER
-    custom-model-data: 15009
-    name: "&f&lBạch Ngọc &e&lLv.VI"
-    gem-color: "White"
-    success-rate: 28
-    lore:
-      - "&7Đá quý mang năng lượng nguyên tố Ánh Sáng."
-      - "&7Kéo thả vào trang bị có ô khảm để tăng sức mạnh."
-    defense: 4
-    max-stack: 1
-    will-break: false
-    unbreakable: false
-
-WHITE_GEM_LV7:
-  base:
-    material: PAPER
-    custom-model-data: 15009
-    name: "&f&lBạch Ngọc &e&lLv.VII"
-    gem-color: "White"
-    success-rate: 18
-    lore:
-      - "&7Đá quý mang năng lượng nguyên tố Ánh Sáng."
-      - "&7Kéo thả vào trang bị có ô khảm để tăng sức mạnh."
-    defense: 5.2
-    max-stack: 1
-    will-break: false
-    unbreakable: false
-
-WHITE_GEM_LV8:
-  base:
-    material: PAPER
-    custom-model-data: 15009
-    name: "&f&lBạch Ngọc &e&lLv.VIII"
-    gem-color: "White"
-    success-rate: 10
-    lore:
-      - "&7Đá quý mang năng lượng nguyên tố Ánh Sáng."
-      - "&7Kéo thả vào trang bị có ô khảm để tăng sức mạnh."
-    defense: 6.5
-    max-stack: 1
-    will-break: false
-    unbreakable: false
-
-WHITE_GEM_LV9:
-  base:
-    material: PAPER
-    custom-model-data: 15009
-    name: "&f&lBạch Ngọc &e&lLv.IX"
-    gem-color: "White"
-    success-rate: 5
-    lore:
-      - "&7Đá quý mang năng lượng nguyên tố Ánh Sáng."
-      - "&7Kéo thả vào trang bị có ô khảm để tăng sức mạnh."
-    defense: 8
-    max-stack: 1
-    will-break: false
-    unbreakable: false
-
-WHITE_GEM_LV10:
-  base:
-    material: PAPER
-    custom-model-data: 15009
-    name: "&f&lBạch Ngọc &e&lLv.X"
-    gem-color: "White"
-    success-rate: 3
-    lore:
-      - "&7Đá quý mang năng lượng nguyên tố Ánh Sáng."
-      - "&7Kéo thả vào trang bị có ô khảm để tăng sức mạnh."
-    defense: 10
+      - "&7Kéo thả vào trang bị có ô khảm để tăng Máu Tối Đa."
+    max-health: 27
     max-stack: 1
     will-break: false
     unbreakable: false
@@ -756,9 +456,9 @@ YELLOW_GEM_LV1:
     gem-color: "Yellow"
     success-rate: 95
     lore:
-      - "&7Đá quý mang năng lượng nguyên tố Kim."
-      - "&7Kéo thả vào trang bị có ô khảm để tăng sức mạnh."
-    critical-strike-power: 2
+      - "&7Đá quý mang năng lượng nguyên tố Thổ."
+      - "&7Kéo thả vào trang bị có ô khảm để tăng Phòng Thủ."
+    armor: 1.1
     max-stack: 1
     will-break: false
     unbreakable: false
@@ -771,9 +471,9 @@ YELLOW_GEM_LV2:
     gem-color: "Yellow"
     success-rate: 85
     lore:
-      - "&7Đá quý mang năng lượng nguyên tố Kim."
-      - "&7Kéo thả vào trang bị có ô khảm để tăng sức mạnh."
-    critical-strike-power: 4
+      - "&7Đá quý mang năng lượng nguyên tố Thổ."
+      - "&7Kéo thả vào trang bị có ô khảm để tăng Phòng Thủ."
+    armor: 1.7
     max-stack: 1
     will-break: false
     unbreakable: false
@@ -786,9 +486,9 @@ YELLOW_GEM_LV3:
     gem-color: "Yellow"
     success-rate: 70
     lore:
-      - "&7Đá quý mang năng lượng nguyên tố Kim."
-      - "&7Kéo thả vào trang bị có ô khảm để tăng sức mạnh."
-    critical-strike-power: 6
+      - "&7Đá quý mang năng lượng nguyên tố Thổ."
+      - "&7Kéo thả vào trang bị có ô khảm để tăng Phòng Thủ."
+    armor: 2.3
     max-stack: 1
     will-break: false
     unbreakable: false
@@ -801,9 +501,9 @@ YELLOW_GEM_LV4:
     gem-color: "Yellow"
     success-rate: 55
     lore:
-      - "&7Đá quý mang năng lượng nguyên tố Kim."
-      - "&7Kéo thả vào trang bị có ô khảm để tăng sức mạnh."
-    critical-strike-power: 9
+      - "&7Đá quý mang năng lượng nguyên tố Thổ."
+      - "&7Kéo thả vào trang bị có ô khảm để tăng Phòng Thủ."
+    armor: 2.9
     max-stack: 1
     will-break: false
     unbreakable: false
@@ -816,9 +516,9 @@ YELLOW_GEM_LV5:
     gem-color: "Yellow"
     success-rate: 40
     lore:
-      - "&7Đá quý mang năng lượng nguyên tố Kim."
-      - "&7Kéo thả vào trang bị có ô khảm để tăng sức mạnh."
-    critical-strike-power: 12
+      - "&7Đá quý mang năng lượng nguyên tố Thổ."
+      - "&7Kéo thả vào trang bị có ô khảm để tăng Phòng Thủ."
+    armor: 3.5
     max-stack: 1
     will-break: false
     unbreakable: false
@@ -831,9 +531,9 @@ YELLOW_GEM_LV6:
     gem-color: "Yellow"
     success-rate: 28
     lore:
-      - "&7Đá quý mang năng lượng nguyên tố Kim."
-      - "&7Kéo thả vào trang bị có ô khảm để tăng sức mạnh."
-    critical-strike-power: 16
+      - "&7Đá quý mang năng lượng nguyên tố Thổ."
+      - "&7Kéo thả vào trang bị có ô khảm để tăng Phòng Thủ."
+    armor: 4.1
     max-stack: 1
     will-break: false
     unbreakable: false
@@ -846,9 +546,9 @@ YELLOW_GEM_LV7:
     gem-color: "Yellow"
     success-rate: 18
     lore:
-      - "&7Đá quý mang năng lượng nguyên tố Kim."
-      - "&7Kéo thả vào trang bị có ô khảm để tăng sức mạnh."
-    critical-strike-power: 20
+      - "&7Đá quý mang năng lượng nguyên tố Thổ."
+      - "&7Kéo thả vào trang bị có ô khảm để tăng Phòng Thủ."
+    armor: 4.7
     max-stack: 1
     will-break: false
     unbreakable: false
@@ -861,9 +561,9 @@ YELLOW_GEM_LV8:
     gem-color: "Yellow"
     success-rate: 10
     lore:
-      - "&7Đá quý mang năng lượng nguyên tố Kim."
-      - "&7Kéo thả vào trang bị có ô khảm để tăng sức mạnh."
-    critical-strike-power: 25
+      - "&7Đá quý mang năng lượng nguyên tố Thổ."
+      - "&7Kéo thả vào trang bị có ô khảm để tăng Phòng Thủ."
+    armor: 5.3
     max-stack: 1
     will-break: false
     unbreakable: false
@@ -876,9 +576,9 @@ YELLOW_GEM_LV9:
     gem-color: "Yellow"
     success-rate: 5
     lore:
-      - "&7Đá quý mang năng lượng nguyên tố Kim."
-      - "&7Kéo thả vào trang bị có ô khảm để tăng sức mạnh."
-    critical-strike-power: 30
+      - "&7Đá quý mang năng lượng nguyên tố Thổ."
+      - "&7Kéo thả vào trang bị có ô khảm để tăng Phòng Thủ."
+    armor: 5.9
     max-stack: 1
     will-break: false
     unbreakable: false
@@ -891,459 +591,9 @@ YELLOW_GEM_LV10:
     gem-color: "Yellow"
     success-rate: 3
     lore:
-      - "&7Đá quý mang năng lượng nguyên tố Kim."
-      - "&7Kéo thả vào trang bị có ô khảm để tăng sức mạnh."
-    critical-strike-power: 38
-    max-stack: 1
-    will-break: false
-    unbreakable: false
-
-BROWN_GEM_LV1:
-  base:
-    material: PAPER
-    custom-model-data: 15003
-    name: "&6&lThổ Ngọc &e&lLv.I"
-    gem-color: "Brown"
-    success-rate: 95
-    lore:
-      - "&7Đá quý mang năng lượng nguyên tố Đất."
-      - "&7Kéo thả vào trang bị có ô khảm để tăng sức mạnh."
-    max-health: 1
-    max-stack: 1
-    will-break: false
-    unbreakable: false
-
-BROWN_GEM_LV2:
-  base:
-    material: PAPER
-    custom-model-data: 15003
-    name: "&6&lThổ Ngọc &e&lLv.II"
-    gem-color: "Brown"
-    success-rate: 85
-    lore:
-      - "&7Đá quý mang năng lượng nguyên tố Đất."
-      - "&7Kéo thả vào trang bị có ô khảm để tăng sức mạnh."
-    max-health: 2
-    max-stack: 1
-    will-break: false
-    unbreakable: false
-
-BROWN_GEM_LV3:
-  base:
-    material: PAPER
-    custom-model-data: 15003
-    name: "&6&lThổ Ngọc &e&lLv.III"
-    gem-color: "Brown"
-    success-rate: 70
-    lore:
-      - "&7Đá quý mang năng lượng nguyên tố Đất."
-      - "&7Kéo thả vào trang bị có ô khảm để tăng sức mạnh."
-    max-health: 4
-    max-stack: 1
-    will-break: false
-    unbreakable: false
-
-BROWN_GEM_LV4:
-  base:
-    material: PAPER
-    custom-model-data: 15003
-    name: "&6&lThổ Ngọc &e&lLv.IV"
-    gem-color: "Brown"
-    success-rate: 55
-    lore:
-      - "&7Đá quý mang năng lượng nguyên tố Đất."
-      - "&7Kéo thả vào trang bị có ô khảm để tăng sức mạnh."
-    max-health: 6
-    max-stack: 1
-    will-break: false
-    unbreakable: false
-
-BROWN_GEM_LV5:
-  base:
-    material: PAPER
-    custom-model-data: 15003
-    name: "&6&lThổ Ngọc &e&lLv.V"
-    gem-color: "Brown"
-    success-rate: 40
-    lore:
-      - "&7Đá quý mang năng lượng nguyên tố Đất."
-      - "&7Kéo thả vào trang bị có ô khảm để tăng sức mạnh."
-    max-health: 9
-    max-stack: 1
-    will-break: false
-    unbreakable: false
-
-BROWN_GEM_LV6:
-  base:
-    material: PAPER
-    custom-model-data: 15003
-    name: "&6&lThổ Ngọc &e&lLv.VI"
-    gem-color: "Brown"
-    success-rate: 28
-    lore:
-      - "&7Đá quý mang năng lượng nguyên tố Đất."
-      - "&7Kéo thả vào trang bị có ô khảm để tăng sức mạnh."
-    max-health: 12
-    max-stack: 1
-    will-break: false
-    unbreakable: false
-
-BROWN_GEM_LV7:
-  base:
-    material: PAPER
-    custom-model-data: 15003
-    name: "&6&lThổ Ngọc &e&lLv.VII"
-    gem-color: "Brown"
-    success-rate: 18
-    lore:
-      - "&7Đá quý mang năng lượng nguyên tố Đất."
-      - "&7Kéo thả vào trang bị có ô khảm để tăng sức mạnh."
-    max-health: 14
-    max-stack: 1
-    will-break: false
-    unbreakable: false
-
-BROWN_GEM_LV8:
-  base:
-    material: PAPER
-    custom-model-data: 15003
-    name: "&6&lThổ Ngọc &e&lLv.VIII"
-    gem-color: "Brown"
-    success-rate: 10
-    lore:
-      - "&7Đá quý mang năng lượng nguyên tố Đất."
-      - "&7Kéo thả vào trang bị có ô khảm để tăng sức mạnh."
-    max-health: 16
-    max-stack: 1
-    will-break: false
-    unbreakable: false
-
-BROWN_GEM_LV9:
-  base:
-    material: PAPER
-    custom-model-data: 15003
-    name: "&6&lThổ Ngọc &e&lLv.IX"
-    gem-color: "Brown"
-    success-rate: 5
-    lore:
-      - "&7Đá quý mang năng lượng nguyên tố Đất."
-      - "&7Kéo thả vào trang bị có ô khảm để tăng sức mạnh."
-    max-health: 18
-    max-stack: 1
-    will-break: false
-    unbreakable: false
-
-BROWN_GEM_LV10:
-  base:
-    material: PAPER
-    custom-model-data: 15003
-    name: "&6&lThổ Ngọc &e&lLv.X"
-    gem-color: "Brown"
-    success-rate: 3
-    lore:
-      - "&7Đá quý mang năng lượng nguyên tố Đất."
-      - "&7Kéo thả vào trang bị có ô khảm để tăng sức mạnh."
-    max-health: 20
-    max-stack: 1
-    will-break: false
-    unbreakable: false
-
-ORANGE_GEM_LV1:
-  base:
-    material: PAPER
-    custom-model-data: 15006
-    name: "&6&lCam Ngọc &e&lLv.I"
-    gem-color: "Orange"
-    success-rate: 95
-    lore:
-      - "&7Đá quý mang năng lượng nguyên tố Năng Lượng."
-      - "&7Kéo thả vào trang bị có ô khảm để tăng sức mạnh."
-    cooldown-reduction: 0.5
-    max-stack: 1
-    will-break: false
-    unbreakable: false
-
-ORANGE_GEM_LV2:
-  base:
-    material: PAPER
-    custom-model-data: 15006
-    name: "&6&lCam Ngọc &e&lLv.II"
-    gem-color: "Orange"
-    success-rate: 85
-    lore:
-      - "&7Đá quý mang năng lượng nguyên tố Năng Lượng."
-      - "&7Kéo thả vào trang bị có ô khảm để tăng sức mạnh."
-    cooldown-reduction: 1
-    max-stack: 1
-    will-break: false
-    unbreakable: false
-
-ORANGE_GEM_LV3:
-  base:
-    material: PAPER
-    custom-model-data: 15006
-    name: "&6&lCam Ngọc &e&lLv.III"
-    gem-color: "Orange"
-    success-rate: 70
-    lore:
-      - "&7Đá quý mang năng lượng nguyên tố Năng Lượng."
-      - "&7Kéo thả vào trang bị có ô khảm để tăng sức mạnh."
-    cooldown-reduction: 1.5
-    max-stack: 1
-    will-break: false
-    unbreakable: false
-
-ORANGE_GEM_LV4:
-  base:
-    material: PAPER
-    custom-model-data: 15006
-    name: "&6&lCam Ngọc &e&lLv.IV"
-    gem-color: "Orange"
-    success-rate: 55
-    lore:
-      - "&7Đá quý mang năng lượng nguyên tố Năng Lượng."
-      - "&7Kéo thả vào trang bị có ô khảm để tăng sức mạnh."
-    cooldown-reduction: 2
-    max-stack: 1
-    will-break: false
-    unbreakable: false
-
-ORANGE_GEM_LV5:
-  base:
-    material: PAPER
-    custom-model-data: 15006
-    name: "&6&lCam Ngọc &e&lLv.V"
-    gem-color: "Orange"
-    success-rate: 40
-    lore:
-      - "&7Đá quý mang năng lượng nguyên tố Năng Lượng."
-      - "&7Kéo thả vào trang bị có ô khảm để tăng sức mạnh."
-    cooldown-reduction: 2.8
-    max-stack: 1
-    will-break: false
-    unbreakable: false
-
-ORANGE_GEM_LV6:
-  base:
-    material: PAPER
-    custom-model-data: 15006
-    name: "&6&lCam Ngọc &e&lLv.VI"
-    gem-color: "Orange"
-    success-rate: 28
-    lore:
-      - "&7Đá quý mang năng lượng nguyên tố Năng Lượng."
-      - "&7Kéo thả vào trang bị có ô khảm để tăng sức mạnh."
-    cooldown-reduction: 3.6
-    max-stack: 1
-    will-break: false
-    unbreakable: false
-
-ORANGE_GEM_LV7:
-  base:
-    material: PAPER
-    custom-model-data: 15006
-    name: "&6&lCam Ngọc &e&lLv.VII"
-    gem-color: "Orange"
-    success-rate: 18
-    lore:
-      - "&7Đá quý mang năng lượng nguyên tố Năng Lượng."
-      - "&7Kéo thả vào trang bị có ô khảm để tăng sức mạnh."
-    cooldown-reduction: 4.5
-    max-stack: 1
-    will-break: false
-    unbreakable: false
-
-ORANGE_GEM_LV8:
-  base:
-    material: PAPER
-    custom-model-data: 15006
-    name: "&6&lCam Ngọc &e&lLv.VIII"
-    gem-color: "Orange"
-    success-rate: 10
-    lore:
-      - "&7Đá quý mang năng lượng nguyên tố Năng Lượng."
-      - "&7Kéo thả vào trang bị có ô khảm để tăng sức mạnh."
-    cooldown-reduction: 5.5
-    max-stack: 1
-    will-break: false
-    unbreakable: false
-
-ORANGE_GEM_LV9:
-  base:
-    material: PAPER
-    custom-model-data: 15006
-    name: "&6&lCam Ngọc &e&lLv.IX"
-    gem-color: "Orange"
-    success-rate: 5
-    lore:
-      - "&7Đá quý mang năng lượng nguyên tố Năng Lượng."
-      - "&7Kéo thả vào trang bị có ô khảm để tăng sức mạnh."
-    cooldown-reduction: 6.8
-    max-stack: 1
-    will-break: false
-    unbreakable: false
-
-ORANGE_GEM_LV10:
-  base:
-    material: PAPER
-    custom-model-data: 15006
-    name: "&6&lCam Ngọc &e&lLv.X"
-    gem-color: "Orange"
-    success-rate: 3
-    lore:
-      - "&7Đá quý mang năng lượng nguyên tố Năng Lượng."
-      - "&7Kéo thả vào trang bị có ô khảm để tăng sức mạnh."
-    cooldown-reduction: 8
-    max-stack: 1
-    will-break: false
-    unbreakable: false
-
-CYAN_GEM_LV1:
-  base:
-    material: PAPER
-    custom-model-data: 15004
-    name: "&b&lBăng Ngọc &e&lLv.I"
-    gem-color: "Cyan"
-    success-rate: 95
-    lore:
-      - "&7Đá quý mang năng lượng nguyên tố Băng."
-      - "&7Kéo thả vào trang bị có ô khảm để tăng sức mạnh."
-    magic-damage: 1
-    max-stack: 1
-    will-break: false
-    unbreakable: false
-
-CYAN_GEM_LV2:
-  base:
-    material: PAPER
-    custom-model-data: 15004
-    name: "&b&lBăng Ngọc &e&lLv.II"
-    gem-color: "Cyan"
-    success-rate: 85
-    lore:
-      - "&7Đá quý mang năng lượng nguyên tố Băng."
-      - "&7Kéo thả vào trang bị có ô khảm để tăng sức mạnh."
-    magic-damage: 2
-    max-stack: 1
-    will-break: false
-    unbreakable: false
-
-CYAN_GEM_LV3:
-  base:
-    material: PAPER
-    custom-model-data: 15004
-    name: "&b&lBăng Ngọc &e&lLv.III"
-    gem-color: "Cyan"
-    success-rate: 70
-    lore:
-      - "&7Đá quý mang năng lượng nguyên tố Băng."
-      - "&7Kéo thả vào trang bị có ô khảm để tăng sức mạnh."
-    magic-damage: 3
-    max-stack: 1
-    will-break: false
-    unbreakable: false
-
-CYAN_GEM_LV4:
-  base:
-    material: PAPER
-    custom-model-data: 15004
-    name: "&b&lBăng Ngọc &e&lLv.IV"
-    gem-color: "Cyan"
-    success-rate: 55
-    lore:
-      - "&7Đá quý mang năng lượng nguyên tố Băng."
-      - "&7Kéo thả vào trang bị có ô khảm để tăng sức mạnh."
-    magic-damage: 4
-    max-stack: 1
-    will-break: false
-    unbreakable: false
-
-CYAN_GEM_LV5:
-  base:
-    material: PAPER
-    custom-model-data: 15004
-    name: "&b&lBăng Ngọc &e&lLv.V"
-    gem-color: "Cyan"
-    success-rate: 40
-    lore:
-      - "&7Đá quý mang năng lượng nguyên tố Băng."
-      - "&7Kéo thả vào trang bị có ô khảm để tăng sức mạnh."
-    magic-damage: 5
-    max-stack: 1
-    will-break: false
-    unbreakable: false
-
-CYAN_GEM_LV6:
-  base:
-    material: PAPER
-    custom-model-data: 15004
-    name: "&b&lBăng Ngọc &e&lLv.VI"
-    gem-color: "Cyan"
-    success-rate: 28
-    lore:
-      - "&7Đá quý mang năng lượng nguyên tố Băng."
-      - "&7Kéo thả vào trang bị có ô khảm để tăng sức mạnh."
-    magic-damage: 6.5
-    max-stack: 1
-    will-break: false
-    unbreakable: false
-
-CYAN_GEM_LV7:
-  base:
-    material: PAPER
-    custom-model-data: 15004
-    name: "&b&lBăng Ngọc &e&lLv.VII"
-    gem-color: "Cyan"
-    success-rate: 18
-    lore:
-      - "&7Đá quý mang năng lượng nguyên tố Băng."
-      - "&7Kéo thả vào trang bị có ô khảm để tăng sức mạnh."
-    magic-damage: 8
-    max-stack: 1
-    will-break: false
-    unbreakable: false
-
-CYAN_GEM_LV8:
-  base:
-    material: PAPER
-    custom-model-data: 15004
-    name: "&b&lBăng Ngọc &e&lLv.VIII"
-    gem-color: "Cyan"
-    success-rate: 10
-    lore:
-      - "&7Đá quý mang năng lượng nguyên tố Băng."
-      - "&7Kéo thả vào trang bị có ô khảm để tăng sức mạnh."
-    magic-damage: 10
-    max-stack: 1
-    will-break: false
-    unbreakable: false
-
-CYAN_GEM_LV9:
-  base:
-    material: PAPER
-    custom-model-data: 15004
-    name: "&b&lBăng Ngọc &e&lLv.IX"
-    gem-color: "Cyan"
-    success-rate: 5
-    lore:
-      - "&7Đá quý mang năng lượng nguyên tố Băng."
-      - "&7Kéo thả vào trang bị có ô khảm để tăng sức mạnh."
-    magic-damage: 12
-    max-stack: 1
-    will-break: false
-    unbreakable: false
-
-CYAN_GEM_LV10:
-  base:
-    material: PAPER
-    custom-model-data: 15004
-    name: "&b&lBăng Ngọc &e&lLv.X"
-    gem-color: "Cyan"
-    success-rate: 3
-    lore:
-      - "&7Đá quý mang năng lượng nguyên tố Băng."
-      - "&7Kéo thả vào trang bị có ô khảm để tăng sức mạnh."
-    magic-damage: 15
+      - "&7Đá quý mang năng lượng nguyên tố Thổ."
+      - "&7Kéo thả vào trang bị có ô khảm để tăng Phòng Thủ."
+    armor: 6.5
     max-stack: 1
     will-break: false
     unbreakable: false
@@ -1351,14 +601,14 @@ CYAN_GEM_LV10:
 PURPLE_GEM_LV1:
   base:
     material: PAPER
-    custom-model-data: 15007
+    custom-model-data: 15006
     name: "&5&lTử Ngọc &e&lLv.I"
     gem-color: "Purple"
     success-rate: 95
     lore:
-      - "&7Đá quý mang năng lượng nguyên tố Sấm Sét."
-      - "&7Kéo thả vào trang bị có ô khảm để tăng sức mạnh."
-    critical-strike-chance: 0.5
+      - "&7Đá quý mang năng lượng Huyền Bí."
+      - "&7Kéo thả vào trang bị có ô khảm để tăng Sát Thương Phép."
+    magic-damage: 2.5
     max-stack: 1
     will-break: false
     unbreakable: false
@@ -1366,14 +616,14 @@ PURPLE_GEM_LV1:
 PURPLE_GEM_LV2:
   base:
     material: PAPER
-    custom-model-data: 15007
+    custom-model-data: 15006
     name: "&5&lTử Ngọc &e&lLv.II"
     gem-color: "Purple"
     success-rate: 85
     lore:
-      - "&7Đá quý mang năng lượng nguyên tố Sấm Sét."
-      - "&7Kéo thả vào trang bị có ô khảm để tăng sức mạnh."
-    critical-strike-chance: 1
+      - "&7Đá quý mang năng lượng Huyền Bí."
+      - "&7Kéo thả vào trang bị có ô khảm để tăng Sát Thương Phép."
+    magic-damage: 4
     max-stack: 1
     will-break: false
     unbreakable: false
@@ -1381,14 +631,14 @@ PURPLE_GEM_LV2:
 PURPLE_GEM_LV3:
   base:
     material: PAPER
-    custom-model-data: 15007
+    custom-model-data: 15006
     name: "&5&lTử Ngọc &e&lLv.III"
     gem-color: "Purple"
     success-rate: 70
     lore:
-      - "&7Đá quý mang năng lượng nguyên tố Sấm Sét."
-      - "&7Kéo thả vào trang bị có ô khảm để tăng sức mạnh."
-    critical-strike-chance: 1.5
+      - "&7Đá quý mang năng lượng Huyền Bí."
+      - "&7Kéo thả vào trang bị có ô khảm để tăng Sát Thương Phép."
+    magic-damage: 5.5
     max-stack: 1
     will-break: false
     unbreakable: false
@@ -1396,14 +646,14 @@ PURPLE_GEM_LV3:
 PURPLE_GEM_LV4:
   base:
     material: PAPER
-    custom-model-data: 15007
+    custom-model-data: 15006
     name: "&5&lTử Ngọc &e&lLv.IV"
     gem-color: "Purple"
     success-rate: 55
     lore:
-      - "&7Đá quý mang năng lượng nguyên tố Sấm Sét."
-      - "&7Kéo thả vào trang bị có ô khảm để tăng sức mạnh."
-    critical-strike-chance: 2
+      - "&7Đá quý mang năng lượng Huyền Bí."
+      - "&7Kéo thả vào trang bị có ô khảm để tăng Sát Thương Phép."
+    magic-damage: 7
     max-stack: 1
     will-break: false
     unbreakable: false
@@ -1411,14 +661,14 @@ PURPLE_GEM_LV4:
 PURPLE_GEM_LV5:
   base:
     material: PAPER
-    custom-model-data: 15007
+    custom-model-data: 15006
     name: "&5&lTử Ngọc &e&lLv.V"
     gem-color: "Purple"
     success-rate: 40
     lore:
-      - "&7Đá quý mang năng lượng nguyên tố Sấm Sét."
-      - "&7Kéo thả vào trang bị có ô khảm để tăng sức mạnh."
-    critical-strike-chance: 2.5
+      - "&7Đá quý mang năng lượng Huyền Bí."
+      - "&7Kéo thả vào trang bị có ô khảm để tăng Sát Thương Phép."
+    magic-damage: 8.5
     max-stack: 1
     will-break: false
     unbreakable: false
@@ -1426,14 +676,14 @@ PURPLE_GEM_LV5:
 PURPLE_GEM_LV6:
   base:
     material: PAPER
-    custom-model-data: 15007
+    custom-model-data: 15006
     name: "&5&lTử Ngọc &e&lLv.VI"
     gem-color: "Purple"
     success-rate: 28
     lore:
-      - "&7Đá quý mang năng lượng nguyên tố Sấm Sét."
-      - "&7Kéo thả vào trang bị có ô khảm để tăng sức mạnh."
-    critical-strike-chance: 3.2
+      - "&7Đá quý mang năng lượng Huyền Bí."
+      - "&7Kéo thả vào trang bị có ô khảm để tăng Sát Thương Phép."
+    magic-damage: 10
     max-stack: 1
     will-break: false
     unbreakable: false
@@ -1441,14 +691,14 @@ PURPLE_GEM_LV6:
 PURPLE_GEM_LV7:
   base:
     material: PAPER
-    custom-model-data: 15007
+    custom-model-data: 15006
     name: "&5&lTử Ngọc &e&lLv.VII"
     gem-color: "Purple"
     success-rate: 18
     lore:
-      - "&7Đá quý mang năng lượng nguyên tố Sấm Sét."
-      - "&7Kéo thả vào trang bị có ô khảm để tăng sức mạnh."
-    critical-strike-chance: 4
+      - "&7Đá quý mang năng lượng Huyền Bí."
+      - "&7Kéo thả vào trang bị có ô khảm để tăng Sát Thương Phép."
+    magic-damage: 11.5
     max-stack: 1
     will-break: false
     unbreakable: false
@@ -1456,14 +706,14 @@ PURPLE_GEM_LV7:
 PURPLE_GEM_LV8:
   base:
     material: PAPER
-    custom-model-data: 15007
+    custom-model-data: 15006
     name: "&5&lTử Ngọc &e&lLv.VIII"
     gem-color: "Purple"
     success-rate: 10
     lore:
-      - "&7Đá quý mang năng lượng nguyên tố Sấm Sét."
-      - "&7Kéo thả vào trang bị có ô khảm để tăng sức mạnh."
-    critical-strike-chance: 5
+      - "&7Đá quý mang năng lượng Huyền Bí."
+      - "&7Kéo thả vào trang bị có ô khảm để tăng Sát Thương Phép."
+    magic-damage: 13
     max-stack: 1
     will-break: false
     unbreakable: false
@@ -1471,14 +721,14 @@ PURPLE_GEM_LV8:
 PURPLE_GEM_LV9:
   base:
     material: PAPER
-    custom-model-data: 15007
+    custom-model-data: 15006
     name: "&5&lTử Ngọc &e&lLv.IX"
     gem-color: "Purple"
     success-rate: 5
     lore:
-      - "&7Đá quý mang năng lượng nguyên tố Sấm Sét."
-      - "&7Kéo thả vào trang bị có ô khảm để tăng sức mạnh."
-    critical-strike-chance: 6.2
+      - "&7Đá quý mang năng lượng Huyền Bí."
+      - "&7Kéo thả vào trang bị có ô khảm để tăng Sát Thương Phép."
+    magic-damage: 14.5
     max-stack: 1
     will-break: false
     unbreakable: false
@@ -1486,14 +736,164 @@ PURPLE_GEM_LV9:
 PURPLE_GEM_LV10:
   base:
     material: PAPER
-    custom-model-data: 15007
+    custom-model-data: 15006
     name: "&5&lTử Ngọc &e&lLv.X"
     gem-color: "Purple"
     success-rate: 3
     lore:
-      - "&7Đá quý mang năng lượng nguyên tố Sấm Sét."
-      - "&7Kéo thả vào trang bị có ô khảm để tăng sức mạnh."
-    critical-strike-chance: 7.5
+      - "&7Đá quý mang năng lượng Huyền Bí."
+      - "&7Kéo thả vào trang bị có ô khảm để tăng Sát Thương Phép."
+    magic-damage: 16
+    max-stack: 1
+    will-break: false
+    unbreakable: false
+
+CYAN_GEM_LV1:
+  base:
+    material: PAPER
+    custom-model-data: 15000
+    name: "&b&lBăng Ngọc &e&lLv.I"
+    gem-color: "Cyan"
+    success-rate: 95
+    lore:
+      - "&7Đá quý mang năng lượng Băng Giá."
+      - "&7Kéo thả vào trang bị có ô khảm để tăng Tỷ Lệ Bạo Kích."
+    critical-strike-chance: 1
+    max-stack: 1
+    will-break: false
+    unbreakable: false
+
+CYAN_GEM_LV2:
+  base:
+    material: PAPER
+    custom-model-data: 15000
+    name: "&b&lBăng Ngọc &e&lLv.II"
+    gem-color: "Cyan"
+    success-rate: 85
+    lore:
+      - "&7Đá quý mang năng lượng Băng Giá."
+      - "&7Kéo thả vào trang bị có ô khảm để tăng Tỷ Lệ Bạo Kích."
+    critical-strike-chance: 1.5
+    max-stack: 1
+    will-break: false
+    unbreakable: false
+
+CYAN_GEM_LV3:
+  base:
+    material: PAPER
+    custom-model-data: 15000
+    name: "&b&lBăng Ngọc &e&lLv.III"
+    gem-color: "Cyan"
+    success-rate: 70
+    lore:
+      - "&7Đá quý mang năng lượng Băng Giá."
+      - "&7Kéo thả vào trang bị có ô khảm để tăng Tỷ Lệ Bạo Kích."
+    critical-strike-chance: 2
+    max-stack: 1
+    will-break: false
+    unbreakable: false
+
+CYAN_GEM_LV4:
+  base:
+    material: PAPER
+    custom-model-data: 15000
+    name: "&b&lBăng Ngọc &e&lLv.IV"
+    gem-color: "Cyan"
+    success-rate: 55
+    lore:
+      - "&7Đá quý mang năng lượng Băng Giá."
+      - "&7Kéo thả vào trang bị có ô khảm để tăng Tỷ Lệ Bạo Kích."
+    critical-strike-chance: 2.5
+    max-stack: 1
+    will-break: false
+    unbreakable: false
+
+CYAN_GEM_LV5:
+  base:
+    material: PAPER
+    custom-model-data: 15000
+    name: "&b&lBăng Ngọc &e&lLv.V"
+    gem-color: "Cyan"
+    success-rate: 40
+    lore:
+      - "&7Đá quý mang năng lượng Băng Giá."
+      - "&7Kéo thả vào trang bị có ô khảm để tăng Tỷ Lệ Bạo Kích."
+    critical-strike-chance: 3
+    max-stack: 1
+    will-break: false
+    unbreakable: false
+
+CYAN_GEM_LV6:
+  base:
+    material: PAPER
+    custom-model-data: 15000
+    name: "&b&lBăng Ngọc &e&lLv.VI"
+    gem-color: "Cyan"
+    success-rate: 28
+    lore:
+      - "&7Đá quý mang năng lượng Băng Giá."
+      - "&7Kéo thả vào trang bị có ô khảm để tăng Tỷ Lệ Bạo Kích."
+    critical-strike-chance: 3.5
+    max-stack: 1
+    will-break: false
+    unbreakable: false
+
+CYAN_GEM_LV7:
+  base:
+    material: PAPER
+    custom-model-data: 15000
+    name: "&b&lBăng Ngọc &e&lLv.VII"
+    gem-color: "Cyan"
+    success-rate: 18
+    lore:
+      - "&7Đá quý mang năng lượng Băng Giá."
+      - "&7Kéo thả vào trang bị có ô khảm để tăng Tỷ Lệ Bạo Kích."
+    critical-strike-chance: 4
+    max-stack: 1
+    will-break: false
+    unbreakable: false
+
+CYAN_GEM_LV8:
+  base:
+    material: PAPER
+    custom-model-data: 15000
+    name: "&b&lBăng Ngọc &e&lLv.VIII"
+    gem-color: "Cyan"
+    success-rate: 10
+    lore:
+      - "&7Đá quý mang năng lượng Băng Giá."
+      - "&7Kéo thả vào trang bị có ô khảm để tăng Tỷ Lệ Bạo Kích."
+    critical-strike-chance: 4.5
+    max-stack: 1
+    will-break: false
+    unbreakable: false
+
+CYAN_GEM_LV9:
+  base:
+    material: PAPER
+    custom-model-data: 15000
+    name: "&b&lBăng Ngọc &e&lLv.IX"
+    gem-color: "Cyan"
+    success-rate: 5
+    lore:
+      - "&7Đá quý mang năng lượng Băng Giá."
+      - "&7Kéo thả vào trang bị có ô khảm để tăng Tỷ Lệ Bạo Kích."
+    critical-strike-chance: 5
+    max-stack: 1
+    will-break: false
+    unbreakable: false
+
+CYAN_GEM_LV10:
+  base:
+    material: PAPER
+    custom-model-data: 15000
+    name: "&b&lBăng Ngọc &e&lLv.X"
+    gem-color: "Cyan"
+    success-rate: 3
+    lore:
+      - "&7Đá quý mang năng lượng Băng Giá."
+      - "&7Kéo thả vào trang bị có ô khảm để tăng Tỷ Lệ Bạo Kích."
+    critical-strike-chance: 5.5
     max-stack: 1
     will-break: false
     unbreakable: false

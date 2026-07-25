@@ -28,6 +28,7 @@ recipes:
         - mmoitem{type=ARMOR,id=HELMET_LAO_CONG_1,amount=1,display="Nón Lao Công I"}
         - mmoitem{type=MATERIAL,id=DA_NANG_CAP_LAO_CONG,amount=3,display="Cường Hóa Thạch Lao Công"}
         - mmoitem{type=MATERIAL,id=NEN_DOI_LAO_CONG,amount=3,display="Quặng Tinh Luyện Lao Công"}
+        - mmoitem{type=MATERIAL,id=TINHTHE_CUONGHOA_GIAP,amount=2,display="Tinh Thể Cường Hóa Giáp"}
     non-lao-cong-3:
         output:
             type: ARMOR
@@ -41,6 +42,7 @@ recipes:
         - mmoitem{type=ARMOR,id=HELMET_LAO_CONG_2,amount=1,display="Nón Lao Công II"}
         - mmoitem{type=MATERIAL,id=DA_NANG_CAP_LAO_CONG,amount=6,display="Cường Hóa Thạch Lao Công"}
         - mmoitem{type=MATERIAL,id=NEN_DOI_LAO_CONG,amount=6,display="Quặng Tinh Luyện Lao Công"}
+        - mmoitem{type=MATERIAL,id=TINHTHE_CUONGHOA_GIAP,amount=2,display="Tinh Thể Cường Hóa Giáp"}
     non-lao-cong-4:
         output:
             type: ARMOR
@@ -54,6 +56,7 @@ recipes:
         - mmoitem{type=ARMOR,id=HELMET_LAO_CONG_3,amount=1,display="Nón Lao Công III"}
         - mmoitem{type=MATERIAL,id=DA_NANG_CAP_LAO_CONG,amount=12,display="Cường Hóa Thạch Lao Công"}
         - mmoitem{type=MATERIAL,id=NEN_DOI_LAO_CONG,amount=12,display="Quặng Tinh Luyện Lao Công"}
+        - mmoitem{type=MATERIAL,id=TINHTHE_CUONGHOA_GIAP,amount=2,display="Tinh Thể Cường Hóa Giáp"}
     non-lao-cong-5:
         output:
             type: ARMOR
@@ -67,7 +70,7 @@ recipes:
         - mmoitem{type=ARMOR,id=HELMET_LAO_CONG_4,amount=1,display="Nón Lao Công IV"}
         - mmoitem{type=MATERIAL,id=DA_NANG_CAP_LAO_CONG,amount=24,display="Cường Hóa Thạch Lao Công"}
         - mmoitem{type=MATERIAL,id=NEN_DOI_LAO_CONG,amount=24,display="Quặng Tinh Luyện Lao Công"}
-
+        - mmoitem{type=MATERIAL,id=TINHTHE_CUONGHOA_GIAP,amount=2,display="Tinh Thể Cường Hóa Giáp"}
     # --- ÁO ---
     ao-lao-cong-2:
         output:
@@ -82,6 +85,7 @@ recipes:
         - mmoitem{type=ARMOR,id=CHESTPLATE_LAO_CONG_1,amount=1,display="Áo Lao Công I"}
         - mmoitem{type=MATERIAL,id=DA_NANG_CAP_LAO_CONG,amount=4,display="Cường Hóa Thạch Lao Công"}
         - mmoitem{type=MATERIAL,id=NEN_DOI_LAO_CONG,amount=4,display="Quặng Tinh Luyện Lao Công"}
+        - mmoitem{type=MATERIAL,id=TINHTHE_CUONGHOA_GIAP,amount=2,display="Tinh Thể Cường Hóa Giáp"}
     ao-lao-cong-3:
         output:
             type: ARMOR
@@ -95,6 +99,7 @@ recipes:
         - mmoitem{type=ARMOR,id=CHESTPLATE_LAO_CONG_2,amount=1,display="Áo Lao Công II"}
         - mmoitem{type=MATERIAL,id=DA_NANG_CAP_LAO_CONG,amount=8,display="Cường Hóa Thạch Lao Công"}
         - mmoitem{type=MATERIAL,id=NEN_DOI_LAO_CONG,amount=8,display="Quặng Tinh Luyện Lao Công"}
+        - mmoitem{type=MATERIAL,id=TINHTHE_CUONGHOA_GIAP,amount=2,display="Tinh Thể Cường Hóa Giáp"}
     ao-lao-cong-4:
         output:
             type: ARMOR
@@ -108,6 +113,7 @@ recipes:
         - mmoitem{type=ARMOR,id=CHESTPLATE_LAO_CONG_3,amount=1,display="Áo Lao Công III"}
         - mmoitem{type=MATERIAL,id=DA_NANG_CAP_LAO_CONG,amount=16,display="Cường Hóa Thạch Lao Công"}
         - mmoitem{type=MATERIAL,id=NEN_DOI_LAO_CONG,amount=16,display="Quặng Tinh Luyện Lao Công"}
+        - mmoitem{type=MATERIAL,id=TINHTHE_CUONGHOA_GIAP,amount=2,display="Tinh Thể Cường Hóa Giáp"}
     ao-lao-cong-5:
         output:
             type: ARMOR
@@ -121,7 +127,7 @@ recipes:
         - mmoitem{type=ARMOR,id=CHESTPLATE_LAO_CONG_4,amount=1,display="Áo Lao Công IV"}
         - mmoitem{type=MATERIAL,id=DA_NANG_CAP_LAO_CONG,amount=32,display="Cường Hóa Thạch Lao Công"}
         - mmoitem{type=MATERIAL,id=NEN_DOI_LAO_CONG,amount=32,display="Quặng Tinh Luyện Lao Công"}
-
+        - mmoitem{type=MATERIAL,id=TINHTHE_CUONGHOA_GIAP,amount=2,display="Tinh Thể Cường Hóa Giáp"}
     # --- QUẦN ---
     quan-lao-cong-2:
         output:
@@ -136,6 +142,7 @@ recipes:
         - mmoitem{type=ARMOR,id=LEGGINGS_LAO_CONG_1,amount=1,display="Quần Lao Công I"}
         - mmoitem{type=MATERIAL,id=DA_NANG_CAP_LAO_CONG,amount=4,display="Cường Hóa Thạch Lao Công"}
         - mmoitem{type=MATERIAL,id=NEN_DOI_LAO_CONG,amount=4,display="Quặng Tinh Luyện Lao Công"}
+        - mmoitem{type=MATERIAL,id=TINHTHE_CUONGHOA_GIAP,amount=2,display="Tinh Thể Cường Hóa Giáp"}
     quan-lao-cong-3:
         output:
             type: ARMOR
@@ -149,6 +156,7 @@ recipes:
         - mmoitem{type=ARMOR,id=LEGGINGS_LAO_CONG_2,amount=1,display="Quần Lao Công II"}
         - mmoitem{type=MATERIAL,id=DA_NANG_CAP_LAO_CONG,amount=8,display="Cường Hóa Thạch Lao Công"}
         - mmoitem{type=MATERIAL,id=NEN_DOI_LAO_CONG,amount=8,display="Quặng Tinh Luyện Lao Công"}
+        - mmoitem{type=MATERIAL,id=TINHTHE_CUONGHOA_GIAP,amount=2,display="Tinh Thể Cường Hóa Giáp"}
     quan-lao-cong-4:
         output:
             type: ARMOR
@@ -162,6 +170,7 @@ recipes:
         - mmoitem{type=ARMOR,id=LEGGINGS_LAO_CONG_3,amount=1,display="Quần Lao Công III"}
         - mmoitem{type=MATERIAL,id=DA_NANG_CAP_LAO_CONG,amount=16,display="Cường Hóa Thạch Lao Công"}
         - mmoitem{type=MATERIAL,id=NEN_DOI_LAO_CONG,amount=16,display="Quặng Tinh Luyện Lao Công"}
+        - mmoitem{type=MATERIAL,id=TINHTHE_CUONGHOA_GIAP,amount=2,display="Tinh Thể Cường Hóa Giáp"}
     quan-lao-cong-5:
         output:
             type: ARMOR
@@ -175,7 +184,7 @@ recipes:
         - mmoitem{type=ARMOR,id=LEGGINGS_LAO_CONG_4,amount=1,display="Quần Lao Công IV"}
         - mmoitem{type=MATERIAL,id=DA_NANG_CAP_LAO_CONG,amount=32,display="Cường Hóa Thạch Lao Công"}
         - mmoitem{type=MATERIAL,id=NEN_DOI_LAO_CONG,amount=32,display="Quặng Tinh Luyện Lao Công"}
-
+        - mmoitem{type=MATERIAL,id=TINHTHE_CUONGHOA_GIAP,amount=2,display="Tinh Thể Cường Hóa Giáp"}
     # --- GIÀY ---
     giay-lao-cong-2:
         output:
@@ -190,6 +199,7 @@ recipes:
         - mmoitem{type=ARMOR,id=BOOTS_LAO_CONG_1,amount=1,display="Giày Lao Công I"}
         - mmoitem{type=MATERIAL,id=DA_NANG_CAP_LAO_CONG,amount=3,display="Cường Hóa Thạch Lao Công"}
         - mmoitem{type=MATERIAL,id=NEN_DOI_LAO_CONG,amount=3,display="Quặng Tinh Luyện Lao Công"}
+        - mmoitem{type=MATERIAL,id=TINHTHE_CUONGHOA_GIAP,amount=2,display="Tinh Thể Cường Hóa Giáp"}
     giay-lao-cong-3:
         output:
             type: ARMOR
@@ -203,6 +213,7 @@ recipes:
         - mmoitem{type=ARMOR,id=BOOTS_LAO_CONG_2,amount=1,display="Giày Lao Công II"}
         - mmoitem{type=MATERIAL,id=DA_NANG_CAP_LAO_CONG,amount=6,display="Cường Hóa Thạch Lao Công"}
         - mmoitem{type=MATERIAL,id=NEN_DOI_LAO_CONG,amount=6,display="Quặng Tinh Luyện Lao Công"}
+        - mmoitem{type=MATERIAL,id=TINHTHE_CUONGHOA_GIAP,amount=2,display="Tinh Thể Cường Hóa Giáp"}
     giay-lao-cong-4:
         output:
             type: ARMOR
@@ -216,6 +227,7 @@ recipes:
         - mmoitem{type=ARMOR,id=BOOTS_LAO_CONG_3,amount=1,display="Giày Lao Công III"}
         - mmoitem{type=MATERIAL,id=DA_NANG_CAP_LAO_CONG,amount=12,display="Cường Hóa Thạch Lao Công"}
         - mmoitem{type=MATERIAL,id=NEN_DOI_LAO_CONG,amount=12,display="Quặng Tinh Luyện Lao Công"}
+        - mmoitem{type=MATERIAL,id=TINHTHE_CUONGHOA_GIAP,amount=2,display="Tinh Thể Cường Hóa Giáp"}
     giay-lao-cong-5:
         output:
             type: ARMOR
@@ -229,3 +241,4 @@ recipes:
         - mmoitem{type=ARMOR,id=BOOTS_LAO_CONG_4,amount=1,display="Giày Lao Công IV"}
         - mmoitem{type=MATERIAL,id=DA_NANG_CAP_LAO_CONG,amount=24,display="Cường Hóa Thạch Lao Công"}
         - mmoitem{type=MATERIAL,id=NEN_DOI_LAO_CONG,amount=24,display="Quặng Tinh Luyện Lao Công"}
+        - mmoitem{type=MATERIAL,id=TINHTHE_CUONGHOA_GIAP,amount=2,display="Tinh Thể Cường Hóa Giáp"}

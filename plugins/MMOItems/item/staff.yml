@@ -9,10 +9,20 @@ STAFF_TAN_BINH_1:
     lore:
       - "&b&l✦ Tiểu Sử"
       - "&7 &d●&7 Trượng phép chứa quyền năng ma thuật ngục tù"
-      - "&7 &d●&7 Nâng cấp tại Lò Rèn để tăng sát thương phép"
+      - "&7 &d●&7 Nâng cấp tại Lò Rèn để tăng sát thương & mở kỹ năng mới"
     attack-damage: 2.5
     magic-damage: 5.0
     mana-cost: 3
+    staff-spirit: MANA_SPIRIT
+    ability:
+      ability-1:
+        type: FIREBALL
+        mode: RIGHT_CLICK
+        cooldown: 5.0
+        damage: 6.8
+    upgrade:
+      template: weapon-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
@@ -27,10 +37,20 @@ STAFF_TAN_BINH_2:
     lore:
       - "&b&l✦ Tiểu Sử"
       - "&7 &d●&7 Trượng phép chứa quyền năng ma thuật ngục tù"
-      - "&7 &d●&7 Nâng cấp tại Lò Rèn để tăng sát thương phép"
+      - "&7 &d●&7 Nâng cấp tại Lò Rèn để tăng sát thương & mở kỹ năng mới"
     attack-damage: 2.9
     magic-damage: 7.0
     mana-cost: 3
+    staff-spirit: MANA_SPIRIT
+    ability:
+      ability-1:
+        type: FIREBALL
+        mode: RIGHT_CLICK
+        cooldown: 5.0
+        damage: 7.4
+    upgrade:
+      template: weapon-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
@@ -45,10 +65,20 @@ STAFF_TAN_BINH_3:
     lore:
       - "&b&l✦ Tiểu Sử"
       - "&7 &d●&7 Trượng phép chứa quyền năng ma thuật ngục tù"
-      - "&7 &d●&7 Nâng cấp tại Lò Rèn để tăng sát thương phép"
+      - "&7 &d●&7 Nâng cấp tại Lò Rèn để tăng sát thương & mở kỹ năng mới"
     attack-damage: 3.3
     magic-damage: 9.0
     mana-cost: 3
+    staff-spirit: MANA_SPIRIT
+    ability:
+      ability-1:
+        type: FIREBALL
+        mode: RIGHT_CLICK
+        cooldown: 5.0
+        damage: 8.2
+    upgrade:
+      template: weapon-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
@@ -63,10 +93,20 @@ STAFF_TAN_BINH_4:
     lore:
       - "&b&l✦ Tiểu Sử"
       - "&7 &d●&7 Trượng phép chứa quyền năng ma thuật ngục tù"
-      - "&7 &d●&7 Nâng cấp tại Lò Rèn để tăng sát thương phép"
+      - "&7 &d●&7 Nâng cấp tại Lò Rèn để tăng sát thương & mở kỹ năng mới"
     attack-damage: 3.6
     magic-damage: 11.0
     mana-cost: 3
+    staff-spirit: MANA_SPIRIT
+    ability:
+      ability-1:
+        type: FIREBALL
+        mode: RIGHT_CLICK
+        cooldown: 5.0
+        damage: 8.8
+    upgrade:
+      template: weapon-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
@@ -81,10 +121,20 @@ STAFF_TAN_BINH_5:
     lore:
       - "&b&l✦ Tiểu Sử"
       - "&7 &d●&7 Trượng phép chứa quyền năng ma thuật ngục tù"
-      - "&7 &d●&7 Nâng cấp tại Lò Rèn để tăng sát thương phép"
+      - "&7 &d●&7 Nâng cấp tại Lò Rèn để tăng sát thương & mở kỹ năng mới"
     attack-damage: 4.0
     magic-damage: 13.0
     mana-cost: 3
+    staff-spirit: MANA_SPIRIT
+    ability:
+      ability-1:
+        type: FIREBALL
+        mode: RIGHT_CLICK
+        cooldown: 5.0
+        damage: 9.6
+    upgrade:
+      template: weapon-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
@@ -99,10 +149,20 @@ STAFF_TU_NHAN_1:
     lore:
       - "&b&l✦ Tiểu Sử"
       - "&7 &d●&7 Trượng phép chứa quyền năng ma thuật ngục tù"
-      - "&7 &d●&7 Nâng cấp tại Lò Rèn để tăng sát thương phép"
+      - "&7 &d●&7 Nâng cấp tại Lò Rèn để tăng sát thương & mở kỹ năng mới"
     attack-damage: 4.5
     magic-damage: 10.0
     mana-cost: 4
+    staff-spirit: MANA_SPIRIT
+    ability:
+      ability-1:
+        type: FIREBALL
+        mode: RIGHT_CLICK
+        cooldown: 5.0
+        damage: 8.5
+    upgrade:
+      template: weapon-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
@@ -117,10 +177,20 @@ STAFF_TU_NHAN_2:
     lore:
       - "&b&l✦ Tiểu Sử"
       - "&7 &d●&7 Trượng phép chứa quyền năng ma thuật ngục tù"
-      - "&7 &d●&7 Nâng cấp tại Lò Rèn để tăng sát thương phép"
+      - "&7 &d●&7 Nâng cấp tại Lò Rèn để tăng sát thương & mở kỹ năng mới"
     attack-damage: 5.0
     magic-damage: 12.0
     mana-cost: 4
+    staff-spirit: MANA_SPIRIT
+    ability:
+      ability-1:
+        type: FIREBALL
+        mode: RIGHT_CLICK
+        cooldown: 5.0
+        damage: 9.2
+    upgrade:
+      template: weapon-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
@@ -135,10 +205,20 @@ STAFF_TU_NHAN_3:
     lore:
       - "&b&l✦ Tiểu Sử"
       - "&7 &d●&7 Trượng phép chứa quyền năng ma thuật ngục tù"
-      - "&7 &d●&7 Nâng cấp tại Lò Rèn để tăng sát thương phép"
+      - "&7 &d●&7 Nâng cấp tại Lò Rèn để tăng sát thương & mở kỹ năng mới"
     attack-damage: 5.5
     magic-damage: 14.0
     mana-cost: 4
+    staff-spirit: MANA_SPIRIT
+    ability:
+      ability-1:
+        type: FIREBALL
+        mode: RIGHT_CLICK
+        cooldown: 5.0
+        damage: 9.9
+    upgrade:
+      template: weapon-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
@@ -153,10 +233,20 @@ STAFF_TU_NHAN_4:
     lore:
       - "&b&l✦ Tiểu Sử"
       - "&7 &d●&7 Trượng phép chứa quyền năng ma thuật ngục tù"
-      - "&7 &d●&7 Nâng cấp tại Lò Rèn để tăng sát thương phép"
+      - "&7 &d●&7 Nâng cấp tại Lò Rèn để tăng sát thương & mở kỹ năng mới"
     attack-damage: 6.0
     magic-damage: 16.0
     mana-cost: 4
+    staff-spirit: MANA_SPIRIT
+    ability:
+      ability-1:
+        type: FIREBALL
+        mode: RIGHT_CLICK
+        cooldown: 5.0
+        damage: 10.6
+    upgrade:
+      template: weapon-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
@@ -171,10 +261,20 @@ STAFF_TU_NHAN_5:
     lore:
       - "&b&l✦ Tiểu Sử"
       - "&7 &d●&7 Trượng phép chứa quyền năng ma thuật ngục tù"
-      - "&7 &d●&7 Nâng cấp tại Lò Rèn để tăng sát thương phép"
+      - "&7 &d●&7 Nâng cấp tại Lò Rèn để tăng sát thương & mở kỹ năng mới"
     attack-damage: 6.5
     magic-damage: 18.0
     mana-cost: 4
+    staff-spirit: MANA_SPIRIT
+    ability:
+      ability-1:
+        type: FIREBALL
+        mode: RIGHT_CLICK
+        cooldown: 5.0
+        damage: 11.3
+    upgrade:
+      template: weapon-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
@@ -189,12 +289,27 @@ STAFF_LAO_CONG_1:
     lore:
       - "&b&l✦ Tiểu Sử"
       - "&7 &d●&7 Trượng phép chứa quyền năng ma thuật ngục tù"
-      - "&7 &d●&7 Nâng cấp tại Lò Rèn để tăng sát thương phép"
+      - "&7 &d●&7 Nâng cấp tại Lò Rèn để tăng sát thương & mở kỹ năng mới"
     attack-damage: 7.0
     magic-damage: 18.0
     mana-cost: 5
+    staff-spirit: NETHER_SPIRIT
+    ability:
+      ability-1:
+        type: FIREBALL
+        mode: RIGHT_CLICK
+        cooldown: 5.0
+        damage: 11.3
+      ability-2:
+        type: HEAL
+        mode: SHIFT_RIGHT_CLICK
+        cooldown: 12.0
+        value: 6.7
     gem-sockets:
       - Uncolored
+    upgrade:
+      template: weapon-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
@@ -209,12 +324,27 @@ STAFF_LAO_CONG_2:
     lore:
       - "&b&l✦ Tiểu Sử"
       - "&7 &d●&7 Trượng phép chứa quyền năng ma thuật ngục tù"
-      - "&7 &d●&7 Nâng cấp tại Lò Rèn để tăng sát thương phép"
+      - "&7 &d●&7 Nâng cấp tại Lò Rèn để tăng sát thương & mở kỹ năng mới"
     attack-damage: 7.6
     magic-damage: 20.0
     mana-cost: 5
+    staff-spirit: NETHER_SPIRIT
+    ability:
+      ability-1:
+        type: FIREBALL
+        mode: RIGHT_CLICK
+        cooldown: 5.0
+        damage: 12.0
+      ability-2:
+        type: HEAL
+        mode: SHIFT_RIGHT_CLICK
+        cooldown: 12.0
+        value: 7.0
     gem-sockets:
       - Uncolored
+    upgrade:
+      template: weapon-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
@@ -229,12 +359,27 @@ STAFF_LAO_CONG_3:
     lore:
       - "&b&l✦ Tiểu Sử"
       - "&7 &d●&7 Trượng phép chứa quyền năng ma thuật ngục tù"
-      - "&7 &d●&7 Nâng cấp tại Lò Rèn để tăng sát thương phép"
+      - "&7 &d●&7 Nâng cấp tại Lò Rèn để tăng sát thương & mở kỹ năng mới"
     attack-damage: 8.3
     magic-damage: 22.0
     mana-cost: 5
+    staff-spirit: NETHER_SPIRIT
+    ability:
+      ability-1:
+        type: FIREBALL
+        mode: RIGHT_CLICK
+        cooldown: 5.0
+        damage: 12.7
+      ability-2:
+        type: HEAL
+        mode: SHIFT_RIGHT_CLICK
+        cooldown: 12.0
+        value: 7.3
     gem-sockets:
       - Uncolored
+    upgrade:
+      template: weapon-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
@@ -249,12 +394,27 @@ STAFF_LAO_CONG_4:
     lore:
       - "&b&l✦ Tiểu Sử"
       - "&7 &d●&7 Trượng phép chứa quyền năng ma thuật ngục tù"
-      - "&7 &d●&7 Nâng cấp tại Lò Rèn để tăng sát thương phép"
+      - "&7 &d●&7 Nâng cấp tại Lò Rèn để tăng sát thương & mở kỹ năng mới"
     attack-damage: 8.9
     magic-damage: 24.0
     mana-cost: 5
+    staff-spirit: NETHER_SPIRIT
+    ability:
+      ability-1:
+        type: FIREBALL
+        mode: RIGHT_CLICK
+        cooldown: 5.0
+        damage: 13.4
+      ability-2:
+        type: HEAL
+        mode: SHIFT_RIGHT_CLICK
+        cooldown: 12.0
+        value: 7.6
     gem-sockets:
       - Uncolored
+    upgrade:
+      template: weapon-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
@@ -269,12 +429,27 @@ STAFF_LAO_CONG_5:
     lore:
       - "&b&l✦ Tiểu Sử"
       - "&7 &d●&7 Trượng phép chứa quyền năng ma thuật ngục tù"
-      - "&7 &d●&7 Nâng cấp tại Lò Rèn để tăng sát thương phép"
+      - "&7 &d●&7 Nâng cấp tại Lò Rèn để tăng sát thương & mở kỹ năng mới"
     attack-damage: 9.5
     magic-damage: 26.0
     mana-cost: 5
+    staff-spirit: NETHER_SPIRIT
+    ability:
+      ability-1:
+        type: FIREBALL
+        mode: RIGHT_CLICK
+        cooldown: 5.0
+        damage: 14.1
+      ability-2:
+        type: HEAL
+        mode: SHIFT_RIGHT_CLICK
+        cooldown: 12.0
+        value: 7.9
     gem-sockets:
       - Uncolored
+    upgrade:
+      template: weapon-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
@@ -289,13 +464,28 @@ STAFF_THO_DAO_1:
     lore:
       - "&b&l✦ Tiểu Sử"
       - "&7 &d●&7 Trượng phép chứa quyền năng ma thuật ngục tù"
-      - "&7 &d●&7 Nâng cấp tại Lò Rèn để tăng sát thương phép"
+      - "&7 &d●&7 Nâng cấp tại Lò Rèn để tăng sát thương & mở kỹ năng mới"
     attack-damage: 10.0
     magic-damage: 28.0
     mana-cost: 6
+    staff-spirit: NETHER_SPIRIT
+    ability:
+      ability-1:
+        type: FIREBALL
+        mode: RIGHT_CLICK
+        cooldown: 5.0
+        damage: 14.8
+      ability-2:
+        type: HEAL
+        mode: SHIFT_RIGHT_CLICK
+        cooldown: 12.0
+        value: 8.2
     gem-sockets:
       - Uncolored
       - Uncolored
+    upgrade:
+      template: weapon-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
@@ -310,13 +500,28 @@ STAFF_THO_DAO_2:
     lore:
       - "&b&l✦ Tiểu Sử"
       - "&7 &d●&7 Trượng phép chứa quyền năng ma thuật ngục tù"
-      - "&7 &d●&7 Nâng cấp tại Lò Rèn để tăng sát thương phép"
+      - "&7 &d●&7 Nâng cấp tại Lò Rèn để tăng sát thương & mở kỹ năng mới"
     attack-damage: 10.8
     magic-damage: 30.0
     mana-cost: 6
+    staff-spirit: NETHER_SPIRIT
+    ability:
+      ability-1:
+        type: FIREBALL
+        mode: RIGHT_CLICK
+        cooldown: 5.0
+        damage: 15.5
+      ability-2:
+        type: HEAL
+        mode: SHIFT_RIGHT_CLICK
+        cooldown: 12.0
+        value: 8.5
     gem-sockets:
       - Uncolored
       - Uncolored
+    upgrade:
+      template: weapon-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
@@ -331,13 +536,28 @@ STAFF_THO_DAO_3:
     lore:
       - "&b&l✦ Tiểu Sử"
       - "&7 &d●&7 Trượng phép chứa quyền năng ma thuật ngục tù"
-      - "&7 &d●&7 Nâng cấp tại Lò Rèn để tăng sát thương phép"
+      - "&7 &d●&7 Nâng cấp tại Lò Rèn để tăng sát thương & mở kỹ năng mới"
     attack-damage: 11.5
     magic-damage: 32.0
     mana-cost: 6
+    staff-spirit: NETHER_SPIRIT
+    ability:
+      ability-1:
+        type: FIREBALL
+        mode: RIGHT_CLICK
+        cooldown: 5.0
+        damage: 16.2
+      ability-2:
+        type: HEAL
+        mode: SHIFT_RIGHT_CLICK
+        cooldown: 12.0
+        value: 8.8
     gem-sockets:
       - Uncolored
       - Uncolored
+    upgrade:
+      template: weapon-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
@@ -352,13 +572,28 @@ STAFF_THO_DAO_4:
     lore:
       - "&b&l✦ Tiểu Sử"
       - "&7 &d●&7 Trượng phép chứa quyền năng ma thuật ngục tù"
-      - "&7 &d●&7 Nâng cấp tại Lò Rèn để tăng sát thương phép"
+      - "&7 &d●&7 Nâng cấp tại Lò Rèn để tăng sát thương & mở kỹ năng mới"
     attack-damage: 12.3
     magic-damage: 34.0
     mana-cost: 6
+    staff-spirit: NETHER_SPIRIT
+    ability:
+      ability-1:
+        type: FIREBALL
+        mode: RIGHT_CLICK
+        cooldown: 5.0
+        damage: 16.9
+      ability-2:
+        type: HEAL
+        mode: SHIFT_RIGHT_CLICK
+        cooldown: 12.0
+        value: 9.1
     gem-sockets:
       - Uncolored
       - Uncolored
+    upgrade:
+      template: weapon-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
@@ -373,13 +608,28 @@ STAFF_THO_DAO_5:
     lore:
       - "&b&l✦ Tiểu Sử"
       - "&7 &d●&7 Trượng phép chứa quyền năng ma thuật ngục tù"
-      - "&7 &d●&7 Nâng cấp tại Lò Rèn để tăng sát thương phép"
+      - "&7 &d●&7 Nâng cấp tại Lò Rèn để tăng sát thương & mở kỹ năng mới"
     attack-damage: 13.0
     magic-damage: 36.0
     mana-cost: 6
+    staff-spirit: NETHER_SPIRIT
+    ability:
+      ability-1:
+        type: FIREBALL
+        mode: RIGHT_CLICK
+        cooldown: 5.0
+        damage: 17.6
+      ability-2:
+        type: HEAL
+        mode: SHIFT_RIGHT_CLICK
+        cooldown: 12.0
+        value: 9.4
     gem-sockets:
       - Uncolored
       - Uncolored
+    upgrade:
+      template: weapon-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
@@ -394,15 +644,30 @@ STAFF_DOI_TRUONG_1:
     lore:
       - "&b&l✦ Tiểu Sử"
       - "&7 &d●&7 Trượng phép chứa quyền năng ma thuật ngục tù"
-      - "&7 &d●&7 Nâng cấp tại Lò Rèn để tăng sát thương phép"
+      - "&7 &d●&7 Nâng cấp tại Lò Rèn để tăng sát thương & mở kỹ năng mới"
     attack-damage: 13.5
     magic-damage: 40.0
     mana-cost: 8
+    staff-spirit: LIGHTNING_SPIRIT
     spell-vampirism: 1.5
+    ability:
+      ability-1:
+        type: FIREBALL
+        mode: RIGHT_CLICK
+        cooldown: 5.0
+        damage: 19.0
+      ability-2:
+        type: HEAL
+        mode: SHIFT_RIGHT_CLICK
+        cooldown: 12.0
+        value: 10.0
     gem-sockets:
       - Uncolored
       - Uncolored
       - Uncolored
+    upgrade:
+      template: weapon-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
@@ -417,15 +682,30 @@ STAFF_DOI_TRUONG_2:
     lore:
       - "&b&l✦ Tiểu Sử"
       - "&7 &d●&7 Trượng phép chứa quyền năng ma thuật ngục tù"
-      - "&7 &d●&7 Nâng cấp tại Lò Rèn để tăng sát thương phép"
+      - "&7 &d●&7 Nâng cấp tại Lò Rèn để tăng sát thương & mở kỹ năng mới"
     attack-damage: 14.5
     magic-damage: 42.0
     mana-cost: 8
+    staff-spirit: LIGHTNING_SPIRIT
     spell-vampirism: 1.8
+    ability:
+      ability-1:
+        type: FIREBALL
+        mode: RIGHT_CLICK
+        cooldown: 5.0
+        damage: 19.7
+      ability-2:
+        type: HEAL
+        mode: SHIFT_RIGHT_CLICK
+        cooldown: 12.0
+        value: 10.3
     gem-sockets:
       - Uncolored
       - Uncolored
       - Uncolored
+    upgrade:
+      template: weapon-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
@@ -440,15 +720,30 @@ STAFF_DOI_TRUONG_3:
     lore:
       - "&b&l✦ Tiểu Sử"
       - "&7 &d●&7 Trượng phép chứa quyền năng ma thuật ngục tù"
-      - "&7 &d●&7 Nâng cấp tại Lò Rèn để tăng sát thương phép"
+      - "&7 &d●&7 Nâng cấp tại Lò Rèn để tăng sát thương & mở kỹ năng mới"
     attack-damage: 15.5
     magic-damage: 44.0
     mana-cost: 8
+    staff-spirit: LIGHTNING_SPIRIT
     spell-vampirism: 2.1
+    ability:
+      ability-1:
+        type: FIREBALL
+        mode: RIGHT_CLICK
+        cooldown: 5.0
+        damage: 20.4
+      ability-2:
+        type: HEAL
+        mode: SHIFT_RIGHT_CLICK
+        cooldown: 12.0
+        value: 10.6
     gem-sockets:
       - Uncolored
       - Uncolored
       - Uncolored
+    upgrade:
+      template: weapon-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
@@ -463,15 +758,30 @@ STAFF_DOI_TRUONG_4:
     lore:
       - "&b&l✦ Tiểu Sử"
       - "&7 &d●&7 Trượng phép chứa quyền năng ma thuật ngục tù"
-      - "&7 &d●&7 Nâng cấp tại Lò Rèn để tăng sát thương phép"
+      - "&7 &d●&7 Nâng cấp tại Lò Rèn để tăng sát thương & mở kỹ năng mới"
     attack-damage: 16.5
     magic-damage: 46.0
     mana-cost: 8
+    staff-spirit: LIGHTNING_SPIRIT
     spell-vampirism: 2.4
+    ability:
+      ability-1:
+        type: FIREBALL
+        mode: RIGHT_CLICK
+        cooldown: 5.0
+        damage: 21.1
+      ability-2:
+        type: HEAL
+        mode: SHIFT_RIGHT_CLICK
+        cooldown: 12.0
+        value: 10.9
     gem-sockets:
       - Uncolored
       - Uncolored
       - Uncolored
+    upgrade:
+      template: weapon-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
@@ -486,15 +796,30 @@ STAFF_DOI_TRUONG_5:
     lore:
       - "&b&l✦ Tiểu Sử"
       - "&7 &d●&7 Trượng phép chứa quyền năng ma thuật ngục tù"
-      - "&7 &d●&7 Nâng cấp tại Lò Rèn để tăng sát thương phép"
+      - "&7 &d●&7 Nâng cấp tại Lò Rèn để tăng sát thương & mở kỹ năng mới"
     attack-damage: 17.5
     magic-damage: 48.0
     mana-cost: 8
+    staff-spirit: LIGHTNING_SPIRIT
     spell-vampirism: 2.7
+    ability:
+      ability-1:
+        type: FIREBALL
+        mode: RIGHT_CLICK
+        cooldown: 5.0
+        damage: 21.8
+      ability-2:
+        type: HEAL
+        mode: SHIFT_RIGHT_CLICK
+        cooldown: 12.0
+        value: 11.2
     gem-sockets:
       - Uncolored
       - Uncolored
       - Uncolored
+    upgrade:
+      template: weapon-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
@@ -509,16 +834,31 @@ STAFF_PHO_QUAN_NGUC_1:
     lore:
       - "&b&l✦ Tiểu Sử"
       - "&7 &d●&7 Trượng phép chứa quyền năng ma thuật ngục tù"
-      - "&7 &d●&7 Nâng cấp tại Lò Rèn để tăng sát thương phép"
+      - "&7 &d●&7 Nâng cấp tại Lò Rèn để tăng sát thương & mở kỹ năng mới"
     attack-damage: 18.0
     magic-damage: 55.0
     mana-cost: 10
+    staff-spirit: LIGHTNING_SPIRIT
     spell-vampirism: 3.0
+    ability:
+      ability-1:
+        type: LIGHTNING_BEAM
+        mode: RIGHT_CLICK
+        cooldown: 6.0
+        damage: 24.3
+      ability-2:
+        type: HEAL
+        mode: SHIFT_RIGHT_CLICK
+        cooldown: 10.0
+        value: 12.3
     gem-sockets:
       - Uncolored
       - Uncolored
       - Uncolored
       - Uncolored
+    upgrade:
+      template: weapon-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
@@ -533,16 +873,31 @@ STAFF_PHO_QUAN_NGUC_2:
     lore:
       - "&b&l✦ Tiểu Sử"
       - "&7 &d●&7 Trượng phép chứa quyền năng ma thuật ngục tù"
-      - "&7 &d●&7 Nâng cấp tại Lò Rèn để tăng sát thương phép"
+      - "&7 &d●&7 Nâng cấp tại Lò Rèn để tăng sát thương & mở kỹ năng mới"
     attack-damage: 19.3
     magic-damage: 57.0
     mana-cost: 10
+    staff-spirit: LIGHTNING_SPIRIT
     spell-vampirism: 3.3
+    ability:
+      ability-1:
+        type: LIGHTNING_BEAM
+        mode: RIGHT_CLICK
+        cooldown: 6.0
+        damage: 24.9
+      ability-2:
+        type: HEAL
+        mode: SHIFT_RIGHT_CLICK
+        cooldown: 10.0
+        value: 12.5
     gem-sockets:
       - Uncolored
       - Uncolored
       - Uncolored
       - Uncolored
+    upgrade:
+      template: weapon-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
@@ -557,16 +912,31 @@ STAFF_PHO_QUAN_NGUC_3:
     lore:
       - "&b&l✦ Tiểu Sử"
       - "&7 &d●&7 Trượng phép chứa quyền năng ma thuật ngục tù"
-      - "&7 &d●&7 Nâng cấp tại Lò Rèn để tăng sát thương phép"
+      - "&7 &d●&7 Nâng cấp tại Lò Rèn để tăng sát thương & mở kỹ năng mới"
     attack-damage: 20.5
     magic-damage: 59.0
     mana-cost: 10
+    staff-spirit: LIGHTNING_SPIRIT
     spell-vampirism: 3.6
+    ability:
+      ability-1:
+        type: LIGHTNING_BEAM
+        mode: RIGHT_CLICK
+        cooldown: 6.0
+        damage: 25.6
+      ability-2:
+        type: HEAL
+        mode: SHIFT_RIGHT_CLICK
+        cooldown: 10.0
+        value: 12.8
     gem-sockets:
       - Uncolored
       - Uncolored
       - Uncolored
       - Uncolored
+    upgrade:
+      template: weapon-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
@@ -581,16 +951,31 @@ STAFF_PHO_QUAN_NGUC_4:
     lore:
       - "&b&l✦ Tiểu Sử"
       - "&7 &d●&7 Trượng phép chứa quyền năng ma thuật ngục tù"
-      - "&7 &d●&7 Nâng cấp tại Lò Rèn để tăng sát thương phép"
+      - "&7 &d●&7 Nâng cấp tại Lò Rèn để tăng sát thương & mở kỹ năng mới"
     attack-damage: 21.8
     magic-damage: 61.0
     mana-cost: 10
+    staff-spirit: LIGHTNING_SPIRIT
     spell-vampirism: 3.9
+    ability:
+      ability-1:
+        type: LIGHTNING_BEAM
+        mode: RIGHT_CLICK
+        cooldown: 6.0
+        damage: 26.3
+      ability-2:
+        type: HEAL
+        mode: SHIFT_RIGHT_CLICK
+        cooldown: 10.0
+        value: 13.2
     gem-sockets:
       - Uncolored
       - Uncolored
       - Uncolored
       - Uncolored
+    upgrade:
+      template: weapon-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
@@ -605,16 +990,31 @@ STAFF_PHO_QUAN_NGUC_5:
     lore:
       - "&b&l✦ Tiểu Sử"
       - "&7 &d●&7 Trượng phép chứa quyền năng ma thuật ngục tù"
-      - "&7 &d●&7 Nâng cấp tại Lò Rèn để tăng sát thương phép"
+      - "&7 &d●&7 Nâng cấp tại Lò Rèn để tăng sát thương & mở kỹ năng mới"
     attack-damage: 23.0
     magic-damage: 63.0
     mana-cost: 10
+    staff-spirit: LIGHTNING_SPIRIT
     spell-vampirism: 4.2
+    ability:
+      ability-1:
+        type: LIGHTNING_BEAM
+        mode: RIGHT_CLICK
+        cooldown: 6.0
+        damage: 27.0
+      ability-2:
+        type: HEAL
+        mode: SHIFT_RIGHT_CLICK
+        cooldown: 10.0
+        value: 13.4
     gem-sockets:
       - Uncolored
       - Uncolored
       - Uncolored
       - Uncolored
+    upgrade:
+      template: weapon-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
@@ -629,16 +1029,31 @@ STAFF_QUAN_NGUC_1:
     lore:
       - "&b&l✦ Tiểu Sử"
       - "&7 &d●&7 Trượng phép chứa quyền năng ma thuật ngục tù"
-      - "&7 &d●&7 Nâng cấp tại Lò Rèn để tăng sát thương phép"
+      - "&7 &d●&7 Nâng cấp tại Lò Rèn để tăng sát thương & mở kỹ năng mới"
     attack-damage: 23.5
     magic-damage: 75.0
     mana-cost: 12
+    staff-spirit: THUNDER_SPIRIT
     spell-vampirism: 4.5
+    ability:
+      ability-1:
+        type: LIGHTNING_BEAM
+        mode: RIGHT_CLICK
+        cooldown: 6.0
+        damage: 31.3
+      ability-2:
+        type: HEAL
+        mode: SHIFT_RIGHT_CLICK
+        cooldown: 10.0
+        value: 15.3
     gem-sockets:
       - Uncolored
       - Uncolored
       - Uncolored
       - Uncolored
+    upgrade:
+      template: weapon-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
@@ -653,16 +1068,31 @@ STAFF_QUAN_NGUC_2:
     lore:
       - "&b&l✦ Tiểu Sử"
       - "&7 &d●&7 Trượng phép chứa quyền năng ma thuật ngục tù"
-      - "&7 &d●&7 Nâng cấp tại Lò Rèn để tăng sát thương phép"
+      - "&7 &d●&7 Nâng cấp tại Lò Rèn để tăng sát thương & mở kỹ năng mới"
     attack-damage: 25.0
     magic-damage: 77.0
     mana-cost: 12
+    staff-spirit: THUNDER_SPIRIT
     spell-vampirism: 4.8
+    ability:
+      ability-1:
+        type: LIGHTNING_BEAM
+        mode: RIGHT_CLICK
+        cooldown: 6.0
+        damage: 31.9
+      ability-2:
+        type: HEAL
+        mode: SHIFT_RIGHT_CLICK
+        cooldown: 10.0
+        value: 15.5
     gem-sockets:
       - Uncolored
       - Uncolored
       - Uncolored
       - Uncolored
+    upgrade:
+      template: weapon-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
@@ -677,16 +1107,31 @@ STAFF_QUAN_NGUC_3:
     lore:
       - "&b&l✦ Tiểu Sử"
       - "&7 &d●&7 Trượng phép chứa quyền năng ma thuật ngục tù"
-      - "&7 &d●&7 Nâng cấp tại Lò Rèn để tăng sát thương phép"
+      - "&7 &d●&7 Nâng cấp tại Lò Rèn để tăng sát thương & mở kỹ năng mới"
     attack-damage: 26.5
     magic-damage: 79.0
     mana-cost: 12
+    staff-spirit: THUNDER_SPIRIT
     spell-vampirism: 5.1
+    ability:
+      ability-1:
+        type: LIGHTNING_BEAM
+        mode: RIGHT_CLICK
+        cooldown: 6.0
+        damage: 32.6
+      ability-2:
+        type: HEAL
+        mode: SHIFT_RIGHT_CLICK
+        cooldown: 10.0
+        value: 15.8
     gem-sockets:
       - Uncolored
       - Uncolored
       - Uncolored
       - Uncolored
+    upgrade:
+      template: weapon-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
@@ -701,16 +1146,31 @@ STAFF_QUAN_NGUC_4:
     lore:
       - "&b&l✦ Tiểu Sử"
       - "&7 &d●&7 Trượng phép chứa quyền năng ma thuật ngục tù"
-      - "&7 &d●&7 Nâng cấp tại Lò Rèn để tăng sát thương phép"
+      - "&7 &d●&7 Nâng cấp tại Lò Rèn để tăng sát thương & mở kỹ năng mới"
     attack-damage: 28.0
     magic-damage: 81.0
     mana-cost: 12
+    staff-spirit: THUNDER_SPIRIT
     spell-vampirism: 5.4
+    ability:
+      ability-1:
+        type: LIGHTNING_BEAM
+        mode: RIGHT_CLICK
+        cooldown: 6.0
+        damage: 33.3
+      ability-2:
+        type: HEAL
+        mode: SHIFT_RIGHT_CLICK
+        cooldown: 10.0
+        value: 16.1
     gem-sockets:
       - Uncolored
       - Uncolored
       - Uncolored
       - Uncolored
+    upgrade:
+      template: weapon-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
@@ -725,16 +1185,31 @@ STAFF_QUAN_NGUC_5:
     lore:
       - "&b&l✦ Tiểu Sử"
       - "&7 &d●&7 Trượng phép chứa quyền năng ma thuật ngục tù"
-      - "&7 &d●&7 Nâng cấp tại Lò Rèn để tăng sát thương phép"
+      - "&7 &d●&7 Nâng cấp tại Lò Rèn để tăng sát thương & mở kỹ năng mới"
     attack-damage: 29.5
     magic-damage: 83.0
     mana-cost: 12
+    staff-spirit: THUNDER_SPIRIT
     spell-vampirism: 5.7
+    ability:
+      ability-1:
+        type: LIGHTNING_BEAM
+        mode: RIGHT_CLICK
+        cooldown: 6.0
+        damage: 34.0
+      ability-2:
+        type: HEAL
+        mode: SHIFT_RIGHT_CLICK
+        cooldown: 10.0
+        value: 16.4
     gem-sockets:
       - Uncolored
       - Uncolored
       - Uncolored
       - Uncolored
+    upgrade:
+      template: weapon-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
@@ -749,17 +1224,37 @@ STAFF_BA_CHU_NGUC_TU_1:
     lore:
       - "&b&l✦ Tiểu Sử"
       - "&7 &d●&7 Trượng phép chứa quyền năng ma thuật ngục tù"
-      - "&7 &d●&7 Nâng cấp tại Lò Rèn để tăng sát thương phép"
+      - "&7 &d●&7 Nâng cấp tại Lò Rèn để tăng sát thương & mở kỹ năng mới"
     attack-damage: 30.0
     magic-damage: 100.0
     mana-cost: 14
+    staff-spirit: THUNDER_SPIRIT
     spell-vampirism: 6.0
+    ability:
+      ability-1:
+        type: FROST_NOVA
+        mode: RIGHT_CLICK
+        cooldown: 6.0
+        damage: 40.0
+      ability-2:
+        type: HEAL
+        mode: SHIFT_RIGHT_CLICK
+        cooldown: 9.0
+        value: 19.0
+      ability-3:
+        type: METEOR
+        mode: SHIFT_LEFT_CLICK
+        cooldown: 10.0
+        damage: 38.0
     gem-sockets:
       - Uncolored
       - Uncolored
       - Uncolored
       - Uncolored
       - Uncolored
+    upgrade:
+      template: weapon-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
@@ -774,17 +1269,37 @@ STAFF_BA_CHU_NGUC_TU_2:
     lore:
       - "&b&l✦ Tiểu Sử"
       - "&7 &d●&7 Trượng phép chứa quyền năng ma thuật ngục tù"
-      - "&7 &d●&7 Nâng cấp tại Lò Rèn để tăng sát thương phép"
+      - "&7 &d●&7 Nâng cấp tại Lò Rèn để tăng sát thương & mở kỹ năng mới"
     attack-damage: 31.8
     magic-damage: 102.0
     mana-cost: 14
+    staff-spirit: THUNDER_SPIRIT
     spell-vampirism: 6.3
+    ability:
+      ability-1:
+        type: FROST_NOVA
+        mode: RIGHT_CLICK
+        cooldown: 6.0
+        damage: 40.7
+      ability-2:
+        type: HEAL
+        mode: SHIFT_RIGHT_CLICK
+        cooldown: 9.0
+        value: 19.3
+      ability-3:
+        type: METEOR
+        mode: SHIFT_LEFT_CLICK
+        cooldown: 10.0
+        damage: 38.6
     gem-sockets:
       - Uncolored
       - Uncolored
       - Uncolored
       - Uncolored
       - Uncolored
+    upgrade:
+      template: weapon-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
@@ -799,17 +1314,37 @@ STAFF_BA_CHU_NGUC_TU_3:
     lore:
       - "&b&l✦ Tiểu Sử"
       - "&7 &d●&7 Trượng phép chứa quyền năng ma thuật ngục tù"
-      - "&7 &d●&7 Nâng cấp tại Lò Rèn để tăng sát thương phép"
+      - "&7 &d●&7 Nâng cấp tại Lò Rèn để tăng sát thương & mở kỹ năng mới"
     attack-damage: 33.5
     magic-damage: 104.0
     mana-cost: 14
+    staff-spirit: THUNDER_SPIRIT
     spell-vampirism: 6.6
+    ability:
+      ability-1:
+        type: FROST_NOVA
+        mode: RIGHT_CLICK
+        cooldown: 6.0
+        damage: 41.4
+      ability-2:
+        type: HEAL
+        mode: SHIFT_RIGHT_CLICK
+        cooldown: 9.0
+        value: 19.6
+      ability-3:
+        type: METEOR
+        mode: SHIFT_LEFT_CLICK
+        cooldown: 10.0
+        damage: 39.2
     gem-sockets:
       - Uncolored
       - Uncolored
       - Uncolored
       - Uncolored
       - Uncolored
+    upgrade:
+      template: weapon-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
@@ -824,17 +1359,37 @@ STAFF_BA_CHU_NGUC_TU_4:
     lore:
       - "&b&l✦ Tiểu Sử"
       - "&7 &d●&7 Trượng phép chứa quyền năng ma thuật ngục tù"
-      - "&7 &d●&7 Nâng cấp tại Lò Rèn để tăng sát thương phép"
+      - "&7 &d●&7 Nâng cấp tại Lò Rèn để tăng sát thương & mở kỹ năng mới"
     attack-damage: 35.3
     magic-damage: 106.0
     mana-cost: 14
+    staff-spirit: THUNDER_SPIRIT
     spell-vampirism: 6.9
+    ability:
+      ability-1:
+        type: FROST_NOVA
+        mode: RIGHT_CLICK
+        cooldown: 6.0
+        damage: 42.1
+      ability-2:
+        type: HEAL
+        mode: SHIFT_RIGHT_CLICK
+        cooldown: 9.0
+        value: 19.9
+      ability-3:
+        type: METEOR
+        mode: SHIFT_LEFT_CLICK
+        cooldown: 10.0
+        damage: 39.8
     gem-sockets:
       - Uncolored
       - Uncolored
       - Uncolored
       - Uncolored
       - Uncolored
+    upgrade:
+      template: weapon-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
@@ -849,17 +1404,37 @@ STAFF_BA_CHU_NGUC_TU_5:
     lore:
       - "&b&l✦ Tiểu Sử"
       - "&7 &d●&7 Trượng phép chứa quyền năng ma thuật ngục tù"
-      - "&7 &d●&7 Nâng cấp tại Lò Rèn để tăng sát thương phép"
+      - "&7 &d●&7 Nâng cấp tại Lò Rèn để tăng sát thương & mở kỹ năng mới"
     attack-damage: 37.0
     magic-damage: 108.0
     mana-cost: 14
+    staff-spirit: THUNDER_SPIRIT
     spell-vampirism: 7.2
+    ability:
+      ability-1:
+        type: FROST_NOVA
+        mode: RIGHT_CLICK
+        cooldown: 6.0
+        damage: 42.8
+      ability-2:
+        type: HEAL
+        mode: SHIFT_RIGHT_CLICK
+        cooldown: 9.0
+        value: 20.2
+      ability-3:
+        type: METEOR
+        mode: SHIFT_LEFT_CLICK
+        cooldown: 10.0
+        damage: 40.4
     gem-sockets:
       - Uncolored
       - Uncolored
       - Uncolored
       - Uncolored
       - Uncolored
+    upgrade:
+      template: weapon-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
@@ -874,17 +1449,37 @@ STAFF_VUOT_NGUC_1:
     lore:
       - "&b&l✦ Tiểu Sử"
       - "&7 &d●&7 Trượng phép chứa quyền năng ma thuật ngục tù"
-      - "&7 &d●&7 Nâng cấp tại Lò Rèn để tăng sát thương phép"
+      - "&7 &d●&7 Nâng cấp tại Lò Rèn để tăng sát thương & mở kỹ năng mới"
     attack-damage: 38.0
     magic-damage: 130.0
     mana-cost: 16
+    staff-spirit: SUNFIRE_SPIRIT
     spell-vampirism: 8.0
+    ability:
+      ability-1:
+        type: FROST_NOVA
+        mode: RIGHT_CLICK
+        cooldown: 6.0
+        damage: 50.5
+      ability-2:
+        type: HEAL
+        mode: SHIFT_RIGHT_CLICK
+        cooldown: 9.0
+        value: 23.5
+      ability-3:
+        type: METEOR
+        mode: SHIFT_LEFT_CLICK
+        cooldown: 10.0
+        damage: 47.0
     gem-sockets:
       - Uncolored
       - Uncolored
       - Uncolored
       - Uncolored
       - Uncolored
+    upgrade:
+      template: weapon-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
@@ -899,17 +1494,37 @@ STAFF_VUOT_NGUC_2:
     lore:
       - "&b&l✦ Tiểu Sử"
       - "&7 &d●&7 Trượng phép chứa quyền năng ma thuật ngục tù"
-      - "&7 &d●&7 Nâng cấp tại Lò Rèn để tăng sát thương phép"
+      - "&7 &d●&7 Nâng cấp tại Lò Rèn để tăng sát thương & mở kỹ năng mới"
     attack-damage: 40.0
     magic-damage: 132.0
     mana-cost: 16
+    staff-spirit: SUNFIRE_SPIRIT
     spell-vampirism: 8.3
+    ability:
+      ability-1:
+        type: FROST_NOVA
+        mode: RIGHT_CLICK
+        cooldown: 6.0
+        damage: 51.2
+      ability-2:
+        type: HEAL
+        mode: SHIFT_RIGHT_CLICK
+        cooldown: 9.0
+        value: 23.8
+      ability-3:
+        type: METEOR
+        mode: SHIFT_LEFT_CLICK
+        cooldown: 10.0
+        damage: 47.6
     gem-sockets:
       - Uncolored
       - Uncolored
       - Uncolored
       - Uncolored
       - Uncolored
+    upgrade:
+      template: weapon-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
@@ -924,17 +1539,37 @@ STAFF_VUOT_NGUC_3:
     lore:
       - "&b&l✦ Tiểu Sử"
       - "&7 &d●&7 Trượng phép chứa quyền năng ma thuật ngục tù"
-      - "&7 &d●&7 Nâng cấp tại Lò Rèn để tăng sát thương phép"
+      - "&7 &d●&7 Nâng cấp tại Lò Rèn để tăng sát thương & mở kỹ năng mới"
     attack-damage: 42.0
     magic-damage: 134.0
     mana-cost: 16
+    staff-spirit: SUNFIRE_SPIRIT
     spell-vampirism: 8.6
+    ability:
+      ability-1:
+        type: FROST_NOVA
+        mode: RIGHT_CLICK
+        cooldown: 6.0
+        damage: 51.9
+      ability-2:
+        type: HEAL
+        mode: SHIFT_RIGHT_CLICK
+        cooldown: 9.0
+        value: 24.1
+      ability-3:
+        type: METEOR
+        mode: SHIFT_LEFT_CLICK
+        cooldown: 10.0
+        damage: 48.2
     gem-sockets:
       - Uncolored
       - Uncolored
       - Uncolored
       - Uncolored
       - Uncolored
+    upgrade:
+      template: weapon-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
@@ -949,17 +1584,37 @@ STAFF_VUOT_NGUC_4:
     lore:
       - "&b&l✦ Tiểu Sử"
       - "&7 &d●&7 Trượng phép chứa quyền năng ma thuật ngục tù"
-      - "&7 &d●&7 Nâng cấp tại Lò Rèn để tăng sát thương phép"
+      - "&7 &d●&7 Nâng cấp tại Lò Rèn để tăng sát thương & mở kỹ năng mới"
     attack-damage: 44.0
     magic-damage: 136.0
     mana-cost: 16
+    staff-spirit: SUNFIRE_SPIRIT
     spell-vampirism: 8.9
+    ability:
+      ability-1:
+        type: FROST_NOVA
+        mode: RIGHT_CLICK
+        cooldown: 6.0
+        damage: 52.6
+      ability-2:
+        type: HEAL
+        mode: SHIFT_RIGHT_CLICK
+        cooldown: 9.0
+        value: 24.4
+      ability-3:
+        type: METEOR
+        mode: SHIFT_LEFT_CLICK
+        cooldown: 10.0
+        damage: 48.8
     gem-sockets:
       - Uncolored
       - Uncolored
       - Uncolored
       - Uncolored
       - Uncolored
+    upgrade:
+      template: weapon-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
@@ -974,11 +1629,79 @@ STAFF_VUOT_NGUC_5:
     lore:
       - "&b&l✦ Tiểu Sử"
       - "&7 &d●&7 Trượng phép chứa quyền năng ma thuật ngục tù"
-      - "&7 &d●&7 Nâng cấp tại Lò Rèn để tăng sát thương phép"
+      - "&7 &d●&7 Nâng cấp tại Lò Rèn để tăng sát thương & mở kỹ năng mới"
     attack-damage: 46.0
     magic-damage: 138.0
     mana-cost: 16
+    staff-spirit: SUNFIRE_SPIRIT
     spell-vampirism: 9.2
+    ability:
+      ability-1:
+        type: FROST_NOVA
+        mode: RIGHT_CLICK
+        cooldown: 6.0
+        damage: 53.3
+      ability-2:
+        type: HEAL
+        mode: SHIFT_RIGHT_CLICK
+        cooldown: 9.0
+        value: 24.7
+      ability-3:
+        type: METEOR
+        mode: SHIFT_LEFT_CLICK
+        cooldown: 10.0
+        damage: 49.4
+    gem-sockets:
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
+    upgrade:
+      template: weapon-upgrade-template
+      max: 100
+    will-break: false
+    unbreakable: false
+
+GACHA_STAFF_REVENANT:
+  base:
+    material: IRON_AXE
+    custom-model-data: 10005
+    itemsadder-item: "fantasy_weapons:revenants_gravescepter"
+    name: "&d&lU Hồn Quyền Trượng"
+    max-durability: 20000
+    tier: UNIQUE
+    hide-enchants: true
+    lore-format: weapon-lore
+    lore:
+      - "&b&l✦ Vật Phẩm Độc Quyền"
+      - "&7 &d●&7 Quyền trượng triệu hồi linh hồn cõi âm"
+      - "&7 &d●&7 Chuyên trảm Boss: Sát thương phép & Hố đen tàn phá"
+    attack-damage: 40.0
+    magic-damage: 175.0
+    pve-damage: 30.0
+    critical-strike-chance: 25.0
+    critical-strike-power: 35.0
+    mana-cost: 15
+    spell-vampirism: 8.5
+    staff-spirit: VOID_SPIRIT
+    ability:
+      ability-1:
+        type: BLACK_HOLE
+        mode: RIGHT_CLICK
+        cooldown: 6.0
+        radius: 6.0
+      ability-2:
+        type: DIVINE_PUNISHMENT
+        mode: SHIFT_RIGHT_CLICK
+        cooldown: 8.0
+        damage: 65.0
+        heal: 25.0
+      ability-3:
+        type: METEOR
+        mode: SHIFT_LEFT_CLICK
+        cooldown: 7.0
+        damage: 75.0
     gem-sockets:
       - Uncolored
       - Uncolored
@@ -988,3 +1711,96 @@ STAFF_VUOT_NGUC_5:
     will-break: false
     unbreakable: false
 
+GACHA_STAFF_AZURE_SCYTHE:
+  base:
+    material: IRON_HOE
+    custom-model-data: 10000
+    itemsadder-item: "fantasy_weapons:azure_scythe"
+    name: "&3&lBăng Long Tử Thần Lưỡi Hái"
+    max-durability: 20000
+    tier: UNIQUE
+    hide-enchants: true
+    lore-format: weapon-lore
+    lore:
+      - "&b&l✦ Vật Phẩm Độc Quyền"
+      - "&7 &3●&7 Lưỡi hái đóng băng linh hồn kẻ địch"
+      - "&7 &3●&7 Chuyên trảm Boss: Bão băng giá & Lôi điện tàn phá"
+    attack-damage: 42.0
+    magic-damage: 185.0
+    pve-damage: 32.0
+    critical-strike-chance: 26.0
+    critical-strike-power: 38.0
+    mana-cost: 16
+    spell-vampirism: 9.0
+    staff-spirit: MANA_SPIRIT
+    ability:
+      ability-1:
+        type: BLIZZARD
+        mode: RIGHT_CLICK
+        cooldown: 7.0
+        damage: 60.0
+      ability-2:
+        type: FROST_NOVA
+        mode: SHIFT_RIGHT_CLICK
+        cooldown: 6.0
+        damage: 55.0
+      ability-3:
+        type: GRAND_HEAL
+        mode: SHIFT_LEFT_CLICK
+        cooldown: 8.0
+        value: 30.0
+    gem-sockets:
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
+    will-break: false
+    unbreakable: false
+
+GACHA_STAFF_OCULUS:
+  base:
+    material: IRON_SWORD
+    custom-model-data: 10019
+    itemsadder-item: "fantasy_weapons:oculus"
+    name: "&b&lMa Nhãn Thần Trượng"
+    max-durability: 20000
+    tier: UNIQUE
+    hide-enchants: true
+    lore-format: weapon-lore
+    lore:
+      - "&b&l✦ Vật Phẩm Độc Quyền"
+      - "&7 &b●&7 Trượng phép mang con mắt nhãn giới ma thuật"
+      - "&7 &b●&7 Chuyên trảm Boss: Sấm sét bộc phá & Thiên thạch ma nhãn"
+    attack-damage: 45.0
+    magic-damage: 195.0
+    pve-damage: 35.0
+    critical-strike-chance: 28.0
+    critical-strike-power: 40.0
+    mana-cost: 18
+    spell-vampirism: 10.0
+    staff-spirit: THUNDER_SPIRIT
+    ability:
+      ability-1:
+        type: LIGHTNING_BEAM
+        mode: RIGHT_CLICK
+        cooldown: 5.0
+        damage: 70.0
+      ability-2:
+        type: METEOR
+        mode: SHIFT_RIGHT_CLICK
+        cooldown: 7.0
+        damage: 80.0
+      ability-3:
+        type: FIREBALL
+        mode: SHIFT_LEFT_CLICK
+        cooldown: 4.0
+        damage: 60.0
+    gem-sockets:
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
+    will-break: false
+    unbreakable: false

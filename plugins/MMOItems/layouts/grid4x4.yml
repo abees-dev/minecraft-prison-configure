@@ -1,0 +1,15 @@
+# Custom 4x4 Grid Layout for MMOItems Crafting Stations
+slots: 54
+
+layout:
+  # 4x4 Recipe Grid Slots (Left side of GUI)
+  recipe-slots: [10, 11, 12, 13, 19, 20, 21, 22, 28, 29, 30, 31, 37, 38, 39, 40]
+
+  # Queue Slots
+  queue-slots: [48, 49, 50]
+
+  # Navigation Slots
+  recipe-previous-slot: 9
+  recipe-next-slot: 14
+  queue-previous-slot: 47
+  queue-next-slot: 51

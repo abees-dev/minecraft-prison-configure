@@ -116,37 +116,39 @@ ranks.forEach((r, rIdx) => {
       swordContent += `    physical-damage: ${stats.physicalDamage.toFixed(1)}\n`;
     }
     swordContent += getSocketsYAML(rIdx);
-    swordContent += `    will-break: false
+    swordContent += `    upgrade:
+      template: weapon-upgrade-template
+      max: 100
+    will-break: false
     unbreakable: false
 
 `;
   }
 });
 
-swordContent += `GACHA_SWORD_DEMON_SLAYER:
+swordContent += `GACHA_SWORD_AMETHYST:
   base:
     material: IRON_SWORD
-    custom-model-data: 10017
-    itemsadder-item: "fantasy_weapons:demonslayers_greatsword"
-    name: "&c&lMa Kiếm Thần Long &7[&6&lGACHA&7]"
+    custom-model-data: 10000
+    itemsadder-item: "fantasy_weapons:amethyst_greatblade"
+    name: "&5&lThạch Anh Tím Đại Kiếm"
     max-durability: 20000
     tier: UNIQUE
     hide-enchants: true
     lore-format: weapon-lore
     lore:
-      - "&b&l✦ Vật Phẩm Gacha Độc Quyền"
-      - "&7 &c●&7 Cổ kiếm diệt rồng chứa sức mạnh ma thuật cổ xưa"
-      - "&7 &c●&7 Sát thương bộc phát cực cao & phần trăm sát thương gia tăng"
+      - "&b&l✦ Vật Phẩm Độc Quyền"
+      - "&7 &5●&7 Đại kiếm rèn từ tinh thể thạch anh tím cổ xưa"
+      - "&7 &5●&7 Tỷ lệ chí mạng & sát thương bộc phát cực mạnh"
     attack-damage: 53.0
     attack-speed: 1.6
-    critical-strike-chance: 25.0
-    physical-damage: 25.0
-    pve-damage: 15.0
+    critical-strike-chance: 26.0
+    physical-damage: 22.0
     ability:
       ability-1:
-        type: DRAGON_BREATH
+        type: CIRCULAR_SLASH
         mode: RIGHT_CLICK
-        cooldown: 8.0
+        cooldown: 6.0
         damage: 20.0
     gem-sockets:
       - Uncolored
@@ -157,58 +159,24 @@ swordContent += `GACHA_SWORD_DEMON_SLAYER:
     will-break: false
     unbreakable: false
 
-GACHA_SWORD_DARK_SOUL_KATANA:
+GACHA_SWORD_PHANTOMGUARD:
   base:
     material: IRON_SWORD
-    custom-model-data: 10012
-    itemsadder-item: "fantasy_weapons:gloomsteel_katana"
-    name: "&5&lĐêm Tối Diệt Vong &7[&6&lGACHA&7]"
+    custom-model-data: 10001
+    itemsadder-item: "fantasy_weapons:phantomguard_greatsword"
+    name: "&b&lU Hồn Vệ Kiếm"
     max-durability: 20000
     tier: UNIQUE
     hide-enchants: true
     lore-format: weapon-lore
     lore:
-      - "&b&l✦ Vật Phẩm Gacha Độc Quyền"
-      - "&7 &5●&7 Thanh Katana rèn từ kim loại bóng tối"
-      - "&7 &5●&7 Tốc độ chém cực nhanh và chuyên trảm Boss/PvE"
-    attack-damage: 51.5
-    attack-speed: 1.8
-    critical-strike-chance: 28.0
-    critical-strike-power: 30.0
-    pve-damage: 20.0
-    ability:
-      ability-1:
-        type: CIRCULAR_SLASH
-        mode: RIGHT_CLICK
-        cooldown: 6.0
-        damage: 18.0
-    gem-sockets:
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
-    will-break: false
-    unbreakable: false
-
-GACHA_SWORD_AZURE_FROST:
-  base:
-    material: DIAMOND_SWORD
-    custom-model-data: 10000
-    itemsadder-item: "fantasy_weapons:azure_greatsword"
-    name: "&3&lÁnh Băng Long Tinh &7[&6&lGACHA&7]"
-    max-durability: 20000
-    tier: UNIQUE
-    hide-enchants: true
-    lore-format: weapon-lore
-    lore:
-      - "&b&l✦ Vật Phẩm Gacha Độc Quyền"
-      - "&7 &3●&7 Đại kiếm mang năng lượng hàn băng vĩnh cửu"
-      - "&7 &3●&7 Gia tăng lượng lớn máu và khả năng phòng thủ cho chủ nhân"
-    attack-damage: 52.5
+      - "&b&l✦ Vật Phẩm Độc Quyền"
+      - "&7 &b●&7 Đại kiếm linh hồn bảo hộ chủ nhân khỏi hiểm nguy"
+      - "&7 &b●&7 Gia tăng lượng lớn máu tối đa và chỉ số phòng thủ"
+    attack-damage: 52.0
     attack-speed: 1.6
-    defense: 8.0
-    max-health: 10.0
+    defense: 9.0
+    max-health: 12.0
     physical-damage: 15.0
     ability:
       ability-1:
@@ -225,30 +193,129 @@ GACHA_SWORD_AZURE_FROST:
     will-break: false
     unbreakable: false
 
-GACHA_SWORD_PHANTOM_PARTISAN:
+GACHA_SWORD_VALHAKYRA:
   base:
     material: IRON_SWORD
-    custom-model-data: 10002
-    itemsadder-item: "fantasy_weapons:heavenly_partisan"
-    name: "&e&lHoàng Kim Diệt Thần Thương &7[&6&lGACHA&7]"
+    custom-model-data: 10003
+    itemsadder-item: "fantasy_weapons:valhakyra"
+    name: "&e&lThần Kiếm Valhakyra"
     max-durability: 20000
     tier: UNIQUE
     hide-enchants: true
     lore-format: weapon-lore
     lore:
-      - "&b&l✦ Vật Phẩm Gacha Độc Quyền"
-      - "&7 &e●&7 Huyễn thương tỏa ánh hào quang thánh thần"
-      - "&7 &e●&7 Xuyên thủng mọi loại giáp kiên cố nhất"
-    attack-damage: 54.5
-    attack-speed: 1.5
-    critical-strike-chance: 22.0
-    armor-penetration: 15.0
+      - "&b&l✦ Vật Phẩm Độc Quyền"
+      - "&7 &e●&7 Thánh kiếm huyền thoại của tộc chiến thần"
+      - "&7 &e●&7 Tốc độ vung kiếm xé gió và khả năng xuyên giáp"
+    attack-damage: 53.5
+    attack-speed: 1.8
+    critical-strike-chance: 24.0
+    armor-penetration: 14.0
     ability:
       ability-1:
         type: THRUST
         mode: RIGHT_CLICK
         cooldown: 5.0
         damage: 22.0
+    gem-sockets:
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
+    will-break: false
+    unbreakable: false
+
+GACHA_SWORD_CRYSTAL_FROST:
+  base:
+    material: IRON_SWORD
+    custom-model-data: 10008
+    itemsadder-item: "fantasy_weapons:crystal_frostblade"
+    name: "&3&lBăng Tinh Thần Kiếm"
+    max-durability: 20000
+    tier: UNIQUE
+    hide-enchants: true
+    lore-format: weapon-lore
+    lore:
+      - "&b&l✦ Vật Phẩm Độc Quyền"
+      - "&7 &3●&7 Kiếm tinh thể hàn băng tỏa hơi lạnh ngàn năm"
+      - "&7 &3●&7 Đột phá sát thương vật lý bộc phát"
+    attack-damage: 54.0
+    attack-speed: 1.6
+    critical-strike-chance: 22.0
+    physical-damage: 24.0
+    ability:
+      ability-1:
+        type: DRAGON_BREATH
+        mode: RIGHT_CLICK
+        cooldown: 8.0
+        damage: 20.0
+    gem-sockets:
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
+    will-break: false
+    unbreakable: false
+
+GACHA_SWORD_DEMONS_BLOOD:
+  base:
+    material: IRON_SWORD
+    custom-model-data: 10016
+    itemsadder-item: "fantasy_weapons:demons_blood_blade"
+    name: "&c&lHuyết Ma Diệt Thần Kiếm"
+    max-durability: 20000
+    tier: UNIQUE
+    hide-enchants: true
+    lore-format: weapon-lore
+    lore:
+      - "&b&l✦ Vật Phẩm Độc Quyền"
+      - "&7 &c●&7 Ma kiếm tôi luyện trong máu quỷ dữ"
+      - "&7 &c●&7 Gia tăng sát thương nguyên tố Hỏa bộc phá"
+    attack-damage: 54.5
+    attack-speed: 1.6
+    critical-strike-chance: 25.0
+    element-fire-damage: 12.0
+    ability:
+      ability-1:
+        type: FIREBALL
+        mode: RIGHT_CLICK
+        cooldown: 6.0
+        damage: 20.0
+    gem-sockets:
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
+    will-break: false
+    unbreakable: false
+
+GACHA_SWORD_MOONLIGHT:
+  base:
+    material: IRON_SWORD
+    custom-model-data: 10018
+    itemsadder-item: "fantasy_weapons:moonlight"
+    name: "&9&lMinh Nguyệt Quang Kiếm"
+    max-durability: 20000
+    tier: UNIQUE
+    hide-enchants: true
+    lore-format: weapon-lore
+    lore:
+      - "&b&l✦ Vật Phẩm Độc Quyền"
+      - "&7 &9●&7 Kiếm tỏa ánh trăng rực rỡ huyền ảo"
+      - "&7 &9●&7 Tỷ lệ chí mạng & nhát chém chí mạng bạo phát"
+    attack-damage: 52.5
+    attack-speed: 1.7
+    critical-strike-chance: 28.0
+    critical-strike-power: 32.0
+    ability:
+      ability-1:
+        type: ARCANE_RIFT
+        mode: RIGHT_CLICK
+        cooldown: 8.0
+        damage: 18.0
     gem-sockets:
       - Uncolored
       - Uncolored
@@ -289,21 +356,129 @@ ranks.forEach((r, rIdx) => {
       axeContent += `    critical-strike-power: ${stats.critPwr.toFixed(1)}\n`;
     }
     axeContent += getSocketsYAML(rIdx);
-    axeContent += `    will-break: false
+    axeContent += `    upgrade:
+      template: weapon-upgrade-template
+      max: 100
+    will-break: false
     unbreakable: false
 
 `;
   }
 });
+
+axeContent += `GACHA_AXE_VIRIDIAN:
+  base:
+    material: IRON_AXE
+    custom-model-data: 10001
+    itemsadder-item: "fantasy_weapons:viridian_greataxe"
+    name: "&a&lLục Bảo Thần Rìu"
+    max-durability: 20000
+    tier: UNIQUE
+    hide-enchants: true
+    lore-format: weapon-lore
+    lore:
+      - "&b&l✦ Vật Phẩm Độc Quyền"
+      - "&7 &a●&7 Đại rìu khảm ngọc lục bảo tinh khiết"
+      - "&7 &a●&7 Đẩy lùi mạnh mẽ & sát thương bộc phát cực lớn"
+    attack-damage: 63.0
+    attack-speed: 1.0
+    knockback: 2.2
+    critical-strike-power: 35.0
+    ability:
+      ability-1:
+        type: MAGMA_FISSURE
+        mode: RIGHT_CLICK
+        cooldown: 8.0
+        damage: 25.0
+    gem-sockets:
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
+    will-break: false
+    unbreakable: false
+
+GACHA_AXE_AZURE:
+  base:
+    material: DIAMOND_AXE
+    custom-model-data: 10000
+    itemsadder-item: "fantasy_weapons:azure_greataxe"
+    name: "&3&lBăng Long Đại Rìu"
+    max-durability: 20000
+    tier: UNIQUE
+    hide-enchants: true
+    lore-format: weapon-lore
+    lore:
+      - "&b&l✦ Vật Phẩm Độc Quyền"
+      - "&7 &3●&7 Rìu chiến rèn từ xương rồng băng vĩnh cửu"
+      - "&7 &3●&7 Khả năng phá giáp & chí mạng tàn phá"
+    attack-damage: 61.5
+    attack-speed: 1.0
+    knockback: 2.0
+    critical-strike-power: 30.0
+    armor-penetration: 12.0
+    ability:
+      ability-1:
+        type: MAGMA_FISSURE
+        mode: RIGHT_CLICK
+        cooldown: 8.0
+        damage: 22.0
+    gem-sockets:
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
+    will-break: false
+    unbreakable: false
+
+GACHA_AXE_SACRIFICIAL:
+  base:
+    material: IRON_AXE
+    custom-model-data: 10011
+    itemsadder-item: "fantasy_weapons:sacrificial_cleaver"
+    name: "&c&lTế Sát Thần Đao"
+    max-durability: 20000
+    tier: UNIQUE
+    hide-enchants: true
+    lore-format: weapon-lore
+    lore:
+      - "&b&l✦ Vật Phẩm Độc Quyền"
+      - "&7 &c●&7 Đại đao dùng trong các nghi lễ tế thần cổ đại"
+      - "&7 &c●&7 Sát thương vật lý bộc phát khủng khiếp"
+    attack-damage: 63.5
+    attack-speed: 1.0
+    knockback: 2.5
+    physical-damage: 20.0
+    ability:
+      ability-1:
+        type: MAGMA_FISSURE
+        mode: RIGHT_CLICK
+        cooldown: 8.0
+        damage: 25.0
+    gem-sockets:
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
+    will-break: false
+    unbreakable: false
+`;
+
 fs.writeFileSync(path.join(baseDir, 'item', 'axe.yml'), axeContent, 'utf8');
 
 // Generate staff.yml
 let staffContent = '';
+const spirits = ['MANA_SPIRIT', 'MANA_SPIRIT', 'NETHER_SPIRIT', 'NETHER_SPIRIT', 'LIGHTNING_SPIRIT', 'LIGHTNING_SPIRIT', 'THUNDER_SPIRIT', 'THUNDER_SPIRIT', 'SUNFIRE_SPIRIT'];
+
 ranks.forEach((r, rIdx) => {
   for (let t = 0; t < 5; t++) {
     const tierNum = romanMap[t];
     const id = `STAFF_${r.id}_${t + 1}`;
     const stats = getStaffStats(rIdx, t);
+    const spirit = spirits[rIdx];
     
     staffContent += `${id}:
   base:
@@ -316,21 +491,200 @@ ranks.forEach((r, rIdx) => {
     lore:
       - "&b&l✦ Tiểu Sử"
       - "&7 &d●&7 Trượng phép chứa quyền năng ma thuật ngục tù"
-      - "&7 &d●&7 Nâng cấp tại Lò Rèn để tăng sát thương phép"
+      - "&7 &d●&7 Nâng cấp tại Lò Rèn để tăng sát thương & mở kỹ năng mới"
     attack-damage: ${stats.dmg.toFixed(1)}
     magic-damage: ${stats.magic.toFixed(1)}
     mana-cost: ${stats.manaCost}
+    staff-spirit: ${spirit}
 `;
     if (stats.spellVamp > 0) {
       staffContent += `    spell-vampirism: ${stats.spellVamp.toFixed(1)}\n`;
     }
+
+    // Tích hợp hệ thống Kỹ Năng Đa Dạng (Multi-Skills) cho Trượng Phép
+    const skillDmg1 = (stats.magic * 0.35 + 5).toFixed(1);
+    const healVal = (stats.magic * 0.15 + 4).toFixed(1);
+    const skillDmg2 = (stats.magic * 0.3 + 8).toFixed(1);
+
+    staffContent += `    ability:\n`;
+    staffContent += `      ability-1:\n`;
+
+    if (rIdx <= 1) {
+      // Rank 1-2: Cầu Lửa
+      staffContent += `        type: FIREBALL\n        mode: RIGHT_CLICK\n        cooldown: 5.0\n        damage: ${skillDmg1}\n`;
+    } else if (rIdx <= 4) {
+      // Rank 3-5: Cầu Lửa + Hồi Máu
+      staffContent += `        type: FIREBALL\n        mode: RIGHT_CLICK\n        cooldown: 5.0\n        damage: ${skillDmg1}\n`;
+      staffContent += `      ability-2:\n        type: HEAL\n        mode: SHIFT_RIGHT_CLICK\n        cooldown: 12.0\n        value: ${healVal}\n`;
+    } else if (rIdx <= 6) {
+      // Rank 6-7: Tia Sấm Sét + Hồi Máu
+      staffContent += `        type: LIGHTNING_BEAM\n        mode: RIGHT_CLICK\n        cooldown: 6.0\n        damage: ${skillDmg1}\n`;
+      staffContent += `      ability-2:\n        type: HEAL\n        mode: SHIFT_RIGHT_CLICK\n        cooldown: 10.0\n        value: ${healVal}\n`;
+    } else {
+      // Rank 8-9: Băng Sương + Hồi Máu + Thiên Thạch
+      staffContent += `        type: FROST_NOVA\n        mode: RIGHT_CLICK\n        cooldown: 6.0\n        damage: ${skillDmg1}\n`;
+      staffContent += `      ability-2:\n        type: HEAL\n        mode: SHIFT_RIGHT_CLICK\n        cooldown: 9.0\n        value: ${healVal}\n`;
+      staffContent += `      ability-3:\n        type: METEOR\n        mode: SHIFT_LEFT_CLICK\n        cooldown: 10.0\n        damage: ${skillDmg2}\n`;
+    }
+
     staffContent += getSocketsYAML(rIdx);
-    staffContent += `    will-break: false
+    staffContent += `    upgrade:
+      template: weapon-upgrade-template
+      max: 100
+    will-break: false
     unbreakable: false
 
 `;
   }
 });
+
+staffContent += `GACHA_STAFF_REVENANT:
+  base:
+    material: IRON_AXE
+    custom-model-data: 10005
+    itemsadder-item: "fantasy_weapons:revenants_gravescepter"
+    name: "&d&lU Hồn Quyền Trượng"
+    max-durability: 20000
+    tier: UNIQUE
+    hide-enchants: true
+    lore-format: weapon-lore
+    lore:
+      - "&b&l✦ Vật Phẩm Độc Quyền"
+      - "&7 &d●&7 Quyền trượng triệu hồi linh hồn cõi âm"
+      - "&7 &d●&7 Chuyên trảm Boss: Sát thương phép & Hố đen tàn phá"
+    attack-damage: 40.0
+    magic-damage: 175.0
+    pve-damage: 30.0
+    critical-strike-chance: 25.0
+    critical-strike-power: 35.0
+    mana-cost: 15
+    spell-vampirism: 8.5
+    staff-spirit: VOID_SPIRIT
+    ability:
+      ability-1:
+        type: BLACK_HOLE
+        mode: RIGHT_CLICK
+        cooldown: 6.0
+        radius: 6.0
+      ability-2:
+        type: DIVINE_PUNISHMENT
+        mode: SHIFT_RIGHT_CLICK
+        cooldown: 8.0
+        damage: 65.0
+        heal: 25.0
+      ability-3:
+        type: METEOR
+        mode: SHIFT_LEFT_CLICK
+        cooldown: 7.0
+        damage: 75.0
+    gem-sockets:
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
+    will-break: false
+    unbreakable: false
+
+GACHA_STAFF_AZURE_SCYTHE:
+  base:
+    material: IRON_HOE
+    custom-model-data: 10000
+    itemsadder-item: "fantasy_weapons:azure_scythe"
+    name: "&3&lBăng Long Tử Thần Lưỡi Hái"
+    max-durability: 20000
+    tier: UNIQUE
+    hide-enchants: true
+    lore-format: weapon-lore
+    lore:
+      - "&b&l✦ Vật Phẩm Độc Quyền"
+      - "&7 &3●&7 Lưỡi hái đóng băng linh hồn kẻ địch"
+      - "&7 &3●&7 Chuyên trảm Boss: Bão băng giá & Lôi điện tàn phá"
+    attack-damage: 42.0
+    magic-damage: 185.0
+    pve-damage: 32.0
+    critical-strike-chance: 26.0
+    critical-strike-power: 38.0
+    mana-cost: 16
+    spell-vampirism: 9.0
+    staff-spirit: MANA_SPIRIT
+    ability:
+      ability-1:
+        type: BLIZZARD
+        mode: RIGHT_CLICK
+        cooldown: 7.0
+        damage: 60.0
+      ability-2:
+        type: FROST_NOVA
+        mode: SHIFT_RIGHT_CLICK
+        cooldown: 6.0
+        damage: 55.0
+      ability-3:
+        type: GRAND_HEAL
+        mode: SHIFT_LEFT_CLICK
+        cooldown: 8.0
+        value: 30.0
+    gem-sockets:
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
+    will-break: false
+    unbreakable: false
+
+GACHA_STAFF_OCULUS:
+  base:
+    material: IRON_SWORD
+    custom-model-data: 10019
+    itemsadder-item: "fantasy_weapons:oculus"
+    name: "&b&lMa Nhãn Thần Trượng"
+    max-durability: 20000
+    tier: UNIQUE
+    hide-enchants: true
+    lore-format: weapon-lore
+    lore:
+      - "&b&l✦ Vật Phẩm Độc Quyền"
+      - "&7 &b●&7 Trượng phép mang con mắt nhãn giới ma thuật"
+      - "&7 &b●&7 Chuyên trảm Boss: Sấm sét bộc phá & Thiên thạch ma nhãn"
+    attack-damage: 45.0
+    magic-damage: 195.0
+    pve-damage: 35.0
+    critical-strike-chance: 28.0
+    critical-strike-power: 40.0
+    mana-cost: 18
+    spell-vampirism: 10.0
+    staff-spirit: THUNDER_SPIRIT
+    ability:
+      ability-1:
+        type: LIGHTNING_BEAM
+        mode: RIGHT_CLICK
+        cooldown: 5.0
+        damage: 70.0
+      ability-2:
+        type: METEOR
+        mode: SHIFT_RIGHT_CLICK
+        cooldown: 7.0
+        damage: 80.0
+      ability-3:
+        type: FIREBALL
+        mode: SHIFT_LEFT_CLICK
+        cooldown: 4.0
+        damage: 60.0
+    gem-sockets:
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
+    will-break: false
+    unbreakable: false
+`;
+
 fs.writeFileSync(path.join(baseDir, 'item', 'staff.yml'), staffContent, 'utf8');
 
-console.log('✅ Đã cập nhật xong số ô khảm Gem Sockets theo Rank cho toàn bộ Vũ Khí!');
+console.log('✅ Đã tích hợp staff-spirit và kỹ năng chủ động cho toàn bộ Trượng Phép!');
+
+
+
+

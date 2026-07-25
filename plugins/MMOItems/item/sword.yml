@@ -13,6 +13,9 @@ SWORD_TAN_BINH_1:
     attack-damage: 3.0
     attack-speed: 1.6
     critical-strike-chance: 1.0
+    upgrade:
+      template: weapon-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
@@ -31,6 +34,9 @@ SWORD_TAN_BINH_2:
     attack-damage: 3.4
     attack-speed: 1.6
     critical-strike-chance: 1.5
+    upgrade:
+      template: weapon-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
@@ -49,6 +55,9 @@ SWORD_TAN_BINH_3:
     attack-damage: 3.8
     attack-speed: 1.6
     critical-strike-chance: 2.0
+    upgrade:
+      template: weapon-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
@@ -67,6 +76,9 @@ SWORD_TAN_BINH_4:
     attack-damage: 4.1
     attack-speed: 1.6
     critical-strike-chance: 2.5
+    upgrade:
+      template: weapon-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
@@ -85,6 +97,9 @@ SWORD_TAN_BINH_5:
     attack-damage: 4.5
     attack-speed: 1.6
     critical-strike-chance: 3.0
+    upgrade:
+      template: weapon-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
@@ -103,6 +118,9 @@ SWORD_TU_NHAN_1:
     attack-damage: 5.0
     attack-speed: 1.6
     critical-strike-chance: 3.0
+    upgrade:
+      template: weapon-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
@@ -121,6 +139,9 @@ SWORD_TU_NHAN_2:
     attack-damage: 5.5
     attack-speed: 1.6
     critical-strike-chance: 3.5
+    upgrade:
+      template: weapon-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
@@ -139,6 +160,9 @@ SWORD_TU_NHAN_3:
     attack-damage: 6.0
     attack-speed: 1.6
     critical-strike-chance: 4.0
+    upgrade:
+      template: weapon-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
@@ -157,6 +181,9 @@ SWORD_TU_NHAN_4:
     attack-damage: 6.5
     attack-speed: 1.6
     critical-strike-chance: 4.5
+    upgrade:
+      template: weapon-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
@@ -175,6 +202,9 @@ SWORD_TU_NHAN_5:
     attack-damage: 7.0
     attack-speed: 1.6
     critical-strike-chance: 5.0
+    upgrade:
+      template: weapon-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
@@ -195,6 +225,9 @@ SWORD_LAO_CONG_1:
     critical-strike-chance: 5.0
     gem-sockets:
       - Uncolored
+    upgrade:
+      template: weapon-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
@@ -215,6 +248,9 @@ SWORD_LAO_CONG_2:
     critical-strike-chance: 5.5
     gem-sockets:
       - Uncolored
+    upgrade:
+      template: weapon-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
@@ -235,6 +271,9 @@ SWORD_LAO_CONG_3:
     critical-strike-chance: 6.0
     gem-sockets:
       - Uncolored
+    upgrade:
+      template: weapon-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
@@ -255,6 +294,9 @@ SWORD_LAO_CONG_4:
     critical-strike-chance: 6.5
     gem-sockets:
       - Uncolored
+    upgrade:
+      template: weapon-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
@@ -275,6 +317,9 @@ SWORD_LAO_CONG_5:
     critical-strike-chance: 7.0
     gem-sockets:
       - Uncolored
+    upgrade:
+      template: weapon-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
@@ -296,6 +341,9 @@ SWORD_THO_DAO_1:
     gem-sockets:
       - Uncolored
       - Uncolored
+    upgrade:
+      template: weapon-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
@@ -317,6 +365,9 @@ SWORD_THO_DAO_2:
     gem-sockets:
       - Uncolored
       - Uncolored
+    upgrade:
+      template: weapon-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
@@ -338,6 +389,9 @@ SWORD_THO_DAO_3:
     gem-sockets:
       - Uncolored
       - Uncolored
+    upgrade:
+      template: weapon-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
@@ -359,6 +413,9 @@ SWORD_THO_DAO_4:
     gem-sockets:
       - Uncolored
       - Uncolored
+    upgrade:
+      template: weapon-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
@@ -380,6 +437,9 @@ SWORD_THO_DAO_5:
     gem-sockets:
       - Uncolored
       - Uncolored
+    upgrade:
+      template: weapon-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
@@ -403,6 +463,9 @@ SWORD_DOI_TRUONG_1:
       - Uncolored
       - Uncolored
       - Uncolored
+    upgrade:
+      template: weapon-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
@@ -426,6 +489,9 @@ SWORD_DOI_TRUONG_2:
       - Uncolored
       - Uncolored
       - Uncolored
+    upgrade:
+      template: weapon-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
@@ -449,6 +515,9 @@ SWORD_DOI_TRUONG_3:
       - Uncolored
       - Uncolored
       - Uncolored
+    upgrade:
+      template: weapon-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
@@ -472,6 +541,9 @@ SWORD_DOI_TRUONG_4:
       - Uncolored
       - Uncolored
       - Uncolored
+    upgrade:
+      template: weapon-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
@@ -495,6 +567,9 @@ SWORD_DOI_TRUONG_5:
       - Uncolored
       - Uncolored
       - Uncolored
+    upgrade:
+      template: weapon-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
@@ -519,6 +594,9 @@ SWORD_PHO_QUAN_NGUC_1:
       - Uncolored
       - Uncolored
       - Uncolored
+    upgrade:
+      template: weapon-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
@@ -543,6 +621,9 @@ SWORD_PHO_QUAN_NGUC_2:
       - Uncolored
       - Uncolored
       - Uncolored
+    upgrade:
+      template: weapon-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
@@ -567,6 +648,9 @@ SWORD_PHO_QUAN_NGUC_3:
       - Uncolored
       - Uncolored
       - Uncolored
+    upgrade:
+      template: weapon-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
@@ -591,6 +675,9 @@ SWORD_PHO_QUAN_NGUC_4:
       - Uncolored
       - Uncolored
       - Uncolored
+    upgrade:
+      template: weapon-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
@@ -615,6 +702,9 @@ SWORD_PHO_QUAN_NGUC_5:
       - Uncolored
       - Uncolored
       - Uncolored
+    upgrade:
+      template: weapon-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
@@ -639,6 +729,9 @@ SWORD_QUAN_NGUC_1:
       - Uncolored
       - Uncolored
       - Uncolored
+    upgrade:
+      template: weapon-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
@@ -663,6 +756,9 @@ SWORD_QUAN_NGUC_2:
       - Uncolored
       - Uncolored
       - Uncolored
+    upgrade:
+      template: weapon-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
@@ -687,6 +783,9 @@ SWORD_QUAN_NGUC_3:
       - Uncolored
       - Uncolored
       - Uncolored
+    upgrade:
+      template: weapon-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
@@ -711,6 +810,9 @@ SWORD_QUAN_NGUC_4:
       - Uncolored
       - Uncolored
       - Uncolored
+    upgrade:
+      template: weapon-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
@@ -735,6 +837,9 @@ SWORD_QUAN_NGUC_5:
       - Uncolored
       - Uncolored
       - Uncolored
+    upgrade:
+      template: weapon-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
@@ -760,6 +865,9 @@ SWORD_BA_CHU_NGUC_TU_1:
       - Uncolored
       - Uncolored
       - Uncolored
+    upgrade:
+      template: weapon-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
@@ -785,6 +893,9 @@ SWORD_BA_CHU_NGUC_TU_2:
       - Uncolored
       - Uncolored
       - Uncolored
+    upgrade:
+      template: weapon-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
@@ -810,6 +921,9 @@ SWORD_BA_CHU_NGUC_TU_3:
       - Uncolored
       - Uncolored
       - Uncolored
+    upgrade:
+      template: weapon-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
@@ -835,6 +949,9 @@ SWORD_BA_CHU_NGUC_TU_4:
       - Uncolored
       - Uncolored
       - Uncolored
+    upgrade:
+      template: weapon-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
@@ -860,6 +977,9 @@ SWORD_BA_CHU_NGUC_TU_5:
       - Uncolored
       - Uncolored
       - Uncolored
+    upgrade:
+      template: weapon-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
@@ -885,6 +1005,9 @@ SWORD_VUOT_NGUC_1:
       - Uncolored
       - Uncolored
       - Uncolored
+    upgrade:
+      template: weapon-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
@@ -910,6 +1033,9 @@ SWORD_VUOT_NGUC_2:
       - Uncolored
       - Uncolored
       - Uncolored
+    upgrade:
+      template: weapon-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
@@ -935,6 +1061,9 @@ SWORD_VUOT_NGUC_3:
       - Uncolored
       - Uncolored
       - Uncolored
+    upgrade:
+      template: weapon-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
@@ -960,6 +1089,9 @@ SWORD_VUOT_NGUC_4:
       - Uncolored
       - Uncolored
       - Uncolored
+    upgrade:
+      template: weapon-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
@@ -985,33 +1117,35 @@ SWORD_VUOT_NGUC_5:
       - Uncolored
       - Uncolored
       - Uncolored
+    upgrade:
+      template: weapon-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
-GACHA_SWORD_DEMON_SLAYER:
+GACHA_SWORD_AMETHYST:
   base:
     material: IRON_SWORD
-    custom-model-data: 10017
-    itemsadder-item: "fantasy_weapons:demonslayers_greatsword"
-    name: "&c&lMa Kiếm Thần Long &7[&6&lGACHA&7]"
+    custom-model-data: 10000
+    itemsadder-item: "fantasy_weapons:amethyst_greatblade"
+    name: "&5&lThạch Anh Tím Đại Kiếm"
     max-durability: 20000
     tier: UNIQUE
     hide-enchants: true
     lore-format: weapon-lore
     lore:
-      - "&b&l✦ Vật Phẩm Gacha Độc Quyền"
-      - "&7 &c●&7 Cổ kiếm diệt rồng chứa sức mạnh ma thuật cổ xưa"
-      - "&7 &c●&7 Sát thương bộc phát cực cao & phần trăm sát thương gia tăng"
+      - "&b&l✦ Vật Phẩm Độc Quyền"
+      - "&7 &5●&7 Đại kiếm rèn từ tinh thể thạch anh tím cổ xưa"
+      - "&7 &5●&7 Tỷ lệ chí mạng & sát thương bộc phát cực mạnh"
     attack-damage: 53.0
     attack-speed: 1.6
-    critical-strike-chance: 25.0
-    physical-damage: 25.0
-    pve-damage: 15.0
+    critical-strike-chance: 26.0
+    physical-damage: 22.0
     ability:
       ability-1:
-        type: DRAGON_BREATH
+        type: CIRCULAR_SLASH
         mode: RIGHT_CLICK
-        cooldown: 8.0
+        cooldown: 6.0
         damage: 20.0
     gem-sockets:
       - Uncolored
@@ -1022,58 +1156,24 @@ GACHA_SWORD_DEMON_SLAYER:
     will-break: false
     unbreakable: false
 
-GACHA_SWORD_DARK_SOUL_KATANA:
+GACHA_SWORD_PHANTOMGUARD:
   base:
     material: IRON_SWORD
-    custom-model-data: 10012
-    itemsadder-item: "fantasy_weapons:gloomsteel_katana"
-    name: "&5&lĐêm Tối Diệt Vong &7[&6&lGACHA&7]"
+    custom-model-data: 10001
+    itemsadder-item: "fantasy_weapons:phantomguard_greatsword"
+    name: "&b&lU Hồn Vệ Kiếm"
     max-durability: 20000
     tier: UNIQUE
     hide-enchants: true
     lore-format: weapon-lore
     lore:
-      - "&b&l✦ Vật Phẩm Gacha Độc Quyền"
-      - "&7 &5●&7 Thanh Katana rèn từ kim loại bóng tối"
-      - "&7 &5●&7 Tốc độ chém cực nhanh và chuyên trảm Boss/PvE"
-    attack-damage: 51.5
-    attack-speed: 1.8
-    critical-strike-chance: 28.0
-    critical-strike-power: 30.0
-    pve-damage: 20.0
-    ability:
-      ability-1:
-        type: CIRCULAR_SLASH
-        mode: RIGHT_CLICK
-        cooldown: 6.0
-        damage: 18.0
-    gem-sockets:
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
-    will-break: false
-    unbreakable: false
-
-GACHA_SWORD_AZURE_FROST:
-  base:
-    material: DIAMOND_SWORD
-    custom-model-data: 10000
-    itemsadder-item: "fantasy_weapons:azure_greatsword"
-    name: "&3&lÁnh Băng Long Tinh &7[&6&lGACHA&7]"
-    max-durability: 20000
-    tier: UNIQUE
-    hide-enchants: true
-    lore-format: weapon-lore
-    lore:
-      - "&b&l✦ Vật Phẩm Gacha Độc Quyền"
-      - "&7 &3●&7 Đại kiếm mang năng lượng hàn băng vĩnh cửu"
-      - "&7 &3●&7 Gia tăng lượng lớn máu và khả năng phòng thủ cho chủ nhân"
-    attack-damage: 52.5
+      - "&b&l✦ Vật Phẩm Độc Quyền"
+      - "&7 &b●&7 Đại kiếm linh hồn bảo hộ chủ nhân khỏi hiểm nguy"
+      - "&7 &b●&7 Gia tăng lượng lớn máu tối đa và chỉ số phòng thủ"
+    attack-damage: 52.0
     attack-speed: 1.6
-    defense: 8.0
-    max-health: 10.0
+    defense: 9.0
+    max-health: 12.0
     physical-damage: 15.0
     ability:
       ability-1:
@@ -1090,30 +1190,129 @@ GACHA_SWORD_AZURE_FROST:
     will-break: false
     unbreakable: false
 
-GACHA_SWORD_PHANTOM_PARTISAN:
+GACHA_SWORD_VALHAKYRA:
   base:
     material: IRON_SWORD
-    custom-model-data: 10002
-    itemsadder-item: "fantasy_weapons:heavenly_partisan"
-    name: "&e&lHoàng Kim Diệt Thần Thương &7[&6&lGACHA&7]"
+    custom-model-data: 10003
+    itemsadder-item: "fantasy_weapons:valhakyra"
+    name: "&e&lThần Kiếm Valhakyra"
     max-durability: 20000
     tier: UNIQUE
     hide-enchants: true
     lore-format: weapon-lore
     lore:
-      - "&b&l✦ Vật Phẩm Gacha Độc Quyền"
-      - "&7 &e●&7 Huyễn thương tỏa ánh hào quang thánh thần"
-      - "&7 &e●&7 Xuyên thủng mọi loại giáp kiên cố nhất"
-    attack-damage: 54.5
-    attack-speed: 1.5
-    critical-strike-chance: 22.0
-    armor-penetration: 15.0
+      - "&b&l✦ Vật Phẩm Độc Quyền"
+      - "&7 &e●&7 Thánh kiếm huyền thoại của tộc chiến thần"
+      - "&7 &e●&7 Tốc độ vung kiếm xé gió và khả năng xuyên giáp"
+    attack-damage: 53.5
+    attack-speed: 1.8
+    critical-strike-chance: 24.0
+    armor-penetration: 14.0
     ability:
       ability-1:
         type: THRUST
         mode: RIGHT_CLICK
         cooldown: 5.0
         damage: 22.0
+    gem-sockets:
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
+    will-break: false
+    unbreakable: false
+
+GACHA_SWORD_CRYSTAL_FROST:
+  base:
+    material: IRON_SWORD
+    custom-model-data: 10008
+    itemsadder-item: "fantasy_weapons:crystal_frostblade"
+    name: "&3&lBăng Tinh Thần Kiếm"
+    max-durability: 20000
+    tier: UNIQUE
+    hide-enchants: true
+    lore-format: weapon-lore
+    lore:
+      - "&b&l✦ Vật Phẩm Độc Quyền"
+      - "&7 &3●&7 Kiếm tinh thể hàn băng tỏa hơi lạnh ngàn năm"
+      - "&7 &3●&7 Đột phá sát thương vật lý bộc phát"
+    attack-damage: 54.0
+    attack-speed: 1.6
+    critical-strike-chance: 22.0
+    physical-damage: 24.0
+    ability:
+      ability-1:
+        type: DRAGON_BREATH
+        mode: RIGHT_CLICK
+        cooldown: 8.0
+        damage: 20.0
+    gem-sockets:
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
+    will-break: false
+    unbreakable: false
+
+GACHA_SWORD_DEMONS_BLOOD:
+  base:
+    material: IRON_SWORD
+    custom-model-data: 10016
+    itemsadder-item: "fantasy_weapons:demons_blood_blade"
+    name: "&c&lHuyết Ma Diệt Thần Kiếm"
+    max-durability: 20000
+    tier: UNIQUE
+    hide-enchants: true
+    lore-format: weapon-lore
+    lore:
+      - "&b&l✦ Vật Phẩm Độc Quyền"
+      - "&7 &c●&7 Ma kiếm tôi luyện trong máu quỷ dữ"
+      - "&7 &c●&7 Gia tăng sát thương nguyên tố Hỏa bộc phá"
+    attack-damage: 54.5
+    attack-speed: 1.6
+    critical-strike-chance: 25.0
+    element-fire-damage: 12.0
+    ability:
+      ability-1:
+        type: FIREBALL
+        mode: RIGHT_CLICK
+        cooldown: 6.0
+        damage: 20.0
+    gem-sockets:
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
+    will-break: false
+    unbreakable: false
+
+GACHA_SWORD_MOONLIGHT:
+  base:
+    material: IRON_SWORD
+    custom-model-data: 10018
+    itemsadder-item: "fantasy_weapons:moonlight"
+    name: "&9&lMinh Nguyệt Quang Kiếm"
+    max-durability: 20000
+    tier: UNIQUE
+    hide-enchants: true
+    lore-format: weapon-lore
+    lore:
+      - "&b&l✦ Vật Phẩm Độc Quyền"
+      - "&7 &9●&7 Kiếm tỏa ánh trăng rực rỡ huyền ảo"
+      - "&7 &9●&7 Tỷ lệ chí mạng & nhát chém chí mạng bạo phát"
+    attack-damage: 52.5
+    attack-speed: 1.7
+    critical-strike-chance: 28.0
+    critical-strike-power: 32.0
+    ability:
+      ability-1:
+        type: ARCANE_RIFT
+        mode: RIGHT_CLICK
+        cooldown: 8.0
+        damage: 18.0
     gem-sockets:
       - Uncolored
       - Uncolored

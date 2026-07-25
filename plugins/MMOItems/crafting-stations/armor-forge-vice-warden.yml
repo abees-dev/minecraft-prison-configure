@@ -28,6 +28,7 @@ recipes:
         - mmoitem{type=ARMOR,id=HELMET_PHO_QUAN_NGUC_1,amount=1,display="Nón Phó Quản Ngục I"}
         - mmoitem{type=MATERIAL,id=DA_NANG_CAP_PHO_QUAN_NGUC,amount=5,display="Cường Hóa Thạch Phó Quản Ngục"}
         - mmoitem{type=MATERIAL,id=NEN_DOI_PHO_QUAN_NGUC,amount=5,display="Quặng Tinh Luyện Phó Quản Ngục"}
+        - mmoitem{type=MATERIAL,id=TINHTHE_CUONGHOA_GIAP,amount=2,display="Tinh Thể Cường Hóa Giáp"}
     non-pho-quan-nguc-3:
         output:
             type: ARMOR
@@ -41,6 +42,7 @@ recipes:
         - mmoitem{type=ARMOR,id=HELMET_PHO_QUAN_NGUC_2,amount=1,display="Nón Phó Quản Ngục II"}
         - mmoitem{type=MATERIAL,id=DA_NANG_CAP_PHO_QUAN_NGUC,amount=10,display="Cường Hóa Thạch Phó Quản Ngục"}
         - mmoitem{type=MATERIAL,id=NEN_DOI_PHO_QUAN_NGUC,amount=10,display="Quặng Tinh Luyện Phó Quản Ngục"}
+        - mmoitem{type=MATERIAL,id=TINHTHE_CUONGHOA_GIAP,amount=2,display="Tinh Thể Cường Hóa Giáp"}
     non-pho-quan-nguc-4:
         output:
             type: ARMOR
@@ -54,6 +56,7 @@ recipes:
         - mmoitem{type=ARMOR,id=HELMET_PHO_QUAN_NGUC_3,amount=1,display="Nón Phó Quản Ngục III"}
         - mmoitem{type=MATERIAL,id=DA_NANG_CAP_PHO_QUAN_NGUC,amount=20,display="Cường Hóa Thạch Phó Quản Ngục"}
         - mmoitem{type=MATERIAL,id=NEN_DOI_PHO_QUAN_NGUC,amount=20,display="Quặng Tinh Luyện Phó Quản Ngục"}
+        - mmoitem{type=MATERIAL,id=TINHTHE_CUONGHOA_GIAP,amount=2,display="Tinh Thể Cường Hóa Giáp"}
     non-pho-quan-nguc-5:
         output:
             type: ARMOR
@@ -67,7 +70,7 @@ recipes:
         - mmoitem{type=ARMOR,id=HELMET_PHO_QUAN_NGUC_4,amount=1,display="Nón Phó Quản Ngục IV"}
         - mmoitem{type=MATERIAL,id=DA_NANG_CAP_PHO_QUAN_NGUC,amount=42,display="Cường Hóa Thạch Phó Quản Ngục"}
         - mmoitem{type=MATERIAL,id=NEN_DOI_PHO_QUAN_NGUC,amount=42,display="Quặng Tinh Luyện Phó Quản Ngục"}
-
+        - mmoitem{type=MATERIAL,id=TINHTHE_CUONGHOA_GIAP,amount=2,display="Tinh Thể Cường Hóa Giáp"}
     # --- ÁO ---
     ao-pho-quan-nguc-2:
         output:
@@ -82,6 +85,7 @@ recipes:
         - mmoitem{type=ARMOR,id=CHESTPLATE_PHO_QUAN_NGUC_1,amount=1,display="Áo Phó Quản Ngục I"}
         - mmoitem{type=MATERIAL,id=DA_NANG_CAP_PHO_QUAN_NGUC,amount=7,display="Cường Hóa Thạch Phó Quản Ngục"}
         - mmoitem{type=MATERIAL,id=NEN_DOI_PHO_QUAN_NGUC,amount=7,display="Quặng Tinh Luyện Phó Quản Ngục"}
+        - mmoitem{type=MATERIAL,id=TINHTHE_CUONGHOA_GIAP,amount=2,display="Tinh Thể Cường Hóa Giáp"}
     ao-pho-quan-nguc-3:
         output:
             type: ARMOR
@@ -95,6 +99,7 @@ recipes:
         - mmoitem{type=ARMOR,id=CHESTPLATE_PHO_QUAN_NGUC_2,amount=1,display="Áo Phó Quản Ngục II"}
         - mmoitem{type=MATERIAL,id=DA_NANG_CAP_PHO_QUAN_NGUC,amount=14,display="Cường Hóa Thạch Phó Quản Ngục"}
         - mmoitem{type=MATERIAL,id=NEN_DOI_PHO_QUAN_NGUC,amount=14,display="Quặng Tinh Luyện Phó Quản Ngục"}
+        - mmoitem{type=MATERIAL,id=TINHTHE_CUONGHOA_GIAP,amount=2,display="Tinh Thể Cường Hóa Giáp"}
     ao-pho-quan-nguc-4:
         output:
             type: ARMOR
@@ -108,6 +113,7 @@ recipes:
         - mmoitem{type=ARMOR,id=CHESTPLATE_PHO_QUAN_NGUC_3,amount=1,display="Áo Phó Quản Ngục III"}
         - mmoitem{type=MATERIAL,id=DA_NANG_CAP_PHO_QUAN_NGUC,amount=28,display="Cường Hóa Thạch Phó Quản Ngục"}
         - mmoitem{type=MATERIAL,id=NEN_DOI_PHO_QUAN_NGUC,amount=28,display="Quặng Tinh Luyện Phó Quản Ngục"}
+        - mmoitem{type=MATERIAL,id=TINHTHE_CUONGHOA_GIAP,amount=2,display="Tinh Thể Cường Hóa Giáp"}
     ao-pho-quan-nguc-5:
         output:
             type: ARMOR
@@ -121,7 +127,7 @@ recipes:
         - mmoitem{type=ARMOR,id=CHESTPLATE_PHO_QUAN_NGUC_4,amount=1,display="Áo Phó Quản Ngục IV"}
         - mmoitem{type=MATERIAL,id=DA_NANG_CAP_PHO_QUAN_NGUC,amount=56,display="Cường Hóa Thạch Phó Quản Ngục"}
         - mmoitem{type=MATERIAL,id=NEN_DOI_PHO_QUAN_NGUC,amount=56,display="Quặng Tinh Luyện Phó Quản Ngục"}
-
+        - mmoitem{type=MATERIAL,id=TINHTHE_CUONGHOA_GIAP,amount=2,display="Tinh Thể Cường Hóa Giáp"}
     # --- QUẦN ---
     quan-pho-quan-nguc-2:
         output:
@@ -136,6 +142,7 @@ recipes:
         - mmoitem{type=ARMOR,id=LEGGINGS_PHO_QUAN_NGUC_1,amount=1,display="Quần Phó Quản Ngục I"}
         - mmoitem{type=MATERIAL,id=DA_NANG_CAP_PHO_QUAN_NGUC,amount=7,display="Cường Hóa Thạch Phó Quản Ngục"}
         - mmoitem{type=MATERIAL,id=NEN_DOI_PHO_QUAN_NGUC,amount=7,display="Quặng Tinh Luyện Phó Quản Ngục"}
+        - mmoitem{type=MATERIAL,id=TINHTHE_CUONGHOA_GIAP,amount=2,display="Tinh Thể Cường Hóa Giáp"}
     quan-pho-quan-nguc-3:
         output:
             type: ARMOR
@@ -149,6 +156,7 @@ recipes:
         - mmoitem{type=ARMOR,id=LEGGINGS_PHO_QUAN_NGUC_2,amount=1,display="Quần Phó Quản Ngục II"}
         - mmoitem{type=MATERIAL,id=DA_NANG_CAP_PHO_QUAN_NGUC,amount=14,display="Cường Hóa Thạch Phó Quản Ngục"}
         - mmoitem{type=MATERIAL,id=NEN_DOI_PHO_QUAN_NGUC,amount=14,display="Quặng Tinh Luyện Phó Quản Ngục"}
+        - mmoitem{type=MATERIAL,id=TINHTHE_CUONGHOA_GIAP,amount=2,display="Tinh Thể Cường Hóa Giáp"}
     quan-pho-quan-nguc-4:
         output:
             type: ARMOR
@@ -162,6 +170,7 @@ recipes:
         - mmoitem{type=ARMOR,id=LEGGINGS_PHO_QUAN_NGUC_3,amount=1,display="Quần Phó Quản Ngục III"}
         - mmoitem{type=MATERIAL,id=DA_NANG_CAP_PHO_QUAN_NGUC,amount=28,display="Cường Hóa Thạch Phó Quản Ngục"}
         - mmoitem{type=MATERIAL,id=NEN_DOI_PHO_QUAN_NGUC,amount=28,display="Quặng Tinh Luyện Phó Quản Ngục"}
+        - mmoitem{type=MATERIAL,id=TINHTHE_CUONGHOA_GIAP,amount=2,display="Tinh Thể Cường Hóa Giáp"}
     quan-pho-quan-nguc-5:
         output:
             type: ARMOR
@@ -175,7 +184,7 @@ recipes:
         - mmoitem{type=ARMOR,id=LEGGINGS_PHO_QUAN_NGUC_4,amount=1,display="Quần Phó Quản Ngục IV"}
         - mmoitem{type=MATERIAL,id=DA_NANG_CAP_PHO_QUAN_NGUC,amount=56,display="Cường Hóa Thạch Phó Quản Ngục"}
         - mmoitem{type=MATERIAL,id=NEN_DOI_PHO_QUAN_NGUC,amount=56,display="Quặng Tinh Luyện Phó Quản Ngục"}
-
+        - mmoitem{type=MATERIAL,id=TINHTHE_CUONGHOA_GIAP,amount=2,display="Tinh Thể Cường Hóa Giáp"}
     # --- GIÀY ---
     giay-pho-quan-nguc-2:
         output:
@@ -190,6 +199,7 @@ recipes:
         - mmoitem{type=ARMOR,id=BOOTS_PHO_QUAN_NGUC_1,amount=1,display="Giày Phó Quản Ngục I"}
         - mmoitem{type=MATERIAL,id=DA_NANG_CAP_PHO_QUAN_NGUC,amount=5,display="Cường Hóa Thạch Phó Quản Ngục"}
         - mmoitem{type=MATERIAL,id=NEN_DOI_PHO_QUAN_NGUC,amount=5,display="Quặng Tinh Luyện Phó Quản Ngục"}
+        - mmoitem{type=MATERIAL,id=TINHTHE_CUONGHOA_GIAP,amount=2,display="Tinh Thể Cường Hóa Giáp"}
     giay-pho-quan-nguc-3:
         output:
             type: ARMOR
@@ -203,6 +213,7 @@ recipes:
         - mmoitem{type=ARMOR,id=BOOTS_PHO_QUAN_NGUC_2,amount=1,display="Giày Phó Quản Ngục II"}
         - mmoitem{type=MATERIAL,id=DA_NANG_CAP_PHO_QUAN_NGUC,amount=10,display="Cường Hóa Thạch Phó Quản Ngục"}
         - mmoitem{type=MATERIAL,id=NEN_DOI_PHO_QUAN_NGUC,amount=10,display="Quặng Tinh Luyện Phó Quản Ngục"}
+        - mmoitem{type=MATERIAL,id=TINHTHE_CUONGHOA_GIAP,amount=2,display="Tinh Thể Cường Hóa Giáp"}
     giay-pho-quan-nguc-4:
         output:
             type: ARMOR
@@ -216,6 +227,7 @@ recipes:
         - mmoitem{type=ARMOR,id=BOOTS_PHO_QUAN_NGUC_3,amount=1,display="Giày Phó Quản Ngục III"}
         - mmoitem{type=MATERIAL,id=DA_NANG_CAP_PHO_QUAN_NGUC,amount=20,display="Cường Hóa Thạch Phó Quản Ngục"}
         - mmoitem{type=MATERIAL,id=NEN_DOI_PHO_QUAN_NGUC,amount=20,display="Quặng Tinh Luyện Phó Quản Ngục"}
+        - mmoitem{type=MATERIAL,id=TINHTHE_CUONGHOA_GIAP,amount=2,display="Tinh Thể Cường Hóa Giáp"}
     giay-pho-quan-nguc-5:
         output:
             type: ARMOR
@@ -229,3 +241,4 @@ recipes:
         - mmoitem{type=ARMOR,id=BOOTS_PHO_QUAN_NGUC_4,amount=1,display="Giày Phó Quản Ngục IV"}
         - mmoitem{type=MATERIAL,id=DA_NANG_CAP_PHO_QUAN_NGUC,amount=42,display="Cường Hóa Thạch Phó Quản Ngục"}
         - mmoitem{type=MATERIAL,id=NEN_DOI_PHO_QUAN_NGUC,amount=42,display="Quặng Tinh Luyện Phó Quản Ngục"}
+        - mmoitem{type=MATERIAL,id=TINHTHE_CUONGHOA_GIAP,amount=2,display="Tinh Thể Cường Hóa Giáp"}

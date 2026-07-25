@@ -245,3 +245,48 @@ NEN_BA_VUOT_NGUC:
       - '&7 &4●&7 Tinh luyện từ 9 Quặng Tinh Luyện Vượt Ngục'
       - '&7 &4●&7 Dùng để chế Cường Hóa Thạch & Nâng Cấp Cúp Vượt Ngục'
       - '&7 &4●&7 Cấp tinh luyện cao nhất, chỉ có ở rank cuối'
+
+TINHTHE_CUONGHOA_VUKHI:
+  base:
+    material: PAPER
+    custom-model-data: 10019
+    itemsadder-item: "iadungeon:crystal_of_fury_19"
+    name: "&c✦ Tinh Thể Cường Hóa Vũ Khí"
+    tier: RARE
+    lore-format: ingredient-lore
+    hide-enchants: true
+    enchants:
+      unbreaking: 1
+    lore:
+      - "&7 &c●&7 Tinh thể chứa năng lượng chiến đấu rớt từ Quái Vật"
+      - "&7 &c●&7 Dùng để rèn & nâng cấp Vũ Khí (Kiếm, Rìu, Trượng) tại Lò Rèn"
+
+TINHTHE_CUONGHOA_GIAP:
+  base:
+    material: PAPER
+    custom-model-data: 10013
+    itemsadder-item: "iadungeon:crystal_of_decaying_13"
+    name: "&b✦ Tinh Thể Cường Hóa Giáp"
+    tier: RARE
+    lore-format: ingredient-lore
+    hide-enchants: true
+    enchants:
+      unbreaking: 1
+    lore:
+      - "&7 &b●&7 Tinh thể mang năng lượng bảo hộ rớt từ Quái Vật"
+      - "&7 &b●&7 Dùng để rèn & nâng cấp Bộ Giáp (Nón, Áo, Quần, Giày) tại Lò Rèn"
+
+TINHTHE_HUY_DIET:
+  base:
+    material: PAPER
+    custom-model-data: 10006
+    itemsadder-item: "iadungeon:crystal_of_annihilation_6"
+    name: "&5✦ Tinh Thể Hỗn Mang (Hủy Diệt)"
+    tier: LEGENDARY
+    lore-format: ingredient-lore
+    hide-enchants: true
+    enchants:
+      unbreaking: 1
+    lore:
+      - "&7 &5●&7 Tinh thể huyền thoại ngưng tụ từ các Boss Ngục Tù"
+      - "&7 &5●&7 Nguyên liệu cao cấp để rèn trang bị phẩm chất thượng thừa"

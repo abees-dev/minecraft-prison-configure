@@ -28,6 +28,7 @@ recipes:
         - mmoitem{type=ARMOR,id=HELMET_BA_CHU_NGUC_TU_1,amount=1,display="Nón Bá Chủ Ngục Tù I"}
         - mmoitem{type=MATERIAL,id=DA_NANG_CAP_BA_CHU_NGUC_TU,amount=8,display="Cường Hóa Thạch Bá Chủ Ngục Tù"}
         - mmoitem{type=MATERIAL,id=NEN_DOI_BA_CHU_NGUC_TU,amount=8,display="Quặng Tinh Luyện Bá Chủ Ngục Tù"}
+        - mmoitem{type=MATERIAL,id=TINHTHE_CUONGHOA_GIAP,amount=2,display="Tinh Thể Cường Hóa Giáp"}
     non-ba-chu-nguc-tu-3:
         output:
             type: ARMOR
@@ -41,6 +42,7 @@ recipes:
         - mmoitem{type=ARMOR,id=HELMET_BA_CHU_NGUC_TU_2,amount=1,display="Nón Bá Chủ Ngục Tù II"}
         - mmoitem{type=MATERIAL,id=DA_NANG_CAP_BA_CHU_NGUC_TU,amount=15,display="Cường Hóa Thạch Bá Chủ Ngục Tù"}
         - mmoitem{type=MATERIAL,id=NEN_DOI_BA_CHU_NGUC_TU,amount=15,display="Quặng Tinh Luyện Bá Chủ Ngục Tù"}
+        - mmoitem{type=MATERIAL,id=TINHTHE_CUONGHOA_GIAP,amount=2,display="Tinh Thể Cường Hóa Giáp"}
     non-ba-chu-nguc-tu-4:
         output:
             type: ARMOR
@@ -54,6 +56,7 @@ recipes:
         - mmoitem{type=ARMOR,id=HELMET_BA_CHU_NGUC_TU_3,amount=1,display="Nón Bá Chủ Ngục Tù III"}
         - mmoitem{type=MATERIAL,id=DA_NANG_CAP_BA_CHU_NGUC_TU,amount=30,display="Cường Hóa Thạch Bá Chủ Ngục Tù"}
         - mmoitem{type=MATERIAL,id=NEN_DOI_BA_CHU_NGUC_TU,amount=30,display="Quặng Tinh Luyện Bá Chủ Ngục Tù"}
+        - mmoitem{type=MATERIAL,id=TINHTHE_CUONGHOA_GIAP,amount=2,display="Tinh Thể Cường Hóa Giáp"}
     non-ba-chu-nguc-tu-5:
         output:
             type: ARMOR
@@ -67,7 +70,7 @@ recipes:
         - mmoitem{type=ARMOR,id=HELMET_BA_CHU_NGUC_TU_4,amount=1,display="Nón Bá Chủ Ngục Tù IV"}
         - mmoitem{type=MATERIAL,id=DA_NANG_CAP_BA_CHU_NGUC_TU,amount=48,display="Cường Hóa Thạch Bá Chủ Ngục Tù"}
         - mmoitem{type=MATERIAL,id=NEN_DOI_BA_CHU_NGUC_TU,amount=48,display="Quặng Tinh Luyện Bá Chủ Ngục Tù"}
-
+        - mmoitem{type=MATERIAL,id=TINHTHE_CUONGHOA_GIAP,amount=2,display="Tinh Thể Cường Hóa Giáp"}
     # --- ÁO ---
     ao-ba-chu-nguc-tu-2:
         output:
@@ -82,6 +85,7 @@ recipes:
         - mmoitem{type=ARMOR,id=CHESTPLATE_BA_CHU_NGUC_TU_1,amount=1,display="Áo Bá Chủ Ngục Tù I"}
         - mmoitem{type=MATERIAL,id=DA_NANG_CAP_BA_CHU_NGUC_TU,amount=10,display="Cường Hóa Thạch Bá Chủ Ngục Tù"}
         - mmoitem{type=MATERIAL,id=NEN_DOI_BA_CHU_NGUC_TU,amount=10,display="Quặng Tinh Luyện Bá Chủ Ngục Tù"}
+        - mmoitem{type=MATERIAL,id=TINHTHE_CUONGHOA_GIAP,amount=2,display="Tinh Thể Cường Hóa Giáp"}
     ao-ba-chu-nguc-tu-3:
         output:
             type: ARMOR
@@ -95,6 +99,7 @@ recipes:
         - mmoitem{type=ARMOR,id=CHESTPLATE_BA_CHU_NGUC_TU_2,amount=1,display="Áo Bá Chủ Ngục Tù II"}
         - mmoitem{type=MATERIAL,id=DA_NANG_CAP_BA_CHU_NGUC_TU,amount=20,display="Cường Hóa Thạch Bá Chủ Ngục Tù"}
         - mmoitem{type=MATERIAL,id=NEN_DOI_BA_CHU_NGUC_TU,amount=20,display="Quặng Tinh Luyện Bá Chủ Ngục Tù"}
+        - mmoitem{type=MATERIAL,id=TINHTHE_CUONGHOA_GIAP,amount=2,display="Tinh Thể Cường Hóa Giáp"}
     ao-ba-chu-nguc-tu-4:
         output:
             type: ARMOR
@@ -108,6 +113,7 @@ recipes:
         - mmoitem{type=ARMOR,id=CHESTPLATE_BA_CHU_NGUC_TU_3,amount=1,display="Áo Bá Chủ Ngục Tù III"}
         - mmoitem{type=MATERIAL,id=DA_NANG_CAP_BA_CHU_NGUC_TU,amount=40,display="Cường Hóa Thạch Bá Chủ Ngục Tù"}
         - mmoitem{type=MATERIAL,id=NEN_DOI_BA_CHU_NGUC_TU,amount=40,display="Quặng Tinh Luyện Bá Chủ Ngục Tù"}
+        - mmoitem{type=MATERIAL,id=TINHTHE_CUONGHOA_GIAP,amount=2,display="Tinh Thể Cường Hóa Giáp"}
     ao-ba-chu-nguc-tu-5:
         output:
             type: ARMOR
@@ -121,7 +127,7 @@ recipes:
         - mmoitem{type=ARMOR,id=CHESTPLATE_BA_CHU_NGUC_TU_4,amount=1,display="Áo Bá Chủ Ngục Tù IV"}
         - mmoitem{type=MATERIAL,id=DA_NANG_CAP_BA_CHU_NGUC_TU,amount=64,display="Cường Hóa Thạch Bá Chủ Ngục Tù"}
         - mmoitem{type=MATERIAL,id=NEN_DOI_BA_CHU_NGUC_TU,amount=64,display="Quặng Tinh Luyện Bá Chủ Ngục Tù"}
-
+        - mmoitem{type=MATERIAL,id=TINHTHE_CUONGHOA_GIAP,amount=2,display="Tinh Thể Cường Hóa Giáp"}
     # --- QUẦN ---
     quan-ba-chu-nguc-tu-2:
         output:
@@ -136,6 +142,7 @@ recipes:
         - mmoitem{type=ARMOR,id=LEGGINGS_BA_CHU_NGUC_TU_1,amount=1,display="Quần Bá Chủ Ngục Tù I"}
         - mmoitem{type=MATERIAL,id=DA_NANG_CAP_BA_CHU_NGUC_TU,amount=10,display="Cường Hóa Thạch Bá Chủ Ngục Tù"}
         - mmoitem{type=MATERIAL,id=NEN_DOI_BA_CHU_NGUC_TU,amount=10,display="Quặng Tinh Luyện Bá Chủ Ngục Tù"}
+        - mmoitem{type=MATERIAL,id=TINHTHE_CUONGHOA_GIAP,amount=2,display="Tinh Thể Cường Hóa Giáp"}
     quan-ba-chu-nguc-tu-3:
         output:
             type: ARMOR
@@ -149,6 +156,7 @@ recipes:
         - mmoitem{type=ARMOR,id=LEGGINGS_BA_CHU_NGUC_TU_2,amount=1,display="Quần Bá Chủ Ngục Tù II"}
         - mmoitem{type=MATERIAL,id=DA_NANG_CAP_BA_CHU_NGUC_TU,amount=20,display="Cường Hóa Thạch Bá Chủ Ngục Tù"}
         - mmoitem{type=MATERIAL,id=NEN_DOI_BA_CHU_NGUC_TU,amount=20,display="Quặng Tinh Luyện Bá Chủ Ngục Tù"}
+        - mmoitem{type=MATERIAL,id=TINHTHE_CUONGHOA_GIAP,amount=2,display="Tinh Thể Cường Hóa Giáp"}
     quan-ba-chu-nguc-tu-4:
         output:
             type: ARMOR
@@ -162,6 +170,7 @@ recipes:
         - mmoitem{type=ARMOR,id=LEGGINGS_BA_CHU_NGUC_TU_3,amount=1,display="Quần Bá Chủ Ngục Tù III"}
         - mmoitem{type=MATERIAL,id=DA_NANG_CAP_BA_CHU_NGUC_TU,amount=40,display="Cường Hóa Thạch Bá Chủ Ngục Tù"}
         - mmoitem{type=MATERIAL,id=NEN_DOI_BA_CHU_NGUC_TU,amount=40,display="Quặng Tinh Luyện Bá Chủ Ngục Tù"}
+        - mmoitem{type=MATERIAL,id=TINHTHE_CUONGHOA_GIAP,amount=2,display="Tinh Thể Cường Hóa Giáp"}
     quan-ba-chu-nguc-tu-5:
         output:
             type: ARMOR
@@ -175,7 +184,7 @@ recipes:
         - mmoitem{type=ARMOR,id=LEGGINGS_BA_CHU_NGUC_TU_4,amount=1,display="Quần Bá Chủ Ngục Tù IV"}
         - mmoitem{type=MATERIAL,id=DA_NANG_CAP_BA_CHU_NGUC_TU,amount=64,display="Cường Hóa Thạch Bá Chủ Ngục Tù"}
         - mmoitem{type=MATERIAL,id=NEN_DOI_BA_CHU_NGUC_TU,amount=64,display="Quặng Tinh Luyện Bá Chủ Ngục Tù"}
-
+        - mmoitem{type=MATERIAL,id=TINHTHE_CUONGHOA_GIAP,amount=2,display="Tinh Thể Cường Hóa Giáp"}
     # --- GIÀY ---
     giay-ba-chu-nguc-tu-2:
         output:
@@ -190,6 +199,7 @@ recipes:
         - mmoitem{type=ARMOR,id=BOOTS_BA_CHU_NGUC_TU_1,amount=1,display="Giày Bá Chủ Ngục Tù I"}
         - mmoitem{type=MATERIAL,id=DA_NANG_CAP_BA_CHU_NGUC_TU,amount=8,display="Cường Hóa Thạch Bá Chủ Ngục Tù"}
         - mmoitem{type=MATERIAL,id=NEN_DOI_BA_CHU_NGUC_TU,amount=8,display="Quặng Tinh Luyện Bá Chủ Ngục Tù"}
+        - mmoitem{type=MATERIAL,id=TINHTHE_CUONGHOA_GIAP,amount=2,display="Tinh Thể Cường Hóa Giáp"}
     giay-ba-chu-nguc-tu-3:
         output:
             type: ARMOR
@@ -203,6 +213,7 @@ recipes:
         - mmoitem{type=ARMOR,id=BOOTS_BA_CHU_NGUC_TU_2,amount=1,display="Giày Bá Chủ Ngục Tù II"}
         - mmoitem{type=MATERIAL,id=DA_NANG_CAP_BA_CHU_NGUC_TU,amount=15,display="Cường Hóa Thạch Bá Chủ Ngục Tù"}
         - mmoitem{type=MATERIAL,id=NEN_DOI_BA_CHU_NGUC_TU,amount=15,display="Quặng Tinh Luyện Bá Chủ Ngục Tù"}
+        - mmoitem{type=MATERIAL,id=TINHTHE_CUONGHOA_GIAP,amount=2,display="Tinh Thể Cường Hóa Giáp"}
     giay-ba-chu-nguc-tu-4:
         output:
             type: ARMOR
@@ -216,6 +227,7 @@ recipes:
         - mmoitem{type=ARMOR,id=BOOTS_BA_CHU_NGUC_TU_3,amount=1,display="Giày Bá Chủ Ngục Tù III"}
         - mmoitem{type=MATERIAL,id=DA_NANG_CAP_BA_CHU_NGUC_TU,amount=30,display="Cường Hóa Thạch Bá Chủ Ngục Tù"}
         - mmoitem{type=MATERIAL,id=NEN_DOI_BA_CHU_NGUC_TU,amount=30,display="Quặng Tinh Luyện Bá Chủ Ngục Tù"}
+        - mmoitem{type=MATERIAL,id=TINHTHE_CUONGHOA_GIAP,amount=2,display="Tinh Thể Cường Hóa Giáp"}
     giay-ba-chu-nguc-tu-5:
         output:
             type: ARMOR
@@ -229,3 +241,4 @@ recipes:
         - mmoitem{type=ARMOR,id=BOOTS_BA_CHU_NGUC_TU_4,amount=1,display="Giày Bá Chủ Ngục Tù IV"}
         - mmoitem{type=MATERIAL,id=DA_NANG_CAP_BA_CHU_NGUC_TU,amount=48,display="Cường Hóa Thạch Bá Chủ Ngục Tù"}
         - mmoitem{type=MATERIAL,id=NEN_DOI_BA_CHU_NGUC_TU,amount=48,display="Quặng Tinh Luyện Bá Chủ Ngục Tù"}
+        - mmoitem{type=MATERIAL,id=TINHTHE_CUONGHOA_GIAP,amount=2,display="Tinh Thể Cường Hóa Giáp"}

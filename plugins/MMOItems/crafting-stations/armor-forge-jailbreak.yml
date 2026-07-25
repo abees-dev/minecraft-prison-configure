@@ -28,6 +28,7 @@ recipes:
         - mmoitem{type=ARMOR,id=HELMET_VUOT_NGUC_1,amount=1,display="Nón Vượt Ngục I"}
         - mmoitem{type=MATERIAL,id=DA_NANG_CAP_VUOT_NGUC,amount=9,display="Cường Hóa Thạch Vượt Ngục"}
         - mmoitem{type=MATERIAL,id=NEN_DOI_VUOT_NGUC,amount=9,display="Quặng Tinh Luyện Vượt Ngục"}
+        - mmoitem{type=MATERIAL,id=TINHTHE_CUONGHOA_GIAP,amount=2,display="Tinh Thể Cường Hóa Giáp"}
     non-vuot-nguc-3:
         output:
             type: ARMOR
@@ -41,6 +42,7 @@ recipes:
         - mmoitem{type=ARMOR,id=HELMET_VUOT_NGUC_2,amount=1,display="Nón Vượt Ngục II"}
         - mmoitem{type=MATERIAL,id=DA_NANG_CAP_VUOT_NGUC,amount=18,display="Cường Hóa Thạch Vượt Ngục"}
         - mmoitem{type=MATERIAL,id=NEN_DOI_VUOT_NGUC,amount=18,display="Quặng Tinh Luyện Vượt Ngục"}
+        - mmoitem{type=MATERIAL,id=TINHTHE_CUONGHOA_GIAP,amount=2,display="Tinh Thể Cường Hóa Giáp"}
     non-vuot-nguc-4:
         output:
             type: ARMOR
@@ -54,6 +56,7 @@ recipes:
         - mmoitem{type=ARMOR,id=HELMET_VUOT_NGUC_3,amount=1,display="Nón Vượt Ngục III"}
         - mmoitem{type=MATERIAL,id=DA_NANG_CAP_VUOT_NGUC,amount=36,display="Cường Hóa Thạch Vượt Ngục"}
         - mmoitem{type=MATERIAL,id=NEN_DOI_VUOT_NGUC,amount=36,display="Quặng Tinh Luyện Vượt Ngục"}
+        - mmoitem{type=MATERIAL,id=TINHTHE_CUONGHOA_GIAP,amount=2,display="Tinh Thể Cường Hóa Giáp"}
     non-vuot-nguc-5:
         output:
             type: ARMOR
@@ -67,7 +70,7 @@ recipes:
         - mmoitem{type=ARMOR,id=HELMET_VUOT_NGUC_4,amount=1,display="Nón Vượt Ngục IV"}
         - mmoitem{type=MATERIAL,id=DA_NANG_CAP_VUOT_NGUC,amount=52,display="Cường Hóa Thạch Vượt Ngục"}
         - mmoitem{type=MATERIAL,id=NEN_DOI_VUOT_NGUC,amount=52,display="Quặng Tinh Luyện Vượt Ngục"}
-
+        - mmoitem{type=MATERIAL,id=TINHTHE_CUONGHOA_GIAP,amount=2,display="Tinh Thể Cường Hóa Giáp"}
     # --- ÁO ---
     ao-vuot-nguc-2:
         output:
@@ -82,6 +85,7 @@ recipes:
         - mmoitem{type=ARMOR,id=CHESTPLATE_VUOT_NGUC_1,amount=1,display="Áo Vượt Ngục I"}
         - mmoitem{type=MATERIAL,id=DA_NANG_CAP_VUOT_NGUC,amount=12,display="Cường Hóa Thạch Vượt Ngục"}
         - mmoitem{type=MATERIAL,id=NEN_DOI_VUOT_NGUC,amount=12,display="Quặng Tinh Luyện Vượt Ngục"}
+        - mmoitem{type=MATERIAL,id=TINHTHE_CUONGHOA_GIAP,amount=2,display="Tinh Thể Cường Hóa Giáp"}
     ao-vuot-nguc-3:
         output:
             type: ARMOR
@@ -95,6 +99,7 @@ recipes:
         - mmoitem{type=ARMOR,id=CHESTPLATE_VUOT_NGUC_2,amount=1,display="Áo Vượt Ngục II"}
         - mmoitem{type=MATERIAL,id=DA_NANG_CAP_VUOT_NGUC,amount=24,display="Cường Hóa Thạch Vượt Ngục"}
         - mmoitem{type=MATERIAL,id=NEN_DOI_VUOT_NGUC,amount=24,display="Quặng Tinh Luyện Vượt Ngục"}
+        - mmoitem{type=MATERIAL,id=TINHTHE_CUONGHOA_GIAP,amount=2,display="Tinh Thể Cường Hóa Giáp"}
     ao-vuot-nguc-4:
         output:
             type: ARMOR
@@ -108,6 +113,7 @@ recipes:
         - mmoitem{type=ARMOR,id=CHESTPLATE_VUOT_NGUC_3,amount=1,display="Áo Vượt Ngục III"}
         - mmoitem{type=MATERIAL,id=DA_NANG_CAP_VUOT_NGUC,amount=48,display="Cường Hóa Thạch Vượt Ngục"}
         - mmoitem{type=MATERIAL,id=NEN_DOI_VUOT_NGUC,amount=48,display="Quặng Tinh Luyện Vượt Ngục"}
+        - mmoitem{type=MATERIAL,id=TINHTHE_CUONGHOA_GIAP,amount=2,display="Tinh Thể Cường Hóa Giáp"}
     ao-vuot-nguc-5:
         output:
             type: ARMOR
@@ -121,7 +127,7 @@ recipes:
         - mmoitem{type=ARMOR,id=CHESTPLATE_VUOT_NGUC_4,amount=1,display="Áo Vượt Ngục IV"}
         - mmoitem{type=MATERIAL,id=DA_NANG_CAP_VUOT_NGUC,amount=64,display="Cường Hóa Thạch Vượt Ngục"}
         - mmoitem{type=MATERIAL,id=NEN_DOI_VUOT_NGUC,amount=64,display="Quặng Tinh Luyện Vượt Ngục"}
-
+        - mmoitem{type=MATERIAL,id=TINHTHE_CUONGHOA_GIAP,amount=2,display="Tinh Thể Cường Hóa Giáp"}
     # --- QUẦN ---
     quan-vuot-nguc-2:
         output:
@@ -136,6 +142,7 @@ recipes:
         - mmoitem{type=ARMOR,id=LEGGINGS_VUOT_NGUC_1,amount=1,display="Quần Vượt Ngục I"}
         - mmoitem{type=MATERIAL,id=DA_NANG_CAP_VUOT_NGUC,amount=12,display="Cường Hóa Thạch Vượt Ngục"}
         - mmoitem{type=MATERIAL,id=NEN_DOI_VUOT_NGUC,amount=12,display="Quặng Tinh Luyện Vượt Ngục"}
+        - mmoitem{type=MATERIAL,id=TINHTHE_CUONGHOA_GIAP,amount=2,display="Tinh Thể Cường Hóa Giáp"}
     quan-vuot-nguc-3:
         output:
             type: ARMOR
@@ -149,6 +156,7 @@ recipes:
         - mmoitem{type=ARMOR,id=LEGGINGS_VUOT_NGUC_2,amount=1,display="Quần Vượt Ngục II"}
         - mmoitem{type=MATERIAL,id=DA_NANG_CAP_VUOT_NGUC,amount=24,display="Cường Hóa Thạch Vượt Ngục"}
         - mmoitem{type=MATERIAL,id=NEN_DOI_VUOT_NGUC,amount=24,display="Quặng Tinh Luyện Vượt Ngục"}
+        - mmoitem{type=MATERIAL,id=TINHTHE_CUONGHOA_GIAP,amount=2,display="Tinh Thể Cường Hóa Giáp"}
     quan-vuot-nguc-4:
         output:
             type: ARMOR
@@ -162,6 +170,7 @@ recipes:
         - mmoitem{type=ARMOR,id=LEGGINGS_VUOT_NGUC_3,amount=1,display="Quần Vượt Ngục III"}
         - mmoitem{type=MATERIAL,id=DA_NANG_CAP_VUOT_NGUC,amount=48,display="Cường Hóa Thạch Vượt Ngục"}
         - mmoitem{type=MATERIAL,id=NEN_DOI_VUOT_NGUC,amount=48,display="Quặng Tinh Luyện Vượt Ngục"}
+        - mmoitem{type=MATERIAL,id=TINHTHE_CUONGHOA_GIAP,amount=2,display="Tinh Thể Cường Hóa Giáp"}
     quan-vuot-nguc-5:
         output:
             type: ARMOR
@@ -175,7 +184,7 @@ recipes:
         - mmoitem{type=ARMOR,id=LEGGINGS_VUOT_NGUC_4,amount=1,display="Quần Vượt Ngục IV"}
         - mmoitem{type=MATERIAL,id=DA_NANG_CAP_VUOT_NGUC,amount=64,display="Cường Hóa Thạch Vượt Ngục"}
         - mmoitem{type=MATERIAL,id=NEN_DOI_VUOT_NGUC,amount=64,display="Quặng Tinh Luyện Vượt Ngục"}
-
+        - mmoitem{type=MATERIAL,id=TINHTHE_CUONGHOA_GIAP,amount=2,display="Tinh Thể Cường Hóa Giáp"}
     # --- GIÀY ---
     giay-vuot-nguc-2:
         output:
@@ -190,6 +199,7 @@ recipes:
         - mmoitem{type=ARMOR,id=BOOTS_VUOT_NGUC_1,amount=1,display="Giày Vượt Ngục I"}
         - mmoitem{type=MATERIAL,id=DA_NANG_CAP_VUOT_NGUC,amount=9,display="Cường Hóa Thạch Vượt Ngục"}
         - mmoitem{type=MATERIAL,id=NEN_DOI_VUOT_NGUC,amount=9,display="Quặng Tinh Luyện Vượt Ngục"}
+        - mmoitem{type=MATERIAL,id=TINHTHE_CUONGHOA_GIAP,amount=2,display="Tinh Thể Cường Hóa Giáp"}
     giay-vuot-nguc-3:
         output:
             type: ARMOR
@@ -203,6 +213,7 @@ recipes:
         - mmoitem{type=ARMOR,id=BOOTS_VUOT_NGUC_2,amount=1,display="Giày Vượt Ngục II"}
         - mmoitem{type=MATERIAL,id=DA_NANG_CAP_VUOT_NGUC,amount=18,display="Cường Hóa Thạch Vượt Ngục"}
         - mmoitem{type=MATERIAL,id=NEN_DOI_VUOT_NGUC,amount=18,display="Quặng Tinh Luyện Vượt Ngục"}
+        - mmoitem{type=MATERIAL,id=TINHTHE_CUONGHOA_GIAP,amount=2,display="Tinh Thể Cường Hóa Giáp"}
     giay-vuot-nguc-4:
         output:
             type: ARMOR
@@ -216,6 +227,7 @@ recipes:
         - mmoitem{type=ARMOR,id=BOOTS_VUOT_NGUC_3,amount=1,display="Giày Vượt Ngục III"}
         - mmoitem{type=MATERIAL,id=DA_NANG_CAP_VUOT_NGUC,amount=36,display="Cường Hóa Thạch Vượt Ngục"}
         - mmoitem{type=MATERIAL,id=NEN_DOI_VUOT_NGUC,amount=36,display="Quặng Tinh Luyện Vượt Ngục"}
+        - mmoitem{type=MATERIAL,id=TINHTHE_CUONGHOA_GIAP,amount=2,display="Tinh Thể Cường Hóa Giáp"}
     giay-vuot-nguc-5:
         output:
             type: ARMOR
@@ -229,3 +241,4 @@ recipes:
         - mmoitem{type=ARMOR,id=BOOTS_VUOT_NGUC_4,amount=1,display="Giày Vượt Ngục IV"}
         - mmoitem{type=MATERIAL,id=DA_NANG_CAP_VUOT_NGUC,amount=52,display="Cường Hóa Thạch Vượt Ngục"}
         - mmoitem{type=MATERIAL,id=NEN_DOI_VUOT_NGUC,amount=52,display="Quặng Tinh Luyện Vượt Ngục"}
+        - mmoitem{type=MATERIAL,id=TINHTHE_CUONGHOA_GIAP,amount=2,display="Tinh Thể Cường Hóa Giáp"}

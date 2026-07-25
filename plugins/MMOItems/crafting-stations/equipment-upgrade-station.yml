@@ -1,0 +1,119 @@
+name: '&8[&c✦&8] &c&lBÀN GHÉP ĐÁ CƯỜNG HÓA (#page#/#max#)'
+max-queue-size: 10
+sound: BLOCK_ANVIL_USE
+layout: default
+
+items:
+    fill:
+        material: GRAY_STAINED_GLASS_PANE
+        name: '&7'
+    no-recipe:
+        material: RED_STAINED_GLASS_PANE
+        name: '&cChưa Chọn Công Thức'
+    no-queue-item:
+        material: BLACK_STAINED_GLASS_PANE
+        name: '&7Ô Hàng Chờ Trống'
+
+recipes:
+    # --- GHÉP ĐÁ CƯỜNG HÓA VŨ KHÍ (8 SƠ/TRUNG/CAO -> 1 CẤP TRÊN) ---
+    ghep-da-vk-trung-cap:
+        output:
+            type: CONSUMABLE
+            id: DA_CUONG_HOA_VU_KHI_TRUNG_CAP
+            amount: 1
+        name: "&e✦ Ghép Đá Vũ Khí Trung Cấp &7[8 -> 1]"
+        crafting-time: 0
+        ingredients:
+        - mmoitem{type=CONSUMABLE,id=DA_CUONG_HOA_VU_KHI_SO_CAP,amount=8,display="Đá Cường Hóa Vũ Khí Sơ Cấp"}
+
+    ghep-da-vk-cao-cap:
+        output:
+            type: CONSUMABLE
+            id: DA_CUONG_HOA_VU_KHI_CAO_CAP
+            amount: 1
+        name: "&6✦ Ghép Đá Vũ Khí Cao Cấp &7[8 -> 1]"
+        crafting-time: 0
+        ingredients:
+        - mmoitem{type=CONSUMABLE,id=DA_CUONG_HOA_VU_KHI_TRUNG_CAP,amount=8,display="Đá Cường Hóa Vũ Khí Trung Cấp"}
+
+    ghep-da-vk-sieu-cap:
+        output:
+            type: CONSUMABLE
+            id: DA_CUONG_HOA_VU_KHI_SIEU_CAP
+            amount: 1
+        name: "&c✦ Ghép Đá Vũ Khí Siêu Cấp &7[8 -> 1]"
+        crafting-time: 0
+        ingredients:
+        - mmoitem{type=CONSUMABLE,id=DA_CUONG_HOA_VU_KHI_CAO_CAP,amount=8,display="Đá Cường Hóa Vũ Khí Cao Cấp"}
+
+    ghep-da-vk-huyen-thoai:
+        output:
+            type: CONSUMABLE
+            id: DA_CUONG_HOA_VU_KHI_HUYEN_THOAI
+            amount: 1
+        name: "&d&l✦ Ghép Đá Vũ Khí Huyền Thoại &7[8 -> 1]"
+        crafting-time: 0
+        ingredients:
+        - mmoitem{type=CONSUMABLE,id=DA_CUONG_HOA_VU_KHI_SIEU_CAP,amount=8,display="Đá Cường Hóa Vũ Khí Siêu Cấp"}
+
+    # --- GHÉP ĐÁ CƯỜNG HÓA GIÁP (8 SƠ/TRUNG/CAO -> 1 CẤP TRÊN) ---
+    ghep-da-giap-trung-cap:
+        output:
+            type: CONSUMABLE
+            id: DA_CUONG_HOA_GIAP_TRUNG_CAP
+            amount: 1
+        name: "&e✦ Ghép Đá Giáp Trung Cấp &7[8 -> 1]"
+        crafting-time: 0
+        ingredients:
+        - mmoitem{type=CONSUMABLE,id=DA_CUONG_HOA_GIAP_SO_CAP,amount=8,display="Đá Cường Hóa Giáp Sơ Cấp"}
+
+    ghep-da-giap-cao-cap:
+        output:
+            type: CONSUMABLE
+            id: DA_CUONG_HOA_GIAP_CAO_CAP
+            amount: 1
+        name: "&6✦ Ghép Đá Giáp Cao Cấp &7[8 -> 1]"
+        crafting-time: 0
+        ingredients:
+        - mmoitem{type=CONSUMABLE,id=DA_CUONG_HOA_GIAP_TRUNG_CAP,amount=8,display="Đá Cường Hóa Giáp Trung Cấp"}
+
+    ghep-da-giap-sieu-cap:
+        output:
+            type: CONSUMABLE
+            id: DA_CUONG_HOA_GIAP_SIEU_CAP
+            amount: 1
+        name: "&c✦ Ghép Đá Giáp Siêu Cấp &7[8 -> 1]"
+        crafting-time: 0
+        ingredients:
+        - mmoitem{type=CONSUMABLE,id=DA_CUONG_HOA_GIAP_CAO_CAP,amount=8,display="Đá Cường Hóa Giáp Cao Cấp"}
+
+    ghep-da-giap-huyen-thoai:
+        output:
+            type: CONSUMABLE
+            id: DA_CUONG_HOA_GIAP_HUYEN_THOAI
+            amount: 1
+        name: "&d&l✦ Ghép Đá Giáp Huyền Thoại &7[8 -> 1]"
+        crafting-time: 0
+        ingredients:
+        - mmoitem{type=CONSUMABLE,id=DA_CUONG_HOA_GIAP_SIEU_CAP,amount=8,display="Đá Cường Hóa Giáp Siêu Cấp"}
+
+    # --- GHÉP ĐÁ THIÊN MỆNH HOÀN HẢO ---
+    ghep-da-thien-menh-vk:
+        output:
+            type: CONSUMABLE
+            id: DA_CUONG_HOA_THIEN_MENH
+            amount: 1
+        name: "&d&l✦ Ghép Đá Thiên Mệnh (Từ Đá Vũ Khí HT) &7[8 -> 1]"
+        crafting-time: 0
+        ingredients:
+        - mmoitem{type=CONSUMABLE,id=DA_CUONG_HOA_VU_KHI_HUYEN_THOAI,amount=8,display="Đá Cường Hóa Vũ Khí Huyền Thoại"}
+
+    ghep-da-thien-menh-giap:
+        output:
+            type: CONSUMABLE
+            id: DA_CUONG_HOA_THIEN_MENH
+            amount: 1
+        name: "&d&l✦ Ghép Đá Thiên Mệnh (Từ Đá Giáp HT) &7[8 -> 1]"
+        crafting-time: 0
+        ingredients:
+        - mmoitem{type=CONSUMABLE,id=DA_CUONG_HOA_GIAP_HUYEN_THOAI,amount=8,display="Đá Cường Hóa Giáp Huyền Thoại"}

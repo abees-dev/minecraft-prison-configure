@@ -8,18 +8,21 @@ PICKAXE_TAN_BINH_1:
     lore-format: tool-lore
     lore:
       - "&b&l✦ Tiểu Sử"
-      - "&7 &b●&7 Cúp khởi đầu của mọi tù nhân"
-      - "&7 &b●&7 Nâng cấp tại Lò Rèn để lên cấp tiếp theo"
+      - "&7 &b●&7 Dụng cụ đào khoáng chuyên dụng của Tân Binh"
+      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng cấp & hiệu suất đào"
     enchants:
       efficiency: 1.0
-      fortune: 1.0
-      unbreaking: 1.0
-    pickaxe-power: 1.0
+      fortune: 1
+      unbreaking: 1
+    pickaxe-power: 1
+    custom-miningefficiency: 1.0
+    custom-miningfortune: 1
+    custom-miningunbreaking: 1
+    upgrade:
+      template: pickaxe-tan-binh-template
+      max: 100
     will-break: false
     unbreakable: false
-    custom-miningefficiency: 1.0
-    custom-miningfortune: 1.0
-    custom-miningunbreaking: 1.0
 
 PICKAXE_TAN_BINH_2:
   base:
@@ -31,18 +34,21 @@ PICKAXE_TAN_BINH_2:
     lore-format: tool-lore
     lore:
       - "&b&l✦ Tiểu Sử"
-      - "&7 &b●&7 Cúp khởi đầu của mọi tù nhân"
-      - "&7 &b●&7 Nâng cấp tại Lò Rèn để lên cấp tiếp theo"
+      - "&7 &b●&7 Dụng cụ đào khoáng chuyên dụng của Tân Binh"
+      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng cấp & hiệu suất đào"
     enchants:
-      efficiency: 2.0
-      fortune: 1.0
-      unbreaking: 1.0
-    pickaxe-power: 2.0
+      efficiency: 1.3
+      fortune: 1
+      unbreaking: 1
+    pickaxe-power: 1
+    custom-miningefficiency: 1.3
+    custom-miningfortune: 1
+    custom-miningunbreaking: 1
+    upgrade:
+      template: pickaxe-tan-binh-template
+      max: 100
     will-break: false
     unbreakable: false
-    custom-miningefficiency: 2.0
-    custom-miningfortune: 1.0
-    custom-miningunbreaking: 1.0
 
 PICKAXE_TAN_BINH_3:
   base:
@@ -54,18 +60,21 @@ PICKAXE_TAN_BINH_3:
     lore-format: tool-lore
     lore:
       - "&b&l✦ Tiểu Sử"
-      - "&7 &b●&7 Cúp khởi đầu của mọi tù nhân"
-      - "&7 &b●&7 Nâng cấp tại Lò Rèn để lên cấp tiếp theo"
+      - "&7 &b●&7 Dụng cụ đào khoáng chuyên dụng của Tân Binh"
+      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng cấp & hiệu suất đào"
     enchants:
-      efficiency: 2.0
-      fortune: 2.0
-      unbreaking: 1.0
-    pickaxe-power: 3.0
+      efficiency: 1.6
+      fortune: 1
+      unbreaking: 1
+    pickaxe-power: 1
+    custom-miningefficiency: 1.6
+    custom-miningfortune: 1
+    custom-miningunbreaking: 1
+    upgrade:
+      template: pickaxe-tan-binh-template
+      max: 100
     will-break: false
     unbreakable: false
-    custom-miningefficiency: 2.0
-    custom-miningfortune: 2.0
-    custom-miningunbreaking: 1.0
 
 PICKAXE_TAN_BINH_4:
   base:
@@ -77,18 +86,21 @@ PICKAXE_TAN_BINH_4:
     lore-format: tool-lore
     lore:
       - "&b&l✦ Tiểu Sử"
-      - "&7 &b●&7 Cúp khởi đầu của mọi tù nhân"
-      - "&7 &b●&7 Nâng cấp tại Lò Rèn để lên cấp tiếp theo"
+      - "&7 &b●&7 Dụng cụ đào khoáng chuyên dụng của Tân Binh"
+      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng cấp & hiệu suất đào"
     enchants:
-      efficiency: 2.0
-      fortune: 2.0
-      unbreaking: 2.0
-    pickaxe-power: 4.0
+      efficiency: 1.9
+      fortune: 1
+      unbreaking: 1
+    pickaxe-power: 1
+    custom-miningefficiency: 1.9
+    custom-miningfortune: 1
+    custom-miningunbreaking: 1
+    upgrade:
+      template: pickaxe-tan-binh-template
+      max: 100
     will-break: false
     unbreakable: false
-    custom-miningefficiency: 2.0
-    custom-miningfortune: 2.0
-    custom-miningunbreaking: 2.0
 
 PICKAXE_TAN_BINH_5:
   base:
@@ -100,18 +112,21 @@ PICKAXE_TAN_BINH_5:
     lore-format: tool-lore
     lore:
       - "&b&l✦ Tiểu Sử"
-      - "&7 &b●&7 Cúp khởi đầu của mọi tù nhân"
-      - "&7 &b●&7 Cấp tối đa của rank Tân Binh"
+      - "&7 &b●&7 Dụng cụ đào khoáng chuyên dụng của Tân Binh"
+      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng cấp & hiệu suất đào"
     enchants:
-      efficiency: 3.0
-      fortune: 2.0
-      unbreaking: 2.0
-    pickaxe-power: 5.0
+      efficiency: 2.2
+      fortune: 2
+      unbreaking: 2
+    pickaxe-power: 1
+    custom-miningefficiency: 2.2
+    custom-miningfortune: 2
+    custom-miningunbreaking: 2
+    upgrade:
+      template: pickaxe-tan-binh-template
+      max: 100
     will-break: false
     unbreakable: false
-    custom-miningefficiency: 3.0
-    custom-miningfortune: 2.0
-    custom-miningunbreaking: 2.0
 
 PICKAXE_TU_NHAN_1:
   base:
@@ -123,18 +138,21 @@ PICKAXE_TU_NHAN_1:
     lore-format: tool-lore
     lore:
       - "&b&l✦ Tiểu Sử"
-      - "&7 &b●&7 Dành cho ai đã quen việc đào bới"
-      - "&7 &b●&7 Nâng cấp tại Lò Rèn để lên cấp tiếp theo"
+      - "&7 &b●&7 Dụng cụ đào khoáng chuyên dụng của Tù Nhân"
+      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng cấp & hiệu suất đào"
     enchants:
-      efficiency: 3.0
-      fortune: 3.0
-      unbreaking: 2.0
-    pickaxe-power: 6.0
+      efficiency: 2.5
+      fortune: 1
+      unbreaking: 1
+    pickaxe-power: 2
+    custom-miningefficiency: 2.5
+    custom-miningfortune: 1
+    custom-miningunbreaking: 1
+    upgrade:
+      template: pickaxe-tu-nhan-template
+      max: 100
     will-break: false
     unbreakable: false
-    custom-miningefficiency: 3.0
-    custom-miningfortune: 3.0
-    custom-miningunbreaking: 2.0
 
 PICKAXE_TU_NHAN_2:
   base:
@@ -146,18 +164,21 @@ PICKAXE_TU_NHAN_2:
     lore-format: tool-lore
     lore:
       - "&b&l✦ Tiểu Sử"
-      - "&7 &b●&7 Dành cho ai đã quen việc đào bới"
-      - "&7 &b●&7 Nâng cấp tại Lò Rèn để lên cấp tiếp theo"
+      - "&7 &b●&7 Dụng cụ đào khoáng chuyên dụng của Tù Nhân"
+      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng cấp & hiệu suất đào"
     enchants:
-      efficiency: 3.0
-      fortune: 3.0
-      unbreaking: 3.0
-    pickaxe-power: 7.0
+      efficiency: 2.8
+      fortune: 2
+      unbreaking: 2
+    pickaxe-power: 2
+    custom-miningefficiency: 2.8
+    custom-miningfortune: 2
+    custom-miningunbreaking: 2
+    upgrade:
+      template: pickaxe-tu-nhan-template
+      max: 100
     will-break: false
     unbreakable: false
-    custom-miningefficiency: 3.0
-    custom-miningfortune: 3.0
-    custom-miningunbreaking: 3.0
 
 PICKAXE_TU_NHAN_3:
   base:
@@ -169,18 +190,21 @@ PICKAXE_TU_NHAN_3:
     lore-format: tool-lore
     lore:
       - "&b&l✦ Tiểu Sử"
-      - "&7 &b●&7 Dành cho ai đã quen việc đào bới"
-      - "&7 &b●&7 Nâng cấp tại Lò Rèn để lên cấp tiếp theo"
+      - "&7 &b●&7 Dụng cụ đào khoáng chuyên dụng của Tù Nhân"
+      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng cấp & hiệu suất đào"
     enchants:
-      efficiency: 4.0
-      fortune: 3.0
-      unbreaking: 3.0
-    pickaxe-power: 8.0
+      efficiency: 3.1
+      fortune: 2
+      unbreaking: 2
+    pickaxe-power: 2
+    custom-miningefficiency: 3.1
+    custom-miningfortune: 2
+    custom-miningunbreaking: 2
+    upgrade:
+      template: pickaxe-tu-nhan-template
+      max: 100
     will-break: false
     unbreakable: false
-    custom-miningefficiency: 4.0
-    custom-miningfortune: 3.0
-    custom-miningunbreaking: 3.0
 
 PICKAXE_TU_NHAN_4:
   base:
@@ -192,18 +216,21 @@ PICKAXE_TU_NHAN_4:
     lore-format: tool-lore
     lore:
       - "&b&l✦ Tiểu Sử"
-      - "&7 &b●&7 Dành cho ai đã quen việc đào bới"
-      - "&7 &b●&7 Nâng cấp tại Lò Rèn để lên cấp tiếp theo"
+      - "&7 &b●&7 Dụng cụ đào khoáng chuyên dụng của Tù Nhân"
+      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng cấp & hiệu suất đào"
     enchants:
-      efficiency: 4.0
-      fortune: 4.0
-      unbreaking: 3.0
-    pickaxe-power: 9.0
+      efficiency: 3.4
+      fortune: 2
+      unbreaking: 2
+    pickaxe-power: 2
+    custom-miningefficiency: 3.4
+    custom-miningfortune: 2
+    custom-miningunbreaking: 2
+    upgrade:
+      template: pickaxe-tu-nhan-template
+      max: 100
     will-break: false
     unbreakable: false
-    custom-miningefficiency: 4.0
-    custom-miningfortune: 4.0
-    custom-miningunbreaking: 3.0
 
 PICKAXE_TU_NHAN_5:
   base:
@@ -215,18 +242,21 @@ PICKAXE_TU_NHAN_5:
     lore-format: tool-lore
     lore:
       - "&b&l✦ Tiểu Sử"
-      - "&7 &b●&7 Dành cho ai đã quen việc đào bới"
-      - "&7 &b●&7 Cấp tối đa của rank Tù Nhân"
+      - "&7 &b●&7 Dụng cụ đào khoáng chuyên dụng của Tù Nhân"
+      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng cấp & hiệu suất đào"
     enchants:
-      efficiency: 4.0
-      fortune: 4.0
-      unbreaking: 4.0
-    pickaxe-power: 10.0
+      efficiency: 3.7
+      fortune: 2
+      unbreaking: 2
+    pickaxe-power: 2
+    custom-miningefficiency: 3.7
+    custom-miningfortune: 2
+    custom-miningunbreaking: 2
+    upgrade:
+      template: pickaxe-tu-nhan-template
+      max: 100
     will-break: false
     unbreakable: false
-    custom-miningefficiency: 4.0
-    custom-miningfortune: 4.0
-    custom-miningunbreaking: 4.0
 
 PICKAXE_LAO_CONG_1:
   base:
@@ -238,20 +268,23 @@ PICKAXE_LAO_CONG_1:
     lore-format: tool-lore
     lore:
       - "&b&l✦ Tiểu Sử"
-      - "&7 &b●&7 Dấu ấn của người lao động chính thức"
-      - "&7 &b●&7 Nâng cấp tại Lò Rèn để lên cấp tiếp theo"
+      - "&7 &b●&7 Dụng cụ đào khoáng chuyên dụng của Lao Công"
+      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng cấp & hiệu suất đào"
     enchants:
-      efficiency: 5.0
-      fortune: 4.0
-      unbreaking: 4.0
-    pickaxe-power: 11.0
+      efficiency: 4.0
+      fortune: 2
+      unbreaking: 2
+    pickaxe-power: 3
+    custom-miningefficiency: 4.0
+    custom-miningfortune: 2
+    custom-miningunbreaking: 2
     gem-sockets:
       - Uncolored
+    upgrade:
+      template: pickaxe-lao-cong-template
+      max: 100
     will-break: false
     unbreakable: false
-    custom-miningefficiency: 5.0
-    custom-miningfortune: 4.0
-    custom-miningunbreaking: 4.0
 
 PICKAXE_LAO_CONG_2:
   base:
@@ -263,20 +296,23 @@ PICKAXE_LAO_CONG_2:
     lore-format: tool-lore
     lore:
       - "&b&l✦ Tiểu Sử"
-      - "&7 &b●&7 Dấu ấn của người lao động chính thức"
-      - "&7 &b●&7 Nâng cấp tại Lò Rèn để lên cấp tiếp theo"
+      - "&7 &b●&7 Dụng cụ đào khoáng chuyên dụng của Lao Công"
+      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng cấp & hiệu suất đào"
     enchants:
-      efficiency: 5.0
-      fortune: 5.0
-      unbreaking: 4.0
-    pickaxe-power: 12.0
+      efficiency: 4.3
+      fortune: 2
+      unbreaking: 2
+    pickaxe-power: 3
+    custom-miningefficiency: 4.3
+    custom-miningfortune: 2
+    custom-miningunbreaking: 2
     gem-sockets:
       - Uncolored
+    upgrade:
+      template: pickaxe-lao-cong-template
+      max: 100
     will-break: false
     unbreakable: false
-    custom-miningefficiency: 5.0
-    custom-miningfortune: 5.0
-    custom-miningunbreaking: 4.0
 
 PICKAXE_LAO_CONG_3:
   base:
@@ -288,20 +324,23 @@ PICKAXE_LAO_CONG_3:
     lore-format: tool-lore
     lore:
       - "&b&l✦ Tiểu Sử"
-      - "&7 &b●&7 Dấu ấn của người lao động chính thức"
-      - "&7 &b●&7 Nâng cấp tại Lò Rèn để lên cấp tiếp theo"
+      - "&7 &b●&7 Dụng cụ đào khoáng chuyên dụng của Lao Công"
+      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng cấp & hiệu suất đào"
     enchants:
-      efficiency: 5.0
-      fortune: 5.0
-      unbreaking: 5.0
-    pickaxe-power: 13.0
+      efficiency: 4.6
+      fortune: 3
+      unbreaking: 3
+    pickaxe-power: 3
+    custom-miningefficiency: 4.6
+    custom-miningfortune: 3
+    custom-miningunbreaking: 3
     gem-sockets:
       - Uncolored
+    upgrade:
+      template: pickaxe-lao-cong-template
+      max: 100
     will-break: false
     unbreakable: false
-    custom-miningefficiency: 5.0
-    custom-miningfortune: 5.0
-    custom-miningunbreaking: 5.0
 
 PICKAXE_LAO_CONG_4:
   base:
@@ -313,20 +352,23 @@ PICKAXE_LAO_CONG_4:
     lore-format: tool-lore
     lore:
       - "&b&l✦ Tiểu Sử"
-      - "&7 &b●&7 Dấu ấn của người lao động chính thức"
-      - "&7 &b●&7 Nâng cấp tại Lò Rèn để lên cấp tiếp theo"
+      - "&7 &b●&7 Dụng cụ đào khoáng chuyên dụng của Lao Công"
+      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng cấp & hiệu suất đào"
     enchants:
-      efficiency: 6.0
-      fortune: 5.0
-      unbreaking: 5.0
-    pickaxe-power: 14.0
+      efficiency: 4.9
+      fortune: 3
+      unbreaking: 3
+    pickaxe-power: 3
+    custom-miningefficiency: 4.9
+    custom-miningfortune: 3
+    custom-miningunbreaking: 3
     gem-sockets:
       - Uncolored
+    upgrade:
+      template: pickaxe-lao-cong-template
+      max: 100
     will-break: false
     unbreakable: false
-    custom-miningefficiency: 6.0
-    custom-miningfortune: 5.0
-    custom-miningunbreaking: 5.0
 
 PICKAXE_LAO_CONG_5:
   base:
@@ -338,861 +380,946 @@ PICKAXE_LAO_CONG_5:
     lore-format: tool-lore
     lore:
       - "&b&l✦ Tiểu Sử"
-      - "&7 &b●&7 Dấu ấn của người lao động chính thức"
-      - "&7 &b●&7 Cấp tối đa của rank Lao Công"
+      - "&7 &b●&7 Dụng cụ đào khoáng chuyên dụng của Lao Công"
+      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng cấp & hiệu suất đào"
     enchants:
-      efficiency: 6.0
-      fortune: 6.0
-      unbreaking: 5.0
-    pickaxe-power: 15.0
+      efficiency: 5.2
+      fortune: 3
+      unbreaking: 3
+    pickaxe-power: 3
+    custom-miningefficiency: 5.2
+    custom-miningfortune: 3
+    custom-miningunbreaking: 3
     gem-sockets:
       - Uncolored
+    upgrade:
+      template: pickaxe-lao-cong-template
+      max: 100
     will-break: false
     unbreakable: false
-    custom-miningefficiency: 6.0
-    custom-miningfortune: 6.0
-    custom-miningunbreaking: 5.0
 
 PICKAXE_THO_DAO_1:
   base:
     material: IRON_PICKAXE
     name: "&eCúp Thợ Đào &e&lI"
-    max-durability: 3000
+    max-durability: 3500
     tier: RARE
     hide-enchants: true
     lore-format: tool-lore
     lore:
       - "&b&l✦ Tiểu Sử"
-      - "&7 &b●&7 Đôi tay lành nghề, mạch quặng khó thoát"
-      - "&7 &b●&7 Nâng cấp tại Lò Rèn để lên cấp tiếp theo"
+      - "&7 &b●&7 Dụng cụ đào khoáng chuyên dụng của Thợ Đào"
+      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng cấp & hiệu suất đào"
     enchants:
-      efficiency: 6.0
-      fortune: 6.0
-      unbreaking: 6.0
-    pickaxe-power: 16.0
+      efficiency: 5.5
+      fortune: 3
+      unbreaking: 3
+    pickaxe-power: 4
+    custom-miningefficiency: 5.5
+    custom-miningfortune: 3
+    custom-miningunbreaking: 3
     gem-sockets:
       - Uncolored
       - Uncolored
+    upgrade:
+      template: pickaxe-tho-dao-template
+      max: 100
     will-break: false
     unbreakable: false
-    custom-miningefficiency: 6.0
-    custom-miningfortune: 6.0
-    custom-miningunbreaking: 6.0
 
 PICKAXE_THO_DAO_2:
   base:
     material: IRON_PICKAXE
     name: "&eCúp Thợ Đào &e&lII"
-    max-durability: 3000
+    max-durability: 3500
     tier: RARE
     hide-enchants: true
     lore-format: tool-lore
     lore:
       - "&b&l✦ Tiểu Sử"
-      - "&7 &b●&7 Đôi tay lành nghề, mạch quặng khó thoát"
-      - "&7 &b●&7 Nâng cấp tại Lò Rèn để lên cấp tiếp theo"
+      - "&7 &b●&7 Dụng cụ đào khoáng chuyên dụng của Thợ Đào"
+      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng cấp & hiệu suất đào"
     enchants:
-      efficiency: 7.0
-      fortune: 6.0
-      unbreaking: 6.0
-    pickaxe-power: 17.0
+      efficiency: 5.8
+      fortune: 3
+      unbreaking: 3
+    pickaxe-power: 4
+    custom-miningefficiency: 5.8
+    custom-miningfortune: 3
+    custom-miningunbreaking: 3
     gem-sockets:
       - Uncolored
       - Uncolored
+    upgrade:
+      template: pickaxe-tho-dao-template
+      max: 100
     will-break: false
     unbreakable: false
-    custom-miningefficiency: 7.0
-    custom-miningfortune: 6.0
-    custom-miningunbreaking: 6.0
 
 PICKAXE_THO_DAO_3:
   base:
     material: IRON_PICKAXE
     name: "&eCúp Thợ Đào &e&lIII"
-    max-durability: 3000
+    max-durability: 3500
     tier: RARE
     hide-enchants: true
     lore-format: tool-lore
     lore:
       - "&b&l✦ Tiểu Sử"
-      - "&7 &b●&7 Đôi tay lành nghề, mạch quặng khó thoát"
-      - "&7 &b●&7 Nâng cấp tại Lò Rèn để lên cấp tiếp theo"
+      - "&7 &b●&7 Dụng cụ đào khoáng chuyên dụng của Thợ Đào"
+      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng cấp & hiệu suất đào"
     enchants:
-      efficiency: 7.0
-      fortune: 7.0
-      unbreaking: 6.0
-    pickaxe-power: 18.0
+      efficiency: 6.1
+      fortune: 3
+      unbreaking: 3
+    pickaxe-power: 4
+    custom-miningefficiency: 6.1
+    custom-miningfortune: 3
+    custom-miningunbreaking: 3
     gem-sockets:
       - Uncolored
       - Uncolored
+    upgrade:
+      template: pickaxe-tho-dao-template
+      max: 100
     will-break: false
     unbreakable: false
-    custom-miningefficiency: 7.0
-    custom-miningfortune: 7.0
-    custom-miningunbreaking: 6.0
 
 PICKAXE_THO_DAO_4:
   base:
     material: IRON_PICKAXE
     name: "&eCúp Thợ Đào &e&lIV"
-    max-durability: 3000
+    max-durability: 3500
     tier: RARE
     hide-enchants: true
     lore-format: tool-lore
     lore:
       - "&b&l✦ Tiểu Sử"
-      - "&7 &b●&7 Đôi tay lành nghề, mạch quặng khó thoát"
-      - "&7 &b●&7 Nâng cấp tại Lò Rèn để lên cấp tiếp theo"
+      - "&7 &b●&7 Dụng cụ đào khoáng chuyên dụng của Thợ Đào"
+      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng cấp & hiệu suất đào"
     enchants:
-      efficiency: 7.0
-      fortune: 7.0
-      unbreaking: 7.0
-    pickaxe-power: 19.0
+      efficiency: 6.4
+      fortune: 4
+      unbreaking: 4
+    pickaxe-power: 4
+    custom-miningefficiency: 6.4
+    custom-miningfortune: 4
+    custom-miningunbreaking: 4
     gem-sockets:
       - Uncolored
       - Uncolored
+    upgrade:
+      template: pickaxe-tho-dao-template
+      max: 100
     will-break: false
     unbreakable: false
-    custom-miningefficiency: 7.0
-    custom-miningfortune: 7.0
-    custom-miningunbreaking: 7.0
 
 PICKAXE_THO_DAO_5:
   base:
     material: IRON_PICKAXE
     name: "&eCúp Thợ Đào &e&lV"
-    max-durability: 3000
+    max-durability: 3500
     tier: RARE
     hide-enchants: true
     lore-format: tool-lore
     lore:
       - "&b&l✦ Tiểu Sử"
-      - "&7 &b●&7 Đôi tay lành nghề, mạch quặng khó thoát"
-      - "&7 &b●&7 Cấp tối đa của rank Thợ Đào"
+      - "&7 &b●&7 Dụng cụ đào khoáng chuyên dụng của Thợ Đào"
+      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng cấp & hiệu suất đào"
     enchants:
-      efficiency: 8.0
-      fortune: 7.0
-      unbreaking: 7.0
-    pickaxe-power: 20.0
+      efficiency: 6.7
+      fortune: 4
+      unbreaking: 4
+    pickaxe-power: 4
+    custom-miningefficiency: 6.7
+    custom-miningfortune: 4
+    custom-miningunbreaking: 4
     gem-sockets:
       - Uncolored
       - Uncolored
+    upgrade:
+      template: pickaxe-tho-dao-template
+      max: 100
     will-break: false
     unbreakable: false
-    custom-miningefficiency: 8.0
-    custom-miningfortune: 7.0
-    custom-miningunbreaking: 7.0
 
 PICKAXE_DOI_TRUONG_1:
   base:
     material: DIAMOND_PICKAXE
     name: "&6Cúp Đội Trưởng &e&lI"
-    max-durability: 4500
+    max-durability: 5000
     tier: VERY_RARE
     hide-enchants: true
     lore-format: tool-lore
     lore:
       - "&b&l✦ Tiểu Sử"
-      - "&7 &b●&7 Dẫn dắt cả đội đào xuyên lòng đất"
-      - "&7 &b●&7 Nâng cấp tại Lò Rèn để lên cấp tiếp theo"
+      - "&7 &b●&7 Dụng cụ đào khoáng chuyên dụng của Đội Trưởng"
+      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng cấp & hiệu suất đào"
     enchants:
-      efficiency: 8.0
-      fortune: 8.0
-      unbreaking: 7.0
-    pickaxe-power: 21.0
+      efficiency: 7.0
+      fortune: 4
+      unbreaking: 4
+    pickaxe-power: 5
+    custom-miningefficiency: 7.0
+    custom-miningfortune: 4
+    custom-miningunbreaking: 4
     gem-sockets:
       - Uncolored
       - Uncolored
       - Uncolored
+    upgrade:
+      template: pickaxe-doi-truong-template
+      max: 100
     will-break: false
     unbreakable: false
-    custom-miningefficiency: 8.0
-    custom-miningfortune: 8.0
-    custom-miningunbreaking: 7.0
 
 PICKAXE_DOI_TRUONG_2:
   base:
     material: DIAMOND_PICKAXE
     name: "&6Cúp Đội Trưởng &e&lII"
-    max-durability: 4500
+    max-durability: 5000
     tier: VERY_RARE
     hide-enchants: true
     lore-format: tool-lore
     lore:
       - "&b&l✦ Tiểu Sử"
-      - "&7 &b●&7 Dẫn dắt cả đội đào xuyên lòng đất"
-      - "&7 &b●&7 Nâng cấp tại Lò Rèn để lên cấp tiếp theo"
+      - "&7 &b●&7 Dụng cụ đào khoáng chuyên dụng của Đội Trưởng"
+      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng cấp & hiệu suất đào"
     enchants:
-      efficiency: 8.0
-      fortune: 8.0
-      unbreaking: 8.0
-    pickaxe-power: 22.0
+      efficiency: 7.3
+      fortune: 4
+      unbreaking: 4
+    pickaxe-power: 5
+    custom-miningefficiency: 7.3
+    custom-miningfortune: 4
+    custom-miningunbreaking: 4
     gem-sockets:
       - Uncolored
       - Uncolored
       - Uncolored
+    upgrade:
+      template: pickaxe-doi-truong-template
+      max: 100
     will-break: false
     unbreakable: false
-    custom-miningefficiency: 8.0
-    custom-miningfortune: 8.0
-    custom-miningunbreaking: 8.0
 
 PICKAXE_DOI_TRUONG_3:
   base:
     material: DIAMOND_PICKAXE
     name: "&6Cúp Đội Trưởng &e&lIII"
-    max-durability: 4500
+    max-durability: 5000
     tier: VERY_RARE
     hide-enchants: true
     lore-format: tool-lore
     lore:
       - "&b&l✦ Tiểu Sử"
-      - "&7 &b●&7 Dẫn dắt cả đội đào xuyên lòng đất"
-      - "&7 &b●&7 Nâng cấp tại Lò Rèn để lên cấp tiếp theo"
+      - "&7 &b●&7 Dụng cụ đào khoáng chuyên dụng của Đội Trưởng"
+      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng cấp & hiệu suất đào"
     enchants:
-      efficiency: 9.0
-      fortune: 8.0
-      unbreaking: 8.0
-    pickaxe-power: 23.0
+      efficiency: 7.6
+      fortune: 4
+      unbreaking: 4
+    pickaxe-power: 5
+    custom-miningefficiency: 7.6
+    custom-miningfortune: 4
+    custom-miningunbreaking: 4
     gem-sockets:
       - Uncolored
       - Uncolored
       - Uncolored
+    upgrade:
+      template: pickaxe-doi-truong-template
+      max: 100
     will-break: false
     unbreakable: false
-    custom-miningefficiency: 9.0
-    custom-miningfortune: 8.0
-    custom-miningunbreaking: 8.0
 
 PICKAXE_DOI_TRUONG_4:
   base:
     material: DIAMOND_PICKAXE
     name: "&6Cúp Đội Trưởng &e&lIV"
-    max-durability: 4500
+    max-durability: 5000
     tier: VERY_RARE
     hide-enchants: true
     lore-format: tool-lore
     lore:
       - "&b&l✦ Tiểu Sử"
-      - "&7 &b●&7 Dẫn dắt cả đội đào xuyên lòng đất"
-      - "&7 &b●&7 Nâng cấp tại Lò Rèn để lên cấp tiếp theo"
+      - "&7 &b●&7 Dụng cụ đào khoáng chuyên dụng của Đội Trưởng"
+      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng cấp & hiệu suất đào"
     enchants:
-      efficiency: 9.0
-      fortune: 9.0
-      unbreaking: 8.0
-    pickaxe-power: 24.0
+      efficiency: 7.9
+      fortune: 4
+      unbreaking: 4
+    pickaxe-power: 5
+    custom-miningefficiency: 7.9
+    custom-miningfortune: 4
+    custom-miningunbreaking: 4
     gem-sockets:
       - Uncolored
       - Uncolored
       - Uncolored
+    upgrade:
+      template: pickaxe-doi-truong-template
+      max: 100
     will-break: false
     unbreakable: false
-    custom-miningefficiency: 9.0
-    custom-miningfortune: 9.0
-    custom-miningunbreaking: 8.0
 
 PICKAXE_DOI_TRUONG_5:
   base:
     material: DIAMOND_PICKAXE
     name: "&6Cúp Đội Trưởng &e&lV"
-    max-durability: 4500
+    max-durability: 5000
     tier: VERY_RARE
     hide-enchants: true
     lore-format: tool-lore
     lore:
       - "&b&l✦ Tiểu Sử"
-      - "&7 &b●&7 Dẫn dắt cả đội đào xuyên lòng đất"
-      - "&7 &b●&7 Cấp tối đa của rank Đội Trưởng"
+      - "&7 &b●&7 Dụng cụ đào khoáng chuyên dụng của Đội Trưởng"
+      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng cấp & hiệu suất đào"
     enchants:
-      efficiency: 9.0
-      fortune: 9.0
-      unbreaking: 9.0
-    pickaxe-power: 25.0
+      efficiency: 8.2
+      fortune: 5
+      unbreaking: 5
+    pickaxe-power: 5
+    custom-miningefficiency: 8.2
+    custom-miningfortune: 5
+    custom-miningunbreaking: 5
     gem-sockets:
       - Uncolored
       - Uncolored
       - Uncolored
+    upgrade:
+      template: pickaxe-doi-truong-template
+      max: 100
     will-break: false
     unbreakable: false
-    custom-miningefficiency: 9.0
-    custom-miningfortune: 9.0
-    custom-miningunbreaking: 9.0
 
 PICKAXE_PHO_QUAN_NGUC_1:
   base:
     material: DIAMOND_PICKAXE
     name: "&cCúp Phó Quản Ngục &e&lI"
-    max-durability: 6000
+    max-durability: 7000
     tier: LEGENDARY
     hide-enchants: true
     lore-format: tool-lore
     lore:
       - "&b&l✦ Tiểu Sử"
-      - "&7 &b●&7 Quyền lực đi kèm trách nhiệm"
-      - "&7 &b●&7 Nâng cấp tại Lò Rèn để lên cấp tiếp theo"
+      - "&7 &b●&7 Dụng cụ đào khoáng chuyên dụng của Phó Quản Ngục"
+      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng cấp & hiệu suất đào"
     enchants:
-      efficiency: 10.0
-      fortune: 9.0
-      unbreaking: 9.0
-    pickaxe-power: 26.0
+      efficiency: 8.5
+      fortune: 4
+      unbreaking: 4
+    pickaxe-power: 6
+    custom-miningefficiency: 8.5
+    custom-miningfortune: 4
+    custom-miningunbreaking: 4
     gem-sockets:
       - Uncolored
       - Uncolored
       - Uncolored
       - Uncolored
+    upgrade:
+      template: pickaxe-pho-quan-nguc-template
+      max: 100
     will-break: false
     unbreakable: false
-    custom-miningefficiency: 10.0
-    custom-miningfortune: 9.0
-    custom-miningunbreaking: 9.0
 
 PICKAXE_PHO_QUAN_NGUC_2:
   base:
     material: DIAMOND_PICKAXE
     name: "&cCúp Phó Quản Ngục &e&lII"
-    max-durability: 6000
+    max-durability: 7000
     tier: LEGENDARY
     hide-enchants: true
     lore-format: tool-lore
     lore:
       - "&b&l✦ Tiểu Sử"
-      - "&7 &b●&7 Quyền lực đi kèm trách nhiệm"
-      - "&7 &b●&7 Nâng cấp tại Lò Rèn để lên cấp tiếp theo"
+      - "&7 &b●&7 Dụng cụ đào khoáng chuyên dụng của Phó Quản Ngục"
+      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng cấp & hiệu suất đào"
     enchants:
-      efficiency: 10.0
-      fortune: 10.0
-      unbreaking: 9.0
-    pickaxe-power: 27.0
+      efficiency: 8.8
+      fortune: 5
+      unbreaking: 5
+    pickaxe-power: 6
+    custom-miningefficiency: 8.8
+    custom-miningfortune: 5
+    custom-miningunbreaking: 5
     gem-sockets:
       - Uncolored
       - Uncolored
       - Uncolored
       - Uncolored
+    upgrade:
+      template: pickaxe-pho-quan-nguc-template
+      max: 100
     will-break: false
     unbreakable: false
-    custom-miningefficiency: 10.0
-    custom-miningfortune: 10.0
-    custom-miningunbreaking: 9.0
 
 PICKAXE_PHO_QUAN_NGUC_3:
   base:
     material: DIAMOND_PICKAXE
     name: "&cCúp Phó Quản Ngục &e&lIII"
-    max-durability: 6000
+    max-durability: 7000
     tier: LEGENDARY
     hide-enchants: true
     lore-format: tool-lore
     lore:
       - "&b&l✦ Tiểu Sử"
-      - "&7 &b●&7 Quyền lực đi kèm trách nhiệm"
-      - "&7 &b●&7 Nâng cấp tại Lò Rèn để lên cấp tiếp theo"
+      - "&7 &b●&7 Dụng cụ đào khoáng chuyên dụng của Phó Quản Ngục"
+      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng cấp & hiệu suất đào"
     enchants:
-      efficiency: 10.0
-      fortune: 10.0
-      unbreaking: 10.0
-    pickaxe-power: 28.0
+      efficiency: 9.1
+      fortune: 5
+      unbreaking: 5
+    pickaxe-power: 6
+    custom-miningefficiency: 9.1
+    custom-miningfortune: 5
+    custom-miningunbreaking: 5
     gem-sockets:
       - Uncolored
       - Uncolored
       - Uncolored
       - Uncolored
+    upgrade:
+      template: pickaxe-pho-quan-nguc-template
+      max: 100
     will-break: false
     unbreakable: false
-    custom-miningefficiency: 10.0
-    custom-miningfortune: 10.0
-    custom-miningunbreaking: 10.0
 
 PICKAXE_PHO_QUAN_NGUC_4:
   base:
     material: DIAMOND_PICKAXE
     name: "&cCúp Phó Quản Ngục &e&lIV"
-    max-durability: 6000
+    max-durability: 7000
     tier: LEGENDARY
     hide-enchants: true
     lore-format: tool-lore
     lore:
       - "&b&l✦ Tiểu Sử"
-      - "&7 &b●&7 Quyền lực đi kèm trách nhiệm"
-      - "&7 &b●&7 Nâng cấp tại Lò Rèn để lên cấp tiếp theo"
+      - "&7 &b●&7 Dụng cụ đào khoáng chuyên dụng của Phó Quản Ngục"
+      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng cấp & hiệu suất đào"
     enchants:
-      efficiency: 11.0
-      fortune: 10.0
-      unbreaking: 10.0
-    pickaxe-power: 29.0
+      efficiency: 9.4
+      fortune: 5
+      unbreaking: 5
+    pickaxe-power: 6
+    custom-miningefficiency: 9.4
+    custom-miningfortune: 5
+    custom-miningunbreaking: 5
     gem-sockets:
       - Uncolored
       - Uncolored
       - Uncolored
       - Uncolored
+    upgrade:
+      template: pickaxe-pho-quan-nguc-template
+      max: 100
     will-break: false
     unbreakable: false
-    custom-miningefficiency: 11.0
-    custom-miningfortune: 10.0
-    custom-miningunbreaking: 10.0
 
 PICKAXE_PHO_QUAN_NGUC_5:
   base:
     material: DIAMOND_PICKAXE
     name: "&cCúp Phó Quản Ngục &e&lV"
-    max-durability: 6000
+    max-durability: 7000
     tier: LEGENDARY
     hide-enchants: true
     lore-format: tool-lore
     lore:
       - "&b&l✦ Tiểu Sử"
-      - "&7 &b●&7 Quyền lực đi kèm trách nhiệm"
-      - "&7 &b●&7 Cấp tối đa của rank Phó Quản Ngục"
+      - "&7 &b●&7 Dụng cụ đào khoáng chuyên dụng của Phó Quản Ngục"
+      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng cấp & hiệu suất đào"
     enchants:
-      efficiency: 11.0
-      fortune: 11.0
-      unbreaking: 10.0
-    pickaxe-power: 30.0
+      efficiency: 9.7
+      fortune: 5
+      unbreaking: 5
+    pickaxe-power: 6
+    custom-miningefficiency: 9.7
+    custom-miningfortune: 5
+    custom-miningunbreaking: 5
     gem-sockets:
       - Uncolored
       - Uncolored
       - Uncolored
       - Uncolored
+    upgrade:
+      template: pickaxe-pho-quan-nguc-template
+      max: 100
     will-break: false
     unbreakable: false
-    custom-miningefficiency: 11.0
-    custom-miningfortune: 11.0
-    custom-miningunbreaking: 10.0
 
 PICKAXE_QUAN_NGUC_1:
   base:
     material: NETHERITE_PICKAXE
     name: "&dCúp Quản Ngục &e&lI"
-    max-durability: 8000
+    max-durability: 9500
     tier: MYTHICAL
     hide-enchants: true
     lore-format: tool-lore
     lore:
       - "&b&l✦ Tiểu Sử"
-      - "&7 &b●&7 Cai quản toàn bộ khu mỏ"
-      - "&7 &b●&7 Nâng cấp tại Lò Rèn để lên cấp tiếp theo"
+      - "&7 &b●&7 Dụng cụ đào khoáng chuyên dụng của Quản Ngục"
+      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng cấp & hiệu suất đào"
     enchants:
-      efficiency: 11.0
-      fortune: 11.0
-      unbreaking: 11.0
-    pickaxe-power: 31.0
+      efficiency: 10.0
+      fortune: 5
+      unbreaking: 5
+    pickaxe-power: 7
+    custom-miningefficiency: 10.0
+    custom-miningfortune: 5
+    custom-miningunbreaking: 5
     gem-sockets:
       - Uncolored
       - Uncolored
       - Uncolored
       - Uncolored
+    upgrade:
+      template: pickaxe-quan-nguc-template
+      max: 100
     will-break: false
     unbreakable: false
-    custom-miningefficiency: 11.0
-    custom-miningfortune: 11.0
-    custom-miningunbreaking: 11.0
 
 PICKAXE_QUAN_NGUC_2:
   base:
     material: NETHERITE_PICKAXE
     name: "&dCúp Quản Ngục &e&lII"
-    max-durability: 8000
+    max-durability: 9500
     tier: MYTHICAL
     hide-enchants: true
     lore-format: tool-lore
     lore:
       - "&b&l✦ Tiểu Sử"
-      - "&7 &b●&7 Cai quản toàn bộ khu mỏ"
-      - "&7 &b●&7 Nâng cấp tại Lò Rèn để lên cấp tiếp theo"
+      - "&7 &b●&7 Dụng cụ đào khoáng chuyên dụng của Quản Ngục"
+      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng cấp & hiệu suất đào"
     enchants:
-      efficiency: 12.0
-      fortune: 11.0
-      unbreaking: 11.0
-    pickaxe-power: 32.0
+      efficiency: 10.3
+      fortune: 5
+      unbreaking: 5
+    pickaxe-power: 7
+    custom-miningefficiency: 10.3
+    custom-miningfortune: 5
+    custom-miningunbreaking: 5
     gem-sockets:
       - Uncolored
       - Uncolored
       - Uncolored
       - Uncolored
+    upgrade:
+      template: pickaxe-quan-nguc-template
+      max: 100
     will-break: false
     unbreakable: false
-    custom-miningefficiency: 12.0
-    custom-miningfortune: 11.0
-    custom-miningunbreaking: 11.0
 
 PICKAXE_QUAN_NGUC_3:
   base:
     material: NETHERITE_PICKAXE
     name: "&dCúp Quản Ngục &e&lIII"
-    max-durability: 8000
+    max-durability: 9500
     tier: MYTHICAL
     hide-enchants: true
     lore-format: tool-lore
     lore:
       - "&b&l✦ Tiểu Sử"
-      - "&7 &b●&7 Cai quản toàn bộ khu mỏ"
-      - "&7 &b●&7 Nâng cấp tại Lò Rèn để lên cấp tiếp theo"
+      - "&7 &b●&7 Dụng cụ đào khoáng chuyên dụng của Quản Ngục"
+      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng cấp & hiệu suất đào"
     enchants:
-      efficiency: 12.0
-      fortune: 12.0
-      unbreaking: 11.0
-    pickaxe-power: 33.0
+      efficiency: 10.6
+      fortune: 6
+      unbreaking: 6
+    pickaxe-power: 7
+    custom-miningefficiency: 10.6
+    custom-miningfortune: 6
+    custom-miningunbreaking: 6
     gem-sockets:
       - Uncolored
       - Uncolored
       - Uncolored
       - Uncolored
+    upgrade:
+      template: pickaxe-quan-nguc-template
+      max: 100
     will-break: false
     unbreakable: false
-    custom-miningefficiency: 12.0
-    custom-miningfortune: 12.0
-    custom-miningunbreaking: 11.0
 
 PICKAXE_QUAN_NGUC_4:
   base:
     material: NETHERITE_PICKAXE
     name: "&dCúp Quản Ngục &e&lIV"
-    max-durability: 8000
+    max-durability: 9500
     tier: MYTHICAL
     hide-enchants: true
     lore-format: tool-lore
     lore:
       - "&b&l✦ Tiểu Sử"
-      - "&7 &b●&7 Cai quản toàn bộ khu mỏ"
-      - "&7 &b●&7 Nâng cấp tại Lò Rèn để lên cấp tiếp theo"
+      - "&7 &b●&7 Dụng cụ đào khoáng chuyên dụng của Quản Ngục"
+      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng cấp & hiệu suất đào"
     enchants:
-      efficiency: 12.0
-      fortune: 12.0
-      unbreaking: 12.0
-    pickaxe-power: 34.0
+      efficiency: 10.9
+      fortune: 6
+      unbreaking: 6
+    pickaxe-power: 7
+    custom-miningefficiency: 10.9
+    custom-miningfortune: 6
+    custom-miningunbreaking: 6
     gem-sockets:
       - Uncolored
       - Uncolored
       - Uncolored
       - Uncolored
+    upgrade:
+      template: pickaxe-quan-nguc-template
+      max: 100
     will-break: false
     unbreakable: false
-    custom-miningefficiency: 12.0
-    custom-miningfortune: 12.0
-    custom-miningunbreaking: 12.0
 
 PICKAXE_QUAN_NGUC_5:
   base:
     material: NETHERITE_PICKAXE
     name: "&dCúp Quản Ngục &e&lV"
-    max-durability: 8000
+    max-durability: 9500
     tier: MYTHICAL
     hide-enchants: true
     lore-format: tool-lore
     lore:
       - "&b&l✦ Tiểu Sử"
-      - "&7 &b●&7 Cai quản toàn bộ khu mỏ"
-      - "&7 &b●&7 Cấp tối đa của rank Quản Ngục"
+      - "&7 &b●&7 Dụng cụ đào khoáng chuyên dụng của Quản Ngục"
+      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng cấp & hiệu suất đào"
     enchants:
-      efficiency: 13.0
-      fortune: 12.0
-      unbreaking: 12.0
-    pickaxe-power: 35.0
+      efficiency: 11.2
+      fortune: 6
+      unbreaking: 6
+    pickaxe-power: 7
+    custom-miningefficiency: 11.2
+    custom-miningfortune: 6
+    custom-miningunbreaking: 6
     gem-sockets:
       - Uncolored
       - Uncolored
       - Uncolored
       - Uncolored
+    upgrade:
+      template: pickaxe-quan-nguc-template
+      max: 100
     will-break: false
     unbreakable: false
-    custom-miningefficiency: 13.0
-    custom-miningfortune: 12.0
-    custom-miningunbreaking: 12.0
 
 PICKAXE_BA_CHU_NGUC_TU_1:
   base:
     material: NETHERITE_PICKAXE
     name: "&5Cúp Bá Chủ Ngục Tù &e&lI"
-    max-durability: 10000
+    max-durability: 12500
     tier: EPIC
     hide-enchants: true
     lore-format: tool-lore
     lore:
       - "&b&l✦ Tiểu Sử"
-      - "&7 &b●&7 Không ai dám trái lệnh"
-      - "&7 &b●&7 Nâng cấp tại Lò Rèn để lên cấp tiếp theo"
+      - "&7 &b●&7 Dụng cụ đào khoáng chuyên dụng của Bá Chủ Ngục Tù"
+      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng cấp & hiệu suất đào"
     enchants:
-      efficiency: 13.0
-      fortune: 13.0
-      unbreaking: 12.0
-    pickaxe-power: 36.0
-    autosmelt: true
+      efficiency: 11.5
+      fortune: 6
+      unbreaking: 6
+    pickaxe-power: 8
+    custom-miningefficiency: 11.5
+    custom-miningfortune: 6
+    custom-miningunbreaking: 6
     gem-sockets:
       - Uncolored
       - Uncolored
       - Uncolored
       - Uncolored
       - Uncolored
+    upgrade:
+      template: pickaxe-ba-chu-nguc-tu-template
+      max: 100
     will-break: false
     unbreakable: false
-    custom-miningefficiency: 13.0
-    custom-miningfortune: 13.0
-    custom-miningunbreaking: 12.0
 
 PICKAXE_BA_CHU_NGUC_TU_2:
   base:
     material: NETHERITE_PICKAXE
     name: "&5Cúp Bá Chủ Ngục Tù &e&lII"
-    max-durability: 10000
+    max-durability: 12500
     tier: EPIC
     hide-enchants: true
     lore-format: tool-lore
     lore:
       - "&b&l✦ Tiểu Sử"
-      - "&7 &b●&7 Không ai dám trái lệnh"
-      - "&7 &b●&7 Nâng cấp tại Lò Rèn để lên cấp tiếp theo"
+      - "&7 &b●&7 Dụng cụ đào khoáng chuyên dụng của Bá Chủ Ngục Tù"
+      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng cấp & hiệu suất đào"
     enchants:
-      efficiency: 13.0
-      fortune: 13.0
-      unbreaking: 13.0
-    pickaxe-power: 37.0
-    autosmelt: true
+      efficiency: 11.8
+      fortune: 6
+      unbreaking: 6
+    pickaxe-power: 8
+    custom-miningefficiency: 11.8
+    custom-miningfortune: 6
+    custom-miningunbreaking: 6
     gem-sockets:
       - Uncolored
       - Uncolored
       - Uncolored
       - Uncolored
       - Uncolored
+    upgrade:
+      template: pickaxe-ba-chu-nguc-tu-template
+      max: 100
     will-break: false
     unbreakable: false
-    custom-miningefficiency: 13.0
-    custom-miningfortune: 13.0
-    custom-miningunbreaking: 13.0
 
 PICKAXE_BA_CHU_NGUC_TU_3:
   base:
     material: NETHERITE_PICKAXE
     name: "&5Cúp Bá Chủ Ngục Tù &e&lIII"
-    max-durability: 10000
+    max-durability: 12500
     tier: EPIC
     hide-enchants: true
     lore-format: tool-lore
     lore:
       - "&b&l✦ Tiểu Sử"
-      - "&7 &b●&7 Không ai dám trái lệnh"
-      - "&7 &b●&7 Nâng cấp tại Lò Rèn để lên cấp tiếp theo"
+      - "&7 &b●&7 Dụng cụ đào khoáng chuyên dụng của Bá Chủ Ngục Tù"
+      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng cấp & hiệu suất đào"
     enchants:
-      efficiency: 14.0
-      fortune: 13.0
-      unbreaking: 13.0
-    pickaxe-power: 38.0
-    autosmelt: true
+      efficiency: 12.1
+      fortune: 6
+      unbreaking: 6
+    pickaxe-power: 8
+    custom-miningefficiency: 12.1
+    custom-miningfortune: 6
+    custom-miningunbreaking: 6
     gem-sockets:
       - Uncolored
       - Uncolored
       - Uncolored
       - Uncolored
       - Uncolored
+    upgrade:
+      template: pickaxe-ba-chu-nguc-tu-template
+      max: 100
     will-break: false
     unbreakable: false
-    custom-miningefficiency: 14.0
-    custom-miningfortune: 13.0
-    custom-miningunbreaking: 13.0
 
 PICKAXE_BA_CHU_NGUC_TU_4:
   base:
     material: NETHERITE_PICKAXE
     name: "&5Cúp Bá Chủ Ngục Tù &e&lIV"
-    max-durability: 10000
+    max-durability: 12500
     tier: EPIC
     hide-enchants: true
     lore-format: tool-lore
     lore:
       - "&b&l✦ Tiểu Sử"
-      - "&7 &b●&7 Không ai dám trái lệnh"
-      - "&7 &b●&7 Nâng cấp tại Lò Rèn để lên cấp tiếp theo"
+      - "&7 &b●&7 Dụng cụ đào khoáng chuyên dụng của Bá Chủ Ngục Tù"
+      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng cấp & hiệu suất đào"
     enchants:
-      efficiency: 14.0
-      fortune: 14.0
-      unbreaking: 13.0
-    pickaxe-power: 39.0
-    autosmelt: true
+      efficiency: 12.4
+      fortune: 7
+      unbreaking: 7
+    pickaxe-power: 8
+    custom-miningefficiency: 12.4
+    custom-miningfortune: 7
+    custom-miningunbreaking: 7
     gem-sockets:
       - Uncolored
       - Uncolored
       - Uncolored
       - Uncolored
       - Uncolored
+    upgrade:
+      template: pickaxe-ba-chu-nguc-tu-template
+      max: 100
     will-break: false
     unbreakable: false
-    custom-miningefficiency: 14.0
-    custom-miningfortune: 14.0
-    custom-miningunbreaking: 13.0
 
 PICKAXE_BA_CHU_NGUC_TU_5:
   base:
     material: NETHERITE_PICKAXE
     name: "&5Cúp Bá Chủ Ngục Tù &e&lV"
-    max-durability: 10000
+    max-durability: 12500
     tier: EPIC
     hide-enchants: true
     lore-format: tool-lore
     lore:
       - "&b&l✦ Tiểu Sử"
-      - "&7 &b●&7 Không ai dám trái lệnh"
-      - "&7 &b●&7 Cấp tối đa của rank Bá Chủ Ngục Tù"
+      - "&7 &b●&7 Dụng cụ đào khoáng chuyên dụng của Bá Chủ Ngục Tù"
+      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng cấp & hiệu suất đào"
     enchants:
-      efficiency: 14.0
-      fortune: 14.0
-      unbreaking: 14.0
-    pickaxe-power: 40.0
-    autosmelt: true
+      efficiency: 12.7
+      fortune: 7
+      unbreaking: 7
+    pickaxe-power: 8
+    custom-miningefficiency: 12.7
+    custom-miningfortune: 7
+    custom-miningunbreaking: 7
     gem-sockets:
       - Uncolored
       - Uncolored
       - Uncolored
       - Uncolored
       - Uncolored
+    upgrade:
+      template: pickaxe-ba-chu-nguc-tu-template
+      max: 100
     will-break: false
     unbreakable: false
-    custom-miningefficiency: 14.0
-    custom-miningfortune: 14.0
-    custom-miningunbreaking: 14.0
 
 PICKAXE_VUOT_NGUC_1:
   base:
     material: NETHERITE_PICKAXE
     name: "&4Cúp Vượt Ngục &e&lI"
-    max-durability: 15000
+    max-durability: 16000
     tier: UNIQUE
     hide-enchants: true
     lore-format: tool-lore
     lore:
       - "&b&l✦ Tiểu Sử"
-      - "&7 &b●&7 Bước cuối cùng trước ngưỡng cửa tự do"
-      - "&7 &b●&7 Nâng cấp tại Lò Rèn để lên cấp tiếp theo"
+      - "&7 &b●&7 Dụng cụ đào khoáng chuyên dụng của Vượt Ngục"
+      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng cấp & hiệu suất đào"
     enchants:
-      efficiency: 15.0
-      fortune: 14.0
-      unbreaking: 14.0
-    pickaxe-power: 41.0
-    autosmelt: true
+      efficiency: 13.0
+      fortune: 7
+      unbreaking: 7
+    pickaxe-power: 9
+    custom-miningefficiency: 13.0
+    custom-miningfortune: 7
+    custom-miningunbreaking: 7
     gem-sockets:
       - Uncolored
       - Uncolored
       - Uncolored
       - Uncolored
       - Uncolored
+    upgrade:
+      template: pickaxe-vuot-nguc-template
+      max: 100
     will-break: false
     unbreakable: false
-    custom-miningefficiency: 15.0
-    custom-miningfortune: 14.0
-    custom-miningunbreaking: 14.0
 
 PICKAXE_VUOT_NGUC_2:
   base:
     material: NETHERITE_PICKAXE
     name: "&4Cúp Vượt Ngục &e&lII"
-    max-durability: 15000
+    max-durability: 16000
     tier: UNIQUE
     hide-enchants: true
     lore-format: tool-lore
     lore:
       - "&b&l✦ Tiểu Sử"
-      - "&7 &b●&7 Bước cuối cùng trước ngưỡng cửa tự do"
-      - "&7 &b●&7 Nâng cấp tại Lò Rèn để lên cấp tiếp theo"
+      - "&7 &b●&7 Dụng cụ đào khoáng chuyên dụng của Vượt Ngục"
+      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng cấp & hiệu suất đào"
     enchants:
-      efficiency: 15.0
-      fortune: 15.0
-      unbreaking: 14.0
-    pickaxe-power: 42.0
-    autosmelt: true
+      efficiency: 13.3
+      fortune: 7
+      unbreaking: 7
+    pickaxe-power: 9
+    custom-miningefficiency: 13.3
+    custom-miningfortune: 7
+    custom-miningunbreaking: 7
     gem-sockets:
       - Uncolored
       - Uncolored
       - Uncolored
       - Uncolored
       - Uncolored
+    upgrade:
+      template: pickaxe-vuot-nguc-template
+      max: 100
     will-break: false
     unbreakable: false
-    custom-miningefficiency: 15.0
-    custom-miningfortune: 15.0
-    custom-miningunbreaking: 14.0
 
 PICKAXE_VUOT_NGUC_3:
   base:
     material: NETHERITE_PICKAXE
     name: "&4Cúp Vượt Ngục &e&lIII"
-    max-durability: 15000
+    max-durability: 16000
     tier: UNIQUE
     hide-enchants: true
     lore-format: tool-lore
     lore:
       - "&b&l✦ Tiểu Sử"
-      - "&7 &b●&7 Bước cuối cùng trước ngưỡng cửa tự do"
-      - "&7 &b●&7 Nâng cấp tại Lò Rèn để lên cấp tiếp theo"
+      - "&7 &b●&7 Dụng cụ đào khoáng chuyên dụng của Vượt Ngục"
+      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng cấp & hiệu suất đào"
     enchants:
-      efficiency: 15.0
-      fortune: 15.0
-      unbreaking: 15.0
-    pickaxe-power: 43.0
-    autosmelt: true
+      efficiency: 13.6
+      fortune: 7
+      unbreaking: 7
+    pickaxe-power: 9
+    custom-miningefficiency: 13.6
+    custom-miningfortune: 7
+    custom-miningunbreaking: 7
     gem-sockets:
       - Uncolored
       - Uncolored
       - Uncolored
       - Uncolored
       - Uncolored
+    upgrade:
+      template: pickaxe-vuot-nguc-template
+      max: 100
     will-break: false
     unbreakable: false
-    custom-miningefficiency: 15.0
-    custom-miningfortune: 15.0
-    custom-miningunbreaking: 15.0
 
 PICKAXE_VUOT_NGUC_4:
   base:
     material: NETHERITE_PICKAXE
     name: "&4Cúp Vượt Ngục &e&lIV"
-    max-durability: 15000
+    max-durability: 16000
     tier: UNIQUE
     hide-enchants: true
     lore-format: tool-lore
     lore:
       - "&b&l✦ Tiểu Sử"
-      - "&7 &b●&7 Bước cuối cùng trước ngưỡng cửa tự do"
-      - "&7 &b●&7 Nâng cấp tại Lò Rèn để lên cấp tiếp theo"
+      - "&7 &b●&7 Dụng cụ đào khoáng chuyên dụng của Vượt Ngục"
+      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng cấp & hiệu suất đào"
     enchants:
-      efficiency: 16.0
-      fortune: 15.0
-      unbreaking: 15.0
-    pickaxe-power: 44.0
-    autosmelt: true
+      efficiency: 13.9
+      fortune: 7
+      unbreaking: 7
+    pickaxe-power: 9
+    custom-miningefficiency: 13.9
+    custom-miningfortune: 7
+    custom-miningunbreaking: 7
     gem-sockets:
       - Uncolored
       - Uncolored
       - Uncolored
       - Uncolored
       - Uncolored
+    upgrade:
+      template: pickaxe-vuot-nguc-template
+      max: 100
     will-break: false
     unbreakable: false
-    custom-miningefficiency: 16.0
-    custom-miningfortune: 15.0
-    custom-miningunbreaking: 15.0
 
 PICKAXE_VUOT_NGUC_5:
   base:
     material: NETHERITE_PICKAXE
     name: "&4Cúp Vượt Ngục &e&lV"
-    max-durability: 15000
+    max-durability: 16000
     tier: UNIQUE
+    hide-enchants: true
     lore-format: tool-lore
     lore:
       - "&b&l✦ Tiểu Sử"
-      - "&7 &b●&7 Bước cuối cùng trước ngưỡng cửa tự do"
-      - "&7 &b●&7 Cấp tối đa của rank Vượt Ngục"
+      - "&7 &b●&7 Dụng cụ đào khoáng chuyên dụng của Vượt Ngục"
+      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng cấp & hiệu suất đào"
     enchants:
-      efficiency: 16.0
-      fortune: 16.0
-      unbreaking: 15.0
-    pickaxe-power: 45.0
-    autosmelt: true
+      efficiency: 14.2
+      fortune: 8
+      unbreaking: 8
+    pickaxe-power: 9
+    custom-miningefficiency: 14.2
+    custom-miningfortune: 8
+    custom-miningunbreaking: 8
     gem-sockets:
       - Uncolored
       - Uncolored
       - Uncolored
       - Uncolored
       - Uncolored
+    upgrade:
+      template: pickaxe-vuot-nguc-template
+      max: 100
     will-break: false
     unbreakable: false
-    custom-miningefficiency: 16.0
-    custom-miningfortune: 16.0
-    custom-miningunbreaking: 15.0
+

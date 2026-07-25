@@ -13,6 +13,9 @@ AXE_TAN_BINH_1:
     attack-damage: 4.0
     attack-speed: 1
     knockback: 0.2
+    upgrade:
+      template: weapon-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
@@ -31,6 +34,9 @@ AXE_TAN_BINH_2:
     attack-damage: 4.5
     attack-speed: 1
     knockback: 0.3
+    upgrade:
+      template: weapon-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
@@ -49,6 +55,9 @@ AXE_TAN_BINH_3:
     attack-damage: 5.0
     attack-speed: 1
     knockback: 0.3
+    upgrade:
+      template: weapon-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
@@ -67,6 +76,9 @@ AXE_TAN_BINH_4:
     attack-damage: 5.5
     attack-speed: 1
     knockback: 0.4
+    upgrade:
+      template: weapon-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
@@ -85,6 +97,9 @@ AXE_TAN_BINH_5:
     attack-damage: 6.0
     attack-speed: 1
     knockback: 0.4
+    upgrade:
+      template: weapon-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
@@ -103,6 +118,9 @@ AXE_TU_NHAN_1:
     attack-damage: 6.5
     attack-speed: 1
     knockback: 0.4
+    upgrade:
+      template: weapon-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
@@ -121,6 +139,9 @@ AXE_TU_NHAN_2:
     attack-damage: 7.1
     attack-speed: 1
     knockback: 0.5
+    upgrade:
+      template: weapon-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
@@ -139,6 +160,9 @@ AXE_TU_NHAN_3:
     attack-damage: 7.8
     attack-speed: 1
     knockback: 0.5
+    upgrade:
+      template: weapon-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
@@ -157,6 +181,9 @@ AXE_TU_NHAN_4:
     attack-damage: 8.4
     attack-speed: 1
     knockback: 0.6
+    upgrade:
+      template: weapon-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
@@ -175,6 +202,9 @@ AXE_TU_NHAN_5:
     attack-damage: 9.0
     attack-speed: 1
     knockback: 0.6
+    upgrade:
+      template: weapon-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
@@ -195,6 +225,9 @@ AXE_LAO_CONG_1:
     knockback: 0.6
     gem-sockets:
       - Uncolored
+    upgrade:
+      template: weapon-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
@@ -215,6 +248,9 @@ AXE_LAO_CONG_2:
     knockback: 0.7
     gem-sockets:
       - Uncolored
+    upgrade:
+      template: weapon-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
@@ -235,6 +271,9 @@ AXE_LAO_CONG_3:
     knockback: 0.7
     gem-sockets:
       - Uncolored
+    upgrade:
+      template: weapon-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
@@ -255,6 +294,9 @@ AXE_LAO_CONG_4:
     knockback: 0.8
     gem-sockets:
       - Uncolored
+    upgrade:
+      template: weapon-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
@@ -275,6 +317,9 @@ AXE_LAO_CONG_5:
     knockback: 0.8
     gem-sockets:
       - Uncolored
+    upgrade:
+      template: weapon-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
@@ -296,6 +341,9 @@ AXE_THO_DAO_1:
     gem-sockets:
       - Uncolored
       - Uncolored
+    upgrade:
+      template: weapon-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
@@ -317,6 +365,9 @@ AXE_THO_DAO_2:
     gem-sockets:
       - Uncolored
       - Uncolored
+    upgrade:
+      template: weapon-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
@@ -338,6 +389,9 @@ AXE_THO_DAO_3:
     gem-sockets:
       - Uncolored
       - Uncolored
+    upgrade:
+      template: weapon-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
@@ -359,6 +413,9 @@ AXE_THO_DAO_4:
     gem-sockets:
       - Uncolored
       - Uncolored
+    upgrade:
+      template: weapon-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
@@ -380,6 +437,9 @@ AXE_THO_DAO_5:
     gem-sockets:
       - Uncolored
       - Uncolored
+    upgrade:
+      template: weapon-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
@@ -403,6 +463,9 @@ AXE_DOI_TRUONG_1:
       - Uncolored
       - Uncolored
       - Uncolored
+    upgrade:
+      template: weapon-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
@@ -426,6 +489,9 @@ AXE_DOI_TRUONG_2:
       - Uncolored
       - Uncolored
       - Uncolored
+    upgrade:
+      template: weapon-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
@@ -449,6 +515,9 @@ AXE_DOI_TRUONG_3:
       - Uncolored
       - Uncolored
       - Uncolored
+    upgrade:
+      template: weapon-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
@@ -472,6 +541,9 @@ AXE_DOI_TRUONG_4:
       - Uncolored
       - Uncolored
       - Uncolored
+    upgrade:
+      template: weapon-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
@@ -495,6 +567,9 @@ AXE_DOI_TRUONG_5:
       - Uncolored
       - Uncolored
       - Uncolored
+    upgrade:
+      template: weapon-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
@@ -519,6 +594,9 @@ AXE_PHO_QUAN_NGUC_1:
       - Uncolored
       - Uncolored
       - Uncolored
+    upgrade:
+      template: weapon-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
@@ -543,6 +621,9 @@ AXE_PHO_QUAN_NGUC_2:
       - Uncolored
       - Uncolored
       - Uncolored
+    upgrade:
+      template: weapon-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
@@ -567,6 +648,9 @@ AXE_PHO_QUAN_NGUC_3:
       - Uncolored
       - Uncolored
       - Uncolored
+    upgrade:
+      template: weapon-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
@@ -591,6 +675,9 @@ AXE_PHO_QUAN_NGUC_4:
       - Uncolored
       - Uncolored
       - Uncolored
+    upgrade:
+      template: weapon-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
@@ -615,6 +702,9 @@ AXE_PHO_QUAN_NGUC_5:
       - Uncolored
       - Uncolored
       - Uncolored
+    upgrade:
+      template: weapon-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
@@ -639,6 +729,9 @@ AXE_QUAN_NGUC_1:
       - Uncolored
       - Uncolored
       - Uncolored
+    upgrade:
+      template: weapon-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
@@ -663,6 +756,9 @@ AXE_QUAN_NGUC_2:
       - Uncolored
       - Uncolored
       - Uncolored
+    upgrade:
+      template: weapon-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
@@ -687,6 +783,9 @@ AXE_QUAN_NGUC_3:
       - Uncolored
       - Uncolored
       - Uncolored
+    upgrade:
+      template: weapon-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
@@ -711,6 +810,9 @@ AXE_QUAN_NGUC_4:
       - Uncolored
       - Uncolored
       - Uncolored
+    upgrade:
+      template: weapon-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
@@ -735,6 +837,9 @@ AXE_QUAN_NGUC_5:
       - Uncolored
       - Uncolored
       - Uncolored
+    upgrade:
+      template: weapon-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
@@ -760,6 +865,9 @@ AXE_BA_CHU_NGUC_TU_1:
       - Uncolored
       - Uncolored
       - Uncolored
+    upgrade:
+      template: weapon-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
@@ -785,6 +893,9 @@ AXE_BA_CHU_NGUC_TU_2:
       - Uncolored
       - Uncolored
       - Uncolored
+    upgrade:
+      template: weapon-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
@@ -810,6 +921,9 @@ AXE_BA_CHU_NGUC_TU_3:
       - Uncolored
       - Uncolored
       - Uncolored
+    upgrade:
+      template: weapon-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
@@ -835,6 +949,9 @@ AXE_BA_CHU_NGUC_TU_4:
       - Uncolored
       - Uncolored
       - Uncolored
+    upgrade:
+      template: weapon-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
@@ -860,6 +977,9 @@ AXE_BA_CHU_NGUC_TU_5:
       - Uncolored
       - Uncolored
       - Uncolored
+    upgrade:
+      template: weapon-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
@@ -885,6 +1005,9 @@ AXE_VUOT_NGUC_1:
       - Uncolored
       - Uncolored
       - Uncolored
+    upgrade:
+      template: weapon-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
@@ -910,6 +1033,9 @@ AXE_VUOT_NGUC_2:
       - Uncolored
       - Uncolored
       - Uncolored
+    upgrade:
+      template: weapon-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
@@ -935,6 +1061,9 @@ AXE_VUOT_NGUC_3:
       - Uncolored
       - Uncolored
       - Uncolored
+    upgrade:
+      template: weapon-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
@@ -960,6 +1089,9 @@ AXE_VUOT_NGUC_4:
       - Uncolored
       - Uncolored
       - Uncolored
+    upgrade:
+      template: weapon-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
@@ -985,6 +1117,108 @@ AXE_VUOT_NGUC_5:
       - Uncolored
       - Uncolored
       - Uncolored
+    upgrade:
+      template: weapon-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
+GACHA_AXE_VIRIDIAN:
+  base:
+    material: IRON_AXE
+    custom-model-data: 10001
+    itemsadder-item: "fantasy_weapons:viridian_greataxe"
+    name: "&a&lLục Bảo Thần Rìu"
+    max-durability: 20000
+    tier: UNIQUE
+    hide-enchants: true
+    lore-format: weapon-lore
+    lore:
+      - "&b&l✦ Vật Phẩm Độc Quyền"
+      - "&7 &a●&7 Đại rìu khảm ngọc lục bảo tinh khiết"
+      - "&7 &a●&7 Đẩy lùi mạnh mẽ & sát thương bộc phát cực lớn"
+    attack-damage: 63.0
+    attack-speed: 1.0
+    knockback: 2.2
+    critical-strike-power: 35.0
+    ability:
+      ability-1:
+        type: MAGMA_FISSURE
+        mode: RIGHT_CLICK
+        cooldown: 8.0
+        damage: 25.0
+    gem-sockets:
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
+    will-break: false
+    unbreakable: false
+
+GACHA_AXE_AZURE:
+  base:
+    material: DIAMOND_AXE
+    custom-model-data: 10000
+    itemsadder-item: "fantasy_weapons:azure_greataxe"
+    name: "&3&lBăng Long Đại Rìu"
+    max-durability: 20000
+    tier: UNIQUE
+    hide-enchants: true
+    lore-format: weapon-lore
+    lore:
+      - "&b&l✦ Vật Phẩm Độc Quyền"
+      - "&7 &3●&7 Rìu chiến rèn từ xương rồng băng vĩnh cửu"
+      - "&7 &3●&7 Khả năng phá giáp & chí mạng tàn phá"
+    attack-damage: 61.5
+    attack-speed: 1.0
+    knockback: 2.0
+    critical-strike-power: 30.0
+    armor-penetration: 12.0
+    ability:
+      ability-1:
+        type: MAGMA_FISSURE
+        mode: RIGHT_CLICK
+        cooldown: 8.0
+        damage: 22.0
+    gem-sockets:
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
+    will-break: false
+    unbreakable: false
+
+GACHA_AXE_SACRIFICIAL:
+  base:
+    material: IRON_AXE
+    custom-model-data: 10011
+    itemsadder-item: "fantasy_weapons:sacrificial_cleaver"
+    name: "&c&lTế Sát Thần Đao"
+    max-durability: 20000
+    tier: UNIQUE
+    hide-enchants: true
+    lore-format: weapon-lore
+    lore:
+      - "&b&l✦ Vật Phẩm Độc Quyền"
+      - "&7 &c●&7 Đại đao dùng trong các nghi lễ tế thần cổ đại"
+      - "&7 &c●&7 Sát thương vật lý bộc phát khủng khiếp"
+    attack-damage: 63.5
+    attack-speed: 1.0
+    knockback: 2.5
+    physical-damage: 20.0
+    ability:
+      ability-1:
+        type: MAGMA_FISSURE
+        mode: RIGHT_CLICK
+        cooldown: 8.0
+        damage: 25.0
+    gem-sockets:
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
+    will-break: false
+    unbreakable: false

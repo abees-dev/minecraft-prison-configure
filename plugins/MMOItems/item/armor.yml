@@ -39,3866 +39,4549 @@ TEST_ARMOR_FULL_STATS:
       - UNCOLORED
       - UNCOLORED
     max-durability: 1000
+    upgrade:
+      template: armor-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
 HELMET_TAN_BINH_1:
   base:
     material: LEATHER_HELMET
-    name: '&fNón Tân Binh &e&lI'
+    name: "&fNón Tân Binh &e&lI"
     max-durability: 400
     tier: TRASH
     hide-enchants: true
     lore-format: armor-lore
     lore:
-      - '&b&l✦ Tiểu Sử'
-      - '&7 &b●&7 Giáp khởi đầu của mọi tù nhân'
-      - '&7 &b●&7 Độ Bền Giáp 1 - càng nâng cấp càng chắc chắn'
-    armor: 1.0
-    max-health: 1.0
-    armor-toughness: 1.0
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Trang bị phòng thủ kiên cố của Tân Binh"
+      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
+    armor: 0.8
+    max-health: 0.8
+    upgrade:
+      template: armor-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
 HELMET_TAN_BINH_2:
   base:
     material: LEATHER_HELMET
-    name: '&fNón Tân Binh &e&lII'
+    name: "&fNón Tân Binh &e&lII"
     max-durability: 400
     tier: TRASH
     hide-enchants: true
     lore-format: armor-lore
     lore:
-      - '&b&l✦ Tiểu Sử'
-      - '&7 &b●&7 Giáp khởi đầu của mọi tù nhân'
-      - '&7 &b●&7 Độ Bền Giáp 1 - càng nâng cấp càng chắc chắn'
-    armor: 2.0
-    max-health: 1.0
-    armor-toughness: 1.0
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Trang bị phòng thủ kiên cố của Tân Binh"
+      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
+    armor: 0.9
+    max-health: 0.9
+    upgrade:
+      template: armor-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
 HELMET_TAN_BINH_3:
   base:
     material: LEATHER_HELMET
-    name: '&fNón Tân Binh &e&lIII'
+    name: "&fNón Tân Binh &e&lIII"
     max-durability: 400
     tier: TRASH
     hide-enchants: true
     lore-format: armor-lore
     lore:
-      - '&b&l✦ Tiểu Sử'
-      - '&7 &b●&7 Giáp khởi đầu của mọi tù nhân'
-      - '&7 &b●&7 Độ Bền Giáp 1 - càng nâng cấp càng chắc chắn'
-    armor: 2.0
-    max-health: 2.0
-    armor-toughness: 1.0
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Trang bị phòng thủ kiên cố của Tân Binh"
+      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
+    armor: 1.0
+    max-health: 1.0
+    upgrade:
+      template: armor-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
 HELMET_TAN_BINH_4:
   base:
     material: LEATHER_HELMET
-    name: '&fNón Tân Binh &e&lIV'
+    name: "&fNón Tân Binh &e&lIV"
     max-durability: 400
     tier: TRASH
     hide-enchants: true
     lore-format: armor-lore
     lore:
-      - '&b&l✦ Tiểu Sử'
-      - '&7 &b●&7 Giáp khởi đầu của mọi tù nhân'
-      - '&7 &b●&7 Độ Bền Giáp 2 - càng nâng cấp càng chắc chắn'
-    armor: 2.0
-    max-health: 2.0
-    armor-toughness: 2.0
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Trang bị phòng thủ kiên cố của Tân Binh"
+      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
+    armor: 1.1
+    max-health: 1.1
+    upgrade:
+      template: armor-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
 HELMET_TAN_BINH_5:
   base:
     material: LEATHER_HELMET
-    name: '&fNón Tân Binh &e&lV'
+    name: "&fNón Tân Binh &e&lV"
     max-durability: 400
     tier: TRASH
     hide-enchants: true
     lore-format: armor-lore
     lore:
-      - '&b&l✦ Tiểu Sử'
-      - '&7 &b●&7 Giáp khởi đầu của mọi tù nhân'
-      - '&7 &b●&7 Độ Bền Giáp 2 - càng nâng cấp càng chắc chắn'
-    armor: 3.0
-    max-health: 2.0
-    armor-toughness: 2.0
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Trang bị phòng thủ kiên cố của Tân Binh"
+      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
+    armor: 1.2
+    max-health: 1.2
+    upgrade:
+      template: armor-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
 HELMET_TU_NHAN_1:
   base:
     material: LEATHER_HELMET
-    name: '&aNón Tù Nhân &e&lI'
+    name: "&aNón Tù Nhân &e&lI"
     max-durability: 800
     tier: COMMON
     hide-enchants: true
     lore-format: armor-lore
     lore:
-      - '&b&l✦ Tiểu Sử'
-      - '&7 &b●&7 Che chắn tạm đủ qua ngày lao động'
-      - '&7 &b●&7 Độ Bền Giáp 2 - càng nâng cấp càng chắc chắn'
-    armor: 3.0
-    max-health: 3.0
-    armor-toughness: 2.0
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Trang bị phòng thủ kiên cố của Tù Nhân"
+      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
+    armor: 1.6
+    max-health: 1.6
+    upgrade:
+      template: armor-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
 HELMET_TU_NHAN_2:
   base:
     material: LEATHER_HELMET
-    name: '&aNón Tù Nhân &e&lII'
+    name: "&aNón Tù Nhân &e&lII"
     max-durability: 800
     tier: COMMON
     hide-enchants: true
     lore-format: armor-lore
     lore:
-      - '&b&l✦ Tiểu Sử'
-      - '&7 &b●&7 Che chắn tạm đủ qua ngày lao động'
-      - '&7 &b●&7 Độ Bền Giáp 3 - càng nâng cấp càng chắc chắn'
-    armor: 3.0
-    max-health: 3.0
-    armor-toughness: 3.0
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Trang bị phòng thủ kiên cố của Tù Nhân"
+      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
+    armor: 1.8
+    max-health: 1.8
+    upgrade:
+      template: armor-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
 HELMET_TU_NHAN_3:
   base:
     material: LEATHER_HELMET
-    name: '&aNón Tù Nhân &e&lIII'
+    name: "&aNón Tù Nhân &e&lIII"
     max-durability: 800
     tier: COMMON
     hide-enchants: true
     lore-format: armor-lore
     lore:
-      - '&b&l✦ Tiểu Sử'
-      - '&7 &b●&7 Che chắn tạm đủ qua ngày lao động'
-      - '&7 &b●&7 Độ Bền Giáp 3 - càng nâng cấp càng chắc chắn'
-    armor: 4.0
-    max-health: 3.0
-    armor-toughness: 3.0
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Trang bị phòng thủ kiên cố của Tù Nhân"
+      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
+    armor: 1.9
+    max-health: 2.0
+    upgrade:
+      template: armor-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
 HELMET_TU_NHAN_4:
   base:
     material: LEATHER_HELMET
-    name: '&aNón Tù Nhân &e&lIV'
+    name: "&aNón Tù Nhân &e&lIV"
     max-durability: 800
     tier: COMMON
     hide-enchants: true
     lore-format: armor-lore
     lore:
-      - '&b&l✦ Tiểu Sử'
-      - '&7 &b●&7 Che chắn tạm đủ qua ngày lao động'
-      - '&7 &b●&7 Độ Bền Giáp 3 - càng nâng cấp càng chắc chắn'
-    armor: 4.0
-    max-health: 4.0
-    armor-toughness: 3.0
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Trang bị phòng thủ kiên cố của Tù Nhân"
+      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
+    armor: 2.1
+    max-health: 2.2
+    upgrade:
+      template: armor-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
 HELMET_TU_NHAN_5:
   base:
     material: LEATHER_HELMET
-    name: '&aNón Tù Nhân &e&lV'
+    name: "&aNón Tù Nhân &e&lV"
     max-durability: 800
     tier: COMMON
     hide-enchants: true
     lore-format: armor-lore
     lore:
-      - '&b&l✦ Tiểu Sử'
-      - '&7 &b●&7 Che chắn tạm đủ qua ngày lao động'
-      - '&7 &b●&7 Độ Bền Giáp 4 - càng nâng cấp càng chắc chắn'
-    armor: 4.0
-    max-health: 4.0
-    armor-toughness: 4.0
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Trang bị phòng thủ kiên cố của Tù Nhân"
+      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
+    armor: 2.2
+    max-health: 2.4
+    upgrade:
+      template: armor-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
 HELMET_LAO_CONG_1:
   base:
     material: CHAINMAIL_HELMET
-    name: '&bNón Lao Công &e&lI'
-    max-durability: 1600
+    name: "&bNón Lao Công &e&lI"
+    max-durability: 1500
     tier: UNCOMMON
     hide-enchants: true
     lore-format: armor-lore
     lore:
-      - '&b&l✦ Tiểu Sử'
-      - '&7 &b●&7 Dấu ấn của người lao động chính thức'
-      - '&7 &b●&7 Độ Bền Giáp 4 - càng nâng cấp càng chắc chắn'
-    armor: 5.0
-    max-health: 4.0
-    armor-toughness: 4.0
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Trang bị phòng thủ kiên cố của Lao Công"
+      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
+    armor: 2.8
+    max-health: 3.0
+    armor-toughness: 0.4
+    mana-regeneration: 1.5
     gem-sockets:
       - Uncolored
+    upgrade:
+      template: armor-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
 HELMET_LAO_CONG_2:
   base:
     material: CHAINMAIL_HELMET
-    name: '&bNón Lao Công &e&lII'
-    max-durability: 1600
+    name: "&bNón Lao Công &e&lII"
+    max-durability: 1500
     tier: UNCOMMON
     hide-enchants: true
     lore-format: armor-lore
     lore:
-      - '&b&l✦ Tiểu Sử'
-      - '&7 &b●&7 Dấu ấn của người lao động chính thức'
-      - '&7 &b●&7 Độ Bền Giáp 4 - càng nâng cấp càng chắc chắn'
-    armor: 5.0
-    max-health: 5.0
-    armor-toughness: 4.0
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Trang bị phòng thủ kiên cố của Lao Công"
+      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
+    armor: 3.0
+    max-health: 3.3
+    armor-toughness: 0.5
+    mana-regeneration: 1.7
     gem-sockets:
       - Uncolored
+    upgrade:
+      template: armor-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
 HELMET_LAO_CONG_3:
   base:
     material: CHAINMAIL_HELMET
-    name: '&bNón Lao Công &e&lIII'
-    max-durability: 1600
+    name: "&bNón Lao Công &e&lIII"
+    max-durability: 1500
     tier: UNCOMMON
     hide-enchants: true
     lore-format: armor-lore
     lore:
-      - '&b&l✦ Tiểu Sử'
-      - '&7 &b●&7 Dấu ấn của người lao động chính thức'
-      - '&7 &b●&7 Độ Bền Giáp 5 - càng nâng cấp càng chắc chắn'
-    armor: 5.0
-    max-health: 5.0
-    armor-toughness: 5.0
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Trang bị phòng thủ kiên cố của Lao Công"
+      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
+    armor: 3.2
+    max-health: 3.6
+    armor-toughness: 0.5
+    mana-regeneration: 1.9
     gem-sockets:
       - Uncolored
+    upgrade:
+      template: armor-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
 HELMET_LAO_CONG_4:
   base:
     material: CHAINMAIL_HELMET
-    name: '&bNón Lao Công &e&lIV'
-    max-durability: 1600
+    name: "&bNón Lao Công &e&lIV"
+    max-durability: 1500
     tier: UNCOMMON
     hide-enchants: true
     lore-format: armor-lore
     lore:
-      - '&b&l✦ Tiểu Sử'
-      - '&7 &b●&7 Dấu ấn của người lao động chính thức'
-      - '&7 &b●&7 Độ Bền Giáp 5 - càng nâng cấp càng chắc chắn'
-    armor: 6.0
-    max-health: 5.0
-    armor-toughness: 5.0
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Trang bị phòng thủ kiên cố của Lao Công"
+      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
+    armor: 3.4
+    max-health: 3.9
+    armor-toughness: 0.6
+    mana-regeneration: 2.1
     gem-sockets:
       - Uncolored
+    upgrade:
+      template: armor-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
 HELMET_LAO_CONG_5:
   base:
     material: CHAINMAIL_HELMET
-    name: '&bNón Lao Công &e&lV'
-    max-durability: 1600
+    name: "&bNón Lao Công &e&lV"
+    max-durability: 1500
     tier: UNCOMMON
     hide-enchants: true
     lore-format: armor-lore
     lore:
-      - '&b&l✦ Tiểu Sử'
-      - '&7 &b●&7 Dấu ấn của người lao động chính thức'
-      - '&7 &b●&7 Độ Bền Giáp 5 - càng nâng cấp càng chắc chắn'
-    armor: 6.0
-    max-health: 6.0
-    armor-toughness: 5.0
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Trang bị phòng thủ kiên cố của Lao Công"
+      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
+    armor: 3.6
+    max-health: 4.2
+    armor-toughness: 0.6
+    mana-regeneration: 2.3
     gem-sockets:
       - Uncolored
+    upgrade:
+      template: armor-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
 HELMET_THO_DAO_1:
   base:
     material: IRON_HELMET
-    name: '&eNón Thợ Đào &e&lI'
-    max-durability: 2400
+    name: "&eNón Thợ Đào &e&lI"
+    max-durability: 2500
     tier: RARE
     hide-enchants: true
     lore-format: armor-lore
     lore:
-      - '&b&l✦ Tiểu Sử'
-      - '&7 &b●&7 Vững vàng trước hiểm nguy trong mỏ sâu'
-      - '&7 &b●&7 Độ Bền Giáp 6 - càng nâng cấp càng chắc chắn'
-    armor: 6.0
-    max-health: 6.0
-    armor-toughness: 6.0
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Trang bị phòng thủ kiên cố của Thợ Đào"
+      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
+    armor: 4.4
+    max-health: 5.0
+    armor-toughness: 0.8
+    defense: 0.4
+    mana-regeneration: 2.0
     gem-sockets:
       - Uncolored
       - Uncolored
+    upgrade:
+      template: armor-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
 HELMET_THO_DAO_2:
   base:
     material: IRON_HELMET
-    name: '&eNón Thợ Đào &e&lII'
-    max-durability: 2400
+    name: "&eNón Thợ Đào &e&lII"
+    max-durability: 2500
     tier: RARE
     hide-enchants: true
     lore-format: armor-lore
     lore:
-      - '&b&l✦ Tiểu Sử'
-      - '&7 &b●&7 Vững vàng trước hiểm nguy trong mỏ sâu'
-      - '&7 &b●&7 Độ Bền Giáp 6 - càng nâng cấp càng chắc chắn'
-    armor: 7.0
-    max-health: 6.0
-    armor-toughness: 6.0
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Trang bị phòng thủ kiên cố của Thợ Đào"
+      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
+    armor: 4.7
+    max-health: 5.4
+    armor-toughness: 0.9
+    defense: 0.5
+    mana-regeneration: 2.2
     gem-sockets:
       - Uncolored
       - Uncolored
+    upgrade:
+      template: armor-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
 HELMET_THO_DAO_3:
   base:
     material: IRON_HELMET
-    name: '&eNón Thợ Đào &e&lIII'
-    max-durability: 2400
+    name: "&eNón Thợ Đào &e&lIII"
+    max-durability: 2500
     tier: RARE
     hide-enchants: true
     lore-format: armor-lore
     lore:
-      - '&b&l✦ Tiểu Sử'
-      - '&7 &b●&7 Vững vàng trước hiểm nguy trong mỏ sâu'
-      - '&7 &b●&7 Độ Bền Giáp 6 - càng nâng cấp càng chắc chắn'
-    armor: 7.0
-    max-health: 7.0
-    armor-toughness: 6.0
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Trang bị phòng thủ kiên cố của Thợ Đào"
+      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
+    armor: 4.9
+    max-health: 5.8
+    armor-toughness: 1.0
+    defense: 0.5
+    mana-regeneration: 2.4
     gem-sockets:
       - Uncolored
       - Uncolored
+    upgrade:
+      template: armor-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
 HELMET_THO_DAO_4:
   base:
     material: IRON_HELMET
-    name: '&eNón Thợ Đào &e&lIV'
-    max-durability: 2400
+    name: "&eNón Thợ Đào &e&lIV"
+    max-durability: 2500
     tier: RARE
     hide-enchants: true
     lore-format: armor-lore
     lore:
-      - '&b&l✦ Tiểu Sử'
-      - '&7 &b●&7 Vững vàng trước hiểm nguy trong mỏ sâu'
-      - '&7 &b●&7 Độ Bền Giáp 7 - càng nâng cấp càng chắc chắn'
-    armor: 7.0
-    max-health: 7.0
-    armor-toughness: 7.0
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Trang bị phòng thủ kiên cố của Thợ Đào"
+      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
+    armor: 5.2
+    max-health: 6.2
+    armor-toughness: 1.1
+    defense: 0.6
+    mana-regeneration: 2.6
     gem-sockets:
       - Uncolored
       - Uncolored
+    upgrade:
+      template: armor-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
 HELMET_THO_DAO_5:
   base:
     material: IRON_HELMET
-    name: '&eNón Thợ Đào &e&lV'
-    max-durability: 2400
+    name: "&eNón Thợ Đào &e&lV"
+    max-durability: 2500
     tier: RARE
     hide-enchants: true
     lore-format: armor-lore
     lore:
-      - '&b&l✦ Tiểu Sử'
-      - '&7 &b●&7 Vững vàng trước hiểm nguy trong mỏ sâu'
-      - '&7 &b●&7 Độ Bền Giáp 7 - càng nâng cấp càng chắc chắn'
-    armor: 8.0
-    max-health: 7.0
-    armor-toughness: 7.0
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Trang bị phòng thủ kiên cố của Thợ Đào"
+      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
+    armor: 5.4
+    max-health: 6.6
+    armor-toughness: 1.2
+    defense: 0.6
+    mana-regeneration: 2.8
     gem-sockets:
       - Uncolored
       - Uncolored
+    upgrade:
+      template: armor-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
 HELMET_DOI_TRUONG_1:
   base:
-    material: IRON_HELMET
-    name: '&6Nón Đội Trưởng &e&lI'
-    max-durability: 3600
+    material: DIAMOND_HELMET
+    name: "&6Nón Đội Trưởng &e&lI"
+    max-durability: 3800
     tier: VERY_RARE
     hide-enchants: true
     lore-format: armor-lore
     lore:
-      - '&b&l✦ Tiểu Sử'
-      - '&7 &b●&7 Bảo vệ cả đội trước mọi hiểm nguy'
-      - '&7 &b●&7 Độ Bền Giáp 7 - càng nâng cấp càng chắc chắn'
-    armor: 8.0
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Trang bị phòng thủ kiên cố của Đội Trưởng"
+      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
+    armor: 6.4
     max-health: 8.0
-    armor-toughness: 7.0
+    armor-toughness: 1.4
+    defense: 1.0
+    mana-regeneration: 2.5
     gem-sockets:
       - Uncolored
       - Uncolored
       - Uncolored
+    upgrade:
+      template: armor-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
 HELMET_DOI_TRUONG_2:
   base:
-    material: IRON_HELMET
-    name: '&6Nón Đội Trưởng &e&lII'
-    max-durability: 3600
+    material: DIAMOND_HELMET
+    name: "&6Nón Đội Trưởng &e&lII"
+    max-durability: 3800
     tier: VERY_RARE
     hide-enchants: true
     lore-format: armor-lore
     lore:
-      - '&b&l✦ Tiểu Sử'
-      - '&7 &b●&7 Bảo vệ cả đội trước mọi hiểm nguy'
-      - '&7 &b●&7 Độ Bền Giáp 8 - càng nâng cấp càng chắc chắn'
-    armor: 8.0
-    max-health: 8.0
-    armor-toughness: 8.0
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Trang bị phòng thủ kiên cố của Đội Trưởng"
+      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
+    armor: 6.7
+    max-health: 8.5
+    armor-toughness: 1.5
+    defense: 1.1
+    mana-regeneration: 2.7
     gem-sockets:
       - Uncolored
       - Uncolored
       - Uncolored
+    upgrade:
+      template: armor-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
 HELMET_DOI_TRUONG_3:
   base:
-    material: IRON_HELMET
-    name: '&6Nón Đội Trưởng &e&lIII'
-    max-durability: 3600
+    material: DIAMOND_HELMET
+    name: "&6Nón Đội Trưởng &e&lIII"
+    max-durability: 3800
     tier: VERY_RARE
     hide-enchants: true
     lore-format: armor-lore
     lore:
-      - '&b&l✦ Tiểu Sử'
-      - '&7 &b●&7 Bảo vệ cả đội trước mọi hiểm nguy'
-      - '&7 &b●&7 Độ Bền Giáp 8 - càng nâng cấp càng chắc chắn'
-    armor: 9.0
-    max-health: 8.0
-    armor-toughness: 8.0
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Trang bị phòng thủ kiên cố của Đội Trưởng"
+      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
+    armor: 7.0
+    max-health: 9.0
+    armor-toughness: 1.6
+    defense: 1.2
+    mana-regeneration: 2.9
     gem-sockets:
       - Uncolored
       - Uncolored
       - Uncolored
+    upgrade:
+      template: armor-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
 HELMET_DOI_TRUONG_4:
   base:
-    material: IRON_HELMET
-    name: '&6Nón Đội Trưởng &e&lIV'
-    max-durability: 3600
+    material: DIAMOND_HELMET
+    name: "&6Nón Đội Trưởng &e&lIV"
+    max-durability: 3800
     tier: VERY_RARE
     hide-enchants: true
     lore-format: armor-lore
     lore:
-      - '&b&l✦ Tiểu Sử'
-      - '&7 &b●&7 Bảo vệ cả đội trước mọi hiểm nguy'
-      - '&7 &b●&7 Độ Bền Giáp 8 - càng nâng cấp càng chắc chắn'
-    armor: 9.0
-    max-health: 9.0
-    armor-toughness: 8.0
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Trang bị phòng thủ kiên cố của Đội Trưởng"
+      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
+    armor: 7.3
+    max-health: 9.5
+    armor-toughness: 1.7
+    defense: 1.3
+    mana-regeneration: 3.1
     gem-sockets:
       - Uncolored
       - Uncolored
       - Uncolored
+    upgrade:
+      template: armor-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
 HELMET_DOI_TRUONG_5:
   base:
-    material: IRON_HELMET
-    name: '&6Nón Đội Trưởng &e&lV'
-    max-durability: 3600
+    material: DIAMOND_HELMET
+    name: "&6Nón Đội Trưởng &e&lV"
+    max-durability: 3800
     tier: VERY_RARE
     hide-enchants: true
     lore-format: armor-lore
     lore:
-      - '&b&l✦ Tiểu Sử'
-      - '&7 &b●&7 Bảo vệ cả đội trước mọi hiểm nguy'
-      - '&7 &b●&7 Độ Bền Giáp 9 - càng nâng cấp càng chắc chắn'
-    armor: 9.0
-    max-health: 9.0
-    armor-toughness: 9.0
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Trang bị phòng thủ kiên cố của Đội Trưởng"
+      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
+    armor: 7.6
+    max-health: 10.0
+    armor-toughness: 1.8
+    defense: 1.4
+    mana-regeneration: 3.3
     gem-sockets:
       - Uncolored
       - Uncolored
       - Uncolored
+    upgrade:
+      template: armor-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
 HELMET_PHO_QUAN_NGUC_1:
   base:
     material: DIAMOND_HELMET
-    name: '&cNón Phó Quản Ngục &e&lI'
-    max-durability: 4800
+    name: "&cNón Phó Quản Ngục &e&lI"
+    max-durability: 5200
     tier: LEGENDARY
     hide-enchants: true
     lore-format: armor-lore
     lore:
-      - '&b&l✦ Tiểu Sử'
-      - '&7 &b●&7 Uy quyền hiện diện qua từng lớp giáp'
-      - '&7 &b●&7 Độ Bền Giáp 9 - càng nâng cấp càng chắc chắn'
-    armor: 10.0
-    max-health: 9.0
-    armor-toughness: 9.0
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Trang bị phòng thủ kiên cố của Phó Quản Ngục"
+      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
+    armor: 8.8
+    max-health: 12.0
+    armor-toughness: 2.2
+    defense: 1.8
+    mana-regeneration: 3.0
     gem-sockets:
       - Uncolored
       - Uncolored
       - Uncolored
       - Uncolored
+    upgrade:
+      template: armor-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
 HELMET_PHO_QUAN_NGUC_2:
   base:
     material: DIAMOND_HELMET
-    name: '&cNón Phó Quản Ngục &e&lII'
-    max-durability: 4800
+    name: "&cNón Phó Quản Ngục &e&lII"
+    max-durability: 5200
     tier: LEGENDARY
     hide-enchants: true
     lore-format: armor-lore
     lore:
-      - '&b&l✦ Tiểu Sử'
-      - '&7 &b●&7 Uy quyền hiện diện qua từng lớp giáp'
-      - '&7 &b●&7 Độ Bền Giáp 9 - càng nâng cấp càng chắc chắn'
-    armor: 10.0
-    max-health: 10.0
-    armor-toughness: 9.0
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Trang bị phòng thủ kiên cố của Phó Quản Ngục"
+      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
+    armor: 9.2
+    max-health: 12.6
+    armor-toughness: 2.4
+    defense: 2.0
+    mana-regeneration: 3.2
     gem-sockets:
       - Uncolored
       - Uncolored
       - Uncolored
       - Uncolored
+    upgrade:
+      template: armor-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
 HELMET_PHO_QUAN_NGUC_3:
   base:
     material: DIAMOND_HELMET
-    name: '&cNón Phó Quản Ngục &e&lIII'
-    max-durability: 4800
+    name: "&cNón Phó Quản Ngục &e&lIII"
+    max-durability: 5200
     tier: LEGENDARY
     hide-enchants: true
     lore-format: armor-lore
     lore:
-      - '&b&l✦ Tiểu Sử'
-      - '&7 &b●&7 Uy quyền hiện diện qua từng lớp giáp'
-      - '&7 &b●&7 Độ Bền Giáp 10 - càng nâng cấp càng chắc chắn'
-    armor: 10.0
-    max-health: 10.0
-    armor-toughness: 10.0
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Trang bị phòng thủ kiên cố của Phó Quản Ngục"
+      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
+    armor: 9.5
+    max-health: 13.2
+    armor-toughness: 2.5
+    defense: 2.1
+    mana-regeneration: 3.4
     gem-sockets:
       - Uncolored
       - Uncolored
       - Uncolored
       - Uncolored
+    upgrade:
+      template: armor-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
 HELMET_PHO_QUAN_NGUC_4:
   base:
     material: DIAMOND_HELMET
-    name: '&cNón Phó Quản Ngục &e&lIV'
-    max-durability: 4800
+    name: "&cNón Phó Quản Ngục &e&lIV"
+    max-durability: 5200
     tier: LEGENDARY
     hide-enchants: true
     lore-format: armor-lore
     lore:
-      - '&b&l✦ Tiểu Sử'
-      - '&7 &b●&7 Uy quyền hiện diện qua từng lớp giáp'
-      - '&7 &b●&7 Độ Bền Giáp 10 - càng nâng cấp càng chắc chắn'
-    armor: 11.0
-    max-health: 10.0
-    armor-toughness: 10.0
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Trang bị phòng thủ kiên cố của Phó Quản Ngục"
+      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
+    armor: 9.9
+    max-health: 13.8
+    armor-toughness: 2.7
+    defense: 2.3
+    mana-regeneration: 3.6
     gem-sockets:
       - Uncolored
       - Uncolored
       - Uncolored
       - Uncolored
+    upgrade:
+      template: armor-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
 HELMET_PHO_QUAN_NGUC_5:
   base:
     material: DIAMOND_HELMET
-    name: '&cNón Phó Quản Ngục &e&lV'
-    max-durability: 4800
+    name: "&cNón Phó Quản Ngục &e&lV"
+    max-durability: 5200
     tier: LEGENDARY
     hide-enchants: true
     lore-format: armor-lore
     lore:
-      - '&b&l✦ Tiểu Sử'
-      - '&7 &b●&7 Uy quyền hiện diện qua từng lớp giáp'
-      - '&7 &b●&7 Độ Bền Giáp 10 - càng nâng cấp càng chắc chắn'
-    armor: 11.0
-    max-health: 11.0
-    armor-toughness: 10.0
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Trang bị phòng thủ kiên cố của Phó Quản Ngục"
+      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
+    armor: 10.2
+    max-health: 14.4
+    armor-toughness: 2.8
+    defense: 2.4
+    mana-regeneration: 3.8
     gem-sockets:
       - Uncolored
       - Uncolored
       - Uncolored
       - Uncolored
+    upgrade:
+      template: armor-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
 HELMET_QUAN_NGUC_1:
   base:
-    material: DIAMOND_HELMET
-    name: '&dNón Quản Ngục &e&lI'
-    max-durability: 6400
+    material: NETHERITE_HELMET
+    name: "&dNón Quản Ngục &e&lI"
+    max-durability: 7000
     tier: MYTHICAL
     hide-enchants: true
     lore-format: armor-lore
     lore:
-      - '&b&l✦ Tiểu Sử'
-      - '&7 &b●&7 Không có sát thương nào chạm tới được'
-      - '&7 &b●&7 Độ Bền Giáp 11 - càng nâng cấp càng chắc chắn'
-    armor: 11.0
-    max-health: 11.0
-    armor-toughness: 11.0
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Trang bị phòng thủ kiên cố của Quản Ngục"
+      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
+    armor: 11.6
+    max-health: 17.0
+    armor-toughness: 3.2
+    defense: 2.8
+    mana-regeneration: 3.5
     gem-sockets:
       - Uncolored
       - Uncolored
       - Uncolored
       - Uncolored
+    upgrade:
+      template: armor-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
 HELMET_QUAN_NGUC_2:
   base:
-    material: DIAMOND_HELMET
-    name: '&dNón Quản Ngục &e&lII'
-    max-durability: 6400
+    material: NETHERITE_HELMET
+    name: "&dNón Quản Ngục &e&lII"
+    max-durability: 7000
     tier: MYTHICAL
     hide-enchants: true
     lore-format: armor-lore
     lore:
-      - '&b&l✦ Tiểu Sử'
-      - '&7 &b●&7 Không có sát thương nào chạm tới được'
-      - '&7 &b●&7 Độ Bền Giáp 11 - càng nâng cấp càng chắc chắn'
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Trang bị phòng thủ kiên cố của Quản Ngục"
+      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
     armor: 12.0
-    max-health: 11.0
-    armor-toughness: 11.0
+    max-health: 17.8
+    armor-toughness: 3.4
+    defense: 3.0
+    mana-regeneration: 3.7
     gem-sockets:
       - Uncolored
       - Uncolored
       - Uncolored
       - Uncolored
+    upgrade:
+      template: armor-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
 HELMET_QUAN_NGUC_3:
   base:
-    material: DIAMOND_HELMET
-    name: '&dNón Quản Ngục &e&lIII'
-    max-durability: 6400
+    material: NETHERITE_HELMET
+    name: "&dNón Quản Ngục &e&lIII"
+    max-durability: 7000
     tier: MYTHICAL
     hide-enchants: true
     lore-format: armor-lore
     lore:
-      - '&b&l✦ Tiểu Sử'
-      - '&7 &b●&7 Không có sát thương nào chạm tới được'
-      - '&7 &b●&7 Độ Bền Giáp 11 - càng nâng cấp càng chắc chắn'
-    armor: 12.0
-    max-health: 12.0
-    armor-toughness: 11.0
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Trang bị phòng thủ kiên cố của Quản Ngục"
+      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
+    armor: 12.4
+    max-health: 18.6
+    armor-toughness: 3.6
+    defense: 3.2
+    mana-regeneration: 3.9
     gem-sockets:
       - Uncolored
       - Uncolored
       - Uncolored
       - Uncolored
+    upgrade:
+      template: armor-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
 HELMET_QUAN_NGUC_4:
   base:
-    material: DIAMOND_HELMET
-    name: '&dNón Quản Ngục &e&lIV'
-    max-durability: 6400
+    material: NETHERITE_HELMET
+    name: "&dNón Quản Ngục &e&lIV"
+    max-durability: 7000
     tier: MYTHICAL
     hide-enchants: true
     lore-format: armor-lore
     lore:
-      - '&b&l✦ Tiểu Sử'
-      - '&7 &b●&7 Không có sát thương nào chạm tới được'
-      - '&7 &b●&7 Độ Bền Giáp 12 - càng nâng cấp càng chắc chắn'
-    armor: 12.0
-    max-health: 12.0
-    armor-toughness: 12.0
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Trang bị phòng thủ kiên cố của Quản Ngục"
+      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
+    armor: 12.8
+    max-health: 19.4
+    armor-toughness: 3.8
+    defense: 3.4
+    mana-regeneration: 4.1
     gem-sockets:
       - Uncolored
       - Uncolored
       - Uncolored
       - Uncolored
+    upgrade:
+      template: armor-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
 HELMET_QUAN_NGUC_5:
   base:
-    material: DIAMOND_HELMET
-    name: '&dNón Quản Ngục &e&lV'
-    max-durability: 6400
+    material: NETHERITE_HELMET
+    name: "&dNón Quản Ngục &e&lV"
+    max-durability: 7000
     tier: MYTHICAL
     hide-enchants: true
     lore-format: armor-lore
     lore:
-      - '&b&l✦ Tiểu Sử'
-      - '&7 &b●&7 Không có sát thương nào chạm tới được'
-      - '&7 &b●&7 Độ Bền Giáp 12 - càng nâng cấp càng chắc chắn'
-    armor: 13.0
-    max-health: 12.0
-    armor-toughness: 12.0
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Trang bị phòng thủ kiên cố của Quản Ngục"
+      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
+    armor: 13.2
+    max-health: 20.2
+    armor-toughness: 4.0
+    defense: 3.6
+    mana-regeneration: 4.3
     gem-sockets:
       - Uncolored
       - Uncolored
       - Uncolored
       - Uncolored
+    upgrade:
+      template: armor-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
 HELMET_BA_CHU_NGUC_TU_1:
   base:
     material: NETHERITE_HELMET
-    name: '&5Nón Bá Chủ Ngục Tù &e&lI'
-    max-durability: 8000
+    name: "&5Nón Bá Chủ Ngục Tù &e&lI"
+    max-durability: 9000
     tier: EPIC
     hide-enchants: true
     lore-format: armor-lore
     lore:
-      - '&b&l✦ Tiểu Sử'
-      - '&7 &b●&7 Bức tường thành của cả nhà tù'
-      - '&7 &b●&7 Độ Bền Giáp 12 - càng nâng cấp càng chắc chắn'
-    armor: 13.0
-    max-health: 13.0
-    armor-toughness: 12.0
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Trang bị phòng thủ kiên cố của Bá Chủ Ngục Tù"
+      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
+    armor: 15.0
+    max-health: 23.0
+    armor-toughness: 4.4
+    defense: 4.0
+    mana-regeneration: 4.0
     gem-sockets:
       - Uncolored
       - Uncolored
       - Uncolored
       - Uncolored
       - Uncolored
+    upgrade:
+      template: armor-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
 HELMET_BA_CHU_NGUC_TU_2:
   base:
     material: NETHERITE_HELMET
-    name: '&5Nón Bá Chủ Ngục Tù &e&lII'
-    max-durability: 8000
+    name: "&5Nón Bá Chủ Ngục Tù &e&lII"
+    max-durability: 9000
     tier: EPIC
     hide-enchants: true
     lore-format: armor-lore
     lore:
-      - '&b&l✦ Tiểu Sử'
-      - '&7 &b●&7 Bức tường thành của cả nhà tù'
-      - '&7 &b●&7 Độ Bền Giáp 13 - càng nâng cấp càng chắc chắn'
-    armor: 13.0
-    max-health: 13.0
-    armor-toughness: 13.0
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Trang bị phòng thủ kiên cố của Bá Chủ Ngục Tù"
+      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
+    armor: 15.5
+    max-health: 24.0
+    armor-toughness: 4.7
+    defense: 4.3
+    mana-regeneration: 4.2
     gem-sockets:
       - Uncolored
       - Uncolored
       - Uncolored
       - Uncolored
       - Uncolored
+    upgrade:
+      template: armor-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
 HELMET_BA_CHU_NGUC_TU_3:
   base:
     material: NETHERITE_HELMET
-    name: '&5Nón Bá Chủ Ngục Tù &e&lIII'
-    max-durability: 8000
+    name: "&5Nón Bá Chủ Ngục Tù &e&lIII"
+    max-durability: 9000
     tier: EPIC
     hide-enchants: true
     lore-format: armor-lore
     lore:
-      - '&b&l✦ Tiểu Sử'
-      - '&7 &b●&7 Bức tường thành của cả nhà tù'
-      - '&7 &b●&7 Độ Bền Giáp 13 - càng nâng cấp càng chắc chắn'
-    armor: 14.0
-    max-health: 13.0
-    armor-toughness: 13.0
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Trang bị phòng thủ kiên cố của Bá Chủ Ngục Tù"
+      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
+    armor: 16.0
+    max-health: 25.0
+    armor-toughness: 4.9
+    defense: 4.5
+    mana-regeneration: 4.4
     gem-sockets:
       - Uncolored
       - Uncolored
       - Uncolored
       - Uncolored
       - Uncolored
+    upgrade:
+      template: armor-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
 HELMET_BA_CHU_NGUC_TU_4:
   base:
     material: NETHERITE_HELMET
-    name: '&5Nón Bá Chủ Ngục Tù &e&lIV'
-    max-durability: 8000
+    name: "&5Nón Bá Chủ Ngục Tù &e&lIV"
+    max-durability: 9000
     tier: EPIC
     hide-enchants: true
     lore-format: armor-lore
     lore:
-      - '&b&l✦ Tiểu Sử'
-      - '&7 &b●&7 Bức tường thành của cả nhà tù'
-      - '&7 &b●&7 Độ Bền Giáp 13 - càng nâng cấp càng chắc chắn'
-    armor: 14.0
-    max-health: 14.0
-    armor-toughness: 13.0
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Trang bị phòng thủ kiên cố của Bá Chủ Ngục Tù"
+      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
+    armor: 16.5
+    max-health: 26.0
+    armor-toughness: 5.2
+    defense: 4.8
+    mana-regeneration: 4.6
     gem-sockets:
       - Uncolored
       - Uncolored
       - Uncolored
       - Uncolored
       - Uncolored
+    upgrade:
+      template: armor-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
 HELMET_BA_CHU_NGUC_TU_5:
   base:
     material: NETHERITE_HELMET
-    name: '&5Nón Bá Chủ Ngục Tù &e&lV'
-    max-durability: 8000
+    name: "&5Nón Bá Chủ Ngục Tù &e&lV"
+    max-durability: 9000
     tier: EPIC
     hide-enchants: true
     lore-format: armor-lore
     lore:
-      - '&b&l✦ Tiểu Sử'
-      - '&7 &b●&7 Bức tường thành của cả nhà tù'
-      - '&7 &b●&7 Độ Bền Giáp 14 - càng nâng cấp càng chắc chắn'
-    armor: 14.0
-    max-health: 14.0
-    armor-toughness: 14.0
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Trang bị phòng thủ kiên cố của Bá Chủ Ngục Tù"
+      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
+    armor: 17.0
+    max-health: 27.0
+    armor-toughness: 5.4
+    defense: 5.0
+    mana-regeneration: 4.8
     gem-sockets:
       - Uncolored
       - Uncolored
       - Uncolored
       - Uncolored
       - Uncolored
+    upgrade:
+      template: armor-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
 HELMET_VUOT_NGUC_1:
   base:
     material: NETHERITE_HELMET
-    name: '&4Nón Vượt Ngục &e&lI'
+    name: "&4Nón Vượt Ngục &e&lI"
     max-durability: 12000
     tier: UNIQUE
     hide-enchants: true
     lore-format: armor-lore
     lore:
-      - '&b&l✦ Tiểu Sử'
-      - '&7 &b●&7 Lớp giáp cuối cùng trước tự do'
-      - '&7 &b●&7 Độ Bền Giáp 14 - càng nâng cấp càng chắc chắn'
-    armor: 15.0
-    max-health: 14.0
-    armor-toughness: 14.0
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Trang bị phòng thủ kiên cố của Vượt Ngục"
+      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
+    armor: 19.0
+    max-health: 30.0
+    armor-toughness: 6.0
+    defense: 5.6
+    mana-regeneration: 4.5
     gem-sockets:
       - Uncolored
       - Uncolored
       - Uncolored
       - Uncolored
       - Uncolored
+    upgrade:
+      template: armor-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
 HELMET_VUOT_NGUC_2:
   base:
     material: NETHERITE_HELMET
-    name: '&4Nón Vượt Ngục &e&lII'
+    name: "&4Nón Vượt Ngục &e&lII"
     max-durability: 12000
     tier: UNIQUE
     hide-enchants: true
     lore-format: armor-lore
     lore:
-      - '&b&l✦ Tiểu Sử'
-      - '&7 &b●&7 Lớp giáp cuối cùng trước tự do'
-      - '&7 &b●&7 Độ Bền Giáp 14 - càng nâng cấp càng chắc chắn'
-    armor: 15.0
-    max-health: 15.0
-    armor-toughness: 14.0
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Trang bị phòng thủ kiên cố của Vượt Ngục"
+      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
+    armor: 19.6
+    max-health: 31.2
+    armor-toughness: 6.3
+    defense: 5.9
+    mana-regeneration: 4.7
     gem-sockets:
       - Uncolored
       - Uncolored
       - Uncolored
       - Uncolored
       - Uncolored
+    upgrade:
+      template: armor-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
 HELMET_VUOT_NGUC_3:
   base:
     material: NETHERITE_HELMET
-    name: '&4Nón Vượt Ngục &e&lIII'
+    name: "&4Nón Vượt Ngục &e&lIII"
     max-durability: 12000
     tier: UNIQUE
     hide-enchants: true
     lore-format: armor-lore
     lore:
-      - '&b&l✦ Tiểu Sử'
-      - '&7 &b●&7 Lớp giáp cuối cùng trước tự do'
-      - '&7 &b●&7 Độ Bền Giáp 15 - càng nâng cấp càng chắc chắn'
-    armor: 15.0
-    max-health: 15.0
-    armor-toughness: 15.0
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Trang bị phòng thủ kiên cố của Vượt Ngục"
+      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
+    armor: 20.2
+    max-health: 32.4
+    armor-toughness: 6.6
+    defense: 6.2
+    mana-regeneration: 4.9
     gem-sockets:
       - Uncolored
       - Uncolored
       - Uncolored
       - Uncolored
       - Uncolored
+    upgrade:
+      template: armor-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
 HELMET_VUOT_NGUC_4:
   base:
     material: NETHERITE_HELMET
-    name: '&4Nón Vượt Ngục &e&lIV'
+    name: "&4Nón Vượt Ngục &e&lIV"
     max-durability: 12000
     tier: UNIQUE
     hide-enchants: true
     lore-format: armor-lore
     lore:
-      - '&b&l✦ Tiểu Sử'
-      - '&7 &b●&7 Lớp giáp cuối cùng trước tự do'
-      - '&7 &b●&7 Độ Bền Giáp 15 - càng nâng cấp càng chắc chắn'
-    armor: 16.0
-    max-health: 15.0
-    armor-toughness: 15.0
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Trang bị phòng thủ kiên cố của Vượt Ngục"
+      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
+    armor: 20.8
+    max-health: 33.6
+    armor-toughness: 6.9
+    defense: 6.5
+    mana-regeneration: 5.1
     gem-sockets:
       - Uncolored
       - Uncolored
       - Uncolored
       - Uncolored
       - Uncolored
+    upgrade:
+      template: armor-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
 HELMET_VUOT_NGUC_5:
   base:
     material: NETHERITE_HELMET
-    name: '&4Nón Vượt Ngục &e&lV'
+    name: "&4Nón Vượt Ngục &e&lV"
     max-durability: 12000
     tier: UNIQUE
     hide-enchants: true
     lore-format: armor-lore
     lore:
-      - '&b&l✦ Tiểu Sử'
-      - '&7 &b●&7 Lớp giáp cuối cùng trước tự do'
-      - '&7 &b●&7 Độ Bền Giáp 15 - càng nâng cấp càng chắc chắn'
-    armor: 16.0
-    max-health: 16.0
-    armor-toughness: 15.0
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Trang bị phòng thủ kiên cố của Vượt Ngục"
+      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
+    armor: 21.4
+    max-health: 34.8
+    armor-toughness: 7.2
+    defense: 6.8
+    mana-regeneration: 5.3
     gem-sockets:
       - Uncolored
       - Uncolored
       - Uncolored
       - Uncolored
       - Uncolored
+    upgrade:
+      template: armor-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
 CHESTPLATE_TAN_BINH_1:
   base:
     material: LEATHER_CHESTPLATE
-    name: '&fÁo Tân Binh &e&lI'
+    name: "&fÁo Giáp Tân Binh &e&lI"
     max-durability: 400
     tier: TRASH
     hide-enchants: true
     lore-format: armor-lore
     lore:
-      - '&b&l✦ Tiểu Sử'
-      - '&7 &b●&7 Giáp khởi đầu của mọi tù nhân'
-      - '&7 &b●&7 Độ Bền Giáp 1 - càng nâng cấp càng chắc chắn'
-    armor: 1.0
-    max-health: 1.0
-    armor-toughness: 1.0
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Trang bị phòng thủ kiên cố của Tân Binh"
+      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
+    armor: 1.4
+    max-health: 1.4
+    upgrade:
+      template: armor-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
 CHESTPLATE_TAN_BINH_2:
   base:
     material: LEATHER_CHESTPLATE
-    name: '&fÁo Tân Binh &e&lII'
+    name: "&fÁo Giáp Tân Binh &e&lII"
     max-durability: 400
     tier: TRASH
     hide-enchants: true
     lore-format: armor-lore
     lore:
-      - '&b&l✦ Tiểu Sử'
-      - '&7 &b●&7 Giáp khởi đầu của mọi tù nhân'
-      - '&7 &b●&7 Độ Bền Giáp 1 - càng nâng cấp càng chắc chắn'
-    armor: 2.0
-    max-health: 1.0
-    armor-toughness: 1.0
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Trang bị phòng thủ kiên cố của Tân Binh"
+      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
+    armor: 1.6
+    max-health: 1.6
+    upgrade:
+      template: armor-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
 CHESTPLATE_TAN_BINH_3:
   base:
     material: LEATHER_CHESTPLATE
-    name: '&fÁo Tân Binh &e&lIII'
+    name: "&fÁo Giáp Tân Binh &e&lIII"
     max-durability: 400
     tier: TRASH
     hide-enchants: true
     lore-format: armor-lore
     lore:
-      - '&b&l✦ Tiểu Sử'
-      - '&7 &b●&7 Giáp khởi đầu của mọi tù nhân'
-      - '&7 &b●&7 Độ Bền Giáp 1 - càng nâng cấp càng chắc chắn'
-    armor: 2.0
-    max-health: 2.0
-    armor-toughness: 1.0
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Trang bị phòng thủ kiên cố của Tân Binh"
+      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
+    armor: 1.8
+    max-health: 1.8
+    upgrade:
+      template: armor-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
 CHESTPLATE_TAN_BINH_4:
   base:
     material: LEATHER_CHESTPLATE
-    name: '&fÁo Tân Binh &e&lIV'
+    name: "&fÁo Giáp Tân Binh &e&lIV"
     max-durability: 400
     tier: TRASH
     hide-enchants: true
     lore-format: armor-lore
     lore:
-      - '&b&l✦ Tiểu Sử'
-      - '&7 &b●&7 Giáp khởi đầu của mọi tù nhân'
-      - '&7 &b●&7 Độ Bền Giáp 2 - càng nâng cấp càng chắc chắn'
-    armor: 2.0
-    max-health: 2.0
-    armor-toughness: 2.0
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Trang bị phòng thủ kiên cố của Tân Binh"
+      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
+    armor: 1.9
+    max-health: 1.9
+    upgrade:
+      template: armor-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
 CHESTPLATE_TAN_BINH_5:
   base:
     material: LEATHER_CHESTPLATE
-    name: '&fÁo Tân Binh &e&lV'
+    name: "&fÁo Giáp Tân Binh &e&lV"
     max-durability: 400
     tier: TRASH
     hide-enchants: true
     lore-format: armor-lore
     lore:
-      - '&b&l✦ Tiểu Sử'
-      - '&7 &b●&7 Giáp khởi đầu của mọi tù nhân'
-      - '&7 &b●&7 Độ Bền Giáp 2 - càng nâng cấp càng chắc chắn'
-    armor: 3.0
-    max-health: 2.0
-    armor-toughness: 2.0
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Trang bị phòng thủ kiên cố của Tân Binh"
+      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
+    armor: 2.1
+    max-health: 2.1
+    upgrade:
+      template: armor-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
 CHESTPLATE_TU_NHAN_1:
   base:
     material: LEATHER_CHESTPLATE
-    name: '&aÁo Tù Nhân &e&lI'
+    name: "&aÁo Giáp Tù Nhân &e&lI"
     max-durability: 800
     tier: COMMON
     hide-enchants: true
     lore-format: armor-lore
     lore:
-      - '&b&l✦ Tiểu Sử'
-      - '&7 &b●&7 Che chắn tạm đủ qua ngày lao động'
-      - '&7 &b●&7 Độ Bền Giáp 2 - càng nâng cấp càng chắc chắn'
-    armor: 3.0
-    max-health: 3.0
-    armor-toughness: 2.0
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Trang bị phòng thủ kiên cố của Tù Nhân"
+      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
+    armor: 2.8
+    max-health: 2.8
+    upgrade:
+      template: armor-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
 CHESTPLATE_TU_NHAN_2:
   base:
     material: LEATHER_CHESTPLATE
-    name: '&aÁo Tù Nhân &e&lII'
+    name: "&aÁo Giáp Tù Nhân &e&lII"
     max-durability: 800
     tier: COMMON
     hide-enchants: true
     lore-format: armor-lore
     lore:
-      - '&b&l✦ Tiểu Sử'
-      - '&7 &b●&7 Che chắn tạm đủ qua ngày lao động'
-      - '&7 &b●&7 Độ Bền Giáp 3 - càng nâng cấp càng chắc chắn'
-    armor: 3.0
-    max-health: 3.0
-    armor-toughness: 3.0
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Trang bị phòng thủ kiên cố của Tù Nhân"
+      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
+    armor: 3.1
+    max-health: 3.1
+    upgrade:
+      template: armor-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
 CHESTPLATE_TU_NHAN_3:
   base:
     material: LEATHER_CHESTPLATE
-    name: '&aÁo Tù Nhân &e&lIII'
+    name: "&aÁo Giáp Tù Nhân &e&lIII"
     max-durability: 800
     tier: COMMON
     hide-enchants: true
     lore-format: armor-lore
     lore:
-      - '&b&l✦ Tiểu Sử'
-      - '&7 &b●&7 Che chắn tạm đủ qua ngày lao động'
-      - '&7 &b●&7 Độ Bền Giáp 3 - càng nâng cấp càng chắc chắn'
-    armor: 4.0
-    max-health: 3.0
-    armor-toughness: 3.0
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Trang bị phòng thủ kiên cố của Tù Nhân"
+      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
+    armor: 3.3
+    max-health: 3.5
+    upgrade:
+      template: armor-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
 CHESTPLATE_TU_NHAN_4:
   base:
     material: LEATHER_CHESTPLATE
-    name: '&aÁo Tù Nhân &e&lIV'
+    name: "&aÁo Giáp Tù Nhân &e&lIV"
     max-durability: 800
     tier: COMMON
     hide-enchants: true
     lore-format: armor-lore
     lore:
-      - '&b&l✦ Tiểu Sử'
-      - '&7 &b●&7 Che chắn tạm đủ qua ngày lao động'
-      - '&7 &b●&7 Độ Bền Giáp 3 - càng nâng cấp càng chắc chắn'
-    armor: 4.0
-    max-health: 4.0
-    armor-toughness: 3.0
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Trang bị phòng thủ kiên cố của Tù Nhân"
+      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
+    armor: 3.6
+    max-health: 3.8
+    upgrade:
+      template: armor-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
 CHESTPLATE_TU_NHAN_5:
   base:
     material: LEATHER_CHESTPLATE
-    name: '&aÁo Tù Nhân &e&lV'
+    name: "&aÁo Giáp Tù Nhân &e&lV"
     max-durability: 800
     tier: COMMON
     hide-enchants: true
     lore-format: armor-lore
     lore:
-      - '&b&l✦ Tiểu Sử'
-      - '&7 &b●&7 Che chắn tạm đủ qua ngày lao động'
-      - '&7 &b●&7 Độ Bền Giáp 4 - càng nâng cấp càng chắc chắn'
-    armor: 4.0
-    max-health: 4.0
-    armor-toughness: 4.0
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Trang bị phòng thủ kiên cố của Tù Nhân"
+      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
+    armor: 3.8
+    max-health: 4.2
+    upgrade:
+      template: armor-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
 CHESTPLATE_LAO_CONG_1:
   base:
     material: CHAINMAIL_CHESTPLATE
-    name: '&bÁo Lao Công &e&lI'
-    max-durability: 1600
+    name: "&bÁo Giáp Lao Công &e&lI"
+    max-durability: 1500
     tier: UNCOMMON
     hide-enchants: true
     lore-format: armor-lore
     lore:
-      - '&b&l✦ Tiểu Sử'
-      - '&7 &b●&7 Dấu ấn của người lao động chính thức'
-      - '&7 &b●&7 Độ Bền Giáp 4 - càng nâng cấp càng chắc chắn'
-    armor: 5.0
-    max-health: 4.0
-    armor-toughness: 4.0
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Trang bị phòng thủ kiên cố của Lao Công"
+      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
+    armor: 4.9
+    max-health: 5.3
+    armor-toughness: 0.7
     gem-sockets:
       - Uncolored
+    upgrade:
+      template: armor-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
 CHESTPLATE_LAO_CONG_2:
   base:
     material: CHAINMAIL_CHESTPLATE
-    name: '&bÁo Lao Công &e&lII'
-    max-durability: 1600
+    name: "&bÁo Giáp Lao Công &e&lII"
+    max-durability: 1500
     tier: UNCOMMON
     hide-enchants: true
     lore-format: armor-lore
     lore:
-      - '&b&l✦ Tiểu Sử'
-      - '&7 &b●&7 Dấu ấn của người lao động chính thức'
-      - '&7 &b●&7 Độ Bền Giáp 4 - càng nâng cấp càng chắc chắn'
-    armor: 5.0
-    max-health: 5.0
-    armor-toughness: 4.0
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Trang bị phòng thủ kiên cố của Lao Công"
+      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
+    armor: 5.3
+    max-health: 5.8
+    armor-toughness: 0.8
     gem-sockets:
       - Uncolored
+    upgrade:
+      template: armor-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
 CHESTPLATE_LAO_CONG_3:
   base:
     material: CHAINMAIL_CHESTPLATE
-    name: '&bÁo Lao Công &e&lIII'
-    max-durability: 1600
+    name: "&bÁo Giáp Lao Công &e&lIII"
+    max-durability: 1500
     tier: UNCOMMON
     hide-enchants: true
     lore-format: armor-lore
     lore:
-      - '&b&l✦ Tiểu Sử'
-      - '&7 &b●&7 Dấu ấn của người lao động chính thức'
-      - '&7 &b●&7 Độ Bền Giáp 5 - càng nâng cấp càng chắc chắn'
-    armor: 5.0
-    max-health: 5.0
-    armor-toughness: 5.0
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Trang bị phòng thủ kiên cố của Lao Công"
+      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
+    armor: 5.6
+    max-health: 6.3
+    armor-toughness: 0.9
     gem-sockets:
       - Uncolored
+    upgrade:
+      template: armor-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
 CHESTPLATE_LAO_CONG_4:
   base:
     material: CHAINMAIL_CHESTPLATE
-    name: '&bÁo Lao Công &e&lIV'
-    max-durability: 1600
+    name: "&bÁo Giáp Lao Công &e&lIV"
+    max-durability: 1500
     tier: UNCOMMON
     hide-enchants: true
     lore-format: armor-lore
     lore:
-      - '&b&l✦ Tiểu Sử'
-      - '&7 &b●&7 Dấu ấn của người lao động chính thức'
-      - '&7 &b●&7 Độ Bền Giáp 5 - càng nâng cấp càng chắc chắn'
-    armor: 6.0
-    max-health: 5.0
-    armor-toughness: 5.0
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Trang bị phòng thủ kiên cố của Lao Công"
+      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
+    armor: 5.9
+    max-health: 6.8
+    armor-toughness: 1.0
     gem-sockets:
       - Uncolored
+    upgrade:
+      template: armor-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
 CHESTPLATE_LAO_CONG_5:
   base:
     material: CHAINMAIL_CHESTPLATE
-    name: '&bÁo Lao Công &e&lV'
-    max-durability: 1600
+    name: "&bÁo Giáp Lao Công &e&lV"
+    max-durability: 1500
     tier: UNCOMMON
     hide-enchants: true
     lore-format: armor-lore
     lore:
-      - '&b&l✦ Tiểu Sử'
-      - '&7 &b●&7 Dấu ấn của người lao động chính thức'
-      - '&7 &b●&7 Độ Bền Giáp 5 - càng nâng cấp càng chắc chắn'
-    armor: 6.0
-    max-health: 6.0
-    armor-toughness: 5.0
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Trang bị phòng thủ kiên cố của Lao Công"
+      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
+    armor: 6.3
+    max-health: 7.3
+    armor-toughness: 1.0
     gem-sockets:
       - Uncolored
+    upgrade:
+      template: armor-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
 CHESTPLATE_THO_DAO_1:
   base:
     material: IRON_CHESTPLATE
-    name: '&eÁo Thợ Đào &e&lI'
-    max-durability: 2400
+    name: "&eÁo Giáp Thợ Đào &e&lI"
+    max-durability: 2500
     tier: RARE
     hide-enchants: true
     lore-format: armor-lore
     lore:
-      - '&b&l✦ Tiểu Sử'
-      - '&7 &b●&7 Vững vàng trước hiểm nguy trong mỏ sâu'
-      - '&7 &b●&7 Độ Bền Giáp 6 - càng nâng cấp càng chắc chắn'
-    armor: 6.0
-    max-health: 6.0
-    armor-toughness: 6.0
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Trang bị phòng thủ kiên cố của Thợ Đào"
+      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
+    armor: 7.7
+    max-health: 8.8
+    armor-toughness: 1.4
+    defense: 0.7
     gem-sockets:
       - Uncolored
       - Uncolored
+    upgrade:
+      template: armor-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
 CHESTPLATE_THO_DAO_2:
   base:
     material: IRON_CHESTPLATE
-    name: '&eÁo Thợ Đào &e&lII'
-    max-durability: 2400
+    name: "&eÁo Giáp Thợ Đào &e&lII"
+    max-durability: 2500
     tier: RARE
     hide-enchants: true
     lore-format: armor-lore
     lore:
-      - '&b&l✦ Tiểu Sử'
-      - '&7 &b●&7 Vững vàng trước hiểm nguy trong mỏ sâu'
-      - '&7 &b●&7 Độ Bền Giáp 6 - càng nâng cấp càng chắc chắn'
-    armor: 7.0
-    max-health: 6.0
-    armor-toughness: 6.0
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Trang bị phòng thủ kiên cố của Thợ Đào"
+      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
+    armor: 8.1
+    max-health: 9.4
+    armor-toughness: 1.6
+    defense: 0.8
     gem-sockets:
       - Uncolored
       - Uncolored
+    upgrade:
+      template: armor-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
 CHESTPLATE_THO_DAO_3:
   base:
     material: IRON_CHESTPLATE
-    name: '&eÁo Thợ Đào &e&lIII'
-    max-durability: 2400
+    name: "&eÁo Giáp Thợ Đào &e&lIII"
+    max-durability: 2500
     tier: RARE
     hide-enchants: true
     lore-format: armor-lore
     lore:
-      - '&b&l✦ Tiểu Sử'
-      - '&7 &b●&7 Vững vàng trước hiểm nguy trong mỏ sâu'
-      - '&7 &b●&7 Độ Bền Giáp 6 - càng nâng cấp càng chắc chắn'
-    armor: 7.0
-    max-health: 7.0
-    armor-toughness: 6.0
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Trang bị phòng thủ kiên cố của Thợ Đào"
+      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
+    armor: 8.6
+    max-health: 10.1
+    armor-toughness: 1.8
+    defense: 0.9
     gem-sockets:
       - Uncolored
       - Uncolored
+    upgrade:
+      template: armor-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
 CHESTPLATE_THO_DAO_4:
   base:
     material: IRON_CHESTPLATE
-    name: '&eÁo Thợ Đào &e&lIV'
-    max-durability: 2400
+    name: "&eÁo Giáp Thợ Đào &e&lIV"
+    max-durability: 2500
     tier: RARE
     hide-enchants: true
     lore-format: armor-lore
     lore:
-      - '&b&l✦ Tiểu Sử'
-      - '&7 &b●&7 Vững vàng trước hiểm nguy trong mỏ sâu'
-      - '&7 &b●&7 Độ Bền Giáp 7 - càng nâng cấp càng chắc chắn'
-    armor: 7.0
-    max-health: 7.0
-    armor-toughness: 7.0
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Trang bị phòng thủ kiên cố của Thợ Đào"
+      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
+    armor: 9.0
+    max-health: 10.8
+    armor-toughness: 1.9
+    defense: 1.0
     gem-sockets:
       - Uncolored
       - Uncolored
+    upgrade:
+      template: armor-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
 CHESTPLATE_THO_DAO_5:
   base:
     material: IRON_CHESTPLATE
-    name: '&eÁo Thợ Đào &e&lV'
-    max-durability: 2400
+    name: "&eÁo Giáp Thợ Đào &e&lV"
+    max-durability: 2500
     tier: RARE
     hide-enchants: true
     lore-format: armor-lore
     lore:
-      - '&b&l✦ Tiểu Sử'
-      - '&7 &b●&7 Vững vàng trước hiểm nguy trong mỏ sâu'
-      - '&7 &b●&7 Độ Bền Giáp 7 - càng nâng cấp càng chắc chắn'
-    armor: 8.0
-    max-health: 7.0
-    armor-toughness: 7.0
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Trang bị phòng thủ kiên cố của Thợ Đào"
+      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
+    armor: 9.4
+    max-health: 11.5
+    armor-toughness: 2.1
+    defense: 1.0
     gem-sockets:
       - Uncolored
       - Uncolored
+    upgrade:
+      template: armor-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
 CHESTPLATE_DOI_TRUONG_1:
   base:
-    material: IRON_CHESTPLATE
-    name: '&6Áo Đội Trưởng &e&lI'
-    max-durability: 3600
+    material: DIAMOND_CHESTPLATE
+    name: "&6Áo Giáp Đội Trưởng &e&lI"
+    max-durability: 3800
     tier: VERY_RARE
     hide-enchants: true
     lore-format: armor-lore
     lore:
-      - '&b&l✦ Tiểu Sử'
-      - '&7 &b●&7 Bảo vệ cả đội trước mọi hiểm nguy'
-      - '&7 &b●&7 Độ Bền Giáp 7 - càng nâng cấp càng chắc chắn'
-    armor: 8.0
-    max-health: 8.0
-    armor-toughness: 7.0
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Trang bị phòng thủ kiên cố của Đội Trưởng"
+      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
+    armor: 11.2
+    max-health: 14.0
+    armor-toughness: 2.4
+    defense: 1.8
     gem-sockets:
       - Uncolored
       - Uncolored
       - Uncolored
+    upgrade:
+      template: armor-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
 CHESTPLATE_DOI_TRUONG_2:
   base:
-    material: IRON_CHESTPLATE
-    name: '&6Áo Đội Trưởng &e&lII'
-    max-durability: 3600
+    material: DIAMOND_CHESTPLATE
+    name: "&6Áo Giáp Đội Trưởng &e&lII"
+    max-durability: 3800
     tier: VERY_RARE
     hide-enchants: true
     lore-format: armor-lore
     lore:
-      - '&b&l✦ Tiểu Sử'
-      - '&7 &b●&7 Bảo vệ cả đội trước mọi hiểm nguy'
-      - '&7 &b●&7 Độ Bền Giáp 8 - càng nâng cấp càng chắc chắn'
-    armor: 8.0
-    max-health: 8.0
-    armor-toughness: 8.0
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Trang bị phòng thủ kiên cố của Đội Trưởng"
+      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
+    armor: 11.7
+    max-health: 14.9
+    armor-toughness: 2.6
+    defense: 1.9
     gem-sockets:
       - Uncolored
       - Uncolored
       - Uncolored
+    upgrade:
+      template: armor-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
 CHESTPLATE_DOI_TRUONG_3:
   base:
-    material: IRON_CHESTPLATE
-    name: '&6Áo Đội Trưởng &e&lIII'
-    max-durability: 3600
+    material: DIAMOND_CHESTPLATE
+    name: "&6Áo Giáp Đội Trưởng &e&lIII"
+    max-durability: 3800
     tier: VERY_RARE
     hide-enchants: true
     lore-format: armor-lore
     lore:
-      - '&b&l✦ Tiểu Sử'
-      - '&7 &b●&7 Bảo vệ cả đội trước mọi hiểm nguy'
-      - '&7 &b●&7 Độ Bền Giáp 8 - càng nâng cấp càng chắc chắn'
-    armor: 9.0
-    max-health: 8.0
-    armor-toughness: 8.0
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Trang bị phòng thủ kiên cố của Đội Trưởng"
+      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
+    armor: 12.3
+    max-health: 15.7
+    armor-toughness: 2.8
+    defense: 2.1
     gem-sockets:
       - Uncolored
       - Uncolored
       - Uncolored
+    upgrade:
+      template: armor-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
 CHESTPLATE_DOI_TRUONG_4:
   base:
-    material: IRON_CHESTPLATE
-    name: '&6Áo Đội Trưởng &e&lIV'
-    max-durability: 3600
+    material: DIAMOND_CHESTPLATE
+    name: "&6Áo Giáp Đội Trưởng &e&lIV"
+    max-durability: 3800
     tier: VERY_RARE
     hide-enchants: true
     lore-format: armor-lore
     lore:
-      - '&b&l✦ Tiểu Sử'
-      - '&7 &b●&7 Bảo vệ cả đội trước mọi hiểm nguy'
-      - '&7 &b●&7 Độ Bền Giáp 8 - càng nâng cấp càng chắc chắn'
-    armor: 9.0
-    max-health: 9.0
-    armor-toughness: 8.0
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Trang bị phòng thủ kiên cố của Đội Trưởng"
+      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
+    armor: 12.8
+    max-health: 16.6
+    armor-toughness: 3.0
+    defense: 2.3
     gem-sockets:
       - Uncolored
       - Uncolored
       - Uncolored
+    upgrade:
+      template: armor-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
 CHESTPLATE_DOI_TRUONG_5:
   base:
-    material: IRON_CHESTPLATE
-    name: '&6Áo Đội Trưởng &e&lV'
-    max-durability: 3600
+    material: DIAMOND_CHESTPLATE
+    name: "&6Áo Giáp Đội Trưởng &e&lV"
+    max-durability: 3800
     tier: VERY_RARE
     hide-enchants: true
     lore-format: armor-lore
     lore:
-      - '&b&l✦ Tiểu Sử'
-      - '&7 &b●&7 Bảo vệ cả đội trước mọi hiểm nguy'
-      - '&7 &b●&7 Độ Bền Giáp 9 - càng nâng cấp càng chắc chắn'
-    armor: 9.0
-    max-health: 9.0
-    armor-toughness: 9.0
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Trang bị phòng thủ kiên cố của Đội Trưởng"
+      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
+    armor: 13.3
+    max-health: 17.5
+    armor-toughness: 3.1
+    defense: 2.4
     gem-sockets:
       - Uncolored
       - Uncolored
       - Uncolored
+    upgrade:
+      template: armor-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
 CHESTPLATE_PHO_QUAN_NGUC_1:
   base:
     material: DIAMOND_CHESTPLATE
-    name: '&cÁo Phó Quản Ngục &e&lI'
-    max-durability: 4800
+    name: "&cÁo Giáp Phó Quản Ngục &e&lI"
+    max-durability: 5200
     tier: LEGENDARY
     hide-enchants: true
     lore-format: armor-lore
     lore:
-      - '&b&l✦ Tiểu Sử'
-      - '&7 &b●&7 Uy quyền hiện diện qua từng lớp giáp'
-      - '&7 &b●&7 Độ Bền Giáp 9 - càng nâng cấp càng chắc chắn'
-    armor: 10.0
-    max-health: 9.0
-    armor-toughness: 9.0
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Trang bị phòng thủ kiên cố của Phó Quản Ngục"
+      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
+    armor: 15.4
+    max-health: 21.0
+    armor-toughness: 3.8
+    defense: 3.1
     gem-sockets:
       - Uncolored
       - Uncolored
       - Uncolored
       - Uncolored
+    upgrade:
+      template: armor-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
 CHESTPLATE_PHO_QUAN_NGUC_2:
   base:
     material: DIAMOND_CHESTPLATE
-    name: '&cÁo Phó Quản Ngục &e&lII'
-    max-durability: 4800
+    name: "&cÁo Giáp Phó Quản Ngục &e&lII"
+    max-durability: 5200
     tier: LEGENDARY
     hide-enchants: true
     lore-format: armor-lore
     lore:
-      - '&b&l✦ Tiểu Sử'
-      - '&7 &b●&7 Uy quyền hiện diện qua từng lớp giáp'
-      - '&7 &b●&7 Độ Bền Giáp 9 - càng nâng cấp càng chắc chắn'
-    armor: 10.0
-    max-health: 10.0
-    armor-toughness: 9.0
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Trang bị phòng thủ kiên cố của Phó Quản Ngục"
+      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
+    armor: 16.0
+    max-health: 22.0
+    armor-toughness: 4.1
+    defense: 3.4
     gem-sockets:
       - Uncolored
       - Uncolored
       - Uncolored
       - Uncolored
+    upgrade:
+      template: armor-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
 CHESTPLATE_PHO_QUAN_NGUC_3:
   base:
     material: DIAMOND_CHESTPLATE
-    name: '&cÁo Phó Quản Ngục &e&lIII'
-    max-durability: 4800
+    name: "&cÁo Giáp Phó Quản Ngục &e&lIII"
+    max-durability: 5200
     tier: LEGENDARY
     hide-enchants: true
     lore-format: armor-lore
     lore:
-      - '&b&l✦ Tiểu Sử'
-      - '&7 &b●&7 Uy quyền hiện diện qua từng lớp giáp'
-      - '&7 &b●&7 Độ Bền Giáp 10 - càng nâng cấp càng chắc chắn'
-    armor: 10.0
-    max-health: 10.0
-    armor-toughness: 10.0
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Trang bị phòng thủ kiên cố của Phó Quản Ngục"
+      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
+    armor: 16.6
+    max-health: 23.1
+    armor-toughness: 4.4
+    defense: 3.7
     gem-sockets:
       - Uncolored
       - Uncolored
       - Uncolored
       - Uncolored
+    upgrade:
+      template: armor-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
 CHESTPLATE_PHO_QUAN_NGUC_4:
   base:
     material: DIAMOND_CHESTPLATE
-    name: '&cÁo Phó Quản Ngục &e&lIV'
-    max-durability: 4800
+    name: "&cÁo Giáp Phó Quản Ngục &e&lIV"
+    max-durability: 5200
     tier: LEGENDARY
     hide-enchants: true
     lore-format: armor-lore
     lore:
-      - '&b&l✦ Tiểu Sử'
-      - '&7 &b●&7 Uy quyền hiện diện qua từng lớp giáp'
-      - '&7 &b●&7 Độ Bền Giáp 10 - càng nâng cấp càng chắc chắn'
-    armor: 11.0
-    max-health: 10.0
-    armor-toughness: 10.0
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Trang bị phòng thủ kiên cố của Phó Quản Ngục"
+      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
+    armor: 17.2
+    max-health: 24.1
+    armor-toughness: 4.6
+    defense: 3.9
     gem-sockets:
       - Uncolored
       - Uncolored
       - Uncolored
       - Uncolored
+    upgrade:
+      template: armor-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
 CHESTPLATE_PHO_QUAN_NGUC_5:
   base:
     material: DIAMOND_CHESTPLATE
-    name: '&cÁo Phó Quản Ngục &e&lV'
-    max-durability: 4800
+    name: "&cÁo Giáp Phó Quản Ngục &e&lV"
+    max-durability: 5200
     tier: LEGENDARY
     hide-enchants: true
     lore-format: armor-lore
     lore:
-      - '&b&l✦ Tiểu Sử'
-      - '&7 &b●&7 Uy quyền hiện diện qua từng lớp giáp'
-      - '&7 &b●&7 Độ Bền Giáp 10 - càng nâng cấp càng chắc chắn'
-    armor: 11.0
-    max-health: 11.0
-    armor-toughness: 10.0
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Trang bị phòng thủ kiên cố của Phó Quản Ngục"
+      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
+    armor: 17.8
+    max-health: 25.2
+    armor-toughness: 4.9
+    defense: 4.2
     gem-sockets:
       - Uncolored
       - Uncolored
       - Uncolored
       - Uncolored
+    upgrade:
+      template: armor-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
 CHESTPLATE_QUAN_NGUC_1:
   base:
-    material: DIAMOND_CHESTPLATE
-    name: '&dÁo Quản Ngục &e&lI'
-    max-durability: 6400
+    material: NETHERITE_CHESTPLATE
+    name: "&dÁo Giáp Quản Ngục &e&lI"
+    max-durability: 7000
     tier: MYTHICAL
     hide-enchants: true
     lore-format: armor-lore
     lore:
-      - '&b&l✦ Tiểu Sử'
-      - '&7 &b●&7 Không có sát thương nào chạm tới được'
-      - '&7 &b●&7 Độ Bền Giáp 11 - càng nâng cấp càng chắc chắn'
-    armor: 11.0
-    max-health: 11.0
-    armor-toughness: 11.0
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Trang bị phòng thủ kiên cố của Quản Ngục"
+      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
+    armor: 20.3
+    max-health: 29.7
+    armor-toughness: 5.6
+    defense: 4.9
     gem-sockets:
       - Uncolored
       - Uncolored
       - Uncolored
       - Uncolored
+    upgrade:
+      template: armor-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
 CHESTPLATE_QUAN_NGUC_2:
   base:
-    material: DIAMOND_CHESTPLATE
-    name: '&dÁo Quản Ngục &e&lII'
-    max-durability: 6400
+    material: NETHERITE_CHESTPLATE
+    name: "&dÁo Giáp Quản Ngục &e&lII"
+    max-durability: 7000
     tier: MYTHICAL
     hide-enchants: true
     lore-format: armor-lore
     lore:
-      - '&b&l✦ Tiểu Sử'
-      - '&7 &b●&7 Không có sát thương nào chạm tới được'
-      - '&7 &b●&7 Độ Bền Giáp 11 - càng nâng cấp càng chắc chắn'
-    armor: 12.0
-    max-health: 11.0
-    armor-toughness: 11.0
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Trang bị phòng thủ kiên cố của Quản Ngục"
+      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
+    armor: 21.0
+    max-health: 31.1
+    armor-toughness: 5.9
+    defense: 5.3
     gem-sockets:
       - Uncolored
       - Uncolored
       - Uncolored
       - Uncolored
+    upgrade:
+      template: armor-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
 CHESTPLATE_QUAN_NGUC_3:
   base:
-    material: DIAMOND_CHESTPLATE
-    name: '&dÁo Quản Ngục &e&lIII'
-    max-durability: 6400
+    material: NETHERITE_CHESTPLATE
+    name: "&dÁo Giáp Quản Ngục &e&lIII"
+    max-durability: 7000
     tier: MYTHICAL
     hide-enchants: true
     lore-format: armor-lore
     lore:
-      - '&b&l✦ Tiểu Sử'
-      - '&7 &b●&7 Không có sát thương nào chạm tới được'
-      - '&7 &b●&7 Độ Bền Giáp 11 - càng nâng cấp càng chắc chắn'
-    armor: 12.0
-    max-health: 12.0
-    armor-toughness: 11.0
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Trang bị phòng thủ kiên cố của Quản Ngục"
+      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
+    armor: 21.7
+    max-health: 32.5
+    armor-toughness: 6.3
+    defense: 5.6
     gem-sockets:
       - Uncolored
       - Uncolored
       - Uncolored
       - Uncolored
+    upgrade:
+      template: armor-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
 CHESTPLATE_QUAN_NGUC_4:
   base:
-    material: DIAMOND_CHESTPLATE
-    name: '&dÁo Quản Ngục &e&lIV'
-    max-durability: 6400
+    material: NETHERITE_CHESTPLATE
+    name: "&dÁo Giáp Quản Ngục &e&lIV"
+    max-durability: 7000
     tier: MYTHICAL
     hide-enchants: true
     lore-format: armor-lore
     lore:
-      - '&b&l✦ Tiểu Sử'
-      - '&7 &b●&7 Không có sát thương nào chạm tới được'
-      - '&7 &b●&7 Độ Bền Giáp 12 - càng nâng cấp càng chắc chắn'
-    armor: 12.0
-    max-health: 12.0
-    armor-toughness: 12.0
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Trang bị phòng thủ kiên cố của Quản Ngục"
+      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
+    armor: 22.4
+    max-health: 33.9
+    armor-toughness: 6.6
+    defense: 5.9
     gem-sockets:
       - Uncolored
       - Uncolored
       - Uncolored
       - Uncolored
+    upgrade:
+      template: armor-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
 CHESTPLATE_QUAN_NGUC_5:
   base:
-    material: DIAMOND_CHESTPLATE
-    name: '&dÁo Quản Ngục &e&lV'
-    max-durability: 6400
+    material: NETHERITE_CHESTPLATE
+    name: "&dÁo Giáp Quản Ngục &e&lV"
+    max-durability: 7000
     tier: MYTHICAL
     hide-enchants: true
     lore-format: armor-lore
     lore:
-      - '&b&l✦ Tiểu Sử'
-      - '&7 &b●&7 Không có sát thương nào chạm tới được'
-      - '&7 &b●&7 Độ Bền Giáp 12 - càng nâng cấp càng chắc chắn'
-    armor: 13.0
-    max-health: 12.0
-    armor-toughness: 12.0
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Trang bị phòng thủ kiên cố của Quản Ngục"
+      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
+    armor: 23.1
+    max-health: 35.3
+    armor-toughness: 7.0
+    defense: 6.3
     gem-sockets:
       - Uncolored
       - Uncolored
       - Uncolored
       - Uncolored
+    upgrade:
+      template: armor-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
 CHESTPLATE_BA_CHU_NGUC_TU_1:
   base:
     material: NETHERITE_CHESTPLATE
-    name: '&5Áo Bá Chủ Ngục Tù &e&lI'
-    max-durability: 8000
+    name: "&5Áo Giáp Bá Chủ Ngục Tù &e&lI"
+    max-durability: 9000
     tier: EPIC
     hide-enchants: true
     lore-format: armor-lore
     lore:
-      - '&b&l✦ Tiểu Sử'
-      - '&7 &b●&7 Bức tường thành của cả nhà tù'
-      - '&7 &b●&7 Độ Bền Giáp 12 - càng nâng cấp càng chắc chắn'
-    armor: 13.0
-    max-health: 13.0
-    armor-toughness: 12.0
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Trang bị phòng thủ kiên cố của Bá Chủ Ngục Tù"
+      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
+    armor: 26.3
+    max-health: 40.3
+    armor-toughness: 7.7
+    defense: 7.0
     gem-sockets:
       - Uncolored
       - Uncolored
       - Uncolored
       - Uncolored
       - Uncolored
+    upgrade:
+      template: armor-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
 CHESTPLATE_BA_CHU_NGUC_TU_2:
   base:
     material: NETHERITE_CHESTPLATE
-    name: '&5Áo Bá Chủ Ngục Tù &e&lII'
-    max-durability: 8000
+    name: "&5Áo Giáp Bá Chủ Ngục Tù &e&lII"
+    max-durability: 9000
     tier: EPIC
     hide-enchants: true
     lore-format: armor-lore
     lore:
-      - '&b&l✦ Tiểu Sử'
-      - '&7 &b●&7 Bức tường thành của cả nhà tù'
-      - '&7 &b●&7 Độ Bền Giáp 13 - càng nâng cấp càng chắc chắn'
-    armor: 13.0
-    max-health: 13.0
-    armor-toughness: 13.0
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Trang bị phòng thủ kiên cố của Bá Chủ Ngục Tù"
+      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
+    armor: 27.1
+    max-health: 42.0
+    armor-toughness: 8.1
+    defense: 7.4
     gem-sockets:
       - Uncolored
       - Uncolored
       - Uncolored
       - Uncolored
       - Uncolored
+    upgrade:
+      template: armor-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
 CHESTPLATE_BA_CHU_NGUC_TU_3:
   base:
     material: NETHERITE_CHESTPLATE
-    name: '&5Áo Bá Chủ Ngục Tù &e&lIII'
-    max-durability: 8000
+    name: "&5Áo Giáp Bá Chủ Ngục Tù &e&lIII"
+    max-durability: 9000
     tier: EPIC
     hide-enchants: true
     lore-format: armor-lore
     lore:
-      - '&b&l✦ Tiểu Sử'
-      - '&7 &b●&7 Bức tường thành của cả nhà tù'
-      - '&7 &b●&7 Độ Bền Giáp 13 - càng nâng cấp càng chắc chắn'
-    armor: 14.0
-    max-health: 13.0
-    armor-toughness: 13.0
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Trang bị phòng thủ kiên cố của Bá Chủ Ngục Tù"
+      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
+    armor: 28.0
+    max-health: 43.8
+    armor-toughness: 8.6
+    defense: 7.9
     gem-sockets:
       - Uncolored
       - Uncolored
       - Uncolored
       - Uncolored
       - Uncolored
+    upgrade:
+      template: armor-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
 CHESTPLATE_BA_CHU_NGUC_TU_4:
   base:
     material: NETHERITE_CHESTPLATE
-    name: '&5Áo Bá Chủ Ngục Tù &e&lIV'
-    max-durability: 8000
+    name: "&5Áo Giáp Bá Chủ Ngục Tù &e&lIV"
+    max-durability: 9000
     tier: EPIC
     hide-enchants: true
     lore-format: armor-lore
     lore:
-      - '&b&l✦ Tiểu Sử'
-      - '&7 &b●&7 Bức tường thành của cả nhà tù'
-      - '&7 &b●&7 Độ Bền Giáp 13 - càng nâng cấp càng chắc chắn'
-    armor: 14.0
-    max-health: 14.0
-    armor-toughness: 13.0
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Trang bị phòng thủ kiên cố của Bá Chủ Ngục Tù"
+      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
+    armor: 28.9
+    max-health: 45.5
+    armor-toughness: 9.0
+    defense: 8.3
     gem-sockets:
       - Uncolored
       - Uncolored
       - Uncolored
       - Uncolored
       - Uncolored
+    upgrade:
+      template: armor-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
 CHESTPLATE_BA_CHU_NGUC_TU_5:
   base:
     material: NETHERITE_CHESTPLATE
-    name: '&5Áo Bá Chủ Ngục Tù &e&lV'
-    max-durability: 8000
+    name: "&5Áo Giáp Bá Chủ Ngục Tù &e&lV"
+    max-durability: 9000
     tier: EPIC
     hide-enchants: true
     lore-format: armor-lore
     lore:
-      - '&b&l✦ Tiểu Sử'
-      - '&7 &b●&7 Bức tường thành của cả nhà tù'
-      - '&7 &b●&7 Độ Bền Giáp 14 - càng nâng cấp càng chắc chắn'
-    armor: 14.0
-    max-health: 14.0
-    armor-toughness: 14.0
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Trang bị phòng thủ kiên cố của Bá Chủ Ngục Tù"
+      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
+    armor: 29.7
+    max-health: 47.3
+    armor-toughness: 9.4
+    defense: 8.8
     gem-sockets:
       - Uncolored
       - Uncolored
       - Uncolored
       - Uncolored
       - Uncolored
+    upgrade:
+      template: armor-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
 CHESTPLATE_VUOT_NGUC_1:
   base:
     material: NETHERITE_CHESTPLATE
-    name: '&4Áo Vượt Ngục &e&lI'
+    name: "&4Áo Giáp Vượt Ngục &e&lI"
     max-durability: 12000
     tier: UNIQUE
     hide-enchants: true
     lore-format: armor-lore
     lore:
-      - '&b&l✦ Tiểu Sử'
-      - '&7 &b●&7 Lớp giáp cuối cùng trước tự do'
-      - '&7 &b●&7 Độ Bền Giáp 14 - càng nâng cấp càng chắc chắn'
-    armor: 15.0
-    max-health: 14.0
-    armor-toughness: 14.0
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Trang bị phòng thủ kiên cố của Vượt Ngục"
+      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
+    armor: 33.3
+    max-health: 52.5
+    armor-toughness: 10.5
+    defense: 9.8
     gem-sockets:
       - Uncolored
       - Uncolored
       - Uncolored
       - Uncolored
       - Uncolored
+    upgrade:
+      template: armor-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
 CHESTPLATE_VUOT_NGUC_2:
   base:
     material: NETHERITE_CHESTPLATE
-    name: '&4Áo Vượt Ngục &e&lII'
+    name: "&4Áo Giáp Vượt Ngục &e&lII"
     max-durability: 12000
     tier: UNIQUE
     hide-enchants: true
     lore-format: armor-lore
     lore:
-      - '&b&l✦ Tiểu Sử'
-      - '&7 &b●&7 Lớp giáp cuối cùng trước tự do'
-      - '&7 &b●&7 Độ Bền Giáp 14 - càng nâng cấp càng chắc chắn'
-    armor: 15.0
-    max-health: 15.0
-    armor-toughness: 14.0
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Trang bị phòng thủ kiên cố của Vượt Ngục"
+      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
+    armor: 34.3
+    max-health: 54.6
+    armor-toughness: 11.0
+    defense: 10.3
     gem-sockets:
       - Uncolored
       - Uncolored
       - Uncolored
       - Uncolored
       - Uncolored
+    upgrade:
+      template: armor-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
 CHESTPLATE_VUOT_NGUC_3:
   base:
     material: NETHERITE_CHESTPLATE
-    name: '&4Áo Vượt Ngục &e&lIII'
+    name: "&4Áo Giáp Vượt Ngục &e&lIII"
     max-durability: 12000
     tier: UNIQUE
     hide-enchants: true
     lore-format: armor-lore
     lore:
-      - '&b&l✦ Tiểu Sử'
-      - '&7 &b●&7 Lớp giáp cuối cùng trước tự do'
-      - '&7 &b●&7 Độ Bền Giáp 15 - càng nâng cấp càng chắc chắn'
-    armor: 15.0
-    max-health: 15.0
-    armor-toughness: 15.0
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Trang bị phòng thủ kiên cố của Vượt Ngục"
+      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
+    armor: 35.3
+    max-health: 56.7
+    armor-toughness: 11.5
+    defense: 10.8
     gem-sockets:
       - Uncolored
       - Uncolored
       - Uncolored
       - Uncolored
       - Uncolored
+    upgrade:
+      template: armor-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
 CHESTPLATE_VUOT_NGUC_4:
   base:
     material: NETHERITE_CHESTPLATE
-    name: '&4Áo Vượt Ngục &e&lIV'
+    name: "&4Áo Giáp Vượt Ngục &e&lIV"
     max-durability: 12000
     tier: UNIQUE
     hide-enchants: true
     lore-format: armor-lore
     lore:
-      - '&b&l✦ Tiểu Sử'
-      - '&7 &b●&7 Lớp giáp cuối cùng trước tự do'
-      - '&7 &b●&7 Độ Bền Giáp 15 - càng nâng cấp càng chắc chắn'
-    armor: 16.0
-    max-health: 15.0
-    armor-toughness: 15.0
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Trang bị phòng thủ kiên cố của Vượt Ngục"
+      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
+    armor: 36.4
+    max-health: 58.8
+    armor-toughness: 12.1
+    defense: 11.4
     gem-sockets:
       - Uncolored
       - Uncolored
       - Uncolored
       - Uncolored
       - Uncolored
+    upgrade:
+      template: armor-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
 CHESTPLATE_VUOT_NGUC_5:
   base:
     material: NETHERITE_CHESTPLATE
-    name: '&4Áo Vượt Ngục &e&lV'
+    name: "&4Áo Giáp Vượt Ngục &e&lV"
     max-durability: 12000
     tier: UNIQUE
     hide-enchants: true
     lore-format: armor-lore
     lore:
-      - '&b&l✦ Tiểu Sử'
-      - '&7 &b●&7 Lớp giáp cuối cùng trước tự do'
-      - '&7 &b●&7 Độ Bền Giáp 15 - càng nâng cấp càng chắc chắn'
-    armor: 16.0
-    max-health: 16.0
-    armor-toughness: 15.0
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Trang bị phòng thủ kiên cố của Vượt Ngục"
+      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
+    armor: 37.4
+    max-health: 60.9
+    armor-toughness: 12.6
+    defense: 11.9
     gem-sockets:
       - Uncolored
       - Uncolored
       - Uncolored
       - Uncolored
       - Uncolored
+    upgrade:
+      template: armor-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
 LEGGINGS_TAN_BINH_1:
   base:
     material: LEATHER_LEGGINGS
-    name: '&fQuần Tân Binh &e&lI'
+    name: "&fQuần Giáp Tân Binh &e&lI"
     max-durability: 400
     tier: TRASH
     hide-enchants: true
     lore-format: armor-lore
     lore:
-      - '&b&l✦ Tiểu Sử'
-      - '&7 &b●&7 Giáp khởi đầu của mọi tù nhân'
-      - '&7 &b●&7 Độ Bền Giáp 1 - càng nâng cấp càng chắc chắn'
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Trang bị phòng thủ kiên cố của Tân Binh"
+      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
     armor: 1.0
     max-health: 1.0
-    armor-toughness: 1.0
+    upgrade:
+      template: armor-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
 LEGGINGS_TAN_BINH_2:
   base:
     material: LEATHER_LEGGINGS
-    name: '&fQuần Tân Binh &e&lII'
+    name: "&fQuần Giáp Tân Binh &e&lII"
     max-durability: 400
     tier: TRASH
     hide-enchants: true
     lore-format: armor-lore
     lore:
-      - '&b&l✦ Tiểu Sử'
-      - '&7 &b●&7 Giáp khởi đầu của mọi tù nhân'
-      - '&7 &b●&7 Độ Bền Giáp 1 - càng nâng cấp càng chắc chắn'
-    armor: 2.0
-    max-health: 1.0
-    armor-toughness: 1.0
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Trang bị phòng thủ kiên cố của Tân Binh"
+      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
+    armor: 1.1
+    max-health: 1.1
+    upgrade:
+      template: armor-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
 LEGGINGS_TAN_BINH_3:
   base:
     material: LEATHER_LEGGINGS
-    name: '&fQuần Tân Binh &e&lIII'
+    name: "&fQuần Giáp Tân Binh &e&lIII"
     max-durability: 400
     tier: TRASH
     hide-enchants: true
     lore-format: armor-lore
     lore:
-      - '&b&l✦ Tiểu Sử'
-      - '&7 &b●&7 Giáp khởi đầu của mọi tù nhân'
-      - '&7 &b●&7 Độ Bền Giáp 1 - càng nâng cấp càng chắc chắn'
-    armor: 2.0
-    max-health: 2.0
-    armor-toughness: 1.0
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Trang bị phòng thủ kiên cố của Tân Binh"
+      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
+    armor: 1.3
+    max-health: 1.3
+    upgrade:
+      template: armor-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
 LEGGINGS_TAN_BINH_4:
   base:
     material: LEATHER_LEGGINGS
-    name: '&fQuần Tân Binh &e&lIV'
+    name: "&fQuần Giáp Tân Binh &e&lIV"
     max-durability: 400
     tier: TRASH
     hide-enchants: true
     lore-format: armor-lore
     lore:
-      - '&b&l✦ Tiểu Sử'
-      - '&7 &b●&7 Giáp khởi đầu của mọi tù nhân'
-      - '&7 &b●&7 Độ Bền Giáp 2 - càng nâng cấp càng chắc chắn'
-    armor: 2.0
-    max-health: 2.0
-    armor-toughness: 2.0
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Trang bị phòng thủ kiên cố của Tân Binh"
+      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
+    armor: 1.4
+    max-health: 1.4
+    upgrade:
+      template: armor-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
 LEGGINGS_TAN_BINH_5:
   base:
     material: LEATHER_LEGGINGS
-    name: '&fQuần Tân Binh &e&lV'
+    name: "&fQuần Giáp Tân Binh &e&lV"
     max-durability: 400
     tier: TRASH
     hide-enchants: true
     lore-format: armor-lore
     lore:
-      - '&b&l✦ Tiểu Sử'
-      - '&7 &b●&7 Giáp khởi đầu của mọi tù nhân'
-      - '&7 &b●&7 Độ Bền Giáp 2 - càng nâng cấp càng chắc chắn'
-    armor: 3.0
-    max-health: 2.0
-    armor-toughness: 2.0
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Trang bị phòng thủ kiên cố của Tân Binh"
+      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
+    armor: 1.5
+    max-health: 1.5
+    upgrade:
+      template: armor-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
 LEGGINGS_TU_NHAN_1:
   base:
     material: LEATHER_LEGGINGS
-    name: '&aQuần Tù Nhân &e&lI'
+    name: "&aQuần Giáp Tù Nhân &e&lI"
     max-durability: 800
     tier: COMMON
     hide-enchants: true
     lore-format: armor-lore
     lore:
-      - '&b&l✦ Tiểu Sử'
-      - '&7 &b●&7 Che chắn tạm đủ qua ngày lao động'
-      - '&7 &b●&7 Độ Bền Giáp 2 - càng nâng cấp càng chắc chắn'
-    armor: 3.0
-    max-health: 3.0
-    armor-toughness: 2.0
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Trang bị phòng thủ kiên cố của Tù Nhân"
+      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
+    armor: 2.0
+    max-health: 2.0
+    upgrade:
+      template: armor-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
 LEGGINGS_TU_NHAN_2:
   base:
     material: LEATHER_LEGGINGS
-    name: '&aQuần Tù Nhân &e&lII'
+    name: "&aQuần Giáp Tù Nhân &e&lII"
     max-durability: 800
     tier: COMMON
     hide-enchants: true
     lore-format: armor-lore
     lore:
-      - '&b&l✦ Tiểu Sử'
-      - '&7 &b●&7 Che chắn tạm đủ qua ngày lao động'
-      - '&7 &b●&7 Độ Bền Giáp 3 - càng nâng cấp càng chắc chắn'
-    armor: 3.0
-    max-health: 3.0
-    armor-toughness: 3.0
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Trang bị phòng thủ kiên cố của Tù Nhân"
+      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
+    armor: 2.2
+    max-health: 2.3
+    upgrade:
+      template: armor-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
 LEGGINGS_TU_NHAN_3:
   base:
     material: LEATHER_LEGGINGS
-    name: '&aQuần Tù Nhân &e&lIII'
+    name: "&aQuần Giáp Tù Nhân &e&lIII"
     max-durability: 800
     tier: COMMON
     hide-enchants: true
     lore-format: armor-lore
     lore:
-      - '&b&l✦ Tiểu Sử'
-      - '&7 &b●&7 Che chắn tạm đủ qua ngày lao động'
-      - '&7 &b●&7 Độ Bền Giáp 3 - càng nâng cấp càng chắc chắn'
-    armor: 4.0
-    max-health: 3.0
-    armor-toughness: 3.0
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Trang bị phòng thủ kiên cố của Tù Nhân"
+      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
+    armor: 2.4
+    max-health: 2.5
+    upgrade:
+      template: armor-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
 LEGGINGS_TU_NHAN_4:
   base:
     material: LEATHER_LEGGINGS
-    name: '&aQuần Tù Nhân &e&lIV'
+    name: "&aQuần Giáp Tù Nhân &e&lIV"
     max-durability: 800
     tier: COMMON
     hide-enchants: true
     lore-format: armor-lore
     lore:
-      - '&b&l✦ Tiểu Sử'
-      - '&7 &b●&7 Che chắn tạm đủ qua ngày lao động'
-      - '&7 &b●&7 Độ Bền Giáp 3 - càng nâng cấp càng chắc chắn'
-    armor: 4.0
-    max-health: 4.0
-    armor-toughness: 3.0
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Trang bị phòng thủ kiên cố của Tù Nhân"
+      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
+    armor: 2.6
+    max-health: 2.8
+    upgrade:
+      template: armor-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
 LEGGINGS_TU_NHAN_5:
   base:
     material: LEATHER_LEGGINGS
-    name: '&aQuần Tù Nhân &e&lV'
+    name: "&aQuần Giáp Tù Nhân &e&lV"
     max-durability: 800
     tier: COMMON
     hide-enchants: true
     lore-format: armor-lore
     lore:
-      - '&b&l✦ Tiểu Sử'
-      - '&7 &b●&7 Che chắn tạm đủ qua ngày lao động'
-      - '&7 &b●&7 Độ Bền Giáp 4 - càng nâng cấp càng chắc chắn'
-    armor: 4.0
-    max-health: 4.0
-    armor-toughness: 4.0
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Trang bị phòng thủ kiên cố của Tù Nhân"
+      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
+    armor: 2.8
+    max-health: 3.0
+    upgrade:
+      template: armor-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
 LEGGINGS_LAO_CONG_1:
   base:
     material: CHAINMAIL_LEGGINGS
-    name: '&bQuần Lao Công &e&lI'
-    max-durability: 1600
+    name: "&bQuần Giáp Lao Công &e&lI"
+    max-durability: 1500
     tier: UNCOMMON
     hide-enchants: true
     lore-format: armor-lore
     lore:
-      - '&b&l✦ Tiểu Sử'
-      - '&7 &b●&7 Dấu ấn của người lao động chính thức'
-      - '&7 &b●&7 Độ Bền Giáp 4 - càng nâng cấp càng chắc chắn'
-    armor: 5.0
-    max-health: 4.0
-    armor-toughness: 4.0
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Trang bị phòng thủ kiên cố của Lao Công"
+      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
+    armor: 3.5
+    max-health: 3.8
+    armor-toughness: 0.5
     gem-sockets:
       - Uncolored
+    upgrade:
+      template: armor-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
 LEGGINGS_LAO_CONG_2:
   base:
     material: CHAINMAIL_LEGGINGS
-    name: '&bQuần Lao Công &e&lII'
-    max-durability: 1600
+    name: "&bQuần Giáp Lao Công &e&lII"
+    max-durability: 1500
     tier: UNCOMMON
     hide-enchants: true
     lore-format: armor-lore
     lore:
-      - '&b&l✦ Tiểu Sử'
-      - '&7 &b●&7 Dấu ấn của người lao động chính thức'
-      - '&7 &b●&7 Độ Bền Giáp 4 - càng nâng cấp càng chắc chắn'
-    armor: 5.0
-    max-health: 5.0
-    armor-toughness: 4.0
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Trang bị phòng thủ kiên cố của Lao Công"
+      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
+    armor: 3.8
+    max-health: 4.1
+    armor-toughness: 0.6
     gem-sockets:
       - Uncolored
+    upgrade:
+      template: armor-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
 LEGGINGS_LAO_CONG_3:
   base:
     material: CHAINMAIL_LEGGINGS
-    name: '&bQuần Lao Công &e&lIII'
-    max-durability: 1600
+    name: "&bQuần Giáp Lao Công &e&lIII"
+    max-durability: 1500
     tier: UNCOMMON
     hide-enchants: true
     lore-format: armor-lore
     lore:
-      - '&b&l✦ Tiểu Sử'
-      - '&7 &b●&7 Dấu ấn của người lao động chính thức'
-      - '&7 &b●&7 Độ Bền Giáp 5 - càng nâng cấp càng chắc chắn'
-    armor: 5.0
-    max-health: 5.0
-    armor-toughness: 5.0
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Trang bị phòng thủ kiên cố của Lao Công"
+      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
+    armor: 4.0
+    max-health: 4.5
+    armor-toughness: 0.6
     gem-sockets:
       - Uncolored
+    upgrade:
+      template: armor-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
 LEGGINGS_LAO_CONG_4:
   base:
     material: CHAINMAIL_LEGGINGS
-    name: '&bQuần Lao Công &e&lIV'
-    max-durability: 1600
+    name: "&bQuần Giáp Lao Công &e&lIV"
+    max-durability: 1500
     tier: UNCOMMON
     hide-enchants: true
     lore-format: armor-lore
     lore:
-      - '&b&l✦ Tiểu Sử'
-      - '&7 &b●&7 Dấu ấn của người lao động chính thức'
-      - '&7 &b●&7 Độ Bền Giáp 5 - càng nâng cấp càng chắc chắn'
-    armor: 6.0
-    max-health: 5.0
-    armor-toughness: 5.0
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Trang bị phòng thủ kiên cố của Lao Công"
+      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
+    armor: 4.3
+    max-health: 4.9
+    armor-toughness: 0.7
     gem-sockets:
       - Uncolored
+    upgrade:
+      template: armor-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
 LEGGINGS_LAO_CONG_5:
   base:
     material: CHAINMAIL_LEGGINGS
-    name: '&bQuần Lao Công &e&lV'
-    max-durability: 1600
+    name: "&bQuần Giáp Lao Công &e&lV"
+    max-durability: 1500
     tier: UNCOMMON
     hide-enchants: true
     lore-format: armor-lore
     lore:
-      - '&b&l✦ Tiểu Sử'
-      - '&7 &b●&7 Dấu ấn của người lao động chính thức'
-      - '&7 &b●&7 Độ Bền Giáp 5 - càng nâng cấp càng chắc chắn'
-    armor: 6.0
-    max-health: 6.0
-    armor-toughness: 5.0
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Trang bị phòng thủ kiên cố của Lao Công"
+      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
+    armor: 4.5
+    max-health: 5.3
+    armor-toughness: 0.8
     gem-sockets:
       - Uncolored
+    upgrade:
+      template: armor-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
 LEGGINGS_THO_DAO_1:
   base:
     material: IRON_LEGGINGS
-    name: '&eQuần Thợ Đào &e&lI'
-    max-durability: 2400
+    name: "&eQuần Giáp Thợ Đào &e&lI"
+    max-durability: 2500
     tier: RARE
     hide-enchants: true
     lore-format: armor-lore
     lore:
-      - '&b&l✦ Tiểu Sử'
-      - '&7 &b●&7 Vững vàng trước hiểm nguy trong mỏ sâu'
-      - '&7 &b●&7 Độ Bền Giáp 6 - càng nâng cấp càng chắc chắn'
-    armor: 6.0
-    max-health: 6.0
-    armor-toughness: 6.0
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Trang bị phòng thủ kiên cố của Thợ Đào"
+      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
+    armor: 5.5
+    max-health: 6.3
+    armor-toughness: 1.0
+    defense: 0.5
     gem-sockets:
       - Uncolored
       - Uncolored
+    upgrade:
+      template: armor-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
 LEGGINGS_THO_DAO_2:
   base:
     material: IRON_LEGGINGS
-    name: '&eQuần Thợ Đào &e&lII'
-    max-durability: 2400
+    name: "&eQuần Giáp Thợ Đào &e&lII"
+    max-durability: 2500
     tier: RARE
     hide-enchants: true
     lore-format: armor-lore
     lore:
-      - '&b&l✦ Tiểu Sử'
-      - '&7 &b●&7 Vững vàng trước hiểm nguy trong mỏ sâu'
-      - '&7 &b●&7 Độ Bền Giáp 6 - càng nâng cấp càng chắc chắn'
-    armor: 7.0
-    max-health: 6.0
-    armor-toughness: 6.0
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Trang bị phòng thủ kiên cố của Thợ Đào"
+      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
+    armor: 5.8
+    max-health: 6.8
+    armor-toughness: 1.1
+    defense: 0.6
     gem-sockets:
       - Uncolored
       - Uncolored
+    upgrade:
+      template: armor-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
 LEGGINGS_THO_DAO_3:
   base:
     material: IRON_LEGGINGS
-    name: '&eQuần Thợ Đào &e&lIII'
-    max-durability: 2400
+    name: "&eQuần Giáp Thợ Đào &e&lIII"
+    max-durability: 2500
     tier: RARE
     hide-enchants: true
     lore-format: armor-lore
     lore:
-      - '&b&l✦ Tiểu Sử'
-      - '&7 &b●&7 Vững vàng trước hiểm nguy trong mỏ sâu'
-      - '&7 &b●&7 Độ Bền Giáp 6 - càng nâng cấp càng chắc chắn'
-    armor: 7.0
-    max-health: 7.0
-    armor-toughness: 6.0
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Trang bị phòng thủ kiên cố của Thợ Đào"
+      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
+    armor: 6.1
+    max-health: 7.3
+    armor-toughness: 1.3
+    defense: 0.6
     gem-sockets:
       - Uncolored
       - Uncolored
+    upgrade:
+      template: armor-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
 LEGGINGS_THO_DAO_4:
   base:
     material: IRON_LEGGINGS
-    name: '&eQuần Thợ Đào &e&lIV'
-    max-durability: 2400
+    name: "&eQuần Giáp Thợ Đào &e&lIV"
+    max-durability: 2500
     tier: RARE
     hide-enchants: true
     lore-format: armor-lore
     lore:
-      - '&b&l✦ Tiểu Sử'
-      - '&7 &b●&7 Vững vàng trước hiểm nguy trong mỏ sâu'
-      - '&7 &b●&7 Độ Bền Giáp 7 - càng nâng cấp càng chắc chắn'
-    armor: 7.0
-    max-health: 7.0
-    armor-toughness: 7.0
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Trang bị phòng thủ kiên cố của Thợ Đào"
+      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
+    armor: 6.4
+    max-health: 7.8
+    armor-toughness: 1.4
+    defense: 0.7
     gem-sockets:
       - Uncolored
       - Uncolored
+    upgrade:
+      template: armor-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
 LEGGINGS_THO_DAO_5:
   base:
     material: IRON_LEGGINGS
-    name: '&eQuần Thợ Đào &e&lV'
-    max-durability: 2400
+    name: "&eQuần Giáp Thợ Đào &e&lV"
+    max-durability: 2500
     tier: RARE
     hide-enchants: true
     lore-format: armor-lore
     lore:
-      - '&b&l✦ Tiểu Sử'
-      - '&7 &b●&7 Vững vàng trước hiểm nguy trong mỏ sâu'
-      - '&7 &b●&7 Độ Bền Giáp 7 - càng nâng cấp càng chắc chắn'
-    armor: 8.0
-    max-health: 7.0
-    armor-toughness: 7.0
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Trang bị phòng thủ kiên cố của Thợ Đào"
+      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
+    armor: 6.8
+    max-health: 8.3
+    armor-toughness: 1.5
+    defense: 0.8
     gem-sockets:
       - Uncolored
       - Uncolored
+    upgrade:
+      template: armor-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
 LEGGINGS_DOI_TRUONG_1:
   base:
-    material: IRON_LEGGINGS
-    name: '&6Quần Đội Trưởng &e&lI'
-    max-durability: 3600
+    material: DIAMOND_LEGGINGS
+    name: "&6Quần Giáp Đội Trưởng &e&lI"
+    max-durability: 3800
     tier: VERY_RARE
     hide-enchants: true
     lore-format: armor-lore
     lore:
-      - '&b&l✦ Tiểu Sử'
-      - '&7 &b●&7 Bảo vệ cả đội trước mọi hiểm nguy'
-      - '&7 &b●&7 Độ Bền Giáp 7 - càng nâng cấp càng chắc chắn'
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Trang bị phòng thủ kiên cố của Đội Trưởng"
+      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
     armor: 8.0
-    max-health: 8.0
-    armor-toughness: 7.0
+    max-health: 10.0
+    armor-toughness: 1.8
+    defense: 1.3
     gem-sockets:
       - Uncolored
       - Uncolored
       - Uncolored
+    upgrade:
+      template: armor-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
 LEGGINGS_DOI_TRUONG_2:
   base:
-    material: IRON_LEGGINGS
-    name: '&6Quần Đội Trưởng &e&lII'
-    max-durability: 3600
+    material: DIAMOND_LEGGINGS
+    name: "&6Quần Giáp Đội Trưởng &e&lII"
+    max-durability: 3800
     tier: VERY_RARE
     hide-enchants: true
     lore-format: armor-lore
     lore:
-      - '&b&l✦ Tiểu Sử'
-      - '&7 &b●&7 Bảo vệ cả đội trước mọi hiểm nguy'
-      - '&7 &b●&7 Độ Bền Giáp 8 - càng nâng cấp càng chắc chắn'
-    armor: 8.0
-    max-health: 8.0
-    armor-toughness: 8.0
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Trang bị phòng thủ kiên cố của Đội Trưởng"
+      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
+    armor: 8.4
+    max-health: 10.6
+    armor-toughness: 1.9
+    defense: 1.4
     gem-sockets:
       - Uncolored
       - Uncolored
       - Uncolored
+    upgrade:
+      template: armor-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
 LEGGINGS_DOI_TRUONG_3:
   base:
-    material: IRON_LEGGINGS
-    name: '&6Quần Đội Trưởng &e&lIII'
-    max-durability: 3600
+    material: DIAMOND_LEGGINGS
+    name: "&6Quần Giáp Đội Trưởng &e&lIII"
+    max-durability: 3800
     tier: VERY_RARE
     hide-enchants: true
     lore-format: armor-lore
     lore:
-      - '&b&l✦ Tiểu Sử'
-      - '&7 &b●&7 Bảo vệ cả đội trước mọi hiểm nguy'
-      - '&7 &b●&7 Độ Bền Giáp 8 - càng nâng cấp càng chắc chắn'
-    armor: 9.0
-    max-health: 8.0
-    armor-toughness: 8.0
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Trang bị phòng thủ kiên cố của Đội Trưởng"
+      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
+    armor: 8.8
+    max-health: 11.3
+    armor-toughness: 2.0
+    defense: 1.5
     gem-sockets:
       - Uncolored
       - Uncolored
       - Uncolored
+    upgrade:
+      template: armor-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
 LEGGINGS_DOI_TRUONG_4:
   base:
-    material: IRON_LEGGINGS
-    name: '&6Quần Đội Trưởng &e&lIV'
-    max-durability: 3600
+    material: DIAMOND_LEGGINGS
+    name: "&6Quần Giáp Đội Trưởng &e&lIV"
+    max-durability: 3800
     tier: VERY_RARE
     hide-enchants: true
     lore-format: armor-lore
     lore:
-      - '&b&l✦ Tiểu Sử'
-      - '&7 &b●&7 Bảo vệ cả đội trước mọi hiểm nguy'
-      - '&7 &b●&7 Độ Bền Giáp 8 - càng nâng cấp càng chắc chắn'
-    armor: 9.0
-    max-health: 9.0
-    armor-toughness: 8.0
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Trang bị phòng thủ kiên cố của Đội Trưởng"
+      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
+    armor: 9.1
+    max-health: 11.9
+    armor-toughness: 2.1
+    defense: 1.6
     gem-sockets:
       - Uncolored
       - Uncolored
       - Uncolored
+    upgrade:
+      template: armor-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
 LEGGINGS_DOI_TRUONG_5:
   base:
-    material: IRON_LEGGINGS
-    name: '&6Quần Đội Trưởng &e&lV'
-    max-durability: 3600
+    material: DIAMOND_LEGGINGS
+    name: "&6Quần Giáp Đội Trưởng &e&lV"
+    max-durability: 3800
     tier: VERY_RARE
     hide-enchants: true
     lore-format: armor-lore
     lore:
-      - '&b&l✦ Tiểu Sử'
-      - '&7 &b●&7 Bảo vệ cả đội trước mọi hiểm nguy'
-      - '&7 &b●&7 Độ Bền Giáp 9 - càng nâng cấp càng chắc chắn'
-    armor: 9.0
-    max-health: 9.0
-    armor-toughness: 9.0
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Trang bị phòng thủ kiên cố của Đội Trưởng"
+      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
+    armor: 9.5
+    max-health: 12.5
+    armor-toughness: 2.3
+    defense: 1.8
     gem-sockets:
       - Uncolored
       - Uncolored
       - Uncolored
+    upgrade:
+      template: armor-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
 LEGGINGS_PHO_QUAN_NGUC_1:
   base:
     material: DIAMOND_LEGGINGS
-    name: '&cQuần Phó Quản Ngục &e&lI'
-    max-durability: 4800
+    name: "&cQuần Giáp Phó Quản Ngục &e&lI"
+    max-durability: 5200
     tier: LEGENDARY
     hide-enchants: true
     lore-format: armor-lore
     lore:
-      - '&b&l✦ Tiểu Sử'
-      - '&7 &b●&7 Uy quyền hiện diện qua từng lớp giáp'
-      - '&7 &b●&7 Độ Bền Giáp 9 - càng nâng cấp càng chắc chắn'
-    armor: 10.0
-    max-health: 9.0
-    armor-toughness: 9.0
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Trang bị phòng thủ kiên cố của Phó Quản Ngục"
+      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
+    armor: 11.0
+    max-health: 15.0
+    armor-toughness: 2.8
+    defense: 2.3
     gem-sockets:
       - Uncolored
       - Uncolored
       - Uncolored
       - Uncolored
+    upgrade:
+      template: armor-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
 LEGGINGS_PHO_QUAN_NGUC_2:
   base:
     material: DIAMOND_LEGGINGS
-    name: '&cQuần Phó Quản Ngục &e&lII'
-    max-durability: 4800
+    name: "&cQuần Giáp Phó Quản Ngục &e&lII"
+    max-durability: 5200
     tier: LEGENDARY
     hide-enchants: true
     lore-format: armor-lore
     lore:
-      - '&b&l✦ Tiểu Sử'
-      - '&7 &b●&7 Uy quyền hiện diện qua từng lớp giáp'
-      - '&7 &b●&7 Độ Bền Giáp 9 - càng nâng cấp càng chắc chắn'
-    armor: 10.0
-    max-health: 10.0
-    armor-toughness: 9.0
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Trang bị phòng thủ kiên cố của Phó Quản Ngục"
+      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
+    armor: 11.4
+    max-health: 15.8
+    armor-toughness: 2.9
+    defense: 2.4
     gem-sockets:
       - Uncolored
       - Uncolored
       - Uncolored
       - Uncolored
+    upgrade:
+      template: armor-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
 LEGGINGS_PHO_QUAN_NGUC_3:
   base:
     material: DIAMOND_LEGGINGS
-    name: '&cQuần Phó Quản Ngục &e&lIII'
-    max-durability: 4800
+    name: "&cQuần Giáp Phó Quản Ngục &e&lIII"
+    max-durability: 5200
     tier: LEGENDARY
     hide-enchants: true
     lore-format: armor-lore
     lore:
-      - '&b&l✦ Tiểu Sử'
-      - '&7 &b●&7 Uy quyền hiện diện qua từng lớp giáp'
-      - '&7 &b●&7 Độ Bền Giáp 10 - càng nâng cấp càng chắc chắn'
-    armor: 10.0
-    max-health: 10.0
-    armor-toughness: 10.0
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Trang bị phòng thủ kiên cố của Phó Quản Ngục"
+      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
+    armor: 11.9
+    max-health: 16.5
+    armor-toughness: 3.1
+    defense: 2.6
     gem-sockets:
       - Uncolored
       - Uncolored
       - Uncolored
       - Uncolored
+    upgrade:
+      template: armor-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
 LEGGINGS_PHO_QUAN_NGUC_4:
   base:
     material: DIAMOND_LEGGINGS
-    name: '&cQuần Phó Quản Ngục &e&lIV'
-    max-durability: 4800
+    name: "&cQuần Giáp Phó Quản Ngục &e&lIV"
+    max-durability: 5200
     tier: LEGENDARY
     hide-enchants: true
     lore-format: armor-lore
     lore:
-      - '&b&l✦ Tiểu Sử'
-      - '&7 &b●&7 Uy quyền hiện diện qua từng lớp giáp'
-      - '&7 &b●&7 Độ Bền Giáp 10 - càng nâng cấp càng chắc chắn'
-    armor: 11.0
-    max-health: 10.0
-    armor-toughness: 10.0
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Trang bị phòng thủ kiên cố của Phó Quản Ngục"
+      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
+    armor: 12.3
+    max-health: 17.3
+    armor-toughness: 3.3
+    defense: 2.8
     gem-sockets:
       - Uncolored
       - Uncolored
       - Uncolored
       - Uncolored
+    upgrade:
+      template: armor-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
 LEGGINGS_PHO_QUAN_NGUC_5:
   base:
     material: DIAMOND_LEGGINGS
-    name: '&cQuần Phó Quản Ngục &e&lV'
-    max-durability: 4800
+    name: "&cQuần Giáp Phó Quản Ngục &e&lV"
+    max-durability: 5200
     tier: LEGENDARY
     hide-enchants: true
     lore-format: armor-lore
     lore:
-      - '&b&l✦ Tiểu Sử'
-      - '&7 &b●&7 Uy quyền hiện diện qua từng lớp giáp'
-      - '&7 &b●&7 Độ Bền Giáp 10 - càng nâng cấp càng chắc chắn'
-    armor: 11.0
-    max-health: 11.0
-    armor-toughness: 10.0
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Trang bị phòng thủ kiên cố của Phó Quản Ngục"
+      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
+    armor: 12.8
+    max-health: 18.0
+    armor-toughness: 3.5
+    defense: 3.0
     gem-sockets:
       - Uncolored
       - Uncolored
       - Uncolored
       - Uncolored
+    upgrade:
+      template: armor-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
 LEGGINGS_QUAN_NGUC_1:
   base:
-    material: DIAMOND_LEGGINGS
-    name: '&dQuần Quản Ngục &e&lI'
-    max-durability: 6400
+    material: NETHERITE_LEGGINGS
+    name: "&dQuần Giáp Quản Ngục &e&lI"
+    max-durability: 7000
     tier: MYTHICAL
     hide-enchants: true
     lore-format: armor-lore
     lore:
-      - '&b&l✦ Tiểu Sử'
-      - '&7 &b●&7 Không có sát thương nào chạm tới được'
-      - '&7 &b●&7 Độ Bền Giáp 11 - càng nâng cấp càng chắc chắn'
-    armor: 11.0
-    max-health: 11.0
-    armor-toughness: 11.0
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Trang bị phòng thủ kiên cố của Quản Ngục"
+      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
+    armor: 14.5
+    max-health: 21.3
+    armor-toughness: 4.0
+    defense: 3.5
     gem-sockets:
       - Uncolored
       - Uncolored
       - Uncolored
       - Uncolored
+    upgrade:
+      template: armor-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
 LEGGINGS_QUAN_NGUC_2:
   base:
-    material: DIAMOND_LEGGINGS
-    name: '&dQuần Quản Ngục &e&lII'
-    max-durability: 6400
+    material: NETHERITE_LEGGINGS
+    name: "&dQuần Giáp Quản Ngục &e&lII"
+    max-durability: 7000
     tier: MYTHICAL
     hide-enchants: true
     lore-format: armor-lore
     lore:
-      - '&b&l✦ Tiểu Sử'
-      - '&7 &b●&7 Không có sát thương nào chạm tới được'
-      - '&7 &b●&7 Độ Bền Giáp 11 - càng nâng cấp càng chắc chắn'
-    armor: 12.0
-    max-health: 11.0
-    armor-toughness: 11.0
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Trang bị phòng thủ kiên cố của Quản Ngục"
+      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
+    armor: 15.0
+    max-health: 22.3
+    armor-toughness: 4.3
+    defense: 3.8
     gem-sockets:
       - Uncolored
       - Uncolored
       - Uncolored
       - Uncolored
+    upgrade:
+      template: armor-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
 LEGGINGS_QUAN_NGUC_3:
   base:
-    material: DIAMOND_LEGGINGS
-    name: '&dQuần Quản Ngục &e&lIII'
-    max-durability: 6400
+    material: NETHERITE_LEGGINGS
+    name: "&dQuần Giáp Quản Ngục &e&lIII"
+    max-durability: 7000
     tier: MYTHICAL
     hide-enchants: true
     lore-format: armor-lore
     lore:
-      - '&b&l✦ Tiểu Sử'
-      - '&7 &b●&7 Không có sát thương nào chạm tới được'
-      - '&7 &b●&7 Độ Bền Giáp 11 - càng nâng cấp càng chắc chắn'
-    armor: 12.0
-    max-health: 12.0
-    armor-toughness: 11.0
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Trang bị phòng thủ kiên cố của Quản Ngục"
+      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
+    armor: 15.5
+    max-health: 23.3
+    armor-toughness: 4.5
+    defense: 4.0
     gem-sockets:
       - Uncolored
       - Uncolored
       - Uncolored
       - Uncolored
+    upgrade:
+      template: armor-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
 LEGGINGS_QUAN_NGUC_4:
   base:
-    material: DIAMOND_LEGGINGS
-    name: '&dQuần Quản Ngục &e&lIV'
-    max-durability: 6400
+    material: NETHERITE_LEGGINGS
+    name: "&dQuần Giáp Quản Ngục &e&lIV"
+    max-durability: 7000
     tier: MYTHICAL
     hide-enchants: true
     lore-format: armor-lore
     lore:
-      - '&b&l✦ Tiểu Sử'
-      - '&7 &b●&7 Không có sát thương nào chạm tới được'
-      - '&7 &b●&7 Độ Bền Giáp 12 - càng nâng cấp càng chắc chắn'
-    armor: 12.0
-    max-health: 12.0
-    armor-toughness: 12.0
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Trang bị phòng thủ kiên cố của Quản Ngục"
+      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
+    armor: 16.0
+    max-health: 24.3
+    armor-toughness: 4.8
+    defense: 4.3
     gem-sockets:
       - Uncolored
       - Uncolored
       - Uncolored
       - Uncolored
+    upgrade:
+      template: armor-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
 LEGGINGS_QUAN_NGUC_5:
   base:
-    material: DIAMOND_LEGGINGS
-    name: '&dQuần Quản Ngục &e&lV'
-    max-durability: 6400
+    material: NETHERITE_LEGGINGS
+    name: "&dQuần Giáp Quản Ngục &e&lV"
+    max-durability: 7000
     tier: MYTHICAL
     hide-enchants: true
     lore-format: armor-lore
     lore:
-      - '&b&l✦ Tiểu Sử'
-      - '&7 &b●&7 Không có sát thương nào chạm tới được'
-      - '&7 &b●&7 Độ Bền Giáp 12 - càng nâng cấp càng chắc chắn'
-    armor: 13.0
-    max-health: 12.0
-    armor-toughness: 12.0
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Trang bị phòng thủ kiên cố của Quản Ngục"
+      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
+    armor: 16.5
+    max-health: 25.3
+    armor-toughness: 5.0
+    defense: 4.5
     gem-sockets:
       - Uncolored
       - Uncolored
       - Uncolored
       - Uncolored
+    upgrade:
+      template: armor-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
 LEGGINGS_BA_CHU_NGUC_TU_1:
   base:
     material: NETHERITE_LEGGINGS
-    name: '&5Quần Bá Chủ Ngục Tù &e&lI'
-    max-durability: 8000
+    name: "&5Quần Giáp Bá Chủ Ngục Tù &e&lI"
+    max-durability: 9000
     tier: EPIC
     hide-enchants: true
     lore-format: armor-lore
     lore:
-      - '&b&l✦ Tiểu Sử'
-      - '&7 &b●&7 Bức tường thành của cả nhà tù'
-      - '&7 &b●&7 Độ Bền Giáp 12 - càng nâng cấp càng chắc chắn'
-    armor: 13.0
-    max-health: 13.0
-    armor-toughness: 12.0
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Trang bị phòng thủ kiên cố của Bá Chủ Ngục Tù"
+      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
+    armor: 18.8
+    max-health: 28.8
+    armor-toughness: 5.5
+    defense: 5.0
     gem-sockets:
       - Uncolored
       - Uncolored
       - Uncolored
       - Uncolored
       - Uncolored
+    upgrade:
+      template: armor-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
 LEGGINGS_BA_CHU_NGUC_TU_2:
   base:
     material: NETHERITE_LEGGINGS
-    name: '&5Quần Bá Chủ Ngục Tù &e&lII'
-    max-durability: 8000
+    name: "&5Quần Giáp Bá Chủ Ngục Tù &e&lII"
+    max-durability: 9000
     tier: EPIC
     hide-enchants: true
     lore-format: armor-lore
     lore:
-      - '&b&l✦ Tiểu Sử'
-      - '&7 &b●&7 Bức tường thành của cả nhà tù'
-      - '&7 &b●&7 Độ Bền Giáp 13 - càng nâng cấp càng chắc chắn'
-    armor: 13.0
-    max-health: 13.0
-    armor-toughness: 13.0
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Trang bị phòng thủ kiên cố của Bá Chủ Ngục Tù"
+      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
+    armor: 19.4
+    max-health: 30.0
+    armor-toughness: 5.8
+    defense: 5.3
     gem-sockets:
       - Uncolored
       - Uncolored
       - Uncolored
       - Uncolored
       - Uncolored
+    upgrade:
+      template: armor-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
 LEGGINGS_BA_CHU_NGUC_TU_3:
   base:
     material: NETHERITE_LEGGINGS
-    name: '&5Quần Bá Chủ Ngục Tù &e&lIII'
-    max-durability: 8000
+    name: "&5Quần Giáp Bá Chủ Ngục Tù &e&lIII"
+    max-durability: 9000
     tier: EPIC
     hide-enchants: true
     lore-format: armor-lore
     lore:
-      - '&b&l✦ Tiểu Sử'
-      - '&7 &b●&7 Bức tường thành của cả nhà tù'
-      - '&7 &b●&7 Độ Bền Giáp 13 - càng nâng cấp càng chắc chắn'
-    armor: 14.0
-    max-health: 13.0
-    armor-toughness: 13.0
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Trang bị phòng thủ kiên cố của Bá Chủ Ngục Tù"
+      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
+    armor: 20.0
+    max-health: 31.3
+    armor-toughness: 6.1
+    defense: 5.6
     gem-sockets:
       - Uncolored
       - Uncolored
       - Uncolored
       - Uncolored
       - Uncolored
+    upgrade:
+      template: armor-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
 LEGGINGS_BA_CHU_NGUC_TU_4:
   base:
     material: NETHERITE_LEGGINGS
-    name: '&5Quần Bá Chủ Ngục Tù &e&lIV'
-    max-durability: 8000
+    name: "&5Quần Giáp Bá Chủ Ngục Tù &e&lIV"
+    max-durability: 9000
     tier: EPIC
     hide-enchants: true
     lore-format: armor-lore
     lore:
-      - '&b&l✦ Tiểu Sử'
-      - '&7 &b●&7 Bức tường thành của cả nhà tù'
-      - '&7 &b●&7 Độ Bền Giáp 13 - càng nâng cấp càng chắc chắn'
-    armor: 14.0
-    max-health: 14.0
-    armor-toughness: 13.0
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Trang bị phòng thủ kiên cố của Bá Chủ Ngục Tù"
+      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
+    armor: 20.6
+    max-health: 32.5
+    armor-toughness: 6.4
+    defense: 5.9
     gem-sockets:
       - Uncolored
       - Uncolored
       - Uncolored
       - Uncolored
       - Uncolored
+    upgrade:
+      template: armor-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
 LEGGINGS_BA_CHU_NGUC_TU_5:
   base:
     material: NETHERITE_LEGGINGS
-    name: '&5Quần Bá Chủ Ngục Tù &e&lV'
-    max-durability: 8000
+    name: "&5Quần Giáp Bá Chủ Ngục Tù &e&lV"
+    max-durability: 9000
     tier: EPIC
     hide-enchants: true
     lore-format: armor-lore
     lore:
-      - '&b&l✦ Tiểu Sử'
-      - '&7 &b●&7 Bức tường thành của cả nhà tù'
-      - '&7 &b●&7 Độ Bền Giáp 14 - càng nâng cấp càng chắc chắn'
-    armor: 14.0
-    max-health: 14.0
-    armor-toughness: 14.0
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Trang bị phòng thủ kiên cố của Bá Chủ Ngục Tù"
+      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
+    armor: 21.3
+    max-health: 33.8
+    armor-toughness: 6.8
+    defense: 6.3
     gem-sockets:
       - Uncolored
       - Uncolored
       - Uncolored
       - Uncolored
       - Uncolored
+    upgrade:
+      template: armor-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
 LEGGINGS_VUOT_NGUC_1:
   base:
     material: NETHERITE_LEGGINGS
-    name: '&4Quần Vượt Ngục &e&lI'
+    name: "&4Quần Giáp Vượt Ngục &e&lI"
     max-durability: 12000
     tier: UNIQUE
     hide-enchants: true
     lore-format: armor-lore
     lore:
-      - '&b&l✦ Tiểu Sử'
-      - '&7 &b●&7 Lớp giáp cuối cùng trước tự do'
-      - '&7 &b●&7 Độ Bền Giáp 14 - càng nâng cấp càng chắc chắn'
-    armor: 15.0
-    max-health: 14.0
-    armor-toughness: 14.0
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Trang bị phòng thủ kiên cố của Vượt Ngục"
+      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
+    armor: 23.8
+    max-health: 37.5
+    armor-toughness: 7.5
+    defense: 7.0
     gem-sockets:
       - Uncolored
       - Uncolored
       - Uncolored
       - Uncolored
       - Uncolored
+    upgrade:
+      template: armor-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
 LEGGINGS_VUOT_NGUC_2:
   base:
     material: NETHERITE_LEGGINGS
-    name: '&4Quần Vượt Ngục &e&lII'
+    name: "&4Quần Giáp Vượt Ngục &e&lII"
     max-durability: 12000
     tier: UNIQUE
     hide-enchants: true
     lore-format: armor-lore
     lore:
-      - '&b&l✦ Tiểu Sử'
-      - '&7 &b●&7 Lớp giáp cuối cùng trước tự do'
-      - '&7 &b●&7 Độ Bền Giáp 14 - càng nâng cấp càng chắc chắn'
-    armor: 15.0
-    max-health: 15.0
-    armor-toughness: 14.0
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Trang bị phòng thủ kiên cố của Vượt Ngục"
+      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
+    armor: 24.5
+    max-health: 39.0
+    armor-toughness: 7.9
+    defense: 7.4
     gem-sockets:
       - Uncolored
       - Uncolored
       - Uncolored
       - Uncolored
       - Uncolored
+    upgrade:
+      template: armor-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
 LEGGINGS_VUOT_NGUC_3:
   base:
     material: NETHERITE_LEGGINGS
-    name: '&4Quần Vượt Ngục &e&lIII'
+    name: "&4Quần Giáp Vượt Ngục &e&lIII"
     max-durability: 12000
     tier: UNIQUE
     hide-enchants: true
     lore-format: armor-lore
     lore:
-      - '&b&l✦ Tiểu Sử'
-      - '&7 &b●&7 Lớp giáp cuối cùng trước tự do'
-      - '&7 &b●&7 Độ Bền Giáp 15 - càng nâng cấp càng chắc chắn'
-    armor: 15.0
-    max-health: 15.0
-    armor-toughness: 15.0
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Trang bị phòng thủ kiên cố của Vượt Ngục"
+      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
+    armor: 25.3
+    max-health: 40.5
+    armor-toughness: 8.3
+    defense: 7.8
     gem-sockets:
       - Uncolored
       - Uncolored
       - Uncolored
       - Uncolored
       - Uncolored
+    upgrade:
+      template: armor-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
 LEGGINGS_VUOT_NGUC_4:
   base:
     material: NETHERITE_LEGGINGS
-    name: '&4Quần Vượt Ngục &e&lIV'
+    name: "&4Quần Giáp Vượt Ngục &e&lIV"
     max-durability: 12000
     tier: UNIQUE
     hide-enchants: true
     lore-format: armor-lore
     lore:
-      - '&b&l✦ Tiểu Sử'
-      - '&7 &b●&7 Lớp giáp cuối cùng trước tự do'
-      - '&7 &b●&7 Độ Bền Giáp 15 - càng nâng cấp càng chắc chắn'
-    armor: 16.0
-    max-health: 15.0
-    armor-toughness: 15.0
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Trang bị phòng thủ kiên cố của Vượt Ngục"
+      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
+    armor: 26.0
+    max-health: 42.0
+    armor-toughness: 8.6
+    defense: 8.1
     gem-sockets:
       - Uncolored
       - Uncolored
       - Uncolored
       - Uncolored
       - Uncolored
+    upgrade:
+      template: armor-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
 LEGGINGS_VUOT_NGUC_5:
   base:
     material: NETHERITE_LEGGINGS
-    name: '&4Quần Vượt Ngục &e&lV'
+    name: "&4Quần Giáp Vượt Ngục &e&lV"
     max-durability: 12000
     tier: UNIQUE
     hide-enchants: true
     lore-format: armor-lore
     lore:
-      - '&b&l✦ Tiểu Sử'
-      - '&7 &b●&7 Lớp giáp cuối cùng trước tự do'
-      - '&7 &b●&7 Độ Bền Giáp 15 - càng nâng cấp càng chắc chắn'
-    armor: 16.0
-    max-health: 16.0
-    armor-toughness: 15.0
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Trang bị phòng thủ kiên cố của Vượt Ngục"
+      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
+    armor: 26.8
+    max-health: 43.5
+    armor-toughness: 9.0
+    defense: 8.5
     gem-sockets:
       - Uncolored
       - Uncolored
       - Uncolored
       - Uncolored
       - Uncolored
+    upgrade:
+      template: armor-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
 BOOTS_TAN_BINH_1:
   base:
     material: LEATHER_BOOTS
-    name: '&fGiày Tân Binh &e&lI'
+    name: "&fGiày Tân Binh &e&lI"
     max-durability: 400
     tier: TRASH
     hide-enchants: true
     lore-format: armor-lore
     lore:
-      - '&b&l✦ Tiểu Sử'
-      - '&7 &b●&7 Giáp khởi đầu của mọi tù nhân'
-      - '&7 &b●&7 Độ Bền Giáp 1 - càng nâng cấp càng chắc chắn'
-    armor: 1.0
-    max-health: 1.0
-    armor-toughness: 1.0
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Trang bị phòng thủ kiên cố của Tân Binh"
+      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
+    armor: 0.8
+    max-health: 0.8
+    upgrade:
+      template: armor-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
 BOOTS_TAN_BINH_2:
   base:
     material: LEATHER_BOOTS
-    name: '&fGiày Tân Binh &e&lII'
+    name: "&fGiày Tân Binh &e&lII"
     max-durability: 400
     tier: TRASH
     hide-enchants: true
     lore-format: armor-lore
     lore:
-      - '&b&l✦ Tiểu Sử'
-      - '&7 &b●&7 Giáp khởi đầu của mọi tù nhân'
-      - '&7 &b●&7 Độ Bền Giáp 1 - càng nâng cấp càng chắc chắn'
-    armor: 2.0
-    max-health: 1.0
-    armor-toughness: 1.0
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Trang bị phòng thủ kiên cố của Tân Binh"
+      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
+    armor: 0.9
+    max-health: 0.9
+    upgrade:
+      template: armor-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
 BOOTS_TAN_BINH_3:
   base:
     material: LEATHER_BOOTS
-    name: '&fGiày Tân Binh &e&lIII'
+    name: "&fGiày Tân Binh &e&lIII"
     max-durability: 400
     tier: TRASH
     hide-enchants: true
     lore-format: armor-lore
     lore:
-      - '&b&l✦ Tiểu Sử'
-      - '&7 &b●&7 Giáp khởi đầu của mọi tù nhân'
-      - '&7 &b●&7 Độ Bền Giáp 1 - càng nâng cấp càng chắc chắn'
-    armor: 2.0
-    max-health: 2.0
-    armor-toughness: 1.0
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Trang bị phòng thủ kiên cố của Tân Binh"
+      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
+    armor: 1.0
+    max-health: 1.0
+    upgrade:
+      template: armor-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
 BOOTS_TAN_BINH_4:
   base:
     material: LEATHER_BOOTS
-    name: '&fGiày Tân Binh &e&lIV'
+    name: "&fGiày Tân Binh &e&lIV"
     max-durability: 400
     tier: TRASH
     hide-enchants: true
     lore-format: armor-lore
     lore:
-      - '&b&l✦ Tiểu Sử'
-      - '&7 &b●&7 Giáp khởi đầu của mọi tù nhân'
-      - '&7 &b●&7 Độ Bền Giáp 2 - càng nâng cấp càng chắc chắn'
-    armor: 2.0
-    max-health: 2.0
-    armor-toughness: 2.0
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Trang bị phòng thủ kiên cố của Tân Binh"
+      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
+    armor: 1.1
+    max-health: 1.1
+    upgrade:
+      template: armor-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
 BOOTS_TAN_BINH_5:
   base:
     material: LEATHER_BOOTS
-    name: '&fGiày Tân Binh &e&lV'
+    name: "&fGiày Tân Binh &e&lV"
     max-durability: 400
     tier: TRASH
     hide-enchants: true
     lore-format: armor-lore
     lore:
-      - '&b&l✦ Tiểu Sử'
-      - '&7 &b●&7 Giáp khởi đầu của mọi tù nhân'
-      - '&7 &b●&7 Độ Bền Giáp 2 - càng nâng cấp càng chắc chắn'
-    armor: 3.0
-    max-health: 2.0
-    armor-toughness: 2.0
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Trang bị phòng thủ kiên cố của Tân Binh"
+      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
+    armor: 1.2
+    max-health: 1.2
+    upgrade:
+      template: armor-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
 BOOTS_TU_NHAN_1:
   base:
     material: LEATHER_BOOTS
-    name: '&aGiày Tù Nhân &e&lI'
+    name: "&aGiày Tù Nhân &e&lI"
     max-durability: 800
     tier: COMMON
     hide-enchants: true
     lore-format: armor-lore
     lore:
-      - '&b&l✦ Tiểu Sử'
-      - '&7 &b●&7 Che chắn tạm đủ qua ngày lao động'
-      - '&7 &b●&7 Độ Bền Giáp 2 - càng nâng cấp càng chắc chắn'
-    armor: 3.0
-    max-health: 3.0
-    armor-toughness: 2.0
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Trang bị phòng thủ kiên cố của Tù Nhân"
+      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
+    armor: 1.6
+    max-health: 1.6
+    upgrade:
+      template: armor-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
 BOOTS_TU_NHAN_2:
   base:
     material: LEATHER_BOOTS
-    name: '&aGiày Tù Nhân &e&lII'
+    name: "&aGiày Tù Nhân &e&lII"
     max-durability: 800
     tier: COMMON
     hide-enchants: true
     lore-format: armor-lore
     lore:
-      - '&b&l✦ Tiểu Sử'
-      - '&7 &b●&7 Che chắn tạm đủ qua ngày lao động'
-      - '&7 &b●&7 Độ Bền Giáp 3 - càng nâng cấp càng chắc chắn'
-    armor: 3.0
-    max-health: 3.0
-    armor-toughness: 3.0
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Trang bị phòng thủ kiên cố của Tù Nhân"
+      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
+    armor: 1.8
+    max-health: 1.8
+    upgrade:
+      template: armor-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
 BOOTS_TU_NHAN_3:
   base:
     material: LEATHER_BOOTS
-    name: '&aGiày Tù Nhân &e&lIII'
+    name: "&aGiày Tù Nhân &e&lIII"
     max-durability: 800
     tier: COMMON
     hide-enchants: true
     lore-format: armor-lore
     lore:
-      - '&b&l✦ Tiểu Sử'
-      - '&7 &b●&7 Che chắn tạm đủ qua ngày lao động'
-      - '&7 &b●&7 Độ Bền Giáp 3 - càng nâng cấp càng chắc chắn'
-    armor: 4.0
-    max-health: 3.0
-    armor-toughness: 3.0
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Trang bị phòng thủ kiên cố của Tù Nhân"
+      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
+    armor: 1.9
+    max-health: 2.0
+    upgrade:
+      template: armor-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
 BOOTS_TU_NHAN_4:
   base:
     material: LEATHER_BOOTS
-    name: '&aGiày Tù Nhân &e&lIV'
+    name: "&aGiày Tù Nhân &e&lIV"
     max-durability: 800
     tier: COMMON
     hide-enchants: true
     lore-format: armor-lore
     lore:
-      - '&b&l✦ Tiểu Sử'
-      - '&7 &b●&7 Che chắn tạm đủ qua ngày lao động'
-      - '&7 &b●&7 Độ Bền Giáp 3 - càng nâng cấp càng chắc chắn'
-    armor: 4.0
-    max-health: 4.0
-    armor-toughness: 3.0
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Trang bị phòng thủ kiên cố của Tù Nhân"
+      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
+    armor: 2.1
+    max-health: 2.2
+    upgrade:
+      template: armor-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
 BOOTS_TU_NHAN_5:
   base:
     material: LEATHER_BOOTS
-    name: '&aGiày Tù Nhân &e&lV'
+    name: "&aGiày Tù Nhân &e&lV"
     max-durability: 800
     tier: COMMON
     hide-enchants: true
     lore-format: armor-lore
     lore:
-      - '&b&l✦ Tiểu Sử'
-      - '&7 &b●&7 Che chắn tạm đủ qua ngày lao động'
-      - '&7 &b●&7 Độ Bền Giáp 4 - càng nâng cấp càng chắc chắn'
-    armor: 4.0
-    max-health: 4.0
-    armor-toughness: 4.0
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Trang bị phòng thủ kiên cố của Tù Nhân"
+      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
+    armor: 2.2
+    max-health: 2.4
+    upgrade:
+      template: armor-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
 BOOTS_LAO_CONG_1:
   base:
     material: CHAINMAIL_BOOTS
-    name: '&bGiày Lao Công &e&lI'
-    max-durability: 1600
+    name: "&bGiày Lao Công &e&lI"
+    max-durability: 1500
     tier: UNCOMMON
     hide-enchants: true
     lore-format: armor-lore
     lore:
-      - '&b&l✦ Tiểu Sử'
-      - '&7 &b●&7 Dấu ấn của người lao động chính thức'
-      - '&7 &b●&7 Độ Bền Giáp 4 - càng nâng cấp càng chắc chắn'
-    armor: 5.0
-    max-health: 4.0
-    armor-toughness: 4.0
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Trang bị phòng thủ kiên cố của Lao Công"
+      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
+    armor: 2.8
+    max-health: 3.0
+    armor-toughness: 0.4
     gem-sockets:
       - Uncolored
+    upgrade:
+      template: armor-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
 BOOTS_LAO_CONG_2:
   base:
     material: CHAINMAIL_BOOTS
-    name: '&bGiày Lao Công &e&lII'
-    max-durability: 1600
+    name: "&bGiày Lao Công &e&lII"
+    max-durability: 1500
     tier: UNCOMMON
     hide-enchants: true
     lore-format: armor-lore
     lore:
-      - '&b&l✦ Tiểu Sử'
-      - '&7 &b●&7 Dấu ấn của người lao động chính thức'
-      - '&7 &b●&7 Độ Bền Giáp 4 - càng nâng cấp càng chắc chắn'
-    armor: 5.0
-    max-health: 5.0
-    armor-toughness: 4.0
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Trang bị phòng thủ kiên cố của Lao Công"
+      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
+    armor: 3.0
+    max-health: 3.3
+    armor-toughness: 0.5
     gem-sockets:
       - Uncolored
+    upgrade:
+      template: armor-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
 BOOTS_LAO_CONG_3:
   base:
     material: CHAINMAIL_BOOTS
-    name: '&bGiày Lao Công &e&lIII'
-    max-durability: 1600
+    name: "&bGiày Lao Công &e&lIII"
+    max-durability: 1500
     tier: UNCOMMON
     hide-enchants: true
     lore-format: armor-lore
     lore:
-      - '&b&l✦ Tiểu Sử'
-      - '&7 &b●&7 Dấu ấn của người lao động chính thức'
-      - '&7 &b●&7 Độ Bền Giáp 5 - càng nâng cấp càng chắc chắn'
-    armor: 5.0
-    max-health: 5.0
-    armor-toughness: 5.0
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Trang bị phòng thủ kiên cố của Lao Công"
+      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
+    armor: 3.2
+    max-health: 3.6
+    armor-toughness: 0.5
     gem-sockets:
       - Uncolored
+    upgrade:
+      template: armor-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
 BOOTS_LAO_CONG_4:
   base:
     material: CHAINMAIL_BOOTS
-    name: '&bGiày Lao Công &e&lIV'
-    max-durability: 1600
+    name: "&bGiày Lao Công &e&lIV"
+    max-durability: 1500
     tier: UNCOMMON
     hide-enchants: true
     lore-format: armor-lore
     lore:
-      - '&b&l✦ Tiểu Sử'
-      - '&7 &b●&7 Dấu ấn của người lao động chính thức'
-      - '&7 &b●&7 Độ Bền Giáp 5 - càng nâng cấp càng chắc chắn'
-    armor: 6.0
-    max-health: 5.0
-    armor-toughness: 5.0
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Trang bị phòng thủ kiên cố của Lao Công"
+      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
+    armor: 3.4
+    max-health: 3.9
+    armor-toughness: 0.6
     gem-sockets:
       - Uncolored
+    upgrade:
+      template: armor-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
 BOOTS_LAO_CONG_5:
   base:
     material: CHAINMAIL_BOOTS
-    name: '&bGiày Lao Công &e&lV'
-    max-durability: 1600
+    name: "&bGiày Lao Công &e&lV"
+    max-durability: 1500
     tier: UNCOMMON
     hide-enchants: true
     lore-format: armor-lore
     lore:
-      - '&b&l✦ Tiểu Sử'
-      - '&7 &b●&7 Dấu ấn của người lao động chính thức'
-      - '&7 &b●&7 Độ Bền Giáp 5 - càng nâng cấp càng chắc chắn'
-    armor: 6.0
-    max-health: 6.0
-    armor-toughness: 5.0
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Trang bị phòng thủ kiên cố của Lao Công"
+      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
+    armor: 3.6
+    max-health: 4.2
+    armor-toughness: 0.6
     gem-sockets:
       - Uncolored
+    upgrade:
+      template: armor-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
 BOOTS_THO_DAO_1:
   base:
     material: IRON_BOOTS
-    name: '&eGiày Thợ Đào &e&lI'
-    max-durability: 2400
+    name: "&eGiày Thợ Đào &e&lI"
+    max-durability: 2500
     tier: RARE
     hide-enchants: true
     lore-format: armor-lore
     lore:
-      - '&b&l✦ Tiểu Sử'
-      - '&7 &b●&7 Vững vàng trước hiểm nguy trong mỏ sâu'
-      - '&7 &b●&7 Độ Bền Giáp 6 - càng nâng cấp càng chắc chắn'
-    armor: 6.0
-    max-health: 6.0
-    armor-toughness: 6.0
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Trang bị phòng thủ kiên cố của Thợ Đào"
+      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
+    armor: 4.4
+    max-health: 5.0
+    armor-toughness: 0.8
+    defense: 0.4
     gem-sockets:
       - Uncolored
       - Uncolored
+    upgrade:
+      template: armor-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
 BOOTS_THO_DAO_2:
   base:
     material: IRON_BOOTS
-    name: '&eGiày Thợ Đào &e&lII'
-    max-durability: 2400
+    name: "&eGiày Thợ Đào &e&lII"
+    max-durability: 2500
     tier: RARE
     hide-enchants: true
     lore-format: armor-lore
     lore:
-      - '&b&l✦ Tiểu Sử'
-      - '&7 &b●&7 Vững vàng trước hiểm nguy trong mỏ sâu'
-      - '&7 &b●&7 Độ Bền Giáp 6 - càng nâng cấp càng chắc chắn'
-    armor: 7.0
-    max-health: 6.0
-    armor-toughness: 6.0
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Trang bị phòng thủ kiên cố của Thợ Đào"
+      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
+    armor: 4.7
+    max-health: 5.4
+    armor-toughness: 0.9
+    defense: 0.5
     gem-sockets:
       - Uncolored
       - Uncolored
+    upgrade:
+      template: armor-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
 BOOTS_THO_DAO_3:
   base:
     material: IRON_BOOTS
-    name: '&eGiày Thợ Đào &e&lIII'
-    max-durability: 2400
+    name: "&eGiày Thợ Đào &e&lIII"
+    max-durability: 2500
     tier: RARE
     hide-enchants: true
     lore-format: armor-lore
     lore:
-      - '&b&l✦ Tiểu Sử'
-      - '&7 &b●&7 Vững vàng trước hiểm nguy trong mỏ sâu'
-      - '&7 &b●&7 Độ Bền Giáp 6 - càng nâng cấp càng chắc chắn'
-    armor: 7.0
-    max-health: 7.0
-    armor-toughness: 6.0
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Trang bị phòng thủ kiên cố của Thợ Đào"
+      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
+    armor: 4.9
+    max-health: 5.8
+    armor-toughness: 1.0
+    defense: 0.5
     gem-sockets:
       - Uncolored
       - Uncolored
+    upgrade:
+      template: armor-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
 BOOTS_THO_DAO_4:
   base:
     material: IRON_BOOTS
-    name: '&eGiày Thợ Đào &e&lIV'
-    max-durability: 2400
+    name: "&eGiày Thợ Đào &e&lIV"
+    max-durability: 2500
     tier: RARE
     hide-enchants: true
     lore-format: armor-lore
     lore:
-      - '&b&l✦ Tiểu Sử'
-      - '&7 &b●&7 Vững vàng trước hiểm nguy trong mỏ sâu'
-      - '&7 &b●&7 Độ Bền Giáp 7 - càng nâng cấp càng chắc chắn'
-    armor: 7.0
-    max-health: 7.0
-    armor-toughness: 7.0
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Trang bị phòng thủ kiên cố của Thợ Đào"
+      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
+    armor: 5.2
+    max-health: 6.2
+    armor-toughness: 1.1
+    defense: 0.6
     gem-sockets:
       - Uncolored
       - Uncolored
+    upgrade:
+      template: armor-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
 BOOTS_THO_DAO_5:
   base:
     material: IRON_BOOTS
-    name: '&eGiày Thợ Đào &e&lV'
-    max-durability: 2400
+    name: "&eGiày Thợ Đào &e&lV"
+    max-durability: 2500
     tier: RARE
     hide-enchants: true
     lore-format: armor-lore
     lore:
-      - '&b&l✦ Tiểu Sử'
-      - '&7 &b●&7 Vững vàng trước hiểm nguy trong mỏ sâu'
-      - '&7 &b●&7 Độ Bền Giáp 7 - càng nâng cấp càng chắc chắn'
-    armor: 8.0
-    max-health: 7.0
-    armor-toughness: 7.0
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Trang bị phòng thủ kiên cố của Thợ Đào"
+      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
+    armor: 5.4
+    max-health: 6.6
+    armor-toughness: 1.2
+    defense: 0.6
     gem-sockets:
       - Uncolored
       - Uncolored
+    upgrade:
+      template: armor-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
 BOOTS_DOI_TRUONG_1:
   base:
-    material: IRON_BOOTS
-    name: '&6Giày Đội Trưởng &e&lI'
-    max-durability: 3600
+    material: DIAMOND_BOOTS
+    name: "&6Giày Đội Trưởng &e&lI"
+    max-durability: 3800
     tier: VERY_RARE
     hide-enchants: true
     lore-format: armor-lore
     lore:
-      - '&b&l✦ Tiểu Sử'
-      - '&7 &b●&7 Bảo vệ cả đội trước mọi hiểm nguy'
-      - '&7 &b●&7 Độ Bền Giáp 7 - càng nâng cấp càng chắc chắn'
-    armor: 8.0
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Trang bị phòng thủ kiên cố của Đội Trưởng"
+      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
+    armor: 6.4
     max-health: 8.0
-    armor-toughness: 7.0
+    armor-toughness: 1.4
+    defense: 1.0
+    movement-speed: 0.010
     gem-sockets:
       - Uncolored
       - Uncolored
       - Uncolored
+    upgrade:
+      template: armor-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
 BOOTS_DOI_TRUONG_2:
   base:
-    material: IRON_BOOTS
-    name: '&6Giày Đội Trưởng &e&lII'
-    max-durability: 3600
+    material: DIAMOND_BOOTS
+    name: "&6Giày Đội Trưởng &e&lII"
+    max-durability: 3800
     tier: VERY_RARE
     hide-enchants: true
     lore-format: armor-lore
     lore:
-      - '&b&l✦ Tiểu Sử'
-      - '&7 &b●&7 Bảo vệ cả đội trước mọi hiểm nguy'
-      - '&7 &b●&7 Độ Bền Giáp 8 - càng nâng cấp càng chắc chắn'
-    armor: 8.0
-    max-health: 8.0
-    armor-toughness: 8.0
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Trang bị phòng thủ kiên cố của Đội Trưởng"
+      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
+    armor: 6.7
+    max-health: 8.5
+    armor-toughness: 1.5
+    defense: 1.1
+    movement-speed: 0.011
     gem-sockets:
       - Uncolored
       - Uncolored
       - Uncolored
+    upgrade:
+      template: armor-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
 BOOTS_DOI_TRUONG_3:
   base:
-    material: IRON_BOOTS
-    name: '&6Giày Đội Trưởng &e&lIII'
-    max-durability: 3600
+    material: DIAMOND_BOOTS
+    name: "&6Giày Đội Trưởng &e&lIII"
+    max-durability: 3800
     tier: VERY_RARE
     hide-enchants: true
     lore-format: armor-lore
     lore:
-      - '&b&l✦ Tiểu Sử'
-      - '&7 &b●&7 Bảo vệ cả đội trước mọi hiểm nguy'
-      - '&7 &b●&7 Độ Bền Giáp 8 - càng nâng cấp càng chắc chắn'
-    armor: 9.0
-    max-health: 8.0
-    armor-toughness: 8.0
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Trang bị phòng thủ kiên cố của Đội Trưởng"
+      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
+    armor: 7.0
+    max-health: 9.0
+    armor-toughness: 1.6
+    defense: 1.2
+    movement-speed: 0.012
     gem-sockets:
       - Uncolored
       - Uncolored
       - Uncolored
+    upgrade:
+      template: armor-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
 BOOTS_DOI_TRUONG_4:
   base:
-    material: IRON_BOOTS
-    name: '&6Giày Đội Trưởng &e&lIV'
-    max-durability: 3600
+    material: DIAMOND_BOOTS
+    name: "&6Giày Đội Trưởng &e&lIV"
+    max-durability: 3800
     tier: VERY_RARE
     hide-enchants: true
     lore-format: armor-lore
     lore:
-      - '&b&l✦ Tiểu Sử'
-      - '&7 &b●&7 Bảo vệ cả đội trước mọi hiểm nguy'
-      - '&7 &b●&7 Độ Bền Giáp 8 - càng nâng cấp càng chắc chắn'
-    armor: 9.0
-    max-health: 9.0
-    armor-toughness: 8.0
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Trang bị phòng thủ kiên cố của Đội Trưởng"
+      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
+    armor: 7.3
+    max-health: 9.5
+    armor-toughness: 1.7
+    defense: 1.3
+    movement-speed: 0.013
     gem-sockets:
       - Uncolored
       - Uncolored
       - Uncolored
+    upgrade:
+      template: armor-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
 BOOTS_DOI_TRUONG_5:
   base:
-    material: IRON_BOOTS
-    name: '&6Giày Đội Trưởng &e&lV'
-    max-durability: 3600
+    material: DIAMOND_BOOTS
+    name: "&6Giày Đội Trưởng &e&lV"
+    max-durability: 3800
     tier: VERY_RARE
     hide-enchants: true
     lore-format: armor-lore
     lore:
-      - '&b&l✦ Tiểu Sử'
-      - '&7 &b●&7 Bảo vệ cả đội trước mọi hiểm nguy'
-      - '&7 &b●&7 Độ Bền Giáp 9 - càng nâng cấp càng chắc chắn'
-    armor: 9.0
-    max-health: 9.0
-    armor-toughness: 9.0
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Trang bị phòng thủ kiên cố của Đội Trưởng"
+      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
+    armor: 7.6
+    max-health: 10.0
+    armor-toughness: 1.8
+    defense: 1.4
+    movement-speed: 0.014
     gem-sockets:
       - Uncolored
       - Uncolored
       - Uncolored
+    upgrade:
+      template: armor-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
 BOOTS_PHO_QUAN_NGUC_1:
   base:
     material: DIAMOND_BOOTS
-    name: '&cGiày Phó Quản Ngục &e&lI'
-    max-durability: 4800
+    name: "&cGiày Phó Quản Ngục &e&lI"
+    max-durability: 5200
     tier: LEGENDARY
     hide-enchants: true
     lore-format: armor-lore
     lore:
-      - '&b&l✦ Tiểu Sử'
-      - '&7 &b●&7 Uy quyền hiện diện qua từng lớp giáp'
-      - '&7 &b●&7 Độ Bền Giáp 9 - càng nâng cấp càng chắc chắn'
-    armor: 10.0
-    max-health: 9.0
-    armor-toughness: 9.0
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Trang bị phòng thủ kiên cố của Phó Quản Ngục"
+      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
+    armor: 8.8
+    max-health: 12.0
+    armor-toughness: 2.2
+    defense: 1.8
+    movement-speed: 0.015
     gem-sockets:
       - Uncolored
       - Uncolored
       - Uncolored
       - Uncolored
+    upgrade:
+      template: armor-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
 BOOTS_PHO_QUAN_NGUC_2:
   base:
     material: DIAMOND_BOOTS
-    name: '&cGiày Phó Quản Ngục &e&lII'
-    max-durability: 4800
+    name: "&cGiày Phó Quản Ngục &e&lII"
+    max-durability: 5200
     tier: LEGENDARY
     hide-enchants: true
     lore-format: armor-lore
     lore:
-      - '&b&l✦ Tiểu Sử'
-      - '&7 &b●&7 Uy quyền hiện diện qua từng lớp giáp'
-      - '&7 &b●&7 Độ Bền Giáp 9 - càng nâng cấp càng chắc chắn'
-    armor: 10.0
-    max-health: 10.0
-    armor-toughness: 9.0
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Trang bị phòng thủ kiên cố của Phó Quản Ngục"
+      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
+    armor: 9.2
+    max-health: 12.6
+    armor-toughness: 2.4
+    defense: 2.0
+    movement-speed: 0.016
     gem-sockets:
       - Uncolored
       - Uncolored
       - Uncolored
       - Uncolored
+    upgrade:
+      template: armor-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
 BOOTS_PHO_QUAN_NGUC_3:
   base:
     material: DIAMOND_BOOTS
-    name: '&cGiày Phó Quản Ngục &e&lIII'
-    max-durability: 4800
+    name: "&cGiày Phó Quản Ngục &e&lIII"
+    max-durability: 5200
     tier: LEGENDARY
     hide-enchants: true
     lore-format: armor-lore
     lore:
-      - '&b&l✦ Tiểu Sử'
-      - '&7 &b●&7 Uy quyền hiện diện qua từng lớp giáp'
-      - '&7 &b●&7 Độ Bền Giáp 10 - càng nâng cấp càng chắc chắn'
-    armor: 10.0
-    max-health: 10.0
-    armor-toughness: 10.0
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Trang bị phòng thủ kiên cố của Phó Quản Ngục"
+      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
+    armor: 9.5
+    max-health: 13.2
+    armor-toughness: 2.5
+    defense: 2.1
+    movement-speed: 0.017
     gem-sockets:
       - Uncolored
       - Uncolored
       - Uncolored
       - Uncolored
+    upgrade:
+      template: armor-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
 BOOTS_PHO_QUAN_NGUC_4:
   base:
     material: DIAMOND_BOOTS
-    name: '&cGiày Phó Quản Ngục &e&lIV'
-    max-durability: 4800
+    name: "&cGiày Phó Quản Ngục &e&lIV"
+    max-durability: 5200
     tier: LEGENDARY
     hide-enchants: true
     lore-format: armor-lore
     lore:
-      - '&b&l✦ Tiểu Sử'
-      - '&7 &b●&7 Uy quyền hiện diện qua từng lớp giáp'
-      - '&7 &b●&7 Độ Bền Giáp 10 - càng nâng cấp càng chắc chắn'
-    armor: 11.0
-    max-health: 10.0
-    armor-toughness: 10.0
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Trang bị phòng thủ kiên cố của Phó Quản Ngục"
+      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
+    armor: 9.9
+    max-health: 13.8
+    armor-toughness: 2.7
+    defense: 2.3
+    movement-speed: 0.018
     gem-sockets:
       - Uncolored
       - Uncolored
       - Uncolored
       - Uncolored
+    upgrade:
+      template: armor-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
 BOOTS_PHO_QUAN_NGUC_5:
   base:
     material: DIAMOND_BOOTS
-    name: '&cGiày Phó Quản Ngục &e&lV'
-    max-durability: 4800
+    name: "&cGiày Phó Quản Ngục &e&lV"
+    max-durability: 5200
     tier: LEGENDARY
     hide-enchants: true
     lore-format: armor-lore
     lore:
-      - '&b&l✦ Tiểu Sử'
-      - '&7 &b●&7 Uy quyền hiện diện qua từng lớp giáp'
-      - '&7 &b●&7 Độ Bền Giáp 10 - càng nâng cấp càng chắc chắn'
-    armor: 11.0
-    max-health: 11.0
-    armor-toughness: 10.0
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Trang bị phòng thủ kiên cố của Phó Quản Ngục"
+      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
+    armor: 10.2
+    max-health: 14.4
+    armor-toughness: 2.8
+    defense: 2.4
+    movement-speed: 0.019
     gem-sockets:
       - Uncolored
       - Uncolored
       - Uncolored
       - Uncolored
+    upgrade:
+      template: armor-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
 BOOTS_QUAN_NGUC_1:
   base:
-    material: DIAMOND_BOOTS
-    name: '&dGiày Quản Ngục &e&lI'
-    max-durability: 6400
+    material: NETHERITE_BOOTS
+    name: "&dGiày Quản Ngục &e&lI"
+    max-durability: 7000
     tier: MYTHICAL
     hide-enchants: true
     lore-format: armor-lore
     lore:
-      - '&b&l✦ Tiểu Sử'
-      - '&7 &b●&7 Không có sát thương nào chạm tới được'
-      - '&7 &b●&7 Độ Bền Giáp 11 - càng nâng cấp càng chắc chắn'
-    armor: 11.0
-    max-health: 11.0
-    armor-toughness: 11.0
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Trang bị phòng thủ kiên cố của Quản Ngục"
+      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
+    armor: 11.6
+    max-health: 17.0
+    armor-toughness: 3.2
+    defense: 2.8
+    movement-speed: 0.020
     gem-sockets:
       - Uncolored
       - Uncolored
       - Uncolored
       - Uncolored
+    upgrade:
+      template: armor-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
 BOOTS_QUAN_NGUC_2:
   base:
-    material: DIAMOND_BOOTS
-    name: '&dGiày Quản Ngục &e&lII'
-    max-durability: 6400
+    material: NETHERITE_BOOTS
+    name: "&dGiày Quản Ngục &e&lII"
+    max-durability: 7000
     tier: MYTHICAL
     hide-enchants: true
     lore-format: armor-lore
     lore:
-      - '&b&l✦ Tiểu Sử'
-      - '&7 &b●&7 Không có sát thương nào chạm tới được'
-      - '&7 &b●&7 Độ Bền Giáp 11 - càng nâng cấp càng chắc chắn'
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Trang bị phòng thủ kiên cố của Quản Ngục"
+      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
     armor: 12.0
-    max-health: 11.0
-    armor-toughness: 11.0
+    max-health: 17.8
+    armor-toughness: 3.4
+    defense: 3.0
+    movement-speed: 0.021
     gem-sockets:
       - Uncolored
       - Uncolored
       - Uncolored
       - Uncolored
+    upgrade:
+      template: armor-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
 BOOTS_QUAN_NGUC_3:
   base:
-    material: DIAMOND_BOOTS
-    name: '&dGiày Quản Ngục &e&lIII'
-    max-durability: 6400
+    material: NETHERITE_BOOTS
+    name: "&dGiày Quản Ngục &e&lIII"
+    max-durability: 7000
     tier: MYTHICAL
     hide-enchants: true
     lore-format: armor-lore
     lore:
-      - '&b&l✦ Tiểu Sử'
-      - '&7 &b●&7 Không có sát thương nào chạm tới được'
-      - '&7 &b●&7 Độ Bền Giáp 11 - càng nâng cấp càng chắc chắn'
-    armor: 12.0
-    max-health: 12.0
-    armor-toughness: 11.0
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Trang bị phòng thủ kiên cố của Quản Ngục"
+      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
+    armor: 12.4
+    max-health: 18.6
+    armor-toughness: 3.6
+    defense: 3.2
+    movement-speed: 0.022
     gem-sockets:
       - Uncolored
       - Uncolored
       - Uncolored
       - Uncolored
+    upgrade:
+      template: armor-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
 BOOTS_QUAN_NGUC_4:
   base:
-    material: DIAMOND_BOOTS
-    name: '&dGiày Quản Ngục &e&lIV'
-    max-durability: 6400
+    material: NETHERITE_BOOTS
+    name: "&dGiày Quản Ngục &e&lIV"
+    max-durability: 7000
     tier: MYTHICAL
     hide-enchants: true
     lore-format: armor-lore
     lore:
-      - '&b&l✦ Tiểu Sử'
-      - '&7 &b●&7 Không có sát thương nào chạm tới được'
-      - '&7 &b●&7 Độ Bền Giáp 12 - càng nâng cấp càng chắc chắn'
-    armor: 12.0
-    max-health: 12.0
-    armor-toughness: 12.0
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Trang bị phòng thủ kiên cố của Quản Ngục"
+      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
+    armor: 12.8
+    max-health: 19.4
+    armor-toughness: 3.8
+    defense: 3.4
+    movement-speed: 0.023
     gem-sockets:
       - Uncolored
       - Uncolored
       - Uncolored
       - Uncolored
+    upgrade:
+      template: armor-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
 BOOTS_QUAN_NGUC_5:
   base:
-    material: DIAMOND_BOOTS
-    name: '&dGiày Quản Ngục &e&lV'
-    max-durability: 6400
+    material: NETHERITE_BOOTS
+    name: "&dGiày Quản Ngục &e&lV"
+    max-durability: 7000
     tier: MYTHICAL
     hide-enchants: true
     lore-format: armor-lore
     lore:
-      - '&b&l✦ Tiểu Sử'
-      - '&7 &b●&7 Không có sát thương nào chạm tới được'
-      - '&7 &b●&7 Độ Bền Giáp 12 - càng nâng cấp càng chắc chắn'
-    armor: 13.0
-    max-health: 12.0
-    armor-toughness: 12.0
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Trang bị phòng thủ kiên cố của Quản Ngục"
+      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
+    armor: 13.2
+    max-health: 20.2
+    armor-toughness: 4.0
+    defense: 3.6
+    movement-speed: 0.024
     gem-sockets:
       - Uncolored
       - Uncolored
       - Uncolored
       - Uncolored
+    upgrade:
+      template: armor-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
 BOOTS_BA_CHU_NGUC_TU_1:
   base:
     material: NETHERITE_BOOTS
-    name: '&5Giày Bá Chủ Ngục Tù &e&lI'
-    max-durability: 8000
+    name: "&5Giày Bá Chủ Ngục Tù &e&lI"
+    max-durability: 9000
     tier: EPIC
     hide-enchants: true
     lore-format: armor-lore
     lore:
-      - '&b&l✦ Tiểu Sử'
-      - '&7 &b●&7 Bức tường thành của cả nhà tù'
-      - '&7 &b●&7 Độ Bền Giáp 12 - càng nâng cấp càng chắc chắn'
-    armor: 13.0
-    max-health: 13.0
-    armor-toughness: 12.0
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Trang bị phòng thủ kiên cố của Bá Chủ Ngục Tù"
+      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
+    armor: 15.0
+    max-health: 23.0
+    armor-toughness: 4.4
+    defense: 4.0
+    movement-speed: 0.025
     gem-sockets:
       - Uncolored
       - Uncolored
       - Uncolored
       - Uncolored
       - Uncolored
+    upgrade:
+      template: armor-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
 BOOTS_BA_CHU_NGUC_TU_2:
   base:
     material: NETHERITE_BOOTS
-    name: '&5Giày Bá Chủ Ngục Tù &e&lII'
-    max-durability: 8000
+    name: "&5Giày Bá Chủ Ngục Tù &e&lII"
+    max-durability: 9000
     tier: EPIC
     hide-enchants: true
     lore-format: armor-lore
     lore:
-      - '&b&l✦ Tiểu Sử'
-      - '&7 &b●&7 Bức tường thành của cả nhà tù'
-      - '&7 &b●&7 Độ Bền Giáp 13 - càng nâng cấp càng chắc chắn'
-    armor: 13.0
-    max-health: 13.0
-    armor-toughness: 13.0
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Trang bị phòng thủ kiên cố của Bá Chủ Ngục Tù"
+      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
+    armor: 15.5
+    max-health: 24.0
+    armor-toughness: 4.7
+    defense: 4.3
+    movement-speed: 0.026
     gem-sockets:
       - Uncolored
       - Uncolored
       - Uncolored
       - Uncolored
       - Uncolored
+    upgrade:
+      template: armor-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
 BOOTS_BA_CHU_NGUC_TU_3:
   base:
     material: NETHERITE_BOOTS
-    name: '&5Giày Bá Chủ Ngục Tù &e&lIII'
-    max-durability: 8000
+    name: "&5Giày Bá Chủ Ngục Tù &e&lIII"
+    max-durability: 9000
     tier: EPIC
     hide-enchants: true
     lore-format: armor-lore
     lore:
-      - '&b&l✦ Tiểu Sử'
-      - '&7 &b●&7 Bức tường thành của cả nhà tù'
-      - '&7 &b●&7 Độ Bền Giáp 13 - càng nâng cấp càng chắc chắn'
-    armor: 14.0
-    max-health: 13.0
-    armor-toughness: 13.0
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Trang bị phòng thủ kiên cố của Bá Chủ Ngục Tù"
+      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
+    armor: 16.0
+    max-health: 25.0
+    armor-toughness: 4.9
+    defense: 4.5
+    movement-speed: 0.027
     gem-sockets:
       - Uncolored
       - Uncolored
       - Uncolored
       - Uncolored
       - Uncolored
+    upgrade:
+      template: armor-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
 BOOTS_BA_CHU_NGUC_TU_4:
   base:
     material: NETHERITE_BOOTS
-    name: '&5Giày Bá Chủ Ngục Tù &e&lIV'
-    max-durability: 8000
+    name: "&5Giày Bá Chủ Ngục Tù &e&lIV"
+    max-durability: 9000
     tier: EPIC
     hide-enchants: true
     lore-format: armor-lore
     lore:
-      - '&b&l✦ Tiểu Sử'
-      - '&7 &b●&7 Bức tường thành của cả nhà tù'
-      - '&7 &b●&7 Độ Bền Giáp 13 - càng nâng cấp càng chắc chắn'
-    armor: 14.0
-    max-health: 14.0
-    armor-toughness: 13.0
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Trang bị phòng thủ kiên cố của Bá Chủ Ngục Tù"
+      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
+    armor: 16.5
+    max-health: 26.0
+    armor-toughness: 5.2
+    defense: 4.8
+    movement-speed: 0.028
     gem-sockets:
       - Uncolored
       - Uncolored
       - Uncolored
       - Uncolored
       - Uncolored
+    upgrade:
+      template: armor-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
 BOOTS_BA_CHU_NGUC_TU_5:
   base:
     material: NETHERITE_BOOTS
-    name: '&5Giày Bá Chủ Ngục Tù &e&lV'
-    max-durability: 8000
+    name: "&5Giày Bá Chủ Ngục Tù &e&lV"
+    max-durability: 9000
     tier: EPIC
     hide-enchants: true
     lore-format: armor-lore
     lore:
-      - '&b&l✦ Tiểu Sử'
-      - '&7 &b●&7 Bức tường thành của cả nhà tù'
-      - '&7 &b●&7 Độ Bền Giáp 14 - càng nâng cấp càng chắc chắn'
-    armor: 14.0
-    max-health: 14.0
-    armor-toughness: 14.0
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Trang bị phòng thủ kiên cố của Bá Chủ Ngục Tù"
+      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
+    armor: 17.0
+    max-health: 27.0
+    armor-toughness: 5.4
+    defense: 5.0
+    movement-speed: 0.029
     gem-sockets:
       - Uncolored
       - Uncolored
       - Uncolored
       - Uncolored
       - Uncolored
+    upgrade:
+      template: armor-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
 BOOTS_VUOT_NGUC_1:
   base:
     material: NETHERITE_BOOTS
-    name: '&4Giày Vượt Ngục &e&lI'
+    name: "&4Giày Vượt Ngục &e&lI"
     max-durability: 12000
     tier: UNIQUE
     hide-enchants: true
     lore-format: armor-lore
     lore:
-      - '&b&l✦ Tiểu Sử'
-      - '&7 &b●&7 Lớp giáp cuối cùng trước tự do'
-      - '&7 &b●&7 Độ Bền Giáp 14 - càng nâng cấp càng chắc chắn'
-    armor: 15.0
-    max-health: 14.0
-    armor-toughness: 14.0
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Trang bị phòng thủ kiên cố của Vượt Ngục"
+      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
+    armor: 19.0
+    max-health: 30.0
+    armor-toughness: 6.0
+    defense: 5.6
+    movement-speed: 0.030
     gem-sockets:
       - Uncolored
       - Uncolored
       - Uncolored
       - Uncolored
       - Uncolored
+    upgrade:
+      template: armor-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
 BOOTS_VUOT_NGUC_2:
   base:
     material: NETHERITE_BOOTS
-    name: '&4Giày Vượt Ngục &e&lII'
+    name: "&4Giày Vượt Ngục &e&lII"
     max-durability: 12000
     tier: UNIQUE
     hide-enchants: true
     lore-format: armor-lore
     lore:
-      - '&b&l✦ Tiểu Sử'
-      - '&7 &b●&7 Lớp giáp cuối cùng trước tự do'
-      - '&7 &b●&7 Độ Bền Giáp 14 - càng nâng cấp càng chắc chắn'
-    armor: 15.0
-    max-health: 15.0
-    armor-toughness: 14.0
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Trang bị phòng thủ kiên cố của Vượt Ngục"
+      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
+    armor: 19.6
+    max-health: 31.2
+    armor-toughness: 6.3
+    defense: 5.9
+    movement-speed: 0.031
     gem-sockets:
       - Uncolored
       - Uncolored
       - Uncolored
       - Uncolored
       - Uncolored
+    upgrade:
+      template: armor-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
 BOOTS_VUOT_NGUC_3:
   base:
     material: NETHERITE_BOOTS
-    name: '&4Giày Vượt Ngục &e&lIII'
+    name: "&4Giày Vượt Ngục &e&lIII"
     max-durability: 12000
     tier: UNIQUE
     hide-enchants: true
     lore-format: armor-lore
     lore:
-      - '&b&l✦ Tiểu Sử'
-      - '&7 &b●&7 Lớp giáp cuối cùng trước tự do'
-      - '&7 &b●&7 Độ Bền Giáp 15 - càng nâng cấp càng chắc chắn'
-    armor: 15.0
-    max-health: 15.0
-    armor-toughness: 15.0
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Trang bị phòng thủ kiên cố của Vượt Ngục"
+      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
+    armor: 20.2
+    max-health: 32.4
+    armor-toughness: 6.6
+    defense: 6.2
+    movement-speed: 0.032
     gem-sockets:
       - Uncolored
       - Uncolored
       - Uncolored
       - Uncolored
       - Uncolored
+    upgrade:
+      template: armor-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
 BOOTS_VUOT_NGUC_4:
   base:
     material: NETHERITE_BOOTS
-    name: '&4Giày Vượt Ngục &e&lIV'
+    name: "&4Giày Vượt Ngục &e&lIV"
     max-durability: 12000
     tier: UNIQUE
     hide-enchants: true
     lore-format: armor-lore
     lore:
-      - '&b&l✦ Tiểu Sử'
-      - '&7 &b●&7 Lớp giáp cuối cùng trước tự do'
-      - '&7 &b●&7 Độ Bền Giáp 15 - càng nâng cấp càng chắc chắn'
-    armor: 16.0
-    max-health: 15.0
-    armor-toughness: 15.0
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Trang bị phòng thủ kiên cố của Vượt Ngục"
+      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
+    armor: 20.8
+    max-health: 33.6
+    armor-toughness: 6.9
+    defense: 6.5
+    movement-speed: 0.033
     gem-sockets:
       - Uncolored
       - Uncolored
       - Uncolored
       - Uncolored
       - Uncolored
+    upgrade:
+      template: armor-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
 BOOTS_VUOT_NGUC_5:
   base:
     material: NETHERITE_BOOTS
-    name: '&4Giày Vượt Ngục &e&lV'
+    name: "&4Giày Vượt Ngục &e&lV"
     max-durability: 12000
     tier: UNIQUE
     hide-enchants: true
     lore-format: armor-lore
     lore:
-      - '&b&l✦ Tiểu Sử'
-      - '&7 &b●&7 Lớp giáp cuối cùng trước tự do'
-      - '&7 &b●&7 Độ Bền Giáp 15 - càng nâng cấp càng chắc chắn'
-    armor: 16.0
-    max-health: 16.0
-    armor-toughness: 15.0
+      - "&b&l✦ Tiểu Sử"
+      - "&7 &b●&7 Trang bị phòng thủ kiên cố của Vượt Ngục"
+      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
+    armor: 21.4
+    max-health: 34.8
+    armor-toughness: 7.2
+    defense: 6.8
+    movement-speed: 0.034
     gem-sockets:
       - Uncolored
       - Uncolored
       - Uncolored
       - Uncolored
       - Uncolored
+    upgrade:
+      template: armor-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
