@@ -1,0 +1,297 @@
+inventory:
+  '16':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3337
+    type: PAPER
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":true,"italic":false,"color":"red","text":"★
+        Vòng Tay Hoàng Long"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":""}],"text":""}'
+      - '{"extra":[{"italic":false,"color":"dark_gray","text":"["},{"bold":true,"italic":false,"color":"red","text":"⚔"},{"bold":false,"italic":false,"color":"dark_gray","text":"]
+        "},{"italic":false,"color":"gray","text":"Tốc độ đánh: "},{"italic":false,"color":"yellow","text":"15"}],"text":""}'
+      - '{"extra":[{"italic":false,"color":"dark_gray","text":"["},{"bold":true,"italic":false,"color":"red","text":"🩸"},{"bold":false,"italic":false,"color":"dark_gray","text":"]
+        "},{"italic":false,"color":"gray","text":"Hút máu: "},{"italic":false,"color":"red","text":"+12%"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":""}],"text":""}'
+      - '{"extra":[{"bold":true,"italic":false,"color":"red","text":"★ Kích Hoạt Hoàng
+        Long:"}],"text":""}'
+      - '{"extra":[{"italic":false,"color":"gray","text":"  [2 món] "},{"italic":false,"color":"yellow","text":"+12%
+        Tốc Đánh "},{"italic":false,"color":"gray","text":"| "},{"italic":false,"color":"red","text":"+5%
+        Hút Máu"}],"text":""}'
+      - '{"extra":[{"italic":false,"color":"gray","text":"  [3 món] "},{"italic":false,"color":"yellow","text":"+22%
+        Tốc Đánh "},{"italic":false,"color":"gray","text":"| "},{"italic":false,"color":"red","text":"+8%
+        Hút Máu "},{"italic":false,"color":"gray","text":"| "},{"italic":false,"color":"red","text":"+18
+        ST"}],"text":""}'
+      - '{"extra":[{"italic":false,"color":"red","text":"  [4 món] "},{"italic":false,"color":"yellow","text":"+35%
+        Tốc Đánh "},{"italic":false,"color":"gray","text":"| "},{"italic":false,"color":"red","text":"+12%
+        Hút Máu "},{"italic":false,"color":"gray","text":"| "},{"italic":false,"color":"red","text":"+30
+        ST"}],"text":""}'
+      - '{"extra":[{"italic":false,"color":"yellow","text":"         "},{"italic":false,"color":"gray","text":"+
+        "},{"italic":false,"color":"yellow","text":"Hiệu Ứng Tốc Độ II"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":""}],"text":""}'
+      - '{"extra":[{"italic":false,"color":"dark_gray","text":"["},{"bold":true,"italic":false,"color":"gray","text":"◇"},{"bold":false,"italic":false,"color":"dark_gray","text":"]
+        "},{"italic":false,"color":"gray","text":"Ô đá quý trống"}],"text":""}'
+      - '{"extra":[{"italic":false,"color":"dark_gray","text":"["},{"bold":true,"italic":false,"color":"gray","text":"◇"},{"bold":false,"italic":false,"color":"dark_gray","text":"]
+        "},{"italic":false,"color":"gray","text":"Ô đá quý trống"}],"text":""}'
+      - '{"extra":[{"italic":false,"color":"dark_gray","text":"["},{"bold":true,"italic":false,"color":"gray","text":"◇"},{"bold":false,"italic":false,"color":"dark_gray","text":"]
+        "},{"italic":false,"color":"gray","text":"Ô đá quý trống"}],"text":""}'
+      - '{"extra":[{"italic":false,"color":"dark_gray","text":"["},{"bold":true,"italic":false,"color":"gray","text":"◇"},{"bold":false,"italic":false,"color":"dark_gray","text":"]
+        "},{"italic":false,"color":"gray","text":"Ô đá quý trống"}],"text":""}'
+      - '{"extra":[{"italic":false,"color":"dark_gray","text":"["},{"bold":true,"italic":false,"color":"gray","text":"◇"},{"bold":false,"italic":false,"color":"dark_gray","text":"]
+        "},{"italic":false,"color":"gray","text":"Ô đá quý trống"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":""}],"text":""}'
+      - '{"extra":[{"italic":false,"color":"dark_gray","text":"["},{"bold":true,"italic":false,"color":"gold","text":"✦"},{"bold":false,"italic":false,"color":"dark_gray","text":"]
+        "},{"italic":false,"color":"gray","text":"Phẩm cấp: "},{"bold":true,"italic":false,"color":"red","text":"UNIQUE"}],"text":""}'
+      - '{"extra":[{"italic":false,"color":"dark_gray","text":"["},{"bold":true,"italic":false,"color":"gray","text":"📦"},{"bold":false,"italic":false,"color":"dark_gray","text":"]
+        "},{"italic":false,"color":"gray","text":"Loại: "},{"italic":false,"color":"white","text":"Bracelet"}],"text":""}'
+      custom-model-data: 19284
+      attribute-modifiers:
+        GENERIC_ATTACK_SPEED:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 0.0
+          name: mmoitems:decoy
+          uuid: 5c0c3fc8-796d-3bd0-8b79-245f4b1cdd53
+          operation: 0
+      ItemFlags:
+      - HIDE_ATTRIBUTES
+      internal: H4sIAAAAAAAA/9VTTU8TQRgeJZKGROPnhcRkMgnEhEIKiJCeWNqx3bAftTvFkKbZrMvQEtvdst0aCXI0XCUh8SMe4KDVgwflom3w0PWP1Hv/gzOLu2zxI/HoHnZ35n2f55n3ed8ZASAGbsiyKhIsa3p6VRFkMaVLah4PXSiibmsdxfm721oodltmt1X9/mqfLUqw25onvc6eCb/t9Tov2ds7tCpJtk2n585i+gdf+18+B7Cs13ZhzTts8mxzYnpm7CQ/QPkqL57CZe+DWYFZu9c+dNnHO7DKULKtcjJInIewOMOYjizOSzkT/HmmZ/w0XOyJrzE3Bn1VmalG0bMR9Mwf0QsR9Onu9ALUSHhmRnY7QjY79ycyfsjfsM0mImwUBg+LT3DC7Eavs9uEvc47ZkJAzH0XxUHzuOXz3MDnu4Hf3r7fHbjZ9I6h6zCwVf7/06OgOxz0+m0AylV67fc1aPbab+r+jLFwQRHvFfBZpf7Bcf8oxEl81DY4Yn3JMUxapS4qxcDl8Hrwty6mwWhaVQSC9aW8kMISJuy+KBk9qwpKZjhymwRChNSyruUwTi9OAf+JgYthnN01DG6Om+P+uK94n3hvja3orMfAtTA9w8Q1oipYA8VthGt1d0ur2m4DJYuoYJl21XboGqvw3/5LcZShtYZrW5QzlXZi4MpgwRom4NJphXwdzcFKKisoRAPni6UhcD3cz+MVURNVhRsGwLkhMBqGUgVWh6zLahpLelogAgDLJGp0IZfJC2kMNrcRobV61XApSiLDqdnOZLNedow1OukGgTi6bzsPH1DLrKDkulFt0DhK04br2FvhWqKPaBUlE3EkG49RcjrB/zYsf0drmiZtsOITUwlW/UhWI/nVk+Zo20hzDZdp8yVTUjOaazuMl3VgoI+695EpssS/thPtcH+vDvpLVnMYxIJZGo6EJfEu1ggWpMVbv04PEXEeDJ/MNfgBhpfL7sgFAAA=
+  '1':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3337
+    type: PAPER
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":true,"italic":false,"color":"red","text":"★
+        Găng Tay Hoàng Long"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":""}],"text":""}'
+      - '{"extra":[{"italic":false,"color":"dark_gray","text":"["},{"bold":true,"italic":false,"color":"red","text":"⚔"},{"bold":false,"italic":false,"color":"dark_gray","text":"]
+        "},{"italic":false,"color":"gray","text":"Tốc độ đánh: "},{"italic":false,"color":"yellow","text":"35"}],"text":""}'
+      - '{"extra":[{"italic":false,"color":"dark_gray","text":"["},{"bold":true,"italic":false,"color":"red","text":"🩸"},{"bold":false,"italic":false,"color":"dark_gray","text":"]
+        "},{"italic":false,"color":"gray","text":"Hút máu: "},{"italic":false,"color":"red","text":"+8%"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":""}],"text":""}'
+      - '{"extra":[{"bold":true,"italic":false,"color":"red","text":"★ Kích Hoạt Hoàng
+        Long:"}],"text":""}'
+      - '{"extra":[{"italic":false,"color":"gray","text":"  [2 món] "},{"italic":false,"color":"yellow","text":"+12%
+        Tốc Đánh "},{"italic":false,"color":"gray","text":"| "},{"italic":false,"color":"red","text":"+5%
+        Hút Máu"}],"text":""}'
+      - '{"extra":[{"italic":false,"color":"gray","text":"  [3 món] "},{"italic":false,"color":"yellow","text":"+22%
+        Tốc Đánh "},{"italic":false,"color":"gray","text":"| "},{"italic":false,"color":"red","text":"+8%
+        Hút Máu "},{"italic":false,"color":"gray","text":"| "},{"italic":false,"color":"red","text":"+18
+        ST"}],"text":""}'
+      - '{"extra":[{"italic":false,"color":"red","text":"  [4 món] "},{"italic":false,"color":"yellow","text":"+35%
+        Tốc Đánh "},{"italic":false,"color":"gray","text":"| "},{"italic":false,"color":"red","text":"+12%
+        Hút Máu "},{"italic":false,"color":"gray","text":"| "},{"italic":false,"color":"red","text":"+30
+        ST"}],"text":""}'
+      - '{"extra":[{"italic":false,"color":"yellow","text":"         "},{"italic":false,"color":"gray","text":"+
+        "},{"italic":false,"color":"yellow","text":"Hiệu Ứng Tốc Độ II"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":""}],"text":""}'
+      - '{"extra":[{"italic":false,"color":"dark_gray","text":"["},{"bold":true,"italic":false,"color":"gray","text":"◇"},{"bold":false,"italic":false,"color":"dark_gray","text":"]
+        "},{"italic":false,"color":"gray","text":"Ô đá quý trống"}],"text":""}'
+      - '{"extra":[{"italic":false,"color":"dark_gray","text":"["},{"bold":true,"italic":false,"color":"gray","text":"◇"},{"bold":false,"italic":false,"color":"dark_gray","text":"]
+        "},{"italic":false,"color":"gray","text":"Ô đá quý trống"}],"text":""}'
+      - '{"extra":[{"italic":false,"color":"dark_gray","text":"["},{"bold":true,"italic":false,"color":"gray","text":"◇"},{"bold":false,"italic":false,"color":"dark_gray","text":"]
+        "},{"italic":false,"color":"gray","text":"Ô đá quý trống"}],"text":""}'
+      - '{"extra":[{"italic":false,"color":"dark_gray","text":"["},{"bold":true,"italic":false,"color":"gray","text":"◇"},{"bold":false,"italic":false,"color":"dark_gray","text":"]
+        "},{"italic":false,"color":"gray","text":"Ô đá quý trống"}],"text":""}'
+      - '{"extra":[{"italic":false,"color":"dark_gray","text":"["},{"bold":true,"italic":false,"color":"gray","text":"◇"},{"bold":false,"italic":false,"color":"dark_gray","text":"]
+        "},{"italic":false,"color":"gray","text":"Ô đá quý trống"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":""}],"text":""}'
+      - '{"extra":[{"italic":false,"color":"dark_gray","text":"["},{"bold":true,"italic":false,"color":"gold","text":"✦"},{"bold":false,"italic":false,"color":"dark_gray","text":"]
+        "},{"italic":false,"color":"gray","text":"Phẩm cấp: "},{"bold":true,"italic":false,"color":"red","text":"UNIQUE"}],"text":""}'
+      - '{"extra":[{"italic":false,"color":"dark_gray","text":"["},{"bold":true,"italic":false,"color":"gray","text":"📦"},{"bold":false,"italic":false,"color":"dark_gray","text":"]
+        "},{"italic":false,"color":"gray","text":"Loại: "},{"italic":false,"color":"white","text":"Gloves"}],"text":""}'
+      custom-model-data: 19599
+      attribute-modifiers:
+        GENERIC_ATTACK_SPEED:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 0.0
+          name: mmoitems:decoy
+          uuid: 5c0c3fc8-796d-3bd0-8b79-245f4b1cdd53
+          operation: 0
+      ItemFlags:
+      - HIDE_ATTRIBUTES
+      internal: H4sIAAAAAAAA/9VTTWsTQRgeLYRQUPwEEYRhoL00lbSxNuTUJTtulu5HzG4qJYQlbqdJMdlNN5tiqQVBpEctFPzAQ3vQ6MGD9KIJ9ZDtH4n3/AdnEne7qVbw6B52d+Z9n+eZ93nfGQcgCq7LsirqWNYMflnhZDFtSGoOj50voG5rFcXYu9tKFrots9uq/ni7RxdF2G3N673OrgmPd3udN/TtHViVFN0mibnTmP7+9/63rz4s47VdWPMOmizbnEpODNN90EDk9XO46H02KzBj99oHLv14+1YZSrZVTvmJ8xAWZinRocVoydTM7AT8daSX7DBM68lAYm4CDkRlKhpGJ0Lo2TPRyRD6ZHcmCTU9ODMluxMiS8ydRcYO+Qe2RDzERqD/0PgUI8ys9To7TdjrfKQm+MTMdlEcNY85Ps8MfLXj2+3tDZoD15veEXQdCrbK/396GHSXgd598EHZSq/9qQbNXvt9fTBiNJxXxPt5fFqpv3/UPwxwEhu1NYZYFar2BmmgYhRcCu4GexsiD27wqsLp2BAkdQlr9KoogpFROUWIhC4Sp+tcetHQshjzC9xTwJ4ouBDE6TXD4NakOTkYdeH4GetraTM851FwNUgXqLSmqwrWQGEL4Vrd3dSqtttAqQLKW6ZdtR2yQqv7t/9iDAmk1nBtizCm4nYUXB4tV8M6uHhSIVuHc7CSznCKroHzheIYuBbs5/CSqImqwuwC4NwYuBmE0nlah2zIKo8lg+d0DgDpRdjmfFbIcTwG61tIJ7V6teQSlEIlp2Y708162SmtkGnXD8TQA9t59JBYZgWlVkvVBokhnjRcx94M1hLZIFWUiseQXHqMUjNx9rdmDXa0pmmSBi0+fjtOqx/PaHpuedgcbQtpbsml2mxJlVRBc22H8tIOjPTR8L5QRZr413aibebvlVF/9eUsBpHhJEVCQUm8hzUdc9ICBL/Nji7iHIgMJxr8BBCxC2jBBQAA
+  '34':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3337
+    type: PAPER
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":true,"italic":false,"color":"red","text":"★
+        Nhẫn Hoàng Long II"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":""}],"text":""}'
+      - '{"extra":[{"italic":false,"color":"dark_gray","text":"["},{"bold":true,"italic":false,"color":"red","text":"⚔"},{"bold":false,"italic":false,"color":"dark_gray","text":"]
+        "},{"italic":false,"color":"gray","text":"Tốc độ đánh: "},{"italic":false,"color":"yellow","text":"20"}],"text":""}'
+      - '{"extra":[{"italic":false,"color":"dark_gray","text":"["},{"bold":true,"italic":false,"color":"gold","text":"⚡"},{"bold":false,"italic":false,"color":"dark_gray","text":"]
+        "},{"italic":false,"color":"gray","text":"Sát thương chí mạng: "},{"italic":false,"color":"gold","text":"+30%"}],"text":""}'
+      - '{"extra":[{"italic":false,"color":"dark_gray","text":"["},{"bold":true,"italic":false,"color":"gray","text":"💪"},{"bold":false,"italic":false,"color":"dark_gray","text":"]
+        "},{"italic":false,"color":"gray","text":"Sát thương vật lý: "},{"italic":false,"color":"red","text":"+15%"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":""}],"text":""}'
+      - '{"extra":[{"bold":true,"italic":false,"color":"red","text":"★ Kích Hoạt Hoàng
+        Long:"}],"text":""}'
+      - '{"extra":[{"italic":false,"color":"gray","text":"  [2 món] "},{"italic":false,"color":"yellow","text":"+12%
+        Tốc Đánh "},{"italic":false,"color":"gray","text":"| "},{"italic":false,"color":"red","text":"+5%
+        Hút Máu"}],"text":""}'
+      - '{"extra":[{"italic":false,"color":"gray","text":"  [3 món] "},{"italic":false,"color":"yellow","text":"+22%
+        Tốc Đánh "},{"italic":false,"color":"gray","text":"| "},{"italic":false,"color":"red","text":"+8%
+        Hút Máu "},{"italic":false,"color":"gray","text":"| "},{"italic":false,"color":"red","text":"+18
+        ST"}],"text":""}'
+      - '{"extra":[{"italic":false,"color":"red","text":"  [4 món] "},{"italic":false,"color":"yellow","text":"+35%
+        Tốc Đánh "},{"italic":false,"color":"gray","text":"| "},{"italic":false,"color":"red","text":"+12%
+        Hút Máu "},{"italic":false,"color":"gray","text":"| "},{"italic":false,"color":"red","text":"+30
+        ST"}],"text":""}'
+      - '{"extra":[{"italic":false,"color":"yellow","text":"         "},{"italic":false,"color":"gray","text":"+
+        "},{"italic":false,"color":"yellow","text":"Hiệu Ứng Tốc Độ II"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":""}],"text":""}'
+      - '{"extra":[{"italic":false,"color":"dark_gray","text":"["},{"bold":true,"italic":false,"color":"gray","text":"◇"},{"bold":false,"italic":false,"color":"dark_gray","text":"]
+        "},{"italic":false,"color":"gray","text":"Ô đá quý trống"}],"text":""}'
+      - '{"extra":[{"italic":false,"color":"dark_gray","text":"["},{"bold":true,"italic":false,"color":"gray","text":"◇"},{"bold":false,"italic":false,"color":"dark_gray","text":"]
+        "},{"italic":false,"color":"gray","text":"Ô đá quý trống"}],"text":""}'
+      - '{"extra":[{"italic":false,"color":"dark_gray","text":"["},{"bold":true,"italic":false,"color":"gray","text":"◇"},{"bold":false,"italic":false,"color":"dark_gray","text":"]
+        "},{"italic":false,"color":"gray","text":"Ô đá quý trống"}],"text":""}'
+      - '{"extra":[{"italic":false,"color":"dark_gray","text":"["},{"bold":true,"italic":false,"color":"gray","text":"◇"},{"bold":false,"italic":false,"color":"dark_gray","text":"]
+        "},{"italic":false,"color":"gray","text":"Ô đá quý trống"}],"text":""}'
+      - '{"extra":[{"italic":false,"color":"dark_gray","text":"["},{"bold":true,"italic":false,"color":"gray","text":"◇"},{"bold":false,"italic":false,"color":"dark_gray","text":"]
+        "},{"italic":false,"color":"gray","text":"Ô đá quý trống"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":""}],"text":""}'
+      - '{"extra":[{"italic":false,"color":"dark_gray","text":"["},{"bold":true,"italic":false,"color":"gold","text":"✦"},{"bold":false,"italic":false,"color":"dark_gray","text":"]
+        "},{"italic":false,"color":"gray","text":"Phẩm cấp: "},{"bold":true,"italic":false,"color":"red","text":"UNIQUE"}],"text":""}'
+      - '{"extra":[{"italic":false,"color":"dark_gray","text":"["},{"bold":true,"italic":false,"color":"gray","text":"📦"},{"bold":false,"italic":false,"color":"dark_gray","text":"]
+        "},{"italic":false,"color":"gray","text":"Loại: "},{"italic":false,"color":"white","text":"Ring"}],"text":""}'
+      custom-model-data: 19281
+      attribute-modifiers:
+        GENERIC_ATTACK_SPEED:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 0.0
+          name: mmoitems:decoy
+          uuid: 5c0c3fc8-796d-3bd0-8b79-245f4b1cdd53
+          operation: 0
+      ItemFlags:
+      - HIDE_ATTRIBUTES
+      internal: H4sIAAAAAAAA/9VUzUsbQRSf1iJBaOknSKFlGNCLUWL8JIfikh2Sxexu3N1UJIQlXVcjTXbTZGMr1mPxWkHoBz2YQ5t+ILT1FvGSLf4f8e7/0Deru65UCz12Dy8z8+b3e/N+7730IRRB90RRFjQqqjq/IHGikNQzskJ7MnnSaS2RKLOd1nS+0zI6rfLR+23YFHCnNaV197cM/Guru/8OrNu0Sgk4NuOxMGbSwzR9jOo2HeyUDr8fNq1lbJTcXVzptmHNoJNDY7GBMHgKwMc7B8c/v16MX+22dx1cdg8Y2hganThF+xzeg9++wrPurlHCaRsiOfDj7gA2Y0NQ/+IUxvk4rrh7FotiDo3GB/Bpeq9ZYiz0Sy/GxABOu20Hi26zEUaPhdDxS9HTIfTZ6eg0VrXgzUA2HiIbm7iMjD3yAraxWIjNxP4H/iFGmF7p7m82cHf/M4jgE7MSCsJ58fwCHL3Z9NV3t71C42cN9wA7NQBby///9T/a9cMnH5QtddtfKtjotj9WvR4Dd04S5nL0ojbdC3AZ1morDLGkrECcQgTdDKaMWV3gUT8vS5xGdUWQUjByYNIyBzbeGxpJTtO45KyuZinlZ8aR90XQncCfAi5VkyWqovw6oZWqs6aWbadOEnmSswy7bNfMRXjsv60LUZIyK3XHtkzGVNiIoOtBSPiPoOjBoDHozZYEEn2zwlMFnRRBt86nq1IN3QjlCPvwHSol05ykqehqvtCD7gbnCn0sqIIsMbkQutKD7geuZA7SFnVR5mlG5zmNQ2h2LixzLptSOJ6i2jrRzEq1XHRMkiDPzWLVtoYb1eVacdEcdnxPlMzbtadPTMsokcRSsVw3o4Q3607NXgv2GXPVLJNELErE4guSGI2x1YrlnagNwzDrIFZsJAZq9aVVTVk4kUpdJ6pTdCA420IkOaU6dg14oWLnVNXdHxARLv5VXLJR2OhFD8+UUARNSHIZ6ANFmKV6Vp6nyswjv1dun6+EtpCl6BrruV7UH7iy6QXV4+A5kUvRmREffVZ2TaAK6j3pfvQbsYgdhjkGAAA=
+  '7':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3337
+    type: PAPER
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":true,"italic":false,"color":"red","text":"★
+        Dây Chuyền Hoàng Long"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":""}],"text":""}'
+      - '{"extra":[{"italic":false,"color":"dark_gray","text":"["},{"bold":true,"italic":false,"color":"gold","text":"⚡"},{"bold":false,"italic":false,"color":"dark_gray","text":"]
+        "},{"italic":false,"color":"gray","text":"Tỉ lệ chí mạng: "},{"italic":false,"color":"gold","text":"+14%"}],"text":""}'
+      - '{"extra":[{"italic":false,"color":"dark_gray","text":"["},{"bold":true,"italic":false,"color":"red","text":"🩸"},{"bold":false,"italic":false,"color":"dark_gray","text":"]
+        "},{"italic":false,"color":"gray","text":"Hút máu: "},{"italic":false,"color":"red","text":"+8%"}],"text":""}'
+      - '{"extra":[{"italic":false,"color":"dark_gray","text":"["},{"bold":true,"italic":false,"color":"red","text":"❤"},{"bold":false,"italic":false,"color":"dark_gray","text":"]
+        "},{"italic":false,"color":"gray","text":"Máu tối đa: "},{"italic":false,"color":"red","text":"+100"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":""}],"text":""}'
+      - '{"extra":[{"bold":true,"italic":false,"color":"red","text":"★ Kích Hoạt Hoàng
+        Long:"}],"text":""}'
+      - '{"extra":[{"italic":false,"color":"gray","text":"  [2 món] "},{"italic":false,"color":"yellow","text":"+12%
+        Tốc Đánh "},{"italic":false,"color":"gray","text":"| "},{"italic":false,"color":"red","text":"+5%
+        Hút Máu"}],"text":""}'
+      - '{"extra":[{"italic":false,"color":"gray","text":"  [3 món] "},{"italic":false,"color":"yellow","text":"+22%
+        Tốc Đánh "},{"italic":false,"color":"gray","text":"| "},{"italic":false,"color":"red","text":"+8%
+        Hút Máu "},{"italic":false,"color":"gray","text":"| "},{"italic":false,"color":"red","text":"+18
+        ST"}],"text":""}'
+      - '{"extra":[{"italic":false,"color":"red","text":"  [4 món] "},{"italic":false,"color":"yellow","text":"+35%
+        Tốc Đánh "},{"italic":false,"color":"gray","text":"| "},{"italic":false,"color":"red","text":"+12%
+        Hút Máu "},{"italic":false,"color":"gray","text":"| "},{"italic":false,"color":"red","text":"+30
+        ST"}],"text":""}'
+      - '{"extra":[{"italic":false,"color":"yellow","text":"         "},{"italic":false,"color":"gray","text":"+
+        "},{"italic":false,"color":"yellow","text":"Hiệu Ứng Tốc Độ II"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":""}],"text":""}'
+      - '{"extra":[{"italic":false,"color":"dark_gray","text":"["},{"bold":true,"italic":false,"color":"gray","text":"◇"},{"bold":false,"italic":false,"color":"dark_gray","text":"]
+        "},{"italic":false,"color":"gray","text":"Ô đá quý trống"}],"text":""}'
+      - '{"extra":[{"italic":false,"color":"dark_gray","text":"["},{"bold":true,"italic":false,"color":"gray","text":"◇"},{"bold":false,"italic":false,"color":"dark_gray","text":"]
+        "},{"italic":false,"color":"gray","text":"Ô đá quý trống"}],"text":""}'
+      - '{"extra":[{"italic":false,"color":"dark_gray","text":"["},{"bold":true,"italic":false,"color":"gray","text":"◇"},{"bold":false,"italic":false,"color":"dark_gray","text":"]
+        "},{"italic":false,"color":"gray","text":"Ô đá quý trống"}],"text":""}'
+      - '{"extra":[{"italic":false,"color":"dark_gray","text":"["},{"bold":true,"italic":false,"color":"gray","text":"◇"},{"bold":false,"italic":false,"color":"dark_gray","text":"]
+        "},{"italic":false,"color":"gray","text":"Ô đá quý trống"}],"text":""}'
+      - '{"extra":[{"italic":false,"color":"dark_gray","text":"["},{"bold":true,"italic":false,"color":"gray","text":"◇"},{"bold":false,"italic":false,"color":"dark_gray","text":"]
+        "},{"italic":false,"color":"gray","text":"Ô đá quý trống"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":""}],"text":""}'
+      - '{"extra":[{"italic":false,"color":"dark_gray","text":"["},{"bold":true,"italic":false,"color":"gold","text":"✦"},{"bold":false,"italic":false,"color":"dark_gray","text":"]
+        "},{"italic":false,"color":"gray","text":"Phẩm cấp: "},{"bold":true,"italic":false,"color":"red","text":"UNIQUE"}],"text":""}'
+      - '{"extra":[{"italic":false,"color":"dark_gray","text":"["},{"bold":true,"italic":false,"color":"gray","text":"📦"},{"bold":false,"italic":false,"color":"dark_gray","text":"]
+        "},{"italic":false,"color":"gray","text":"Loại: "},{"italic":false,"color":"white","text":"Amulet"}],"text":""}'
+      custom-model-data: 19434
+      attribute-modifiers:
+        GENERIC_ATTACK_SPEED:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 0.0
+          name: mmoitems:decoy
+          uuid: 5c0c3fc8-796d-3bd0-8b79-245f4b1cdd53
+          operation: 0
+      ItemFlags:
+      - HIDE_ATTRIBUTES
+      internal: H4sIAAAAAAAA/9VUTWsTURR9WgihoPgJ4sbng3bTVNLvmFWH5JkMnZnUzMQaQhjidJoEk5k0mYilduFCijsLgh8oNKJGF11IN9pQF5n+kXEp9D94X8JMptYiLp3FZN6795x737nnZRihILosiileoaKsxrMSJ/IxVUil6dDNHOm2V0iIvbvtSK7bnu22Kz9et2CRx932nOJ0nuKK09nEWsnewVVnr2UUoxCZHZuYHvEDNQAebn8//PbVxSbtPQtX7VaT5WtjkWPpP96+d3NFSMOW09kq44OtQh8wEQ73ES6uh3n5BC/YO1oJJ01oxoIfe9soYsGEvtzEOYxzk1B612Dk+tjE5AiGk2xp+OCZ3TJKrOKjXo2ZEdxrk9X3o6d86MkT0REferA7EcGy4vUMZNM+sqmZk8hYk39gmwr72HTsPhAfY4TJMgyniZ3OJxDBJXY6rzDPHxWPiT7HBHyx6YpuPwex7RZebdr72KoD2Cj+/+nH3PzmowtaLDl7n6tYc/Y+1Hoeg3BG4m9n6O+VDrf3D3c9nMCsVmaIFa7arOgWyQfROe9KsbfKx9GVeEriFKpyYkagCtwwKaEmU5yUCKIzXjLcPoquj2qjPSvH7XdrOFZqrjmdx4bfywF00YOI3F01STlBSc5nUe8J+qIJKC4rKYnKKLdOaLVmrckV02qQaI5kDM2smHV9Gc73b9/5EEno1YZlGjpjym8E0XmvJJViSU5SZHQ6lx9Cl7z9NL3Dy3xKYmIgdGoIXfVCsQz0KKpiKk4FNc4pHEILP/2cPRFlqqCzA93Y2i90ZjGR5uIUra4TRa/WKgVLJ1FSqFfN+nizVqwXlvVxyw2EyJJZv39PN7QSia4UKg09ROJ6w6qba95a0B/oFRINh4hYeEii8I8DX2WjtyM3NU1vwOHDN8Jw+uGkrKSz/fEtrRPZKlhQmy2hUiohW2YdeGECRyat2l+gIiT+deBkg2l84ageSnaRokDfTwFfUOBvUVkBS8zjviEC6NpA6jSv8DFOAFek+QWqslnF6HzItc7AiwpP0yjQvwHoF59z/aooBgAA
+  '25':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3337
+    type: PAPER
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":true,"italic":false,"color":"red","text":"★
+        Nhẫn Hoàng Long I"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":""}],"text":""}'
+      - '{"extra":[{"italic":false,"color":"dark_gray","text":"["},{"bold":true,"italic":false,"color":"red","text":"⚔"},{"bold":false,"italic":false,"color":"dark_gray","text":"]
+        "},{"italic":false,"color":"gray","text":"Tốc độ đánh: "},{"italic":false,"color":"yellow","text":"20"}],"text":""}'
+      - '{"extra":[{"italic":false,"color":"dark_gray","text":"["},{"bold":true,"italic":false,"color":"gold","text":"⚡"},{"bold":false,"italic":false,"color":"dark_gray","text":"]
+        "},{"italic":false,"color":"gray","text":"Sát thương chí mạng: "},{"italic":false,"color":"gold","text":"+30%"}],"text":""}'
+      - '{"extra":[{"italic":false,"color":"dark_gray","text":"["},{"bold":true,"italic":false,"color":"gray","text":"💪"},{"bold":false,"italic":false,"color":"dark_gray","text":"]
+        "},{"italic":false,"color":"gray","text":"Sát thương vật lý: "},{"italic":false,"color":"red","text":"+15%"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":""}],"text":""}'
+      - '{"extra":[{"bold":true,"italic":false,"color":"red","text":"★ Kích Hoạt Hoàng
+        Long:"}],"text":""}'
+      - '{"extra":[{"italic":false,"color":"gray","text":"  [2 món] "},{"italic":false,"color":"yellow","text":"+12%
+        Tốc Đánh "},{"italic":false,"color":"gray","text":"| "},{"italic":false,"color":"red","text":"+5%
+        Hút Máu"}],"text":""}'
+      - '{"extra":[{"italic":false,"color":"gray","text":"  [3 món] "},{"italic":false,"color":"yellow","text":"+22%
+        Tốc Đánh "},{"italic":false,"color":"gray","text":"| "},{"italic":false,"color":"red","text":"+8%
+        Hút Máu "},{"italic":false,"color":"gray","text":"| "},{"italic":false,"color":"red","text":"+18
+        ST"}],"text":""}'
+      - '{"extra":[{"italic":false,"color":"red","text":"  [4 món] "},{"italic":false,"color":"yellow","text":"+35%
+        Tốc Đánh "},{"italic":false,"color":"gray","text":"| "},{"italic":false,"color":"red","text":"+12%
+        Hút Máu "},{"italic":false,"color":"gray","text":"| "},{"italic":false,"color":"red","text":"+30
+        ST"}],"text":""}'
+      - '{"extra":[{"italic":false,"color":"yellow","text":"         "},{"italic":false,"color":"gray","text":"+
+        "},{"italic":false,"color":"yellow","text":"Hiệu Ứng Tốc Độ II"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":""}],"text":""}'
+      - '{"extra":[{"italic":false,"color":"dark_gray","text":"["},{"bold":true,"italic":false,"color":"gray","text":"◇"},{"bold":false,"italic":false,"color":"dark_gray","text":"]
+        "},{"italic":false,"color":"gray","text":"Ô đá quý trống"}],"text":""}'
+      - '{"extra":[{"italic":false,"color":"dark_gray","text":"["},{"bold":true,"italic":false,"color":"gray","text":"◇"},{"bold":false,"italic":false,"color":"dark_gray","text":"]
+        "},{"italic":false,"color":"gray","text":"Ô đá quý trống"}],"text":""}'
+      - '{"extra":[{"italic":false,"color":"dark_gray","text":"["},{"bold":true,"italic":false,"color":"gray","text":"◇"},{"bold":false,"italic":false,"color":"dark_gray","text":"]
+        "},{"italic":false,"color":"gray","text":"Ô đá quý trống"}],"text":""}'
+      - '{"extra":[{"italic":false,"color":"dark_gray","text":"["},{"bold":true,"italic":false,"color":"gray","text":"◇"},{"bold":false,"italic":false,"color":"dark_gray","text":"]
+        "},{"italic":false,"color":"gray","text":"Ô đá quý trống"}],"text":""}'
+      - '{"extra":[{"italic":false,"color":"dark_gray","text":"["},{"bold":true,"italic":false,"color":"gray","text":"◇"},{"bold":false,"italic":false,"color":"dark_gray","text":"]
+        "},{"italic":false,"color":"gray","text":"Ô đá quý trống"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":""}],"text":""}'
+      - '{"extra":[{"italic":false,"color":"dark_gray","text":"["},{"bold":true,"italic":false,"color":"gold","text":"✦"},{"bold":false,"italic":false,"color":"dark_gray","text":"]
+        "},{"italic":false,"color":"gray","text":"Phẩm cấp: "},{"bold":true,"italic":false,"color":"red","text":"UNIQUE"}],"text":""}'
+      - '{"extra":[{"italic":false,"color":"dark_gray","text":"["},{"bold":true,"italic":false,"color":"gray","text":"📦"},{"bold":false,"italic":false,"color":"dark_gray","text":"]
+        "},{"italic":false,"color":"gray","text":"Loại: "},{"italic":false,"color":"white","text":"Ring"}],"text":""}'
+      custom-model-data: 19280
+      attribute-modifiers:
+        GENERIC_ATTACK_SPEED:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 0.0
+          name: mmoitems:decoy
+          uuid: 5c0c3fc8-796d-3bd0-8b79-245f4b1cdd53
+          operation: 0
+      ItemFlags:
+      - HIDE_ATTRIBUTES
+      internal: H4sIAAAAAAAA/9VUS2vbQBDeNiWYQEufEEopy0JyiRPsvPGhRFiLLWJJriQ3BGOEqyixqS25tpw2pDmWXBsI9EEP8aF1HwTa5uaQi1XyP5x7/0NnlUhRaFLosTqMd3f2+2bnmxkPIBRBd0RRFjQqqjq/KHGikNQzskL7MnnSbS+TKLPd9my+2za67crRu23YFHC3PaP19rcM/HOrt/8WrNuySgk4NsdjYcy0h2n5GNVtOdgpHX47bFkr2Ci5u7ja68CaQadHJmJDYfAMgH/tHPz68eV8/Gqvs+vginvA0MZIfOoE7XN4D37zEs+7u0YJp22I5MCPuwPYjA1B/YszGOfHcdXds1gUcyQ+PoRP0nvFEmOhX3gxpoZw2u04WHRbzTB6IoQevxA9G0KfnsZnsaoFbwayyRDZxNRFZOyR57BNxEJsJvY/8I8wwnS5t7/ZxL39TyCCT8xKKAhnxfMLcPR601ff3fYKjZ823QPs1AFsrfz/1/9o1/cffVC21Ot8rmKj1/lQ83oM3DlJeJij57XpXoDLsFYrM8SyUoY4hQi6HkwZs7rAo0FeljiN6oogpWDkwKRlDmy8PzSSnKZxyXldzVLKz00i74ugW4E/BVyqJktURfl1Qqs1Z02t2E6DJPIkZxl2xa6bS/DYf1sXoiRlVhuObZmMqbARQVeDkPAfQdG9YWPYmy0JJPpqhacKCxF042y2KtXQtVCKsA/foVIyzUmaii7nC33odnCu0EeCKsgSUwuhS33obuBK5iBrURdlnmZ0ntM4hOazYZVz2ZTC8RTV14lmVmuVomOSBHlmFmu2NdqsrdSLS+ao43uiZMGuP3lsWkaJJJaLlYYZJbzZcOr2WrDPmKtmhSRiUSIWn5NEPMZWZcs7UZuGYTZAq9hYDMQaSKuasnislLJOVKfoQHC2hUhySnXsOvBCwc6IqrvfISJc/Ju2ZKOw0Y/unwqhCJqQ5DLQBYowT/WsvECVuQd+p9w8WwhtMUvRFdZx/WgwcGXTi6rHwXMil6JzYz76tOiaQBXUf9z76De/nyvyNwYAAA==

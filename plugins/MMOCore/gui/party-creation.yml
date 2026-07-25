@@ -1,6 +1,5 @@
-
 # GUI display name
-name: Party Creation
+name: Tạo Tổ Đội
 
 # Number of slots in your inventory. Must be
 # between 9 and 54 and must be a multiple of 9.
@@ -11,11 +10,11 @@ items:
         slots: [12]
         item: GREEN_TERRACOTTA
         function: 'create'
-        name: '&aCreate a party!'
+        name: '&aTạo tổ đội!'
         lore: {}
     back:
         slots: [14]
         item: RED_TERRACOTTA
         function: back
-        name: '&aBack'
+        name: '&cQuay lại'
         lore: {}

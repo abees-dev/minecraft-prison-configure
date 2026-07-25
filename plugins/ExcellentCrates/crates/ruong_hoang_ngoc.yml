@@ -1,0 +1,260 @@
+Name: '&e&lHòm Hoàng Ngọc'
+Preview_Config: default
+Permission_Required: false
+Opening:
+  Cooldown: 0
+Key:
+  # Sets whether or not keys are required to open this crate.
+  Required: false
+  Ids: []
+Block:
+  Positions: []
+  Pushback:
+    Enabled: true
+  Hologram:
+    Enabled: true
+    Template: default
+    Y_Offset: 0.0
+  Effect:
+    Model: HELIX
+    Particle:
+      Name: CRIT
+Milestones:
+  Repeatable: false
+Rewards:
+  List:
+    yellow_gem_lv_1:
+      Name: '&e&lHoàng Ngọc &e&lLv.I'
+      Weight: 40.0
+      Rarity: common
+      Broadcast: false
+      Placeholder_Apply: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Commands:
+      - '[CONSOLE] mmoitems give GEM_STONE YELLOW_GEM_LV1 %player_name% 1'
+      - '[CONSOLE] execute as %player_name% at @s run playsound entity.experience_orb.pickup master @s ~ ~ ~ 1 1.2'
+      Ignored_For_Permissions: []
+    yellow_gem_lv_2:
+      Name: '&e&lHoàng Ngọc &e&lLv.II'
+      Weight: 25.0
+      Rarity: common
+      Broadcast: false
+      Placeholder_Apply: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Commands:
+      - '[CONSOLE] mmoitems give GEM_STONE YELLOW_GEM_LV2 %player_name% 1'
+      - '[CONSOLE] execute as %player_name% at @s run playsound entity.experience_orb.pickup master @s ~ ~ ~ 1 1.2'
+      Ignored_For_Permissions: []
+    yellow_gem_lv_3:
+      Name: '&e&lHoàng Ngọc &e&lLv.III'
+      Weight: 15.0
+      Rarity: uncommon
+      Broadcast: false
+      Placeholder_Apply: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Commands:
+      - '[CONSOLE] mmoitems give GEM_STONE YELLOW_GEM_LV3 %player_name% 1'
+      - '[CONSOLE] execute as %player_name% at @s run playsound entity.experience_orb.pickup master @s ~ ~ ~ 1 1.2'
+      Ignored_For_Permissions: []
+    yellow_gem_lv_4:
+      Name: '&e&lHoàng Ngọc &e&lLv.IV'
+      Weight: 9.0
+      Rarity: uncommon
+      Broadcast: false
+      Placeholder_Apply: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Commands:
+      - '[CONSOLE] mmoitems give GEM_STONE YELLOW_GEM_LV4 %player_name% 1'
+      - '[CONSOLE] execute as %player_name% at @s run playsound entity.experience_orb.pickup master @s ~ ~ ~ 1 1.2'
+      Ignored_For_Permissions: []
+    yellow_gem_lv_5:
+      Name: '&e&lHoàng Ngọc &e&lLv.V'
+      Weight: 5.0
+      Rarity: rare
+      Broadcast: false
+      Placeholder_Apply: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Commands:
+      - '[CONSOLE] mmoitems give GEM_STONE YELLOW_GEM_LV5 %player_name% 1'
+      - '[CONSOLE] execute as %player_name% at @s run playsound entity.experience_orb.pickup master @s ~ ~ ~ 1 1.2'
+      Ignored_For_Permissions: []
+    yellow_gem_lv_6:
+      Name: '&e&lHoàng Ngọc &e&lLv.VI'
+      Weight: 3.0
+      Rarity: rare
+      Broadcast: false
+      Placeholder_Apply: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Commands:
+      - '[CONSOLE] mmoitems give GEM_STONE YELLOW_GEM_LV6 %player_name% 1'
+      - '[CONSOLE] execute as %player_name% at @s run playsound entity.experience_orb.pickup master @s ~ ~ ~ 1 1.2'
+      Ignored_For_Permissions: []
+    yellow_gem_lv_7:
+      Name: '&e&lHoàng Ngọc &e&lLv.VII'
+      Weight: 1.8
+      Rarity: epic
+      Broadcast: false
+      Placeholder_Apply: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Commands:
+      - '[CONSOLE] mmoitems give GEM_STONE YELLOW_GEM_LV7 %player_name% 1'
+      - '[CONSOLE] execute as %player_name% at @s run playsound entity.experience_orb.pickup master @s ~ ~ ~ 1 1.2'
+      Ignored_For_Permissions: []
+    yellow_gem_lv_8:
+      Name: '&e&lHoàng Ngọc &e&lLv.VIII'
+      Weight: 0.8
+      Rarity: epic
+      Broadcast: true
+      Placeholder_Apply: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Commands:
+      - '[CONSOLE] mmoitems give GEM_STONE YELLOW_GEM_LV8 %player_name% 1'
+      - '[CONSOLE] execute as %player_name% at @s run playsound ui.toast.challenge_complete master @s ~ ~ ~ 1 1'
+      - '[CONSOLE] execute as %player_name% at @s run summon firework_rocket ~ ~ ~ {LifeTime:5,Motion:[0.0,1.2,0.0],FireworksItem:{id:"minecraft:firework_rocket",Count:1,tag:{Fireworks:{Explosions:[{Type:1,Colors:[I;16711680,16776960],FadeColors:[I;255]}]}}}}'
+      Ignored_For_Permissions: []
+    yellow_gem_lv_9:
+      Name: '&e&lHoàng Ngọc &e&lLv.IX'
+      Weight: 0.3
+      Rarity: legendary
+      Broadcast: true
+      Placeholder_Apply: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Commands:
+      - '[CONSOLE] mmoitems give GEM_STONE YELLOW_GEM_LV9 %player_name% 1'
+      - '[CONSOLE] execute as %player_name% at @s run playsound ui.toast.challenge_complete master @s ~ ~ ~ 1 1'
+      - '[CONSOLE] execute as %player_name% at @s run summon firework_rocket ~ ~ ~ {LifeTime:5,Motion:[0.0,1.2,0.0],FireworksItem:{id:"minecraft:firework_rocket",Count:1,tag:{Fireworks:{Explosions:[{Type:1,Colors:[I;16711680,16776960],FadeColors:[I;255]}]}}}}'
+      Ignored_For_Permissions: []
+    yellow_gem_lv_10:
+      Name: '&e&lHoàng Ngọc &e&lLv.X'
+      Weight: 0.1
+      Rarity: mythic
+      Broadcast: true
+      Placeholder_Apply: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Commands:
+      - '[CONSOLE] mmoitems give GEM_STONE YELLOW_GEM_LV10 %player_name% 1'
+      - '[CONSOLE] execute as %player_name% at @s run playsound ui.toast.challenge_complete master @s ~ ~ ~ 1 1'
+      - '[CONSOLE] execute as %player_name% at @s run summon firework_rocket ~ ~ ~ {LifeTime:5,Motion:[0.0,1.2,0.0],FireworksItem:{id:"minecraft:firework_rocket",Count:1,tag:{Fireworks:{Explosions:[{Type:1,Colors:[I;16711680,16776960],FadeColors:[I;255]}]}}}}'
+      Ignored_For_Permissions: []
+Item:
+  Material: CHEST
+  Name: '&e&lHòm Hoàng Ngọc'
+  Lore:
+  - '&f'
+  - '&fChứa năng lượng nguyên tố Thổ, tăng Phòng Thủ.'
+  - '&f'
+  - '&6Tỉ lệ nhận theo cấp:'
+  - ' &7● Cấp Lv.I - Lv.IV: &aCao (89%)'
+  - ' &7● Cấp Lv.V - Lv.VII: &eVừa (9.8%)'
+  - ' &7● Cấp Lv.VIII - Lv.X: &cHiếm (1.2%)'
+  - '&f'
+  - '&eNhấn chuột phải để mở.'
+  Item_Flags:
+  - HIDE_ENCHANTS
+  - HIDE_ATTRIBUTES
+  - HIDE_UNBREAKABLE
+  - HIDE_DESTROYS
+  - HIDE_PLACED_ON
+  - HIDE_POTION_EFFECTS
+  - HIDE_DYE
+  - HIDE_ARMOR_TRIM

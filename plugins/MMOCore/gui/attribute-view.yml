@@ -1,6 +1,5 @@
-
 # GUI display name
-name: Player Attributes
+name: Thuộc Tính Nhân Vật
 
 
 # Number of slots in your inventory. Must be
@@ -12,14 +11,14 @@ items:
         slots: [26]
         function: reallocation
         item: CAULDRON
-        name: '&aAttribute Points'
+        name: '&aTẩy Điểm Thuộc Tính'
         lore:
             - ''
-            - 'You have spent a total of &6{total}&7 attribute points.'
-            - '&7Right click to reallocate them.'
+            - '&7Bạn đã sử dụng tổng cộng &6{total}&7 điểm thuộc tính.'
+            - '&7Nhấp chuột phải để tẩy và cộng lại.'
             - ''
-            - '&eCosts 1 attribute reallocation point.'
-            - '&e◆ Attribute Reallocation Points: &6{points}'
+            - '&eTốn 1 điểm tẩy thuộc tính.'
+            - '&e◆ Điểm Tẩy Thuộc Tính Có Sẵn: &6{points}'
     str:
         slots: [11]
         function: attribute_strength
@@ -27,15 +26,15 @@ items:
         item: GOLDEN_APPLE
         lore: # {buffs} returns amount of buffs
             - ''
-            - '&7Points Spent: &6{spent}&7/&6{max}'
-            - '&7Current {name}: &6&l{current}'
+            - '&7Điểm Đã Cộng: &6{spent}&7/&6{max}'
+            - '&7{name} Hiện Tại: &6&l{current}'
             - ''
-            - '&8When Leveled Up:'
-            - '&7  +{buff_weapon_damage}% Weapon Damage (&a+{total_weapon_damage}%&7)'
-            - '&7  +{buff_max_health} Max Health (&a+{total_max_health}&7)'
+            - '&8Khi Nâng Cấp:'
+            - '&7  +{buff_weapon_damage}% Sát Thương Vũ Khí (&a+{total_weapon_damage}%&7)'
+            - '&7  +{buff_max_health} Máu Tối Đa (&a+{total_max_health}&7)'
             - ''
-            - '&eClick to level up for 1 attribute point.'
-            - '&e◆ Current Attribute Points: {attribute_points}'
+            - '&eBấm để nâng cấp với 1 điểm thuộc tính.'
+            - '&e◆ Điểm Thuộc Tính Hiện Có: {attribute_points}'
     dex:
         slots: [13]
         function: attribute_dexterity
@@ -44,16 +43,16 @@ items:
         hide-flags: true
         lore:
             - ''
-            - '&7Points Spent: &6{spent}&7/&6{max}'
-            - '&7Current {name}: &6&l{current}'
+            - '&7Điểm Đã Cộng: &6{spent}&7/&6{max}'
+            - '&7{name} Hiện Tại: &6&l{current}'
             - ''
-            - '&8When Leveled Up:'
-            - '&7  +{buff_physical_damage}% Physical Damage (&a+{total_physical_damage}%&7)'
-            - '&7  +{buff_projectile_damage}% Projectile Damage (&a+{total_projectile_damage}%&7)'
-            - '&7  +{buff_attack_speed} Attack Speed (&a+{total_attack_speed}&7)'
+            - '&8Khi Nâng Cấp:'
+            - '&7  +{buff_physical_damage}% Sát Thương Vật Lý (&a+{total_physical_damage}%&7)'
+            - '&7  +{buff_projectile_damage}% Sát Thương Tầm Xa (&a+{total_projectile_damage}%&7)'
+            - '&7  +{buff_attack_speed} Tốc Độ Tấn Công (&a+{total_attack_speed}&7)'
             - ''
-            - '&eClick to level up for 1 attribute point.'
-            - '&e◆ Current Attribute Points: {attribute_points}'
+            - '&eBấm để nâng cấp với 1 điểm thuộc tính.'
+            - '&e◆ Điểm Thuộc Tính Hiện Có: {attribute_points}'
     int:
         slots: [15]
         function: attribute_intelligence
@@ -61,12 +60,12 @@ items:
         item: BOOK
         lore:
             - ''
-            - '&7Points Spent: &6{spent}&7/&6{max}'
-            - '&7Current {name}: &6&l{current}'
+            - '&7Điểm Đã Cộng: &6{spent}&7/&6{max}'
+            - '&7{name} Hiện Tại: &6&l{current}'
             - ''
-            - '&8When Leveled Up:'
-            - '&7  +{buff_magic_damage}% Magic Damage (&a+{total_magic_damage}%&7)'
-            - '&7  +{buff_cooldown_reduction}% Cooldown Reduction (&a+{total_cooldown_reduction}%&7)'
+            - '&8Khi Nâng Cấp:'
+            - '&7  +{buff_magic_damage}% Sát Thương Phép (&a+{total_magic_damage}%&7)'
+            - '&7  +{buff_cooldown_reduction}% Giảm Cooldown Kỹ Năng (&a+{total_cooldown_reduction}%&7)'
             - ''
-            - '&eClick to level up for 1 attribute point.'
-            - '&e◆ Current Attribute Points: {attribute_points}'
+            - '&eBấm để nâng cấp với 1 điểm thuộc tính.'
+            - '&e◆ Điểm Thuộc Tính Hiện Có: {attribute_points}'

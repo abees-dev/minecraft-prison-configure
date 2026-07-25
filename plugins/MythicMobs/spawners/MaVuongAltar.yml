@@ -1,0 +1,32 @@
+# Spawner cho ban tho ARMOR_STAND (mobs/altar_mobs.yml). Day la vat the
+# co dinh, khong phai spawner quai thuong - MaxMobs 1 + Cooldown ngan de
+# tu dong hien lai neu vi ly do gi bi mat (vd server restart truoc khi
+# save). Toa do lay lai tu spawner boss cu (da set that qua F3 truoc do).
+MaVuongAltar:
+  MobName: PRISON_MA_VUONG_ALTAR
+  World: world_magadungeon
+  X: -3
+  Y: 80
+  Z: 87
+  Yaw: 0.0
+  Pitch: 0.0
+  Radius: 0.0
+  RadiusY: 0.0
+  UseTimer: true
+  MaxMobs: '1'
+  MobLevel: '1'
+  MobsPerSpawn: 1
+  Cooldown: 5
+  Warmup: 0
+  ActivationRange: 40.0
+  ScalingRange: 0.0
+  LeashRange: 0.0
+  HealOnLeash: false
+  ResetThreatOnLeash: false
+  Breakable: false
+  CheckForPlayers: true
+  ShowFlames: false
+  Conditions: []
+  SpawnConditions: []
+  ActiveMobs: 0
+  CooldownTimer: 0

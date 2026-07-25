@@ -1,15 +1,14 @@
 
-# Menu names
+# Tên giao diện
 inventory-name:
-    self: 'Inventory'
-    other: '{name}''s inventory'
+    self: 'Túi Đồ Trang Bị'
+    other: 'Túi đồ của {name}'
 
-# Error command output
-player-command: '&cThis command is only for players.'
-specify-player: '&cPlease specify a player.'
-wrong-player: '&cCould not find the player called {arg}.'
-not-enough-perms: '&cYou don''t have enough permissions.'
+# Thông báo lỗi lệnh
+player-command: '&cLệnh này chỉ dành cho người chơi.'
+specify-player: '&cVui lòng chỉ định một người chơi.'
+wrong-player: '&cKhông tìm thấy người chơi có tên {arg}.'
+not-enough-perms: '&cBạn không có đủ quyền hạn.'
 
-# Command Output
-reload: '&eMMOInventory {version} successfully reloaded.'
-#MUYSZnTxRmV0lTVGFVdhhXVJxWTxcGRORTQ610dnRlTwAzVZJVZVF3a41GRPZlWnxmcOpXO
+# Thông báo lệnh
+reload: '&eMMOInventory {version} đã nạp lại thành công.'

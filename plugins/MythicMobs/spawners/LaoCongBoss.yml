@@ -1,0 +1,29 @@
+# TODO: chinh lai World/X/Y/Z cho dung vi tri spawn trong game
+LaoCongBoss:
+  MobName: PRISON_LAO_CONG_BOSS
+  World: world_dungeon
+  X: -195
+  Y: 61
+  Z: -10
+  Yaw: 0.0
+  Pitch: 0.0
+  Radius: 0.0
+  RadiusY: 0.0
+  UseTimer: true
+  MaxMobs: '1'
+  MobLevel: '10'
+  MobsPerSpawn: 1
+  Cooldown: 900
+  Warmup: 0
+  ActivationRange: 32.0
+  ScalingRange: 25.0
+  LeashRange: 32.0
+  HealOnLeash: false
+  ResetThreatOnLeash: false
+  Breakable: false
+  CheckForPlayers: true
+  ShowFlames: false
+  Conditions: []
+  SpawnConditions: []
+  ActiveMobs: 0
+  CooldownTimer: 4

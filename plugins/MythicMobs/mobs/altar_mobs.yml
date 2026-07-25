@@ -1,0 +1,22 @@
+# Ban tho trieu hoi Ma Vuong Nguc Tu - ARMOR_STAND vo hinh. KHONG dung
+# "Marker: true" - trong vanilla Minecraft, Marker xoa hoan toan hitbox
+# cua armor stand nen KHONG THE click trung duoc. Dung Small + Invulnerable
+# + NoBasePlate de thu gon/khong bi pha thay vi dung Marker.
+#
+# QUAN TRONG: logic kiem tra/tru item + summon boss nam ben Skript
+# (plugins/Skript/scripts/mavuong_altar.sk), KHONG dung skill onInteract
+# cua MythicMobs (hasitem/holding co bug luon tra ve false o ban 5.6.2 -
+# xem GitLab issue #2033). Mob nay chi la "cai gia" de dat trong world va
+# de Skript nhan dien qua Display name, KHONG duoc gan skill onInteract.
+PRISON_MA_VUONG_ALTAR:
+  Type: ARMOR_STAND
+  Display: "&4&l✦ &6&lBàn Thờ Triệu Hồi Ma Vương &4&l✦"
+  Options:
+    Invisible: true
+    Silent: true
+    NoGravity: true
+    Invulnerable: true
+    Small: true
+    NoBasePlate: true
+    Despawn: false
+    PreventOtherDrops: true

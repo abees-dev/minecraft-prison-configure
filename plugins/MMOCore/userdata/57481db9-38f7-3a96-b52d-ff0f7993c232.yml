@@ -1,18 +1,18 @@
-class-points: 92
-skill-points: 0
+class-points: 91
+skill-points: 2
 skill-reallocation-points: 0
 attribute-points: 0
 attribute-realloc-points: 0
-level: 1
-experience: 0.0
-class: DRAGON_WARRIOR
+level: 3
+experience: 211.0
+class: MAGE
 waypoints: []
 friends: []
-last-login: 1784784342319
+last-login: 1784996407762
 skill-tree-reallocation-points: 0
-health: 53.20000076293945
-mana: 20.0
-stellium: 5.319999999999931
+health: 875.0800170898438
+mana: 29.4
+stellium: 20.0
 stamina: 20.0
 unlocked-items: []
 skill-tree-level:
@@ -100,10 +100,14 @@ skill-tree-level:
   rogue-marksman_a1: 0
   mage-arcane-mage_d1: 0
   rogue-marksman_a2: 0
+times-claimed:
+  class_MAGE:
+    class_exp_table:
+      skill_point: 2
 attribute:
   dexterity: 40
-  strength: 40
-  intelligence: 20
+  strength: 31
+  intelligence: 29
 profession: {}
 quest: {}
 class-info:
@@ -140,23 +144,6 @@ class-info:
     mana: 0.0
     stamina: 20.0
     stellium: 13.019999999999767
-    attribute:
-      dexterity: 0
-      strength: 0
-      intelligence: 0
-    unlocked-items: []
-  MAGE:
-    level: 1
-    experience: 0.0
-    skill-points: 0
-    attribute-points: 0
-    attribute-realloc-points: 0
-    skill-tree-reallocation-points: 0
-    skill-reallocation-points: 0
-    health: 34.0
-    mana: 27.0
-    stamina: 20.0
-    stellium: 20.0
     attribute:
       dexterity: 0
       strength: 0
@@ -224,6 +211,23 @@ class-info:
       dexterity: 0
       strength: 0
       intelligence: 0
+    unlocked-items: []
+  DRAGON_WARRIOR:
+    level: 1
+    experience: 0.0
+    skill-points: 0
+    attribute-points: 0
+    attribute-realloc-points: 0
+    skill-tree-reallocation-points: 0
+    skill-reallocation-points: 0
+    health: 53.20000076293945
+    mana: 13.74600000000004
+    stamina: 20.0
+    stellium: 20.0
+    attribute:
+      dexterity: 40
+      strength: 40
+      intelligence: 20
     unlocked-items: []
   BEASTMASTER:
     level: 1

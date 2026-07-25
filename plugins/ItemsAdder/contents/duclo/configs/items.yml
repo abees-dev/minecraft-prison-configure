@@ -1,0 +1,84 @@
+info:
+  namespace: duclo
+items:
+  mdrill_r226:
+    display_name: "&aMũi Khoan Sơ Cấp"
+    enabled: true
+    resource:
+      material: PAPER
+      model_id: 11001
+      generate: true
+      textures:
+        - item/mdrill_r226
+  mdrill_r326:
+    display_name: "&eMũi Khoan Trung Cấp"
+    enabled: true
+    resource:
+      material: PAPER
+      model_id: 11002
+      generate: true
+      textures:
+        - item/mdrill_r326
+  tdrill_x355:
+    display_name: "&6Mũi Khoan Cao Cấp"
+    enabled: true
+    resource:
+      material: PAPER
+      model_id: 11003
+      generate: true
+      textures:
+        - item/tdrill_x355
+  tdrill_x455:
+    display_name: "&cMũi Khoan Siêu Cấp"
+    enabled: true
+    resource:
+      material: PAPER
+      model_id: 11004
+      generate: true
+      textures:
+        - item/tdrill_x455
+  tdrill_x555:
+    display_name: "&dMũi Khoan Huyền Thoại"
+    enabled: true
+    resource:
+      material: PAPER
+      model_id: 11005
+      generate: true
+      textures:
+        - item/tdrill_x555
+  tdrill_x655:
+    display_name: "&6Mũi Khoan Thần Thoại"
+    enabled: true
+    resource:
+      material: PAPER
+      model_id: 11006
+      generate: true
+      textures:
+        - item/tdrill_x655
+  topaz_drill:
+    display_name: "&4Mũi Khoan Bá Chủ"
+    enabled: true
+    resource:
+      material: PAPER
+      model_id: 11007
+      generate: true
+      textures:
+        - item/topaz_drill
+  ruby_drill:
+    display_name: "&dMũi Khoan Thiên Mệnh"
+    enabled: true
+    resource:
+      material: PAPER
+      model_id: 11008
+      generate: true
+      textures:
+        - item/ruby_drill
+  jasper_drill:
+    display_name: "&bMũi Khoan Thạch Anh"
+    enabled: true
+    resource:
+      material: PAPER
+      model_id: 11009
+      generate: true
+      textures:
+        - item/jasper_drill

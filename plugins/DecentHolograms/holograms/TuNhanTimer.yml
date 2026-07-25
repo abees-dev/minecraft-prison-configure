@@ -1,0 +1,14 @@
+enabled: true
+location: world_dungeon:-164,500:66,500:24,500
+display-range: 48
+update-range: 48
+update-interval: 20
+down-origin: false
+pages:
+- lines:
+  - content: '&2&l[BOSS] &r&2&lTrùm Tù Nhân'
+    height: 0.3
+  - content: '&7Hồi sinh sau: &c%mythic_spawner_TuNhanBoss_cooldownleft%'
+    height: 0.3
+  actions: {}
+facing: 0.0

@@ -1,6 +1,5 @@
-
 # GUI display name
-name: Friends
+name: Danh Sách Bạn Bè
 
 # Number of slots in your inventory. Must be
 # between 9 and 54 and must be a multiple of 9.
@@ -13,30 +12,30 @@ items:
         
         # No friend
         item: GRAY_STAINED_GLASS_PANE
-        name: '&cNo Friend'
+        name: '&cTrống'
         lore: {}
         
         # Online friend
         online:
             item: PLAYER_HEAD
-            name: '&a[Online] &f{name}'
+            name: '&a[Trực Tuyến] &f{name}'
             lore:
-            - '&7Level {level} {class}'
-            - '&7Online Since: {online_since}'
+            - '&7Cấp {level} {class}'
+            - '&7Trực tuyến từ: {online_since}'
             - ''
-            - '&cRight click to remove.'
+            - '&cBấm chuột phải để xóa bạn.'
             
         # Offline friend
         offline:
             item: PLAYER_HEAD
-            name: '&c[Offline] &f{name}'
+            name: '&c[Ngoại Tuyến] &f{name}'
             lore:
-            - '&7Last Seen: {last_seen} ago'
+            - '&7Lần cuối trực tuyến: {last_seen} trước'
             - ''
-            - '&cRight click to remove.'
+            - '&cBấm chuột phải để xóa bạn.'
     request:
         slots: [49]
         function: request
         item: WRITABLE_BOOK
-        name: '&aNew Friend Request'
+        name: '&aGửi Lời Mời Kết Bạn'
         lore: {}

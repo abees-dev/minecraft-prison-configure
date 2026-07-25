@@ -45,3 +45,16 @@ skill/**/
 
 # ItemsAdder / plugin resourcepack assets (large binary textures & models)
 **/resourcepack/
+**/mmoinv_rp_3/
+world**/**/*.json
+world**/**/*.dat
+world**/**/*.mca
+world**/**/*.mcb
+world**/**/*.mcr
+world**/**/*.mct
+world**/**/*.mct
+world_dungeon/*
+world_dungeon_2/*
+world_magadungeon/*
+plugins/MMOItems/.jar_extracted/*
+plugins/**/backups/*

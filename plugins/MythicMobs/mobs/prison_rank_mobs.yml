@@ -1,0 +1,785 @@
+# ============================================================================
+# Bo quai vat theo 9 rank X-Prison (khong theo he thong class/rank cua MMOCore).
+# Can bang dua tren trang bi MMOItems ban/trade tai mines (sword.yml + armor.yml):
+#   - HP quai Thuong = 9x sat thuong kiem cung rank; HP quai Elite = 18x.
+#   - HP quai Boss   = 75x sat thuong kiem cung rank (buff "trau" hon truoc,
+#     tung la 45x) + Boss co Enrage (heal/buff STRENGTH+SPEED khi <50% mau,
+#     xem file skills/prison_rank_skills.yml) + tu trieu hoi 2 quai Thuong
+#     cung rank moi vai chuc giay (~onTimer) -> tran boss keo dai va dong hon.
+#   - Damage da buff nhieu lan de bu lai lifesteal tren vu khi MMOItems (Doi
+#     Truong tro len co san lifesteal 1.5-12%, attack-speed 1.6-1.8 khien
+#     nguoi choi hoi mau rat nhanh neu dame quai qua nhe).
+#   - Boss co don "slam" dinh ky (~onTimer), danh dau ignorearmor=true +
+#     ignoreiframes=true nen KHONG bi giap/defense-stat cua MMOItems giam bot.
+#   - Moi rank co bo skill rieng khi tan cong (thay vi dung chung 1 hieu ung):
+#     Thuong = throw (hat van), WEAKNESS/SLOW/WITHER tuy rank (chance 15%);
+#     Elite  = knockback + 1 hieu ung/AOE cleave rieng (chance 15-25%), cong
+#     heal{} dinh ky de "tru bai" hon, danh chay bot nham chan. Xem tung mob
+#     de biet skill cu the (khac nhau theo tung rank, khong lap lai).
+#     Boss them message + sound + effect:explosion khi ~onDeath.
+#   - KHONG dung disguise nua, mob hien thi dung texture vanilla theo Type
+#     (ZOMBIE/HUSK/VINDICATOR/PILLAGER/WITHER_SKELETON/PIGLIN_BRUTE/RAVAGER/
+#     DROWNED cua tung rank), Elite/Boss phan biet qua Scale + ten Display.
+# => Quai kho hon giap cung rank, dame du manh de thang duoc phan hoi mau tu
+#    lifesteal; neu van con nhe/nang hay chinh truc tiep so Damage/skill amount.
+# ============================================================================
+
+# ---------------- RANK 1: TAN BINH (WOODEN_SWORD, W=3.8, P=28) ----------------
+PRISON_TAN_BINH_NORMAL:
+  Type: ZOMBIE
+  Display: '&f&lTân Binh Nổi Loạn'
+  Health: 34
+  Damage: 18
+  Equipment:
+  - WOODEN_SWORD HAND
+  Options:
+    PreventOtherDrops: true
+    MovementSpeed: 0.23
+    Despawn: true
+    PreventSunburn: true
+  Drops:
+  - mmoitem{type=CONSUMABLE;id=DA_CUONG_HOA_VU_KHI_SO_CAP} 1 0.20
+  - mmoitem{type=CONSUMABLE;id=DA_CUONG_HOA_GIAP_SO_CAP} 1 0.20
+  Skills:
+  - throw{velocity=4;velocityY=3} @target 0.15
+
+PRISON_TAN_BINH_ELITE:
+  Type: ZOMBIE
+  Display: '&f&lTân Binh Cuồng Nộ &7[Elite]'
+  Health: 68
+  Damage: 27
+  Equipment:
+  - WOODEN_SWORD HAND
+  Options:
+    PreventOtherDrops: true
+    MovementSpeed: 0.25
+    Scale: 1.15
+    Despawn: true
+    PreventSunburn: true
+  Drops:
+  - mmoitem{type=CONSUMABLE;id=DA_CUONG_HOA_VU_KHI_SO_CAP} 1 0.20
+  - mmoitem{type=CONSUMABLE;id=DA_CUONG_HOA_GIAP_SO_CAP} 1 0.20
+  Skills:
+  - skill{s=knockback{power=1.2}} @target 0.3
+  - potion{type=WEAKNESS;duration=80;lvl=1} @target 0.25
+  - heal{amount=5} @self ~onTimer:100
+
+PRISON_TAN_BINH_BOSS:
+  Type: ZOMBIE
+  Display: '&4&l[BOSS] &r&e&lĐầu Sỏ Tân Binh'
+  Health: 285
+  Damage: 40
+  Equipment:
+  - STONE_SWORD HAND
+  Options:
+    PreventOtherDrops: true
+    MovementSpeed: 0.26
+    Scale: 1.4
+    AlwaysShowName: true
+    Despawn: true
+    PreventSunburn: true
+  BossBar:
+    Enabled: true
+    Title: '&e&lĐầu Sỏ Tân Binh'
+    Range: 40
+  Drops:
+  - mmoitem{type=CONSUMABLE;id=DA_CUONG_HOA_VU_KHI_SO_CAP} 1 0.20
+  - mmoitem{type=CONSUMABLE;id=DA_CUONG_HOA_GIAP_SO_CAP} 1 0.20
+  - mmoitem{type=MATERIAL;id=MANH_HUY_HIEU_TRIEU_HOI} 1 1.0
+  Skills:
+  - skill{s=damage{amount=38;ignorearmor=true;ignoreiframes=true}} @PlayersInRadius{r=5} ~onTimer:60
+  - skill{s=Prison_Tan_Binh_Enrage} @self ~onDamaged
+  - summon{mob=PRISON_TAN_BINH_NORMAL;amount=2;noise=5} @self ~onTimer:240
+  - command{c="dh holograms disable TanBinhTimer"} ~onSpawn
+  - message{m="&4&l[BOSS] &fĐầu Sỏ Tân Binh &fđã xuất hiện tại Nhà Tù!"} @server ~onSpawn
+  - message{m="&7[&e&lĐầu Sỏ Tân Binh&r&7] &fMày... mày sẽ phải trả giá!"} @PlayersInRadius{r=40} ~onDeath
+  - message{m="&4&l[BOSS] &fĐầu Sỏ Tân Binh &fđã bị tiêu diệt bởi &e<trigger.name>&f!"} @server ~onDeath
+  - effect:sound{s=entity.zombie.death;volume=1;pitch=0.7} @self ~onDeath
+  - effect:explosion @self ~onDeath
+  - command{c="dh holograms enable TanBinhTimer"} ~onDeath
+
+# ---------------- RANK 2: TU NHAN (STONE_SWORD, W=6.0, P=32) ----------------
+PRISON_TU_NHAN_NORMAL:
+  Type: ZOMBIE
+  Display: '&a&lTù Nhân Lang Thang'
+  Health: 54
+  Damage: 20
+  Equipment:
+  - STONE_SWORD HAND
+  Options:
+    PreventOtherDrops: true
+    MovementSpeed: 0.24
+    Despawn: true
+    PreventSunburn: true
+  Drops:
+  - mmoitem{type=CONSUMABLE;id=DA_CUONG_HOA_VU_KHI_SO_CAP} 1 0.25
+  - mmoitem{type=CONSUMABLE;id=DA_CUONG_HOA_GIAP_SO_CAP} 1 0.25
+  Skills:
+  - potion{type=WEAKNESS;duration=60;lvl=1} @target 0.15
+
+PRISON_TU_NHAN_ELITE:
+  Type: ZOMBIE
+  Display: '&a&lTù Nhân Hung Hãn &7[Elite]'
+  Health: 108
+  Damage: 32
+  Equipment:
+  - STONE_SWORD HAND
+  - LEATHER_CHESTPLATE CHEST
+  Options:
+    PreventOtherDrops: true
+    MovementSpeed: 0.25
+    Scale: 1.15
+    Despawn: true
+    PreventSunburn: true
+  Drops:
+  - mmoitem{type=CONSUMABLE;id=DA_CUONG_HOA_VU_KHI_SO_CAP} 1 0.25
+  - mmoitem{type=CONSUMABLE;id=DA_CUONG_HOA_GIAP_SO_CAP} 1 0.25
+  Skills:
+  - skill{s=knockback{power=1.2}} @target 0.3
+  - potion{type=SLOW;duration=80;lvl=1} @target 0.25
+  - heal{amount=9} @self ~onTimer:100
+
+PRISON_TU_NHAN_BOSS:
+  Type: HUSK
+  Display: '&2&lTrùm Tù Nhân &7[Boss]'
+  Health: 450
+  Damage: 46
+  Equipment:
+  - IRON_SWORD HAND
+  - LEATHER_CHESTPLATE CHEST
+  Options:
+    PreventOtherDrops: true
+    MovementSpeed: 0.26
+    Scale: 1.4
+    AlwaysShowName: true
+    Despawn: true
+    PreventSunburn: true
+  BossBar:
+    Enabled: true
+    Title: '&2&lTrùm Tù Nhân'
+    Range: 40
+  Drops:
+  - mmoitem{type=CONSUMABLE;id=DA_CUONG_HOA_VU_KHI_SO_CAP} 1 0.25
+  - mmoitem{type=CONSUMABLE;id=DA_CUONG_HOA_GIAP_SO_CAP} 1 0.25
+  - mmoitem{type=MATERIAL;id=MANH_HUY_HIEU_TRIEU_HOI} 1 1.0
+  Skills:
+  - skill{s=damage{amount=44;ignorearmor=true;ignoreiframes=true}} @PlayersInRadius{r=5} ~onTimer:60
+  - skill{s=Prison_Tu_Nhan_Enrage} @self ~onDamaged
+  - summon{mob=PRISON_TU_NHAN_NORMAL;amount=2;noise=5} @self ~onTimer:240
+  - command{c="dh holograms disable TuNhanTimer"} ~onSpawn
+  - message{m="&2&l[BOSS] &fTrùm Tù Nhân &fđã xuất hiện tại Nhà Tù!"} @server ~onSpawn
+  - message{m="&7[&2&lTrùm Tù Nhân&r&7] &fKhông... không thể nào!"} @PlayersInRadius{r=40} ~onDeath
+  - message{m="&2&l[BOSS] &fTrùm Tù Nhân &fđã bị tiêu diệt bởi &e<trigger.name>&f!"} @server ~onDeath
+  - effect:sound{s=entity.husk.death;volume=1;pitch=0.7} @self ~onDeath
+  - effect:explosion @self ~onDeath
+  - command{c="dh holograms enable TuNhanTimer"} ~onDeath
+
+# ---------------- RANK 3: LAO CONG (IRON_SWORD, W=8.8, P=40) ----------------
+PRISON_LAO_CONG_NORMAL:
+  Type: HUSK
+  Display: '&b&lLao Công Kiệt Sức'
+  Health: 79
+  Damage: 25
+  Equipment:
+  - IRON_SWORD HAND
+  Options:
+    PreventOtherDrops: true
+    MovementSpeed: 0.24
+    Despawn: true
+    PreventSunburn: true
+  Drops:
+  - mmoitem{type=CONSUMABLE;id=DA_CUONG_HOA_VU_KHI_TRUNG_CAP} 1 0.20
+  - mmoitem{type=CONSUMABLE;id=DA_CUONG_HOA_GIAP_TRUNG_CAP} 1 0.20
+  Skills:
+  - potion{type=SLOW;duration=60;lvl=1} @target 0.15
+
+PRISON_LAO_CONG_ELITE:
+  Type: HUSK
+  Display: '&b&lLao Công Điên Loạn &7[Elite]'
+  Health: 158
+  Damage: 40
+  Equipment:
+  - IRON_SWORD HAND
+  - IRON_HELMET HEAD
+  - IRON_CHESTPLATE CHEST
+  Options:
+    PreventOtherDrops: true
+    MovementSpeed: 0.25
+    Scale: 1.15
+    Despawn: true
+    PreventSunburn: true
+  Drops:
+  - mmoitem{type=CONSUMABLE;id=DA_CUONG_HOA_VU_KHI_TRUNG_CAP} 1 0.20
+  - mmoitem{type=CONSUMABLE;id=DA_CUONG_HOA_GIAP_TRUNG_CAP} 1 0.20
+  Skills:
+  - skill{s=knockback{power=1.3}} @target 0.3
+  - skill{s=damage{amount=16;ignorearmor=true}} @PlayersInRadius{r=3} 0.2
+  - heal{amount=13} @self ~onTimer:100
+
+PRISON_LAO_CONG_BOSS:
+  Type: HUSK
+  Display: '&3&lĐốc Công Lao Công &7[Boss]'
+  Health: 660
+  Damage: 58
+  Equipment:
+  - IRON_SWORD HAND
+  - IRON_HELMET HEAD
+  - IRON_CHESTPLATE CHEST
+  - IRON_LEGGINGS LEGS
+  - IRON_BOOTS FEET
+  Options:
+    PreventOtherDrops: true
+    MovementSpeed: 0.26
+    Scale: 1.4
+    AlwaysShowName: true
+    Despawn: true
+    PreventSunburn: true
+  BossBar:
+    Enabled: true
+    Title: '&3&lĐốc Công Lao Công'
+    Range: 40
+  Drops:
+  - mmoitem{type=CONSUMABLE;id=DA_CUONG_HOA_VU_KHI_TRUNG_CAP} 1 0.20
+  - mmoitem{type=CONSUMABLE;id=DA_CUONG_HOA_GIAP_TRUNG_CAP} 1 0.20
+  - mmoitem{type=MATERIAL;id=MANH_HUY_HIEU_TRIEU_HOI} 1 1.0
+  Skills:
+  - skill{s=damage{amount=54;ignorearmor=true;ignoreiframes=true}} @PlayersInRadius{r=5} ~onTimer:60
+  - skill{s=Prison_Lao_Cong_Enrage} @self ~onDamaged
+  - summon{mob=PRISON_LAO_CONG_NORMAL;amount=2;noise=5} @self ~onTimer:220
+  - command{c="dh holograms disable LaoCongTimer"} ~onSpawn
+  - message{m="&3&l[BOSS] &fĐốc Công Lao Công &fđã xuất hiện tại Nhà Tù!"} @server ~onSpawn
+  - message{m="&7[&3&lĐốc Công Lao Công&r&7] &fLàm việc đi, đồ vô dụng!"} @PlayersInRadius{r=40} ~onDeath
+  - message{m="&3&l[BOSS] &fĐốc Công Lao Công &fđã bị tiêu diệt bởi &e<trigger.name>&f!"} @server ~onDeath
+  - effect:sound{s=entity.husk.death;volume=1;pitch=0.6} @self ~onDeath
+  - effect:explosion @self ~onDeath
+  - command{c="dh holograms enable LaoCongTimer"} ~onDeath
+
+# ---------------- RANK 4: THO DAO (IRON_SWORD, W=12.0, P=48) ----------------
+PRISON_THO_DAO_NORMAL:
+  Type: HUSK
+  Display: '&e&lThợ Đào Lạc Lối'
+  Health: 108
+  Damage: 31
+  Equipment:
+  - IRON_SWORD HAND
+  - IRON_HELMET HEAD
+  Options:
+    PreventOtherDrops: true
+    MovementSpeed: 0.24
+    Despawn: true
+    PreventSunburn: true
+  Drops:
+  - mmoitem{type=CONSUMABLE;id=DA_CUONG_HOA_VU_KHI_TRUNG_CAP} 1 0.25
+  - mmoitem{type=CONSUMABLE;id=DA_CUONG_HOA_GIAP_TRUNG_CAP} 1 0.25
+  Skills:
+  - potion{type=WITHER;duration=40;lvl=1} @target 0.15
+
+PRISON_THO_DAO_ELITE:
+  Type: HUSK
+  Display: '&e&lThợ Đào Cuồng Đá &7[Elite]'
+  Health: 216
+  Damage: 47
+  Equipment:
+  - IRON_SWORD HAND
+  - IRON_HELMET HEAD
+  - IRON_CHESTPLATE CHEST
+  - IRON_LEGGINGS LEGS
+  Options:
+    PreventOtherDrops: true
+    MovementSpeed: 0.25
+    Scale: 1.15
+    Despawn: true
+    PreventSunburn: true
+  Drops:
+  - mmoitem{type=CONSUMABLE;id=DA_CUONG_HOA_VU_KHI_TRUNG_CAP} 1 0.25
+  - mmoitem{type=CONSUMABLE;id=DA_CUONG_HOA_GIAP_TRUNG_CAP} 1 0.25
+  Skills:
+  - skill{s=knockback{power=1.3}} @target 0.3
+  - potion{type=WITHER;duration=60;lvl=1} @target 0.25
+  - heal{amount=17} @self ~onTimer:100
+
+PRISON_THO_DAO_BOSS:
+  Type: DROWNED
+  Display: '&6&lTrưởng Nhóm Thợ Đào &7[Boss]'
+  Health: 900
+  Damage: 68
+  Equipment:
+  - IRON_SWORD HAND
+  - IRON_HELMET HEAD
+  - IRON_CHESTPLATE CHEST
+  - IRON_LEGGINGS LEGS
+  - IRON_BOOTS FEET
+  Options:
+    PreventOtherDrops: true
+    MovementSpeed: 0.26
+    Scale: 1.4
+    AlwaysShowName: true
+    Despawn: true
+    PreventSunburn: true
+  BossBar:
+    Enabled: true
+    Title: '&6&lTrưởng Nhóm Thợ Đào'
+    Range: 40
+  Drops:
+  - mmoitem{type=CONSUMABLE;id=DA_CUONG_HOA_VU_KHI_TRUNG_CAP} 1 0.25
+  - mmoitem{type=CONSUMABLE;id=DA_CUONG_HOA_GIAP_TRUNG_CAP} 1 0.25
+  - mmoitem{type=MATERIAL;id=MANH_HUY_HIEU_TRIEU_HOI} 1 1.0
+  Skills:
+  - skill{s=damage{amount=65;ignorearmor=true;ignoreiframes=true}} @PlayersInRadius{r=5} ~onTimer:60
+  - skill{s=Prison_Tho_Dao_Enrage} @self ~onDamaged
+  - summon{mob=PRISON_THO_DAO_NORMAL;amount=2;noise=5} @self ~onTimer:220
+  - command{c="dh holograms disable ThoDaoTimer"} ~onSpawn
+  - message{m="&6&l[BOSS] &fTrưởng Nhóm Thợ Đào &fđã xuất hiện tại Nhà Tù!"} @server ~onSpawn
+  - message{m="&7[&6&lTrưởng Nhóm Thợ Đào&r&7] &fĐào sâu hơn nữa vào mộ tụi bay!"} @PlayersInRadius{r=40} ~onDeath
+  - message{m="&6&l[BOSS] &fTrưởng Nhóm Thợ Đào &fđã bị tiêu diệt bởi &e<trigger.name>&f!"} @server ~onDeath
+  - effect:sound{s=entity.drowned.death;volume=1;pitch=0.6} @self ~onDeath
+  - effect:explosion @self ~onDeath
+  - command{c="dh holograms enable ThoDaoTimer"} ~onDeath
+
+# ---------------- RANK 5: DOI TRUONG (DIAMOND_SWORD, W=16.0, P=52) ----------------
+PRISON_DOI_TRUONG_NORMAL:
+  Type: VINDICATOR
+  Display: '&6&lĐội Trưởng Phản Loạn'
+  Health: 144
+  Damage: 32
+  Equipment:
+  - DIAMOND_SWORD HAND
+  Options:
+    PreventOtherDrops: true
+    MovementSpeed: 0.25
+    Despawn: true
+    PreventSunburn: true
+  Drops:
+  - mmoitem{type=CONSUMABLE;id=DA_CUONG_HOA_VU_KHI_CAO_CAP} 1 0.20
+  - mmoitem{type=CONSUMABLE;id=DA_CUONG_HOA_GIAP_CAO_CAP} 1 0.20
+  Skills:
+  - throw{velocity=5;velocityY=4} @target 0.15
+
+PRISON_DOI_TRUONG_ELITE:
+  Type: VINDICATOR
+  Display: '&6&lĐội Trưởng Tinh Nhuệ &7[Elite]'
+  Health: 288
+  Damage: 52
+  Equipment:
+  - DIAMOND_SWORD HAND
+  - DIAMOND_CHESTPLATE CHEST
+  Options:
+    PreventOtherDrops: true
+    MovementSpeed: 0.26
+    Scale: 1.15
+    Despawn: true
+    PreventSunburn: true
+  Drops:
+  - mmoitem{type=CONSUMABLE;id=DA_CUONG_HOA_VU_KHI_CAO_CAP} 1 0.20
+  - mmoitem{type=CONSUMABLE;id=DA_CUONG_HOA_GIAP_CAO_CAP} 1 0.20
+  Skills:
+  - skill{s=knockback{power=1.4}} @target 0.3
+  - potion{type=INCREASE_DAMAGE;lvl=1;duration=60} @self 0.15
+  - heal{amount=23} @self ~onTimer:100
+
+PRISON_DOI_TRUONG_BOSS:
+  Type: VINDICATOR
+  Display: '&6&lĐại Đội Trưởng &7[Boss]'
+  Health: 1200
+  Damage: 76
+  Equipment:
+  - DIAMOND_SWORD HAND
+  - DIAMOND_HELMET HEAD
+  - DIAMOND_CHESTPLATE CHEST
+  - DIAMOND_LEGGINGS LEGS
+  - DIAMOND_BOOTS FEET
+  Options:
+    PreventOtherDrops: true
+    MovementSpeed: 0.27
+    Scale: 1.4
+    AlwaysShowName: true
+    Despawn: true
+    PreventSunburn: true
+  BossBar:
+    Enabled: true
+    Title: '&6&lĐại Đội Trưởng'
+    Range: 45
+  Drops:
+  - mmoitem{type=CONSUMABLE;id=DA_CUONG_HOA_VU_KHI_CAO_CAP} 1 0.20
+  - mmoitem{type=CONSUMABLE;id=DA_CUONG_HOA_GIAP_CAO_CAP} 1 0.20
+  - mmoitem{type=MATERIAL;id=MANH_HUY_HIEU_TRIEU_HOI} 1 1.0
+  Skills:
+  - skill{s=damage{amount=71;ignorearmor=true;ignoreiframes=true}} @PlayersInRadius{r=5} ~onTimer:60
+  - skill{s=Prison_Doi_Truong_Enrage} @self ~onDamaged
+  - summon{mob=PRISON_DOI_TRUONG_NORMAL;amount=2;noise=5} @self ~onTimer:220
+  - command{c="dh holograms disable DoiTruongTimer"} ~onSpawn
+  - message{m="&6&l[BOSS] &fĐại Đội Trưởng &fđã xuất hiện tại Nhà Tù!"} @server ~onSpawn
+  - message{m="&7[&6&lĐại Đội Trưởng&r&7] &fKhông đời nào... tao lại thua!"} @PlayersInRadius{r=45} ~onDeath
+  - message{m="&6&l[BOSS] &fĐại Đội Trưởng &fđã bị tiêu diệt bởi &e<trigger.name>&f!"} @server ~onDeath
+  - effect:sound{s=entity.vindicator.death;volume=1;pitch=0.6} @self ~onDeath
+  - effect:explosion @self ~onDeath
+  - command{c="dh holograms enable DoiTruongTimer"} ~onDeath
+
+# ---------------- RANK 6: PHO QUAN NGUC (DIAMOND_SWORD, W=21.0, P=60) ----------------
+PRISON_PHO_QUAN_NGUC_NORMAL:
+  Type: PILLAGER
+  Display: '&c&lLính Canh Phó Quản Ngục'
+  Health: 189
+  Damage: 38
+  Equipment:
+  - DIAMOND_SWORD HAND
+  Options:
+    PreventOtherDrops: true
+    MovementSpeed: 0.25
+    Despawn: true
+    PreventSunburn: true
+  Drops:
+  - mmoitem{type=CONSUMABLE;id=DA_CUONG_HOA_VU_KHI_CAO_CAP} 1 0.25
+  - mmoitem{type=CONSUMABLE;id=DA_CUONG_HOA_GIAP_CAO_CAP} 1 0.25
+  Skills:
+  - potion{type=WEAKNESS;duration=80;lvl=1} @target 0.15
+
+PRISON_PHO_QUAN_NGUC_ELITE:
+  Type: VINDICATOR
+  Display: '&c&lCận Vệ Phó Quản Ngục &7[Elite]'
+  Health: 378
+  Damage: 59
+  Equipment:
+  - DIAMOND_SWORD HAND
+  - DIAMOND_CHESTPLATE CHEST
+  - DIAMOND_LEGGINGS LEGS
+  Options:
+    PreventOtherDrops: true
+    MovementSpeed: 0.26
+    Scale: 1.2
+    Despawn: true
+    PreventSunburn: true
+  Drops:
+  - mmoitem{type=CONSUMABLE;id=DA_CUONG_HOA_VU_KHI_CAO_CAP} 1 0.25
+  - mmoitem{type=CONSUMABLE;id=DA_CUONG_HOA_GIAP_CAO_CAP} 1 0.25
+  Skills:
+  - skill{s=knockback{power=1.4}} @target 0.3
+  - skill{s=damage{amount=24;ignorearmor=true}} @PlayersInRadius{r=3} 0.2
+  - heal{amount=30} @self ~onTimer:100
+
+PRISON_PHO_QUAN_NGUC_BOSS:
+  Type: VINDICATOR
+  Display: '&4&lPhó Quản Ngục &7[Boss]'
+  Health: 1575
+  Damage: 86
+  Equipment:
+  - DIAMOND_SWORD HAND
+  - DIAMOND_HELMET HEAD
+  - DIAMOND_CHESTPLATE CHEST
+  - DIAMOND_LEGGINGS LEGS
+  - DIAMOND_BOOTS FEET
+  Options:
+    PreventOtherDrops: true
+    MovementSpeed: 0.27
+    Scale: 1.45
+    AlwaysShowName: true
+    Despawn: true
+    PreventSunburn: true
+  BossBar:
+    Enabled: true
+    Title: '&4&lPhó Quản Ngục'
+    Range: 45
+  Drops:
+  - mmoitem{type=CONSUMABLE;id=DA_CUONG_HOA_VU_KHI_CAO_CAP} 1 0.25
+  - mmoitem{type=CONSUMABLE;id=DA_CUONG_HOA_GIAP_CAO_CAP} 1 0.25
+  - mmoitem{type=MATERIAL;id=MANH_HUY_HIEU_TRIEU_HOI} 1 1.0
+  Skills:
+  - skill{s=damage{amount=81;ignorearmor=true;ignoreiframes=true}} @PlayersInRadius{r=5} ~onTimer:50
+  - skill{s=Prison_Pho_Quan_Nguc_Enrage} @self ~onDamaged
+  - summon{mob=PRISON_PHO_QUAN_NGUC_NORMAL;amount=2;noise=5} @self ~onTimer:200
+  - command{c="dh holograms disable PhoQuanNgucTimer"} ~onSpawn
+  - message{m="&4&l[BOSS] &fPhó Quản Ngục &fđã xuất hiện tại Nhà Tù!"} @server ~onSpawn
+  - message{m="&7[&4&lPhó Quản Ngục&r&7] &fKhông! Ta còn chưa thi hành xong luật lệ!"} @PlayersInRadius{r=45} ~onDeath
+  - message{m="&4&l[BOSS] &fPhó Quản Ngục &fđã bị tiêu diệt bởi &e<trigger.name>&f!"} @server ~onDeath
+  - effect:sound{s=entity.vindicator.death;volume=1;pitch=0.5} @self ~onDeath
+  - effect:explosion @self ~onDeath
+  - command{c="dh holograms enable PhoQuanNgucTimer"} ~onDeath
+
+# ---------------- RANK 7: QUAN NGUC (NETHERITE_SWORD, W=27.0, P=68) ----------------
+PRISON_QUAN_NGUC_NORMAL:
+  Type: WITHER_SKELETON
+  Display: '&5&lLính Canh Quản Ngục'
+  Health: 243
+  Damage: 43
+  Equipment:
+  - NETHERITE_SWORD HAND
+  Options:
+    PreventOtherDrops: true
+    MovementSpeed: 0.25
+    Despawn: true
+    PreventSunburn: true
+  Drops:
+  - mmoitem{type=CONSUMABLE;id=DA_CUONG_HOA_VU_KHI_SIEU_CAP} 1 0.20
+  - mmoitem{type=CONSUMABLE;id=DA_CUONG_HOA_GIAP_SIEU_CAP} 1 0.20
+  Skills:
+  - potion{type=WITHER;duration=60;lvl=2} @target 0.15
+
+PRISON_QUAN_NGUC_ELITE:
+  Type: WITHER_SKELETON
+  Display: '&5&lCận Vệ Quản Ngục &7[Elite]'
+  Health: 486
+  Damage: 67
+  Equipment:
+  - NETHERITE_SWORD HAND
+  - NETHERITE_CHESTPLATE CHEST
+  Options:
+    PreventOtherDrops: true
+    MovementSpeed: 0.26
+    Scale: 1.2
+    Despawn: true
+    PreventSunburn: true
+  Drops:
+  - mmoitem{type=CONSUMABLE;id=DA_CUONG_HOA_VU_KHI_SIEU_CAP} 1 0.20
+  - mmoitem{type=CONSUMABLE;id=DA_CUONG_HOA_GIAP_SIEU_CAP} 1 0.20
+  Skills:
+  - skill{s=knockback{power=1.5}} @target 0.3
+  - potion{type=WITHER;duration=80;lvl=2} @target 0.25
+  - heal{amount=39} @self ~onTimer:100
+
+PRISON_QUAN_NGUC_BOSS:
+  Type: WITHER_SKELETON
+  Display: '&5&lQuản Ngục Tối Cao &7[Boss]'
+  Health: 2025
+  Damage: 96
+  Equipment:
+  - NETHERITE_SWORD HAND
+  - NETHERITE_HELMET HEAD
+  - NETHERITE_CHESTPLATE CHEST
+  - NETHERITE_LEGGINGS LEGS
+  - NETHERITE_BOOTS FEET
+  Options:
+    PreventOtherDrops: true
+    MovementSpeed: 0.27
+    Scale: 1.5
+    AlwaysShowName: true
+    Despawn: true
+    PreventSunburn: true
+  BossBar:
+    Enabled: true
+    Title: '&5&lQuản Ngục Tối Cao'
+    Range: 50
+  Drops:
+  - mmoitem{type=CONSUMABLE;id=DA_CUONG_HOA_VU_KHI_SIEU_CAP} 1 0.20
+  - mmoitem{type=CONSUMABLE;id=DA_CUONG_HOA_GIAP_SIEU_CAP} 1 0.20
+  - mmoitem{type=MATERIAL;id=MANH_HUY_HIEU_TRIEU_HOI} 1 1.0
+  Skills:
+  - skill{s=damage{amount=92;ignorearmor=true;ignoreiframes=true}} @PlayersInRadius{r=5} ~onTimer:50
+  - skill{s=Prison_Quan_Nguc_Enrage} @self ~onDamaged
+  - summon{mob=PRISON_QUAN_NGUC_NORMAL;amount=2;noise=5} @self ~onTimer:200
+  - command{c="dh holograms disable QuanNgucTimer"} ~onSpawn
+  - message{m="&5&l[BOSS] &fQuản Ngục Tối Cao &fđã xuất hiện tại Nhà Tù!"} @server ~onSpawn
+  - message{m="&7[&5&lQuản Ngục Tối Cao&r&7] &fLuật lệ của ta là vĩnh cửu!"} @PlayersInRadius{r=50} ~onDeath
+  - message{m="&5&l[BOSS] &fQuản Ngục Tối Cao &fđã bị tiêu diệt bởi &e<trigger.name>&f!"} @server ~onDeath
+  - effect:sound{s=entity.wither_skeleton.death;volume=1;pitch=0.5} @self ~onDeath
+  - effect:explosion @self ~onDeath
+  - command{c="dh holograms enable QuanNgucTimer"} ~onDeath
+
+# ---------------- RANK 8: BA CHU NGUC TU (NETHERITE_SWORD, W=34.5, P=72) ----------------
+PRISON_BA_CHU_NGUC_TU_NORMAL:
+  Type: WITHER_SKELETON
+  Display: '&d&lThủ Hạ Bá Chủ'
+  Health: 311
+  Damage: 45
+  Equipment:
+  - NETHERITE_SWORD HAND
+  - NETHERITE_HELMET HEAD
+  Options:
+    PreventOtherDrops: true
+    MovementSpeed: 0.26
+    Despawn: true
+    PreventSunburn: true
+  Drops:
+  - mmoitem{type=CONSUMABLE;id=DA_CUONG_HOA_VU_KHI_SIEU_CAP} 1 0.25
+  - mmoitem{type=CONSUMABLE;id=DA_CUONG_HOA_GIAP_SIEU_CAP} 1 0.25
+  Skills:
+  - potion{type=SLOW;duration=80;lvl=2} @target 0.15
+
+PRISON_BA_CHU_NGUC_TU_ELITE:
+  Type: WITHER_SKELETON
+  Display: '&d&lCận Vệ Bá Chủ &7[Elite]'
+  Health: 621
+  Damage: 72
+  Equipment:
+  - NETHERITE_SWORD HAND
+  - NETHERITE_HELMET HEAD
+  - NETHERITE_CHESTPLATE CHEST
+  - NETHERITE_LEGGINGS LEGS
+  Options:
+    PreventOtherDrops: true
+    MovementSpeed: 0.27
+    Scale: 1.25
+    Despawn: true
+    PreventSunburn: true
+  Drops:
+  - mmoitem{type=CONSUMABLE;id=DA_CUONG_HOA_VU_KHI_SIEU_CAP} 1 0.25
+  - mmoitem{type=CONSUMABLE;id=DA_CUONG_HOA_GIAP_SIEU_CAP} 1 0.25
+  Skills:
+  - skill{s=knockback{power=1.5}} @target 0.3
+  - potion{type=INCREASE_DAMAGE;lvl=1;duration=60} @self 0.15
+  - heal{amount=50} @self ~onTimer:100
+
+PRISON_BA_CHU_NGUC_TU_BOSS:
+  Type: PIGLIN_BRUTE
+  Display: '&d&lBá Chủ Ngục Tù &7[Boss]'
+  Health: 2590
+  Damage: 104
+  Equipment:
+  - NETHERITE_SWORD HAND
+  - NETHERITE_HELMET HEAD
+  - NETHERITE_CHESTPLATE CHEST
+  - NETHERITE_LEGGINGS LEGS
+  - NETHERITE_BOOTS FEET
+  Options:
+    PreventOtherDrops: true
+    MovementSpeed: 0.28
+    Scale: 1.55
+    AlwaysShowName: true
+    Despawn: true
+    PreventSunburn: true
+  BossBar:
+    Enabled: true
+    Title: '&d&lBá Chủ Ngục Tù'
+    Range: 50
+  Drops:
+  - mmoitem{type=CONSUMABLE;id=DA_CUONG_HOA_VU_KHI_SIEU_CAP} 1 0.25
+  - mmoitem{type=CONSUMABLE;id=DA_CUONG_HOA_GIAP_SIEU_CAP} 1 0.25
+  - mmoitem{type=MATERIAL;id=MANH_HUY_HIEU_TRIEU_HOI} 1 1.0
+  Skills:
+  - skill{s=damage{amount=98;ignorearmor=true;ignoreiframes=true}} @PlayersInRadius{r=5} ~onTimer:50
+  - skill{s=Prison_Ba_Chu_Nguc_Tu_Enrage} @self ~onDamaged
+  - summon{mob=PRISON_BA_CHU_NGUC_TU_NORMAL;amount=2;noise=5} @self ~onTimer:180
+  - command{c="dh holograms disable BaChuNgucTuTimer"} ~onSpawn
+  - message{m="&d&l[BOSS] &fBá Chủ Ngục Tù &fđã xuất hiện tại Nhà Tù!"} @server ~onSpawn
+  - message{m="&7[&d&lBá Chủ Ngục Tù&r&7] &fKhông ai được phép soán ngôi TA!"} @PlayersInRadius{r=50} ~onDeath
+  - message{m="&d&l[BOSS] &fBá Chủ Ngục Tù &fđã bị tiêu diệt bởi &e<trigger.name>&f!"} @server ~onDeath
+  - effect:sound{s=entity.piglin_brute.death;volume=1;pitch=0.5} @self ~onDeath
+  - effect:explosion @self ~onDeath
+  - command{c="dh holograms enable BaChuNgucTuTimer"} ~onDeath
+
+# ---------------- RANK 9: VUOT NGUC (NETHERITE_SWORD, W=43.5, P=80) ----------------
+PRISON_VUOT_NGUC_NORMAL:
+  Type: PIGLIN_BRUTE
+  Display: '&4&lKẻ Vượt Ngục'
+  Health: 392
+  Damage: 50
+  Equipment:
+  - NETHERITE_SWORD HAND
+  - NETHERITE_HELMET HEAD
+  Options:
+    PreventOtherDrops: true
+    MovementSpeed: 0.26
+    Despawn: true
+    PreventSunburn: true
+  Drops:
+  - mmoitem{type=CONSUMABLE;id=DA_CUONG_HOA_VU_KHI_HUYEN_THOAI} 1 0.15
+  - mmoitem{type=CONSUMABLE;id=DA_CUONG_HOA_GIAP_HUYEN_THOAI} 1 0.15
+  - mmoitem{type=CONSUMABLE;id=DA_CUONG_HOA_THIEN_MENH} 1 0.05
+  Skills:
+  - throw{velocity=6;velocityY=5} @target 0.15
+
+PRISON_VUOT_NGUC_ELITE:
+  Type: PIGLIN_BRUTE
+  Display: '&4&lKẻ Vượt Ngục Liều Lĩnh &7[Elite]'
+  Health: 784
+  Damage: 79
+  Equipment:
+  - NETHERITE_SWORD HAND
+  - NETHERITE_HELMET HEAD
+  - NETHERITE_CHESTPLATE CHEST
+  - NETHERITE_LEGGINGS LEGS
+  Options:
+    PreventOtherDrops: true
+    MovementSpeed: 0.27
+    Scale: 1.3
+    Despawn: true
+    PreventSunburn: true
+  Drops:
+  - mmoitem{type=CONSUMABLE;id=DA_CUONG_HOA_VU_KHI_HUYEN_THOAI} 1 0.15
+  - mmoitem{type=CONSUMABLE;id=DA_CUONG_HOA_GIAP_HUYEN_THOAI} 1 0.15
+  - mmoitem{type=CONSUMABLE;id=DA_CUONG_HOA_THIEN_MENH} 1 0.05
+  Skills:
+  - skill{s=knockback{power=1.6}} @target 0.3
+  - skill{s=damage{amount=32;ignorearmor=true}} @PlayersInRadius{r=3} 0.2
+  - heal{amount=63} @self ~onTimer:100
+
+PRISON_VUOT_NGUC_BOSS:
+  Type: RAVAGER
+  Display: '&4&lTrùm Vượt Ngục Tối Thượng &7[Boss]'
+  Health: 3260
+  Damage: 114
+  Equipment:
+  - NETHERITE_SWORD HAND
+  - NETHERITE_HELMET HEAD
+  - NETHERITE_CHESTPLATE CHEST
+  - NETHERITE_LEGGINGS LEGS
+  - NETHERITE_BOOTS FEET
+  Options:
+    PreventOtherDrops: true
+    MovementSpeed: 0.28
+    Scale: 1.6
+    AlwaysShowName: true
+    Despawn: true
+    PreventSunburn: true
+  BossBar:
+    Enabled: true
+    Title: '&4&lTrùm Vượt Ngục Tối Thượng'
+    Range: 55
+  Drops:
+  - mmoitem{type=CONSUMABLE;id=DA_CUONG_HOA_VU_KHI_HUYEN_THOAI} 1 0.15
+  - mmoitem{type=CONSUMABLE;id=DA_CUONG_HOA_GIAP_HUYEN_THOAI} 1 0.15
+  - mmoitem{type=CONSUMABLE;id=DA_CUONG_HOA_THIEN_MENH} 1 0.05
+  - mmoitem{type=MATERIAL;id=MANH_HUY_HIEU_TRIEU_HOI} 1 1.0
+  Skills:
+  - skill{s=damage{amount=108;ignorearmor=true;ignoreiframes=true}} @PlayersInRadius{r=5} ~onTimer:45
+  - skill{s=Prison_Vuot_Nguc_Enrage} @self ~onDamaged
+  - summon{mob=PRISON_VUOT_NGUC_NORMAL;amount=2;noise=5} @self ~onTimer:180
+  - command{c="dh holograms disable VuotNgucTimer"} ~onSpawn
+  - message{m="&4&l[BOSS] &fTrùm Vượt Ngục Tối Thượng &fđã xuất hiện tại Nhà Tù!"} @server ~onSpawn
+  - message{m="&7[&4&lTrùm Vượt Ngục Tối Thượng&r&7] &fKhông ngục tù nào giữ được TA!"} @PlayersInRadius{r=55} ~onDeath
+  - message{m="&4&l[BOSS] &fTrùm Vượt Ngục Tối Thượng &fđã bị tiêu diệt bởi &e<trigger.name>&f!"} @server ~onDeath
+  - effect:sound{s=entity.ravager.death;volume=1;pitch=0.5} @self ~onDeath
+  - effect:explosion @self ~onDeath
+  - command{c="dh holograms enable VuotNgucTimer"} ~onDeath
+
+# ---------------- BOSS TRUM CUOI: MA VUONG NGUC TU ----------------
+# Dieu kien trieu hoi: click chuot phai vao ban tho PRISON_MA_VUONG_ALTAR
+# (mobs/altar_mobs.yml). Ban tho tu kiem tra >=1 HUY_HIEU_TRIEU_HOI
+# (NETHER_STAR) trong tui do - item nay khong con roi truc tiep tu 9
+# boss nua, phai che tu MANH_HUY_HIEU_TRIEU_HOI (Huy Hieu Vo, roi 100%
+# tu 9 boss). Xem Skript/scripts/mavuong_altar.sk cho logic click + delay
+# 3s truoc khi summon. Manh hon han rank 9, ro TINHTHE_HUY_DIET 25%.
+PRISON_MA_VUONG_BOSS:
+  Type: RAVAGER
+  Display: '&4&l[TRÙM CUỐI] &r&6&lMa Vương Ngục Tù'
+  Health: 5500
+  Damage: 140
+  Equipment:
+  - NETHERITE_SWORD HAND
+  - NETHERITE_HELMET HEAD
+  - NETHERITE_CHESTPLATE CHEST
+  - NETHERITE_LEGGINGS LEGS
+  - NETHERITE_BOOTS FEET
+  Options:
+    PreventOtherDrops: true
+    MovementSpeed: 0.29
+    Scale: 1.9
+    AlwaysShowName: true
+    Despawn: true
+    PreventSunburn: true
+  BossBar:
+    Enabled: true
+    Title: '&4&l[TRÙM CUỐI] &6&lMa Vương Ngục Tù'
+    Range: 60
+  Drops:
+  - mmoitem{type=MATERIAL;id=TINHTHE_HUY_DIET} 1 0.25
+  Skills:
+  - skill{s=damage{amount=130;ignorearmor=true;ignoreiframes=true}} @PlayersInRadius{r=6} ~onTimer:45
+  - skill{s=Prison_Ma_Vuong_Enrage} @self ~onDamaged
+  - summon{mob=PRISON_VUOT_NGUC_NORMAL;amount=2;noise=5} @self ~onTimer:180
+  - command{c="dh holograms disable MaVuongTimer"} ~onSpawn
+  - message{m="&4&l[TRÙM CUỐI] &fMa Vương Ngục Tù &fđã thức tỉnh — CHẠY ĐI!"} @server ~onSpawn
+  - message{m="&7[&4&lMa Vương Ngục Tù&r&7] &fKhông... không thể nào... ta đã thua!"} @PlayersInRadius{r=60} ~onDeath
+  - message{m="&4&l[TRÙM CUỐI] &fMa Vương Ngục Tù &fđã bị tiêu diệt bởi &e<trigger.name>&f!"} @server ~onDeath
+  - effect:sound{s=entity.ravager.death;volume=2;pitch=0.4} @self ~onDeath
+  - effect:explosion @self ~onDeath
+  - command{c="dh holograms enable MaVuongTimer"} ~onDeath

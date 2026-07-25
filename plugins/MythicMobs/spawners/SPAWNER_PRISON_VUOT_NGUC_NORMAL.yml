@@ -1,0 +1,29 @@
+# TODO: chinh lai World/X/Y/Z cho dung vi tri spawn trong game
+SPAWNER_PRISON_VUOT_NGUC_NORMAL:
+  MobName: PRISON_VUOT_NGUC_NORMAL
+  World: world_magadungeon
+  X: -19
+  Y: 51
+  Z: 57
+  Yaw: 0.0
+  Pitch: 0.0
+  Radius: 5.0
+  RadiusY: 1.0
+  UseTimer: true
+  MaxMobs: '8'
+  MobLevel: '1'
+  MobsPerSpawn: 2
+  Cooldown: 5
+  Warmup: 0
+  ActivationRange: 20.0
+  ScalingRange: 25.0
+  LeashRange: 10.0
+  HealOnLeash: false
+  ResetThreatOnLeash: false
+  Breakable: false
+  CheckForPlayers: true
+  ShowFlames: false
+  Conditions: []
+  SpawnConditions: []
+  CooldownTimer: 1
+  ActiveMobs: 8

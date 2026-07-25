@@ -1,82 +1,82 @@
 # Level & Experience
 level-up:
   - ''
-  - '&eCongratulations, you reached level &6{level}&e!'
-  - '&eUse &6/p &eto see your new statistics!'
+  - '&eChúc mừng, bạn đã đạt cấp độ &6{level}&e!'
+  - '&eDùng lệnh &6/p &eđể xem chỉ số mới của bạn!'
   - ''
 profession-level-up:
-  - '&eYou are now level &6{level}&e in &6{profession}&e!'
+  - '&eBạn đã đạt cấp độ &6{level}&e trong nghề &6{profession}&e!'
 exp-notification: '%&f{profession} &e{progress} &e{ratio}%'
 exp-hologram: '&e+{exp} EXP!'
-class-select: '&eYou are now a &6{class}&e!'
-already-on-class: '&cYou are already a {class}.'
+class-select: '&eBạn hiện đã chọn lớp nhân vật &6{class}&e!'
+already-on-class: '&cBạn đã là lớp nhân vật {class} rồi.'
 death-exp-loss:
   - ''
-  - '&4You died and lost {loss} experience.'
+  - '&4Bạn đã bị hạ gục và mất {loss} kinh nghiệm.'
   - ''
 
 # General
-not-enough-perms: '&cYou do not have enough permissions.'
+not-enough-perms: '&cBạn không có đủ quyền hạn.'
 
 # Experience boosters
 booster-main:
   - '&e'
-  - '&eA &6{multiplier}x&e EXP multiplier is now active!'
+  - '&eKích hoạt nhân bản EXP &6{multiplier}x&e toàn máy chủ!'
   - '&e'
 booster-skill:
   - '&e'
-  - '&eA &6{multiplier}x&e &6{profession} &eEXP multiplier is now active!'
+  - '&eKích hoạt nhân bản EXP nghề &6{profession} &e&6{multiplier}x&e!'
   - '&e'
-booster-expired: '&cExpired!'
+booster-expired: '&cHết thời gian hiệu lực!'
 
 # PvP Mode
 pvp-mode:
-  cooldown: '&cPlease wait {remaining} seconds to use this command again.'
+  cooldown: '&cVui lòng đợi {remaining} giây trước khi dùng lại lệnh này.'
 
   # When you cannot hit another player
   cannot-hit:
-    high-level-difference: '&cLevel difference is too high to fight this player.'
-    low-level-target: '&cYou cannot fight this player as their level is too low.'
-    low-level-self: '&cYour level is too low to fight other players.'
-    pvp-mode-disabled-target: '&cThis player has not toggled on PvP.'
-    pvp-mode-disabled-self: '&cYou have not toggled on PvP.'
-    invulnerable-self: '&cYou are still out of combat for {left} seconds.'
-    invulnerable-target: '&cThis player is out of combat for {left} seconds.'
+    high-level-difference: '&cChênh lệch cấp độ quá lớn để chiến đấu với người chơi này.'
+    low-level-target: '&cBạn không thể tấn công người chơi này vì cấp độ của họ quá thấp.'
+    low-level-self: '&cCấp độ của bạn quá thấp để tham gia PvP.'
+    pvp-mode-disabled-target: '&cNgười chơi này chưa bật chế độ PvP.'
+    pvp-mode-disabled-self: '&cBạn chưa bật chế độ PvP.'
+    invulnerable-self: '&cBạn vẫn đang trong trạng thái bảo hộ hòa bình ({left} giây).'
+    invulnerable-target: '&cNgười chơi này đang trong trạng thái bảo hộ ({left} giây).'
 
   # When using /pvpmode
   toggle:
-    on-safe: '&aYou will now be able to fight other players in dedicated areas.'
-    on-invulnerable: '&aYou will be able to fight other players in {time} seconds.'
-    off-safe: '&cYou can no longer fight other players.'
+    on-safe: '&aBạn hiện có thể chiến đấu với người chơi khác trong vùng cho phép.'
+    on-invulnerable: '&aBạn sẽ có thể chiến đấu sau {time} giây.'
+    off-safe: '&cBắt đầu tắt chế độ PvP.'
 
   # Entering/leaving regions
   leave:
-    pvp-allowed: '&cYou left a PVP zone but are still vulnerable for {remaining} seconds!'
-    pvp-denied: '&cYou left the PVP zone.'
+    pvp-allowed: '&cBạn đã rời vùng PVP nhưng vẫn có thể bị tấn công trong {remaining} giây!'
+    pvp-denied: '&cBạn đã rời vùng PVP.'
   enter:
-    pvp-mode-on: '&aYou entered a PVP zone and gained invulnerability for {time} seconds!'
-    pvp-mode-off: '&aYou entered a PVP zone. You may use /pvpmode to fight other players.'
+    pvp-mode-on: '&aBạn đã vào vùng PVP và nhận bảo hộ tạm thời trong {time} giây!'
+    pvp-mode-off: '&aBạn đã vào vùng PVP. Dùng /pvpmode để bật chiến đấu.'
 
 # Fishing Profession
-caught-fish: '&cYou caught a fish!'
-fish-out-water: '&aWell done!'
-fish-out-water-crit: '&aCritical Fish!'
+caught-fish: '&cCá đã mắc câu!'
+fish-out-water: '&aTuyệt vời!'
+fish-out-water-crit: '&aBắt cá chí mạng!'
 
 # Player Input
 player-input:
   anvil:
-    friend-request: 'Friend name..'
-    party-invite: 'Player name..'
-    guild-invite: 'Player name..'
-    guild-creation-tag: 'Guild tag..'
-    guild-creation-name: 'Guild name..'
+    friend-request: 'Tên bạn bè..'
+    party-invite: 'Tên người chơi..'
+    guild-invite: 'Tên người chơi..'
+    guild-creation-tag: 'Thẻ Bang (TAG)..'
+    guild-creation-name: 'Tên Bang hội..'
   chat:
-    friend-request: '&eWrite in the chat the player name.'
-    party-invite: '&eWrite in the chat the player you want to invite.'
-    guild-invite: '&eWrite in the chat the player you want to invite.'
-    guild-creation-tag: '&eWrite in the chat the TAG of the Guild you want to create.'
-    guild-creation-name: '&eWrite in the chat the name of the Guild you want to create.'
-    cancel: '&eWrite &c''cancel'' &eto cancel.'
+    friend-request: '&eNhập tên người chơi muốn kết bạn vào chat.'
+    party-invite: '&eNhập tên người chơi muốn mời vào tổ đội.'
+    guild-invite: '&eNhập tên người chơi muốn mời vào bang hội.'
+    guild-creation-tag: '&eNhập Thẻ (TAG) Bang hội bạn muốn tạo.'
+    guild-creation-name: '&eNhập tên Bang hội bạn muốn tạo.'
+    cancel: '&eGõ &c''cancel'' &eđể hủy bỏ.'
 
 # Spell Casting
 casting:
@@ -86,138 +86,138 @@ casting:
     no-mana: '&6[{index}] &9&l{skill}'
     no-stamina: '&6[{index}] &9&l{skill}'
   split: '&7 &7 - &7 '
-  no-longer: '%&cYou cancelled skill casting.'
-  no-mana: '&cYou do not have enough {mana}, {mana-required} more required!'
-  no-stamina: '&cYou do not have enough stamina!'
-  on-cooldown: '&cThis skill is on a {cooldown}s cooldown.'
+  no-longer: '%&cBạn đã hủy thi triển kỹ năng.'
+  no-mana: '&cBạn không đủ {mana}, cần thêm {mana-required} nữa!'
+  no-stamina: '&cBạn không đủ thể lực (stamina)!'
+  on-cooldown: '&cKỹ năng này đang trong thời gian hồi ({cooldown}s).'
 
 # Combat Log
-now-in-combat: '%&cYou are now in combat!'
-leave-combat: '%&aYou left combat.'
+now-in-combat: '%&cBắt đầu vào trạng thái giao tranh!'
+leave-combat: '%&aĐã thoát khỏi giao tranh.'
 
 # Waypoints
-new-waypoint: '%&eYou unlocked the &6{waypoint} &ewaypoint!'
-new-waypoint-book: '%&eYou unlocked the &6{waypoint} &ewaypoint!'
-not-enough-stellium: '&cYou don''t have enough stellium: you need {more} more.'
-waypoint-cooldown: '&cPlease wait {cooldown} before using a waypoint again.'
-not-unlocked-waypoint: '&cYou have not unlocked that waypoint yet.'
-not-dynamic-waypoint: '&cYou many only teleport to a non-dynamic waypoint while standing on another waypoint.'
-standing-on-waypoint: '&cYou are already standing on this waypoint.'
-warping-canceled: '%&cWaypoint warping canceled.'
-warping-comencing: '%&cDO NOT MOVE!&e You will be warped in {left}sec.'
-cannot-teleport-to: '&cThe two waypoints are not linked.'
+new-waypoint: '%&eBạn đã mở khóa Điểm Dịch Chuyển &6{waypoint}&e!'
+new-waypoint-book: '%&eBạn đã mở khóa Điểm Dịch Chuyển &6{waypoint}&e!'
+not-enough-stellium: '&cBạn không đủ stellium: cần thêm {more}.'
+waypoint-cooldown: '&cVui lòng đợi {cooldown} trước khi dịch chuyển tiếp.'
+not-unlocked-waypoint: '&cBạn chưa mở khóa Điểm Dịch Chuyển này.'
+not-dynamic-waypoint: '&cBạn chỉ có thể dịch chuyển khi đang đứng trên một Điểm Dịch Chuyển khác.'
+standing-on-waypoint: '&cBạn đang đứng tại Điểm Dịch Chuyển này rồi.'
+warping-canceled: '%&cĐã hủy dịch chuyển.'
+warping-comencing: '%&cKHÔNG ĐƯỢC DI CHUYỂN!&e Bạn sẽ được dịch chuyển trong {left} giây.'
+cannot-teleport-to: '&cHai Điểm Dịch Chuyển này chưa được liên kết.'
 
 # Cash
-deposit: '&eYou successfully deposited &6{worth}g&e.'
-withdrawing: '&eType in the chat the amount of &6gold&e you want to &6withdraw&e.'
-withdraw-cancel: '&eWithdrawing canceled.'
-withdrew: '&eYou successfully withdrew &6{worth}g&e.'
-wrong-number: '&c{arg} is not a valid number.'
-not-enough-money: '&cYou don''t have enough money, you need {left} more gold.'
-stand-near-enderchest: '&cYou must be standing near a bank to do that.'
+deposit: '&eBạn đã gửi thành công &6{worth} vàng&e vào tài khoản.'
+withdrawing: '&eNhập số lượng &6vàng&e bạn muốn &6rút&e vào chat.'
+withdraw-cancel: '&eĐã hủy rút vàng.'
+withdrew: '&eBạn đã rút thành công &6{worth} vàng&e.'
+wrong-number: '&c{arg} không phải là một con số hợp lệ.'
+not-enough-money: '&cBạn không có đủ tiền, cần thêm {left} vàng.'
+stand-near-enderchest: '&cBạn phải đứng gần Ngân hàng/Rương Ender để thực hiện thao tác này.'
 
 # Blocks
-cannot-break: '%&cYou do not have the right tool in order to break that block.'
+cannot-break: '%&cBạn không có công cụ phù hợp để phá khối này.'
 
 # Friends
-no-longer-friends: '&cYou and {unfriend} are no longer friends.'
-not-online-player: '&c{player} is not online.'
-sent-friend-request: '&eYou sent a friend request to &6{player}&e.'
-now-friends: '&eYou are now friends with &6{player}&e.'
-friend-request-cooldown: '&cPlease wait {cooldown}.'
-cant-request-to-yourself: '&cYou can''t send a request to yourself.'
-already-friends: '&cYou are already friends with {player}.'
+no-longer-friends: '&cBạn và {unfriend} không còn là bạn bè.'
+not-online-player: '&c{player} hiện không trực tuyến.'
+sent-friend-request: '&eBạn đã gửi lời mời kết bạn đến &6{player}&e.'
+now-friends: '&eBạn và &6{player}&e đã trở thành bạn bè.'
+friend-request-cooldown: '&cVui lòng chờ {cooldown}.'
+cant-request-to-yourself: '&cBạn không thể tự kết bạn với chính mình.'
+already-friends: '&cBạn đã là bạn bè với {player} rồi.'
 friend-request:
   - '{"text":""}'
-  - '{"text":"&6{player} &ejust sent you a friend request!"}'
-  - '[{"text":"        ","hoverEvent":{}},{"text":"&8[&a&lACCEPT&8]","clickEvent":{"action":"run_command","value":"/friends accept {uuid}"},"hoverEvent":{"action":"show_text","value":"&eClick to accept!"}},{"text":"&r             ","hoverEvent":{}},{"text":"&8[&c&lDENY&8]","clickEvent":{"action":"run_command","value":"/friends deny {uuid}"},"hoverEvent":{"action":"show_text","value":"&eClick to deny."}}]'
+  - '{"text":"&6{player} &evừa gửi cho bạn một lời mời kết bạn!"}'
+  - '[{"text":"        ","hoverEvent":{}},{"text":"&8[&a&lCHẤP NHẬN&8]","clickEvent":{"action":"run_command","value":"/friends accept {uuid}"},"hoverEvent":{"action":"show_text","value":"&eBấm để chấp nhận!"}},{"text":"&r             ","hoverEvent":{}},{"text":"&8[&c&lTỪ CHỐI&8]","clickEvent":{"action":"run_command","value":"/friends deny {uuid}"},"hoverEvent":{"action":"show_text","value":"&eBấm để từ chối."}}]'
   - '{"text":""}'
 
 # Parties
-party-chat: '&5[Party] {player}: {message}'
-sent-party-invite: '&eYou sent a party invite to &6{player}&e.'
-already-in-party: '&c{player} is already in your party.'
+party-chat: '&5[Tổ Đội] {player}: {message}'
+sent-party-invite: '&eBạn đã gửi lời mời vào tổ đội đến &6{player}&e.'
+already-in-party: '&c{player} đã ở trong tổ đội của bạn.'
 party-invite:
   - '{"text":""}'
-  - '{"text":"&6{player} &ehas invited you to their party!"}'
-  - '[{"text":"        "},{"text":"&8[&a&lACCEPT&8]","clickEvent":{"action":"run_command","value":"/party accept {uuid}"},"hoverEvent":{"action":"show_text","value":"&eClick to accept!"}},{"text":"&r             "},{"text":"&8[&c&lDENY&8]","clickEvent":{"action":"run_command","value":"/party deny {uuid}"},"hoverEvent":{"action":"show_text","value":"&eClick to deny."}}]'
+  - '{"text":"&6{player} &eđã mời bạn tham gia tổ đội của họ!"}'
+  - '[{"text":"        "},{"text":"&8[&a&lCHẤP NHẬN&8]","clickEvent":{"action":"run_command","value":"/party accept {uuid}"},"hoverEvent":{"action":"show_text","value":"&eBấm để tham gia!"}},{"text":"&r             "},{"text":"&8[&c&lTỪ CHỐI&8]","clickEvent":{"action":"run_command","value":"/party deny {uuid}"},"hoverEvent":{"action":"show_text","value":"&eBấm để từ chối."}}]'
   - '{"text":""}'
-party-is-full: '&cSorry, your party is full.'
-party-joined: '&eYou successfully joined &6{owner}&e''s party.'
-party-joined-other: '&6{player}&e joined your party!'
-transfer-party-ownership: '&eYou were transfered the party ownership.'
-kick-from-party: '&eYou successfully kicked &6{player}&e.'
-party-invite-cooldown: '&cPlease wait {cooldown} before inviting {player}.'
-high-level-difference: '&cYou cannot invite {player} as the level difference is too high ({diff}).'
+party-is-full: '&cRất tiếc, tổ đội đã đầy người.'
+party-joined: '&eBạn đã tham gia tổ đội của &6{owner}&e.'
+party-joined-other: '&6{player}&e đã tham gia tổ đội của bạn!'
+transfer-party-ownership: '&eBạn đã nhận quyền Trưởng nhóm tổ đội.'
+kick-from-party: '&eBạn đã trục xuất &6{player}&e khỏi tổ đội.'
+party-invite-cooldown: '&cVui lòng đợi {cooldown} trước khi mời {player}.'
+high-level-difference: '&cKhông thể mời {player} vì chênh lệch cấp độ quá cao ({diff}).'
 
 # Guilds
 guild-chat: '&a[{tag}] {player}: {message}'
-sent-guild-invite: '&eYou sent a guild invite to &6{player}&e.'
-already-in-guild: '&c{player} is already in your guild.'
+sent-guild-invite: '&eBạn đã gửi lời mời gia nhập bang hội đến &6{player}&e.'
+already-in-guild: '&c{player} đã ở trong bang hội của bạn.'
 guild-invite:
   - '{"text":""}'
-  - '{"text":"&6{player} &ehas invited you to their guild!"}'
-  - '[{"text":"        "},{"text":"&8[&a&lACCEPT&8]","clickEvent":{"action":"run_command","value":"/guild accept {uuid}"},"hoverEvent":{"action":"show_text","value":"&eClick to accept!"}},{"text":"&r             "},{"text":"&8[&c&lDENY&8]","clickEvent":{"action":"run_command","value":"/guild deny {uuid}"},"hoverEvent":{"action":"show_text","value":"&eClick to deny."}}]'
+  - '{"text":"&6{player} &eđã mời bạn gia nhập bang hội của họ!"}'
+  - '[{"text":"        "},{"text":"&8[&a&lCHẤP NHẬN&8]","clickEvent":{"action":"run_command","value":"/guild accept {uuid}"},"hoverEvent":{"action":"show_text","value":"&eBấm để tham gia!"}},{"text":"&r             "},{"text":"&8[&c&lTỪ CHỐI&8]","clickEvent":{"action":"run_command","value":"/guild deny {uuid}"},"hoverEvent":{"action":"show_text","value":"&eBấm để từ chối."}}]'
   - '{"text":""}'
-#guild-is-full: '&cSorry, your guild is full.' -Unused right now
-guild-joined: '&eYou successfully joined &6{owner}&e''s guild.'
-guild-joined-other: '&6{player}&e joined your guild!'
-transfer-guild-ownership: '&eYou were transfered the guild ownership.'
-kick-from-guild: '&eYou successfully kicked &6{player}&e from the guild.'
-guild-invite-cooldown: '&cPlease wait {cooldown} before inviting {player}.'
+#guild-is-full: '&cRất tiếc, bang hội đã đầy thành viên.'
+guild-joined: '&eBạn đã tham gia bang hội của &6{owner}&e.'
+guild-joined-other: '&6{player}&e đã gia nhập bang hội của bạn!'
+transfer-guild-ownership: '&eBạn đã được chuyển giao quyền Chủ Bang.'
+kick-from-guild: '&eBạn đã trục xuất &6{player}&e khỏi bang hội.'
+guild-invite-cooldown: '&cVui lòng đợi {cooldown} trước khi mời {player}.'
 guild-creation:
-  failed: "&cCouldn't create guild: {reason}"
+  failed: "&cKhông thể tạo bang hội: {reason}"
   reasons:
-    invalid-characters: "&eInvalid character(s)!"
-    invalid-length: "&eThe length must be between {min} and {max}!"
-    already-exists: "&eThat guild tag already exists!"
+    invalid-characters: "&eKý tự không hợp lệ!"
+    invalid-length: "&eĐộ dài phải nằm trong khoảng từ {min} đến {max} ký tự!"
+    already-exists: "&eThẻ (TAG) bang hội này đã tồn tại!"
 
 # Quests
-already-on-quest: '&cYou are already on a quest.'
-cancel-quest: '&eYou successfully canceled your ongoing quest.'
-quest-level-restriction: '&cYou need to be {level} {count}.'
-cant-redo-quest: '&cYou can''t start this quest twice.'
-quest-cooldown: '&cYou need to wait {delay}.'
-start-quest: '&eYou successfully started &6{quest}&e.'
+already-on-quest: '&cBạn đang làm một nhiệm vụ khác.'
+cancel-quest: '&eBạn đã hủy nhiệm vụ đang làm thành công.'
+quest-level-restriction: '&cBạn cần đạt cấp độ {level} {count}.'
+cant-redo-quest: '&cBạn không thể làm lại nhiệm vụ này.'
+quest-cooldown: '&cBạn cần phải chờ {delay}.'
+start-quest: '&eBắt đầu nhiệm vụ &6{quest}&e thành công.'
 
 # Attributes
-no-attribute-points-spent: '&cYou have not spent any attribute points.'
-not-attribute-reallocation-point: '&cYou do not have 1 reallocation point.'
-not-attribute-point: '&cYou have no attribute point.'
-not-attribute-point-shift: '&cYou must have &4{shift_points} &cattribute points.'
-attribute-points-reallocated: '&eYou successfully reset your attributes. You now have &6{points} &eattribute points.'
-attribute-max-points-hit: '&cYou cannot level up this attribute anymore.'
-attribute-level-up: '&eYou successfully leveled up your &6{attribute}&e.' # {level}
+no-attribute-points-spent: '&cBạn chưa cộng điểm thuộc tính nào.'
+not-attribute-reallocation-point: '&cBạn không có 1 điểm tẩy thuộc tính.'
+not-attribute-point: '&cBạn không có điểm thuộc tính.'
+not-attribute-point-shift: '&cBạn phải có &4{shift_points} &cđiểm thuộc tính.'
+attribute-points-reallocated: '&eTẩy điểm thuộc tính thành công. Bạn hiện có &6{points} &eđiểm thuộc tính.'
+attribute-max-points-hit: '&cBạn đã đạt giới hạn tối đa cho thuộc tính này.'
+attribute-level-up: '&eNâng cấp thuộc tính &6{attribute}&e thành công.' # {level}
 
 # Class selection
 cant-choose-new-class:
-  - '&cYou need one class point to perform this action.'
+  - '&cBạn cần 1 điểm Lớp Nhân Vật để thực hiện thao tác này.'
 no-permission-for-class:
-  - "&cYou don't have the permission to choose this class."
+  - "&cBạn không có quyền chọn lớp nhân vật này."
 
 # Skills
-no-class-skill: '&cYour class has no skill.'
-not-enough-skill-points: '&cYou need one skill point.'
-not-enough-skill-points-shift: '&cYou need {shift_points} skill points.'
-upgrade-skill: '&eYour &6{skill} &eis now Level &6{level}&e!'
-skill-level-not-met: '&cYou cannot use this skill yet.'
-no-skill-bound: '&cYou don''t have any skill bound to this slot.'
-not-compatible-skill: '&cThe selected skill is not compatible with this slot.'
-cant-manually-bind: "&cYou can't manually bind/unbind a skill to this slot."
-skill-max-level-hit: '&cYou already hit the max level for that skill.'
-no-skill-placeholder: 'No Skill Bound'
-not-skill-reallocation-point: '&cYou do not have 1 skill reallocation point.'
-no-skill-points-spent: '&cYou have not spent any skill points.'
-skill-points-reallocated: '&eYou successfully reset your skill points. You now have &6{points} &eskill points.'
-max-points-reached: '&cYou reached the maximum points you can spend. You need to reallocate your points to rollback.'
+no-class-skill: '&cLớp nhân vật của bạn không có kỹ năng.'
+not-enough-skill-points: '&cBạn cần thêm 1 điểm kỹ năng.'
+not-enough-skill-points-shift: '&cBạn cần thêm {shift_points} điểm kỹ năng.'
+upgrade-skill: '&eKỹ năng &6{skill} &ecủa bạn đã đạt Cấp &6{level}&e!'
+skill-level-not-met: '&cBạn chưa đủ cấp độ để sử dụng kỹ năng này.'
+no-skill-bound: '&cBạn chưa gán kỹ năng nào vào ô này.'
+not-compatible-skill: '&cKỹ năng đã chọn không tương thích với ô này.'
+cant-manually-bind: "&cBạn không thể gán/hủy gán thủ công kỹ năng vào ô này."
+skill-max-level-hit: '&cKỹ năng này đã đạt cấp độ tối đa.'
+no-skill-placeholder: 'Chưa Gán Kỹ Năng'
+not-skill-reallocation-point: '&cBạn không có 1 điểm tẩy kỹ năng.'
+no-skill-points-spent: '&cBạn chưa sử dụng điểm kỹ năng nào.'
+skill-points-reallocated: '&eTẩy điểm kỹ năng thành công. Bạn hiện có &6{points} &eđiểm kỹ năng.'
+max-points-reached: '&cBạn đã đạt giới hạn điểm có thể cộng. Cần tẩy điểm để cộng lại.'
 
 # Skill Trees
-no-skill-tree-points-spent: '&cYou have not spent any skill tree points.'
-locked-node: '&cThis skill is locked!'
-upgrade-skill-node: '&eYour skill node &6{skill-node} &eis now Level &6{level}&e!'
-skill-node-max-level-hit: '&cYou already hit the max level for that skill node.'
-missing-skill-node-permission: '&cYou do not have the permission to unlock this skill node.'
-not-enough-skill-tree-points: '&cYou need {point} skill tree point.'
-reallocated-points: '&eYou successfully reset the skill tree {skill-tree}. &eYou now have &6{points} &eskill tree points.'
-not-skill-tree-reallocation-point: '&cYou do not have 1 skill tree reallocation point.'
-no-skill-tree: '&cYour class doesn''t have any skill tree.'
+no-skill-tree-points-spent: '&cBạn chưa cộng điểm vào cây kỹ năng.'
+locked-node: '&cKỹ năng này đang bị khóa!'
+upgrade-skill-node: '&eĐiểm kỹ năng &6{skill-node} &ecủa bạn đã đạt Cấp &6{level}&e!'
+skill-node-max-level-hit: '&cĐiểm kỹ năng này đã đạt cấp tối đa.'
+missing-skill-node-permission: '&cBạn không có quyền mở khóa điểm kỹ năng này.'
+not-enough-skill-tree-points: '&cBạn cần thêm {point} điểm cây kỹ năng.'
+reallocated-points: '&eTẩy cây kỹ năng {skill-tree} thành công. Bạn hiện có &6{points} &eđiểm cây kỹ năng.'
+not-skill-tree-reallocation-point: '&cBạn không có 1 điểm tẩy cây kỹ năng.'
+no-skill-tree: '&cLớp nhân vật của bạn không có cây kỹ năng nào.'

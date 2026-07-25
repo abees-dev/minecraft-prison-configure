@@ -109,7 +109,6 @@ VFX_Death_Strike_1:
     Collidable: false
   Skills:
   - model{usestatemachine=true;mid=vfx_death_strike_1;lockpitch=true} @self ~onSpawn
-  - brightness{b=15;s=15} @self ~onSpawn
   - BodyRotation{playermode=false;stable=0;rdelay=0;rduration=0} @self ~onSpawn
   - state{s=left-right-diag;speed=0.8} @self ~onSpawn
   
@@ -132,7 +131,6 @@ VFX_Death_Strike_2:
     Collidable: false
   Skills:
   - model{usestatemachine=true;mid=vfx_death_strike_1;lockpitch=true} @self ~onSpawn
-  - brightness{b=15;s=15} @self ~onSpawn
   - BodyRotation{playermode=false;stable=0;rdelay=0;rduration=0} @self ~onSpawn
   - state{s=right-left-diag;speed=0.8} @self ~onSpawn
   
@@ -155,7 +153,6 @@ VFX_Death_Strike_4:
     Collidable: false
   Skills:
   - model{usestatemachine=true;mid=vfx_death_strike_1;lockpitch=true} @self ~onSpawn
-  - brightness{b=15;s=15} @self ~onSpawn
   - BodyRotation{playermode=false;stable=0;rdelay=0;rduration=0} @self ~onSpawn
   - state{s=up-down-vert;speed=0.8} @self ~onSpawn
   
@@ -178,7 +175,6 @@ VFX_Death_Strike_4_WAVE:
     Collidable: false
   Skills:
   - model{usestatemachine=true;mid=vfx_death_shockwave;lockpitch=true} @self ~onSpawn
-  - brightness{b=15;s=15} @self ~onSpawn
   - BodyRotation{playermode=true;stable=0;rdelay=0;rduration=0} @self ~onSpawn
   - state{s=skill;speed=1} @self ~onSpawn
   #- effect:particles{p=dust_color_transition;color1=#a2f8cb;color2=#05090a;amount=2;hS=0.04;size=1.25;vS=0.2;speed=0;repeat=5;repeati=1} @modelpart{mid=vfx_death_shockwave;pid=p;location=0,0,0;em=false;offset=LOCAL} ~onTimer:1
@@ -193,7 +189,6 @@ VFX_Death_Chains:
     Collidable: false
   Skills:
   - model{usestatemachine=true;mid=vfx_death_chain;lockpitch=false} @self ~onSpawn
-  - brightness{b=15;s=15} @self ~onSpawn
   - BodyRotation{playermode=true;stable=0;rdelay=0;rduration=0} @self ~onSpawn
   - state{s=pull;speed=1} @self ~onSpawn
   - remove{delay=18} @self ~onSpawn
@@ -214,7 +209,6 @@ VFX_Death_Chains2:
     Collidable: false
   Skills:
   - model{usestatemachine=true;mid=vfx_death_chain;lockpitch=false} @self ~onSpawn
-  - brightness{b=15;s=15} @self ~onSpawn
   - BodyRotation{playermode=true;stable=0;rdelay=0;rduration=0} @self ~onSpawn
   - state{s=grapple_2;speed=1} @self ~onSpawn
   - remove{delay=18} @self ~onSpawn
@@ -228,7 +222,6 @@ VFX_Death_Chains3:
     Collidable: false
   Skills:
   - model{usestatemachine=true;mid=vfx_death_chain;lockpitch=false} @self ~onSpawn
-  - brightness{b=15;s=15} @self ~onSpawn
   - BodyRotation{playermode=true;stable=0;rdelay=0;rduration=0} @self ~onSpawn
   - state{s=grapple_3;speed=1} @self ~onSpawn
   - remove{delay=18} @self ~onSpawn
@@ -242,7 +235,6 @@ VFX_Death_Chains4:
     Collidable: false
   Skills:
   - model{usestatemachine=true;mid=vfx_death_chain;lockpitch=false} @self ~onSpawn
-  - brightness{b=15;s=15} @self ~onSpawn
   - BodyRotation{playermode=true;stable=0;rdelay=0;rduration=0} @self ~onSpawn
   - state{s=grapple_4;speed=1} @self ~onSpawn
   - remove{delay=18} @self ~onSpawn
@@ -256,7 +248,6 @@ VFX_Death_Chains5:
     Collidable: false
   Skills:
   - model{usestatemachine=true;mid=vfx_death_chain;lockpitch=false} @self ~onSpawn
-  - brightness{b=15;s=15} @self ~onSpawn
   - BodyRotation{playermode=true;stable=0;rdelay=0;rduration=0} @self ~onSpawn
   - state{s=grapple_5;speed=1} @self ~onSpawn
   - remove{delay=18} @self ~onSpawn
@@ -270,7 +261,6 @@ VFX_Death_Chains6:
     Collidable: false
   Skills:
   - model{usestatemachine=true;mid=vfx_death_chain;lockpitch=false} @self ~onSpawn
-  - brightness{b=15;s=15} @self ~onSpawn
   - BodyRotation{playermode=true;stable=0;rdelay=0;rduration=0} @self ~onSpawn
   - state{s=grapple_6;speed=1} @self ~onSpawn
   - remove{delay=18} @self ~onSpawn
@@ -284,7 +274,6 @@ VFX_Death_Chains7:
     Collidable: false
   Skills:
   - model{usestatemachine=true;mid=vfx_death_chain;lockpitch=false} @self ~onSpawn
-  - brightness{b=15;s=15} @self ~onSpawn
   - BodyRotation{playermode=true;stable=0;rdelay=0;rduration=0} @self ~onSpawn
   - state{s=grapple_7;speed=1} @self ~onSpawn
   - remove{delay=18} @self ~onSpawn
@@ -298,7 +287,6 @@ VFX_Death_Chains8:
     Collidable: false
   Skills:
   - model{usestatemachine=true;mid=vfx_death_chain;lockpitch=false} @self ~onSpawn
-  - brightness{b=15;s=15} @self ~onSpawn
   - BodyRotation{playermode=true;stable=0;rdelay=0;rduration=0} @self ~onSpawn
   - state{s=grapple_8;speed=1} @self ~onSpawn
   - remove{delay=18} @self ~onSpawn
@@ -330,7 +318,6 @@ VFX_Death_Wings_Phantom_Charge:
     - setvariable{var=caster.iteration;val=1;type=INTEGER}
     - model{usestatemachine=true;mid=vfx_death_wings_1;lockpitch=true}
     - BodyRotation{playermode=true;stable=0;rdelay=0;rduration=0}
-    - brightness{mid=vfx_death_wings_1;b=15;s=15}
     - state{s=dash}
     ];
     ot=[
@@ -367,7 +354,6 @@ VFX_Soul_Barrier:
     Collidable: false
   Skills:
   - model{usestatemachine=true;mid=vfx_necro_shield;lockpitch=true} @self ~onSpawn
-  - brightness{b=15;s=15} @self ~onSpawn
   - BodyRotation{playermode=true;stable=0;rdelay=0;rduration=0} @self ~onSpawn
   - state{s=loop;speed=1} @self ~onSpawn
 
@@ -381,7 +367,6 @@ VFX_Necrotic_Whirlwind:
     Collidable: false
   Skills:
   - model{usestatemachine=true;mid=vfx_death_whirlwind;lockpitch=true} @self ~onSpawn
-  - brightness{b=15;s=15} @self ~onSpawn
   - BodyRotation{playermode=true;stable=0;rdelay=0;rduration=0} @self ~onSpawn
   - state{s=horiz;speed=1} @self ~onSpawn
 
@@ -397,7 +382,6 @@ VFX_Necrotic_Whirlwind_CLAW:
     Collidable: false
   Skills:
   - model{usestatemachine=true;mid=vfx_necro_hand_slasher;lockpitch=true} @self ~onSpawn
-  - brightness{b=15;s=15} @self ~onSpawn
   - BodyRotation{playermode=true;stable=0;rdelay=0;rduration=0} @self ~onSpawn
   - state{s=skill;speed=1} @self ~onSpawn
   
@@ -427,7 +411,6 @@ VFX_Wraithbound_Chains12:
   - clear
   Skills:
   - model{usestatemachine=true;mid=vfx_death_chain;lockpitch=false} @self ~onSpawn
-  - brightness{b=15;s=15} @self ~onSpawn
   - BodyRotation{playermode=true;stable=0;rdelay=0;rduration=0} @self ~onSpawn
   #- sudoskill{s=Wraithbound_Chains_PRO_SUDO1;cat=true} @owner ~onSpawn
   - state{s=pull_slow;speed=1} @self ~onSpawn
@@ -446,7 +429,6 @@ VFX_Wraithbound_Chains1:
     Collidable: false
   Skills:
   - model{usestatemachine=true;mid=vfx_death_chain;lockpitch=false} @self ~onSpawn
-  - brightness{b=15;s=15} @self ~onSpawn
   - BodyRotation{playermode=true;stable=0;rdelay=0;rduration=0} @self ~onSpawn
   - state{s=pull_start;speed=1} @self ~onSpawn
   - skill{s=Wraithbound_Chains_REMOVE;delay=7} @owner ~onSpawn
@@ -462,7 +444,6 @@ VFX_Wraithbound_Chains2:
     Collidable: false
   Skills:
   - model{usestatemachine=true;mid=vfx_death_chain;lockpitch=false} @self ~onSpawn
-  - brightness{b=15;s=15} @self ~onSpawn
   - BodyRotation{playermode=true;stable=0;rdelay=0;rduration=0} @self ~onSpawn
   - state{s=pull_start2;speed=1} @self ~onSpawn
   - skill{s=Wraithbound_Chains_REMOVE2;delay=7} @owner ~onSpawn
@@ -478,7 +459,6 @@ VFX_Wraithbound_Chains3:
     Collidable: false
   Skills:
   - model{usestatemachine=true;mid=vfx_death_chain;lockpitch=false} @self ~onSpawn
-  - brightness{b=15;s=15} @self ~onSpawn
   - BodyRotation{playermode=true;stable=0;rdelay=0;rduration=0} @self ~onSpawn
   - state{s=pull_start3;speed=1} @self ~onSpawn
   - skill{s=Wraithbound_Chains_REMOVE3;delay=7} @owner ~onSpawn
@@ -495,7 +475,6 @@ VFX_Necrohand_Grabber:
     Collidable: false
   Skills:
   - model{usestatemachine=true;mid=vfx_necro_hand_grabber;lockpitch=true} @self ~onSpawn
-  - brightness{b=15;s=15} @self ~onSpawn
   - BodyRotation{playermode=true;stable=0;rdelay=0;rduration=0} @self ~onSpawn
   - state{s=skill;speed=1} @self ~onSpawn
   - state{s=remove;speed=1;delay=60} @self ~onSpawn
@@ -519,7 +498,6 @@ VFX_Death_Wings_Death_Sentence:
     - setvariable{var=caster.iteration;val=1;type=INTEGER}
     - model{usestatemachine=true;mid=vfx_death_wings_1;lockpitch=true}
     - BodyRotation{playermode=true;stable=0;rdelay=0;rduration=0}
-    - brightness{mid=vfx_death_wings_1;b=15;s=15}
     - state{s=ultimate}
     ];
     ot=[
@@ -555,7 +533,6 @@ VFX_Soul_Blade:
     Collidable: false
   Skills:
   - model{usestatemachine=true;mid=vfx_soul_blade;lockpitch=true} @self ~onSpawn
-  - brightness{b=15;s=15} @self ~onSpawn
   - BodyRotation{playermode=true;stable=0;rdelay=0;rduration=0} @self ~onSpawn
   - state{s=skill;speed=1} @self ~onSpawn
 
@@ -615,7 +592,6 @@ VFX_Death_Sentence_Rupture:
     Collidable: false
   Skills:
   - model{usestatemachine=true;mid=vfx_earthquake_rupture_1;lockpitch=true;scale=1.5} @self ~onSpawn
-  - brightness{mid=vfx_earthquake_rupture_1;b=15;s=15} @self ~onSpawn
   - BodyRotation{playermode=false;stable=0;rdelay=0;rduration=0} @self ~onSpawn
   - state{s=skill2} @self ~onSpawn
   - tint{m=vfx_earthquake_rupture_1;c=57ffc1;em=false} @self ~onSpawn

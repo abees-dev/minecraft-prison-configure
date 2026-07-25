@@ -6,3 +6,5 @@
 on load:
 	execute console command "sk reload cuonghoa/"
 	execute console command "sk reload duclo/"
+	execute console command "sk reload mavuong/"
+

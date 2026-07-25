@@ -5,7 +5,7 @@ Plugin:
   Prefix: <lyellow><b>Crates</b></lyellow><dgray> » </dgray><gray>
   # Command names that will be registered as main plugin commands.
   # Do not leave this empty. Split multiple names with a comma.
-  Command_Aliases: crates,ecrates,excellentcrates,crate,case,cases
+  Command_Aliases: crates,crate
   # Sets the plugin language.
   # Basically it tells the plugin to use certain messages config from the '/lang/' sub-folder.
   # If specified language is not available, default one (English) will be used instead.
@@ -90,9 +90,9 @@ Crate:
     # PlaceholderAPI is also supported here (if hologram handler supports it).
     Templates:
       default:
-      - <lyellow><b>%crate_name%</b></lyellow>
-      - <lgray>Get keys at <lyellow>put_your_site.com</lyellow></lgray>
-      - <lgray>You have <lyellow>%excellentcrates_keys_%crate_id%%</lyellow> keys</lgray>
+        - <lyellow><b>%crate_name%</b></lyellow>
+        - <lgray>Get keys at <lyellow>put_your_site.com</lyellow></lgray>
+        - <lgray>You have <lyellow>%excellentcrates_keys_%crate_id%%</lyellow> keys</lgray>
     # Sets the gap between hologram lines.
     LineGap: 0.3
     # Sets how often (in seconds) crate holograms will update.
@@ -150,11 +150,11 @@ Currency:
   xp:
     Enabled: true
     Name: XP
-    Format: '%amount% %name%'
+    Format: "%amount% %name%"
   levels:
     Enabled: true
     Name: XP Levels
-    Format: '%amount% %name%'
+    Format: "%amount% %name%"
   money:
     Enabled: true
     Name: Money

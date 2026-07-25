@@ -7,7 +7,7 @@ inventory-title: Warps
 inventory-title-page: Warps - Page {page}
 
 # The height of the inventory. Must be between 1-6. Use -1 for auto resize
-inventory-height: 6
+inventory-height: 5
 
 # Whether an auto-formatting shall be applied at the given axis
 # You may choose between:
@@ -25,7 +25,7 @@ inventory-offset-bottom: 1
 
 # Fill the empty slots with some material
 inventory-background-material: air
-inventory-offset-material: air
+inventory-offset-material: GRAY_STAINED_GLASS_PANE
 
 # A bar at the bottom will be displayed with a button to switch to the next page in case there are too many items
 next-page-bar-material: GRAY_STAINED_GLASS_PANE

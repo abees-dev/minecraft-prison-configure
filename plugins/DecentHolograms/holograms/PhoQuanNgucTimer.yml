@@ -1,0 +1,14 @@
+enabled: true
+location: world_magadungeon:-1,516:89,000:55,438
+display-range: 48
+update-range: 48
+update-interval: 20
+down-origin: false
+pages:
+- lines:
+  - content: '&4&l[BOSS] &r&4&lPhó Quản Ngục'
+    height: 0.3
+  - content: '&7Hồi sinh sau: &c%mythic_spawner_PhoQuanNgucBoss_cooldownleft%'
+    height: 0.3
+  actions: {}
+facing: 0.0

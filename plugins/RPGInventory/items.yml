@@ -1,134 +1,130 @@
-
 # Vanilla Slots
 HELMET:
     type: helmet
     material: DIAMOND_HOE
     durability: 1
-    name: '&6Helmet Slot'
+    name: '&6Ô Mũ Bảo Hiểm'
     slot: 4
     lore:
-    - Drag & drop an item to equip it.
+    - '&7Kéo & thả vật phẩm vào đây để đeo.'
 CHESTPLATE:
     type: chestplate
     material: DIAMOND_HOE
     durability: 2
-    name: '&6Chestplate Slot'
+    name: '&6Ô Áo Giáp'
     slot: 13
     lore:
-    - Drag & drop an item to equip it.
+    - '&7Kéo & thả vật phẩm vào đây để đeo.'
 LEGGINGS:
     type: leggings
     material: DIAMOND_HOE
     durability: 3
-    name: '&6Leggings Slot'
+    name: '&6Ô Quần Giáp'
     slot: 22
     lore:
-    - Drag & drop an item to equip it.
+    - '&7Kéo & thả vật phẩm vào đây để đeo.'
 BOOTS:
     type: boots
     material: DIAMOND_HOE
     durability: 4
-    name: '&6Boots Slot'
+    name: '&6Ô Giày'
     slot: 31
     lore:
-    - Drag & drop an item to equip it.
+    - '&7Kéo & thả vật phẩm vào đây để đeo.'
 OFF_HAND:
     type: off_hand
     material: DIAMOND_HOE
     durability: 14
-    name: '&6Off Hand Slot'
+    name: '&6Ô Tay Phụ'
     slot: 12
     lore:
-    - Drag & drop an item to equip it.
+    - '&7Kéo & thả vật phẩm vào đây để đeo.'
 
 # Ring slots
 RIGHT_RING:
     type: accessory
     material: DIAMOND_HOE
     durability: 7
-    name: '&6Right Ring Slot'
+    name: '&6Ô Nhẫn Phải'
     slot: 25
     restrictions:
     - 'mmoitemstype{type=RING}'
     lore:
-    - Drag & drop an item to equip it.
+    - '&7Kéo & thả vật phẩm vào đây để đeo.'
 LEFT_RING:
     type: accessory
     material: DIAMOND_HOE
     durability: 8
-    name: '&6Left Ring Slot'
+    name: '&6Ô Nhẫn Trái'
     slot: 34
     restrictions:
     - 'mmoitemstype{type=RING}'
     lore:
-    - Drag & drop an item to equip it.
+    - '&7Kéo & thả vật phẩm vào đây để đeo.'
 
 # Extra accessories
 AMULET:
     type: accessory
     material: DIAMOND_HOE
     durability: 5
-    name: '&6Amulet Slot'
+    name: '&6Ô Dây Chuyền'
     slot: 7
     restrictions:
     - 'mmoitemstype{type=AMULET}'
     lore:
-    - Drag & drop an item to equip it.
+    - '&7Kéo & thả vật phẩm vào đây để đeo.'
 BRACELET:
     type: accessory
     material: DIAMOND_HOE
     durability: 6
-    name: '&6Bracelet Slot'
+    name: '&6Ô Vòng Tay'
     slot: 16
     restrictions:
     - 'mmoitemstype{type=BRACELET}'
     lore:
-    - Drag & drop an item to equip it.
+    - '&7Kéo & thả vật phẩm vào đây để đeo.'
 GLOVES:
     type: accessory
     material: DIAMOND_HOE
     durability: 9
-    name: '&6Gloves Slot'
+    name: '&6Ô Găng Tay'
     slot: 1
     restrictions:
     - 'mmoitemstype{type=GLOVES}'
     lore:
-    - Drag & drop an item to equip it.
+    - '&7Kéo & thả vật phẩm vào đây để đeo.'
 
 # Artifact slots
 ARTIFACT_1:
     type: accessory
     material: DIAMOND_HOE
     durability: 10
-    name: '&6Artifact Slot I'
+    name: '&6Ô Cổ Vật I'
     slot: 10
     restrictions:
     - 'mmoitemstype{type=ARTIFACT}'
-    - 'unique{enabled=true}'
     lore:
-    - Drag & drop an item to equip it.
+    - '&7Kéo & thả vật phẩm vào đây để đeo.'
 ARTIFACT_2:
     type: accessory
     material: DIAMOND_HOE
     durability: 11
-    name: '&6Artifact Slot II'
+    name: '&6Ô Cổ Vật II'
     slot: 19
     restrictions:
     - 'mmoitemstype{type=ARTIFACT}'
-    - 'unique{enabled=true}'
     lore:
-    - Drag & drop an item to equip it.
+    - '&7Kéo & thả vật phẩm vào đây để đeo.'
 ARTIFACT_3:
     type: accessory
     material: DIAMOND_HOE
     durability: 12
-    name: '&6Artifact Slot III'
+    name: '&6Ô Cổ Vật III'
     slot: 28
     restrictions:
     - 'mmoitemstype{type=ARTIFACT}'
-    - 'unique{enabled=true}'
     lore:
-    - Drag & drop an item to equip it.
+    - '&7Kéo & thả vật phẩm vào đây để đeo.'
 
 # Misc
 FILL:
