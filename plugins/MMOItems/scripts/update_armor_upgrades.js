@@ -9,6 +9,7 @@ if (!content.includes('armor-upgrade-template')) {
   content = content.replace(/(    will-break: false\s*\n    unbreakable: false)/g, (match) => {
     return `    upgrade:
       template: armor-upgrade-template
+      reference: armor-upgrade-template
       max: 100
 ${match}`;
   });

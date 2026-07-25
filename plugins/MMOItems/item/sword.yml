@@ -20,6 +20,7 @@ TEST_REVISION_SWORD:
       - Uncolored
       - Uncolored
     upgrade:
+      reference: weapon-upgrade-template
       template: weapon-upgrade-template
       max: 100
     will-break: false
@@ -42,6 +43,7 @@ SWORD_TAN_BINH_1:
     attack-speed: 1.6
     critical-strike-chance: 1.0
     upgrade:
+      reference: weapon-upgrade-template
       template: weapon-upgrade-template
       max: 100
     will-break: false
@@ -64,6 +66,7 @@ SWORD_TAN_BINH_2:
     attack-speed: 1.6
     critical-strike-chance: 1.5
     upgrade:
+      reference: weapon-upgrade-template
       template: weapon-upgrade-template
       max: 100
     will-break: false
@@ -86,6 +89,7 @@ SWORD_TAN_BINH_3:
     attack-speed: 1.6
     critical-strike-chance: 2.0
     upgrade:
+      reference: weapon-upgrade-template
       template: weapon-upgrade-template
       max: 100
     will-break: false
@@ -108,6 +112,7 @@ SWORD_TAN_BINH_4:
     attack-speed: 1.6
     critical-strike-chance: 2.5
     upgrade:
+      reference: weapon-upgrade-template
       template: weapon-upgrade-template
       max: 100
     will-break: false
@@ -130,6 +135,7 @@ SWORD_TAN_BINH_5:
     attack-speed: 1.6
     critical-strike-chance: 3.0
     upgrade:
+      reference: weapon-upgrade-template
       template: weapon-upgrade-template
       max: 100
     will-break: false
@@ -152,6 +158,7 @@ SWORD_TU_NHAN_1:
     attack-speed: 1.6
     critical-strike-chance: 3.0
     upgrade:
+      reference: weapon-upgrade-template
       template: weapon-upgrade-template
       max: 100
     will-break: false
@@ -174,6 +181,7 @@ SWORD_TU_NHAN_2:
     attack-speed: 1.6
     critical-strike-chance: 3.5
     upgrade:
+      reference: weapon-upgrade-template
       template: weapon-upgrade-template
       max: 100
     will-break: false
@@ -196,6 +204,7 @@ SWORD_TU_NHAN_3:
     attack-speed: 1.6
     critical-strike-chance: 4.0
     upgrade:
+      reference: weapon-upgrade-template
       template: weapon-upgrade-template
       max: 100
     will-break: false
@@ -218,6 +227,7 @@ SWORD_TU_NHAN_4:
     attack-speed: 1.6
     critical-strike-chance: 4.5
     upgrade:
+      reference: weapon-upgrade-template
       template: weapon-upgrade-template
       max: 100
     will-break: false
@@ -240,6 +250,7 @@ SWORD_TU_NHAN_5:
     attack-speed: 1.6
     critical-strike-chance: 5.0
     upgrade:
+      reference: weapon-upgrade-template
       template: weapon-upgrade-template
       max: 100
     will-break: false
@@ -264,6 +275,7 @@ SWORD_LAO_CONG_1:
     gem-sockets:
       - Uncolored
     upgrade:
+      reference: weapon-upgrade-template
       template: weapon-upgrade-template
       max: 100
     will-break: false
@@ -288,6 +300,7 @@ SWORD_LAO_CONG_2:
     gem-sockets:
       - Uncolored
     upgrade:
+      reference: weapon-upgrade-template
       template: weapon-upgrade-template
       max: 100
     will-break: false
@@ -312,6 +325,7 @@ SWORD_LAO_CONG_3:
     gem-sockets:
       - Uncolored
     upgrade:
+      reference: weapon-upgrade-template
       template: weapon-upgrade-template
       max: 100
     will-break: false
@@ -336,6 +350,7 @@ SWORD_LAO_CONG_4:
     gem-sockets:
       - Uncolored
     upgrade:
+      reference: weapon-upgrade-template
       template: weapon-upgrade-template
       max: 100
     will-break: false
@@ -360,6 +375,7 @@ SWORD_LAO_CONG_5:
     gem-sockets:
       - Uncolored
     upgrade:
+      reference: weapon-upgrade-template
       template: weapon-upgrade-template
       max: 100
     will-break: false
@@ -385,6 +401,7 @@ SWORD_THO_DAO_1:
       - Uncolored
       - Uncolored
     upgrade:
+      reference: weapon-upgrade-template
       template: weapon-upgrade-template
       max: 100
     will-break: false
@@ -410,6 +427,7 @@ SWORD_THO_DAO_2:
       - Uncolored
       - Uncolored
     upgrade:
+      reference: weapon-upgrade-template
       template: weapon-upgrade-template
       max: 100
     will-break: false
@@ -435,6 +453,7 @@ SWORD_THO_DAO_3:
       - Uncolored
       - Uncolored
     upgrade:
+      reference: weapon-upgrade-template
       template: weapon-upgrade-template
       max: 100
     will-break: false
@@ -460,6 +479,7 @@ SWORD_THO_DAO_4:
       - Uncolored
       - Uncolored
     upgrade:
+      reference: weapon-upgrade-template
       template: weapon-upgrade-template
       max: 100
     will-break: false
@@ -485,6 +505,7 @@ SWORD_THO_DAO_5:
       - Uncolored
       - Uncolored
     upgrade:
+      reference: weapon-upgrade-template
       template: weapon-upgrade-template
       max: 100
     will-break: false
@@ -512,6 +533,7 @@ SWORD_DOI_TRUONG_1:
       - Uncolored
       - Uncolored
     upgrade:
+      reference: weapon-upgrade-template
       template: weapon-upgrade-template
       max: 100
     will-break: false
@@ -539,6 +561,7 @@ SWORD_DOI_TRUONG_2:
       - Uncolored
       - Uncolored
     upgrade:
+      reference: weapon-upgrade-template
       template: weapon-upgrade-template
       max: 100
     will-break: false
@@ -566,6 +589,7 @@ SWORD_DOI_TRUONG_3:
       - Uncolored
       - Uncolored
     upgrade:
+      reference: weapon-upgrade-template
       template: weapon-upgrade-template
       max: 100
     will-break: false
@@ -593,6 +617,7 @@ SWORD_DOI_TRUONG_4:
       - Uncolored
       - Uncolored
     upgrade:
+      reference: weapon-upgrade-template
       template: weapon-upgrade-template
       max: 100
     will-break: false
@@ -620,6 +645,7 @@ SWORD_DOI_TRUONG_5:
       - Uncolored
       - Uncolored
     upgrade:
+      reference: weapon-upgrade-template
       template: weapon-upgrade-template
       max: 100
     will-break: false
@@ -648,6 +674,7 @@ SWORD_PHO_QUAN_NGUC_1:
       - Uncolored
       - Uncolored
     upgrade:
+      reference: weapon-upgrade-template
       template: weapon-upgrade-template
       max: 100
     will-break: false
@@ -676,6 +703,7 @@ SWORD_PHO_QUAN_NGUC_2:
       - Uncolored
       - Uncolored
     upgrade:
+      reference: weapon-upgrade-template
       template: weapon-upgrade-template
       max: 100
     will-break: false
@@ -704,6 +732,7 @@ SWORD_PHO_QUAN_NGUC_3:
       - Uncolored
       - Uncolored
     upgrade:
+      reference: weapon-upgrade-template
       template: weapon-upgrade-template
       max: 100
     will-break: false
@@ -732,6 +761,7 @@ SWORD_PHO_QUAN_NGUC_4:
       - Uncolored
       - Uncolored
     upgrade:
+      reference: weapon-upgrade-template
       template: weapon-upgrade-template
       max: 100
     will-break: false
@@ -760,6 +790,7 @@ SWORD_PHO_QUAN_NGUC_5:
       - Uncolored
       - Uncolored
     upgrade:
+      reference: weapon-upgrade-template
       template: weapon-upgrade-template
       max: 100
     will-break: false
@@ -788,6 +819,7 @@ SWORD_QUAN_NGUC_1:
       - Uncolored
       - Uncolored
     upgrade:
+      reference: weapon-upgrade-template
       template: weapon-upgrade-template
       max: 100
     will-break: false
@@ -816,6 +848,7 @@ SWORD_QUAN_NGUC_2:
       - Uncolored
       - Uncolored
     upgrade:
+      reference: weapon-upgrade-template
       template: weapon-upgrade-template
       max: 100
     will-break: false
@@ -844,6 +877,7 @@ SWORD_QUAN_NGUC_3:
       - Uncolored
       - Uncolored
     upgrade:
+      reference: weapon-upgrade-template
       template: weapon-upgrade-template
       max: 100
     will-break: false
@@ -872,6 +906,7 @@ SWORD_QUAN_NGUC_4:
       - Uncolored
       - Uncolored
     upgrade:
+      reference: weapon-upgrade-template
       template: weapon-upgrade-template
       max: 100
     will-break: false
@@ -900,6 +935,7 @@ SWORD_QUAN_NGUC_5:
       - Uncolored
       - Uncolored
     upgrade:
+      reference: weapon-upgrade-template
       template: weapon-upgrade-template
       max: 100
     will-break: false
@@ -929,6 +965,7 @@ SWORD_BA_CHU_NGUC_TU_1:
       - Uncolored
       - Uncolored
     upgrade:
+      reference: weapon-upgrade-template
       template: weapon-upgrade-template
       max: 100
     will-break: false
@@ -958,6 +995,7 @@ SWORD_BA_CHU_NGUC_TU_2:
       - Uncolored
       - Uncolored
     upgrade:
+      reference: weapon-upgrade-template
       template: weapon-upgrade-template
       max: 100
     will-break: false
@@ -987,6 +1025,7 @@ SWORD_BA_CHU_NGUC_TU_3:
       - Uncolored
       - Uncolored
     upgrade:
+      reference: weapon-upgrade-template
       template: weapon-upgrade-template
       max: 100
     will-break: false
@@ -1016,6 +1055,7 @@ SWORD_BA_CHU_NGUC_TU_4:
       - Uncolored
       - Uncolored
     upgrade:
+      reference: weapon-upgrade-template
       template: weapon-upgrade-template
       max: 100
     will-break: false
@@ -1045,6 +1085,7 @@ SWORD_BA_CHU_NGUC_TU_5:
       - Uncolored
       - Uncolored
     upgrade:
+      reference: weapon-upgrade-template
       template: weapon-upgrade-template
       max: 100
     will-break: false
@@ -1074,6 +1115,7 @@ SWORD_VUOT_NGUC_1:
       - Uncolored
       - Uncolored
     upgrade:
+      reference: weapon-upgrade-template
       template: weapon-upgrade-template
       max: 100
     will-break: false
@@ -1103,6 +1145,7 @@ SWORD_VUOT_NGUC_2:
       - Uncolored
       - Uncolored
     upgrade:
+      reference: weapon-upgrade-template
       template: weapon-upgrade-template
       max: 100
     will-break: false
@@ -1132,6 +1175,7 @@ SWORD_VUOT_NGUC_3:
       - Uncolored
       - Uncolored
     upgrade:
+      reference: weapon-upgrade-template
       template: weapon-upgrade-template
       max: 100
     will-break: false
@@ -1161,6 +1205,7 @@ SWORD_VUOT_NGUC_4:
       - Uncolored
       - Uncolored
     upgrade:
+      reference: weapon-upgrade-template
       template: weapon-upgrade-template
       max: 100
     will-break: false
@@ -1190,6 +1235,7 @@ SWORD_VUOT_NGUC_5:
       - Uncolored
       - Uncolored
     upgrade:
+      reference: weapon-upgrade-template
       template: weapon-upgrade-template
       max: 100
     will-break: false
@@ -1226,6 +1272,10 @@ GACHA_SWORD_AMETHYST:
       - Uncolored
       - Uncolored
       - Uncolored
+    upgrade:
+      template: weapon-upgrade-template
+      reference: weapon-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
@@ -1261,6 +1311,10 @@ GACHA_SWORD_PHANTOMGUARD:
       - Uncolored
       - Uncolored
       - Uncolored
+    upgrade:
+      template: weapon-upgrade-template
+      reference: weapon-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
@@ -1295,6 +1349,10 @@ GACHA_SWORD_VALHAKYRA:
       - Uncolored
       - Uncolored
       - Uncolored
+    upgrade:
+      template: weapon-upgrade-template
+      reference: weapon-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
@@ -1329,6 +1387,10 @@ GACHA_SWORD_CRYSTAL_FROST:
       - Uncolored
       - Uncolored
       - Uncolored
+    upgrade:
+      template: weapon-upgrade-template
+      reference: weapon-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
@@ -1363,6 +1425,10 @@ GACHA_SWORD_DEMONS_BLOOD:
       - Uncolored
       - Uncolored
       - Uncolored
+    upgrade:
+      template: weapon-upgrade-template
+      reference: weapon-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
@@ -1397,6 +1463,10 @@ GACHA_SWORD_MOONLIGHT:
       - Uncolored
       - Uncolored
       - Uncolored
+    upgrade:
+      template: weapon-upgrade-template
+      reference: weapon-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
@@ -1430,6 +1500,7 @@ DONATE_SWORD_LONG_VE:
       - Uncolored
       - Uncolored
     upgrade:
+      reference: weapon-upgrade-template
       template: weapon-upgrade-template
       max: 100
     will-break: false
@@ -1461,6 +1532,7 @@ DONATE_SWORD_LONG_CHIEN:
       - Uncolored
       - Uncolored
     upgrade:
+      reference: weapon-upgrade-template
       template: weapon-upgrade-template
       max: 100
     will-break: false
@@ -1492,6 +1564,7 @@ DONATE_SWORD_LONG_THAN:
       - Uncolored
       - Uncolored
     upgrade:
+      reference: weapon-upgrade-template
       template: weapon-upgrade-template
       max: 100
     will-break: false
@@ -1523,6 +1596,7 @@ DONATE_SWORD_LONG_DE:
       - Uncolored
       - Uncolored
     upgrade:
+      reference: weapon-upgrade-template
       template: weapon-upgrade-template
       max: 100
     will-break: false
@@ -1554,6 +1628,7 @@ DONATE_SWORD_LONG_HOANG:
       - Uncolored
       - Uncolored
     upgrade:
+      reference: weapon-upgrade-template
       template: weapon-upgrade-template
       max: 100
     will-break: false
@@ -1589,6 +1664,7 @@ TRADE_SWORD_HOA_LONG:
       - Uncolored
       - Uncolored
     upgrade:
+      reference: weapon-upgrade-template
       template: weapon-upgrade-template
       max: 100
     will-break: false
@@ -1620,6 +1696,7 @@ TRADE_SWORD_BANG_LONG:
       - Uncolored
       - Uncolored
     upgrade:
+      reference: weapon-upgrade-template
       template: weapon-upgrade-template
       max: 100
     will-break: false
@@ -1651,6 +1728,7 @@ TRADE_SWORD_LOI_LONG:
       - Uncolored
       - Uncolored
     upgrade:
+      reference: weapon-upgrade-template
       template: weapon-upgrade-template
       max: 100
     will-break: false
@@ -1682,6 +1760,7 @@ TRADE_SWORD_PHONG_LONG:
       - Uncolored
       - Uncolored
     upgrade:
+      reference: weapon-upgrade-template
       template: weapon-upgrade-template
       max: 100
     will-break: false
@@ -1713,6 +1792,7 @@ TRADE_SWORD_HAC_LONG:
       - Uncolored
       - Uncolored
     upgrade:
+      reference: weapon-upgrade-template
       template: weapon-upgrade-template
       max: 100
     will-break: false

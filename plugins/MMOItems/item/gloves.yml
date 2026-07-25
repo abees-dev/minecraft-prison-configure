@@ -16,6 +16,7 @@ TRADE_GLOVES_HOA_LONG:
       - Uncolored
       - Uncolored
     upgrade:
+      reference: armor-upgrade-template
       template: armor-upgrade-template
       max: 100
 
@@ -37,6 +38,7 @@ TRADE_GLOVES_HAC_LONG:
       - Uncolored
       - Uncolored
     upgrade:
+      reference: armor-upgrade-template
       template: armor-upgrade-template
       max: 100
 
@@ -58,6 +60,7 @@ TRADE_GLOVES_LOI_LONG:
       - Uncolored
       - Uncolored
     upgrade:
+      reference: armor-upgrade-template
       template: armor-upgrade-template
       max: 100
 
@@ -79,6 +82,7 @@ TRADE_GLOVES_PHONG_LONG:
       - Uncolored
       - Uncolored
     upgrade:
+      reference: armor-upgrade-template
       template: armor-upgrade-template
       max: 100
 
@@ -101,6 +105,7 @@ TRADE_GLOVES_BANG_LONG:
       - Uncolored
       - Uncolored
     upgrade:
+      reference: armor-upgrade-template
       template: armor-upgrade-template
       max: 100
 
@@ -122,6 +127,7 @@ DONATE_GLOVES_LONG_CHIEN:
       - Uncolored
       - Uncolored
     upgrade:
+      reference: armor-upgrade-template
       template: armor-upgrade-template
       max: 100
 
@@ -143,6 +149,7 @@ DONATE_GLOVES_LONG_THAN:
       - Uncolored
       - Uncolored
     upgrade:
+      reference: armor-upgrade-template
       template: armor-upgrade-template
       max: 100
 
@@ -164,6 +171,7 @@ DONATE_GLOVES_LONG_HOANG:
       - Uncolored
       - Uncolored
     upgrade:
+      reference: armor-upgrade-template
       template: armor-upgrade-template
       max: 100
 
@@ -185,6 +193,7 @@ DONATE_GLOVES_LONG_DE:
       - Uncolored
       - Uncolored
     upgrade:
+      reference: armor-upgrade-template
       template: armor-upgrade-template
       max: 100
 
@@ -207,6 +216,7 @@ DONATE_GLOVES_LONG_VE:
       - Uncolored
       - Uncolored
     upgrade:
+      reference: armor-upgrade-template
       template: armor-upgrade-template
       max: 100
 
@@ -225,6 +235,7 @@ FREE_GLOVES_THANH_LONG:
       - Uncolored
       - Uncolored
     upgrade:
+      reference: armor-upgrade-template
       template: armor-upgrade-template
       max: 100
 
@@ -243,6 +254,7 @@ FREE_GLOVES_XICH_LONG:
       - Uncolored
       - Uncolored
     upgrade:
+      reference: armor-upgrade-template
       template: armor-upgrade-template
       max: 100
 
@@ -261,6 +273,7 @@ FREE_GLOVES_KIM_LONG:
       - Uncolored
       - Uncolored
     upgrade:
+      reference: armor-upgrade-template
       template: armor-upgrade-template
       max: 100
 
@@ -279,6 +292,7 @@ FREE_GLOVES_THIEN_LONG:
       - Uncolored
       - Uncolored
     upgrade:
+      reference: armor-upgrade-template
       template: armor-upgrade-template
       max: 100
 
@@ -298,6 +312,7 @@ FREE_GLOVES_BAC_LONG:
       - Uncolored
       - Uncolored
     upgrade:
+      reference: armor-upgrade-template
       template: armor-upgrade-template
       max: 100
 

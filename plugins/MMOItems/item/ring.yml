@@ -16,6 +16,7 @@ TRADE_RING_HOA_LONG_1:
       - Uncolored
       - Uncolored
     upgrade:
+      reference: armor-upgrade-template
       template: weapon-upgrade-template
       max: 100
 
@@ -37,6 +38,7 @@ TRADE_RING_HOA_LONG_2:
       - Uncolored
       - Uncolored
     upgrade:
+      reference: armor-upgrade-template
       template: weapon-upgrade-template
       max: 100
 
@@ -58,6 +60,7 @@ TRADE_RING_HAC_LONG_1:
       - Uncolored
       - Uncolored
     upgrade:
+      reference: armor-upgrade-template
       template: weapon-upgrade-template
       max: 100
 
@@ -79,6 +82,7 @@ TRADE_RING_HAC_LONG_2:
       - Uncolored
       - Uncolored
     upgrade:
+      reference: armor-upgrade-template
       template: weapon-upgrade-template
       max: 100
 
@@ -101,6 +105,7 @@ TRADE_RING_LOI_LONG_1:
       - Uncolored
       - Uncolored
     upgrade:
+      reference: armor-upgrade-template
       template: weapon-upgrade-template
       max: 100
 
@@ -123,6 +128,7 @@ TRADE_RING_LOI_LONG_2:
       - Uncolored
       - Uncolored
     upgrade:
+      reference: armor-upgrade-template
       template: weapon-upgrade-template
       max: 100
 
@@ -144,6 +150,7 @@ TRADE_RING_PHONG_LONG_1:
       - Uncolored
       - Uncolored
     upgrade:
+      reference: armor-upgrade-template
       template: weapon-upgrade-template
       max: 100
 
@@ -165,6 +172,7 @@ TRADE_RING_PHONG_LONG_2:
       - Uncolored
       - Uncolored
     upgrade:
+      reference: armor-upgrade-template
       template: weapon-upgrade-template
       max: 100
 
@@ -187,6 +195,7 @@ TRADE_RING_BANG_LONG_1:
       - Uncolored
       - Uncolored
     upgrade:
+      reference: armor-upgrade-template
       template: weapon-upgrade-template
       max: 100
 
@@ -209,6 +218,7 @@ TRADE_RING_BANG_LONG_2:
       - Uncolored
       - Uncolored
     upgrade:
+      reference: armor-upgrade-template
       template: weapon-upgrade-template
       max: 100
 
@@ -230,6 +240,7 @@ DONATE_RING_LONG_CHIEN_1:
       - Uncolored
       - Uncolored
     upgrade:
+      reference: armor-upgrade-template
       template: weapon-upgrade-template
       max: 100
 
@@ -251,6 +262,7 @@ DONATE_RING_LONG_CHIEN_2:
       - Uncolored
       - Uncolored
     upgrade:
+      reference: armor-upgrade-template
       template: weapon-upgrade-template
       max: 100
 
@@ -272,6 +284,7 @@ DONATE_RING_LONG_THAN_1:
       - Uncolored
       - Uncolored
     upgrade:
+      reference: armor-upgrade-template
       template: weapon-upgrade-template
       max: 100
 
@@ -293,6 +306,7 @@ DONATE_RING_LONG_THAN_2:
       - Uncolored
       - Uncolored
     upgrade:
+      reference: armor-upgrade-template
       template: weapon-upgrade-template
       max: 100
 
@@ -315,6 +329,7 @@ DONATE_RING_LONG_HOANG_1:
       - Uncolored
       - Uncolored
     upgrade:
+      reference: armor-upgrade-template
       template: weapon-upgrade-template
       max: 100
 
@@ -337,6 +352,7 @@ DONATE_RING_LONG_HOANG_2:
       - Uncolored
       - Uncolored
     upgrade:
+      reference: armor-upgrade-template
       template: weapon-upgrade-template
       max: 100
 
@@ -358,6 +374,7 @@ DONATE_RING_LONG_DE_1:
       - Uncolored
       - Uncolored
     upgrade:
+      reference: armor-upgrade-template
       template: weapon-upgrade-template
       max: 100
 
@@ -379,6 +396,7 @@ DONATE_RING_LONG_DE_2:
       - Uncolored
       - Uncolored
     upgrade:
+      reference: armor-upgrade-template
       template: weapon-upgrade-template
       max: 100
 
@@ -401,6 +419,7 @@ DONATE_RING_LONG_VE_1:
       - Uncolored
       - Uncolored
     upgrade:
+      reference: armor-upgrade-template
       template: weapon-upgrade-template
       max: 100
 
@@ -423,6 +442,7 @@ DONATE_RING_LONG_VE_2:
       - Uncolored
       - Uncolored
     upgrade:
+      reference: armor-upgrade-template
       template: weapon-upgrade-template
       max: 100
 
@@ -441,6 +461,7 @@ FREE_RING_THANH_LONG_1:
       - Uncolored
       - Uncolored
     upgrade:
+      reference: armor-upgrade-template
       template: weapon-upgrade-template
       max: 100
 
@@ -459,6 +480,7 @@ FREE_RING_THANH_LONG_2:
       - Uncolored
       - Uncolored
     upgrade:
+      reference: armor-upgrade-template
       template: weapon-upgrade-template
       max: 100
 
@@ -477,6 +499,7 @@ FREE_RING_XICH_LONG_1:
       - Uncolored
       - Uncolored
     upgrade:
+      reference: armor-upgrade-template
       template: weapon-upgrade-template
       max: 100
 
@@ -495,6 +518,7 @@ FREE_RING_XICH_LONG_2:
       - Uncolored
       - Uncolored
     upgrade:
+      reference: armor-upgrade-template
       template: weapon-upgrade-template
       max: 100
 
@@ -514,6 +538,7 @@ FREE_RING_KIM_LONG_1:
       - Uncolored
       - Uncolored
     upgrade:
+      reference: armor-upgrade-template
       template: weapon-upgrade-template
       max: 100
 
@@ -533,6 +558,7 @@ FREE_RING_KIM_LONG_2:
       - Uncolored
       - Uncolored
     upgrade:
+      reference: armor-upgrade-template
       template: weapon-upgrade-template
       max: 100
 
@@ -551,6 +577,7 @@ FREE_RING_THIEN_LONG_1:
       - Uncolored
       - Uncolored
     upgrade:
+      reference: armor-upgrade-template
       template: weapon-upgrade-template
       max: 100
 
@@ -569,6 +596,7 @@ FREE_RING_THIEN_LONG_2:
       - Uncolored
       - Uncolored
     upgrade:
+      reference: armor-upgrade-template
       template: weapon-upgrade-template
       max: 100
 
@@ -588,6 +616,7 @@ FREE_RING_BAC_LONG_1:
       - Uncolored
       - Uncolored
     upgrade:
+      reference: armor-upgrade-template
       template: weapon-upgrade-template
       max: 100
 
@@ -607,6 +636,7 @@ FREE_RING_BAC_LONG_2:
       - Uncolored
       - Uncolored
     upgrade:
+      reference: armor-upgrade-template
       template: weapon-upgrade-template
       max: 100
 

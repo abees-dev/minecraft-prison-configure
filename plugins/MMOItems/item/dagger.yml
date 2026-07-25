@@ -29,6 +29,10 @@ GACHA_DAGGER_GLOOMSTEEL_KNIFE:
       - Uncolored
       - Uncolored
       - Uncolored
+    upgrade:
+      template: weapon-upgrade-template
+      reference: weapon-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
@@ -58,5 +62,9 @@ GACHA_DAGGER_RUNIC_PIERCER:
       - Uncolored
       - Uncolored
       - Uncolored
+    upgrade:
+      template: weapon-upgrade-template
+      reference: weapon-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false

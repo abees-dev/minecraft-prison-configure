@@ -103,6 +103,7 @@ let armorContent = `TEST_ARMOR_FULL_STATS:
     max-durability: 1000
     upgrade:
       template: armor-upgrade-template
+      reference: armor-upgrade-template
       max: 100
     will-break: false
     unbreakable: false

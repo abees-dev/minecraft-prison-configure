@@ -20,6 +20,7 @@ PICKAXE_TAN_BINH_1:
     custom-miningfortune: 1
     custom-miningunbreaking: 1
     upgrade:
+      reference: weapon-upgrade-template
       template: pickaxe-tan-binh-template
       max: 100
     will-break: false
@@ -47,6 +48,7 @@ PICKAXE_TAN_BINH_2:
     custom-miningfortune: 1
     custom-miningunbreaking: 1
     upgrade:
+      reference: weapon-upgrade-template
       template: pickaxe-tan-binh-template
       max: 100
     will-break: false
@@ -74,6 +76,7 @@ PICKAXE_TAN_BINH_3:
     custom-miningfortune: 1
     custom-miningunbreaking: 1
     upgrade:
+      reference: weapon-upgrade-template
       template: pickaxe-tan-binh-template
       max: 100
     will-break: false
@@ -101,6 +104,7 @@ PICKAXE_TAN_BINH_4:
     custom-miningfortune: 1
     custom-miningunbreaking: 1
     upgrade:
+      reference: weapon-upgrade-template
       template: pickaxe-tan-binh-template
       max: 100
     will-break: false
@@ -128,6 +132,7 @@ PICKAXE_TAN_BINH_5:
     custom-miningfortune: 2
     custom-miningunbreaking: 2
     upgrade:
+      reference: weapon-upgrade-template
       template: pickaxe-tan-binh-template
       max: 100
     will-break: false
@@ -155,6 +160,7 @@ PICKAXE_TU_NHAN_1:
     custom-miningfortune: 1
     custom-miningunbreaking: 1
     upgrade:
+      reference: weapon-upgrade-template
       template: pickaxe-tu-nhan-template
       max: 100
     will-break: false
@@ -182,6 +188,7 @@ PICKAXE_TU_NHAN_2:
     custom-miningfortune: 2
     custom-miningunbreaking: 2
     upgrade:
+      reference: weapon-upgrade-template
       template: pickaxe-tu-nhan-template
       max: 100
     will-break: false
@@ -209,6 +216,7 @@ PICKAXE_TU_NHAN_3:
     custom-miningfortune: 2
     custom-miningunbreaking: 2
     upgrade:
+      reference: weapon-upgrade-template
       template: pickaxe-tu-nhan-template
       max: 100
     will-break: false
@@ -236,6 +244,7 @@ PICKAXE_TU_NHAN_4:
     custom-miningfortune: 2
     custom-miningunbreaking: 2
     upgrade:
+      reference: weapon-upgrade-template
       template: pickaxe-tu-nhan-template
       max: 100
     will-break: false
@@ -263,6 +272,7 @@ PICKAXE_TU_NHAN_5:
     custom-miningfortune: 2
     custom-miningunbreaking: 2
     upgrade:
+      reference: weapon-upgrade-template
       template: pickaxe-tu-nhan-template
       max: 100
     will-break: false
@@ -292,6 +302,7 @@ PICKAXE_LAO_CONG_1:
     gem-sockets:
       - Uncolored
     upgrade:
+      reference: weapon-upgrade-template
       template: pickaxe-lao-cong-template
       max: 100
     will-break: false
@@ -321,6 +332,7 @@ PICKAXE_LAO_CONG_2:
     gem-sockets:
       - Uncolored
     upgrade:
+      reference: weapon-upgrade-template
       template: pickaxe-lao-cong-template
       max: 100
     will-break: false
@@ -350,6 +362,7 @@ PICKAXE_LAO_CONG_3:
     gem-sockets:
       - Uncolored
     upgrade:
+      reference: weapon-upgrade-template
       template: pickaxe-lao-cong-template
       max: 100
     will-break: false
@@ -379,6 +392,7 @@ PICKAXE_LAO_CONG_4:
     gem-sockets:
       - Uncolored
     upgrade:
+      reference: weapon-upgrade-template
       template: pickaxe-lao-cong-template
       max: 100
     will-break: false
@@ -408,6 +422,7 @@ PICKAXE_LAO_CONG_5:
     gem-sockets:
       - Uncolored
     upgrade:
+      reference: weapon-upgrade-template
       template: pickaxe-lao-cong-template
       max: 100
     will-break: false
@@ -438,6 +453,7 @@ PICKAXE_THO_DAO_1:
       - Uncolored
       - Uncolored
     upgrade:
+      reference: weapon-upgrade-template
       template: pickaxe-tho-dao-template
       max: 100
     will-break: false
@@ -468,6 +484,7 @@ PICKAXE_THO_DAO_2:
       - Uncolored
       - Uncolored
     upgrade:
+      reference: weapon-upgrade-template
       template: pickaxe-tho-dao-template
       max: 100
     will-break: false
@@ -498,6 +515,7 @@ PICKAXE_THO_DAO_3:
       - Uncolored
       - Uncolored
     upgrade:
+      reference: weapon-upgrade-template
       template: pickaxe-tho-dao-template
       max: 100
     will-break: false
@@ -528,6 +546,7 @@ PICKAXE_THO_DAO_4:
       - Uncolored
       - Uncolored
     upgrade:
+      reference: weapon-upgrade-template
       template: pickaxe-tho-dao-template
       max: 100
     will-break: false
@@ -558,6 +577,7 @@ PICKAXE_THO_DAO_5:
       - Uncolored
       - Uncolored
     upgrade:
+      reference: weapon-upgrade-template
       template: pickaxe-tho-dao-template
       max: 100
     will-break: false
@@ -589,6 +609,7 @@ PICKAXE_DOI_TRUONG_1:
       - Uncolored
       - Uncolored
     upgrade:
+      reference: weapon-upgrade-template
       template: pickaxe-doi-truong-template
       max: 100
     will-break: false
@@ -620,6 +641,7 @@ PICKAXE_DOI_TRUONG_2:
       - Uncolored
       - Uncolored
     upgrade:
+      reference: weapon-upgrade-template
       template: pickaxe-doi-truong-template
       max: 100
     will-break: false
@@ -651,6 +673,7 @@ PICKAXE_DOI_TRUONG_3:
       - Uncolored
       - Uncolored
     upgrade:
+      reference: weapon-upgrade-template
       template: pickaxe-doi-truong-template
       max: 100
     will-break: false
@@ -682,6 +705,7 @@ PICKAXE_DOI_TRUONG_4:
       - Uncolored
       - Uncolored
     upgrade:
+      reference: weapon-upgrade-template
       template: pickaxe-doi-truong-template
       max: 100
     will-break: false
@@ -713,6 +737,7 @@ PICKAXE_DOI_TRUONG_5:
       - Uncolored
       - Uncolored
     upgrade:
+      reference: weapon-upgrade-template
       template: pickaxe-doi-truong-template
       max: 100
     will-break: false
@@ -745,6 +770,7 @@ PICKAXE_PHO_QUAN_NGUC_1:
       - Uncolored
       - Uncolored
     upgrade:
+      reference: weapon-upgrade-template
       template: pickaxe-pho-quan-nguc-template
       max: 100
     will-break: false
@@ -777,6 +803,7 @@ PICKAXE_PHO_QUAN_NGUC_2:
       - Uncolored
       - Uncolored
     upgrade:
+      reference: weapon-upgrade-template
       template: pickaxe-pho-quan-nguc-template
       max: 100
     will-break: false
@@ -809,6 +836,7 @@ PICKAXE_PHO_QUAN_NGUC_3:
       - Uncolored
       - Uncolored
     upgrade:
+      reference: weapon-upgrade-template
       template: pickaxe-pho-quan-nguc-template
       max: 100
     will-break: false
@@ -841,6 +869,7 @@ PICKAXE_PHO_QUAN_NGUC_4:
       - Uncolored
       - Uncolored
     upgrade:
+      reference: weapon-upgrade-template
       template: pickaxe-pho-quan-nguc-template
       max: 100
     will-break: false
@@ -873,6 +902,7 @@ PICKAXE_PHO_QUAN_NGUC_5:
       - Uncolored
       - Uncolored
     upgrade:
+      reference: weapon-upgrade-template
       template: pickaxe-pho-quan-nguc-template
       max: 100
     will-break: false
@@ -905,6 +935,7 @@ PICKAXE_QUAN_NGUC_1:
       - Uncolored
       - Uncolored
     upgrade:
+      reference: weapon-upgrade-template
       template: pickaxe-quan-nguc-template
       max: 100
     will-break: false
@@ -937,6 +968,7 @@ PICKAXE_QUAN_NGUC_2:
       - Uncolored
       - Uncolored
     upgrade:
+      reference: weapon-upgrade-template
       template: pickaxe-quan-nguc-template
       max: 100
     will-break: false
@@ -969,6 +1001,7 @@ PICKAXE_QUAN_NGUC_3:
       - Uncolored
       - Uncolored
     upgrade:
+      reference: weapon-upgrade-template
       template: pickaxe-quan-nguc-template
       max: 100
     will-break: false
@@ -1001,6 +1034,7 @@ PICKAXE_QUAN_NGUC_4:
       - Uncolored
       - Uncolored
     upgrade:
+      reference: weapon-upgrade-template
       template: pickaxe-quan-nguc-template
       max: 100
     will-break: false
@@ -1033,6 +1067,7 @@ PICKAXE_QUAN_NGUC_5:
       - Uncolored
       - Uncolored
     upgrade:
+      reference: weapon-upgrade-template
       template: pickaxe-quan-nguc-template
       max: 100
     will-break: false
@@ -1066,6 +1101,7 @@ PICKAXE_BA_CHU_NGUC_TU_1:
       - Uncolored
       - Uncolored
     upgrade:
+      reference: weapon-upgrade-template
       template: pickaxe-ba-chu-nguc-tu-template
       max: 100
     will-break: false
@@ -1099,6 +1135,7 @@ PICKAXE_BA_CHU_NGUC_TU_2:
       - Uncolored
       - Uncolored
     upgrade:
+      reference: weapon-upgrade-template
       template: pickaxe-ba-chu-nguc-tu-template
       max: 100
     will-break: false
@@ -1132,6 +1169,7 @@ PICKAXE_BA_CHU_NGUC_TU_3:
       - Uncolored
       - Uncolored
     upgrade:
+      reference: weapon-upgrade-template
       template: pickaxe-ba-chu-nguc-tu-template
       max: 100
     will-break: false
@@ -1165,6 +1203,7 @@ PICKAXE_BA_CHU_NGUC_TU_4:
       - Uncolored
       - Uncolored
     upgrade:
+      reference: weapon-upgrade-template
       template: pickaxe-ba-chu-nguc-tu-template
       max: 100
     will-break: false
@@ -1198,6 +1237,7 @@ PICKAXE_BA_CHU_NGUC_TU_5:
       - Uncolored
       - Uncolored
     upgrade:
+      reference: weapon-upgrade-template
       template: pickaxe-ba-chu-nguc-tu-template
       max: 100
     will-break: false
@@ -1231,6 +1271,7 @@ PICKAXE_VUOT_NGUC_1:
       - Uncolored
       - Uncolored
     upgrade:
+      reference: weapon-upgrade-template
       template: pickaxe-vuot-nguc-template
       max: 100
     will-break: false
@@ -1264,6 +1305,7 @@ PICKAXE_VUOT_NGUC_2:
       - Uncolored
       - Uncolored
     upgrade:
+      reference: weapon-upgrade-template
       template: pickaxe-vuot-nguc-template
       max: 100
     will-break: false
@@ -1297,6 +1339,7 @@ PICKAXE_VUOT_NGUC_3:
       - Uncolored
       - Uncolored
     upgrade:
+      reference: weapon-upgrade-template
       template: pickaxe-vuot-nguc-template
       max: 100
     will-break: false
@@ -1330,6 +1373,7 @@ PICKAXE_VUOT_NGUC_4:
       - Uncolored
       - Uncolored
     upgrade:
+      reference: weapon-upgrade-template
       template: pickaxe-vuot-nguc-template
       max: 100
     will-break: false
@@ -1363,6 +1407,7 @@ PICKAXE_VUOT_NGUC_5:
       - Uncolored
       - Uncolored
     upgrade:
+      reference: weapon-upgrade-template
       template: pickaxe-vuot-nguc-template
       max: 100
     will-break: false

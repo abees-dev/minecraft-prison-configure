@@ -15,7 +15,9 @@ DA_CUONG_HOA_VU_KHI_SO_CAP:
       - "&7 &a●&7 Tỷ lệ thành công: &a85%"
     upgrade:
       reference: weapon-upgrade-template
+      template: weapon-upgrade-template
       success-rate: 85.0
+      success: 85.0
       max: 20
       destroy-on-fail: false
 
@@ -36,7 +38,9 @@ DA_CUONG_HOA_VU_KHI_TRUNG_CAP:
       - "&7 &e●&7 Tỷ lệ thành công: &e65%"
     upgrade:
       reference: weapon-upgrade-template
+      template: weapon-upgrade-template
       success-rate: 65.0
+      success: 65.0
       max: 40
       destroy-on-fail: false
 
@@ -57,7 +61,9 @@ DA_CUONG_HOA_VU_KHI_CAO_CAP:
       - "&7 &6●&7 Tỷ lệ thành công: &645%"
     upgrade:
       reference: weapon-upgrade-template
+      template: weapon-upgrade-template
       success-rate: 45.0
+      success: 45.0
       max: 60
       destroy-on-fail: false
 
@@ -78,7 +84,9 @@ DA_CUONG_HOA_VU_KHI_SIEU_CAP:
       - "&7 &c●&7 Tỷ lệ thành công: &c25%"
     upgrade:
       reference: weapon-upgrade-template
+      template: weapon-upgrade-template
       success-rate: 25.0
+      success: 25.0
       max: 80
       destroy-on-fail: false
 
@@ -99,7 +107,9 @@ DA_CUONG_HOA_VU_KHI_HUYEN_THOAI:
       - "&7 &d●&7 Tỷ lệ thành công: &d10%"
     upgrade:
       reference: weapon-upgrade-template
+      template: weapon-upgrade-template
       success-rate: 10.0
+      success: 10.0
       max: 100
       destroy-on-fail: false
 
@@ -120,7 +130,9 @@ DA_CUONG_HOA_GIAP_SO_CAP:
       - "&7 &a●&7 Tỷ lệ thành công: &a85%"
     upgrade:
       reference: armor-upgrade-template
+      template: armor-upgrade-template
       success-rate: 85.0
+      success: 85.0
       max: 20
       destroy-on-fail: false
 
@@ -141,7 +153,9 @@ DA_CUONG_HOA_GIAP_TRUNG_CAP:
       - "&7 &e●&7 Tỷ lệ thành công: &e65%"
     upgrade:
       reference: armor-upgrade-template
+      template: armor-upgrade-template
       success-rate: 65.0
+      success: 65.0
       max: 40
       destroy-on-fail: false
 
@@ -162,7 +176,9 @@ DA_CUONG_HOA_GIAP_CAO_CAP:
       - "&7 &6●&7 Tỷ lệ thành công: &645%"
     upgrade:
       reference: armor-upgrade-template
+      template: armor-upgrade-template
       success-rate: 45.0
+      success: 45.0
       max: 60
       destroy-on-fail: false
 
@@ -183,7 +199,9 @@ DA_CUONG_HOA_GIAP_SIEU_CAP:
       - "&7 &c●&7 Tỷ lệ thành công: &c25%"
     upgrade:
       reference: armor-upgrade-template
+      template: armor-upgrade-template
       success-rate: 25.0
+      success: 25.0
       max: 80
       destroy-on-fail: false
 
@@ -204,7 +222,9 @@ DA_CUONG_HOA_GIAP_HUYEN_THOAI:
       - "&7 &d●&7 Tỷ lệ thành công: &d10%"
     upgrade:
       reference: armor-upgrade-template
+      template: armor-upgrade-template
       success-rate: 10.0
+      success: 10.0
       max: 100
       destroy-on-fail: false
 
@@ -224,6 +244,9 @@ DA_CUONG_HOA_THIEN_MENH:
       - "&7 &d●&7 Kéo & thả vào bất kỳ Vũ Khí/Giáp để đập lên cấp (+1 Cấp)"
       - "&7 &d●&7 Tỷ lệ thành công: &a&l100% (Hoàn Hảo)"
     upgrade:
+      reference: all
+      template: weapon-upgrade-template
       success-rate: 100.0
+      success: 100.0
       max: 100
       destroy-on-fail: false

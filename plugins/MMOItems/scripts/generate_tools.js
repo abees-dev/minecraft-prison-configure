@@ -74,6 +74,7 @@ ranks.forEach((r, rIdx) => {
     toolContent += getSocketsYAML(rIdx);
     toolContent += `    upgrade:
       template: ${r.template}
+      reference: weapon-upgrade-template
       max: 100
     will-break: false
     unbreakable: false

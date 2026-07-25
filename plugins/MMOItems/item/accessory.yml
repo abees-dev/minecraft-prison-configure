@@ -9,6 +9,10 @@ LONG_VUONG_RING_1:
     set: LONG_VUONG_SET
     attack-damage: 15.0
     critical-strike-chance: 5.0
+    upgrade:
+      template: armor-upgrade-template
+      reference: armor-upgrade-template
+      max: 100
 
 LONG_VUONG_RING_2:
   itemsadder-item: "rings_pack:set1_ring_2"
@@ -20,6 +24,10 @@ LONG_VUONG_RING_2:
     set: LONG_VUONG_SET
     attack-damage: 15.0
     critical-strike-power: 10.0
+    upgrade:
+      template: armor-upgrade-template
+      reference: armor-upgrade-template
+      max: 100
 
 BANG_TINH_RING_1:
   itemsadder-item: "rings_pack:set2_ring_1"
@@ -31,6 +39,10 @@ BANG_TINH_RING_1:
     set: BANG_TINH_SET
     max-health: 80.0
     damage-reduction: 3.0
+    upgrade:
+      template: armor-upgrade-template
+      reference: armor-upgrade-template
+      max: 100
 
 BANG_TINH_RING_2:
   itemsadder-item: "rings_pack:set2_ring_2"
@@ -42,6 +54,10 @@ BANG_TINH_RING_2:
     set: BANG_TINH_SET
     max-health: 80.0
     armor: 8.0
+    upgrade:
+      template: armor-upgrade-template
+      reference: armor-upgrade-template
+      max: 100
 
 HAC_AM_RING_1:
   itemsadder-item: "rings_pack:set3_ring_1"
@@ -53,6 +69,10 @@ HAC_AM_RING_1:
     set: HAC_AM_SET
     magic-damage: 8.0
     max-mana: 50.0
+    upgrade:
+      template: armor-upgrade-template
+      reference: armor-upgrade-template
+      max: 100
 
 HAC_AM_RING_2:
   itemsadder-item: "rings_pack:set3_ring_2"
@@ -64,6 +84,10 @@ HAC_AM_RING_2:
     set: HAC_AM_SET
     magic-damage: 8.0
     max-mana: 50.0
+    upgrade:
+      template: armor-upgrade-template
+      reference: armor-upgrade-template
+      max: 100
 
 LOI_THAN_RING_1:
   itemsadder-item: "rings_pack:set5_ring_1"
@@ -75,6 +99,10 @@ LOI_THAN_RING_1:
     set: LOI_THAN_SET
     attack-speed: 8.0
     movement-speed: 0.01
+    upgrade:
+      template: armor-upgrade-template
+      reference: armor-upgrade-template
+      max: 100
 
 LOI_THAN_RING_2:
   itemsadder-item: "rings_pack:set5_ring_2"
@@ -86,6 +114,10 @@ LOI_THAN_RING_2:
     set: LOI_THAN_SET
     attack-speed: 8.0
     dodge-rating: 4.0
+    upgrade:
+      template: armor-upgrade-template
+      reference: armor-upgrade-template
+      max: 100
 
 HOANG_GIA_RING_1:
   itemsadder-item: "rings_pack:set8_ring_1"
@@ -97,6 +129,10 @@ HOANG_GIA_RING_1:
     set: HOANG_GIA_SET
     physical-damage: 8.0
     max-health: 60.0
+    upgrade:
+      template: armor-upgrade-template
+      reference: armor-upgrade-template
+      max: 100
 
 HOANG_GIA_RING_2:
   itemsadder-item: "rings_pack:set8_ring_2"
@@ -108,6 +144,10 @@ HOANG_GIA_RING_2:
     set: HOANG_GIA_SET
     magic-damage: 8.0
     max-mana: 40.0
+    upgrade:
+      template: armor-upgrade-template
+      reference: armor-upgrade-template
+      max: 100
 
 
 LONG_VUONG_AMULET:
@@ -120,6 +160,10 @@ LONG_VUONG_AMULET:
     set: LONG_VUONG_SET
     attack-damage: 20.0
     critical-strike-chance: 8.0
+    upgrade:
+      template: armor-upgrade-template
+      reference: armor-upgrade-template
+      max: 100
 
 BANG_TINH_AMULET:
   itemsadder-item: "rings_pack:set2_necklace_2"
@@ -131,6 +175,10 @@ BANG_TINH_AMULET:
     set: BANG_TINH_SET
     max-health: 120.0
     damage-reduction: 5.0
+    upgrade:
+      template: armor-upgrade-template
+      reference: armor-upgrade-template
+      max: 100
 
 HAC_AM_AMULET:
   itemsadder-item: "rings_pack:set3_necklace_1"
@@ -142,6 +190,10 @@ HAC_AM_AMULET:
     set: HAC_AM_SET
     magic-damage: 12.0
     max-mana: 100.0
+    upgrade:
+      template: armor-upgrade-template
+      reference: armor-upgrade-template
+      max: 100
 
 LOI_THAN_AMULET:
   itemsadder-item: "rings_pack:set5_necklace_1"
@@ -153,6 +205,10 @@ LOI_THAN_AMULET:
     set: LOI_THAN_SET
     attack-speed: 12.0
     movement-speed: 0.02
+    upgrade:
+      template: armor-upgrade-template
+      reference: armor-upgrade-template
+      max: 100
 
 HOANG_GIA_AMULET:
   itemsadder-item: "rings_pack:set8_necklace_1"
@@ -164,6 +220,10 @@ HOANG_GIA_AMULET:
     set: HOANG_GIA_SET
     physical-damage: 12.0
     max-health: 100.0
+    upgrade:
+      template: armor-upgrade-template
+      reference: armor-upgrade-template
+      max: 100
 
 
 LONG_VUONG_BRACELET:
@@ -176,6 +236,10 @@ LONG_VUONG_BRACELET:
     set: LONG_VUONG_SET
     attack-damage: 10.0
     critical-strike-power: 15.0
+    upgrade:
+      template: armor-upgrade-template
+      reference: armor-upgrade-template
+      max: 100
 
 BANG_TINH_BRACELET:
   itemsadder-item: "rings_pack:set2_ring_5"
@@ -187,6 +251,10 @@ BANG_TINH_BRACELET:
     set: BANG_TINH_SET
     max-health: 100.0
     armor: 10.0
+    upgrade:
+      template: armor-upgrade-template
+      reference: armor-upgrade-template
+      max: 100
 
 HAC_AM_BRACELET:
   itemsadder-item: "rings_pack:set3_ring_5"
@@ -198,6 +266,10 @@ HAC_AM_BRACELET:
     set: HAC_AM_SET
     magic-damage: 10.0
     max-mana: 80.0
+    upgrade:
+      template: armor-upgrade-template
+      reference: armor-upgrade-template
+      max: 100
 
 LOI_THAN_BRACELET:
   itemsadder-item: "rings_pack:set5_ring_5"
@@ -209,6 +281,10 @@ LOI_THAN_BRACELET:
     set: LOI_THAN_SET
     attack-speed: 10.0
     dodge-rating: 5.0
+    upgrade:
+      template: armor-upgrade-template
+      reference: armor-upgrade-template
+      max: 100
 
 HOANG_GIA_BRACELET:
   itemsadder-item: "rings_pack:set8_ring_5"
@@ -220,6 +296,10 @@ HOANG_GIA_BRACELET:
     set: HOANG_GIA_SET
     physical-damage: 10.0
     magic-damage: 5.0
+    upgrade:
+      template: armor-upgrade-template
+      reference: armor-upgrade-template
+      max: 100
 
 
 LONG_VUONG_GLOVES:
@@ -232,6 +312,10 @@ LONG_VUONG_GLOVES:
     set: LONG_VUONG_SET
     attack-damage: 12.0
     critical-strike-chance: 6.0
+    upgrade:
+      template: armor-upgrade-template
+      reference: armor-upgrade-template
+      max: 100
 
 BANG_TINH_GLOVES:
   itemsadder-item: "rings_pack:glove_61"
@@ -243,6 +327,10 @@ BANG_TINH_GLOVES:
     set: BANG_TINH_SET
     max-health: 90.0
     damage-reduction: 4.0
+    upgrade:
+      template: armor-upgrade-template
+      reference: armor-upgrade-template
+      max: 100
 
 HAC_AM_GLOVES:
   itemsadder-item: "rings_pack:glove_2"
@@ -253,6 +341,10 @@ HAC_AM_GLOVES:
     name: "&d&lGăng Tay Hắc Ám"
     set: HAC_AM_SET
     magic-damage: 15.0
+    upgrade:
+      template: armor-upgrade-template
+      reference: armor-upgrade-template
+      max: 100
 
 LOI_THAN_GLOVES:
   itemsadder-item: "rings_pack:glove_1"
@@ -264,6 +356,10 @@ LOI_THAN_GLOVES:
     set: LOI_THAN_SET
     attack-speed: 10.0
     movement-speed: 0.015
+    upgrade:
+      template: armor-upgrade-template
+      reference: armor-upgrade-template
+      max: 100
 
 HOANG_GIA_GLOVES:
   itemsadder-item: "rings_pack:glove_85"
@@ -275,3 +371,7 @@ HOANG_GIA_GLOVES:
     set: HOANG_GIA_SET
     physical-damage: 10.0
     max-health: 80.0
+    upgrade:
+      template: armor-upgrade-template
+      reference: armor-upgrade-template
+      max: 100

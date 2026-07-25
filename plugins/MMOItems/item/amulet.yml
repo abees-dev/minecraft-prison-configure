@@ -16,6 +16,7 @@ TRADE_AMULET_HOA_LONG:
       - Uncolored
       - Uncolored
     upgrade:
+      reference: armor-upgrade-template
       template: armor-upgrade-template
       max: 100
 
@@ -38,6 +39,7 @@ TRADE_AMULET_HAC_LONG:
       - Uncolored
       - Uncolored
     upgrade:
+      reference: armor-upgrade-template
       template: armor-upgrade-template
       max: 100
 
@@ -60,6 +62,7 @@ TRADE_AMULET_LOI_LONG:
       - Uncolored
       - Uncolored
     upgrade:
+      reference: armor-upgrade-template
       template: armor-upgrade-template
       max: 100
 
@@ -82,6 +85,7 @@ TRADE_AMULET_PHONG_LONG:
       - Uncolored
       - Uncolored
     upgrade:
+      reference: armor-upgrade-template
       template: armor-upgrade-template
       max: 100
 
@@ -104,6 +108,7 @@ TRADE_AMULET_BANG_LONG:
       - Uncolored
       - Uncolored
     upgrade:
+      reference: armor-upgrade-template
       template: armor-upgrade-template
       max: 100
 
@@ -125,6 +130,7 @@ DONATE_AMULET_LONG_CHIEN:
       - Uncolored
       - Uncolored
     upgrade:
+      reference: armor-upgrade-template
       template: armor-upgrade-template
       max: 100
 
@@ -147,6 +153,7 @@ DONATE_AMULET_LONG_THAN:
       - Uncolored
       - Uncolored
     upgrade:
+      reference: armor-upgrade-template
       template: armor-upgrade-template
       max: 100
 
@@ -169,6 +176,7 @@ DONATE_AMULET_LONG_HOANG:
       - Uncolored
       - Uncolored
     upgrade:
+      reference: armor-upgrade-template
       template: armor-upgrade-template
       max: 100
 
@@ -191,6 +199,7 @@ DONATE_AMULET_LONG_DE:
       - Uncolored
       - Uncolored
     upgrade:
+      reference: armor-upgrade-template
       template: armor-upgrade-template
       max: 100
 
@@ -213,6 +222,7 @@ DONATE_AMULET_LONG_VE:
       - Uncolored
       - Uncolored
     upgrade:
+      reference: armor-upgrade-template
       template: armor-upgrade-template
       max: 100
 
@@ -231,6 +241,7 @@ FREE_AMULET_THANH_LONG:
       - Uncolored
       - Uncolored
     upgrade:
+      reference: armor-upgrade-template
       template: armor-upgrade-template
       max: 100
 
@@ -250,6 +261,7 @@ FREE_AMULET_XICH_LONG:
       - Uncolored
       - Uncolored
     upgrade:
+      reference: armor-upgrade-template
       template: armor-upgrade-template
       max: 100
 
@@ -269,6 +281,7 @@ FREE_AMULET_KIM_LONG:
       - Uncolored
       - Uncolored
     upgrade:
+      reference: armor-upgrade-template
       template: armor-upgrade-template
       max: 100
 
@@ -288,6 +301,7 @@ FREE_AMULET_THIEN_LONG:
       - Uncolored
       - Uncolored
     upgrade:
+      reference: armor-upgrade-template
       template: armor-upgrade-template
       max: 100
 
@@ -307,6 +321,7 @@ FREE_AMULET_BAC_LONG:
       - Uncolored
       - Uncolored
     upgrade:
+      reference: armor-upgrade-template
       template: armor-upgrade-template
       max: 100
 

@@ -309,3 +309,33 @@ TINHTHE_HUY_DIET:
     lore:
       - "&7 &5●&7 Tinh thể huyền thoại ngưng tụ từ các Boss Ngục Tù"
       - "&7 &5●&7 Nguyên liệu cao cấp để rèn trang bị phẩm chất thượng thừa"
+
+HUY_HIEU_TRIEU_HOI:
+  base:
+    revision-id: 1
+    material: NETHER_STAR
+    name: "&6✪ Huy Hiệu Triệu Hồi &f&lMa Vương Ngục Tù"
+    tier: EPIC
+    lore-format: ingredient-lore
+    hide-enchants: true
+    enchants:
+      unbreaking: 1
+    lore:
+      - "&7 &6●&7 Chế từ &fHuy Hiệu Vỡ&7 (rớt từ Boss trong Nhà Tù)"
+      - "&7 &6●&7 Mang huy hiệu này đến bàn thờ triệu hồi"
+      - "&7 &6●&7 để đánh thức &4&lMa Vương Ngục Tù&7 — trùm cuối cùng"
+
+MANH_HUY_HIEU_TRIEU_HOI:
+  base:
+    revision-id: 1
+    material: PRISMARINE_SHARD
+    name: "&7✪ Huy Hiệu Vỡ &7&l[Mảnh]"
+    tier: RARE
+    lore-format: ingredient-lore
+    hide-enchants: true
+    enchants:
+      unbreaking: 1
+    lore:
+      - "&7 &f●&7 Mảnh vỡ huy hiệu, rớt ra khi hạ gục bất kỳ Boss nào"
+      - "&7 &f●&7 trong Nhà Tù (9 rank)"
+      - "&7 &f●&7 Dùng để chế thành &6Huy Hiệu Triệu Hồi&7 hoàn chỉnh"

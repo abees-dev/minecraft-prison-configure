@@ -15,6 +15,7 @@ AXE_TAN_BINH_1:
     attack-speed: 1
     knockback: 0.2
     upgrade:
+      reference: weapon-upgrade-template
       template: weapon-upgrade-template
       max: 100
     will-break: false
@@ -37,6 +38,7 @@ AXE_TAN_BINH_2:
     attack-speed: 1
     knockback: 0.3
     upgrade:
+      reference: weapon-upgrade-template
       template: weapon-upgrade-template
       max: 100
     will-break: false
@@ -59,6 +61,7 @@ AXE_TAN_BINH_3:
     attack-speed: 1
     knockback: 0.3
     upgrade:
+      reference: weapon-upgrade-template
       template: weapon-upgrade-template
       max: 100
     will-break: false
@@ -81,6 +84,7 @@ AXE_TAN_BINH_4:
     attack-speed: 1
     knockback: 0.4
     upgrade:
+      reference: weapon-upgrade-template
       template: weapon-upgrade-template
       max: 100
     will-break: false
@@ -103,6 +107,7 @@ AXE_TAN_BINH_5:
     attack-speed: 1
     knockback: 0.4
     upgrade:
+      reference: weapon-upgrade-template
       template: weapon-upgrade-template
       max: 100
     will-break: false
@@ -125,6 +130,7 @@ AXE_TU_NHAN_1:
     attack-speed: 1
     knockback: 0.4
     upgrade:
+      reference: weapon-upgrade-template
       template: weapon-upgrade-template
       max: 100
     will-break: false
@@ -147,6 +153,7 @@ AXE_TU_NHAN_2:
     attack-speed: 1
     knockback: 0.5
     upgrade:
+      reference: weapon-upgrade-template
       template: weapon-upgrade-template
       max: 100
     will-break: false
@@ -169,6 +176,7 @@ AXE_TU_NHAN_3:
     attack-speed: 1
     knockback: 0.5
     upgrade:
+      reference: weapon-upgrade-template
       template: weapon-upgrade-template
       max: 100
     will-break: false
@@ -191,6 +199,7 @@ AXE_TU_NHAN_4:
     attack-speed: 1
     knockback: 0.6
     upgrade:
+      reference: weapon-upgrade-template
       template: weapon-upgrade-template
       max: 100
     will-break: false
@@ -213,6 +222,7 @@ AXE_TU_NHAN_5:
     attack-speed: 1
     knockback: 0.6
     upgrade:
+      reference: weapon-upgrade-template
       template: weapon-upgrade-template
       max: 100
     will-break: false
@@ -237,6 +247,7 @@ AXE_LAO_CONG_1:
     gem-sockets:
       - Uncolored
     upgrade:
+      reference: weapon-upgrade-template
       template: weapon-upgrade-template
       max: 100
     will-break: false
@@ -261,6 +272,7 @@ AXE_LAO_CONG_2:
     gem-sockets:
       - Uncolored
     upgrade:
+      reference: weapon-upgrade-template
       template: weapon-upgrade-template
       max: 100
     will-break: false
@@ -285,6 +297,7 @@ AXE_LAO_CONG_3:
     gem-sockets:
       - Uncolored
     upgrade:
+      reference: weapon-upgrade-template
       template: weapon-upgrade-template
       max: 100
     will-break: false
@@ -309,6 +322,7 @@ AXE_LAO_CONG_4:
     gem-sockets:
       - Uncolored
     upgrade:
+      reference: weapon-upgrade-template
       template: weapon-upgrade-template
       max: 100
     will-break: false
@@ -333,6 +347,7 @@ AXE_LAO_CONG_5:
     gem-sockets:
       - Uncolored
     upgrade:
+      reference: weapon-upgrade-template
       template: weapon-upgrade-template
       max: 100
     will-break: false
@@ -358,6 +373,7 @@ AXE_THO_DAO_1:
       - Uncolored
       - Uncolored
     upgrade:
+      reference: weapon-upgrade-template
       template: weapon-upgrade-template
       max: 100
     will-break: false
@@ -383,6 +399,7 @@ AXE_THO_DAO_2:
       - Uncolored
       - Uncolored
     upgrade:
+      reference: weapon-upgrade-template
       template: weapon-upgrade-template
       max: 100
     will-break: false
@@ -408,6 +425,7 @@ AXE_THO_DAO_3:
       - Uncolored
       - Uncolored
     upgrade:
+      reference: weapon-upgrade-template
       template: weapon-upgrade-template
       max: 100
     will-break: false
@@ -433,6 +451,7 @@ AXE_THO_DAO_4:
       - Uncolored
       - Uncolored
     upgrade:
+      reference: weapon-upgrade-template
       template: weapon-upgrade-template
       max: 100
     will-break: false
@@ -458,6 +477,7 @@ AXE_THO_DAO_5:
       - Uncolored
       - Uncolored
     upgrade:
+      reference: weapon-upgrade-template
       template: weapon-upgrade-template
       max: 100
     will-break: false
@@ -485,6 +505,7 @@ AXE_DOI_TRUONG_1:
       - Uncolored
       - Uncolored
     upgrade:
+      reference: weapon-upgrade-template
       template: weapon-upgrade-template
       max: 100
     will-break: false
@@ -512,6 +533,7 @@ AXE_DOI_TRUONG_2:
       - Uncolored
       - Uncolored
     upgrade:
+      reference: weapon-upgrade-template
       template: weapon-upgrade-template
       max: 100
     will-break: false
@@ -539,6 +561,7 @@ AXE_DOI_TRUONG_3:
       - Uncolored
       - Uncolored
     upgrade:
+      reference: weapon-upgrade-template
       template: weapon-upgrade-template
       max: 100
     will-break: false
@@ -566,6 +589,7 @@ AXE_DOI_TRUONG_4:
       - Uncolored
       - Uncolored
     upgrade:
+      reference: weapon-upgrade-template
       template: weapon-upgrade-template
       max: 100
     will-break: false
@@ -593,6 +617,7 @@ AXE_DOI_TRUONG_5:
       - Uncolored
       - Uncolored
     upgrade:
+      reference: weapon-upgrade-template
       template: weapon-upgrade-template
       max: 100
     will-break: false
@@ -621,6 +646,7 @@ AXE_PHO_QUAN_NGUC_1:
       - Uncolored
       - Uncolored
     upgrade:
+      reference: weapon-upgrade-template
       template: weapon-upgrade-template
       max: 100
     will-break: false
@@ -649,6 +675,7 @@ AXE_PHO_QUAN_NGUC_2:
       - Uncolored
       - Uncolored
     upgrade:
+      reference: weapon-upgrade-template
       template: weapon-upgrade-template
       max: 100
     will-break: false
@@ -677,6 +704,7 @@ AXE_PHO_QUAN_NGUC_3:
       - Uncolored
       - Uncolored
     upgrade:
+      reference: weapon-upgrade-template
       template: weapon-upgrade-template
       max: 100
     will-break: false
@@ -705,6 +733,7 @@ AXE_PHO_QUAN_NGUC_4:
       - Uncolored
       - Uncolored
     upgrade:
+      reference: weapon-upgrade-template
       template: weapon-upgrade-template
       max: 100
     will-break: false
@@ -733,6 +762,7 @@ AXE_PHO_QUAN_NGUC_5:
       - Uncolored
       - Uncolored
     upgrade:
+      reference: weapon-upgrade-template
       template: weapon-upgrade-template
       max: 100
     will-break: false
@@ -761,6 +791,7 @@ AXE_QUAN_NGUC_1:
       - Uncolored
       - Uncolored
     upgrade:
+      reference: weapon-upgrade-template
       template: weapon-upgrade-template
       max: 100
     will-break: false
@@ -789,6 +820,7 @@ AXE_QUAN_NGUC_2:
       - Uncolored
       - Uncolored
     upgrade:
+      reference: weapon-upgrade-template
       template: weapon-upgrade-template
       max: 100
     will-break: false
@@ -817,6 +849,7 @@ AXE_QUAN_NGUC_3:
       - Uncolored
       - Uncolored
     upgrade:
+      reference: weapon-upgrade-template
       template: weapon-upgrade-template
       max: 100
     will-break: false
@@ -845,6 +878,7 @@ AXE_QUAN_NGUC_4:
       - Uncolored
       - Uncolored
     upgrade:
+      reference: weapon-upgrade-template
       template: weapon-upgrade-template
       max: 100
     will-break: false
@@ -873,6 +907,7 @@ AXE_QUAN_NGUC_5:
       - Uncolored
       - Uncolored
     upgrade:
+      reference: weapon-upgrade-template
       template: weapon-upgrade-template
       max: 100
     will-break: false
@@ -902,6 +937,7 @@ AXE_BA_CHU_NGUC_TU_1:
       - Uncolored
       - Uncolored
     upgrade:
+      reference: weapon-upgrade-template
       template: weapon-upgrade-template
       max: 100
     will-break: false
@@ -931,6 +967,7 @@ AXE_BA_CHU_NGUC_TU_2:
       - Uncolored
       - Uncolored
     upgrade:
+      reference: weapon-upgrade-template
       template: weapon-upgrade-template
       max: 100
     will-break: false
@@ -960,6 +997,7 @@ AXE_BA_CHU_NGUC_TU_3:
       - Uncolored
       - Uncolored
     upgrade:
+      reference: weapon-upgrade-template
       template: weapon-upgrade-template
       max: 100
     will-break: false
@@ -989,6 +1027,7 @@ AXE_BA_CHU_NGUC_TU_4:
       - Uncolored
       - Uncolored
     upgrade:
+      reference: weapon-upgrade-template
       template: weapon-upgrade-template
       max: 100
     will-break: false
@@ -1018,6 +1057,7 @@ AXE_BA_CHU_NGUC_TU_5:
       - Uncolored
       - Uncolored
     upgrade:
+      reference: weapon-upgrade-template
       template: weapon-upgrade-template
       max: 100
     will-break: false
@@ -1047,6 +1087,7 @@ AXE_VUOT_NGUC_1:
       - Uncolored
       - Uncolored
     upgrade:
+      reference: weapon-upgrade-template
       template: weapon-upgrade-template
       max: 100
     will-break: false
@@ -1076,6 +1117,7 @@ AXE_VUOT_NGUC_2:
       - Uncolored
       - Uncolored
     upgrade:
+      reference: weapon-upgrade-template
       template: weapon-upgrade-template
       max: 100
     will-break: false
@@ -1105,6 +1147,7 @@ AXE_VUOT_NGUC_3:
       - Uncolored
       - Uncolored
     upgrade:
+      reference: weapon-upgrade-template
       template: weapon-upgrade-template
       max: 100
     will-break: false
@@ -1134,6 +1177,7 @@ AXE_VUOT_NGUC_4:
       - Uncolored
       - Uncolored
     upgrade:
+      reference: weapon-upgrade-template
       template: weapon-upgrade-template
       max: 100
     will-break: false
@@ -1163,6 +1207,7 @@ AXE_VUOT_NGUC_5:
       - Uncolored
       - Uncolored
     upgrade:
+      reference: weapon-upgrade-template
       template: weapon-upgrade-template
       max: 100
     will-break: false
@@ -1199,6 +1244,10 @@ GACHA_AXE_VIRIDIAN:
       - Uncolored
       - Uncolored
       - Uncolored
+    upgrade:
+      template: weapon-upgrade-template
+      reference: weapon-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
@@ -1234,6 +1283,10 @@ GACHA_AXE_AZURE:
       - Uncolored
       - Uncolored
       - Uncolored
+    upgrade:
+      template: weapon-upgrade-template
+      reference: weapon-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
@@ -1268,5 +1321,9 @@ GACHA_AXE_SACRIFICIAL:
       - Uncolored
       - Uncolored
       - Uncolored
+    upgrade:
+      template: weapon-upgrade-template
+      reference: weapon-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false

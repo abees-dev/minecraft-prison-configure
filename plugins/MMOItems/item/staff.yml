@@ -22,6 +22,7 @@ STAFF_TAN_BINH_1:
         cooldown: 4.5
         damage: 6.8
     upgrade:
+      reference: weapon-upgrade-template
       template: weapon-upgrade-template
       max: 100
     will-break: false
@@ -51,6 +52,7 @@ STAFF_TAN_BINH_2:
         cooldown: 4.5
         damage: 7.4
     upgrade:
+      reference: weapon-upgrade-template
       template: weapon-upgrade-template
       max: 100
     will-break: false
@@ -80,6 +82,7 @@ STAFF_TAN_BINH_3:
         cooldown: 4.5
         damage: 8.2
     upgrade:
+      reference: weapon-upgrade-template
       template: weapon-upgrade-template
       max: 100
     will-break: false
@@ -109,6 +112,7 @@ STAFF_TAN_BINH_4:
         cooldown: 4.5
         damage: 8.8
     upgrade:
+      reference: weapon-upgrade-template
       template: weapon-upgrade-template
       max: 100
     will-break: false
@@ -138,6 +142,7 @@ STAFF_TAN_BINH_5:
         cooldown: 4.5
         damage: 9.6
     upgrade:
+      reference: weapon-upgrade-template
       template: weapon-upgrade-template
       max: 100
     will-break: false
@@ -167,6 +172,7 @@ STAFF_TU_NHAN_1:
         cooldown: 4.5
         damage: 10.5
     upgrade:
+      reference: weapon-upgrade-template
       template: weapon-upgrade-template
       max: 100
     will-break: false
@@ -196,6 +202,7 @@ STAFF_TU_NHAN_2:
         cooldown: 4.5
         damage: 11.2
     upgrade:
+      reference: weapon-upgrade-template
       template: weapon-upgrade-template
       max: 100
     will-break: false
@@ -225,6 +232,7 @@ STAFF_TU_NHAN_3:
         cooldown: 4.5
         damage: 12.0
     upgrade:
+      reference: weapon-upgrade-template
       template: weapon-upgrade-template
       max: 100
     will-break: false
@@ -254,6 +262,7 @@ STAFF_TU_NHAN_4:
         cooldown: 4.5
         damage: 12.8
     upgrade:
+      reference: weapon-upgrade-template
       template: weapon-upgrade-template
       max: 100
     will-break: false
@@ -283,6 +292,7 @@ STAFF_TU_NHAN_5:
         cooldown: 4.5
         damage: 13.5
     upgrade:
+      reference: weapon-upgrade-template
       template: weapon-upgrade-template
       max: 100
     will-break: false
@@ -320,6 +330,7 @@ STAFF_LAO_CONG_1:
     gem-sockets:
       - Uncolored
     upgrade:
+      reference: weapon-upgrade-template
       template: weapon-upgrade-template
       max: 100
     will-break: false
@@ -357,6 +368,7 @@ STAFF_LAO_CONG_2:
     gem-sockets:
       - Uncolored
     upgrade:
+      reference: weapon-upgrade-template
       template: weapon-upgrade-template
       max: 100
     will-break: false
@@ -394,6 +406,7 @@ STAFF_LAO_CONG_3:
     gem-sockets:
       - Uncolored
     upgrade:
+      reference: weapon-upgrade-template
       template: weapon-upgrade-template
       max: 100
     will-break: false
@@ -431,6 +444,7 @@ STAFF_LAO_CONG_4:
     gem-sockets:
       - Uncolored
     upgrade:
+      reference: weapon-upgrade-template
       template: weapon-upgrade-template
       max: 100
     will-break: false
@@ -468,6 +482,7 @@ STAFF_LAO_CONG_5:
     gem-sockets:
       - Uncolored
     upgrade:
+      reference: weapon-upgrade-template
       template: weapon-upgrade-template
       max: 100
     will-break: false
@@ -506,6 +521,7 @@ STAFF_THO_DAO_1:
       - Uncolored
       - Uncolored
     upgrade:
+      reference: weapon-upgrade-template
       template: weapon-upgrade-template
       max: 100
     will-break: false
@@ -544,6 +560,7 @@ STAFF_THO_DAO_2:
       - Uncolored
       - Uncolored
     upgrade:
+      reference: weapon-upgrade-template
       template: weapon-upgrade-template
       max: 100
     will-break: false
@@ -582,6 +599,7 @@ STAFF_THO_DAO_3:
       - Uncolored
       - Uncolored
     upgrade:
+      reference: weapon-upgrade-template
       template: weapon-upgrade-template
       max: 100
     will-break: false
@@ -620,6 +638,7 @@ STAFF_THO_DAO_4:
       - Uncolored
       - Uncolored
     upgrade:
+      reference: weapon-upgrade-template
       template: weapon-upgrade-template
       max: 100
     will-break: false
@@ -658,6 +677,7 @@ STAFF_THO_DAO_5:
       - Uncolored
       - Uncolored
     upgrade:
+      reference: weapon-upgrade-template
       template: weapon-upgrade-template
       max: 100
     will-break: false
@@ -698,6 +718,7 @@ STAFF_DOI_TRUONG_1:
       - Uncolored
       - Uncolored
     upgrade:
+      reference: weapon-upgrade-template
       template: weapon-upgrade-template
       max: 100
     will-break: false
@@ -738,6 +759,7 @@ STAFF_DOI_TRUONG_2:
       - Uncolored
       - Uncolored
     upgrade:
+      reference: weapon-upgrade-template
       template: weapon-upgrade-template
       max: 100
     will-break: false
@@ -778,6 +800,7 @@ STAFF_DOI_TRUONG_3:
       - Uncolored
       - Uncolored
     upgrade:
+      reference: weapon-upgrade-template
       template: weapon-upgrade-template
       max: 100
     will-break: false
@@ -818,6 +841,7 @@ STAFF_DOI_TRUONG_4:
       - Uncolored
       - Uncolored
     upgrade:
+      reference: weapon-upgrade-template
       template: weapon-upgrade-template
       max: 100
     will-break: false
@@ -858,6 +882,7 @@ STAFF_DOI_TRUONG_5:
       - Uncolored
       - Uncolored
     upgrade:
+      reference: weapon-upgrade-template
       template: weapon-upgrade-template
       max: 100
     will-break: false
@@ -900,6 +925,7 @@ STAFF_PHO_QUAN_NGUC_1:
       - Uncolored
       - Uncolored
     upgrade:
+      reference: weapon-upgrade-template
       template: weapon-upgrade-template
       max: 100
     will-break: false
@@ -942,6 +968,7 @@ STAFF_PHO_QUAN_NGUC_2:
       - Uncolored
       - Uncolored
     upgrade:
+      reference: weapon-upgrade-template
       template: weapon-upgrade-template
       max: 100
     will-break: false
@@ -984,6 +1011,7 @@ STAFF_PHO_QUAN_NGUC_3:
       - Uncolored
       - Uncolored
     upgrade:
+      reference: weapon-upgrade-template
       template: weapon-upgrade-template
       max: 100
     will-break: false
@@ -1026,6 +1054,7 @@ STAFF_PHO_QUAN_NGUC_4:
       - Uncolored
       - Uncolored
     upgrade:
+      reference: weapon-upgrade-template
       template: weapon-upgrade-template
       max: 100
     will-break: false
@@ -1068,6 +1097,7 @@ STAFF_PHO_QUAN_NGUC_5:
       - Uncolored
       - Uncolored
     upgrade:
+      reference: weapon-upgrade-template
       template: weapon-upgrade-template
       max: 100
     will-break: false
@@ -1115,6 +1145,7 @@ STAFF_QUAN_NGUC_1:
       - Uncolored
       - Uncolored
     upgrade:
+      reference: weapon-upgrade-template
       template: weapon-upgrade-template
       max: 100
     will-break: false
@@ -1162,6 +1193,7 @@ STAFF_QUAN_NGUC_2:
       - Uncolored
       - Uncolored
     upgrade:
+      reference: weapon-upgrade-template
       template: weapon-upgrade-template
       max: 100
     will-break: false
@@ -1209,6 +1241,7 @@ STAFF_QUAN_NGUC_3:
       - Uncolored
       - Uncolored
     upgrade:
+      reference: weapon-upgrade-template
       template: weapon-upgrade-template
       max: 100
     will-break: false
@@ -1256,6 +1289,7 @@ STAFF_QUAN_NGUC_4:
       - Uncolored
       - Uncolored
     upgrade:
+      reference: weapon-upgrade-template
       template: weapon-upgrade-template
       max: 100
     will-break: false
@@ -1303,6 +1337,7 @@ STAFF_QUAN_NGUC_5:
       - Uncolored
       - Uncolored
     upgrade:
+      reference: weapon-upgrade-template
       template: weapon-upgrade-template
       max: 100
     will-break: false
@@ -1351,6 +1386,7 @@ STAFF_BA_CHU_NGUC_TU_1:
       - Uncolored
       - Uncolored
     upgrade:
+      reference: weapon-upgrade-template
       template: weapon-upgrade-template
       max: 100
     will-break: false
@@ -1399,6 +1435,7 @@ STAFF_BA_CHU_NGUC_TU_2:
       - Uncolored
       - Uncolored
     upgrade:
+      reference: weapon-upgrade-template
       template: weapon-upgrade-template
       max: 100
     will-break: false
@@ -1447,6 +1484,7 @@ STAFF_BA_CHU_NGUC_TU_3:
       - Uncolored
       - Uncolored
     upgrade:
+      reference: weapon-upgrade-template
       template: weapon-upgrade-template
       max: 100
     will-break: false
@@ -1495,6 +1533,7 @@ STAFF_BA_CHU_NGUC_TU_4:
       - Uncolored
       - Uncolored
     upgrade:
+      reference: weapon-upgrade-template
       template: weapon-upgrade-template
       max: 100
     will-break: false
@@ -1543,6 +1582,7 @@ STAFF_BA_CHU_NGUC_TU_5:
       - Uncolored
       - Uncolored
     upgrade:
+      reference: weapon-upgrade-template
       template: weapon-upgrade-template
       max: 100
     will-break: false
@@ -1592,6 +1632,7 @@ STAFF_VUOT_NGUC_1:
       - Uncolored
       - Uncolored
     upgrade:
+      reference: weapon-upgrade-template
       template: weapon-upgrade-template
       max: 100
     will-break: false
@@ -1641,6 +1682,7 @@ STAFF_VUOT_NGUC_2:
       - Uncolored
       - Uncolored
     upgrade:
+      reference: weapon-upgrade-template
       template: weapon-upgrade-template
       max: 100
     will-break: false
@@ -1690,6 +1732,7 @@ STAFF_VUOT_NGUC_3:
       - Uncolored
       - Uncolored
     upgrade:
+      reference: weapon-upgrade-template
       template: weapon-upgrade-template
       max: 100
     will-break: false
@@ -1739,6 +1782,7 @@ STAFF_VUOT_NGUC_4:
       - Uncolored
       - Uncolored
     upgrade:
+      reference: weapon-upgrade-template
       template: weapon-upgrade-template
       max: 100
     will-break: false
@@ -1788,6 +1832,7 @@ STAFF_VUOT_NGUC_5:
       - Uncolored
       - Uncolored
     upgrade:
+      reference: weapon-upgrade-template
       template: weapon-upgrade-template
       max: 100
     will-break: false
@@ -1839,6 +1884,10 @@ GACHA_STAFF_REVENANT:
       - Uncolored
       - Uncolored
       - Uncolored
+    upgrade:
+      template: weapon-upgrade-template
+      reference: weapon-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
@@ -1887,6 +1936,10 @@ GACHA_STAFF_AZURE_SCYTHE:
       - Uncolored
       - Uncolored
       - Uncolored
+    upgrade:
+      template: weapon-upgrade-template
+      reference: weapon-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
 
@@ -1935,5 +1988,9 @@ GACHA_STAFF_OCULUS:
       - Uncolored
       - Uncolored
       - Uncolored
+    upgrade:
+      template: weapon-upgrade-template
+      reference: weapon-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false
