@@ -1,9 +1,9 @@
 TRADE_GLOVES_HOA_LONG:
+  itemsadder-item: "rings_pack:glove_37"
   base:
     revision-id: 1
     material: PAPER
     custom-model-data: 19537
-    itemsadder-item: "rings_pack:glove_37"
     name: "&6&l🔥 Găng Tay Hỏa Long"
     tier: UNIQUE
     set: HOA_LONG_SET
@@ -20,11 +20,11 @@ TRADE_GLOVES_HOA_LONG:
       max: 100
 
 TRADE_GLOVES_HAC_LONG:
+  itemsadder-item: "rings_pack:glove_2"
   base:
     revision-id: 1
     material: PAPER
     custom-model-data: 19502
-    itemsadder-item: "rings_pack:glove_2"
     name: "&5&l◆ Găng Tay Hắc Long"
     tier: UNIQUE
     set: HAC_LONG_SET
@@ -41,11 +41,11 @@ TRADE_GLOVES_HAC_LONG:
       max: 100
 
 TRADE_GLOVES_LOI_LONG:
+  itemsadder-item: "rings_pack:glove_85"
   base:
     revision-id: 1
     material: PAPER
     custom-model-data: 19585
-    itemsadder-item: "rings_pack:glove_85"
     name: "&e&l⚡ Găng Tay Lôi Long"
     tier: UNIQUE
     set: LOI_LONG_SET
@@ -62,11 +62,11 @@ TRADE_GLOVES_LOI_LONG:
       max: 100
 
 TRADE_GLOVES_PHONG_LONG:
+  itemsadder-item: "rings_pack:glove_1"
   base:
     revision-id: 1
     material: PAPER
     custom-model-data: 19501
-    itemsadder-item: "rings_pack:glove_1"
     name: "&2&l✦ Găng Tay Phong Long"
     tier: UNIQUE
     set: PHONG_LONG_SET
@@ -83,11 +83,11 @@ TRADE_GLOVES_PHONG_LONG:
       max: 100
 
 TRADE_GLOVES_BANG_LONG:
+  itemsadder-item: "rings_pack:glove_61"
   base:
     revision-id: 1
     material: PAPER
     custom-model-data: 19561
-    itemsadder-item: "rings_pack:glove_61"
     name: "&3&l✦ Găng Tay Băng Long"
     tier: UNIQUE
     set: BANG_LONG_SET
@@ -105,11 +105,11 @@ TRADE_GLOVES_BANG_LONG:
       max: 100
 
 DONATE_GLOVES_LONG_CHIEN:
+  itemsadder-item: "rings_pack:glove_12"
   base:
     revision-id: 1
     material: PAPER
     custom-model-data: 19512
-    itemsadder-item: "rings_pack:glove_12"
     name: "&e&l⚔ Găng Tay Chiến Long"
     tier: UNIQUE
     set: LONG_CHIEN_SET
@@ -126,11 +126,11 @@ DONATE_GLOVES_LONG_CHIEN:
       max: 100
 
 DONATE_GLOVES_LONG_THAN:
+  itemsadder-item: "rings_pack:glove_25"
   base:
     revision-id: 1
     material: PAPER
     custom-model-data: 19525
-    itemsadder-item: "rings_pack:glove_25"
     name: "&b&l✦ Găng Tay Thần Long"
     tier: UNIQUE
     set: LONG_THAN_SET
@@ -147,11 +147,11 @@ DONATE_GLOVES_LONG_THAN:
       max: 100
 
 DONATE_GLOVES_LONG_HOANG:
+  itemsadder-item: "rings_pack:glove_99"
   base:
     revision-id: 1
     material: PAPER
     custom-model-data: 19599
-    itemsadder-item: "rings_pack:glove_99"
     name: "&c&l★ Găng Tay Hoàng Long"
     tier: UNIQUE
     set: LONG_HOANG_SET
@@ -168,11 +168,11 @@ DONATE_GLOVES_LONG_HOANG:
       max: 100
 
 DONATE_GLOVES_LONG_DE:
+  itemsadder-item: "rings_pack:glove_40"
   base:
     revision-id: 1
     material: PAPER
     custom-model-data: 19540
-    itemsadder-item: "rings_pack:glove_40"
     name: "&4&l◆ Găng Tay Đế Long"
     tier: UNIQUE
     set: LONG_DE_SET
@@ -189,11 +189,11 @@ DONATE_GLOVES_LONG_DE:
       max: 100
 
 DONATE_GLOVES_LONG_VE:
+  itemsadder-item: "rings_pack:glove_38"
   base:
     revision-id: 1
     material: PAPER
     custom-model-data: 19538
-    itemsadder-item: "rings_pack:glove_38"
     name: "&a&l✦ Găng Tay Hộ Long"
     tier: UNIQUE
     set: LONG_VE_SET
@@ -211,11 +211,11 @@ DONATE_GLOVES_LONG_VE:
       max: 100
 
 FREE_GLOVES_THANH_LONG:
+  itemsadder-item: "rings_pack:glove_4"
   base:
     revision-id: 1
     material: PAPER
     custom-model-data: 19504
-    itemsadder-item: "rings_pack:glove_4"
     name: "&b&l⚡ Găng Tay Thanh Long"
     tier: UNIQUE
     set: THANH_LONG_SET
@@ -229,11 +229,11 @@ FREE_GLOVES_THANH_LONG:
       max: 100
 
 FREE_GLOVES_XICH_LONG:
+  itemsadder-item: "rings_pack:glove_5"
   base:
     revision-id: 1
     material: PAPER
     custom-model-data: 19505
-    itemsadder-item: "rings_pack:glove_5"
     name: "&c&l🔥 Găng Tay Xích Long"
     tier: UNIQUE
     set: XICH_LONG_SET
@@ -247,11 +247,11 @@ FREE_GLOVES_XICH_LONG:
       max: 100
 
 FREE_GLOVES_KIM_LONG:
+  itemsadder-item: "rings_pack:glove_6"
   base:
     revision-id: 1
     material: PAPER
     custom-model-data: 19506
-    itemsadder-item: "rings_pack:glove_6"
     name: "&e&l★ Găng Tay Kim Long"
     tier: UNIQUE
     set: KIM_LONG_SET
@@ -265,11 +265,11 @@ FREE_GLOVES_KIM_LONG:
       max: 100
 
 FREE_GLOVES_THIEN_LONG:
+  itemsadder-item: "rings_pack:glove_7"
   base:
     revision-id: 1
     material: PAPER
     custom-model-data: 19507
-    itemsadder-item: "rings_pack:glove_7"
     name: "&d&l✦ Găng Tay Thiên Long"
     tier: UNIQUE
     set: THIEN_LONG_SET
@@ -283,11 +283,11 @@ FREE_GLOVES_THIEN_LONG:
       max: 100
 
 FREE_GLOVES_BAC_LONG:
+  itemsadder-item: "rings_pack:glove_3"
   base:
     revision-id: 1
     material: PAPER
     custom-model-data: 19503
-    itemsadder-item: "rings_pack:glove_3"
     name: "&f&l✧ Găng Tay Bạch Long"
     tier: UNIQUE
     set: BAC_LONG_SET

@@ -1,109 +1,109 @@
 
 LONG_VUONG_RING_1:
+  itemsadder-item: "rings_pack:set1_ring_1"
   base:
     revision-id: 1
     material: PAPER
     custom-model-data: 19201
-    itemsadder-item: "rings_pack:set1_ring_1"
     name: "&c&lNhẫn Long Vương &7[Hữu]"
     set: LONG_VUONG_SET
     attack-damage: 15.0
     critical-strike-chance: 5.0
 
 LONG_VUONG_RING_2:
+  itemsadder-item: "rings_pack:set1_ring_2"
   base:
     revision-id: 1
     material: PAPER
     custom-model-data: 19202
-    itemsadder-item: "rings_pack:set1_ring_2"
     name: "&c&lNhẫn Long Vương &7[Tả]"
     set: LONG_VUONG_SET
     attack-damage: 15.0
     critical-strike-power: 10.0
 
 BANG_TINH_RING_1:
+  itemsadder-item: "rings_pack:set2_ring_1"
   base:
     revision-id: 1
     material: PAPER
     custom-model-data: 19210
-    itemsadder-item: "rings_pack:set2_ring_1"
     name: "&b&lNhẫn Băng Tinh &7[Hữu]"
     set: BANG_TINH_SET
     max-health: 80.0
     damage-reduction: 3.0
 
 BANG_TINH_RING_2:
+  itemsadder-item: "rings_pack:set2_ring_2"
   base:
     revision-id: 1
     material: PAPER
     custom-model-data: 19211
-    itemsadder-item: "rings_pack:set2_ring_2"
     name: "&b&lNhẫn Băng Tinh &7[Tả]"
     set: BANG_TINH_SET
     max-health: 80.0
     armor: 8.0
 
 HAC_AM_RING_1:
+  itemsadder-item: "rings_pack:set3_ring_1"
   base:
     revision-id: 1
     material: PAPER
     custom-model-data: 19220
-    itemsadder-item: "rings_pack:set3_ring_1"
     name: "&d&lNhẫn Hắc Ám &7[Hữu]"
     set: HAC_AM_SET
     magic-damage: 8.0
     max-mana: 50.0
 
 HAC_AM_RING_2:
+  itemsadder-item: "rings_pack:set3_ring_2"
   base:
     revision-id: 1
     material: PAPER
     custom-model-data: 19221
-    itemsadder-item: "rings_pack:set3_ring_2"
     name: "&d&lNhẫn Hắc Ám &7[Tả]"
     set: HAC_AM_SET
     magic-damage: 8.0
     max-mana: 50.0
 
 LOI_THAN_RING_1:
+  itemsadder-item: "rings_pack:set5_ring_1"
   base:
     revision-id: 1
     material: PAPER
     custom-model-data: 19240
-    itemsadder-item: "rings_pack:set5_ring_1"
     name: "&e&lNhẫn Lôi Thần &7[Hữu]"
     set: LOI_THAN_SET
     attack-speed: 8.0
     movement-speed: 0.01
 
 LOI_THAN_RING_2:
+  itemsadder-item: "rings_pack:set5_ring_2"
   base:
     revision-id: 1
     material: PAPER
     custom-model-data: 19241
-    itemsadder-item: "rings_pack:set5_ring_2"
     name: "&e&lNhẫn Lôi Thần &7[Tả]"
     set: LOI_THAN_SET
     attack-speed: 8.0
     dodge-rating: 4.0
 
 HOANG_GIA_RING_1:
+  itemsadder-item: "rings_pack:set8_ring_1"
   base:
     revision-id: 1
     material: PAPER
     custom-model-data: 19270
-    itemsadder-item: "rings_pack:set8_ring_1"
     name: "&6&lNhẫn Hoàng Gia &7[Hữu]"
     set: HOANG_GIA_SET
     physical-damage: 8.0
     max-health: 60.0
 
 HOANG_GIA_RING_2:
+  itemsadder-item: "rings_pack:set8_ring_2"
   base:
     revision-id: 1
     material: PAPER
     custom-model-data: 19271
-    itemsadder-item: "rings_pack:set8_ring_2"
     name: "&6&lNhẫn Hoàng Gia &7[Tả]"
     set: HOANG_GIA_SET
     magic-damage: 8.0
@@ -111,55 +111,55 @@ HOANG_GIA_RING_2:
 
 
 LONG_VUONG_AMULET:
+  itemsadder-item: "rings_pack:set1_necklace_1"
   base:
     revision-id: 1
     material: PAPER
     custom-model-data: 19401
-    itemsadder-item: "rings_pack:set1_necklace_1"
     name: "&c&lDây Chuyền Long Vương"
     set: LONG_VUONG_SET
     attack-damage: 20.0
     critical-strike-chance: 8.0
 
 BANG_TINH_AMULET:
+  itemsadder-item: "rings_pack:set2_necklace_2"
   base:
     revision-id: 1
     material: PAPER
     custom-model-data: 19413
-    itemsadder-item: "rings_pack:set2_necklace_2"
     name: "&b&lDây Chuyền Băng Tinh"
     set: BANG_TINH_SET
     max-health: 120.0
     damage-reduction: 5.0
 
 HAC_AM_AMULET:
+  itemsadder-item: "rings_pack:set3_necklace_1"
   base:
     revision-id: 1
     material: PAPER
     custom-model-data: 19415
-    itemsadder-item: "rings_pack:set3_necklace_1"
     name: "&d&lDây Chuyền Hắc Ám"
     set: HAC_AM_SET
     magic-damage: 12.0
     max-mana: 100.0
 
 LOI_THAN_AMULET:
+  itemsadder-item: "rings_pack:set5_necklace_1"
   base:
     revision-id: 1
     material: PAPER
     custom-model-data: 19421
-    itemsadder-item: "rings_pack:set5_necklace_1"
     name: "&e&lDây Chuyền Lôi Thần"
     set: LOI_THAN_SET
     attack-speed: 12.0
     movement-speed: 0.02
 
 HOANG_GIA_AMULET:
+  itemsadder-item: "rings_pack:set8_necklace_1"
   base:
     revision-id: 1
     material: PAPER
     custom-model-data: 19431
-    itemsadder-item: "rings_pack:set8_necklace_1"
     name: "&6&lDây Chuyền Hoàng Gia"
     set: HOANG_GIA_SET
     physical-damage: 12.0
@@ -167,55 +167,55 @@ HOANG_GIA_AMULET:
 
 
 LONG_VUONG_BRACELET:
+  itemsadder-item: "rings_pack:set1_ring_5"
   base:
     revision-id: 1
     material: PAPER
     custom-model-data: 19205
-    itemsadder-item: "rings_pack:set1_ring_5"
     name: "&c&lVòng Tay Long Vương"
     set: LONG_VUONG_SET
     attack-damage: 10.0
     critical-strike-power: 15.0
 
 BANG_TINH_BRACELET:
+  itemsadder-item: "rings_pack:set2_ring_5"
   base:
     revision-id: 1
     material: PAPER
     custom-model-data: 19214
-    itemsadder-item: "rings_pack:set2_ring_5"
     name: "&b&lVòng Tay Băng Tinh"
     set: BANG_TINH_SET
     max-health: 100.0
     armor: 10.0
 
 HAC_AM_BRACELET:
+  itemsadder-item: "rings_pack:set3_ring_5"
   base:
     revision-id: 1
     material: PAPER
     custom-model-data: 19224
-    itemsadder-item: "rings_pack:set3_ring_5"
     name: "&d&lVòng Tay Hắc Ám"
     set: HAC_AM_SET
     magic-damage: 10.0
     max-mana: 80.0
 
 LOI_THAN_BRACELET:
+  itemsadder-item: "rings_pack:set5_ring_5"
   base:
     revision-id: 1
     material: PAPER
     custom-model-data: 19244
-    itemsadder-item: "rings_pack:set5_ring_5"
     name: "&e&lVòng Tay Lôi Thần"
     set: LOI_THAN_SET
     attack-speed: 10.0
     dodge-rating: 5.0
 
 HOANG_GIA_BRACELET:
+  itemsadder-item: "rings_pack:set8_ring_5"
   base:
     revision-id: 1
     material: PAPER
     custom-model-data: 19274
-    itemsadder-item: "rings_pack:set8_ring_5"
     name: "&6&lVòng Tay Hoàng Gia"
     set: HOANG_GIA_SET
     physical-damage: 10.0
@@ -223,54 +223,54 @@ HOANG_GIA_BRACELET:
 
 
 LONG_VUONG_GLOVES:
+  itemsadder-item: "rings_pack:glove_37"
   base:
     revision-id: 1
     material: PAPER
     custom-model-data: 19537
-    itemsadder-item: "rings_pack:glove_37"
     name: "&c&lGăng Tay Long Vương"
     set: LONG_VUONG_SET
     attack-damage: 12.0
     critical-strike-chance: 6.0
 
 BANG_TINH_GLOVES:
+  itemsadder-item: "rings_pack:glove_61"
   base:
     revision-id: 1
     material: PAPER
     custom-model-data: 19561
-    itemsadder-item: "rings_pack:glove_61"
     name: "&b&lGăng Tay Băng Tinh"
     set: BANG_TINH_SET
     max-health: 90.0
     damage-reduction: 4.0
 
 HAC_AM_GLOVES:
+  itemsadder-item: "rings_pack:glove_2"
   base:
     revision-id: 1
     material: PAPER
     custom-model-data: 19502
-    itemsadder-item: "rings_pack:glove_2"
     name: "&d&lGăng Tay Hắc Ám"
     set: HAC_AM_SET
     magic-damage: 15.0
 
 LOI_THAN_GLOVES:
+  itemsadder-item: "rings_pack:glove_1"
   base:
     revision-id: 1
     material: PAPER
     custom-model-data: 19501
-    itemsadder-item: "rings_pack:glove_1"
     name: "&e&lGăng Tay Lôi Thần"
     set: LOI_THAN_SET
     attack-speed: 10.0
     movement-speed: 0.015
 
 HOANG_GIA_GLOVES:
+  itemsadder-item: "rings_pack:glove_85"
   base:
     revision-id: 1
     material: PAPER
     custom-model-data: 19585
-    itemsadder-item: "rings_pack:glove_85"
     name: "&6&lGăng Tay Hoàng Gia"
     set: HOANG_GIA_SET
     physical-damage: 10.0

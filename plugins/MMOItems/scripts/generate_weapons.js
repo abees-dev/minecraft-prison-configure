@@ -127,10 +127,10 @@ ranks.forEach((r, rIdx) => {
 });
 
 swordContent += `GACHA_SWORD_AMETHYST:
+  itemsadder-item: "fantasy_weapons:amethyst_greatblade"
   base:
     material: IRON_SWORD
     custom-model-data: 10000
-    itemsadder-item: "fantasy_weapons:amethyst_greatblade"
     name: "&5&lThạch Anh Tím Đại Kiếm"
     max-durability: 20000
     tier: UNIQUE
@@ -160,10 +160,10 @@ swordContent += `GACHA_SWORD_AMETHYST:
     unbreakable: false
 
 GACHA_SWORD_PHANTOMGUARD:
+  itemsadder-item: "fantasy_weapons:phantomguard_greatsword"
   base:
     material: IRON_SWORD
     custom-model-data: 10001
-    itemsadder-item: "fantasy_weapons:phantomguard_greatsword"
     name: "&b&lU Hồn Vệ Kiếm"
     max-durability: 20000
     tier: UNIQUE
@@ -194,10 +194,10 @@ GACHA_SWORD_PHANTOMGUARD:
     unbreakable: false
 
 GACHA_SWORD_VALHAKYRA:
+  itemsadder-item: "fantasy_weapons:valhakyra"
   base:
     material: IRON_SWORD
     custom-model-data: 10003
-    itemsadder-item: "fantasy_weapons:valhakyra"
     name: "&e&lThần Kiếm Valhakyra"
     max-durability: 20000
     tier: UNIQUE
@@ -227,10 +227,10 @@ GACHA_SWORD_VALHAKYRA:
     unbreakable: false
 
 GACHA_SWORD_CRYSTAL_FROST:
+  itemsadder-item: "fantasy_weapons:crystal_frostblade"
   base:
     material: IRON_SWORD
     custom-model-data: 10008
-    itemsadder-item: "fantasy_weapons:crystal_frostblade"
     name: "&3&lBăng Tinh Thần Kiếm"
     max-durability: 20000
     tier: UNIQUE
@@ -260,10 +260,10 @@ GACHA_SWORD_CRYSTAL_FROST:
     unbreakable: false
 
 GACHA_SWORD_DEMONS_BLOOD:
+  itemsadder-item: "fantasy_weapons:demons_blood_blade"
   base:
     material: IRON_SWORD
     custom-model-data: 10016
-    itemsadder-item: "fantasy_weapons:demons_blood_blade"
     name: "&c&lHuyết Ma Diệt Thần Kiếm"
     max-durability: 20000
     tier: UNIQUE
@@ -293,10 +293,10 @@ GACHA_SWORD_DEMONS_BLOOD:
     unbreakable: false
 
 GACHA_SWORD_MOONLIGHT:
+  itemsadder-item: "fantasy_weapons:moonlight"
   base:
     material: IRON_SWORD
     custom-model-data: 10018
-    itemsadder-item: "fantasy_weapons:moonlight"
     name: "&9&lMinh Nguyệt Quang Kiếm"
     max-durability: 20000
     tier: UNIQUE
@@ -367,10 +367,10 @@ ranks.forEach((r, rIdx) => {
 });
 
 axeContent += `GACHA_AXE_VIRIDIAN:
+  itemsadder-item: "fantasy_weapons:viridian_greataxe"
   base:
     material: IRON_AXE
     custom-model-data: 10001
-    itemsadder-item: "fantasy_weapons:viridian_greataxe"
     name: "&a&lLục Bảo Thần Rìu"
     max-durability: 20000
     tier: UNIQUE
@@ -400,10 +400,10 @@ axeContent += `GACHA_AXE_VIRIDIAN:
     unbreakable: false
 
 GACHA_AXE_AZURE:
+  itemsadder-item: "fantasy_weapons:azure_greataxe"
   base:
     material: DIAMOND_AXE
     custom-model-data: 10000
-    itemsadder-item: "fantasy_weapons:azure_greataxe"
     name: "&3&lBăng Long Đại Rìu"
     max-durability: 20000
     tier: UNIQUE
@@ -434,10 +434,10 @@ GACHA_AXE_AZURE:
     unbreakable: false
 
 GACHA_AXE_SACRIFICIAL:
+  itemsadder-item: "fantasy_weapons:sacrificial_cleaver"
   base:
     material: IRON_AXE
     custom-model-data: 10011
-    itemsadder-item: "fantasy_weapons:sacrificial_cleaver"
     name: "&c&lTế Sát Thần Đao"
     max-durability: 20000
     tier: UNIQUE
@@ -539,10 +539,10 @@ ranks.forEach((r, rIdx) => {
 });
 
 staffContent += `GACHA_STAFF_REVENANT:
+  itemsadder-item: "fantasy_weapons:revenants_gravescepter"
   base:
     material: IRON_AXE
     custom-model-data: 10005
-    itemsadder-item: "fantasy_weapons:revenants_gravescepter"
     name: "&d&lU Hồn Quyền Trượng"
     max-durability: 20000
     tier: UNIQUE
@@ -587,10 +587,10 @@ staffContent += `GACHA_STAFF_REVENANT:
     unbreakable: false
 
 GACHA_STAFF_AZURE_SCYTHE:
+  itemsadder-item: "fantasy_weapons:azure_scythe"
   base:
     material: IRON_HOE
     custom-model-data: 10000
-    itemsadder-item: "fantasy_weapons:azure_scythe"
     name: "&3&lBăng Long Tử Thần Lưỡi Hái"
     max-durability: 20000
     tier: UNIQUE
@@ -634,10 +634,10 @@ GACHA_STAFF_AZURE_SCYTHE:
     unbreakable: false
 
 GACHA_STAFF_OCULUS:
+  itemsadder-item: "fantasy_weapons:oculus"
   base:
     material: IRON_SWORD
     custom-model-data: 10019
-    itemsadder-item: "fantasy_weapons:oculus"
     name: "&b&lMa Nhãn Thần Trượng"
     max-durability: 20000
     tier: UNIQUE

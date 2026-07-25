@@ -1196,11 +1196,11 @@ SWORD_VUOT_NGUC_5:
     unbreakable: false
 
 GACHA_SWORD_AMETHYST:
+  itemsadder-item: "fantasy_weapons:amethyst_greatblade"
   base:
     revision-id: 1
     material: IRON_SWORD
     custom-model-data: 10000
-    itemsadder-item: "fantasy_weapons:amethyst_greatblade"
     name: "&5&lThạch Anh Tím Đại Kiếm"
     max-durability: 20000
     tier: UNIQUE
@@ -1230,11 +1230,11 @@ GACHA_SWORD_AMETHYST:
     unbreakable: false
 
 GACHA_SWORD_PHANTOMGUARD:
+  itemsadder-item: "fantasy_weapons:phantomguard_greatsword"
   base:
     revision-id: 1
     material: IRON_SWORD
     custom-model-data: 10001
-    itemsadder-item: "fantasy_weapons:phantomguard_greatsword"
     name: "&b&lU Hồn Vệ Kiếm"
     max-durability: 20000
     tier: UNIQUE
@@ -1265,11 +1265,11 @@ GACHA_SWORD_PHANTOMGUARD:
     unbreakable: false
 
 GACHA_SWORD_VALHAKYRA:
+  itemsadder-item: "fantasy_weapons:valhakyra"
   base:
     revision-id: 1
     material: IRON_SWORD
     custom-model-data: 10003
-    itemsadder-item: "fantasy_weapons:valhakyra"
     name: "&e&lThần Kiếm Valhakyra"
     max-durability: 20000
     tier: UNIQUE
@@ -1299,11 +1299,11 @@ GACHA_SWORD_VALHAKYRA:
     unbreakable: false
 
 GACHA_SWORD_CRYSTAL_FROST:
+  itemsadder-item: "fantasy_weapons:crystal_frostblade"
   base:
     revision-id: 1
     material: IRON_SWORD
     custom-model-data: 10008
-    itemsadder-item: "fantasy_weapons:crystal_frostblade"
     name: "&3&lBăng Tinh Thần Kiếm"
     max-durability: 20000
     tier: UNIQUE
@@ -1333,11 +1333,11 @@ GACHA_SWORD_CRYSTAL_FROST:
     unbreakable: false
 
 GACHA_SWORD_DEMONS_BLOOD:
+  itemsadder-item: "fantasy_weapons:demons_blood_blade"
   base:
     revision-id: 1
     material: IRON_SWORD
     custom-model-data: 10016
-    itemsadder-item: "fantasy_weapons:demons_blood_blade"
     name: "&c&lHuyết Ma Diệt Thần Kiếm"
     max-durability: 20000
     tier: UNIQUE
@@ -1367,11 +1367,11 @@ GACHA_SWORD_DEMONS_BLOOD:
     unbreakable: false
 
 GACHA_SWORD_MOONLIGHT:
+  itemsadder-item: "fantasy_weapons:moonlight"
   base:
     revision-id: 1
     material: IRON_SWORD
     custom-model-data: 10018
-    itemsadder-item: "fantasy_weapons:moonlight"
     name: "&9&lMinh Nguyệt Quang Kiếm"
     max-durability: 20000
     tier: UNIQUE
@@ -1405,11 +1405,11 @@ GACHA_SWORD_MOONLIGHT:
 # ============================================================
 
 DONATE_SWORD_LONG_VE:
+  itemsadder-item: "littledragonset:littledragon_sword"
   base:
     revision-id: 1
     material: IRON_SWORD
     custom-model-data: 10191
-    itemsadder-item: "littledragonset:littledragon_sword"
     name: "&a&l✦ Hộ Long Bảo Kiếm"
     max-durability: 20000
     tier: RARE
@@ -1436,11 +1436,11 @@ DONATE_SWORD_LONG_VE:
     unbreakable: false
 
 DONATE_SWORD_LONG_CHIEN:
+  itemsadder-item: "spartan_set:spartan_sword"
   base:
     revision-id: 1
     material: IRON_SWORD
     custom-model-data: 10086
-    itemsadder-item: "spartan_set:spartan_sword"
     name: "&e&l⚔ Chiến Long Cuồng Kiếm"
     max-durability: 20000
     tier: VERY_RARE
@@ -1467,11 +1467,11 @@ DONATE_SWORD_LONG_CHIEN:
     unbreakable: false
 
 DONATE_SWORD_LONG_THAN:
+  itemsadder-item: "azureset:azure_sword"
   base:
     revision-id: 1
     material: IRON_SWORD
     custom-model-data: 10122
-    itemsadder-item: "azureset:azure_sword"
     name: "&b&l✦ Thần Long Thánh Kiếm"
     max-durability: 20000
     tier: LEGENDARY
@@ -1498,11 +1498,11 @@ DONATE_SWORD_LONG_THAN:
     unbreakable: false
 
 DONATE_SWORD_LONG_DE:
+  itemsadder-item: "demon_edgeset:demon_edge_sword"
   base:
     revision-id: 1
     material: IRON_SWORD
     custom-model-data: 10177
-    itemsadder-item: "demon_edgeset:demon_edge_sword"
     name: "&4&l◆ Đế Long Diệt Kiếm"
     max-durability: 20000
     tier: EPIC
@@ -1529,11 +1529,11 @@ DONATE_SWORD_LONG_DE:
     unbreakable: false
 
 DONATE_SWORD_LONG_HOANG:
+  itemsadder-item: "lunarset:lunar_sword"
   base:
     revision-id: 2
     material: IRON_SWORD
     custom-model-data: 10034
-    itemsadder-item: "lunarset:lunar_sword"
     name: "&c&l★ Hoàng Long Thiên Kiếm"
     max-durability: 20000
     tier: UNIQUE
@@ -1564,11 +1564,11 @@ DONATE_SWORD_LONG_HOANG:
 # ============================================================
 
 TRADE_SWORD_HOA_LONG:
+  itemsadder-item: "fantasy_weapons:calamity_blade"
   base:
     revision-id: 1
     material: IRON_SWORD
     custom-model-data: 10015
-    itemsadder-item: "fantasy_weapons:calamity_blade"
     name: "&6✦ Hỏa Long Kiếm"
     max-durability: 18000
     tier: RARE
@@ -1595,11 +1595,11 @@ TRADE_SWORD_HOA_LONG:
     unbreakable: false
 
 TRADE_SWORD_BANG_LONG:
+  itemsadder-item: "fantasy_weapons:crystal_frostblade"
   base:
     revision-id: 1
     material: IRON_SWORD
     custom-model-data: 10008
-    itemsadder-item: "fantasy_weapons:crystal_frostblade"
     name: "&3&l✦ Băng Long Hàn Kiếm"
     max-durability: 18000
     tier: VERY_RARE
@@ -1626,11 +1626,11 @@ TRADE_SWORD_BANG_LONG:
     unbreakable: false
 
 TRADE_SWORD_LOI_LONG:
+  itemsadder-item: "elitecreatures:king_arthur_animated_weapon_set_sword"
   base:
     revision-id: 1
     material: IRON_SWORD
     custom-model-data: 10167
-    itemsadder-item: "elitecreatures:king_arthur_animated_weapon_set_sword"
     name: "&e&l⚡ Lôi Long Chấn Kiếm"
     max-durability: 18000
     tier: UNIQUE
@@ -1657,11 +1657,11 @@ TRADE_SWORD_LOI_LONG:
     unbreakable: false
 
 TRADE_SWORD_PHONG_LONG:
+  itemsadder-item: "nanoedge_set:nanoedge_sword"
   base:
     revision-id: 1
     material: IRON_SWORD
     custom-model-data: 10107
-    itemsadder-item: "nanoedge_set:nanoedge_sword"
     name: "&2&l✦ Phong Long Liệt Kiếm"
     max-durability: 18000
     tier: EPIC
@@ -1688,11 +1688,11 @@ TRADE_SWORD_PHONG_LONG:
     unbreakable: false
 
 TRADE_SWORD_HAC_LONG:
+  itemsadder-item: "fantasy_weapons:demonic_sword"
   base:
     revision-id: 1
     material: IRON_SWORD
     custom-model-data: 10025
-    itemsadder-item: "fantasy_weapons:demonic_sword"
     name: "&5&l◆ Hắc Long Ma Kiếm"
     max-durability: 18000
     tier: LEGENDARY

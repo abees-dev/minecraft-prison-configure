@@ -289,10 +289,10 @@ STAFF_TU_NHAN_5:
     unbreakable: false
 
 STAFF_LAO_CONG_1:
+  itemsadder-item: "firework_set:firework_staff"
   base:
     revision-id: 1
     material: IRON_SWORD
-    itemsadder-item: "firework_set:firework_staff"
     name: "&bTrượng Phép Lao Công &e&lI"
     max-durability: 2000
     tier: UNCOMMON
@@ -326,10 +326,10 @@ STAFF_LAO_CONG_1:
     unbreakable: false
 
 STAFF_LAO_CONG_2:
+  itemsadder-item: "firework_set:firework_staff"
   base:
     revision-id: 1
     material: IRON_SWORD
-    itemsadder-item: "firework_set:firework_staff"
     name: "&bTrượng Phép Lao Công &e&lII"
     max-durability: 2000
     tier: UNCOMMON
@@ -363,10 +363,10 @@ STAFF_LAO_CONG_2:
     unbreakable: false
 
 STAFF_LAO_CONG_3:
+  itemsadder-item: "firework_set:firework_staff"
   base:
     revision-id: 1
     material: IRON_SWORD
-    itemsadder-item: "firework_set:firework_staff"
     name: "&bTrượng Phép Lao Công &e&lIII"
     max-durability: 2000
     tier: UNCOMMON
@@ -400,10 +400,10 @@ STAFF_LAO_CONG_3:
     unbreakable: false
 
 STAFF_LAO_CONG_4:
+  itemsadder-item: "firework_set:firework_staff"
   base:
     revision-id: 1
     material: IRON_SWORD
-    itemsadder-item: "firework_set:firework_staff"
     name: "&bTrượng Phép Lao Công &e&lIV"
     max-durability: 2000
     tier: UNCOMMON
@@ -437,10 +437,10 @@ STAFF_LAO_CONG_4:
     unbreakable: false
 
 STAFF_LAO_CONG_5:
+  itemsadder-item: "firework_set:firework_staff"
   base:
     revision-id: 1
     material: IRON_SWORD
-    itemsadder-item: "firework_set:firework_staff"
     name: "&bTrượng Phép Lao Công &e&lV"
     max-durability: 2000
     tier: UNCOMMON
@@ -474,10 +474,10 @@ STAFF_LAO_CONG_5:
     unbreakable: false
 
 STAFF_THO_DAO_1:
+  itemsadder-item: "mysticcyanset:mysticcyan_staff"
   base:
     revision-id: 1
     material: IRON_SWORD
-    itemsadder-item: "mysticcyanset:mysticcyan_staff"
     name: "&eTrượng Phép Thợ Đào &e&lI"
     max-durability: 3000
     tier: RARE
@@ -512,10 +512,10 @@ STAFF_THO_DAO_1:
     unbreakable: false
 
 STAFF_THO_DAO_2:
+  itemsadder-item: "mysticcyanset:mysticcyan_staff"
   base:
     revision-id: 1
     material: IRON_SWORD
-    itemsadder-item: "mysticcyanset:mysticcyan_staff"
     name: "&eTrượng Phép Thợ Đào &e&lII"
     max-durability: 3000
     tier: RARE
@@ -550,10 +550,10 @@ STAFF_THO_DAO_2:
     unbreakable: false
 
 STAFF_THO_DAO_3:
+  itemsadder-item: "mysticcyanset:mysticcyan_staff"
   base:
     revision-id: 1
     material: IRON_SWORD
-    itemsadder-item: "mysticcyanset:mysticcyan_staff"
     name: "&eTrượng Phép Thợ Đào &e&lIII"
     max-durability: 3000
     tier: RARE
@@ -588,10 +588,10 @@ STAFF_THO_DAO_3:
     unbreakable: false
 
 STAFF_THO_DAO_4:
+  itemsadder-item: "mysticcyanset:mysticcyan_staff"
   base:
     revision-id: 1
     material: IRON_SWORD
-    itemsadder-item: "mysticcyanset:mysticcyan_staff"
     name: "&eTrượng Phép Thợ Đào &e&lIV"
     max-durability: 3000
     tier: RARE
@@ -626,10 +626,10 @@ STAFF_THO_DAO_4:
     unbreakable: false
 
 STAFF_THO_DAO_5:
+  itemsadder-item: "mysticcyanset:mysticcyan_staff"
   base:
     revision-id: 1
     material: IRON_SWORD
-    itemsadder-item: "mysticcyanset:mysticcyan_staff"
     name: "&eTrượng Phép Thợ Đào &e&lV"
     max-durability: 3000
     tier: RARE
@@ -664,10 +664,10 @@ STAFF_THO_DAO_5:
     unbreakable: false
 
 STAFF_DOI_TRUONG_1:
+  itemsadder-item: "nanoedge_set:nanoedge_staff"
   base:
     revision-id: 1
     material: IRON_SWORD
-    itemsadder-item: "nanoedge_set:nanoedge_staff"
     name: "&6Trượng Phép Đội Trưởng &e&lI"
     max-durability: 4500
     tier: VERY_RARE
@@ -704,10 +704,10 @@ STAFF_DOI_TRUONG_1:
     unbreakable: false
 
 STAFF_DOI_TRUONG_2:
+  itemsadder-item: "nanoedge_set:nanoedge_staff"
   base:
     revision-id: 1
     material: IRON_SWORD
-    itemsadder-item: "nanoedge_set:nanoedge_staff"
     name: "&6Trượng Phép Đội Trưởng &e&lII"
     max-durability: 4500
     tier: VERY_RARE
@@ -744,10 +744,10 @@ STAFF_DOI_TRUONG_2:
     unbreakable: false
 
 STAFF_DOI_TRUONG_3:
+  itemsadder-item: "nanoedge_set:nanoedge_staff"
   base:
     revision-id: 1
     material: IRON_SWORD
-    itemsadder-item: "nanoedge_set:nanoedge_staff"
     name: "&6Trượng Phép Đội Trưởng &e&lIII"
     max-durability: 4500
     tier: VERY_RARE
@@ -784,10 +784,10 @@ STAFF_DOI_TRUONG_3:
     unbreakable: false
 
 STAFF_DOI_TRUONG_4:
+  itemsadder-item: "nanoedge_set:nanoedge_staff"
   base:
     revision-id: 1
     material: IRON_SWORD
-    itemsadder-item: "nanoedge_set:nanoedge_staff"
     name: "&6Trượng Phép Đội Trưởng &e&lIV"
     max-durability: 4500
     tier: VERY_RARE
@@ -824,10 +824,10 @@ STAFF_DOI_TRUONG_4:
     unbreakable: false
 
 STAFF_DOI_TRUONG_5:
+  itemsadder-item: "nanoedge_set:nanoedge_staff"
   base:
     revision-id: 1
     material: IRON_SWORD
-    itemsadder-item: "nanoedge_set:nanoedge_staff"
     name: "&6Trượng Phép Đội Trưởng &e&lV"
     max-durability: 4500
     tier: VERY_RARE
@@ -864,10 +864,10 @@ STAFF_DOI_TRUONG_5:
     unbreakable: false
 
 STAFF_PHO_QUAN_NGUC_1:
+  itemsadder-item: "demon_edgeset:demon_edge_staff"
   base:
     revision-id: 1
     material: IRON_SWORD
-    itemsadder-item: "demon_edgeset:demon_edge_staff"
     name: "&cTrượng Phép Phó Quản Ngục &e&lI"
     max-durability: 6000
     tier: LEGENDARY
@@ -906,10 +906,10 @@ STAFF_PHO_QUAN_NGUC_1:
     unbreakable: false
 
 STAFF_PHO_QUAN_NGUC_2:
+  itemsadder-item: "demon_edgeset:demon_edge_staff"
   base:
     revision-id: 1
     material: IRON_SWORD
-    itemsadder-item: "demon_edgeset:demon_edge_staff"
     name: "&cTrượng Phép Phó Quản Ngục &e&lII"
     max-durability: 6000
     tier: LEGENDARY
@@ -948,10 +948,10 @@ STAFF_PHO_QUAN_NGUC_2:
     unbreakable: false
 
 STAFF_PHO_QUAN_NGUC_3:
+  itemsadder-item: "demon_edgeset:demon_edge_staff"
   base:
     revision-id: 1
     material: IRON_SWORD
-    itemsadder-item: "demon_edgeset:demon_edge_staff"
     name: "&cTrượng Phép Phó Quản Ngục &e&lIII"
     max-durability: 6000
     tier: LEGENDARY
@@ -990,10 +990,10 @@ STAFF_PHO_QUAN_NGUC_3:
     unbreakable: false
 
 STAFF_PHO_QUAN_NGUC_4:
+  itemsadder-item: "demon_edgeset:demon_edge_staff"
   base:
     revision-id: 1
     material: IRON_SWORD
-    itemsadder-item: "demon_edgeset:demon_edge_staff"
     name: "&cTrượng Phép Phó Quản Ngục &e&lIV"
     max-durability: 6000
     tier: LEGENDARY
@@ -1032,10 +1032,10 @@ STAFF_PHO_QUAN_NGUC_4:
     unbreakable: false
 
 STAFF_PHO_QUAN_NGUC_5:
+  itemsadder-item: "demon_edgeset:demon_edge_staff"
   base:
     revision-id: 1
     material: IRON_SWORD
-    itemsadder-item: "demon_edgeset:demon_edge_staff"
     name: "&cTrượng Phép Phó Quản Ngục &e&lV"
     max-durability: 6000
     tier: LEGENDARY
@@ -1074,10 +1074,10 @@ STAFF_PHO_QUAN_NGUC_5:
     unbreakable: false
 
 STAFF_QUAN_NGUC_1:
+  itemsadder-item: "necros_set:necros_staff"
   base:
     revision-id: 1
     material: IRON_SWORD
-    itemsadder-item: "necros_set:necros_staff"
     name: "&dTrượng Phép Quản Ngục &e&lI"
     max-durability: 8000
     tier: MYTHICAL
@@ -1121,10 +1121,10 @@ STAFF_QUAN_NGUC_1:
     unbreakable: false
 
 STAFF_QUAN_NGUC_2:
+  itemsadder-item: "necros_set:necros_staff"
   base:
     revision-id: 1
     material: IRON_SWORD
-    itemsadder-item: "necros_set:necros_staff"
     name: "&dTrượng Phép Quản Ngục &e&lII"
     max-durability: 8000
     tier: MYTHICAL
@@ -1168,10 +1168,10 @@ STAFF_QUAN_NGUC_2:
     unbreakable: false
 
 STAFF_QUAN_NGUC_3:
+  itemsadder-item: "necros_set:necros_staff"
   base:
     revision-id: 1
     material: IRON_SWORD
-    itemsadder-item: "necros_set:necros_staff"
     name: "&dTrượng Phép Quản Ngục &e&lIII"
     max-durability: 8000
     tier: MYTHICAL
@@ -1215,10 +1215,10 @@ STAFF_QUAN_NGUC_3:
     unbreakable: false
 
 STAFF_QUAN_NGUC_4:
+  itemsadder-item: "necros_set:necros_staff"
   base:
     revision-id: 1
     material: IRON_SWORD
-    itemsadder-item: "necros_set:necros_staff"
     name: "&dTrượng Phép Quản Ngục &e&lIV"
     max-durability: 8000
     tier: MYTHICAL
@@ -1262,10 +1262,10 @@ STAFF_QUAN_NGUC_4:
     unbreakable: false
 
 STAFF_QUAN_NGUC_5:
+  itemsadder-item: "necros_set:necros_staff"
   base:
     revision-id: 1
     material: IRON_SWORD
-    itemsadder-item: "necros_set:necros_staff"
     name: "&dTrượng Phép Quản Ngục &e&lV"
     max-durability: 8000
     tier: MYTHICAL
@@ -1309,10 +1309,10 @@ STAFF_QUAN_NGUC_5:
     unbreakable: false
 
 STAFF_BA_CHU_NGUC_TU_1:
+  itemsadder-item: "royal_crystal:royal_crysta_staff"
   base:
     revision-id: 1
     material: IRON_SWORD
-    itemsadder-item: "royal_crystal:royal_crysta_staff"
     name: "&5Trượng Phép Bá Chủ Ngục Tù &e&lI"
     max-durability: 10000
     tier: EPIC
@@ -1357,10 +1357,10 @@ STAFF_BA_CHU_NGUC_TU_1:
     unbreakable: false
 
 STAFF_BA_CHU_NGUC_TU_2:
+  itemsadder-item: "royal_crystal:royal_crysta_staff"
   base:
     revision-id: 1
     material: IRON_SWORD
-    itemsadder-item: "royal_crystal:royal_crysta_staff"
     name: "&5Trượng Phép Bá Chủ Ngục Tù &e&lII"
     max-durability: 10000
     tier: EPIC
@@ -1405,10 +1405,10 @@ STAFF_BA_CHU_NGUC_TU_2:
     unbreakable: false
 
 STAFF_BA_CHU_NGUC_TU_3:
+  itemsadder-item: "royal_crystal:royal_crysta_staff"
   base:
     revision-id: 1
     material: IRON_SWORD
-    itemsadder-item: "royal_crystal:royal_crysta_staff"
     name: "&5Trượng Phép Bá Chủ Ngục Tù &e&lIII"
     max-durability: 10000
     tier: EPIC
@@ -1453,10 +1453,10 @@ STAFF_BA_CHU_NGUC_TU_3:
     unbreakable: false
 
 STAFF_BA_CHU_NGUC_TU_4:
+  itemsadder-item: "royal_crystal:royal_crysta_staff"
   base:
     revision-id: 1
     material: IRON_SWORD
-    itemsadder-item: "royal_crystal:royal_crysta_staff"
     name: "&5Trượng Phép Bá Chủ Ngục Tù &e&lIV"
     max-durability: 10000
     tier: EPIC
@@ -1501,10 +1501,10 @@ STAFF_BA_CHU_NGUC_TU_4:
     unbreakable: false
 
 STAFF_BA_CHU_NGUC_TU_5:
+  itemsadder-item: "royal_crystal:royal_crysta_staff"
   base:
     revision-id: 1
     material: IRON_SWORD
-    itemsadder-item: "royal_crystal:royal_crysta_staff"
     name: "&5Trượng Phép Bá Chủ Ngục Tù &e&lV"
     max-durability: 10000
     tier: EPIC
@@ -1549,11 +1549,11 @@ STAFF_BA_CHU_NGUC_TU_5:
     unbreakable: false
 
 STAFF_VUOT_NGUC_1:
+  itemsadder-item: "archmage:archmage_staff"
   base:
     revision-id: 1
     material: STONE_SWORD
     custom-model-data: 2043
-    itemsadder-item: "archmage:archmage_staff"
     name: "&4Trượng Phép Vượt Ngục &e&lI"
     max-durability: 15000
     tier: UNIQUE
@@ -1598,11 +1598,11 @@ STAFF_VUOT_NGUC_1:
     unbreakable: false
 
 STAFF_VUOT_NGUC_2:
+  itemsadder-item: "archmage:archmage_staff"
   base:
     revision-id: 1
     material: STONE_SWORD
     custom-model-data: 2043
-    itemsadder-item: "archmage:archmage_staff"
     name: "&4Trượng Phép Vượt Ngục &e&lII"
     max-durability: 15000
     tier: UNIQUE
@@ -1647,11 +1647,11 @@ STAFF_VUOT_NGUC_2:
     unbreakable: false
 
 STAFF_VUOT_NGUC_3:
+  itemsadder-item: "archmage:archmage_staff"
   base:
     revision-id: 1
     material: STONE_SWORD
     custom-model-data: 2043
-    itemsadder-item: "archmage:archmage_staff"
     name: "&4Trượng Phép Vượt Ngục &e&lIII"
     max-durability: 15000
     tier: UNIQUE
@@ -1696,11 +1696,11 @@ STAFF_VUOT_NGUC_3:
     unbreakable: false
 
 STAFF_VUOT_NGUC_4:
+  itemsadder-item: "archmage:archmage_staff"
   base:
     revision-id: 1
     material: STONE_SWORD
     custom-model-data: 2043
-    itemsadder-item: "archmage:archmage_staff"
     name: "&4Trượng Phép Vượt Ngục &e&lIV"
     max-durability: 15000
     tier: UNIQUE
@@ -1745,11 +1745,11 @@ STAFF_VUOT_NGUC_4:
     unbreakable: false
 
 STAFF_VUOT_NGUC_5:
+  itemsadder-item: "archmage:archmage_staff_shiny"
   base:
     revision-id: 1
     material: STONE_SWORD
     custom-model-data: 2044
-    itemsadder-item: "archmage:archmage_staff_shiny"
     name: "&4Trượng Phép Vượt Ngục &e&lV"
     max-durability: 15000
     tier: UNIQUE
@@ -1794,11 +1794,11 @@ STAFF_VUOT_NGUC_5:
     unbreakable: false
 
 GACHA_STAFF_REVENANT:
+  itemsadder-item: "fantasy_weapons:revenants_gravescepter"
   base:
     revision-id: 1
     material: IRON_AXE
     custom-model-data: 10005
-    itemsadder-item: "fantasy_weapons:revenants_gravescepter"
     name: "&d&lU Hồn Quyền Trượng"
     max-durability: 20000
     tier: UNIQUE
@@ -1843,11 +1843,11 @@ GACHA_STAFF_REVENANT:
     unbreakable: false
 
 GACHA_STAFF_AZURE_SCYTHE:
+  itemsadder-item: "fantasy_weapons:azure_scythe"
   base:
     revision-id: 1
     material: IRON_HOE
     custom-model-data: 10000
-    itemsadder-item: "fantasy_weapons:azure_scythe"
     name: "&3&lBăng Long Tử Thần Lưỡi Hái"
     max-durability: 20000
     tier: UNIQUE
@@ -1891,11 +1891,11 @@ GACHA_STAFF_AZURE_SCYTHE:
     unbreakable: false
 
 GACHA_STAFF_OCULUS:
+  itemsadder-item: "fantasy_weapons:oculus"
   base:
     revision-id: 1
     material: IRON_SWORD
     custom-model-data: 10019
-    itemsadder-item: "fantasy_weapons:oculus"
     name: "&b&lMa Nhãn Thần Trượng"
     max-durability: 20000
     tier: UNIQUE

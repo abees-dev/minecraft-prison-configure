@@ -10,7 +10,6 @@ RED_GEM_LV1:
       - "&7Đá quý mang năng lượng nguyên tố Hỏa."
       - "&7Kéo thả vào trang bị có ô khảm để tăng sát thương."
     attack-damage: 1.3
-    max-stack: 1
     will-break: false
     unbreakable: false
 
@@ -26,7 +25,6 @@ RED_GEM_LV2:
       - "&7Đá quý mang năng lượng nguyên tố Hỏa."
       - "&7Kéo thả vào trang bị có ô khảm để tăng sát thương."
     attack-damage: 2
-    max-stack: 1
     will-break: false
     unbreakable: false
 
@@ -42,7 +40,6 @@ RED_GEM_LV3:
       - "&7Đá quý mang năng lượng nguyên tố Hỏa."
       - "&7Kéo thả vào trang bị có ô khảm để tăng sát thương."
     attack-damage: 2.8
-    max-stack: 1
     will-break: false
     unbreakable: false
 
@@ -58,7 +55,6 @@ RED_GEM_LV4:
       - "&7Đá quý mang năng lượng nguyên tố Hỏa."
       - "&7Kéo thả vào trang bị có ô khảm để tăng sát thương."
     attack-damage: 3.5
-    max-stack: 1
     will-break: false
     unbreakable: false
 
@@ -74,7 +70,6 @@ RED_GEM_LV5:
       - "&7Đá quý mang năng lượng nguyên tố Hỏa."
       - "&7Kéo thả vào trang bị có ô khảm để tăng sát thương."
     attack-damage: 4.3
-    max-stack: 1
     will-break: false
     unbreakable: false
 
@@ -90,7 +85,6 @@ RED_GEM_LV6:
       - "&7Đá quý mang năng lượng nguyên tố Hỏa."
       - "&7Kéo thả vào trang bị có ô khảm để tăng sát thương."
     attack-damage: 5
-    max-stack: 1
     will-break: false
     unbreakable: false
 
@@ -106,7 +100,6 @@ RED_GEM_LV7:
       - "&7Đá quý mang năng lượng nguyên tố Hỏa."
       - "&7Kéo thả vào trang bị có ô khảm để tăng sát thương."
     attack-damage: 5.8
-    max-stack: 1
     will-break: false
     unbreakable: false
 
@@ -122,7 +115,6 @@ RED_GEM_LV8:
       - "&7Đá quý mang năng lượng nguyên tố Hỏa."
       - "&7Kéo thả vào trang bị có ô khảm để tăng sát thương."
     attack-damage: 6.5
-    max-stack: 1
     will-break: false
     unbreakable: false
 
@@ -138,7 +130,6 @@ RED_GEM_LV9:
       - "&7Đá quý mang năng lượng nguyên tố Hỏa."
       - "&7Kéo thả vào trang bị có ô khảm để tăng sát thương."
     attack-damage: 7.3
-    max-stack: 1
     will-break: false
     unbreakable: false
 
@@ -154,7 +145,6 @@ RED_GEM_LV10:
       - "&7Đá quý mang năng lượng nguyên tố Hỏa."
       - "&7Kéo thả vào trang bị có ô khảm để tăng sát thương."
     attack-damage: 8
-    max-stack: 1
     will-break: false
     unbreakable: false
 
@@ -170,7 +160,6 @@ BLUE_GEM_LV1:
       - "&7Đá quý mang năng lượng nguyên tố Nước."
       - "&7Kéo thả vào trang bị có ô khảm để tăng Năng Lượng."
     max-mana: 12
-    max-stack: 1
     will-break: false
     unbreakable: false
 
@@ -186,7 +175,6 @@ BLUE_GEM_LV2:
       - "&7Đá quý mang năng lượng nguyên tố Nước."
       - "&7Kéo thả vào trang bị có ô khảm để tăng Năng Lượng."
     max-mana: 20
-    max-stack: 1
     will-break: false
     unbreakable: false
 
@@ -202,7 +190,6 @@ BLUE_GEM_LV3:
       - "&7Đá quý mang năng lượng nguyên tố Nước."
       - "&7Kéo thả vào trang bị có ô khảm để tăng Năng Lượng."
     max-mana: 27
-    max-stack: 1
     will-break: false
     unbreakable: false
 
@@ -218,7 +205,6 @@ BLUE_GEM_LV4:
       - "&7Đá quý mang năng lượng nguyên tố Nước."
       - "&7Kéo thả vào trang bị có ô khảm để tăng Năng Lượng."
     max-mana: 35
-    max-stack: 1
     will-break: false
     unbreakable: false
 
@@ -234,7 +220,6 @@ BLUE_GEM_LV5:
       - "&7Đá quý mang năng lượng nguyên tố Nước."
       - "&7Kéo thả vào trang bị có ô khảm để tăng Năng Lượng."
     max-mana: 42
-    max-stack: 1
     will-break: false
     unbreakable: false
 
@@ -250,7 +235,6 @@ BLUE_GEM_LV6:
       - "&7Đá quý mang năng lượng nguyên tố Nước."
       - "&7Kéo thả vào trang bị có ô khảm để tăng Năng Lượng."
     max-mana: 50
-    max-stack: 1
     will-break: false
     unbreakable: false
 
@@ -266,7 +250,6 @@ BLUE_GEM_LV7:
       - "&7Đá quý mang năng lượng nguyên tố Nước."
       - "&7Kéo thả vào trang bị có ô khảm để tăng Năng Lượng."
     max-mana: 57
-    max-stack: 1
     will-break: false
     unbreakable: false
 
@@ -282,7 +265,6 @@ BLUE_GEM_LV8:
       - "&7Đá quý mang năng lượng nguyên tố Nước."
       - "&7Kéo thả vào trang bị có ô khảm để tăng Năng Lượng."
     max-mana: 65
-    max-stack: 1
     will-break: false
     unbreakable: false
 
@@ -298,7 +280,6 @@ BLUE_GEM_LV9:
       - "&7Đá quý mang năng lượng nguyên tố Nước."
       - "&7Kéo thả vào trang bị có ô khảm để tăng Năng Lượng."
     max-mana: 72
-    max-stack: 1
     will-break: false
     unbreakable: false
 
@@ -314,7 +295,6 @@ BLUE_GEM_LV10:
       - "&7Đá quý mang năng lượng nguyên tố Nước."
       - "&7Kéo thả vào trang bị có ô khảm để tăng Năng Lượng."
     max-mana: 80
-    max-stack: 1
     will-break: false
     unbreakable: false
 
@@ -330,7 +310,6 @@ GREEN_GEM_LV1:
       - "&7Đá quý mang năng lượng nguyên tố Phong."
       - "&7Kéo thả vào trang bị có ô khảm để tăng Máu Tối Đa."
     max-health: 4.5
-    max-stack: 1
     will-break: false
     unbreakable: false
 
@@ -346,7 +325,6 @@ GREEN_GEM_LV2:
       - "&7Đá quý mang năng lượng nguyên tố Phong."
       - "&7Kéo thả vào trang bị có ô khảm để tăng Máu Tối Đa."
     max-health: 7
-    max-stack: 1
     will-break: false
     unbreakable: false
 
@@ -362,7 +340,6 @@ GREEN_GEM_LV3:
       - "&7Đá quý mang năng lượng nguyên tố Phong."
       - "&7Kéo thả vào trang bị có ô khảm để tăng Máu Tối Đa."
     max-health: 9.5
-    max-stack: 1
     will-break: false
     unbreakable: false
 
@@ -378,7 +355,6 @@ GREEN_GEM_LV4:
       - "&7Đá quý mang năng lượng nguyên tố Phong."
       - "&7Kéo thả vào trang bị có ô khảm để tăng Máu Tối Đa."
     max-health: 12
-    max-stack: 1
     will-break: false
     unbreakable: false
 
@@ -394,7 +370,6 @@ GREEN_GEM_LV5:
       - "&7Đá quý mang năng lượng nguyên tố Phong."
       - "&7Kéo thả vào trang bị có ô khảm để tăng Máu Tối Đa."
     max-health: 14.5
-    max-stack: 1
     will-break: false
     unbreakable: false
 
@@ -410,7 +385,6 @@ GREEN_GEM_LV6:
       - "&7Đá quý mang năng lượng nguyên tố Phong."
       - "&7Kéo thả vào trang bị có ô khảm để tăng Máu Tối Đa."
     max-health: 17
-    max-stack: 1
     will-break: false
     unbreakable: false
 
@@ -426,7 +400,6 @@ GREEN_GEM_LV7:
       - "&7Đá quý mang năng lượng nguyên tố Phong."
       - "&7Kéo thả vào trang bị có ô khảm để tăng Máu Tối Đa."
     max-health: 19.5
-    max-stack: 1
     will-break: false
     unbreakable: false
 
@@ -442,7 +415,6 @@ GREEN_GEM_LV8:
       - "&7Đá quý mang năng lượng nguyên tố Phong."
       - "&7Kéo thả vào trang bị có ô khảm để tăng Máu Tối Đa."
     max-health: 22
-    max-stack: 1
     will-break: false
     unbreakable: false
 
@@ -458,7 +430,6 @@ GREEN_GEM_LV9:
       - "&7Đá quý mang năng lượng nguyên tố Phong."
       - "&7Kéo thả vào trang bị có ô khảm để tăng Máu Tối Đa."
     max-health: 24.5
-    max-stack: 1
     will-break: false
     unbreakable: false
 
@@ -474,7 +445,6 @@ GREEN_GEM_LV10:
       - "&7Đá quý mang năng lượng nguyên tố Phong."
       - "&7Kéo thả vào trang bị có ô khảm để tăng Máu Tối Đa."
     max-health: 27
-    max-stack: 1
     will-break: false
     unbreakable: false
 
@@ -490,7 +460,6 @@ YELLOW_GEM_LV1:
       - "&7Đá quý mang năng lượng nguyên tố Thổ."
       - "&7Kéo thả vào trang bị có ô khảm để tăng Phòng Thủ."
     armor: 1.1
-    max-stack: 1
     will-break: false
     unbreakable: false
 
@@ -506,7 +475,6 @@ YELLOW_GEM_LV2:
       - "&7Đá quý mang năng lượng nguyên tố Thổ."
       - "&7Kéo thả vào trang bị có ô khảm để tăng Phòng Thủ."
     armor: 1.7
-    max-stack: 1
     will-break: false
     unbreakable: false
 
@@ -522,7 +490,6 @@ YELLOW_GEM_LV3:
       - "&7Đá quý mang năng lượng nguyên tố Thổ."
       - "&7Kéo thả vào trang bị có ô khảm để tăng Phòng Thủ."
     armor: 2.3
-    max-stack: 1
     will-break: false
     unbreakable: false
 
@@ -538,7 +505,6 @@ YELLOW_GEM_LV4:
       - "&7Đá quý mang năng lượng nguyên tố Thổ."
       - "&7Kéo thả vào trang bị có ô khảm để tăng Phòng Thủ."
     armor: 2.9
-    max-stack: 1
     will-break: false
     unbreakable: false
 
@@ -554,7 +520,6 @@ YELLOW_GEM_LV5:
       - "&7Đá quý mang năng lượng nguyên tố Thổ."
       - "&7Kéo thả vào trang bị có ô khảm để tăng Phòng Thủ."
     armor: 3.5
-    max-stack: 1
     will-break: false
     unbreakable: false
 
@@ -570,7 +535,6 @@ YELLOW_GEM_LV6:
       - "&7Đá quý mang năng lượng nguyên tố Thổ."
       - "&7Kéo thả vào trang bị có ô khảm để tăng Phòng Thủ."
     armor: 4.1
-    max-stack: 1
     will-break: false
     unbreakable: false
 
@@ -586,7 +550,6 @@ YELLOW_GEM_LV7:
       - "&7Đá quý mang năng lượng nguyên tố Thổ."
       - "&7Kéo thả vào trang bị có ô khảm để tăng Phòng Thủ."
     armor: 4.7
-    max-stack: 1
     will-break: false
     unbreakable: false
 
@@ -602,7 +565,6 @@ YELLOW_GEM_LV8:
       - "&7Đá quý mang năng lượng nguyên tố Thổ."
       - "&7Kéo thả vào trang bị có ô khảm để tăng Phòng Thủ."
     armor: 5.3
-    max-stack: 1
     will-break: false
     unbreakable: false
 
@@ -618,7 +580,6 @@ YELLOW_GEM_LV9:
       - "&7Đá quý mang năng lượng nguyên tố Thổ."
       - "&7Kéo thả vào trang bị có ô khảm để tăng Phòng Thủ."
     armor: 5.9
-    max-stack: 1
     will-break: false
     unbreakable: false
 
@@ -634,7 +595,6 @@ YELLOW_GEM_LV10:
       - "&7Đá quý mang năng lượng nguyên tố Thổ."
       - "&7Kéo thả vào trang bị có ô khảm để tăng Phòng Thủ."
     armor: 6.5
-    max-stack: 1
     will-break: false
     unbreakable: false
 
@@ -650,7 +610,6 @@ PURPLE_GEM_LV1:
       - "&7Đá quý mang năng lượng Huyền Bí."
       - "&7Kéo thả vào trang bị có ô khảm để tăng Sát Thương Phép."
     magic-damage: 2.5
-    max-stack: 1
     will-break: false
     unbreakable: false
 
@@ -666,7 +625,6 @@ PURPLE_GEM_LV2:
       - "&7Đá quý mang năng lượng Huyền Bí."
       - "&7Kéo thả vào trang bị có ô khảm để tăng Sát Thương Phép."
     magic-damage: 4
-    max-stack: 1
     will-break: false
     unbreakable: false
 
@@ -682,7 +640,6 @@ PURPLE_GEM_LV3:
       - "&7Đá quý mang năng lượng Huyền Bí."
       - "&7Kéo thả vào trang bị có ô khảm để tăng Sát Thương Phép."
     magic-damage: 5.5
-    max-stack: 1
     will-break: false
     unbreakable: false
 
@@ -698,7 +655,6 @@ PURPLE_GEM_LV4:
       - "&7Đá quý mang năng lượng Huyền Bí."
       - "&7Kéo thả vào trang bị có ô khảm để tăng Sát Thương Phép."
     magic-damage: 7
-    max-stack: 1
     will-break: false
     unbreakable: false
 
@@ -714,7 +670,6 @@ PURPLE_GEM_LV5:
       - "&7Đá quý mang năng lượng Huyền Bí."
       - "&7Kéo thả vào trang bị có ô khảm để tăng Sát Thương Phép."
     magic-damage: 8.5
-    max-stack: 1
     will-break: false
     unbreakable: false
 
@@ -730,7 +685,6 @@ PURPLE_GEM_LV6:
       - "&7Đá quý mang năng lượng Huyền Bí."
       - "&7Kéo thả vào trang bị có ô khảm để tăng Sát Thương Phép."
     magic-damage: 10
-    max-stack: 1
     will-break: false
     unbreakable: false
 
@@ -746,7 +700,6 @@ PURPLE_GEM_LV7:
       - "&7Đá quý mang năng lượng Huyền Bí."
       - "&7Kéo thả vào trang bị có ô khảm để tăng Sát Thương Phép."
     magic-damage: 11.5
-    max-stack: 1
     will-break: false
     unbreakable: false
 
@@ -762,7 +715,6 @@ PURPLE_GEM_LV8:
       - "&7Đá quý mang năng lượng Huyền Bí."
       - "&7Kéo thả vào trang bị có ô khảm để tăng Sát Thương Phép."
     magic-damage: 13
-    max-stack: 1
     will-break: false
     unbreakable: false
 
@@ -778,7 +730,6 @@ PURPLE_GEM_LV9:
       - "&7Đá quý mang năng lượng Huyền Bí."
       - "&7Kéo thả vào trang bị có ô khảm để tăng Sát Thương Phép."
     magic-damage: 14.5
-    max-stack: 1
     will-break: false
     unbreakable: false
 
@@ -794,7 +745,6 @@ PURPLE_GEM_LV10:
       - "&7Đá quý mang năng lượng Huyền Bí."
       - "&7Kéo thả vào trang bị có ô khảm để tăng Sát Thương Phép."
     magic-damage: 16
-    max-stack: 1
     will-break: false
     unbreakable: false
 
@@ -810,7 +760,6 @@ CYAN_GEM_LV1:
       - "&7Đá quý mang năng lượng Băng Giá."
       - "&7Kéo thả vào trang bị có ô khảm để tăng Tỷ Lệ Bạo Kích."
     critical-strike-chance: 1
-    max-stack: 1
     will-break: false
     unbreakable: false
 
@@ -826,7 +775,6 @@ CYAN_GEM_LV2:
       - "&7Đá quý mang năng lượng Băng Giá."
       - "&7Kéo thả vào trang bị có ô khảm để tăng Tỷ Lệ Bạo Kích."
     critical-strike-chance: 1.5
-    max-stack: 1
     will-break: false
     unbreakable: false
 
@@ -842,7 +790,6 @@ CYAN_GEM_LV3:
       - "&7Đá quý mang năng lượng Băng Giá."
       - "&7Kéo thả vào trang bị có ô khảm để tăng Tỷ Lệ Bạo Kích."
     critical-strike-chance: 2
-    max-stack: 1
     will-break: false
     unbreakable: false
 
@@ -858,7 +805,6 @@ CYAN_GEM_LV4:
       - "&7Đá quý mang năng lượng Băng Giá."
       - "&7Kéo thả vào trang bị có ô khảm để tăng Tỷ Lệ Bạo Kích."
     critical-strike-chance: 2.5
-    max-stack: 1
     will-break: false
     unbreakable: false
 
@@ -874,7 +820,6 @@ CYAN_GEM_LV5:
       - "&7Đá quý mang năng lượng Băng Giá."
       - "&7Kéo thả vào trang bị có ô khảm để tăng Tỷ Lệ Bạo Kích."
     critical-strike-chance: 3
-    max-stack: 1
     will-break: false
     unbreakable: false
 
@@ -890,7 +835,6 @@ CYAN_GEM_LV6:
       - "&7Đá quý mang năng lượng Băng Giá."
       - "&7Kéo thả vào trang bị có ô khảm để tăng Tỷ Lệ Bạo Kích."
     critical-strike-chance: 3.5
-    max-stack: 1
     will-break: false
     unbreakable: false
 
@@ -906,7 +850,6 @@ CYAN_GEM_LV7:
       - "&7Đá quý mang năng lượng Băng Giá."
       - "&7Kéo thả vào trang bị có ô khảm để tăng Tỷ Lệ Bạo Kích."
     critical-strike-chance: 4
-    max-stack: 1
     will-break: false
     unbreakable: false
 
@@ -922,7 +865,6 @@ CYAN_GEM_LV8:
       - "&7Đá quý mang năng lượng Băng Giá."
       - "&7Kéo thả vào trang bị có ô khảm để tăng Tỷ Lệ Bạo Kích."
     critical-strike-chance: 4.5
-    max-stack: 1
     will-break: false
     unbreakable: false
 
@@ -938,7 +880,6 @@ CYAN_GEM_LV9:
       - "&7Đá quý mang năng lượng Băng Giá."
       - "&7Kéo thả vào trang bị có ô khảm để tăng Tỷ Lệ Bạo Kích."
     critical-strike-chance: 5
-    max-stack: 1
     will-break: false
     unbreakable: false
 
@@ -954,7 +895,5 @@ CYAN_GEM_LV10:
       - "&7Đá quý mang năng lượng Băng Giá."
       - "&7Kéo thả vào trang bị có ô khảm để tăng Tỷ Lệ Bạo Kích."
     critical-strike-chance: 5.5
-    max-stack: 1
     will-break: false
     unbreakable: false
-

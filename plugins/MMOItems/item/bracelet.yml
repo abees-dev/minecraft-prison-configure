@@ -1,9 +1,9 @@
 TRADE_BRACELET_HOA_LONG:
+  itemsadder-item: "rings_pack:set1_ring_5"
   base:
     revision-id: 1
     material: PAPER
     custom-model-data: 19205
-    itemsadder-item: "rings_pack:set1_ring_5"
     name: "&6&l🔥 Vòng Tay Hỏa Long"
     tier: UNIQUE
     set: HOA_LONG_SET
@@ -20,11 +20,11 @@ TRADE_BRACELET_HOA_LONG:
       max: 100
 
 TRADE_BRACELET_HAC_LONG:
+  itemsadder-item: "rings_pack:set3_ring_5"
   base:
     revision-id: 1
     material: PAPER
     custom-model-data: 19224
-    itemsadder-item: "rings_pack:set3_ring_5"
     name: "&5&l◆ Vòng Tay Hắc Long"
     tier: UNIQUE
     set: HAC_LONG_SET
@@ -41,11 +41,11 @@ TRADE_BRACELET_HAC_LONG:
       max: 100
 
 TRADE_BRACELET_LOI_LONG:
+  itemsadder-item: "rings_pack:set8_ring_5"
   base:
     revision-id: 1
     material: PAPER
     custom-model-data: 19274
-    itemsadder-item: "rings_pack:set8_ring_5"
     name: "&e&l⚡ Vòng Tay Lôi Long"
     tier: UNIQUE
     set: LOI_LONG_SET
@@ -62,11 +62,11 @@ TRADE_BRACELET_LOI_LONG:
       max: 100
 
 TRADE_BRACELET_PHONG_LONG:
+  itemsadder-item: "rings_pack:set5_ring_5"
   base:
     revision-id: 1
     material: PAPER
     custom-model-data: 19244
-    itemsadder-item: "rings_pack:set5_ring_5"
     name: "&2&l✦ Vòng Tay Phong Long"
     tier: UNIQUE
     set: PHONG_LONG_SET
@@ -83,11 +83,11 @@ TRADE_BRACELET_PHONG_LONG:
       max: 100
 
 TRADE_BRACELET_BANG_LONG:
+  itemsadder-item: "rings_pack:set2_ring_5"
   base:
     revision-id: 1
     material: PAPER
     custom-model-data: 19214
-    itemsadder-item: "rings_pack:set2_ring_5"
     name: "&3&l✦ Vòng Tay Băng Long"
     tier: UNIQUE
     set: BANG_LONG_SET
@@ -105,11 +105,11 @@ TRADE_BRACELET_BANG_LONG:
       max: 100
 
 DONATE_BRACELET_LONG_CHIEN:
+  itemsadder-item: "rings_pack:set4_ring_5"
   base:
     revision-id: 1
     material: PAPER
     custom-model-data: 19234
-    itemsadder-item: "rings_pack:set4_ring_5"
     name: "&e&l⚔ Vòng Tay Chiến Long"
     tier: UNIQUE
     set: LONG_CHIEN_SET
@@ -126,11 +126,11 @@ DONATE_BRACELET_LONG_CHIEN:
       max: 100
 
 DONATE_BRACELET_LONG_THAN:
+  itemsadder-item: "rings_pack:set6_ring_5"
   base:
     revision-id: 1
     material: PAPER
     custom-model-data: 19254
-    itemsadder-item: "rings_pack:set6_ring_5"
     name: "&b&l✦ Vòng Tay Thần Long"
     tier: UNIQUE
     set: LONG_THAN_SET
@@ -147,11 +147,11 @@ DONATE_BRACELET_LONG_THAN:
       max: 100
 
 DONATE_BRACELET_LONG_HOANG:
+  itemsadder-item: "rings_pack:set9_ring_5"
   base:
     revision-id: 1
     material: PAPER
     custom-model-data: 19284
-    itemsadder-item: "rings_pack:set9_ring_5"
     name: "&c&l★ Vòng Tay Hoàng Long"
     tier: UNIQUE
     set: LONG_HOANG_SET
@@ -168,11 +168,11 @@ DONATE_BRACELET_LONG_HOANG:
       max: 100
 
 DONATE_BRACELET_LONG_DE:
+  itemsadder-item: "rings_pack:set7_ring_5"
   base:
     revision-id: 1
     material: PAPER
     custom-model-data: 19264
-    itemsadder-item: "rings_pack:set7_ring_5"
     name: "&4&l◆ Vòng Tay Đế Long"
     tier: UNIQUE
     set: LONG_DE_SET
@@ -189,11 +189,11 @@ DONATE_BRACELET_LONG_DE:
       max: 100
 
 DONATE_BRACELET_LONG_VE:
+  itemsadder-item: "rings_pack:set1_ring_6"
   base:
     revision-id: 1
     material: PAPER
     custom-model-data: 19206
-    itemsadder-item: "rings_pack:set1_ring_6"
     name: "&a&l✦ Vòng Tay Hộ Long"
     tier: UNIQUE
     set: LONG_VE_SET
@@ -211,11 +211,11 @@ DONATE_BRACELET_LONG_VE:
       max: 100
 
 FREE_BRACELET_THANH_LONG:
+  itemsadder-item: "rings_pack:ring_6"
   base:
     revision-id: 1
     material: PAPER
     custom-model-data: 19006
-    itemsadder-item: "rings_pack:ring_6"
     name: "&b&l⚡ Vòng Tay Thanh Long"
     tier: UNIQUE
     set: THANH_LONG_SET
@@ -229,11 +229,11 @@ FREE_BRACELET_THANH_LONG:
       max: 100
 
 FREE_BRACELET_XICH_LONG:
+  itemsadder-item: "rings_pack:ring_9"
   base:
     revision-id: 1
     material: PAPER
     custom-model-data: 19009
-    itemsadder-item: "rings_pack:ring_9"
     name: "&c&l🔥 Vòng Tay Xích Long"
     tier: UNIQUE
     set: XICH_LONG_SET
@@ -247,11 +247,11 @@ FREE_BRACELET_XICH_LONG:
       max: 100
 
 FREE_BRACELET_KIM_LONG:
+  itemsadder-item: "rings_pack:set11_ring_5"
   base:
     revision-id: 1
     material: PAPER
     custom-model-data: 19225
-    itemsadder-item: "rings_pack:set11_ring_5"
     name: "&e&l★ Vòng Tay Kim Long"
     tier: UNIQUE
     set: KIM_LONG_SET
@@ -265,11 +265,11 @@ FREE_BRACELET_KIM_LONG:
       max: 100
 
 FREE_BRACELET_THIEN_LONG:
+  itemsadder-item: "rings_pack:set11_ring_4"
   base:
     revision-id: 1
     material: PAPER
     custom-model-data: 19224
-    itemsadder-item: "rings_pack:set11_ring_4"
     name: "&d&l✦ Vòng Tay Thiên Long"
     tier: UNIQUE
     set: THIEN_LONG_SET
@@ -283,11 +283,11 @@ FREE_BRACELET_THIEN_LONG:
       max: 100
 
 FREE_BRACELET_BAC_LONG:
+  itemsadder-item: "rings_pack:ring_3"
   base:
     revision-id: 1
     material: PAPER
     custom-model-data: 19003
-    itemsadder-item: "rings_pack:ring_3"
     name: "&f&l✧ Vòng Tay Bạch Long"
     tier: UNIQUE
     set: BAC_LONG_SET

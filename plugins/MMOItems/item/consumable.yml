@@ -1,9 +1,9 @@
 DA_CUONG_HOA_VU_KHI_SO_CAP:
+  itemsadder-item: "enchanting_stone:enchanting_stone_1"
   base:
     revision-id: 1
     material: PAPER
     custom-model-data: 10001
-    itemsadder-item: "enchanting_stone:enchanting_stone_1"
     name: "&a✦ Đá Cường Hóa Vũ Khí &7[Sơ Cấp LV 1-20]"
     tier: UNCOMMON
     hide-enchants: true
@@ -20,11 +20,11 @@ DA_CUONG_HOA_VU_KHI_SO_CAP:
       destroy-on-fail: false
 
 DA_CUONG_HOA_VU_KHI_TRUNG_CAP:
+  itemsadder-item: "enchanting_stone:enchanting_stone_2"
   base:
     revision-id: 1
     material: PAPER
     custom-model-data: 10002
-    itemsadder-item: "enchanting_stone:enchanting_stone_2"
     name: "&e✦ Đá Cường Hóa Vũ Khí &7[Trung Cấp LV 21-40]"
     tier: RARE
     hide-enchants: true
@@ -41,11 +41,11 @@ DA_CUONG_HOA_VU_KHI_TRUNG_CAP:
       destroy-on-fail: false
 
 DA_CUONG_HOA_VU_KHI_CAO_CAP:
+  itemsadder-item: "enchanting_stone:enchanting_stone_3"
   base:
     revision-id: 1
     material: PAPER
     custom-model-data: 10003
-    itemsadder-item: "enchanting_stone:enchanting_stone_3"
     name: "&6✦ Đá Cường Hóa Vũ Khí &7[Cao Cấp LV 41-60]"
     tier: RARE
     hide-enchants: true
@@ -62,11 +62,11 @@ DA_CUONG_HOA_VU_KHI_CAO_CAP:
       destroy-on-fail: false
 
 DA_CUONG_HOA_VU_KHI_SIEU_CAP:
+  itemsadder-item: "enchanting_stone:enchanting_stone_4"
   base:
     revision-id: 1
     material: PAPER
     custom-model-data: 10005
-    itemsadder-item: "enchanting_stone:enchanting_stone_4"
     name: "&c✦ Đá Cường Hóa Vũ Khí &7[Siêu Cấp LV 61-80]"
     tier: LEGENDARY
     hide-enchants: true
@@ -83,11 +83,11 @@ DA_CUONG_HOA_VU_KHI_SIEU_CAP:
       destroy-on-fail: false
 
 DA_CUONG_HOA_VU_KHI_HUYEN_THOAI:
+  itemsadder-item: "enchanting_stone:enchanting_stone_5"
   base:
     revision-id: 1
     material: PAPER
     custom-model-data: 10006
-    itemsadder-item: "enchanting_stone:enchanting_stone_5"
     name: "&d&l✦ Đá Cường Hóa Vũ Khí &7[Huyền Thoại LV 81-100]"
     tier: MYTHICAL
     hide-enchants: true
@@ -104,11 +104,11 @@ DA_CUONG_HOA_VU_KHI_HUYEN_THOAI:
       destroy-on-fail: false
 
 DA_CUONG_HOA_GIAP_SO_CAP:
+  itemsadder-item: "toffy_gem:toffy_greengem"
   base:
     revision-id: 1
     material: PAPER
     custom-model-data: 10004
-    itemsadder-item: "toffy_gem:toffy_greengem"
     name: "&a✦ Đá Cường Hóa Giáp &7[Sơ Cấp LV 1-20]"
     tier: UNCOMMON
     hide-enchants: true
@@ -125,11 +125,11 @@ DA_CUONG_HOA_GIAP_SO_CAP:
       destroy-on-fail: false
 
 DA_CUONG_HOA_GIAP_TRUNG_CAP:
+  itemsadder-item: "toffy_gem:toffy_cyangem"
   base:
     revision-id: 1
     material: PAPER
     custom-model-data: 10007
-    itemsadder-item: "toffy_gem:toffy_cyangem"
     name: "&e✦ Đá Cường Hóa Giáp &7[Trung Cấp LV 21-40]"
     tier: RARE
     hide-enchants: true
@@ -146,11 +146,11 @@ DA_CUONG_HOA_GIAP_TRUNG_CAP:
       destroy-on-fail: false
 
 DA_CUONG_HOA_GIAP_CAO_CAP:
+  itemsadder-item: "toffy_gem:toffy_bluegem"
   base:
     revision-id: 1
     material: PAPER
     custom-model-data: 10008
-    itemsadder-item: "toffy_gem:toffy_bluegem"
     name: "&6✦ Đá Cường Hóa Giáp &7[Cao Cấp LV 41-60]"
     tier: RARE
     hide-enchants: true
@@ -167,11 +167,11 @@ DA_CUONG_HOA_GIAP_CAO_CAP:
       destroy-on-fail: false
 
 DA_CUONG_HOA_GIAP_SIEU_CAP:
+  itemsadder-item: "toffy_gem:toffy_purplegem"
   base:
     revision-id: 1
     material: PAPER
     custom-model-data: 10013
-    itemsadder-item: "toffy_gem:toffy_purplegem"
     name: "&c✦ Đá Cường Hóa Giáp &7[Siêu Cấp LV 61-80]"
     tier: LEGENDARY
     hide-enchants: true
@@ -188,11 +188,11 @@ DA_CUONG_HOA_GIAP_SIEU_CAP:
       destroy-on-fail: false
 
 DA_CUONG_HOA_GIAP_HUYEN_THOAI:
+  itemsadder-item: "toffy_gem:toffy_redgem"
   base:
     revision-id: 1
     material: PAPER
     custom-model-data: 10014
-    itemsadder-item: "toffy_gem:toffy_redgem"
     name: "&d&l✦ Đá Cường Hóa Giáp &7[Huyền Thoại LV 81-100]"
     tier: MYTHICAL
     hide-enchants: true
@@ -209,11 +209,11 @@ DA_CUONG_HOA_GIAP_HUYEN_THOAI:
       destroy-on-fail: false
 
 DA_CUONG_HOA_THIEN_MENH:
+  itemsadder-item: "enchanting_stone:enchanting_stone_6"
   base:
     revision-id: 1
     material: PAPER
     custom-model-data: 10009
-    itemsadder-item: "enchanting_stone:enchanting_stone_6"
     name: "&d&l✦ Đá Cường Hóa Thiên Mệnh &7[100% Thành Công]"
     tier: MYTHICAL
     hide-enchants: true

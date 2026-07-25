@@ -1169,11 +1169,11 @@ AXE_VUOT_NGUC_5:
     unbreakable: false
 
 GACHA_AXE_VIRIDIAN:
+  itemsadder-item: "fantasy_weapons:viridian_greataxe"
   base:
     revision-id: 1
     material: IRON_AXE
     custom-model-data: 10001
-    itemsadder-item: "fantasy_weapons:viridian_greataxe"
     name: "&a&lLục Bảo Thần Rìu"
     max-durability: 20000
     tier: UNIQUE
@@ -1203,11 +1203,11 @@ GACHA_AXE_VIRIDIAN:
     unbreakable: false
 
 GACHA_AXE_AZURE:
+  itemsadder-item: "fantasy_weapons:azure_greataxe"
   base:
     revision-id: 1
     material: DIAMOND_AXE
     custom-model-data: 10000
-    itemsadder-item: "fantasy_weapons:azure_greataxe"
     name: "&3&lBăng Long Đại Rìu"
     max-durability: 20000
     tier: UNIQUE
@@ -1238,11 +1238,11 @@ GACHA_AXE_AZURE:
     unbreakable: false
 
 GACHA_AXE_SACRIFICIAL:
+  itemsadder-item: "fantasy_weapons:sacrificial_cleaver"
   base:
     revision-id: 1
     material: IRON_AXE
     custom-model-data: 10011
-    itemsadder-item: "fantasy_weapons:sacrificial_cleaver"
     name: "&c&lTế Sát Thần Đao"
     max-durability: 20000
     tier: UNIQUE

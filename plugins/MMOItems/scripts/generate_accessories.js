@@ -126,11 +126,11 @@ sets.forEach(s => {
 
   // --- RINGS ---
   ringYAML += `${s.prefix}_RING_${s.id}_1:
+  itemsadder-item: "${s.ring1.ia}"
   base:
     revision-id: 1
     material: PAPER
     custom-model-data: ${s.ring1.cmd}
-    itemsadder-item: "${s.ring1.ia}"
     name: "${s.color} Nhẫn ${s.nameVi} I"
     tier: ${s.tier}
     set: ${s.setName}
@@ -142,11 +142,11 @@ ${socketsLines}
       max: 100
 
 ${s.prefix}_RING_${s.id}_2:
+  itemsadder-item: "${s.ring2.ia}"
   base:
     revision-id: 1
     material: PAPER
     custom-model-data: ${s.ring2.cmd}
-    itemsadder-item: "${s.ring2.ia}"
     name: "${s.color} Nhẫn ${s.nameVi} II"
     tier: ${s.tier}
     set: ${s.setName}
@@ -161,11 +161,11 @@ ${socketsLines}
 
   // --- AMULET ---
   amuletYAML += `${s.prefix}_AMULET_${s.id}:
+  itemsadder-item: "${s.amulet.ia}"
   base:
     revision-id: 1
     material: PAPER
     custom-model-data: ${s.amulet.cmd}
-    itemsadder-item: "${s.amulet.ia}"
     name: "${s.color} Dây Chuyền ${s.nameVi}"
     tier: ${s.tier}
     set: ${s.setName}
@@ -180,11 +180,11 @@ ${socketsLines}
 
   // --- BRACELET ---
   braceletYAML += `${s.prefix}_BRACELET_${s.id}:
+  itemsadder-item: "${s.bracelet.ia}"
   base:
     revision-id: 1
     material: PAPER
     custom-model-data: ${s.bracelet.cmd}
-    itemsadder-item: "${s.bracelet.ia}"
     name: "${s.color} Vòng Tay ${s.nameVi}"
     tier: ${s.tier}
     set: ${s.setName}
@@ -199,11 +199,11 @@ ${socketsLines}
 
   // --- GLOVES ---
   glovesYAML += `${s.prefix}_GLOVES_${s.id}:
+  itemsadder-item: "${s.gloves.ia}"
   base:
     revision-id: 1
     material: PAPER
     custom-model-data: ${s.gloves.cmd}
-    itemsadder-item: "${s.gloves.ia}"
     name: "${s.color} Găng Tay ${s.nameVi}"
     tier: ${s.tier}
     set: ${s.setName}

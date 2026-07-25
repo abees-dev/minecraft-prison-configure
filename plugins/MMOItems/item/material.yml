@@ -2,275 +2,274 @@ DA_NANG_CAP_TAN_BINH:
   base:
     revision-id: 1
     material: FLINT
-    name: '&d✦ Cường Hóa Thạch &f&lTân Binh'
+    name: "&d✦ Cường Hóa Thạch &f&lTân Binh"
     tier: TRASH
     lore-format: ingredient-lore
     hide-enchants: true
     enchants:
       unbreaking: 1
     lore:
-      - '&7 &d●&7 Chế từ Cobblestone / Smooth Stone mỏ Tân Binh'
-      - '&7 &d●&7 Dùng để nâng cấp cúp/giáp rank Tân Binh'
+      - "&7 &d●&7 Chế từ Cobblestone / Smooth Stone mỏ Tân Binh"
+      - "&7 &d●&7 Dùng để nâng cấp cúp/giáp rank Tân Binh"
 
 DA_NANG_CAP_TU_NHAN:
   base:
     revision-id: 1
     material: COAL
-    name: '&d✦ Cường Hóa Thạch &f&lTù Nhân'
+    name: "&d✦ Cường Hóa Thạch &f&lTù Nhân"
     tier: TRASH
     lore-format: ingredient-lore
     hide-enchants: true
     enchants:
       unbreaking: 1
     lore:
-      - '&7 &d●&7 Chế từ Coal Ore đào ở mỏ Tù Nhân'
-      - '&7 &d●&7 Dùng để nâng cấp cúp/giáp rank Tù Nhân'
+      - "&7 &d●&7 Chế từ Coal Ore đào ở mỏ Tù Nhân"
+      - "&7 &d●&7 Dùng để nâng cấp cúp/giáp rank Tù Nhân"
 
 DA_NANG_CAP_LAO_CONG:
   base:
     revision-id: 1
     material: IRON_INGOT
-    name: '&d✦ Cường Hóa Thạch &f&lLao Công'
+    name: "&d✦ Cường Hóa Thạch &f&lLao Công"
     tier: TRASH
     lore-format: ingredient-lore
     hide-enchants: true
     enchants:
       unbreaking: 1
     lore:
-      - '&7 &d●&7 Chế từ Iron Ore đào ở mỏ Lao Công'
-      - '&7 &d●&7 Dùng để nâng cấp cúp/giáp rank Lao Công'
+      - "&7 &d●&7 Chế từ Iron Ore đào ở mỏ Lao Công"
+      - "&7 &d●&7 Dùng để nâng cấp cúp/giáp rank Lao Công"
 
 DA_NANG_CAP_THO_DAO:
   base:
     revision-id: 1
     material: GOLD_INGOT
-    name: '&d✦ Cường Hóa Thạch &f&lThợ Đào'
+    name: "&d✦ Cường Hóa Thạch &f&lThợ Đào"
     tier: COMMON
     lore-format: ingredient-lore
     hide-enchants: true
     enchants:
       unbreaking: 1
     lore:
-      - '&7 &d●&7 Chế từ Gold Ore đào ở mỏ Thợ Đào'
-      - '&7 &d●&7 Dùng để nâng cấp cúp/giáp rank Thợ Đào'
+      - "&7 &d●&7 Chế từ Gold Ore đào ở mỏ Thợ Đào"
+      - "&7 &d●&7 Dùng để nâng cấp cúp/giáp rank Thợ Đào"
 
 DA_NANG_CAP_DOI_TRUONG:
   base:
     revision-id: 1
     material: REDSTONE
-    name: '&d✦ Cường Hóa Thạch &f&lĐội Trưởng'
+    name: "&d✦ Cường Hóa Thạch &f&lĐội Trưởng"
     tier: COMMON
     lore-format: ingredient-lore
     hide-enchants: true
     enchants:
       unbreaking: 1
     lore:
-      - '&7 &d●&7 Chế từ Redstone Ore đào ở mỏ Đội Trưởng'
-      - '&7 &d●&7 Dùng để nâng cấp cúp/giáp rank Đội Trưởng'
+      - "&7 &d●&7 Chế từ Redstone Ore đào ở mỏ Đội Trưởng"
+      - "&7 &d●&7 Dùng để nâng cấp cúp/giáp rank Đội Trưởng"
 
 DA_NANG_CAP_PHO_QUAN_NGUC:
   base:
     revision-id: 1
     material: DIAMOND
-    name: '&d✦ Cường Hóa Thạch &f&lPhó Quản Ngục'
+    name: "&d✦ Cường Hóa Thạch &f&lPhó Quản Ngục"
     tier: COMMON
     lore-format: ingredient-lore
     hide-enchants: true
     enchants:
       unbreaking: 1
     lore:
-      - '&7 &d●&7 Chế từ Diamond Ore đào ở mỏ Phó Quản Ngục'
-      - '&7 &d●&7 Dùng để nâng cấp cúp/giáp rank Phó Quản Ngục'
+      - "&7 &d●&7 Chế từ Diamond Ore đào ở mỏ Phó Quản Ngục"
+      - "&7 &d●&7 Dùng để nâng cấp cúp/giáp rank Phó Quản Ngục"
 
 DA_NANG_CAP_QUAN_NGUC:
   base:
     revision-id: 1
     material: EMERALD
-    name: '&d✦ Cường Hóa Thạch &f&lQuản Ngục'
+    name: "&d✦ Cường Hóa Thạch &f&lQuản Ngục"
     tier: UNCOMMON
     lore-format: ingredient-lore
     hide-enchants: true
     enchants:
       unbreaking: 1
     lore:
-      - '&7 &d●&7 Chế từ Emerald Ore đào ở mỏ Quản Ngục'
-      - '&7 &d●&7 Dùng để nâng cấp cúp/giáp rank Quản Ngục'
+      - "&7 &d●&7 Chế từ Emerald Ore đào ở mỏ Quản Ngục"
+      - "&7 &d●&7 Dùng để nâng cấp cúp/giáp rank Quản Ngục"
 
 DA_NANG_CAP_BA_CHU_NGUC_TU:
   base:
     revision-id: 1
     material: NETHERITE_SCRAP
-    name: '&d✦ Cường Hóa Thạch &f&lBá Chủ Ngục Tù'
+    name: "&d✦ Cường Hóa Thạch &f&lBá Chủ Ngục Tù"
     tier: UNCOMMON
     lore-format: ingredient-lore
     hide-enchants: true
     enchants:
       unbreaking: 1
     lore:
-      - '&7 &d●&7 Chế từ Ancient Debris đào ở mỏ Bá Chủ Ngục Tù'
-      - '&7 &d●&7 Dùng để nâng cấp cúp/giáp rank Bá Chủ Ngục Tù'
+      - "&7 &d●&7 Chế từ Ancient Debris đào ở mỏ Bá Chủ Ngục Tù"
+      - "&7 &d●&7 Dùng để nâng cấp cúp/giáp rank Bá Chủ Ngục Tù"
 
 DA_NANG_CAP_VUOT_NGUC:
   base:
     revision-id: 1
     material: NETHERITE_INGOT
-    name: '&d✦ Cường Hóa Thạch &f&lVượt Ngục'
+    name: "&d✦ Cường Hóa Thạch &f&lVượt Ngục"
     tier: UNCOMMON
     lore-format: ingredient-lore
     hide-enchants: true
     enchants:
       unbreaking: 1
     lore:
-      - '&7 &d●&7 Chế từ Netherite / Ancient Debris đào ở mỏ Vượt Ngục'
-      - '&7 &d●&7 Dùng để nâng cấp cúp/giáp rank Vượt Ngục'
+      - "&7 &d●&7 Chế từ Netherite / Ancient Debris đào ở mỏ Vượt Ngục"
+      - "&7 &d●&7 Dùng để nâng cấp cúp/giáp rank Vượt Ngục"
 
 NEN_DOI_TAN_BINH:
   base:
     revision-id: 1
     material: SMOOTH_STONE
-    name: '&e◆ Quặng Tinh Luyện &f&lTân Binh'
+    name: "&e◆ Quặng Tinh Luyện &f&lTân Binh"
     tier: TRASH
     lore-format: ingredient-lore
     hide-enchants: true
     enchants:
       unbreaking: 1
     lore:
-      - '&7 &e●&7 Tinh luyện từ các khối vật phẩm (Block) Tân Binh'
-      - '&7 &e●&7 Dùng để chế Cường Hóa Thạch & Nâng Cấp Cúp'
+      - "&7 &e●&7 Tinh luyện từ các khối vật phẩm (Block) Tân Binh"
+      - "&7 &e●&7 Dùng để chế Cường Hóa Thạch & Nâng Cấp Cúp"
 
 NEN_DOI_TU_NHAN:
   base:
     revision-id: 1
     material: COAL_BLOCK
-    name: '&e◆ Quặng Tinh Luyện &f&lTù Nhân'
+    name: "&e◆ Quặng Tinh Luyện &f&lTù Nhân"
     tier: TRASH
     lore-format: ingredient-lore
     hide-enchants: true
     enchants:
       unbreaking: 1
     lore:
-      - '&7 &e●&7 Tinh luyện từ các khối vật phẩm (Block) Tù Nhân'
-      - '&7 &e●&7 Dùng để chế Cường Hóa Thạch & Nâng Cấp Cúp'
+      - "&7 &e●&7 Tinh luyện từ các khối vật phẩm (Block) Tù Nhân"
+      - "&7 &e●&7 Dùng để chế Cường Hóa Thạch & Nâng Cấp Cúp"
 
 NEN_DOI_LAO_CONG:
   base:
     revision-id: 1
     material: IRON_BLOCK
-    name: '&e◆ Quặng Tinh Luyện &f&lLao Công'
+    name: "&e◆ Quặng Tinh Luyện &f&lLao Công"
     tier: TRASH
     lore-format: ingredient-lore
     hide-enchants: true
     enchants:
       unbreaking: 1
     lore:
-      - '&7 &e●&7 Tinh luyện từ các khối vật phẩm (Block) Lao Công'
-      - '&7 &e●&7 Dùng để chế Cường Hóa Thạch & Nâng Cấp Cúp'
+      - "&7 &e●&7 Tinh luyện từ các khối vật phẩm (Block) Lao Công"
+      - "&7 &e●&7 Dùng để chế Cường Hóa Thạch & Nâng Cấp Cúp"
 
 NEN_DOI_THO_DAO:
   base:
     revision-id: 1
     material: GOLD_BLOCK
-    name: '&e◆ Quặng Tinh Luyện &f&lThợ Đào'
+    name: "&e◆ Quặng Tinh Luyện &f&lThợ Đào"
     tier: COMMON
     lore-format: ingredient-lore
     hide-enchants: true
     enchants:
       unbreaking: 1
     lore:
-      - '&7 &e●&7 Tinh luyện từ các khối vật phẩm (Block) Thợ Đào'
-      - '&7 &e●&7 Dùng để chế Cường Hóa Thạch & Nâng Cấp Cúp'
+      - "&7 &e●&7 Tinh luyện từ các khối vật phẩm (Block) Thợ Đào"
+      - "&7 &e●&7 Dùng để chế Cường Hóa Thạch & Nâng Cấp Cúp"
 
 NEN_DOI_DOI_TRUONG:
   base:
     revision-id: 1
     material: REDSTONE_BLOCK
-    name: '&e◆ Quặng Tinh Luyện &f&lĐội Trưởng'
+    name: "&e◆ Quặng Tinh Luyện &f&lĐội Trưởng"
     tier: COMMON
     lore-format: ingredient-lore
     hide-enchants: true
     enchants:
       unbreaking: 1
     lore:
-      - '&7 &e●&7 Tinh luyện từ các khối vật phẩm (Block) Đội Trưởng'
-      - '&7 &e●&7 Dùng để chế Cường Hóa Thạch & Nâng Cấp Cúp'
+      - "&7 &e●&7 Tinh luyện từ các khối vật phẩm (Block) Đội Trưởng"
+      - "&7 &e●&7 Dùng để chế Cường Hóa Thạch & Nâng Cấp Cúp"
 
 NEN_DOI_PHO_QUAN_NGUC:
   base:
     revision-id: 1
     material: DIAMOND_BLOCK
-    name: '&e◆ Quặng Tinh Luyện &f&lPhó Quản Ngục'
+    name: "&e◆ Quặng Tinh Luyện &f&lPhó Quản Ngục"
     tier: COMMON
     lore-format: ingredient-lore
     hide-enchants: true
     enchants:
       unbreaking: 1
     lore:
-      - '&7 &e●&7 Tinh luyện từ các khối vật phẩm (Block) Phó Quản Ngục'
-      - '&7 &e●&7 Dùng để chế Cường Hóa Thạch & Nâng Cấp Cúp'
+      - "&7 &e●&7 Tinh luyện từ các khối vật phẩm (Block) Phó Quản Ngục"
+      - "&7 &e●&7 Dùng để chế Cường Hóa Thạch & Nâng Cấp Cúp"
 
 NEN_DOI_QUAN_NGUC:
   base:
     revision-id: 1
     material: EMERALD_BLOCK
-    name: '&e◆ Quặng Tinh Luyện &f&lQuản Ngục'
+    name: "&e◆ Quặng Tinh Luyện &f&lQuản Ngục"
     tier: UNCOMMON
     lore-format: ingredient-lore
     hide-enchants: true
     enchants:
       unbreaking: 1
     lore:
-      - '&7 &e●&7 Tinh luyện từ các khối vật phẩm (Block) Quản Ngục'
-      - '&7 &e●&7 Dùng để chế Cường Hóa Thạch & Nâng Cấp Cúp'
+      - "&7 &e●&7 Tinh luyện từ các khối vật phẩm (Block) Quản Ngục"
+      - "&7 &e●&7 Dùng để chế Cường Hóa Thạch & Nâng Cấp Cúp"
 
 NEN_DOI_BA_CHU_NGUC_TU:
   base:
     revision-id: 1
     material: ANCIENT_DEBRIS
-    name: '&e◆ Quặng Tinh Luyện &f&lBá Chủ Ngục Tù'
+    name: "&e◆ Quặng Tinh Luyện &f&lBá Chủ Ngục Tù"
     tier: UNCOMMON
     lore-format: ingredient-lore
     hide-enchants: true
     enchants:
       unbreaking: 1
     lore:
-      - '&7 &e●&7 Tinh luyện từ các khối vật phẩm (Block) Bá Chủ Ngục Tù'
-      - '&7 &e●&7 Dùng để chế Cường Hóa Thạch & Nâng Cấp Cúp'
+      - "&7 &e●&7 Tinh luyện từ các khối vật phẩm (Block) Bá Chủ Ngục Tù"
+      - "&7 &e●&7 Dùng để chế Cường Hóa Thạch & Nâng Cấp Cúp"
 
 NEN_DOI_VUOT_NGUC:
   base:
     revision-id: 1
     material: NETHERITE_BLOCK
-    name: '&e◆ Quặng Tinh Luyện &f&lVượt Ngục'
+    name: "&e◆ Quặng Tinh Luyện &f&lVượt Ngục"
     tier: UNCOMMON
     lore-format: ingredient-lore
     hide-enchants: true
     enchants:
       unbreaking: 1
     lore:
-      - '&7 &e●&7 Tinh luyện từ các khối vật phẩm (Block) Vượt Ngục'
-      - '&7 &e●&7 Dùng để chế Quặng Đại Tinh Luyện Vượt Ngục'
+      - "&7 &e●&7 Tinh luyện từ các khối vật phẩm (Block) Vượt Ngục"
+      - "&7 &e●&7 Dùng để chế Quặng Đại Tinh Luyện Vượt Ngục"
 
 NEN_BA_VUOT_NGUC:
   base:
     revision-id: 1
     material: NETHERITE_BLOCK
-    name: '&4» Quặng Đại Tinh Luyện &f&lVượt Ngục'
+    name: "&4» Quặng Đại Tinh Luyện &f&lVượt Ngục"
     tier: UNIQUE
     lore-format: ingredient-lore
     hide-enchants: true
     enchants:
       unbreaking: 1
     lore:
-      - '&7 &4●&7 Tinh luyện từ 9 Quặng Tinh Luyện Vượt Ngục'
-      - '&7 &4●&7 Dùng để chế Cường Hóa Thạch & Nâng Cấp Cúp Vượt Ngục'
-      - '&7 &4●&7 Cấp tinh luyện cao nhất, chỉ có ở rank cuối'
+      - "&7 &4●&7 Tinh luyện từ 9 Quặng Tinh Luyện Vượt Ngục"
+      - "&7 &4●&7 Dùng để chế Cường Hóa Thạch & Nâng Cấp Cúp Vượt Ngục"
+      - "&7 &4●&7 Cấp tinh luyện cao nhất, chỉ có ở rank cuối"
 
 TINHTHE_CUONGHOA_VUKHI:
   base:
     revision-id: 1
     material: PAPER
     custom-model-data: 10019
-    itemsadder-item: "iadungeon:crystal_of_fury_19"
     name: "&c✦ Tinh Thể Cường Hóa Vũ Khí"
     tier: RARE
     lore-format: ingredient-lore
@@ -286,7 +285,6 @@ TINHTHE_CUONGHOA_GIAP:
     revision-id: 1
     material: PAPER
     custom-model-data: 10013
-    itemsadder-item: "iadungeon:crystal_of_decaying_13"
     name: "&b✦ Tinh Thể Cường Hóa Giáp"
     tier: RARE
     lore-format: ingredient-lore
@@ -302,7 +300,6 @@ TINHTHE_HUY_DIET:
     revision-id: 1
     material: PAPER
     custom-model-data: 10006
-    itemsadder-item: "iadungeon:crystal_of_annihilation_6"
     name: "&5✦ Tinh Thể Hỗn Mang (Hủy Diệt)"
     tier: LEGENDARY
     lore-format: ingredient-lore

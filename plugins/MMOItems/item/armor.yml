@@ -4773,11 +4773,11 @@ BOOTS_VUOT_NGUC_5:
 # --- HỘ LONG (Cấp 1 - RARE) ---
 
 DONATE_HELMET_LONG_VE:
+  itemsadder-item: "littledragonset:littledragonhelmet"
   base:
     revision-id: 1
     material: LEATHER_HELMET
     custom-model-data: 10029
-    itemsadder-item: "littledragonset:littledragonhelmet"
     dye-color: "255 203 68"
     hide-dye: true
     name: "&a&l✦ Hộ Long Mũ"
@@ -4807,11 +4807,11 @@ DONATE_HELMET_LONG_VE:
     unbreakable: false
 
 DONATE_CHESTPLATE_LONG_VE:
+  itemsadder-item: "littledragonset:littledragonchestplate"
   base:
     revision-id: 1
     material: LEATHER_CHESTPLATE
     custom-model-data: 10037
-    itemsadder-item: "littledragonset:littledragonchestplate"
     dye-color: "255 203 68"
     hide-dye: true
     name: "&a&l✦ Hộ Long Chiến Giáp"
@@ -4841,11 +4841,11 @@ DONATE_CHESTPLATE_LONG_VE:
     unbreakable: false
 
 DONATE_LEGGINGS_LONG_VE:
+  itemsadder-item: "littledragonset:littledragonleggings"
   base:
     revision-id: 1
     material: LEATHER_LEGGINGS
     custom-model-data: 10037
-    itemsadder-item: "littledragonset:littledragonleggings"
     dye-color: "255 203 68"
     hide-dye: true
     name: "&a&l✦ Hộ Long Hộ Tất"
@@ -4875,11 +4875,11 @@ DONATE_LEGGINGS_LONG_VE:
     unbreakable: false
 
 DONATE_BOOTS_LONG_VE:
+  itemsadder-item: "littledragonset:littledragonboots"
   base:
     revision-id: 1
     material: LEATHER_BOOTS
     custom-model-data: 10037
-    itemsadder-item: "littledragonset:littledragonboots"
     dye-color: "255 203 68"
     hide-dye: true
     name: "&a&l✦ Hộ Long Hài"
@@ -4912,11 +4912,11 @@ DONATE_BOOTS_LONG_VE:
 # --- CHIẾN LONG (Cấp 2 - VERY_RARE) ---
 
 DONATE_HELMET_LONG_CHIEN:
+  itemsadder-item: "spartan_set:spartanhelmet"
   base:
     revision-id: 1
     material: LEATHER_HELMET
     custom-model-data: 10012
-    itemsadder-item: "spartan_set:spartanhelmet"
     dye-color: "58 48 48"
     hide-dye: true
     name: "&e&l⚔ Chiến Long Mũ"
@@ -4946,11 +4946,11 @@ DONATE_HELMET_LONG_CHIEN:
     unbreakable: false
 
 DONATE_CHESTPLATE_LONG_CHIEN:
+  itemsadder-item: "spartan_set:spartanchestplate"
   base:
     revision-id: 1
     material: LEATHER_CHESTPLATE
     custom-model-data: 10016
-    itemsadder-item: "spartan_set:spartanchestplate"
     dye-color: "58 48 48"
     hide-dye: true
     name: "&e&l⚔ Chiến Long Chiến Giáp"
@@ -4980,11 +4980,11 @@ DONATE_CHESTPLATE_LONG_CHIEN:
     unbreakable: false
 
 DONATE_LEGGINGS_LONG_CHIEN:
+  itemsadder-item: "spartan_set:spartanleggings"
   base:
     revision-id: 1
     material: LEATHER_LEGGINGS
     custom-model-data: 10016
-    itemsadder-item: "spartan_set:spartanleggings"
     dye-color: "58 48 48"
     hide-dye: true
     name: "&e&l⚔ Chiến Long Hộ Tất"
@@ -5014,11 +5014,11 @@ DONATE_LEGGINGS_LONG_CHIEN:
     unbreakable: false
 
 DONATE_BOOTS_LONG_CHIEN:
+  itemsadder-item: "spartan_set:spartanboots"
   base:
     revision-id: 1
     material: LEATHER_BOOTS
     custom-model-data: 10016
-    itemsadder-item: "spartan_set:spartanboots"
     dye-color: "58 48 48"
     hide-dye: true
     name: "&e&l⚔ Chiến Long Hài"
@@ -5051,11 +5051,11 @@ DONATE_BOOTS_LONG_CHIEN:
 # --- THẦN LONG (Cấp 3 - LEGENDARY) ---
 
 DONATE_HELMET_LONG_THAN:
+  itemsadder-item: "azureset:azurehelmet"
   base:
     revision-id: 1
     material: LEATHER_HELMET
     custom-model-data: 10018
-    itemsadder-item: "azureset:azurehelmet"
     dye-color: "39 77 154"
     hide-dye: true
     name: "&b&l✦ Thần Long Mũ"
@@ -5085,11 +5085,11 @@ DONATE_HELMET_LONG_THAN:
     unbreakable: false
 
 DONATE_CHESTPLATE_LONG_THAN:
+  itemsadder-item: "azureset:azurechestplate"
   base:
     revision-id: 1
     material: LEATHER_CHESTPLATE
     custom-model-data: 10024
-    itemsadder-item: "azureset:azurechestplate"
     dye-color: "39 77 154"
     hide-dye: true
     name: "&b&l✦ Thần Long Thánh Giáp"
@@ -5119,11 +5119,11 @@ DONATE_CHESTPLATE_LONG_THAN:
     unbreakable: false
 
 DONATE_LEGGINGS_LONG_THAN:
+  itemsadder-item: "azureset:azureleggings"
   base:
     revision-id: 1
     material: LEATHER_LEGGINGS
     custom-model-data: 10024
-    itemsadder-item: "azureset:azureleggings"
     dye-color: "39 77 154"
     hide-dye: true
     name: "&b&l✦ Thần Long Hộ Tất"
@@ -5153,11 +5153,11 @@ DONATE_LEGGINGS_LONG_THAN:
     unbreakable: false
 
 DONATE_BOOTS_LONG_THAN:
+  itemsadder-item: "azureset:azureboots"
   base:
     revision-id: 1
     material: LEATHER_BOOTS
     custom-model-data: 10024
-    itemsadder-item: "azureset:azureboots"
     dye-color: "39 77 154"
     hide-dye: true
     name: "&b&l✦ Thần Long Hài"
@@ -5190,11 +5190,11 @@ DONATE_BOOTS_LONG_THAN:
 # --- ĐẾ LONG (Cấp 4 - EPIC) ---
 
 DONATE_HELMET_LONG_DE:
+  itemsadder-item: "demon_edgeset:demon_edgehelmet"
   base:
     revision-id: 1
     material: LEATHER_HELMET
     custom-model-data: 10032
-    itemsadder-item: "demon_edgeset:demon_edgehelmet"
     dye-color: "171 23 79"
     hide-dye: true
     name: "&4&l◆ Đế Long Mũ"
@@ -5224,11 +5224,11 @@ DONATE_HELMET_LONG_DE:
     unbreakable: false
 
 DONATE_CHESTPLATE_LONG_DE:
+  itemsadder-item: "demon_edgeset:demon_edgechestplate"
   base:
     revision-id: 1
     material: LEATHER_CHESTPLATE
     custom-model-data: 10040
-    itemsadder-item: "demon_edgeset:demon_edgechestplate"
     dye-color: "171 23 79"
     hide-dye: true
     name: "&4&l◆ Đế Long Diệt Giáp"
@@ -5258,11 +5258,11 @@ DONATE_CHESTPLATE_LONG_DE:
     unbreakable: false
 
 DONATE_LEGGINGS_LONG_DE:
+  itemsadder-item: "demon_edgeset:demon_edgeleggings"
   base:
     revision-id: 1
     material: LEATHER_LEGGINGS
     custom-model-data: 10040
-    itemsadder-item: "demon_edgeset:demon_edgeleggings"
     dye-color: "171 23 79"
     hide-dye: true
     name: "&4&l◆ Đế Long Hộ Tất"
@@ -5292,11 +5292,11 @@ DONATE_LEGGINGS_LONG_DE:
     unbreakable: false
 
 DONATE_BOOTS_LONG_DE:
+  itemsadder-item: "demon_edgeset:demon_edgeboots"
   base:
     revision-id: 1
     material: LEATHER_BOOTS
     custom-model-data: 10040
-    itemsadder-item: "demon_edgeset:demon_edgeboots"
     dye-color: "171 23 79"
     hide-dye: true
     name: "&4&l◆ Đế Long Hài"
@@ -5329,11 +5329,11 @@ DONATE_BOOTS_LONG_DE:
 # --- HOÀNG LONG (Cấp 5 - UNIQUE) ---
 
 DONATE_HELMET_LONG_HOANG:
+  itemsadder-item: "lunarset:lunar_helmet"
   base:
     revision-id: 2
     material: PAPER
     custom-model-data: 10124
-    itemsadder-item: "lunarset:lunar_helmet"
     dye-color: "81 166 102"
     hide-dye: true
     name: "&c&l★ Hoàng Long Mũ"
@@ -5363,11 +5363,11 @@ DONATE_HELMET_LONG_HOANG:
     unbreakable: false
 
 DONATE_CHESTPLATE_LONG_HOANG:
+  itemsadder-item: "lunarset:lunarchestplate"
   base:
     revision-id: 2
     material: LEATHER_CHESTPLATE
     custom-model-data: 10000
-    itemsadder-item: "lunarset:lunarchestplate"
     dye-color: "81 166 102"
     hide-dye: true
     name: "&c&l★ Hoàng Long Thiên Giáp"
@@ -5397,11 +5397,11 @@ DONATE_CHESTPLATE_LONG_HOANG:
     unbreakable: false
 
 DONATE_LEGGINGS_LONG_HOANG:
+  itemsadder-item: "lunarset:lunarleggings"
   base:
     revision-id: 2
     material: LEATHER_LEGGINGS
     custom-model-data: 10000
-    itemsadder-item: "lunarset:lunarleggings"
     dye-color: "81 166 102"
     hide-dye: true
     name: "&c&l★ Hoàng Long Hộ Tất"
@@ -5431,11 +5431,11 @@ DONATE_LEGGINGS_LONG_HOANG:
     unbreakable: false
 
 DONATE_BOOTS_LONG_HOANG:
+  itemsadder-item: "lunarset:lunarboots"
   base:
     revision-id: 2
     material: LEATHER_BOOTS
     custom-model-data: 10000
-    itemsadder-item: "lunarset:lunarboots"
     dye-color: "81 166 102"
     hide-dye: true
     name: "&c&l★ Hoàng Long Hài"
@@ -5472,11 +5472,11 @@ DONATE_BOOTS_LONG_HOANG:
 # --- HỎA LONG (Cấp 1 - RARE) ---
 
 TRADE_HELMET_HOA_LONG:
+  itemsadder-item: "firework_set:fireworkhelmet"
   base:
     revision-id: 1
     material: LEATHER_HELMET
     custom-model-data: 10015
-    itemsadder-item: "firework_set:fireworkhelmet"
     dye-color: "107 0 20"
     hide-dye: true
     name: "&6✦ Hỏa Long Giáp Miện"
@@ -5506,11 +5506,11 @@ TRADE_HELMET_HOA_LONG:
     unbreakable: false
 
 TRADE_CHESTPLATE_HOA_LONG:
+  itemsadder-item: "firework_set:fireworkchestplate"
   base:
     revision-id: 1
     material: LEATHER_CHESTPLATE
     custom-model-data: 10020
-    itemsadder-item: "firework_set:fireworkchestplate"
     dye-color: "107 0 20"
     hide-dye: true
     name: "&6✦ Hỏa Long Chiến Giáp"
@@ -5540,11 +5540,11 @@ TRADE_CHESTPLATE_HOA_LONG:
     unbreakable: false
 
 TRADE_LEGGINGS_HOA_LONG:
+  itemsadder-item: "firework_set:fireworkleggings"
   base:
     revision-id: 1
     material: LEATHER_LEGGINGS
     custom-model-data: 10020
-    itemsadder-item: "firework_set:fireworkleggings"
     dye-color: "107 0 20"
     hide-dye: true
     name: "&6✦ Hỏa Long Hộ Tất"
@@ -5574,11 +5574,11 @@ TRADE_LEGGINGS_HOA_LONG:
     unbreakable: false
 
 TRADE_BOOTS_HOA_LONG:
+  itemsadder-item: "firework_set:fireworkboots"
   base:
     revision-id: 1
     material: LEATHER_BOOTS
     custom-model-data: 10020
-    itemsadder-item: "firework_set:fireworkboots"
     dye-color: "107 0 20"
     hide-dye: true
     name: "&6✦ Hỏa Long Hỏa Hài"
@@ -5611,11 +5611,11 @@ TRADE_BOOTS_HOA_LONG:
 # --- BĂNG LONG (Cấp 2 - VERY_RARE) ---
 
 TRADE_HELMET_BANG_LONG:
+  itemsadder-item: "mysticcyanset:mysticcyanhelmet"
   base:
     revision-id: 1
     material: LEATHER_HELMET
     custom-model-data: 10020
-    itemsadder-item: "mysticcyanset:mysticcyanhelmet"
     dye-color: "14 175 155"
     hide-dye: true
     name: "&3&l✦ Băng Long Giáp Miện"
@@ -5645,11 +5645,11 @@ TRADE_HELMET_BANG_LONG:
     unbreakable: false
 
 TRADE_CHESTPLATE_BANG_LONG:
+  itemsadder-item: "mysticcyanset:mysticcyanchestplate"
   base:
     revision-id: 1
     material: LEATHER_CHESTPLATE
     custom-model-data: 10027
-    itemsadder-item: "mysticcyanset:mysticcyanchestplate"
     dye-color: "14 175 155"
     hide-dye: true
     name: "&3&l✦ Băng Long Hàn Giáp"
@@ -5679,11 +5679,11 @@ TRADE_CHESTPLATE_BANG_LONG:
     unbreakable: false
 
 TRADE_LEGGINGS_BANG_LONG:
+  itemsadder-item: "mysticcyanset:mysticcyanleggings"
   base:
     revision-id: 1
     material: LEATHER_LEGGINGS
     custom-model-data: 10027
-    itemsadder-item: "mysticcyanset:mysticcyanleggings"
     dye-color: "14 175 155"
     hide-dye: true
     name: "&3&l✦ Băng Long Hộ Tất"
@@ -5713,11 +5713,11 @@ TRADE_LEGGINGS_BANG_LONG:
     unbreakable: false
 
 TRADE_BOOTS_BANG_LONG:
+  itemsadder-item: "mysticcyanset:mysticcyanboots"
   base:
     revision-id: 1
     material: LEATHER_BOOTS
     custom-model-data: 10027
-    itemsadder-item: "mysticcyanset:mysticcyanboots"
     dye-color: "14 175 155"
     hide-dye: true
     name: "&3&l✦ Băng Long Hàn Hài"
@@ -5750,11 +5750,11 @@ TRADE_BOOTS_BANG_LONG:
 # --- LÔI LONG (Cấp 3 - UNIQUE) ---
 
 TRADE_HELMET_LOI_LONG:
+  itemsadder-item: "elitecreatures:king_arthur_animated_weapon_set_helmet"
   base:
     revision-id: 1
     material: PAPER
     custom-model-data: 10353
-    itemsadder-item: "elitecreatures:king_arthur_animated_weapon_set_helmet"
     dye-color: "140 25 107"
     hide-dye: true
     name: "&e&l⚡ Lôi Long Giáp Miện"
@@ -5784,11 +5784,11 @@ TRADE_HELMET_LOI_LONG:
     unbreakable: false
 
 TRADE_CHESTPLATE_LOI_LONG:
+  itemsadder-item: "elitecreatures:king_arthur_animated_weapon_set_chestplate"
   base:
     revision-id: 1
     material: LEATHER_CHESTPLATE
     custom-model-data: 10031
-    itemsadder-item: "elitecreatures:king_arthur_animated_weapon_set_chestplate"
     dye-color: "140 25 107"
     hide-dye: true
     name: "&e&l⚡ Lôi Long Chấn Giáp"
@@ -5818,11 +5818,11 @@ TRADE_CHESTPLATE_LOI_LONG:
     unbreakable: false
 
 TRADE_LEGGINGS_LOI_LONG:
+  itemsadder-item: "elitecreatures:king_arthur_animated_weapon_set_leggings"
   base:
     revision-id: 1
     material: LEATHER_LEGGINGS
     custom-model-data: 10031
-    itemsadder-item: "elitecreatures:king_arthur_animated_weapon_set_leggings"
     dye-color: "140 25 107"
     hide-dye: true
     name: "&e&l⚡ Lôi Long Hộ Tất"
@@ -5852,11 +5852,11 @@ TRADE_LEGGINGS_LOI_LONG:
     unbreakable: false
 
 TRADE_BOOTS_LOI_LONG:
+  itemsadder-item: "elitecreatures:king_arthur_animated_weapon_set_boots"
   base:
     revision-id: 1
     material: LEATHER_BOOTS
     custom-model-data: 10031
-    itemsadder-item: "elitecreatures:king_arthur_animated_weapon_set_boots"
     dye-color: "140 25 107"
     hide-dye: true
     name: "&e&l⚡ Lôi Long Chấn Hài"
@@ -5889,11 +5889,11 @@ TRADE_BOOTS_LOI_LONG:
 # --- PHONG LONG (Cấp 4 - EPIC) ---
 
 TRADE_HELMET_PHONG_LONG:
+  itemsadder-item: "nanoedge_set:nanoedgehelmet"
   base:
     revision-id: 1
     material: LEATHER_HELMET
     custom-model-data: 10016
-    itemsadder-item: "nanoedge_set:nanoedgehelmet"
     dye-color: "105 169 58"
     hide-dye: true
     name: "&2&l✦ Phong Long Giáp Miện"
@@ -5923,11 +5923,11 @@ TRADE_HELMET_PHONG_LONG:
     unbreakable: false
 
 TRADE_CHESTPLATE_PHONG_LONG:
+  itemsadder-item: "nanoedge_set:nanoedgechestplate"
   base:
     revision-id: 1
     material: LEATHER_CHESTPLATE
     custom-model-data: 10021
-    itemsadder-item: "nanoedge_set:nanoedgechestplate"
     dye-color: "105 169 58"
     hide-dye: true
     name: "&2&l✦ Phong Long Liệt Giáp"
@@ -5957,11 +5957,11 @@ TRADE_CHESTPLATE_PHONG_LONG:
     unbreakable: false
 
 TRADE_LEGGINGS_PHONG_LONG:
+  itemsadder-item: "nanoedge_set:nanoedgeleggings"
   base:
     revision-id: 1
     material: LEATHER_LEGGINGS
     custom-model-data: 10021
-    itemsadder-item: "nanoedge_set:nanoedgeleggings"
     dye-color: "105 169 58"
     hide-dye: true
     name: "&2&l✦ Phong Long Hộ Tất"
@@ -5991,11 +5991,11 @@ TRADE_LEGGINGS_PHONG_LONG:
     unbreakable: false
 
 TRADE_BOOTS_PHONG_LONG:
+  itemsadder-item: "nanoedge_set:nanoedgeboots"
   base:
     revision-id: 1
     material: LEATHER_BOOTS
     custom-model-data: 10021
-    itemsadder-item: "nanoedge_set:nanoedgeboots"
     dye-color: "105 169 58"
     hide-dye: true
     name: "&2&l✦ Phong Long Phong Hài"
@@ -6028,11 +6028,11 @@ TRADE_BOOTS_PHONG_LONG:
 # --- HẮC LONG (Cấp 5 - LEGENDARY) ---
 
 TRADE_HELMET_HAC_LONG:
+  itemsadder-item: "obsidianset:co_helmet"
   base:
     revision-id: 1
     material: LEATHER_HELMET
     custom-model-data: 10002
-    itemsadder-item: "obsidianset:co_helmet"
     dye-color: "9 0 26"
     hide-dye: true
     name: "&5&l◆ Hắc Long Ma Miện"
@@ -6062,11 +6062,11 @@ TRADE_HELMET_HAC_LONG:
     unbreakable: false
 
 TRADE_CHESTPLATE_HAC_LONG:
+  itemsadder-item: "obsidianset:co_chestplate"
   base:
     revision-id: 1
     material: LEATHER_CHESTPLATE
     custom-model-data: 10004
-    itemsadder-item: "obsidianset:co_chestplate"
     dye-color: "9 0 26"
     hide-dye: true
     name: "&5&l◆ Hắc Long Ma Giáp"
@@ -6096,11 +6096,11 @@ TRADE_CHESTPLATE_HAC_LONG:
     unbreakable: false
 
 TRADE_LEGGINGS_HAC_LONG:
+  itemsadder-item: "obsidianset:co_leggings"
   base:
     revision-id: 1
     material: LEATHER_LEGGINGS
     custom-model-data: 10004
-    itemsadder-item: "obsidianset:co_leggings"
     dye-color: "9 0 26"
     hide-dye: true
     name: "&5&l◆ Hắc Long Ma Tất"
@@ -6130,11 +6130,11 @@ TRADE_LEGGINGS_HAC_LONG:
     unbreakable: false
 
 TRADE_BOOTS_HAC_LONG:
+  itemsadder-item: "obsidianset:co_boots"
   base:
     revision-id: 1
     material: LEATHER_BOOTS
     custom-model-data: 10004
-    itemsadder-item: "obsidianset:co_boots"
     dye-color: "9 0 26"
     hide-dye: true
     name: "&5&l◆ Hắc Long Ma Hài"

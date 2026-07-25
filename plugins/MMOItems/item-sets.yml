@@ -238,14 +238,14 @@ PHONG_LONG_SET:
   name: "&2&l✦ Bộ Phong Long"
   bonuses:
     "2":
-      armor-penetration: 8
+      physical-damage: 8
       dodge-rating: 8
     "3":
-      armor-penetration: 14
+      physical-damage: 14
       dodge-rating: 14
       critical-strike-power: 20
     "4":
-      armor-penetration: 22
+      physical-damage: 22
       dodge-rating: 20
       critical-strike-power: 35
       potion-speed: 2
@@ -352,14 +352,14 @@ LONG_DE_SET:
   name: "&4&l◆ Bộ Đế Long"
   bonuses:
     "2":
-      armor-penetration: 8
+      physical-damage: 8
       dodge-rating: 8
     "3":
-      armor-penetration: 14
+      physical-damage: 14
       dodge-rating: 14
       critical-strike-power: 20
     "4":
-      armor-penetration: 22
+      physical-damage: 22
       dodge-rating: 20
       critical-strike-power: 35
       potion-speed: 2
@@ -466,14 +466,14 @@ THIEN_LONG_SET:
   name: "&d&l✦ Bộ Thiên Long Linh"
   bonuses:
     "2":
-      armor-penetration: 8
+      physical-damage: 8
       dodge-rating: 8
     "3":
-      armor-penetration: 14
+      physical-damage: 14
       dodge-rating: 14
       critical-strike-power: 20
     "4":
-      armor-penetration: 22
+      physical-damage: 22
       dodge-rating: 20
       critical-strike-power: 35
       potion-speed: 2
