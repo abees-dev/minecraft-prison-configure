@@ -285,14 +285,14 @@ item-revision:
 
     # When keeping lore data, only lore that starts with this
     # will actually be kept.
-    kept-lore-prefix: '&7'
+    kept-lore-prefix: 'NONE'
 
     # Whether or not specific stats should be kept
     # when an item is updated to latest revision.
     keep-data:
 
         # Name of the item, usually renamed via anvil
-        display-name: true
+        display-name: false
 
         # Enchantments put on the item by the player
         enchantments: true

@@ -1,5 +1,6 @@
 TEST_ARMOR_FULL_STATS:
   base:
+    revision-id: 1
     material: NETHERITE_CHESTPLATE
     name: '&c&l🛡 Áo Giáp Thử Nghiệm &e&l[FULL STATS]'
     tier: UNIQUE
@@ -47,6 +48,7 @@ TEST_ARMOR_FULL_STATS:
 
 HELMET_TAN_BINH_1:
   base:
+    revision-id: 1
     material: LEATHER_HELMET
     name: "&fNón Tân Binh &e&lI"
     max-durability: 400
@@ -67,6 +69,7 @@ HELMET_TAN_BINH_1:
 
 HELMET_TAN_BINH_2:
   base:
+    revision-id: 1
     material: LEATHER_HELMET
     name: "&fNón Tân Binh &e&lII"
     max-durability: 400
@@ -87,6 +90,7 @@ HELMET_TAN_BINH_2:
 
 HELMET_TAN_BINH_3:
   base:
+    revision-id: 1
     material: LEATHER_HELMET
     name: "&fNón Tân Binh &e&lIII"
     max-durability: 400
@@ -107,6 +111,7 @@ HELMET_TAN_BINH_3:
 
 HELMET_TAN_BINH_4:
   base:
+    revision-id: 1
     material: LEATHER_HELMET
     name: "&fNón Tân Binh &e&lIV"
     max-durability: 400
@@ -127,6 +132,7 @@ HELMET_TAN_BINH_4:
 
 HELMET_TAN_BINH_5:
   base:
+    revision-id: 1
     material: LEATHER_HELMET
     name: "&fNón Tân Binh &e&lV"
     max-durability: 400
@@ -147,6 +153,7 @@ HELMET_TAN_BINH_5:
 
 HELMET_TU_NHAN_1:
   base:
+    revision-id: 1
     material: LEATHER_HELMET
     name: "&aNón Tù Nhân &e&lI"
     max-durability: 800
@@ -167,6 +174,7 @@ HELMET_TU_NHAN_1:
 
 HELMET_TU_NHAN_2:
   base:
+    revision-id: 1
     material: LEATHER_HELMET
     name: "&aNón Tù Nhân &e&lII"
     max-durability: 800
@@ -187,6 +195,7 @@ HELMET_TU_NHAN_2:
 
 HELMET_TU_NHAN_3:
   base:
+    revision-id: 1
     material: LEATHER_HELMET
     name: "&aNón Tù Nhân &e&lIII"
     max-durability: 800
@@ -207,6 +216,7 @@ HELMET_TU_NHAN_3:
 
 HELMET_TU_NHAN_4:
   base:
+    revision-id: 1
     material: LEATHER_HELMET
     name: "&aNón Tù Nhân &e&lIV"
     max-durability: 800
@@ -227,6 +237,7 @@ HELMET_TU_NHAN_4:
 
 HELMET_TU_NHAN_5:
   base:
+    revision-id: 1
     material: LEATHER_HELMET
     name: "&aNón Tù Nhân &e&lV"
     max-durability: 800
@@ -247,6 +258,7 @@ HELMET_TU_NHAN_5:
 
 HELMET_LAO_CONG_1:
   base:
+    revision-id: 1
     material: CHAINMAIL_HELMET
     name: "&bNón Lao Công &e&lI"
     max-durability: 1500
@@ -271,6 +283,7 @@ HELMET_LAO_CONG_1:
 
 HELMET_LAO_CONG_2:
   base:
+    revision-id: 1
     material: CHAINMAIL_HELMET
     name: "&bNón Lao Công &e&lII"
     max-durability: 1500
@@ -295,6 +308,7 @@ HELMET_LAO_CONG_2:
 
 HELMET_LAO_CONG_3:
   base:
+    revision-id: 1
     material: CHAINMAIL_HELMET
     name: "&bNón Lao Công &e&lIII"
     max-durability: 1500
@@ -319,6 +333,7 @@ HELMET_LAO_CONG_3:
 
 HELMET_LAO_CONG_4:
   base:
+    revision-id: 1
     material: CHAINMAIL_HELMET
     name: "&bNón Lao Công &e&lIV"
     max-durability: 1500
@@ -343,6 +358,7 @@ HELMET_LAO_CONG_4:
 
 HELMET_LAO_CONG_5:
   base:
+    revision-id: 1
     material: CHAINMAIL_HELMET
     name: "&bNón Lao Công &e&lV"
     max-durability: 1500
@@ -367,6 +383,7 @@ HELMET_LAO_CONG_5:
 
 HELMET_THO_DAO_1:
   base:
+    revision-id: 1
     material: IRON_HELMET
     name: "&eNón Thợ Đào &e&lI"
     max-durability: 2500
@@ -393,6 +410,7 @@ HELMET_THO_DAO_1:
 
 HELMET_THO_DAO_2:
   base:
+    revision-id: 1
     material: IRON_HELMET
     name: "&eNón Thợ Đào &e&lII"
     max-durability: 2500
@@ -419,6 +437,7 @@ HELMET_THO_DAO_2:
 
 HELMET_THO_DAO_3:
   base:
+    revision-id: 1
     material: IRON_HELMET
     name: "&eNón Thợ Đào &e&lIII"
     max-durability: 2500
@@ -445,6 +464,7 @@ HELMET_THO_DAO_3:
 
 HELMET_THO_DAO_4:
   base:
+    revision-id: 1
     material: IRON_HELMET
     name: "&eNón Thợ Đào &e&lIV"
     max-durability: 2500
@@ -471,6 +491,7 @@ HELMET_THO_DAO_4:
 
 HELMET_THO_DAO_5:
   base:
+    revision-id: 1
     material: IRON_HELMET
     name: "&eNón Thợ Đào &e&lV"
     max-durability: 2500
@@ -497,6 +518,7 @@ HELMET_THO_DAO_5:
 
 HELMET_DOI_TRUONG_1:
   base:
+    revision-id: 1
     material: DIAMOND_HELMET
     name: "&6Nón Đội Trưởng &e&lI"
     max-durability: 3800
@@ -524,6 +546,7 @@ HELMET_DOI_TRUONG_1:
 
 HELMET_DOI_TRUONG_2:
   base:
+    revision-id: 1
     material: DIAMOND_HELMET
     name: "&6Nón Đội Trưởng &e&lII"
     max-durability: 3800
@@ -551,6 +574,7 @@ HELMET_DOI_TRUONG_2:
 
 HELMET_DOI_TRUONG_3:
   base:
+    revision-id: 1
     material: DIAMOND_HELMET
     name: "&6Nón Đội Trưởng &e&lIII"
     max-durability: 3800
@@ -578,6 +602,7 @@ HELMET_DOI_TRUONG_3:
 
 HELMET_DOI_TRUONG_4:
   base:
+    revision-id: 1
     material: DIAMOND_HELMET
     name: "&6Nón Đội Trưởng &e&lIV"
     max-durability: 3800
@@ -605,6 +630,7 @@ HELMET_DOI_TRUONG_4:
 
 HELMET_DOI_TRUONG_5:
   base:
+    revision-id: 1
     material: DIAMOND_HELMET
     name: "&6Nón Đội Trưởng &e&lV"
     max-durability: 3800
@@ -632,6 +658,7 @@ HELMET_DOI_TRUONG_5:
 
 HELMET_PHO_QUAN_NGUC_1:
   base:
+    revision-id: 1
     material: DIAMOND_HELMET
     name: "&cNón Phó Quản Ngục &e&lI"
     max-durability: 5200
@@ -660,6 +687,7 @@ HELMET_PHO_QUAN_NGUC_1:
 
 HELMET_PHO_QUAN_NGUC_2:
   base:
+    revision-id: 1
     material: DIAMOND_HELMET
     name: "&cNón Phó Quản Ngục &e&lII"
     max-durability: 5200
@@ -688,6 +716,7 @@ HELMET_PHO_QUAN_NGUC_2:
 
 HELMET_PHO_QUAN_NGUC_3:
   base:
+    revision-id: 1
     material: DIAMOND_HELMET
     name: "&cNón Phó Quản Ngục &e&lIII"
     max-durability: 5200
@@ -716,6 +745,7 @@ HELMET_PHO_QUAN_NGUC_3:
 
 HELMET_PHO_QUAN_NGUC_4:
   base:
+    revision-id: 1
     material: DIAMOND_HELMET
     name: "&cNón Phó Quản Ngục &e&lIV"
     max-durability: 5200
@@ -744,6 +774,7 @@ HELMET_PHO_QUAN_NGUC_4:
 
 HELMET_PHO_QUAN_NGUC_5:
   base:
+    revision-id: 1
     material: DIAMOND_HELMET
     name: "&cNón Phó Quản Ngục &e&lV"
     max-durability: 5200
@@ -772,6 +803,7 @@ HELMET_PHO_QUAN_NGUC_5:
 
 HELMET_QUAN_NGUC_1:
   base:
+    revision-id: 1
     material: NETHERITE_HELMET
     name: "&dNón Quản Ngục &e&lI"
     max-durability: 7000
@@ -800,6 +832,7 @@ HELMET_QUAN_NGUC_1:
 
 HELMET_QUAN_NGUC_2:
   base:
+    revision-id: 1
     material: NETHERITE_HELMET
     name: "&dNón Quản Ngục &e&lII"
     max-durability: 7000
@@ -828,6 +861,7 @@ HELMET_QUAN_NGUC_2:
 
 HELMET_QUAN_NGUC_3:
   base:
+    revision-id: 1
     material: NETHERITE_HELMET
     name: "&dNón Quản Ngục &e&lIII"
     max-durability: 7000
@@ -856,6 +890,7 @@ HELMET_QUAN_NGUC_3:
 
 HELMET_QUAN_NGUC_4:
   base:
+    revision-id: 1
     material: NETHERITE_HELMET
     name: "&dNón Quản Ngục &e&lIV"
     max-durability: 7000
@@ -884,6 +919,7 @@ HELMET_QUAN_NGUC_4:
 
 HELMET_QUAN_NGUC_5:
   base:
+    revision-id: 1
     material: NETHERITE_HELMET
     name: "&dNón Quản Ngục &e&lV"
     max-durability: 7000
@@ -912,6 +948,7 @@ HELMET_QUAN_NGUC_5:
 
 HELMET_BA_CHU_NGUC_TU_1:
   base:
+    revision-id: 1
     material: NETHERITE_HELMET
     name: "&5Nón Bá Chủ Ngục Tù &e&lI"
     max-durability: 9000
@@ -941,6 +978,7 @@ HELMET_BA_CHU_NGUC_TU_1:
 
 HELMET_BA_CHU_NGUC_TU_2:
   base:
+    revision-id: 1
     material: NETHERITE_HELMET
     name: "&5Nón Bá Chủ Ngục Tù &e&lII"
     max-durability: 9000
@@ -970,6 +1008,7 @@ HELMET_BA_CHU_NGUC_TU_2:
 
 HELMET_BA_CHU_NGUC_TU_3:
   base:
+    revision-id: 1
     material: NETHERITE_HELMET
     name: "&5Nón Bá Chủ Ngục Tù &e&lIII"
     max-durability: 9000
@@ -999,6 +1038,7 @@ HELMET_BA_CHU_NGUC_TU_3:
 
 HELMET_BA_CHU_NGUC_TU_4:
   base:
+    revision-id: 1
     material: NETHERITE_HELMET
     name: "&5Nón Bá Chủ Ngục Tù &e&lIV"
     max-durability: 9000
@@ -1028,6 +1068,7 @@ HELMET_BA_CHU_NGUC_TU_4:
 
 HELMET_BA_CHU_NGUC_TU_5:
   base:
+    revision-id: 1
     material: NETHERITE_HELMET
     name: "&5Nón Bá Chủ Ngục Tù &e&lV"
     max-durability: 9000
@@ -1057,6 +1098,7 @@ HELMET_BA_CHU_NGUC_TU_5:
 
 HELMET_VUOT_NGUC_1:
   base:
+    revision-id: 1
     material: NETHERITE_HELMET
     name: "&4Nón Vượt Ngục &e&lI"
     max-durability: 12000
@@ -1086,6 +1128,7 @@ HELMET_VUOT_NGUC_1:
 
 HELMET_VUOT_NGUC_2:
   base:
+    revision-id: 1
     material: NETHERITE_HELMET
     name: "&4Nón Vượt Ngục &e&lII"
     max-durability: 12000
@@ -1115,6 +1158,7 @@ HELMET_VUOT_NGUC_2:
 
 HELMET_VUOT_NGUC_3:
   base:
+    revision-id: 1
     material: NETHERITE_HELMET
     name: "&4Nón Vượt Ngục &e&lIII"
     max-durability: 12000
@@ -1144,6 +1188,7 @@ HELMET_VUOT_NGUC_3:
 
 HELMET_VUOT_NGUC_4:
   base:
+    revision-id: 1
     material: NETHERITE_HELMET
     name: "&4Nón Vượt Ngục &e&lIV"
     max-durability: 12000
@@ -1173,6 +1218,7 @@ HELMET_VUOT_NGUC_4:
 
 HELMET_VUOT_NGUC_5:
   base:
+    revision-id: 1
     material: NETHERITE_HELMET
     name: "&4Nón Vượt Ngục &e&lV"
     max-durability: 12000
@@ -1202,6 +1248,7 @@ HELMET_VUOT_NGUC_5:
 
 CHESTPLATE_TAN_BINH_1:
   base:
+    revision-id: 1
     material: LEATHER_CHESTPLATE
     name: "&fÁo Giáp Tân Binh &e&lI"
     max-durability: 400
@@ -1222,6 +1269,7 @@ CHESTPLATE_TAN_BINH_1:
 
 CHESTPLATE_TAN_BINH_2:
   base:
+    revision-id: 1
     material: LEATHER_CHESTPLATE
     name: "&fÁo Giáp Tân Binh &e&lII"
     max-durability: 400
@@ -1242,6 +1290,7 @@ CHESTPLATE_TAN_BINH_2:
 
 CHESTPLATE_TAN_BINH_3:
   base:
+    revision-id: 1
     material: LEATHER_CHESTPLATE
     name: "&fÁo Giáp Tân Binh &e&lIII"
     max-durability: 400
@@ -1262,6 +1311,7 @@ CHESTPLATE_TAN_BINH_3:
 
 CHESTPLATE_TAN_BINH_4:
   base:
+    revision-id: 1
     material: LEATHER_CHESTPLATE
     name: "&fÁo Giáp Tân Binh &e&lIV"
     max-durability: 400
@@ -1282,6 +1332,7 @@ CHESTPLATE_TAN_BINH_4:
 
 CHESTPLATE_TAN_BINH_5:
   base:
+    revision-id: 1
     material: LEATHER_CHESTPLATE
     name: "&fÁo Giáp Tân Binh &e&lV"
     max-durability: 400
@@ -1302,6 +1353,7 @@ CHESTPLATE_TAN_BINH_5:
 
 CHESTPLATE_TU_NHAN_1:
   base:
+    revision-id: 1
     material: LEATHER_CHESTPLATE
     name: "&aÁo Giáp Tù Nhân &e&lI"
     max-durability: 800
@@ -1322,6 +1374,7 @@ CHESTPLATE_TU_NHAN_1:
 
 CHESTPLATE_TU_NHAN_2:
   base:
+    revision-id: 1
     material: LEATHER_CHESTPLATE
     name: "&aÁo Giáp Tù Nhân &e&lII"
     max-durability: 800
@@ -1342,6 +1395,7 @@ CHESTPLATE_TU_NHAN_2:
 
 CHESTPLATE_TU_NHAN_3:
   base:
+    revision-id: 1
     material: LEATHER_CHESTPLATE
     name: "&aÁo Giáp Tù Nhân &e&lIII"
     max-durability: 800
@@ -1362,6 +1416,7 @@ CHESTPLATE_TU_NHAN_3:
 
 CHESTPLATE_TU_NHAN_4:
   base:
+    revision-id: 1
     material: LEATHER_CHESTPLATE
     name: "&aÁo Giáp Tù Nhân &e&lIV"
     max-durability: 800
@@ -1382,6 +1437,7 @@ CHESTPLATE_TU_NHAN_4:
 
 CHESTPLATE_TU_NHAN_5:
   base:
+    revision-id: 1
     material: LEATHER_CHESTPLATE
     name: "&aÁo Giáp Tù Nhân &e&lV"
     max-durability: 800
@@ -1402,6 +1458,7 @@ CHESTPLATE_TU_NHAN_5:
 
 CHESTPLATE_LAO_CONG_1:
   base:
+    revision-id: 1
     material: CHAINMAIL_CHESTPLATE
     name: "&bÁo Giáp Lao Công &e&lI"
     max-durability: 1500
@@ -1425,6 +1482,7 @@ CHESTPLATE_LAO_CONG_1:
 
 CHESTPLATE_LAO_CONG_2:
   base:
+    revision-id: 1
     material: CHAINMAIL_CHESTPLATE
     name: "&bÁo Giáp Lao Công &e&lII"
     max-durability: 1500
@@ -1448,6 +1506,7 @@ CHESTPLATE_LAO_CONG_2:
 
 CHESTPLATE_LAO_CONG_3:
   base:
+    revision-id: 1
     material: CHAINMAIL_CHESTPLATE
     name: "&bÁo Giáp Lao Công &e&lIII"
     max-durability: 1500
@@ -1471,6 +1530,7 @@ CHESTPLATE_LAO_CONG_3:
 
 CHESTPLATE_LAO_CONG_4:
   base:
+    revision-id: 1
     material: CHAINMAIL_CHESTPLATE
     name: "&bÁo Giáp Lao Công &e&lIV"
     max-durability: 1500
@@ -1494,6 +1554,7 @@ CHESTPLATE_LAO_CONG_4:
 
 CHESTPLATE_LAO_CONG_5:
   base:
+    revision-id: 1
     material: CHAINMAIL_CHESTPLATE
     name: "&bÁo Giáp Lao Công &e&lV"
     max-durability: 1500
@@ -1517,6 +1578,7 @@ CHESTPLATE_LAO_CONG_5:
 
 CHESTPLATE_THO_DAO_1:
   base:
+    revision-id: 1
     material: IRON_CHESTPLATE
     name: "&eÁo Giáp Thợ Đào &e&lI"
     max-durability: 2500
@@ -1542,6 +1604,7 @@ CHESTPLATE_THO_DAO_1:
 
 CHESTPLATE_THO_DAO_2:
   base:
+    revision-id: 1
     material: IRON_CHESTPLATE
     name: "&eÁo Giáp Thợ Đào &e&lII"
     max-durability: 2500
@@ -1567,6 +1630,7 @@ CHESTPLATE_THO_DAO_2:
 
 CHESTPLATE_THO_DAO_3:
   base:
+    revision-id: 1
     material: IRON_CHESTPLATE
     name: "&eÁo Giáp Thợ Đào &e&lIII"
     max-durability: 2500
@@ -1592,6 +1656,7 @@ CHESTPLATE_THO_DAO_3:
 
 CHESTPLATE_THO_DAO_4:
   base:
+    revision-id: 1
     material: IRON_CHESTPLATE
     name: "&eÁo Giáp Thợ Đào &e&lIV"
     max-durability: 2500
@@ -1617,6 +1682,7 @@ CHESTPLATE_THO_DAO_4:
 
 CHESTPLATE_THO_DAO_5:
   base:
+    revision-id: 1
     material: IRON_CHESTPLATE
     name: "&eÁo Giáp Thợ Đào &e&lV"
     max-durability: 2500
@@ -1642,6 +1708,7 @@ CHESTPLATE_THO_DAO_5:
 
 CHESTPLATE_DOI_TRUONG_1:
   base:
+    revision-id: 1
     material: DIAMOND_CHESTPLATE
     name: "&6Áo Giáp Đội Trưởng &e&lI"
     max-durability: 3800
@@ -1668,6 +1735,7 @@ CHESTPLATE_DOI_TRUONG_1:
 
 CHESTPLATE_DOI_TRUONG_2:
   base:
+    revision-id: 1
     material: DIAMOND_CHESTPLATE
     name: "&6Áo Giáp Đội Trưởng &e&lII"
     max-durability: 3800
@@ -1694,6 +1762,7 @@ CHESTPLATE_DOI_TRUONG_2:
 
 CHESTPLATE_DOI_TRUONG_3:
   base:
+    revision-id: 1
     material: DIAMOND_CHESTPLATE
     name: "&6Áo Giáp Đội Trưởng &e&lIII"
     max-durability: 3800
@@ -1720,6 +1789,7 @@ CHESTPLATE_DOI_TRUONG_3:
 
 CHESTPLATE_DOI_TRUONG_4:
   base:
+    revision-id: 1
     material: DIAMOND_CHESTPLATE
     name: "&6Áo Giáp Đội Trưởng &e&lIV"
     max-durability: 3800
@@ -1746,6 +1816,7 @@ CHESTPLATE_DOI_TRUONG_4:
 
 CHESTPLATE_DOI_TRUONG_5:
   base:
+    revision-id: 1
     material: DIAMOND_CHESTPLATE
     name: "&6Áo Giáp Đội Trưởng &e&lV"
     max-durability: 3800
@@ -1772,6 +1843,7 @@ CHESTPLATE_DOI_TRUONG_5:
 
 CHESTPLATE_PHO_QUAN_NGUC_1:
   base:
+    revision-id: 1
     material: DIAMOND_CHESTPLATE
     name: "&cÁo Giáp Phó Quản Ngục &e&lI"
     max-durability: 5200
@@ -1799,6 +1871,7 @@ CHESTPLATE_PHO_QUAN_NGUC_1:
 
 CHESTPLATE_PHO_QUAN_NGUC_2:
   base:
+    revision-id: 1
     material: DIAMOND_CHESTPLATE
     name: "&cÁo Giáp Phó Quản Ngục &e&lII"
     max-durability: 5200
@@ -1826,6 +1899,7 @@ CHESTPLATE_PHO_QUAN_NGUC_2:
 
 CHESTPLATE_PHO_QUAN_NGUC_3:
   base:
+    revision-id: 1
     material: DIAMOND_CHESTPLATE
     name: "&cÁo Giáp Phó Quản Ngục &e&lIII"
     max-durability: 5200
@@ -1853,6 +1927,7 @@ CHESTPLATE_PHO_QUAN_NGUC_3:
 
 CHESTPLATE_PHO_QUAN_NGUC_4:
   base:
+    revision-id: 1
     material: DIAMOND_CHESTPLATE
     name: "&cÁo Giáp Phó Quản Ngục &e&lIV"
     max-durability: 5200
@@ -1880,6 +1955,7 @@ CHESTPLATE_PHO_QUAN_NGUC_4:
 
 CHESTPLATE_PHO_QUAN_NGUC_5:
   base:
+    revision-id: 1
     material: DIAMOND_CHESTPLATE
     name: "&cÁo Giáp Phó Quản Ngục &e&lV"
     max-durability: 5200
@@ -1907,6 +1983,7 @@ CHESTPLATE_PHO_QUAN_NGUC_5:
 
 CHESTPLATE_QUAN_NGUC_1:
   base:
+    revision-id: 1
     material: NETHERITE_CHESTPLATE
     name: "&dÁo Giáp Quản Ngục &e&lI"
     max-durability: 7000
@@ -1934,6 +2011,7 @@ CHESTPLATE_QUAN_NGUC_1:
 
 CHESTPLATE_QUAN_NGUC_2:
   base:
+    revision-id: 1
     material: NETHERITE_CHESTPLATE
     name: "&dÁo Giáp Quản Ngục &e&lII"
     max-durability: 7000
@@ -1961,6 +2039,7 @@ CHESTPLATE_QUAN_NGUC_2:
 
 CHESTPLATE_QUAN_NGUC_3:
   base:
+    revision-id: 1
     material: NETHERITE_CHESTPLATE
     name: "&dÁo Giáp Quản Ngục &e&lIII"
     max-durability: 7000
@@ -1988,6 +2067,7 @@ CHESTPLATE_QUAN_NGUC_3:
 
 CHESTPLATE_QUAN_NGUC_4:
   base:
+    revision-id: 1
     material: NETHERITE_CHESTPLATE
     name: "&dÁo Giáp Quản Ngục &e&lIV"
     max-durability: 7000
@@ -2015,6 +2095,7 @@ CHESTPLATE_QUAN_NGUC_4:
 
 CHESTPLATE_QUAN_NGUC_5:
   base:
+    revision-id: 1
     material: NETHERITE_CHESTPLATE
     name: "&dÁo Giáp Quản Ngục &e&lV"
     max-durability: 7000
@@ -2042,6 +2123,7 @@ CHESTPLATE_QUAN_NGUC_5:
 
 CHESTPLATE_BA_CHU_NGUC_TU_1:
   base:
+    revision-id: 1
     material: NETHERITE_CHESTPLATE
     name: "&5Áo Giáp Bá Chủ Ngục Tù &e&lI"
     max-durability: 9000
@@ -2070,6 +2152,7 @@ CHESTPLATE_BA_CHU_NGUC_TU_1:
 
 CHESTPLATE_BA_CHU_NGUC_TU_2:
   base:
+    revision-id: 1
     material: NETHERITE_CHESTPLATE
     name: "&5Áo Giáp Bá Chủ Ngục Tù &e&lII"
     max-durability: 9000
@@ -2098,6 +2181,7 @@ CHESTPLATE_BA_CHU_NGUC_TU_2:
 
 CHESTPLATE_BA_CHU_NGUC_TU_3:
   base:
+    revision-id: 1
     material: NETHERITE_CHESTPLATE
     name: "&5Áo Giáp Bá Chủ Ngục Tù &e&lIII"
     max-durability: 9000
@@ -2126,6 +2210,7 @@ CHESTPLATE_BA_CHU_NGUC_TU_3:
 
 CHESTPLATE_BA_CHU_NGUC_TU_4:
   base:
+    revision-id: 1
     material: NETHERITE_CHESTPLATE
     name: "&5Áo Giáp Bá Chủ Ngục Tù &e&lIV"
     max-durability: 9000
@@ -2154,6 +2239,7 @@ CHESTPLATE_BA_CHU_NGUC_TU_4:
 
 CHESTPLATE_BA_CHU_NGUC_TU_5:
   base:
+    revision-id: 1
     material: NETHERITE_CHESTPLATE
     name: "&5Áo Giáp Bá Chủ Ngục Tù &e&lV"
     max-durability: 9000
@@ -2182,6 +2268,7 @@ CHESTPLATE_BA_CHU_NGUC_TU_5:
 
 CHESTPLATE_VUOT_NGUC_1:
   base:
+    revision-id: 1
     material: NETHERITE_CHESTPLATE
     name: "&4Áo Giáp Vượt Ngục &e&lI"
     max-durability: 12000
@@ -2210,6 +2297,7 @@ CHESTPLATE_VUOT_NGUC_1:
 
 CHESTPLATE_VUOT_NGUC_2:
   base:
+    revision-id: 1
     material: NETHERITE_CHESTPLATE
     name: "&4Áo Giáp Vượt Ngục &e&lII"
     max-durability: 12000
@@ -2238,6 +2326,7 @@ CHESTPLATE_VUOT_NGUC_2:
 
 CHESTPLATE_VUOT_NGUC_3:
   base:
+    revision-id: 1
     material: NETHERITE_CHESTPLATE
     name: "&4Áo Giáp Vượt Ngục &e&lIII"
     max-durability: 12000
@@ -2266,6 +2355,7 @@ CHESTPLATE_VUOT_NGUC_3:
 
 CHESTPLATE_VUOT_NGUC_4:
   base:
+    revision-id: 1
     material: NETHERITE_CHESTPLATE
     name: "&4Áo Giáp Vượt Ngục &e&lIV"
     max-durability: 12000
@@ -2294,6 +2384,7 @@ CHESTPLATE_VUOT_NGUC_4:
 
 CHESTPLATE_VUOT_NGUC_5:
   base:
+    revision-id: 1
     material: NETHERITE_CHESTPLATE
     name: "&4Áo Giáp Vượt Ngục &e&lV"
     max-durability: 12000
@@ -2322,6 +2413,7 @@ CHESTPLATE_VUOT_NGUC_5:
 
 LEGGINGS_TAN_BINH_1:
   base:
+    revision-id: 1
     material: LEATHER_LEGGINGS
     name: "&fQuần Giáp Tân Binh &e&lI"
     max-durability: 400
@@ -2342,6 +2434,7 @@ LEGGINGS_TAN_BINH_1:
 
 LEGGINGS_TAN_BINH_2:
   base:
+    revision-id: 1
     material: LEATHER_LEGGINGS
     name: "&fQuần Giáp Tân Binh &e&lII"
     max-durability: 400
@@ -2362,6 +2455,7 @@ LEGGINGS_TAN_BINH_2:
 
 LEGGINGS_TAN_BINH_3:
   base:
+    revision-id: 1
     material: LEATHER_LEGGINGS
     name: "&fQuần Giáp Tân Binh &e&lIII"
     max-durability: 400
@@ -2382,6 +2476,7 @@ LEGGINGS_TAN_BINH_3:
 
 LEGGINGS_TAN_BINH_4:
   base:
+    revision-id: 1
     material: LEATHER_LEGGINGS
     name: "&fQuần Giáp Tân Binh &e&lIV"
     max-durability: 400
@@ -2402,6 +2497,7 @@ LEGGINGS_TAN_BINH_4:
 
 LEGGINGS_TAN_BINH_5:
   base:
+    revision-id: 1
     material: LEATHER_LEGGINGS
     name: "&fQuần Giáp Tân Binh &e&lV"
     max-durability: 400
@@ -2422,6 +2518,7 @@ LEGGINGS_TAN_BINH_5:
 
 LEGGINGS_TU_NHAN_1:
   base:
+    revision-id: 1
     material: LEATHER_LEGGINGS
     name: "&aQuần Giáp Tù Nhân &e&lI"
     max-durability: 800
@@ -2442,6 +2539,7 @@ LEGGINGS_TU_NHAN_1:
 
 LEGGINGS_TU_NHAN_2:
   base:
+    revision-id: 1
     material: LEATHER_LEGGINGS
     name: "&aQuần Giáp Tù Nhân &e&lII"
     max-durability: 800
@@ -2462,6 +2560,7 @@ LEGGINGS_TU_NHAN_2:
 
 LEGGINGS_TU_NHAN_3:
   base:
+    revision-id: 1
     material: LEATHER_LEGGINGS
     name: "&aQuần Giáp Tù Nhân &e&lIII"
     max-durability: 800
@@ -2482,6 +2581,7 @@ LEGGINGS_TU_NHAN_3:
 
 LEGGINGS_TU_NHAN_4:
   base:
+    revision-id: 1
     material: LEATHER_LEGGINGS
     name: "&aQuần Giáp Tù Nhân &e&lIV"
     max-durability: 800
@@ -2502,6 +2602,7 @@ LEGGINGS_TU_NHAN_4:
 
 LEGGINGS_TU_NHAN_5:
   base:
+    revision-id: 1
     material: LEATHER_LEGGINGS
     name: "&aQuần Giáp Tù Nhân &e&lV"
     max-durability: 800
@@ -2522,6 +2623,7 @@ LEGGINGS_TU_NHAN_5:
 
 LEGGINGS_LAO_CONG_1:
   base:
+    revision-id: 1
     material: CHAINMAIL_LEGGINGS
     name: "&bQuần Giáp Lao Công &e&lI"
     max-durability: 1500
@@ -2545,6 +2647,7 @@ LEGGINGS_LAO_CONG_1:
 
 LEGGINGS_LAO_CONG_2:
   base:
+    revision-id: 1
     material: CHAINMAIL_LEGGINGS
     name: "&bQuần Giáp Lao Công &e&lII"
     max-durability: 1500
@@ -2568,6 +2671,7 @@ LEGGINGS_LAO_CONG_2:
 
 LEGGINGS_LAO_CONG_3:
   base:
+    revision-id: 1
     material: CHAINMAIL_LEGGINGS
     name: "&bQuần Giáp Lao Công &e&lIII"
     max-durability: 1500
@@ -2591,6 +2695,7 @@ LEGGINGS_LAO_CONG_3:
 
 LEGGINGS_LAO_CONG_4:
   base:
+    revision-id: 1
     material: CHAINMAIL_LEGGINGS
     name: "&bQuần Giáp Lao Công &e&lIV"
     max-durability: 1500
@@ -2614,6 +2719,7 @@ LEGGINGS_LAO_CONG_4:
 
 LEGGINGS_LAO_CONG_5:
   base:
+    revision-id: 1
     material: CHAINMAIL_LEGGINGS
     name: "&bQuần Giáp Lao Công &e&lV"
     max-durability: 1500
@@ -2637,6 +2743,7 @@ LEGGINGS_LAO_CONG_5:
 
 LEGGINGS_THO_DAO_1:
   base:
+    revision-id: 1
     material: IRON_LEGGINGS
     name: "&eQuần Giáp Thợ Đào &e&lI"
     max-durability: 2500
@@ -2662,6 +2769,7 @@ LEGGINGS_THO_DAO_1:
 
 LEGGINGS_THO_DAO_2:
   base:
+    revision-id: 1
     material: IRON_LEGGINGS
     name: "&eQuần Giáp Thợ Đào &e&lII"
     max-durability: 2500
@@ -2687,6 +2795,7 @@ LEGGINGS_THO_DAO_2:
 
 LEGGINGS_THO_DAO_3:
   base:
+    revision-id: 1
     material: IRON_LEGGINGS
     name: "&eQuần Giáp Thợ Đào &e&lIII"
     max-durability: 2500
@@ -2712,6 +2821,7 @@ LEGGINGS_THO_DAO_3:
 
 LEGGINGS_THO_DAO_4:
   base:
+    revision-id: 1
     material: IRON_LEGGINGS
     name: "&eQuần Giáp Thợ Đào &e&lIV"
     max-durability: 2500
@@ -2737,6 +2847,7 @@ LEGGINGS_THO_DAO_4:
 
 LEGGINGS_THO_DAO_5:
   base:
+    revision-id: 1
     material: IRON_LEGGINGS
     name: "&eQuần Giáp Thợ Đào &e&lV"
     max-durability: 2500
@@ -2762,6 +2873,7 @@ LEGGINGS_THO_DAO_5:
 
 LEGGINGS_DOI_TRUONG_1:
   base:
+    revision-id: 1
     material: DIAMOND_LEGGINGS
     name: "&6Quần Giáp Đội Trưởng &e&lI"
     max-durability: 3800
@@ -2788,6 +2900,7 @@ LEGGINGS_DOI_TRUONG_1:
 
 LEGGINGS_DOI_TRUONG_2:
   base:
+    revision-id: 1
     material: DIAMOND_LEGGINGS
     name: "&6Quần Giáp Đội Trưởng &e&lII"
     max-durability: 3800
@@ -2814,6 +2927,7 @@ LEGGINGS_DOI_TRUONG_2:
 
 LEGGINGS_DOI_TRUONG_3:
   base:
+    revision-id: 1
     material: DIAMOND_LEGGINGS
     name: "&6Quần Giáp Đội Trưởng &e&lIII"
     max-durability: 3800
@@ -2840,6 +2954,7 @@ LEGGINGS_DOI_TRUONG_3:
 
 LEGGINGS_DOI_TRUONG_4:
   base:
+    revision-id: 1
     material: DIAMOND_LEGGINGS
     name: "&6Quần Giáp Đội Trưởng &e&lIV"
     max-durability: 3800
@@ -2866,6 +2981,7 @@ LEGGINGS_DOI_TRUONG_4:
 
 LEGGINGS_DOI_TRUONG_5:
   base:
+    revision-id: 1
     material: DIAMOND_LEGGINGS
     name: "&6Quần Giáp Đội Trưởng &e&lV"
     max-durability: 3800
@@ -2892,6 +3008,7 @@ LEGGINGS_DOI_TRUONG_5:
 
 LEGGINGS_PHO_QUAN_NGUC_1:
   base:
+    revision-id: 1
     material: DIAMOND_LEGGINGS
     name: "&cQuần Giáp Phó Quản Ngục &e&lI"
     max-durability: 5200
@@ -2919,6 +3036,7 @@ LEGGINGS_PHO_QUAN_NGUC_1:
 
 LEGGINGS_PHO_QUAN_NGUC_2:
   base:
+    revision-id: 1
     material: DIAMOND_LEGGINGS
     name: "&cQuần Giáp Phó Quản Ngục &e&lII"
     max-durability: 5200
@@ -2946,6 +3064,7 @@ LEGGINGS_PHO_QUAN_NGUC_2:
 
 LEGGINGS_PHO_QUAN_NGUC_3:
   base:
+    revision-id: 1
     material: DIAMOND_LEGGINGS
     name: "&cQuần Giáp Phó Quản Ngục &e&lIII"
     max-durability: 5200
@@ -2973,6 +3092,7 @@ LEGGINGS_PHO_QUAN_NGUC_3:
 
 LEGGINGS_PHO_QUAN_NGUC_4:
   base:
+    revision-id: 1
     material: DIAMOND_LEGGINGS
     name: "&cQuần Giáp Phó Quản Ngục &e&lIV"
     max-durability: 5200
@@ -3000,6 +3120,7 @@ LEGGINGS_PHO_QUAN_NGUC_4:
 
 LEGGINGS_PHO_QUAN_NGUC_5:
   base:
+    revision-id: 1
     material: DIAMOND_LEGGINGS
     name: "&cQuần Giáp Phó Quản Ngục &e&lV"
     max-durability: 5200
@@ -3027,6 +3148,7 @@ LEGGINGS_PHO_QUAN_NGUC_5:
 
 LEGGINGS_QUAN_NGUC_1:
   base:
+    revision-id: 1
     material: NETHERITE_LEGGINGS
     name: "&dQuần Giáp Quản Ngục &e&lI"
     max-durability: 7000
@@ -3054,6 +3176,7 @@ LEGGINGS_QUAN_NGUC_1:
 
 LEGGINGS_QUAN_NGUC_2:
   base:
+    revision-id: 1
     material: NETHERITE_LEGGINGS
     name: "&dQuần Giáp Quản Ngục &e&lII"
     max-durability: 7000
@@ -3081,6 +3204,7 @@ LEGGINGS_QUAN_NGUC_2:
 
 LEGGINGS_QUAN_NGUC_3:
   base:
+    revision-id: 1
     material: NETHERITE_LEGGINGS
     name: "&dQuần Giáp Quản Ngục &e&lIII"
     max-durability: 7000
@@ -3108,6 +3232,7 @@ LEGGINGS_QUAN_NGUC_3:
 
 LEGGINGS_QUAN_NGUC_4:
   base:
+    revision-id: 1
     material: NETHERITE_LEGGINGS
     name: "&dQuần Giáp Quản Ngục &e&lIV"
     max-durability: 7000
@@ -3135,6 +3260,7 @@ LEGGINGS_QUAN_NGUC_4:
 
 LEGGINGS_QUAN_NGUC_5:
   base:
+    revision-id: 1
     material: NETHERITE_LEGGINGS
     name: "&dQuần Giáp Quản Ngục &e&lV"
     max-durability: 7000
@@ -3162,6 +3288,7 @@ LEGGINGS_QUAN_NGUC_5:
 
 LEGGINGS_BA_CHU_NGUC_TU_1:
   base:
+    revision-id: 1
     material: NETHERITE_LEGGINGS
     name: "&5Quần Giáp Bá Chủ Ngục Tù &e&lI"
     max-durability: 9000
@@ -3190,6 +3317,7 @@ LEGGINGS_BA_CHU_NGUC_TU_1:
 
 LEGGINGS_BA_CHU_NGUC_TU_2:
   base:
+    revision-id: 1
     material: NETHERITE_LEGGINGS
     name: "&5Quần Giáp Bá Chủ Ngục Tù &e&lII"
     max-durability: 9000
@@ -3218,6 +3346,7 @@ LEGGINGS_BA_CHU_NGUC_TU_2:
 
 LEGGINGS_BA_CHU_NGUC_TU_3:
   base:
+    revision-id: 1
     material: NETHERITE_LEGGINGS
     name: "&5Quần Giáp Bá Chủ Ngục Tù &e&lIII"
     max-durability: 9000
@@ -3246,6 +3375,7 @@ LEGGINGS_BA_CHU_NGUC_TU_3:
 
 LEGGINGS_BA_CHU_NGUC_TU_4:
   base:
+    revision-id: 1
     material: NETHERITE_LEGGINGS
     name: "&5Quần Giáp Bá Chủ Ngục Tù &e&lIV"
     max-durability: 9000
@@ -3274,6 +3404,7 @@ LEGGINGS_BA_CHU_NGUC_TU_4:
 
 LEGGINGS_BA_CHU_NGUC_TU_5:
   base:
+    revision-id: 1
     material: NETHERITE_LEGGINGS
     name: "&5Quần Giáp Bá Chủ Ngục Tù &e&lV"
     max-durability: 9000
@@ -3302,6 +3433,7 @@ LEGGINGS_BA_CHU_NGUC_TU_5:
 
 LEGGINGS_VUOT_NGUC_1:
   base:
+    revision-id: 1
     material: NETHERITE_LEGGINGS
     name: "&4Quần Giáp Vượt Ngục &e&lI"
     max-durability: 12000
@@ -3330,6 +3462,7 @@ LEGGINGS_VUOT_NGUC_1:
 
 LEGGINGS_VUOT_NGUC_2:
   base:
+    revision-id: 1
     material: NETHERITE_LEGGINGS
     name: "&4Quần Giáp Vượt Ngục &e&lII"
     max-durability: 12000
@@ -3358,6 +3491,7 @@ LEGGINGS_VUOT_NGUC_2:
 
 LEGGINGS_VUOT_NGUC_3:
   base:
+    revision-id: 1
     material: NETHERITE_LEGGINGS
     name: "&4Quần Giáp Vượt Ngục &e&lIII"
     max-durability: 12000
@@ -3386,6 +3520,7 @@ LEGGINGS_VUOT_NGUC_3:
 
 LEGGINGS_VUOT_NGUC_4:
   base:
+    revision-id: 1
     material: NETHERITE_LEGGINGS
     name: "&4Quần Giáp Vượt Ngục &e&lIV"
     max-durability: 12000
@@ -3414,6 +3549,7 @@ LEGGINGS_VUOT_NGUC_4:
 
 LEGGINGS_VUOT_NGUC_5:
   base:
+    revision-id: 1
     material: NETHERITE_LEGGINGS
     name: "&4Quần Giáp Vượt Ngục &e&lV"
     max-durability: 12000
@@ -3442,6 +3578,7 @@ LEGGINGS_VUOT_NGUC_5:
 
 BOOTS_TAN_BINH_1:
   base:
+    revision-id: 1
     material: LEATHER_BOOTS
     name: "&fGiày Tân Binh &e&lI"
     max-durability: 400
@@ -3462,6 +3599,7 @@ BOOTS_TAN_BINH_1:
 
 BOOTS_TAN_BINH_2:
   base:
+    revision-id: 1
     material: LEATHER_BOOTS
     name: "&fGiày Tân Binh &e&lII"
     max-durability: 400
@@ -3482,6 +3620,7 @@ BOOTS_TAN_BINH_2:
 
 BOOTS_TAN_BINH_3:
   base:
+    revision-id: 1
     material: LEATHER_BOOTS
     name: "&fGiày Tân Binh &e&lIII"
     max-durability: 400
@@ -3502,6 +3641,7 @@ BOOTS_TAN_BINH_3:
 
 BOOTS_TAN_BINH_4:
   base:
+    revision-id: 1
     material: LEATHER_BOOTS
     name: "&fGiày Tân Binh &e&lIV"
     max-durability: 400
@@ -3522,6 +3662,7 @@ BOOTS_TAN_BINH_4:
 
 BOOTS_TAN_BINH_5:
   base:
+    revision-id: 1
     material: LEATHER_BOOTS
     name: "&fGiày Tân Binh &e&lV"
     max-durability: 400
@@ -3542,6 +3683,7 @@ BOOTS_TAN_BINH_5:
 
 BOOTS_TU_NHAN_1:
   base:
+    revision-id: 1
     material: LEATHER_BOOTS
     name: "&aGiày Tù Nhân &e&lI"
     max-durability: 800
@@ -3562,6 +3704,7 @@ BOOTS_TU_NHAN_1:
 
 BOOTS_TU_NHAN_2:
   base:
+    revision-id: 1
     material: LEATHER_BOOTS
     name: "&aGiày Tù Nhân &e&lII"
     max-durability: 800
@@ -3582,6 +3725,7 @@ BOOTS_TU_NHAN_2:
 
 BOOTS_TU_NHAN_3:
   base:
+    revision-id: 1
     material: LEATHER_BOOTS
     name: "&aGiày Tù Nhân &e&lIII"
     max-durability: 800
@@ -3602,6 +3746,7 @@ BOOTS_TU_NHAN_3:
 
 BOOTS_TU_NHAN_4:
   base:
+    revision-id: 1
     material: LEATHER_BOOTS
     name: "&aGiày Tù Nhân &e&lIV"
     max-durability: 800
@@ -3622,6 +3767,7 @@ BOOTS_TU_NHAN_4:
 
 BOOTS_TU_NHAN_5:
   base:
+    revision-id: 1
     material: LEATHER_BOOTS
     name: "&aGiày Tù Nhân &e&lV"
     max-durability: 800
@@ -3642,6 +3788,7 @@ BOOTS_TU_NHAN_5:
 
 BOOTS_LAO_CONG_1:
   base:
+    revision-id: 1
     material: CHAINMAIL_BOOTS
     name: "&bGiày Lao Công &e&lI"
     max-durability: 1500
@@ -3665,6 +3812,7 @@ BOOTS_LAO_CONG_1:
 
 BOOTS_LAO_CONG_2:
   base:
+    revision-id: 1
     material: CHAINMAIL_BOOTS
     name: "&bGiày Lao Công &e&lII"
     max-durability: 1500
@@ -3688,6 +3836,7 @@ BOOTS_LAO_CONG_2:
 
 BOOTS_LAO_CONG_3:
   base:
+    revision-id: 1
     material: CHAINMAIL_BOOTS
     name: "&bGiày Lao Công &e&lIII"
     max-durability: 1500
@@ -3711,6 +3860,7 @@ BOOTS_LAO_CONG_3:
 
 BOOTS_LAO_CONG_4:
   base:
+    revision-id: 1
     material: CHAINMAIL_BOOTS
     name: "&bGiày Lao Công &e&lIV"
     max-durability: 1500
@@ -3734,6 +3884,7 @@ BOOTS_LAO_CONG_4:
 
 BOOTS_LAO_CONG_5:
   base:
+    revision-id: 1
     material: CHAINMAIL_BOOTS
     name: "&bGiày Lao Công &e&lV"
     max-durability: 1500
@@ -3757,6 +3908,7 @@ BOOTS_LAO_CONG_5:
 
 BOOTS_THO_DAO_1:
   base:
+    revision-id: 1
     material: IRON_BOOTS
     name: "&eGiày Thợ Đào &e&lI"
     max-durability: 2500
@@ -3782,6 +3934,7 @@ BOOTS_THO_DAO_1:
 
 BOOTS_THO_DAO_2:
   base:
+    revision-id: 1
     material: IRON_BOOTS
     name: "&eGiày Thợ Đào &e&lII"
     max-durability: 2500
@@ -3807,6 +3960,7 @@ BOOTS_THO_DAO_2:
 
 BOOTS_THO_DAO_3:
   base:
+    revision-id: 1
     material: IRON_BOOTS
     name: "&eGiày Thợ Đào &e&lIII"
     max-durability: 2500
@@ -3832,6 +3986,7 @@ BOOTS_THO_DAO_3:
 
 BOOTS_THO_DAO_4:
   base:
+    revision-id: 1
     material: IRON_BOOTS
     name: "&eGiày Thợ Đào &e&lIV"
     max-durability: 2500
@@ -3857,6 +4012,7 @@ BOOTS_THO_DAO_4:
 
 BOOTS_THO_DAO_5:
   base:
+    revision-id: 1
     material: IRON_BOOTS
     name: "&eGiày Thợ Đào &e&lV"
     max-durability: 2500
@@ -3882,6 +4038,7 @@ BOOTS_THO_DAO_5:
 
 BOOTS_DOI_TRUONG_1:
   base:
+    revision-id: 1
     material: DIAMOND_BOOTS
     name: "&6Giày Đội Trưởng &e&lI"
     max-durability: 3800
@@ -3909,6 +4066,7 @@ BOOTS_DOI_TRUONG_1:
 
 BOOTS_DOI_TRUONG_2:
   base:
+    revision-id: 1
     material: DIAMOND_BOOTS
     name: "&6Giày Đội Trưởng &e&lII"
     max-durability: 3800
@@ -3936,6 +4094,7 @@ BOOTS_DOI_TRUONG_2:
 
 BOOTS_DOI_TRUONG_3:
   base:
+    revision-id: 1
     material: DIAMOND_BOOTS
     name: "&6Giày Đội Trưởng &e&lIII"
     max-durability: 3800
@@ -3963,6 +4122,7 @@ BOOTS_DOI_TRUONG_3:
 
 BOOTS_DOI_TRUONG_4:
   base:
+    revision-id: 1
     material: DIAMOND_BOOTS
     name: "&6Giày Đội Trưởng &e&lIV"
     max-durability: 3800
@@ -3990,6 +4150,7 @@ BOOTS_DOI_TRUONG_4:
 
 BOOTS_DOI_TRUONG_5:
   base:
+    revision-id: 1
     material: DIAMOND_BOOTS
     name: "&6Giày Đội Trưởng &e&lV"
     max-durability: 3800
@@ -4017,6 +4178,7 @@ BOOTS_DOI_TRUONG_5:
 
 BOOTS_PHO_QUAN_NGUC_1:
   base:
+    revision-id: 1
     material: DIAMOND_BOOTS
     name: "&cGiày Phó Quản Ngục &e&lI"
     max-durability: 5200
@@ -4045,6 +4207,7 @@ BOOTS_PHO_QUAN_NGUC_1:
 
 BOOTS_PHO_QUAN_NGUC_2:
   base:
+    revision-id: 1
     material: DIAMOND_BOOTS
     name: "&cGiày Phó Quản Ngục &e&lII"
     max-durability: 5200
@@ -4073,6 +4236,7 @@ BOOTS_PHO_QUAN_NGUC_2:
 
 BOOTS_PHO_QUAN_NGUC_3:
   base:
+    revision-id: 1
     material: DIAMOND_BOOTS
     name: "&cGiày Phó Quản Ngục &e&lIII"
     max-durability: 5200
@@ -4101,6 +4265,7 @@ BOOTS_PHO_QUAN_NGUC_3:
 
 BOOTS_PHO_QUAN_NGUC_4:
   base:
+    revision-id: 1
     material: DIAMOND_BOOTS
     name: "&cGiày Phó Quản Ngục &e&lIV"
     max-durability: 5200
@@ -4129,6 +4294,7 @@ BOOTS_PHO_QUAN_NGUC_4:
 
 BOOTS_PHO_QUAN_NGUC_5:
   base:
+    revision-id: 1
     material: DIAMOND_BOOTS
     name: "&cGiày Phó Quản Ngục &e&lV"
     max-durability: 5200
@@ -4157,6 +4323,7 @@ BOOTS_PHO_QUAN_NGUC_5:
 
 BOOTS_QUAN_NGUC_1:
   base:
+    revision-id: 1
     material: NETHERITE_BOOTS
     name: "&dGiày Quản Ngục &e&lI"
     max-durability: 7000
@@ -4185,6 +4352,7 @@ BOOTS_QUAN_NGUC_1:
 
 BOOTS_QUAN_NGUC_2:
   base:
+    revision-id: 1
     material: NETHERITE_BOOTS
     name: "&dGiày Quản Ngục &e&lII"
     max-durability: 7000
@@ -4213,6 +4381,7 @@ BOOTS_QUAN_NGUC_2:
 
 BOOTS_QUAN_NGUC_3:
   base:
+    revision-id: 1
     material: NETHERITE_BOOTS
     name: "&dGiày Quản Ngục &e&lIII"
     max-durability: 7000
@@ -4241,6 +4410,7 @@ BOOTS_QUAN_NGUC_3:
 
 BOOTS_QUAN_NGUC_4:
   base:
+    revision-id: 1
     material: NETHERITE_BOOTS
     name: "&dGiày Quản Ngục &e&lIV"
     max-durability: 7000
@@ -4269,6 +4439,7 @@ BOOTS_QUAN_NGUC_4:
 
 BOOTS_QUAN_NGUC_5:
   base:
+    revision-id: 1
     material: NETHERITE_BOOTS
     name: "&dGiày Quản Ngục &e&lV"
     max-durability: 7000
@@ -4297,6 +4468,7 @@ BOOTS_QUAN_NGUC_5:
 
 BOOTS_BA_CHU_NGUC_TU_1:
   base:
+    revision-id: 1
     material: NETHERITE_BOOTS
     name: "&5Giày Bá Chủ Ngục Tù &e&lI"
     max-durability: 9000
@@ -4326,6 +4498,7 @@ BOOTS_BA_CHU_NGUC_TU_1:
 
 BOOTS_BA_CHU_NGUC_TU_2:
   base:
+    revision-id: 1
     material: NETHERITE_BOOTS
     name: "&5Giày Bá Chủ Ngục Tù &e&lII"
     max-durability: 9000
@@ -4355,6 +4528,7 @@ BOOTS_BA_CHU_NGUC_TU_2:
 
 BOOTS_BA_CHU_NGUC_TU_3:
   base:
+    revision-id: 1
     material: NETHERITE_BOOTS
     name: "&5Giày Bá Chủ Ngục Tù &e&lIII"
     max-durability: 9000
@@ -4384,6 +4558,7 @@ BOOTS_BA_CHU_NGUC_TU_3:
 
 BOOTS_BA_CHU_NGUC_TU_4:
   base:
+    revision-id: 1
     material: NETHERITE_BOOTS
     name: "&5Giày Bá Chủ Ngục Tù &e&lIV"
     max-durability: 9000
@@ -4413,6 +4588,7 @@ BOOTS_BA_CHU_NGUC_TU_4:
 
 BOOTS_BA_CHU_NGUC_TU_5:
   base:
+    revision-id: 1
     material: NETHERITE_BOOTS
     name: "&5Giày Bá Chủ Ngục Tù &e&lV"
     max-durability: 9000
@@ -4442,6 +4618,7 @@ BOOTS_BA_CHU_NGUC_TU_5:
 
 BOOTS_VUOT_NGUC_1:
   base:
+    revision-id: 1
     material: NETHERITE_BOOTS
     name: "&4Giày Vượt Ngục &e&lI"
     max-durability: 12000
@@ -4471,6 +4648,7 @@ BOOTS_VUOT_NGUC_1:
 
 BOOTS_VUOT_NGUC_2:
   base:
+    revision-id: 1
     material: NETHERITE_BOOTS
     name: "&4Giày Vượt Ngục &e&lII"
     max-durability: 12000
@@ -4500,6 +4678,7 @@ BOOTS_VUOT_NGUC_2:
 
 BOOTS_VUOT_NGUC_3:
   base:
+    revision-id: 1
     material: NETHERITE_BOOTS
     name: "&4Giày Vượt Ngục &e&lIII"
     max-durability: 12000
@@ -4529,6 +4708,7 @@ BOOTS_VUOT_NGUC_3:
 
 BOOTS_VUOT_NGUC_4:
   base:
+    revision-id: 1
     material: NETHERITE_BOOTS
     name: "&4Giày Vượt Ngục &e&lIV"
     max-durability: 12000
@@ -4558,6 +4738,7 @@ BOOTS_VUOT_NGUC_4:
 
 BOOTS_VUOT_NGUC_5:
   base:
+    revision-id: 1
     material: NETHERITE_BOOTS
     name: "&4Giày Vượt Ngục &e&lV"
     max-durability: 12000
@@ -4585,3 +4766,1400 @@ BOOTS_VUOT_NGUC_5:
     will-break: false
     unbreakable: false
 
+# ============================================================
+# DONATE ARMOR — Dòng Long Tộc Thiên Giới
+# ============================================================
+
+# --- HỘ LONG (Cấp 1 - RARE) ---
+
+DONATE_HELMET_LONG_VE:
+  base:
+    revision-id: 1
+    material: LEATHER_HELMET
+    custom-model-data: 10029
+    itemsadder-item: "littledragonset:littledragonhelmet"
+    dye-color: "255 203 68"
+    hide-dye: true
+    name: "&a&l✦ Hộ Long Giáp Miện"
+    max-durability: 20000
+    tier: RARE
+    set: LONG_VE_SET
+    hide-enchants: true
+    lore-format: armor-lore
+    lore:
+      - "&a&l✦ Long Tộc Thiên Giới"
+      - "&7 &a●&7 Giáp miện rèn từ Vảy Rồng Hộ Vệ"
+      - "&7 &a●&7 Bảo hộ người đội, tăng cường sinh lực"
+    armor: 28.8
+    max-health: 46.0
+    armor-toughness: 9.6
+    defense: 9.2
+    gem-sockets:
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
+    upgrade:
+      template: armor-upgrade-template
+      max: 100
+    will-break: false
+    unbreakable: false
+
+DONATE_CHESTPLATE_LONG_VE:
+  base:
+    revision-id: 1
+    material: LEATHER_CHESTPLATE
+    custom-model-data: 10037
+    itemsadder-item: "littledragonset:littledragonchestplate"
+    dye-color: "255 203 68"
+    hide-dye: true
+    name: "&a&l✦ Hộ Long Chiến Giáp"
+    max-durability: 20000
+    tier: RARE
+    set: LONG_VE_SET
+    hide-enchants: true
+    lore-format: armor-lore
+    lore:
+      - "&a&l✦ Long Tộc Thiên Giới"
+      - "&7 &a●&7 Chiến giáp tôi luyện từ Vảy Rồng Hộ Vệ"
+      - "&7 &a●&7 Phòng ngự kiên cố, bất khả xâm phạm"
+    armor: 50.4
+    max-health: 80.5
+    armor-toughness: 16.8
+    defense: 16.1
+    gem-sockets:
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
+    upgrade:
+      template: armor-upgrade-template
+      max: 100
+    will-break: false
+    unbreakable: false
+
+DONATE_LEGGINGS_LONG_VE:
+  base:
+    revision-id: 1
+    material: LEATHER_LEGGINGS
+    custom-model-data: 10037
+    itemsadder-item: "littledragonset:littledragonleggings"
+    dye-color: "255 203 68"
+    hide-dye: true
+    name: "&a&l✦ Hộ Long Hộ Tất"
+    max-durability: 20000
+    tier: RARE
+    set: LONG_VE_SET
+    hide-enchants: true
+    lore-format: armor-lore
+    lore:
+      - "&a&l✦ Long Tộc Thiên Giới"
+      - "&7 &a●&7 Hộ tất rèn từ Vảy Rồng Hộ Vệ"
+      - "&7 &a●&7 Bảo vệ đôi chân, tăng cường sức bền"
+    armor: 36.0
+    max-health: 57.5
+    armor-toughness: 12.0
+    defense: 11.5
+    gem-sockets:
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
+    upgrade:
+      template: armor-upgrade-template
+      max: 100
+    will-break: false
+    unbreakable: false
+
+DONATE_BOOTS_LONG_VE:
+  base:
+    revision-id: 1
+    material: LEATHER_BOOTS
+    custom-model-data: 10037
+    itemsadder-item: "littledragonset:littledragonboots"
+    dye-color: "255 203 68"
+    hide-dye: true
+    name: "&a&l✦ Hộ Long Chiến Hài"
+    max-durability: 20000
+    tier: RARE
+    set: LONG_VE_SET
+    hide-enchants: true
+    lore-format: armor-lore
+    lore:
+      - "&a&l✦ Long Tộc Thiên Giới"
+      - "&7 &a●&7 Chiến hài rèn từ Vảy Rồng Hộ Vệ"
+      - "&7 &a●&7 Bước đi vững chãi, nhanh nhẹn"
+    armor: 28.8
+    max-health: 46.0
+    armor-toughness: 9.6
+    defense: 9.2
+    movement-speed: 0.042
+    gem-sockets:
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
+    upgrade:
+      template: armor-upgrade-template
+      max: 100
+    will-break: false
+    unbreakable: false
+
+# --- CHIẾN LONG (Cấp 2 - VERY_RARE) ---
+
+DONATE_HELMET_LONG_CHIEN:
+  base:
+    revision-id: 1
+    material: LEATHER_HELMET
+    custom-model-data: 10012
+    itemsadder-item: "spartan_set:spartanhelmet"
+    dye-color: "58 48 48"
+    hide-dye: true
+    name: "&e&l⚔ Chiến Long Giáp Miện"
+    max-durability: 20000
+    tier: VERY_RARE
+    set: LONG_CHIEN_SET
+    hide-enchants: true
+    lore-format: armor-lore
+    lore:
+      - "&e&l⚔ Long Tộc Thiên Giới"
+      - "&7 &e●&7 Giáp miện rèn từ Nanh Rồng Chiến"
+      - "&7 &e●&7 Kẻ đội lên sẽ có tinh thần chiến đấu bất diệt"
+    armor: 33.4
+    max-health: 53.4
+    armor-toughness: 11.2
+    defense: 10.6
+    gem-sockets:
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
+    upgrade:
+      template: armor-upgrade-template
+      max: 100
+    will-break: false
+    unbreakable: false
+
+DONATE_CHESTPLATE_LONG_CHIEN:
+  base:
+    revision-id: 1
+    material: LEATHER_CHESTPLATE
+    custom-model-data: 10016
+    itemsadder-item: "spartan_set:spartanchestplate"
+    dye-color: "58 48 48"
+    hide-dye: true
+    name: "&e&l⚔ Chiến Long Cuồng Giáp"
+    max-durability: 20000
+    tier: VERY_RARE
+    set: LONG_CHIEN_SET
+    hide-enchants: true
+    lore-format: armor-lore
+    lore:
+      - "&e&l⚔ Long Tộc Thiên Giới"
+      - "&7 &e●&7 Cuồng giáp tôi luyện từ Nanh Rồng Chiến"
+      - "&7 &e●&7 Mỗi lần bị đánh, sức mạnh càng tăng"
+    armor: 58.5
+    max-health: 93.5
+    armor-toughness: 19.6
+    defense: 18.6
+    gem-sockets:
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
+    upgrade:
+      template: armor-upgrade-template
+      max: 100
+    will-break: false
+    unbreakable: false
+
+DONATE_LEGGINGS_LONG_CHIEN:
+  base:
+    revision-id: 1
+    material: LEATHER_LEGGINGS
+    custom-model-data: 10016
+    itemsadder-item: "spartan_set:spartanleggings"
+    dye-color: "58 48 48"
+    hide-dye: true
+    name: "&e&l⚔ Chiến Long Hộ Tất"
+    max-durability: 20000
+    tier: VERY_RARE
+    set: LONG_CHIEN_SET
+    hide-enchants: true
+    lore-format: armor-lore
+    lore:
+      - "&e&l⚔ Long Tộc Thiên Giới"
+      - "&7 &e●&7 Hộ tất rèn từ Nanh Rồng Chiến"
+      - "&7 &e●&7 Gia cố đôi chân, vững như bàn thạch"
+    armor: 41.8
+    max-health: 66.8
+    armor-toughness: 14.0
+    defense: 13.3
+    gem-sockets:
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
+    upgrade:
+      template: armor-upgrade-template
+      max: 100
+    will-break: false
+    unbreakable: false
+
+DONATE_BOOTS_LONG_CHIEN:
+  base:
+    revision-id: 1
+    material: LEATHER_BOOTS
+    custom-model-data: 10016
+    itemsadder-item: "spartan_set:spartanboots"
+    dye-color: "58 48 48"
+    hide-dye: true
+    name: "&e&l⚔ Chiến Long Phong Hài"
+    max-durability: 20000
+    tier: VERY_RARE
+    set: LONG_CHIEN_SET
+    hide-enchants: true
+    lore-format: armor-lore
+    lore:
+      - "&e&l⚔ Long Tộc Thiên Giới"
+      - "&7 &e●&7 Phong hài rèn từ Nanh Rồng Chiến"
+      - "&7 &e●&7 Bước chân cuồng nộ, đạp đất vang trời"
+    armor: 33.4
+    max-health: 53.4
+    armor-toughness: 11.2
+    defense: 10.6
+    movement-speed: 0.046
+    gem-sockets:
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
+    upgrade:
+      template: armor-upgrade-template
+      max: 100
+    will-break: false
+    unbreakable: false
+
+# --- THẦN LONG (Cấp 3 - LEGENDARY) ---
+
+DONATE_HELMET_LONG_THAN:
+  base:
+    revision-id: 1
+    material: LEATHER_HELMET
+    custom-model-data: 10018
+    itemsadder-item: "azureset:azurehelmet"
+    dye-color: "39 77 154"
+    hide-dye: true
+    name: "&b&l✦ Thần Long Giáp Miện"
+    max-durability: 20000
+    tier: LEGENDARY
+    set: LONG_THAN_SET
+    hide-enchants: true
+    lore-format: armor-lore
+    lore:
+      - "&b&l✦ Long Tộc Thiên Giới"
+      - "&7 &b●&7 Giáp miện ngưng tụ từ Tinh Hoa Long Thần"
+      - "&7 &b●&7 Vương miện của bậc thần thánh"
+    armor: 38.8
+    max-health: 62.0
+    armor-toughness: 13.2
+    defense: 12.4
+    gem-sockets:
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
+    upgrade:
+      template: armor-upgrade-template
+      max: 100
+    will-break: false
+    unbreakable: false
+
+DONATE_CHESTPLATE_LONG_THAN:
+  base:
+    revision-id: 1
+    material: LEATHER_CHESTPLATE
+    custom-model-data: 10024
+    itemsadder-item: "azureset:azurechestplate"
+    dye-color: "39 77 154"
+    hide-dye: true
+    name: "&b&l✦ Thần Long Thánh Giáp"
+    max-durability: 20000
+    tier: LEGENDARY
+    set: LONG_THAN_SET
+    hide-enchants: true
+    lore-format: armor-lore
+    lore:
+      - "&b&l✦ Long Tộc Thiên Giới"
+      - "&7 &b●&7 Thánh giáp chứa đựng quyền năng Long Thần"
+      - "&7 &b●&7 Phòng ngự tuyệt đối, không lực nào phá vỡ"
+    armor: 67.9
+    max-health: 108.5
+    armor-toughness: 23.1
+    defense: 21.7
+    gem-sockets:
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
+    upgrade:
+      template: armor-upgrade-template
+      max: 100
+    will-break: false
+    unbreakable: false
+
+DONATE_LEGGINGS_LONG_THAN:
+  base:
+    revision-id: 1
+    material: LEATHER_LEGGINGS
+    custom-model-data: 10024
+    itemsadder-item: "azureset:azureleggings"
+    dye-color: "39 77 154"
+    hide-dye: true
+    name: "&b&l✦ Thần Long Hộ Tất"
+    max-durability: 20000
+    tier: LEGENDARY
+    set: LONG_THAN_SET
+    hide-enchants: true
+    lore-format: armor-lore
+    lore:
+      - "&b&l✦ Long Tộc Thiên Giới"
+      - "&7 &b●&7 Hộ tất ngưng tụ từ Tinh Hoa Long Thần"
+      - "&7 &b●&7 Bảo vệ toàn diện, linh hoạt phi thường"
+    armor: 48.5
+    max-health: 77.5
+    armor-toughness: 16.5
+    defense: 15.5
+    gem-sockets:
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
+    upgrade:
+      template: armor-upgrade-template
+      max: 100
+    will-break: false
+    unbreakable: false
+
+DONATE_BOOTS_LONG_THAN:
+  base:
+    revision-id: 1
+    material: LEATHER_BOOTS
+    custom-model-data: 10024
+    itemsadder-item: "azureset:azureboots"
+    dye-color: "39 77 154"
+    hide-dye: true
+    name: "&b&l✦ Thần Long Vân Hài"
+    max-durability: 20000
+    tier: LEGENDARY
+    set: LONG_THAN_SET
+    hide-enchants: true
+    lore-format: armor-lore
+    lore:
+      - "&b&l✦ Long Tộc Thiên Giới"
+      - "&7 &b●&7 Vân hài cưỡi gió của Long Thần"
+      - "&7 &b●&7 Bước đi trên mây, nhanh như tia chớp"
+    armor: 38.8
+    max-health: 62.0
+    armor-toughness: 13.2
+    defense: 12.4
+    movement-speed: 0.050
+    gem-sockets:
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
+    upgrade:
+      template: armor-upgrade-template
+      max: 100
+    will-break: false
+    unbreakable: false
+
+# --- ĐẾ LONG (Cấp 4 - EPIC) ---
+
+DONATE_HELMET_LONG_DE:
+  base:
+    revision-id: 1
+    material: LEATHER_HELMET
+    custom-model-data: 10032
+    itemsadder-item: "demon_edgeset:demon_edgehelmet"
+    dye-color: "171 23 79"
+    hide-dye: true
+    name: "&4&l◆ Đế Long Giáp Miện"
+    max-durability: 20000
+    tier: EPIC
+    set: LONG_DE_SET
+    hide-enchants: true
+    lore-format: armor-lore
+    lore:
+      - "&4&l◆ Long Tộc Thiên Giới"
+      - "&7 &4●&7 Giáp miện tôi luyện trong Hỏa Ngục Rồng Đế"
+      - "&7 &4●&7 Vương miện đế vương, uy nghiêm vạn cõi"
+    armor: 45.0
+    max-health: 71.8
+    armor-toughness: 15.2
+    defense: 14.4
+    gem-sockets:
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
+    upgrade:
+      template: armor-upgrade-template
+      max: 100
+    will-break: false
+    unbreakable: false
+
+DONATE_CHESTPLATE_LONG_DE:
+  base:
+    revision-id: 1
+    material: LEATHER_CHESTPLATE
+    custom-model-data: 10040
+    itemsadder-item: "demon_edgeset:demon_edgechestplate"
+    dye-color: "171 23 79"
+    hide-dye: true
+    name: "&4&l◆ Đế Long Diệt Giáp"
+    max-durability: 20000
+    tier: EPIC
+    set: LONG_DE_SET
+    hide-enchants: true
+    lore-format: armor-lore
+    lore:
+      - "&4&l◆ Long Tộc Thiên Giới"
+      - "&7 &4●&7 Diệt giáp hun đúc từ Hỏa Ngục Rồng Đế"
+      - "&7 &4●&7 Hủy diệt mọi sát thương, bất khả chiến bại"
+    armor: 78.8
+    max-health: 125.7
+    armor-toughness: 26.6
+    defense: 25.2
+    gem-sockets:
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
+    upgrade:
+      template: armor-upgrade-template
+      max: 100
+    will-break: false
+    unbreakable: false
+
+DONATE_LEGGINGS_LONG_DE:
+  base:
+    revision-id: 1
+    material: LEATHER_LEGGINGS
+    custom-model-data: 10040
+    itemsadder-item: "demon_edgeset:demon_edgeleggings"
+    dye-color: "171 23 79"
+    hide-dye: true
+    name: "&4&l◆ Đế Long Hộ Tất"
+    max-durability: 20000
+    tier: EPIC
+    set: LONG_DE_SET
+    hide-enchants: true
+    lore-format: armor-lore
+    lore:
+      - "&4&l◆ Long Tộc Thiên Giới"
+      - "&7 &4●&7 Hộ tất tôi luyện trong Hỏa Ngục Rồng Đế"
+      - "&7 &4●&7 Gia cố tuyệt đối, không thế lực nào xuyên thủng"
+    armor: 56.3
+    max-health: 89.8
+    armor-toughness: 19.0
+    defense: 18.0
+    gem-sockets:
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
+    upgrade:
+      template: armor-upgrade-template
+      max: 100
+    will-break: false
+    unbreakable: false
+
+DONATE_BOOTS_LONG_DE:
+  base:
+    revision-id: 1
+    material: LEATHER_BOOTS
+    custom-model-data: 10040
+    itemsadder-item: "demon_edgeset:demon_edgeboots"
+    dye-color: "171 23 79"
+    hide-dye: true
+    name: "&4&l◆ Đế Long Liệt Hài"
+    max-durability: 20000
+    tier: EPIC
+    set: LONG_DE_SET
+    hide-enchants: true
+    lore-format: armor-lore
+    lore:
+      - "&4&l◆ Long Tộc Thiên Giới"
+      - "&7 &4●&7 Liệt hài hun đúc từ Hỏa Ngục Rồng Đế"
+      - "&7 &4●&7 Mỗi bước chân rung chuyển đại địa"
+    armor: 45.0
+    max-health: 71.8
+    armor-toughness: 15.2
+    defense: 14.4
+    movement-speed: 0.055
+    gem-sockets:
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
+    upgrade:
+      template: armor-upgrade-template
+      max: 100
+    will-break: false
+    unbreakable: false
+
+# --- HOÀNG LONG THIÊN (Cấp 5 - UNIQUE) ---
+
+DONATE_HELMET_LONG_HOANG:
+  base:
+    revision-id: 1
+    material: LEATHER_HELMET
+    custom-model-data: 10022
+    itemsadder-item: "royal_crystal:royal_crystahelmet"
+    dye-color: "83 225 255"
+    hide-dye: true
+    name: "&c&l★ Hoàng Long Thiên Miện"
+    max-durability: 20000
+    tier: UNIQUE
+    set: LONG_HOANG_SET
+    hide-enchants: true
+    lore-format: armor-lore
+    lore:
+      - "&c&l★ Huyền Thoại Long Tộc"
+      - "&7 &c●&7 Thiên miện tối thượng của Hoàng Long"
+      - "&7 &c●&7 Chỉ bậc đế vương mới xứng đội lên đầu"
+    armor: 52.4
+    max-health: 83.4
+    armor-toughness: 17.8
+    defense: 16.8
+    gem-sockets:
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
+    upgrade:
+      template: armor-upgrade-template
+      max: 100
+    will-break: false
+    unbreakable: false
+
+DONATE_CHESTPLATE_LONG_HOANG:
+  base:
+    revision-id: 1
+    material: LEATHER_CHESTPLATE
+    custom-model-data: 10029
+    itemsadder-item: "royal_crystal:royal_crystachestplate"
+    dye-color: "83 225 255"
+    hide-dye: true
+    name: "&c&l★ Hoàng Long Thiên Giáp"
+    max-durability: 20000
+    tier: UNIQUE
+    set: LONG_HOANG_SET
+    hide-enchants: true
+    lore-format: armor-lore
+    lore:
+      - "&c&l★ Huyền Thoại Long Tộc"
+      - "&7 &c●&7 Thiên giáp rèn từ Vảy Rồng Hoàng Kim"
+      - "&7 &c●&7 Phòng ngự tối thượng, vô song thiên hạ"
+    armor: 91.7
+    max-health: 146.0
+    armor-toughness: 31.1
+    defense: 29.4
+    gem-sockets:
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
+    upgrade:
+      template: armor-upgrade-template
+      max: 100
+    will-break: false
+    unbreakable: false
+
+DONATE_LEGGINGS_LONG_HOANG:
+  base:
+    revision-id: 1
+    material: LEATHER_LEGGINGS
+    custom-model-data: 10029
+    itemsadder-item: "royal_crystal:royal_crystaleggings"
+    dye-color: "83 225 255"
+    hide-dye: true
+    name: "&c&l★ Hoàng Long Thiên Hộ Tất"
+    max-durability: 20000
+    tier: UNIQUE
+    set: LONG_HOANG_SET
+    hide-enchants: true
+    lore-format: armor-lore
+    lore:
+      - "&c&l★ Huyền Thoại Long Tộc"
+      - "&7 &c●&7 Thiên hộ tất rèn từ Vảy Rồng Hoàng Kim"
+      - "&7 &c●&7 Bảo vệ tuyệt đối, bất khả xâm phạm"
+    armor: 65.5
+    max-health: 104.3
+    armor-toughness: 22.3
+    defense: 21.0
+    gem-sockets:
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
+    upgrade:
+      template: armor-upgrade-template
+      max: 100
+    will-break: false
+    unbreakable: false
+
+DONATE_BOOTS_LONG_HOANG:
+  base:
+    revision-id: 1
+    material: LEATHER_BOOTS
+    custom-model-data: 10029
+    itemsadder-item: "royal_crystal:royal_crystaboots"
+    dye-color: "83 225 255"
+    hide-dye: true
+    name: "&c&l★ Hoàng Long Thiên Hài"
+    max-durability: 20000
+    tier: UNIQUE
+    set: LONG_HOANG_SET
+    hide-enchants: true
+    lore-format: armor-lore
+    lore:
+      - "&c&l★ Huyền Thoại Long Tộc"
+      - "&7 &c●&7 Thiên hài rèn từ Vảy Rồng Hoàng Kim"
+      - "&7 &c●&7 Đạp gió cưỡi mây, nhanh hơn ánh sáng"
+    armor: 52.4
+    max-health: 83.4
+    armor-toughness: 17.8
+    defense: 16.8
+    movement-speed: 0.060
+    gem-sockets:
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
+    upgrade:
+      template: armor-upgrade-template
+      max: 100
+    will-break: false
+    unbreakable: false
+
+# ============================================================
+# TRADE ARMOR — Dòng Long Tộc Trần Thế
+# ============================================================
+
+# --- HỎA LONG (Cấp 1 - RARE) ---
+
+TRADE_HELMET_HOA_LONG:
+  base:
+    revision-id: 1
+    material: LEATHER_HELMET
+    custom-model-data: 10015
+    itemsadder-item: "firework_set:fireworkhelmet"
+    dye-color: "107 0 20"
+    hide-dye: true
+    name: "&6✦ Hỏa Long Giáp Miện"
+    max-durability: 18000
+    tier: RARE
+    set: HOA_LONG_SET
+    hide-enchants: true
+    lore-format: armor-lore
+    lore:
+      - "&6✦ Long Tộc Trần Thế"
+      - "&7 &6●&7 Giáp miện rèn từ ngọn lửa Hỏa Long"
+      - "&7 &6●&7 Bảo vệ đầu, tăng cường khả năng chịu đựng"
+    armor: 25.0
+    max-health: 40.0
+    armor-toughness: 8.4
+    defense: 8.0
+    gem-sockets:
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
+    upgrade:
+      template: armor-upgrade-template
+      max: 100
+    will-break: false
+    unbreakable: false
+
+TRADE_CHESTPLATE_HOA_LONG:
+  base:
+    revision-id: 1
+    material: LEATHER_CHESTPLATE
+    custom-model-data: 10020
+    itemsadder-item: "firework_set:fireworkchestplate"
+    dye-color: "107 0 20"
+    hide-dye: true
+    name: "&6✦ Hỏa Long Chiến Giáp"
+    max-durability: 18000
+    tier: RARE
+    set: HOA_LONG_SET
+    hide-enchants: true
+    lore-format: armor-lore
+    lore:
+      - "&6✦ Long Tộc Trần Thế"
+      - "&7 &6●&7 Chiến giáp rèn từ ngọn lửa Hỏa Long"
+      - "&7 &6●&7 Lửa cháy bảo hộ, kẻ thù không dám đến gần"
+    armor: 43.8
+    max-health: 70.0
+    armor-toughness: 14.7
+    defense: 14.0
+    gem-sockets:
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
+    upgrade:
+      template: armor-upgrade-template
+      max: 100
+    will-break: false
+    unbreakable: false
+
+TRADE_LEGGINGS_HOA_LONG:
+  base:
+    revision-id: 1
+    material: LEATHER_LEGGINGS
+    custom-model-data: 10020
+    itemsadder-item: "firework_set:fireworkleggings"
+    dye-color: "107 0 20"
+    hide-dye: true
+    name: "&6✦ Hỏa Long Hộ Tất"
+    max-durability: 18000
+    tier: RARE
+    set: HOA_LONG_SET
+    hide-enchants: true
+    lore-format: armor-lore
+    lore:
+      - "&6✦ Long Tộc Trần Thế"
+      - "&7 &6●&7 Hộ tất rèn từ ngọn lửa Hỏa Long"
+      - "&7 &6●&7 Bảo vệ đôi chân trong lửa chiến"
+    armor: 31.3
+    max-health: 50.0
+    armor-toughness: 10.5
+    defense: 10.0
+    gem-sockets:
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
+    upgrade:
+      template: armor-upgrade-template
+      max: 100
+    will-break: false
+    unbreakable: false
+
+TRADE_BOOTS_HOA_LONG:
+  base:
+    revision-id: 1
+    material: LEATHER_BOOTS
+    custom-model-data: 10020
+    itemsadder-item: "firework_set:fireworkboots"
+    dye-color: "107 0 20"
+    hide-dye: true
+    name: "&6✦ Hỏa Long Hỏa Hài"
+    max-durability: 18000
+    tier: RARE
+    set: HOA_LONG_SET
+    hide-enchants: true
+    lore-format: armor-lore
+    lore:
+      - "&6✦ Long Tộc Trần Thế"
+      - "&7 &6●&7 Hỏa hài rèn từ ngọn lửa Hỏa Long"
+      - "&7 &6●&7 Bước đi để lại vệt lửa trên mặt đất"
+    armor: 25.0
+    max-health: 40.0
+    armor-toughness: 8.4
+    defense: 8.0
+    movement-speed: 0.038
+    gem-sockets:
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
+    upgrade:
+      template: armor-upgrade-template
+      max: 100
+    will-break: false
+    unbreakable: false
+
+# --- BĂNG LONG (Cấp 2 - VERY_RARE) ---
+
+TRADE_HELMET_BANG_LONG:
+  base:
+    revision-id: 1
+    material: LEATHER_HELMET
+    custom-model-data: 10020
+    itemsadder-item: "mysticcyanset:mysticcyanhelmet"
+    dye-color: "14 175 155"
+    hide-dye: true
+    name: "&3&l✦ Băng Long Giáp Miện"
+    max-durability: 18000
+    tier: VERY_RARE
+    set: BANG_LONG_SET
+    hide-enchants: true
+    lore-format: armor-lore
+    lore:
+      - "&3&l✦ Long Tộc Trần Thế"
+      - "&7 &3●&7 Giáp miện kết tinh từ Hơi Thở Băng Long"
+      - "&7 &3●&7 Giá lạnh vĩnh cửu bảo hộ người đội"
+    armor: 29.0
+    max-health: 46.4
+    armor-toughness: 9.8
+    defense: 9.2
+    gem-sockets:
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
+    upgrade:
+      template: armor-upgrade-template
+      max: 100
+    will-break: false
+    unbreakable: false
+
+TRADE_CHESTPLATE_BANG_LONG:
+  base:
+    revision-id: 1
+    material: LEATHER_CHESTPLATE
+    custom-model-data: 10027
+    itemsadder-item: "mysticcyanset:mysticcyanchestplate"
+    dye-color: "14 175 155"
+    hide-dye: true
+    name: "&3&l✦ Băng Long Hàn Giáp"
+    max-durability: 18000
+    tier: VERY_RARE
+    set: BANG_LONG_SET
+    hide-enchants: true
+    lore-format: armor-lore
+    lore:
+      - "&3&l✦ Long Tộc Trần Thế"
+      - "&7 &3●&7 Hàn giáp kết tinh từ Hơi Thở Băng Long"
+      - "&7 &3●&7 Đóng băng mọi sát thương đến gần"
+    armor: 50.8
+    max-health: 81.2
+    armor-toughness: 17.2
+    defense: 16.1
+    gem-sockets:
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
+    upgrade:
+      template: armor-upgrade-template
+      max: 100
+    will-break: false
+    unbreakable: false
+
+TRADE_LEGGINGS_BANG_LONG:
+  base:
+    revision-id: 1
+    material: LEATHER_LEGGINGS
+    custom-model-data: 10027
+    itemsadder-item: "mysticcyanset:mysticcyanleggings"
+    dye-color: "14 175 155"
+    hide-dye: true
+    name: "&3&l✦ Băng Long Hộ Tất"
+    max-durability: 18000
+    tier: VERY_RARE
+    set: BANG_LONG_SET
+    hide-enchants: true
+    lore-format: armor-lore
+    lore:
+      - "&3&l✦ Long Tộc Trần Thế"
+      - "&7 &3●&7 Hộ tất kết tinh từ Hơi Thở Băng Long"
+      - "&7 &3●&7 Băng giá bảo vệ, không gì xuyên thấu"
+    armor: 36.3
+    max-health: 58.0
+    armor-toughness: 12.2
+    defense: 11.5
+    gem-sockets:
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
+    upgrade:
+      template: armor-upgrade-template
+      max: 100
+    will-break: false
+    unbreakable: false
+
+TRADE_BOOTS_BANG_LONG:
+  base:
+    revision-id: 1
+    material: LEATHER_BOOTS
+    custom-model-data: 10027
+    itemsadder-item: "mysticcyanset:mysticcyanboots"
+    dye-color: "14 175 155"
+    hide-dye: true
+    name: "&3&l✦ Băng Long Hàn Hài"
+    max-durability: 18000
+    tier: VERY_RARE
+    set: BANG_LONG_SET
+    hide-enchants: true
+    lore-format: armor-lore
+    lore:
+      - "&3&l✦ Long Tộc Trần Thế"
+      - "&7 &3●&7 Hàn hài kết tinh từ Hơi Thở Băng Long"
+      - "&7 &3●&7 Bước đi để lại sương giá, đóng băng mặt đất"
+    armor: 29.0
+    max-health: 46.4
+    armor-toughness: 9.8
+    defense: 9.2
+    movement-speed: 0.042
+    gem-sockets:
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
+    upgrade:
+      template: armor-upgrade-template
+      max: 100
+    will-break: false
+    unbreakable: false
+
+# --- LÔI LONG (Cấp 3 - UNIQUE) ---
+
+TRADE_HELMET_LOI_LONG:
+  base:
+    revision-id: 1
+    material: PAPER
+    custom-model-data: 10353
+    itemsadder-item: "elitecreatures:king_arthur_animated_weapon_set_helmet"
+    dye-color: "140 25 107"
+    hide-dye: true
+    name: "&e&l⚡ Lôi Long Giáp Miện"
+    max-durability: 18000
+    tier: UNIQUE
+    set: LOI_LONG_SET
+    hide-enchants: true
+    lore-format: armor-lore
+    lore:
+      - "&e&l⚡ Long Tộc Trần Thế"
+      - "&7 &e●&7 Giáp miện chứa đựng Sấm Sét Lôi Long"
+      - "&7 &e●&7 Sấm sét bảo hộ, phản đòn kẻ tấn công"
+    armor: 45.6
+    max-health: 72.4
+    armor-toughness: 15.4
+    defense: 14.6
+    gem-sockets:
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
+    upgrade:
+      template: armor-upgrade-template
+      max: 100
+    will-break: false
+    unbreakable: false
+
+TRADE_CHESTPLATE_LOI_LONG:
+  base:
+    revision-id: 1
+    material: LEATHER_CHESTPLATE
+    custom-model-data: 10031
+    itemsadder-item: "elitecreatures:king_arthur_animated_weapon_set_chestplate"
+    dye-color: "140 25 107"
+    hide-dye: true
+    name: "&e&l⚡ Lôi Long Chấn Giáp"
+    max-durability: 18000
+    tier: UNIQUE
+    set: LOI_LONG_SET
+    hide-enchants: true
+    lore-format: armor-lore
+    lore:
+      - "&e&l⚡ Long Tộc Trần Thế"
+      - "&7 &e●&7 Chấn giáp chứa đựng Sấm Sét Lôi Long"
+      - "&7 &e●&7 Mỗi đòn đánh vào sẽ bị phản lại bởi sấm sét"
+    armor: 79.8
+    max-health: 126.7
+    armor-toughness: 26.9
+    defense: 25.6
+    gem-sockets:
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
+    upgrade:
+      template: armor-upgrade-template
+      max: 100
+    will-break: false
+    unbreakable: false
+
+TRADE_LEGGINGS_LOI_LONG:
+  base:
+    revision-id: 1
+    material: LEATHER_LEGGINGS
+    custom-model-data: 10031
+    itemsadder-item: "elitecreatures:king_arthur_animated_weapon_set_leggings"
+    dye-color: "140 25 107"
+    hide-dye: true
+    name: "&e&l⚡ Lôi Long Hộ Tất"
+    max-durability: 18000
+    tier: UNIQUE
+    set: LOI_LONG_SET
+    hide-enchants: true
+    lore-format: armor-lore
+    lore:
+      - "&e&l⚡ Long Tộc Trần Thế"
+      - "&7 &e●&7 Hộ tất chứa đựng Sấm Sét Lôi Long"
+      - "&7 &e●&7 Điện quang bao bọc, bảo vệ toàn diện"
+    armor: 57.0
+    max-health: 90.5
+    armor-toughness: 19.3
+    defense: 18.3
+    gem-sockets:
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
+    upgrade:
+      template: armor-upgrade-template
+      max: 100
+    will-break: false
+    unbreakable: false
+
+TRADE_BOOTS_LOI_LONG:
+  base:
+    revision-id: 1
+    material: LEATHER_BOOTS
+    custom-model-data: 10031
+    itemsadder-item: "elitecreatures:king_arthur_animated_weapon_set_boots"
+    dye-color: "140 25 107"
+    hide-dye: true
+    name: "&e&l⚡ Lôi Long Chấn Hài"
+    max-durability: 18000
+    tier: UNIQUE
+    set: LOI_LONG_SET
+    hide-enchants: true
+    lore-format: armor-lore
+    lore:
+      - "&e&l⚡ Long Tộc Trần Thế"
+      - "&7 &e●&7 Chấn hài chứa đựng Sấm Sét Lôi Long"
+      - "&7 &e●&7 Mỗi bước chân phát ra tia sét"
+    armor: 45.6
+    max-health: 72.4
+    armor-toughness: 15.4
+    defense: 14.6
+    movement-speed: 0.055
+    gem-sockets:
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
+    upgrade:
+      template: armor-upgrade-template
+      max: 100
+    will-break: false
+    unbreakable: false
+
+# --- PHONG LONG (Cấp 4 - EPIC) ---
+
+TRADE_HELMET_PHONG_LONG:
+  base:
+    revision-id: 1
+    material: LEATHER_HELMET
+    custom-model-data: 10016
+    itemsadder-item: "nanoedge_set:nanoedgehelmet"
+    dye-color: "105 169 58"
+    hide-dye: true
+    name: "&2&l✦ Phong Long Giáp Miện"
+    max-durability: 18000
+    tier: EPIC
+    set: PHONG_LONG_SET
+    hide-enchants: true
+    lore-format: armor-lore
+    lore:
+      - "&2&l✦ Long Tộc Trần Thế"
+      - "&7 &2●&7 Giáp miện cuốn theo Cuồng Phong Phong Long"
+      - "&7 &2●&7 Gió cuốn bảo hộ, né tránh mọi đòn đánh"
+    armor: 39.0
+    max-health: 62.4
+    armor-toughness: 13.2
+    defense: 12.6
+    gem-sockets:
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
+    upgrade:
+      template: armor-upgrade-template
+      max: 100
+    will-break: false
+    unbreakable: false
+
+TRADE_CHESTPLATE_PHONG_LONG:
+  base:
+    revision-id: 1
+    material: LEATHER_CHESTPLATE
+    custom-model-data: 10021
+    itemsadder-item: "nanoedge_set:nanoedgechestplate"
+    dye-color: "105 169 58"
+    hide-dye: true
+    name: "&2&l✦ Phong Long Liệt Giáp"
+    max-durability: 18000
+    tier: EPIC
+    set: PHONG_LONG_SET
+    hide-enchants: true
+    lore-format: armor-lore
+    lore:
+      - "&2&l✦ Long Tộc Trần Thế"
+      - "&7 &2●&7 Liệt giáp cuốn theo Cuồng Phong Phong Long"
+      - "&7 &2●&7 Bão tố bao bọc, phòng ngự tuyệt hảo"
+    armor: 68.3
+    max-health: 109.2
+    armor-toughness: 23.1
+    defense: 22.1
+    gem-sockets:
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
+    upgrade:
+      template: armor-upgrade-template
+      max: 100
+    will-break: false
+    unbreakable: false
+
+TRADE_LEGGINGS_PHONG_LONG:
+  base:
+    revision-id: 1
+    material: LEATHER_LEGGINGS
+    custom-model-data: 10021
+    itemsadder-item: "nanoedge_set:nanoedgeleggings"
+    dye-color: "105 169 58"
+    hide-dye: true
+    name: "&2&l✦ Phong Long Hộ Tất"
+    max-durability: 18000
+    tier: EPIC
+    set: PHONG_LONG_SET
+    hide-enchants: true
+    lore-format: armor-lore
+    lore:
+      - "&2&l✦ Long Tộc Trần Thế"
+      - "&7 &2●&7 Hộ tất cuốn theo Cuồng Phong Phong Long"
+      - "&7 &2●&7 Gió cuốn bảo vệ, linh hoạt phi thường"
+    armor: 48.8
+    max-health: 78.0
+    armor-toughness: 16.5
+    defense: 15.8
+    gem-sockets:
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
+    upgrade:
+      template: armor-upgrade-template
+      max: 100
+    will-break: false
+    unbreakable: false
+
+TRADE_BOOTS_PHONG_LONG:
+  base:
+    revision-id: 1
+    material: LEATHER_BOOTS
+    custom-model-data: 10021
+    itemsadder-item: "nanoedge_set:nanoedgeboots"
+    dye-color: "105 169 58"
+    hide-dye: true
+    name: "&2&l✦ Phong Long Phong Hài"
+    max-durability: 18000
+    tier: EPIC
+    set: PHONG_LONG_SET
+    hide-enchants: true
+    lore-format: armor-lore
+    lore:
+      - "&2&l✦ Long Tộc Trần Thế"
+      - "&7 &2●&7 Phong hài cuốn theo Cuồng Phong Phong Long"
+      - "&7 &2●&7 Nhanh như gió cuốn, nhẹ như lông hồng"
+    armor: 39.0
+    max-health: 62.4
+    armor-toughness: 13.2
+    defense: 12.6
+    movement-speed: 0.050
+    gem-sockets:
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
+    upgrade:
+      template: armor-upgrade-template
+      max: 100
+    will-break: false
+    unbreakable: false
+
+# --- HẮC LONG (Cấp 5 - LEGENDARY) ---
+
+TRADE_HELMET_HAC_LONG:
+  base:
+    revision-id: 1
+    material: LEATHER_HELMET
+    custom-model-data: 10002
+    itemsadder-item: "obsidianset:co_helmet"
+    dye-color: "9 0 26"
+    hide-dye: true
+    name: "&5&l◆ Hắc Long Ma Miện"
+    max-durability: 18000
+    tier: LEGENDARY
+    set: HAC_LONG_SET
+    hide-enchants: true
+    lore-format: armor-lore
+    lore:
+      - "&5&l◆ Di Vật Hắc Long"
+      - "&7 &5●&7 Ma miện hun đúc từ linh hồn Hắc Long"
+      - "&7 &5●&7 Nguyền rủa kẻ tấn công, hấp thụ sức mạnh"
+    armor: 33.6
+    max-health: 53.8
+    armor-toughness: 11.4
+    defense: 10.8
+    gem-sockets:
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
+    upgrade:
+      template: armor-upgrade-template
+      max: 100
+    will-break: false
+    unbreakable: false
+
+TRADE_CHESTPLATE_HAC_LONG:
+  base:
+    revision-id: 1
+    material: LEATHER_CHESTPLATE
+    custom-model-data: 10004
+    itemsadder-item: "obsidianset:co_chestplate"
+    dye-color: "9 0 26"
+    hide-dye: true
+    name: "&5&l◆ Hắc Long Ma Giáp"
+    max-durability: 18000
+    tier: LEGENDARY
+    set: HAC_LONG_SET
+    hide-enchants: true
+    lore-format: armor-lore
+    lore:
+      - "&5&l◆ Di Vật Hắc Long"
+      - "&7 &5●&7 Ma giáp hun đúc từ linh hồn Hắc Long"
+      - "&7 &5●&7 Bóng tối bao trùm, hấp thụ mọi sát thương"
+    armor: 58.8
+    max-health: 94.2
+    armor-toughness: 19.9
+    defense: 18.9
+    gem-sockets:
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
+    upgrade:
+      template: armor-upgrade-template
+      max: 100
+    will-break: false
+    unbreakable: false
+
+TRADE_LEGGINGS_HAC_LONG:
+  base:
+    revision-id: 1
+    material: LEATHER_LEGGINGS
+    custom-model-data: 10004
+    itemsadder-item: "obsidianset:co_leggings"
+    dye-color: "9 0 26"
+    hide-dye: true
+    name: "&5&l◆ Hắc Long Ma Tất"
+    max-durability: 18000
+    tier: LEGENDARY
+    set: HAC_LONG_SET
+    hide-enchants: true
+    lore-format: armor-lore
+    lore:
+      - "&5&l◆ Di Vật Hắc Long"
+      - "&7 &5●&7 Ma tất hun đúc từ linh hồn Hắc Long"
+      - "&7 &5●&7 Bóng tối bảo vệ, không gì xuyên thấu"
+    armor: 42.0
+    max-health: 67.3
+    armor-toughness: 14.3
+    defense: 13.5
+    gem-sockets:
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
+    upgrade:
+      template: armor-upgrade-template
+      max: 100
+    will-break: false
+    unbreakable: false
+
+TRADE_BOOTS_HAC_LONG:
+  base:
+    revision-id: 1
+    material: LEATHER_BOOTS
+    custom-model-data: 10004
+    itemsadder-item: "obsidianset:co_boots"
+    dye-color: "9 0 26"
+    hide-dye: true
+    name: "&5&l◆ Hắc Long Ma Hài"
+    max-durability: 18000
+    tier: LEGENDARY
+    set: HAC_LONG_SET
+    hide-enchants: true
+    lore-format: armor-lore
+    lore:
+      - "&5&l◆ Di Vật Hắc Long"
+      - "&7 &5●&7 Ma hài hun đúc từ linh hồn Hắc Long"
+      - "&7 &5●&7 Bước đi trong bóng tối, vô hình trước kẻ thù"
+    armor: 33.6
+    max-health: 53.8
+    armor-toughness: 11.4
+    defense: 10.8
+    movement-speed: 0.046
+    gem-sockets:
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
+    upgrade:
+      template: armor-upgrade-template
+      max: 100
+    will-break: false
+    unbreakable: false

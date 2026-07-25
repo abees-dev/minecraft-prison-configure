@@ -1,5 +1,6 @@
 DA_CUONG_HOA_VU_KHI_SO_CAP:
   base:
+    revision-id: 1
     material: PAPER
     custom-model-data: 10001
     itemsadder-item: "enchanting_stone:enchanting_stone_1"
@@ -20,6 +21,7 @@ DA_CUONG_HOA_VU_KHI_SO_CAP:
 
 DA_CUONG_HOA_VU_KHI_TRUNG_CAP:
   base:
+    revision-id: 1
     material: PAPER
     custom-model-data: 10002
     itemsadder-item: "enchanting_stone:enchanting_stone_2"
@@ -40,6 +42,7 @@ DA_CUONG_HOA_VU_KHI_TRUNG_CAP:
 
 DA_CUONG_HOA_VU_KHI_CAO_CAP:
   base:
+    revision-id: 1
     material: PAPER
     custom-model-data: 10003
     itemsadder-item: "enchanting_stone:enchanting_stone_3"
@@ -60,6 +63,7 @@ DA_CUONG_HOA_VU_KHI_CAO_CAP:
 
 DA_CUONG_HOA_VU_KHI_SIEU_CAP:
   base:
+    revision-id: 1
     material: PAPER
     custom-model-data: 10005
     itemsadder-item: "enchanting_stone:enchanting_stone_4"
@@ -80,6 +84,7 @@ DA_CUONG_HOA_VU_KHI_SIEU_CAP:
 
 DA_CUONG_HOA_VU_KHI_HUYEN_THOAI:
   base:
+    revision-id: 1
     material: PAPER
     custom-model-data: 10006
     itemsadder-item: "enchanting_stone:enchanting_stone_5"
@@ -100,6 +105,7 @@ DA_CUONG_HOA_VU_KHI_HUYEN_THOAI:
 
 DA_CUONG_HOA_GIAP_SO_CAP:
   base:
+    revision-id: 1
     material: PAPER
     custom-model-data: 10004
     itemsadder-item: "toffy_gem:toffy_greengem"
@@ -120,6 +126,7 @@ DA_CUONG_HOA_GIAP_SO_CAP:
 
 DA_CUONG_HOA_GIAP_TRUNG_CAP:
   base:
+    revision-id: 1
     material: PAPER
     custom-model-data: 10007
     itemsadder-item: "toffy_gem:toffy_cyangem"
@@ -140,6 +147,7 @@ DA_CUONG_HOA_GIAP_TRUNG_CAP:
 
 DA_CUONG_HOA_GIAP_CAO_CAP:
   base:
+    revision-id: 1
     material: PAPER
     custom-model-data: 10008
     itemsadder-item: "toffy_gem:toffy_bluegem"
@@ -160,6 +168,7 @@ DA_CUONG_HOA_GIAP_CAO_CAP:
 
 DA_CUONG_HOA_GIAP_SIEU_CAP:
   base:
+    revision-id: 1
     material: PAPER
     custom-model-data: 10013
     itemsadder-item: "toffy_gem:toffy_purplegem"
@@ -180,6 +189,7 @@ DA_CUONG_HOA_GIAP_SIEU_CAP:
 
 DA_CUONG_HOA_GIAP_HUYEN_THOAI:
   base:
+    revision-id: 1
     material: PAPER
     custom-model-data: 10014
     itemsadder-item: "toffy_gem:toffy_redgem"
@@ -200,6 +210,7 @@ DA_CUONG_HOA_GIAP_HUYEN_THOAI:
 
 DA_CUONG_HOA_THIEN_MENH:
   base:
+    revision-id: 1
     material: PAPER
     custom-model-data: 10009
     itemsadder-item: "enchanting_stone:enchanting_stone_6"

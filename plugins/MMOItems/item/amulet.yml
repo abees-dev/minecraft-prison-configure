@@ -1,6 +1,7 @@
 
 LONG_VUONG_AMULET:
   base:
+    revision-id: 1
     material: PAPER
     custom-model-data: 19401
     itemsadder-item: "rings_pack:set1_necklace_1"
@@ -11,6 +12,7 @@ LONG_VUONG_AMULET:
 
 BANG_TINH_AMULET:
   base:
+    revision-id: 1
     material: PAPER
     custom-model-data: 19413
     itemsadder-item: "rings_pack:set2_necklace_2"
@@ -21,6 +23,7 @@ BANG_TINH_AMULET:
 
 HAC_AM_AMULET:
   base:
+    revision-id: 1
     material: PAPER
     custom-model-data: 19415
     itemsadder-item: "rings_pack:set3_necklace_1"
@@ -31,6 +34,7 @@ HAC_AM_AMULET:
 
 LOI_THAN_AMULET:
   base:
+    revision-id: 1
     material: PAPER
     custom-model-data: 19421
     itemsadder-item: "rings_pack:set5_necklace_1"
@@ -41,6 +45,7 @@ LOI_THAN_AMULET:
 
 HOANG_GIA_AMULET:
   base:
+    revision-id: 1
     material: PAPER
     custom-model-data: 19431
     itemsadder-item: "rings_pack:set8_necklace_1"

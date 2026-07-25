@@ -1,6 +1,7 @@
 
 LONG_VUONG_RING_1:
   base:
+    revision-id: 1
     material: PAPER
     custom-model-data: 19201
     itemsadder-item: "rings_pack:set1_ring_1"
@@ -11,6 +12,7 @@ LONG_VUONG_RING_1:
 
 LONG_VUONG_RING_2:
   base:
+    revision-id: 1
     material: PAPER
     custom-model-data: 19202
     itemsadder-item: "rings_pack:set1_ring_2"
@@ -21,6 +23,7 @@ LONG_VUONG_RING_2:
 
 BANG_TINH_RING_1:
   base:
+    revision-id: 1
     material: PAPER
     custom-model-data: 19210
     itemsadder-item: "rings_pack:set2_ring_1"
@@ -31,6 +34,7 @@ BANG_TINH_RING_1:
 
 BANG_TINH_RING_2:
   base:
+    revision-id: 1
     material: PAPER
     custom-model-data: 19211
     itemsadder-item: "rings_pack:set2_ring_2"
@@ -41,6 +45,7 @@ BANG_TINH_RING_2:
 
 HAC_AM_RING_1:
   base:
+    revision-id: 1
     material: PAPER
     custom-model-data: 19220
     itemsadder-item: "rings_pack:set3_ring_1"
@@ -51,6 +56,7 @@ HAC_AM_RING_1:
 
 HAC_AM_RING_2:
   base:
+    revision-id: 1
     material: PAPER
     custom-model-data: 19221
     itemsadder-item: "rings_pack:set3_ring_2"
@@ -61,6 +67,7 @@ HAC_AM_RING_2:
 
 LOI_THAN_RING_1:
   base:
+    revision-id: 1
     material: PAPER
     custom-model-data: 19240
     itemsadder-item: "rings_pack:set5_ring_1"
@@ -71,6 +78,7 @@ LOI_THAN_RING_1:
 
 LOI_THAN_RING_2:
   base:
+    revision-id: 1
     material: PAPER
     custom-model-data: 19241
     itemsadder-item: "rings_pack:set5_ring_2"
@@ -81,6 +89,7 @@ LOI_THAN_RING_2:
 
 HOANG_GIA_RING_1:
   base:
+    revision-id: 1
     material: PAPER
     custom-model-data: 19270
     itemsadder-item: "rings_pack:set8_ring_1"
@@ -91,6 +100,7 @@ HOANG_GIA_RING_1:
 
 HOANG_GIA_RING_2:
   base:
+    revision-id: 1
     material: PAPER
     custom-model-data: 19271
     itemsadder-item: "rings_pack:set8_ring_2"
@@ -102,6 +112,7 @@ HOANG_GIA_RING_2:
 
 LONG_VUONG_AMULET:
   base:
+    revision-id: 1
     material: PAPER
     custom-model-data: 19401
     itemsadder-item: "rings_pack:set1_necklace_1"
@@ -112,6 +123,7 @@ LONG_VUONG_AMULET:
 
 BANG_TINH_AMULET:
   base:
+    revision-id: 1
     material: PAPER
     custom-model-data: 19413
     itemsadder-item: "rings_pack:set2_necklace_2"
@@ -122,6 +134,7 @@ BANG_TINH_AMULET:
 
 HAC_AM_AMULET:
   base:
+    revision-id: 1
     material: PAPER
     custom-model-data: 19415
     itemsadder-item: "rings_pack:set3_necklace_1"
@@ -132,6 +145,7 @@ HAC_AM_AMULET:
 
 LOI_THAN_AMULET:
   base:
+    revision-id: 1
     material: PAPER
     custom-model-data: 19421
     itemsadder-item: "rings_pack:set5_necklace_1"
@@ -142,6 +156,7 @@ LOI_THAN_AMULET:
 
 HOANG_GIA_AMULET:
   base:
+    revision-id: 1
     material: PAPER
     custom-model-data: 19431
     itemsadder-item: "rings_pack:set8_necklace_1"
@@ -153,6 +168,7 @@ HOANG_GIA_AMULET:
 
 LONG_VUONG_BRACELET:
   base:
+    revision-id: 1
     material: PAPER
     custom-model-data: 19205
     itemsadder-item: "rings_pack:set1_ring_5"
@@ -163,6 +179,7 @@ LONG_VUONG_BRACELET:
 
 BANG_TINH_BRACELET:
   base:
+    revision-id: 1
     material: PAPER
     custom-model-data: 19214
     itemsadder-item: "rings_pack:set2_ring_5"
@@ -173,6 +190,7 @@ BANG_TINH_BRACELET:
 
 HAC_AM_BRACELET:
   base:
+    revision-id: 1
     material: PAPER
     custom-model-data: 19224
     itemsadder-item: "rings_pack:set3_ring_5"
@@ -183,6 +201,7 @@ HAC_AM_BRACELET:
 
 LOI_THAN_BRACELET:
   base:
+    revision-id: 1
     material: PAPER
     custom-model-data: 19244
     itemsadder-item: "rings_pack:set5_ring_5"
@@ -193,6 +212,7 @@ LOI_THAN_BRACELET:
 
 HOANG_GIA_BRACELET:
   base:
+    revision-id: 1
     material: PAPER
     custom-model-data: 19274
     itemsadder-item: "rings_pack:set8_ring_5"
@@ -204,6 +224,7 @@ HOANG_GIA_BRACELET:
 
 LONG_VUONG_GLOVES:
   base:
+    revision-id: 1
     material: PAPER
     custom-model-data: 19537
     itemsadder-item: "rings_pack:glove_37"
@@ -214,6 +235,7 @@ LONG_VUONG_GLOVES:
 
 BANG_TINH_GLOVES:
   base:
+    revision-id: 1
     material: PAPER
     custom-model-data: 19561
     itemsadder-item: "rings_pack:glove_61"
@@ -224,6 +246,7 @@ BANG_TINH_GLOVES:
 
 HAC_AM_GLOVES:
   base:
+    revision-id: 1
     material: PAPER
     custom-model-data: 19502
     itemsadder-item: "rings_pack:glove_2"
@@ -233,6 +256,7 @@ HAC_AM_GLOVES:
 
 LOI_THAN_GLOVES:
   base:
+    revision-id: 1
     material: PAPER
     custom-model-data: 19501
     itemsadder-item: "rings_pack:glove_1"
@@ -243,6 +267,7 @@ LOI_THAN_GLOVES:
 
 HOANG_GIA_GLOVES:
   base:
+    revision-id: 1
     material: PAPER
     custom-model-data: 19585
     itemsadder-item: "rings_pack:glove_85"

@@ -1,5 +1,6 @@
 AXE_TAN_BINH_1:
   base:
+    revision-id: 1
     material: WOODEN_AXE
     name: "&fRìu Chiến Tân Binh &e&lI"
     max-durability: 500
@@ -21,6 +22,7 @@ AXE_TAN_BINH_1:
 
 AXE_TAN_BINH_2:
   base:
+    revision-id: 1
     material: WOODEN_AXE
     name: "&fRìu Chiến Tân Binh &e&lII"
     max-durability: 500
@@ -42,6 +44,7 @@ AXE_TAN_BINH_2:
 
 AXE_TAN_BINH_3:
   base:
+    revision-id: 1
     material: WOODEN_AXE
     name: "&fRìu Chiến Tân Binh &e&lIII"
     max-durability: 500
@@ -63,6 +66,7 @@ AXE_TAN_BINH_3:
 
 AXE_TAN_BINH_4:
   base:
+    revision-id: 1
     material: WOODEN_AXE
     name: "&fRìu Chiến Tân Binh &e&lIV"
     max-durability: 500
@@ -84,6 +88,7 @@ AXE_TAN_BINH_4:
 
 AXE_TAN_BINH_5:
   base:
+    revision-id: 1
     material: WOODEN_AXE
     name: "&fRìu Chiến Tân Binh &e&lV"
     max-durability: 500
@@ -105,6 +110,7 @@ AXE_TAN_BINH_5:
 
 AXE_TU_NHAN_1:
   base:
+    revision-id: 1
     material: STONE_AXE
     name: "&aRìu Chiến Tù Nhân &e&lI"
     max-durability: 1000
@@ -126,6 +132,7 @@ AXE_TU_NHAN_1:
 
 AXE_TU_NHAN_2:
   base:
+    revision-id: 1
     material: STONE_AXE
     name: "&aRìu Chiến Tù Nhân &e&lII"
     max-durability: 1000
@@ -147,6 +154,7 @@ AXE_TU_NHAN_2:
 
 AXE_TU_NHAN_3:
   base:
+    revision-id: 1
     material: STONE_AXE
     name: "&aRìu Chiến Tù Nhân &e&lIII"
     max-durability: 1000
@@ -168,6 +176,7 @@ AXE_TU_NHAN_3:
 
 AXE_TU_NHAN_4:
   base:
+    revision-id: 1
     material: STONE_AXE
     name: "&aRìu Chiến Tù Nhân &e&lIV"
     max-durability: 1000
@@ -189,6 +198,7 @@ AXE_TU_NHAN_4:
 
 AXE_TU_NHAN_5:
   base:
+    revision-id: 1
     material: STONE_AXE
     name: "&aRìu Chiến Tù Nhân &e&lV"
     max-durability: 1000
@@ -210,6 +220,7 @@ AXE_TU_NHAN_5:
 
 AXE_LAO_CONG_1:
   base:
+    revision-id: 1
     material: IRON_AXE
     name: "&bRìu Chiến Lao Công &e&lI"
     max-durability: 2000
@@ -233,6 +244,7 @@ AXE_LAO_CONG_1:
 
 AXE_LAO_CONG_2:
   base:
+    revision-id: 1
     material: IRON_AXE
     name: "&bRìu Chiến Lao Công &e&lII"
     max-durability: 2000
@@ -256,6 +268,7 @@ AXE_LAO_CONG_2:
 
 AXE_LAO_CONG_3:
   base:
+    revision-id: 1
     material: IRON_AXE
     name: "&bRìu Chiến Lao Công &e&lIII"
     max-durability: 2000
@@ -279,6 +292,7 @@ AXE_LAO_CONG_3:
 
 AXE_LAO_CONG_4:
   base:
+    revision-id: 1
     material: IRON_AXE
     name: "&bRìu Chiến Lao Công &e&lIV"
     max-durability: 2000
@@ -302,6 +316,7 @@ AXE_LAO_CONG_4:
 
 AXE_LAO_CONG_5:
   base:
+    revision-id: 1
     material: IRON_AXE
     name: "&bRìu Chiến Lao Công &e&lV"
     max-durability: 2000
@@ -325,6 +340,7 @@ AXE_LAO_CONG_5:
 
 AXE_THO_DAO_1:
   base:
+    revision-id: 1
     material: IRON_AXE
     name: "&eRìu Chiến Thợ Đào &e&lI"
     max-durability: 3000
@@ -349,6 +365,7 @@ AXE_THO_DAO_1:
 
 AXE_THO_DAO_2:
   base:
+    revision-id: 1
     material: IRON_AXE
     name: "&eRìu Chiến Thợ Đào &e&lII"
     max-durability: 3000
@@ -373,6 +390,7 @@ AXE_THO_DAO_2:
 
 AXE_THO_DAO_3:
   base:
+    revision-id: 1
     material: IRON_AXE
     name: "&eRìu Chiến Thợ Đào &e&lIII"
     max-durability: 3000
@@ -397,6 +415,7 @@ AXE_THO_DAO_3:
 
 AXE_THO_DAO_4:
   base:
+    revision-id: 1
     material: IRON_AXE
     name: "&eRìu Chiến Thợ Đào &e&lIV"
     max-durability: 3000
@@ -421,6 +440,7 @@ AXE_THO_DAO_4:
 
 AXE_THO_DAO_5:
   base:
+    revision-id: 1
     material: IRON_AXE
     name: "&eRìu Chiến Thợ Đào &e&lV"
     max-durability: 3000
@@ -445,6 +465,7 @@ AXE_THO_DAO_5:
 
 AXE_DOI_TRUONG_1:
   base:
+    revision-id: 1
     material: DIAMOND_AXE
     name: "&6Rìu Chiến Đội Trưởng &e&lI"
     max-durability: 4500
@@ -471,6 +492,7 @@ AXE_DOI_TRUONG_1:
 
 AXE_DOI_TRUONG_2:
   base:
+    revision-id: 1
     material: DIAMOND_AXE
     name: "&6Rìu Chiến Đội Trưởng &e&lII"
     max-durability: 4500
@@ -497,6 +519,7 @@ AXE_DOI_TRUONG_2:
 
 AXE_DOI_TRUONG_3:
   base:
+    revision-id: 1
     material: DIAMOND_AXE
     name: "&6Rìu Chiến Đội Trưởng &e&lIII"
     max-durability: 4500
@@ -523,6 +546,7 @@ AXE_DOI_TRUONG_3:
 
 AXE_DOI_TRUONG_4:
   base:
+    revision-id: 1
     material: DIAMOND_AXE
     name: "&6Rìu Chiến Đội Trưởng &e&lIV"
     max-durability: 4500
@@ -549,6 +573,7 @@ AXE_DOI_TRUONG_4:
 
 AXE_DOI_TRUONG_5:
   base:
+    revision-id: 1
     material: DIAMOND_AXE
     name: "&6Rìu Chiến Đội Trưởng &e&lV"
     max-durability: 4500
@@ -575,6 +600,7 @@ AXE_DOI_TRUONG_5:
 
 AXE_PHO_QUAN_NGUC_1:
   base:
+    revision-id: 1
     material: DIAMOND_AXE
     name: "&cRìu Chiến Phó Quản Ngục &e&lI"
     max-durability: 6000
@@ -602,6 +628,7 @@ AXE_PHO_QUAN_NGUC_1:
 
 AXE_PHO_QUAN_NGUC_2:
   base:
+    revision-id: 1
     material: DIAMOND_AXE
     name: "&cRìu Chiến Phó Quản Ngục &e&lII"
     max-durability: 6000
@@ -629,6 +656,7 @@ AXE_PHO_QUAN_NGUC_2:
 
 AXE_PHO_QUAN_NGUC_3:
   base:
+    revision-id: 1
     material: DIAMOND_AXE
     name: "&cRìu Chiến Phó Quản Ngục &e&lIII"
     max-durability: 6000
@@ -656,6 +684,7 @@ AXE_PHO_QUAN_NGUC_3:
 
 AXE_PHO_QUAN_NGUC_4:
   base:
+    revision-id: 1
     material: DIAMOND_AXE
     name: "&cRìu Chiến Phó Quản Ngục &e&lIV"
     max-durability: 6000
@@ -683,6 +712,7 @@ AXE_PHO_QUAN_NGUC_4:
 
 AXE_PHO_QUAN_NGUC_5:
   base:
+    revision-id: 1
     material: DIAMOND_AXE
     name: "&cRìu Chiến Phó Quản Ngục &e&lV"
     max-durability: 6000
@@ -710,6 +740,7 @@ AXE_PHO_QUAN_NGUC_5:
 
 AXE_QUAN_NGUC_1:
   base:
+    revision-id: 1
     material: NETHERITE_AXE
     name: "&dRìu Chiến Quản Ngục &e&lI"
     max-durability: 8000
@@ -737,6 +768,7 @@ AXE_QUAN_NGUC_1:
 
 AXE_QUAN_NGUC_2:
   base:
+    revision-id: 1
     material: NETHERITE_AXE
     name: "&dRìu Chiến Quản Ngục &e&lII"
     max-durability: 8000
@@ -764,6 +796,7 @@ AXE_QUAN_NGUC_2:
 
 AXE_QUAN_NGUC_3:
   base:
+    revision-id: 1
     material: NETHERITE_AXE
     name: "&dRìu Chiến Quản Ngục &e&lIII"
     max-durability: 8000
@@ -791,6 +824,7 @@ AXE_QUAN_NGUC_3:
 
 AXE_QUAN_NGUC_4:
   base:
+    revision-id: 1
     material: NETHERITE_AXE
     name: "&dRìu Chiến Quản Ngục &e&lIV"
     max-durability: 8000
@@ -818,6 +852,7 @@ AXE_QUAN_NGUC_4:
 
 AXE_QUAN_NGUC_5:
   base:
+    revision-id: 1
     material: NETHERITE_AXE
     name: "&dRìu Chiến Quản Ngục &e&lV"
     max-durability: 8000
@@ -845,6 +880,7 @@ AXE_QUAN_NGUC_5:
 
 AXE_BA_CHU_NGUC_TU_1:
   base:
+    revision-id: 1
     material: NETHERITE_AXE
     name: "&5Rìu Chiến Bá Chủ Ngục Tù &e&lI"
     max-durability: 10000
@@ -873,6 +909,7 @@ AXE_BA_CHU_NGUC_TU_1:
 
 AXE_BA_CHU_NGUC_TU_2:
   base:
+    revision-id: 1
     material: NETHERITE_AXE
     name: "&5Rìu Chiến Bá Chủ Ngục Tù &e&lII"
     max-durability: 10000
@@ -901,6 +938,7 @@ AXE_BA_CHU_NGUC_TU_2:
 
 AXE_BA_CHU_NGUC_TU_3:
   base:
+    revision-id: 1
     material: NETHERITE_AXE
     name: "&5Rìu Chiến Bá Chủ Ngục Tù &e&lIII"
     max-durability: 10000
@@ -929,6 +967,7 @@ AXE_BA_CHU_NGUC_TU_3:
 
 AXE_BA_CHU_NGUC_TU_4:
   base:
+    revision-id: 1
     material: NETHERITE_AXE
     name: "&5Rìu Chiến Bá Chủ Ngục Tù &e&lIV"
     max-durability: 10000
@@ -957,6 +996,7 @@ AXE_BA_CHU_NGUC_TU_4:
 
 AXE_BA_CHU_NGUC_TU_5:
   base:
+    revision-id: 1
     material: NETHERITE_AXE
     name: "&5Rìu Chiến Bá Chủ Ngục Tù &e&lV"
     max-durability: 10000
@@ -985,6 +1025,7 @@ AXE_BA_CHU_NGUC_TU_5:
 
 AXE_VUOT_NGUC_1:
   base:
+    revision-id: 1
     material: NETHERITE_AXE
     name: "&4Rìu Chiến Vượt Ngục &e&lI"
     max-durability: 15000
@@ -1013,6 +1054,7 @@ AXE_VUOT_NGUC_1:
 
 AXE_VUOT_NGUC_2:
   base:
+    revision-id: 1
     material: NETHERITE_AXE
     name: "&4Rìu Chiến Vượt Ngục &e&lII"
     max-durability: 15000
@@ -1041,6 +1083,7 @@ AXE_VUOT_NGUC_2:
 
 AXE_VUOT_NGUC_3:
   base:
+    revision-id: 1
     material: NETHERITE_AXE
     name: "&4Rìu Chiến Vượt Ngục &e&lIII"
     max-durability: 15000
@@ -1069,6 +1112,7 @@ AXE_VUOT_NGUC_3:
 
 AXE_VUOT_NGUC_4:
   base:
+    revision-id: 1
     material: NETHERITE_AXE
     name: "&4Rìu Chiến Vượt Ngục &e&lIV"
     max-durability: 15000
@@ -1097,6 +1141,7 @@ AXE_VUOT_NGUC_4:
 
 AXE_VUOT_NGUC_5:
   base:
+    revision-id: 1
     material: NETHERITE_AXE
     name: "&4Rìu Chiến Vượt Ngục &e&lV"
     max-durability: 15000
@@ -1125,6 +1170,7 @@ AXE_VUOT_NGUC_5:
 
 GACHA_AXE_VIRIDIAN:
   base:
+    revision-id: 1
     material: IRON_AXE
     custom-model-data: 10001
     itemsadder-item: "fantasy_weapons:viridian_greataxe"
@@ -1158,6 +1204,7 @@ GACHA_AXE_VIRIDIAN:
 
 GACHA_AXE_AZURE:
   base:
+    revision-id: 1
     material: DIAMOND_AXE
     custom-model-data: 10000
     itemsadder-item: "fantasy_weapons:azure_greataxe"
@@ -1192,6 +1239,7 @@ GACHA_AXE_AZURE:
 
 GACHA_AXE_SACRIFICIAL:
   base:
+    revision-id: 1
     material: IRON_AXE
     custom-model-data: 10011
     itemsadder-item: "fantasy_weapons:sacrificial_cleaver"

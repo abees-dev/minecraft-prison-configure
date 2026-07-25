@@ -1,0 +1,25 @@
+# Layout 5x5 cho Bàn Tiến Hóa Long Tộc (Dịch lên 1 hàng, sang phải 1 ô)
+slots: 54
+
+layout:
+  # 5 rows x 5 items (25 công thức sắp xếp theo 5 Set x 5 Món)
+  # Row 0 (Hỏa Long): 2, 3, 4, 5, 6
+  # Row 1 (Băng Long): 11, 12, 13, 14, 15
+  # Row 2 (Lôi Long): 20, 21, 22, 23, 24
+  # Row 3 (Phong Long): 29, 30, 31, 32, 33
+  # Row 4 (Hắc Long): 38, 39, 40, 41, 42
+  recipe-slots: [
+    2, 3, 4, 5, 6,
+    11, 12, 13, 14, 15,
+    20, 21, 22, 23, 24,
+    29, 30, 31, 32, 33,
+    38, 39, 40, 41, 42
+  ]
+
+  queue-slots: [53]
+
+  recipe-previous-slot: 1
+  recipe-next-slot: 7
+
+  queue-previous-slot: 45
+  queue-next-slot: 52

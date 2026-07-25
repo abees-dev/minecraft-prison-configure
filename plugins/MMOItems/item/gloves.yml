@@ -1,6 +1,7 @@
 
 LONG_VUONG_GLOVES:
   base:
+    revision-id: 1
     material: PAPER
     custom-model-data: 19537
     itemsadder-item: "rings_pack:glove_37"
@@ -11,6 +12,7 @@ LONG_VUONG_GLOVES:
 
 BANG_TINH_GLOVES:
   base:
+    revision-id: 1
     material: PAPER
     custom-model-data: 19561
     itemsadder-item: "rings_pack:glove_61"
@@ -21,6 +23,7 @@ BANG_TINH_GLOVES:
 
 HAC_AM_GLOVES:
   base:
+    revision-id: 1
     material: PAPER
     custom-model-data: 19502
     itemsadder-item: "rings_pack:glove_2"
@@ -30,6 +33,7 @@ HAC_AM_GLOVES:
 
 LOI_THAN_GLOVES:
   base:
+    revision-id: 1
     material: PAPER
     custom-model-data: 19501
     itemsadder-item: "rings_pack:glove_1"
@@ -40,6 +44,7 @@ LOI_THAN_GLOVES:
 
 HOANG_GIA_GLOVES:
   base:
+    revision-id: 1
     material: PAPER
     custom-model-data: 19585
     itemsadder-item: "rings_pack:glove_85"

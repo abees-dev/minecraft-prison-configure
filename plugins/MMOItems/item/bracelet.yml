@@ -1,6 +1,7 @@
 
 LONG_VUONG_BRACELET:
   base:
+    revision-id: 1
     material: PAPER
     custom-model-data: 19205
     itemsadder-item: "rings_pack:set1_ring_5"
@@ -11,6 +12,7 @@ LONG_VUONG_BRACELET:
 
 BANG_TINH_BRACELET:
   base:
+    revision-id: 1
     material: PAPER
     custom-model-data: 19214
     itemsadder-item: "rings_pack:set2_ring_5"
@@ -21,6 +23,7 @@ BANG_TINH_BRACELET:
 
 HAC_AM_BRACELET:
   base:
+    revision-id: 1
     material: PAPER
     custom-model-data: 19224
     itemsadder-item: "rings_pack:set3_ring_5"
@@ -31,6 +34,7 @@ HAC_AM_BRACELET:
 
 LOI_THAN_BRACELET:
   base:
+    revision-id: 1
     material: PAPER
     custom-model-data: 19244
     itemsadder-item: "rings_pack:set5_ring_5"
@@ -41,6 +45,7 @@ LOI_THAN_BRACELET:
 
 HOANG_GIA_BRACELET:
   base:
+    revision-id: 1
     material: PAPER
     custom-model-data: 19274
     itemsadder-item: "rings_pack:set8_ring_5"

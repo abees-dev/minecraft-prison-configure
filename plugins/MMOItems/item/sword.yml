@@ -1,5 +1,33 @@
+TEST_REVISION_SWORD:
+  revision-id: 5
+  base:
+    revision-id: 5
+    material: IRON_SWORD
+    name: "&c&l🧪 Kiếm Thử Nghiệm Revision (v5 - REVISION ROOT TEST)"
+    hide-enchants: true
+    lore-format: weapon-lore
+    lore:
+      - "&c&l🧪 Revision Test v5"
+      - "&7 &c●&7 Phiên bản Revision ID: &e5"
+      - "&7 &c●&7 Tự động cập nhật Lore & Tên!"
+      - "&7 &c●&7 Sát thương: 150.0"
+    attack-damage: 150.0
+    attack-speed: 1.6
+    gem-sockets:
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
+    upgrade:
+      template: weapon-upgrade-template
+      max: 100
+    will-break: false
+    unbreakable: false
+
 SWORD_TAN_BINH_1:
   base:
+    revision-id: 1
     material: WOODEN_SWORD
     name: "&fKiếm Tân Binh &e&lI"
     max-durability: 500
@@ -21,6 +49,7 @@ SWORD_TAN_BINH_1:
 
 SWORD_TAN_BINH_2:
   base:
+    revision-id: 1
     material: WOODEN_SWORD
     name: "&fKiếm Tân Binh &e&lII"
     max-durability: 500
@@ -42,6 +71,7 @@ SWORD_TAN_BINH_2:
 
 SWORD_TAN_BINH_3:
   base:
+    revision-id: 1
     material: WOODEN_SWORD
     name: "&fKiếm Tân Binh &e&lIII"
     max-durability: 500
@@ -63,6 +93,7 @@ SWORD_TAN_BINH_3:
 
 SWORD_TAN_BINH_4:
   base:
+    revision-id: 1
     material: WOODEN_SWORD
     name: "&fKiếm Tân Binh &e&lIV"
     max-durability: 500
@@ -84,6 +115,7 @@ SWORD_TAN_BINH_4:
 
 SWORD_TAN_BINH_5:
   base:
+    revision-id: 1
     material: WOODEN_SWORD
     name: "&fKiếm Tân Binh &e&lV"
     max-durability: 500
@@ -105,6 +137,7 @@ SWORD_TAN_BINH_5:
 
 SWORD_TU_NHAN_1:
   base:
+    revision-id: 1
     material: STONE_SWORD
     name: "&aKiếm Tù Nhân &e&lI"
     max-durability: 1000
@@ -126,6 +159,7 @@ SWORD_TU_NHAN_1:
 
 SWORD_TU_NHAN_2:
   base:
+    revision-id: 1
     material: STONE_SWORD
     name: "&aKiếm Tù Nhân &e&lII"
     max-durability: 1000
@@ -147,6 +181,7 @@ SWORD_TU_NHAN_2:
 
 SWORD_TU_NHAN_3:
   base:
+    revision-id: 1
     material: STONE_SWORD
     name: "&aKiếm Tù Nhân &e&lIII"
     max-durability: 1000
@@ -168,6 +203,7 @@ SWORD_TU_NHAN_3:
 
 SWORD_TU_NHAN_4:
   base:
+    revision-id: 1
     material: STONE_SWORD
     name: "&aKiếm Tù Nhân &e&lIV"
     max-durability: 1000
@@ -189,6 +225,7 @@ SWORD_TU_NHAN_4:
 
 SWORD_TU_NHAN_5:
   base:
+    revision-id: 1
     material: STONE_SWORD
     name: "&aKiếm Tù Nhân &e&lV"
     max-durability: 1000
@@ -210,6 +247,7 @@ SWORD_TU_NHAN_5:
 
 SWORD_LAO_CONG_1:
   base:
+    revision-id: 1
     material: IRON_SWORD
     name: "&bKiếm Lao Công &e&lI"
     max-durability: 2000
@@ -233,6 +271,7 @@ SWORD_LAO_CONG_1:
 
 SWORD_LAO_CONG_2:
   base:
+    revision-id: 1
     material: IRON_SWORD
     name: "&bKiếm Lao Công &e&lII"
     max-durability: 2000
@@ -256,6 +295,7 @@ SWORD_LAO_CONG_2:
 
 SWORD_LAO_CONG_3:
   base:
+    revision-id: 1
     material: IRON_SWORD
     name: "&bKiếm Lao Công &e&lIII"
     max-durability: 2000
@@ -279,6 +319,7 @@ SWORD_LAO_CONG_3:
 
 SWORD_LAO_CONG_4:
   base:
+    revision-id: 1
     material: IRON_SWORD
     name: "&bKiếm Lao Công &e&lIV"
     max-durability: 2000
@@ -302,6 +343,7 @@ SWORD_LAO_CONG_4:
 
 SWORD_LAO_CONG_5:
   base:
+    revision-id: 1
     material: IRON_SWORD
     name: "&bKiếm Lao Công &e&lV"
     max-durability: 2000
@@ -325,6 +367,7 @@ SWORD_LAO_CONG_5:
 
 SWORD_THO_DAO_1:
   base:
+    revision-id: 1
     material: IRON_SWORD
     name: "&eKiếm Thợ Đào &e&lI"
     max-durability: 3000
@@ -349,6 +392,7 @@ SWORD_THO_DAO_1:
 
 SWORD_THO_DAO_2:
   base:
+    revision-id: 1
     material: IRON_SWORD
     name: "&eKiếm Thợ Đào &e&lII"
     max-durability: 3000
@@ -373,6 +417,7 @@ SWORD_THO_DAO_2:
 
 SWORD_THO_DAO_3:
   base:
+    revision-id: 1
     material: IRON_SWORD
     name: "&eKiếm Thợ Đào &e&lIII"
     max-durability: 3000
@@ -397,6 +442,7 @@ SWORD_THO_DAO_3:
 
 SWORD_THO_DAO_4:
   base:
+    revision-id: 1
     material: IRON_SWORD
     name: "&eKiếm Thợ Đào &e&lIV"
     max-durability: 3000
@@ -421,6 +467,7 @@ SWORD_THO_DAO_4:
 
 SWORD_THO_DAO_5:
   base:
+    revision-id: 1
     material: IRON_SWORD
     name: "&eKiếm Thợ Đào &e&lV"
     max-durability: 3000
@@ -445,6 +492,7 @@ SWORD_THO_DAO_5:
 
 SWORD_DOI_TRUONG_1:
   base:
+    revision-id: 1
     material: DIAMOND_SWORD
     name: "&6Kiếm Đội Trưởng &e&lI"
     max-durability: 4500
@@ -471,6 +519,7 @@ SWORD_DOI_TRUONG_1:
 
 SWORD_DOI_TRUONG_2:
   base:
+    revision-id: 1
     material: DIAMOND_SWORD
     name: "&6Kiếm Đội Trưởng &e&lII"
     max-durability: 4500
@@ -497,6 +546,7 @@ SWORD_DOI_TRUONG_2:
 
 SWORD_DOI_TRUONG_3:
   base:
+    revision-id: 1
     material: DIAMOND_SWORD
     name: "&6Kiếm Đội Trưởng &e&lIII"
     max-durability: 4500
@@ -523,6 +573,7 @@ SWORD_DOI_TRUONG_3:
 
 SWORD_DOI_TRUONG_4:
   base:
+    revision-id: 1
     material: DIAMOND_SWORD
     name: "&6Kiếm Đội Trưởng &e&lIV"
     max-durability: 4500
@@ -549,6 +600,7 @@ SWORD_DOI_TRUONG_4:
 
 SWORD_DOI_TRUONG_5:
   base:
+    revision-id: 1
     material: DIAMOND_SWORD
     name: "&6Kiếm Đội Trưởng &e&lV"
     max-durability: 4500
@@ -575,6 +627,7 @@ SWORD_DOI_TRUONG_5:
 
 SWORD_PHO_QUAN_NGUC_1:
   base:
+    revision-id: 1
     material: DIAMOND_SWORD
     name: "&cKiếm Phó Quản Ngục &e&lI"
     max-durability: 6000
@@ -602,6 +655,7 @@ SWORD_PHO_QUAN_NGUC_1:
 
 SWORD_PHO_QUAN_NGUC_2:
   base:
+    revision-id: 1
     material: DIAMOND_SWORD
     name: "&cKiếm Phó Quản Ngục &e&lII"
     max-durability: 6000
@@ -629,6 +683,7 @@ SWORD_PHO_QUAN_NGUC_2:
 
 SWORD_PHO_QUAN_NGUC_3:
   base:
+    revision-id: 1
     material: DIAMOND_SWORD
     name: "&cKiếm Phó Quản Ngục &e&lIII"
     max-durability: 6000
@@ -656,6 +711,7 @@ SWORD_PHO_QUAN_NGUC_3:
 
 SWORD_PHO_QUAN_NGUC_4:
   base:
+    revision-id: 1
     material: DIAMOND_SWORD
     name: "&cKiếm Phó Quản Ngục &e&lIV"
     max-durability: 6000
@@ -683,6 +739,7 @@ SWORD_PHO_QUAN_NGUC_4:
 
 SWORD_PHO_QUAN_NGUC_5:
   base:
+    revision-id: 1
     material: DIAMOND_SWORD
     name: "&cKiếm Phó Quản Ngục &e&lV"
     max-durability: 6000
@@ -710,6 +767,7 @@ SWORD_PHO_QUAN_NGUC_5:
 
 SWORD_QUAN_NGUC_1:
   base:
+    revision-id: 1
     material: NETHERITE_SWORD
     name: "&dKiếm Quản Ngục &e&lI"
     max-durability: 8000
@@ -737,6 +795,7 @@ SWORD_QUAN_NGUC_1:
 
 SWORD_QUAN_NGUC_2:
   base:
+    revision-id: 1
     material: NETHERITE_SWORD
     name: "&dKiếm Quản Ngục &e&lII"
     max-durability: 8000
@@ -764,6 +823,7 @@ SWORD_QUAN_NGUC_2:
 
 SWORD_QUAN_NGUC_3:
   base:
+    revision-id: 1
     material: NETHERITE_SWORD
     name: "&dKiếm Quản Ngục &e&lIII"
     max-durability: 8000
@@ -791,6 +851,7 @@ SWORD_QUAN_NGUC_3:
 
 SWORD_QUAN_NGUC_4:
   base:
+    revision-id: 1
     material: NETHERITE_SWORD
     name: "&dKiếm Quản Ngục &e&lIV"
     max-durability: 8000
@@ -818,6 +879,7 @@ SWORD_QUAN_NGUC_4:
 
 SWORD_QUAN_NGUC_5:
   base:
+    revision-id: 1
     material: NETHERITE_SWORD
     name: "&dKiếm Quản Ngục &e&lV"
     max-durability: 8000
@@ -845,6 +907,7 @@ SWORD_QUAN_NGUC_5:
 
 SWORD_BA_CHU_NGUC_TU_1:
   base:
+    revision-id: 1
     material: NETHERITE_SWORD
     name: "&5Kiếm Bá Chủ Ngục Tù &e&lI"
     max-durability: 10000
@@ -873,6 +936,7 @@ SWORD_BA_CHU_NGUC_TU_1:
 
 SWORD_BA_CHU_NGUC_TU_2:
   base:
+    revision-id: 1
     material: NETHERITE_SWORD
     name: "&5Kiếm Bá Chủ Ngục Tù &e&lII"
     max-durability: 10000
@@ -901,6 +965,7 @@ SWORD_BA_CHU_NGUC_TU_2:
 
 SWORD_BA_CHU_NGUC_TU_3:
   base:
+    revision-id: 1
     material: NETHERITE_SWORD
     name: "&5Kiếm Bá Chủ Ngục Tù &e&lIII"
     max-durability: 10000
@@ -929,6 +994,7 @@ SWORD_BA_CHU_NGUC_TU_3:
 
 SWORD_BA_CHU_NGUC_TU_4:
   base:
+    revision-id: 1
     material: NETHERITE_SWORD
     name: "&5Kiếm Bá Chủ Ngục Tù &e&lIV"
     max-durability: 10000
@@ -957,6 +1023,7 @@ SWORD_BA_CHU_NGUC_TU_4:
 
 SWORD_BA_CHU_NGUC_TU_5:
   base:
+    revision-id: 1
     material: NETHERITE_SWORD
     name: "&5Kiếm Bá Chủ Ngục Tù &e&lV"
     max-durability: 10000
@@ -985,6 +1052,7 @@ SWORD_BA_CHU_NGUC_TU_5:
 
 SWORD_VUOT_NGUC_1:
   base:
+    revision-id: 1
     material: NETHERITE_SWORD
     name: "&4Kiếm Vượt Ngục &e&lI"
     max-durability: 15000
@@ -1013,6 +1081,7 @@ SWORD_VUOT_NGUC_1:
 
 SWORD_VUOT_NGUC_2:
   base:
+    revision-id: 1
     material: NETHERITE_SWORD
     name: "&4Kiếm Vượt Ngục &e&lII"
     max-durability: 15000
@@ -1041,6 +1110,7 @@ SWORD_VUOT_NGUC_2:
 
 SWORD_VUOT_NGUC_3:
   base:
+    revision-id: 1
     material: NETHERITE_SWORD
     name: "&4Kiếm Vượt Ngục &e&lIII"
     max-durability: 15000
@@ -1069,6 +1139,7 @@ SWORD_VUOT_NGUC_3:
 
 SWORD_VUOT_NGUC_4:
   base:
+    revision-id: 1
     material: NETHERITE_SWORD
     name: "&4Kiếm Vượt Ngục &e&lIV"
     max-durability: 15000
@@ -1097,6 +1168,7 @@ SWORD_VUOT_NGUC_4:
 
 SWORD_VUOT_NGUC_5:
   base:
+    revision-id: 1
     material: NETHERITE_SWORD
     name: "&4Kiếm Vượt Ngục &e&lV"
     max-durability: 15000
@@ -1125,6 +1197,7 @@ SWORD_VUOT_NGUC_5:
 
 GACHA_SWORD_AMETHYST:
   base:
+    revision-id: 1
     material: IRON_SWORD
     custom-model-data: 10000
     itemsadder-item: "fantasy_weapons:amethyst_greatblade"
@@ -1158,6 +1231,7 @@ GACHA_SWORD_AMETHYST:
 
 GACHA_SWORD_PHANTOMGUARD:
   base:
+    revision-id: 1
     material: IRON_SWORD
     custom-model-data: 10001
     itemsadder-item: "fantasy_weapons:phantomguard_greatsword"
@@ -1192,6 +1266,7 @@ GACHA_SWORD_PHANTOMGUARD:
 
 GACHA_SWORD_VALHAKYRA:
   base:
+    revision-id: 1
     material: IRON_SWORD
     custom-model-data: 10003
     itemsadder-item: "fantasy_weapons:valhakyra"
@@ -1225,6 +1300,7 @@ GACHA_SWORD_VALHAKYRA:
 
 GACHA_SWORD_CRYSTAL_FROST:
   base:
+    revision-id: 1
     material: IRON_SWORD
     custom-model-data: 10008
     itemsadder-item: "fantasy_weapons:crystal_frostblade"
@@ -1258,6 +1334,7 @@ GACHA_SWORD_CRYSTAL_FROST:
 
 GACHA_SWORD_DEMONS_BLOOD:
   base:
+    revision-id: 1
     material: IRON_SWORD
     custom-model-data: 10016
     itemsadder-item: "fantasy_weapons:demons_blood_blade"
@@ -1291,6 +1368,7 @@ GACHA_SWORD_DEMONS_BLOOD:
 
 GACHA_SWORD_MOONLIGHT:
   base:
+    revision-id: 1
     material: IRON_SWORD
     custom-model-data: 10018
     itemsadder-item: "fantasy_weapons:moonlight"
@@ -1319,5 +1397,323 @@ GACHA_SWORD_MOONLIGHT:
       - Uncolored
       - Uncolored
       - Uncolored
+    will-break: false
+    unbreakable: false
+
+# ============================================================
+# DONATE SWORD — Dòng Long Tộc Thiên Giới
+# ============================================================
+
+DONATE_SWORD_LONG_VE:
+  base:
+    revision-id: 1
+    material: IRON_SWORD
+    custom-model-data: 10191
+    itemsadder-item: "littledragonset:littledragon_sword"
+    name: "&a&l✦ Hộ Long Bảo Kiếm"
+    max-durability: 20000
+    tier: RARE
+    hide-enchants: true
+    lore-format: weapon-lore
+    lore:
+      - "&a&l✦ Long Tộc Thiên Giới"
+      - "&7 &a●&7 Bảo kiếm rèn từ Vảy Rồng Hộ Vệ"
+      - "&7 &a●&7 Tỏa sáng bảo hộ, che chở người sở hữu"
+    attack-damage: 63.0
+    attack-speed: 1.6
+    critical-strike-chance: 26.0
+    physical-damage: 25.0
+    gem-sockets:
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
+    upgrade:
+      template: weapon-upgrade-template
+      max: 100
+    will-break: false
+    unbreakable: false
+
+DONATE_SWORD_LONG_CHIEN:
+  base:
+    revision-id: 1
+    material: IRON_SWORD
+    custom-model-data: 10086
+    itemsadder-item: "spartan_set:spartan_sword"
+    name: "&e&l⚔ Chiến Long Cuồng Kiếm"
+    max-durability: 20000
+    tier: VERY_RARE
+    hide-enchants: true
+    lore-format: weapon-lore
+    lore:
+      - "&e&l⚔ Long Tộc Thiên Giới"
+      - "&7 &e●&7 Cuồng kiếm hun đúc từ Nanh Rồng Chiến"
+      - "&7 &e●&7 Mỗi nhát chém mang theo sấm sét long trời"
+    attack-damage: 73.0
+    attack-speed: 1.7
+    critical-strike-chance: 28.0
+    physical-damage: 29.0
+    gem-sockets:
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
+    upgrade:
+      template: weapon-upgrade-template
+      max: 100
+    will-break: false
+    unbreakable: false
+
+DONATE_SWORD_LONG_THAN:
+  base:
+    revision-id: 1
+    material: IRON_SWORD
+    custom-model-data: 10122
+    itemsadder-item: "azureset:azure_sword"
+    name: "&b&l✦ Thần Long Thánh Kiếm"
+    max-durability: 20000
+    tier: LEGENDARY
+    hide-enchants: true
+    lore-format: weapon-lore
+    lore:
+      - "&b&l✦ Long Tộc Thiên Giới"
+      - "&7 &b●&7 Thánh kiếm ngưng tụ từ Tinh Hoa Long Thần"
+      - "&7 &b●&7 Lưỡi kiếm chém xuyên không gian, phá vỡ mọi phòng ngự"
+    attack-damage: 85.0
+    attack-speed: 1.75
+    critical-strike-chance: 31.0
+    physical-damage: 34.0
+    gem-sockets:
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
+    upgrade:
+      template: weapon-upgrade-template
+      max: 100
+    will-break: false
+    unbreakable: false
+
+DONATE_SWORD_LONG_DE:
+  base:
+    revision-id: 1
+    material: IRON_SWORD
+    custom-model-data: 10177
+    itemsadder-item: "demon_edgeset:demon_edge_sword"
+    name: "&4&l◆ Đế Long Diệt Kiếm"
+    max-durability: 20000
+    tier: EPIC
+    hide-enchants: true
+    lore-format: weapon-lore
+    lore:
+      - "&4&l◆ Long Tộc Thiên Giới"
+      - "&7 &4●&7 Diệt kiếm tôi luyện trong Hỏa Ngục Rồng Đế"
+      - "&7 &4●&7 Mang sức hủy diệt khiến vạn vật phải quỳ phục"
+    attack-damage: 100.0
+    attack-speed: 1.8
+    critical-strike-chance: 35.0
+    physical-damage: 40.0
+    gem-sockets:
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
+    upgrade:
+      template: weapon-upgrade-template
+      max: 100
+    will-break: false
+    unbreakable: false
+
+DONATE_SWORD_LONG_HOANG:
+  base:
+    revision-id: 1
+    material: IRON_SWORD
+    custom-model-data: 10171
+    itemsadder-item: "royal_crystal:royal_crysta_sword"
+    name: "&c&l★ Hoàng Long Thiên Kiếm"
+    max-durability: 20000
+    tier: UNIQUE
+    hide-enchants: true
+    lore-format: weapon-lore
+    lore:
+      - "&c&l★ Huyền Thoại Long Tộc"
+      - "&7 &c●&7 Bảo kiếm tối thượng rèn từ Vảy Rồng Hoàng Kim"
+      - "&7 &c●&7 Sức mạnh xé trời, phá đất, vô song thiên hạ"
+    attack-damage: 118.0
+    attack-speed: 1.85
+    critical-strike-chance: 40.0
+    physical-damage: 47.0
+    gem-sockets:
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
+    upgrade:
+      template: weapon-upgrade-template
+      max: 100
+    will-break: false
+    unbreakable: false
+
+# ============================================================
+# TRADE SWORD — Dòng Long Tộc Trần Thế
+# ============================================================
+
+TRADE_SWORD_HOA_LONG:
+  base:
+    revision-id: 1
+    material: IRON_SWORD
+    custom-model-data: 10015
+    itemsadder-item: "fantasy_weapons:calamity_blade"
+    name: "&6✦ Hỏa Long Kiếm"
+    max-durability: 18000
+    tier: RARE
+    hide-enchants: true
+    lore-format: weapon-lore
+    lore:
+      - "&6✦ Long Tộc Trần Thế"
+      - "&7 &6●&7 Kiếm rèn từ ngọn lửa Hỏa Long cổ đại"
+      - "&7 &6●&7 Mỗi nhát chém bùng cháy như dung nham"
+    attack-damage: 55.0
+    attack-speed: 1.6
+    critical-strike-chance: 24.0
+    physical-damage: 22.0
+    gem-sockets:
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
+    upgrade:
+      template: weapon-upgrade-template
+      max: 100
+    will-break: false
+    unbreakable: false
+
+TRADE_SWORD_BANG_LONG:
+  base:
+    revision-id: 1
+    material: IRON_SWORD
+    custom-model-data: 10008
+    itemsadder-item: "fantasy_weapons:crystal_frostblade"
+    name: "&3&l✦ Băng Long Hàn Kiếm"
+    max-durability: 18000
+    tier: VERY_RARE
+    hide-enchants: true
+    lore-format: weapon-lore
+    lore:
+      - "&3&l✦ Long Tộc Trần Thế"
+      - "&7 &3●&7 Hàn kiếm kết tinh từ Hơi Thở Băng Long"
+      - "&7 &3●&7 Đóng băng linh hồn kẻ thù trong giá lạnh vĩnh cửu"
+    attack-damage: 63.0
+    attack-speed: 1.65
+    critical-strike-chance: 26.0
+    physical-damage: 25.0
+    gem-sockets:
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
+    upgrade:
+      template: weapon-upgrade-template
+      max: 100
+    will-break: false
+    unbreakable: false
+
+TRADE_SWORD_LOI_LONG:
+  base:
+    revision-id: 1
+    material: IRON_SWORD
+    custom-model-data: 10167
+    itemsadder-item: "elitecreatures:king_arthur_animated_weapon_set_sword"
+    name: "&e&l⚡ Lôi Long Chấn Kiếm"
+    max-durability: 18000
+    tier: UNIQUE
+    hide-enchants: true
+    lore-format: weapon-lore
+    lore:
+      - "&e&l⚡ Long Tộc Trần Thế"
+      - "&7 &e●&7 Chấn kiếm chứa đựng Sấm Sét Lôi Long"
+      - "&7 &e●&7 Vung kiếm triệu hồi sấm chớp từ cửu thiên"
+    attack-damage: 100.0
+    attack-speed: 1.8
+    critical-strike-chance: 35.0
+    physical-damage: 40.0
+    gem-sockets:
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
+    upgrade:
+      template: weapon-upgrade-template
+      max: 100
+    will-break: false
+    unbreakable: false
+
+TRADE_SWORD_PHONG_LONG:
+  base:
+    revision-id: 1
+    material: IRON_SWORD
+    custom-model-data: 10107
+    itemsadder-item: "nanoedge_set:nanoedge_sword"
+    name: "&2&l✦ Phong Long Liệt Kiếm"
+    max-durability: 18000
+    tier: EPIC
+    hide-enchants: true
+    lore-format: weapon-lore
+    lore:
+      - "&2&l✦ Long Tộc Trần Thế"
+      - "&7 &2●&7 Liệt kiếm cuốn theo Cuồng Phong Phong Long"
+      - "&7 &2●&7 Tốc độ vung kiếm nhanh như gió cuốn"
+    attack-damage: 85.0
+    attack-speed: 1.75
+    critical-strike-chance: 31.0
+    physical-damage: 34.0
+    gem-sockets:
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
+    upgrade:
+      template: weapon-upgrade-template
+      max: 100
+    will-break: false
+    unbreakable: false
+
+TRADE_SWORD_HAC_LONG:
+  base:
+    revision-id: 1
+    material: IRON_SWORD
+    custom-model-data: 10025
+    itemsadder-item: "fantasy_weapons:demonic_sword"
+    name: "&5&l◆ Hắc Long Ma Kiếm"
+    max-durability: 18000
+    tier: LEGENDARY
+    hide-enchants: true
+    lore-format: weapon-lore
+    lore:
+      - "&5&l◆ Di Vật Hắc Long"
+      - "&7 &5●&7 Ma kiếm hun đúc từ linh hồn Hắc Long cổ xưa"
+      - "&7 &5●&7 Nguyền rủa kẻ thù, ban sức mạnh cho người sở hữu"
+    attack-damage: 73.0
+    attack-speed: 1.7
+    critical-strike-chance: 28.0
+    physical-damage: 29.0
+    gem-sockets:
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
+    upgrade:
+      template: weapon-upgrade-template
+      max: 100
     will-break: false
     unbreakable: false

@@ -158,3 +158,225 @@ HOANG_GIA_SET:
     - '&7  [3 món] &c+20% &7ST Vật Lý, &c+200 &7Máu'
     - '&7  [4 món] &c+30% &7ST Vật Lý, &c+350 &7Máu, &d+20% &7ST Phép, &c+7% &7Hút Máu'
     - '&6  [5 món FULL SET] &c+45% &7ST VL, &d+35% &7ST Phép, &c+500 &7Máu, &9+300 &7Mana, &c+12% &7Hút Máu & &aHồi Phục II'
+
+# ============================================================
+# DONATE SET — Dòng Long Tộc Thiên Giới
+# ============================================================
+
+LONG_VE_SET:
+    name: '&a&l✦ Bộ Hộ Long'
+    bonuses:
+        '2':
+            max-health: 10
+            defense: 6
+        '3':
+            max-health: 15
+            defense: 9
+            attack-damage: 5
+        '4':
+            max-health: 20
+            defense: 12
+            attack-damage: 8
+            potion-speed: 1
+    lore-tag:
+    - '&a&l✦ Kích Hoạt Bộ Hộ Long:'
+    - '&7  [2 món] &a+10 &7Máu, &a+6 &7Phòng Thủ'
+    - '&7  [3 món] &a+15 &7Máu, &a+9 &7Phòng Thủ, &c+5 &7Sát Thương'
+    - '&a  [4 món FULL] &a+20 &7Máu, &a+12 &7Phòng Thủ, &c+8 &7Sát Thương & &eTốc Độ I'
+
+LONG_CHIEN_SET:
+    name: '&e&l⚔ Bộ Chiến Long'
+    bonuses:
+        '2':
+            max-health: 18
+            defense: 10
+        '3':
+            max-health: 28
+            defense: 15
+            attack-damage: 10
+        '4':
+            max-health: 35
+            defense: 20
+            attack-damage: 14
+            potion-speed: 1
+    lore-tag:
+    - '&e&l⚔ Kích Hoạt Bộ Chiến Long:'
+    - '&7  [2 món] &e+18 &7Máu, &e+10 &7Phòng Thủ'
+    - '&7  [3 món] &e+28 &7Máu, &e+15 &7Phòng Thủ, &c+10 &7Sát Thương'
+    - '&e  [4 món FULL] &e+35 &7Máu, &e+20 &7Phòng Thủ, &c+14 &7Sát Thương & &eTốc Độ I'
+
+LONG_THAN_SET:
+    name: '&b&l✦ Bộ Thần Long'
+    bonuses:
+        '2':
+            max-health: 25
+            defense: 15
+        '3':
+            max-health: 38
+            defense: 23
+            attack-damage: 15
+        '4':
+            max-health: 50
+            defense: 30
+            attack-damage: 22
+            potion-speed: 2
+    lore-tag:
+    - '&b&l✦ Kích Hoạt Bộ Thần Long:'
+    - '&7  [2 món] &b+25 &7Máu, &b+15 &7Phòng Thủ'
+    - '&7  [3 món] &b+38 &7Máu, &b+23 &7Phòng Thủ, &c+15 &7Sát Thương'
+    - '&b  [4 món FULL] &b+50 &7Máu, &b+30 &7Phòng Thủ, &c+22 &7Sát Thương & &eTốc Độ II'
+
+LONG_DE_SET:
+    name: '&4&l◆ Bộ Đế Long'
+    bonuses:
+        '2':
+            max-health: 35
+            defense: 22
+        '3':
+            max-health: 52
+            defense: 33
+            attack-damage: 22
+        '4':
+            max-health: 68
+            defense: 42
+            attack-damage: 32
+            potion-speed: 2
+            potion-regeneration: 1
+    lore-tag:
+    - '&4&l◆ Kích Hoạt Bộ Đế Long:'
+    - '&7  [2 món] &4+35 &7Máu, &4+22 &7Phòng Thủ'
+    - '&7  [3 món] &4+52 &7Máu, &4+33 &7Phòng Thủ, &c+22 &7Sát Thương'
+    - '&4  [4 món FULL] &4+68 &7Máu, &4+42 &7Phòng Thủ, &c+32 &7Sát Thương & &eTốc Độ II &7+ &aHồi Phục I'
+
+LONG_HOANG_SET:
+    name: '&c&l★ Bộ Hoàng Long Thiên'
+    bonuses:
+        '2':
+            max-health: 45
+            defense: 30
+        '3':
+            max-health: 68
+            defense: 45
+            attack-damage: 30
+        '4':
+            max-health: 90
+            defense: 58
+            attack-damage: 45
+            potion-speed: 3
+            potion-regeneration: 2
+    lore-tag:
+    - '&c&l★ Kích Hoạt Bộ Hoàng Long Thiên:'
+    - '&7  [2 món] &c+45 &7Máu, &c+30 &7Phòng Thủ'
+    - '&7  [3 món] &c+68 &7Máu, &c+45 &7Phòng Thủ, &c+30 &7Sát Thương'
+    - '&c  [4 món FULL] &c+90 &7Máu, &c+58 &7Phòng Thủ, &c+45 &7Sát Thương & &eTốc Độ III &7+ &aHồi Phục II'
+
+# ============================================================
+# TRADE SET — Dòng Long Tộc Trần Thế
+# ============================================================
+
+HOA_LONG_SET:
+    name: '&6✦ Bộ Hỏa Long'
+    bonuses:
+        '2':
+            max-health: 8
+            defense: 4
+        '3':
+            max-health: 12
+            defense: 6
+            attack-damage: 3
+        '4':
+            max-health: 15
+            defense: 8
+            attack-damage: 5
+            potion-damage_resistance: 1
+    lore-tag:
+    - '&6✦ Kích Hoạt Bộ Hỏa Long:'
+    - '&7  [2 món] &6+8 &7Máu, &6+4 &7Phòng Thủ'
+    - '&7  [3 món] &6+12 &7Máu, &6+6 &7Phòng Thủ, &c+3 &7Sát Thương'
+    - '&6  [4 món FULL] &6+15 &7Máu, &6+8 &7Phòng Thủ, &c+5 &7Sát Thương & &bKháng ST I'
+
+BANG_LONG_SET:
+    name: '&3&l✦ Bộ Băng Long'
+    bonuses:
+        '2':
+            max-health: 13
+            defense: 7
+        '3':
+            max-health: 20
+            defense: 11
+            attack-damage: 5
+        '4':
+            max-health: 25
+            defense: 14
+            attack-damage: 8
+            potion-damage_resistance: 1
+    lore-tag:
+    - '&3&l✦ Kích Hoạt Bộ Băng Long:'
+    - '&7  [2 món] &3+13 &7Máu, &3+7 &7Phòng Thủ'
+    - '&7  [3 món] &3+20 &7Máu, &3+11 &7Phòng Thủ, &c+5 &7Sát Thương'
+    - '&3  [4 món FULL] &3+25 &7Máu, &3+14 &7Phòng Thủ, &c+8 &7Sát Thương & &bKháng ST I'
+
+LOI_LONG_SET:
+    name: '&e&l⚡ Bộ Lôi Long'
+    bonuses:
+        '2':
+            max-health: 18
+            defense: 11
+        '3':
+            max-health: 28
+            defense: 17
+            attack-damage: 8
+        '4':
+            max-health: 35
+            defense: 22
+            attack-damage: 12
+            potion-damage_resistance: 2
+    lore-tag:
+    - '&e&l⚡ Kích Hoạt Bộ Lôi Long:'
+    - '&7  [2 món] &e+18 &7Máu, &e+11 &7Phòng Thủ'
+    - '&7  [3 món] &e+28 &7Máu, &e+17 &7Phòng Thủ, &c+8 &7Sát Thương'
+    - '&e  [4 món FULL] &e+35 &7Máu, &e+22 &7Phòng Thủ, &c+12 &7Sát Thương & &bKháng ST II'
+
+PHONG_LONG_SET:
+    name: '&2&l✦ Bộ Phong Long'
+    bonuses:
+        '2':
+            max-health: 25
+            defense: 16
+        '3':
+            max-health: 38
+            defense: 25
+            attack-damage: 12
+        '4':
+            max-health: 48
+            defense: 32
+            attack-damage: 18
+            potion-damage_resistance: 2
+            potion-speed: 1
+    lore-tag:
+    - '&2&l✦ Kích Hoạt Bộ Phong Long:'
+    - '&7  [2 món] &2+25 &7Máu, &2+16 &7Phòng Thủ'
+    - '&7  [3 món] &2+38 &7Máu, &2+25 &7Phòng Thủ, &c+12 &7Sát Thương'
+    - '&2  [4 món FULL] &2+48 &7Máu, &2+32 &7Phòng Thủ, &c+18 &7Sát Thương & &bKháng ST II &7+ &eTốc Độ I'
+
+HAC_LONG_SET:
+    name: '&5&l◆ Bộ Hắc Long'
+    bonuses:
+        '2':
+            max-health: 33
+            defense: 23
+        '3':
+            max-health: 50
+            defense: 35
+            attack-damage: 17
+        '4':
+            max-health: 65
+            defense: 45
+            attack-damage: 25
+            potion-damage_resistance: 2
+            potion-speed: 2
+    lore-tag:
+    - '&5&l◆ Kích Hoạt Bộ Hắc Long:'
+    - '&7  [2 món] &5+33 &7Máu, &5+23 &7Phòng Thủ'
+    - '&7  [3 món] &5+50 &7Máu, &5+35 &7Phòng Thủ, &c+17 &7Sát Thương'
+    - '&5  [4 món FULL] &5+65 &7Máu, &5+45 &7Phòng Thủ, &c+25 &7Sát Thương & &bKháng ST II &7+ &eTốc Độ II'

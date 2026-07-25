@@ -1,5 +1,6 @@
 GACHA_DAGGER_GLOOMSTEEL_KNIFE:
   base:
+    revision-id: 1
     material: IRON_SWORD
     custom-model-data: 10013
     itemsadder-item: "fantasy_weapons:gloomsteel_knife"
@@ -33,6 +34,7 @@ GACHA_DAGGER_GLOOMSTEEL_KNIFE:
 
 GACHA_DAGGER_RUNIC_PIERCER:
   base:
+    revision-id: 1
     material: IRON_SWORD
     custom-model-data: 10024
     itemsadder-item: "fantasy_weapons:runic_piercer"

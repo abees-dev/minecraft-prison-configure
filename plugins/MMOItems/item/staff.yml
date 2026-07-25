@@ -1,5 +1,6 @@
 STAFF_TAN_BINH_1:
   base:
+    revision-id: 1
     material: STICK
     name: "&fTrượng Phép Tân Binh &e&lI"
     max-durability: 500
@@ -28,6 +29,7 @@ STAFF_TAN_BINH_1:
 
 STAFF_TAN_BINH_2:
   base:
+    revision-id: 1
     material: STICK
     name: "&fTrượng Phép Tân Binh &e&lII"
     max-durability: 500
@@ -56,6 +58,7 @@ STAFF_TAN_BINH_2:
 
 STAFF_TAN_BINH_3:
   base:
+    revision-id: 1
     material: STICK
     name: "&fTrượng Phép Tân Binh &e&lIII"
     max-durability: 500
@@ -84,6 +87,7 @@ STAFF_TAN_BINH_3:
 
 STAFF_TAN_BINH_4:
   base:
+    revision-id: 1
     material: STICK
     name: "&fTrượng Phép Tân Binh &e&lIV"
     max-durability: 500
@@ -112,6 +116,7 @@ STAFF_TAN_BINH_4:
 
 STAFF_TAN_BINH_5:
   base:
+    revision-id: 1
     material: STICK
     name: "&fTrượng Phép Tân Binh &e&lV"
     max-durability: 500
@@ -140,6 +145,7 @@ STAFF_TAN_BINH_5:
 
 STAFF_TU_NHAN_1:
   base:
+    revision-id: 1
     material: STICK
     name: "&aTrượng Phép Tù Nhân &e&lI"
     max-durability: 1000
@@ -168,6 +174,7 @@ STAFF_TU_NHAN_1:
 
 STAFF_TU_NHAN_2:
   base:
+    revision-id: 1
     material: STICK
     name: "&aTrượng Phép Tù Nhân &e&lII"
     max-durability: 1000
@@ -196,6 +203,7 @@ STAFF_TU_NHAN_2:
 
 STAFF_TU_NHAN_3:
   base:
+    revision-id: 1
     material: STICK
     name: "&aTrượng Phép Tù Nhân &e&lIII"
     max-durability: 1000
@@ -224,6 +232,7 @@ STAFF_TU_NHAN_3:
 
 STAFF_TU_NHAN_4:
   base:
+    revision-id: 1
     material: STICK
     name: "&aTrượng Phép Tù Nhân &e&lIV"
     max-durability: 1000
@@ -252,6 +261,7 @@ STAFF_TU_NHAN_4:
 
 STAFF_TU_NHAN_5:
   base:
+    revision-id: 1
     material: STICK
     name: "&aTrượng Phép Tù Nhân &e&lV"
     max-durability: 1000
@@ -280,6 +290,7 @@ STAFF_TU_NHAN_5:
 
 STAFF_LAO_CONG_1:
   base:
+    revision-id: 1
     material: BONE
     name: "&bTrượng Phép Lao Công &e&lI"
     max-durability: 2000
@@ -315,6 +326,7 @@ STAFF_LAO_CONG_1:
 
 STAFF_LAO_CONG_2:
   base:
+    revision-id: 1
     material: BONE
     name: "&bTrượng Phép Lao Công &e&lII"
     max-durability: 2000
@@ -350,6 +362,7 @@ STAFF_LAO_CONG_2:
 
 STAFF_LAO_CONG_3:
   base:
+    revision-id: 1
     material: BONE
     name: "&bTrượng Phép Lao Công &e&lIII"
     max-durability: 2000
@@ -385,6 +398,7 @@ STAFF_LAO_CONG_3:
 
 STAFF_LAO_CONG_4:
   base:
+    revision-id: 1
     material: BONE
     name: "&bTrượng Phép Lao Công &e&lIV"
     max-durability: 2000
@@ -420,6 +434,7 @@ STAFF_LAO_CONG_4:
 
 STAFF_LAO_CONG_5:
   base:
+    revision-id: 1
     material: BONE
     name: "&bTrượng Phép Lao Công &e&lV"
     max-durability: 2000
@@ -455,6 +470,7 @@ STAFF_LAO_CONG_5:
 
 STAFF_THO_DAO_1:
   base:
+    revision-id: 1
     material: BONE
     name: "&eTrượng Phép Thợ Đào &e&lI"
     max-durability: 3000
@@ -491,6 +507,7 @@ STAFF_THO_DAO_1:
 
 STAFF_THO_DAO_2:
   base:
+    revision-id: 1
     material: BONE
     name: "&eTrượng Phép Thợ Đào &e&lII"
     max-durability: 3000
@@ -527,6 +544,7 @@ STAFF_THO_DAO_2:
 
 STAFF_THO_DAO_3:
   base:
+    revision-id: 1
     material: BONE
     name: "&eTrượng Phép Thợ Đào &e&lIII"
     max-durability: 3000
@@ -563,6 +581,7 @@ STAFF_THO_DAO_3:
 
 STAFF_THO_DAO_4:
   base:
+    revision-id: 1
     material: BONE
     name: "&eTrượng Phép Thợ Đào &e&lIV"
     max-durability: 3000
@@ -599,6 +618,7 @@ STAFF_THO_DAO_4:
 
 STAFF_THO_DAO_5:
   base:
+    revision-id: 1
     material: BONE
     name: "&eTrượng Phép Thợ Đào &e&lV"
     max-durability: 3000
@@ -635,6 +655,7 @@ STAFF_THO_DAO_5:
 
 STAFF_DOI_TRUONG_1:
   base:
+    revision-id: 1
     material: BLAZE_ROD
     name: "&6Trượng Phép Đội Trưởng &e&lI"
     max-durability: 4500
@@ -673,6 +694,7 @@ STAFF_DOI_TRUONG_1:
 
 STAFF_DOI_TRUONG_2:
   base:
+    revision-id: 1
     material: BLAZE_ROD
     name: "&6Trượng Phép Đội Trưởng &e&lII"
     max-durability: 4500
@@ -711,6 +733,7 @@ STAFF_DOI_TRUONG_2:
 
 STAFF_DOI_TRUONG_3:
   base:
+    revision-id: 1
     material: BLAZE_ROD
     name: "&6Trượng Phép Đội Trưởng &e&lIII"
     max-durability: 4500
@@ -749,6 +772,7 @@ STAFF_DOI_TRUONG_3:
 
 STAFF_DOI_TRUONG_4:
   base:
+    revision-id: 1
     material: BLAZE_ROD
     name: "&6Trượng Phép Đội Trưởng &e&lIV"
     max-durability: 4500
@@ -787,6 +811,7 @@ STAFF_DOI_TRUONG_4:
 
 STAFF_DOI_TRUONG_5:
   base:
+    revision-id: 1
     material: BLAZE_ROD
     name: "&6Trượng Phép Đội Trưởng &e&lV"
     max-durability: 4500
@@ -825,6 +850,7 @@ STAFF_DOI_TRUONG_5:
 
 STAFF_PHO_QUAN_NGUC_1:
   base:
+    revision-id: 1
     material: BLAZE_ROD
     name: "&cTrượng Phép Phó Quản Ngục &e&lI"
     max-durability: 6000
@@ -864,6 +890,7 @@ STAFF_PHO_QUAN_NGUC_1:
 
 STAFF_PHO_QUAN_NGUC_2:
   base:
+    revision-id: 1
     material: BLAZE_ROD
     name: "&cTrượng Phép Phó Quản Ngục &e&lII"
     max-durability: 6000
@@ -903,6 +930,7 @@ STAFF_PHO_QUAN_NGUC_2:
 
 STAFF_PHO_QUAN_NGUC_3:
   base:
+    revision-id: 1
     material: BLAZE_ROD
     name: "&cTrượng Phép Phó Quản Ngục &e&lIII"
     max-durability: 6000
@@ -942,6 +970,7 @@ STAFF_PHO_QUAN_NGUC_3:
 
 STAFF_PHO_QUAN_NGUC_4:
   base:
+    revision-id: 1
     material: BLAZE_ROD
     name: "&cTrượng Phép Phó Quản Ngục &e&lIV"
     max-durability: 6000
@@ -981,6 +1010,7 @@ STAFF_PHO_QUAN_NGUC_4:
 
 STAFF_PHO_QUAN_NGUC_5:
   base:
+    revision-id: 1
     material: BLAZE_ROD
     name: "&cTrượng Phép Phó Quản Ngục &e&lV"
     max-durability: 6000
@@ -1020,6 +1050,7 @@ STAFF_PHO_QUAN_NGUC_5:
 
 STAFF_QUAN_NGUC_1:
   base:
+    revision-id: 1
     material: END_ROD
     name: "&dTrượng Phép Quản Ngục &e&lI"
     max-durability: 8000
@@ -1059,6 +1090,7 @@ STAFF_QUAN_NGUC_1:
 
 STAFF_QUAN_NGUC_2:
   base:
+    revision-id: 1
     material: END_ROD
     name: "&dTrượng Phép Quản Ngục &e&lII"
     max-durability: 8000
@@ -1098,6 +1130,7 @@ STAFF_QUAN_NGUC_2:
 
 STAFF_QUAN_NGUC_3:
   base:
+    revision-id: 1
     material: END_ROD
     name: "&dTrượng Phép Quản Ngục &e&lIII"
     max-durability: 8000
@@ -1137,6 +1170,7 @@ STAFF_QUAN_NGUC_3:
 
 STAFF_QUAN_NGUC_4:
   base:
+    revision-id: 1
     material: END_ROD
     name: "&dTrượng Phép Quản Ngục &e&lIV"
     max-durability: 8000
@@ -1176,6 +1210,7 @@ STAFF_QUAN_NGUC_4:
 
 STAFF_QUAN_NGUC_5:
   base:
+    revision-id: 1
     material: END_ROD
     name: "&dTrượng Phép Quản Ngục &e&lV"
     max-durability: 8000
@@ -1215,6 +1250,7 @@ STAFF_QUAN_NGUC_5:
 
 STAFF_BA_CHU_NGUC_TU_1:
   base:
+    revision-id: 1
     material: END_ROD
     name: "&5Trượng Phép Bá Chủ Ngục Tù &e&lI"
     max-durability: 10000
@@ -1260,6 +1296,7 @@ STAFF_BA_CHU_NGUC_TU_1:
 
 STAFF_BA_CHU_NGUC_TU_2:
   base:
+    revision-id: 1
     material: END_ROD
     name: "&5Trượng Phép Bá Chủ Ngục Tù &e&lII"
     max-durability: 10000
@@ -1305,6 +1342,7 @@ STAFF_BA_CHU_NGUC_TU_2:
 
 STAFF_BA_CHU_NGUC_TU_3:
   base:
+    revision-id: 1
     material: END_ROD
     name: "&5Trượng Phép Bá Chủ Ngục Tù &e&lIII"
     max-durability: 10000
@@ -1350,6 +1388,7 @@ STAFF_BA_CHU_NGUC_TU_3:
 
 STAFF_BA_CHU_NGUC_TU_4:
   base:
+    revision-id: 1
     material: END_ROD
     name: "&5Trượng Phép Bá Chủ Ngục Tù &e&lIV"
     max-durability: 10000
@@ -1395,6 +1434,7 @@ STAFF_BA_CHU_NGUC_TU_4:
 
 STAFF_BA_CHU_NGUC_TU_5:
   base:
+    revision-id: 1
     material: END_ROD
     name: "&5Trượng Phép Bá Chủ Ngục Tù &e&lV"
     max-durability: 10000
@@ -1440,6 +1480,7 @@ STAFF_BA_CHU_NGUC_TU_5:
 
 STAFF_VUOT_NGUC_1:
   base:
+    revision-id: 1
     material: END_ROD
     name: "&4Trượng Phép Vượt Ngục &e&lI"
     max-durability: 15000
@@ -1485,6 +1526,7 @@ STAFF_VUOT_NGUC_1:
 
 STAFF_VUOT_NGUC_2:
   base:
+    revision-id: 1
     material: END_ROD
     name: "&4Trượng Phép Vượt Ngục &e&lII"
     max-durability: 15000
@@ -1530,6 +1572,7 @@ STAFF_VUOT_NGUC_2:
 
 STAFF_VUOT_NGUC_3:
   base:
+    revision-id: 1
     material: END_ROD
     name: "&4Trượng Phép Vượt Ngục &e&lIII"
     max-durability: 15000
@@ -1575,6 +1618,7 @@ STAFF_VUOT_NGUC_3:
 
 STAFF_VUOT_NGUC_4:
   base:
+    revision-id: 1
     material: END_ROD
     name: "&4Trượng Phép Vượt Ngục &e&lIV"
     max-durability: 15000
@@ -1620,6 +1664,7 @@ STAFF_VUOT_NGUC_4:
 
 STAFF_VUOT_NGUC_5:
   base:
+    revision-id: 1
     material: END_ROD
     name: "&4Trượng Phép Vượt Ngục &e&lV"
     max-durability: 15000
@@ -1665,6 +1710,7 @@ STAFF_VUOT_NGUC_5:
 
 GACHA_STAFF_REVENANT:
   base:
+    revision-id: 1
     material: IRON_AXE
     custom-model-data: 10005
     itemsadder-item: "fantasy_weapons:revenants_gravescepter"
@@ -1713,6 +1759,7 @@ GACHA_STAFF_REVENANT:
 
 GACHA_STAFF_AZURE_SCYTHE:
   base:
+    revision-id: 1
     material: IRON_HOE
     custom-model-data: 10000
     itemsadder-item: "fantasy_weapons:azure_scythe"
@@ -1760,6 +1807,7 @@ GACHA_STAFF_AZURE_SCYTHE:
 
 GACHA_STAFF_OCULUS:
   base:
+    revision-id: 1
     material: IRON_SWORD
     custom-model-data: 10019
     itemsadder-item: "fantasy_weapons:oculus"

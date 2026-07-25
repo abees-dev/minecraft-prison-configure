@@ -1,5 +1,6 @@
 DA_NANG_CAP_TAN_BINH:
   base:
+    revision-id: 1
     material: FLINT
     name: '&d✦ Cường Hóa Thạch &f&lTân Binh'
     tier: TRASH
@@ -13,6 +14,7 @@ DA_NANG_CAP_TAN_BINH:
 
 DA_NANG_CAP_TU_NHAN:
   base:
+    revision-id: 1
     material: COAL
     name: '&d✦ Cường Hóa Thạch &f&lTù Nhân'
     tier: TRASH
@@ -26,6 +28,7 @@ DA_NANG_CAP_TU_NHAN:
 
 DA_NANG_CAP_LAO_CONG:
   base:
+    revision-id: 1
     material: IRON_INGOT
     name: '&d✦ Cường Hóa Thạch &f&lLao Công'
     tier: TRASH
@@ -39,6 +42,7 @@ DA_NANG_CAP_LAO_CONG:
 
 DA_NANG_CAP_THO_DAO:
   base:
+    revision-id: 1
     material: GOLD_INGOT
     name: '&d✦ Cường Hóa Thạch &f&lThợ Đào'
     tier: COMMON
@@ -52,6 +56,7 @@ DA_NANG_CAP_THO_DAO:
 
 DA_NANG_CAP_DOI_TRUONG:
   base:
+    revision-id: 1
     material: REDSTONE
     name: '&d✦ Cường Hóa Thạch &f&lĐội Trưởng'
     tier: COMMON
@@ -65,6 +70,7 @@ DA_NANG_CAP_DOI_TRUONG:
 
 DA_NANG_CAP_PHO_QUAN_NGUC:
   base:
+    revision-id: 1
     material: DIAMOND
     name: '&d✦ Cường Hóa Thạch &f&lPhó Quản Ngục'
     tier: COMMON
@@ -78,6 +84,7 @@ DA_NANG_CAP_PHO_QUAN_NGUC:
 
 DA_NANG_CAP_QUAN_NGUC:
   base:
+    revision-id: 1
     material: EMERALD
     name: '&d✦ Cường Hóa Thạch &f&lQuản Ngục'
     tier: UNCOMMON
@@ -91,6 +98,7 @@ DA_NANG_CAP_QUAN_NGUC:
 
 DA_NANG_CAP_BA_CHU_NGUC_TU:
   base:
+    revision-id: 1
     material: NETHERITE_SCRAP
     name: '&d✦ Cường Hóa Thạch &f&lBá Chủ Ngục Tù'
     tier: UNCOMMON
@@ -104,6 +112,7 @@ DA_NANG_CAP_BA_CHU_NGUC_TU:
 
 DA_NANG_CAP_VUOT_NGUC:
   base:
+    revision-id: 1
     material: NETHERITE_INGOT
     name: '&d✦ Cường Hóa Thạch &f&lVượt Ngục'
     tier: UNCOMMON
@@ -117,6 +126,7 @@ DA_NANG_CAP_VUOT_NGUC:
 
 NEN_DOI_TAN_BINH:
   base:
+    revision-id: 1
     material: SMOOTH_STONE
     name: '&e◆ Quặng Tinh Luyện &f&lTân Binh'
     tier: TRASH
@@ -130,6 +140,7 @@ NEN_DOI_TAN_BINH:
 
 NEN_DOI_TU_NHAN:
   base:
+    revision-id: 1
     material: COAL_BLOCK
     name: '&e◆ Quặng Tinh Luyện &f&lTù Nhân'
     tier: TRASH
@@ -143,6 +154,7 @@ NEN_DOI_TU_NHAN:
 
 NEN_DOI_LAO_CONG:
   base:
+    revision-id: 1
     material: IRON_BLOCK
     name: '&e◆ Quặng Tinh Luyện &f&lLao Công'
     tier: TRASH
@@ -156,6 +168,7 @@ NEN_DOI_LAO_CONG:
 
 NEN_DOI_THO_DAO:
   base:
+    revision-id: 1
     material: GOLD_BLOCK
     name: '&e◆ Quặng Tinh Luyện &f&lThợ Đào'
     tier: COMMON
@@ -169,6 +182,7 @@ NEN_DOI_THO_DAO:
 
 NEN_DOI_DOI_TRUONG:
   base:
+    revision-id: 1
     material: REDSTONE_BLOCK
     name: '&e◆ Quặng Tinh Luyện &f&lĐội Trưởng'
     tier: COMMON
@@ -182,6 +196,7 @@ NEN_DOI_DOI_TRUONG:
 
 NEN_DOI_PHO_QUAN_NGUC:
   base:
+    revision-id: 1
     material: DIAMOND_BLOCK
     name: '&e◆ Quặng Tinh Luyện &f&lPhó Quản Ngục'
     tier: COMMON
@@ -195,6 +210,7 @@ NEN_DOI_PHO_QUAN_NGUC:
 
 NEN_DOI_QUAN_NGUC:
   base:
+    revision-id: 1
     material: EMERALD_BLOCK
     name: '&e◆ Quặng Tinh Luyện &f&lQuản Ngục'
     tier: UNCOMMON
@@ -208,6 +224,7 @@ NEN_DOI_QUAN_NGUC:
 
 NEN_DOI_BA_CHU_NGUC_TU:
   base:
+    revision-id: 1
     material: ANCIENT_DEBRIS
     name: '&e◆ Quặng Tinh Luyện &f&lBá Chủ Ngục Tù'
     tier: UNCOMMON
@@ -221,6 +238,7 @@ NEN_DOI_BA_CHU_NGUC_TU:
 
 NEN_DOI_VUOT_NGUC:
   base:
+    revision-id: 1
     material: NETHERITE_BLOCK
     name: '&e◆ Quặng Tinh Luyện &f&lVượt Ngục'
     tier: UNCOMMON
@@ -234,6 +252,7 @@ NEN_DOI_VUOT_NGUC:
 
 NEN_BA_VUOT_NGUC:
   base:
+    revision-id: 1
     material: NETHERITE_BLOCK
     name: '&4» Quặng Đại Tinh Luyện &f&lVượt Ngục'
     tier: UNIQUE
@@ -248,6 +267,7 @@ NEN_BA_VUOT_NGUC:
 
 TINHTHE_CUONGHOA_VUKHI:
   base:
+    revision-id: 1
     material: PAPER
     custom-model-data: 10019
     itemsadder-item: "iadungeon:crystal_of_fury_19"
@@ -263,6 +283,7 @@ TINHTHE_CUONGHOA_VUKHI:
 
 TINHTHE_CUONGHOA_GIAP:
   base:
+    revision-id: 1
     material: PAPER
     custom-model-data: 10013
     itemsadder-item: "iadungeon:crystal_of_decaying_13"
@@ -278,6 +299,7 @@ TINHTHE_CUONGHOA_GIAP:
 
 TINHTHE_HUY_DIET:
   base:
+    revision-id: 1
     material: PAPER
     custom-model-data: 10006
     itemsadder-item: "iadungeon:crystal_of_annihilation_6"
