@@ -2,7 +2,7 @@
 # Gán vào item bằng: lore-format: armor-lore
 lore-format:
   # ==================== Yêu Cầu & Khóa Hồn ====================
-  - '{bar}'
+  - "{bar}"
   - "#required-class#"
   - "#required-level#"
   - "#required-dexterity#"
@@ -11,8 +11,8 @@ lore-format:
   - "#soulbound#"
 
   # ==================== Chỉ Số Phòng Thủ & Giáp ====================
-  - '{bar}&f'
-  - '{bar}&8&m-----------&r &b&l🛡 CHỈ SỐ GIÁP &8&m-----------'
+  - "{bar}&f"
+  - "{bar}&8&m-----------&r &b&l🛡 CHỈ SỐ GIÁP &8&m-----------"
   - "#armor#"
   - "#armor-toughness#"
   - "#max-health#"
@@ -35,8 +35,8 @@ lore-format:
   - "#parry-cooldown-reduction#"
 
   # ==================== Hồi Phục & Thuộc Tính RPG ====================
-  - '{bar}&f'
-  - '{bar}&8&m-------&r &e&l✨ THUỘC TÍNH & HỒI PHỤC &8&m-------'
+  - "{bar}&f"
+  - "{bar}&8&m-------&r &e&l✨ THUỘC TÍNH & HỒI PHỤC &8&m-------"
   - "#health-regeneration#"
   - "#max-mana#"
   - "#mana-regeneration#"
@@ -49,29 +49,29 @@ lore-format:
   - "#additional-intelligence#"
 
   # ==================== Phù Phép & Nguyên Tố ====================
-  - '{bar}&f'
-  - '{bar}'
-  - '#elements#'
-  - '#effects#'
+  - "{bar}&f"
+  - "{bar}"
+  - "#elements#"
+  - "#effects#"
 
   # ==================== Kỹ Năng ====================
-  - '{bar}&f'
-  - '{bar}&8&m-------&r &a&l⚡ KỸ NĂNG ĐẶC BIỆT &8&m-------'
-  - '#abilities#'
+  - "{bar}&f"
+  - "{bar}&8&m-------&r &a&l⚡ KỸ NĂNG ĐẶC BIỆT &8&m-------"
+  - "#abilities#"
 
   # ==================== Đá Quý ====================
-  - '{bar}&f'
-  - '{bar}&8&m-------&r &d&l🔮 Ô KHẢM ĐÁ QUÝ &8&m-------'
-  - '#gem-stones#'
-  - '#gem-stone-lore#'
+  - "{bar}&f"
+  - "{bar}&8&m-------&r &d&l🔮 Ô KHẢM ĐÁ QUÝ &8&m-------"
+  - "#gem-stones#"
+  - "#gem-stone-lore#"
 
   # ==================== Mô Tả & Thông Tin Vật Phẩm ====================
-  - '{bar}&f'
-  - '{bar}'
-  - '#lore#'
-  - '{bar}&f'
-  - '#set#'
-  - '{sbar}&8&m---------------------------------'
-  - '#tier#'
-  - '#durability#'
-  - '#item-type#'
+  - "{bar}&f"
+  - "{bar}"
+  - "#lore#"
+  - "{bar}&f"
+  - "#set#"
+  - "{sbar}&8&m---------------------------------"
+  - "#tier#"
+  - "#durability#"
+  - "#item-type#"
