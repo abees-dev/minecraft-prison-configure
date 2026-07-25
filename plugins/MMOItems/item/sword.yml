@@ -1530,10 +1530,10 @@ DONATE_SWORD_LONG_DE:
 
 DONATE_SWORD_LONG_HOANG:
   base:
-    revision-id: 1
+    revision-id: 2
     material: IRON_SWORD
-    custom-model-data: 10171
-    itemsadder-item: "royal_crystal:royal_crysta_sword"
+    custom-model-data: 10034
+    itemsadder-item: "lunarset:lunar_sword"
     name: "&c&l★ Hoàng Long Thiên Kiếm"
     max-durability: 20000
     tier: UNIQUE

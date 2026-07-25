@@ -6157,6 +6157,704 @@ TRADE_BOOTS_HAC_LONG:
       - Uncolored
       - Uncolored
       - Uncolored
+    upgrade:
+      template: armor-upgrade-template
+      max: 100
+    will-break: false
+    unbreakable: false
+
+# ============================================================
+# DONATE ARMOR — Dòng Long Tộc Thiên Giới
+# ============================================================
+
+# --- HỘ LONG (Cấp 1 - RARE) ---
+
+DONATE_HELMET_LONG_VE:
+  base:
+    revision-id: 1
+    material: LEATHER_HELMET
+    custom-model-data: 10029
+    itemsadder-item: "littledragonset:littledragonhelmet"
+    dye-color: "255 203 68"
+    hide-dye: true
+    name: "&a&l✦ Hộ Long Mũ"
+    max-durability: 20000
+    tier: RARE
+    set: LONG_VE_SET
+    hide-enchants: true
+    lore-format: armor-lore
+    lore:
+      - "&a&l✦ Long Tộc Thiên Giới"
+      - "&7 &a●&7 Mũ giáp rèn từ Vảy Rồng Hộ Vệ"
+      - "&7 &a●&7 Tỏa sáng bảo hộ, che chở người sở hữu"
+    armor: 39.0
+    max-health: 63.0
+    armor-toughness: 13.0
+    defense: 12.0
+    gem-sockets:
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
+    upgrade:
+      template: armor-upgrade-template
+      max: 100
+    will-break: false
+    unbreakable: false
+
+DONATE_CHESTPLATE_LONG_VE:
+  base:
+    revision-id: 1
+    material: LEATHER_CHESTPLATE
+    custom-model-data: 10037
+    itemsadder-item: "littledragonset:littledragonchestplate"
+    dye-color: "255 203 68"
+    hide-dye: true
+    name: "&a&l✦ Hộ Long Chiến Giáp"
+    max-durability: 20000
+    tier: RARE
+    set: LONG_VE_SET
+    hide-enchants: true
+    lore-format: armor-lore
+    lore:
+      - "&a&l✦ Long Tộc Thiên Giới"
+      - "&7 &a●&7 Chiến giáp rèn từ Vảy Rồng Hộ Vệ"
+      - "&7 &a●&7 Tỏa sáng bảo hộ, che chở người sở hữu"
+    armor: 68.3
+    max-health: 110.3
+    armor-toughness: 22.8
+    defense: 21.0
+    gem-sockets:
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
+    upgrade:
+      template: armor-upgrade-template
+      max: 100
+    will-break: false
+    unbreakable: false
+
+DONATE_LEGGINGS_LONG_VE:
+  base:
+    revision-id: 1
+    material: LEATHER_LEGGINGS
+    custom-model-data: 10037
+    itemsadder-item: "littledragonset:littledragonleggings"
+    dye-color: "255 203 68"
+    hide-dye: true
+    name: "&a&l✦ Hộ Long Hộ Tất"
+    max-durability: 20000
+    tier: RARE
+    set: LONG_VE_SET
+    hide-enchants: true
+    lore-format: armor-lore
+    lore:
+      - "&a&l✦ Long Tộc Thiên Giới"
+      - "&7 &a●&7 Hộ tất rèn từ Vảy Rồng Hộ Vệ"
+      - "&7 &a●&7 Tỏa sáng bảo hộ, che chở người sở hữu"
+    armor: 48.8
+    max-health: 78.8
+    armor-toughness: 16.3
+    defense: 15.0
+    gem-sockets:
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
+    upgrade:
+      template: armor-upgrade-template
+      max: 100
+    will-break: false
+    unbreakable: false
+
+DONATE_BOOTS_LONG_VE:
+  base:
+    revision-id: 1
+    material: LEATHER_BOOTS
+    custom-model-data: 10037
+    itemsadder-item: "littledragonset:littledragonboots"
+    dye-color: "255 203 68"
+    hide-dye: true
+    name: "&a&l✦ Hộ Long Hài"
+    max-durability: 20000
+    tier: RARE
+    set: LONG_VE_SET
+    hide-enchants: true
+    lore-format: armor-lore
+    lore:
+      - "&a&l✦ Long Tộc Thiên Giới"
+      - "&7 &a●&7 Chiến hài rèn từ Vảy Rồng Hộ Vệ"
+      - "&7 &a●&7 Tỏa sáng bảo hộ, che chở người sở hữu"
+    armor: 39.0
+    max-health: 63.0
+    armor-toughness: 13.0
+    defense: 12.0
+    movement-speed: 0.05
+    gem-sockets:
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
+    upgrade:
+      template: armor-upgrade-template
+      max: 100
+    will-break: false
+    unbreakable: false
+
+# --- CHIẾN LONG (Cấp 2 - VERY_RARE) ---
+
+DONATE_HELMET_LONG_CHIEN:
+  base:
+    revision-id: 1
+    material: LEATHER_HELMET
+    custom-model-data: 10012
+    itemsadder-item: "spartan_set:spartanhelmet"
+    dye-color: "58 48 48"
+    hide-dye: true
+    name: "&e&l⚔ Chiến Long Mũ"
+    max-durability: 20000
+    tier: VERY_RARE
+    set: LONG_CHIEN_SET
+    hide-enchants: true
+    lore-format: armor-lore
+    lore:
+      - "&e&l⚔ Long Tộc Thiên Giới"
+      - "&7 &e●&7 Mũ giáp hun đúc từ Nanh Rồng Chiến"
+      - "&7 &e●&7 Uy áp áp đảo, khiến kẻ thù khiếp sợ"
+    armor: 45.6
+    max-health: 72.4
+    armor-toughness: 15.4
+    defense: 14.6
+    gem-sockets:
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
+    upgrade:
+      template: armor-upgrade-template
+      max: 100
+    will-break: false
+    unbreakable: false
+
+DONATE_CHESTPLATE_LONG_CHIEN:
+  base:
+    revision-id: 1
+    material: LEATHER_CHESTPLATE
+    custom-model-data: 10016
+    itemsadder-item: "spartan_set:spartanchestplate"
+    dye-color: "58 48 48"
+    hide-dye: true
+    name: "&e&l⚔ Chiến Long Chiến Giáp"
+    max-durability: 20000
+    tier: VERY_RARE
+    set: LONG_CHIEN_SET
+    hide-enchants: true
+    lore-format: armor-lore
+    lore:
+      - "&e&l⚔ Long Tộc Thiên Giới"
+      - "&7 &e●&7 Chiến giáp hun đúc từ Nanh Rồng Chiến"
+      - "&7 &e●&7 Vững chắc như núi đá, không thể lung lay"
+    armor: 79.8
+    max-health: 126.7
+    armor-toughness: 26.9
+    defense: 25.6
+    gem-sockets:
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
+    upgrade:
+      template: armor-upgrade-template
+      max: 100
+    will-break: false
+    unbreakable: false
+
+DONATE_LEGGINGS_LONG_CHIEN:
+  base:
+    revision-id: 1
+    material: LEATHER_LEGGINGS
+    custom-model-data: 10016
+    itemsadder-item: "spartan_set:spartanleggings"
+    dye-color: "58 48 48"
+    hide-dye: true
+    name: "&e&l⚔ Chiến Long Hộ Tất"
+    max-durability: 20000
+    tier: VERY_RARE
+    set: LONG_CHIEN_SET
+    hide-enchants: true
+    lore-format: armor-lore
+    lore:
+      - "&e&l⚔ Long Tộc Thiên Giới"
+      - "&7 &e●&7 Hộ tất hun đúc từ Nanh Rồng Chiến"
+      - "&7 &e●&7 Bảo vệ toàn diện, gia tăng sức chịu đựng"
+    armor: 57.0
+    max-health: 90.5
+    armor-toughness: 19.3
+    defense: 18.3
+    gem-sockets:
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
+    upgrade:
+      template: armor-upgrade-template
+      max: 100
+    will-break: false
+    unbreakable: false
+
+DONATE_BOOTS_LONG_CHIEN:
+  base:
+    revision-id: 1
+    material: LEATHER_BOOTS
+    custom-model-data: 10016
+    itemsadder-item: "spartan_set:spartanboots"
+    dye-color: "58 48 48"
+    hide-dye: true
+    name: "&e&l⚔ Chiến Long Hài"
+    max-durability: 20000
+    tier: VERY_RARE
+    set: LONG_CHIEN_SET
+    hide-enchants: true
+    lore-format: armor-lore
+    lore:
+      - "&e&l⚔ Long Tộc Thiên Giới"
+      - "&7 &e●&7 Chiến hài hun đúc từ Nanh Rồng Chiến"
+      - "&7 &e●&7 Bước đi vững chãi trên chiến trường"
+    armor: 45.6
+    max-health: 72.4
+    armor-toughness: 15.4
+    defense: 14.6
+    movement-speed: 0.055
+    gem-sockets:
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
+    upgrade:
+      template: armor-upgrade-template
+      max: 100
+    will-break: false
+    unbreakable: false
+
+# --- THẦN LONG (Cấp 3 - LEGENDARY) ---
+
+DONATE_HELMET_LONG_THAN:
+  base:
+    revision-id: 1
+    material: LEATHER_HELMET
+    custom-model-data: 10018
+    itemsadder-item: "azureset:azurehelmet"
+    dye-color: "39 77 154"
+    hide-dye: true
+    name: "&b&l✦ Thần Long Mũ"
+    max-durability: 20000
+    tier: LEGENDARY
+    set: LONG_THAN_SET
+    hide-enchants: true
+    lore-format: armor-lore
+    lore:
+      - "&b&l✦ Long Tộc Thiên Giới"
+      - "&7 &b●&7 Mũ giáp ngưng tụ từ Tinh Hoa Long Thần"
+      - "&7 &b●&7 Ánh sáng thần thánh bảo vệ linh hồn"
+    armor: 53.1
+    max-health: 83.2
+    armor-toughness: 18.1
+    defense: 17.5
+    gem-sockets:
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
+    upgrade:
+      template: armor-upgrade-template
+      max: 100
+    will-break: false
+    unbreakable: false
+
+DONATE_CHESTPLATE_LONG_THAN:
+  base:
+    revision-id: 1
+    material: LEATHER_CHESTPLATE
+    custom-model-data: 10024
+    itemsadder-item: "azureset:azurechestplate"
+    dye-color: "39 77 154"
+    hide-dye: true
+    name: "&b&l✦ Thần Long Thánh Giáp"
+    max-durability: 20000
+    tier: LEGENDARY
+    set: LONG_THAN_SET
+    hide-enchants: true
+    lore-format: armor-lore
+    lore:
+      - "&b&l✦ Long Tộc Thiên Giới"
+      - "&7 &b●&7 Thánh giáp ngưng tụ từ Tinh Hoa Long Thần"
+      - "&7 &b●&7 Hấp thụ sát thương, chuyển hóa thành lá chắn"
+    armor: 92.9
+    max-health: 145.7
+    armor-toughness: 31.7
+    defense: 30.6
+    gem-sockets:
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
+    upgrade:
+      template: armor-upgrade-template
+      max: 100
+    will-break: false
+    unbreakable: false
+
+DONATE_LEGGINGS_LONG_THAN:
+  base:
+    revision-id: 1
+    material: LEATHER_LEGGINGS
+    custom-model-data: 10024
+    itemsadder-item: "azureset:azureleggings"
+    dye-color: "39 77 154"
+    hide-dye: true
+    name: "&b&l✦ Thần Long Hộ Tất"
+    max-durability: 20000
+    tier: LEGENDARY
+    set: LONG_THAN_SET
+    hide-enchants: true
+    lore-format: armor-lore
+    lore:
+      - "&b&l✦ Long Tộc Thiên Giới"
+      - "&7 &b●&7 Hộ tất ngưng tụ từ Tinh Hoa Long Thần"
+      - "&7 &b●&7 Thần lực bao bọc, di chuyển linh hoạt"
+    armor: 66.4
+    max-health: 104.1
+    armor-toughness: 22.6
+    defense: 21.9
+    gem-sockets:
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
+    upgrade:
+      template: armor-upgrade-template
+      max: 100
+    will-break: false
+    unbreakable: false
+
+DONATE_BOOTS_LONG_THAN:
+  base:
+    revision-id: 1
+    material: LEATHER_BOOTS
+    custom-model-data: 10024
+    itemsadder-item: "azureset:azureboots"
+    dye-color: "39 77 154"
+    hide-dye: true
+    name: "&b&l✦ Thần Long Hài"
+    max-durability: 20000
+    tier: LEGENDARY
+    set: LONG_THAN_SET
+    hide-enchants: true
+    lore-format: armor-lore
+    lore:
+      - "&b&l✦ Long Tộc Thiên Giới"
+      - "&7 &b●&7 Chiến hài ngưng tụ từ Tinh Hoa Long Thần"
+      - "&7 &b●&7 Bước đi trên mây, không gì cản bước"
+    armor: 53.1
+    max-health: 83.2
+    armor-toughness: 18.1
+    defense: 17.5
+    movement-speed: 0.06
+    gem-sockets:
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
+    upgrade:
+      template: armor-upgrade-template
+      max: 100
+    will-break: false
+    unbreakable: false
+
+# --- ĐẾ LONG (Cấp 4 - EPIC) ---
+
+DONATE_HELMET_LONG_DE:
+  base:
+    revision-id: 1
+    material: LEATHER_HELMET
+    custom-model-data: 10032
+    itemsadder-item: "demon_edgeset:demon_edgehelmet"
+    dye-color: "171 23 79"
+    hide-dye: true
+    name: "&4&l◆ Đế Long Mũ"
+    max-durability: 20000
+    tier: EPIC
+    set: LONG_DE_SET
+    hide-enchants: true
+    lore-format: armor-lore
+    lore:
+      - "&4&l◆ Long Tộc Thiên Giới"
+      - "&7 &4●&7 Mũ giáp tôi luyện trong Hỏa Ngục Rồng Đế"
+      - "&7 &4●&7 Uy phong lẫm liệt, bộc phá sức mạnh tối thượng"
+    armor: 61.8
+    max-health: 95.7
+    armor-toughness: 21.2
+    defense: 20.8
+    gem-sockets:
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
+    upgrade:
+      template: armor-upgrade-template
+      max: 100
+    will-break: false
+    unbreakable: false
+
+DONATE_CHESTPLATE_LONG_DE:
+  base:
+    revision-id: 1
+    material: LEATHER_CHESTPLATE
+    custom-model-data: 10040
+    itemsadder-item: "demon_edgeset:demon_edgechestplate"
+    dye-color: "171 23 79"
+    hide-dye: true
+    name: "&4&l◆ Đế Long Diệt Giáp"
+    max-durability: 20000
+    tier: EPIC
+    set: LONG_DE_SET
+    hide-enchants: true
+    lore-format: armor-lore
+    lore:
+      - "&4&l◆ Long Tộc Thiên Giới"
+      - "&7 &4●&7 Diệt giáp tôi luyện trong Hỏa Ngục Rồng Đế"
+      - "&7 &4●&7 Hủy diệt mọi đòn tấn công của kẻ thù"
+    armor: 108.2
+    max-health: 167.5
+    armor-toughness: 37.1
+    defense: 36.4
+    gem-sockets:
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
+    upgrade:
+      template: armor-upgrade-template
+      max: 100
+    will-break: false
+    unbreakable: false
+
+DONATE_LEGGINGS_LONG_DE:
+  base:
+    revision-id: 1
+    material: LEATHER_LEGGINGS
+    custom-model-data: 10040
+    itemsadder-item: "demon_edgeset:demon_edgeleggings"
+    dye-color: "171 23 79"
+    hide-dye: true
+    name: "&4&l◆ Đế Long Hộ Tất"
+    max-durability: 20000
+    tier: EPIC
+    set: LONG_DE_SET
+    hide-enchants: true
+    lore-format: armor-lore
+    lore:
+      - "&4&l◆ Long Tộc Thiên Giới"
+      - "&7 &4●&7 Hộ tất tôi luyện trong Hỏa Ngục Rồng Đế"
+      - "&7 &4●&7 Áp chế ngục hỏa, phòng ngự bất kiên"
+    armor: 77.3
+    max-health: 119.6
+    armor-toughness: 26.5
+    defense: 26.0
+    gem-sockets:
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
+    upgrade:
+      template: armor-upgrade-template
+      max: 100
+    will-break: false
+    unbreakable: false
+
+DONATE_BOOTS_LONG_DE:
+  base:
+    revision-id: 1
+    material: LEATHER_BOOTS
+    custom-model-data: 10040
+    itemsadder-item: "demon_edgeset:demon_edgeboots"
+    dye-color: "171 23 79"
+    hide-dye: true
+    name: "&4&l◆ Đế Long Hài"
+    max-durability: 20000
+    tier: EPIC
+    set: LONG_DE_SET
+    hide-enchants: true
+    lore-format: armor-lore
+    lore:
+      - "&4&l◆ Long Tộc Thiên Giới"
+      - "&7 &4●&7 Chiến hài tôi luyện trong Hỏa Ngục Rồng Đế"
+      - "&7 &4●&7 Mỗi bước đi giẫm nát hoang tàn"
+    armor: 61.8
+    max-health: 95.7
+    armor-toughness: 21.2
+    defense: 20.8
+    movement-speed: 0.065
+    gem-sockets:
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
+    upgrade:
+      template: armor-upgrade-template
+      max: 100
+    will-break: false
+    unbreakable: false
+
+# --- HOÀNG LONG (Cấp 5 - UNIQUE) ---
+
+DONATE_HELMET_LONG_HOANG:
+  base:
+    revision-id: 2
+    material: PAPER
+    custom-model-data: 10124
+    itemsadder-item: "lunarset:lunar_helmet"
+    dye-color: "81 166 102"
+    hide-dye: true
+    name: "&c&l★ Hoàng Long Mũ"
+    max-durability: 20000
+    tier: UNIQUE
+    set: LONG_HOANG_SET
+    hide-enchants: true
+    lore-format: armor-lore
+    lore:
+      - "&c&l★ Huyền Thoại Long Tộc"
+      - "&7 &c●&7 Mũ giáp tối thượng rèn từ Vảy Rồng Hoàng Kim"
+      - "&7 &c●&7 Tỏa hào quang hoàng gia, vạn vật tôn sùng"
+    armor: 72.0
+    max-health: 110.0
+    armor-toughness: 24.8
+    defense: 24.5
+    gem-sockets:
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
+    upgrade:
+      template: armor-upgrade-template
+      max: 100
+    will-break: false
+    unbreakable: false
+
+DONATE_CHESTPLATE_LONG_HOANG:
+  base:
+    revision-id: 2
+    material: LEATHER_CHESTPLATE
+    custom-model-data: 10000
+    itemsadder-item: "lunarset:lunarchestplate"
+    dye-color: "81 166 102"
+    hide-dye: true
+    name: "&c&l★ Hoàng Long Thiên Giáp"
+    max-durability: 20000
+    tier: UNIQUE
+    set: LONG_HOANG_SET
+    hide-enchants: true
+    lore-format: armor-lore
+    lore:
+      - "&c&l★ Huyền Thoại Long Tộc"
+      - "&7 &c●&7 Thiên giáp tối thượng rèn từ Vảy Rồng Hoàng Kim"
+      - "&7 &c●&7 Bất tử bất diệt, phòng thủ vô song"
+    armor: 126.0
+    max-health: 192.5
+    armor-toughness: 43.4
+    defense: 42.9
+    gem-sockets:
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
+    upgrade:
+      template: armor-upgrade-template
+      max: 100
+    will-break: false
+    unbreakable: false
+
+DONATE_LEGGINGS_LONG_HOANG:
+  base:
+    revision-id: 2
+    material: LEATHER_LEGGINGS
+    custom-model-data: 10000
+    itemsadder-item: "lunarset:lunarleggings"
+    dye-color: "81 166 102"
+    hide-dye: true
+    name: "&c&l★ Hoàng Long Hộ Tất"
+    max-durability: 20000
+    tier: UNIQUE
+    set: LONG_HOANG_SET
+    hide-enchants: true
+    lore-format: armor-lore
+    lore:
+      - "&c&l★ Huyền Thoại Long Tộc"
+      - "&7 &c●&7 Hộ tất tối thượng rèn từ Vảy Rồng Hoàng Kim"
+      - "&7 &c●&7 Kiên cố tuyệt đối, không công phá được"
+    armor: 90.0
+    max-health: 137.5
+    armor-toughness: 31.0
+    defense: 30.6
+    gem-sockets:
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
+    upgrade:
+      template: armor-upgrade-template
+      max: 100
+    will-break: false
+    unbreakable: false
+
+DONATE_BOOTS_LONG_HOANG:
+  base:
+    revision-id: 2
+    material: LEATHER_BOOTS
+    custom-model-data: 10000
+    itemsadder-item: "lunarset:lunarboots"
+    dye-color: "81 166 102"
+    hide-dye: true
+    name: "&c&l★ Hoàng Long Hài"
+    max-durability: 20000
+    tier: UNIQUE
+    set: LONG_HOANG_SET
+    hide-enchants: true
+    lore-format: armor-lore
+    lore:
+      - "&c&l★ Huyền Thoại Long Tộc"
+      - "&7 &c●&7 Chiến hài tối thượng rèn từ Vảy Rồng Hoàng Kim"
+      - "&7 &c●&7 Lướt trên hư không, xé tan không gian"
+    armor: 72.0
+    max-health: 110.0
+    armor-toughness: 24.8
+    defense: 24.5
+    movement-speed: 0.07
+    gem-sockets:
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
       - Uncolored
     upgrade:
       template: armor-upgrade-template

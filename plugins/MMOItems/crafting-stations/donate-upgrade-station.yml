@@ -1,0 +1,306 @@
+name: '&8[&e★&8] &e&lBÀN THIÊN GIỚI LONG TỘC (#page#/#max#)'
+max-queue-size: 10
+sound: BLOCK_ANVIL_USE
+layout: trade-5x5
+
+items:
+    fill:
+        material: GRAY_STAINED_GLASS_PANE
+        name: '&7'
+    no-recipe:
+        material: RED_STAINED_GLASS_PANE
+        name: '&cChưa Chọn Công Thức'
+    no-queue-item:
+        material: BLACK_STAINED_GLASS_PANE
+        name: '&7Ô Hàng Chờ Trống'
+
+recipes:
+    # ==========================================================
+    # HÀNG 1: HỘ LONG (Cấp 1 - RARE)
+    # ==========================================================
+    kiem-ho-long:
+        output:
+            type: SWORD
+            id: DONATE_SWORD_LONG_VE
+            amount: 1
+        name: "&a&l✦ Nâng Cấp Hộ Long Bảo Kiếm"
+        crafting-time: 0
+        ingredients:
+        - mmoitem{type=SWORD,id=SWORD_VUOT_NGUC_5,amount=1,display="Kiếm Vượt Ngục V"}
+        # TODO: Thêm nguyên liệu nâng cấp tại đây
+
+    non-ho-long:
+        output:
+            type: ARMOR
+            id: DONATE_HELMET_LONG_VE
+            amount: 1
+        name: "&a&l✦ Nâng Cấp Hộ Long Mũ"
+        crafting-time: 0
+        ingredients:
+        - mmoitem{type=ARMOR,id=HELMET_VUOT_NGUC_5,amount=1,display="Nón Vượt Ngục V"}
+        # TODO: Thêm nguyên liệu nâng cấp tại đây
+
+    ao-ho-long:
+        output:
+            type: ARMOR
+            id: DONATE_CHESTPLATE_LONG_VE
+            amount: 1
+        name: "&a&l✦ Nâng Cấp Hộ Long Chiến Giáp"
+        crafting-time: 0
+        ingredients:
+        - mmoitem{type=ARMOR,id=CHESTPLATE_VUOT_NGUC_5,amount=1,display="Áo Giáp Vượt Ngục V"}
+        # TODO: Thêm nguyên liệu nâng cấp tại đây
+
+    quan-ho-long:
+        output:
+            type: ARMOR
+            id: DONATE_LEGGINGS_LONG_VE
+            amount: 1
+        name: "&a&l✦ Nâng Cấp Hộ Long Hộ Tất"
+        crafting-time: 0
+        ingredients:
+        - mmoitem{type=ARMOR,id=LEGGINGS_VUOT_NGUC_5,amount=1,display="Quần Giáp Vượt Ngục V"}
+        # TODO: Thêm nguyên liệu nâng cấp tại đây
+
+    giay-ho-long:
+        output:
+            type: ARMOR
+            id: DONATE_BOOTS_LONG_VE
+            amount: 1
+        name: "&a&l✦ Nâng Cấp Hộ Long Hài"
+        crafting-time: 0
+        ingredients:
+        - mmoitem{type=ARMOR,id=BOOTS_VUOT_NGUC_5,amount=1,display="Giày Vượt Ngục V"}
+        # TODO: Thêm nguyên liệu nâng cấp tại đây
+
+    # ==========================================================
+    # HÀNG 2: CHIẾN LONG (Cấp 2 - VERY_RARE) [Hộ Long → Chiến Long]
+    # ==========================================================
+    kiem-chien-long:
+        output:
+            type: SWORD
+            id: DONATE_SWORD_LONG_CHIEN
+            amount: 1
+        name: "&e&l⚔ Tiến Hóa Chiến Long Cuồng Kiếm"
+        crafting-time: 0
+        ingredients:
+        - mmoitem{type=SWORD,id=DONATE_SWORD_LONG_VE,amount=1,display="Hộ Long Bảo Kiếm"}
+        # TODO: Thêm nguyên liệu nâng cấp tại đây
+
+    non-chien-long:
+        output:
+            type: ARMOR
+            id: DONATE_HELMET_LONG_CHIEN
+            amount: 1
+        name: "&e&l⚔ Tiến Hóa Chiến Long Mũ"
+        crafting-time: 0
+        ingredients:
+        - mmoitem{type=ARMOR,id=DONATE_HELMET_LONG_VE,amount=1,display="Hộ Long Mũ"}
+        # TODO: Thêm nguyên liệu nâng cấp tại đây
+
+    ao-chien-long:
+        output:
+            type: ARMOR
+            id: DONATE_CHESTPLATE_LONG_CHIEN
+            amount: 1
+        name: "&e&l⚔ Tiến Hóa Chiến Long Chiến Giáp"
+        crafting-time: 0
+        ingredients:
+        - mmoitem{type=ARMOR,id=DONATE_CHESTPLATE_LONG_VE,amount=1,display="Hộ Long Chiến Giáp"}
+        # TODO: Thêm nguyên liệu nâng cấp tại đây
+
+    quan-chien-long:
+        output:
+            type: ARMOR
+            id: DONATE_LEGGINGS_LONG_CHIEN
+            amount: 1
+        name: "&e&l⚔ Tiến Hóa Chiến Long Hộ Tất"
+        crafting-time: 0
+        ingredients:
+        - mmoitem{type=ARMOR,id=DONATE_LEGGINGS_LONG_VE,amount=1,display="Hộ Long Hộ Tất"}
+        # TODO: Thêm nguyên liệu nâng cấp tại đây
+
+    giay-chien-long:
+        output:
+            type: ARMOR
+            id: DONATE_BOOTS_LONG_CHIEN
+            amount: 1
+        name: "&e&l⚔ Tiến Hóa Chiến Long Hài"
+        crafting-time: 0
+        ingredients:
+        - mmoitem{type=ARMOR,id=DONATE_BOOTS_LONG_VE,amount=1,display="Hộ Long Hài"}
+        # TODO: Thêm nguyên liệu nâng cấp tại đây
+
+    # ==========================================================
+    # HÀNG 3: THẦN LONG (Cấp 3 - LEGENDARY) [Chiến Long → Thần Long]
+    # ==========================================================
+    kiem-than-long:
+        output:
+            type: SWORD
+            id: DONATE_SWORD_LONG_THAN
+            amount: 1
+        name: "&b&l✦ Tiến Hóa Thần Long Thánh Kiếm"
+        crafting-time: 0
+        ingredients:
+        - mmoitem{type=SWORD,id=DONATE_SWORD_LONG_CHIEN,amount=1,display="Chiến Long Cuồng Kiếm"}
+        # TODO: Thêm nguyên liệu nâng cấp tại đây
+
+    non-than-long:
+        output:
+            type: ARMOR
+            id: DONATE_HELMET_LONG_THAN
+            amount: 1
+        name: "&b&l✦ Tiến Hóa Thần Long Mũ"
+        crafting-time: 0
+        ingredients:
+        - mmoitem{type=ARMOR,id=DONATE_HELMET_LONG_CHIEN,amount=1,display="Chiến Long Mũ"}
+        # TODO: Thêm nguyên liệu nâng cấp tại đây
+
+    ao-than-long:
+        output:
+            type: ARMOR
+            id: DONATE_CHESTPLATE_LONG_THAN
+            amount: 1
+        name: "&b&l✦ Tiến Hóa Thần Long Thánh Giáp"
+        crafting-time: 0
+        ingredients:
+        - mmoitem{type=ARMOR,id=DONATE_CHESTPLATE_LONG_CHIEN,amount=1,display="Chiến Long Chiến Giáp"}
+        # TODO: Thêm nguyên liệu nâng cấp tại đây
+
+    quan-than-long:
+        output:
+            type: ARMOR
+            id: DONATE_LEGGINGS_LONG_THAN
+            amount: 1
+        name: "&b&l✦ Tiến Hóa Thần Long Hộ Tất"
+        crafting-time: 0
+        ingredients:
+        - mmoitem{type=ARMOR,id=DONATE_LEGGINGS_LONG_CHIEN,amount=1,display="Chiến Long Hộ Tất"}
+        # TODO: Thêm nguyên liệu nâng cấp tại đây
+
+    giay-than-long:
+        output:
+            type: ARMOR
+            id: DONATE_BOOTS_LONG_THAN
+            amount: 1
+        name: "&b&l✦ Tiến Hóa Thần Long Hài"
+        crafting-time: 0
+        ingredients:
+        - mmoitem{type=ARMOR,id=DONATE_BOOTS_LONG_CHIEN,amount=1,display="Chiến Long Hài"}
+        # TODO: Thêm nguyên liệu nâng cấp tại đây
+
+    # ==========================================================
+    # HÀNG 4: ĐẾ LONG (Cấp 4 - EPIC) [Thần Long → Đế Long]
+    # ==========================================================
+    kiem-de-long:
+        output:
+            type: SWORD
+            id: DONATE_SWORD_LONG_DE
+            amount: 1
+        name: "&4&l◆ Tiến Hóa Đế Long Diệt Kiếm"
+        crafting-time: 0
+        ingredients:
+        - mmoitem{type=SWORD,id=DONATE_SWORD_LONG_THAN,amount=1,display="Thần Long Thánh Kiếm"}
+        # TODO: Thêm nguyên liệu nâng cấp tại đây
+
+    non-de-long:
+        output:
+            type: ARMOR
+            id: DONATE_HELMET_LONG_DE
+            amount: 1
+        name: "&4&l◆ Tiến Hóa Đế Long Mũ"
+        crafting-time: 0
+        ingredients:
+        - mmoitem{type=ARMOR,id=DONATE_HELMET_LONG_THAN,amount=1,display="Thần Long Mũ"}
+        # TODO: Thêm nguyên liệu nâng cấp tại đây
+
+    ao-de-long:
+        output:
+            type: ARMOR
+            id: DONATE_CHESTPLATE_LONG_DE
+            amount: 1
+        name: "&4&l◆ Tiến Hóa Đế Long Diệt Giáp"
+        crafting-time: 0
+        ingredients:
+        - mmoitem{type=ARMOR,id=DONATE_CHESTPLATE_LONG_THAN,amount=1,display="Thần Long Thánh Giáp"}
+        # TODO: Thêm nguyên liệu nâng cấp tại đây
+
+    quan-de-long:
+        output:
+            type: ARMOR
+            id: DONATE_LEGGINGS_LONG_DE
+            amount: 1
+        name: "&4&l◆ Tiến Hóa Đế Long Hộ Tất"
+        crafting-time: 0
+        ingredients:
+        - mmoitem{type=ARMOR,id=DONATE_LEGGINGS_LONG_THAN,amount=1,display="Thần Long Hộ Tất"}
+        # TODO: Thêm nguyên liệu nâng cấp tại đây
+
+    giay-de-long:
+        output:
+            type: ARMOR
+            id: DONATE_BOOTS_LONG_DE
+            amount: 1
+        name: "&4&l◆ Tiến Hóa Đế Long Hài"
+        crafting-time: 0
+        ingredients:
+        - mmoitem{type=ARMOR,id=DONATE_BOOTS_LONG_THAN,amount=1,display="Thần Long Hài"}
+        # TODO: Thêm nguyên liệu nâng cấp tại đây
+
+    # ==========================================================
+    # HÀNG 5: HOÀNG LONG (Cấp 5 - UNIQUE) [Đế Long → Hoàng Long]
+    # ==========================================================
+    kiem-hoang-long:
+        output:
+            type: SWORD
+            id: DONATE_SWORD_LONG_HOANG
+            amount: 1
+        name: "&c&l★ Tiến Hóa Hoàng Long Thiên Kiếm"
+        crafting-time: 0
+        ingredients:
+        - mmoitem{type=SWORD,id=DONATE_SWORD_LONG_DE,amount=1,display="Đế Long Diệt Kiếm"}
+        # TODO: Thêm nguyên liệu nâng cấp tại đây
+
+    non-hoang-long:
+        output:
+            type: ARMOR
+            id: DONATE_HELMET_LONG_HOANG
+            amount: 1
+        name: "&c&l★ Tiến Hóa Hoàng Long Mũ"
+        crafting-time: 0
+        ingredients:
+        - mmoitem{type=ARMOR,id=DONATE_HELMET_LONG_DE,amount=1,display="Đế Long Mũ"}
+        # TODO: Thêm nguyên liệu nâng cấp tại đây
+
+    ao-hoang-long:
+        output:
+            type: ARMOR
+            id: DONATE_CHESTPLATE_LONG_HOANG
+            amount: 1
+        name: "&c&l★ Tiến Hóa Hoàng Long Thiên Giáp"
+        crafting-time: 0
+        ingredients:
+        - mmoitem{type=ARMOR,id=DONATE_CHESTPLATE_LONG_DE,amount=1,display="Đế Long Diệt Giáp"}
+        # TODO: Thêm nguyên liệu nâng cấp tại đây
+
+    quan-hoang-long:
+        output:
+            type: ARMOR
+            id: DONATE_LEGGINGS_LONG_HOANG
+            amount: 1
+        name: "&c&l★ Tiến Hóa Hoàng Long Hộ Tất"
+        crafting-time: 0
+        ingredients:
+        - mmoitem{type=ARMOR,id=DONATE_LEGGINGS_LONG_DE,amount=1,display="Đế Long Hộ Tất"}
+        # TODO: Thêm nguyên liệu nâng cấp tại đây
+
+    giay-hoang-long:
+        output:
+            type: ARMOR
+            id: DONATE_BOOTS_LONG_HOANG
+            amount: 1
+        name: "&c&l★ Tiến Hóa Hoàng Long Hài"
+        crafting-time: 0
+        ingredients:
+        - mmoitem{type=ARMOR,id=DONATE_BOOTS_LONG_DE,amount=1,display="Đế Long Hài"}
+        # TODO: Thêm nguyên liệu nâng cấp tại đây

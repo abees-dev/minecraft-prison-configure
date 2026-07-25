@@ -68,9 +68,9 @@ lore-format:
   # ==================== Mô Tả & Thông Tin Vật Phẩm ====================
   - '{bar}&f'
   - '{bar}'
-  - '#lore#
+  - '#lore#'
   - '{bar}&f'
-  - '#set#''
+  - '#set#'
   - '{sbar}&8&m---------------------------------'
   - '#tier#'
   - '#durability#'

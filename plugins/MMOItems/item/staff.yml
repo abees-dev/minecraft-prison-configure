@@ -17,9 +17,9 @@ STAFF_TAN_BINH_1:
     staff-spirit: MANA_SPIRIT
     ability:
       ability-1:
-        type: FIREBALL
+        type: ARCANE_MISSILE
         mode: RIGHT_CLICK
-        cooldown: 5.0
+        cooldown: 4.5
         damage: 6.8
     upgrade:
       template: weapon-upgrade-template
@@ -46,9 +46,9 @@ STAFF_TAN_BINH_2:
     staff-spirit: MANA_SPIRIT
     ability:
       ability-1:
-        type: FIREBALL
+        type: ARCANE_MISSILE
         mode: RIGHT_CLICK
-        cooldown: 5.0
+        cooldown: 4.5
         damage: 7.4
     upgrade:
       template: weapon-upgrade-template
@@ -75,9 +75,9 @@ STAFF_TAN_BINH_3:
     staff-spirit: MANA_SPIRIT
     ability:
       ability-1:
-        type: FIREBALL
+        type: ARCANE_MISSILE
         mode: RIGHT_CLICK
-        cooldown: 5.0
+        cooldown: 4.5
         damage: 8.2
     upgrade:
       template: weapon-upgrade-template
@@ -104,9 +104,9 @@ STAFF_TAN_BINH_4:
     staff-spirit: MANA_SPIRIT
     ability:
       ability-1:
-        type: FIREBALL
+        type: ARCANE_MISSILE
         mode: RIGHT_CLICK
-        cooldown: 5.0
+        cooldown: 4.5
         damage: 8.8
     upgrade:
       template: weapon-upgrade-template
@@ -133,9 +133,9 @@ STAFF_TAN_BINH_5:
     staff-spirit: MANA_SPIRIT
     ability:
       ability-1:
-        type: FIREBALL
+        type: ARCANE_MISSILE
         mode: RIGHT_CLICK
-        cooldown: 5.0
+        cooldown: 4.5
         damage: 9.6
     upgrade:
       template: weapon-upgrade-template
@@ -162,10 +162,10 @@ STAFF_TU_NHAN_1:
     staff-spirit: MANA_SPIRIT
     ability:
       ability-1:
-        type: FIREBALL
+        type: ARCANE_MISSILE
         mode: RIGHT_CLICK
-        cooldown: 5.0
-        damage: 8.5
+        cooldown: 4.5
+        damage: 10.5
     upgrade:
       template: weapon-upgrade-template
       max: 100
@@ -191,10 +191,10 @@ STAFF_TU_NHAN_2:
     staff-spirit: MANA_SPIRIT
     ability:
       ability-1:
-        type: FIREBALL
+        type: ARCANE_MISSILE
         mode: RIGHT_CLICK
-        cooldown: 5.0
-        damage: 9.2
+        cooldown: 4.5
+        damage: 11.2
     upgrade:
       template: weapon-upgrade-template
       max: 100
@@ -220,10 +220,10 @@ STAFF_TU_NHAN_3:
     staff-spirit: MANA_SPIRIT
     ability:
       ability-1:
-        type: FIREBALL
+        type: ARCANE_MISSILE
         mode: RIGHT_CLICK
-        cooldown: 5.0
-        damage: 9.9
+        cooldown: 4.5
+        damage: 12.0
     upgrade:
       template: weapon-upgrade-template
       max: 100
@@ -249,10 +249,10 @@ STAFF_TU_NHAN_4:
     staff-spirit: MANA_SPIRIT
     ability:
       ability-1:
-        type: FIREBALL
+        type: ARCANE_MISSILE
         mode: RIGHT_CLICK
-        cooldown: 5.0
-        damage: 10.6
+        cooldown: 4.5
+        damage: 12.8
     upgrade:
       template: weapon-upgrade-template
       max: 100
@@ -278,10 +278,10 @@ STAFF_TU_NHAN_5:
     staff-spirit: MANA_SPIRIT
     ability:
       ability-1:
-        type: FIREBALL
+        type: ARCANE_MISSILE
         mode: RIGHT_CLICK
-        cooldown: 5.0
-        damage: 11.3
+        cooldown: 4.5
+        damage: 13.5
     upgrade:
       template: weapon-upgrade-template
       max: 100
@@ -291,7 +291,8 @@ STAFF_TU_NHAN_5:
 STAFF_LAO_CONG_1:
   base:
     revision-id: 1
-    material: BONE
+    material: IRON_SWORD
+    itemsadder-item: "firework_set:firework_staff"
     name: "&bTrượng Phép Lao Công &e&lI"
     max-durability: 2000
     tier: UNCOMMON
@@ -307,15 +308,15 @@ STAFF_LAO_CONG_1:
     staff-spirit: NETHER_SPIRIT
     ability:
       ability-1:
-        type: FIREBALL
+        type: LIGHTNING_BEAM
         mode: RIGHT_CLICK
         cooldown: 5.0
-        damage: 11.3
+        damage: 15.0
       ability-2:
-        type: HEAL
+        type: MINOR_HEALINGS
         mode: SHIFT_RIGHT_CLICK
-        cooldown: 12.0
-        value: 6.7
+        cooldown: 10.0
+        value: 10.0
     gem-sockets:
       - Uncolored
     upgrade:
@@ -327,7 +328,8 @@ STAFF_LAO_CONG_1:
 STAFF_LAO_CONG_2:
   base:
     revision-id: 1
-    material: BONE
+    material: IRON_SWORD
+    itemsadder-item: "firework_set:firework_staff"
     name: "&bTrượng Phép Lao Công &e&lII"
     max-durability: 2000
     tier: UNCOMMON
@@ -343,15 +345,15 @@ STAFF_LAO_CONG_2:
     staff-spirit: NETHER_SPIRIT
     ability:
       ability-1:
-        type: FIREBALL
+        type: LIGHTNING_BEAM
         mode: RIGHT_CLICK
         cooldown: 5.0
-        damage: 12.0
+        damage: 16.0
       ability-2:
-        type: HEAL
+        type: MINOR_HEALINGS
         mode: SHIFT_RIGHT_CLICK
-        cooldown: 12.0
-        value: 7.0
+        cooldown: 10.0
+        value: 11.0
     gem-sockets:
       - Uncolored
     upgrade:
@@ -363,7 +365,8 @@ STAFF_LAO_CONG_2:
 STAFF_LAO_CONG_3:
   base:
     revision-id: 1
-    material: BONE
+    material: IRON_SWORD
+    itemsadder-item: "firework_set:firework_staff"
     name: "&bTrượng Phép Lao Công &e&lIII"
     max-durability: 2000
     tier: UNCOMMON
@@ -379,15 +382,15 @@ STAFF_LAO_CONG_3:
     staff-spirit: NETHER_SPIRIT
     ability:
       ability-1:
-        type: FIREBALL
+        type: LIGHTNING_BEAM
         mode: RIGHT_CLICK
         cooldown: 5.0
-        damage: 12.7
+        damage: 17.0
       ability-2:
-        type: HEAL
+        type: MINOR_HEALINGS
         mode: SHIFT_RIGHT_CLICK
-        cooldown: 12.0
-        value: 7.3
+        cooldown: 10.0
+        value: 12.0
     gem-sockets:
       - Uncolored
     upgrade:
@@ -399,7 +402,8 @@ STAFF_LAO_CONG_3:
 STAFF_LAO_CONG_4:
   base:
     revision-id: 1
-    material: BONE
+    material: IRON_SWORD
+    itemsadder-item: "firework_set:firework_staff"
     name: "&bTrượng Phép Lao Công &e&lIV"
     max-durability: 2000
     tier: UNCOMMON
@@ -415,15 +419,15 @@ STAFF_LAO_CONG_4:
     staff-spirit: NETHER_SPIRIT
     ability:
       ability-1:
-        type: FIREBALL
+        type: LIGHTNING_BEAM
         mode: RIGHT_CLICK
         cooldown: 5.0
-        damage: 13.4
+        damage: 18.0
       ability-2:
-        type: HEAL
+        type: MINOR_HEALINGS
         mode: SHIFT_RIGHT_CLICK
-        cooldown: 12.0
-        value: 7.6
+        cooldown: 10.0
+        value: 13.0
     gem-sockets:
       - Uncolored
     upgrade:
@@ -435,7 +439,8 @@ STAFF_LAO_CONG_4:
 STAFF_LAO_CONG_5:
   base:
     revision-id: 1
-    material: BONE
+    material: IRON_SWORD
+    itemsadder-item: "firework_set:firework_staff"
     name: "&bTrượng Phép Lao Công &e&lV"
     max-durability: 2000
     tier: UNCOMMON
@@ -451,15 +456,15 @@ STAFF_LAO_CONG_5:
     staff-spirit: NETHER_SPIRIT
     ability:
       ability-1:
-        type: FIREBALL
+        type: LIGHTNING_BEAM
         mode: RIGHT_CLICK
         cooldown: 5.0
-        damage: 14.1
+        damage: 19.0
       ability-2:
-        type: HEAL
+        type: MINOR_HEALINGS
         mode: SHIFT_RIGHT_CLICK
-        cooldown: 12.0
-        value: 7.9
+        cooldown: 10.0
+        value: 14.0
     gem-sockets:
       - Uncolored
     upgrade:
@@ -471,7 +476,8 @@ STAFF_LAO_CONG_5:
 STAFF_THO_DAO_1:
   base:
     revision-id: 1
-    material: BONE
+    material: IRON_SWORD
+    itemsadder-item: "mysticcyanset:mysticcyan_staff"
     name: "&eTrượng Phép Thợ Đào &e&lI"
     max-durability: 3000
     tier: RARE
@@ -487,15 +493,15 @@ STAFF_THO_DAO_1:
     staff-spirit: NETHER_SPIRIT
     ability:
       ability-1:
-        type: FIREBALL
+        type: MAGMA_FISSURE
         mode: RIGHT_CLICK
         cooldown: 5.0
-        damage: 14.8
+        damage: 20.0
       ability-2:
-        type: HEAL
+        type: GREATER_HEALINGS
         mode: SHIFT_RIGHT_CLICK
-        cooldown: 12.0
-        value: 8.2
+        cooldown: 10.0
+        value: 15.0
     gem-sockets:
       - Uncolored
       - Uncolored
@@ -508,7 +514,8 @@ STAFF_THO_DAO_1:
 STAFF_THO_DAO_2:
   base:
     revision-id: 1
-    material: BONE
+    material: IRON_SWORD
+    itemsadder-item: "mysticcyanset:mysticcyan_staff"
     name: "&eTrượng Phép Thợ Đào &e&lII"
     max-durability: 3000
     tier: RARE
@@ -524,15 +531,15 @@ STAFF_THO_DAO_2:
     staff-spirit: NETHER_SPIRIT
     ability:
       ability-1:
-        type: FIREBALL
+        type: MAGMA_FISSURE
         mode: RIGHT_CLICK
         cooldown: 5.0
-        damage: 15.5
+        damage: 21.2
       ability-2:
-        type: HEAL
+        type: GREATER_HEALINGS
         mode: SHIFT_RIGHT_CLICK
-        cooldown: 12.0
-        value: 8.5
+        cooldown: 10.0
+        value: 16.0
     gem-sockets:
       - Uncolored
       - Uncolored
@@ -545,7 +552,8 @@ STAFF_THO_DAO_2:
 STAFF_THO_DAO_3:
   base:
     revision-id: 1
-    material: BONE
+    material: IRON_SWORD
+    itemsadder-item: "mysticcyanset:mysticcyan_staff"
     name: "&eTrượng Phép Thợ Đào &e&lIII"
     max-durability: 3000
     tier: RARE
@@ -561,15 +569,15 @@ STAFF_THO_DAO_3:
     staff-spirit: NETHER_SPIRIT
     ability:
       ability-1:
-        type: FIREBALL
+        type: MAGMA_FISSURE
         mode: RIGHT_CLICK
         cooldown: 5.0
-        damage: 16.2
+        damage: 22.5
       ability-2:
-        type: HEAL
+        type: GREATER_HEALINGS
         mode: SHIFT_RIGHT_CLICK
-        cooldown: 12.0
-        value: 8.8
+        cooldown: 10.0
+        value: 17.0
     gem-sockets:
       - Uncolored
       - Uncolored
@@ -582,7 +590,8 @@ STAFF_THO_DAO_3:
 STAFF_THO_DAO_4:
   base:
     revision-id: 1
-    material: BONE
+    material: IRON_SWORD
+    itemsadder-item: "mysticcyanset:mysticcyan_staff"
     name: "&eTrượng Phép Thợ Đào &e&lIV"
     max-durability: 3000
     tier: RARE
@@ -598,15 +607,15 @@ STAFF_THO_DAO_4:
     staff-spirit: NETHER_SPIRIT
     ability:
       ability-1:
-        type: FIREBALL
+        type: MAGMA_FISSURE
         mode: RIGHT_CLICK
         cooldown: 5.0
-        damage: 16.9
+        damage: 23.8
       ability-2:
-        type: HEAL
+        type: GREATER_HEALINGS
         mode: SHIFT_RIGHT_CLICK
-        cooldown: 12.0
-        value: 9.1
+        cooldown: 10.0
+        value: 18.0
     gem-sockets:
       - Uncolored
       - Uncolored
@@ -619,7 +628,8 @@ STAFF_THO_DAO_4:
 STAFF_THO_DAO_5:
   base:
     revision-id: 1
-    material: BONE
+    material: IRON_SWORD
+    itemsadder-item: "mysticcyanset:mysticcyan_staff"
     name: "&eTrượng Phép Thợ Đào &e&lV"
     max-durability: 3000
     tier: RARE
@@ -635,15 +645,15 @@ STAFF_THO_DAO_5:
     staff-spirit: NETHER_SPIRIT
     ability:
       ability-1:
-        type: FIREBALL
+        type: MAGMA_FISSURE
         mode: RIGHT_CLICK
         cooldown: 5.0
-        damage: 17.6
+        damage: 25.0
       ability-2:
-        type: HEAL
+        type: GREATER_HEALINGS
         mode: SHIFT_RIGHT_CLICK
-        cooldown: 12.0
-        value: 9.4
+        cooldown: 10.0
+        value: 19.0
     gem-sockets:
       - Uncolored
       - Uncolored
@@ -656,7 +666,8 @@ STAFF_THO_DAO_5:
 STAFF_DOI_TRUONG_1:
   base:
     revision-id: 1
-    material: BLAZE_ROD
+    material: IRON_SWORD
+    itemsadder-item: "nanoedge_set:nanoedge_staff"
     name: "&6Trượng Phép Đội Trưởng &e&lI"
     max-durability: 4500
     tier: VERY_RARE
@@ -673,15 +684,15 @@ STAFF_DOI_TRUONG_1:
     spell-vampirism: 1.5
     ability:
       ability-1:
-        type: FIREBALL
+        type: CURSED_BEAM
         mode: RIGHT_CLICK
         cooldown: 5.0
-        damage: 19.0
+        damage: 30.0
       ability-2:
-        type: HEAL
+        type: SOUL_BARRIER
         mode: SHIFT_RIGHT_CLICK
         cooldown: 12.0
-        value: 10.0
+        value: 22.0
     gem-sockets:
       - Uncolored
       - Uncolored
@@ -695,7 +706,8 @@ STAFF_DOI_TRUONG_1:
 STAFF_DOI_TRUONG_2:
   base:
     revision-id: 1
-    material: BLAZE_ROD
+    material: IRON_SWORD
+    itemsadder-item: "nanoedge_set:nanoedge_staff"
     name: "&6Trượng Phép Đội Trưởng &e&lII"
     max-durability: 4500
     tier: VERY_RARE
@@ -712,15 +724,15 @@ STAFF_DOI_TRUONG_2:
     spell-vampirism: 1.8
     ability:
       ability-1:
-        type: FIREBALL
+        type: CURSED_BEAM
         mode: RIGHT_CLICK
         cooldown: 5.0
-        damage: 19.7
+        damage: 31.0
       ability-2:
-        type: HEAL
+        type: SOUL_BARRIER
         mode: SHIFT_RIGHT_CLICK
         cooldown: 12.0
-        value: 10.3
+        value: 23.0
     gem-sockets:
       - Uncolored
       - Uncolored
@@ -734,7 +746,8 @@ STAFF_DOI_TRUONG_2:
 STAFF_DOI_TRUONG_3:
   base:
     revision-id: 1
-    material: BLAZE_ROD
+    material: IRON_SWORD
+    itemsadder-item: "nanoedge_set:nanoedge_staff"
     name: "&6Trượng Phép Đội Trưởng &e&lIII"
     max-durability: 4500
     tier: VERY_RARE
@@ -751,15 +764,15 @@ STAFF_DOI_TRUONG_3:
     spell-vampirism: 2.1
     ability:
       ability-1:
-        type: FIREBALL
+        type: CURSED_BEAM
         mode: RIGHT_CLICK
         cooldown: 5.0
-        damage: 20.4
+        damage: 32.0
       ability-2:
-        type: HEAL
+        type: SOUL_BARRIER
         mode: SHIFT_RIGHT_CLICK
         cooldown: 12.0
-        value: 10.6
+        value: 24.0
     gem-sockets:
       - Uncolored
       - Uncolored
@@ -773,7 +786,8 @@ STAFF_DOI_TRUONG_3:
 STAFF_DOI_TRUONG_4:
   base:
     revision-id: 1
-    material: BLAZE_ROD
+    material: IRON_SWORD
+    itemsadder-item: "nanoedge_set:nanoedge_staff"
     name: "&6Trượng Phép Đội Trưởng &e&lIV"
     max-durability: 4500
     tier: VERY_RARE
@@ -790,15 +804,15 @@ STAFF_DOI_TRUONG_4:
     spell-vampirism: 2.4
     ability:
       ability-1:
-        type: FIREBALL
+        type: CURSED_BEAM
         mode: RIGHT_CLICK
         cooldown: 5.0
-        damage: 21.1
+        damage: 33.0
       ability-2:
-        type: HEAL
+        type: SOUL_BARRIER
         mode: SHIFT_RIGHT_CLICK
         cooldown: 12.0
-        value: 10.9
+        value: 25.0
     gem-sockets:
       - Uncolored
       - Uncolored
@@ -812,7 +826,8 @@ STAFF_DOI_TRUONG_4:
 STAFF_DOI_TRUONG_5:
   base:
     revision-id: 1
-    material: BLAZE_ROD
+    material: IRON_SWORD
+    itemsadder-item: "nanoedge_set:nanoedge_staff"
     name: "&6Trượng Phép Đội Trưởng &e&lV"
     max-durability: 4500
     tier: VERY_RARE
@@ -829,15 +844,15 @@ STAFF_DOI_TRUONG_5:
     spell-vampirism: 2.7
     ability:
       ability-1:
-        type: FIREBALL
+        type: CURSED_BEAM
         mode: RIGHT_CLICK
         cooldown: 5.0
-        damage: 21.8
+        damage: 34.0
       ability-2:
-        type: HEAL
+        type: SOUL_BARRIER
         mode: SHIFT_RIGHT_CLICK
         cooldown: 12.0
-        value: 11.2
+        value: 26.0
     gem-sockets:
       - Uncolored
       - Uncolored
@@ -851,7 +866,8 @@ STAFF_DOI_TRUONG_5:
 STAFF_PHO_QUAN_NGUC_1:
   base:
     revision-id: 1
-    material: BLAZE_ROD
+    material: IRON_SWORD
+    itemsadder-item: "demon_edgeset:demon_edge_staff"
     name: "&cTrượng Phép Phó Quản Ngục &e&lI"
     max-durability: 6000
     tier: LEGENDARY
@@ -868,15 +884,16 @@ STAFF_PHO_QUAN_NGUC_1:
     spell-vampirism: 3.0
     ability:
       ability-1:
-        type: LIGHTNING_BEAM
+        type: BLIZZARD
         mode: RIGHT_CLICK
         cooldown: 6.0
-        damage: 24.3
+        damage: 40.0
       ability-2:
-        type: HEAL
+        type: DIVINE_PUNISHMENT
         mode: SHIFT_RIGHT_CLICK
-        cooldown: 10.0
-        value: 12.3
+        cooldown: 9.0
+        damage: 45.0
+        heal: 20.0
     gem-sockets:
       - Uncolored
       - Uncolored
@@ -891,7 +908,8 @@ STAFF_PHO_QUAN_NGUC_1:
 STAFF_PHO_QUAN_NGUC_2:
   base:
     revision-id: 1
-    material: BLAZE_ROD
+    material: IRON_SWORD
+    itemsadder-item: "demon_edgeset:demon_edge_staff"
     name: "&cTrượng Phép Phó Quản Ngục &e&lII"
     max-durability: 6000
     tier: LEGENDARY
@@ -908,15 +926,16 @@ STAFF_PHO_QUAN_NGUC_2:
     spell-vampirism: 3.3
     ability:
       ability-1:
-        type: LIGHTNING_BEAM
+        type: BLIZZARD
         mode: RIGHT_CLICK
         cooldown: 6.0
-        damage: 24.9
+        damage: 41.0
       ability-2:
-        type: HEAL
+        type: DIVINE_PUNISHMENT
         mode: SHIFT_RIGHT_CLICK
-        cooldown: 10.0
-        value: 12.5
+        cooldown: 9.0
+        damage: 46.0
+        heal: 21.0
     gem-sockets:
       - Uncolored
       - Uncolored
@@ -931,7 +950,8 @@ STAFF_PHO_QUAN_NGUC_2:
 STAFF_PHO_QUAN_NGUC_3:
   base:
     revision-id: 1
-    material: BLAZE_ROD
+    material: IRON_SWORD
+    itemsadder-item: "demon_edgeset:demon_edge_staff"
     name: "&cTrượng Phép Phó Quản Ngục &e&lIII"
     max-durability: 6000
     tier: LEGENDARY
@@ -948,15 +968,16 @@ STAFF_PHO_QUAN_NGUC_3:
     spell-vampirism: 3.6
     ability:
       ability-1:
-        type: LIGHTNING_BEAM
+        type: BLIZZARD
         mode: RIGHT_CLICK
         cooldown: 6.0
-        damage: 25.6
+        damage: 42.0
       ability-2:
-        type: HEAL
+        type: DIVINE_PUNISHMENT
         mode: SHIFT_RIGHT_CLICK
-        cooldown: 10.0
-        value: 12.8
+        cooldown: 9.0
+        damage: 47.0
+        heal: 22.0
     gem-sockets:
       - Uncolored
       - Uncolored
@@ -971,7 +992,8 @@ STAFF_PHO_QUAN_NGUC_3:
 STAFF_PHO_QUAN_NGUC_4:
   base:
     revision-id: 1
-    material: BLAZE_ROD
+    material: IRON_SWORD
+    itemsadder-item: "demon_edgeset:demon_edge_staff"
     name: "&cTrượng Phép Phó Quản Ngục &e&lIV"
     max-durability: 6000
     tier: LEGENDARY
@@ -988,15 +1010,16 @@ STAFF_PHO_QUAN_NGUC_4:
     spell-vampirism: 3.9
     ability:
       ability-1:
-        type: LIGHTNING_BEAM
+        type: BLIZZARD
         mode: RIGHT_CLICK
         cooldown: 6.0
-        damage: 26.3
+        damage: 43.0
       ability-2:
-        type: HEAL
+        type: DIVINE_PUNISHMENT
         mode: SHIFT_RIGHT_CLICK
-        cooldown: 10.0
-        value: 13.2
+        cooldown: 9.0
+        damage: 48.0
+        heal: 23.0
     gem-sockets:
       - Uncolored
       - Uncolored
@@ -1011,7 +1034,8 @@ STAFF_PHO_QUAN_NGUC_4:
 STAFF_PHO_QUAN_NGUC_5:
   base:
     revision-id: 1
-    material: BLAZE_ROD
+    material: IRON_SWORD
+    itemsadder-item: "demon_edgeset:demon_edge_staff"
     name: "&cTrượng Phép Phó Quản Ngục &e&lV"
     max-durability: 6000
     tier: LEGENDARY
@@ -1028,15 +1052,16 @@ STAFF_PHO_QUAN_NGUC_5:
     spell-vampirism: 4.2
     ability:
       ability-1:
-        type: LIGHTNING_BEAM
+        type: BLIZZARD
         mode: RIGHT_CLICK
         cooldown: 6.0
-        damage: 27.0
+        damage: 44.0
       ability-2:
-        type: HEAL
+        type: DIVINE_PUNISHMENT
         mode: SHIFT_RIGHT_CLICK
-        cooldown: 10.0
-        value: 13.4
+        cooldown: 9.0
+        damage: 49.0
+        heal: 24.0
     gem-sockets:
       - Uncolored
       - Uncolored
@@ -1051,7 +1076,8 @@ STAFF_PHO_QUAN_NGUC_5:
 STAFF_QUAN_NGUC_1:
   base:
     revision-id: 1
-    material: END_ROD
+    material: IRON_SWORD
+    itemsadder-item: "necros_set:necros_staff"
     name: "&dTrượng Phép Quản Ngục &e&lI"
     max-durability: 8000
     tier: MYTHICAL
@@ -1068,15 +1094,21 @@ STAFF_QUAN_NGUC_1:
     spell-vampirism: 4.5
     ability:
       ability-1:
-        type: LIGHTNING_BEAM
+        type: BLACK_HOLE
         mode: RIGHT_CLICK
         cooldown: 6.0
-        damage: 31.3
+        radius: 5.0
       ability-2:
-        type: HEAL
+        type: DIVINE_PUNISHMENT
         mode: SHIFT_RIGHT_CLICK
-        cooldown: 10.0
-        value: 15.3
+        cooldown: 8.0
+        damage: 55.0
+        heal: 25.0
+      ability-3:
+        type: FIRE_METEOR
+        mode: SHIFT_LEFT_CLICK
+        cooldown: 8.0
+        damage: 60.0
     gem-sockets:
       - Uncolored
       - Uncolored
@@ -1091,7 +1123,8 @@ STAFF_QUAN_NGUC_1:
 STAFF_QUAN_NGUC_2:
   base:
     revision-id: 1
-    material: END_ROD
+    material: IRON_SWORD
+    itemsadder-item: "necros_set:necros_staff"
     name: "&dTrượng Phép Quản Ngục &e&lII"
     max-durability: 8000
     tier: MYTHICAL
@@ -1108,15 +1141,21 @@ STAFF_QUAN_NGUC_2:
     spell-vampirism: 4.8
     ability:
       ability-1:
-        type: LIGHTNING_BEAM
+        type: BLACK_HOLE
         mode: RIGHT_CLICK
         cooldown: 6.0
-        damage: 31.9
+        radius: 5.0
       ability-2:
-        type: HEAL
+        type: DIVINE_PUNISHMENT
         mode: SHIFT_RIGHT_CLICK
-        cooldown: 10.0
-        value: 15.5
+        cooldown: 8.0
+        damage: 56.0
+        heal: 26.0
+      ability-3:
+        type: FIRE_METEOR
+        mode: SHIFT_LEFT_CLICK
+        cooldown: 8.0
+        damage: 61.0
     gem-sockets:
       - Uncolored
       - Uncolored
@@ -1131,7 +1170,8 @@ STAFF_QUAN_NGUC_2:
 STAFF_QUAN_NGUC_3:
   base:
     revision-id: 1
-    material: END_ROD
+    material: IRON_SWORD
+    itemsadder-item: "necros_set:necros_staff"
     name: "&dTrượng Phép Quản Ngục &e&lIII"
     max-durability: 8000
     tier: MYTHICAL
@@ -1148,15 +1188,21 @@ STAFF_QUAN_NGUC_3:
     spell-vampirism: 5.1
     ability:
       ability-1:
-        type: LIGHTNING_BEAM
+        type: BLACK_HOLE
         mode: RIGHT_CLICK
         cooldown: 6.0
-        damage: 32.6
+        radius: 5.0
       ability-2:
-        type: HEAL
+        type: DIVINE_PUNISHMENT
         mode: SHIFT_RIGHT_CLICK
-        cooldown: 10.0
-        value: 15.8
+        cooldown: 8.0
+        damage: 57.0
+        heal: 27.0
+      ability-3:
+        type: FIRE_METEOR
+        mode: SHIFT_LEFT_CLICK
+        cooldown: 8.0
+        damage: 62.0
     gem-sockets:
       - Uncolored
       - Uncolored
@@ -1171,7 +1217,8 @@ STAFF_QUAN_NGUC_3:
 STAFF_QUAN_NGUC_4:
   base:
     revision-id: 1
-    material: END_ROD
+    material: IRON_SWORD
+    itemsadder-item: "necros_set:necros_staff"
     name: "&dTrượng Phép Quản Ngục &e&lIV"
     max-durability: 8000
     tier: MYTHICAL
@@ -1188,15 +1235,21 @@ STAFF_QUAN_NGUC_4:
     spell-vampirism: 5.4
     ability:
       ability-1:
-        type: LIGHTNING_BEAM
+        type: BLACK_HOLE
         mode: RIGHT_CLICK
         cooldown: 6.0
-        damage: 33.3
+        radius: 5.0
       ability-2:
-        type: HEAL
+        type: DIVINE_PUNISHMENT
         mode: SHIFT_RIGHT_CLICK
-        cooldown: 10.0
-        value: 16.1
+        cooldown: 8.0
+        damage: 58.0
+        heal: 28.0
+      ability-3:
+        type: FIRE_METEOR
+        mode: SHIFT_LEFT_CLICK
+        cooldown: 8.0
+        damage: 63.0
     gem-sockets:
       - Uncolored
       - Uncolored
@@ -1211,7 +1264,8 @@ STAFF_QUAN_NGUC_4:
 STAFF_QUAN_NGUC_5:
   base:
     revision-id: 1
-    material: END_ROD
+    material: IRON_SWORD
+    itemsadder-item: "necros_set:necros_staff"
     name: "&dTrượng Phép Quản Ngục &e&lV"
     max-durability: 8000
     tier: MYTHICAL
@@ -1228,15 +1282,21 @@ STAFF_QUAN_NGUC_5:
     spell-vampirism: 5.7
     ability:
       ability-1:
-        type: LIGHTNING_BEAM
+        type: BLACK_HOLE
         mode: RIGHT_CLICK
         cooldown: 6.0
-        damage: 34.0
+        radius: 5.0
       ability-2:
-        type: HEAL
+        type: DIVINE_PUNISHMENT
         mode: SHIFT_RIGHT_CLICK
-        cooldown: 10.0
-        value: 16.4
+        cooldown: 8.0
+        damage: 59.0
+        heal: 29.0
+      ability-3:
+        type: FIRE_METEOR
+        mode: SHIFT_LEFT_CLICK
+        cooldown: 8.0
+        damage: 64.0
     gem-sockets:
       - Uncolored
       - Uncolored
@@ -1251,7 +1311,8 @@ STAFF_QUAN_NGUC_5:
 STAFF_BA_CHU_NGUC_TU_1:
   base:
     revision-id: 1
-    material: END_ROD
+    material: IRON_SWORD
+    itemsadder-item: "royal_crystal:royal_crysta_staff"
     name: "&5Trượng Phép Bá Chủ Ngục Tù &e&lI"
     max-durability: 10000
     tier: EPIC
@@ -1268,20 +1329,21 @@ STAFF_BA_CHU_NGUC_TU_1:
     spell-vampirism: 6.0
     ability:
       ability-1:
-        type: FROST_NOVA
+        type: BLACK_HOLE
         mode: RIGHT_CLICK
         cooldown: 6.0
-        damage: 40.0
+        radius: 6.0
       ability-2:
-        type: HEAL
+        type: DIVINE_PUNISHMENT
         mode: SHIFT_RIGHT_CLICK
-        cooldown: 9.0
-        value: 19.0
+        cooldown: 8.0
+        damage: 68.0
+        heal: 30.0
       ability-3:
-        type: METEOR
+        type: VOID_ZAPPER
         mode: SHIFT_LEFT_CLICK
-        cooldown: 10.0
-        damage: 38.0
+        cooldown: 7.0
+        damage: 75.0
     gem-sockets:
       - Uncolored
       - Uncolored
@@ -1297,7 +1359,8 @@ STAFF_BA_CHU_NGUC_TU_1:
 STAFF_BA_CHU_NGUC_TU_2:
   base:
     revision-id: 1
-    material: END_ROD
+    material: IRON_SWORD
+    itemsadder-item: "royal_crystal:royal_crysta_staff"
     name: "&5Trượng Phép Bá Chủ Ngục Tù &e&lII"
     max-durability: 10000
     tier: EPIC
@@ -1314,20 +1377,21 @@ STAFF_BA_CHU_NGUC_TU_2:
     spell-vampirism: 6.3
     ability:
       ability-1:
-        type: FROST_NOVA
+        type: BLACK_HOLE
         mode: RIGHT_CLICK
         cooldown: 6.0
-        damage: 40.7
+        radius: 6.0
       ability-2:
-        type: HEAL
+        type: DIVINE_PUNISHMENT
         mode: SHIFT_RIGHT_CLICK
-        cooldown: 9.0
-        value: 19.3
+        cooldown: 8.0
+        damage: 69.5
+        heal: 31.0
       ability-3:
-        type: METEOR
+        type: VOID_ZAPPER
         mode: SHIFT_LEFT_CLICK
-        cooldown: 10.0
-        damage: 38.6
+        cooldown: 7.0
+        damage: 76.5
     gem-sockets:
       - Uncolored
       - Uncolored
@@ -1343,7 +1407,8 @@ STAFF_BA_CHU_NGUC_TU_2:
 STAFF_BA_CHU_NGUC_TU_3:
   base:
     revision-id: 1
-    material: END_ROD
+    material: IRON_SWORD
+    itemsadder-item: "royal_crystal:royal_crysta_staff"
     name: "&5Trượng Phép Bá Chủ Ngục Tù &e&lIII"
     max-durability: 10000
     tier: EPIC
@@ -1360,20 +1425,21 @@ STAFF_BA_CHU_NGUC_TU_3:
     spell-vampirism: 6.6
     ability:
       ability-1:
-        type: FROST_NOVA
+        type: BLACK_HOLE
         mode: RIGHT_CLICK
         cooldown: 6.0
-        damage: 41.4
+        radius: 6.0
       ability-2:
-        type: HEAL
+        type: DIVINE_PUNISHMENT
         mode: SHIFT_RIGHT_CLICK
-        cooldown: 9.0
-        value: 19.6
+        cooldown: 8.0
+        damage: 71.0
+        heal: 32.0
       ability-3:
-        type: METEOR
+        type: VOID_ZAPPER
         mode: SHIFT_LEFT_CLICK
-        cooldown: 10.0
-        damage: 39.2
+        cooldown: 7.0
+        damage: 78.0
     gem-sockets:
       - Uncolored
       - Uncolored
@@ -1389,7 +1455,8 @@ STAFF_BA_CHU_NGUC_TU_3:
 STAFF_BA_CHU_NGUC_TU_4:
   base:
     revision-id: 1
-    material: END_ROD
+    material: IRON_SWORD
+    itemsadder-item: "royal_crystal:royal_crysta_staff"
     name: "&5Trượng Phép Bá Chủ Ngục Tù &e&lIV"
     max-durability: 10000
     tier: EPIC
@@ -1406,20 +1473,21 @@ STAFF_BA_CHU_NGUC_TU_4:
     spell-vampirism: 6.9
     ability:
       ability-1:
-        type: FROST_NOVA
+        type: BLACK_HOLE
         mode: RIGHT_CLICK
         cooldown: 6.0
-        damage: 42.1
+        radius: 6.0
       ability-2:
-        type: HEAL
+        type: DIVINE_PUNISHMENT
         mode: SHIFT_RIGHT_CLICK
-        cooldown: 9.0
-        value: 19.9
+        cooldown: 8.0
+        damage: 72.5
+        heal: 33.0
       ability-3:
-        type: METEOR
+        type: VOID_ZAPPER
         mode: SHIFT_LEFT_CLICK
-        cooldown: 10.0
-        damage: 39.8
+        cooldown: 7.0
+        damage: 79.5
     gem-sockets:
       - Uncolored
       - Uncolored
@@ -1435,7 +1503,8 @@ STAFF_BA_CHU_NGUC_TU_4:
 STAFF_BA_CHU_NGUC_TU_5:
   base:
     revision-id: 1
-    material: END_ROD
+    material: IRON_SWORD
+    itemsadder-item: "royal_crystal:royal_crysta_staff"
     name: "&5Trượng Phép Bá Chủ Ngục Tù &e&lV"
     max-durability: 10000
     tier: EPIC
@@ -1452,20 +1521,21 @@ STAFF_BA_CHU_NGUC_TU_5:
     spell-vampirism: 7.2
     ability:
       ability-1:
-        type: FROST_NOVA
+        type: BLACK_HOLE
         mode: RIGHT_CLICK
         cooldown: 6.0
-        damage: 42.8
+        radius: 6.0
       ability-2:
-        type: HEAL
+        type: DIVINE_PUNISHMENT
         mode: SHIFT_RIGHT_CLICK
-        cooldown: 9.0
-        value: 20.2
+        cooldown: 8.0
+        damage: 74.0
+        heal: 34.0
       ability-3:
-        type: METEOR
+        type: VOID_ZAPPER
         mode: SHIFT_LEFT_CLICK
-        cooldown: 10.0
-        damage: 40.4
+        cooldown: 7.0
+        damage: 81.0
     gem-sockets:
       - Uncolored
       - Uncolored
@@ -1481,7 +1551,9 @@ STAFF_BA_CHU_NGUC_TU_5:
 STAFF_VUOT_NGUC_1:
   base:
     revision-id: 1
-    material: END_ROD
+    material: STONE_SWORD
+    custom-model-data: 2043
+    itemsadder-item: "archmage:archmage_staff"
     name: "&4Trượng Phép Vượt Ngục &e&lI"
     max-durability: 15000
     tier: UNIQUE
@@ -1498,20 +1570,21 @@ STAFF_VUOT_NGUC_1:
     spell-vampirism: 8.0
     ability:
       ability-1:
-        type: FROST_NOVA
+        type: BLACK_HOLE
         mode: RIGHT_CLICK
-        cooldown: 6.0
-        damage: 50.5
+        cooldown: 5.5
+        radius: 7.0
       ability-2:
-        type: HEAL
+        type: DIVINE_PUNISHMENT
         mode: SHIFT_RIGHT_CLICK
-        cooldown: 9.0
-        value: 23.5
+        cooldown: 7.5
+        damage: 85.0
+        heal: 35.0
       ability-3:
-        type: METEOR
+        type: INFERNO_CHAINS
         mode: SHIFT_LEFT_CLICK
-        cooldown: 10.0
-        damage: 47.0
+        cooldown: 7.0
+        damage: 95.0
     gem-sockets:
       - Uncolored
       - Uncolored
@@ -1527,7 +1600,9 @@ STAFF_VUOT_NGUC_1:
 STAFF_VUOT_NGUC_2:
   base:
     revision-id: 1
-    material: END_ROD
+    material: STONE_SWORD
+    custom-model-data: 2043
+    itemsadder-item: "archmage:archmage_staff"
     name: "&4Trượng Phép Vượt Ngục &e&lII"
     max-durability: 15000
     tier: UNIQUE
@@ -1544,20 +1619,21 @@ STAFF_VUOT_NGUC_2:
     spell-vampirism: 8.3
     ability:
       ability-1:
-        type: FROST_NOVA
+        type: BLACK_HOLE
         mode: RIGHT_CLICK
-        cooldown: 6.0
-        damage: 51.2
+        cooldown: 5.5
+        radius: 7.0
       ability-2:
-        type: HEAL
+        type: DIVINE_PUNISHMENT
         mode: SHIFT_RIGHT_CLICK
-        cooldown: 9.0
-        value: 23.8
+        cooldown: 7.5
+        damage: 87.0
+        heal: 36.0
       ability-3:
-        type: METEOR
+        type: INFERNO_CHAINS
         mode: SHIFT_LEFT_CLICK
-        cooldown: 10.0
-        damage: 47.6
+        cooldown: 7.0
+        damage: 97.0
     gem-sockets:
       - Uncolored
       - Uncolored
@@ -1573,7 +1649,9 @@ STAFF_VUOT_NGUC_2:
 STAFF_VUOT_NGUC_3:
   base:
     revision-id: 1
-    material: END_ROD
+    material: STONE_SWORD
+    custom-model-data: 2043
+    itemsadder-item: "archmage:archmage_staff"
     name: "&4Trượng Phép Vượt Ngục &e&lIII"
     max-durability: 15000
     tier: UNIQUE
@@ -1590,20 +1668,21 @@ STAFF_VUOT_NGUC_3:
     spell-vampirism: 8.6
     ability:
       ability-1:
-        type: FROST_NOVA
+        type: BLACK_HOLE
         mode: RIGHT_CLICK
-        cooldown: 6.0
-        damage: 51.9
+        cooldown: 5.5
+        radius: 7.0
       ability-2:
-        type: HEAL
+        type: DIVINE_PUNISHMENT
         mode: SHIFT_RIGHT_CLICK
-        cooldown: 9.0
-        value: 24.1
+        cooldown: 7.5
+        damage: 89.0
+        heal: 37.0
       ability-3:
-        type: METEOR
+        type: INFERNO_CHAINS
         mode: SHIFT_LEFT_CLICK
-        cooldown: 10.0
-        damage: 48.2
+        cooldown: 7.0
+        damage: 99.0
     gem-sockets:
       - Uncolored
       - Uncolored
@@ -1619,7 +1698,9 @@ STAFF_VUOT_NGUC_3:
 STAFF_VUOT_NGUC_4:
   base:
     revision-id: 1
-    material: END_ROD
+    material: STONE_SWORD
+    custom-model-data: 2043
+    itemsadder-item: "archmage:archmage_staff"
     name: "&4Trượng Phép Vượt Ngục &e&lIV"
     max-durability: 15000
     tier: UNIQUE
@@ -1636,20 +1717,21 @@ STAFF_VUOT_NGUC_4:
     spell-vampirism: 8.9
     ability:
       ability-1:
-        type: FROST_NOVA
+        type: BLACK_HOLE
         mode: RIGHT_CLICK
-        cooldown: 6.0
-        damage: 52.6
+        cooldown: 5.5
+        radius: 7.0
       ability-2:
-        type: HEAL
+        type: DIVINE_PUNISHMENT
         mode: SHIFT_RIGHT_CLICK
-        cooldown: 9.0
-        value: 24.4
+        cooldown: 7.5
+        damage: 91.0
+        heal: 38.0
       ability-3:
-        type: METEOR
+        type: INFERNO_CHAINS
         mode: SHIFT_LEFT_CLICK
-        cooldown: 10.0
-        damage: 48.8
+        cooldown: 7.0
+        damage: 101.0
     gem-sockets:
       - Uncolored
       - Uncolored
@@ -1665,7 +1747,9 @@ STAFF_VUOT_NGUC_4:
 STAFF_VUOT_NGUC_5:
   base:
     revision-id: 1
-    material: END_ROD
+    material: STONE_SWORD
+    custom-model-data: 2044
+    itemsadder-item: "archmage:archmage_staff_shiny"
     name: "&4Trượng Phép Vượt Ngục &e&lV"
     max-durability: 15000
     tier: UNIQUE
@@ -1682,20 +1766,21 @@ STAFF_VUOT_NGUC_5:
     spell-vampirism: 9.2
     ability:
       ability-1:
-        type: FROST_NOVA
+        type: BLACK_HOLE
         mode: RIGHT_CLICK
-        cooldown: 6.0
-        damage: 53.3
+        cooldown: 5.5
+        radius: 7.0
       ability-2:
-        type: HEAL
+        type: DIVINE_PUNISHMENT
         mode: SHIFT_RIGHT_CLICK
-        cooldown: 9.0
-        value: 24.7
+        cooldown: 7.5
+        damage: 93.0
+        heal: 39.0
       ability-3:
-        type: METEOR
+        type: INFERNO_CHAINS
         mode: SHIFT_LEFT_CLICK
-        cooldown: 10.0
-        damage: 49.4
+        cooldown: 7.0
+        damage: 103.0
     gem-sockets:
       - Uncolored
       - Uncolored

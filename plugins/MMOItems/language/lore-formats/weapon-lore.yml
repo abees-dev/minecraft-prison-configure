@@ -24,9 +24,9 @@ lore-format:
   - '#gem-stones#'
   - '#gem-stone-lore#'
   - '{bar}'
-  - '#lore#
+  - '#lore#'
   - '{bar}&f'
-  - '#set#''
+  - '#set#'
   - '{sbar}&8&m----------------------------'
   - '#tier#'
   - '#durability#'

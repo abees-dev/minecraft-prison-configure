@@ -98,3 +98,15 @@ Khi tạo 1 item Donate mới, tổng điểm chỉ số của item đó không 
 3. Set `tier: UNIQUE` và `lore-format: weapon-lore` hoặc `armor-lore`.
 4. Điền thẻ `itemsadder-item: "namespace:item_id"` để kết nối với mô hình 3D custom.
 5. Kiểm tra chỉ số đối chiếu với **Bảng 2.1 & 2.2** trong tài liệu này trước khi `/mi reload`.
+
+---
+
+## 📖 6. QUY CHUẨN TỪ VIẾT TẮT CHỈ SỐ (STAT ABBREVIATIONS)
+Xem tài liệu hướng dẫn quy chuẩn viết tắt và mã màu hiển thị chi tiết tại: [STAT_ABBREVIATIONS.md](file:///d:/server-minecraft/plugins/MMOItems/docs/STAT_ABBREVIATIONS.md).
+
+---
+
+## 📑 7. PHÂN LOẠI CHI TIẾT ĐỒ DONATE VS FREE VS TRADE
+Xem tài liệu phân loại chi tiết 15 bộ trang sức và đồ Donate / Free tại: [ITEM_CLASSIFICATION_GUIDE.md](file:///d:/server-minecraft/plugins/MMOItems/docs/ITEM_CLASSIFICATION_GUIDE.md).
+
+

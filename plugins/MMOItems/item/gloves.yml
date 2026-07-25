@@ -1,54 +1,303 @@
-
-LONG_VUONG_GLOVES:
+TRADE_GLOVES_HOA_LONG:
   base:
     revision-id: 1
     material: PAPER
     custom-model-data: 19537
     itemsadder-item: "rings_pack:glove_37"
-    name: "&c&lGăng Tay Long Vương"
-    set: LONG_VUONG_SET
-    attack-damage: 12.0
-    critical-strike-chance: 6.0
+    name: "&6&l🔥 Găng Tay Hỏa Long"
+    tier: UNIQUE
+    set: HOA_LONG_SET
+    attack-speed: 25
+    critical-strike-power: 20
+    gem-sockets:
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
+    upgrade:
+      template: armor-upgrade-template
+      max: 100
 
-BANG_TINH_GLOVES:
-  base:
-    revision-id: 1
-    material: PAPER
-    custom-model-data: 19561
-    itemsadder-item: "rings_pack:glove_61"
-    name: "&b&lGăng Tay Băng Tinh"
-    set: BANG_TINH_SET
-    max-health: 90.0
-    damage-reduction: 4.0
-
-HAC_AM_GLOVES:
+TRADE_GLOVES_HAC_LONG:
   base:
     revision-id: 1
     material: PAPER
     custom-model-data: 19502
     itemsadder-item: "rings_pack:glove_2"
-    name: "&d&lGăng Tay Hắc Ám"
-    set: HAC_AM_SET
-    magic-damage: 15.0
+    name: "&5&l◆ Găng Tay Hắc Long"
+    tier: UNIQUE
+    set: HAC_LONG_SET
+    attack-speed: 20
+    magic-damage: 30
+    gem-sockets:
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
+    upgrade:
+      template: armor-upgrade-template
+      max: 100
 
-LOI_THAN_GLOVES:
-  base:
-    revision-id: 1
-    material: PAPER
-    custom-model-data: 19501
-    itemsadder-item: "rings_pack:glove_1"
-    name: "&e&lGăng Tay Lôi Thần"
-    set: LOI_THAN_SET
-    attack-speed: 10.0
-    movement-speed: 0.015
-
-HOANG_GIA_GLOVES:
+TRADE_GLOVES_LOI_LONG:
   base:
     revision-id: 1
     material: PAPER
     custom-model-data: 19585
     itemsadder-item: "rings_pack:glove_85"
-    name: "&6&lGăng Tay Hoàng Gia"
-    set: HOANG_GIA_SET
-    physical-damage: 10.0
-    max-health: 80.0
+    name: "&e&l⚡ Găng Tay Lôi Long"
+    tier: UNIQUE
+    set: LOI_LONG_SET
+    attack-speed: 35
+    lifesteal: 8
+    gem-sockets:
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
+    upgrade:
+      template: armor-upgrade-template
+      max: 100
+
+TRADE_GLOVES_PHONG_LONG:
+  base:
+    revision-id: 1
+    material: PAPER
+    custom-model-data: 19501
+    itemsadder-item: "rings_pack:glove_1"
+    name: "&2&l✦ Găng Tay Phong Long"
+    tier: UNIQUE
+    set: PHONG_LONG_SET
+    attack-speed: 25
+    dodge-rating: 15
+    gem-sockets:
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
+    upgrade:
+      template: armor-upgrade-template
+      max: 100
+
+TRADE_GLOVES_BANG_LONG:
+  base:
+    revision-id: 1
+    material: PAPER
+    custom-model-data: 19561
+    itemsadder-item: "rings_pack:glove_61"
+    name: "&3&l✦ Găng Tay Băng Long"
+    tier: UNIQUE
+    set: BANG_LONG_SET
+    attack-speed: 15
+    defense: 15
+    max-health: 100
+    gem-sockets:
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
+    upgrade:
+      template: armor-upgrade-template
+      max: 100
+
+DONATE_GLOVES_LONG_CHIEN:
+  base:
+    revision-id: 1
+    material: PAPER
+    custom-model-data: 19512
+    itemsadder-item: "rings_pack:glove_12"
+    name: "&e&l⚔ Găng Tay Chiến Long"
+    tier: UNIQUE
+    set: LONG_CHIEN_SET
+    attack-speed: 25
+    critical-strike-power: 20
+    gem-sockets:
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
+    upgrade:
+      template: armor-upgrade-template
+      max: 100
+
+DONATE_GLOVES_LONG_THAN:
+  base:
+    revision-id: 1
+    material: PAPER
+    custom-model-data: 19525
+    itemsadder-item: "rings_pack:glove_25"
+    name: "&b&l✦ Găng Tay Thần Long"
+    tier: UNIQUE
+    set: LONG_THAN_SET
+    attack-speed: 20
+    magic-damage: 30
+    gem-sockets:
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
+    upgrade:
+      template: armor-upgrade-template
+      max: 100
+
+DONATE_GLOVES_LONG_HOANG:
+  base:
+    revision-id: 1
+    material: PAPER
+    custom-model-data: 19599
+    itemsadder-item: "rings_pack:glove_99"
+    name: "&c&l★ Găng Tay Hoàng Long"
+    tier: UNIQUE
+    set: LONG_HOANG_SET
+    attack-speed: 35
+    lifesteal: 8
+    gem-sockets:
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
+    upgrade:
+      template: armor-upgrade-template
+      max: 100
+
+DONATE_GLOVES_LONG_DE:
+  base:
+    revision-id: 1
+    material: PAPER
+    custom-model-data: 19540
+    itemsadder-item: "rings_pack:glove_40"
+    name: "&4&l◆ Găng Tay Đế Long"
+    tier: UNIQUE
+    set: LONG_DE_SET
+    attack-speed: 25
+    dodge-rating: 15
+    gem-sockets:
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
+    upgrade:
+      template: armor-upgrade-template
+      max: 100
+
+DONATE_GLOVES_LONG_VE:
+  base:
+    revision-id: 1
+    material: PAPER
+    custom-model-data: 19538
+    itemsadder-item: "rings_pack:glove_38"
+    name: "&a&l✦ Găng Tay Hộ Long"
+    tier: UNIQUE
+    set: LONG_VE_SET
+    attack-speed: 15
+    defense: 15
+    max-health: 100
+    gem-sockets:
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
+    upgrade:
+      template: armor-upgrade-template
+      max: 100
+
+FREE_GLOVES_THANH_LONG:
+  base:
+    revision-id: 1
+    material: PAPER
+    custom-model-data: 19504
+    itemsadder-item: "rings_pack:glove_4"
+    name: "&b&l⚡ Găng Tay Thanh Long"
+    tier: UNIQUE
+    set: THANH_LONG_SET
+    attack-speed: 25
+    critical-strike-power: 20
+    gem-sockets:
+      - Uncolored
+      - Uncolored
+    upgrade:
+      template: armor-upgrade-template
+      max: 100
+
+FREE_GLOVES_XICH_LONG:
+  base:
+    revision-id: 1
+    material: PAPER
+    custom-model-data: 19505
+    itemsadder-item: "rings_pack:glove_5"
+    name: "&c&l🔥 Găng Tay Xích Long"
+    tier: UNIQUE
+    set: XICH_LONG_SET
+    attack-speed: 20
+    magic-damage: 30
+    gem-sockets:
+      - Uncolored
+      - Uncolored
+    upgrade:
+      template: armor-upgrade-template
+      max: 100
+
+FREE_GLOVES_KIM_LONG:
+  base:
+    revision-id: 1
+    material: PAPER
+    custom-model-data: 19506
+    itemsadder-item: "rings_pack:glove_6"
+    name: "&e&l★ Găng Tay Kim Long"
+    tier: UNIQUE
+    set: KIM_LONG_SET
+    attack-speed: 35
+    lifesteal: 8
+    gem-sockets:
+      - Uncolored
+      - Uncolored
+    upgrade:
+      template: armor-upgrade-template
+      max: 100
+
+FREE_GLOVES_THIEN_LONG:
+  base:
+    revision-id: 1
+    material: PAPER
+    custom-model-data: 19507
+    itemsadder-item: "rings_pack:glove_7"
+    name: "&d&l✦ Găng Tay Thiên Long"
+    tier: UNIQUE
+    set: THIEN_LONG_SET
+    attack-speed: 25
+    dodge-rating: 15
+    gem-sockets:
+      - Uncolored
+      - Uncolored
+    upgrade:
+      template: armor-upgrade-template
+      max: 100
+
+FREE_GLOVES_BAC_LONG:
+  base:
+    revision-id: 1
+    material: PAPER
+    custom-model-data: 19503
+    itemsadder-item: "rings_pack:glove_3"
+    name: "&f&l✧ Găng Tay Bạch Long"
+    tier: UNIQUE
+    set: BAC_LONG_SET
+    attack-speed: 15
+    defense: 15
+    max-health: 100
+    gem-sockets:
+      - Uncolored
+      - Uncolored
+    upgrade:
+      template: armor-upgrade-template
+      max: 100
+

@@ -1,55 +1,312 @@
-
-LONG_VUONG_AMULET:
+TRADE_AMULET_HOA_LONG:
   base:
     revision-id: 1
     material: PAPER
     custom-model-data: 19401
     itemsadder-item: "rings_pack:set1_necklace_1"
-    name: "&c&lDây Chuyền Long Vương"
-    set: LONG_VUONG_SET
-    attack-damage: 20.0
-    critical-strike-chance: 8.0
+    name: "&6&l🔥 Dây Chuyền Hỏa Long"
+    tier: UNIQUE
+    set: HOA_LONG_SET
+    critical-strike-chance: 18
+    max-health: 120
+    gem-sockets:
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
+    upgrade:
+      template: armor-upgrade-template
+      max: 100
 
-BANG_TINH_AMULET:
-  base:
-    revision-id: 1
-    material: PAPER
-    custom-model-data: 19413
-    itemsadder-item: "rings_pack:set2_necklace_2"
-    name: "&b&lDây Chuyền Băng Tinh"
-    set: BANG_TINH_SET
-    max-health: 120.0
-    damage-reduction: 5.0
-
-HAC_AM_AMULET:
+TRADE_AMULET_HAC_LONG:
   base:
     revision-id: 1
     material: PAPER
     custom-model-data: 19415
     itemsadder-item: "rings_pack:set3_necklace_1"
-    name: "&d&lDây Chuyền Hắc Ám"
-    set: HAC_AM_SET
-    magic-damage: 12.0
-    max-mana: 100.0
+    name: "&5&l◆ Dây Chuyền Hắc Long"
+    tier: UNIQUE
+    set: HAC_LONG_SET
+    critical-strike-chance: 18
+    max-mana: 250
+    max-health: 60
+    gem-sockets:
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
+    upgrade:
+      template: armor-upgrade-template
+      max: 100
 
-LOI_THAN_AMULET:
-  base:
-    revision-id: 1
-    material: PAPER
-    custom-model-data: 19421
-    itemsadder-item: "rings_pack:set5_necklace_1"
-    name: "&e&lDây Chuyền Lôi Thần"
-    set: LOI_THAN_SET
-    attack-speed: 12.0
-    movement-speed: 0.02
-
-HOANG_GIA_AMULET:
+TRADE_AMULET_LOI_LONG:
   base:
     revision-id: 1
     material: PAPER
     custom-model-data: 19431
     itemsadder-item: "rings_pack:set8_necklace_1"
-    name: "&6&lDây Chuyền Hoàng Gia"
-    set: HOANG_GIA_SET
-    physical-damage: 12.0
-    max-health: 100.0
+    name: "&e&l⚡ Dây Chuyền Lôi Long"
+    tier: UNIQUE
+    set: LOI_LONG_SET
+    critical-strike-chance: 14
+    lifesteal: 8
+    max-health: 100
+    gem-sockets:
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
+    upgrade:
+      template: armor-upgrade-template
+      max: 100
+
+TRADE_AMULET_PHONG_LONG:
+  base:
+    revision-id: 1
+    material: PAPER
+    custom-model-data: 19421
+    itemsadder-item: "rings_pack:set5_necklace_1"
+    name: "&2&l✦ Dây Chuyền Phong Long"
+    tier: UNIQUE
+    set: PHONG_LONG_SET
+    critical-strike-chance: 14
+    dodge-rating: 15
+    max-health: 80
+    gem-sockets:
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
+    upgrade:
+      template: armor-upgrade-template
+      max: 100
+
+TRADE_AMULET_BANG_LONG:
+  base:
+    revision-id: 1
+    material: PAPER
+    custom-model-data: 19413
+    itemsadder-item: "rings_pack:set2_necklace_2"
+    name: "&3&l✦ Dây Chuyền Băng Long"
+    tier: UNIQUE
+    set: BANG_LONG_SET
+    max-health: 220
+    defense: 20
+    damage-reduction: 8
+    gem-sockets:
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
+    upgrade:
+      template: armor-upgrade-template
+      max: 100
+
+DONATE_AMULET_LONG_CHIEN:
+  base:
+    revision-id: 1
+    material: PAPER
+    custom-model-data: 19418
+    itemsadder-item: "rings_pack:set4_necklace_1"
+    name: "&e&l⚔ Dây Chuyền Chiến Long"
+    tier: UNIQUE
+    set: LONG_CHIEN_SET
+    critical-strike-chance: 18
+    max-health: 120
+    gem-sockets:
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
+    upgrade:
+      template: armor-upgrade-template
+      max: 100
+
+DONATE_AMULET_LONG_THAN:
+  base:
+    revision-id: 1
+    material: PAPER
+    custom-model-data: 19424
+    itemsadder-item: "rings_pack:set6_necklace_1"
+    name: "&b&l✦ Dây Chuyền Thần Long"
+    tier: UNIQUE
+    set: LONG_THAN_SET
+    critical-strike-chance: 18
+    max-mana: 250
+    max-health: 60
+    gem-sockets:
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
+    upgrade:
+      template: armor-upgrade-template
+      max: 100
+
+DONATE_AMULET_LONG_HOANG:
+  base:
+    revision-id: 1
+    material: PAPER
+    custom-model-data: 19434
+    itemsadder-item: "rings_pack:set9_necklace_1"
+    name: "&c&l★ Dây Chuyền Hoàng Long"
+    tier: UNIQUE
+    set: LONG_HOANG_SET
+    critical-strike-chance: 14
+    lifesteal: 8
+    max-health: 100
+    gem-sockets:
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
+    upgrade:
+      template: armor-upgrade-template
+      max: 100
+
+DONATE_AMULET_LONG_DE:
+  base:
+    revision-id: 1
+    material: PAPER
+    custom-model-data: 19427
+    itemsadder-item: "rings_pack:set7_necklace_1"
+    name: "&4&l◆ Dây Chuyền Đế Long"
+    tier: UNIQUE
+    set: LONG_DE_SET
+    critical-strike-chance: 14
+    dodge-rating: 15
+    max-health: 80
+    gem-sockets:
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
+    upgrade:
+      template: armor-upgrade-template
+      max: 100
+
+DONATE_AMULET_LONG_VE:
+  base:
+    revision-id: 1
+    material: PAPER
+    custom-model-data: 19402
+    itemsadder-item: "rings_pack:set1_necklace_2"
+    name: "&a&l✦ Dây Chuyền Hộ Long"
+    tier: UNIQUE
+    set: LONG_VE_SET
+    max-health: 220
+    defense: 20
+    damage-reduction: 8
+    gem-sockets:
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
+    upgrade:
+      template: armor-upgrade-template
+      max: 100
+
+FREE_AMULET_THANH_LONG:
+  base:
+    revision-id: 1
+    material: PAPER
+    custom-model-data: 19406
+    itemsadder-item: "rings_pack:set10_necklace_2"
+    name: "&b&l⚡ Dây Chuyền Thanh Long"
+    tier: UNIQUE
+    set: THANH_LONG_SET
+    critical-strike-chance: 18
+    max-health: 120
+    gem-sockets:
+      - Uncolored
+      - Uncolored
+    upgrade:
+      template: armor-upgrade-template
+      max: 100
+
+FREE_AMULET_XICH_LONG:
+  base:
+    revision-id: 1
+    material: PAPER
+    custom-model-data: 19409
+    itemsadder-item: "rings_pack:set11_necklace_1"
+    name: "&c&l🔥 Dây Chuyền Xích Long"
+    tier: UNIQUE
+    set: XICH_LONG_SET
+    critical-strike-chance: 18
+    max-mana: 250
+    max-health: 60
+    gem-sockets:
+      - Uncolored
+      - Uncolored
+    upgrade:
+      template: armor-upgrade-template
+      max: 100
+
+FREE_AMULET_KIM_LONG:
+  base:
+    revision-id: 1
+    material: PAPER
+    custom-model-data: 19410
+    itemsadder-item: "rings_pack:set11_necklace_2"
+    name: "&e&l★ Dây Chuyền Kim Long"
+    tier: UNIQUE
+    set: KIM_LONG_SET
+    critical-strike-chance: 14
+    lifesteal: 8
+    max-health: 100
+    gem-sockets:
+      - Uncolored
+      - Uncolored
+    upgrade:
+      template: armor-upgrade-template
+      max: 100
+
+FREE_AMULET_THIEN_LONG:
+  base:
+    revision-id: 1
+    material: PAPER
+    custom-model-data: 19411
+    itemsadder-item: "rings_pack:set12_necklace_1"
+    name: "&d&l✦ Dây Chuyền Thiên Long"
+    tier: UNIQUE
+    set: THIEN_LONG_SET
+    critical-strike-chance: 14
+    dodge-rating: 15
+    max-health: 80
+    gem-sockets:
+      - Uncolored
+      - Uncolored
+    upgrade:
+      template: armor-upgrade-template
+      max: 100
+
+FREE_AMULET_BAC_LONG:
+  base:
+    revision-id: 1
+    material: PAPER
+    custom-model-data: 19405
+    itemsadder-item: "rings_pack:set10_necklace_1"
+    name: "&f&l✧ Dây Chuyền Bạch Long"
+    tier: UNIQUE
+    set: BAC_LONG_SET
+    max-health: 220
+    defense: 20
+    damage-reduction: 8
+    gem-sockets:
+      - Uncolored
+      - Uncolored
+    upgrade:
+      template: armor-upgrade-template
+      max: 100
+

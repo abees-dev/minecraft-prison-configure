@@ -1,55 +1,303 @@
-
-LONG_VUONG_BRACELET:
+TRADE_BRACELET_HOA_LONG:
   base:
     revision-id: 1
     material: PAPER
     custom-model-data: 19205
     itemsadder-item: "rings_pack:set1_ring_5"
-    name: "&c&lVòng Tay Long Vương"
-    set: LONG_VUONG_SET
-    attack-damage: 10.0
-    critical-strike-power: 15.0
+    name: "&6&l🔥 Vòng Tay Hỏa Long"
+    tier: UNIQUE
+    set: HOA_LONG_SET
+    lifesteal: 10
+    physical-damage: 25
+    gem-sockets:
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
+    upgrade:
+      template: armor-upgrade-template
+      max: 100
 
-BANG_TINH_BRACELET:
-  base:
-    revision-id: 1
-    material: PAPER
-    custom-model-data: 19214
-    itemsadder-item: "rings_pack:set2_ring_5"
-    name: "&b&lVòng Tay Băng Tinh"
-    set: BANG_TINH_SET
-    max-health: 100.0
-    armor: 10.0
-
-HAC_AM_BRACELET:
+TRADE_BRACELET_HAC_LONG:
   base:
     revision-id: 1
     material: PAPER
     custom-model-data: 19224
     itemsadder-item: "rings_pack:set3_ring_5"
-    name: "&d&lVòng Tay Hắc Ám"
-    set: HAC_AM_SET
-    magic-damage: 10.0
-    max-mana: 80.0
+    name: "&5&l◆ Vòng Tay Hắc Long"
+    tier: UNIQUE
+    set: HAC_LONG_SET
+    cooldown-reduction: 12
+    magic-damage: 35
+    gem-sockets:
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
+    upgrade:
+      template: armor-upgrade-template
+      max: 100
 
-LOI_THAN_BRACELET:
-  base:
-    revision-id: 1
-    material: PAPER
-    custom-model-data: 19244
-    itemsadder-item: "rings_pack:set5_ring_5"
-    name: "&e&lVòng Tay Lôi Thần"
-    set: LOI_THAN_SET
-    attack-speed: 10.0
-    dodge-rating: 5.0
-
-HOANG_GIA_BRACELET:
+TRADE_BRACELET_LOI_LONG:
   base:
     revision-id: 1
     material: PAPER
     custom-model-data: 19274
     itemsadder-item: "rings_pack:set8_ring_5"
-    name: "&6&lVòng Tay Hoàng Gia"
-    set: HOANG_GIA_SET
-    physical-damage: 10.0
-    magic-damage: 5.0
+    name: "&e&l⚡ Vòng Tay Lôi Long"
+    tier: UNIQUE
+    set: LOI_LONG_SET
+    lifesteal: 12
+    attack-speed: 15
+    gem-sockets:
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
+    upgrade:
+      template: armor-upgrade-template
+      max: 100
+
+TRADE_BRACELET_PHONG_LONG:
+  base:
+    revision-id: 1
+    material: PAPER
+    custom-model-data: 19244
+    itemsadder-item: "rings_pack:set5_ring_5"
+    name: "&2&l✦ Vòng Tay Phong Long"
+    tier: UNIQUE
+    set: PHONG_LONG_SET
+    cooldown-reduction: 10
+    dodge-rating: 12
+    gem-sockets:
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
+    upgrade:
+      template: armor-upgrade-template
+      max: 100
+
+TRADE_BRACELET_BANG_LONG:
+  base:
+    revision-id: 1
+    material: PAPER
+    custom-model-data: 19214
+    itemsadder-item: "rings_pack:set2_ring_5"
+    name: "&3&l✦ Vòng Tay Băng Long"
+    tier: UNIQUE
+    set: BANG_LONG_SET
+    lifesteal: 8
+    max-health: 150
+    defense: 10
+    gem-sockets:
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
+    upgrade:
+      template: armor-upgrade-template
+      max: 100
+
+DONATE_BRACELET_LONG_CHIEN:
+  base:
+    revision-id: 1
+    material: PAPER
+    custom-model-data: 19234
+    itemsadder-item: "rings_pack:set4_ring_5"
+    name: "&e&l⚔ Vòng Tay Chiến Long"
+    tier: UNIQUE
+    set: LONG_CHIEN_SET
+    lifesteal: 10
+    physical-damage: 25
+    gem-sockets:
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
+    upgrade:
+      template: armor-upgrade-template
+      max: 100
+
+DONATE_BRACELET_LONG_THAN:
+  base:
+    revision-id: 1
+    material: PAPER
+    custom-model-data: 19254
+    itemsadder-item: "rings_pack:set6_ring_5"
+    name: "&b&l✦ Vòng Tay Thần Long"
+    tier: UNIQUE
+    set: LONG_THAN_SET
+    cooldown-reduction: 12
+    magic-damage: 35
+    gem-sockets:
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
+    upgrade:
+      template: armor-upgrade-template
+      max: 100
+
+DONATE_BRACELET_LONG_HOANG:
+  base:
+    revision-id: 1
+    material: PAPER
+    custom-model-data: 19284
+    itemsadder-item: "rings_pack:set9_ring_5"
+    name: "&c&l★ Vòng Tay Hoàng Long"
+    tier: UNIQUE
+    set: LONG_HOANG_SET
+    lifesteal: 12
+    attack-speed: 15
+    gem-sockets:
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
+    upgrade:
+      template: armor-upgrade-template
+      max: 100
+
+DONATE_BRACELET_LONG_DE:
+  base:
+    revision-id: 1
+    material: PAPER
+    custom-model-data: 19264
+    itemsadder-item: "rings_pack:set7_ring_5"
+    name: "&4&l◆ Vòng Tay Đế Long"
+    tier: UNIQUE
+    set: LONG_DE_SET
+    cooldown-reduction: 10
+    dodge-rating: 12
+    gem-sockets:
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
+    upgrade:
+      template: armor-upgrade-template
+      max: 100
+
+DONATE_BRACELET_LONG_VE:
+  base:
+    revision-id: 1
+    material: PAPER
+    custom-model-data: 19206
+    itemsadder-item: "rings_pack:set1_ring_6"
+    name: "&a&l✦ Vòng Tay Hộ Long"
+    tier: UNIQUE
+    set: LONG_VE_SET
+    lifesteal: 8
+    max-health: 150
+    defense: 10
+    gem-sockets:
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
+      - Uncolored
+    upgrade:
+      template: armor-upgrade-template
+      max: 100
+
+FREE_BRACELET_THANH_LONG:
+  base:
+    revision-id: 1
+    material: PAPER
+    custom-model-data: 19006
+    itemsadder-item: "rings_pack:ring_6"
+    name: "&b&l⚡ Vòng Tay Thanh Long"
+    tier: UNIQUE
+    set: THANH_LONG_SET
+    lifesteal: 10
+    physical-damage: 25
+    gem-sockets:
+      - Uncolored
+      - Uncolored
+    upgrade:
+      template: armor-upgrade-template
+      max: 100
+
+FREE_BRACELET_XICH_LONG:
+  base:
+    revision-id: 1
+    material: PAPER
+    custom-model-data: 19009
+    itemsadder-item: "rings_pack:ring_9"
+    name: "&c&l🔥 Vòng Tay Xích Long"
+    tier: UNIQUE
+    set: XICH_LONG_SET
+    cooldown-reduction: 12
+    magic-damage: 35
+    gem-sockets:
+      - Uncolored
+      - Uncolored
+    upgrade:
+      template: armor-upgrade-template
+      max: 100
+
+FREE_BRACELET_KIM_LONG:
+  base:
+    revision-id: 1
+    material: PAPER
+    custom-model-data: 19225
+    itemsadder-item: "rings_pack:set11_ring_5"
+    name: "&e&l★ Vòng Tay Kim Long"
+    tier: UNIQUE
+    set: KIM_LONG_SET
+    lifesteal: 12
+    attack-speed: 15
+    gem-sockets:
+      - Uncolored
+      - Uncolored
+    upgrade:
+      template: armor-upgrade-template
+      max: 100
+
+FREE_BRACELET_THIEN_LONG:
+  base:
+    revision-id: 1
+    material: PAPER
+    custom-model-data: 19224
+    itemsadder-item: "rings_pack:set11_ring_4"
+    name: "&d&l✦ Vòng Tay Thiên Long"
+    tier: UNIQUE
+    set: THIEN_LONG_SET
+    cooldown-reduction: 10
+    dodge-rating: 12
+    gem-sockets:
+      - Uncolored
+      - Uncolored
+    upgrade:
+      template: armor-upgrade-template
+      max: 100
+
+FREE_BRACELET_BAC_LONG:
+  base:
+    revision-id: 1
+    material: PAPER
+    custom-model-data: 19003
+    itemsadder-item: "rings_pack:ring_3"
+    name: "&f&l✧ Vòng Tay Bạch Long"
+    tier: UNIQUE
+    set: BAC_LONG_SET
+    lifesteal: 8
+    max-health: 150
+    defense: 10
+    gem-sockets:
+      - Uncolored
+      - Uncolored
+    upgrade:
+      template: armor-upgrade-template
+      max: 100
+
