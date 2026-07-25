@@ -25,7 +25,7 @@ Rewards:
   List:
     red_gem_lv_1:
       Name: '&c&lHồng Ngọc &e&lLv.I'
-      Weight: 4.0
+      Weight: 4.5
       Rarity: common
       Broadcast: false
       Placeholder_Apply: false
@@ -67,8 +67,8 @@ Rewards:
       Ignored_For_Permissions: []
     red_gem_lv_3:
       Name: '&c&lHồng Ngọc &e&lLv.III'
-      Weight: 1.5
-      Rarity: uncommon
+      Weight: 1.2
+      Rarity: common
       Broadcast: false
       Placeholder_Apply: false
       Win_Limit:
@@ -88,8 +88,8 @@ Rewards:
       Ignored_For_Permissions: []
     red_gem_lv_4:
       Name: '&c&lHồng Ngọc &e&lLv.IV'
-      Weight: 0.9
-      Rarity: uncommon
+      Weight: 0.7
+      Rarity: common
       Broadcast: false
       Placeholder_Apply: false
       Win_Limit:
@@ -110,7 +110,7 @@ Rewards:
     red_gem_lv_5:
       Name: '&c&lHồng Ngọc &e&lLv.V'
       Weight: 0.5
-      Rarity: rare
+      Rarity: common
       Broadcast: false
       Placeholder_Apply: false
       Win_Limit:
@@ -131,7 +131,7 @@ Rewards:
     red_gem_lv_6:
       Name: '&c&lHồng Ngọc &e&lLv.VI'
       Weight: 0.3
-      Rarity: rare
+      Rarity: common
       Broadcast: false
       Placeholder_Apply: false
       Win_Limit:
@@ -152,7 +152,7 @@ Rewards:
     red_gem_lv_7:
       Name: '&c&lHồng Ngọc &e&lLv.VII'
       Weight: 0.18
-      Rarity: epic
+      Rarity: common
       Broadcast: false
       Placeholder_Apply: false
       Win_Limit:
@@ -173,7 +173,7 @@ Rewards:
     red_gem_lv_8:
       Name: '&c&lHồng Ngọc &e&lLv.VIII'
       Weight: 0.08
-      Rarity: epic
+      Rarity: common
       Broadcast: true
       Placeholder_Apply: false
       Win_Limit:
@@ -195,7 +195,7 @@ Rewards:
     red_gem_lv_9:
       Name: '&c&lHồng Ngọc &e&lLv.IX'
       Weight: 0.03
-      Rarity: legendary
+      Rarity: common
       Broadcast: true
       Placeholder_Apply: false
       Win_Limit:
@@ -217,7 +217,7 @@ Rewards:
     red_gem_lv_10:
       Name: '&c&lHồng Ngọc &e&lLv.X'
       Weight: 0.01
-      Rarity: mythic
+      Rarity: common
       Broadcast: true
       Placeholder_Apply: false
       Win_Limit:
@@ -238,7 +238,7 @@ Rewards:
       Ignored_For_Permissions: []
     blue_gem_lv_1:
       Name: '&9&lLam Ngọc &e&lLv.I'
-      Weight: 4.0
+      Weight: 4.5
       Rarity: common
       Broadcast: false
       Placeholder_Apply: false
@@ -280,8 +280,8 @@ Rewards:
       Ignored_For_Permissions: []
     blue_gem_lv_3:
       Name: '&9&lLam Ngọc &e&lLv.III'
-      Weight: 1.5
-      Rarity: uncommon
+      Weight: 1.2
+      Rarity: common
       Broadcast: false
       Placeholder_Apply: false
       Win_Limit:
@@ -301,8 +301,8 @@ Rewards:
       Ignored_For_Permissions: []
     blue_gem_lv_4:
       Name: '&9&lLam Ngọc &e&lLv.IV'
-      Weight: 0.9
-      Rarity: uncommon
+      Weight: 0.7
+      Rarity: common
       Broadcast: false
       Placeholder_Apply: false
       Win_Limit:
@@ -323,7 +323,7 @@ Rewards:
     blue_gem_lv_5:
       Name: '&9&lLam Ngọc &e&lLv.V'
       Weight: 0.5
-      Rarity: rare
+      Rarity: common
       Broadcast: false
       Placeholder_Apply: false
       Win_Limit:
@@ -344,7 +344,7 @@ Rewards:
     blue_gem_lv_6:
       Name: '&9&lLam Ngọc &e&lLv.VI'
       Weight: 0.3
-      Rarity: rare
+      Rarity: common
       Broadcast: false
       Placeholder_Apply: false
       Win_Limit:
@@ -365,7 +365,7 @@ Rewards:
     blue_gem_lv_7:
       Name: '&9&lLam Ngọc &e&lLv.VII'
       Weight: 0.18
-      Rarity: epic
+      Rarity: common
       Broadcast: false
       Placeholder_Apply: false
       Win_Limit:
@@ -386,7 +386,7 @@ Rewards:
     blue_gem_lv_8:
       Name: '&9&lLam Ngọc &e&lLv.VIII'
       Weight: 0.08
-      Rarity: epic
+      Rarity: common
       Broadcast: true
       Placeholder_Apply: false
       Win_Limit:
@@ -408,7 +408,7 @@ Rewards:
     blue_gem_lv_9:
       Name: '&9&lLam Ngọc &e&lLv.IX'
       Weight: 0.03
-      Rarity: legendary
+      Rarity: common
       Broadcast: true
       Placeholder_Apply: false
       Win_Limit:
@@ -430,7 +430,7 @@ Rewards:
     blue_gem_lv_10:
       Name: '&9&lLam Ngọc &e&lLv.X'
       Weight: 0.01
-      Rarity: mythic
+      Rarity: common
       Broadcast: true
       Placeholder_Apply: false
       Win_Limit:
@@ -451,7 +451,7 @@ Rewards:
       Ignored_For_Permissions: []
     green_gem_lv_1:
       Name: '&a&lLục Ngọc &e&lLv.I'
-      Weight: 4.0
+      Weight: 4.5
       Rarity: common
       Broadcast: false
       Placeholder_Apply: false
@@ -493,8 +493,8 @@ Rewards:
       Ignored_For_Permissions: []
     green_gem_lv_3:
       Name: '&a&lLục Ngọc &e&lLv.III'
-      Weight: 1.5
-      Rarity: uncommon
+      Weight: 1.2
+      Rarity: common
       Broadcast: false
       Placeholder_Apply: false
       Win_Limit:
@@ -514,8 +514,8 @@ Rewards:
       Ignored_For_Permissions: []
     green_gem_lv_4:
       Name: '&a&lLục Ngọc &e&lLv.IV'
-      Weight: 0.9
-      Rarity: uncommon
+      Weight: 0.7
+      Rarity: common
       Broadcast: false
       Placeholder_Apply: false
       Win_Limit:
@@ -536,7 +536,7 @@ Rewards:
     green_gem_lv_5:
       Name: '&a&lLục Ngọc &e&lLv.V'
       Weight: 0.5
-      Rarity: rare
+      Rarity: common
       Broadcast: false
       Placeholder_Apply: false
       Win_Limit:
@@ -557,7 +557,7 @@ Rewards:
     green_gem_lv_6:
       Name: '&a&lLục Ngọc &e&lLv.VI'
       Weight: 0.3
-      Rarity: rare
+      Rarity: common
       Broadcast: false
       Placeholder_Apply: false
       Win_Limit:
@@ -578,7 +578,7 @@ Rewards:
     green_gem_lv_7:
       Name: '&a&lLục Ngọc &e&lLv.VII'
       Weight: 0.18
-      Rarity: epic
+      Rarity: common
       Broadcast: false
       Placeholder_Apply: false
       Win_Limit:
@@ -599,7 +599,7 @@ Rewards:
     green_gem_lv_8:
       Name: '&a&lLục Ngọc &e&lLv.VIII'
       Weight: 0.08
-      Rarity: epic
+      Rarity: common
       Broadcast: true
       Placeholder_Apply: false
       Win_Limit:
@@ -621,7 +621,7 @@ Rewards:
     green_gem_lv_9:
       Name: '&a&lLục Ngọc &e&lLv.IX'
       Weight: 0.03
-      Rarity: legendary
+      Rarity: common
       Broadcast: true
       Placeholder_Apply: false
       Win_Limit:
@@ -643,7 +643,7 @@ Rewards:
     green_gem_lv_10:
       Name: '&a&lLục Ngọc &e&lLv.X'
       Weight: 0.01
-      Rarity: mythic
+      Rarity: common
       Broadcast: true
       Placeholder_Apply: false
       Win_Limit:
@@ -664,7 +664,7 @@ Rewards:
       Ignored_For_Permissions: []
     yellow_gem_lv_1:
       Name: '&e&lHoàng Ngọc &e&lLv.I'
-      Weight: 4.0
+      Weight: 4.5
       Rarity: common
       Broadcast: false
       Placeholder_Apply: false
@@ -706,8 +706,8 @@ Rewards:
       Ignored_For_Permissions: []
     yellow_gem_lv_3:
       Name: '&e&lHoàng Ngọc &e&lLv.III'
-      Weight: 1.5
-      Rarity: uncommon
+      Weight: 1.2
+      Rarity: common
       Broadcast: false
       Placeholder_Apply: false
       Win_Limit:
@@ -727,8 +727,8 @@ Rewards:
       Ignored_For_Permissions: []
     yellow_gem_lv_4:
       Name: '&e&lHoàng Ngọc &e&lLv.IV'
-      Weight: 0.9
-      Rarity: uncommon
+      Weight: 0.7
+      Rarity: common
       Broadcast: false
       Placeholder_Apply: false
       Win_Limit:
@@ -749,7 +749,7 @@ Rewards:
     yellow_gem_lv_5:
       Name: '&e&lHoàng Ngọc &e&lLv.V'
       Weight: 0.5
-      Rarity: rare
+      Rarity: common
       Broadcast: false
       Placeholder_Apply: false
       Win_Limit:
@@ -770,7 +770,7 @@ Rewards:
     yellow_gem_lv_6:
       Name: '&e&lHoàng Ngọc &e&lLv.VI'
       Weight: 0.3
-      Rarity: rare
+      Rarity: common
       Broadcast: false
       Placeholder_Apply: false
       Win_Limit:
@@ -791,7 +791,7 @@ Rewards:
     yellow_gem_lv_7:
       Name: '&e&lHoàng Ngọc &e&lLv.VII'
       Weight: 0.18
-      Rarity: epic
+      Rarity: common
       Broadcast: false
       Placeholder_Apply: false
       Win_Limit:
@@ -812,7 +812,7 @@ Rewards:
     yellow_gem_lv_8:
       Name: '&e&lHoàng Ngọc &e&lLv.VIII'
       Weight: 0.08
-      Rarity: epic
+      Rarity: common
       Broadcast: true
       Placeholder_Apply: false
       Win_Limit:
@@ -834,7 +834,7 @@ Rewards:
     yellow_gem_lv_9:
       Name: '&e&lHoàng Ngọc &e&lLv.IX'
       Weight: 0.03
-      Rarity: legendary
+      Rarity: common
       Broadcast: true
       Placeholder_Apply: false
       Win_Limit:
@@ -856,7 +856,7 @@ Rewards:
     yellow_gem_lv_10:
       Name: '&e&lHoàng Ngọc &e&lLv.X'
       Weight: 0.01
-      Rarity: mythic
+      Rarity: common
       Broadcast: true
       Placeholder_Apply: false
       Win_Limit:
@@ -877,7 +877,7 @@ Rewards:
       Ignored_For_Permissions: []
     purple_gem_lv_1:
       Name: '&5&lTử Ngọc &e&lLv.I'
-      Weight: 4.0
+      Weight: 4.5
       Rarity: common
       Broadcast: false
       Placeholder_Apply: false
@@ -919,8 +919,8 @@ Rewards:
       Ignored_For_Permissions: []
     purple_gem_lv_3:
       Name: '&5&lTử Ngọc &e&lLv.III'
-      Weight: 1.5
-      Rarity: uncommon
+      Weight: 1.2
+      Rarity: common
       Broadcast: false
       Placeholder_Apply: false
       Win_Limit:
@@ -940,8 +940,8 @@ Rewards:
       Ignored_For_Permissions: []
     purple_gem_lv_4:
       Name: '&5&lTử Ngọc &e&lLv.IV'
-      Weight: 0.9
-      Rarity: uncommon
+      Weight: 0.7
+      Rarity: common
       Broadcast: false
       Placeholder_Apply: false
       Win_Limit:
@@ -962,7 +962,7 @@ Rewards:
     purple_gem_lv_5:
       Name: '&5&lTử Ngọc &e&lLv.V'
       Weight: 0.5
-      Rarity: rare
+      Rarity: common
       Broadcast: false
       Placeholder_Apply: false
       Win_Limit:
@@ -983,7 +983,7 @@ Rewards:
     purple_gem_lv_6:
       Name: '&5&lTử Ngọc &e&lLv.VI'
       Weight: 0.3
-      Rarity: rare
+      Rarity: common
       Broadcast: false
       Placeholder_Apply: false
       Win_Limit:
@@ -1004,7 +1004,7 @@ Rewards:
     purple_gem_lv_7:
       Name: '&5&lTử Ngọc &e&lLv.VII'
       Weight: 0.18
-      Rarity: epic
+      Rarity: common
       Broadcast: false
       Placeholder_Apply: false
       Win_Limit:
@@ -1025,7 +1025,7 @@ Rewards:
     purple_gem_lv_8:
       Name: '&5&lTử Ngọc &e&lLv.VIII'
       Weight: 0.08
-      Rarity: epic
+      Rarity: common
       Broadcast: true
       Placeholder_Apply: false
       Win_Limit:
@@ -1047,7 +1047,7 @@ Rewards:
     purple_gem_lv_9:
       Name: '&5&lTử Ngọc &e&lLv.IX'
       Weight: 0.03
-      Rarity: legendary
+      Rarity: common
       Broadcast: true
       Placeholder_Apply: false
       Win_Limit:
@@ -1069,7 +1069,7 @@ Rewards:
     purple_gem_lv_10:
       Name: '&5&lTử Ngọc &e&lLv.X'
       Weight: 0.01
-      Rarity: mythic
+      Rarity: common
       Broadcast: true
       Placeholder_Apply: false
       Win_Limit:
@@ -1090,7 +1090,7 @@ Rewards:
       Ignored_For_Permissions: []
     cyan_gem_lv_1:
       Name: '&b&lBăng Ngọc &e&lLv.I'
-      Weight: 4.0
+      Weight: 4.5
       Rarity: common
       Broadcast: false
       Placeholder_Apply: false
@@ -1132,8 +1132,8 @@ Rewards:
       Ignored_For_Permissions: []
     cyan_gem_lv_3:
       Name: '&b&lBăng Ngọc &e&lLv.III'
-      Weight: 1.5
-      Rarity: uncommon
+      Weight: 1.2
+      Rarity: common
       Broadcast: false
       Placeholder_Apply: false
       Win_Limit:
@@ -1153,8 +1153,8 @@ Rewards:
       Ignored_For_Permissions: []
     cyan_gem_lv_4:
       Name: '&b&lBăng Ngọc &e&lLv.IV'
-      Weight: 0.9
-      Rarity: uncommon
+      Weight: 0.7
+      Rarity: common
       Broadcast: false
       Placeholder_Apply: false
       Win_Limit:
@@ -1175,7 +1175,7 @@ Rewards:
     cyan_gem_lv_5:
       Name: '&b&lBăng Ngọc &e&lLv.V'
       Weight: 0.5
-      Rarity: rare
+      Rarity: common
       Broadcast: false
       Placeholder_Apply: false
       Win_Limit:
@@ -1196,7 +1196,7 @@ Rewards:
     cyan_gem_lv_6:
       Name: '&b&lBăng Ngọc &e&lLv.VI'
       Weight: 0.3
-      Rarity: rare
+      Rarity: common
       Broadcast: false
       Placeholder_Apply: false
       Win_Limit:
@@ -1217,7 +1217,7 @@ Rewards:
     cyan_gem_lv_7:
       Name: '&b&lBăng Ngọc &e&lLv.VII'
       Weight: 0.18
-      Rarity: epic
+      Rarity: common
       Broadcast: false
       Placeholder_Apply: false
       Win_Limit:
@@ -1238,7 +1238,7 @@ Rewards:
     cyan_gem_lv_8:
       Name: '&b&lBăng Ngọc &e&lLv.VIII'
       Weight: 0.08
-      Rarity: epic
+      Rarity: common
       Broadcast: true
       Placeholder_Apply: false
       Win_Limit:
@@ -1260,7 +1260,7 @@ Rewards:
     cyan_gem_lv_9:
       Name: '&b&lBăng Ngọc &e&lLv.IX'
       Weight: 0.03
-      Rarity: legendary
+      Rarity: common
       Broadcast: true
       Placeholder_Apply: false
       Win_Limit:
@@ -1282,7 +1282,7 @@ Rewards:
     cyan_gem_lv_10:
       Name: '&b&lBăng Ngọc &e&lLv.X'
       Weight: 0.01
-      Rarity: mythic
+      Rarity: common
       Broadcast: true
       Placeholder_Apply: false
       Win_Limit:
@@ -1303,7 +1303,7 @@ Rewards:
       Ignored_For_Permissions: []
     black_gem_lv_1:
       Name: '&8&lHắc Ngọc &e&lLv.I'
-      Weight: 4.0
+      Weight: 4.5
       Rarity: common
       Broadcast: false
       Placeholder_Apply: false
@@ -1345,8 +1345,8 @@ Rewards:
       Ignored_For_Permissions: []
     black_gem_lv_3:
       Name: '&8&lHắc Ngọc &e&lLv.III'
-      Weight: 1.5
-      Rarity: uncommon
+      Weight: 1.2
+      Rarity: common
       Broadcast: false
       Placeholder_Apply: false
       Win_Limit:
@@ -1366,8 +1366,8 @@ Rewards:
       Ignored_For_Permissions: []
     black_gem_lv_4:
       Name: '&8&lHắc Ngọc &e&lLv.IV'
-      Weight: 0.9
-      Rarity: uncommon
+      Weight: 0.7
+      Rarity: common
       Broadcast: false
       Placeholder_Apply: false
       Win_Limit:
@@ -1388,7 +1388,7 @@ Rewards:
     black_gem_lv_5:
       Name: '&8&lHắc Ngọc &e&lLv.V'
       Weight: 0.5
-      Rarity: rare
+      Rarity: common
       Broadcast: false
       Placeholder_Apply: false
       Win_Limit:
@@ -1409,7 +1409,7 @@ Rewards:
     black_gem_lv_6:
       Name: '&8&lHắc Ngọc &e&lLv.VI'
       Weight: 0.3
-      Rarity: rare
+      Rarity: common
       Broadcast: false
       Placeholder_Apply: false
       Win_Limit:
@@ -1430,7 +1430,7 @@ Rewards:
     black_gem_lv_7:
       Name: '&8&lHắc Ngọc &e&lLv.VII'
       Weight: 0.18
-      Rarity: epic
+      Rarity: common
       Broadcast: false
       Placeholder_Apply: false
       Win_Limit:
@@ -1451,7 +1451,7 @@ Rewards:
     black_gem_lv_8:
       Name: '&8&lHắc Ngọc &e&lLv.VIII'
       Weight: 0.08
-      Rarity: epic
+      Rarity: common
       Broadcast: true
       Placeholder_Apply: false
       Win_Limit:
@@ -1473,7 +1473,7 @@ Rewards:
     black_gem_lv_9:
       Name: '&8&lHắc Ngọc &e&lLv.IX'
       Weight: 0.03
-      Rarity: legendary
+      Rarity: common
       Broadcast: true
       Placeholder_Apply: false
       Win_Limit:
@@ -1495,7 +1495,7 @@ Rewards:
     black_gem_lv_10:
       Name: '&8&lHắc Ngọc &e&lLv.X'
       Weight: 0.01
-      Rarity: mythic
+      Rarity: common
       Broadcast: true
       Placeholder_Apply: false
       Win_Limit:
@@ -1516,7 +1516,7 @@ Rewards:
       Ignored_For_Permissions: []
     white_gem_lv_1:
       Name: '&f&lBạch Ngọc &e&lLv.I'
-      Weight: 4.0
+      Weight: 4.5
       Rarity: common
       Broadcast: false
       Placeholder_Apply: false
@@ -1558,8 +1558,8 @@ Rewards:
       Ignored_For_Permissions: []
     white_gem_lv_3:
       Name: '&f&lBạch Ngọc &e&lLv.III'
-      Weight: 1.5
-      Rarity: uncommon
+      Weight: 1.2
+      Rarity: common
       Broadcast: false
       Placeholder_Apply: false
       Win_Limit:
@@ -1579,8 +1579,8 @@ Rewards:
       Ignored_For_Permissions: []
     white_gem_lv_4:
       Name: '&f&lBạch Ngọc &e&lLv.IV'
-      Weight: 0.9
-      Rarity: uncommon
+      Weight: 0.7
+      Rarity: common
       Broadcast: false
       Placeholder_Apply: false
       Win_Limit:
@@ -1601,7 +1601,7 @@ Rewards:
     white_gem_lv_5:
       Name: '&f&lBạch Ngọc &e&lLv.V'
       Weight: 0.5
-      Rarity: rare
+      Rarity: common
       Broadcast: false
       Placeholder_Apply: false
       Win_Limit:
@@ -1622,7 +1622,7 @@ Rewards:
     white_gem_lv_6:
       Name: '&f&lBạch Ngọc &e&lLv.VI'
       Weight: 0.3
-      Rarity: rare
+      Rarity: common
       Broadcast: false
       Placeholder_Apply: false
       Win_Limit:
@@ -1643,7 +1643,7 @@ Rewards:
     white_gem_lv_7:
       Name: '&f&lBạch Ngọc &e&lLv.VII'
       Weight: 0.18
-      Rarity: epic
+      Rarity: common
       Broadcast: false
       Placeholder_Apply: false
       Win_Limit:
@@ -1664,7 +1664,7 @@ Rewards:
     white_gem_lv_8:
       Name: '&f&lBạch Ngọc &e&lLv.VIII'
       Weight: 0.08
-      Rarity: epic
+      Rarity: common
       Broadcast: true
       Placeholder_Apply: false
       Win_Limit:
@@ -1686,7 +1686,7 @@ Rewards:
     white_gem_lv_9:
       Name: '&f&lBạch Ngọc &e&lLv.IX'
       Weight: 0.03
-      Rarity: legendary
+      Rarity: common
       Broadcast: true
       Placeholder_Apply: false
       Win_Limit:
@@ -1708,7 +1708,7 @@ Rewards:
     white_gem_lv_10:
       Name: '&f&lBạch Ngọc &e&lLv.X'
       Weight: 0.01
-      Rarity: mythic
+      Rarity: common
       Broadcast: true
       Placeholder_Apply: false
       Win_Limit:
@@ -1729,7 +1729,7 @@ Rewards:
       Ignored_For_Permissions: []
     brown_gem_lv_1:
       Name: '&6&lThổ Ngọc &e&lLv.I'
-      Weight: 4.0
+      Weight: 4.5
       Rarity: common
       Broadcast: false
       Placeholder_Apply: false
@@ -1771,8 +1771,8 @@ Rewards:
       Ignored_For_Permissions: []
     brown_gem_lv_3:
       Name: '&6&lThổ Ngọc &e&lLv.III'
-      Weight: 1.5
-      Rarity: uncommon
+      Weight: 1.2
+      Rarity: common
       Broadcast: false
       Placeholder_Apply: false
       Win_Limit:
@@ -1792,8 +1792,8 @@ Rewards:
       Ignored_For_Permissions: []
     brown_gem_lv_4:
       Name: '&6&lThổ Ngọc &e&lLv.IV'
-      Weight: 0.9
-      Rarity: uncommon
+      Weight: 0.7
+      Rarity: common
       Broadcast: false
       Placeholder_Apply: false
       Win_Limit:
@@ -1814,7 +1814,7 @@ Rewards:
     brown_gem_lv_5:
       Name: '&6&lThổ Ngọc &e&lLv.V'
       Weight: 0.5
-      Rarity: rare
+      Rarity: common
       Broadcast: false
       Placeholder_Apply: false
       Win_Limit:
@@ -1835,7 +1835,7 @@ Rewards:
     brown_gem_lv_6:
       Name: '&6&lThổ Ngọc &e&lLv.VI'
       Weight: 0.3
-      Rarity: rare
+      Rarity: common
       Broadcast: false
       Placeholder_Apply: false
       Win_Limit:
@@ -1856,7 +1856,7 @@ Rewards:
     brown_gem_lv_7:
       Name: '&6&lThổ Ngọc &e&lLv.VII'
       Weight: 0.18
-      Rarity: epic
+      Rarity: common
       Broadcast: false
       Placeholder_Apply: false
       Win_Limit:
@@ -1877,7 +1877,7 @@ Rewards:
     brown_gem_lv_8:
       Name: '&6&lThổ Ngọc &e&lLv.VIII'
       Weight: 0.08
-      Rarity: epic
+      Rarity: common
       Broadcast: true
       Placeholder_Apply: false
       Win_Limit:
@@ -1899,7 +1899,7 @@ Rewards:
     brown_gem_lv_9:
       Name: '&6&lThổ Ngọc &e&lLv.IX'
       Weight: 0.03
-      Rarity: legendary
+      Rarity: common
       Broadcast: true
       Placeholder_Apply: false
       Win_Limit:
@@ -1921,7 +1921,7 @@ Rewards:
     brown_gem_lv_10:
       Name: '&6&lThổ Ngọc &e&lLv.X'
       Weight: 0.01
-      Rarity: mythic
+      Rarity: common
       Broadcast: true
       Placeholder_Apply: false
       Win_Limit:
@@ -1942,7 +1942,7 @@ Rewards:
       Ignored_For_Permissions: []
     orange_gem_lv_1:
       Name: '&6&lCam Ngọc &e&lLv.I'
-      Weight: 4.0
+      Weight: 4.5
       Rarity: common
       Broadcast: false
       Placeholder_Apply: false
@@ -1984,8 +1984,8 @@ Rewards:
       Ignored_For_Permissions: []
     orange_gem_lv_3:
       Name: '&6&lCam Ngọc &e&lLv.III'
-      Weight: 1.5
-      Rarity: uncommon
+      Weight: 1.2
+      Rarity: common
       Broadcast: false
       Placeholder_Apply: false
       Win_Limit:
@@ -2005,8 +2005,8 @@ Rewards:
       Ignored_For_Permissions: []
     orange_gem_lv_4:
       Name: '&6&lCam Ngọc &e&lLv.IV'
-      Weight: 0.9
-      Rarity: uncommon
+      Weight: 0.7
+      Rarity: common
       Broadcast: false
       Placeholder_Apply: false
       Win_Limit:
@@ -2027,7 +2027,7 @@ Rewards:
     orange_gem_lv_5:
       Name: '&6&lCam Ngọc &e&lLv.V'
       Weight: 0.5
-      Rarity: rare
+      Rarity: common
       Broadcast: false
       Placeholder_Apply: false
       Win_Limit:
@@ -2048,7 +2048,7 @@ Rewards:
     orange_gem_lv_6:
       Name: '&6&lCam Ngọc &e&lLv.VI'
       Weight: 0.3
-      Rarity: rare
+      Rarity: common
       Broadcast: false
       Placeholder_Apply: false
       Win_Limit:
@@ -2069,7 +2069,7 @@ Rewards:
     orange_gem_lv_7:
       Name: '&6&lCam Ngọc &e&lLv.VII'
       Weight: 0.18
-      Rarity: epic
+      Rarity: common
       Broadcast: false
       Placeholder_Apply: false
       Win_Limit:
@@ -2090,7 +2090,7 @@ Rewards:
     orange_gem_lv_8:
       Name: '&6&lCam Ngọc &e&lLv.VIII'
       Weight: 0.08
-      Rarity: epic
+      Rarity: common
       Broadcast: true
       Placeholder_Apply: false
       Win_Limit:
@@ -2112,7 +2112,7 @@ Rewards:
     orange_gem_lv_9:
       Name: '&6&lCam Ngọc &e&lLv.IX'
       Weight: 0.03
-      Rarity: legendary
+      Rarity: common
       Broadcast: true
       Placeholder_Apply: false
       Win_Limit:
@@ -2134,7 +2134,7 @@ Rewards:
     orange_gem_lv_10:
       Name: '&6&lCam Ngọc &e&lLv.X'
       Weight: 0.01
-      Rarity: mythic
+      Rarity: common
       Broadcast: true
       Placeholder_Apply: false
       Win_Limit:
@@ -2157,15 +2157,16 @@ Item:
   Material: CHEST
   Name: '&d&lHòm Đá Quý Tổng Hợp'
   Lore:
-  - '&f'
-  - '&fMột hòm chứa ngẫu nhiên các loại Đá Quý từ Lv.I đến Lv.X.'
-  - '&f'
-  - '&6Tỉ lệ nhận theo cấp:'
-  - ' &7● Cấp Lv.I - Lv.IV: &aCao (89%)'
-  - ' &7● Cấp Lv.V - Lv.VII: &eVừa (9.8%)'
-  - ' &7● Cấp Lv.VIII - Lv.X: &cHiếm (1.2%)'
-  - '&f'
-  - '&eNhấn chuột phải để mở.'
+  - '&7Hòm chứa ngẫu nhiên tất cả &d&l10 Loại Đá Quý &7từ &f&lLv.I &7đến &d&lLv.X&7.'
+  - '&7Mở ra có thể nhận Đá Quý của bất kỳ thuộc tính nào!'
+  - ''
+  - '&e&l★ PHẦN THƯỞNG NỔI BẬT:'
+  - ' &f▪ &dĐá Quý &e&lLv.X &7(Các loại): &c&l0.1%'
+  - ' &f▪ &dĐá Quý &e&lLv.IX &7(Các loại): &c&l0.3%'
+  - ' &f▪ &dĐá Quý &e&lLv.VIII &7(Các loại): &c&l0.8%'
+  - ' &f▪ &dĐá Quý &7(Lv.I - Lv.VII): &a&l98.8%'
+  - ''
+  - '&e▸ Nhấn chuột phải để mở.'
   Item_Flags:
   - HIDE_ENCHANTS
   - HIDE_ATTRIBUTES
@@ -2175,3 +2176,5 @@ Item:
   - HIDE_POTION_EFFECTS
   - HIDE_DYE
   - HIDE_ARMOR_TRIM
+Last_Opener: ABeess
+Last_Reward: '&a&lLục Ngọc &e&lLv.III'

@@ -10,7 +10,7 @@ Plugin:
   # Basically it tells the plugin to use certain messages config from the '/lang/' sub-folder.
   # If specified language is not available, default one (English) will be used instead.
   # [Default is System Locale]
-  Language: en
+  Language: vi
 Database:
   # Sets database type.
   # Available values: MYSQL,SQLITE
@@ -161,19 +161,27 @@ Currency:
     Format: $%amount%
 Rewards:
   Rarities:
-    uncommon:
-      Name: <lblue>Uncommon</lblue>
-      Weight: 5.0
-      Default: false
     common:
       Name: <white>Common</white>
-      Weight: 10.0
+      Weight: 1.0
       Default: true
+    uncommon:
+      Name: <lblue>Uncommon</lblue>
+      Weight: 1.0
+      Default: false
     rare:
       Name: <lgreen>Rare</lgreen>
-      Weight: 2.0
+      Weight: 1.0
+      Default: false
+    epic:
+      Name: <lpurple>Epic</lpurple>
+      Weight: 1.0
       Default: false
     legendary:
       Name: <lorange>Legendary</lorange>
+      Weight: 1.0
+      Default: false
+    mythic:
+      Name: <lred>Mythic</lred>
       Weight: 1.0
       Default: false

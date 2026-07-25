@@ -9,16 +9,16 @@ if (!fs.existsSync(cratesDir)) {
 const romanMap = ["I", "II", "III", "IV", "V", "VI", "VII", "VIII", "IX", "X"];
 
 const levelWeights = [
-  { lv: 1, weight: 40.0, rarity: "common", broadcast: false },
+  { lv: 1, weight: 45.0, rarity: "common", broadcast: false },
   { lv: 2, weight: 25.0, rarity: "common", broadcast: false },
-  { lv: 3, weight: 15.0, rarity: "uncommon", broadcast: false },
-  { lv: 4, weight: 9.0, rarity: "uncommon", broadcast: false },
-  { lv: 5, weight: 5.0, rarity: "rare", broadcast: false },
-  { lv: 6, weight: 3.0, rarity: "rare", broadcast: false },
-  { lv: 7, weight: 1.8, rarity: "epic", broadcast: false },
-  { lv: 8, weight: 0.8, rarity: "epic", broadcast: true },
-  { lv: 9, weight: 0.3, rarity: "legendary", broadcast: true },
-  { lv: 10, weight: 0.1, rarity: "mythic", broadcast: true },
+  { lv: 3, weight: 12.0, rarity: "common", broadcast: false },
+  { lv: 4, weight: 7.0, rarity: "common", broadcast: false },
+  { lv: 5, weight: 5.0, rarity: "common", broadcast: false },
+  { lv: 6, weight: 3.0, rarity: "common", broadcast: false },
+  { lv: 7, weight: 1.8, rarity: "common", broadcast: false },
+  { lv: 8, weight: 0.8, rarity: "common", broadcast: true },
+  { lv: 9, weight: 0.3, rarity: "common", broadcast: true },
+  { lv: 10, weight: 0.1, rarity: "common", broadcast: true },
 ];
 
 const gemTypes = [
@@ -30,7 +30,7 @@ const gemTypes = [
     starColor: "&c",
     particle: "FLAME",
     skin: "19370ea0e7bf5decc8a01d5b674191dd060e6c46fc4d580f1c1a47c4fb6a9ac9",
-    desc: "Chứa năng lượng nguyên tố Hỏa, tăng Sát Thương Vật Lý."
+    statName: "Sát Thương Vật Lý",
   },
   {
     file: "ruong_lam_ngoc.yml",
@@ -40,7 +40,7 @@ const gemTypes = [
     starColor: "&9",
     particle: "DRIP_WATER",
     skin: "66453664d4b1a4aa66b579fbbfbfecfaef9ae8b376d498d7950c60ba0df841",
-    desc: "Chứa năng lượng nguyên tố Nước, tăng Năng Lượng Tối Đa."
+    statName: "Năng Lượng Tối Đa",
   },
   {
     file: "ruong_luc_ngoc.yml",
@@ -50,7 +50,7 @@ const gemTypes = [
     starColor: "&a",
     particle: "HAPPY_VILLAGER",
     skin: "5610ec88544ab6bb3cfd5dcf5ed16c3e9c5aa811a91e57c631aefcf448ab22",
-    desc: "Chứa năng lượng nguyên tố Phong, tăng Máu Tối Đa."
+    statName: "Máu Tối Đa",
   },
   {
     file: "ruong_hoang_ngoc.yml",
@@ -60,7 +60,7 @@ const gemTypes = [
     starColor: "&e",
     particle: "CRIT",
     skin: "e7742034f59db890c8004156b727c77ca695c4399d8e0da5ce9227cf836bb8e2",
-    desc: "Chứa năng lượng nguyên tố Thổ, tăng Phòng Thủ."
+    statName: "Giáp Phòng Thủ",
   },
   {
     file: "ruong_tu_ngoc.yml",
@@ -70,7 +70,7 @@ const gemTypes = [
     starColor: "&5",
     particle: "SPELL_WITCH",
     skin: "77334cddfab45d75ad28e1a47bf8cf5017d2f0982f6737da22d4972952510661",
-    desc: "Chứa năng lượng Huyền Bí, tăng Sát Thương Phép."
+    statName: "Sát Thương Phép",
   },
   {
     file: "ruong_bang_ngoc.yml",
@@ -80,7 +80,7 @@ const gemTypes = [
     starColor: "&b",
     particle: "SNOWFLAKE",
     skin: "1c5a8aa8a4c03600a2b5a4eb6beb51d590260b095ee1cdaa976b09bdfe5661c6",
-    desc: "Chứa năng lượng Băng Giá, tăng Tỷ Lệ Bạo Kích."
+    statName: "Tỷ Lệ Bạo Kích",
   },
   {
     file: "ruong_hac_ngoc.yml",
@@ -90,7 +90,7 @@ const gemTypes = [
     starColor: "&8",
     particle: "SMOKE_LARGE",
     skin: "87acb8b99d478ba35053e9f212acb5c55cc144840468fd0242b39f5bd75acb41",
-    desc: "Chứa năng lượng Bóng Tối, tăng Sát Thương Bạo Kích."
+    statName: "Sát Thương Bạo Kích",
   },
   {
     file: "ruong_bach_ngoc.yml",
@@ -100,7 +100,7 @@ const gemTypes = [
     starColor: "&f",
     particle: "END_ROD",
     skin: "f98bc63f05f6378bf29ef10e3d82acb3ceb73a720bf80f30bc576d0ad8c40cfb",
-    desc: "Chứa năng lượng Ánh Sáng, tăng Hồi Phục Máu."
+    statName: "Tốc Độ Hồi Máu",
   },
   {
     file: "ruong_tho_ngoc.yml",
@@ -110,7 +110,7 @@ const gemTypes = [
     starColor: "&6",
     particle: "REDSTONE",
     skin: "47e0d63f3eccdb9b70ed1fd40db52c2afe570e00d691b14ee7882964e20835c6",
-    desc: "Chứa năng lượng Thổ Nguyên, tăng Độ Bền Giáp."
+    statName: "Sức Bền Giáp (Toughness)",
   },
   {
     file: "ruong_cam_ngoc.yml",
@@ -120,7 +120,7 @@ const gemTypes = [
     starColor: "&e",
     particle: "LAVA",
     skin: "be9ae7a4be65fcbaee65181389a2f7d47e2e326db59ea3eb789a92c85ea46",
-    desc: "Chứa năng lượng Năng Lượng, tăng Tốc Độ Di Chuyển."
+    statName: "Tốc Độ Di Chuyển",
   }
 ];
 
@@ -138,6 +138,7 @@ gemTypes.forEach((gt) => {
 
     if (lw.broadcast) {
       commandsBlock += `
+      - '[CONSOLE] broadcast &d&lCRATES &8» &fChúc mừng &b%player_name% &fvừa mở &eHòm ${gt.name} &fnhận được ${gt.color}${gt.name} &e&lLv.${roman}&f!'
       - '[CONSOLE] execute as %player_name% at @s run playsound ui.toast.challenge_complete master @s ~ ~ ~ 1 1'
       - '[CONSOLE] execute as %player_name% at @s run summon firework_rocket ~ ~ ~ {LifeTime:5,Motion:[0.0,1.2,0.0],FireworksItem:{id:"minecraft:firework_rocket",Count:1,tag:{Fireworks:{Explosions:[{Type:1,Colors:[I;16711680,16776960],FadeColors:[I;255]}]}}}}'`;
     } else {
@@ -195,15 +196,16 @@ ${rewardsStr}Item:
   Material: CHEST
   Name: '${gt.color}Hòm ${gt.name}'
   Lore:
-  - '&f'
-  - '&f${gt.desc}'
-  - '&f'
-  - '&6Tỉ lệ nhận theo cấp:'
-  - ' &7● Cấp Lv.I - Lv.IV: &aCao (89%)'
-  - ' &7● Cấp Lv.V - Lv.VII: &eVừa (9.8%)'
-  - ' &7● Cấp Lv.VIII - Lv.X: &cHiếm (1.2%)'
-  - '&f'
-  - '&eNhấn chuột phải để mở.'
+  - '&7Mở để nhận ngẫu nhiên ${gt.color}${gt.name} &7từ &f&lLv.I &7đến ${gt.color}Lv.X&7.'
+  - '&7Khảm vào trang bị giúp gia tăng ${gt.color}${gt.statName}&7.'
+  - ''
+  - '&e&l★ PHẦN THƯỞNG NỔI BẬT:'
+  - ' &f▪ ${gt.color}${gt.name} &e&lLv.X&7: &c&l0.1%'
+  - ' &f▪ ${gt.color}${gt.name} &e&lLv.IX&7: &c&l0.3%'
+  - ' &f▪ ${gt.color}${gt.name} &e&lLv.VIII&7: &c&l0.8%'
+  - ' &f▪ ${gt.color}${gt.name} &7(Lv.I - Lv.VII): &a&l98.8%'
+  - ''
+  - '&e▸ Nhấn chuột phải để mở.'
   Item_Flags:
   - HIDE_ENCHANTS
   - HIDE_ATTRIBUTES
@@ -291,15 +293,16 @@ ${masterRewardsStr}Item:
   Material: CHEST
   Name: '&d&lHòm Đá Quý Tổng Hợp'
   Lore:
-  - '&f'
-  - '&fMột hòm chứa ngẫu nhiên các loại Đá Quý từ Lv.I đến Lv.X.'
-  - '&f'
-  - '&6Tỉ lệ nhận theo cấp:'
-  - ' &7● Cấp Lv.I - Lv.IV: &aCao (89%)'
-  - ' &7● Cấp Lv.V - Lv.VII: &eVừa (9.8%)'
-  - ' &7● Cấp Lv.VIII - Lv.X: &cHiếm (1.2%)'
-  - '&f'
-  - '&eNhấn chuột phải để mở.'
+  - '&7Hòm chứa ngẫu nhiên tất cả &d&l10 Loại Đá Quý &7từ &f&lLv.I &7đến &d&lLv.X&7.'
+  - '&7Mở ra có thể nhận Đá Quý của bất kỳ thuộc tính nào!'
+  - ''
+  - '&e&l★ PHẦN THƯỞNG NỔI BẬT:'
+  - ' &f▪ &dĐá Quý &e&lLv.X &7(Các loại): &c&l0.1%'
+  - ' &f▪ &dĐá Quý &e&lLv.IX &7(Các loại): &c&l0.3%'
+  - ' &f▪ &dĐá Quý &e&lLv.VIII &7(Các loại): &c&l0.8%'
+  - ' &f▪ &dĐá Quý &7(Lv.I - Lv.VII): &a&l98.8%'
+  - ''
+  - '&e▸ Nhấn chuột phải để mở.'
   Item_Flags:
   - HIDE_ENCHANTS
   - HIDE_ATTRIBUTES

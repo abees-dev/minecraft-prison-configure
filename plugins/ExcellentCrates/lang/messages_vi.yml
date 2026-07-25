@@ -1,0 +1,644 @@
+Command:
+  Editor:
+    Desc: Mở giao diện chỉnh sửa Rương & Chìa khóa.
+  Drop:
+    Usage: <crate> <x> <y> <z> [world]
+    Desc: Thả Rương tại vị trí chỉ định trong thế giới.
+    Done: <lgray>Đã thả <lyellow>%crate_name%</lyellow> tại <lyellow>%location_x%, %location_y%, %location_z%</lyellow> thuộc thế giới <lyellow>%location_world%</lyellow>.</lgray>
+  DropKey:
+    Usage: <key> <x> <y> <z> [world]
+    Desc: Thả chìa khóa tại vị trí chỉ định.
+    Done: <lgray>Đã thả <lyellow>%key_name%</lyellow> tại <lyellow>%location_x%, %location_y%, %location_z%</lyellow> thuộc thế giới <lyellow>%location_world%</lyellow>.</lgray>
+  Open:
+    Desc: Mở một Rương.
+    Usage: <crate>
+  OpenFor:
+    Desc: Mở Rương cho người chơi.
+    Usage: <player> <crate> [-f] [-s]
+    Done: <lgray>Đã mở <lyellow>%crate_name%</lyellow> cho <lyellow>%player_name%</lyellow>.</lgray>
+    Notify: <lgray>Bạn đã bị ép mở <lyellow>%crate_name%</lyellow>.</lgray>
+  Give:
+    Usage: <player> <crate> [amount] [-s]
+    Desc: Phát Rương cho người chơi.
+    Done: <lgray>Đã trao <lyellow>x%amount%</lyellow> Rương <lyellow>%crate_name%</lyellow> cho <lyellow>%player_name%</lyellow>.</lgray>
+    Notify: <lgray>Bạn đã nhận được <lyellow>x%amount%</lyellow> <lyellow>%crate_name%</lyellow>.</lgray>
+  Key:
+    Desc: Quản lý chìa khóa của người chơi.
+    Usage: "[help]"
+    Give:
+      Usage: <player> <key> <amount> [-s] [-nosave]
+      Desc: Cấp chìa khóa cho người chơi.
+      Done: <lgray>Đã cấp <lyellow>x%amount%</lyellow> Chìa khóa <lyellow>%key_name%</lyellow> cho <lyellow>%player_name%</lyellow>.</lgray>
+      Notify: <lgray>Bạn đã nhận được <lyellow>x%amount%</lyellow> <lyellow>%key_name%</lyellow>!</lgray>
+    GiveAll:
+      Usage: <player> <key> <amount> [-s]
+      Desc: Cấp chìa khóa cho tất cả người chơi đang online.
+      Done: <lgray>Đã cấp <lyellow>x%amount%</lyellow> Chìa khóa <lyellow>%key_name%</lyellow> cho <lyellow>Tất cả người chơi</lyellow>.</lgray>
+    Take:
+      Usage: <player> <key> <amount> [-s] [-nosave]
+      Desc: Tịch thu chìa khóa từ người chơi.
+      Done: <lgray>Đã thu <lyellow>x%amount%</lyellow> Chìa khóa <lyellow>%key_name%</lyellow> từ <lyellow>%player_name%</lyellow>.</lgray>
+      Notify: <lgray>Bạn đã bị mất <lred>x%amount%</lred> <lred>%key_name%</lred>.</lgray>
+    Set:
+      Usage: <player> <key> <amount> [-s] [-nosave]
+      Desc: Đặt số lượng chìa khóa cho người chơi.
+      Done: <lgray>Đã đặt số lượng <lyellow>x%amount%</lyellow> Chìa khóa <lyellow>%key_name%</lyellow> cho <lyellow>%player_name%</lyellow>.</lgray>
+      Notify: <lgray>Số lượng <lyellow>%key_name%</lyellow> của bạn đã được thay đổi thành <lyellow>x%amount%</lyellow>.</lgray>
+    Show:
+      Desc: Kiểm tra chìa khóa ảo [của người chơi].
+      Usage: "[player]"
+      Format:
+        List:
+          - <noprefix>
+          - " "
+          - "<lyellow><b>Chìa khóa ảo của %player_name%: </b></lyellow>"
+          - "%entry%"
+          - " "
+        Entry: "<lyellow>▪ <lgray>%key_name%: </lgray>x%amount%</lyellow>"
+  Preview:
+    Desc: Xem trước phần thưởng Rương.
+    Usage: <crate> [player]
+    Done:
+      Others: <lgray>Đã mở giao diện xem trước <lyellow>%crate_name%</lyellow> cho <lyellow>%player_display_name%</lyellow>.</lgray>
+  ResetLimit:
+    Desc: Đặt lại giới hạn nhận phần thưởng cho Rương và phần thưởng chỉ định.
+    Usage: <player> <crate> [reward]
+    Done:
+      Crate: <lgray>Đã đặt lại giới hạn thắng cho tất cả phần thưởng trong <lyellow>%crate_name%</lyellow> của <lyellow>%player_name%</lyellow>.</lgray>
+      Reward: <lgray>Đã đặt lại giới hạn thắng phần thưởng <lyellow>%reward_name%</lyellow> trong <lyellow>%crate_name%</lyellow> của <lyellow>%player_name%</lyellow>.</lgray>
+  ResetCooldown:
+    Desc: Đặt lại thời gian chờ mở Rương của người chơi.
+    Usage: <player> <crate>
+    Done: <lgray>Đã đặt lại thời gian chờ mở <lyellow>%crate_name%</lyellow> của <lyellow>%player_name%</lyellow>.</lgray>
+  Menu:
+    Usage: "[menu]"
+    Desc: Mở menu Rương.
+    Done:
+      Others: <lgray>Đã mở menu Rương cho <lyellow>%player_display_name%</lyellow>.</lgray>
+Crate:
+  Open:
+    Error:
+      InventorySpace:
+        - <output:"titles:20:80:20"><sound:"entity_villager_no">
+        - <lred><b>Rất tiếc!</b></lred>
+        - <lgray>Hãy dọn dẹp ô trống trong túi đồ để mở Rương!</lgray>
+      Cooldown:
+        Temporary:
+          - <output:"titles:20:80:20"><sound:"entity_villager_no">
+          - <lred><b>Thời gian chờ Rương!</b></lred>
+          - <lgray>Bạn có thể mở lại sau <lred>%time%</lred></lgray>
+        OneTimed:
+          - <output:"titles:20:80:20"><sound:"entity_villager_no">
+          - <lred><b>Rất tiếc!</b></lred>
+          - <lgray>Bạn đã mở Rương một lần duy nhất này rồi!</lgray>
+      NoKey:
+        - <output:"titles:20:80:20"><sound:"entity_villager_no">
+        - <lred><b>Rất tiếc!</b></lred>
+        - <lgray>Bạn không có chìa khóa cho Rương này!</lgray>
+      NoHoldKey:
+        - <output:"titles:20:80:20"><sound:"entity_villager_no">
+        - <lred><b>Rất tiếc!</b></lred>
+        - <lgray>Bạn phải cầm chìa khóa trên tay để mở Rương!</lgray>
+      NoRewards:
+        - <output:"titles:20:80:20"><sound:"entity_villager_no">
+        - <red><b>Rất tiếc!</b></red>
+        - <lgray>Không có phần thưởng nào dành cho bạn! Hãy thử lại sau.</lgray>
+      CantAfford:
+        - <output:"titles:20:80:20"><sound:"entity_villager_no">
+        - <lred><b>Rất tiếc!</b></lred>
+        - <lgray>Bạn cần có <lred>%amount%</lred> để mở Rương này!</lgray>
+      Already:
+        - <output:"titles:20:80:20"><sound:"entity_villager_no">
+        - <red><b>Rất tiếc!</b></red>
+        - <lgray>Bạn đang trong quá trình mở Rương!</lgray>
+    Reward:
+      Info:
+        - <noprefix>
+        - <lgray>Bạn đã nhận được <lgreen>%reward_name%</lgreen> từ <lgreen>%crate_name%</lgreen>!</lgray>
+      Broadcast:
+        - <noprefix><sound:"block_note_block_bell">
+        - " "
+        - <lgray> Người chơi <lgreen>%player_display_name%</lgreen> vừa trúng <lgreen>%reward_name%</lgreen> từ <lgreen>%crate_name%</lgreen>!</lgray>
+        - " "
+    Milestone:
+      Completed:
+        - <noprefix>
+        - <sound:"entity_player_levelup">
+        - <lgray>Bạn đã hoàn thành cột mốc <lgreen>%milestone_openings% Lần mở </lgreen> và nhận được phần thưởng <lgreen>%reward_name%</lgreen>!</lgray>
+  Preview:
+    Error:
+      Cooldown: <lgray>Bạn có thể xem trước Rương này lại sau <lred>%time%</lred></lgray>
+  Error:
+    Invalid: <lred>Rương không hợp lệ!</lred>
+    Exists: <lred>Rương đã tồn tại!</lred>
+  Key:
+    Error:
+      Invalid: <lred>Chìa khóa không hợp lệ!</lred>
+      Exists: <lred>Chìa khóa đã tồn tại!</lred>
+Menu:
+  Invalid: <lred>Menu không tồn tại!</lred>
+Other:
+  Midnight: Nửa đêm
+  Free: Miễn phí
+Editor:
+  Error:
+    BadName: <lred>Chỉ cho phép chữ cái Latin & chữ số.</lred>
+  Reward:
+    Error:
+      Create:
+        Exist: <lgray>Phần thưởng đã tồn tại!</lgray>
+    Enter:
+      Chance: <lgray>Nhập <lgreen>[Trọng số]</lgreen></lgray>
+      Command: <lgray>Nhập <lgreen>[Lệnh]</lgreen></lgray>
+      Id: <lgray>Nhập <lgreen>[Mã định danh phần thưởng]</lgreen></lgray>
+      Rarity: <lgray>Nhập <lgreen>[Độ hiếm]</lgreen></lgray>
+      Permissions: <lgray>Nhập <lgreen>[Node Quyền hạn]</lgreen></lgray>
+  Title:
+    Main: <black>Trình chỉnh sửa ExcellentCrates</black>
+    Crates: <black>Trình chỉnh sửa Rương</black>
+    Crate:
+      Settings: <black>Cài đặt Rương</black>
+      Milestones: <black>Cột mốc Rương</black>
+      Effect: <black>Hiệu ứng Rương</black>
+      Placement: <black>Vị trí đặt Rương</black>
+    Reward:
+      List: <black>Danh sách Phần thưởng Rương</black>
+      Settings: <black>Cài đặt Phần thưởng</black>
+      Sort: <black>Sắp xếp Phần thưởng</black>
+    Keys: <black>Trình chỉnh sửa Chìa khóa</black>
+    Key:
+      Settings: <black>Cài đặt Chìa khóa</black>
+  Enter:
+    DisplayName: <lgray>Nhập <lgreen>[Tên hiển thị]</lgreen></lgray>
+    Amount: <lgray>Nhập <lgreen>[Số lượng]</lgreen></lgray>
+    Value: <lgray>Nhập <lgreen>[Giá trị]</lgreen></lgray>
+  Crate:
+    Enter:
+      Seconds: <lgray>Nhập <lgreen>[Số giây]</lgreen></lgray>
+      Id: <lgray>Nhập <lgreen>[Mã định danh Rương]</lgreen></lgray>
+      Particle:
+        Name: <lgray>Nhập <lgreen>[Tên hạt Particle]</lgreen></lgray>
+      KeyId: <lgray>Nhập <lgreen>[Mã định danh Chìa khóa]</lgreen></lgray>
+      BlockLocation: <lgray>Nhấp vào một <lgreen>[Khối Block]</lgreen> để gán Rương.</lgray>
+      HologramTemplate: <lgray>Nhập <lgreen>[Mẫu Hologram]</lgreen></lgray>
+      AnimationConfig: <lgray>Nhập <lgreen>[Tên Hiệu ứng mở]</lgreen></lgray>
+      PreviewConfig: <lgray>Nhập <lgreen>[Tên Giao diện xem trước]</lgreen></lgray>
+      Open_Cost: <lgray>Nhập <lgreen>[Loại tiền] [Số lượng]</lgreen></lgray>
+  Item:
+    Crates:
+      Name: <lyellow><b>Danh sách Rương</b></lyellow>
+      Lore:
+        - <lyellow>[▶]</lyellow> <lgray>Nhấp để <lyellow>mở</lyellow>.</lgray>
+    Keys:
+      Name: <lyellow><b>Danh sách Chìa khóa</b></lyellow>
+      Lore:
+        - <lyellow>[▶]</lyellow> <lgray>Nhấp để <lyellow>mở</lyellow>.</lgray>
+    Crate:
+      Object:
+        Name: "<lyellow><b>%crate_name%<reset><lgray> (ID: <white>%crate_id%</white>)</lgray></reset></b></lyellow>"
+        Lore:
+          - "%crate_inspect%"
+          - ""
+          - <lyellow>[▶]</lyellow> <lgray>Chuột trái để <lyellow>chỉnh sửa</lyellow>.</lgray>
+          - <lyellow>[▶]</lyellow> <lgray>Shift-Phải để <lyellow>xóa <lred>(không thể hoàn tác)</lred></lyellow>.</lgray>
+      Create:
+        Name: <lyellow><b>Tạo Rương mới</b></lyellow>
+        Lore: []
+      DisplayName:
+        Name: <lyellow><b>Tên hiển thị</b></lyellow>
+        Lore:
+          - "<lyellow>● <lgray>Hiện tại: </lgray>%crate_name%</lyellow>"
+          - ""
+          - <lgray>Tên Rương hiển thị trong tin nhắn,</lgray>
+          - <lgray>placeholder và hologram.</lgray>
+          - ""
+          - <lyellow>[▶]</lyellow> <lgray>Nhấp để <lyellow>thay đổi</lyellow>.</lgray>
+      Permission:
+        Name: <lyellow><b>Yêu cầu quyền hạn</b></lyellow>
+        Lore:
+          - "<lyellow>● <lgray>Trạng thái: </lgray>%crate_permission_required%</lyellow>"
+          - "<lyellow>● <lgray>Quyền hạn: </lgray>%crate_permission%</lyellow>"
+          - ""
+          - <lgray>Bật/Tắt yêu cầu quyền hạn</lgray>
+          - <lgray>để mở Rương này.</lgray>
+          - ""
+          - ""
+          - <lyellow>[▶]</lyellow> <lgray>Nhấp để <lyellow>bật/tắt</lyellow>.</lgray>
+      OpenCooldown:
+        Name: <lyellow><b>Thời gian chờ mở</b></lyellow>
+        Lore:
+          - "<lyellow>● <lgray>Thời gian chờ: </lgray>%crate_open_cooldown%</lyellow>"
+          - ""
+          - <lgray>Thời gian giãn cách giữa các lần</lgray>
+          - <lgray>mở Rương của mỗi người chơi.</lgray>
+          - ""
+          - <lyellow>[▶]</lyellow> <lgray>Chuột trái để <lyellow>đặt thời gian chờ</lyellow>.</lgray>
+          - <lyellow>[▶]</lyellow> <lgray>Chuột phải để <lyellow>xóa bỏ</lyellow>.</lgray>
+          - <lyellow>[▶]</lyellow> <lgray>Phím [Q / Vứt] để <lyellow>đặt thành mở 1 lần</lyellow>.</lgray>
+      PreviewAndOpening:
+        Name: <lyellow><b>Xem trước & Hiệu ứng mở</b></lyellow>
+        Lore:
+          - "<lyellow>● <lgray>Xem trước: </lgray>%crate_preview_config%</lyellow>"
+          - "<lyellow>● <lgray>Hiệu ứng mở: </lgray>%crate_animation_config%</lyellow>"
+          - ""
+          - <lgray>Cấu hình giao diện dùng cho:</lgray>
+          - <lgray><lyellow>● </lyellow>GUI Xem trước Rương (<lorange>/previews/</lorange>)</lgray>
+          - <lgray><lyellow>● </lyellow>Hiệu ứng mở Rương (<lorange>/openingsv2/</lorange>)</lgray>
+          - ""
+          - <lyellow>[▶]</lyellow> <lgray>Chuột trái để <lyellow>đổi giao diện xem trước</lyellow>.</lgray>
+          - <lyellow>[▶]</lyellow> <lgray>Chuột phải để <lyellow>đổi hiệu ứng mở</lyellow>.</lgray>
+          - <lyellow>[▶]</lyellow> <lgray>Shift-Trái để <lyellow>tắt xem trước</lyellow>.</lgray>
+          - <lyellow>[▶]</lyellow> <lgray>Shift-Phải để <lyellow>tắt hiệu ứng mở</lyellow>.</lgray>
+      KeyRequirement:
+        Name: <lyellow><b>Yêu cầu chìa khóa</b></lyellow>
+        Lore:
+          - "<lyellow>● <lgray>Trạng thái: </lgray>%crate_key_required%</lyellow>"
+          - "<lyellow>● <lgray>Chìa khóa: </lgray></lyellow>"
+          - "%crate_key_ids%"
+          - ""
+          - <lgray>Người chơi phải có chìa khóa chỉ định</lgray>
+          - <lgray>để mở Rương này.</lgray>
+          - ""
+          - <lyellow>[▶]</lyellow> <lgray>Chuột trái để <lyellow>thêm chìa khóa</lyellow>.</lgray>
+          - <lyellow>[▶]</lyellow> <lgray>Chuột phải để <lyellow>xóa tất cả</lyellow>.</lgray>
+          - <lyellow>[▶]</lyellow> <lgray>Phím [Q / Vứt] để <lyellow>bật/tắt yêu cầu</lyellow>.</lgray>
+      OpenCost:
+        Name: <lyellow><b>Chi phí mở Rương</b></lyellow>
+        Lore:
+          - "<lyellow>● <lgray>Hiện tại: </lgray>%crate_open_cost%</lyellow>"
+          - ""
+          - <lgray>Người chơi phải trả một khoản chi phí</lgray>
+          - <lgray>để mở Rương này.</lgray>
+          - ""
+          - <lyellow>[▶]</lyellow> <lgray>Chuột trái để <lyellow>thêm chi phí</lyellow>.</lgray>
+          - <lyellow>[▶]</lyellow> <lgray>Phím [Q / Vứt] để <lyellow>xóa tất cả</lyellow>.</lgray>
+      InventoryItem:
+        Name: <lyellow><b>Vật phẩm biểu tượng</b></lyellow>
+        Lore:
+          - <lgray>Vật phẩm đại diện cho Rương trong</lgray>
+          - <lgray>menu và túi đồ người chơi.</lgray>
+          - ""
+          - <lgray>Bạn chỉ nên dùng vật phẩm <lorange>có sẵn</lorange> -</lgray>
+          - <lgray>không thể chỉnh sửa tại đây.</lgray>
+          - ""
+          - <lgray><orange>[❗]</orange> <lgray>Thẻ NBT <orange>không được</orange> hỗ trợ!</lgray></lgray>
+          - ""
+          - <lyellow>[▶]</lyellow> <lgray>Kéo & Thả để <lyellow>thay thế</lyellow>.</lgray>
+          - <lyellow>[▶]</lyellow> <lgray>Chuột trái để <lyellow>lấy vật phẩm</lyellow>.</lgray>
+          - <lyellow>[▶]</lyellow> <lgray>Chuột phải để <lyellow>lấy bản sao thô</lyellow>.</lgray>
+      Placement:
+        Info:
+          Name: <lyellow><b>Đặt khối Rương</b></lyellow>
+          Lore:
+            - <lgray>Đặt Rương tại bất kỳ đâu trong thế giới</lgray>
+            - <lgray>với hiệu ứng hạt particle và hologram!</lgray>
+            - ""
+            - <lyellow>[▶]</lyellow> <lgray>Nhấp để <lyellow>chuyển hướng</lyellow>.</lgray>
+        Locations:
+          Name: <lyellow><b>Khối Block đã gán</b></lyellow>
+          Lore:
+            - <lgray>%crate_locations%</lgray>
+            - ""
+            - <lgray>Gán Rương vào các khối block cụ thể</lgray>
+            - <lgray>trong thế giới và <lorange>mở</lorange> hoặc <lorange>xem trước</lorange></lgray>
+            - <lgray>khi người chơi nhấp vào chúng!</lgray>
+            - ""
+            - <lyellow>[▶]</lyellow> <lgray>Chuột trái để <lyellow>gán khối block</lyellow>.</lgray>
+            - <lyellow>[▶]</lyellow> <lgray>Chuột phải để <lyellow>xóa tất cả</lyellow>.</lgray>
+        Pushback:
+          Name: <lyellow><b>Đẩy lùi người chơi</b></lyellow>
+          Lore:
+            - "<lyellow>● <lgray>Trạng thái: </lgray>%crate_pushback_enabled%</lyellow>"
+            - ""
+            - <lgray>Đẩy lùi người chơi ra xa khỏi Rương</lgray>
+            - <lgray>nếu họ không đáp ứng đủ yêu cầu.</lgray>
+            - ""
+            - <lyellow>[▶]</lyellow> <lgray>Nhấp để <lyellow>bật/tắt</lyellow>.</lgray>
+        Hologram:
+          Name: <lyellow><b>Hologram Chữ nổi</b></lyellow>
+          Lore:
+            - "<lyellow>● <lgray>Trạng thái: </lgray>%crate_hologram_enabled%</lyellow>"
+            - "<lyellow>● <lgray>Mẫu: </lgray>%crate_hologram_template%</lyellow>"
+            - "<lyellow>● <lgray>Độ cao Y: </lgray>%crate_hologram_y_offset%</lyellow>"
+            - ""
+            - <lgray>Tạo chữ nổi (hologram) trên khối Rương</lgray>
+            - <lgray>với nội dung từ mẫu được chọn.</lgray>
+            - ""
+            - <lgray>Chỉnh sửa các mẫu hologram trong <lorange>config.yml</lorange></lgray>
+            - ""
+            - <lyellow>[▶]</lyellow> <lgray>Chuột trái để <lyellow>bật/tắt</lyellow>.</lgray>
+            - <lyellow>[▶]</lyellow> <lgray>Chuột phải để <lyellow>đổi mẫu</lyellow>.</lgray>
+            - <lyellow>[▶]</lyellow> <lgray>Shift-Trái để <lyellow>đổi độ cao Y</lyellow>.</lgray>
+        Effects:
+          Name: <lyellow><b>Hiệu ứng hạt Particle</b></lyellow>
+          Lore:
+            - "<lyellow>● <lgray>Kiểu hình: </lgray>%crate_effect_model%</lyellow>"
+            - "<lyellow>● <lgray>Hạt particle: </lgray>%crate_effect_particle_name%</lyellow>"
+            - "<lyellow>● <lgray>Dữ liệu: </lgray>%crate_effect_particle_data%</lyellow>"
+            - ""
+            - <lgray>Hiển thị các hiệu ứng đẹp mắt xung quanh Rương!</lgray>
+            - ""
+            - <lyellow>[▶]</lyellow> <lgray>Phím [Q / Vứt] để <lyellow>đổi kiểu hình</lyellow>.</lgray>
+            - <lyellow>[▶]</lyellow> <lgray>Chuột trái để <lyellow>đổi loại hạt</lyellow>.</lgray>
+            - <lyellow>[▶]</lyellow> <lgray>Chuột phải để <lyellow>đổi dữ liệu</lyellow>.</lgray>
+      Particle:
+        Data:
+          Red:
+            Name: <lyellow><b>Màu đỏ (Red)</b></lyellow>
+            Lore:
+              - "<lyellow>● <lgray>Hiện tại: </lgray>%value%</lyellow>"
+              - ""
+              - <lyellow>[▶]</lyellow> <lgray>Nhấp để <lyellow>thay đổi</lyellow>.</lgray>
+          Green:
+            Name: <lyellow><b>Màu xanh lá (Green)</b></lyellow>
+            Lore:
+              - "<lyellow>● <lgray>Hiện tại: </lgray>%value%</lyellow>"
+              - ""
+              - <lyellow>[▶]</lyellow> <lgray>Nhấp để <lyellow>thay đổi</lyellow>.</lgray>
+          Blue:
+            Name: <lyellow><b>Màu xanh dương (Blue)</b></lyellow>
+            Lore:
+              - "<lyellow>● <lgray>Hiện tại: </lgray>%value%</lyellow>"
+              - ""
+              - <lyellow>[▶]</lyellow> <lgray>Nhấp để <lyellow>thay đổi</lyellow>.</lgray>
+          Size:
+            Name: <lyellow><b>Kích thước (Size)</b></lyellow>
+            Lore:
+              - "<lyellow>● <lgray>Hiện tại: </lgray>%value%</lyellow>"
+              - ""
+              - <lyellow>[▶]</lyellow> <lgray>Nhấp để <lyellow>thay đổi</lyellow>.</lgray>
+          Material:
+            Name: <lyellow><b>Vật liệu (Material)</b></lyellow>
+            Lore:
+              - "<lyellow>● <lgray>Hiện tại: </lgray>%value%</lyellow>"
+              - ""
+              - <lyellow>[▶]</lyellow> <lgray>Kéo & Thả để <lyellow>thay đổi</lyellow>.</lgray>
+          Number:
+            Name: <lyellow><b>Số lượng (Number)</b></lyellow>
+            Lore:
+              - "<lyellow>● <lgray>Hiện tại: </lgray>%value%</lyellow>"
+              - ""
+              - <lyellow>[▶]</lyellow> <lgray>Nhấp để <lyellow>thay đổi</lyellow>.</lgray>
+      Rewards:
+        Name: <lyellow><b>Danh sách Phần thưởng</b></lyellow>
+        Lore:
+          - "<lyellow>● <lgray>Số lượng: </lgray>%crate_rewards_amount%</lyellow>"
+          - ""
+          - <lgray>Tất cả phần thưởng có thể nhận được,</lgray>
+          - <lgray>bao gồm tỷ lệ và cột mốc.</lgray>
+          - ""
+          - <lyellow>[▶]</lyellow> <lgray>Nhấp để <lyellow>mở</lyellow>.</lgray>
+      Milestones:
+        Name: <lyellow><b>Cột mốc mở Rương</b></lyellow>
+        Lore:
+          - "<lyellow>● <lgray>Số cột mốc: </lgray>%crate_milestones_amount%</lyellow>"
+          - "<lyellow>● <lgray>Lặp lại: </lgray>%crate_milestones_repeatable%</lyellow>"
+          - ""
+          - <lgray>Cột mốc là cách giúp <lorange>thưởng thêm</lorange></lgray>
+          - <lgray>cho người chơi và <lorange>tạo động lực</lorange></lgray>
+          - <lgray>để họ mở nhiều Rương hơn!</lgray>
+          - ""
+          - <lgray>Trao phần thưởng đặc biệt khi họ</lgray>
+          - <lgray>mở Rương này đạt <lorange>X lần</lorange>.</lgray>
+          - ""
+          - <lyellow>[▶]</lyellow> <lgray>Chuột trái để <lyellow>mở danh sách</lyellow>.</lgray>
+          - <lyellow>[▶]</lyellow> <lgray>Chuột phải để <lyellow>bật/tắt lặp lại</lyellow>.</lgray>
+    Reward:
+      Object:
+        Name: "<lyellow><b>%reward_name%<reset>%reward_name%<lgray> (ID: <lorange>%reward_id%</lorange>)</lgray></reset></b></lyellow>"
+        Lore:
+          - "%reward_inspect_content%"
+          - ""
+          - "<lyellow>● <lgray>Trọng số: </lgray>%reward_weight%</lyellow>"
+          - "<lyellow>● <lgray>Tỷ lệ trúng: </lgray>%reward_roll_chance%%</lyellow>"
+          - "<lyellow>● <lgray>Độ hiếm: </lgray>%reward_rarity_name%</lyellow>"
+          - ""
+          - <lyellow>[▶]</lyellow> <lgray>Chuột trái để <lyellow>chỉnh sửa</lyellow>.</lgray>
+          - <lyellow>[▶]</lyellow> <lgray>Shift-Trái để <lyellow>chuyển lên trước</lyellow>.</lgray>
+          - <lyellow>[▶]</lyellow> <lgray>Shift-Phải để <lyellow>chuyển xuống sau</lyellow>.</lgray>
+          - <lyellow>[▶]</lyellow> <lgray>Phím [Q / Vứt] để <lyellow>xóa <lred>(không thể hoàn tác)</lred></lyellow>.</lgray>
+      Create:
+        Name: <lyellow><b>Phần thưởng mới</b></lyellow>
+        Lore:
+          - <lgray></lgray>
+          - ""
+          - <lgray><lyellow><b>Chế độ đơn giản:</b></lyellow></lgray>
+          - <lgray>Nhấp khi đang cầm vật phẩm</lgray>
+          - <lgray>để tạo nhanh phần thưởng</lgray>
+          - <lgray><lgreen>có</lgreen> vật phẩm vật lý.</lgray>
+          - ""
+          - <lgray><lyellow><b>Chế độ nâng cao:</b></lyellow></lgray>
+          - <lgray>Nhấp với con trỏ trống</lgray>
+          - <lgray>để tạo phần thưởng</lgray>
+          - <lgray><lred>không có</lred> vật phẩm vật lý.</lgray>
+      Sort:
+        Info:
+          Name: <lyellow><b>Sắp xếp phần thưởng</b></lyellow>
+          Lore:
+            - <lgray>Tự động sắp xếp phần thưởng</lgray>
+            - <lgray>theo thứ tự chỉ định.</lgray>
+            - ""
+            - <lyellow>[▶]</lyellow> <lgray>Chuột trái để <lyellow>mở</lyellow>.</lgray>
+        ByWeight:
+          Name: <lyellow><b>Theo trọng số</b></lyellow>
+          Lore: []
+        ByRarity:
+          Name: <lyellow><b>Theo độ hiếm</b></lyellow>
+          Lore: []
+        ByChance:
+          Name: <lyellow><b>Theo tỷ lệ %</b></lyellow>
+          Lore: []
+        ByName:
+          Name: <lyellow><b>Theo tên</b></lyellow>
+          Lore: []
+        ByItem:
+          Name: <lyellow><b>Theo vật phẩm</b></lyellow>
+          Lore: []
+      DisplayName:
+        Name: <lyellow><b>Tên hiển thị</b></lyellow>
+        Lore:
+          - "<lyellow>● <lgray>Hiện tại: </lgray>%reward_name%</lyellow>"
+          - ""
+          - <lgray>Tên phần thưởng dùng trong tin nhắn và placeholder.</lgray>
+          - ""
+          - <lyellow>[▶]</lyellow> <lgray>Chuột trái để <lyellow>thay đổi</lyellow>.</lgray>
+          - <lyellow>[▶]</lyellow> <lgray>Shift-Trái để <lyellow>lấy tên từ vật phẩm xem trước</lyellow>.</lgray>
+          - <lyellow>[▶]</lyellow> <lgray>Shift-Phải để <lyellow>đặt cho vật phẩm xem trước</lyellow>.</lgray>
+      Preview:
+        Name: <lyellow><b>Vật phẩm xem trước</b></lyellow>
+        Lore:
+          - <lgray>Vật phẩm đại diện cho phần thưởng này.</lgray>
+          - ""
+          - <lgray>Nếu phần thưởng có <lorange>0</lorange> hoặc <lorange>nhiều</lorange></lgray>
+          - <lgray>vật phẩm vật lý, bạn nên đặt một vật phẩm</lgray>
+          - <lgray>đại diện cụ thể để nhận biết.</lgray>
+          - ""
+          - <lyellow>[▶]</lyellow> <lgray>Kéo & Thả để <lyellow>thay thế</lyellow>.</lgray>
+          - <lyellow>[▶]</lyellow> <lgray>Chuột phải để <lyellow>lấy bản sao</lyellow>.</lgray>
+      SetPlaceholders:
+        Name: <lyellow><b>Áp dụng Placeholder</b></lyellow>
+        Lore:
+          - "<lyellow>● <lgray>Trạng thái: </lgray>%reward_placeholder_apply%</lyellow>"
+          - ""
+          - <lgray>Áp dụng biến placeholder của Rương, phần thưởng và người chơi</lgray>
+          - <lgray>vào tất cả vật phẩm phần thưởng khi trúng.</lgray>
+          - ""
+          - <lgray>Tùy chọn này <lred>có thể làm hỏng</lred> các vật phẩm tùy chỉnh.</lgray>
+          - ""
+          - <lyellow>[▶]</lyellow> <lgray>Nhấp để <lyellow>bật/tắt</lyellow>.</lgray>
+      Weight:
+        Name: <lyellow><b>Độ hiếm & Trọng số</b></lyellow>
+        Lore:
+          - "<lyellow>● <lgray>Độ hiếm: </lgray>%reward_rarity_name%</lyellow>"
+          - "<lyellow>● <lgray>Trọng số: </lgray>%reward_weight%</lyellow>"
+          - "<lyellow>● <lgray>Tỷ lệ trúng: </lgray>%reward_roll_chance%%</lyellow>"
+          - ""
+          - <lgray>Tỷ lệ trúng phụ thuộc vào trọng số của phần thưởng</lgray>
+          - <lgray>và <lorange>độ hiếm</lorange>.</lgray>
+          - <lgray>Trọng số <lorange>càng cao</lorange> thì tỷ lệ trúng <lorange>càng lớn</lorange>.</lgray>
+          - ""
+          - <lgray>Đọc <lorange>tài liệu</lorange> để biết thêm chi tiết.</lgray>
+          - ""
+          - <lyellow>[▶]</lyellow> <lgray>Chuột trái để <lyellow>đặt độ hiếm</lyellow>.</lgray>
+          - <lyellow>[▶]</lyellow> <lgray>Chuột phải để <lyellow>đặt trọng số</lyellow>.</lgray>
+      Commands:
+        Name: <lyellow><b>Lệnh thực thi khi trúng</b></lyellow>
+        Lore:
+          - "%reward_editor_commands%"
+          - ""
+          - <lgray>Các lệnh chỉ định sẽ được</lgray>
+          - <lgray>thực thi bởi <lorange>Console của Server</lorange></lgray>
+          - <lgray>khi người chơi trúng phần thưởng này.</lgray>
+          - ""
+          - <lgray>Có thể sử dụng tất cả placeholder của <lorange>PlaceholderAPI</lorange>.</lgray>
+          - <lgray>Dùng <lorange>%player_name%</lorange> cho tên người chơi.</lgray>
+          - ""
+          - <lyellow>[▶]</lyellow> <lgray>Chuột trái để <lyellow>thêm lệnh</lyellow>.</lgray>
+          - <lyellow>[▶]</lyellow> <lgray>Chuột phải để <lyellow>xóa tất cả</lyellow>.</lgray>
+      Items:
+        Name: <lyellow><b>Vật phẩm nhận được khi trúng</b></lyellow>
+        Lore:
+          - "%reward_editor_items%"
+          - ""
+          - <lgray>Các vật phẩm chỉ định sẽ được</lgray>
+          - <lgray>thêm vào <lorange>túi đồ người chơi</lorange></lgray>
+          - <lgray>khi người chơi trúng phần thưởng này.</lgray>
+          - ""
+          - <lgray>Có thể sử dụng tất cả placeholder của <lorange>PlaceholderAPI</lorange>.</lgray>
+          - <lgray>Dùng <lorange>%player_name%</lorange> cho tên người chơi.</lgray>
+          - ""
+          - <lyellow>[▶]</lyellow> <lgray>Chuột trái để <lyellow>mở</lyellow>.</lgray>
+      Broadcast:
+        Name: <lyellow><b>Thông báo toàn máy chủ</b></lyellow>
+        Lore:
+          - "<lyellow>● <lgray>Trạng thái: </lgray>%reward_broadcast%</lyellow>"
+          - ""
+          - <lgray>Khi bật, tin nhắn sẽ được thông báo toàn máy chủ</lgray>
+          - <lgray>khi có ai đó trúng phần thưởng này.</lgray>
+          - ""
+          - <lyellow>[▶]</lyellow> <lgray>Nhấp để <lyellow>bật/tắt</lyellow>.</lgray>
+      GlobalWinLimit:
+        Name: <lyellow><b>Giới hạn trúng toàn máy chủ</b></lyellow>
+        Lore:
+          - "<lyellow>● <lgray>Trạng thái: </lgray>%reward_global_win_limit_enabled%</lyellow>"
+          - "<lyellow>● <lgray>Số lần: </lgray>%reward_global_win_limit_amount%</lyellow>"
+          - "<lyellow>● <lgray>Thời gian chờ: </lgray>%reward_global_win_limit_cooldown%</lyellow>"
+          - "<lyellow>● <lgray>Bước thời gian chờ: </lgray>%reward_global_win_limit_step%</lyellow>"
+          - ""
+          - <lgray>Đặt thời gian chờ và số lần trúng</lgray>
+          - <lgray>tối đa cho <lorange>toàn bộ máy chủ</lorange>.</lgray>
+          - ""
+          - <lgray>Xem <lorange>tài liệu</lorange> để biết thêm chi tiết.</lgray>
+          - ""
+          - <lyellow>[▶]</lyellow> <lgray>Phím [Q / Vứt] để <lyellow>bật/tắt</lyellow>.</lgray>
+          - <lyellow>[▶]</lyellow> <lgray>Chuột trái để <lyellow>thay đổi số lần</lyellow>.</lgray>
+          - <lyellow>[▶]</lyellow> <lgray>Chuột phải để <lyellow>thay đổi thời gian chờ</lyellow>.</lgray>
+          - <lyellow>[▶]</lyellow> <lgray>Shift-Trái để <lyellow>đổi bước thời gian chờ</lyellow>.</lgray>
+          - <lyellow>[▶]</lyellow> <lgray>Shift-Phải để <lyellow>đặt thời gian chờ nửa đêm</lyellow>.</lgray>
+          - <lyellow>[▶]</lyellow> <lgray>Phím [F / Đổi tay] để <lyellow>đặt lại dữ liệu đã lưu</lyellow>.</lgray>
+      PlayerWinLimit:
+        Name: <lyellow><b>Giới hạn trúng của người chơi</b></lyellow>
+        Lore:
+          - "<lyellow>● <lgray>Trạng thái: </lgray>%reward_player_win_limit_enabled%</lyellow>"
+          - "<lyellow>● <lgray>Số lần: </lgray>%reward_player_win_limit_amount%</lyellow>"
+          - "<lyellow>● <lgray>Thời gian chờ: </lgray>%reward_player_win_limit_cooldown%</lyellow>"
+          - "<lyellow>● <lgray>Bước thời gian chờ: </lgray>%reward_player_win_limit_step%</lyellow>"
+          - ""
+          - <lgray>Đặt thời gian chờ và số lần trúng</lgray>
+          - <lgray>tối đa cho <lorange>mỗi người chơi</lorange>.</lgray>
+          - ""
+          - <lgray>Xem <lorange>tài liệu</lorange> để biết thêm chi tiết.</lgray>
+          - ""
+          - <lyellow>[▶]</lyellow> <lgray>Phím [Q / Vứt] để <lyellow>bật/tắt</lyellow>.</lgray>
+          - <lyellow>[▶]</lyellow> <lgray>Chuột trái để <lyellow>thay đổi số lần</lyellow>.</lgray>
+          - <lyellow>[▶]</lyellow> <lgray>Chuột phải để <lyellow>thay đổi thời gian chờ</lyellow>.</lgray>
+          - <lyellow>[▶]</lyellow> <lgray>Shift-Trái để <lyellow>đổi bước thời gian chờ</lyellow>.</lgray>
+          - <lyellow>[▶]</lyellow> <lgray>Shift-Phải để <lyellow>đặt thời gian chờ nửa đêm</lyellow>.</lgray>
+      IgnoredPermissions:
+        Name: <lyellow><b>Hạn chế quyền hạn</b></lyellow>
+        Lore:
+          - "%reward_ignored_for_permissions%"
+          - ""
+          - <lgray>Người chơi có bất kỳ quyền hạn nào được chỉ định</lgray>
+          - <lgray>sẽ không bao giờ trúng phần thưởng này.</lgray>
+          - ""
+          - ""
+          - <lyellow>[▶]</lyellow> <lgray>Chuột trái để <lyellow>thêm</lyellow>.</lgray>
+          - <lyellow>[▶]</lyellow> <lgray>Chuột phải để <lyellow>xóa tất cả</lyellow>.</lgray>
+    Milestone:
+      Create:
+        Name: <lyellow><b>Cột mốc mới</b></lyellow>
+        Lore: []
+      Object:
+        Name: "<lyellow><b>Cột mốc: %milestone_openings%</b></lyellow>"
+        Lore:
+          - "%milestone_inspect_reward%"
+          - ""
+          - "<lyellow>● <lgray>Số lần mở: </lgray>%milestone_openings%</lyellow>"
+          - "<lyellow>● <lgray>Mã phần thưởng: </lgray>%milestone_reward_id%</lyellow>"
+          - ""
+          - <lyellow>[▶]</lyellow> <lgray>Chuột trái để <lyellow>thay đổi số lần mở</lyellow>.</lgray>
+          - <lyellow>[▶]</lyellow> <lgray>Chuột phải để <lyellow>thay đổi phần thưởng</lyellow>.</lgray>
+          - <lyellow>[▶]</lyellow> <lgray>Shift-Phải để <lyellow>xóa <lred>(không thể hoàn tác)</lred></lyellow>.</lgray>
+    Key:
+      Object:
+        Name: "<lyellow><b>%key_name%<reset><lgray> (ID: <white>%key_id%</white>)</lgray></reset></b></lyellow>"
+        Lore:
+          - "<lyellow>● <lgray>Chìa ảo: </lgray>%key_virtual%</lyellow>"
+          - ""
+          - <lyellow>[▶]</lyellow> <lgray>Chuột trái để <lyellow>chỉnh sửa</lyellow>.</lgray>
+          - <lyellow>[▶]</lyellow> <lgray>Shift-Phải để <lyellow>xóa <lred>(không thể hoàn tác)</lred></lyellow>.</lgray>
+      Create:
+        Name: <lyellow><b>Chìa khóa mới</b></lyellow>
+        Lore: []
+      DisplayName:
+        Name: <lyellow><b>Tên hiển thị</b></lyellow>
+        Lore:
+          - "<lyellow>● <lgray>Hiện tại: </lgray>%key_name%</lyellow>"
+          - ""
+          - <lgray>Tên chìa khóa dùng cho tin nhắn, placeholder</lgray>
+          - <lgray>và hologram.</lgray>
+          - ""
+          - <lyellow>[▶]</lyellow> <lgray>Nhấp để <lyellow>thay đổi</lyellow>.</lgray>
+      Item:
+        Name: <lyellow><b>Vật phẩm chìa khóa</b></lyellow>
+        Lore:
+          - <lgray>Vật phẩm đại diện cho chìa khóa trong</lgray>
+          - <lgray>túi đồ của người chơi.</lgray>
+          - ""
+          - <lgray>Bạn chỉ nên dùng vật phẩm <lorange>có sẵn</lorange> -</lgray>
+          - <lgray>không thể chỉnh sửa tại đây.</lgray>
+          - ""
+          - <lgray><orange>[❗]</orange> <lgray>Thẻ NBT <orange>không được</orange> hỗ trợ!</lgray></lgray>
+          - ""
+          - <lyellow>[▶]</lyellow> <lgray>Kéo & Thả để <lyellow>thay thế</lyellow>.</lgray>
+          - <lyellow>[▶]</lyellow> <lgray>Chuột trái để <lyellow>lấy vật phẩm chìa khóa</lyellow>.</lgray>
+          - <lyellow>[▶]</lyellow> <lgray>Chuột phải để <lyellow>lấy bản sao thô</lyellow>.</lgray>
+      Virtual:
+        Name: <lyellow><b>Chìa khóa ảo (Virtual)</b></lyellow>
+        Lore:
+          - "<lyellow>● <lgray>Trạng thái: </lgray>%key_virtual%</lyellow>"
+          - ""
+          - <lgray>Thiết lập xem chìa khóa có phải là chìa khóa ảo hay không.</lgray>
+          - ""
+          - <lyellow>[▶]</lyellow> <lgray>Nhấp để <lyellow>bật/tắt</lyellow>.</lgray>

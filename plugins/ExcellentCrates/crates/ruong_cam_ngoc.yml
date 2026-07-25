@@ -25,7 +25,7 @@ Rewards:
   List:
     orange_gem_lv_1:
       Name: '&6&lCam Ngọc &e&lLv.I'
-      Weight: 40.0
+      Weight: 45.0
       Rarity: common
       Broadcast: false
       Placeholder_Apply: false
@@ -67,8 +67,8 @@ Rewards:
       Ignored_For_Permissions: []
     orange_gem_lv_3:
       Name: '&6&lCam Ngọc &e&lLv.III'
-      Weight: 15.0
-      Rarity: uncommon
+      Weight: 12.0
+      Rarity: common
       Broadcast: false
       Placeholder_Apply: false
       Win_Limit:
@@ -88,8 +88,8 @@ Rewards:
       Ignored_For_Permissions: []
     orange_gem_lv_4:
       Name: '&6&lCam Ngọc &e&lLv.IV'
-      Weight: 9.0
-      Rarity: uncommon
+      Weight: 7.0
+      Rarity: common
       Broadcast: false
       Placeholder_Apply: false
       Win_Limit:
@@ -110,7 +110,7 @@ Rewards:
     orange_gem_lv_5:
       Name: '&6&lCam Ngọc &e&lLv.V'
       Weight: 5.0
-      Rarity: rare
+      Rarity: common
       Broadcast: false
       Placeholder_Apply: false
       Win_Limit:
@@ -131,7 +131,7 @@ Rewards:
     orange_gem_lv_6:
       Name: '&6&lCam Ngọc &e&lLv.VI'
       Weight: 3.0
-      Rarity: rare
+      Rarity: common
       Broadcast: false
       Placeholder_Apply: false
       Win_Limit:
@@ -152,7 +152,7 @@ Rewards:
     orange_gem_lv_7:
       Name: '&6&lCam Ngọc &e&lLv.VII'
       Weight: 1.8
-      Rarity: epic
+      Rarity: common
       Broadcast: false
       Placeholder_Apply: false
       Win_Limit:
@@ -173,7 +173,7 @@ Rewards:
     orange_gem_lv_8:
       Name: '&6&lCam Ngọc &e&lLv.VIII'
       Weight: 0.8
-      Rarity: epic
+      Rarity: common
       Broadcast: true
       Placeholder_Apply: false
       Win_Limit:
@@ -189,13 +189,14 @@ Rewards:
           CooldownStep: 1
       Commands:
       - '[CONSOLE] mmoitems give GEM_STONE ORANGE_GEM_LV8 %player_name% 1'
+      - '[CONSOLE] broadcast &d&lCRATES &8» &fChúc mừng &b%player_name% &fvừa mở &eHòm Cam Ngọc &fnhận được &6&lCam Ngọc &e&lLv.VIII&f!'
       - '[CONSOLE] execute as %player_name% at @s run playsound ui.toast.challenge_complete master @s ~ ~ ~ 1 1'
       - '[CONSOLE] execute as %player_name% at @s run summon firework_rocket ~ ~ ~ {LifeTime:5,Motion:[0.0,1.2,0.0],FireworksItem:{id:"minecraft:firework_rocket",Count:1,tag:{Fireworks:{Explosions:[{Type:1,Colors:[I;16711680,16776960],FadeColors:[I;255]}]}}}}'
       Ignored_For_Permissions: []
     orange_gem_lv_9:
       Name: '&6&lCam Ngọc &e&lLv.IX'
       Weight: 0.3
-      Rarity: legendary
+      Rarity: common
       Broadcast: true
       Placeholder_Apply: false
       Win_Limit:
@@ -211,13 +212,14 @@ Rewards:
           CooldownStep: 1
       Commands:
       - '[CONSOLE] mmoitems give GEM_STONE ORANGE_GEM_LV9 %player_name% 1'
+      - '[CONSOLE] broadcast &d&lCRATES &8» &fChúc mừng &b%player_name% &fvừa mở &eHòm Cam Ngọc &fnhận được &6&lCam Ngọc &e&lLv.IX&f!'
       - '[CONSOLE] execute as %player_name% at @s run playsound ui.toast.challenge_complete master @s ~ ~ ~ 1 1'
       - '[CONSOLE] execute as %player_name% at @s run summon firework_rocket ~ ~ ~ {LifeTime:5,Motion:[0.0,1.2,0.0],FireworksItem:{id:"minecraft:firework_rocket",Count:1,tag:{Fireworks:{Explosions:[{Type:1,Colors:[I;16711680,16776960],FadeColors:[I;255]}]}}}}'
       Ignored_For_Permissions: []
     orange_gem_lv_10:
       Name: '&6&lCam Ngọc &e&lLv.X'
       Weight: 0.1
-      Rarity: mythic
+      Rarity: common
       Broadcast: true
       Placeholder_Apply: false
       Win_Limit:
@@ -233,6 +235,7 @@ Rewards:
           CooldownStep: 1
       Commands:
       - '[CONSOLE] mmoitems give GEM_STONE ORANGE_GEM_LV10 %player_name% 1'
+      - '[CONSOLE] broadcast &d&lCRATES &8» &fChúc mừng &b%player_name% &fvừa mở &eHòm Cam Ngọc &fnhận được &6&lCam Ngọc &e&lLv.X&f!'
       - '[CONSOLE] execute as %player_name% at @s run playsound ui.toast.challenge_complete master @s ~ ~ ~ 1 1'
       - '[CONSOLE] execute as %player_name% at @s run summon firework_rocket ~ ~ ~ {LifeTime:5,Motion:[0.0,1.2,0.0],FireworksItem:{id:"minecraft:firework_rocket",Count:1,tag:{Fireworks:{Explosions:[{Type:1,Colors:[I;16711680,16776960],FadeColors:[I;255]}]}}}}'
       Ignored_For_Permissions: []
@@ -240,15 +243,16 @@ Item:
   Material: CHEST
   Name: '&6&lHòm Cam Ngọc'
   Lore:
-  - '&f'
-  - '&fChứa năng lượng Năng Lượng, tăng Tốc Độ Di Chuyển.'
-  - '&f'
-  - '&6Tỉ lệ nhận theo cấp:'
-  - ' &7● Cấp Lv.I - Lv.IV: &aCao (89%)'
-  - ' &7● Cấp Lv.V - Lv.VII: &eVừa (9.8%)'
-  - ' &7● Cấp Lv.VIII - Lv.X: &cHiếm (1.2%)'
-  - '&f'
-  - '&eNhấn chuột phải để mở.'
+  - '&7Mở để nhận ngẫu nhiên &6&lCam Ngọc &7từ &f&lLv.I &7đến &6&lLv.X&7.'
+  - '&7Khảm vào trang bị giúp gia tăng &6&lTốc Độ Di Chuyển&7.'
+  - ''
+  - '&e&l★ PHẦN THƯỞNG NỔI BẬT:'
+  - ' &f▪ &6&lCam Ngọc &e&lLv.X&7: &c&l0.1%'
+  - ' &f▪ &6&lCam Ngọc &e&lLv.IX&7: &c&l0.3%'
+  - ' &f▪ &6&lCam Ngọc &e&lLv.VIII&7: &c&l0.8%'
+  - ' &f▪ &6&lCam Ngọc &7(Lv.I - Lv.VII): &a&l98.8%'
+  - ''
+  - '&e▸ Nhấn chuột phải để mở.'
   Item_Flags:
   - HIDE_ENCHANTS
   - HIDE_ATTRIBUTES
@@ -258,3 +262,5 @@ Item:
   - HIDE_POTION_EFFECTS
   - HIDE_DYE
   - HIDE_ARMOR_TRIM
+Last_Opener: ABeess
+Last_Reward: '&6&lCam Ngọc &e&lLv.III'
