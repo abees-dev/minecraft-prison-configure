@@ -1,5 +1,6 @@
 AXE_TAN_BINH_1:
   base:
+    custom-maxsockets: 3.0
     revision-id: 1
     material: WOODEN_AXE
     name: "&fRìu Chiến Tân Binh &e&lI"
@@ -23,6 +24,7 @@ AXE_TAN_BINH_1:
 
 AXE_TAN_BINH_2:
   base:
+    custom-maxsockets: 3.0
     revision-id: 1
     material: WOODEN_AXE
     name: "&fRìu Chiến Tân Binh &e&lII"
@@ -46,6 +48,7 @@ AXE_TAN_BINH_2:
 
 AXE_TAN_BINH_3:
   base:
+    custom-maxsockets: 3.0
     revision-id: 1
     material: WOODEN_AXE
     name: "&fRìu Chiến Tân Binh &e&lIII"
@@ -69,6 +72,7 @@ AXE_TAN_BINH_3:
 
 AXE_TAN_BINH_4:
   base:
+    custom-maxsockets: 3.0
     revision-id: 1
     material: WOODEN_AXE
     name: "&fRìu Chiến Tân Binh &e&lIV"
@@ -92,6 +96,7 @@ AXE_TAN_BINH_4:
 
 AXE_TAN_BINH_5:
   base:
+    custom-maxsockets: 3.0
     revision-id: 1
     material: WOODEN_AXE
     name: "&fRìu Chiến Tân Binh &e&lV"
@@ -115,6 +120,7 @@ AXE_TAN_BINH_5:
 
 AXE_TU_NHAN_1:
   base:
+    custom-maxsockets: 3.0
     revision-id: 1
     material: STONE_AXE
     name: "&aRìu Chiến Tù Nhân &e&lI"
@@ -138,6 +144,7 @@ AXE_TU_NHAN_1:
 
 AXE_TU_NHAN_2:
   base:
+    custom-maxsockets: 3.0
     revision-id: 1
     material: STONE_AXE
     name: "&aRìu Chiến Tù Nhân &e&lII"
@@ -161,6 +168,7 @@ AXE_TU_NHAN_2:
 
 AXE_TU_NHAN_3:
   base:
+    custom-maxsockets: 3.0
     revision-id: 1
     material: STONE_AXE
     name: "&aRìu Chiến Tù Nhân &e&lIII"
@@ -184,6 +192,7 @@ AXE_TU_NHAN_3:
 
 AXE_TU_NHAN_4:
   base:
+    custom-maxsockets: 3.0
     revision-id: 1
     material: STONE_AXE
     name: "&aRìu Chiến Tù Nhân &e&lIV"
@@ -207,6 +216,7 @@ AXE_TU_NHAN_4:
 
 AXE_TU_NHAN_5:
   base:
+    custom-maxsockets: 3.0
     revision-id: 1
     material: STONE_AXE
     name: "&aRìu Chiến Tù Nhân &e&lV"
@@ -230,6 +240,7 @@ AXE_TU_NHAN_5:
 
 AXE_LAO_CONG_1:
   base:
+    custom-maxsockets: 3.0
     revision-id: 1
     material: IRON_AXE
     name: "&bRìu Chiến Lao Công &e&lI"
@@ -244,8 +255,6 @@ AXE_LAO_CONG_1:
     attack-damage: 9.5
     attack-speed: 1
     knockback: 0.6
-    gem-sockets:
-      - Uncolored
     upgrade:
       reference: weapon-upgrade-template
       template: weapon-upgrade-template
@@ -255,6 +264,7 @@ AXE_LAO_CONG_1:
 
 AXE_LAO_CONG_2:
   base:
+    custom-maxsockets: 3.0
     revision-id: 1
     material: IRON_AXE
     name: "&bRìu Chiến Lao Công &e&lII"
@@ -269,8 +279,6 @@ AXE_LAO_CONG_2:
     attack-damage: 10.3
     attack-speed: 1
     knockback: 0.7
-    gem-sockets:
-      - Uncolored
     upgrade:
       reference: weapon-upgrade-template
       template: weapon-upgrade-template
@@ -280,6 +288,7 @@ AXE_LAO_CONG_2:
 
 AXE_LAO_CONG_3:
   base:
+    custom-maxsockets: 3.0
     revision-id: 1
     material: IRON_AXE
     name: "&bRìu Chiến Lao Công &e&lIII"
@@ -294,8 +303,6 @@ AXE_LAO_CONG_3:
     attack-damage: 11.0
     attack-speed: 1
     knockback: 0.7
-    gem-sockets:
-      - Uncolored
     upgrade:
       reference: weapon-upgrade-template
       template: weapon-upgrade-template
@@ -305,6 +312,7 @@ AXE_LAO_CONG_3:
 
 AXE_LAO_CONG_4:
   base:
+    custom-maxsockets: 3.0
     revision-id: 1
     material: IRON_AXE
     name: "&bRìu Chiến Lao Công &e&lIV"
@@ -319,8 +327,6 @@ AXE_LAO_CONG_4:
     attack-damage: 11.8
     attack-speed: 1
     knockback: 0.8
-    gem-sockets:
-      - Uncolored
     upgrade:
       reference: weapon-upgrade-template
       template: weapon-upgrade-template
@@ -330,6 +336,7 @@ AXE_LAO_CONG_4:
 
 AXE_LAO_CONG_5:
   base:
+    custom-maxsockets: 3.0
     revision-id: 1
     material: IRON_AXE
     name: "&bRìu Chiến Lao Công &e&lV"
@@ -344,8 +351,6 @@ AXE_LAO_CONG_5:
     attack-damage: 12.5
     attack-speed: 1
     knockback: 0.8
-    gem-sockets:
-      - Uncolored
     upgrade:
       reference: weapon-upgrade-template
       template: weapon-upgrade-template
@@ -355,6 +360,7 @@ AXE_LAO_CONG_5:
 
 AXE_THO_DAO_1:
   base:
+    custom-maxsockets: 3.0
     revision-id: 1
     material: IRON_AXE
     name: "&eRìu Chiến Thợ Đào &e&lI"
@@ -369,9 +375,6 @@ AXE_THO_DAO_1:
     attack-damage: 13.0
     attack-speed: 1
     knockback: 0.8
-    gem-sockets:
-      - Uncolored
-      - Uncolored
     upgrade:
       reference: weapon-upgrade-template
       template: weapon-upgrade-template
@@ -381,6 +384,7 @@ AXE_THO_DAO_1:
 
 AXE_THO_DAO_2:
   base:
+    custom-maxsockets: 3.0
     revision-id: 1
     material: IRON_AXE
     name: "&eRìu Chiến Thợ Đào &e&lII"
@@ -395,9 +399,6 @@ AXE_THO_DAO_2:
     attack-damage: 13.9
     attack-speed: 1
     knockback: 0.9
-    gem-sockets:
-      - Uncolored
-      - Uncolored
     upgrade:
       reference: weapon-upgrade-template
       template: weapon-upgrade-template
@@ -407,6 +408,7 @@ AXE_THO_DAO_2:
 
 AXE_THO_DAO_3:
   base:
+    custom-maxsockets: 3.0
     revision-id: 1
     material: IRON_AXE
     name: "&eRìu Chiến Thợ Đào &e&lIII"
@@ -421,9 +423,6 @@ AXE_THO_DAO_3:
     attack-damage: 14.8
     attack-speed: 1
     knockback: 0.9
-    gem-sockets:
-      - Uncolored
-      - Uncolored
     upgrade:
       reference: weapon-upgrade-template
       template: weapon-upgrade-template
@@ -433,6 +432,7 @@ AXE_THO_DAO_3:
 
 AXE_THO_DAO_4:
   base:
+    custom-maxsockets: 3.0
     revision-id: 1
     material: IRON_AXE
     name: "&eRìu Chiến Thợ Đào &e&lIV"
@@ -447,9 +447,6 @@ AXE_THO_DAO_4:
     attack-damage: 15.6
     attack-speed: 1
     knockback: 1.0
-    gem-sockets:
-      - Uncolored
-      - Uncolored
     upgrade:
       reference: weapon-upgrade-template
       template: weapon-upgrade-template
@@ -459,6 +456,7 @@ AXE_THO_DAO_4:
 
 AXE_THO_DAO_5:
   base:
+    custom-maxsockets: 3.0
     revision-id: 1
     material: IRON_AXE
     name: "&eRìu Chiến Thợ Đào &e&lV"
@@ -473,9 +471,6 @@ AXE_THO_DAO_5:
     attack-damage: 16.5
     attack-speed: 1
     knockback: 1.0
-    gem-sockets:
-      - Uncolored
-      - Uncolored
     upgrade:
       reference: weapon-upgrade-template
       template: weapon-upgrade-template
@@ -485,6 +480,7 @@ AXE_THO_DAO_5:
 
 AXE_DOI_TRUONG_1:
   base:
+    custom-maxsockets: 3.0
     revision-id: 1
     material: DIAMOND_AXE
     name: "&6Rìu Chiến Đội Trưởng &e&lI"
@@ -500,10 +496,6 @@ AXE_DOI_TRUONG_1:
     attack-speed: 1
     knockback: 1.0
     critical-strike-power: 10.0
-    gem-sockets:
-      - Uncolored
-      - Uncolored
-      - Uncolored
     upgrade:
       reference: weapon-upgrade-template
       template: weapon-upgrade-template
@@ -513,6 +505,7 @@ AXE_DOI_TRUONG_1:
 
 AXE_DOI_TRUONG_2:
   base:
+    custom-maxsockets: 3.0
     revision-id: 1
     material: DIAMOND_AXE
     name: "&6Rìu Chiến Đội Trưởng &e&lII"
@@ -528,10 +521,6 @@ AXE_DOI_TRUONG_2:
     attack-speed: 1
     knockback: 1.1
     critical-strike-power: 11.0
-    gem-sockets:
-      - Uncolored
-      - Uncolored
-      - Uncolored
     upgrade:
       reference: weapon-upgrade-template
       template: weapon-upgrade-template
@@ -541,6 +530,7 @@ AXE_DOI_TRUONG_2:
 
 AXE_DOI_TRUONG_3:
   base:
+    custom-maxsockets: 3.0
     revision-id: 1
     material: DIAMOND_AXE
     name: "&6Rìu Chiến Đội Trưởng &e&lIII"
@@ -556,10 +546,6 @@ AXE_DOI_TRUONG_3:
     attack-speed: 1
     knockback: 1.1
     critical-strike-power: 12.0
-    gem-sockets:
-      - Uncolored
-      - Uncolored
-      - Uncolored
     upgrade:
       reference: weapon-upgrade-template
       template: weapon-upgrade-template
@@ -569,6 +555,7 @@ AXE_DOI_TRUONG_3:
 
 AXE_DOI_TRUONG_4:
   base:
+    custom-maxsockets: 3.0
     revision-id: 1
     material: DIAMOND_AXE
     name: "&6Rìu Chiến Đội Trưởng &e&lIV"
@@ -584,10 +571,6 @@ AXE_DOI_TRUONG_4:
     attack-speed: 1
     knockback: 1.1
     critical-strike-power: 13.0
-    gem-sockets:
-      - Uncolored
-      - Uncolored
-      - Uncolored
     upgrade:
       reference: weapon-upgrade-template
       template: weapon-upgrade-template
@@ -597,6 +580,7 @@ AXE_DOI_TRUONG_4:
 
 AXE_DOI_TRUONG_5:
   base:
+    custom-maxsockets: 3.0
     revision-id: 1
     material: DIAMOND_AXE
     name: "&6Rìu Chiến Đội Trưởng &e&lV"
@@ -612,10 +596,6 @@ AXE_DOI_TRUONG_5:
     attack-speed: 1
     knockback: 1.2
     critical-strike-power: 14.0
-    gem-sockets:
-      - Uncolored
-      - Uncolored
-      - Uncolored
     upgrade:
       reference: weapon-upgrade-template
       template: weapon-upgrade-template
@@ -625,6 +605,7 @@ AXE_DOI_TRUONG_5:
 
 AXE_PHO_QUAN_NGUC_1:
   base:
+    custom-maxsockets: 3.0
     revision-id: 1
     material: DIAMOND_AXE
     name: "&cRìu Chiến Phó Quản Ngục &e&lI"
@@ -640,11 +621,6 @@ AXE_PHO_QUAN_NGUC_1:
     attack-speed: 1
     knockback: 1.2
     critical-strike-power: 15.0
-    gem-sockets:
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
     upgrade:
       reference: weapon-upgrade-template
       template: weapon-upgrade-template
@@ -654,6 +630,7 @@ AXE_PHO_QUAN_NGUC_1:
 
 AXE_PHO_QUAN_NGUC_2:
   base:
+    custom-maxsockets: 3.0
     revision-id: 1
     material: DIAMOND_AXE
     name: "&cRìu Chiến Phó Quản Ngục &e&lII"
@@ -669,11 +646,6 @@ AXE_PHO_QUAN_NGUC_2:
     attack-speed: 1
     knockback: 1.3
     critical-strike-power: 16.0
-    gem-sockets:
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
     upgrade:
       reference: weapon-upgrade-template
       template: weapon-upgrade-template
@@ -683,6 +655,7 @@ AXE_PHO_QUAN_NGUC_2:
 
 AXE_PHO_QUAN_NGUC_3:
   base:
+    custom-maxsockets: 3.0
     revision-id: 1
     material: DIAMOND_AXE
     name: "&cRìu Chiến Phó Quản Ngục &e&lIII"
@@ -698,11 +671,6 @@ AXE_PHO_QUAN_NGUC_3:
     attack-speed: 1
     knockback: 1.3
     critical-strike-power: 17.0
-    gem-sockets:
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
     upgrade:
       reference: weapon-upgrade-template
       template: weapon-upgrade-template
@@ -712,6 +680,7 @@ AXE_PHO_QUAN_NGUC_3:
 
 AXE_PHO_QUAN_NGUC_4:
   base:
+    custom-maxsockets: 3.0
     revision-id: 1
     material: DIAMOND_AXE
     name: "&cRìu Chiến Phó Quản Ngục &e&lIV"
@@ -727,11 +696,6 @@ AXE_PHO_QUAN_NGUC_4:
     attack-speed: 1
     knockback: 1.4
     critical-strike-power: 18.0
-    gem-sockets:
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
     upgrade:
       reference: weapon-upgrade-template
       template: weapon-upgrade-template
@@ -741,6 +705,7 @@ AXE_PHO_QUAN_NGUC_4:
 
 AXE_PHO_QUAN_NGUC_5:
   base:
+    custom-maxsockets: 3.0
     revision-id: 1
     material: DIAMOND_AXE
     name: "&cRìu Chiến Phó Quản Ngục &e&lV"
@@ -756,11 +721,6 @@ AXE_PHO_QUAN_NGUC_5:
     attack-speed: 1
     knockback: 1.4
     critical-strike-power: 19.0
-    gem-sockets:
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
     upgrade:
       reference: weapon-upgrade-template
       template: weapon-upgrade-template
@@ -770,6 +730,7 @@ AXE_PHO_QUAN_NGUC_5:
 
 AXE_QUAN_NGUC_1:
   base:
+    custom-maxsockets: 3.0
     revision-id: 1
     material: NETHERITE_AXE
     name: "&dRìu Chiến Quản Ngục &e&lI"
@@ -785,11 +746,6 @@ AXE_QUAN_NGUC_1:
     attack-speed: 1
     knockback: 1.5
     critical-strike-power: 20.0
-    gem-sockets:
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
     upgrade:
       reference: weapon-upgrade-template
       template: weapon-upgrade-template
@@ -799,6 +755,7 @@ AXE_QUAN_NGUC_1:
 
 AXE_QUAN_NGUC_2:
   base:
+    custom-maxsockets: 3.0
     revision-id: 1
     material: NETHERITE_AXE
     name: "&dRìu Chiến Quản Ngục &e&lII"
@@ -814,11 +771,6 @@ AXE_QUAN_NGUC_2:
     attack-speed: 1
     knockback: 1.6
     critical-strike-power: 21.0
-    gem-sockets:
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
     upgrade:
       reference: weapon-upgrade-template
       template: weapon-upgrade-template
@@ -828,6 +780,7 @@ AXE_QUAN_NGUC_2:
 
 AXE_QUAN_NGUC_3:
   base:
+    custom-maxsockets: 3.0
     revision-id: 1
     material: NETHERITE_AXE
     name: "&dRìu Chiến Quản Ngục &e&lIII"
@@ -843,11 +796,6 @@ AXE_QUAN_NGUC_3:
     attack-speed: 1
     knockback: 1.6
     critical-strike-power: 22.0
-    gem-sockets:
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
     upgrade:
       reference: weapon-upgrade-template
       template: weapon-upgrade-template
@@ -857,6 +805,7 @@ AXE_QUAN_NGUC_3:
 
 AXE_QUAN_NGUC_4:
   base:
+    custom-maxsockets: 3.0
     revision-id: 1
     material: NETHERITE_AXE
     name: "&dRìu Chiến Quản Ngục &e&lIV"
@@ -872,11 +821,6 @@ AXE_QUAN_NGUC_4:
     attack-speed: 1
     knockback: 1.6
     critical-strike-power: 23.0
-    gem-sockets:
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
     upgrade:
       reference: weapon-upgrade-template
       template: weapon-upgrade-template
@@ -886,6 +830,7 @@ AXE_QUAN_NGUC_4:
 
 AXE_QUAN_NGUC_5:
   base:
+    custom-maxsockets: 3.0
     revision-id: 1
     material: NETHERITE_AXE
     name: "&dRìu Chiến Quản Ngục &e&lV"
@@ -901,11 +846,6 @@ AXE_QUAN_NGUC_5:
     attack-speed: 1
     knockback: 1.7
     critical-strike-power: 24.0
-    gem-sockets:
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
     upgrade:
       reference: weapon-upgrade-template
       template: weapon-upgrade-template
@@ -915,6 +855,7 @@ AXE_QUAN_NGUC_5:
 
 AXE_BA_CHU_NGUC_TU_1:
   base:
+    custom-maxsockets: 3.0
     revision-id: 1
     material: NETHERITE_AXE
     name: "&5Rìu Chiến Bá Chủ Ngục Tù &e&lI"
@@ -930,12 +871,6 @@ AXE_BA_CHU_NGUC_TU_1:
     attack-speed: 1
     knockback: 1.8
     critical-strike-power: 25.0
-    gem-sockets:
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
     upgrade:
       reference: weapon-upgrade-template
       template: weapon-upgrade-template
@@ -945,6 +880,7 @@ AXE_BA_CHU_NGUC_TU_1:
 
 AXE_BA_CHU_NGUC_TU_2:
   base:
+    custom-maxsockets: 3.0
     revision-id: 1
     material: NETHERITE_AXE
     name: "&5Rìu Chiến Bá Chủ Ngục Tù &e&lII"
@@ -960,12 +896,6 @@ AXE_BA_CHU_NGUC_TU_2:
     attack-speed: 1
     knockback: 1.9
     critical-strike-power: 26.0
-    gem-sockets:
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
     upgrade:
       reference: weapon-upgrade-template
       template: weapon-upgrade-template
@@ -975,6 +905,7 @@ AXE_BA_CHU_NGUC_TU_2:
 
 AXE_BA_CHU_NGUC_TU_3:
   base:
+    custom-maxsockets: 3.0
     revision-id: 1
     material: NETHERITE_AXE
     name: "&5Rìu Chiến Bá Chủ Ngục Tù &e&lIII"
@@ -990,12 +921,6 @@ AXE_BA_CHU_NGUC_TU_3:
     attack-speed: 1
     knockback: 1.9
     critical-strike-power: 27.0
-    gem-sockets:
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
     upgrade:
       reference: weapon-upgrade-template
       template: weapon-upgrade-template
@@ -1005,6 +930,7 @@ AXE_BA_CHU_NGUC_TU_3:
 
 AXE_BA_CHU_NGUC_TU_4:
   base:
+    custom-maxsockets: 3.0
     revision-id: 1
     material: NETHERITE_AXE
     name: "&5Rìu Chiến Bá Chủ Ngục Tù &e&lIV"
@@ -1020,12 +946,6 @@ AXE_BA_CHU_NGUC_TU_4:
     attack-speed: 1
     knockback: 2.0
     critical-strike-power: 28.0
-    gem-sockets:
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
     upgrade:
       reference: weapon-upgrade-template
       template: weapon-upgrade-template
@@ -1035,6 +955,7 @@ AXE_BA_CHU_NGUC_TU_4:
 
 AXE_BA_CHU_NGUC_TU_5:
   base:
+    custom-maxsockets: 3.0
     revision-id: 1
     material: NETHERITE_AXE
     name: "&5Rìu Chiến Bá Chủ Ngục Tù &e&lV"
@@ -1050,12 +971,6 @@ AXE_BA_CHU_NGUC_TU_5:
     attack-speed: 1
     knockback: 2.0
     critical-strike-power: 29.0
-    gem-sockets:
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
     upgrade:
       reference: weapon-upgrade-template
       template: weapon-upgrade-template
@@ -1065,6 +980,7 @@ AXE_BA_CHU_NGUC_TU_5:
 
 AXE_VUOT_NGUC_1:
   base:
+    custom-maxsockets: 3.0
     revision-id: 1
     material: NETHERITE_AXE
     name: "&4Rìu Chiến Vượt Ngục &e&lI"
@@ -1080,12 +996,6 @@ AXE_VUOT_NGUC_1:
     attack-speed: 1
     knockback: 2.0
     critical-strike-power: 30.0
-    gem-sockets:
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
     upgrade:
       reference: weapon-upgrade-template
       template: weapon-upgrade-template
@@ -1095,6 +1005,7 @@ AXE_VUOT_NGUC_1:
 
 AXE_VUOT_NGUC_2:
   base:
+    custom-maxsockets: 3.0
     revision-id: 1
     material: NETHERITE_AXE
     name: "&4Rìu Chiến Vượt Ngục &e&lII"
@@ -1110,12 +1021,6 @@ AXE_VUOT_NGUC_2:
     attack-speed: 1
     knockback: 2.0
     critical-strike-power: 31.0
-    gem-sockets:
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
     upgrade:
       reference: weapon-upgrade-template
       template: weapon-upgrade-template
@@ -1125,6 +1030,7 @@ AXE_VUOT_NGUC_2:
 
 AXE_VUOT_NGUC_3:
   base:
+    custom-maxsockets: 3.0
     revision-id: 1
     material: NETHERITE_AXE
     name: "&4Rìu Chiến Vượt Ngục &e&lIII"
@@ -1140,12 +1046,6 @@ AXE_VUOT_NGUC_3:
     attack-speed: 1
     knockback: 2.1
     critical-strike-power: 32.0
-    gem-sockets:
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
     upgrade:
       reference: weapon-upgrade-template
       template: weapon-upgrade-template
@@ -1155,6 +1055,7 @@ AXE_VUOT_NGUC_3:
 
 AXE_VUOT_NGUC_4:
   base:
+    custom-maxsockets: 3.0
     revision-id: 1
     material: NETHERITE_AXE
     name: "&4Rìu Chiến Vượt Ngục &e&lIV"
@@ -1170,12 +1071,6 @@ AXE_VUOT_NGUC_4:
     attack-speed: 1
     knockback: 2.1
     critical-strike-power: 33.0
-    gem-sockets:
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
     upgrade:
       reference: weapon-upgrade-template
       template: weapon-upgrade-template
@@ -1185,6 +1080,7 @@ AXE_VUOT_NGUC_4:
 
 AXE_VUOT_NGUC_5:
   base:
+    custom-maxsockets: 3.0
     revision-id: 1
     material: NETHERITE_AXE
     name: "&4Rìu Chiến Vượt Ngục &e&lV"
@@ -1200,12 +1096,6 @@ AXE_VUOT_NGUC_5:
     attack-speed: 1
     knockback: 2.2
     critical-strike-power: 34.0
-    gem-sockets:
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
     upgrade:
       reference: weapon-upgrade-template
       template: weapon-upgrade-template
@@ -1216,6 +1106,7 @@ AXE_VUOT_NGUC_5:
 GACHA_AXE_VIRIDIAN:
   itemsadder-item: "fantasy_weapons:viridian_greataxe"
   base:
+    custom-maxsockets: 3.0
     revision-id: 1
     material: IRON_AXE
     custom-model-data: 10001
@@ -1238,12 +1129,6 @@ GACHA_AXE_VIRIDIAN:
         mode: RIGHT_CLICK
         cooldown: 8.0
         damage: 25.0
-    gem-sockets:
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
     upgrade:
       template: weapon-upgrade-template
       reference: weapon-upgrade-template
@@ -1254,6 +1139,7 @@ GACHA_AXE_VIRIDIAN:
 GACHA_AXE_AZURE:
   itemsadder-item: "fantasy_weapons:azure_greataxe"
   base:
+    custom-maxsockets: 3.0
     revision-id: 1
     material: DIAMOND_AXE
     custom-model-data: 10000
@@ -1277,12 +1163,6 @@ GACHA_AXE_AZURE:
         mode: RIGHT_CLICK
         cooldown: 8.0
         damage: 22.0
-    gem-sockets:
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
     upgrade:
       template: weapon-upgrade-template
       reference: weapon-upgrade-template
@@ -1293,6 +1173,7 @@ GACHA_AXE_AZURE:
 GACHA_AXE_SACRIFICIAL:
   itemsadder-item: "fantasy_weapons:sacrificial_cleaver"
   base:
+    custom-maxsockets: 3.0
     revision-id: 1
     material: IRON_AXE
     custom-model-data: 10011
@@ -1315,12 +1196,6 @@ GACHA_AXE_SACRIFICIAL:
         mode: RIGHT_CLICK
         cooldown: 8.0
         damage: 25.0
-    gem-sockets:
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
     upgrade:
       template: weapon-upgrade-template
       reference: weapon-upgrade-template

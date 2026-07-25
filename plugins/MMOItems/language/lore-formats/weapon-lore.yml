@@ -1,33 +1,35 @@
 # Lore format riêng cho vũ khí (Kiếm, Rìu Chiến, Trượng Phép, Dao Găm).
 # Gán vào item bằng: lore-format: weapon-lore
 lore-format:
-  - '{bar}&8&m----------------------------'
-  - '&c&l⚔ Chỉ Số Tấn Công'
-  - '#attack-damage#'
-  - '#attack-speed#'
-  - '#critical-strike-chance#'
-  - '#critical-strike-power#'
-  - '#magic-damage#'
-  - '#lifesteal#'
-  - '#spell-vampirism#'
-  - '#knockback#'
-  - '#two-handed#'
-  - '#mana-cost#'
-  - '#stamina-cost#'
-  - '#additional-strength#'
-  - '#additional-intelligence#'
-  - '{bar}&f'
-  - '{bar}&8&m-------&r &6&l⚡ KỸ NĂNG VŨ KHÍ &8&m-------'
-  - '#abilities#'
-  - '{bar}&f'
-  - '{bar}&8&m-------&r &d&l🔮 Ô KHẢM ĐÁ QUÝ &8&m-------'
-  - '#gem-stones#'
-  - '#gem-stone-lore#'
-  - '{bar}'
-  - '#lore#'
-  - '{bar}&f'
-  - '#set#'
-  - '{sbar}&8&m----------------------------'
-  - '#tier#'
-  - '#durability#'
-  - '#item-type#'
+  - "{bar}&8&m----------------------------"
+  - "&c&l⚔ Chỉ Số Tấn Công"
+  - "#attack-damage#"
+  - "#attack-speed#"
+  - "#critical-strike-chance#"
+  - "#critical-strike-power#"
+  - "#magic-damage#"
+  - "#lifesteal#"
+  - "#spell-vampirism#"
+  - "#knockback#"
+  - "#two-handed#"
+  - "#mana-cost#"
+  - "#stamina-cost#"
+  - "#additional-strength#"
+  - "#additional-intelligence#"
+  - "{bar}&f"
+  - "{bar}&8&m-------&r &6&l⚡ KỸ NĂNG VŨ KHÍ &8&m-------"
+  - "#abilities#"
+  - "{bar}&f"
+  - "{bar}&8&m-------&r &d&l🔮 Ô KHẢM ĐÁ QUÝ &8&m-------"
+  - "#custom-maxsockets#"
+  - "#gem-stones#"
+  - "#gem-stone-lore#"
+
+  - "{bar}"
+  - "#lore#"
+  - "{bar}&f"
+  - "#set#"
+  - "{sbar}&8&m----------------------------"
+  - "#tier#"
+  - "#durability#"
+  - "#item-type#"

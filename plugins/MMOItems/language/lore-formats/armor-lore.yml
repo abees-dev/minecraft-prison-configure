@@ -62,8 +62,10 @@ lore-format:
   # ==================== Đá Quý ====================
   - "{bar}&f"
   - "{bar}&8&m-------&r &d&l🔮 Ô KHẢM ĐÁ QUÝ &8&m-------"
+  - "#custom-maxsockets#"
   - "#gem-stones#"
   - "#gem-stone-lore#"
+
 
   # ==================== Mô Tả & Thông Tin Vật Phẩm ====================
   - "{bar}&f"

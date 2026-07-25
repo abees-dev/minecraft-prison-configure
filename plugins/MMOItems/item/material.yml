@@ -339,3 +339,283 @@ MANH_HUY_HIEU_TRIEU_HOI:
       - "&7 &f●&7 Mảnh vỡ huy hiệu, rớt ra khi hạ gục bất kỳ Boss nào"
       - "&7 &f●&7 trong Nhà Tù (9 rank)"
       - "&7 &f●&7 Dùng để chế thành &6Huy Hiệu Triệu Hồi&7 hoàn chỉnh"
+
+# ==========================================================
+# ĐÁ CƯỜNG HÓA VŨ KHÍ & GIÁP (MATERIAL)
+# ==========================================================
+DA_CUONG_HOA_VU_KHI_SO_CAP:
+  itemsadder-item: "enchanting_stone:enchanting_stone_1"
+  base:
+    revision-id: 1
+    material: PAPER
+    custom-model-data: 10001
+    name: "&a✦ Đá Cường Hóa Vũ Khí &7[Sơ Cấp LV 1-20]"
+    tier: UNCOMMON
+    hide-enchants: true
+    enchants:
+      unbreaking: 1
+    lore:
+      - "&7 &a●&7 Nguyên liệu nâng cấp Vũ Khí tại &e/cuonghoa (&e+1 Cấp&7)"
+      - "&7 &a●&7 Dùng cho Vũ Khí Cấp: &eLevel 0 - 19"
+      - "&7 &a●&7 Tỷ lệ thành công: &a85%"
+
+DA_CUONG_HOA_VU_KHI_TRUNG_CAP:
+  itemsadder-item: "enchanting_stone:enchanting_stone_2"
+  base:
+    revision-id: 1
+    material: PAPER
+    custom-model-data: 10002
+    name: "&e✦ Đá Cường Hóa Vũ Khí &7[Trung Cấp LV 21-40]"
+    tier: RARE
+    hide-enchants: true
+    enchants:
+      unbreaking: 1
+    lore:
+      - "&7 &e●&7 Nguyên liệu nâng cấp Vũ Khí tại &e/cuonghoa (&e+1 Cấp&7)"
+      - "&7 &e●&7 Dùng cho Vũ Khí Cấp: &eLevel 20 - 39"
+      - "&7 &e●&7 Tỷ lệ thành công: &e65%"
+
+DA_CUONG_HOA_VU_KHI_CAO_CAP:
+  itemsadder-item: "enchanting_stone:enchanting_stone_3"
+  base:
+    revision-id: 1
+    material: PAPER
+    custom-model-data: 10003
+    name: "&6✦ Đá Cường Hóa Vũ Khí &7[Cao Cấp LV 41-60]"
+    tier: RARE
+    hide-enchants: true
+    enchants:
+      unbreaking: 1
+    lore:
+      - "&7 &6●&7 Nguyên liệu nâng cấp Vũ Khí tại &e/cuonghoa (&e+1 Cấp&7)"
+      - "&7 &6●&7 Dùng cho Vũ Khí Cấp: &eLevel 40 - 59"
+      - "&7 &6●&7 Tỷ lệ thành công: &645%"
+
+DA_CUONG_HOA_VU_KHI_SIEU_CAP:
+  itemsadder-item: "enchanting_stone:enchanting_stone_4"
+  base:
+    revision-id: 1
+    material: PAPER
+    custom-model-data: 10005
+    name: "&c✦ Đá Cường Hóa Vũ Khí &7[Siêu Cấp LV 61-80]"
+    tier: LEGENDARY
+    hide-enchants: true
+    enchants:
+      unbreaking: 1
+    lore:
+      - "&7 &c●&7 Nguyên liệu nâng cấp Vũ Khí tại &e/cuonghoa (&e+1 Cấp&7)"
+      - "&7 &c●&7 Dùng cho Vũ Khí Cấp: &eLevel 60 - 79"
+      - "&7 &c●&7 Tỷ lệ thành công: &c25%"
+
+DA_CUONG_HOA_VU_KHI_HUYEN_THOAI:
+  itemsadder-item: "enchanting_stone:enchanting_stone_5"
+  base:
+    revision-id: 1
+    material: PAPER
+    custom-model-data: 10006
+    name: "&d&l✦ Đá Cường Hóa Vũ Khí &7[Huyền Thoại LV 81-100]"
+    tier: MYTHICAL
+    hide-enchants: true
+    enchants:
+      unbreaking: 1
+    lore:
+      - "&7 &d●&7 Nguyên liệu nâng cấp Vũ Khí tại &e/cuonghoa (&e+1 Cấp&7)"
+      - "&7 &d●&7 Dùng cho Vũ Khí Cấp: &eLevel 80 - 99"
+      - "&7 &d●&7 Tỷ lệ thành công: &d10%"
+
+DA_CUONG_HOA_GIAP_SO_CAP:
+  itemsadder-item: "toffy_gem:toffy_greengem"
+  base:
+    revision-id: 1
+    material: PAPER
+    custom-model-data: 10004
+    name: "&a✦ Đá Cường Hóa Giáp &7[Sơ Cấp LV 1-20]"
+    tier: UNCOMMON
+    hide-enchants: true
+    enchants:
+      unbreaking: 1
+    lore:
+      - "&7 &a●&7 Nguyên liệu nâng cấp Bộ Giáp tại &e/cuonghoa (&e+1 Cấp&7)"
+      - "&7 &a●&7 Dùng cho Bộ Giáp Cấp: &eLevel 0 - 19"
+      - "&7 &a●&7 Tỷ lệ thành công: &a85%"
+
+DA_CUONG_HOA_GIAP_TRUNG_CAP:
+  itemsadder-item: "toffy_gem:toffy_cyangem"
+  base:
+    revision-id: 1
+    material: PAPER
+    custom-model-data: 10007
+    name: "&e✦ Đá Cường Hóa Giáp &7[Trung Cấp LV 21-40]"
+    tier: RARE
+    hide-enchants: true
+    enchants:
+      unbreaking: 1
+    lore:
+      - "&7 &e●&7 Nguyên liệu nâng cấp Bộ Giáp tại &e/cuonghoa (&e+1 Cấp&7)"
+      - "&7 &e●&7 Dùng cho Bộ Giáp Cấp: &eLevel 20 - 39"
+      - "&7 &e●&7 Tỷ lệ thành công: &e65%"
+
+DA_CUONG_HOA_GIAP_CAO_CAP:
+  itemsadder-item: "toffy_gem:toffy_bluegem"
+  base:
+    revision-id: 1
+    material: PAPER
+    custom-model-data: 10008
+    name: "&6✦ Đá Cường Hóa Giáp &7[Cao Cấp LV 41-60]"
+    tier: RARE
+    hide-enchants: true
+    enchants:
+      unbreaking: 1
+    lore:
+      - "&7 &6●&7 Nguyên liệu nâng cấp Bộ Giáp tại &e/cuonghoa (&e+1 Cấp&7)"
+      - "&7 &6●&7 Dùng cho Bộ Giáp Cấp: &eLevel 40 - 59"
+      - "&7 &6●&7 Tỷ lệ thành công: &645%"
+
+DA_CUONG_HOA_GIAP_SIEU_CAP:
+  itemsadder-item: "toffy_gem:toffy_purplegem"
+  base:
+    revision-id: 1
+    material: PAPER
+    custom-model-data: 10013
+    name: "&c✦ Đá Cường Hóa Giáp &7[Siêu Cấp LV 61-80]"
+    tier: LEGENDARY
+    hide-enchants: true
+    enchants:
+      unbreaking: 1
+    lore:
+      - "&7 &c●&7 Nguyên liệu nâng cấp Bộ Giáp tại &e/cuonghoa (&e+1 Cấp&7)"
+      - "&7 &c●&7 Dùng cho Bộ Giáp Cấp: &eLevel 60 - 79"
+      - "&7 &c●&7 Tỷ lệ thành công: &c25%"
+
+DA_CUONG_HOA_GIAP_HUYEN_THOAI:
+  itemsadder-item: "toffy_gem:toffy_redgem"
+  base:
+    revision-id: 1
+    material: PAPER
+    custom-model-data: 10014
+    name: "&d&l✦ Đá Cường Hóa Giáp &7[Huyền Thoại LV 81-100]"
+    tier: MYTHICAL
+    hide-enchants: true
+    enchants:
+      unbreaking: 1
+    lore:
+      - "&7 &d●&7 Nguyên liệu nâng cấp Bộ Giáp tại &e/cuonghoa (&e+1 Cấp&7)"
+      - "&7 &d●&7 Dùng cho Bộ Giáp Cấp: &eLevel 80 - 99"
+      - "&7 &d●&7 Tỷ lệ thành công: &d10%"
+
+DA_CUONG_HOA_THIEN_MENH:
+  itemsadder-item: "enchanting_stone:enchanting_stone_6"
+  base:
+    revision-id: 1
+    material: PAPER
+    custom-model-data: 10009
+    name: "&d&l✦ Đá Cường Hóa Thiên Mệnh &7[100% Thành Công]"
+    tier: MYTHICAL
+    hide-enchants: true
+    enchants:
+      unbreaking: 1
+    lore:
+      - "&7 &d●&7 Viên đá chứa vận mệnh tối cao của ngục tù"
+      - "&7 &d●&7 Nâng cấp bất kỳ Trang Bị tại &e/cuonghoa (&e+1 Cấp&7)"
+      - "&7 &d●&7 Tỷ lệ thành công: &a&l100% (Hoàn Hảo)"
+
+# ==========================================================
+# ĐÁ ĐỤC LỖ TRANG BỊ (SOCKET PUNCH STONES)
+# ==========================================================
+DA_DUC_LO_1:
+  itemsadder-item: "enchanting_stone:enchanting_stone_1"
+  base:
+    revision-id: 1
+    material: PAPER
+    custom-model-data: 10010
+    name: "&a✦ Đá Đục Lỗ Sơ Cấp &7[Ô 1 - 100%]"
+    tier: UNCOMMON
+    hide-enchants: true
+    enchants:
+      unbreaking: 1
+    lore:
+      - "&7 &a●&7 Nguyên liệu dùng tại &e/duclo &7để đục ô khảm"
+      - "&7 &a●&7 Dùng để đục: &eÔ Khảm Thứ 1"
+      - "&7 &a●&7 Tỷ lệ thành công: &a100%"
+
+DA_DUC_LO_2:
+  itemsadder-item: "enchanting_stone:enchanting_stone_2"
+  base:
+    revision-id: 1
+    material: PAPER
+    custom-model-data: 10011
+    name: "&e✦ Đá Đục Lỗ Trung Cấp &7[Ô 2 - 70%]"
+    tier: RARE
+    hide-enchants: true
+    enchants:
+      unbreaking: 1
+    lore:
+      - "&7 &e●&7 Nguyên liệu dùng tại &e/duclo &7để đục ô khảm"
+      - "&7 &e●&7 Dùng để đục: &eÔ Khảm Thứ 2"
+      - "&7 &e●&7 Tỷ lệ thành công: &e70%"
+
+DA_DUC_LO_3:
+  itemsadder-item: "enchanting_stone:enchanting_stone_3"
+  base:
+    revision-id: 1
+    material: PAPER
+    custom-model-data: 10012
+    name: "&6✦ Đá Đục Lỗ Cao Cấp &7[Ô 3 - 40%]"
+    tier: RARE
+    hide-enchants: true
+    enchants:
+      unbreaking: 1
+    lore:
+      - "&7 &6●&7 Nguyên liệu dùng tại &e/duclo &7để đục ô khảm"
+      - "&7 &6●&7 Dùng để đục: &eÔ Khảm Thứ 3"
+      - "&7 &6●&7 Tỷ lệ thành công: &640%"
+
+DA_DUC_LO_4:
+  itemsadder-item: "enchanting_stone:enchanting_stone_4"
+  base:
+    revision-id: 1
+    material: PAPER
+    custom-model-data: 10015
+    name: "&c✦ Đá Đục Lỗ Siêu Cấp &7[Ô 4 - 25%]"
+    tier: LEGENDARY
+    hide-enchants: true
+    enchants:
+      unbreaking: 1
+    lore:
+      - "&7 &c●&7 Nguyên liệu dùng tại &e/duclo &7để đục ô khảm"
+      - "&7 &c●&7 Dùng để đục: &eÔ Khảm Thứ 4"
+      - "&7 &c●&7 Tỷ lệ thành công: &c25%"
+
+DA_DUC_LO_5:
+  itemsadder-item: "enchanting_stone:enchanting_stone_5"
+  base:
+    revision-id: 1
+    material: PAPER
+    custom-model-data: 10016
+    name: "&d&l✦ Đá Đục Lỗ Huyền Thoại &7[Ô 5 - 10%]"
+    tier: MYTHICAL
+    hide-enchants: true
+    enchants:
+      unbreaking: 1
+    lore:
+      - "&7 &d●&7 Nguyên liệu dùng tại &e/duclo &7để đục ô khảm"
+      - "&7 &d●&7 Dùng để đục: &eÔ Khảm Thứ 5"
+      - "&7 &d●&7 Tỷ lệ thành công: &d10%"
+
+DA_DUC_LO_THIEN_MENH:
+  itemsadder-item: "enchanting_stone:enchanting_stone_6"
+  base:
+    revision-id: 1
+    material: PAPER
+    custom-model-data: 10017
+    name: "&d&l✦ Đá Đục Lỗ Thiên Mệnh &7[Hoàn Hảo 100%]"
+    tier: MYTHICAL
+    hide-enchants: true
+    enchants:
+      unbreaking: 1
+    lore:
+      - "&7 &d●&7 Viên đá chứa năng lượng vận mệnh khai mở ô khảm"
+      - "&7 &d●&7 Dùng tại &e/duclo &7cho bất kỳ ô khảm nào"
+      - "&7 &d●&7 Tỷ lệ thành công: &a&l100% (Hoàn Hảo)"
+
+

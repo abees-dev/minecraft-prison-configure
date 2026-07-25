@@ -1,6 +1,7 @@
 TRADE_GLOVES_HOA_LONG:
   itemsadder-item: "rings_pack:glove_37"
   base:
+    custom-maxsockets: 3.0
     revision-id: 1
     material: PAPER
     custom-model-data: 19537
@@ -9,12 +10,6 @@ TRADE_GLOVES_HOA_LONG:
     set: HOA_LONG_SET
     attack-speed: 25
     critical-strike-power: 20
-    gem-sockets:
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -23,6 +18,7 @@ TRADE_GLOVES_HOA_LONG:
 TRADE_GLOVES_HAC_LONG:
   itemsadder-item: "rings_pack:glove_2"
   base:
+    custom-maxsockets: 3.0
     revision-id: 1
     material: PAPER
     custom-model-data: 19502
@@ -31,12 +27,6 @@ TRADE_GLOVES_HAC_LONG:
     set: HAC_LONG_SET
     attack-speed: 20
     magic-damage: 30
-    gem-sockets:
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -45,6 +35,7 @@ TRADE_GLOVES_HAC_LONG:
 TRADE_GLOVES_LOI_LONG:
   itemsadder-item: "rings_pack:glove_85"
   base:
+    custom-maxsockets: 3.0
     revision-id: 1
     material: PAPER
     custom-model-data: 19585
@@ -53,12 +44,6 @@ TRADE_GLOVES_LOI_LONG:
     set: LOI_LONG_SET
     attack-speed: 35
     lifesteal: 8
-    gem-sockets:
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -67,6 +52,7 @@ TRADE_GLOVES_LOI_LONG:
 TRADE_GLOVES_PHONG_LONG:
   itemsadder-item: "rings_pack:glove_1"
   base:
+    custom-maxsockets: 3.0
     revision-id: 1
     material: PAPER
     custom-model-data: 19501
@@ -75,12 +61,6 @@ TRADE_GLOVES_PHONG_LONG:
     set: PHONG_LONG_SET
     attack-speed: 25
     dodge-rating: 15
-    gem-sockets:
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -89,6 +69,7 @@ TRADE_GLOVES_PHONG_LONG:
 TRADE_GLOVES_BANG_LONG:
   itemsadder-item: "rings_pack:glove_61"
   base:
+    custom-maxsockets: 3.0
     revision-id: 1
     material: PAPER
     custom-model-data: 19561
@@ -98,12 +79,6 @@ TRADE_GLOVES_BANG_LONG:
     attack-speed: 15
     defense: 15
     max-health: 100
-    gem-sockets:
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -112,6 +87,7 @@ TRADE_GLOVES_BANG_LONG:
 DONATE_GLOVES_LONG_CHIEN:
   itemsadder-item: "rings_pack:glove_12"
   base:
+    custom-maxsockets: 3.0
     revision-id: 1
     material: PAPER
     custom-model-data: 19512
@@ -120,12 +96,6 @@ DONATE_GLOVES_LONG_CHIEN:
     set: LONG_CHIEN_SET
     attack-speed: 25
     critical-strike-power: 20
-    gem-sockets:
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -134,6 +104,7 @@ DONATE_GLOVES_LONG_CHIEN:
 DONATE_GLOVES_LONG_THAN:
   itemsadder-item: "rings_pack:glove_25"
   base:
+    custom-maxsockets: 3.0
     revision-id: 1
     material: PAPER
     custom-model-data: 19525
@@ -142,12 +113,6 @@ DONATE_GLOVES_LONG_THAN:
     set: LONG_THAN_SET
     attack-speed: 20
     magic-damage: 30
-    gem-sockets:
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -156,6 +121,7 @@ DONATE_GLOVES_LONG_THAN:
 DONATE_GLOVES_LONG_HOANG:
   itemsadder-item: "rings_pack:glove_99"
   base:
+    custom-maxsockets: 3.0
     revision-id: 1
     material: PAPER
     custom-model-data: 19599
@@ -164,12 +130,6 @@ DONATE_GLOVES_LONG_HOANG:
     set: LONG_HOANG_SET
     attack-speed: 35
     lifesteal: 8
-    gem-sockets:
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -178,6 +138,7 @@ DONATE_GLOVES_LONG_HOANG:
 DONATE_GLOVES_LONG_DE:
   itemsadder-item: "rings_pack:glove_40"
   base:
+    custom-maxsockets: 3.0
     revision-id: 1
     material: PAPER
     custom-model-data: 19540
@@ -186,12 +147,6 @@ DONATE_GLOVES_LONG_DE:
     set: LONG_DE_SET
     attack-speed: 25
     dodge-rating: 15
-    gem-sockets:
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -200,6 +155,7 @@ DONATE_GLOVES_LONG_DE:
 DONATE_GLOVES_LONG_VE:
   itemsadder-item: "rings_pack:glove_38"
   base:
+    custom-maxsockets: 3.0
     revision-id: 1
     material: PAPER
     custom-model-data: 19538
@@ -209,12 +165,6 @@ DONATE_GLOVES_LONG_VE:
     attack-speed: 15
     defense: 15
     max-health: 100
-    gem-sockets:
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -223,6 +173,7 @@ DONATE_GLOVES_LONG_VE:
 FREE_GLOVES_THANH_LONG:
   itemsadder-item: "rings_pack:glove_4"
   base:
+    custom-maxsockets: 3.0
     revision-id: 1
     material: PAPER
     custom-model-data: 19504
@@ -231,9 +182,6 @@ FREE_GLOVES_THANH_LONG:
     set: THANH_LONG_SET
     attack-speed: 25
     critical-strike-power: 20
-    gem-sockets:
-      - Uncolored
-      - Uncolored
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -242,6 +190,7 @@ FREE_GLOVES_THANH_LONG:
 FREE_GLOVES_XICH_LONG:
   itemsadder-item: "rings_pack:glove_5"
   base:
+    custom-maxsockets: 3.0
     revision-id: 1
     material: PAPER
     custom-model-data: 19505
@@ -250,9 +199,6 @@ FREE_GLOVES_XICH_LONG:
     set: XICH_LONG_SET
     attack-speed: 20
     magic-damage: 30
-    gem-sockets:
-      - Uncolored
-      - Uncolored
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -261,6 +207,7 @@ FREE_GLOVES_XICH_LONG:
 FREE_GLOVES_KIM_LONG:
   itemsadder-item: "rings_pack:glove_6"
   base:
+    custom-maxsockets: 3.0
     revision-id: 1
     material: PAPER
     custom-model-data: 19506
@@ -269,9 +216,6 @@ FREE_GLOVES_KIM_LONG:
     set: KIM_LONG_SET
     attack-speed: 35
     lifesteal: 8
-    gem-sockets:
-      - Uncolored
-      - Uncolored
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -280,6 +224,7 @@ FREE_GLOVES_KIM_LONG:
 FREE_GLOVES_THIEN_LONG:
   itemsadder-item: "rings_pack:glove_7"
   base:
+    custom-maxsockets: 3.0
     revision-id: 1
     material: PAPER
     custom-model-data: 19507
@@ -288,9 +233,6 @@ FREE_GLOVES_THIEN_LONG:
     set: THIEN_LONG_SET
     attack-speed: 25
     dodge-rating: 15
-    gem-sockets:
-      - Uncolored
-      - Uncolored
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -299,6 +241,7 @@ FREE_GLOVES_THIEN_LONG:
 FREE_GLOVES_BAC_LONG:
   itemsadder-item: "rings_pack:glove_3"
   base:
+    custom-maxsockets: 3.0
     revision-id: 1
     material: PAPER
     custom-model-data: 19503
@@ -308,9 +251,6 @@ FREE_GLOVES_BAC_LONG:
     attack-speed: 15
     defense: 15
     max-health: 100
-    gem-sockets:
-      - Uncolored
-      - Uncolored
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template

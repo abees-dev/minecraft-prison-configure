@@ -1,6 +1,7 @@
 TRADE_BRACELET_HOA_LONG:
   itemsadder-item: "rings_pack:set1_ring_5"
   base:
+    custom-maxsockets: 3.0
     revision-id: 1
     material: PAPER
     custom-model-data: 19205
@@ -9,12 +10,6 @@ TRADE_BRACELET_HOA_LONG:
     set: HOA_LONG_SET
     lifesteal: 10
     physical-damage: 25
-    gem-sockets:
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -23,6 +18,7 @@ TRADE_BRACELET_HOA_LONG:
 TRADE_BRACELET_HAC_LONG:
   itemsadder-item: "rings_pack:set3_ring_5"
   base:
+    custom-maxsockets: 3.0
     revision-id: 1
     material: PAPER
     custom-model-data: 19224
@@ -31,12 +27,6 @@ TRADE_BRACELET_HAC_LONG:
     set: HAC_LONG_SET
     cooldown-reduction: 12
     magic-damage: 35
-    gem-sockets:
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -45,6 +35,7 @@ TRADE_BRACELET_HAC_LONG:
 TRADE_BRACELET_LOI_LONG:
   itemsadder-item: "rings_pack:set8_ring_5"
   base:
+    custom-maxsockets: 3.0
     revision-id: 1
     material: PAPER
     custom-model-data: 19274
@@ -53,12 +44,6 @@ TRADE_BRACELET_LOI_LONG:
     set: LOI_LONG_SET
     lifesteal: 12
     attack-speed: 15
-    gem-sockets:
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -67,6 +52,7 @@ TRADE_BRACELET_LOI_LONG:
 TRADE_BRACELET_PHONG_LONG:
   itemsadder-item: "rings_pack:set5_ring_5"
   base:
+    custom-maxsockets: 3.0
     revision-id: 1
     material: PAPER
     custom-model-data: 19244
@@ -75,12 +61,6 @@ TRADE_BRACELET_PHONG_LONG:
     set: PHONG_LONG_SET
     cooldown-reduction: 10
     dodge-rating: 12
-    gem-sockets:
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -89,6 +69,7 @@ TRADE_BRACELET_PHONG_LONG:
 TRADE_BRACELET_BANG_LONG:
   itemsadder-item: "rings_pack:set2_ring_5"
   base:
+    custom-maxsockets: 3.0
     revision-id: 1
     material: PAPER
     custom-model-data: 19214
@@ -98,12 +79,6 @@ TRADE_BRACELET_BANG_LONG:
     lifesteal: 8
     max-health: 150
     defense: 10
-    gem-sockets:
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -112,6 +87,7 @@ TRADE_BRACELET_BANG_LONG:
 DONATE_BRACELET_LONG_CHIEN:
   itemsadder-item: "rings_pack:set4_ring_5"
   base:
+    custom-maxsockets: 3.0
     revision-id: 1
     material: PAPER
     custom-model-data: 19234
@@ -120,12 +96,6 @@ DONATE_BRACELET_LONG_CHIEN:
     set: LONG_CHIEN_SET
     lifesteal: 10
     physical-damage: 25
-    gem-sockets:
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -134,6 +104,7 @@ DONATE_BRACELET_LONG_CHIEN:
 DONATE_BRACELET_LONG_THAN:
   itemsadder-item: "rings_pack:set6_ring_5"
   base:
+    custom-maxsockets: 3.0
     revision-id: 1
     material: PAPER
     custom-model-data: 19254
@@ -142,12 +113,6 @@ DONATE_BRACELET_LONG_THAN:
     set: LONG_THAN_SET
     cooldown-reduction: 12
     magic-damage: 35
-    gem-sockets:
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -156,6 +121,7 @@ DONATE_BRACELET_LONG_THAN:
 DONATE_BRACELET_LONG_HOANG:
   itemsadder-item: "rings_pack:set9_ring_5"
   base:
+    custom-maxsockets: 3.0
     revision-id: 1
     material: PAPER
     custom-model-data: 19284
@@ -164,12 +130,6 @@ DONATE_BRACELET_LONG_HOANG:
     set: LONG_HOANG_SET
     lifesteal: 12
     attack-speed: 15
-    gem-sockets:
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -178,6 +138,7 @@ DONATE_BRACELET_LONG_HOANG:
 DONATE_BRACELET_LONG_DE:
   itemsadder-item: "rings_pack:set7_ring_5"
   base:
+    custom-maxsockets: 3.0
     revision-id: 1
     material: PAPER
     custom-model-data: 19264
@@ -186,12 +147,6 @@ DONATE_BRACELET_LONG_DE:
     set: LONG_DE_SET
     cooldown-reduction: 10
     dodge-rating: 12
-    gem-sockets:
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -200,6 +155,7 @@ DONATE_BRACELET_LONG_DE:
 DONATE_BRACELET_LONG_VE:
   itemsadder-item: "rings_pack:set1_ring_6"
   base:
+    custom-maxsockets: 3.0
     revision-id: 1
     material: PAPER
     custom-model-data: 19206
@@ -209,12 +165,6 @@ DONATE_BRACELET_LONG_VE:
     lifesteal: 8
     max-health: 150
     defense: 10
-    gem-sockets:
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -223,6 +173,7 @@ DONATE_BRACELET_LONG_VE:
 FREE_BRACELET_THANH_LONG:
   itemsadder-item: "rings_pack:ring_6"
   base:
+    custom-maxsockets: 3.0
     revision-id: 1
     material: PAPER
     custom-model-data: 19006
@@ -231,9 +182,6 @@ FREE_BRACELET_THANH_LONG:
     set: THANH_LONG_SET
     lifesteal: 10
     physical-damage: 25
-    gem-sockets:
-      - Uncolored
-      - Uncolored
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -242,6 +190,7 @@ FREE_BRACELET_THANH_LONG:
 FREE_BRACELET_XICH_LONG:
   itemsadder-item: "rings_pack:ring_9"
   base:
+    custom-maxsockets: 3.0
     revision-id: 1
     material: PAPER
     custom-model-data: 19009
@@ -250,9 +199,6 @@ FREE_BRACELET_XICH_LONG:
     set: XICH_LONG_SET
     cooldown-reduction: 12
     magic-damage: 35
-    gem-sockets:
-      - Uncolored
-      - Uncolored
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -261,6 +207,7 @@ FREE_BRACELET_XICH_LONG:
 FREE_BRACELET_KIM_LONG:
   itemsadder-item: "rings_pack:set11_ring_5"
   base:
+    custom-maxsockets: 3.0
     revision-id: 1
     material: PAPER
     custom-model-data: 19225
@@ -269,9 +216,6 @@ FREE_BRACELET_KIM_LONG:
     set: KIM_LONG_SET
     lifesteal: 12
     attack-speed: 15
-    gem-sockets:
-      - Uncolored
-      - Uncolored
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -280,6 +224,7 @@ FREE_BRACELET_KIM_LONG:
 FREE_BRACELET_THIEN_LONG:
   itemsadder-item: "rings_pack:set11_ring_4"
   base:
+    custom-maxsockets: 3.0
     revision-id: 1
     material: PAPER
     custom-model-data: 19224
@@ -288,9 +233,6 @@ FREE_BRACELET_THIEN_LONG:
     set: THIEN_LONG_SET
     cooldown-reduction: 10
     dodge-rating: 12
-    gem-sockets:
-      - Uncolored
-      - Uncolored
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -299,6 +241,7 @@ FREE_BRACELET_THIEN_LONG:
 FREE_BRACELET_BAC_LONG:
   itemsadder-item: "rings_pack:ring_3"
   base:
+    custom-maxsockets: 3.0
     revision-id: 1
     material: PAPER
     custom-model-data: 19003
@@ -308,9 +251,6 @@ FREE_BRACELET_BAC_LONG:
     lifesteal: 8
     max-health: 150
     defense: 10
-    gem-sockets:
-      - Uncolored
-      - Uncolored
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template

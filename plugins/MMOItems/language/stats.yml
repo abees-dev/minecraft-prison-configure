@@ -156,3 +156,5 @@ custom-miningefficiency: "&8[&e&l⚡&8] &7Hiệu suất đào: &e+{value}"
 custom-miningfortune: "&8[&a&l☘&8] &7Gia tài may mắn: &a+{value}"
 custom-miningunbreaking: "&8[&7&l🛡&8] &7Chống hỏng cúp: &7+{value}"
 custom-myluck: "&8[&a&l☘&8] &7May mắn: &a+{value}"
+custom-maxsockets: "&8[&6&l💎&8] &7Số lỗ đục tối đa: &6{value}"
+

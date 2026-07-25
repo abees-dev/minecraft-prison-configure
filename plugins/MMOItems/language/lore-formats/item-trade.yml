@@ -19,7 +19,9 @@ lore-format:
 
   - '{bar}'
   - "#custom-myluck#"
+  - "#custom-maxsockets#"
   - "#custom-miningefficiency#"
+
   - "#custom-miningfortune#"
   - "#custom-miningunbreaking#"
   - "#pickaxe-power#"

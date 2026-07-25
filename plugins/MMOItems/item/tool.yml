@@ -299,8 +299,6 @@ PICKAXE_LAO_CONG_1:
     custom-miningefficiency: 4.0
     custom-miningfortune: 2
     custom-miningunbreaking: 2
-    gem-sockets:
-      - Uncolored
     upgrade:
       reference: weapon-upgrade-template
       template: pickaxe-lao-cong-template
@@ -329,8 +327,6 @@ PICKAXE_LAO_CONG_2:
     custom-miningefficiency: 4.3
     custom-miningfortune: 2
     custom-miningunbreaking: 2
-    gem-sockets:
-      - Uncolored
     upgrade:
       reference: weapon-upgrade-template
       template: pickaxe-lao-cong-template
@@ -359,8 +355,6 @@ PICKAXE_LAO_CONG_3:
     custom-miningefficiency: 4.6
     custom-miningfortune: 3
     custom-miningunbreaking: 3
-    gem-sockets:
-      - Uncolored
     upgrade:
       reference: weapon-upgrade-template
       template: pickaxe-lao-cong-template
@@ -389,8 +383,6 @@ PICKAXE_LAO_CONG_4:
     custom-miningefficiency: 4.9
     custom-miningfortune: 3
     custom-miningunbreaking: 3
-    gem-sockets:
-      - Uncolored
     upgrade:
       reference: weapon-upgrade-template
       template: pickaxe-lao-cong-template
@@ -419,8 +411,6 @@ PICKAXE_LAO_CONG_5:
     custom-miningefficiency: 5.2
     custom-miningfortune: 3
     custom-miningunbreaking: 3
-    gem-sockets:
-      - Uncolored
     upgrade:
       reference: weapon-upgrade-template
       template: pickaxe-lao-cong-template
@@ -449,9 +439,6 @@ PICKAXE_THO_DAO_1:
     custom-miningefficiency: 5.5
     custom-miningfortune: 3
     custom-miningunbreaking: 3
-    gem-sockets:
-      - Uncolored
-      - Uncolored
     upgrade:
       reference: weapon-upgrade-template
       template: pickaxe-tho-dao-template
@@ -480,9 +467,6 @@ PICKAXE_THO_DAO_2:
     custom-miningefficiency: 5.8
     custom-miningfortune: 3
     custom-miningunbreaking: 3
-    gem-sockets:
-      - Uncolored
-      - Uncolored
     upgrade:
       reference: weapon-upgrade-template
       template: pickaxe-tho-dao-template
@@ -511,9 +495,6 @@ PICKAXE_THO_DAO_3:
     custom-miningefficiency: 6.1
     custom-miningfortune: 3
     custom-miningunbreaking: 3
-    gem-sockets:
-      - Uncolored
-      - Uncolored
     upgrade:
       reference: weapon-upgrade-template
       template: pickaxe-tho-dao-template
@@ -542,9 +523,6 @@ PICKAXE_THO_DAO_4:
     custom-miningefficiency: 6.4
     custom-miningfortune: 4
     custom-miningunbreaking: 4
-    gem-sockets:
-      - Uncolored
-      - Uncolored
     upgrade:
       reference: weapon-upgrade-template
       template: pickaxe-tho-dao-template
@@ -573,9 +551,6 @@ PICKAXE_THO_DAO_5:
     custom-miningefficiency: 6.7
     custom-miningfortune: 4
     custom-miningunbreaking: 4
-    gem-sockets:
-      - Uncolored
-      - Uncolored
     upgrade:
       reference: weapon-upgrade-template
       template: pickaxe-tho-dao-template
@@ -604,10 +579,6 @@ PICKAXE_DOI_TRUONG_1:
     custom-miningefficiency: 7.0
     custom-miningfortune: 4
     custom-miningunbreaking: 4
-    gem-sockets:
-      - Uncolored
-      - Uncolored
-      - Uncolored
     upgrade:
       reference: weapon-upgrade-template
       template: pickaxe-doi-truong-template
@@ -636,10 +607,6 @@ PICKAXE_DOI_TRUONG_2:
     custom-miningefficiency: 7.3
     custom-miningfortune: 4
     custom-miningunbreaking: 4
-    gem-sockets:
-      - Uncolored
-      - Uncolored
-      - Uncolored
     upgrade:
       reference: weapon-upgrade-template
       template: pickaxe-doi-truong-template
@@ -668,10 +635,6 @@ PICKAXE_DOI_TRUONG_3:
     custom-miningefficiency: 7.6
     custom-miningfortune: 4
     custom-miningunbreaking: 4
-    gem-sockets:
-      - Uncolored
-      - Uncolored
-      - Uncolored
     upgrade:
       reference: weapon-upgrade-template
       template: pickaxe-doi-truong-template
@@ -700,10 +663,6 @@ PICKAXE_DOI_TRUONG_4:
     custom-miningefficiency: 7.9
     custom-miningfortune: 4
     custom-miningunbreaking: 4
-    gem-sockets:
-      - Uncolored
-      - Uncolored
-      - Uncolored
     upgrade:
       reference: weapon-upgrade-template
       template: pickaxe-doi-truong-template
@@ -732,10 +691,6 @@ PICKAXE_DOI_TRUONG_5:
     custom-miningefficiency: 8.2
     custom-miningfortune: 5
     custom-miningunbreaking: 5
-    gem-sockets:
-      - Uncolored
-      - Uncolored
-      - Uncolored
     upgrade:
       reference: weapon-upgrade-template
       template: pickaxe-doi-truong-template
@@ -764,11 +719,6 @@ PICKAXE_PHO_QUAN_NGUC_1:
     custom-miningefficiency: 8.5
     custom-miningfortune: 4
     custom-miningunbreaking: 4
-    gem-sockets:
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
     upgrade:
       reference: weapon-upgrade-template
       template: pickaxe-pho-quan-nguc-template
@@ -797,11 +747,6 @@ PICKAXE_PHO_QUAN_NGUC_2:
     custom-miningefficiency: 8.8
     custom-miningfortune: 5
     custom-miningunbreaking: 5
-    gem-sockets:
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
     upgrade:
       reference: weapon-upgrade-template
       template: pickaxe-pho-quan-nguc-template
@@ -830,11 +775,6 @@ PICKAXE_PHO_QUAN_NGUC_3:
     custom-miningefficiency: 9.1
     custom-miningfortune: 5
     custom-miningunbreaking: 5
-    gem-sockets:
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
     upgrade:
       reference: weapon-upgrade-template
       template: pickaxe-pho-quan-nguc-template
@@ -863,11 +803,6 @@ PICKAXE_PHO_QUAN_NGUC_4:
     custom-miningefficiency: 9.4
     custom-miningfortune: 5
     custom-miningunbreaking: 5
-    gem-sockets:
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
     upgrade:
       reference: weapon-upgrade-template
       template: pickaxe-pho-quan-nguc-template
@@ -896,11 +831,6 @@ PICKAXE_PHO_QUAN_NGUC_5:
     custom-miningefficiency: 9.7
     custom-miningfortune: 5
     custom-miningunbreaking: 5
-    gem-sockets:
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
     upgrade:
       reference: weapon-upgrade-template
       template: pickaxe-pho-quan-nguc-template
@@ -929,11 +859,6 @@ PICKAXE_QUAN_NGUC_1:
     custom-miningefficiency: 10.0
     custom-miningfortune: 5
     custom-miningunbreaking: 5
-    gem-sockets:
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
     upgrade:
       reference: weapon-upgrade-template
       template: pickaxe-quan-nguc-template
@@ -962,11 +887,6 @@ PICKAXE_QUAN_NGUC_2:
     custom-miningefficiency: 10.3
     custom-miningfortune: 5
     custom-miningunbreaking: 5
-    gem-sockets:
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
     upgrade:
       reference: weapon-upgrade-template
       template: pickaxe-quan-nguc-template
@@ -995,11 +915,6 @@ PICKAXE_QUAN_NGUC_3:
     custom-miningefficiency: 10.6
     custom-miningfortune: 6
     custom-miningunbreaking: 6
-    gem-sockets:
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
     upgrade:
       reference: weapon-upgrade-template
       template: pickaxe-quan-nguc-template
@@ -1028,11 +943,6 @@ PICKAXE_QUAN_NGUC_4:
     custom-miningefficiency: 10.9
     custom-miningfortune: 6
     custom-miningunbreaking: 6
-    gem-sockets:
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
     upgrade:
       reference: weapon-upgrade-template
       template: pickaxe-quan-nguc-template
@@ -1061,11 +971,6 @@ PICKAXE_QUAN_NGUC_5:
     custom-miningefficiency: 11.2
     custom-miningfortune: 6
     custom-miningunbreaking: 6
-    gem-sockets:
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
     upgrade:
       reference: weapon-upgrade-template
       template: pickaxe-quan-nguc-template
@@ -1094,12 +999,6 @@ PICKAXE_BA_CHU_NGUC_TU_1:
     custom-miningefficiency: 11.5
     custom-miningfortune: 6
     custom-miningunbreaking: 6
-    gem-sockets:
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
     upgrade:
       reference: weapon-upgrade-template
       template: pickaxe-ba-chu-nguc-tu-template
@@ -1128,12 +1027,6 @@ PICKAXE_BA_CHU_NGUC_TU_2:
     custom-miningefficiency: 11.8
     custom-miningfortune: 6
     custom-miningunbreaking: 6
-    gem-sockets:
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
     upgrade:
       reference: weapon-upgrade-template
       template: pickaxe-ba-chu-nguc-tu-template
@@ -1162,12 +1055,6 @@ PICKAXE_BA_CHU_NGUC_TU_3:
     custom-miningefficiency: 12.1
     custom-miningfortune: 6
     custom-miningunbreaking: 6
-    gem-sockets:
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
     upgrade:
       reference: weapon-upgrade-template
       template: pickaxe-ba-chu-nguc-tu-template
@@ -1196,12 +1083,6 @@ PICKAXE_BA_CHU_NGUC_TU_4:
     custom-miningefficiency: 12.4
     custom-miningfortune: 7
     custom-miningunbreaking: 7
-    gem-sockets:
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
     upgrade:
       reference: weapon-upgrade-template
       template: pickaxe-ba-chu-nguc-tu-template
@@ -1230,12 +1111,6 @@ PICKAXE_BA_CHU_NGUC_TU_5:
     custom-miningefficiency: 12.7
     custom-miningfortune: 7
     custom-miningunbreaking: 7
-    gem-sockets:
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
     upgrade:
       reference: weapon-upgrade-template
       template: pickaxe-ba-chu-nguc-tu-template
@@ -1264,12 +1139,6 @@ PICKAXE_VUOT_NGUC_1:
     custom-miningefficiency: 13.0
     custom-miningfortune: 7
     custom-miningunbreaking: 7
-    gem-sockets:
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
     upgrade:
       reference: weapon-upgrade-template
       template: pickaxe-vuot-nguc-template
@@ -1298,12 +1167,6 @@ PICKAXE_VUOT_NGUC_2:
     custom-miningefficiency: 13.3
     custom-miningfortune: 7
     custom-miningunbreaking: 7
-    gem-sockets:
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
     upgrade:
       reference: weapon-upgrade-template
       template: pickaxe-vuot-nguc-template
@@ -1332,12 +1195,6 @@ PICKAXE_VUOT_NGUC_3:
     custom-miningefficiency: 13.6
     custom-miningfortune: 7
     custom-miningunbreaking: 7
-    gem-sockets:
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
     upgrade:
       reference: weapon-upgrade-template
       template: pickaxe-vuot-nguc-template
@@ -1366,12 +1223,6 @@ PICKAXE_VUOT_NGUC_4:
     custom-miningefficiency: 13.9
     custom-miningfortune: 7
     custom-miningunbreaking: 7
-    gem-sockets:
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
     upgrade:
       reference: weapon-upgrade-template
       template: pickaxe-vuot-nguc-template
@@ -1400,12 +1251,6 @@ PICKAXE_VUOT_NGUC_5:
     custom-miningefficiency: 14.2
     custom-miningfortune: 8
     custom-miningunbreaking: 8
-    gem-sockets:
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
     upgrade:
       reference: weapon-upgrade-template
       template: pickaxe-vuot-nguc-template

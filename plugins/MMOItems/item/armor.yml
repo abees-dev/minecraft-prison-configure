@@ -1,5 +1,6 @@
 ﻿TEST_ARMOR_FULL_STATS:
   base:
+    custom-maxsockets: 3.0
     revision-id: 1
     material: NETHERITE_CHESTPLATE
     name: "&c&l🛡 Áo Giáp Thử Nghiệm &e&l[FULL STATS]"
@@ -36,9 +37,6 @@
     additional-dexterity: 15.0
     additional-strength: 20.0
     additional-intelligence: 15.0
-    gem-sockets:
-      - UNCOLORED
-      - UNCOLORED
     max-durability: 1000
     upgrade:
       reference: armor-upgrade-template
@@ -49,6 +47,7 @@
 
 HELMET_TAN_BINH_1:
   base:
+    custom-maxsockets: 3.0
     revision-id: 1
     material: LEATHER_HELMET
     name: "&fNón Tân Binh &e&lI"
@@ -71,6 +70,7 @@ HELMET_TAN_BINH_1:
 
 HELMET_TAN_BINH_2:
   base:
+    custom-maxsockets: 3.0
     revision-id: 1
     material: LEATHER_HELMET
     name: "&fNón Tân Binh &e&lII"
@@ -93,6 +93,7 @@ HELMET_TAN_BINH_2:
 
 HELMET_TAN_BINH_3:
   base:
+    custom-maxsockets: 3.0
     revision-id: 1
     material: LEATHER_HELMET
     name: "&fNón Tân Binh &e&lIII"
@@ -115,6 +116,7 @@ HELMET_TAN_BINH_3:
 
 HELMET_TAN_BINH_4:
   base:
+    custom-maxsockets: 3.0
     revision-id: 1
     material: LEATHER_HELMET
     name: "&fNón Tân Binh &e&lIV"
@@ -137,6 +139,7 @@ HELMET_TAN_BINH_4:
 
 HELMET_TAN_BINH_5:
   base:
+    custom-maxsockets: 3.0
     revision-id: 1
     material: LEATHER_HELMET
     name: "&fNón Tân Binh &e&lV"
@@ -159,6 +162,7 @@ HELMET_TAN_BINH_5:
 
 HELMET_TU_NHAN_1:
   base:
+    custom-maxsockets: 3.0
     revision-id: 1
     material: LEATHER_HELMET
     name: "&aNón Tù Nhân &e&lI"
@@ -181,6 +185,7 @@ HELMET_TU_NHAN_1:
 
 HELMET_TU_NHAN_2:
   base:
+    custom-maxsockets: 3.0
     revision-id: 1
     material: LEATHER_HELMET
     name: "&aNón Tù Nhân &e&lII"
@@ -203,6 +208,7 @@ HELMET_TU_NHAN_2:
 
 HELMET_TU_NHAN_3:
   base:
+    custom-maxsockets: 3.0
     revision-id: 1
     material: LEATHER_HELMET
     name: "&aNón Tù Nhân &e&lIII"
@@ -225,6 +231,7 @@ HELMET_TU_NHAN_3:
 
 HELMET_TU_NHAN_4:
   base:
+    custom-maxsockets: 3.0
     revision-id: 1
     material: LEATHER_HELMET
     name: "&aNón Tù Nhân &e&lIV"
@@ -247,6 +254,7 @@ HELMET_TU_NHAN_4:
 
 HELMET_TU_NHAN_5:
   base:
+    custom-maxsockets: 3.0
     revision-id: 1
     material: LEATHER_HELMET
     name: "&aNón Tù Nhân &e&lV"
@@ -269,6 +277,7 @@ HELMET_TU_NHAN_5:
 
 HELMET_LAO_CONG_1:
   base:
+    custom-maxsockets: 3.0
     revision-id: 1
     material: CHAINMAIL_HELMET
     name: "&bNón Lao Công &e&lI"
@@ -284,8 +293,6 @@ HELMET_LAO_CONG_1:
     max-health: 3.0
     armor-toughness: 0.4
     mana-regeneration: 1.5
-    gem-sockets:
-      - Uncolored
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -295,6 +302,7 @@ HELMET_LAO_CONG_1:
 
 HELMET_LAO_CONG_2:
   base:
+    custom-maxsockets: 3.0
     revision-id: 1
     material: CHAINMAIL_HELMET
     name: "&bNón Lao Công &e&lII"
@@ -310,8 +318,6 @@ HELMET_LAO_CONG_2:
     max-health: 3.3
     armor-toughness: 0.5
     mana-regeneration: 1.7
-    gem-sockets:
-      - Uncolored
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -321,6 +327,7 @@ HELMET_LAO_CONG_2:
 
 HELMET_LAO_CONG_3:
   base:
+    custom-maxsockets: 3.0
     revision-id: 1
     material: CHAINMAIL_HELMET
     name: "&bNón Lao Công &e&lIII"
@@ -336,8 +343,6 @@ HELMET_LAO_CONG_3:
     max-health: 3.6
     armor-toughness: 0.5
     mana-regeneration: 1.9
-    gem-sockets:
-      - Uncolored
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -347,6 +352,7 @@ HELMET_LAO_CONG_3:
 
 HELMET_LAO_CONG_4:
   base:
+    custom-maxsockets: 3.0
     revision-id: 1
     material: CHAINMAIL_HELMET
     name: "&bNón Lao Công &e&lIV"
@@ -362,8 +368,6 @@ HELMET_LAO_CONG_4:
     max-health: 3.9
     armor-toughness: 0.6
     mana-regeneration: 2.1
-    gem-sockets:
-      - Uncolored
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -373,6 +377,7 @@ HELMET_LAO_CONG_4:
 
 HELMET_LAO_CONG_5:
   base:
+    custom-maxsockets: 3.0
     revision-id: 1
     material: CHAINMAIL_HELMET
     name: "&bNón Lao Công &e&lV"
@@ -388,8 +393,6 @@ HELMET_LAO_CONG_5:
     max-health: 4.2
     armor-toughness: 0.6
     mana-regeneration: 2.3
-    gem-sockets:
-      - Uncolored
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -399,6 +402,7 @@ HELMET_LAO_CONG_5:
 
 HELMET_THO_DAO_1:
   base:
+    custom-maxsockets: 3.0
     revision-id: 1
     material: IRON_HELMET
     name: "&eNón Thợ Đào &e&lI"
@@ -415,9 +419,6 @@ HELMET_THO_DAO_1:
     armor-toughness: 0.8
     defense: 0.4
     mana-regeneration: 2.0
-    gem-sockets:
-      - Uncolored
-      - Uncolored
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -427,6 +428,7 @@ HELMET_THO_DAO_1:
 
 HELMET_THO_DAO_2:
   base:
+    custom-maxsockets: 3.0
     revision-id: 1
     material: IRON_HELMET
     name: "&eNón Thợ Đào &e&lII"
@@ -443,9 +445,6 @@ HELMET_THO_DAO_2:
     armor-toughness: 0.9
     defense: 0.5
     mana-regeneration: 2.2
-    gem-sockets:
-      - Uncolored
-      - Uncolored
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -455,6 +454,7 @@ HELMET_THO_DAO_2:
 
 HELMET_THO_DAO_3:
   base:
+    custom-maxsockets: 3.0
     revision-id: 1
     material: IRON_HELMET
     name: "&eNón Thợ Đào &e&lIII"
@@ -471,9 +471,6 @@ HELMET_THO_DAO_3:
     armor-toughness: 1.0
     defense: 0.5
     mana-regeneration: 2.4
-    gem-sockets:
-      - Uncolored
-      - Uncolored
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -483,6 +480,7 @@ HELMET_THO_DAO_3:
 
 HELMET_THO_DAO_4:
   base:
+    custom-maxsockets: 3.0
     revision-id: 1
     material: IRON_HELMET
     name: "&eNón Thợ Đào &e&lIV"
@@ -499,9 +497,6 @@ HELMET_THO_DAO_4:
     armor-toughness: 1.1
     defense: 0.6
     mana-regeneration: 2.6
-    gem-sockets:
-      - Uncolored
-      - Uncolored
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -511,6 +506,7 @@ HELMET_THO_DAO_4:
 
 HELMET_THO_DAO_5:
   base:
+    custom-maxsockets: 3.0
     revision-id: 1
     material: IRON_HELMET
     name: "&eNón Thợ Đào &e&lV"
@@ -527,9 +523,6 @@ HELMET_THO_DAO_5:
     armor-toughness: 1.2
     defense: 0.6
     mana-regeneration: 2.8
-    gem-sockets:
-      - Uncolored
-      - Uncolored
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -539,6 +532,7 @@ HELMET_THO_DAO_5:
 
 HELMET_DOI_TRUONG_1:
   base:
+    custom-maxsockets: 3.0
     revision-id: 1
     material: DIAMOND_HELMET
     name: "&6Nón Đội Trưởng &e&lI"
@@ -555,10 +549,6 @@ HELMET_DOI_TRUONG_1:
     armor-toughness: 1.4
     defense: 1.0
     mana-regeneration: 2.5
-    gem-sockets:
-      - Uncolored
-      - Uncolored
-      - Uncolored
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -568,6 +558,7 @@ HELMET_DOI_TRUONG_1:
 
 HELMET_DOI_TRUONG_2:
   base:
+    custom-maxsockets: 3.0
     revision-id: 1
     material: DIAMOND_HELMET
     name: "&6Nón Đội Trưởng &e&lII"
@@ -584,10 +575,6 @@ HELMET_DOI_TRUONG_2:
     armor-toughness: 1.5
     defense: 1.1
     mana-regeneration: 2.7
-    gem-sockets:
-      - Uncolored
-      - Uncolored
-      - Uncolored
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -597,6 +584,7 @@ HELMET_DOI_TRUONG_2:
 
 HELMET_DOI_TRUONG_3:
   base:
+    custom-maxsockets: 3.0
     revision-id: 1
     material: DIAMOND_HELMET
     name: "&6Nón Đội Trưởng &e&lIII"
@@ -613,10 +601,6 @@ HELMET_DOI_TRUONG_3:
     armor-toughness: 1.6
     defense: 1.2
     mana-regeneration: 2.9
-    gem-sockets:
-      - Uncolored
-      - Uncolored
-      - Uncolored
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -626,6 +610,7 @@ HELMET_DOI_TRUONG_3:
 
 HELMET_DOI_TRUONG_4:
   base:
+    custom-maxsockets: 3.0
     revision-id: 1
     material: DIAMOND_HELMET
     name: "&6Nón Đội Trưởng &e&lIV"
@@ -642,10 +627,6 @@ HELMET_DOI_TRUONG_4:
     armor-toughness: 1.7
     defense: 1.3
     mana-regeneration: 3.1
-    gem-sockets:
-      - Uncolored
-      - Uncolored
-      - Uncolored
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -655,6 +636,7 @@ HELMET_DOI_TRUONG_4:
 
 HELMET_DOI_TRUONG_5:
   base:
+    custom-maxsockets: 3.0
     revision-id: 1
     material: DIAMOND_HELMET
     name: "&6Nón Đội Trưởng &e&lV"
@@ -671,10 +653,6 @@ HELMET_DOI_TRUONG_5:
     armor-toughness: 1.8
     defense: 1.4
     mana-regeneration: 3.3
-    gem-sockets:
-      - Uncolored
-      - Uncolored
-      - Uncolored
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -684,6 +662,7 @@ HELMET_DOI_TRUONG_5:
 
 HELMET_PHO_QUAN_NGUC_1:
   base:
+    custom-maxsockets: 3.0
     revision-id: 1
     material: DIAMOND_HELMET
     name: "&cNón Phó Quản Ngục &e&lI"
@@ -700,11 +679,6 @@ HELMET_PHO_QUAN_NGUC_1:
     armor-toughness: 2.2
     defense: 1.8
     mana-regeneration: 3.0
-    gem-sockets:
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -714,6 +688,7 @@ HELMET_PHO_QUAN_NGUC_1:
 
 HELMET_PHO_QUAN_NGUC_2:
   base:
+    custom-maxsockets: 3.0
     revision-id: 1
     material: DIAMOND_HELMET
     name: "&cNón Phó Quản Ngục &e&lII"
@@ -730,11 +705,6 @@ HELMET_PHO_QUAN_NGUC_2:
     armor-toughness: 2.4
     defense: 2.0
     mana-regeneration: 3.2
-    gem-sockets:
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -744,6 +714,7 @@ HELMET_PHO_QUAN_NGUC_2:
 
 HELMET_PHO_QUAN_NGUC_3:
   base:
+    custom-maxsockets: 3.0
     revision-id: 1
     material: DIAMOND_HELMET
     name: "&cNón Phó Quản Ngục &e&lIII"
@@ -760,11 +731,6 @@ HELMET_PHO_QUAN_NGUC_3:
     armor-toughness: 2.5
     defense: 2.1
     mana-regeneration: 3.4
-    gem-sockets:
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -774,6 +740,7 @@ HELMET_PHO_QUAN_NGUC_3:
 
 HELMET_PHO_QUAN_NGUC_4:
   base:
+    custom-maxsockets: 3.0
     revision-id: 1
     material: DIAMOND_HELMET
     name: "&cNón Phó Quản Ngục &e&lIV"
@@ -790,11 +757,6 @@ HELMET_PHO_QUAN_NGUC_4:
     armor-toughness: 2.7
     defense: 2.3
     mana-regeneration: 3.6
-    gem-sockets:
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -804,6 +766,7 @@ HELMET_PHO_QUAN_NGUC_4:
 
 HELMET_PHO_QUAN_NGUC_5:
   base:
+    custom-maxsockets: 3.0
     revision-id: 1
     material: DIAMOND_HELMET
     name: "&cNón Phó Quản Ngục &e&lV"
@@ -820,11 +783,6 @@ HELMET_PHO_QUAN_NGUC_5:
     armor-toughness: 2.8
     defense: 2.4
     mana-regeneration: 3.8
-    gem-sockets:
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -834,6 +792,7 @@ HELMET_PHO_QUAN_NGUC_5:
 
 HELMET_QUAN_NGUC_1:
   base:
+    custom-maxsockets: 3.0
     revision-id: 1
     material: NETHERITE_HELMET
     name: "&dNón Quản Ngục &e&lI"
@@ -850,11 +809,6 @@ HELMET_QUAN_NGUC_1:
     armor-toughness: 3.2
     defense: 2.8
     mana-regeneration: 3.5
-    gem-sockets:
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -864,6 +818,7 @@ HELMET_QUAN_NGUC_1:
 
 HELMET_QUAN_NGUC_2:
   base:
+    custom-maxsockets: 3.0
     revision-id: 1
     material: NETHERITE_HELMET
     name: "&dNón Quản Ngục &e&lII"
@@ -880,11 +835,6 @@ HELMET_QUAN_NGUC_2:
     armor-toughness: 3.4
     defense: 3.0
     mana-regeneration: 3.7
-    gem-sockets:
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -894,6 +844,7 @@ HELMET_QUAN_NGUC_2:
 
 HELMET_QUAN_NGUC_3:
   base:
+    custom-maxsockets: 3.0
     revision-id: 1
     material: NETHERITE_HELMET
     name: "&dNón Quản Ngục &e&lIII"
@@ -910,11 +861,6 @@ HELMET_QUAN_NGUC_3:
     armor-toughness: 3.6
     defense: 3.2
     mana-regeneration: 3.9
-    gem-sockets:
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -924,6 +870,7 @@ HELMET_QUAN_NGUC_3:
 
 HELMET_QUAN_NGUC_4:
   base:
+    custom-maxsockets: 3.0
     revision-id: 1
     material: NETHERITE_HELMET
     name: "&dNón Quản Ngục &e&lIV"
@@ -940,11 +887,6 @@ HELMET_QUAN_NGUC_4:
     armor-toughness: 3.8
     defense: 3.4
     mana-regeneration: 4.1
-    gem-sockets:
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -954,6 +896,7 @@ HELMET_QUAN_NGUC_4:
 
 HELMET_QUAN_NGUC_5:
   base:
+    custom-maxsockets: 3.0
     revision-id: 1
     material: NETHERITE_HELMET
     name: "&dNón Quản Ngục &e&lV"
@@ -970,11 +913,6 @@ HELMET_QUAN_NGUC_5:
     armor-toughness: 4.0
     defense: 3.6
     mana-regeneration: 4.3
-    gem-sockets:
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -984,6 +922,7 @@ HELMET_QUAN_NGUC_5:
 
 HELMET_BA_CHU_NGUC_TU_1:
   base:
+    custom-maxsockets: 3.0
     revision-id: 1
     material: NETHERITE_HELMET
     name: "&5Nón Bá Chủ Ngục Tù &e&lI"
@@ -1000,12 +939,6 @@ HELMET_BA_CHU_NGUC_TU_1:
     armor-toughness: 4.4
     defense: 4.0
     mana-regeneration: 4.0
-    gem-sockets:
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -1015,6 +948,7 @@ HELMET_BA_CHU_NGUC_TU_1:
 
 HELMET_BA_CHU_NGUC_TU_2:
   base:
+    custom-maxsockets: 3.0
     revision-id: 1
     material: NETHERITE_HELMET
     name: "&5Nón Bá Chủ Ngục Tù &e&lII"
@@ -1031,12 +965,6 @@ HELMET_BA_CHU_NGUC_TU_2:
     armor-toughness: 4.7
     defense: 4.3
     mana-regeneration: 4.2
-    gem-sockets:
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -1046,6 +974,7 @@ HELMET_BA_CHU_NGUC_TU_2:
 
 HELMET_BA_CHU_NGUC_TU_3:
   base:
+    custom-maxsockets: 3.0
     revision-id: 1
     material: NETHERITE_HELMET
     name: "&5Nón Bá Chủ Ngục Tù &e&lIII"
@@ -1062,12 +991,6 @@ HELMET_BA_CHU_NGUC_TU_3:
     armor-toughness: 4.9
     defense: 4.5
     mana-regeneration: 4.4
-    gem-sockets:
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -1077,6 +1000,7 @@ HELMET_BA_CHU_NGUC_TU_3:
 
 HELMET_BA_CHU_NGUC_TU_4:
   base:
+    custom-maxsockets: 3.0
     revision-id: 1
     material: NETHERITE_HELMET
     name: "&5Nón Bá Chủ Ngục Tù &e&lIV"
@@ -1093,12 +1017,6 @@ HELMET_BA_CHU_NGUC_TU_4:
     armor-toughness: 5.2
     defense: 4.8
     mana-regeneration: 4.6
-    gem-sockets:
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -1108,6 +1026,7 @@ HELMET_BA_CHU_NGUC_TU_4:
 
 HELMET_BA_CHU_NGUC_TU_5:
   base:
+    custom-maxsockets: 3.0
     revision-id: 1
     material: NETHERITE_HELMET
     name: "&5Nón Bá Chủ Ngục Tù &e&lV"
@@ -1124,12 +1043,6 @@ HELMET_BA_CHU_NGUC_TU_5:
     armor-toughness: 5.4
     defense: 5.0
     mana-regeneration: 4.8
-    gem-sockets:
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -1139,6 +1052,7 @@ HELMET_BA_CHU_NGUC_TU_5:
 
 HELMET_VUOT_NGUC_1:
   base:
+    custom-maxsockets: 3.0
     revision-id: 1
     material: NETHERITE_HELMET
     name: "&4Nón Vượt Ngục &e&lI"
@@ -1155,12 +1069,6 @@ HELMET_VUOT_NGUC_1:
     armor-toughness: 6.0
     defense: 5.6
     mana-regeneration: 4.5
-    gem-sockets:
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -1170,6 +1078,7 @@ HELMET_VUOT_NGUC_1:
 
 HELMET_VUOT_NGUC_2:
   base:
+    custom-maxsockets: 3.0
     revision-id: 1
     material: NETHERITE_HELMET
     name: "&4Nón Vượt Ngục &e&lII"
@@ -1186,12 +1095,6 @@ HELMET_VUOT_NGUC_2:
     armor-toughness: 6.3
     defense: 5.9
     mana-regeneration: 4.7
-    gem-sockets:
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -1201,6 +1104,7 @@ HELMET_VUOT_NGUC_2:
 
 HELMET_VUOT_NGUC_3:
   base:
+    custom-maxsockets: 3.0
     revision-id: 1
     material: NETHERITE_HELMET
     name: "&4Nón Vượt Ngục &e&lIII"
@@ -1217,12 +1121,6 @@ HELMET_VUOT_NGUC_3:
     armor-toughness: 6.6
     defense: 6.2
     mana-regeneration: 4.9
-    gem-sockets:
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -1232,6 +1130,7 @@ HELMET_VUOT_NGUC_3:
 
 HELMET_VUOT_NGUC_4:
   base:
+    custom-maxsockets: 3.0
     revision-id: 1
     material: NETHERITE_HELMET
     name: "&4Nón Vượt Ngục &e&lIV"
@@ -1248,12 +1147,6 @@ HELMET_VUOT_NGUC_4:
     armor-toughness: 6.9
     defense: 6.5
     mana-regeneration: 5.1
-    gem-sockets:
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -1263,6 +1156,7 @@ HELMET_VUOT_NGUC_4:
 
 HELMET_VUOT_NGUC_5:
   base:
+    custom-maxsockets: 3.0
     revision-id: 1
     material: NETHERITE_HELMET
     name: "&4Nón Vượt Ngục &e&lV"
@@ -1279,12 +1173,6 @@ HELMET_VUOT_NGUC_5:
     armor-toughness: 7.2
     defense: 6.8
     mana-regeneration: 5.3
-    gem-sockets:
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -1294,6 +1182,7 @@ HELMET_VUOT_NGUC_5:
 
 CHESTPLATE_TAN_BINH_1:
   base:
+    custom-maxsockets: 3.0
     revision-id: 1
     material: LEATHER_CHESTPLATE
     name: "&fÁo Giáp Tân Binh &e&lI"
@@ -1316,6 +1205,7 @@ CHESTPLATE_TAN_BINH_1:
 
 CHESTPLATE_TAN_BINH_2:
   base:
+    custom-maxsockets: 3.0
     revision-id: 1
     material: LEATHER_CHESTPLATE
     name: "&fÁo Giáp Tân Binh &e&lII"
@@ -1338,6 +1228,7 @@ CHESTPLATE_TAN_BINH_2:
 
 CHESTPLATE_TAN_BINH_3:
   base:
+    custom-maxsockets: 3.0
     revision-id: 1
     material: LEATHER_CHESTPLATE
     name: "&fÁo Giáp Tân Binh &e&lIII"
@@ -1360,6 +1251,7 @@ CHESTPLATE_TAN_BINH_3:
 
 CHESTPLATE_TAN_BINH_4:
   base:
+    custom-maxsockets: 3.0
     revision-id: 1
     material: LEATHER_CHESTPLATE
     name: "&fÁo Giáp Tân Binh &e&lIV"
@@ -1382,6 +1274,7 @@ CHESTPLATE_TAN_BINH_4:
 
 CHESTPLATE_TAN_BINH_5:
   base:
+    custom-maxsockets: 3.0
     revision-id: 1
     material: LEATHER_CHESTPLATE
     name: "&fÁo Giáp Tân Binh &e&lV"
@@ -1404,6 +1297,7 @@ CHESTPLATE_TAN_BINH_5:
 
 CHESTPLATE_TU_NHAN_1:
   base:
+    custom-maxsockets: 3.0
     revision-id: 1
     material: LEATHER_CHESTPLATE
     name: "&aÁo Giáp Tù Nhân &e&lI"
@@ -1426,6 +1320,7 @@ CHESTPLATE_TU_NHAN_1:
 
 CHESTPLATE_TU_NHAN_2:
   base:
+    custom-maxsockets: 3.0
     revision-id: 1
     material: LEATHER_CHESTPLATE
     name: "&aÁo Giáp Tù Nhân &e&lII"
@@ -1448,6 +1343,7 @@ CHESTPLATE_TU_NHAN_2:
 
 CHESTPLATE_TU_NHAN_3:
   base:
+    custom-maxsockets: 3.0
     revision-id: 1
     material: LEATHER_CHESTPLATE
     name: "&aÁo Giáp Tù Nhân &e&lIII"
@@ -1470,6 +1366,7 @@ CHESTPLATE_TU_NHAN_3:
 
 CHESTPLATE_TU_NHAN_4:
   base:
+    custom-maxsockets: 3.0
     revision-id: 1
     material: LEATHER_CHESTPLATE
     name: "&aÁo Giáp Tù Nhân &e&lIV"
@@ -1492,6 +1389,7 @@ CHESTPLATE_TU_NHAN_4:
 
 CHESTPLATE_TU_NHAN_5:
   base:
+    custom-maxsockets: 3.0
     revision-id: 1
     material: LEATHER_CHESTPLATE
     name: "&aÁo Giáp Tù Nhân &e&lV"
@@ -1514,6 +1412,7 @@ CHESTPLATE_TU_NHAN_5:
 
 CHESTPLATE_LAO_CONG_1:
   base:
+    custom-maxsockets: 3.0
     revision-id: 1
     material: CHAINMAIL_CHESTPLATE
     name: "&bÁo Giáp Lao Công &e&lI"
@@ -1528,8 +1427,6 @@ CHESTPLATE_LAO_CONG_1:
     armor: 4.9
     max-health: 5.3
     armor-toughness: 0.7
-    gem-sockets:
-      - Uncolored
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -1539,6 +1436,7 @@ CHESTPLATE_LAO_CONG_1:
 
 CHESTPLATE_LAO_CONG_2:
   base:
+    custom-maxsockets: 3.0
     revision-id: 1
     material: CHAINMAIL_CHESTPLATE
     name: "&bÁo Giáp Lao Công &e&lII"
@@ -1553,8 +1451,6 @@ CHESTPLATE_LAO_CONG_2:
     armor: 5.3
     max-health: 5.8
     armor-toughness: 0.8
-    gem-sockets:
-      - Uncolored
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -1564,6 +1460,7 @@ CHESTPLATE_LAO_CONG_2:
 
 CHESTPLATE_LAO_CONG_3:
   base:
+    custom-maxsockets: 3.0
     revision-id: 1
     material: CHAINMAIL_CHESTPLATE
     name: "&bÁo Giáp Lao Công &e&lIII"
@@ -1578,8 +1475,6 @@ CHESTPLATE_LAO_CONG_3:
     armor: 5.6
     max-health: 6.3
     armor-toughness: 0.9
-    gem-sockets:
-      - Uncolored
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -1589,6 +1484,7 @@ CHESTPLATE_LAO_CONG_3:
 
 CHESTPLATE_LAO_CONG_4:
   base:
+    custom-maxsockets: 3.0
     revision-id: 1
     material: CHAINMAIL_CHESTPLATE
     name: "&bÁo Giáp Lao Công &e&lIV"
@@ -1603,8 +1499,6 @@ CHESTPLATE_LAO_CONG_4:
     armor: 5.9
     max-health: 6.8
     armor-toughness: 1.0
-    gem-sockets:
-      - Uncolored
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -1614,6 +1508,7 @@ CHESTPLATE_LAO_CONG_4:
 
 CHESTPLATE_LAO_CONG_5:
   base:
+    custom-maxsockets: 3.0
     revision-id: 1
     material: CHAINMAIL_CHESTPLATE
     name: "&bÁo Giáp Lao Công &e&lV"
@@ -1628,8 +1523,6 @@ CHESTPLATE_LAO_CONG_5:
     armor: 6.3
     max-health: 7.3
     armor-toughness: 1.0
-    gem-sockets:
-      - Uncolored
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -1639,6 +1532,7 @@ CHESTPLATE_LAO_CONG_5:
 
 CHESTPLATE_THO_DAO_1:
   base:
+    custom-maxsockets: 3.0
     revision-id: 1
     material: IRON_CHESTPLATE
     name: "&eÁo Giáp Thợ Đào &e&lI"
@@ -1654,9 +1548,6 @@ CHESTPLATE_THO_DAO_1:
     max-health: 8.8
     armor-toughness: 1.4
     defense: 0.7
-    gem-sockets:
-      - Uncolored
-      - Uncolored
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -1666,6 +1557,7 @@ CHESTPLATE_THO_DAO_1:
 
 CHESTPLATE_THO_DAO_2:
   base:
+    custom-maxsockets: 3.0
     revision-id: 1
     material: IRON_CHESTPLATE
     name: "&eÁo Giáp Thợ Đào &e&lII"
@@ -1681,9 +1573,6 @@ CHESTPLATE_THO_DAO_2:
     max-health: 9.4
     armor-toughness: 1.6
     defense: 0.8
-    gem-sockets:
-      - Uncolored
-      - Uncolored
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -1693,6 +1582,7 @@ CHESTPLATE_THO_DAO_2:
 
 CHESTPLATE_THO_DAO_3:
   base:
+    custom-maxsockets: 3.0
     revision-id: 1
     material: IRON_CHESTPLATE
     name: "&eÁo Giáp Thợ Đào &e&lIII"
@@ -1708,9 +1598,6 @@ CHESTPLATE_THO_DAO_3:
     max-health: 10.1
     armor-toughness: 1.8
     defense: 0.9
-    gem-sockets:
-      - Uncolored
-      - Uncolored
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -1720,6 +1607,7 @@ CHESTPLATE_THO_DAO_3:
 
 CHESTPLATE_THO_DAO_4:
   base:
+    custom-maxsockets: 3.0
     revision-id: 1
     material: IRON_CHESTPLATE
     name: "&eÁo Giáp Thợ Đào &e&lIV"
@@ -1735,9 +1623,6 @@ CHESTPLATE_THO_DAO_4:
     max-health: 10.8
     armor-toughness: 1.9
     defense: 1.0
-    gem-sockets:
-      - Uncolored
-      - Uncolored
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -1747,6 +1632,7 @@ CHESTPLATE_THO_DAO_4:
 
 CHESTPLATE_THO_DAO_5:
   base:
+    custom-maxsockets: 3.0
     revision-id: 1
     material: IRON_CHESTPLATE
     name: "&eÁo Giáp Thợ Đào &e&lV"
@@ -1762,9 +1648,6 @@ CHESTPLATE_THO_DAO_5:
     max-health: 11.5
     armor-toughness: 2.1
     defense: 1.0
-    gem-sockets:
-      - Uncolored
-      - Uncolored
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -1774,6 +1657,7 @@ CHESTPLATE_THO_DAO_5:
 
 CHESTPLATE_DOI_TRUONG_1:
   base:
+    custom-maxsockets: 3.0
     revision-id: 1
     material: DIAMOND_CHESTPLATE
     name: "&6Áo Giáp Đội Trưởng &e&lI"
@@ -1789,10 +1673,6 @@ CHESTPLATE_DOI_TRUONG_1:
     max-health: 14.0
     armor-toughness: 2.4
     defense: 1.8
-    gem-sockets:
-      - Uncolored
-      - Uncolored
-      - Uncolored
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -1802,6 +1682,7 @@ CHESTPLATE_DOI_TRUONG_1:
 
 CHESTPLATE_DOI_TRUONG_2:
   base:
+    custom-maxsockets: 3.0
     revision-id: 1
     material: DIAMOND_CHESTPLATE
     name: "&6Áo Giáp Đội Trưởng &e&lII"
@@ -1817,10 +1698,6 @@ CHESTPLATE_DOI_TRUONG_2:
     max-health: 14.9
     armor-toughness: 2.6
     defense: 1.9
-    gem-sockets:
-      - Uncolored
-      - Uncolored
-      - Uncolored
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -1830,6 +1707,7 @@ CHESTPLATE_DOI_TRUONG_2:
 
 CHESTPLATE_DOI_TRUONG_3:
   base:
+    custom-maxsockets: 3.0
     revision-id: 1
     material: DIAMOND_CHESTPLATE
     name: "&6Áo Giáp Đội Trưởng &e&lIII"
@@ -1845,10 +1723,6 @@ CHESTPLATE_DOI_TRUONG_3:
     max-health: 15.7
     armor-toughness: 2.8
     defense: 2.1
-    gem-sockets:
-      - Uncolored
-      - Uncolored
-      - Uncolored
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -1858,6 +1732,7 @@ CHESTPLATE_DOI_TRUONG_3:
 
 CHESTPLATE_DOI_TRUONG_4:
   base:
+    custom-maxsockets: 3.0
     revision-id: 1
     material: DIAMOND_CHESTPLATE
     name: "&6Áo Giáp Đội Trưởng &e&lIV"
@@ -1873,10 +1748,6 @@ CHESTPLATE_DOI_TRUONG_4:
     max-health: 16.6
     armor-toughness: 3.0
     defense: 2.3
-    gem-sockets:
-      - Uncolored
-      - Uncolored
-      - Uncolored
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -1886,6 +1757,7 @@ CHESTPLATE_DOI_TRUONG_4:
 
 CHESTPLATE_DOI_TRUONG_5:
   base:
+    custom-maxsockets: 3.0
     revision-id: 1
     material: DIAMOND_CHESTPLATE
     name: "&6Áo Giáp Đội Trưởng &e&lV"
@@ -1901,10 +1773,6 @@ CHESTPLATE_DOI_TRUONG_5:
     max-health: 17.5
     armor-toughness: 3.1
     defense: 2.4
-    gem-sockets:
-      - Uncolored
-      - Uncolored
-      - Uncolored
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -1914,6 +1782,7 @@ CHESTPLATE_DOI_TRUONG_5:
 
 CHESTPLATE_PHO_QUAN_NGUC_1:
   base:
+    custom-maxsockets: 3.0
     revision-id: 1
     material: DIAMOND_CHESTPLATE
     name: "&cÁo Giáp Phó Quản Ngục &e&lI"
@@ -1929,11 +1798,6 @@ CHESTPLATE_PHO_QUAN_NGUC_1:
     max-health: 21.0
     armor-toughness: 3.8
     defense: 3.1
-    gem-sockets:
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -1943,6 +1807,7 @@ CHESTPLATE_PHO_QUAN_NGUC_1:
 
 CHESTPLATE_PHO_QUAN_NGUC_2:
   base:
+    custom-maxsockets: 3.0
     revision-id: 1
     material: DIAMOND_CHESTPLATE
     name: "&cÁo Giáp Phó Quản Ngục &e&lII"
@@ -1958,11 +1823,6 @@ CHESTPLATE_PHO_QUAN_NGUC_2:
     max-health: 22.0
     armor-toughness: 4.1
     defense: 3.4
-    gem-sockets:
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -1972,6 +1832,7 @@ CHESTPLATE_PHO_QUAN_NGUC_2:
 
 CHESTPLATE_PHO_QUAN_NGUC_3:
   base:
+    custom-maxsockets: 3.0
     revision-id: 1
     material: DIAMOND_CHESTPLATE
     name: "&cÁo Giáp Phó Quản Ngục &e&lIII"
@@ -1987,11 +1848,6 @@ CHESTPLATE_PHO_QUAN_NGUC_3:
     max-health: 23.1
     armor-toughness: 4.4
     defense: 3.7
-    gem-sockets:
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -2001,6 +1857,7 @@ CHESTPLATE_PHO_QUAN_NGUC_3:
 
 CHESTPLATE_PHO_QUAN_NGUC_4:
   base:
+    custom-maxsockets: 3.0
     revision-id: 1
     material: DIAMOND_CHESTPLATE
     name: "&cÁo Giáp Phó Quản Ngục &e&lIV"
@@ -2016,11 +1873,6 @@ CHESTPLATE_PHO_QUAN_NGUC_4:
     max-health: 24.1
     armor-toughness: 4.6
     defense: 3.9
-    gem-sockets:
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -2030,6 +1882,7 @@ CHESTPLATE_PHO_QUAN_NGUC_4:
 
 CHESTPLATE_PHO_QUAN_NGUC_5:
   base:
+    custom-maxsockets: 3.0
     revision-id: 1
     material: DIAMOND_CHESTPLATE
     name: "&cÁo Giáp Phó Quản Ngục &e&lV"
@@ -2045,11 +1898,6 @@ CHESTPLATE_PHO_QUAN_NGUC_5:
     max-health: 25.2
     armor-toughness: 4.9
     defense: 4.2
-    gem-sockets:
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -2059,6 +1907,7 @@ CHESTPLATE_PHO_QUAN_NGUC_5:
 
 CHESTPLATE_QUAN_NGUC_1:
   base:
+    custom-maxsockets: 3.0
     revision-id: 1
     material: NETHERITE_CHESTPLATE
     name: "&dÁo Giáp Quản Ngục &e&lI"
@@ -2074,11 +1923,6 @@ CHESTPLATE_QUAN_NGUC_1:
     max-health: 29.7
     armor-toughness: 5.6
     defense: 4.9
-    gem-sockets:
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -2088,6 +1932,7 @@ CHESTPLATE_QUAN_NGUC_1:
 
 CHESTPLATE_QUAN_NGUC_2:
   base:
+    custom-maxsockets: 3.0
     revision-id: 1
     material: NETHERITE_CHESTPLATE
     name: "&dÁo Giáp Quản Ngục &e&lII"
@@ -2103,11 +1948,6 @@ CHESTPLATE_QUAN_NGUC_2:
     max-health: 31.1
     armor-toughness: 5.9
     defense: 5.3
-    gem-sockets:
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -2117,6 +1957,7 @@ CHESTPLATE_QUAN_NGUC_2:
 
 CHESTPLATE_QUAN_NGUC_3:
   base:
+    custom-maxsockets: 3.0
     revision-id: 1
     material: NETHERITE_CHESTPLATE
     name: "&dÁo Giáp Quản Ngục &e&lIII"
@@ -2132,11 +1973,6 @@ CHESTPLATE_QUAN_NGUC_3:
     max-health: 32.5
     armor-toughness: 6.3
     defense: 5.6
-    gem-sockets:
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -2146,6 +1982,7 @@ CHESTPLATE_QUAN_NGUC_3:
 
 CHESTPLATE_QUAN_NGUC_4:
   base:
+    custom-maxsockets: 3.0
     revision-id: 1
     material: NETHERITE_CHESTPLATE
     name: "&dÁo Giáp Quản Ngục &e&lIV"
@@ -2161,11 +1998,6 @@ CHESTPLATE_QUAN_NGUC_4:
     max-health: 33.9
     armor-toughness: 6.6
     defense: 5.9
-    gem-sockets:
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -2175,6 +2007,7 @@ CHESTPLATE_QUAN_NGUC_4:
 
 CHESTPLATE_QUAN_NGUC_5:
   base:
+    custom-maxsockets: 3.0
     revision-id: 1
     material: NETHERITE_CHESTPLATE
     name: "&dÁo Giáp Quản Ngục &e&lV"
@@ -2190,11 +2023,6 @@ CHESTPLATE_QUAN_NGUC_5:
     max-health: 35.3
     armor-toughness: 7.0
     defense: 6.3
-    gem-sockets:
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -2204,6 +2032,7 @@ CHESTPLATE_QUAN_NGUC_5:
 
 CHESTPLATE_BA_CHU_NGUC_TU_1:
   base:
+    custom-maxsockets: 3.0
     revision-id: 1
     material: NETHERITE_CHESTPLATE
     name: "&5Áo Giáp Bá Chủ Ngục Tù &e&lI"
@@ -2219,12 +2048,6 @@ CHESTPLATE_BA_CHU_NGUC_TU_1:
     max-health: 40.3
     armor-toughness: 7.7
     defense: 7.0
-    gem-sockets:
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -2234,6 +2057,7 @@ CHESTPLATE_BA_CHU_NGUC_TU_1:
 
 CHESTPLATE_BA_CHU_NGUC_TU_2:
   base:
+    custom-maxsockets: 3.0
     revision-id: 1
     material: NETHERITE_CHESTPLATE
     name: "&5Áo Giáp Bá Chủ Ngục Tù &e&lII"
@@ -2249,12 +2073,6 @@ CHESTPLATE_BA_CHU_NGUC_TU_2:
     max-health: 42.0
     armor-toughness: 8.1
     defense: 7.4
-    gem-sockets:
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -2264,6 +2082,7 @@ CHESTPLATE_BA_CHU_NGUC_TU_2:
 
 CHESTPLATE_BA_CHU_NGUC_TU_3:
   base:
+    custom-maxsockets: 3.0
     revision-id: 1
     material: NETHERITE_CHESTPLATE
     name: "&5Áo Giáp Bá Chủ Ngục Tù &e&lIII"
@@ -2279,12 +2098,6 @@ CHESTPLATE_BA_CHU_NGUC_TU_3:
     max-health: 43.8
     armor-toughness: 8.6
     defense: 7.9
-    gem-sockets:
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -2294,6 +2107,7 @@ CHESTPLATE_BA_CHU_NGUC_TU_3:
 
 CHESTPLATE_BA_CHU_NGUC_TU_4:
   base:
+    custom-maxsockets: 3.0
     revision-id: 1
     material: NETHERITE_CHESTPLATE
     name: "&5Áo Giáp Bá Chủ Ngục Tù &e&lIV"
@@ -2309,12 +2123,6 @@ CHESTPLATE_BA_CHU_NGUC_TU_4:
     max-health: 45.5
     armor-toughness: 9.0
     defense: 8.3
-    gem-sockets:
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -2324,6 +2132,7 @@ CHESTPLATE_BA_CHU_NGUC_TU_4:
 
 CHESTPLATE_BA_CHU_NGUC_TU_5:
   base:
+    custom-maxsockets: 3.0
     revision-id: 1
     material: NETHERITE_CHESTPLATE
     name: "&5Áo Giáp Bá Chủ Ngục Tù &e&lV"
@@ -2339,12 +2148,6 @@ CHESTPLATE_BA_CHU_NGUC_TU_5:
     max-health: 47.3
     armor-toughness: 9.4
     defense: 8.8
-    gem-sockets:
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -2354,6 +2157,7 @@ CHESTPLATE_BA_CHU_NGUC_TU_5:
 
 CHESTPLATE_VUOT_NGUC_1:
   base:
+    custom-maxsockets: 3.0
     revision-id: 1
     material: NETHERITE_CHESTPLATE
     name: "&4Áo Giáp Vượt Ngục &e&lI"
@@ -2369,12 +2173,6 @@ CHESTPLATE_VUOT_NGUC_1:
     max-health: 52.5
     armor-toughness: 10.5
     defense: 9.8
-    gem-sockets:
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -2384,6 +2182,7 @@ CHESTPLATE_VUOT_NGUC_1:
 
 CHESTPLATE_VUOT_NGUC_2:
   base:
+    custom-maxsockets: 3.0
     revision-id: 1
     material: NETHERITE_CHESTPLATE
     name: "&4Áo Giáp Vượt Ngục &e&lII"
@@ -2399,12 +2198,6 @@ CHESTPLATE_VUOT_NGUC_2:
     max-health: 54.6
     armor-toughness: 11.0
     defense: 10.3
-    gem-sockets:
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -2414,6 +2207,7 @@ CHESTPLATE_VUOT_NGUC_2:
 
 CHESTPLATE_VUOT_NGUC_3:
   base:
+    custom-maxsockets: 3.0
     revision-id: 1
     material: NETHERITE_CHESTPLATE
     name: "&4Áo Giáp Vượt Ngục &e&lIII"
@@ -2429,12 +2223,6 @@ CHESTPLATE_VUOT_NGUC_3:
     max-health: 56.7
     armor-toughness: 11.5
     defense: 10.8
-    gem-sockets:
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -2444,6 +2232,7 @@ CHESTPLATE_VUOT_NGUC_3:
 
 CHESTPLATE_VUOT_NGUC_4:
   base:
+    custom-maxsockets: 3.0
     revision-id: 1
     material: NETHERITE_CHESTPLATE
     name: "&4Áo Giáp Vượt Ngục &e&lIV"
@@ -2459,12 +2248,6 @@ CHESTPLATE_VUOT_NGUC_4:
     max-health: 58.8
     armor-toughness: 12.1
     defense: 11.4
-    gem-sockets:
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -2474,6 +2257,7 @@ CHESTPLATE_VUOT_NGUC_4:
 
 CHESTPLATE_VUOT_NGUC_5:
   base:
+    custom-maxsockets: 3.0
     revision-id: 1
     material: NETHERITE_CHESTPLATE
     name: "&4Áo Giáp Vượt Ngục &e&lV"
@@ -2489,12 +2273,6 @@ CHESTPLATE_VUOT_NGUC_5:
     max-health: 60.9
     armor-toughness: 12.6
     defense: 11.9
-    gem-sockets:
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -2504,6 +2282,7 @@ CHESTPLATE_VUOT_NGUC_5:
 
 LEGGINGS_TAN_BINH_1:
   base:
+    custom-maxsockets: 3.0
     revision-id: 1
     material: LEATHER_LEGGINGS
     name: "&fQuần Giáp Tân Binh &e&lI"
@@ -2526,6 +2305,7 @@ LEGGINGS_TAN_BINH_1:
 
 LEGGINGS_TAN_BINH_2:
   base:
+    custom-maxsockets: 3.0
     revision-id: 1
     material: LEATHER_LEGGINGS
     name: "&fQuần Giáp Tân Binh &e&lII"
@@ -2548,6 +2328,7 @@ LEGGINGS_TAN_BINH_2:
 
 LEGGINGS_TAN_BINH_3:
   base:
+    custom-maxsockets: 3.0
     revision-id: 1
     material: LEATHER_LEGGINGS
     name: "&fQuần Giáp Tân Binh &e&lIII"
@@ -2570,6 +2351,7 @@ LEGGINGS_TAN_BINH_3:
 
 LEGGINGS_TAN_BINH_4:
   base:
+    custom-maxsockets: 3.0
     revision-id: 1
     material: LEATHER_LEGGINGS
     name: "&fQuần Giáp Tân Binh &e&lIV"
@@ -2592,6 +2374,7 @@ LEGGINGS_TAN_BINH_4:
 
 LEGGINGS_TAN_BINH_5:
   base:
+    custom-maxsockets: 3.0
     revision-id: 1
     material: LEATHER_LEGGINGS
     name: "&fQuần Giáp Tân Binh &e&lV"
@@ -2614,6 +2397,7 @@ LEGGINGS_TAN_BINH_5:
 
 LEGGINGS_TU_NHAN_1:
   base:
+    custom-maxsockets: 3.0
     revision-id: 1
     material: LEATHER_LEGGINGS
     name: "&aQuần Giáp Tù Nhân &e&lI"
@@ -2636,6 +2420,7 @@ LEGGINGS_TU_NHAN_1:
 
 LEGGINGS_TU_NHAN_2:
   base:
+    custom-maxsockets: 3.0
     revision-id: 1
     material: LEATHER_LEGGINGS
     name: "&aQuần Giáp Tù Nhân &e&lII"
@@ -2658,6 +2443,7 @@ LEGGINGS_TU_NHAN_2:
 
 LEGGINGS_TU_NHAN_3:
   base:
+    custom-maxsockets: 3.0
     revision-id: 1
     material: LEATHER_LEGGINGS
     name: "&aQuần Giáp Tù Nhân &e&lIII"
@@ -2680,6 +2466,7 @@ LEGGINGS_TU_NHAN_3:
 
 LEGGINGS_TU_NHAN_4:
   base:
+    custom-maxsockets: 3.0
     revision-id: 1
     material: LEATHER_LEGGINGS
     name: "&aQuần Giáp Tù Nhân &e&lIV"
@@ -2702,6 +2489,7 @@ LEGGINGS_TU_NHAN_4:
 
 LEGGINGS_TU_NHAN_5:
   base:
+    custom-maxsockets: 3.0
     revision-id: 1
     material: LEATHER_LEGGINGS
     name: "&aQuần Giáp Tù Nhân &e&lV"
@@ -2724,6 +2512,7 @@ LEGGINGS_TU_NHAN_5:
 
 LEGGINGS_LAO_CONG_1:
   base:
+    custom-maxsockets: 3.0
     revision-id: 1
     material: CHAINMAIL_LEGGINGS
     name: "&bQuần Giáp Lao Công &e&lI"
@@ -2738,8 +2527,6 @@ LEGGINGS_LAO_CONG_1:
     armor: 3.5
     max-health: 3.8
     armor-toughness: 0.5
-    gem-sockets:
-      - Uncolored
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -2749,6 +2536,7 @@ LEGGINGS_LAO_CONG_1:
 
 LEGGINGS_LAO_CONG_2:
   base:
+    custom-maxsockets: 3.0
     revision-id: 1
     material: CHAINMAIL_LEGGINGS
     name: "&bQuần Giáp Lao Công &e&lII"
@@ -2763,8 +2551,6 @@ LEGGINGS_LAO_CONG_2:
     armor: 3.8
     max-health: 4.1
     armor-toughness: 0.6
-    gem-sockets:
-      - Uncolored
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -2774,6 +2560,7 @@ LEGGINGS_LAO_CONG_2:
 
 LEGGINGS_LAO_CONG_3:
   base:
+    custom-maxsockets: 3.0
     revision-id: 1
     material: CHAINMAIL_LEGGINGS
     name: "&bQuần Giáp Lao Công &e&lIII"
@@ -2788,8 +2575,6 @@ LEGGINGS_LAO_CONG_3:
     armor: 4.0
     max-health: 4.5
     armor-toughness: 0.6
-    gem-sockets:
-      - Uncolored
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -2799,6 +2584,7 @@ LEGGINGS_LAO_CONG_3:
 
 LEGGINGS_LAO_CONG_4:
   base:
+    custom-maxsockets: 3.0
     revision-id: 1
     material: CHAINMAIL_LEGGINGS
     name: "&bQuần Giáp Lao Công &e&lIV"
@@ -2813,8 +2599,6 @@ LEGGINGS_LAO_CONG_4:
     armor: 4.3
     max-health: 4.9
     armor-toughness: 0.7
-    gem-sockets:
-      - Uncolored
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -2824,6 +2608,7 @@ LEGGINGS_LAO_CONG_4:
 
 LEGGINGS_LAO_CONG_5:
   base:
+    custom-maxsockets: 3.0
     revision-id: 1
     material: CHAINMAIL_LEGGINGS
     name: "&bQuần Giáp Lao Công &e&lV"
@@ -2838,8 +2623,6 @@ LEGGINGS_LAO_CONG_5:
     armor: 4.5
     max-health: 5.3
     armor-toughness: 0.8
-    gem-sockets:
-      - Uncolored
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -2849,6 +2632,7 @@ LEGGINGS_LAO_CONG_5:
 
 LEGGINGS_THO_DAO_1:
   base:
+    custom-maxsockets: 3.0
     revision-id: 1
     material: IRON_LEGGINGS
     name: "&eQuần Giáp Thợ Đào &e&lI"
@@ -2864,9 +2648,6 @@ LEGGINGS_THO_DAO_1:
     max-health: 6.3
     armor-toughness: 1.0
     defense: 0.5
-    gem-sockets:
-      - Uncolored
-      - Uncolored
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -2876,6 +2657,7 @@ LEGGINGS_THO_DAO_1:
 
 LEGGINGS_THO_DAO_2:
   base:
+    custom-maxsockets: 3.0
     revision-id: 1
     material: IRON_LEGGINGS
     name: "&eQuần Giáp Thợ Đào &e&lII"
@@ -2891,9 +2673,6 @@ LEGGINGS_THO_DAO_2:
     max-health: 6.8
     armor-toughness: 1.1
     defense: 0.6
-    gem-sockets:
-      - Uncolored
-      - Uncolored
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -2903,6 +2682,7 @@ LEGGINGS_THO_DAO_2:
 
 LEGGINGS_THO_DAO_3:
   base:
+    custom-maxsockets: 3.0
     revision-id: 1
     material: IRON_LEGGINGS
     name: "&eQuần Giáp Thợ Đào &e&lIII"
@@ -2918,9 +2698,6 @@ LEGGINGS_THO_DAO_3:
     max-health: 7.3
     armor-toughness: 1.3
     defense: 0.6
-    gem-sockets:
-      - Uncolored
-      - Uncolored
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -2930,6 +2707,7 @@ LEGGINGS_THO_DAO_3:
 
 LEGGINGS_THO_DAO_4:
   base:
+    custom-maxsockets: 3.0
     revision-id: 1
     material: IRON_LEGGINGS
     name: "&eQuần Giáp Thợ Đào &e&lIV"
@@ -2945,9 +2723,6 @@ LEGGINGS_THO_DAO_4:
     max-health: 7.8
     armor-toughness: 1.4
     defense: 0.7
-    gem-sockets:
-      - Uncolored
-      - Uncolored
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -2957,6 +2732,7 @@ LEGGINGS_THO_DAO_4:
 
 LEGGINGS_THO_DAO_5:
   base:
+    custom-maxsockets: 3.0
     revision-id: 1
     material: IRON_LEGGINGS
     name: "&eQuần Giáp Thợ Đào &e&lV"
@@ -2972,9 +2748,6 @@ LEGGINGS_THO_DAO_5:
     max-health: 8.3
     armor-toughness: 1.5
     defense: 0.8
-    gem-sockets:
-      - Uncolored
-      - Uncolored
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -2984,6 +2757,7 @@ LEGGINGS_THO_DAO_5:
 
 LEGGINGS_DOI_TRUONG_1:
   base:
+    custom-maxsockets: 3.0
     revision-id: 1
     material: DIAMOND_LEGGINGS
     name: "&6Quần Giáp Đội Trưởng &e&lI"
@@ -2999,10 +2773,6 @@ LEGGINGS_DOI_TRUONG_1:
     max-health: 10.0
     armor-toughness: 1.8
     defense: 1.3
-    gem-sockets:
-      - Uncolored
-      - Uncolored
-      - Uncolored
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -3012,6 +2782,7 @@ LEGGINGS_DOI_TRUONG_1:
 
 LEGGINGS_DOI_TRUONG_2:
   base:
+    custom-maxsockets: 3.0
     revision-id: 1
     material: DIAMOND_LEGGINGS
     name: "&6Quần Giáp Đội Trưởng &e&lII"
@@ -3027,10 +2798,6 @@ LEGGINGS_DOI_TRUONG_2:
     max-health: 10.6
     armor-toughness: 1.9
     defense: 1.4
-    gem-sockets:
-      - Uncolored
-      - Uncolored
-      - Uncolored
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -3040,6 +2807,7 @@ LEGGINGS_DOI_TRUONG_2:
 
 LEGGINGS_DOI_TRUONG_3:
   base:
+    custom-maxsockets: 3.0
     revision-id: 1
     material: DIAMOND_LEGGINGS
     name: "&6Quần Giáp Đội Trưởng &e&lIII"
@@ -3055,10 +2823,6 @@ LEGGINGS_DOI_TRUONG_3:
     max-health: 11.3
     armor-toughness: 2.0
     defense: 1.5
-    gem-sockets:
-      - Uncolored
-      - Uncolored
-      - Uncolored
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -3068,6 +2832,7 @@ LEGGINGS_DOI_TRUONG_3:
 
 LEGGINGS_DOI_TRUONG_4:
   base:
+    custom-maxsockets: 3.0
     revision-id: 1
     material: DIAMOND_LEGGINGS
     name: "&6Quần Giáp Đội Trưởng &e&lIV"
@@ -3083,10 +2848,6 @@ LEGGINGS_DOI_TRUONG_4:
     max-health: 11.9
     armor-toughness: 2.1
     defense: 1.6
-    gem-sockets:
-      - Uncolored
-      - Uncolored
-      - Uncolored
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -3096,6 +2857,7 @@ LEGGINGS_DOI_TRUONG_4:
 
 LEGGINGS_DOI_TRUONG_5:
   base:
+    custom-maxsockets: 3.0
     revision-id: 1
     material: DIAMOND_LEGGINGS
     name: "&6Quần Giáp Đội Trưởng &e&lV"
@@ -3111,10 +2873,6 @@ LEGGINGS_DOI_TRUONG_5:
     max-health: 12.5
     armor-toughness: 2.3
     defense: 1.8
-    gem-sockets:
-      - Uncolored
-      - Uncolored
-      - Uncolored
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -3124,6 +2882,7 @@ LEGGINGS_DOI_TRUONG_5:
 
 LEGGINGS_PHO_QUAN_NGUC_1:
   base:
+    custom-maxsockets: 3.0
     revision-id: 1
     material: DIAMOND_LEGGINGS
     name: "&cQuần Giáp Phó Quản Ngục &e&lI"
@@ -3139,11 +2898,6 @@ LEGGINGS_PHO_QUAN_NGUC_1:
     max-health: 15.0
     armor-toughness: 2.8
     defense: 2.3
-    gem-sockets:
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -3153,6 +2907,7 @@ LEGGINGS_PHO_QUAN_NGUC_1:
 
 LEGGINGS_PHO_QUAN_NGUC_2:
   base:
+    custom-maxsockets: 3.0
     revision-id: 1
     material: DIAMOND_LEGGINGS
     name: "&cQuần Giáp Phó Quản Ngục &e&lII"
@@ -3168,11 +2923,6 @@ LEGGINGS_PHO_QUAN_NGUC_2:
     max-health: 15.8
     armor-toughness: 2.9
     defense: 2.4
-    gem-sockets:
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -3182,6 +2932,7 @@ LEGGINGS_PHO_QUAN_NGUC_2:
 
 LEGGINGS_PHO_QUAN_NGUC_3:
   base:
+    custom-maxsockets: 3.0
     revision-id: 1
     material: DIAMOND_LEGGINGS
     name: "&cQuần Giáp Phó Quản Ngục &e&lIII"
@@ -3197,11 +2948,6 @@ LEGGINGS_PHO_QUAN_NGUC_3:
     max-health: 16.5
     armor-toughness: 3.1
     defense: 2.6
-    gem-sockets:
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -3211,6 +2957,7 @@ LEGGINGS_PHO_QUAN_NGUC_3:
 
 LEGGINGS_PHO_QUAN_NGUC_4:
   base:
+    custom-maxsockets: 3.0
     revision-id: 1
     material: DIAMOND_LEGGINGS
     name: "&cQuần Giáp Phó Quản Ngục &e&lIV"
@@ -3226,11 +2973,6 @@ LEGGINGS_PHO_QUAN_NGUC_4:
     max-health: 17.3
     armor-toughness: 3.3
     defense: 2.8
-    gem-sockets:
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -3240,6 +2982,7 @@ LEGGINGS_PHO_QUAN_NGUC_4:
 
 LEGGINGS_PHO_QUAN_NGUC_5:
   base:
+    custom-maxsockets: 3.0
     revision-id: 1
     material: DIAMOND_LEGGINGS
     name: "&cQuần Giáp Phó Quản Ngục &e&lV"
@@ -3255,11 +2998,6 @@ LEGGINGS_PHO_QUAN_NGUC_5:
     max-health: 18.0
     armor-toughness: 3.5
     defense: 3.0
-    gem-sockets:
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -3269,6 +3007,7 @@ LEGGINGS_PHO_QUAN_NGUC_5:
 
 LEGGINGS_QUAN_NGUC_1:
   base:
+    custom-maxsockets: 3.0
     revision-id: 1
     material: NETHERITE_LEGGINGS
     name: "&dQuần Giáp Quản Ngục &e&lI"
@@ -3284,11 +3023,6 @@ LEGGINGS_QUAN_NGUC_1:
     max-health: 21.3
     armor-toughness: 4.0
     defense: 3.5
-    gem-sockets:
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -3298,6 +3032,7 @@ LEGGINGS_QUAN_NGUC_1:
 
 LEGGINGS_QUAN_NGUC_2:
   base:
+    custom-maxsockets: 3.0
     revision-id: 1
     material: NETHERITE_LEGGINGS
     name: "&dQuần Giáp Quản Ngục &e&lII"
@@ -3313,11 +3048,6 @@ LEGGINGS_QUAN_NGUC_2:
     max-health: 22.3
     armor-toughness: 4.3
     defense: 3.8
-    gem-sockets:
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -3327,6 +3057,7 @@ LEGGINGS_QUAN_NGUC_2:
 
 LEGGINGS_QUAN_NGUC_3:
   base:
+    custom-maxsockets: 3.0
     revision-id: 1
     material: NETHERITE_LEGGINGS
     name: "&dQuần Giáp Quản Ngục &e&lIII"
@@ -3342,11 +3073,6 @@ LEGGINGS_QUAN_NGUC_3:
     max-health: 23.3
     armor-toughness: 4.5
     defense: 4.0
-    gem-sockets:
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -3356,6 +3082,7 @@ LEGGINGS_QUAN_NGUC_3:
 
 LEGGINGS_QUAN_NGUC_4:
   base:
+    custom-maxsockets: 3.0
     revision-id: 1
     material: NETHERITE_LEGGINGS
     name: "&dQuần Giáp Quản Ngục &e&lIV"
@@ -3371,11 +3098,6 @@ LEGGINGS_QUAN_NGUC_4:
     max-health: 24.3
     armor-toughness: 4.8
     defense: 4.3
-    gem-sockets:
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -3385,6 +3107,7 @@ LEGGINGS_QUAN_NGUC_4:
 
 LEGGINGS_QUAN_NGUC_5:
   base:
+    custom-maxsockets: 3.0
     revision-id: 1
     material: NETHERITE_LEGGINGS
     name: "&dQuần Giáp Quản Ngục &e&lV"
@@ -3400,11 +3123,6 @@ LEGGINGS_QUAN_NGUC_5:
     max-health: 25.3
     armor-toughness: 5.0
     defense: 4.5
-    gem-sockets:
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -3414,6 +3132,7 @@ LEGGINGS_QUAN_NGUC_5:
 
 LEGGINGS_BA_CHU_NGUC_TU_1:
   base:
+    custom-maxsockets: 3.0
     revision-id: 1
     material: NETHERITE_LEGGINGS
     name: "&5Quần Giáp Bá Chủ Ngục Tù &e&lI"
@@ -3429,12 +3148,6 @@ LEGGINGS_BA_CHU_NGUC_TU_1:
     max-health: 28.8
     armor-toughness: 5.5
     defense: 5.0
-    gem-sockets:
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -3444,6 +3157,7 @@ LEGGINGS_BA_CHU_NGUC_TU_1:
 
 LEGGINGS_BA_CHU_NGUC_TU_2:
   base:
+    custom-maxsockets: 3.0
     revision-id: 1
     material: NETHERITE_LEGGINGS
     name: "&5Quần Giáp Bá Chủ Ngục Tù &e&lII"
@@ -3459,12 +3173,6 @@ LEGGINGS_BA_CHU_NGUC_TU_2:
     max-health: 30.0
     armor-toughness: 5.8
     defense: 5.3
-    gem-sockets:
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -3474,6 +3182,7 @@ LEGGINGS_BA_CHU_NGUC_TU_2:
 
 LEGGINGS_BA_CHU_NGUC_TU_3:
   base:
+    custom-maxsockets: 3.0
     revision-id: 1
     material: NETHERITE_LEGGINGS
     name: "&5Quần Giáp Bá Chủ Ngục Tù &e&lIII"
@@ -3489,12 +3198,6 @@ LEGGINGS_BA_CHU_NGUC_TU_3:
     max-health: 31.3
     armor-toughness: 6.1
     defense: 5.6
-    gem-sockets:
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -3504,6 +3207,7 @@ LEGGINGS_BA_CHU_NGUC_TU_3:
 
 LEGGINGS_BA_CHU_NGUC_TU_4:
   base:
+    custom-maxsockets: 3.0
     revision-id: 1
     material: NETHERITE_LEGGINGS
     name: "&5Quần Giáp Bá Chủ Ngục Tù &e&lIV"
@@ -3519,12 +3223,6 @@ LEGGINGS_BA_CHU_NGUC_TU_4:
     max-health: 32.5
     armor-toughness: 6.4
     defense: 5.9
-    gem-sockets:
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -3534,6 +3232,7 @@ LEGGINGS_BA_CHU_NGUC_TU_4:
 
 LEGGINGS_BA_CHU_NGUC_TU_5:
   base:
+    custom-maxsockets: 3.0
     revision-id: 1
     material: NETHERITE_LEGGINGS
     name: "&5Quần Giáp Bá Chủ Ngục Tù &e&lV"
@@ -3549,12 +3248,6 @@ LEGGINGS_BA_CHU_NGUC_TU_5:
     max-health: 33.8
     armor-toughness: 6.8
     defense: 6.3
-    gem-sockets:
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -3564,6 +3257,7 @@ LEGGINGS_BA_CHU_NGUC_TU_5:
 
 LEGGINGS_VUOT_NGUC_1:
   base:
+    custom-maxsockets: 3.0
     revision-id: 1
     material: NETHERITE_LEGGINGS
     name: "&4Quần Giáp Vượt Ngục &e&lI"
@@ -3579,12 +3273,6 @@ LEGGINGS_VUOT_NGUC_1:
     max-health: 37.5
     armor-toughness: 7.5
     defense: 7.0
-    gem-sockets:
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -3594,6 +3282,7 @@ LEGGINGS_VUOT_NGUC_1:
 
 LEGGINGS_VUOT_NGUC_2:
   base:
+    custom-maxsockets: 3.0
     revision-id: 1
     material: NETHERITE_LEGGINGS
     name: "&4Quần Giáp Vượt Ngục &e&lII"
@@ -3609,12 +3298,6 @@ LEGGINGS_VUOT_NGUC_2:
     max-health: 39.0
     armor-toughness: 7.9
     defense: 7.4
-    gem-sockets:
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -3624,6 +3307,7 @@ LEGGINGS_VUOT_NGUC_2:
 
 LEGGINGS_VUOT_NGUC_3:
   base:
+    custom-maxsockets: 3.0
     revision-id: 1
     material: NETHERITE_LEGGINGS
     name: "&4Quần Giáp Vượt Ngục &e&lIII"
@@ -3639,12 +3323,6 @@ LEGGINGS_VUOT_NGUC_3:
     max-health: 40.5
     armor-toughness: 8.3
     defense: 7.8
-    gem-sockets:
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -3654,6 +3332,7 @@ LEGGINGS_VUOT_NGUC_3:
 
 LEGGINGS_VUOT_NGUC_4:
   base:
+    custom-maxsockets: 3.0
     revision-id: 1
     material: NETHERITE_LEGGINGS
     name: "&4Quần Giáp Vượt Ngục &e&lIV"
@@ -3669,12 +3348,6 @@ LEGGINGS_VUOT_NGUC_4:
     max-health: 42.0
     armor-toughness: 8.6
     defense: 8.1
-    gem-sockets:
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -3684,6 +3357,7 @@ LEGGINGS_VUOT_NGUC_4:
 
 LEGGINGS_VUOT_NGUC_5:
   base:
+    custom-maxsockets: 3.0
     revision-id: 1
     material: NETHERITE_LEGGINGS
     name: "&4Quần Giáp Vượt Ngục &e&lV"
@@ -3699,12 +3373,6 @@ LEGGINGS_VUOT_NGUC_5:
     max-health: 43.5
     armor-toughness: 9.0
     defense: 8.5
-    gem-sockets:
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -3714,6 +3382,7 @@ LEGGINGS_VUOT_NGUC_5:
 
 BOOTS_TAN_BINH_1:
   base:
+    custom-maxsockets: 3.0
     revision-id: 1
     material: LEATHER_BOOTS
     name: "&fGiày Tân Binh &e&lI"
@@ -3736,6 +3405,7 @@ BOOTS_TAN_BINH_1:
 
 BOOTS_TAN_BINH_2:
   base:
+    custom-maxsockets: 3.0
     revision-id: 1
     material: LEATHER_BOOTS
     name: "&fGiày Tân Binh &e&lII"
@@ -3758,6 +3428,7 @@ BOOTS_TAN_BINH_2:
 
 BOOTS_TAN_BINH_3:
   base:
+    custom-maxsockets: 3.0
     revision-id: 1
     material: LEATHER_BOOTS
     name: "&fGiày Tân Binh &e&lIII"
@@ -3780,6 +3451,7 @@ BOOTS_TAN_BINH_3:
 
 BOOTS_TAN_BINH_4:
   base:
+    custom-maxsockets: 3.0
     revision-id: 1
     material: LEATHER_BOOTS
     name: "&fGiày Tân Binh &e&lIV"
@@ -3802,6 +3474,7 @@ BOOTS_TAN_BINH_4:
 
 BOOTS_TAN_BINH_5:
   base:
+    custom-maxsockets: 3.0
     revision-id: 1
     material: LEATHER_BOOTS
     name: "&fGiày Tân Binh &e&lV"
@@ -3824,6 +3497,7 @@ BOOTS_TAN_BINH_5:
 
 BOOTS_TU_NHAN_1:
   base:
+    custom-maxsockets: 3.0
     revision-id: 1
     material: LEATHER_BOOTS
     name: "&aGiày Tù Nhân &e&lI"
@@ -3846,6 +3520,7 @@ BOOTS_TU_NHAN_1:
 
 BOOTS_TU_NHAN_2:
   base:
+    custom-maxsockets: 3.0
     revision-id: 1
     material: LEATHER_BOOTS
     name: "&aGiày Tù Nhân &e&lII"
@@ -3868,6 +3543,7 @@ BOOTS_TU_NHAN_2:
 
 BOOTS_TU_NHAN_3:
   base:
+    custom-maxsockets: 3.0
     revision-id: 1
     material: LEATHER_BOOTS
     name: "&aGiày Tù Nhân &e&lIII"
@@ -3890,6 +3566,7 @@ BOOTS_TU_NHAN_3:
 
 BOOTS_TU_NHAN_4:
   base:
+    custom-maxsockets: 3.0
     revision-id: 1
     material: LEATHER_BOOTS
     name: "&aGiày Tù Nhân &e&lIV"
@@ -3912,6 +3589,7 @@ BOOTS_TU_NHAN_4:
 
 BOOTS_TU_NHAN_5:
   base:
+    custom-maxsockets: 3.0
     revision-id: 1
     material: LEATHER_BOOTS
     name: "&aGiày Tù Nhân &e&lV"
@@ -3934,6 +3612,7 @@ BOOTS_TU_NHAN_5:
 
 BOOTS_LAO_CONG_1:
   base:
+    custom-maxsockets: 3.0
     revision-id: 1
     material: CHAINMAIL_BOOTS
     name: "&bGiày Lao Công &e&lI"
@@ -3948,8 +3627,6 @@ BOOTS_LAO_CONG_1:
     armor: 2.8
     max-health: 3.0
     armor-toughness: 0.4
-    gem-sockets:
-      - Uncolored
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -3959,6 +3636,7 @@ BOOTS_LAO_CONG_1:
 
 BOOTS_LAO_CONG_2:
   base:
+    custom-maxsockets: 3.0
     revision-id: 1
     material: CHAINMAIL_BOOTS
     name: "&bGiày Lao Công &e&lII"
@@ -3973,8 +3651,6 @@ BOOTS_LAO_CONG_2:
     armor: 3.0
     max-health: 3.3
     armor-toughness: 0.5
-    gem-sockets:
-      - Uncolored
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -3984,6 +3660,7 @@ BOOTS_LAO_CONG_2:
 
 BOOTS_LAO_CONG_3:
   base:
+    custom-maxsockets: 3.0
     revision-id: 1
     material: CHAINMAIL_BOOTS
     name: "&bGiày Lao Công &e&lIII"
@@ -3998,8 +3675,6 @@ BOOTS_LAO_CONG_3:
     armor: 3.2
     max-health: 3.6
     armor-toughness: 0.5
-    gem-sockets:
-      - Uncolored
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -4009,6 +3684,7 @@ BOOTS_LAO_CONG_3:
 
 BOOTS_LAO_CONG_4:
   base:
+    custom-maxsockets: 3.0
     revision-id: 1
     material: CHAINMAIL_BOOTS
     name: "&bGiày Lao Công &e&lIV"
@@ -4023,8 +3699,6 @@ BOOTS_LAO_CONG_4:
     armor: 3.4
     max-health: 3.9
     armor-toughness: 0.6
-    gem-sockets:
-      - Uncolored
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -4034,6 +3708,7 @@ BOOTS_LAO_CONG_4:
 
 BOOTS_LAO_CONG_5:
   base:
+    custom-maxsockets: 3.0
     revision-id: 1
     material: CHAINMAIL_BOOTS
     name: "&bGiày Lao Công &e&lV"
@@ -4048,8 +3723,6 @@ BOOTS_LAO_CONG_5:
     armor: 3.6
     max-health: 4.2
     armor-toughness: 0.6
-    gem-sockets:
-      - Uncolored
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -4059,6 +3732,7 @@ BOOTS_LAO_CONG_5:
 
 BOOTS_THO_DAO_1:
   base:
+    custom-maxsockets: 3.0
     revision-id: 1
     material: IRON_BOOTS
     name: "&eGiày Thợ Đào &e&lI"
@@ -4074,9 +3748,6 @@ BOOTS_THO_DAO_1:
     max-health: 5.0
     armor-toughness: 0.8
     defense: 0.4
-    gem-sockets:
-      - Uncolored
-      - Uncolored
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -4086,6 +3757,7 @@ BOOTS_THO_DAO_1:
 
 BOOTS_THO_DAO_2:
   base:
+    custom-maxsockets: 3.0
     revision-id: 1
     material: IRON_BOOTS
     name: "&eGiày Thợ Đào &e&lII"
@@ -4101,9 +3773,6 @@ BOOTS_THO_DAO_2:
     max-health: 5.4
     armor-toughness: 0.9
     defense: 0.5
-    gem-sockets:
-      - Uncolored
-      - Uncolored
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -4113,6 +3782,7 @@ BOOTS_THO_DAO_2:
 
 BOOTS_THO_DAO_3:
   base:
+    custom-maxsockets: 3.0
     revision-id: 1
     material: IRON_BOOTS
     name: "&eGiày Thợ Đào &e&lIII"
@@ -4128,9 +3798,6 @@ BOOTS_THO_DAO_3:
     max-health: 5.8
     armor-toughness: 1.0
     defense: 0.5
-    gem-sockets:
-      - Uncolored
-      - Uncolored
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -4140,6 +3807,7 @@ BOOTS_THO_DAO_3:
 
 BOOTS_THO_DAO_4:
   base:
+    custom-maxsockets: 3.0
     revision-id: 1
     material: IRON_BOOTS
     name: "&eGiày Thợ Đào &e&lIV"
@@ -4155,9 +3823,6 @@ BOOTS_THO_DAO_4:
     max-health: 6.2
     armor-toughness: 1.1
     defense: 0.6
-    gem-sockets:
-      - Uncolored
-      - Uncolored
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -4167,6 +3832,7 @@ BOOTS_THO_DAO_4:
 
 BOOTS_THO_DAO_5:
   base:
+    custom-maxsockets: 3.0
     revision-id: 1
     material: IRON_BOOTS
     name: "&eGiày Thợ Đào &e&lV"
@@ -4182,9 +3848,6 @@ BOOTS_THO_DAO_5:
     max-health: 6.6
     armor-toughness: 1.2
     defense: 0.6
-    gem-sockets:
-      - Uncolored
-      - Uncolored
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -4194,6 +3857,7 @@ BOOTS_THO_DAO_5:
 
 BOOTS_DOI_TRUONG_1:
   base:
+    custom-maxsockets: 3.0
     revision-id: 1
     material: DIAMOND_BOOTS
     name: "&6Giày Đội Trưởng &e&lI"
@@ -4210,10 +3874,6 @@ BOOTS_DOI_TRUONG_1:
     armor-toughness: 1.4
     defense: 1.0
     movement-speed: 0.010
-    gem-sockets:
-      - Uncolored
-      - Uncolored
-      - Uncolored
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -4223,6 +3883,7 @@ BOOTS_DOI_TRUONG_1:
 
 BOOTS_DOI_TRUONG_2:
   base:
+    custom-maxsockets: 3.0
     revision-id: 1
     material: DIAMOND_BOOTS
     name: "&6Giày Đội Trưởng &e&lII"
@@ -4239,10 +3900,6 @@ BOOTS_DOI_TRUONG_2:
     armor-toughness: 1.5
     defense: 1.1
     movement-speed: 0.011
-    gem-sockets:
-      - Uncolored
-      - Uncolored
-      - Uncolored
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -4252,6 +3909,7 @@ BOOTS_DOI_TRUONG_2:
 
 BOOTS_DOI_TRUONG_3:
   base:
+    custom-maxsockets: 3.0
     revision-id: 1
     material: DIAMOND_BOOTS
     name: "&6Giày Đội Trưởng &e&lIII"
@@ -4268,10 +3926,6 @@ BOOTS_DOI_TRUONG_3:
     armor-toughness: 1.6
     defense: 1.2
     movement-speed: 0.012
-    gem-sockets:
-      - Uncolored
-      - Uncolored
-      - Uncolored
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -4281,6 +3935,7 @@ BOOTS_DOI_TRUONG_3:
 
 BOOTS_DOI_TRUONG_4:
   base:
+    custom-maxsockets: 3.0
     revision-id: 1
     material: DIAMOND_BOOTS
     name: "&6Giày Đội Trưởng &e&lIV"
@@ -4297,10 +3952,6 @@ BOOTS_DOI_TRUONG_4:
     armor-toughness: 1.7
     defense: 1.3
     movement-speed: 0.013
-    gem-sockets:
-      - Uncolored
-      - Uncolored
-      - Uncolored
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -4310,6 +3961,7 @@ BOOTS_DOI_TRUONG_4:
 
 BOOTS_DOI_TRUONG_5:
   base:
+    custom-maxsockets: 3.0
     revision-id: 1
     material: DIAMOND_BOOTS
     name: "&6Giày Đội Trưởng &e&lV"
@@ -4326,10 +3978,6 @@ BOOTS_DOI_TRUONG_5:
     armor-toughness: 1.8
     defense: 1.4
     movement-speed: 0.014
-    gem-sockets:
-      - Uncolored
-      - Uncolored
-      - Uncolored
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -4339,6 +3987,7 @@ BOOTS_DOI_TRUONG_5:
 
 BOOTS_PHO_QUAN_NGUC_1:
   base:
+    custom-maxsockets: 3.0
     revision-id: 1
     material: DIAMOND_BOOTS
     name: "&cGiày Phó Quản Ngục &e&lI"
@@ -4355,11 +4004,6 @@ BOOTS_PHO_QUAN_NGUC_1:
     armor-toughness: 2.2
     defense: 1.8
     movement-speed: 0.015
-    gem-sockets:
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -4369,6 +4013,7 @@ BOOTS_PHO_QUAN_NGUC_1:
 
 BOOTS_PHO_QUAN_NGUC_2:
   base:
+    custom-maxsockets: 3.0
     revision-id: 1
     material: DIAMOND_BOOTS
     name: "&cGiày Phó Quản Ngục &e&lII"
@@ -4385,11 +4030,6 @@ BOOTS_PHO_QUAN_NGUC_2:
     armor-toughness: 2.4
     defense: 2.0
     movement-speed: 0.016
-    gem-sockets:
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -4399,6 +4039,7 @@ BOOTS_PHO_QUAN_NGUC_2:
 
 BOOTS_PHO_QUAN_NGUC_3:
   base:
+    custom-maxsockets: 3.0
     revision-id: 1
     material: DIAMOND_BOOTS
     name: "&cGiày Phó Quản Ngục &e&lIII"
@@ -4415,11 +4056,6 @@ BOOTS_PHO_QUAN_NGUC_3:
     armor-toughness: 2.5
     defense: 2.1
     movement-speed: 0.017
-    gem-sockets:
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -4429,6 +4065,7 @@ BOOTS_PHO_QUAN_NGUC_3:
 
 BOOTS_PHO_QUAN_NGUC_4:
   base:
+    custom-maxsockets: 3.0
     revision-id: 1
     material: DIAMOND_BOOTS
     name: "&cGiày Phó Quản Ngục &e&lIV"
@@ -4445,11 +4082,6 @@ BOOTS_PHO_QUAN_NGUC_4:
     armor-toughness: 2.7
     defense: 2.3
     movement-speed: 0.018
-    gem-sockets:
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -4459,6 +4091,7 @@ BOOTS_PHO_QUAN_NGUC_4:
 
 BOOTS_PHO_QUAN_NGUC_5:
   base:
+    custom-maxsockets: 3.0
     revision-id: 1
     material: DIAMOND_BOOTS
     name: "&cGiày Phó Quản Ngục &e&lV"
@@ -4475,11 +4108,6 @@ BOOTS_PHO_QUAN_NGUC_5:
     armor-toughness: 2.8
     defense: 2.4
     movement-speed: 0.019
-    gem-sockets:
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -4489,6 +4117,7 @@ BOOTS_PHO_QUAN_NGUC_5:
 
 BOOTS_QUAN_NGUC_1:
   base:
+    custom-maxsockets: 3.0
     revision-id: 1
     material: NETHERITE_BOOTS
     name: "&dGiày Quản Ngục &e&lI"
@@ -4505,11 +4134,6 @@ BOOTS_QUAN_NGUC_1:
     armor-toughness: 3.2
     defense: 2.8
     movement-speed: 0.020
-    gem-sockets:
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -4519,6 +4143,7 @@ BOOTS_QUAN_NGUC_1:
 
 BOOTS_QUAN_NGUC_2:
   base:
+    custom-maxsockets: 3.0
     revision-id: 1
     material: NETHERITE_BOOTS
     name: "&dGiày Quản Ngục &e&lII"
@@ -4535,11 +4160,6 @@ BOOTS_QUAN_NGUC_2:
     armor-toughness: 3.4
     defense: 3.0
     movement-speed: 0.021
-    gem-sockets:
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -4549,6 +4169,7 @@ BOOTS_QUAN_NGUC_2:
 
 BOOTS_QUAN_NGUC_3:
   base:
+    custom-maxsockets: 3.0
     revision-id: 1
     material: NETHERITE_BOOTS
     name: "&dGiày Quản Ngục &e&lIII"
@@ -4565,11 +4186,6 @@ BOOTS_QUAN_NGUC_3:
     armor-toughness: 3.6
     defense: 3.2
     movement-speed: 0.022
-    gem-sockets:
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -4579,6 +4195,7 @@ BOOTS_QUAN_NGUC_3:
 
 BOOTS_QUAN_NGUC_4:
   base:
+    custom-maxsockets: 3.0
     revision-id: 1
     material: NETHERITE_BOOTS
     name: "&dGiày Quản Ngục &e&lIV"
@@ -4595,11 +4212,6 @@ BOOTS_QUAN_NGUC_4:
     armor-toughness: 3.8
     defense: 3.4
     movement-speed: 0.023
-    gem-sockets:
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -4609,6 +4221,7 @@ BOOTS_QUAN_NGUC_4:
 
 BOOTS_QUAN_NGUC_5:
   base:
+    custom-maxsockets: 3.0
     revision-id: 1
     material: NETHERITE_BOOTS
     name: "&dGiày Quản Ngục &e&lV"
@@ -4625,11 +4238,6 @@ BOOTS_QUAN_NGUC_5:
     armor-toughness: 4.0
     defense: 3.6
     movement-speed: 0.024
-    gem-sockets:
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -4639,6 +4247,7 @@ BOOTS_QUAN_NGUC_5:
 
 BOOTS_BA_CHU_NGUC_TU_1:
   base:
+    custom-maxsockets: 3.0
     revision-id: 1
     material: NETHERITE_BOOTS
     name: "&5Giày Bá Chủ Ngục Tù &e&lI"
@@ -4655,12 +4264,6 @@ BOOTS_BA_CHU_NGUC_TU_1:
     armor-toughness: 4.4
     defense: 4.0
     movement-speed: 0.025
-    gem-sockets:
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -4670,6 +4273,7 @@ BOOTS_BA_CHU_NGUC_TU_1:
 
 BOOTS_BA_CHU_NGUC_TU_2:
   base:
+    custom-maxsockets: 3.0
     revision-id: 1
     material: NETHERITE_BOOTS
     name: "&5Giày Bá Chủ Ngục Tù &e&lII"
@@ -4686,12 +4290,6 @@ BOOTS_BA_CHU_NGUC_TU_2:
     armor-toughness: 4.7
     defense: 4.3
     movement-speed: 0.026
-    gem-sockets:
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -4701,6 +4299,7 @@ BOOTS_BA_CHU_NGUC_TU_2:
 
 BOOTS_BA_CHU_NGUC_TU_3:
   base:
+    custom-maxsockets: 3.0
     revision-id: 1
     material: NETHERITE_BOOTS
     name: "&5Giày Bá Chủ Ngục Tù &e&lIII"
@@ -4717,12 +4316,6 @@ BOOTS_BA_CHU_NGUC_TU_3:
     armor-toughness: 4.9
     defense: 4.5
     movement-speed: 0.027
-    gem-sockets:
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -4732,6 +4325,7 @@ BOOTS_BA_CHU_NGUC_TU_3:
 
 BOOTS_BA_CHU_NGUC_TU_4:
   base:
+    custom-maxsockets: 3.0
     revision-id: 1
     material: NETHERITE_BOOTS
     name: "&5Giày Bá Chủ Ngục Tù &e&lIV"
@@ -4748,12 +4342,6 @@ BOOTS_BA_CHU_NGUC_TU_4:
     armor-toughness: 5.2
     defense: 4.8
     movement-speed: 0.028
-    gem-sockets:
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -4763,6 +4351,7 @@ BOOTS_BA_CHU_NGUC_TU_4:
 
 BOOTS_BA_CHU_NGUC_TU_5:
   base:
+    custom-maxsockets: 3.0
     revision-id: 1
     material: NETHERITE_BOOTS
     name: "&5Giày Bá Chủ Ngục Tù &e&lV"
@@ -4779,12 +4368,6 @@ BOOTS_BA_CHU_NGUC_TU_5:
     armor-toughness: 5.4
     defense: 5.0
     movement-speed: 0.029
-    gem-sockets:
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -4794,6 +4377,7 @@ BOOTS_BA_CHU_NGUC_TU_5:
 
 BOOTS_VUOT_NGUC_1:
   base:
+    custom-maxsockets: 3.0
     revision-id: 1
     material: NETHERITE_BOOTS
     name: "&4Giày Vượt Ngục &e&lI"
@@ -4810,12 +4394,6 @@ BOOTS_VUOT_NGUC_1:
     armor-toughness: 6.0
     defense: 5.6
     movement-speed: 0.030
-    gem-sockets:
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -4825,6 +4403,7 @@ BOOTS_VUOT_NGUC_1:
 
 BOOTS_VUOT_NGUC_2:
   base:
+    custom-maxsockets: 3.0
     revision-id: 1
     material: NETHERITE_BOOTS
     name: "&4Giày Vượt Ngục &e&lII"
@@ -4841,12 +4420,6 @@ BOOTS_VUOT_NGUC_2:
     armor-toughness: 6.3
     defense: 5.9
     movement-speed: 0.031
-    gem-sockets:
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -4856,6 +4429,7 @@ BOOTS_VUOT_NGUC_2:
 
 BOOTS_VUOT_NGUC_3:
   base:
+    custom-maxsockets: 3.0
     revision-id: 1
     material: NETHERITE_BOOTS
     name: "&4Giày Vượt Ngục &e&lIII"
@@ -4872,12 +4446,6 @@ BOOTS_VUOT_NGUC_3:
     armor-toughness: 6.6
     defense: 6.2
     movement-speed: 0.032
-    gem-sockets:
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -4887,6 +4455,7 @@ BOOTS_VUOT_NGUC_3:
 
 BOOTS_VUOT_NGUC_4:
   base:
+    custom-maxsockets: 3.0
     revision-id: 1
     material: NETHERITE_BOOTS
     name: "&4Giày Vượt Ngục &e&lIV"
@@ -4903,12 +4472,6 @@ BOOTS_VUOT_NGUC_4:
     armor-toughness: 6.9
     defense: 6.5
     movement-speed: 0.033
-    gem-sockets:
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -4918,6 +4481,7 @@ BOOTS_VUOT_NGUC_4:
 
 BOOTS_VUOT_NGUC_5:
   base:
+    custom-maxsockets: 3.0
     revision-id: 1
     material: NETHERITE_BOOTS
     name: "&4Giày Vượt Ngục &e&lV"
@@ -4934,12 +4498,6 @@ BOOTS_VUOT_NGUC_5:
     armor-toughness: 7.2
     defense: 6.8
     movement-speed: 0.034
-    gem-sockets:
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -4956,6 +4514,7 @@ BOOTS_VUOT_NGUC_5:
 DONATE_HELMET_LONG_VE:
   itemsadder-item: "littledragonset:littledragonhelmet"
   base:
+    custom-maxsockets: 3.0
     revision-id: 1
     material: LEATHER_HELMET
     custom-model-data: 10029
@@ -4975,12 +4534,6 @@ DONATE_HELMET_LONG_VE:
     max-health: 63.0
     armor-toughness: 13.0
     defense: 12.0
-    gem-sockets:
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -4991,6 +4544,7 @@ DONATE_HELMET_LONG_VE:
 DONATE_CHESTPLATE_LONG_VE:
   itemsadder-item: "littledragonset:littledragonchestplate"
   base:
+    custom-maxsockets: 3.0
     revision-id: 1
     material: LEATHER_CHESTPLATE
     custom-model-data: 10037
@@ -5010,12 +4564,6 @@ DONATE_CHESTPLATE_LONG_VE:
     max-health: 110.3
     armor-toughness: 22.8
     defense: 21.0
-    gem-sockets:
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -5026,6 +4574,7 @@ DONATE_CHESTPLATE_LONG_VE:
 DONATE_LEGGINGS_LONG_VE:
   itemsadder-item: "littledragonset:littledragonleggings"
   base:
+    custom-maxsockets: 3.0
     revision-id: 1
     material: LEATHER_LEGGINGS
     custom-model-data: 10037
@@ -5045,12 +4594,6 @@ DONATE_LEGGINGS_LONG_VE:
     max-health: 78.8
     armor-toughness: 16.3
     defense: 15.0
-    gem-sockets:
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -5061,6 +4604,7 @@ DONATE_LEGGINGS_LONG_VE:
 DONATE_BOOTS_LONG_VE:
   itemsadder-item: "littledragonset:littledragonboots"
   base:
+    custom-maxsockets: 3.0
     revision-id: 1
     material: LEATHER_BOOTS
     custom-model-data: 10037
@@ -5081,12 +4625,6 @@ DONATE_BOOTS_LONG_VE:
     armor-toughness: 13.0
     defense: 12.0
     movement-speed: 0.05
-    gem-sockets:
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -5099,6 +4637,7 @@ DONATE_BOOTS_LONG_VE:
 DONATE_HELMET_LONG_CHIEN:
   itemsadder-item: "spartan_set:spartanhelmet"
   base:
+    custom-maxsockets: 3.0
     revision-id: 1
     material: LEATHER_HELMET
     custom-model-data: 10012
@@ -5118,12 +4657,6 @@ DONATE_HELMET_LONG_CHIEN:
     max-health: 72.4
     armor-toughness: 15.4
     defense: 14.6
-    gem-sockets:
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -5134,6 +4667,7 @@ DONATE_HELMET_LONG_CHIEN:
 DONATE_CHESTPLATE_LONG_CHIEN:
   itemsadder-item: "spartan_set:spartanchestplate"
   base:
+    custom-maxsockets: 3.0
     revision-id: 1
     material: LEATHER_CHESTPLATE
     custom-model-data: 10016
@@ -5153,12 +4687,6 @@ DONATE_CHESTPLATE_LONG_CHIEN:
     max-health: 126.7
     armor-toughness: 26.9
     defense: 25.6
-    gem-sockets:
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -5169,6 +4697,7 @@ DONATE_CHESTPLATE_LONG_CHIEN:
 DONATE_LEGGINGS_LONG_CHIEN:
   itemsadder-item: "spartan_set:spartanleggings"
   base:
+    custom-maxsockets: 3.0
     revision-id: 1
     material: LEATHER_LEGGINGS
     custom-model-data: 10016
@@ -5188,12 +4717,6 @@ DONATE_LEGGINGS_LONG_CHIEN:
     max-health: 90.5
     armor-toughness: 19.3
     defense: 18.3
-    gem-sockets:
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -5204,6 +4727,7 @@ DONATE_LEGGINGS_LONG_CHIEN:
 DONATE_BOOTS_LONG_CHIEN:
   itemsadder-item: "spartan_set:spartanboots"
   base:
+    custom-maxsockets: 3.0
     revision-id: 1
     material: LEATHER_BOOTS
     custom-model-data: 10016
@@ -5224,12 +4748,6 @@ DONATE_BOOTS_LONG_CHIEN:
     armor-toughness: 15.4
     defense: 14.6
     movement-speed: 0.055
-    gem-sockets:
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -5242,6 +4760,7 @@ DONATE_BOOTS_LONG_CHIEN:
 DONATE_HELMET_LONG_THAN:
   itemsadder-item: "azureset:azurehelmet"
   base:
+    custom-maxsockets: 3.0
     revision-id: 1
     material: LEATHER_HELMET
     custom-model-data: 10018
@@ -5261,12 +4780,6 @@ DONATE_HELMET_LONG_THAN:
     max-health: 83.2
     armor-toughness: 18.1
     defense: 17.5
-    gem-sockets:
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -5277,6 +4790,7 @@ DONATE_HELMET_LONG_THAN:
 DONATE_CHESTPLATE_LONG_THAN:
   itemsadder-item: "azureset:azurechestplate"
   base:
+    custom-maxsockets: 3.0
     revision-id: 1
     material: LEATHER_CHESTPLATE
     custom-model-data: 10024
@@ -5296,12 +4810,6 @@ DONATE_CHESTPLATE_LONG_THAN:
     max-health: 145.7
     armor-toughness: 31.7
     defense: 30.6
-    gem-sockets:
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -5312,6 +4820,7 @@ DONATE_CHESTPLATE_LONG_THAN:
 DONATE_LEGGINGS_LONG_THAN:
   itemsadder-item: "azureset:azureleggings"
   base:
+    custom-maxsockets: 3.0
     revision-id: 1
     material: LEATHER_LEGGINGS
     custom-model-data: 10024
@@ -5331,12 +4840,6 @@ DONATE_LEGGINGS_LONG_THAN:
     max-health: 104.1
     armor-toughness: 22.6
     defense: 21.9
-    gem-sockets:
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -5347,6 +4850,7 @@ DONATE_LEGGINGS_LONG_THAN:
 DONATE_BOOTS_LONG_THAN:
   itemsadder-item: "azureset:azureboots"
   base:
+    custom-maxsockets: 3.0
     revision-id: 1
     material: LEATHER_BOOTS
     custom-model-data: 10024
@@ -5367,12 +4871,6 @@ DONATE_BOOTS_LONG_THAN:
     armor-toughness: 18.1
     defense: 17.5
     movement-speed: 0.06
-    gem-sockets:
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -5385,6 +4883,7 @@ DONATE_BOOTS_LONG_THAN:
 DONATE_HELMET_LONG_DE:
   itemsadder-item: "demon_edgeset:demon_edgehelmet"
   base:
+    custom-maxsockets: 3.0
     revision-id: 1
     material: LEATHER_HELMET
     custom-model-data: 10032
@@ -5404,12 +4903,6 @@ DONATE_HELMET_LONG_DE:
     max-health: 95.7
     armor-toughness: 21.2
     defense: 20.8
-    gem-sockets:
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -5420,6 +4913,7 @@ DONATE_HELMET_LONG_DE:
 DONATE_CHESTPLATE_LONG_DE:
   itemsadder-item: "demon_edgeset:demon_edgechestplate"
   base:
+    custom-maxsockets: 3.0
     revision-id: 1
     material: LEATHER_CHESTPLATE
     custom-model-data: 10040
@@ -5439,12 +4933,6 @@ DONATE_CHESTPLATE_LONG_DE:
     max-health: 167.5
     armor-toughness: 37.1
     defense: 36.4
-    gem-sockets:
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -5455,6 +4943,7 @@ DONATE_CHESTPLATE_LONG_DE:
 DONATE_LEGGINGS_LONG_DE:
   itemsadder-item: "demon_edgeset:demon_edgeleggings"
   base:
+    custom-maxsockets: 3.0
     revision-id: 1
     material: LEATHER_LEGGINGS
     custom-model-data: 10040
@@ -5474,12 +4963,6 @@ DONATE_LEGGINGS_LONG_DE:
     max-health: 119.6
     armor-toughness: 26.5
     defense: 26.0
-    gem-sockets:
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -5490,6 +4973,7 @@ DONATE_LEGGINGS_LONG_DE:
 DONATE_BOOTS_LONG_DE:
   itemsadder-item: "demon_edgeset:demon_edgeboots"
   base:
+    custom-maxsockets: 3.0
     revision-id: 1
     material: LEATHER_BOOTS
     custom-model-data: 10040
@@ -5510,12 +4994,6 @@ DONATE_BOOTS_LONG_DE:
     armor-toughness: 21.2
     defense: 20.8
     movement-speed: 0.065
-    gem-sockets:
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -5528,6 +5006,7 @@ DONATE_BOOTS_LONG_DE:
 DONATE_HELMET_LONG_HOANG:
   itemsadder-item: "lunarset:lunar_helmet"
   base:
+    custom-maxsockets: 3.0
     revision-id: 2
     material: PAPER
     custom-model-data: 10124
@@ -5547,12 +5026,6 @@ DONATE_HELMET_LONG_HOANG:
     max-health: 110.0
     armor-toughness: 24.8
     defense: 24.5
-    gem-sockets:
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -5563,6 +5036,7 @@ DONATE_HELMET_LONG_HOANG:
 DONATE_CHESTPLATE_LONG_HOANG:
   itemsadder-item: "lunarset:lunarchestplate"
   base:
+    custom-maxsockets: 3.0
     revision-id: 2
     material: LEATHER_CHESTPLATE
     custom-model-data: 10000
@@ -5582,12 +5056,6 @@ DONATE_CHESTPLATE_LONG_HOANG:
     max-health: 192.5
     armor-toughness: 43.4
     defense: 42.9
-    gem-sockets:
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -5598,6 +5066,7 @@ DONATE_CHESTPLATE_LONG_HOANG:
 DONATE_LEGGINGS_LONG_HOANG:
   itemsadder-item: "lunarset:lunarleggings"
   base:
+    custom-maxsockets: 3.0
     revision-id: 2
     material: LEATHER_LEGGINGS
     custom-model-data: 10000
@@ -5617,12 +5086,6 @@ DONATE_LEGGINGS_LONG_HOANG:
     max-health: 137.5
     armor-toughness: 31.0
     defense: 30.6
-    gem-sockets:
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -5633,6 +5096,7 @@ DONATE_LEGGINGS_LONG_HOANG:
 DONATE_BOOTS_LONG_HOANG:
   itemsadder-item: "lunarset:lunarboots"
   base:
+    custom-maxsockets: 3.0
     revision-id: 2
     material: LEATHER_BOOTS
     custom-model-data: 10000
@@ -5653,12 +5117,6 @@ DONATE_BOOTS_LONG_HOANG:
     armor-toughness: 24.8
     defense: 24.5
     movement-speed: 0.07
-    gem-sockets:
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -5675,6 +5133,7 @@ DONATE_BOOTS_LONG_HOANG:
 TRADE_HELMET_HOA_LONG:
   itemsadder-item: "firework_set:fireworkhelmet"
   base:
+    custom-maxsockets: 3.0
     revision-id: 1
     material: LEATHER_HELMET
     custom-model-data: 10015
@@ -5694,12 +5153,6 @@ TRADE_HELMET_HOA_LONG:
     max-health: 40.0
     armor-toughness: 8.4
     defense: 8.0
-    gem-sockets:
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -5710,6 +5163,7 @@ TRADE_HELMET_HOA_LONG:
 TRADE_CHESTPLATE_HOA_LONG:
   itemsadder-item: "firework_set:fireworkchestplate"
   base:
+    custom-maxsockets: 3.0
     revision-id: 1
     material: LEATHER_CHESTPLATE
     custom-model-data: 10020
@@ -5729,12 +5183,6 @@ TRADE_CHESTPLATE_HOA_LONG:
     max-health: 70.0
     armor-toughness: 14.7
     defense: 14.0
-    gem-sockets:
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -5745,6 +5193,7 @@ TRADE_CHESTPLATE_HOA_LONG:
 TRADE_LEGGINGS_HOA_LONG:
   itemsadder-item: "firework_set:fireworkleggings"
   base:
+    custom-maxsockets: 3.0
     revision-id: 1
     material: LEATHER_LEGGINGS
     custom-model-data: 10020
@@ -5764,12 +5213,6 @@ TRADE_LEGGINGS_HOA_LONG:
     max-health: 50.0
     armor-toughness: 10.5
     defense: 10.0
-    gem-sockets:
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -5780,6 +5223,7 @@ TRADE_LEGGINGS_HOA_LONG:
 TRADE_BOOTS_HOA_LONG:
   itemsadder-item: "firework_set:fireworkboots"
   base:
+    custom-maxsockets: 3.0
     revision-id: 1
     material: LEATHER_BOOTS
     custom-model-data: 10020
@@ -5800,12 +5244,6 @@ TRADE_BOOTS_HOA_LONG:
     armor-toughness: 8.4
     defense: 8.0
     movement-speed: 0.038
-    gem-sockets:
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -5818,6 +5256,7 @@ TRADE_BOOTS_HOA_LONG:
 TRADE_HELMET_BANG_LONG:
   itemsadder-item: "mysticcyanset:mysticcyanhelmet"
   base:
+    custom-maxsockets: 3.0
     revision-id: 1
     material: LEATHER_HELMET
     custom-model-data: 10020
@@ -5837,12 +5276,6 @@ TRADE_HELMET_BANG_LONG:
     max-health: 46.4
     armor-toughness: 9.8
     defense: 9.2
-    gem-sockets:
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -5853,6 +5286,7 @@ TRADE_HELMET_BANG_LONG:
 TRADE_CHESTPLATE_BANG_LONG:
   itemsadder-item: "mysticcyanset:mysticcyanchestplate"
   base:
+    custom-maxsockets: 3.0
     revision-id: 1
     material: LEATHER_CHESTPLATE
     custom-model-data: 10027
@@ -5872,12 +5306,6 @@ TRADE_CHESTPLATE_BANG_LONG:
     max-health: 81.2
     armor-toughness: 17.2
     defense: 16.1
-    gem-sockets:
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -5888,6 +5316,7 @@ TRADE_CHESTPLATE_BANG_LONG:
 TRADE_LEGGINGS_BANG_LONG:
   itemsadder-item: "mysticcyanset:mysticcyanleggings"
   base:
+    custom-maxsockets: 3.0
     revision-id: 1
     material: LEATHER_LEGGINGS
     custom-model-data: 10027
@@ -5907,12 +5336,6 @@ TRADE_LEGGINGS_BANG_LONG:
     max-health: 58.0
     armor-toughness: 12.2
     defense: 11.5
-    gem-sockets:
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -5923,6 +5346,7 @@ TRADE_LEGGINGS_BANG_LONG:
 TRADE_BOOTS_BANG_LONG:
   itemsadder-item: "mysticcyanset:mysticcyanboots"
   base:
+    custom-maxsockets: 3.0
     revision-id: 1
     material: LEATHER_BOOTS
     custom-model-data: 10027
@@ -5943,12 +5367,6 @@ TRADE_BOOTS_BANG_LONG:
     armor-toughness: 9.8
     defense: 9.2
     movement-speed: 0.042
-    gem-sockets:
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -5961,6 +5379,7 @@ TRADE_BOOTS_BANG_LONG:
 TRADE_HELMET_LOI_LONG:
   itemsadder-item: "elitecreatures:king_arthur_animated_weapon_set_helmet"
   base:
+    custom-maxsockets: 3.0
     revision-id: 1
     material: PAPER
     custom-model-data: 10353
@@ -5980,12 +5399,6 @@ TRADE_HELMET_LOI_LONG:
     max-health: 72.4
     armor-toughness: 15.4
     defense: 14.6
-    gem-sockets:
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -5996,6 +5409,7 @@ TRADE_HELMET_LOI_LONG:
 TRADE_CHESTPLATE_LOI_LONG:
   itemsadder-item: "elitecreatures:king_arthur_animated_weapon_set_chestplate"
   base:
+    custom-maxsockets: 3.0
     revision-id: 1
     material: LEATHER_CHESTPLATE
     custom-model-data: 10031
@@ -6015,12 +5429,6 @@ TRADE_CHESTPLATE_LOI_LONG:
     max-health: 126.7
     armor-toughness: 26.9
     defense: 25.6
-    gem-sockets:
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -6031,6 +5439,7 @@ TRADE_CHESTPLATE_LOI_LONG:
 TRADE_LEGGINGS_LOI_LONG:
   itemsadder-item: "elitecreatures:king_arthur_animated_weapon_set_leggings"
   base:
+    custom-maxsockets: 3.0
     revision-id: 1
     material: LEATHER_LEGGINGS
     custom-model-data: 10031
@@ -6050,12 +5459,6 @@ TRADE_LEGGINGS_LOI_LONG:
     max-health: 90.5
     armor-toughness: 19.3
     defense: 18.3
-    gem-sockets:
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -6066,6 +5469,7 @@ TRADE_LEGGINGS_LOI_LONG:
 TRADE_BOOTS_LOI_LONG:
   itemsadder-item: "elitecreatures:king_arthur_animated_weapon_set_boots"
   base:
+    custom-maxsockets: 3.0
     revision-id: 1
     material: LEATHER_BOOTS
     custom-model-data: 10031
@@ -6086,12 +5490,6 @@ TRADE_BOOTS_LOI_LONG:
     armor-toughness: 15.4
     defense: 14.6
     movement-speed: 0.055
-    gem-sockets:
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -6104,6 +5502,7 @@ TRADE_BOOTS_LOI_LONG:
 TRADE_HELMET_PHONG_LONG:
   itemsadder-item: "nanoedge_set:nanoedgehelmet"
   base:
+    custom-maxsockets: 3.0
     revision-id: 1
     material: LEATHER_HELMET
     custom-model-data: 10016
@@ -6123,12 +5522,6 @@ TRADE_HELMET_PHONG_LONG:
     max-health: 62.4
     armor-toughness: 13.2
     defense: 12.6
-    gem-sockets:
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -6139,6 +5532,7 @@ TRADE_HELMET_PHONG_LONG:
 TRADE_CHESTPLATE_PHONG_LONG:
   itemsadder-item: "nanoedge_set:nanoedgechestplate"
   base:
+    custom-maxsockets: 3.0
     revision-id: 1
     material: LEATHER_CHESTPLATE
     custom-model-data: 10021
@@ -6158,12 +5552,6 @@ TRADE_CHESTPLATE_PHONG_LONG:
     max-health: 109.2
     armor-toughness: 23.1
     defense: 22.1
-    gem-sockets:
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -6174,6 +5562,7 @@ TRADE_CHESTPLATE_PHONG_LONG:
 TRADE_LEGGINGS_PHONG_LONG:
   itemsadder-item: "nanoedge_set:nanoedgeleggings"
   base:
+    custom-maxsockets: 3.0
     revision-id: 1
     material: LEATHER_LEGGINGS
     custom-model-data: 10021
@@ -6193,12 +5582,6 @@ TRADE_LEGGINGS_PHONG_LONG:
     max-health: 78.0
     armor-toughness: 16.5
     defense: 15.8
-    gem-sockets:
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -6209,6 +5592,7 @@ TRADE_LEGGINGS_PHONG_LONG:
 TRADE_BOOTS_PHONG_LONG:
   itemsadder-item: "nanoedge_set:nanoedgeboots"
   base:
+    custom-maxsockets: 3.0
     revision-id: 1
     material: LEATHER_BOOTS
     custom-model-data: 10021
@@ -6229,12 +5613,6 @@ TRADE_BOOTS_PHONG_LONG:
     armor-toughness: 13.2
     defense: 12.6
     movement-speed: 0.050
-    gem-sockets:
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -6247,6 +5625,7 @@ TRADE_BOOTS_PHONG_LONG:
 TRADE_HELMET_HAC_LONG:
   itemsadder-item: "obsidianset:co_helmet"
   base:
+    custom-maxsockets: 3.0
     revision-id: 1
     material: LEATHER_HELMET
     custom-model-data: 10002
@@ -6266,12 +5645,6 @@ TRADE_HELMET_HAC_LONG:
     max-health: 53.8
     armor-toughness: 11.4
     defense: 10.8
-    gem-sockets:
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -6282,6 +5655,7 @@ TRADE_HELMET_HAC_LONG:
 TRADE_CHESTPLATE_HAC_LONG:
   itemsadder-item: "obsidianset:co_chestplate"
   base:
+    custom-maxsockets: 3.0
     revision-id: 1
     material: LEATHER_CHESTPLATE
     custom-model-data: 10004
@@ -6301,12 +5675,6 @@ TRADE_CHESTPLATE_HAC_LONG:
     max-health: 94.2
     armor-toughness: 19.9
     defense: 18.9
-    gem-sockets:
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -6317,6 +5685,7 @@ TRADE_CHESTPLATE_HAC_LONG:
 TRADE_LEGGINGS_HAC_LONG:
   itemsadder-item: "obsidianset:co_leggings"
   base:
+    custom-maxsockets: 3.0
     revision-id: 1
     material: LEATHER_LEGGINGS
     custom-model-data: 10004
@@ -6336,12 +5705,6 @@ TRADE_LEGGINGS_HAC_LONG:
     max-health: 67.3
     armor-toughness: 14.3
     defense: 13.5
-    gem-sockets:
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -6352,6 +5715,7 @@ TRADE_LEGGINGS_HAC_LONG:
 TRADE_BOOTS_HAC_LONG:
   itemsadder-item: "obsidianset:co_boots"
   base:
+    custom-maxsockets: 3.0
     revision-id: 1
     material: LEATHER_BOOTS
     custom-model-data: 10004
@@ -6372,11 +5736,6 @@ TRADE_BOOTS_HAC_LONG:
     armor-toughness: 11.4
     defense: 10.8
     movement-speed: 0.046
-    gem-sockets:
-      - Uncolored
-      - Uncolored
-      - Uncolored
-      - Uncolored
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template

@@ -28,3 +28,9 @@ custom-stats:
   4:
     name: "MiningUnbreaking"
     type: "double"
+  5:
+    name: "MaxSockets"
+    type: "double"
+
+
+
