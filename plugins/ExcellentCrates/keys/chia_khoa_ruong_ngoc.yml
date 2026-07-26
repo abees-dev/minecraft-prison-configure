@@ -1,0 +1,14 @@
+Name: '&e&lChìa Khóa Rương Ngọc'
+Virtual: false
+Item:
+  Material: TRIPWIRE_HOOK
+  Name: '&e&lChìa Khóa Rương Ngọc'
+  Lore:
+  - '&7Dùng để mở &e&lHòm Rương Ngọc&7.'
+  - '&7Quay ngẫu nhiên 1 trong 10 loại &dHòm Ngọc&7 với tỷ lệ bằng nhau.'
+  - ''
+  - '&e▸ Nhấp vào Hòm Rương Ngọc để quay!'
+  Enchantments:
+    DURABILITY: 1
+  Item_Flags:
+  - HIDE_ENCHANTS

@@ -1,9 +1,14 @@
 const fs = require('fs');
 const path = require('path');
 
-const cratesDir = path.join(__dirname, 'crates');
+const cratesDir = path.join(__dirname, '..', 'crates');
 if (!fs.existsSync(cratesDir)) {
   fs.mkdirSync(cratesDir, { recursive: true });
+}
+
+const keysDir = path.join(__dirname, '..', 'keys');
+if (!fs.existsSync(keysDir)) {
+  fs.mkdirSync(keysDir, { recursive: true });
 }
 
 const romanMap = ["I", "II", "III", "IV", "V", "VI", "VII", "VIII", "IX", "X"];
@@ -163,6 +168,7 @@ gemTypes.forEach((gt) => {
           Amount: -1
           Cooldown: 0
           CooldownStep: 1
+      Items: []
 ${commandsBlock}
       Ignored_For_Permissions: []
 `;
@@ -218,7 +224,7 @@ ${rewardsStr}Item:
 `;
 
   fs.writeFileSync(path.join(cratesDir, gt.file), content, 'utf8');
-  console.log(`✅ Created crate: ${gt.file}`);
+  console.log(`✅ Restored crate: ${gt.file}`);
 });
 
 // 2. Generate Master Gem Crate (Hòm Đá Quý Tổng Hợp)
@@ -228,13 +234,14 @@ gemTypes.forEach((gt) => {
     const roman = romanMap[lw.lv - 1];
     const rewardKey = `${gt.prefix.toLowerCase()}_lv_${lw.lv}`;
     const gemId = `${gt.prefix}_LV${lw.lv}`;
-    const weight = (lw.weight / 10).toFixed(2); // Distributed weight among 10 gem types
+    const weight = (lw.weight / 10).toFixed(2);
 
     let commandsBlock = `      Commands:
       - '[CONSOLE] mmoitems give GEM_STONE ${gemId} %player_name% 1'`;
 
     if (lw.broadcast) {
       commandsBlock += `
+      - '[CONSOLE] broadcast &d&lCRATES &8» &fChúc mừng &b%player_name% &fvừa mở &eHòm ${gt.name} &fnhận được ${gt.color}${gt.name} &e&lLv.${roman}&f!'
       - '[CONSOLE] execute as %player_name% at @s run playsound ui.toast.challenge_complete master @s ~ ~ ~ 1 1'
       - '[CONSOLE] execute as %player_name% at @s run summon firework_rocket ~ ~ ~ {LifeTime:5,Motion:[0.0,1.2,0.0],FireworksItem:{id:"minecraft:firework_rocket",Count:1,tag:{Fireworks:{Explosions:[{Type:1,Colors:[I;16711680,16776960],FadeColors:[I;255]}]}}}}'`;
     } else {
@@ -259,6 +266,7 @@ gemTypes.forEach((gt) => {
           Amount: -1
           Cooldown: 0
           CooldownStep: 1
+      Items: []
 ${commandsBlock}
       Ignored_For_Permissions: []
 `;
@@ -298,7 +306,7 @@ ${masterRewardsStr}Item:
   - ''
   - '&e&l★ PHẦN THƯỞNG NỔI BẬT:'
   - ' &f▪ &dĐá Quý &e&lLv.X &7(Các loại): &c&l0.1%'
-  - ' &f▪ &dĐá Quý &e&lLv.IX &7(Các loại): &c&l0.3%'
+  - ' &f▪ &dĐá Quý &e&lLv.IX &7(Các loại): &c&l0.8%'
   - ' &f▪ &dĐá Quý &e&lLv.VIII &7(Các loại): &c&l0.8%'
   - ' &f▪ &dĐá Quý &7(Lv.I - Lv.VII): &a&l98.8%'
   - ''
@@ -315,4 +323,108 @@ ${masterRewardsStr}Item:
 `;
 
 fs.writeFileSync(path.join(cratesDir, 'ruong_da_quy_tong_hop.yml'), masterContent, 'utf8');
-console.log('✅ Created master crate: ruong_da_quy_tong_hop.yml');
+console.log('✅ Restored master crate: ruong_da_quy_tong_hop.yml');
+
+// 3. Generate Key Configuration (chia_khoa_ruong_ngoc.yml)
+const keyContent = `Name: '&e&lChìa Khóa Rương Ngọc'
+Virtual: false
+Item:
+  Material: TRIPWIRE_HOOK
+  Name: '&e&lChìa Khóa Rương Ngọc'
+  Lore:
+  - '&7Dùng để mở &e&lHòm Rương Ngọc&7.'
+  - '&7Quay ngẫu nhiên 1 trong 10 loại &dHòm Ngọc&7 với tỷ lệ bằng nhau.'
+  - ''
+  - '&e▸ Nhấp vào Hòm Rương Ngọc để quay!'
+  Enchantments:
+    DURABILITY: 1
+  Item_Flags:
+  - HIDE_ENCHANTS
+`;
+
+fs.writeFileSync(path.join(keysDir, 'chia_khoa_ruong_ngoc.yml'), keyContent, 'utf8');
+console.log('✅ Restored key config: chia_khoa_ruong_ngoc.yml');
+
+// 4. Generate Crate Spinner (ruong_quay_ngoc.yml)
+let spinnerRewardsStr = "";
+let spinnerLoreStr = "";
+
+gemTypes.forEach((gt) => {
+  const crateId = gt.file.replace('.yml', '');
+  const rewardKey = `${gt.prefix.toLowerCase()}_crate`;
+
+  spinnerRewardsStr += `    ${rewardKey}:
+      Name: '${gt.color}Hòm ${gt.name}'
+      Weight: 10.0
+      Rarity: common
+      Broadcast: false
+      Placeholder_Apply: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Items: []
+      Commands:
+      - '[CONSOLE] crates give %player_name% ${crateId} 1'
+      - '[CONSOLE] execute as %player_name% at @s run playsound entity.experience_orb.pickup master @s ~ ~ ~ 1 1.2'
+      Ignored_For_Permissions: []
+`;
+
+  spinnerLoreStr += `  - ' &f▪ ${gt.color}Hòm ${gt.name}&7: &a&l10%'\n`;
+});
+
+const spinnerCrateContent = `Name: '&e&lHòm Rương Ngọc'
+Preview_Config: default
+Permission_Required: false
+Opening:
+  Cooldown: 0
+Key:
+  Required: true
+  Ids:
+  - chia_khoa_ruong_ngoc
+Block:
+  Positions: []
+  Pushback:
+    Enabled: true
+  Hologram:
+    Enabled: true
+    Template: default
+    Y_Offset: 0.0
+  Effect:
+    Model: HELIX
+    Particle:
+      Name: ENCHANTMENT_TABLE
+Milestones:
+  Repeatable: false
+Rewards:
+  List:
+${spinnerRewardsStr}Item:
+  Material: CHEST
+  Name: '&e&lHòm Rương Ngọc'
+  Lore:
+  - '&7Sử dụng &e&lChìa Khóa Rương Ngọc &7để quay.'
+  - '&7Quay ngẫu nhiên 1 trong 10 loại &dHòm Ngọc &7(tỷ lệ bằng nhau):'
+  - ''
+  - '&e&l★ DANH SÁCH HÒM NGỌC (10% Mỗi loại):'
+${spinnerLoreStr}  - ''
+  - '&e▸ Yêu cầu Chìa Khóa Rương Ngọc để mở.'
+  Item_Flags:
+  - HIDE_ENCHANTS
+  - HIDE_ATTRIBUTES
+  - HIDE_UNBREAKABLE
+  - HIDE_DESTROYS
+  - HIDE_PLACED_ON
+  - HIDE_POTION_EFFECTS
+  - HIDE_DYE
+  - HIDE_ARMOR_TRIM
+`;
+
+fs.writeFileSync(path.join(cratesDir, 'ruong_quay_ngoc.yml'), spinnerCrateContent, 'utf8');
+console.log('✅ Restored spinner crate: ruong_quay_ngoc.yml');
