@@ -4,4 +4,6 @@ aliases:
   icanhasbukkit:
   - version $1-
   sell:
-  - economyshopgui:sellall $1-
+  - sellgui
+  sellall:
+  - sellgui

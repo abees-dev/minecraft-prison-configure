@@ -8,7 +8,7 @@
   "increaseCostBy": "baseCost * pow(1.05, level)",
   "maxLevel": 1000,
   "initialCost": 500,
-  "countBlocksBroken": false,
+  "countBlocksBroken": true,
   "currency": "GEMS",
   "useEvents": true,
   "sounds": true,

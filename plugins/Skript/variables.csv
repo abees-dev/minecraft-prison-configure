@@ -3,8 +3,10 @@
 #
 # version: 2.10.2
 
+clearlag::timer, long, 0000000000000004
 mavuong_altar_cooldown, date, 810974696D657374616D70040000019F9963E87D
 mavuong_altar_cooldown_left, long, 0000000000000000
+mine_limit::warn_cooldown::57481db9-38f7-3a96-b52d-ff0f7993c232, date, 810974696D657374616D70040000019F9DE54ADC
 pickaxe_cost::pickaxe_ba_chu_nguc_tu_1, long, 0000000000015F90
 pickaxe_cost::pickaxe_ba_chu_nguc_tu_2, long, 0000000000023280
 pickaxe_cost::pickaxe_ba_chu_nguc_tu_3, long, 0000000000034BC0

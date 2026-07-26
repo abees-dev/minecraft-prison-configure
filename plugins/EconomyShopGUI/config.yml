@@ -274,7 +274,7 @@ log-player-transactions: true
 
 # This option sends an on-screen title to the player with the price of the items being bought/sold
 # When this setting is enabled, it will only show when items get sold either thru /sellgui, /sellall commands or when the item has the 'close-menu' item option enabled
-on-screen-title: true
+on-screen-title: false
 
 # Should we drop the remaining items on the ground when the players inventory is full?
 drop-remaining-items-on-ground: false
@@ -561,12 +561,17 @@ sellgui-nav-bar:
       name: ' '
     5:
       material: NETHER_STAR
-      name: '&a&lSellGUI'
+      name: '&6❖ &e&lGIAO DIỆN BÁN ĐỒ (SELLGUI) &6❖'
       lore:
-      - '&6Drop items in to sell'
-      - '&6upon closing, everything will be sold.'
-      - '&eItems that couldn''t be sold'
-      - '&ewill be given back to you.'
+      - '&7&m----------------------------------------'
+      - '&e➤ Kéo & thả khoáng sản / vật phẩm vào đây để bán.'
+      - '&e➤ Khi đóng Menu, toàn bộ quặng sẽ được tự động bán.'
+      - ''
+      - '&a➤ Giá bán đã tự động áp dụng hệ số nhân Multipliers'
+      - '  &atheo Rank hiện tại của bạn (lên tới +200%).'
+      - ''
+      - '&c❖ Những vật phẩm không bán được sẽ được trả lại vào túi.'
+      - '&7&m----------------------------------------'
     6:
       material: GRAY_STAINED_GLASS_PANE
       name: ' '
@@ -1195,21 +1200,28 @@ discounts:
 #--------------------------------------------SellMultipliers--------------------------------------------
 
 # Enable or disable sell multipliers
-enable-sell-multipliers: false
+enable-sell-multipliers: true
 
 # Configure this option to use sell multipliers
 # Every entry is a shop section that holds the permission nodes with its multipliers
 sell-multipliers:
   all:
+    xprison_rank_1: 0
+    xprison_rank_2: 5
+    xprison_rank_3: 10
+    xprison_rank_4: 15
+    xprison_rank_5: 20
+    xprison_rank_6: 30
+    xprison_rank_7: 40
+    xprison_rank_8: 50
+    xprison_rank_9: 60
     # Players with the permission 'EconomyShopGUI.sell-multipliers.vip' will get an 20% multiplier on any item
-    vip: 20
-    # Players with the permission 'EconomyShopGUI.sell-multipliers.gold' will get an 2.5% multiplier on any item
-    gold: 2.5
-    # Players with the permission 'EconomyShopGUI.sell-multipliers.coal' will get an 1% multiplier on any item
-    coal: 1
-  Spawners:
-    # Players with the permission 'EconomyShopGUI.sell-multipliers.gold' will get an extra 10% multiplier in this section
-    gold: 12.5
+    vip: 75
+    vipplus: 90
+    mvp: 110
+    mvpplus: 135
+    elite: 165
+    legend: 200
 # If a player has for example access to 2 sell multipliers inside the same shop section, the multiplier with the highest value will be active
 
 
@@ -1224,7 +1236,7 @@ override-sell-command: true
 
 # This setting will enable the use of the old /sellall command
 # Meaning that if the below setting is set to true, players can use '/sellall' without a subcommand to sell the whole inventory instead of '/sellall inventory'
-old-sellall-command: false
+old-sellall-command: true
 # This setting is set to false by default because it may confuse players with the /sell command from essentials, ending in them accidentally selling their whole inventory
 
 # These are the commands included in EconomyShopGUI
@@ -1232,7 +1244,7 @@ old-sellall-command: false
 commands:
 
   # SellAll command lets you sell all items inside your inventory that are listed in the shop, or you can sell a specific item.
-  sellall: true
+  sellall: false
 
   # The shop command opens the main shop.
   shop: true
@@ -1247,7 +1259,7 @@ commands:
   sellgui: true
 
   # Allows to give shop items to certain players or yourself
-  shopgive: true
+  shopgive: false
 
 # Set different aliases for the main shop command, defaults to /shop if empty
 # Do not use a slash('/') before the command name or it will not work
@@ -1256,12 +1268,13 @@ shop-commands:
 - 'market'
 
 # Set different aliases for the sellall command, defaults to /sellall if empty
-sellall-commands:
-- 'sellall'
+sellall-commands: []
 
 # Set different aliases for the sellgui command, defaults to /sellgui if empty
 sellgui-commands:
 - 'sellgui'
+- 'sell'
+- 'sellall'
 
 
 #-------------------------------------------DisableBackButton-------------------------------------------

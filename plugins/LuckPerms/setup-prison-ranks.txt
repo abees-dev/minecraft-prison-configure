@@ -59,3 +59,14 @@ lp group xprison_rank_9 setweight 9
 #        không có group nào sau khi tạo xong) -------------------------------
 # Chạy lệnh này cho từng player đang online, hoặc dùng /resetrank <player> all
 # (đã có sẵn trong plugins/Skript/scripts/admin/reset_rank.sk) để gán lại.
+
+# --- 5. Gán permission sell-multiplier EconomyShopGUI cho từng rank -----------
+lp group xprison_rank_1 permission set EconomyShopGUI.sell-multipliers.xprison_rank_1 true
+lp group xprison_rank_2 permission set EconomyShopGUI.sell-multipliers.xprison_rank_2 true
+lp group xprison_rank_3 permission set EconomyShopGUI.sell-multipliers.xprison_rank_3 true
+lp group xprison_rank_4 permission set EconomyShopGUI.sell-multipliers.xprison_rank_4 true
+lp group xprison_rank_5 permission set EconomyShopGUI.sell-multipliers.xprison_rank_5 true
+lp group xprison_rank_6 permission set EconomyShopGUI.sell-multipliers.xprison_rank_6 true
+lp group xprison_rank_7 permission set EconomyShopGUI.sell-multipliers.xprison_rank_7 true
+lp group xprison_rank_8 permission set EconomyShopGUI.sell-multipliers.xprison_rank_8 true
+lp group xprison_rank_9 permission set EconomyShopGUI.sell-multipliers.xprison_rank_9 true

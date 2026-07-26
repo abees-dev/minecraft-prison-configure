@@ -10,7 +10,7 @@
   "chance": 0.001,
   "currency": "GEMS",
   "initialCost": 5000,
-  "countBlocksBroken": false,
+  "countBlocksBroken": true,
   "explosionType": "SPHERE",
   "currencyToGive": "MONEY",
   "radius": "2 + (level * 0.008)",

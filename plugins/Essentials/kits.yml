@@ -1,19 +1,11 @@
 # EssentialsX kit configuration.
-# If you don't have any kits defined in this file, the plugin will try to copy them from the config.yml
+# Tất cả Kit VIP & Rank 9 đã được chuyển hoàn toàn sang sử dụng MMOItems cao cấp:
+# - Đá Cường Hóa Vũ Khí & Giáp (Sơ cấp -> Thần cấp)
+# - Đá Đục Lỗ (DA_DUC_LO_1 -> DA_DUC_LO_THIEN_MENH)
+# - Item Triệu Hồi Boss Ngục Tù (Mảnh Huy Hiệu, Huy Hiệu Triệu Hồi Boss, Tinh Thể Hủy Diệt)
+# - Quặng Tinh Luyện & Đại Tinh Luyện Trade Đồ Prison (NEN_DOI_X, NEN_BA_VUOT_NGUC)
+# - Tiền Money thưởng trực tiếp qua Vault (/eco give)
 
-# Note: All items MUST be followed by a quantity!
-# All kit names should be lower case, and will be treated as lower in permissions/costs.
-# Syntax: - name[:durability] amount [enchantment:level]... [itemmeta:value]...
-# For Item Meta information visit http://wiki.ess3.net/wiki/Item_Meta
-# To make the kit execute a command, add /<command> to the items list. Use {USERNAME} to specify the player receiving the kit.
-# {PLAYER} will show the player's displayname instead of username.
-# 'delay' refers to the cooldown between how often you can use each kit, measured in seconds.
-# Set delay to -1 for a one time kit.
-#
-# In addition, you can also organize your kits into separate files under the `kits` subdirectory.
-# Essentials will treat all .yml files in the `kits` subdirectory as kits files, and will add any kits from those files along with the kits in `kits.yml`.
-# Any file in the `kits` subdirectory must be formatted in the same way as this file. This allows you to define multiple kits in each file.
-# For more information, visit http://wiki.ess3.net/wiki/Kits
 kits:
   tools:
     delay: 10
@@ -44,44 +36,80 @@ kits:
       - fireworkrocket 1 name:Angry_Creeper color:red fade:green type:creeper power:1
       - fireworkrocket 1 name:Starry_Night color:yellow,orange fade:blue type:star effect:trail,twinkle power:1
       - fireworkrocket 2 name:Solar_Wind color:yellow,orange fade:red shape:large effect:twinkle color:yellow,orange fade:red shape:ball effect:trail color:red,purple fade:pink shape:star effect:trail power:1
-  # --- VIP donor rank kits (require essentials.kits.<name>, granted via the
-  # LuckPerms vip/vipplus/mvp/mvpplus/elite/legend groups - see
-  # plugins/LuckPerms/setup-vip-ranks.txt) ---
+
+  # =============================================================================
+  # VIP DONOR RANK KITS (MMOITEMS ONLY - KHÔNG ĐỒ VANILLA)
+  # =============================================================================
   vip:
     delay: 86400
     items:
-      - diamond 5
-      - goldingot 10
-      - /eco give {USERNAME} 50000
+      - /eco give {USERNAME} 100000
+      - /mmoitems give MATERIAL DA_CUONG_HOA_VU_KHI_SO_CAP {USERNAME} 5
+      - /mmoitems give MATERIAL DA_CUONG_HOA_GIAP_SO_CAP {USERNAME} 5
+      - /mmoitems give MATERIAL DA_DUC_LO_1 {USERNAME} 2
+      - /mmoitems give MATERIAL NEN_DOI_DOI_TRUONG {USERNAME} 10
+
   vipplus:
     delay: 86400
     items:
-      - diamond 10
-      - emerald 5
-      - /eco give {USERNAME} 100000
+      - /eco give {USERNAME} 250000
+      - /mmoitems give MATERIAL DA_CUONG_HOA_VU_KHI_TRUNG_CAP {USERNAME} 5
+      - /mmoitems give MATERIAL DA_CUONG_HOA_GIAP_TRUNG_CAP {USERNAME} 5
+      - /mmoitems give MATERIAL DA_DUC_LO_2 {USERNAME} 2
+      - /mmoitems give MATERIAL MANH_HUY_HIEU_TRIEU_HOI {USERNAME} 3
+      - /mmoitems give MATERIAL NEN_DOI_PHO_QUAN_NGUC {USERNAME} 15
+
   mvp:
     delay: 86400
     items:
-      - diamond 16
-      - emerald 8
-      - /eco give {USERNAME} 200000
+      - /eco give {USERNAME} 500000
+      - /mmoitems give MATERIAL DA_CUONG_HOA_VU_KHI_CAO_CAP {USERNAME} 8
+      - /mmoitems give MATERIAL DA_CUONG_HOA_GIAP_CAO_CAP {USERNAME} 8
+      - /mmoitems give MATERIAL DA_DUC_LO_3 {USERNAME} 3
+      - /mmoitems give MATERIAL HUY_HIEU_TRIEU_HOI {USERNAME} 1
+      - /mmoitems give MATERIAL NEN_DOI_QUAN_NGUC {USERNAME} 20
+
   mvpplus:
     delay: 86400
     items:
-      - diamondblock 2
-      - emerald 16
-      - /eco give {USERNAME} 400000
+      - /eco give {USERNAME} 1000000
+      - /mmoitems give MATERIAL DA_CUONG_HOA_VU_KHI_SIEU_CAP {USERNAME} 10
+      - /mmoitems give MATERIAL DA_CUONG_HOA_GIAP_SIEU_CAP {USERNAME} 10
+      - /mmoitems give MATERIAL DA_DUC_LO_4 {USERNAME} 4
+      - /mmoitems give MATERIAL HUY_HIEU_TRIEU_HOI {USERNAME} 2
+      - /mmoitems give MATERIAL NEN_DOI_BA_CHU_NGUC_TU {USERNAME} 25
+
   elite:
     delay: 86400
     items:
-      - diamondblock 4
-      - emeraldblock 2
-      - /eco give {USERNAME} 800000
+      - /eco give {USERNAME} 2500000
+      - /mmoitems give MATERIAL DA_CUONG_HOA_VU_KHI_THAN_CAP {USERNAME} 12
+      - /mmoitems give MATERIAL DA_CUONG_HOA_GIAP_THAN_CAP {USERNAME} 12
+      - /mmoitems give MATERIAL DA_DUC_LO_6 {USERNAME} 5
+      - /mmoitems give MATERIAL HUY_HIEU_TRIEU_HOI {USERNAME} 3
+      - /mmoitems give MATERIAL TINHTHE_HUY_DIET {USERNAME} 5
+      - /mmoitems give MATERIAL NEN_DOI_VUOT_NGUC {USERNAME} 30
+
   legend:
     delay: 86400
     items:
-      - diamondblock 8
-      - emeraldblock 4
-      - netheritescrap 2
-      - /eco give {USERNAME} 1600000
-      - /broadcast &6&l[LEGEND] &f{USERNAME} &7just claimed their Legend kit!
+      - /eco give {USERNAME} 5000000
+      - /mmoitems give MATERIAL DA_CUONG_HOA_VU_KHI_THAN_CAP {USERNAME} 20
+      - /mmoitems give MATERIAL DA_CUONG_HOA_GIAP_THAN_CAP {USERNAME} 20
+      - /mmoitems give MATERIAL DA_DUC_LO_THIEN_MENH {USERNAME} 5
+      - /mmoitems give MATERIAL HUY_HIEU_TRIEU_HOI {USERNAME} 5
+      - /mmoitems give MATERIAL TINHTHE_HUY_DIET {USERNAME} 10
+      - /mmoitems give MATERIAL NEN_BA_VUOT_NGUC {USERNAME} 20
+      - /broadcast &6&l[LEGEND] &f{USERNAME} &7vừa nhận Kit Thượng Thừa Legend chứa Đá Cường Hóa & Item Trade Thần Cấp!
+
+  # =============================================================================
+  # PRISON MAX RANK KIT (RANK 9 - VƯỢT NGỤC)
+  # =============================================================================
+  rank9:
+    delay: 86400
+    items:
+      - /eco give {USERNAME} 1000000
+      - /mmoitems give MATERIAL DA_NANG_CAP_VUOT_NGUC {USERNAME} 10
+      - /mmoitems give MATERIAL DA_DUC_LO_5 {USERNAME} 3
+      - /mmoitems give MATERIAL NEN_DOI_VUOT_NGUC {USERNAME} 20
+      - /mmoitems give MATERIAL MANH_HUY_HIEU_TRIEU_HOI {USERNAME} 5

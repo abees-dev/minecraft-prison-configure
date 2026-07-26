@@ -44,7 +44,7 @@ mysql:
   port: 3306
   database: prison-rpg-db
   username: root
-  password: "abeesdev"
+  password: abeesdev
   # Connect using SSL/TLS. Leave false for a local/trusted database.
   use-ssl: false
   # Server timezone used by the JDBC driver. Use a valid tz id (e.g. UTC, Europe/Berlin).
@@ -65,7 +65,7 @@ connection_properties:
   character_encoding: utf8
 # Enabling / Disabling of specific modules
 modules:
-  currencies: false
+  currencies: true
   blocks: true
   ranks: true
   prestiges: true
@@ -73,20 +73,24 @@ modules:
   multipliers: false
   enchants: false
   autosell: false
-  autominer: true
+  autominer: false
   pickaxe_levels: false
   pickaxe_skins: false
   gangs: false
   mines: true
-  bombs: true
-  history: true
+  bombs: false
+  history: false
   mining_stats: false
   battlepass: false
   quests: false
-  dailyrewards: false
 # List of supported pickaxes by UPC Enchants
 supported-pickaxes:
   - DIAMOND_PICKAXE
+  - NETHERITE_PICKAXE
+  - GOLDEN_PICKAXE
+  - IRON_PICKAXE
+  - STONE_PICKAXE
+  - WOODEN_PICKAXE
 # Aliases for main command
 main-command-aliases:
   - xprison

@@ -1,0 +1,12 @@
+# =============================================================================
+# REDIRECT /SELL & /SELLALL TO /SELLGUI
+# File: plugins/Skript/scripts/admin/override_sell.sk
+# =============================================================================
+
+command /sellall:
+	trigger:
+		execute player command "sellgui"
+		
+command /sell:
+	trigger:
+		execute player command "sellgui"

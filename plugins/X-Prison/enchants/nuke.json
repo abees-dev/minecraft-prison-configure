@@ -10,7 +10,7 @@
   "initialCost": 2500,
   "pickaxeLevelRequired": 1,
   "removeBlocks": true,
-  "countBlocksBroken": false,
+  "countBlocksBroken": true,
   "useEvents": true,
   "currency": "GEMS",
   "currencyToGive": "TOKENS",
