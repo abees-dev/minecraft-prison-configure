@@ -45,10 +45,10 @@ playerlist-objective:
 
 # https://github.com/NEZNAMY/TAB/wiki/Feature-guide:-Belowname
 belowname-objective:
-  enabled: false
-  value: "%health%"
-  title: "&cHealth"
-  fancy-value: "&c%health%"
+  enabled: true
+  value: "%mmocore_level%"
+  title: "&aLevel"
+  fancy-value: "&aLv. %mmocore_level%"
   fancy-value-default: "NPC"
   disable-condition: '%world%=disabledworld'
 
