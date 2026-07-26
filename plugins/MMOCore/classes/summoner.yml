@@ -74,5 +74,4 @@ skills:
         max-level: 30
 
 main-exp-sources:
-- 'killmob{type=ZOMBIE;amount=1-3}'
-- 'killmob{type=ENDERMAN;amount=6-9}'
+- 'from{source=prison_mobs_exp}'

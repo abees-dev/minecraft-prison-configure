@@ -26,4 +26,4 @@ QuanNgucBoss:
   Conditions: []
   SpawnConditions: []
   ActiveMobs: 0
-  CooldownTimer: 14
+  CooldownTimer: 1

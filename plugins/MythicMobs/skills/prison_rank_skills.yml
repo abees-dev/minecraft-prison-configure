@@ -112,3 +112,13 @@ Prison_Ma_Vuong_Enrage:
   - potion{type=INCREASE_DAMAGE;lvl=3;duration=120} @self
   - potion{type=SPEED;lvl=2;duration=120} @self
   - message{m="&4&l[Ma Vương Ngục Tù]&r &7CẢ NHÀ TÙ NÀY LÀ CỦA TA!"} @PlayersInRadius{r=50}
+
+Give_Crate_Key_On_Death:
+  Skills:
+  - skill{s=Give_Crate_Key_Success} 0.50
+
+Give_Crate_Key_Success:
+  Skills:
+  - command{c="crates keygive <trigger.name> chia_khoa_ruong_ngoc 1"} @trigger
+  - message{m="&e&l❖ &d&lCRATES &8» &r&fChúc mừng bạn nhận được &e1x Chìa Khóa Rương Ngọc&f!"} @trigger
+  - effect:sound{s=entity.experience_orb.pickup;volume=1.0;pitch=1.2} @trigger

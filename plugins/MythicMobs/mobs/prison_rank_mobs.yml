@@ -38,8 +38,7 @@ PRISON_TAN_BINH_NORMAL:
     Despawn: true
     PreventSunburn: true
   Drops:
-  - mmoitem{type=CONSUMABLE;id=DA_CUONG_HOA_VU_KHI_SO_CAP} 1 0.20
-  - mmoitem{type=CONSUMABLE;id=DA_CUONG_HOA_GIAP_SO_CAP} 1 0.20
+  - prison_rank1_normal_drops
   Skills:
   - throw{velocity=4;velocityY=3} @target 0.15
 
@@ -57,8 +56,7 @@ PRISON_TAN_BINH_ELITE:
     Despawn: true
     PreventSunburn: true
   Drops:
-  - mmoitem{type=CONSUMABLE;id=DA_CUONG_HOA_VU_KHI_SO_CAP} 1 0.20
-  - mmoitem{type=CONSUMABLE;id=DA_CUONG_HOA_GIAP_SO_CAP} 1 0.20
+  - prison_rank1_elite_drops
   Skills:
   - skill{s=knockback{power=1.2}} @target 0.3
   - potion{type=WEAKNESS;duration=80;lvl=1} @target 0.25
@@ -83,9 +81,7 @@ PRISON_TAN_BINH_BOSS:
     Title: '&e&lĐầu Sỏ Tân Binh'
     Range: 40
   Drops:
-  - mmoitem{type=CONSUMABLE;id=DA_CUONG_HOA_VU_KHI_SO_CAP} 1 0.20
-  - mmoitem{type=CONSUMABLE;id=DA_CUONG_HOA_GIAP_SO_CAP} 1 0.20
-  - mmoitem{type=MATERIAL;id=MANH_HUY_HIEU_TRIEU_HOI} 1 1.0
+  - prison_rank1_boss_drops
   Skills:
   - skill{s=damage{amount=38;ignorearmor=true;ignoreiframes=true}} @PlayersInRadius{r=5} ~onTimer:60
   - skill{s=Prison_Tan_Binh_Enrage} @self ~onDamaged
@@ -97,6 +93,7 @@ PRISON_TAN_BINH_BOSS:
   - effect:sound{s=entity.zombie.death;volume=1;pitch=0.7} @self ~onDeath
   - effect:explosion @self ~onDeath
   - command{c="dh holograms enable TanBinhTimer"} ~onDeath
+  - skill{s=Give_Crate_Key_On_Death} @trigger ~onDeath
 
 # ---------------- RANK 2: TU NHAN (STONE_SWORD, W=6.0, P=32) ----------------
 PRISON_TU_NHAN_NORMAL:
@@ -112,8 +109,7 @@ PRISON_TU_NHAN_NORMAL:
     Despawn: true
     PreventSunburn: true
   Drops:
-  - mmoitem{type=CONSUMABLE;id=DA_CUONG_HOA_VU_KHI_SO_CAP} 1 0.25
-  - mmoitem{type=CONSUMABLE;id=DA_CUONG_HOA_GIAP_SO_CAP} 1 0.25
+  - prison_rank2_normal_drops
   Skills:
   - potion{type=WEAKNESS;duration=60;lvl=1} @target 0.15
 
@@ -132,8 +128,7 @@ PRISON_TU_NHAN_ELITE:
     Despawn: true
     PreventSunburn: true
   Drops:
-  - mmoitem{type=CONSUMABLE;id=DA_CUONG_HOA_VU_KHI_SO_CAP} 1 0.25
-  - mmoitem{type=CONSUMABLE;id=DA_CUONG_HOA_GIAP_SO_CAP} 1 0.25
+  - prison_rank2_elite_drops
   Skills:
   - skill{s=knockback{power=1.2}} @target 0.3
   - potion{type=SLOW;duration=80;lvl=1} @target 0.25
@@ -159,9 +154,7 @@ PRISON_TU_NHAN_BOSS:
     Title: '&2&lTrùm Tù Nhân'
     Range: 40
   Drops:
-  - mmoitem{type=CONSUMABLE;id=DA_CUONG_HOA_VU_KHI_SO_CAP} 1 0.25
-  - mmoitem{type=CONSUMABLE;id=DA_CUONG_HOA_GIAP_SO_CAP} 1 0.25
-  - mmoitem{type=MATERIAL;id=MANH_HUY_HIEU_TRIEU_HOI} 1 1.0
+  - prison_rank2_boss_drops
   Skills:
   - skill{s=damage{amount=44;ignorearmor=true;ignoreiframes=true}} @PlayersInRadius{r=5} ~onTimer:60
   - skill{s=Prison_Tu_Nhan_Enrage} @self ~onDamaged
@@ -173,6 +166,7 @@ PRISON_TU_NHAN_BOSS:
   - effect:sound{s=entity.husk.death;volume=1;pitch=0.7} @self ~onDeath
   - effect:explosion @self ~onDeath
   - command{c="dh holograms enable TuNhanTimer"} ~onDeath
+  - skill{s=Give_Crate_Key_On_Death} @trigger ~onDeath
 
 # ---------------- RANK 3: LAO CONG (IRON_SWORD, W=8.8, P=40) ----------------
 PRISON_LAO_CONG_NORMAL:
@@ -188,8 +182,7 @@ PRISON_LAO_CONG_NORMAL:
     Despawn: true
     PreventSunburn: true
   Drops:
-  - mmoitem{type=CONSUMABLE;id=DA_CUONG_HOA_VU_KHI_TRUNG_CAP} 1 0.20
-  - mmoitem{type=CONSUMABLE;id=DA_CUONG_HOA_GIAP_TRUNG_CAP} 1 0.20
+  - prison_rank3_normal_drops
   Skills:
   - potion{type=SLOW;duration=60;lvl=1} @target 0.15
 
@@ -209,8 +202,7 @@ PRISON_LAO_CONG_ELITE:
     Despawn: true
     PreventSunburn: true
   Drops:
-  - mmoitem{type=CONSUMABLE;id=DA_CUONG_HOA_VU_KHI_TRUNG_CAP} 1 0.20
-  - mmoitem{type=CONSUMABLE;id=DA_CUONG_HOA_GIAP_TRUNG_CAP} 1 0.20
+  - prison_rank3_elite_drops
   Skills:
   - skill{s=knockback{power=1.3}} @target 0.3
   - skill{s=damage{amount=16;ignorearmor=true}} @PlayersInRadius{r=3} 0.2
@@ -239,9 +231,7 @@ PRISON_LAO_CONG_BOSS:
     Title: '&3&lĐốc Công Lao Công'
     Range: 40
   Drops:
-  - mmoitem{type=CONSUMABLE;id=DA_CUONG_HOA_VU_KHI_TRUNG_CAP} 1 0.20
-  - mmoitem{type=CONSUMABLE;id=DA_CUONG_HOA_GIAP_TRUNG_CAP} 1 0.20
-  - mmoitem{type=MATERIAL;id=MANH_HUY_HIEU_TRIEU_HOI} 1 1.0
+  - prison_rank3_boss_drops
   Skills:
   - skill{s=damage{amount=54;ignorearmor=true;ignoreiframes=true}} @PlayersInRadius{r=5} ~onTimer:60
   - skill{s=Prison_Lao_Cong_Enrage} @self ~onDamaged
@@ -253,6 +243,7 @@ PRISON_LAO_CONG_BOSS:
   - effect:sound{s=entity.husk.death;volume=1;pitch=0.6} @self ~onDeath
   - effect:explosion @self ~onDeath
   - command{c="dh holograms enable LaoCongTimer"} ~onDeath
+  - skill{s=Give_Crate_Key_On_Death} @trigger ~onDeath
 
 # ---------------- RANK 4: THO DAO (IRON_SWORD, W=12.0, P=48) ----------------
 PRISON_THO_DAO_NORMAL:
@@ -269,8 +260,7 @@ PRISON_THO_DAO_NORMAL:
     Despawn: true
     PreventSunburn: true
   Drops:
-  - mmoitem{type=CONSUMABLE;id=DA_CUONG_HOA_VU_KHI_TRUNG_CAP} 1 0.25
-  - mmoitem{type=CONSUMABLE;id=DA_CUONG_HOA_GIAP_TRUNG_CAP} 1 0.25
+  - prison_rank4_normal_drops
   Skills:
   - potion{type=WITHER;duration=40;lvl=1} @target 0.15
 
@@ -291,8 +281,7 @@ PRISON_THO_DAO_ELITE:
     Despawn: true
     PreventSunburn: true
   Drops:
-  - mmoitem{type=CONSUMABLE;id=DA_CUONG_HOA_VU_KHI_TRUNG_CAP} 1 0.25
-  - mmoitem{type=CONSUMABLE;id=DA_CUONG_HOA_GIAP_TRUNG_CAP} 1 0.25
+  - prison_rank4_elite_drops
   Skills:
   - skill{s=knockback{power=1.3}} @target 0.3
   - potion{type=WITHER;duration=60;lvl=1} @target 0.25
@@ -321,9 +310,7 @@ PRISON_THO_DAO_BOSS:
     Title: '&6&lTrưởng Nhóm Thợ Đào'
     Range: 40
   Drops:
-  - mmoitem{type=CONSUMABLE;id=DA_CUONG_HOA_VU_KHI_TRUNG_CAP} 1 0.25
-  - mmoitem{type=CONSUMABLE;id=DA_CUONG_HOA_GIAP_TRUNG_CAP} 1 0.25
-  - mmoitem{type=MATERIAL;id=MANH_HUY_HIEU_TRIEU_HOI} 1 1.0
+  - prison_rank4_boss_drops
   Skills:
   - skill{s=damage{amount=65;ignorearmor=true;ignoreiframes=true}} @PlayersInRadius{r=5} ~onTimer:60
   - skill{s=Prison_Tho_Dao_Enrage} @self ~onDamaged
@@ -335,6 +322,7 @@ PRISON_THO_DAO_BOSS:
   - effect:sound{s=entity.drowned.death;volume=1;pitch=0.6} @self ~onDeath
   - effect:explosion @self ~onDeath
   - command{c="dh holograms enable ThoDaoTimer"} ~onDeath
+  - skill{s=Give_Crate_Key_On_Death} @trigger ~onDeath
 
 # ---------------- RANK 5: DOI TRUONG (DIAMOND_SWORD, W=16.0, P=52) ----------------
 PRISON_DOI_TRUONG_NORMAL:
@@ -350,8 +338,7 @@ PRISON_DOI_TRUONG_NORMAL:
     Despawn: true
     PreventSunburn: true
   Drops:
-  - mmoitem{type=CONSUMABLE;id=DA_CUONG_HOA_VU_KHI_CAO_CAP} 1 0.20
-  - mmoitem{type=CONSUMABLE;id=DA_CUONG_HOA_GIAP_CAO_CAP} 1 0.20
+  - prison_rank5_normal_drops
   Skills:
   - throw{velocity=5;velocityY=4} @target 0.15
 
@@ -370,8 +357,7 @@ PRISON_DOI_TRUONG_ELITE:
     Despawn: true
     PreventSunburn: true
   Drops:
-  - mmoitem{type=CONSUMABLE;id=DA_CUONG_HOA_VU_KHI_CAO_CAP} 1 0.20
-  - mmoitem{type=CONSUMABLE;id=DA_CUONG_HOA_GIAP_CAO_CAP} 1 0.20
+  - prison_rank5_elite_drops
   Skills:
   - skill{s=knockback{power=1.4}} @target 0.3
   - potion{type=INCREASE_DAMAGE;lvl=1;duration=60} @self 0.15
@@ -400,9 +386,7 @@ PRISON_DOI_TRUONG_BOSS:
     Title: '&6&lĐại Đội Trưởng'
     Range: 45
   Drops:
-  - mmoitem{type=CONSUMABLE;id=DA_CUONG_HOA_VU_KHI_CAO_CAP} 1 0.20
-  - mmoitem{type=CONSUMABLE;id=DA_CUONG_HOA_GIAP_CAO_CAP} 1 0.20
-  - mmoitem{type=MATERIAL;id=MANH_HUY_HIEU_TRIEU_HOI} 1 1.0
+  - prison_rank5_boss_drops
   Skills:
   - skill{s=damage{amount=71;ignorearmor=true;ignoreiframes=true}} @PlayersInRadius{r=5} ~onTimer:60
   - skill{s=Prison_Doi_Truong_Enrage} @self ~onDamaged
@@ -414,6 +398,7 @@ PRISON_DOI_TRUONG_BOSS:
   - effect:sound{s=entity.vindicator.death;volume=1;pitch=0.6} @self ~onDeath
   - effect:explosion @self ~onDeath
   - command{c="dh holograms enable DoiTruongTimer"} ~onDeath
+  - skill{s=Give_Crate_Key_On_Death} @trigger ~onDeath
 
 # ---------------- RANK 6: PHO QUAN NGUC (DIAMOND_SWORD, W=21.0, P=60) ----------------
 PRISON_PHO_QUAN_NGUC_NORMAL:
@@ -429,8 +414,7 @@ PRISON_PHO_QUAN_NGUC_NORMAL:
     Despawn: true
     PreventSunburn: true
   Drops:
-  - mmoitem{type=CONSUMABLE;id=DA_CUONG_HOA_VU_KHI_CAO_CAP} 1 0.25
-  - mmoitem{type=CONSUMABLE;id=DA_CUONG_HOA_GIAP_CAO_CAP} 1 0.25
+  - prison_rank6_normal_drops
   Skills:
   - potion{type=WEAKNESS;duration=80;lvl=1} @target 0.15
 
@@ -450,8 +434,7 @@ PRISON_PHO_QUAN_NGUC_ELITE:
     Despawn: true
     PreventSunburn: true
   Drops:
-  - mmoitem{type=CONSUMABLE;id=DA_CUONG_HOA_VU_KHI_CAO_CAP} 1 0.25
-  - mmoitem{type=CONSUMABLE;id=DA_CUONG_HOA_GIAP_CAO_CAP} 1 0.25
+  - prison_rank6_elite_drops
   Skills:
   - skill{s=knockback{power=1.4}} @target 0.3
   - skill{s=damage{amount=24;ignorearmor=true}} @PlayersInRadius{r=3} 0.2
@@ -480,9 +463,7 @@ PRISON_PHO_QUAN_NGUC_BOSS:
     Title: '&4&lPhó Quản Ngục'
     Range: 45
   Drops:
-  - mmoitem{type=CONSUMABLE;id=DA_CUONG_HOA_VU_KHI_CAO_CAP} 1 0.25
-  - mmoitem{type=CONSUMABLE;id=DA_CUONG_HOA_GIAP_CAO_CAP} 1 0.25
-  - mmoitem{type=MATERIAL;id=MANH_HUY_HIEU_TRIEU_HOI} 1 1.0
+  - prison_rank6_boss_drops
   Skills:
   - skill{s=damage{amount=81;ignorearmor=true;ignoreiframes=true}} @PlayersInRadius{r=5} ~onTimer:50
   - skill{s=Prison_Pho_Quan_Nguc_Enrage} @self ~onDamaged
@@ -494,6 +475,7 @@ PRISON_PHO_QUAN_NGUC_BOSS:
   - effect:sound{s=entity.vindicator.death;volume=1;pitch=0.5} @self ~onDeath
   - effect:explosion @self ~onDeath
   - command{c="dh holograms enable PhoQuanNgucTimer"} ~onDeath
+  - skill{s=Give_Crate_Key_On_Death} @trigger ~onDeath
 
 # ---------------- RANK 7: QUAN NGUC (NETHERITE_SWORD, W=27.0, P=68) ----------------
 PRISON_QUAN_NGUC_NORMAL:
@@ -509,8 +491,7 @@ PRISON_QUAN_NGUC_NORMAL:
     Despawn: true
     PreventSunburn: true
   Drops:
-  - mmoitem{type=CONSUMABLE;id=DA_CUONG_HOA_VU_KHI_SIEU_CAP} 1 0.20
-  - mmoitem{type=CONSUMABLE;id=DA_CUONG_HOA_GIAP_SIEU_CAP} 1 0.20
+  - prison_rank7_normal_drops
   Skills:
   - potion{type=WITHER;duration=60;lvl=2} @target 0.15
 
@@ -529,8 +510,7 @@ PRISON_QUAN_NGUC_ELITE:
     Despawn: true
     PreventSunburn: true
   Drops:
-  - mmoitem{type=CONSUMABLE;id=DA_CUONG_HOA_VU_KHI_SIEU_CAP} 1 0.20
-  - mmoitem{type=CONSUMABLE;id=DA_CUONG_HOA_GIAP_SIEU_CAP} 1 0.20
+  - prison_rank7_elite_drops
   Skills:
   - skill{s=knockback{power=1.5}} @target 0.3
   - potion{type=WITHER;duration=80;lvl=2} @target 0.25
@@ -559,9 +539,7 @@ PRISON_QUAN_NGUC_BOSS:
     Title: '&5&lQuản Ngục Tối Cao'
     Range: 50
   Drops:
-  - mmoitem{type=CONSUMABLE;id=DA_CUONG_HOA_VU_KHI_SIEU_CAP} 1 0.20
-  - mmoitem{type=CONSUMABLE;id=DA_CUONG_HOA_GIAP_SIEU_CAP} 1 0.20
-  - mmoitem{type=MATERIAL;id=MANH_HUY_HIEU_TRIEU_HOI} 1 1.0
+  - prison_rank7_boss_drops
   Skills:
   - skill{s=damage{amount=92;ignorearmor=true;ignoreiframes=true}} @PlayersInRadius{r=5} ~onTimer:50
   - skill{s=Prison_Quan_Nguc_Enrage} @self ~onDamaged
@@ -573,6 +551,7 @@ PRISON_QUAN_NGUC_BOSS:
   - effect:sound{s=entity.wither_skeleton.death;volume=1;pitch=0.5} @self ~onDeath
   - effect:explosion @self ~onDeath
   - command{c="dh holograms enable QuanNgucTimer"} ~onDeath
+  - skill{s=Give_Crate_Key_On_Death} @trigger ~onDeath
 
 # ---------------- RANK 8: BA CHU NGUC TU (NETHERITE_SWORD, W=34.5, P=72) ----------------
 PRISON_BA_CHU_NGUC_TU_NORMAL:
@@ -589,8 +568,7 @@ PRISON_BA_CHU_NGUC_TU_NORMAL:
     Despawn: true
     PreventSunburn: true
   Drops:
-  - mmoitem{type=CONSUMABLE;id=DA_CUONG_HOA_VU_KHI_SIEU_CAP} 1 0.25
-  - mmoitem{type=CONSUMABLE;id=DA_CUONG_HOA_GIAP_SIEU_CAP} 1 0.25
+  - prison_rank8_normal_drops
   Skills:
   - potion{type=SLOW;duration=80;lvl=2} @target 0.15
 
@@ -611,8 +589,7 @@ PRISON_BA_CHU_NGUC_TU_ELITE:
     Despawn: true
     PreventSunburn: true
   Drops:
-  - mmoitem{type=CONSUMABLE;id=DA_CUONG_HOA_VU_KHI_SIEU_CAP} 1 0.25
-  - mmoitem{type=CONSUMABLE;id=DA_CUONG_HOA_GIAP_SIEU_CAP} 1 0.25
+  - prison_rank8_elite_drops
   Skills:
   - skill{s=knockback{power=1.5}} @target 0.3
   - potion{type=INCREASE_DAMAGE;lvl=1;duration=60} @self 0.15
@@ -641,9 +618,7 @@ PRISON_BA_CHU_NGUC_TU_BOSS:
     Title: '&d&lBá Chủ Ngục Tù'
     Range: 50
   Drops:
-  - mmoitem{type=CONSUMABLE;id=DA_CUONG_HOA_VU_KHI_SIEU_CAP} 1 0.25
-  - mmoitem{type=CONSUMABLE;id=DA_CUONG_HOA_GIAP_SIEU_CAP} 1 0.25
-  - mmoitem{type=MATERIAL;id=MANH_HUY_HIEU_TRIEU_HOI} 1 1.0
+  - prison_rank8_boss_drops
   Skills:
   - skill{s=damage{amount=98;ignorearmor=true;ignoreiframes=true}} @PlayersInRadius{r=5} ~onTimer:50
   - skill{s=Prison_Ba_Chu_Nguc_Tu_Enrage} @self ~onDamaged
@@ -655,6 +630,7 @@ PRISON_BA_CHU_NGUC_TU_BOSS:
   - effect:sound{s=entity.piglin_brute.death;volume=1;pitch=0.5} @self ~onDeath
   - effect:explosion @self ~onDeath
   - command{c="dh holograms enable BaChuNgucTuTimer"} ~onDeath
+  - skill{s=Give_Crate_Key_On_Death} @trigger ~onDeath
 
 # ---------------- RANK 9: VUOT NGUC (NETHERITE_SWORD, W=43.5, P=80) ----------------
 PRISON_VUOT_NGUC_NORMAL:
@@ -671,9 +647,7 @@ PRISON_VUOT_NGUC_NORMAL:
     Despawn: true
     PreventSunburn: true
   Drops:
-  - mmoitem{type=CONSUMABLE;id=DA_CUONG_HOA_VU_KHI_HUYEN_THOAI} 1 0.15
-  - mmoitem{type=CONSUMABLE;id=DA_CUONG_HOA_GIAP_HUYEN_THOAI} 1 0.15
-  - mmoitem{type=CONSUMABLE;id=DA_CUONG_HOA_THIEN_MENH} 1 0.05
+  - prison_rank9_normal_drops
   Skills:
   - throw{velocity=6;velocityY=5} @target 0.15
 
@@ -694,9 +668,7 @@ PRISON_VUOT_NGUC_ELITE:
     Despawn: true
     PreventSunburn: true
   Drops:
-  - mmoitem{type=CONSUMABLE;id=DA_CUONG_HOA_VU_KHI_HUYEN_THOAI} 1 0.15
-  - mmoitem{type=CONSUMABLE;id=DA_CUONG_HOA_GIAP_HUYEN_THOAI} 1 0.15
-  - mmoitem{type=CONSUMABLE;id=DA_CUONG_HOA_THIEN_MENH} 1 0.05
+  - prison_rank9_elite_drops
   Skills:
   - skill{s=knockback{power=1.6}} @target 0.3
   - skill{s=damage{amount=32;ignorearmor=true}} @PlayersInRadius{r=3} 0.2
@@ -725,10 +697,7 @@ PRISON_VUOT_NGUC_BOSS:
     Title: '&4&lTrùm Vượt Ngục Tối Thượng'
     Range: 55
   Drops:
-  - mmoitem{type=CONSUMABLE;id=DA_CUONG_HOA_VU_KHI_HUYEN_THOAI} 1 0.15
-  - mmoitem{type=CONSUMABLE;id=DA_CUONG_HOA_GIAP_HUYEN_THOAI} 1 0.15
-  - mmoitem{type=CONSUMABLE;id=DA_CUONG_HOA_THIEN_MENH} 1 0.05
-  - mmoitem{type=MATERIAL;id=MANH_HUY_HIEU_TRIEU_HOI} 1 1.0
+  - prison_rank9_boss_drops
   Skills:
   - skill{s=damage{amount=108;ignorearmor=true;ignoreiframes=true}} @PlayersInRadius{r=5} ~onTimer:45
   - skill{s=Prison_Vuot_Nguc_Enrage} @self ~onDamaged
@@ -740,6 +709,7 @@ PRISON_VUOT_NGUC_BOSS:
   - effect:sound{s=entity.ravager.death;volume=1;pitch=0.5} @self ~onDeath
   - effect:explosion @self ~onDeath
   - command{c="dh holograms enable VuotNgucTimer"} ~onDeath
+  - skill{s=Give_Crate_Key_On_Death} @trigger ~onDeath
 
 # ---------------- BOSS TRUM CUOI: MA VUONG NGUC TU ----------------
 # Dieu kien trieu hoi: click chuot phai vao ban tho PRISON_MA_VUONG_ALTAR
@@ -771,7 +741,7 @@ PRISON_MA_VUONG_BOSS:
     Title: '&4&l[TRÙM CUỐI] &6&lMa Vương Ngục Tù'
     Range: 60
   Drops:
-  - mmoitem{type=MATERIAL;id=TINHTHE_HUY_DIET} 1 0.25
+  - prison_ma_vuong_boss_drops
   Skills:
   - skill{s=damage{amount=130;ignorearmor=true;ignoreiframes=true}} @PlayersInRadius{r=6} ~onTimer:45
   - skill{s=Prison_Ma_Vuong_Enrage} @self ~onDamaged
@@ -783,3 +753,4 @@ PRISON_MA_VUONG_BOSS:
   - effect:sound{s=entity.ravager.death;volume=2;pitch=0.4} @self ~onDeath
   - effect:explosion @self ~onDeath
   - command{c="dh holograms enable MaVuongTimer"} ~onDeath
+  - skill{s=Give_Crate_Key_On_Death} @trigger ~onDeath

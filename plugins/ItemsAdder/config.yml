@@ -19,7 +19,7 @@ resource-pack:
   apply-on-join: true
   kick-player-on-decline: false
   kick-player-on-fail: false
-  delay-ticks: 1
+  delay-ticks: 10
   notify-other-plugins-interfering: true
   title:
     enabled: true
@@ -130,7 +130,7 @@ huds:
   hide_if_pack_not_accepted: true
 cooldown_bars:
   enabled: true
-  refresh_ticks: 1
+  refresh_ticks: 5
   bossbar:
     color: WHITE
     style: SOLID

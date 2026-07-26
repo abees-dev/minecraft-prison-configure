@@ -5,20 +5,21 @@ api-version: 1.14
 version: 1.7
 description: Hard dependency for the MMO plugins
 website: www.phoenixdevt.fr
-softdepend: [ WorldGuard,Residence,Factions,MythicMobs,PlaceholderAPI,Fabled ]
+softdepend:
+  [WorldGuard, Residence, Factions, MythicMobs, PlaceholderAPI, Fabled]
 commands:
   healthscale:
-    description: 'No longer maintained, see ''/ml debug healthscale'' instead'
+    description: "No longer maintained, see '/ml debug healthscale' instead"
     permission: mythiclib.command.healthscale
   mmotempstat:
-    description: 'No longer maintained, see ''/ml tempstat'' instead'
+    description: "No longer maintained, see '/ml tempstat' instead"
     permission: mythiclib.tempstat
   superworkbench:
-    aliases: [ swb ]
+    aliases: [swb]
     description: Open the super 5x5 workbench
     permission: mythiclib.superworkbench
   megaworkbench:
-    aliases: [ mwb ]
+    aliases: [mwb]
     description: Open the mega 6x6 workbench
     permission: mythiclib.megaworkbench
 permissions:

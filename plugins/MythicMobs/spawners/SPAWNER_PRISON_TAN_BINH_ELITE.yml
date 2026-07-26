@@ -26,4 +26,4 @@ SPAWNER_PRISON_TAN_BINH_ELITE:
   Conditions: []
   SpawnConditions: []
   CooldownTimer: 1
-  ActiveMobs: 8
+  ActiveMobs: 2

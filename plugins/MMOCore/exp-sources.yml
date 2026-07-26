@@ -1,4 +1,57 @@
-#A list of experience source that can be loaded using 'from{source="test-exp-source"}'
+# ============================================================================
+# MMOCore EXP Sources
+# Nguồn kinh nghiệm (EXP MMOCore) nhận được từ các quái vật 9 Rank Nhà Tù & Boss
+# ============================================================================
+
+prison_mobs_exp:
+  # Rank 1: Tân Binh
+  - 'killmythicmob{type=PRISON_TAN_BINH_NORMAL;amount=100}'
+  - 'killmythicmob{type=PRISON_TAN_BINH_ELITE;amount=250}'
+  - 'killmythicmob{type=PRISON_TAN_BINH_BOSS;amount=600}'
+
+  # Rank 2: Tù Nhân
+  - 'killmythicmob{type=PRISON_TU_NHAN_NORMAL;amount=180}'
+  - 'killmythicmob{type=PRISON_TU_NHAN_ELITE;amount=400}'
+  - 'killmythicmob{type=PRISON_TU_NHAN_BOSS;amount=1000}'
+
+  # Rank 3: Lao Công
+  - 'killmythicmob{type=PRISON_LAO_CONG_NORMAL;amount=300}'
+  - 'killmythicmob{type=PRISON_LAO_CONG_ELITE;amount=650}'
+  - 'killmythicmob{type=PRISON_LAO_CONG_BOSS;amount=1500}'
+
+  # Rank 4: Thợ Đào
+  - 'killmythicmob{type=PRISON_THO_DAO_NORMAL;amount=450}'
+  - 'killmythicmob{type=PRISON_THO_DAO_ELITE;amount=1000}'
+  - 'killmythicmob{type=PRISON_THO_DAO_BOSS;amount=2200}'
+
+  # Rank 5: Đội Trưởng
+  - 'killmythicmob{type=PRISON_DOI_TRUONG_NORMAL;amount=650}'
+  - 'killmythicmob{type=PRISON_DOI_TRUONG_ELITE;amount=1400}'
+  - 'killmythicmob{type=PRISON_DOI_TRUONG_BOSS;amount=3200}'
+
+  # Rank 6: Phó Quản Ngục
+  - 'killmythicmob{type=PRISON_PHO_QUAN_NGUC_NORMAL;amount=900}'
+  - 'killmythicmob{type=PRISON_PHO_QUAN_NGUC_ELITE;amount=2000}'
+  - 'killmythicmob{type=PRISON_PHO_QUAN_NGUC_BOSS;amount=4500}'
+
+  # Rank 7: Quản Ngục
+  - 'killmythicmob{type=PRISON_QUAN_NGUC_NORMAL;amount=1200}'
+  - 'killmythicmob{type=PRISON_QUAN_NGUC_ELITE;amount=2600}'
+  - 'killmythicmob{type=PRISON_QUAN_NGUC_BOSS;amount=6000}'
+
+  # Rank 8: Bá Chủ Ngục Tù
+  - 'killmythicmob{type=PRISON_BA_CHU_NGUC_TU_NORMAL;amount=1600}'
+  - 'killmythicmob{type=PRISON_BA_CHU_NGUC_TU_ELITE;amount=3500}'
+  - 'killmythicmob{type=PRISON_BA_CHU_NGUC_TU_BOSS;amount=8000}'
+
+  # Rank 9: Vượt Ngục
+  - 'killmythicmob{type=PRISON_VUOT_NGUC_NORMAL;amount=2000}'
+  - 'killmythicmob{type=PRISON_VUOT_NGUC_ELITE;amount=4500}'
+  - 'killmythicmob{type=PRISON_VUOT_NGUC_BOSS;amount=10000}'
+
+  # Trùm Cuối: Ma Vương Ngục Tù
+  - 'killmythicmob{type=PRISON_MA_VUONG_BOSS;amount=25000}'
+
 test-exp-source:
   - 'damagedealt{type=physical;amount=250}'
   - 'move{type=WALK;amount=300}'

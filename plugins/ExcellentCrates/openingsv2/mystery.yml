@@ -13,8 +13,8 @@ Settings:
   WinSlots: 13
   ScriptRunner:
     OnOpen:
-    - '[run_reward] id:"default" name:"default" delay:"0" slots:"13" mode:"independent" chance:"100.0"'
-    - '[run_animation] id:"rainbow" name:"rainbow" delay:"0" slots:"0,1,2,3,4,5,6,7,8,9,10,11,12,14,15,16,17,18,19,20,21,22,23,24,25,26" mode:"independent" chance:"100"'
+      - '[run_reward] id:"default" name:"default" delay:"0" slots:"13" mode:"independent" chance:"100.0"'
+      - '[run_animation] id:"rainbow" name:"rainbow" delay:"0" slots:"0,1,2,3,4,5,6,7,8,9,10,11,12,14,15,16,17,18,19,20,21,22,23,24,25,26" mode:"independent" chance:"100"'
     OnStart: []
   Selection:
     Amount: 1
@@ -48,8 +48,8 @@ Content: {}
 Rewards:
   default:
     Rarities:
-    - '*'
-    Spin_Times: 77
+      - "*"
+    Spin_Times: 58
     Spin_Interval: 1
     Spin_Slowdown:
       Step: 10
@@ -65,10 +65,10 @@ Rewards:
 
 Animations:
   rainbow:
-    Spin_Times: 126
+    Spin_Times: 85
     Spin_Interval: 1
     Spin_Slowdown:
-      Step: 30
+      Step: 20
       Amount: 1
     Items:
       s1:
