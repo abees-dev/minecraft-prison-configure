@@ -8,7 +8,7 @@ Key:
   Required: false
   Ids: []
 Block:
-  Positions: []
+  
   Pushback:
     Enabled: true
   Hologram:
@@ -28,7 +28,7 @@ Rewards:
       Weight: 4.5
       Rarity: common
       Broadcast: false
-      Placeholder_Apply: false
+      Placeholder_Apply: true
       Win_Limit:
         Player:
           Enabled: false
@@ -42,15 +42,15 @@ Rewards:
           CooldownStep: 1
       Items: []
       Commands:
-      - '[CONSOLE] mmoitems give GEM_STONE RED_GEM_LV1 %player_name% 1'
-      - '[CONSOLE] execute as %player_name% at @s run playsound entity.experience_orb.pickup master @s ~ ~ ~ 1 1.2'
+      - mmoitems give GEM_STONE RED_GEM_LV1 %player_name% 1
+      - execute as %player_name% at @s run playsound entity.experience_orb.pickup master @s ~ ~ ~ 1 1.2
       Ignored_For_Permissions: []
     red_gem_lv_2:
       Name: '&c&lHồng Ngọc &e&lLv.II'
       Weight: 2.5
       Rarity: common
       Broadcast: false
-      Placeholder_Apply: false
+      Placeholder_Apply: true
       Win_Limit:
         Player:
           Enabled: false
@@ -64,15 +64,15 @@ Rewards:
           CooldownStep: 1
       Items: []
       Commands:
-      - '[CONSOLE] mmoitems give GEM_STONE RED_GEM_LV2 %player_name% 1'
-      - '[CONSOLE] execute as %player_name% at @s run playsound entity.experience_orb.pickup master @s ~ ~ ~ 1 1.2'
+      - mmoitems give GEM_STONE RED_GEM_LV2 %player_name% 1
+      - execute as %player_name% at @s run playsound entity.experience_orb.pickup master @s ~ ~ ~ 1 1.2
       Ignored_For_Permissions: []
     red_gem_lv_3:
       Name: '&c&lHồng Ngọc &e&lLv.III'
       Weight: 1.2
       Rarity: common
       Broadcast: false
-      Placeholder_Apply: false
+      Placeholder_Apply: true
       Win_Limit:
         Player:
           Enabled: false
@@ -86,15 +86,15 @@ Rewards:
           CooldownStep: 1
       Items: []
       Commands:
-      - '[CONSOLE] mmoitems give GEM_STONE RED_GEM_LV3 %player_name% 1'
-      - '[CONSOLE] execute as %player_name% at @s run playsound entity.experience_orb.pickup master @s ~ ~ ~ 1 1.2'
+      - mmoitems give GEM_STONE RED_GEM_LV3 %player_name% 1
+      - execute as %player_name% at @s run playsound entity.experience_orb.pickup master @s ~ ~ ~ 1 1.2
       Ignored_For_Permissions: []
     red_gem_lv_4:
       Name: '&c&lHồng Ngọc &e&lLv.IV'
       Weight: 0.7
       Rarity: common
       Broadcast: false
-      Placeholder_Apply: false
+      Placeholder_Apply: true
       Win_Limit:
         Player:
           Enabled: false
@@ -108,15 +108,15 @@ Rewards:
           CooldownStep: 1
       Items: []
       Commands:
-      - '[CONSOLE] mmoitems give GEM_STONE RED_GEM_LV4 %player_name% 1'
-      - '[CONSOLE] execute as %player_name% at @s run playsound entity.experience_orb.pickup master @s ~ ~ ~ 1 1.2'
+      - mmoitems give GEM_STONE RED_GEM_LV4 %player_name% 1
+      - execute as %player_name% at @s run playsound entity.experience_orb.pickup master @s ~ ~ ~ 1 1.2
       Ignored_For_Permissions: []
     red_gem_lv_5:
       Name: '&c&lHồng Ngọc &e&lLv.V'
       Weight: 0.5
       Rarity: common
       Broadcast: false
-      Placeholder_Apply: false
+      Placeholder_Apply: true
       Win_Limit:
         Player:
           Enabled: false
@@ -130,15 +130,15 @@ Rewards:
           CooldownStep: 1
       Items: []
       Commands:
-      - '[CONSOLE] mmoitems give GEM_STONE RED_GEM_LV5 %player_name% 1'
-      - '[CONSOLE] execute as %player_name% at @s run playsound entity.experience_orb.pickup master @s ~ ~ ~ 1 1.2'
+      - mmoitems give GEM_STONE RED_GEM_LV5 %player_name% 1
+      - execute as %player_name% at @s run playsound entity.experience_orb.pickup master @s ~ ~ ~ 1 1.2
       Ignored_For_Permissions: []
     red_gem_lv_6:
       Name: '&c&lHồng Ngọc &e&lLv.VI'
       Weight: 0.3
       Rarity: common
       Broadcast: false
-      Placeholder_Apply: false
+      Placeholder_Apply: true
       Win_Limit:
         Player:
           Enabled: false
@@ -152,15 +152,15 @@ Rewards:
           CooldownStep: 1
       Items: []
       Commands:
-      - '[CONSOLE] mmoitems give GEM_STONE RED_GEM_LV6 %player_name% 1'
-      - '[CONSOLE] execute as %player_name% at @s run playsound entity.experience_orb.pickup master @s ~ ~ ~ 1 1.2'
+      - mmoitems give GEM_STONE RED_GEM_LV6 %player_name% 1
+      - execute as %player_name% at @s run playsound entity.experience_orb.pickup master @s ~ ~ ~ 1 1.2
       Ignored_For_Permissions: []
     red_gem_lv_7:
       Name: '&c&lHồng Ngọc &e&lLv.VII'
       Weight: 0.18
       Rarity: common
       Broadcast: false
-      Placeholder_Apply: false
+      Placeholder_Apply: true
       Win_Limit:
         Player:
           Enabled: false
@@ -174,15 +174,15 @@ Rewards:
           CooldownStep: 1
       Items: []
       Commands:
-      - '[CONSOLE] mmoitems give GEM_STONE RED_GEM_LV7 %player_name% 1'
-      - '[CONSOLE] execute as %player_name% at @s run playsound entity.experience_orb.pickup master @s ~ ~ ~ 1 1.2'
+      - mmoitems give GEM_STONE RED_GEM_LV7 %player_name% 1
+      - execute as %player_name% at @s run playsound entity.experience_orb.pickup master @s ~ ~ ~ 1 1.2
       Ignored_For_Permissions: []
     red_gem_lv_8:
       Name: '&c&lHồng Ngọc &e&lLv.VIII'
       Weight: 0.08
       Rarity: common
       Broadcast: true
-      Placeholder_Apply: false
+      Placeholder_Apply: true
       Win_Limit:
         Player:
           Enabled: false
@@ -196,17 +196,17 @@ Rewards:
           CooldownStep: 1
       Items: []
       Commands:
-      - '[CONSOLE] mmoitems give GEM_STONE RED_GEM_LV8 %player_name% 1'
-      - '[CONSOLE] broadcast &d&lCRATES &8» &fChúc mừng &b%player_name% &fvừa mở &eHòm Hồng Ngọc &fnhận được &c&lHồng Ngọc &e&lLv.VIII&f!'
-      - '[CONSOLE] execute as %player_name% at @s run playsound ui.toast.challenge_complete master @s ~ ~ ~ 1 1'
-      - '[CONSOLE] execute as %player_name% at @s run summon firework_rocket ~ ~ ~ {LifeTime:5,Motion:[0.0,1.2,0.0],FireworksItem:{id:"minecraft:firework_rocket",Count:1,tag:{Fireworks:{Explosions:[{Type:1,Colors:[I;16711680,16776960],FadeColors:[I;255]}]}}}}'
+      - mmoitems give GEM_STONE RED_GEM_LV8 %player_name% 1
+      - broadcast &d&lCRATES &8» &fChúc mừng &b%player_name% &fvừa mở &eHòm Hồng Ngọc &fnhận được &c&lHồng Ngọc &e&lLv.VIII&f!
+      - execute as %player_name% at @s run playsound ui.toast.challenge_complete master @s ~ ~ ~ 1 1
+      - execute as %player_name% at @s run summon firework_rocket ~ ~ ~ {LifeTime:5,Motion:[0.0,1.2,0.0],FireworksItem:{id:"minecraft:firework_rocket",Count:1,tag:{Fireworks:{Explosions:[{Type:1,Colors:[I;16711680,16776960],FadeColors:[I;255]}]}}}}
       Ignored_For_Permissions: []
     red_gem_lv_9:
       Name: '&c&lHồng Ngọc &e&lLv.IX'
       Weight: 0.03
       Rarity: common
       Broadcast: true
-      Placeholder_Apply: false
+      Placeholder_Apply: true
       Win_Limit:
         Player:
           Enabled: false
@@ -220,17 +220,17 @@ Rewards:
           CooldownStep: 1
       Items: []
       Commands:
-      - '[CONSOLE] mmoitems give GEM_STONE RED_GEM_LV9 %player_name% 1'
-      - '[CONSOLE] broadcast &d&lCRATES &8» &fChúc mừng &b%player_name% &fvừa mở &eHòm Hồng Ngọc &fnhận được &c&lHồng Ngọc &e&lLv.IX&f!'
-      - '[CONSOLE] execute as %player_name% at @s run playsound ui.toast.challenge_complete master @s ~ ~ ~ 1 1'
-      - '[CONSOLE] execute as %player_name% at @s run summon firework_rocket ~ ~ ~ {LifeTime:5,Motion:[0.0,1.2,0.0],FireworksItem:{id:"minecraft:firework_rocket",Count:1,tag:{Fireworks:{Explosions:[{Type:1,Colors:[I;16711680,16776960],FadeColors:[I;255]}]}}}}'
+      - mmoitems give GEM_STONE RED_GEM_LV9 %player_name% 1
+      - broadcast &d&lCRATES &8» &fChúc mừng &b%player_name% &fvừa mở &eHòm Hồng Ngọc &fnhận được &c&lHồng Ngọc &e&lLv.IX&f!
+      - execute as %player_name% at @s run playsound ui.toast.challenge_complete master @s ~ ~ ~ 1 1
+      - execute as %player_name% at @s run summon firework_rocket ~ ~ ~ {LifeTime:5,Motion:[0.0,1.2,0.0],FireworksItem:{id:"minecraft:firework_rocket",Count:1,tag:{Fireworks:{Explosions:[{Type:1,Colors:[I;16711680,16776960],FadeColors:[I;255]}]}}}}
       Ignored_For_Permissions: []
     red_gem_lv_10:
       Name: '&c&lHồng Ngọc &e&lLv.X'
       Weight: 0.01
       Rarity: common
       Broadcast: true
-      Placeholder_Apply: false
+      Placeholder_Apply: true
       Win_Limit:
         Player:
           Enabled: false
@@ -244,17 +244,17 @@ Rewards:
           CooldownStep: 1
       Items: []
       Commands:
-      - '[CONSOLE] mmoitems give GEM_STONE RED_GEM_LV10 %player_name% 1'
-      - '[CONSOLE] broadcast &d&lCRATES &8» &fChúc mừng &b%player_name% &fvừa mở &eHòm Hồng Ngọc &fnhận được &c&lHồng Ngọc &e&lLv.X&f!'
-      - '[CONSOLE] execute as %player_name% at @s run playsound ui.toast.challenge_complete master @s ~ ~ ~ 1 1'
-      - '[CONSOLE] execute as %player_name% at @s run summon firework_rocket ~ ~ ~ {LifeTime:5,Motion:[0.0,1.2,0.0],FireworksItem:{id:"minecraft:firework_rocket",Count:1,tag:{Fireworks:{Explosions:[{Type:1,Colors:[I;16711680,16776960],FadeColors:[I;255]}]}}}}'
+      - mmoitems give GEM_STONE RED_GEM_LV10 %player_name% 1
+      - broadcast &d&lCRATES &8» &fChúc mừng &b%player_name% &fvừa mở &eHòm Hồng Ngọc &fnhận được &c&lHồng Ngọc &e&lLv.X&f!
+      - execute as %player_name% at @s run playsound ui.toast.challenge_complete master @s ~ ~ ~ 1 1
+      - execute as %player_name% at @s run summon firework_rocket ~ ~ ~ {LifeTime:5,Motion:[0.0,1.2,0.0],FireworksItem:{id:"minecraft:firework_rocket",Count:1,tag:{Fireworks:{Explosions:[{Type:1,Colors:[I;16711680,16776960],FadeColors:[I;255]}]}}}}
       Ignored_For_Permissions: []
     blue_gem_lv_1:
       Name: '&9&lLam Ngọc &e&lLv.I'
       Weight: 4.5
       Rarity: common
       Broadcast: false
-      Placeholder_Apply: false
+      Placeholder_Apply: true
       Win_Limit:
         Player:
           Enabled: false
@@ -268,15 +268,15 @@ Rewards:
           CooldownStep: 1
       Items: []
       Commands:
-      - '[CONSOLE] mmoitems give GEM_STONE BLUE_GEM_LV1 %player_name% 1'
-      - '[CONSOLE] execute as %player_name% at @s run playsound entity.experience_orb.pickup master @s ~ ~ ~ 1 1.2'
+      - mmoitems give GEM_STONE BLUE_GEM_LV1 %player_name% 1
+      - execute as %player_name% at @s run playsound entity.experience_orb.pickup master @s ~ ~ ~ 1 1.2
       Ignored_For_Permissions: []
     blue_gem_lv_2:
       Name: '&9&lLam Ngọc &e&lLv.II'
       Weight: 2.5
       Rarity: common
       Broadcast: false
-      Placeholder_Apply: false
+      Placeholder_Apply: true
       Win_Limit:
         Player:
           Enabled: false
@@ -290,15 +290,15 @@ Rewards:
           CooldownStep: 1
       Items: []
       Commands:
-      - '[CONSOLE] mmoitems give GEM_STONE BLUE_GEM_LV2 %player_name% 1'
-      - '[CONSOLE] execute as %player_name% at @s run playsound entity.experience_orb.pickup master @s ~ ~ ~ 1 1.2'
+      - mmoitems give GEM_STONE BLUE_GEM_LV2 %player_name% 1
+      - execute as %player_name% at @s run playsound entity.experience_orb.pickup master @s ~ ~ ~ 1 1.2
       Ignored_For_Permissions: []
     blue_gem_lv_3:
       Name: '&9&lLam Ngọc &e&lLv.III'
       Weight: 1.2
       Rarity: common
       Broadcast: false
-      Placeholder_Apply: false
+      Placeholder_Apply: true
       Win_Limit:
         Player:
           Enabled: false
@@ -312,15 +312,15 @@ Rewards:
           CooldownStep: 1
       Items: []
       Commands:
-      - '[CONSOLE] mmoitems give GEM_STONE BLUE_GEM_LV3 %player_name% 1'
-      - '[CONSOLE] execute as %player_name% at @s run playsound entity.experience_orb.pickup master @s ~ ~ ~ 1 1.2'
+      - mmoitems give GEM_STONE BLUE_GEM_LV3 %player_name% 1
+      - execute as %player_name% at @s run playsound entity.experience_orb.pickup master @s ~ ~ ~ 1 1.2
       Ignored_For_Permissions: []
     blue_gem_lv_4:
       Name: '&9&lLam Ngọc &e&lLv.IV'
       Weight: 0.7
       Rarity: common
       Broadcast: false
-      Placeholder_Apply: false
+      Placeholder_Apply: true
       Win_Limit:
         Player:
           Enabled: false
@@ -334,15 +334,15 @@ Rewards:
           CooldownStep: 1
       Items: []
       Commands:
-      - '[CONSOLE] mmoitems give GEM_STONE BLUE_GEM_LV4 %player_name% 1'
-      - '[CONSOLE] execute as %player_name% at @s run playsound entity.experience_orb.pickup master @s ~ ~ ~ 1 1.2'
+      - mmoitems give GEM_STONE BLUE_GEM_LV4 %player_name% 1
+      - execute as %player_name% at @s run playsound entity.experience_orb.pickup master @s ~ ~ ~ 1 1.2
       Ignored_For_Permissions: []
     blue_gem_lv_5:
       Name: '&9&lLam Ngọc &e&lLv.V'
       Weight: 0.5
       Rarity: common
       Broadcast: false
-      Placeholder_Apply: false
+      Placeholder_Apply: true
       Win_Limit:
         Player:
           Enabled: false
@@ -356,15 +356,15 @@ Rewards:
           CooldownStep: 1
       Items: []
       Commands:
-      - '[CONSOLE] mmoitems give GEM_STONE BLUE_GEM_LV5 %player_name% 1'
-      - '[CONSOLE] execute as %player_name% at @s run playsound entity.experience_orb.pickup master @s ~ ~ ~ 1 1.2'
+      - mmoitems give GEM_STONE BLUE_GEM_LV5 %player_name% 1
+      - execute as %player_name% at @s run playsound entity.experience_orb.pickup master @s ~ ~ ~ 1 1.2
       Ignored_For_Permissions: []
     blue_gem_lv_6:
       Name: '&9&lLam Ngọc &e&lLv.VI'
       Weight: 0.3
       Rarity: common
       Broadcast: false
-      Placeholder_Apply: false
+      Placeholder_Apply: true
       Win_Limit:
         Player:
           Enabled: false
@@ -378,15 +378,15 @@ Rewards:
           CooldownStep: 1
       Items: []
       Commands:
-      - '[CONSOLE] mmoitems give GEM_STONE BLUE_GEM_LV6 %player_name% 1'
-      - '[CONSOLE] execute as %player_name% at @s run playsound entity.experience_orb.pickup master @s ~ ~ ~ 1 1.2'
+      - mmoitems give GEM_STONE BLUE_GEM_LV6 %player_name% 1
+      - execute as %player_name% at @s run playsound entity.experience_orb.pickup master @s ~ ~ ~ 1 1.2
       Ignored_For_Permissions: []
     blue_gem_lv_7:
       Name: '&9&lLam Ngọc &e&lLv.VII'
       Weight: 0.18
       Rarity: common
       Broadcast: false
-      Placeholder_Apply: false
+      Placeholder_Apply: true
       Win_Limit:
         Player:
           Enabled: false
@@ -400,15 +400,15 @@ Rewards:
           CooldownStep: 1
       Items: []
       Commands:
-      - '[CONSOLE] mmoitems give GEM_STONE BLUE_GEM_LV7 %player_name% 1'
-      - '[CONSOLE] execute as %player_name% at @s run playsound entity.experience_orb.pickup master @s ~ ~ ~ 1 1.2'
+      - mmoitems give GEM_STONE BLUE_GEM_LV7 %player_name% 1
+      - execute as %player_name% at @s run playsound entity.experience_orb.pickup master @s ~ ~ ~ 1 1.2
       Ignored_For_Permissions: []
     blue_gem_lv_8:
       Name: '&9&lLam Ngọc &e&lLv.VIII'
       Weight: 0.08
       Rarity: common
       Broadcast: true
-      Placeholder_Apply: false
+      Placeholder_Apply: true
       Win_Limit:
         Player:
           Enabled: false
@@ -422,17 +422,17 @@ Rewards:
           CooldownStep: 1
       Items: []
       Commands:
-      - '[CONSOLE] mmoitems give GEM_STONE BLUE_GEM_LV8 %player_name% 1'
-      - '[CONSOLE] broadcast &d&lCRATES &8» &fChúc mừng &b%player_name% &fvừa mở &eHòm Lam Ngọc &fnhận được &9&lLam Ngọc &e&lLv.VIII&f!'
-      - '[CONSOLE] execute as %player_name% at @s run playsound ui.toast.challenge_complete master @s ~ ~ ~ 1 1'
-      - '[CONSOLE] execute as %player_name% at @s run summon firework_rocket ~ ~ ~ {LifeTime:5,Motion:[0.0,1.2,0.0],FireworksItem:{id:"minecraft:firework_rocket",Count:1,tag:{Fireworks:{Explosions:[{Type:1,Colors:[I;16711680,16776960],FadeColors:[I;255]}]}}}}'
+      - mmoitems give GEM_STONE BLUE_GEM_LV8 %player_name% 1
+      - broadcast &d&lCRATES &8» &fChúc mừng &b%player_name% &fvừa mở &eHòm Lam Ngọc &fnhận được &9&lLam Ngọc &e&lLv.VIII&f!
+      - execute as %player_name% at @s run playsound ui.toast.challenge_complete master @s ~ ~ ~ 1 1
+      - execute as %player_name% at @s run summon firework_rocket ~ ~ ~ {LifeTime:5,Motion:[0.0,1.2,0.0],FireworksItem:{id:"minecraft:firework_rocket",Count:1,tag:{Fireworks:{Explosions:[{Type:1,Colors:[I;16711680,16776960],FadeColors:[I;255]}]}}}}
       Ignored_For_Permissions: []
     blue_gem_lv_9:
       Name: '&9&lLam Ngọc &e&lLv.IX'
       Weight: 0.03
       Rarity: common
       Broadcast: true
-      Placeholder_Apply: false
+      Placeholder_Apply: true
       Win_Limit:
         Player:
           Enabled: false
@@ -446,17 +446,17 @@ Rewards:
           CooldownStep: 1
       Items: []
       Commands:
-      - '[CONSOLE] mmoitems give GEM_STONE BLUE_GEM_LV9 %player_name% 1'
-      - '[CONSOLE] broadcast &d&lCRATES &8» &fChúc mừng &b%player_name% &fvừa mở &eHòm Lam Ngọc &fnhận được &9&lLam Ngọc &e&lLv.IX&f!'
-      - '[CONSOLE] execute as %player_name% at @s run playsound ui.toast.challenge_complete master @s ~ ~ ~ 1 1'
-      - '[CONSOLE] execute as %player_name% at @s run summon firework_rocket ~ ~ ~ {LifeTime:5,Motion:[0.0,1.2,0.0],FireworksItem:{id:"minecraft:firework_rocket",Count:1,tag:{Fireworks:{Explosions:[{Type:1,Colors:[I;16711680,16776960],FadeColors:[I;255]}]}}}}'
+      - mmoitems give GEM_STONE BLUE_GEM_LV9 %player_name% 1
+      - broadcast &d&lCRATES &8» &fChúc mừng &b%player_name% &fvừa mở &eHòm Lam Ngọc &fnhận được &9&lLam Ngọc &e&lLv.IX&f!
+      - execute as %player_name% at @s run playsound ui.toast.challenge_complete master @s ~ ~ ~ 1 1
+      - execute as %player_name% at @s run summon firework_rocket ~ ~ ~ {LifeTime:5,Motion:[0.0,1.2,0.0],FireworksItem:{id:"minecraft:firework_rocket",Count:1,tag:{Fireworks:{Explosions:[{Type:1,Colors:[I;16711680,16776960],FadeColors:[I;255]}]}}}}
       Ignored_For_Permissions: []
     blue_gem_lv_10:
       Name: '&9&lLam Ngọc &e&lLv.X'
       Weight: 0.01
       Rarity: common
       Broadcast: true
-      Placeholder_Apply: false
+      Placeholder_Apply: true
       Win_Limit:
         Player:
           Enabled: false
@@ -470,17 +470,17 @@ Rewards:
           CooldownStep: 1
       Items: []
       Commands:
-      - '[CONSOLE] mmoitems give GEM_STONE BLUE_GEM_LV10 %player_name% 1'
-      - '[CONSOLE] broadcast &d&lCRATES &8» &fChúc mừng &b%player_name% &fvừa mở &eHòm Lam Ngọc &fnhận được &9&lLam Ngọc &e&lLv.X&f!'
-      - '[CONSOLE] execute as %player_name% at @s run playsound ui.toast.challenge_complete master @s ~ ~ ~ 1 1'
-      - '[CONSOLE] execute as %player_name% at @s run summon firework_rocket ~ ~ ~ {LifeTime:5,Motion:[0.0,1.2,0.0],FireworksItem:{id:"minecraft:firework_rocket",Count:1,tag:{Fireworks:{Explosions:[{Type:1,Colors:[I;16711680,16776960],FadeColors:[I;255]}]}}}}'
+      - mmoitems give GEM_STONE BLUE_GEM_LV10 %player_name% 1
+      - broadcast &d&lCRATES &8» &fChúc mừng &b%player_name% &fvừa mở &eHòm Lam Ngọc &fnhận được &9&lLam Ngọc &e&lLv.X&f!
+      - execute as %player_name% at @s run playsound ui.toast.challenge_complete master @s ~ ~ ~ 1 1
+      - execute as %player_name% at @s run summon firework_rocket ~ ~ ~ {LifeTime:5,Motion:[0.0,1.2,0.0],FireworksItem:{id:"minecraft:firework_rocket",Count:1,tag:{Fireworks:{Explosions:[{Type:1,Colors:[I;16711680,16776960],FadeColors:[I;255]}]}}}}
       Ignored_For_Permissions: []
     green_gem_lv_1:
       Name: '&a&lLục Ngọc &e&lLv.I'
       Weight: 4.5
       Rarity: common
       Broadcast: false
-      Placeholder_Apply: false
+      Placeholder_Apply: true
       Win_Limit:
         Player:
           Enabled: false
@@ -494,15 +494,15 @@ Rewards:
           CooldownStep: 1
       Items: []
       Commands:
-      - '[CONSOLE] mmoitems give GEM_STONE GREEN_GEM_LV1 %player_name% 1'
-      - '[CONSOLE] execute as %player_name% at @s run playsound entity.experience_orb.pickup master @s ~ ~ ~ 1 1.2'
+      - mmoitems give GEM_STONE GREEN_GEM_LV1 %player_name% 1
+      - execute as %player_name% at @s run playsound entity.experience_orb.pickup master @s ~ ~ ~ 1 1.2
       Ignored_For_Permissions: []
     green_gem_lv_2:
       Name: '&a&lLục Ngọc &e&lLv.II'
       Weight: 2.5
       Rarity: common
       Broadcast: false
-      Placeholder_Apply: false
+      Placeholder_Apply: true
       Win_Limit:
         Player:
           Enabled: false
@@ -516,15 +516,15 @@ Rewards:
           CooldownStep: 1
       Items: []
       Commands:
-      - '[CONSOLE] mmoitems give GEM_STONE GREEN_GEM_LV2 %player_name% 1'
-      - '[CONSOLE] execute as %player_name% at @s run playsound entity.experience_orb.pickup master @s ~ ~ ~ 1 1.2'
+      - mmoitems give GEM_STONE GREEN_GEM_LV2 %player_name% 1
+      - execute as %player_name% at @s run playsound entity.experience_orb.pickup master @s ~ ~ ~ 1 1.2
       Ignored_For_Permissions: []
     green_gem_lv_3:
       Name: '&a&lLục Ngọc &e&lLv.III'
       Weight: 1.2
       Rarity: common
       Broadcast: false
-      Placeholder_Apply: false
+      Placeholder_Apply: true
       Win_Limit:
         Player:
           Enabled: false
@@ -538,15 +538,15 @@ Rewards:
           CooldownStep: 1
       Items: []
       Commands:
-      - '[CONSOLE] mmoitems give GEM_STONE GREEN_GEM_LV3 %player_name% 1'
-      - '[CONSOLE] execute as %player_name% at @s run playsound entity.experience_orb.pickup master @s ~ ~ ~ 1 1.2'
+      - mmoitems give GEM_STONE GREEN_GEM_LV3 %player_name% 1
+      - execute as %player_name% at @s run playsound entity.experience_orb.pickup master @s ~ ~ ~ 1 1.2
       Ignored_For_Permissions: []
     green_gem_lv_4:
       Name: '&a&lLục Ngọc &e&lLv.IV'
       Weight: 0.7
       Rarity: common
       Broadcast: false
-      Placeholder_Apply: false
+      Placeholder_Apply: true
       Win_Limit:
         Player:
           Enabled: false
@@ -560,15 +560,15 @@ Rewards:
           CooldownStep: 1
       Items: []
       Commands:
-      - '[CONSOLE] mmoitems give GEM_STONE GREEN_GEM_LV4 %player_name% 1'
-      - '[CONSOLE] execute as %player_name% at @s run playsound entity.experience_orb.pickup master @s ~ ~ ~ 1 1.2'
+      - mmoitems give GEM_STONE GREEN_GEM_LV4 %player_name% 1
+      - execute as %player_name% at @s run playsound entity.experience_orb.pickup master @s ~ ~ ~ 1 1.2
       Ignored_For_Permissions: []
     green_gem_lv_5:
       Name: '&a&lLục Ngọc &e&lLv.V'
       Weight: 0.5
       Rarity: common
       Broadcast: false
-      Placeholder_Apply: false
+      Placeholder_Apply: true
       Win_Limit:
         Player:
           Enabled: false
@@ -582,15 +582,15 @@ Rewards:
           CooldownStep: 1
       Items: []
       Commands:
-      - '[CONSOLE] mmoitems give GEM_STONE GREEN_GEM_LV5 %player_name% 1'
-      - '[CONSOLE] execute as %player_name% at @s run playsound entity.experience_orb.pickup master @s ~ ~ ~ 1 1.2'
+      - mmoitems give GEM_STONE GREEN_GEM_LV5 %player_name% 1
+      - execute as %player_name% at @s run playsound entity.experience_orb.pickup master @s ~ ~ ~ 1 1.2
       Ignored_For_Permissions: []
     green_gem_lv_6:
       Name: '&a&lLục Ngọc &e&lLv.VI'
       Weight: 0.3
       Rarity: common
       Broadcast: false
-      Placeholder_Apply: false
+      Placeholder_Apply: true
       Win_Limit:
         Player:
           Enabled: false
@@ -604,15 +604,15 @@ Rewards:
           CooldownStep: 1
       Items: []
       Commands:
-      - '[CONSOLE] mmoitems give GEM_STONE GREEN_GEM_LV6 %player_name% 1'
-      - '[CONSOLE] execute as %player_name% at @s run playsound entity.experience_orb.pickup master @s ~ ~ ~ 1 1.2'
+      - mmoitems give GEM_STONE GREEN_GEM_LV6 %player_name% 1
+      - execute as %player_name% at @s run playsound entity.experience_orb.pickup master @s ~ ~ ~ 1 1.2
       Ignored_For_Permissions: []
     green_gem_lv_7:
       Name: '&a&lLục Ngọc &e&lLv.VII'
       Weight: 0.18
       Rarity: common
       Broadcast: false
-      Placeholder_Apply: false
+      Placeholder_Apply: true
       Win_Limit:
         Player:
           Enabled: false
@@ -626,15 +626,15 @@ Rewards:
           CooldownStep: 1
       Items: []
       Commands:
-      - '[CONSOLE] mmoitems give GEM_STONE GREEN_GEM_LV7 %player_name% 1'
-      - '[CONSOLE] execute as %player_name% at @s run playsound entity.experience_orb.pickup master @s ~ ~ ~ 1 1.2'
+      - mmoitems give GEM_STONE GREEN_GEM_LV7 %player_name% 1
+      - execute as %player_name% at @s run playsound entity.experience_orb.pickup master @s ~ ~ ~ 1 1.2
       Ignored_For_Permissions: []
     green_gem_lv_8:
       Name: '&a&lLục Ngọc &e&lLv.VIII'
       Weight: 0.08
       Rarity: common
       Broadcast: true
-      Placeholder_Apply: false
+      Placeholder_Apply: true
       Win_Limit:
         Player:
           Enabled: false
@@ -648,17 +648,17 @@ Rewards:
           CooldownStep: 1
       Items: []
       Commands:
-      - '[CONSOLE] mmoitems give GEM_STONE GREEN_GEM_LV8 %player_name% 1'
-      - '[CONSOLE] broadcast &d&lCRATES &8» &fChúc mừng &b%player_name% &fvừa mở &eHòm Lục Ngọc &fnhận được &a&lLục Ngọc &e&lLv.VIII&f!'
-      - '[CONSOLE] execute as %player_name% at @s run playsound ui.toast.challenge_complete master @s ~ ~ ~ 1 1'
-      - '[CONSOLE] execute as %player_name% at @s run summon firework_rocket ~ ~ ~ {LifeTime:5,Motion:[0.0,1.2,0.0],FireworksItem:{id:"minecraft:firework_rocket",Count:1,tag:{Fireworks:{Explosions:[{Type:1,Colors:[I;16711680,16776960],FadeColors:[I;255]}]}}}}'
+      - mmoitems give GEM_STONE GREEN_GEM_LV8 %player_name% 1
+      - broadcast &d&lCRATES &8» &fChúc mừng &b%player_name% &fvừa mở &eHòm Lục Ngọc &fnhận được &a&lLục Ngọc &e&lLv.VIII&f!
+      - execute as %player_name% at @s run playsound ui.toast.challenge_complete master @s ~ ~ ~ 1 1
+      - execute as %player_name% at @s run summon firework_rocket ~ ~ ~ {LifeTime:5,Motion:[0.0,1.2,0.0],FireworksItem:{id:"minecraft:firework_rocket",Count:1,tag:{Fireworks:{Explosions:[{Type:1,Colors:[I;16711680,16776960],FadeColors:[I;255]}]}}}}
       Ignored_For_Permissions: []
     green_gem_lv_9:
       Name: '&a&lLục Ngọc &e&lLv.IX'
       Weight: 0.03
       Rarity: common
       Broadcast: true
-      Placeholder_Apply: false
+      Placeholder_Apply: true
       Win_Limit:
         Player:
           Enabled: false
@@ -672,17 +672,17 @@ Rewards:
           CooldownStep: 1
       Items: []
       Commands:
-      - '[CONSOLE] mmoitems give GEM_STONE GREEN_GEM_LV9 %player_name% 1'
-      - '[CONSOLE] broadcast &d&lCRATES &8» &fChúc mừng &b%player_name% &fvừa mở &eHòm Lục Ngọc &fnhận được &a&lLục Ngọc &e&lLv.IX&f!'
-      - '[CONSOLE] execute as %player_name% at @s run playsound ui.toast.challenge_complete master @s ~ ~ ~ 1 1'
-      - '[CONSOLE] execute as %player_name% at @s run summon firework_rocket ~ ~ ~ {LifeTime:5,Motion:[0.0,1.2,0.0],FireworksItem:{id:"minecraft:firework_rocket",Count:1,tag:{Fireworks:{Explosions:[{Type:1,Colors:[I;16711680,16776960],FadeColors:[I;255]}]}}}}'
+      - mmoitems give GEM_STONE GREEN_GEM_LV9 %player_name% 1
+      - broadcast &d&lCRATES &8» &fChúc mừng &b%player_name% &fvừa mở &eHòm Lục Ngọc &fnhận được &a&lLục Ngọc &e&lLv.IX&f!
+      - execute as %player_name% at @s run playsound ui.toast.challenge_complete master @s ~ ~ ~ 1 1
+      - execute as %player_name% at @s run summon firework_rocket ~ ~ ~ {LifeTime:5,Motion:[0.0,1.2,0.0],FireworksItem:{id:"minecraft:firework_rocket",Count:1,tag:{Fireworks:{Explosions:[{Type:1,Colors:[I;16711680,16776960],FadeColors:[I;255]}]}}}}
       Ignored_For_Permissions: []
     green_gem_lv_10:
       Name: '&a&lLục Ngọc &e&lLv.X'
       Weight: 0.01
       Rarity: common
       Broadcast: true
-      Placeholder_Apply: false
+      Placeholder_Apply: true
       Win_Limit:
         Player:
           Enabled: false
@@ -696,17 +696,17 @@ Rewards:
           CooldownStep: 1
       Items: []
       Commands:
-      - '[CONSOLE] mmoitems give GEM_STONE GREEN_GEM_LV10 %player_name% 1'
-      - '[CONSOLE] broadcast &d&lCRATES &8» &fChúc mừng &b%player_name% &fvừa mở &eHòm Lục Ngọc &fnhận được &a&lLục Ngọc &e&lLv.X&f!'
-      - '[CONSOLE] execute as %player_name% at @s run playsound ui.toast.challenge_complete master @s ~ ~ ~ 1 1'
-      - '[CONSOLE] execute as %player_name% at @s run summon firework_rocket ~ ~ ~ {LifeTime:5,Motion:[0.0,1.2,0.0],FireworksItem:{id:"minecraft:firework_rocket",Count:1,tag:{Fireworks:{Explosions:[{Type:1,Colors:[I;16711680,16776960],FadeColors:[I;255]}]}}}}'
+      - mmoitems give GEM_STONE GREEN_GEM_LV10 %player_name% 1
+      - broadcast &d&lCRATES &8» &fChúc mừng &b%player_name% &fvừa mở &eHòm Lục Ngọc &fnhận được &a&lLục Ngọc &e&lLv.X&f!
+      - execute as %player_name% at @s run playsound ui.toast.challenge_complete master @s ~ ~ ~ 1 1
+      - execute as %player_name% at @s run summon firework_rocket ~ ~ ~ {LifeTime:5,Motion:[0.0,1.2,0.0],FireworksItem:{id:"minecraft:firework_rocket",Count:1,tag:{Fireworks:{Explosions:[{Type:1,Colors:[I;16711680,16776960],FadeColors:[I;255]}]}}}}
       Ignored_For_Permissions: []
     yellow_gem_lv_1:
       Name: '&e&lHoàng Ngọc &e&lLv.I'
       Weight: 4.5
       Rarity: common
       Broadcast: false
-      Placeholder_Apply: false
+      Placeholder_Apply: true
       Win_Limit:
         Player:
           Enabled: false
@@ -720,15 +720,15 @@ Rewards:
           CooldownStep: 1
       Items: []
       Commands:
-      - '[CONSOLE] mmoitems give GEM_STONE YELLOW_GEM_LV1 %player_name% 1'
-      - '[CONSOLE] execute as %player_name% at @s run playsound entity.experience_orb.pickup master @s ~ ~ ~ 1 1.2'
+      - mmoitems give GEM_STONE YELLOW_GEM_LV1 %player_name% 1
+      - execute as %player_name% at @s run playsound entity.experience_orb.pickup master @s ~ ~ ~ 1 1.2
       Ignored_For_Permissions: []
     yellow_gem_lv_2:
       Name: '&e&lHoàng Ngọc &e&lLv.II'
       Weight: 2.5
       Rarity: common
       Broadcast: false
-      Placeholder_Apply: false
+      Placeholder_Apply: true
       Win_Limit:
         Player:
           Enabled: false
@@ -742,15 +742,15 @@ Rewards:
           CooldownStep: 1
       Items: []
       Commands:
-      - '[CONSOLE] mmoitems give GEM_STONE YELLOW_GEM_LV2 %player_name% 1'
-      - '[CONSOLE] execute as %player_name% at @s run playsound entity.experience_orb.pickup master @s ~ ~ ~ 1 1.2'
+      - mmoitems give GEM_STONE YELLOW_GEM_LV2 %player_name% 1
+      - execute as %player_name% at @s run playsound entity.experience_orb.pickup master @s ~ ~ ~ 1 1.2
       Ignored_For_Permissions: []
     yellow_gem_lv_3:
       Name: '&e&lHoàng Ngọc &e&lLv.III'
       Weight: 1.2
       Rarity: common
       Broadcast: false
-      Placeholder_Apply: false
+      Placeholder_Apply: true
       Win_Limit:
         Player:
           Enabled: false
@@ -764,15 +764,15 @@ Rewards:
           CooldownStep: 1
       Items: []
       Commands:
-      - '[CONSOLE] mmoitems give GEM_STONE YELLOW_GEM_LV3 %player_name% 1'
-      - '[CONSOLE] execute as %player_name% at @s run playsound entity.experience_orb.pickup master @s ~ ~ ~ 1 1.2'
+      - mmoitems give GEM_STONE YELLOW_GEM_LV3 %player_name% 1
+      - execute as %player_name% at @s run playsound entity.experience_orb.pickup master @s ~ ~ ~ 1 1.2
       Ignored_For_Permissions: []
     yellow_gem_lv_4:
       Name: '&e&lHoàng Ngọc &e&lLv.IV'
       Weight: 0.7
       Rarity: common
       Broadcast: false
-      Placeholder_Apply: false
+      Placeholder_Apply: true
       Win_Limit:
         Player:
           Enabled: false
@@ -786,15 +786,15 @@ Rewards:
           CooldownStep: 1
       Items: []
       Commands:
-      - '[CONSOLE] mmoitems give GEM_STONE YELLOW_GEM_LV4 %player_name% 1'
-      - '[CONSOLE] execute as %player_name% at @s run playsound entity.experience_orb.pickup master @s ~ ~ ~ 1 1.2'
+      - mmoitems give GEM_STONE YELLOW_GEM_LV4 %player_name% 1
+      - execute as %player_name% at @s run playsound entity.experience_orb.pickup master @s ~ ~ ~ 1 1.2
       Ignored_For_Permissions: []
     yellow_gem_lv_5:
       Name: '&e&lHoàng Ngọc &e&lLv.V'
       Weight: 0.5
       Rarity: common
       Broadcast: false
-      Placeholder_Apply: false
+      Placeholder_Apply: true
       Win_Limit:
         Player:
           Enabled: false
@@ -808,15 +808,15 @@ Rewards:
           CooldownStep: 1
       Items: []
       Commands:
-      - '[CONSOLE] mmoitems give GEM_STONE YELLOW_GEM_LV5 %player_name% 1'
-      - '[CONSOLE] execute as %player_name% at @s run playsound entity.experience_orb.pickup master @s ~ ~ ~ 1 1.2'
+      - mmoitems give GEM_STONE YELLOW_GEM_LV5 %player_name% 1
+      - execute as %player_name% at @s run playsound entity.experience_orb.pickup master @s ~ ~ ~ 1 1.2
       Ignored_For_Permissions: []
     yellow_gem_lv_6:
       Name: '&e&lHoàng Ngọc &e&lLv.VI'
       Weight: 0.3
       Rarity: common
       Broadcast: false
-      Placeholder_Apply: false
+      Placeholder_Apply: true
       Win_Limit:
         Player:
           Enabled: false
@@ -830,15 +830,15 @@ Rewards:
           CooldownStep: 1
       Items: []
       Commands:
-      - '[CONSOLE] mmoitems give GEM_STONE YELLOW_GEM_LV6 %player_name% 1'
-      - '[CONSOLE] execute as %player_name% at @s run playsound entity.experience_orb.pickup master @s ~ ~ ~ 1 1.2'
+      - mmoitems give GEM_STONE YELLOW_GEM_LV6 %player_name% 1
+      - execute as %player_name% at @s run playsound entity.experience_orb.pickup master @s ~ ~ ~ 1 1.2
       Ignored_For_Permissions: []
     yellow_gem_lv_7:
       Name: '&e&lHoàng Ngọc &e&lLv.VII'
       Weight: 0.18
       Rarity: common
       Broadcast: false
-      Placeholder_Apply: false
+      Placeholder_Apply: true
       Win_Limit:
         Player:
           Enabled: false
@@ -852,15 +852,15 @@ Rewards:
           CooldownStep: 1
       Items: []
       Commands:
-      - '[CONSOLE] mmoitems give GEM_STONE YELLOW_GEM_LV7 %player_name% 1'
-      - '[CONSOLE] execute as %player_name% at @s run playsound entity.experience_orb.pickup master @s ~ ~ ~ 1 1.2'
+      - mmoitems give GEM_STONE YELLOW_GEM_LV7 %player_name% 1
+      - execute as %player_name% at @s run playsound entity.experience_orb.pickup master @s ~ ~ ~ 1 1.2
       Ignored_For_Permissions: []
     yellow_gem_lv_8:
       Name: '&e&lHoàng Ngọc &e&lLv.VIII'
       Weight: 0.08
       Rarity: common
       Broadcast: true
-      Placeholder_Apply: false
+      Placeholder_Apply: true
       Win_Limit:
         Player:
           Enabled: false
@@ -874,17 +874,17 @@ Rewards:
           CooldownStep: 1
       Items: []
       Commands:
-      - '[CONSOLE] mmoitems give GEM_STONE YELLOW_GEM_LV8 %player_name% 1'
-      - '[CONSOLE] broadcast &d&lCRATES &8» &fChúc mừng &b%player_name% &fvừa mở &eHòm Hoàng Ngọc &fnhận được &e&lHoàng Ngọc &e&lLv.VIII&f!'
-      - '[CONSOLE] execute as %player_name% at @s run playsound ui.toast.challenge_complete master @s ~ ~ ~ 1 1'
-      - '[CONSOLE] execute as %player_name% at @s run summon firework_rocket ~ ~ ~ {LifeTime:5,Motion:[0.0,1.2,0.0],FireworksItem:{id:"minecraft:firework_rocket",Count:1,tag:{Fireworks:{Explosions:[{Type:1,Colors:[I;16711680,16776960],FadeColors:[I;255]}]}}}}'
+      - mmoitems give GEM_STONE YELLOW_GEM_LV8 %player_name% 1
+      - broadcast &d&lCRATES &8» &fChúc mừng &b%player_name% &fvừa mở &eHòm Hoàng Ngọc &fnhận được &e&lHoàng Ngọc &e&lLv.VIII&f!
+      - execute as %player_name% at @s run playsound ui.toast.challenge_complete master @s ~ ~ ~ 1 1
+      - execute as %player_name% at @s run summon firework_rocket ~ ~ ~ {LifeTime:5,Motion:[0.0,1.2,0.0],FireworksItem:{id:"minecraft:firework_rocket",Count:1,tag:{Fireworks:{Explosions:[{Type:1,Colors:[I;16711680,16776960],FadeColors:[I;255]}]}}}}
       Ignored_For_Permissions: []
     yellow_gem_lv_9:
       Name: '&e&lHoàng Ngọc &e&lLv.IX'
       Weight: 0.03
       Rarity: common
       Broadcast: true
-      Placeholder_Apply: false
+      Placeholder_Apply: true
       Win_Limit:
         Player:
           Enabled: false
@@ -898,17 +898,17 @@ Rewards:
           CooldownStep: 1
       Items: []
       Commands:
-      - '[CONSOLE] mmoitems give GEM_STONE YELLOW_GEM_LV9 %player_name% 1'
-      - '[CONSOLE] broadcast &d&lCRATES &8» &fChúc mừng &b%player_name% &fvừa mở &eHòm Hoàng Ngọc &fnhận được &e&lHoàng Ngọc &e&lLv.IX&f!'
-      - '[CONSOLE] execute as %player_name% at @s run playsound ui.toast.challenge_complete master @s ~ ~ ~ 1 1'
-      - '[CONSOLE] execute as %player_name% at @s run summon firework_rocket ~ ~ ~ {LifeTime:5,Motion:[0.0,1.2,0.0],FireworksItem:{id:"minecraft:firework_rocket",Count:1,tag:{Fireworks:{Explosions:[{Type:1,Colors:[I;16711680,16776960],FadeColors:[I;255]}]}}}}'
+      - mmoitems give GEM_STONE YELLOW_GEM_LV9 %player_name% 1
+      - broadcast &d&lCRATES &8» &fChúc mừng &b%player_name% &fvừa mở &eHòm Hoàng Ngọc &fnhận được &e&lHoàng Ngọc &e&lLv.IX&f!
+      - execute as %player_name% at @s run playsound ui.toast.challenge_complete master @s ~ ~ ~ 1 1
+      - execute as %player_name% at @s run summon firework_rocket ~ ~ ~ {LifeTime:5,Motion:[0.0,1.2,0.0],FireworksItem:{id:"minecraft:firework_rocket",Count:1,tag:{Fireworks:{Explosions:[{Type:1,Colors:[I;16711680,16776960],FadeColors:[I;255]}]}}}}
       Ignored_For_Permissions: []
     yellow_gem_lv_10:
       Name: '&e&lHoàng Ngọc &e&lLv.X'
       Weight: 0.01
       Rarity: common
       Broadcast: true
-      Placeholder_Apply: false
+      Placeholder_Apply: true
       Win_Limit:
         Player:
           Enabled: false
@@ -922,17 +922,17 @@ Rewards:
           CooldownStep: 1
       Items: []
       Commands:
-      - '[CONSOLE] mmoitems give GEM_STONE YELLOW_GEM_LV10 %player_name% 1'
-      - '[CONSOLE] broadcast &d&lCRATES &8» &fChúc mừng &b%player_name% &fvừa mở &eHòm Hoàng Ngọc &fnhận được &e&lHoàng Ngọc &e&lLv.X&f!'
-      - '[CONSOLE] execute as %player_name% at @s run playsound ui.toast.challenge_complete master @s ~ ~ ~ 1 1'
-      - '[CONSOLE] execute as %player_name% at @s run summon firework_rocket ~ ~ ~ {LifeTime:5,Motion:[0.0,1.2,0.0],FireworksItem:{id:"minecraft:firework_rocket",Count:1,tag:{Fireworks:{Explosions:[{Type:1,Colors:[I;16711680,16776960],FadeColors:[I;255]}]}}}}'
+      - mmoitems give GEM_STONE YELLOW_GEM_LV10 %player_name% 1
+      - broadcast &d&lCRATES &8» &fChúc mừng &b%player_name% &fvừa mở &eHòm Hoàng Ngọc &fnhận được &e&lHoàng Ngọc &e&lLv.X&f!
+      - execute as %player_name% at @s run playsound ui.toast.challenge_complete master @s ~ ~ ~ 1 1
+      - execute as %player_name% at @s run summon firework_rocket ~ ~ ~ {LifeTime:5,Motion:[0.0,1.2,0.0],FireworksItem:{id:"minecraft:firework_rocket",Count:1,tag:{Fireworks:{Explosions:[{Type:1,Colors:[I;16711680,16776960],FadeColors:[I;255]}]}}}}
       Ignored_For_Permissions: []
     purple_gem_lv_1:
       Name: '&5&lTử Ngọc &e&lLv.I'
       Weight: 4.5
       Rarity: common
       Broadcast: false
-      Placeholder_Apply: false
+      Placeholder_Apply: true
       Win_Limit:
         Player:
           Enabled: false
@@ -946,15 +946,15 @@ Rewards:
           CooldownStep: 1
       Items: []
       Commands:
-      - '[CONSOLE] mmoitems give GEM_STONE PURPLE_GEM_LV1 %player_name% 1'
-      - '[CONSOLE] execute as %player_name% at @s run playsound entity.experience_orb.pickup master @s ~ ~ ~ 1 1.2'
+      - mmoitems give GEM_STONE PURPLE_GEM_LV1 %player_name% 1
+      - execute as %player_name% at @s run playsound entity.experience_orb.pickup master @s ~ ~ ~ 1 1.2
       Ignored_For_Permissions: []
     purple_gem_lv_2:
       Name: '&5&lTử Ngọc &e&lLv.II'
       Weight: 2.5
       Rarity: common
       Broadcast: false
-      Placeholder_Apply: false
+      Placeholder_Apply: true
       Win_Limit:
         Player:
           Enabled: false
@@ -968,15 +968,15 @@ Rewards:
           CooldownStep: 1
       Items: []
       Commands:
-      - '[CONSOLE] mmoitems give GEM_STONE PURPLE_GEM_LV2 %player_name% 1'
-      - '[CONSOLE] execute as %player_name% at @s run playsound entity.experience_orb.pickup master @s ~ ~ ~ 1 1.2'
+      - mmoitems give GEM_STONE PURPLE_GEM_LV2 %player_name% 1
+      - execute as %player_name% at @s run playsound entity.experience_orb.pickup master @s ~ ~ ~ 1 1.2
       Ignored_For_Permissions: []
     purple_gem_lv_3:
       Name: '&5&lTử Ngọc &e&lLv.III'
       Weight: 1.2
       Rarity: common
       Broadcast: false
-      Placeholder_Apply: false
+      Placeholder_Apply: true
       Win_Limit:
         Player:
           Enabled: false
@@ -990,15 +990,15 @@ Rewards:
           CooldownStep: 1
       Items: []
       Commands:
-      - '[CONSOLE] mmoitems give GEM_STONE PURPLE_GEM_LV3 %player_name% 1'
-      - '[CONSOLE] execute as %player_name% at @s run playsound entity.experience_orb.pickup master @s ~ ~ ~ 1 1.2'
+      - mmoitems give GEM_STONE PURPLE_GEM_LV3 %player_name% 1
+      - execute as %player_name% at @s run playsound entity.experience_orb.pickup master @s ~ ~ ~ 1 1.2
       Ignored_For_Permissions: []
     purple_gem_lv_4:
       Name: '&5&lTử Ngọc &e&lLv.IV'
       Weight: 0.7
       Rarity: common
       Broadcast: false
-      Placeholder_Apply: false
+      Placeholder_Apply: true
       Win_Limit:
         Player:
           Enabled: false
@@ -1012,15 +1012,15 @@ Rewards:
           CooldownStep: 1
       Items: []
       Commands:
-      - '[CONSOLE] mmoitems give GEM_STONE PURPLE_GEM_LV4 %player_name% 1'
-      - '[CONSOLE] execute as %player_name% at @s run playsound entity.experience_orb.pickup master @s ~ ~ ~ 1 1.2'
+      - mmoitems give GEM_STONE PURPLE_GEM_LV4 %player_name% 1
+      - execute as %player_name% at @s run playsound entity.experience_orb.pickup master @s ~ ~ ~ 1 1.2
       Ignored_For_Permissions: []
     purple_gem_lv_5:
       Name: '&5&lTử Ngọc &e&lLv.V'
       Weight: 0.5
       Rarity: common
       Broadcast: false
-      Placeholder_Apply: false
+      Placeholder_Apply: true
       Win_Limit:
         Player:
           Enabled: false
@@ -1034,15 +1034,15 @@ Rewards:
           CooldownStep: 1
       Items: []
       Commands:
-      - '[CONSOLE] mmoitems give GEM_STONE PURPLE_GEM_LV5 %player_name% 1'
-      - '[CONSOLE] execute as %player_name% at @s run playsound entity.experience_orb.pickup master @s ~ ~ ~ 1 1.2'
+      - mmoitems give GEM_STONE PURPLE_GEM_LV5 %player_name% 1
+      - execute as %player_name% at @s run playsound entity.experience_orb.pickup master @s ~ ~ ~ 1 1.2
       Ignored_For_Permissions: []
     purple_gem_lv_6:
       Name: '&5&lTử Ngọc &e&lLv.VI'
       Weight: 0.3
       Rarity: common
       Broadcast: false
-      Placeholder_Apply: false
+      Placeholder_Apply: true
       Win_Limit:
         Player:
           Enabled: false
@@ -1056,15 +1056,15 @@ Rewards:
           CooldownStep: 1
       Items: []
       Commands:
-      - '[CONSOLE] mmoitems give GEM_STONE PURPLE_GEM_LV6 %player_name% 1'
-      - '[CONSOLE] execute as %player_name% at @s run playsound entity.experience_orb.pickup master @s ~ ~ ~ 1 1.2'
+      - mmoitems give GEM_STONE PURPLE_GEM_LV6 %player_name% 1
+      - execute as %player_name% at @s run playsound entity.experience_orb.pickup master @s ~ ~ ~ 1 1.2
       Ignored_For_Permissions: []
     purple_gem_lv_7:
       Name: '&5&lTử Ngọc &e&lLv.VII'
       Weight: 0.18
       Rarity: common
       Broadcast: false
-      Placeholder_Apply: false
+      Placeholder_Apply: true
       Win_Limit:
         Player:
           Enabled: false
@@ -1078,15 +1078,15 @@ Rewards:
           CooldownStep: 1
       Items: []
       Commands:
-      - '[CONSOLE] mmoitems give GEM_STONE PURPLE_GEM_LV7 %player_name% 1'
-      - '[CONSOLE] execute as %player_name% at @s run playsound entity.experience_orb.pickup master @s ~ ~ ~ 1 1.2'
+      - mmoitems give GEM_STONE PURPLE_GEM_LV7 %player_name% 1
+      - execute as %player_name% at @s run playsound entity.experience_orb.pickup master @s ~ ~ ~ 1 1.2
       Ignored_For_Permissions: []
     purple_gem_lv_8:
       Name: '&5&lTử Ngọc &e&lLv.VIII'
       Weight: 0.08
       Rarity: common
       Broadcast: true
-      Placeholder_Apply: false
+      Placeholder_Apply: true
       Win_Limit:
         Player:
           Enabled: false
@@ -1100,17 +1100,17 @@ Rewards:
           CooldownStep: 1
       Items: []
       Commands:
-      - '[CONSOLE] mmoitems give GEM_STONE PURPLE_GEM_LV8 %player_name% 1'
-      - '[CONSOLE] broadcast &d&lCRATES &8» &fChúc mừng &b%player_name% &fvừa mở &eHòm Tử Ngọc &fnhận được &5&lTử Ngọc &e&lLv.VIII&f!'
-      - '[CONSOLE] execute as %player_name% at @s run playsound ui.toast.challenge_complete master @s ~ ~ ~ 1 1'
-      - '[CONSOLE] execute as %player_name% at @s run summon firework_rocket ~ ~ ~ {LifeTime:5,Motion:[0.0,1.2,0.0],FireworksItem:{id:"minecraft:firework_rocket",Count:1,tag:{Fireworks:{Explosions:[{Type:1,Colors:[I;16711680,16776960],FadeColors:[I;255]}]}}}}'
+      - mmoitems give GEM_STONE PURPLE_GEM_LV8 %player_name% 1
+      - broadcast &d&lCRATES &8» &fChúc mừng &b%player_name% &fvừa mở &eHòm Tử Ngọc &fnhận được &5&lTử Ngọc &e&lLv.VIII&f!
+      - execute as %player_name% at @s run playsound ui.toast.challenge_complete master @s ~ ~ ~ 1 1
+      - execute as %player_name% at @s run summon firework_rocket ~ ~ ~ {LifeTime:5,Motion:[0.0,1.2,0.0],FireworksItem:{id:"minecraft:firework_rocket",Count:1,tag:{Fireworks:{Explosions:[{Type:1,Colors:[I;16711680,16776960],FadeColors:[I;255]}]}}}}
       Ignored_For_Permissions: []
     purple_gem_lv_9:
       Name: '&5&lTử Ngọc &e&lLv.IX'
       Weight: 0.03
       Rarity: common
       Broadcast: true
-      Placeholder_Apply: false
+      Placeholder_Apply: true
       Win_Limit:
         Player:
           Enabled: false
@@ -1124,17 +1124,17 @@ Rewards:
           CooldownStep: 1
       Items: []
       Commands:
-      - '[CONSOLE] mmoitems give GEM_STONE PURPLE_GEM_LV9 %player_name% 1'
-      - '[CONSOLE] broadcast &d&lCRATES &8» &fChúc mừng &b%player_name% &fvừa mở &eHòm Tử Ngọc &fnhận được &5&lTử Ngọc &e&lLv.IX&f!'
-      - '[CONSOLE] execute as %player_name% at @s run playsound ui.toast.challenge_complete master @s ~ ~ ~ 1 1'
-      - '[CONSOLE] execute as %player_name% at @s run summon firework_rocket ~ ~ ~ {LifeTime:5,Motion:[0.0,1.2,0.0],FireworksItem:{id:"minecraft:firework_rocket",Count:1,tag:{Fireworks:{Explosions:[{Type:1,Colors:[I;16711680,16776960],FadeColors:[I;255]}]}}}}'
+      - mmoitems give GEM_STONE PURPLE_GEM_LV9 %player_name% 1
+      - broadcast &d&lCRATES &8» &fChúc mừng &b%player_name% &fvừa mở &eHòm Tử Ngọc &fnhận được &5&lTử Ngọc &e&lLv.IX&f!
+      - execute as %player_name% at @s run playsound ui.toast.challenge_complete master @s ~ ~ ~ 1 1
+      - execute as %player_name% at @s run summon firework_rocket ~ ~ ~ {LifeTime:5,Motion:[0.0,1.2,0.0],FireworksItem:{id:"minecraft:firework_rocket",Count:1,tag:{Fireworks:{Explosions:[{Type:1,Colors:[I;16711680,16776960],FadeColors:[I;255]}]}}}}
       Ignored_For_Permissions: []
     purple_gem_lv_10:
       Name: '&5&lTử Ngọc &e&lLv.X'
       Weight: 0.01
       Rarity: common
       Broadcast: true
-      Placeholder_Apply: false
+      Placeholder_Apply: true
       Win_Limit:
         Player:
           Enabled: false
@@ -1148,17 +1148,17 @@ Rewards:
           CooldownStep: 1
       Items: []
       Commands:
-      - '[CONSOLE] mmoitems give GEM_STONE PURPLE_GEM_LV10 %player_name% 1'
-      - '[CONSOLE] broadcast &d&lCRATES &8» &fChúc mừng &b%player_name% &fvừa mở &eHòm Tử Ngọc &fnhận được &5&lTử Ngọc &e&lLv.X&f!'
-      - '[CONSOLE] execute as %player_name% at @s run playsound ui.toast.challenge_complete master @s ~ ~ ~ 1 1'
-      - '[CONSOLE] execute as %player_name% at @s run summon firework_rocket ~ ~ ~ {LifeTime:5,Motion:[0.0,1.2,0.0],FireworksItem:{id:"minecraft:firework_rocket",Count:1,tag:{Fireworks:{Explosions:[{Type:1,Colors:[I;16711680,16776960],FadeColors:[I;255]}]}}}}'
+      - mmoitems give GEM_STONE PURPLE_GEM_LV10 %player_name% 1
+      - broadcast &d&lCRATES &8» &fChúc mừng &b%player_name% &fvừa mở &eHòm Tử Ngọc &fnhận được &5&lTử Ngọc &e&lLv.X&f!
+      - execute as %player_name% at @s run playsound ui.toast.challenge_complete master @s ~ ~ ~ 1 1
+      - execute as %player_name% at @s run summon firework_rocket ~ ~ ~ {LifeTime:5,Motion:[0.0,1.2,0.0],FireworksItem:{id:"minecraft:firework_rocket",Count:1,tag:{Fireworks:{Explosions:[{Type:1,Colors:[I;16711680,16776960],FadeColors:[I;255]}]}}}}
       Ignored_For_Permissions: []
     cyan_gem_lv_1:
       Name: '&b&lBăng Ngọc &e&lLv.I'
       Weight: 4.5
       Rarity: common
       Broadcast: false
-      Placeholder_Apply: false
+      Placeholder_Apply: true
       Win_Limit:
         Player:
           Enabled: false
@@ -1172,15 +1172,15 @@ Rewards:
           CooldownStep: 1
       Items: []
       Commands:
-      - '[CONSOLE] mmoitems give GEM_STONE CYAN_GEM_LV1 %player_name% 1'
-      - '[CONSOLE] execute as %player_name% at @s run playsound entity.experience_orb.pickup master @s ~ ~ ~ 1 1.2'
+      - mmoitems give GEM_STONE CYAN_GEM_LV1 %player_name% 1
+      - execute as %player_name% at @s run playsound entity.experience_orb.pickup master @s ~ ~ ~ 1 1.2
       Ignored_For_Permissions: []
     cyan_gem_lv_2:
       Name: '&b&lBăng Ngọc &e&lLv.II'
       Weight: 2.5
       Rarity: common
       Broadcast: false
-      Placeholder_Apply: false
+      Placeholder_Apply: true
       Win_Limit:
         Player:
           Enabled: false
@@ -1194,15 +1194,15 @@ Rewards:
           CooldownStep: 1
       Items: []
       Commands:
-      - '[CONSOLE] mmoitems give GEM_STONE CYAN_GEM_LV2 %player_name% 1'
-      - '[CONSOLE] execute as %player_name% at @s run playsound entity.experience_orb.pickup master @s ~ ~ ~ 1 1.2'
+      - mmoitems give GEM_STONE CYAN_GEM_LV2 %player_name% 1
+      - execute as %player_name% at @s run playsound entity.experience_orb.pickup master @s ~ ~ ~ 1 1.2
       Ignored_For_Permissions: []
     cyan_gem_lv_3:
       Name: '&b&lBăng Ngọc &e&lLv.III'
       Weight: 1.2
       Rarity: common
       Broadcast: false
-      Placeholder_Apply: false
+      Placeholder_Apply: true
       Win_Limit:
         Player:
           Enabled: false
@@ -1216,15 +1216,15 @@ Rewards:
           CooldownStep: 1
       Items: []
       Commands:
-      - '[CONSOLE] mmoitems give GEM_STONE CYAN_GEM_LV3 %player_name% 1'
-      - '[CONSOLE] execute as %player_name% at @s run playsound entity.experience_orb.pickup master @s ~ ~ ~ 1 1.2'
+      - mmoitems give GEM_STONE CYAN_GEM_LV3 %player_name% 1
+      - execute as %player_name% at @s run playsound entity.experience_orb.pickup master @s ~ ~ ~ 1 1.2
       Ignored_For_Permissions: []
     cyan_gem_lv_4:
       Name: '&b&lBăng Ngọc &e&lLv.IV'
       Weight: 0.7
       Rarity: common
       Broadcast: false
-      Placeholder_Apply: false
+      Placeholder_Apply: true
       Win_Limit:
         Player:
           Enabled: false
@@ -1238,15 +1238,15 @@ Rewards:
           CooldownStep: 1
       Items: []
       Commands:
-      - '[CONSOLE] mmoitems give GEM_STONE CYAN_GEM_LV4 %player_name% 1'
-      - '[CONSOLE] execute as %player_name% at @s run playsound entity.experience_orb.pickup master @s ~ ~ ~ 1 1.2'
+      - mmoitems give GEM_STONE CYAN_GEM_LV4 %player_name% 1
+      - execute as %player_name% at @s run playsound entity.experience_orb.pickup master @s ~ ~ ~ 1 1.2
       Ignored_For_Permissions: []
     cyan_gem_lv_5:
       Name: '&b&lBăng Ngọc &e&lLv.V'
       Weight: 0.5
       Rarity: common
       Broadcast: false
-      Placeholder_Apply: false
+      Placeholder_Apply: true
       Win_Limit:
         Player:
           Enabled: false
@@ -1260,15 +1260,15 @@ Rewards:
           CooldownStep: 1
       Items: []
       Commands:
-      - '[CONSOLE] mmoitems give GEM_STONE CYAN_GEM_LV5 %player_name% 1'
-      - '[CONSOLE] execute as %player_name% at @s run playsound entity.experience_orb.pickup master @s ~ ~ ~ 1 1.2'
+      - mmoitems give GEM_STONE CYAN_GEM_LV5 %player_name% 1
+      - execute as %player_name% at @s run playsound entity.experience_orb.pickup master @s ~ ~ ~ 1 1.2
       Ignored_For_Permissions: []
     cyan_gem_lv_6:
       Name: '&b&lBăng Ngọc &e&lLv.VI'
       Weight: 0.3
       Rarity: common
       Broadcast: false
-      Placeholder_Apply: false
+      Placeholder_Apply: true
       Win_Limit:
         Player:
           Enabled: false
@@ -1282,15 +1282,15 @@ Rewards:
           CooldownStep: 1
       Items: []
       Commands:
-      - '[CONSOLE] mmoitems give GEM_STONE CYAN_GEM_LV6 %player_name% 1'
-      - '[CONSOLE] execute as %player_name% at @s run playsound entity.experience_orb.pickup master @s ~ ~ ~ 1 1.2'
+      - mmoitems give GEM_STONE CYAN_GEM_LV6 %player_name% 1
+      - execute as %player_name% at @s run playsound entity.experience_orb.pickup master @s ~ ~ ~ 1 1.2
       Ignored_For_Permissions: []
     cyan_gem_lv_7:
       Name: '&b&lBăng Ngọc &e&lLv.VII'
       Weight: 0.18
       Rarity: common
       Broadcast: false
-      Placeholder_Apply: false
+      Placeholder_Apply: true
       Win_Limit:
         Player:
           Enabled: false
@@ -1304,15 +1304,15 @@ Rewards:
           CooldownStep: 1
       Items: []
       Commands:
-      - '[CONSOLE] mmoitems give GEM_STONE CYAN_GEM_LV7 %player_name% 1'
-      - '[CONSOLE] execute as %player_name% at @s run playsound entity.experience_orb.pickup master @s ~ ~ ~ 1 1.2'
+      - mmoitems give GEM_STONE CYAN_GEM_LV7 %player_name% 1
+      - execute as %player_name% at @s run playsound entity.experience_orb.pickup master @s ~ ~ ~ 1 1.2
       Ignored_For_Permissions: []
     cyan_gem_lv_8:
       Name: '&b&lBăng Ngọc &e&lLv.VIII'
       Weight: 0.08
       Rarity: common
       Broadcast: true
-      Placeholder_Apply: false
+      Placeholder_Apply: true
       Win_Limit:
         Player:
           Enabled: false
@@ -1326,17 +1326,17 @@ Rewards:
           CooldownStep: 1
       Items: []
       Commands:
-      - '[CONSOLE] mmoitems give GEM_STONE CYAN_GEM_LV8 %player_name% 1'
-      - '[CONSOLE] broadcast &d&lCRATES &8» &fChúc mừng &b%player_name% &fvừa mở &eHòm Băng Ngọc &fnhận được &b&lBăng Ngọc &e&lLv.VIII&f!'
-      - '[CONSOLE] execute as %player_name% at @s run playsound ui.toast.challenge_complete master @s ~ ~ ~ 1 1'
-      - '[CONSOLE] execute as %player_name% at @s run summon firework_rocket ~ ~ ~ {LifeTime:5,Motion:[0.0,1.2,0.0],FireworksItem:{id:"minecraft:firework_rocket",Count:1,tag:{Fireworks:{Explosions:[{Type:1,Colors:[I;16711680,16776960],FadeColors:[I;255]}]}}}}'
+      - mmoitems give GEM_STONE CYAN_GEM_LV8 %player_name% 1
+      - broadcast &d&lCRATES &8» &fChúc mừng &b%player_name% &fvừa mở &eHòm Băng Ngọc &fnhận được &b&lBăng Ngọc &e&lLv.VIII&f!
+      - execute as %player_name% at @s run playsound ui.toast.challenge_complete master @s ~ ~ ~ 1 1
+      - execute as %player_name% at @s run summon firework_rocket ~ ~ ~ {LifeTime:5,Motion:[0.0,1.2,0.0],FireworksItem:{id:"minecraft:firework_rocket",Count:1,tag:{Fireworks:{Explosions:[{Type:1,Colors:[I;16711680,16776960],FadeColors:[I;255]}]}}}}
       Ignored_For_Permissions: []
     cyan_gem_lv_9:
       Name: '&b&lBăng Ngọc &e&lLv.IX'
       Weight: 0.03
       Rarity: common
       Broadcast: true
-      Placeholder_Apply: false
+      Placeholder_Apply: true
       Win_Limit:
         Player:
           Enabled: false
@@ -1350,17 +1350,17 @@ Rewards:
           CooldownStep: 1
       Items: []
       Commands:
-      - '[CONSOLE] mmoitems give GEM_STONE CYAN_GEM_LV9 %player_name% 1'
-      - '[CONSOLE] broadcast &d&lCRATES &8» &fChúc mừng &b%player_name% &fvừa mở &eHòm Băng Ngọc &fnhận được &b&lBăng Ngọc &e&lLv.IX&f!'
-      - '[CONSOLE] execute as %player_name% at @s run playsound ui.toast.challenge_complete master @s ~ ~ ~ 1 1'
-      - '[CONSOLE] execute as %player_name% at @s run summon firework_rocket ~ ~ ~ {LifeTime:5,Motion:[0.0,1.2,0.0],FireworksItem:{id:"minecraft:firework_rocket",Count:1,tag:{Fireworks:{Explosions:[{Type:1,Colors:[I;16711680,16776960],FadeColors:[I;255]}]}}}}'
+      - mmoitems give GEM_STONE CYAN_GEM_LV9 %player_name% 1
+      - broadcast &d&lCRATES &8» &fChúc mừng &b%player_name% &fvừa mở &eHòm Băng Ngọc &fnhận được &b&lBăng Ngọc &e&lLv.IX&f!
+      - execute as %player_name% at @s run playsound ui.toast.challenge_complete master @s ~ ~ ~ 1 1
+      - execute as %player_name% at @s run summon firework_rocket ~ ~ ~ {LifeTime:5,Motion:[0.0,1.2,0.0],FireworksItem:{id:"minecraft:firework_rocket",Count:1,tag:{Fireworks:{Explosions:[{Type:1,Colors:[I;16711680,16776960],FadeColors:[I;255]}]}}}}
       Ignored_For_Permissions: []
     cyan_gem_lv_10:
       Name: '&b&lBăng Ngọc &e&lLv.X'
       Weight: 0.01
       Rarity: common
       Broadcast: true
-      Placeholder_Apply: false
+      Placeholder_Apply: true
       Win_Limit:
         Player:
           Enabled: false
@@ -1374,17 +1374,17 @@ Rewards:
           CooldownStep: 1
       Items: []
       Commands:
-      - '[CONSOLE] mmoitems give GEM_STONE CYAN_GEM_LV10 %player_name% 1'
-      - '[CONSOLE] broadcast &d&lCRATES &8» &fChúc mừng &b%player_name% &fvừa mở &eHòm Băng Ngọc &fnhận được &b&lBăng Ngọc &e&lLv.X&f!'
-      - '[CONSOLE] execute as %player_name% at @s run playsound ui.toast.challenge_complete master @s ~ ~ ~ 1 1'
-      - '[CONSOLE] execute as %player_name% at @s run summon firework_rocket ~ ~ ~ {LifeTime:5,Motion:[0.0,1.2,0.0],FireworksItem:{id:"minecraft:firework_rocket",Count:1,tag:{Fireworks:{Explosions:[{Type:1,Colors:[I;16711680,16776960],FadeColors:[I;255]}]}}}}'
+      - mmoitems give GEM_STONE CYAN_GEM_LV10 %player_name% 1
+      - broadcast &d&lCRATES &8» &fChúc mừng &b%player_name% &fvừa mở &eHòm Băng Ngọc &fnhận được &b&lBăng Ngọc &e&lLv.X&f!
+      - execute as %player_name% at @s run playsound ui.toast.challenge_complete master @s ~ ~ ~ 1 1
+      - execute as %player_name% at @s run summon firework_rocket ~ ~ ~ {LifeTime:5,Motion:[0.0,1.2,0.0],FireworksItem:{id:"minecraft:firework_rocket",Count:1,tag:{Fireworks:{Explosions:[{Type:1,Colors:[I;16711680,16776960],FadeColors:[I;255]}]}}}}
       Ignored_For_Permissions: []
     black_gem_lv_1:
       Name: '&8&lHắc Ngọc &e&lLv.I'
       Weight: 4.5
       Rarity: common
       Broadcast: false
-      Placeholder_Apply: false
+      Placeholder_Apply: true
       Win_Limit:
         Player:
           Enabled: false
@@ -1398,15 +1398,15 @@ Rewards:
           CooldownStep: 1
       Items: []
       Commands:
-      - '[CONSOLE] mmoitems give GEM_STONE BLACK_GEM_LV1 %player_name% 1'
-      - '[CONSOLE] execute as %player_name% at @s run playsound entity.experience_orb.pickup master @s ~ ~ ~ 1 1.2'
+      - mmoitems give GEM_STONE BLACK_GEM_LV1 %player_name% 1
+      - execute as %player_name% at @s run playsound entity.experience_orb.pickup master @s ~ ~ ~ 1 1.2
       Ignored_For_Permissions: []
     black_gem_lv_2:
       Name: '&8&lHắc Ngọc &e&lLv.II'
       Weight: 2.5
       Rarity: common
       Broadcast: false
-      Placeholder_Apply: false
+      Placeholder_Apply: true
       Win_Limit:
         Player:
           Enabled: false
@@ -1420,15 +1420,15 @@ Rewards:
           CooldownStep: 1
       Items: []
       Commands:
-      - '[CONSOLE] mmoitems give GEM_STONE BLACK_GEM_LV2 %player_name% 1'
-      - '[CONSOLE] execute as %player_name% at @s run playsound entity.experience_orb.pickup master @s ~ ~ ~ 1 1.2'
+      - mmoitems give GEM_STONE BLACK_GEM_LV2 %player_name% 1
+      - execute as %player_name% at @s run playsound entity.experience_orb.pickup master @s ~ ~ ~ 1 1.2
       Ignored_For_Permissions: []
     black_gem_lv_3:
       Name: '&8&lHắc Ngọc &e&lLv.III'
       Weight: 1.2
       Rarity: common
       Broadcast: false
-      Placeholder_Apply: false
+      Placeholder_Apply: true
       Win_Limit:
         Player:
           Enabled: false
@@ -1442,15 +1442,15 @@ Rewards:
           CooldownStep: 1
       Items: []
       Commands:
-      - '[CONSOLE] mmoitems give GEM_STONE BLACK_GEM_LV3 %player_name% 1'
-      - '[CONSOLE] execute as %player_name% at @s run playsound entity.experience_orb.pickup master @s ~ ~ ~ 1 1.2'
+      - mmoitems give GEM_STONE BLACK_GEM_LV3 %player_name% 1
+      - execute as %player_name% at @s run playsound entity.experience_orb.pickup master @s ~ ~ ~ 1 1.2
       Ignored_For_Permissions: []
     black_gem_lv_4:
       Name: '&8&lHắc Ngọc &e&lLv.IV'
       Weight: 0.7
       Rarity: common
       Broadcast: false
-      Placeholder_Apply: false
+      Placeholder_Apply: true
       Win_Limit:
         Player:
           Enabled: false
@@ -1464,15 +1464,15 @@ Rewards:
           CooldownStep: 1
       Items: []
       Commands:
-      - '[CONSOLE] mmoitems give GEM_STONE BLACK_GEM_LV4 %player_name% 1'
-      - '[CONSOLE] execute as %player_name% at @s run playsound entity.experience_orb.pickup master @s ~ ~ ~ 1 1.2'
+      - mmoitems give GEM_STONE BLACK_GEM_LV4 %player_name% 1
+      - execute as %player_name% at @s run playsound entity.experience_orb.pickup master @s ~ ~ ~ 1 1.2
       Ignored_For_Permissions: []
     black_gem_lv_5:
       Name: '&8&lHắc Ngọc &e&lLv.V'
       Weight: 0.5
       Rarity: common
       Broadcast: false
-      Placeholder_Apply: false
+      Placeholder_Apply: true
       Win_Limit:
         Player:
           Enabled: false
@@ -1486,15 +1486,15 @@ Rewards:
           CooldownStep: 1
       Items: []
       Commands:
-      - '[CONSOLE] mmoitems give GEM_STONE BLACK_GEM_LV5 %player_name% 1'
-      - '[CONSOLE] execute as %player_name% at @s run playsound entity.experience_orb.pickup master @s ~ ~ ~ 1 1.2'
+      - mmoitems give GEM_STONE BLACK_GEM_LV5 %player_name% 1
+      - execute as %player_name% at @s run playsound entity.experience_orb.pickup master @s ~ ~ ~ 1 1.2
       Ignored_For_Permissions: []
     black_gem_lv_6:
       Name: '&8&lHắc Ngọc &e&lLv.VI'
       Weight: 0.3
       Rarity: common
       Broadcast: false
-      Placeholder_Apply: false
+      Placeholder_Apply: true
       Win_Limit:
         Player:
           Enabled: false
@@ -1508,15 +1508,15 @@ Rewards:
           CooldownStep: 1
       Items: []
       Commands:
-      - '[CONSOLE] mmoitems give GEM_STONE BLACK_GEM_LV6 %player_name% 1'
-      - '[CONSOLE] execute as %player_name% at @s run playsound entity.experience_orb.pickup master @s ~ ~ ~ 1 1.2'
+      - mmoitems give GEM_STONE BLACK_GEM_LV6 %player_name% 1
+      - execute as %player_name% at @s run playsound entity.experience_orb.pickup master @s ~ ~ ~ 1 1.2
       Ignored_For_Permissions: []
     black_gem_lv_7:
       Name: '&8&lHắc Ngọc &e&lLv.VII'
       Weight: 0.18
       Rarity: common
       Broadcast: false
-      Placeholder_Apply: false
+      Placeholder_Apply: true
       Win_Limit:
         Player:
           Enabled: false
@@ -1530,15 +1530,15 @@ Rewards:
           CooldownStep: 1
       Items: []
       Commands:
-      - '[CONSOLE] mmoitems give GEM_STONE BLACK_GEM_LV7 %player_name% 1'
-      - '[CONSOLE] execute as %player_name% at @s run playsound entity.experience_orb.pickup master @s ~ ~ ~ 1 1.2'
+      - mmoitems give GEM_STONE BLACK_GEM_LV7 %player_name% 1
+      - execute as %player_name% at @s run playsound entity.experience_orb.pickup master @s ~ ~ ~ 1 1.2
       Ignored_For_Permissions: []
     black_gem_lv_8:
       Name: '&8&lHắc Ngọc &e&lLv.VIII'
       Weight: 0.08
       Rarity: common
       Broadcast: true
-      Placeholder_Apply: false
+      Placeholder_Apply: true
       Win_Limit:
         Player:
           Enabled: false
@@ -1552,17 +1552,17 @@ Rewards:
           CooldownStep: 1
       Items: []
       Commands:
-      - '[CONSOLE] mmoitems give GEM_STONE BLACK_GEM_LV8 %player_name% 1'
-      - '[CONSOLE] broadcast &d&lCRATES &8» &fChúc mừng &b%player_name% &fvừa mở &eHòm Hắc Ngọc &fnhận được &8&lHắc Ngọc &e&lLv.VIII&f!'
-      - '[CONSOLE] execute as %player_name% at @s run playsound ui.toast.challenge_complete master @s ~ ~ ~ 1 1'
-      - '[CONSOLE] execute as %player_name% at @s run summon firework_rocket ~ ~ ~ {LifeTime:5,Motion:[0.0,1.2,0.0],FireworksItem:{id:"minecraft:firework_rocket",Count:1,tag:{Fireworks:{Explosions:[{Type:1,Colors:[I;16711680,16776960],FadeColors:[I;255]}]}}}}'
+      - mmoitems give GEM_STONE BLACK_GEM_LV8 %player_name% 1
+      - broadcast &d&lCRATES &8» &fChúc mừng &b%player_name% &fvừa mở &eHòm Hắc Ngọc &fnhận được &8&lHắc Ngọc &e&lLv.VIII&f!
+      - execute as %player_name% at @s run playsound ui.toast.challenge_complete master @s ~ ~ ~ 1 1
+      - execute as %player_name% at @s run summon firework_rocket ~ ~ ~ {LifeTime:5,Motion:[0.0,1.2,0.0],FireworksItem:{id:"minecraft:firework_rocket",Count:1,tag:{Fireworks:{Explosions:[{Type:1,Colors:[I;16711680,16776960],FadeColors:[I;255]}]}}}}
       Ignored_For_Permissions: []
     black_gem_lv_9:
       Name: '&8&lHắc Ngọc &e&lLv.IX'
       Weight: 0.03
       Rarity: common
       Broadcast: true
-      Placeholder_Apply: false
+      Placeholder_Apply: true
       Win_Limit:
         Player:
           Enabled: false
@@ -1576,17 +1576,17 @@ Rewards:
           CooldownStep: 1
       Items: []
       Commands:
-      - '[CONSOLE] mmoitems give GEM_STONE BLACK_GEM_LV9 %player_name% 1'
-      - '[CONSOLE] broadcast &d&lCRATES &8» &fChúc mừng &b%player_name% &fvừa mở &eHòm Hắc Ngọc &fnhận được &8&lHắc Ngọc &e&lLv.IX&f!'
-      - '[CONSOLE] execute as %player_name% at @s run playsound ui.toast.challenge_complete master @s ~ ~ ~ 1 1'
-      - '[CONSOLE] execute as %player_name% at @s run summon firework_rocket ~ ~ ~ {LifeTime:5,Motion:[0.0,1.2,0.0],FireworksItem:{id:"minecraft:firework_rocket",Count:1,tag:{Fireworks:{Explosions:[{Type:1,Colors:[I;16711680,16776960],FadeColors:[I;255]}]}}}}'
+      - mmoitems give GEM_STONE BLACK_GEM_LV9 %player_name% 1
+      - broadcast &d&lCRATES &8» &fChúc mừng &b%player_name% &fvừa mở &eHòm Hắc Ngọc &fnhận được &8&lHắc Ngọc &e&lLv.IX&f!
+      - execute as %player_name% at @s run playsound ui.toast.challenge_complete master @s ~ ~ ~ 1 1
+      - execute as %player_name% at @s run summon firework_rocket ~ ~ ~ {LifeTime:5,Motion:[0.0,1.2,0.0],FireworksItem:{id:"minecraft:firework_rocket",Count:1,tag:{Fireworks:{Explosions:[{Type:1,Colors:[I;16711680,16776960],FadeColors:[I;255]}]}}}}
       Ignored_For_Permissions: []
     black_gem_lv_10:
       Name: '&8&lHắc Ngọc &e&lLv.X'
       Weight: 0.01
       Rarity: common
       Broadcast: true
-      Placeholder_Apply: false
+      Placeholder_Apply: true
       Win_Limit:
         Player:
           Enabled: false
@@ -1600,17 +1600,17 @@ Rewards:
           CooldownStep: 1
       Items: []
       Commands:
-      - '[CONSOLE] mmoitems give GEM_STONE BLACK_GEM_LV10 %player_name% 1'
-      - '[CONSOLE] broadcast &d&lCRATES &8» &fChúc mừng &b%player_name% &fvừa mở &eHòm Hắc Ngọc &fnhận được &8&lHắc Ngọc &e&lLv.X&f!'
-      - '[CONSOLE] execute as %player_name% at @s run playsound ui.toast.challenge_complete master @s ~ ~ ~ 1 1'
-      - '[CONSOLE] execute as %player_name% at @s run summon firework_rocket ~ ~ ~ {LifeTime:5,Motion:[0.0,1.2,0.0],FireworksItem:{id:"minecraft:firework_rocket",Count:1,tag:{Fireworks:{Explosions:[{Type:1,Colors:[I;16711680,16776960],FadeColors:[I;255]}]}}}}'
+      - mmoitems give GEM_STONE BLACK_GEM_LV10 %player_name% 1
+      - broadcast &d&lCRATES &8» &fChúc mừng &b%player_name% &fvừa mở &eHòm Hắc Ngọc &fnhận được &8&lHắc Ngọc &e&lLv.X&f!
+      - execute as %player_name% at @s run playsound ui.toast.challenge_complete master @s ~ ~ ~ 1 1
+      - execute as %player_name% at @s run summon firework_rocket ~ ~ ~ {LifeTime:5,Motion:[0.0,1.2,0.0],FireworksItem:{id:"minecraft:firework_rocket",Count:1,tag:{Fireworks:{Explosions:[{Type:1,Colors:[I;16711680,16776960],FadeColors:[I;255]}]}}}}
       Ignored_For_Permissions: []
     white_gem_lv_1:
       Name: '&f&lBạch Ngọc &e&lLv.I'
       Weight: 4.5
       Rarity: common
       Broadcast: false
-      Placeholder_Apply: false
+      Placeholder_Apply: true
       Win_Limit:
         Player:
           Enabled: false
@@ -1624,15 +1624,15 @@ Rewards:
           CooldownStep: 1
       Items: []
       Commands:
-      - '[CONSOLE] mmoitems give GEM_STONE WHITE_GEM_LV1 %player_name% 1'
-      - '[CONSOLE] execute as %player_name% at @s run playsound entity.experience_orb.pickup master @s ~ ~ ~ 1 1.2'
+      - mmoitems give GEM_STONE WHITE_GEM_LV1 %player_name% 1
+      - execute as %player_name% at @s run playsound entity.experience_orb.pickup master @s ~ ~ ~ 1 1.2
       Ignored_For_Permissions: []
     white_gem_lv_2:
       Name: '&f&lBạch Ngọc &e&lLv.II'
       Weight: 2.5
       Rarity: common
       Broadcast: false
-      Placeholder_Apply: false
+      Placeholder_Apply: true
       Win_Limit:
         Player:
           Enabled: false
@@ -1646,15 +1646,15 @@ Rewards:
           CooldownStep: 1
       Items: []
       Commands:
-      - '[CONSOLE] mmoitems give GEM_STONE WHITE_GEM_LV2 %player_name% 1'
-      - '[CONSOLE] execute as %player_name% at @s run playsound entity.experience_orb.pickup master @s ~ ~ ~ 1 1.2'
+      - mmoitems give GEM_STONE WHITE_GEM_LV2 %player_name% 1
+      - execute as %player_name% at @s run playsound entity.experience_orb.pickup master @s ~ ~ ~ 1 1.2
       Ignored_For_Permissions: []
     white_gem_lv_3:
       Name: '&f&lBạch Ngọc &e&lLv.III'
       Weight: 1.2
       Rarity: common
       Broadcast: false
-      Placeholder_Apply: false
+      Placeholder_Apply: true
       Win_Limit:
         Player:
           Enabled: false
@@ -1668,15 +1668,15 @@ Rewards:
           CooldownStep: 1
       Items: []
       Commands:
-      - '[CONSOLE] mmoitems give GEM_STONE WHITE_GEM_LV3 %player_name% 1'
-      - '[CONSOLE] execute as %player_name% at @s run playsound entity.experience_orb.pickup master @s ~ ~ ~ 1 1.2'
+      - mmoitems give GEM_STONE WHITE_GEM_LV3 %player_name% 1
+      - execute as %player_name% at @s run playsound entity.experience_orb.pickup master @s ~ ~ ~ 1 1.2
       Ignored_For_Permissions: []
     white_gem_lv_4:
       Name: '&f&lBạch Ngọc &e&lLv.IV'
       Weight: 0.7
       Rarity: common
       Broadcast: false
-      Placeholder_Apply: false
+      Placeholder_Apply: true
       Win_Limit:
         Player:
           Enabled: false
@@ -1690,15 +1690,15 @@ Rewards:
           CooldownStep: 1
       Items: []
       Commands:
-      - '[CONSOLE] mmoitems give GEM_STONE WHITE_GEM_LV4 %player_name% 1'
-      - '[CONSOLE] execute as %player_name% at @s run playsound entity.experience_orb.pickup master @s ~ ~ ~ 1 1.2'
+      - mmoitems give GEM_STONE WHITE_GEM_LV4 %player_name% 1
+      - execute as %player_name% at @s run playsound entity.experience_orb.pickup master @s ~ ~ ~ 1 1.2
       Ignored_For_Permissions: []
     white_gem_lv_5:
       Name: '&f&lBạch Ngọc &e&lLv.V'
       Weight: 0.5
       Rarity: common
       Broadcast: false
-      Placeholder_Apply: false
+      Placeholder_Apply: true
       Win_Limit:
         Player:
           Enabled: false
@@ -1712,15 +1712,15 @@ Rewards:
           CooldownStep: 1
       Items: []
       Commands:
-      - '[CONSOLE] mmoitems give GEM_STONE WHITE_GEM_LV5 %player_name% 1'
-      - '[CONSOLE] execute as %player_name% at @s run playsound entity.experience_orb.pickup master @s ~ ~ ~ 1 1.2'
+      - mmoitems give GEM_STONE WHITE_GEM_LV5 %player_name% 1
+      - execute as %player_name% at @s run playsound entity.experience_orb.pickup master @s ~ ~ ~ 1 1.2
       Ignored_For_Permissions: []
     white_gem_lv_6:
       Name: '&f&lBạch Ngọc &e&lLv.VI'
       Weight: 0.3
       Rarity: common
       Broadcast: false
-      Placeholder_Apply: false
+      Placeholder_Apply: true
       Win_Limit:
         Player:
           Enabled: false
@@ -1734,15 +1734,15 @@ Rewards:
           CooldownStep: 1
       Items: []
       Commands:
-      - '[CONSOLE] mmoitems give GEM_STONE WHITE_GEM_LV6 %player_name% 1'
-      - '[CONSOLE] execute as %player_name% at @s run playsound entity.experience_orb.pickup master @s ~ ~ ~ 1 1.2'
+      - mmoitems give GEM_STONE WHITE_GEM_LV6 %player_name% 1
+      - execute as %player_name% at @s run playsound entity.experience_orb.pickup master @s ~ ~ ~ 1 1.2
       Ignored_For_Permissions: []
     white_gem_lv_7:
       Name: '&f&lBạch Ngọc &e&lLv.VII'
       Weight: 0.18
       Rarity: common
       Broadcast: false
-      Placeholder_Apply: false
+      Placeholder_Apply: true
       Win_Limit:
         Player:
           Enabled: false
@@ -1756,15 +1756,15 @@ Rewards:
           CooldownStep: 1
       Items: []
       Commands:
-      - '[CONSOLE] mmoitems give GEM_STONE WHITE_GEM_LV7 %player_name% 1'
-      - '[CONSOLE] execute as %player_name% at @s run playsound entity.experience_orb.pickup master @s ~ ~ ~ 1 1.2'
+      - mmoitems give GEM_STONE WHITE_GEM_LV7 %player_name% 1
+      - execute as %player_name% at @s run playsound entity.experience_orb.pickup master @s ~ ~ ~ 1 1.2
       Ignored_For_Permissions: []
     white_gem_lv_8:
       Name: '&f&lBạch Ngọc &e&lLv.VIII'
       Weight: 0.08
       Rarity: common
       Broadcast: true
-      Placeholder_Apply: false
+      Placeholder_Apply: true
       Win_Limit:
         Player:
           Enabled: false
@@ -1778,17 +1778,17 @@ Rewards:
           CooldownStep: 1
       Items: []
       Commands:
-      - '[CONSOLE] mmoitems give GEM_STONE WHITE_GEM_LV8 %player_name% 1'
-      - '[CONSOLE] broadcast &d&lCRATES &8» &fChúc mừng &b%player_name% &fvừa mở &eHòm Bạch Ngọc &fnhận được &f&lBạch Ngọc &e&lLv.VIII&f!'
-      - '[CONSOLE] execute as %player_name% at @s run playsound ui.toast.challenge_complete master @s ~ ~ ~ 1 1'
-      - '[CONSOLE] execute as %player_name% at @s run summon firework_rocket ~ ~ ~ {LifeTime:5,Motion:[0.0,1.2,0.0],FireworksItem:{id:"minecraft:firework_rocket",Count:1,tag:{Fireworks:{Explosions:[{Type:1,Colors:[I;16711680,16776960],FadeColors:[I;255]}]}}}}'
+      - mmoitems give GEM_STONE WHITE_GEM_LV8 %player_name% 1
+      - broadcast &d&lCRATES &8» &fChúc mừng &b%player_name% &fvừa mở &eHòm Bạch Ngọc &fnhận được &f&lBạch Ngọc &e&lLv.VIII&f!
+      - execute as %player_name% at @s run playsound ui.toast.challenge_complete master @s ~ ~ ~ 1 1
+      - execute as %player_name% at @s run summon firework_rocket ~ ~ ~ {LifeTime:5,Motion:[0.0,1.2,0.0],FireworksItem:{id:"minecraft:firework_rocket",Count:1,tag:{Fireworks:{Explosions:[{Type:1,Colors:[I;16711680,16776960],FadeColors:[I;255]}]}}}}
       Ignored_For_Permissions: []
     white_gem_lv_9:
       Name: '&f&lBạch Ngọc &e&lLv.IX'
       Weight: 0.03
       Rarity: common
       Broadcast: true
-      Placeholder_Apply: false
+      Placeholder_Apply: true
       Win_Limit:
         Player:
           Enabled: false
@@ -1802,17 +1802,17 @@ Rewards:
           CooldownStep: 1
       Items: []
       Commands:
-      - '[CONSOLE] mmoitems give GEM_STONE WHITE_GEM_LV9 %player_name% 1'
-      - '[CONSOLE] broadcast &d&lCRATES &8» &fChúc mừng &b%player_name% &fvừa mở &eHòm Bạch Ngọc &fnhận được &f&lBạch Ngọc &e&lLv.IX&f!'
-      - '[CONSOLE] execute as %player_name% at @s run playsound ui.toast.challenge_complete master @s ~ ~ ~ 1 1'
-      - '[CONSOLE] execute as %player_name% at @s run summon firework_rocket ~ ~ ~ {LifeTime:5,Motion:[0.0,1.2,0.0],FireworksItem:{id:"minecraft:firework_rocket",Count:1,tag:{Fireworks:{Explosions:[{Type:1,Colors:[I;16711680,16776960],FadeColors:[I;255]}]}}}}'
+      - mmoitems give GEM_STONE WHITE_GEM_LV9 %player_name% 1
+      - broadcast &d&lCRATES &8» &fChúc mừng &b%player_name% &fvừa mở &eHòm Bạch Ngọc &fnhận được &f&lBạch Ngọc &e&lLv.IX&f!
+      - execute as %player_name% at @s run playsound ui.toast.challenge_complete master @s ~ ~ ~ 1 1
+      - execute as %player_name% at @s run summon firework_rocket ~ ~ ~ {LifeTime:5,Motion:[0.0,1.2,0.0],FireworksItem:{id:"minecraft:firework_rocket",Count:1,tag:{Fireworks:{Explosions:[{Type:1,Colors:[I;16711680,16776960],FadeColors:[I;255]}]}}}}
       Ignored_For_Permissions: []
     white_gem_lv_10:
       Name: '&f&lBạch Ngọc &e&lLv.X'
       Weight: 0.01
       Rarity: common
       Broadcast: true
-      Placeholder_Apply: false
+      Placeholder_Apply: true
       Win_Limit:
         Player:
           Enabled: false
@@ -1826,17 +1826,17 @@ Rewards:
           CooldownStep: 1
       Items: []
       Commands:
-      - '[CONSOLE] mmoitems give GEM_STONE WHITE_GEM_LV10 %player_name% 1'
-      - '[CONSOLE] broadcast &d&lCRATES &8» &fChúc mừng &b%player_name% &fvừa mở &eHòm Bạch Ngọc &fnhận được &f&lBạch Ngọc &e&lLv.X&f!'
-      - '[CONSOLE] execute as %player_name% at @s run playsound ui.toast.challenge_complete master @s ~ ~ ~ 1 1'
-      - '[CONSOLE] execute as %player_name% at @s run summon firework_rocket ~ ~ ~ {LifeTime:5,Motion:[0.0,1.2,0.0],FireworksItem:{id:"minecraft:firework_rocket",Count:1,tag:{Fireworks:{Explosions:[{Type:1,Colors:[I;16711680,16776960],FadeColors:[I;255]}]}}}}'
+      - mmoitems give GEM_STONE WHITE_GEM_LV10 %player_name% 1
+      - broadcast &d&lCRATES &8» &fChúc mừng &b%player_name% &fvừa mở &eHòm Bạch Ngọc &fnhận được &f&lBạch Ngọc &e&lLv.X&f!
+      - execute as %player_name% at @s run playsound ui.toast.challenge_complete master @s ~ ~ ~ 1 1
+      - execute as %player_name% at @s run summon firework_rocket ~ ~ ~ {LifeTime:5,Motion:[0.0,1.2,0.0],FireworksItem:{id:"minecraft:firework_rocket",Count:1,tag:{Fireworks:{Explosions:[{Type:1,Colors:[I;16711680,16776960],FadeColors:[I;255]}]}}}}
       Ignored_For_Permissions: []
     brown_gem_lv_1:
       Name: '&6&lThổ Ngọc &e&lLv.I'
       Weight: 4.5
       Rarity: common
       Broadcast: false
-      Placeholder_Apply: false
+      Placeholder_Apply: true
       Win_Limit:
         Player:
           Enabled: false
@@ -1850,15 +1850,15 @@ Rewards:
           CooldownStep: 1
       Items: []
       Commands:
-      - '[CONSOLE] mmoitems give GEM_STONE BROWN_GEM_LV1 %player_name% 1'
-      - '[CONSOLE] execute as %player_name% at @s run playsound entity.experience_orb.pickup master @s ~ ~ ~ 1 1.2'
+      - mmoitems give GEM_STONE BROWN_GEM_LV1 %player_name% 1
+      - execute as %player_name% at @s run playsound entity.experience_orb.pickup master @s ~ ~ ~ 1 1.2
       Ignored_For_Permissions: []
     brown_gem_lv_2:
       Name: '&6&lThổ Ngọc &e&lLv.II'
       Weight: 2.5
       Rarity: common
       Broadcast: false
-      Placeholder_Apply: false
+      Placeholder_Apply: true
       Win_Limit:
         Player:
           Enabled: false
@@ -1872,15 +1872,15 @@ Rewards:
           CooldownStep: 1
       Items: []
       Commands:
-      - '[CONSOLE] mmoitems give GEM_STONE BROWN_GEM_LV2 %player_name% 1'
-      - '[CONSOLE] execute as %player_name% at @s run playsound entity.experience_orb.pickup master @s ~ ~ ~ 1 1.2'
+      - mmoitems give GEM_STONE BROWN_GEM_LV2 %player_name% 1
+      - execute as %player_name% at @s run playsound entity.experience_orb.pickup master @s ~ ~ ~ 1 1.2
       Ignored_For_Permissions: []
     brown_gem_lv_3:
       Name: '&6&lThổ Ngọc &e&lLv.III'
       Weight: 1.2
       Rarity: common
       Broadcast: false
-      Placeholder_Apply: false
+      Placeholder_Apply: true
       Win_Limit:
         Player:
           Enabled: false
@@ -1894,15 +1894,15 @@ Rewards:
           CooldownStep: 1
       Items: []
       Commands:
-      - '[CONSOLE] mmoitems give GEM_STONE BROWN_GEM_LV3 %player_name% 1'
-      - '[CONSOLE] execute as %player_name% at @s run playsound entity.experience_orb.pickup master @s ~ ~ ~ 1 1.2'
+      - mmoitems give GEM_STONE BROWN_GEM_LV3 %player_name% 1
+      - execute as %player_name% at @s run playsound entity.experience_orb.pickup master @s ~ ~ ~ 1 1.2
       Ignored_For_Permissions: []
     brown_gem_lv_4:
       Name: '&6&lThổ Ngọc &e&lLv.IV'
       Weight: 0.7
       Rarity: common
       Broadcast: false
-      Placeholder_Apply: false
+      Placeholder_Apply: true
       Win_Limit:
         Player:
           Enabled: false
@@ -1916,15 +1916,15 @@ Rewards:
           CooldownStep: 1
       Items: []
       Commands:
-      - '[CONSOLE] mmoitems give GEM_STONE BROWN_GEM_LV4 %player_name% 1'
-      - '[CONSOLE] execute as %player_name% at @s run playsound entity.experience_orb.pickup master @s ~ ~ ~ 1 1.2'
+      - mmoitems give GEM_STONE BROWN_GEM_LV4 %player_name% 1
+      - execute as %player_name% at @s run playsound entity.experience_orb.pickup master @s ~ ~ ~ 1 1.2
       Ignored_For_Permissions: []
     brown_gem_lv_5:
       Name: '&6&lThổ Ngọc &e&lLv.V'
       Weight: 0.5
       Rarity: common
       Broadcast: false
-      Placeholder_Apply: false
+      Placeholder_Apply: true
       Win_Limit:
         Player:
           Enabled: false
@@ -1938,15 +1938,15 @@ Rewards:
           CooldownStep: 1
       Items: []
       Commands:
-      - '[CONSOLE] mmoitems give GEM_STONE BROWN_GEM_LV5 %player_name% 1'
-      - '[CONSOLE] execute as %player_name% at @s run playsound entity.experience_orb.pickup master @s ~ ~ ~ 1 1.2'
+      - mmoitems give GEM_STONE BROWN_GEM_LV5 %player_name% 1
+      - execute as %player_name% at @s run playsound entity.experience_orb.pickup master @s ~ ~ ~ 1 1.2
       Ignored_For_Permissions: []
     brown_gem_lv_6:
       Name: '&6&lThổ Ngọc &e&lLv.VI'
       Weight: 0.3
       Rarity: common
       Broadcast: false
-      Placeholder_Apply: false
+      Placeholder_Apply: true
       Win_Limit:
         Player:
           Enabled: false
@@ -1960,15 +1960,15 @@ Rewards:
           CooldownStep: 1
       Items: []
       Commands:
-      - '[CONSOLE] mmoitems give GEM_STONE BROWN_GEM_LV6 %player_name% 1'
-      - '[CONSOLE] execute as %player_name% at @s run playsound entity.experience_orb.pickup master @s ~ ~ ~ 1 1.2'
+      - mmoitems give GEM_STONE BROWN_GEM_LV6 %player_name% 1
+      - execute as %player_name% at @s run playsound entity.experience_orb.pickup master @s ~ ~ ~ 1 1.2
       Ignored_For_Permissions: []
     brown_gem_lv_7:
       Name: '&6&lThổ Ngọc &e&lLv.VII'
       Weight: 0.18
       Rarity: common
       Broadcast: false
-      Placeholder_Apply: false
+      Placeholder_Apply: true
       Win_Limit:
         Player:
           Enabled: false
@@ -1982,15 +1982,15 @@ Rewards:
           CooldownStep: 1
       Items: []
       Commands:
-      - '[CONSOLE] mmoitems give GEM_STONE BROWN_GEM_LV7 %player_name% 1'
-      - '[CONSOLE] execute as %player_name% at @s run playsound entity.experience_orb.pickup master @s ~ ~ ~ 1 1.2'
+      - mmoitems give GEM_STONE BROWN_GEM_LV7 %player_name% 1
+      - execute as %player_name% at @s run playsound entity.experience_orb.pickup master @s ~ ~ ~ 1 1.2
       Ignored_For_Permissions: []
     brown_gem_lv_8:
       Name: '&6&lThổ Ngọc &e&lLv.VIII'
       Weight: 0.08
       Rarity: common
       Broadcast: true
-      Placeholder_Apply: false
+      Placeholder_Apply: true
       Win_Limit:
         Player:
           Enabled: false
@@ -2004,17 +2004,17 @@ Rewards:
           CooldownStep: 1
       Items: []
       Commands:
-      - '[CONSOLE] mmoitems give GEM_STONE BROWN_GEM_LV8 %player_name% 1'
-      - '[CONSOLE] broadcast &d&lCRATES &8» &fChúc mừng &b%player_name% &fvừa mở &eHòm Thổ Ngọc &fnhận được &6&lThổ Ngọc &e&lLv.VIII&f!'
-      - '[CONSOLE] execute as %player_name% at @s run playsound ui.toast.challenge_complete master @s ~ ~ ~ 1 1'
-      - '[CONSOLE] execute as %player_name% at @s run summon firework_rocket ~ ~ ~ {LifeTime:5,Motion:[0.0,1.2,0.0],FireworksItem:{id:"minecraft:firework_rocket",Count:1,tag:{Fireworks:{Explosions:[{Type:1,Colors:[I;16711680,16776960],FadeColors:[I;255]}]}}}}'
+      - mmoitems give GEM_STONE BROWN_GEM_LV8 %player_name% 1
+      - broadcast &d&lCRATES &8» &fChúc mừng &b%player_name% &fvừa mở &eHòm Thổ Ngọc &fnhận được &6&lThổ Ngọc &e&lLv.VIII&f!
+      - execute as %player_name% at @s run playsound ui.toast.challenge_complete master @s ~ ~ ~ 1 1
+      - execute as %player_name% at @s run summon firework_rocket ~ ~ ~ {LifeTime:5,Motion:[0.0,1.2,0.0],FireworksItem:{id:"minecraft:firework_rocket",Count:1,tag:{Fireworks:{Explosions:[{Type:1,Colors:[I;16711680,16776960],FadeColors:[I;255]}]}}}}
       Ignored_For_Permissions: []
     brown_gem_lv_9:
       Name: '&6&lThổ Ngọc &e&lLv.IX'
       Weight: 0.03
       Rarity: common
       Broadcast: true
-      Placeholder_Apply: false
+      Placeholder_Apply: true
       Win_Limit:
         Player:
           Enabled: false
@@ -2028,17 +2028,17 @@ Rewards:
           CooldownStep: 1
       Items: []
       Commands:
-      - '[CONSOLE] mmoitems give GEM_STONE BROWN_GEM_LV9 %player_name% 1'
-      - '[CONSOLE] broadcast &d&lCRATES &8» &fChúc mừng &b%player_name% &fvừa mở &eHòm Thổ Ngọc &fnhận được &6&lThổ Ngọc &e&lLv.IX&f!'
-      - '[CONSOLE] execute as %player_name% at @s run playsound ui.toast.challenge_complete master @s ~ ~ ~ 1 1'
-      - '[CONSOLE] execute as %player_name% at @s run summon firework_rocket ~ ~ ~ {LifeTime:5,Motion:[0.0,1.2,0.0],FireworksItem:{id:"minecraft:firework_rocket",Count:1,tag:{Fireworks:{Explosions:[{Type:1,Colors:[I;16711680,16776960],FadeColors:[I;255]}]}}}}'
+      - mmoitems give GEM_STONE BROWN_GEM_LV9 %player_name% 1
+      - broadcast &d&lCRATES &8» &fChúc mừng &b%player_name% &fvừa mở &eHòm Thổ Ngọc &fnhận được &6&lThổ Ngọc &e&lLv.IX&f!
+      - execute as %player_name% at @s run playsound ui.toast.challenge_complete master @s ~ ~ ~ 1 1
+      - execute as %player_name% at @s run summon firework_rocket ~ ~ ~ {LifeTime:5,Motion:[0.0,1.2,0.0],FireworksItem:{id:"minecraft:firework_rocket",Count:1,tag:{Fireworks:{Explosions:[{Type:1,Colors:[I;16711680,16776960],FadeColors:[I;255]}]}}}}
       Ignored_For_Permissions: []
     brown_gem_lv_10:
       Name: '&6&lThổ Ngọc &e&lLv.X'
       Weight: 0.01
       Rarity: common
       Broadcast: true
-      Placeholder_Apply: false
+      Placeholder_Apply: true
       Win_Limit:
         Player:
           Enabled: false
@@ -2052,17 +2052,17 @@ Rewards:
           CooldownStep: 1
       Items: []
       Commands:
-      - '[CONSOLE] mmoitems give GEM_STONE BROWN_GEM_LV10 %player_name% 1'
-      - '[CONSOLE] broadcast &d&lCRATES &8» &fChúc mừng &b%player_name% &fvừa mở &eHòm Thổ Ngọc &fnhận được &6&lThổ Ngọc &e&lLv.X&f!'
-      - '[CONSOLE] execute as %player_name% at @s run playsound ui.toast.challenge_complete master @s ~ ~ ~ 1 1'
-      - '[CONSOLE] execute as %player_name% at @s run summon firework_rocket ~ ~ ~ {LifeTime:5,Motion:[0.0,1.2,0.0],FireworksItem:{id:"minecraft:firework_rocket",Count:1,tag:{Fireworks:{Explosions:[{Type:1,Colors:[I;16711680,16776960],FadeColors:[I;255]}]}}}}'
+      - mmoitems give GEM_STONE BROWN_GEM_LV10 %player_name% 1
+      - broadcast &d&lCRATES &8» &fChúc mừng &b%player_name% &fvừa mở &eHòm Thổ Ngọc &fnhận được &6&lThổ Ngọc &e&lLv.X&f!
+      - execute as %player_name% at @s run playsound ui.toast.challenge_complete master @s ~ ~ ~ 1 1
+      - execute as %player_name% at @s run summon firework_rocket ~ ~ ~ {LifeTime:5,Motion:[0.0,1.2,0.0],FireworksItem:{id:"minecraft:firework_rocket",Count:1,tag:{Fireworks:{Explosions:[{Type:1,Colors:[I;16711680,16776960],FadeColors:[I;255]}]}}}}
       Ignored_For_Permissions: []
     orange_gem_lv_1:
       Name: '&6&lCam Ngọc &e&lLv.I'
       Weight: 4.5
       Rarity: common
       Broadcast: false
-      Placeholder_Apply: false
+      Placeholder_Apply: true
       Win_Limit:
         Player:
           Enabled: false
@@ -2076,15 +2076,15 @@ Rewards:
           CooldownStep: 1
       Items: []
       Commands:
-      - '[CONSOLE] mmoitems give GEM_STONE ORANGE_GEM_LV1 %player_name% 1'
-      - '[CONSOLE] execute as %player_name% at @s run playsound entity.experience_orb.pickup master @s ~ ~ ~ 1 1.2'
+      - mmoitems give GEM_STONE ORANGE_GEM_LV1 %player_name% 1
+      - execute as %player_name% at @s run playsound entity.experience_orb.pickup master @s ~ ~ ~ 1 1.2
       Ignored_For_Permissions: []
     orange_gem_lv_2:
       Name: '&6&lCam Ngọc &e&lLv.II'
       Weight: 2.5
       Rarity: common
       Broadcast: false
-      Placeholder_Apply: false
+      Placeholder_Apply: true
       Win_Limit:
         Player:
           Enabled: false
@@ -2098,15 +2098,15 @@ Rewards:
           CooldownStep: 1
       Items: []
       Commands:
-      - '[CONSOLE] mmoitems give GEM_STONE ORANGE_GEM_LV2 %player_name% 1'
-      - '[CONSOLE] execute as %player_name% at @s run playsound entity.experience_orb.pickup master @s ~ ~ ~ 1 1.2'
+      - mmoitems give GEM_STONE ORANGE_GEM_LV2 %player_name% 1
+      - execute as %player_name% at @s run playsound entity.experience_orb.pickup master @s ~ ~ ~ 1 1.2
       Ignored_For_Permissions: []
     orange_gem_lv_3:
       Name: '&6&lCam Ngọc &e&lLv.III'
       Weight: 1.2
       Rarity: common
       Broadcast: false
-      Placeholder_Apply: false
+      Placeholder_Apply: true
       Win_Limit:
         Player:
           Enabled: false
@@ -2120,15 +2120,15 @@ Rewards:
           CooldownStep: 1
       Items: []
       Commands:
-      - '[CONSOLE] mmoitems give GEM_STONE ORANGE_GEM_LV3 %player_name% 1'
-      - '[CONSOLE] execute as %player_name% at @s run playsound entity.experience_orb.pickup master @s ~ ~ ~ 1 1.2'
+      - mmoitems give GEM_STONE ORANGE_GEM_LV3 %player_name% 1
+      - execute as %player_name% at @s run playsound entity.experience_orb.pickup master @s ~ ~ ~ 1 1.2
       Ignored_For_Permissions: []
     orange_gem_lv_4:
       Name: '&6&lCam Ngọc &e&lLv.IV'
       Weight: 0.7
       Rarity: common
       Broadcast: false
-      Placeholder_Apply: false
+      Placeholder_Apply: true
       Win_Limit:
         Player:
           Enabled: false
@@ -2142,15 +2142,15 @@ Rewards:
           CooldownStep: 1
       Items: []
       Commands:
-      - '[CONSOLE] mmoitems give GEM_STONE ORANGE_GEM_LV4 %player_name% 1'
-      - '[CONSOLE] execute as %player_name% at @s run playsound entity.experience_orb.pickup master @s ~ ~ ~ 1 1.2'
+      - mmoitems give GEM_STONE ORANGE_GEM_LV4 %player_name% 1
+      - execute as %player_name% at @s run playsound entity.experience_orb.pickup master @s ~ ~ ~ 1 1.2
       Ignored_For_Permissions: []
     orange_gem_lv_5:
       Name: '&6&lCam Ngọc &e&lLv.V'
       Weight: 0.5
       Rarity: common
       Broadcast: false
-      Placeholder_Apply: false
+      Placeholder_Apply: true
       Win_Limit:
         Player:
           Enabled: false
@@ -2164,15 +2164,15 @@ Rewards:
           CooldownStep: 1
       Items: []
       Commands:
-      - '[CONSOLE] mmoitems give GEM_STONE ORANGE_GEM_LV5 %player_name% 1'
-      - '[CONSOLE] execute as %player_name% at @s run playsound entity.experience_orb.pickup master @s ~ ~ ~ 1 1.2'
+      - mmoitems give GEM_STONE ORANGE_GEM_LV5 %player_name% 1
+      - execute as %player_name% at @s run playsound entity.experience_orb.pickup master @s ~ ~ ~ 1 1.2
       Ignored_For_Permissions: []
     orange_gem_lv_6:
       Name: '&6&lCam Ngọc &e&lLv.VI'
       Weight: 0.3
       Rarity: common
       Broadcast: false
-      Placeholder_Apply: false
+      Placeholder_Apply: true
       Win_Limit:
         Player:
           Enabled: false
@@ -2186,15 +2186,15 @@ Rewards:
           CooldownStep: 1
       Items: []
       Commands:
-      - '[CONSOLE] mmoitems give GEM_STONE ORANGE_GEM_LV6 %player_name% 1'
-      - '[CONSOLE] execute as %player_name% at @s run playsound entity.experience_orb.pickup master @s ~ ~ ~ 1 1.2'
+      - mmoitems give GEM_STONE ORANGE_GEM_LV6 %player_name% 1
+      - execute as %player_name% at @s run playsound entity.experience_orb.pickup master @s ~ ~ ~ 1 1.2
       Ignored_For_Permissions: []
     orange_gem_lv_7:
       Name: '&6&lCam Ngọc &e&lLv.VII'
       Weight: 0.18
       Rarity: common
       Broadcast: false
-      Placeholder_Apply: false
+      Placeholder_Apply: true
       Win_Limit:
         Player:
           Enabled: false
@@ -2208,15 +2208,15 @@ Rewards:
           CooldownStep: 1
       Items: []
       Commands:
-      - '[CONSOLE] mmoitems give GEM_STONE ORANGE_GEM_LV7 %player_name% 1'
-      - '[CONSOLE] execute as %player_name% at @s run playsound entity.experience_orb.pickup master @s ~ ~ ~ 1 1.2'
+      - mmoitems give GEM_STONE ORANGE_GEM_LV7 %player_name% 1
+      - execute as %player_name% at @s run playsound entity.experience_orb.pickup master @s ~ ~ ~ 1 1.2
       Ignored_For_Permissions: []
     orange_gem_lv_8:
       Name: '&6&lCam Ngọc &e&lLv.VIII'
       Weight: 0.08
       Rarity: common
       Broadcast: true
-      Placeholder_Apply: false
+      Placeholder_Apply: true
       Win_Limit:
         Player:
           Enabled: false
@@ -2230,17 +2230,17 @@ Rewards:
           CooldownStep: 1
       Items: []
       Commands:
-      - '[CONSOLE] mmoitems give GEM_STONE ORANGE_GEM_LV8 %player_name% 1'
-      - '[CONSOLE] broadcast &d&lCRATES &8» &fChúc mừng &b%player_name% &fvừa mở &eHòm Cam Ngọc &fnhận được &6&lCam Ngọc &e&lLv.VIII&f!'
-      - '[CONSOLE] execute as %player_name% at @s run playsound ui.toast.challenge_complete master @s ~ ~ ~ 1 1'
-      - '[CONSOLE] execute as %player_name% at @s run summon firework_rocket ~ ~ ~ {LifeTime:5,Motion:[0.0,1.2,0.0],FireworksItem:{id:"minecraft:firework_rocket",Count:1,tag:{Fireworks:{Explosions:[{Type:1,Colors:[I;16711680,16776960],FadeColors:[I;255]}]}}}}'
+      - mmoitems give GEM_STONE ORANGE_GEM_LV8 %player_name% 1
+      - broadcast &d&lCRATES &8» &fChúc mừng &b%player_name% &fvừa mở &eHòm Cam Ngọc &fnhận được &6&lCam Ngọc &e&lLv.VIII&f!
+      - execute as %player_name% at @s run playsound ui.toast.challenge_complete master @s ~ ~ ~ 1 1
+      - execute as %player_name% at @s run summon firework_rocket ~ ~ ~ {LifeTime:5,Motion:[0.0,1.2,0.0],FireworksItem:{id:"minecraft:firework_rocket",Count:1,tag:{Fireworks:{Explosions:[{Type:1,Colors:[I;16711680,16776960],FadeColors:[I;255]}]}}}}
       Ignored_For_Permissions: []
     orange_gem_lv_9:
       Name: '&6&lCam Ngọc &e&lLv.IX'
       Weight: 0.03
       Rarity: common
       Broadcast: true
-      Placeholder_Apply: false
+      Placeholder_Apply: true
       Win_Limit:
         Player:
           Enabled: false
@@ -2254,17 +2254,17 @@ Rewards:
           CooldownStep: 1
       Items: []
       Commands:
-      - '[CONSOLE] mmoitems give GEM_STONE ORANGE_GEM_LV9 %player_name% 1'
-      - '[CONSOLE] broadcast &d&lCRATES &8» &fChúc mừng &b%player_name% &fvừa mở &eHòm Cam Ngọc &fnhận được &6&lCam Ngọc &e&lLv.IX&f!'
-      - '[CONSOLE] execute as %player_name% at @s run playsound ui.toast.challenge_complete master @s ~ ~ ~ 1 1'
-      - '[CONSOLE] execute as %player_name% at @s run summon firework_rocket ~ ~ ~ {LifeTime:5,Motion:[0.0,1.2,0.0],FireworksItem:{id:"minecraft:firework_rocket",Count:1,tag:{Fireworks:{Explosions:[{Type:1,Colors:[I;16711680,16776960],FadeColors:[I;255]}]}}}}'
+      - mmoitems give GEM_STONE ORANGE_GEM_LV9 %player_name% 1
+      - broadcast &d&lCRATES &8» &fChúc mừng &b%player_name% &fvừa mở &eHòm Cam Ngọc &fnhận được &6&lCam Ngọc &e&lLv.IX&f!
+      - execute as %player_name% at @s run playsound ui.toast.challenge_complete master @s ~ ~ ~ 1 1
+      - execute as %player_name% at @s run summon firework_rocket ~ ~ ~ {LifeTime:5,Motion:[0.0,1.2,0.0],FireworksItem:{id:"minecraft:firework_rocket",Count:1,tag:{Fireworks:{Explosions:[{Type:1,Colors:[I;16711680,16776960],FadeColors:[I;255]}]}}}}
       Ignored_For_Permissions: []
     orange_gem_lv_10:
       Name: '&6&lCam Ngọc &e&lLv.X'
       Weight: 0.01
       Rarity: common
       Broadcast: true
-      Placeholder_Apply: false
+      Placeholder_Apply: true
       Win_Limit:
         Player:
           Enabled: false
@@ -2278,10 +2278,10 @@ Rewards:
           CooldownStep: 1
       Items: []
       Commands:
-      - '[CONSOLE] mmoitems give GEM_STONE ORANGE_GEM_LV10 %player_name% 1'
-      - '[CONSOLE] broadcast &d&lCRATES &8» &fChúc mừng &b%player_name% &fvừa mở &eHòm Cam Ngọc &fnhận được &6&lCam Ngọc &e&lLv.X&f!'
-      - '[CONSOLE] execute as %player_name% at @s run playsound ui.toast.challenge_complete master @s ~ ~ ~ 1 1'
-      - '[CONSOLE] execute as %player_name% at @s run summon firework_rocket ~ ~ ~ {LifeTime:5,Motion:[0.0,1.2,0.0],FireworksItem:{id:"minecraft:firework_rocket",Count:1,tag:{Fireworks:{Explosions:[{Type:1,Colors:[I;16711680,16776960],FadeColors:[I;255]}]}}}}'
+      - mmoitems give GEM_STONE ORANGE_GEM_LV10 %player_name% 1
+      - broadcast &d&lCRATES &8» &fChúc mừng &b%player_name% &fvừa mở &eHòm Cam Ngọc &fnhận được &6&lCam Ngọc &e&lLv.X&f!
+      - execute as %player_name% at @s run playsound ui.toast.challenge_complete master @s ~ ~ ~ 1 1
+      - execute as %player_name% at @s run summon firework_rocket ~ ~ ~ {LifeTime:5,Motion:[0.0,1.2,0.0],FireworksItem:{id:"minecraft:firework_rocket",Count:1,tag:{Fireworks:{Explosions:[{Type:1,Colors:[I;16711680,16776960],FadeColors:[I;255]}]}}}}
       Ignored_For_Permissions: []
 Item:
   Material: CHEST
@@ -2291,10 +2291,10 @@ Item:
   - '&7Mở ra có thể nhận Đá Quý của bất kỳ thuộc tính nào!'
   - ''
   - '&e&l★ PHẦN THƯỞNG NỔI BẬT:'
-  - ' &f▪ &dĐá Quý &e&lLv.X &7(Các loại): &c&l0.1%'
-  - ' &f▪ &dĐá Quý &e&lLv.IX &7(Các loại): &c&l0.8%'
-  - ' &f▪ &dĐá Quý &e&lLv.VIII &7(Các loại): &c&l0.8%'
-  - ' &f▪ &dĐá Quý &7(Lv.I - Lv.VII): &a&l98.8%'
+  - '&f &f▪ &dĐá Quý &e&lLv.X &7(Các loại): &c&l0.1%'
+  - '&f &f▪ &dĐá Quý &e&lLv.IX &7(Các loại): &c&l0.8%'
+  - '&f &f▪ &dĐá Quý &e&lLv.VIII &7(Các loại): &c&l0.8%'
+  - '&f &f▪ &dĐá Quý &7(Lv.I - &7Lv.VII)&7: &a&l98.8%'
   - ''
   - '&e▸ Nhấn chuột phải để mở.'
   Item_Flags:
@@ -2306,5 +2306,5 @@ Item:
   - HIDE_POTION_EFFECTS
   - HIDE_DYE
   - HIDE_ARMOR_TRIM
-Last_Opener: ABeess
-Last_Reward: '&a&lLục Ngọc &e&lLv.III'
+Last_Opener: AbeesShadow
+Last_Reward: '&6&lThổ Ngọc &e&lLv.V'

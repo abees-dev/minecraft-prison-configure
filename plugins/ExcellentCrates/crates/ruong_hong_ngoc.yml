@@ -8,7 +8,7 @@ Key:
   Required: false
   Ids: []
 Block:
-  Positions: []
+  
   Pushback:
     Enabled: true
   Hologram:
@@ -28,7 +28,7 @@ Rewards:
       Weight: 45.0
       Rarity: common
       Broadcast: false
-      Placeholder_Apply: false
+      Placeholder_Apply: true
       Win_Limit:
         Player:
           Enabled: false
@@ -42,15 +42,15 @@ Rewards:
           CooldownStep: 1
       Items: []
       Commands:
-      - '[CONSOLE] mmoitems give GEM_STONE RED_GEM_LV1 %player_name% 1'
-      - '[CONSOLE] execute as %player_name% at @s run playsound entity.experience_orb.pickup master @s ~ ~ ~ 1 1.2'
+      - mmoitems give GEM_STONE RED_GEM_LV1 %player_name% 1
+      - execute as %player_name% at @s run playsound entity.experience_orb.pickup master @s ~ ~ ~ 1 1.2
       Ignored_For_Permissions: []
     red_gem_lv_2:
       Name: '&c&lHồng Ngọc &e&lLv.II'
       Weight: 25.0
       Rarity: common
       Broadcast: false
-      Placeholder_Apply: false
+      Placeholder_Apply: true
       Win_Limit:
         Player:
           Enabled: false
@@ -64,15 +64,15 @@ Rewards:
           CooldownStep: 1
       Items: []
       Commands:
-      - '[CONSOLE] mmoitems give GEM_STONE RED_GEM_LV2 %player_name% 1'
-      - '[CONSOLE] execute as %player_name% at @s run playsound entity.experience_orb.pickup master @s ~ ~ ~ 1 1.2'
+      - mmoitems give GEM_STONE RED_GEM_LV2 %player_name% 1
+      - execute as %player_name% at @s run playsound entity.experience_orb.pickup master @s ~ ~ ~ 1 1.2
       Ignored_For_Permissions: []
     red_gem_lv_3:
       Name: '&c&lHồng Ngọc &e&lLv.III'
       Weight: 12.0
       Rarity: common
       Broadcast: false
-      Placeholder_Apply: false
+      Placeholder_Apply: true
       Win_Limit:
         Player:
           Enabled: false
@@ -86,15 +86,15 @@ Rewards:
           CooldownStep: 1
       Items: []
       Commands:
-      - '[CONSOLE] mmoitems give GEM_STONE RED_GEM_LV3 %player_name% 1'
-      - '[CONSOLE] execute as %player_name% at @s run playsound entity.experience_orb.pickup master @s ~ ~ ~ 1 1.2'
+      - mmoitems give GEM_STONE RED_GEM_LV3 %player_name% 1
+      - execute as %player_name% at @s run playsound entity.experience_orb.pickup master @s ~ ~ ~ 1 1.2
       Ignored_For_Permissions: []
     red_gem_lv_4:
       Name: '&c&lHồng Ngọc &e&lLv.IV'
       Weight: 7.0
       Rarity: common
       Broadcast: false
-      Placeholder_Apply: false
+      Placeholder_Apply: true
       Win_Limit:
         Player:
           Enabled: false
@@ -108,15 +108,15 @@ Rewards:
           CooldownStep: 1
       Items: []
       Commands:
-      - '[CONSOLE] mmoitems give GEM_STONE RED_GEM_LV4 %player_name% 1'
-      - '[CONSOLE] execute as %player_name% at @s run playsound entity.experience_orb.pickup master @s ~ ~ ~ 1 1.2'
+      - mmoitems give GEM_STONE RED_GEM_LV4 %player_name% 1
+      - execute as %player_name% at @s run playsound entity.experience_orb.pickup master @s ~ ~ ~ 1 1.2
       Ignored_For_Permissions: []
     red_gem_lv_5:
       Name: '&c&lHồng Ngọc &e&lLv.V'
       Weight: 5.0
       Rarity: common
       Broadcast: false
-      Placeholder_Apply: false
+      Placeholder_Apply: true
       Win_Limit:
         Player:
           Enabled: false
@@ -130,15 +130,15 @@ Rewards:
           CooldownStep: 1
       Items: []
       Commands:
-      - '[CONSOLE] mmoitems give GEM_STONE RED_GEM_LV5 %player_name% 1'
-      - '[CONSOLE] execute as %player_name% at @s run playsound entity.experience_orb.pickup master @s ~ ~ ~ 1 1.2'
+      - mmoitems give GEM_STONE RED_GEM_LV5 %player_name% 1
+      - execute as %player_name% at @s run playsound entity.experience_orb.pickup master @s ~ ~ ~ 1 1.2
       Ignored_For_Permissions: []
     red_gem_lv_6:
       Name: '&c&lHồng Ngọc &e&lLv.VI'
       Weight: 3.0
       Rarity: common
       Broadcast: false
-      Placeholder_Apply: false
+      Placeholder_Apply: true
       Win_Limit:
         Player:
           Enabled: false
@@ -152,15 +152,15 @@ Rewards:
           CooldownStep: 1
       Items: []
       Commands:
-      - '[CONSOLE] mmoitems give GEM_STONE RED_GEM_LV6 %player_name% 1'
-      - '[CONSOLE] execute as %player_name% at @s run playsound entity.experience_orb.pickup master @s ~ ~ ~ 1 1.2'
+      - mmoitems give GEM_STONE RED_GEM_LV6 %player_name% 1
+      - execute as %player_name% at @s run playsound entity.experience_orb.pickup master @s ~ ~ ~ 1 1.2
       Ignored_For_Permissions: []
     red_gem_lv_7:
       Name: '&c&lHồng Ngọc &e&lLv.VII'
       Weight: 1.8
       Rarity: common
       Broadcast: false
-      Placeholder_Apply: false
+      Placeholder_Apply: true
       Win_Limit:
         Player:
           Enabled: false
@@ -174,15 +174,15 @@ Rewards:
           CooldownStep: 1
       Items: []
       Commands:
-      - '[CONSOLE] mmoitems give GEM_STONE RED_GEM_LV7 %player_name% 1'
-      - '[CONSOLE] execute as %player_name% at @s run playsound entity.experience_orb.pickup master @s ~ ~ ~ 1 1.2'
+      - mmoitems give GEM_STONE RED_GEM_LV7 %player_name% 1
+      - execute as %player_name% at @s run playsound entity.experience_orb.pickup master @s ~ ~ ~ 1 1.2
       Ignored_For_Permissions: []
     red_gem_lv_8:
       Name: '&c&lHồng Ngọc &e&lLv.VIII'
       Weight: 0.8
       Rarity: common
       Broadcast: true
-      Placeholder_Apply: false
+      Placeholder_Apply: true
       Win_Limit:
         Player:
           Enabled: false
@@ -196,17 +196,17 @@ Rewards:
           CooldownStep: 1
       Items: []
       Commands:
-      - '[CONSOLE] mmoitems give GEM_STONE RED_GEM_LV8 %player_name% 1'
-      - '[CONSOLE] broadcast &d&lCRATES &8» &fChúc mừng &b%player_name% &fvừa mở &eHòm Hồng Ngọc &fnhận được &c&lHồng Ngọc &e&lLv.VIII&f!'
-      - '[CONSOLE] execute as %player_name% at @s run playsound ui.toast.challenge_complete master @s ~ ~ ~ 1 1'
-      - '[CONSOLE] execute as %player_name% at @s run summon firework_rocket ~ ~ ~ {LifeTime:5,Motion:[0.0,1.2,0.0],FireworksItem:{id:"minecraft:firework_rocket",Count:1,tag:{Fireworks:{Explosions:[{Type:1,Colors:[I;16711680,16776960],FadeColors:[I;255]}]}}}}'
+      - mmoitems give GEM_STONE RED_GEM_LV8 %player_name% 1
+      - broadcast &d&lCRATES &8» &fChúc mừng &b%player_name% &fvừa mở &eHòm Hồng Ngọc &fnhận được &c&lHồng Ngọc &e&lLv.VIII&f!
+      - execute as %player_name% at @s run playsound ui.toast.challenge_complete master @s ~ ~ ~ 1 1
+      - execute as %player_name% at @s run summon firework_rocket ~ ~ ~ {LifeTime:5,Motion:[0.0,1.2,0.0],FireworksItem:{id:"minecraft:firework_rocket",Count:1,tag:{Fireworks:{Explosions:[{Type:1,Colors:[I;16711680,16776960],FadeColors:[I;255]}]}}}}
       Ignored_For_Permissions: []
     red_gem_lv_9:
       Name: '&c&lHồng Ngọc &e&lLv.IX'
       Weight: 0.3
       Rarity: common
       Broadcast: true
-      Placeholder_Apply: false
+      Placeholder_Apply: true
       Win_Limit:
         Player:
           Enabled: false
@@ -220,17 +220,17 @@ Rewards:
           CooldownStep: 1
       Items: []
       Commands:
-      - '[CONSOLE] mmoitems give GEM_STONE RED_GEM_LV9 %player_name% 1'
-      - '[CONSOLE] broadcast &d&lCRATES &8» &fChúc mừng &b%player_name% &fvừa mở &eHòm Hồng Ngọc &fnhận được &c&lHồng Ngọc &e&lLv.IX&f!'
-      - '[CONSOLE] execute as %player_name% at @s run playsound ui.toast.challenge_complete master @s ~ ~ ~ 1 1'
-      - '[CONSOLE] execute as %player_name% at @s run summon firework_rocket ~ ~ ~ {LifeTime:5,Motion:[0.0,1.2,0.0],FireworksItem:{id:"minecraft:firework_rocket",Count:1,tag:{Fireworks:{Explosions:[{Type:1,Colors:[I;16711680,16776960],FadeColors:[I;255]}]}}}}'
+      - mmoitems give GEM_STONE RED_GEM_LV9 %player_name% 1
+      - broadcast &d&lCRATES &8» &fChúc mừng &b%player_name% &fvừa mở &eHòm Hồng Ngọc &fnhận được &c&lHồng Ngọc &e&lLv.IX&f!
+      - execute as %player_name% at @s run playsound ui.toast.challenge_complete master @s ~ ~ ~ 1 1
+      - execute as %player_name% at @s run summon firework_rocket ~ ~ ~ {LifeTime:5,Motion:[0.0,1.2,0.0],FireworksItem:{id:"minecraft:firework_rocket",Count:1,tag:{Fireworks:{Explosions:[{Type:1,Colors:[I;16711680,16776960],FadeColors:[I;255]}]}}}}
       Ignored_For_Permissions: []
     red_gem_lv_10:
       Name: '&c&lHồng Ngọc &e&lLv.X'
       Weight: 0.1
       Rarity: common
       Broadcast: true
-      Placeholder_Apply: false
+      Placeholder_Apply: true
       Win_Limit:
         Player:
           Enabled: false
@@ -244,10 +244,10 @@ Rewards:
           CooldownStep: 1
       Items: []
       Commands:
-      - '[CONSOLE] mmoitems give GEM_STONE RED_GEM_LV10 %player_name% 1'
-      - '[CONSOLE] broadcast &d&lCRATES &8» &fChúc mừng &b%player_name% &fvừa mở &eHòm Hồng Ngọc &fnhận được &c&lHồng Ngọc &e&lLv.X&f!'
-      - '[CONSOLE] execute as %player_name% at @s run playsound ui.toast.challenge_complete master @s ~ ~ ~ 1 1'
-      - '[CONSOLE] execute as %player_name% at @s run summon firework_rocket ~ ~ ~ {LifeTime:5,Motion:[0.0,1.2,0.0],FireworksItem:{id:"minecraft:firework_rocket",Count:1,tag:{Fireworks:{Explosions:[{Type:1,Colors:[I;16711680,16776960],FadeColors:[I;255]}]}}}}'
+      - mmoitems give GEM_STONE RED_GEM_LV10 %player_name% 1
+      - broadcast &d&lCRATES &8» &fChúc mừng &b%player_name% &fvừa mở &eHòm Hồng Ngọc &fnhận được &c&lHồng Ngọc &e&lLv.X&f!
+      - execute as %player_name% at @s run playsound ui.toast.challenge_complete master @s ~ ~ ~ 1 1
+      - execute as %player_name% at @s run summon firework_rocket ~ ~ ~ {LifeTime:5,Motion:[0.0,1.2,0.0],FireworksItem:{id:"minecraft:firework_rocket",Count:1,tag:{Fireworks:{Explosions:[{Type:1,Colors:[I;16711680,16776960],FadeColors:[I;255]}]}}}}
       Ignored_For_Permissions: []
 Item:
   Material: CHEST
@@ -257,10 +257,10 @@ Item:
   - '&7Khảm vào trang bị giúp gia tăng &c&lSát Thương Vật Lý&7.'
   - ''
   - '&e&l★ PHẦN THƯỞNG NỔI BẬT:'
-  - ' &f▪ &c&lHồng Ngọc &e&lLv.X&7: &c&l0.1%'
-  - ' &f▪ &c&lHồng Ngọc &e&lLv.IX&7: &c&l0.3%'
-  - ' &f▪ &c&lHồng Ngọc &e&lLv.VIII&7: &c&l0.8%'
-  - ' &f▪ &c&lHồng Ngọc &7(Lv.I - Lv.VII): &a&l98.8%'
+  - '&f &f▪ &c&lHồng Ngọc &e&lLv.X&7: &c&l0.1%'
+  - '&f &f▪ &c&lHồng Ngọc &e&lLv.IX&7: &c&l0.3%'
+  - '&f &f▪ &c&lHồng Ngọc &e&lLv.VIII&7: &c&l0.8%'
+  - '&f &f▪ &c&lHồng Ngọc &7(Lv.I - &7Lv.VII)&7: &a&l98.8%'
   - ''
   - '&e▸ Nhấn chuột phải để mở.'
   Item_Flags:
