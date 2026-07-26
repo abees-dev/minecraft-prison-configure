@@ -26,33 +26,36 @@ items:
     material: PLAYER_HEAD
     slot: 4
     priority: 1
+    glow: true
     hide_attributes: true
     display_name: '&6&l⭐ HỒ SƠ NGƯỜI CHƠI &6&l⭐'
     lore:
       - '&7• Tên người chơi: &e%player_name%'
       - '&7• Số dư Tiền: &a%vault_eco_balance_formatted% &7money'
-      - '&7• Cấp độ MMOCore: &bLevel %mmocore_level%'
+      - '&7• Level nhân vật: &bLevel %mmocore_level%'
       - ''
-      - '&7• Cấp Rank Prison: &e%luckperms_prefix%'
+      - '&7• Cấp Rank Prison: &e%xprison_rank%'
       - '&7• Cấp Rank VIP: &b%luckperms_highest_group_by_weight%'
 
   'prison_header':
     material: DIAMOND_PICKAXE
     slot: 2
     priority: 1
+    glow: true
     hide_attributes: true
     display_name: '&e&l⛏ TIẾN TRÌNH RANK PRISON &7(1 ➔ 9)'
     lore:
       - '&7Thăng rank bằng lệnh &e/rankup &7để mở'
       - '&7khu mỏ mới và tăng hệ số thưởng money/token!'
       - ''
-      - '&a■ &7Đã vượt qua    &e■ &7Rank hiện tại'
+      - '&a■ &7Đã sở hữu    &e■ &7Rank hiện tại'
       - '&6■ &7Rank tiếp theo   &c■ &7Chưa mở khóa'
 
   'vip_header':
     material: NETHER_STAR
     slot: 6
     priority: 1
+    glow: true
     hide_attributes: true
     display_name: '&b&l⭐ TIẾN TRÌNH RANK VIP &7(1 ➔ 6)'
     lore:
@@ -69,18 +72,19 @@ items:
 
   # --- Rank 1: Tân Binh ---
   'pr_1_passed':
-    material: LIME_STAINED_GLASS_PANE
+    material: NETHER_STAR
     slot: 10
     priority: 1
-    display_name: '&f&l[Tân Binh] &8» &a&lĐÃ VƯỢT QUA'
+    display_name: '&f&l[Tân Binh] &7(&aĐã sở hữu&7)'
     lore:
       - '&7• Cấp bậc: &eRank #1'
-      - '&a✔ Bạn đã hoàn thành rank này.'
+      - '&a✔ Bạn đã sở hữu rank này.'
     view_requirement:
       requirements:
         passed:
-          type: has permission
-          permission: group.xprison_rank_2
+          type: greater than
+          input: '%xprison_rank_id%'
+          output: '1'
   'pr_1_current':
     material: NETHER_STAR
     slot: 10
@@ -97,18 +101,19 @@ items:
 
   # --- Rank 2: Tù Nhân ---
   'pr_2_passed':
-    material: LIME_STAINED_GLASS_PANE
+    material: NETHER_STAR
     slot: 11
     priority: 1
-    display_name: '&7&l[Tù Nhân] &8» &a&lĐÃ VƯỢT QUA'
+    display_name: '&7&l[Tù Nhân] &7(&aĐã sở hữu&7)'
     lore:
       - '&7• Cấp bậc: &eRank #2'
-      - '&a✔ Bạn đã hoàn thành rank này.'
+      - '&a✔ Bạn đã sở hữu rank này.'
     view_requirement:
       requirements:
         passed:
-          type: has permission
-          permission: group.xprison_rank_3
+          type: greater than
+          input: '%xprison_rank_id%'
+          output: '2'
   'pr_2_current':
     material: NETHER_STAR
     slot: 11
@@ -124,8 +129,9 @@ items:
     view_requirement:
       requirements:
         cur_rank:
-          type: has permission
-          permission: group.xprison_rank_2
+          type: equal to
+          input: '%xprison_rank_id%'
+          output: '2'
   'pr_2_next':
     material: GOLD_INGOT
     slot: 11
@@ -135,7 +141,7 @@ items:
     lore:
       - '&7• Cấp bậc: &eRank #2'
       - '&7• Giá Rankup: &f85,000 &7money'
-      - '&7• Yêu cầu MMOCore: &eLevel 10'
+      - '&7• Yêu cầu: &eLevel 10'
       - ''
       - '&e➤ Click để lên rank này!'
     left_click_commands:
@@ -144,18 +150,19 @@ items:
 
   # --- Rank 3: Lao Công ---
   'pr_3_passed':
-    material: LIME_STAINED_GLASS_PANE
+    material: NETHER_STAR
     slot: 12
     priority: 1
-    display_name: '&a&l[Lao Công] &8» &a&lĐÃ VƯỢT QUA'
+    display_name: '&a&l[Lao Công] &7(&aĐã sở hữu&7)'
     lore:
       - '&7• Cấp bậc: &eRank #3'
-      - '&a✔ Bạn đã hoàn thành rank này.'
+      - '&a✔ Bạn đã sở hữu rank này.'
     view_requirement:
       requirements:
         passed:
-          type: has permission
-          permission: group.xprison_rank_4
+          type: greater than
+          input: '%xprison_rank_id%'
+          output: '3'
   'pr_3_current':
     material: NETHER_STAR
     slot: 12
@@ -172,8 +179,9 @@ items:
     view_requirement:
       requirements:
         cur_rank:
-          type: has permission
-          permission: group.xprison_rank_3
+          type: equal to
+          input: '%xprison_rank_id%'
+          output: '3'
   'pr_3_next':
     material: GOLD_INGOT
     slot: 12
@@ -183,14 +191,15 @@ items:
     lore:
       - '&7• Cấp bậc: &eRank #3'
       - '&7• Giá Rankup: &f290,000 &7money'
-      - '&7• Yêu cầu MMOCore: &eLevel 20'
+      - '&7• Yêu cầu: &eLevel 20'
       - ''
       - '&e➤ Click để lên rank này!'
     view_requirement:
       requirements:
         is_prev:
-          type: has permission
-          permission: group.xprison_rank_2
+          type: equal to
+          input: '%xprison_rank_id%'
+          output: '2'
     left_click_commands:
       - '[player] rankup'
       - '[close]'
@@ -202,24 +211,25 @@ items:
     lore:
       - '&7• Cấp bậc: &eRank #3'
       - '&7• Giá Rankup: &f290,000 &7money'
-      - '&7• Yêu cầu MMOCore: &eLevel 20'
+      - '&7• Yêu cầu: &eLevel 20'
       - ''
       - '&c🔒 Cần nâng rank tuần tự theo thứ tự'
 
   # --- Rank 4: Thợ Đào ---
   'pr_4_passed':
-    material: LIME_STAINED_GLASS_PANE
+    material: NETHER_STAR
     slot: 13
     priority: 1
-    display_name: '&2&l[Thợ Đào] &8» &a&lĐÃ VƯỢT QUA'
+    display_name: '&2&l[Thợ Đào] &7(&aĐã sở hữu&7)'
     lore:
       - '&7• Cấp bậc: &eRank #4'
-      - '&a✔ Bạn đã hoàn thành rank này.'
+      - '&a✔ Bạn đã sở hữu rank này.'
     view_requirement:
       requirements:
         passed:
-          type: has permission
-          permission: group.xprison_rank_5
+          type: greater than
+          input: '%xprison_rank_id%'
+          output: '4'
   'pr_4_current':
     material: NETHER_STAR
     slot: 13
@@ -235,8 +245,9 @@ items:
     view_requirement:
       requirements:
         cur_rank:
-          type: has permission
-          permission: group.xprison_rank_4
+          type: equal to
+          input: '%xprison_rank_id%'
+          output: '4'
   'pr_4_next':
     material: GOLD_INGOT
     slot: 13
@@ -246,14 +257,15 @@ items:
     lore:
       - '&7• Cấp bậc: &eRank #4'
       - '&7• Giá Rankup: &f1,075,000 &7money'
-      - '&7• Yêu cầu MMOCore: &eLevel 30'
+      - '&7• Yêu cầu: &eLevel 30'
       - ''
       - '&e➤ Click để lên rank này!'
     view_requirement:
       requirements:
         is_prev:
-          type: has permission
-          permission: group.xprison_rank_3
+          type: equal to
+          input: '%xprison_rank_id%'
+          output: '3'
     left_click_commands:
       - '[player] rankup'
       - '[close]'
@@ -265,24 +277,25 @@ items:
     lore:
       - '&7• Cấp bậc: &eRank #4'
       - '&7• Giá Rankup: &f1,075,000 &7money'
-      - '&7• Yêu cầu MMOCore: &eLevel 30'
+      - '&7• Yêu cầu: &eLevel 30'
       - ''
       - '&c🔒 Cần nâng rank tuần tự theo thứ tự'
 
   # --- Rank 5: Đội Trưởng ---
   'pr_5_passed':
-    material: LIME_STAINED_GLASS_PANE
+    material: NETHER_STAR
     slot: 14
     priority: 1
-    display_name: '&b&l[Đội Trưởng] &8» &a&lĐÃ VƯỢT QUA'
+    display_name: '&b&l[Đội Trưởng] &7(&aĐã sở hữu&7)'
     lore:
       - '&7• Cấp bậc: &eRank #5'
-      - '&a✔ Bạn đã hoàn thành rank này.'
+      - '&a✔ Bạn đã sở hữu rank này.'
     view_requirement:
       requirements:
         passed:
-          type: has permission
-          permission: group.xprison_rank_6
+          type: greater than
+          input: '%xprison_rank_id%'
+          output: '5'
   'pr_5_current':
     material: NETHER_STAR
     slot: 14
@@ -299,8 +312,9 @@ items:
     view_requirement:
       requirements:
         cur_rank:
-          type: has permission
-          permission: group.xprison_rank_5
+          type: equal to
+          input: '%xprison_rank_id%'
+          output: '5'
   'pr_5_next':
     material: GOLD_INGOT
     slot: 14
@@ -310,14 +324,15 @@ items:
     lore:
       - '&7• Cấp bậc: &eRank #5'
       - '&7• Giá Rankup: &f5,400,000 &7money'
-      - '&7• Yêu cầu MMOCore: &eLevel 45'
+      - '&7• Yêu cầu: &eLevel 45'
       - ''
       - '&e➤ Click để lên rank này!'
     view_requirement:
       requirements:
         is_prev:
-          type: has permission
-          permission: group.xprison_rank_4
+          type: equal to
+          input: '%xprison_rank_id%'
+          output: '4'
     left_click_commands:
       - '[player] rankup'
       - '[close]'
@@ -329,24 +344,25 @@ items:
     lore:
       - '&7• Cấp bậc: &eRank #5'
       - '&7• Giá Rankup: &f5,400,000 &7money'
-      - '&7• Yêu cầu MMOCore: &eLevel 45'
+      - '&7• Yêu cầu: &eLevel 45'
       - ''
       - '&c🔒 Cần nâng rank tuần tự theo thứ tự'
 
   # --- Rank 6: Phó Quản Ngục ---
   'pr_6_passed':
-    material: LIME_STAINED_GLASS_PANE
+    material: NETHER_STAR
     slot: 15
     priority: 1
-    display_name: '&1&l[Phó Quản Ngục] &8» &a&lĐÃ VƯỢT QUA'
+    display_name: '&1&l[Phó Quản Ngục] &7(&aĐã sở hữu&7)'
     lore:
       - '&7• Cấp bậc: &eRank #6'
-      - '&a✔ Bạn đã hoàn thành rank này.'
+      - '&a✔ Bạn đã sở hữu rank này.'
     view_requirement:
       requirements:
         passed:
-          type: has permission
-          permission: group.xprison_rank_7
+          type: greater than
+          input: '%xprison_rank_id%'
+          output: '6'
   'pr_6_current':
     material: NETHER_STAR
     slot: 15
@@ -363,8 +379,9 @@ items:
     view_requirement:
       requirements:
         cur_rank:
-          type: has permission
-          permission: group.xprison_rank_6
+          type: equal to
+          input: '%xprison_rank_id%'
+          output: '6'
   'pr_6_next':
     material: GOLD_INGOT
     slot: 15
@@ -374,14 +391,15 @@ items:
     lore:
       - '&7• Cấp bậc: &eRank #6'
       - '&7• Giá Rankup: &f21,700,000 &7money'
-      - '&7• Yêu cầu MMOCore: &eLevel 60'
+      - '&7• Yêu cầu: &eLevel 60'
       - ''
       - '&e➤ Click để lên rank này!'
     view_requirement:
       requirements:
         is_prev:
-          type: has permission
-          permission: group.xprison_rank_5
+          type: equal to
+          input: '%xprison_rank_id%'
+          output: '5'
     left_click_commands:
       - '[player] rankup'
       - '[close]'
@@ -393,24 +411,25 @@ items:
     lore:
       - '&7• Cấp bậc: &eRank #6'
       - '&7• Giá Rankup: &f21,700,000 &7money'
-      - '&7• Yêu cầu MMOCore: &eLevel 60'
+      - '&7• Yêu cầu: &eLevel 60'
       - ''
       - '&c🔒 Cần nâng rank tuần tự theo thứ tự'
 
   # --- Rank 7: Quản Ngục ---
   'pr_7_passed':
-    material: LIME_STAINED_GLASS_PANE
+    material: NETHER_STAR
     slot: 16
     priority: 1
-    display_name: '&d&l[Quản Ngục] &8» &a&lĐÃ VƯỢT QUA'
+    display_name: '&d&l[Quản Ngục] &7(&aĐã sở hữu&7)'
     lore:
       - '&7• Cấp bậc: &eRank #7'
-      - '&a✔ Bạn đã hoàn thành rank này.'
+      - '&a✔ Bạn đã sở hữu rank này.'
     view_requirement:
       requirements:
         passed:
-          type: has permission
-          permission: group.xprison_rank_8
+          type: greater than
+          input: '%xprison_rank_id%'
+          output: '7'
   'pr_7_current':
     material: NETHER_STAR
     slot: 16
@@ -427,8 +446,9 @@ items:
     view_requirement:
       requirements:
         cur_rank:
-          type: has permission
-          permission: group.xprison_rank_7
+          type: equal to
+          input: '%xprison_rank_id%'
+          output: '7'
   'pr_7_next':
     material: GOLD_INGOT
     slot: 16
@@ -438,14 +458,15 @@ items:
     lore:
       - '&7• Cấp bậc: &eRank #7'
       - '&7• Giá Rankup: &f32,000,000 &7money'
-      - '&7• Yêu cầu MMOCore: &eLevel 75'
+      - '&7• Yêu cầu: &eLevel 75'
       - ''
       - '&e➤ Click để lên rank này!'
     view_requirement:
       requirements:
         is_prev:
-          type: has permission
-          permission: group.xprison_rank_6
+          type: equal to
+          input: '%xprison_rank_id%'
+          output: '6'
     left_click_commands:
       - '[player] rankup'
       - '[close]'
@@ -457,24 +478,25 @@ items:
     lore:
       - '&7• Cấp bậc: &eRank #7'
       - '&7• Giá Rankup: &f32,000,000 &7money'
-      - '&7• Yêu cầu MMOCore: &eLevel 75'
+      - '&7• Yêu cầu: &eLevel 75'
       - ''
       - '&c🔒 Cần nâng rank tuần tự theo thứ tự'
 
   # --- Rank 8: Bá Chủ Ngục Tù ---
   'pr_8_passed':
-    material: LIME_STAINED_GLASS_PANE
+    material: NETHER_STAR
     slot: 19
     priority: 1
-    display_name: '&6&l[Bá Chủ Ngục Tù] &8» &a&lĐÃ VƯỢT QUA'
+    display_name: '&6&l[Bá Chủ Ngục Tù] &7(&aĐã sở hữu&7)'
     lore:
       - '&7• Cấp bậc: &eRank #8'
-      - '&a✔ Bạn đã hoàn thành rank này.'
+      - '&a✔ Bạn đã sở hữu rank này.'
     view_requirement:
       requirements:
         passed:
-          type: has permission
-          permission: group.xprison_rank_9
+          type: greater than
+          input: '%xprison_rank_id%'
+          output: '8'
   'pr_8_current':
     material: NETHER_STAR
     slot: 19
@@ -491,8 +513,9 @@ items:
     view_requirement:
       requirements:
         cur_rank:
-          type: has permission
-          permission: group.xprison_rank_8
+          type: equal to
+          input: '%xprison_rank_id%'
+          output: '8'
   'pr_8_next':
     material: GOLD_INGOT
     slot: 19
@@ -502,14 +525,15 @@ items:
     lore:
       - '&7• Cấp bậc: &eRank #8'
       - '&7• Giá Rankup: &f43,500,000 &7money'
-      - '&7• Yêu cầu MMOCore: &eLevel 90'
+      - '&7• Yêu cầu: &eLevel 90'
       - ''
       - '&e➤ Click để lên rank này!'
     view_requirement:
       requirements:
         is_prev:
-          type: has permission
-          permission: group.xprison_rank_7
+          type: equal to
+          input: '%xprison_rank_id%'
+          output: '7'
     left_click_commands:
       - '[player] rankup'
       - '[close]'
@@ -521,7 +545,7 @@ items:
     lore:
       - '&7• Cấp bậc: &eRank #8'
       - '&7• Giá Rankup: &f43,500,000 &7money'
-      - '&7• Yêu cầu MMOCore: &eLevel 90'
+      - '&7• Yêu cầu: &eLevel 90'
       - ''
       - '&c🔒 Cần nâng rank tuần tự theo thứ tự'
 
@@ -543,8 +567,9 @@ items:
     view_requirement:
       requirements:
         cur_rank:
-          type: has permission
-          permission: group.xprison_rank_9
+          type: equal to
+          input: '%xprison_rank_id%'
+          output: '9'
   'pr_9_next':
     material: GOLD_INGOT
     slot: 20
@@ -554,14 +579,15 @@ items:
     lore:
       - '&7• Cấp bậc: &eRank #9'
       - '&7• Giá Rankup: &f64,500,000 &7money'
-      - '&7• Yêu cầu MMOCore: &eLevel 100'
+      - '&7• Yêu cầu: &eLevel 100'
       - ''
       - '&e➤ Click để lên rank cao nhất này!'
     view_requirement:
       requirements:
         is_prev:
-          type: has permission
-          permission: group.xprison_rank_8
+          type: equal to
+          input: '%xprison_rank_id%'
+          output: '8'
     left_click_commands:
       - '[player] rankup'
       - '[close]'
@@ -573,7 +599,7 @@ items:
     lore:
       - '&7• Cấp bậc: &eRank #9'
       - '&7• Giá Rankup: &f64,500,000 &7money'
-      - '&7• Yêu cầu MMOCore: &eLevel 100'
+      - '&7• Yêu cầu: &eLevel 100'
       - ''
       - '&c🔒 Cần nâng rank tuần tự theo thứ tự'
 
@@ -587,7 +613,7 @@ items:
     hide_attributes: true
     display_name: '&e&l✦ HƯỚNG DẪN THĂNG HẠNG ✦'
     lore:
-      - '&7• Dùng tiền &fMoney &7& Level MMOCore để'
+      - '&7• Dùng tiền &fMoney &7& Level nhân vật để'
       - '  nâng cấp &eRank Prison &7(từ Rank 1 ➔ 9).'
       - ''
       - '&7• Mua &bRank VIP &7giúp mở khóa các đặc'
@@ -604,13 +630,13 @@ items:
     hide_attributes: true
     display_name: '&b&l❖ GIỚI HẠN LEVEL MMOCORE ❖'
     lore:
-      - '&7Mỗi Rank Prison yêu cầu Level MMOCore tương ứng:'
+      - '&7Mỗi Rank Prison yêu cầu Level tương ứng:'
       - '&8- &7Rank 2: &eLvl 10    &8- &7Rank 6: &eLvl 60'
       - '&8- &7Rank 3: &eLvl 20    &8- &7Rank 7: &eLvl 75'
       - '&8- &7Rank 4: &eLvl 30    &8- &7Rank 8: &eLvl 90'
       - '&8- &7Rank 5: &eLvl 45    &8- &7Rank 9: &eLvl 100'
       - ''
-      - '&7Hãy đánh quái & cày Level MMOCore trước khi /rankup!'
+      - '&7Hãy đánh quái & cày Level trước khi /rankup!'
 
   # ---------------------------------------------------------------------------
   # VIP RANKS TRACK (Row 4: Slots 29..34)
@@ -655,8 +681,9 @@ items:
     view_requirement:
       requirements:
         req_prison:
-          type: has permission
-          permission: group.xprison_rank_3
+          type: greater than or equal to
+          input: '%xprison_rank_id%'
+          output: '3'
     left_click_requirement:
       requirements:
         balance_check:
@@ -730,8 +757,9 @@ items:
           type: has permission
           permission: group.vip
         req_prison:
-          type: has permission
-          permission: group.xprison_rank_5
+          type: greater than or equal to
+          input: '%xprison_rank_id%'
+          output: '5'
     left_click_requirement:
       requirements:
         balance_check:
@@ -826,8 +854,9 @@ items:
           type: has permission
           permission: group.vipplus
         req_prison:
-          type: has permission
-          permission: group.xprison_rank_6
+          type: greater than or equal to
+          input: '%xprison_rank_id%'
+          output: '6'
     left_click_requirement:
       requirements:
         balance_check:
@@ -922,8 +951,9 @@ items:
           type: has permission
           permission: group.mvp
         req_prison:
-          type: has permission
-          permission: group.xprison_rank_7
+          type: greater than or equal to
+          input: '%xprison_rank_id%'
+          output: '7'
     left_click_requirement:
       requirements:
         balance_check:
@@ -1018,8 +1048,9 @@ items:
           type: has permission
           permission: group.mvpplus
         req_prison:
-          type: has permission
-          permission: group.xprison_rank_8
+          type: greater than or equal to
+          input: '%xprison_rank_id%'
+          output: '8'
     left_click_requirement:
       requirements:
         balance_check:
@@ -1114,8 +1145,9 @@ items:
           type: has permission
           permission: group.elite
         req_prison:
-          type: has permission
-          permission: group.xprison_rank_9
+          type: greater than or equal to
+          input: '%xprison_rank_id%'
+          output: '9'
     left_click_requirement:
       requirements:
         balance_check:
@@ -1178,7 +1210,7 @@ items:
       - '[close]'
 
   'filler':
-    material: GRAY_STAINED_GLASS_PANE
+    material: BLACK_STAINED_GLASS_PANE
     slots:
       - 0
       - 1
@@ -1196,6 +1228,20 @@ items:
       - 27
       - 28
       - 35
+      - 45
+      - 46
+      - 47
+      - 48
+      - 50
+      - 51
+      - 52
+      - 53
+    display_name: ' '
+
+  # Dải phân cách vàng giữa khu VIP (row 4) và footer (row 6) cho đỡ trống trải
+  'divider':
+    material: YELLOW_STAINED_GLASS_PANE
+    slots:
       - 36
       - 37
       - 38
@@ -1205,12 +1251,4 @@ items:
       - 42
       - 43
       - 44
-      - 45
-      - 46
-      - 47
-      - 48
-      - 50
-      - 51
-      - 52
-      - 53
     display_name: ' '

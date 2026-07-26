@@ -1,9 +1,9 @@
 messages:
-  no_permission: '<red><bold>(!) <white>You do not have a permission to do that!'
-  rank_up: '<gradient:#FFD700:#FFEA00><bold>RANKUP</bold> <dark_gray>»</dark_gray></gradient> <white>Congratulations, you ranked up from <yellow>%Rank-1% <white>to <yellow>%Rank-2%<white>.'
-  not_enough_currency: '<gradient:#FFD700:#FFEA00><bold>RANKUP</bold> <dark_gray>»</dark_gray></gradient> <white>You don''t have enough %currency% to rankup. You need <yellow>%cost% %currency%'
-  prestige_needed: '<gradient:#FFD700:#FFEA00><bold>RANKUP</bold> <dark_gray>»</dark_gray></gradient> <white>Please use <yellow>/prestige'
-  rank_set: '<gradient:#FFD700:#FFEA00><bold>RANKUP</bold> <dark_gray>»</dark_gray></gradient> <white>You have set %player%''s rank to %rank%'
+  no_permission: "<red><bold>(!) <white>You do not have a permission to do that!"
+  rank_up: ""
+  not_enough_currency: "<gradient:#FFD700:#FFEA00><bold>RANKUP</bold> <dark_gray>»</dark_gray></gradient> <white>You don't have enough %currency% to rankup. You need <yellow>%cost% %currency%"
+  prestige_needed: "<gradient:#FFD700:#FFEA00><bold>RANKUP</bold> <dark_gray>»</dark_gray></gradient> <white>Please use <yellow>/prestige"
+  rank_set: "<gradient:#FFD700:#FFEA00><bold>RANKUP</bold> <dark_gray>»</dark_gray></gradient> <white>You have set %player%'s rank to %rank%"
 # Delimiter on progress bar
 progress-bar-delimiter: ":"
 # Length of progress bar
@@ -16,61 +16,63 @@ auto-rank-up: false
 auto-rank-up-interval: 2
 # Title shown to player on rank-up. Supports MiniMessage. Placeholders: %rank% (new rank prefix), %old_rank% (old rank prefix)
 rankup-title:
-  enabled: true
-  title: '&5&lRANKUP'
-  subtitle: '&aYou reached &e%rank%'
+  # Tắt vì level_gate.sk đã tự gửi title/message riêng (tiếng Việt) khi rankup,
+  # để 2 title X-Prison + Skript không hiện chồng nhau.
+  enabled: false
+  title: "&5&lRANKUP"
+  subtitle: "&aYou reached &e%rank%"
   fade-in: 1
   stay: 3
   fade-out: 1
 # Sound played to player on rank-up. sound must be a valid Bukkit Sound enum name.
 rankup-sound:
-  enabled: true
+  enabled: false
   sound: UI_TOAST_CHALLENGE_COMPLETE
   volume: 1.0
   pitch: 1.0
 # Ranks settings
 Ranks:
-  '1':
+  "1":
     Prefix: <white><bold>[Tân Binh]</bold></white>
     Cost: 0
     CMD:
       - lp user %player% parent set xprison_rank_1
-  '2':
+  "2":
     Prefix: <gray><bold>[Tù Nhân]</bold></gray>
     Cost: 85000
     CMD:
       - lp user %player% parent set xprison_rank_2
-  '3':
+  "3":
     Prefix: <green><bold>[Lao Công]</bold></green>
     Cost: 290000
     CMD:
       - lp user %player% parent set xprison_rank_3
-  '4':
+  "4":
     Prefix: <dark_green><bold>[Thợ Đào]</bold></dark_green>
     Cost: 1075000
     CMD:
       - lp user %player% parent set xprison_rank_4
-  '5':
+  "5":
     Prefix: <aqua><bold>[Đội Trưởng]</bold></aqua>
     Cost: 5400000
     CMD:
       - lp user %player% parent set xprison_rank_5
-  '6':
+  "6":
     Prefix: <blue><bold>[Phó Quản Ngục]</bold></blue>
     Cost: 21700000
     CMD:
       - lp user %player% parent set xprison_rank_6
-  '7':
+  "7":
     Prefix: <light_purple><bold>[Quản Ngục]</bold></light_purple>
     Cost: 32000000
     CMD:
       - lp user %player% parent set xprison_rank_7
-  '8':
+  "8":
     Prefix: <gold><bold>[Bá Chủ Ngục Tù]</bold></gold>
     Cost: 43500000
     CMD:
       - lp user %player% parent set xprison_rank_8
-  '9':
+  "9":
     Prefix: <red><bold>[Vượt Ngục]</bold></red>
     Cost: 64500000
     CMD:
@@ -87,7 +89,7 @@ Ranks:
 # isn't supported by the plugin, only the shared templates below)
 # ---------------------------------------------------------------------------
 gui:
-  title: '<gradient:#FFD700:#FFA500><bold>⛏ RANKS ⛏</bold></gradient>'
+  title: "<gradient:#FFD700:#FFA500><bold>⛏ RANKS ⛏</bold></gradient>"
   rows: 6
   filler: GRAY_STAINED_GLASS_PANE
   # Centered 3x3 ladder layout - one slot per existing rank (1-9).
@@ -97,78 +99,78 @@ gui:
     owned:
       material: LIME_STAINED_GLASS_PANE
       glow: false
-      name: '%prefix% <dark_gray>(<green>Đã sở hữu</green>)'
+      name: "%prefix% <dark_gray>(<green>Đã sở hữu</green>)"
       lore:
-        - '<gray>Rank <white>#%id%'
-        - '<green>✔ Bạn đã vượt qua rank này.'
-        - ' '
-        - '<gray>Quyền lợi:'
-        - '<dark_gray>• <gray>Mở khóa khu mine của rank'
-        - '<dark_gray>• <gray>Hệ số nhân %currency%/tokens cao hơn'
-        - '<dark_gray>• <gray>Nhóm LuckPerms: <white>xprison_rank_%id%'
+        - "<gray>Rank <white>#%id%"
+        - "<green>✔ Bạn đã vượt qua rank này."
+        - " "
+        - "<gray>Quyền lợi:"
+        - "<dark_gray>• <gray>Mở khóa khu mine của rank"
+        - "<dark_gray>• <gray>Hệ số nhân %currency%/tokens cao hơn"
+        - "<dark_gray>• <gray>Nhóm LuckPerms: <white>xprison_rank_%id%"
     current:
       material: NETHER_STAR
       glow: true
-      name: '%prefix% <dark_gray>(<yellow>Rank hiện tại</yellow>)'
+      name: "%prefix% <dark_gray>(<yellow>Rank hiện tại</yellow>)"
       lore:
-        - '<gray>Rank <white>#%id%'
-        - '<yellow>➤ Đây là rank hiện tại của bạn.'
-        - ' '
-        - '<gray>Quyền lợi:'
-        - '<dark_gray>• <gray>Mở khóa khu mine của rank'
-        - '<dark_gray>• <gray>Hệ số nhân %currency%/tokens cao hơn'
-        - '<dark_gray>• <gray>Nhóm LuckPerms: <white>xprison_rank_%id%'
+        - "<gray>Rank <white>#%id%"
+        - "<yellow>➤ Đây là rank hiện tại của bạn."
+        - " "
+        - "<gray>Quyền lợi:"
+        - "<dark_gray>• <gray>Mở khóa khu mine của rank"
+        - "<dark_gray>• <gray>Hệ số nhân %currency%/tokens cao hơn"
+        - "<dark_gray>• <gray>Nhóm LuckPerms: <white>xprison_rank_%id%"
     next:
       material: GOLD_INGOT
       glow: true
-      name: '%prefix% <dark_gray>(<gold>Rank tiếp theo</gold>)'
+      name: "%prefix% <dark_gray>(<gold>Rank tiếp theo</gold>)"
       lore:
-        - '<gray>Rank <white>#%id%'
-        - '<gray>Giá: <gold>%cost% <gray>%currency%'
-        - ' '
-        - '<gray>Quyền lợi khi lên rank:'
-        - '<dark_gray>• <gray>Mở khóa khu mine mới'
-        - '<dark_gray>• <gray>Tăng hệ số nhân %currency%/tokens'
-        - '<dark_gray>• <gray>Nhóm LuckPerms: <white>xprison_rank_%id%'
-        - ' '
-        - '<yellow><bold>➤ Click để rankup!'
+        - "<gray>Rank <white>#%id%"
+        - "<gray>Giá: <gold>%cost% <gray>%currency%"
+        - " "
+        - "<gray>Quyền lợi khi lên rank:"
+        - "<dark_gray>• <gray>Mở khóa khu mine mới"
+        - "<dark_gray>• <gray>Tăng hệ số nhân %currency%/tokens"
+        - "<dark_gray>• <gray>Nhóm LuckPerms: <white>xprison_rank_%id%"
+        - " "
+        - "<yellow><bold>➤ Click để rankup!"
     locked:
       material: RED_STAINED_GLASS_PANE
       glow: false
-      name: '%prefix% <dark_gray>(<red>Chưa mở khóa</red>)'
+      name: "%prefix% <dark_gray>(<red>Chưa mở khóa</red>)"
       lore:
-        - '<gray>Rank <white>#%id%'
-        - '<gray>Giá: <gold>%cost% <gray>%currency%'
-        - ' '
-        - '<red>🔒 Hãy rankup tuần tự để đến rank này.'
+        - "<gray>Rank <white>#%id%"
+        - "<gray>Giá: <gold>%cost% <gray>%currency%"
+        - " "
+        - "<red>🔒 Hãy rankup tuần tự để đến rank này."
   items:
     info:
       slot: 4
       material: BOOK
-      name: '<yellow><bold>Thông tin Rank'
+      name: "<yellow><bold>Thông tin Rank"
       lore:
-        - '<gray>Rank up để mở khóa mine mới,'
-        - '<gray>hệ số nhân cao hơn và các quyền lợi.'
-        - ' '
-        - '<gray>Dùng <yellow>/rankup <gray>hoặc click vào'
-        - '<gray>rank tiếp theo bên dưới để lên rank.'
-        - ' '
-        - '<green>■ <gray>Xanh lá - Đã sở hữu   <yellow>■ <gray>Vàng - Hiện tại'
-        - '<gold>■ <gray>Cam - Tiếp theo   <red>■ <gray>Đỏ - Chưa mở khóa'
-        - ' '
-        - '<gray>Xem toàn bộ Rank Prison & VIP tại <yellow>/ranks'
+        - "<gray>Rank up để mở khóa mine mới,"
+        - "<gray>hệ số nhân cao hơn và các quyền lợi."
+        - " "
+        - "<gray>Dùng <yellow>/rankup <gray>hoặc click vào"
+        - "<gray>rank tiếp theo bên dưới để lên rank."
+        - " "
+        - "<green>■ <gray>Xanh lá - Đã sở hữu   <yellow>■ <gray>Vàng - Hiện tại"
+        - "<gold>■ <gray>Cam - Tiếp theo   <red>■ <gray>Đỏ - Chưa mở khóa"
+        - " "
+        - "<gray>Xem toàn bộ Rank Prison & VIP tại <yellow>/ranks"
     close:
       slot: 49
       material: BARRIER
-      name: '<red><bold>Đóng'
+      name: "<red><bold>Đóng"
       lore: []
     prev-page:
       slot: 48
       material: ARROW
-      name: '<yellow>« Trang trước'
+      name: "<yellow>« Trang trước"
       lore: []
     next-page:
       slot: 50
       material: ARROW
-      name: '<yellow>Trang sau »'
+      name: "<yellow>Trang sau »"
       lore: []

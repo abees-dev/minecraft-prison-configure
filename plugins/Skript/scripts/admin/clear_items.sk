@@ -1,0 +1,83 @@
+# =======================================================
+# Skript: Clear Lag - Dọn dẹp vật phẩm rớt trên mặt đất
+# File: plugins/Skript/scripts/admin/clear_items.sk
+# Commands: /clearlag, /clearitems, /cleardrop
+# =======================================================
+
+options:
+	prefix: &8[&c&lLAO CÔNG&8] &8» &f
+	interval: 300 # Thời gian tự động dọn dẹp (tính bằng giây, 300s = 5 phút)
+	perm: op
+	perm_msg: &cBạn không có quyền sử dụng lệnh này!
+	
+on load:
+	set {clearlag::timer} to {@interval}
+	
+every 1 second:
+	if {clearlag::timer} is not set:
+		set {clearlag::timer} to {@interval}
+		
+	remove 1 from {clearlag::timer}
+	
+	if {clearlag::timer} is 60 or 30:
+		broadcast "{@prefix}&fVật phẩm rớt trên mặt đất sẽ bị dọn dẹp sau &c&l%{clearlag::timer}%&f giây!"
+	else if {clearlag::timer} is between 1 and 10:
+		broadcast "{@prefix}&fCảnh báo dọn dẹp sau &e&l%{clearlag::timer}%&f giây!"
+	else if {clearlag::timer} <= 0:
+		set {clearlag::timer} to {@interval}
+		set {_count} to 0
+		loop all dropped items:
+			delete loop-value
+			add 1 to {_count}
+		broadcast "{@prefix}&a&lĐÃ DỌN DẸP! &fĐã xóa sạch &e&l%{_count}% &fvật phẩm rớt trên mặt đất toàn bộ world."
+		
+command /clearlag [<text>]:
+	aliases: /clearitems, /cleardrop, /clearlagg
+	permission: {@perm}
+	permission message: {@perm_msg}
+	trigger:
+		set {_sub} to arg-1
+		if {_sub} is not set:
+			set {_sub} to "clear"
+			
+		if {_sub} is "clear" or "clean":
+			set {_count} to 0
+			loop all dropped items:
+				delete loop-value
+				add 1 to {_count}
+				
+			set {_sender} to "Console"
+			if player is set:
+				set {_sender} to name of player
+				
+			broadcast "{@prefix}&b&l%{_sender}% &fđã dọn dẹp ngay &e&l%{_count}% &fvật phẩm rớt trên mặt đất!"
+			set {clearlag::timer} to {@interval}
+			
+		else if {_sub} is "time" or "status" or "check":
+			set {_rem} to {clearlag::timer}
+			if {_rem} is not set:
+				set {_rem} to {@interval}
+			set {_min} to floor({_rem} / 60)
+			set {_sec} to mod({_rem}, 60)
+			
+			if player is set:
+				send "{@prefix}&fĐợt dọn dẹp tiếp theo sau: &e&l%{_min}%&f phút &e&l%{_sec}%&f giây &8(&c%{_rem}%s&8)." to player
+			else:
+				send "{@prefix}Đợt dọn dẹp tiếp theo sau: %{_min}%m %{_sec}%s." to console
+				
+		else if {_sub} is "reload":
+			execute console command "sk reload admin/clear_items.sk"
+			if player is set:
+				send "{@prefix}&aĐã reload thành công script ClearLag!" to player
+			else:
+				send "{@prefix}Reloaded clear_items.sk" to console
+				
+		else:
+			if player is set:
+				send "&8&m--------------------------------------------------" to player
+				send "         &c&lHỆ THỐNG DỌN DẸP RÁC &8- &e&lCLEAR LAG" to player
+				send "" to player
+				send "  &8» &a/clearlag clear &7- Dọn dẹp item rớt trên mặt đất ngay" to player
+				send "  &8» &a/clearlag time &7- Xem thời gian đếm ngược dọn dẹp" to player
+				send "  &8» &a/clearlag reload &7- Reload lại script ClearLag" to player
+				send "&8&m--------------------------------------------------" to player

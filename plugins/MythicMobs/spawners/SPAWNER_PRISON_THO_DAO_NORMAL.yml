@@ -26,4 +26,4 @@ SPAWNER_PRISON_THO_DAO_NORMAL:
   Conditions: []
   SpawnConditions: []
   CooldownTimer: 1
-  ActiveMobs: 6
+  ActiveMobs: 2

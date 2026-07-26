@@ -1,10 +1,35 @@
 import:
 	net.Indyuce.mmocore.api.player.PlayerData
+	dev.drawethree.xprison.api.XPrisonAPI
 
 # ============================================================================
 # HỆ THỐNG GIỚI HẠN LEVEL MMOCORE KHI RANKUP PRISON
 # File: plugins/Skript/scripts/prison/level_gate.sk
+#
+# /rankup, /rankupmax, /autorankup của X-Prison bị chặn hẳn ở đây và tự xử lý
+# lại toàn bộ: trừ tiền Vault (KHÔNG dùng currency nội bộ của X-Prison, module
+# đó đang tắt vì nó tạo ra 1 ví tiền hoàn toàn tách biệt với Vault/Essentials -
+# xem plugins/X-Prison/config.yml modules.currencies: false), sau đó gọi lệnh
+# admin "setrank" của X-Prison để áp rank mới (đúng lệnh thật, xem
+# reset_rank.sk). Giá mỗi rank vẫn đọc trực tiếp từ ranks.yml qua API của
+# X-Prison (Rank.getCost()) - không hardcode giá ở đây để khi admin đổi giá
+# trong ranks.yml thì không cần sửa lại file Skript này.
 # ============================================================================
+
+function get_next_rank_cost(rank_id: number) :: number:
+	set {_core} to try XPrisonAPI.getInstance()
+	if {_core} is not set:
+		return 999999999999
+	set {_ranksapi} to try {_core}.getRanksApi()
+	if {_ranksapi} is not set:
+		return 999999999999
+	set {_rank} to try {_ranksapi}.getRankById({_rank_id})
+	if {_rank} is not set:
+		return 999999999999
+	set {_cost} to try {_rank}.getCost()
+	if {_cost} is not set:
+		return 999999999999
+	return {_cost}
 
 function get_player_mmocore_level(p: player) :: number:
 	set {_pd} to try PlayerData.get({_p})
@@ -13,11 +38,44 @@ function get_player_mmocore_level(p: player) :: number:
 	return 1
 
 function get_player_prison_rank(p: player) :: number:
-	loop 9 times:
-		set {_r} to 10 - loop-number
-		if {_p} has permission "group.xprison_rank_%{_r}%":
-			return {_r}
-	return 1
+	# KHÔNG dò qua permission LuckPerms group.xprison_rank_X nữa - nhóm LuckPerms
+	# có thể không đồng bộ đúng lúc /setrank chạy (đã thấy sau /resetrank, X-Prison
+	# xác nhận về Rank 1 nhưng permission group vẫn còn cũ). Hỏi thẳng rank thật
+	# đang lưu trong X-Prison qua API là nguồn duy nhất đáng tin.
+	set {_core} to try XPrisonAPI.getInstance()
+	if {_core} is not set:
+		return 1
+	set {_ranksapi} to try {_core}.getRanksApi()
+	if {_ranksapi} is not set:
+		return 1
+	set {_rank} to try {_ranksapi}.getPlayerRank({_p})
+	if {_rank} is not set:
+		return 1
+	set {_id} to try {_rank}.getId()
+	if {_id} is not set:
+		return 1
+	return {_id}
+
+# Màu khớp đúng với từng rank trong ranks_master.yml (menu /rank), để message
+# chat và menu luôn đồng bộ màu.
+function get_rank_name(rank_id: number) :: text:
+	if {_rank_id} is 1:
+		return "&f&lTân Binh"
+	if {_rank_id} is 2:
+		return "&7&lTù Nhân"
+	if {_rank_id} is 3:
+		return "&a&lLao Công"
+	if {_rank_id} is 4:
+		return "&2&lThợ Đào"
+	if {_rank_id} is 5:
+		return "&b&lĐội Trưởng"
+	if {_rank_id} is 6:
+		return "&1&lPhó Quản Ngục"
+	if {_rank_id} is 7:
+		return "&d&lQuản Ngục"
+	if {_rank_id} is 8:
+		return "&6&lBá Chủ Ngục Tù"
+	return "&c&lVượt Ngục"
 
 function get_required_level_for_next_rank(current_rank: number) :: number:
 	if {_current_rank} is 1:
@@ -41,21 +99,37 @@ on command "rankup" or "rankupmax" or "autorankup":
 	if {_p} is not set:
 		stop
 
+	# Luôn chặn lệnh gốc của X-Prison - tự xử lý toàn bộ bên dưới
+	cancel event
+
 	set {_current_rank} to get_player_prison_rank({_p})
 	if {_current_rank} >= 9:
+		send "&e&lRANKUP &7» &fBạn đã đạt Rank tối đa %get_rank_name(9)%&f rồi!" to {_p}
 		stop
 
 	set {_req_level} to get_required_level_for_next_rank({_current_rank})
 	set {_current_level} to get_player_mmocore_level({_p})
 
 	if {_current_level} < {_req_level}:
-		cancel event
 		play sound "block.note_block.bass" with volume 1 and pitch 1 to {_p}
-		send title "&c&lCHƯA ĐỦ CẤP ĐỘ!" with subtitle "&fCần MMOCore &eLevel %{_req_level}% &fđể lên Rank tiếp theo" to {_p} for 3 seconds
-		send "&c&l[!] &fBạn chưa đủ điều kiện Cấp độ để thăng Rank Nhà Tù!" to {_p}
-		send "&7• Rank hiện tại: &eRank %{_current_rank}% &7➔ Rank tiếp theo: &aRank %{_current_rank} + 1%" to {_p}
-		send "&7• Yêu cầu Level MMOCore: &c%{_req_level}% &7(Cấp của bạn: &e%{_current_level}%&7)" to {_p}
-		send "&7Hãy tiếp tục cày quái tại Nhà Tù để tăng cấp MMOCore trước khi Rankup!" to {_p}
+		send title "&c&lCHƯA ĐỦ ĐIỀU KIỆN" with subtitle "&fCần đạt &eLevel %{_req_level}% &fđể rankup" to {_p} for 3 seconds
+		send "&c&lRANKUP &7» &fChưa đủ điều kiện lên %get_rank_name({_current_rank} + 1)%&f!" to {_p}
+		send "&c&lRANKUP &7» &fCần &eLevel %{_req_level}% &7(Level hiện tại của bạn: &e%{_current_level}%&7)" to {_p}
+		stop
+
+	set {_next_rank} to {_current_rank} + 1
+	set {_cost} to get_next_rank_cost({_next_rank})
+
+	if {_p}'s balance < {_cost}:
+		play sound "block.note_block.bass" with volume 1 and pitch 1 to {_p}
+		send "&c&lRANKUP &7» &fBạn không đủ tiền! Cần &f$%round({_cost})% &7(hiện có &e$%round({_p}'s balance)%&7)" to {_p}
+		stop
+
+	remove {_cost} from {_p}'s balance
+	execute console command "setrank %{_p}'s name% %{_next_rank}%"
+	send title "&a&l✔ RANK UP!" with subtitle "&fBạn đã lên %get_rank_name({_next_rank})%" to {_p} for 3 seconds
+	send "&a&lRANKUP &7» &fChúc mừng, bạn đã lên %get_rank_name({_next_rank})%&7! &7(&f-$%round({_cost})%&7)" to {_p}
+	play sound "entity.player.levelup" with volume 1 and pitch 1 to {_p}
 
 on command "ranks" or "rank":
 	set {_p} to player

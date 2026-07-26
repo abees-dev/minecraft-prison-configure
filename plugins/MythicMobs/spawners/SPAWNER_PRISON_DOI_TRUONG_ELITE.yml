@@ -26,4 +26,4 @@ SPAWNER_PRISON_DOI_TRUONG_ELITE:
   Conditions: []
   SpawnConditions: []
   CooldownTimer: 1
-  ActiveMobs: 4
+  ActiveMobs: 7

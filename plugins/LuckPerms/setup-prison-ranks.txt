@@ -1,0 +1,58 @@
+# =============================================================================
+# PRISON RANK GROUP SETUP - LuckPerms command script
+# =============================================================================
+# LuckPerms dùng H2 database (storage-method: h2 trong config.yml) nên group
+# không thể tạo bằng cách sửa file yaml - phải chạy lệnh. Dán TOÀN BỘ danh
+# sách bên dưới vào CONSOLE server (hoặc gõ trong game với quyền op, bỏ tiền
+# tố "lp " và gõ "/lp ..." thay vào).
+#
+# Lý do cần file này: log server đang báo liên tục
+#   "A group named xprison_rank_1 could not be found" (và rank_2..9)
+# mỗi khi /rankup, /setrank, /resetrank chạy - nghĩa là 9 group này CHƯA BAO
+# GIỜ được tạo, dù ranks.yml của X-Prison đã cấu hình CMD gán group này từ đầu.
+# Hệ quả: hệ số nhân money/token theo rank (multipliers.yml có
+# "use-luckperms-groups: true") cũng đang không hoạt động, không chỉ riêng menu.
+#
+# Chỉ cần chạy 1 LẦN DUY NHẤT để tạo group. Sau đó /rankup, /setrank,
+# /resetrank sẽ tự gán đúng group cho từng rank như ranks.yml đã định nghĩa.
+# =============================================================================
+
+# --- 1. Tạo 9 group tương ứng 9 rank Prison ---------------------------------
+lp creategroup xprison_rank_1
+lp creategroup xprison_rank_2
+lp creategroup xprison_rank_3
+lp creategroup xprison_rank_4
+lp creategroup xprison_rank_5
+lp creategroup xprison_rank_6
+lp creategroup xprison_rank_7
+lp creategroup xprison_rank_8
+lp creategroup xprison_rank_9
+
+# --- 2. Thêm vào track "prision_ranks" (đã tạo sẵn trước đó) ----------------
+# Track đảm bảo mỗi người chỉ ở trong đúng 1 group rank tại 1 thời điểm -
+# đây chính là cơ chế mà "lp user <player> parent set xprison_rank_X" dựa vào.
+lp track prision_ranks append xprison_rank_1
+lp track prision_ranks append xprison_rank_2
+lp track prision_ranks append xprison_rank_3
+lp track prision_ranks append xprison_rank_4
+lp track prision_ranks append xprison_rank_5
+lp track prision_ranks append xprison_rank_6
+lp track prision_ranks append xprison_rank_7
+lp track prision_ranks append xprison_rank_8
+lp track prision_ranks append xprison_rank_9
+
+# --- 3. Weight tăng dần để nhóm rank cao hơn ưu tiên hiển thị prefix --------
+lp group xprison_rank_1 setweight 1
+lp group xprison_rank_2 setweight 2
+lp group xprison_rank_3 setweight 3
+lp group xprison_rank_4 setweight 4
+lp group xprison_rank_5 setweight 5
+lp group xprison_rank_6 setweight 6
+lp group xprison_rank_7 setweight 7
+lp group xprison_rank_8 setweight 8
+lp group xprison_rank_9 setweight 9
+
+# --- 4. Gán rank 1 cho toàn bộ player đang online (để khỏi ai bị "kẹt"
+#        không có group nào sau khi tạo xong) -------------------------------
+# Chạy lệnh này cho từng player đang online, hoặc dùng /resetrank <player> all
+# (đã có sẵn trong plugins/Skript/scripts/admin/reset_rank.sk) để gán lại.
