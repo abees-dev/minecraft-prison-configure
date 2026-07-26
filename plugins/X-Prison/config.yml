@@ -22,29 +22,29 @@ feedback:
 #   QT = 10^21, S = 10^24, SP = 10^27, O = 10^30, N = 10^33, D = 10^36
 number-format:
   suffixes:
-  - k
-  - M
-  - B
-  - T
-  - q
-  - Q
-  - QT
-  - S
-  - SP
-  - O
-  - N
-  - D
+    - k
+    - M
+    - B
+    - T
+    - q
+    - Q
+    - QT
+    - S
+    - SP
+    - O
+    - N
+    - D
 # Should plugin send your server data to bStats ? (https://bstats.org/)
 enable-metrics: false
 # Database type (H2, SQLite, MySQL)
-database_type: SQLite
+database_type: MySQL
 # MySQL connection details
 mysql:
-  host: localhost
+  host: 127.0.0.1
   port: 3306
-  database: dbName
-  username: dbUser
-  password: dbPass
+  database: prison-rpg-db
+  username: root
+  password: "abeesdev"
   # Connect using SSL/TLS. Leave false for a local/trusted database.
   use-ssl: false
   # Server timezone used by the JDBC driver. Use a valid tz id (e.g. UTC, Europe/Berlin).
@@ -86,14 +86,15 @@ modules:
   dailyrewards: false
 # List of supported pickaxes by UPC Enchants
 supported-pickaxes:
-- DIAMOND_PICKAXE
+  - DIAMOND_PICKAXE
 # Aliases for main command
 main-command-aliases:
-- xprison
-- prison
+  - xprison
+  - prison
 # Plugin prefix, usable via PAPI %xprison_prefix%, can be used across all messages
-prefix: '<dark_gray>[</dark_gray><gradient:#f7b733:#fc4a1a><bold>X-PRISON</bold></gradient><dark_gray>]</dark_gray>
-  <gray>»</gray> '
+prefix:
+  "<dark_gray>[</dark_gray><gradient:#f7b733:#fc4a1a><bold>X-PRISON</bold></gradient><dark_gray>]</dark_gray>
+  <gray>»</gray> "
 # How often (in minutes) all online player data is saved to the database as a safety checkpoint.
 # Set to 0 to disable the periodic save entirely.
 player-data-save-interval: 5

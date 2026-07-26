@@ -28,9 +28,12 @@ lp creategroup xprison_rank_7
 lp creategroup xprison_rank_8
 lp creategroup xprison_rank_9
 
-# --- 2. Thêm vào track "prision_ranks" (đã tạo sẵn trước đó) ----------------
+# --- 2. Tạo track "prision_ranks" rồi thêm 9 group vào ----------------------
 # Track đảm bảo mỗi người chỉ ở trong đúng 1 group rank tại 1 thời điểm -
 # đây chính là cơ chế mà "lp user <player> parent set xprison_rank_X" dựa vào.
+# (Lệnh cũ "lp track create ..." SAI cú pháp nên track chưa từng được tạo -
+# cú pháp đúng của LuckPerms là "lp createtrack <tên>".)
+lp createtrack prision_ranks
 lp track prision_ranks append xprison_rank_1
 lp track prision_ranks append xprison_rank_2
 lp track prision_ranks append xprison_rank_3

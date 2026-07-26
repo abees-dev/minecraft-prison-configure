@@ -16,7 +16,7 @@ open_command:
   - vip
 open_commands:
   - '[sound] BLOCK_NOTE_BLOCK_CHIME'
-size: 54
+size: 36
 
 items:
   # ---------------------------------------------------------------------------
@@ -32,6 +32,7 @@ items:
     lore:
       - '&7• Tên người chơi: &e%player_name%'
       - '&7• Số dư Tiền: &a%vault_eco_balance_formatted% &7money'
+      - '&7• Số dư Point: &b%playerpoints_points% &7point'
       - '&7• Level nhân vật: &bLevel %mmocore_level%'
       - ''
       - '&7• Cấp Rank Prison: &e%xprison_rank%'
@@ -140,12 +141,15 @@ items:
     display_name: '&7&l[Tù Nhân] &8» &6&lRANK TIẾP THEO'
     lore:
       - '&7• Cấp bậc: &eRank #2'
-      - '&7• Giá Rankup: &f85,000 &7money'
       - '&7• Yêu cầu: &eLevel 10'
       - ''
-      - '&e➤ Click để lên rank này!'
+      - '&e➤ Click trái: &f85,000 &7money'
+      - '&e➤ Click phải: &b10 &7point'
     left_click_commands:
-      - '[player] rankup'
+      - '[player] xrankup'
+      - '[close]'
+    right_click_commands:
+      - '[player] xrankuppoint'
       - '[close]'
 
   # --- Rank 3: Lao Công ---
@@ -190,10 +194,10 @@ items:
     display_name: '&a&l[Lao Công] &8» &6&lRANK TIẾP THEO'
     lore:
       - '&7• Cấp bậc: &eRank #3'
-      - '&7• Giá Rankup: &f290,000 &7money'
       - '&7• Yêu cầu: &eLevel 20'
       - ''
-      - '&e➤ Click để lên rank này!'
+      - '&e➤ Click trái: &f290,000 &7money'
+      - '&e➤ Click phải: &b30 &7point'
     view_requirement:
       requirements:
         is_prev:
@@ -201,7 +205,10 @@ items:
           input: '%xprison_rank_id%'
           output: '2'
     left_click_commands:
-      - '[player] rankup'
+      - '[player] xrankup'
+      - '[close]'
+    right_click_commands:
+      - '[player] xrankuppoint'
       - '[close]'
   'pr_3_locked':
     material: RED_STAINED_GLASS_PANE
@@ -210,7 +217,7 @@ items:
     display_name: '&a&l[Lao Công] &8» &c&lCHƯA MỞ KHÓA'
     lore:
       - '&7• Cấp bậc: &eRank #3'
-      - '&7• Giá Rankup: &f290,000 &7money'
+      - '&7• Giá: &f290,000 &7money &8/ &b30 &7point'
       - '&7• Yêu cầu: &eLevel 20'
       - ''
       - '&c🔒 Cần nâng rank tuần tự theo thứ tự'
@@ -256,10 +263,10 @@ items:
     display_name: '&2&l[Thợ Đào] &8» &6&lRANK TIẾP THEO'
     lore:
       - '&7• Cấp bậc: &eRank #4'
-      - '&7• Giá Rankup: &f1,075,000 &7money'
       - '&7• Yêu cầu: &eLevel 30'
       - ''
-      - '&e➤ Click để lên rank này!'
+      - '&e➤ Click trái: &f1,075,000 &7money'
+      - '&e➤ Click phải: &b110 &7point'
     view_requirement:
       requirements:
         is_prev:
@@ -267,7 +274,10 @@ items:
           input: '%xprison_rank_id%'
           output: '3'
     left_click_commands:
-      - '[player] rankup'
+      - '[player] xrankup'
+      - '[close]'
+    right_click_commands:
+      - '[player] xrankuppoint'
       - '[close]'
   'pr_4_locked':
     material: RED_STAINED_GLASS_PANE
@@ -276,7 +286,7 @@ items:
     display_name: '&2&l[Thợ Đào] &8» &c&lCHƯA MỞ KHÓA'
     lore:
       - '&7• Cấp bậc: &eRank #4'
-      - '&7• Giá Rankup: &f1,075,000 &7money'
+      - '&7• Giá: &f1,075,000 &7money &8/ &b110 &7point'
       - '&7• Yêu cầu: &eLevel 30'
       - ''
       - '&c🔒 Cần nâng rank tuần tự theo thứ tự'
@@ -323,10 +333,10 @@ items:
     display_name: '&b&l[Đội Trưởng] &8» &6&lRANK TIẾP THEO'
     lore:
       - '&7• Cấp bậc: &eRank #5'
-      - '&7• Giá Rankup: &f5,400,000 &7money'
       - '&7• Yêu cầu: &eLevel 45'
       - ''
-      - '&e➤ Click để lên rank này!'
+      - '&e➤ Click trái: &f5,400,000 &7money'
+      - '&e➤ Click phải: &b540 &7point'
     view_requirement:
       requirements:
         is_prev:
@@ -334,7 +344,10 @@ items:
           input: '%xprison_rank_id%'
           output: '4'
     left_click_commands:
-      - '[player] rankup'
+      - '[player] xrankup'
+      - '[close]'
+    right_click_commands:
+      - '[player] xrankuppoint'
       - '[close]'
   'pr_5_locked':
     material: RED_STAINED_GLASS_PANE
@@ -343,7 +356,7 @@ items:
     display_name: '&b&l[Đội Trưởng] &8» &c&lCHƯA MỞ KHÓA'
     lore:
       - '&7• Cấp bậc: &eRank #5'
-      - '&7• Giá Rankup: &f5,400,000 &7money'
+      - '&7• Giá: &f5,400,000 &7money &8/ &b540 &7point'
       - '&7• Yêu cầu: &eLevel 45'
       - ''
       - '&c🔒 Cần nâng rank tuần tự theo thứ tự'
@@ -390,10 +403,10 @@ items:
     display_name: '&1&l[Phó Quản Ngục] &8» &6&lRANK TIẾP THEO'
     lore:
       - '&7• Cấp bậc: &eRank #6'
-      - '&7• Giá Rankup: &f21,700,000 &7money'
       - '&7• Yêu cầu: &eLevel 60'
       - ''
-      - '&e➤ Click để lên rank này!'
+      - '&e➤ Click trái: &f21,700,000 &7money'
+      - '&e➤ Click phải: &b2,170 &7point'
     view_requirement:
       requirements:
         is_prev:
@@ -401,7 +414,10 @@ items:
           input: '%xprison_rank_id%'
           output: '5'
     left_click_commands:
-      - '[player] rankup'
+      - '[player] xrankup'
+      - '[close]'
+    right_click_commands:
+      - '[player] xrankuppoint'
       - '[close]'
   'pr_6_locked':
     material: RED_STAINED_GLASS_PANE
@@ -410,7 +426,7 @@ items:
     display_name: '&1&l[Phó Quản Ngục] &8» &c&lCHƯA MỞ KHÓA'
     lore:
       - '&7• Cấp bậc: &eRank #6'
-      - '&7• Giá Rankup: &f21,700,000 &7money'
+      - '&7• Giá: &f21,700,000 &7money &8/ &b2,170 &7point'
       - '&7• Yêu cầu: &eLevel 60'
       - ''
       - '&c🔒 Cần nâng rank tuần tự theo thứ tự'
@@ -457,10 +473,10 @@ items:
     display_name: '&d&l[Quản Ngục] &8» &6&lRANK TIẾP THEO'
     lore:
       - '&7• Cấp bậc: &eRank #7'
-      - '&7• Giá Rankup: &f32,000,000 &7money'
       - '&7• Yêu cầu: &eLevel 75'
       - ''
-      - '&e➤ Click để lên rank này!'
+      - '&e➤ Click trái: &f32,000,000 &7money'
+      - '&e➤ Click phải: &b3,200 &7point'
     view_requirement:
       requirements:
         is_prev:
@@ -468,7 +484,10 @@ items:
           input: '%xprison_rank_id%'
           output: '6'
     left_click_commands:
-      - '[player] rankup'
+      - '[player] xrankup'
+      - '[close]'
+    right_click_commands:
+      - '[player] xrankuppoint'
       - '[close]'
   'pr_7_locked':
     material: RED_STAINED_GLASS_PANE
@@ -477,7 +496,7 @@ items:
     display_name: '&d&l[Quản Ngục] &8» &c&lCHƯA MỞ KHÓA'
     lore:
       - '&7• Cấp bậc: &eRank #7'
-      - '&7• Giá Rankup: &f32,000,000 &7money'
+      - '&7• Giá: &f32,000,000 &7money &8/ &b3,200 &7point'
       - '&7• Yêu cầu: &eLevel 75'
       - ''
       - '&c🔒 Cần nâng rank tuần tự theo thứ tự'
@@ -524,10 +543,10 @@ items:
     display_name: '&6&l[Bá Chủ Ngục Tù] &8» &6&lRANK TIẾP THEO'
     lore:
       - '&7• Cấp bậc: &eRank #8'
-      - '&7• Giá Rankup: &f43,500,000 &7money'
       - '&7• Yêu cầu: &eLevel 90'
       - ''
-      - '&e➤ Click để lên rank này!'
+      - '&e➤ Click trái: &f43,500,000 &7money'
+      - '&e➤ Click phải: &b4,350 &7point'
     view_requirement:
       requirements:
         is_prev:
@@ -535,7 +554,10 @@ items:
           input: '%xprison_rank_id%'
           output: '7'
     left_click_commands:
-      - '[player] rankup'
+      - '[player] xrankup'
+      - '[close]'
+    right_click_commands:
+      - '[player] xrankuppoint'
       - '[close]'
   'pr_8_locked':
     material: RED_STAINED_GLASS_PANE
@@ -544,7 +566,7 @@ items:
     display_name: '&6&l[Bá Chủ Ngục Tù] &8» &c&lCHƯA MỞ KHÓA'
     lore:
       - '&7• Cấp bậc: &eRank #8'
-      - '&7• Giá Rankup: &f43,500,000 &7money'
+      - '&7• Giá: &f43,500,000 &7money &8/ &b4,350 &7point'
       - '&7• Yêu cầu: &eLevel 90'
       - ''
       - '&c🔒 Cần nâng rank tuần tự theo thứ tự'
@@ -578,10 +600,10 @@ items:
     display_name: '&c&l[Vượt Ngục] &8» &6&lRANK TIẾP THEO'
     lore:
       - '&7• Cấp bậc: &eRank #9'
-      - '&7• Giá Rankup: &f64,500,000 &7money'
       - '&7• Yêu cầu: &eLevel 100'
       - ''
-      - '&e➤ Click để lên rank cao nhất này!'
+      - '&e➤ Click trái: &f64,500,000 &7money'
+      - '&e➤ Click phải: &b6,450 &7point'
     view_requirement:
       requirements:
         is_prev:
@@ -589,7 +611,10 @@ items:
           input: '%xprison_rank_id%'
           output: '8'
     left_click_commands:
-      - '[player] rankup'
+      - '[player] xrankup'
+      - '[close]'
+    right_click_commands:
+      - '[player] xrankuppoint'
       - '[close]'
   'pr_9_locked':
     material: RED_STAINED_GLASS_PANE
@@ -598,34 +623,34 @@ items:
     display_name: '&c&l[Vượt Ngục] &8» &c&lCHƯA MỞ KHÓA'
     lore:
       - '&7• Cấp bậc: &eRank #9'
-      - '&7• Giá Rankup: &f64,500,000 &7money'
+      - '&7• Giá: &f64,500,000 &7money &8/ &b6,450 &7point'
       - '&7• Yêu cầu: &eLevel 100'
       - ''
       - '&c🔒 Cần nâng rank tuần tự theo thứ tự'
 
   # ---------------------------------------------------------------------------
-  # MIDDLE DECORATION & GUIDES (Row 3: Slots 21-25)
+  # HƯỚNG DẪN THĂNG HẠNG (Row 1: Slot 1, 7)
   # ---------------------------------------------------------------------------
   'info_guide':
     material: BOOK
-    slot: 22
+    slot: 1
     priority: 1
     hide_attributes: true
     display_name: '&e&l✦ HƯỚNG DẪN THĂNG HẠNG ✦'
     lore:
-      - '&7• Dùng tiền &fMoney &7& Level nhân vật để'
-      - '  nâng cấp &eRank Prison &7(từ Rank 1 ➔ 9).'
+      - '&7• Rank Prison &7(từ Rank 1 ➔ 9) - 2 cách trả:'
+      - '  &e➤ Click trái: &fMoney &7(vẫn cần đủ Level)'
+      - '  &e➤ Click phải: &bPoint &7(vẫn cần đủ Level)'
       - ''
       - '&7• Mua &bRank VIP &7giúp mở khóa các đặc'
       - '  quyền lệnh fly, sethome, kit khủng, v.v.'
-      - ''
-      - '&c&l⚠ Yêu cầu nâng VIP:'
-      - '  Bắt buộc mua VIP cấp dưới trước và đạt'
-      - '  Rank Prison yêu cầu!'
+      - '  &7Trả bằng &bPoint&7, bắt buộc mua VIP cấp'
+      - '  dưới trước và phải đạt &eRank Prison tối đa'
+      - '  &7(Rank 9 - Vượt Ngục) mới mua được VIP.'
 
   'info_gate':
     material: COMPASS
-    slot: 24
+    slot: 7
     priority: 1
     hide_attributes: true
     display_name: '&b&l❖ GIỚI HẠN LEVEL MMOCORE ❖'
@@ -639,13 +664,13 @@ items:
       - '&7Hãy đánh quái & cày Level trước khi /rankup!'
 
   # ---------------------------------------------------------------------------
-  # VIP RANKS TRACK (Row 4: Slots 29..34)
+  # VIP RANKS TRACK (Row 3: Slots 21..26 - ghép sát ngay dưới Prison Rank 8-9)
   # ---------------------------------------------------------------------------
 
   # --- VIP 1: VIP ---
   'vip_owned':
     material: EMERALD
-    slot: 29
+    slot: 21
     priority: 1
     glow: true
     hide_attributes: true
@@ -663,7 +688,7 @@ items:
           permission: group.vip
   'vip_buy':
     material: EMERALD_BLOCK
-    slot: 29
+    slot: 21
     priority: 2
     glow: true
     hide_attributes: true
@@ -674,8 +699,8 @@ items:
       - '&8- &7Workbench di động, /hat'
       - ''
       - '&7Điều kiện:'
-      - '&a✔ Rank Prison: &fLao Công (Rank 3)'
-      - '&7Giá mua: &f15,000,000 &7money'
+      - '&a✔ Rank Prison: &fVượt Ngục (Rank 9 - MAX)'
+      - '&7Giá mua: &b500 &7point'
       - ''
       - '&e➤ Click để mua rank VIP!'
     view_requirement:
@@ -683,23 +708,24 @@ items:
         req_prison:
           type: greater than or equal to
           input: '%xprison_rank_id%'
-          output: '3'
+          output: '9'
     left_click_requirement:
       requirements:
         balance_check:
-          type: has money
-          amount: 15000000
+          type: greater than or equal to
+          input: '%playerpoints_points%'
+          output: '500'
           deny_commands:
-            - "[message] &c&lVIP &7» Bạn không đủ tiền! Cần &f15,000,000 &7money."
+            - "[message] &c&lVIP &7» Bạn không đủ point! Cần &b500 &7point."
     left_click_commands:
       - '[sound] ENTITY_PLAYER_LEVELUP'
-      - '[console] eco take %player_name% 15000000'
+      - '[console] points take %player_name% 500'
       - '[console] lp user %player_name% parent add vip'
       - '[message] &a&lVIP &7» Chúc mừng, bạn đã nâng cấp rank &a&lVIP&7!'
       - '[open_menu] ranks_master'
   'vip_locked':
     material: RED_STAINED_GLASS_PANE
-    slot: 29
+    slot: 21
     priority: 3
     hide_attributes: true
     display_name: '&c&lVIP &7(&cĐang khóa 🔒&7)'
@@ -709,13 +735,13 @@ items:
       - '&8- &7Workbench di động, /hat'
       - ''
       - '&c&lYÊU CẦU CHƯA ĐẠT:'
-      - '&c✖ Rank Prison: &eLao Công (Rank 3 trở lên)'
-      - '&7Giá mua: &f15,000,000 &7money'
+      - '&c✖ Rank Prison: &eVượt Ngục (Rank 9 - MAX)'
+      - '&7Giá mua: &b500 &7point'
 
   # --- VIP 2: VIP+ ---
   'vipplus_owned':
     material: DIAMOND
-    slot: 30
+    slot: 22
     priority: 1
     glow: true
     hide_attributes: true
@@ -734,7 +760,7 @@ items:
           permission: group.vipplus
   'vipplus_buy':
     material: DIAMOND_BLOCK
-    slot: 30
+    slot: 22
     priority: 2
     glow: true
     hide_attributes: true
@@ -747,8 +773,8 @@ items:
       - ''
       - '&7Điều kiện:'
       - '&a✔ Rank VIP: &fVIP'
-      - '&a✔ Rank Prison: &fĐội Trưởng (Rank 5)'
-      - '&7Giá mua: &f40,000,000 &7money'
+      - '&a✔ Rank Prison: &fVượt Ngục (Rank 9 - MAX)'
+      - '&7Giá mua: &b1,000 &7point'
       - ''
       - '&e➤ Click để nâng cấp VIP+!'
     view_requirement:
@@ -759,23 +785,24 @@ items:
         req_prison:
           type: greater than or equal to
           input: '%xprison_rank_id%'
-          output: '5'
+          output: '9'
     left_click_requirement:
       requirements:
         balance_check:
-          type: has money
-          amount: 40000000
+          type: greater than or equal to
+          input: '%playerpoints_points%'
+          output: '1000'
           deny_commands:
-            - "[message] &c&lVIP+ &7» Bạn không đủ tiền! Cần &f40,000,000 &7money."
+            - "[message] &c&lVIP+ &7» Bạn không đủ point! Cần &b1,000 &7point."
     left_click_commands:
       - '[sound] ENTITY_PLAYER_LEVELUP'
-      - '[console] eco take %player_name% 40000000'
+      - '[console] points take %player_name% 1000'
       - '[console] lp user %player_name% parent add vipplus'
       - '[message] &b&lVIP+ &7» Chúc mừng, bạn đã nâng cấp rank &b&lVIP+&7!'
       - '[open_menu] ranks_master'
   'vipplus_locked_no_vip':
     material: RED_STAINED_GLASS_PANE
-    slot: 30
+    slot: 22
     priority: 3
     hide_attributes: true
     display_name: '&c&lVIP+ &7(&cĐang khóa 🔒&7)'
@@ -786,8 +813,8 @@ items:
       - ''
       - '&c&lYÊU CẦU CHƯA ĐẠT:'
       - '&c✖ Bắt buộc phải sở hữu Rank &aVIP &ctrước!'
-      - '&c✖ Cần Rank Prison: &eĐội Trưởng (Rank 5 trở lên)'
-      - '&7Giá mua: &f40,000,000 &7money'
+      - '&c✖ Cần Rank Prison: &eVượt Ngục (Rank 9 - MAX)'
+      - '&7Giá mua: &b1,000 &7point'
     view_requirement:
       requirements:
         no_vip:
@@ -795,7 +822,7 @@ items:
           permission: group.vip
   'vipplus_locked_no_prison':
     material: RED_STAINED_GLASS_PANE
-    slot: 30
+    slot: 22
     priority: 4
     hide_attributes: true
     display_name: '&c&lVIP+ &7(&cĐang khóa 🔒&7)'
@@ -806,13 +833,13 @@ items:
       - ''
       - '&c&lYÊU CẦU CHƯA ĐẠT:'
       - '&a✔ Rank VIP: &fVIP'
-      - '&c✖ Rank Prison: &eĐội Trưởng (Rank 5 trở lên)'
-      - '&7Giá mua: &f40,000,000 &7money'
+      - '&c✖ Rank Prison: &eVượt Ngục (Rank 9 - MAX)'
+      - '&7Giá mua: &b1,000 &7point'
 
   # --- VIP 3: MVP ---
   'mvp_owned':
     material: DIAMOND_BLOCK
-    slot: 31
+    slot: 23
     priority: 1
     glow: true
     hide_attributes: true
@@ -831,7 +858,7 @@ items:
           permission: group.mvp
   'mvp_buy':
     material: NETHER_STAR
-    slot: 31
+    slot: 23
     priority: 2
     glow: true
     hide_attributes: true
@@ -844,8 +871,8 @@ items:
       - ''
       - '&7Điều kiện:'
       - '&a✔ Rank VIP: &fVIP+'
-      - '&a✔ Rank Prison: &fPhó Quản Ngục (Rank 6)'
-      - '&7Giá mua: &f90,000,000 &7money'
+      - '&a✔ Rank Prison: &fVượt Ngục (Rank 9 - MAX)'
+      - '&7Giá mua: &b2,000 &7point'
       - ''
       - '&e➤ Click để nâng cấp MVP!'
     view_requirement:
@@ -856,23 +883,24 @@ items:
         req_prison:
           type: greater than or equal to
           input: '%xprison_rank_id%'
-          output: '6'
+          output: '9'
     left_click_requirement:
       requirements:
         balance_check:
-          type: has money
-          amount: 90000000
+          type: greater than or equal to
+          input: '%playerpoints_points%'
+          output: '2000'
           deny_commands:
-            - "[message] &c&lMVP &7» Bạn không đủ tiền! Cần &f90,000,000 &7money."
+            - "[message] &c&lMVP &7» Bạn không đủ point! Cần &b2,000 &7point."
     left_click_commands:
       - '[sound] ENTITY_PLAYER_LEVELUP'
-      - '[console] eco take %player_name% 90000000'
+      - '[console] points take %player_name% 2000'
       - '[console] lp user %player_name% parent add mvp'
       - '[message] &d&lMVP &7» Chúc mừng, bạn đã nâng cấp rank &d&lMVP&7!'
       - '[open_menu] ranks_master'
   'mvp_locked_no_vip':
     material: RED_STAINED_GLASS_PANE
-    slot: 31
+    slot: 23
     priority: 3
     hide_attributes: true
     display_name: '&c&lMVP &7(&cĐang khóa 🔒&7)'
@@ -883,8 +911,8 @@ items:
       - ''
       - '&c&lYÊU CẦU CHƯA ĐẠT:'
       - '&c✖ Bắt buộc phải sở hữu Rank &bVIP+ &ctrước!'
-      - '&c✖ Cần Rank Prison: &ePhó Quản Ngục (Rank 6 trở lên)'
-      - '&7Giá mua: &f90,000,000 &7money'
+      - '&c✖ Cần Rank Prison: &eVượt Ngục (Rank 9 - MAX)'
+      - '&7Giá mua: &b2,000 &7point'
     view_requirement:
       requirements:
         no_vip:
@@ -892,7 +920,7 @@ items:
           permission: group.vipplus
   'mvp_locked_no_prison':
     material: RED_STAINED_GLASS_PANE
-    slot: 31
+    slot: 23
     priority: 4
     hide_attributes: true
     display_name: '&c&lMVP &7(&cĐang khóa 🔒&7)'
@@ -903,13 +931,13 @@ items:
       - ''
       - '&c&lYÊU CẦU CHƯA ĐẠT:'
       - '&a✔ Rank VIP: &fVIP+'
-      - '&c✖ Rank Prison: &ePhó Quản Ngục (Rank 6 trở lên)'
-      - '&7Giá mua: &f90,000,000 &7money'
+      - '&c✖ Rank Prison: &eVượt Ngục (Rank 9 - MAX)'
+      - '&7Giá mua: &b2,000 &7point'
 
   # --- VIP 4: MVP+ ---
   'mvpplus_owned':
     material: BEACON
-    slot: 32
+    slot: 24
     priority: 1
     glow: true
     hide_attributes: true
@@ -928,7 +956,7 @@ items:
           permission: group.mvpplus
   'mvpplus_buy':
     material: BEACON
-    slot: 32
+    slot: 24
     priority: 2
     glow: true
     hide_attributes: true
@@ -941,8 +969,8 @@ items:
       - ''
       - '&7Điều kiện:'
       - '&a✔ Rank VIP: &fMVP'
-      - '&a✔ Rank Prison: &fQuản Ngục (Rank 7)'
-      - '&7Giá mua: &f180,000,000 &7money'
+      - '&a✔ Rank Prison: &fVượt Ngục (Rank 9 - MAX)'
+      - '&7Giá mua: &b4,000 &7point'
       - ''
       - '&e➤ Click để nâng cấp MVP+!'
     view_requirement:
@@ -953,23 +981,24 @@ items:
         req_prison:
           type: greater than or equal to
           input: '%xprison_rank_id%'
-          output: '7'
+          output: '9'
     left_click_requirement:
       requirements:
         balance_check:
-          type: has money
-          amount: 180000000
+          type: greater than or equal to
+          input: '%playerpoints_points%'
+          output: '4000'
           deny_commands:
-            - "[message] &c&lMVP+ &7» Bạn không đủ tiền! Cần &f180,000,000 &7money."
+            - "[message] &c&lMVP+ &7» Bạn không đủ point! Cần &b4,000 &7point."
     left_click_commands:
       - '[sound] ENTITY_PLAYER_LEVELUP'
-      - '[console] eco take %player_name% 180000000'
+      - '[console] points take %player_name% 4000'
       - '[console] lp user %player_name% parent add mvpplus'
       - '[message] &5&lMVP+ &7» Chúc mừng, bạn đã nâng cấp rank &5&lMVP+&7!'
       - '[open_menu] ranks_master'
   'mvpplus_locked_no_vip':
     material: RED_STAINED_GLASS_PANE
-    slot: 32
+    slot: 24
     priority: 3
     hide_attributes: true
     display_name: '&c&lMVP+ &7(&cĐang khóa 🔒&7)'
@@ -980,8 +1009,8 @@ items:
       - ''
       - '&c&lYÊU CẦU CHƯA ĐẠT:'
       - '&c✖ Bắt buộc phải sở hữu Rank &dMVP &ctrước!'
-      - '&c✖ Cần Rank Prison: &eQuản Ngục (Rank 7 trở lên)'
-      - '&7Giá mua: &f180,000,000 &7money'
+      - '&c✖ Cần Rank Prison: &eVượt Ngục (Rank 9 - MAX)'
+      - '&7Giá mua: &b4,000 &7point'
     view_requirement:
       requirements:
         no_vip:
@@ -989,7 +1018,7 @@ items:
           permission: group.mvp
   'mvpplus_locked_no_prison':
     material: RED_STAINED_GLASS_PANE
-    slot: 32
+    slot: 24
     priority: 4
     hide_attributes: true
     display_name: '&c&lMVP+ &7(&cĐang khóa 🔒&7)'
@@ -1000,13 +1029,13 @@ items:
       - ''
       - '&c&lYÊU CẦU CHƯA ĐẠT:'
       - '&a✔ Rank VIP: &fMVP'
-      - '&c✖ Rank Prison: &eQuản Ngục (Rank 7 trở lên)'
-      - '&7Giá mua: &f180,000,000 &7money'
+      - '&c✖ Rank Prison: &eVượt Ngục (Rank 9 - MAX)'
+      - '&7Giá mua: &b4,000 &7point'
 
   # --- VIP 5: ELITE ---
   'elite_owned':
     material: ENCHANTED_GOLDEN_APPLE
-    slot: 33
+    slot: 25
     priority: 1
     glow: true
     hide_attributes: true
@@ -1025,7 +1054,7 @@ items:
           permission: group.elite
   'elite_buy':
     material: GOLD_BLOCK
-    slot: 33
+    slot: 25
     priority: 2
     glow: true
     hide_attributes: true
@@ -1038,8 +1067,8 @@ items:
       - ''
       - '&7Điều kiện:'
       - '&a✔ Rank VIP: &fMVP+'
-      - '&a✔ Rank Prison: &fBá Chủ Ngục Tù (Rank 8)'
-      - '&7Giá mua: &f350,000,000 &7money'
+      - '&a✔ Rank Prison: &fVượt Ngục (Rank 9 - MAX)'
+      - '&7Giá mua: &b8,000 &7point'
       - ''
       - '&e➤ Click để nâng cấp ELITE!'
     view_requirement:
@@ -1050,23 +1079,24 @@ items:
         req_prison:
           type: greater than or equal to
           input: '%xprison_rank_id%'
-          output: '8'
+          output: '9'
     left_click_requirement:
       requirements:
         balance_check:
-          type: has money
-          amount: 350000000
+          type: greater than or equal to
+          input: '%playerpoints_points%'
+          output: '8000'
           deny_commands:
-            - "[message] &c&lELITE &7» Bạn không đủ tiền! Cần &f350,000,000 &7money."
+            - "[message] &c&lELITE &7» Bạn không đủ point! Cần &b8,000 &7point."
     left_click_commands:
       - '[sound] ENTITY_PLAYER_LEVELUP'
-      - '[console] eco take %player_name% 350000000'
+      - '[console] points take %player_name% 8000'
       - '[console] lp user %player_name% parent add elite'
       - '[message] &6&lELITE &7» Chúc mừng, bạn đã nâng cấp rank &6&lELITE&7!'
       - '[open_menu] ranks_master'
   'elite_locked_no_vip':
     material: RED_STAINED_GLASS_PANE
-    slot: 33
+    slot: 25
     priority: 3
     hide_attributes: true
     display_name: '&c&lELITE &7(&cĐang khóa 🔒&7)'
@@ -1077,8 +1107,8 @@ items:
       - ''
       - '&c&lYÊU CẦU CHƯA ĐẠT:'
       - '&c✖ Bắt buộc phải sở hữu Rank &5MVP+ &ctrước!'
-      - '&c✖ Cần Rank Prison: &eBá Chủ Ngục Tù (Rank 8 trở lên)'
-      - '&7Giá mua: &f350,000,000 &7money'
+      - '&c✖ Cần Rank Prison: &eVượt Ngục (Rank 9 - MAX)'
+      - '&7Giá mua: &b8,000 &7point'
     view_requirement:
       requirements:
         no_vip:
@@ -1086,7 +1116,7 @@ items:
           permission: group.mvpplus
   'elite_locked_no_prison':
     material: RED_STAINED_GLASS_PANE
-    slot: 33
+    slot: 25
     priority: 4
     hide_attributes: true
     display_name: '&c&lELITE &7(&cĐang khóa 🔒&7)'
@@ -1097,13 +1127,13 @@ items:
       - ''
       - '&c&lYÊU CẦU CHƯA ĐẠT:'
       - '&a✔ Rank VIP: &fMVP+'
-      - '&c✖ Rank Prison: &eBá Chủ Ngục Tù (Rank 8 trở lên)'
-      - '&7Giá mua: &f350,000,000 &7money'
+      - '&c✖ Rank Prison: &eVượt Ngục (Rank 9 - MAX)'
+      - '&7Giá mua: &b8,000 &7point'
 
   # --- VIP 6: LEGEND ---
   'legend_owned':
     material: NETHERITE_BLOCK
-    slot: 34
+    slot: 26
     priority: 1
     glow: true
     hide_attributes: true
@@ -1122,7 +1152,7 @@ items:
           permission: group.legend
   'legend_buy':
     material: NETHERITE_INGOT
-    slot: 34
+    slot: 26
     priority: 2
     glow: true
     hide_attributes: true
@@ -1135,8 +1165,8 @@ items:
       - ''
       - '&7Điều kiện:'
       - '&a✔ Rank VIP: &fELITE'
-      - '&a✔ Rank Prison: &fVượt Ngục (Rank 9)'
-      - '&7Giá mua: &f750,000,000 &7money'
+      - '&a✔ Rank Prison: &fVượt Ngục (Rank 9 - MAX)'
+      - '&7Giá mua: &b16,000 &7point'
       - ''
       - '&e➤ Click để nâng cấp LEGEND!'
     view_requirement:
@@ -1151,19 +1181,20 @@ items:
     left_click_requirement:
       requirements:
         balance_check:
-          type: has money
-          amount: 750000000
+          type: greater than or equal to
+          input: '%playerpoints_points%'
+          output: '16000'
           deny_commands:
-            - "[message] &c&lLEGEND &7» Bạn không đủ tiền! Cần &f750,000,000 &7money."
+            - "[message] &c&lLEGEND &7» Bạn không đủ point! Cần &b16,000 &7point."
     left_click_commands:
       - '[sound] ENTITY_PLAYER_LEVELUP'
-      - '[console] eco take %player_name% 750000000'
+      - '[console] points take %player_name% 16000'
       - '[console] lp user %player_name% parent add legend'
       - '[message] &c&lLEGEND &7» Chúc mừng, bạn đã nâng cấp rank &c&lLEGEND&7!'
       - '[open_menu] ranks_master'
   'legend_locked_no_vip':
     material: RED_STAINED_GLASS_PANE
-    slot: 34
+    slot: 26
     priority: 3
     hide_attributes: true
     display_name: '&c&lLEGEND &7(&cĐang khóa 🔒&7)'
@@ -1174,8 +1205,8 @@ items:
       - ''
       - '&c&lYÊU CẦU CHƯA ĐẠT:'
       - '&c✖ Bắt buộc phải sở hữu Rank &6ELITE &ctrước!'
-      - '&c✖ Cần Rank Prison: &eVượt Ngục (Rank 9)'
-      - '&7Giá mua: &f750,000,000 &7money'
+      - '&c✖ Cần Rank Prison: &eVượt Ngục (Rank 9 - MAX)'
+      - '&7Giá mua: &b16,000 &7point'
     view_requirement:
       requirements:
         no_vip:
@@ -1183,7 +1214,7 @@ items:
           permission: group.elite
   'legend_locked_no_prison':
     material: RED_STAINED_GLASS_PANE
-    slot: 34
+    slot: 26
     priority: 4
     hide_attributes: true
     display_name: '&c&lLEGEND &7(&cĐang khóa 🔒&7)'
@@ -1194,15 +1225,15 @@ items:
       - ''
       - '&c&lYÊU CẦU CHƯA ĐẠT:'
       - '&a✔ Rank VIP: &fELITE'
-      - '&c✖ Rank Prison: &eVượt Ngục (Rank 9)'
-      - '&7Giá mua: &f750,000,000 &7money'
+      - '&c✖ Rank Prison: &eVượt Ngục (Rank 9 - MAX)'
+      - '&7Giá mua: &b16,000 &7point'
 
   # ---------------------------------------------------------------------------
-  # FOOTER & UTILITIES (Row 6: Slot 49)
+  # FOOTER & UTILITIES (Row 4: Slot 31)
   # ---------------------------------------------------------------------------
   'close':
     material: BARRIER
-    slot: 49
+    slot: 31
     priority: 1
     hide_attributes: true
     display_name: '&c&lĐóng Menu'
@@ -1213,42 +1244,18 @@ items:
     material: BLACK_STAINED_GLASS_PANE
     slots:
       - 0
-      - 1
       - 3
       - 5
-      - 7
       - 8
       - 9
       - 17
       - 18
-      - 21
-      - 23
-      - 25
-      - 26
       - 27
       - 28
+      - 29
+      - 30
+      - 32
+      - 33
+      - 34
       - 35
-      - 45
-      - 46
-      - 47
-      - 48
-      - 50
-      - 51
-      - 52
-      - 53
-    display_name: ' '
-
-  # Dải phân cách vàng giữa khu VIP (row 4) và footer (row 6) cho đỡ trống trải
-  'divider':
-    material: YELLOW_STAINED_GLASS_PANE
-    slots:
-      - 36
-      - 37
-      - 38
-      - 39
-      - 40
-      - 41
-      - 42
-      - 43
-      - 44
     display_name: ' '

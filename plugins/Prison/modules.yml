@@ -7,7 +7,7 @@
 ranks: true
 mines: true
 
-sellall: true
+sellall: false
 
 utils:
   enabled: true
@@ -46,4 +46,3 @@ utils:
   bombs:
     enabled: true
     bombs: true
-
