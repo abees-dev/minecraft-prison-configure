@@ -1,0 +1,74 @@
+name: '&8[&e⚡&8] &e&lBÀN TIẾN HÓA LÔI LONG'
+max-queue-size: 10
+sound: BLOCK_ANVIL_USE
+layout: trade-tier
+
+items:
+    fill:
+        material: YELLOW_STAINED_GLASS_PANE
+        name: '&7'
+    no-recipe:
+        material: RED_STAINED_GLASS_PANE
+        name: '&cChưa Chọn Công Thức'
+    no-queue-item:
+        material: BLACK_STAINED_GLASS_PANE
+        name: '&7Ô Hàng Chờ Trống'
+
+recipes:
+    # ==========================================================
+    # LÔI LONG (Cấp 5 - UNIQUE) [Phong Long → Lôi Long]
+    # ==========================================================
+    kiem-loi-long:
+        output:
+            type: SWORD
+            id: TRADE_SWORD_LOI_LONG
+            amount: 1
+        name: "&e&l⚡ Tiến Hóa Lôi Long Chấn Kiếm"
+        crafting-time: 0
+        ingredients:
+        - mmoitem{type=SWORD,id=TRADE_SWORD_PHONG_LONG,amount=1,display="Phong Long Liệt Kiếm"}
+        # TODO: Thêm nguyên liệu nâng cấp tại đây
+
+    non-loi-long:
+        output:
+            type: ARMOR
+            id: TRADE_HELMET_LOI_LONG
+            amount: 1
+        name: "&e&l⚡ Tiến Hóa Lôi Long Giáp Miện"
+        crafting-time: 0
+        ingredients:
+        - mmoitem{type=ARMOR,id=TRADE_HELMET_PHONG_LONG,amount=1,display="Phong Long Giáp Miện"}
+        # TODO: Thêm nguyên liệu nâng cấp tại đây
+
+    ao-loi-long:
+        output:
+            type: ARMOR
+            id: TRADE_CHESTPLATE_LOI_LONG
+            amount: 1
+        name: "&e&l⚡ Tiến Hóa Lôi Long Chấn Giáp"
+        crafting-time: 0
+        ingredients:
+        - mmoitem{type=ARMOR,id=TRADE_CHESTPLATE_PHONG_LONG,amount=1,display="Phong Long Liệt Giáp"}
+        # TODO: Thêm nguyên liệu nâng cấp tại đây
+
+    quan-loi-long:
+        output:
+            type: ARMOR
+            id: TRADE_LEGGINGS_LOI_LONG
+            amount: 1
+        name: "&e&l⚡ Tiến Hóa Lôi Long Hộ Tất"
+        crafting-time: 0
+        ingredients:
+        - mmoitem{type=ARMOR,id=TRADE_LEGGINGS_PHONG_LONG,amount=1,display="Phong Long Hộ Tất"}
+        # TODO: Thêm nguyên liệu nâng cấp tại đây
+
+    giay-loi-long:
+        output:
+            type: ARMOR
+            id: TRADE_BOOTS_LOI_LONG
+            amount: 1
+        name: "&e&l⚡ Tiến Hóa Lôi Long Chấn Hài"
+        crafting-time: 0
+        ingredients:
+        - mmoitem{type=ARMOR,id=TRADE_BOOTS_PHONG_LONG,amount=1,display="Phong Long Phong Hài"}
+        # TODO: Thêm nguyên liệu nâng cấp tại đây

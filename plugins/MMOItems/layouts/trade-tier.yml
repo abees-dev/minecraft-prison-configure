@@ -1,0 +1,16 @@
+# Layout dùng chung cho 5 bàn tiến hóa Long Tộc (1 tier / station, 5 công thức: kiếm, nón, áo, quần, giày)
+# GUI 5 hàng (45 ô), công thức và hàng chờ căn giữa, không cần mũi tên phân trang vì luôn <=5 recipe/trang
+slots: 45
+
+layout:
+  # Hàng 1 (căn giữa): kiếm, nón, áo, quần, giày
+  recipe-slots: [11, 12, 13, 14, 15]
+
+  # Hàng 3 (căn giữa): hàng chờ
+  queue-slots: [29, 30, 31, 32, 33]
+
+  recipe-previous-slot: 10
+  recipe-next-slot: 16
+
+  queue-previous-slot: 28
+  queue-next-slot: 34

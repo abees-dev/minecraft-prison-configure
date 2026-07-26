@@ -388,6 +388,7 @@ PRISON_DOI_TRUONG_BOSS:
   Drops:
   - prison_rank5_boss_drops
   Skills:
+  - skill{s=Boss_Anti_Kite_Pull} @target ~onTimer:100
   - skill{s=damage{amount=71;ignorearmor=true;ignoreiframes=true}} @PlayersInRadius{r=5} ~onTimer:60
   - skill{s=Prison_Doi_Truong_Enrage} @self ~onDamaged
   - summon{mob=PRISON_DOI_TRUONG_NORMAL;amount=2;noise=5} @self ~onTimer:220
@@ -465,6 +466,7 @@ PRISON_PHO_QUAN_NGUC_BOSS:
   Drops:
   - prison_rank6_boss_drops
   Skills:
+  - skill{s=Boss_Anti_Kite_Pull} @target ~onTimer:100
   - skill{s=damage{amount=81;ignorearmor=true;ignoreiframes=true}} @PlayersInRadius{r=5} ~onTimer:50
   - skill{s=Prison_Pho_Quan_Nguc_Enrage} @self ~onDamaged
   - summon{mob=PRISON_PHO_QUAN_NGUC_NORMAL;amount=2;noise=5} @self ~onTimer:200
@@ -541,6 +543,7 @@ PRISON_QUAN_NGUC_BOSS:
   Drops:
   - prison_rank7_boss_drops
   Skills:
+  - skill{s=Boss_Anti_Kite_Pull} @target ~onTimer:100
   - skill{s=damage{amount=92;ignorearmor=true;ignoreiframes=true}} @PlayersInRadius{r=5} ~onTimer:50
   - skill{s=Prison_Quan_Nguc_Enrage} @self ~onDamaged
   - summon{mob=PRISON_QUAN_NGUC_NORMAL;amount=2;noise=5} @self ~onTimer:200
@@ -620,6 +623,7 @@ PRISON_BA_CHU_NGUC_TU_BOSS:
   Drops:
   - prison_rank8_boss_drops
   Skills:
+  - skill{s=Boss_Anti_Kite_Pull} @target ~onTimer:90
   - skill{s=damage{amount=98;ignorearmor=true;ignoreiframes=true}} @PlayersInRadius{r=5} ~onTimer:50
   - skill{s=Prison_Ba_Chu_Nguc_Tu_Enrage} @self ~onDamaged
   - summon{mob=PRISON_BA_CHU_NGUC_TU_NORMAL;amount=2;noise=5} @self ~onTimer:180
@@ -699,6 +703,7 @@ PRISON_VUOT_NGUC_BOSS:
   Drops:
   - prison_rank9_boss_drops
   Skills:
+  - skill{s=Boss_Anti_Kite_Pull} @target ~onTimer:90
   - skill{s=damage{amount=108;ignorearmor=true;ignoreiframes=true}} @PlayersInRadius{r=5} ~onTimer:45
   - skill{s=Prison_Vuot_Nguc_Enrage} @self ~onDamaged
   - summon{mob=PRISON_VUOT_NGUC_NORMAL;amount=2;noise=5} @self ~onTimer:180
@@ -743,6 +748,7 @@ PRISON_MA_VUONG_BOSS:
   Drops:
   - prison_ma_vuong_boss_drops
   Skills:
+  - skill{s=Boss_Anti_Kite_Pull} @target ~onTimer:80
   - skill{s=damage{amount=130;ignorearmor=true;ignoreiframes=true}} @PlayersInRadius{r=6} ~onTimer:45
   - skill{s=Prison_Ma_Vuong_Enrage} @self ~onDamaged
   - summon{mob=PRISON_VUOT_NGUC_NORMAL;amount=2;noise=5} @self ~onTimer:180

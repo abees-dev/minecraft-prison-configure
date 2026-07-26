@@ -1,11 +1,8 @@
 # ============================================================================
-# CẤU HÌNH HỆ THỐNG BÀN THỜ MA VƯƠNG (MESSAGES & CONFIG)
-# Vị trí: plugins/Skript/scripts/mavuong/config.sk
+# DEMON KING ALTAR SYSTEM CONFIGURATION
+# File: plugins/Skript/scripts/demon_king/config.sk
 # ============================================================================
 
-# ----------------------------------------------------------------------------
-# HÀM QUẢN LÝ THÔNG BÁO (MESSAGES CONSTANTS)
-# ----------------------------------------------------------------------------
 function get_mavuong_msg(key: text, val1: text = "", val2: text = "") :: text:
 	if {_key} is "COOLDOWN":
 		return "&e&l[Bàn Thờ] &fMa Vương vừa được triệu hồi gần đây, hãy quay lại sau &c%{_val1}% phút %{_val2}% giây&f!"
@@ -21,11 +18,8 @@ function get_mavuong_msg(key: text, val1: text = "", val2: text = "") :: text:
 
 	return ""
 
-# ----------------------------------------------------------------------------
-# CẤU HÌNH THÔNG SỐ TOÀN CỤC
-# ----------------------------------------------------------------------------
 function get_mavuong_cooldown() :: number:
-	return 1800 # 30 phút (1800 giây)
+	return 1800 # 30 minutes (1800s)
 
 function get_mavuong_boss_spawn_cmd() :: text:
 	return "mm mobs spawn PRISON_MA_VUONG_BOSS:10 1 world_magadungeon,-2,81,86"

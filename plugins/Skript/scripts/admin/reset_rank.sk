@@ -1,0 +1,98 @@
+# =============================================================================
+# HỆ THỐNG RESET RANK - Admin Command Tool
+# File: plugins/Skript/scripts/admin/reset_rank.sk
+# Commands: /resetrank [player] [prison|vip|all]
+# =============================================================================
+
+import:
+	net.Indyuce.mmocore.api.player.PlayerData
+
+function reset_prison_rank(p: player):
+	set {_name} to {_p}'s name
+
+	# 1. Reset Rank trong dữ liệu plugin X-Prison về Rank 1 (Tân Binh)
+	# Lệnh thật của X-Prison: /setrank <player> <rankId số nguyên> (quyền xprison.ranks.admin)
+	# Lệnh này tự động chạy lại CMD của Rank 1 trong ranks.yml, bao gồm việc
+	# gán lại group xprison_rank_1 qua LuckPerms - nên không cần tự tay chỉnh lp nữa.
+	execute console command "setrank %{_name}% 1"
+
+	# 2. Dọn sạch các group xprison_rank_2..9 còn sót lại (phòng trường hợp
+	# player đã từng lên rank cao rồi mới reset, để tránh cộng dồn permission)
+	loop 8 times:
+		execute console command "lp user %{_name}% parent remove xprison_rank_%loop-number + 1%"
+
+	# 3. Reset Level & EXP MMOCore về 1
+	set {_pd} to try PlayerData.get({_p})
+	if {_pd} is set:
+		try {_pd}.setLevel(1)
+		try {_pd}.setExperience(0)
+	execute console command "mmocore admin set level %{_name}% 1"
+
+function reset_vip_rank(p: player):
+	set {_name} to {_p}'s name
+	# Xóa tất cả các group VIP từ cao xuống thấp trong LuckPerms
+	execute console command "lp user %{_name}% parent remove legend"
+	execute console command "lp user %{_name}% parent remove elite"
+	execute console command "lp user %{_name}% parent remove mvpplus"
+	execute console command "lp user %{_name}% parent remove mvp"
+	execute console command "lp user %{_name}% parent remove vipplus"
+	execute console command "lp user %{_name}% parent remove vip"
+
+command /resetrank [<offline player>] [<text>]:
+	aliases: /resetranks, /rankreset
+	permission: op
+	permission message: &cBạn không có quyền thực hiện lệnh này!
+	trigger:
+		# Mặc định target là chính người gửi lệnh nếu không điền tên
+		set {_target} to arg-1
+		set {_type_arg} to arg-2
+
+		# Nếu tham số thứ 1 là loại reset ("prison", "vip", "all") thay vì tên player
+		if arg-1 is set:
+			set {_check_type} to lowercase "%arg-1%"
+			if {_check_type} is "prison" or "vip" or "all":
+				set {_target} to player
+				set {_type_arg} to {_check_type}
+
+		if {_target} is not set:
+			set {_target} to player
+
+		if {_type_arg} is not set:
+			set {_type} to "all"
+		else:
+			set {_type} to lowercase {_type_arg}
+
+		if {_type} is "prison":
+			reset_prison_rank({_target})
+			send "&a&l[ADMIN] &fĐã reset &eRank Prison &fcủa &b%{_target}'s name% &fvề &a&lTân Binh (Rank 1)&f!" to player
+			if {_target} is online:
+				send "&c&l[!] &fRank Prison của bạn đã được reset về &a&lTân Binh (Rank 1)&f!" to {_target}
+				play sound "entity.player.levelup" with volume 1 and pitch 1 to {_target}
+
+		else if {_type} is "vip":
+			reset_vip_rank({_target})
+			send "&a&l[ADMIN] &fĐã reset toàn bộ &bRank VIP &fcủa &b%{_target}'s name%&f!" to player
+			if {_target} is online:
+				send "&c&l[!] &fToàn bộ Rank VIP của bạn đã được reset!" to {_target}
+				play sound "entity.player.levelup" with volume 1 and pitch 1 to {_target}
+
+		else if {_type} is "all":
+			set {_name} to {_target}'s name
+			execute console command "lp user %{_name}% parent clear"
+			execute console command "lp user %{_name}% permission clear"
+			execute console command "lp user %{_name}% parent add default"
+			execute console command "setrank %{_name}% 1"
+
+			set {_pd} to try PlayerData.get({_target})
+			if {_pd} is set:
+				try {_pd}.setLevel(1)
+				try {_pd}.setExperience(0)
+			execute console command "mmocore admin set level %{_name}% 1"
+
+			send "&a&l[ADMIN] &fĐã reset &eTOÀN BỘ RANK &fcủa &b%{_target}'s name%&f!" to player
+			if {_target} is online:
+				send "&c&l[!] &fTất cả Rank Prison và VIP của bạn đã được reset về &a&lTân Binh (Rank 1)&f!" to {_target}
+				play sound "entity.player.levelup" with volume 1 and pitch 1 to {_target}
+
+		else:
+			send "&cLoại reset không hợp lệ! Dùng: &eprison&c, &evip&c, hoặc &eall" to player

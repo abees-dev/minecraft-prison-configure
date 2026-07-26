@@ -1,7 +1,13 @@
 import:
 	io.lumine.mythic.lib.api.item.NBTItem
 
+# =======================================================
+# Skript: Check NBT Item Upgrade Debug Tool
+# File: plugins/Skript/scripts/admin/checkench.sk
+# =======================================================
+
 command /checkench <player>:
+	permission: op
 	trigger:
 		set {_p} to arg-1
 		set {_slotnum} to 0

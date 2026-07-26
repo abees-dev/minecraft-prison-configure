@@ -1,0 +1,74 @@
+name: '&8[&b✦&8] &b&lBÀN THIÊN GIỚI THẦN LONG'
+max-queue-size: 10
+sound: BLOCK_ANVIL_USE
+layout: trade-tier
+
+items:
+    fill:
+        material: LIGHT_BLUE_STAINED_GLASS_PANE
+        name: '&7'
+    no-recipe:
+        material: RED_STAINED_GLASS_PANE
+        name: '&cChưa Chọn Công Thức'
+    no-queue-item:
+        material: BLACK_STAINED_GLASS_PANE
+        name: '&7Ô Hàng Chờ Trống'
+
+recipes:
+    # ==========================================================
+    # THẦN LONG (Cấp 3 - LEGENDARY) [Chiến Long → Thần Long]
+    # ==========================================================
+    kiem-than-long:
+        output:
+            type: SWORD
+            id: DONATE_SWORD_LONG_THAN
+            amount: 1
+        name: "&b&l✦ Tiến Hóa Thần Long Thánh Kiếm"
+        crafting-time: 0
+        ingredients:
+        - mmoitem{type=SWORD,id=DONATE_SWORD_LONG_CHIEN,amount=1,display="Chiến Long Cuồng Kiếm"}
+        # TODO: Thêm nguyên liệu nâng cấp tại đây
+
+    non-than-long:
+        output:
+            type: ARMOR
+            id: DONATE_HELMET_LONG_THAN
+            amount: 1
+        name: "&b&l✦ Tiến Hóa Thần Long Mũ"
+        crafting-time: 0
+        ingredients:
+        - mmoitem{type=ARMOR,id=DONATE_HELMET_LONG_CHIEN,amount=1,display="Chiến Long Mũ"}
+        # TODO: Thêm nguyên liệu nâng cấp tại đây
+
+    ao-than-long:
+        output:
+            type: ARMOR
+            id: DONATE_CHESTPLATE_LONG_THAN
+            amount: 1
+        name: "&b&l✦ Tiến Hóa Thần Long Thánh Giáp"
+        crafting-time: 0
+        ingredients:
+        - mmoitem{type=ARMOR,id=DONATE_CHESTPLATE_LONG_CHIEN,amount=1,display="Chiến Long Chiến Giáp"}
+        # TODO: Thêm nguyên liệu nâng cấp tại đây
+
+    quan-than-long:
+        output:
+            type: ARMOR
+            id: DONATE_LEGGINGS_LONG_THAN
+            amount: 1
+        name: "&b&l✦ Tiến Hóa Thần Long Hộ Tất"
+        crafting-time: 0
+        ingredients:
+        - mmoitem{type=ARMOR,id=DONATE_LEGGINGS_LONG_CHIEN,amount=1,display="Chiến Long Hộ Tất"}
+        # TODO: Thêm nguyên liệu nâng cấp tại đây
+
+    giay-than-long:
+        output:
+            type: ARMOR
+            id: DONATE_BOOTS_LONG_THAN
+            amount: 1
+        name: "&b&l✦ Tiến Hóa Thần Long Hài"
+        crafting-time: 0
+        ingredients:
+        - mmoitem{type=ARMOR,id=DONATE_BOOTS_LONG_CHIEN,amount=1,display="Chiến Long Hài"}
+        # TODO: Thêm nguyên liệu nâng cấp tại đây

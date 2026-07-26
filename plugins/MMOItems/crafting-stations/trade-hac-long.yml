@@ -1,0 +1,74 @@
+name: '&8[&5◆&8] &5&lBÀN TIẾN HÓA HẮC LONG'
+max-queue-size: 10
+sound: BLOCK_ANVIL_USE
+layout: trade-tier
+
+items:
+    fill:
+        material: PURPLE_STAINED_GLASS_PANE
+        name: '&7'
+    no-recipe:
+        material: RED_STAINED_GLASS_PANE
+        name: '&cChưa Chọn Công Thức'
+    no-queue-item:
+        material: BLACK_STAINED_GLASS_PANE
+        name: '&7Ô Hàng Chờ Trống'
+
+recipes:
+    # ==========================================================
+    # HẮC LONG (Cấp 3 - LEGENDARY) [Băng Long → Hắc Long]
+    # ==========================================================
+    kiem-hac-long:
+        output:
+            type: SWORD
+            id: TRADE_SWORD_HAC_LONG
+            amount: 1
+        name: "&5&l◆ Tiến Hóa Hắc Long Ma Kiếm"
+        crafting-time: 0
+        ingredients:
+        - mmoitem{type=SWORD,id=TRADE_SWORD_BANG_LONG,amount=1,display="Băng Long Hàn Kiếm"}
+        # TODO: Thêm nguyên liệu nâng cấp tại đây
+
+    non-hac-long:
+        output:
+            type: ARMOR
+            id: TRADE_HELMET_HAC_LONG
+            amount: 1
+        name: "&5&l◆ Tiến Hóa Hắc Long Ma Miện"
+        crafting-time: 0
+        ingredients:
+        - mmoitem{type=ARMOR,id=TRADE_HELMET_BANG_LONG,amount=1,display="Băng Long Giáp Miện"}
+        # TODO: Thêm nguyên liệu nâng cấp tại đây
+
+    ao-hac-long:
+        output:
+            type: ARMOR
+            id: TRADE_CHESTPLATE_HAC_LONG
+            amount: 1
+        name: "&5&l◆ Tiến Hóa Hắc Long Ma Giáp"
+        crafting-time: 0
+        ingredients:
+        - mmoitem{type=ARMOR,id=TRADE_CHESTPLATE_BANG_LONG,amount=1,display="Băng Long Hàn Giáp"}
+        # TODO: Thêm nguyên liệu nâng cấp tại đây
+
+    quan-hac-long:
+        output:
+            type: ARMOR
+            id: TRADE_LEGGINGS_HAC_LONG
+            amount: 1
+        name: "&5&l◆ Tiến Hóa Hắc Long Ma Tất"
+        crafting-time: 0
+        ingredients:
+        - mmoitem{type=ARMOR,id=TRADE_LEGGINGS_BANG_LONG,amount=1,display="Băng Long Hộ Tất"}
+        # TODO: Thêm nguyên liệu nâng cấp tại đây
+
+    giay-hac-long:
+        output:
+            type: ARMOR
+            id: TRADE_BOOTS_HAC_LONG
+            amount: 1
+        name: "&5&l◆ Tiến Hóa Hắc Long Ma Hài"
+        crafting-time: 0
+        ingredients:
+        - mmoitem{type=ARMOR,id=TRADE_BOOTS_BANG_LONG,amount=1,display="Băng Long Hàn Hài"}
+        # TODO: Thêm nguyên liệu nâng cấp tại đây

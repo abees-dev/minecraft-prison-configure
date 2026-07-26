@@ -122,3 +122,12 @@ Give_Crate_Key_Success:
   - command{c="crates keygive <trigger.name> chia_khoa_ruong_ngoc 1"} @trigger
   - message{m="&e&l❖ &d&lCRATES &8» &r&fChúc mừng bạn nhận được &e1x Chìa Khóa Rương Ngọc&f!"} @trigger
   - effect:sound{s=entity.experience_orb.pickup;volume=1.0;pitch=1.2} @trigger
+
+Boss_Anti_Kite_Pull:
+  Conditions:
+  - distance{d=>8} true
+  Skills:
+  - pull{velocity=10} @target
+  - message{m="&c&l[!] &fBoss đã kéo bạn lại gần! Đừng hòng đứng xa xả đạn!"} @target
+  - effect:sound{s=entity.ender_dragon.flap;volume=1.0;pitch=0.8} @target
+

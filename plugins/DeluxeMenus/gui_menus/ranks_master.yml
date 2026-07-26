@@ -1,0 +1,1216 @@
+# =============================================================================
+# MASTER RANK GUI - DeluxeMenus Unified Menu
+# Command: /rank, /rankmenu, /viprank, /vipranks, /vip
+# (KHÔNG dùng /ranks vì trùng lệnh gốc của X-Prison)
+# Combined Prison Ranks (1-9) & VIP Donor Ranks (1-6)
+# =============================================================================
+menu_title: '&8❖ &6&lHỆ THỐNG RANKS & VIP &8❖'
+open_command:
+  # KHÔNG dùng "ranks" ở đây: X-Prison tự đăng ký sẵn lệnh /ranks (GUI mặc định
+  # của plugin) nên nếu trùng tên, DeluxeMenus sẽ bị đẩy lệnh xuống dạng
+  # /deluxemenus:ranks và menu tự thiết kế này sẽ không mở được bằng /ranks.
+  - rank
+  - rankmenu
+  - viprank
+  - vipranks
+  - vip
+open_commands:
+  - '[sound] BLOCK_NOTE_BLOCK_CHIME'
+size: 54
+
+items:
+  # ---------------------------------------------------------------------------
+  # HEADER & PLAYER PROFILE (Row 1)
+  # ---------------------------------------------------------------------------
+  'profile_info':
+    material: PLAYER_HEAD
+    slot: 4
+    priority: 1
+    hide_attributes: true
+    display_name: '&6&l⭐ HỒ SƠ NGƯỜI CHƠI &6&l⭐'
+    lore:
+      - '&7• Tên người chơi: &e%player_name%'
+      - '&7• Số dư Tiền: &a%vault_eco_balance_formatted% &7money'
+      - '&7• Cấp độ MMOCore: &bLevel %mmocore_level%'
+      - ''
+      - '&7• Cấp Rank Prison: &e%luckperms_prefix%'
+      - '&7• Cấp Rank VIP: &b%luckperms_highest_group_by_weight%'
+
+  'prison_header':
+    material: DIAMOND_PICKAXE
+    slot: 2
+    priority: 1
+    hide_attributes: true
+    display_name: '&e&l⛏ TIẾN TRÌNH RANK PRISON &7(1 ➔ 9)'
+    lore:
+      - '&7Thăng rank bằng lệnh &e/rankup &7để mở'
+      - '&7khu mỏ mới và tăng hệ số thưởng money/token!'
+      - ''
+      - '&a■ &7Đã vượt qua    &e■ &7Rank hiện tại'
+      - '&6■ &7Rank tiếp theo   &c■ &7Chưa mở khóa'
+
+  'vip_header':
+    material: NETHER_STAR
+    slot: 6
+    priority: 1
+    hide_attributes: true
+    display_name: '&b&l⭐ TIẾN TRÌNH RANK VIP &7(1 ➔ 6)'
+    lore:
+      - '&7Rank VIP đem lại đặc quyền lớn:'
+      - '&7/fly, /home, kit riêng, bảo toàn fly khi chết...'
+      - ''
+      - '&c&l⚠ YÊU CẦU NÂNG CẤP:'
+      - '&71. Phải nâng cấp theo thứ tự từ thấp lên cao'
+      - '&72. Phải đạt Rank Prison tối thiểu theo yêu cầu'
+
+  # ---------------------------------------------------------------------------
+  # PRISON RANKS TRACK (Row 2 & 3: Slots 10..16, 19..20)
+  # ---------------------------------------------------------------------------
+
+  # --- Rank 1: Tân Binh ---
+  'pr_1_passed':
+    material: LIME_STAINED_GLASS_PANE
+    slot: 10
+    priority: 1
+    display_name: '&f&l[Tân Binh] &8» &a&lĐÃ VƯỢT QUA'
+    lore:
+      - '&7• Cấp bậc: &eRank #1'
+      - '&a✔ Bạn đã hoàn thành rank này.'
+    view_requirement:
+      requirements:
+        passed:
+          type: has permission
+          permission: group.xprison_rank_2
+  'pr_1_current':
+    material: NETHER_STAR
+    slot: 10
+    priority: 2
+    glow: true
+    display_name: '&f&l[Tân Binh] &8» &e&lRANK HIỆN TẠI'
+    lore:
+      - '&7• Cấp bậc: &eRank #1'
+      - '&7• Trạng thái: &e&lĐANG SỬ DỤNG'
+      - ''
+      - '&7Quyền lợi:'
+      - '&8- &7Mở khóa Khu Mỏ Tân Binh'
+      - '&8- &7Quyền truy cập cơ bản'
+
+  # --- Rank 2: Tù Nhân ---
+  'pr_2_passed':
+    material: LIME_STAINED_GLASS_PANE
+    slot: 11
+    priority: 1
+    display_name: '&7&l[Tù Nhân] &8» &a&lĐÃ VƯỢT QUA'
+    lore:
+      - '&7• Cấp bậc: &eRank #2'
+      - '&a✔ Bạn đã hoàn thành rank này.'
+    view_requirement:
+      requirements:
+        passed:
+          type: has permission
+          permission: group.xprison_rank_3
+  'pr_2_current':
+    material: NETHER_STAR
+    slot: 11
+    priority: 2
+    glow: true
+    display_name: '&7&l[Tù Nhân] &8» &e&lRANK HIỆN TẠI'
+    lore:
+      - '&7• Cấp bậc: &eRank #2'
+      - '&7• Trạng thái: &e&lĐANG SỬ DỤNG'
+      - ''
+      - '&7Quyền lợi:'
+      - '&8- &7Mở khóa Khu Mỏ Tù Nhân'
+    view_requirement:
+      requirements:
+        cur_rank:
+          type: has permission
+          permission: group.xprison_rank_2
+  'pr_2_next':
+    material: GOLD_INGOT
+    slot: 11
+    priority: 3
+    glow: true
+    display_name: '&7&l[Tù Nhân] &8» &6&lRANK TIẾP THEO'
+    lore:
+      - '&7• Cấp bậc: &eRank #2'
+      - '&7• Giá Rankup: &f85,000 &7money'
+      - '&7• Yêu cầu MMOCore: &eLevel 10'
+      - ''
+      - '&e➤ Click để lên rank này!'
+    left_click_commands:
+      - '[player] rankup'
+      - '[close]'
+
+  # --- Rank 3: Lao Công ---
+  'pr_3_passed':
+    material: LIME_STAINED_GLASS_PANE
+    slot: 12
+    priority: 1
+    display_name: '&a&l[Lao Công] &8» &a&lĐÃ VƯỢT QUA'
+    lore:
+      - '&7• Cấp bậc: &eRank #3'
+      - '&a✔ Bạn đã hoàn thành rank này.'
+    view_requirement:
+      requirements:
+        passed:
+          type: has permission
+          permission: group.xprison_rank_4
+  'pr_3_current':
+    material: NETHER_STAR
+    slot: 12
+    priority: 2
+    glow: true
+    display_name: '&a&l[Lao Công] &8» &e&lRANK HIỆN TẠI'
+    lore:
+      - '&7• Cấp bậc: &eRank #3'
+      - '&7• Trạng thái: &e&lĐANG SỬ DỤNG'
+      - ''
+      - '&7Quyền lợi:'
+      - '&8- &7Mở khóa Khu Mỏ Lao Công'
+      - '&8- &aĐủ điều kiện mua VIP 1 (VIP)'
+    view_requirement:
+      requirements:
+        cur_rank:
+          type: has permission
+          permission: group.xprison_rank_3
+  'pr_3_next':
+    material: GOLD_INGOT
+    slot: 12
+    priority: 3
+    glow: true
+    display_name: '&a&l[Lao Công] &8» &6&lRANK TIẾP THEO'
+    lore:
+      - '&7• Cấp bậc: &eRank #3'
+      - '&7• Giá Rankup: &f290,000 &7money'
+      - '&7• Yêu cầu MMOCore: &eLevel 20'
+      - ''
+      - '&e➤ Click để lên rank này!'
+    view_requirement:
+      requirements:
+        is_prev:
+          type: has permission
+          permission: group.xprison_rank_2
+    left_click_commands:
+      - '[player] rankup'
+      - '[close]'
+  'pr_3_locked':
+    material: RED_STAINED_GLASS_PANE
+    slot: 12
+    priority: 4
+    display_name: '&a&l[Lao Công] &8» &c&lCHƯA MỞ KHÓA'
+    lore:
+      - '&7• Cấp bậc: &eRank #3'
+      - '&7• Giá Rankup: &f290,000 &7money'
+      - '&7• Yêu cầu MMOCore: &eLevel 20'
+      - ''
+      - '&c🔒 Cần nâng rank tuần tự theo thứ tự'
+
+  # --- Rank 4: Thợ Đào ---
+  'pr_4_passed':
+    material: LIME_STAINED_GLASS_PANE
+    slot: 13
+    priority: 1
+    display_name: '&2&l[Thợ Đào] &8» &a&lĐÃ VƯỢT QUA'
+    lore:
+      - '&7• Cấp bậc: &eRank #4'
+      - '&a✔ Bạn đã hoàn thành rank này.'
+    view_requirement:
+      requirements:
+        passed:
+          type: has permission
+          permission: group.xprison_rank_5
+  'pr_4_current':
+    material: NETHER_STAR
+    slot: 13
+    priority: 2
+    glow: true
+    display_name: '&2&l[Thợ Đào] &8» &e&lRANK HIỆN TẠI'
+    lore:
+      - '&7• Cấp bậc: &eRank #4'
+      - '&7• Trạng thái: &e&lĐANG SỬ DỤNG'
+      - ''
+      - '&7Quyền lợi:'
+      - '&8- &7Mở khóa Khu Mỏ Thợ Đào'
+    view_requirement:
+      requirements:
+        cur_rank:
+          type: has permission
+          permission: group.xprison_rank_4
+  'pr_4_next':
+    material: GOLD_INGOT
+    slot: 13
+    priority: 3
+    glow: true
+    display_name: '&2&l[Thợ Đào] &8» &6&lRANK TIẾP THEO'
+    lore:
+      - '&7• Cấp bậc: &eRank #4'
+      - '&7• Giá Rankup: &f1,075,000 &7money'
+      - '&7• Yêu cầu MMOCore: &eLevel 30'
+      - ''
+      - '&e➤ Click để lên rank này!'
+    view_requirement:
+      requirements:
+        is_prev:
+          type: has permission
+          permission: group.xprison_rank_3
+    left_click_commands:
+      - '[player] rankup'
+      - '[close]'
+  'pr_4_locked':
+    material: RED_STAINED_GLASS_PANE
+    slot: 13
+    priority: 4
+    display_name: '&2&l[Thợ Đào] &8» &c&lCHƯA MỞ KHÓA'
+    lore:
+      - '&7• Cấp bậc: &eRank #4'
+      - '&7• Giá Rankup: &f1,075,000 &7money'
+      - '&7• Yêu cầu MMOCore: &eLevel 30'
+      - ''
+      - '&c🔒 Cần nâng rank tuần tự theo thứ tự'
+
+  # --- Rank 5: Đội Trưởng ---
+  'pr_5_passed':
+    material: LIME_STAINED_GLASS_PANE
+    slot: 14
+    priority: 1
+    display_name: '&b&l[Đội Trưởng] &8» &a&lĐÃ VƯỢT QUA'
+    lore:
+      - '&7• Cấp bậc: &eRank #5'
+      - '&a✔ Bạn đã hoàn thành rank này.'
+    view_requirement:
+      requirements:
+        passed:
+          type: has permission
+          permission: group.xprison_rank_6
+  'pr_5_current':
+    material: NETHER_STAR
+    slot: 14
+    priority: 2
+    glow: true
+    display_name: '&b&l[Đội Trưởng] &8» &e&lRANK HIỆN TẠI'
+    lore:
+      - '&7• Cấp bậc: &eRank #5'
+      - '&7• Trạng thái: &e&lĐANG SỬ DỤNG'
+      - ''
+      - '&7Quyền lợi:'
+      - '&8- &7Mở khóa Khu Mỏ Đội Trưởng'
+      - '&8- &aĐủ điều kiện mở mua VIP+ (VIP 2)'
+    view_requirement:
+      requirements:
+        cur_rank:
+          type: has permission
+          permission: group.xprison_rank_5
+  'pr_5_next':
+    material: GOLD_INGOT
+    slot: 14
+    priority: 3
+    glow: true
+    display_name: '&b&l[Đội Trưởng] &8» &6&lRANK TIẾP THEO'
+    lore:
+      - '&7• Cấp bậc: &eRank #5'
+      - '&7• Giá Rankup: &f5,400,000 &7money'
+      - '&7• Yêu cầu MMOCore: &eLevel 45'
+      - ''
+      - '&e➤ Click để lên rank này!'
+    view_requirement:
+      requirements:
+        is_prev:
+          type: has permission
+          permission: group.xprison_rank_4
+    left_click_commands:
+      - '[player] rankup'
+      - '[close]'
+  'pr_5_locked':
+    material: RED_STAINED_GLASS_PANE
+    slot: 14
+    priority: 4
+    display_name: '&b&l[Đội Trưởng] &8» &c&lCHƯA MỞ KHÓA'
+    lore:
+      - '&7• Cấp bậc: &eRank #5'
+      - '&7• Giá Rankup: &f5,400,000 &7money'
+      - '&7• Yêu cầu MMOCore: &eLevel 45'
+      - ''
+      - '&c🔒 Cần nâng rank tuần tự theo thứ tự'
+
+  # --- Rank 6: Phó Quản Ngục ---
+  'pr_6_passed':
+    material: LIME_STAINED_GLASS_PANE
+    slot: 15
+    priority: 1
+    display_name: '&1&l[Phó Quản Ngục] &8» &a&lĐÃ VƯỢT QUA'
+    lore:
+      - '&7• Cấp bậc: &eRank #6'
+      - '&a✔ Bạn đã hoàn thành rank này.'
+    view_requirement:
+      requirements:
+        passed:
+          type: has permission
+          permission: group.xprison_rank_7
+  'pr_6_current':
+    material: NETHER_STAR
+    slot: 15
+    priority: 2
+    glow: true
+    display_name: '&1&l[Phó Quản Ngục] &8» &e&lRANK HIỆN TẠI'
+    lore:
+      - '&7• Cấp bậc: &eRank #6'
+      - '&7• Trạng thái: &e&lĐANG SỬ DỤNG'
+      - ''
+      - '&7Quyền lợi:'
+      - '&8- &7Mở khóa Khu Mỏ Phó Quản Ngục'
+      - '&8- &aĐủ điều kiện mở mua MVP (VIP 3)'
+    view_requirement:
+      requirements:
+        cur_rank:
+          type: has permission
+          permission: group.xprison_rank_6
+  'pr_6_next':
+    material: GOLD_INGOT
+    slot: 15
+    priority: 3
+    glow: true
+    display_name: '&1&l[Phó Quản Ngục] &8» &6&lRANK TIẾP THEO'
+    lore:
+      - '&7• Cấp bậc: &eRank #6'
+      - '&7• Giá Rankup: &f21,700,000 &7money'
+      - '&7• Yêu cầu MMOCore: &eLevel 60'
+      - ''
+      - '&e➤ Click để lên rank này!'
+    view_requirement:
+      requirements:
+        is_prev:
+          type: has permission
+          permission: group.xprison_rank_5
+    left_click_commands:
+      - '[player] rankup'
+      - '[close]'
+  'pr_6_locked':
+    material: RED_STAINED_GLASS_PANE
+    slot: 15
+    priority: 4
+    display_name: '&1&l[Phó Quản Ngục] &8» &c&lCHƯA MỞ KHÓA'
+    lore:
+      - '&7• Cấp bậc: &eRank #6'
+      - '&7• Giá Rankup: &f21,700,000 &7money'
+      - '&7• Yêu cầu MMOCore: &eLevel 60'
+      - ''
+      - '&c🔒 Cần nâng rank tuần tự theo thứ tự'
+
+  # --- Rank 7: Quản Ngục ---
+  'pr_7_passed':
+    material: LIME_STAINED_GLASS_PANE
+    slot: 16
+    priority: 1
+    display_name: '&d&l[Quản Ngục] &8» &a&lĐÃ VƯỢT QUA'
+    lore:
+      - '&7• Cấp bậc: &eRank #7'
+      - '&a✔ Bạn đã hoàn thành rank này.'
+    view_requirement:
+      requirements:
+        passed:
+          type: has permission
+          permission: group.xprison_rank_8
+  'pr_7_current':
+    material: NETHER_STAR
+    slot: 16
+    priority: 2
+    glow: true
+    display_name: '&d&l[Quản Ngục] &8» &e&lRANK HIỆN TẠI'
+    lore:
+      - '&7• Cấp bậc: &eRank #7'
+      - '&7• Trạng thái: &e&lĐANG SỬ DỤNG'
+      - ''
+      - '&7Quyền lợi:'
+      - '&8- &7Mở khóa Khu Mỏ Quản Ngục'
+      - '&8- &aĐủ điều kiện mở mua MVP+ (VIP 4)'
+    view_requirement:
+      requirements:
+        cur_rank:
+          type: has permission
+          permission: group.xprison_rank_7
+  'pr_7_next':
+    material: GOLD_INGOT
+    slot: 16
+    priority: 3
+    glow: true
+    display_name: '&d&l[Quản Ngục] &8» &6&lRANK TIẾP THEO'
+    lore:
+      - '&7• Cấp bậc: &eRank #7'
+      - '&7• Giá Rankup: &f32,000,000 &7money'
+      - '&7• Yêu cầu MMOCore: &eLevel 75'
+      - ''
+      - '&e➤ Click để lên rank này!'
+    view_requirement:
+      requirements:
+        is_prev:
+          type: has permission
+          permission: group.xprison_rank_6
+    left_click_commands:
+      - '[player] rankup'
+      - '[close]'
+  'pr_7_locked':
+    material: RED_STAINED_GLASS_PANE
+    slot: 16
+    priority: 4
+    display_name: '&d&l[Quản Ngục] &8» &c&lCHƯA MỞ KHÓA'
+    lore:
+      - '&7• Cấp bậc: &eRank #7'
+      - '&7• Giá Rankup: &f32,000,000 &7money'
+      - '&7• Yêu cầu MMOCore: &eLevel 75'
+      - ''
+      - '&c🔒 Cần nâng rank tuần tự theo thứ tự'
+
+  # --- Rank 8: Bá Chủ Ngục Tù ---
+  'pr_8_passed':
+    material: LIME_STAINED_GLASS_PANE
+    slot: 19
+    priority: 1
+    display_name: '&6&l[Bá Chủ Ngục Tù] &8» &a&lĐÃ VƯỢT QUA'
+    lore:
+      - '&7• Cấp bậc: &eRank #8'
+      - '&a✔ Bạn đã hoàn thành rank này.'
+    view_requirement:
+      requirements:
+        passed:
+          type: has permission
+          permission: group.xprison_rank_9
+  'pr_8_current':
+    material: NETHER_STAR
+    slot: 19
+    priority: 2
+    glow: true
+    display_name: '&6&l[Bá Chủ Ngục Tù] &8» &e&lRANK HIỆN TẠI'
+    lore:
+      - '&7• Cấp bậc: &eRank #8'
+      - '&7• Trạng thái: &e&lĐANG SỬ DỤNG'
+      - ''
+      - '&7Quyền lợi:'
+      - '&8- &7Mở khóa Khu Mỏ Bá Chủ Ngục Tù'
+      - '&8- &aĐủ điều kiện mở mua ELITE (VIP 5)'
+    view_requirement:
+      requirements:
+        cur_rank:
+          type: has permission
+          permission: group.xprison_rank_8
+  'pr_8_next':
+    material: GOLD_INGOT
+    slot: 19
+    priority: 3
+    glow: true
+    display_name: '&6&l[Bá Chủ Ngục Tù] &8» &6&lRANK TIẾP THEO'
+    lore:
+      - '&7• Cấp bậc: &eRank #8'
+      - '&7• Giá Rankup: &f43,500,000 &7money'
+      - '&7• Yêu cầu MMOCore: &eLevel 90'
+      - ''
+      - '&e➤ Click để lên rank này!'
+    view_requirement:
+      requirements:
+        is_prev:
+          type: has permission
+          permission: group.xprison_rank_7
+    left_click_commands:
+      - '[player] rankup'
+      - '[close]'
+  'pr_8_locked':
+    material: RED_STAINED_GLASS_PANE
+    slot: 19
+    priority: 4
+    display_name: '&6&l[Bá Chủ Ngục Tù] &8» &c&lCHƯA MỞ KHÓA'
+    lore:
+      - '&7• Cấp bậc: &eRank #8'
+      - '&7• Giá Rankup: &f43,500,000 &7money'
+      - '&7• Yêu cầu MMOCore: &eLevel 90'
+      - ''
+      - '&c🔒 Cần nâng rank tuần tự theo thứ tự'
+
+  # --- Rank 9: Vượt Ngục ---
+  'pr_9_current':
+    material: NETHER_STAR
+    slot: 20
+    priority: 1
+    glow: true
+    display_name: '&c&l[Vượt Ngục] &8» &e&lRANK CAO NHẤT'
+    lore:
+      - '&7• Cấp bậc: &eRank #9 (Đỉnh Cao Prison)'
+      - '&7• Trạng thái: &e&lĐANG SỬ DỤNG'
+      - ''
+      - '&7Quyền lợi:'
+      - '&8- &7Mở khóa Khu Mỏ Vượt Ngục'
+      - '&8- &aĐủ điều kiện Chuyển Sinh (/rebirth)'
+      - '&8- &aĐủ điều kiện mở mua LEGEND (VIP 6)'
+    view_requirement:
+      requirements:
+        cur_rank:
+          type: has permission
+          permission: group.xprison_rank_9
+  'pr_9_next':
+    material: GOLD_INGOT
+    slot: 20
+    priority: 2
+    glow: true
+    display_name: '&c&l[Vượt Ngục] &8» &6&lRANK TIẾP THEO'
+    lore:
+      - '&7• Cấp bậc: &eRank #9'
+      - '&7• Giá Rankup: &f64,500,000 &7money'
+      - '&7• Yêu cầu MMOCore: &eLevel 100'
+      - ''
+      - '&e➤ Click để lên rank cao nhất này!'
+    view_requirement:
+      requirements:
+        is_prev:
+          type: has permission
+          permission: group.xprison_rank_8
+    left_click_commands:
+      - '[player] rankup'
+      - '[close]'
+  'pr_9_locked':
+    material: RED_STAINED_GLASS_PANE
+    slot: 20
+    priority: 3
+    display_name: '&c&l[Vượt Ngục] &8» &c&lCHƯA MỞ KHÓA'
+    lore:
+      - '&7• Cấp bậc: &eRank #9'
+      - '&7• Giá Rankup: &f64,500,000 &7money'
+      - '&7• Yêu cầu MMOCore: &eLevel 100'
+      - ''
+      - '&c🔒 Cần nâng rank tuần tự theo thứ tự'
+
+  # ---------------------------------------------------------------------------
+  # MIDDLE DECORATION & GUIDES (Row 3: Slots 21-25)
+  # ---------------------------------------------------------------------------
+  'info_guide':
+    material: BOOK
+    slot: 22
+    priority: 1
+    hide_attributes: true
+    display_name: '&e&l✦ HƯỚNG DẪN THĂNG HẠNG ✦'
+    lore:
+      - '&7• Dùng tiền &fMoney &7& Level MMOCore để'
+      - '  nâng cấp &eRank Prison &7(từ Rank 1 ➔ 9).'
+      - ''
+      - '&7• Mua &bRank VIP &7giúp mở khóa các đặc'
+      - '  quyền lệnh fly, sethome, kit khủng, v.v.'
+      - ''
+      - '&c&l⚠ Yêu cầu nâng VIP:'
+      - '  Bắt buộc mua VIP cấp dưới trước và đạt'
+      - '  Rank Prison yêu cầu!'
+
+  'info_gate':
+    material: COMPASS
+    slot: 24
+    priority: 1
+    hide_attributes: true
+    display_name: '&b&l❖ GIỚI HẠN LEVEL MMOCORE ❖'
+    lore:
+      - '&7Mỗi Rank Prison yêu cầu Level MMOCore tương ứng:'
+      - '&8- &7Rank 2: &eLvl 10    &8- &7Rank 6: &eLvl 60'
+      - '&8- &7Rank 3: &eLvl 20    &8- &7Rank 7: &eLvl 75'
+      - '&8- &7Rank 4: &eLvl 30    &8- &7Rank 8: &eLvl 90'
+      - '&8- &7Rank 5: &eLvl 45    &8- &7Rank 9: &eLvl 100'
+      - ''
+      - '&7Hãy đánh quái & cày Level MMOCore trước khi /rankup!'
+
+  # ---------------------------------------------------------------------------
+  # VIP RANKS TRACK (Row 4: Slots 29..34)
+  # ---------------------------------------------------------------------------
+
+  # --- VIP 1: VIP ---
+  'vip_owned':
+    material: EMERALD
+    slot: 29
+    priority: 1
+    glow: true
+    hide_attributes: true
+    display_name: '&a&lVIP &7(&aĐã sở hữu&7)'
+    lore:
+      - '&7Quyền lợi của hạng VIP này:'
+      - '&8- &7/fly, 5 /home, kit &avip'
+      - '&8- &7Workbench di động, /hat'
+      - ''
+      - '&a✔ Bạn đã mở khóa thành công rank này.'
+    view_requirement:
+      requirements:
+        owns_vip:
+          type: has permission
+          permission: group.vip
+  'vip_buy':
+    material: EMERALD_BLOCK
+    slot: 29
+    priority: 2
+    glow: true
+    hide_attributes: true
+    display_name: '&a&lVIP &7(&eĐủ điều kiện&7)'
+    lore:
+      - '&7Quyền lợi khi mua:'
+      - '&8- &7/fly, 5 /home, kit &avip'
+      - '&8- &7Workbench di động, /hat'
+      - ''
+      - '&7Điều kiện:'
+      - '&a✔ Rank Prison: &fLao Công (Rank 3)'
+      - '&7Giá mua: &f15,000,000 &7money'
+      - ''
+      - '&e➤ Click để mua rank VIP!'
+    view_requirement:
+      requirements:
+        req_prison:
+          type: has permission
+          permission: group.xprison_rank_3
+    left_click_requirement:
+      requirements:
+        balance_check:
+          type: has money
+          amount: 15000000
+          deny_commands:
+            - "[message] &c&lVIP &7» Bạn không đủ tiền! Cần &f15,000,000 &7money."
+    left_click_commands:
+      - '[sound] ENTITY_PLAYER_LEVELUP'
+      - '[console] eco take %player_name% 15000000'
+      - '[console] lp user %player_name% parent add vip'
+      - '[message] &a&lVIP &7» Chúc mừng, bạn đã nâng cấp rank &a&lVIP&7!'
+      - '[open_menu] ranks_master'
+  'vip_locked':
+    material: RED_STAINED_GLASS_PANE
+    slot: 29
+    priority: 3
+    hide_attributes: true
+    display_name: '&c&lVIP &7(&cĐang khóa 🔒&7)'
+    lore:
+      - '&7Quyền lợi khi mở khóa:'
+      - '&8- &7/fly, 5 /home, kit &avip'
+      - '&8- &7Workbench di động, /hat'
+      - ''
+      - '&c&lYÊU CẦU CHƯA ĐẠT:'
+      - '&c✖ Rank Prison: &eLao Công (Rank 3 trở lên)'
+      - '&7Giá mua: &f15,000,000 &7money'
+
+  # --- VIP 2: VIP+ ---
+  'vipplus_owned':
+    material: DIAMOND
+    slot: 30
+    priority: 1
+    glow: true
+    hide_attributes: true
+    display_name: '&b&lVIP+ &7(&aĐã sở hữu&7)'
+    lore:
+      - '&7Quyền lợi của hạng VIP+ này:'
+      - '&8- &7Kèm toàn bộ quyền lợi VIP'
+      - '&8- &77 /home, kit &bvip+'
+      - '&8- &7Enderchest di động, chat màu'
+      - ''
+      - '&a✔ Bạn đã mở khóa thành công rank này.'
+    view_requirement:
+      requirements:
+        owns_vipplus:
+          type: has permission
+          permission: group.vipplus
+  'vipplus_buy':
+    material: DIAMOND_BLOCK
+    slot: 30
+    priority: 2
+    glow: true
+    hide_attributes: true
+    display_name: '&b&lVIP+ &7(&eĐủ điều kiện&7)'
+    lore:
+      - '&7Quyền lợi bổ sung:'
+      - '&8- &7Kèm toàn bộ quyền lợi VIP'
+      - '&8- &77 /home, kit &bvip+'
+      - '&8- &7Enderchest di động, chat màu'
+      - ''
+      - '&7Điều kiện:'
+      - '&a✔ Rank VIP: &fVIP'
+      - '&a✔ Rank Prison: &fĐội Trưởng (Rank 5)'
+      - '&7Giá mua: &f40,000,000 &7money'
+      - ''
+      - '&e➤ Click để nâng cấp VIP+!'
+    view_requirement:
+      requirements:
+        req_vip:
+          type: has permission
+          permission: group.vip
+        req_prison:
+          type: has permission
+          permission: group.xprison_rank_5
+    left_click_requirement:
+      requirements:
+        balance_check:
+          type: has money
+          amount: 40000000
+          deny_commands:
+            - "[message] &c&lVIP+ &7» Bạn không đủ tiền! Cần &f40,000,000 &7money."
+    left_click_commands:
+      - '[sound] ENTITY_PLAYER_LEVELUP'
+      - '[console] eco take %player_name% 40000000'
+      - '[console] lp user %player_name% parent add vipplus'
+      - '[message] &b&lVIP+ &7» Chúc mừng, bạn đã nâng cấp rank &b&lVIP+&7!'
+      - '[open_menu] ranks_master'
+  'vipplus_locked_no_vip':
+    material: RED_STAINED_GLASS_PANE
+    slot: 30
+    priority: 3
+    hide_attributes: true
+    display_name: '&c&lVIP+ &7(&cĐang khóa 🔒&7)'
+    lore:
+      - '&7Quyền lợi khi mở khóa:'
+      - '&8- &77 /home, kit &bvip+'
+      - '&8- &7Enderchest di động, chat màu'
+      - ''
+      - '&c&lYÊU CẦU CHƯA ĐẠT:'
+      - '&c✖ Bắt buộc phải sở hữu Rank &aVIP &ctrước!'
+      - '&c✖ Cần Rank Prison: &eĐội Trưởng (Rank 5 trở lên)'
+      - '&7Giá mua: &f40,000,000 &7money'
+    view_requirement:
+      requirements:
+        no_vip:
+          type: "!has permission"
+          permission: group.vip
+  'vipplus_locked_no_prison':
+    material: RED_STAINED_GLASS_PANE
+    slot: 30
+    priority: 4
+    hide_attributes: true
+    display_name: '&c&lVIP+ &7(&cĐang khóa 🔒&7)'
+    lore:
+      - '&7Quyền lợi khi mở khóa:'
+      - '&8- &77 /home, kit &bvip+'
+      - '&8- &7Enderchest di động, chat màu'
+      - ''
+      - '&c&lYÊU CẦU CHƯA ĐẠT:'
+      - '&a✔ Rank VIP: &fVIP'
+      - '&c✖ Rank Prison: &eĐội Trưởng (Rank 5 trở lên)'
+      - '&7Giá mua: &f40,000,000 &7money'
+
+  # --- VIP 3: MVP ---
+  'mvp_owned':
+    material: DIAMOND_BLOCK
+    slot: 31
+    priority: 1
+    glow: true
+    hide_attributes: true
+    display_name: '&d&lMVP &7(&aĐã sở hữu&7)'
+    lore:
+      - '&7Quyền lợi của hạng MVP này:'
+      - '&8- &7Kèm toàn bộ quyền lợi VIP+'
+      - '&8- &79 /home, kit &dmvp'
+      - '&8- &7/heal, /feed, giữ fly khi chết'
+      - ''
+      - '&a✔ Bạn đã mở khóa thành công rank này.'
+    view_requirement:
+      requirements:
+        owns_mvp:
+          type: has permission
+          permission: group.mvp
+  'mvp_buy':
+    material: NETHER_STAR
+    slot: 31
+    priority: 2
+    glow: true
+    hide_attributes: true
+    display_name: '&d&lMVP &7(&eĐủ điều kiện&7)'
+    lore:
+      - '&7Quyền lợi bổ sung:'
+      - '&8- &7Kèm toàn bộ quyền lợi VIP+'
+      - '&8- &79 /home, kit &dmvp'
+      - '&8- &7/heal, /feed, giữ fly khi chết'
+      - ''
+      - '&7Điều kiện:'
+      - '&a✔ Rank VIP: &fVIP+'
+      - '&a✔ Rank Prison: &fPhó Quản Ngục (Rank 6)'
+      - '&7Giá mua: &f90,000,000 &7money'
+      - ''
+      - '&e➤ Click để nâng cấp MVP!'
+    view_requirement:
+      requirements:
+        req_vip:
+          type: has permission
+          permission: group.vipplus
+        req_prison:
+          type: has permission
+          permission: group.xprison_rank_6
+    left_click_requirement:
+      requirements:
+        balance_check:
+          type: has money
+          amount: 90000000
+          deny_commands:
+            - "[message] &c&lMVP &7» Bạn không đủ tiền! Cần &f90,000,000 &7money."
+    left_click_commands:
+      - '[sound] ENTITY_PLAYER_LEVELUP'
+      - '[console] eco take %player_name% 90000000'
+      - '[console] lp user %player_name% parent add mvp'
+      - '[message] &d&lMVP &7» Chúc mừng, bạn đã nâng cấp rank &d&lMVP&7!'
+      - '[open_menu] ranks_master'
+  'mvp_locked_no_vip':
+    material: RED_STAINED_GLASS_PANE
+    slot: 31
+    priority: 3
+    hide_attributes: true
+    display_name: '&c&lMVP &7(&cĐang khóa 🔒&7)'
+    lore:
+      - '&7Quyền lợi khi mở khóa:'
+      - '&8- &79 /home, kit &dmvp'
+      - '&8- &7/heal, /feed, giữ fly khi chết'
+      - ''
+      - '&c&lYÊU CẦU CHƯA ĐẠT:'
+      - '&c✖ Bắt buộc phải sở hữu Rank &bVIP+ &ctrước!'
+      - '&c✖ Cần Rank Prison: &ePhó Quản Ngục (Rank 6 trở lên)'
+      - '&7Giá mua: &f90,000,000 &7money'
+    view_requirement:
+      requirements:
+        no_vip:
+          type: "!has permission"
+          permission: group.vipplus
+  'mvp_locked_no_prison':
+    material: RED_STAINED_GLASS_PANE
+    slot: 31
+    priority: 4
+    hide_attributes: true
+    display_name: '&c&lMVP &7(&cĐang khóa 🔒&7)'
+    lore:
+      - '&7Quyền lợi khi mở khóa:'
+      - '&8- &79 /home, kit &dmvp'
+      - '&8- &7/heal, /feed, giữ fly khi chết'
+      - ''
+      - '&c&lYÊU CẦU CHƯA ĐẠT:'
+      - '&a✔ Rank VIP: &fVIP+'
+      - '&c✖ Rank Prison: &ePhó Quản Ngục (Rank 6 trở lên)'
+      - '&7Giá mua: &f90,000,000 &7money'
+
+  # --- VIP 4: MVP+ ---
+  'mvpplus_owned':
+    material: BEACON
+    slot: 32
+    priority: 1
+    glow: true
+    hide_attributes: true
+    display_name: '&5&lMVP+ &7(&aĐã sở hữu&7)'
+    lore:
+      - '&7Quyền lợi của hạng MVP+ này:'
+      - '&8- &7Kèm toàn bộ quyền lợi MVP'
+      - '&8- &711 /home, kit &5mvp+'
+      - '&8- &7/nick, /repair'
+      - ''
+      - '&a✔ Bạn đã mở khóa thành công rank này.'
+    view_requirement:
+      requirements:
+        owns_mvpplus:
+          type: has permission
+          permission: group.mvpplus
+  'mvpplus_buy':
+    material: BEACON
+    slot: 32
+    priority: 2
+    glow: true
+    hide_attributes: true
+    display_name: '&5&lMVP+ &7(&eĐủ điều kiện&7)'
+    lore:
+      - '&7Quyền lợi bổ sung:'
+      - '&8- &7Kèm toàn bộ quyền lợi MVP'
+      - '&8- &711 /home, kit &5mvp+'
+      - '&8- &7/nick, /repair'
+      - ''
+      - '&7Điều kiện:'
+      - '&a✔ Rank VIP: &fMVP'
+      - '&a✔ Rank Prison: &fQuản Ngục (Rank 7)'
+      - '&7Giá mua: &f180,000,000 &7money'
+      - ''
+      - '&e➤ Click để nâng cấp MVP+!'
+    view_requirement:
+      requirements:
+        req_vip:
+          type: has permission
+          permission: group.mvp
+        req_prison:
+          type: has permission
+          permission: group.xprison_rank_7
+    left_click_requirement:
+      requirements:
+        balance_check:
+          type: has money
+          amount: 180000000
+          deny_commands:
+            - "[message] &c&lMVP+ &7» Bạn không đủ tiền! Cần &f180,000,000 &7money."
+    left_click_commands:
+      - '[sound] ENTITY_PLAYER_LEVELUP'
+      - '[console] eco take %player_name% 180000000'
+      - '[console] lp user %player_name% parent add mvpplus'
+      - '[message] &5&lMVP+ &7» Chúc mừng, bạn đã nâng cấp rank &5&lMVP+&7!'
+      - '[open_menu] ranks_master'
+  'mvpplus_locked_no_vip':
+    material: RED_STAINED_GLASS_PANE
+    slot: 32
+    priority: 3
+    hide_attributes: true
+    display_name: '&c&lMVP+ &7(&cĐang khóa 🔒&7)'
+    lore:
+      - '&7Quyền lợi khi mở khóa:'
+      - '&8- &711 /home, kit &5mvp+'
+      - '&8- &7/nick, /repair'
+      - ''
+      - '&c&lYÊU CẦU CHƯA ĐẠT:'
+      - '&c✖ Bắt buộc phải sở hữu Rank &dMVP &ctrước!'
+      - '&c✖ Cần Rank Prison: &eQuản Ngục (Rank 7 trở lên)'
+      - '&7Giá mua: &f180,000,000 &7money'
+    view_requirement:
+      requirements:
+        no_vip:
+          type: "!has permission"
+          permission: group.mvp
+  'mvpplus_locked_no_prison':
+    material: RED_STAINED_GLASS_PANE
+    slot: 32
+    priority: 4
+    hide_attributes: true
+    display_name: '&c&lMVP+ &7(&cĐang khóa 🔒&7)'
+    lore:
+      - '&7Quyền lợi khi mở khóa:'
+      - '&8- &711 /home, kit &5mvp+'
+      - '&8- &7/nick, /repair'
+      - ''
+      - '&c&lYÊU CẦU CHƯA ĐẠT:'
+      - '&a✔ Rank VIP: &fMVP'
+      - '&c✖ Rank Prison: &eQuản Ngục (Rank 7 trở lên)'
+      - '&7Giá mua: &f180,000,000 &7money'
+
+  # --- VIP 5: ELITE ---
+  'elite_owned':
+    material: ENCHANTED_GOLDEN_APPLE
+    slot: 33
+    priority: 1
+    glow: true
+    hide_attributes: true
+    display_name: '&6&lELITE &7(&aĐã sở hữu&7)'
+    lore:
+      - '&7Quyền lợi của hạng ELITE này:'
+      - '&8- &7Kèm toàn bộ quyền lợi MVP+'
+      - '&8- &713 /home, kit &6elite'
+      - '&8- &7/speed, BattlePass Premium'
+      - ''
+      - '&a✔ Bạn đã mở khóa thành công rank này.'
+    view_requirement:
+      requirements:
+        owns_elite:
+          type: has permission
+          permission: group.elite
+  'elite_buy':
+    material: GOLD_BLOCK
+    slot: 33
+    priority: 2
+    glow: true
+    hide_attributes: true
+    display_name: '&6&lELITE &7(&eĐủ điều kiện&7)'
+    lore:
+      - '&7Quyền lợi bổ sung:'
+      - '&8- &7Kèm toàn bộ quyền lợi MVP+'
+      - '&8- &713 /home, kit &6elite'
+      - '&8- &7/speed, BattlePass Premium'
+      - ''
+      - '&7Điều kiện:'
+      - '&a✔ Rank VIP: &fMVP+'
+      - '&a✔ Rank Prison: &fBá Chủ Ngục Tù (Rank 8)'
+      - '&7Giá mua: &f350,000,000 &7money'
+      - ''
+      - '&e➤ Click để nâng cấp ELITE!'
+    view_requirement:
+      requirements:
+        req_vip:
+          type: has permission
+          permission: group.mvpplus
+        req_prison:
+          type: has permission
+          permission: group.xprison_rank_8
+    left_click_requirement:
+      requirements:
+        balance_check:
+          type: has money
+          amount: 350000000
+          deny_commands:
+            - "[message] &c&lELITE &7» Bạn không đủ tiền! Cần &f350,000,000 &7money."
+    left_click_commands:
+      - '[sound] ENTITY_PLAYER_LEVELUP'
+      - '[console] eco take %player_name% 350000000'
+      - '[console] lp user %player_name% parent add elite'
+      - '[message] &6&lELITE &7» Chúc mừng, bạn đã nâng cấp rank &6&lELITE&7!'
+      - '[open_menu] ranks_master'
+  'elite_locked_no_vip':
+    material: RED_STAINED_GLASS_PANE
+    slot: 33
+    priority: 3
+    hide_attributes: true
+    display_name: '&c&lELITE &7(&cĐang khóa 🔒&7)'
+    lore:
+      - '&7Quyền lợi khi mở khóa:'
+      - '&8- &713 /home, kit &6elite'
+      - '&8- &7/speed, BattlePass Premium'
+      - ''
+      - '&c&lYÊU CẦU CHƯA ĐẠT:'
+      - '&c✖ Bắt buộc phải sở hữu Rank &5MVP+ &ctrước!'
+      - '&c✖ Cần Rank Prison: &eBá Chủ Ngục Tù (Rank 8 trở lên)'
+      - '&7Giá mua: &f350,000,000 &7money'
+    view_requirement:
+      requirements:
+        no_vip:
+          type: "!has permission"
+          permission: group.mvpplus
+  'elite_locked_no_prison':
+    material: RED_STAINED_GLASS_PANE
+    slot: 33
+    priority: 4
+    hide_attributes: true
+    display_name: '&c&lELITE &7(&cĐang khóa 🔒&7)'
+    lore:
+      - '&7Quyền lợi khi mở khóa:'
+      - '&8- &713 /home, kit &6elite'
+      - '&8- &7/speed, BattlePass Premium'
+      - ''
+      - '&c&lYÊU CẦU CHƯA ĐẠT:'
+      - '&a✔ Rank VIP: &fMVP+'
+      - '&c✖ Rank Prison: &eBá Chủ Ngục Tù (Rank 8 trở lên)'
+      - '&7Giá mua: &f350,000,000 &7money'
+
+  # --- VIP 6: LEGEND ---
+  'legend_owned':
+    material: NETHERITE_BLOCK
+    slot: 34
+    priority: 1
+    glow: true
+    hide_attributes: true
+    display_name: '&c&lLEGEND &7(&aĐã sở hữu&7)'
+    lore:
+      - '&7Quyền lợi của hạng LEGEND tối thượng:'
+      - '&8- &7Kèm toàn bộ quyền lợi ELITE'
+      - '&8- &715 /home, kit &clegend'
+      - '&8- &7Disguise (/disguise)'
+      - ''
+      - '&a✔ Bạn đã sở hữu hạng VIP cao nhất!'
+    view_requirement:
+      requirements:
+        owns_legend:
+          type: has permission
+          permission: group.legend
+  'legend_buy':
+    material: NETHERITE_INGOT
+    slot: 34
+    priority: 2
+    glow: true
+    hide_attributes: true
+    display_name: '&c&lLEGEND &7(&eĐủ điều kiện&7)'
+    lore:
+      - '&7Quyền lợi bổ sung:'
+      - '&8- &7Kèm toàn bộ quyền lợi ELITE'
+      - '&8- &715 /home, kit &clegend'
+      - '&8- &7Disguise (/disguise)'
+      - ''
+      - '&7Điều kiện:'
+      - '&a✔ Rank VIP: &fELITE'
+      - '&a✔ Rank Prison: &fVượt Ngục (Rank 9)'
+      - '&7Giá mua: &f750,000,000 &7money'
+      - ''
+      - '&e➤ Click để nâng cấp LEGEND!'
+    view_requirement:
+      requirements:
+        req_vip:
+          type: has permission
+          permission: group.elite
+        req_prison:
+          type: has permission
+          permission: group.xprison_rank_9
+    left_click_requirement:
+      requirements:
+        balance_check:
+          type: has money
+          amount: 750000000
+          deny_commands:
+            - "[message] &c&lLEGEND &7» Bạn không đủ tiền! Cần &f750,000,000 &7money."
+    left_click_commands:
+      - '[sound] ENTITY_PLAYER_LEVELUP'
+      - '[console] eco take %player_name% 750000000'
+      - '[console] lp user %player_name% parent add legend'
+      - '[message] &c&lLEGEND &7» Chúc mừng, bạn đã nâng cấp rank &c&lLEGEND&7!'
+      - '[open_menu] ranks_master'
+  'legend_locked_no_vip':
+    material: RED_STAINED_GLASS_PANE
+    slot: 34
+    priority: 3
+    hide_attributes: true
+    display_name: '&c&lLEGEND &7(&cĐang khóa 🔒&7)'
+    lore:
+      - '&7Quyền lợi khi mở khóa:'
+      - '&8- &715 /home, kit &clegend'
+      - '&8- &7Disguise (/disguise)'
+      - ''
+      - '&c&lYÊU CẦU CHƯA ĐẠT:'
+      - '&c✖ Bắt buộc phải sở hữu Rank &6ELITE &ctrước!'
+      - '&c✖ Cần Rank Prison: &eVượt Ngục (Rank 9)'
+      - '&7Giá mua: &f750,000,000 &7money'
+    view_requirement:
+      requirements:
+        no_vip:
+          type: "!has permission"
+          permission: group.elite
+  'legend_locked_no_prison':
+    material: RED_STAINED_GLASS_PANE
+    slot: 34
+    priority: 4
+    hide_attributes: true
+    display_name: '&c&lLEGEND &7(&cĐang khóa 🔒&7)'
+    lore:
+      - '&7Quyền lợi khi mở khóa:'
+      - '&8- &715 /home, kit &clegend'
+      - '&8- &7Disguise (/disguise)'
+      - ''
+      - '&c&lYÊU CẦU CHƯA ĐẠT:'
+      - '&a✔ Rank VIP: &fELITE'
+      - '&c✖ Rank Prison: &eVượt Ngục (Rank 9)'
+      - '&7Giá mua: &f750,000,000 &7money'
+
+  # ---------------------------------------------------------------------------
+  # FOOTER & UTILITIES (Row 6: Slot 49)
+  # ---------------------------------------------------------------------------
+  'close':
+    material: BARRIER
+    slot: 49
+    priority: 1
+    hide_attributes: true
+    display_name: '&c&lĐóng Menu'
+    left_click_commands:
+      - '[close]'
+
+  'filler':
+    material: GRAY_STAINED_GLASS_PANE
+    slots:
+      - 0
+      - 1
+      - 3
+      - 5
+      - 7
+      - 8
+      - 9
+      - 17
+      - 18
+      - 21
+      - 23
+      - 25
+      - 26
+      - 27
+      - 28
+      - 35
+      - 36
+      - 37
+      - 38
+      - 39
+      - 40
+      - 41
+      - 42
+      - 43
+      - 44
+      - 45
+      - 46
+      - 47
+      - 48
+      - 50
+      - 51
+      - 52
+      - 53
+    display_name: ' '

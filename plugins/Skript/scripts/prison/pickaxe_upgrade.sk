@@ -1,16 +1,12 @@
 import:
 	io.lumine.mythic.lib.api.item.NBTItem
 
-# Bang du lieu nang cap cuoc Prison, tao khi script load.
-# pickaxe_next::<id hien tai>       = id cap ke tiep
-# pickaxe_stoneid::<id hien tai>    = id Da Nang Cap dung rank (khong doi theo buoc)
-# pickaxe_stonecost::<id hien tai>  = so Da Nang Cap can cho buoc nay (8/16/32/64)
-# pickaxe_moneycost::<id hien tai>  = tien Vault can cho buoc nay (% gia rank-up)
-# pickaxe_success::<id hien tai>    = ti le thanh cong % (70/50/30/15)
-#
-# QUAN TRONG: that bai chi mat tien + da, KHONG mat cuoc dang cam (theo yeu cau
-# nguoi dung "chi mat nl va tien"). Cuoc chi bi thu hoi khi THANH CONG (de doi
-# sang cuoc cap moi).
+# ============================================================================
+# HỆ THỐNG NÂNG CẤP CUỐC PRISON (PICKAXE UPGRADE SYSTEM)
+# File: plugins/Skript/scripts/prison/pickaxe_upgrade.sk
+# Lệnh chính: /nangcapcuoc
+# ============================================================================
+
 on script load:
 	set {_ranks::1} to "TAN_BINH"
 	set {_bases::1} to 5000
@@ -61,7 +57,6 @@ on script load:
 			set {pickaxe_success::%{_curid}%} to {_successrates::%{_step}%}
 			set {_moneycost} to round({_base} * {_moneypercents::%{_step}%})
 			set {pickaxe_moneycost::%{_curid}%} to {_moneycost}
-	send "[pickaxe-upgrade] Da nap %(size of {_ranks::*}) * 4% cong thuc nang cap (tien + ti le that bai)." to console
 
 command /nangcapcuoc:
 	trigger:

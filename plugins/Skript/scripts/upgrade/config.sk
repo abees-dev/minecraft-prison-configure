@@ -1,11 +1,8 @@
 # ============================================================================
-# FILE CẤU HÌNH HỆ THỐNG CƯỜNG HÓA (MESSAGES & RATES CONFIG)
-# Vị trí: plugins/Skript/scripts/cuonghoa/config.sk
+# EQUIPMENT UPGRADE CONFIGURATION
+# File: plugins/Skript/scripts/upgrade/config.sk
 # ============================================================================
 
-# ----------------------------------------------------------------------------
-# HÀM QUẢN LÝ THÔNG BÁO & CONSTANTS
-# ----------------------------------------------------------------------------
 function get_cuonghoa_msg(key: text, val1: text = "", val2: text = "") :: text:
 	if {_key} is "SUCCESS":
 		return "&a&l[✦] CƯỜNG HÓA THÀNH CÔNG! &7Trang bị đã được nâng cấp lên &e+%{_val1}%&7!"
@@ -39,24 +36,14 @@ function get_cuonghoa_msg(key: text, val1: text = "", val2: text = "") :: text:
 
 	return ""
 
-# ----------------------------------------------------------------------------
-# HÀM QUẢN LÝ TÊN GUI
-# ----------------------------------------------------------------------------
 function get_cuonghoa_gui_title() :: text:
 	return "&8[&c✦&8] &c&lCƯỜNG HÓA TRANG BỊ"
 
-
-# ----------------------------------------------------------------------------
-# HÀM QUẢN LÝ TỶ LỆ CƯỜNG HÓA & MỐC CẤP ĐỘ (OPTIMIZED FUNCTION)
-# ----------------------------------------------------------------------------
 function get_cuonghoa_success_rate(stone_id: text, is_weapon: boolean, is_armor: boolean, cur_lvl: number) :: number:
-
-	# 1. Đá Thiên Mệnh (Dùng cho tất cả trang bị, mốc 0-99, 100% thành công)
 	if {_stone_id} is "DA_CUONG_HOA_THIEN_MENH":
 		if {_cur_lvl} is between 0 and 99:
 			return 100
 
-	# 2. Kiểm tra khớp loại đá với loại trang bị (Vũ Khí vs Giáp)
 	if {_is_weapon} is true:
 		if {_stone_id} does not contain "_VU_KHI_":
 			return -1
@@ -64,7 +51,6 @@ function get_cuonghoa_success_rate(stone_id: text, is_weapon: boolean, is_armor:
 		if {_stone_id} does not contain "_GIAP_":
 			return -1
 
-	# 3. Tra cứu tỷ lệ tối ưu theo Suffix Đá & Mốc Level
 	if {_stone_id} contains "SO_CAP":
 		if {_cur_lvl} is between 0 and 19:
 			return 85

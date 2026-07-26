@@ -6,9 +6,9 @@ import:
 	net.Indyuce.mmoitems.stat.data.UpgradeData
 
 # ============================================================================
-# HỆ THỐNG GUI CƯỜNG HÓA TRANG BỊ (EQUIPMENT UPGRADE MAIN SYSTEM)
-# Vị trí: plugins/Skript/scripts/cuonghoa/main.sk
-# Lệnh chính: /cuonghoa hoặc /nangcap
+# EQUIPMENT UPGRADE MAIN SYSTEM
+# File: plugins/Skript/scripts/upgrade/main.sk
+# Main Commands: /cuonghoa, /nangcap, /upgrade
 # ============================================================================
 
 command /cuonghoa:
@@ -32,7 +32,6 @@ function open_cuonghoa_gui(p: player):
 	# Slot 25: Ô Đặt Đá Cường Hóa
 	set slot 25 of {_inv} to emerald named "&e&lÔ ĐẶT ĐÁ CƯỜNG HÓA" with lore "&7Hãy đặt Đá Cường Hóa", "&7phù hợp vào ô này."
 
-
 	# Slot 22: Thông Tin Xem Trước
 	set slot 22 of {_inv} to nether star named "&b&lTHÔNG TIN CƯỜNG HÓA" with lore "&7Đặt Trang Bị & Đá Cường Hóa", "&7vào 2 ô bên cạnh rồi bấm &a[CƯỜNG HÓA]&7."
 
@@ -45,7 +44,7 @@ function open_cuonghoa_gui(p: player):
 	open {_inv} to {_p}
 
 # ============================================================================
-# SỰ KIỆN CLICK GUI & BẢO VỆ CÁC Ô ĐẶT VẬT PHẨM
+# GUI CLICK EVENTS & ITEM PROTECTION
 # ============================================================================
 on inventory click:
 	set {_title} to get_cuonghoa_gui_title()
@@ -53,47 +52,45 @@ on inventory click:
 		if clicked inventory is top inventory of player:
 			set {_slot} to index of clicked slot
 
-			# Slot 49: Nút Đóng GUI
+			# Slot 49: Close GUI
 			if {_slot} is 49:
 				cancel event
 				close inventory of player
 				stop
 
-			# Slot 31: Nút Cường Hóa
+			# Slot 31: Process Upgrade
 			if {_slot} is 31:
 				cancel event
 				process_cuong_hoa(player)
 				stop
 
-			# Slot 22: Thông tin
+			# Slot 22: Info Item
 			if {_slot} is 22:
 				cancel event
 				stop
 
-			# Slot 19: Ô Đặt Trang Bị
+			# Slot 19: Equipment Slot
 			if {_slot} is 19:
 				set {_item} to slot 19 of top inventory of player
 				if name of {_item} contains "Ô ĐẶT TRANG BỊ":
 					set slot 19 of top inventory of player to air
 				stop
 
-			# Slot 25: Ô Đặt Đá Cường Hóa
+			# Slot 25: Stone Slot
 			if {_slot} is 25:
 				set {_stone} to slot 25 of top inventory of player
 				if name of {_stone} contains "Ô ĐẶT ĐÁ CƯỜNG HÓA":
 					set slot 25 of top inventory of player to air
 				stop
 
-			# Các slot filler khác: Khóa không cho tương tác
 			cancel event
 
 		else:
-			# Player click trong túi đồ của mình (bottom inventory)
 			if "%click type%" contains "shift":
 				cancel event
 
 # ============================================================================
-# SỰ KIỆN ĐÓNG GUI: HOÀN TRẢ VẬT PHẨM AN TOÀN (ANTI-DUPE)
+# ANTI-DUPE ITEM RETURN ON GUI CLOSE
 # ============================================================================
 on inventory close:
 	set {_title} to get_cuonghoa_gui_title()
@@ -101,14 +98,12 @@ on inventory close:
 		set {_item} to slot 19 of event-inventory
 		set {_stone} to slot 25 of event-inventory
 		
-		# Trả lại Trang Bị ở slot 19
 		if {_item} is set:
 			if {_item} is not air:
 				if name of {_item} does not contain "Ô ĐẶT TRANG BỊ":
 					give {_item} to player
 					set slot 19 of event-inventory to air
 				
-		# Trả lại Đá ở slot 25
 		if {_stone} is set:
 			if {_stone} is not air:
 				if name of {_stone} does not contain "Ô ĐẶT ĐÁ CƯỜNG HÓA":
@@ -116,14 +111,13 @@ on inventory close:
 					set slot 25 of event-inventory to air
 
 # ============================================================================
-# LOGIC XỬ LÝ CƯỜNG HÓA (MMOITEMS API)
+# PROCESS UPGRADE LOGIC
 # ============================================================================
 function process_cuong_hoa(p: player):
 	set {_inv} to current inventory of {_p}
 	set {_item} to slot 19 of {_inv}
 	set {_stone} to slot 25 of {_inv}
 
-	# --- Kiểm tra Trang Bị ---
 	if {_item} is not set:
 		send get_cuonghoa_msg("NO_ITEM") to {_p}
 		stop
@@ -145,7 +139,6 @@ function process_cuong_hoa(p: player):
 		send get_cuonghoa_msg("NOT_MMOITEM") to {_p}
 		stop
 
-	# --- Lấy Cấp độ hiện tại của Trang Bị từ LiveMMOItem UpgradeData ---
 	set {_cur_lvl} to 0
 	set {_check_live} to try new LiveMMOItem({_item})
 	if {_check_live} is set:
@@ -157,7 +150,6 @@ function process_cuong_hoa(p: player):
 		send get_cuonghoa_msg("MAX_LEVEL") to {_p}
 		stop
 
-	# --- Kiểm tra Đá Cường Hóa ---
 	if {_stone} is not set:
 		send get_cuonghoa_msg("NO_STONE") to {_p}
 		stop
@@ -178,7 +170,6 @@ function process_cuong_hoa(p: player):
 		send get_cuonghoa_msg("INVALID_STONE") to {_p}
 		stop
 
-	# --- Xác định loại trang bị (Vũ Khí / Giáp / Trang Sức) ---
 	set {_is_weapon} to false
 	set {_is_armor} to false
 
@@ -192,7 +183,6 @@ function process_cuong_hoa(p: player):
 			send get_cuonghoa_msg("UNSUPPORTED_TYPE", {_item_type}) to {_p}
 			stop
 
-	# --- Gọi hàm từ config.sk để kiểm tra & lấy Tỷ Lệ Thành Công ---
 	set {_success_rate} to get_cuonghoa_success_rate({_stone_id}, {_is_weapon}, {_is_armor}, {_cur_lvl})
 
 	if {_success_rate} < 0:
@@ -200,17 +190,14 @@ function process_cuong_hoa(p: player):
 		send get_cuonghoa_msg("MISMATCH_STONE", {_lvl_str}) to {_p}
 		stop
 
-	# --- Trừ 1x Đá Cường Hóa ở slot 25 ---
 	set {_stone_amt} to amount of {_stone}
 	if {_stone_amt} > 1:
 		set amount of slot 25 of {_inv} to ({_stone_amt} - 1)
 	else:
 		set slot 25 of {_inv} to air
 
-	# --- Bắt đầu Roll Tỷ lệ Thành Công ---
 	set {_roll} to a random integer between 1 and 100
 	if {_roll} <= {_success_rate}:
-		# THÀNH CÔNG: Gọi MMOItems LiveMMOItem & UpgradeData Java API để tăng level +1 trực tiếp
 		set {_next_lvl} to {_cur_lvl} + 1
 		set {_live_item} to try new LiveMMOItem({_item})
 		if {_live_item} is set:
@@ -233,7 +220,6 @@ function process_cuong_hoa(p: player):
 		set {_next_str} to "%{_next_lvl}%"
 		send get_cuonghoa_msg("SUCCESS", {_next_str}) to {_p}
 	else:
-		# THẤT BẠI: Giữ nguyên trang bị, tiêu hao đá
 		play sound "entity.item.break" with volume 1 and pitch 0.8 to {_p}
 		set {_cur_str} to "%{_cur_lvl}%"
 		send get_cuonghoa_msg("FAIL", {_cur_str}) to {_p}

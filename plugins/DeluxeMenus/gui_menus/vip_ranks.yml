@@ -14,9 +14,7 @@
 #=========================================================
 menu_title: '&8> &6&l⭐ &eVIP DONOR RANKS &6&l⭐'
 open_command:
-  - viprank
-  - vipranks
-  - vip
+  - viprank_old
 open_commands:
   - '[sound] BLOCK_NOTE_BLOCK_CHIME'
 size: 27

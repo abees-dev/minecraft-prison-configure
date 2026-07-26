@@ -1,11 +1,8 @@
 # ============================================================================
-# FILE CẤU HÌNH HỆ THỐNG ĐỤC LỖ (MESSAGES & PUNCH RATES CONFIG)
-# Vị trí: plugins/Skript/scripts/duclo/config.sk
+# SOCKET PUNCH SYSTEM CONFIGURATION
+# File: plugins/Skript/scripts/sockets/config.sk
 # ============================================================================
 
-# ----------------------------------------------------------------------------
-# HÀM QUẢN LÝ THÔNG BÁO (MESSAGES CONSTANTS)
-# ----------------------------------------------------------------------------
 function get_duclo_msg(key: text, val1: text = "", val2: text = "") :: text:
 	if {_key} is "SUCCESS":
 		return "&a&l[✦] ĐỤC LỖ THÀNH CÔNG! &7Đã đục thành công ô khảm thứ &e%{_val1}%&7 cho trang bị!"
@@ -28,8 +25,6 @@ function get_duclo_msg(key: text, val1: text = "", val2: text = "") :: text:
 	if {_key} is "NOT_PUNCHABLE":
 		return "&c[!] Trang bị không được phép đục lỗ!"
 
-
-
 	if {_key} is "MAX_SOCKETS_REACHED":
 		return "&e[!] Trang bị này đã đạt giới hạn đục tối đa (%{_val1}%/%{_val2}% Ô) của trang bị đó!"
 
@@ -47,63 +42,46 @@ function get_duclo_msg(key: text, val1: text = "", val2: text = "") :: text:
 
 	return ""
 
-# ----------------------------------------------------------------------------
-# HÀM QUẢN LÝ TÊN GUI
-# ----------------------------------------------------------------------------
 function get_duclo_gui_title() :: text:
 	return "&8[&b✦&8] &b&lĐỤC LỖ TRANG BỊ"
 
-
-# ----------------------------------------------------------------------------
-# HÀM QUẢN LÝ TỶ LỆ ĐỤC LỖ THEO THỨ TỰ Ô & CẤP ĐÁ
-# ----------------------------------------------------------------------------
 function get_socket_punch_rate(stone_id: text, cur_sockets: number) :: number:
-
-	# Đá Thiên Mệnh (Đục bất kỳ ô tiếp theo, 100% thành công)
 	if {_stone_id} is "DA_DUC_LO_THIEN_MENH":
 		return 100
 
-	# Đá Sơ Cấp: Đục ô thứ 1 (100% thành công)
 	if {_stone_id} is "DA_DUC_LO_1":
 		if {_cur_sockets} is 0:
 			return 100
 		return -1
 
-	# Đá Trung Cấp: Đục ô thứ 2 (70% thành công)
 	if {_stone_id} is "DA_DUC_LO_2":
 		if {_cur_sockets} is 1:
 			return 70
 		return -1
 
-	# Đá Cao Cấp: Đục ô thứ 3 (40% thành công)
 	if {_stone_id} is "DA_DUC_LO_3":
 		if {_cur_sockets} is 2:
 			return 40
 		return -1
 
-	# Đá Siêu Cấp: Đục ô thứ 4 (25% thành công)
 	if {_stone_id} is "DA_DUC_LO_4":
 		if {_cur_sockets} is 3:
 			return 25
 		return -1
 
-	# Đá Huyền Thoại: Đục ô thứ 5 (10% thành công)
 	if {_stone_id} is "DA_DUC_LO_5":
 		if {_cur_sockets} is 4:
 			return 10
 		return -1
 
-	# Đá Thần Thoại: Đục ô thứ 6 (5% thành công - Đồ Trade/Donate)
 	if {_stone_id} is "DA_DUC_LO_6":
 		if {_cur_sockets} is 5:
 			return 5
 		return -1
 
-	# Đá Bá Chủ: Đục ô thứ 7 (2% thành công - Đồ Donate)
 	if {_stone_id} is "DA_DUC_LO_7":
 		if {_cur_sockets} is 6:
 			return 2
 		return -1
 
 	return -1
-

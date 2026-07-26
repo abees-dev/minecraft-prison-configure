@@ -1,0 +1,74 @@
+name: '&8[&a✦&8] &a&lBÀN THIÊN GIỚI HỘ LONG'
+max-queue-size: 10
+sound: BLOCK_ANVIL_USE
+layout: trade-tier
+
+items:
+    fill:
+        material: LIME_STAINED_GLASS_PANE
+        name: '&7'
+    no-recipe:
+        material: RED_STAINED_GLASS_PANE
+        name: '&cChưa Chọn Công Thức'
+    no-queue-item:
+        material: BLACK_STAINED_GLASS_PANE
+        name: '&7Ô Hàng Chờ Trống'
+
+recipes:
+    # ==========================================================
+    # HỘ LONG (Cấp 1 - RARE)
+    # ==========================================================
+    kiem-ho-long:
+        output:
+            type: SWORD
+            id: DONATE_SWORD_LONG_VE
+            amount: 1
+        name: "&a&l✦ Nâng Cấp Hộ Long Bảo Kiếm"
+        crafting-time: 0
+        ingredients:
+        - mmoitem{type=SWORD,id=SWORD_VUOT_NGUC_5,amount=1,display="Kiếm Vượt Ngục V"}
+        # TODO: Thêm nguyên liệu nâng cấp tại đây
+
+    non-ho-long:
+        output:
+            type: ARMOR
+            id: DONATE_HELMET_LONG_VE
+            amount: 1
+        name: "&a&l✦ Nâng Cấp Hộ Long Mũ"
+        crafting-time: 0
+        ingredients:
+        - mmoitem{type=ARMOR,id=HELMET_VUOT_NGUC_5,amount=1,display="Nón Vượt Ngục V"}
+        # TODO: Thêm nguyên liệu nâng cấp tại đây
+
+    ao-ho-long:
+        output:
+            type: ARMOR
+            id: DONATE_CHESTPLATE_LONG_VE
+            amount: 1
+        name: "&a&l✦ Nâng Cấp Hộ Long Chiến Giáp"
+        crafting-time: 0
+        ingredients:
+        - mmoitem{type=ARMOR,id=CHESTPLATE_VUOT_NGUC_5,amount=1,display="Áo Giáp Vượt Ngục V"}
+        # TODO: Thêm nguyên liệu nâng cấp tại đây
+
+    quan-ho-long:
+        output:
+            type: ARMOR
+            id: DONATE_LEGGINGS_LONG_VE
+            amount: 1
+        name: "&a&l✦ Nâng Cấp Hộ Long Hộ Tất"
+        crafting-time: 0
+        ingredients:
+        - mmoitem{type=ARMOR,id=LEGGINGS_VUOT_NGUC_5,amount=1,display="Quần Giáp Vượt Ngục V"}
+        # TODO: Thêm nguyên liệu nâng cấp tại đây
+
+    giay-ho-long:
+        output:
+            type: ARMOR
+            id: DONATE_BOOTS_LONG_VE
+            amount: 1
+        name: "&a&l✦ Nâng Cấp Hộ Long Hài"
+        crafting-time: 0
+        ingredients:
+        - mmoitem{type=ARMOR,id=BOOTS_VUOT_NGUC_5,amount=1,display="Giày Vượt Ngục V"}
+        # TODO: Thêm nguyên liệu nâng cấp tại đây

@@ -156,8 +156,7 @@ gui:
         - '<green>■ <gray>Xanh lá - Đã sở hữu   <yellow>■ <gray>Vàng - Hiện tại'
         - '<gold>■ <gray>Cam - Tiếp theo   <red>■ <gray>Đỏ - Chưa mở khóa'
         - ' '
-        - '<gray>Muốn nhiều quyền lợi hơn nữa?'
-        - '<gray>Xem thêm rank VIP với <yellow>/viprank'
+        - '<gray>Xem toàn bộ Rank Prison & VIP tại <yellow>/ranks'
     close:
       slot: 49
       material: BARRIER

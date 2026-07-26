@@ -1,22 +1,22 @@
 import:
 	io.lumine.mythic.lib.api.item.NBTItem
 
-# ==============================================================================
-# HỆ THỐNG BÀN THỜ TRIỆU HỒI MA VƯƠNG NGỤC TÙ (MAIN SYSTEM)
-# Vị trí: plugins/Skript/scripts/mavuong/main.sk
-# ==============================================================================
+# ============================================================================
+# DEMON KING ALTAR SUMMON SYSTEM (MAIN LOGIC)
+# File: plugins/Skript/scripts/demon_king/main.sk
+# ============================================================================
 
 on right click on armor stand:
 	if name of event-entity does not contain "Bàn Thờ Triệu Hồi Ma Vương":
 		stop trigger
 
-	# Chống spam click (giới hạn 5s mỗi player)
+	# Anti-spam click limit (5s per player)
 	if {mavuong_altar_last_click::%player's uuid%} is set:
 		if difference between {mavuong_altar_last_click::%player's uuid%} and now < 5 seconds:
 			stop trigger
 	set {mavuong_altar_last_click::%player's uuid%} to now
 
-	# Kiểm tra Cooldown triệu hồi
+	# Check Summon Cooldown
 	if {mavuong_altar_cooldown_left} is set:
 		if {mavuong_altar_cooldown_left} > 0:
 			set {_min} to floor({mavuong_altar_cooldown_left} / 60)
@@ -26,7 +26,7 @@ on right click on armor stand:
 			send {_msg} to player
 			stop trigger
 
-	# Kiểm tra vật phẩm Huy Hiệu trong túi đồ
+	# Check Summon Badge Item in inventory
 	set {_has_item} to false
 	loop all items in player's inventory:
 		if loop-value is not air:
@@ -43,7 +43,7 @@ on right click on armor stand:
 		send {_msg} to player
 		stop trigger
 
-	# Trừ vật phẩm Huy Hiệu & Thiết lập cooldown
+	# Deduct Item & Set Cooldown
 	execute console command "mmoitems take MATERIAL HUY_HIEU_TRIEU_HOI %player's name% 1"
 	set {mavuong_altar_cooldown_left} to get_mavuong_cooldown()
 	
@@ -53,7 +53,7 @@ on right click on armor stand:
 	set {_summonplayer} to player
 	wait 3 seconds
 	
-	# Triệu hồi Boss qua MythicMobs
+	# Spawn Boss via MythicMobs
 	set {_spawn_cmd} to get_mavuong_boss_spawn_cmd()
 	execute console command {_spawn_cmd}
 	
@@ -61,7 +61,7 @@ on right click on armor stand:
 		set {_msg_boss} to get_mavuong_msg("BOSS_SPAWNED")
 		send {_msg_boss} to {_summonplayer}
 
-# Tự động cập nhật Hologram đếm ngược mỗi 5 giây
+# Update Hologram Timer every 5s
 every 5 seconds:
 	set {_holo_name} to get_mavuong_holo_name()
 	if {mavuong_altar_cooldown_left} is set:

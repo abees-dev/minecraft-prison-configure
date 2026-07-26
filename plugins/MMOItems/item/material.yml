@@ -650,5 +650,19 @@ DA_DUC_LO_THIEN_MENH:
       - "&7 &d●&7 Dùng tại &e/duclo &7cho bất kỳ ô khảm nào"
       - "&7 &d●&7 Tỷ lệ thành công: &a&l100% (Hoàn Hảo)"
 
+DA_CHUYEN_SINH:
+  base:
+    revision-id: 1
+    material: NETHER_STAR
+    name: "&d&l✦ ĐÁ CHUYỂN SINH ✦"
+    tier: MYTHICAL
+    hide-enchants: true
+    enchants:
+      unbreaking: 1
+    lore:
+      - "&7Vật phẩm chứa đựng linh khí ngàn năm."
+      - "&7Dùng để Chuyển Sinh tại Menu &e/chuyensinh&7."
+
+
 
 

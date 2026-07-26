@@ -1,0 +1,28 @@
+name: '&8[&6✪&8] &6&lBÀN CHẾ HUY HIỆU TRIỆU HỒI'
+max-queue-size: 10
+sound: BLOCK_ANVIL_USE
+layout: default
+
+items:
+    fill:
+        material: GRAY_STAINED_GLASS_PANE
+        name: '&7'
+    no-recipe:
+        material: RED_STAINED_GLASS_PANE
+        name: '&cChưa Chọn Công Thức'
+    no-queue-item:
+        material: BLACK_STAINED_GLASS_PANE
+        name: '&7Ô Hàng Chờ Trống'
+
+recipes:
+    che-huy-hieu-trieu-hoi:
+        output:
+            type: MATERIAL
+            id: HUY_HIEU_TRIEU_HOI
+            amount: 1
+        name: "&6✪ Chế Huy Hiệu Triệu Hồi &f&lMa Vương Ngục Tù"
+        crafting-time: 0
+        ingredients:
+        - mmoitem{type=MATERIAL,id=MANH_HUY_HIEU_TRIEU_HOI,amount=25,display="Huy Hiệu Vỡ [Mảnh]"}
+        conditions:
+        - 'money{amount=2500000}'

@@ -1,0 +1,65 @@
+import:
+	net.Indyuce.mmocore.api.player.PlayerData
+
+# ============================================================================
+# HỆ THỐNG GIỚI HẠN LEVEL MMOCORE KHI RANKUP PRISON
+# File: plugins/Skript/scripts/prison/level_gate.sk
+# ============================================================================
+
+function get_player_mmocore_level(p: player) :: number:
+	set {_pd} to try PlayerData.get({_p})
+	if {_pd} is set:
+		return {_pd}.getLevel()
+	return 1
+
+function get_player_prison_rank(p: player) :: number:
+	loop 9 times:
+		set {_r} to 10 - loop-number
+		if {_p} has permission "group.xprison_rank_%{_r}%":
+			return {_r}
+	return 1
+
+function get_required_level_for_next_rank(current_rank: number) :: number:
+	if {_current_rank} is 1:
+		return 10
+	if {_current_rank} is 2:
+		return 20
+	if {_current_rank} is 3:
+		return 30
+	if {_current_rank} is 4:
+		return 45
+	if {_current_rank} is 5:
+		return 60
+	if {_current_rank} is 6:
+		return 75
+	if {_current_rank} is 7:
+		return 90
+	return 100
+
+on command "rankup" or "rankupmax" or "autorankup":
+	set {_p} to player
+	if {_p} is not set:
+		stop
+
+	set {_current_rank} to get_player_prison_rank({_p})
+	if {_current_rank} >= 9:
+		stop
+
+	set {_req_level} to get_required_level_for_next_rank({_current_rank})
+	set {_current_level} to get_player_mmocore_level({_p})
+
+	if {_current_level} < {_req_level}:
+		cancel event
+		play sound "block.note_block.bass" with volume 1 and pitch 1 to {_p}
+		send title "&c&lCHƯA ĐỦ CẤP ĐỘ!" with subtitle "&fCần MMOCore &eLevel %{_req_level}% &fđể lên Rank tiếp theo" to {_p} for 3 seconds
+		send "&c&l[!] &fBạn chưa đủ điều kiện Cấp độ để thăng Rank Nhà Tù!" to {_p}
+		send "&7• Rank hiện tại: &eRank %{_current_rank}% &7➔ Rank tiếp theo: &aRank %{_current_rank} + 1%" to {_p}
+		send "&7• Yêu cầu Level MMOCore: &c%{_req_level}% &7(Cấp của bạn: &e%{_current_level}%&7)" to {_p}
+		send "&7Hãy tiếp tục cày quái tại Nhà Tù để tăng cấp MMOCore trước khi Rankup!" to {_p}
+
+on command "ranks" or "rank":
+	set {_p} to player
+	if {_p} is set:
+		cancel event
+		execute {_p} command "dm open ranks_master"
+

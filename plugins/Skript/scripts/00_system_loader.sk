@@ -1,10 +1,12 @@
 # ============================================================================
-# LOADER TỰ ĐỘNG NẠP SCRIPT TRONG THƯ MỤC CON KHI SERVER START
-# Vị trí: plugins/Skript/scripts/00_system_loader.sk
+# AUTOMATIC SCRIPT MODULE LOADER ON SERVER START
+# File: plugins/Skript/scripts/00_system_loader.sk
 # ============================================================================
 
 on load:
-	execute console command "sk reload cuonghoa/"
-	execute console command "sk reload duclo/"
-	execute console command "sk reload mavuong/"
-
+	execute console command "sk reload rebirth/"
+	execute console command "sk reload prison/"
+	execute console command "sk reload upgrade/"
+	execute console command "sk reload sockets/"
+	execute console command "sk reload demon_king/"
+	execute console command "sk reload admin/"

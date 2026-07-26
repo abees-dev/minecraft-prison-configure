@@ -1,0 +1,74 @@
+name: '&8[&6✦&8] &6&lBÀN TIẾN HÓA HỎA LONG'
+max-queue-size: 10
+sound: BLOCK_ANVIL_USE
+layout: trade-tier
+
+items:
+    fill:
+        material: ORANGE_STAINED_GLASS_PANE
+        name: '&7'
+    no-recipe:
+        material: RED_STAINED_GLASS_PANE
+        name: '&cChưa Chọn Công Thức'
+    no-queue-item:
+        material: BLACK_STAINED_GLASS_PANE
+        name: '&7Ô Hàng Chờ Trống'
+
+recipes:
+    # ==========================================================
+    # HỎA LONG (Cấp 1 - RARE) [VN5 → Hỏa Long]
+    # ==========================================================
+    kiem-hoa-long:
+        output:
+            type: SWORD
+            id: TRADE_SWORD_HOA_LONG
+            amount: 1
+        name: "&6✦ Tiến Hóa Hỏa Long Kiếm"
+        crafting-time: 0
+        ingredients:
+        - mmoitem{type=SWORD,id=SWORD_VUOT_NGUC_5,amount=1,display="Kiếm Vượt Ngục V"}
+        # TODO: Thêm nguyên liệu nâng cấp tại đây
+
+    non-hoa-long:
+        output:
+            type: ARMOR
+            id: TRADE_HELMET_HOA_LONG
+            amount: 1
+        name: "&6✦ Tiến Hóa Hỏa Long Giáp Miện"
+        crafting-time: 0
+        ingredients:
+        - mmoitem{type=ARMOR,id=HELMET_VUOT_NGUC_5,amount=1,display="Nón Vượt Ngục V"}
+        # TODO: Thêm nguyên liệu nâng cấp tại đây
+
+    ao-hoa-long:
+        output:
+            type: ARMOR
+            id: TRADE_CHESTPLATE_HOA_LONG
+            amount: 1
+        name: "&6✦ Tiến Hóa Hỏa Long Chiến Giáp"
+        crafting-time: 0
+        ingredients:
+        - mmoitem{type=ARMOR,id=CHESTPLATE_VUOT_NGUC_5,amount=1,display="Áo Giáp Vượt Ngục V"}
+        # TODO: Thêm nguyên liệu nâng cấp tại đây
+
+    quan-hoa-long:
+        output:
+            type: ARMOR
+            id: TRADE_LEGGINGS_HOA_LONG
+            amount: 1
+        name: "&6✦ Tiến Hóa Hỏa Long Hộ Tất"
+        crafting-time: 0
+        ingredients:
+        - mmoitem{type=ARMOR,id=LEGGINGS_VUOT_NGUC_5,amount=1,display="Quần Giáp Vượt Ngục V"}
+        # TODO: Thêm nguyên liệu nâng cấp tại đây
+
+    giay-hoa-long:
+        output:
+            type: ARMOR
+            id: TRADE_BOOTS_HOA_LONG
+            amount: 1
+        name: "&6✦ Tiến Hóa Hỏa Long Hỏa Hài"
+        crafting-time: 0
+        ingredients:
+        - mmoitem{type=ARMOR,id=BOOTS_VUOT_NGUC_5,amount=1,display="Giày Vượt Ngục V"}
+        # TODO: Thêm nguyên liệu nâng cấp tại đây

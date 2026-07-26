@@ -1,5 +1,6 @@
 # =======================================================
 # Skript: Give Tất Cả Hòm Đá Quý (ExcellentCrates)
+# File: plugins/Skript/scripts/admin/give_all_hom.sk
 # Command: /giveallhom [<player>] [<number>]
 # Aliases: /giveallcrate, /givehom
 # =======================================================

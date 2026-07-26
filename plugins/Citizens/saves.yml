@@ -1,6 +1,6 @@
 # Citizens NPC Storage
 
-last-created-npc-id: 35
+last-created-npc-id: 48
 npc:
   '2':
     name: '&f&lTINH LUYỆN &8• &f&lTÂN BINH'
@@ -11,13 +11,13 @@ npc:
         uuid: 57481db9-38f7-3a96-b52d-ff0f7993c232
       spawned: true
       location:
-        bodyYaw: 123.68613
+        bodyYaw: 158.45102
         world: world_prison
         x: -29.3934
         y: -56.0
         z: 127.427
-        yaw: 103.6861
-        pitch: 0.0
+        yaw: 178.451
+        pitch: 7.3398
       commandtrait:
         commands:
           '0':
@@ -62,13 +62,13 @@ npc:
         uuid: 57481db9-38f7-3a96-b52d-ff0f7993c232
       spawned: true
       location:
-        bodyYaw: 66.31076
+        bodyYaw: 1.2818832
         world: world_prison
         x: -29.5565
         y: -56.0
         z: 117.5767
-        yaw: 66.3108
-        pitch: 0.0
+        yaw: 1.2819
+        pitch: 25.5677
       commandtrait:
         commands:
           '0':
@@ -113,13 +113,13 @@ npc:
         uuid: 57481db9-38f7-3a96-b52d-ff0f7993c232
       spawned: true
       location:
-        bodyYaw: 51.90518
+        bodyYaw: 0.7679901
         world: world_prison
         x: -29.5281
         y: -56.0
         z: 114.0594
-        yaw: 51.9052
-        pitch: -3.7886
+        yaw: 0.768
+        pitch: 10.1115
       commandtrait:
         commands:
           '0':
@@ -1335,13 +1335,13 @@ npc:
     uuid: f2432d9d-783d-4c16-83ef-a352855d7c31
     traits:
       location:
-        bodyYaw: -118.10603
+        bodyYaw: 158.96268
         world: world
         x: 2.6785
         y: 80.0
         z: 5.5935
-        yaw: -118.106
-        pitch: -2.294
+        yaw: 178.9627
+        pitch: -0.1151
       owner:
         uuid: 57481db9-38f7-3a96-b52d-ff0f7993c232
       lookclose:
@@ -1388,13 +1388,13 @@ npc:
     uuid: bb397f5b-20b3-4a2e-b9bb-8f1edcdafe2a
     traits:
       location:
-        bodyYaw: -60.662315
+        bodyYaw: -75.012215
         world: world
         x: 2.7003
         y: 80.0
         z: -6.4621
-        yaw: -60.6623
-        pitch: -2.2717
+        yaw: -75.0122
+        pitch: -2.7017
       owner:
         uuid: 57481db9-38f7-3a96-b52d-ff0f7993c232
       lookclose:
@@ -1430,6 +1430,654 @@ npc:
       type: PLAYER
       spawned: true
     traitnames: location,owner,skintrait,lookclose,inventory,hologramtrait,commandtrait,type,spawned,rotationtrait,scoreboardtrait
+    navigator:
+      speedmodifier: 1.0
+      avoidwater: false
+      usedefaultstuckaction: false
+  '37':
+    metadata:
+      nameplate-visible: 'false'
+    name: '&3&lTIẾN HÓA &8• &3&lBĂNG LONG'
+    uuid: 10e8fce6-debd-4a32-8d59-c05fd319406b
+    traits:
+      location:
+        bodyYaw: -85.08366
+        world: world
+        x: 4.228
+        y: 84.0
+        z: 94.5364
+        yaw: -85.0837
+        pitch: 0.0
+      owner:
+        uuid: 57481db9-38f7-3a96-b52d-ff0f7993c232
+      lookclose:
+        range: 10.0
+        enabled: true
+        randomPitchRange:
+          '0': 0.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+      hologramtrait:
+        lines:
+          '0':
+            text: '&3&lTIẾN HÓA &8• &3&lBĂNG LONG'
+            margin:
+              top: 0.0
+              bottom: 0.0
+      commandtrait:
+        commands:
+          '0':
+            command: mi stations open trade-bang-long <p>
+            hand: RIGHT
+            player: false
+            npc: false
+            op: false
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+            cost: -1.0
+            experienceCost: -1
+      type: PLAYER
+      spawned: true
+    traitnames: location,owner,skintrait,inventory,lookclose,hologramtrait,commandtrait,type,spawned,rotationtrait,scoreboardtrait
+    navigator:
+      speedmodifier: 1.0
+      avoidwater: false
+      usedefaultstuckaction: false
+  '39':
+    metadata:
+      nameplate-visible: 'false'
+    name: '&2&lTIẾN HÓA &8• &2&lPHONG LONG'
+    uuid: 1f9a65b8-236e-44e8-ace6-cca9a8355d3c
+    traits:
+      location:
+        bodyYaw: -110.70274
+        world: world
+        x: 4.2401
+        y: 84.0
+        z: 98.4694
+        yaw: -110.7027
+        pitch: 0.0
+      owner:
+        uuid: 57481db9-38f7-3a96-b52d-ff0f7993c232
+      lookclose:
+        range: 10.0
+        enabled: true
+        randomPitchRange:
+          '0': 0.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+      hologramtrait:
+        lines:
+          '0':
+            text: '&2&lTIẾN HÓA &8• &2&lPHONG LONG'
+            margin:
+              top: 0.0
+              bottom: 0.0
+      commandtrait:
+        commands:
+          '0':
+            command: mi stations open trade-loi-long <p>
+            hand: RIGHT
+            player: false
+            npc: false
+            op: false
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+            cost: -1.0
+            experienceCost: -1
+          '1':
+            command: mi stations open trade-phong-long <p>
+            hand: RIGHT
+            player: false
+            npc: false
+            op: false
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+            cost: -1.0
+            experienceCost: -1
+      type: PLAYER
+      spawned: true
+    traitnames: location,owner,skintrait,inventory,lookclose,hologramtrait,commandtrait,type,spawned,rotationtrait,scoreboardtrait
+    navigator:
+      speedmodifier: 1.0
+      avoidwater: false
+      usedefaultstuckaction: false
+  '47':
+    metadata:
+      nameplate-visible: 'false'
+    name: '&c&lBÀN GHÉP ĐÁ CƯỜNG HÓA'
+    uuid: 2e66124f-6c87-42f6-8cb0-b7e0b5a72463
+    traits:
+      location:
+        bodyYaw: 9.080811
+        world: world
+        x: 13.6568
+        y: 84.0
+        z: 89.3756
+        yaw: 9.0808
+        pitch: 0.0
+      owner:
+        uuid: 57481db9-38f7-3a96-b52d-ff0f7993c232
+      lookclose:
+        range: 10.0
+        enabled: true
+        randomPitchRange:
+          '0': 0.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+      hologramtrait:
+        lines:
+          '0':
+            text: '&c&lBÀN GHÉP ĐÁ CƯỜNG HÓA'
+            margin:
+              top: 0.0
+              bottom: 0.0
+      commandtrait:
+        commands:
+          '0':
+            command: mi stations open equipment-upgrade-station <p>
+            hand: RIGHT
+            player: false
+            npc: false
+            op: false
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+            cost: -1.0
+            experienceCost: -1
+      type: PLAYER
+      spawned: true
+    traitnames: location,owner,skintrait,inventory,lookclose,hologramtrait,commandtrait,type,spawned,rotationtrait,scoreboardtrait
+    navigator:
+      speedmodifier: 1.0
+      avoidwater: false
+      usedefaultstuckaction: false
+  '38':
+    metadata:
+      nameplate-visible: 'false'
+    name: '&5&lTIẾN HÓA &8• &5&lHẮC LONG'
+    uuid: 3392babb-dbd0-4a83-ba32-4ba7b14ede2d
+    traits:
+      location:
+        bodyYaw: -98.648865
+        world: world
+        x: 4.3707
+        y: 84.0
+        z: 96.5357
+        yaw: -98.6489
+        pitch: 0.0
+      owner:
+        uuid: 57481db9-38f7-3a96-b52d-ff0f7993c232
+      lookclose:
+        range: 10.0
+        enabled: true
+        randomPitchRange:
+          '0': 0.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+      hologramtrait:
+        lines:
+          '0':
+            text: '&5&lTIẾN HÓA &8• &5&lHẮC LONG'
+            margin:
+              top: 0.0
+              bottom: 0.0
+      commandtrait:
+        commands:
+          '0':
+            command: mi stations open trade-hac-long <p>
+            hand: RIGHT
+            player: false
+            npc: false
+            op: false
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+            cost: -1.0
+            experienceCost: -1
+      type: PLAYER
+      spawned: true
+    traitnames: location,owner,skintrait,inventory,lookclose,hologramtrait,commandtrait,type,spawned,rotationtrait,scoreboardtrait
+    navigator:
+      speedmodifier: 1.0
+      avoidwater: false
+      usedefaultstuckaction: false
+  '36':
+    metadata:
+      nameplate-visible: 'false'
+    name: '&6&lTIẾN HÓA &8• &6&lHỎA LONG'
+    uuid: ae58d500-6965-458f-ad60-1c1684459654
+    traits:
+      location:
+        bodyYaw: -70.96901
+        world: world
+        x: 4.2362
+        y: 84.0
+        z: 92.3417
+        yaw: -70.969
+        pitch: 0.0
+      owner:
+        uuid: 57481db9-38f7-3a96-b52d-ff0f7993c232
+      lookclose:
+        range: 10.0
+        enabled: true
+        randomPitchRange:
+          '0': 0.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+      hologramtrait:
+        lines:
+          '0':
+            text: '&6&lTIẾN HÓA &8• &6&lHỎA LONG'
+            margin:
+              top: 0.0
+              bottom: 0.0
+      commandtrait:
+        commands:
+          '0':
+            command: mi stations open trade-hoa-long <p>
+            hand: RIGHT
+            player: false
+            npc: false
+            op: false
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+            cost: -1.0
+            experienceCost: -1
+      type: PLAYER
+      spawned: true
+    traitnames: location,owner,skintrait,inventory,lookclose,hologramtrait,commandtrait,type,spawned,rotationtrait,scoreboardtrait
+    navigator:
+      speedmodifier: 1.0
+      avoidwater: false
+      usedefaultstuckaction: false
+  '45':
+    metadata:
+      nameplate-visible: 'false'
+    name: '&c&lTHIÊN GIỚI &8• &c&lHOÀNG LONG'
+    uuid: 62a54352-70a9-4bcd-b14f-c33c5c6bd432
+    traits:
+      location:
+        bodyYaw: -177.31589
+        world: world
+        x: 173.5834
+        y: 83.5
+        z: 32.5585
+        yaw: -177.3159
+        pitch: 2.0331
+      owner:
+        uuid: 57481db9-38f7-3a96-b52d-ff0f7993c232
+      lookclose:
+        range: 10.0
+        enabled: true
+        randomPitchRange:
+          '0': 0.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+      hologramtrait:
+        lines:
+          '0':
+            text: '&c&lTHIÊN GIỚI &8• &c&lHOÀNG LONG'
+            margin:
+              top: 0.0
+              bottom: 0.0
+      commandtrait:
+        commands:
+          '0':
+            command: mi stations open donate-hoang-long <p>
+            hand: RIGHT
+            player: false
+            npc: false
+            op: false
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+            cost: -1.0
+            experienceCost: -1
+      type: PLAYER
+      spawned: true
+    traitnames: location,owner,skintrait,inventory,lookclose,hologramtrait,commandtrait,type,spawned,rotationtrait,scoreboardtrait
+    navigator:
+      speedmodifier: 1.0
+      avoidwater: false
+      usedefaultstuckaction: false
+  '44':
+    metadata:
+      nameplate-visible: 'false'
+    name: '&4&lTHIÊN GIỚI &8• &4&lĐẾ LONG'
+    uuid: 5257ef8c-2cfb-4f77-99d4-e4e222e2d88c
+    traits:
+      location:
+        bodyYaw: 125.24954
+        world: world
+        x: 180.845
+        y: 82.0
+        z: 23.7798
+        yaw: 145.2495
+        pitch: -1.9265
+      owner:
+        uuid: 57481db9-38f7-3a96-b52d-ff0f7993c232
+      lookclose:
+        range: 10.0
+        enabled: true
+        randomPitchRange:
+          '0': 0.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+      hologramtrait:
+        lines:
+          '0':
+            text: '&4&lTHIÊN GIỚI &8• &4&lĐẾ LONG'
+            margin:
+              top: 0.0
+              bottom: 0.0
+      commandtrait:
+        commands:
+          '0':
+            command: mi stations open donate-de-long <p>
+            hand: RIGHT
+            player: false
+            npc: false
+            op: false
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+            cost: -1.0
+            experienceCost: -1
+      type: PLAYER
+      spawned: true
+    traitnames: location,owner,skintrait,inventory,lookclose,hologramtrait,commandtrait,type,spawned,rotationtrait,scoreboardtrait
+    navigator:
+      speedmodifier: 1.0
+      avoidwater: false
+      usedefaultstuckaction: false
+  '42':
+    metadata:
+      nameplate-visible: 'false'
+    name: '&e&lTHIÊN GIỚI &8• &e&lCHIẾN LONG'
+    uuid: 1da74271-7b21-4aa9-8e1a-777f9fa454c5
+    traits:
+      location:
+        bodyYaw: -143.48088
+        world: world
+        x: 166.358
+        y: 82.0
+        z: 23.4733
+        yaw: -143.4809
+        pitch: -1.9424
+      owner:
+        uuid: 57481db9-38f7-3a96-b52d-ff0f7993c232
+      lookclose:
+        range: 10.0
+        enabled: true
+        randomPitchRange:
+          '0': 0.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+      hologramtrait:
+        lines:
+          '0':
+            text: '&e&lTHIÊN GIỚI &8• &e&lCHIẾN LONG'
+            margin:
+              top: 0.0
+              bottom: 0.0
+      commandtrait:
+        commands:
+          '0':
+            command: mi stations open donate-chien-long <p>
+            hand: RIGHT
+            player: false
+            npc: false
+            op: false
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+            cost: -1.0
+            experienceCost: -1
+      type: PLAYER
+      spawned: true
+    traitnames: location,owner,skintrait,inventory,lookclose,hologramtrait,commandtrait,type,spawned,rotationtrait,scoreboardtrait
+    navigator:
+      speedmodifier: 1.0
+      avoidwater: false
+      usedefaultstuckaction: false
+  '41':
+    metadata:
+      nameplate-visible: 'false'
+    name: '&a&lTHIÊN GIỚI &8• &a&lHỘ LONG'
+    uuid: 417248af-6b2f-47f2-b59c-8ff088106c69
+    traits:
+      location:
+        bodyYaw: -141.67639
+        world: world
+        x: 166.4072
+        y: 82.0
+        z: 18.5604
+        yaw: -141.6764
+        pitch: -0.6156
+      owner:
+        uuid: 57481db9-38f7-3a96-b52d-ff0f7993c232
+      lookclose:
+        range: 10.0
+        enabled: true
+        randomPitchRange:
+          '0': 0.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+      hologramtrait:
+        lines:
+          '0':
+            text: '&a&lTHIÊN GIỚI &8• &a&lHỘ LONG'
+            margin:
+              top: 0.0
+              bottom: 0.0
+      commandtrait:
+        commands:
+          '0':
+            command: mi stations open donate-ho-long <p>
+            hand: RIGHT
+            player: false
+            npc: false
+            op: false
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+            cost: -1.0
+            experienceCost: -1
+      type: PLAYER
+      spawned: true
+    traitnames: location,owner,skintrait,inventory,lookclose,hologramtrait,commandtrait,type,spawned,rotationtrait,scoreboardtrait
+    navigator:
+      speedmodifier: 1.0
+      avoidwater: false
+      usedefaultstuckaction: false
+  '40':
+    metadata:
+      nameplate-visible: 'false'
+    name: '&e&lTIẾN HÓA &8• &e&lLÔI LONG'
+    uuid: 2e1fc135-fd71-4176-9a2d-aebf3d3e1a37
+    traits:
+      location:
+        bodyYaw: -140.67061
+        world: world
+        x: 4.2208
+        y: 84.0
+        z: 100.6226
+        yaw: -140.6706
+        pitch: 0.0
+      owner:
+        uuid: 57481db9-38f7-3a96-b52d-ff0f7993c232
+      lookclose:
+        range: 10.0
+        enabled: true
+        randomPitchRange:
+          '0': 0.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+      hologramtrait:
+        lines:
+          '0':
+            text: '&e&lTIẾN HÓA &8• &e&lLÔI LONG'
+            margin:
+              top: 0.0
+              bottom: 0.0
+      commandtrait:
+        commands:
+          '0':
+            command: mi stations open trade-loi-long <p>
+            hand: RIGHT
+            player: false
+            npc: false
+            op: false
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+            cost: -1.0
+            experienceCost: -1
+      type: PLAYER
+      spawned: true
+    traitnames: location,owner,skintrait,inventory,lookclose,hologramtrait,commandtrait,type,spawned,rotationtrait,scoreboardtrait
+    navigator:
+      speedmodifier: 1.0
+      avoidwater: false
+      usedefaultstuckaction: false
+  '43':
+    metadata:
+      nameplate-visible: 'false'
+    name: '&b&lTHIÊN GIỚI &8• &b&lTHẦN LONG'
+    uuid: 7db5a792-d7a7-4424-b64c-8fa1befe86e7
+    traits:
+      location:
+        bodyYaw: 120.93202
+        world: world
+        x: 180.6025
+        y: 82.0
+        z: 18.5669
+        yaw: 140.932
+        pitch: -0.6088
+      owner:
+        uuid: 57481db9-38f7-3a96-b52d-ff0f7993c232
+      lookclose:
+        range: 10.0
+        enabled: true
+        randomPitchRange:
+          '0': 0.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+      hologramtrait:
+        lines:
+          '0':
+            text: '&b&lTHIÊN GIỚI &8• &b&lTHẦN LONG'
+            margin:
+              top: 0.0
+              bottom: 0.0
+      commandtrait:
+        commands:
+          '0':
+            command: mi stations open donate-than-long <p>
+            hand: RIGHT
+            player: false
+            npc: false
+            op: false
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+            cost: -1.0
+            experienceCost: -1
+      type: PLAYER
+      spawned: true
+    traitnames: location,owner,skintrait,inventory,lookclose,hologramtrait,commandtrait,type,spawned,rotationtrait,scoreboardtrait
+    navigator:
+      speedmodifier: 1.0
+      avoidwater: false
+      usedefaultstuckaction: false
+  '48':
+    metadata:
+      nameplate-visible: 'false'
+    name: '&6&lBÀN CHẾ &8• &6&lHUY HIỆU TRIỆU HỒI'
+    uuid: a2a1fa2c-8fcb-49f9-85cd-0d5402de6193
+    traits:
+      location:
+        bodyYaw: 154.76526
+        world: world
+        x: 13.4959
+        y: 84.0
+        z: 103.6263
+        yaw: 174.6647
+        pitch: 0.0
+      owner:
+        uuid: 57481db9-38f7-3a96-b52d-ff0f7993c232
+      lookclose:
+        range: 10.0
+        enabled: true
+        randomPitchRange:
+          '0': 0.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+      hologramtrait:
+        lines:
+          '0':
+            text: '&6&lBÀN CHẾ &8• &6&lHUY HIỆU TRIỆU HỒI'
+            margin:
+              top: 0.0
+              bottom: 0.0
+      commandtrait:
+        commands:
+          '0':
+            command: mi stations open huy-hieu-trieu-hoi <p>
+            hand: RIGHT
+            player: false
+            npc: false
+            op: false
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+            cost: -1.0
+            experienceCost: -1
+      type: PLAYER
+      spawned: true
+    traitnames: location,owner,skintrait,inventory,lookclose,hologramtrait,commandtrait,type,spawned,rotationtrait,scoreboardtrait
     navigator:
       speedmodifier: 1.0
       avoidwater: false
