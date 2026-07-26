@@ -1,0 +1,14 @@
+Name: '&a&l❖ Chìa Khóa Trang Sức Miễn Phí'
+Virtual: true
+Item:
+  Material: TRIPWIRE_HOOK
+  Name: '&a&l❖ Chìa Khóa Trang Sức Miễn Phí'
+  Lore:
+  - '&7Dùng để mở &a&lHòm Trang Sức Miễn Phí&7.'
+  - '&7Nhận được khi đánh tiêu diệt &cBoss &7(Tỷ lệ 10%).'
+  - ''
+  - '&a▸ Nhấp vào Hòm Trang Sức Miễn Phí để mở!'
+  Enchantments:
+    DURABILITY: 1
+  Item_Flags:
+  - HIDE_ENCHANTS
