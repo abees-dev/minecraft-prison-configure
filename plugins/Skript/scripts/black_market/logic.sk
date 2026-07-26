@@ -1,0 +1,341 @@
+import:
+	org.black_ixx.playerpoints.PlayerPoints
+
+# ============================================================================
+# HỆ THỐNG CHỢ ĐEN — LOGIC GIAO DỊCH
+# File: plugins/Skript/scripts/black_market/logic.sk
+# Functions: create/buy/cancel/expire/cleanup/claim
+# ============================================================================
+
+# --- Helper: Lấy PlayerPoints balance ---
+function bm_get_points(p: player) :: number:
+	set {_pp} to try PlayerPoints.getInstance()
+	if {_pp} is set:
+		set {_ppapi} to try {_pp}.getAPI()
+		if {_ppapi} is set:
+			set {_uuid} to try {_p}.getUniqueId()
+			if {_uuid} is set:
+				set {_bal} to try {_ppapi}.look({_uuid})
+				if {_bal} is set:
+					return {_bal}
+	return 0
+
+# --- Helper: Check cooldown (true = OK, false = đang cooldown) ---
+function bm_check_cooldown(p: player) :: boolean:
+	set {_uuid} to uuid of {_p}
+	set {_now} to now
+	if {bm_lock::%{_uuid}%} is set:
+		set {_diff} to difference between {_now} and {bm_lock::%{_uuid}%}
+		set {_cd} to get_bm_cooldown_seconds()
+		if {_diff} < {_cd} seconds:
+			send "&c&l[CHỢ ĐEN] &fVui lòng chờ vài giây trước khi thao tác tiếp!" to {_p}
+			return false
+	set {bm_lock::%{_uuid}%} to {_now}
+	return true
+
+# --- Helper: Đếm listings của player ---
+function bm_count_player_listings(uuid: text) :: number:
+	set {_count} to 0
+	loop {bm_ids::*}:
+		set {_id} to loop-value
+		if {bm_listing::%{_id}%::seller} is {_uuid}:
+			add 1 to {_count}
+	return {_count}
+
+# --- Helper: Xóa tất cả biến của 1 listing ---
+function bm_delete_listing(id: number):
+	remove {_id} from {bm_ids::*}
+	delete {bm_listing::%{_id}%::item}
+	delete {bm_listing::%{_id}%::seller}
+	delete {bm_listing::%{_id}%::seller_name}
+	delete {bm_listing::%{_id}%::price_type}
+	delete {bm_listing::%{_id}%::price}
+	delete {bm_listing::%{_id}%::timestamp}
+
+# ============================================================================
+# TẠO LISTING MỚI
+# ============================================================================
+function bm_create_listing(p: player, item: item, price_type: text, price: number):
+	set {_uuid} to uuid of {_p}
+
+	# Auto-increment ID
+	if {bm_next_id} is not set:
+		set {bm_next_id} to 0
+	add 1 to {bm_next_id}
+	set {_id} to {bm_next_id}
+
+	# Lưu listing
+	set {bm_listing::%{_id}%::item} to {_item}
+	set {bm_listing::%{_id}%::seller} to {_uuid}
+	set {bm_listing::%{_id}%::seller_name} to {_p}'s name
+	set {bm_listing::%{_id}%::price_type} to {_price_type}
+	set {bm_listing::%{_id}%::price} to {_price}
+	set {bm_listing::%{_id}%::timestamp} to now
+	add {_id} to {bm_ids::*}
+
+	# Thông báo
+	if {_price_type} is "money":
+		send "&a&l[CHỢ ĐEN] &fĐã đăng bán thành công! Giá: &e$%{_price}% Money &7(ID: #%{_id}%)" to {_p}
+	else:
+		send "&a&l[CHỢ ĐEN] &fĐã đăng bán thành công! Giá: &b%{_price}% Points &7(ID: #%{_id}%)" to {_p}
+	play sound "block.note_block.pling" with volume 1 and pitch 2 to {_p}
+
+# ============================================================================
+# MUA LISTING
+# ============================================================================
+function bm_buy_listing(buyer: player, id: number):
+	set {_buyer_uuid} to uuid of {_buyer}
+
+	# Check listing còn tồn tại
+	if {bm_listing::%{_id}%::seller} is not set:
+		send "&c&l[CHỢ ĐEN] &fListing này không còn tồn tại!" to {_buyer}
+		return
+
+	# Check không mua hàng của chính mình
+	if {bm_listing::%{_id}%::seller} is {_buyer_uuid}:
+		send "&c&l[CHỢ ĐEN] &fBạn không thể mua hàng của chính mình!" to {_buyer}
+		return
+
+	# Check inventory có chỗ
+	if (number of empty slots in {_buyer}'s inventory) < 1:
+		send "&c&l[CHỢ ĐEN] &fTúi đồ đầy! Hãy dọn chỗ trống rồi mua lại." to {_buyer}
+		return
+
+	set {_price_type} to {bm_listing::%{_id}%::price_type}
+	set {_price} to {bm_listing::%{_id}%::price}
+	set {_seller_uuid} to {bm_listing::%{_id}%::seller}
+	set {_seller_name} to {bm_listing::%{_id}%::seller_name}
+	set {_tax} to get_bm_tax_rate()
+	set {_seller_receive} to {_price} * (1 - {_tax})
+
+	# Check balance người mua
+	if {_price_type} is "money":
+		if {_buyer}'s balance < {_price}:
+			send "&c&l[CHỢ ĐEN] &fBạn không đủ Money! Cần &e$%{_price}% &f(hiện có &e$%round({_buyer}'s balance)%&f)" to {_buyer}
+			return
+	else:
+		set {_buyer_points} to bm_get_points({_buyer})
+		if {_buyer_points} < {_price}:
+			send "&c&l[CHỢ ĐEN] &fBạn không đủ Points! Cần &b%{_price}% &f(hiện có &b%{_buyer_points}%&f)" to {_buyer}
+			return
+
+	# === ĐIỂM QUAN TRỌNG: XÓA LISTING TRƯỚC ===
+	set {_item} to {bm_listing::%{_id}%::item}
+	bm_delete_listing({_id})
+
+	# Trừ tiền người mua + cộng tiền người bán
+	if {_price_type} is "money":
+		remove {_price} from {_buyer}'s balance
+		# Cộng tiền cho seller (offline-safe qua console)
+		set {_seller_player} to {_seller_uuid} parsed as offline player
+		if {_seller_player} is online:
+			add {_seller_receive} to {_seller_player}'s balance
+		else:
+			execute console command "eco give %{_seller_name}% %{_seller_receive}%"
+	else:
+		execute console command "points take %{_buyer}'s name% %round({_price})%"
+		execute console command "points give %{_seller_name}% %round({_seller_receive})%"
+
+	# Give item cho buyer
+	give {_item} to {_buyer}
+
+	# Thông báo buyer
+	if {_price_type} is "money":
+		send "&a&l[CHỢ ĐEN] &fĐã mua thành công từ &e%{_seller_name}%&f! Trả &e$%{_price}% Money" to {_buyer}
+	else:
+		send "&a&l[CHỢ ĐEN] &fĐã mua thành công từ &e%{_seller_name}%&f! Trả &b%{_price}% Points" to {_buyer}
+	play sound "entity.player.levelup" with volume 1 and pitch 1.5 to {_buyer}
+
+	# Thông báo seller nếu online
+	set {_seller_online} to {_seller_uuid} parsed as offline player
+	if {_seller_online} is online:
+		if {_price_type} is "money":
+			send "&a&l[CHỢ ĐEN] &e%{_buyer}'s name% &fđã mua hàng của bạn! Nhận &e$%round({_seller_receive})% Money &7(đã trừ %round({_tax} * 100)%%% thuế)" to {_seller_online}
+		else:
+			send "&a&l[CHỢ ĐEN] &e%{_buyer}'s name% &fđã mua hàng của bạn! Nhận &b%round({_seller_receive})% Points &7(đã trừ %round({_tax} * 100)%%% thuế)" to {_seller_online}
+		play sound "block.note_block.pling" with volume 1 and pitch 2 to {_seller_online}
+
+# ============================================================================
+# HỦY LISTING (PLAYER)
+# ============================================================================
+function bm_cancel_listing(p: player, id: number):
+	set {_uuid} to uuid of {_p}
+
+	# Check listing tồn tại
+	if {bm_listing::%{_id}%::seller} is not set:
+		send "&c&l[CHỢ ĐEN] &fListing #%{_id}% không tồn tại!" to {_p}
+		return
+
+	# Check listing thuộc về player
+	if {bm_listing::%{_id}%::seller} is not {_uuid}:
+		send "&c&l[CHỢ ĐEN] &fListing này không phải của bạn!" to {_p}
+		return
+
+	# Check inventory có chỗ
+	if (number of empty slots in {_p}'s inventory) < 1:
+		send "&c&l[CHỢ ĐEN] &fTúi đồ đầy! Hãy dọn chỗ trống rồi hủy lại." to {_p}
+		return
+
+	# Xóa listing trước, hoàn item sau
+	set {_item} to {bm_listing::%{_id}%::item}
+	bm_delete_listing({_id})
+	give {_item} to {_p}
+
+	send "&e&l[CHỢ ĐEN] &fĐã hủy listing #%{_id}% và hoàn item về túi đồ!" to {_p}
+	play sound "block.note_block.bass" with volume 1 and pitch 1 to {_p}
+
+# ============================================================================
+# HỦY LISTING (ADMIN)
+# ============================================================================
+function bm_admin_cancel(id: number, admin: player):
+	if {bm_listing::%{_id}%::seller} is not set:
+		send "&c&l[ADMIN] &fListing #%{_id}% không tồn tại!" to {_admin}
+		return
+
+	set {_seller_uuid} to {bm_listing::%{_id}%::seller}
+	set {_seller_name} to {bm_listing::%{_id}%::seller_name}
+	set {_item} to {bm_listing::%{_id}%::item}
+
+	# Xóa listing → item vào expired (seller tự nhận)
+	bm_delete_listing({_id})
+
+	# Lưu vào expired cho seller nhận
+	set {bm_expired::%{_seller_uuid}%::%{_id}%::item} to {_item}
+	set {bm_expired::%{_seller_uuid}%::%{_id}%::timestamp} to now
+	add {_id} to {bm_expired_ids::%{_seller_uuid}%::*}
+
+	send "&a&l[ADMIN] &fĐã hủy listing #%{_id}% của &e%{_seller_name}%&f. Item chuyển vào danh sách hết hạn." to {_admin}
+
+	# Thông báo seller nếu online
+	set {_seller_online} to {_seller_uuid} parsed as offline player
+	if {_seller_online} is online:
+		send "&e&l[CHỢ ĐEN] &fAdmin đã hủy listing #%{_id}% của bạn. Dùng &e/choden nhan &fđể lấy item (trong 7 ngày)!" to {_seller_online}
+
+# ============================================================================
+# PURGE ALL (ADMIN)
+# ============================================================================
+function bm_purge_all(admin: player):
+	set {_count} to 0
+	loop {bm_ids::*}:
+		set {_id} to loop-value
+		set {_seller_uuid} to {bm_listing::%{_id}%::seller}
+		set {_item} to {bm_listing::%{_id}%::item}
+
+		# Chuyển item vào expired
+		set {bm_expired::%{_seller_uuid}%::%{_id}%::item} to {_item}
+		set {bm_expired::%{_seller_uuid}%::%{_id}%::timestamp} to now
+		add {_id} to {bm_expired_ids::%{_seller_uuid}%::*}
+
+		add 1 to {_count}
+
+	# Xóa tất cả listings
+	loop {bm_ids::*}:
+		set {_id} to loop-value
+		delete {bm_listing::%{_id}%::item}
+		delete {bm_listing::%{_id}%::seller}
+		delete {bm_listing::%{_id}%::seller_name}
+		delete {bm_listing::%{_id}%::price_type}
+		delete {bm_listing::%{_id}%::price}
+		delete {bm_listing::%{_id}%::timestamp}
+	delete {bm_ids::*}
+
+	send "&a&l[ADMIN] &fĐã xóa &e%{_count}% &flistings. Items đã chuyển vào danh sách hết hạn cho từng người bán." to {_admin}
+
+# ============================================================================
+# NHẬN ITEM HẾT HẠN (/choden nhan)
+# ============================================================================
+function bm_claim_expired(p: player):
+	set {_uuid} to uuid of {_p}
+
+	# Đếm items chờ nhận
+	set {_count} to size of {bm_expired_ids::%{_uuid}%::*}
+	if {_count} is 0:
+		send "&e&l[CHỢ ĐEN] &fBạn không có item nào chờ nhận." to {_p}
+		return
+
+	# Check inventory
+	set {_empty} to number of empty slots in {_p}'s inventory
+	if {_empty} < {_count}:
+		send "&c&l[CHỢ ĐEN] &fTúi đồ không đủ chỗ! Cần &e%{_count}% ô trống &f(hiện có &e%{_empty}%&f). Dọn túi rồi thử lại." to {_p}
+		return
+
+	# Give items
+	set {_claimed} to 0
+	loop {bm_expired_ids::%{_uuid}%::*}:
+		set {_id} to loop-value
+		set {_item} to {bm_expired::%{_uuid}%::%{_id}%::item}
+		if {_item} is set:
+			give {_item} to {_p}
+			add 1 to {_claimed}
+		delete {bm_expired::%{_uuid}%::%{_id}%::item}
+		delete {bm_expired::%{_uuid}%::%{_id}%::timestamp}
+	delete {bm_expired_ids::%{_uuid}%::*}
+
+	send "&a&l[CHỢ ĐEN] &fĐã nhận &e%{_claimed}% &fvật phẩm hết hạn!" to {_p}
+	play sound "entity.item.pickup" with volume 1 and pitch 1 to {_p}
+
+# ============================================================================
+# EXPIRY CHECK (every 5 minutes) — Listings hết hạn 24h
+# ============================================================================
+every 5 minutes:
+	set {_expire_secs} to get_bm_expire_seconds()
+	set {_now} to now
+	set {_expired_list::*} to {bm_ids::*}
+	loop {_expired_list::*}:
+		set {_id} to loop-value
+		set {_ts} to {bm_listing::%{_id}%::timestamp}
+		if {_ts} is set:
+			set {_diff} to difference between {_now} and {_ts}
+			if {_diff} > ({_expire_secs} seconds):
+				set {_seller_uuid} to {bm_listing::%{_id}%::seller}
+				set {_seller_name} to {bm_listing::%{_id}%::seller_name}
+				set {_item} to {bm_listing::%{_id}%::item}
+
+				# Chuyển vào expired
+				set {bm_expired::%{_seller_uuid}%::%{_id}%::item} to {_item}
+				set {bm_expired::%{_seller_uuid}%::%{_id}%::timestamp} to {_now}
+				add {_id} to {bm_expired_ids::%{_seller_uuid}%::*}
+
+				# Xóa listing
+				bm_delete_listing({_id})
+
+				# Thông báo seller nếu online
+				set {_seller_online} to {_seller_uuid} parsed as offline player
+				if {_seller_online} is online:
+					send "&e&l[CHỢ ĐEN] &fListing #%{_id}% của bạn đã hết hạn! Dùng &e/choden nhan &fđể lấy item (trong 7 ngày)." to {_seller_online}
+
+# ============================================================================
+# CLEANUP CHECK (every 1 hour) — Xóa expired > 7 ngày
+# ============================================================================
+every 1 hour:
+	set {_refund_days} to get_bm_refund_days()
+	set {_now} to now
+	loop all players:
+		set {_uuid} to uuid of loop-value
+		set {_to_delete::*} to {bm_expired_ids::%{_uuid}%::*}
+		loop {_to_delete::*}:
+			set {_id} to loop-value-2
+			set {_ts} to {bm_expired::%{_uuid}%::%{_id}%::timestamp}
+			if {_ts} is set:
+				set {_diff} to difference between {_now} and {_ts}
+				if {_diff} > ({_refund_days} * 24 * 60 * 60 seconds):
+					set {_p_name} to loop-value-1's name
+					delete {bm_expired::%{_uuid}%::%{_id}%::item}
+					delete {bm_expired::%{_uuid}%::%{_id}%::timestamp}
+					remove {_id} from {bm_expired_ids::%{_uuid}%::*}
+					execute console command "say [Chợ Đen] Đã xóa item hết hạn của %{_p_name}% (listing #%{_id}%, quá %{_refund_days}% ngày không nhận)"
+
+# ============================================================================
+# ON JOIN — Thông báo item chờ nhận
+# ============================================================================
+on join:
+	wait 3 seconds
+	set {_uuid} to uuid of player
+	set {_count} to size of {bm_expired_ids::%{_uuid}%::*}
+	if {_count} > 0:
+		send "&e&l━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━" to player
+		send "&c&l[CHỢ ĐEN] &fBạn có &e%{_count}% &fvật phẩm hết hạn chờ nhận!" to player
+		send "&c&l[CHỢ ĐEN] &fDùng &e/choden nhan &fđể lấy lại." to player
+		send "&c&l[CHỢ ĐEN] &c⚠ Item sẽ bị xóa vĩnh viễn nếu không nhận trong 7 ngày!" to player
+		send "&e&l━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━" to player
+		play sound "block.note_block.pling" with volume 1 and pitch 1 to player

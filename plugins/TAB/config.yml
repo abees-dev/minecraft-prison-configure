@@ -10,7 +10,7 @@ header-footer:
   footer:
     - " "
     - "<#DDDDDD>%animation:time%"
-    - "<#DDDDDD>Ping: <#FFFFFF>%ping%ms <#AAAAAA>| <#DDDDDD>TPS: <#8AFF8A>%tps% <#AAAAAA>| <#DDDDDD>Rank: <#FFD966>%xprison_rank%"
+    - "<#DDDDDD>Ping: <#FFFFFF>%ping%ms <#AAAAAA>| <#DDDDDD>TPS: <#8AFF8A>%tps%"
     - " "
     - "<#DDDDDD>%animation:web%"
     - "<#FFD700><strikethrough>                                                </strikethrough></#FFD700>"
@@ -30,7 +30,7 @@ scoreboard-teams:
   anti-override: true
   # https://github.com/NEZNAMY/TAB/wiki/Feature-guide:-Sorting-players-in-tablist
   sorting-types:
-    - "GROUPS:owner,admin,mod,helper,builder,vip,default"
+    - "GROUPS:owner,admin,mod,helper,builder,legend,elite,mvpplus,mvp,vipplus,vip,xprison_rank_9,xprison_rank_8,xprison_rank_7,xprison_rank_6,xprison_rank_5,xprison_rank_4,xprison_rank_3,xprison_rank_2,xprison_rank_1,default"
     - "PLACEHOLDER_A_TO_Z:%player%"
   case-sensitive-sorting: true
   can-see-friendly-invisibles: false
@@ -84,7 +84,7 @@ scoreboard:
       display-condition: "%player-version-id%>=765;%bedrock%=false" # Only display it to players using 1.20.3+ AND NOT bedrock edition
       lines:
         - "<#CCCCCC><strikethrough>                     </strikethrough></#CCCCCC>"
-        - "<#FFD966>⭐ Rank <#AAAAAA>» <#FFFFFF>%xprison_rank%"
+        - "<#FFD966>⭐ Rank <#AAAAAA>» %group% %luckperms-suffix%"
         - "<#E0AAFF>♛ Prestige <#AAAAAA>» <#FFFFFF>%xprison_prestige%"
         - " "
         - "<#8AFF8A>⚔ Level <#AAAAAA>» <#FFFFFF>%mmocore_level% <#E8E8E8>(%mmocore_class%)"
@@ -101,7 +101,7 @@ scoreboard:
       title: "<#FFD700><bold>✦ %player% ✦</bold></#FFA500>"
       lines:
         - "<#CCCCCC><strikethrough>                     </strikethrough></#CCCCCC>"
-        - "<#FFD966>⭐ Rank <#AAAAAA>» <#FFFFFF>%xprison_rank%"
+        - "<#FFD966>⭐ Rank <#AAAAAA>» %group% %luckperms-suffix%"
         - "<#E0AAFF>♛ Prestige <#AAAAAA>» <#FFFFFF>%xprison_prestige%"
         - " "
         - "<#8AFF8A>⚔ Level <#AAAAAA>» <#FFFFFF>%mmocore_level% <#E8E8E8>(%mmocore_class%)"
@@ -168,6 +168,25 @@ placeholder-output-replacements:
   "%essentials_vanished%":
     "yes": "&7| Vanished"
     "no": ""
+  # Static fallback for rank tag since TAB's %luckperms-prefix% only reads
+  # prefixes set directly on the user, not ones inherited from a group.
+  "%group%":
+    "xprison_rank_1": "<white><bold>[Tân Binh]</bold></white> "
+    "xprison_rank_2": "<gray><bold>[Tù Nhân]</bold></gray> "
+    "xprison_rank_3": "<green><bold>[Lao Công]</bold></green> "
+    "xprison_rank_4": "<dark_green><bold>[Thợ Đào]</bold></dark_green> "
+    "xprison_rank_5": "<aqua><bold>[Đội Trưởng]</bold></aqua> "
+    "xprison_rank_6": "<blue><bold>[Phó Quản Ngục]</bold></blue> "
+    "xprison_rank_7": "<light_purple><bold>[Quản Ngục]</bold></light_purple> "
+    "xprison_rank_8": "<gold><bold>[Bá Chủ Ngục Tù]</bold></gold> "
+    "xprison_rank_9": "<red><bold>[Vượt Ngục]</bold></red> "
+    "vip": "<green><bold>[VIP]</bold></green> "
+    "vipplus": "<dark_aqua><bold>[VIP+]</bold></dark_aqua> "
+    "mvp": "<aqua><bold>[MVP]</bold></aqua> "
+    "mvpplus": "<light_purple><bold>[MVP+]</bold></light_purple> "
+    "elite": "<gold><bold>[ELITE]</bold></gold> "
+    "legend": "<gradient:#FF5555:#FFD700><bold>[LEGEND]</bold></gradient> "
+    "default": ""
 
 # https://github.com/NEZNAMY/TAB/wiki/Feature-guide:-Conditional-placeholders
 conditions:

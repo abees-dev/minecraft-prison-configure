@@ -1,0 +1,139 @@
+# ============================================================================
+# HỆ THỐNG CHỢ ĐEN — LỆNH CHAT
+# File: plugins/Skript/scripts/black_market/commands.sk
+# Commands: /choden, /chodena
+# ============================================================================
+
+command /choden [<text>] [<text>] [<number>]:
+	aliases: /blackmarket, /bm
+	trigger:
+		set {_sub} to arg-1 ? ""
+
+		# /choden — Mở GUI chính
+		if {_sub} is "":
+			open_bm_gui(player, 1)
+			stop
+
+		# /choden sell money <giá> hoặc /choden sell point <giá>
+		if {_sub} is "sell" or "ban":
+			set {_type_raw} to arg-2 ? ""
+			set {_price} to arg-3 ? 0
+
+			if {_type_raw} is "":
+				send "&c&l[CHỢ ĐEN] &fCú pháp: &e/choden sell money <giá> &fhoặc &e/choden sell point <giá>" to player
+				stop
+
+			# Normalize type
+			if {_type_raw} is "money" or "m" or "tien":
+				set {_type} to "money"
+			else if {_type_raw} is "point" or "points" or "p" or "diem":
+				set {_type} to "point"
+			else:
+				send "&c&l[CHỢ ĐEN] &fLoại tiền không hợp lệ! Dùng &emoney &fhoặc &epoint&f." to player
+				stop
+
+			if {_price} <= 0:
+				send "&c&l[CHỢ ĐEN] &fVui lòng nhập giá bán! VD: &e/choden sell %{_type}% 100" to player
+				stop
+
+			# Check giá tối thiểu
+			set {_min} to get_bm_min_price()
+			if {_price} < {_min}:
+				send "&c&l[CHỢ ĐEN] &fGiá tối thiểu là &e%{_min}%&f!" to player
+				stop
+
+			# Check cooldown
+			if bm_check_cooldown(player) is false:
+				stop
+
+			# Check item trên tay
+			if player's tool is air:
+				send "&c&l[CHỢ ĐEN] &fBạn cần cầm vật phẩm muốn bán trên tay!" to player
+				stop
+
+			# Check max listings
+			set {_uuid} to uuid of player
+			set {_count} to bm_count_player_listings({_uuid})
+			set {_max} to get_bm_max_listings()
+			if {_count} >= {_max}:
+				send "&c&l[CHỢ ĐEN] &fBạn đã đạt giới hạn &e%{_max}% listings&f! Hãy hủy bớt hoặc chờ hết hạn." to player
+				stop
+
+			# === ANTI-DUP: LẤY ITEM KHỎI TAY NGAY ===
+			set {_item} to player's tool
+			set player's tool to air
+
+			# Tạo listing
+			bm_create_listing(player, {_item}, {_type}, {_price})
+			stop
+
+		# /choden cancel <id>
+		if {_sub} is "cancel" or "huy":
+			set {_id_text} to arg-2 ? ""
+			if {_id_text} is "":
+				send "&c&l[CHỢ ĐEN] &fCú pháp: &e/choden cancel <id>" to player
+				stop
+			set {_id} to {_id_text} parsed as number
+			if {_id} is not set:
+				send "&c&l[CHỢ ĐEN] &fID không hợp lệ!" to player
+				stop
+			if bm_check_cooldown(player) is false:
+				stop
+			bm_cancel_listing(player, {_id})
+			stop
+
+		# /choden my
+		if {_sub} is "my" or "me" or "cuatoi":
+			open_bm_my_gui(player)
+			stop
+
+		# /choden nhan — Nhận item hết hạn
+		if {_sub} is "nhan" or "claim":
+			if bm_check_cooldown(player) is false:
+				stop
+			bm_claim_expired(player)
+			stop
+
+		# Unknown subcommand
+		send "&e&l[CHỢ ĐEN] &fCác lệnh:" to player
+		send "&e/choden &7- Mở giao diện Chợ Đen" to player
+		send "&e/choden sell money <giá> &7- Bán item bằng Money" to player
+		send "&e/choden sell point <giá> &7- Bán item bằng Points" to player
+		send "&e/choden cancel <id> &7- Hủy listing" to player
+		send "&e/choden my &7- Xem listings của bạn" to player
+		send "&e/choden nhan &7- Nhận item hết hạn" to player
+
+# ============================================================================
+# ADMIN COMMANDS
+# ============================================================================
+command /chodena [<text>] [<text>]:
+	permission: op
+	trigger:
+		set {_sub} to arg-1 ? ""
+
+		# /chodena — Help
+		if {_sub} is "":
+			send "&a&l[ADMIN CHỢ ĐEN] &fCác lệnh:" to player
+			send "&e/chodena cancel <id> &7- Hủy bất kỳ listing" to player
+			send "&e/chodena purge &7- Xóa tất cả listings" to player
+			stop
+
+		# /chodena cancel <id>
+		if {_sub} is "cancel":
+			set {_id_text} to arg-2 ? ""
+			if {_id_text} is "":
+				send "&c&l[ADMIN] &fCú pháp: &e/chodena cancel <id>" to player
+				stop
+			set {_id} to {_id_text} parsed as number
+			if {_id} is not set:
+				send "&c&l[ADMIN] &fID không hợp lệ!" to player
+				stop
+			bm_admin_cancel({_id}, player)
+			stop
+
+		# /chodena purge
+		if {_sub} is "purge":
+			bm_purge_all(player)
+			stop
+
+		send "&c&l[ADMIN] &fLệnh không hợp lệ. Dùng &e/chodena &fđể xem help." to player

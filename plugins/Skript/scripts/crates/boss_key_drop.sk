@@ -1,0 +1,46 @@
+# ============================================================================
+# LỆNH NHẬN CHÌA KHÓA TRANG SỨC FREE HÀNG NGÀY & LỆNH ADMIN
+# Note: Cơ chế rớt 10% khi đánh Boss đã được MythicMobs xử lý NATIVELY qua
+# DropTables (prison_rank_drops.yml) bằng command "crates give <target> chia_khoa_trang_suc_free 1".
+# ============================================================================
+
+options:
+    key_id: chia_khoa_trang_suc_free
+    prefix: &a&l[Hòm Free]&r
+
+# ----------------------------------------------------------------------------
+# 1. LỆNH NHẬN CHÌA FREE HÀNG NGÀY (/nhankhoa /freekey)
+# ----------------------------------------------------------------------------
+command /nhankhoa:
+    aliases: /freekey
+    trigger:
+        set {_waited} to difference between {freekey.cooldown.%player's uuid%} and now
+        if {_waited} is less than 12 hours:
+            set {_remaining} to 12 hours
+            remove {_waited} from {_remaining}
+            send "{@prefix} &cBạn đã nhận chìa free rồi! Vui lòng chờ &e%{_remaining}% &cnữa." to player
+            stop
+        
+        set {freekey.cooldown.%player's uuid%} to now
+        set {_amount} to 1
+        if player has permission "vip.rank":
+            set {_amount} to 2
+        
+        execute console command "crates give %player% {@key_id} %{_amount}%"
+        send "{@prefix} &aBạn đã nhận thành công &e%{_amount}%x Chìa Khóa Trang Sức Miễn Phí&a!" to player
+        play sound "entity.item.pickup" with volume 1 and pitch 1.2 to player
+
+# ----------------------------------------------------------------------------
+# 2. LỆNH ADMIN TEST & PHÁT CHÌA (/givefreekey)
+# ----------------------------------------------------------------------------
+command /givefreekey [<player>] [<number>]:
+    permission: op
+    trigger:
+        if arg-1 is not set:
+            send "&cUsage: /givefreekey <player> <amount>" to player
+            stop
+        set {_num} to arg-2
+        if {_num} is not set:
+            set {_num} to 1
+        execute console command "crates give %arg-1% {@key_id} %{_num}%"
+        send "{@prefix} &aĐã trao &e%{_num}%x Chìa Khóa Trang Sức Free &acho người chơi &e%arg-1%&a." to player

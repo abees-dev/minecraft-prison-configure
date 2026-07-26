@@ -3,7 +3,12 @@
 #
 # version: 2.10.2
 
+bm_lock::57481db9-38f7-3a96-b52d-ff0f7993c232, date, 810974696D657374616D70040000019F9E9E68ED
+bm_next_id, long, 0000000000000001
+chuyensinh::57481db9-38f7-3a96-b52d-ff0f7993c232, long, 0000000000000003
 clearlag::timer, long, 0000000000000004
+cs_aura_toggle::57481db9-38f7-3a96-b52d-ff0f7993c232, boolean, 00
+cs_system_aura_enabled, boolean, 00
 mavuong_altar_cooldown, date, 810974696D657374616D70040000019F9963E87D
 mavuong_altar_cooldown_left, long, 0000000000000000
 mine_limit::warn_cooldown::57481db9-38f7-3a96-b52d-ff0f7993c232, date, 810974696D657374616D70040000019F9DE54ADC

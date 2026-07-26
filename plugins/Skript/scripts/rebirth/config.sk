@@ -32,11 +32,11 @@ function get_cs_exp_bonus_per_level() :: number:
 
 function get_cs_prefix(cs_lvl: number) :: text:
 	if {_cs_lvl} >= 20:
-		return "&8[&4&l🔥 BÁ CHỦ CS %{_cs_lvl}% &8✦] "
+		return "&4&l🔥%{_cs_lvl}% "
 	if {_cs_lvl} >= 10:
-		return "&8[&d&l👑 THẦN THOẠI CS %{_cs_lvl}%&8] "
+		return "&d&l👑%{_cs_lvl}% "
 	if {_cs_lvl} >= 5:
-		return "&8[&b&l⚡ CHUYỂN SINH %{_cs_lvl}%&8] "
+		return "&b&l⚡%{_cs_lvl}% "
 	if {_cs_lvl} >= 3:
-		return "&8[&e&l★ CS %{_cs_lvl}%&8] "
-	return "&8[&c&l❖ CS %{_cs_lvl}%&8] "
+		return "&e&l★%{_cs_lvl}% "
+	return "&c&l❖%{_cs_lvl}% "

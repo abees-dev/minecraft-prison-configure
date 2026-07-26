@@ -64,7 +64,7 @@ command /setcs <player> <number>:
 	trigger:
 		set {chuyensinh::%arg-1's uuid%} to arg-2
 		set {_prefix} to get_cs_prefix(arg-2)
-		execute console command "lp user %arg-1's name% meta setprefix 100 ""%{_prefix}%"""
+		execute console command "lp user %arg-1's name% meta setsuffix 100 ""%{_prefix}%"""
 		send "&a&l[ADMIN] &fĐã đặt cấp Chuyển Sinh cho &e%arg-1's name% &fthành &aLần %arg-2%&f!" to player
 
 # Command Reset toàn bộ Chuyển Sinh cho Player
@@ -81,7 +81,7 @@ command /resetcs <player>:
 		delete {cs_perk_money::%{_u}%}
 		delete {cs_perk_drop::%{_u}%}
 		delete {cs_aura_toggle::%{_u}%}
-		execute console command "lp user %arg-1's name% meta setprefix 100 """""
+		execute console command "lp user %arg-1's name% meta unsetsuffix 100"
 		send "&a&l[ADMIN] &fĐã reset toàn bộ dữ liệu Chuyển Sinh & Cây Kỹ Năng của &e%arg-1's name% &fvề 0!" to player
 
 # Command Dynamic Bật/Tắt Hào Quang Cấp Server cho Admin
@@ -267,9 +267,9 @@ on inventory click:
 				# Reset MMOCore Level (Giữ nguyên Rank Prison)
 				reset_player_rank_and_mmocore({_p})
 
-				# Update LuckPerms Chat Prefix via get_cs_prefix
+				# Update LuckPerms Chat Suffix via get_cs_prefix
 				set {_prefix} to get_cs_prefix({_new_cs})
-				execute console command "lp user %{_p}'s name% meta setprefix 100 ""%{_prefix}%"""
+				execute console command "lp user %{_p}'s name% meta setsuffix 100 ""%{_prefix}%"""
 
 				send title "&a&lCHUYỂN SINH THÀNH CÔNG!" with subtitle "&fCấp Chuyển Sinh: &e&lLần %{_new_cs}% &7(+3 Điểm Kỹ Năng)" to {_p} for 4 seconds
 				play sound "ui.toast.challenge_complete" with volume 1 and pitch 1 to {_p}
