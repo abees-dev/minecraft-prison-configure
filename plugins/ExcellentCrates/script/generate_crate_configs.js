@@ -119,15 +119,28 @@ const gemTypes = [
   }
 ];
 
-// Helper to extract existing Preview strings & Block positions from a crate yml file
+// Helper to extract existing Preview strings & Block positions & custom Item/Animation configs from a crate yml file
 function parseExistingCrateData(filePath) {
-  const data = { previews: {}, positions: [] };
+  const data = { previews: {}, positions: [], animationConfig: null, lastOpener: null, lastReward: null, customItem: null };
   if (!fs.existsSync(filePath)) return data;
 
-  const lines = fs.readFileSync(filePath, 'utf8').split(/\r?\n/);
+  const content = fs.readFileSync(filePath, 'utf8');
+  const lines = content.split(/\r?\n/);
   let currentKey = null;
   let inPositions = false;
   let inRewards = false;
+
+  const animMatch = content.match(/^Animation_Config:\s*(.+)$/m);
+  if (animMatch) data.animationConfig = animMatch[1].trim();
+
+  const openerMatch = content.match(/^Last_Opener:\s*(.+)$/m);
+  if (openerMatch) data.lastOpener = openerMatch[1].trim();
+
+  const rewardMatch = content.match(/^Last_Reward:\s*(.+)$/m);
+  if (rewardMatch) data.lastReward = rewardMatch[1].trim();
+
+  const itemMatch = content.match(/^Item:\s*\n([\s\S]*)$/m);
+  if (itemMatch) data.customItem = itemMatch[1].trimEnd();
 
   for (let line of lines) {
     if (line.includes('Positions:')) {
@@ -148,7 +161,7 @@ function parseExistingCrateData(filePath) {
       continue;
     }
 
-    if (line.startsWith('Item:') || line.startsWith('Block:')) {
+    if (line.startsWith('Item:') || line.startsWith('Block:') || line.startsWith('Animation_Config:') || line.startsWith('Last_')) {
       inRewards = false;
       currentKey = null;
     }
@@ -222,6 +235,34 @@ ${commandsBlock}
     ? existing.positions.map(p => `  - ${p}`).join('\n') 
     : '';
 
+  const animLine = existing.animationConfig ? `Animation_Config: ${existing.animationConfig}\n` : '';
+  const openerLine = existing.lastOpener ? `Last_Opener: ${existing.lastOpener}\n` : '';
+  const rewardLine = existing.lastReward ? `Last_Reward: ${existing.lastReward}\n` : '';
+
+  const itemBlockStr = existing.customItem ? `Item:\n${existing.customItem}` : `Item:
+  Material: CHEST
+  Name: '${gt.color}Hòm ${gt.name}'
+  Lore:
+  - '&7Mở để nhận ngẫu nhiên ${gt.color}${gt.name} &7từ &f&lLv.I &7đến ${gt.color}Lv.X&7.'
+  - '&7Khảm vào trang bị giúp gia tăng ${gt.color}${gt.statName}&7.'
+  - ''
+  - '&e&l★ PHẦN THƯỞNG NỔI BẬT:'
+  - '&f &f▪ ${gt.color}${gt.name} &e&lLv.X&7: &c&l0.1%'
+  - '&f &f▪ ${gt.color}${gt.name} &e&lLv.IX&7: &c&l0.3%'
+  - '&f &f▪ ${gt.color}${gt.name} &e&lLv.VIII&7: &c&l0.8%'
+  - '&f &f▪ ${gt.color}${gt.name} &7(Lv.I - &7Lv.VII)&7: &a&l98.8%'
+  - ''
+  - '&e▸ Nhấn chuột phải để mở.'
+  Item_Flags:
+  - HIDE_ENCHANTS
+  - HIDE_ATTRIBUTES
+  - HIDE_UNBREAKABLE
+  - HIDE_DESTROYS
+  - HIDE_PLACED_ON
+  - HIDE_POTION_EFFECTS
+  - HIDE_DYE
+  - HIDE_ARMOR_TRIM`;
+
   const content = `Name: '${gt.color}Hòm ${gt.name}'
 Preview_Config: default
 Permission_Required: false
@@ -247,29 +288,7 @@ Milestones:
   Repeatable: false
 Rewards:
   List:
-${rewardsStr}Item:
-  Material: CHEST
-  Name: '${gt.color}Hòm ${gt.name}'
-  Lore:
-  - '&7Mở để nhận ngẫu nhiên ${gt.color}${gt.name} &7từ &f&lLv.I &7đến ${gt.color}Lv.X&7.'
-  - '&7Khảm vào trang bị giúp gia tăng ${gt.color}${gt.statName}&7.'
-  - ''
-  - '&e&l★ PHẦN THƯỞNG NỔI BẬT:'
-  - '&f &f▪ ${gt.color}${gt.name} &e&lLv.X&7: &c&l0.1%'
-  - '&f &f▪ ${gt.color}${gt.name} &e&lLv.IX&7: &c&l0.3%'
-  - '&f &f▪ ${gt.color}${gt.name} &e&lLv.VIII&7: &c&l0.8%'
-  - '&f &f▪ ${gt.color}${gt.name} &7(Lv.I - &7Lv.VII)&7: &a&l98.8%'
-  - ''
-  - '&e▸ Nhấn chuột phải để mở.'
-  Item_Flags:
-  - HIDE_ENCHANTS
-  - HIDE_ATTRIBUTES
-  - HIDE_UNBREAKABLE
-  - HIDE_DESTROYS
-  - HIDE_PLACED_ON
-  - HIDE_POTION_EFFECTS
-  - HIDE_DYE
-  - HIDE_ARMOR_TRIM
+${rewardsStr}${openerLine}${rewardLine}${animLine}${itemBlockStr}
 `;
 
   fs.writeFileSync(filePath, content, 'utf8');
@@ -332,6 +351,34 @@ const masterPositionsStr = masterExisting.positions.length > 0
   ? masterExisting.positions.map(p => `  - ${p}`).join('\n') 
   : '';
 
+const masterAnimLine = masterExisting.animationConfig ? `Animation_Config: ${masterExisting.animationConfig}\n` : '';
+const masterOpenerLine = masterExisting.lastOpener ? `Last_Opener: ${masterExisting.lastOpener}\n` : '';
+const masterRewardLine = masterExisting.lastReward ? `Last_Reward: ${masterExisting.lastReward}\n` : '';
+
+const masterItemBlockStr = masterExisting.customItem ? `Item:\n${masterExisting.customItem}` : `Item:
+  Material: CHEST
+  Name: '&d&lHòm Đá Quý Tổng Hợp'
+  Lore:
+  - '&7Hòm chứa ngẫu nhiên tất cả &d&l10 Loại Đá Quý &7từ &f&lLv.I &7đến &d&lLv.X&7.'
+  - '&7Mở ra có thể nhận Đá Quý của bất kỳ thuộc tính nào!'
+  - ''
+  - '&e&l★ PHẦN THƯỞNG NỔI BẬT:'
+  - '&f &f▪ &dĐá Quý &e&lLv.X &7(Các loại): &c&l0.1%'
+  - '&f &f▪ &dĐá Quý &e&lLv.IX &7(Các loại): &c&l0.8%'
+  - '&f &f▪ &dĐá Quý &e&lLv.VIII &7(Các loại): &c&l0.8%'
+  - '&f &f▪ &dĐá Quý &7(Lv.I - &7Lv.VII)&7: &a&l98.8%'
+  - ''
+  - '&e▸ Nhấn chuột phải để mở.'
+  Item_Flags:
+  - HIDE_ENCHANTS
+  - HIDE_ATTRIBUTES
+  - HIDE_UNBREAKABLE
+  - HIDE_DESTROYS
+  - HIDE_PLACED_ON
+  - HIDE_POTION_EFFECTS
+  - HIDE_DYE
+  - HIDE_ARMOR_TRIM`;
+
 const masterContent = `Name: '&d&lHòm Đá Quý Tổng Hợp'
 Preview_Config: default
 Permission_Required: false
@@ -357,29 +404,7 @@ Milestones:
   Repeatable: false
 Rewards:
   List:
-${masterRewardsStr}Item:
-  Material: CHEST
-  Name: '&d&lHòm Đá Quý Tổng Hợp'
-  Lore:
-  - '&7Hòm chứa ngẫu nhiên tất cả &d&l10 Loại Đá Quý &7từ &f&lLv.I &7đến &d&lLv.X&7.'
-  - '&7Mở ra có thể nhận Đá Quý của bất kỳ thuộc tính nào!'
-  - ''
-  - '&e&l★ PHẦN THƯỞNG NỔI BẬT:'
-  - '&f &f▪ &dĐá Quý &e&lLv.X &7(Các loại): &c&l0.1%'
-  - '&f &f▪ &dĐá Quý &e&lLv.IX &7(Các loại): &c&l0.8%'
-  - '&f &f▪ &dĐá Quý &e&lLv.VIII &7(Các loại): &c&l0.8%'
-  - '&f &f▪ &dĐá Quý &7(Lv.I - &7Lv.VII)&7: &a&l98.8%'
-  - ''
-  - '&e▸ Nhấn chuột phải để mở.'
-  Item_Flags:
-  - HIDE_ENCHANTS
-  - HIDE_ATTRIBUTES
-  - HIDE_UNBREAKABLE
-  - HIDE_DESTROYS
-  - HIDE_PLACED_ON
-  - HIDE_POTION_EFFECTS
-  - HIDE_DYE
-  - HIDE_ARMOR_TRIM
+${masterRewardsStr}${masterOpenerLine}${masterRewardLine}${masterAnimLine}${masterItemBlockStr}
 `;
 
 fs.writeFileSync(masterPath, masterContent, 'utf8');
@@ -387,7 +412,7 @@ console.log('✅ Synced master crate: ruong_da_quy_tong_hop.yml');
 
 // 3. Key Configuration (chia_khoa_ruong_ngoc.yml)
 const keyContent = `Name: '&e&lChìa Khóa Rương Ngọc'
-Virtual: false
+Virtual: true
 Item:
   Material: TRIPWIRE_HOOK
   Name: '&e&lChìa Khóa Rương Ngọc'
@@ -424,7 +449,7 @@ gemTypes.forEach((gt) => {
       Weight: 10.0
       Rarity: common
       Broadcast: false
-      Placeholder_Apply: false
+      Placeholder_Apply: true
       Win_Limit:
         Player:
           Enabled: false
@@ -456,7 +481,7 @@ spinnerRewardsStr += `    ${masterRewardKey}:
       Weight: 10.0
       Rarity: common
       Broadcast: true
-      Placeholder_Apply: false
+      Placeholder_Apply: true
       Win_Limit:
         Player:
           Enabled: false
@@ -482,7 +507,31 @@ const spinnerPositionsStr = spinnerExisting.positions.length > 0
   ? spinnerExisting.positions.map(p => `  - ${p}`).join('\n') 
   : '';
 
-const spinnerCrateContent = `Name: '&e&lHòm Rương Ngọc'
+const spinnerAnimLine = spinnerExisting.animationConfig ? `Animation_Config: ${spinnerExisting.animationConfig}\n` : '';
+const spinnerOpenerLine = spinnerExisting.lastOpener ? `Last_Opener: ${spinnerExisting.lastOpener}\n` : '';
+const spinnerRewardLine = spinnerExisting.lastReward ? `Last_Reward: ${spinnerExisting.lastReward}\n` : '';
+
+const spinnerItemBlockStr = spinnerExisting.customItem ? `Item:\n${spinnerExisting.customItem}` : `Item:
+  Material: CHEST
+  Name: '&e&l❖ &6&lHòm Vòng Quay Đá Quý &e&l❖'
+  Lore:
+  - '&7Sử dụng &e&lChìa Khóa Rương Ngọc &7để quay.'
+  - '&7Quay ngẫu nhiên 1 trong 11 loại &dHòm Ngọc &7(tỷ lệ bằng nhau ~9.1%):'
+  - ''
+  - '&e&l★ DANH SÁCH HÒM NGỌC (11 Loại):'
+${spinnerLoreStr}  - ''
+  - '&e▸ Yêu cầu Chìa Khóa Rương Ngọc để mở.'
+  Item_Flags:
+  - HIDE_ENCHANTS
+  - HIDE_ATTRIBUTES
+  - HIDE_UNBREAKABLE
+  - HIDE_DESTROYS
+  - HIDE_PLACED_ON
+  - HIDE_POTION_EFFECTS
+  - HIDE_DYE
+  - HIDE_ARMOR_TRIM`;
+
+const spinnerCrateContent = `Name: '&e&l❖ &6&lVÒNG QUAY ĐÁ QUÝ HYỀN THOẠI &e&l❖'
 Preview_Config: default
 Permission_Required: false
 Opening:
@@ -500,7 +549,7 @@ ${spinnerPositionsStr}
   Hologram:
     Enabled: true
     Template: default
-    Y_Offset: 0.0
+    Y_Offset: 0.85
   Effect:
     Model: HELIX
     Particle:
@@ -509,25 +558,7 @@ Milestones:
   Repeatable: false
 Rewards:
   List:
-${spinnerRewardsStr}Item:
-  Material: CHEST
-  Name: '&e&lHòm Rương Ngọc'
-  Lore:
-  - '&7Sử dụng &e&lChìa Khóa Rương Ngọc &7để quay.'
-  - '&7Quay ngẫu nhiên 1 trong 11 loại &dHòm Ngọc &7(tỷ lệ bằng nhau ~9.1%):'
-  - ''
-  - '&e&l★ DANH SÁCH HÒM NGỌC (11 Loại):'
-${spinnerLoreStr}  - ''
-  - '&e▸ Yêu cầu Chìa Khóa Rương Ngọc để mở.'
-  Item_Flags:
-  - HIDE_ENCHANTS
-  - HIDE_ATTRIBUTES
-  - HIDE_UNBREAKABLE
-  - HIDE_DESTROYS
-  - HIDE_PLACED_ON
-  - HIDE_POTION_EFFECTS
-  - HIDE_DYE
-  - HIDE_ARMOR_TRIM
+${spinnerRewardsStr}${spinnerOpenerLine}${spinnerRewardLine}${spinnerAnimLine}${spinnerItemBlockStr}
 `;
 
 fs.writeFileSync(spinnerPath, spinnerCrateContent, 'utf8');

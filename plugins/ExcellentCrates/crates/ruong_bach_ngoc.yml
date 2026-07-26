@@ -249,6 +249,8 @@ Rewards:
       - execute as %player_name% at @s run playsound ui.toast.challenge_complete master @s ~ ~ ~ 1 1
       - execute as %player_name% at @s run summon firework_rocket ~ ~ ~ {LifeTime:5,Motion:[0.0,1.2,0.0],FireworksItem:{id:"minecraft:firework_rocket",Count:1,tag:{Fireworks:{Explosions:[{Type:1,Colors:[I;16711680,16776960],FadeColors:[I;255]}]}}}}
       Ignored_For_Permissions: []
+Last_Opener: ABeess
+Last_Reward: '&f&lBạch Ngọc &e&lLv.I'
 Item:
   Material: CHEST
   Name: '&f&lHòm Bạch Ngọc'
@@ -272,5 +274,3 @@ Item:
   - HIDE_POTION_EFFECTS
   - HIDE_DYE
   - HIDE_ARMOR_TRIM
-Last_Opener: ABeess
-Last_Reward: '&f&lBạch Ngọc &e&lLv.I'

@@ -90,9 +90,10 @@ Crate:
     # PlaceholderAPI is also supported here (if hologram handler supports it).
     Templates:
       default:
-        - <lyellow><b>%crate_name%</b></lyellow>
-        - <lgray>Get keys at <lyellow>put_your_site.com</lyellow></lgray>
-        - <lgray>You have <lyellow>%excellentcrates_keys_%crate_id%%</lyellow> keys</lgray>
+        - '&e&l❖ %crate_name% &e&l❖'
+        - '&fNhấp &a&l[Chuột Phải] &fđể Mở Hòm'
+        - '&fNhấp &e&l[Chuột Trái] &fđể Xem Phần Thưởng'
+        - '&7Bạn đang có: &e&l%excellentcrates_keys_%crate_id%% &7Chìa Khóa'
     # Sets the gap between hologram lines.
     LineGap: 0.3
     # Sets how often (in seconds) crate holograms will update.
@@ -162,26 +163,38 @@ Currency:
 Rewards:
   Rarities:
     common:
-      Name: <white>Common</white>
+      Name: '&7&lCOMMON'
       Weight: 1.0
       Default: true
     uncommon:
-      Name: <lblue>Uncommon</lblue>
+      Name: '&8&lUNCOMMON'
       Weight: 1.0
       Default: false
     rare:
-      Name: <lgreen>Rare</lgreen>
+      Name: '&6&lRARE'
       Weight: 1.0
       Default: false
-    epic:
-      Name: <lpurple>Epic</lpurple>
+    very_rare:
+      Name: '&e&lVERY RARE'
       Weight: 1.0
       Default: false
     legendary:
-      Name: <lorange>Legendary</lorange>
+      Name: '&b&lLEGENDARY'
       Weight: 1.0
       Default: false
-    mythic:
-      Name: <lred>Mythic</lred>
+    mythical:
+      Name: '&5&lMYTHICAL'
+      Weight: 1.0
+      Default: false
+    epic:
+      Name: '&4&lEPIC'
+      Weight: 1.0
+      Default: false
+    magical:
+      Name: '&2&lMAGICAL'
+      Weight: 1.0
+      Default: false
+    unique:
+      Name: '&c&lUNIQUE'
       Weight: 1.0
       Default: false

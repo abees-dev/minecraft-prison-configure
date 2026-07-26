@@ -19,7 +19,6 @@ Block:
     Model: HELIX
     Particle:
       Name: SPELL_WITCH
-  Positions: []
 Milestones:
   Repeatable: false
 Rewards:
@@ -250,20 +249,18 @@ Rewards:
       - execute as %player_name% at @s run playsound ui.toast.challenge_complete master @s ~ ~ ~ 1 1
       - execute as %player_name% at @s run summon firework_rocket ~ ~ ~ {LifeTime:5,Motion:[0.0,1.2,0.0],FireworksItem:{id:"minecraft:firework_rocket",Count:1,tag:{Fireworks:{Explosions:[{Type:1,Colors:[I;16711680,16776960],FadeColors:[I;255]}]}}}}
       Ignored_For_Permissions: []
-Last_Opener: ABeess
-Last_Reward: '&5&lTử Ngọc &e&lLv.I'
 Item:
   Material: CHEST
-  Name: '&d&lHòm Đá Quý Tổng Hợp'
+  Name: '&5&lHòm Tử Ngọc'
   Lore:
-  - '&7Hòm chứa ngẫu nhiên tất cả &d&l10 Loại Đá Quý &7từ &f&lLv.I &7đến &d&lLv.X&7.'
-  - '&7Mở ra có thể nhận Đá Quý của bất kỳ thuộc tính nào!'
+  - '&7Mở để nhận ngẫu nhiên &5&lTử Ngọc &7từ &f&lLv.I &7đến &5&lLv.X&7.'
+  - '&7Khảm vào trang bị giúp gia tăng &5&lSát Thương Phép&7.'
   - ''
   - '&e&l★ PHẦN THƯỞNG NỔI BẬT:'
-  - '&f &f▪ &dĐá Quý &e&lLv.X &7(Các loại): &c&l0.1%'
-  - '&f &f▪ &dĐá Quý &e&lLv.IX&e&l &7(Các loại): &c&l0.8%'
-  - '&f &f▪ &dĐá Quý &e&lLv.VIII&e&l &7(Các loại): &c&l0.8%'
-  - '&f &f▪ &dĐá Quý &7(Lv.I - &7Lv.VII)&7: &a&l98.8%'
+  - '&f &f▪ &5&lTử Ngọc &e&lLv.X&7: &c&l0.1%'
+  - '&f &f▪ &5&lTử Ngọc &e&lLv.IX&7: &c&l0.3%'
+  - '&f &f▪ &5&lTử Ngọc &e&lLv.VIII&7: &c&l0.8%'
+  - '&f &f▪ &5&lTử Ngọc &7(Lv.I - &7Lv.VII)&7: &a&l98.8%'
   - ''
   - '&e▸ Nhấn chuột phải để mở.'
   Item_Flags:
@@ -275,3 +272,5 @@ Item:
   - HIDE_POTION_EFFECTS
   - HIDE_DYE
   - HIDE_ARMOR_TRIM
+Last_Opener: ABeess
+Last_Reward: '&5&lTử Ngọc &e&lLv.I'
