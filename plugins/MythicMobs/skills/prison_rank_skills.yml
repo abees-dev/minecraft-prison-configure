@@ -6,163 +6,162 @@
 Prison_Tan_Binh_Enrage:
   Cooldown: 20
   Conditions:
-  - health{h=<143} true
+    - health{h=<143} true
   Skills:
-  - effect:sound{s=entity.zombie.ambient;volume=1.5;pitch=0.6} @self
-  - effect:particles{p=flame;amount=25;hSpread=0.5;ySpread=1;speed=0.02;yOffset=1} @self
-  - potion{type=INCREASE_DAMAGE;lvl=1;duration=100} @self
-  - potion{type=SPEED;lvl=1;duration=100} @self
-  - message{m="&e&l[Đầu Sỏ Tân Binh]&r &7Chưa xong đâu!"} @PlayersInRadius{r=30}
+    - effect:sound{s=entity.zombie.ambient;volume=1.5;pitch=0.6} @self
+    - effect:particles{p=flame;amount=25;hSpread=0.5;ySpread=1;speed=0.02;yOffset=1} @self
+    - potion{type=INCREASE_DAMAGE;lvl=1;duration=100} @self
+    - potion{type=SPEED;lvl=1;duration=100} @self
+    - message{m="&e&l[Đầu Sỏ Tân Binh]&r &7Chưa xong đâu!"} @PlayersInRadius{r=30}
 
 Prison_Tu_Nhan_Enrage:
   Cooldown: 20
   Conditions:
-  - health{h=<225} true
+    - health{h=<225} true
   Skills:
-  - effect:sound{s=entity.husk.ambient;volume=1.5;pitch=0.6} @self
-  - effect:particles{p=flame;amount=25;hSpread=0.5;ySpread=1;speed=0.02;yOffset=1} @self
-  - potion{type=INCREASE_DAMAGE;lvl=1;duration=100} @self
-  - potion{type=SPEED;lvl=1;duration=100} @self
-  - message{m="&2&l[Trùm Tù Nhân]&r &7Tao sẽ nghiền nát mày!"} @PlayersInRadius{r=30}
+    - effect:sound{s=entity.husk.ambient;volume=1.5;pitch=0.6} @self
+    - effect:particles{p=flame;amount=25;hSpread=0.5;ySpread=1;speed=0.02;yOffset=1} @self
+    - potion{type=INCREASE_DAMAGE;lvl=1;duration=100} @self
+    - potion{type=SPEED;lvl=1;duration=100} @self
+    - message{m="&2&l[Trùm Tù Nhân]&r &7Tao sẽ nghiền nát mày!"} @PlayersInRadius{r=30}
 
 Prison_Lao_Cong_Enrage:
   Cooldown: 20
   Conditions:
-  - health{h=<330} true
+    - health{h=<330} true
   Skills:
-  - effect:sound{s=entity.husk.ambient;volume=1.5;pitch=0.5} @self
-  - effect:particles{p=flame;amount=30;hSpread=0.5;ySpread=1;speed=0.03;yOffset=1} @self
-  - potion{type=INCREASE_DAMAGE;lvl=1;duration=100} @self
-  - potion{type=SPEED;lvl=1;duration=100} @self
-  - message{m="&3&l[Đốc Công Lao Công]&r &7Chúng mày phá hỏng hết rồi!"} @PlayersInRadius{r=30}
+    - effect:sound{s=entity.husk.ambient;volume=1.5;pitch=0.5} @self
+    - effect:particles{p=flame;amount=30;hSpread=0.5;ySpread=1;speed=0.03;yOffset=1} @self
+    - potion{type=INCREASE_DAMAGE;lvl=1;duration=100} @self
+    - potion{type=SPEED;lvl=1;duration=100} @self
+    - message{m="&3&l[Đốc Công Lao Công]&r &7Chúng mày phá hỏng hết rồi!"} @PlayersInRadius{r=30}
 
 Prison_Tho_Dao_Enrage:
   Cooldown: 20
   Conditions:
-  - health{h=<450} true
+    - health{h=<450} true
   Skills:
-  - effect:sound{s=entity.drowned.ambient;volume=1.5;pitch=0.5} @self
-  - effect:particles{p=flame;amount=30;hSpread=0.5;ySpread=1;speed=0.03;yOffset=1} @self
-  - potion{type=INCREASE_DAMAGE;lvl=2;duration=100} @self
-  - potion{type=SPEED;lvl=1;duration=100} @self
-  - message{m="&6&l[Trưởng Nhóm Thợ Đào]&r &7Đào cho tụi bay một cái hố!"} @PlayersInRadius{r=30}
+    - effect:sound{s=entity.drowned.ambient;volume=1.5;pitch=0.5} @self
+    - effect:particles{p=flame;amount=30;hSpread=0.5;ySpread=1;speed=0.03;yOffset=1} @self
+    - potion{type=INCREASE_DAMAGE;lvl=2;duration=100} @self
+    - potion{type=SPEED;lvl=1;duration=100} @self
+    - message{m="&6&l[Trưởng Nhóm Thợ Đào]&r &7Đào cho tụi bay một cái hố!"} @PlayersInRadius{r=30}
 
 Prison_Doi_Truong_Enrage:
   Cooldown: 20
   Conditions:
-  - health{h=<600} true
+    - health{h=<600} true
   Skills:
-  - effect:sound{s=entity.vindicator.ambient;volume=1.5;pitch=0.5} @self
-  - effect:particles{p=flame;amount=35;hSpread=0.6;ySpread=1;speed=0.03;yOffset=1} @self
-  - potion{type=INCREASE_DAMAGE;lvl=2;duration=100} @self
-  - potion{type=SPEED;lvl=1;duration=100} @self
-  - message{m="&6&l[Đại Đội Trưởng]&r &7Đội của tao không bao giờ thua!"} @PlayersInRadius{r=35}
+    - effect:sound{s=entity.vindicator.ambient;volume=1.5;pitch=0.5} @self
+    - effect:particles{p=flame;amount=35;hSpread=0.6;ySpread=1;speed=0.03;yOffset=1} @self
+    - potion{type=INCREASE_DAMAGE;lvl=2;duration=100} @self
+    - potion{type=SPEED;lvl=1;duration=100} @self
+    - message{m="&6&l[Đại Đội Trưởng]&r &7Đội của tao không bao giờ thua!"} @PlayersInRadius{r=35}
 
 Prison_Pho_Quan_Nguc_Enrage:
   Cooldown: 20
   Conditions:
-  - health{h=<788} true
+    - health{h=<788} true
   Skills:
-  - effect:sound{s=entity.vindicator.ambient;volume=1.5;pitch=0.4} @self
-  - effect:particles{p=flame;amount=35;hSpread=0.6;ySpread=1;speed=0.03;yOffset=1} @self
-  - potion{type=INCREASE_DAMAGE;lvl=2;duration=100} @self
-  - potion{type=SPEED;lvl=2;duration=100} @self
-  - message{m="&4&l[Phó Quản Ngục]&r &7Không ai thoát khỏi ngục tối này!"} @PlayersInRadius{r=35}
+    - effect:sound{s=entity.vindicator.ambient;volume=1.5;pitch=0.4} @self
+    - effect:particles{p=flame;amount=35;hSpread=0.6;ySpread=1;speed=0.03;yOffset=1} @self
+    - potion{type=INCREASE_DAMAGE;lvl=2;duration=100} @self
+    - potion{type=SPEED;lvl=2;duration=100} @self
+    - message{m="&4&l[Phó Quản Ngục]&r &7Không ai thoát khỏi ngục tối này!"} @PlayersInRadius{r=35}
 
 Prison_Quan_Nguc_Enrage:
   Cooldown: 20
   Conditions:
-  - health{h=<1013} true
+    - health{h=<1013} true
   Skills:
-  - effect:sound{s=entity.wither_skeleton.ambient;volume=1.5;pitch=0.5} @self
-  - effect:particles{p=soul_fire_flame;amount=40;hSpread=0.6;ySpread=1;speed=0.03;yOffset=1} @self
-  - potion{type=INCREASE_DAMAGE;lvl=2;duration=100} @self
-  - potion{type=SPEED;lvl=2;duration=100} @self
-  - message{m="&5&l[Quản Ngục Tối Cao]&r &7Ta là luật lệ ở đây!"} @PlayersInRadius{r=40}
+    - effect:sound{s=entity.wither_skeleton.ambient;volume=1.5;pitch=0.5} @self
+    - effect:particles{p=soul_fire_flame;amount=40;hSpread=0.6;ySpread=1;speed=0.03;yOffset=1} @self
+    - potion{type=INCREASE_DAMAGE;lvl=2;duration=100} @self
+    - potion{type=SPEED;lvl=2;duration=100} @self
+    - message{m="&5&l[Quản Ngục Tối Cao]&r &7Ta là luật lệ ở đây!"} @PlayersInRadius{r=40}
 
 Prison_Ba_Chu_Nguc_Tu_Enrage:
   Cooldown: 20
   Conditions:
-  - health{h=<1295} true
+    - health{h=<1295} true
   Skills:
-  - effect:sound{s=entity.piglin_brute.angry;volume=1.5;pitch=0.5} @self
-  - effect:particles{p=soul_fire_flame;amount=45;hSpread=0.6;ySpread=1;speed=0.03;yOffset=1} @self
-  - potion{type=INCREASE_DAMAGE;lvl=3;duration=100} @self
-  - potion{type=SPEED;lvl=2;duration=100} @self
-  - message{m="&d&l[Bá Chủ Ngục Tù]&r &7Ngục tù này là của TAO!"} @PlayersInRadius{r=40}
+    - effect:sound{s=entity.piglin_brute.angry;volume=1.5;pitch=0.5} @self
+    - effect:particles{p=soul_fire_flame;amount=45;hSpread=0.6;ySpread=1;speed=0.03;yOffset=1} @self
+    - potion{type=INCREASE_DAMAGE;lvl=3;duration=100} @self
+    - potion{type=SPEED;lvl=2;duration=100} @self
+    - message{m="&d&l[Bá Chủ Ngục Tù]&r &7Ngục tù này là của TAO!"} @PlayersInRadius{r=40}
 
 Prison_Vuot_Nguc_Enrage:
   Cooldown: 20
   Conditions:
-  - health{h=<1630} true
+    - health{h=<1630} true
   Skills:
-  - effect:sound{s=entity.ravager.roar;volume=1.5;pitch=0.4} @self
-  - effect:particles{p=soul_fire_flame;amount=50;hSpread=0.7;ySpread=1;speed=0.04;yOffset=1} @self
-  - potion{type=INCREASE_DAMAGE;lvl=3;duration=100} @self
-  - potion{type=SPEED;lvl=2;duration=100} @self
-  - message{m="&4&l[Trùm Vượt Ngục Tối Thượng]&r &7Không ai giữ được TAO!"} @PlayersInRadius{r=45}
+    - effect:sound{s=entity.ravager.roar;volume=1.5;pitch=0.4} @self
+    - effect:particles{p=soul_fire_flame;amount=50;hSpread=0.7;ySpread=1;speed=0.04;yOffset=1} @self
+    - potion{type=INCREASE_DAMAGE;lvl=3;duration=100} @self
+    - potion{type=SPEED;lvl=2;duration=100} @self
+    - message{m="&4&l[Trùm Vượt Ngục Tối Thượng]&r &7Không ai giữ được TAO!"} @PlayersInRadius{r=45}
 
 Prison_Ma_Vuong_Enrage:
   Cooldown: 20
   Conditions:
-  - health{h=<2750} true
+    - health{h=<2750} true
   Skills:
-  - effect:sound{s=entity.ravager.roar;volume=2;pitch=0.3} @self
-  - effect:particles{p=soul_fire_flame;amount=60;hSpread=0.8;ySpread=1.2;speed=0.05;yOffset=1} @self
-  - potion{type=INCREASE_DAMAGE;lvl=3;duration=120} @self
-  - potion{type=SPEED;lvl=2;duration=120} @self
-  - message{m="&4&l[Ma Vương Ngục Tù]&r &7CẢ NHÀ TÙ NÀY LÀ CỦA TA!"} @PlayersInRadius{r=50}
+    - effect:sound{s=entity.ravager.roar;volume=2;pitch=0.3} @self
+    - effect:particles{p=soul_fire_flame;amount=60;hSpread=0.8;ySpread=1.2;speed=0.05;yOffset=1} @self
+    - potion{type=INCREASE_DAMAGE;lvl=3;duration=120} @self
+    - potion{type=SPEED;lvl=2;duration=120} @self
+    - message{m="&4&l[Ma Vương Ngục Tù]&r &7CẢ NHÀ TÙ NÀY LÀ CỦA TA!"} @PlayersInRadius{r=50}
 
 Prison_Ma_Vuong_Hell_Nova:
   Skills:
-  - message{m="&4&l[Ma Vương Ngục Tù]&r &7Địa ngục sẽ nuốt chửng các ngươi!"} @PlayersInRadius{r=50}
-  - effect:sound{s=entity.ghast.shoot;volume=1.5;pitch=0.5} @self
-  - effect:sound{s=entity.blaze.shoot;volume=1;pitch=0.8} @self
-  - effect:particles{p=flame;amount=80;hSpread=3;vSpread=1;speed=0.06;yOffset=0.2} @self
-  - effect:particles{p=lava;amount=20;hSpread=2;vSpread=0.5;speed=0.02} @self
-  - damage{amount=110;ignorearmor=true;damagecause=FIRE} @PlayersInRadius{r=8}
-  - potion{type=SLOW;lvl=1;duration=40} @PlayersInRadius{r=8}
+    - message{m="&4&l[Ma Vương Ngục Tù]&r &7Địa ngục sẽ nuốt chửng các ngươi!"} @PlayersInRadius{r=50}
+    - effect:sound{s=entity.ghast.shoot;volume=1.5;pitch=0.5} @self
+    - effect:sound{s=entity.blaze.shoot;volume=1;pitch=0.8} @self
+    - effect:particles{p=flame;amount=80;hSpread=3;vSpread=1;speed=0.06;yOffset=0.2} @self
+    - effect:particles{p=lava;amount=20;hSpread=2;vSpread=0.5;speed=0.02} @self
+    - damage{amount=110;ignorearmor=true;damagecause=FIRE} @PlayersInRadius{r=8}
+    - potion{type=SLOW;lvl=1;duration=40} @PlayersInRadius{r=8}
 
 # Skill khống chế (không port combo Vampire Lord) — dame mở màn vẫn giữ mốc
 # tham chiếu ~30% một đòn nặng của VAMPIRE_LORD_BOSS (Vẫn Thạch Huyết Nguyệt
 # 319+106 -> 30% ~ 128 dame phép), phần còn lại là debuff khống chế thuần.
 Prison_Ma_Vuong_Nguyen_Rua:
   Skills:
-  - message{m="&5&l[Ma Vương Ngục Tù]&r &7Ta nguyền rủa linh hồn các ngươi chìm trong bóng tối!"} @PlayersInRadius{r=40}
-  - effect:sound{s=entity.evoker.cast_spell;volume=1.2;pitch=0.6} @self
-  - effect:sound{s=entity.ender_dragon.growl;volume=1.3;pitch=0.4} @self
-  - effect:particles{p=witch;amount=60;hSpread=2;vSpread=1.5;speed=0.05;yOffset=1} @PlayersInRadius{r=10}
-  - damage{amount=128;ignorearmor=true;damagecause=MAGIC} @PlayersInRadius{r=10}
-  - potion{type=BLINDNESS;lvl=1;duration=60} @PlayersInRadius{r=10}
-  - potion{type=SLOW;lvl=250;duration=50} @PlayersInRadius{r=10}
-  - potion{type=WEAKNESS;lvl=2;duration=100} @PlayersInRadius{r=10}
+    - message{m="&5&l[Ma Vương Ngục Tù]&r &7Ta nguyền rủa linh hồn các ngươi chìm trong bóng tối!"} @PlayersInRadius{r=40}
+    - effect:sound{s=entity.evoker.cast_spell;volume=1.2;pitch=0.6} @self
+    - effect:sound{s=entity.ender_dragon.growl;volume=1.3;pitch=0.4} @self
+    - effect:particles{p=witch;amount=60;hSpread=2;vSpread=1.5;speed=0.05;yOffset=1} @PlayersInRadius{r=10}
+    - damage{amount=128;ignorearmor=true;damagecause=MAGIC} @PlayersInRadius{r=10}
+    - potion{type=BLINDNESS;lvl=1;duration=60} @PlayersInRadius{r=10}
+    - potion{type=SLOW;lvl=250;duration=50} @PlayersInRadius{r=10}
+    - potion{type=WEAKNESS;lvl=2;duration=100} @PlayersInRadius{r=10}
 
 # Skill phép mới: đánh phép riêng lẻ lên nhiều mục tiêu gần nhất (khác Hell
 # Nova - nova lửa quanh self, và Nguyen Rua - debuff khống chế thuần).
 Prison_Ma_Vuong_Am_Anh:
   Skills:
-  - message{m="&5&l[Ma Vương Ngục Tù]&r &7Bóng tối sẽ nuốt lấy linh hồn các ngươi!"} @PlayersInRadius{r=40}
-  - effect:sound{s=entity.illusioner.cast_spell;volume=1.3;pitch=0.7} @self
-  - effect:particles{p=portal;amount=100;hSpread=2;vSpread=2;speed=0.3;yOffset=1} @self
-  - effect:particles{p=portal;amount=30;hSpread=0.5;vSpread=1;speed=0.2;yOffset=1} @PlayersInRadius{r=12;limit=3;sort=NEAREST}
-  - damage{amount=100;ignorearmor=true;damagecause=MAGIC} @PlayersInRadius{r=12;limit=3;sort=NEAREST}
-  - potion{type=LEVITATION;lvl=1;duration=30} @PlayersInRadius{r=12;limit=3;sort=NEAREST}
+    - message{m="&5&l[Ma Vương Ngục Tù]&r &7Bóng tối sẽ nuốt lấy linh hồn các ngươi!"} @PlayersInRadius{r=40}
+    - effect:sound{s=entity.illusioner.cast_spell;volume=1.3;pitch=0.7} @self
+    - effect:particles{p=portal;amount=100;hSpread=2;vSpread=2;speed=0.3;yOffset=1} @self
+    - effect:particles{p=portal;amount=30;hSpread=0.5;vSpread=1;speed=0.2;yOffset=1} @PlayersInRadius{r=12;limit=3;sort=NEAREST}
+    - damage{amount=100;ignorearmor=true;damagecause=MAGIC} @PlayersInRadius{r=12;limit=3;sort=NEAREST}
+    - potion{type=LEVITATION;lvl=1;duration=30} @PlayersInRadius{r=12;limit=3;sort=NEAREST}
 
 Give_Crate_Key_On_Death:
   Skills:
-  - skill{s=Give_Crate_Key_Success} 0.50
+    - skill{s=Give_Crate_Key_Success} 0.50
 
 Give_Crate_Key_Success:
   Skills:
-  - command{c="crates keygive <trigger.name> chia_khoa_ruong_ngoc 1"} @trigger
-  - message{m="&e&l❖ &d&lCRATES &8» &r&fChúc mừng bạn nhận được &e1x Chìa Khóa Rương Ngọc&f!"} @trigger
-  - effect:sound{s=entity.experience_orb.pickup;volume=1.0;pitch=1.2} @trigger
+    - command{c="crates key give <trigger.name> chia_khoa_ruong_ngoc 1"} @trigger
+    - message{m="&e&l❖ &d&lCRATES &8» &r&fChúc mừng bạn nhận được &e1x Chìa Khóa Rương Ngọc&f!"} @trigger
+    - effect:sound{s=entity.experience_orb.pickup;volume=1.0;pitch=1.2} @trigger
 
 Boss_Anti_Kite_Pull:
   Conditions:
-  - distance{d=>8} true
+    - distance{d=>8} true
   Skills:
-  - pull{velocity=10} @target
-  - message{m="&c&l[!] &fBoss đã kéo bạn lại gần! Đừng hòng đứng xa xả đạn!"} @target
-  - effect:sound{s=entity.ender_dragon.flap;volume=1.0;pitch=0.8} @target
-
+    - pull{velocity=10} @target
+    - message{m="&c&l[!] &fBoss đã kéo bạn lại gần! Đừng hòng đứng xa xả đạn!"} @target
+    - effect:sound{s=entity.ender_dragon.flap;volume=1.0;pitch=0.8} @target

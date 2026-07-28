@@ -1,0 +1,28 @@
+name: '&8[&6⚔&8] &6&lBÀN CHẾ ẤN TÍN LONG TỘC'
+max-queue-size: 10
+sound: BLOCK_ANVIL_USE
+layout: default
+
+items:
+    fill:
+        material: GRAY_STAINED_GLASS_PANE
+        name: '&7'
+    no-recipe:
+        material: RED_STAINED_GLASS_PANE
+        name: '&cChưa Chọn Công Thức'
+    no-queue-item:
+        material: BLACK_STAINED_GLASS_PANE
+        name: '&7Ô Hàng Chờ Trống'
+
+recipes:
+    che-an-tin-long-toc:
+        output:
+            type: MATERIAL
+            id: AN_TIN_LONG_TOC
+            amount: 1
+        name: "&6⚔ Chế Ấn Tín Long Tộc"
+        crafting-time: 0
+        ingredients:
+        - mmoitem{type=MATERIAL,id=MANH_LONG_TOC,amount=40,display="Mảnh Long Tộc"}
+        conditions:
+        - 'money{amount=5000000}'

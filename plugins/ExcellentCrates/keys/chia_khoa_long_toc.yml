@@ -1,0 +1,15 @@
+Name: '&6&l⚔ Chìa Khóa Long Tộc'
+Virtual: true
+Item:
+  Material: TRIPWIRE_HOOK
+  Name: '&6&l⚔ Chìa Khóa Long Tộc'
+  Lore:
+  - '&7Dùng để mở &6&lHòm Long Tộc&7.'
+  - '&7Nhận được khi tiêu diệt Boss/Mob Ngục Tù &7(rớt đồ)'
+  - '&7hoặc mua trực tiếp tại &eShop Nạp&7.'
+  - ''
+  - '&6▸ Nhấp vào Hòm Long Tộc để mở!'
+  Enchantments:
+    DURABILITY: 1
+  Item_Flags:
+  - HIDE_ENCHANTS

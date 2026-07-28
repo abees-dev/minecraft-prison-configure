@@ -1,8 +1,8 @@
 TRADE_RING_HOA_LONG_1:
   itemsadder-item: "rings_pack:set1_ring_1"
   base:
-    custom-maxsockets: 3.0
-    revision-id: 1
+    custom-maxsockets: 5.0
+    revision-id: 2
     material: PAPER
     custom-model-data: 19201
     name: "&6&l🔥 Nhẫn Hỏa Long I"
@@ -18,8 +18,8 @@ TRADE_RING_HOA_LONG_1:
 TRADE_RING_HOA_LONG_2:
   itemsadder-item: "rings_pack:set1_ring_2"
   base:
-    custom-maxsockets: 3.0
-    revision-id: 1
+    custom-maxsockets: 5.0
+    revision-id: 2
     material: PAPER
     custom-model-data: 19202
     name: "&6&l🔥 Nhẫn Hỏa Long II"
@@ -35,8 +35,8 @@ TRADE_RING_HOA_LONG_2:
 TRADE_RING_HAC_LONG_1:
   itemsadder-item: "rings_pack:set3_ring_1"
   base:
-    custom-maxsockets: 7.0
-    revision-id: 1
+    custom-maxsockets: 5.0
+    revision-id: 2
     material: PAPER
     custom-model-data: 19220
     name: "&5&l◆ Nhẫn Hắc Long I"
@@ -52,8 +52,8 @@ TRADE_RING_HAC_LONG_1:
 TRADE_RING_HAC_LONG_2:
   itemsadder-item: "rings_pack:set3_ring_2"
   base:
-    custom-maxsockets: 7.0
-    revision-id: 1
+    custom-maxsockets: 5.0
+    revision-id: 2
     material: PAPER
     custom-model-data: 19221
     name: "&5&l◆ Nhẫn Hắc Long II"
@@ -70,7 +70,7 @@ TRADE_RING_LOI_LONG_1:
   itemsadder-item: "rings_pack:set8_ring_1"
   base:
     custom-maxsockets: 5.0
-    revision-id: 1
+    revision-id: 2
     material: PAPER
     custom-model-data: 19270
     name: "&e&l⚡ Nhẫn Lôi Long I"
@@ -88,7 +88,7 @@ TRADE_RING_LOI_LONG_2:
   itemsadder-item: "rings_pack:set8_ring_2"
   base:
     custom-maxsockets: 5.0
-    revision-id: 1
+    revision-id: 2
     material: PAPER
     custom-model-data: 19271
     name: "&e&l⚡ Nhẫn Lôi Long II"
@@ -105,8 +105,8 @@ TRADE_RING_LOI_LONG_2:
 TRADE_RING_PHONG_LONG_1:
   itemsadder-item: "rings_pack:set5_ring_1"
   base:
-    custom-maxsockets: 6.0
-    revision-id: 1
+    custom-maxsockets: 5.0
+    revision-id: 2
     material: PAPER
     custom-model-data: 19240
     name: "&2&l✦ Nhẫn Phong Long I"
@@ -122,8 +122,8 @@ TRADE_RING_PHONG_LONG_1:
 TRADE_RING_PHONG_LONG_2:
   itemsadder-item: "rings_pack:set5_ring_2"
   base:
-    custom-maxsockets: 6.0
-    revision-id: 1
+    custom-maxsockets: 5.0
+    revision-id: 2
     material: PAPER
     custom-model-data: 19241
     name: "&2&l✦ Nhẫn Phong Long II"
@@ -139,8 +139,8 @@ TRADE_RING_PHONG_LONG_2:
 TRADE_RING_BANG_LONG_1:
   itemsadder-item: "rings_pack:set2_ring_1"
   base:
-    custom-maxsockets: 4.0
-    revision-id: 1
+    custom-maxsockets: 5.0
+    revision-id: 2
     material: PAPER
     custom-model-data: 19210
     name: "&3&l✦ Nhẫn Băng Long I"
@@ -157,8 +157,8 @@ TRADE_RING_BANG_LONG_1:
 TRADE_RING_BANG_LONG_2:
   itemsadder-item: "rings_pack:set2_ring_2"
   base:
-    custom-maxsockets: 4.0
-    revision-id: 1
+    custom-maxsockets: 5.0
+    revision-id: 2
     material: PAPER
     custom-model-data: 19211
     name: "&3&l✦ Nhẫn Băng Long II"
@@ -175,8 +175,8 @@ TRADE_RING_BANG_LONG_2:
 DONATE_RING_LONG_CHIEN_1:
   itemsadder-item: "rings_pack:set4_ring_1"
   base:
-    custom-maxsockets: 6.0
-    revision-id: 1
+    custom-maxsockets: 5.0
+    revision-id: 2
     material: PAPER
     custom-model-data: 19230
     name: "&e&l⚔ Nhẫn Chiến Long I"
@@ -192,8 +192,8 @@ DONATE_RING_LONG_CHIEN_1:
 DONATE_RING_LONG_CHIEN_2:
   itemsadder-item: "rings_pack:set4_ring_2"
   base:
-    custom-maxsockets: 6.0
-    revision-id: 1
+    custom-maxsockets: 5.0
+    revision-id: 2
     material: PAPER
     custom-model-data: 19231
     name: "&e&l⚔ Nhẫn Chiến Long II"
@@ -209,8 +209,8 @@ DONATE_RING_LONG_CHIEN_2:
 DONATE_RING_LONG_THAN_1:
   itemsadder-item: "rings_pack:set6_ring_1"
   base:
-    custom-maxsockets: 6.0
-    revision-id: 1
+    custom-maxsockets: 5.0
+    revision-id: 2
     material: PAPER
     custom-model-data: 19250
     name: "&b&l✦ Nhẫn Thần Long I"
@@ -226,8 +226,8 @@ DONATE_RING_LONG_THAN_1:
 DONATE_RING_LONG_THAN_2:
   itemsadder-item: "rings_pack:set6_ring_2"
   base:
-    custom-maxsockets: 6.0
-    revision-id: 1
+    custom-maxsockets: 5.0
+    revision-id: 2
     material: PAPER
     custom-model-data: 19251
     name: "&b&l✦ Nhẫn Thần Long II"
@@ -243,8 +243,8 @@ DONATE_RING_LONG_THAN_2:
 DONATE_RING_LONG_HOANG_1:
   itemsadder-item: "rings_pack:set9_ring_1"
   base:
-    custom-maxsockets: 7.0
-    revision-id: 1
+    custom-maxsockets: 5.0
+    revision-id: 2
     material: PAPER
     custom-model-data: 19280
     name: "&c&l★ Nhẫn Hoàng Long I"
@@ -261,8 +261,8 @@ DONATE_RING_LONG_HOANG_1:
 DONATE_RING_LONG_HOANG_2:
   itemsadder-item: "rings_pack:set9_ring_2"
   base:
-    custom-maxsockets: 7.0
-    revision-id: 1
+    custom-maxsockets: 5.0
+    revision-id: 2
     material: PAPER
     custom-model-data: 19281
     name: "&c&l★ Nhẫn Hoàng Long II"
@@ -279,8 +279,8 @@ DONATE_RING_LONG_HOANG_2:
 DONATE_RING_LONG_DE_1:
   itemsadder-item: "rings_pack:set7_ring_1"
   base:
-    custom-maxsockets: 7.0
-    revision-id: 1
+    custom-maxsockets: 5.0
+    revision-id: 2
     material: PAPER
     custom-model-data: 19260
     name: "&4&l◆ Nhẫn Đế Long I"
@@ -296,8 +296,8 @@ DONATE_RING_LONG_DE_1:
 DONATE_RING_LONG_DE_2:
   itemsadder-item: "rings_pack:set7_ring_2"
   base:
-    custom-maxsockets: 7.0
-    revision-id: 1
+    custom-maxsockets: 5.0
+    revision-id: 2
     material: PAPER
     custom-model-data: 19261
     name: "&4&l◆ Nhẫn Đế Long II"
@@ -314,7 +314,7 @@ DONATE_RING_LONG_VE_1:
   itemsadder-item: "rings_pack:set1_ring_3"
   base:
     custom-maxsockets: 5.0
-    revision-id: 1
+    revision-id: 2
     material: PAPER
     custom-model-data: 19203
     name: "&a&l✦ Nhẫn Hộ Long I"
@@ -332,7 +332,7 @@ DONATE_RING_LONG_VE_2:
   itemsadder-item: "rings_pack:set1_ring_4"
   base:
     custom-maxsockets: 5.0
-    revision-id: 1
+    revision-id: 2
     material: PAPER
     custom-model-data: 19204
     name: "&a&l✦ Nhẫn Hộ Long II"
@@ -349,8 +349,8 @@ DONATE_RING_LONG_VE_2:
 FREE_RING_THANH_LONG_1:
   itemsadder-item: "rings_pack:ring_4"
   base:
-    custom-maxsockets: 7.0
-    revision-id: 1
+    custom-maxsockets: 2.0
+    revision-id: 2
     material: PAPER
     custom-model-data: 19004
     name: "&b&l⚡ Nhẫn Thanh Long I"
@@ -366,8 +366,8 @@ FREE_RING_THANH_LONG_1:
 FREE_RING_THANH_LONG_2:
   itemsadder-item: "rings_pack:ring_5"
   base:
-    custom-maxsockets: 7.0
-    revision-id: 1
+    custom-maxsockets: 2.0
+    revision-id: 2
     material: PAPER
     custom-model-data: 19005
     name: "&b&l⚡ Nhẫn Thanh Long II"
@@ -383,8 +383,8 @@ FREE_RING_THANH_LONG_2:
 FREE_RING_XICH_LONG_1:
   itemsadder-item: "rings_pack:ring_7"
   base:
-    custom-maxsockets: 7.0
-    revision-id: 1
+    custom-maxsockets: 2.0
+    revision-id: 2
     material: PAPER
     custom-model-data: 19007
     name: "&c&l🔥 Nhẫn Xích Long I"
@@ -400,8 +400,8 @@ FREE_RING_XICH_LONG_1:
 FREE_RING_XICH_LONG_2:
   itemsadder-item: "rings_pack:ring_8"
   base:
-    custom-maxsockets: 7.0
-    revision-id: 1
+    custom-maxsockets: 2.0
+    revision-id: 2
     material: PAPER
     custom-model-data: 19008
     name: "&c&l🔥 Nhẫn Xích Long II"
@@ -417,8 +417,8 @@ FREE_RING_XICH_LONG_2:
 FREE_RING_KIM_LONG_1:
   itemsadder-item: "rings_pack:ring_10"
   base:
-    custom-maxsockets: 7.0
-    revision-id: 1
+    custom-maxsockets: 2.0
+    revision-id: 2
     material: PAPER
     custom-model-data: 19010
     name: "&e&l★ Nhẫn Kim Long I"
@@ -435,8 +435,8 @@ FREE_RING_KIM_LONG_1:
 FREE_RING_KIM_LONG_2:
   itemsadder-item: "rings_pack:set11_ring_1"
   base:
-    custom-maxsockets: 7.0
-    revision-id: 1
+    custom-maxsockets: 2.0
+    revision-id: 2
     material: PAPER
     custom-model-data: 19221
     name: "&e&l★ Nhẫn Kim Long II"
@@ -453,8 +453,8 @@ FREE_RING_KIM_LONG_2:
 FREE_RING_THIEN_LONG_1:
   itemsadder-item: "rings_pack:set11_ring_2"
   base:
-    custom-maxsockets: 7.0
-    revision-id: 1
+    custom-maxsockets: 2.0
+    revision-id: 2
     material: PAPER
     custom-model-data: 19222
     name: "&d&l✦ Nhẫn Thiên Long I"
@@ -470,8 +470,8 @@ FREE_RING_THIEN_LONG_1:
 FREE_RING_THIEN_LONG_2:
   itemsadder-item: "rings_pack:set11_ring_3"
   base:
-    custom-maxsockets: 7.0
-    revision-id: 1
+    custom-maxsockets: 2.0
+    revision-id: 2
     material: PAPER
     custom-model-data: 19223
     name: "&d&l✦ Nhẫn Thiên Long II"
@@ -487,8 +487,8 @@ FREE_RING_THIEN_LONG_2:
 FREE_RING_BAC_LONG_1:
   itemsadder-item: "rings_pack:ring_1"
   base:
-    custom-maxsockets: 7.0
-    revision-id: 1
+    custom-maxsockets: 2.0
+    revision-id: 2
     material: PAPER
     custom-model-data: 19001
     name: "&f&l✧ Nhẫn Bạch Long I"
@@ -505,8 +505,8 @@ FREE_RING_BAC_LONG_1:
 FREE_RING_BAC_LONG_2:
   itemsadder-item: "rings_pack:ring_2"
   base:
-    custom-maxsockets: 7.0
-    revision-id: 1
+    custom-maxsockets: 2.0
+    revision-id: 2
     material: PAPER
     custom-model-data: 19002
     name: "&f&l✧ Nhẫn Bạch Long II"
@@ -519,4 +519,3 @@ FREE_RING_BAC_LONG_2:
       reference: armor-upgrade-template
       template: weapon-upgrade-template
       max: 100
-

@@ -60,7 +60,7 @@ PRISON_TAN_BINH_ELITE:
   Drops:
     - prison_rank1_elite_drops
   Skills:
-    - knockback{power=1.2} @target 0.3
+    - throw{velocity=1.2;velocityY=0.4} @target 0.3
     - potion{type=WEAKNESS;duration=80;lvl=1} @target 0.25
     - heal{amount=5} @self ~onTimer:100
 
@@ -132,7 +132,7 @@ PRISON_TU_NHAN_ELITE:
   Drops:
     - prison_rank2_elite_drops
   Skills:
-    - knockback{power=1.2} @target 0.3
+    - throw{velocity=1.2;velocityY=0.4} @target 0.3
     - potion{type=SLOW;duration=80;lvl=1} @target 0.25
     - heal{amount=9} @self ~onTimer:100
 
@@ -206,7 +206,7 @@ PRISON_LAO_CONG_ELITE:
   Drops:
     - prison_rank3_elite_drops
   Skills:
-    - knockback{power=1.3} @target 0.3
+    - throw{velocity=1.3;velocityY=0.4} @target 0.3
     - damage{amount=16;ignorearmor=true} @PlayersInRadius{r=3} 0.2
     - heal{amount=13} @self ~onTimer:100
 
@@ -285,7 +285,7 @@ PRISON_THO_DAO_ELITE:
   Drops:
     - prison_rank4_elite_drops
   Skills:
-    - knockback{power=1.3} @target 0.3
+    - throw{velocity=1.3;velocityY=0.4} @target 0.3
     - potion{type=WITHER;duration=60;lvl=1} @target 0.25
     - heal{amount=17} @self ~onTimer:100
 
@@ -361,7 +361,7 @@ PRISON_DOI_TRUONG_ELITE:
   Drops:
     - prison_rank5_elite_drops
   Skills:
-    - knockback{power=1.4} @target 0.3
+    - throw{velocity=1.4;velocityY=0.4} @target 0.3
     - potion{type=INCREASE_DAMAGE;lvl=1;duration=60} @self 0.15
     - heal{amount=23} @self ~onTimer:100
 
@@ -439,7 +439,7 @@ PRISON_PHO_QUAN_NGUC_ELITE:
   Drops:
     - prison_rank6_elite_drops
   Skills:
-    - knockback{power=1.4} @target 0.3
+    - throw{velocity=1.4;velocityY=0.4} @target 0.3
     - damage{amount=24;ignorearmor=true} @PlayersInRadius{r=3} 0.2
     - heal{amount=30} @self ~onTimer:100
 
@@ -516,7 +516,7 @@ PRISON_QUAN_NGUC_ELITE:
   Drops:
     - prison_rank7_elite_drops
   Skills:
-    - knockback{power=1.5} @target 0.3
+    - throw{velocity=1.5;velocityY=0.4} @target 0.3
     - potion{type=WITHER;duration=80;lvl=2} @target 0.25
     - heal{amount=39} @self ~onTimer:100
 
@@ -596,7 +596,7 @@ PRISON_BA_CHU_NGUC_TU_ELITE:
   Drops:
     - prison_rank8_elite_drops
   Skills:
-    - knockback{power=1.5} @target 0.3
+    - throw{velocity=1.5;velocityY=0.4} @target 0.3
     - potion{type=INCREASE_DAMAGE;lvl=1;duration=60} @self 0.15
     - heal{amount=50} @self ~onTimer:100
 
@@ -676,7 +676,7 @@ PRISON_VUOT_NGUC_ELITE:
   Drops:
     - prison_rank9_elite_drops
   Skills:
-    - knockback{power=1.6} @target 0.3
+    - throw{velocity=1.6;velocityY=0.4} @target 0.3
     - damage{amount=32;ignorearmor=true} @PlayersInRadius{r=3} 0.2
     - heal{amount=63} @self ~onTimer:100
 

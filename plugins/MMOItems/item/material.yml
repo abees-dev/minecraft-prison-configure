@@ -341,6 +341,40 @@ MANH_HUY_HIEU_TRIEU_HOI:
       - "&7 &f●&7 Dùng để chế thành &6Huy Hiệu Triệu Hồi&7 hoàn chỉnh"
 
 # ==========================================================
+# CHÌA KHÓA LONG TỘC (TRADE/DONATE) - MẢNH & ẤN TÍN
+# ==========================================================
+
+MANH_LONG_TOC:
+  base:
+    revision-id: 1
+    material: DRAGON_BREATH
+    name: "&6✦ Mảnh Long Tộc &7&l[Mảnh]"
+    tier: RARE
+    lore-format: ingredient-lore
+    hide-enchants: true
+    enchants:
+      unbreaking: 1
+    lore:
+      - "&7 &6●&7 Mảnh linh khí Long Tộc, rớt ra khi hạ gục bất kỳ Boss nào"
+      - "&7 &6●&7 trong Nhà Tù (9 rank), tỉ lệ 20%"
+      - "&7 &6●&7 Dùng để chế thành &6Ấn Tín Long Tộc&7 tại Bàn Chế"
+
+AN_TIN_LONG_TOC:
+  base:
+    revision-id: 1
+    material: NETHER_STAR
+    name: "&6&l⚔ Ấn Tín Long Tộc"
+    tier: EPIC
+    lore-format: ingredient-lore
+    hide-enchants: true
+    enchants:
+      unbreaking: 1
+    lore:
+      - "&7 &6●&7 Chế từ &f40 Mảnh Long Tộc &7+ &f5,000,000 tiền"
+      - "&7 &6●&7 Mang ấn tín này đi đổi lấy &6Chìa Khóa Long Tộc"
+      - "&7 &6●&7 (xem hướng dẫn đổi tại NPC/Bàn Thờ Long Tộc)"
+
+# ==========================================================
 # ĐÁ CƯỜNG HÓA VŨ KHÍ & GIÁP (MATERIAL)
 # ==========================================================
 DA_CUONG_HOA_VU_KHI_SO_CAP:

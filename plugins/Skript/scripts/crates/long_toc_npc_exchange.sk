@@ -1,0 +1,21 @@
+# ============================================================================
+# ĐỔI ẤN TÍN LONG TỘC LẤY CHÌA KHÓA LONG TỘC TẠI NPC
+# Cách dùng: tạo 1 NPC Citizens tên đúng {@npc_name} (vd: /npc create {@npc_name}),
+# người chơi cầm Ấn Tín Long Tộc trên tay rồi click chuột phải vào NPC để đổi.
+# ============================================================================
+
+options:
+    key_id: chia_khoa_long_toc
+    npc_name: "&6&l⚔ Sứ Giả Long Tộc"
+    token_name: "&6&l⚔ Ấn Tín Long Tộc"
+    prefix: &6&l[Long Tộc]&r
+
+on right click on a npc:
+    if name of event-entity is "{@npc_name}":
+        if player's tool is a nether star named "{@token_name}":
+            remove 1 of player's tool from player
+            execute console command "crates key give %player% {@key_id} 1"
+            send "{@prefix} &aĐã đổi &e1x Ấn Tín Long Tộc &alấy &61x Chìa Khóa Long Tộc&a!" to player
+            play sound "entity.player.levelup" with volume 1 and pitch 1 to player
+        else:
+            send "{@prefix} &cBạn cần cầm &e1x Ấn Tín Long Tộc &ctrên tay để đổi chìa khóa!" to player

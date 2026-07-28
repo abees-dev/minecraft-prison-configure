@@ -1,8 +1,8 @@
 TRADE_GLOVES_HOA_LONG:
   itemsadder-item: "rings_pack:glove_37"
   base:
-    custom-maxsockets: 3.0
-    revision-id: 1
+    custom-maxsockets: 5.0
+    revision-id: 2
     material: PAPER
     custom-model-data: 19537
     name: "&6&l🔥 Găng Tay Hỏa Long"
@@ -18,8 +18,8 @@ TRADE_GLOVES_HOA_LONG:
 TRADE_GLOVES_HAC_LONG:
   itemsadder-item: "rings_pack:glove_2"
   base:
-    custom-maxsockets: 7.0
-    revision-id: 1
+    custom-maxsockets: 5.0
+    revision-id: 2
     material: PAPER
     custom-model-data: 19502
     name: "&5&l◆ Găng Tay Hắc Long"
@@ -36,7 +36,7 @@ TRADE_GLOVES_LOI_LONG:
   itemsadder-item: "rings_pack:glove_85"
   base:
     custom-maxsockets: 5.0
-    revision-id: 1
+    revision-id: 2
     material: PAPER
     custom-model-data: 19585
     name: "&e&l⚡ Găng Tay Lôi Long"
@@ -52,8 +52,8 @@ TRADE_GLOVES_LOI_LONG:
 TRADE_GLOVES_PHONG_LONG:
   itemsadder-item: "rings_pack:glove_1"
   base:
-    custom-maxsockets: 6.0
-    revision-id: 1
+    custom-maxsockets: 5.0
+    revision-id: 2
     material: PAPER
     custom-model-data: 19501
     name: "&2&l✦ Găng Tay Phong Long"
@@ -69,8 +69,8 @@ TRADE_GLOVES_PHONG_LONG:
 TRADE_GLOVES_BANG_LONG:
   itemsadder-item: "rings_pack:glove_61"
   base:
-    custom-maxsockets: 4.0
-    revision-id: 1
+    custom-maxsockets: 5.0
+    revision-id: 2
     material: PAPER
     custom-model-data: 19561
     name: "&3&l✦ Găng Tay Băng Long"
@@ -87,8 +87,8 @@ TRADE_GLOVES_BANG_LONG:
 DONATE_GLOVES_LONG_CHIEN:
   itemsadder-item: "rings_pack:glove_12"
   base:
-    custom-maxsockets: 6.0
-    revision-id: 1
+    custom-maxsockets: 5.0
+    revision-id: 2
     material: PAPER
     custom-model-data: 19512
     name: "&e&l⚔ Găng Tay Chiến Long"
@@ -104,8 +104,8 @@ DONATE_GLOVES_LONG_CHIEN:
 DONATE_GLOVES_LONG_THAN:
   itemsadder-item: "rings_pack:glove_25"
   base:
-    custom-maxsockets: 6.0
-    revision-id: 1
+    custom-maxsockets: 5.0
+    revision-id: 2
     material: PAPER
     custom-model-data: 19525
     name: "&b&l✦ Găng Tay Thần Long"
@@ -121,8 +121,8 @@ DONATE_GLOVES_LONG_THAN:
 DONATE_GLOVES_LONG_HOANG:
   itemsadder-item: "rings_pack:glove_99"
   base:
-    custom-maxsockets: 7.0
-    revision-id: 1
+    custom-maxsockets: 5.0
+    revision-id: 2
     material: PAPER
     custom-model-data: 19599
     name: "&c&l★ Găng Tay Hoàng Long"
@@ -138,8 +138,8 @@ DONATE_GLOVES_LONG_HOANG:
 DONATE_GLOVES_LONG_DE:
   itemsadder-item: "rings_pack:glove_40"
   base:
-    custom-maxsockets: 7.0
-    revision-id: 1
+    custom-maxsockets: 5.0
+    revision-id: 2
     material: PAPER
     custom-model-data: 19540
     name: "&4&l◆ Găng Tay Đế Long"
@@ -156,7 +156,7 @@ DONATE_GLOVES_LONG_VE:
   itemsadder-item: "rings_pack:glove_38"
   base:
     custom-maxsockets: 5.0
-    revision-id: 1
+    revision-id: 2
     material: PAPER
     custom-model-data: 19538
     name: "&a&l✦ Găng Tay Hộ Long"
@@ -173,8 +173,8 @@ DONATE_GLOVES_LONG_VE:
 FREE_GLOVES_THANH_LONG:
   itemsadder-item: "rings_pack:glove_4"
   base:
-    custom-maxsockets: 7.0
-    revision-id: 1
+    custom-maxsockets: 2.0
+    revision-id: 2
     material: PAPER
     custom-model-data: 19504
     name: "&b&l⚡ Găng Tay Thanh Long"
@@ -190,8 +190,8 @@ FREE_GLOVES_THANH_LONG:
 FREE_GLOVES_XICH_LONG:
   itemsadder-item: "rings_pack:glove_5"
   base:
-    custom-maxsockets: 7.0
-    revision-id: 1
+    custom-maxsockets: 2.0
+    revision-id: 2
     material: PAPER
     custom-model-data: 19505
     name: "&c&l🔥 Găng Tay Xích Long"
@@ -207,8 +207,8 @@ FREE_GLOVES_XICH_LONG:
 FREE_GLOVES_KIM_LONG:
   itemsadder-item: "rings_pack:glove_6"
   base:
-    custom-maxsockets: 7.0
-    revision-id: 1
+    custom-maxsockets: 2.0
+    revision-id: 2
     material: PAPER
     custom-model-data: 19506
     name: "&e&l★ Găng Tay Kim Long"
@@ -224,8 +224,8 @@ FREE_GLOVES_KIM_LONG:
 FREE_GLOVES_THIEN_LONG:
   itemsadder-item: "rings_pack:glove_7"
   base:
-    custom-maxsockets: 7.0
-    revision-id: 1
+    custom-maxsockets: 2.0
+    revision-id: 2
     material: PAPER
     custom-model-data: 19507
     name: "&d&l✦ Găng Tay Thiên Long"
@@ -241,8 +241,8 @@ FREE_GLOVES_THIEN_LONG:
 FREE_GLOVES_BAC_LONG:
   itemsadder-item: "rings_pack:glove_3"
   base:
-    custom-maxsockets: 7.0
-    revision-id: 1
+    custom-maxsockets: 2.0
+    revision-id: 2
     material: PAPER
     custom-model-data: 19503
     name: "&f&l✧ Găng Tay Bạch Long"
@@ -255,4 +255,3 @@ FREE_GLOVES_BAC_LONG:
       reference: armor-upgrade-template
       template: armor-upgrade-template
       max: 100
-
