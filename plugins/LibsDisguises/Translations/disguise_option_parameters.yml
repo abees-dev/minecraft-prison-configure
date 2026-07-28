@@ -6001,3 +6001,363 @@
 
 # Used for the disguise option SoundGroup
 "ZOMBIFIED_PIGLIN": "ZOMBIFIED_PIGLIN"
+
+# Used for the disguise option Particle
+"firefly": "firefly"
+
+# Used for the disguise option Particle
+"copper_fire_flame": "copper_fire_flame"
+
+# Used for the disguise option Particle
+"light": "light"
+
+# Used for the disguise option Particle
+"pause_mob_growth": "pause_mob_growth"
+
+# Used for the disguise option Particle
+"geyser_plume": "geyser_plume"
+
+# Used for the disguise option Particle
+"barrier": "barrier"
+
+# Used for the disguise option Particle
+"tinted_leaves": "tinted_leaves"
+
+# Used for the disguise option Particle
+"sulfur_bubbles": "sulfur_bubbles"
+
+# Used for the disguise option Particle
+"geyser": "geyser"
+
+# Used for the disguise option Particle
+"geyser_poof": "geyser_poof"
+
+# Used for the disguise option Particle
+"noxious_gas": "noxious_gas"
+
+# Used for the disguise option Particle
+"noxious_gas_cloud": "noxious_gas_cloud"
+
+# Used for the disguise option Particle
+"reset_mob_growth": "reset_mob_growth"
+
+# Used for the disguise option Particle
+"sulfur_cube_goo": "sulfur_cube_goo"
+
+# Used for the disguise option Particle
+"geyser_base": "geyser_base"
+
+# A disguise option name, has description 'Every animation that Mojang has added to entities, not all of them will work'
+"Disguise Animation": "Disguise Animation"
+
+# Description for the disguise option Disguise Animation
+"Every animation that Mojang has added to entities, not all of them will work": "Every animation that Mojang has added to entities, not all of them will work"
+
+# Used for the disguise option Disguise Animation
+"ALLAY_HEARTS": "ALLAY_HEARTS"
+
+# Used for the disguise option Disguise Animation
+"ANIMAL_HEARTS": "ANIMAL_HEARTS"
+
+# Used for the disguise option Disguise Animation
+"ARMORSTAND_HIT": "ARMORSTAND_HIT"
+
+# Used for the disguise option Disguise Animation
+"CRITICAL_HIT": "CRITICAL_HIT"
+
+# Used for the disguise option Disguise Animation
+"DEATH": "DEATH"
+
+# Used for the disguise option Disguise Animation
+"DEATH_PARTICLES": "DEATH_PARTICLES"
+
+# Used for the disguise option Disguise Animation
+"DOLPHIN_HAPPY": "DOLPHIN_HAPPY"
+
+# Used for the disguise option Disguise Animation
+"EGG_PARTICLES": "EGG_PARTICLES"
+
+# Used for the disguise option Disguise Animation
+"EVOKER_FANGS_SNAP": "EVOKER_FANGS_SNAP"
+
+# Used for the disguise option Disguise Animation
+"FIREWORKS_EXPLOSION": "FIREWORKS_EXPLOSION"
+
+# Used for the disguise option Disguise Animation
+"FISHING_HOOK_DRAG": "FISHING_HOOK_DRAG"
+
+# Used for the disguise option Disguise Animation
+"FOX_CHEW": "FOX_CHEW"
+
+# Used for the disguise option Disguise Animation
+"GOAT_LOWER_HEAD": "GOAT_LOWER_HEAD"
+
+# Used for the disguise option Disguise Animation
+"GOAT_RAISE_HEAD": "GOAT_RAISE_HEAD"
+
+# Used for the disguise option Disguise Animation
+"GUARDIAN_ATTACK": "GUARDIAN_ATTACK"
+
+# Used for the disguise option Disguise Animation
+"HOGLIN_ATTACK": "HOGLIN_ATTACK"
+
+# Used for the disguise option Disguise Animation
+"HONEY": "HONEY"
+
+# Used for the disguise option Disguise Animation
+"HORSE_TAMING_FAILED": "HORSE_TAMING_FAILED"
+
+# Used for the disguise option Disguise Animation
+"HORSE_TAMING_SUCCESS": "HORSE_TAMING_SUCCESS"
+
+# Used for the disguise option Disguise Animation
+"HURT": "HURT"
+
+# Used for the disguise option Disguise Animation
+"IRON_GOLEM_ATTACK": "IRON_GOLEM_ATTACK"
+
+# Used for the disguise option Disguise Animation
+"IRON_GOLEM_ROSE_START": "IRON_GOLEM_ROSE_START"
+
+# Used for the disguise option Disguise Animation
+"IRON_GOLEM_ROSE_STOP": "IRON_GOLEM_ROSE_STOP"
+
+# Used for the disguise option Disguise Animation
+"LIVING_HONEY": "LIVING_HONEY"
+
+# Used for the disguise option Disguise Animation
+"MAGIC_CRITICAL_HIT": "MAGIC_CRITICAL_HIT"
+
+# Used for the disguise option Disguise Animation
+"MINECART_SPAWNER_RESET_DELAY": "MINECART_SPAWNER_RESET_DELAY"
+
+# Used for the disguise option Disguise Animation
+"MINECART_TNT_IGNITE": "MINECART_TNT_IGNITE"
+
+# Used for the disguise option Disguise Animation
+"MOB_SPAWN": "MOB_SPAWN"
+
+# Used for the disguise option Disguise Animation
+"OCELOT_TAMING_FAILED": "OCELOT_TAMING_FAILED"
+
+# Used for the disguise option Disguise Animation
+"OCELOT_TAMING_SUCCESS": "OCELOT_TAMING_SUCCESS"
+
+# Used for the disguise option Disguise Animation
+"PLAYER_BAD_OMEN_CLOUD": "PLAYER_BAD_OMEN_CLOUD"
+
+# Used for the disguise option Disguise Animation
+"PLAYER_DISABLE_REDUCED_DEBUG_SCREEN": "PLAYER_DISABLE_REDUCED_DEBUG_SCREEN"
+
+# Used for the disguise option Disguise Animation
+"PLAYER_ENABLE_REDUCED_DEBUG_SCREEN": "PLAYER_ENABLE_REDUCED_DEBUG_SCREEN"
+
+# Used for the disguise option Disguise Animation
+"PLAYER_ITEM_USED": "PLAYER_ITEM_USED"
+
+# Used for the disguise option Disguise Animation
+"RABBIT_HOP": "RABBIT_HOP"
+
+# Used for the disguise option Disguise Animation
+"RAVAGER_ATTACK": "RAVAGER_ATTACK"
+
+# Used for the disguise option Disguise Animation
+"RAVAGER_STUNNED": "RAVAGER_STUNNED"
+
+# Used for the disguise option Disguise Animation
+"SHEEP_EAT_GRASS": "SHEEP_EAT_GRASS"
+
+# Used for the disguise option Disguise Animation
+"SHIELD_BLOCK": "SHIELD_BLOCK"
+
+# Used for the disguise option Disguise Animation
+"SHIELD_BREAK": "SHIELD_BREAK"
+
+# Used for the disguise option Disguise Animation
+"SNIFFER_DIG": "SNIFFER_DIG"
+
+# Used for the disguise option Disguise Animation
+"SNOWBALL_PARTICLES": "SNOWBALL_PARTICLES"
+
+# Used for the disguise option Disguise Animation
+"SQUID_SWIM": "SQUID_SWIM"
+
+# Used for the disguise option Disguise Animation
+"SWAP_HELD_ITEMS": "SWAP_HELD_ITEMS"
+
+# Used for the disguise option Disguise Animation
+"SWING_MAIN_HAND": "SWING_MAIN_HAND"
+
+# Used for the disguise option Disguise Animation
+"SWING_OFF_HAND": "SWING_OFF_HAND"
+
+# Used for the disguise option Disguise Animation
+"TAMING_FAILED": "TAMING_FAILED"
+
+# Used for the disguise option Disguise Animation
+"TAMING_SUCCESS": "TAMING_SUCCESS"
+
+# Used for the disguise option Disguise Animation
+"TIPPED_ARROW_PARTICLES": "TIPPED_ARROW_PARTICLES"
+
+# Used for the disguise option Disguise Animation
+"TOTEM_UNDYING": "TOTEM_UNDYING"
+
+# Used for the disguise option Disguise Animation
+"VILLAGER_HEART": "VILLAGER_HEART"
+
+# Used for the disguise option Disguise Animation
+"VILLAGER_SPLASH": "VILLAGER_SPLASH"
+
+# Used for the disguise option Disguise Animation
+"WARDEN_ATTACK": "WARDEN_ATTACK"
+
+# Used for the disguise option Disguise Animation
+"WARDEN_SONIC_BOOM": "WARDEN_SONIC_BOOM"
+
+# Used for the disguise option Disguise Animation
+"WARDEN_TENDRILS": "WARDEN_TENDRILS"
+
+# Used for the disguise option Disguise Animation
+"WITCH_MAGIC_PARTICLES": "WITCH_MAGIC_PARTICLES"
+
+# Used for the disguise option Disguise Animation
+"WOLF_SHAKING_START": "WOLF_SHAKING_START"
+
+# Used for the disguise option Disguise Animation
+"WOLF_SHAKING_STOP": "WOLF_SHAKING_STOP"
+
+# Used for the disguise option Disguise Animation
+"ZOGLIN_ATTACK": "ZOGLIN_ATTACK"
+
+# Used for the disguise option Disguise Animation
+"ZOMBIE_VILLAGER_CURED_SOUND": "ZOMBIE_VILLAGER_CURED_SOUND"
+
+# A disguise option name, has description 'The sound category the sounds from this disguise will play under, not set when global default'
+"Sound Category": "Sound Category"
+
+# Description for the disguise option Sound Category
+"The sound category the sounds from this disguise will play under, not set when global default": "The sound category the sounds from this disguise will play under, not set when global default"
+
+# Used for the disguise option Sound Category
+"AMBIENT": "AMBIENT"
+
+# Used for the disguise option Sound Category
+"BLOCKS": "BLOCKS"
+
+# Used for the disguise option Sound Category
+"HOSTILE": "HOSTILE"
+
+# Used for the disguise option Sound Category
+"MASTER": "MASTER"
+
+# Used for the disguise option Sound Category
+"MUSIC": "MUSIC"
+
+# Used for the disguise option Sound Category
+"NEUTRAL": "NEUTRAL"
+
+# Used for the disguise option Sound Category
+"PLAYERS": "PLAYERS"
+
+# Used for the disguise option Sound Category
+"RECORDS": "RECORDS"
+
+# Used for the disguise option Sound Category
+"VOICE": "VOICE"
+
+# Used for the disguise option Sound Category
+"WEATHER": "WEATHER"
+
+# Used for the disguise option Sound Category
+"ACTUAL": "ACTUAL"
+
+# Used for the disguise option Sound Category
+"DISGUISE": "DISGUISE"
+
+# Description for the disguise option ParticleType
+"The different particles of Minecraft: https://www.spigotmc.org/wiki/lib-s-disguises-faq/#particles": "The different particles of Minecraft: https://www.spigotmc.org/wiki/lib-s-disguises-faq/#particles"
+
+# A disguise option name, has description 'The spells that an Illusioner can cast'
+"Illager Spell": "Illager Spell"
+
+# Description for the disguise option Illager Spell
+"The spells that an Illusioner can cast": "The spells that an Illusioner can cast"
+
+# Used for the disguise option Illager Spell
+"SUMMON_VEX": "SUMMON_VEX"
+
+# Used for the disguise option Illager Spell
+"FANGS": "FANGS"
+
+# Used for the disguise option Illager Spell
+"WOLOLO": "WOLOLO"
+
+# Used for the disguise option Illager Spell
+"DISAPPEAR": "DISAPPEAR"
+
+# Used for the disguise option Illager Spell
+"BLINDNESS": "BLINDNESS"
+
+# A disguise option name, has description 'ItemProfile as used for mannequins'
+"ItemProfile": "ItemProfile"
+
+# Description for the disguise option ItemProfile
+"ItemProfile as used for mannequins": "ItemProfile as used for mannequins"
+
+# Used for the disguise option SoundGroup
+"CAMEL_HUSK": "CAMEL_HUSK"
+
+# Used for the disguise option SoundGroup
+"COPPER_GOLEM": "COPPER_GOLEM"
+
+# Used for the disguise option SoundGroup
+"COPPER_GOLEM$oxidized": "COPPER_GOLEM$oxidized"
+
+# Used for the disguise option SoundGroup
+"COPPER_GOLEM$weathered": "COPPER_GOLEM$weathered"
+
+# Used for the disguise option SoundGroup
+"GHASTLING": "GHASTLING"
+
+# Used for the disguise option SoundGroup
+"HAPPY_GHAST": "HAPPY_GHAST"
+
+# Used for the disguise option SoundGroup
+"MANNEQUIN": "MANNEQUIN"
+
+# Used for the disguise option SoundGroup
+"PARCHED": "PARCHED"
+
+# Used for the disguise option SoundGroup
+"WOLF$angry": "WOLF$angry"
+
+# Used for the disguise option SoundGroup
+"WOLF$big": "WOLF$big"
+
+# Used for the disguise option SoundGroup
+"WOLF$cute": "WOLF$cute"
+
+# Used for the disguise option SoundGroup
+"WOLF$grumpy": "WOLF$grumpy"
+
+# Used for the disguise option SoundGroup
+"WOLF$puglin": "WOLF$puglin"
+
+# Used for the disguise option SoundGroup
+"WOLF$sad": "WOLF$sad"
+
+# Used for the disguise option SoundGroup
+"ZOMBIE_NAUTILUS": "ZOMBIE_NAUTILUS"
+
+# A disguise option name, has description 'Creates a fake entity to simulate a hitbox that would otherwise not be there, Interaction is default using '<width.0>:<height.0>'. 'Slime:<size>', <Living>:<scale.0>. Add an extra ':<y-offset.0>' for offsetting Y location. Read more at https://www.spigotmc.org/wiki/lib-s-disguises-using-the-commands/#interactive-bounding-boxes'
+"Interactive Box": "Interactive Box"
+
+# Description for the disguise option Interactive Box
+"Creates a fake entity to simulate a hitbox that would otherwise not be there, Interaction is default using '<width.0>:<height.0>'. 'Slime:<size>', <Living>:<scale.0>. Add an extra ':<y-offset.0>' for offsetting Y location. Read more at https://www.spigotmc.org/wiki/lib-s-disguises-using-the-commands/#interactive-bounding-boxes": "Creates a fake entity to simulate a hitbox that would otherwise not be there, Interaction is default using '<width.0>:<height.0>'. 'Slime:<size>', <Living>:<scale.0>. Add an extra ':<y-offset.0>' for offsetting Y location. Read more at https://www.spigotmc.org/wiki/lib-s-disguises-using-the-commands/#interactive-bounding-boxes"
+
+# A disguise option name, has description 'Sets the server-side hitbox half-extents as width,height,depth (full block sizes, not half-widths). Example: 1,2,1'
+"Server Hitbox": "Server Hitbox"
+
+# Description for the disguise option Server Hitbox
+"Sets the server-side hitbox half-extents as width,height,depth (full block sizes, not half-widths). Example: 1,2,1": "Sets the server-side hitbox half-extents as width,height,depth (full block sizes, not half-widths). Example: 1,2,1"

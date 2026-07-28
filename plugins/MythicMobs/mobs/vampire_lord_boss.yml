@@ -1,0 +1,98 @@
+# ============================================================================
+# BOSS "BÁ TƯỚC HUYẾT NGUYỆT" — dùng bộ VFX máu (Bloodmoon Vampire Pack)
+# Triệu hồi thủ công qua lệnh admin: /mm mobs spawn VAMPIRE_LORD_BOSS
+# Toàn bộ damage được gọi TRỰC TIẾP trên mob (không lồng qua skill con với
+# targeter khác) — đúng theo pattern đã chứng minh hoạt động ở prison_rank_mobs.yml
+#
+# Disguise: gắn skin custom qua LibsDisguises, dùng field native `Disguise:`
+# bên dưới trỏ tới named disguise "vampirelordboss" (định nghĩa trong
+# plugins/LibsDisguises/configs/disguises.yml, tạo bằng lệnh /savedisguise —
+# xem chi tiết & lý do tại plugins/MythicMobs/docs/HUONG_DAN_GAN_SKIN_DISGUISE_CHO_MOB.md).
+# Khác với quy tắc "không dùng disguise" ở prison_rank_mobs.yml — boss này
+# CHỦ Ý dùng disguise theo yêu cầu riêng.
+# ============================================================================
+
+VAMPIRE_LORD_BOSS:
+  Type: WITHER_SKELETON
+  Display: "&5&l[THẾ LỰC HẮC ÁM] &r&4&lBá Tước Huyết Nguyệt"
+  Health: 9500
+  Damage: 162
+  Disguise: vampirelordboss
+  Options:
+    PreventOtherDrops: true
+    MovementSpeed: 0.32
+    Scale: 1.7
+    AlwaysShowName: true
+    Despawn: true
+    PreventSunburn: true
+    Unbreakable: true
+    Silent: true
+  BossBar:
+    Enabled: true
+    Title: "&5&l[THẾ LỰC HẮC ÁM] &4&lBá Tước Huyết Nguyệt"
+    Range: 65
+  Skills:
+    - skill{s=Boss_Anti_Kite_Pull} @target ~onTimer:10
+
+    # ---- CHÂN KHÍ HUYẾT NGUYỆT — bồi thêm 1 phần dame xuyên giáp cố định
+    # mỗi nhát chém tay (đòn tay chính vẫn dùng stat Damage vanilla ở trên,
+    # chịu ảnh hưởng đầy đủ bởi giáp/né/defense như bình thường).
+    - damage{amount=26;ignorearmor=true;damagecause=MAGIC} @target ~onAttack
+
+    # ---- CHÉM SONG KIẾM HUYẾT NGUYỆT ----
+    - effect:sound{s=entity.player.attack.sweep;volume=1;pitch=0.6} @self ~onTimer:90
+    - effect:sound{s=entity.wither.shoot;volume=0.6;pitch=1.3} @self ~onTimer:90
+    - summon{type=VFX_Bloodmoon_Slash_DIAG1;amount=1;radius=0;yRadius=0;onSurface=false} @forward{f=1.5;y=1;lockpitch=true} ~onTimer:90
+    - summon{type=VFX_Bloodmoon_Slash_DIAG2;amount=1;radius=0;yRadius=0;onSurface=false} @forward{f=1.5;y=1;lockpitch=true} ~onTimer:90
+    - damage{amount=255;ignorearmor=true} @PlayersInRadius{r=6} ~onTimer:90
+    - damage{amount=85;ignorearmor=true;damagecause=MAGIC} @PlayersInRadius{r=6} ~onTimer:90
+    - effect:sound{s=item.trident.hit;volume=0.8;pitch=1} @self ~onTimer:98
+    - summon{type=VFX_Bloodmoon_THRUST;amount=1;radius=0;yRadius=0;onSurface=false} @forward{f=2;y=1;lockpitch=true} ~onTimer:98
+    - damage{amount=289;ignorearmor=true} @PlayersInRadius{r=6} ~onTimer:98
+    - damage{amount=94;ignorearmor=true;damagecause=MAGIC} @PlayersInRadius{r=6} ~onTimer:98
+
+    # ---- KIM GAI TỬ VONG ----
+    - message{m="&5&l[Bá Tước Huyết Nguyệt]&r &7Máu của các ngươi... sẽ nở hoa!"} @PlayersInRadius{r=35} ~onTimer:130
+    - effect:sound{s=entity.silverfish.hurt;volume=1;pitch=0.5} @self ~onTimer:130
+    - summon{type=VFX_BLOODSPIKES_MEDIUM;amount=1;radius=0;yRadius=0;onSurface=true} @PlayersInRadius{r=16;limit=3;sort=RANDOM} ~onTimer:130
+    - damage{amount=128;ignorearmor=true} @PlayersInRadius{r=16} ~onTimer:130
+    - damage{amount=43;ignorearmor=true;damagecause=MAGIC} @PlayersInRadius{r=16} ~onTimer:130
+    - summon{type=VFX_BLOODSPIKES_MEDIUM;amount=1;radius=0;yRadius=0;onSurface=true} @PlayersInRadius{r=16;limit=3;sort=RANDOM} ~onTimer:145
+    - damage{amount=128;ignorearmor=true} @PlayersInRadius{r=16} ~onTimer:145
+    - damage{amount=43;ignorearmor=true;damagecause=MAGIC} @PlayersInRadius{r=16} ~onTimer:145
+    - summon{type=VFX_BLOODSPIKES_MEDIUM;amount=1;radius=0;yRadius=0;onSurface=true} @PlayersInRadius{r=16;limit=3;sort=RANDOM} ~onTimer:160
+    - damage{amount=128;ignorearmor=true} @PlayersInRadius{r=16} ~onTimer:160
+    - damage{amount=43;ignorearmor=true;damagecause=MAGIC} @PlayersInRadius{r=16} ~onTimer:160
+
+    # ---- VẪN THẠCH HUYẾT NGUYỆT ----
+    - message{m="&c&l[Bá Tước Huyết Nguyệt]&r &7Bầu trời sẽ đổ máu!"} @PlayersInRadius{r=35} ~onTimer:180
+    - effect:sound{s=entity.warden.dig;volume=1;pitch=1.6} @self ~onTimer:180
+    - effect:particlering{p=dust_color_transition;color1=#FF0000;color2=#330101;radius=4;points=40;amount=1;hS=0;vS=0;y=0.1} @PlayersInRadius{r=40;limit=1} ~onTimer:180
+    - summon{type=VFX_BLOOD_METEOR;amount=1;radius=0;yRadius=0;onSurface=true} @PlayersInRadius{r=40;limit=1} ~onTimer:190
+    - summon{type=VFX_BLOOD_METEOR_Rupture;amount=1;radius=0;yRadius=0;onSurface=true} @PlayersInRadius{r=40;limit=1} ~onTimer:216
+    - effect:sound{s=entity.generic.explode;volume=1.5;pitch=0.6} @PlayersInRadius{r=40;limit=1} ~onTimer:216
+    - damage{amount=319;ignorearmor=true;ignoreiframes=true} @PlayersInRadius{r=8} ~onTimer:216
+    - damage{amount=106;ignorearmor=true;ignoreiframes=true;damagecause=MAGIC} @PlayersInRadius{r=8} ~onTimer:216
+
+    # ---- LƯỠI HÁI TỬ THẦN (dash tới người chơi đang bị boss nhắm) ----
+    - skill{s=Vampire_Lord_Scythe_Reap} @target ~onTimer:230
+
+    # ---- ĐÀN DƠI HUYẾT NGUYỆT (lifesteal) ----
+    - message{m="&d&l[Bá Tước Huyết Nguyệt]&r &7Hút cạn sinh lực của các ngươi!"} @PlayersInRadius{r=35} ~onTimer:270
+    - effect:sound{s=entity.bat.loop;volume=1;pitch=1} @self ~onTimer:270
+    - summon{type=VFX_BLOOD_BAT;amount=3;radius=6;yRadius=1;onSurface=false} @self ~onTimer:270
+    - damage{amount=95;ignorearmor=true} @PlayersInRadius{r=10} ~onTimer:272
+    - damage{amount=32;ignorearmor=true;damagecause=MAGIC} @PlayersInRadius{r=10} ~onTimer:272
+    - heal{amount=150} @self ~onTimer:272
+    - summon{type=VFX_BLOOD_BAT;amount=3;radius=6;yRadius=1;onSurface=false} @self ~onTimer:284
+    - damage{amount=95;ignorearmor=true} @PlayersInRadius{r=10} ~onTimer:286
+    - damage{amount=32;ignorearmor=true;damagecause=MAGIC} @PlayersInRadius{r=10} ~onTimer:286
+    - heal{amount=150} @self ~onTimer:286
+    - summon{type=VFX_BLOOD_BAT;amount=3;radius=6;yRadius=1;onSurface=false} @self ~onTimer:298
+    - damage{amount=95;ignorearmor=true} @PlayersInRadius{r=10} ~onTimer:300
+    - damage{amount=32;ignorearmor=true;damagecause=MAGIC} @PlayersInRadius{r=10} ~onTimer:300
+    - heal{amount=150} @self ~onTimer:300
+
+    - message{m="&4&l[BOSS] &fBá Tước Huyết Nguyệt &fđã thức tỉnh từ ánh trăng máu — CHẠY ĐI!"} @server ~onSpawn
+    - skill{s=Vampire_Lord_On_Death} @self ~onDeath
+    - basedamage{m=1.5} ~onAttack

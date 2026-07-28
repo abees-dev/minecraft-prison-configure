@@ -1,8 +1,10 @@
 # This config is for options that should only be touched if you're having compatibility issues with other plugins
 
-# Shall I disguise the sounds?
-# This turns your damage sound into a MOOOO
-DisguiseSounds: true
+# If Lib's Disguises should try to load into registries or not
+# Set this to true if you're using resource packs, but basically there's no good solution that comes to mind at this time
+# that enables resource pack disguises, without conflicting
+# I have no idea why it's possible to register registry stuff while plugins are enabling.
+LoadIntoRegistries: false
 
 # Some players have issues with conflicting plugins where disguised entities will show the wrong armor
 # This should be left alone unless you're trying to solve this issue. Such as MM and stone blocks.
@@ -17,6 +19,10 @@ RandomDisguiseOptions: true
 # Set this to true if you want the disguise to get the animations of the disguised entity. Such as invisible, on fire, sprinting, sneaking, blocking
 # This is only valid if you set a animation on the disguise itself. Because the entity's animations are applied otherwise.
 AddEntityAnimations: true
+
+# Not all entities play their attack animation the same way, an iron golem for example sends a different packet than a player's arm swing
+# Set this to false if you do not want Lib's Disguises to convert the animation when it's needed.
+SendAttackAnimations: true
 
 # This controls if a entity's max health is determined by the entity, or by the disguise.
 # Wither is 200, a player is 20. With this enabled, a player disguised as a wither will have the boss bar health accurate to the players health.
@@ -33,6 +39,12 @@ MiscDisguisesForLiving: true
 # Shall I send the velocity packets? I REALLY recommend you don't disable.
 # This is the only thing allowing the mobs to fly without glitching out.
 SendVelocity: true
+
+# From 1.19.2 onwards, when ViaBackwards is not installed, Lib's Disguises uses hidden tablist packets instead of a hackier workaround.
+# This is for player disguises, as tablist packets are needed to show the skin. Unfortunately, this means that the hidden tablist
+# players will show in the player tab-complete. You can disable the hidden tablist players and go back to the older tablist behavior.
+# But this may not result in a better user experience. Default is true
+FancyHiddenTabs: true
 
 # This will help performance, especially with CPU
 # Due to safety reasons, self disguises can never have their packets disabled.
@@ -84,3 +96,6 @@ CarpetableLlama: false
 # Can a player interact with a non-saddled horse of any type, to give it a saddle?
 # This does not change what you can ride or control!
 SaddleableHorse: false
+
+# This prevents allay disguises from 'holding' items that are not actually being held.
+AllayItemSwitchable: false

@@ -670,3 +670,24 @@
 
 # Used as a shortcut for setBaby(false) when disguising an entity
 "adult": "adult"
+
+# Found in the disguise options for Entity and uses a InteractiveBoundingBox
+"setBoundingBox": "setBoundingBox"
+
+# Found in the disguise options for Entity and uses a boolean
+"setPlayIdleSounds": "setPlayIdleSounds"
+
+# Found in the disguise options for Entity and uses a boolean
+"setReplaceSounds": "setReplaceSounds"
+
+# Found in the disguise options for Entity and uses a FakeBoundingBox
+"setServerBoundingBox": "setServerBoundingBox"
+
+# Found in the disguise options for Entity and uses a DisguiseSoundCategory
+"setSoundCategory": "setSoundCategory"
+
+# Found in the disguise options for Illager and uses a Spell
+"setSpell": "setSpell"
+
+# Found in the disguise options for TextDisplay and uses a Component
+"setAdvText": "setAdvText"

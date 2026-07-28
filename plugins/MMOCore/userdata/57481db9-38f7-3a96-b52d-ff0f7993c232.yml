@@ -1,17 +1,17 @@
 class-points: 91
-skill-points: 3
+skill-points: 24
 skill-reallocation-points: 0
 attribute-points: 0
 attribute-realloc-points: 0
-level: 1
-experience: 0.0
+level: 24
+experience: 16700.0
 class: MAGE
 waypoints: []
 friends: []
-last-login: 1785072442001
+last-login: 1785168017035
 skill-tree-reallocation-points: 0
-health: 637.1015014648438
-mana: 27.0
+health: 628.7999877929688
+mana: 54.599999999999994
 stellium: 20.0
 stamina: 20.0
 unlocked-items: []
@@ -103,7 +103,7 @@ skill-tree-level:
 times-claimed:
   class_MAGE:
     class_exp_table:
-      skill_point: 3
+      skill_point: 24
 attribute:
   dexterity: 40
   strength: 31

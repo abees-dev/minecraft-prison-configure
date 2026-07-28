@@ -44,4 +44,4 @@ HearSelfDisguise: true
 # VISIBLE = Oversized self disguises will display at their full size, obscuring the player's viewpoint
 # SCALED = Oversized self disguises will be seen as a scaled down version, acts like 'HIDDEN' if scaling isn't supported
 # HIDDEN = Oversized self disgiuses will not be shown to the disguised player
-TallSelfDisguises: SCALED
+TallSelfDisguises: 'SCALED'

@@ -22,11 +22,11 @@ settings:
   sample-count: 12
   attribute:
     maxHealth:
-      max: 2048.0
+      max: 1.0E7
     movementSpeed:
       max: 2048.0
     attackDamage:
-      max: 2048.0
+      max: 100000.0
   log-villager-deaths: true
   log-named-deaths: true
   save-user-cache-on-stop-only: false

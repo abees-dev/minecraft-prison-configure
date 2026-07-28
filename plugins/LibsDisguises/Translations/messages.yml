@@ -45,12 +45,6 @@
 # Reference: CANNOT_FIND_PLAYER_UUID
 "<red>Cannot find the uuid '%s'": "<red>Cannot find the uuid '%s'"
 
-# Reference: CLICK_TIMER
-"<red>Right click a entity in the next %s seconds to grab the disguise reference!": "<red>Right click a entity in the next %s seconds to grab the disguise reference!"
-
-# Reference: CLONE_HELP1
-"<dark_green>Right click a entity to get a disguise reference you can pass to other disguise commands!": "<dark_green>Right click a entity to get a disguise reference you can pass to other disguise commands!"
-
 # Reference: CLONE_HELP2
 "<dark_green>Security note: Any references you create will be available to all players able to use disguise references.": "<dark_green>Security note: Any references you create will be available to all players able to use disguise references."
 
@@ -156,9 +150,6 @@
 # Reference: DISRADIUS_FAIL
 "<red>Couldn't find any entities to disguise!": "<red>Couldn't find any entities to disguise!"
 
-# Reference: DMODENT_HELP1
-"<dark_green>Choose the options for a disguise then right click a entity to modify it!": "<dark_green>Choose the options for a disguise then right click a entity to modify it!"
-
 # Reference: DMODIFY_HELP1
 "<dark_green>Modify your own disguise as you wear it!": "<dark_green>Modify your own disguise as you wear it!"
 
@@ -194,9 +185,6 @@
 
 # Reference: DMODRADIUS
 "<red>Successfully modified the disguises of %s entities!": "<red>Successfully modified the disguises of %s entities!"
-
-# Reference: DMODRADIUS_HELP1
-"<dark_green>Modify the disguises in a radius! Caps at %s blocks!": "<dark_green>Modify the disguises in a radius! Caps at %s blocks!"
 
 # Reference: DHELP_SHOW
 "Show": "Show"
@@ -242,9 +230,6 @@
 
 # Reference: DRADIUS_JOINER
 "<dark_green>, </dark_green>": "<dark_green>, </dark_green>"
-
-# Reference: DRADIUS_HELP1
-"<dark_green>Disguise all entities in a radius! Caps at %s blocks!": "<dark_green>Disguise all entities in a radius! Caps at %s blocks!"
 
 # Reference: DRADIUS_HELP3
 "<dark_green>/disguiseradius <<green>EntityType</green>(<green>Optional</green>)> <<green>Radius</green>> player <<green>Name<dark_green>>": "<dark_green>/disguiseradius <<green>EntityType</green>(<green>Optional</green>)> <<green>Radius</green>> player <<green>Name<dark_green>>"
@@ -486,12 +471,6 @@
 # Reference: PARSE_TOO_MANY_ARGS
 "<red>Error! %s doesn't know what to do with %s!": "<red>Error! %s doesn't know what to do with %s!"
 
-# Reference: PARSE_INVALID_TIME
-"<red>Error! %s is not a valid time! Use s,m,h,d or secs,mins,hours,days": "<red>Error! %s is not a valid time! Use s,m,h,d or secs,mins,hours,days"
-
-# Reference: PARSE_INVALID_TIME_SEQUENCE
-"<red>Error! %s is not a valid time! Do amount then time, eg. 4min10sec": "<red>Error! %s is not a valid time! Do amount then time, eg. 4min10sec"
-
 # Reference: PARSE_USE_SECOND_NUM
 "<red>Error! Only the disguises %s and %s uses a second number!": "<red>Error! Only the disguises %s and %s uses a second number!"
 
@@ -518,9 +497,6 @@
 
 # Reference: UNDISRADIUS
 "<red>Successfully undisguised %s entities!": "<red>Successfully undisguised %s entities!"
-
-# Reference: UPDATE_READY
-"<red>[LibsDisguises] <dark_red>There is a update ready to be downloaded! You are using <red>v%s</red>, the new version is <red>v%s</red>!": "<red>[LibsDisguises] <dark_red>There is a update ready to be downloaded! You are using <red>v%s</red>, the new version is <red>v%s</red>!"
 
 # Reference: UPDATE_READY_SNAPSHOT
 "<red>[LibsDisguises]</red> <dark_red>There is a new build of Lib's Disguises! You are using <red>%s</red>, the latest build is</dark_red> <red>#%s</red>!": "<red>[LibsDisguises]</red> <dark_red>There is a new build of Lib's Disguises! You are using <red>%s</red>, the latest build is</dark_red> <red>#%s</red>!"
@@ -863,3 +839,114 @@
 
 # Reference: SELF_DISGUISE_HIDDEN
 "<green>Self disguise hidden as it's too tall..": "<green>Self disguise hidden as it's too tall.."
+
+# Reference: ANIMATE_ENTITY_CLICK
+"<red>Right click a disguised entity in the next %s seconds to play the animation!</red>": "<red>Right click a disguised entity in the next %s seconds to play the animation!</red>"
+
+# Reference: CLICK_TIMER
+"<red>Right click an entity in the next %s seconds to grab the disguise reference!</red>": "<red>Right click an entity in the next %s seconds to grab the disguise reference!</red>"
+
+# Reference: CLONE_HELP1
+"<dark_green>Right click an entity to get a disguise reference you can pass to other disguise commands!</dark_green>": "<dark_green>Right click an entity to get a disguise reference you can pass to other disguise commands!</dark_green>"
+
+# Reference: DISABLED_CONFIG_DISGUISE
+"<red>That disguise was disabled in the config!</red>": "<red>That disguise was disabled in the config!</red>"
+
+# Reference: DISABLED_CONFIG_METHOD
+"<red>The disguise method %s was disabled in the config!</red>": "<red>The disguise method %s was disabled in the config!</red>"
+
+# Reference: DISGUISE_ANIMATE_HELP_COMMAND
+"<green>/%s <animation></green> <dark_green>- play a supported animation on the disguise.</dark_green>": "<green>/%s <animation></green> <dark_green>- play a supported animation on the disguise.</dark_green>"
+
+# Reference: DISGUISE_ANIMATE_HELP_DISGUISED
+"<dark_green>Disguise supports the following animations:</dark_green> <green>%s</green>": "<dark_green>Disguise supports the following animations:</dark_green> <green>%s</green>"
+
+# Reference: DISGUISE_ANIMATE_SEE_ALL_ANIMATIONS
+"<dark_green>To see all animations, use</dark_green> <green>/disguisehelp %s</green>": "<dark_green>To see all animations, use</dark_green> <green>/disguisehelp %s</green>"
+
+# Reference: DISGUISE_ENTITY_SELECTOR
+"<red>Successfully disguised %s entities!</red>": "<red>Successfully disguised %s entities!</red>"
+
+# Reference: DISGUISE_ENTITY_SELECTOR_INVALID
+"<red>The entity selector \"<dark_red>%s</dark_red>\" is invalid!</red>": "<red>The entity selector \"<dark_red>%s</dark_red>\" is invalid!</red>"
+
+# Reference: DISGUISE_ENTITY_SELECTOR_NO_ENTITIES
+"<red>Couldn't find any entities to disguise!</red>": "<red>Couldn't find any entities to disguise!</red>"
+
+# Reference: DMODENT_HELP1
+"<dark_green>Choose the options for a disguise then right click an entity to modify it!</dark_green>": "<dark_green>Choose the options for a disguise then right click an entity to modify it!</dark_green>"
+
+# Reference: DMODRADIUS_HELP1
+"<dark_green>Modify nearby disguises! Caps at <green>%s</green> blocks!": "<dark_green>Modify nearby disguises! Caps at <green>%s</green> blocks!"
+
+# Reference: DMODSELECTOR_HELP1
+"<dark_green>Modify entity disguises via entity selector! If the selector contains spaces, \"quote\" it.</dark_green": "<dark_green>Modify entity disguises via entity selector! If the selector contains spaces, \"quote\" it.</dark_green"
+
+# Reference: DMODSELECTOR_HELP2
+"<dark_green>/disguisemodifyselector <green>Selector</green> <<green>Arguments</green>></dark_green>": "<dark_green>/disguisemodifyselector <green>Selector</green> <<green>Arguments</green>></dark_green>"
+
+# Reference: DRADIUS_HELP1
+"<dark_green>Disguise nearby entities! Caps at <green>%s</green> blocks!": "<dark_green>Disguise nearby entities! Caps at <green>%s</green> blocks!"
+
+# Reference: DSELECTOR_HELP1
+"<dark_green>Disguise entities via entity selector! If the selector contains spaces, \"quote\" it.</dark_green": "<dark_green>Disguise entities via entity selector! If the selector contains spaces, \"quote\" it.</dark_green"
+
+# Reference: DSELECTOR_HELP2
+"<dark_green>/disguiseselector <green>Selector</green> <<green>Disguise Args</green>></dark_green>": "<dark_green>/disguiseselector <green>Selector</green> <<green>Disguise Args</green>></dark_green>"
+
+# Reference: D_ANIMATE_ENTITY
+"<dark_green>Provide the animation to play, then right click a disguised entity!</dark_green>": "<dark_green>Provide the animation to play, then right click a disguised entity!</dark_green>"
+
+# Reference: D_ANIMATE_PLAYER
+"<green>/%s <Player/UUID> <Animation></green> <dark_green>- Play an animation on a disguised player/uuid!</dark_green>": "<green>/%s <Player/UUID> <Animation></green> <dark_green>- Play an animation on a disguised player/uuid!</dark_green>"
+
+# Reference: D_ANIM_RADIUS_FAIL
+"<red>No disguises in range support that animation!</red>": "<red>No disguises in range support that animation!</red>"
+
+# Reference: D_ANIM_RADIUS_HELP_1
+"<dark_green>Play animations on nearby disguises! Caps at <green>%s</green> blocks!</dark_green>": "<dark_green>Play animations on nearby disguises! Caps at <green>%s</green> blocks!</dark_green>"
+
+# Reference: D_ANIM_RADIUS_HELP_2
+"<dark_green>/%s <DisguiseType(Optional)> <Radius> <Animation></dark_green>": "<dark_green>/%s <DisguiseType(Optional)> <Radius> <Animation></dark_green>"
+
+# Reference: D_ANIM_SELECTOR_HELP_1
+"<dark_green>Play animations on nearby disguises! \"Quote\" the entity selector if it contains spaces.</dark_green>": "<dark_green>Play animations on nearby disguises! \"Quote\" the entity selector if it contains spaces.</dark_green>"
+
+# Reference: D_ANIM_SELECTOR_HELP_2
+"<dark_green>/%s <Entity Selector> <Animation></dark_green>": "<dark_green>/%s <Entity Selector> <Animation></dark_green>"
+
+# Reference: D_ANIM_RADIUS_NEED_ANIMS
+"<red>You need to supply the animation as well as the radius</red>": "<red>You need to supply the animation as well as the radius</red>"
+
+# Reference: D_ANIM_RADIUS_NEED_ANIMS_ENTITY
+"<red>You need to supply the animation as well as the radius and EntityType": "<red>You need to supply the animation as well as the radius and EntityType"
+
+# Reference: D_ANIM_SELECTOR_NEED_ANIMS_ENTITY
+"<red>You need to supply the animation as well as the entity selector</red>": "<red>You need to supply the animation as well as the entity selector</red>"
+
+# Reference: D_ANIM_RADIUS_SUCCESS
+"<red>Successfully played animation on %s disguises!</red>": "<red>Successfully played animation on %s disguises!</red>"
+
+# Reference: NO_PERMISSION_VIEW_SELF
+"<red>You do not have the permission to view self disguises!": "<red>You do not have the permission to view self disguises!"
+
+# Reference: PARSE_INVALID_ANIMATION
+"<red>Error! The animation <green>%s</green> does not exist!</red>": "<red>Error! The animation <green>%s</green> does not exist!</red>"
+
+# Reference: PARSE_INVALID_TIME
+"<red>Error! <green>%s</green> is not a valid time! Use s,m,h,d or secs,mins,hours,days": "<red>Error! <green>%s</green> is not a valid time! Use s,m,h,d or secs,mins,hours,days"
+
+# Reference: PARSE_INVALID_TIME_SEQUENCE
+"<red>Error! <green>%s</green> is not a valid time! Do amount then time, eg. 4min10sec": "<red>Error! <green>%s</green> is not a valid time! Do amount then time, eg. 4min10sec"
+
+# Reference: PARSE_MISMATCHED_ANIMATION
+"<red>Error! Animation <green>%s</green> is not compatible with that disguise!</red>": "<red>Error! Animation <green>%s</green> is not compatible with that disguise!</red>"
+
+# Reference: UNDISG_SELECTOR_HELP
+"<red>/undisguiseselector <Entity Selector></red> - <green>Undisguise entities via entity selector</green>": "<red>/undisguiseselector <Entity Selector></red> - <green>Undisguise entities via entity selector</green>"
+
+# Reference: UNDISG_SELECTOR_SUCCESS
+"<red>Successfully undisguised %s entities!</red>": "<red>Successfully undisguised %s entities!</red>"
+
+# Reference: UPDATE_READY
+"<red>[LibsDisguises]</red> <dark_red>There is an update ready to be downloaded! You are using <red>v%s</red>, the new version is <red>v%s</red>!": "<red>[LibsDisguises]</red> <dark_red>There is an update ready to be downloaded! You are using <red>v%s</red>, the new version is <red>v%s</red>!"

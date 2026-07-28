@@ -10,13 +10,14 @@ example_group:
   footer:
     - "applied to a group"
 
- # default settings for all groups, all groups will take properties from this section unless player's primary group overrides a specific setting
+  # default settings for all groups, all groups will take properties from this section unless player's primary group overrides a specific setting
 _DEFAULT_:
   tabprefix: "%group%"
   tagprefix: "%group%"
   customtabname: "%player%"
   tabsuffix: "%luckperms-suffix%"
   tagsuffix: "%luckperms-suffix%"
+  belowname: "&c❤ %mmocore_health%/%mmocore_max_health%"
 
 per-world:
   world1:

@@ -1,62 +1,50 @@
-# https://github.com/NEZNAMY/TAB/wiki/Feature-guide:-Header-&-Footer
 header-footer:
   enabled: true
-  header:
-    - "<#FFD700><strikethrough>                                                </strikethrough></#FFD700>"
-    - "<#FFD700><bold>✦ %animation:Welcome% ✦</bold></#FFA500>"
-    - "<#DDDDDD>Xin chào, <#FFD966><bold>%player%</bold> <#DDDDDD>!"
-    - "<#DDDDDD>Đang online: <#8AFF8A>%online% <#AAAAAA>| <#DDDDDD>Staff: <#4DD0E1>%staffonline%"
-    - " "
-  footer:
-    - " "
-    - "<#DDDDDD>%animation:time%"
-    - "<#DDDDDD>Ping: <#FFFFFF>%ping%ms <#AAAAAA>| <#DDDDDD>TPS: <#8AFF8A>%tps%"
-    - " "
-    - "<#DDDDDD>%animation:web%"
-    - "<#FFD700><strikethrough>                                                </strikethrough></#FFD700>"
-  disable-condition: '%world%=disabledworld'
-
-# https://github.com/NEZNAMY/TAB/wiki/Feature-guide:-Tablist-name-formatting
+  designs:
+    default:
+      display-condition: '%world%!=disabledworld'
+      header:
+      - <#FFD700><strikethrough>                                                </strikethrough></#FFD700>
+      - <#FFD700><bold>✦ %animation:Welcome% ✦</bold></#FFA500>
+      - <#DDDDDD>Xin chào, <#FFD966><bold>%player%</bold> <#DDDDDD>!
+      - '<#DDDDDD>Đang online: <#8AFF8A>%online% <#AAAAAA>| <#DDDDDD>Staff: <#4DD0E1>%staffonline%'
+      - ' '
+      footer:
+      - ' '
+      - <#DDDDDD>%animation:time%
+      - '<#DDDDDD>Ping: <#FFFFFF>%ping%ms <#AAAAAA>| <#DDDDDD>TPS: <#8AFF8A>%tps%'
+      - ' '
+      - <#DDDDDD>%animation:web%
+      - <#FFD700><strikethrough>                                                </strikethrough></#FFD700>
 tablist-name-formatting:
   enabled: true
-  anti-override: true
   disable-condition: '%world%=disabledworld'
-
-# https://github.com/NEZNAMY/TAB/wiki/Feature-guide:-Nametags
 scoreboard-teams:
   enabled: true
   enable-collision: true
   invisible-nametags: false
-  anti-override: true
-  # https://github.com/NEZNAMY/TAB/wiki/Feature-guide:-Sorting-players-in-tablist
   sorting-types:
-    - "GROUPS:owner,admin,mod,helper,builder,legend,elite,mvpplus,mvp,vipplus,vip,xprison_rank_9,xprison_rank_8,xprison_rank_7,xprison_rank_6,xprison_rank_5,xprison_rank_4,xprison_rank_3,xprison_rank_2,xprison_rank_1,default"
-    - "PLACEHOLDER_A_TO_Z:%player%"
+  - GROUPS:owner,admin,mod,helper,builder,legend,elite,mvpplus,mvp,vipplus,vip,xprison_rank_9,xprison_rank_8,xprison_rank_7,xprison_rank_6,xprison_rank_5,xprison_rank_4,xprison_rank_3,xprison_rank_2,xprison_rank_1,default
+  - PLACEHOLDER_A_TO_Z:%player%
   case-sensitive-sorting: true
   can-see-friendly-invisibles: false
   disable-condition: '%world%=disabledworld'
-
-# https://github.com/NEZNAMY/TAB/wiki/Feature-guide:-Playerlist-Objective
 playerlist-objective:
   enabled: true
-  value: "%ping%"
-  fancy-value: "<#AAAAAA>Ping: <#FFFFFF>%ping%ms"
+  value: '%ping%'
+  fancy-value: '<#AAAAAA>Ping: <#FFFFFF>%ping%ms'
   disable-condition: '%world%=disabledworld'
-
-# https://github.com/NEZNAMY/TAB/wiki/Feature-guide:-Belowname
+  title: TAB
+  render-type: INTEGER
 belowname-objective:
   enabled: true
-  value: "%mmocore_level%"
-  title: "&aLevel"
-  fancy-value: "&aLv. %mmocore_level%"
-  fancy-value-default: "NPC"
+  value: '%mmocore_level%'
+  title: '&aLevel'
+  fancy-value: '&aLv. %mmocore_level%'
+  fancy-value-default: NPC
   disable-condition: '%world%=disabledworld'
-
-# https://github.com/NEZNAMY/TAB/wiki/Feature-guide:-Spectator-fix
 prevent-spectator-effect:
   enabled: false
-
-# https://github.com/NEZNAMY/TAB/wiki/Feature-guide:-Bossbar
 bossbar:
   enabled: false
   toggle-command: /bossbar
@@ -64,58 +52,52 @@ bossbar:
   hidden-by-default: false
   bars:
     ServerInfo:
-      style: "PROGRESS" # for 1.9+: PROGRESS, NOTCHED_6, NOTCHED_10, NOTCHED_12, NOTCHED_20
-      color: "%animation:barcolors%" # for 1.9+: BLUE, GREEN, PINK, PURPLE, RED, WHITE, YELLOW
-      progress: "100" # in %
-      text: "&fWebsite: &bwww.domain.com"
-
-# https://github.com/NEZNAMY/TAB/wiki/Feature-guide:-Scoreboard
+      style: PROGRESS
+      color: '%animation:barcolors%'
+      progress: '100'
+      text: '&fWebsite: &bwww.domain.com'
 scoreboard:
   enabled: true
   toggle-command: /sb
   remember-toggle-choice: false
   hidden-by-default: false
-  use-numbers: false
-  static-number: 0
   delay-on-join-milliseconds: 0
   scoreboards:
     scoreboard-1.20.3+:
-      title: "<#FFD700><bold>✦ %player% ✦</bold></#FFA500>"
-      display-condition: "%player-version-id%>=765;%bedrock%=false" # Only display it to players using 1.20.3+ AND NOT bedrock edition
+      title: <#FFD700><bold>✦ %player% ✦</bold></#FFA500>
+      display-condition: '%player-version-id%>=765;%bedrock%=false'
       lines:
-        - "<#CCCCCC><strikethrough>                     </strikethrough></#CCCCCC>"
-        - "<#FFD966>⭐ Rank <#AAAAAA>» %group% %luckperms-suffix%"
-        - "<#E0AAFF>♛ Prestige <#AAAAAA>» <#FFFFFF>%xprison_prestige%"
-        - " "
-        - "<#8AFF8A>⚔ Level <#AAAAAA>» <#FFFFFF>%mmocore_level% <#E8E8E8>(%mmocore_class%)"
-        - "<#8AFF8A>✦ EXP <#AAAAAA>» <#FFFFFF>%mmocore_level_percent%%"
-        - "<#8AFF8A>✧ Điểm ATT <#AAAAAA>» <#FFFFFF>%mmocore_attribute_points%"
-        - " "
-        - "<#6BCB77>$ Money <#AAAAAA>» <#B6FFB6>%vault_eco_balance_formatted%"
-        - "<#4DD0E1>✪ Points <#AAAAAA>» <#B2EBF2>%playerpoints_points_formatted%"
-        - " "
-        - "<#DDDDDD>%date% <#AAAAAA>• <#DDDDDD>%time%"
-        - "<#DDDDDD>⏱ Ping <#AAAAAA>» <#FFFFFF>%ping%ms"
-        - "<#CCCCCC><strikethrough>                     </strikethrough></#CCCCCC>"
+      - <#CCCCCC><strikethrough>                     </strikethrough></#CCCCCC>
+      - <#FFD966>⭐ Rank <#AAAAAA>» %group% %luckperms-suffix%
+      - <#E0AAFF>♛ Prestige <#AAAAAA>» <#FFFFFF>%xprison_prestige%
+      - ' '
+      - <#8AFF8A>⚔ Level <#AAAAAA>» <#FFFFFF>%mmocore_level% <#E8E8E8>(%mmocore_class%)
+      - <#8AFF8A>✦ EXP <#AAAAAA>» <#FFFFFF>%mmocore_level_percent%%
+      - <#8AFF8A>✧ Điểm ATT <#AAAAAA>» <#FFFFFF>%mmocore_attribute_points%
+      - ' '
+      - <#6BCB77>$ Money <#AAAAAA>» <#B6FFB6>%vault_eco_balance_formatted%
+      - <#4DD0E1>✪ Points <#AAAAAA>» <#B2EBF2>%playerpoints_points_formatted%
+      - ' '
+      - <#DDDDDD>%date% <#AAAAAA>• <#DDDDDD>%time%
+      - <#DDDDDD>⏱ Ping <#AAAAAA>» <#FFFFFF>%ping%ms
+      - <#CCCCCC><strikethrough>                     </strikethrough></#CCCCCC>
     scoreboard:
-      title: "<#FFD700><bold>✦ %player% ✦</bold></#FFA500>"
+      title: <#FFD700><bold>✦ %player% ✦</bold></#FFA500>
       lines:
-        - "<#CCCCCC><strikethrough>                     </strikethrough></#CCCCCC>"
-        - "<#FFD966>⭐ Rank <#AAAAAA>» %group% %luckperms-suffix%"
-        - "<#E0AAFF>♛ Prestige <#AAAAAA>» <#FFFFFF>%xprison_prestige%"
-        - " "
-        - "<#8AFF8A>⚔ Level <#AAAAAA>» <#FFFFFF>%mmocore_level% <#E8E8E8>(%mmocore_class%)"
-        - "<#8AFF8A>✦ EXP <#AAAAAA>» <#FFFFFF>%mmocore_level_percent%%"
-        - "<#8AFF8A>✧ Điểm ATT <#AAAAAA>» <#FFFFFF>%mmocore_attribute_points%"
-        - " "
-        - "<#6BCB77>$ Money <#AAAAAA>» <#B6FFB6>%vault_eco_balance_formatted%"
-        - "<#4DD0E1>✪ Points <#AAAAAA>» <#B2EBF2>%playerpoints_points_formatted%"
-        - " "
-        - "<#DDDDDD>%date% <#AAAAAA>• <#DDDDDD>%time%"
-        - "<#DDDDDD>⏱ Ping <#AAAAAA>» <#FFFFFF>%ping%ms"
-        - "<#CCCCCC><strikethrough>                     </strikethrough></#CCCCCC>"
-
-# https://github.com/NEZNAMY/TAB/wiki/Feature-guide:-Layout
+      - <#CCCCCC><strikethrough>                     </strikethrough></#CCCCCC>
+      - <#FFD966>⭐ Rank <#AAAAAA>» %group% %luckperms-suffix%
+      - <#E0AAFF>♛ Prestige <#AAAAAA>» <#FFFFFF>%xprison_prestige%
+      - ' '
+      - <#8AFF8A>⚔ Level <#AAAAAA>» <#FFFFFF>%mmocore_level% <#E8E8E8>(%mmocore_class%)
+      - <#8AFF8A>✦ EXP <#AAAAAA>» <#FFFFFF>%mmocore_level_percent%%
+      - <#8AFF8A>✧ Điểm ATT <#AAAAAA>» <#FFFFFF>%mmocore_attribute_points%
+      - ' '
+      - <#6BCB77>$ Money <#AAAAAA>» <#B6FFB6>%vault_eco_balance_formatted%
+      - <#4DD0E1>✪ Points <#AAAAAA>» <#B2EBF2>%playerpoints_points_formatted%
+      - ' '
+      - <#DDDDDD>%date% <#AAAAAA>• <#DDDDDD>%time%
+      - <#DDDDDD>⏱ Ping <#AAAAAA>» <#FFFFFF>%ping%ms
+      - <#CCCCCC><strikethrough>                     </strikethrough></#CCCCCC>
 layout:
   enabled: false
   direction: COLUMNS
@@ -126,108 +108,76 @@ layout:
   layouts:
     default:
       fixed-slots:
-        - '1|&3Website&f:'
-        - '2|&bmyserver.net'
-        - '3|&8&m                       '
-        - '4|&3Name&f:'
-        - '5|&b%player%'
-        - '7|&3Rank&f:'
-        - '8|Rank: %group%'
-        - '10|&3World&f:'
-        - '11|&b%world%'
-        - '13|&3Time&f:'
-        - '14|&b%time%'
-        - '21|&3Teamspeak&f:'
-        - '22|&bts.myserver.net'
-        - '23|&8&m                       '
-        - '41|&3Store&f:'
-        - '42|&bshop.myserver.net'
-        - '43|&8&m                       '
+      - '1|&3Website&f:'
+      - 2|&bmyserver.net
+      - '3|&8&m                       '
+      - '4|&3Name&f:'
+      - 5|&b%player%
+      - '7|&3Rank&f:'
+      - '8|Rank: %group%'
+      - '10|&3World&f:'
+      - 11|&b%world%
+      - '13|&3Time&f:'
+      - 14|&b%time%
+      - '21|&3Teamspeak&f:'
+      - 22|&bts.myserver.net
+      - '23|&8&m                       '
+      - '41|&3Store&f:'
+      - 42|&bshop.myserver.net
+      - '43|&8&m                       '
       groups:
         staff:
-          condition: permission:tab.staff
           slots:
-            - 24-40
+          - 24-40
+          display-condition: permission:tab.staff
         players:
           slots:
-            - 44-80
-
-# https://github.com/NEZNAMY/TAB/wiki/Feature-guide:-Ping-Spoof
+          - 44-80
 ping-spoof:
   enabled: false
   value: 0
-
 placeholders:
-  date-format: "dd.MM.yyyy"
-  time-format: "[HH:mm:ss / h:mm a]"
+  date-format: dd.MM.yyyy
+  time-format: '[HH:mm:ss / h:mm a]'
   time-offset: 0
   register-tab-expansion: false
-
-# https://github.com/NEZNAMY/TAB/wiki/Feature-guide:-Placeholder-output-replacements
+  locale: en-US
 placeholder-output-replacements:
-  "%essentials_vanished%":
-    "yes": "&7| Vanished"
-    "no": ""
-  # Static fallback for rank tag since TAB's %luckperms-prefix% only reads
-  # prefixes set directly on the user, not ones inherited from a group.
-  "%group%":
-    "xprison_rank_1": "<white><bold>[Tân Binh]</bold></white> "
-    "xprison_rank_2": "<gray><bold>[Tù Nhân]</bold></gray> "
-    "xprison_rank_3": "<green><bold>[Lao Công]</bold></green> "
-    "xprison_rank_4": "<dark_green><bold>[Thợ Đào]</bold></dark_green> "
-    "xprison_rank_5": "<aqua><bold>[Đội Trưởng]</bold></aqua> "
-    "xprison_rank_6": "<blue><bold>[Phó Quản Ngục]</bold></blue> "
-    "xprison_rank_7": "<light_purple><bold>[Quản Ngục]</bold></light_purple> "
-    "xprison_rank_8": "<gold><bold>[Bá Chủ Ngục Tù]</bold></gold> "
-    "xprison_rank_9": "<red><bold>[Vượt Ngục]</bold></red> "
-    "vip": "<green><bold>[VIP]</bold></green> "
-    "vipplus": "<dark_aqua><bold>[VIP+]</bold></dark_aqua> "
-    "mvp": "<aqua><bold>[MVP]</bold></aqua> "
-    "mvpplus": "<light_purple><bold>[MVP+]</bold></light_purple> "
-    "elite": "<gold><bold>[ELITE]</bold></gold> "
-    "legend": "<gradient:#FF5555:#FFD700><bold>[LEGEND]</bold></gradient> "
-    "default": ""
-
-# https://github.com/NEZNAMY/TAB/wiki/Feature-guide:-Conditional-placeholders
+  '%essentials_vanished%':
+    'yes': '&7| Vanished'
+    'no': ''
+  '%group%':
+    xprison_rank_1: '<white><bold>[Tân Binh]</bold></white> '
+    xprison_rank_2: '<gray><bold>[Tù Nhân]</bold></gray> '
+    xprison_rank_3: '<green><bold>[Lao Công]</bold></green> '
+    xprison_rank_4: '<dark_green><bold>[Thợ Đào]</bold></dark_green> '
+    xprison_rank_5: '<aqua><bold>[Đội Trưởng]</bold></aqua> '
+    xprison_rank_6: '<blue><bold>[Phó Quản Ngục]</bold></blue> '
+    xprison_rank_7: '<light_purple><bold>[Quản Ngục]</bold></light_purple> '
+    xprison_rank_8: '<gold><bold>[Bá Chủ Ngục Tù]</bold></gold> '
+    xprison_rank_9: '<red><bold>[Vượt Ngục]</bold></red> '
+    vip: '<green><bold>[VIP]</bold></green> '
+    vipplus: '<dark_aqua><bold>[VIP+]</bold></dark_aqua> '
+    mvp: '<aqua><bold>[MVP]</bold></aqua> '
+    mvpplus: '<light_purple><bold>[MVP+]</bold></light_purple> '
+    elite: '<gold><bold>[ELITE]</bold></gold> '
+    legend: '<gradient:#FF5555:#FFD700><bold>[LEGEND]</bold></gradient> '
+    default: ''
 conditions:
-  nick: # use it with %condition:nick%
+  nick:
     conditions:
-      - "%player%=%essentials_nickname%"
-    yes: "%player%"
-    no: "~%essentials_nickname%"
-
-placeholderapi-refresh-intervals:
-  default-refresh-interval: 500
-  "%server_uptime%": 1000
-  "%server_tps_1_colored%": 1000
-  "%server_unique_joins%": 5000
-  "%player_health%": 200
-  "%player_ping%": 1000
-  "%vault_prefix%": 1000
-  "%rel_factionsuuid_relation_color%": 1000
-
-# assigning groups by permission nodes instead of taking them from permission plugin
+    - '%player%=%essentials_nickname%'
+    true: '%player%'
+    false: ~%essentials_nickname%
 assign-groups-by-permissions: false
-
-# if the option above is true, all groups are taken based on permissions and the one higher in this list is used as primary
-# Warning! This is not sorting list and has nothing to do with sorting players in tablist!
 primary-group-finding-list:
-  - Owner
-  - Admin
-  - Mod
-  - Helper
-  - default
-
-# Refresh interval (in milliseconds) of:
-# - Permission checks in conditions / sorting
-# - Group retrieving from permission plugin for sorting / per-group properties
-# - Prefix/suffix placeholders taking data from permission plugin
+- Owner
+- Admin
+- Mod
+- Helper
+- default
 permission-refresh-interval: 1000
-
-# Unlocks extra console messages
 debug: false
-
-# https://github.com/NEZNAMY/TAB/wiki/MySQL
 mysql:
   enabled: false
   host: 127.0.0.1
@@ -236,35 +186,20 @@ mysql:
   username: user
   password: password
   useSSL: true
-
-########################################################################
-# BUKKIT ONLY - THE FOLLOWING SECTION IS ONLY FOR BACKEND INSTALLATION #
-########################################################################
-
-# https://github.com/NEZNAMY/TAB/wiki/Feature-guide:-Per-world-playerlist
 per-world-playerlist:
   enabled: false
-  # players with tab.staff will always see all players
   allow-bypass-permission: false
-  # players in these worlds will always see all players
   ignore-effect-in-worlds:
-    - ignoredworld
-    - build
+  - ignoredworld
+  - build
   shared-playerlist-world-groups:
     lobby:
-      - lobby1
-      - lobby2
+    - lobby1
+    - lobby2
     minigames:
-      - paintball
-      - bedwars
-
+    - paintball
+    - bedwars
 compensate-for-packetevents-bug: false
-
-#####################################################################
-# PROXY ONLY - THE FOLLOWING SECTION IS ONLY FOR PROXY INSTALLATION #
-#####################################################################
-
-# https://github.com/NEZNAMY/TAB/wiki/Feature-guide:-Global-playerlist
 global-playerlist:
   enabled: false
   display-others-as-spectators: false
@@ -272,23 +207,38 @@ global-playerlist:
   isolate-unlisted-servers: false
   update-latency: false
   spy-servers:
-    - spyserver1
-    - spyserver2
+  - spyserver1
+  - spyserver2
   server-groups:
     lobbies:
-      - lobby1
-      - lobby2
+    - lobby1
+    - lobby2
     group2:
-      - server1
-      - server2
-
-# Take permissions and groups from backend server instead of proxy
+    - server1
+    - server2
 use-bukkit-permissions-manager: false
-
-# Sometimes server might be using offline uuids in tablist instead of online, such as disabling waterfall's tablist rewrite option
-# If you experience tablist formatting not working, toggle this option (set it to opposite value)
-# Only affects proxies with online mode enabled
 use-online-uuid-in-tablist: true
-
-# If enabled and RedisBungee plugin is found, hook is enabled to work with players on all proxies
-enable-redisbungee-support: true
+proxy-support:
+  enabled: true
+  type: PLUGIN
+  plugin:
+    name: RedisBungee
+  redis:
+    url: redis://:password@localhost:6379/0
+  rabbitmq:
+    exchange: plugin
+    url: amqp://guest:guest@localhost:5672/%2F
+  channel-name-suffix: TAB
+placeholder-refresh-intervals:
+  default-refresh-interval: 500
+  '%server_uptime%': 1000
+  '%server_tps_1_colored%': 1000
+  '%server_unique_joins%': 5000
+  '%player_health%': 200
+  '%player_ping%': 1000
+  '%vault_prefix%': 1000
+  '%rel_factionsuuid_relation_color%': 1000
+config-version: 6
+components:
+  minimessage-support: true
+  disable-shadow-for-heads: true

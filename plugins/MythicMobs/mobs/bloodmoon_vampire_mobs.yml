@@ -14,8 +14,7 @@ VFX_Bloodborne_Blades:
   - model{usestatemachine=true;mid=vfx_bloodborne_dagger;lockpitch=true;delay=4} @self ~onSpawn
   - BodyRotation{playermode=false;stable=0;rdelay=0;rduration=0;delay=4} @self ~onSpawn
   - state{s=spawn;speed=1;delay=4} @self ~onSpawn
-  - skill{s=Bloodbending_Blades_REMOVE_AS_CHILD} @owner ~onTimer:10
-  - potion{type=SPEED;duration=20;level=0;hasParticles=false} @owner ~onTimer:10
+  - remove{delay=100} @self ~onSpawn
 VFX_Bloodborne_Grimoire:
   Type: ARMOR_STAND
   Options:
@@ -28,8 +27,8 @@ VFX_Bloodborne_Grimoire:
   - model{usestatemachine=true;mid=vfx_bloodborne_grimoire;lockpitch=true;delay=4} @self ~onSpawn
   - BodyRotation{playermode=false;stable=0;rdelay=0;rduration=0;delay=4} @self ~onSpawn
   - state{s=spawn;speed=1;delay=4} @self ~onSpawn
-  - skill{s=Bloodbending_Grimoire_REMOVE_AS_CHILD} @owner ~onTimer:10
-  
+  - remove{delay=100} @self ~onSpawn
+
 VFX_Bloodborne_Needles:
   Type: ARMOR_STAND
   Options:
@@ -42,7 +41,7 @@ VFX_Bloodborne_Needles:
   - model{usestatemachine=true;mid=vfx_bloodborne_needle;delay=4} @self ~onSpawn
   - BodyRotation{playermode=false;stable=0;rdelay=0;rduration=0;delay=4} @self ~onSpawn
   - state{s=spawn;speed=1;delay=4} @self ~onSpawn
-  - skill{s=Bloodbending_Needles_REMOVE_AS_CHILD} @owner ~onTimer:10
+  - remove{delay=100} @self ~onSpawn
 VFX_Bloodborne_Needles_PRO:
   Type: ARMOR_STAND
   Options:
@@ -128,8 +127,7 @@ VFX_Bloodborne_Scythe:
   - model{usestatemachine=true;mid=vfx_bloodborne_scythe;lockpitch=true;delay=4} @self ~onSpawn
   - BodyRotation{playermode=false;stable=0;rdelay=0;rduration=0;delay=4} @self ~onSpawn
   - state{s=spawn;speed=1;delay=4} @self ~onSpawn
-  - skill{s=Bloodbending_Scythe_REMOVE_AS_CHILD} @owner ~onTimer:10
-  - potion{type=SLOW;duration=20;level=0;hasParticles=false} @owner ~onTimer:10
+  - remove{delay=100} @self ~onSpawn
 VFX_Bloodborne_Scythe_SPIN:
   Type: ARMOR_STAND
   Options:
@@ -143,6 +141,7 @@ VFX_Bloodborne_Scythe_SPIN:
   - state{s=skill3;speed=1} @self ~onSpawn
   #- look{immediately=true;force=true;delay=13} @owner ~onTimer:1
   - effect:sound{s=entity.ender_dragon.flap;volume=0.7;pitch=0.6} @self ~onTimer:5
+  - remove{delay=40} @self ~onSpawn
 VFX_Bloodborne_Scythe_SPIN_BACK:
   Type: ARMOR_STAND
   Options:
@@ -154,8 +153,6 @@ VFX_Bloodborne_Scythe_SPIN_BACK:
   Skills:
   - model{usestatemachine=true;mid=vfx_bloodborne_scythe_spin;lockpitch=true;delay=6} @self ~onSpawn
   - state{s=skill3;speed=1;delay=6} @self ~onSpawn
-  - skill{s=SCYTHE_Surge_MISSILE_End_Back_REMOVE} @PIR{r=5} ~onTimer:5
-  - look{force=true} @owner ~onTimer:1
   - remove{delay=100} @self ~onSpawn
   - effect:sound{s=entity.ender_dragon.flap;volume=0.7;pitch=0.6} @self ~onTimer:5
   
@@ -372,6 +369,7 @@ VFX_BLOOD_METEOR:
   - state{s=spawn;delay=4} @self ~onSpawn
   - state{s=loop;delay=14} @self ~onSpawn
   - stun{d=3;f=false;CancelOnTakeDamage=false;CancelOnDeath=true;delay=4} @self ~onSpawn
+  - remove{delay=30} @self ~onSpawn
 VFX_BLOOD_METEOR_Rupture:
   Type: ARMOR_STAND
   Options:

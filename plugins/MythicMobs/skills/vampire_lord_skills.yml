@@ -1,0 +1,45 @@
+# ============================================================================
+# SKILL CHO BOSS "BÁ TƯỚC HUYẾT NGUYỆT" (VAMPIRE_LORD_BOSS)
+# Chỉ giữ các skill cần gọi qua metaskill (target trùng với targeter gốc khi
+# gọi từ mob). Các đòn AOE theo timer đã chuyển thẳng vào vampire_lord_boss.yml
+# để tránh lỗi không gây damage khi lồng targeter khác qua skill con.
+# ============================================================================
+
+# ---------------- LƯỠI HÁI TỬ THẦN (SCYTHE REAP) ----------------
+Vampire_Lord_Scythe_Reap:
+  Cooldown: 18
+  Conditions:
+  - distance{d=<25} true
+  Skills:
+  - message{m="&4&l[Bá Tước Huyết Nguyệt]&r &7Tới đây nộp mạng, tên yếu đuối!"} @target
+  - effect:sound{s=entity.wither.ambient;volume=1;pitch=1.4} @self
+  - summon{type=VFX_Bloodborne_Scythe_SPIN;amount=1;radius=0;yRadius=0;onSurface=false} @self
+  - teleport{} @target
+  - delay 4
+  - summon{type=VFX_Blood_Impact;amount=1;radius=0;yRadius=0;onSurface=false} @target
+  - effect:sound{s=entity.generic.explode;volume=1;pitch=0.5} @self
+  - damage{amount=446;ignorearmor=true;ignoreiframes=true} @target
+  - damage{amount=149;ignorearmor=true;ignoreiframes=true;damagecause=MAGIC} @target
+  - heal{amount=300} @self
+
+# ---------------- ENRAGE (KÍCH HOẠT KHI < 50% MÁU) ----------------
+Vampire_Lord_Enrage:
+  Cooldown: 25
+  Conditions:
+  - health{h=<4750} true
+  Skills:
+  - effect:sound{s=entity.wither.spawn;volume=1.5;pitch=0.6} @self
+  - effect:particles{p=dust_color_transition;color1=#FF0000;color2=#000000;amount=60;hSpread=0.8;ySpread=1.2;speed=0.05;yOffset=1} @self
+  - potion{type=INCREASE_DAMAGE;lvl=2;duration=140} @self
+  - potion{type=SPEED;lvl=2;duration=140} @self
+  - message{m="&4&l[Bá Tước Huyết Nguyệt]&r &7MÁU CỦA TA SÔI SỤC! CHẾT ĐI!"} @PlayersInRadius{r=40}
+
+# ---------------- PHẦN THƯỞNG & THÔNG BÁO KHI CHẾT ----------------
+Vampire_Lord_On_Death:
+  Skills:
+  - message{m="&7[&5&lBá Tước Huyết Nguyệt&r&7] &fKhông... ánh trăng máu... đang tàn..."} @PlayersInRadius{r=60}
+  - message{m="&5&l[BOSS] &fBá Tước Huyết Nguyệt &fđã bị tiêu diệt bởi &e<trigger.name>&f!"} @server
+  - effect:sound{s=entity.wither.death;volume=2;pitch=0.5} @self
+  - effect:particles{p=dust_color_transition;color1=#FF0000;color2=#330101;amount=100;hSpread=1;ySpread=1.5;speed=0.1;yOffset=1} @self
+  - effect:explosion @self
+  - skill{s=Give_Crate_Key_On_Death} @trigger

@@ -5,6 +5,15 @@ MineSkinAPIKey: 'N/A'
 
 # Contact Mojang's servers? Disabling this option will disable player disguises if there's no skin to use!
 ContactMojangServers: true
+# This controls how the plugin attempts to resolve a playername to a Minecraft UUID
+# This can be set to one of the following three options, use %s to inject the name into the string
+# * https://api.mojang.com/users/profiles/minecraft/%s
+# * https://api.minecraftservices.com/minecraft/profile/lookup/name/%s
+# * null - So literally 'null', or an empty string. This will attempt to use the built into the server authlib
+# You can set this to another url of your choosing, but if you don't know what you're doing...
+# NOTE - This is currently defunct, Mojang have broken both endpoints. We're simply going to test both and use whatever works
+# We have no way to tell which one will work, no communication on the bug issues.
+UUIDResolvingUrl: 'https://api.mojang.com/users/profiles/minecraft/%s'
 
 # Shall I notify those with the correct permission when there's a LibsDisguises update?
 # Disabling this will also disable notifications when the plugin updated
@@ -16,7 +25,7 @@ AutoUpdate: true
 # SAME_BUILDS - Will check snapshots if you're not using a release build
 # RELEASES - Only check for actual releases
 # SNAPSHOTS - Only check for new snapshots
-UpdatesBranch: SAME_BUILDS
+UpdatesBranch: 'SAME_BUILDS'
 
 # On paper servers in 1.21.4+, plugin updates can be installed with a filename different to the original file.
 # This means that "LibsDisguises-5.0.3(4).jar" won't always be the name of the file, it can instead rename to "LibsDisguises-10.0.41.jar".
@@ -61,3 +70,13 @@ UpdateGameProfiles: true
 # If true, it means they will experience the full 9 minutes, even if they log on for just a minute per day
 # Expired message can be hidden with an empty translation message
 DynamicExpiry: false
+
+# If the plugin should have some verbose logging, mostly only affects startup.
+VerboseLogging: false
+
+# The compatibility related settings
+Compatibility:
+  # To fix VoiceChat not working properly, LibsDisguises sends an invisible 'Marker' or 'Area Effect Cloud' when a player is disguised.
+  # This means clients with VoiceChat will properly recognize the location of players when they're disguised.
+  # In 1.17+, a 'Marker' is used, in older versions, an area effect cloud with a radius of 0 is used.
+  VoiceChat: true

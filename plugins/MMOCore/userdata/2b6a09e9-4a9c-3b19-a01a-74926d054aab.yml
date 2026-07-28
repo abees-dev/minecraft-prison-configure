@@ -3,16 +3,16 @@ skill-points: 0
 skill-reallocation-points: 0
 attribute-points: 0
 attribute-realloc-points: 0
-level: 100
+level: 1
 experience: 0.0
 class: HUMAN
 waypoints: []
 friends: []
-last-login: 1785075194890
+last-login: 1785154571624
 skill-tree-reallocation-points: 0
-health: 84.0
+health: 20.0
 mana: 20.0
-stellium: 20.0
+stellium: 8.979999999999853
 stamina: 20.0
 unlocked-items: []
 skill-tree-level:
