@@ -60,7 +60,6 @@ sound:
     volume: 1.0
     pitch: 1.2
 
-# The commands with which the warp GUI shall open
+# Disabled — DeluxeMenus owns /warp via commands.yml. Dummy command so injector never matches.
 listen-to-commands:
-- warps
-- warp
+- __warpgui_disabled__

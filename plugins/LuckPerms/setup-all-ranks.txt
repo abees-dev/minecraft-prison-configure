@@ -61,6 +61,10 @@ lp group xprison_rank_9 meta setprefix 9 "<red><bold>[Vượt Ngục]</bold></re
 # Quyền mở menu Rank cho toàn bộ người chơi (và chặn 2 lệnh rankgui / ranksmenu)
 lp group default permission set deluxemenus.open true
 lp group default permission set deluxemenus.menu.ranks_master true
+lp group default permission set deluxemenus.menu.warp_main true
+lp group default permission set deluxemenus.menu.warp_mines true
+lp group default permission set deluxemenus.menu.warp_dungeons true
+lp group default permission set deluxemenus.menu.warp_hub true
 lp group default permission set deluxemenus.menu.rankgui false
 lp group default permission set deluxemenus.menu.ranksmenu false
 

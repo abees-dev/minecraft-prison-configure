@@ -21,6 +21,9 @@ Cập nhật: 2026-07-29.
 
 | File | Vai trò |
 | --- | --- |
+| [`nguyet-huyet-notes.md`](nguyet-huyet-notes.md) | Đêm Nguyệt Huyết — lịch T7 + boss Bá Tước |
+| [`battlepass-daily-notes.md`](battlepass-daily-notes.md) | Daily quest — **hoãn**; sẽ làm plugin riêng sau (BattlePass chỉ thử) |
+| [`economy-phase6-notes.md`](economy-phase6-notes.md) | Phase 6 cân bằng sell / rank / prestige (2026-07-29) |
 | [`xprison-config-notes.md`](xprison-config-notes.md) | Ghi chú chuyển Prison → X-Prison, modules, việc in-game |
 | [`pickaxe-upgrade-notes.md`](pickaxe-upgrade-notes.md) | Bảng số cuốc + tỷ lệ forge (NPC station = chuẩn UX) |
 | [`README.md`](README.md) | Ops MMOItems: lệnh give, NPC trạm tinh luyện/rèn, tỷ lệ nâng cấp |
@@ -47,6 +50,7 @@ Cập nhật: 2026-07-29.
 | [`npc-duclo-cuonghoa-notes.md`](npc-duclo-cuonghoa-notes.md) | NPC Đục lỗ & Cường hóa |
 | [`npc-equipment-upgrade-station-notes.md`](npc-equipment-upgrade-station-notes.md) | Trạm đá cường hóa |
 | [`npc-trade-donate-stations-notes.md`](npc-trade-donate-stations-notes.md) | Trade / donate Long Tộc |
+| [`npc-weapon-forge-stations-notes.md`](npc-weapon-forge-stations-notes.md) | Lò rèn vũ khí theo mine (station + lệnh NPC, chưa đặt) |
 | [`ITEM_CLASSIFICATION_GUIDE.md`](ITEM_CLASSIFICATION_GUIDE.md) | Phân loại item |
 | [`STAT_ABBREVIATIONS.md`](STAT_ABBREVIATIONS.md) | Viết tắt chỉ số trên lore |
 | [`STAT_BALANCING_GUIDE.md`](STAT_BALANCING_GUIDE.md) | Trần chỉ số item donate / gacha (Non-P2W) |

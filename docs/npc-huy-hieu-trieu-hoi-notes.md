@@ -22,3 +22,9 @@ Công thức: **25x Huy Hiệu Vỡ [Mảnh] + 2.500.000 tiền** → 1x Huy Hi�
 
 Gợi ý: nên đặt NPC này gần khu vực bàn thờ triệu hồi (`PRISON_MA_VUONG_ALTAR` trong
 `plugins/MythicMobs/mobs/altar_mobs.yml`) để player tiện chế xong rồi triệu hồi luôn.
+
+## TODO — Ma Vương (polish sau)
+
+**Design chuẩn:** user **tự triệu hồi** — cầm `HUY_HIEU_TRIEU_HOI` → right-click bàn thờ (`demon_king/main.sk`). Hologram `MaVuongTimer` = đếm **cooldown** altar, không phải lịch spawn server.
+
+**Hoãn / update sau:** polish sink drop (`TINHTHE_HUY_DIET`) nếu cần. Không làm “lịch Ma Vương cố định”.

@@ -1,0 +1,47 @@
+# ============================================================================
+# Menu commands — đăng ký lệnh thật (có tab-suggest)
+# /warp /warps /warpgui → DeluxeMenus warp_main
+# /rank /vip... → DeluxeMenus ranks_master
+# ============================================================================
+
+command /warpgui:
+	description: Mo menu dich chuyen
+	executable by: players
+	trigger:
+		execute console command "dm open warp_main %player%"
+
+command /warpsgui:
+	description: Mo menu dich chuyen
+	executable by: players
+	trigger:
+		execute console command "dm open warp_main %player%"
+
+command /rank:
+	description: Mo menu rank VIP
+	executable by: players
+	trigger:
+		execute console command "dm open ranks_master %player%"
+
+command /rankmenu:
+	description: Mo menu rank VIP
+	executable by: players
+	trigger:
+		execute console command "dm open ranks_master %player%"
+
+command /viprank:
+	description: Mo menu rank VIP
+	executable by: players
+	trigger:
+		execute console command "dm open ranks_master %player%"
+
+command /vipranks:
+	description: Mo menu rank VIP
+	executable by: players
+	trigger:
+		execute console command "dm open ranks_master %player%"
+
+command /vip:
+	description: Mo menu rank VIP
+	executable by: players
+	trigger:
+		execute console command "dm open ranks_master %player%"

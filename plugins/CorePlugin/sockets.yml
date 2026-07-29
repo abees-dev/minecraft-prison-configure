@@ -1,0 +1,102 @@
+# ============================================================================
+# CorePlugin - Sockets ("Đục Lỗ") module configuration
+# ============================================================================
+# Controls the gem-socket-punch GUI opened by /duclo (aliases: /socket, /duc).
+#
+# Changes take effect after either:
+#   - /duclo reload   (requires permission: coreplugin.sockets.reload)
+#   - a server restart
+#
+# This file is only copied out ONCE, the first time the module starts. If
+# you hand-add a new key later (e.g. a new stone type under `stones:`) it
+# will be read normally. If a key is simply missing, the plugin falls back
+# to a safe built-in default instead of breaking - it will NOT overwrite or
+# regenerate this file, so your comments and edits are safe.
+# ============================================================================
+
+gui:
+  # Inventory title. Legacy '&' color codes.
+  title: '&8[&b✦&8] &b&lĐỤC LỖ TRANG BỊ'
+  # Number of chest rows (1-6). Every slot number below must fit inside rows*9.
+  rows: 6
+  slots:
+    equipment: 19   # player places the gear to punch here
+    stone: 25       # player places the punch stone here
+    info: 22        # decorative info icon, no action on click
+    confirm: 40     # click to attempt the punch
+    close: 49       # click to close the GUI (unplaced items are returned)
+
+# MMOItems item types (MMOITEMS_ITEM_TYPE) that can never be socket-punched,
+# regardless of their max-sockets stat.
+unsupported-item-types:
+  - GEM_STONE
+  - CONSUMABLE
+  - MATERIAL
+  - MISCELLANEOUS
+  - TOOL
+
+# Master switch for money cost, charged through Vault + whatever economy
+# plugin is registered. The actual amount is set per-stone below (see
+# `cost:` under each entry in `stones:`) so rarer/stronger stones can cost
+# more. Charged once per punch ATTEMPT (success or fail) - same rule as the
+# stone itself, which is always consumed either way.
+# Disabled by default: nothing is charged unless you set this to true, even
+# if a stone below has a non-zero cost.
+cost:
+  enabled: false
+
+# {value1}/{value2} get substituted per message - see SocketPunchService.kt
+# for exactly what each one is when a message is sent.
+messages:
+  SUCCESS: '&a&l[✦] ĐỤC LỖ THÀNH CÔNG! &7Đã đục thành công ô khảm thứ &e{value1}&7 cho trang bị!'
+  FAIL: '&c&l[-] ĐỤC LỖ THẤT BẠI! &7Đá đục lỗ đã bị tiêu hao, trang bị không tăng thêm ô khảm.'
+  NO_ITEM: '&c[!] Hãy đặt Trang Bị cần đục lỗ vào ô bên trái!'
+  INVALID_ITEM: '&c[!] Vật phẩm này không hợp lệ hoặc không có dữ liệu MMOItems!'
+  NOT_MMOITEM: '&c[!] Trang bị này không phải là MMOItem hợp lệ!'
+  UNSUPPORTED_TYPE: "&c[!] Vật phẩm loại '{value1}' không thể đục lỗ khảm đá quý!"
+  NOT_PUNCHABLE: '&c[!] Trang bị không được phép đục lỗ!'
+  MAX_SOCKETS_REACHED: '&e[!] Trang bị này đã đạt giới hạn đục tối đa ({value1}/{value2} Ô) của trang bị đó!'
+  NO_STONE: '&c[!] Hãy đặt Đá Đục Lỗ vào ô bên phải!'
+  INVALID_STONE: '&c[!] Vật phẩm đá không phải Đá Đục Lỗ hợp lệ!'
+  NEED_PREVIOUS_SOCKET: '&c[!] Cần đục ô thứ {value1} trước khi dùng loại đá này!'
+  MISMATCH_STONE: '&c[!] Đá đục lỗ không phù hợp với thứ tự ô hiện tại (Hiện có {value1} ô)!'
+  NOT_ENOUGH_MONEY: '&c[!] Bạn cần {value1} để đục lỗ trang bị này!'
+
+# Which MMOItems stone (MMOITEMS_ITEM_ID) works at which current socket count,
+# its success rate (0-100), and its money cost (only charged if cost.enabled
+# above is true). requires-current-sockets: -1 means "works at any socket
+# count" (e.g. the guaranteed stone below). cost defaults to 0.0 for all of
+# them - nothing is charged until you raise these.
+stones:
+  DA_DUC_LO_THIEN_MENH:
+    requires-current-sockets: -1
+    rate: 100
+    cost: 0.0
+  DA_DUC_LO_1:
+    requires-current-sockets: 0
+    rate: 100
+    cost: 0.0
+  DA_DUC_LO_2:
+    requires-current-sockets: 1
+    rate: 70
+    cost: 0.0
+  DA_DUC_LO_3:
+    requires-current-sockets: 2
+    rate: 40
+    cost: 0.0
+  DA_DUC_LO_4:
+    requires-current-sockets: 3
+    rate: 25
+    cost: 0.0
+  DA_DUC_LO_5:
+    requires-current-sockets: 4
+    rate: 10
+    cost: 0.0
+  DA_DUC_LO_6:
+    requires-current-sockets: 5
+    rate: 5
+    cost: 0.0
+  DA_DUC_LO_7:
+    requires-current-sockets: 6
+    rate: 2
+    cost: 0.0

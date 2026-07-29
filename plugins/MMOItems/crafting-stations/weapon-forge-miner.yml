@@ -1,0 +1,187 @@
+name: 'Lò Rèn Vũ Khí Thợ Đào (#page#/#max#)'
+max-queue-size: 10
+sound: ENTITY_EXPERIENCE_ORB_PICKUP
+layout: default
+
+items:
+    fill:
+        material: AIR
+    no-recipe:
+        material: GRAY_STAINED_GLASS_PANE
+        name: '&aNo Recipe'
+    no-queue-item:
+        material: GRAY_STAINED_GLASS_PANE
+        name: '&aNo Item in Queue'
+
+recipes:
+    # --- KIẾM (SWORD) ---
+    kiem-tho-dao-2:
+        output:
+            type: SWORD
+            id: SWORD_THO_DAO_2
+            amount: 1
+        enchantments: MAXIMUM
+        crafting-time: 0
+        options:
+            success-rate: 70
+        ingredients:
+        - mmoitem{type=SWORD,id=SWORD_THO_DAO_1,amount=1,display="Kiếm Thợ Đào I"}
+        - mmoitem{type=MATERIAL,id=DA_NANG_CAP_THO_DAO,amount=5,display="Cường Hóa Thạch Thợ Đào"}
+        - mmoitem{type=MATERIAL,id=NEN_DOI_THO_DAO,amount=5,display="Quặng Tinh Luyện Thợ Đào"}
+        - mmoitem{type=MATERIAL,id=TINHTHE_CUONGHOA_VUKHI,amount=2,display="Tinh Thể Cường Hóa Vũ Khí"}
+    kiem-tho-dao-3:
+        output:
+            type: SWORD
+            id: SWORD_THO_DAO_3
+            amount: 1
+        enchantments: MAXIMUM
+        crafting-time: 0
+        options:
+            success-rate: 60
+        ingredients:
+        - mmoitem{type=SWORD,id=SWORD_THO_DAO_2,amount=1,display="Kiếm Thợ Đào II"}
+        - mmoitem{type=MATERIAL,id=DA_NANG_CAP_THO_DAO,amount=10,display="Cường Hóa Thạch Thợ Đào"}
+        - mmoitem{type=MATERIAL,id=NEN_DOI_THO_DAO,amount=10,display="Quặng Tinh Luyện Thợ Đào"}
+        - mmoitem{type=MATERIAL,id=TINHTHE_CUONGHOA_VUKHI,amount=2,display="Tinh Thể Cường Hóa Vũ Khí"}
+    kiem-tho-dao-4:
+        output:
+            type: SWORD
+            id: SWORD_THO_DAO_4
+            amount: 1
+        enchantments: MAXIMUM
+        crafting-time: 0
+        options:
+            success-rate: 50
+        ingredients:
+        - mmoitem{type=SWORD,id=SWORD_THO_DAO_3,amount=1,display="Kiếm Thợ Đào III"}
+        - mmoitem{type=MATERIAL,id=DA_NANG_CAP_THO_DAO,amount=20,display="Cường Hóa Thạch Thợ Đào"}
+        - mmoitem{type=MATERIAL,id=NEN_DOI_THO_DAO,amount=20,display="Quặng Tinh Luyện Thợ Đào"}
+        - mmoitem{type=MATERIAL,id=TINHTHE_CUONGHOA_VUKHI,amount=2,display="Tinh Thể Cường Hóa Vũ Khí"}
+    kiem-tho-dao-5:
+        output:
+            type: SWORD
+            id: SWORD_THO_DAO_5
+            amount: 1
+        enchantments: MAXIMUM
+        crafting-time: 0
+        options:
+            success-rate: 40
+        ingredients:
+        - mmoitem{type=SWORD,id=SWORD_THO_DAO_4,amount=1,display="Kiếm Thợ Đào IV"}
+        - mmoitem{type=MATERIAL,id=DA_NANG_CAP_THO_DAO,amount=40,display="Cường Hóa Thạch Thợ Đào"}
+        - mmoitem{type=MATERIAL,id=NEN_DOI_THO_DAO,amount=40,display="Quặng Tinh Luyện Thợ Đào"}
+        - mmoitem{type=MATERIAL,id=TINHTHE_CUONGHOA_VUKHI,amount=2,display="Tinh Thể Cường Hóa Vũ Khí"}
+    # --- RÌU CHIẾN (AXE) ---
+    riu-tho-dao-2:
+        output:
+            type: AXE
+            id: AXE_THO_DAO_2
+            amount: 1
+        enchantments: MAXIMUM
+        crafting-time: 0
+        options:
+            success-rate: 70
+        ingredients:
+        - mmoitem{type=AXE,id=AXE_THO_DAO_1,amount=1,display="Rìu Chiến Thợ Đào I"}
+        - mmoitem{type=MATERIAL,id=DA_NANG_CAP_THO_DAO,amount=5,display="Cường Hóa Thạch Thợ Đào"}
+        - mmoitem{type=MATERIAL,id=NEN_DOI_THO_DAO,amount=5,display="Quặng Tinh Luyện Thợ Đào"}
+        - mmoitem{type=MATERIAL,id=TINHTHE_CUONGHOA_VUKHI,amount=2,display="Tinh Thể Cường Hóa Vũ Khí"}
+    riu-tho-dao-3:
+        output:
+            type: AXE
+            id: AXE_THO_DAO_3
+            amount: 1
+        enchantments: MAXIMUM
+        crafting-time: 0
+        options:
+            success-rate: 60
+        ingredients:
+        - mmoitem{type=AXE,id=AXE_THO_DAO_2,amount=1,display="Rìu Chiến Thợ Đào II"}
+        - mmoitem{type=MATERIAL,id=DA_NANG_CAP_THO_DAO,amount=10,display="Cường Hóa Thạch Thợ Đào"}
+        - mmoitem{type=MATERIAL,id=NEN_DOI_THO_DAO,amount=10,display="Quặng Tinh Luyện Thợ Đào"}
+        - mmoitem{type=MATERIAL,id=TINHTHE_CUONGHOA_VUKHI,amount=2,display="Tinh Thể Cường Hóa Vũ Khí"}
+    riu-tho-dao-4:
+        output:
+            type: AXE
+            id: AXE_THO_DAO_4
+            amount: 1
+        enchantments: MAXIMUM
+        crafting-time: 0
+        options:
+            success-rate: 50
+        ingredients:
+        - mmoitem{type=AXE,id=AXE_THO_DAO_3,amount=1,display="Rìu Chiến Thợ Đào III"}
+        - mmoitem{type=MATERIAL,id=DA_NANG_CAP_THO_DAO,amount=20,display="Cường Hóa Thạch Thợ Đào"}
+        - mmoitem{type=MATERIAL,id=NEN_DOI_THO_DAO,amount=20,display="Quặng Tinh Luyện Thợ Đào"}
+        - mmoitem{type=MATERIAL,id=TINHTHE_CUONGHOA_VUKHI,amount=2,display="Tinh Thể Cường Hóa Vũ Khí"}
+    riu-tho-dao-5:
+        output:
+            type: AXE
+            id: AXE_THO_DAO_5
+            amount: 1
+        enchantments: MAXIMUM
+        crafting-time: 0
+        options:
+            success-rate: 40
+        ingredients:
+        - mmoitem{type=AXE,id=AXE_THO_DAO_4,amount=1,display="Rìu Chiến Thợ Đào IV"}
+        - mmoitem{type=MATERIAL,id=DA_NANG_CAP_THO_DAO,amount=40,display="Cường Hóa Thạch Thợ Đào"}
+        - mmoitem{type=MATERIAL,id=NEN_DOI_THO_DAO,amount=40,display="Quặng Tinh Luyện Thợ Đào"}
+        - mmoitem{type=MATERIAL,id=TINHTHE_CUONGHOA_VUKHI,amount=2,display="Tinh Thể Cường Hóa Vũ Khí"}
+    # --- TRƯỢNG PHÉP (STAFF) ---
+    truong-tho-dao-2:
+        output:
+            type: STAFF
+            id: STAFF_THO_DAO_2
+            amount: 1
+        enchantments: MAXIMUM
+        crafting-time: 0
+        options:
+            success-rate: 70
+        ingredients:
+        - mmoitem{type=STAFF,id=STAFF_THO_DAO_1,amount=1,display="Trượng Phép Thợ Đào I"}
+        - mmoitem{type=MATERIAL,id=DA_NANG_CAP_THO_DAO,amount=5,display="Cường Hóa Thạch Thợ Đào"}
+        - mmoitem{type=MATERIAL,id=NEN_DOI_THO_DAO,amount=5,display="Quặng Tinh Luyện Thợ Đào"}
+        - mmoitem{type=MATERIAL,id=TINHTHE_CUONGHOA_VUKHI,amount=2,display="Tinh Thể Cường Hóa Vũ Khí"}
+    truong-tho-dao-3:
+        output:
+            type: STAFF
+            id: STAFF_THO_DAO_3
+            amount: 1
+        enchantments: MAXIMUM
+        crafting-time: 0
+        options:
+            success-rate: 60
+        ingredients:
+        - mmoitem{type=STAFF,id=STAFF_THO_DAO_2,amount=1,display="Trượng Phép Thợ Đào II"}
+        - mmoitem{type=MATERIAL,id=DA_NANG_CAP_THO_DAO,amount=10,display="Cường Hóa Thạch Thợ Đào"}
+        - mmoitem{type=MATERIAL,id=NEN_DOI_THO_DAO,amount=10,display="Quặng Tinh Luyện Thợ Đào"}
+        - mmoitem{type=MATERIAL,id=TINHTHE_CUONGHOA_VUKHI,amount=2,display="Tinh Thể Cường Hóa Vũ Khí"}
+    truong-tho-dao-4:
+        output:
+            type: STAFF
+            id: STAFF_THO_DAO_4
+            amount: 1
+        enchantments: MAXIMUM
+        crafting-time: 0
+        options:
+            success-rate: 50
+        ingredients:
+        - mmoitem{type=STAFF,id=STAFF_THO_DAO_3,amount=1,display="Trượng Phép Thợ Đào III"}
+        - mmoitem{type=MATERIAL,id=DA_NANG_CAP_THO_DAO,amount=20,display="Cường Hóa Thạch Thợ Đào"}
+        - mmoitem{type=MATERIAL,id=NEN_DOI_THO_DAO,amount=20,display="Quặng Tinh Luyện Thợ Đào"}
+        - mmoitem{type=MATERIAL,id=TINHTHE_CUONGHOA_VUKHI,amount=2,display="Tinh Thể Cường Hóa Vũ Khí"}
+    truong-tho-dao-5:
+        output:
+            type: STAFF
+            id: STAFF_THO_DAO_5
+            amount: 1
+        enchantments: MAXIMUM
+        crafting-time: 0
+        options:
+            success-rate: 40
+        ingredients:
+        - mmoitem{type=STAFF,id=STAFF_THO_DAO_4,amount=1,display="Trượng Phép Thợ Đào IV"}
+        - mmoitem{type=MATERIAL,id=DA_NANG_CAP_THO_DAO,amount=40,display="Cường Hóa Thạch Thợ Đào"}
+        - mmoitem{type=MATERIAL,id=NEN_DOI_THO_DAO,amount=40,display="Quặng Tinh Luyện Thợ Đào"}
+        - mmoitem{type=MATERIAL,id=TINHTHE_CUONGHOA_VUKHI,amount=2,display="Tinh Thể Cường Hóa Vũ Khí"}

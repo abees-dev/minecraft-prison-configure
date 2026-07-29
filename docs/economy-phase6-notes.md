@@ -1,0 +1,79 @@
+# Phase 6 — Cân bằng kinh tế (2026-07-29)
+
+Áp dụng theo [`loi-choi.md`](loi-choi.md) P1 mục 6. Mục lục: [`INDEX.md`](INDEX.md).
+
+## Vấn đề trước khi chỉnh
+
+| Hiện tượng | Chi tiết |
+| --- | --- |
+| Rank 6→9 quá dễ | Cost chỉ ×1.3–1.5 trong khi mỏ full emerald/debris → ~5k block/rank |
+| Prestige cliff | 3B money ≈ 47× cost rank 9 → ~100h+ sell thuần |
+| GOLD_NUGGET lệch | Sell **750** > RAW_GOLD **500** → mỏ nether-gold (rank 6) overpay |
+| Docs cũ | `xprison-config-notes` / `pickaxe-upgrade-notes` lệch số live |
+
+## Thay đổi đã áp dụng
+
+### 1. Sell prices — `plugins/EconomyShopGUI/shops/Ores.yml`
+
+| Material | Cũ | Mới |
+| --- | ---: | ---: |
+| GOLD_NUGGET | 750 | **60** |
+| RAW_GOLD | 500 | **400** |
+| GOLD_INGOT | 1,000 | **800** |
+| GOLD_BLOCK | 9,000 | **7,200** |
+| DIAMOND | 5,000 | **3,200** |
+| DIAMOND_BLOCK | 45,000 | **28,800** |
+| EMERALD | 8,000 | **4,500** |
+| EMERALD_BLOCK | 72,000 | **40,500** |
+| ANCIENT_DEBRIS | 10,000 | **5,500** |
+| NETHERITE_INGOT | 44,000 | **28,000** |
+| NETHERITE_BLOCK | 396,000 | **252,000** |
+
+Early (cobble/coal/iron/lapis/redstone) **không đổi**.
+
+### 2. Rank costs — `plugins/X-Prison/ranks.yml`
+
+| Rank | Cost cũ | Cost mới |
+| ---: | ---: | ---: |
+| 1–6 | giữ nguyên | 0 / 85k / 290k / 1.075M / 5.4M / 21.7M |
+| 7 Quản Ngục | 32M | **55M** |
+| 8 Bá Chủ | 43.5M | **125M** |
+| 9 Vượt Ngục | 64.5M | **300M** |
+
+### 3. Prestige — `plugins/X-Prison/prestiges.yml`
+
+| | Cũ | Mới |
+| --- | ---: | ---: |
+| First prestige cost | 3,000,000,000 | **750,000,000** |
+| Increase | ×1.3 / prestige | giữ |
+
+### 4. Point rankup — `plugins/Skript/scripts/prison/level_gate.sk`
+
+Đồng bộ ≈ money / 10,000 cho rank 7–9: **5500 / 12500 / 30000**.
+
+## Mục tiêu cảm giác (ước lượng, không fortune, ~2k block/h)
+
+- Early–mid (1→6): ~1–4h / rank (giữ)
+- Late (6→9): ~4–10h / rank (trước đó ~2–3h)
+- Prestige 1: ~20–40h sell grind (trước đó ~100h+)
+
+Forge/refinery **chưa đụng** — sink nguyên liệu vẫn theo recipe hiện tại; sau khi chơi thử late game mới chỉnh thêm nếu quá dễ/khó.
+
+## Reload in-game
+
+```
+/sreload
+/xprison reload
+sk reload prison/level_gate.sk
+```
+
+(hoặc `sk reload prison/`)
+
+Test bằng tài khoản **không OP** (OP bị multiplier LEGEND x3).
+
+## Chưa làm (vòng sau nếu cần)
+
+- Thêm filler stone vào mỏ mid/late (`plugins/X-Prison/mines/*.json`)
+- Chỉnh % ore composition
+- Nerf/buff recipe forge-refinery
+- Cập nhật số trong `xprison-config-notes.md` nếu còn bảng cost cũ

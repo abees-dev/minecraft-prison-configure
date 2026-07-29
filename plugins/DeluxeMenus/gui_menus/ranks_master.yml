@@ -4,12 +4,8 @@
 # Combined Prison Ranks (1-9) & VIP Donor Ranks (1-6)
 # =============================================================================
 menu_title: '&8❖ &6&lHỆ THỐNG RANKS & VIP &8❖'
-open_command:
-  - rank
-  - rankmenu
-  - viprank
-  - vipranks
-  - vip
+# Lệnh mở menu: Skript menus_commands.sk (/rank, /vip...) — có tab-suggest
+open_command: []
 open_commands:
   - '[sound] BLOCK_NOTE_BLOCK_CHIME'
 size: 45

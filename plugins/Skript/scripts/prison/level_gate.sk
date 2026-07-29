@@ -25,6 +25,7 @@ function get_next_rank_cost(rank_id: number) :: number:
 	
 	# Giá point cho rankup bằng point (chuột phải) - tạm tính = giá money / 10,000
 function get_next_rank_point_cost(rank_id: number) :: number:
+	# Point cost ≈ money cost / 10_000 (Phase 6 2026-07-29 — đồng bộ ranks.yml)
 	if {_rank_id} is 2:
 		return 10
 	if {_rank_id} is 3:
@@ -36,10 +37,10 @@ function get_next_rank_point_cost(rank_id: number) :: number:
 	if {_rank_id} is 6:
 		return 2170
 	if {_rank_id} is 7:
-		return 3200
+		return 5500
 	if {_rank_id} is 8:
-		return 4350
-	return 6450
+		return 12500
+	return 30000
 	
 function get_player_points(p: player) :: number:
 	set {_pp} to try PlayerPoints.getInstance()

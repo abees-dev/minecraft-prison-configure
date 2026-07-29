@@ -1,0 +1,108 @@
+# =============================================================================
+# WARP MAIN - Category menu
+# /warp · /warps
+# =============================================================================
+menu_title: '&8❖ &b&lDỊCH CHUYỂN &8❖'
+# Lệnh mở menu: Skript menus_commands.sk (/warp, /warps, /warpgui) — có tab-suggest
+open_command: []
+open_commands:
+  - '[sound] BLOCK_NOTE_BLOCK_CHIME'
+size: 27
+
+items:
+  'filler':
+    material: GRAY_STAINED_GLASS_PANE
+    slots:
+      - 0
+      - 1
+      - 2
+      - 3
+      - 5
+      - 6
+      - 7
+      - 8
+      - 9
+      - 11
+      - 13
+      - 15
+      - 17
+      - 18
+      - 19
+      - 20
+      - 21
+      - 22
+      - 23
+      - 24
+      - 25
+      - 26
+    display_name: ' '
+    lore: []
+
+  'info':
+    material: COMPASS
+    slot: 4
+    glow: true
+    hide_attributes: true
+    display_name: '&b&l❖ CHỌN KHU VỰC ❖'
+    lore:
+      - '&7Chọn nhóm warp bên dưới để'
+      - '&7xem danh sách điểm dịch chuyển.'
+
+  'cat_mines':
+    material: DIAMOND_PICKAXE
+    slot: 10
+    glow: true
+    hide_attributes: true
+    display_name: '&a&l⛏ KHU MỎ'
+    lore:
+      - '&7Dịch chuyển tới 9 khu đào'
+      - '&7theo từng cấp rank.'
+      - ''
+      - '&e» Click để mở danh sách mỏ'
+    click_commands:
+      - '[sound] UI_BUTTON_CLICK'
+      - '[openguimenu] warp_mines'
+
+  'cat_dungeons':
+    material: NETHERITE_SWORD
+    slot: 12
+    glow: true
+    hide_attributes: true
+    display_name: '&c&l⚔ DUNGEON'
+    lore:
+      - '&7Dungeon theo từng rank'
+      - '&7(Normal / Elite / Boss).'
+      - ''
+      - '&8Rank 1–5: &7world_dungeon'
+      - '&8Rank 6–9: &7world_magadungeon'
+      - ''
+      - '&e» Click để mở danh sách dungeon'
+    click_commands:
+      - '[sound] UI_BUTTON_CLICK'
+      - '[openguimenu] warp_dungeons'
+
+  'cat_hub':
+    material: ENDER_PEARL
+    slot: 14
+    glow: true
+    hide_attributes: true
+    display_name: '&e&l✦ HUB / SHOP'
+    lore:
+      - '&7Khu chế tạo, giao dịch'
+      - '&7và donate.'
+      - ''
+      - '&e» Click để mở danh sách hub'
+    click_commands:
+      - '[sound] UI_BUTTON_CLICK'
+      - '[openguimenu] warp_hub'
+
+  'close':
+    material: BARRIER
+    slot: 16
+    hide_attributes: true
+    display_name: '&c&l✖ Đóng'
+    lore:
+      - '&7Đóng menu dịch chuyển'
+    click_commands:
+      - '[sound] UI_BUTTON_CLICK'
+      - '[close]'

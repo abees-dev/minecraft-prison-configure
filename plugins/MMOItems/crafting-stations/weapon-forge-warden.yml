@@ -1,0 +1,187 @@
+name: 'Lò Rèn Vũ Khí Quản Ngục (#page#/#max#)'
+max-queue-size: 10
+sound: ENTITY_EXPERIENCE_ORB_PICKUP
+layout: default
+
+items:
+    fill:
+        material: AIR
+    no-recipe:
+        material: GRAY_STAINED_GLASS_PANE
+        name: '&aNo Recipe'
+    no-queue-item:
+        material: GRAY_STAINED_GLASS_PANE
+        name: '&aNo Item in Queue'
+
+recipes:
+    # --- KIẾM (SWORD) ---
+    kiem-quan-nguc-2:
+        output:
+            type: SWORD
+            id: SWORD_QUAN_NGUC_2
+            amount: 1
+        enchantments: MAXIMUM
+        crafting-time: 0
+        options:
+            success-rate: 55
+        ingredients:
+        - mmoitem{type=SWORD,id=SWORD_QUAN_NGUC_1,amount=1,display="Kiếm Quản Ngục I"}
+        - mmoitem{type=MATERIAL,id=DA_NANG_CAP_QUAN_NGUC,amount=8,display="Cường Hóa Thạch Quản Ngục"}
+        - mmoitem{type=MATERIAL,id=NEN_DOI_QUAN_NGUC,amount=8,display="Quặng Tinh Luyện Quản Ngục"}
+        - mmoitem{type=MATERIAL,id=TINHTHE_CUONGHOA_VUKHI,amount=2,display="Tinh Thể Cường Hóa Vũ Khí"}
+    kiem-quan-nguc-3:
+        output:
+            type: SWORD
+            id: SWORD_QUAN_NGUC_3
+            amount: 1
+        enchantments: MAXIMUM
+        crafting-time: 0
+        options:
+            success-rate: 45
+        ingredients:
+        - mmoitem{type=SWORD,id=SWORD_QUAN_NGUC_2,amount=1,display="Kiếm Quản Ngục II"}
+        - mmoitem{type=MATERIAL,id=DA_NANG_CAP_QUAN_NGUC,amount=16,display="Cường Hóa Thạch Quản Ngục"}
+        - mmoitem{type=MATERIAL,id=NEN_DOI_QUAN_NGUC,amount=16,display="Quặng Tinh Luyện Quản Ngục"}
+        - mmoitem{type=MATERIAL,id=TINHTHE_CUONGHOA_VUKHI,amount=2,display="Tinh Thể Cường Hóa Vũ Khí"}
+    kiem-quan-nguc-4:
+        output:
+            type: SWORD
+            id: SWORD_QUAN_NGUC_4
+            amount: 1
+        enchantments: MAXIMUM
+        crafting-time: 0
+        options:
+            success-rate: 35
+        ingredients:
+        - mmoitem{type=SWORD,id=SWORD_QUAN_NGUC_3,amount=1,display="Kiếm Quản Ngục III"}
+        - mmoitem{type=MATERIAL,id=DA_NANG_CAP_QUAN_NGUC,amount=32,display="Cường Hóa Thạch Quản Ngục"}
+        - mmoitem{type=MATERIAL,id=NEN_DOI_QUAN_NGUC,amount=32,display="Quặng Tinh Luyện Quản Ngục"}
+        - mmoitem{type=MATERIAL,id=TINHTHE_CUONGHOA_VUKHI,amount=2,display="Tinh Thể Cường Hóa Vũ Khí"}
+    kiem-quan-nguc-5:
+        output:
+            type: SWORD
+            id: SWORD_QUAN_NGUC_5
+            amount: 1
+        enchantments: MAXIMUM
+        crafting-time: 0
+        options:
+            success-rate: 25
+        ingredients:
+        - mmoitem{type=SWORD,id=SWORD_QUAN_NGUC_4,amount=1,display="Kiếm Quản Ngục IV"}
+        - mmoitem{type=MATERIAL,id=DA_NANG_CAP_QUAN_NGUC,amount=64,display="Cường Hóa Thạch Quản Ngục"}
+        - mmoitem{type=MATERIAL,id=NEN_DOI_QUAN_NGUC,amount=64,display="Quặng Tinh Luyện Quản Ngục"}
+        - mmoitem{type=MATERIAL,id=TINHTHE_CUONGHOA_VUKHI,amount=2,display="Tinh Thể Cường Hóa Vũ Khí"}
+    # --- RÌU CHIẾN (AXE) ---
+    riu-quan-nguc-2:
+        output:
+            type: AXE
+            id: AXE_QUAN_NGUC_2
+            amount: 1
+        enchantments: MAXIMUM
+        crafting-time: 0
+        options:
+            success-rate: 55
+        ingredients:
+        - mmoitem{type=AXE,id=AXE_QUAN_NGUC_1,amount=1,display="Rìu Chiến Quản Ngục I"}
+        - mmoitem{type=MATERIAL,id=DA_NANG_CAP_QUAN_NGUC,amount=8,display="Cường Hóa Thạch Quản Ngục"}
+        - mmoitem{type=MATERIAL,id=NEN_DOI_QUAN_NGUC,amount=8,display="Quặng Tinh Luyện Quản Ngục"}
+        - mmoitem{type=MATERIAL,id=TINHTHE_CUONGHOA_VUKHI,amount=2,display="Tinh Thể Cường Hóa Vũ Khí"}
+    riu-quan-nguc-3:
+        output:
+            type: AXE
+            id: AXE_QUAN_NGUC_3
+            amount: 1
+        enchantments: MAXIMUM
+        crafting-time: 0
+        options:
+            success-rate: 45
+        ingredients:
+        - mmoitem{type=AXE,id=AXE_QUAN_NGUC_2,amount=1,display="Rìu Chiến Quản Ngục II"}
+        - mmoitem{type=MATERIAL,id=DA_NANG_CAP_QUAN_NGUC,amount=16,display="Cường Hóa Thạch Quản Ngục"}
+        - mmoitem{type=MATERIAL,id=NEN_DOI_QUAN_NGUC,amount=16,display="Quặng Tinh Luyện Quản Ngục"}
+        - mmoitem{type=MATERIAL,id=TINHTHE_CUONGHOA_VUKHI,amount=2,display="Tinh Thể Cường Hóa Vũ Khí"}
+    riu-quan-nguc-4:
+        output:
+            type: AXE
+            id: AXE_QUAN_NGUC_4
+            amount: 1
+        enchantments: MAXIMUM
+        crafting-time: 0
+        options:
+            success-rate: 35
+        ingredients:
+        - mmoitem{type=AXE,id=AXE_QUAN_NGUC_3,amount=1,display="Rìu Chiến Quản Ngục III"}
+        - mmoitem{type=MATERIAL,id=DA_NANG_CAP_QUAN_NGUC,amount=32,display="Cường Hóa Thạch Quản Ngục"}
+        - mmoitem{type=MATERIAL,id=NEN_DOI_QUAN_NGUC,amount=32,display="Quặng Tinh Luyện Quản Ngục"}
+        - mmoitem{type=MATERIAL,id=TINHTHE_CUONGHOA_VUKHI,amount=2,display="Tinh Thể Cường Hóa Vũ Khí"}
+    riu-quan-nguc-5:
+        output:
+            type: AXE
+            id: AXE_QUAN_NGUC_5
+            amount: 1
+        enchantments: MAXIMUM
+        crafting-time: 0
+        options:
+            success-rate: 25
+        ingredients:
+        - mmoitem{type=AXE,id=AXE_QUAN_NGUC_4,amount=1,display="Rìu Chiến Quản Ngục IV"}
+        - mmoitem{type=MATERIAL,id=DA_NANG_CAP_QUAN_NGUC,amount=64,display="Cường Hóa Thạch Quản Ngục"}
+        - mmoitem{type=MATERIAL,id=NEN_DOI_QUAN_NGUC,amount=64,display="Quặng Tinh Luyện Quản Ngục"}
+        - mmoitem{type=MATERIAL,id=TINHTHE_CUONGHOA_VUKHI,amount=2,display="Tinh Thể Cường Hóa Vũ Khí"}
+    # --- TRƯỢNG PHÉP (STAFF) ---
+    truong-quan-nguc-2:
+        output:
+            type: STAFF
+            id: STAFF_QUAN_NGUC_2
+            amount: 1
+        enchantments: MAXIMUM
+        crafting-time: 0
+        options:
+            success-rate: 55
+        ingredients:
+        - mmoitem{type=STAFF,id=STAFF_QUAN_NGUC_1,amount=1,display="Trượng Phép Quản Ngục I"}
+        - mmoitem{type=MATERIAL,id=DA_NANG_CAP_QUAN_NGUC,amount=8,display="Cường Hóa Thạch Quản Ngục"}
+        - mmoitem{type=MATERIAL,id=NEN_DOI_QUAN_NGUC,amount=8,display="Quặng Tinh Luyện Quản Ngục"}
+        - mmoitem{type=MATERIAL,id=TINHTHE_CUONGHOA_VUKHI,amount=2,display="Tinh Thể Cường Hóa Vũ Khí"}
+    truong-quan-nguc-3:
+        output:
+            type: STAFF
+            id: STAFF_QUAN_NGUC_3
+            amount: 1
+        enchantments: MAXIMUM
+        crafting-time: 0
+        options:
+            success-rate: 45
+        ingredients:
+        - mmoitem{type=STAFF,id=STAFF_QUAN_NGUC_2,amount=1,display="Trượng Phép Quản Ngục II"}
+        - mmoitem{type=MATERIAL,id=DA_NANG_CAP_QUAN_NGUC,amount=16,display="Cường Hóa Thạch Quản Ngục"}
+        - mmoitem{type=MATERIAL,id=NEN_DOI_QUAN_NGUC,amount=16,display="Quặng Tinh Luyện Quản Ngục"}
+        - mmoitem{type=MATERIAL,id=TINHTHE_CUONGHOA_VUKHI,amount=2,display="Tinh Thể Cường Hóa Vũ Khí"}
+    truong-quan-nguc-4:
+        output:
+            type: STAFF
+            id: STAFF_QUAN_NGUC_4
+            amount: 1
+        enchantments: MAXIMUM
+        crafting-time: 0
+        options:
+            success-rate: 35
+        ingredients:
+        - mmoitem{type=STAFF,id=STAFF_QUAN_NGUC_3,amount=1,display="Trượng Phép Quản Ngục III"}
+        - mmoitem{type=MATERIAL,id=DA_NANG_CAP_QUAN_NGUC,amount=32,display="Cường Hóa Thạch Quản Ngục"}
+        - mmoitem{type=MATERIAL,id=NEN_DOI_QUAN_NGUC,amount=32,display="Quặng Tinh Luyện Quản Ngục"}
+        - mmoitem{type=MATERIAL,id=TINHTHE_CUONGHOA_VUKHI,amount=2,display="Tinh Thể Cường Hóa Vũ Khí"}
+    truong-quan-nguc-5:
+        output:
+            type: STAFF
+            id: STAFF_QUAN_NGUC_5
+            amount: 1
+        enchantments: MAXIMUM
+        crafting-time: 0
+        options:
+            success-rate: 25
+        ingredients:
+        - mmoitem{type=STAFF,id=STAFF_QUAN_NGUC_4,amount=1,display="Trượng Phép Quản Ngục IV"}
+        - mmoitem{type=MATERIAL,id=DA_NANG_CAP_QUAN_NGUC,amount=64,display="Cường Hóa Thạch Quản Ngục"}
+        - mmoitem{type=MATERIAL,id=NEN_DOI_QUAN_NGUC,amount=64,display="Quặng Tinh Luyện Quản Ngục"}
+        - mmoitem{type=MATERIAL,id=TINHTHE_CUONGHOA_VUKHI,amount=2,display="Tinh Thể Cường Hóa Vũ Khí"}

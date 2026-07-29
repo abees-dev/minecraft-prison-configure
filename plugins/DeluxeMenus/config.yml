@@ -16,3 +16,11 @@ gui_menus:
     file: vip_ranks.yml
   ranks_master:
     file: ranks_master.yml
+  warp_main:
+    file: warp_main.yml
+  warp_mines:
+    file: warp_mines.yml
+  warp_dungeons:
+    file: warp_dungeons.yml
+  warp_hub:
+    file: warp_hub.yml

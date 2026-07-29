@@ -1,0 +1,101 @@
+# =============================================================================
+# WARP HUB - creates / trade / donate
+# =============================================================================
+menu_title: '&8❖ &e&lHUB / SHOP &8❖'
+open_command: []
+open_commands:
+  - '[sound] BLOCK_NOTE_BLOCK_CHIME'
+size: 27
+
+items:
+  'filler':
+    material: YELLOW_STAINED_GLASS_PANE
+    slots:
+      - 0
+      - 1
+      - 2
+      - 3
+      - 5
+      - 6
+      - 7
+      - 8
+      - 9
+      - 11
+      - 13
+      - 15
+      - 17
+      - 18
+      - 19
+      - 20
+      - 21
+      - 23
+      - 24
+      - 25
+      - 26
+    display_name: ' '
+    lore: []
+
+  'header':
+    material: ENDER_PEARL
+    slot: 4
+    glow: true
+    hide_attributes: true
+    display_name: '&e&l✦ HUB / SHOP'
+    lore:
+      - '&7Các điểm tiện ích ở hub.'
+
+  'creates':
+    material: CRAFTING_TABLE
+    slot: 10
+    glow: true
+    hide_attributes: true
+    display_name: '&6&l⚒ Creates'
+    lore:
+      - '&7Khu chế tạo / crafting'
+      - ''
+      - '&e» Click để dịch chuyển'
+    click_commands:
+      - '[sound] ENTITY_ENDERMAN_TELEPORT'
+      - '[close]'
+      - '[player] essentials:warp creates'
+
+  'trade':
+    material: EMERALD
+    slot: 12
+    glow: true
+    hide_attributes: true
+    display_name: '&a&l♦ Trade'
+    lore:
+      - '&7Khu giao dịch / trao đổi'
+      - ''
+      - '&e» Click để dịch chuyển'
+    click_commands:
+      - '[sound] ENTITY_ENDERMAN_TELEPORT'
+      - '[close]'
+      - '[player] essentials:warp trade'
+
+  'donate':
+    material: GOLD_INGOT
+    slot: 14
+    glow: true
+    hide_attributes: true
+    display_name: '&e&l★ Donate'
+    lore:
+      - '&7Khu donate / ủng hộ server'
+      - ''
+      - '&e» Click để dịch chuyển'
+    click_commands:
+      - '[sound] ENTITY_ENDERMAN_TELEPORT'
+      - '[close]'
+      - '[player] essentials:warp donate'
+
+  'back':
+    material: ARROW
+    slot: 22
+    hide_attributes: true
+    display_name: '&e« Quay lại'
+    lore:
+      - '&7Về menu chọn khu vực'
+    click_commands:
+      - '[sound] UI_BUTTON_CLICK'
+      - '[openguimenu] warp_main'

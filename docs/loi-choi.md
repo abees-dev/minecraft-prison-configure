@@ -53,7 +53,7 @@ flowchart TD
 
 1. Vào mỏ đúng rank → đào quặng.
 2. Craft block nén (nếu cần) → NPC **Tinh Luyện** → Đá Nâng Cấp / nguyên liệu.
-3. NPC **Lò Rèn Cúp / Giáp** → nâng cấp trong rank (I→V).
+3. NPC **Lò Rèn Cúp / Giáp / Vũ Khí** → nâng cấp trong rank (I→V).
 4. `/sellgui` → lấy tiền → `/rankup` hoặc `/xrankuppoint` khi đủ **tiền/point + level MMOCore**.
 5. Khi đủ đồ combat: vào dungeon cùng rank → farm vũ khí / nguyên liệu → đục lỗ / gắn ngọc / cường hóa → quay lại đào hoặc dungeon cao hơn.
 
@@ -105,7 +105,7 @@ Rankup money: `/rankup` hoặc `/xrankup`. Rankup point: `/xrankuppoint`. Menu: 
 ### 3.4 Late — Rank 7–9 (Quản Ngục → Vượt Ngục)
 
 - Dungeon cao; rank 6–9 hướng `world_magadungeon` (theo spawner docs).
-- Farm **Mảnh Huy Hiệu Triệu Hồi** từ boss rank → NPC chế **Huy Hiệu Triệu Hồi** → bàn thờ **Ma Vương**.
+- Farm **Mảnh Huy Hiệu Triệu Hồi** từ boss rank → NPC chế **Huy Hiệu Triệu Hồi** → right-click bàn thờ để **tự triệu hồi** Ma Vương (cooldown chung trên altar).
 - Tham chiếu: [`npc-huy-hieu-trieu-hoi-notes.md`](npc-huy-hieu-trieu-hoi-notes.md), Skript `plugins/Skript/scripts/demon_king/`.
 
 ### 3.5 Endgame — hai meta tách bạch
@@ -132,11 +132,11 @@ Config tham chiếu:
 | --- | --- | --- |
 | X-Prison mines / ranks | Đào đúng mỏ rank; leo thang 9 rank | `plugins/X-Prison/`, WG regions `world_prison` |
 | EconomyShopGUI | Bán quặng, thấy multiplier | `plugins/EconomyShopGUI/`, docs multipliers |
-| MMOItems stations + NPC | Tinh luyện, nâng cúp/giáp theo rank | `crafting-stations/refinery-*.yml`, `forge-*.yml`, `armor-forge-*.yml`, Citizens |
+| MMOItems stations + NPC | Tinh luyện, nâng cúp/giáp/vũ khí theo rank | `crafting-stations/refinery-*.yml`, `forge-*.yml`, `armor-forge-*.yml`, `weapon-forge-*.yml`, Citizens |
 | MMOCore | Class, level, skill; gate rankup | `plugins/MMOCore/classes/`, `level_gate.sk` |
 | MythicMobs dungeon | Farm combat / boss theo rank | `mobs/prison_rank_mobs.yml`, `docs/SPAWNER_LIST.md` |
 | Đục lỗ / Ngọc / Cường hóa | Build chỉ số combat | `scripts/sockets/`, `scripts/upgrade/`, `item/gem_stone.yml` |
-| Ma Vương | Boss endgame theo chu kỳ | `scripts/demon_king/`, `huy-hieu-trieu-hoi.yml`, hologram `MaVuongTimer` |
+| Ma Vương | Boss endgame — **user tự triệu hồi** (Huy Hiệu + bàn thờ); cooldown chung | `scripts/demon_king/`, `huy-hieu-trieu-hoi.yml`, hologram `MaVuongTimer` (cooldown) |
 | Prestige / Chuyển Sinh | Hai meta dài hạn tách bạch | `prestiges.yml`, `scripts/rebirth/` |
 | Jewelry / Long Tộc / crates | Bonus / cosmetic / sink phụ | `item/ring.yml`…, trade/donate stations, ExcellentCrates |
 
@@ -177,10 +177,10 @@ Core loop đào–bán–rankup dễ nhàm nếu chỉ có một việc lặp. L
 
 | # | Tính năng | Player cảm nhận | Nguồn / triển khai | Ưu tiên |
 | ---: | --- | --- | --- | --- |
-| A | **Nhiệm vụ Ngày / Tuần** | Login → làm 2–3 quest (đào / giết / bán) → nhận thưởng | Plugin **BattlePass** đã cài; quest mix mining + dungeon + sell | P1 |
+| A | **Nhiệm vụ Ngày / Tuần** | Login → làm 2–3 quest (đào / giết / bán) → nhận thưởng | **Chưa cần làm** — user sẽ tự làm plugin sau. BattlePass daily config hiện có thể bỏ / không dùng | Hoãn |
 | B | **Chợ Đen** | Đăng bán / săn deal hết hạn 24h — FOMO + kinh tế player | Skript `black_market/` đã viết, **chưa** trong `00_system_loader.sk` → bật loader | P1 |
-| C | **Đêm Nguyệt Huyết** | Cuối tuần 2 giờ: mob vampire mạnh hơn, drop tốt hơn | Mob sẵn: `bloodmoon_vampire_mobs.yml` + schedule/announce (Skript hoặc MM) | P1 |
-| D | **Lịch Ma Vương cố định** | Biết giờ boss → chủ động farm huy hiệu / online đúng cửa sổ | Hologram `MaVuongTimer` + announce; polish sink `TINHTHE_HUY_DIET` | P1 |
+| C | **Đêm Nguyệt Huyết** | Cuối tuần 2 giờ: boss Bá Tước Huyết Nguyệt | **Đã làm** — Skript `bloodmoon/` · [`nguyet-huyet-notes.md`](nguyet-huyet-notes.md) | P1 xong |
+| D | **Ma Vương (tự spawn)** | Farm mảnh → chế Huy Hiệu → right-click bàn thờ | Đã có: `demon_king/` + altar. Hologram `MaVuongTimer` = **cooldown**, không phải lịch server. Polish sink `TINHTHE_HUY_DIET` nếu cần — **update sau** |
 | E | **Mốc đào (Block milestones)** | 10k / 50k / 100k… blocks → rương thưởng (không phải chỉ số ảo) | X-Prison `/blocks` + Skript reward hoặc BattlePass milestone | P2 |
 | F | **BXH tuần** | Đua blocks mined / boss kill / prestige — khoe tab & thưởng top | PlaceholderAPI + DecentHolograms / TAB; reset weekly | P2 |
 | G | **Đêm Vượt Ngục** (themed night) | 1 tối/tuần: +sell mult tạm + dungeon loot boost 2 giờ | Skript multiplier tạm + announce; khớp fantasy “vượt ngục” | P2 |
@@ -191,10 +191,10 @@ Core loop đào–bán–rankup dễ nhàm nếu chỉ có một việc lặp. L
 | Ngày | Nội dung |
 | --- | --- |
 | Mỗi ngày | Daily quest (A) + Chợ Đen luôn mở (B) |
-| Thứ 4 | Nhắc Ma Vương / cửa sổ triệu hồi (D) |
 | Thứ 7 tối | Đêm Nguyệt Huyết 2 giờ (C) |
 | Chủ nhật tối | Đêm Vượt Ngục 2 giờ (G) — hoặc xen kẽ tuần chẵn/lẻ với C |
 | Cuối tuần | Snapshot BXH tuần (F) + trao thưởng |
+| (bất kỳ lúc nào) | Ma Vương khi đủ Huy Hiệu + altar hết cooldown (D) — **không** theo lịch server |
 
 ### 6.4 Cố ý không thêm (tránh phình scope)
 
@@ -221,13 +221,13 @@ Core loop đào–bán–rankup dễ nhàm nếu chỉ có một việc lặp. L
 
 | # | Việc | Vì sao | File / hành động |
 | ---: | --- | --- | --- |
-| 5 | **Làm rõ Prestige vs Chuyển Sinh** | Dễ nhầm với X-Prison Rebirths | UI/hologram/help; tắt hoặc ẩn module rebirths X-Prison khỏi người chơi |
-| 6 | **Cân bằng kinh tế Phase 6** | Ore cascade 30/70 rất “béo” vs giá rankup / forge | Giá sell EconomyShopGUI, cost rank, recipe forge |
-| 7 | **Ma Vương polish + lịch cố định** | Altar có sẵn; cần sink drop + giờ chơi rõ (§6.2 D) | `demon_king/`, droptables, `MaVuongTimer.yml`, announce |
+| 5 | **Làm rõ Prestige vs Chuyển Sinh** | ~~Dễ nhầm Rebirths~~ | **Đã test + ẩn X-Prison Rebirths** |
+| 6 | **Cân bằng kinh tế Phase 6** | ~~Ore/EV lệch late + prestige cliff~~ | **Đã chỉnh 2026-07-29** — chi tiết [`economy-phase6-notes.md`](economy-phase6-notes.md); reload `/sreload` + `/xprison reload` + `sk reload prison/` |
+| 7 | **Ma Vương polish** | User đã tự spawn qua bàn thờ + Huy Hiệu; không làm lịch cố định | **Hoãn polish sink/drop** (`TINHTHE_HUY_DIET`…) — update sau nếu cần |
 | 8 | **Đồng bộ docs ops** | Docs từng nói X-Prison enchants bật | Đã chuẩn hóa trong [`DOCS_HE_THONG_PRISON.md`](../DOCS_HE_THONG_PRISON.md) + [`INDEX.md`](INDEX.md) — giữ khớp khi đổi config |
-| 9 | **Daily/Weekly quests (BattlePass)** | Lý do login ngắn mỗi ngày (§6.2 A) | Cấu hình BattlePass quest mine/kill/sell |
+| 9 | **Daily/Weekly quests (BattlePass)** | Lý do login ngắn mỗi ngày (§6.2 A) | **Hoãn — không làm tiếp.** User sẽ làm plugin daily riêng sau. Note: [`battlepass-daily-notes.md`](battlepass-daily-notes.md) chỉ là thử nghiệm BattlePass, không bắt buộc |
 | 10 | **Bật Chợ Đen** | Kinh tế player + FOMO (§6.2 B) | Thêm `sk reload black_market/` vào [`00_system_loader.sk`](../plugins/Skript/scripts/00_system_loader.sk); test GUI |
-| 11 | **Đêm Nguyệt Huyết** | Sự kiện cuối tuần (§6.2 C) | Schedule spawn `bloodmoon_vampire_mobs` + drop table + announce |
+| 11 | **Đêm Nguyệt Huyết** | Sự kiện cuối tuần (§6.2 C) | **Đã làm 2026-07-29** — [`nguyet-huyet-notes.md`](nguyet-huyet-notes.md); nhớ `/nguyethuyet setspawn` |
 
 ### P2 — Gắn RPG chặt hơn + engagement sâu
 

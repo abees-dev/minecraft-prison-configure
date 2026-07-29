@@ -245,6 +245,31 @@ Hệ thống được tách thành 3 loại NPC cho mỗi Rank để người ch
 /npc cmd add mi stations open armor-forge-jailbreak <p>
 ```
 
+### 🗡️ C. Lò Rèn Vũ Khí (NPC chưa đặt — chỉ lệnh)
+
+Chi tiết: [`npc-weapon-forge-stations-notes.md`](npc-weapon-forge-stations-notes.md).
+
+| Rank | Station ID | Lệnh gán NPC |
+| --- | --- | --- |
+| 1 Tân Binh | `weapon-forge-rookie` | `/npc cmd add mi stations open weapon-forge-rookie <p>` |
+| 2 Tù Nhân | `weapon-forge-prisoner` | `... weapon-forge-prisoner <p>` |
+| 3 Lao Công | `weapon-forge-worker` | `... weapon-forge-worker <p>` |
+| 4 Thợ Đào | `weapon-forge-miner` | `... weapon-forge-miner <p>` |
+| 5 Đội Trưởng | `weapon-forge-captain` | `... weapon-forge-captain <p>` |
+| 6 Phó Quản Ngục | `weapon-forge-vice-warden` | `... weapon-forge-vice-warden <p>` |
+| 7 Quản Ngục | `weapon-forge-warden` | `... weapon-forge-warden <p>` |
+| 8 Bá Chủ | `weapon-forge-overlord` | `... weapon-forge-overlord <p>` |
+| 9 Vượt Ngục | `weapon-forge-jailbreak` | `... weapon-forge-jailbreak <p>` |
+
+Mẫu tạo (Rank 1):
+```bash
+/npc create &f&l⚔ Vũ Khí Tân Binh --type PLAYER
+/npc skin Blacksmith
+/npc cmd add mi stations open weapon-forge-rookie <p>
+```
+
+Test không NPC: `/mi stations open weapon-forge-rookie`
+
 ---
 
 ## ⚖️ 3. Cơ Chế Thăng Tiến & Tỷ Lệ Xịt/Thành Công

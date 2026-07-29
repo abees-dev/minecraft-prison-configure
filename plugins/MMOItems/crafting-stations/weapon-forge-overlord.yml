@@ -1,0 +1,187 @@
+name: 'Lò Rèn Vũ Khí Bá Chủ Ngục Tù (#page#/#max#)'
+max-queue-size: 10
+sound: ENTITY_EXPERIENCE_ORB_PICKUP
+layout: default
+
+items:
+    fill:
+        material: AIR
+    no-recipe:
+        material: GRAY_STAINED_GLASS_PANE
+        name: '&aNo Recipe'
+    no-queue-item:
+        material: GRAY_STAINED_GLASS_PANE
+        name: '&aNo Item in Queue'
+
+recipes:
+    # --- KIẾM (SWORD) ---
+    kiem-ba-chu-nguc-tu-2:
+        output:
+            type: SWORD
+            id: SWORD_BA_CHU_NGUC_TU_2
+            amount: 1
+        enchantments: MAXIMUM
+        crafting-time: 0
+        options:
+            success-rate: 50
+        ingredients:
+        - mmoitem{type=SWORD,id=SWORD_BA_CHU_NGUC_TU_1,amount=1,display="Kiếm Bá Chủ Ngục Tù I"}
+        - mmoitem{type=MATERIAL,id=DA_NANG_CAP_BA_CHU_NGUC_TU,amount=10,display="Cường Hóa Thạch Bá Chủ Ngục Tù"}
+        - mmoitem{type=MATERIAL,id=NEN_DOI_BA_CHU_NGUC_TU,amount=10,display="Quặng Tinh Luyện Bá Chủ Ngục Tù"}
+        - mmoitem{type=MATERIAL,id=TINHTHE_CUONGHOA_VUKHI,amount=2,display="Tinh Thể Cường Hóa Vũ Khí"}
+    kiem-ba-chu-nguc-tu-3:
+        output:
+            type: SWORD
+            id: SWORD_BA_CHU_NGUC_TU_3
+            amount: 1
+        enchantments: MAXIMUM
+        crafting-time: 0
+        options:
+            success-rate: 40
+        ingredients:
+        - mmoitem{type=SWORD,id=SWORD_BA_CHU_NGUC_TU_2,amount=1,display="Kiếm Bá Chủ Ngục Tù II"}
+        - mmoitem{type=MATERIAL,id=DA_NANG_CAP_BA_CHU_NGUC_TU,amount=20,display="Cường Hóa Thạch Bá Chủ Ngục Tù"}
+        - mmoitem{type=MATERIAL,id=NEN_DOI_BA_CHU_NGUC_TU,amount=20,display="Quặng Tinh Luyện Bá Chủ Ngục Tù"}
+        - mmoitem{type=MATERIAL,id=TINHTHE_CUONGHOA_VUKHI,amount=2,display="Tinh Thể Cường Hóa Vũ Khí"}
+    kiem-ba-chu-nguc-tu-4:
+        output:
+            type: SWORD
+            id: SWORD_BA_CHU_NGUC_TU_4
+            amount: 1
+        enchantments: MAXIMUM
+        crafting-time: 0
+        options:
+            success-rate: 30
+        ingredients:
+        - mmoitem{type=SWORD,id=SWORD_BA_CHU_NGUC_TU_3,amount=1,display="Kiếm Bá Chủ Ngục Tù III"}
+        - mmoitem{type=MATERIAL,id=DA_NANG_CAP_BA_CHU_NGUC_TU,amount=40,display="Cường Hóa Thạch Bá Chủ Ngục Tù"}
+        - mmoitem{type=MATERIAL,id=NEN_DOI_BA_CHU_NGUC_TU,amount=40,display="Quặng Tinh Luyện Bá Chủ Ngục Tù"}
+        - mmoitem{type=MATERIAL,id=TINHTHE_CUONGHOA_VUKHI,amount=2,display="Tinh Thể Cường Hóa Vũ Khí"}
+    kiem-ba-chu-nguc-tu-5:
+        output:
+            type: SWORD
+            id: SWORD_BA_CHU_NGUC_TU_5
+            amount: 1
+        enchantments: MAXIMUM
+        crafting-time: 0
+        options:
+            success-rate: 20
+        ingredients:
+        - mmoitem{type=SWORD,id=SWORD_BA_CHU_NGUC_TU_4,amount=1,display="Kiếm Bá Chủ Ngục Tù IV"}
+        - mmoitem{type=MATERIAL,id=DA_NANG_CAP_BA_CHU_NGUC_TU,amount=64,display="Cường Hóa Thạch Bá Chủ Ngục Tù"}
+        - mmoitem{type=MATERIAL,id=NEN_DOI_BA_CHU_NGUC_TU,amount=64,display="Quặng Tinh Luyện Bá Chủ Ngục Tù"}
+        - mmoitem{type=MATERIAL,id=TINHTHE_CUONGHOA_VUKHI,amount=2,display="Tinh Thể Cường Hóa Vũ Khí"}
+    # --- RÌU CHIẾN (AXE) ---
+    riu-ba-chu-nguc-tu-2:
+        output:
+            type: AXE
+            id: AXE_BA_CHU_NGUC_TU_2
+            amount: 1
+        enchantments: MAXIMUM
+        crafting-time: 0
+        options:
+            success-rate: 50
+        ingredients:
+        - mmoitem{type=AXE,id=AXE_BA_CHU_NGUC_TU_1,amount=1,display="Rìu Chiến Bá Chủ Ngục Tù I"}
+        - mmoitem{type=MATERIAL,id=DA_NANG_CAP_BA_CHU_NGUC_TU,amount=10,display="Cường Hóa Thạch Bá Chủ Ngục Tù"}
+        - mmoitem{type=MATERIAL,id=NEN_DOI_BA_CHU_NGUC_TU,amount=10,display="Quặng Tinh Luyện Bá Chủ Ngục Tù"}
+        - mmoitem{type=MATERIAL,id=TINHTHE_CUONGHOA_VUKHI,amount=2,display="Tinh Thể Cường Hóa Vũ Khí"}
+    riu-ba-chu-nguc-tu-3:
+        output:
+            type: AXE
+            id: AXE_BA_CHU_NGUC_TU_3
+            amount: 1
+        enchantments: MAXIMUM
+        crafting-time: 0
+        options:
+            success-rate: 40
+        ingredients:
+        - mmoitem{type=AXE,id=AXE_BA_CHU_NGUC_TU_2,amount=1,display="Rìu Chiến Bá Chủ Ngục Tù II"}
+        - mmoitem{type=MATERIAL,id=DA_NANG_CAP_BA_CHU_NGUC_TU,amount=20,display="Cường Hóa Thạch Bá Chủ Ngục Tù"}
+        - mmoitem{type=MATERIAL,id=NEN_DOI_BA_CHU_NGUC_TU,amount=20,display="Quặng Tinh Luyện Bá Chủ Ngục Tù"}
+        - mmoitem{type=MATERIAL,id=TINHTHE_CUONGHOA_VUKHI,amount=2,display="Tinh Thể Cường Hóa Vũ Khí"}
+    riu-ba-chu-nguc-tu-4:
+        output:
+            type: AXE
+            id: AXE_BA_CHU_NGUC_TU_4
+            amount: 1
+        enchantments: MAXIMUM
+        crafting-time: 0
+        options:
+            success-rate: 30
+        ingredients:
+        - mmoitem{type=AXE,id=AXE_BA_CHU_NGUC_TU_3,amount=1,display="Rìu Chiến Bá Chủ Ngục Tù III"}
+        - mmoitem{type=MATERIAL,id=DA_NANG_CAP_BA_CHU_NGUC_TU,amount=40,display="Cường Hóa Thạch Bá Chủ Ngục Tù"}
+        - mmoitem{type=MATERIAL,id=NEN_DOI_BA_CHU_NGUC_TU,amount=40,display="Quặng Tinh Luyện Bá Chủ Ngục Tù"}
+        - mmoitem{type=MATERIAL,id=TINHTHE_CUONGHOA_VUKHI,amount=2,display="Tinh Thể Cường Hóa Vũ Khí"}
+    riu-ba-chu-nguc-tu-5:
+        output:
+            type: AXE
+            id: AXE_BA_CHU_NGUC_TU_5
+            amount: 1
+        enchantments: MAXIMUM
+        crafting-time: 0
+        options:
+            success-rate: 20
+        ingredients:
+        - mmoitem{type=AXE,id=AXE_BA_CHU_NGUC_TU_4,amount=1,display="Rìu Chiến Bá Chủ Ngục Tù IV"}
+        - mmoitem{type=MATERIAL,id=DA_NANG_CAP_BA_CHU_NGUC_TU,amount=64,display="Cường Hóa Thạch Bá Chủ Ngục Tù"}
+        - mmoitem{type=MATERIAL,id=NEN_DOI_BA_CHU_NGUC_TU,amount=64,display="Quặng Tinh Luyện Bá Chủ Ngục Tù"}
+        - mmoitem{type=MATERIAL,id=TINHTHE_CUONGHOA_VUKHI,amount=2,display="Tinh Thể Cường Hóa Vũ Khí"}
+    # --- TRƯỢNG PHÉP (STAFF) ---
+    truong-ba-chu-nguc-tu-2:
+        output:
+            type: STAFF
+            id: STAFF_BA_CHU_NGUC_TU_2
+            amount: 1
+        enchantments: MAXIMUM
+        crafting-time: 0
+        options:
+            success-rate: 50
+        ingredients:
+        - mmoitem{type=STAFF,id=STAFF_BA_CHU_NGUC_TU_1,amount=1,display="Trượng Phép Bá Chủ Ngục Tù I"}
+        - mmoitem{type=MATERIAL,id=DA_NANG_CAP_BA_CHU_NGUC_TU,amount=10,display="Cường Hóa Thạch Bá Chủ Ngục Tù"}
+        - mmoitem{type=MATERIAL,id=NEN_DOI_BA_CHU_NGUC_TU,amount=10,display="Quặng Tinh Luyện Bá Chủ Ngục Tù"}
+        - mmoitem{type=MATERIAL,id=TINHTHE_CUONGHOA_VUKHI,amount=2,display="Tinh Thể Cường Hóa Vũ Khí"}
+    truong-ba-chu-nguc-tu-3:
+        output:
+            type: STAFF
+            id: STAFF_BA_CHU_NGUC_TU_3
+            amount: 1
+        enchantments: MAXIMUM
+        crafting-time: 0
+        options:
+            success-rate: 40
+        ingredients:
+        - mmoitem{type=STAFF,id=STAFF_BA_CHU_NGUC_TU_2,amount=1,display="Trượng Phép Bá Chủ Ngục Tù II"}
+        - mmoitem{type=MATERIAL,id=DA_NANG_CAP_BA_CHU_NGUC_TU,amount=20,display="Cường Hóa Thạch Bá Chủ Ngục Tù"}
+        - mmoitem{type=MATERIAL,id=NEN_DOI_BA_CHU_NGUC_TU,amount=20,display="Quặng Tinh Luyện Bá Chủ Ngục Tù"}
+        - mmoitem{type=MATERIAL,id=TINHTHE_CUONGHOA_VUKHI,amount=2,display="Tinh Thể Cường Hóa Vũ Khí"}
+    truong-ba-chu-nguc-tu-4:
+        output:
+            type: STAFF
+            id: STAFF_BA_CHU_NGUC_TU_4
+            amount: 1
+        enchantments: MAXIMUM
+        crafting-time: 0
+        options:
+            success-rate: 30
+        ingredients:
+        - mmoitem{type=STAFF,id=STAFF_BA_CHU_NGUC_TU_3,amount=1,display="Trượng Phép Bá Chủ Ngục Tù III"}
+        - mmoitem{type=MATERIAL,id=DA_NANG_CAP_BA_CHU_NGUC_TU,amount=40,display="Cường Hóa Thạch Bá Chủ Ngục Tù"}
+        - mmoitem{type=MATERIAL,id=NEN_DOI_BA_CHU_NGUC_TU,amount=40,display="Quặng Tinh Luyện Bá Chủ Ngục Tù"}
+        - mmoitem{type=MATERIAL,id=TINHTHE_CUONGHOA_VUKHI,amount=2,display="Tinh Thể Cường Hóa Vũ Khí"}
+    truong-ba-chu-nguc-tu-5:
+        output:
+            type: STAFF
+            id: STAFF_BA_CHU_NGUC_TU_5
+            amount: 1
+        enchantments: MAXIMUM
+        crafting-time: 0
+        options:
+            success-rate: 20
+        ingredients:
+        - mmoitem{type=STAFF,id=STAFF_BA_CHU_NGUC_TU_4,amount=1,display="Trượng Phép Bá Chủ Ngục Tù IV"}
+        - mmoitem{type=MATERIAL,id=DA_NANG_CAP_BA_CHU_NGUC_TU,amount=64,display="Cường Hóa Thạch Bá Chủ Ngục Tù"}
+        - mmoitem{type=MATERIAL,id=NEN_DOI_BA_CHU_NGUC_TU,amount=64,display="Quặng Tinh Luyện Bá Chủ Ngục Tù"}
+        - mmoitem{type=MATERIAL,id=TINHTHE_CUONGHOA_VUKHI,amount=2,display="Tinh Thể Cường Hóa Vũ Khí"}

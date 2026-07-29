@@ -615,3 +615,17 @@ GLOVES:
         - '{tier}&8Item Info:'
         - '{range}&8- &7Lvl Range: &e#range#'
         - '{tier}&8- &7Item Tier: #prefix##tier#'
+
+PET:
+    display: PAPER
+    name: 'Pet'
+    parent: 'ACCESSORY'
+    unident-item:
+        name: '&f#prefix#Unidentified Pet'
+        lore:
+        - '&7This item is unidentified. I must'
+        - '&7find a way to identify it!'
+        - '{tier}'
+        - '{tier}&8Item Info:'
+        - '{range}&8- &7Lvl Range: &e#range#'
+        - '{tier}&8- &7Item Tier: #prefix##tier#'

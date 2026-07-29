@@ -1,0 +1,201 @@
+# ============================================================================
+# ĐÊM NGUYỆT HUYẾT — MAIN
+# File: plugins/Skript/scripts/bloodmoon/main.sk
+# Lịch: Thứ 7 20:00–22:00 (giờ server)
+# Admin: /nguyethuyet start|stop|setspawn|status|spawn
+# ============================================================================
+
+import:
+	java.util.Calendar
+
+function bm_world() :: text:
+	if {bloodmoon_world} is set:
+		return {bloodmoon_world}
+	return get_bm_default_world()
+
+function bm_x() :: number:
+	if {bloodmoon_x} is set:
+		return {bloodmoon_x}
+	return get_bm_default_x()
+
+function bm_y() :: number:
+	if {bloodmoon_y} is set:
+		return {bloodmoon_y}
+	return get_bm_default_y()
+
+function bm_z() :: number:
+	if {bloodmoon_z} is set:
+		return {bloodmoon_z}
+	return get_bm_default_z()
+
+function bm_spawn_cmd() :: text:
+	set {_id} to get_bm_boss_id()
+	set {_lv} to get_bm_boss_level()
+	set {_w} to bm_world()
+	set {_x} to bm_x()
+	set {_y} to bm_y()
+	set {_z} to bm_z()
+	return "mm mobs spawn %{_id}%:%{_lv}% 1 %{_w}%,%{_x}%,%{_y}%,%{_z}%"
+
+function bm_is_saturday() :: boolean:
+	set {_c} to Calendar.getInstance()
+	set {_d} to {_c}.get(Calendar.DAY_OF_WEEK)
+	# Calendar: SUNDAY=1 ... SATURDAY=7
+	if {_d} is 7:
+		return true
+	return false
+
+function bm_hour() :: number:
+	set {_c} to Calendar.getInstance()
+	return {_c}.get(Calendar.HOUR_OF_DAY)
+
+function bm_minute() :: number:
+	set {_c} to Calendar.getInstance()
+	return {_c}.get(Calendar.MINUTE)
+
+function bm_date_key() :: text:
+	set {_c} to Calendar.getInstance()
+	set {_y} to {_c}.get(Calendar.YEAR)
+	set {_mo} to {_c}.get(Calendar.MONTH) + 1
+	set {_dom} to {_c}.get(Calendar.DAY_OF_MONTH)
+	return "%{_y}%_%{_mo}%_%{_dom}%"
+
+function bm_broadcast(msg: text):
+	broadcast {_msg}
+	loop all players:
+		send title "&5&lNGUYỆT HUYẾT" with subtitle {_msg} to loop-player for 4 seconds
+
+function bloodmoon_start(force: boolean = false):
+	if {bloodmoon_active} is true:
+		if {_force} is false:
+			stop
+	set {bloodmoon_active} to true
+	set {bloodmoon_started_date} to "%now%"
+
+	bm_broadcast(get_bm_msg("START"))
+
+	set {_w} to world named bm_world()
+	if {_w} is set:
+		set time of {_w} to 0:00
+
+	set {_cmd} to bm_spawn_cmd()
+	execute console command {_cmd}
+	send "&a[Nguyệt Huyết] Spawn: %{_cmd}%" to console
+
+function bloodmoon_stop(despawn: boolean = true):
+	if {bloodmoon_active} is not true:
+		stop
+	set {bloodmoon_active} to false
+	bm_broadcast(get_bm_msg("END"))
+
+	if {_despawn} is true:
+		set {_id} to get_bm_boss_id()
+		execute console command "mm mobs kill %{_id}%"
+		send "&a[Nguyệt Huyết] Đã kill %{_id}%" to console
+
+# --- Lịch tự động (check mỗi phút) ---
+every 1 minute:
+	if bm_is_saturday() is false:
+		stop
+
+	set {_h} to bm_hour()
+	set {_m} to bm_minute()
+	set {_dk} to bm_date_key()
+
+	# Cảnh báo 19:50
+	if {_h} is get_bm_warn_hour():
+		if {_m} is get_bm_warn_minute():
+			set {_key} to "bm_warn_%{_dk}%"
+			if {bloodmoon_flag::%{_key}%} is not set:
+				set {bloodmoon_flag::%{_key}%} to true
+				bm_broadcast(get_bm_msg("WARN"))
+
+	# Bắt đầu 20:00
+	if {_h} is get_bm_start_hour():
+		if {_m} is 0:
+			set {_key} to "bm_start_%{_dk}%"
+			if {bloodmoon_flag::%{_key}%} is not set:
+				set {bloodmoon_flag::%{_key}%} to true
+				bloodmoon_start(false)
+
+	# Kết thúc 22:00
+	if {_h} is get_bm_end_hour():
+		if {_m} is 0:
+			set {_key} to "bm_end_%{_dk}%"
+			if {bloodmoon_flag::%{_key}%} is not set:
+				set {bloodmoon_flag::%{_key}%} to true
+				if {bloodmoon_active} is true:
+					bloodmoon_stop(true)
+
+# --- Admin commands ---
+command /nguyethuyet [<text>] [<text>]:
+	aliases: /bloodmoon, /nguyet
+	permission: op
+	permission message: &cChỉ admin (OP) mới dùng được.
+	trigger:
+		set {_sub} to arg-1
+		if {_sub} is not set:
+			send "&5&l⚔ NGUYỆT HUYẾT &8» &f/nguyethuyet <start|stop|setspawn|status|spawn>" to player
+			stop
+
+		if {_sub} is "start":
+			if {bloodmoon_active} is true:
+				send get_bm_msg("ALREADY") to player
+				stop
+			bloodmoon_start(true)
+			send "&a&l[Nguyệt Huyết] &fĐã bắt đầu thủ công!" to player
+			stop
+
+		if {_sub} is "stop":
+			if {bloodmoon_active} is not true:
+				send get_bm_msg("NOT_ACTIVE") to player
+				stop
+			bloodmoon_stop(true)
+			send "&a&l[Nguyệt Huyết] &fĐã kết thúc thủ công!" to player
+			stop
+
+		if {_sub} is "setspawn":
+			set {bloodmoon_world} to "%player's world%"
+			set {bloodmoon_x} to round(x-coord of player)
+			set {bloodmoon_y} to round(y-coord of player)
+			set {bloodmoon_z} to round(z-coord of player)
+			send get_bm_msg("SPAWN_SET") to player
+			set {_w} to bm_world()
+			set {_x} to bm_x()
+			set {_y} to bm_y()
+			set {_z} to bm_z()
+			send "&7%{_w}% &8@ &f%{_x}% %{_y}% %{_z}%" to player
+			stop
+
+		if {_sub} is "spawn":
+			set {_cmd} to bm_spawn_cmd()
+			execute console command {_cmd}
+			send "&a&l[Nguyệt Huyết] &fĐã spawn boss tại điểm đã lưu." to player
+			stop
+
+		if {_sub} is "status":
+			if {bloodmoon_active} is true:
+				send "&5&l⚔ &aĐANG DIỄN RA" to player
+			else:
+				send "&5&l⚔ &7Không active" to player
+			set {_sh} to get_bm_start_hour()
+			set {_eh} to get_bm_end_hour()
+			set {_id} to get_bm_boss_id()
+			set {_lv} to get_bm_boss_level()
+			set {_w} to bm_world()
+			set {_x} to bm_x()
+			set {_y} to bm_y()
+			set {_z} to bm_z()
+			send "&7Lịch: &fThứ 7 &e%{_sh}%:00&f–&e%{_eh}%:00" to player
+			send "&7Spawn: &f%{_w}% &8@ &f%{_x}% %{_y}% %{_z}%" to player
+			send "&7Boss: &f%{_id}%:%{_lv}%" to player
+			stop
+
+		send "&c&l[Nguyệt Huyết] &fSub: start | stop | setspawn | status | spawn" to player
+
+on script load:
+	if {bloodmoon_active} is not set:
+		set {bloodmoon_active} to false
+	set {_sh} to get_bm_start_hour()
+	set {_eh} to get_bm_end_hour()
+	send "&5[Nguyệt Huyết] Loaded | T7 %{_sh}%:00–%{_eh}%:00 | /nguyethuyet" to console

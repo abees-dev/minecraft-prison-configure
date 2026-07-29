@@ -94,6 +94,18 @@ GLOVES:
     lore:
     - '&7Kéo & thả vật phẩm vào đây để đeo.'
 
+# Pet slot
+PET:
+    type: accessory
+    material: DIAMOND_HOE
+    durability: 16
+    name: '&6Ô Pet'
+    slot: 14
+    restrictions:
+    - 'mmoitemstype{type=PET}'
+    lore:
+    - '&7Kéo & thả pet vào đây để gắn.'
+
 # Artifact slots
 ARTIFACT_1:
     type: accessory

@@ -1,0 +1,14 @@
+# Pet items (MMOItems type PET) — gắn vào ô Pet trong RPGInventory
+
+TEST_PET_HP:
+  base:
+    lore-format: jewelry-lore
+    material: BONE
+    name: '&a&lPet Test (+100 HP)'
+    lore:
+      - '&7Pet thử nghiệm.'
+      - '&7Gắn vào &eÔ Pet &7trong RPG Inventory.'
+    tier: COMMON
+    max-health: 100.0
+    unstackable: true
+    disable-interaction: true

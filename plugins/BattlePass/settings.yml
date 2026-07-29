@@ -65,18 +65,18 @@ daily-quests-enabled: true # If this value is set to false it will disable calcu
 # To make it work, one server in bungee proxy, should be set as 'false' and other servers should be set as 'true'
 daily-quests-use-bungee: false
 
-permanent-daily-quest-ids: []
+permanent-daily-quest-ids: ['1', '2', '3']
 
 # Generate daily quest using 'difficulty' property
 # Permanent daily quests are added before adding quests from strategy
 # Read more -> https://battlepass.advancedplugins.net/quests/daily-quests-difficulty
 daily-quest-difficulty:
-  enabled: false
+  enabled: true
   strategy:
-    easy: 4 # Choose 4 quests with 'easy' difficulty
-    medium: 2 # Choose 2 quests with 'medium' difficulty
-    hard: 1 # Choose 1 quest with 'hard' difficulty
-# And choose daily-quest-amount - permanent-daily-quests-amount - (easy + medium + hard) random quests (In default config: 2 random quests)
+    easy: 1
+    medium: 1
+    hard: 0
+# 3 permanent + 1 easy + 1 medium = 5 (khớp daily-quest-amount)
 
 # Actions that are run whenever any player completes any quest, for that player.
 # This is empty by default, set it like this if you want actions:
@@ -84,22 +84,22 @@ daily-quest-difficulty:
 # quest-completed-actions:
 #   - '[message]{Well you did something}'
 quest-completed-actions:
-- '[title]{&eQuest completed!}'
-- '[subtitle]{&e%quest_name%&f is now completed}'
+- '[title]{&a&lNHẬT LỆNH HOÀN THÀNH}'
+- '[subtitle]{&e%quest_name%}'
+- '[message]{&a&lBATTLEPASS &7» &fHoàn thành &e%quest_name%&f!}'
 
 current-season:
-  time-zone: Europe/Oslo # The timezone for week releases to be based off.
-  start-date: 06/06/2020 # This is what all of the week releases are based off. Format: dd/mm/yyyy
-  start-time: '20:00' # The time of day week releases are based off.
-  notification-method: action bar & chat # How notifications will be sent to players. Options: action bar, chat, action bar & chat or none.
-  auto-receive-rewards: false # If this value is set to false players will need to click a reward in the gui to claim it
-  daily-quest-reset-time: '12:00'
-  daily-quest-amount: 9 # Amount of daily quests that will be available at one time
-  quest-glow-on-completion: true # If quests will have an enchanted glow if they are completed.
+  time-zone: Asia/Ho_Chi_Minh
+  start-date: 29/07/2026
+  start-time: '00:00'
+  notification-method: action bar & chat
+  auto-receive-rewards: false
+  daily-quest-reset-time: '00:00'
+  daily-quest-amount: 5
+  quest-glow-on-completion: true
   completionCustomModelData: 0
-  completionMaterial: '' # Use "" to disable
+  completionMaterial: ''
   notify-at-percentages:
-  - 10
   - 25
   - 50
   - 75

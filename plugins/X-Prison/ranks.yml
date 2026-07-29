@@ -62,19 +62,20 @@ Ranks:
     Cost: 21700000
     CMD:
       - lp user %player% parent set xprison_rank_6
+  # Phase 6 balance 2026-07-29: raise late ranks (6→9 were too cheap vs mine EV)
   "7":
     Prefix: <light_purple><bold>[Quản Ngục]</bold></light_purple>
-    Cost: 32000000
+    Cost: 55000000
     CMD:
       - lp user %player% parent set xprison_rank_7
   "8":
     Prefix: <gold><bold>[Bá Chủ Ngục Tù]</bold></gold>
-    Cost: 43500000
+    Cost: 125000000
     CMD:
       - lp user %player% parent set xprison_rank_8
   "9":
     Prefix: <red><bold>[Vượt Ngục]</bold></red>
-    Cost: 64500000
+    Cost: 300000000
     CMD:
       - lp user %player% parent set xprison_rank_9
 

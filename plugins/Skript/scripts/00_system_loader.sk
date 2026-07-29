@@ -5,10 +5,11 @@
 
 on load:
 	wait 3 seconds
-	execute console command "sk reload rebirth/"
-	execute console command "sk reload prison/"
-	execute console command "sk reload upgrade/"
-	execute console command "sk reload sockets/"
-	execute console command "sk reload demon_king/"
+	# execute console command "sk reload rebirth/"
+	# execute console command "sk reload prison/"
+	# execute console command "sk reload upgrade/"
+	# # execute console command "sk reload sockets/"
+	# execute console command "sk reload demon_king/"
+	execute console command "sk reload bloodmoon/"
 	execute console command "sk reload admin/"
 	send "&a[Auto-Loader] Đã tự động nạp toàn bộ Skript modules sau khi server khởi động!" to console

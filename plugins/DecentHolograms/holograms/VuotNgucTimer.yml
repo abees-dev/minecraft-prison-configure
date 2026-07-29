@@ -1,4 +1,4 @@
-enabled: true
+enabled: false
 location: world_magadungeon:0,549:60,000:79,429
 display-range: 48
 update-range: 48

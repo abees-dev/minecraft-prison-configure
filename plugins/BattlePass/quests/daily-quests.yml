@@ -1,420 +1,267 @@
+# BattlePass daily — Prison-RPG
+# IMPORTANT: mọi `variable` phải 1 dòng (không xuống dòng giữa OR).
+# Reload: /bpa reload
+# Refresh daily: /bpa refresh daily quests
+# Player: /bp → Nhật Lệnh (Daily)  hoặc  /bp → Quests → Daily Quests
+
+ed-version: 2
 actions-version: 2
 
 quests:
-  1: # Quest id
-    type: tame
-    variable: wolf
-    name: 'Dog Whisperer'
-    required-progress: 5
-    points: 10
-    difficulty: medium
-    item:
-      material: bone
-      name: '&eDog Whisperer'
-      lore:
-        - '&7To complete this quest, you must'
-        - '&7tame 5 wolves'
-        - ''
-        - '&7(&a%percentage_progress%&7)'
-  2: # Quest id
-    type: chat-stripped
-    variable: how are you?
-    name: 'Very Chatty'
-    required-progress: 2
-    points: 10
-    difficulty: easy
-    item:
-      material: paper
-      name: '&eVery Chatty'
-      lore:
-        - '&7To complete this quest, you must'
-        - '&7say "how are you?" in chat 2 times'
-        - ''
-        - '&7(&a%percentage_progress%&7'
-  3: # Quest id
-    type: gain-experience
-    variable: none
-    name: 'Magic Magnet'
-    required-progress: 315
-    points: 10
-    difficulty: medium
-    item:
-      material: book
-      name: '&eMagic Magnet'
-      lore:
-        - '&7To complete this quest, you must'
-        - '&7reach EXP level 15'
-        - ''
-        - '&7(&a%percentage_progress%&7)'
-  4: # Quest id
-    type: kill-player
-    variable: none
-    name: 'Murder Mystery'
-    required-progress: 2
-    points: 10
-    difficulty: medium
-    item:
-      material: stone_sword
-      name: '&eMurder Mystery'
-      lore:
-        - '&7To complete this quest, you must'
-        - '&7kill 2 players in pvp'
-        - ''
-        - '&7(&a%percentage_progress%&7)'
-  5: # Quest id
-    type: sprint
-    variable: none
-    name: 'Runner'
-    required-progress: 2500
-    points: 10
-    difficulty: medium
-    item:
-      material: leather_boots
-      name: '&eMarathoner'
-      lore:
-        - '&7To complete this quest, you must'
-        - '&7sprint over 2500 blocks.'
-        - ''
-        - '&7(&a%percentage_progress%&7)'
-  6: # Quest id
-    type: throw-projectile
-    variable: none
-    name: 'Throw and Throw'
-    required-progress: 200
-    points: 10
-    difficulty: medium
-    item:
-      material: snowball
-      name: '&eBaller'
-      lore:
-        - '&7To complete this quest, you must'
-        - '&7throw/shoot 200 projectiles.'
-        - ''
-        - '&7(&a%percentage_progress%&7)'
-  7: # Quest id
+  '1':
     type: block-break
-    variable: stone
-    name: 'Miner'
-    required-progress: 500
-    points: 100
-    difficulty: medium
-    item:
-      material: cobblestone
-      name: '&eMiner'
-      lore:
-        - '&7To complete this quest, you must'
-        - '&7mine 500 stone blocks.'
-        - ''
-        - '&7(&a%percentage_progress%&7)'
-  8: # Quest id
-    type: block-break
-    variable: jungle_log OR jungle_wood
-    name: 'Timber Man'
-    required-progress: 350
-    points: 10
-    difficulty: medium
-    item:
-      material: jungle_log
-      name: '&eTimber Man'
-      lore:
-        - '&7To complete this quest, you must'
-        - '&7mine over 350 jungle wood blocks or logs.'
-        - ''
-        - '&7(&a%percentage_progress%&7)'
-  9: # Quest id
-    type: craft
-    variable: ___SWORD # Anything that contains _SWORD
-    name: 'Blacksmith'
-    required-progress: 4
-    points: 10
+    variable: 'stone OR cobblestone OR coal_ore OR iron_ore OR gold_ore OR lapis_ore OR redstone_ore OR diamond_ore OR emerald_ore OR nether_gold_ore OR nether_quartz_ore OR ancient_debris'
+    name: 'Nhật Lệnh · Đào Mỏ'
+    required-progress: 800
+    points: 20
     difficulty: easy
+    whitelisted-world:
+      - world_prison
+    complete-commands:
+      - 'eco give %player% 2500'
+      - 'points give %player% 3'
+    item:
+      material: iron_pickaxe
+      name: '&e&lNhật Lệnh &8· &fĐào Mỏ'
+      lore:
+        - '&7Phá &e800 &7khối quặng/đá trong mỏ Prison.'
+        - '&8World: world_prison'
+        - ''
+        - '&aThưởng: &f$2,500 &7+ &f3 Point &7+ &e20 BP'
+        - ''
+        - '&7(&a%percentage_progress%&7) &8%total_progress%&7/&8%required_progress%'
+
+  '2':
+    type: mythicmobs_kill_mob
+    variable: none
+    name: 'Nhật Lệnh · Săn Ngục'
+    required-progress: 20
+    points: 25
+    difficulty: medium
+    whitelisted-world:
+      - world_dungeon
+      - world_magadungeon
+    complete-commands:
+      - 'eco give %player% 4000'
+      - 'points give %player% 5'
     item:
       material: iron_sword
-      name: '&eBlacksmith'
+      name: '&c&lNhật Lệnh &8· &fSăn Ngục'
       lore:
-        - '&7To complete this quest, you must'
-        - '&7craft 4 swords of any material.'
+        - '&7Hạ &e20 &7MythicMobs (dungeon).'
+        - '&8World: dungeon / magadungeon'
         - ''
-        - '&7(&a%percentage_progress%&7)'
-  10:
-    type: enchant-all
-    variable:
-      root: FEATHER_FALLING
-      level: 2
-    name: 'Fall Harder'
-    required-progress: 1
-    points: 10
-    difficulty: hard
-    item:
-      material: enchanting_table
-      name: '&eFall Harder'
-      lore:
-        - '&7To complete this quest, you must'
-        - '&7enchant boots with feather falling level 2.'
+        - '&aThưởng: &f$4,000 &7+ &f5 Point &7+ &e25 BP'
         - ''
-        - '&7(&a%percentage_progress%&7)'
-  11:
-    type: consume
-    variable: enchanted_golden_apple
-    name: 'Really Magical Apple'
-    required-progress: 2
-    points: 10
-    difficulty: hard
-    item:
-      material: enchanted_golden_apple
-      name: '&eReally Magical Apple'
-      lore:
-        - '&7To complete this quest, you must'
-        - '&7eat/consume 2 enchanted golden apples.'
-        - ''
-        - '&7(&a%percentage_progress%&7)'
-  12: # Quest id
-    type: left-click
+        - '&7(&a%percentage_progress%&7) &8%total_progress%&7/&8%required_progress%'
+
+  '3':
+    type: economyshopgui_sell
     variable: none
-    name: 'Autoclicker'
-    required-progress: 28200
-    points: 10
-    difficulty: medium
-    item:
-      material: anvil:0
-      name: '&eAutoclicker'
-      lore:
-        - '&7To complete this quest, you must'
-        - '&7left click 28200 blocks.'
-        - ''
-        - '&7(&a%percentage_progress%&7)'
-  13: # Quest id
-    type: chat-stripped
-    variable: this is fun
-    name: 'Very Chatty'
-    required-progress: 1
-    points: 10
+    name: 'Nhật Lệnh · Bán Hàng'
+    required-progress: 64
+    points: 20
     difficulty: easy
+    complete-commands:
+      - 'eco give %player% 2500'
+      - 'points give %player% 3'
     item:
-      material: paper
-      name: '&eVery Chatty'
+      material: gold_ingot
+      name: '&6&lNhật Lệnh &8· &fBán Hàng'
       lore:
-        - '&7To complete this quest, you must'
-        - '&7say "this is fun" in chat.'
+        - '&7Bán &e64 &7món qua &e/sellgui&7.'
         - ''
-        - '&7(&a%percentage_progress%&7)'
-  14: # Quest id
-    type: regenerate
-    variable: SATIATED
-    name: 'Hunger Games'
-    required-progress: 1
-    points: 10
-    difficulty: easy
-    item:
-      material: cooked_beef
-      name: '&eHunger Games'
-      lore:
-        - '&7To complete this quest, you must'
-        - '&7eat food to fill your hunger and regen health.'
+        - '&aThưởng: &f$2,500 &7+ &f3 Point &7+ &e20 BP'
         - ''
-        - '&7(&a%percentage_progress%&7)'
-  15: # Quest id
-    type: shear
-    variable: none
-    name: 'Wooly Jumper'
-    required-progress: 12
-    points: 10
-    difficulty: easy
-    item:
-      material: white_wool
-      name: '&eWooly Jumper'
-      lore:
-        - '&7To complete this quest, you must'
-        - '&7shear 12 wild sheep.'
-        - ''
-        - '&7(&a%percentage_progress%&7)'
-  16: # Quest id
-    type: swim
-    variable: none
-    name: 'Keep on swimmin'
-    required-progress: 600
-    points: 10
-    difficulty: easy
-    item:
-      material: water_bucket
-      name: '&eKeep on swimmin'
-      lore:
-        - '&7To complete this quest, you must'
-        - '&7swim 600 blocks of water'
-        - ''
-        - '&7(&a%percentage_progress%&7)'
-  17: # Quest id
+        - '&7(&a%percentage_progress%&7) &8%total_progress%&7/&8%required_progress%'
+
+  '4':
     type: block-break
-    variable: grass_block OR dirt
-    name: 'Dirty Day'
-    required-progress: 333
-    points: 10
+    variable: coal_ore
+    name: 'Than Đá'
+    required-progress: 200
+    points: 15
     difficulty: easy
+    whitelisted-world:
+      - world_prison
+    complete-commands:
+      - 'eco give %player% 1500'
     item:
-      material: grass_block
-      name: '&eDirty Day'
+      material: coal
+      name: '&7Than Đá'
       lore:
-        - '&7To complete this quest, you must'
-        - '&7mine 333 blocks of dirt/grass'
+        - '&7Đào &e200 Coal Ore&7 trong mỏ.'
         - ''
-        - '&7(&a%percentage_progress%&7)'
-  18: # Quest id
-    type: bucket-place
-    variable: lava_bucket
-    name: 'Griefer'
-    required-progress: 3
-    points: 10
+        - '&7(&a%percentage_progress%&7) &8%total_progress%&7/&8%required_progress%'
+
+  '5':
+    type: economyshopgui_sell
+    variable: 'coal OR coal_block'
+    name: 'Đổ Than'
+    required-progress: 32
+    points: 15
     difficulty: easy
+    complete-commands:
+      - 'eco give %player% 1500'
     item:
-      material: lava_bucket
-      name: '&eGriefer'
+      material: coal_block
+      name: '&8Đổ Than'
       lore:
-        - '&7To complete this quest, you must'
-        - '&7place 3 lava buckets'
+        - '&7Bán &e32 &7Coal / Coal Block qua /sellgui.'
         - ''
-        - '&7(&a%percentage_progress%&7)'
-  19: # Quest id
-    type: fish
-    variable: none
-    name: 'Fish Catcher'
-    required-progress: 3
-    points: 10
+        - '&7(&a%percentage_progress%&7) &8%total_progress%&7/&8%required_progress%'
+
+  '6':
+    type: block-break
+    variable: 'cobblestone OR stone'
+    name: 'Xay Đá'
+    required-progress: 500
+    points: 12
     difficulty: easy
+    whitelisted-world:
+      - world_prison
+    complete-commands:
+      - 'eco give %player% 1000'
     item:
-      material: salmonmak
-      name: '&eFish Catcher'
+      material: cobblestone
+      name: '&7Xay Đá'
       lore:
-        - '&7To complete this quest, you must'
-        - '&7cacth 3 items/fish from fishing'
+        - '&7Phá &e500 &7Stone/Cobble trong mỏ.'
         - ''
-        - '&7(&a%percentage_progress%&7)'
-  20: # Quest id
-    type: sneak
-    variable: none
-    name: 'Creepy Crawlie'
-    required-progress: 55
-    points: 10
-    difficulty: easy
-    item:
-      material: leather_boots
-      name: '&eCreepy Crawlie'
-      lore:
-        - '&7To complete this quest, you must'
-        - '&7sneak over 55 blocks in any direction'
-        - ''
-        - '&7(&a%percentage_progress%&7)'
-  21: # Quest id
-    type: kill-mob
-    variable: cow
-    name: 'Cow Killer'
-    required-progress: 10
-    points: 10
-    difficulty: easy
-    item:
-      material: leather
-      name: '&eCow Killer'
-      lore:
-        - '&7To complete this quest, you must'
-        - '&7kill 10 cows.'
-        - ''
-        - '&7(&a%percentage_progress%&7)'
-  22:
-    type: glide
-    variable: none
-    name: 'Glider'
+        - '&7(&a%percentage_progress%&7) &8%total_progress%&7/&8%required_progress%'
+
+  '7':
+    type: block-break
+    variable: 'iron_ore OR gold_ore'
+    name: 'Kim Loại'
     required-progress: 150
-    points: 10
+    points: 22
     difficulty: medium
+    whitelisted-world:
+      - world_prison
+    complete-commands:
+      - 'eco give %player% 3500'
+      - 'points give %player% 2'
     item:
-      material: elytra
-      name: '&eGlider'
+      material: raw_iron
+      name: '&fKim Loại'
       lore:
-        - '&7To complete this quest, you must'
-        - '&7glide over 150 blocks.'
+        - '&7Đào &e150 Iron Ore hoặc Gold Ore&7.'
         - ''
-        - '&7(&a%percentage_progress%&7)'
-  23: # Quest id
-    type: block-break
-    variable:
-      root: oak_log
-    name: 'Lumberjack'
-    required-progress: 50
-    points: 10
-    difficulty: easy
-    item:
-      material: oak_log
-      name: '&eLumberjack'
-      lore:
-        - '&7To complete this quest, you must'
-        - '&7break 50 oak logs.'
-        - ''
-        - '&7(&a%percentage_progress%&7)'
-  24: # Quest id
-    type: enchant-all
-    variable:
-      root: SHARPNESS
-      level: 1
-      item: diamond_sword
-    name: 'Enchanter'
-    required-progress: 1
-    points: 10
+        - '&7(&a%percentage_progress%&7) &8%total_progress%&7/&8%required_progress%'
+
+  '8':
+    type: mythicmobs_kill_mob
+    variable: 'PRISON_TAN_BINH_NORMAL OR PRISON_TAN_BINH_ELITE OR PRISON_TU_NHAN_NORMAL OR PRISON_TU_NHAN_ELITE OR PRISON_LAO_CONG_NORMAL OR PRISON_LAO_CONG_ELITE'
+    name: 'Dọn Dây Tân Binh'
+    required-progress: 25
+    points: 22
     difficulty: medium
+    whitelisted-world:
+      - world_dungeon
+    complete-commands:
+      - 'eco give %player% 3500'
+      - 'points give %player% 2'
     item:
-      material: enchanting_table
-      name: '&eEnchanter'
+      material: rotten_flesh
+      name: '&aDọn Dây Tân Binh'
       lore:
-        - '&7To complete this quest, you must'
-        - '&7enchant a diamond sword with Sharpness 1'
-        - '&7using an anvil or enchanting table.'
+        - '&7Hạ &e25 &7mob early (Tân Binh / Tù Nhân / Lao Công).'
         - ''
-        - '&7(&a%percentage_progress%&7)'
-  25: # Quest id
-    type: fish
-    variable: none
-    name: 'Fisherman'
-    required-progress: 10
-    points: 10
+        - '&7(&a%percentage_progress%&7) &8%total_progress%&7/&8%required_progress%'
+
+  '9':
+    type: economyshopgui_sell
+    variable: 'raw_iron OR iron_ingot OR iron_block OR raw_gold OR gold_ingot OR gold_block'
+    name: 'Đúc & Bán'
+    required-progress: 48
+    points: 22
     difficulty: medium
+    complete-commands:
+      - 'eco give %player% 4000'
+      - 'points give %player% 2'
     item:
-      material: fishing_rod
-      name: '&eFisherman'
+      material: iron_block
+      name: '&eĐúc & Bán'
       lore:
-        - '&7To complete this quest, you must'
-        - '&7successfully fish 10 times.'
+        - '&7Bán &e48 &7sắt/vàng qua /sellgui.'
         - ''
-        - '&7(&a%percentage_progress%&7)'
-  26: # Quest id
-    type: enchant-anvil
-    variable:
-      root: PROTECTION
-      level: 1
-      item: diamond_chestplate
-    name: 'Protector'
-    required-progress: 1
-    points: 10
-    difficulty: medium
-    item:
-      material: diamond_chestplate
-      name: '&eProtector'
-      lore:
-        - '&7To complete this quest, you must'
-        - '&7enchant a diamond chestplate with Protection 1 using an anvil.'
-        - ''
-        - '&7(&a%percentage_progress%&7)'
-  27: # Quest id
+        - '&7(&a%percentage_progress%&7) &8%total_progress%&7/&8%required_progress%'
+
+  '10':
     type: smelt
-    variable:
-      root: iron_ingot
-      amount: 10
-    name: 'Smelter'
-    required-progress: 10
-    points: 10
-    difficulty: easy
+    variable: 'iron_ingot OR gold_ingot'
+    name: 'Lò Nung'
+    required-progress: 32
+    points: 18
+    difficulty: medium
+    complete-commands:
+      - 'eco give %player% 2000'
     item:
       material: furnace
-      name: '&eSmelter'
+      name: '&6Lò Nung'
       lore:
-        - '&7To complete this quest, you must'
-        - '&7smelt 10 iron ingots.'
+        - '&7Nung &e32 Iron Ingot hoặc Gold Ingot&7.'
         - ''
-        - '&7(&a%percentage_progress%&7)'
+        - '&7(&a%percentage_progress%&7) &8%total_progress%&7/&8%required_progress%'
+
+  '11':
+    type: block-break
+    variable: 'diamond_ore OR emerald_ore OR ancient_debris'
+    name: 'Khoáng Quý'
+    required-progress: 40
+    points: 35
+    difficulty: hard
+    whitelisted-world:
+      - world_prison
+    complete-commands:
+      - 'eco give %player% 8000'
+      - 'points give %player% 8'
+    item:
+      material: diamond
+      name: '&b&lKhoáng Quý'
+      lore:
+        - '&7Đào &e40 &7Diamond / Emerald Ore hoặc Ancient Debris.'
+        - ''
+        - '&7(&a%percentage_progress%&7) &8%total_progress%&7/&8%required_progress%'
+
+  '12':
+    type: mythicmobs_kill_mob
+    variable: 'PRISON_TAN_BINH_BOSS OR PRISON_TU_NHAN_BOSS OR PRISON_LAO_CONG_BOSS OR PRISON_THO_DAO_BOSS OR PRISON_DOI_TRUONG_BOSS OR PRISON_PHO_QUAN_NGUC_BOSS OR PRISON_QUAN_NGUC_BOSS OR PRISON_BA_CHU_NGUC_TU_BOSS OR PRISON_VUOT_NGUC_BOSS OR PRISON_MA_VUONG_BOSS'
+    name: 'Săn Boss'
+    required-progress: 2
+    points: 40
+    difficulty: hard
+    whitelisted-world:
+      - world_dungeon
+      - world_magadungeon
+      - world
+      - world_prison
+    complete-commands:
+      - 'eco give %player% 12000'
+      - 'points give %player% 10'
+    item:
+      material: netherite_sword
+      name: '&4&lSăn Boss'
+      lore:
+        - '&7Hạ &e2 Boss&7 Prison / Ma Vương.'
+        - ''
+        - '&7(&a%percentage_progress%&7) &8%total_progress%&7/&8%required_progress%'
+
+  '13':
+    type: economyshopgui_sell
+    variable: 'diamond OR diamond_block OR emerald OR emerald_block OR ancient_debris OR netherite_ingot OR netherite_block'
+    name: 'Thanh Lý Quý'
+    required-progress: 16
+    points: 35
+    difficulty: hard
+    complete-commands:
+      - 'eco give %player% 10000'
+      - 'points give %player% 8'
+    item:
+      material: emerald
+      name: '&a&lThanh Lý Quý'
+      lore:
+        - '&7Bán &e16 &7kim cương/ngọc/debris/netherite qua /sellgui.'
+        - ''
+        - '&7(&a%percentage_progress%&7) &8%total_progress%&7/&8%required_progress%'

@@ -1,6 +1,6 @@
 teleportenabled: true
 teleportauto: false
-godmode: true
+godmode: false
 muted: false
 jailed: false
 ip-address: 127.0.0.1
@@ -11,28 +11,28 @@ powertoolsenabled: true
 accepting-pay: true
 baltop-exempt: false
 timestamps:
-  lastteleport: 1785325169074
+  lastteleport: 1785338054847
   lastheal: 0
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1785326776344
-  login: 1785327259182
+  logout: 1785339627796
+  login: 1785339562745
 money: '99098556250.0'
 last-account-name: ABeess
 lastlocation:
-  world: 4fc353f3-5233-45c3-a419-97d34b1bffd7
-  world-name: world
-  x: 39.05073017066135
-  y: 84.0
-  z: -97.21716705665048
-  yaw: 68.61099243164062
-  pitch: 21.237863540649414
+  world: 4de2ffa4-302f-4704-923e-3c97da6850a3
+  world-name: world_prison
+  x: -38.9389547297165
+  y: -56.0
+  z: 112.93429020233283
+  yaw: 73.80868530273438
+  pitch: 17.99134063720703
 logoutlocation:
-  world: 4fc353f3-5233-45c3-a419-97d34b1bffd7
-  world-name: world
-  x: 13.670488926970464
-  y: 84.0
-  z: 96.53522741942321
-  yaw: -46.3681640625
-  pitch: 24.62835693359375
+  world: 4de2ffa4-302f-4704-923e-3c97da6850a3
+  world-name: world_prison
+  x: -2133.2940980204385
+  y: -18.0
+  z: -1088.0072354726703
+  yaw: -130.12515258789062
+  pitch: 16.48525047302246

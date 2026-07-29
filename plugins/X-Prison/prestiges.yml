@@ -48,7 +48,8 @@ unlimited_prestiges:
   # Top limit of prestige
   max_prestige: 100
   # Initial cost of prestige (paid once you reach the last rank, Vượt Ngục)
-  prestige_cost: 3000000000
+  # Phase 6 balance 2026-07-29: was 3B (~100h cliff); now ~750M (~25–40h sell grind)
+  prestige_cost: 750000000
   # Increasing cost of prestige
   increase_cost:
     enabled: true
