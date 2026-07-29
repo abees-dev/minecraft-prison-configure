@@ -1198,7 +1198,7 @@ GACHA_SWORD_VALHAKYRA:
   itemsadder-item: "fantasy_weapons:valhakyra"
   base:
     custom-maxsockets: 7.0
-    revision-id: 1
+    revision-id: 2
     material: IRON_SWORD
     custom-model-data: 10003
     name: "&e&lThần Kiếm Valhakyra"
@@ -1213,7 +1213,6 @@ GACHA_SWORD_VALHAKYRA:
     attack-damage: 53.5
     attack-speed: 1.8
     critical-strike-chance: 24.0
-    armor-penetration: 14.0
     ability:
       ability-1:
         type: THRUST
@@ -1264,7 +1263,7 @@ GACHA_SWORD_DEMONS_BLOOD:
   itemsadder-item: "fantasy_weapons:demons_blood_blade"
   base:
     custom-maxsockets: 7.0
-    revision-id: 1
+    revision-id: 2
     material: IRON_SWORD
     custom-model-data: 10016
     name: "&c&lHuyết Ma Diệt Thần Kiếm"
@@ -1279,7 +1278,6 @@ GACHA_SWORD_DEMONS_BLOOD:
     attack-damage: 54.5
     attack-speed: 1.6
     critical-strike-chance: 25.0
-    element-fire-damage: 12.0
     ability:
       ability-1:
         type: FIREBALL

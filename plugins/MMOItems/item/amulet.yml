@@ -2,7 +2,7 @@ TRADE_AMULET_HOA_LONG:
   itemsadder-item: "rings_pack:set1_necklace_1"
   base:
     custom-maxsockets: 5.0
-    revision-id: 2
+    revision-id: 5
     material: PAPER
     custom-model-data: 19401
     name: "&6&l🔥 Dây Chuyền Hỏa Long"
@@ -10,256 +10,316 @@ TRADE_AMULET_HOA_LONG:
     set: HOA_LONG_SET
     critical-strike-chance: 18
     max-health: 120
+    unstackable: true
+    enchants:
+      - 'UNBREAKING +1'
+    hide-enchants: true
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
       max: 100
 
 TRADE_AMULET_HAC_LONG:
-  itemsadder-item: "rings_pack:set3_necklace_1"
+  itemsadder-item: "rings_pack:set7_necklace_3"
   base:
     custom-maxsockets: 5.0
-    revision-id: 2
+    revision-id: 5
     material: PAPER
-    custom-model-data: 19415
+    custom-model-data: 19429
     name: "&5&l◆ Dây Chuyền Hắc Long"
     tier: UNIQUE
     set: HAC_LONG_SET
     critical-strike-chance: 18
     max-mana: 250
     max-health: 60
+    unstackable: true
+    enchants:
+      - 'UNBREAKING +1'
+    hide-enchants: true
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
       max: 100
 
 TRADE_AMULET_LOI_LONG:
-  itemsadder-item: "rings_pack:set8_necklace_1"
+  itemsadder-item: "rings_pack:set9_necklace_5"
   base:
     custom-maxsockets: 5.0
-    revision-id: 2
+    revision-id: 5
     material: PAPER
-    custom-model-data: 19431
+    custom-model-data: 19440
     name: "&e&l⚡ Dây Chuyền Lôi Long"
     tier: LEGENDARY
     set: LOI_LONG_SET
     critical-strike-chance: 14
     lifesteal: 8
     max-health: 100
+    unstackable: true
+    enchants:
+      - 'UNBREAKING +1'
+    hide-enchants: true
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
       max: 100
 
 TRADE_AMULET_PHONG_LONG:
-  itemsadder-item: "rings_pack:set5_necklace_1"
+  itemsadder-item: "rings_pack:set8_necklace_1"
   base:
     custom-maxsockets: 5.0
-    revision-id: 2
+    revision-id: 5
     material: PAPER
-    custom-model-data: 19421
+    custom-model-data: 19431
     name: "&2&l✦ Dây Chuyền Phong Long"
     tier: MYTHICAL
     set: PHONG_LONG_SET
     critical-strike-chance: 14
     dodge-rating: 15
     max-health: 80
+    unstackable: true
+    enchants:
+      - 'UNBREAKING +1'
+    hide-enchants: true
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
       max: 100
 
 TRADE_AMULET_BANG_LONG:
-  itemsadder-item: "rings_pack:set2_necklace_2"
+  itemsadder-item: "rings_pack:set11_necklace_1"
   base:
     custom-maxsockets: 5.0
-    revision-id: 2
+    revision-id: 5
     material: PAPER
-    custom-model-data: 19413
+    custom-model-data: 19409
     name: "&3&l✦ Dây Chuyền Băng Long"
     tier: EPIC
     set: BANG_LONG_SET
     max-health: 220
     defense: 20
     damage-reduction: 8
+    unstackable: true
+    enchants:
+      - 'UNBREAKING +1'
+    hide-enchants: true
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
       max: 100
 
 DONATE_AMULET_LONG_CHIEN:
-  itemsadder-item: "rings_pack:set4_necklace_1"
+  itemsadder-item: "rings_pack:set2_necklace_2"
   base:
     custom-maxsockets: 5.0
-    revision-id: 2
+    revision-id: 5
     material: PAPER
-    custom-model-data: 19418
+    custom-model-data: 19413
     name: "&e&l⚔ Dây Chuyền Chiến Long"
     tier: MYTHICAL
     set: LONG_CHIEN_SET
     critical-strike-chance: 18
     max-health: 120
+    unstackable: true
+    enchants:
+      - 'UNBREAKING +1'
+    hide-enchants: true
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
       max: 100
 
 DONATE_AMULET_LONG_THAN:
-  itemsadder-item: "rings_pack:set6_necklace_1"
+  itemsadder-item: "rings_pack:set11_necklace_4"
   base:
     custom-maxsockets: 5.0
-    revision-id: 2
+    revision-id: 5
     material: PAPER
-    custom-model-data: 19424
+    custom-model-data: 19412
     name: "&b&l✦ Dây Chuyền Thần Long"
     tier: MYTHICAL
     set: LONG_THAN_SET
     critical-strike-chance: 18
     max-mana: 250
     max-health: 60
+    unstackable: true
+    enchants:
+      - 'UNBREAKING +1'
+    hide-enchants: true
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
       max: 100
 
 DONATE_AMULET_LONG_HOANG:
-  itemsadder-item: "rings_pack:set9_necklace_1"
+  itemsadder-item: "rings_pack:set3_necklace_7"
   base:
     custom-maxsockets: 5.0
-    revision-id: 2
+    revision-id: 5
     material: PAPER
-    custom-model-data: 19434
+    custom-model-data: 19419
     name: "&c&l★ Dây Chuyền Hoàng Long"
     tier: UNIQUE
     set: LONG_HOANG_SET
     critical-strike-chance: 14
     lifesteal: 8
     max-health: 100
+    unstackable: true
+    enchants:
+      - 'UNBREAKING +1'
+    hide-enchants: true
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
       max: 100
 
 DONATE_AMULET_LONG_DE:
-  itemsadder-item: "rings_pack:set7_necklace_1"
+  itemsadder-item: "rings_pack:set10_necklace_3"
   base:
     custom-maxsockets: 5.0
-    revision-id: 2
+    revision-id: 5
     material: PAPER
-    custom-model-data: 19427
+    custom-model-data: 19407
     name: "&4&l◆ Dây Chuyền Đế Long"
     tier: UNIQUE
     set: LONG_DE_SET
     critical-strike-chance: 14
     dodge-rating: 15
     max-health: 80
+    unstackable: true
+    enchants:
+      - 'UNBREAKING +1'
+    hide-enchants: true
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
       max: 100
 
 DONATE_AMULET_LONG_VE:
-  itemsadder-item: "rings_pack:set1_necklace_2"
+  itemsadder-item: "rings_pack:set5_necklace_4"
   base:
     custom-maxsockets: 5.0
-    revision-id: 2
+    revision-id: 5
     material: PAPER
-    custom-model-data: 19402
+    custom-model-data: 19424
     name: "&a&l✦ Dây Chuyền Hộ Long"
     tier: LEGENDARY
     set: LONG_VE_SET
     max-health: 220
     defense: 20
     damage-reduction: 8
+    unstackable: true
+    enchants:
+      - 'UNBREAKING +1'
+    hide-enchants: true
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
       max: 100
 
 FREE_AMULET_THANH_LONG:
-  itemsadder-item: "rings_pack:set10_necklace_2"
+  itemsadder-item: "rings_pack:set11_necklace_3"
   base:
     custom-maxsockets: 2.0
-    revision-id: 2
+    revision-id: 5
     material: PAPER
-    custom-model-data: 19406
+    custom-model-data: 19411
     name: "&b&l⚡ Dây Chuyền Thanh Long"
     tier: UNIQUE
     set: THANH_LONG_SET
     critical-strike-chance: 18
     max-health: 120
+    unstackable: true
+    enchants:
+      - 'UNBREAKING +1'
+    hide-enchants: true
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
       max: 100
 
 FREE_AMULET_XICH_LONG:
-  itemsadder-item: "rings_pack:set11_necklace_1"
+  itemsadder-item: "rings_pack:set5_necklace_1"
   base:
     custom-maxsockets: 2.0
-    revision-id: 2
+    revision-id: 5
     material: PAPER
-    custom-model-data: 19409
+    custom-model-data: 19421
     name: "&c&l🔥 Dây Chuyền Xích Long"
     tier: UNIQUE
     set: XICH_LONG_SET
     critical-strike-chance: 18
     max-mana: 250
     max-health: 60
+    unstackable: true
+    enchants:
+      - 'UNBREAKING +1'
+    hide-enchants: true
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
       max: 100
 
 FREE_AMULET_KIM_LONG:
-  itemsadder-item: "rings_pack:set11_necklace_2"
+  itemsadder-item: "rings_pack:set3_necklace_4"
   base:
     custom-maxsockets: 2.0
-    revision-id: 2
+    revision-id: 5
     material: PAPER
-    custom-model-data: 19410
+    custom-model-data: 19416
     name: "&e&l★ Dây Chuyền Kim Long"
     tier: UNIQUE
     set: KIM_LONG_SET
     critical-strike-chance: 14
     lifesteal: 8
     max-health: 100
+    unstackable: true
+    enchants:
+      - 'UNBREAKING +1'
+    hide-enchants: true
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
       max: 100
 
 FREE_AMULET_THIEN_LONG:
-  itemsadder-item: "rings_pack:set12_necklace_1"
+  itemsadder-item: "rings_pack:set9_necklace_1"
   base:
     custom-maxsockets: 2.0
-    revision-id: 2
+    revision-id: 5
     material: PAPER
-    custom-model-data: 19411
+    custom-model-data: 19436
     name: "&d&l✦ Dây Chuyền Thiên Long"
     tier: UNIQUE
     set: THIEN_LONG_SET
     critical-strike-chance: 14
     dodge-rating: 15
     max-health: 80
+    unstackable: true
+    enchants:
+      - 'UNBREAKING +1'
+    hide-enchants: true
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
       max: 100
 
 FREE_AMULET_BAC_LONG:
-  itemsadder-item: "rings_pack:set10_necklace_1"
+  itemsadder-item: "rings_pack:set8_necklace_4"
   base:
     custom-maxsockets: 2.0
-    revision-id: 2
+    revision-id: 5
     material: PAPER
-    custom-model-data: 19405
+    custom-model-data: 19434
     name: "&f&l✧ Dây Chuyền Bạch Long"
     tier: UNIQUE
     set: BAC_LONG_SET
     max-health: 220
     defense: 20
     damage-reduction: 8
+    unstackable: true
+    enchants:
+      - 'UNBREAKING +1'
+    hide-enchants: true
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template

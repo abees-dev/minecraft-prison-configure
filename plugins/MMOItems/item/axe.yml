@@ -1140,7 +1140,7 @@ GACHA_AXE_AZURE:
   itemsadder-item: "fantasy_weapons:azure_greataxe"
   base:
     custom-maxsockets: 7.0
-    revision-id: 1
+    revision-id: 2
     material: DIAMOND_AXE
     custom-model-data: 10000
     name: "&3&lBăng Long Đại Rìu"
@@ -1156,7 +1156,6 @@ GACHA_AXE_AZURE:
     attack-speed: 1.0
     knockback: 2.0
     critical-strike-power: 30.0
-    armor-penetration: 12.0
     ability:
       ability-1:
         type: MAGMA_FISSURE

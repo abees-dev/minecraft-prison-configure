@@ -1,520 +1,634 @@
 TRADE_RING_HOA_LONG_1:
-  itemsadder-item: "rings_pack:set1_ring_1"
+  itemsadder-item: "rings_pack:ring_51"
   base:
     custom-maxsockets: 5.0
-    revision-id: 2
+    revision-id: 6
     material: PAPER
-    custom-model-data: 19201
+    custom-model-data: 19051
     name: "&6&l🔥 Nhẫn Hỏa Long I"
     tier: RARE
     set: HOA_LONG_SET
     critical-strike-power: 45
     physical-damage: 25
+    unstackable: true
+    enchants:
+      - 'UNBREAKING +1'
+    hide-enchants: true
     upgrade:
       reference: armor-upgrade-template
       template: weapon-upgrade-template
       max: 100
 
 TRADE_RING_HOA_LONG_2:
-  itemsadder-item: "rings_pack:set1_ring_2"
+  itemsadder-item: "rings_pack:ring_89"
   base:
     custom-maxsockets: 5.0
-    revision-id: 2
+    revision-id: 6
     material: PAPER
-    custom-model-data: 19202
+    custom-model-data: 19089
     name: "&6&l🔥 Nhẫn Hỏa Long II"
     tier: RARE
     set: HOA_LONG_SET
     critical-strike-power: 45
     physical-damage: 25
+    unstackable: true
+    enchants:
+      - 'UNBREAKING +1'
+    hide-enchants: true
     upgrade:
       reference: armor-upgrade-template
       template: weapon-upgrade-template
       max: 100
 
 TRADE_RING_HAC_LONG_1:
-  itemsadder-item: "rings_pack:set3_ring_1"
+  itemsadder-item: "rings_pack:ring_47"
   base:
     custom-maxsockets: 5.0
-    revision-id: 2
+    revision-id: 6
     material: PAPER
-    custom-model-data: 19220
+    custom-model-data: 19047
     name: "&5&l◆ Nhẫn Hắc Long I"
     tier: UNIQUE
     set: HAC_LONG_SET
     critical-strike-power: 45
     magic-damage: 40
+    unstackable: true
+    enchants:
+      - 'UNBREAKING +1'
+    hide-enchants: true
     upgrade:
       reference: armor-upgrade-template
       template: weapon-upgrade-template
       max: 100
 
 TRADE_RING_HAC_LONG_2:
-  itemsadder-item: "rings_pack:set3_ring_2"
+  itemsadder-item: "rings_pack:ring_49"
   base:
     custom-maxsockets: 5.0
-    revision-id: 2
+    revision-id: 6
     material: PAPER
-    custom-model-data: 19221
+    custom-model-data: 19049
     name: "&5&l◆ Nhẫn Hắc Long II"
     tier: UNIQUE
     set: HAC_LONG_SET
     critical-strike-power: 45
     magic-damage: 40
+    unstackable: true
+    enchants:
+      - 'UNBREAKING +1'
+    hide-enchants: true
     upgrade:
       reference: armor-upgrade-template
       template: weapon-upgrade-template
       max: 100
 
 TRADE_RING_LOI_LONG_1:
-  itemsadder-item: "rings_pack:set8_ring_1"
+  itemsadder-item: "rings_pack:ring_29"
   base:
     custom-maxsockets: 5.0
-    revision-id: 2
+    revision-id: 6
     material: PAPER
-    custom-model-data: 19270
+    custom-model-data: 19029
     name: "&e&l⚡ Nhẫn Lôi Long I"
     tier: LEGENDARY
     set: LOI_LONG_SET
     critical-strike-power: 30
     attack-speed: 20
     physical-damage: 15
+    unstackable: true
+    enchants:
+      - 'UNBREAKING +1'
+    hide-enchants: true
     upgrade:
       reference: armor-upgrade-template
       template: weapon-upgrade-template
       max: 100
 
 TRADE_RING_LOI_LONG_2:
-  itemsadder-item: "rings_pack:set8_ring_2"
+  itemsadder-item: "rings_pack:ring_94"
   base:
     custom-maxsockets: 5.0
-    revision-id: 2
+    revision-id: 6
     material: PAPER
-    custom-model-data: 19271
+    custom-model-data: 19094
     name: "&e&l⚡ Nhẫn Lôi Long II"
     tier: LEGENDARY
     set: LOI_LONG_SET
     critical-strike-power: 30
     attack-speed: 20
     physical-damage: 15
+    unstackable: true
+    enchants:
+      - 'UNBREAKING +1'
+    hide-enchants: true
     upgrade:
       reference: armor-upgrade-template
       template: weapon-upgrade-template
       max: 100
 
 TRADE_RING_PHONG_LONG_1:
-  itemsadder-item: "rings_pack:set5_ring_1"
+  itemsadder-item: "rings_pack:ring_55"
   base:
     custom-maxsockets: 5.0
-    revision-id: 2
+    revision-id: 6
     material: PAPER
-    custom-model-data: 19240
+    custom-model-data: 19055
     name: "&2&l✦ Nhẫn Phong Long I"
     tier: MYTHICAL
     set: PHONG_LONG_SET
     critical-strike-power: 45
-    armor-penetration: 12
+    unstackable: true
+    enchants:
+      - 'UNBREAKING +1'
+    hide-enchants: true
     upgrade:
       reference: armor-upgrade-template
       template: weapon-upgrade-template
       max: 100
 
 TRADE_RING_PHONG_LONG_2:
-  itemsadder-item: "rings_pack:set5_ring_2"
+  itemsadder-item: "rings_pack:ring_109"
   base:
     custom-maxsockets: 5.0
-    revision-id: 2
+    revision-id: 6
     material: PAPER
-    custom-model-data: 19241
+    custom-model-data: 19109
     name: "&2&l✦ Nhẫn Phong Long II"
     tier: MYTHICAL
     set: PHONG_LONG_SET
     critical-strike-power: 45
-    armor-penetration: 12
+    unstackable: true
+    enchants:
+      - 'UNBREAKING +1'
+    hide-enchants: true
     upgrade:
       reference: armor-upgrade-template
       template: weapon-upgrade-template
       max: 100
 
 TRADE_RING_BANG_LONG_1:
-  itemsadder-item: "rings_pack:set2_ring_1"
+  itemsadder-item: "rings_pack:ring_91"
   base:
     custom-maxsockets: 5.0
-    revision-id: 2
+    revision-id: 6
     material: PAPER
-    custom-model-data: 19210
+    custom-model-data: 19091
     name: "&3&l✦ Nhẫn Băng Long I"
     tier: EPIC
     set: BANG_LONG_SET
     critical-strike-power: 30
     max-health: 160
     defense: 12
+    unstackable: true
+    enchants:
+      - 'UNBREAKING +1'
+    hide-enchants: true
     upgrade:
       reference: armor-upgrade-template
       template: weapon-upgrade-template
       max: 100
 
 TRADE_RING_BANG_LONG_2:
-  itemsadder-item: "rings_pack:set2_ring_2"
+  itemsadder-item: "rings_pack:ring_39"
   base:
     custom-maxsockets: 5.0
-    revision-id: 2
+    revision-id: 6
     material: PAPER
-    custom-model-data: 19211
+    custom-model-data: 19039
     name: "&3&l✦ Nhẫn Băng Long II"
     tier: EPIC
     set: BANG_LONG_SET
     critical-strike-power: 30
     max-health: 160
     defense: 12
+    unstackable: true
+    enchants:
+      - 'UNBREAKING +1'
+    hide-enchants: true
     upgrade:
       reference: armor-upgrade-template
       template: weapon-upgrade-template
       max: 100
 
 DONATE_RING_LONG_CHIEN_1:
-  itemsadder-item: "rings_pack:set4_ring_1"
+  itemsadder-item: "rings_pack:ring_24"
   base:
     custom-maxsockets: 5.0
-    revision-id: 2
+    revision-id: 6
     material: PAPER
-    custom-model-data: 19230
+    custom-model-data: 19024
     name: "&e&l⚔ Nhẫn Chiến Long I"
     tier: MYTHICAL
     set: LONG_CHIEN_SET
     critical-strike-power: 45
     physical-damage: 25
+    unstackable: true
+    enchants:
+      - 'UNBREAKING +1'
+    hide-enchants: true
     upgrade:
       reference: armor-upgrade-template
       template: weapon-upgrade-template
       max: 100
 
 DONATE_RING_LONG_CHIEN_2:
-  itemsadder-item: "rings_pack:set4_ring_2"
+  itemsadder-item: "rings_pack:ring_14"
   base:
     custom-maxsockets: 5.0
-    revision-id: 2
+    revision-id: 6
     material: PAPER
-    custom-model-data: 19231
+    custom-model-data: 19014
     name: "&e&l⚔ Nhẫn Chiến Long II"
     tier: MYTHICAL
     set: LONG_CHIEN_SET
     critical-strike-power: 45
     physical-damage: 25
+    unstackable: true
+    enchants:
+      - 'UNBREAKING +1'
+    hide-enchants: true
     upgrade:
       reference: armor-upgrade-template
       template: weapon-upgrade-template
       max: 100
 
 DONATE_RING_LONG_THAN_1:
-  itemsadder-item: "rings_pack:set6_ring_1"
+  itemsadder-item: "rings_pack:ring_100"
   base:
     custom-maxsockets: 5.0
-    revision-id: 2
+    revision-id: 6
     material: PAPER
-    custom-model-data: 19250
+    custom-model-data: 19100
     name: "&b&l✦ Nhẫn Thần Long I"
     tier: MYTHICAL
     set: LONG_THAN_SET
     critical-strike-power: 45
     magic-damage: 40
+    unstackable: true
+    enchants:
+      - 'UNBREAKING +1'
+    hide-enchants: true
     upgrade:
       reference: armor-upgrade-template
       template: weapon-upgrade-template
       max: 100
 
 DONATE_RING_LONG_THAN_2:
-  itemsadder-item: "rings_pack:set6_ring_2"
+  itemsadder-item: "rings_pack:ring_90"
   base:
     custom-maxsockets: 5.0
-    revision-id: 2
+    revision-id: 6
     material: PAPER
-    custom-model-data: 19251
+    custom-model-data: 19090
     name: "&b&l✦ Nhẫn Thần Long II"
     tier: MYTHICAL
     set: LONG_THAN_SET
     critical-strike-power: 45
     magic-damage: 40
+    unstackable: true
+    enchants:
+      - 'UNBREAKING +1'
+    hide-enchants: true
     upgrade:
       reference: armor-upgrade-template
       template: weapon-upgrade-template
       max: 100
 
 DONATE_RING_LONG_HOANG_1:
-  itemsadder-item: "rings_pack:set9_ring_1"
+  itemsadder-item: "rings_pack:ring_101"
   base:
     custom-maxsockets: 5.0
-    revision-id: 2
+    revision-id: 6
     material: PAPER
-    custom-model-data: 19280
+    custom-model-data: 19101
     name: "&c&l★ Nhẫn Hoàng Long I"
     tier: UNIQUE
     set: LONG_HOANG_SET
     critical-strike-power: 30
     attack-speed: 20
     physical-damage: 15
+    unstackable: true
+    enchants:
+      - 'UNBREAKING +1'
+    hide-enchants: true
     upgrade:
       reference: armor-upgrade-template
       template: weapon-upgrade-template
       max: 100
 
 DONATE_RING_LONG_HOANG_2:
-  itemsadder-item: "rings_pack:set9_ring_2"
+  itemsadder-item: "rings_pack:ring_28"
   base:
     custom-maxsockets: 5.0
-    revision-id: 2
+    revision-id: 6
     material: PAPER
-    custom-model-data: 19281
+    custom-model-data: 19028
     name: "&c&l★ Nhẫn Hoàng Long II"
     tier: UNIQUE
     set: LONG_HOANG_SET
     critical-strike-power: 30
     attack-speed: 20
     physical-damage: 15
+    unstackable: true
+    enchants:
+      - 'UNBREAKING +1'
+    hide-enchants: true
     upgrade:
       reference: armor-upgrade-template
       template: weapon-upgrade-template
       max: 100
 
 DONATE_RING_LONG_DE_1:
-  itemsadder-item: "rings_pack:set7_ring_1"
+  itemsadder-item: "rings_pack:ring_68"
   base:
     custom-maxsockets: 5.0
-    revision-id: 2
+    revision-id: 6
     material: PAPER
-    custom-model-data: 19260
+    custom-model-data: 19068
     name: "&4&l◆ Nhẫn Đế Long I"
     tier: UNIQUE
     set: LONG_DE_SET
     critical-strike-power: 45
-    armor-penetration: 12
+    unstackable: true
+    enchants:
+      - 'UNBREAKING +1'
+    hide-enchants: true
     upgrade:
       reference: armor-upgrade-template
       template: weapon-upgrade-template
       max: 100
 
 DONATE_RING_LONG_DE_2:
-  itemsadder-item: "rings_pack:set7_ring_2"
+  itemsadder-item: "rings_pack:ring_61"
   base:
     custom-maxsockets: 5.0
-    revision-id: 2
+    revision-id: 6
     material: PAPER
-    custom-model-data: 19261
+    custom-model-data: 19061
     name: "&4&l◆ Nhẫn Đế Long II"
     tier: UNIQUE
     set: LONG_DE_SET
     critical-strike-power: 45
-    armor-penetration: 12
+    unstackable: true
+    enchants:
+      - 'UNBREAKING +1'
+    hide-enchants: true
     upgrade:
       reference: armor-upgrade-template
       template: weapon-upgrade-template
       max: 100
 
 DONATE_RING_LONG_VE_1:
-  itemsadder-item: "rings_pack:set1_ring_3"
+  itemsadder-item: "rings_pack:ring_75"
   base:
     custom-maxsockets: 5.0
-    revision-id: 2
+    revision-id: 6
     material: PAPER
-    custom-model-data: 19203
+    custom-model-data: 19075
     name: "&a&l✦ Nhẫn Hộ Long I"
     tier: LEGENDARY
     set: LONG_VE_SET
     critical-strike-power: 30
     max-health: 160
     defense: 12
+    unstackable: true
+    enchants:
+      - 'UNBREAKING +1'
+    hide-enchants: true
     upgrade:
       reference: armor-upgrade-template
       template: weapon-upgrade-template
       max: 100
 
 DONATE_RING_LONG_VE_2:
-  itemsadder-item: "rings_pack:set1_ring_4"
+  itemsadder-item: "rings_pack:ring_20"
   base:
     custom-maxsockets: 5.0
-    revision-id: 2
+    revision-id: 6
     material: PAPER
-    custom-model-data: 19204
+    custom-model-data: 19020
     name: "&a&l✦ Nhẫn Hộ Long II"
     tier: LEGENDARY
     set: LONG_VE_SET
     critical-strike-power: 30
     max-health: 160
     defense: 12
+    unstackable: true
+    enchants:
+      - 'UNBREAKING +1'
+    hide-enchants: true
     upgrade:
       reference: armor-upgrade-template
       template: weapon-upgrade-template
       max: 100
 
 FREE_RING_THANH_LONG_1:
-  itemsadder-item: "rings_pack:ring_4"
+  itemsadder-item: "rings_pack:ring_92"
   base:
     custom-maxsockets: 2.0
-    revision-id: 2
+    revision-id: 6
     material: PAPER
-    custom-model-data: 19004
+    custom-model-data: 19092
     name: "&b&l⚡ Nhẫn Thanh Long I"
     tier: UNIQUE
     set: THANH_LONG_SET
     critical-strike-power: 45
     physical-damage: 25
+    unstackable: true
+    enchants:
+      - 'UNBREAKING +1'
+    hide-enchants: true
     upgrade:
       reference: armor-upgrade-template
       template: weapon-upgrade-template
       max: 100
 
 FREE_RING_THANH_LONG_2:
-  itemsadder-item: "rings_pack:ring_5"
+  itemsadder-item: "rings_pack:ring_106"
   base:
     custom-maxsockets: 2.0
-    revision-id: 2
+    revision-id: 6
     material: PAPER
-    custom-model-data: 19005
+    custom-model-data: 19106
     name: "&b&l⚡ Nhẫn Thanh Long II"
     tier: UNIQUE
     set: THANH_LONG_SET
     critical-strike-power: 45
     physical-damage: 25
+    unstackable: true
+    enchants:
+      - 'UNBREAKING +1'
+    hide-enchants: true
     upgrade:
       reference: armor-upgrade-template
       template: weapon-upgrade-template
       max: 100
 
 FREE_RING_XICH_LONG_1:
-  itemsadder-item: "rings_pack:ring_7"
+  itemsadder-item: "rings_pack:ring_71"
   base:
     custom-maxsockets: 2.0
-    revision-id: 2
+    revision-id: 6
     material: PAPER
-    custom-model-data: 19007
+    custom-model-data: 19071
     name: "&c&l🔥 Nhẫn Xích Long I"
     tier: UNIQUE
     set: XICH_LONG_SET
     critical-strike-power: 45
     magic-damage: 40
+    unstackable: true
+    enchants:
+      - 'UNBREAKING +1'
+    hide-enchants: true
     upgrade:
       reference: armor-upgrade-template
       template: weapon-upgrade-template
       max: 100
 
 FREE_RING_XICH_LONG_2:
-  itemsadder-item: "rings_pack:ring_8"
+  itemsadder-item: "rings_pack:ring_76"
   base:
     custom-maxsockets: 2.0
-    revision-id: 2
+    revision-id: 6
     material: PAPER
-    custom-model-data: 19008
+    custom-model-data: 19076
     name: "&c&l🔥 Nhẫn Xích Long II"
     tier: UNIQUE
     set: XICH_LONG_SET
     critical-strike-power: 45
     magic-damage: 40
+    unstackable: true
+    enchants:
+      - 'UNBREAKING +1'
+    hide-enchants: true
     upgrade:
       reference: armor-upgrade-template
       template: weapon-upgrade-template
       max: 100
 
 FREE_RING_KIM_LONG_1:
-  itemsadder-item: "rings_pack:ring_10"
+  itemsadder-item: "rings_pack:ring_70"
   base:
     custom-maxsockets: 2.0
-    revision-id: 2
+    revision-id: 6
     material: PAPER
-    custom-model-data: 19010
+    custom-model-data: 19070
     name: "&e&l★ Nhẫn Kim Long I"
     tier: UNIQUE
     set: KIM_LONG_SET
     critical-strike-power: 30
     attack-speed: 20
     physical-damage: 15
+    unstackable: true
+    enchants:
+      - 'UNBREAKING +1'
+    hide-enchants: true
     upgrade:
       reference: armor-upgrade-template
       template: weapon-upgrade-template
       max: 100
 
 FREE_RING_KIM_LONG_2:
-  itemsadder-item: "rings_pack:set11_ring_1"
+  itemsadder-item: "rings_pack:ring_82"
   base:
     custom-maxsockets: 2.0
-    revision-id: 2
+    revision-id: 6
     material: PAPER
-    custom-model-data: 19221
+    custom-model-data: 19082
     name: "&e&l★ Nhẫn Kim Long II"
     tier: UNIQUE
     set: KIM_LONG_SET
     critical-strike-power: 30
     attack-speed: 20
     physical-damage: 15
+    unstackable: true
+    enchants:
+      - 'UNBREAKING +1'
+    hide-enchants: true
     upgrade:
       reference: armor-upgrade-template
       template: weapon-upgrade-template
       max: 100
 
 FREE_RING_THIEN_LONG_1:
-  itemsadder-item: "rings_pack:set11_ring_2"
+  itemsadder-item: "rings_pack:ring_31"
   base:
     custom-maxsockets: 2.0
-    revision-id: 2
+    revision-id: 6
     material: PAPER
-    custom-model-data: 19222
+    custom-model-data: 19031
     name: "&d&l✦ Nhẫn Thiên Long I"
     tier: UNIQUE
     set: THIEN_LONG_SET
     critical-strike-power: 45
-    armor-penetration: 12
+    unstackable: true
+    enchants:
+      - 'UNBREAKING +1'
+    hide-enchants: true
     upgrade:
       reference: armor-upgrade-template
       template: weapon-upgrade-template
       max: 100
 
 FREE_RING_THIEN_LONG_2:
-  itemsadder-item: "rings_pack:set11_ring_3"
+  itemsadder-item: "rings_pack:ring_60"
   base:
     custom-maxsockets: 2.0
-    revision-id: 2
+    revision-id: 6
     material: PAPER
-    custom-model-data: 19223
+    custom-model-data: 19060
     name: "&d&l✦ Nhẫn Thiên Long II"
     tier: UNIQUE
     set: THIEN_LONG_SET
     critical-strike-power: 45
-    armor-penetration: 12
+    unstackable: true
+    enchants:
+      - 'UNBREAKING +1'
+    hide-enchants: true
     upgrade:
       reference: armor-upgrade-template
       template: weapon-upgrade-template
       max: 100
 
 FREE_RING_BAC_LONG_1:
-  itemsadder-item: "rings_pack:ring_1"
+  itemsadder-item: "rings_pack:ring_93"
   base:
     custom-maxsockets: 2.0
-    revision-id: 2
+    revision-id: 6
     material: PAPER
-    custom-model-data: 19001
+    custom-model-data: 19093
     name: "&f&l✧ Nhẫn Bạch Long I"
     tier: UNIQUE
     set: BAC_LONG_SET
     critical-strike-power: 30
     max-health: 160
     defense: 12
+    unstackable: true
+    enchants:
+      - 'UNBREAKING +1'
+    hide-enchants: true
     upgrade:
       reference: armor-upgrade-template
       template: weapon-upgrade-template
       max: 100
 
 FREE_RING_BAC_LONG_2:
-  itemsadder-item: "rings_pack:ring_2"
+  itemsadder-item: "rings_pack:ring_79"
   base:
     custom-maxsockets: 2.0
-    revision-id: 2
+    revision-id: 6
     material: PAPER
-    custom-model-data: 19002
+    custom-model-data: 19079
     name: "&f&l✧ Nhẫn Bạch Long II"
     tier: UNIQUE
     set: BAC_LONG_SET
     critical-strike-power: 30
     max-health: 160
     defense: 12
+    unstackable: true
+    enchants:
+      - 'UNBREAKING +1'
+    hide-enchants: true
     upgrade:
       reference: armor-upgrade-template
       template: weapon-upgrade-template

@@ -1,6 +1,6 @@
 lore-format:
   # ==================== Yêu Cầu & Giới Hạn ====================
-  - '{bar}'
+  - "{bar}"
   - "#required-class#"
   - "#required-level#"
   - "#required-dexterity#"
@@ -9,7 +9,7 @@ lore-format:
   - "#soulbound#"
 
   # ========================= Nghề Nghệp =========================
-  - '{bar}'
+  - "{bar}"
   - "#profession-alchemy#"
   - "#profession-enchanting#"
   - "#profession-farming#"
@@ -20,9 +20,7 @@ lore-format:
   - "#profession-woodcutting#"
 
   # ========================= Chỉ Số Vật Phẩm =========================
-  - '{bar}'
-  - "#custom-myluck#"
-  - "#custom-maxsockets#"
+  - "{bar}"
   - "#custom-miningefficiency#"
 
   - "#custom-miningfortune#"
@@ -96,7 +94,7 @@ lore-format:
   - "#additional-experience-woodcutting#"
 
   # ========================= Tiêu Thụ & Tỷ Lệ =========================
-  - '{bar}'
+  - "{bar}"
   - "#success-rate#"
   - "#can-identify#"
   - "#can-deconstruct#"
@@ -112,32 +110,36 @@ lore-format:
   - "#item-cooldown#"
 
   # =========================== Nguyên Tố ============================
-  - '{bar}'
+  - "{bar}"
   - "#elements#"
 
   # ============================= Hiệu Ứng ============================
-  - '{bar}'
+  - "{bar}"
   - "#effects#"
 
   # ============================ Kỹ Năng ============================
-  - '{bar}'
+  - "{bar}"
   - "#abilities#"
 
   # ============================ Lệnh ============================
-  - '{bar}'
+  - "{bar}"
   - "#commands#"
 
-  # ============================ Truyền Thuyết & Đá Quý ======================
-  - '{bar}'
-  - "#lore#"
-  - '{bar}'
-  - "#set#"
-  - '{bar}'
+  # ==================== Đá Quý ====================
+  - "{bar}&f&r"
+  - "{bar}&8&m-------&r &d&l🔮 Ô KHẢM ĐÁ QUÝ &8&m-------"
+  - "#custom-maxsockets#"
   - "#gem-stones#"
   - "#gem-stone-lore#"
 
-  # ============================== Thông Tin Đáy ===============================
-  - '{sbar}'
+  # ==================== Mô Tả & Thông Tin Vật Phẩm ====================
+  - "{bar}&f"
+  - "{bar}"
+  - "#lore#"
+  - "{bar}&f"
+  - "#set#"
+  - "{sbar}&8&m---------------------------------"
+
   - "#tier#"
   - "#durability#"
   - "#item-type#"

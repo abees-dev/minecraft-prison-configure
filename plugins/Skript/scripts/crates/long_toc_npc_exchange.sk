@@ -1,21 +1,47 @@
 # ============================================================================
-# ĐỔI ẤN TÍN LONG TỘC LẤY CHÌA KHÓA LONG TỘC TẠI NPC
-# Cách dùng: tạo 1 NPC Citizens tên đúng {@npc_name} (vd: /npc create {@npc_name}),
-# người chơi cầm Ấn Tín Long Tộc trên tay rồi click chuột phải vào NPC để đổi.
+# ĐỔI ẤN TÍN LONG TỘC LẤY CHÌA KHÓA LONG TỘC (GUI Skript, check theo MMOITEMS_ITEM_ID)
+# Cách dùng: gắn lệnh /doilongtoc vào NPC bằng Citizens command trait:
+#   /npc command add doilongtoc --player
 # ============================================================================
+
+import:
+    io.lumine.mythic.lib.api.item.NBTItem
 
 options:
     key_id: chia_khoa_long_toc
-    npc_name: "&6&l⚔ Sứ Giả Long Tộc"
-    token_name: "&6&l⚔ Ấn Tín Long Tộc"
+    token_id: AN_TIN_LONG_TOC
+    gui_name: &8[&6⚔&8] &6&lĐỔI CHÌA KHÓA LONG TỘC
     prefix: &6&l[Long Tộc]&r
 
-on right click on a npc:
-    if name of event-entity is "{@npc_name}":
-        if player's tool is a nether star named "{@token_name}":
-            remove 1 of player's tool from player
+command /doilongtoc:
+    trigger:
+        set {_inv} to a new chest inventory with 1 row named "{@gui_name}"
+        set {_item} to a heart of the sea
+        set name of {_item} to "&6&l⚔ Ấn Tín Long Tộc"
+        set lore of {_item} to "&7Click để đổi lấy &6Chìa Khóa Long Tộc"
+        set slot 4 of {_inv} to {_item}
+        open {_inv} to player
+
+on inventory click:
+    name of event-inventory is "{@gui_name}"
+    cancel event
+    if index of event-slot is 4:
+        set {_found} to false
+        send "&e[DEBUG] Bắt đầu quét túi tìm token_id={@token_id}" to player
+        loop all items in player's inventory:
+            if loop-value is not air:
+                set {_realitem} to item in loop-value
+                set {_nbt} to try NBTItem.get({_realitem})
+                if {_nbt} is set:
+                    set {_id} to try {_nbt}.getString("MMOITEMS_ITEM_ID")
+                    if {_id} is "{@token_id}":
+                        set {_found} to true
+                        remove 1 of {_realitem} from player's inventory
+                        stop loop
+        if {_found} is true:
             execute console command "crates key give %player% {@key_id} 1"
             send "{@prefix} &aĐã đổi &e1x Ấn Tín Long Tộc &alấy &61x Chìa Khóa Long Tộc&a!" to player
             play sound "entity.player.levelup" with volume 1 and pitch 1 to player
+            close player's inventory
         else:
-            send "{@prefix} &cBạn cần cầm &e1x Ấn Tín Long Tộc &ctrên tay để đổi chìa khóa!" to player
+            send "{@prefix} &cBạn cần có &e1x Ấn Tín Long Tộc &ctrong túi để đổi!" to player

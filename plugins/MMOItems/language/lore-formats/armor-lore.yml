@@ -58,6 +58,7 @@ lore-format:
   - "{bar}&f"
   - "{bar}&8&m-------&r &a&l⚡ KỸ NĂNG ĐẶC BIỆT &8&m-------"
   - "#abilities#"
+  - "{bar}"
 
   # ==================== Đá Quý ====================
   - "{bar}&f"
@@ -65,7 +66,6 @@ lore-format:
   - "#custom-maxsockets#"
   - "#gem-stones#"
   - "#gem-stone-lore#"
-
 
   # ==================== Mô Tả & Thông Tin Vật Phẩm ====================
   - "{bar}&f"

@@ -6,988 +6,878 @@ items:
     enabled: true
     resource:
       material: PAPER
-      generate: true
+      generate: false
       model_id: 19001
-      textures:
-      - items/ring_1
+      model_path: ring_1
   ring_2:
     display_name: "&fNhẫn Vàng Cổ (Ancient Gold Ring)"
     enabled: true
     resource:
       material: PAPER
-      generate: true
+      generate: false
       model_id: 19002
-      textures:
-      - items/ring_2
+      model_path: ring_2
   ring_3:
     display_name: "&fNhẫn Nguyệt Thạch (Moonstone Ring)"
     enabled: true
     resource:
       material: PAPER
-      generate: true
+      generate: false
       model_id: 19003
-      textures:
-      - items/ring_3
+      model_path: ring_3
   ring_4:
     display_name: "&fNhẫn Trâu Rừng (Bison Ring)"
     enabled: true
     resource:
       material: PAPER
-      generate: true
+      generate: false
       model_id: 19004
-      textures:
-      - items/ring_4
+      model_path: ring_4
   ring_5:
     display_name: "&fNhẫn Trăng Khuyết (Crescent Ring)"
     enabled: true
     resource:
       material: PAPER
-      generate: true
+      generate: false
       model_id: 19005
-      textures:
-      - items/ring_5
+      model_path: ring_5
   ring_6:
     display_name: "&fNhẫn Mãng Xà (Serpent Ring)"
     enabled: true
     resource:
       material: PAPER
-      generate: true
+      generate: false
       model_id: 19006
-      textures:
-      - items/ring_6
+      model_path: ring_6
   ring_7:
     display_name: "&fNhẫn Hoàng Kim Vương Cổ (Golden Bone Ring)"
     enabled: true
     resource:
       material: PAPER
-      generate: true
+      generate: false
       model_id: 19007
-      textures:
-      - items/ring_7
+      model_path: ring_7
   ring_8:
     display_name: "&fNhẫn Cốt Vương (Skeleton Ring)"
     enabled: true
     resource:
       material: PAPER
-      generate: true
+      generate: false
       model_id: 19008
-      textures:
-      - items/ring_8
+      model_path: ring_8
   ring_9:
     display_name: "&fNhẫn Tinh Tú (Cosmic Ring)"
     enabled: true
     resource:
       material: PAPER
-      generate: true
+      generate: false
       model_id: 19009
-      textures:
-      - items/ring_9
+      model_path: ring_9
   ring_10:
     display_name: "&fNhẫn Thần Vũ (Winged Ring)"
     enabled: true
     resource:
       material: PAPER
-      generate: true
+      generate: false
       model_id: 19010
-      textures:
-      - items/ring_10
+      model_path: ring_10
   ring_11:
     display_name: "&fNhẫn Huyết Sọ (Blood Skull Ring)"
     enabled: true
     resource:
       material: PAPER
-      generate: true
+      generate: false
       model_id: 19011
-      textures:
-      - items/ring_11
+      model_path: ring_11
   ring_12:
     display_name: "&fNhẫn Trơn Kim Loại (Plain Band)"
     enabled: true
     resource:
       material: PAPER
-      generate: true
+      generate: false
       model_id: 19012
-      textures:
-      - items/ring_12
+      model_path: ring_12
   ring_13:
     display_name: "&fNhẫn Ngọc Lục Bảo (Emerald Ring)"
     enabled: true
     resource:
       material: PAPER
-      generate: true
+      generate: false
       model_id: 19013
-      textures:
-      - items/ring_13
+      model_path: ring_13
   ring_14:
     display_name: "&fNhẫn Quỷ Sừng (Horned Demon Ring)"
     enabled: true
     resource:
       material: PAPER
-      generate: true
+      generate: false
       model_id: 19014
-      textures:
-      - items/ring_14
+      model_path: ring_14
   ring_15:
     display_name: "&fNhẫn Sói Xám (Wolf Ring)"
     enabled: true
     resource:
       material: PAPER
-      generate: true
+      generate: false
       model_id: 19015
-      textures:
-      - items/ring_15
+      model_path: ring_15
   ring_16:
     display_name: "&fNhẫn Thép Đen (Dark Steel Ring)"
     enabled: true
     resource:
       material: PAPER
-      generate: true
+      generate: false
       model_id: 19016
-      textures:
-      - items/ring_16
+      model_path: ring_16
   ring_17:
     display_name: "&fNhẫn Hắc Sọ (Dark Skull Ring)"
     enabled: true
     resource:
       material: PAPER
-      generate: true
+      generate: false
       model_id: 19017
-      textures:
-      - items/ring_17
+      model_path: ring_17
   ring_18:
     display_name: "&fNhẫn Gỗ Cổ Thụ (Ancient Wood Ring)"
     enabled: true
     resource:
       material: PAPER
-      generate: true
+      generate: false
       model_id: 19018
-      textures:
-      - items/ring_18
+      model_path: ring_18
   ring_19:
     display_name: "&fNhẫn Ma Hồn (Phantom Skull Ring)"
     enabled: true
     resource:
       material: PAPER
-      generate: true
+      generate: false
       model_id: 19019
-      textures:
-      - items/ring_19
+      model_path: ring_19
   ring_20:
     display_name: "&fNhẫn Vỏ Sò (Shell Ring)"
     enabled: true
     resource:
       material: PAPER
-      generate: true
+      generate: false
       model_id: 19020
-      textures:
-      - items/ring_20
+      model_path: ring_20
   ring_21:
     display_name: "&fNhẫn Phượng Hoàng (Phoenix Ring)"
     enabled: true
     resource:
       material: PAPER
-      generate: true
+      generate: false
       model_id: 19021
-      textures:
-      - items/ring_21
+      model_path: ring_21
   ring_22:
     display_name: "&fNhẫn Lục Thạch Vàng (Gemmed Gold Ring)"
     enabled: true
     resource:
       material: PAPER
-      generate: true
+      generate: false
       model_id: 19022
-      textures:
-      - items/ring_22
+      model_path: ring_22
   ring_23:
     display_name: "&fNhẫn Ngọc Bích (Jade Ring)"
     enabled: true
     resource:
       material: PAPER
-      generate: true
+      generate: false
       model_id: 19023
-      textures:
-      - items/ring_23
+      model_path: ring_23
   ring_24:
     display_name: "&fNhẫn Độc Orc (Orc Ring)"
     enabled: true
     resource:
       material: PAPER
-      generate: true
+      generate: false
       model_id: 19024
-      textures:
-      - items/ring_24
+      model_path: ring_24
   ring_25:
     display_name: "&fNhẫn Gấu Rừng (Bear Ring)"
     enabled: true
     resource:
       material: PAPER
-      generate: true
+      generate: false
       model_id: 19025
-      textures:
-      - items/ring_25
+      model_path: ring_25
   ring_26:
     display_name: "&fNhẫn Dây Thừng (Rope Ring)"
     enabled: true
     resource:
       material: PAPER
-      generate: true
+      generate: false
       model_id: 19026
-      textures:
-      - items/ring_26
+      model_path: ring_26
   ring_27:
     display_name: "&fNhẫn Bóng Tối (Shadow Ring)"
     enabled: true
     resource:
       material: PAPER
-      generate: true
+      generate: false
       model_id: 19027
-      textures:
-      - items/ring_27
+      model_path: ring_27
   ring_28:
     display_name: "&fNhẫn Hoàng Kim Sọ (Gold Skull Ring)"
     enabled: true
     resource:
       material: PAPER
-      generate: true
+      generate: false
       model_id: 19028
-      textures:
-      - items/ring_28
+      model_path: ring_28
   ring_29:
     display_name: "&fNhẫn Sét Đánh (Lightning Ring)"
     enabled: true
     resource:
       material: PAPER
-      generate: true
+      generate: false
       model_id: 19029
-      textures:
-      - items/ring_29
+      model_path: ring_29
   ring_30:
     display_name: "&fNhẫn Hạt Cây (Acorn Ring)"
     enabled: true
     resource:
       material: PAPER
-      generate: true
+      generate: false
       model_id: 19030
-      textures:
-      - items/ring_30
+      model_path: ring_30
   ring_31:
     display_name: "&fNhẫn Thiên Hà (Galaxy Ring)"
     enabled: true
     resource:
       material: PAPER
-      generate: true
+      generate: false
       model_id: 19031
-      textures:
-      - items/ring_31
+      model_path: ring_31
   ring_32:
     display_name: "&fNhẫn Đồng Thau (Bronze Ring)"
     enabled: true
     resource:
       material: PAPER
-      generate: true
+      generate: false
       model_id: 19032
-      textures:
-      - items/ring_32
+      model_path: ring_32
   ring_33:
     display_name: "&fNhẫn Mông Cổ (Band Ring)"
     enabled: true
     resource:
       material: PAPER
-      generate: true
+      generate: false
       model_id: 19033
-      textures:
-      - items/ring_33
+      model_path: ring_33
   ring_34:
     display_name: "&fNhẫn Xà Vương (Snake Ring)"
     enabled: true
     resource:
       material: PAPER
-      generate: true
+      generate: false
       model_id: 19034
-      textures:
-      - items/ring_34
+      model_path: ring_34
   ring_35:
     display_name: "&fNhẫn Thủy Ma (Water Ring)"
     enabled: true
     resource:
       material: PAPER
-      generate: true
+      generate: false
       model_id: 19035
-      textures:
-      - items/ring_35
+      model_path: ring_35
   ring_36:
     display_name: "&fNhẫn Nút Thắt (Knot Ring)"
     enabled: true
     resource:
       material: PAPER
-      generate: true
+      generate: false
       model_id: 19036
-      textures:
-      - items/ring_36
+      model_path: ring_36
   ring_37:
     display_name: "&fNhẫn Cổ Tự (Runic Ring)"
     enabled: true
     resource:
       material: PAPER
-      generate: true
+      generate: false
       model_id: 19037
-      textures:
-      - items/ring_37
+      model_path: ring_37
   ring_38:
     display_name: "&fNhẫn Lạc Đà (Skull Ring)"
     enabled: true
     resource:
       material: PAPER
-      generate: true
+      generate: false
       model_id: 19038
-      textures:
-      - items/ring_38
+      model_path: ring_38
   ring_39:
     display_name: "&fNhẫn Tuyết Thạch (Snowflake Ring)"
     enabled: true
     resource:
       material: PAPER
-      generate: true
+      generate: false
       model_id: 19039
-      textures:
-      - items/ring_39
+      model_path: ring_39
   ring_40:
     display_name: "&fNhẫn Dây Gai (Thorns Ring)"
     enabled: true
     resource:
       material: PAPER
-      generate: true
+      generate: false
       model_id: 19040
-      textures:
-      - items/ring_40
+      model_path: ring_40
   ring_41:
     display_name: "&fNhẫn Nhãn Quỷ (Demon Eye Ring)"
     enabled: true
     resource:
       material: PAPER
-      generate: true
+      generate: false
       model_id: 19041
-      textures:
-      - items/ring_41
+      model_path: ring_41
   ring_42:
     display_name: "&fNhẫn Kim Cương (Diamond Ring)"
     enabled: true
     resource:
       material: PAPER
-      generate: true
+      generate: false
       model_id: 19042
-      textures:
-      - items/ring_42
+      model_path: ring_42
   ring_43:
     display_name: "&fNhẫn Mảnh Xương (Bone Charm Ring)"
     enabled: true
     resource:
       material: PAPER
-      generate: true
+      generate: false
       model_id: 19043
-      textures:
-      - items/ring_43
+      model_path: ring_43
   ring_44:
     display_name: "&fNhẫn Đương Thời (Skull Ring)"
     enabled: true
     resource:
       material: PAPER
-      generate: true
+      generate: false
       model_id: 19044
-      textures:
-      - items/ring_44
+      model_path: ring_44
   ring_45:
     display_name: "&fNhẫn Thạch Thần (Stone Ring)"
     enabled: true
     resource:
       material: PAPER
-      generate: true
+      generate: false
       model_id: 19045
-      textures:
-      - items/ring_45
+      model_path: ring_45
   ring_46:
     display_name: "&fNhẫn Đơn Sơ (Simple Ring)"
     enabled: true
     resource:
       material: PAPER
-      generate: true
+      generate: false
       model_id: 19046
-      textures:
-      - items/ring_46
+      model_path: ring_46
   ring_47:
     display_name: "&fNhẫn Tà Thần (Dark Lord Ring)"
     enabled: true
     resource:
       material: PAPER
-      generate: true
+      generate: false
       model_id: 19047
-      textures:
-      - items/ring_47
+      model_path: ring_47
   ring_48:
     display_name: "&fNhẫn Kim Sọ (Gold Skull Ring)"
     enabled: true
     resource:
       material: PAPER
-      generate: true
+      generate: false
       model_id: 19048
-      textures:
-      - items/ring_48
+      model_path: ring_48
   ring_49:
     display_name: "&fNhẫn Hắc Thạch (Obsidian Ring)"
     enabled: true
     resource:
       material: PAPER
-      generate: true
+      generate: false
       model_id: 19049
-      textures:
-      - items/ring_49
+      model_path: ring_49
   ring_50:
     display_name: "&fNhẫn Hoa Cherry (Sakura Ring)"
     enabled: true
     resource:
       material: PAPER
-      generate: true
+      generate: false
       model_id: 19050
-      textures:
-      - items/ring_50
+      model_path: ring_50
   ring_51:
     display_name: "&fNhẫn Hỏa Sọ (Fire Skull Ring)"
     enabled: true
     resource:
       material: PAPER
-      generate: true
+      generate: false
       model_id: 19051
-      textures:
-      - items/ring_51
+      model_path: ring_51
   ring_52:
     display_name: "&fNhẫn Tam Ngọc (Triple Gem Ring)"
     enabled: true
     resource:
       material: PAPER
-      generate: true
+      generate: false
       model_id: 19052
-      textures:
-      - items/ring_52
+      model_path: ring_52
   ring_53:
     display_name: "&fNhẫn Cốt Thần (Bone Ring)"
     enabled: true
     resource:
       material: PAPER
-      generate: true
+      generate: false
       model_id: 19053
-      textures:
-      - items/ring_53
+      model_path: ring_53
   ring_54:
     display_name: "&fNhẫn Kim Cương Đơn (Single Diamond Ring)"
     enabled: true
     resource:
       material: PAPER
-      generate: true
+      generate: false
       model_id: 19054
-      textures:
-      - items/ring_54
+      model_path: ring_54
   ring_55:
     display_name: "&fNhẫn Phong Linh (Wind Ring)"
     enabled: true
     resource:
       material: PAPER
-      generate: true
+      generate: false
       model_id: 19055
-      textures:
-      - items/ring_55
+      model_path: ring_55
   ring_56:
     display_name: "&fNhẫn H hữu Sắc (Multi-Gem Ring)"
     enabled: true
     resource:
       material: PAPER
-      generate: true
+      generate: false
       model_id: 19056
-      textures:
-      - items/ring_56
+      model_path: ring_56
   ring_57:
     display_name: "&fNhẫn U Hồn (Ghostly Green Ring)"
     enabled: true
     resource:
       material: PAPER
-      generate: true
+      generate: false
       model_id: 19057
-      textures:
-      - items/ring_57
+      model_path: ring_57
   ring_58:
     display_name: "&fNhẫn Song Diện (Dual Face Ring)"
     enabled: true
     resource:
       material: PAPER
-      generate: true
+      generate: false
       model_id: 19058
-      textures:
-      - items/ring_58
+      model_path: ring_58
   ring_59:
     display_name: "&fNhẫn Hổ Thạch (Tiger Eye Ring)"
     enabled: true
     resource:
       material: PAPER
-      generate: true
+      generate: false
       model_id: 19059
-      textures:
-      - items/ring_59
+      model_path: ring_59
   ring_60:
     display_name: "&fNhẫn Đại Bàng (Eagle Ring)"
     enabled: true
     resource:
       material: PAPER
-      generate: true
+      generate: false
       model_id: 19060
-      textures:
-      - items/ring_60
+      model_path: ring_60
   ring_61:
     display_name: "&fNhẫn Vương Miện (Crown Ring)"
     enabled: true
     resource:
       material: PAPER
-      generate: true
+      generate: false
       model_id: 19061
-      textures:
-      - items/ring_61
+      model_path: ring_61
   ring_62:
     display_name: "&fNhẫn Song Ngọc (Double Gem Ring)"
     enabled: true
     resource:
       material: PAPER
-      generate: true
+      generate: false
       model_id: 19062
-      textures:
-      - items/ring_62
+      model_path: ring_62
   ring_63:
     display_name: "&fNhẫn Xương Nứt (Cracked Bone Ring)"
     enabled: true
     resource:
       material: PAPER
-      generate: true
+      generate: false
       model_id: 19063
-      textures:
-      - items/ring_63
+      model_path: ring_63
   ring_64:
     display_name: "&fNhẫn Nhện Độc (Spider Ring)"
     enabled: true
     resource:
       material: PAPER
-      generate: true
+      generate: false
       model_id: 19064
-      textures:
-      - items/ring_64
+      model_path: ring_64
   ring_65:
     display_name: "&fNhẫn Ma Nhãn (Purple Eye Ring)"
     enabled: true
     resource:
       material: PAPER
-      generate: true
+      generate: false
       model_id: 19065
-      textures:
-      - items/ring_65
+      model_path: ring_65
   ring_66:
     display_name: "&fNhẫn Sọ Bạc (Silver Skull Ring)"
     enabled: true
     resource:
       material: PAPER
-      generate: true
+      generate: false
       model_id: 19066
-      textures:
-      - items/ring_66
+      model_path: ring_66
   ring_67:
     display_name: "&fNhẫn Lam Thủy (Aqua Ring)"
     enabled: true
     resource:
       material: PAPER
-      generate: true
+      generate: false
       model_id: 19067
-      textures:
-      - items/ring_67
+      model_path: ring_67
   ring_68:
     display_name: "&fNhẫn Đế Vương (Imperial Crown Ring)"
     enabled: true
     resource:
       material: PAPER
-      generate: true
+      generate: false
       model_id: 19068
-      textures:
-      - items/ring_68
+      model_path: ring_68
   ring_69:
     display_name: "&fNhẫn Ngọc Thạch (Opal Ring)"
     enabled: true
     resource:
       material: PAPER
-      generate: true
+      generate: false
       model_id: 19069
-      textures:
-      - items/ring_69
+      model_path: ring_69
   ring_70:
     display_name: "&fNhẫn Long Vương (Dragon Gold Ring)"
     enabled: true
     resource:
       material: PAPER
-      generate: true
+      generate: false
       model_id: 19070
-      textures:
-      - items/ring_70
+      model_path: ring_70
   ring_71:
     display_name: "&fNhẫn Xích Long (Red Dragon Ring)"
     enabled: true
     resource:
       material: PAPER
-      generate: true
+      generate: false
       model_id: 19071
-      textures:
-      - items/ring_71
+      model_path: ring_71
   ring_72:
     display_name: "&fNhẫn Ngọc Lục Vàng (Gemmed Ring)"
     enabled: true
     resource:
       material: PAPER
-      generate: true
+      generate: false
       model_id: 19072
-      textures:
-      - items/ring_72
+      model_path: ring_72
   ring_73:
     display_name: "&fNhẫn Khớp Xương (Joint Bone Ring)"
     enabled: true
     resource:
       material: PAPER
-      generate: true
+      generate: false
       model_id: 19073
-      textures:
-      - items/ring_73
+      model_path: ring_73
   ring_74:
     display_name: "&fNhẫn Dơi Đêm (Bat Ring)"
     enabled: true
     resource:
       material: PAPER
-      generate: true
+      generate: false
       model_id: 19074
-      textures:
-      - items/ring_74
+      model_path: ring_74
   ring_75:
     display_name: "&fNhẫn Khiên Thần (Shield Ring)"
     enabled: true
     resource:
       material: PAPER
-      generate: true
+      generate: false
       model_id: 19075
-      textures:
-      - items/ring_75
+      model_path: ring_75
   ring_76:
     display_name: "&fNhẫn Huyết Thạch (Ruby Ring)"
     enabled: true
     resource:
       material: PAPER
-      generate: true
+      generate: false
       model_id: 19076
-      textures:
-      - items/ring_76
+      model_path: ring_76
   ring_77:
     display_name: "&fNhẫn Sọ Thủy Tinh (Glass Skull Ring)"
     enabled: true
     resource:
       material: PAPER
-      generate: true
+      generate: false
       model_id: 19077
-      textures:
-      - items/ring_77
+      model_path: ring_77
   ring_78:
     display_name: "&fNhẫn Dơi Quỷ (Demon Bat Ring)"
     enabled: true
     resource:
       material: PAPER
-      generate: true
+      generate: false
       model_id: 19078
-      textures:
-      - items/ring_78
+      model_path: ring_78
   ring_79:
     display_name: "&fNhẫn Trọc Thạch (Pearl Ring)"
     enabled: true
     resource:
       material: PAPER
-      generate: true
+      generate: false
       model_id: 19079
-      textures:
-      - items/ring_79
+      model_path: ring_79
   ring_80:
     display_name: "&fNhẫn Cốt Nhãn (Skull Eye Ring)"
     enabled: true
     resource:
       material: PAPER
-      generate: true
+      generate: false
       model_id: 19080
-      textures:
-      - items/ring_80
+      model_path: ring_80
   ring_81:
     display_name: "&fNhẫn Quỷ Hỏa (Infernal Ring)"
     enabled: true
     resource:
       material: PAPER
-      generate: true
+      generate: false
       model_id: 19081
-      textures:
-      - items/ring_81
+      model_path: ring_81
   ring_82:
     display_name: "&fNhẫn Lục Bảo Vàng (Gold Emerald Ring)"
     enabled: true
     resource:
       material: PAPER
-      generate: true
+      generate: false
       model_id: 19082
-      textures:
-      - items/ring_82
+      model_path: ring_82
   ring_83:
     display_name: "&fNhẫn Sói Tuyết (Frost Wolf Ring)"
     enabled: true
     resource:
       material: PAPER
-      generate: true
+      generate: false
       model_id: 19083
-      textures:
-      - items/ring_83
+      model_path: ring_83
   ring_84:
     display_name: "&fNhẫn Mộc Thạch (Wood Ring)"
     enabled: true
     resource:
       material: PAPER
-      generate: true
+      generate: false
       model_id: 19084
-      textures:
-      - items/ring_84
+      model_path: ring_84
   ring_85:
     display_name: "&fNhẫn Nấm Ma (Mushroom Ring)"
     enabled: true
     resource:
       material: PAPER
-      generate: true
+      generate: false
       model_id: 19085
-      textures:
-      - items/ring_85
+      model_path: ring_85
   ring_86:
     display_name: "&fNhẫn Bắt Chéo (Cross Bone Ring)"
     enabled: true
     resource:
       material: PAPER
-      generate: true
+      generate: false
       model_id: 19086
-      textures:
-      - items/ring_86
+      model_path: ring_86
   ring_87:
     display_name: "&fNhẫn Lam Sọ (Blue Skull Ring)"
     enabled: true
     resource:
       material: PAPER
-      generate: true
+      generate: false
       model_id: 19087
-      textures:
-      - items/ring_87
+      model_path: ring_87
   ring_88:
     display_name: "&fNhẫn Thổ Dân (Tribal Ring)"
     enabled: true
     resource:
       material: PAPER
-      generate: true
+      generate: false
       model_id: 19088
-      textures:
-      - items/ring_88
+      model_path: ring_88
   ring_89:
     display_name: "&fNhẫn Ngọn Lửa (Flame Ring)"
     enabled: true
     resource:
       material: PAPER
-      generate: true
+      generate: false
       model_id: 19089
-      textures:
-      - items/ring_89
+      model_path: ring_89
   ring_90:
     display_name: "&fNhẫn Tinh Tú Hoàng Kim (Star Ring)"
     enabled: true
     resource:
       material: PAPER
-      generate: true
+      generate: false
       model_id: 19090
-      textures:
-      - items/ring_90
+      model_path: ring_90
   ring_91:
     display_name: "&fNhẫn Băng Tinh (Ice Crystal Ring)"
     enabled: true
     resource:
       material: PAPER
-      generate: true
+      generate: false
       model_id: 19091
-      textures:
-      - items/ring_91
+      model_path: ring_91
   ring_92:
     display_name: "&fNhẫn Ngọc Lam (Cyan Gem Ring)"
     enabled: true
     resource:
       material: PAPER
-      generate: true
+      generate: false
       model_id: 19092
-      textures:
-      - items/ring_92
+      model_path: ring_92
   ring_93:
     display_name: "&fNhẫn Bạch Long (White Dragon Ring)"
     enabled: true
     resource:
       material: PAPER
-      generate: true
+      generate: false
       model_id: 19093
-      textures:
-      - items/ring_93
+      model_path: ring_93
   ring_94:
     display_name: "&fNhẫn Sét Đốm (Thunder Ring)"
     enabled: true
     resource:
       material: PAPER
-      generate: true
+      generate: false
       model_id: 19094
-      textures:
-      - items/ring_94
+      model_path: ring_94
   ring_95:
     display_name: "&fNhẫn Hoa Bích (Flower Ring)"
     enabled: true
     resource:
       material: PAPER
-      generate: true
+      generate: false
       model_id: 19095
-      textures:
-      - items/ring_95
+      model_path: ring_95
   ring_96:
     display_name: "&fNhẫn Lam Bảo (Sapphire Ring)"
     enabled: true
     resource:
       material: PAPER
-      generate: true
+      generate: false
       model_id: 19096
-      textures:
-      - items/ring_96
+      model_path: ring_96
   ring_97:
     display_name: "&fNhẫn Xương Chéo (Crossbones Ring)"
     enabled: true
     resource:
       material: PAPER
-      generate: true
+      generate: false
       model_id: 19097
-      textures:
-      - items/ring_97
+      model_path: ring_97
   ring_98:
     display_name: "&fNhẫn Độc Cốt (Poison Skull Ring)"
     enabled: true
     resource:
       material: PAPER
-      generate: true
+      generate: false
       model_id: 19098
-      textures:
-      - items/ring_98
+      model_path: ring_98
   ring_99:
     display_name: "&fNhẫn Thủy Vương (Ocean Ring)"
     enabled: true
     resource:
       material: PAPER
-      generate: true
+      generate: false
       model_id: 19099
-      textures:
-      - items/ring_99
+      model_path: ring_99
   ring_100:
     display_name: "&fNhẫn Thần Nhãn (Divine Eye Ring)"
     enabled: true
     resource:
       material: PAPER
-      generate: true
+      generate: false
       model_id: 19100
-      textures:
-      - items/ring_100
+      model_path: ring_100
   ring_101:
     display_name: "&fNhẫn Hoàng Kim Đôi (Double Gold Ring)"
     enabled: true
     resource:
       material: PAPER
-      generate: true
+      generate: false
       model_id: 19101
-      textures:
-      - items/ring_101
+      model_path: ring_101
   ring_102:
     display_name: "&fNhẫn Lam Thủy Vàng (Blue Gem Gold Ring)"
     enabled: true
     resource:
       material: PAPER
-      generate: true
+      generate: false
       model_id: 19102
-      textures:
-      - items/ring_102
+      model_path: ring_102
   ring_103:
     display_name: "&fNhẫn Cốt Điểu (Bird Skull Ring)"
     enabled: true
     resource:
       material: PAPER
-      generate: true
+      generate: false
       model_id: 19103
-      textures:
-      - items/ring_103
+      model_path: ring_103
   ring_104:
     display_name: "&fNhẫn Thái Dương (Sun Ring)"
     enabled: true
     resource:
       material: PAPER
-      generate: true
+      generate: false
       model_id: 19104
-      textures:
-      - items/ring_104
+      model_path: ring_104
   ring_105:
     display_name: "&fNhẫn Đại Bàng Vàng (Gold Eagle Ring)"
     enabled: true
     resource:
       material: PAPER
-      generate: true
+      generate: false
       model_id: 19105
-      textures:
-      - items/ring_105
+      model_path: ring_105
   ring_106:
     display_name: "&fNhẫn Lam Tinh (Aqua Gem Ring)"
     enabled: true
     resource:
       material: PAPER
-      generate: true
+      generate: false
       model_id: 19106
-      textures:
-      - items/ring_106
+      model_path: ring_106
   ring_107:
     display_name: "&fNhẫn Thần Sọ (Ancient Skull Ring)"
     enabled: true
     resource:
       material: PAPER
-      generate: true
+      generate: false
       model_id: 19107
-      textures:
-      - items/ring_107
+      model_path: ring_107
   ring_108:
     display_name: "&fNhẫn Sọ Ma (Spectral Skull Ring)"
     enabled: true
     resource:
       material: PAPER
-      generate: true
+      generate: false
       model_id: 19108
-      textures:
-      - items/ring_108
+      model_path: ring_108
   ring_109:
     display_name: "&fNhẫn Chi Nối (Leaf Ring)"
     enabled: true
     resource:
       material: PAPER
-      generate: true
+      generate: false
       model_id: 19109
-      textures:
-      - items/ring_109
+      model_path: ring_109
   ring_110:
     display_name: "&fNhẫn San Hộ (Coral Ring)"
     enabled: true
     resource:
       material: PAPER
-      generate: true
+      generate: false
       model_id: 19110
-      textures:
-      - items/ring_110
+      model_path: ring_110

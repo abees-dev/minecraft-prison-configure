@@ -1,256 +1,316 @@
 TRADE_GLOVES_HOA_LONG:
-  itemsadder-item: "rings_pack:glove_37"
+  itemsadder-item: "rings_pack:glove_17"
   base:
     custom-maxsockets: 5.0
-    revision-id: 2
+    revision-id: 5
     material: PAPER
-    custom-model-data: 19537
+    custom-model-data: 19517
     name: "&6&l🔥 Găng Tay Hỏa Long"
     tier: RARE
     set: HOA_LONG_SET
     attack-speed: 25
     critical-strike-power: 20
+    unstackable: true
+    enchants:
+      - 'UNBREAKING +1'
+    hide-enchants: true
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
       max: 100
 
 TRADE_GLOVES_HAC_LONG:
-  itemsadder-item: "rings_pack:glove_2"
+  itemsadder-item: "rings_pack:glove_9"
   base:
     custom-maxsockets: 5.0
-    revision-id: 2
+    revision-id: 5
     material: PAPER
-    custom-model-data: 19502
+    custom-model-data: 19509
     name: "&5&l◆ Găng Tay Hắc Long"
     tier: UNIQUE
     set: HAC_LONG_SET
     attack-speed: 20
     magic-damage: 30
+    unstackable: true
+    enchants:
+      - 'UNBREAKING +1'
+    hide-enchants: true
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
       max: 100
 
 TRADE_GLOVES_LOI_LONG:
-  itemsadder-item: "rings_pack:glove_85"
+  itemsadder-item: "rings_pack:glove_74"
   base:
     custom-maxsockets: 5.0
-    revision-id: 2
+    revision-id: 5
     material: PAPER
-    custom-model-data: 19585
+    custom-model-data: 19574
     name: "&e&l⚡ Găng Tay Lôi Long"
     tier: LEGENDARY
     set: LOI_LONG_SET
     attack-speed: 35
     lifesteal: 8
+    unstackable: true
+    enchants:
+      - 'UNBREAKING +1'
+    hide-enchants: true
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
       max: 100
 
 TRADE_GLOVES_PHONG_LONG:
-  itemsadder-item: "rings_pack:glove_1"
+  itemsadder-item: "rings_pack:glove_10"
   base:
     custom-maxsockets: 5.0
-    revision-id: 2
+    revision-id: 5
     material: PAPER
-    custom-model-data: 19501
+    custom-model-data: 19510
     name: "&2&l✦ Găng Tay Phong Long"
     tier: MYTHICAL
     set: PHONG_LONG_SET
     attack-speed: 25
     dodge-rating: 15
+    unstackable: true
+    enchants:
+      - 'UNBREAKING +1'
+    hide-enchants: true
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
       max: 100
 
 TRADE_GLOVES_BANG_LONG:
-  itemsadder-item: "rings_pack:glove_61"
+  itemsadder-item: "rings_pack:glove_91"
   base:
     custom-maxsockets: 5.0
-    revision-id: 2
+    revision-id: 5
     material: PAPER
-    custom-model-data: 19561
+    custom-model-data: 19591
     name: "&3&l✦ Găng Tay Băng Long"
     tier: EPIC
     set: BANG_LONG_SET
     attack-speed: 15
     defense: 15
     max-health: 100
+    unstackable: true
+    enchants:
+      - 'UNBREAKING +1'
+    hide-enchants: true
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
       max: 100
 
 DONATE_GLOVES_LONG_CHIEN:
-  itemsadder-item: "rings_pack:glove_12"
+  itemsadder-item: "rings_pack:glove_13"
   base:
     custom-maxsockets: 5.0
-    revision-id: 2
+    revision-id: 5
     material: PAPER
-    custom-model-data: 19512
+    custom-model-data: 19513
     name: "&e&l⚔ Găng Tay Chiến Long"
     tier: MYTHICAL
     set: LONG_CHIEN_SET
     attack-speed: 25
     critical-strike-power: 20
+    unstackable: true
+    enchants:
+      - 'UNBREAKING +1'
+    hide-enchants: true
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
       max: 100
 
 DONATE_GLOVES_LONG_THAN:
-  itemsadder-item: "rings_pack:glove_25"
+  itemsadder-item: "rings_pack:glove_96"
   base:
     custom-maxsockets: 5.0
-    revision-id: 2
+    revision-id: 5
     material: PAPER
-    custom-model-data: 19525
+    custom-model-data: 19596
     name: "&b&l✦ Găng Tay Thần Long"
     tier: MYTHICAL
     set: LONG_THAN_SET
     attack-speed: 20
     magic-damage: 30
+    unstackable: true
+    enchants:
+      - 'UNBREAKING +1'
+    hide-enchants: true
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
       max: 100
 
 DONATE_GLOVES_LONG_HOANG:
-  itemsadder-item: "rings_pack:glove_99"
+  itemsadder-item: "rings_pack:glove_86"
   base:
     custom-maxsockets: 5.0
-    revision-id: 2
+    revision-id: 5
     material: PAPER
-    custom-model-data: 19599
+    custom-model-data: 19586
     name: "&c&l★ Găng Tay Hoàng Long"
     tier: UNIQUE
     set: LONG_HOANG_SET
     attack-speed: 35
     lifesteal: 8
+    unstackable: true
+    enchants:
+      - 'UNBREAKING +1'
+    hide-enchants: true
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
       max: 100
 
 DONATE_GLOVES_LONG_DE:
-  itemsadder-item: "rings_pack:glove_40"
+  itemsadder-item: "rings_pack:glove_89"
   base:
     custom-maxsockets: 5.0
-    revision-id: 2
+    revision-id: 5
     material: PAPER
-    custom-model-data: 19540
+    custom-model-data: 19589
     name: "&4&l◆ Găng Tay Đế Long"
     tier: UNIQUE
     set: LONG_DE_SET
     attack-speed: 25
     dodge-rating: 15
+    unstackable: true
+    enchants:
+      - 'UNBREAKING +1'
+    hide-enchants: true
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
       max: 100
 
 DONATE_GLOVES_LONG_VE:
-  itemsadder-item: "rings_pack:glove_38"
+  itemsadder-item: "rings_pack:glove_67"
   base:
     custom-maxsockets: 5.0
-    revision-id: 2
+    revision-id: 5
     material: PAPER
-    custom-model-data: 19538
+    custom-model-data: 19567
     name: "&a&l✦ Găng Tay Hộ Long"
     tier: LEGENDARY
     set: LONG_VE_SET
     attack-speed: 15
     defense: 15
     max-health: 100
+    unstackable: true
+    enchants:
+      - 'UNBREAKING +1'
+    hide-enchants: true
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
       max: 100
 
 FREE_GLOVES_THANH_LONG:
-  itemsadder-item: "rings_pack:glove_4"
+  itemsadder-item: "rings_pack:glove_62"
   base:
     custom-maxsockets: 2.0
-    revision-id: 2
+    revision-id: 5
     material: PAPER
-    custom-model-data: 19504
+    custom-model-data: 19562
     name: "&b&l⚡ Găng Tay Thanh Long"
     tier: UNIQUE
     set: THANH_LONG_SET
     attack-speed: 25
     critical-strike-power: 20
+    unstackable: true
+    enchants:
+      - 'UNBREAKING +1'
+    hide-enchants: true
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
       max: 100
 
 FREE_GLOVES_XICH_LONG:
-  itemsadder-item: "rings_pack:glove_5"
+  itemsadder-item: "rings_pack:glove_34"
   base:
     custom-maxsockets: 2.0
-    revision-id: 2
+    revision-id: 5
     material: PAPER
-    custom-model-data: 19505
+    custom-model-data: 19534
     name: "&c&l🔥 Găng Tay Xích Long"
     tier: UNIQUE
     set: XICH_LONG_SET
     attack-speed: 20
     magic-damage: 30
+    unstackable: true
+    enchants:
+      - 'UNBREAKING +1'
+    hide-enchants: true
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
       max: 100
 
 FREE_GLOVES_KIM_LONG:
-  itemsadder-item: "rings_pack:glove_6"
+  itemsadder-item: "rings_pack:glove_80"
   base:
     custom-maxsockets: 2.0
-    revision-id: 2
+    revision-id: 5
     material: PAPER
-    custom-model-data: 19506
+    custom-model-data: 19580
     name: "&e&l★ Găng Tay Kim Long"
     tier: UNIQUE
     set: KIM_LONG_SET
     attack-speed: 35
     lifesteal: 8
+    unstackable: true
+    enchants:
+      - 'UNBREAKING +1'
+    hide-enchants: true
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
       max: 100
 
 FREE_GLOVES_THIEN_LONG:
-  itemsadder-item: "rings_pack:glove_7"
+  itemsadder-item: "rings_pack:glove_100"
   base:
     custom-maxsockets: 2.0
-    revision-id: 2
+    revision-id: 5
     material: PAPER
-    custom-model-data: 19507
+    custom-model-data: 19600
     name: "&d&l✦ Găng Tay Thiên Long"
     tier: UNIQUE
     set: THIEN_LONG_SET
     attack-speed: 25
     dodge-rating: 15
+    unstackable: true
+    enchants:
+      - 'UNBREAKING +1'
+    hide-enchants: true
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
       max: 100
 
 FREE_GLOVES_BAC_LONG:
-  itemsadder-item: "rings_pack:glove_3"
+  itemsadder-item: "rings_pack:glove_66"
   base:
     custom-maxsockets: 2.0
-    revision-id: 2
+    revision-id: 5
     material: PAPER
-    custom-model-data: 19503
+    custom-model-data: 19566
     name: "&f&l✧ Găng Tay Bạch Long"
     tier: UNIQUE
     set: BAC_LONG_SET
     attack-speed: 15
     defense: 15
     max-health: 100
+    unstackable: true
+    enchants:
+      - 'UNBREAKING +1'
+    hide-enchants: true
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template

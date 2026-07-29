@@ -361,8 +361,8 @@ MANH_LONG_TOC:
 
 AN_TIN_LONG_TOC:
   base:
-    revision-id: 1
-    material: NETHER_STAR
+    revision-id: 2
+    material: HEART_OF_THE_SEA
     name: "&6&l⚔ Ấn Tín Long Tộc"
     tier: EPIC
     lore-format: ingredient-lore
@@ -371,8 +371,8 @@ AN_TIN_LONG_TOC:
       unbreaking: 1
     lore:
       - "&7 &6●&7 Chế từ &f40 Mảnh Long Tộc &7+ &f5,000,000 tiền"
-      - "&7 &6●&7 Mang ấn tín này đi đổi lấy &6Chìa Khóa Long Tộc"
-      - "&7 &6●&7 (xem hướng dẫn đổi tại NPC/Bàn Thờ Long Tộc)"
+      - "&7 &6●&7 Mang ấn tín này đến NPC Sứ Giả Long Tộc"
+      - "&7 &6●&7 và gõ &e/doilongtoc &7để đổi lấy &6Chìa Khóa Long Tộc"
 
 # ==========================================================
 # ĐÁ CƯỜNG HÓA VŨ KHÍ & GIÁP (MATERIAL)

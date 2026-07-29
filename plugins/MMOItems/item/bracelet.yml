@@ -1,256 +1,316 @@
 TRADE_BRACELET_HOA_LONG:
-  itemsadder-item: "rings_pack:set1_ring_5"
+  itemsadder-item: "rings_pack:ring_81"
   base:
     custom-maxsockets: 5.0
-    revision-id: 2
+    revision-id: 5
     material: PAPER
-    custom-model-data: 19205
+    custom-model-data: 19081
     name: "&6&l🔥 Vòng Tay Hỏa Long"
     tier: RARE
     set: HOA_LONG_SET
     lifesteal: 10
     physical-damage: 25
+    unstackable: true
+    enchants:
+      - 'UNBREAKING +1'
+    hide-enchants: true
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
       max: 100
 
 TRADE_BRACELET_HAC_LONG:
-  itemsadder-item: "rings_pack:set3_ring_5"
+  itemsadder-item: "rings_pack:ring_17"
   base:
     custom-maxsockets: 5.0
-    revision-id: 2
+    revision-id: 5
     material: PAPER
-    custom-model-data: 19224
+    custom-model-data: 19017
     name: "&5&l◆ Vòng Tay Hắc Long"
     tier: UNIQUE
     set: HAC_LONG_SET
     cooldown-reduction: 12
     magic-damage: 35
+    unstackable: true
+    enchants:
+      - 'UNBREAKING +1'
+    hide-enchants: true
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
       max: 100
 
 TRADE_BRACELET_LOI_LONG:
-  itemsadder-item: "rings_pack:set8_ring_5"
+  itemsadder-item: "rings_pack:ring_9"
   base:
     custom-maxsockets: 5.0
-    revision-id: 2
+    revision-id: 5
     material: PAPER
-    custom-model-data: 19274
+    custom-model-data: 19009
     name: "&e&l⚡ Vòng Tay Lôi Long"
     tier: LEGENDARY
     set: LOI_LONG_SET
     lifesteal: 12
     attack-speed: 15
+    unstackable: true
+    enchants:
+      - 'UNBREAKING +1'
+    hide-enchants: true
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
       max: 100
 
 TRADE_BRACELET_PHONG_LONG:
-  itemsadder-item: "rings_pack:set5_ring_5"
+  itemsadder-item: "rings_pack:ring_23"
   base:
     custom-maxsockets: 5.0
-    revision-id: 2
+    revision-id: 5
     material: PAPER
-    custom-model-data: 19244
+    custom-model-data: 19023
     name: "&2&l✦ Vòng Tay Phong Long"
     tier: MYTHICAL
     set: PHONG_LONG_SET
     cooldown-reduction: 10
     dodge-rating: 12
+    unstackable: true
+    enchants:
+      - 'UNBREAKING +1'
+    hide-enchants: true
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
       max: 100
 
 TRADE_BRACELET_BANG_LONG:
-  itemsadder-item: "rings_pack:set2_ring_5"
+  itemsadder-item: "rings_pack:ring_1"
   base:
     custom-maxsockets: 5.0
-    revision-id: 2
+    revision-id: 5
     material: PAPER
-    custom-model-data: 19214
+    custom-model-data: 19001
     name: "&3&l✦ Vòng Tay Băng Long"
     tier: EPIC
     set: BANG_LONG_SET
     lifesteal: 8
     max-health: 150
     defense: 10
+    unstackable: true
+    enchants:
+      - 'UNBREAKING +1'
+    hide-enchants: true
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
       max: 100
 
 DONATE_BRACELET_LONG_CHIEN:
-  itemsadder-item: "rings_pack:set4_ring_5"
+  itemsadder-item: "rings_pack:ring_59"
   base:
     custom-maxsockets: 5.0
-    revision-id: 2
+    revision-id: 5
     material: PAPER
-    custom-model-data: 19234
+    custom-model-data: 19059
     name: "&e&l⚔ Vòng Tay Chiến Long"
     tier: MYTHICAL
     set: LONG_CHIEN_SET
     lifesteal: 10
     physical-damage: 25
+    unstackable: true
+    enchants:
+      - 'UNBREAKING +1'
+    hide-enchants: true
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
       max: 100
 
 DONATE_BRACELET_LONG_THAN:
-  itemsadder-item: "rings_pack:set6_ring_5"
+  itemsadder-item: "rings_pack:ring_107"
   base:
     custom-maxsockets: 5.0
-    revision-id: 2
+    revision-id: 5
     material: PAPER
-    custom-model-data: 19254
+    custom-model-data: 19107
     name: "&b&l✦ Vòng Tay Thần Long"
     tier: MYTHICAL
     set: LONG_THAN_SET
     cooldown-reduction: 12
     magic-damage: 35
+    unstackable: true
+    enchants:
+      - 'UNBREAKING +1'
+    hide-enchants: true
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
       max: 100
 
 DONATE_BRACELET_LONG_HOANG:
-  itemsadder-item: "rings_pack:set9_ring_5"
+  itemsadder-item: "rings_pack:ring_2"
   base:
     custom-maxsockets: 5.0
-    revision-id: 2
+    revision-id: 5
     material: PAPER
-    custom-model-data: 19284
+    custom-model-data: 19002
     name: "&c&l★ Vòng Tay Hoàng Long"
     tier: UNIQUE
     set: LONG_HOANG_SET
     lifesteal: 12
     attack-speed: 15
+    unstackable: true
+    enchants:
+      - 'UNBREAKING +1'
+    hide-enchants: true
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
       max: 100
 
 DONATE_BRACELET_LONG_DE:
-  itemsadder-item: "rings_pack:set7_ring_5"
+  itemsadder-item: "rings_pack:ring_7"
   base:
     custom-maxsockets: 5.0
-    revision-id: 2
+    revision-id: 5
     material: PAPER
-    custom-model-data: 19264
+    custom-model-data: 19007
     name: "&4&l◆ Vòng Tay Đế Long"
     tier: UNIQUE
     set: LONG_DE_SET
     cooldown-reduction: 10
     dodge-rating: 12
+    unstackable: true
+    enchants:
+      - 'UNBREAKING +1'
+    hide-enchants: true
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
       max: 100
 
 DONATE_BRACELET_LONG_VE:
-  itemsadder-item: "rings_pack:set1_ring_6"
+  itemsadder-item: "rings_pack:ring_42"
   base:
     custom-maxsockets: 5.0
-    revision-id: 2
+    revision-id: 5
     material: PAPER
-    custom-model-data: 19206
+    custom-model-data: 19042
     name: "&a&l✦ Vòng Tay Hộ Long"
     tier: LEGENDARY
     set: LONG_VE_SET
     lifesteal: 8
     max-health: 150
     defense: 10
+    unstackable: true
+    enchants:
+      - 'UNBREAKING +1'
+    hide-enchants: true
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
       max: 100
 
 FREE_BRACELET_THANH_LONG:
-  itemsadder-item: "rings_pack:ring_6"
+  itemsadder-item: "rings_pack:ring_67"
   base:
     custom-maxsockets: 2.0
-    revision-id: 2
+    revision-id: 5
     material: PAPER
-    custom-model-data: 19006
+    custom-model-data: 19067
     name: "&b&l⚡ Vòng Tay Thanh Long"
     tier: UNIQUE
     set: THANH_LONG_SET
     lifesteal: 10
     physical-damage: 25
+    unstackable: true
+    enchants:
+      - 'UNBREAKING +1'
+    hide-enchants: true
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
       max: 100
 
 FREE_BRACELET_XICH_LONG:
-  itemsadder-item: "rings_pack:ring_9"
+  itemsadder-item: "rings_pack:ring_11"
   base:
     custom-maxsockets: 2.0
-    revision-id: 2
+    revision-id: 5
     material: PAPER
-    custom-model-data: 19009
+    custom-model-data: 19011
     name: "&c&l🔥 Vòng Tay Xích Long"
     tier: UNIQUE
     set: XICH_LONG_SET
     cooldown-reduction: 12
     magic-damage: 35
+    unstackable: true
+    enchants:
+      - 'UNBREAKING +1'
+    hide-enchants: true
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
       max: 100
 
 FREE_BRACELET_KIM_LONG:
-  itemsadder-item: "rings_pack:set11_ring_5"
+  itemsadder-item: "rings_pack:ring_32"
   base:
     custom-maxsockets: 2.0
-    revision-id: 2
+    revision-id: 5
     material: PAPER
-    custom-model-data: 19225
+    custom-model-data: 19032
     name: "&e&l★ Vòng Tay Kim Long"
     tier: UNIQUE
     set: KIM_LONG_SET
     lifesteal: 12
     attack-speed: 15
+    unstackable: true
+    enchants:
+      - 'UNBREAKING +1'
+    hide-enchants: true
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
       max: 100
 
 FREE_BRACELET_THIEN_LONG:
-  itemsadder-item: "rings_pack:set11_ring_4"
+  itemsadder-item: "rings_pack:ring_5"
   base:
     custom-maxsockets: 2.0
-    revision-id: 2
+    revision-id: 5
     material: PAPER
-    custom-model-data: 19224
+    custom-model-data: 19005
     name: "&d&l✦ Vòng Tay Thiên Long"
     tier: UNIQUE
     set: THIEN_LONG_SET
     cooldown-reduction: 10
     dodge-rating: 12
+    unstackable: true
+    enchants:
+      - 'UNBREAKING +1'
+    hide-enchants: true
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
       max: 100
 
 FREE_BRACELET_BAC_LONG:
-  itemsadder-item: "rings_pack:ring_3"
+  itemsadder-item: "rings_pack:ring_66"
   base:
     custom-maxsockets: 2.0
-    revision-id: 2
+    revision-id: 5
     material: PAPER
-    custom-model-data: 19003
+    custom-model-data: 19066
     name: "&f&l✧ Vòng Tay Bạch Long"
     tier: UNIQUE
     set: BAC_LONG_SET
     lifesteal: 8
     max-health: 150
     defense: 10
+    unstackable: true
+    enchants:
+      - 'UNBREAKING +1'
+    hide-enchants: true
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template

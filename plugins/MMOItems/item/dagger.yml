@@ -35,7 +35,7 @@ GACHA_DAGGER_RUNIC_PIERCER:
   itemsadder-item: "fantasy_weapons:runic_piercer"
   base:
     custom-maxsockets: 7.0
-    revision-id: 1
+    revision-id: 2
     material: IRON_SWORD
     custom-model-data: 10024
     name: "&e&lPhù Văn Trâm Kiếm"
@@ -50,7 +50,6 @@ GACHA_DAGGER_RUNIC_PIERCER:
     attack-damage: 43.5
     attack-speed: 2.0
     critical-strike-chance: 26.0
-    armor-penetration: 15.0
     movement-speed: 0.02
     upgrade:
       template: weapon-upgrade-template
