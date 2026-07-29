@@ -1,5 +1,7 @@
 # Plan: Server Minecraft RPG tích hợp Prison (Prison-RPG lai)
 
+> **Lối chơi người chơi (journey + gap roadmap + lớp chống nhàm):** xem [`loi-choi.md`](loi-choi.md). Mục lục toàn bộ docs: [`INDEX.md`](INDEX.md). File này giữ vai trò roadmap kỹ thuật / phase triển khai plugin.
+
 ## Context
 
 Server Paper 1.19.4-550 tại `D:\server-minecraft` hiện đã cài rất nhiều plugin RPG/tiện ích (MMOCore, MMOItems, MythicMobs, ModelEngine, ItemsAdder, RPGInventory, LuckPerms, Vault, EssentialsX, Multiverse-Core/Inventories, WorldGuard+FastAsyncWorldEdit, PlayerPoints, ExcellentCrates, PlaceholderAPI, DeluxeMenus, TAB, DecentHolograms, Vulcan, Skript, SCore/nightcore, BattlePass, Citizens, LibsDisguises, PlayerVaults, v.v.) nhưng qua khảo sát trực tiếp, **gần như toàn bộ đang ở trạng thái mặc định**:

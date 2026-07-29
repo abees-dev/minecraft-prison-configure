@@ -1,5 +1,7 @@
 # ⚖️ QUY CHUẨN CÂN BẰNG CHỈ SỐ (STAT BALANCING STANDARD)
 
+> Lối chơi: [`docs/loi-choi.md`](docs/loi-choi.md) · Trần donate/gacha: [`docs/STAT_BALANCING_GUIDE.md`](docs/STAT_BALANCING_GUIDE.md) · Mục lục: [`docs/INDEX.md`](docs/INDEX.md)
+
 Tài liệu này quy định tiêu chuẩn cân bằng chỉ số cho hệ thống Vật Phẩm (MMOItems), Trang Bị, Kỹ Năng (MMOCore Skills), Ngọc Khảm (Gem Stones) và Ô Khảm (Gem Sockets) cho server.
 
 ---

@@ -2,6 +2,7 @@
 LONG_VUONG_RING_1:
   itemsadder-item: "rings_pack:ring_34"
   base:
+    lore-format: jewelry-lore
     custom-maxsockets: 3.0
     revision-id: 2
     material: PAPER
@@ -22,6 +23,7 @@ LONG_VUONG_RING_1:
 LONG_VUONG_RING_2:
   itemsadder-item: "rings_pack:ring_105"
   base:
+    lore-format: jewelry-lore
     custom-maxsockets: 3.0
     revision-id: 2
     material: PAPER
@@ -42,6 +44,7 @@ LONG_VUONG_RING_2:
 BANG_TINH_RING_1:
   itemsadder-item: "rings_pack:ring_96"
   base:
+    lore-format: jewelry-lore
     custom-maxsockets: 3.0
     revision-id: 2
     material: PAPER
@@ -62,6 +65,7 @@ BANG_TINH_RING_1:
 BANG_TINH_RING_2:
   itemsadder-item: "rings_pack:ring_87"
   base:
+    lore-format: jewelry-lore
     custom-maxsockets: 3.0
     revision-id: 2
     material: PAPER
@@ -82,6 +86,7 @@ BANG_TINH_RING_2:
 HAC_AM_RING_1:
   itemsadder-item: "rings_pack:ring_65"
   base:
+    lore-format: jewelry-lore
     custom-maxsockets: 3.0
     revision-id: 2
     material: PAPER
@@ -102,6 +107,7 @@ HAC_AM_RING_1:
 HAC_AM_RING_2:
   itemsadder-item: "rings_pack:ring_74"
   base:
+    lore-format: jewelry-lore
     custom-maxsockets: 3.0
     revision-id: 2
     material: PAPER
@@ -122,6 +128,7 @@ HAC_AM_RING_2:
 LOI_THAN_RING_1:
   itemsadder-item: "rings_pack:ring_104"
   base:
+    lore-format: jewelry-lore
     custom-maxsockets: 3.0
     revision-id: 2
     material: PAPER
@@ -142,6 +149,7 @@ LOI_THAN_RING_1:
 LOI_THAN_RING_2:
   itemsadder-item: "rings_pack:ring_21"
   base:
+    lore-format: jewelry-lore
     custom-maxsockets: 3.0
     revision-id: 2
     material: PAPER
@@ -162,6 +170,7 @@ LOI_THAN_RING_2:
 HOANG_GIA_RING_1:
   itemsadder-item: "rings_pack:ring_22"
   base:
+    lore-format: jewelry-lore
     custom-maxsockets: 3.0
     revision-id: 2
     material: PAPER
@@ -182,6 +191,7 @@ HOANG_GIA_RING_1:
 HOANG_GIA_RING_2:
   itemsadder-item: "rings_pack:ring_72"
   base:
+    lore-format: jewelry-lore
     custom-maxsockets: 3.0
     revision-id: 2
     material: PAPER
@@ -203,6 +213,7 @@ HOANG_GIA_RING_2:
 LONG_VUONG_AMULET:
   itemsadder-item: "rings_pack:set1_necklace_3"
   base:
+    lore-format: jewelry-lore
     custom-maxsockets: 3.0
     revision-id: 2
     material: PAPER
@@ -223,6 +234,7 @@ LONG_VUONG_AMULET:
 BANG_TINH_AMULET:
   itemsadder-item: "rings_pack:set10_necklace_4"
   base:
+    lore-format: jewelry-lore
     custom-maxsockets: 3.0
     revision-id: 2
     material: PAPER
@@ -243,6 +255,7 @@ BANG_TINH_AMULET:
 HAC_AM_AMULET:
   itemsadder-item: "rings_pack:set7_necklace_4"
   base:
+    lore-format: jewelry-lore
     custom-maxsockets: 3.0
     revision-id: 2
     material: PAPER
@@ -263,6 +276,7 @@ HAC_AM_AMULET:
 LOI_THAN_AMULET:
   itemsadder-item: "rings_pack:set3_necklace_5"
   base:
+    lore-format: jewelry-lore
     custom-maxsockets: 3.0
     revision-id: 2
     material: PAPER
@@ -283,6 +297,7 @@ LOI_THAN_AMULET:
 HOANG_GIA_AMULET:
   itemsadder-item: "rings_pack:set8_necklace_5"
   base:
+    lore-format: jewelry-lore
     custom-maxsockets: 3.0
     revision-id: 2
     material: PAPER
@@ -304,6 +319,7 @@ HOANG_GIA_AMULET:
 LONG_VUONG_BRACELET:
   itemsadder-item: "rings_pack:ring_6"
   base:
+    lore-format: jewelry-lore
     custom-maxsockets: 3.0
     revision-id: 2
     material: PAPER
@@ -324,6 +340,7 @@ LONG_VUONG_BRACELET:
 BANG_TINH_BRACELET:
   itemsadder-item: "rings_pack:ring_83"
   base:
+    lore-format: jewelry-lore
     custom-maxsockets: 3.0
     revision-id: 2
     material: PAPER
@@ -344,6 +361,7 @@ BANG_TINH_BRACELET:
 HAC_AM_BRACELET:
   itemsadder-item: "rings_pack:ring_41"
   base:
+    lore-format: jewelry-lore
     custom-maxsockets: 3.0
     revision-id: 2
     material: PAPER
@@ -364,6 +382,7 @@ HAC_AM_BRACELET:
 LOI_THAN_BRACELET:
   itemsadder-item: "rings_pack:ring_45"
   base:
+    lore-format: jewelry-lore
     custom-maxsockets: 3.0
     revision-id: 2
     material: PAPER
@@ -384,6 +403,7 @@ LOI_THAN_BRACELET:
 HOANG_GIA_BRACELET:
   itemsadder-item: "rings_pack:ring_48"
   base:
+    lore-format: jewelry-lore
     custom-maxsockets: 3.0
     revision-id: 2
     material: PAPER
@@ -405,6 +425,7 @@ HOANG_GIA_BRACELET:
 LONG_VUONG_GLOVES:
   itemsadder-item: "rings_pack:glove_39"
   base:
+    lore-format: jewelry-lore
     custom-maxsockets: 3.0
     revision-id: 2
     material: PAPER
@@ -425,6 +446,7 @@ LONG_VUONG_GLOVES:
 BANG_TINH_GLOVES:
   itemsadder-item: "rings_pack:glove_81"
   base:
+    lore-format: jewelry-lore
     custom-maxsockets: 3.0
     revision-id: 2
     material: PAPER
@@ -445,6 +467,7 @@ BANG_TINH_GLOVES:
 HAC_AM_GLOVES:
   itemsadder-item: "rings_pack:glove_57"
   base:
+    lore-format: jewelry-lore
     custom-maxsockets: 3.0
     revision-id: 2
     material: PAPER
@@ -464,6 +487,7 @@ HAC_AM_GLOVES:
 LOI_THAN_GLOVES:
   itemsadder-item: "rings_pack:glove_102"
   base:
+    lore-format: jewelry-lore
     custom-maxsockets: 3.0
     revision-id: 2
     material: PAPER
@@ -484,6 +508,7 @@ LOI_THAN_GLOVES:
 HOANG_GIA_GLOVES:
   itemsadder-item: "rings_pack:glove_98"
   base:
+    lore-format: jewelry-lore
     custom-maxsockets: 3.0
     revision-id: 2
     material: PAPER

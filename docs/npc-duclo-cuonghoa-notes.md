@@ -1,5 +1,7 @@
 # Note: NPC Đục Lỗ & Cường Hóa (Citizens)
 
+> Lối chơi mid (build combat): [`loi-choi.md`](loi-choi.md) §3.3 · Mục lục: [`INDEX.md`](INDEX.md)
+
 Ghi lại lệnh tạo NPC dẫn tới 2 hệ thống Skript đã có sẵn: `plugins/Skript/scripts/duclo/` (lệnh `/duclo`) và `plugins/Skript/scripts/cuonghoa/` (lệnh `/cuonghoa`). NPC chỉ đơn giản chạy lệnh tương ứng khi player click.
 
 ## Lệnh tạo NPC
@@ -8,7 +10,7 @@ Ghi lại lệnh tạo NPC dẫn tới 2 hệ thống Skript đã có sẵn: `pl
 
 **NPC Đục Lỗ:**
 ```
-/npc create &b&lĐỤC LỖ TRANG BỊ --type player
+/npc create &b&l◆ Đục Lỗ --type player
 /npc skin <ten_skin_hoac_player>
 /npc command add -p --hand RIGHT duclo
 /trait lookclose
@@ -16,7 +18,7 @@ Ghi lại lệnh tạo NPC dẫn tới 2 hệ thống Skript đã có sẵn: `pl
 
 **NPC Cường Hóa:**
 ```
-/npc create &c&lCƯỜNG HÓA TRANG BỊ --type player
+/npc create &c&l⚡ Cường Hóa --type player
 /npc skin <ten_skin_hoac_player>
 /npc command add -p --hand RIGHT cuonghoa
 /trait lookclose
@@ -32,10 +34,10 @@ Mặc định tag tên Citizens bám sát đầu model (dễ bị dính/che vào
 
 ```
 /npc hidename
-/npc hologram add &c&lCƯỜNG HÓA TRANG BỊ
+/npc hologram add &c&l⚡ Cường Hóa
 ```
 
-(Với NPC Đục Lỗ thì thay đúng text đã đặt tên ở bước tạo, ví dụ `&b&lĐỤC LỖ TRANG BỊ`.)
+(Với NPC Đục Lỗ thì thay đúng text đã đặt tên ở bước tạo, ví dụ `&b&l◆ Đục Lỗ`.)
 
 Lưu ý quan trọng: `/npc hologram add` cần **text tên thật** (đúng màu/format đã dùng khi tạo NPC), không phải placeholder `name` chung chung — dùng literal `name` sẽ chỉ hiện chữ "name".
 

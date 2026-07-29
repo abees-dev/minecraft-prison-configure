@@ -1,8 +1,10 @@
-# Lore format riêng cho giáp (có khoảng trắng break line động & tiêu đề động).
-# Gán vào item bằng: lore-format: armor-lore
+# Lore format — Giáp
+# Quy tắc {bar}: KHÔNG đặt 2 dòng {bar} liền nhau (dòng trên sẽ bị xóa).
+# Blank + tiêu đề gộp trong 1 {bar} bằng \n để giữ khoảng cách động giữa các section.
+# Gán: lore-format: armor-lore
 lore-format:
-  # ==================== Yêu Cầu & Khóa Hồn ====================
-  - "{bar}"
+  # ==================== Yêu Cầu ====================
+  - "{bar}&r \n&8&m┄┄┄┄┄┄┄&r &7&l❖ YÊU CẦU &8&m┄┄┄┄┄┄┄"
   - "#required-class#"
   - "#required-level#"
   - "#required-dexterity#"
@@ -10,9 +12,8 @@ lore-format:
   - "#required-intelligence#"
   - "#soulbound#"
 
-  # ==================== Chỉ Số Phòng Thủ & Giáp ====================
-  - "{bar}&f"
-  - "{bar}&8&m-----------&r &b&l🛡 CHỈ SỐ GIÁP &8&m-----------"
+  # ==================== Chỉ Số Giáp ====================
+  - "{bar}&r \n&8&m┄┄┄┄┄┄&r &b&l🛡 CHỈ SỐ GIÁP &8&m┄┄┄┄┄┄"
   - "#armor#"
   - "#armor-toughness#"
   - "#max-health#"
@@ -34,9 +35,8 @@ lore-format:
   - "#dodge-cooldown-reduction#"
   - "#parry-cooldown-reduction#"
 
-  # ==================== Hồi Phục & Thuộc Tính RPG ====================
-  - "{bar}&f"
-  - "{bar}&8&m-------&r &e&l✨ THUỘC TÍNH & HỒI PHỤC &8&m-------"
+  # ==================== Thuộc Tính & Hồi Phục ====================
+  - "{bar}&r \n&8&m┄┄┄┄&r &e&l✨ THUỘC TÍNH & HỒI PHỤC &8&m┄┄┄┄"
   - "#health-regeneration#"
   - "#max-mana#"
   - "#mana-regeneration#"
@@ -48,32 +48,28 @@ lore-format:
   - "#additional-strength#"
   - "#additional-intelligence#"
 
-  # ==================== Phù Phép & Nguyên Tố ====================
-  - "{bar}&f"
-  - "{bar}"
+  # ==================== Nguyên Tố & Hiệu Ứng ====================
+  - "{bar}&r \n&8&m┄┄┄┄┄&r &2&l☄ NGUYÊN TỐ & HIỆU ỨNG &8&m┄┄┄┄┄"
   - "#elements#"
   - "#effects#"
 
   # ==================== Kỹ Năng ====================
-  - "{bar}&f"
-  - "{bar}&8&m-------&r &a&l⚡ KỸ NĂNG ĐẶC BIỆT &8&m-------"
+  - "{bar}&r \n&8&m┄┄┄┄┄&r &a&l⚡ KỸ NĂNG ĐẶC BIỆT &8&m┄┄┄┄┄"
   - "#abilities#"
-  - "{bar}"
 
   # ==================== Đá Quý ====================
-  - "{bar}&f"
-  - "{bar}&8&m-------&r &d&l🔮 Ô KHẢM ĐÁ QUÝ &8&m-------"
+  - "{bar}&r \n&8&m┄┄┄┄┄&r &d&l🔮 Ô KHẢM ĐÁ QUÝ &8&m┄┄┄┄┄"
   - "#custom-maxsockets#"
   - "#gem-stones#"
   - "#gem-stone-lore#"
 
-  # ==================== Mô Tả & Thông Tin Vật Phẩm ====================
-  - "{bar}&f"
-  - "{bar}"
+  # ==================== Mô Tả ====================
+  - "{bar}&r \n&8&m┄┄┄┄┄┄┄&r &f&l✦ MÔ TẢ &8&m┄┄┄┄┄┄┄"
   - "#lore#"
-  - "{bar}&f"
   - "#set#"
-  - "{sbar}&8&m---------------------------------"
+
+  # ==================== Footer ====================
+  - "{sbar}&8&m┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄"
   - "#tier#"
   - "#durability#"
   - "#item-type#"

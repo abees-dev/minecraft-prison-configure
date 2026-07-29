@@ -1,0 +1,64 @@
+# Mục lục tài liệu server (docs)
+
+Cập nhật: 2026-07-29.
+
+Đọc **lối chơi trước**, rồi mới docs vận hành/kỹ thuật theo từng hệ.
+
+---
+
+## Nguồn chuẩn (đọc trước)
+
+| File | Vai trò |
+| --- | --- |
+| [`loi-choi.md`](loi-choi.md) | **Lối chơi người chơi** — journey, 2 trục đào/chiến, endgame, lớp chống nhàm, roadmap gap P0–P2 |
+| [`prison-rpg-plan.md`](prison-rpg-plan.md) | Roadmap kỹ thuật / phase plugin (lịch sử dựng server) |
+| [`../DOCS_HE_THONG_PRISON.md`](../DOCS_HE_THONG_PRISON.md) | Sell multipliers EconomyShopGUI + VIP + trạng thái X-Prison enchants |
+| [`../STAT_BALANCING_STANDARD.md`](../STAT_BALANCING_STANDARD.md) | Quy chuẩn cân bằng chỉ số F2P (vũ khí/giáp/ngọc/skill) |
+
+---
+
+## Prison / kinh tế / cuốc
+
+| File | Vai trò |
+| --- | --- |
+| [`xprison-config-notes.md`](xprison-config-notes.md) | Ghi chú chuyển Prison → X-Prison, modules, việc in-game |
+| [`pickaxe-upgrade-notes.md`](pickaxe-upgrade-notes.md) | Bảng số cuốc + tỷ lệ forge (NPC station = chuẩn UX) |
+| [`README.md`](README.md) | Ops MMOItems: lệnh give, NPC trạm tinh luyện/rèn, tỷ lệ nâng cấp |
+
+---
+
+## Combat / dungeon / boss
+
+| File | Vai trò |
+| --- | --- |
+| [`SPAWNER_LIST.md`](SPAWNER_LIST.md) | Danh sách spawner theo rank + trạng thái tọa độ |
+| [`SPAWNER_POSITION_GUIDE.md`](SPAWNER_POSITION_GUIDE.md) | Cách set vị trí spawner |
+| [`HUONG_DAN_DROPS_VA_EXP_NHATU.md`](HUONG_DAN_DROPS_VA_EXP_NHATU.md) | Drop & EXP nhà tù |
+| [`HUONG_DAN_GAN_SKIN_DISGUISE_CHO_MOB.md`](HUONG_DAN_GAN_SKIN_DISGUISE_CHO_MOB.md) | Skin/disguise MythicMobs |
+| [`npc-huy-hieu-trieu-hoi-notes.md`](npc-huy-hieu-trieu-hoi-notes.md) | NPC chế Huy Hiệu → Ma Vương |
+| [`USED_SKINS_DOCS.md`](USED_SKINS_DOCS.md) | Skin đã dùng |
+
+---
+
+## Trang bị / craft / NPC
+
+| File | Vai trò |
+| --- | --- |
+| [`npc-duclo-cuonghoa-notes.md`](npc-duclo-cuonghoa-notes.md) | NPC Đục lỗ & Cường hóa |
+| [`npc-equipment-upgrade-station-notes.md`](npc-equipment-upgrade-station-notes.md) | Trạm đá cường hóa |
+| [`npc-trade-donate-stations-notes.md`](npc-trade-donate-stations-notes.md) | Trade / donate Long Tộc |
+| [`ITEM_CLASSIFICATION_GUIDE.md`](ITEM_CLASSIFICATION_GUIDE.md) | Phân loại item |
+| [`STAT_ABBREVIATIONS.md`](STAT_ABBREVIATIONS.md) | Viết tắt chỉ số trên lore |
+| [`STAT_BALANCING_GUIDE.md`](STAT_BALANCING_GUIDE.md) | Trần chỉ số item donate / gacha (Non-P2W) |
+
+---
+
+## Quy ước nguồn sự thật
+
+1. **Lối chơi / ưu tiên làm gì:** `loi-choi.md`
+2. **Sell & multiplier:** `DOCS_HE_THONG_PRISON.md` + EconomyShopGUI config (không phải X-Prison autosell)
+3. **Chỉ số F2P:** `STAT_BALANCING_STANDARD.md`
+4. **Trần donate:** `STAT_BALANCING_GUIDE.md`
+5. **Stack prison sống:** **X-Prison** — `plugins/Prison/` là legacy, không phải lối chơi
+
+Khi docs mâu thuẫn config sống, **sửa docs** (hoặc ghi rõ “deprecated”) — không để ops làm theo số liệu cũ.

@@ -1,5 +1,7 @@
 # 📘 HƯỚNG DẪN VẬN HÀNH HỆ THỐNG TINH LUYỆN & NÂNG CẤP CÚP (MMOITEMS 9 RANK)
 
+> Lối chơi tổng: [`loi-choi.md`](loi-choi.md) · Mục lục docs: [`INDEX.md`](INDEX.md) · Bảng số cuốc: [`pickaxe-upgrade-notes.md`](pickaxe-upgrade-notes.md)
+
 Tài liệu hướng dẫn chi tiết cấu trúc item, trạm rèn, tỷ lệ xịt/thành công, công thức cấp số nhân và cách gán NPC cho hệ thống Prison.
 
 ---
@@ -48,7 +50,7 @@ Hệ thống được tách thành 3 loại NPC cho mỗi Rank để người ch
 ### 🤖 A. Hướng Dẫn Tạo & Lệnh Quản Lý NPC (Citizens & CommandNPC)
 
 #### 1. Tạo & Cài Đặt NPC:
-* **Tạo NPC mới**: `/npc create <Tên NPC> --type PLAYER` (Ví dụ: `/npc create &f&lTINH LUYỆN &8• &f&lTÂN BINH --type PLAYER`)
+* **Tạo NPC mới**: `/npc create <Tên NPC> --type PLAYER` (Ví dụ: `/npc create &f&l✦ Luyện Tân Binh --type PLAYER`)
 * **Đổi skin cho NPC**: `/npc skin <tên_player_hoặc_skin>`
   * *Skin Tinh Luyện (Merchant/Quản đốc)*: `Merchant`, `Alchemist`, `Worker`, `Trader`
   * *Skin Lò Rèn Cúp (Thợ Đào Mỏ)*: `Miner`, `Dwarf`, `Diggy`, `Blacksmith`
@@ -84,17 +86,17 @@ Hệ thống được tách thành 3 loại NPC cho mỗi Rank để người ch
 #### ⚪ Rank 1: Tân Binh (Rookie)
 ```bash
 # 1. Trạm Tinh Luyện
-/npc create &f&lTINH LUYỆN &8• &f&lTÂN BINH --type PLAYER
+/npc create &f&l✦ Luyện Tân Binh --type PLAYER
 /npc skin Merchant
 /npc cmd add mi stations open refinery-rookie <p>
 
 # 2. Lò Rèn Cúp
-/npc create &f&lLÒ RÈN CÚP &8• &f&lTÂN BINH --type PLAYER
+/npc create &f&l⚔ Rèn Tân Binh --type PLAYER
 /npc skin Steve
 /npc cmd add mi stations open forge-rookie <p>
 
 # 3. Lò Rèn Giáp
-/npc create &f&lLÒ RÈN GIÁP &8• &f&lTÂN BINH --type PLAYER
+/npc create &f&l◆ Giáp Tân Binh --type PLAYER
 /npc skin Guard
 /npc cmd add mi stations open armor-forge-rookie <p>
 ```
@@ -102,17 +104,17 @@ Hệ thống được tách thành 3 loại NPC cho mỗi Rank để người ch
 #### 🟢 Rank 2: Tù Nhân (Prisoner)
 ```bash
 # 1. Trạm Tinh Luyện
-/npc create &a&lTINH LUYỆN &8• &a&lTÙ NHÂN --type PLAYER
+/npc create &a&l✦ Luyện Tù Nhân --type PLAYER
 /npc skin Trader
 /npc cmd add mi stations open refinery-prisoner <p>
 
 # 2. Lò Rèn Cúp
-/npc create &a&lLÒ RÈN CÚP &8• &a&lTÙ NHÂN --type PLAYER
+/npc create &a&l⚔ Rèn Tù Nhân --type PLAYER
 /npc skin Miner
 /npc cmd add mi stations open forge-prisoner <p>
 
 # 3. Lò Rèn Giáp
-/npc create &a&lLÒ RÈN GIÁP &8• &a&lTÙ NHÂN --type PLAYER
+/npc create &a&l◆ Giáp Tù Nhân --type PLAYER
 /npc skin Knight
 /npc cmd add mi stations open armor-forge-prisoner <p>
 ```
@@ -120,17 +122,17 @@ Hệ thống được tách thành 3 loại NPC cho mỗi Rank để người ch
 #### 🔵 Rank 3: Lao Công (Worker)
 ```bash
 # 1. Trạm Tinh Luyện
-/npc create &b&lTINH LUYỆN &8• &b&lLAO CÔNG --type PLAYER
+/npc create &b&l✦ Luyện Lao Công --type PLAYER
 /npc skin Alchemist
 /npc cmd add mi stations open refinery-worker <p>
 
 # 2. Lò Rèn Cúp
-/npc create &b&lLÒ RÈN CÚP &8• &b&lLAO CÔNG --type PLAYER
+/npc create &b&l⚔ Rèn Lao Công --type PLAYER
 /npc skin Dwarf
 /npc cmd add mi stations open forge-worker <p>
 
 # 3. Lò Rèn Giáp
-/npc create &b&lLÒ RÈN GIÁP &8• &b&lLAO CÔNG --type PLAYER
+/npc create &b&l◆ Giáp Lao Công --type PLAYER
 /npc skin Captain
 /npc cmd add mi stations open armor-forge-worker <p>
 ```
@@ -138,17 +140,17 @@ Hệ thống được tách thành 3 loại NPC cho mỗi Rank để người ch
 #### 🟡 Rank 4: Thợ Đào (Miner)
 ```bash
 # 1. Trạm Tinh Luyện
-/npc create &e&lTINH LUYỆN &8• &e&lTHỢ ĐÀO --type PLAYER
+/npc create &e&l✦ Luyện Thợ Đào --type PLAYER
 /npc skin Merchant
 /npc cmd add mi stations open refinery-miner <p>
 
 # 2. Lò Rèn Cúp
-/npc create &e&lLÒ RÈN CÚP &8• &e&lTHỢ ĐÀO --type PLAYER
+/npc create &e&l⚔ Rèn Thợ Đào --type PLAYER
 /npc skin Miner
 /npc cmd add mi stations open forge-miner <p>
 
 # 3. Lò Rèn Giáp
-/npc create &e&lLÒ RÈN GIÁP &8• &e&lTHỢ ĐÀO --type PLAYER
+/npc create &e&l◆ Giáp Thợ Đào --type PLAYER
 /npc skin Knight
 /npc cmd add mi stations open armor-forge-miner <p>
 ```
@@ -156,17 +158,17 @@ Hệ thống được tách thành 3 loại NPC cho mỗi Rank để người ch
 #### 🟠 Rank 5: Đội Trưởng (Captain)
 ```bash
 # 1. Trạm Tinh Luyện
-/npc create &6&lTINH LUYỆN &8• &6&lĐỘI TRƯỜNG --type PLAYER
+/npc create &6&l✦ Luyện Đội Trưởng --type PLAYER
 /npc skin Trader
 /npc cmd add mi stations open refinery-captain <p>
 
 # 2. Lò Rèn Cúp
-/npc create &6&lLÒ RÈN CÚP &8• &6&lĐỘI TRƯỜNG --type PLAYER
+/npc create &6&l⚔ Rèn Đội Trưởng --type PLAYER
 /npc skin Blacksmith
 /npc cmd add mi stations open forge-captain <p>
 
 # 3. Lò Rèn Giáp
-/npc create &6&lLÒ RÈN GIÁP &8• &6&lĐỘI TRƯỜNG --type PLAYER
+/npc create &6&l◆ Giáp Đội Trưởng --type PLAYER
 /npc skin Captain
 /npc cmd add mi stations open armor-forge-captain <p>
 ```
@@ -174,17 +176,17 @@ Hệ thống được tách thành 3 loại NPC cho mỗi Rank để người ch
 #### 🔴 Rank 6: Phó Quản Ngục (Vice Warden)
 ```bash
 # 1. Trạm Tinh Luyện
-/npc create &c&lTINH LUYỆN &8• &c&lPHÓ QUẢN NGỤC --type PLAYER
+/npc create &c&l✦ Luyện Phó Quản Ngục --type PLAYER
 /npc skin Alchemist
 /npc cmd add mi stations open refinery-vice-warden <p>
 
 # 2. Lò Rèn Cúp
-/npc create &c&lLÒ RÈN CÚP &8• &c&lPHÓ QUẢN NGỤC --type PLAYER
+/npc create &c&l⚔ Rèn Phó Quản Ngục --type PLAYER
 /npc skin Dwarf
 /npc cmd add mi stations open forge-vice-warden <p>
 
 # 3. Lò Rèn Giáp
-/npc create &c&lLÒ RÈN GIÁP &8• &c&lPHÓ QUẢN NGỤC --type PLAYER
+/npc create &c&l◆ Giáp Phó Quản Ngục --type PLAYER
 /npc skin Guard
 /npc cmd add mi stations open armor-forge-vice-warden <p>
 ```
@@ -192,17 +194,17 @@ Hệ thống được tách thành 3 loại NPC cho mỗi Rank để người ch
 #### 🟣 Rank 7: Quản Ngục (Warden)
 ```bash
 # 1. Trạm Tinh Luyện
-/npc create &d&lTINH LUYỆN &8• &d&lQUẢN NGỤC --type PLAYER
+/npc create &d&l✦ Luyện Quản Ngục --type PLAYER
 /npc skin King
 /npc cmd add mi stations open refinery-warden <p>
 
 # 2. Lò Rèn Cúp
-/npc create &d&lLÒ RÈN CÚP &8• &d&lQUẢN NGỤC --type PLAYER
+/npc create &d&l⚔ Rèn Quản Ngục --type PLAYER
 /npc skin Blacksmith
 /npc cmd add mi stations open forge-warden <p>
 
 # 3. Lò Rèn Giáp
-/npc create &d&lLÒ RÈN GIÁP &8• &d&lQUẢN NGỤC --type PLAYER
+/npc create &d&l◆ Giáp Quản Ngục --type PLAYER
 /npc skin Warden
 /npc cmd add mi stations open armor-forge-warden <p>
 ```
@@ -210,17 +212,17 @@ Hệ thống được tách thành 3 loại NPC cho mỗi Rank để người ch
 #### 🔮 Rank 8: Bá Chủ Ngục Tù (Overlord)
 ```bash
 # 1. Trạm Tinh Luyện
-/npc create &5&lTINH LUYỆN &8• &5&lBÁ CHỦ --type PLAYER
+/npc create &5&l✦ Luyện Bá Chủ --type PLAYER
 /npc skin King
 /npc cmd add mi stations open refinery-overlord <p>
 
 # 2. Lò Rèn Cúp
-/npc create &5&lLÒ RÈN CÚP &8• &5&lBÁ CHỦ --type PLAYER
+/npc create &5&l⚔ Rèn Bá Chủ --type PLAYER
 /npc skin Miner
 /npc cmd add mi stations open forge-overlord <p>
 
 # 3. Lò Rèn Giáp
-/npc create &5&lLÒ RÈN GIÁP &8• &5&lBÁ CHỦ --type PLAYER
+/npc create &5&l◆ Giáp Bá Chủ --type PLAYER
 /npc skin Warden
 /npc cmd add mi stations open armor-forge-overlord <p>
 ```
@@ -228,17 +230,17 @@ Hệ thống được tách thành 3 loại NPC cho mỗi Rank để người ch
 #### 🔥 Rank 9: Vượt Ngục (Jailbreak)
 ```bash
 # 1. Trạm Tinh Luyện
-/npc create &4&lTINH LUYỆN &8• &4&lVƯỢT NGỤC --type PLAYER
+/npc create &4&l✦ Luyện Vượt Ngục --type PLAYER
 /npc skin Merchant
 /npc cmd add mi stations open refinery-jailbreak <p>
 
 # 2. Lò Rèn Cúp
-/npc create &4&lLÒ RÈN CÚP &8• &4&lVƯỢT NGỤC --type PLAYER
+/npc create &4&l⚔ Rèn Vượt Ngục --type PLAYER
 /npc skin Blacksmith
 /npc cmd add mi stations open forge-jailbreak <p>
 
 # 3. Lò Rèn Giáp
-/npc create &4&lLÒ RÈN GIÁP &8• &4&lVƯỢT NGỤC --type PLAYER
+/npc create &4&l◆ Giáp Vượt Ngục --type PLAYER
 /npc skin Knight
 /npc cmd add mi stations open armor-forge-jailbreak <p>
 ```

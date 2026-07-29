@@ -1,5 +1,7 @@
 # X-Prison — Ghi chú cấu hình (chuyển từ plugin Prison cũ)
 
+> **Trạng thái design (2026-07-29):** lối chơi chuẩn xem [`loi-choi.md`](loi-choi.md). Bán quặng = **EconomyShopGUI** `/sellgui`. Trong `plugins/X-Prison/config.yml` hiện `enchants: false`, `autosell: false` (khớp design — không dùng Nuke/Layer làm core). Player-facing endgame = **Prestige** + **Chuyển Sinh** (`/chuyensinh`); không quảng bá X-Prison Rebirths cho người chơi. Mục lục docs: [`INDEX.md`](INDEX.md).
+
 Ghi lại việc đổi plugin Prison (Blue/rockindeveloper) sang **X-Prison** và toàn bộ cấu hình đã dựng lại từ đầu, tính tới 2026-07-22. Bổ sung cho `prison-rpg-plan.md` (mô tả hành trình dựng plugin Prison cũ) — các phần rank/mine kỹ thuật trong file đó (ID `cobblestone`/`coal`/... , `/mines`, `/ranks` của Prison cũ) **không còn áp dụng** kể từ khi đổi sang X-Prison, nhưng phần MMOItems (cuốc/giáp/crafting-station theo rank Tân Binh → Vượt Ngục trong `pickaxe-upgrade-notes.md`) vẫn giữ nguyên và dùng chung với X-Prison vì không phụ thuộc plugin Prison nào cả.
 
 ## Bối cảnh & quyết định phạm vi

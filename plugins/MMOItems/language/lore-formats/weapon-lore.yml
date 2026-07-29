@@ -1,35 +1,86 @@
-# Lore format riêng cho vũ khí (Kiếm, Rìu Chiến, Trượng Phép, Dao Găm).
-# Gán vào item bằng: lore-format: weapon-lore
+# Lore format — Vũ khí (Kiếm, Rìu, Trượng, Dao Găm, ...)
+# Quy tắc {bar}: KHÔNG đặt 2 dòng {bar} liền nhau.
+# Gán: lore-format: weapon-lore
 lore-format:
-  - "{bar}&8&m----------------------------"
-  - "&c&l⚔ Chỉ Số Tấn Công"
+  # ==================== Yêu Cầu ====================
+  - "{bar}&r \n&8&m┄┄┄┄┄┄┄&r &7&l❖ YÊU CẦU &8&m┄┄┄┄┄┄┄"
+  - "#required-class#"
+  - "#required-level#"
+  - "#required-dexterity#"
+  - "#required-strength#"
+  - "#required-intelligence#"
+  - "#soulbound#"
+
+  # ==================== Chỉ Số Tấn Công ====================
+  - "{bar}&r \n&8&m┄┄┄┄┄&r &c&l⚔ CHỈ SỐ TẤN CÔNG &8&m┄┄┄┄┄"
   - "#attack-damage#"
   - "#attack-speed#"
   - "#critical-strike-chance#"
   - "#critical-strike-power#"
-  - "#magic-damage#"
+  - "#skill-critical-strike-chance#"
+  - "#skill-critical-strike-power#"
+  - "#range#"
+  - "#arrow-velocity#"
+  - "#blunt-power#"
+  - "#blunt-rating#"
+  - "#knockback#"
+  - "#recoil#"
+  - "#note-weight#"
   - "#lifesteal#"
   - "#spell-vampirism#"
-  - "#knockback#"
   - "#two-handed#"
+  - "#handworn#"
   - "#mana-cost#"
   - "#stamina-cost#"
+
+  # ==================== Sát Thương Bổ Sung ====================
+  - "{bar}&r \n&8&m┄┄┄┄┄&r &6&l💥 SÁT THƯƠNG BỔ SUNG &8&m┄┄┄┄┄"
+  - "#weapon-damage#"
+  - "#magic-damage#"
+  - "#skill-damage#"
+  - "#physical-damage#"
+  - "#projectile-damage#"
+  - "#pve-damage#"
+  - "#pvp-damage#"
+  - "#undead-damage#"
+  - "#faction-damage-undead#"
+
+  # ==================== Thuộc Tính ====================
+  - "{bar}&r \n&8&m┄┄┄┄┄┄&r &e&l✨ THUỘC TÍNH &8&m┄┄┄┄┄┄"
+  - "#max-health#"
+  - "#max-mana#"
+  - "#max-stamina#"
+  - "#health-regeneration#"
+  - "#mana-regeneration#"
+  - "#stamina-regeneration#"
+  - "#movement-speed#"
+  - "#cooldown-reduction#"
+  - "#additional-dexterity#"
   - "#additional-strength#"
   - "#additional-intelligence#"
-  - "{bar}&f"
-  - "{bar}&8&m-------&r &6&l⚡ KỸ NĂNG VŨ KHÍ &8&m-------"
+
+  # ==================== Nguyên Tố & Hiệu Ứng ====================
+  - "{bar}&r \n&8&m┄┄┄┄┄&r &2&l☄ NGUYÊN TỐ & HIỆU ỨNG &8&m┄┄┄┄┄"
+  - "#elements#"
+  - "#effects#"
+
+  # ==================== Kỹ Năng ====================
+  - "{bar}&r \n&8&m┄┄┄┄┄&r &a&l⚡ KỸ NĂNG VŨ KHÍ &8&m┄┄┄┄┄"
   - "#abilities#"
-  - "{bar}&f"
-  - "{bar}&8&m-------&r &d&l🔮 Ô KHẢM ĐÁ QUÝ &8&m-------"
+
+  # ==================== Đá Quý ====================
+  - "{bar}&r \n&8&m┄┄┄┄┄&r &d&l🔮 Ô KHẢM ĐÁ QUÝ &8&m┄┄┄┄┄"
   - "#custom-maxsockets#"
   - "#gem-stones#"
   - "#gem-stone-lore#"
 
-  - "{bar}"
+  # ==================== Mô Tả ====================
+  - "{bar}&r \n&8&m┄┄┄┄┄┄┄&r &f&l✦ MÔ TẢ &8&m┄┄┄┄┄┄┄"
   - "#lore#"
-  - "{bar}&f"
   - "#set#"
-  - "{sbar}&8&m----------------------------"
+
+  # ==================== Footer ====================
+  - "{sbar}&8&m┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄"
   - "#tier#"
   - "#durability#"
   - "#item-type#"

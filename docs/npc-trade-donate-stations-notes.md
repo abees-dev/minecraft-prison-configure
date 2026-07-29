@@ -29,38 +29,38 @@ console-side, không cần cờ `-p` như NPC `/duclo`, `/cuonghoa`).
 
 | Station ID | Tên NPC / hologram |
 |---|---|
-| `trade-hoa-long` | `&6&lTIẾN HÓA &8• &6&lHỎA LONG` |
-| `trade-bang-long` | `&3&lTIẾN HÓA &8• &3&lBĂNG LONG` |
-| `trade-hac-long` | `&5&lTIẾN HÓA &8• &5&lHẮC LONG` |
-| `trade-phong-long` | `&2&lTIẾN HÓA &8• &2&lPHONG LONG` |
-| `trade-loi-long` | `&e&lTIẾN HÓA &8• &e&lLÔI LONG` |
+| `trade-hoa-long` | `&6&l✦ Hỏa Long` |
+| `trade-bang-long` | `&3&l✦ Băng Long` |
+| `trade-hac-long` | `&5&l✦ Hắc Long` |
+| `trade-phong-long` | `&2&l✦ Phong Long` |
+| `trade-loi-long` | `&e&l✦ Lôi Long` |
 
 Ví dụ đầy đủ (Hỏa Long):
 ```
-/npc create &6&lTIẾN HÓA &8• &6&lHỎA LONG --type player
+/npc create &6&l✦ Hỏa Long --type player
 /npc command add mi stations open trade-hoa-long <p>
 /npc lookclose
 /npc hidename
-/npc hologram add &6&lTIẾN HÓA &8• &6&lHỎA LONG
+/npc hologram add &6&l✦ Hỏa Long
 ```
 
 ## Donate — Bàn Thiên Giới Long Tộc
 
 | Station ID | Tên NPC / hologram |
 |---|---|
-| `donate-ho-long` | `&a&lTHIÊN GIỚI &8• &a&lHỘ LONG` |
-| `donate-chien-long` | `&e&lTHIÊN GIỚI &8• &e&lCHIẾN LONG` |
-| `donate-than-long` | `&b&lTHIÊN GIỚI &8• &b&lTHẦN LONG` |
-| `donate-de-long` | `&4&lTHIÊN GIỚI &8• &4&lĐẾ LONG` |
-| `donate-hoang-long` | `&c&lTHIÊN GIỚI &8• &c&lHOÀNG LONG` |
+| `donate-ho-long` | `&a&l★ Hộ Long` |
+| `donate-chien-long` | `&e&l★ Chiến Long` |
+| `donate-than-long` | `&b&l★ Thần Long` |
+| `donate-de-long` | `&4&l★ Đế Long` |
+| `donate-hoang-long` | `&c&l★ Hoàng Long` |
 
 Ví dụ đầy đủ (Hộ Long):
 ```
-/npc create &a&lTHIÊN GIỚI &8• &a&lHỘ LONG --type player
+/npc create &a&l★ Hộ Long --type player
 /npc command add mi stations open donate-ho-long <p>
 /npc lookclose
 /npc hidename
-/npc hologram add &a&lTHIÊN GIỚI &8• &a&lHỘ LONG
+/npc hologram add &a&l★ Hộ Long
 ```
 
 ## File gốc (đã tách, giữ dự phòng)

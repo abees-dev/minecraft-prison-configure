@@ -7,11 +7,11 @@ tier như trade/donate, dùng `layout: default` (có phân trang vì rất nhi�
 ## Lệnh tạo NPC
 
 ```
-/npc create &c&lBÀN GHÉP ĐÁ CƯỜNG HÓA --type player
+/npc create &c&l✪ Ghép Đá --type player
 /npc command add mi stations open equipment-upgrade-station <p>
 /npc lookclose
 /npc hidename
-/npc hologram add &c&lBÀN GHÉP ĐÁ CƯỜNG HÓA
+/npc hologram add &c&l✪ Ghép Đá
 ```
 
 Ghi chú:

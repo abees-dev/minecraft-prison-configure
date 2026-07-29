@@ -1,6 +1,7 @@
 TRADE_GLOVES_HOA_LONG:
   itemsadder-item: "rings_pack:glove_17"
   base:
+    lore-format: jewelry-lore
     custom-maxsockets: 5.0
     revision-id: 5
     material: PAPER
@@ -22,6 +23,7 @@ TRADE_GLOVES_HOA_LONG:
 TRADE_GLOVES_HAC_LONG:
   itemsadder-item: "rings_pack:glove_9"
   base:
+    lore-format: jewelry-lore
     custom-maxsockets: 5.0
     revision-id: 5
     material: PAPER
@@ -43,6 +45,7 @@ TRADE_GLOVES_HAC_LONG:
 TRADE_GLOVES_LOI_LONG:
   itemsadder-item: "rings_pack:glove_74"
   base:
+    lore-format: jewelry-lore
     custom-maxsockets: 5.0
     revision-id: 5
     material: PAPER
@@ -64,6 +67,7 @@ TRADE_GLOVES_LOI_LONG:
 TRADE_GLOVES_PHONG_LONG:
   itemsadder-item: "rings_pack:glove_10"
   base:
+    lore-format: jewelry-lore
     custom-maxsockets: 5.0
     revision-id: 5
     material: PAPER
@@ -85,6 +89,7 @@ TRADE_GLOVES_PHONG_LONG:
 TRADE_GLOVES_BANG_LONG:
   itemsadder-item: "rings_pack:glove_91"
   base:
+    lore-format: jewelry-lore
     custom-maxsockets: 5.0
     revision-id: 5
     material: PAPER
@@ -107,6 +112,7 @@ TRADE_GLOVES_BANG_LONG:
 DONATE_GLOVES_LONG_CHIEN:
   itemsadder-item: "rings_pack:glove_13"
   base:
+    lore-format: jewelry-lore
     custom-maxsockets: 5.0
     revision-id: 5
     material: PAPER
@@ -128,6 +134,7 @@ DONATE_GLOVES_LONG_CHIEN:
 DONATE_GLOVES_LONG_THAN:
   itemsadder-item: "rings_pack:glove_96"
   base:
+    lore-format: jewelry-lore
     custom-maxsockets: 5.0
     revision-id: 5
     material: PAPER
@@ -149,6 +156,7 @@ DONATE_GLOVES_LONG_THAN:
 DONATE_GLOVES_LONG_HOANG:
   itemsadder-item: "rings_pack:glove_86"
   base:
+    lore-format: jewelry-lore
     custom-maxsockets: 5.0
     revision-id: 5
     material: PAPER
@@ -170,6 +178,7 @@ DONATE_GLOVES_LONG_HOANG:
 DONATE_GLOVES_LONG_DE:
   itemsadder-item: "rings_pack:glove_89"
   base:
+    lore-format: jewelry-lore
     custom-maxsockets: 5.0
     revision-id: 5
     material: PAPER
@@ -191,6 +200,7 @@ DONATE_GLOVES_LONG_DE:
 DONATE_GLOVES_LONG_VE:
   itemsadder-item: "rings_pack:glove_67"
   base:
+    lore-format: jewelry-lore
     custom-maxsockets: 5.0
     revision-id: 5
     material: PAPER
@@ -213,6 +223,7 @@ DONATE_GLOVES_LONG_VE:
 FREE_GLOVES_THANH_LONG:
   itemsadder-item: "rings_pack:glove_62"
   base:
+    lore-format: jewelry-lore
     custom-maxsockets: 2.0
     revision-id: 5
     material: PAPER
@@ -234,6 +245,7 @@ FREE_GLOVES_THANH_LONG:
 FREE_GLOVES_XICH_LONG:
   itemsadder-item: "rings_pack:glove_34"
   base:
+    lore-format: jewelry-lore
     custom-maxsockets: 2.0
     revision-id: 5
     material: PAPER
@@ -255,6 +267,7 @@ FREE_GLOVES_XICH_LONG:
 FREE_GLOVES_KIM_LONG:
   itemsadder-item: "rings_pack:glove_80"
   base:
+    lore-format: jewelry-lore
     custom-maxsockets: 2.0
     revision-id: 5
     material: PAPER
@@ -276,6 +289,7 @@ FREE_GLOVES_KIM_LONG:
 FREE_GLOVES_THIEN_LONG:
   itemsadder-item: "rings_pack:glove_100"
   base:
+    lore-format: jewelry-lore
     custom-maxsockets: 2.0
     revision-id: 5
     material: PAPER
@@ -297,6 +311,7 @@ FREE_GLOVES_THIEN_LONG:
 FREE_GLOVES_BAC_LONG:
   itemsadder-item: "rings_pack:glove_66"
   base:
+    lore-format: jewelry-lore
     custom-maxsockets: 2.0
     revision-id: 5
     material: PAPER

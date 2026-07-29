@@ -1,6 +1,9 @@
+# Lore format mặc định — dùng khi item không gán lore-format riêng
+# (trang sức hiện tại, consumable, gem, material chưa gán format, ...)
+# Quy tắc {bar}: KHÔNG đặt 2 dòng {bar} liền nhau.
 lore-format:
-  # ==================== Yêu Cầu & Giới Hạn ====================
-  - "{bar}"
+  # ==================== Yêu Cầu ====================
+  - "{bar}&r \n&8&m┄┄┄┄┄┄┄&r &7&l❖ YÊU CẦU &8&m┄┄┄┄┄┄┄"
   - "#required-class#"
   - "#required-level#"
   - "#required-dexterity#"
@@ -8,8 +11,8 @@ lore-format:
   - "#required-intelligence#"
   - "#soulbound#"
 
-  # ========================= Nghề Nghệp =========================
-  - "{bar}"
+  # ==================== Nghề Nghiệp ====================
+  - "{bar}&r \n&8&m┄┄┄┄┄┄&r &3&l⚒ NGHỀ NGHIỆP &8&m┄┄┄┄┄┄"
   - "#profession-alchemy#"
   - "#profession-enchanting#"
   - "#profession-farming#"
@@ -19,10 +22,10 @@ lore-format:
   - "#profession-smithing#"
   - "#profession-woodcutting#"
 
-  # ========================= Chỉ Số Vật Phẩm =========================
-  - "{bar}"
+  # ==================== Chỉ Số ====================
+  - "{bar}&r \n&8&m┄┄┄┄┄┄┄&r &c&l⚔ CHỈ SỐ &8&m┄┄┄┄┄┄┄"
+  - "#custom-myluck#"
   - "#custom-miningefficiency#"
-
   - "#custom-miningfortune#"
   - "#custom-miningunbreaking#"
   - "#pickaxe-power#"
@@ -35,6 +38,7 @@ lore-format:
   - "#skill-critical-strike-chance#"
   - "#skill-critical-strike-power#"
   - "#range#"
+  - "#arrow-velocity#"
   - "#lifesteal#"
   - "#spell-vampirism#"
   - "#knockback#"
@@ -64,13 +68,6 @@ lore-format:
   - "#pvp-damage-reduction#"
   - "#knockback-resistance#"
   - "#max-health#"
-  - "#max-mana#"
-  - "#max-stamina#"
-  - "#health-regeneration#"
-  - "#mana-regeneration#"
-  - "#stamina-regeneration#"
-  - "#movement-speed#"
-  - "#cooldown-reduction#"
   - "#block-power#"
   - "#block-rating#"
   - "#dodge-rating#"
@@ -80,6 +77,18 @@ lore-format:
   - "#parry-cooldown-reduction#"
   - "#two-handed#"
   - "#handworn#"
+  - "#mana-cost#"
+  - "#stamina-cost#"
+
+  # ==================== Thuộc Tính ====================
+  - "{bar}&r \n&8&m┄┄┄┄┄┄&r &e&l✨ THUỘC TÍNH &8&m┄┄┄┄┄┄"
+  - "#max-mana#"
+  - "#max-stamina#"
+  - "#health-regeneration#"
+  - "#mana-regeneration#"
+  - "#stamina-regeneration#"
+  - "#movement-speed#"
+  - "#cooldown-reduction#"
   - "#additional-dexterity#"
   - "#additional-strength#"
   - "#additional-intelligence#"
@@ -93,8 +102,8 @@ lore-format:
   - "#additional-experience-smithing#"
   - "#additional-experience-woodcutting#"
 
-  # ========================= Tiêu Thụ & Tỷ Lệ =========================
-  - "{bar}"
+  # ==================== Tiêu Thụ & Tiện Ích ====================
+  - "{bar}&r \n&8&m┄┄┄┄┄&r &a&l☘ TIÊU THỤ & TIỆN ÍCH &8&m┄┄┄┄┄"
   - "#success-rate#"
   - "#can-identify#"
   - "#can-deconstruct#"
@@ -109,37 +118,35 @@ lore-format:
   - "#repair-percent#"
   - "#item-cooldown#"
 
-  # =========================== Nguyên Tố ============================
-  - "{bar}"
+  # ==================== Nguyên Tố ====================
+  - "{bar}&r \n&8&m┄┄┄┄┄┄&r &2&l☄ NGUYÊN TỐ &8&m┄┄┄┄┄┄"
   - "#elements#"
 
-  # ============================= Hiệu Ứng ============================
-  - "{bar}"
+  # ==================== Hiệu Ứng ====================
+  - "{bar}&r \n&8&m┄┄┄┄┄┄&r &5&l✦ HIỆU ỨNG &8&m┄┄┄┄┄┄"
   - "#effects#"
 
-  # ============================ Kỹ Năng ============================
-  - "{bar}"
+  # ==================== Kỹ Năng ====================
+  - "{bar}&r \n&8&m┄┄┄┄┄┄&r &a&l⚡ KỸ NĂNG &8&m┄┄┄┄┄┄"
   - "#abilities#"
 
-  # ============================ Lệnh ============================
-  - "{bar}"
+  # ==================== Lệnh ====================
+  - "{bar}&r \n&8&m┄┄┄┄┄┄┄┄&r &7&l⌨ LỆNH &8&m┄┄┄┄┄┄┄┄"
   - "#commands#"
 
   # ==================== Đá Quý ====================
-  - "{bar}&f&r"
-  - "{bar}&8&m-------&r &d&l🔮 Ô KHẢM ĐÁ QUÝ &8&m-------"
+  - "{bar}&r \n&8&m┄┄┄┄┄&r &d&l🔮 Ô KHẢM ĐÁ QUÝ &8&m┄┄┄┄┄"
   - "#custom-maxsockets#"
   - "#gem-stones#"
   - "#gem-stone-lore#"
 
-  # ==================== Mô Tả & Thông Tin Vật Phẩm ====================
-  - "{bar}&f"
-  - "{bar}"
+  # ==================== Mô Tả ====================
+  - "{bar}&r \n&8&m┄┄┄┄┄┄┄&r &f&l✦ MÔ TẢ &8&m┄┄┄┄┄┄┄"
   - "#lore#"
-  - "{bar}&f"
   - "#set#"
-  - "{sbar}&8&m---------------------------------"
 
+  # ==================== Footer ====================
+  - "{sbar}&8&m┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄"
   - "#tier#"
   - "#durability#"
   - "#item-type#"

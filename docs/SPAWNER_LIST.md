@@ -1,5 +1,7 @@
 # Danh sách Spawner Mob — Prison Dungeon (theo thứ tự rank)
 
+> Lối chơi / gap spawner: [`loi-choi.md`](loi-choi.md) P0.2 · Hướng dẫn set vị trí: [`SPAWNER_POSITION_GUIDE.md`](SPAWNER_POSITION_GUIDE.md) · Mục lục: [`INDEX.md`](INDEX.md)
+
 Nguồn dữ liệu: `plugins/MythicMobs/spawners/*.yml` (vị trí, cooldown, số lượng)
 và `plugins/MythicMobs/mobs/prison_rank_mobs.yml` (chỉ số mob, drop, skill).
 

@@ -1,5 +1,7 @@
 # 📘 HƯỚNG DẪN CÂN BẰNG CHỈ SỐ & QUY CHUẨN THIẾT KẾ ITEM DONATE / GACHA
 
+> F2P chuẩn: [`../STAT_BALANCING_STANDARD.md`](../STAT_BALANCING_STANDARD.md) · Lối chơi: [`loi-choi.md`](loi-choi.md) · Mục lục: [`INDEX.md`](INDEX.md)
+
 Tài liệu này quy định **nguyên tắc cân bằng chỉ số**, **trần chỉ số (Stat Ceilings)** và **công thức tính điểm ngân sách (Stat Budget)** dành cho Ban Quản Trị / Coder khi thiết kế các trang bị mới, trang bị sự kiện (Event) hoặc **Item Donate / Gacha**, nhằm đảm bảo **không phá vỡ cân bằng game (Non-P2W)** và **không chênh lệch quá 15%** so với trang bị cày chay (F2P End-Game).
 
 ---

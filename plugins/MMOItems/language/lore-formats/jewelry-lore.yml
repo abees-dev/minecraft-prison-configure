@@ -1,29 +1,85 @@
-# Lore format riêng cho Trang Sức (Nhẫn, Dây Chuyền, Vòng Tay, Găng Tay).
-# Gán vào item bằng: lore-format: jewelry-lore
+# Lore format — Trang sức (Nhẫn, Dây chuyền, Vòng tay, Găng tay)
+# Quy tắc {bar}: KHÔNG đặt 2 dòng {bar} liền nhau.
+# Gán: lore-format: jewelry-lore
 lore-format:
-  - '{bar}&8&m----------------------------'
-  - '&6&l✦ Thuộc Tính Trang Sức'
-  - '#attack-damage#'
-  - '#attack-speed#'
-  - '#critical-strike-chance#'
-  - '#critical-strike-power#'
-  - '#magic-damage#'
-  - '#physical-damage#'
-  - '#max-health#'
-  - '#max-mana#'
-  - '#armor#'
-  - '#damage-reduction#'
-  - '#lifesteal#'
-  - '#dodge-rating#'
-  - '#movement-speed#'
-  - '#cooldown-reduction#'
-  - '#custom-maxsockets#'
-  - '{bar}&f'
+  # ==================== Yêu Cầu ====================
+  - "{bar}&r \n&8&m┄┄┄┄┄┄┄&r &7&l❖ YÊU CẦU &8&m┄┄┄┄┄┄┄"
+  - "#required-class#"
+  - "#required-level#"
+  - "#required-dexterity#"
+  - "#required-strength#"
+  - "#required-intelligence#"
+  - "#soulbound#"
 
-  - '#lore#'
-  - '{bar}&f'
-  - '#set#'
-  - '{sbar}&8&m----------------------------'
-  - '#tier#'
-  - '#durability#'
-  - '#item-type#'
+  # ==================== Chỉ Số ====================
+  - "{bar}&r \n&8&m┄┄┄┄┄&r &6&l✦ CHỈ SỐ TRANG SỨC &8&m┄┄┄┄┄"
+  - "#attack-damage#"
+  - "#attack-speed#"
+  - "#critical-strike-chance#"
+  - "#critical-strike-power#"
+  - "#skill-critical-strike-chance#"
+  - "#skill-critical-strike-power#"
+  - "#weapon-damage#"
+  - "#magic-damage#"
+  - "#skill-damage#"
+  - "#physical-damage#"
+  - "#projectile-damage#"
+  - "#pve-damage#"
+  - "#pvp-damage#"
+  - "#undead-damage#"
+  - "#lifesteal#"
+  - "#spell-vampirism#"
+  - "#knockback#"
+
+  # ==================== Phòng Thủ & Sinh Tồn ====================
+  - "{bar}&r \n&8&m┄┄┄┄┄&r &b&l🛡 PHÒNG THỦ & SINH TỒN &8&m┄┄┄┄┄"
+  - "#armor#"
+  - "#armor-toughness#"
+  - "#defense#"
+  - "#damage-reduction#"
+  - "#max-health#"
+  - "#knockback-resistance#"
+  - "#block-power#"
+  - "#block-rating#"
+  - "#dodge-rating#"
+  - "#parry-rating#"
+
+  # ==================== Thuộc Tính ====================
+  - "{bar}&r \n&8&m┄┄┄┄┄┄&r &e&l✨ THUỘC TÍNH &8&m┄┄┄┄┄┄"
+  - "#max-mana#"
+  - "#max-stamina#"
+  - "#health-regeneration#"
+  - "#mana-regeneration#"
+  - "#stamina-regeneration#"
+  - "#movement-speed#"
+  - "#cooldown-reduction#"
+  - "#additional-dexterity#"
+  - "#additional-strength#"
+  - "#additional-intelligence#"
+  - "#handworn#"
+
+  # ==================== Nguyên Tố & Hiệu Ứng ====================
+  - "{bar}&r \n&8&m┄┄┄┄┄&r &2&l☄ NGUYÊN TỐ & HIỆU ỨNG &8&m┄┄┄┄┄"
+  - "#elements#"
+  - "#effects#"
+
+  # ==================== Kỹ Năng ====================
+  - "{bar}&r \n&8&m┄┄┄┄┄┄&r &a&l⚡ KỸ NĂNG &8&m┄┄┄┄┄┄"
+  - "#abilities#"
+
+  # ==================== Đá Quý ====================
+  - "{bar}&r \n&8&m┄┄┄┄┄&r &d&l🔮 Ô KHẢM ĐÁ QUÝ &8&m┄┄┄┄┄"
+  - "#custom-maxsockets#"
+  - "#gem-stones#"
+  - "#gem-stone-lore#"
+
+  # ==================== Mô Tả ====================
+  - "{bar}&r \n&8&m┄┄┄┄┄┄┄&r &f&l✦ MÔ TẢ &8&m┄┄┄┄┄┄┄"
+  - "#lore#"
+  - "#set#"
+
+  # ==================== Footer ====================
+  - "{sbar}&8&m┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄"
+  - "#tier#"
+  - "#durability#"
+  - "#item-type#"

@@ -1,5 +1,8 @@
+# Lore format — Item trade / generic đầy đủ (đồng bộ style hệ thống)
+# Quy tắc {bar}: KHÔNG đặt 2 dòng {bar} liền nhau.
 lore-format:
-  - '{bar}'
+  # ==================== Yêu Cầu ====================
+  - "{bar}&r \n&8&m┄┄┄┄┄┄┄&r &7&l❖ YÊU CẦU &8&m┄┄┄┄┄┄┄"
   - "#required-class#"
   - "#required-level#"
   - "#required-dexterity#"
@@ -7,7 +10,8 @@ lore-format:
   - "#required-intelligence#"
   - "#soulbound#"
 
-  - '{bar}'
+  # ==================== Nghề Nghiệp ====================
+  - "{bar}&r \n&8&m┄┄┄┄┄┄&r &3&l⚒ NGHỀ NGHIỆP &8&m┄┄┄┄┄┄"
   - "#profession-alchemy#"
   - "#profession-enchanting#"
   - "#profession-farming#"
@@ -17,11 +21,10 @@ lore-format:
   - "#profession-smithing#"
   - "#profession-woodcutting#"
 
-  - '{bar}'
+  # ==================== Chỉ Số ====================
+  - "{bar}&r \n&8&m┄┄┄┄┄┄┄&r &c&l⚔ CHỈ SỐ &8&m┄┄┄┄┄┄┄"
   - "#custom-myluck#"
-  - "#custom-maxsockets#"
   - "#custom-miningefficiency#"
-
   - "#custom-miningfortune#"
   - "#custom-miningunbreaking#"
   - "#pickaxe-power#"
@@ -63,13 +66,6 @@ lore-format:
   - "#pvp-damage-reduction#"
   - "#knockback-resistance#"
   - "#max-health#"
-  - "#max-mana#"
-  - "#max-stamina#"
-  - "#health-regeneration#"
-  - "#mana-regeneration#"
-  - "#stamina-regeneration#"
-  - "#movement-speed#"
-  - "#cooldown-reduction#"
   - "#block-power#"
   - "#block-rating#"
   - "#dodge-rating#"
@@ -79,6 +75,16 @@ lore-format:
   - "#parry-cooldown-reduction#"
   - "#two-handed#"
   - "#handworn#"
+
+  # ==================== Thuộc Tính ====================
+  - "{bar}&r \n&8&m┄┄┄┄┄┄&r &e&l✨ THUỘC TÍNH &8&m┄┄┄┄┄┄"
+  - "#max-mana#"
+  - "#max-stamina#"
+  - "#health-regeneration#"
+  - "#mana-regeneration#"
+  - "#stamina-regeneration#"
+  - "#movement-speed#"
+  - "#cooldown-reduction#"
   - "#additional-dexterity#"
   - "#additional-strength#"
   - "#additional-intelligence#"
@@ -92,7 +98,8 @@ lore-format:
   - "#additional-experience-smithing#"
   - "#additional-experience-woodcutting#"
 
-  - '{bar}'
+  # ==================== Tiêu Thụ & Tiện Ích ====================
+  - "{bar}&r \n&8&m┄┄┄┄┄&r &a&l☘ TIÊU THỤ & TIỆN ÍCH &8&m┄┄┄┄┄"
   - "#success-rate#"
   - "#can-identify#"
   - "#can-deconstruct#"
@@ -107,27 +114,32 @@ lore-format:
   - "#repair-percent#"
   - "#item-cooldown#"
 
-  - '{bar}'
+  # ==================== Nguyên Tố / Hiệu Ứng / Kỹ Năng ====================
+  - "{bar}&r \n&8&m┄┄┄┄┄┄&r &2&l☄ NGUYÊN TỐ &8&m┄┄┄┄┄┄"
   - "#elements#"
 
-  - '{bar}'
+  - "{bar}&r \n&8&m┄┄┄┄┄┄&r &5&l✦ HIỆU ỨNG &8&m┄┄┄┄┄┄"
   - "#effects#"
 
-  - '{bar}'
+  - "{bar}&r \n&8&m┄┄┄┄┄┄&r &a&l⚡ KỸ NĂNG &8&m┄┄┄┄┄┄"
   - "#abilities#"
 
-  - '{bar}'
+  - "{bar}&r \n&8&m┄┄┄┄┄┄┄┄&r &7&l⌨ LỆNH &8&m┄┄┄┄┄┄┄┄"
   - "#commands#"
 
-  - '{bar}'
-  - "#lore#"
-  - '{bar}'
-  - "#set#"
-  - '{bar}'
+  # ==================== Đá Quý ====================
+  - "{bar}&r \n&8&m┄┄┄┄┄&r &d&l🔮 Ô KHẢM ĐÁ QUÝ &8&m┄┄┄┄┄"
+  - "#custom-maxsockets#"
   - "#gem-stones#"
   - "#gem-stone-lore#"
 
-  - '{sbar}'
+  # ==================== Mô Tả ====================
+  - "{bar}&r \n&8&m┄┄┄┄┄┄┄&r &f&l✦ MÔ TẢ &8&m┄┄┄┄┄┄┄"
+  - "#lore#"
+  - "#set#"
+
+  # ==================== Footer ====================
+  - "{sbar}&8&m┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄"
   - "#tier#"
   - "#durability#"
   - "#item-type#"

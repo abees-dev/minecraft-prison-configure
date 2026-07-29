@@ -1,5 +1,7 @@
 # Note: Tỷ lệ đổi & chỉ số cuốc Prison
 
+> **UX chuẩn (2026-07-29):** người chơi nâng cúp qua **NPC crafting station** (`forge-*`), không qua Skript `/nangcapcuoc` trùng lặp — xem [`loi-choi.md`](loi-choi.md) P0.4. Mục lục: [`INDEX.md`](INDEX.md).
+
 Ghi lại nhanh 2 bảng số liệu đang áp dụng (tính tới 2026-07-21), tách riêng khỏi `prison-rpg-plan.md` để dễ tra cứu/so sánh khi cân bằng lại. Nguồn dữ liệu: `plugins/MMOItems/item/tool.yml` (chỉ số cuốc) và `plugins/MMOItems/crafting-stations/forge-1..9.yml` (tỷ lệ đổi).
 
 ## 1. Chỉ số cuốc theo rank/cấp (`tool.yml`)

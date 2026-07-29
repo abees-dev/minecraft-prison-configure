@@ -1,17 +1,42 @@
-# Lore format riêng cho cúp Prison (lore-only, gọn gàng).
-# Gán vào item bằng: lore-format: tool-lore
+# Lore format — Cúp / Công cụ Prison
+# Quy tắc {bar}: KHÔNG đặt 2 dòng {bar} liền nhau.
+# Gán: lore-format: tool-lore
 lore-format:
-  - '{bar}&8&m----------------------------'
-  - '&e&l⛏ Chỉ Số Khai Thác'
-  - '#custom-miningefficiency#'
-  - '#custom-miningfortune#'
-  - '#custom-miningunbreaking#'
-  - '#pickaxe-power#'
-  - '{bar}'
-  - '#lore#'
-  - '{sbar}&8&m----------------------------'
-  - '#tier#'
-  - '#durability#'
-  - '#item-type#'
-  - '{bar}&f'
-  - '#set#'
+  # ==================== Chỉ Số Khai Thác ====================
+  - "{bar}&r \n&8&m┄┄┄┄┄&r &6&l⛏ CHỈ SỐ KHAI THÁC &8&m┄┄┄┄┄"
+  - "#custom-miningefficiency#"
+  - "#custom-miningfortune#"
+  - "#custom-miningunbreaking#"
+  - "#pickaxe-power#"
+  - "#autosmelt#"
+  - "#bouncing-crack#"
+
+  # ==================== Thuộc Tính ====================
+  - "{bar}&r \n&8&m┄┄┄┄┄┄&r &e&l✨ THUỘC TÍNH &8&m┄┄┄┄┄┄"
+  - "#attack-damage#"
+  - "#attack-speed#"
+  - "#movement-speed#"
+  - "#additional-experience#"
+  - "#additional-experience-mining#"
+  - "#custom-myluck#"
+
+  # ==================== Kỹ Năng ====================
+  - "{bar}&r \n&8&m┄┄┄┄┄┄&r &a&l⚡ KỸ NĂNG &8&m┄┄┄┄┄┄"
+  - "#abilities#"
+
+  # ==================== Đá Quý ====================
+  - "{bar}&r \n&8&m┄┄┄┄┄&r &d&l🔮 Ô KHẢM ĐÁ QUÝ &8&m┄┄┄┄┄"
+  - "#custom-maxsockets#"
+  - "#gem-stones#"
+  - "#gem-stone-lore#"
+
+  # ==================== Mô Tả ====================
+  - "{bar}&r \n&8&m┄┄┄┄┄┄┄&r &f&l✦ MÔ TẢ &8&m┄┄┄┄┄┄┄"
+  - "#lore#"
+  - "#set#"
+
+  # ==================== Footer ====================
+  - "{sbar}&8&m┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄"
+  - "#tier#"
+  - "#durability#"
+  - "#item-type#"

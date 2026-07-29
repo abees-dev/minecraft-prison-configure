@@ -1,6 +1,7 @@
 TRADE_BRACELET_HOA_LONG:
   itemsadder-item: "rings_pack:ring_81"
   base:
+    lore-format: jewelry-lore
     custom-maxsockets: 5.0
     revision-id: 5
     material: PAPER
@@ -22,6 +23,7 @@ TRADE_BRACELET_HOA_LONG:
 TRADE_BRACELET_HAC_LONG:
   itemsadder-item: "rings_pack:ring_17"
   base:
+    lore-format: jewelry-lore
     custom-maxsockets: 5.0
     revision-id: 5
     material: PAPER
@@ -43,6 +45,7 @@ TRADE_BRACELET_HAC_LONG:
 TRADE_BRACELET_LOI_LONG:
   itemsadder-item: "rings_pack:ring_9"
   base:
+    lore-format: jewelry-lore
     custom-maxsockets: 5.0
     revision-id: 5
     material: PAPER
@@ -64,6 +67,7 @@ TRADE_BRACELET_LOI_LONG:
 TRADE_BRACELET_PHONG_LONG:
   itemsadder-item: "rings_pack:ring_23"
   base:
+    lore-format: jewelry-lore
     custom-maxsockets: 5.0
     revision-id: 5
     material: PAPER
@@ -85,6 +89,7 @@ TRADE_BRACELET_PHONG_LONG:
 TRADE_BRACELET_BANG_LONG:
   itemsadder-item: "rings_pack:ring_1"
   base:
+    lore-format: jewelry-lore
     custom-maxsockets: 5.0
     revision-id: 5
     material: PAPER
@@ -107,6 +112,7 @@ TRADE_BRACELET_BANG_LONG:
 DONATE_BRACELET_LONG_CHIEN:
   itemsadder-item: "rings_pack:ring_59"
   base:
+    lore-format: jewelry-lore
     custom-maxsockets: 5.0
     revision-id: 5
     material: PAPER
@@ -128,6 +134,7 @@ DONATE_BRACELET_LONG_CHIEN:
 DONATE_BRACELET_LONG_THAN:
   itemsadder-item: "rings_pack:ring_107"
   base:
+    lore-format: jewelry-lore
     custom-maxsockets: 5.0
     revision-id: 5
     material: PAPER
@@ -149,6 +156,7 @@ DONATE_BRACELET_LONG_THAN:
 DONATE_BRACELET_LONG_HOANG:
   itemsadder-item: "rings_pack:ring_2"
   base:
+    lore-format: jewelry-lore
     custom-maxsockets: 5.0
     revision-id: 5
     material: PAPER
@@ -170,6 +178,7 @@ DONATE_BRACELET_LONG_HOANG:
 DONATE_BRACELET_LONG_DE:
   itemsadder-item: "rings_pack:ring_7"
   base:
+    lore-format: jewelry-lore
     custom-maxsockets: 5.0
     revision-id: 5
     material: PAPER
@@ -191,6 +200,7 @@ DONATE_BRACELET_LONG_DE:
 DONATE_BRACELET_LONG_VE:
   itemsadder-item: "rings_pack:ring_42"
   base:
+    lore-format: jewelry-lore
     custom-maxsockets: 5.0
     revision-id: 5
     material: PAPER
@@ -213,6 +223,7 @@ DONATE_BRACELET_LONG_VE:
 FREE_BRACELET_THANH_LONG:
   itemsadder-item: "rings_pack:ring_67"
   base:
+    lore-format: jewelry-lore
     custom-maxsockets: 2.0
     revision-id: 5
     material: PAPER
@@ -234,6 +245,7 @@ FREE_BRACELET_THANH_LONG:
 FREE_BRACELET_XICH_LONG:
   itemsadder-item: "rings_pack:ring_11"
   base:
+    lore-format: jewelry-lore
     custom-maxsockets: 2.0
     revision-id: 5
     material: PAPER
@@ -255,6 +267,7 @@ FREE_BRACELET_XICH_LONG:
 FREE_BRACELET_KIM_LONG:
   itemsadder-item: "rings_pack:ring_32"
   base:
+    lore-format: jewelry-lore
     custom-maxsockets: 2.0
     revision-id: 5
     material: PAPER
@@ -276,6 +289,7 @@ FREE_BRACELET_KIM_LONG:
 FREE_BRACELET_THIEN_LONG:
   itemsadder-item: "rings_pack:ring_5"
   base:
+    lore-format: jewelry-lore
     custom-maxsockets: 2.0
     revision-id: 5
     material: PAPER
@@ -297,6 +311,7 @@ FREE_BRACELET_THIEN_LONG:
 FREE_BRACELET_BAC_LONG:
   itemsadder-item: "rings_pack:ring_66"
   base:
+    lore-format: jewelry-lore
     custom-maxsockets: 2.0
     revision-id: 5
     material: PAPER

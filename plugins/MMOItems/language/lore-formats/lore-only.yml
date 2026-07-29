@@ -1,7 +1,8 @@
-# Lore format riêng cho cúp Prison (lore-only, gọn gàng).
-# Gán vào item bằng: lore-format: lore-only
+# Lore format — Chỉ hiện lore + footer (gọn)
+# Gán: lore-format: lore-only
 lore-format:
-  - '#lore#'
-  - '{bar}&8&m----------------------------'
-  - '#tier#'
-  - '#durability#'
+  - "{bar}&r \n&8&m┄┄┄┄┄┄┄&r &f&l✦ MÔ TẢ &8&m┄┄┄┄┄┄┄"
+  - "#lore#"
+  - "{sbar}&8&m┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄"
+  - "#tier#"
+  - "#durability#"
