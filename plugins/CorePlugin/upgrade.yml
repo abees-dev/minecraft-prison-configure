@@ -80,7 +80,7 @@ universal-stone:
 # 10 is always weaker at every level.
 tiers:
   SO_CAP:
-    base-rate: 15
+    base-rate: 10
     decay-factor: 0.97
     min-rate: 1
   TRUNG_CAP:
@@ -112,4 +112,4 @@ messages:
   NO_STONE: "&c[!] Hãy đặt Đá Cường Hóa vào ô bên phải!"
   INVALID_STONE: "&c[!] Vật phẩm đá không phải Đá Cường Hóa hợp lệ!"
   UNSUPPORTED_TYPE: "&c[!] Loại trang bị '{value1}' không hỗ trợ cường hóa!"
-  MISMATCH_STONE: "&c[!] Đá cường hóa không phù hợp với trang bị hoặc cấp độ hiện tại (Cấp {value1})!"
+  MISMATCH_STONE: "&c[!] Đá cường hóa không phù hợp với trang bị!"

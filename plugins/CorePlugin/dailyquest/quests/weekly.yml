@@ -1,52 +1,93 @@
 # Docs:
 #   Purpose: Weekly quest definitions (Prison RPG). Reset Monday 00:00 in config.yml reset-timezone.
 #   Reload: /dailyquest reload
-#   Same schema as quests/daily.yml (id, revision, type, target, filter, rewards).
+#   Same schema as quests/daily.yml (id, revision, type, target, filter, worlds, rewards).
+#   clear-all-bonus: claim sau khi claim hết weekly — chìa Long Tộc (loi-choi §6.2 H).
+
+clear-all-bonus:
+  enabled: true
+  rewards:
+    - type: crate-key
+      key: chia_khoa_long_toc
+      amount: 1
+    - type: player-points
+      amount: 10
+    - type: mmocore-exp
+      amount: 150
 
 quests:
-  # Heavy mining over the week.
-  MINE_STONE_2500:
+  MINE_BLOCKS_8000:
     name: '&eThợ mỏ tuần'
-    description: '&7Phá 2500 khối STONE trong tuần.'
-    revision: 1
+    description: '&7Phá 8000 khối bất kỳ trong mỏ nhà tù tuần này.'
+    revision: 3
     type: BREAK_BLOCK
-    target: 2500
-    filter: STONE
+    target: 8000
+    filter: ''
+    worlds:
+      - world_prison
     rewards:
       - type: vault-money
-        amount: 15000
-      - type: crate
-        crate: weekly_crate
-        amount: 1
+        amount: 35000
+      - type: mmocore-exp
+        amount: 250
+      - type: player-points
+        amount: 12
+      - type: mmoitem
+        mi-type: MATERIAL
+        mi-id: DA_CUONG_HOA_VU_KHI_TRUNG_CAP
+        amount: 2
+      - type: mmoitem
+        mi-type: MATERIAL
+        mi-id: DA_CUONG_HOA_GIAP_TRUNG_CAP
+        amount: 2
+
+  KILL_MOBS_120:
+    name: '&cThợ săn tuần'
+    description: '&7Giết 120 quái trong dungeon tuần này.'
+    revision: 3
+    type: KILL_MOB
+    target: 120
+    filter: ''
+    worlds:
+      - world_dungeon
+      - world_magadungeon
+    rewards:
+      - type: vault-money
+        amount: 25000
       - type: mmocore-exp
         amount: 200
-
-  # Cobble grind for early ranks.
-  MINE_COBBLE_1500:
-    name: '&7Nghiền cobble tuần'
-    description: '&7Phá 1500 khối COBBLESTONE trong tuần.'
-    revision: 1
-    type: BREAK_BLOCK
-    target: 1500
-    filter: COBBLESTONE
-    rewards:
-      - type: vault-money
-        amount: 8000
-      - type: mmocore-exp
-        amount: 120
-
-  # Ore mining (adjust filter to your mine blocks).
-  MINE_IRON_ORE_200:
-    name: '&fKhai thác sắt'
-    description: '&7Phá 200 khối IRON_ORE trong tuần.'
-    revision: 1
-    type: BREAK_BLOCK
-    target: 200
-    filter: IRON_ORE
-    rewards:
-      - type: vault-money
-        amount: 12000
+      - type: crate-key
+        key: chia_khoa_ruong_ngoc
+        amount: 1
+      - type: player-points
+        amount: 8
       - type: mmoitem
-        mi-type: CONSUMABLE
-        mi-id: WEEKLY_TOKEN
+        mi-type: MATERIAL
+        mi-id: DA_CUONG_HOA_VU_KHI_SO_CAP
+        amount: 3
+
+  # Stretch — cùng kill pool với quest trên (tiến độ chồng).
+  KILL_MOBS_200:
+    name: '&4Dọn ngục tuần'
+    description: '&7Giết 200 quái trong dungeon tuần này (bonus săn nhiều).'
+    revision: 3
+    type: KILL_MOB
+    target: 200
+    filter: ''
+    worlds:
+      - world_dungeon
+      - world_magadungeon
+    rewards:
+      - type: vault-money
+        amount: 40000
+      - type: mmocore-exp
+        amount: 300
+      - type: crate-key
+        key: chia_khoa_trang_suc_free
+        amount: 2
+      - type: player-points
+        amount: 15
+      - type: mmoitem
+        mi-type: MATERIAL
+        mi-id: MANH_HUY_HIEU_TRIEU_HOI
         amount: 1

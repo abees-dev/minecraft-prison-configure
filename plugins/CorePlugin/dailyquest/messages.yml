@@ -13,14 +13,17 @@ quest:
   not-complete: '&cQuest &f%quest_name% &cchưa hoàn thành (&f%progress%&7/&f%target%&c).'
   unknown: '&cKhông tìm thấy quest &f%quest%&c.'
   list-header: '&f%period% &7(%period_key%):'
-  clear-all-bonus: '&6Bonus clear-all! &aBạn đã nhận thưởng hoàn thành tất cả daily.'
-  clear-all-locked: '&cHãy claim hết quest daily trước khi nhận bonus.'
+  # %period% trong các dòng clear-all = nhãn kỳ bên dưới (ngày/tuần).
+  period-daily: 'ngày'
+  period-weekly: 'tuần'
+  clear-all-bonus: '&6Bonus clear-all! &aBạn đã nhận thưởng hoàn thành tất cả nhiệm vụ %period%.'
+  clear-all-locked: '&cHãy claim hết quest %period% trước khi nhận bonus.'
   clear-all-locked-name: '&7Bonus Clear-All'
-  clear-all-locked-lore: '&8Claim hết daily quest để mở khóa'
+  clear-all-locked-lore: '&8Claim hết quest %period% để mở khóa'
   clear-all-claimable-name: '&6Bonus Clear-All'
   clear-all-claimable-lore: '&aClick để nhận thưởng clear-all'
   clear-all-claimed-name: '&aBonus Clear-All'
-  clear-all-claimed-lore: '&2Đã nhận bonus hôm nay'
+  clear-all-claimed-lore: '&2Đã nhận bonus kỳ này'
 
 checkin:
   success: '&aĐiểm danh thành công! Streak: &f%streak%'
@@ -45,7 +48,9 @@ admin:
   reset-ok: '&aĐã reset (&f%scope%&a) cho &f%player%&a (&f%rows%&a dòng).'
   force-claim-ok: '&aForce-claim &f%quest% &acho &f%player%&a.'
   force-claim-fail: '&cForce-claim thất bại: &f%result%'
-  usage: '&e/dailyquest admin reset <player> <all|daily|weekly|checkin>|&e/dailyquest admin force-claim <player> <daily|weekly> <questId>'
+  # %type% = objective type, %filter% = filter đã cộng ("-" nếu không có), %amount% = số tiến độ.
+  progress-ok: '&aĐã cộng &f%amount% &atiến độ &f%type%&7/&f%filter% &acho &f%player%&a.'
+  usage: '&e/dailyquest admin reset <player> <all|daily|weekly|checkin>|&e/dailyquest admin force-claim <player> <daily|weekly> <questId>|&e/dailyquest admin progress <player> <type> [filter|-] [số]'
   player-not-found: '&cKhông tìm thấy player &f%player%&c (phải online).'
 
 gui:
@@ -54,3 +59,7 @@ gui:
 errors:
   database: '&cLỗi cơ sở dữ liệu. Thử lại sau.'
   player-only: '&cChỉ người chơi mới dùng được lệnh này.'
+  # Command usage hints. %label% = alias the player actually typed (dq, quests...).
+  usage: '&e/%label% [daily|weekly|list|claim|reload|admin]'
+  usage-claim: '&e/%label% claim <daily|weekly> <questId>'
+  period-invalid: '&cKỳ phải là daily hoặc weekly.'

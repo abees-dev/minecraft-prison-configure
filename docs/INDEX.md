@@ -22,7 +22,8 @@ Cập nhật: 2026-07-29.
 | File | Vai trò |
 | --- | --- |
 | [`nguyet-huyet-notes.md`](nguyet-huyet-notes.md) | Đêm Nguyệt Huyết — lịch T7 + boss Bá Tước |
-| [`battlepass-daily-notes.md`](battlepass-daily-notes.md) | Daily quest — **hoãn**; sẽ làm plugin riêng sau (BattlePass chỉ thử) |
+| [`dailyquest-notes.md`](dailyquest-notes.md) | Daily/Weekly quest CorePlugin — config + gap cần code thêm |
+| [`battlepass-daily-notes.md`](battlepass-daily-notes.md) | BattlePass daily — thử nghiệm cũ; thay bằng CorePlugin DailyQuest |
 | [`economy-phase6-notes.md`](economy-phase6-notes.md) | Phase 6 cân bằng sell / rank / prestige (2026-07-29) |
 | [`xprison-config-notes.md`](xprison-config-notes.md) | Ghi chú chuyển Prison → X-Prison, modules, việc in-game |
 | [`pickaxe-upgrade-notes.md`](pickaxe-upgrade-notes.md) | Bảng số cuốc + tỷ lệ forge (NPC station = chuẩn UX) |

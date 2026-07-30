@@ -42,7 +42,7 @@ requirements:
 
 gui:
   # Inventory title. Legacy '&' color codes.
-  title: "&8[✦] &d&lCHUYỂN SINH &8❖ &e&lCÂY KỸ NĂNG &8[✦]"
+  title: "&8[&d✦&8] &d&lCHUYỂN SINH &8❖ &d&lCÂY KỸ NĂNG"
   rows: 6
   slots:
     info: 4

@@ -1,6 +1,6 @@
 # BattlePass Daily — Prison-RPG (THỬ NGHIỆM / HOÃN)
 
-> **2026-07-29 — Quyết định:** hệ daily **chưa cần làm** trên BattlePass. User sẽ **làm plugin daily riêng sau**. Config dưới đây chỉ là bản thử — **không** coi là lối chơi bắt buộc; có thể bỏ / không maintain.
+> **2026-07-30 — Đã thay:** daily/weekly nằm trong **CorePlugin DailyQuest** (`plugins/CorePlugin/dailyquest/`). Xem [`dailyquest-notes.md`](dailyquest-notes.md). File BattlePass dưới đây chỉ còn lịch sử thử nghiệm.
 
 Lối chơi: [`loi-choi.md`](loi-choi.md) §6.2 A · Mục lục: [`INDEX.md`](INDEX.md).
 

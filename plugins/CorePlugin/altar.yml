@@ -1,0 +1,112 @@
+# ============================================================================
+# CorePlugin - Altar ("Bàn Thờ Triệu Hồi") module configuration
+# ============================================================================
+# Generalized port of Skript/scripts/demon_king/: instead of ONE hardcoded
+# armor stand, any number of altars can be defined here, and each altar is
+# simply a BLOCK in the world - any block, anywhere. An admin binds an altar
+# to a position in-game by looking at the block and running
+#   /altar set <id>        (permission: coreplugin.altar.admin)
+# Positions and cooldown state live in altar-data.yml next to this file
+# (rewritten by the plugin - only edit THIS file).
+#
+# Right-clicking a bound block: checks the per-altar global cooldown, checks
+# and consumes the key item (MMOItems id), waits summon-delay-seconds, then
+# runs summon-commands from console. {player} {world} {x} {y} {z} are
+# substituted; x/y/z are the altar block plus spawn-offset.
+#
+# Changes take effect after /altar reload or a restart. This file is only
+# copied out ONCE - missing keys fall back to safe defaults, the plugin
+# never overwrites it.
+# ============================================================================
+
+# Seconds between two altar clicks from the SAME player (anti-spam).
+click-throttle-seconds: 5
+
+# How often the status-commands below re-run (hologram updates etc.).
+status-update-seconds: 5
+
+# Console command used to consume the key item. {id} {player} {amount}.
+commands:
+  take-key: "mmoitems take MATERIAL {id} {player} {amount}"
+
+altars:
+  # The original demon-king altar, now position-free: run
+  #   /altar set ma_vuong
+  # while looking at whatever block should be the altar.
+  ma_vuong:
+    display: "&4&lMa Vương Ngục Tù"
+    # MMOItems item id required to summon ("" = free, no item needed).
+    key-item: HUY_HIEU_TRIEU_HOI
+    key-amount: 1
+    # Global cooldown (shared by all players) after a successful summon.
+    cooldown-seconds: 1800
+    # Delay between the start message and the summon commands.
+    summon-delay-seconds: 3
+    # Added to the altar block position for the {x} {y} {z} placeholders.
+    spawn-offset:
+      x: 0
+      y: 1
+      z: 0
+    summon-commands:
+      - "mm mobs spawn PRISON_MA_VUONG_BOSS:10 1 {world},{x},{y},{z}"
+    effects:
+      # Bukkit Sound name played at the altar on summon ("" = none).
+      sound: ENTITY_WITHER_SPAWN
+      # Visual-only lightning strike at the altar on summon.
+      lightning: true
+    # Per-altar message overrides (fall back to messages: below).
+    messages:
+      no-key: "&c&l[Bàn Thờ] &fBạn cần &e1 Huy Hiệu Triệu Hồi &f(chế từ Huy Hiệu Vỡ rớt ở 9 Boss trong Nhà Tù) để đánh thức Ma Vương!"
+      summon-start: "&6&l[Bàn Thờ] &fHuy Hiệu Triệu Hồi đã phát sáng... Ma Vương Ngục Tù sắp thức tỉnh!"
+      summoned: "&4&l[TRÙM CUỐI] &fMa Vương Ngục Tù đã xuất hiện!"
+    # Built-in floating hologram (a vanilla TextDisplay entity, no hologram
+    # plugin needed). It hovers y-offset above the altar block, follows the
+    # altar when /altar set moves it, and swaps between lines-ready and
+    # lines-cooldown every status-update-seconds. {altar} {min} {sec} are
+    # substituted. The entity is never saved to the world - the plugin
+    # respawns it as needed, so no orphan holograms after crashes.
+    hologram:
+      enabled: true
+      y-offset: 1.8
+      lines-ready:
+        - "&4&l⛧ &c&lBÀN THỜ MA VƯƠNG &4&l⛧"
+        - "&aSẵn sàng - Click chuột phải để triệu hồi!"
+      lines-cooldown:
+        - "&4&l⛧ &c&lBÀN THỜ MA VƯƠNG &4&l⛧"
+        - "&7Có thể triệu hồi lại sau: &c{min} phút {sec} giây"
+    # Optional console commands re-run every status-update-seconds while the
+    # altar has a position - for an EXTERNAL hologram plugin instead of the
+    # built-in one above (e.g. DecentHolograms "dh line set ...", what the
+    # old Skript did). {altar} {min} {sec} are substituted. Empty = disabled.
+    status-commands:
+      cooldown: []
+      # - "dh line set MaVuongTimer 1 2 &7Có thể triệu hồi lại sau: &c{min} phút {sec} giây"
+      ready: []
+      # - "dh line set MaVuongTimer 1 2 &aSẵn sàng - Click chuột phải để triệu hồi!"
+
+# Legacy '&' color codes. {placeholders} substituted per message.
+messages:
+  cooldown: "&e&l[Bàn Thờ] &f{altar} &fvừa được triệu hồi gần đây, hãy quay lại sau &c{min} phút {sec} giây&f!"
+  no-key: "&c&l[Bàn Thờ] &fBạn cần &e{amount}x {item} &fđể triệu hồi!"
+  summon-start: "&6&l[Bàn Thờ] &fNghi lễ triệu hồi bắt đầu..."
+  summoned: "&4&l[TRÙM CUỐI] &f{altar} &fđã xuất hiện!"
+  admin:
+    no-permission: "&cBạn không có quyền dùng lệnh này!"
+    not-found: "&c[Altar] Không có altar id &e{id} &ctrong altar.yml."
+    no-target: "&c[Altar] Hãy nhìn vào block muốn đặt làm bàn thờ (trong 5 block)."
+    set-ok: "&a[Altar] Đã đặt &e{altar} &atại &f{world} {x}, {y}, {z}&a."
+    remove-ok: "&a[Altar] Đã gỡ vị trí của &e{altar}&a."
+    no-position: "&e[Altar] {altar} &fchưa được đặt vị trí."
+    resetcd-ok: "&a[Altar] Đã reset cooldown của &e{altar}&a."
+    reload-ok: "&a[Altar] Đã tải lại altar.yml."
+    list-header: "&6&l[Altar] &fDanh sách bàn thờ:"
+    list-line: "&7• &e{id} &7— {altar} &7| Vị trí: &f{pos} &7| Cooldown: &f{cd}"
+    list-pos-none: "&cchưa đặt"
+    list-cd-ready: "&asẵn sàng"
+    usage:
+      - "&6&l[Altar] &fLệnh quản lý bàn thờ:"
+      - "&e/altar list &7- Danh sách altar + trạng thái"
+      - "&e/altar set <id> &7- Đặt altar vào block đang nhìn"
+      - "&e/altar remove <id> &7- Gỡ vị trí altar"
+      - "&e/altar resetcd <id> &7- Reset cooldown"
+      - "&e/altar reload &7- Tải lại config"

@@ -56,6 +56,8 @@ gui:
   main-title: "&8[&c✦&8] &c&lCHỢ ĐEN"
   confirm-title: "&8[&c✦&8] &e&lXÁC NHẬN MUA"
   my-title: "&8[&c✦&8] &6&lLISTINGS CỦA TÔI"
+  cancel-title: "&8[&c✦&8] &6&lXÁC NHẬN HỦY"
+  expired-title: "&8[&c✦&8] &c&lITEM HẾT HẠN"
 
 # Console command templates. {player} {amount} are substituted.
 commands:
@@ -92,6 +94,9 @@ messages:
   claim-none: "&e&l[CHỢ ĐEN] &fBạn không có item nào chờ nhận."
   claim-inv-full: "&c&l[CHỢ ĐEN] &fTúi đồ không đủ chỗ! Cần &e{need} ô trống &f(hiện có &e{have}&f). Dọn túi rồi thử lại."
   claim-success: "&a&l[CHỢ ĐEN] &fĐã nhận &e{count} &fvật phẩm hết hạn!"
+  claim-one-full: "&c&l[CHỢ ĐEN] &fTúi đồ đầy! Hãy dọn chỗ trống rồi nhận lại."
+  claim-one-gone: "&c&l[CHỢ ĐEN] &fItem này không còn trong danh sách chờ nhận!"
+  claim-one-success: "&a&l[CHỢ ĐEN] &fĐã nhận lại 1 vật phẩm hết hạn!"
   expired-notice: "&e&l[CHỢ ĐEN] &fListing #{id} của bạn đã hết hạn! Dùng &e/choden nhan &fđể lấy item (trong {days} ngày)."
   join-banner-top: "&e&l━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
   join-line1: "&c&l[CHỢ ĐEN] &fBạn có &e{count} &fvật phẩm hết hạn chờ nhận!"
@@ -118,4 +123,5 @@ messages:
     - "&e/choden sell point <giá> &7- Bán item bằng Points"
     - "&e/choden cancel <id> &7- Hủy listing"
     - "&e/choden my &7- Xem listings của bạn"
-    - "&e/choden nhan &7- Nhận item hết hạn"
+    - "&e/choden hethan &7- Xem danh sách item hết hạn"
+    - "&e/choden nhan &7- Nhận tất cả item hết hạn"
