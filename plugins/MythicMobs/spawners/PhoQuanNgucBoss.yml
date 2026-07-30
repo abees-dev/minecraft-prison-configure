@@ -15,9 +15,9 @@ PhoQuanNgucBoss:
   MobsPerSpawn: 1
   Cooldown: 900
   Warmup: 0
-  ActivationRange: 32.0
+  ActivationRange: 20.0
   ScalingRange: 25.0
-  LeashRange: 32.0
+  LeashRange: 48.0
   HealOnLeash: false
   ResetThreatOnLeash: false
   Breakable: false
@@ -26,4 +26,4 @@ PhoQuanNgucBoss:
   Conditions: []
   SpawnConditions: []
   ActiveMobs: 1
-  CooldownTimer: 883
+  CooldownTimer: 252

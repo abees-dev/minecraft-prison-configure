@@ -14,9 +14,9 @@ TanBinhBoss:
   MobsPerSpawn: 1
   Cooldown: 900
   Warmup: 0
-  ActivationRange: 32.0
+  ActivationRange: 20.0
   ScalingRange: 25.0
-  LeashRange: 32.0
+  LeashRange: 48.0
   HealOnLeash: false
   ResetThreatOnLeash: false
   Breakable: false
@@ -25,4 +25,4 @@ TanBinhBoss:
   Conditions: []
   SpawnConditions: []
   ActiveMobs: 1
-  CooldownTimer: 739
+  CooldownTimer: 107

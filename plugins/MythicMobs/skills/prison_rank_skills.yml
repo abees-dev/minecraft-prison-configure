@@ -3,6 +3,15 @@
 # STRENGTH + SPEED tam thoi kem am thanh/hieu ung canh bao nguoi choi.
 # Nguong h=<X duoc tinh = 50% Health cua tung Boss trong prison_rank_mobs.yml.
 
+# Soft-despawn Normal/Elite khi khong con player trong 40 block (~10s check).
+# Dung remove (khong onDeath) de khong drop / khong spam message.
+# Boss KHONG dung skill nay: onDeath bat hologram timer DecentHolograms.
+Prison_Despawn_No_Players:
+  Conditions:
+    - playersInRadius{r=40} false
+  Skills:
+    - remove @self
+
 Prison_Tan_Binh_Enrage:
   Cooldown: 20
   Conditions:

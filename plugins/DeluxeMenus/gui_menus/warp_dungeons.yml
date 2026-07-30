@@ -1,11 +1,11 @@
 # =============================================================================
-# WARP DUNGEONS - Rank dungeon 1–9
+# WARP DUNGEONS - dungeon + dungeon2
 # =============================================================================
 menu_title: '&8❖ &c&lDUNGEON &8❖'
 open_command: []
 open_commands:
   - '[sound] BLOCK_NOTE_BLOCK_CHIME'
-size: 36
+size: 27
 
 items:
   'filler':
@@ -19,6 +19,12 @@ items:
       - 6
       - 7
       - 8
+      - 9
+      - 10
+      - 12
+      - 14
+      - 16
+      - 17
       - 18
       - 19
       - 20
@@ -26,14 +32,6 @@ items:
       - 23
       - 24
       - 25
-      - 26
-      - 28
-      - 29
-      - 30
-      - 31
-      - 32
-      - 33
-      - 34
     display_name: ' '
     lore: []
 
@@ -44,153 +42,39 @@ items:
     hide_attributes: true
     display_name: '&c&l⚔ DANH SÁCH DUNGEON'
     lore:
-      - '&7Teleport gần khu Normal của từng rank.'
-      - '&8Rank 1–5 → &7world_dungeon'
-      - '&8Rank 6–9 → &7world_magadungeon'
+      - '&7Chọn khu dungeon để dịch chuyển.'
+      - '&8Dungeon &7→ &eworld_dungeon'
+      - '&8Dungeon 2 &7→ &eworld_magadungeon'
 
-  'dungeon1':
-    material: WOODEN_SWORD
-    slot: 9
+  'dungeon':
+    material: DIAMOND_SWORD
+    slot: 11
     glow: true
     hide_attributes: true
-    display_name: '&f&lDungeon 1 &8» &fTân Binh'
+    display_name: '&b&lDungeon &8» &fWorld Dungeon'
     lore:
       - '&7World: &eworld_dungeon'
-      - '&7Gần spawner Normal rank 1'
       - ''
       - '&e» Click để dịch chuyển'
     click_commands:
       - '[sound] ENTITY_ENDERMAN_TELEPORT'
       - '[close]'
-      - '[player] essentials:warp dungeon1'
+      - '[player] essentials:warp dungeon'
 
   'dungeon2':
-    material: STONE_SWORD
-    slot: 10
+    material: NETHERITE_SWORD
+    slot: 15
     glow: true
     hide_attributes: true
-    display_name: '&7&lDungeon 2 &8» &7Tù Nhân'
+    display_name: '&5&lDungeon 2 &8» &dWorld MagaDungeon'
     lore:
-      - '&7World: &eworld_dungeon'
-      - '&7Gần spawner Normal rank 2'
+      - '&7World: &eworld_magadungeon'
       - ''
       - '&e» Click để dịch chuyển'
     click_commands:
       - '[sound] ENTITY_ENDERMAN_TELEPORT'
       - '[close]'
       - '[player] essentials:warp dungeon2'
-
-  'dungeon3':
-    material: IRON_SWORD
-    slot: 11
-    glow: true
-    hide_attributes: true
-    display_name: '&f&lDungeon 3 &8» &aLao Công'
-    lore:
-      - '&7World: &eworld_dungeon'
-      - '&7Gần spawner Normal rank 3'
-      - ''
-      - '&e» Click để dịch chuyển'
-    click_commands:
-      - '[sound] ENTITY_ENDERMAN_TELEPORT'
-      - '[close]'
-      - '[player] essentials:warp dungeon3'
-
-  'dungeon4':
-    material: GOLDEN_SWORD
-    slot: 12
-    glow: true
-    hide_attributes: true
-    display_name: '&6&lDungeon 4 &8» &2Thợ Đào'
-    lore:
-      - '&7World: &eworld_dungeon'
-      - '&7Gần spawner Normal rank 4'
-      - ''
-      - '&e» Click để dịch chuyển'
-    click_commands:
-      - '[sound] ENTITY_ENDERMAN_TELEPORT'
-      - '[close]'
-      - '[player] essentials:warp dungeon4'
-
-  'dungeon5':
-    material: DIAMOND_SWORD
-    slot: 13
-    glow: true
-    hide_attributes: true
-    display_name: '&b&lDungeon 5 &8» &bĐội Trưởng'
-    lore:
-      - '&7World: &eworld_dungeon'
-      - '&7Gần spawner Normal rank 5'
-      - ''
-      - '&e» Click để dịch chuyển'
-    click_commands:
-      - '[sound] ENTITY_ENDERMAN_TELEPORT'
-      - '[close]'
-      - '[player] essentials:warp dungeon5'
-
-  'dungeon6':
-    material: TRIDENT
-    slot: 14
-    glow: true
-    hide_attributes: true
-    display_name: '&9&lDungeon 6 &8» &9Phó Quản Ngục'
-    lore:
-      - '&7World: &eworld_magadungeon'
-      - '&7Gần spawner Normal rank 6'
-      - ''
-      - '&e» Click để dịch chuyển'
-    click_commands:
-      - '[sound] ENTITY_ENDERMAN_TELEPORT'
-      - '[close]'
-      - '[player] essentials:warp dungeon6'
-
-  'dungeon7':
-    material: NETHERITE_SWORD
-    slot: 15
-    glow: true
-    hide_attributes: true
-    display_name: '&5&lDungeon 7 &8» &dQuản Ngục'
-    lore:
-      - '&7World: &eworld_magadungeon'
-      - '&7Gần spawner Normal rank 7'
-      - ''
-      - '&e» Click để dịch chuyển'
-    click_commands:
-      - '[sound] ENTITY_ENDERMAN_TELEPORT'
-      - '[close]'
-      - '[player] essentials:warp dungeon7'
-
-  'dungeon8':
-    material: NETHERITE_AXE
-    slot: 16
-    glow: true
-    hide_attributes: true
-    display_name: '&6&lDungeon 8 &8» &6Bá Chủ Ngục Tù'
-    lore:
-      - '&7World: &eworld_magadungeon'
-      - '&7Gần spawner Normal rank 8'
-      - ''
-      - '&e» Click để dịch chuyển'
-    click_commands:
-      - '[sound] ENTITY_ENDERMAN_TELEPORT'
-      - '[close]'
-      - '[player] essentials:warp dungeon8'
-
-  'dungeon9':
-    material: NETHER_STAR
-    slot: 17
-    glow: true
-    hide_attributes: true
-    display_name: '&c&lDungeon 9 &8» &cVượt Ngục'
-    lore:
-      - '&7World: &eworld_magadungeon'
-      - '&7Gần spawner Normal rank 9'
-      - ''
-      - '&e» Click để dịch chuyển'
-    click_commands:
-      - '[sound] ENTITY_ENDERMAN_TELEPORT'
-      - '[close]'
-      - '[player] essentials:warp dungeon9'
 
   'back':
     material: ARROW
@@ -205,7 +89,7 @@ items:
 
   'close':
     material: BARRIER
-    slot: 31
+    slot: 26
     hide_attributes: true
     display_name: '&c&l✖ Đóng'
     lore:

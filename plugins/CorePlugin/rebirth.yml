@@ -1,0 +1,163 @@
+# ============================================================================
+# CorePlugin - Rebirth ("Chuyển Sinh") module configuration
+# ============================================================================
+# Kotlin port of Skript/scripts/rebirth/{config,main}.sk: the rebirth + perk
+# tree GUI opened by /chuyensinh (alias: /rebirth), admin commands
+# /givedachuyensinh, /setcs, /resetcs, /csaura, the combat perk buffs, the
+# particle aura loop and the permanent MMOCore EXP bonus.
+#
+# Player progression (rebirth level, skill points, perk levels, aura toggle)
+# is NOT in this file - it lives in rebirth-data.yml next to it, which the
+# plugin rewrites automatically. Only edit THIS file.
+#
+# Changes take effect after either:
+#   - /chuyensinh reload   (requires permission: coreplugin.rebirth.admin)
+#   - a server restart
+#
+# This file is only copied out ONCE, the first time the module starts. If a
+# key is missing the plugin falls back to a safe built-in default instead of
+# breaking - it will NOT overwrite or regenerate this file, so your comments
+# and edits are safe.
+# ============================================================================
+
+# Maximum rebirth level (the Skript's get_cs_max_level()).
+max-level: 20
+
+# Skill points awarded per rebirth.
+points-per-rebirth: 3
+
+# Permanent MMOCore EXP bonus per rebirth level (0.05 = +5%/level).
+exp-bonus-per-level: 0.05
+
+# Requirements to rebirth. rank is checked through the permission pattern
+# below (the Skript checked "group.xprison_rank_9"), NOT through the X-Prison
+# API - keep it in sync with your LuckPerms group names.
+requirements:
+  rank: 9
+  rank-display: "Rank 9 [Vượt Ngục]"
+  rank-permission-pattern: "group.xprison_rank_{rank}"
+  mmocore-level: 100
+  money: 100000000
+  stone-id: DA_CHUYEN_SINH
+
+gui:
+  # Inventory title. Legacy '&' color codes.
+  title: "&8[✦] &d&lCHUYỂN SINH &8❖ &e&lCÂY KỸ NĂNG &8[✦]"
+  rows: 6
+  slots:
+    info: 4
+    req-rank: 10
+    req-level: 11
+    req-money: 12
+    req-stone: 13
+    confirm: 15
+    divider-book: 22
+    aura: 49
+    perks:
+      speed: 28
+      damage: 29
+      defense: 30
+      lifesteal: 31
+      money: 32
+      drop: 33
+
+# The 6 perks. display is used in chat messages; the GUI lore is built in
+# code with the per-level effect values below. money/drop/speed are data-only
+# exactly like the Skript (no listener applies them - other systems may read
+# their levels), while damage/defense/lifesteal are applied on combat here.
+perks:
+  speed:
+    display: "&e⚡ Thần Phong"
+    max-level: 10
+  damage:
+    display: "&c🗡️ Sát Thương Thần Thoại"
+    max-level: 10
+  defense:
+    display: "&b🛡️ Bất Hoại"
+    max-level: 10
+  lifesteal:
+    display: "&4🩸 HUYẾT MA"
+    max-level: 10
+  money:
+    display: "&6💰 PHÚ HỘ"
+    max-level: 10
+  drop:
+    display: "&a💎 MAY MẮN THẦN THÁNH"
+    max-level: 10
+
+# Combat effect strength per perk level (fractions: 0.04 = 4%).
+effects:
+  damage-per-level: 0.04
+  defense-per-level: 0.03
+  lifesteal-per-level: 0.015
+
+# Server-wide particle aura loop (per-player toggle lives in the GUI).
+# The server-wide on/off switch itself (/csaura) is stored in rebirth-data.yml.
+aura:
+  period-seconds: 1
+  # Rebirth level thresholds for the fancier particle tiers.
+  tier2-at-level: 5
+  tier3-at-level: 10
+
+# Chat suffix set through LuckPerms after every rebirth level change. Tiers
+# are checked from the highest min-level down; {level} is the rebirth level.
+prefix-tiers:
+  - min-level: 20
+    prefix: "&4&l🔥{level} "
+  - min-level: 10
+    prefix: "&d&l👑{level} "
+  - min-level: 5
+    prefix: "&b&l⚡{level} "
+  - min-level: 3
+    prefix: "&e&l★{level} "
+  - min-level: 0
+    prefix: "&c&l❖{level} "
+
+# Console command templates. {player} {amount} {id} {prefix} are substituted.
+commands:
+  take-stone: "mmoitems take MATERIAL {id} {player} {amount}"
+  give-stone: "mmoitems give MATERIAL {id} {player} {amount}"
+  set-suffix: "lp user {player} meta setsuffix 100 \"{prefix}\""
+  unset-suffix: "lp user {player} meta unsetsuffix 100"
+  # Only run when the direct MMOCore API reset fails (the Skript always ran
+  # these three syntax variants blindly; the API call is the primary path).
+  mmocore-reset-fallbacks:
+    - "mmocore admin level set {player} 1"
+    - "mmocore admin set level {player} 1"
+    - "mmocore admin set-level {player} 1"
+
+# Legacy '&' color codes. {placeholders} substituted per message.
+messages:
+  error:
+    max-level: "&c&l❖ [LỖI] &fBạn đã đạt Cấp Chuyển Sinh tối đa (&e{max}/{max}&f)!"
+    need-rank: "&c&l❖ [LỖI] &fBạn phải đạt &e&l{rank} &fmới có thể Chuyển Sinh!"
+    need-level: "&c&l❖ [LỖI] &fBạn phải đạt &e&lMMOCore Level {level} &fmới có thể Chuyển Sinh!"
+    need-money: "&c&l❖ [LỖI] &fBạn cần &e&l${money} Money &fđể Chuyển Sinh!"
+    need-stone: "&c&l❖ [LỖI] &fBạn cần &d&l1x Đá Chuyển Sinh &ftrong túi đồ để Chuyển Sinh!"
+    no-points: "&c&l❖ [LỖI] &fBạn không có đủ Điểm Kỹ Năng Chuyển Sinh! Hãy Chuyển Sinh để nhận thêm điểm."
+  perk:
+    maxed: "&c&l❖ [NÂNG CẤP] &fKỹ năng {perk} &fđã đạt Cấp tối đa ({max}/{max})!"
+    upgraded: "&a&l❖ [NÂNG CẤP] &fĐã nâng cấp kỹ năng {perk} &flên &e&lCấp {level}/{max}&f!"
+  aura:
+    enabled: "&a&l❖ [HÀO QUANG] &fĐã &a&lBẬT &fhiệu ứng Hào Quang Chuyển Sinh!"
+    disabled: "&c&l❖ [HÀO QUANG] &fĐã &c&lTẮT &fhiệu ứng Hào Quang Chuyển Sinh!"
+  success:
+    title: "&a&lCHUYỂN SINH THÀNH CÔNG!"
+    subtitle: "&fCấp Chuyển Sinh: &e&lLần {level} &7(+{points} Điểm Kỹ Năng)"
+    broadcast:
+      - "&d&l━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+      - "&d&l❖ HỆ THỐNG CHUYỂN SINH ❖"
+      - "&fNgười chơi &e&l{player} &fđã xuất sắc &a&lCHUYỂN SINH LẦN {level}&f!"
+      - "&7• Reset về &fMMOCore Level 1 &7(Giữ nguyên Rank Prison)."
+      - "&7• Tiêu hao &d1x Đá Chuyển Sinh &7và nhận &a&l+{points} Điểm Kỹ Năng&7!"
+      - "&7• Thưởng vĩnh viễn &a&l+{bonus}% EXP MMOCore &7từ quái!"
+      - "&d&l━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+  admin:
+    no-permission: "&cBạn không có quyền dùng lệnh này!"
+    gave-stone: "&a&l[ADMIN] &fĐã trao &e{amount}x Đá Chuyển Sinh &fcho &b{player}&f!"
+    set-cs: "&a&l[ADMIN] &fĐã đặt cấp Chuyển Sinh cho &e{player} &fthành &aLần {level}&f!"
+    reset-cs: "&a&l[ADMIN] &fĐã reset toàn bộ dữ liệu Chuyển Sinh & Cây Kỹ Năng của &e{player} &fvề 0!"
+    aura-on: "&a&l[ADMIN] &fĐã &a&lBẬT &fhiệu ứng Hào Quang Particle toàn Server!"
+    aura-off: "&c&l[ADMIN] &fĐã &c&lTẮT &fhiệu ứng Hào Quang Particle toàn Server!"
+    player-not-found: "&cKhông tìm thấy người chơi {player}."
+    reload-ok: "&a[Rebirth] Đã tải lại rebirth.yml."

@@ -39,12 +39,14 @@ PRISON_TAN_BINH_NORMAL:
     - WOODEN_SWORD HAND
   Options:
     PreventOtherDrops: true
+    FollowRange: 40
     MovementSpeed: 0.23
     Despawn: true
     PreventSunburn: true
   Drops:
     - prison_rank1_normal_drops
   Skills:
+    - skill{s=Prison_Despawn_No_Players} @self ~onTimer:200
     - throw{velocity=4;velocityY=3} @target 0.15
 
 PRISON_TAN_BINH_ELITE:
@@ -56,6 +58,7 @@ PRISON_TAN_BINH_ELITE:
     - WOODEN_SWORD HAND
   Options:
     PreventOtherDrops: true
+    FollowRange: 40
     MovementSpeed: 0.25
     Scale: 1.15
     Despawn: true
@@ -63,6 +66,7 @@ PRISON_TAN_BINH_ELITE:
   Drops:
     - prison_rank1_elite_drops
   Skills:
+    - skill{s=Prison_Despawn_No_Players} @self ~onTimer:200
     - throw{velocity=1.2;velocityY=0.4} @target 0.3
     - potion{type=WEAKNESS;duration=80;lvl=1} @target 0.25
     - heal{amount=3} @self ~onTimer:100
@@ -76,6 +80,7 @@ PRISON_TAN_BINH_BOSS:
     - STONE_SWORD HAND
   Options:
     PreventOtherDrops: true
+    FollowRange: 40
     MovementSpeed: 0.26
     Scale: 1.4
     AlwaysShowName: true
@@ -110,12 +115,14 @@ PRISON_TU_NHAN_NORMAL:
     - STONE_SWORD HAND
   Options:
     PreventOtherDrops: true
+    FollowRange: 40
     MovementSpeed: 0.24
     Despawn: true
     PreventSunburn: true
   Drops:
     - prison_rank2_normal_drops
   Skills:
+    - skill{s=Prison_Despawn_No_Players} @self ~onTimer:200
     - potion{type=WEAKNESS;duration=60;lvl=1} @target 0.15
 
 PRISON_TU_NHAN_ELITE:
@@ -128,6 +135,7 @@ PRISON_TU_NHAN_ELITE:
     - LEATHER_CHESTPLATE CHEST
   Options:
     PreventOtherDrops: true
+    FollowRange: 40
     MovementSpeed: 0.25
     Scale: 1.15
     Despawn: true
@@ -135,6 +143,7 @@ PRISON_TU_NHAN_ELITE:
   Drops:
     - prison_rank2_elite_drops
   Skills:
+    - skill{s=Prison_Despawn_No_Players} @self ~onTimer:200
     - throw{velocity=1.2;velocityY=0.4} @target 0.3
     - potion{type=SLOW;duration=80;lvl=1} @target 0.25
     - heal{amount=5} @self ~onTimer:100
@@ -149,6 +158,7 @@ PRISON_TU_NHAN_BOSS:
     - LEATHER_CHESTPLATE CHEST
   Options:
     PreventOtherDrops: true
+    FollowRange: 40
     MovementSpeed: 0.26
     Scale: 1.4
     AlwaysShowName: true
@@ -183,12 +193,14 @@ PRISON_LAO_CONG_NORMAL:
     - IRON_SWORD HAND
   Options:
     PreventOtherDrops: true
+    FollowRange: 40
     MovementSpeed: 0.24
     Despawn: true
     PreventSunburn: true
   Drops:
     - prison_rank3_normal_drops
   Skills:
+    - skill{s=Prison_Despawn_No_Players} @self ~onTimer:200
     - potion{type=SLOW;duration=60;lvl=1} @target 0.15
 
 PRISON_LAO_CONG_ELITE:
@@ -202,6 +214,7 @@ PRISON_LAO_CONG_ELITE:
     - IRON_CHESTPLATE CHEST
   Options:
     PreventOtherDrops: true
+    FollowRange: 40
     MovementSpeed: 0.25
     Scale: 1.15
     Despawn: true
@@ -209,6 +222,7 @@ PRISON_LAO_CONG_ELITE:
   Drops:
     - prison_rank3_elite_drops
   Skills:
+    - skill{s=Prison_Despawn_No_Players} @self ~onTimer:200
     - throw{velocity=1.3;velocityY=0.4} @target 0.3
     - damage{amount=8;ignorearmor=true} @PlayersInRadius{r=3} 0.2
     - heal{amount=7} @self ~onTimer:100
@@ -226,6 +240,7 @@ PRISON_LAO_CONG_BOSS:
     - IRON_BOOTS FEET
   Options:
     PreventOtherDrops: true
+    FollowRange: 40
     MovementSpeed: 0.26
     Scale: 1.4
     AlwaysShowName: true
@@ -261,12 +276,14 @@ PRISON_THO_DAO_NORMAL:
     - IRON_HELMET HEAD
   Options:
     PreventOtherDrops: true
+    FollowRange: 40
     MovementSpeed: 0.24
     Despawn: true
     PreventSunburn: true
   Drops:
     - prison_rank4_normal_drops
   Skills:
+    - skill{s=Prison_Despawn_No_Players} @self ~onTimer:200
     - potion{type=WITHER;duration=40;lvl=1} @target 0.15
 
 PRISON_THO_DAO_ELITE:
@@ -281,6 +298,7 @@ PRISON_THO_DAO_ELITE:
     - IRON_LEGGINGS LEGS
   Options:
     PreventOtherDrops: true
+    FollowRange: 40
     MovementSpeed: 0.25
     Scale: 1.15
     Despawn: true
@@ -288,6 +306,7 @@ PRISON_THO_DAO_ELITE:
   Drops:
     - prison_rank4_elite_drops
   Skills:
+    - skill{s=Prison_Despawn_No_Players} @self ~onTimer:200
     - throw{velocity=1.3;velocityY=0.4} @target 0.3
     - potion{type=WITHER;duration=60;lvl=1} @target 0.25
     - heal{amount=9} @self ~onTimer:100
@@ -305,6 +324,7 @@ PRISON_THO_DAO_BOSS:
     - IRON_BOOTS FEET
   Options:
     PreventOtherDrops: true
+    FollowRange: 40
     MovementSpeed: 0.26
     Scale: 1.4
     AlwaysShowName: true
@@ -339,12 +359,14 @@ PRISON_DOI_TRUONG_NORMAL:
     - DIAMOND_SWORD HAND
   Options:
     PreventOtherDrops: true
+    FollowRange: 40
     MovementSpeed: 0.25
     Despawn: true
     PreventSunburn: true
   Drops:
     - prison_rank5_normal_drops
   Skills:
+    - skill{s=Prison_Despawn_No_Players} @self ~onTimer:200
     - throw{velocity=5;velocityY=4} @target 0.15
 
 PRISON_DOI_TRUONG_ELITE:
@@ -357,6 +379,7 @@ PRISON_DOI_TRUONG_ELITE:
     - DIAMOND_CHESTPLATE CHEST
   Options:
     PreventOtherDrops: true
+    FollowRange: 40
     MovementSpeed: 0.26
     Scale: 1.15
     Despawn: true
@@ -364,6 +387,7 @@ PRISON_DOI_TRUONG_ELITE:
   Drops:
     - prison_rank5_elite_drops
   Skills:
+    - skill{s=Prison_Despawn_No_Players} @self ~onTimer:200
     - throw{velocity=1.4;velocityY=0.4} @target 0.3
     - potion{type=INCREASE_DAMAGE;lvl=1;duration=60} @self 0.15
     - heal{amount=23} @self ~onTimer:100
@@ -381,6 +405,7 @@ PRISON_DOI_TRUONG_BOSS:
     - DIAMOND_BOOTS FEET
   Options:
     PreventOtherDrops: true
+    FollowRange: 40
     MovementSpeed: 0.27
     Scale: 1.4
     AlwaysShowName: true
@@ -416,12 +441,14 @@ PRISON_PHO_QUAN_NGUC_NORMAL:
     - DIAMOND_SWORD HAND
   Options:
     PreventOtherDrops: true
+    FollowRange: 40
     MovementSpeed: 0.25
     Despawn: true
     PreventSunburn: true
   Drops:
     - prison_rank6_normal_drops
   Skills:
+    - skill{s=Prison_Despawn_No_Players} @self ~onTimer:200
     - potion{type=WEAKNESS;duration=80;lvl=1} @target 0.15
 
 PRISON_PHO_QUAN_NGUC_ELITE:
@@ -435,6 +462,7 @@ PRISON_PHO_QUAN_NGUC_ELITE:
     - DIAMOND_LEGGINGS LEGS
   Options:
     PreventOtherDrops: true
+    FollowRange: 40
     MovementSpeed: 0.26
     Scale: 1.2
     Despawn: true
@@ -442,6 +470,7 @@ PRISON_PHO_QUAN_NGUC_ELITE:
   Drops:
     - prison_rank6_elite_drops
   Skills:
+    - skill{s=Prison_Despawn_No_Players} @self ~onTimer:200
     - throw{velocity=1.4;velocityY=0.4} @target 0.3
     - damage{amount=24;ignorearmor=true} @PlayersInRadius{r=3} 0.2
     - heal{amount=30} @self ~onTimer:100
@@ -459,6 +488,7 @@ PRISON_PHO_QUAN_NGUC_BOSS:
     - DIAMOND_BOOTS FEET
   Options:
     PreventOtherDrops: true
+    FollowRange: 40
     MovementSpeed: 0.27
     Scale: 1.45
     AlwaysShowName: true
@@ -494,12 +524,14 @@ PRISON_QUAN_NGUC_NORMAL:
     - NETHERITE_SWORD HAND
   Options:
     PreventOtherDrops: true
+    FollowRange: 40
     MovementSpeed: 0.25
     Despawn: true
     PreventSunburn: true
   Drops:
     - prison_rank7_normal_drops
   Skills:
+    - skill{s=Prison_Despawn_No_Players} @self ~onTimer:200
     - potion{type=WITHER;duration=60;lvl=2} @target 0.15
 
 PRISON_QUAN_NGUC_ELITE:
@@ -512,6 +544,7 @@ PRISON_QUAN_NGUC_ELITE:
     - NETHERITE_CHESTPLATE CHEST
   Options:
     PreventOtherDrops: true
+    FollowRange: 40
     MovementSpeed: 0.26
     Scale: 1.2
     Despawn: true
@@ -519,6 +552,7 @@ PRISON_QUAN_NGUC_ELITE:
   Drops:
     - prison_rank7_elite_drops
   Skills:
+    - skill{s=Prison_Despawn_No_Players} @self ~onTimer:200
     - throw{velocity=1.5;velocityY=0.4} @target 0.3
     - potion{type=WITHER;duration=80;lvl=2} @target 0.25
     - heal{amount=39} @self ~onTimer:100
@@ -536,6 +570,7 @@ PRISON_QUAN_NGUC_BOSS:
     - NETHERITE_BOOTS FEET
   Options:
     PreventOtherDrops: true
+    FollowRange: 40
     MovementSpeed: 0.27
     Scale: 1.5
     AlwaysShowName: true
@@ -572,12 +607,14 @@ PRISON_BA_CHU_NGUC_TU_NORMAL:
     - NETHERITE_HELMET HEAD
   Options:
     PreventOtherDrops: true
+    FollowRange: 40
     MovementSpeed: 0.26
     Despawn: true
     PreventSunburn: true
   Drops:
     - prison_rank8_normal_drops
   Skills:
+    - skill{s=Prison_Despawn_No_Players} @self ~onTimer:200
     - potion{type=SLOW;duration=80;lvl=2} @target 0.15
 
 PRISON_BA_CHU_NGUC_TU_ELITE:
@@ -592,6 +629,7 @@ PRISON_BA_CHU_NGUC_TU_ELITE:
     - NETHERITE_LEGGINGS LEGS
   Options:
     PreventOtherDrops: true
+    FollowRange: 40
     MovementSpeed: 0.27
     Scale: 1.25
     Despawn: true
@@ -599,6 +637,7 @@ PRISON_BA_CHU_NGUC_TU_ELITE:
   Drops:
     - prison_rank8_elite_drops
   Skills:
+    - skill{s=Prison_Despawn_No_Players} @self ~onTimer:200
     - throw{velocity=1.5;velocityY=0.4} @target 0.3
     - potion{type=INCREASE_DAMAGE;lvl=1;duration=60} @self 0.15
     - heal{amount=50} @self ~onTimer:100
@@ -616,6 +655,7 @@ PRISON_BA_CHU_NGUC_TU_BOSS:
     - NETHERITE_BOOTS FEET
   Options:
     PreventOtherDrops: true
+    FollowRange: 40
     MovementSpeed: 0.28
     Scale: 1.55
     AlwaysShowName: true
@@ -652,12 +692,14 @@ PRISON_VUOT_NGUC_NORMAL:
     - NETHERITE_HELMET HEAD
   Options:
     PreventOtherDrops: true
+    FollowRange: 40
     MovementSpeed: 0.26
     Despawn: true
     PreventSunburn: true
   Drops:
     - prison_rank9_normal_drops
   Skills:
+    - skill{s=Prison_Despawn_No_Players} @self ~onTimer:200
     - throw{velocity=6;velocityY=5} @target 0.15
 
 PRISON_VUOT_NGUC_ELITE:
@@ -672,6 +714,7 @@ PRISON_VUOT_NGUC_ELITE:
     - NETHERITE_LEGGINGS LEGS
   Options:
     PreventOtherDrops: true
+    FollowRange: 40
     MovementSpeed: 0.27
     Scale: 1.3
     Despawn: true
@@ -679,6 +722,7 @@ PRISON_VUOT_NGUC_ELITE:
   Drops:
     - prison_rank9_elite_drops
   Skills:
+    - skill{s=Prison_Despawn_No_Players} @self ~onTimer:200
     - throw{velocity=1.6;velocityY=0.4} @target 0.3
     - damage{amount=32;ignorearmor=true} @PlayersInRadius{r=3} 0.2
     - heal{amount=63} @self ~onTimer:100
@@ -696,6 +740,7 @@ PRISON_VUOT_NGUC_BOSS:
     - NETHERITE_BOOTS FEET
   Options:
     PreventOtherDrops: true
+    FollowRange: 40
     MovementSpeed: 0.28
     Scale: 1.6
     AlwaysShowName: true
@@ -768,6 +813,7 @@ PRISON_MA_VUONG_BOSS:
     - NETHERITE_SWORD HAND
   Options:
     PreventOtherDrops: true
+    FollowRange: 40
     MovementSpeed: 2.0
     Scale: 1.9
     AlwaysShowName: true
