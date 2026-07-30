@@ -25,7 +25,7 @@ Rewards:
   List:
     cyan_gem_lv_1:
       Name: '&b&lBăng Ngọc &e&lLv.I'
-      Weight: 45.0
+      Weight: 450
       Rarity: common
       Broadcast: false
       Placeholder_Apply: true
@@ -47,7 +47,7 @@ Rewards:
       Ignored_For_Permissions: []
     cyan_gem_lv_2:
       Name: '&b&lBăng Ngọc &e&lLv.II'
-      Weight: 25.0
+      Weight: 250
       Rarity: common
       Broadcast: false
       Placeholder_Apply: true
@@ -69,7 +69,7 @@ Rewards:
       Ignored_For_Permissions: []
     cyan_gem_lv_3:
       Name: '&b&lBăng Ngọc &e&lLv.III'
-      Weight: 12.0
+      Weight: 120
       Rarity: common
       Broadcast: false
       Placeholder_Apply: true
@@ -91,8 +91,8 @@ Rewards:
       Ignored_For_Permissions: []
     cyan_gem_lv_4:
       Name: '&b&lBăng Ngọc &e&lLv.IV'
-      Weight: 7.0
-      Rarity: common
+      Weight: 70
+      Rarity: uncommon
       Broadcast: false
       Placeholder_Apply: true
       Win_Limit:
@@ -113,8 +113,8 @@ Rewards:
       Ignored_For_Permissions: []
     cyan_gem_lv_5:
       Name: '&b&lBăng Ngọc &e&lLv.V'
-      Weight: 5.0
-      Rarity: common
+      Weight: 50
+      Rarity: uncommon
       Broadcast: false
       Placeholder_Apply: true
       Win_Limit:
@@ -135,8 +135,8 @@ Rewards:
       Ignored_For_Permissions: []
     cyan_gem_lv_6:
       Name: '&b&lBăng Ngọc &e&lLv.VI'
-      Weight: 3.0
-      Rarity: common
+      Weight: 30
+      Rarity: rare
       Broadcast: false
       Placeholder_Apply: true
       Win_Limit:
@@ -157,8 +157,8 @@ Rewards:
       Ignored_For_Permissions: []
     cyan_gem_lv_7:
       Name: '&b&lBăng Ngọc &e&lLv.VII'
-      Weight: 1.8
-      Rarity: common
+      Weight: 18
+      Rarity: rare
       Broadcast: false
       Placeholder_Apply: true
       Win_Limit:
@@ -179,8 +179,8 @@ Rewards:
       Ignored_For_Permissions: []
     cyan_gem_lv_8:
       Name: '&b&lBăng Ngọc &e&lLv.VIII'
-      Weight: 0.8
-      Rarity: common
+      Weight: 8
+      Rarity: legendary
       Broadcast: true
       Placeholder_Apply: true
       Win_Limit:
@@ -203,8 +203,8 @@ Rewards:
       Ignored_For_Permissions: []
     cyan_gem_lv_9:
       Name: '&b&lBăng Ngọc &e&lLv.IX'
-      Weight: 0.3
-      Rarity: common
+      Weight: 3
+      Rarity: legendary
       Broadcast: true
       Placeholder_Apply: true
       Win_Limit:
@@ -227,8 +227,8 @@ Rewards:
       Ignored_For_Permissions: []
     cyan_gem_lv_10:
       Name: '&b&lBăng Ngọc &e&lLv.X'
-      Weight: 0.1
-      Rarity: common
+      Weight: 1
+      Rarity: legendary
       Broadcast: true
       Placeholder_Apply: true
       Win_Limit:

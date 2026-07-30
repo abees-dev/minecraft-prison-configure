@@ -34,9 +34,9 @@ Milestones:
 Rewards:
   List:
     reward_trade_hoa_helmet:
-      Name: '&6&l🔥 Hỏa Long Mũ'
+      Name: '&6&lHỏa Long Mũ'
       Weight: 10
-      Rarity: common
+      Rarity: uncommon
       Broadcast: false
       Placeholder_Apply: false
       Win_Limit:
@@ -56,9 +56,9 @@ Rewards:
       - execute as %player_name% at @s run playsound entity.player.levelup master @s ~ ~ ~ 1 1.0
       Ignored_For_Permissions: []
     reward_trade_hoa_chest:
-      Name: '&6&l🔥 Hỏa Long Giáp'
+      Name: '&6&lHỏa Long Giáp'
       Weight: 10
-      Rarity: common
+      Rarity: uncommon
       Broadcast: false
       Placeholder_Apply: false
       Win_Limit:
@@ -78,9 +78,9 @@ Rewards:
       - execute as %player_name% at @s run playsound entity.player.levelup master @s ~ ~ ~ 1 1.0
       Ignored_For_Permissions: []
     reward_trade_hoa_legs:
-      Name: '&6&l🔥 Hỏa Long Hộ Tất'
+      Name: '&6&lHỏa Long Hộ Tất'
       Weight: 10
-      Rarity: common
+      Rarity: uncommon
       Broadcast: false
       Placeholder_Apply: false
       Win_Limit:
@@ -100,9 +100,9 @@ Rewards:
       - execute as %player_name% at @s run playsound entity.player.levelup master @s ~ ~ ~ 1 1.0
       Ignored_For_Permissions: []
     reward_trade_hoa_boots:
-      Name: '&6&l🔥 Hỏa Long Hài'
+      Name: '&6&lHỏa Long Hài'
       Weight: 10
-      Rarity: common
+      Rarity: uncommon
       Broadcast: false
       Placeholder_Apply: false
       Win_Limit:
@@ -122,9 +122,9 @@ Rewards:
       - execute as %player_name% at @s run playsound entity.player.levelup master @s ~ ~ ~ 1 1.0
       Ignored_For_Permissions: []
     reward_trade_hoa_sword:
-      Name: '&6&l🔥 Hỏa Long Kiếm'
+      Name: '&6&lHỏa Long Kiếm'
       Weight: 10
-      Rarity: common
+      Rarity: uncommon
       Broadcast: false
       Placeholder_Apply: false
       Win_Limit:
@@ -144,9 +144,9 @@ Rewards:
       - execute as %player_name% at @s run playsound entity.player.levelup master @s ~ ~ ~ 1 1.0
       Ignored_For_Permissions: []
     reward_trade_bang_helmet:
-      Name: '&3&l❄ Băng Long Mũ'
+      Name: '&3&lBăng Long Mũ'
       Weight: 10
-      Rarity: common
+      Rarity: uncommon
       Broadcast: false
       Placeholder_Apply: false
       Win_Limit:
@@ -166,9 +166,9 @@ Rewards:
       - execute as %player_name% at @s run playsound entity.player.levelup master @s ~ ~ ~ 1 1.0
       Ignored_For_Permissions: []
     reward_trade_bang_chest:
-      Name: '&3&l❄ Băng Long Giáp'
+      Name: '&3&lBăng Long Giáp'
       Weight: 10
-      Rarity: common
+      Rarity: uncommon
       Broadcast: false
       Placeholder_Apply: false
       Win_Limit:
@@ -188,9 +188,9 @@ Rewards:
       - execute as %player_name% at @s run playsound entity.player.levelup master @s ~ ~ ~ 1 1.0
       Ignored_For_Permissions: []
     reward_trade_bang_legs:
-      Name: '&3&l❄ Băng Long Hộ Tất'
+      Name: '&3&lBăng Long Hộ Tất'
       Weight: 10
-      Rarity: common
+      Rarity: uncommon
       Broadcast: false
       Placeholder_Apply: false
       Win_Limit:
@@ -210,9 +210,9 @@ Rewards:
       - execute as %player_name% at @s run playsound entity.player.levelup master @s ~ ~ ~ 1 1.0
       Ignored_For_Permissions: []
     reward_trade_bang_boots:
-      Name: '&3&l❄ Băng Long Hài'
+      Name: '&3&lBăng Long Hài'
       Weight: 10
-      Rarity: common
+      Rarity: uncommon
       Broadcast: false
       Placeholder_Apply: false
       Win_Limit:
@@ -232,9 +232,9 @@ Rewards:
       - execute as %player_name% at @s run playsound entity.player.levelup master @s ~ ~ ~ 1 1.0
       Ignored_For_Permissions: []
     reward_trade_bang_sword:
-      Name: '&3&l❄ Băng Long Kiếm'
+      Name: '&3&lBăng Long Kiếm'
       Weight: 10
-      Rarity: common
+      Rarity: uncommon
       Broadcast: false
       Placeholder_Apply: false
       Win_Limit:
@@ -254,9 +254,9 @@ Rewards:
       - execute as %player_name% at @s run playsound entity.player.levelup master @s ~ ~ ~ 1 1.0
       Ignored_For_Permissions: []
     reward_trade_hac_helmet:
-      Name: '&5&l☠ Hắc Long Mũ'
+      Name: '&5&lHắc Long Mũ'
       Weight: 10
-      Rarity: common
+      Rarity: uncommon
       Broadcast: false
       Placeholder_Apply: false
       Win_Limit:
@@ -276,9 +276,9 @@ Rewards:
       - execute as %player_name% at @s run playsound entity.player.levelup master @s ~ ~ ~ 1 1.0
       Ignored_For_Permissions: []
     reward_trade_hac_chest:
-      Name: '&5&l☠ Hắc Long Giáp'
+      Name: '&5&lHắc Long Giáp'
       Weight: 10
-      Rarity: common
+      Rarity: uncommon
       Broadcast: false
       Placeholder_Apply: false
       Win_Limit:
@@ -298,9 +298,9 @@ Rewards:
       - execute as %player_name% at @s run playsound entity.player.levelup master @s ~ ~ ~ 1 1.0
       Ignored_For_Permissions: []
     reward_trade_hac_legs:
-      Name: '&5&l☠ Hắc Long Hộ Tất'
+      Name: '&5&lHắc Long Hộ Tất'
       Weight: 10
-      Rarity: common
+      Rarity: uncommon
       Broadcast: false
       Placeholder_Apply: false
       Win_Limit:
@@ -320,9 +320,9 @@ Rewards:
       - execute as %player_name% at @s run playsound entity.player.levelup master @s ~ ~ ~ 1 1.0
       Ignored_For_Permissions: []
     reward_trade_hac_boots:
-      Name: '&5&l☠ Hắc Long Hài'
+      Name: '&5&lHắc Long Hài'
       Weight: 10
-      Rarity: common
+      Rarity: uncommon
       Broadcast: false
       Placeholder_Apply: false
       Win_Limit:
@@ -342,9 +342,9 @@ Rewards:
       - execute as %player_name% at @s run playsound entity.player.levelup master @s ~ ~ ~ 1 1.0
       Ignored_For_Permissions: []
     reward_trade_hac_sword:
-      Name: '&5&l☠ Hắc Long Kiếm'
+      Name: '&5&lHắc Long Kiếm'
       Weight: 10
-      Rarity: common
+      Rarity: uncommon
       Broadcast: false
       Placeholder_Apply: false
       Win_Limit:
@@ -364,8 +364,8 @@ Rewards:
       - execute as %player_name% at @s run playsound entity.player.levelup master @s ~ ~ ~ 1 1.0
       Ignored_For_Permissions: []
     reward_p_quan_helmet:
-      Name: '&d&l Quản Ngục Mũ I'
-      Weight: 7
+      Name: '&d&lQuản Ngục Mũ I'
+      Weight: 12
       Rarity: uncommon
       Broadcast: false
       Placeholder_Apply: false
@@ -386,8 +386,8 @@ Rewards:
       - execute as %player_name% at @s run playsound entity.player.levelup master @s ~ ~ ~ 1 1.0
       Ignored_For_Permissions: []
     reward_p_quan_chestplate:
-      Name: '&d&l Quản Ngục Áo I'
-      Weight: 7
+      Name: '&d&lQuản Ngục Áo I'
+      Weight: 12
       Rarity: uncommon
       Broadcast: false
       Placeholder_Apply: false
@@ -408,8 +408,8 @@ Rewards:
       - execute as %player_name% at @s run playsound entity.player.levelup master @s ~ ~ ~ 1 1.0
       Ignored_For_Permissions: []
     reward_p_quan_leggings:
-      Name: '&d&l Quản Ngục Quần I'
-      Weight: 7
+      Name: '&d&lQuản Ngục Quần I'
+      Weight: 12
       Rarity: uncommon
       Broadcast: false
       Placeholder_Apply: false
@@ -430,8 +430,8 @@ Rewards:
       - execute as %player_name% at @s run playsound entity.player.levelup master @s ~ ~ ~ 1 1.0
       Ignored_For_Permissions: []
     reward_p_quan_boots:
-      Name: '&d&l Quản Ngục Giày I'
-      Weight: 7
+      Name: '&d&lQuản Ngục Giày I'
+      Weight: 12
       Rarity: uncommon
       Broadcast: false
       Placeholder_Apply: false
@@ -452,8 +452,8 @@ Rewards:
       - execute as %player_name% at @s run playsound entity.player.levelup master @s ~ ~ ~ 1 1.0
       Ignored_For_Permissions: []
     reward_p_quan_sword:
-      Name: '&d&l Quản Ngục Kiếm I'
-      Weight: 7
+      Name: '&d&lQuản Ngục Kiếm I'
+      Weight: 12
       Rarity: uncommon
       Broadcast: false
       Placeholder_Apply: false
@@ -474,8 +474,8 @@ Rewards:
       - execute as %player_name% at @s run playsound entity.player.levelup master @s ~ ~ ~ 1 1.0
       Ignored_For_Permissions: []
     reward_p_quan_axe:
-      Name: '&d&l Quản Ngục Rìu I'
-      Weight: 7
+      Name: '&d&lQuản Ngục Rìu I'
+      Weight: 12
       Rarity: uncommon
       Broadcast: false
       Placeholder_Apply: false
@@ -496,8 +496,8 @@ Rewards:
       - execute as %player_name% at @s run playsound entity.player.levelup master @s ~ ~ ~ 1 1.0
       Ignored_For_Permissions: []
     reward_p_quan_staff:
-      Name: '&d&l Quản Ngục Trượng I'
-      Weight: 7
+      Name: '&d&lQuản Ngục Trượng I'
+      Weight: 12
       Rarity: uncommon
       Broadcast: false
       Placeholder_Apply: false
@@ -518,9 +518,9 @@ Rewards:
       - execute as %player_name% at @s run playsound entity.player.levelup master @s ~ ~ ~ 1 1.0
       Ignored_For_Permissions: []
     reward_p_bachu_helmet:
-      Name: '&5&l Bá Chủ Mũ I'
-      Weight: 6
-      Rarity: uncommon
+      Name: '&5&lBá Chủ Mũ I'
+      Weight: 8
+      Rarity: rare
       Broadcast: false
       Placeholder_Apply: false
       Win_Limit:
@@ -540,9 +540,9 @@ Rewards:
       - execute as %player_name% at @s run playsound entity.player.levelup master @s ~ ~ ~ 1 1.0
       Ignored_For_Permissions: []
     reward_p_bachu_chestplate:
-      Name: '&5&l Bá Chủ Áo I'
-      Weight: 6
-      Rarity: uncommon
+      Name: '&5&lBá Chủ Áo I'
+      Weight: 8
+      Rarity: rare
       Broadcast: false
       Placeholder_Apply: false
       Win_Limit:
@@ -562,9 +562,9 @@ Rewards:
       - execute as %player_name% at @s run playsound entity.player.levelup master @s ~ ~ ~ 1 1.0
       Ignored_For_Permissions: []
     reward_p_bachu_leggings:
-      Name: '&5&l Bá Chủ Quần I'
-      Weight: 6
-      Rarity: uncommon
+      Name: '&5&lBá Chủ Quần I'
+      Weight: 8
+      Rarity: rare
       Broadcast: false
       Placeholder_Apply: false
       Win_Limit:
@@ -584,9 +584,9 @@ Rewards:
       - execute as %player_name% at @s run playsound entity.player.levelup master @s ~ ~ ~ 1 1.0
       Ignored_For_Permissions: []
     reward_p_bachu_boots:
-      Name: '&5&l Bá Chủ Giày I'
-      Weight: 6
-      Rarity: uncommon
+      Name: '&5&lBá Chủ Giày I'
+      Weight: 8
+      Rarity: rare
       Broadcast: false
       Placeholder_Apply: false
       Win_Limit:
@@ -606,9 +606,9 @@ Rewards:
       - execute as %player_name% at @s run playsound entity.player.levelup master @s ~ ~ ~ 1 1.0
       Ignored_For_Permissions: []
     reward_p_bachu_sword:
-      Name: '&5&l Bá Chủ Kiếm I'
-      Weight: 6
-      Rarity: uncommon
+      Name: '&5&lBá Chủ Kiếm I'
+      Weight: 8
+      Rarity: rare
       Broadcast: false
       Placeholder_Apply: false
       Win_Limit:
@@ -628,9 +628,9 @@ Rewards:
       - execute as %player_name% at @s run playsound entity.player.levelup master @s ~ ~ ~ 1 1.0
       Ignored_For_Permissions: []
     reward_p_bachu_axe:
-      Name: '&5&l Bá Chủ Rìu I'
-      Weight: 6
-      Rarity: uncommon
+      Name: '&5&lBá Chủ Rìu I'
+      Weight: 8
+      Rarity: rare
       Broadcast: false
       Placeholder_Apply: false
       Win_Limit:
@@ -650,9 +650,9 @@ Rewards:
       - execute as %player_name% at @s run playsound entity.player.levelup master @s ~ ~ ~ 1 1.0
       Ignored_For_Permissions: []
     reward_p_bachu_staff:
-      Name: '&5&l Bá Chủ Trượng I'
-      Weight: 6
-      Rarity: uncommon
+      Name: '&5&lBá Chủ Trượng I'
+      Weight: 8
+      Rarity: rare
       Broadcast: false
       Placeholder_Apply: false
       Win_Limit:
@@ -672,7 +672,7 @@ Rewards:
       - execute as %player_name% at @s run playsound entity.player.levelup master @s ~ ~ ~ 1 1.0
       Ignored_For_Permissions: []
     reward_p_vuot_helmet:
-      Name: '&4&l Vượt Ngục Mũ I'
+      Name: '&4&lVượt Ngục Mũ I'
       Weight: 5
       Rarity: rare
       Broadcast: false
@@ -694,7 +694,7 @@ Rewards:
       - execute as %player_name% at @s run playsound entity.player.levelup master @s ~ ~ ~ 1 1.0
       Ignored_For_Permissions: []
     reward_p_vuot_chestplate:
-      Name: '&4&l Vượt Ngục Áo I'
+      Name: '&4&lVượt Ngục Áo I'
       Weight: 5
       Rarity: rare
       Broadcast: false
@@ -716,7 +716,7 @@ Rewards:
       - execute as %player_name% at @s run playsound entity.player.levelup master @s ~ ~ ~ 1 1.0
       Ignored_For_Permissions: []
     reward_p_vuot_leggings:
-      Name: '&4&l Vượt Ngục Quần I'
+      Name: '&4&lVượt Ngục Quần I'
       Weight: 5
       Rarity: rare
       Broadcast: false
@@ -738,7 +738,7 @@ Rewards:
       - execute as %player_name% at @s run playsound entity.player.levelup master @s ~ ~ ~ 1 1.0
       Ignored_For_Permissions: []
     reward_p_vuot_boots:
-      Name: '&4&l Vượt Ngục Giày I'
+      Name: '&4&lVượt Ngục Giày I'
       Weight: 5
       Rarity: rare
       Broadcast: false
@@ -760,7 +760,7 @@ Rewards:
       - execute as %player_name% at @s run playsound entity.player.levelup master @s ~ ~ ~ 1 1.0
       Ignored_For_Permissions: []
     reward_p_vuot_sword:
-      Name: '&4&l Vượt Ngục Kiếm I'
+      Name: '&4&lVượt Ngục Kiếm I'
       Weight: 5
       Rarity: rare
       Broadcast: false
@@ -782,7 +782,7 @@ Rewards:
       - execute as %player_name% at @s run playsound entity.player.levelup master @s ~ ~ ~ 1 1.0
       Ignored_For_Permissions: []
     reward_p_vuot_axe:
-      Name: '&4&l Vượt Ngục Rìu I'
+      Name: '&4&lVượt Ngục Rìu I'
       Weight: 5
       Rarity: rare
       Broadcast: false
@@ -804,7 +804,7 @@ Rewards:
       - execute as %player_name% at @s run playsound entity.player.levelup master @s ~ ~ ~ 1 1.0
       Ignored_For_Permissions: []
     reward_p_vuot_staff:
-      Name: '&4&l Vượt Ngục Trượng I'
+      Name: '&4&lVượt Ngục Trượng I'
       Weight: 5
       Rarity: rare
       Broadcast: false
@@ -826,9 +826,9 @@ Rewards:
       - execute as %player_name% at @s run playsound entity.player.levelup master @s ~ ~ ~ 1 1.0
       Ignored_For_Permissions: []
     reward_ho_sword:
-      Name: '&a&l✦ Hộ Long Kiếm'
-      Weight: 3.0
-      Rarity: rare
+      Name: '&a&lHộ Long Kiếm'
+      Weight: 6
+      Rarity: legendary
       Broadcast: true
       Placeholder_Apply: false
       Win_Limit:
@@ -848,9 +848,9 @@ Rewards:
       - execute as %player_name% at @s run playsound entity.player.levelup master @s ~ ~ ~ 1 1.0
       Ignored_For_Permissions: []
     reward_ho_helmet:
-      Name: '&a&l✦ Hộ Long Mũ'
-      Weight: 3.0
-      Rarity: rare
+      Name: '&a&lHộ Long Mũ'
+      Weight: 6
+      Rarity: legendary
       Broadcast: true
       Placeholder_Apply: false
       Win_Limit:
@@ -869,10 +869,10 @@ Rewards:
       - mmoitems give ARMOR DONATE_HELMET_LONG_VE %player_name%
       - execute as %player_name% at @s run playsound entity.player.levelup master @s ~ ~ ~ 1 1.0
       Ignored_For_Permissions: []
-    reward_ho_chestplate:
-      Name: '&a&l✦ Hộ Long Giáp'
-      Weight: 3.0
-      Rarity: rare
+    reward_ho_chest:
+      Name: '&a&lHộ Long Giáp'
+      Weight: 6
+      Rarity: legendary
       Broadcast: true
       Placeholder_Apply: false
       Win_Limit:
@@ -891,10 +891,10 @@ Rewards:
       - mmoitems give ARMOR DONATE_CHESTPLATE_LONG_VE %player_name%
       - execute as %player_name% at @s run playsound entity.player.levelup master @s ~ ~ ~ 1 1.0
       Ignored_For_Permissions: []
-    reward_ho_leggings:
-      Name: '&a&l✦ Hộ Long Hộ Tất'
-      Weight: 3.0
-      Rarity: rare
+    reward_ho_legs:
+      Name: '&a&lHộ Long Hộ Tất'
+      Weight: 6
+      Rarity: legendary
       Broadcast: true
       Placeholder_Apply: false
       Win_Limit:
@@ -914,9 +914,9 @@ Rewards:
       - execute as %player_name% at @s run playsound entity.player.levelup master @s ~ ~ ~ 1 1.0
       Ignored_For_Permissions: []
     reward_ho_boots:
-      Name: '&a&l✦ Hộ Long Hài'
-      Weight: 3.0
-      Rarity: rare
+      Name: '&a&lHộ Long Hài'
+      Weight: 6
+      Rarity: legendary
       Broadcast: true
       Placeholder_Apply: false
       Win_Limit:
@@ -936,8 +936,8 @@ Rewards:
       - execute as %player_name% at @s run playsound entity.player.levelup master @s ~ ~ ~ 1 1.0
       Ignored_For_Permissions: []
     reward_chien_sword:
-      Name: '&e&l★ Chiến Long Kiếm'
-      Weight: 1.5
+      Name: '&e&lChiến Long Kiếm'
+      Weight: 3
       Rarity: legendary
       Broadcast: true
       Placeholder_Apply: false
@@ -958,8 +958,8 @@ Rewards:
       - execute as %player_name% at @s run playsound entity.player.levelup master @s ~ ~ ~ 1 1.0
       Ignored_For_Permissions: []
     reward_chien_helmet:
-      Name: '&e&l★ Chiến Long Mũ'
-      Weight: 1.5
+      Name: '&e&lChiến Long Mũ'
+      Weight: 3
       Rarity: legendary
       Broadcast: true
       Placeholder_Apply: false
@@ -979,9 +979,9 @@ Rewards:
       - mmoitems give ARMOR DONATE_HELMET_LONG_CHIEN %player_name%
       - execute as %player_name% at @s run playsound entity.player.levelup master @s ~ ~ ~ 1 1.0
       Ignored_For_Permissions: []
-    reward_chien_chestplate:
-      Name: '&e&l★ Chiến Long Giáp'
-      Weight: 1.5
+    reward_chien_chest:
+      Name: '&e&lChiến Long Giáp'
+      Weight: 3
       Rarity: legendary
       Broadcast: true
       Placeholder_Apply: false
@@ -1001,9 +1001,9 @@ Rewards:
       - mmoitems give ARMOR DONATE_CHESTPLATE_LONG_CHIEN %player_name%
       - execute as %player_name% at @s run playsound entity.player.levelup master @s ~ ~ ~ 1 1.0
       Ignored_For_Permissions: []
-    reward_chien_leggings:
-      Name: '&e&l★ Chiến Long Hộ Tất'
-      Weight: 1.5
+    reward_chien_legs:
+      Name: '&e&lChiến Long Hộ Tất'
+      Weight: 3
       Rarity: legendary
       Broadcast: true
       Placeholder_Apply: false
@@ -1024,8 +1024,8 @@ Rewards:
       - execute as %player_name% at @s run playsound entity.player.levelup master @s ~ ~ ~ 1 1.0
       Ignored_For_Permissions: []
     reward_chien_boots:
-      Name: '&e&l★ Chiến Long Hài'
-      Weight: 1.5
+      Name: '&e&lChiến Long Hài'
+      Weight: 3
       Rarity: legendary
       Broadcast: true
       Placeholder_Apply: false
@@ -1046,8 +1046,8 @@ Rewards:
       - execute as %player_name% at @s run playsound entity.player.levelup master @s ~ ~ ~ 1 1.0
       Ignored_For_Permissions: []
     reward_ch_vk_so:
-      Name: '&a✦ Đá CH Vũ Khí Sơ Cấp'
-      Weight: 14
+      Name: '&aĐá CH Vũ Khí Sơ'
+      Weight: 30
       Rarity: common
       Broadcast: false
       Placeholder_Apply: false
@@ -1068,8 +1068,8 @@ Rewards:
       - execute as %player_name% at @s run playsound entity.experience_orb.pickup master @s ~ ~ ~ 1 1.2
       Ignored_For_Permissions: []
     reward_ch_giap_so:
-      Name: '&a✦ Đá CH Giáp Sơ Cấp'
-      Weight: 14
+      Name: '&aĐá CH Giáp Sơ'
+      Weight: 30
       Rarity: common
       Broadcast: false
       Placeholder_Apply: false
@@ -1090,8 +1090,8 @@ Rewards:
       - execute as %player_name% at @s run playsound entity.experience_orb.pickup master @s ~ ~ ~ 1 1.2
       Ignored_For_Permissions: []
     reward_ch_vk_trung:
-      Name: '&e✦ Đá CH Vũ Khí Trung Cấp'
-      Weight: 10
+      Name: '&eĐá CH Vũ Khí Trung'
+      Weight: 18
       Rarity: uncommon
       Broadcast: false
       Placeholder_Apply: false
@@ -1112,8 +1112,8 @@ Rewards:
       - execute as %player_name% at @s run playsound entity.experience_orb.pickup master @s ~ ~ ~ 1 1.2
       Ignored_For_Permissions: []
     reward_ch_giap_trung:
-      Name: '&e✦ Đá CH Giáp Trung Cấp'
-      Weight: 10
+      Name: '&eĐá CH Giáp Trung'
+      Weight: 18
       Rarity: uncommon
       Broadcast: false
       Placeholder_Apply: false
@@ -1134,8 +1134,8 @@ Rewards:
       - execute as %player_name% at @s run playsound entity.experience_orb.pickup master @s ~ ~ ~ 1 1.2
       Ignored_For_Permissions: []
     reward_ch_vk_cao:
-      Name: '&6✦ Đá CH Vũ Khí Cao Cấp'
-      Weight: 6
+      Name: '&6Đá CH Vũ Khí Cao'
+      Weight: 8
       Rarity: rare
       Broadcast: false
       Placeholder_Apply: false
@@ -1156,8 +1156,8 @@ Rewards:
       - execute as %player_name% at @s run playsound entity.experience_orb.pickup master @s ~ ~ ~ 1 1.2
       Ignored_For_Permissions: []
     reward_ch_giap_cao:
-      Name: '&6✦ Đá CH Giáp Cao Cấp'
-      Weight: 6
+      Name: '&6Đá CH Giáp Cao'
+      Weight: 8
       Rarity: rare
       Broadcast: false
       Placeholder_Apply: false
@@ -1178,7 +1178,7 @@ Rewards:
       - execute as %player_name% at @s run playsound entity.experience_orb.pickup master @s ~ ~ ~ 1 1.2
       Ignored_For_Permissions: []
     reward_ch_vk_sieu:
-      Name: '&c✦ Đá CH Vũ Khí Siêu Cấp'
+      Name: '&cĐá CH Vũ Khí Siêu'
       Weight: 3
       Rarity: rare
       Broadcast: true
@@ -1200,7 +1200,7 @@ Rewards:
       - execute as %player_name% at @s run playsound entity.experience_orb.pickup master @s ~ ~ ~ 1 1.2
       Ignored_For_Permissions: []
     reward_ch_giap_sieu:
-      Name: '&c✦ Đá CH Giáp Siêu Cấp'
+      Name: '&cĐá CH Giáp Siêu'
       Weight: 3
       Rarity: rare
       Broadcast: true
@@ -1222,8 +1222,8 @@ Rewards:
       - execute as %player_name% at @s run playsound entity.experience_orb.pickup master @s ~ ~ ~ 1 1.2
       Ignored_For_Permissions: []
     reward_ch_vk_huyen:
-      Name: '&d✦ Đá CH Vũ Khí Huyền Thoại'
-      Weight: 1.5
+      Name: '&dĐá CH Vũ Khí Huyền'
+      Weight: 1
       Rarity: legendary
       Broadcast: true
       Placeholder_Apply: false
@@ -1244,8 +1244,8 @@ Rewards:
       - execute as %player_name% at @s run playsound entity.experience_orb.pickup master @s ~ ~ ~ 1 1.2
       Ignored_For_Permissions: []
     reward_ch_giap_huyen:
-      Name: '&d✦ Đá CH Giáp Huyền Thoại'
-      Weight: 1.5
+      Name: '&dĐá CH Giáp Huyền'
+      Weight: 1
       Rarity: legendary
       Broadcast: true
       Placeholder_Apply: false
@@ -1266,8 +1266,8 @@ Rewards:
       - execute as %player_name% at @s run playsound entity.experience_orb.pickup master @s ~ ~ ~ 1 1.2
       Ignored_For_Permissions: []
     reward_duc_1:
-      Name: '&b✦ Mũi Khoan Đục Lỗ Ô 1'
-      Weight: 12
+      Name: '&bMũi Khoan Đục Lỗ Ô 1'
+      Weight: 28
       Rarity: common
       Broadcast: false
       Placeholder_Apply: false
@@ -1288,8 +1288,8 @@ Rewards:
       - execute as %player_name% at @s run playsound entity.experience_orb.pickup master @s ~ ~ ~ 1 1.2
       Ignored_For_Permissions: []
     reward_duc_2:
-      Name: '&b✦ Mũi Khoan Đục Lỗ Ô 2'
-      Weight: 10
+      Name: '&bMũi Khoan Đục Lỗ Ô 2'
+      Weight: 22
       Rarity: common
       Broadcast: false
       Placeholder_Apply: false
@@ -1310,8 +1310,8 @@ Rewards:
       - execute as %player_name% at @s run playsound entity.experience_orb.pickup master @s ~ ~ ~ 1 1.2
       Ignored_For_Permissions: []
     reward_duc_3:
-      Name: '&b✦ Mũi Khoan Đục Lỗ Ô 3'
-      Weight: 8
+      Name: '&bMũi Khoan Đục Lỗ Ô 3'
+      Weight: 14
       Rarity: uncommon
       Broadcast: false
       Placeholder_Apply: false
@@ -1332,8 +1332,8 @@ Rewards:
       - execute as %player_name% at @s run playsound entity.experience_orb.pickup master @s ~ ~ ~ 1 1.2
       Ignored_For_Permissions: []
     reward_duc_4:
-      Name: '&b✦ Mũi Khoan Đục Lỗ Ô 4'
-      Weight: 6
+      Name: '&bMũi Khoan Đục Lỗ Ô 4'
+      Weight: 10
       Rarity: uncommon
       Broadcast: false
       Placeholder_Apply: false
@@ -1354,8 +1354,8 @@ Rewards:
       - execute as %player_name% at @s run playsound entity.experience_orb.pickup master @s ~ ~ ~ 1 1.2
       Ignored_For_Permissions: []
     reward_duc_5:
-      Name: '&b✦ Mũi Khoan Đục Lỗ Ô 5'
-      Weight: 4
+      Name: '&bMũi Khoan Đục Lỗ Ô 5'
+      Weight: 5
       Rarity: rare
       Broadcast: false
       Placeholder_Apply: false
@@ -1376,8 +1376,8 @@ Rewards:
       - execute as %player_name% at @s run playsound entity.experience_orb.pickup master @s ~ ~ ~ 1 1.2
       Ignored_For_Permissions: []
     reward_duc_6:
-      Name: '&b✦ Mũi Khoan Đục Lỗ Ô 6'
-      Weight: 2.5
+      Name: '&bMũi Khoan Đục Lỗ Ô 6'
+      Weight: 2
       Rarity: rare
       Broadcast: true
       Placeholder_Apply: false
@@ -1398,8 +1398,8 @@ Rewards:
       - execute as %player_name% at @s run playsound entity.experience_orb.pickup master @s ~ ~ ~ 1 1.2
       Ignored_For_Permissions: []
     reward_duc_7:
-      Name: '&b✦ Mũi Khoan Đục Lỗ Ô 7'
-      Weight: 1.5
+      Name: '&bMũi Khoan Đục Lỗ Ô 7'
+      Weight: 1
       Rarity: legendary
       Broadcast: true
       Placeholder_Apply: false
@@ -1421,7 +1421,7 @@ Rewards:
       Ignored_For_Permissions: []
     reward_key_ngoc:
       Name: '&e&lChìa Khóa Rương Ngọc'
-      Weight: 8
+      Weight: 16
       Rarity: uncommon
       Broadcast: false
       Placeholder_Apply: false
@@ -1442,8 +1442,8 @@ Rewards:
       - execute as %player_name% at @s run playsound entity.experience_orb.pickup master @s ~ ~ ~ 1 1.2
       Ignored_For_Permissions: []
     reward_manh_huy:
-      Name: '&6✦ Mảnh Huy Hiệu Triệu Hồi'
-      Weight: 9
+      Name: '&6Mảnh Huy Hiệu Triệu Hồi'
+      Weight: 14
       Rarity: uncommon
       Broadcast: false
       Placeholder_Apply: false
@@ -1464,8 +1464,8 @@ Rewards:
       - execute as %player_name% at @s run playsound entity.experience_orb.pickup master @s ~ ~ ~ 1 1.2
       Ignored_For_Permissions: []
     reward_manh_long:
-      Name: '&6✦ Mảnh Long Tộc'
-      Weight: 7
+      Name: '&6Mảnh Long Tộc'
+      Weight: 12
       Rarity: uncommon
       Broadcast: false
       Placeholder_Apply: false
@@ -1486,8 +1486,8 @@ Rewards:
       - execute as %player_name% at @s run playsound entity.experience_orb.pickup master @s ~ ~ ~ 1 1.2
       Ignored_For_Permissions: []
     reward_da_cs:
-      Name: '&d&l✦ Đá Chuyển Sinh'
-      Weight: 2.0
+      Name: '&d&lĐá Chuyển Sinh'
+      Weight: 1
       Rarity: legendary
       Broadcast: true
       Placeholder_Apply: false
@@ -1505,5 +1505,5 @@ Rewards:
       Items: []
       Commands:
       - mmoitems give MATERIAL DA_CHUYEN_SINH %player_name% 1
-      - execute as %player_name% at @s run playsound entity.experience_orb.pickup master @s ~ ~ ~ 1 1.2
+      - execute as %player_name% at @s run playsound entity.player.levelup master @s ~ ~ ~ 1 1.0
       Ignored_For_Permissions: []

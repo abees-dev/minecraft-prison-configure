@@ -138,7 +138,7 @@ Config tham chiếu:
 | Đục lỗ / Ngọc / Cường hóa | Build chỉ số combat | `scripts/sockets/`, `scripts/upgrade/`, `item/gem_stone.yml` |
 | Ma Vương | Boss endgame — **user tự triệu hồi** (Huy Hiệu + bàn thờ); cooldown chung | `scripts/demon_king/`, `huy-hieu-trieu-hoi.yml`, hologram `MaVuongTimer` (cooldown) |
 | Prestige / Chuyển Sinh | Hai meta dài hạn tách bạch | `prestiges.yml`, `scripts/rebirth/` |
-| Jewelry / Long Tộc / crates | Bonus / cosmetic / sink phụ | `item/ring.yml`…, trade/donate stations, ExcellentCrates |
+| Jewelry / Long Tộc / crates | Bonus / sink phụ — **Thiên Giới** = paid giáp/VK; Long Tộc / Free / Ngọc xem plan | `docs/crate-thien-gioi-notes.md`, `docs/crates-refactor-plan.md`, ExcellentCrates |
 
 Quy chuẩn chỉ số combat (không phải journey): [`STAT_BALANCING_STANDARD.md`](../STAT_BALANCING_STANDARD.md), [`STAT_ABBREVIATIONS.md`](STAT_ABBREVIATIONS.md).
 

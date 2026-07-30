@@ -1,75 +1,60 @@
 # Hòm Thiên Giới — Point shop + pity + NPC đổi
 
-Cập nhật: 2026-07-30. Lối chơi donate phụ: [`loi-choi.md`](loi-choi.md) · Mục lục: [`INDEX.md`](INDEX.md).
+Cập nhật: 2026-07-30 (refactor weight). Give nhanh: [`give-thien-gioi.md`](give-thien-gioi.md) · Mục lục: [`INDEX.md`](INDEX.md).
 
 ## Tóm tắt
 
-| Thành phần | Chi tiết |
+| | |
 | --- | --- |
-| **Crate** | `ruong_thien_gioi` — Hòm Thiên Giới |
-| **Key** | `chia_khoa_thien_gioi` |
-| **Shop Point** | `/shopdonate` · `/thiengioi` · `/shopthien` |
-| **Giá** | 1 chìa = **21 Point** · Gói **Mua 1 Tặng 1** = **21 Point → 2 chìa** |
-| **Pool** | **Giáp + vũ khí only** — Trade **Hỏa/Băng/Hắc** · Donate **Hộ/Chiến Long** · Prison rank **7–9** (I) |
-| **Pity** | Mỗi **10** lần quay → `MANH_THIEN_GIOI` ×1 |
-| **Đổi NL** | Station `doi-thien-gioi` — 1 mảnh → chọn 1 món **Hộ Long** (kiếm/giáp) |
+| Crate / key | `ruong_thien_gioi` / `chia_khoa_thien_gioi` |
+| Shop | `/shopdonate` · `/thiengioi` · `/shopthien` |
+| Giá | **21 Point** / chìa · gói **Mua 1 Tặng 1** = 21P → **2 chìa** |
+| Pool | Giáp + vũ khí only + NL (CH / đục / chìa ngọc / mảnh boss / Đá CS) |
+| Pity | Mỗi **10** quay → `MANH_THIEN_GIOI` → NPC đổi 1 món **Hộ Long** |
 
-## Pool crate (chỉ giáp + vũ khí)
+## Weight (total **615**, số nguyên)
 
-| Nhóm | Nội dung | Weight |
-| --- | --- | ---: |
-| **Trade ×3** | Hỏa / Băng / Hắc — 4 giáp + kiếm mỗi set | ~10 |
-| **Prison 7–9** | Quản Ngục / Bá Chủ / Vượt Ngục — 4 giáp I + kiếm/rìu/trượng I | 7 / 6 / 5 |
-| **Donate ×2** | Hộ Long (`LONG_VE`) · Chiến Long (`LONG_CHIEN`) — 4 giáp + kiếm | 3.0 / 1.5 |
-| **Đá cường hóa** | VK/Giáp sơ→huyền | 14 → 1.5 |
-| **Đá đục lỗ** | Ô 1→7 | 12 → 1.5 |
-| **Rương ngọc** | `chia_khoa_ruong_ngoc` ×1 | 8 |
-| **Mảnh boss** | `MANH_HUY_HIEU_TRIEU_HOI` · `MANH_LONG_TOC` | 9 / 7 |
-| **Chuyển sinh** | `DA_CHUYEN_SINH` | 2.0 |
+| Nhóm | w / món | # | Share |
+| --- | ---: | ---: | ---: |
+| Trade Hỏa / Băng / Hắc | 10 | 15 | ~24% |
+| Prison rank 7 / 8 / 9 | 12 / 8 / 5 | 7 mỗi | ~14% / 9% / 6% |
+| Donate Hộ Long | 6 | 5 | ~5% |
+| Donate Chiến Long | 3 | 5 | ~2% |
+| Đá CH sơ→huyền (VK+Giáp) | 30 / 18 / 8 / 3 / 1 | 2/bậc | ~20% |
+| Đục lỗ ô 1→7 | 28→1 | 7 | ~13% |
+| Chìa Rương Ngọc | 16 | 1 | ~3% |
+| Mảnh Huy Hiệu / Long Tộc | 14 / 12 | 2 | ~4% |
+| Đá Chuyển Sinh | 1 | 1 | ~0.2% |
 
-**Không** có nhẫn / vòng tay / găng / dây chuyền / pet trong hòm này.  
-**Không** ra Thần / Đế / Hoàng.  
-Trade: nếu muốn đổi 3 bộ (vd. thay Hắc → Phong/Lôi) — nói để sửa.
+1 chìa ước lượng: **~40% NL** · **~29% prison** · **~24% trade** · **~7% donate**.
 
-## Setup in-game (admin)
+**Không** trang sức · **không** Thần/Đế/Hoàng. Trade 3 bộ mặc định Hỏa/Băng/Hắc.
+
+## Setup admin
 
 ```
-# Reload
-/excellentcrates reload
-/mi reload
-/dm reload
+excellentcrates reload
+mi reload
+dm reload
 
-# Đặt khối hòm (đứng đúng chỗ)
-# rồi chỉnh Positions trong ruong_thien_gioi.yml hoặc dùng editor ExcellentCrates
-
-# NPC đổi mảnh → Hộ Long
-/npc create &b&l✦ Sứ Giả Thiên Giới --type PLAYER
-/npc skin Merchant
-/npc cmd add mi stations open doi-thien-gioi <p>
-/npc lookclose
+npc create &b&l✦ Sứ Giả Thiên Giới --type PLAYER
+npc skin Merchant
+npc cmd add mi stations open doi-thien-gioi <p>
 ```
 
-Test key:
-```
-/points give <player> 50
-/shopdonate
-# hoặc
-/crates key give <player> chia_khoa_thien_gioi 10
-```
+Đặt khối hòm (Positions đang `0,64,0,world`) rồi chỉnh editor ExcellentCrates.
 
 ## File
 
 | File | Vai trò |
 | --- | --- |
-| `plugins/ExcellentCrates/crates/ruong_thien_gioi.yml` | Crate + milestone 10 |
-| `plugins/ExcellentCrates/keys/chia_khoa_thien_gioi.yml` | Key |
-| `plugins/DeluxeMenus/gui_menus/shop_donate.yml` | Shop Point |
-| `plugins/MMOItems/item/material.yml` → `MANH_THIEN_GIOI` | NL pity |
-| `plugins/MMOItems/crafting-stations/doi-thien-gioi.yml` | Đổi NL |
+| `ExcellentCrates/crates/ruong_thien_gioi.yml` | Crate + milestone 10 |
+| `ExcellentCrates/keys/chia_khoa_thien_gioi.yml` | Key |
+| `DeluxeMenus/gui_menus/shop_donate.yml` | Shop Point |
+| `MMOItems/item/material.yml` → `MANH_THIEN_GIOI` | NL pity |
+| `MMOItems/crafting-stations/doi-thien-gioi.yml` | Đổi → Hộ Long (kiếm/giáp) |
 
-## Chưa làm / tuỳ chọn sau
+## Còn lại
 
-- Gắn tọa độ thật khối hòm (hiện placeholder `0,64,0,world`)
-- Preview item trong ExcellentCrates (mở hòm 1 lần / editor để gen preview)
-- Cân lại weight sau khi playtest
-- Link `/shopdonate` vào menu hub nếu cần
+- Tọa độ hòm thật · preview item · link hub menu nếu cần
+- Plan crate khác: [`crates-refactor-plan.md`](crates-refactor-plan.md)

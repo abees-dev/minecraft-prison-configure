@@ -28,8 +28,7 @@ command /giveallhom [<player>] [<number=1>]:
         execute console command "crate give %{_target}% ruong_bach_ngoc %{_amount}%"
         execute console command "crate give %{_target}% ruong_tho_ngoc %{_amount}%"
         execute console command "crate give %{_target}% ruong_cam_ngoc %{_amount}%"
-        execute console command "crate give %{_target}% ruong_da_quy_tong_hop %{_amount}%"
         
-        send "&a[Crates] &fĐã nhận thành công &e%{_amount}%x &fcho tất cả 11 loại Hòm Đá Quý!" to {_target}
+        send "&a[Crates] &fĐã nhận thành công &e%{_amount}%x &fcho tất cả 10 loại Hòm Đá Quý!" to {_target}
         if {_target} is not player:
-            send "&a[Crates] &fĐã phát &e%{_amount}%x &ftất cả 11 loại Hòm Đá Quý cho người chơi &b%{_target}%&f!" to player
+            send "&a[Crates] &fĐã phát &e%{_amount}%x &ftất cả 10 loại Hòm Đá Quý cho người chơi &b%{_target}%&f!" to player

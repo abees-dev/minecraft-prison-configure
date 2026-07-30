@@ -1,0 +1,121 @@
+# ============================================================================
+# CorePlugin - Black Market ("Chợ Đen") module configuration
+# ============================================================================
+# Kotlin port of Skript/scripts/black_market/ (config, logic, gui, commands):
+# player-to-player listings paid with Vault money or PlayerPoints, browsed
+# through /choden (aliases /blackmarket, /bm), with 24h expiry and a 7-day
+# reclaim window. Admin commands: /chodena cancel <id>, /chodena purge.
+#
+# Unlike the Skript (Skript variables), ALL market state now lives in SQL
+# (storage: below) - listings survive restarts and every mutation is atomic,
+# which also structurally fixes the old "owner buys their own listing" bug:
+# ownership is re-checked in the GUI, when the confirm menu opens, AND inside
+# the buy transaction itself.
+#
+# Changes take effect after either:
+#   - /choden reload   (requires permission: coreplugin.blackmarket.admin)
+#   - a server restart
+# EXCEPT the storage: section, which is read once at startup - switching
+# sqlite/mysql requires a restart.
+#
+# This file is only copied out ONCE, the first time the module starts. If a
+# key is missing the plugin falls back to a safe built-in default instead of
+# breaking - it will NOT overwrite or regenerate this file.
+# ============================================================================
+
+market:
+  # Minimum price per listing (both money and points).
+  min-price: 10
+  # Max simultaneous listings per player.
+  max-listings: 5
+  # Seller-side tax: 0.05 = seller receives 95% of the sale price.
+  tax-rate: 0.05
+  # Listing lifetime before it expires into the reclaim list (seconds).
+  expire-seconds: 86400
+  # Days an expired item stays reclaimable via /choden nhan before deletion.
+  refund-days: 7
+  # Cooldown between market actions per player (seconds).
+  cooldown-seconds: 3
+
+# Read once at startup. type: sqlite or mysql.
+storage:
+  type: sqlite
+  sqlite:
+    # Relative to this plugin's dataFolder.
+    file: blackmarket.db
+  mysql:
+    host: localhost
+    port: 3306
+    database: coreplugin
+    username: root
+    password: ""
+    pool-size: 4
+
+gui:
+  # Legacy '&' color codes.
+  main-title: "&8[&c✦&8] &c&lCHỢ ĐEN"
+  confirm-title: "&8[&c✦&8] &e&lXÁC NHẬN MUA"
+  my-title: "&8[&c✦&8] &6&lLISTINGS CỦA TÔI"
+
+# Console command templates. {player} {amount} are substituted.
+commands:
+  # Used to pay an OFFLINE seller their (post-tax) money share.
+  eco-give: "eco give {player} {amount}"
+  points-take: "points take {player} {amount}"
+  points-give: "points give {player} {amount}"
+
+# Legacy '&' color codes. {placeholders} substituted per message.
+messages:
+  cooldown: "&c&l[CHỢ ĐEN] &fVui lòng chờ vài giây trước khi thao tác tiếp!"
+  sell-usage: "&c&l[CHỢ ĐEN] &fCú pháp: &e/choden sell money <giá> &fhoặc &e/choden sell point <giá>"
+  sell-bad-type: "&c&l[CHỢ ĐEN] &fLoại tiền không hợp lệ! Dùng &emoney &fhoặc &epoint&f."
+  sell-bad-price: "&c&l[CHỢ ĐEN] &fVui lòng nhập giá bán! VD: &e/choden sell {type} 100"
+  sell-min-price: "&c&l[CHỢ ĐEN] &fGiá tối thiểu là &e{min}&f!"
+  sell-no-item: "&c&l[CHỢ ĐEN] &fBạn cần cầm vật phẩm muốn bán trên tay!"
+  sell-max-listings: "&c&l[CHỢ ĐEN] &fBạn đã đạt giới hạn &e{max} listings&f! Hãy hủy bớt hoặc chờ hết hạn."
+  sell-success-money: "&a&l[CHỢ ĐEN] &fĐã đăng bán thành công! Giá: &e${price} Money &7(ID: #{id})"
+  sell-success-point: "&a&l[CHỢ ĐEN] &fĐã đăng bán thành công! Giá: &b{price} Points &7(ID: #{id})"
+  listing-gone: "&c&l[CHỢ ĐEN] &fListing này không còn tồn tại!"
+  buy-own: "&c&l[CHỢ ĐEN] &fBạn không thể mua hàng của chính mình!"
+  buy-inv-full: "&c&l[CHỢ ĐEN] &fTúi đồ đầy! Hãy dọn chỗ trống rồi mua lại."
+  buy-need-money: "&c&l[CHỢ ĐEN] &fBạn không đủ Money! Cần &e${price} &f(hiện có &e${balance}&f)"
+  buy-need-points: "&c&l[CHỢ ĐEN] &fBạn không đủ Points! Cần &b{price} &f(hiện có &b{points}&f)"
+  buy-sold: "&c&l[CHỢ ĐEN] &fListing vừa bị người khác mua trước! Đã hoàn lại tiền."
+  buy-success-money: "&a&l[CHỢ ĐEN] &fĐã mua thành công từ &e{seller}&f! Trả &e${price} Money"
+  buy-success-point: "&a&l[CHỢ ĐEN] &fĐã mua thành công từ &e{seller}&f! Trả &b{price} Points"
+  sold-money: "&a&l[CHỢ ĐEN] &e{buyer} &fđã mua hàng của bạn! Nhận &e${receive} Money &7(đã trừ {tax}% thuế)"
+  sold-point: "&a&l[CHỢ ĐEN] &e{buyer} &fđã mua hàng của bạn! Nhận &b{receive} Points &7(đã trừ {tax}% thuế)"
+  cancel-not-found: "&c&l[CHỢ ĐEN] &fListing #{id} không tồn tại!"
+  cancel-not-yours: "&c&l[CHỢ ĐEN] &fListing này không phải của bạn!"
+  cancel-inv-full: "&c&l[CHỢ ĐEN] &fTúi đồ đầy! Hãy dọn chỗ trống rồi hủy lại."
+  cancel-success: "&e&l[CHỢ ĐEN] &fĐã hủy listing #{id} và hoàn item về túi đồ!"
+  claim-none: "&e&l[CHỢ ĐEN] &fBạn không có item nào chờ nhận."
+  claim-inv-full: "&c&l[CHỢ ĐEN] &fTúi đồ không đủ chỗ! Cần &e{need} ô trống &f(hiện có &e{have}&f). Dọn túi rồi thử lại."
+  claim-success: "&a&l[CHỢ ĐEN] &fĐã nhận &e{count} &fvật phẩm hết hạn!"
+  expired-notice: "&e&l[CHỢ ĐEN] &fListing #{id} của bạn đã hết hạn! Dùng &e/choden nhan &fđể lấy item (trong {days} ngày)."
+  join-banner-top: "&e&l━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+  join-line1: "&c&l[CHỢ ĐEN] &fBạn có &e{count} &fvật phẩm hết hạn chờ nhận!"
+  join-line2: "&c&l[CHỢ ĐEN] &fDùng &e/choden nhan &fđể lấy lại."
+  join-line3: "&c&l[CHỢ ĐEN] &c⚠ Item sẽ bị xóa vĩnh viễn nếu không nhận trong {days} ngày!"
+  admin-no-permission: "&cBạn không có quyền dùng lệnh này!"
+  admin-cancel-not-found: "&c&l[ADMIN] &fListing #{id} không tồn tại!"
+  admin-cancel-success: "&a&l[ADMIN] &fĐã hủy listing #{id} của &e{seller}&f. Item chuyển vào danh sách hết hạn."
+  admin-cancelled-notice: "&e&l[CHỢ ĐEN] &fAdmin đã hủy listing #{id} của bạn. Dùng &e/choden nhan &fđể lấy item (trong {days} ngày)!"
+  admin-purge-success: "&a&l[ADMIN] &fĐã xóa &e{count} &flistings. Items đã chuyển vào danh sách hết hạn cho từng người bán."
+  reload-ok: "&a[Chợ Đen] Đã tải lại blackmarket.yml."
+  id-invalid: "&c&l[CHỢ ĐEN] &fID không hợp lệ!"
+  cancel-usage: "&c&l[CHỢ ĐEN] &fCú pháp: &e/choden cancel <id>"
+  admin-cancel-usage: "&c&l[ADMIN] &fCú pháp: &e/chodena cancel <id>"
+  admin-unknown: "&c&l[ADMIN] &fLệnh không hợp lệ. Dùng &e/chodena &fđể xem help."
+  admin-help:
+    - "&a&l[ADMIN CHỢ ĐEN] &fCác lệnh:"
+    - "&e/chodena cancel <id> &7- Hủy bất kỳ listing"
+    - "&e/chodena purge &7- Xóa tất cả listings"
+  help:
+    - "&e&l[CHỢ ĐEN] &fCác lệnh:"
+    - "&e/choden &7- Mở giao diện Chợ Đen"
+    - "&e/choden sell money <giá> &7- Bán item bằng Money"
+    - "&e/choden sell point <giá> &7- Bán item bằng Points"
+    - "&e/choden cancel <id> &7- Hủy listing"
+    - "&e/choden my &7- Xem listings của bạn"
+    - "&e/choden nhan &7- Nhận item hết hạn"
