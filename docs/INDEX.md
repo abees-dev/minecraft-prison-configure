@@ -52,6 +52,7 @@ Cập nhật: 2026-07-29.
 | [`npc-trade-donate-stations-notes.md`](npc-trade-donate-stations-notes.md) | Trade / donate Long Tộc |
 | [`npc-weapon-forge-stations-notes.md`](npc-weapon-forge-stations-notes.md) | Lò rèn vũ khí theo mine (station + lệnh NPC, chưa đặt) |
 | [`ITEM_CLASSIFICATION_GUIDE.md`](ITEM_CLASSIFICATION_GUIDE.md) | Phân loại item |
+| [`pet-system-notes.md`](pet-system-notes.md) | Pet TRADE/DONATE — catalog chỉ số; phụ trợ đào TODO CorePlugin |
 | [`STAT_ABBREVIATIONS.md`](STAT_ABBREVIATIONS.md) | Viết tắt chỉ số trên lore |
 | [`STAT_BALANCING_GUIDE.md`](STAT_BALANCING_GUIDE.md) | Trần chỉ số item donate / gacha (Non-P2W) |
 

@@ -16,8 +16,8 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1785339627796
-  login: 1785339562745
+  logout: 1785340486488
+  login: 1785408941384
 money: '99098556250.0'
 last-account-name: ABeess
 lastlocation:
@@ -34,5 +34,5 @@ logoutlocation:
   x: -2133.2940980204385
   y: -18.0
   z: -1088.0072354726703
-  yaw: -130.12515258789062
-  pitch: 16.48525047302246
+  yaw: -43.4656867980957
+  pitch: 16.67363739013672

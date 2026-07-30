@@ -24,7 +24,7 @@ lucky-blocks:
   SPONGE:
   - tokens give %player% 1000
 # This value determines when will the next weekly top reset be. Updated automatically with /resetblockstopweekly command
-next-reset-weekly: 1785340204293
+next-reset-weekly: 1785945087518
 # Interval in minutes for saving player data into database
 player_data_save_interval: 10
 # Cooldown in seconds to check other player's blocks (/blocks <player>)

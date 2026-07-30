@@ -82,3 +82,19 @@ Tất cả 15 bộ Trang Sức đều được cân bằng **ngang bằng ngân 
 ### ⛏️ B. VŨ KHÍ FREE / CÀY CHAY (RANK 1 - 9)
 - **Tiền tố ID**: `SWORD_`, `AXE_`, `STAFF_`, `PICKAXE_` + Tên Rank.
 - **Ví dụ**: `SWORD_TAN_BINH_1` ➔ `SWORD_VUOT_NGUC_5`.
+
+---
+
+## 🐾 4. HỆ THỐNG PET (`PET` — 10 món)
+
+- **Ô gắn**: RPGInventory / MMOInventory slot **PET** (slot 14).
+- **Chỉ số**: TRADE = DONATE (~50 pts/món). Không thuộc item-sets jewelry.
+- **Material**: `PLAYER_HEAD` (skin gắn sau). Chi tiết: [`pet-system-notes.md`](pet-system-notes.md).
+- **Prefix lệnh**: `/mi give PET TRADE_PET_...` hoặc `DONATE_PET_...`
+
+| Dòng | Item Keys |
+| :--- | :--- |
+| **TRADE** | `TRADE_PET_HOA_LONG`, `TRADE_PET_HAC_LONG`, `TRADE_PET_LOI_LONG`, `TRADE_PET_PHONG_LONG`, `TRADE_PET_BANG_LONG` |
+| **DONATE** | `DONATE_PET_LONG_CHIEN`, `DONATE_PET_LONG_THAN`, `DONATE_PET_LONG_HOANG`, `DONATE_PET_LONG_DE`, `DONATE_PET_LONG_VE` |
+
+> Phụ trợ đào (auto-pickup / buff bán) — TODO CorePlugin, chưa ship.

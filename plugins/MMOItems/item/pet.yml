@@ -1,14 +1,209 @@
-# Pet items (MMOItems type PET) — gắn vào ô Pet trong RPGInventory
+# Pet items (MMOItems type PET) — gắn vào ô Pet (slot 14) trong RPGInventory / MMOInventory
+# TRADE = DONATE chỉ số (Non-P2W). Phụ trợ đào: TODO CorePlugin (xem docs/pet-system-notes.md).
+# Material PLAYER_HEAD — skull-texture gắn sau.
 
-TEST_PET_HP:
+# =============================================================================
+# TRADE — Cày chay (mirror Long Tộc)
+# =============================================================================
+
+TRADE_PET_HOA_LONG:
   base:
     lore-format: jewelry-lore
-    material: BONE
-    name: '&a&lPet Test (+100 HP)'
+    custom-maxsockets: 5.0
+    revision-id: 1
+    material: PLAYER_HEAD
+    name: "&6&l🔥 Pet Hỏa Long"
     lore:
-      - '&7Pet thử nghiệm.'
-      - '&7Gắn vào &eÔ Pet &7trong RPG Inventory.'
-    tier: COMMON
-    max-health: 100.0
+      - "&7Pet đồng hành — chỉ số vật lý."
+      - "&e[Phụ trợ] &7Tự nhặt quặng (+3% bán) — &8sắp có"
+    tier: RARE
+    physical-damage: 15.0
+    critical-strike-chance: 5.0
+    max-health: 40.0
     unstackable: true
     disable-interaction: true
+    enchants:
+      - 'UNBREAKING +1'
+    hide-enchants: true
+
+TRADE_PET_HAC_LONG:
+  base:
+    lore-format: jewelry-lore
+    custom-maxsockets: 5.0
+    revision-id: 1
+    material: PLAYER_HEAD
+    name: "&5&l◆ Pet Hắc Long"
+    lore:
+      - "&7Pet đồng hành — chỉ số phép."
+      - "&e[Phụ trợ] &7Tự nhặt quặng (+3% bán) — &8sắp có"
+    tier: UNIQUE
+    magic-damage: 15.0
+    max-mana: 40.0
+    max-health: 40.0
+    unstackable: true
+    disable-interaction: true
+    enchants:
+      - 'UNBREAKING +1'
+    hide-enchants: true
+
+TRADE_PET_LOI_LONG:
+  base:
+    lore-format: jewelry-lore
+    custom-maxsockets: 5.0
+    revision-id: 1
+    material: PLAYER_HEAD
+    name: "&e&l⚡ Pet Lôi Long"
+    lore:
+      - "&7Pet đồng hành — tốc đánh & hút máu."
+      - "&e[Phụ trợ] &7Tự nhặt quặng (+3% bán) — &8sắp có"
+    tier: LEGENDARY
+    attack-speed: 15.0
+    lifesteal: 4.0
+    max-health: 30.0
+    unstackable: true
+    disable-interaction: true
+    enchants:
+      - 'UNBREAKING +1'
+    hide-enchants: true
+
+TRADE_PET_PHONG_LONG:
+  base:
+    lore-format: jewelry-lore
+    custom-maxsockets: 5.0
+    revision-id: 1
+    material: PLAYER_HEAD
+    name: "&2&l✦ Pet Phong Long"
+    lore:
+      - "&7Pet đồng hành — né tránh & sát thương."
+      - "&e[Phụ trợ] &7Tự nhặt quặng (+3% bán) — &8sắp có"
+    tier: MYTHICAL
+    dodge-rating: 8.0
+    physical-damage: 12.0
+    max-health: 30.0
+    unstackable: true
+    disable-interaction: true
+    enchants:
+      - 'UNBREAKING +1'
+    hide-enchants: true
+
+TRADE_PET_BANG_LONG:
+  base:
+    lore-format: jewelry-lore
+    custom-maxsockets: 5.0
+    revision-id: 1
+    material: PLAYER_HEAD
+    name: "&3&l✦ Pet Băng Long"
+    lore:
+      - "&7Pet đồng hành — máu & phòng thủ."
+      - "&e[Phụ trợ] &7Tự nhặt quặng (+3% bán) — &8sắp có"
+    tier: EPIC
+    max-health: 80.0
+    defense: 8.0
+    unstackable: true
+    disable-interaction: true
+    enchants:
+      - 'UNBREAKING +1'
+    hide-enchants: true
+
+# =============================================================================
+# DONATE — VIP / Gacha (cùng chỉ số với TRADE cặp tương ứng)
+# =============================================================================
+
+DONATE_PET_LONG_CHIEN:
+  base:
+    lore-format: jewelry-lore
+    custom-maxsockets: 5.0
+    revision-id: 1
+    material: PLAYER_HEAD
+    name: "&e&l⚔ Pet Chiến Long"
+    lore:
+      - "&7Pet đồng hành — chỉ số vật lý."
+      - "&e[Phụ trợ] &7Tự nhặt quặng (+8% bán) — &8sắp có"
+    tier: RARE
+    physical-damage: 15.0
+    critical-strike-chance: 5.0
+    max-health: 40.0
+    unstackable: true
+    disable-interaction: true
+    enchants:
+      - 'UNBREAKING +1'
+    hide-enchants: true
+
+DONATE_PET_LONG_THAN:
+  base:
+    lore-format: jewelry-lore
+    custom-maxsockets: 5.0
+    revision-id: 1
+    material: PLAYER_HEAD
+    name: "&d&l✦ Pet Thần Long"
+    lore:
+      - "&7Pet đồng hành — chỉ số phép."
+      - "&e[Phụ trợ] &7Tự nhặt quặng (+8% bán) — &8sắp có"
+    tier: UNIQUE
+    magic-damage: 15.0
+    max-mana: 40.0
+    max-health: 40.0
+    unstackable: true
+    disable-interaction: true
+    enchants:
+      - 'UNBREAKING +1'
+    hide-enchants: true
+
+DONATE_PET_LONG_HOANG:
+  base:
+    lore-format: jewelry-lore
+    custom-maxsockets: 5.0
+    revision-id: 1
+    material: PLAYER_HEAD
+    name: "&6&l👑 Pet Hoàng Long"
+    lore:
+      - "&7Pet đồng hành — tốc đánh & hút máu."
+      - "&e[Phụ trợ] &7Tự nhặt quặng (+8% bán) — &8sắp có"
+    tier: LEGENDARY
+    attack-speed: 15.0
+    lifesteal: 4.0
+    max-health: 30.0
+    unstackable: true
+    disable-interaction: true
+    enchants:
+      - 'UNBREAKING +1'
+    hide-enchants: true
+
+DONATE_PET_LONG_DE:
+  base:
+    lore-format: jewelry-lore
+    custom-maxsockets: 5.0
+    revision-id: 1
+    material: PLAYER_HEAD
+    name: "&a&l⚜ Pet Đế Long"
+    lore:
+      - "&7Pet đồng hành — né tránh & sát thương."
+      - "&e[Phụ trợ] &7Tự nhặt quặng (+8% bán) — &8sắp có"
+    tier: MYTHICAL
+    dodge-rating: 8.0
+    physical-damage: 12.0
+    max-health: 30.0
+    unstackable: true
+    disable-interaction: true
+    enchants:
+      - 'UNBREAKING +1'
+    hide-enchants: true
+
+DONATE_PET_LONG_VE:
+  base:
+    lore-format: jewelry-lore
+    custom-maxsockets: 5.0
+    revision-id: 1
+    material: PLAYER_HEAD
+    name: "&b&l🛡 Pet Hộ Long"
+    lore:
+      - "&7Pet đồng hành — máu & phòng thủ."
+      - "&e[Phụ trợ] &7Tự nhặt quặng (+8% bán) — &8sắp có"
+    tier: EPIC
+    max-health: 80.0
+    defense: 8.0
+    unstackable: true
+    disable-interaction: true
+    enchants:
+      - 'UNBREAKING +1'
+    hide-enchants: true
