@@ -11,13 +11,13 @@ npc:
         uuid: 57481db9-38f7-3a96-b52d-ff0f7993c232
       spawned: true
       location:
-        bodyYaw: 50.867996
+        bodyYaw: 18.36895
         world: world_prison
         x: -29.3934
         y: -56.0
         z: 127.427
-        yaw: 50.868
-        pitch: -5.2029
+        yaw: 18.3689
+        pitch: 4.3952
       commandtrait:
         commands:
           '0':
@@ -45,7 +45,7 @@ npc:
         signature: NJhXeCfcwZ7HXMJr9AeJ4ZorA7xhQHrLkYYNr8EL5XY1+OuaWnj3o1zXwrZ585n66o/mZEZ6gV1PR+nyTXN4XPCQR7fRY5MzgWmFEJDGimjefyc4unvQQNZqeMIL9/B4Pg5F3WVJPatk05ZWTu7EDYRxxohWrvupnFVoy/KC+eRNjS1Zdjh04WZHyRGqcPM4I2oPINncYllipHn+9daLP4mlW4CnZdXNjLUqPjTanDwOPmVNZXFEcfQCbIL927aFkXKJZmPkL5J1vRtISPqI3iWdoXQKlIUShhNX6WCpFhiw9tEPKNmE35kNCaWfZoyAonzdmW7UWsyXjL0YV1jt0WOKY4vg8hRmxvJpy+KcoiRCzlVN99TthPDMWTnJyifrRo6cQDR78cUTkbHcR//MfM+xdGUvvrLOZklCtCtQ5jZoE8fb2Sfdjubb9y63zAA5OSvIzGsqyw33qoJIDFOyG2C0lj1arq4ZOuCGMMoH2hAZSGtY8KqK/sUaOLAjRau5KaObURq8QCF9siFUD9u8LZrRNBY2IFPgwjKkxeGh+LIKLSkxZFRGpOMrhK9yBRQi2oeVHGBuDr3rpImH+a0mtbu9oeGSqgNjcVhdP28gtDm0HJ1oVi2mwtA2SMGAnTu6Vh5209SLFIzdgdJ0xqfjT+/0Eqm/z1vIdCC2pR7dXS4=
         skinName: Merchant
         textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTc4NDc3NjY4NjcyNSwKICAicHJvZmlsZUlkIiA6ICJhMzllZjU3YTM4N2M0Y2QxOTc0MDU5YjczMmViYzdhNSIsCiAgInByb2ZpbGVOYW1lIiA6ICJNZXJjaGFudCIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS84NjRkNDMxNjUxZDhjZTdkYTJkOGY4OGRkODIyZDk1NTdkN2JjZjliMGI1ZDBhOGVkMTNiOTg5ODgxZmFkYmVmIgogICAgfQogIH0KfQ==
-    traitnames: owner,spawned,hologramtrait,scoreboardtrait,rotationtrait,lookclose,skintrait,location,commandtrait,type,inventory
+    traitnames: type,location,owner,spawned,rotationtrait,scoreboardtrait,skintrait,commandtrait,inventory,lookclose,hologramtrait,targetable
     navigator:
       speedmodifier: 1.0
       avoidwater: false
@@ -62,13 +62,13 @@ npc:
         uuid: 57481db9-38f7-3a96-b52d-ff0f7993c232
       spawned: true
       location:
-        bodyYaw: 45.611725
+        bodyYaw: 17.591614
         world: world_prison
         x: -29.5565
         y: -56.0
         z: 117.5767
-        yaw: 45.6117
-        pitch: 0.0
+        yaw: 17.5916
+        pitch: 4.2474
       commandtrait:
         commands:
           '0':
@@ -96,7 +96,7 @@ npc:
         signature: hmX7RwvZSadwBD0Vu1Llq2o58Zf2JGsibegjfc0nOqx25/IqTN0JF0lEyK09a7wHFm06fA1Dl8C9zivWS1rLURwV8aCMhIL8kYy8xRXoytImttvpQ2B2DkKic5tqqXj+0PRD0fpF7YxOHYDj8kkHjKSeojp3Cs8CHVKxMgUeRoHPxRGTrxJWzCHDsuIC5237y9H+Nl7PQzQiB5ps9zfL+y81xVZCLXAsIZp7mbLLKFSd+ZXeo22HONkaJj+mysLTM0ZgVC0xzJmzs/LD17Cow2tSY1TybDy+HF/6+zGIa2QA/XR/8R9+h1EANYmTphcxkhCV8nKmdUOllxPxFS4oaTN4NMHCYj8XubFO9A/Takqf6Fj+Fn6jxBkjb9VpFwkTYFtVdgOFrSA9G8B32147UU8i9XiT04ChWZIoMulPDfKED7F7OPHgcud3PsUbAsoyU225KjO8HqHYVCpP9T/3JkgXYyN/FOhvUfVzdcJr3D4GBtIqRFMd1KdDVn++WOYRAOjm3dzi+SWG5gy34CTaodo+4m0ewDvXcdLHBMtVxiaOoRvsgvwW0j5MO94yU8MCDC4M5tew14wtiaBn+olLfUlmn0m202Z8jBpSROhuk6OW7dhPMcBk4O5FQBAlIvyCi9ozF5/kf/6gO/R+vefNr8dM3lZyXcqmtVDhLe3uFeM=
         skinName: Steve
         textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTc4NDc3NjczMjk3NSwKICAicHJvZmlsZUlkIiA6ICI4NjY3YmE3MWI4NWE0MDA0YWY1NDQ1N2E5NzM0ZWVkNyIsCiAgInByb2ZpbGVOYW1lIiA6ICJTdGV2ZSIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS82MGE1YmQwMTZiM2M5YTFiOTI3MmU0OTI5ZTMwODI3YTY3YmU0ZWJiMjE5MDE3YWRiYmM0YTRkMjJlYmQ1YjEiCiAgICB9LAogICAgIkNBUEUiIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzk1M2NhYzhiNzc5ZmU0MTM4M2U2NzVlZTJiODYwNzFhNzE2NThmMjE4MGY1NmZiY2U4YWEzMTVlYTcwZTJlZDYiCiAgICB9CiAgfQp9
-    traitnames: owner,spawned,hologramtrait,scoreboardtrait,rotationtrait,lookclose,skintrait,location,commandtrait,type,inventory
+    traitnames: type,location,owner,spawned,rotationtrait,scoreboardtrait,skintrait,commandtrait,inventory,lookclose,hologramtrait
     navigator:
       speedmodifier: 1.0
       avoidwater: false
@@ -113,13 +113,13 @@ npc:
         uuid: 57481db9-38f7-3a96-b52d-ff0f7993c232
       spawned: true
       location:
-        bodyYaw: 40.051468
+        bodyYaw: 19.417152
         world: world_prison
         x: -29.5281
         y: -56.0
         z: 114.0594
-        yaw: 40.0515
-        pitch: -5.2931
+        yaw: 19.4172
+        pitch: 4.6208
       commandtrait:
         commands:
           '0':
@@ -147,7 +147,7 @@ npc:
         signature: N7MnWsnJxWgm36GueoyIUHx1b/uCQPExW7hoF7KWs2mvRhJCIxllW5QIarn21Um1bzOkc/nThj/61s2BC418sU4eyjFC3gLwqqCtgiAyfzdjzSdg7hQVACIoD+o6UWUSLFGxmcz7sUATDSiw4F787AGruE6Rvp9vvXkkbXXbfo2YTwNe0K4Q6MnjRJph/YLscvJOjkQ4blus1lnBNMu9QyYiaYckirQSgsvLf7g6jdbfKZqgFogY6TRaFRuUZzmcpYXhvDljiyN4PEwDCbSzd7buTQsZP9DZzZ1SVtap5CMOza/cvf48YdnWMhTl+7DqB9HFbOUsOAoxMgxxNnmbQ/ezjXyfrn4q/ntEkD+tONEbYeMA0cV3JDLrJBJJXl+Ooww+unvSivM3g5+zGUITzo8Wv4S5AIpwgNrudMvzOzftfnTw3qY/xcJmRuWWKh97FvGWNuoGwFj80e+Pxuvs0A6ugAKENBSieZvp3RvqoX1mxw4vEvXpaZKq3jWIbrHgVtKsDLZxHDfZtLybo//vSVrR22l+dQId3O4f0YWa+ni2kiPQYMfQQPSRh7k+i+fqP8aaGSHdt99UtNcMIWR5jWqTIxSRTOM40VNvms7yQu7jr0/xZnytDHVo/Zn40ESTRRVLaJf72bB3xb5FlAJYK/JY7QC0+PSSgg2/Urs9oBo=
         skinName: Guard
         textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTc4NDc3Njk2NTc4NCwKICAicHJvZmlsZUlkIiA6ICI1MjA2YmU1YmMxMDM0M2U5Yjg2NmY5ZGZjMWNlOTg3MiIsCiAgInByb2ZpbGVOYW1lIiA6ICJHdWFyZCIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS81MTE4MmNmNjVkMTgwZWNmMDhmYWIyMzExYWJlZDBjZmNlZTk2MGU2ZGY1YTNiYTUyOGY3ZWE0N2NjNDFmMGEyIgogICAgfQogIH0KfQ==
-    traitnames: owner,spawned,hologramtrait,scoreboardtrait,rotationtrait,lookclose,skintrait,location,commandtrait,type,inventory
+    traitnames: type,location,owner,spawned,rotationtrait,scoreboardtrait,skintrait,commandtrait,inventory,lookclose,hologramtrait
     navigator:
       speedmodifier: 1.0
       avoidwater: false
@@ -167,13 +167,13 @@ npc:
         uuid: 57481db9-38f7-3a96-b52d-ff0f7993c232
       spawned: true
       location:
-        bodyYaw: -177.23651
+        bodyYaw: 113.25995
         world: world_prison
         x: -459.4955
         y: -55.0
         z: 46.6844
-        yaw: 170.8801
-        pitch: 0.0
+        yaw: 93.2599
+        pitch: -38.3246
       commandtrait:
         commands:
           '0':
@@ -201,7 +201,7 @@ npc:
         randomYawRange:
           '0': 0.0
           '1': 360.0
-    traitnames: owner,spawned,hologramtrait,scoreboardtrait,rotationtrait,lookclose,skintrait,location,commandtrait,type,inventory
+    traitnames: type,location,owner,spawned,rotationtrait,scoreboardtrait,skintrait,commandtrait,inventory,lookclose,hologramtrait
     navigator:
       speedmodifier: 1.0
       avoidwater: false
@@ -218,13 +218,13 @@ npc:
         uuid: 57481db9-38f7-3a96-b52d-ff0f7993c232
       spawned: true
       location:
-        bodyYaw: 131.08057
+        bodyYaw: 25.016022
         world: world_prison
         x: -459.493
         y: -55.0
         z: 32.1207
-        yaw: 111.0806
-        pitch: -1.8562
+        yaw: 25.016
+        pitch: -29.2657
       commandtrait:
         commands:
           '0':
@@ -252,7 +252,7 @@ npc:
         randomYawRange:
           '0': 0.0
           '1': 360.0
-    traitnames: owner,spawned,hologramtrait,scoreboardtrait,rotationtrait,lookclose,skintrait,location,commandtrait,type,inventory
+    traitnames: type,location,owner,spawned,rotationtrait,scoreboardtrait,skintrait,commandtrait,inventory,lookclose,hologramtrait
     navigator:
       speedmodifier: 1.0
       avoidwater: false
@@ -269,13 +269,13 @@ npc:
         uuid: 57481db9-38f7-3a96-b52d-ff0f7993c232
       spawned: true
       location:
-        bodyYaw: 139.20563
+        bodyYaw: 150.06075
         world: world_prison
         x: -1346.5376
         y: -57.0
         z: 19.4054
-        yaw: 159.2056
-        pitch: 36.2876
+        yaw: 170.0607
+        pitch: 27.2835
       commandtrait:
         commands:
           '0':
@@ -303,7 +303,7 @@ npc:
         randomYawRange:
           '0': 0.0
           '1': 360.0
-    traitnames: owner,spawned,hologramtrait,scoreboardtrait,rotationtrait,lookclose,skintrait,location,commandtrait,type,inventory
+    traitnames: type,location,owner,spawned,rotationtrait,scoreboardtrait,skintrait,commandtrait,inventory,lookclose,hologramtrait
     navigator:
       speedmodifier: 1.0
       avoidwater: false
@@ -320,13 +320,13 @@ npc:
         uuid: 57481db9-38f7-3a96-b52d-ff0f7993c232
       spawned: true
       location:
-        bodyYaw: 113.18927
+        bodyYaw: 79.178055
         world: world_prison
         x: -1346.6643
         y: -57.0
         z: 3.5553
-        yaw: 93.1893
-        pitch: 0.0
+        yaw: 79.1781
+        pitch: -14.7319
       commandtrait:
         commands:
           '0':
@@ -354,7 +354,7 @@ npc:
         randomYawRange:
           '0': 0.0
           '1': 360.0
-    traitnames: owner,spawned,hologramtrait,scoreboardtrait,rotationtrait,lookclose,skintrait,location,commandtrait,type,inventory
+    traitnames: type,location,owner,spawned,rotationtrait,scoreboardtrait,skintrait,commandtrait,inventory,lookclose,hologramtrait
     navigator:
       speedmodifier: 1.0
       avoidwater: false
@@ -371,13 +371,13 @@ npc:
         uuid: 57481db9-38f7-3a96-b52d-ff0f7993c232
       spawned: true
       location:
-        bodyYaw: 139.98148
+        bodyYaw: 132.58505
         world: world_prison
         x: -1346.7666
         y: -57.0
         z: 9.5242
-        yaw: 159.9815
-        pitch: 0.0
+        yaw: 112.5851
+        pitch: -15.5046
       commandtrait:
         commands:
           '0':
@@ -405,7 +405,7 @@ npc:
         randomYawRange:
           '0': 0.0
           '1': 360.0
-    traitnames: owner,spawned,hologramtrait,scoreboardtrait,rotationtrait,lookclose,skintrait,location,commandtrait,type,inventory
+    traitnames: type,location,owner,spawned,rotationtrait,scoreboardtrait,skintrait,commandtrait,inventory,lookclose,hologramtrait
     navigator:
       speedmodifier: 1.0
       avoidwater: false
@@ -422,13 +422,13 @@ npc:
         uuid: 57481db9-38f7-3a96-b52d-ff0f7993c232
       spawned: true
       location:
-        bodyYaw: 137.4242
+        bodyYaw: 43.79921
         world: world_prison
         x: -459.5511
         y: -55.0
         z: 36.2443
-        yaw: 135.6183
-        pitch: 0.0
+        yaw: 43.7992
+        pitch: -36.5578
       commandtrait:
         commands:
           '0':
@@ -456,7 +456,7 @@ npc:
         randomYawRange:
           '0': 0.0
           '1': 360.0
-    traitnames: owner,spawned,hologramtrait,scoreboardtrait,rotationtrait,lookclose,skintrait,location,commandtrait,type,inventory
+    traitnames: type,location,owner,spawned,rotationtrait,scoreboardtrait,skintrait,commandtrait,inventory,lookclose,hologramtrait
     navigator:
       speedmodifier: 1.0
       avoidwater: false
@@ -473,13 +473,13 @@ npc:
         uuid: 57481db9-38f7-3a96-b52d-ff0f7993c232
       spawned: true
       location:
-        bodyYaw: -74.80665
+        bodyYaw: -151.01157
         world: world_prison
         x: -2130.3407
         y: -18.0
         z: -1121.4643
-        yaw: -74.8066
-        pitch: -6.0829
+        yaw: -151.0116
+        pitch: -19.2867
       commandtrait:
         commands:
           '0':
@@ -507,7 +507,7 @@ npc:
         randomYawRange:
           '0': 0.0
           '1': 360.0
-    traitnames: owner,spawned,hologramtrait,scoreboardtrait,rotationtrait,lookclose,skintrait,location,commandtrait,type,inventory
+    traitnames: type,location,owner,spawned,rotationtrait,scoreboardtrait,skintrait,commandtrait,inventory,lookclose,hologramtrait
     navigator:
       speedmodifier: 1.0
       avoidwater: false
@@ -524,13 +524,13 @@ npc:
         uuid: 57481db9-38f7-3a96-b52d-ff0f7993c232
       spawned: true
       location:
-        bodyYaw: -174.47183
+        bodyYaw: 138.52945
         world: world_prison
         x: -2352.569
         y: -56.0
         z: -699.5739
-        yaw: -174.4718
-        pitch: 16.2024
+        yaw: 131.7327
+        pitch: -11.337
       commandtrait:
         commands:
           '0':
@@ -558,7 +558,7 @@ npc:
         randomYawRange:
           '0': 0.0
           '1': 360.0
-    traitnames: owner,spawned,hologramtrait,scoreboardtrait,lookclose,skintrait,location,commandtrait,type,inventory
+    traitnames: type,location,owner,spawned,rotationtrait,scoreboardtrait,skintrait,commandtrait,inventory,lookclose,hologramtrait
     navigator:
       speedmodifier: 1.0
       avoidwater: false
@@ -575,13 +575,13 @@ npc:
         uuid: 57481db9-38f7-3a96-b52d-ff0f7993c232
       spawned: true
       location:
-        bodyYaw: 94.58578
+        bodyYaw: 48.69229
         world: world_prison
         x: -1842.5115
         y: -56.0
         z: 50.5728
-        yaw: 94.5858
-        pitch: 0.8486
+        yaw: 48.6923
+        pitch: -16.0263
       commandtrait:
         commands:
           '0':
@@ -609,7 +609,7 @@ npc:
         randomYawRange:
           '0': 0.0
           '1': 360.0
-    traitnames: owner,spawned,hologramtrait,scoreboardtrait,lookclose,skintrait,location,commandtrait,type,inventory
+    traitnames: type,location,owner,spawned,rotationtrait,scoreboardtrait,skintrait,commandtrait,inventory,lookclose,hologramtrait
     navigator:
       speedmodifier: 1.0
       avoidwater: false
@@ -626,13 +626,13 @@ npc:
         uuid: 57481db9-38f7-3a96-b52d-ff0f7993c232
       spawned: true
       location:
-        bodyYaw: 139.83417
+        bodyYaw: 142.52087
         world: world_prison
         x: -1842.724
         y: -56.0
         z: 38.5961
-        yaw: 121.0173
-        pitch: -5.6743
+        yaw: 162.5209
+        pitch: -14.1927
       commandtrait:
         commands:
           '0':
@@ -660,7 +660,7 @@ npc:
         randomYawRange:
           '0': 0.0
           '1': 360.0
-    traitnames: owner,spawned,hologramtrait,scoreboardtrait,rotationtrait,lookclose,skintrait,location,commandtrait,type,inventory
+    traitnames: type,location,owner,spawned,rotationtrait,scoreboardtrait,skintrait,commandtrait,inventory,lookclose,hologramtrait
     navigator:
       speedmodifier: 1.0
       avoidwater: false
@@ -677,13 +677,13 @@ npc:
         uuid: 57481db9-38f7-3a96-b52d-ff0f7993c232
       spawned: true
       location:
-        bodyYaw: 14.285065
+        bodyYaw: 137.05705
         world: world_prison
         x: -2119.8056
         y: -18.0
         z: -1121.477
-        yaw: 14.2851
-        pitch: 0.0
+        yaw: 157.0571
+        pitch: -20.9874
       commandtrait:
         commands:
           '0':
@@ -711,7 +711,7 @@ npc:
         randomYawRange:
           '0': 0.0
           '1': 360.0
-    traitnames: owner,spawned,hologramtrait,scoreboardtrait,rotationtrait,lookclose,skintrait,location,commandtrait,type,inventory
+    traitnames: type,location,owner,spawned,rotationtrait,scoreboardtrait,skintrait,commandtrait,inventory,lookclose,hologramtrait
     navigator:
       speedmodifier: 1.0
       avoidwater: false
@@ -728,12 +728,12 @@ npc:
         uuid: 57481db9-38f7-3a96-b52d-ff0f7993c232
       spawned: true
       location:
-        bodyYaw: -177.74658
+        bodyYaw: 153.44397
         world: world_prison
         x: -1956.6678
         y: -54.0
         z: -658.454
-        yaw: -177.7466
+        yaw: 173.444
         pitch: 0.0
       commandtrait:
         commands:
@@ -762,7 +762,7 @@ npc:
         randomYawRange:
           '0': 0.0
           '1': 360.0
-    traitnames: owner,spawned,hologramtrait,scoreboardtrait,rotationtrait,lookclose,skintrait,location,commandtrait,type,inventory
+    traitnames: type,location,owner,spawned,rotationtrait,scoreboardtrait,skintrait,commandtrait,inventory,lookclose,hologramtrait
     navigator:
       speedmodifier: 1.0
       avoidwater: false
@@ -779,13 +779,13 @@ npc:
         uuid: 57481db9-38f7-3a96-b52d-ff0f7993c232
       spawned: true
       location:
-        bodyYaw: -147.06096
+        bodyYaw: -116.62819
         world: world_prison
         x: -2340.3836
         y: -56.0
         z: -699.6513
-        yaw: -147.061
-        pitch: 0.0
+        yaw: -116.6282
+        pitch: -12.2234
       commandtrait:
         commands:
           '0':
@@ -813,7 +813,7 @@ npc:
         randomYawRange:
           '0': 0.0
           '1': 360.0
-    traitnames: owner,spawned,scoreboardtrait,rotationtrait,hologramtrait,lookclose,skintrait,location,commandtrait,type,inventory
+    traitnames: type,location,owner,spawned,rotationtrait,scoreboardtrait,skintrait,commandtrait,inventory,lookclose,hologramtrait
     navigator:
       speedmodifier: 1.0
       avoidwater: false
@@ -830,13 +830,13 @@ npc:
         uuid: 57481db9-38f7-3a96-b52d-ff0f7993c232
       spawned: true
       location:
-        bodyYaw: 101.386505
+        bodyYaw: 138.42247
         world: world_prison
         x: -1839.5004
         y: -59.0
         z: -314.4369
-        yaw: 119.5571
-        pitch: -3.3239
+        yaw: 149.913
+        pitch: -26.1024
       commandtrait:
         commands:
           '0':
@@ -864,7 +864,7 @@ npc:
         randomYawRange:
           '0': 0.0
           '1': 360.0
-    traitnames: owner,spawned,hologramtrait,scoreboardtrait,rotationtrait,lookclose,skintrait,location,commandtrait,type,inventory
+    traitnames: type,location,owner,spawned,rotationtrait,scoreboardtrait,skintrait,commandtrait,inventory,lookclose,hologramtrait
     navigator:
       speedmodifier: 1.0
       avoidwater: false
@@ -881,13 +881,13 @@ npc:
         uuid: 57481db9-38f7-3a96-b52d-ff0f7993c232
       spawned: true
       location:
-        bodyYaw: 137.69582
+        bodyYaw: -175.97754
         world: world_prison
         x: -1846.7359
         y: -58.5
         z: -314.6454
-        yaw: 139.355
-        pitch: 2.6486
+        yaw: -175.9775
+        pitch: -27.926
       commandtrait:
         commands:
           '0':
@@ -915,7 +915,7 @@ npc:
         randomYawRange:
           '0': 0.0
           '1': 360.0
-    traitnames: owner,spawned,hologramtrait,scoreboardtrait,rotationtrait,lookclose,skintrait,location,commandtrait,type,inventory
+    traitnames: type,location,owner,spawned,rotationtrait,scoreboardtrait,skintrait,commandtrait,inventory,lookclose,hologramtrait
     navigator:
       speedmodifier: 1.0
       avoidwater: false
@@ -932,13 +932,13 @@ npc:
         uuid: 57481db9-38f7-3a96-b52d-ff0f7993c232
       spawned: true
       location:
-        bodyYaw: -178.38846
+        bodyYaw: 27.692665
         world: world_prison
         x: -1519.8145
         y: -57.0
         z: -358.5279
-        yaw: 173.2516
-        pitch: -3.6404
+        yaw: 27.6927
+        pitch: -8.7322
       commandtrait:
         commands:
           '0':
@@ -966,7 +966,7 @@ npc:
         randomYawRange:
           '0': 0.0
           '1': 360.0
-    traitnames: owner,spawned,hologramtrait,scoreboardtrait,rotationtrait,lookclose,skintrait,location,commandtrait,type,inventory
+    traitnames: type,location,owner,spawned,rotationtrait,scoreboardtrait,skintrait,commandtrait,inventory,lookclose,hologramtrait
     navigator:
       speedmodifier: 1.0
       avoidwater: false
@@ -983,13 +983,13 @@ npc:
         uuid: 57481db9-38f7-3a96-b52d-ff0f7993c232
       spawned: true
       location:
-        bodyYaw: -175.82162
+        bodyYaw: 146.33981
         world: world_prison
         x: -1956.694
         y: -54.0
         z: -652.4893
-        yaw: -175.8216
-        pitch: 1.9101
+        yaw: 166.3398
+        pitch: 0.0
       commandtrait:
         commands:
           '0':
@@ -1017,7 +1017,7 @@ npc:
         randomYawRange:
           '0': 0.0
           '1': 360.0
-    traitnames: owner,spawned,hologramtrait,scoreboardtrait,rotationtrait,lookclose,skintrait,location,commandtrait,type,inventory
+    traitnames: type,location,owner,spawned,rotationtrait,scoreboardtrait,skintrait,commandtrait,inventory,lookclose,hologramtrait
     navigator:
       speedmodifier: 1.0
       avoidwater: false
@@ -1034,13 +1034,13 @@ npc:
         uuid: 57481db9-38f7-3a96-b52d-ff0f7993c232
       spawned: true
       location:
-        bodyYaw: 145.09167
+        bodyYaw: 69.29529
         world: world_prison
         x: -1519.4745
         y: -57.0
         z: -370.4184
-        yaw: 125.0917
-        pitch: 0.0
+        yaw: 69.2953
+        pitch: -21.2675
       commandtrait:
         commands:
           '0':
@@ -1068,7 +1068,7 @@ npc:
         randomYawRange:
           '0': 0.0
           '1': 360.0
-    traitnames: owner,spawned,hologramtrait,scoreboardtrait,rotationtrait,lookclose,skintrait,location,commandtrait,type,inventory
+    traitnames: type,location,owner,spawned,rotationtrait,scoreboardtrait,skintrait,commandtrait,inventory,lookclose,hologramtrait
     navigator:
       speedmodifier: 1.0
       avoidwater: false
@@ -1085,13 +1085,13 @@ npc:
         uuid: 57481db9-38f7-3a96-b52d-ff0f7993c232
       spawned: true
       location:
-        bodyYaw: 85.914
+        bodyYaw: 146.4853
         world: world_prison
         x: -1956.4645
         y: -54.0
         z: -640.4649
-        yaw: 85.914
-        pitch: -4.7088
+        yaw: 165.1089
+        pitch: -1.5149
       commandtrait:
         commands:
           '0':
@@ -1119,7 +1119,7 @@ npc:
         randomYawRange:
           '0': 0.0
           '1': 360.0
-    traitnames: owner,spawned,hologramtrait,scoreboardtrait,lookclose,skintrait,location,commandtrait,type,inventory
+    traitnames: type,location,owner,spawned,rotationtrait,scoreboardtrait,skintrait,commandtrait,inventory,lookclose,hologramtrait
     navigator:
       speedmodifier: 1.0
       avoidwater: false
@@ -1136,13 +1136,13 @@ npc:
         uuid: 57481db9-38f7-3a96-b52d-ff0f7993c232
       spawned: true
       location:
-        bodyYaw: 119.9014
+        bodyYaw: 54.41667
         world: world_prison
         x: -1519.4798
         y: -57.0
         z: -375.5656
-        yaw: 99.9014
-        pitch: 0.0
+        yaw: 54.4167
+        pitch: -17.439
       commandtrait:
         commands:
           '0':
@@ -1170,7 +1170,7 @@ npc:
         randomYawRange:
           '0': 0.0
           '1': 360.0
-    traitnames: owner,spawned,hologramtrait,scoreboardtrait,rotationtrait,lookclose,skintrait,location,commandtrait,type,inventory
+    traitnames: type,location,owner,spawned,rotationtrait,scoreboardtrait,skintrait,commandtrait,inventory,lookclose,hologramtrait
     navigator:
       speedmodifier: 1.0
       avoidwater: false
@@ -1187,13 +1187,13 @@ npc:
         uuid: 57481db9-38f7-3a96-b52d-ff0f7993c232
       spawned: true
       location:
-        bodyYaw: -179.60211
+        bodyYaw: -109.70708
         world: world_prison
         x: -2334.8219
         y: -56.0
         z: -699.3008
-        yaw: 173.9494
-        pitch: 0.0
+        yaw: -109.7071
+        pitch: -11.4434
       commandtrait:
         commands:
           '0':
@@ -1221,7 +1221,7 @@ npc:
         randomYawRange:
           '0': 0.0
           '1': 360.0
-    traitnames: owner,spawned,hologramtrait,scoreboardtrait,rotationtrait,lookclose,skintrait,location,commandtrait,type,inventory
+    traitnames: type,location,owner,spawned,rotationtrait,scoreboardtrait,skintrait,commandtrait,inventory,lookclose,hologramtrait
     navigator:
       speedmodifier: 1.0
       avoidwater: false
@@ -1238,13 +1238,13 @@ npc:
         uuid: 57481db9-38f7-3a96-b52d-ff0f7993c232
       spawned: true
       location:
-        bodyYaw: 60.566376
+        bodyYaw: 86.74992
         world: world_prison
         x: -1832.6168
         y: -59.0
         z: -321.5786
-        yaw: 60.5664
-        pitch: -5.4926
+        yaw: 106.7499
+        pitch: -24.3834
       commandtrait:
         commands:
           '0':
@@ -1272,7 +1272,7 @@ npc:
         randomYawRange:
           '0': 0.0
           '1': 360.0
-    traitnames: owner,spawned,hologramtrait,scoreboardtrait,rotationtrait,lookclose,skintrait,location,commandtrait,type,inventory
+    traitnames: type,location,owner,spawned,rotationtrait,scoreboardtrait,skintrait,commandtrait,inventory,lookclose,hologramtrait
     navigator:
       speedmodifier: 1.0
       avoidwater: false
@@ -1289,13 +1289,13 @@ npc:
         uuid: 57481db9-38f7-3a96-b52d-ff0f7993c232
       spawned: true
       location:
-        bodyYaw: 119.96983
+        bodyYaw: 145.6447
         world: world_prison
         x: -1842.6452
         y: -56.0
         z: 34.4266
-        yaw: 102.061
-        pitch: -6.4221
+        yaw: 165.6447
+        pitch: -13.9782
       commandtrait:
         commands:
           '0':
@@ -1323,7 +1323,7 @@ npc:
         randomYawRange:
           '0': 0.0
           '1': 360.0
-    traitnames: owner,spawned,hologramtrait,scoreboardtrait,rotationtrait,lookclose,skintrait,location,commandtrait,type,inventory
+    traitnames: type,location,owner,spawned,rotationtrait,scoreboardtrait,skintrait,commandtrait,inventory,lookclose,hologramtrait
     navigator:
       speedmodifier: 1.0
       avoidwater: false
@@ -1335,13 +1335,13 @@ npc:
     uuid: f2432d9d-783d-4c16-83ef-a352855d7c31
     traits:
       location:
-        bodyYaw: -14.48867
+        bodyYaw: -113.05607
         world: world
         x: 2.6785
         y: 80.0
         z: 5.5935
-        yaw: -14.4887
-        pitch: 4.1523
+        yaw: -113.0561
+        pitch: -2.0671
       owner:
         uuid: 57481db9-38f7-3a96-b52d-ff0f7993c232
       lookclose:
@@ -1376,7 +1376,7 @@ npc:
             experienceCost: -1
       type: PLAYER
       spawned: true
-    traitnames: owner,spawned,scoreboardtrait,rotationtrait,hologramtrait,lookclose,skintrait,location,commandtrait,type,inventory
+    traitnames: type,location,owner,spawned,rotationtrait,scoreboardtrait,skintrait,commandtrait,inventory,lookclose,hologramtrait
     navigator:
       speedmodifier: 1.0
       avoidwater: false
@@ -1388,13 +1388,13 @@ npc:
     uuid: bb397f5b-20b3-4a2e-b9bb-8f1edcdafe2a
     traits:
       location:
-        bodyYaw: -69.38387
+        bodyYaw: -62.47663
         world: world
         x: 2.7003
         y: 80.0
         z: -6.4621
-        yaw: -69.3839
-        pitch: -6.4525
+        yaw: -62.4766
+        pitch: -1.9958
       owner:
         uuid: 57481db9-38f7-3a96-b52d-ff0f7993c232
       lookclose:
@@ -1429,7 +1429,7 @@ npc:
             experienceCost: -1
       type: PLAYER
       spawned: true
-    traitnames: owner,spawned,scoreboardtrait,rotationtrait,hologramtrait,lookclose,skintrait,location,commandtrait,type,inventory
+    traitnames: type,location,owner,spawned,rotationtrait,scoreboardtrait,skintrait,commandtrait,inventory,lookclose,hologramtrait
     navigator:
       speedmodifier: 1.0
       avoidwater: false
@@ -1441,13 +1441,13 @@ npc:
     uuid: 10e8fce6-debd-4a32-8d59-c05fd319406b
     traits:
       location:
-        bodyYaw: -84.2537
+        bodyYaw: -89.03906
         world: world
         x: 4.228
         y: 84.0
         z: 94.5364
-        yaw: -84.2537
-        pitch: -5.8451
+        yaw: -89.0391
+        pitch: 0.0
       owner:
         uuid: 57481db9-38f7-3a96-b52d-ff0f7993c232
       lookclose:
@@ -1482,7 +1482,7 @@ npc:
             experienceCost: -1
       type: PLAYER
       spawned: true
-    traitnames: owner,spawned,scoreboardtrait,rotationtrait,hologramtrait,lookclose,skintrait,location,commandtrait,type,inventory
+    traitnames: type,location,owner,spawned,rotationtrait,scoreboardtrait,skintrait,commandtrait,inventory,lookclose,hologramtrait
     navigator:
       speedmodifier: 1.0
       avoidwater: false
@@ -1494,13 +1494,13 @@ npc:
     uuid: 1f9a65b8-236e-44e8-ace6-cca9a8355d3c
     traits:
       location:
-        bodyYaw: -102.55779
+        bodyYaw: -106.15984
         world: world
         x: 4.2401
         y: 84.0
         z: 98.4694
-        yaw: -102.5578
-        pitch: -5.7405
+        yaw: -106.1598
+        pitch: 0.0
       owner:
         uuid: 57481db9-38f7-3a96-b52d-ff0f7993c232
       lookclose:
@@ -1547,7 +1547,7 @@ npc:
             experienceCost: -1
       type: PLAYER
       spawned: true
-    traitnames: owner,spawned,scoreboardtrait,rotationtrait,hologramtrait,lookclose,skintrait,location,commandtrait,type,inventory
+    traitnames: type,location,owner,spawned,rotationtrait,scoreboardtrait,skintrait,commandtrait,inventory,lookclose,hologramtrait
     navigator:
       speedmodifier: 1.0
       avoidwater: false
@@ -1560,13 +1560,13 @@ npc:
     uuid: 2e66124f-6c87-42f6-8cb0-b7e0b5a72463
     traits:
       location:
-        bodyYaw: -67.38373
+        bodyYaw: -12.463745
         world: world
         x: 13.6568
         y: 84.0
         z: 89.3756
-        yaw: -67.3837
-        pitch: -5.8871
+        yaw: -12.4637
+        pitch: 0.0
       owner:
         uuid: 57481db9-38f7-3a96-b52d-ff0f7993c232
       lookclose:
@@ -1605,7 +1605,7 @@ npc:
         signature: o9BN2AWodIK+GcynERyZkhMB6cDzLNBZq0a745FPUwcMrB/acRcGdxbj3oqDzRNA8PNagpMO7o0lUguYt8FEMHnmvHYaa0gRD44lN5gPXq4AdT+LLX7G5+zAk2hlM1LJTFXQPeoySgX8DHLF/FDE8Kzo/1WDTYyToZHlb9XobnoAW0KpvVJMfcvgJ6sW1clCEkVyba6e3i7Rb8MZLv4HqtpTNIs2BaoxE/Ghc+kYW8MdbIPzqC2f402yb5+UelD40u1hm+DBgYzHchG4PzIF7dpsx+n97OaCxCYp21Ch5vPzBw9RQXuysDya7TBXB6/p0muPFe5fErjg0aSMzgv1vs0EIF1dp50DK0NHvbIaWQ9EIvxgiuUGirLVxeeKICOsmV68AMQPZ6IdbbW6pJQW9fVPNN9p3/QIGCqEzzll9++cdcmZ2rkJf5VuJ/JFb+ueJEwrj0MI2gg8lNTbQAPeuijFu/+LKKF/ibsMTQSZhpDRK3hjnvMch02p+YWpUlep1joyPaw6AJ4KGmpO00p8Qu3ip7i4ErItWZOiQf/ZqdLNkSAfrDqAjRSOMOfYYyUGCBKtdwIWlnufytd+AGJgM0ewP/cD34fQrBNjGXLCivo50NHlcWBszliZBPxzGaKZ3vnVcilu1el4JpiR5Z6rQHvPLbGPLvRNLhKzZ15Xty8=
         skinName: 91d0ec00-4181-4e9e-8551-a45609faa3d1
         textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTc4NTA0NDE5MDU4MywKICAicHJvZmlsZUlkIiA6ICJkYTA1Y2Q3OWZkYjc0MDJlYTdjNjMzY2NkZmYzMDI4YyIsCiAgInByb2ZpbGVOYW1lIiA6ICJGZXJuYW5kMGFsMG5zMCIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS85YmY1NTgyNDYyYTI1Zjc0NTU2OThhNGM4YzJiOWRmMzljM2JmNzA4ZTQ0MjkzODkzMDM2YjFlOTc4YjRjZThkIgogICAgfQogIH0KfQ==
-    traitnames: owner,spawned,scoreboardtrait,rotationtrait,hologramtrait,lookclose,skintrait,location,commandtrait,type,inventory
+    traitnames: type,location,owner,spawned,rotationtrait,scoreboardtrait,skintrait,commandtrait,inventory,lookclose,hologramtrait
     navigator:
       speedmodifier: 1.0
       avoidwater: false
@@ -1617,13 +1617,13 @@ npc:
     uuid: 3392babb-dbd0-4a83-ba32-4ba7b14ede2d
     traits:
       location:
-        bodyYaw: -93.68483
+        bodyYaw: -97.99634
         world: world
         x: 4.3707
         y: 84.0
         z: 96.5357
-        yaw: -93.6848
-        pitch: -5.9315
+        yaw: -97.9963
+        pitch: 0.0
       owner:
         uuid: 57481db9-38f7-3a96-b52d-ff0f7993c232
       lookclose:
@@ -1658,7 +1658,7 @@ npc:
             experienceCost: -1
       type: PLAYER
       spawned: true
-    traitnames: owner,spawned,scoreboardtrait,rotationtrait,hologramtrait,lookclose,skintrait,location,commandtrait,type,inventory
+    traitnames: type,location,owner,spawned,rotationtrait,scoreboardtrait,skintrait,commandtrait,inventory,lookclose,hologramtrait
     navigator:
       speedmodifier: 1.0
       avoidwater: false
@@ -1670,13 +1670,13 @@ npc:
     uuid: ae58d500-6965-458f-ad60-1c1684459654
     traits:
       location:
-        bodyYaw: -74.29668
+        bodyYaw: -79.36392
         world: world
         x: 4.2362
         y: 84.0
         z: 92.3417
-        yaw: -74.2967
-        pitch: -5.6604
+        yaw: -79.3639
+        pitch: 0.0
       owner:
         uuid: 57481db9-38f7-3a96-b52d-ff0f7993c232
       lookclose:
@@ -1711,7 +1711,7 @@ npc:
             experienceCost: -1
       type: PLAYER
       spawned: true
-    traitnames: owner,spawned,scoreboardtrait,rotationtrait,hologramtrait,lookclose,skintrait,location,commandtrait,type,inventory
+    traitnames: type,location,owner,spawned,rotationtrait,scoreboardtrait,skintrait,commandtrait,inventory,lookclose,hologramtrait
     navigator:
       speedmodifier: 1.0
       avoidwater: false
@@ -1764,7 +1764,7 @@ npc:
             experienceCost: -1
       type: PLAYER
       spawned: true
-    traitnames: owner,spawned,scoreboardtrait,rotationtrait,hologramtrait,lookclose,skintrait,location,commandtrait,type,inventory
+    traitnames: type,location,owner,spawned,rotationtrait,scoreboardtrait,skintrait,commandtrait,inventory,lookclose,hologramtrait
     navigator:
       speedmodifier: 1.0
       avoidwater: false
@@ -1817,7 +1817,7 @@ npc:
             experienceCost: -1
       type: PLAYER
       spawned: true
-    traitnames: owner,spawned,scoreboardtrait,rotationtrait,hologramtrait,lookclose,skintrait,location,commandtrait,type,inventory
+    traitnames: type,location,owner,spawned,rotationtrait,scoreboardtrait,skintrait,commandtrait,inventory,lookclose,hologramtrait
     navigator:
       speedmodifier: 1.0
       avoidwater: false
@@ -1870,7 +1870,7 @@ npc:
             experienceCost: -1
       type: PLAYER
       spawned: true
-    traitnames: owner,spawned,scoreboardtrait,rotationtrait,hologramtrait,lookclose,skintrait,location,commandtrait,type,inventory
+    traitnames: type,location,owner,spawned,rotationtrait,scoreboardtrait,skintrait,commandtrait,inventory,lookclose,hologramtrait
     navigator:
       speedmodifier: 1.0
       avoidwater: false
@@ -1923,7 +1923,7 @@ npc:
             experienceCost: -1
       type: PLAYER
       spawned: true
-    traitnames: owner,spawned,scoreboardtrait,rotationtrait,hologramtrait,lookclose,skintrait,location,commandtrait,type,inventory
+    traitnames: type,location,owner,spawned,rotationtrait,scoreboardtrait,skintrait,commandtrait,inventory,lookclose,hologramtrait
     navigator:
       speedmodifier: 1.0
       avoidwater: false
@@ -1935,13 +1935,13 @@ npc:
     uuid: 2e1fc135-fd71-4176-9a2d-aebf3d3e1a37
     traits:
       location:
-        bodyYaw: -111.7627
+        bodyYaw: -114.55613
         world: world
         x: 4.2208
         y: 84.0
         z: 100.6226
-        yaw: -111.7627
-        pitch: -5.4552
+        yaw: -114.5561
+        pitch: 0.0
       owner:
         uuid: 57481db9-38f7-3a96-b52d-ff0f7993c232
       lookclose:
@@ -1976,7 +1976,7 @@ npc:
             experienceCost: -1
       type: PLAYER
       spawned: true
-    traitnames: owner,spawned,scoreboardtrait,rotationtrait,hologramtrait,lookclose,skintrait,location,commandtrait,type,inventory
+    traitnames: type,location,owner,spawned,rotationtrait,scoreboardtrait,skintrait,commandtrait,inventory,lookclose,hologramtrait
     navigator:
       speedmodifier: 1.0
       avoidwater: false
@@ -2029,7 +2029,7 @@ npc:
             experienceCost: -1
       type: PLAYER
       spawned: true
-    traitnames: owner,spawned,scoreboardtrait,rotationtrait,hologramtrait,lookclose,skintrait,location,commandtrait,type,inventory
+    traitnames: type,location,owner,spawned,rotationtrait,scoreboardtrait,skintrait,commandtrait,inventory,lookclose,hologramtrait
     navigator:
       speedmodifier: 1.0
       avoidwater: false
@@ -2041,13 +2041,13 @@ npc:
     uuid: a2a1fa2c-8fcb-49f9-85cd-0d5402de6193
     traits:
       location:
-        bodyYaw: -134.50189
+        bodyYaw: -166.39807
         world: world
         x: 13.4959
         y: 84.0
         z: 103.6263
-        yaw: -134.5019
-        pitch: -1.8468
+        yaw: -166.3981
+        pitch: 0.0
       owner:
         uuid: 57481db9-38f7-3a96-b52d-ff0f7993c232
       lookclose:
@@ -2082,7 +2082,7 @@ npc:
             experienceCost: -1
       type: PLAYER
       spawned: true
-    traitnames: owner,spawned,scoreboardtrait,rotationtrait,hologramtrait,lookclose,skintrait,location,commandtrait,type,inventory
+    traitnames: type,location,owner,spawned,rotationtrait,scoreboardtrait,skintrait,commandtrait,inventory,lookclose,hologramtrait
     navigator:
       speedmodifier: 1.0
       avoidwater: false
@@ -2110,12 +2110,12 @@ npc:
             experienceCost: -1
       spawned: true
       location:
-        bodyYaw: -138.12584
+        bodyYaw: -152.0218
         world: world
         x: 11.3838
         y: 84.0
         z: 103.7085
-        yaw: -138.1258
+        yaw: -152.0218
         pitch: 0.0
       lookclose:
         range: 10.0
@@ -2126,7 +2126,7 @@ npc:
         randomYawRange:
           '0': 0.0
           '1': 360.0
-    traitnames: owner,spawned,scoreboardtrait,rotationtrait,hologramtrait,lookclose,skintrait,location,commandtrait,type,inventory
+    traitnames: type,location,owner,spawned,rotationtrait,scoreboardtrait,skintrait,commandtrait,inventory,lookclose,hologramtrait
     navigator:
       speedmodifier: 1.0
       avoidwater: false
@@ -2141,12 +2141,12 @@ npc:
       owner:
         uuid: 57481db9-38f7-3a96-b52d-ff0f7993c232
       location:
-        bodyYaw: -90.0
+        bodyYaw: 156.3648
         world: world_prison
         x: -1956.4685
         y: -54.0
         z: -663.5186
-        yaw: -90.0
+        yaw: 176.3648
         pitch: 0.0
       type: PLAYER
       commandtrait:
@@ -2177,7 +2177,7 @@ npc:
         randomYawRange:
           '0': 0.0
           '1': 360.0
-    traitnames: owner,spawned,hologramtrait,scoreboardtrait,rotationtrait,lookclose,skintrait,location,commandtrait,type,inventory
+    traitnames: type,location,owner,spawned,rotationtrait,scoreboardtrait,skintrait,commandtrait,inventory,lookclose,hologramtrait
     navigator:
       speedmodifier: 1.0
       avoidwater: false
@@ -2192,13 +2192,13 @@ npc:
       owner:
         uuid: 57481db9-38f7-3a96-b52d-ff0f7993c232
       location:
-        bodyYaw: 77.89789
+        bodyYaw: 82.59494
         world: world_prison
         x: -1519.5376
         y: -57.0
         z: -379.4899
-        yaw: 77.8979
-        pitch: 0.0
+        yaw: 82.5949
+        pitch: -39.7493
       type: PLAYER
       commandtrait:
         commands:
@@ -2228,7 +2228,7 @@ npc:
         randomYawRange:
           '0': 0.0
           '1': 360.0
-    traitnames: owner,spawned,hologramtrait,scoreboardtrait,rotationtrait,lookclose,skintrait,location,commandtrait,type,inventory
+    traitnames: type,location,owner,spawned,rotationtrait,scoreboardtrait,skintrait,commandtrait,inventory,lookclose,hologramtrait
     navigator:
       speedmodifier: 1.0
       avoidwater: false
@@ -2243,13 +2243,13 @@ npc:
       owner:
         uuid: 57481db9-38f7-3a96-b52d-ff0f7993c232
       location:
-        bodyYaw: 138.32341
+        bodyYaw: -95.155045
         world: world_prison
         x: -2330.3759
         y: -56.0
         z: -699.3863
-        yaw: 145.2883
-        pitch: 0.0
+        yaw: -95.155
+        pitch: -28.3067
       type: PLAYER
       commandtrait:
         commands:
@@ -2279,7 +2279,7 @@ npc:
         randomYawRange:
           '0': 0.0
           '1': 360.0
-    traitnames: owner,spawned,hologramtrait,scoreboardtrait,rotationtrait,lookclose,skintrait,location,commandtrait,type,inventory
+    traitnames: type,location,owner,spawned,rotationtrait,scoreboardtrait,skintrait,commandtrait,inventory,lookclose,hologramtrait
     navigator:
       speedmodifier: 1.0
       avoidwater: false
@@ -2330,7 +2330,7 @@ npc:
         randomYawRange:
           '0': 0.0
           '1': 360.0
-    traitnames: owner,spawned,hologramtrait,scoreboardtrait,rotationtrait,lookclose,skintrait,location,commandtrait,type,inventory
+    traitnames: type,location,owner,spawned,rotationtrait,scoreboardtrait,skintrait,commandtrait,inventory,lookclose,hologramtrait
     navigator:
       speedmodifier: 1.0
       avoidwater: false
@@ -2345,13 +2345,13 @@ npc:
       owner:
         uuid: 57481db9-38f7-3a96-b52d-ff0f7993c232
       location:
-        bodyYaw: 133.51276
+        bodyYaw: 138.48822
         world: world_prison
         x: -1843.396
         y: -58.5
         z: -314.4831
-        yaw: 129.5518
-        pitch: -3.3105
+        yaw: 157.2481
+        pitch: -26.3227
       type: PLAYER
       commandtrait:
         commands:
@@ -2381,7 +2381,7 @@ npc:
         randomYawRange:
           '0': 0.0
           '1': 360.0
-    traitnames: owner,spawned,hologramtrait,scoreboardtrait,rotationtrait,lookclose,skintrait,location,commandtrait,type,inventory
+    traitnames: type,location,owner,spawned,rotationtrait,scoreboardtrait,skintrait,commandtrait,inventory,lookclose,hologramtrait
     navigator:
       speedmodifier: 1.0
       avoidwater: false
@@ -2396,13 +2396,13 @@ npc:
       owner:
         uuid: 57481db9-38f7-3a96-b52d-ff0f7993c232
       location:
-        bodyYaw: 80.98268
+        bodyYaw: 148.88222
         world: world_prison
         x: -1842.4545
         y: -56.0
         z: 30.3452
-        yaw: 80.9827
-        pitch: -6.3745
+        yaw: 168.8822
+        pitch: -14.3434
       type: PLAYER
       commandtrait:
         commands:
@@ -2432,7 +2432,7 @@ npc:
         randomYawRange:
           '0': 0.0
           '1': 360.0
-    traitnames: owner,spawned,hologramtrait,scoreboardtrait,rotationtrait,lookclose,skintrait,location,commandtrait,type,inventory
+    traitnames: type,location,owner,spawned,rotationtrait,scoreboardtrait,skintrait,commandtrait,inventory,lookclose,hologramtrait
     navigator:
       speedmodifier: 1.0
       avoidwater: false
@@ -2447,13 +2447,13 @@ npc:
       owner:
         uuid: 57481db9-38f7-3a96-b52d-ff0f7993c232
       location:
-        bodyYaw: 42.65605
+        bodyYaw: 18.406105
         world: world_prison
         x: -29.3651
         y: -56.0
         z: 110.4825
-        yaw: 42.6561
-        pitch: -3.7763
+        yaw: 18.4061
+        pitch: 4.2054
       type: PLAYER
       commandtrait:
         commands:
@@ -2483,7 +2483,7 @@ npc:
         randomYawRange:
           '0': 0.0
           '1': 360.0
-    traitnames: owner,spawned,hologramtrait,scoreboardtrait,rotationtrait,lookclose,skintrait,location,commandtrait,type,inventory
+    traitnames: type,location,owner,spawned,rotationtrait,scoreboardtrait,skintrait,commandtrait,inventory,lookclose,hologramtrait
     navigator:
       speedmodifier: 1.0
       avoidwater: false
@@ -2533,7 +2533,7 @@ npc:
         randomYawRange:
           '0': 0.0
           '1': 360.0
-    traitnames: owner,spawned,hologramtrait,scoreboardtrait,rotationtrait,lookclose,skintrait,location,commandtrait,type,inventory
+    traitnames: type,location,owner,spawned,rotationtrait,scoreboardtrait,skintrait,commandtrait,inventory,lookclose,hologramtrait
     navigator:
       speedmodifier: 1.0
       avoidwater: false
@@ -2548,13 +2548,13 @@ npc:
       owner:
         uuid: 57481db9-38f7-3a96-b52d-ff0f7993c232
       location:
-        bodyYaw: 112.5733
+        bodyYaw: 18.243393
         world: world_prison
         x: -459.3599
         y: -55.0
         z: 28.4354
-        yaw: 92.5733
-        pitch: -5.0231
+        yaw: 18.2434
+        pitch: -24.417
       type: PLAYER
       commandtrait:
         commands:
@@ -2584,7 +2584,7 @@ npc:
         randomYawRange:
           '0': 0.0
           '1': 360.0
-    traitnames: owner,spawned,hologramtrait,scoreboardtrait,rotationtrait,lookclose,skintrait,location,commandtrait,type,inventory
+    traitnames: type,location,owner,spawned,rotationtrait,scoreboardtrait,skintrait,commandtrait,inventory,lookclose,hologramtrait
     navigator:
       speedmodifier: 1.0
       avoidwater: false

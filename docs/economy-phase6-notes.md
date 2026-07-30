@@ -57,11 +57,16 @@ Early (cobble/coal/iron/lapis/redstone) **không đổi**.
 - Late (6→9): ~4–10h / rank (trước đó ~2–3h)
 - Prestige 1: ~20–40h sell grind (trước đó ~100h+)
 
-Forge/refinery **chưa đụng** — sink nguyên liệu vẫn theo recipe hiện tại; sau khi chơi thử late game mới chỉnh thêm nếu quá dễ/khó.
+### 5. Refinery — `plugins/MMOItems/crafting-stations/refinery-*.yml` (2026-07-30)
+
+Cân bằng lại block→NÊN và NÊN→ĐÁ theo rank; bổ sung Gold Ingot (rank 6 / nether gold), Ancient Debris (rank 8–9). Rank 9: `NEN_DOI`×6 → `NEN_BA`, `NEN_BA`×4 → ĐÁ (= **24** NÊN/ĐÁ, trước đó 72). Bảng chi tiết: [`README.md`](README.md) § Recipe Tinh Luyện.
+
+**Forge** (chi phí ĐÁ/NÊN nâng cúp–giáp–vũ khí) **chưa đụng** — chỉ sink qua tinh luyện.
 
 ## Reload in-game
 
 ```
+/mi reload
 /sreload
 /xprison reload
 sk reload prison/level_gate.sk
@@ -75,5 +80,6 @@ Test bằng tài khoản **không OP** (OP bị multiplier LEGEND x3).
 
 - Thêm filler stone vào mỏ mid/late (`plugins/X-Prison/mines/*.json`)
 - Chỉnh % ore composition
-- Nerf/buff recipe forge-refinery
+- Nerf/buff recipe **forge** (ĐÁ/NÊN / success-rate)
+- Spawn NPC `armor-forge-jailbreak` nếu còn thiếu
 - Cập nhật số trong `xprison-config-notes.md` nếu còn bảng cost cũ

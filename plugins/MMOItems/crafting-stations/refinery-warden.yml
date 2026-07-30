@@ -21,7 +21,7 @@ recipes:
             amount: 1
         crafting-time: 0
         ingredients:
-        - vanilla{type=EMERALD_BLOCK,amount=8,display="Emerald Block"}
+        - vanilla{type=EMERALD_BLOCK,amount=7,display="Emerald Block"}
     nen-diamond-quan-nguc:
         output:
             type: MATERIAL
@@ -29,7 +29,7 @@ recipes:
             amount: 1
         crafting-time: 0
         ingredients:
-        - vanilla{type=DIAMOND_BLOCK,amount=8,display="Diamond Block"}
+        - vanilla{type=DIAMOND_BLOCK,amount=7,display="Diamond Block"}
     nen-quartz-quan-nguc:
         output:
             type: MATERIAL
@@ -37,7 +37,7 @@ recipes:
             amount: 1
         crafting-time: 0
         ingredients:
-        - vanilla{type=QUARTZ_BLOCK,amount=12,display="Quartz Block"}
+        - vanilla{type=QUARTZ_BLOCK,amount=10,display="Quartz Block"}
     nen-debris-quan-nguc:
         output:
             type: MATERIAL
@@ -45,7 +45,7 @@ recipes:
             amount: 1
         crafting-time: 0
         ingredients:
-        - vanilla{type=ANCIENT_DEBRIS,amount=6,display="Ancient Debris"}
+        - vanilla{type=ANCIENT_DEBRIS,amount=5,display="Ancient Debris"}
     che-da-quan-nguc:
         output:
             type: MATERIAL
@@ -53,4 +53,4 @@ recipes:
             amount: 1
         crafting-time: 0
         ingredients:
-        - mmoitem{type=MATERIAL,id=NEN_DOI_QUAN_NGUC,amount=8,display="Quặng Tinh Luyện Quản Ngục"}
+        - mmoitem{type=MATERIAL,id=NEN_DOI_QUAN_NGUC,amount=10,display="Quặng Tinh Luyện Quản Ngục"}

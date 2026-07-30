@@ -21,7 +21,7 @@ recipes:
             amount: 1
         crafting-time: 0
         ingredients:
-        - vanilla{type=DIAMOND_BLOCK,amount=8,display="Diamond Block"}
+        - vanilla{type=DIAMOND_BLOCK,amount=6,display="Diamond Block"}
     nen-emerald-pho-quan-nguc:
         output:
             type: MATERIAL
@@ -29,7 +29,7 @@ recipes:
             amount: 1
         crafting-time: 0
         ingredients:
-        - vanilla{type=EMERALD_BLOCK,amount=8,display="Emerald Block"}
+        - vanilla{type=EMERALD_BLOCK,amount=6,display="Emerald Block"}
     nen-gold-pho-quan-nguc:
         output:
             type: MATERIAL
@@ -37,7 +37,15 @@ recipes:
             amount: 1
         crafting-time: 0
         ingredients:
-        - vanilla{type=GOLD_BLOCK,amount=12,display="Gold Block"}
+        - vanilla{type=GOLD_BLOCK,amount=10,display="Gold Block"}
+    nen-gold-ingot-pho-quan-nguc:
+        output:
+            type: MATERIAL
+            id: NEN_DOI_PHO_QUAN_NGUC
+            amount: 1
+        crafting-time: 0
+        ingredients:
+        - vanilla{type=GOLD_INGOT,amount=36,display="Gold Ingot"}
     che-da-pho-quan-nguc:
         output:
             type: MATERIAL
@@ -45,4 +53,4 @@ recipes:
             amount: 1
         crafting-time: 0
         ingredients:
-        - mmoitem{type=MATERIAL,id=NEN_DOI_PHO_QUAN_NGUC,amount=7,display="Quặng Tinh Luyện Phó Quản Ngục"}
+        - mmoitem{type=MATERIAL,id=NEN_DOI_PHO_QUAN_NGUC,amount=8,display="Quặng Tinh Luyện Phó Quản Ngục"}

@@ -58,43 +58,20 @@ Rule chung: 3 chỉ số **luân phiên tăng mỗi cấp** (không cấp nào �
 
 Autosmelt chỉ bật ở 2 rank cao nhất (H, I) — tự động nấu quặng thô (raw iron/copper/gold) thành ingot khi đào, không có tác dụng bổ sung với quặng đã ra thẳng dạng cuối (coal/diamond/emerald/redstone/lapis).
 
-## 2. Tỷ lệ đổi tại Lò Rèn (`forge-1..9.yml`)
+## 2. Tinh luyện & Lò Rèn (live)
 
-Mỗi mỏ có 1 trạm craft riêng (`forge-1`=A..`forge-9`=I), gồm 2 loại recipe:
+**Chuẩn UX:** NPC `refinery-*` (tinh luyện) + `forge-*` (nâng cúp). File cũ `forge-1..9` / bảng cobble×48 **đã lỗi thời**.
 
-### 2a. Chế Đá Nâng Cấp (quy đổi block đã nén → 1 Đá Nâng Cấp cùng rank)
+### 2a. Chế Cường Hóa Thạch (`refinery-*.yml`)
 
-| Rank (mine) | Nguyên liệu / lần chế | Số lượng | Crafting time |
-|---|---|---|---|
-| A Tân Binh | Cobblestone | 48 | 0s |
-| B Tù Nhân | Coal Block | 4 | 0s |
-| C Lao Công | Copper Block | 4 | 0s |
-| D Thợ Đào | Iron Block | 4 | 0s |
-| E Đội Trưởng | Gold Block | 4 | 0s |
-| F Phó Quản Ngục | Redstone Block | 4 | 0s |
-| G Quản Ngục | Lapis Block | 4 | 0s |
-| H Bá Chủ Ngục Tù | Diamond Block | 4 | 0s |
-| I Vượt Ngục | Emerald Block | 4 | 0s |
+Block vanilla → `NEN_DOI_<RANK>` → `DA_NANG_CAP_<RANK>`. Bảng số block / NÊN mỗi Đá: [`README.md`](README.md) § Recipe Tinh Luyện (cập nhật 2026-07-30). Rank 9 thêm bước `NEN_BA_VUOT_NGUC`.
 
-Lưu ý: trừ Tân Binh (Cobblestone không có dạng nén khác), 8 rank còn lại bắt buộc player phải tự vanilla-craft 9 nguyên liệu thô (coal/raw copper/raw iron/raw gold/redstone/lapis lazuli/diamond/emerald) thành 1 block trước, rồi mới đem 4 block đó chế thành 1 Đá Nâng Cấp — không thể dùng thẳng nguyên liệu thô để chế.
+### 2b. Nâng cấp cuốc (`forge-*.yml` theo rank)
 
-**Cập nhật 2026-07-21 (lần 2)**: tăng gấp đôi so với bản đầu (24→48 cobblestone, 2→4 block) — lý do: chỉ số Efficiency/Fortune cao (tới 16) khiến tốc độ đào và số lượng quặng rơi ra quá nhiều so với yêu cầu craft ban đầu, cần nâng ngưỡng để việc nâng cấp vẫn có ý nghĩa tốn công.
-
-### 2b. Nâng cấp cuốc (cấp N → N+1)
-
-Ingredient mỗi lần nâng cấp = 1 cuốc cấp hiện tại + X Đá Nâng Cấp cùng rank (X tăng theo cấp số nhân ×2, không phụ thuộc rank — áp dụng đồng nhất cho cả 9 rank). **Đã tăng gấp đôi cùng đợt 2026-07-21 (lần 2)** so với bản đầu (4/8/16/32 → 8/16/32/64):
-
-| Bước | Đá Nâng Cấp cần |
-|---|---|
-| I → II | 8 |
-| II → III | 16 |
-| III → IV | 32 |
-| IV → V | 64 |
-
-Tổng Đá Nâng Cấp để lên full cấp V (từ cấp I) của 1 rank: **120 đá** = 8+16+32+64. Quy đổi ra block đã nén (4 block/đá): **480 block**, tương đương **4,320 nguyên liệu thô** (9 nguyên liệu/block) cho toàn bộ hành trình 1 rank (riêng Tân Binh: mỗi đá = 48 cobblestone → 120 đá = 5,760 cobblestone).
+Mỗi bước = cuốc cấp trước + **cùng số** `DA_NANG_CAP` + `NEN_DOI` (không còn flat 8/16/32/64 cho mọi rank). Ví dụ Tân Binh (`forge-rookie`): I→II **2/2**, II→III **4/4**, III→IV **8/8**, IV→V **16/16** (success 85→55%). Rank cao hơn: xem file `forge-<rank>.yml` tương ứng.
 
 ## Chưa cân bằng / cần rà lại
 
-- Số Đá Nâng Cấp mỗi bước (8/16/32/64) áp dụng **đồng nhất cho mọi rank**, chưa tính tới chênh lệch độ khan hiếm tài nguyên giữa các rank (đào emerald ở rank I khó hơn hẳn cobblestone ở rank A, nhưng chi phí nâng cấp X Đá hiện đang bằng nhau về SỐ LƯỢNG đá — độ khó thực tế đã tự nhiên cao hơn ở rank cao vì tốn nhiều nguyên liệu thô hơn/đá hiếm hơn, không cần nhân thêm hệ số theo rank).
-- Chưa đối chiếu với giá rank-up Prison (`cost` trong `rank_<id>.json`: 0 / 10k / 25k / 60k / 150k / 350k / 800k / 1.8M / 4M) để xem tổng "chi phí quy đổi ra thời gian đào" có hợp lý theo tiến trình rank hay không — cần rà ở Phase 6 (cân bằng kinh tế) theo `prison-rpg-plan.md`.
-- Chưa test thực tế trong game xem tốc độ đào (dựa `pickaxe-power`/hiệu suất) có đủ để gom đủ nguyên liệu trong thời gian hợp lý hay không.
+- Forge ĐÁ/NÊN theo rank đã scale (xem `forge-*.yml`); refinery đã cân 2026-07-30 — còn có thể chỉnh success-rate hoặc forge cost sau khi chơi thử late game.
+- Đối chiếu thời gian đào thực tế vs rank-up cost (Phase 6 money đã chỉnh; prestige/refinery sink mới cần playtest).
+- Test in-game tốc độ đào (Efficiency/Fortune) có khớp mục tiêu ~1–4h early / ~4–10h late hay không.

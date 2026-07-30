@@ -29,7 +29,7 @@ recipes:
             amount: 1
         crafting-time: 0
         ingredients:
-        - vanilla{type=EMERALD_BLOCK,amount=12,display="Emerald Block"}
+        - vanilla{type=EMERALD_BLOCK,amount=10,display="Emerald Block"}
     nen-diamond-ba-chu-nguc-tu:
         output:
             type: MATERIAL
@@ -37,7 +37,15 @@ recipes:
             amount: 1
         crafting-time: 0
         ingredients:
-        - vanilla{type=DIAMOND_BLOCK,amount=12,display="Diamond Block"}
+        - vanilla{type=DIAMOND_BLOCK,amount=10,display="Diamond Block"}
+    nen-debris-ba-chu-nguc-tu:
+        output:
+            type: MATERIAL
+            id: NEN_DOI_BA_CHU_NGUC_TU
+            amount: 1
+        crafting-time: 0
+        ingredients:
+        - vanilla{type=ANCIENT_DEBRIS,amount=8,display="Ancient Debris"}
     che-da-ba-chu-nguc-tu:
         output:
             type: MATERIAL
@@ -45,4 +53,4 @@ recipes:
             amount: 1
         crafting-time: 0
         ingredients:
-        - mmoitem{type=MATERIAL,id=NEN_DOI_BA_CHU_NGUC_TU,amount=8,display="Quặng Tinh Luyện Bá Chủ Ngục Tù"}
+        - mmoitem{type=MATERIAL,id=NEN_DOI_BA_CHU_NGUC_TU,amount=12,display="Quặng Tinh Luyện Bá Chủ Ngục Tù"}

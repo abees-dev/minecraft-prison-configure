@@ -180,7 +180,7 @@ Core loop đào–bán–rankup dễ nhàm nếu chỉ có một việc lặp. L
 | A | **Nhiệm vụ Ngày / Tuần** | Login → làm 2–3 quest (đào / giết / bán) → nhận thưởng | **Chưa cần làm** — user sẽ tự làm plugin sau. BattlePass daily config hiện có thể bỏ / không dùng | Hoãn |
 | B | **Chợ Đen** | Đăng bán / săn deal hết hạn 24h — FOMO + kinh tế player | Skript `black_market/` đã viết, **chưa** trong `00_system_loader.sk` → bật loader | P1 |
 | C | **Đêm Nguyệt Huyết** | Cuối tuần 2 giờ: boss Bá Tước Huyết Nguyệt | **Đã làm** — Skript `bloodmoon/` · [`nguyet-huyet-notes.md`](nguyet-huyet-notes.md) | P1 xong |
-| D | **Ma Vương (tự spawn)** | Farm mảnh → chế Huy Hiệu → right-click bàn thờ | Đã có: `demon_king/` + altar. Hologram `MaVuongTimer` = **cooldown**, không phải lịch server. Polish sink `TINHTHE_HUY_DIET` nếu cần — **update sau** |
+| D | **Ma Vương (tự spawn)** | Farm mảnh → chế Huy Hiệu → right-click bàn thờ | Đã có: `demon_king/` + altar. Hologram `MaVuongTimer` = **cooldown**. Sink `TINHTHE_HUY_DIET` + drop rework: **đã xong** (2026-07-30) |
 | E | **Mốc đào (Block milestones)** | 10k / 50k / 100k… blocks → rương thưởng (không phải chỉ số ảo) | X-Prison `/blocks` + Skript reward hoặc BattlePass milestone | P2 |
 | F | **BXH tuần** | Đua blocks mined / boss kill / prestige — khoe tab & thưởng top | PlaceholderAPI + DecentHolograms / TAB; reset weekly | P2 |
 | G | **Đêm Vượt Ngục** (themed night) | 1 tối/tuần: +sell mult tạm + dungeon loot boost 2 giờ | Skript multiplier tạm + announce; khớp fantasy “vượt ngục” | P2 |
@@ -223,7 +223,7 @@ Core loop đào–bán–rankup dễ nhàm nếu chỉ có một việc lặp. L
 | ---: | --- | --- | --- |
 | 5 | **Làm rõ Prestige vs Chuyển Sinh** | ~~Dễ nhầm Rebirths~~ | **Đã test + ẩn X-Prison Rebirths** |
 | 6 | **Cân bằng kinh tế Phase 6** | ~~Ore/EV lệch late + prestige cliff~~ | **Đã chỉnh 2026-07-29** — chi tiết [`economy-phase6-notes.md`](economy-phase6-notes.md); reload `/sreload` + `/xprison reload` + `sk reload prison/` |
-| 7 | **Ma Vương polish** | User đã tự spawn qua bàn thờ + Huy Hiệu; không làm lịch cố định | **Hoãn polish sink/drop** (`TINHTHE_HUY_DIET`…) — update sau nếu cần |
+| 7 | **Ma Vương polish** | User đã tự spawn qua bàn thờ + Huy Hiệu; không làm lịch cố định | **Đã xong** — drop scale + sink `TINHTHE_HUY_DIET` (2026-07-30); xem `HUONG_DAN_DROPS_VA_EXP_NHATU.md` |
 | 8 | **Đồng bộ docs ops** | Docs từng nói X-Prison enchants bật | Đã chuẩn hóa trong [`DOCS_HE_THONG_PRISON.md`](../DOCS_HE_THONG_PRISON.md) + [`INDEX.md`](INDEX.md) — giữ khớp khi đổi config |
 | 9 | **Daily/Weekly quests (BattlePass)** | Lý do login ngắn mỗi ngày (§6.2 A) | **Hoãn — không làm tiếp.** User sẽ làm plugin daily riêng sau. Note: [`battlepass-daily-notes.md`](battlepass-daily-notes.md) chỉ là thử nghiệm BattlePass, không bắt buộc |
 | 10 | **Bật Chợ Đen** | Kinh tế player + FOMO (§6.2 B) | Thêm `sk reload black_market/` vào [`00_system_loader.sk`](../plugins/Skript/scripts/00_system_loader.sk); test GUI |

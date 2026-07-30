@@ -6,7 +6,7 @@
 Prison_Tan_Binh_Enrage:
   Cooldown: 20
   Conditions:
-    - health{h=<143} true
+    - health{h=<72} true
   Skills:
     - effect:sound{s=entity.zombie.ambient;volume=1.5;pitch=0.6} @self
     - effect:particles{p=flame;amount=25;hSpread=0.5;ySpread=1;speed=0.02;yOffset=1} @self
@@ -17,7 +17,7 @@ Prison_Tan_Binh_Enrage:
 Prison_Tu_Nhan_Enrage:
   Cooldown: 20
   Conditions:
-    - health{h=<225} true
+    - health{h=<113} true
   Skills:
     - effect:sound{s=entity.husk.ambient;volume=1.5;pitch=0.6} @self
     - effect:particles{p=flame;amount=25;hSpread=0.5;ySpread=1;speed=0.02;yOffset=1} @self
@@ -28,7 +28,7 @@ Prison_Tu_Nhan_Enrage:
 Prison_Lao_Cong_Enrage:
   Cooldown: 20
   Conditions:
-    - health{h=<330} true
+    - health{h=<165} true
   Skills:
     - effect:sound{s=entity.husk.ambient;volume=1.5;pitch=0.5} @self
     - effect:particles{p=flame;amount=30;hSpread=0.5;ySpread=1;speed=0.03;yOffset=1} @self
@@ -39,7 +39,7 @@ Prison_Lao_Cong_Enrage:
 Prison_Tho_Dao_Enrage:
   Cooldown: 20
   Conditions:
-    - health{h=<450} true
+    - health{h=<225} true
   Skills:
     - effect:sound{s=entity.drowned.ambient;volume=1.5;pitch=0.5} @self
     - effect:particles{p=flame;amount=30;hSpread=0.5;ySpread=1;speed=0.03;yOffset=1} @self

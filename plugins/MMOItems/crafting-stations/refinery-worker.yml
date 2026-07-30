@@ -21,7 +21,7 @@ recipes:
             amount: 1
         crafting-time: 0
         ingredients:
-        - vanilla{type=IRON_BLOCK,amount=6,display="Iron Block"}
+        - vanilla{type=IRON_BLOCK,amount=5,display="Iron Block"}
     nen-coal-lao-cong:
         output:
             type: MATERIAL
@@ -29,7 +29,7 @@ recipes:
             amount: 1
         crafting-time: 0
         ingredients:
-        - vanilla{type=COAL_BLOCK,amount=8,display="Coal Block"}
+        - vanilla{type=COAL_BLOCK,amount=6,display="Coal Block"}
     nen-gold-lao-cong:
         output:
             type: MATERIAL
@@ -37,7 +37,7 @@ recipes:
             amount: 1
         crafting-time: 0
         ingredients:
-        - vanilla{type=GOLD_BLOCK,amount=6,display="Gold Block"}
+        - vanilla{type=GOLD_BLOCK,amount=4,display="Gold Block"}
     nen-lapis-lao-cong:
         output:
             type: MATERIAL
@@ -45,7 +45,7 @@ recipes:
             amount: 1
         crafting-time: 0
         ingredients:
-        - vanilla{type=LAPIS_BLOCK,amount=6,display="Lapis Block"}
+        - vanilla{type=LAPIS_BLOCK,amount=4,display="Lapis Block"}
     che-da-lao-cong:
         output:
             type: MATERIAL

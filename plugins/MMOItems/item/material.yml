@@ -307,8 +307,9 @@ TINHTHE_HUY_DIET:
     enchants:
       unbreaking: 1
     lore:
-      - "&7 &5●&7 Tinh thể huyền thoại ngưng tụ từ các Boss Ngục Tù"
-      - "&7 &5●&7 Nguyên liệu cao cấp để rèn trang bị phẩm chất thượng thừa"
+      - "&7 &5●&7 Tinh thể huyền thoại rớt từ &4Ma Vương Ngục Tù&7 (25%)"
+      - "&7 &5●&7 Đổi tại Bàn Chế Huy Hiệu: &e2× Đá Cường Hóa Thiên Mệnh"
+      - "&7 &5●&7 hoặc &e1× Đá Đục Lỗ Thiên Mệnh"
 
 HUY_HIEU_TRIEU_HOI:
   base:
@@ -355,8 +356,8 @@ MANH_LONG_TOC:
     enchants:
       unbreaking: 1
     lore:
-      - "&7 &6●&7 Mảnh linh khí Long Tộc, rớt ra khi hạ gục bất kỳ Boss nào"
-      - "&7 &6●&7 trong Nhà Tù (9 rank), tỉ lệ 20%"
+      - "&7 &6●&7 Mảnh linh khí Long Tộc, rớt khi hạ Boss Nhà Tù (9 rank)"
+      - "&7 &6●&7 Tỉ lệ theo rank boss (~12%–25%)"
       - "&7 &6●&7 Dùng để chế thành &6Ấn Tín Long Tộc&7 tại Bàn Chế"
 
 AN_TIN_LONG_TOC:

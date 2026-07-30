@@ -21,7 +21,7 @@ recipes:
             amount: 1
         crafting-time: 0
         ingredients:
-        - vanilla{type=SMOOTH_STONE,amount=8,display="Smooth Stone"}
+        - vanilla{type=SMOOTH_STONE,amount=10,display="Smooth Stone"}
     nen-coal-tu-nhan:
         output:
             type: MATERIAL
@@ -29,7 +29,7 @@ recipes:
             amount: 1
         crafting-time: 0
         ingredients:
-        - vanilla{type=COAL_BLOCK,amount=6,display="Coal Block"}
+        - vanilla{type=COAL_BLOCK,amount=5,display="Coal Block"}
     nen-iron-tu-nhan:
         output:
             type: MATERIAL
@@ -37,7 +37,7 @@ recipes:
             amount: 1
         crafting-time: 0
         ingredients:
-        - vanilla{type=IRON_BLOCK,amount=6,display="Iron Block"}
+        - vanilla{type=IRON_BLOCK,amount=4,display="Iron Block"}
     che-da-tu-nhan:
         output:
             type: MATERIAL

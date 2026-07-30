@@ -21,7 +21,7 @@ recipes:
             amount: 1
         crafting-time: 0
         ingredients:
-        - vanilla{type=SMOOTH_STONE,amount=4,display="Smooth Stone"}
+        - vanilla{type=SMOOTH_STONE,amount=6,display="Smooth Stone"}
     nen-cobble-tan-binh:
         output:
             type: MATERIAL
@@ -29,7 +29,7 @@ recipes:
             amount: 1
         crafting-time: 0
         ingredients:
-        - vanilla{type=COBBLESTONE,amount=16,display="Cobblestone"}
+        - vanilla{type=COBBLESTONE,amount=24,display="Cobblestone"}
     nen-coal-tan-binh:
         output:
             type: MATERIAL
@@ -37,7 +37,7 @@ recipes:
             amount: 1
         crafting-time: 0
         ingredients:
-        - vanilla{type=COAL_BLOCK,amount=4,display="Coal Block"}
+        - vanilla{type=COAL_BLOCK,amount=3,display="Coal Block"}
     che-da-tan-binh:
         output:
             type: MATERIAL

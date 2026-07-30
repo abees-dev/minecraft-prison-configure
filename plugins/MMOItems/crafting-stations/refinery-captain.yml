@@ -21,7 +21,7 @@ recipes:
             amount: 1
         crafting-time: 0
         ingredients:
-        - vanilla{type=REDSTONE_BLOCK,amount=8,display="Redstone Block"}
+        - vanilla{type=REDSTONE_BLOCK,amount=6,display="Redstone Block"}
     nen-diamond-doi-truong:
         output:
             type: MATERIAL
@@ -29,7 +29,7 @@ recipes:
             amount: 1
         crafting-time: 0
         ingredients:
-        - vanilla{type=DIAMOND_BLOCK,amount=6,display="Diamond Block"}
+        - vanilla{type=DIAMOND_BLOCK,amount=5,display="Diamond Block"}
     nen-emerald-doi-truong:
         output:
             type: MATERIAL
@@ -37,7 +37,7 @@ recipes:
             amount: 1
         crafting-time: 0
         ingredients:
-        - vanilla{type=EMERALD_BLOCK,amount=6,display="Emerald Block"}
+        - vanilla{type=EMERALD_BLOCK,amount=4,display="Emerald Block"}
     nen-iron-doi-truong:
         output:
             type: MATERIAL
@@ -45,7 +45,7 @@ recipes:
             amount: 1
         crafting-time: 0
         ingredients:
-        - vanilla{type=IRON_BLOCK,amount=12,display="Iron Block"}
+        - vanilla{type=IRON_BLOCK,amount=10,display="Iron Block"}
     che-da-doi-truong:
         output:
             type: MATERIAL

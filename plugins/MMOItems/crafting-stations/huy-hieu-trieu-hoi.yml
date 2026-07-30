@@ -26,3 +26,24 @@ recipes:
         - mmoitem{type=MATERIAL,id=MANH_HUY_HIEU_TRIEU_HOI,amount=25,display="Huy Hiệu Vỡ [Mảnh]"}
         conditions:
         - 'money{amount=2500000}'
+
+    # Sink TINHTHE_HUY_DIET (rớt Ma Vương) → đá cường hóa / đục lỗ Thiên Mệnh
+    doi-tinh-the-thien-menh:
+        output:
+            type: MATERIAL
+            id: DA_CUONG_HOA_THIEN_MENH
+            amount: 2
+        name: "&5✦ Đổi Tinh Thể Hủy Diệt → Đá Cường Hóa Thiên Mệnh ×2"
+        crafting-time: 0
+        ingredients:
+        - mmoitem{type=MATERIAL,id=TINHTHE_HUY_DIET,amount=1,display="Tinh Thể Hỗn Mang (Hủy Diệt)"}
+
+    doi-tinh-the-duc-lo-thien-menh:
+        output:
+            type: MATERIAL
+            id: DA_DUC_LO_THIEN_MENH
+            amount: 1
+        name: "&5✦ Đổi Tinh Thể Hủy Diệt → Đá Đục Lỗ Thiên Mệnh"
+        crafting-time: 0
+        ingredients:
+        - mmoitem{type=MATERIAL,id=TINHTHE_HUY_DIET,amount=1,display="Tinh Thể Hỗn Mang (Hủy Diệt)"}

@@ -41,6 +41,22 @@ Lệnh tổng quát: `/mi give MATERIAL <ITEM_ID> [player] [amount]`
 | **Rank 8: Bá Chủ Ngục Tù** | `NEN_DOI_BA_CHU_NGUC_TU` | `DA_NANG_CAP_BA_CHU_NGUC_TU` |
 | **Rank 9: Vượt Ngục** | `NEN_DOI_VUOT_NGUC` & `NEN_BA_VUOT_NGUC` | `DA_NANG_CAP_VUOT_NGUC` |
 
+### Recipe Tinh Luyện (live — `refinery-*.yml`, cập nhật 2026-07-30)
+
+Block → 1 `NEN_DOI` (hiếm hơn = ít block hơn). NÊN → 1 `DA_NANG_CAP`:
+
+| Rank | Station | Block → 1 NÊN (chính) | NÊN / 1 ĐÁ |
+| ---: | --- | --- | ---: |
+| 1 | `refinery-rookie` | Smooth×6 / Cobble×24 / Coal Block×3 | 2 |
+| 2 | `refinery-prisoner` | Smooth×10 / Coal×5 / Iron×4 | 3 |
+| 3 | `refinery-worker` | Iron×5 / Coal×6 / Gold×4 / Lapis×4 | 4 |
+| 4 | `refinery-miner` | Gold×5 / Lapis×6 / Redstone×5 / Diamond×4 | 5 |
+| 5 | `refinery-captain` | Redstone×6 / Diamond×5 / Emerald×4 / Iron×10 | 6 |
+| 6 | `refinery-vice-warden` | Diamond×6 / Emerald×6 / Gold Block×10 / Gold Ingot×36 | 8 |
+| 7 | `refinery-warden` | Emerald×7 / Diamond×7 / Quartz×10 / Debris×5 | 10 |
+| 8 | `refinery-overlord` | Netherite×3 / Emerald×10 / Diamond×10 / Debris×8 | 12 |
+| 9 | `refinery-jailbreak` | Netherite×4 / Emerald×12 / Diamond×12 / Debris×6; rồi NÊN×6→`NEN_BA`, `NEN_BA`×4→ĐÁ (=24 NÊN/ĐÁ) | 24 |
+
 ---
 
 ## 🏛️ 2. Cấu Hình & Quản Lý NPC Mở Trạm GUI (Crafting Stations)

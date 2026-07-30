@@ -9,6 +9,9 @@
 #   - Damage da buff nhieu lan de bu lai lifesteal tren vu khi MMOItems (Doi
 #     Truong tro len co san lifesteal 1.5-12%, attack-speed 1.6-1.8 khien
 #     nguoi choi hoi mau rat nhanh neu dame quai qua nhe).
+#   - 2026-07-30: Rank 1-4 (chua co lifesteal) nerf ~50% Health + Damage +
+#     slam/AOE/heal elite — early game bi 1-2 hit chet khi gate level/rank.
+#     Rank 5+ giu nguyen (can dame cao de thang lifesteal).
 #   - Boss co don "slam" dinh ky (~onTimer), danh dau ignorearmor=true +
 #     ignoreiframes=true nen KHONG bi giap/defense-stat cua MMOItems giam bot.
 #   - Moi rank co bo skill rieng khi tan cong (thay vi dung chung 1 hieu ung):
@@ -22,16 +25,16 @@
 #     DROWNED cua tung rank), Elite/Boss phan biet qua Scale + ten Display.
 #     NGOAI LE: PRISON_MA_VUONG_BOSS duoc gan Disguise custom (skin rieng)
 #     theo yeu cau rieng — xem ghi chu ngay tren field Disguise: cua mob do.
-# => Quai kho hon giap cung rank, dame du manh de thang duoc phan hoi mau tu
-#    lifesteal; neu van con nhe/nang hay chinh truc tiep so Damage/skill amount.
+# => Rank 5+: quai kho hon giap cung rank, dame du manh thang lifesteal.
+#    Rank 1-4: nhe hon de newbie song duoc; chinh Damage/Health neu can.
 # ============================================================================
 
-# ---------------- RANK 1: TAN BINH (WOODEN_SWORD, W=3.8, P=28) ----------------
+# ---------------- RANK 1: TAN BINH (WOODEN_SWORD, W=3.8, P=28) — nerf 50% ----------------
 PRISON_TAN_BINH_NORMAL:
   Type: ZOMBIE
   Display: "&f&lTân Binh Nổi Loạn"
-  Health: 34
-  Damage: 18
+  Health: 17
+  Damage: 9
   Equipment:
     - WOODEN_SWORD HAND
   Options:
@@ -47,8 +50,8 @@ PRISON_TAN_BINH_NORMAL:
 PRISON_TAN_BINH_ELITE:
   Type: ZOMBIE
   Display: "&f&lTân Binh Cuồng Nộ &7[Elite]"
-  Health: 68
-  Damage: 27
+  Health: 34
+  Damage: 14
   Equipment:
     - WOODEN_SWORD HAND
   Options:
@@ -62,13 +65,13 @@ PRISON_TAN_BINH_ELITE:
   Skills:
     - throw{velocity=1.2;velocityY=0.4} @target 0.3
     - potion{type=WEAKNESS;duration=80;lvl=1} @target 0.25
-    - heal{amount=5} @self ~onTimer:100
+    - heal{amount=3} @self ~onTimer:100
 
 PRISON_TAN_BINH_BOSS:
   Type: ZOMBIE
   Display: "&4&l[BOSS] &r&e&lĐầu Sỏ Tân Binh"
-  Health: 285
-  Damage: 40
+  Health: 143
+  Damage: 20
   Equipment:
     - STONE_SWORD HAND
   Options:
@@ -85,7 +88,7 @@ PRISON_TAN_BINH_BOSS:
   Drops:
     - prison_rank1_boss_drops
   Skills:
-    - damage{amount=38;ignorearmor=true;ignoreiframes=true} @PlayersInRadius{r=5} ~onTimer:60
+    - damage{amount=19;ignorearmor=true;ignoreiframes=true} @PlayersInRadius{r=5} ~onTimer:60
     - skill{s=Prison_Tan_Binh_Enrage} @self ~onDamaged
     - summon{mob=PRISON_TAN_BINH_NORMAL;amount=2;noise=5} @self ~onTimer:240
     - command{c="dh holograms disable TanBinhTimer"} ~onSpawn
@@ -97,12 +100,12 @@ PRISON_TAN_BINH_BOSS:
     - command{c="dh holograms enable TanBinhTimer"} ~onDeath
     - skill{s=Give_Crate_Key_On_Death} @trigger ~onDeath
 
-# ---------------- RANK 2: TU NHAN (STONE_SWORD, W=6.0, P=32) ----------------
+# ---------------- RANK 2: TU NHAN (STONE_SWORD, W=6.0, P=32) — nerf 50% ----------------
 PRISON_TU_NHAN_NORMAL:
   Type: ZOMBIE
   Display: "&a&lTù Nhân Lang Thang"
-  Health: 54
-  Damage: 20
+  Health: 27
+  Damage: 10
   Equipment:
     - STONE_SWORD HAND
   Options:
@@ -118,8 +121,8 @@ PRISON_TU_NHAN_NORMAL:
 PRISON_TU_NHAN_ELITE:
   Type: ZOMBIE
   Display: "&a&lTù Nhân Hung Hãn &7[Elite]"
-  Health: 108
-  Damage: 32
+  Health: 54
+  Damage: 16
   Equipment:
     - STONE_SWORD HAND
     - LEATHER_CHESTPLATE CHEST
@@ -134,13 +137,13 @@ PRISON_TU_NHAN_ELITE:
   Skills:
     - throw{velocity=1.2;velocityY=0.4} @target 0.3
     - potion{type=SLOW;duration=80;lvl=1} @target 0.25
-    - heal{amount=9} @self ~onTimer:100
+    - heal{amount=5} @self ~onTimer:100
 
 PRISON_TU_NHAN_BOSS:
   Type: HUSK
   Display: "&2&lTrùm Tù Nhân &7[Boss]"
-  Health: 450
-  Damage: 46
+  Health: 225
+  Damage: 23
   Equipment:
     - IRON_SWORD HAND
     - LEATHER_CHESTPLATE CHEST
@@ -158,7 +161,7 @@ PRISON_TU_NHAN_BOSS:
   Drops:
     - prison_rank2_boss_drops
   Skills:
-    - damage{amount=44;ignorearmor=true;ignoreiframes=true} @PlayersInRadius{r=5} ~onTimer:60
+    - damage{amount=22;ignorearmor=true;ignoreiframes=true} @PlayersInRadius{r=5} ~onTimer:60
     - skill{s=Prison_Tu_Nhan_Enrage} @self ~onDamaged
     - summon{mob=PRISON_TU_NHAN_NORMAL;amount=2;noise=5} @self ~onTimer:240
     - command{c="dh holograms disable TuNhanTimer"} ~onSpawn
@@ -170,12 +173,12 @@ PRISON_TU_NHAN_BOSS:
     - command{c="dh holograms enable TuNhanTimer"} ~onDeath
     - skill{s=Give_Crate_Key_On_Death} @trigger ~onDeath
 
-# ---------------- RANK 3: LAO CONG (IRON_SWORD, W=8.8, P=40) ----------------
+# ---------------- RANK 3: LAO CONG (IRON_SWORD, W=8.8, P=40) — nerf 50% ----------------
 PRISON_LAO_CONG_NORMAL:
   Type: HUSK
   Display: "&b&lLao Công Kiệt Sức"
-  Health: 79
-  Damage: 25
+  Health: 40
+  Damage: 13
   Equipment:
     - IRON_SWORD HAND
   Options:
@@ -191,8 +194,8 @@ PRISON_LAO_CONG_NORMAL:
 PRISON_LAO_CONG_ELITE:
   Type: HUSK
   Display: "&b&lLao Công Điên Loạn &7[Elite]"
-  Health: 158
-  Damage: 40
+  Health: 79
+  Damage: 20
   Equipment:
     - IRON_SWORD HAND
     - IRON_HELMET HEAD
@@ -207,14 +210,14 @@ PRISON_LAO_CONG_ELITE:
     - prison_rank3_elite_drops
   Skills:
     - throw{velocity=1.3;velocityY=0.4} @target 0.3
-    - damage{amount=16;ignorearmor=true} @PlayersInRadius{r=3} 0.2
-    - heal{amount=13} @self ~onTimer:100
+    - damage{amount=8;ignorearmor=true} @PlayersInRadius{r=3} 0.2
+    - heal{amount=7} @self ~onTimer:100
 
 PRISON_LAO_CONG_BOSS:
   Type: HUSK
   Display: "&3&lĐốc Công Lao Công &7[Boss]"
-  Health: 660
-  Damage: 58
+  Health: 330
+  Damage: 29
   Equipment:
     - IRON_SWORD HAND
     - IRON_HELMET HEAD
@@ -235,7 +238,7 @@ PRISON_LAO_CONG_BOSS:
   Drops:
     - prison_rank3_boss_drops
   Skills:
-    - damage{amount=54;ignorearmor=true;ignoreiframes=true} @PlayersInRadius{r=5} ~onTimer:60
+    - damage{amount=27;ignorearmor=true;ignoreiframes=true} @PlayersInRadius{r=5} ~onTimer:60
     - skill{s=Prison_Lao_Cong_Enrage} @self ~onDamaged
     - summon{mob=PRISON_LAO_CONG_NORMAL;amount=2;noise=5} @self ~onTimer:220
     - command{c="dh holograms disable LaoCongTimer"} ~onSpawn
@@ -247,12 +250,12 @@ PRISON_LAO_CONG_BOSS:
     - command{c="dh holograms enable LaoCongTimer"} ~onDeath
     - skill{s=Give_Crate_Key_On_Death} @trigger ~onDeath
 
-# ---------------- RANK 4: THO DAO (IRON_SWORD, W=12.0, P=48) ----------------
+# ---------------- RANK 4: THO DAO (IRON_SWORD, W=12.0, P=48) — nerf 50% ----------------
 PRISON_THO_DAO_NORMAL:
   Type: HUSK
   Display: "&e&lThợ Đào Lạc Lối"
-  Health: 108
-  Damage: 31
+  Health: 54
+  Damage: 16
   Equipment:
     - IRON_SWORD HAND
     - IRON_HELMET HEAD
@@ -269,8 +272,8 @@ PRISON_THO_DAO_NORMAL:
 PRISON_THO_DAO_ELITE:
   Type: HUSK
   Display: "&e&lThợ Đào Cuồng Đá &7[Elite]"
-  Health: 216
-  Damage: 47
+  Health: 108
+  Damage: 24
   Equipment:
     - IRON_SWORD HAND
     - IRON_HELMET HEAD
@@ -287,13 +290,13 @@ PRISON_THO_DAO_ELITE:
   Skills:
     - throw{velocity=1.3;velocityY=0.4} @target 0.3
     - potion{type=WITHER;duration=60;lvl=1} @target 0.25
-    - heal{amount=17} @self ~onTimer:100
+    - heal{amount=9} @self ~onTimer:100
 
 PRISON_THO_DAO_BOSS:
   Type: DROWNED
   Display: "&6&lTrưởng Nhóm Thợ Đào &7[Boss]"
-  Health: 900
-  Damage: 68
+  Health: 450
+  Damage: 34
   Equipment:
     - IRON_SWORD HAND
     - IRON_HELMET HEAD
@@ -314,7 +317,7 @@ PRISON_THO_DAO_BOSS:
   Drops:
     - prison_rank4_boss_drops
   Skills:
-    - damage{amount=65;ignorearmor=true;ignoreiframes=true} @PlayersInRadius{r=5} ~onTimer:60
+    - damage{amount=33;ignorearmor=true;ignoreiframes=true} @PlayersInRadius{r=5} ~onTimer:60
     - skill{s=Prison_Tho_Dao_Enrage} @self ~onDamaged
     - summon{mob=PRISON_THO_DAO_NORMAL;amount=2;noise=5} @self ~onTimer:220
     - command{c="dh holograms disable ThoDaoTimer"} ~onSpawn
@@ -722,9 +725,10 @@ PRISON_VUOT_NGUC_BOSS:
 # Dieu kien trieu hoi: click chuot phai vao ban tho PRISON_MA_VUONG_ALTAR
 # (mobs/altar_mobs.yml). Ban tho tu kiem tra >=1 HUY_HIEU_TRIEU_HOI
 # (NETHER_STAR) trong tui do - item nay khong con roi truc tiep tu 9
-# boss nua, phai che tu MANH_HUY_HIEU_TRIEU_HOI (Huy Hieu Vo, roi 100%
-# tu 9 boss). Xem Skript/scripts/mavuong_altar.sk cho logic click + delay
-# 3s truoc khi summon. Manh hon han rank 9, ro TINHTHE_HUY_DIET 25%.
+# boss nua, phai che tu MANH_HUY_HIEU_TRIEU_HOI (Huy Hieu Vo, roi
+# 30%-50% theo rank boss). Xem Skript/scripts/mavuong_altar.sk cho logic
+# click + delay 3s truoc khi summon. Drop: TINHTHE_HUY_DIET 25% + extras
+# (xem droptables/prison_rank_drops.yml). Sink TINHTHE tai huy-hieu-trieu-hoi.
 PRISON_MA_VUONG_BOSS:
   Type: RAVAGER
   Display: "&4&l[TRÙM CUỐI] &r&6&lMa Vương Ngục Tù"

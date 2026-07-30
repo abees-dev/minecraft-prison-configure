@@ -1,0 +1,229 @@
+# ============================================================================
+# CorePlugin - Prison module configuration
+# ============================================================================
+# Kotlin port of Skript/scripts/prison/ (pickaxe_upgrade.sk, mine_rank_limit.sk,
+# level_gate.sk):
+#   - /nangcapcuoc            pickaxe upgrade (MMOItems + Vault money + stones)
+#   - block-break gating      per-mine rank requirement (WorldGuard regions,
+#                             X-Prison ranks) + optional daily block limit
+#   - /minelimit              mining status / admin reset / reload
+#   - /xrankup, /xrankuppoint level-gated rankup (MMOCore level requirement),
+#                             plus interception of /rankup, /rank, ... aliases
+#
+# Changes take effect after either:
+#   - /minelimit reload   (requires permission: coreplugin.prison.admin)
+#   - a server restart
+#
+# This file is only copied out ONCE, the first time the module starts. If a
+# key is missing the plugin falls back to a safe built-in default instead of
+# breaking - it will NOT overwrite or regenerate this file, so your comments
+# and edits are safe.
+# ============================================================================
+
+# The 9 prison ranks, keyed by X-Prison rank id (1 = lowest). Per rank:
+#   slug                 used to build MMOItems ids (see pickaxe-upgrade below)
+#   display              rank name shown in messages (legacy '&' codes)
+#   mine-region          WorldGuard region id of this rank's mine
+#   mine-display         mine name shown in messages
+#   daily-block-limit    max blocks/day when daily-limit.enabled is true
+#                        (-1 = unlimited)
+#   level-for-next-rank  MMOCore level required to rank up FROM this rank
+#   point-cost           PlayerPoints price to rank up TO this rank via
+#                        /xrankuppoint (ignored for rank 1)
+#   pickaxe-base-value   base money used for this rank's pickaxe upgrade costs
+ranks:
+  1:
+    slug: TAN_BINH
+    display: "&f&lTân Binh"
+    mine-region: tan_binh
+    mine-display: "&f&lMỏ Tân Binh"
+    daily-block-limit: 5000
+    level-for-next-rank: 10
+    point-cost: 0
+    pickaxe-base-value: 5000
+  2:
+    slug: TU_NHAN
+    display: "&7&lTù Nhân"
+    mine-region: tu_nhan
+    mine-display: "&7&lMỏ Tù Nhân"
+    daily-block-limit: 10000
+    level-for-next-rank: 20
+    point-cost: 10
+    pickaxe-base-value: 10000
+  3:
+    slug: LAO_CONG
+    display: "&a&lLao Công"
+    mine-region: lao_cong
+    mine-display: "&a&lMỏ Lao Công"
+    daily-block-limit: 20000
+    level-for-next-rank: 30
+    point-cost: 30
+    pickaxe-base-value: 25000
+  4:
+    slug: THO_DAO
+    display: "&2&lThợ Đào"
+    mine-region: tho_dao
+    mine-display: "&2&lMỏ Thợ Đào"
+    daily-block-limit: 35000
+    level-for-next-rank: 45
+    point-cost: 110
+    pickaxe-base-value: 60000
+  5:
+    slug: DOI_TRUONG
+    display: "&b&lĐội Trưởng"
+    mine-region: doi_truong
+    mine-display: "&b&lMỏ Đội Trưởng"
+    daily-block-limit: 50000
+    level-for-next-rank: 60
+    point-cost: 540
+    pickaxe-base-value: 150000
+  6:
+    slug: PHO_QUAN_NGUC
+    display: "&1&lPhó Quản Ngục"
+    mine-region: pho_quan_nguc
+    mine-display: "&1&lMỏ Phó Quản Ngục"
+    daily-block-limit: 75000
+    level-for-next-rank: 75
+    point-cost: 2170
+    pickaxe-base-value: 350000
+  7:
+    slug: QUAN_NGUC
+    display: "&d&lQuản Ngục"
+    mine-region: quan_nguc
+    mine-display: "&d&lMỏ Quản Ngục"
+    daily-block-limit: 100000
+    level-for-next-rank: 90
+    point-cost: 3200
+    pickaxe-base-value: 800000
+  8:
+    slug: BA_CHU_NGUC_TU
+    display: "&6&lBá Chủ Ngục Tù"
+    mine-region: ba_chu_nguc_tu
+    mine-display: "&6&lMỏ Bá Chủ Ngục Tù"
+    daily-block-limit: 150000
+    level-for-next-rank: 100
+    point-cost: 4350
+    pickaxe-base-value: 1800000
+  9:
+    slug: VUOT_NGUC
+    display: "&c&lVượt Ngục"
+    mine-region: vuot_nguc
+    mine-display: "&c&lMỏ Vượt Ngục"
+    daily-block-limit: -1
+    level-for-next-rank: 100
+    point-cost: 6450
+    pickaxe-base-value: 4000000
+
+# Optional daily mining cap (per player, per rank, resets at midnight server
+# time). Off by default - same as the Skript's ENABLE_DAILY_LIMIT option.
+# Counters live in memory only, so a server restart also resets them.
+daily-limit:
+  enabled: false
+  # Seconds between repeated "not enough rank" / "limit reached" warnings to
+  # the same player (they keep getting blocked, just not re-spammed).
+  warn-cooldown-seconds: 3
+
+# Pickaxe upgrade (/nangcapcuoc). Item ids are built from the patterns below:
+# each rank has pickaxes {rank-slug} step 1..max-step (e.g. PICKAXE_TAN_BINH_3)
+# and one upgrade stone (e.g. DA_NANG_CAP_TAN_BINH). Upgrading step N -> N+1
+# uses row N of `steps`: it costs round(pickaxe-base-value * money-percent)
+# money plus stone-cost stones, and succeeds success-rate % of the time.
+# Money and stones are consumed on BOTH success and failure (the pickaxe
+# itself is never lost) - same rule as the Skript.
+pickaxe-upgrade:
+  item-id-pattern: "PICKAXE_{rank}_{step}"
+  stone-id-pattern: "DA_NANG_CAP_{rank}"
+  # Highest pickaxe step that exists. Steps below only need entries up to
+  # max-step - 1 (the last step has nothing to upgrade into).
+  max-step: 5
+  steps:
+    1:
+      money-percent: 0.05
+      stone-cost: 8
+      success-rate: 70
+    2:
+      money-percent: 0.08
+      stone-cost: 16
+      success-rate: 50
+    3:
+      money-percent: 0.12
+      stone-cost: 32
+      success-rate: 30
+    4:
+      money-percent: 0.18
+      stone-cost: 64
+      success-rate: 15
+  # Console commands used to consume/grant the MMOItems involved.
+  # {id} {player} {amount} are substituted.
+  commands:
+    take-stone: "mmoitems take MATERIAL {id} {player} {amount}"
+    take-pickaxe: "mmoitems take TOOL {id} {player} 1"
+    give-pickaxe: "mmoitems give TOOL {id} {player} 1"
+
+commands:
+  # Typed commands that get intercepted and replaced by this module's
+  # level-gated rankup (money variant). X-Prison's own /rankup never runs.
+  rankup-aliases:
+    - rankup
+    - rankupmax
+    - autorankup
+  # Typed commands that get intercepted and redirected to open-ranks-menu.
+  menu-aliases:
+    - rankgui
+    - ranksmenu
+    - ranks
+    - rank
+    - rankmenu
+    - vip
+    - viprank
+    - vipranks
+  # Console command templates. {player} {rank} {amount} are substituted.
+  setrank: "setrank {player} {rank}"
+  points-take: "points take {player} {amount}"
+  open-ranks-menu: "dm open ranks_master {player}"
+
+# Legacy '&' color codes. Placeholders in {braces} are substituted per
+# message - see the services in modules/prison for exactly what each one is.
+messages:
+  pickaxe:
+    need-pickaxe: "&cBạn cần cầm cuốc trên tay để nâng cấp."
+    invalid: "&cĐây không phải cuốc Prison hợp lệ."
+    max-level: "&eCuốc này đã đạt cấp tối đa, không thể nâng cấp thêm."
+    need-money: "&cBạn cần &f${cost}&c để thử nâng cấp, hiện bạn có &f${balance}&c."
+    need-stones: "&cBạn cần &f{cost}&c Đá Nâng Cấp, hiện chỉ có &f{count}&c."
+    success: "&a&lTHÀNH CÔNG! &7(tỉ lệ {rate}%) &aNâng cấp lên {next}. Đã tốn &f${money}&a + &f{stones}&a đá."
+    fail: "&c&lTHẤT BẠI! &7(tỉ lệ {rate}%) &cMất &f${money}&c + &f{stones}&c đá, cuốc vẫn giữ nguyên, thử lại sau."
+  mine:
+    no-rank-title: "&c&lCHƯA ĐỦ RANK"
+    no-rank-subtitle: "&fCần Rank {rank} &fđể đào mỏ này"
+    no-rank-line1: "&c&lMỎ ĐÀO &7» &fBạn không đủ Rank để đào tại {mine}&f!"
+    no-rank-line2: "&c&lMỎ ĐÀO &7» &fYêu cầu Rank {required} &7(Rank hiện tại của bạn: {current}&7)"
+    no-rank-line3: "&e&lMỎ ĐÀO &7» &fSử dụng lệnh &e/rank &fđể xem điều kiện RankUp!"
+    limit-title: "&c&lĐẠT GIỚI HẠN ĐÀO"
+    limit-subtitle: "&fĐã đạt {limit} block/ngày"
+    limit-line1: "&c&lGIỚI HẠN &7» &fBạn đã đào đạt giới hạn tối đa &e{limit} block&f hôm nay!"
+    limit-line2: "&c&lGIỚI HẠN &7» &fNâng cấp Rank (&e/rank&f) để tăng giới hạn block đào mỗi ngày."
+  minelimit:
+    no-permission: "&cBạn không có quyền dùng lệnh này!"
+    reset-ok: "&a&lMINELIMIT &7» &fĐã reset giới hạn block đào ngày hôm nay cho &e{player}&f!"
+    reset-usage: "&c&lMINELIMIT &7» &fCú pháp: /minelimit reset <tên_player>"
+    player-not-found: "&c&lMINELIMIT &7» &fKhông tìm thấy người chơi &e{player}&f."
+    reload-ok: "&a&lMINELIMIT &7» &fĐã tải lại prison.yml thành công!"
+    status-header: "&6&m=========================================="
+    status-title: "   &e&lTHÔNG TIN GIỚI HẠN MỎ ĐÀO PRISON"
+    status-rank: " &7• Rank hiện tại: {rank}"
+    status-mines: " &7• Mỏ cao nhất được phép đào: {first} &7đến {highest}"
+    status-mined: " &7• Đã đào hôm nay: &e{current} &7/ &a{limit} blocks"
+    status-unlimited: " &7• Giới hạn block/ngày: &aKhông giới hạn (Un-limited)"
+  rankup:
+    max-rank: "&e&lRANKUP &7» &fBạn đã đạt Rank tối đa {rank}&f rồi!"
+    level-title: "&c&lCHƯA ĐỦ ĐIỀU KIỆN"
+    level-subtitle: "&fCần đạt &eLevel {level} &fđể rankup"
+    level-line1: "&c&lRANKUP &7» &fChưa đủ điều kiện lên {rank}&f!"
+    level-line2: "&c&lRANKUP &7» &fCần &eLevel {level} &7(Level hiện tại của bạn: &e{current}&7)"
+    need-money: "&c&lRANKUP &7» &fBạn không đủ tiền! Cần &f${cost} &7(hiện có &e${balance}&7)"
+    need-points: "&c&lRANKUP &7» &fBạn không đủ point! Cần &f{cost} point &7(hiện có &e{points} point&7)"
+    success-title: "&a&l✔ RANK UP!"
+    success-subtitle: "&fBạn đã lên {rank}"
+    success-money: "&a&lRANKUP &7» &fChúc mừng, bạn đã lên {rank}&7! &7(&f-${cost}&7)"
+    success-points: "&a&lRANKUP &7» &fChúc mừng, bạn đã lên {rank}&7! &7(&f-{cost} point&7)"

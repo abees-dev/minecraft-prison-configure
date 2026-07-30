@@ -29,7 +29,7 @@ recipes:
             amount: 1
         crafting-time: 0
         ingredients:
-        - vanilla{type=EMERALD_BLOCK,amount=16,display="Emerald Block"}
+        - vanilla{type=EMERALD_BLOCK,amount=12,display="Emerald Block"}
     nen-diamond-vuot-nguc:
         output:
             type: MATERIAL
@@ -37,7 +37,15 @@ recipes:
             amount: 1
         crafting-time: 0
         ingredients:
-        - vanilla{type=DIAMOND_BLOCK,amount=16,display="Diamond Block"}
+        - vanilla{type=DIAMOND_BLOCK,amount=12,display="Diamond Block"}
+    nen-debris-vuot-nguc:
+        output:
+            type: MATERIAL
+            id: NEN_DOI_VUOT_NGUC
+            amount: 1
+        crafting-time: 0
+        ingredients:
+        - vanilla{type=ANCIENT_DEBRIS,amount=6,display="Ancient Debris"}
     nen-ba-vuot-nguc:
         output:
             type: MATERIAL
@@ -45,7 +53,7 @@ recipes:
             amount: 1
         crafting-time: 0
         ingredients:
-        - mmoitem{type=MATERIAL,id=NEN_DOI_VUOT_NGUC,amount=9,display="Quặng Tinh Luyện Vượt Ngục"}
+        - mmoitem{type=MATERIAL,id=NEN_DOI_VUOT_NGUC,amount=6,display="Quặng Tinh Luyện Vượt Ngục"}
     che-da-vuot-nguc:
         output:
             type: MATERIAL
@@ -53,4 +61,4 @@ recipes:
             amount: 1
         crafting-time: 0
         ingredients:
-        - mmoitem{type=MATERIAL,id=NEN_BA_VUOT_NGUC,amount=8,display="Quặng Đại Tinh Luyện Vượt Ngục"}
+        - mmoitem{type=MATERIAL,id=NEN_BA_VUOT_NGUC,amount=4,display="Quặng Đại Tinh Luyện Vượt Ngục"}

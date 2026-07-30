@@ -1,9 +1,9 @@
-world: 04db4f25-bf7a-445b-9ef9-2c7e4210c021
-world-name: world_dungeon
-x: -91.5
-y: 64.0
-z: 22.5
-yaw: 0.0
-pitch: 0.0
+world: 95a5a35e-65e7-4e67-bb37-b5babba162ae
+world-name: world_magadungeon
+x: 0.5
+y: 82.0
+z: 5.5
+yaw: -0.6585782766342163
+pitch: -0.28260719776153564
 name: dungeon2
 lastowner: 57481db9-38f7-3a96-b52d-ff0f7993c232

@@ -13,26 +13,71 @@ Toàn bộ tỷ lệ rơi đồ của quái Nhà Tù đã được tách riêng 
 - **Skill rớt chìa khóa rương:** `plugins/MythicMobs/skills/prison_rank_skills.yml`
 
 ### 1. Danh Sách Vật Phẩm (MMOItems - Type: MATERIAL)
-Tất cả vật phẩm rơi ra từ quái Nhà Tù đều thuộc loại `type=MATERIAL` trong plugin **MMOItems**:
 - **Đá Cường Hóa Sơ Cấp (Rank 1-2):** `DA_CUONG_HOA_VU_KHI_SO_CAP`, `DA_CUONG_HOA_GIAP_SO_CAP`
 - **Đá Cường Hóa Trung Cấp (Rank 3-4):** `DA_CUONG_HOA_VU_KHI_TRUNG_CAP`, `DA_CUONG_HOA_GIAP_TRUNG_CAP`
 - **Đá Cường Hóa Cao Cấp (Rank 5-6):** `DA_CUONG_HOA_VU_KHI_CAO_CAP`, `DA_CUONG_HOA_GIAP_CAO_CAP`
 - **Đá Cường Hóa Siêu Cấp (Rank 7-8):** `DA_CUONG_HOA_VU_KHI_SIEU_CAP`, `DA_CUONG_HOA_GIAP_SIEU_CAP`
-- **Đá Huyền Thoại & Thiên Mệnh (Rank 9):** `DA_CUONG_HOA_VU_KHI_HUYEN_THOAI`, `DA_CUONG_HOA_GIAP_HUYEN_THOAI`, `DA_CUONG_HOA_THIEN_MENH`
+- **Đá Huyền Thoại & Thiên Mệnh (Rank 9 / Ma Vương):** `DA_CUONG_HOA_VU_KHI_HUYEN_THOAI`, `DA_CUONG_HOA_GIAP_HUYEN_THOAI`, `DA_CUONG_HOA_THIEN_MENH`
+- **Tinh thể rèn (mọi rank):** `TINHTHE_CUONGHOA_VUKHI`, `TINHTHE_CUONGHOA_GIAP` — dùng tại Lò Rèn vũ khí/giáp
+- **Đá đục lỗ (Elite/Boss):** `DA_DUC_LO_1`…`5`, Boss R9 thêm `DA_DUC_LO_THIEN_MENH`
 - **Mảnh Huy Hiệu Triệu Hồi (Boss Rank 1-9):** `MANH_HUY_HIEU_TRIEU_HOI`
-- **Tinh Thể Hủy Diệt (Trùm Cuối):** `TINHTHE_HUY_DIET`
+- **Mảnh Long Tộc (Boss Rank 1-9):** `MANH_LONG_TOC`
+- **Tinh Thể Hủy Diệt (Ma Vương):** `TINHTHE_HUY_DIET` — đổi tại Bàn Chế Huy Hiệu → Đá Thiên Mệnh / Đục lỗ TM
+- **Chìa:** `chia_khoa_trang_suc_free` (droptable), `chia_khoa_ruong_ngoc` (skill 50%)
 
-### 2. Bảng Tỷ Lệ Drop Chi Tiết
+### 2. Bảng Tỷ Lệ Drop (cập nhật 2026-07-30)
 
-| Phân Loại Quái | Đá Cường Hóa Vũ Khí / Giáp | Item Boss Đặc Biệt | Chìa Khóa Rương Ngọc |
-| :--- | :--- | :--- | :--- |
-| **Quái Thường (Normal Rank 1-8)** | **4%** (0.04) mỗi loại | - | - |
-| **Quái Tinh Nhuệ (Elite Rank 1-8)**| **8%** (0.08) mỗi loại | - | - |
-| **Boss Rank (Boss Rank 1-8)** | **15%** (0.15) mỗi loại | **40%** Mảnh Huy Hiệu | **50%** (via Skill) |
-| **Rank 9 Normal (Vượt Ngục)** | **4%** Đá Huyền Thoại \| **1%** Thiên Mệnh | - | - |
-| **Rank 9 Elite (Vượt Ngục)** | **8%** Đá Huyền Thoại \| **1%** Thiên Mệnh | - | - |
-| **Rank 9 Boss (Vượt Ngục)** | **10%** Đá Huyền Thoại \| **3%** Thiên Mệnh | **40%** Mảnh Huy Hiệu | **50%** (via Skill) |
-| **Ma Vương Ngục Tù (Trùm Cuối)** | - | **10%** Tinh Thể Hủy Diệt | **50%** (via Skill) |
+#### Đá cường hóa (mỗi dòng vũ khí / giáp)
+
+| Band | Normal | Elite | Boss |
+| :--- | ---: | ---: | ---: |
+| Rank 1–2 | 5% | 10% | 18% |
+| Rank 3–4 | 4% | 8% | 15% |
+| Rank 5–6 | 3.5% | 7% | 14% |
+| Rank 7–8 | 3% | 6% | 12% |
+| Rank 9 HT | 3% | 6% | 10% |
+| Rank 9 Thiên Mệnh | 0.5% | 1.5% | 4% |
+
+#### Tinh thể rèn (mọi rank)
+
+| Tier | VUKHI | GIAP |
+| :--- | ---: | ---: |
+| Normal | 2% | 2% |
+| Elite | 5% | 5% |
+| Boss | 10% | 10% |
+
+#### Đá đục lỗ (Elite + Boss)
+
+| Rank | Item | Elite | Boss |
+| ---: | :--- | ---: | ---: |
+| 1–2 | `DA_DUC_LO_1` | 2% | 6% |
+| 3–4 | `DA_DUC_LO_2` | 2% | 5% |
+| 5–6 | `DA_DUC_LO_3` | 1.5% | 4% |
+| 7–8 | `DA_DUC_LO_4` | 1.5% | 4% |
+| 9 | `DA_DUC_LO_5` | 1% | 3% |
+| 9 | `DA_DUC_LO_THIEN_MENH` | — | 1% |
+
+#### Boss extras + chìa
+
+| Band | Mảnh Huy Hiệu | Mảnh Long Tộc | Chìa trang sức free | Chìa ngọc (skill) |
+| :--- | ---: | ---: | ---: | ---: |
+| Rank 1–2 | 30% | 12% | 8% | 50% |
+| Rank 3–4 | 35% | 15% | 9% | 50% |
+| Rank 5–6 | 40% | 18% | 10% | 50% |
+| Rank 7–8 | 45% | 22% | 12% | 50% |
+| Rank 9 | 50% | 25% | 12% | 50% |
+
+#### Ma Vương
+
+| Item | Tỉ lệ |
+| :--- | ---: |
+| `TINHTHE_HUY_DIET` | 25% |
+| `DA_CUONG_HOA_THIEN_MENH` | 15% |
+| `TINHTHE_CUONGHOA_VUKHI` / `GIAP` | 20% mỗi loại |
+| Chìa trang sức free | 15% |
+| Chìa ngọc (skill) | 50% |
+
+Sink: `TINHTHE_HUY_DIET` ×1 → `DA_CUONG_HOA_THIEN_MENH` ×2 **hoặc** `DA_DUC_LO_THIEN_MENH` ×1 tại station `huy-hieu-trieu-hoi`.
 
 ---
 

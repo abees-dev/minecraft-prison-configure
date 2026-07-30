@@ -21,7 +21,7 @@ recipes:
             amount: 1
         crafting-time: 0
         ingredients:
-        - vanilla{type=GOLD_BLOCK,amount=6,display="Gold Block"}
+        - vanilla{type=GOLD_BLOCK,amount=5,display="Gold Block"}
     nen-lapis-tho-dao:
         output:
             type: MATERIAL
@@ -29,7 +29,7 @@ recipes:
             amount: 1
         crafting-time: 0
         ingredients:
-        - vanilla{type=LAPIS_BLOCK,amount=8,display="Lapis Block"}
+        - vanilla{type=LAPIS_BLOCK,amount=6,display="Lapis Block"}
     nen-redstone-tho-dao:
         output:
             type: MATERIAL
@@ -37,7 +37,7 @@ recipes:
             amount: 1
         crafting-time: 0
         ingredients:
-        - vanilla{type=REDSTONE_BLOCK,amount=6,display="Redstone Block"}
+        - vanilla{type=REDSTONE_BLOCK,amount=5,display="Redstone Block"}
     nen-diamond-tho-dao:
         output:
             type: MATERIAL
@@ -45,7 +45,7 @@ recipes:
             amount: 1
         crafting-time: 0
         ingredients:
-        - vanilla{type=DIAMOND_BLOCK,amount=5,display="Diamond Block"}
+        - vanilla{type=DIAMOND_BLOCK,amount=4,display="Diamond Block"}
     che-da-tho-dao:
         output:
             type: MATERIAL
