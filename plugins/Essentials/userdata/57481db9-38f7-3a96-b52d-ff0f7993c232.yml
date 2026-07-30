@@ -11,28 +11,28 @@ powertoolsenabled: true
 accepting-pay: true
 baltop-exempt: false
 timestamps:
-  lastteleport: 1785420600943
+  lastteleport: 1785420939146
   lastheal: 0
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1785420186010
-  login: 1785420349344
-money: '2577500.0'
+  logout: 1785424860177
+  login: 1785421966090
+money: '2595725.0'
 last-account-name: ABeess
 lastlocation:
   world: 4fc353f3-5233-45c3-a419-97d34b1bffd7
   world-name: world
-  x: -13.937184664172563
-  y: 81.0
-  z: -3.6875227555889394
-  yaw: -68.93597412109375
-  pitch: 21.143674850463867
+  x: 43.5
+  y: 84.0
+  z: -93.5
+  yaw: -156.41444396972656
+  pitch: 8.144332885742188
 logoutlocation:
-  world: 95a5a35e-65e7-4e67-bb37-b5babba162ae
-  world-name: world_magadungeon
-  x: 0.49497204923040283
-  y: 83.0
-  z: 0.9054237599093853
-  yaw: -172.5524139404297
-  pitch: 21.099580764770508
+  world: 4fc353f3-5233-45c3-a419-97d34b1bffd7
+  world-name: world
+  x: 26.762898600009446
+  y: 86.0
+  z: 105.26754773939219
+  yaw: -28.94354248046875
+  pitch: 29.338502883911133

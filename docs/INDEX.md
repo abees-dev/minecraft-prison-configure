@@ -50,6 +50,7 @@ Cập nhật: 2026-07-29.
 | [`npc-duclo-cuonghoa-notes.md`](npc-duclo-cuonghoa-notes.md) | NPC Đục lỗ & Cường hóa |
 | [`npc-equipment-upgrade-station-notes.md`](npc-equipment-upgrade-station-notes.md) | Trạm đá cường hóa |
 | [`npc-trade-donate-stations-notes.md`](npc-trade-donate-stations-notes.md) | Trade / donate Long Tộc |
+| [`crate-thien-gioi-notes.md`](crate-thien-gioi-notes.md) | Hòm Thiên Giới — Point shop, pity 10→NL, NPC đổi Hộ Long |
 | [`npc-weapon-forge-stations-notes.md`](npc-weapon-forge-stations-notes.md) | Lò rèn vũ khí theo mine (station + lệnh NPC, chưa đặt) |
 | [`ITEM_CLASSIFICATION_GUIDE.md`](ITEM_CLASSIFICATION_GUIDE.md) | Phân loại item |
 | [`pet-system-notes.md`](pet-system-notes.md) | Pet TRADE/DONATE — catalog chỉ số; phụ trợ đào TODO CorePlugin |

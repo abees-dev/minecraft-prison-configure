@@ -1,0 +1,1509 @@
+Name: '&b&l✦ &3&lHÒM THIÊN GIỚI &b&l✦'
+Preview_Config: default
+Permission_Required: false
+Opening:
+  Cooldown: 0
+Key:
+  # Sets whether or not keys are required to open this crate.
+  Required: true
+  Ids:
+  - chia_khoa_thien_gioi
+Block:
+  Pushback:
+    Enabled: true
+  Hologram:
+    Enabled: true
+    Template: default
+    Y_Offset: 0.85
+  Effect:
+    Model: HELIX
+    Particle:
+      Name: END_ROD
+  # TODO: đặt khối hòm in-game rồi /excellentcrates editor cập nhật tọa độ
+  Positions:
+  - 0,64,0,world
+Milestones:
+  Repeatable: true
+  List:
+    10_spins:
+      Amount: 10
+      Commands:
+      - mmoitems give MATERIAL MANH_THIEN_GIOI %player_name% 1
+      - broadcast &b&l✦ &e%player_name% &7đã quay &b10 lần &7Hòm Thiên Giới và nhận &b1x Mảnh Thiên Giới&7!
+      - execute as %player_name% at @s run playsound entity.player.levelup master @s ~ ~ ~ 1 1.2
+Rewards:
+  List:
+    reward_trade_hoa_helmet:
+      Name: '&6&l🔥 Hỏa Long Mũ'
+      Weight: 10
+      Rarity: common
+      Broadcast: false
+      Placeholder_Apply: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Items: []
+      Commands:
+      - mmoitems give ARMOR TRADE_HELMET_HOA_LONG %player_name%
+      - execute as %player_name% at @s run playsound entity.player.levelup master @s ~ ~ ~ 1 1.0
+      Ignored_For_Permissions: []
+    reward_trade_hoa_chest:
+      Name: '&6&l🔥 Hỏa Long Giáp'
+      Weight: 10
+      Rarity: common
+      Broadcast: false
+      Placeholder_Apply: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Items: []
+      Commands:
+      - mmoitems give ARMOR TRADE_CHESTPLATE_HOA_LONG %player_name%
+      - execute as %player_name% at @s run playsound entity.player.levelup master @s ~ ~ ~ 1 1.0
+      Ignored_For_Permissions: []
+    reward_trade_hoa_legs:
+      Name: '&6&l🔥 Hỏa Long Hộ Tất'
+      Weight: 10
+      Rarity: common
+      Broadcast: false
+      Placeholder_Apply: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Items: []
+      Commands:
+      - mmoitems give ARMOR TRADE_LEGGINGS_HOA_LONG %player_name%
+      - execute as %player_name% at @s run playsound entity.player.levelup master @s ~ ~ ~ 1 1.0
+      Ignored_For_Permissions: []
+    reward_trade_hoa_boots:
+      Name: '&6&l🔥 Hỏa Long Hài'
+      Weight: 10
+      Rarity: common
+      Broadcast: false
+      Placeholder_Apply: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Items: []
+      Commands:
+      - mmoitems give ARMOR TRADE_BOOTS_HOA_LONG %player_name%
+      - execute as %player_name% at @s run playsound entity.player.levelup master @s ~ ~ ~ 1 1.0
+      Ignored_For_Permissions: []
+    reward_trade_hoa_sword:
+      Name: '&6&l🔥 Hỏa Long Kiếm'
+      Weight: 10
+      Rarity: common
+      Broadcast: false
+      Placeholder_Apply: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Items: []
+      Commands:
+      - mmoitems give SWORD TRADE_SWORD_HOA_LONG %player_name%
+      - execute as %player_name% at @s run playsound entity.player.levelup master @s ~ ~ ~ 1 1.0
+      Ignored_For_Permissions: []
+    reward_trade_bang_helmet:
+      Name: '&3&l❄ Băng Long Mũ'
+      Weight: 10
+      Rarity: common
+      Broadcast: false
+      Placeholder_Apply: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Items: []
+      Commands:
+      - mmoitems give ARMOR TRADE_HELMET_BANG_LONG %player_name%
+      - execute as %player_name% at @s run playsound entity.player.levelup master @s ~ ~ ~ 1 1.0
+      Ignored_For_Permissions: []
+    reward_trade_bang_chest:
+      Name: '&3&l❄ Băng Long Giáp'
+      Weight: 10
+      Rarity: common
+      Broadcast: false
+      Placeholder_Apply: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Items: []
+      Commands:
+      - mmoitems give ARMOR TRADE_CHESTPLATE_BANG_LONG %player_name%
+      - execute as %player_name% at @s run playsound entity.player.levelup master @s ~ ~ ~ 1 1.0
+      Ignored_For_Permissions: []
+    reward_trade_bang_legs:
+      Name: '&3&l❄ Băng Long Hộ Tất'
+      Weight: 10
+      Rarity: common
+      Broadcast: false
+      Placeholder_Apply: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Items: []
+      Commands:
+      - mmoitems give ARMOR TRADE_LEGGINGS_BANG_LONG %player_name%
+      - execute as %player_name% at @s run playsound entity.player.levelup master @s ~ ~ ~ 1 1.0
+      Ignored_For_Permissions: []
+    reward_trade_bang_boots:
+      Name: '&3&l❄ Băng Long Hài'
+      Weight: 10
+      Rarity: common
+      Broadcast: false
+      Placeholder_Apply: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Items: []
+      Commands:
+      - mmoitems give ARMOR TRADE_BOOTS_BANG_LONG %player_name%
+      - execute as %player_name% at @s run playsound entity.player.levelup master @s ~ ~ ~ 1 1.0
+      Ignored_For_Permissions: []
+    reward_trade_bang_sword:
+      Name: '&3&l❄ Băng Long Kiếm'
+      Weight: 10
+      Rarity: common
+      Broadcast: false
+      Placeholder_Apply: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Items: []
+      Commands:
+      - mmoitems give SWORD TRADE_SWORD_BANG_LONG %player_name%
+      - execute as %player_name% at @s run playsound entity.player.levelup master @s ~ ~ ~ 1 1.0
+      Ignored_For_Permissions: []
+    reward_trade_hac_helmet:
+      Name: '&5&l☠ Hắc Long Mũ'
+      Weight: 10
+      Rarity: common
+      Broadcast: false
+      Placeholder_Apply: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Items: []
+      Commands:
+      - mmoitems give ARMOR TRADE_HELMET_HAC_LONG %player_name%
+      - execute as %player_name% at @s run playsound entity.player.levelup master @s ~ ~ ~ 1 1.0
+      Ignored_For_Permissions: []
+    reward_trade_hac_chest:
+      Name: '&5&l☠ Hắc Long Giáp'
+      Weight: 10
+      Rarity: common
+      Broadcast: false
+      Placeholder_Apply: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Items: []
+      Commands:
+      - mmoitems give ARMOR TRADE_CHESTPLATE_HAC_LONG %player_name%
+      - execute as %player_name% at @s run playsound entity.player.levelup master @s ~ ~ ~ 1 1.0
+      Ignored_For_Permissions: []
+    reward_trade_hac_legs:
+      Name: '&5&l☠ Hắc Long Hộ Tất'
+      Weight: 10
+      Rarity: common
+      Broadcast: false
+      Placeholder_Apply: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Items: []
+      Commands:
+      - mmoitems give ARMOR TRADE_LEGGINGS_HAC_LONG %player_name%
+      - execute as %player_name% at @s run playsound entity.player.levelup master @s ~ ~ ~ 1 1.0
+      Ignored_For_Permissions: []
+    reward_trade_hac_boots:
+      Name: '&5&l☠ Hắc Long Hài'
+      Weight: 10
+      Rarity: common
+      Broadcast: false
+      Placeholder_Apply: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Items: []
+      Commands:
+      - mmoitems give ARMOR TRADE_BOOTS_HAC_LONG %player_name%
+      - execute as %player_name% at @s run playsound entity.player.levelup master @s ~ ~ ~ 1 1.0
+      Ignored_For_Permissions: []
+    reward_trade_hac_sword:
+      Name: '&5&l☠ Hắc Long Kiếm'
+      Weight: 10
+      Rarity: common
+      Broadcast: false
+      Placeholder_Apply: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Items: []
+      Commands:
+      - mmoitems give SWORD TRADE_SWORD_HAC_LONG %player_name%
+      - execute as %player_name% at @s run playsound entity.player.levelup master @s ~ ~ ~ 1 1.0
+      Ignored_For_Permissions: []
+    reward_p_quan_helmet:
+      Name: '&d&l Quản Ngục Mũ I'
+      Weight: 7
+      Rarity: uncommon
+      Broadcast: false
+      Placeholder_Apply: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Items: []
+      Commands:
+      - mmoitems give ARMOR HELMET_QUAN_NGUC_1 %player_name%
+      - execute as %player_name% at @s run playsound entity.player.levelup master @s ~ ~ ~ 1 1.0
+      Ignored_For_Permissions: []
+    reward_p_quan_chestplate:
+      Name: '&d&l Quản Ngục Áo I'
+      Weight: 7
+      Rarity: uncommon
+      Broadcast: false
+      Placeholder_Apply: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Items: []
+      Commands:
+      - mmoitems give ARMOR CHESTPLATE_QUAN_NGUC_1 %player_name%
+      - execute as %player_name% at @s run playsound entity.player.levelup master @s ~ ~ ~ 1 1.0
+      Ignored_For_Permissions: []
+    reward_p_quan_leggings:
+      Name: '&d&l Quản Ngục Quần I'
+      Weight: 7
+      Rarity: uncommon
+      Broadcast: false
+      Placeholder_Apply: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Items: []
+      Commands:
+      - mmoitems give ARMOR LEGGINGS_QUAN_NGUC_1 %player_name%
+      - execute as %player_name% at @s run playsound entity.player.levelup master @s ~ ~ ~ 1 1.0
+      Ignored_For_Permissions: []
+    reward_p_quan_boots:
+      Name: '&d&l Quản Ngục Giày I'
+      Weight: 7
+      Rarity: uncommon
+      Broadcast: false
+      Placeholder_Apply: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Items: []
+      Commands:
+      - mmoitems give ARMOR BOOTS_QUAN_NGUC_1 %player_name%
+      - execute as %player_name% at @s run playsound entity.player.levelup master @s ~ ~ ~ 1 1.0
+      Ignored_For_Permissions: []
+    reward_p_quan_sword:
+      Name: '&d&l Quản Ngục Kiếm I'
+      Weight: 7
+      Rarity: uncommon
+      Broadcast: false
+      Placeholder_Apply: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Items: []
+      Commands:
+      - mmoitems give SWORD SWORD_QUAN_NGUC_1 %player_name%
+      - execute as %player_name% at @s run playsound entity.player.levelup master @s ~ ~ ~ 1 1.0
+      Ignored_For_Permissions: []
+    reward_p_quan_axe:
+      Name: '&d&l Quản Ngục Rìu I'
+      Weight: 7
+      Rarity: uncommon
+      Broadcast: false
+      Placeholder_Apply: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Items: []
+      Commands:
+      - mmoitems give AXE AXE_QUAN_NGUC_1 %player_name%
+      - execute as %player_name% at @s run playsound entity.player.levelup master @s ~ ~ ~ 1 1.0
+      Ignored_For_Permissions: []
+    reward_p_quan_staff:
+      Name: '&d&l Quản Ngục Trượng I'
+      Weight: 7
+      Rarity: uncommon
+      Broadcast: false
+      Placeholder_Apply: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Items: []
+      Commands:
+      - mmoitems give STAFF STAFF_QUAN_NGUC_1 %player_name%
+      - execute as %player_name% at @s run playsound entity.player.levelup master @s ~ ~ ~ 1 1.0
+      Ignored_For_Permissions: []
+    reward_p_bachu_helmet:
+      Name: '&5&l Bá Chủ Mũ I'
+      Weight: 6
+      Rarity: uncommon
+      Broadcast: false
+      Placeholder_Apply: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Items: []
+      Commands:
+      - mmoitems give ARMOR HELMET_BA_CHU_NGUC_TU_1 %player_name%
+      - execute as %player_name% at @s run playsound entity.player.levelup master @s ~ ~ ~ 1 1.0
+      Ignored_For_Permissions: []
+    reward_p_bachu_chestplate:
+      Name: '&5&l Bá Chủ Áo I'
+      Weight: 6
+      Rarity: uncommon
+      Broadcast: false
+      Placeholder_Apply: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Items: []
+      Commands:
+      - mmoitems give ARMOR CHESTPLATE_BA_CHU_NGUC_TU_1 %player_name%
+      - execute as %player_name% at @s run playsound entity.player.levelup master @s ~ ~ ~ 1 1.0
+      Ignored_For_Permissions: []
+    reward_p_bachu_leggings:
+      Name: '&5&l Bá Chủ Quần I'
+      Weight: 6
+      Rarity: uncommon
+      Broadcast: false
+      Placeholder_Apply: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Items: []
+      Commands:
+      - mmoitems give ARMOR LEGGINGS_BA_CHU_NGUC_TU_1 %player_name%
+      - execute as %player_name% at @s run playsound entity.player.levelup master @s ~ ~ ~ 1 1.0
+      Ignored_For_Permissions: []
+    reward_p_bachu_boots:
+      Name: '&5&l Bá Chủ Giày I'
+      Weight: 6
+      Rarity: uncommon
+      Broadcast: false
+      Placeholder_Apply: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Items: []
+      Commands:
+      - mmoitems give ARMOR BOOTS_BA_CHU_NGUC_TU_1 %player_name%
+      - execute as %player_name% at @s run playsound entity.player.levelup master @s ~ ~ ~ 1 1.0
+      Ignored_For_Permissions: []
+    reward_p_bachu_sword:
+      Name: '&5&l Bá Chủ Kiếm I'
+      Weight: 6
+      Rarity: uncommon
+      Broadcast: false
+      Placeholder_Apply: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Items: []
+      Commands:
+      - mmoitems give SWORD SWORD_BA_CHU_NGUC_TU_1 %player_name%
+      - execute as %player_name% at @s run playsound entity.player.levelup master @s ~ ~ ~ 1 1.0
+      Ignored_For_Permissions: []
+    reward_p_bachu_axe:
+      Name: '&5&l Bá Chủ Rìu I'
+      Weight: 6
+      Rarity: uncommon
+      Broadcast: false
+      Placeholder_Apply: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Items: []
+      Commands:
+      - mmoitems give AXE AXE_BA_CHU_NGUC_TU_1 %player_name%
+      - execute as %player_name% at @s run playsound entity.player.levelup master @s ~ ~ ~ 1 1.0
+      Ignored_For_Permissions: []
+    reward_p_bachu_staff:
+      Name: '&5&l Bá Chủ Trượng I'
+      Weight: 6
+      Rarity: uncommon
+      Broadcast: false
+      Placeholder_Apply: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Items: []
+      Commands:
+      - mmoitems give STAFF STAFF_BA_CHU_NGUC_TU_1 %player_name%
+      - execute as %player_name% at @s run playsound entity.player.levelup master @s ~ ~ ~ 1 1.0
+      Ignored_For_Permissions: []
+    reward_p_vuot_helmet:
+      Name: '&4&l Vượt Ngục Mũ I'
+      Weight: 5
+      Rarity: rare
+      Broadcast: false
+      Placeholder_Apply: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Items: []
+      Commands:
+      - mmoitems give ARMOR HELMET_VUOT_NGUC_1 %player_name%
+      - execute as %player_name% at @s run playsound entity.player.levelup master @s ~ ~ ~ 1 1.0
+      Ignored_For_Permissions: []
+    reward_p_vuot_chestplate:
+      Name: '&4&l Vượt Ngục Áo I'
+      Weight: 5
+      Rarity: rare
+      Broadcast: false
+      Placeholder_Apply: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Items: []
+      Commands:
+      - mmoitems give ARMOR CHESTPLATE_VUOT_NGUC_1 %player_name%
+      - execute as %player_name% at @s run playsound entity.player.levelup master @s ~ ~ ~ 1 1.0
+      Ignored_For_Permissions: []
+    reward_p_vuot_leggings:
+      Name: '&4&l Vượt Ngục Quần I'
+      Weight: 5
+      Rarity: rare
+      Broadcast: false
+      Placeholder_Apply: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Items: []
+      Commands:
+      - mmoitems give ARMOR LEGGINGS_VUOT_NGUC_1 %player_name%
+      - execute as %player_name% at @s run playsound entity.player.levelup master @s ~ ~ ~ 1 1.0
+      Ignored_For_Permissions: []
+    reward_p_vuot_boots:
+      Name: '&4&l Vượt Ngục Giày I'
+      Weight: 5
+      Rarity: rare
+      Broadcast: false
+      Placeholder_Apply: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Items: []
+      Commands:
+      - mmoitems give ARMOR BOOTS_VUOT_NGUC_1 %player_name%
+      - execute as %player_name% at @s run playsound entity.player.levelup master @s ~ ~ ~ 1 1.0
+      Ignored_For_Permissions: []
+    reward_p_vuot_sword:
+      Name: '&4&l Vượt Ngục Kiếm I'
+      Weight: 5
+      Rarity: rare
+      Broadcast: false
+      Placeholder_Apply: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Items: []
+      Commands:
+      - mmoitems give SWORD SWORD_VUOT_NGUC_1 %player_name%
+      - execute as %player_name% at @s run playsound entity.player.levelup master @s ~ ~ ~ 1 1.0
+      Ignored_For_Permissions: []
+    reward_p_vuot_axe:
+      Name: '&4&l Vượt Ngục Rìu I'
+      Weight: 5
+      Rarity: rare
+      Broadcast: false
+      Placeholder_Apply: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Items: []
+      Commands:
+      - mmoitems give AXE AXE_VUOT_NGUC_1 %player_name%
+      - execute as %player_name% at @s run playsound entity.player.levelup master @s ~ ~ ~ 1 1.0
+      Ignored_For_Permissions: []
+    reward_p_vuot_staff:
+      Name: '&4&l Vượt Ngục Trượng I'
+      Weight: 5
+      Rarity: rare
+      Broadcast: false
+      Placeholder_Apply: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Items: []
+      Commands:
+      - mmoitems give STAFF STAFF_VUOT_NGUC_1 %player_name%
+      - execute as %player_name% at @s run playsound entity.player.levelup master @s ~ ~ ~ 1 1.0
+      Ignored_For_Permissions: []
+    reward_ho_sword:
+      Name: '&a&l✦ Hộ Long Kiếm'
+      Weight: 3.0
+      Rarity: rare
+      Broadcast: true
+      Placeholder_Apply: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Items: []
+      Commands:
+      - mmoitems give SWORD DONATE_SWORD_LONG_VE %player_name%
+      - execute as %player_name% at @s run playsound entity.player.levelup master @s ~ ~ ~ 1 1.0
+      Ignored_For_Permissions: []
+    reward_ho_helmet:
+      Name: '&a&l✦ Hộ Long Mũ'
+      Weight: 3.0
+      Rarity: rare
+      Broadcast: true
+      Placeholder_Apply: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Items: []
+      Commands:
+      - mmoitems give ARMOR DONATE_HELMET_LONG_VE %player_name%
+      - execute as %player_name% at @s run playsound entity.player.levelup master @s ~ ~ ~ 1 1.0
+      Ignored_For_Permissions: []
+    reward_ho_chestplate:
+      Name: '&a&l✦ Hộ Long Giáp'
+      Weight: 3.0
+      Rarity: rare
+      Broadcast: true
+      Placeholder_Apply: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Items: []
+      Commands:
+      - mmoitems give ARMOR DONATE_CHESTPLATE_LONG_VE %player_name%
+      - execute as %player_name% at @s run playsound entity.player.levelup master @s ~ ~ ~ 1 1.0
+      Ignored_For_Permissions: []
+    reward_ho_leggings:
+      Name: '&a&l✦ Hộ Long Hộ Tất'
+      Weight: 3.0
+      Rarity: rare
+      Broadcast: true
+      Placeholder_Apply: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Items: []
+      Commands:
+      - mmoitems give ARMOR DONATE_LEGGINGS_LONG_VE %player_name%
+      - execute as %player_name% at @s run playsound entity.player.levelup master @s ~ ~ ~ 1 1.0
+      Ignored_For_Permissions: []
+    reward_ho_boots:
+      Name: '&a&l✦ Hộ Long Hài'
+      Weight: 3.0
+      Rarity: rare
+      Broadcast: true
+      Placeholder_Apply: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Items: []
+      Commands:
+      - mmoitems give ARMOR DONATE_BOOTS_LONG_VE %player_name%
+      - execute as %player_name% at @s run playsound entity.player.levelup master @s ~ ~ ~ 1 1.0
+      Ignored_For_Permissions: []
+    reward_chien_sword:
+      Name: '&e&l★ Chiến Long Kiếm'
+      Weight: 1.5
+      Rarity: legendary
+      Broadcast: true
+      Placeholder_Apply: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Items: []
+      Commands:
+      - mmoitems give SWORD DONATE_SWORD_LONG_CHIEN %player_name%
+      - execute as %player_name% at @s run playsound entity.player.levelup master @s ~ ~ ~ 1 1.0
+      Ignored_For_Permissions: []
+    reward_chien_helmet:
+      Name: '&e&l★ Chiến Long Mũ'
+      Weight: 1.5
+      Rarity: legendary
+      Broadcast: true
+      Placeholder_Apply: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Items: []
+      Commands:
+      - mmoitems give ARMOR DONATE_HELMET_LONG_CHIEN %player_name%
+      - execute as %player_name% at @s run playsound entity.player.levelup master @s ~ ~ ~ 1 1.0
+      Ignored_For_Permissions: []
+    reward_chien_chestplate:
+      Name: '&e&l★ Chiến Long Giáp'
+      Weight: 1.5
+      Rarity: legendary
+      Broadcast: true
+      Placeholder_Apply: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Items: []
+      Commands:
+      - mmoitems give ARMOR DONATE_CHESTPLATE_LONG_CHIEN %player_name%
+      - execute as %player_name% at @s run playsound entity.player.levelup master @s ~ ~ ~ 1 1.0
+      Ignored_For_Permissions: []
+    reward_chien_leggings:
+      Name: '&e&l★ Chiến Long Hộ Tất'
+      Weight: 1.5
+      Rarity: legendary
+      Broadcast: true
+      Placeholder_Apply: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Items: []
+      Commands:
+      - mmoitems give ARMOR DONATE_LEGGINGS_LONG_CHIEN %player_name%
+      - execute as %player_name% at @s run playsound entity.player.levelup master @s ~ ~ ~ 1 1.0
+      Ignored_For_Permissions: []
+    reward_chien_boots:
+      Name: '&e&l★ Chiến Long Hài'
+      Weight: 1.5
+      Rarity: legendary
+      Broadcast: true
+      Placeholder_Apply: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Items: []
+      Commands:
+      - mmoitems give ARMOR DONATE_BOOTS_LONG_CHIEN %player_name%
+      - execute as %player_name% at @s run playsound entity.player.levelup master @s ~ ~ ~ 1 1.0
+      Ignored_For_Permissions: []
+    reward_ch_vk_so:
+      Name: '&a✦ Đá CH Vũ Khí Sơ Cấp'
+      Weight: 14
+      Rarity: common
+      Broadcast: false
+      Placeholder_Apply: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Items: []
+      Commands:
+      - mmoitems give MATERIAL DA_CUONG_HOA_VU_KHI_SO_CAP %player_name% 1
+      - execute as %player_name% at @s run playsound entity.experience_orb.pickup master @s ~ ~ ~ 1 1.2
+      Ignored_For_Permissions: []
+    reward_ch_giap_so:
+      Name: '&a✦ Đá CH Giáp Sơ Cấp'
+      Weight: 14
+      Rarity: common
+      Broadcast: false
+      Placeholder_Apply: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Items: []
+      Commands:
+      - mmoitems give MATERIAL DA_CUONG_HOA_GIAP_SO_CAP %player_name% 1
+      - execute as %player_name% at @s run playsound entity.experience_orb.pickup master @s ~ ~ ~ 1 1.2
+      Ignored_For_Permissions: []
+    reward_ch_vk_trung:
+      Name: '&e✦ Đá CH Vũ Khí Trung Cấp'
+      Weight: 10
+      Rarity: uncommon
+      Broadcast: false
+      Placeholder_Apply: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Items: []
+      Commands:
+      - mmoitems give MATERIAL DA_CUONG_HOA_VU_KHI_TRUNG_CAP %player_name% 1
+      - execute as %player_name% at @s run playsound entity.experience_orb.pickup master @s ~ ~ ~ 1 1.2
+      Ignored_For_Permissions: []
+    reward_ch_giap_trung:
+      Name: '&e✦ Đá CH Giáp Trung Cấp'
+      Weight: 10
+      Rarity: uncommon
+      Broadcast: false
+      Placeholder_Apply: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Items: []
+      Commands:
+      - mmoitems give MATERIAL DA_CUONG_HOA_GIAP_TRUNG_CAP %player_name% 1
+      - execute as %player_name% at @s run playsound entity.experience_orb.pickup master @s ~ ~ ~ 1 1.2
+      Ignored_For_Permissions: []
+    reward_ch_vk_cao:
+      Name: '&6✦ Đá CH Vũ Khí Cao Cấp'
+      Weight: 6
+      Rarity: rare
+      Broadcast: false
+      Placeholder_Apply: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Items: []
+      Commands:
+      - mmoitems give MATERIAL DA_CUONG_HOA_VU_KHI_CAO_CAP %player_name% 1
+      - execute as %player_name% at @s run playsound entity.experience_orb.pickup master @s ~ ~ ~ 1 1.2
+      Ignored_For_Permissions: []
+    reward_ch_giap_cao:
+      Name: '&6✦ Đá CH Giáp Cao Cấp'
+      Weight: 6
+      Rarity: rare
+      Broadcast: false
+      Placeholder_Apply: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Items: []
+      Commands:
+      - mmoitems give MATERIAL DA_CUONG_HOA_GIAP_CAO_CAP %player_name% 1
+      - execute as %player_name% at @s run playsound entity.experience_orb.pickup master @s ~ ~ ~ 1 1.2
+      Ignored_For_Permissions: []
+    reward_ch_vk_sieu:
+      Name: '&c✦ Đá CH Vũ Khí Siêu Cấp'
+      Weight: 3
+      Rarity: rare
+      Broadcast: true
+      Placeholder_Apply: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Items: []
+      Commands:
+      - mmoitems give MATERIAL DA_CUONG_HOA_VU_KHI_SIEU_CAP %player_name% 1
+      - execute as %player_name% at @s run playsound entity.experience_orb.pickup master @s ~ ~ ~ 1 1.2
+      Ignored_For_Permissions: []
+    reward_ch_giap_sieu:
+      Name: '&c✦ Đá CH Giáp Siêu Cấp'
+      Weight: 3
+      Rarity: rare
+      Broadcast: true
+      Placeholder_Apply: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Items: []
+      Commands:
+      - mmoitems give MATERIAL DA_CUONG_HOA_GIAP_SIEU_CAP %player_name% 1
+      - execute as %player_name% at @s run playsound entity.experience_orb.pickup master @s ~ ~ ~ 1 1.2
+      Ignored_For_Permissions: []
+    reward_ch_vk_huyen:
+      Name: '&d✦ Đá CH Vũ Khí Huyền Thoại'
+      Weight: 1.5
+      Rarity: legendary
+      Broadcast: true
+      Placeholder_Apply: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Items: []
+      Commands:
+      - mmoitems give MATERIAL DA_CUONG_HOA_VU_KHI_HUYEN_THOAI %player_name% 1
+      - execute as %player_name% at @s run playsound entity.experience_orb.pickup master @s ~ ~ ~ 1 1.2
+      Ignored_For_Permissions: []
+    reward_ch_giap_huyen:
+      Name: '&d✦ Đá CH Giáp Huyền Thoại'
+      Weight: 1.5
+      Rarity: legendary
+      Broadcast: true
+      Placeholder_Apply: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Items: []
+      Commands:
+      - mmoitems give MATERIAL DA_CUONG_HOA_GIAP_HUYEN_THOAI %player_name% 1
+      - execute as %player_name% at @s run playsound entity.experience_orb.pickup master @s ~ ~ ~ 1 1.2
+      Ignored_For_Permissions: []
+    reward_duc_1:
+      Name: '&b✦ Mũi Khoan Đục Lỗ Ô 1'
+      Weight: 12
+      Rarity: common
+      Broadcast: false
+      Placeholder_Apply: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Items: []
+      Commands:
+      - mmoitems give MATERIAL DA_DUC_LO_1 %player_name% 1
+      - execute as %player_name% at @s run playsound entity.experience_orb.pickup master @s ~ ~ ~ 1 1.2
+      Ignored_For_Permissions: []
+    reward_duc_2:
+      Name: '&b✦ Mũi Khoan Đục Lỗ Ô 2'
+      Weight: 10
+      Rarity: common
+      Broadcast: false
+      Placeholder_Apply: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Items: []
+      Commands:
+      - mmoitems give MATERIAL DA_DUC_LO_2 %player_name% 1
+      - execute as %player_name% at @s run playsound entity.experience_orb.pickup master @s ~ ~ ~ 1 1.2
+      Ignored_For_Permissions: []
+    reward_duc_3:
+      Name: '&b✦ Mũi Khoan Đục Lỗ Ô 3'
+      Weight: 8
+      Rarity: uncommon
+      Broadcast: false
+      Placeholder_Apply: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Items: []
+      Commands:
+      - mmoitems give MATERIAL DA_DUC_LO_3 %player_name% 1
+      - execute as %player_name% at @s run playsound entity.experience_orb.pickup master @s ~ ~ ~ 1 1.2
+      Ignored_For_Permissions: []
+    reward_duc_4:
+      Name: '&b✦ Mũi Khoan Đục Lỗ Ô 4'
+      Weight: 6
+      Rarity: uncommon
+      Broadcast: false
+      Placeholder_Apply: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Items: []
+      Commands:
+      - mmoitems give MATERIAL DA_DUC_LO_4 %player_name% 1
+      - execute as %player_name% at @s run playsound entity.experience_orb.pickup master @s ~ ~ ~ 1 1.2
+      Ignored_For_Permissions: []
+    reward_duc_5:
+      Name: '&b✦ Mũi Khoan Đục Lỗ Ô 5'
+      Weight: 4
+      Rarity: rare
+      Broadcast: false
+      Placeholder_Apply: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Items: []
+      Commands:
+      - mmoitems give MATERIAL DA_DUC_LO_5 %player_name% 1
+      - execute as %player_name% at @s run playsound entity.experience_orb.pickup master @s ~ ~ ~ 1 1.2
+      Ignored_For_Permissions: []
+    reward_duc_6:
+      Name: '&b✦ Mũi Khoan Đục Lỗ Ô 6'
+      Weight: 2.5
+      Rarity: rare
+      Broadcast: true
+      Placeholder_Apply: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Items: []
+      Commands:
+      - mmoitems give MATERIAL DA_DUC_LO_6 %player_name% 1
+      - execute as %player_name% at @s run playsound entity.experience_orb.pickup master @s ~ ~ ~ 1 1.2
+      Ignored_For_Permissions: []
+    reward_duc_7:
+      Name: '&b✦ Mũi Khoan Đục Lỗ Ô 7'
+      Weight: 1.5
+      Rarity: legendary
+      Broadcast: true
+      Placeholder_Apply: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Items: []
+      Commands:
+      - mmoitems give MATERIAL DA_DUC_LO_7 %player_name% 1
+      - execute as %player_name% at @s run playsound entity.experience_orb.pickup master @s ~ ~ ~ 1 1.2
+      Ignored_For_Permissions: []
+    reward_key_ngoc:
+      Name: '&e&lChìa Khóa Rương Ngọc'
+      Weight: 8
+      Rarity: uncommon
+      Broadcast: false
+      Placeholder_Apply: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Items: []
+      Commands:
+      - crates key give %player_name% chia_khoa_ruong_ngoc 1
+      - execute as %player_name% at @s run playsound entity.experience_orb.pickup master @s ~ ~ ~ 1 1.2
+      Ignored_For_Permissions: []
+    reward_manh_huy:
+      Name: '&6✦ Mảnh Huy Hiệu Triệu Hồi'
+      Weight: 9
+      Rarity: uncommon
+      Broadcast: false
+      Placeholder_Apply: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Items: []
+      Commands:
+      - mmoitems give MATERIAL MANH_HUY_HIEU_TRIEU_HOI %player_name% 1
+      - execute as %player_name% at @s run playsound entity.experience_orb.pickup master @s ~ ~ ~ 1 1.2
+      Ignored_For_Permissions: []
+    reward_manh_long:
+      Name: '&6✦ Mảnh Long Tộc'
+      Weight: 7
+      Rarity: uncommon
+      Broadcast: false
+      Placeholder_Apply: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Items: []
+      Commands:
+      - mmoitems give MATERIAL MANH_LONG_TOC %player_name% 1
+      - execute as %player_name% at @s run playsound entity.experience_orb.pickup master @s ~ ~ ~ 1 1.2
+      Ignored_For_Permissions: []
+    reward_da_cs:
+      Name: '&d&l✦ Đá Chuyển Sinh'
+      Weight: 2.0
+      Rarity: legendary
+      Broadcast: true
+      Placeholder_Apply: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Items: []
+      Commands:
+      - mmoitems give MATERIAL DA_CHUYEN_SINH %player_name% 1
+      - execute as %player_name% at @s run playsound entity.experience_orb.pickup master @s ~ ~ ~ 1 1.2
+      Ignored_For_Permissions: []

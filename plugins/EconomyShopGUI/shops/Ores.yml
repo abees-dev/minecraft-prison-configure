@@ -70,31 +70,32 @@ pages:
         material: GOLD_BLOCK
         buy: -1
         sell: 7200
+      # Soft-launch 2026-07-30: nerf late thêm ~30–35% (early/mid giữ nguyên)
       '18':
         material: DIAMOND
         buy: -1
-        sell: 3200
+        sell: 2200
       '19':
         material: DIAMOND_BLOCK
         buy: -1
-        sell: 28800
+        sell: 19800
       '20':
         material: EMERALD
         buy: -1
-        sell: 4500
+        sell: 3000
       '21':
         material: EMERALD_BLOCK
         buy: -1
-        sell: 40500
+        sell: 27000
       '22':
         material: ANCIENT_DEBRIS
         buy: -1
-        sell: 5500
+        sell: 3800
       '23':
         material: NETHERITE_INGOT
         buy: -1
-        sell: 28000
+        sell: 12000
       '24':
         material: NETHERITE_BLOCK
         buy: -1
-        sell: 252000
+        sell: 108000

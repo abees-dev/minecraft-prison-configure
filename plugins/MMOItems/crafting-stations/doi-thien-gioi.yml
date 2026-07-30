@@ -1,0 +1,67 @@
+name: '&8[&b✦&8] &b&lĐỔI MẢNH THIÊN GIỚI'
+max-queue-size: 10
+sound: BLOCK_ENCHANTMENT_TABLE_USE
+layout: trade-tier
+
+items:
+    fill:
+        material: LIGHT_BLUE_STAINED_GLASS_PANE
+        name: '&7'
+    no-recipe:
+        material: RED_STAINED_GLASS_PANE
+        name: '&cChưa Chọn Công Thức'
+    no-queue-item:
+        material: BLACK_STAINED_GLASS_PANE
+        name: '&7Ô Hàng Chờ Trống'
+
+recipes:
+    # 1 Mảnh Thiên Giới → 1 món Hộ Long (giáp / kiếm set 1)
+    doi-ho-kiem:
+        output:
+            type: SWORD
+            id: DONATE_SWORD_LONG_VE
+            amount: 1
+        name: "&a&l✦ Đổi → Hộ Long Bảo Kiếm"
+        crafting-time: 0
+        ingredients:
+        - mmoitem{type=MATERIAL,id=MANH_THIEN_GIOI,amount=1,display="Mảnh Thiên Giới"}
+
+    doi-ho-non:
+        output:
+            type: ARMOR
+            id: DONATE_HELMET_LONG_VE
+            amount: 1
+        name: "&a&l✦ Đổi → Hộ Long Mũ"
+        crafting-time: 0
+        ingredients:
+        - mmoitem{type=MATERIAL,id=MANH_THIEN_GIOI,amount=1,display="Mảnh Thiên Giới"}
+
+    doi-ho-ao:
+        output:
+            type: ARMOR
+            id: DONATE_CHESTPLATE_LONG_VE
+            amount: 1
+        name: "&a&l✦ Đổi → Hộ Long Chiến Giáp"
+        crafting-time: 0
+        ingredients:
+        - mmoitem{type=MATERIAL,id=MANH_THIEN_GIOI,amount=1,display="Mảnh Thiên Giới"}
+
+    doi-ho-quan:
+        output:
+            type: ARMOR
+            id: DONATE_LEGGINGS_LONG_VE
+            amount: 1
+        name: "&a&l✦ Đổi → Hộ Long Hộ Tất"
+        crafting-time: 0
+        ingredients:
+        - mmoitem{type=MATERIAL,id=MANH_THIEN_GIOI,amount=1,display="Mảnh Thiên Giới"}
+
+    doi-ho-giay:
+        output:
+            type: ARMOR
+            id: DONATE_BOOTS_LONG_VE
+            amount: 1
+        name: "&a&l✦ Đổi → Hộ Long Hài"
+        crafting-time: 0
+        ingredients:
+        - mmoitem{type=MATERIAL,id=MANH_THIEN_GIOI,amount=1,display="Mảnh Thiên Giới"}

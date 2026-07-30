@@ -709,6 +709,23 @@ DA_CHUYEN_SINH:
       - "&7Vật phẩm chứa đựng linh khí ngàn năm."
       - "&7Dùng để Chuyển Sinh tại Menu &e/chuyensinh&7."
 
+# ==========================================================
+# HÒM THIÊN GIỚI — MẢNH PITY (mỗi 10 lần quay)
+# ==========================================================
 
+MANH_THIEN_GIOI:
+  base:
+    revision-id: 1
+    material: PRISMARINE_CRYSTALS
+    name: "&b✦ Mảnh Thiên Giới &7&l[Pity]"
+    tier: LEGENDARY
+    lore-format: ingredient-lore
+    hide-enchants: true
+    enchants:
+      unbreaking: 1
+    lore:
+      - "&7 &b●&7 Nhận khi quay đủ &f10 lần &bHòm Thiên Giới"
+      - "&7 &b●&7 Đem tới NPC &eSứ Giả Thiên Giới"
+      - "&7 &b●&7 Đổi &f1 Mảnh &7→ &a1 món Hộ Long&7 (kiếm/giáp)"
 
 

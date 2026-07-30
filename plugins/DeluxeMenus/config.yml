@@ -24,3 +24,5 @@ gui_menus:
     file: warp_dungeons.yml
   warp_hub:
     file: warp_hub.yml
+  shop_donate:
+    file: shop_donate.yml

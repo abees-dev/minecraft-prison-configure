@@ -76,6 +76,22 @@ sk reload prison/level_gate.sk
 
 Test bằng tài khoản **không OP** (OP bị multiplier LEGEND x3).
 
+## Soft-launch follow-up — nerf late sell (2026-07-30)
+
+Chỉ chỉnh diamond / emerald / debris / netherite (~30–35%). Early–mid không đổi.
+
+| Material | Phase 6 | Mới |
+| --- | ---: | ---: |
+| DIAMOND | 3,200 | **2,200** |
+| DIAMOND_BLOCK | 28,800 | **19,800** |
+| EMERALD | 4,500 | **3,000** |
+| EMERALD_BLOCK | 40,500 | **27,000** |
+| ANCIENT_DEBRIS | 5,500 | **3,800** |
+| NETHERITE_INGOT | 28,000 | **12,000** (×2 hạ — multiplier rank/VIP) |
+| NETHERITE_BLOCK | 252,000 | **108,000** |
+
+Reload: `/sreload`
+
 ## Chưa làm (vòng sau nếu cần)
 
 - Thêm filler stone vào mỏ mid/late (`plugins/X-Prison/mines/*.json`)
