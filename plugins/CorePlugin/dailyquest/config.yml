@@ -1,0 +1,49 @@
+# Docs:
+#   Purpose: Main plugin settings — storage backend, timezone, soft-depend toggles.
+#   Reload: /dailyquest reload (YAML only; storage.type requires restart)
+#   Server: Paper 1.19.4+
+#   See also: quests/*.yml, checkin.yml, gui.yml, messages.yml
+
+# Timezone for daily / weekly / check-in period boundaries (IANA id).
+reset-timezone: Asia/Ho_Chi_Minh
+
+# Storage backend. Change requires full server restart (pool is created on enable).
+#   sqlite — local file under plugin data folder (zero external DB setup)
+#   mysql  — remote/local MySQL via HikariCP
+storage:
+  # Backend: sqlite | mysql
+  type: mysql
+  # SQLite only: relative path under plugins/CorePlugin/dailyquest/ (created automatically).
+  sqlite-file: data/dailyquest.db
+
+# MySQL connection (used when storage.type is mysql). Never block queries on the main thread.
+mysql:
+  # JDBC host (no jdbc: prefix here — built by the plugin).
+  host: 127.0.0.1
+  # MySQL port.
+  port: 3306
+  # Database name (must exist; schema applied from db/schema-mysql.sql on enable).
+  database: prison-rpg-db
+  # Credentials — prefer env/secrets in production; defaults are for local dev only.
+  username: root
+  password: "abeesdev"
+  # Hikari pool size.
+  pool-size: 10
+  # Extra JDBC params appended to the URL.
+  properties: useSSL=false&allowPublicKeyRetrieval=true&characterEncoding=utf8
+
+# Soft-depend feature toggles (still no-ops if the plugin is not installed).
+integrations:
+  # Deposit money via Vault Economy when type: vault-money (fallback: eco give).
+  vault: true
+  # Give rewards via MMOItems API when type: mmoitem.
+  mmoitems: true
+  # Grant MMOCore experience when type: mmocore-exp.
+  mmocore: true
+  # Dispatch ExcellentCrates give command when type: crate.
+  excellentcrates: true
+  # Register PlaceholderAPI expansion %dailyquest_*%.
+  placeholderapi: true
+
+# Debug logging for reward skips and period resets.
+debug: false

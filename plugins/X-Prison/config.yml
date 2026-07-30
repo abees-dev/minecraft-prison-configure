@@ -83,6 +83,7 @@ modules:
   mining_stats: false
   battlepass: false
   quests: false
+  dailyrewards: false
 # List of supported pickaxes by UPC Enchants
 supported-pickaxes:
   - DIAMOND_PICKAXE

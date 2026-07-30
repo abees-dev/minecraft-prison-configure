@@ -1,0 +1,130 @@
+# Docs:
+#   Purpose: Paper inventory GUI layout for daily / weekly quests and check-in.
+#   Reload: /dailyquest reload
+#   Materials: Bukkit Material names. Size must be a multiple of 9 (9–54).
+#   clear-all-slot: daily only; -1 to hide. calendar: streak day preview in check-in GUI.
+
+# Filler pane for empty slots.
+filler-material: GRAY_STAINED_GLASS_PANE
+filler-name: ' '
+
+daily:
+  # Chest title (legacy color codes).
+  title: '&8Nhiệm vụ ngày'
+  size: 54
+  # First slot index used for quest icons (then sequential).
+  quest-start-slot: 10
+  # Max quest icons shown.
+  max-quests: 28
+  # Clear-all bonus icon (claimable after every daily quest is claimed).
+  clear-all-slot: 47
+  clear-all:
+    locked-material: GRAY_DYE
+    claimable-material: NETHER_STAR
+    claimed-material: LIME_DYE
+  # Nav buttons.
+  buttons:
+    weekly:
+      slot: 46
+      material: CLOCK
+      name: '&eSang Weekly'
+      lore:
+        - '&7Click để mở quest tuần'
+    checkin:
+      slot: 49
+      material: GOLD_INGOT
+      name: '&6Điểm danh'
+      lore:
+        - '&7Click để mở điểm danh'
+    close:
+      slot: 53
+      material: BARRIER
+      name: '&cĐóng'
+      lore: []
+
+weekly:
+  title: '&8Nhiệm vụ tuần'
+  size: 54
+  quest-start-slot: 10
+  max-quests: 28
+  # Weekly has no clear-all bonus in P0.
+  clear-all-slot: -1
+  buttons:
+    daily:
+      slot: 46
+      material: SUNFLOWER
+      name: '&aSang Daily'
+      lore:
+        - '&7Click để mở quest ngày'
+    checkin:
+      slot: 49
+      material: GOLD_INGOT
+      name: '&6Điểm danh'
+      lore:
+        - '&7Click để mở điểm danh'
+    close:
+      slot: 53
+      material: BARRIER
+      name: '&cĐóng'
+      lore: []
+
+checkin:
+  title: '&8Điểm danh hàng ngày'
+  size: 54
+  # Main claim button slot.
+  claim-slot: 13
+  claimed-material: LIME_DYE
+  available-material: GOLD_INGOT
+  already-material: RED_DYE
+  # Streak calendar preview (days 1..N from start-slot).
+  calendar:
+    enabled: true
+    start-slot: 19
+    days: 7
+    claimed-material: LIME_STAINED_GLASS_PANE
+    today-material: GOLD_BLOCK
+    upcoming-material: GRAY_STAINED_GLASS_PANE
+    milestone-material: ENDER_CHEST
+  buttons:
+    daily:
+      slot: 46
+      material: BOOK
+      name: '&aDaily Quests'
+      lore: []
+    weekly:
+      slot: 48
+      material: BOOK
+      name: '&eWeekly Quests'
+      lore: []
+    close:
+      slot: 52
+      material: BARRIER
+      name: '&cĐóng'
+      lore: []
+
+# Quest icon appearance by status.
+quest-icons:
+  in-progress:
+    material: PAPER
+    name: '&f%quest_name%'
+    lore:
+      - '%description%'
+      - ''
+      - '&7Tiến độ: &f%progress%&7/&f%target%'
+      - '&7Trạng thái: &eĐang làm'
+  claimable:
+    material: CHEST
+    name: '&a%quest_name%'
+    lore:
+      - '%description%'
+      - ''
+      - '&7Tiến độ: &a%progress%&7/&a%target%'
+      - '&aClick để nhận thưởng'
+  claimed:
+    material: LIME_CONCRETE
+    name: '&a%quest_name%'
+    lore:
+      - '%description%'
+      - ''
+      - '&7Tiến độ: &a%progress%&7/&a%target%'
+      - '&2Đã nhận thưởng'

@@ -1,0 +1,93 @@
+# Docs:
+#   Purpose: Daily quest definitions (Prison RPG). Reset at midnight in config.yml reset-timezone.
+#   Reload: /dailyquest reload
+#   Quest IDs: UPPER_SNAKE_CASE. Bump revision when changing objectives for an existing ID.
+#   Objective types: KILL_MOB | BREAK_BLOCK | CRAFT_ITEM | LOGIN | CHECKIN | CUSTOM
+#   Reward types: vault-money | mmoitem | crate | command | mmocore-exp
+#   clear-all-bonus: granted once after all daily quests are claimed (idempotent per day).
+
+# Extra reward when every daily quest below is claimed today.
+clear-all-bonus:
+  enabled: true
+  rewards:
+    - type: vault-money
+      amount: 2500
+    - type: mmocore-exp
+      amount: 50
+    - type: crate
+      crate: daily_crate
+      amount: 1
+
+quests:
+  # Log in once today.
+  LOGIN_ONCE:
+    name: '&aĐăng nhập nhà tù'
+    description: '&7Đăng nhập server 1 lần trong ngày.'
+    revision: 1
+    type: LOGIN
+    target: 1
+    filter: ''
+    rewards:
+      - type: vault-money
+        amount: 500
+      - type: mmocore-exp
+        amount: 25
+
+  # Daily check-in (điểm danh) — progress when /checkin succeeds.
+  CHECKIN_TODAY:
+    name: '&6Điểm danh hôm nay'
+    description: '&7Nhận điểm danh (/checkin) trong ngày.'
+    revision: 1
+    type: CHECKIN
+    target: 1
+    filter: ''
+    rewards:
+      - type: vault-money
+        amount: 300
+      - type: mmocore-exp
+        amount: 15
+
+  # Mine cobble in the prison mines.
+  MINE_COBBLE_256:
+    name: '&7Thợ mỏ cobble'
+    description: '&7Phá 256 khối COBBLESTONE trong ngày.'
+    revision: 1
+    type: BREAK_BLOCK
+    target: 256
+    filter: COBBLESTONE
+    rewards:
+      - type: vault-money
+        amount: 1200
+      - type: mmocore-exp
+        amount: 40
+
+  # Mine stone (common prison block).
+  MINE_STONE_512:
+    name: '&eThợ mỏ đá'
+    description: '&7Phá 512 khối STONE trong ngày.'
+    revision: 1
+    type: BREAK_BLOCK
+    target: 512
+    filter: STONE
+    rewards:
+      - type: vault-money
+        amount: 1800
+      - type: crate
+        crate: daily_crate
+        amount: 1
+
+  # Optional PvE / farm objective.
+  KILL_ZOMBIE_15:
+    name: '&cSăn Zombie'
+    description: '&7Giết 15 Zombie trong ngày (farm / arena).'
+    revision: 1
+    type: KILL_MOB
+    target: 15
+    filter: ZOMBIE
+    rewards:
+      - type: vault-money
+        amount: 800
+      - type: mmoitem
+        mi-type: CONSUMABLE
+        mi-id: DAILY_TOKEN
+        amount: 1

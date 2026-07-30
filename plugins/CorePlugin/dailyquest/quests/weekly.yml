@@ -1,0 +1,52 @@
+# Docs:
+#   Purpose: Weekly quest definitions (Prison RPG). Reset Monday 00:00 in config.yml reset-timezone.
+#   Reload: /dailyquest reload
+#   Same schema as quests/daily.yml (id, revision, type, target, filter, rewards).
+
+quests:
+  # Heavy mining over the week.
+  MINE_STONE_2500:
+    name: '&eThợ mỏ tuần'
+    description: '&7Phá 2500 khối STONE trong tuần.'
+    revision: 1
+    type: BREAK_BLOCK
+    target: 2500
+    filter: STONE
+    rewards:
+      - type: vault-money
+        amount: 15000
+      - type: crate
+        crate: weekly_crate
+        amount: 1
+      - type: mmocore-exp
+        amount: 200
+
+  # Cobble grind for early ranks.
+  MINE_COBBLE_1500:
+    name: '&7Nghiền cobble tuần'
+    description: '&7Phá 1500 khối COBBLESTONE trong tuần.'
+    revision: 1
+    type: BREAK_BLOCK
+    target: 1500
+    filter: COBBLESTONE
+    rewards:
+      - type: vault-money
+        amount: 8000
+      - type: mmocore-exp
+        amount: 120
+
+  # Ore mining (adjust filter to your mine blocks).
+  MINE_IRON_ORE_200:
+    name: '&fKhai thác sắt'
+    description: '&7Phá 200 khối IRON_ORE trong tuần.'
+    revision: 1
+    type: BREAK_BLOCK
+    target: 200
+    filter: IRON_ORE
+    rewards:
+      - type: vault-money
+        amount: 12000
+      - type: mmoitem
+        mi-type: CONSUMABLE
+        mi-id: WEEKLY_TOKEN
+        amount: 1

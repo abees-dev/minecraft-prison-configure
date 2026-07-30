@@ -380,167 +380,177 @@ AN_TIN_LONG_TOC:
 DA_CUONG_HOA_VU_KHI_SO_CAP:
   itemsadder-item: "iadungeon:crystal_of_invasion_70"
   base:
-    revision-id: 1
+    revision-id: 2
     material: PAPER
     custom-model-data: 10069
-    name: "&a✦ Đá Cường Hóa Vũ Khí &7[Sơ Cấp LV 1-20]"
+    name: "&a✦ Đá Cường Hóa Vũ Khí &7[Sơ Cấp]"
     tier: UNCOMMON
     hide-enchants: true
     enchants:
       unbreaking: 1
     lore:
-      - "&7 &a●&7 Nguyên liệu nâng cấp Vũ Khí tại &e/cuonghoa (&e+1 Cấp&7)"
-      - "&7 &a●&7 Dùng cho Vũ Khí Cấp: &eLevel 0 - 19"
-      - "&7 &a●&7 Tỷ lệ thành công: &a85%"
+      - "&7 &a●&7 Cường hóa Vũ Khí tại &e/cuonghoa &7(&e+1 Cấp&7)"
+      - "&7 &a●&7 Dùng được ở &emọi cấp độ"
+      - "&7 &a●&7 Tỷ lệ gốc: &a15%&7 | Sàn tối thiểu: &a1%"
+      - "&7 &a●&7 Tỷ lệ giảm dần khi cấp trang bị tăng"
 
 DA_CUONG_HOA_VU_KHI_TRUNG_CAP:
   itemsadder-item: "iadungeon:crystal_of_frost_29"
   base:
-    revision-id: 1
+    revision-id: 2
     material: PAPER
     custom-model-data: 10028
-    name: "&e✦ Đá Cường Hóa Vũ Khí &7[Trung Cấp LV 21-40]"
+    name: "&e✦ Đá Cường Hóa Vũ Khí &7[Trung Cấp]"
     tier: RARE
     hide-enchants: true
     enchants:
       unbreaking: 1
     lore:
-      - "&7 &e●&7 Nguyên liệu nâng cấp Vũ Khí tại &e/cuonghoa (&e+1 Cấp&7)"
-      - "&7 &e●&7 Dùng cho Vũ Khí Cấp: &eLevel 20 - 39"
-      - "&7 &e●&7 Tỷ lệ thành công: &e65%"
+      - "&7 &e●&7 Cường hóa Vũ Khí tại &e/cuonghoa &7(&e+1 Cấp&7)"
+      - "&7 &e●&7 Dùng được ở &emọi cấp độ"
+      - "&7 &e●&7 Tỷ lệ gốc: &e25%&7 | Sàn tối thiểu: &e2%"
+      - "&7 &e●&7 Tỷ lệ giảm dần khi cấp trang bị tăng"
 
 DA_CUONG_HOA_VU_KHI_CAO_CAP:
   itemsadder-item: "iadungeon:crystal_of_fury_19"
   base:
-    revision-id: 1
+    revision-id: 2
     material: PAPER
     custom-model-data: 10018
-    name: "&6✦ Đá Cường Hóa Vũ Khí &7[Cao Cấp LV 41-60]"
+    name: "&6✦ Đá Cường Hóa Vũ Khí &7[Cao Cấp]"
     tier: RARE
     hide-enchants: true
     enchants:
       unbreaking: 1
     lore:
-      - "&7 &6●&7 Nguyên liệu nâng cấp Vũ Khí tại &e/cuonghoa (&e+1 Cấp&7)"
-      - "&7 &6●&7 Dùng cho Vũ Khí Cấp: &eLevel 40 - 59"
-      - "&7 &6●&7 Tỷ lệ thành công: &645%"
+      - "&7 &6●&7 Cường hóa Vũ Khí tại &e/cuonghoa &7(&e+1 Cấp&7)"
+      - "&7 &6●&7 Dùng được ở &emọi cấp độ"
+      - "&7 &6●&7 Tỷ lệ gốc: &645%&7 | Sàn tối thiểu: &62%"
+      - "&7 &6●&7 Tỷ lệ giảm dần khi cấp trang bị tăng"
 
 DA_CUONG_HOA_VU_KHI_SIEU_CAP:
   itemsadder-item: "iadungeon:crystal_of_silence_30"
   base:
-    revision-id: 1
+    revision-id: 2
     material: PAPER
     custom-model-data: 10029
-    name: "&c✦ Đá Cường Hóa Vũ Khí &7[Siêu Cấp LV 61-80]"
+    name: "&c✦ Đá Cường Hóa Vũ Khí &7[Siêu Cấp]"
     tier: LEGENDARY
     hide-enchants: true
     enchants:
       unbreaking: 1
     lore:
-      - "&7 &c●&7 Nguyên liệu nâng cấp Vũ Khí tại &e/cuonghoa (&e+1 Cấp&7)"
-      - "&7 &c●&7 Dùng cho Vũ Khí Cấp: &eLevel 60 - 79"
-      - "&7 &c●&7 Tỷ lệ thành công: &c25%"
+      - "&7 &c●&7 Cường hóa Vũ Khí tại &e/cuonghoa &7(&e+1 Cấp&7)"
+      - "&7 &c●&7 Dùng được ở &emọi cấp độ"
+      - "&7 &c●&7 Tỷ lệ gốc: &c65%&7 | Sàn tối thiểu: &c2%"
+      - "&7 &c●&7 Tỷ lệ giảm dần khi cấp trang bị tăng"
 
 DA_CUONG_HOA_VU_KHI_HUYEN_THOAI:
   itemsadder-item: "iadungeon:crystal_of_contagion_71"
   base:
-    revision-id: 1
+    revision-id: 2
     material: PAPER
     custom-model-data: 10070
-    name: "&d&l✦ Đá Cường Hóa Vũ Khí &7[Huyền Thoại LV 81-100]"
+    name: "&d&l✦ Đá Cường Hóa Vũ Khí &7[Huyền Thoại]"
     tier: MYTHICAL
     hide-enchants: true
     enchants:
       unbreaking: 1
     lore:
-      - "&7 &d●&7 Nguyên liệu nâng cấp Vũ Khí tại &e/cuonghoa (&e+1 Cấp&7)"
-      - "&7 &d●&7 Dùng cho Vũ Khí Cấp: &eLevel 80 - 99"
-      - "&7 &d●&7 Tỷ lệ thành công: &d10%"
+      - "&7 &d●&7 Cường hóa Vũ Khí tại &e/cuonghoa &7(&e+1 Cấp&7)"
+      - "&7 &d●&7 Dùng được ở &emọi cấp độ"
+      - "&7 &d●&7 Tỷ lệ gốc: &d85%&7 | Sàn tối thiểu: &d2%"
+      - "&7 &d●&7 Tỷ lệ giảm dần khi cấp trang bị tăng"
 
 DA_CUONG_HOA_GIAP_SO_CAP:
   itemsadder-item: "iadungeon:crystal_of_chaos_66"
   base:
-    revision-id: 1
+    revision-id: 2
     material: PAPER
     custom-model-data: 10065
-    name: "&a✦ Đá Cường Hóa Giáp &7[Sơ Cấp LV 1-20]"
+    name: "&a✦ Đá Cường Hóa Giáp &7[Sơ Cấp]"
     tier: UNCOMMON
     hide-enchants: true
     enchants:
       unbreaking: 1
     lore:
-      - "&7 &a●&7 Nguyên liệu nâng cấp Bộ Giáp tại &e/cuonghoa (&e+1 Cấp&7)"
-      - "&7 &a●&7 Dùng cho Bộ Giáp Cấp: &eLevel 0 - 19"
-      - "&7 &a●&7 Tỷ lệ thành công: &a85%"
+      - "&7 &a●&7 Cường hóa Giáp / Phụ kiện tại &e/cuonghoa &7(&e+1 Cấp&7)"
+      - "&7 &a●&7 Dùng được ở &emọi cấp độ"
+      - "&7 &a●&7 Tỷ lệ gốc: &a15%&7 | Sàn tối thiểu: &a1%"
+      - "&7 &a●&7 Tỷ lệ giảm dần khi cấp trang bị tăng"
 
 DA_CUONG_HOA_GIAP_TRUNG_CAP:
   itemsadder-item: "iadungeon:crystal_of_despair_58"
   base:
-    revision-id: 1
+    revision-id: 2
     material: PAPER
     custom-model-data: 10057
-    name: "&e✦ Đá Cường Hóa Giáp &7[Trung Cấp LV 21-40]"
+    name: "&e✦ Đá Cường Hóa Giáp &7[Trung Cấp]"
     tier: RARE
     hide-enchants: true
     enchants:
       unbreaking: 1
     lore:
-      - "&7 &e●&7 Nguyên liệu nâng cấp Bộ Giáp tại &e/cuonghoa (&e+1 Cấp&7)"
-      - "&7 &e●&7 Dùng cho Bộ Giáp Cấp: &eLevel 20 - 39"
-      - "&7 &e●&7 Tỷ lệ thành công: &e65%"
+      - "&7 &e●&7 Cường hóa Giáp / Phụ kiện tại &e/cuonghoa &7(&e+1 Cấp&7)"
+      - "&7 &e●&7 Dùng được ở &emọi cấp độ"
+      - "&7 &e●&7 Tỷ lệ gốc: &e25%&7 | Sàn tối thiểu: &e2%"
+      - "&7 &e●&7 Tỷ lệ giảm dần khi cấp trang bị tăng"
 
 DA_CUONG_HOA_GIAP_CAO_CAP:
   itemsadder-item: "iadungeon:crystal_of_destruction_69"
   base:
-    revision-id: 1
+    revision-id: 2
     material: PAPER
     custom-model-data: 10068
-    name: "&6✦ Đá Cường Hóa Giáp &7[Cao Cấp LV 41-60]"
+    name: "&6✦ Đá Cường Hóa Giáp &7[Cao Cấp]"
     tier: RARE
     hide-enchants: true
     enchants:
       unbreaking: 1
     lore:
-      - "&7 &6●&7 Nguyên liệu nâng cấp Bộ Giáp tại &e/cuonghoa (&e+1 Cấp&7)"
-      - "&7 &6●&7 Dùng cho Bộ Giáp Cấp: &eLevel 40 - 59"
-      - "&7 &6●&7 Tỷ lệ thành công: &645%"
+      - "&7 &6●&7 Cường hóa Giáp / Phụ kiện tại &e/cuonghoa &7(&e+1 Cấp&7)"
+      - "&7 &6●&7 Dùng được ở &emọi cấp độ"
+      - "&7 &6●&7 Tỷ lệ gốc: &645%&7 | Sàn tối thiểu: &62%"
+      - "&7 &6●&7 Tỷ lệ giảm dần khi cấp trang bị tăng"
 
 DA_CUONG_HOA_GIAP_SIEU_CAP:
   itemsadder-item: "iadungeon:crystal_of_frenzy_67"
   base:
-    revision-id: 1
+    revision-id: 2
     material: PAPER
     custom-model-data: 10066
-    name: "&c✦ Đá Cường Hóa Giáp &7[Siêu Cấp LV 61-80]"
+    name: "&c✦ Đá Cường Hóa Giáp &7[Siêu Cấp]"
     tier: LEGENDARY
     hide-enchants: true
     enchants:
       unbreaking: 1
     lore:
-      - "&7 &c●&7 Nguyên liệu nâng cấp Bộ Giáp tại &e/cuonghoa (&e+1 Cấp&7)"
-      - "&7 &c●&7 Dùng cho Bộ Giáp Cấp: &eLevel 60 - 79"
-      - "&7 &c●&7 Tỷ lệ thành công: &c25%"
+      - "&7 &c●&7 Cường hóa Giáp / Phụ kiện tại &e/cuonghoa &7(&e+1 Cấp&7)"
+      - "&7 &c●&7 Dùng được ở &emọi cấp độ"
+      - "&7 &c●&7 Tỷ lệ gốc: &c65%&7 | Sàn tối thiểu: &c2%"
+      - "&7 &c●&7 Tỷ lệ giảm dần khi cấp trang bị tăng"
 
 DA_CUONG_HOA_GIAP_HUYEN_THOAI:
   itemsadder-item: "iadungeon:crystal_of_madness_68"
   base:
-    revision-id: 1
+    revision-id: 2
     material: PAPER
     custom-model-data: 10067
-    name: "&d&l✦ Đá Cường Hóa Giáp &7[Huyền Thoại LV 81-100]"
+    name: "&d&l✦ Đá Cường Hóa Giáp &7[Huyền Thoại]"
     tier: MYTHICAL
     hide-enchants: true
     enchants:
       unbreaking: 1
     lore:
-      - "&7 &d●&7 Nguyên liệu nâng cấp Bộ Giáp tại &e/cuonghoa (&e+1 Cấp&7)"
-      - "&7 &d●&7 Dùng cho Bộ Giáp Cấp: &eLevel 80 - 99"
-      - "&7 &d●&7 Tỷ lệ thành công: &d10%"
+      - "&7 &d●&7 Cường hóa Giáp / Phụ kiện tại &e/cuonghoa &7(&e+1 Cấp&7)"
+      - "&7 &d●&7 Dùng được ở &emọi cấp độ"
+      - "&7 &d●&7 Tỷ lệ gốc: &d85%&7 | Sàn tối thiểu: &d2%"
+      - "&7 &d●&7 Tỷ lệ giảm dần khi cấp trang bị tăng"
 
 DA_CUONG_HOA_THIEN_MENH:
   itemsadder-item: "iadungeon:crystal_of_geomagnetic_storm_88"
   base:
-    revision-id: 1
+    revision-id: 2
     material: PAPER
     custom-model-data: 10087
     name: "&d&l✦ Đá Cường Hóa Thiên Mệnh &7[100% Thành Công]"
@@ -550,7 +560,8 @@ DA_CUONG_HOA_THIEN_MENH:
       unbreaking: 1
     lore:
       - "&7 &d●&7 Viên đá chứa vận mệnh tối cao của ngục tù"
-      - "&7 &d●&7 Nâng cấp bất kỳ Trang Bị tại &e/cuonghoa (&e+1 Cấp&7)"
+      - "&7 &d●&7 Cường hóa &ebất kỳ trang bị&7 tại &e/cuonghoa &7(&e+1 Cấp&7)"
+      - "&7 &d●&7 Dùng được ở &emọi cấp độ"
       - "&7 &d●&7 Tỷ lệ thành công: &a&l100% (Hoàn Hảo)"
 
 # ==========================================================
