@@ -26,4 +26,4 @@ VuotNgucBoss:
   Conditions: []
   SpawnConditions: []
   ActiveMobs: 1
-  CooldownTimer: 5
+  CooldownTimer: 1

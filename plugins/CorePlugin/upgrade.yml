@@ -16,14 +16,14 @@
 # ============================================================================
 
 gui:
-  title: '&8[&c✦&8] &c&lCƯỜNG HÓA TRANG BỊ'
+  title: "&8[&c✦&8] &c&lCƯỜNG HÓA TRANG BỊ"
   rows: 6
   slots:
-    equipment: 19   # player places the gear to upgrade here
-    stone: 25       # player places the upgrade stone here
-    info: 22        # decorative info icon, no action on click
-    confirm: 40     # click to attempt the upgrade
-    close: 49       # click to close the GUI (unplaced items are returned)
+    equipment: 19 # player places the gear to upgrade here
+    stone: 25 # player places the upgrade stone here
+    info: 22 # decorative info icon, no action on click
+    confirm: 40 # click to attempt the upgrade
+    close: 49 # click to close the GUI (unplaced items are returned)
 
 # Max upgrade level an item can reach.
 max-level: 100
@@ -73,43 +73,43 @@ universal-stone:
 #
 #   rate = base-rate * (decay-factor ^ current-level), floored at min-rate
 #
-# e.g. SO_CAP at base-rate 85, decay-factor 0.97: ~85% at level 0, ~46.7% at
-# level 20, ~25.6% at level 40, then flattens out at its 5% floor. Lower
-# tiers (SO_CAP) start strong but decay fast; higher tiers (HUYEN_THOAI)
-# start weak but barely decay, so they stay relevant at high levels where
-# lower tiers have already floored out.
+# Higher tiers start with a higher base-rate (and floor), so a better stone
+# always beats a worse one at the same item level. e.g. HUYEN_THOAI at
+# base-rate 85, decay-factor 0.97: ~85% at level 0, ~46.7% at level 20,
+# ~25.6% at level 40, then flattens at its 5% floor; SO_CAP with base-rate
+# 10 is always weaker at every level.
 tiers:
   SO_CAP:
-    base-rate: 85
+    base-rate: 15
     decay-factor: 0.97
-    min-rate: 5
+    min-rate: 1
   TRUNG_CAP:
-    base-rate: 65
+    base-rate: 25
     decay-factor: 0.97
-    min-rate: 5
+    min-rate: 2
   CAO_CAP:
     base-rate: 45
     decay-factor: 0.97
-    min-rate: 5
+    min-rate: 2
   SIEU_CAP:
-    base-rate: 25
+    base-rate: 65
     decay-factor: 0.97
-    min-rate: 5
+    min-rate: 2
   HUYEN_THOAI:
-    base-rate: 10
+    base-rate: 85
     decay-factor: 0.97
     min-rate: 2
 
 # {value1}/{value2} get substituted per message - see UpgradeService.kt for
 # exactly what each one is when a message is sent.
 messages:
-  SUCCESS: '&a&l[✦] CƯỜNG HÓA THÀNH CÔNG! &7Trang bị đã được nâng cấp lên &e+{value1}&7!'
-  FAIL: '&c&l[-] CƯỜNG HÓA THẤT BẠI! &7Đã tiêu hao 1x Đá Cường Hóa, trang bị giữ nguyên cấp &e+{value1}&7.'
-  NO_ITEM: '&c[!] Hãy đặt Trang Bị cần cường hóa vào ô bên trái!'
-  INVALID_ITEM: '&c[!] Vật phẩm này không hợp lệ hoặc không có dữ liệu MMOItems!'
-  NOT_MMOITEM: '&c[!] Trang bị này không phải là MMOItem hợp lệ!'
-  MAX_LEVEL: '&e[!] Trang bị này đã đạt Cấp Cường Hóa Tối Đa (LV {value1})!'
-  NO_STONE: '&c[!] Hãy đặt Đá Cường Hóa vào ô bên phải!'
-  INVALID_STONE: '&c[!] Vật phẩm đá không phải Đá Cường Hóa hợp lệ!'
+  SUCCESS: "&a&l[✦] CƯỜNG HÓA THÀNH CÔNG! &7Trang bị đã được nâng cấp lên &e+{value1}&7!"
+  FAIL: "&c&l[-] CƯỜNG HÓA THẤT BẠI! &7Đã tiêu hao 1x Đá Cường Hóa, trang bị giữ nguyên cấp &e+{value1}&7."
+  NO_ITEM: "&c[!] Hãy đặt Trang Bị cần cường hóa vào ô bên trái!"
+  INVALID_ITEM: "&c[!] Vật phẩm này không hợp lệ hoặc không có dữ liệu MMOItems!"
+  NOT_MMOITEM: "&c[!] Trang bị này không phải là MMOItem hợp lệ!"
+  MAX_LEVEL: "&e[!] Trang bị này đã đạt Cấp Cường Hóa Tối Đa (LV {value1})!"
+  NO_STONE: "&c[!] Hãy đặt Đá Cường Hóa vào ô bên phải!"
+  INVALID_STONE: "&c[!] Vật phẩm đá không phải Đá Cường Hóa hợp lệ!"
   UNSUPPORTED_TYPE: "&c[!] Loại trang bị '{value1}' không hỗ trợ cường hóa!"
-  MISMATCH_STONE: '&c[!] Đá cường hóa không phù hợp với trang bị hoặc cấp độ hiện tại (Cấp {value1})!'
+  MISMATCH_STONE: "&c[!] Đá cường hóa không phù hợp với trang bị hoặc cấp độ hiện tại (Cấp {value1})!"

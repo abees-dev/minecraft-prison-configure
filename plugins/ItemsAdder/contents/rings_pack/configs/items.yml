@@ -8,7 +8,7 @@ items:
       material: PAPER
       generate: false
       model_id: 19001
-      model_path: ring_1
+      model_path: items/pack/ring_1
   ring_2:
     display_name: "&fNhẫn Vàng Cổ (Ancient Gold Ring)"
     enabled: true
@@ -16,7 +16,7 @@ items:
       material: PAPER
       generate: false
       model_id: 19002
-      model_path: ring_2
+      model_path: items/pack/ring_2
   ring_3:
     display_name: "&fNhẫn Nguyệt Thạch (Moonstone Ring)"
     enabled: true
@@ -24,7 +24,7 @@ items:
       material: PAPER
       generate: false
       model_id: 19003
-      model_path: ring_3
+      model_path: items/pack/ring_3
   ring_4:
     display_name: "&fNhẫn Trâu Rừng (Bison Ring)"
     enabled: true
@@ -32,7 +32,7 @@ items:
       material: PAPER
       generate: false
       model_id: 19004
-      model_path: ring_4
+      model_path: items/pack/ring_4
   ring_5:
     display_name: "&fNhẫn Trăng Khuyết (Crescent Ring)"
     enabled: true
@@ -40,7 +40,7 @@ items:
       material: PAPER
       generate: false
       model_id: 19005
-      model_path: ring_5
+      model_path: items/pack/ring_5
   ring_6:
     display_name: "&fNhẫn Mãng Xà (Serpent Ring)"
     enabled: true
@@ -48,7 +48,7 @@ items:
       material: PAPER
       generate: false
       model_id: 19006
-      model_path: ring_6
+      model_path: items/pack/ring_6
   ring_7:
     display_name: "&fNhẫn Hoàng Kim Vương Cổ (Golden Bone Ring)"
     enabled: true
@@ -56,7 +56,7 @@ items:
       material: PAPER
       generate: false
       model_id: 19007
-      model_path: ring_7
+      model_path: items/pack/ring_7
   ring_8:
     display_name: "&fNhẫn Cốt Vương (Skeleton Ring)"
     enabled: true
@@ -64,7 +64,7 @@ items:
       material: PAPER
       generate: false
       model_id: 19008
-      model_path: ring_8
+      model_path: items/pack/ring_8
   ring_9:
     display_name: "&fNhẫn Tinh Tú (Cosmic Ring)"
     enabled: true
@@ -72,7 +72,7 @@ items:
       material: PAPER
       generate: false
       model_id: 19009
-      model_path: ring_9
+      model_path: items/pack/ring_9
   ring_10:
     display_name: "&fNhẫn Thần Vũ (Winged Ring)"
     enabled: true
@@ -80,7 +80,7 @@ items:
       material: PAPER
       generate: false
       model_id: 19010
-      model_path: ring_10
+      model_path: items/pack/ring_10
   ring_11:
     display_name: "&fNhẫn Huyết Sọ (Blood Skull Ring)"
     enabled: true
@@ -88,7 +88,7 @@ items:
       material: PAPER
       generate: false
       model_id: 19011
-      model_path: ring_11
+      model_path: items/pack/ring_11
   ring_12:
     display_name: "&fNhẫn Trơn Kim Loại (Plain Band)"
     enabled: true
@@ -96,7 +96,7 @@ items:
       material: PAPER
       generate: false
       model_id: 19012
-      model_path: ring_12
+      model_path: items/pack/ring_12
   ring_13:
     display_name: "&fNhẫn Ngọc Lục Bảo (Emerald Ring)"
     enabled: true
@@ -104,7 +104,7 @@ items:
       material: PAPER
       generate: false
       model_id: 19013
-      model_path: ring_13
+      model_path: items/pack/ring_13
   ring_14:
     display_name: "&fNhẫn Quỷ Sừng (Horned Demon Ring)"
     enabled: true
@@ -112,7 +112,7 @@ items:
       material: PAPER
       generate: false
       model_id: 19014
-      model_path: ring_14
+      model_path: items/pack/ring_14
   ring_15:
     display_name: "&fNhẫn Sói Xám (Wolf Ring)"
     enabled: true
@@ -120,7 +120,7 @@ items:
       material: PAPER
       generate: false
       model_id: 19015
-      model_path: ring_15
+      model_path: items/pack/ring_15
   ring_16:
     display_name: "&fNhẫn Thép Đen (Dark Steel Ring)"
     enabled: true
@@ -128,7 +128,7 @@ items:
       material: PAPER
       generate: false
       model_id: 19016
-      model_path: ring_16
+      model_path: items/pack/ring_16
   ring_17:
     display_name: "&fNhẫn Hắc Sọ (Dark Skull Ring)"
     enabled: true
@@ -136,7 +136,7 @@ items:
       material: PAPER
       generate: false
       model_id: 19017
-      model_path: ring_17
+      model_path: items/pack/ring_17
   ring_18:
     display_name: "&fNhẫn Gỗ Cổ Thụ (Ancient Wood Ring)"
     enabled: true
@@ -144,7 +144,7 @@ items:
       material: PAPER
       generate: false
       model_id: 19018
-      model_path: ring_18
+      model_path: items/pack/ring_18
   ring_19:
     display_name: "&fNhẫn Ma Hồn (Phantom Skull Ring)"
     enabled: true
@@ -152,7 +152,7 @@ items:
       material: PAPER
       generate: false
       model_id: 19019
-      model_path: ring_19
+      model_path: items/pack/ring_19
   ring_20:
     display_name: "&fNhẫn Vỏ Sò (Shell Ring)"
     enabled: true
@@ -160,7 +160,7 @@ items:
       material: PAPER
       generate: false
       model_id: 19020
-      model_path: ring_20
+      model_path: items/pack/ring_20
   ring_21:
     display_name: "&fNhẫn Phượng Hoàng (Phoenix Ring)"
     enabled: true
@@ -168,7 +168,7 @@ items:
       material: PAPER
       generate: false
       model_id: 19021
-      model_path: ring_21
+      model_path: items/pack/ring_21
   ring_22:
     display_name: "&fNhẫn Lục Thạch Vàng (Gemmed Gold Ring)"
     enabled: true
@@ -176,7 +176,7 @@ items:
       material: PAPER
       generate: false
       model_id: 19022
-      model_path: ring_22
+      model_path: items/pack/ring_22
   ring_23:
     display_name: "&fNhẫn Ngọc Bích (Jade Ring)"
     enabled: true
@@ -184,7 +184,7 @@ items:
       material: PAPER
       generate: false
       model_id: 19023
-      model_path: ring_23
+      model_path: items/pack/ring_23
   ring_24:
     display_name: "&fNhẫn Độc Orc (Orc Ring)"
     enabled: true
@@ -192,7 +192,7 @@ items:
       material: PAPER
       generate: false
       model_id: 19024
-      model_path: ring_24
+      model_path: items/pack/ring_24
   ring_25:
     display_name: "&fNhẫn Gấu Rừng (Bear Ring)"
     enabled: true
@@ -200,7 +200,7 @@ items:
       material: PAPER
       generate: false
       model_id: 19025
-      model_path: ring_25
+      model_path: items/pack/ring_25
   ring_26:
     display_name: "&fNhẫn Dây Thừng (Rope Ring)"
     enabled: true
@@ -208,7 +208,7 @@ items:
       material: PAPER
       generate: false
       model_id: 19026
-      model_path: ring_26
+      model_path: items/pack/ring_26
   ring_27:
     display_name: "&fNhẫn Bóng Tối (Shadow Ring)"
     enabled: true
@@ -216,7 +216,7 @@ items:
       material: PAPER
       generate: false
       model_id: 19027
-      model_path: ring_27
+      model_path: items/pack/ring_27
   ring_28:
     display_name: "&fNhẫn Hoàng Kim Sọ (Gold Skull Ring)"
     enabled: true
@@ -224,7 +224,7 @@ items:
       material: PAPER
       generate: false
       model_id: 19028
-      model_path: ring_28
+      model_path: items/pack/ring_28
   ring_29:
     display_name: "&fNhẫn Sét Đánh (Lightning Ring)"
     enabled: true
@@ -232,7 +232,7 @@ items:
       material: PAPER
       generate: false
       model_id: 19029
-      model_path: ring_29
+      model_path: items/pack/ring_29
   ring_30:
     display_name: "&fNhẫn Hạt Cây (Acorn Ring)"
     enabled: true
@@ -240,7 +240,7 @@ items:
       material: PAPER
       generate: false
       model_id: 19030
-      model_path: ring_30
+      model_path: items/pack/ring_30
   ring_31:
     display_name: "&fNhẫn Thiên Hà (Galaxy Ring)"
     enabled: true
@@ -248,7 +248,7 @@ items:
       material: PAPER
       generate: false
       model_id: 19031
-      model_path: ring_31
+      model_path: items/pack/ring_31
   ring_32:
     display_name: "&fNhẫn Đồng Thau (Bronze Ring)"
     enabled: true
@@ -256,7 +256,7 @@ items:
       material: PAPER
       generate: false
       model_id: 19032
-      model_path: ring_32
+      model_path: items/pack/ring_32
   ring_33:
     display_name: "&fNhẫn Mông Cổ (Band Ring)"
     enabled: true
@@ -264,7 +264,7 @@ items:
       material: PAPER
       generate: false
       model_id: 19033
-      model_path: ring_33
+      model_path: items/pack/ring_33
   ring_34:
     display_name: "&fNhẫn Xà Vương (Snake Ring)"
     enabled: true
@@ -272,7 +272,7 @@ items:
       material: PAPER
       generate: false
       model_id: 19034
-      model_path: ring_34
+      model_path: items/pack/ring_34
   ring_35:
     display_name: "&fNhẫn Thủy Ma (Water Ring)"
     enabled: true
@@ -280,7 +280,7 @@ items:
       material: PAPER
       generate: false
       model_id: 19035
-      model_path: ring_35
+      model_path: items/pack/ring_35
   ring_36:
     display_name: "&fNhẫn Nút Thắt (Knot Ring)"
     enabled: true
@@ -288,7 +288,7 @@ items:
       material: PAPER
       generate: false
       model_id: 19036
-      model_path: ring_36
+      model_path: items/pack/ring_36
   ring_37:
     display_name: "&fNhẫn Cổ Tự (Runic Ring)"
     enabled: true
@@ -296,7 +296,7 @@ items:
       material: PAPER
       generate: false
       model_id: 19037
-      model_path: ring_37
+      model_path: items/pack/ring_37
   ring_38:
     display_name: "&fNhẫn Lạc Đà (Skull Ring)"
     enabled: true
@@ -304,7 +304,7 @@ items:
       material: PAPER
       generate: false
       model_id: 19038
-      model_path: ring_38
+      model_path: items/pack/ring_38
   ring_39:
     display_name: "&fNhẫn Tuyết Thạch (Snowflake Ring)"
     enabled: true
@@ -312,7 +312,7 @@ items:
       material: PAPER
       generate: false
       model_id: 19039
-      model_path: ring_39
+      model_path: items/pack/ring_39
   ring_40:
     display_name: "&fNhẫn Dây Gai (Thorns Ring)"
     enabled: true
@@ -320,7 +320,7 @@ items:
       material: PAPER
       generate: false
       model_id: 19040
-      model_path: ring_40
+      model_path: items/pack/ring_40
   ring_41:
     display_name: "&fNhẫn Nhãn Quỷ (Demon Eye Ring)"
     enabled: true
@@ -328,7 +328,7 @@ items:
       material: PAPER
       generate: false
       model_id: 19041
-      model_path: ring_41
+      model_path: items/pack/ring_41
   ring_42:
     display_name: "&fNhẫn Kim Cương (Diamond Ring)"
     enabled: true
@@ -336,7 +336,7 @@ items:
       material: PAPER
       generate: false
       model_id: 19042
-      model_path: ring_42
+      model_path: items/pack/ring_42
   ring_43:
     display_name: "&fNhẫn Mảnh Xương (Bone Charm Ring)"
     enabled: true
@@ -344,7 +344,7 @@ items:
       material: PAPER
       generate: false
       model_id: 19043
-      model_path: ring_43
+      model_path: items/pack/ring_43
   ring_44:
     display_name: "&fNhẫn Đương Thời (Skull Ring)"
     enabled: true
@@ -352,7 +352,7 @@ items:
       material: PAPER
       generate: false
       model_id: 19044
-      model_path: ring_44
+      model_path: items/pack/ring_44
   ring_45:
     display_name: "&fNhẫn Thạch Thần (Stone Ring)"
     enabled: true
@@ -360,7 +360,7 @@ items:
       material: PAPER
       generate: false
       model_id: 19045
-      model_path: ring_45
+      model_path: items/pack/ring_45
   ring_46:
     display_name: "&fNhẫn Đơn Sơ (Simple Ring)"
     enabled: true
@@ -368,7 +368,7 @@ items:
       material: PAPER
       generate: false
       model_id: 19046
-      model_path: ring_46
+      model_path: items/pack/ring_46
   ring_47:
     display_name: "&fNhẫn Tà Thần (Dark Lord Ring)"
     enabled: true
@@ -376,7 +376,7 @@ items:
       material: PAPER
       generate: false
       model_id: 19047
-      model_path: ring_47
+      model_path: items/pack/ring_47
   ring_48:
     display_name: "&fNhẫn Kim Sọ (Gold Skull Ring)"
     enabled: true
@@ -384,7 +384,7 @@ items:
       material: PAPER
       generate: false
       model_id: 19048
-      model_path: ring_48
+      model_path: items/pack/ring_48
   ring_49:
     display_name: "&fNhẫn Hắc Thạch (Obsidian Ring)"
     enabled: true
@@ -392,7 +392,7 @@ items:
       material: PAPER
       generate: false
       model_id: 19049
-      model_path: ring_49
+      model_path: items/pack/ring_49
   ring_50:
     display_name: "&fNhẫn Hoa Cherry (Sakura Ring)"
     enabled: true
@@ -400,7 +400,7 @@ items:
       material: PAPER
       generate: false
       model_id: 19050
-      model_path: ring_50
+      model_path: items/pack/ring_50
   ring_51:
     display_name: "&fNhẫn Hỏa Sọ (Fire Skull Ring)"
     enabled: true
@@ -408,7 +408,7 @@ items:
       material: PAPER
       generate: false
       model_id: 19051
-      model_path: ring_51
+      model_path: items/pack/ring_51
   ring_52:
     display_name: "&fNhẫn Tam Ngọc (Triple Gem Ring)"
     enabled: true
@@ -416,7 +416,7 @@ items:
       material: PAPER
       generate: false
       model_id: 19052
-      model_path: ring_52
+      model_path: items/pack/ring_52
   ring_53:
     display_name: "&fNhẫn Cốt Thần (Bone Ring)"
     enabled: true
@@ -424,7 +424,7 @@ items:
       material: PAPER
       generate: false
       model_id: 19053
-      model_path: ring_53
+      model_path: items/pack/ring_53
   ring_54:
     display_name: "&fNhẫn Kim Cương Đơn (Single Diamond Ring)"
     enabled: true
@@ -432,7 +432,7 @@ items:
       material: PAPER
       generate: false
       model_id: 19054
-      model_path: ring_54
+      model_path: items/pack/ring_54
   ring_55:
     display_name: "&fNhẫn Phong Linh (Wind Ring)"
     enabled: true
@@ -440,7 +440,7 @@ items:
       material: PAPER
       generate: false
       model_id: 19055
-      model_path: ring_55
+      model_path: items/pack/ring_55
   ring_56:
     display_name: "&fNhẫn H hữu Sắc (Multi-Gem Ring)"
     enabled: true
@@ -448,7 +448,7 @@ items:
       material: PAPER
       generate: false
       model_id: 19056
-      model_path: ring_56
+      model_path: items/pack/ring_56
   ring_57:
     display_name: "&fNhẫn U Hồn (Ghostly Green Ring)"
     enabled: true
@@ -456,7 +456,7 @@ items:
       material: PAPER
       generate: false
       model_id: 19057
-      model_path: ring_57
+      model_path: items/pack/ring_57
   ring_58:
     display_name: "&fNhẫn Song Diện (Dual Face Ring)"
     enabled: true
@@ -464,7 +464,7 @@ items:
       material: PAPER
       generate: false
       model_id: 19058
-      model_path: ring_58
+      model_path: items/pack/ring_58
   ring_59:
     display_name: "&fNhẫn Hổ Thạch (Tiger Eye Ring)"
     enabled: true
@@ -472,7 +472,7 @@ items:
       material: PAPER
       generate: false
       model_id: 19059
-      model_path: ring_59
+      model_path: items/pack/ring_59
   ring_60:
     display_name: "&fNhẫn Đại Bàng (Eagle Ring)"
     enabled: true
@@ -480,7 +480,7 @@ items:
       material: PAPER
       generate: false
       model_id: 19060
-      model_path: ring_60
+      model_path: items/pack/ring_60
   ring_61:
     display_name: "&fNhẫn Vương Miện (Crown Ring)"
     enabled: true
@@ -488,7 +488,7 @@ items:
       material: PAPER
       generate: false
       model_id: 19061
-      model_path: ring_61
+      model_path: items/pack/ring_61
   ring_62:
     display_name: "&fNhẫn Song Ngọc (Double Gem Ring)"
     enabled: true
@@ -496,7 +496,7 @@ items:
       material: PAPER
       generate: false
       model_id: 19062
-      model_path: ring_62
+      model_path: items/pack/ring_62
   ring_63:
     display_name: "&fNhẫn Xương Nứt (Cracked Bone Ring)"
     enabled: true
@@ -504,7 +504,7 @@ items:
       material: PAPER
       generate: false
       model_id: 19063
-      model_path: ring_63
+      model_path: items/pack/ring_63
   ring_64:
     display_name: "&fNhẫn Nhện Độc (Spider Ring)"
     enabled: true
@@ -512,7 +512,7 @@ items:
       material: PAPER
       generate: false
       model_id: 19064
-      model_path: ring_64
+      model_path: items/pack/ring_64
   ring_65:
     display_name: "&fNhẫn Ma Nhãn (Purple Eye Ring)"
     enabled: true
@@ -520,7 +520,7 @@ items:
       material: PAPER
       generate: false
       model_id: 19065
-      model_path: ring_65
+      model_path: items/pack/ring_65
   ring_66:
     display_name: "&fNhẫn Sọ Bạc (Silver Skull Ring)"
     enabled: true
@@ -528,7 +528,7 @@ items:
       material: PAPER
       generate: false
       model_id: 19066
-      model_path: ring_66
+      model_path: items/pack/ring_66
   ring_67:
     display_name: "&fNhẫn Lam Thủy (Aqua Ring)"
     enabled: true
@@ -536,7 +536,7 @@ items:
       material: PAPER
       generate: false
       model_id: 19067
-      model_path: ring_67
+      model_path: items/pack/ring_67
   ring_68:
     display_name: "&fNhẫn Đế Vương (Imperial Crown Ring)"
     enabled: true
@@ -544,7 +544,7 @@ items:
       material: PAPER
       generate: false
       model_id: 19068
-      model_path: ring_68
+      model_path: items/pack/ring_68
   ring_69:
     display_name: "&fNhẫn Ngọc Thạch (Opal Ring)"
     enabled: true
@@ -552,7 +552,7 @@ items:
       material: PAPER
       generate: false
       model_id: 19069
-      model_path: ring_69
+      model_path: items/pack/ring_69
   ring_70:
     display_name: "&fNhẫn Long Vương (Dragon Gold Ring)"
     enabled: true
@@ -560,7 +560,7 @@ items:
       material: PAPER
       generate: false
       model_id: 19070
-      model_path: ring_70
+      model_path: items/pack/ring_70
   ring_71:
     display_name: "&fNhẫn Xích Long (Red Dragon Ring)"
     enabled: true
@@ -568,7 +568,7 @@ items:
       material: PAPER
       generate: false
       model_id: 19071
-      model_path: ring_71
+      model_path: items/pack/ring_71
   ring_72:
     display_name: "&fNhẫn Ngọc Lục Vàng (Gemmed Ring)"
     enabled: true
@@ -576,7 +576,7 @@ items:
       material: PAPER
       generate: false
       model_id: 19072
-      model_path: ring_72
+      model_path: items/pack/ring_72
   ring_73:
     display_name: "&fNhẫn Khớp Xương (Joint Bone Ring)"
     enabled: true
@@ -584,7 +584,7 @@ items:
       material: PAPER
       generate: false
       model_id: 19073
-      model_path: ring_73
+      model_path: items/pack/ring_73
   ring_74:
     display_name: "&fNhẫn Dơi Đêm (Bat Ring)"
     enabled: true
@@ -592,7 +592,7 @@ items:
       material: PAPER
       generate: false
       model_id: 19074
-      model_path: ring_74
+      model_path: items/pack/ring_74
   ring_75:
     display_name: "&fNhẫn Khiên Thần (Shield Ring)"
     enabled: true
@@ -600,7 +600,7 @@ items:
       material: PAPER
       generate: false
       model_id: 19075
-      model_path: ring_75
+      model_path: items/pack/ring_75
   ring_76:
     display_name: "&fNhẫn Huyết Thạch (Ruby Ring)"
     enabled: true
@@ -608,7 +608,7 @@ items:
       material: PAPER
       generate: false
       model_id: 19076
-      model_path: ring_76
+      model_path: items/pack/ring_76
   ring_77:
     display_name: "&fNhẫn Sọ Thủy Tinh (Glass Skull Ring)"
     enabled: true
@@ -616,7 +616,7 @@ items:
       material: PAPER
       generate: false
       model_id: 19077
-      model_path: ring_77
+      model_path: items/pack/ring_77
   ring_78:
     display_name: "&fNhẫn Dơi Quỷ (Demon Bat Ring)"
     enabled: true
@@ -624,7 +624,7 @@ items:
       material: PAPER
       generate: false
       model_id: 19078
-      model_path: ring_78
+      model_path: items/pack/ring_78
   ring_79:
     display_name: "&fNhẫn Trọc Thạch (Pearl Ring)"
     enabled: true
@@ -632,7 +632,7 @@ items:
       material: PAPER
       generate: false
       model_id: 19079
-      model_path: ring_79
+      model_path: items/pack/ring_79
   ring_80:
     display_name: "&fNhẫn Cốt Nhãn (Skull Eye Ring)"
     enabled: true
@@ -640,7 +640,7 @@ items:
       material: PAPER
       generate: false
       model_id: 19080
-      model_path: ring_80
+      model_path: items/pack/ring_80
   ring_81:
     display_name: "&fNhẫn Quỷ Hỏa (Infernal Ring)"
     enabled: true
@@ -648,7 +648,7 @@ items:
       material: PAPER
       generate: false
       model_id: 19081
-      model_path: ring_81
+      model_path: items/pack/ring_81
   ring_82:
     display_name: "&fNhẫn Lục Bảo Vàng (Gold Emerald Ring)"
     enabled: true
@@ -656,7 +656,7 @@ items:
       material: PAPER
       generate: false
       model_id: 19082
-      model_path: ring_82
+      model_path: items/pack/ring_82
   ring_83:
     display_name: "&fNhẫn Sói Tuyết (Frost Wolf Ring)"
     enabled: true
@@ -664,7 +664,7 @@ items:
       material: PAPER
       generate: false
       model_id: 19083
-      model_path: ring_83
+      model_path: items/pack/ring_83
   ring_84:
     display_name: "&fNhẫn Mộc Thạch (Wood Ring)"
     enabled: true
@@ -672,7 +672,7 @@ items:
       material: PAPER
       generate: false
       model_id: 19084
-      model_path: ring_84
+      model_path: items/pack/ring_84
   ring_85:
     display_name: "&fNhẫn Nấm Ma (Mushroom Ring)"
     enabled: true
@@ -680,7 +680,7 @@ items:
       material: PAPER
       generate: false
       model_id: 19085
-      model_path: ring_85
+      model_path: items/pack/ring_85
   ring_86:
     display_name: "&fNhẫn Bắt Chéo (Cross Bone Ring)"
     enabled: true
@@ -688,7 +688,7 @@ items:
       material: PAPER
       generate: false
       model_id: 19086
-      model_path: ring_86
+      model_path: items/pack/ring_86
   ring_87:
     display_name: "&fNhẫn Lam Sọ (Blue Skull Ring)"
     enabled: true
@@ -696,7 +696,7 @@ items:
       material: PAPER
       generate: false
       model_id: 19087
-      model_path: ring_87
+      model_path: items/pack/ring_87
   ring_88:
     display_name: "&fNhẫn Thổ Dân (Tribal Ring)"
     enabled: true
@@ -704,7 +704,7 @@ items:
       material: PAPER
       generate: false
       model_id: 19088
-      model_path: ring_88
+      model_path: items/pack/ring_88
   ring_89:
     display_name: "&fNhẫn Ngọn Lửa (Flame Ring)"
     enabled: true
@@ -712,7 +712,7 @@ items:
       material: PAPER
       generate: false
       model_id: 19089
-      model_path: ring_89
+      model_path: items/pack/ring_89
   ring_90:
     display_name: "&fNhẫn Tinh Tú Hoàng Kim (Star Ring)"
     enabled: true
@@ -720,7 +720,7 @@ items:
       material: PAPER
       generate: false
       model_id: 19090
-      model_path: ring_90
+      model_path: items/pack/ring_90
   ring_91:
     display_name: "&fNhẫn Băng Tinh (Ice Crystal Ring)"
     enabled: true
@@ -728,7 +728,7 @@ items:
       material: PAPER
       generate: false
       model_id: 19091
-      model_path: ring_91
+      model_path: items/pack/ring_91
   ring_92:
     display_name: "&fNhẫn Ngọc Lam (Cyan Gem Ring)"
     enabled: true
@@ -736,7 +736,7 @@ items:
       material: PAPER
       generate: false
       model_id: 19092
-      model_path: ring_92
+      model_path: items/pack/ring_92
   ring_93:
     display_name: "&fNhẫn Bạch Long (White Dragon Ring)"
     enabled: true
@@ -744,7 +744,7 @@ items:
       material: PAPER
       generate: false
       model_id: 19093
-      model_path: ring_93
+      model_path: items/pack/ring_93
   ring_94:
     display_name: "&fNhẫn Sét Đốm (Thunder Ring)"
     enabled: true
@@ -752,7 +752,7 @@ items:
       material: PAPER
       generate: false
       model_id: 19094
-      model_path: ring_94
+      model_path: items/pack/ring_94
   ring_95:
     display_name: "&fNhẫn Hoa Bích (Flower Ring)"
     enabled: true
@@ -760,7 +760,7 @@ items:
       material: PAPER
       generate: false
       model_id: 19095
-      model_path: ring_95
+      model_path: items/pack/ring_95
   ring_96:
     display_name: "&fNhẫn Lam Bảo (Sapphire Ring)"
     enabled: true
@@ -768,7 +768,7 @@ items:
       material: PAPER
       generate: false
       model_id: 19096
-      model_path: ring_96
+      model_path: items/pack/ring_96
   ring_97:
     display_name: "&fNhẫn Xương Chéo (Crossbones Ring)"
     enabled: true
@@ -776,7 +776,7 @@ items:
       material: PAPER
       generate: false
       model_id: 19097
-      model_path: ring_97
+      model_path: items/pack/ring_97
   ring_98:
     display_name: "&fNhẫn Độc Cốt (Poison Skull Ring)"
     enabled: true
@@ -784,7 +784,7 @@ items:
       material: PAPER
       generate: false
       model_id: 19098
-      model_path: ring_98
+      model_path: items/pack/ring_98
   ring_99:
     display_name: "&fNhẫn Thủy Vương (Ocean Ring)"
     enabled: true
@@ -792,7 +792,7 @@ items:
       material: PAPER
       generate: false
       model_id: 19099
-      model_path: ring_99
+      model_path: items/pack/ring_99
   ring_100:
     display_name: "&fNhẫn Thần Nhãn (Divine Eye Ring)"
     enabled: true
@@ -800,7 +800,7 @@ items:
       material: PAPER
       generate: false
       model_id: 19100
-      model_path: ring_100
+      model_path: items/pack/ring_100
   ring_101:
     display_name: "&fNhẫn Hoàng Kim Đôi (Double Gold Ring)"
     enabled: true
@@ -808,7 +808,7 @@ items:
       material: PAPER
       generate: false
       model_id: 19101
-      model_path: ring_101
+      model_path: items/pack/ring_101
   ring_102:
     display_name: "&fNhẫn Lam Thủy Vàng (Blue Gem Gold Ring)"
     enabled: true
@@ -816,7 +816,7 @@ items:
       material: PAPER
       generate: false
       model_id: 19102
-      model_path: ring_102
+      model_path: items/pack/ring_102
   ring_103:
     display_name: "&fNhẫn Cốt Điểu (Bird Skull Ring)"
     enabled: true
@@ -824,7 +824,7 @@ items:
       material: PAPER
       generate: false
       model_id: 19103
-      model_path: ring_103
+      model_path: items/pack/ring_103
   ring_104:
     display_name: "&fNhẫn Thái Dương (Sun Ring)"
     enabled: true
@@ -832,7 +832,7 @@ items:
       material: PAPER
       generate: false
       model_id: 19104
-      model_path: ring_104
+      model_path: items/pack/ring_104
   ring_105:
     display_name: "&fNhẫn Đại Bàng Vàng (Gold Eagle Ring)"
     enabled: true
@@ -840,7 +840,7 @@ items:
       material: PAPER
       generate: false
       model_id: 19105
-      model_path: ring_105
+      model_path: items/pack/ring_105
   ring_106:
     display_name: "&fNhẫn Lam Tinh (Aqua Gem Ring)"
     enabled: true
@@ -848,7 +848,7 @@ items:
       material: PAPER
       generate: false
       model_id: 19106
-      model_path: ring_106
+      model_path: items/pack/ring_106
   ring_107:
     display_name: "&fNhẫn Thần Sọ (Ancient Skull Ring)"
     enabled: true
@@ -856,7 +856,7 @@ items:
       material: PAPER
       generate: false
       model_id: 19107
-      model_path: ring_107
+      model_path: items/pack/ring_107
   ring_108:
     display_name: "&fNhẫn Sọ Ma (Spectral Skull Ring)"
     enabled: true
@@ -864,7 +864,7 @@ items:
       material: PAPER
       generate: false
       model_id: 19108
-      model_path: ring_108
+      model_path: items/pack/ring_108
   ring_109:
     display_name: "&fNhẫn Chi Nối (Leaf Ring)"
     enabled: true
@@ -872,7 +872,7 @@ items:
       material: PAPER
       generate: false
       model_id: 19109
-      model_path: ring_109
+      model_path: items/pack/ring_109
   ring_110:
     display_name: "&fNhẫn San Hộ (Coral Ring)"
     enabled: true
@@ -880,4 +880,4 @@ items:
       material: PAPER
       generate: false
       model_id: 19110
-      model_path: ring_110
+      model_path: items/pack/ring_110
