@@ -1,51 +1,65 @@
 # 📘 TÀI LIỆU CẤU HÌNH HỆ THỐNG MULTIPLIERS, SHOP & MULTI-RANK (PRISON + VIP)
 
-Tài liệu vận hành **EconomyShopGUI sell-multipliers**, tích hợp **LuckPerms**, và ghi chú module X-Prison liên quan bán/đào.
+Tài liệu vận hành **bán quặng** (EconomyShopGUI + Bang Hội), tích hợp **LuckPerms**, và ghi chú module X-Prison liên quan bán/đào.
 
 **Nguồn lối chơi:** [`docs/loi-choi.md`](docs/loi-choi.md) · **Mục lục docs:** [`docs/INDEX.md`](docs/INDEX.md)
 
-Cập nhật: 2026-07-29 — khớp config sống: bán qua EconomyShopGUI; X-Prison `enchants` / `autosell` = **false**.
+Cập nhật: 2026-08-01 — `/sellgui` **không** còn sell-multiplier; multiplier bán chỉ qua **Bang Hội** (upgrade Sell / buff / paragon). Giá base gang `sell-prices` khớp `shops/Ores.yml`.
 
 ---
 
-## 1. Tổng quan multipliers (EconomyShopGUI)
+## 1. Hai kênh bán quặng
 
-Hệ thống bán quặng/tài nguyên do **EconomyShopGUI** quản lý. Hệ số nhân tăng theo **Rank Prison (1 → 9)** rồi tiếp **VIP Donor (1 → 6)**.
+| Kênh | Plugin | Giá | Multiplier | Tiền vào |
+| --- | --- | --- | --- | --- |
+| **Cá nhân** `/sellgui` | EconomyShopGUI | Base `shops/Ores.yml` | **Không** (`enable-sell-multipliers: false`) | Vault player |
+| **Bang** Sell All `/gang vault` | CorePlugin gang | Cùng base (`gang/config.yml` → `sell-prices`) | **Có** — upgrade Sell (+10%/lv) + buff shop + paragon | Bank bang |
 
-* **File:** `plugins/EconomyShopGUI/config.yml`
-* **Trạng thái:** `enable-sell-multipliers: true`
-* **Chế độ bán:** Chỉ qua `/sellgui`. `commands.sellall: false`. Lệnh `/sell` và `/sellall` điều hướng mở `/sellgui`.
+File giá cá nhân: `plugins/EconomyShopGUI/shops/Ores.yml`  
+File giá bang: `plugins/CorePlugin/gang/config.yml` (`sell-prices`)  
+Chế độ bán cá nhân: chỉ `/sellgui`. `commands.sellall: false`. `/sell` và `/sellall` mở `/sellgui`.
 
-### Bảng multipliers chuẩn
+### Bảng giá base (đồng bộ — mẫu chính)
 
-| Nhóm Rank | Group LuckPerms | Bonus% | Hệ số |
-| :--- | :--- | :---: | :---: |
-| Prison Rank 1 (Tân Binh) | `xprison_rank_1` | +0% | x1.00 |
-| Prison Rank 2 (Tù Nhân) | `xprison_rank_2` | +5% | x1.05 |
-| Prison Rank 3 (Lao Công) | `xprison_rank_3` | +10% | x1.10 |
-| Prison Rank 4 (Thợ Đào) | `xprison_rank_4` | +15% | x1.15 |
-| Prison Rank 5 (Đội Trưởng) | `xprison_rank_5` | +20% | x1.20 |
-| Prison Rank 6 (Phó Quản Ngục) | `xprison_rank_6` | +30% | x1.30 |
-| Prison Rank 7 (Quản Ngục) | `xprison_rank_7` | +40% | x1.40 |
-| Prison Rank 8 (Bá Chủ Ngục Tù) | `xprison_rank_8` | +50% | x1.50 |
-| Prison Rank 9 (Vượt Ngục) | `xprison_rank_9` | +60% | x1.60 |
-| VIP 1 (VIP) | `vip` | +75% | x1.75 |
-| VIP 2 (VIP+) | `vipplus` | +90% | x1.90 |
-| VIP 3 (MVP) | `mvp` | +110% | x2.10 |
-| VIP 4 (MVP+) | `mvpplus` | +135% | x2.35 |
-| VIP 5 (ELITE) | `elite` | +165% | x2.65 |
-| VIP 6 (LEGEND) | `legend` | +200% | x3.00 |
+| Material | Sell `/sellgui` & gang |
+| --- | ---: |
+| STONE | 10 |
+| COBBLESTONE | 25 |
+| COAL / COAL_ORE | 150 |
+| RAW_IRON / IRON_ORE | 200 |
+| IRON_INGOT | 400 |
+| RAW_GOLD / GOLD_ORE | 400 |
+| GOLD_NUGGET | 60 |
+| GOLD_INGOT | 800 |
+| REDSTONE / REDSTONE_ORE | 270 |
+| LAPIS_LAZULI / LAPIS_ORE | 140 |
+| QUARTZ / NETHER_QUARTZ_ORE | 20 |
+| DIAMOND / DIAMOND_ORE | 2 200 |
+| EMERALD / EMERALD_ORE | 3 000 |
+| ANCIENT_DEBRIS / NETHERITE_SCRAP | 3 800 |
 
-VIP là lớp donor **sau** Rank 9 — tăng tốc earn, không thay progression free. Chi tiết journey: [`docs/loi-choi.md`](docs/loi-choi.md).
+Khi sửa giá: **đổi cả hai file** cho khớp, rồi `/sreload` + `/gang reload`.
 
 ---
 
-## 2. Tích hợp LuckPerms
+## 2. Multiplier chỉ ở Bang Hội
 
-Permission `sell-multipliers` / `sell-multiplier` gắn qua:
+Nguồn nhân (CorePlugin gang, không phải EconomyShopGUI):
 
-1. Skript admin: `plugins/Skript/scripts/admin/setup_luckperms_ranks.sk` — lệnh in-game `/setuplpranks`
-2. Script console: `plugins/LuckPerms/setup-all-ranks.txt`
+| Nguồn | Hiệu ứng (tóm tắt) |
+| --- | --- |
+| Upgrade **Sell** | `multiplier-per-level: 0.1` (tối đa 5 level) |
+| Shop buff **buff-sell-2x** (timed) | Nhân tạm theo config |
+| **Paragon Sell** | Thêm % khi Bang Level max |
+| Weekly quest reward sell buff | Timed theo `quests` / season |
+
+**Không** dùng permission `EconomyShopGUI.sell-multipliers.*` cho earn bán quặng nữa.
+
+### Lịch sử (deprecated) — bảng rank/VIP từng gắn ESG
+
+Trước 2026-08-01, ESG `enable-sell-multipliers: true` với rank + VIP (tới LEGEND x3.0). Block `sell-multipliers:` trong `config.yml` **có thể còn trên đĩa** nhưng **không hiệu lực** khi flag = false. Không cấp lại permission sell-multiplier cho progression.
+
+LuckPerms setup cũ (`/setuplpranks`, `setup-all-ranks.txt`) vẫn có thể gán node đó — vô hại với ESG đã tắt; dual-check nếu muốn dọn LP.
 
 ---
 
@@ -56,7 +70,7 @@ Permission `sell-multipliers` / `sell-multiplier` gắn qua:
 * `enchants: false`
 * `autosell: false`
 
-Người chơi **không** dùng `/enchant` Nuke/Layer của X-Prison làm core. Sức đào đến từ **cuốc MMOItems** (NPC lò rèn) + bán qua **`/sellgui`**.
+Người chơi **không** dùng `/enchant` Nuke/Layer của X-Prison làm core. Sức đào đến từ **cuốc MMOItems** (NPC lò rèn) + bán `/sellgui` hoặc vault bang.
 
 ### Nếu sau này bật lại enchants (không phải soft-launch)
 
@@ -72,15 +86,16 @@ Giữ ghi chú kỹ thuật để khỏi mất ngữ cảnh:
 
 | Lệnh | Mục đích |
 | :--- | :--- |
-| `/setuplpranks` | Cấp multipliers cho 9 rank Prison + 6 VIP |
-| `/sreload` | Reload EconomyShopGUI |
+| `/sreload` | Reload EconomyShopGUI (giá `/sellgui`) |
+| `/gang reload` | Reload YAML bang (gồm `sell-prices`) |
 | `/xprison reload` | Reload X-Prison (mines, ranks, prestiges…) |
-| `/sellgui` | Bán đồ (có hiện multiplier) |
+| `/sellgui` | Bán đồ cá nhân (giá base) |
 | `/sell` / `/sellall` | Mở `/sellgui` (không bán thẳng all) |
+| `/gang vault` | Kho quặng bang + Sell All → bank |
 
 ---
 
 ## Testing note
 
-* Tài khoản **OP** thường có permission `*` → EconomyShopGUI lấy hệ số cao nhất (LEGEND x3.0).
-* Test đúng rank: `/deop` hoặc tài khoản phụ không OP.
+* `/sellgui`: mọi rank/VIP/OP phải thấy **cùng giá base** (không còn LEGEND x3 trên shop).
+* Sell All bang: giá base × (1 + Sell upgrade + buff/paragon) → tiền vào **bank bang**, không vào túi player trừ khi rút bank.

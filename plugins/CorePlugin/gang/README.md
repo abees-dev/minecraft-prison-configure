@@ -29,11 +29,13 @@ Role: `LEADER` · `CO_LEADER` · `MEMBER`. Gate hành động trong `roles:`
 
 - **Bank:** tiền chung bang (nạp từ player / rút role-gated). Menu có nút số
   sẵn + nhập số chat (`bank.custom-amount-timeout-seconds`).
-- **Vault:** kho quặng whitelist (`ore-whitelist` + `sell-prices`).
+- **Vault:** kho quặng whitelist (`ore-whitelist` + `sell-prices` khớp
+  EconomyShopGUI `Ores.yml` base).
   - Toggle nạp kho **theo member** — cần Bang Lv ≥ `vault.required-level`.
   - `vault.allow-take: true` → lấy quặng ra GUI; cùng lúc chỉ 1 người mở kho
     (anti-dupe).
-  - Sell All (role) → tiền vào bank, có nhân Sell upgrade + buff shop/paragon.
+  - Sell All (role) → tiền vào bank, có nhân Sell upgrade + buff shop/paragon
+    (**đây là kênh sell-multiplier duy nhất** — `/sellgui` cá nhân không nhân).
 
 **Danh vọng (reputation):** cộng khi nạp kho (`reputation-per-item`). Dùng
 chung với money bank để mua Bang Level / upgrade permanent.

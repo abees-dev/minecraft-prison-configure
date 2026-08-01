@@ -1200,7 +1200,8 @@ discounts:
 #--------------------------------------------SellMultipliers--------------------------------------------
 
 # Enable or disable sell multipliers
-enable-sell-multipliers: true
+# 2026-08-01: tắt — bán cá nhân /sellgui chỉ giá base. Multiplier sell chỉ qua Bang Hội (upgrade Sell / buff / paragon).
+enable-sell-multipliers: false
 
 # Configure this option to use sell multipliers
 # Every entry is a shop section that holds the permission nodes with its multipliers

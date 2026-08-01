@@ -1,6 +1,7 @@
 # Phase 6 — Cân bằng kinh tế (2026-07-29)
 
-Áp dụng theo [`loi-choi.md`](loi-choi.md) P1 mục 6. Mục lục: [`INDEX.md`](INDEX.md).
+Cập nhật: 2026-07-29 — sell Phase 6 / soft-launch nerf trên `Ores.yml`.  
+**2026-08-01:** EconomyShopGUI `enable-sell-multipliers: false`; multiplier bán chỉ Bang Hội; `gang/config.yml` `sell-prices` đồng bộ giá base `Ores.yml` — xem [`DOCS_HE_THONG_PRISON.md`](../DOCS_HE_THONG_PRISON.md).
 
 ## Vấn đề trước khi chỉnh
 

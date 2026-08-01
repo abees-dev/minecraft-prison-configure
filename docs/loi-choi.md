@@ -2,7 +2,7 @@
 
 Tài liệu mô tả **trải nghiệm người chơi** từ lúc vào server tới endgame, dựa trên hệ thống đã có. Không thay thế plan kỹ thuật [`prison-rpg-plan.md`](prison-rpg-plan.md) — file đó là roadmap triển khai plugin/config; file này là nguồn “người chơi làm gì / vì sao”.
 
-Cập nhật: 2026-08-01 (Bang Hội soft-launch + KOTH/PvP bang trong lối chơi chính).
+Cập nhật: 2026-08-01 (Bang Hội soft-launch + KOTH/PvP bang; sell multiplier chỉ qua gang).
 
 Mục lục toàn bộ tài liệu server: [`INDEX.md`](INDEX.md). Chi tiết module bang: [`plugins/CorePlugin/gang/README.md`](../plugins/CorePlugin/gang/README.md).
 
@@ -28,7 +28,7 @@ Mục lục toàn bộ tài liệu server: [`INDEX.md`](INDEX.md). Chi tiết mo
 | **Point**                 | PlayerPoints (`vault: false`) | Rankup thay thế (`/xrankuppoint`), craft / trade đặc thù             |
 | **Bank bang + danh vọng** | CorePlugin gang               | Nâng Bang Level / upgrade permanent; Sell All vault → bank           |
 
-**Sell chuẩn người chơi:** `/sellgui` (EconomyShopGUI + sell-multiplier theo rank Prison và VIP). Module X-Prison `enchants` / `autosell` **không** nằm trong lối chơi hiện tại (giữ tắt trong design). Sell All trong `/gang vault` là kênh riêng (tiền vào **bank bang**, có nhân upgrade Sell / buff shop).
+**Sell chuẩn người chơi:** `/sellgui` (EconomyShopGUI) = **giá base cố định** — `enable-sell-multipliers: false` (không nhân rank/VIP trên shop cá nhân). Module X-Prison `enchants` / `autosell` **không** nằm trong lối chơi. **Multiplier bán chỉ qua Bang Hội:** Sell All `/gang vault` dùng cùng bảng giá base (`sell-prices` khớp `Ores.yml`) rồi nhân upgrade Sell / buff shop / paragon (tiền vào **bank bang**).
 
 **PvP (soft-launch):** PvP **có chủ đích qua Bang Hội** — Warlord (gây thêm dmg vs bang khác) + Protection (giảm dmg từ bang khác); cùng bang không áp hai buff đó. **Arena/duel riêng** vẫn P2 (sau khi PvE + event ổn). KOTH = tranh region WorldGuard, không phải arena.
 
@@ -104,7 +104,7 @@ Rankup money: `/rankup` hoặc `/xrankup`. Rankup point: `/xrankuppoint`. Menu: 
 
 ### 3.3 Mid — Rank 4–6 (Thợ Đào → Phó Quản Ngục)
 
-- Ore đắt hơn + sell-multiplier tăng ([`DOCS_HE_THONG_PRISON.md`](../DOCS_HE_THONG_PRISON.md): +15% → +30%).
+- Ore đắt hơn (giá base `/sellgui` theo mỏ). Muốn nhân bán → nạp vault bang + upgrade Sell ([`DOCS_HE_THONG_PRISON.md`](../DOCS_HE_THONG_PRISON.md)).
 - Lò rèn **giáp** + vũ khí theo rank (Kiếm / Rìu / Trượng — chọn theo class).
 - Mở lớp build: **Đục lỗ** (`/duclo`) → gắn **Ngọc** → **Cường hóa** (`/cuonghoa`).
 - **Bang (trọng tâm mid):** nạp vault → danh vọng → Bang Level + upgrade Sell/Magnet/Quest; mở shared quest board; tham gia **KOTH** khi bang đủ người online.
@@ -131,7 +131,7 @@ Config tham chiếu:
 
 **X-Prison Rebirths module** (`rebirths.yml`): **không** đưa vào lối chơi người chơi — tránh nhầm với `/chuyensinh`. Khi triển khai: ẩn lệnh/UI hoặc tắt module.
 
-**VIP donor:** multiplier bán chồng sau rank 9 (VIP → LEGEND, tới x3.0). Không thay progression free; chỉ tăng tốc earn.
+**VIP donor:** **không** còn sell-multiplier trên EconomyShopGUI. VIP vẫn có lợi ích khác (nếu có permission/kit riêng) — tăng tốc earn bán quặng chuyển sang **Bang Hội** (Sell upgrade / buff / paragon), không gắn rank/VIP vào `/sellgui`.
 
 ---
 
@@ -140,7 +140,7 @@ Config tham chiếu:
 | Hệ                          | Việc người chơi làm                                                               | File / khu vực chính                                                                                   |
 | --------------------------- | --------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------ |
 | X-Prison mines / ranks      | Đào đúng mỏ rank; leo thang 9 rank                                                | `plugins/X-Prison/`, WG regions `world_prison`                                                         |
-| EconomyShopGUI              | Bán quặng cá nhân, thấy multiplier                                                | `plugins/EconomyShopGUI/`, docs multipliers                                                            |
+| EconomyShopGUI              | Bán quặng cá nhân — **giá base, không multiplier**                                | `plugins/EconomyShopGUI/shops/Ores.yml` · `enable-sell-multipliers: false`                             |
 | **Bang Hội (CorePlugin)**   | `/gang` — tạo/join, bank, vault, upgrade, shop, quest bang, KOTH, home, season    | `plugins/CorePlugin/gang/` · [README](../plugins/CorePlugin/gang/README.md)                            |
 | DailyQuest (CorePlugin)     | Daily/weekly **cá nhân** + check-in — **tách** quest bang                         | `plugins/CorePlugin/dailyquest/` · [`dailyquest-notes.md`](dailyquest-notes.md)                        |
 | MMOItems stations + NPC     | Tinh luyện, nâng cúp/giáp/vũ khí theo rank                                        | `crafting-stations/refinery-*.yml`, `forge-*.yml`, `armor-forge-*.yml`, `weapon-forge-*.yml`, Citizens |
@@ -281,7 +281,7 @@ Multiverse-Inventories group `default` share inventory/stats giữa các world t
 | Chủ đề         | Docs / kỳ vọng cũ                             | Thực tế design hiện tại                                                                                    |
 | -------------- | --------------------------------------------- | ---------------------------------------------------------------------------------------------------------- |
 | Plugin prison  | Plan cũ nhắc PrisonMC / `plugins/Prison/`     | **X-Prison** là stack sống; folder Prison cũ không phải lối chơi                                           |
-| Sell / enchant | Docs cũ nói X-Prison autosell + Nuke/Layer    | Bán cá nhân = EconomyShopGUI; X-Prison `enchants`/`autosell` = **false**; Sell All bang = CorePlugin vault |
+| Sell / enchant | Docs cũ nói X-Prison autosell + Nuke/Layer + ESG multiplier rank/VIP | Bán cá nhân = EconomyShopGUI **giá base** (`enable-sell-multipliers: false`); multiplier chỉ **Bang Hội** Sell All; X-Prison enchants/autosell = **false** |
 | Bang           | X-Prison `gangs.yml` default / docs chưa nhắc | **CorePlugin `/gang`** soft-launch; không dùng X-Prison gangs                                              |
 | Nâng cúp       | Có thể còn mention Skript nâng cúp            | Chuẩn người chơi = **NPC crafting station**                                                                |
 | Endgame reset  | Dễ lẫn prestige / rebirth / chuyển sinh       | Player-facing chỉ **Prestige** + **Chuyển Sinh**                                                           |
