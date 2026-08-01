@@ -2,7 +2,7 @@ id: 'combat'
 name: '&4Combat'
 lore: 
   - '&6This skill tree is used for combat abilities!'
-type: 'linked'
+type: 'custom'
 item: 'DIAMOND_AXE'
 max-point-spent: 20
 nodes:
