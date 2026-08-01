@@ -37,6 +37,8 @@ command /setuplpranks:
 		execute console command "lp track prision_ranks append xprison_rank_8"
 		execute console command "lp track prision_ranks append xprison_rank_9"
 		
+		# Rank 1 thừa kế default (X-Prison dùng "parent set" → player mất group default)
+		execute console command "lp group xprison_rank_1 parent add default"
 		# Thừa kế: rank cao giữ toàn bộ command bonus rank thấp
 		execute console command "lp group xprison_rank_2 parent add xprison_rank_1"
 		execute console command "lp group xprison_rank_3 parent add xprison_rank_2"
@@ -74,14 +76,17 @@ command /setuplpranks:
 		execute console command "lp group default permission set deluxemenus.menu.warp_mines true"
 		execute console command "lp group default permission set deluxemenus.menu.warp_dungeons true"
 		execute console command "lp group default permission set deluxemenus.menu.warp_hub true"
+		execute console command "lp group default permission set essentials.warp true"
+		execute console command "lp group default permission set essentials.spawn true"
 		
 		execute console command "lp group default permission set xprison.ranks false"
 		execute console command "lp group default permission set xprison.ranks.ranks false"
 		
-		# Rank 1: Tân Binh — 1 kho, 2 home
+		# Rank 1: Tân Binh — 1 kho, 2 home, kit tân binh
 		execute console command "lp group xprison_rank_1 permission set playervaults.amount.1 true"
 		execute console command "lp group xprison_rank_1 permission set essentials.sethome.multiple true"
 		execute console command "lp group xprison_rank_1 permission set essentials.sethome.multiple.rank1 true"
+		execute console command "lp group xprison_rank_1 permission set essentials.kits.tanbinh true"
 		
 		# Rank 2: Tù Nhân — /workbench
 		execute console command "lp group xprison_rank_2 permission set essentials.workbench true"

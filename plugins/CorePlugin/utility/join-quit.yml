@@ -3,9 +3,22 @@
 #     messages are kept together here since this feature has no other
 #     tunables to separate them from.
 #   Reload: /utility reload
-#   Placeholders: %player%  %rank% (X-Prison rank id, "?" if missing/absent)
+#   Placeholders: %player%  %rank% (LuckPerms prefix of the player's
+#     xprison_rank_N group — see Skript/scripts/admin/setup_luckperms_ranks.sk
+#     for how those prefixes are set; falls back to rank-fallback below if
+#     LuckPerms is missing, "?" if X-Prison is also missing).
+#   message-delay-ticks: wait this long after join before reading %rank% and
+#     broadcasting — gives the prison module's first-join rank grant (and
+#     LuckPerms/X-Prison) time to apply before we read it back.
+#   first-join: sent ONLY to the joining player (private welcome banner), in
+#     addition to the normal public "join" broadcast everyone else sees.
+#     Blank to disable. Supports embedded "\n" for multi-line messages.
 
 enabled: true
-join: "&a+ &f%player% &8· &7Rank %rank%"
+message-delay-ticks: 10
+join: "&a+ &f%player% &8· &7%group%"
 quit: "&c- &f%player%"
-first-join: "&e✦ &f%player% &7lần đầu vào server! &8(Rank %rank%)"
+first-join: "\n&a&l✦ CHÀO MỪNG TÂN BINH ✦\n&7Bạn đã nhận rank &f%rank%&7, bộ đồ & kit khởi đầu!\n&7Nhận lại kit: &e/kit tanbinh &8(cooldown 24h)\n"
+
+# %rank% fallback when LuckPerms isn't installed (X-Prison rank id only). {id} = rank id.
+rank-fallback: "&7Rank {id}"

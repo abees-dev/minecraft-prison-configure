@@ -344,6 +344,7 @@ bank:
   # Seconds to type a custom deposit/withdraw amount in chat (bank GUI
   # "Nhập số" buttons) before the prompt expires.
   custom-amount-timeout-seconds: 30
+  deposit-tax-rate: 0.3
 
 # Quest Bang Hội (Gunny-style). Open / reset / ticket = GUI only.
 # Command: /gang quest (GUI), /gang quest info (read-only).

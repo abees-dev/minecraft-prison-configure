@@ -27,7 +27,10 @@ recipes:
         crafting-time: 0
         ingredients:
         - mmoitem{type=SWORD,id=SWORD_VUOT_NGUC_5,amount=1,display="Kiếm Vượt Ngục V"}
-        # TODO: Thêm nguyên liệu nâng cấp tại đây
+        conditions:
+        - 'placeholder{placeholder="%playerpoints_points%~>=~50";display="&b50 Point"}'
+        on-use:
+        - 'command{format="points take {player} 50";sender=CONSOLE}'
 
     non-ho-long:
         output:
@@ -38,7 +41,10 @@ recipes:
         crafting-time: 0
         ingredients:
         - mmoitem{type=ARMOR,id=HELMET_VUOT_NGUC_5,amount=1,display="Nón Vượt Ngục V"}
-        # TODO: Thêm nguyên liệu nâng cấp tại đây
+        conditions:
+        - 'placeholder{placeholder="%playerpoints_points%~>=~50";display="&b50 Point"}'
+        on-use:
+        - 'command{format="points take {player} 50";sender=CONSOLE}'
 
     ao-ho-long:
         output:
@@ -49,7 +55,10 @@ recipes:
         crafting-time: 0
         ingredients:
         - mmoitem{type=ARMOR,id=CHESTPLATE_VUOT_NGUC_5,amount=1,display="Áo Giáp Vượt Ngục V"}
-        # TODO: Thêm nguyên liệu nâng cấp tại đây
+        conditions:
+        - 'placeholder{placeholder="%playerpoints_points%~>=~50";display="&b50 Point"}'
+        on-use:
+        - 'command{format="points take {player} 50";sender=CONSOLE}'
 
     quan-ho-long:
         output:
@@ -60,7 +69,10 @@ recipes:
         crafting-time: 0
         ingredients:
         - mmoitem{type=ARMOR,id=LEGGINGS_VUOT_NGUC_5,amount=1,display="Quần Giáp Vượt Ngục V"}
-        # TODO: Thêm nguyên liệu nâng cấp tại đây
+        conditions:
+        - 'placeholder{placeholder="%playerpoints_points%~>=~50";display="&b50 Point"}'
+        on-use:
+        - 'command{format="points take {player} 50";sender=CONSOLE}'
 
     giay-ho-long:
         output:
@@ -71,4 +83,7 @@ recipes:
         crafting-time: 0
         ingredients:
         - mmoitem{type=ARMOR,id=BOOTS_VUOT_NGUC_5,amount=1,display="Giày Vượt Ngục V"}
-        # TODO: Thêm nguyên liệu nâng cấp tại đây
+        conditions:
+        - 'placeholder{placeholder="%playerpoints_points%~>=~50";display="&b50 Point"}'
+        on-use:
+        - 'command{format="points take {player} 50";sender=CONSOLE}'

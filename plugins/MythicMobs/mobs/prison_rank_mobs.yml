@@ -776,15 +776,31 @@ PRISON_VUOT_NGUC_BOSS:
 # (xem droptables/prison_rank_drops.yml). Sink TINHTHE tai huy-hieu-trieu-hoi.
 PRISON_MA_VUONG_BOSS:
   Type: RAVAGER
-  Display: "&4&l[TRÙM CUỐI] &r&6&lMa Vương Ngục Tù"
+  Display: "&4&l[TRÙM CUỐI] &r&6&lMa Vương Ngục Tù &7Lv.<mob.level> &c❤ <caster.hp{f=0}>&7/&c<caster.mhp{f=0}>"
   # Root cause đã xác định: spigot.yml có settings.attribute.maxHealth.max
   # ghim ở 2048 (tầng Spigot/Paper, áp dụng toàn server) khiến MỌI giá trị
   # Health ở đây (từng thử 5.500 / 55.000 / 5,5 tỷ) đều bị ghim thật về ~2048,
   # bất kể ghi số gì. Đã nâng trần lên 100000 trong spigot.yml — CẦN RESTART
   # SERVER để áp dụng (không chỉ /mm reload hay /reload). Sau restart, Health
   # dưới đây mới thực sự có tác dụng.
-  Health: 5500
-  Damage: 120
+  # Base nerf 50% HP (2026-08-01): trước 5500/120; Damage chỉnh lại 75.
+  Health: 2750
+  Damage: 75
+  # LevelModifiers: +flat mỗi level trên base (L1 = đúng số Health/Damage ở trên).
+  # Thiết kế world-level: max 50, soft-cap từ 20 do CorePlugin (MM chỉ linear).
+  # Ước lượng nếu LevelModifiers có hiệu lực (không bị ScalingEquations ghi đè):
+  #   L1  → HP 2750 / DMG 75
+  #   L20 → HP ~4750 / DMG ~104   (+100 HP, +1.5 DMG mỗi level)
+  #   L50 → HP ~7750 / DMG ~149
+  # Power tăng nhẹ để skill dùng <skill.power> / power-scaling sau này.
+  # LƯU Ý: config-mobs.yml đang có ScalingEquations V*((1.05)^(L-1)) —
+  # bản Premium có thể dùng equation thay LevelModifiers; test sau /mm reload.
+  # Spawn: altar đang `PRISON_MA_VUONG_BOSS:10`; CorePlugin sẽ truyền level thế giới.
+  LevelModifiers:
+    Health: 200
+    Damage: 1.5
+    Power: 0.5
+    Armor: 0.5
   # Armor >=100 khiến MythicMobs/vanilla luôn tính đủ mốc giảm dame tối đa
   # (min(20, max(armor/5, ...))/25 = 80%) bất kể đòn đánh nặng bao nhiêu —
   # chặn được dame vật lý từ vũ khí người chơi (VD Hộ Long Bảo Kiếm +1, xem
@@ -821,22 +837,22 @@ PRISON_MA_VUONG_BOSS:
     PreventSunburn: true
   BossBar:
     Enabled: true
-    Title: "&4&l[TRÙM CUỐI] &6&lMa Vương Ngục Tù"
+    Title: "&4&l[TRÙM CUỐI] &6&lMa Vương &7Lv.<mob.level> &c❤ <caster.hp{f=0}>&7/&c<caster.mhp{f=0}>"
     Range: 60
+    Color: RED
+    Style: SEGMENTED_10
   Drops:
     - prison_ma_vuong_boss_drops
   Skills:
     - skill{s=Boss_Anti_Kite_Pull} @target ~onTimer:80
-    - damage{amount=130;ignorearmor=true;ignoreiframes=true} @PlayersInRadius{r=6} ~onTimer:45
+    - damage{amount=65;ignorearmor=true;ignoreiframes=true} @PlayersInRadius{r=6} ~onTimer:45
     - skill{s=Prison_Ma_Vuong_Enrage} @self ~onDamaged
     - skill{s=Prison_Ma_Vuong_Hell_Nova} @self ~onTimer:110
     - skill{s=Prison_Ma_Vuong_Nguyen_Rua} @self ~onTimer:180
-    - command{c="dh holograms disable MaVuongTimer"} ~onSpawn
-    - message{m="&4&l[TRÙM CUỐI] &fMa Vương Ngục Tù &fđã thức tỉnh — CHẠY ĐI!"} @server ~onSpawn
+    - message{m="&4&l[TRÙM CUỐI] &fMa Vương Ngục Tù &7Lv.<mob.level> &fđã thức tỉnh — CHẠY ĐI!"} @server ~onSpawn
     - message{m="&7[&4&lMa Vương Ngục Tù&r&7] &fKhông... không thể nào... ta đã thua!"} @PlayersInRadius{r=60} ~onDeath
-    - message{m="&4&l[TRÙM CUỐI] &fMa Vương Ngục Tù &fđã bị tiêu diệt bởi &e<trigger.name>&f!"} @server ~onDeath
+    - message{m="&4&l[TRÙM CUỐI] &fMa Vương Ngục Tù &7Lv.<caster.level> &fđã bị tiêu diệt bởi &e<trigger.name>&f!"} @server ~onDeath
     - effect:sound{s=entity.ravager.death;volume=2;pitch=0.4} @self ~onDeath
     - effect:explosion @self ~onDeath
-    - command{c="dh holograms enable MaVuongTimer"} ~onDeath
     - skill{s=Give_Crate_Key_On_Death} @trigger ~onDeath
     - basedamage{m=1.1} ~onAttack

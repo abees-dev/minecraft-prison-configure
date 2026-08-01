@@ -27,7 +27,10 @@ recipes:
         crafting-time: 0
         ingredients:
         - mmoitem{type=SWORD,id=DONATE_SWORD_LONG_VE,amount=1,display="Hộ Long Bảo Kiếm"}
-        # TODO: Thêm nguyên liệu nâng cấp tại đây
+        conditions:
+        - 'placeholder{placeholder="%playerpoints_points%~>=~80";display="&b80 Point"}'
+        on-use:
+        - 'command{format="points take {player} 80";sender=CONSOLE}'
 
     non-chien-long:
         output:
@@ -38,7 +41,10 @@ recipes:
         crafting-time: 0
         ingredients:
         - mmoitem{type=ARMOR,id=DONATE_HELMET_LONG_VE,amount=1,display="Hộ Long Mũ"}
-        # TODO: Thêm nguyên liệu nâng cấp tại đây
+        conditions:
+        - 'placeholder{placeholder="%playerpoints_points%~>=~80";display="&b80 Point"}'
+        on-use:
+        - 'command{format="points take {player} 80";sender=CONSOLE}'
 
     ao-chien-long:
         output:
@@ -49,7 +55,10 @@ recipes:
         crafting-time: 0
         ingredients:
         - mmoitem{type=ARMOR,id=DONATE_CHESTPLATE_LONG_VE,amount=1,display="Hộ Long Chiến Giáp"}
-        # TODO: Thêm nguyên liệu nâng cấp tại đây
+        conditions:
+        - 'placeholder{placeholder="%playerpoints_points%~>=~80";display="&b80 Point"}'
+        on-use:
+        - 'command{format="points take {player} 80";sender=CONSOLE}'
 
     quan-chien-long:
         output:
@@ -60,7 +69,10 @@ recipes:
         crafting-time: 0
         ingredients:
         - mmoitem{type=ARMOR,id=DONATE_LEGGINGS_LONG_VE,amount=1,display="Hộ Long Hộ Tất"}
-        # TODO: Thêm nguyên liệu nâng cấp tại đây
+        conditions:
+        - 'placeholder{placeholder="%playerpoints_points%~>=~80";display="&b80 Point"}'
+        on-use:
+        - 'command{format="points take {player} 80";sender=CONSOLE}'
 
     giay-chien-long:
         output:
@@ -71,4 +83,7 @@ recipes:
         crafting-time: 0
         ingredients:
         - mmoitem{type=ARMOR,id=DONATE_BOOTS_LONG_VE,amount=1,display="Hộ Long Hài"}
-        # TODO: Thêm nguyên liệu nâng cấp tại đây
+        conditions:
+        - 'placeholder{placeholder="%playerpoints_points%~>=~80";display="&b80 Point"}'
+        on-use:
+        - 'command{format="points take {player} 80";sender=CONSOLE}'

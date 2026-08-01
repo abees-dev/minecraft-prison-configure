@@ -1,0 +1,95 @@
+# Docs:
+#   Purpose: Config-driven item exchange GUIs (MMOItems cost → crate-key / commands).
+#     Each entry under exchanges: has its own command + GUI. That GUI can have
+#     one offer (Skript /doilongtoc style) or many slots (shop style).
+#   Citizens: /npc command add <command> --player
+#   Reload: /utility reload updates display/cost/messages/sounds.
+#           Adding or renaming command/aliases needs a server restart.
+#
+# Cost type (v1): mmoitem — match MMOITEMS_ITEM_ID (+ optional mmo-type).
+# Reward types (v1):
+#   crate-key — "crates key give %player% <key> <amount>"
+#   command   — list of console commands (%player% substituted)
+
+exchanges:
+  doilongtoc:
+    enabled: true
+    command: doilongtoc
+    aliases: []
+    permission: ""
+    prefix: "&6&l[Long Tộc]&r"
+    gui:
+      title: "&8[&6⚔&8] &6&lĐỔI CHÌA KHÓA LONG TỘC"
+      rows: 1
+      accent: YELLOW_STAINED_GLASS_PANE
+      paint-frame: false
+    offers:
+      - slot: 4
+        display:
+          material: HEART_OF_THE_SEA
+          name: "&6&l⚔ Ấn Tín Long Tộc"
+          lore:
+            - "&7Click để đổi lấy &6Chìa Khóa Long Tộc"
+          glowing: true
+        cost:
+          type: mmoitem
+          id: AN_TIN_LONG_TOC
+          amount: 1
+          # mmo-type: ""
+        reward:
+          type: crate-key
+          key: chia_khoa_long_toc
+          amount: 1
+        success: "{prefix} &aĐã đổi &e1x Ấn Tín Long Tộc &alấy &61x Chìa Khóa Long Tộc&a!"
+        missing: "{prefix} &cBạn cần có &e1x Ấn Tín Long Tộc &ctrong túi để đổi!"
+        sound: entity.player.levelup
+
+  # Example multi-offer shop (disabled). Copy / rename to enable.
+  # shop_example:
+  #   enabled: false
+  #   command: doisample
+  #   aliases: []
+  #   permission: ""
+  #   prefix: "&e&l[Đổi]&r"
+  #   gui:
+  #     title: "&8[&e✦&8] &e&lSHOP ĐỔI ĐỒ"
+  #     rows: 3
+  #     accent: YELLOW_STAINED_GLASS_PANE
+  #     paint-frame: true
+  #   offers:
+  #     - slot: 11
+  #       display:
+  #         material: HEART_OF_THE_SEA
+  #         name: "&6&lĐổi chìa Long Tộc"
+  #         lore:
+  #           - "&7Cost: &e1x Ấn Tín Long Tộc"
+  #         glowing: true
+  #       cost:
+  #         type: mmoitem
+  #         id: AN_TIN_LONG_TOC
+  #         amount: 1
+  #       reward:
+  #         type: crate-key
+  #         key: chia_khoa_long_toc
+  #         amount: 1
+  #       success: "{prefix} &aĐổi thành công!"
+  #       missing: "{prefix} &cThiếu vật phẩm!"
+  #       sound: entity.player.levelup
+  #     - slot: 15
+  #       display:
+  #         material: GOLD_INGOT
+  #         name: "&e&lĐổi bằng lệnh"
+  #         lore:
+  #           - "&7Ví dụ reward type: command"
+  #         glowing: true
+  #       cost:
+  #         type: mmoitem
+  #         id: AN_TIN_LONG_TOC
+  #         amount: 1
+  #       reward:
+  #         type: command
+  #         commands:
+  #           - "crates key give %player% chia_khoa_long_toc 1"
+  #       success: "{prefix} &aĐổi thành công!"
+  #       missing: "{prefix} &cThiếu vật phẩm!"
+  #       sound: entity.player.levelup

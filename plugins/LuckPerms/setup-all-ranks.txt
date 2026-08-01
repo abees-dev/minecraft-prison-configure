@@ -74,10 +74,11 @@ lp group default permission set deluxemenus.menu.ranksmenu false
 lp group default permission set xprison.ranks false
 lp group default permission set xprison.ranks.ranks false
 
-# Rank 1: 1 kho, 2 home
+# Rank 1: 1 kho, 2 home, kit tân binh
 lp group xprison_rank_1 permission set playervaults.amount.1 true
 lp group xprison_rank_1 permission set essentials.sethome.multiple true
 lp group xprison_rank_1 permission set essentials.sethome.multiple.rank1 true
+lp group xprison_rank_1 permission set essentials.kits.tanbinh true
 
 # Rank 2: /workbench
 lp group xprison_rank_2 permission set essentials.workbench true

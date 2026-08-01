@@ -1,0 +1,14 @@
+---
+description: Không viết Skript — cần logic thì báo user viết vào CorePlugin
+alwaysApply: true
+---
+
+# Không viết Skript — logic vào CorePlugin
+
+- **Không** tạo mới hoặc sửa file `.sk` / logic Skript trừ khi user **explicitly** yêu cầu.
+- Ưu tiên giải pháp bằng config plugin có sẵn (Essentials, LuckPerms, X-Prison, DeluxeMenus, CorePlugin YAML, …).
+- Nếu tính năng cần logic code (first join, event, command custom, …):
+  1. **Không** tự viết Skript.
+  2. **Báo user** mô tả ngắn: event/trigger, điều kiện, hành động cần làm.
+  3. User sẽ viết vào **CorePlugin** — chờ xác nhận / đợi user implement, không tự tạo file code thay thế.
+- Không tự ý thêm Skript “cho tiện” khi đang làm config/kit/rank.

@@ -152,7 +152,7 @@ items:
       - '&8- &7Mở khóa lệnh: &a/workbench'
       - ''
       - '&e➤ Click trái: &f85,000 &7money'
-      - '&e➤ Click phải: &b10 &7point'
+      - '&e➤ Click phải: &b20 &7point'
     view_requirement:
       requirements:
         is_prev:
@@ -172,7 +172,7 @@ items:
     display_name: '&7&l[Tù Nhân] &8» &c&lCHƯA MỞ KHÓA'
     lore:
       - '&7• Cấp bậc: &eRank #2'
-      - '&7• Giá: &f85,000 &7money &8/ &b10 &7point'
+      - '&7• Giá: &f85,000 &7money &8/ &b20 &7point'
       - '&7• Yêu cầu: &eLevel 10'
       - ''
       - '&c🔒 Cần nâng rank tuần tự theo thứ tự'
@@ -229,7 +229,7 @@ items:
       - '&8- &7Mở khóa lệnh: &a/feed'
       - ''
       - '&e➤ Click trái: &f290,000 &7money'
-      - '&e➤ Click phải: &b30 &7point'
+      - '&e➤ Click phải: &b40 &7point'
     view_requirement:
       requirements:
         is_prev:
@@ -249,7 +249,7 @@ items:
     display_name: '&a&l[Lao Công] &8» &c&lCHƯA MỞ KHÓA'
     lore:
       - '&7• Cấp bậc: &eRank #3'
-      - '&7• Giá: &f290,000 &7money &8/ &b30 &7point'
+      - '&7• Giá: &f290,000 &7money &8/ &b40 &7point'
       - '&7• Yêu cầu: &eLevel 20'
       - ''
       - '&c🔒 Cần nâng rank tuần tự theo thứ tự'
@@ -304,7 +304,7 @@ items:
       - '&8- &7Mở khóa lệnh: &a/anvil'
       - ''
       - '&e➤ Click trái: &f1,075,000 &7money'
-      - '&e➤ Click phải: &b110 &7point'
+      - '&e➤ Click phải: &b80 &7point'
     view_requirement:
       requirements:
         is_prev:
@@ -324,7 +324,7 @@ items:
     display_name: '&2&l[Thợ Đào] &8» &c&lCHƯA MỞ KHÓA'
     lore:
       - '&7• Cấp bậc: &eRank #4'
-      - '&7• Giá: &f1,075,000 &7money &8/ &b110 &7point'
+      - '&7• Giá: &f1,075,000 &7money &8/ &b80 &7point'
       - '&7• Yêu cầu: &eLevel 30'
       - ''
       - '&c🔒 Cần nâng rank tuần tự theo thứ tự'
@@ -381,7 +381,7 @@ items:
       - '&8- &7Mở khóa lệnh: &a/enderchest'
       - ''
       - '&e➤ Click trái: &f5,400,000 &7money'
-      - '&e➤ Click phải: &b540 &7point'
+      - '&e➤ Click phải: &b150 &7point'
     view_requirement:
       requirements:
         is_prev:
@@ -401,7 +401,7 @@ items:
     display_name: '&b&l[Đội Trưởng] &8» &c&lCHƯA MỞ KHÓA'
     lore:
       - '&7• Cấp bậc: &eRank #5'
-      - '&7• Giá: &f5,400,000 &7money &8/ &b540 &7point'
+      - '&7• Giá: &f5,400,000 &7money &8/ &b150 &7point'
       - '&7• Yêu cầu: &eLevel 45'
       - ''
       - '&c🔒 Cần nâng rank tuần tự theo thứ tự'
@@ -456,7 +456,7 @@ items:
       - '&8- &7Mở khóa lệnh: &a/heal'
       - ''
       - '&e➤ Click trái: &f21,700,000 &7money'
-      - '&e➤ Click phải: &b2,170 &7point'
+      - '&e➤ Click phải: &b250 &7point'
     view_requirement:
       requirements:
         is_prev:
@@ -476,7 +476,7 @@ items:
     display_name: '&1&l[Phó Quản Ngục] &8» &c&lCHƯA MỞ KHÓA'
     lore:
       - '&7• Cấp bậc: &eRank #6'
-      - '&7• Giá: &f21,700,000 &7money &8/ &b2,170 &7point'
+      - '&7• Giá: &f21,700,000 &7money &8/ &b250 &7point'
       - '&7• Yêu cầu: &eLevel 60'
       - ''
       - '&c🔒 Cần nâng rank tuần tự theo thứ tự'
@@ -533,7 +533,7 @@ items:
       - '&8- &7Mở khóa lệnh: &a/craft, /recipe'
       - ''
       - '&e➤ Click trái: &f32,000,000 &7money'
-      - '&e➤ Click phải: &b3,200 &7point'
+      - '&e➤ Click phải: &b360 &7point'
     view_requirement:
       requirements:
         is_prev:
@@ -553,7 +553,7 @@ items:
     display_name: '&d&l[Quản Ngục] &8» &c&lCHƯA MỞ KHÓA'
     lore:
       - '&7• Cấp bậc: &eRank #7'
-      - '&7• Giá: &f32,000,000 &7money &8/ &b3,200 &7point'
+      - '&7• Giá: &f32,000,000 &7money &8/ &b360 &7point'
       - '&7• Yêu cầu: &eLevel 75'
       - ''
       - '&c🔒 Cần nâng rank tuần tự theo thứ tự'
@@ -608,7 +608,7 @@ items:
       - '&8- &7Mở khóa lệnh: &a/pweather'
       - ''
       - '&e➤ Click trái: &f43,500,000 &7money'
-      - '&e➤ Click phải: &b4,350 &7point'
+      - '&e➤ Click phải: &b500 &7point'
     view_requirement:
       requirements:
         is_prev:
@@ -628,7 +628,7 @@ items:
     display_name: '&6&l[Bá Chủ Ngục Tù] &8» &c&lCHƯA MỞ KHÓA'
     lore:
       - '&7• Cấp bậc: &eRank #8'
-      - '&7• Giá: &f43,500,000 &7money &8/ &b4,350 &7point'
+      - '&7• Giá: &f43,500,000 &7money &8/ &b500 &7point'
       - '&7• Yêu cầu: &eLevel 90'
       - ''
       - '&c🔒 Cần nâng rank tuần tự theo thứ tự'
@@ -674,7 +674,7 @@ items:
       - '&8- &7Mở khóa lệnh: &a/ptime, /kit rank9'
       - ''
       - '&e➤ Click trái: &f64,500,000 &7money'
-      - '&e➤ Click phải: &b6,450 &7point'
+      - '&e➤ Click phải: &b600 &7point'
     view_requirement:
       requirements:
         is_prev:
@@ -694,7 +694,7 @@ items:
     display_name: '&c&l[Vượt Ngục] &8» &c&lCHƯA MỞ KHÓA'
     lore:
       - '&7• Cấp bậc: &eRank #9'
-      - '&7• Giá: &f64,500,000 &7money &8/ &b6,450 &7point'
+      - '&7• Giá: &f64,500,000 &7money &8/ &b600 &7point'
       - '&7• Yêu cầu: &eLevel 100'
       - ''
       - '&c🔒 Cần nâng rank tuần tự theo thứ tự'
@@ -759,7 +759,7 @@ items:
       - ''
       - '&7Điều kiện:'
       - '&a✔ Rank Prison: &fVượt Ngục (Rank 9 - MAX)'
-      - '&7Giá mua: &b500 &7point'
+      - '&7Giá mua: &b150 &7point'
       - ''
       - '&e➤ Click để mua rank VIP!'
     view_requirement:
@@ -773,12 +773,12 @@ items:
         balance_check:
           type: greater than or equal to
           input: '%playerpoints_points%'
-          output: '500'
+          output: '150'
           deny_commands:
-            - "[message] &c&lVIP &7» Bạn không đủ point! Cần &b500 &7point."
+            - "[message] &c&lVIP &7» Bạn không đủ point! Cần &b150 &7point."
     left_click_commands:
       - '[sound] ENTITY_PLAYER_LEVELUP'
-      - '[console] points take %player_name% 500'
+      - '[console] points take %player_name% 150'
       - '[console] lp user %player_name% parent add vip'
       - '[message] &a&lVIP &7» Chúc mừng, bạn đã nâng cấp rank &a&lVIP&7!'
       - '[open_menu] ranks_master'
@@ -795,7 +795,7 @@ items:
       - ''
       - '&c&lYÊU CẦU CHƯA ĐẠT:'
       - '&c✖ Rank Prison: &eVượt Ngục (Rank 9 - MAX)'
-      - '&7Giá mua: &b500 &7point'
+      - '&7Giá mua: &b150 &7point'
 
   # --- VIP 2: VIP+ ---
   'vipplus_owned':
@@ -835,7 +835,7 @@ items:
       - '&7Điều kiện:'
       - '&a✔ Rank VIP: &fVIP'
       - '&a✔ Rank Prison: &fVượt Ngục (Rank 9 - MAX)'
-      - '&7Giá mua: &b1,000 &7point'
+      - '&7Giá mua: &b250 &7point'
       - ''
       - '&e➤ Click để nâng cấp VIP+!'
     view_requirement:
@@ -852,12 +852,12 @@ items:
         balance_check:
           type: greater than or equal to
           input: '%playerpoints_points%'
-          output: '1000'
+          output: '250'
           deny_commands:
-            - "[message] &c&lVIP+ &7» Bạn không đủ point! Cần &b1,000 &7point."
+            - "[message] &c&lVIP+ &7» Bạn không đủ point! Cần &b250 &7point."
     left_click_commands:
       - '[sound] ENTITY_PLAYER_LEVELUP'
-      - '[console] points take %player_name% 1000'
+      - '[console] points take %player_name% 250'
       - '[console] lp user %player_name% parent add vipplus'
       - '[message] &b&lVIP+ &7» Chúc mừng, bạn đã nâng cấp rank &b&lVIP+&7!'
       - '[open_menu] ranks_master'
@@ -874,7 +874,7 @@ items:
       - '&c&lYÊU CẦU CHƯA ĐẠT:'
       - '&c✖ Bắt buộc phải sở hữu Rank &aVIP &ctrước!'
       - '&c✖ Cần Rank Prison: &eVượt Ngục (Rank 9 - MAX)'
-      - '&7Giá mua: &b1,000 &7point'
+      - '&7Giá mua: &b250 &7point'
     view_requirement:
       requirements:
         no_vip:
@@ -893,7 +893,7 @@ items:
       - '&c&lYÊU CẦU CHƯA ĐẠT:'
       - '&a✔ Rank VIP: &fVIP'
       - '&c✖ Rank Prison: &eVượt Ngục (Rank 9 - MAX)'
-      - '&7Giá mua: &b1,000 &7point'
+      - '&7Giá mua: &b250 &7point'
 
   # --- VIP 3: MVP ---
   'mvp_owned':
@@ -933,7 +933,7 @@ items:
       - '&7Điều kiện:'
       - '&a✔ Rank VIP: &fVIP+'
       - '&a✔ Rank Prison: &fVượt Ngục (Rank 9 - MAX)'
-      - '&7Giá mua: &b2,000 &7point'
+      - '&7Giá mua: &b400 &7point'
       - ''
       - '&e➤ Click để nâng cấp MVP!'
     view_requirement:
@@ -950,12 +950,12 @@ items:
         balance_check:
           type: greater than or equal to
           input: '%playerpoints_points%'
-          output: '2000'
+          output: '400'
           deny_commands:
-            - "[message] &c&lMVP &7» Bạn không đủ point! Cần &b2,000 &7point."
+            - "[message] &c&lMVP &7» Bạn không đủ point! Cần &b400 &7point."
     left_click_commands:
       - '[sound] ENTITY_PLAYER_LEVELUP'
-      - '[console] points take %player_name% 2000'
+      - '[console] points take %player_name% 400'
       - '[console] lp user %player_name% parent add mvp'
       - '[message] &d&lMVP &7» Chúc mừng, bạn đã nâng cấp rank &d&lMVP&7!'
       - '[open_menu] ranks_master'
@@ -972,7 +972,7 @@ items:
       - '&c&lYÊU CẦU CHƯA ĐẠT:'
       - '&c✖ Bắt buộc phải sở hữu Rank &bVIP+ &ctrước!'
       - '&c✖ Cần Rank Prison: &eVượt Ngục (Rank 9 - MAX)'
-      - '&7Giá mua: &b2,000 &7point'
+      - '&7Giá mua: &b400 &7point'
     view_requirement:
       requirements:
         no_vip:
@@ -991,7 +991,7 @@ items:
       - '&c&lYÊU CẦU CHƯA ĐẠT:'
       - '&a✔ Rank VIP: &fVIP+'
       - '&c✖ Rank Prison: &eVượt Ngục (Rank 9 - MAX)'
-      - '&7Giá mua: &b2,000 &7point'
+      - '&7Giá mua: &b400 &7point'
 
   # --- VIP 4: MVP+ ---
   'mvpplus_owned':
@@ -1031,7 +1031,7 @@ items:
       - '&7Điều kiện:'
       - '&a✔ Rank VIP: &fMVP'
       - '&a✔ Rank Prison: &fVượt Ngục (Rank 9 - MAX)'
-      - '&7Giá mua: &b4,000 &7point'
+      - '&7Giá mua: &b550 &7point'
       - ''
       - '&e➤ Click để nâng cấp MVP+!'
     view_requirement:
@@ -1048,12 +1048,12 @@ items:
         balance_check:
           type: greater than or equal to
           input: '%playerpoints_points%'
-          output: '4000'
+          output: '550'
           deny_commands:
-            - "[message] &c&lMVP+ &7» Bạn không đủ point! Cần &b4,000 &7point."
+            - "[message] &c&lMVP+ &7» Bạn không đủ point! Cần &b550 &7point."
     left_click_commands:
       - '[sound] ENTITY_PLAYER_LEVELUP'
-      - '[console] points take %player_name% 4000'
+      - '[console] points take %player_name% 550'
       - '[console] lp user %player_name% parent add mvpplus'
       - '[message] &5&lMVP+ &7» Chúc mừng, bạn đã nâng cấp rank &5&lMVP+&7!'
       - '[open_menu] ranks_master'
@@ -1070,7 +1070,7 @@ items:
       - '&c&lYÊU CẦU CHƯA ĐẠT:'
       - '&c✖ Bắt buộc phải sở hữu Rank &dMVP &ctrước!'
       - '&c✖ Cần Rank Prison: &eVượt Ngục (Rank 9 - MAX)'
-      - '&7Giá mua: &b4,000 &7point'
+      - '&7Giá mua: &b550 &7point'
     view_requirement:
       requirements:
         no_vip:
@@ -1089,7 +1089,7 @@ items:
       - '&c&lYÊU CẦU CHƯA ĐẠT:'
       - '&a✔ Rank VIP: &fMVP'
       - '&c✖ Rank Prison: &eVượt Ngục (Rank 9 - MAX)'
-      - '&7Giá mua: &b4,000 &7point'
+      - '&7Giá mua: &b550 &7point'
 
   # --- VIP 5: ELITE ---
   'elite_owned':
@@ -1129,7 +1129,7 @@ items:
       - '&7Điều kiện:'
       - '&a✔ Rank VIP: &fMVP+'
       - '&a✔ Rank Prison: &fVượt Ngục (Rank 9 - MAX)'
-      - '&7Giá mua: &b8,000 &7point'
+      - '&7Giá mua: &b750 &7point'
       - ''
       - '&e➤ Click để nâng cấp ELITE!'
     view_requirement:
@@ -1146,12 +1146,12 @@ items:
         balance_check:
           type: greater than or equal to
           input: '%playerpoints_points%'
-          output: '8000'
+          output: '750'
           deny_commands:
-            - "[message] &c&lELITE &7» Bạn không đủ point! Cần &b8,000 &7point."
+            - "[message] &c&lELITE &7» Bạn không đủ point! Cần &b750 &7point."
     left_click_commands:
       - '[sound] ENTITY_PLAYER_LEVELUP'
-      - '[console] points take %player_name% 8000'
+      - '[console] points take %player_name% 750'
       - '[console] lp user %player_name% parent add elite'
       - '[message] &6&lELITE &7» Chúc mừng, bạn đã nâng cấp rank &6&lELITE&7!'
       - '[open_menu] ranks_master'
@@ -1168,7 +1168,7 @@ items:
       - '&c&lYÊU CẦU CHƯA ĐẠT:'
       - '&c✖ Bắt buộc phải sở hữu Rank &5MVP+ &ctrước!'
       - '&c✖ Cần Rank Prison: &eVượt Ngục (Rank 9 - MAX)'
-      - '&7Giá mua: &b8,000 &7point'
+      - '&7Giá mua: &b750 &7point'
     view_requirement:
       requirements:
         no_vip:
@@ -1187,7 +1187,7 @@ items:
       - '&c&lYÊU CẦU CHƯA ĐẠT:'
       - '&a✔ Rank VIP: &fMVP+'
       - '&c✖ Rank Prison: &eVượt Ngục (Rank 9 - MAX)'
-      - '&7Giá mua: &b8,000 &7point'
+      - '&7Giá mua: &b750 &7point'
 
   # --- VIP 6: LEGEND ---
   'legend_owned':
@@ -1227,7 +1227,7 @@ items:
       - '&7Điều kiện:'
       - '&a✔ Rank VIP: &fELITE'
       - '&a✔ Rank Prison: &fVượt Ngục (Rank 9 - MAX)'
-      - '&7Giá mua: &b16,000 &7point'
+      - '&7Giá mua: &b900 &7point'
       - ''
       - '&e➤ Click để nâng cấp LEGEND!'
     view_requirement:
@@ -1244,12 +1244,12 @@ items:
         balance_check:
           type: greater than or equal to
           input: '%playerpoints_points%'
-          output: '16000'
+          output: '900'
           deny_commands:
-            - "[message] &c&lLEGEND &7» Bạn không đủ point! Cần &b16,000 &7point."
+            - "[message] &c&lLEGEND &7» Bạn không đủ point! Cần &b900 &7point."
     left_click_commands:
       - '[sound] ENTITY_PLAYER_LEVELUP'
-      - '[console] points take %player_name% 16000'
+      - '[console] points take %player_name% 900'
       - '[console] lp user %player_name% parent add legend'
       - '[message] &c&lLEGEND &7» Chúc mừng, bạn đã nâng cấp rank &c&lLEGEND&7!'
       - '[open_menu] ranks_master'
@@ -1266,7 +1266,7 @@ items:
       - '&c&lYÊU CẦU CHƯA ĐẠT:'
       - '&c✖ Bắt buộc phải sở hữu Rank &6ELITE &ctrước!'
       - '&c✖ Cần Rank Prison: &eVượt Ngục (Rank 9 - MAX)'
-      - '&7Giá mua: &b16,000 &7point'
+      - '&7Giá mua: &b900 &7point'
     view_requirement:
       requirements:
         no_vip:
@@ -1285,7 +1285,7 @@ items:
       - '&c&lYÊU CẦU CHƯA ĐẠT:'
       - '&a✔ Rank VIP: &fELITE'
       - '&c✖ Rank Prison: &eVượt Ngục (Rank 9 - MAX)'
-      - '&7Giá mua: &b16,000 &7point'
+      - '&7Giá mua: &b900 &7point'
 
   # ---------------------------------------------------------------------------
   # FOOTER & UTILITIES (Row 5: Slot 40)

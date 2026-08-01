@@ -14,6 +14,21 @@ kits:
       - stoneshovel 1
       - stonepickaxe 1
       - stoneaxe 1
+
+  # =============================================================================
+  # KIT TÂN BINH (first join + /kit tanbinh mỗi 24h)
+  # =============================================================================
+  tanbinh:
+    delay: 86400
+    items:
+      - /mmoitems give ARMOR HELMET_TAN_BINH_1 {USERNAME} 1
+      - /mmoitems give ARMOR CHESTPLATE_TAN_BINH_1 {USERNAME} 1
+      - /mmoitems give ARMOR LEGGINGS_TAN_BINH_1 {USERNAME} 1
+      - /mmoitems give ARMOR BOOTS_TAN_BINH_1 {USERNAME} 1
+      - /mmoitems give SWORD SWORD_TAN_BINH_1 {USERNAME} 1
+      - bread 16
+      - goldenapple 2
+
   dtools:
     delay: 600
     items:

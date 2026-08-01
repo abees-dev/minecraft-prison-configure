@@ -52,7 +52,8 @@ ranks:
     mine-display: "&7&lMỏ Tù Nhân"
     daily-block-limit: 10000
     level-for-next-rank: 20
-    point-cost: 10
+    # Tổng Prison point-cost 2→9 = 2.000 (~2tr). Toàn bộ Rank+VIP ≈ 5.000 (~5tr).
+    point-cost: 20
     pickaxe-base-value: 10000
   3:
     slug: LAO_CONG
@@ -61,7 +62,7 @@ ranks:
     mine-display: "&a&lMỏ Lao Công"
     daily-block-limit: 20000
     level-for-next-rank: 30
-    point-cost: 30
+    point-cost: 40
     pickaxe-base-value: 25000
   4:
     slug: THO_DAO
@@ -70,7 +71,7 @@ ranks:
     mine-display: "&2&lMỏ Thợ Đào"
     daily-block-limit: 35000
     level-for-next-rank: 45
-    point-cost: 110
+    point-cost: 80
     pickaxe-base-value: 60000
   5:
     slug: DOI_TRUONG
@@ -79,7 +80,7 @@ ranks:
     mine-display: "&b&lMỏ Đội Trưởng"
     daily-block-limit: 50000
     level-for-next-rank: 60
-    point-cost: 540
+    point-cost: 150
     pickaxe-base-value: 150000
   6:
     slug: PHO_QUAN_NGUC
@@ -88,7 +89,7 @@ ranks:
     mine-display: "&1&lMỏ Phó Quản Ngục"
     daily-block-limit: 75000
     level-for-next-rank: 75
-    point-cost: 2170
+    point-cost: 250
     pickaxe-base-value: 350000
   7:
     slug: QUAN_NGUC
@@ -97,7 +98,7 @@ ranks:
     mine-display: "&d&lMỏ Quản Ngục"
     daily-block-limit: 100000
     level-for-next-rank: 90
-    point-cost: 3200
+    point-cost: 360
     pickaxe-base-value: 800000
   8:
     slug: BA_CHU_NGUC_TU
@@ -106,7 +107,7 @@ ranks:
     mine-display: "&6&lMỏ Bá Chủ Ngục Tù"
     daily-block-limit: 150000
     level-for-next-rank: 100
-    point-cost: 4350
+    point-cost: 500
     pickaxe-base-value: 1800000
   9:
     slug: VUOT_NGUC
@@ -115,7 +116,7 @@ ranks:
     mine-display: "&c&lMỏ Vượt Ngục"
     daily-block-limit: -1
     level-for-next-rank: 100
-    point-cost: 6450
+    point-cost: 600
     pickaxe-base-value: 4000000
 
 # Optional daily mining cap (per player, per rank, resets at midnight server

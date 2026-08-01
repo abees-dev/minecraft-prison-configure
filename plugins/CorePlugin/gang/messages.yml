@@ -7,141 +7,237 @@
 #   multi-line blocks using a literal "\n" — Minecraft chat renders embedded
 #   newlines as real line breaks within a single message.
 
-only-player: "&c✦ &fChỉ người chơi mới dùng được lệnh này."
-no-gang: "&c✦ &fBạn chưa có bang hội!"
-already-in-gang: "&c✦ &fBạn đã ở trong một bang hội rồi!"
-target-in-gang: "&c✦ &fNgười chơi đó đã có bang hội!"
-no-permission-role: "&c✦ &fBạn không đủ quyền trong bang!"
-economy-missing: "&c✦ &fHệ thống economy (Vault) chưa sẵn sàng!"
-not-enough-money: "&c✦ &fKhông đủ tiền! Cần &e{amount}&f."
-not-enough-bank: "&c✦ &fNgân hàng bang không đủ! Cần &e{amount}&f."
-name-taken: "&c✦ &fTên bang đã được dùng!"
-prefix-taken: "&c✦ &fPrefix đã được dùng!"
-name-invalid: "&c✦ &fTên bang không hợp lệ &7(1-{max} ký tự)&f."
-prefix-invalid: "&c✦ &fPrefix không hợp lệ &7(1-{max} ký tự hiển thị, cho phép mã màu &)&f."
-create-usage: "&c✦ &fCú pháp: &e/gang create <tên> <prefix>"
-create-success: "&a&l━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n &a✦ &fĐã tạo bang &a&l{name} &7[&e{prefix}&7]\n &7Phí tạo bang: &e{cost}\n&a&l━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
-invite-usage: "&c✦ &fCú pháp: &e/gang invite <player>"
-invite-sent: "&a✦ &fĐã mời &e{player} &fvào bang. Hết hạn sau &e{seconds}s&f."
-invite-received: "&a&l━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n &a✦ &e{from} &fmời bạn vào bang &e&l{gang}\n &7Gõ &a/gang accept &7để tham gia, &c/gang deny &7để từ chối &8({seconds}s)\n&a&l━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
-invite-none: "&c✦ &fBạn không có lời mời nào!"
-invite-expired: "&c✦ &fLời mời đã hết hạn!"
-invite-full: "&c✦ &fBang đã đầy thành viên!"
-join-success: "&a✦ &fBạn đã gia nhập bang &a&l{name}&f!"
-join-failed: "&c✦ &fKhông thể vào bang &7(lỗi dữ liệu)&f. Thử lại!"
-deny-success: "&e✦ &fĐã từ chối lời mời."
-leave-leader: "&c✦ &fLeader phải &e/gang disband &fhoặc &e/gang promote &ftrước khi rời!"
-leave-success: "&e✦ &fBạn đã rời bang &e{name}&f."
-kick-usage: "&c✦ &fCú pháp: &e/gang kick <player>"
-kick-success: "&e✦ &fĐã kick &e{player} &fkhỏi bang."
-kicked: "&c✦ &fBạn đã bị kick khỏi bang &e{name}&f!"
-promote-usage: "&c✦ &fCú pháp: &e/gang promote <player>"
-promote-success: "&a✦ &fĐã thăng &e{player} &fthành &a&l{role}&f."
-demote-usage: "&c✦ &fCú pháp: &e/gang demote <player>"
-demote-success: "&e✦ &fĐã hạ &e{player} &fxuống &e{role}&f."
-disband-confirm: "&c&l━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n &c✦ &fXác nhận giải tán bang?\n &7Toàn bộ &c&lBANK + KHO &7sẽ &c&lMẤT HẾT&r&7, không thể hoàn tác!\n &7Bấm &c&lXÁC NHẬN &7trong menu hoặc chờ &e{seconds}s &7để tự hủy.\n&c&l━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
-disband-success: "&c✦ &fBang &e{name} &fđã bị giải tán. Toàn bộ tài sản đã mất."
-disband-no-pending: "&c✦ &fKhông có yêu cầu giải tán nào. Dùng &e/gang disband &ftrước."
-action-failed: "&c✦ &fThao tác thất bại &7(lỗi dữ liệu)&f. Thử lại!"
-bank-deposit-usage: "&c✦ &fCú pháp: &e/gang bank deposit <amount>"
-bank-withdraw-usage: "&c✦ &fCú pháp: &e/gang bank withdraw <amount>"
-bank-deposit-ok: "&a✦ &fĐã nạp &e{amount} &fvào ngân hàng bang."
-bank-withdraw-ok: "&a✦ &fĐã rút &e{amount} &ftừ ngân hàng bang."
-bank-balance: "&a✦ &fNgân hàng bang: &e{amount}"
-bank-custom-deposit-prompt: "&a✦ &fGõ vào chat số tiền muốn &anạp&f, hoặc &e'huy' &fđể hủy &7(hết hạn sau {seconds}s)&f."
-bank-custom-withdraw-prompt: "&a✦ &fGõ vào chat số tiền muốn &crút&f, hoặc &e'huy' &fđể hủy &7(hết hạn sau {seconds}s)&f."
-bank-custom-invalid: "&c✦ &fSố tiền không hợp lệ! Gõ lại hoặc &e'huy' &fđể hủy."
-bank-custom-cancelled: "&e✦ &fĐã hủy nhập số tiền."
-bank-custom-expired: "&c✦ &fHết thời gian nhập số tiền."
-gui-click-cooldown: "&c✦ &fThao tác quá nhanh, vui lòng thử lại sau!"
-vault-full: "&c✦ &fKho bang đã đầy!"
-vault-sold: "&a✦ &fĐã bán kho → &e{amount} &fvào ngân hàng bang."
-vault-empty: "&e✦ &fKho bang đang trống."
-vault-taken: "&a✦ &fĐã lấy &e{amount}x {material} &ftừ kho bang."
-vault-busy: "&c✦ &fKho bang đang được thành viên khác thao tác!"
-vault-inventory-full: "&c✦ &fTúi đồ đã đầy, không thể lấy thêm!"
-shop-bought: "&a✦ &fĐã mua &e{item}&f! Trừ bank &e{cost}&f."
-vault-enabled: "&a✦ &fĐã &a&lBẬT &fnạp kho — khoáng bạn đào sẽ tự nạp vào kho bang."
-vault-disabled: "&e✦ &fĐã &c&lTẮT &fnạp kho — khoáng bạn đào sẽ rơi bình thường &7(farm riêng)&f."
-vault-level-required: "&c✦ &fBang cần đạt &eBang Lv {level} &fmới được bật nạp kho!"
-gang-level-up: "&d&l━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n &d✦ &fBang đã đạt &d&lBANG LV {level}&r&f!\n &7Chi phí: &e-{reputation} danh vọng &8• &c-{money}\n &7Kho bang &a+{capacity} &7sức chứa!\n&d&l━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
-upgrade-max: "&c✦ &fUpgrade này đã đạt cấp tối đa!"
-upgrade-need-bang-level: "&c✦ &fCần Bang Lv &e{need} &fđể nâng &e{type} &flên cấp &e{level}&f (hiện &e{have}&f)."
-not-enough-reputation: "&c✦ &fBang không đủ danh vọng! Cần &e{need}&f, hiện có &e{have}&f."
-upgrade-success: "&a&l━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n &a✦ &fNâng cấp &a&l{type} &flên &a&lCấp {level}&r&f!\n &7Chi phí: &e-{reputation} danh vọng &8• &c-{money}\n&a&l━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
-koth-disabled: "&e✦ &fKOTH VIP Mine đang tắt."
-koth-status: "&a&l━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n &a✦ &fMỏ VIP &e{region}\n &7Chủ sở hữu: &e{owner}\n &7Đang chiếm: &e{capturing} &7({progress}/{needed}s)\n&a&l━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
-koth-captured: "&6✦ &fBang &e&l{name} &fđã chiếm &6&l{region}&r&f!"
-koth-taxed: "&e✦ &fThuế KOTH &c-{tax} &7→ owner bank. Bạn nhận &a{net}&f."
-reload-ok: "&a✦ &fĐã reload config."
-admin-no-permission: "&c✦ &fBạn không có quyền!"
-give-reputation-usage: "&c✦ &fCú pháp: &e/gang givereputation <tên bang> <số lượng>"
-give-reputation-ok: "&a✦ &fĐã cộng &e{amount} danh vọng &fcho bang &e{gang}&f."
-give-reputation-not-found: "&c✦ &fKhông tìm thấy bang &e{gang}&f."
-reset-quest-opens-usage: "&c✦ &fCú pháp: &e/gang resetquestopens <tên bang>"
-reset-quest-opens-ok: "&a✦ &fĐã reset lượt mở quest trong ngày cho bang &e{gang}&f."
+only-player: '&c✦ &fChỉ người chơi mới dùng được lệnh này.'
+no-gang: '&c✦ &fBạn chưa có bang hội!'
+already-in-gang: '&c✦ &fBạn đã ở trong một bang hội rồi!'
+target-in-gang: '&c✦ &fNgười chơi đó đã có bang hội!'
+no-permission-role: '&c✦ &fBạn không đủ quyền trong bang!'
+economy-missing: '&c✦ &fHệ thống economy (Vault) chưa sẵn sàng!'
+not-enough-money: '&c✦ &fKhông đủ tiền! Cần &e{amount}&f.'
+not-enough-bank: '&c✦ &fNgân hàng bang không đủ! Cần &e{amount}&f.'
+name-taken: '&c✦ &fTên bang đã được dùng!'
+prefix-taken: '&c✦ &fPrefix đã được dùng!'
+name-invalid: '&c✦ &fTên bang không hợp lệ &7(1-{max} ký tự)&f.'
+prefix-invalid: '&c✦ &fPrefix không hợp lệ &7(1-{max} ký tự hiển thị, cho phép mã
+  màu &)&f.'
+create-usage: '&c✦ &fCú pháp: &e/gang create <tên> <prefix>'
+create-success: |-
+  &a&l━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+   &a✦ &fĐã tạo bang &a&l{name} &7[&e{prefix}&7]
+   &7Phí tạo bang: &e{cost}
+  &a&l━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+invite-usage: '&c✦ &fCú pháp: &e/gang invite <player>'
+invite-sent: '&a✦ &fĐã mời &e{player} &fvào bang. Hết hạn sau &e{seconds}s&f.'
+invite-received: |-
+  &a&l━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+   &a✦ &e{from} &fmời bạn vào bang &e&l{gang}
+   &7Gõ &a/gang accept &7để tham gia, &c/gang deny &7để từ chối &8({seconds}s)
+  &a&l━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+invite-none: '&c✦ &fBạn không có lời mời nào!'
+invite-expired: '&c✦ &fLời mời đã hết hạn!'
+invite-full: '&c✦ &fBang đã đầy thành viên!'
+join-success: '&a✦ &fBạn đã gia nhập bang &a&l{name}&f!'
+join-failed: '&c✦ &fKhông thể vào bang &7(lỗi dữ liệu)&f. Thử lại!'
+deny-success: '&e✦ &fĐã từ chối lời mời.'
+leave-leader: '&c✦ &fLeader phải &e/gang disband &fhoặc &e/gang promote &ftrước khi
+  rời!'
+leave-success: '&e✦ &fBạn đã rời bang &e{name}&f.'
+kick-usage: '&c✦ &fCú pháp: &e/gang kick <player>'
+kick-success: '&e✦ &fĐã kick &e{player} &fkhỏi bang.'
+kicked: '&c✦ &fBạn đã bị kick khỏi bang &e{name}&f!'
+promote-usage: '&c✦ &fCú pháp: &e/gang promote <player>'
+promote-success: '&a✦ &fĐã thăng &e{player} &fthành &a&l{role}&f.'
+demote-usage: '&c✦ &fCú pháp: &e/gang demote <player>'
+demote-success: '&e✦ &fĐã hạ &e{player} &fxuống &e{role}&f.'
+disband-confirm: |-
+  &c&l━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+   &c✦ &fXác nhận giải tán bang?
+   &7Toàn bộ &c&lBANK + KHO &7sẽ &c&lMẤT HẾT&r&7, không thể hoàn tác!
+   &7Bấm &c&lXÁC NHẬN &7trong menu hoặc chờ &e{seconds}s &7để tự hủy.
+  &c&l━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+disband-success: '&c✦ &fBang &e{name} &fđã bị giải tán. Toàn bộ tài sản đã mất.'
+disband-no-pending: '&c✦ &fKhông có yêu cầu giải tán nào. Dùng &e/gang disband &ftrước.'
+action-failed: '&c✦ &fThao tác thất bại &7(lỗi dữ liệu)&f. Thử lại!'
+bank-deposit-usage: '&c✦ &fCú pháp: &e/gang bank deposit <amount>'
+bank-withdraw-usage: '&c✦ &fCú pháp: &e/gang bank withdraw <amount>'
+bank-deposit-ok: '&a✦ &fĐã nạp &e{amount} &fvào ngân hàng bang.'
+bank-withdraw-ok: '&a✦ &fĐã rút &e{amount} &ftừ ngân hàng bang.'
+bank-balance: '&a✦ &fNgân hàng bang: &e{amount}'
+bank-custom-deposit-prompt: '&a✦ &fGõ vào chat số tiền muốn &anạp&f, hoặc &e''huy''
+  &fđể hủy &7(hết hạn sau {seconds}s)&f.'
+bank-custom-withdraw-prompt: '&a✦ &fGõ vào chat số tiền muốn &crút&f, hoặc &e''huy''
+  &fđể hủy &7(hết hạn sau {seconds}s)&f.'
+bank-custom-invalid: '&c✦ &fSố tiền không hợp lệ! Gõ lại hoặc &e''huy'' &fđể hủy.'
+bank-custom-cancelled: '&e✦ &fĐã hủy nhập số tiền.'
+bank-custom-expired: '&c✦ &fHết thời gian nhập số tiền.'
+gui-click-cooldown: '&c✦ &fThao tác quá nhanh, vui lòng thử lại sau!'
+vault-full: '&c✦ &fKho bang đã đầy!'
+vault-sold: '&a✦ &fĐã bán kho → &e{amount} &fvào ngân hàng bang.'
+vault-empty: '&e✦ &fKho bang đang trống.'
+vault-taken: '&a✦ &fĐã lấy &e{amount}x {material} &ftừ kho bang.'
+vault-busy: '&c✦ &fKho bang đang được thành viên khác thao tác!'
+vault-inventory-full: '&c✦ &fTúi đồ đã đầy, không thể lấy thêm!'
+shop-bought: '&a✦ &fĐã mua &e{item}&f! Trừ bank &e{cost}&f.'
+vault-enabled: '&a✦ &fĐã &a&lBẬT &fnạp kho — khoáng bạn đào sẽ tự nạp vào kho bang.'
+vault-disabled: '&e✦ &fĐã &c&lTẮT &fnạp kho — khoáng bạn đào sẽ rơi bình thường &7(farm
+  riêng)&f.'
+vault-level-required: '&c✦ &fBang cần đạt &eBang Lv {level} &fmới được bật nạp kho!'
+gang-level-up: |-
+  &d&l━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+   &d✦ &fBang đã đạt &d&lBANG LV {level}&r&f!
+   &7Chi phí: &e-{reputation} danh vọng &8• &c-{money}
+   &7Kho bang &a+{capacity} &7sức chứa!
+  &d&l━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+upgrade-max: '&c✦ &fUpgrade này đã đạt cấp tối đa!'
+upgrade-need-bang-level: '&c✦ &fCần Bang Lv &e{need} &fđể nâng &e{type} &flên cấp
+  &e{level}&f (hiện &e{have}&f).'
+not-enough-reputation: '&c✦ &fBang không đủ danh vọng! Cần &e{need}&f, hiện có &e{have}&f.'
+upgrade-success: |-
+  &a&l━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+   &a✦ &fNâng cấp &a&l{type} &flên &a&lCấp {level}&r&f!
+   &7Chi phí: &e-{reputation} danh vọng &8• &c-{money}
+  &a&l━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+koth-disabled: '&e✦ &fKOTH VIP Mine đang tắt.'
+koth-status: |-
+  &a&l━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+   &a✦ &fMỏ VIP &e{region}
+   &7Chủ sở hữu: &e{owner}
+   &7Đang chiếm: &e{capturing} &7({progress}/{needed}s)
+  &a&l━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+koth-captured: '&6✦ &fBang &e&l{name} &fđã chiếm &6&l{region}&r&f!'
+koth-taxed: '&e✦ &fThuế KOTH &c-{tax} &7→ owner bank. Bạn nhận &a{net}&f.'
+reload-ok: '&a✦ &fĐã reload config.'
+admin-no-permission: '&c✦ &fBạn không có quyền!'
+give-reputation-usage: '&c✦ &fCú pháp: &e/gang givereputation <tên bang> <số lượng>'
+give-reputation-ok: '&a✦ &fĐã cộng &e{amount} danh vọng &fcho bang &e{gang}&f.'
+give-reputation-not-found: '&c✦ &fKhông tìm thấy bang &e{gang}&f.'
+reset-quest-opens-usage: '&c✦ &fCú pháp: &e/gang resetquestopens <tên bang>'
+reset-quest-opens-ok: '&a✦ &fĐã reset lượt mở quest trong ngày cho bang &e{gang}&f.'
 
 # Personal / weekly / season / home / paragon
-personal-disabled: "&e✦ &fQuest cá nhân đang tắt."
-personal-ready: "&a✦ &fQuest cá nhân đã xong! Nhận thưởng: &e/gang personal claim"
-personal-incomplete: "&c✦ &fChưa hoàn thành hết nhiệm vụ cá nhân hôm nay!"
-personal-already-claimed: "&e✦ &fBạn đã nhận thưởng quest cá nhân hôm nay rồi."
-personal-claimed: "&a✦ &fNhận thưởng quest cá nhân: &e+{money} &f• &e+{reputation} danh vọng"
-personal-usage: "&c✦ &fCú pháp: &e/gang personal &7| &e/gang personal claim"
-personal-info: "&a&l━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n &a✦ &fQuest cá nhân &7({done}/{total}) &8[{status}]\n{lines}\n &7Claim: &e/gang personal claim\n&a&l━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
-weekly-complete: "&a&l━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n &a✦ &fBang hoàn thành Weekly Challenge!\n &7+{reward} danh vọng &8• &7{count} nhiệm vụ\n&a&l━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
-weekly-broadcast: "&6✦ &fBang &e&l{gang} &fđã hoàn thành &6Weekly Challenge&f!"
-weekly-info: "&6&l━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n &6✦ &fWeekly Challenge &7({done}/{total})\n &7Tiến độ: &a{progress}&7/&a{target}\n{lines}\n&6&l━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
-season-end-top: "&d✦ &fMùa kết thúc — Top &e#{rank}&f: &e{gang} &7({points} điểm) &f+&a{reward} &fvào bank"
-season-new: "&d✦ &fMùa bang hội mới bắt đầu! &7(# {season})"
-season-info: "&d&l━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n &d✦ &fMùa #{season}\n &7Điểm bang: &e{points}\n &7Còn: &f{remain}\n{lines}\n&d&l━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
-paragon-disabled: "&e✦ &fParagon đang tắt."
-paragon-need-max-level: "&c✦ &fCần Bang Lv &e{level} &ftrước khi mua Paragon!"
-paragon-success: "&d&l━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n &d✦ &fParagon Sell &d&lCấp {level}&r&f!\n &7Chi phí: &e-{reputation} &8• &c-{money}\n &7Bonus sell: &a+{bonus}%\n&d&l━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
-home-disabled: "&e✦ &fGang home đang tắt."
-home-set: "&a✦ &fĐã đặt home bang tại vị trí hiện tại."
-home-unset: "&c✦ &fBang chưa đặt home! Leader: &e/gang sethome"
-home-not-set: "&c✦ &fBang chưa đặt home! Leader: &e/gang sethome"
-home-cooldown: "&c✦ &fĐợi &e{seconds}s &ftrước khi warp home lại."
-home-world-missing: "&c✦ &fWorld home bang không tồn tại!"
-home-warp: "&a✦ &fĐã dịch chuyển về home bang."
-quest-role-max-level: "&c✦ &fRole của bạn chỉ mở được quest tới Lv &e{max}&f!"
+personal-disabled: '&e✦ &fQuest cá nhân đang tắt.'
+personal-ready: '&a✦ &fQuest cá nhân đã xong! Nhận thưởng: &e/gang personal claim'
+personal-incomplete: '&c✦ &fChưa hoàn thành hết nhiệm vụ cá nhân hôm nay!'
+personal-already-claimed: '&e✦ &fBạn đã nhận thưởng quest cá nhân hôm nay rồi.'
+personal-claimed: '&a✦ &fNhận thưởng quest cá nhân: &e+{money} &f• &e+{reputation}
+  danh vọng'
+personal-usage: '&c✦ &fCú pháp: &e/gang personal &7| &e/gang personal claim'
+personal-info: |-
+  &a&l━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+   &a✦ &fQuest cá nhân &7({done}/{total}) &8[{status}]
+  {lines}
+   &7Claim: &e/gang personal claim
+  &a&l━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+weekly-complete: |-
+  &a&l━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+   &a✦ &fBang hoàn thành Weekly Challenge!
+   &7+{reward} danh vọng &8• &7{count} nhiệm vụ
+  &a&l━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+weekly-broadcast: '&6✦ &fBang &e&l{gang} &fđã hoàn thành &6Weekly Challenge&f!'
+weekly-info: |-
+  &6&l━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+   &6✦ &fWeekly Challenge &7({done}/{total})
+   &7Tiến độ: &a{progress}&7/&a{target}
+  {lines}
+  &6&l━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+season-end-top: '&d✦ &fMùa kết thúc — Top &e#{rank}&f: &e{gang} &7({points} điểm)
+  &f+&a{reward} &fvào bank'
+season-new: '&d✦ &fMùa bang hội mới bắt đầu! &7(# {season})'
+season-info: |-
+  &d&l━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+   &d✦ &fMùa #{season}
+   &7Điểm bang: &e{points}
+   &7Còn: &f{remain}
+  {lines}
+  &d&l━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+paragon-disabled: '&e✦ &fParagon đang tắt.'
+paragon-need-max-level: '&c✦ &fCần Bang Lv &e{level} &ftrước khi mua Paragon!'
+paragon-success: |-
+  &d&l━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+   &d✦ &fParagon Sell &d&lCấp {level}&r&f!
+   &7Chi phí: &e-{reputation} &8• &c-{money}
+   &7Bonus sell: &a+{bonus}%
+  &d&l━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+home-disabled: '&e✦ &fGang home đang tắt.'
+home-set: '&a✦ &fĐã đặt home bang tại vị trí hiện tại.'
+home-unset: '&c✦ &fBang chưa đặt home! Leader: &e/gang sethome'
+home-not-set: '&c✦ &fBang chưa đặt home! Leader: &e/gang sethome'
+home-cooldown: '&c✦ &fĐợi &e{seconds}s &ftrước khi warp home lại.'
+home-world-missing: '&c✦ &fWorld home bang không tồn tại!'
+home-warp: '&a✦ &fĐã dịch chuyển về home bang.'
+quest-role-max-level: '&c✦ &fRole của bạn chỉ mở được quest tới Lv &e{max}&f!'
 
 # Quest Bang Hội — GUI-only for open / reset / ticket. Command: /gang quest | /gang quest info
-quest-usage: "&c✦ &fCú pháp: &e/gang quest &7(mở GUI) &f| &e/gang quest info"
-quest-gui-only: "&c✦ &fMở quest / reset / phiếu chỉ dùng trong &eGUI Quest Bang&f (&e/gang quest&f)."
-quest-leader-only: "&c✦ &fBạn không đủ quyền mở / reset / dùng phiếu quest!"
-quest-invalid-level: "&c✦ &fCấp quest không hợp lệ!"
-quest-already-active: "&c✦ &fBang đang có quest chạy. Reset hoặc chờ hết hạn!"
-quest-not-active: "&c✦ &fKhông có quest đang chạy để reset!"
-quest-no-opens: "&c✦ &fHết lượt mở hôm nay! Dùng &ephiếu &ftrong GUI để tăng lượt."
-quest-need-members: "&c✦ &fBang cần &e{need} &fthành viên (hiện &e{have}&f)!"
-quest-need-online: "&c✦ &fCần &e{need} &fthành viên online (hiện &e{have}&f)!"
-quest-pool-empty: "&c✦ &fPool quest cấp này trống — kiểm tra &equests.yml&f!"
-quest-reset-max: "&c✦ &fĐã hết lượt reset cho quest này!"
-quest-ticket-mmo-missing: "&c✦ &fHệ thống item chưa sẵn sàng — không dùng được phiếu!"
-quest-ticket-missing: "&c✦ &fKhông có phiếu &e{display} &ftrong túi!"
-quest-ticket-ok: "&a✦ &fĐã dùng phiếu! Lượt mở còn: &e{opens}&f."
-quest-open-ok: "&a&l━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n &a✦ &fĐã mở &a&lQuest Lv {level}&r &7(&e{count} &7nhiệm vụ)\n &7Phí: &c-{money} &8• &e-{reputation} danh vọng\n &7Làm hết cả bộ trước khi hết giờ! Chi tiết: &e/gang quest info\n&a&l━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
-quest-reset-ok: "&e✦ &fĐã reset board → &e{count} &fnhiệm vụ mới. Phí: &c-{money} &8• &e-{reputation} danh vọng &7(free={free})"
-quest-complete: "&a&l━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n &a✦ &fHoàn thành Quest Lv &a&l{level}&r &7({count} nhiệm vụ)!\n &7Bang +&e{reward} &7danh vọng\n &7Top đóng góp: &f{top}\n&a&l━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
-quest-expired: "&c✦ &fQuest Lv &e{level} &7({count} nhiệm vụ) &fhết hạn — &cđã hủy, không thưởng&f."
-quest-info-active: "&e&l━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n &e✦ &fQuest Lv &e{level}&f &7({done}/{total} xong)\n &7Tổng: &a{progress}&7/&a{target} &8(&f{percent}%&8)\n &7Còn: &e{remain} &8• &7Lượt mở: &e{opens} &8• &7Reset: &e{resets}\n{lines}\n&e&l━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
-quest-info-idle: "&e✦ &fKhông có quest đang chạy &8({status})&f. Lượt mở còn: &e{opens}&f. Mở GUI: &e/gang quest"
+quest-usage: '&c✦ &fCú pháp: &e/gang quest &7(mở GUI) &f| &e/gang quest info'
+quest-gui-only: '&c✦ &fMở quest / reset / phiếu chỉ dùng trong &eGUI Quest Bang&f
+  (&e/gang quest&f).'
+quest-leader-only: '&c✦ &fBạn không đủ quyền mở / reset / dùng phiếu quest!'
+quest-invalid-level: '&c✦ &fCấp quest không hợp lệ!'
+quest-already-active: '&c✦ &fBang đang có quest chạy. Reset hoặc chờ hết hạn!'
+quest-not-active: '&c✦ &fKhông có quest đang chạy để reset!'
+quest-no-opens: '&c✦ &fHết lượt mở hôm nay! Dùng &ephiếu &ftrong GUI để tăng lượt.'
+quest-need-members: '&c✦ &fBang cần &e{need} &fthành viên (hiện &e{have}&f)!'
+quest-need-online: '&c✦ &fCần &e{need} &fthành viên online (hiện &e{have}&f)!'
+quest-pool-empty: '&c✦ &fPool quest cấp này trống — kiểm tra &equests.yml&f!'
+quest-reset-max: '&c✦ &fĐã hết lượt reset cho quest này!'
+quest-ticket-mmo-missing: '&c✦ &fHệ thống item chưa sẵn sàng — không dùng được phiếu!'
+quest-ticket-missing: '&c✦ &fKhông có phiếu &e{display} &ftrong túi!'
+quest-ticket-ok: '&a✦ &fĐã dùng phiếu! Lượt mở còn: &e{opens}&f.'
+quest-open-ok: |-
+  &a&l━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+   &a✦ &fĐã mở &a&lQuest Lv {level}&r &7(&e{count} &7nhiệm vụ)
+   &7Phí: &c-{money} &8• &e-{reputation} danh vọng
+   &7Làm hết cả bộ trước khi hết giờ! Chi tiết: &e/gang quest info
+  &a&l━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+quest-reset-ok: '&e✦ &fĐã reset board → &e{count} &fnhiệm vụ mới. Phí: &c-{money}
+  &8• &e-{reputation} danh vọng &7(free={free})'
+quest-complete: |-
+  &a&l━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+   &a✦ &fHoàn thành Quest Lv &a&l{level}&r &7({count} nhiệm vụ)!
+   &7Bang +&e{reward} &7danh vọng
+   &7Top đóng góp: &f{top}
+  &a&l━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+quest-expired: '&c✦ &fQuest Lv &e{level} &7({count} nhiệm vụ) &fhết hạn — &cđã hủy,
+  không thưởng&f.'
+quest-info-active: |-
+  &e&l━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+   &e✦ &fQuest Lv &e{level}&f &7({done}/{total} xong)
+   &7Tổng: &a{progress}&7/&a{target} &8(&f{percent}%&8)
+   &7Còn: &e{remain} &8• &7Lượt mở: &e{opens} &8• &7Reset: &e{resets}
+  {lines}
+  &e&l━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+quest-info-idle: '&e✦ &fKhông có quest đang chạy &8({status})&f. Lượt mở còn: &e{opens}&f.
+  Mở GUI: &e/gang quest'
 
 help:
-  - "&a&l━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
-  - "         &a&lBANG HỘI"
-  - "&a&l━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
-  - "&e/gang &7- Mở menu bang hội"
-  - "&e/gang create <tên> <prefix> &7- Tạo bang"
-  - "&e/gang invite <player> &7- Mời thành viên"
-  - "&e/gang accept|deny &7- Nhận/từ chối lời mời"
-  - "&e/gang bank nap|rut <số tiền> &7- Nạp/rút số lẻ (menu có nút nhanh)"
-  - "&e/gang vault|shop|upgrade|quest &7- Phím tắt tới các menu"
-  - "&e/gang personal|weekly|season &7- Quest cá nhân / tuần / mùa"
-  - "&e/gang sethome|home &7- Đặt / về home bang"
-  - "&e/gang quest info &7- Xem quest đang chạy (read-only)"
-  - "&8  Quest: mở/reset/phiếu chỉ trong GUI"
-  - "&e/gang koth &7- Trạng thái Mỏ VIP"
-  - "&a&l━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+- '&a&l━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━'
+- '         &a&lBANG HỘI'
+- '&a&l━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━'
+- '&e/gang &7- Mở menu bang hội'
+- '&e/gang create <tên> <prefix> &7- Tạo bang'
+- '&e/gang invite <player> &7- Mời thành viên'
+- '&e/gang accept|deny &7- Nhận/từ chối lời mời'
+- '&e/gang bank nap|rut <số tiền> &7- Nạp/rút số lẻ (menu có nút nhanh)'
+- '&e/gang vault|shop|upgrade|quest &7- Phím tắt tới các menu'
+- '&e/gang personal|weekly|season &7- Quest cá nhân / tuần / mùa'
+- '&e/gang sethome|home &7- Đặt / về home bang'
+- '&e/gang quest info &7- Xem quest đang chạy (read-only)'
+- '&8  Quest: mở/reset/phiếu chỉ trong GUI'
+- '&e/gang koth &7- Trạng thái Mỏ VIP'
+- '&a&l━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━'
+join-request-sent: '&a✦ &fĐã gửi đơn xin vào bang &a&l{gang}&f. Chờ duyệt &7({seconds}s)&f.'
+join-request-received: '&a✦ &e{player} &fxin vào bang &e&l{gang}&f! Mở menu → &aDuyệt
+  xin vào &7({seconds}s)&f.'
+join-request-accepted: '&a✦ &fĐã duyệt &e{player} &fvào bang &a&l{gang}&f!'
+join-request-denied: '&e✦ &fĐã từ chối đơn xin của &e{player}&f.'
+join-request-denied-target: '&c✦ &fBang &e{gang} &fđã từ chối đơn xin của bạn.'
+join-request-full: '&c✦ &fBang đã đầy thành viên!'
+join-request-expired: '&c✦ &fĐơn xin vào bang đã hết hạn!'
+join-request-gone: '&c✦ &fĐơn xin không còn hiệu lực &7(đã xử lý / đổi bang)&f.'
+join-request-already: '&e✦ &fBạn đã xin vào bang &e{gang} &frồi. Chờ duyệt!'
+join-create-prompt: |-
+  &a✦ &fGõ vào chat: &e<tên> <prefix>&f, hoặc &e'huy' &fđể hủy &7(hết hạn sau {seconds}s)&f.
+  &7Ví dụ: &fNova &a&lNV
+join-create-invalid: '&c✦ &fCú pháp không hợp lệ! Gõ &e<tên> <prefix>&f hoặc &e''huy''&f.'
+join-create-cancelled: '&e✦ &fĐã hủy tạo bang.'
+join-create-expired: '&c✦ &fHết thời gian nhập tên bang.'
