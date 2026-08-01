@@ -88,3 +88,6 @@ plugins/**/backups/*
 
 # Local console log
 /.console_history
+
+# FastAsyncWorldEdit clipboard buffers (large, ephemeral copy/paste data)
+/plugins/FastAsyncWorldEdit/clipboard/
