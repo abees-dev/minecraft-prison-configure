@@ -1,0 +1,31 @@
+# Hologram hướng dẫn member — Khu mỏ (world_prison spawn)
+# Nội dung: vòng đào–bán–nâng (A) + lệnh nhanh (B)
+# 2026-08-01 — chỉnh vị trí: /dh teleport GuidePrison  rồi  /dh move here GuidePrison
+enabled: true
+location: world:2,272:86,000:-6,546
+display-range: 48
+update-range: 48
+update-interval: 20
+down-origin: false
+pages:
+- lines:
+  - content: '&a&l✦ &f&lHƯỚNG DẪN KHU MỎ &a&l✦'
+    height: 0.35
+  - content: '&7━━━━━━━━━━━━━━━━━━━━'
+    height: 0.28
+  - content: '&fĐào đúng &amỏ theo rank &7của bạn'
+    height: 0.28
+  - content: '&fNPC &aTinh Luyện &7+ &aLò Rèn'
+    height: 0.28
+  - content: '&7→ nằm &eở từng khu mỏ &7(theo rank)'
+    height: 0.28
+  - content: '&fNâng cúp / giáp / vũ khí tại NPC đó'
+    height: 0.28
+  - content: '&7━━━━━━━━━━━━━━━━━━━━'
+    height: 0.28
+  - content: '&7Menu bán / rank / nhiệm vụ / bang:'
+    height: 0.28
+  - content: '&7xem bảng hướng dẫn ở &e/spawn'
+    height: 0.28
+  actions: {}
+facing: 0.0

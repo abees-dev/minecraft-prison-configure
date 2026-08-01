@@ -1,0 +1,39 @@
+# Hologram hướng dẫn member — Hub (world spawn)
+# Nội dung: vòng chơi mới (A) + lệnh quan trọng (B)
+# 2026-08-01 — chỉnh vị trí: /dh teleport GuideHub  rồi  /dh move here GuideHub
+enabled: true
+location: world:2,542:86,000:5,572
+display-range: 64
+update-range: 64
+update-interval: 20
+down-origin: false
+pages:
+- lines:
+  - content: '&6&l✦ &e&lHƯỚNG DẪN TÂN THỦ &6&l✦'
+    height: 0.35
+  - content: '&7━━━━━━━━━━━━━━━━━━━━'
+    height: 0.28
+  - content: '&f&l1. &aChọn class &7nhân vật'
+    height: 0.28
+  - content: '&f&l2. &aVào mỏ &7→ đào quặng theo rank'
+    height: 0.28
+  - content: '&f&l3. &e/sellgui &7→ bán quặng lấy tiền'
+    height: 0.28
+  - content: '&f&l4. &aNPC Tinh Luyện / Lò Rèn &7ở &etừng khu mỏ'
+    height: 0.28
+  - content: '&f&l5. &e/rank &7→ leo rank khi đủ tiền + level'
+    height: 0.28
+  - content: '&7━━━━━━━━━━━━━━━━━━━━'
+    height: 0.28
+  - content: '&b&lMenu & lệnh (tại spawn)'
+    height: 0.28
+  - content: '&e/rank &8· &e/sellgui &8· &e/dailyquest'
+    height: 0.28
+  - content: '&e/gang &8· &e/warp &8· &e/spawn'
+    height: 0.28
+  - content: '&7Tiền bán cá nhân = giá cố định.'
+    height: 0.28
+  - content: '&7Nhân bán: nạp kho bang &d/gang &7→ Bán Tất Cả'
+    height: 0.28
+  actions: {}
+facing: 0.0
