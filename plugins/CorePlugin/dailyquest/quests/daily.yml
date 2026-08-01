@@ -59,7 +59,7 @@ quests:
       amount: 300
     - type: mmocore-exp
       amount: 15
-
+  
   # --- Global mix pool (mọi rank, random cùng rank pool) ---
   EAT_GOLDEN_APPLE:
     global: true
@@ -70,11 +70,11 @@ quests:
     target: 5
     filter: GOLDEN_APPLE
     rewards:
-      - type: vault-money
-        amount: 400
-      - type: mmocore-exp
-        amount: 15
-
+    - type: vault-money
+      amount: 400
+    - type: mmocore-exp
+      amount: 15
+  
   EAT_ANY_FOOD:
     global: true
     name: '&aĂn uống gì cũng được'
@@ -84,11 +84,11 @@ quests:
     target: 10
     filter: FOOD
     rewards:
-      - type: vault-money
-        amount: 600
-      - type: mmocore-exp
-        amount: 20
-
+    - type: vault-money
+      amount: 600
+    - type: mmocore-exp
+      amount: 20
+  
   DRINK_POTION:
     global: true
     name: '&bUống thuốc'
@@ -98,11 +98,11 @@ quests:
     target: 2
     filter: POTION
     rewards:
-      - type: vault-money
-        amount: 700
-      - type: mmocore-exp
-        amount: 20
-
+    - type: vault-money
+      amount: 700
+    - type: mmocore-exp
+      amount: 20
+  
   # ========== Rank 1 (X-Prison mine blocks) ==========
   MINE_R1_STONE:
     rank: 1
@@ -196,11 +196,11 @@ quests:
     mmoitems-type: MATERIAL
     mmoitems-id: DA_NANG_CAP_TAN_BINH
     rewards:
-      - type: vault-money
-        amount: 1200
-      - type: mmocore-exp
-        amount: 40
-
+    - type: vault-money
+      amount: 1200
+    - type: mmocore-exp
+      amount: 40
+  
   # ========== Rank 2 (X-Prison mine blocks) ==========
   MINE_R2_STONE:
     rank: 2
@@ -294,11 +294,11 @@ quests:
     mmoitems-type: MATERIAL
     mmoitems-id: DA_NANG_CAP_TU_NHAN
     rewards:
-      - type: vault-money
-        amount: 1400
-      - type: mmocore-exp
-        amount: 45
-
+    - type: vault-money
+      amount: 1400
+    - type: mmocore-exp
+      amount: 45
+  
   # ========== Rank 3 (X-Prison mine blocks) ==========
   MINE_R3_IRON:
     rank: 3
@@ -392,11 +392,11 @@ quests:
     mmoitems-type: MATERIAL
     mmoitems-id: DA_NANG_CAP_LAO_CONG
     rewards:
-      - type: vault-money
-        amount: 1600
-      - type: mmocore-exp
-        amount: 50
-
+    - type: vault-money
+      amount: 1600
+    - type: mmocore-exp
+      amount: 50
+  
   # ========== Rank 4 (X-Prison mine blocks) ==========
   MINE_R4_GOLD:
     rank: 4
@@ -490,11 +490,11 @@ quests:
     mmoitems-type: MATERIAL
     mmoitems-id: DA_NANG_CAP_THO_DAO
     rewards:
-      - type: vault-money
-        amount: 1800
-      - type: mmocore-exp
-        amount: 55
-
+    - type: vault-money
+      amount: 1800
+    - type: mmocore-exp
+      amount: 55
+  
   # ========== Rank 5 (X-Prison mine blocks) ==========
   MINE_R5_REDSTONE:
     rank: 5
@@ -588,11 +588,11 @@ quests:
     mmoitems-type: MATERIAL
     mmoitems-id: DA_NANG_CAP_DOI_TRUONG
     rewards:
-      - type: vault-money
-        amount: 2000
-      - type: mmocore-exp
-        amount: 60
-
+    - type: vault-money
+      amount: 2000
+    - type: mmocore-exp
+      amount: 60
+  
   # ========== Rank 6 (X-Prison mine blocks) ==========
   MINE_R6_DIAMOND:
     rank: 6
@@ -686,11 +686,11 @@ quests:
     mmoitems-type: MATERIAL
     mmoitems-id: DA_NANG_CAP_PHO_QUAN_NGUC
     rewards:
-      - type: vault-money
-        amount: 2200
-      - type: mmocore-exp
-        amount: 65
-
+    - type: vault-money
+      amount: 2200
+    - type: mmocore-exp
+      amount: 65
+  
   # ========== Rank 7 (X-Prison mine blocks) ==========
   MINE_R7_EMERALD:
     rank: 7
@@ -784,11 +784,11 @@ quests:
     mmoitems-type: MATERIAL
     mmoitems-id: DA_NANG_CAP_QUAN_NGUC
     rewards:
-      - type: vault-money
-        amount: 2400
-      - type: mmocore-exp
-        amount: 70
-
+    - type: vault-money
+      amount: 2400
+    - type: mmocore-exp
+      amount: 70
+  
   # ========== Rank 8 (X-Prison mine blocks) ==========
   MINE_R8_DEBRIS:
     rank: 8
@@ -882,11 +882,11 @@ quests:
     mmoitems-type: MATERIAL
     mmoitems-id: DA_NANG_CAP_BA_CHU_NGUC_TU
     rewards:
-      - type: vault-money
-        amount: 2600
-      - type: mmocore-exp
-        amount: 75
-
+    - type: vault-money
+      amount: 2600
+    - type: mmocore-exp
+      amount: 75
+  
   # ========== Rank 9 (X-Prison mine blocks) ==========
   MINE_R9_DEBRIS:
     rank: 9
@@ -979,8 +979,156 @@ quests:
     mmoitems-type: MATERIAL
     mmoitems-id: DA_NANG_CAP_VUOT_NGUC
     rewards:
-      - type: vault-money
-        amount: 2800
-      - type: mmocore-exp
-        amount: 80
+    - type: vault-money
+      amount: 2800
+    - type: mmocore-exp
+      amount: 80
+  EAT_APPLE:
+    global: true
+    name: '&cĂn táo'
+    description: '&7Ăn 5 quả APPLE.'
+    revision: 1
+    type: CONSUME_ITEM
+    target: 5
+    filter: APPLE
+    rewards:
+    - type: vault-money
+      amount: 400
+    - type: mmocore-exp
+      amount: 15
+  MINE_R1_COBBLESTONE:
+    rank: 1
+    name: '&7Đào COBBLESTONE'
+    description: '&7Phá 256 khối COBBLESTONE trong mỏ.'
+    revision: 1
+    type: BREAK_BLOCK
+    target: 256
+    filter: COBBLESTONE
+    worlds:
+    - world_prison
+    rewards:
+    - type: vault-money
+      amount: 800
+    - type: mmocore-exp
+      amount: 30
+  MINE_R2_COAL_ORE:
+    rank: 2
+    name: '&7Đào COAL_ORE'
+    description: '&7Phá 128 khối COAL_ORE trong mỏ.'
+    revision: 1
+    type: BREAK_BLOCK
+    target: 128
+    filter: COAL_ORE
+    worlds:
+    - world_prison
+    rewards:
+    - type: vault-money
+      amount: 1000
+    - type: mmocore-exp
+      amount: 35
+  MINE_R3_COPPER_ORE:
+    rank: 3
+    name: '&7Đào COPPER_ORE'
+    description: '&7Phá 128 khối COPPER_ORE trong mỏ.'
+    revision: 1
+    type: BREAK_BLOCK
+    target: 128
+    filter: COPPER_ORE
+    worlds:
+    - world_prison
+    rewards:
+    - type: vault-money
+      amount: 1200
+    - type: mmocore-exp
+      amount: 40
+  MINE_R4_IRON_ORE:
+    rank: 4
+    name: '&7Đào IRON_ORE'
+    description: '&7Phá 128 khối IRON_ORE trong mỏ.'
+    revision: 1
+    type: BREAK_BLOCK
+    target: 128
+    filter: IRON_ORE
+    worlds:
+    - world_prison
+    rewards:
+    - type: vault-money
+      amount: 1400
+    - type: mmocore-exp
+      amount: 45
+  MINE_R5_GOLD_ORE:
+    rank: 5
+    name: '&7Đào GOLD_ORE'
+    description: '&7Phá 96 khối GOLD_ORE trong mỏ.'
+    revision: 1
+    type: BREAK_BLOCK
+    target: 96
+    filter: GOLD_ORE
+    worlds:
+    - world_prison
+    rewards:
+    - type: vault-money
+      amount: 1600
+    - type: mmocore-exp
+      amount: 50
+  MINE_R6_REDSTONE_ORE:
+    rank: 6
+    name: '&7Đào REDSTONE_ORE'
+    description: '&7Phá 96 khối REDSTONE_ORE trong mỏ.'
+    revision: 1
+    type: BREAK_BLOCK
+    target: 96
+    filter: REDSTONE_ORE
+    worlds:
+    - world_prison
+    rewards:
+    - type: vault-money
+      amount: 1800
+    - type: mmocore-exp
+      amount: 55
+  MINE_R7_LAPIS_ORE:
+    rank: 7
+    name: '&7Đào LAPIS_ORE'
+    description: '&7Phá 80 khối LAPIS_ORE trong mỏ.'
+    revision: 1
+    type: BREAK_BLOCK
+    target: 80
+    filter: LAPIS_ORE
+    worlds:
+    - world_prison
+    rewards:
+    - type: vault-money
+      amount: 2000
+    - type: mmocore-exp
+      amount: 60
+  MINE_R8_DIAMOND_ORE:
+    rank: 8
+    name: '&7Đào DIAMOND_ORE'
+    description: '&7Phá 64 khối DIAMOND_ORE trong mỏ.'
+    revision: 1
+    type: BREAK_BLOCK
+    target: 64
+    filter: DIAMOND_ORE
+    worlds:
+    - world_prison
+    rewards:
+    - type: vault-money
+      amount: 2200
+    - type: mmocore-exp
+      amount: 65
+  MINE_R9_EMERALD_ORE:
+    rank: 9
+    name: '&7Đào EMERALD_ORE'
+    description: '&7Phá 48 khối EMERALD_ORE trong mỏ.'
+    revision: 1
+    type: BREAK_BLOCK
+    target: 48
+    filter: EMERALD_ORE
+    worlds:
+    - world_prison
+    rewards:
+    - type: vault-money
+      amount: 2400
+    - type: mmocore-exp
+      amount: 70
 

@@ -29,11 +29,11 @@ quests:
     target: 40
     filter: GOLDEN_APPLE
     rewards:
-      - type: vault-money
-        amount: 4000
-      - type: mmocore-exp
-        amount: 80
-
+    - type: vault-money
+      amount: 4000
+    - type: mmocore-exp
+      amount: 80
+  
   W_EAT_ANY_FOOD:
     global: true
     name: '&aĂn uống tuần'
@@ -43,11 +43,11 @@ quests:
     target: 80
     filter: FOOD
     rewards:
-      - type: vault-money
-        amount: 5500
-      - type: mmocore-exp
-        amount: 100
-
+    - type: vault-money
+      amount: 5500
+    - type: mmocore-exp
+      amount: 100
+  
   W_DRINK_POTION:
     global: true
     name: '&bUống thuốc tuần'
@@ -57,11 +57,11 @@ quests:
     target: 20
     filter: POTION
     rewards:
-      - type: vault-money
-        amount: 6000
-      - type: mmocore-exp
-        amount: 100
-
+    - type: vault-money
+      amount: 6000
+    - type: mmocore-exp
+      amount: 100
+  
   # ========== Rank 1 (X-Prison mine blocks) ==========
   W_MINE_R1_STONE:
     rank: 1
@@ -155,11 +155,11 @@ quests:
     mmoitems-type: MATERIAL
     mmoitems-id: DA_NANG_CAP_TAN_BINH
     rewards:
-      - type: vault-money
-        amount: 10000
-      - type: mmocore-exp
-        amount: 138
-
+    - type: vault-money
+      amount: 10000
+    - type: mmocore-exp
+      amount: 138
+  
   # ========== Rank 2 (X-Prison mine blocks) ==========
   W_MINE_R2_STONE:
     rank: 2
@@ -253,11 +253,11 @@ quests:
     mmoitems-type: MATERIAL
     mmoitems-id: DA_NANG_CAP_TU_NHAN
     rewards:
-      - type: vault-money
-        amount: 12000
-      - type: mmocore-exp
-        amount: 156
-
+    - type: vault-money
+      amount: 12000
+    - type: mmocore-exp
+      amount: 156
+  
   # ========== Rank 3 (X-Prison mine blocks) ==========
   W_MINE_R3_IRON:
     rank: 3
@@ -351,11 +351,11 @@ quests:
     mmoitems-type: MATERIAL
     mmoitems-id: DA_NANG_CAP_LAO_CONG
     rewards:
-      - type: vault-money
-        amount: 14000
-      - type: mmocore-exp
-        amount: 174
-
+    - type: vault-money
+      amount: 14000
+    - type: mmocore-exp
+      amount: 174
+  
   # ========== Rank 4 (X-Prison mine blocks) ==========
   W_MINE_R4_GOLD:
     rank: 4
@@ -449,11 +449,11 @@ quests:
     mmoitems-type: MATERIAL
     mmoitems-id: DA_NANG_CAP_THO_DAO
     rewards:
-      - type: vault-money
-        amount: 16000
-      - type: mmocore-exp
-        amount: 192
-
+    - type: vault-money
+      amount: 16000
+    - type: mmocore-exp
+      amount: 192
+  
   # ========== Rank 5 (X-Prison mine blocks) ==========
   W_MINE_R5_REDSTONE:
     rank: 5
@@ -547,11 +547,11 @@ quests:
     mmoitems-type: MATERIAL
     mmoitems-id: DA_NANG_CAP_DOI_TRUONG
     rewards:
-      - type: vault-money
-        amount: 18000
-      - type: mmocore-exp
-        amount: 210
-
+    - type: vault-money
+      amount: 18000
+    - type: mmocore-exp
+      amount: 210
+  
   # ========== Rank 6 (X-Prison mine blocks) ==========
   W_MINE_R6_DIAMOND:
     rank: 6
@@ -645,11 +645,11 @@ quests:
     mmoitems-type: MATERIAL
     mmoitems-id: DA_NANG_CAP_PHO_QUAN_NGUC
     rewards:
-      - type: vault-money
-        amount: 20000
-      - type: mmocore-exp
-        amount: 228
-
+    - type: vault-money
+      amount: 20000
+    - type: mmocore-exp
+      amount: 228
+  
   # ========== Rank 7 (X-Prison mine blocks) ==========
   W_MINE_R7_EMERALD:
     rank: 7
@@ -743,11 +743,11 @@ quests:
     mmoitems-type: MATERIAL
     mmoitems-id: DA_NANG_CAP_QUAN_NGUC
     rewards:
-      - type: vault-money
-        amount: 22000
-      - type: mmocore-exp
-        amount: 246
-
+    - type: vault-money
+      amount: 22000
+    - type: mmocore-exp
+      amount: 246
+  
   # ========== Rank 8 (X-Prison mine blocks) ==========
   W_MINE_R8_DEBRIS:
     rank: 8
@@ -841,11 +841,11 @@ quests:
     mmoitems-type: MATERIAL
     mmoitems-id: DA_NANG_CAP_BA_CHU_NGUC_TU
     rewards:
-      - type: vault-money
-        amount: 24000
-      - type: mmocore-exp
-        amount: 264
-
+    - type: vault-money
+      amount: 24000
+    - type: mmocore-exp
+      amount: 264
+  
   # ========== Rank 9 (X-Prison mine blocks) ==========
   W_MINE_R9_DEBRIS:
     rank: 9
@@ -942,7 +942,271 @@ quests:
     mmoitems-type: MATERIAL
     mmoitems-id: DA_NANG_CAP_VUOT_NGUC
     rewards:
-      - type: vault-money
-        amount: 26000
-      - type: mmocore-exp
-        amount: 282
+    - type: vault-money
+      amount: 26000
+    - type: mmocore-exp
+      amount: 282
+  W_EAT_APPLE:
+    global: true
+    name: '&aĂn táo tuần'
+    description: '&7Ăn 40 quả táo (APPLE) trong tuần.'
+    revision: 1
+    type: CONSUME_ITEM
+    target: 40
+    filter: APPLE
+    rewards:
+    - type: vault-money
+      amount: 3000
+    - type: mmocore-exp
+      amount: 80
+  W_EAT_BREAD:
+    global: true
+    name: '&eĂn bánh mì tuần'
+    description: '&7Ăn 56 ổ bánh mì (BREAD) trong tuần.'
+    revision: 1
+    type: CONSUME_ITEM
+    target: 56
+    filter: BREAD
+    rewards:
+    - type: vault-money
+      amount: 3000
+    - type: mmocore-exp
+      amount: 80
+  W_EAT_COOKED_BEEF:
+    global: true
+    name: '&cĂn bò nướng tuần'
+    description: '&7Ăn 35 miếng bò nướng (COOKED_BEEF) trong tuần.'
+    revision: 1
+    type: CONSUME_ITEM
+    target: 35
+    filter: COOKED_BEEF
+    rewards:
+    - type: vault-money
+      amount: 3000
+    - type: mmocore-exp
+      amount: 80
+  W_MINE_R2_COAL_ORE:
+    rank: 2
+    name: '&8Đào than tuần'
+    description: '&7Phá 768 khối COAL_ORE trong tuần.'
+    revision: 1
+    type: BREAK_BLOCK
+    target: 768
+    filter: COAL_ORE
+    worlds:
+    - world_prison
+    rewards:
+    - type: vault-money
+      amount: 10000
+    - type: mmocore-exp
+      amount: 140
+  W_MINE_R2_DEEPSLATE_COAL:
+    rank: 2
+    name: '&8Than sâu tuần'
+    description: '&7Phá 576 khối DEEPSLATE_COAL_ORE trong tuần.'
+    revision: 1
+    type: BREAK_BLOCK
+    target: 576
+    filter: DEEPSLATE_COAL_ORE
+    worlds:
+    - world_prison
+    rewards:
+    - type: vault-money
+      amount: 11000
+    - type: mmocore-exp
+      amount: 150
+  W_MINE_R3_COPPER:
+    rank: 3
+    name: '&6Đào đồng tuần'
+    description: '&7Phá 768 khối COPPER_ORE trong tuần.'
+    revision: 1
+    type: BREAK_BLOCK
+    target: 768
+    filter: COPPER_ORE
+    worlds:
+    - world_prison
+    rewards:
+    - type: vault-money
+      amount: 12000
+    - type: mmocore-exp
+      amount: 160
+  W_MINE_R3_DEEPSLATE_COPPER:
+    rank: 3
+    name: '&6Đồng sâu tuần'
+    description: '&7Phá 576 khối DEEPSLATE_COPPER_ORE trong tuần.'
+    revision: 1
+    type: BREAK_BLOCK
+    target: 576
+    filter: DEEPSLATE_COPPER_ORE
+    worlds:
+    - world_prison
+    rewards:
+    - type: vault-money
+      amount: 12500
+    - type: mmocore-exp
+      amount: 165
+  W_MINE_R4_IRON:
+    rank: 4
+    name: '&fĐào sắt tuần'
+    description: '&7Phá 768 khối IRON_ORE trong tuần.'
+    revision: 1
+    type: BREAK_BLOCK
+    target: 768
+    filter: IRON_ORE
+    worlds:
+    - world_prison
+    rewards:
+    - type: vault-money
+      amount: 14000
+    - type: mmocore-exp
+      amount: 180
+  W_MINE_R4_DEEPSLATE_IRON:
+    rank: 4
+    name: '&fSắt sâu tuần'
+    description: '&7Phá 576 khối DEEPSLATE_IRON_ORE trong tuần.'
+    revision: 1
+    type: BREAK_BLOCK
+    target: 576
+    filter: DEEPSLATE_IRON_ORE
+    worlds:
+    - world_prison
+    rewards:
+    - type: vault-money
+      amount: 14500
+    - type: mmocore-exp
+      amount: 185
+  W_MINE_R5_GOLD:
+    rank: 5
+    name: '&6Đào vàng tuần'
+    description: '&7Phá 576 khối GOLD_ORE trong tuần.'
+    revision: 1
+    type: BREAK_BLOCK
+    target: 576
+    filter: GOLD_ORE
+    worlds:
+    - world_prison
+    rewards:
+    - type: vault-money
+      amount: 16000
+    - type: mmocore-exp
+      amount: 200
+  W_MINE_R5_DEEPSLATE_GOLD:
+    rank: 5
+    name: '&6Vàng sâu tuần'
+    description: '&7Phá 432 khối DEEPSLATE_GOLD_ORE trong tuần.'
+    revision: 1
+    type: BREAK_BLOCK
+    target: 432
+    filter: DEEPSLATE_GOLD_ORE
+    worlds:
+    - world_prison
+    rewards:
+    - type: vault-money
+      amount: 17000
+    - type: mmocore-exp
+      amount: 210
+  W_MINE_R6_REDSTONE:
+    rank: 6
+    name: '&cĐào redstone tuần'
+    description: '&7Phá 576 khối REDSTONE_ORE trong tuần.'
+    revision: 1
+    type: BREAK_BLOCK
+    target: 576
+    filter: REDSTONE_ORE
+    worlds:
+    - world_prison
+    rewards:
+    - type: vault-money
+      amount: 19000
+    - type: mmocore-exp
+      amount: 230
+  W_MINE_R6_DEEPSLATE_REDSTONE:
+    rank: 6
+    name: '&cRedstone sâu tuần'
+    description: '&7Phá 432 khối DEEPSLATE_REDSTONE_ORE trong tuần.'
+    revision: 1
+    type: BREAK_BLOCK
+    target: 432
+    filter: DEEPSLATE_REDSTONE_ORE
+    worlds:
+    - world_prison
+    rewards:
+    - type: vault-money
+      amount: 20000
+    - type: mmocore-exp
+      amount: 240
+  W_MINE_R7_LAPIS:
+    rank: 7
+    name: '&9Đào lapis tuần'
+    description: '&7Phá 480 khối LAPIS_ORE trong tuần.'
+    revision: 1
+    type: BREAK_BLOCK
+    target: 480
+    filter: LAPIS_ORE
+    worlds:
+    - world_prison
+    rewards:
+    - type: vault-money
+      amount: 22000
+    - type: mmocore-exp
+      amount: 260
+  W_MINE_R7_DEEPSLATE_LAPIS:
+    rank: 7
+    name: '&9Lapis sâu tuần'
+    description: '&7Phá 384 khối DEEPSLATE_LAPIS_ORE trong tuần.'
+    revision: 1
+    type: BREAK_BLOCK
+    target: 384
+    filter: DEEPSLATE_LAPIS_ORE
+    worlds:
+    - world_prison
+    rewards:
+    - type: vault-money
+      amount: 23000
+    - type: mmocore-exp
+      amount: 270
+  W_MINE_R8_DIAMOND:
+    rank: 8
+    name: '&bĐào kim cương tuần'
+    description: '&7Phá 384 khối DIAMOND_ORE trong tuần.'
+    revision: 1
+    type: BREAK_BLOCK
+    target: 384
+    filter: DIAMOND_ORE
+    worlds:
+    - world_prison
+    rewards:
+    - type: vault-money
+      amount: 28000
+    - type: mmocore-exp
+      amount: 300
+  W_MINE_R8_DEEPSLATE_DIAMOND:
+    rank: 8
+    name: '&bKim cương sâu tuần'
+    description: '&7Phá 288 khối DEEPSLATE_DIAMOND_ORE trong tuần.'
+    revision: 1
+    type: BREAK_BLOCK
+    target: 288
+    filter: DEEPSLATE_DIAMOND_ORE
+    worlds:
+    - world_prison
+    rewards:
+    - type: vault-money
+      amount: 29000
+    - type: mmocore-exp
+      amount: 310
+  W_MINE_R9_DEEPSLATE_EMERALD:
+    rank: 9
+    name: '&aNgọc lục sâu tuần'
+    description: '&7Phá 216 khối DEEPSLATE_EMERALD_ORE trong tuần.'
+    revision: 1
+    type: BREAK_BLOCK
+    target: 216
+    filter: DEEPSLATE_EMERALD_ORE
+    worlds:
+    - world_prison
+    rewards:
+    - type: vault-money
+      amount: 36000
+    - type: mmocore-exp
+      amount: 360
