@@ -1,95 +1,136 @@
 # Docs:
-#   Purpose: Config-driven item exchange GUIs (MMOItems cost → crate-key / commands).
+#   Purpose: Config-driven item exchange GUIs (MMOItems / ItemsAdder cost → crate-key / commands).
 #     Each entry under exchanges: has its own command + GUI. That GUI can have
 #     one offer (Skript /doilongtoc style) or many slots (shop style).
+#   GUI: always uses core GuiStyle.paintFrame (black/gray glass + accent panes),
+#     same visual language as sockets / upgrade / rebirth / dailyquest.
+#     Title format: &8[&x✦&8] &x&lTÊN — prefer rows >= 3 so the frame reads clearly.
 #   Citizens: /npc command add <command> --player
 #   Reload: /utility reload updates display/cost/messages/sounds.
 #           Adding or renaming command/aliases needs a server restart.
 #
-# Cost type (v1): mmoitem — match MMOITEMS_ITEM_ID (+ optional mmo-type).
-# Reward types (v1):
+# Display sources (display.type, or inferred from keys):
+#   material   — vanilla material (+ name/lore)
+#   mmoitem    — show real MMOItem (mmo-type + mmo-id); material = fallback
+#   itemsadder — show real IA item (ia-id: namespace:id); material = fallback
+#   Blank name / empty lore keep the custom item's own name/lore.
+#
+# Cost types:
+#   mmoitem    — match MMOITEMS_ITEM_ID (+ optional mmo-type)
+#   itemsadder — match IA namespaced id in cost.id (namespace:id)
+#
+# Reward types:
 #   crate-key — "crates key give %player% <key> <amount>"
 #   command   — list of console commands (%player% substituted)
 
 exchanges:
+  doikey:
+    enabled: true
+    command: doikey
+    aliases: []
+    permission: ''
+    prefix: '&6&l[Đổi]&r'
+    gui:
+      title: '&8[&6✦&8] &6&lĐỔI CHÌA KHÓA'
+      rows: 3
+      accent: YELLOW_STAINED_GLASS_PANE
+    offers:
+    - slot: 13
+      display:
+        material: itemsadder
+        ia-id: elitecreatures:elite_crates_ice_key
+        name: '&6&l⚔ Chìa Khóa Long Tộc'
+        lore:
+        - '&7Click để đổi lấy &6Chìa Khóa Long Tộc'
+        glowing: true
+      cost:
+        type: mmoitem
+        id: AN_TIN_LONG_TOC
+        amount: 1
+      reward:
+        type: crate-key
+        key: chia_khoa_long_toc
+        amount: 1
+      success: '{prefix} &aĐã đổi &e1x Ấn Tín Long Tộc &alấy &61x Chìa Khóa Long Tộc&a!'
+      missing: '{prefix} &cBạn cần có &e1x Ấn Tín Long Tộc &ctrong túi để đổi!'
+      sound: entity.player.levelup
   doilongtoc:
     enabled: true
     command: doilongtoc
     aliases: []
-    permission: ""
-    prefix: "&6&l[Long Tộc]&r"
+    permission: ''
+    prefix: '&6&l[Long Tộc]&r'
     gui:
-      title: "&8[&6⚔&8] &6&lĐỔI CHÌA KHÓA LONG TỘC"
-      rows: 1
+      title: '&8[&6✦&8] &6&lĐỔI CHÌA KHÓA LONG TỘC'
+      rows: 3
       accent: YELLOW_STAINED_GLASS_PANE
-      paint-frame: false
     offers:
-      - slot: 4
-        display:
-          material: HEART_OF_THE_SEA
-          name: "&6&l⚔ Ấn Tín Long Tộc"
-          lore:
-            - "&7Click để đổi lấy &6Chìa Khóa Long Tộc"
-          glowing: true
-        cost:
-          type: mmoitem
-          id: AN_TIN_LONG_TOC
-          amount: 1
-          # mmo-type: ""
-        reward:
-          type: crate-key
-          key: chia_khoa_long_toc
-          amount: 1
-        success: "{prefix} &aĐã đổi &e1x Ấn Tín Long Tộc &alấy &61x Chìa Khóa Long Tộc&a!"
-        missing: "{prefix} &cBạn cần có &e1x Ấn Tín Long Tộc &ctrong túi để đổi!"
-        sound: entity.player.levelup
+    - slot: 13
+      display:
+        material: HEART_OF_THE_SEA
+        name: '&6&l⚔ Ấn Tín Long Tộc'
+        lore:
+        - '&7Click để đổi lấy &6Chìa Khóa Long Tộc'
+        glowing: true
+      cost:
+        type: mmoitem
+        id: AN_TIN_LONG_TOC
+        amount: 1
+      reward:
+        type: crate-key
+        key: chia_khoa_long_toc
+        amount: 1
+      success: '{prefix} &aĐã đổi &e1x Ấn Tín Long Tộc &alấy &61x Chìa Khóa Long Tộc&a!'
+      missing: '{prefix} &cBạn cần có &e1x Ấn Tín Long Tộc &ctrong túi để đổi!'
+      sound: entity.player.levelup
 
-  # Example multi-offer shop (disabled). Copy / rename to enable.
-  # shop_example:
-  #   enabled: false
-  #   command: doisample
-  #   aliases: []
-  #   permission: ""
-  #   prefix: "&e&l[Đổi]&r"
-  #   gui:
-  #     title: "&8[&e✦&8] &e&lSHOP ĐỔI ĐỒ"
-  #     rows: 3
-  #     accent: YELLOW_STAINED_GLASS_PANE
-  #     paint-frame: true
-  #   offers:
-  #     - slot: 11
-  #       display:
-  #         material: HEART_OF_THE_SEA
-  #         name: "&6&lĐổi chìa Long Tộc"
-  #         lore:
-  #           - "&7Cost: &e1x Ấn Tín Long Tộc"
-  #         glowing: true
-  #       cost:
-  #         type: mmoitem
-  #         id: AN_TIN_LONG_TOC
-  #         amount: 1
-  #       reward:
-  #         type: crate-key
-  #         key: chia_khoa_long_toc
-  #         amount: 1
-  #       success: "{prefix} &aĐổi thành công!"
-  #       missing: "{prefix} &cThiếu vật phẩm!"
-  #       sound: entity.player.levelup
-  #     - slot: 15
-  #       display:
-  #         material: GOLD_INGOT
-  #         name: "&e&lĐổi bằng lệnh"
-  #         lore:
-  #           - "&7Ví dụ reward type: command"
-  #         glowing: true
-  #       cost:
-  #         type: mmoitem
-  #         id: AN_TIN_LONG_TOC
-  #         amount: 1
-  #       reward:
-  #         type: command
-  #         commands:
-  #           - "crates key give %player% chia_khoa_long_toc 1"
-  #       success: "{prefix} &aĐổi thành công!"
-  #       missing: "{prefix} &cThiếu vật phẩm!"
-  #       sound: entity.player.levelup
+# Example multi-offer shop (disabled). Copy / rename to enable.
+# shop_example:
+#   enabled: false
+#   command: doisample
+#   aliases: []
+#   permission: ""
+#   prefix: "&e&l[Đổi]&r"
+#   gui:
+#     title: "&8[&e✦&8] &e&lSHOP ĐỔI ĐỒ"
+#     rows: 3
+#     accent: YELLOW_STAINED_GLASS_PANE
+#   offers:
+#     - slot: 11
+#       display:
+#         type: itemsadder
+#         ia-id: longtoc:an_tin_long_toc
+#         material: HEART_OF_THE_SEA
+#         glowing: true
+#       cost:
+#         type: itemsadder
+#         id: longtoc:an_tin_long_toc
+#         amount: 1
+#       reward:
+#         type: crate-key
+#         key: chia_khoa_long_toc
+#         amount: 1
+#       success: "{prefix} &aĐổi thành công!"
+#       missing: "{prefix} &cThiếu vật phẩm!"
+#       sound: entity.player.levelup
+#     - slot: 15
+#       display:
+#         type: mmoitem
+#         mmo-type: CONSUMABLE
+#         mmo-id: AN_TIN_LONG_TOC
+#         material: GOLD_INGOT
+#         name: "&e&lĐổi MMOItems"
+#         lore:
+#           - "&7Override name/lore (optional)"
+#         glowing: true
+#       cost:
+#         type: mmoitem
+#         id: AN_TIN_LONG_TOC
+#         amount: 1
+#       reward:
+#         type: command
+#         commands:
+#           - "crates key give %player% chia_khoa_long_toc 1"
+#       success: "{prefix} &aĐổi thành công!"
+#       missing: "{prefix} &cThiếu vật phẩm!"
+#       sound: entity.player.levelup

@@ -256,10 +256,68 @@ prison_rank9_boss_drops:
   - free_jewelry_key_drop 1 0.12
 
 # ---------------- TRÙM CUỐI: MA VƯƠNG NGỤC TÙ ----------------
+# Base luôn roll. Bonus mốc ≥10/20/30/40/50 trên mob Drops.
+# Không dùng TINHTHE_CUONGHOA_* — chỉ đá Thiên Mệnh + đá cường hóa + Huy Diệt.
 prison_ma_vuong_boss_drops:
   Drops:
   - mmoitem{type=MATERIAL;id=TINHTHE_HUY_DIET} 1 0.25
   - mmoitem{type=MATERIAL;id=DA_CUONG_HOA_THIEN_MENH} 1 0.15
-  - mmoitem{type=MATERIAL;id=TINHTHE_CUONGHOA_VUKHI} 1 0.20
-  - mmoitem{type=MATERIAL;id=TINHTHE_CUONGHOA_GIAP} 1 0.20
+  - mmoitem{type=MATERIAL;id=DA_CUONG_HOA_VU_KHI_HUYEN_THOAI} 1 0.20
+  - mmoitem{type=MATERIAL;id=DA_CUONG_HOA_GIAP_HUYEN_THOAI} 1 0.20
   - free_jewelry_key_drop 1 0.15
+
+# ≥10: tỉ lệ đá cường hóa cao hơn một nấc
+prison_ma_vuong_bonus_lv10:
+  Conditions:
+  - level{l=>10} true
+  Drops:
+  - mmoitem{type=MATERIAL;id=TINHTHE_HUY_DIET} 1 0.15
+  - mmoitem{type=MATERIAL;id=DA_CUONG_HOA_VU_KHI_HUYEN_THOAI} 1 0.15
+  - mmoitem{type=MATERIAL;id=DA_CUONG_HOA_GIAP_HUYEN_THOAI} 1 0.15
+  - free_jewelry_key_drop 1 0.10
+
+# ≥20: thêm đá Thiên Mệnh + đục lỗ Thiên Mệnh
+prison_ma_vuong_bonus_lv20:
+  Conditions:
+  - level{l=>20} true
+  Drops:
+  - mmoitem{type=MATERIAL;id=TINHTHE_HUY_DIET} 1 0.20
+  - mmoitem{type=MATERIAL;id=DA_CUONG_HOA_THIEN_MENH} 1 0.20
+  - mmoitem{type=MATERIAL;id=DA_DUC_LO_THIEN_MENH} 1 0.05
+  - free_jewelry_key_drop 1 0.10
+
+# ≥30: gần chắc Huy Diệt + đá cao
+prison_ma_vuong_bonus_lv30:
+  Conditions:
+  - level{l=>30} true
+  Drops:
+  - mmoitem{type=MATERIAL;id=TINHTHE_HUY_DIET} 1 0.50
+  - mmoitem{type=MATERIAL;id=DA_CUONG_HOA_THIEN_MENH} 1 0.25
+  - mmoitem{type=MATERIAL;id=DA_DUC_LO_THIEN_MENH} 1 0.10
+  - mmoitem{type=MATERIAL;id=DA_CUONG_HOA_VU_KHI_HUYEN_THOAI} 1 0.25
+  - mmoitem{type=MATERIAL;id=DA_CUONG_HOA_GIAP_HUYEN_THOAI} 1 0.25
+  - free_jewelry_key_drop 1 0.15
+
+# ≥40: gần max — đá cường hóa có thể x2
+prison_ma_vuong_bonus_lv40:
+  Conditions:
+  - level{l=>40} true
+  Drops:
+  - mmoitem{type=MATERIAL;id=TINHTHE_HUY_DIET} 1 0.60
+  - mmoitem{type=MATERIAL;id=DA_CUONG_HOA_THIEN_MENH} 1 0.30
+  - mmoitem{type=MATERIAL;id=DA_DUC_LO_THIEN_MENH} 1 0.12
+  - mmoitem{type=MATERIAL;id=DA_CUONG_HOA_VU_KHI_HUYEN_THOAI} 1to2 0.30
+  - mmoitem{type=MATERIAL;id=DA_CUONG_HOA_GIAP_HUYEN_THOAI} 1to2 0.30
+  - free_jewelry_key_drop 1 0.20
+
+# ≥50: max — chắc chắn Huy Diệt + tỉ lệ đá cao nhất
+prison_ma_vuong_bonus_lv50:
+  Conditions:
+  - level{l=>50} true
+  Drops:
+  - mmoitem{type=MATERIAL;id=TINHTHE_HUY_DIET} 1 1.0
+  - mmoitem{type=MATERIAL;id=DA_CUONG_HOA_THIEN_MENH} 1 0.40
+  - mmoitem{type=MATERIAL;id=DA_DUC_LO_THIEN_MENH} 1 0.15
+  - mmoitem{type=MATERIAL;id=DA_CUONG_HOA_VU_KHI_HUYEN_THOAI} 1to2 0.35
+  - mmoitem{type=MATERIAL;id=DA_CUONG_HOA_GIAP_HUYEN_THOAI} 1to2 0.35
+  - free_jewelry_key_drop 1 0.25

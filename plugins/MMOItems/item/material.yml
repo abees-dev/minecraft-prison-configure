@@ -265,36 +265,6 @@ NEN_BA_VUOT_NGUC:
       - "&7 &4●&7 Dùng để chế Cường Hóa Thạch & Nâng Cấp Cúp Vượt Ngục"
       - "&7 &4●&7 Cấp tinh luyện cao nhất, chỉ có ở rank cuối"
 
-TINHTHE_CUONGHOA_VUKHI:
-  base:
-    revision-id: 1
-    material: PAPER
-    custom-model-data: 10019
-    name: "&c✦ Tinh Thể Cường Hóa Vũ Khí"
-    tier: RARE
-    lore-format: ingredient-lore
-    hide-enchants: true
-    enchants:
-      unbreaking: 1
-    lore:
-      - "&7 &c●&7 Tinh thể chứa năng lượng chiến đấu rớt từ Quái Vật"
-      - "&7 &c●&7 Dùng để rèn & nâng cấp Vũ Khí (Kiếm, Rìu, Trượng) tại Lò Rèn"
-
-TINHTHE_CUONGHOA_GIAP:
-  base:
-    revision-id: 1
-    material: PAPER
-    custom-model-data: 10013
-    name: "&b✦ Tinh Thể Cường Hóa Giáp"
-    tier: RARE
-    lore-format: ingredient-lore
-    hide-enchants: true
-    enchants:
-      unbreaking: 1
-    lore:
-      - "&7 &b●&7 Tinh thể mang năng lượng bảo hộ rớt từ Quái Vật"
-      - "&7 &b●&7 Dùng để rèn & nâng cấp Bộ Giáp (Nón, Áo, Quần, Giày) tại Lò Rèn"
-
 TINHTHE_HUY_DIET:
   base:
     revision-id: 1
@@ -727,5 +697,3 @@ MANH_THIEN_GIOI:
       - "&7 &b●&7 Nhận khi quay đủ &f10 lần &bHòm Thiên Giới"
       - "&7 &b●&7 Đem tới NPC &eSứ Giả Thiên Giới"
       - "&7 &b●&7 Đổi &f1 Mảnh &7→ &a1 món Hộ Long&7 (kiếm/giáp)"
-
-

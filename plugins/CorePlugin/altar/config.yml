@@ -45,7 +45,7 @@ altars:
     key-item: HUY_HIEU_TRIEU_HOI
     key-amount: 1
     # Global cooldown (shared by all players) after a successful summon.
-    cooldown-seconds: 10
+    cooldown-seconds: 360
     # Delay between the start message and the summon commands.
     summon-delay-seconds: 3
     # Added to the altar block position for the {x} {y} {z} placeholders.
@@ -81,10 +81,16 @@ altars:
       y-offset: 1.8
       lines-ready:
         - "&4&l⛧ &c&lBÀN THỜ MA VƯƠNG &4&l⛧"
-        - "&eCấp &c{level}&7/&c{max_level} &a- Click để triệu hồi!"
+        - "&eCấp &c{level}&7/&c{max_level} &a| Sẵn sàng"
+        - "&7Cần &e1 Huy Hiệu Triệu Hồi &7(click phải)"
+        - "&7Giết boss → &c+1 cấp &7· Loot mốc &e10&7/&e20&7/&e30&7/&e40&7/&e50"
+        - "&8Không đánh 48h: -1 cấp · Reset ngày 1 hàng tháng"
       lines-cooldown:
         - "&4&l⛧ &c&lBÀN THỜ MA VƯƠNG &4&l⛧"
-        - "&eCấp &c{level}&7/&c{max_level} &7| &c{min}p {sec}s"
+        - "&eCấp &c{level}&7/&c{max_level} &c| Đang hồi"
+        - "&7Triệu hồi lại sau: &c{min} phút {sec} giây"
+        - "&7Giết boss → &c+1 cấp &7· Loot mốc &e10&7/&e20&7/&e30&7/&e40&7/&e50"
+        - "&8Không đánh 48h: -1 cấp · Reset ngày 1 hàng tháng"
     # Optional console commands re-run every status-update-seconds while the
     # altar has a position - for an EXTERNAL hologram plugin instead of the
     # built-in one above (e.g. DecentHolograms "dh line set ...", what the

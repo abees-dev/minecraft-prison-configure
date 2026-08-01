@@ -2,15 +2,15 @@ const fs = require('fs');
 const path = require('path');
 
 const ranks = [
-  { id: 'TAN_BINH', name: 'Tân Binh', rate: 85, safeRate: 100, stone: 1, crystal: 1, talisman: 'BUA_MAY_MAN_SO_CAP', talismanName: 'Bùa May Mắn Sơ Cấp' },
-  { id: 'TU_NHAN', name: 'Tù Nhân', rate: 85, safeRate: 100, stone: 1, crystal: 1, talisman: 'BUA_MAY_MAN_SO_CAP', talismanName: 'Bùa May Mắn Sơ Cấp' },
-  { id: 'LAO_CONG', name: 'Lao Công', rate: 70, safeRate: 95, stone: 2, crystal: 2, talisman: 'BUA_MAY_MAN_TRUNG_CAP', talismanName: 'Bùa May Mắn Trung Cấp' },
-  { id: 'THO_DAO', name: 'Thợ Đào', rate: 70, safeRate: 95, stone: 2, crystal: 2, talisman: 'BUA_MAY_MAN_TRUNG_CAP', talismanName: 'Bùa May Mắn Trung Cấp' },
-  { id: 'DOI_TRUONG', name: 'Đội Trưởng', rate: 50, safeRate: 85, stone: 4, crystal: 4, talisman: 'BUA_MAY_MAN_CAO_CAP', talismanName: 'Bùa May Mắn Cao Cấp' },
-  { id: 'PHO_QUAN_NGUC', name: 'Phó Quản Ngục', rate: 50, safeRate: 85, stone: 4, crystal: 4, talisman: 'BUA_MAY_MAN_CAO_CAP', talismanName: 'Bùa May Mắn Cao Cấp' },
-  { id: 'QUAN_NGUC', name: 'Quản Ngục', rate: 30, safeRate: 80, stone: 8, crystal: 8, talisman: 'DA_CUONG_HOA_THIEN_MENH', talismanName: 'Đá Thiên Mệnh' },
-  { id: 'BA_CHU_NGUC_TU', name: 'Bá Chủ Ngục Tù', rate: 30, safeRate: 80, stone: 8, crystal: 8, talisman: 'DA_CUONG_HOA_THIEN_MENH', talismanName: 'Đá Thiên Mệnh' },
-  { id: 'VUOT_NGUC', name: 'Vượt Ngục', rate: 15, safeRate: 70, stone: 16, crystal: 16, talisman: 'DA_CUONG_HOA_THIEN_MENH', talismanName: 'Đá Thiên Mệnh' },
+  { id: 'TAN_BINH', name: 'Tân Binh', rate: 85, safeRate: 100, stone: 1, talisman: 'BUA_MAY_MAN_SO_CAP', talismanName: 'Bùa May Mắn Sơ Cấp' },
+  { id: 'TU_NHAN', name: 'Tù Nhân', rate: 85, safeRate: 100, stone: 1, talisman: 'BUA_MAY_MAN_SO_CAP', talismanName: 'Bùa May Mắn Sơ Cấp' },
+  { id: 'LAO_CONG', name: 'Lao Công', rate: 70, safeRate: 95, stone: 2, talisman: 'BUA_MAY_MAN_TRUNG_CAP', talismanName: 'Bùa May Mắn Trung Cấp' },
+  { id: 'THO_DAO', name: 'Thợ Đào', rate: 70, safeRate: 95, stone: 2, talisman: 'BUA_MAY_MAN_TRUNG_CAP', talismanName: 'Bùa May Mắn Trung Cấp' },
+  { id: 'DOI_TRUONG', name: 'Đội Trưởng', rate: 50, safeRate: 85, stone: 4, talisman: 'BUA_MAY_MAN_CAO_CAP', talismanName: 'Bùa May Mắn Cao Cấp' },
+  { id: 'PHO_QUAN_NGUC', name: 'Phó Quản Ngục', rate: 50, safeRate: 85, stone: 4, talisman: 'BUA_MAY_MAN_CAO_CAP', talismanName: 'Bùa May Mắn Cao Cấp' },
+  { id: 'QUAN_NGUC', name: 'Quản Ngục', rate: 30, safeRate: 80, stone: 8, talisman: 'DA_CUONG_HOA_THIEN_MENH', talismanName: 'Đá Thiên Mệnh' },
+  { id: 'BA_CHU_NGUC_TU', name: 'Bá Chủ Ngục Tù', rate: 30, safeRate: 80, stone: 8, talisman: 'DA_CUONG_HOA_THIEN_MENH', talismanName: 'Đá Thiên Mệnh' },
+  { id: 'VUOT_NGUC', name: 'Vượt Ngục', rate: 15, safeRate: 70, stone: 16, talisman: 'DA_CUONG_HOA_THIEN_MENH', talismanName: 'Đá Thiên Mệnh' },
 ];
 
 let yaml = `name: '&8[&c✦&8] &c&lBÀN CƯỜNG HÓA TRANG BỊ (#page#/#max#)'
@@ -42,7 +42,6 @@ function addWeaponRecipe(type, id, r) {
             success-rate: ${r.rate}
         ingredients:
         - mmoitem{type=CONSUMABLE,id=DA_CUONG_HOA_VU_KHI,amount=${r.stone},display="Đá Cường Hóa Vũ Khí"}
-        - mmoitem{type=MATERIAL,id=TINHTHE_CUONGHOA_VUKHI,amount=${r.crystal},display="Tinh Thể Cường Hóa Vũ Khí"}
 
     upgrade-${id.toLowerCase()}-safe:
         item:
@@ -53,7 +52,6 @@ function addWeaponRecipe(type, id, r) {
             success-rate: ${r.safeRate}
         ingredients:
         - mmoitem{type=CONSUMABLE,id=DA_CUONG_HOA_VU_KHI,amount=${r.stone},display="Đá Cường Hóa Vũ Khí"}
-        - mmoitem{type=MATERIAL,id=TINHTHE_CUONGHOA_VUKHI,amount=${r.crystal},display="Tinh Thể Cường Hóa Vũ Khí"}
         - mmoitem{type=CONSUMABLE,id=${r.talisman},amount=1,display="${r.talismanName}"}
 
 `;
@@ -70,7 +68,6 @@ function addArmorRecipe(type, id, r) {
             success-rate: ${r.rate}
         ingredients:
         - mmoitem{type=CONSUMABLE,id=DA_CUONG_HOA_GIAP,amount=${r.stone},display="Đá Cường Hóa Giáp"}
-        - mmoitem{type=MATERIAL,id=TINHTHE_CUONGHOA_GIAP,amount=${r.crystal},display="Tinh Thể Cường Hóa Giáp"}
 
     upgrade-${id.toLowerCase()}-safe:
         item:
@@ -81,7 +78,6 @@ function addArmorRecipe(type, id, r) {
             success-rate: ${r.safeRate}
         ingredients:
         - mmoitem{type=CONSUMABLE,id=DA_CUONG_HOA_GIAP,amount=${r.stone},display="Đá Cường Hóa Giáp"}
-        - mmoitem{type=MATERIAL,id=TINHTHE_CUONGHOA_GIAP,amount=${r.crystal},display="Tinh Thể Cường Hóa Giáp"}
         - mmoitem{type=CONSUMABLE,id=${r.talisman},amount=1,display="${r.talismanName}"}
 
 `;

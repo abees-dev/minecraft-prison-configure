@@ -843,6 +843,11 @@ PRISON_MA_VUONG_BOSS:
     Style: SEGMENTED_10
   Drops:
     - prison_ma_vuong_boss_drops
+    - prison_ma_vuong_bonus_lv10
+    - prison_ma_vuong_bonus_lv20
+    - prison_ma_vuong_bonus_lv30
+    - prison_ma_vuong_bonus_lv40
+    - prison_ma_vuong_bonus_lv50
   Skills:
     - skill{s=Boss_Anti_Kite_Pull} @target ~onTimer:80
     - damage{amount=65;ignorearmor=true;ignoreiframes=true} @PlayersInRadius{r=6} ~onTimer:45
