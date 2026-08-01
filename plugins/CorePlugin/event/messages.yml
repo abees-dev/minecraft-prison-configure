@@ -1,0 +1,42 @@
+# Docs:
+#   Purpose: Player-facing messages for the Event module (top-level generic
+#     defaults; per-event overrides live in config.yml under
+#     events.<id>.messages, e.g. bloodmoon's original flavor text).
+#   Reload: /event reload
+#   Legacy '&' color codes. {event} {placeholders} substituted per message.
+
+warn: "&5&l⚔ {event} &8» &fCòn &e{minutes} phút&f nữa {event} bắt đầu!"
+start: "&5&l⚔ {event} &8» &cBắt đầu!"
+end: "&5&l⚔ {event} &8» &fSự kiện đã kết thúc."
+already: "&c&l[{event}] &fSự kiện đang diễn ra rồi!"
+not-active: "&c&l[{event}] &fHiện không có {event}."
+spawn-set: "&a&l[{event}] &fĐã lưu điểm spawn boss tại vị trí của bạn."
+level-up: "&6&l[{event}] &fBoss đã tăng lên cấp &c{level}&f/&c{max_level}&f!"
+started-manual: "&a&l[{event}] &fĐã bắt đầu thủ công!"
+stopped-manual: "&a&l[{event}] &fĐã kết thúc thủ công!"
+spawned-manual: "&a&l[{event}] &fĐã spawn boss tại điểm đã lưu."
+admin:
+  no-permission: "&cBạn không có quyền dùng lệnh này!"
+  not-found: "&c[Event] Không có event id &e{id} &ctrong config.yml."
+  status-active: "&5&l⚔ &aĐANG DIỄN RA"
+  status-inactive: "&5&l⚔ &7Không active"
+  status-schedule: "&7Lịch: &f{day} &e{start_hour}:00&f–&e{end_hour}:00"
+  status-spawn: "&7Spawn: &f{world} &8@ &f{x} {y} {z}"
+  status-boss: "&7Boss: &f{mob_id}:{level}"
+  list-header: "&6&l[Event] &fDanh sách sự kiện:"
+  list-line: "&7• &e{id} &7— {event} &7| {status} &7| Level: &f{level}"
+  level-ok: "&a[Event] &f{event} &fđang cấp &c{level}&f/&c{max_level}&f."
+  setlevel-ok: "&a[Event] &fĐã đặt cấp &e{event} &athành &c{level}&f/&c{max_level}&f."
+  reload-ok: "&a&l[Event] &fĐã tải lại config."
+  usage:
+    - "&6&l[Event] &fLệnh quản lý sự kiện:"
+    - "&e/event list &7- Danh sách sự kiện + trạng thái"
+    - "&e/event start <id> &7- Bắt đầu thủ công"
+    - "&e/event stop <id> &7- Kết thúc thủ công"
+    - "&e/event setspawn <id> &7- Lưu điểm spawn tại vị trí của bạn"
+    - "&e/event spawn <id> &7- Spawn boss tại điểm đã lưu"
+    - "&e/event status <id> &7- Xem trạng thái"
+    - "&e/event level <id> &7- Xem cấp boss leveling"
+    - "&e/event setlevel <id> <n> &7- Đặt cấp boss leveling"
+    - "&e/event reload &7- Tải lại config"
+  usage-setlevel: "&c&l[Event] &fDùng: /event setlevel <id> <số>"

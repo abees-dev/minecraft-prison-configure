@@ -33,3 +33,15 @@ CREATE TABLE IF NOT EXISTS dq_period_bonus (
     claimed_at     TIMESTAMP    NOT NULL DEFAULT CURRENT_TIMESTAMP,
     PRIMARY KEY (uuid, period_type, period_key, bonus_id)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+-- Per-player daily quest assignment (rank-frozen + random pool).
+CREATE TABLE IF NOT EXISTS dq_quest_assignment (
+    uuid           CHAR(36)     NOT NULL,
+    period_type    VARCHAR(16)  NOT NULL,
+    period_key     VARCHAR(16)  NOT NULL,
+    rank_id        INT          NOT NULL,
+    quest_ids      TEXT         NOT NULL,
+    reroll_count   INT          NOT NULL DEFAULT 0,
+    updated_at     TIMESTAMP    NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+    PRIMARY KEY (uuid, period_type, period_key)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;

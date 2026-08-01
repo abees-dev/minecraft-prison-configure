@@ -14,7 +14,7 @@
 
 VAMPIRE_LORD_BOSS:
   Type: WITHER_SKELETON
-  Display: "&5&l[THẾ LỰC HẮC ÁM] &r&4&lBá Tước Huyết Nguyệt"
+  Display: "&5&l[HẮC ÁM] &r&4&lBá Tước Huyết Nguyệt"
   Health: 9500
   Damage: 162
   Disguise: vampirelordboss
@@ -23,7 +23,7 @@ VAMPIRE_LORD_BOSS:
     MovementSpeed: 0.32
     Scale: 1.7
     AlwaysShowName: true
-    Despawn: true
+    Despawn: false
     PreventSunburn: true
     Unbreakable: true
     Silent: true

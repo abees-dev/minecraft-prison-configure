@@ -30,6 +30,10 @@ quest:
   clear-all-claimable-lore: '&aClick để nhận thưởng clear-all'
   clear-all-claimed-name: '&aBonus Clear-All'
   clear-all-claimed-lore: '&2Đã nhận bonus kỳ này'
+  # Daily/weekly assignment re-roll (GUI button).
+  reroll-success: '&aĐã đổi bộ nhiệm vụ. Còn &f%remaining%&a lượt kỳ này.'
+  reroll-exhausted: '&cBạn đã hết lượt đổi nhiệm vụ kỳ này.'
+  reroll-disabled: '&cĐổi nhiệm vụ đang tắt.'
 
 checkin:
   success: '&aĐiểm danh thành công! Streak: &f%streak%'

@@ -3,76 +3,50 @@
 #   Reload: /dailyquest reload
 #   Command: /checkin
 #   Streak rewards: keyed by streak day number (string). Falls back to default-rewards.
-#   Reward types: vault-money | mmoitem | crate | crate-key | player-points | command | mmocore-exp
-#   Key & PlayerPoints giữ nguyên; tiền / EXP / đá tăng.
+#   Reward types: vault-money | mmoitem | crate | crate-key | command | mmocore-exp
+#     - display: (tùy chọn) chuỗi lore/chat thay cho label tự ghép từ type/id.
 
+# Enable check-in feature.
 enabled: true
 
+# Minimum streak day shown in messages (cosmetic).
 display-min-streak: 1
 
+# Rewards when no matching streak-rewards entry exists.
 default-rewards:
   - type: vault-money
-    amount: 1200
+    amount: 200
   - type: mmocore-exp
-    amount: 30
-  - type: player-points
-    amount: 1
+    amount: 10
 
+# Optional rewards for specific streak milestones (day count after successful claim).
 streak-rewards:
   '3':
     - type: vault-money
-      amount: 3000
+      amount: 800
     - type: mmocore-exp
-      amount: 55
-    - type: mmoitem
-      mi-type: MATERIAL
-      mi-id: DA_CUONG_HOA_VU_KHI_SO_CAP
-      amount: 2
-    - type: player-points
-      amount: 2
+      amount: 25
   '7':
     - type: vault-money
-      amount: 7500
-    - type: mmocore-exp
-      amount: 110
-    - type: crate-key
-      key: chia_khoa_trang_suc_free
+      amount: 2500
+    - type: crate
+      crate: daily_crate
       amount: 1
-    - type: player-points
-      amount: 5
+      display: '&dHòm Ngày &7x1'
     - type: mmoitem
-      mi-type: MATERIAL
-      mi-id: DA_CUONG_HOA_GIAP_SO_CAP
-      amount: 3
+      mi-type: CONSUMABLE
+      mi-id: CHECKIN_WEEKLY
+      amount: 1
+      display: '&6Token Check-in Tuần &7x1'
   '14':
     - type: vault-money
-      amount: 15000
+      amount: 5000
     - type: mmocore-exp
-      amount: 160
-    - type: crate-key
-      key: chia_khoa_ruong_ngoc
-      amount: 1
-    - type: player-points
-      amount: 8
-    - type: mmoitem
-      mi-type: MATERIAL
-      mi-id: DA_CUONG_HOA_VU_KHI_TRUNG_CAP
-      amount: 2
+      amount: 75
   '30':
     - type: vault-money
-      amount: 35000
-    - type: mmocore-exp
-      amount: 280
-    - type: crate-key
-      key: chia_khoa_long_toc
+      amount: 15000
+    - type: crate
+      crate: weekly_crate
       amount: 1
-    - type: player-points
-      amount: 20
-    - type: mmoitem
-      mi-type: MATERIAL
-      mi-id: DA_CUONG_HOA_THIEN_MENH
-      amount: 1
-    - type: mmoitem
-      mi-type: MATERIAL
-      mi-id: DA_CUONG_HOA_GIAP_TRUNG_CAP
-      amount: 1
+      display: '&dHòm Tuần &7x1'

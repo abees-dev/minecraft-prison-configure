@@ -1,0 +1,13 @@
+active:
+  bloodmoon: false
+spawn:
+  bloodmoon:
+    world: world
+    x: -5
+    y: 79
+    z: -2
+leveling:
+  bloodmoon:
+    level: 1
+    last-kill-millis: 1785592577282
+    last-reset-year-month: 2026-08

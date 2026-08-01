@@ -18,7 +18,7 @@ border-material: BLACK_STAINED_GLASS_PANE
 
 daily:
   # Chest title (legacy color codes).
-  title: "&8[&e✦&8] &e&lNHIỆM VỤ NGÀY"
+  title: '&8[&e✦&8] &e&lNHIỆM VỤ NGÀY'
   size: 54
   # Corner/edge accent pane for this menu.
   accent-material: YELLOW_STAINED_GLASS_PANE
@@ -37,23 +37,31 @@ daily:
     weekly:
       slot: 46
       material: CLOCK
-      name: "&6&l⇄ NHIỆM VỤ TUẦN"
+      name: '&6&l⇄ NHIỆM VỤ TUẦN'
       lore:
-        - "&7Click để mở nhiệm vụ tuần."
+        - '&7Click để mở nhiệm vụ tuần.'
     checkin:
       slot: 49
       material: GOLD_INGOT
-      name: "&a&l✦ ĐIỂM DANH"
+      name: '&a&l✦ ĐIỂM DANH'
       lore:
-        - "&7Click để mở điểm danh."
+        - '&7Click để mở điểm danh.'
+    # Re-roll random daily quests (keeps always + claimed). %remaining% = lượt còn lại.
+    reroll:
+      slot: 51
+      material: SUNFLOWER
+      name: '&e&l⟳ ĐỔI NHIỆM VỤ'
+      lore:
+        - '&7Random lại quest theo rank (giữ đã claim).'
+        - '&7Còn lại: &f%remaining%&7 lượt kỳ này.'
     close:
       slot: 53
       material: BARRIER
-      name: "&c&l✖ ĐÓNG GIAO DIỆN"
+      name: '&c&l✖ ĐÓNG GIAO DIỆN'
       lore: []
 
 weekly:
-  title: "&8[&6✦&8] &6&lNHIỆM VỤ TUẦN"
+  title: '&8[&6✦&8] &6&lNHIỆM VỤ TUẦN'
   size: 54
   accent-material: ORANGE_STAINED_GLASS_PANE
   quest-start-slot: 10
@@ -68,24 +76,31 @@ weekly:
   buttons:
     daily:
       slot: 46
-      material: SUNFLOWER
-      name: "&e&l⇄ NHIỆM VỤ NGÀY"
+      material: BOOK
+      name: '&e&l⇄ NHIỆM VỤ NGÀY'
       lore:
-        - "&7Click để mở nhiệm vụ ngày."
+        - '&7Click để mở nhiệm vụ ngày.'
     checkin:
       slot: 49
       material: GOLD_INGOT
-      name: "&a&l✦ ĐIỂM DANH"
+      name: '&a&l✦ ĐIỂM DANH'
       lore:
-        - "&7Click để mở điểm danh."
+        - '&7Click để mở điểm danh.'
+    reroll:
+      slot: 51
+      material: SUNFLOWER
+      name: '&6&l⟳ ĐỔI NHIỆM VỤ TUẦN'
+      lore:
+        - '&7Random lại quest tuần theo rank (giữ đã claim).'
+        - '&7Còn lại: &f%remaining%&7 lượt kỳ này.'
     close:
       slot: 53
       material: BARRIER
-      name: "&c&l✖ ĐÓNG GIAO DIỆN"
+      name: '&c&l✖ ĐÓNG GIAO DIỆN'
       lore: []
 
 checkin:
-  title: "&8[&a✦&8] &a&lĐIỂM DANH HÀNG NGÀY"
+  title: '&8[&a✦&8] &a&lĐIỂM DANH HÀNG NGÀY'
   size: 54
   accent-material: LIME_STAINED_GLASS_PANE
   # Main claim button slot (glows while today's check-in is unclaimed).
@@ -100,23 +115,24 @@ checkin:
     days: 7
     claimed-material: LIME_STAINED_GLASS_PANE
     today-material: GOLD_BLOCK
+    # Distinct from filler (gray glass) so upcoming days stay readable.
     upcoming-material: GRAY_DYE
     milestone-material: ENDER_CHEST
   buttons:
     daily:
       slot: 46
       material: BOOK
-      name: "&e&l⇄ NHIỆM VỤ NGÀY"
+      name: '&e&l⇄ NHIỆM VỤ NGÀY'
       lore: []
     weekly:
       slot: 48
       material: BOOK
-      name: "&6&l⇄ NHIỆM VỤ TUẦN"
+      name: '&6&l⇄ NHIỆM VỤ TUẦN'
       lore: []
     close:
       slot: 52
       material: BARRIER
-      name: "&c&l✖ ĐÓNG GIAO DIỆN"
+      name: '&c&l✖ ĐÓNG GIAO DIỆN'
       lore: []
 
 # Quest icon appearance by status.
@@ -124,34 +140,34 @@ checkin:
 quest-icons:
   in-progress:
     material: PAPER
-    name: "&f%quest_name%"
+    name: '&f%quest_name%'
     lore:
-      - "%description%"
-      - ""
-      - "&7Tiến độ: &f%progress%&7/&f%target%"
-      - "&7Trạng thái: &eĐang làm"
-      - ""
-      - "&7Thưởng:"
-      - "%rewards%"
+      - '%description%'
+      - ''
+      - '&7Tiến độ: &f%progress%&7/&f%target%'
+      - '&7Trạng thái: &eĐang làm'
+      - ''
+      - '&7Thưởng:'
+      - '%rewards%'
   claimable:
     material: CHEST
-    name: "&a%quest_name%"
+    name: '&a%quest_name%'
     lore:
-      - "%description%"
-      - ""
-      - "&7Tiến độ: &a%progress%&7/&a%target%"
-      - "&aClick để nhận thưởng"
-      - ""
-      - "&7Thưởng:"
-      - "%rewards%"
+      - '%description%'
+      - ''
+      - '&7Tiến độ: &a%progress%&7/&a%target%'
+      - '&aClick để nhận thưởng'
+      - ''
+      - '&7Thưởng:'
+      - '%rewards%'
   claimed:
     material: LIME_CONCRETE
-    name: "&a%quest_name%"
+    name: '&a%quest_name%'
     lore:
-      - "%description%"
-      - ""
-      - "&7Tiến độ: &a%progress%&7/&a%target%"
-      - "&2Đã nhận thưởng"
-      - ""
-      - "&7Thưởng:"
-      - "%rewards%"
+      - '%description%'
+      - ''
+      - '&7Tiến độ: &a%progress%&7/&a%target%'
+      - '&2Đã nhận thưởng'
+      - ''
+      - '&7Thưởng:'
+      - '%rewards%'

@@ -1,187 +1,986 @@
 # Docs:
-#   Purpose: Daily quest definitions (Prison RPG). Reset at midnight in config.yml reset-timezone.
+#   Purpose: Daily quest definitions — always + global mix + per-rank random pools.
 #   Reload: /dailyquest reload
+#   Assignment: always:true (cố định) + random-count từ (rank:N ∪ global:true).
 #   Quest IDs: UPPER_SNAKE_CASE. Bump revision when changing objectives for an existing ID.
-#   Objective types: KILL_MOB | BREAK_BLOCK | CRAFT_ITEM | LOGIN | CHECKIN | CUSTOM
-#     - KILL_MOB filter: EntityType (ZOMBIE) HOẶC Mythic internal name (PRISON_TAN_BINH_BOSS).
-#     - CRAFT_ITEM chỉ craft vanilla — không dùng cho NPC/station MMOItems.
-#     - CUSTOM: /dailyquest admin progress <player> CUSTOM <filter|-> [số]
-#       hoặc DailyQuestAPI.addProgress(player, "CUSTOM", "filter", amount)
-#   worlds: chỉ đếm trong world liệt kê; bỏ trống = mọi world.
+#   Objective types: KILL_MOB | BREAK_BLOCK | STATION_CRAFT | CONSUME_ITEM | CRAFT_ITEM | LOGIN | CHECKIN | CUSTOM
+#     - KILL_MOB filter: Mythic internal name (PRISON_*_NORMAL/ELITE/BOSS) or EntityType.
+#     - worlds: gate progress (world_prison mines; world_dungeon ranks 1–5; world_magadungeon 6–9).
+#     - STATION_CRAFT: craft tại MMOItems station (NPC). Khớp output bằng
+#       mmoitems-type + mmoitems-id (vd DA_NANG_CAP_<RANK> tại refinery).
+#     - CONSUME_ITEM filter: Material (GOLDEN_APPLE) | FOOD (mọi đồ ăn) | POTION.
+#     - global: true — vào pool random chung mọi rank (không gắn rank:N).
 #   Reward types: vault-money | mmoitem | crate | crate-key | player-points | command | mmocore-exp
-#
-# Design: login / điểm danh / đào / giết — có mốc dễ + mốc chính (~10–20 phút).
-# Key & PlayerPoints giữ nguyên; tiền / EXP / đá tăng.
+#     - display: optional lore/chat label override.
+#   PlayerPoints budget: keep quests + clear-all ≤ 5 points/day total.
+#   clear-all-bonus: granted once after all *assigned* daily quests are claimed.
 
 clear-all-bonus:
   enabled: true
   rewards:
-  - type: crate-key
-    key: chia_khoa_trang_suc_free
-    amount: 1
-  - type: player-points
-    amount: 5
   - type: vault-money
-    amount: 5000
+    amount: 2500
   - type: mmocore-exp
-    amount: 150
-  - type: mmoitem
-    mi-type: MATERIAL
-    mi-id: DA_CUONG_HOA_VU_KHI_SO_CAP
-    amount: 2
+    amount: 50
+  - type: player-points
+    amount: 1
+    display: '&#AED6F11 Point'
+  - type: crate
+    crate: daily_crate
+    amount: 1
+    display: '&dHòm Ngày &7x1'
 
 quests:
+  # --- Always included (do not consume random-count) ---
   LOGIN_ONCE:
+    always: true
     name: '&aĐăng nhập nhà tù'
     description: '&7Đăng nhập server 1 lần trong ngày.'
-    revision: 4
+    revision: 1
     type: LOGIN
     target: 1
     filter: ''
     rewards:
     - type: vault-money
-      amount: 4000
+      amount: 500
     - type: mmocore-exp
-      amount: 55
-    - type: player-points
-      amount: 1
+      amount: 25
   
   CHECKIN_TODAY:
+    always: true
     name: '&6Điểm danh hôm nay'
-    description: '&7Nhận điểm danh (/checkin hoặc GUI) trong ngày.'
-    revision: 4
+    description: '&7Nhận điểm danh (/checkin) trong ngày.'
+    revision: 1
     type: CHECKIN
     target: 1
     filter: ''
     rewards:
     - type: vault-money
-      amount: 2500
+      amount: 300
     - type: mmocore-exp
-      amount: 45
-    - type: mmoitem
-      mi-type: MATERIAL
-      mi-id: DA_NANG_CAP_TAN_BINH
-      amount: 3
-  
-  # Mốc dễ — ~ vài phút đào.
-  MINE_BLOCKS_300:
-    name: '&eCa đào nhẹ'
-    description: '&7Phá 300 khối bất kỳ trong mỏ nhà tù.'
-    revision: 1
-    type: BREAK_BLOCK
-    target: 300
-    filter: ''
-    worlds:
-    - world_prison
+      amount: 15
+
+  # --- Global mix pool (mọi rank, random cùng rank pool) ---
+  EAT_GOLDEN_APPLE:
+    global: true
+    name: '&6Ăn táo vàng'
+    description: '&7Ăn 5 quả GOLDEN_APPLE.'
+    revision: 2
+    type: CONSUME_ITEM
+    target: 5
+    filter: GOLDEN_APPLE
     rewards:
-    - type: vault-money
-      amount: 5000
-    - type: mmocore-exp
-      amount: 55
-    - type: mmoitem
-      mi-type: MATERIAL
-      mi-id: DA_NANG_CAP_TAN_BINH
-      amount: 2
-  
-  MINE_BLOCKS_800:
-    name: '&eCa đào trong ngày'
-    description: '&7Phá 800 khối bất kỳ trong mỏ nhà tù.'
-    revision: 4
-    type: BREAK_BLOCK
-    target: 800
-    filter: ''
-    worlds:
-    - world_prison
-    rewards:
-    - type: vault-money
-      amount: 12000
-    - type: mmocore-exp
-      amount: 110
-    - type: player-points
-      amount: 2
-    - type: mmoitem
-      mi-type: MATERIAL
-      mi-id: DA_CUONG_HOA_GIAP_SO_CAP
-      amount: 2
-  
-  # Mốc dễ — farm nhanh trong dungeon.
-  KILL_MOBS_10:
-    name: '&cTuần tra dungeon'
-    description: '&7Giết 10 quái trong dungeon (mọi loại / Mythic).'
+      - type: vault-money
+        amount: 400
+      - type: mmocore-exp
+        amount: 15
+
+  EAT_ANY_FOOD:
+    global: true
+    name: '&aĂn uống gì cũng được'
+    description: '&7Ăn/uống bất kỳ 10 món (FOOD).'
     revision: 1
-    type: KILL_MOB
+    type: CONSUME_ITEM
     target: 10
-    filter: ''
-    worlds:
-    - world_dungeon
-    - world_magadungeon
+    filter: FOOD
     rewards:
-    - type: vault-money
-      amount: 4000
-    - type: mmocore-exp
-      amount: 50
-    - type: mmoitem
-      mi-type: MATERIAL
-      mi-id: DA_CUONG_HOA_VU_KHI_SO_CAP
-      amount: 1
-  
-  KILL_MOBS_25:
-    name: '&cSăn tù nhân nổi loạn'
-    description: '&7Giết 25 quái trong dungeon (mọi loại / Mythic).'
-    revision: 4
-    type: KILL_MOB
-    target: 25
-    filter: ''
-    worlds:
-    - world_dungeon
-    - world_magadungeon
-    rewards:
-    - type: vault-money
-      amount: 7500
-    - type: mmocore-exp
-      amount: 95
-    - type: mmoitem
-      mi-type: MATERIAL
-      mi-id: DA_CUONG_HOA_VU_KHI_SO_CAP
-      amount: 2
-    - type: player-points
-      amount: 2
-  MINE_COBBLE_256:
-    name: '&7Thợ mỏ cobble'
-    description: '&7Phá 256 khối COBBLESTONE trong ngày.'
+      - type: vault-money
+        amount: 600
+      - type: mmocore-exp
+        amount: 20
+
+  DRINK_POTION:
+    global: true
+    name: '&bUống thuốc'
+    description: '&7Uống 2 chai POTION.'
     revision: 1
+    type: CONSUME_ITEM
+    target: 2
+    filter: POTION
+    rewards:
+      - type: vault-money
+        amount: 700
+      - type: mmocore-exp
+        amount: 20
+
+  # ========== Rank 1 (X-Prison mine blocks) ==========
+  MINE_R1_STONE:
+    rank: 1
+    name: '&eThợ mỏ đá'
+    description: '&7Phá 256 khối STONE trong mỏ.'
+    revision: 2
     type: BREAK_BLOCK
     target: 256
+    filter: STONE
+    worlds:
+    - world_prison
+    rewards:
+    - type: vault-money
+      amount: 800
+    - type: mmocore-exp
+      amount: 30
+  
+  MINE_R1_COBBLE:
+    rank: 1
+    name: '&7Thợ mỏ cobble'
+    description: '&7Phá 192 khối COBBLESTONE trong mỏ.'
+    revision: 2
+    type: BREAK_BLOCK
+    target: 192
     filter: COBBLESTONE
+    worlds:
+    - world_prison
+    rewards:
+    - type: vault-money
+      amount: 900
+    - type: mmocore-exp
+      amount: 35
+  
+  KILL_R1_NORMAL:
+    rank: 1
+    name: '&cSăn Tân Binh'
+    description: '&7Giết 12 mob PRISON_TAN_BINH_NORMAL.'
+    revision: 1
+    type: KILL_MOB
+    target: 12
+    filter: PRISON_TAN_BINH_NORMAL
+    worlds:
+    - world_dungeon
+    rewards:
+    - type: vault-money
+      amount: 900
+    - type: mmocore-exp
+      amount: 35
+  
+  KILL_R1_ELITE:
+    rank: 1
+    name: '&cElite Tân Binh'
+    description: '&7Giết 4 mob PRISON_TAN_BINH_ELITE.'
+    revision: 1
+    type: KILL_MOB
+    target: 4
+    filter: PRISON_TAN_BINH_ELITE
+    worlds:
+    - world_dungeon
     rewards:
     - type: vault-money
       amount: 1200
     - type: mmocore-exp
       amount: 40
-  MINE_STONE_512:
-    name: '&eThợ mỏ đá'
-    description: '&7Phá 512 khối STONE trong ngày.'
+  
+  KILL_R1_BOSS:
+    rank: 1
+    name: '&4Boss Tân Binh'
+    description: '&7Giết 1 PRISON_TAN_BINH_BOSS.'
     revision: 1
+    type: KILL_MOB
+    target: 1
+    filter: PRISON_TAN_BINH_BOSS
+    worlds:
+    - world_dungeon
+    rewards:
+    - type: vault-money
+      amount: 2000
+    - type: player-points
+      amount: 1
+      display: '&#AED6F11 Point'
+  
+  STATION_R1_DA:
+    rank: 1
+    name: '&eTinh luyện đá Tân Binh'
+    description: '&7Craft 8x DA_NANG_CAP_TAN_BINH tại station trong ngày.'
+    revision: 1
+    type: STATION_CRAFT
+    target: 8
+    filter: ''
+    mmoitems-type: MATERIAL
+    mmoitems-id: DA_NANG_CAP_TAN_BINH
+    rewards:
+      - type: vault-money
+        amount: 1200
+      - type: mmocore-exp
+        amount: 40
+
+  # ========== Rank 2 (X-Prison mine blocks) ==========
+  MINE_R2_STONE:
+    rank: 2
+    name: '&eThợ mỏ đá'
+    description: '&7Phá 128 khối STONE trong mỏ.'
+    revision: 2
     type: BREAK_BLOCK
-    target: 512
+    target: 128
     filter: STONE
+    worlds:
+    - world_prison
+    rewards:
+    - type: vault-money
+      amount: 1000
+    - type: mmocore-exp
+      amount: 35
+  
+  MINE_R2_COAL:
+    rank: 2
+    name: '&8Đào than'
+    description: '&7Phá 96 khối COAL_ORE trong mỏ.'
+    revision: 2
+    type: BREAK_BLOCK
+    target: 96
+    filter: COAL_ORE
+    worlds:
+    - world_prison
+    rewards:
+    - type: vault-money
+      amount: 1100
+    - type: mmocore-exp
+      amount: 40
+  
+  KILL_R2_NORMAL:
+    rank: 2
+    name: '&cSăn Tù Nhân'
+    description: '&7Giết 12 PRISON_TU_NHAN_NORMAL.'
+    revision: 1
+    type: KILL_MOB
+    target: 12
+    filter: PRISON_TU_NHAN_NORMAL
+    worlds:
+    - world_dungeon
+    rewards:
+    - type: vault-money
+      amount: 1100
+    - type: mmocore-exp
+      amount: 40
+  
+  KILL_R2_ELITE:
+    rank: 2
+    name: '&cElite Tù Nhân'
+    description: '&7Giết 4 PRISON_TU_NHAN_ELITE.'
+    revision: 1
+    type: KILL_MOB
+    target: 4
+    filter: PRISON_TU_NHAN_ELITE
+    worlds:
+    - world_dungeon
+    rewards:
+    - type: vault-money
+      amount: 1400
+    - type: mmocore-exp
+      amount: 45
+  
+  KILL_R2_BOSS:
+    rank: 2
+    name: '&4Boss Tù Nhân'
+    description: '&7Giết 1 PRISON_TU_NHAN_BOSS.'
+    revision: 1
+    type: KILL_MOB
+    target: 1
+    filter: PRISON_TU_NHAN_BOSS
+    worlds:
+    - world_dungeon
+    rewards:
+    - type: vault-money
+      amount: 2200
+    - type: player-points
+      amount: 1
+      display: '&#AED6F11 Point'
+  
+  STATION_R2_DA:
+    rank: 2
+    name: '&eTinh luyện đá Tù Nhân'
+    description: '&7Craft 8x DA_NANG_CAP_TU_NHAN tại station trong ngày.'
+    revision: 1
+    type: STATION_CRAFT
+    target: 8
+    filter: ''
+    mmoitems-type: MATERIAL
+    mmoitems-id: DA_NANG_CAP_TU_NHAN
+    rewards:
+      - type: vault-money
+        amount: 1400
+      - type: mmocore-exp
+        amount: 45
+
+  # ========== Rank 3 (X-Prison mine blocks) ==========
+  MINE_R3_IRON:
+    rank: 3
+    name: '&fĐào sắt'
+    description: '&7Phá 128 khối IRON_ORE trong mỏ.'
+    revision: 2
+    type: BREAK_BLOCK
+    target: 128
+    filter: IRON_ORE
+    worlds:
+    - world_prison
+    rewards:
+    - type: vault-money
+      amount: 1200
+    - type: mmocore-exp
+      amount: 40
+  
+  MINE_R3_COAL:
+    rank: 3
+    name: '&8Đào than'
+    description: '&7Phá 96 khối COAL_ORE trong mỏ.'
+    revision: 2
+    type: BREAK_BLOCK
+    target: 96
+    filter: COAL_ORE
+    worlds:
+    - world_prison
+    rewards:
+    - type: vault-money
+      amount: 1300
+    - type: mmocore-exp
+      amount: 45
+  
+  KILL_R3_NORMAL:
+    rank: 3
+    name: '&cSăn Lao Công'
+    description: '&7Giết 12 PRISON_LAO_CONG_NORMAL.'
+    revision: 1
+    type: KILL_MOB
+    target: 12
+    filter: PRISON_LAO_CONG_NORMAL
+    worlds:
+    - world_dungeon
+    rewards:
+    - type: vault-money
+      amount: 1300
+    - type: mmocore-exp
+      amount: 45
+  
+  KILL_R3_ELITE:
+    rank: 3
+    name: '&cElite Lao Công'
+    description: '&7Giết 4 PRISON_LAO_CONG_ELITE.'
+    revision: 1
+    type: KILL_MOB
+    target: 4
+    filter: PRISON_LAO_CONG_ELITE
+    worlds:
+    - world_dungeon
+    rewards:
+    - type: vault-money
+      amount: 1600
+    - type: mmocore-exp
+      amount: 50
+  
+  KILL_R3_BOSS:
+    rank: 3
+    name: '&4Boss Lao Công'
+    description: '&7Giết 1 PRISON_LAO_CONG_BOSS.'
+    revision: 1
+    type: KILL_MOB
+    target: 1
+    filter: PRISON_LAO_CONG_BOSS
+    worlds:
+    - world_dungeon
+    rewards:
+    - type: vault-money
+      amount: 2500
+    - type: player-points
+      amount: 1
+      display: '&#AED6F11 Point'
+  
+  STATION_R3_DA:
+    rank: 3
+    name: '&eTinh luyện đá Lao Công'
+    description: '&7Craft 8x DA_NANG_CAP_LAO_CONG tại station trong ngày.'
+    revision: 1
+    type: STATION_CRAFT
+    target: 8
+    filter: ''
+    mmoitems-type: MATERIAL
+    mmoitems-id: DA_NANG_CAP_LAO_CONG
+    rewards:
+      - type: vault-money
+        amount: 1600
+      - type: mmocore-exp
+        amount: 50
+
+  # ========== Rank 4 (X-Prison mine blocks) ==========
+  MINE_R4_GOLD:
+    rank: 4
+    name: '&6Đào vàng'
+    description: '&7Phá 128 khối GOLD_ORE trong mỏ.'
+    revision: 2
+    type: BREAK_BLOCK
+    target: 128
+    filter: GOLD_ORE
+    worlds:
+    - world_prison
+    rewards:
+    - type: vault-money
+      amount: 1400
+    - type: mmocore-exp
+      amount: 45
+  
+  MINE_R4_LAPIS:
+    rank: 4
+    name: '&9Đào lapis'
+    description: '&7Phá 96 khối LAPIS_ORE trong mỏ.'
+    revision: 2
+    type: BREAK_BLOCK
+    target: 96
+    filter: LAPIS_ORE
+    worlds:
+    - world_prison
+    rewards:
+    - type: vault-money
+      amount: 1500
+    - type: mmocore-exp
+      amount: 50
+  
+  KILL_R4_NORMAL:
+    rank: 4
+    name: '&cSăn Thợ Đào'
+    description: '&7Giết 12 PRISON_THO_DAO_NORMAL.'
+    revision: 1
+    type: KILL_MOB
+    target: 12
+    filter: PRISON_THO_DAO_NORMAL
+    worlds:
+    - world_dungeon
+    rewards:
+    - type: vault-money
+      amount: 1500
+    - type: mmocore-exp
+      amount: 50
+  
+  KILL_R4_ELITE:
+    rank: 4
+    name: '&cElite Thợ Đào'
+    description: '&7Giết 4 PRISON_THO_DAO_ELITE.'
+    revision: 1
+    type: KILL_MOB
+    target: 4
+    filter: PRISON_THO_DAO_ELITE
+    worlds:
+    - world_dungeon
     rewards:
     - type: vault-money
       amount: 1800
-    - type: crate
-      crate: daily_crate
-      amount: 1
-  KILL_ZOMBIE_15:
-    name: '&cSăn Zombie'
-    description: '&7Giết 15 Zombie trong ngày (farm / arena).'
+    - type: mmocore-exp
+      amount: 55
+  
+  KILL_R4_BOSS:
+    rank: 4
+    name: '&4Boss Thợ Đào'
+    description: '&7Giết 1 PRISON_THO_DAO_BOSS.'
     revision: 1
     type: KILL_MOB
-    target: 15
-    filter: ZOMBIE
+    target: 1
+    filter: PRISON_THO_DAO_BOSS
+    worlds:
+    - world_dungeon
     rewards:
     - type: vault-money
-      amount: 800
-    - type: mmoitem
-      mi-type: CONSUMABLE
-      mi-id: DAILY_TOKEN
+      amount: 2800
+    - type: player-points
       amount: 1
+      display: '&#AED6F11 Point'
+  
+  STATION_R4_DA:
+    rank: 4
+    name: '&eTinh luyện đá Thợ Đào'
+    description: '&7Craft 10x DA_NANG_CAP_THO_DAO tại station trong ngày.'
+    revision: 1
+    type: STATION_CRAFT
+    target: 10
+    filter: ''
+    mmoitems-type: MATERIAL
+    mmoitems-id: DA_NANG_CAP_THO_DAO
+    rewards:
+      - type: vault-money
+        amount: 1800
+      - type: mmocore-exp
+        amount: 55
+
+  # ========== Rank 5 (X-Prison mine blocks) ==========
+  MINE_R5_REDSTONE:
+    rank: 5
+    name: '&cĐào redstone'
+    description: '&7Phá 96 khối REDSTONE_ORE trong mỏ.'
+    revision: 2
+    type: BREAK_BLOCK
+    target: 96
+    filter: REDSTONE_ORE
+    worlds:
+    - world_prison
+    rewards:
+    - type: vault-money
+      amount: 1600
+    - type: mmocore-exp
+      amount: 50
+  
+  MINE_R5_DIAMOND:
+    rank: 5
+    name: '&bĐào kim cương'
+    description: '&7Phá 72 khối DIAMOND_ORE trong mỏ.'
+    revision: 2
+    type: BREAK_BLOCK
+    target: 72
+    filter: DIAMOND_ORE
+    worlds:
+    - world_prison
+    rewards:
+    - type: vault-money
+      amount: 1700
+    - type: mmocore-exp
+      amount: 55
+  
+  KILL_R5_NORMAL:
+    rank: 5
+    name: '&cSăn Đội Trưởng'
+    description: '&7Giết 10 PRISON_DOI_TRUONG_NORMAL.'
+    revision: 1
+    type: KILL_MOB
+    target: 10
+    filter: PRISON_DOI_TRUONG_NORMAL
+    worlds:
+    - world_dungeon
+    rewards:
+    - type: vault-money
+      amount: 1800
+    - type: mmocore-exp
+      amount: 55
+  
+  KILL_R5_ELITE:
+    rank: 5
+    name: '&cElite Đội Trưởng'
+    description: '&7Giết 3 PRISON_DOI_TRUONG_ELITE.'
+    revision: 1
+    type: KILL_MOB
+    target: 3
+    filter: PRISON_DOI_TRUONG_ELITE
+    worlds:
+    - world_dungeon
+    rewards:
+    - type: vault-money
+      amount: 2200
+    - type: mmocore-exp
+      amount: 65
+  
+  KILL_R5_BOSS:
+    rank: 5
+    name: '&4Boss Đội Trưởng'
+    description: '&7Giết 1 PRISON_DOI_TRUONG_BOSS.'
+    revision: 1
+    type: KILL_MOB
+    target: 1
+    filter: PRISON_DOI_TRUONG_BOSS
+    worlds:
+    - world_dungeon
+    rewards:
+    - type: vault-money
+      amount: 3200
+    - type: player-points
+      amount: 1
+      display: '&#AED6F11 Point'
+  
+  STATION_R5_DA:
+    rank: 5
+    name: '&eTinh luyện đá Đội Trưởng'
+    description: '&7Craft 10x DA_NANG_CAP_DOI_TRUONG tại station trong ngày.'
+    revision: 1
+    type: STATION_CRAFT
+    target: 10
+    filter: ''
+    mmoitems-type: MATERIAL
+    mmoitems-id: DA_NANG_CAP_DOI_TRUONG
+    rewards:
+      - type: vault-money
+        amount: 2000
+      - type: mmocore-exp
+        amount: 60
+
+  # ========== Rank 6 (X-Prison mine blocks) ==========
+  MINE_R6_DIAMOND:
+    rank: 6
+    name: '&bĐào kim cương'
+    description: '&7Phá 96 khối DIAMOND_ORE trong mỏ.'
+    revision: 2
+    type: BREAK_BLOCK
+    target: 96
+    filter: DIAMOND_ORE
+    worlds:
+    - world_prison
+    rewards:
+    - type: vault-money
+      amount: 1800
+    - type: mmocore-exp
+      amount: 55
+  
+  MINE_R6_EMERALD:
+    rank: 6
+    name: '&aĐào ngọc lục'
+    description: '&7Phá 72 khối EMERALD_ORE trong mỏ.'
+    revision: 2
+    type: BREAK_BLOCK
+    target: 72
+    filter: EMERALD_ORE
+    worlds:
+    - world_prison
+    rewards:
+    - type: vault-money
+      amount: 1900
+    - type: mmocore-exp
+      amount: 60
+  
+  KILL_R6_NORMAL:
+    rank: 6
+    name: '&cSăn Phó Quản Ngục'
+    description: '&7Giết 10 PRISON_PHO_QUAN_NGUC_NORMAL.'
+    revision: 1
+    type: KILL_MOB
+    target: 10
+    filter: PRISON_PHO_QUAN_NGUC_NORMAL
+    worlds:
+    - world_magadungeon
+    rewards:
+    - type: vault-money
+      amount: 2200
+    - type: mmocore-exp
+      amount: 65
+  
+  KILL_R6_ELITE:
+    rank: 6
+    name: '&cElite Phó Quản Ngục'
+    description: '&7Giết 3 PRISON_PHO_QUAN_NGUC_ELITE.'
+    revision: 1
+    type: KILL_MOB
+    target: 3
+    filter: PRISON_PHO_QUAN_NGUC_ELITE
+    worlds:
+    - world_magadungeon
+    rewards:
+    - type: vault-money
+      amount: 2600
+    - type: mmocore-exp
+      amount: 75
+  
+  KILL_R6_BOSS:
+    rank: 6
+    name: '&4Boss Phó Quản Ngục'
+    description: '&7Giết 1 PRISON_PHO_QUAN_NGUC_BOSS.'
+    revision: 1
+    type: KILL_MOB
+    target: 1
+    filter: PRISON_PHO_QUAN_NGUC_BOSS
+    worlds:
+    - world_magadungeon
+    rewards:
+    - type: vault-money
+      amount: 3800
+    - type: player-points
+      amount: 1
+      display: '&#AED6F11 Point'
+  
+  STATION_R6_DA:
+    rank: 6
+    name: '&eTinh luyện đá Phó Quản Ngục'
+    description: '&7Craft 10x DA_NANG_CAP_PHO_QUAN_NGUC tại station trong ngày.'
+    revision: 1
+    type: STATION_CRAFT
+    target: 10
+    filter: ''
+    mmoitems-type: MATERIAL
+    mmoitems-id: DA_NANG_CAP_PHO_QUAN_NGUC
+    rewards:
+      - type: vault-money
+        amount: 2200
+      - type: mmocore-exp
+        amount: 65
+
+  # ========== Rank 7 (X-Prison mine blocks) ==========
+  MINE_R7_EMERALD:
+    rank: 7
+    name: '&aĐào ngọc lục'
+    description: '&7Phá 64 khối EMERALD_ORE trong mỏ.'
+    revision: 2
+    type: BREAK_BLOCK
+    target: 64
+    filter: EMERALD_ORE
+    worlds:
+    - world_prison
+    rewards:
+    - type: vault-money
+      amount: 2000
+    - type: mmocore-exp
+      amount: 60
+  
+  MINE_R7_DIAMOND:
+    rank: 7
+    name: '&bĐào kim cương'
+    description: '&7Phá 48 khối DIAMOND_ORE trong mỏ.'
+    revision: 2
+    type: BREAK_BLOCK
+    target: 48
+    filter: DIAMOND_ORE
+    worlds:
+    - world_prison
+    rewards:
+    - type: vault-money
+      amount: 2100
+    - type: mmocore-exp
+      amount: 65
+  
+  KILL_R7_NORMAL:
+    rank: 7
+    name: '&cSăn Quản Ngục'
+    description: '&7Giết 10 PRISON_QUAN_NGUC_NORMAL.'
+    revision: 1
+    type: KILL_MOB
+    target: 10
+    filter: PRISON_QUAN_NGUC_NORMAL
+    worlds:
+    - world_magadungeon
+    rewards:
+    - type: vault-money
+      amount: 2600
+    - type: mmocore-exp
+      amount: 75
+  
+  KILL_R7_ELITE:
+    rank: 7
+    name: '&cElite Quản Ngục'
+    description: '&7Giết 3 PRISON_QUAN_NGUC_ELITE.'
+    revision: 1
+    type: KILL_MOB
+    target: 3
+    filter: PRISON_QUAN_NGUC_ELITE
+    worlds:
+    - world_magadungeon
+    rewards:
+    - type: vault-money
+      amount: 3000
+    - type: mmocore-exp
+      amount: 85
+  
+  KILL_R7_BOSS:
+    rank: 7
+    name: '&4Boss Quản Ngục'
+    description: '&7Giết 1 PRISON_QUAN_NGUC_BOSS.'
+    revision: 1
+    type: KILL_MOB
+    target: 1
+    filter: PRISON_QUAN_NGUC_BOSS
+    worlds:
+    - world_magadungeon
+    rewards:
+    - type: vault-money
+      amount: 4500
+    - type: player-points
+      amount: 1
+      display: '&#AED6F11 Point'
+  
+  STATION_R7_DA:
+    rank: 7
+    name: '&eTinh luyện đá Quản Ngục'
+    description: '&7Craft 12x DA_NANG_CAP_QUAN_NGUC tại station trong ngày.'
+    revision: 1
+    type: STATION_CRAFT
+    target: 12
+    filter: ''
+    mmoitems-type: MATERIAL
+    mmoitems-id: DA_NANG_CAP_QUAN_NGUC
+    rewards:
+      - type: vault-money
+        amount: 2400
+      - type: mmocore-exp
+        amount: 70
+
+  # ========== Rank 8 (X-Prison mine blocks) ==========
+  MINE_R8_DEBRIS:
+    rank: 8
+    name: '&4Đào debris'
+    description: '&7Phá 64 khối ANCIENT_DEBRIS trong mỏ.'
+    revision: 2
+    type: BREAK_BLOCK
+    target: 64
+    filter: ANCIENT_DEBRIS
+    worlds:
+    - world_prison
+    rewards:
+    - type: vault-money
+      amount: 2200
+    - type: mmocore-exp
+      amount: 65
+  
+  MINE_R8_EMERALD:
+    rank: 8
+    name: '&aĐào ngọc lục'
+    description: '&7Phá 48 khối EMERALD_ORE trong mỏ.'
+    revision: 2
+    type: BREAK_BLOCK
+    target: 48
+    filter: EMERALD_ORE
+    worlds:
+    - world_prison
+    rewards:
+    - type: vault-money
+      amount: 2300
+    - type: mmocore-exp
+      amount: 70
+  
+  KILL_R8_NORMAL:
+    rank: 8
+    name: '&cSăn Bá Chủ'
+    description: '&7Giết 8 PRISON_BA_CHU_NGUC_TU_NORMAL.'
+    revision: 1
+    type: KILL_MOB
+    target: 8
+    filter: PRISON_BA_CHU_NGUC_TU_NORMAL
+    worlds:
+    - world_magadungeon
+    rewards:
+    - type: vault-money
+      amount: 3200
+    - type: mmocore-exp
+      amount: 90
+  
+  KILL_R8_ELITE:
+    rank: 8
+    name: '&cElite Bá Chủ'
+    description: '&7Giết 3 PRISON_BA_CHU_NGUC_TU_ELITE.'
+    revision: 1
+    type: KILL_MOB
+    target: 3
+    filter: PRISON_BA_CHU_NGUC_TU_ELITE
+    worlds:
+    - world_magadungeon
+    rewards:
+    - type: vault-money
+      amount: 3800
+    - type: mmocore-exp
+      amount: 100
+  
+  KILL_R8_BOSS:
+    rank: 8
+    name: '&4Boss Bá Chủ'
+    description: '&7Giết 1 PRISON_BA_CHU_NGUC_TU_BOSS.'
+    revision: 1
+    type: KILL_MOB
+    target: 1
+    filter: PRISON_BA_CHU_NGUC_TU_BOSS
+    worlds:
+    - world_magadungeon
+    rewards:
+    - type: vault-money
+      amount: 5500
+    - type: player-points
+      amount: 1
+      display: '&#AED6F11 Point'
+  
+  STATION_R8_DA:
+    rank: 8
+    name: '&eTinh luyện đá Bá Chủ Ngục Tù'
+    description: '&7Craft 12x DA_NANG_CAP_BA_CHU_NGUC_TU tại station trong ngày.'
+    revision: 1
+    type: STATION_CRAFT
+    target: 12
+    filter: ''
+    mmoitems-type: MATERIAL
+    mmoitems-id: DA_NANG_CAP_BA_CHU_NGUC_TU
+    rewards:
+      - type: vault-money
+        amount: 2600
+      - type: mmocore-exp
+        amount: 75
+
+  # ========== Rank 9 (X-Prison mine blocks) ==========
+  MINE_R9_DEBRIS:
+    rank: 9
+    name: '&4Đào debris'
+    description: '&7Phá 48 khối ANCIENT_DEBRIS trong mỏ.'
+    revision: 2
+    type: BREAK_BLOCK
+    target: 48
+    filter: ANCIENT_DEBRIS
+    worlds:
+    - world_prison
+    rewards:
+    - type: vault-money
+      amount: 2400
+    - type: mmocore-exp
+      amount: 70
+  
+  MINE_R9_EMERALD:
+    rank: 9
+    name: '&aĐào ngọc lục'
+    description: '&7Phá 36 khối EMERALD_ORE trong mỏ.'
+    revision: 2
+    type: BREAK_BLOCK
+    target: 36
+    filter: EMERALD_ORE
+    worlds:
+    - world_prison
+    rewards:
+    - type: vault-money
+      amount: 2500
+    - type: mmocore-exp
+      amount: 75
+  
+  KILL_R9_NORMAL:
+    rank: 9
+    name: '&cSăn Vượt Ngục'
+    description: '&7Giết 8 PRISON_VUOT_NGUC_NORMAL.'
+    revision: 1
+    type: KILL_MOB
+    target: 8
+    filter: PRISON_VUOT_NGUC_NORMAL
+    worlds:
+    - world_magadungeon
+    rewards:
+    - type: vault-money
+      amount: 4000
+    - type: mmocore-exp
+      amount: 110
+  
+  KILL_R9_ELITE:
+    rank: 9
+    name: '&cElite Vượt Ngục'
+    description: '&7Giết 3 PRISON_VUOT_NGUC_ELITE.'
+    revision: 1
+    type: KILL_MOB
+    target: 3
+    filter: PRISON_VUOT_NGUC_ELITE
+    worlds:
+    - world_magadungeon
+    rewards:
+    - type: vault-money
+      amount: 4800
+    - type: mmocore-exp
+      amount: 130
+  
+  KILL_R9_BOSS:
+    rank: 9
+    name: '&4Boss Vượt Ngục'
+    description: '&7Giết 1 PRISON_VUOT_NGUC_BOSS.'
+    revision: 1
+    type: KILL_MOB
+    target: 1
+    filter: PRISON_VUOT_NGUC_BOSS
+    worlds:
+    - world_magadungeon
+    rewards:
+    - type: vault-money
+      amount: 7000
+    - type: player-points
+      amount: 1
+      display: '&#AED6F11 Point'
+  STATION_R9_DA:
+    rank: 9
+    name: '&eTinh luyện đá Vượt Ngục'
+    description: '&7Craft 12x DA_NANG_CAP_VUOT_NGUC tại station trong ngày.'
+    revision: 1
+    type: STATION_CRAFT
+    target: 12
+    filter: ''
+    mmoitems-type: MATERIAL
+    mmoitems-id: DA_NANG_CAP_VUOT_NGUC
+    rewards:
+      - type: vault-money
+        amount: 2800
+      - type: mmocore-exp
+        amount: 80
+

@@ -1,0 +1,84 @@
+# ============================================================================
+# CorePlugin - Event ("Sự Kiện Định Kỳ") module configuration
+# ============================================================================
+# Generalized port of Skript/scripts/bloodmoon/{config,main}.sk: instead of
+# ONE hardcoded weekly bloodmoon event, any number of scheduled boss events
+# can be defined here, each identified by an id. Every schedule.day-of-week
+# between start-hour and end-hour (server time), the event's Mythic boss is
+# spawned at an admin-set point; a warn broadcast fires warn-minute minutes
+# before start-hour.
+#
+#   /event start|stop|setspawn|spawn|status|level|setlevel|reload <id>
+#   (aliases: /nguyethuyet, /bloodmoon, /nguyet — permission: coreplugin.event.admin)
+#
+# To add a NEW event later: copy the "bloodmoon" block below under a new id
+# and edit its values. No code/module change needed.
+#
+# setspawn uses the ADMIN'S CURRENT LOCATION (not a targeted block, unlike
+# /altar set). Until an admin runs setspawn <id>, that event's spawn.*
+# defaults below are used. The saved override, leveling progress, and
+# same-day warn/start/end flags (so a restart mid-window doesn't
+# double-fire) live in event-data.yml — rewritten by the plugin, only edit
+# THIS file.
+#
+# Each event has its own leveling system, same mechanics as modules/altar:
+# killing the event's boss.mob-id gives +1 level (capped), decay-hours of
+# inactivity removes a level (floored at min-level), and progress resets
+# monthly. Soft-cap HP/DMG, skills/phases, and drop/exp scaling belong in
+# MythicMobs mob + drop tables — CorePlugin only persists level and passes
+# {level}.
+#
+# Changes take effect after /event reload or a restart. This file is only
+# copied out ONCE - missing keys fall back to safe defaults, the plugin
+# never overwrites it.
+# ============================================================================
+
+# How often the schedule + leveling decay/reset are checked for ALL events (seconds).
+check-interval-seconds: 60
+
+events:
+  # Đêm Nguyệt Huyết — weekly bloodmoon boss event.
+  bloodmoon:
+    display: "&5&lNguyệt Huyết"
+    schedule:
+      # java.time.DayOfWeek name: MONDAY, TUESDAY, ..., SUNDAY.
+      day-of-week: SATURDAY
+      start-hour: 20
+      end-hour: 22
+      warn-hour: 19
+      warn-minute: 50
+    # Default spawn point, used until an admin runs /event setspawn bloodmoon.
+    spawn:
+      world: "world_dungeon"
+      x: -56
+      y: 61
+      z: 21
+    boss:
+      # Mythic internal name. Killing this mob advances the leveling below.
+      mob-id: VAMPIRE_LORD_BOSS
+      # Console command run on start / manual /event spawn bloodmoon.
+      # {mob_id} {level} {world} {x} {y} {z} are substituted.
+      spawn-command: "mm mobs spawn {mob_id}:{level} 1 {world},{x},{y},{z}"
+      # Console command run on stop (despawn = true) to clear the boss.
+      kill-command: "mm mobs kill {mob_id}"
+    # Sets the event world's time to 0 ticks on start (the original's
+    # "set time of {world} to 0:00").
+    set-world-time-on-start: true
+    leveling:
+      min-level: 1
+      max-level: 50
+      # -1 level per full period without a kill (min-level floor).
+      decay-hours: 48
+      # Server timezone (JVM default). Resets level to min-level.
+      reset:
+        day-of-month: 1
+        hour: 0
+        minute: 0
+      announce-on-kill: true
+    # Per-event message overrides (fall back to messages.yml). These
+    # preserve the original Skript bloodmoon flavor text exactly.
+    messages:
+      warn: "&5&l⚔ NGUYỆT HUYẾT &8» &fCòn &e10 phút&f nữa Đêm Nguyệt Huyết bắt đầu! Chuẩn bị vào &dDungeon&f."
+      start: "&5&l⚔ ĐÊM NGUYỆT HUYẾT &8» &cBắt đầu! &fBá Tước Huyết Nguyệt đã thức tỉnh. &7(/warp dungeon hoặc vào world_dungeon)"
+      end: "&5&l⚔ NGUYỆT HUYẾT &8» &fĐêm đã tàn. Ánh trăng máu phai đi..."
+      level-up: "&6&l[Nguyệt Huyết] &fBá Tước Huyết Nguyệt đã tăng lên cấp &c{level}&f/&c{max_level}&f!"

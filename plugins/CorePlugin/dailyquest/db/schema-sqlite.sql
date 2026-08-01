@@ -34,3 +34,15 @@ CREATE TABLE IF NOT EXISTS dq_period_bonus (
     claimed_at     TEXT    NOT NULL DEFAULT (datetime('now')),
     PRIMARY KEY (uuid, period_type, period_key, bonus_id)
 );
+
+-- Per-player daily quest assignment (rank-frozen + random pool).
+CREATE TABLE IF NOT EXISTS dq_quest_assignment (
+    uuid           TEXT    NOT NULL,
+    period_type    TEXT    NOT NULL,
+    period_key     TEXT    NOT NULL,
+    rank_id        INTEGER NOT NULL,
+    quest_ids      TEXT    NOT NULL,
+    reroll_count   INTEGER NOT NULL DEFAULT 0,
+    updated_at     TEXT    NOT NULL DEFAULT (datetime('now')),
+    PRIMARY KEY (uuid, period_type, period_key)
+);

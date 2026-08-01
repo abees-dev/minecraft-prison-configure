@@ -50,6 +50,20 @@ integrations:
   # Register the %core_dailyquest_*% placeholders on the shared expansion.
   placeholderapi: true
 
+# Per-player daily/weekly quest assignment (rank pool + random).
+# Disable to show every quest in the period YAML to everyone (legacy behavior).
+assignment:
+  enabled: true
+  # Random picks from (rank:N ∪ global:true). always:true quests are always added.
+  random-count: 3
+  # X-Prison / VIP ranks above this still use this pool (e.g. Vượt Ngục).
+  max-rank: 9
+  reroll:
+    # GUI-only re-roll button on daily and weekly menus.
+    enabled: true
+    # Max free re-rolls per assignment period (calendar day / ISO week).
+    max-per-day: 1
+
 # Feedback sounds.
 sounds:
   # Played once per successful claim (quest claim, check-in, clear-all bonus).
