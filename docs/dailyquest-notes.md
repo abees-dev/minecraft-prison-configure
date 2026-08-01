@@ -1,6 +1,6 @@
 # DailyQuest (CorePlugin) — audit & gap
 
-Cập nhật: 2026-07-31. Lối chơi: [`loi-choi.md`](loi-choi.md) §6.2 A · Config runtime: `plugins/CorePlugin/dailyquest/`.
+Cập nhật: 2026-07-31. Lối chơi: [`loi-choi.md`](loi-choi.md) §6.2 A (cá nhân) — **cùng tồn tại** với quest Bang Hội §6.2 A2 (`/gang quest`). Config runtime: `plugins/CorePlugin/dailyquest/`.
 
 ## Đã có (code + config)
 

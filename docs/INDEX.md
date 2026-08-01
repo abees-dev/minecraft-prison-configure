@@ -1,6 +1,6 @@
 # Mục lục tài liệu server (docs)
 
-Cập nhật: 2026-07-29.
+Cập nhật: 2026-08-01 (Bang Hội soft-launch trong `loi-choi.md`).
 
 Đọc **lối chơi trước**, rồi mới docs vận hành/kỹ thuật theo từng hệ.
 
@@ -10,7 +10,8 @@ Cập nhật: 2026-07-29.
 
 | File | Vai trò |
 | --- | --- |
-| [`loi-choi.md`](loi-choi.md) | **Lối chơi người chơi** — journey, 2 trục đào/chiến, endgame, lớp chống nhàm, roadmap gap P0–P2 |
+| [`loi-choi.md`](loi-choi.md) | **Lối chơi người chơi** — journey, 3 trục đào/chiến/bang, KOTH+PvP bang, endgame, engagement, roadmap P0–P2 |
+| [`../plugins/CorePlugin/gang/README.md`](../plugins/CorePlugin/gang/README.md) | Bang Hội — lệnh, vault/bank, upgrade, quest, KOTH, config |
 | [`prison-rpg-plan.md`](prison-rpg-plan.md) | Roadmap kỹ thuật / phase plugin (lịch sử dựng server) |
 | [`../DOCS_HE_THONG_PRISON.md`](../DOCS_HE_THONG_PRISON.md) | Sell multipliers EconomyShopGUI + VIP + trạng thái X-Prison enchants |
 | [`../STAT_BALANCING_STANDARD.md`](../STAT_BALANCING_STANDARD.md) | Quy chuẩn cân bằng chỉ số F2P (vũ khí/giáp/ngọc/skill) |
@@ -22,7 +23,7 @@ Cập nhật: 2026-07-29.
 | File | Vai trò |
 | --- | --- |
 | [`nguyet-huyet-notes.md`](nguyet-huyet-notes.md) | Đêm Nguyệt Huyết — lịch T7 + boss Bá Tước |
-| [`dailyquest-notes.md`](dailyquest-notes.md) | Daily/Weekly quest CorePlugin — config + gap cần code thêm |
+| [`dailyquest-notes.md`](dailyquest-notes.md) | Daily/Weekly quest **cá nhân** CorePlugin — tách quest bang |
 | [`battlepass-daily-notes.md`](battlepass-daily-notes.md) | BattlePass daily — thử nghiệm cũ; thay bằng CorePlugin DailyQuest |
 | [`economy-phase6-notes.md`](economy-phase6-notes.md) | Phase 6 cân bằng sell / rank / prestige (2026-07-29) |
 | [`xprison-config-notes.md`](xprison-config-notes.md) | Ghi chú chuyển Prison → X-Prison, modules, việc in-game |
@@ -67,10 +68,10 @@ Cập nhật: 2026-07-29.
 
 ## Quy ước nguồn sự thật
 
-1. **Lối chơi / ưu tiên làm gì:** `loi-choi.md`
-2. **Sell & multiplier:** `DOCS_HE_THONG_PRISON.md` + EconomyShopGUI config (không phải X-Prison autosell)
+1. **Lối chơi / ưu tiên làm gì:** `loi-choi.md` (+ Bang Hội: `plugins/CorePlugin/gang/README.md`)
+2. **Sell & multiplier:** `DOCS_HE_THONG_PRISON.md` + EconomyShopGUI config (không phải X-Prison autosell); Sell All bang = CorePlugin vault
 3. **Chỉ số F2P:** `STAT_BALANCING_STANDARD.md`
 4. **Trần donate:** `STAT_BALANCING_GUIDE.md`
-5. **Stack prison sống:** **X-Prison** — `plugins/Prison/` là legacy, không phải lối chơi
+5. **Stack prison sống:** **X-Prison** — `plugins/Prison/` là legacy, không phải lối chơi; **không** dùng X-Prison gangs
 
 Khi docs mâu thuẫn config sống, **sửa docs** (hoặc ghi rõ “deprecated”) — không để ops làm theo số liệu cũ.
