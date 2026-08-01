@@ -58,3 +58,33 @@ world_dungeon_2/*
 world_magadungeon/*
 plugins/MMOItems/.jar_extracted/*
 plugins/**/backups/*
+
+# Player runtime data (auto-generated per player, not tracked)
+/plugins/**/userdata/
+/plugins/Multiverse-Inventories/players/
+/plugins/Multiverse-Inventories/groups/*/*.json
+/plugins/Multiverse-Inventories/worlds/*/*.json
+/plugins/CorePlugin/altar-data.yml
+
+# Skin / UUID caches (auto-fetched, safe to regenerate)
+/plugins/SkinsRestorer/cache/
+/plugins/SkinsRestorer/skins/
+/plugins/SkinsRestorer/recommendations.json
+/plugins/WorldGuard/cache/
+
+# Mine runtime state (auto-generated when server runs)
+/plugins/X-Prison/mines/*.json
+
+# Native library extraction temp files
+/plugins/RoseGarden/tmp/
+
+# SQLite WAL/SHM/journal temp files
+/plugins/**/*.db-shm
+/plugins/**/*.db-wal
+/plugins/**/*.db-journal
+
+# Dailyquest runtime database
+/dailyquest/data/
+
+# Local console log
+/.console_history

@@ -1,8 +1,0 @@
-positions:
-  ma_vuong:
-    world: world_magadungeon
-    x: -3
-    y: 80
-    z: 87
-cooldown-until:
-  ma_vuong: 1785514959205
