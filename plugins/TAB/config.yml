@@ -2,47 +2,47 @@ header-footer:
   enabled: true
   designs:
     default:
-      display-condition: '%world%!=disabledworld'
+      display-condition: "%world%!=disabledworld"
       header:
-      - <#FFD700><strikethrough>                                                </strikethrough></#FFD700>
-      - <#FFD700><bold>✦ %animation:Welcome% ✦</bold></#FFA500>
-      - <#DDDDDD>Xin chào, <#FFD966><bold>%player%</bold> <#DDDDDD>!
-      - '<#DDDDDD>Đang online: <#8AFF8A>%online% <#AAAAAA>| <#DDDDDD>Staff: <#4DD0E1>%staffonline%'
-      - ' '
+        - <#FFD700><strikethrough>                                                </strikethrough></#FFD700>
+        - <#FFD700><bold>✦ %animation:Welcome% ✦</bold></#FFA500>
+        - <#DDDDDD>Xin chào, <#FFD966><bold>%player%</bold> <#DDDDDD>!
+        - "<#DDDDDD>Đang online: <#8AFF8A>%online% <#AAAAAA>| <#DDDDDD>Staff: <#4DD0E1>%staffonline%"
+        - " "
       footer:
-      - ' '
-      - <#DDDDDD>%animation:time%
-      - '<#DDDDDD>Ping: <#FFFFFF>%ping%ms <#AAAAAA>| <#DDDDDD>TPS: <#8AFF8A>%tps%'
-      - ' '
-      - <#DDDDDD>%animation:web%
-      - <#FFD700><strikethrough>                                                </strikethrough></#FFD700>
+        - " "
+        - <#DDDDDD>%animation:time%
+        - "<#DDDDDD>Ping: <#FFFFFF>%ping%ms <#AAAAAA>| <#DDDDDD>TPS: <#8AFF8A>%tps%"
+        - " "
+        - <#DDDDDD>%animation:web%
+        - <#FFD700><strikethrough>                                                </strikethrough></#FFD700>
 tablist-name-formatting:
   enabled: true
-  disable-condition: '%world%=disabledworld'
+  disable-condition: "%world%=disabledworld"
 scoreboard-teams:
   enabled: true
   enable-collision: true
   invisible-nametags: false
   sorting-types:
-  - GROUPS:owner,admin,mod,helper,builder,legend,elite,mvpplus,mvp,vipplus,vip,xprison_rank_9,xprison_rank_8,xprison_rank_7,xprison_rank_6,xprison_rank_5,xprison_rank_4,xprison_rank_3,xprison_rank_2,xprison_rank_1,default
-  - PLACEHOLDER_A_TO_Z:%player%
+    - GROUPS:owner,admin,mod,helper,builder,legend,elite,mvpplus,mvp,vipplus,vip,xprison_rank_9,xprison_rank_8,xprison_rank_7,xprison_rank_6,xprison_rank_5,xprison_rank_4,xprison_rank_3,xprison_rank_2,xprison_rank_1,default
+    - PLACEHOLDER_A_TO_Z:%player%
   case-sensitive-sorting: true
   can-see-friendly-invisibles: false
-  disable-condition: '%world%=disabledworld'
+  disable-condition: "%world%=disabledworld"
 playerlist-objective:
   enabled: true
-  value: '%ping%'
-  fancy-value: '<#AAAAAA>Ping: <#FFFFFF>%ping%ms'
-  disable-condition: '%world%=disabledworld'
+  value: "%ping%"
+  fancy-value: "<#AAAAAA>Ping: <#FFFFFF>%ping%ms"
+  disable-condition: "%world%=disabledworld"
   title: TAB
   render-type: INTEGER
 belowname-objective:
   enabled: true
-  value: '%mmocore_level%'
-  title: '&aLevel'
-  fancy-value: '&aLv. %mmocore_level%'
+  value: "%mmocore_level%"
+  title: "&aLevel"
+  fancy-value: "&aLv. %mmocore_level%"
   fancy-value-default: NPC
-  disable-condition: '%world%=disabledworld'
+  disable-condition: "%world%=disabledworld"
 prevent-spectator-effect:
   enabled: false
 bossbar:
@@ -53,9 +53,9 @@ bossbar:
   bars:
     ServerInfo:
       style: PROGRESS
-      color: '%animation:barcolors%'
-      progress: '100'
-      text: '&fWebsite: &bwww.domain.com'
+      color: "%animation:barcolors%"
+      progress: "100"
+      text: "&fWebsite: &bwww.domain.com"
 scoreboard:
   enabled: true
   toggle-command: /sb
@@ -64,118 +64,139 @@ scoreboard:
   delay-on-join-milliseconds: 0
   scoreboards:
     scoreboard-1.20.3+:
-      title: <#FFD700><bold>✦ %player% ✦</bold></#FFA500>
+      title: <#FFD700><bold>✦ NovaPrison ✦</bold></#FFB347>
       display-condition: '%player-version-id%>=765;%bedrock%=false'
       lines:
-      - <#CCCCCC><strikethrough>                     </strikethrough></#CCCCCC>
-      - <#FFD966>⭐ Rank <#AAAAAA>» %group% %luckperms-suffix%
-      - <#E0AAFF>♛ Prestige <#AAAAAA>» <#FFFFFF>%xprison_prestige%
+      - <#444444><strikethrough>                   </strikethrough>
+      - '  <#FFE08A><bold>%player%</bold> %luckperms-suffix%'
+      - <#444444><strikethrough>                   </strikethrough>
+      - ' <#FFB347>● <#BDBDBD>Rank  <#4A4A4A>» %group%'
+      - ' <#7DCEA0>● <#BDBDBD>Level <#4A4A4A>» <#FFFFFF>%mmocore_level% <#666666>· <#D5D5D5>%mmocore_class%'
+      - ' <#7DCEA0>● <#BDBDBD>EXP   <#4A4A4A>» <#A8E6CF>%mmocore_level_percent%%'
       - ' '
-      - <#8AFF8A>⚔ Level <#AAAAAA>» <#FFFFFF>%mmocore_level% <#E8E8E8>(%mmocore_class%)
-      - <#8AFF8A>✦ EXP <#AAAAAA>» <#FFFFFF>%mmocore_level_percent%%
-      - <#8AFF8A>✧ Điểm ATT <#AAAAAA>» <#FFFFFF>%mmocore_attribute_points%
+      - ' <#E891B5>● <#BDBDBD>Bang  <#4A4A4A>» %condition:gang_name_val%'
+      - '%condition:gang_detail_line%'
+      - '%condition:gang_rep_line%'
       - ' '
-      - <#6BCB77>$ Money <#AAAAAA>» <#B6FFB6>%vault_eco_balance_formatted%
-      - <#4DD0E1>✪ Points <#AAAAAA>» <#B2EBF2>%playerpoints_points_formatted%
-      - ' '
-      - <#DDDDDD>%date% <#AAAAAA>• <#DDDDDD>%time%
-      - <#DDDDDD>⏱ Ping <#AAAAAA>» <#FFFFFF>%ping%ms
-      - <#CCCCCC><strikethrough>                     </strikethrough></#CCCCCC>
+      - ' <#82E0AA>● <#BDBDBD>Money <#4A4A4A>» <#C8F7C5>%vault_eco_balance_formatted%'
+      - ' <#7FB3D5>● <#BDBDBD>Point <#4A4A4A>» <#AED6F1>%playerpoints_points_formatted%'
+      - <#444444><strikethrough>                   </strikethrough>
+      - ' <#777777>%date% <#555555>· <#999999>%time% <#555555>· <#CCCCCC>%ping%ms'
     scoreboard:
-      title: <#FFD700><bold>✦ %player% ✦</bold></#FFA500>
+      title: <#FFD700><bold>✦ NovaPrison ✦</bold></#FFB347>
       lines:
-      - <#CCCCCC><strikethrough>                     </strikethrough></#CCCCCC>
-      - <#FFD966>⭐ Rank <#AAAAAA>» %group% %luckperms-suffix%
-      - <#E0AAFF>♛ Prestige <#AAAAAA>» <#FFFFFF>%xprison_prestige%
+      - <#444444><strikethrough>                   </strikethrough>
+      - '  <#FFE08A><bold>%player%</bold> %luckperms-suffix%'
+      - <#444444><strikethrough>                   </strikethrough>
+      - ' <#FFB347>● <#BDBDBD>Rank  <#4A4A4A>» %group%'
+      - ' <#7DCEA0>● <#BDBDBD>Level <#4A4A4A>» <#FFFFFF>%mmocore_level% <#666666>· <#D5D5D5>%mmocore_class%'
+      - ' <#7DCEA0>● <#BDBDBD>EXP   <#4A4A4A>» <#A8E6CF>%mmocore_level_percent%%'
       - ' '
-      - <#8AFF8A>⚔ Level <#AAAAAA>» <#FFFFFF>%mmocore_level% <#E8E8E8>(%mmocore_class%)
-      - <#8AFF8A>✦ EXP <#AAAAAA>» <#FFFFFF>%mmocore_level_percent%%
-      - <#8AFF8A>✧ Điểm ATT <#AAAAAA>» <#FFFFFF>%mmocore_attribute_points%
+      - ' <#E891B5>● <#BDBDBD>Bang  <#4A4A4A>» %condition:gang_name_val%'
+      - '%condition:gang_detail_line%'
+      - '%condition:gang_rep_line%'
       - ' '
-      - <#6BCB77>$ Money <#AAAAAA>» <#B6FFB6>%vault_eco_balance_formatted%
-      - <#4DD0E1>✪ Points <#AAAAAA>» <#B2EBF2>%playerpoints_points_formatted%
-      - ' '
-      - <#DDDDDD>%date% <#AAAAAA>• <#DDDDDD>%time%
-      - <#DDDDDD>⏱ Ping <#AAAAAA>» <#FFFFFF>%ping%ms
-      - <#CCCCCC><strikethrough>                     </strikethrough></#CCCCCC>
+      - ' <#82E0AA>● <#BDBDBD>Money <#4A4A4A>» <#C8F7C5>%vault_eco_balance_formatted%'
+      - ' <#7FB3D5>● <#BDBDBD>Point <#4A4A4A>» <#AED6F1>%playerpoints_points_formatted%'
+      - <#444444><strikethrough>                   </strikethrough>
+      - ' <#777777>%date% <#555555>· <#999999>%time% <#555555>· <#CCCCCC>%ping%ms'
 layout:
   enabled: false
   direction: COLUMNS
   default-skin: mineskin:383747683
   enable-remaining-players-text: true
-  remaining-players-text: '... and %s more'
+  remaining-players-text: "... and %s more"
   empty-slot-ping-value: 1000
   layouts:
     default:
       fixed-slots:
-      - '1|&3Website&f:'
-      - 2|&bmyserver.net
-      - '3|&8&m                       '
-      - '4|&3Name&f:'
-      - 5|&b%player%
-      - '7|&3Rank&f:'
-      - '8|Rank: %group%'
-      - '10|&3World&f:'
-      - 11|&b%world%
-      - '13|&3Time&f:'
-      - 14|&b%time%
-      - '21|&3Teamspeak&f:'
-      - 22|&bts.myserver.net
-      - '23|&8&m                       '
-      - '41|&3Store&f:'
-      - 42|&bshop.myserver.net
-      - '43|&8&m                       '
+        - "1|&3Website&f:"
+        - 2|&bmyserver.net
+        - "3|&8&m                       "
+        - "4|&3Name&f:"
+        - 5|&b%player%
+        - "7|&3Rank&f:"
+        - "8|Rank: %group%"
+        - "10|&3World&f:"
+        - 11|&b%world%
+        - "13|&3Time&f:"
+        - 14|&b%time%
+        - "21|&3Teamspeak&f:"
+        - 22|&bts.myserver.net
+        - "23|&8&m                       "
+        - "41|&3Store&f:"
+        - 42|&bshop.myserver.net
+        - "43|&8&m                       "
       groups:
         staff:
           slots:
-          - 24-40
+            - 24-40
           display-condition: permission:tab.staff
         players:
           slots:
-          - 44-80
+            - 44-80
 ping-spoof:
   enabled: false
   value: 0
 placeholders:
   date-format: dd.MM.yyyy
-  time-format: '[HH:mm:ss / h:mm a]'
+  time-format: HH:mm
   time-offset: 0
   register-tab-expansion: false
   locale: en-US
 placeholder-output-replacements:
-  '%essentials_vanished%':
-    'yes': '&7| Vanished'
-    'no': ''
-  '%group%':
-    xprison_rank_1: '<white><bold>[Tân Binh]</bold></white> '
-    xprison_rank_2: '<gray><bold>[Tù Nhân]</bold></gray> '
-    xprison_rank_3: '<green><bold>[Lao Công]</bold></green> '
-    xprison_rank_4: '<dark_green><bold>[Thợ Đào]</bold></dark_green> '
-    xprison_rank_5: '<aqua><bold>[Đội Trưởng]</bold></aqua> '
-    xprison_rank_6: '<blue><bold>[Phó Quản Ngục]</bold></blue> '
-    xprison_rank_7: '<light_purple><bold>[Quản Ngục]</bold></light_purple> '
-    xprison_rank_8: '<gold><bold>[Bá Chủ Ngục Tù]</bold></gold> '
-    xprison_rank_9: '<red><bold>[Vượt Ngục]</bold></red> '
-    vip: '<green><bold>[VIP]</bold></green> '
-    vipplus: '<dark_aqua><bold>[VIP+]</bold></dark_aqua> '
-    mvp: '<aqua><bold>[MVP]</bold></aqua> '
-    mvpplus: '<light_purple><bold>[MVP+]</bold></light_purple> '
-    elite: '<gold><bold>[ELITE]</bold></gold> '
-    legend: '<gradient:#FF5555:#FFD700><bold>[LEGEND]</bold></gradient> '
-    default: ''
+  "%essentials_vanished%":
+    "yes": "&7| Vanished"
+    "no": ""
+  "%group%":
+    xprison_rank_1: "<#F5F5F5><bold>[Tân Binh]</bold>"
+    xprison_rank_2: "<#B0B0B0><bold>[Tù Nhân]</bold>"
+    xprison_rank_3: "<#7DCEA0><bold>[Lao Công]</bold>"
+    xprison_rank_4: "<#52BE80><bold>[Thợ Đào]</bold>"
+    xprison_rank_5: "<#5DADE2><bold>[Đội Trưởng]</bold>"
+    xprison_rank_6: "<#5499C7><bold>[Phó Quản Ngục]</bold>"
+    xprison_rank_7: "<#AF7AC5><bold>[Quản Ngục]</bold>"
+    xprison_rank_8: "<#F4D03F><bold>[Bá Chủ Ngục Tù]</bold>"
+    xprison_rank_9: "<#E74C3C><bold>[Vượt Ngục]</bold>"
+    vip: "<#58D68D><bold>[VIP]</bold>"
+    vipplus: "<#48C9B0><bold>[VIP+]</bold>"
+    mvp: "<#5DADE2><bold>[MVP]</bold>"
+    mvpplus: "<#AF7AC5><bold>[MVP+]</bold>"
+    elite: "<#F5B041><bold>[ELITE]</bold>"
+    legend: "<gradient:#FF6B6B:#FFD93D><bold>[LEGEND]</bold></gradient>"
+    default: "<#888888>-"
+  "%core_gang_role%":
+    LEADER: "<#FFD966>Chủ Bang"
+    CO_LEADER: "<#AED6F1>Phó Bang"
+    MEMBER: "<#D5D5D5>Thành viên"
 conditions:
   nick:
     conditions:
-    - '%player%=%essentials_nickname%'
-    true: '%player%'
+      - "%player%=%essentials_nickname%"
+    true: "%player%"
     false: ~%essentials_nickname%
+  gang_name_val:
+    conditions:
+      - "%core_gang_name%!="
+    true: "<#FFFFFF>%core_gang_name% <#777777>[%core_gang_prefix%]"
+    false: "<#666666>Chưa có bang"
+  gang_detail_line:
+    conditions:
+      - "%core_gang_name%!="
+    true: ' <#E891B5>● <#BDBDBD>Role  <#4A4A4A>» %core_gang_role% <#666666>· <#E891B5>Lv.%core_gang_level%'
+    false: ''
+  gang_rep_line:
+    conditions:
+    - '%core_gang_name%!='
+    true: ' <#E891B5>● <#BDBDBD>Rep   <#4A4A4A>» <#F5B7B1>%core_gang_reputation%'
+    false: ''
 assign-groups-by-permissions: false
 primary-group-finding-list:
-- Owner
-- Admin
-- Mod
-- Helper
-- default
+  - Owner
+  - Admin
+  - Mod
+  - Helper
+  - default
 permission-refresh-interval: 1000
 debug: false
 mysql:
@@ -190,15 +211,15 @@ per-world-playerlist:
   enabled: false
   allow-bypass-permission: false
   ignore-effect-in-worlds:
-  - ignoredworld
-  - build
+    - ignoredworld
+    - build
   shared-playerlist-world-groups:
     lobby:
-    - lobby1
-    - lobby2
+      - lobby1
+      - lobby2
     minigames:
-    - paintball
-    - bedwars
+      - paintball
+      - bedwars
 compensate-for-packetevents-bug: false
 global-playerlist:
   enabled: false
@@ -207,15 +228,15 @@ global-playerlist:
   isolate-unlisted-servers: false
   update-latency: false
   spy-servers:
-  - spyserver1
-  - spyserver2
+    - spyserver1
+    - spyserver2
   server-groups:
     lobbies:
-    - lobby1
-    - lobby2
+      - lobby1
+      - lobby2
     group2:
-    - server1
-    - server2
+      - server1
+      - server2
 use-bukkit-permissions-manager: false
 use-online-uuid-in-tablist: true
 proxy-support:
@@ -231,13 +252,23 @@ proxy-support:
   channel-name-suffix: TAB
 placeholder-refresh-intervals:
   default-refresh-interval: 500
-  '%server_uptime%': 1000
-  '%server_tps_1_colored%': 1000
-  '%server_unique_joins%': 5000
-  '%player_health%': 200
-  '%player_ping%': 1000
-  '%vault_prefix%': 1000
-  '%rel_factionsuuid_relation_color%': 1000
+  "%server_uptime%": 1000
+  "%server_tps_1_colored%": 1000
+  "%server_unique_joins%": 5000
+  "%player_health%": 200
+  "%player_ping%": 1000
+  "%vault_prefix%": 1000
+  "%rel_factionsuuid_relation_color%": 1000
+  "%core_gang_name%": 2000
+  "%core_gang_prefix%": 2000
+  "%core_gang_level%": 2000
+  "%core_gang_role%": 2000
+  "%core_gang_reputation%": 2000
+  "%vault_eco_balance_formatted%": 1000
+  "%playerpoints_points_formatted%": 1000
+  "%mmocore_level%": 1000
+  "%mmocore_level_percent%": 1000
+  "%mmocore_class%": 2000
 config-version: 6
 components:
   minimessage-support: true
