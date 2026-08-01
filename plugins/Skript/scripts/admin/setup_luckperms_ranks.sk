@@ -2,6 +2,8 @@
 # HỆ THỐNG SETUP TỰ ĐỘNG LUCKPERMS RANKS - Admin Tool
 # File: plugins/Skript/scripts/admin/setup_luckperms_ranks.sk
 # Lệnh: /setuplpranks hoặc /setup-lp-ranks
+# 2026-08-01: bỏ EconomyShopGUI sell-multiplier; prison ranks thừa kế lệnh;
+#             home-rank khớp Essentials sethome-multiple.
 # =============================================================================
 
 command /setuplpranks:
@@ -35,6 +37,16 @@ command /setuplpranks:
 		execute console command "lp track prision_ranks append xprison_rank_8"
 		execute console command "lp track prision_ranks append xprison_rank_9"
 		
+		# Thừa kế: rank cao giữ toàn bộ command bonus rank thấp
+		execute console command "lp group xprison_rank_2 parent add xprison_rank_1"
+		execute console command "lp group xprison_rank_3 parent add xprison_rank_2"
+		execute console command "lp group xprison_rank_4 parent add xprison_rank_3"
+		execute console command "lp group xprison_rank_5 parent add xprison_rank_4"
+		execute console command "lp group xprison_rank_6 parent add xprison_rank_5"
+		execute console command "lp group xprison_rank_7 parent add xprison_rank_6"
+		execute console command "lp group xprison_rank_8 parent add xprison_rank_7"
+		execute console command "lp group xprison_rank_9 parent add xprison_rank_8"
+		
 		execute console command "lp group xprison_rank_1 setweight 1"
 		execute console command "lp group xprison_rank_2 setweight 2"
 		execute console command "lp group xprison_rank_3 setweight 3"
@@ -55,74 +67,55 @@ command /setuplpranks:
 		execute console command "lp group xprison_rank_8 meta setprefix 8 '<gold><bold>[Bá Chủ Ngục Tù]</bold></gold> '"
 		execute console command "lp group xprison_rank_9 meta setprefix 9 '<red><bold>[Vượt Ngục]</bold></red> '"
 		
-		send "&7[2/4] Đang gán permission & PlayerVaults cho Prison Ranks..." to sender
-		# Quyền mở menu Rank DeluxeMenus cho toàn bộ người chơi
+		send "&7[2/4] Đang gán command bonus Prison (không sell-multiplier ESG)..." to sender
 		execute console command "lp group default permission set deluxemenus.open true"
 		execute console command "lp group default permission set deluxemenus.menu.ranks_master true"
+		execute console command "lp group default permission set deluxemenus.menu.warp_main true"
+		execute console command "lp group default permission set deluxemenus.menu.warp_mines true"
+		execute console command "lp group default permission set deluxemenus.menu.warp_dungeons true"
+		execute console command "lp group default permission set deluxemenus.menu.warp_hub true"
 		
-		# Tắt hoàn toàn quyền dùng menu/lệnh rank nội bộ của X-Prison
 		execute console command "lp group default permission set xprison.ranks false"
 		execute console command "lp group default permission set xprison.ranks.ranks false"
 		
-		# Rank 1: Tân Binh (1 Kho, 2 Home)
+		# Rank 1: Tân Binh — 1 kho, 2 home
 		execute console command "lp group xprison_rank_1 permission set playervaults.amount.1 true"
 		execute console command "lp group xprison_rank_1 permission set essentials.sethome.multiple true"
-		execute console command "lp group xprison_rank_1 permission set EconomyShopGUI.sell-multipliers.xprison_rank_1 true"
-		execute console command "lp group xprison_rank_1 permission set EconomyShopGUI.sell-multiplier.xprison_rank_1 true"
+		execute console command "lp group xprison_rank_1 permission set essentials.sethome.multiple.rank1 true"
 		
-		# Rank 2: Tù Nhân (1 Kho, /workbench)
-		execute console command "lp group xprison_rank_2 permission set playervaults.amount.1 true"
+		# Rank 2: Tù Nhân — /workbench
 		execute console command "lp group xprison_rank_2 permission set essentials.workbench true"
-		execute console command "lp group xprison_rank_2 permission set EconomyShopGUI.sell-multipliers.xprison_rank_2 true"
-		execute console command "lp group xprison_rank_2 permission set EconomyShopGUI.sell-multiplier.xprison_rank_2 true"
 		
-		# Rank 3: Lao Công (2 Kho, 3 Home, /feed)
+		# Rank 3: Lao Công — 2 kho, 3 home, /feed
 		execute console command "lp group xprison_rank_3 permission set playervaults.amount.2 true"
 		execute console command "lp group xprison_rank_3 permission set essentials.sethome.multiple.rank3 true"
 		execute console command "lp group xprison_rank_3 permission set essentials.feed true"
-		execute console command "lp group xprison_rank_3 permission set EconomyShopGUI.sell-multipliers.xprison_rank_3 true"
-		execute console command "lp group xprison_rank_3 permission set EconomyShopGUI.sell-multiplier.xprison_rank_3 true"
 		
-		# Rank 4: Thợ Đào (2 Kho, /anvil)
-		execute console command "lp group xprison_rank_4 permission set playervaults.amount.2 true"
+		# Rank 4: Thợ Đào — /anvil
 		execute console command "lp group xprison_rank_4 permission set essentials.anvil true"
-		execute console command "lp group xprison_rank_4 permission set EconomyShopGUI.sell-multipliers.xprison_rank_4 true"
-		execute console command "lp group xprison_rank_4 permission set EconomyShopGUI.sell-multiplier.xprison_rank_4 true"
 		
-		# Rank 5: Đội Trưởng (3 Kho, 4 Home, /enderchest)
+		# Rank 5: Đội Trưởng — 3 kho, 4 home, /enderchest
 		execute console command "lp group xprison_rank_5 permission set playervaults.amount.3 true"
 		execute console command "lp group xprison_rank_5 permission set essentials.sethome.multiple.rank5 true"
 		execute console command "lp group xprison_rank_5 permission set essentials.enderchest true"
-		execute console command "lp group xprison_rank_5 permission set EconomyShopGUI.sell-multipliers.xprison_rank_5 true"
-		execute console command "lp group xprison_rank_5 permission set EconomyShopGUI.sell-multiplier.xprison_rank_5 true"
 		
-		# Rank 6: Phó Quản Ngục (3 Kho, /heal)
-		execute console command "lp group xprison_rank_6 permission set playervaults.amount.3 true"
+		# Rank 6: Phó Quản Ngục — /heal
 		execute console command "lp group xprison_rank_6 permission set essentials.heal true"
-		execute console command "lp group xprison_rank_6 permission set EconomyShopGUI.sell-multipliers.xprison_rank_6 true"
-		execute console command "lp group xprison_rank_6 permission set EconomyShopGUI.sell-multiplier.xprison_rank_6 true"
 		
-		# Rank 7: Quản Ngục (4 Kho, 5 Home, /craft, /recipe)
+		# Rank 7: Quản Ngục — 4 kho, 5 home, /craft, /recipe
 		execute console command "lp group xprison_rank_7 permission set playervaults.amount.4 true"
 		execute console command "lp group xprison_rank_7 permission set essentials.sethome.multiple.rank7 true"
 		execute console command "lp group xprison_rank_7 permission set essentials.craft true"
 		execute console command "lp group xprison_rank_7 permission set essentials.recipe true"
-		execute console command "lp group xprison_rank_7 permission set EconomyShopGUI.sell-multipliers.xprison_rank_7 true"
-		execute console command "lp group xprison_rank_7 permission set EconomyShopGUI.sell-multiplier.xprison_rank_7 true"
 		
-		# Rank 8: Bá Chủ Ngục Tù (4 Kho, /pweather)
-		execute console command "lp group xprison_rank_8 permission set playervaults.amount.4 true"
+		# Rank 8: Bá Chủ — /pweather
 		execute console command "lp group xprison_rank_8 permission set essentials.pweather true"
-		execute console command "lp group xprison_rank_8 permission set EconomyShopGUI.sell-multipliers.xprison_rank_8 true"
-		execute console command "lp group xprison_rank_8 permission set EconomyShopGUI.sell-multiplier.xprison_rank_8 true"
 		
-		# Rank 9: Vượt Ngục (5 Kho, 6 Home, /ptime, Kit Vượt Ngục)
+		# Rank 9: Vượt Ngục — 5 kho, 6 home, /ptime, kit
 		execute console command "lp group xprison_rank_9 permission set playervaults.amount.5 true"
 		execute console command "lp group xprison_rank_9 permission set essentials.sethome.multiple.rank9 true"
 		execute console command "lp group xprison_rank_9 permission set essentials.ptime true"
 		execute console command "lp group xprison_rank_9 permission set essentials.kits.rank9 true"
-		execute console command "lp group xprison_rank_9 permission set EconomyShopGUI.sell-multipliers.xprison_rank_9 true"
-		execute console command "lp group xprison_rank_9 permission set EconomyShopGUI.sell-multiplier.xprison_rank_9 true"
 		
 		# =============================================================================
 		# PART 2: VIP DONOR RANKS (1 -> 6)
@@ -164,69 +157,57 @@ command /setuplpranks:
 		execute console command "lp group elite meta setprefix 100 '<gold><bold>[ELITE]</bold></gold> '"
 		execute console command "lp group legend meta setprefix 100 '<gradient:#FF5555:#FFD700><bold>[LEGEND]</bold></gradient> '"
 		
-		send "&7[4/4] Đang gán permission & PlayerVaults cho VIP Ranks..." to sender
-		# VIP (6 Kho, /fly, 5 Home, /workbench, /hat, Kit VIP, Multiplier +25%)
+		send "&7[4/4] Đang gán command bonus VIP (không sell-multiplier ESG)..." to sender
+		# VIP — 6 kho, 5 home, /workbench, /hat, kit (không /fly — fly ở LEGEND)
 		execute console command "lp group vip permission set playervaults.amount.6 true"
-		execute console command "lp group vip permission set essentials.fly true"
 		execute console command "lp group vip permission set essentials.sethome.multiple true"
 		execute console command "lp group vip permission set essentials.sethome.multiple.vip true"
 		execute console command "lp group vip permission set essentials.kits.vip true"
 		execute console command "lp group vip permission set essentials.workbench true"
 		execute console command "lp group vip permission set essentials.hat true"
-		execute console command "lp group vip permission set EconomyShopGUI.sell-multipliers.vip true"
-		execute console command "lp group vip permission set EconomyShopGUI.sell-multiplier.vip true"
 		
-		# VIP+ (8 Kho, 7 Home, /enderchest, Chat màu, Kit VIP+, Multiplier +35%)
+		# VIP+ — 8 kho, 7 home, /enderchest, chat màu, kit
 		execute console command "lp group vipplus permission set playervaults.amount.8 true"
 		execute console command "lp group vipplus permission set essentials.sethome.multiple.vipplus true"
 		execute console command "lp group vipplus permission set essentials.kits.vipplus true"
 		execute console command "lp group vipplus permission set essentials.enderchest true"
-		execute console command "lp group vipplus permission set essentials.color true"
-		execute console command "lp group vipplus permission set EconomyShopGUI.sell-multipliers.vipplus true"
-		execute console command "lp group vipplus permission set EconomyShopGUI.sell-multiplier.vipplus true"
+		execute console command "lp group vipplus permission set essentials.chat.color true"
 		
-		# MVP (10 Kho, 10 Home, /heal, /feed, KeepFly, Kit MVP, Multiplier +50%)
+		# MVP — 10 kho, 10 home, /heal, /feed, kit
 		execute console command "lp group mvp permission set playervaults.amount.10 true"
 		execute console command "lp group mvp permission set essentials.sethome.multiple.mvp true"
 		execute console command "lp group mvp permission set essentials.kits.mvp true"
 		execute console command "lp group mvp permission set essentials.heal true"
 		execute console command "lp group mvp permission set essentials.feed true"
-		execute console command "lp group mvp permission set xprison.fly.keep true"
-		execute console command "lp group mvp permission set EconomyShopGUI.sell-multipliers.mvp true"
-		execute console command "lp group mvp permission set EconomyShopGUI.sell-multiplier.mvp true"
 		
-		# MVP+ (12 Kho, 15 Home, /nick, /repair, /anvil, Kit MVP+, Multiplier +70%)
+		# MVP+ — 12 kho, 15 home, /nick, /repair, /anvil, kit
 		execute console command "lp group mvpplus permission set playervaults.amount.12 true"
 		execute console command "lp group mvpplus permission set essentials.sethome.multiple.mvpplus true"
 		execute console command "lp group mvpplus permission set essentials.kits.mvpplus true"
 		execute console command "lp group mvpplus permission set essentials.nick true"
 		execute console command "lp group mvpplus permission set essentials.repair true"
 		execute console command "lp group mvpplus permission set essentials.anvil true"
-		execute console command "lp group mvpplus permission set EconomyShopGUI.sell-multipliers.mvpplus true"
-		execute console command "lp group mvpplus permission set EconomyShopGUI.sell-multiplier.mvpplus true"
 		
-		# ELITE (16 Kho, 20 Home, /speed, BattlePass Premium, Kit ELITE, Multiplier +90%)
+		# ELITE — 16 kho, 20 home, /speed, kit
 		execute console command "lp group elite permission set playervaults.amount.16 true"
 		execute console command "lp group elite permission set essentials.sethome.multiple.elite true"
 		execute console command "lp group elite permission set essentials.kits.elite true"
 		execute console command "lp group elite permission set essentials.speed true"
-		execute console command "lp group elite permission set xprison.battlepass.premium true"
-		execute console command "lp group elite permission set EconomyShopGUI.sell-multipliers.elite true"
-		execute console command "lp group elite permission set EconomyShopGUI.sell-multiplier.elite true"
 		
-		# LEGEND (20 Kho, 25 Home, Disguise, /ptime, /pweather, Kit LEGEND, Multiplier +120%)
+		# LEGEND — 20 kho, 25 home, /fly (+ KeepFly), disguise, /ptime, /pweather, kit
 		execute console command "lp group legend permission set playervaults.amount.20 true"
 		execute console command "lp group legend permission set essentials.sethome.multiple.legend true"
 		execute console command "lp group legend permission set essentials.kits.legend true"
+		execute console command "lp group legend permission set essentials.fly true"
+		execute console command "lp group legend permission set xprison.fly.keep true"
 		execute console command "lp group legend permission set libsdisguises.seecmd.disguise true"
 		execute console command "lp group legend permission set libsdisguises.seecmd.undisguise true"
 		execute console command "lp group legend permission set disguise.* true"
 		execute console command "lp group legend permission set essentials.ptime true"
 		execute console command "lp group legend permission set essentials.pweather true"
-		execute console command "lp group legend permission set EconomyShopGUI.sell-multipliers.legend true"
-		execute console command "lp group legend permission set EconomyShopGUI.sell-multiplier.legend true"
 		
-		send "&a&l[LuckPerms Setup] ✔ ĐÃ HOÀN TẤT KHỞI TẠO TOÀN BỘ 9 RANK PRISON & 6 RANK VIP!" to sender
+		send "&a&l[LuckPerms Setup] ✔ Xong — command bonus theo rank (sell mult chỉ Bang Hội)!" to sender
+		send "&eNhắc: Essentials sethome-multiple đã có rank1/3/5/7/9 — /ess reload nếu vừa sửa file." to sender
 		
 command /setup-lp-ranks:
 	permission: op

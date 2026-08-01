@@ -761,13 +761,20 @@ world-home-permissions: false
 # Create the 'home-rank' below, and give the matching permission: essentials.sethome.multiple.<home-rank>
 # For more information, visit http://wiki.ess3.net/wiki/Multihome
 sethome-multiple:
-  default: 3
+  # Prison ranks (permission essentials.sethome.multiple.<key>)
+  rank1: 2
+  rank3: 3
+  rank5: 4
+  rank7: 5
+  rank9: 6
+  # VIP donor — khớp /rank menu & LuckPerms setup
+  default: 2
   vip: 5
   vipplus: 7
-  mvp: 9
-  mvpplus: 11
-  elite: 13
-  legend: 15
+  mvp: 10
+  mvpplus: 15
+  elite: 20
+  legend: 25
   staff: 10
 
 # In this example someone with 'essentials.sethome.multiple' and 'essentials.sethome.multiple.vip' will have 5 homes.

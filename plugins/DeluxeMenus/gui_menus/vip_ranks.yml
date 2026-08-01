@@ -27,7 +27,7 @@ items:
     display_name: '&e&lVIP Donor Ranks'
     lore:
       - '&7Mua rank donor để nhận thêm quyền lợi:'
-      - '&7fly, home, kit riêng, vault, và nhiều hơn.'
+      - '&7home, kit riêng, vault; &a/fly &7mở ở LEGEND.'
       - ''
       - '&7Các rank có thể mua độc lập, không'
       - '&7cần mua theo thứ tự từ thấp đến cao.'
@@ -46,7 +46,7 @@ items:
     display_name: '&a&lVIP &7(&aĐã sở hữu&7)'
     lore:
       - '&7Quyền lợi của hạng này:'
-      - '&8- &7/fly, 5 /home, kit &avip'
+      - '&8- &75 /home, kit &avip'
       - '&8- &7Workbench di động, /hat'
       - ''
       - '&a✔ Bạn đã có đủ quyền lợi hạng này.'
@@ -63,7 +63,7 @@ items:
     display_name: '&a&lVIP'
     lore:
       - '&7Quyền lợi:'
-      - '&8- &7/fly, 5 /home, kit &avip'
+      - '&8- &75 /home, kit &avip'
       - '&8- &7Workbench di động, /hat'
       - ''
       - '&7Giá: &f15,000,000 &7money'
@@ -137,7 +137,7 @@ items:
     lore:
       - '&7Quyền lợi của hạng này (đã bao gồm VIP+):'
       - '&8- &79 /home, kit &dmvp'
-      - '&8- &7/heal, /feed, giữ fly khi chết'
+      - '&8- &7/heal, /feed'
       - ''
       - '&a✔ Bạn đã có đủ quyền lợi hạng này.'
     view_requirement:
@@ -154,7 +154,7 @@ items:
     lore:
       - '&7Kèm toàn bộ quyền lợi &bVIP+&7, cộng thêm:'
       - '&8- &79 /home, kit &dmvp'
-      - '&8- &7/heal, /feed, giữ fly khi chết'
+      - '&8- &7/heal, /feed'
       - ''
       - '&7Giá: &f90,000,000 &7money'
       - '&eClick để mua!'
@@ -227,7 +227,7 @@ items:
     lore:
       - '&7Quyền lợi của hạng này (đã bao gồm MVP+):'
       - '&8- &713 /home, kit &6elite'
-      - '&8- &7/speed, BattlePass Premium'
+      - '&8- &7/speed'
       - ''
       - '&a✔ Bạn đã có đủ quyền lợi hạng này.'
     view_requirement:
@@ -244,7 +244,7 @@ items:
     lore:
       - '&7Kèm toàn bộ quyền lợi &5MVP+&7, cộng thêm:'
       - '&8- &713 /home, kit &6elite'
-      - '&8- &7/speed, BattlePass Premium'
+      - '&8- &7/speed'
       - ''
       - '&7Giá: &f350,000,000 &7money'
       - '&eClick để mua!'
@@ -272,7 +272,7 @@ items:
     lore:
       - '&7Quyền lợi của hạng này (đã bao gồm ELITE):'
       - '&8- &715 /home, kit &clegend'
-      - '&8- &7Disguise (/disguise)'
+      - '&8- &7/fly (+ giữ fly), Disguise (/disguise)'
       - ''
       - '&a✔ Bạn đã có đủ quyền lợi hạng cao nhất.'
     view_requirement:
@@ -289,7 +289,7 @@ items:
     lore:
       - '&7Kèm toàn bộ quyền lợi &6ELITE&7, cộng thêm:'
       - '&8- &715 /home, kit &clegend'
-      - '&8- &7Disguise (/disguise)'
+      - '&8- &7/fly (+ giữ fly), Disguise (/disguise)'
       - ''
       - '&7Giá: &f750,000,000 &7money'
       - '&eClick để mua!'

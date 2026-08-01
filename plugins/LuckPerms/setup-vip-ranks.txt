@@ -53,7 +53,6 @@ lp group elite meta setprefix 100 "<gold><bold>[ELITE]</bold></gold> "
 lp group legend meta setprefix 100 "<gradient:#FF5555:#FFD700><bold>[LEGEND]</bold></gradient> "
 
 # --- 5. Perks - VIP (tier 1) -------------------------------------------------
-lp group vip permission set essentials.fly true
 lp group vip permission set essentials.sethome.multiple true
 lp group vip permission set essentials.sethome.multiple.vip true
 lp group vip permission set essentials.kits.vip true
@@ -73,7 +72,6 @@ lp group mvp permission set essentials.sethome.multiple.mvp true
 lp group mvp permission set essentials.kits.mvp true
 lp group mvp permission set essentials.heal true
 lp group mvp permission set essentials.feed true
-lp group mvp permission set xprison.fly.keep true
 lp group mvp permission set playervaults.amount.5 true
 
 # --- 8. Perks - MVP+ (tier 4, adds on top of MVP) ---------------------------
@@ -87,12 +85,13 @@ lp group mvpplus permission set playervaults.amount.6 true
 lp group elite permission set essentials.sethome.multiple.elite true
 lp group elite permission set essentials.kits.elite true
 lp group elite permission set essentials.speed true
-lp group elite permission set xprison.battlepass.premium true
 lp group elite permission set playervaults.amount.8 true
 
-# --- 10. Perks - LEGEND (tier 6, adds on top of ELITE, the "fun" tier) -----
+# --- 10. Perks - LEGEND (tier 6) — /fly + KeepFly -----------------------
 lp group legend permission set essentials.sethome.multiple.legend true
 lp group legend permission set essentials.kits.legend true
+lp group legend permission set essentials.fly true
+lp group legend permission set xprison.fly.keep true
 lp group legend permission set libsdisguises.seecmd.disguise true
 lp group legend permission set libsdisguises.seecmd.undisguise true
 lp group legend permission set disguise.* true

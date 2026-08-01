@@ -4,7 +4,7 @@ Tài liệu vận hành **bán quặng** (EconomyShopGUI + Bang Hội), tích h�
 
 **Nguồn lối chơi:** [`docs/loi-choi.md`](docs/loi-choi.md) · **Mục lục docs:** [`docs/INDEX.md`](docs/INDEX.md)
 
-Cập nhật: 2026-08-01 — `/sellgui` **không** còn sell-multiplier; multiplier bán chỉ qua **Bang Hội** (upgrade Sell / buff / paragon). Giá base gang `sell-prices` khớp `shops/Ores.yml`.
+Cập nhật: 2026-08-01 — `/sellgui` **không** còn sell-multiplier; multiplier bán chỉ qua **Bang Hội**; command bonus rank đã sửa (thừa kế + home Essentials).
 
 ---
 
@@ -55,30 +55,26 @@ Nguồn nhân (CorePlugin gang, không phải EconomyShopGUI):
 
 **Không** dùng permission `EconomyShopGUI.sell-multipliers.*` cho earn bán quặng nữa.
 
-### Lịch sử (deprecated) — bảng rank/VIP từng gắn ESG
+### Lịch sử (deprecated)
 
-Trước 2026-08-01, ESG `enable-sell-multipliers: true` với rank + VIP (tới LEGEND x3.0). Block `sell-multipliers:` trong `config.yml` **có thể còn trên đĩa** nhưng **không hiệu lực** khi flag = false. Không cấp lại permission sell-multiplier cho progression.
-
-LuckPerms setup cũ (`/setuplpranks`, `setup-all-ranks.txt`) vẫn có thể gán node đó — vô hại với ESG đã tắt; dual-check nếu muốn dọn LP.
+Trước 2026-08-01, ESG có sell-multiplier rank/VIP (tới LEGEND x3.0). Block trong `config.yml` có thể còn nhưng **không hiệu lực** khi `enable-sell-multipliers: false`. Setup LP mới **không** cấp node đó — clear DB rồi `/setuplpranks` là đủ.
 
 ---
 
 ## 3. X-Prison enchants / autosell — trạng thái design
 
-**Hiện tại (chuẩn lối chơi):** trong `plugins/X-Prison/config.yml`:
+**Hiện tại:** trong `plugins/X-Prison/config.yml`:
 
 * `enchants: false`
 * `autosell: false`
 
-Người chơi **không** dùng `/enchant` Nuke/Layer của X-Prison làm core. Sức đào đến từ **cuốc MMOItems** (NPC lò rèn) + bán `/sellgui` hoặc vault bang.
+Người chơi **không** dùng Nuke/Layer làm core. Sức đào = cuốc MMOItems + bán `/sellgui` hoặc vault bang.
 
-### Nếu sau này bật lại enchants (không phải soft-launch)
+### Nếu sau này bật lại enchants (không soft-launch)
 
-Giữ ghi chú kỹ thuật để khỏi mất ngữ cảnh:
-
-* `supported-pickaxes` cần gồm đủ material cúp MMOItems (WOODEN → NETHERITE).
-* File enchant: `plugins/X-Prison/enchants/nuke.json`, `layer.json`, `explosive.json`, `fortune.json` — nên `countBlocksBroken: true` nếu muốn `/blocks` đếm đúng.
-* Trước khi bật: đối chiếu lại [`docs/loi-choi.md`](docs/loi-choi.md) §6.4 (cố ý không dùng Nuke làm core) và Vulcan `fastbreak`.
+* `supported-pickaxes` đủ material cúp MMOItems.
+* Enchant `countBlocksBroken: true` nếu cần `/blocks` đúng.
+* Đối chiếu [`docs/loi-choi.md`](docs/loi-choi.md) §6.4 + Vulcan `fastbreak`.
 
 ---
 
@@ -86,16 +82,44 @@ Giữ ghi chú kỹ thuật để khỏi mất ngữ cảnh:
 
 | Lệnh | Mục đích |
 | :--- | :--- |
-| `/sreload` | Reload EconomyShopGUI (giá `/sellgui`) |
-| `/gang reload` | Reload YAML bang (gồm `sell-prices`) |
-| `/xprison reload` | Reload X-Prison (mines, ranks, prestiges…) |
-| `/sellgui` | Bán đồ cá nhân (giá base) |
-| `/sell` / `/sellall` | Mở `/sellgui` (không bán thẳng all) |
+| `/setuplpranks` | Áp command bonus Prison + VIP (Skript) |
+| `/sreload` | Reload EconomyShopGUI |
+| `/ess reload` | Reload Essentials (homes) |
+| `/gang reload` | Reload YAML bang |
+| `/xprison reload` | Reload X-Prison |
+| `/sellgui` | Bán cá nhân (giá base) |
 | `/gang vault` | Kho quặng bang + Sell All → bank |
+
+---
+
+## 5. Command bonus theo rank (LuckPerms)
+
+Nguồn: `plugins/Skript/scripts/admin/setup_luckperms_ranks.sk` · `plugins/LuckPerms/setup-all-ranks.txt`  
+Home: `plugins/Essentials/config.yml` → `sethome-multiple` (`rank1`/`rank3`/`rank5`/`rank7`/`rank9`, VIP).
+
+**Prison** — group cao **parent** group thấp → giữ lệnh đã mở:
+
+| Rank | Mở thêm (cộng dồn) |
+| ---: | --- |
+| 1 Tân Binh | `/pv`×1, 2 home |
+| 2 Tù Nhân | `/workbench` |
+| 3 Lao Công | `/pv`×2, 3 home, `/feed` |
+| 4 Thợ Đào | `/anvil` |
+| 5 Đội Trưởng | `/pv`×3, 4 home, `/enderchest` |
+| 6 Phó Quản Ngục | `/heal` |
+| 7 Quản Ngục | `/pv`×4, 5 home, `/craft`, `/recipe` |
+| 8 Bá Chủ | `/pweather` |
+| 9 Vượt Ngục | `/pv`×5, 6 home, `/ptime`, `/kit rank9` |
+
+**VIP** (donor): kho/home/lệnh theo menu `/rank` — **không** nhân `/sellgui`. **`/fly` (+ KeepFly) chỉ LEGEND.**
+
+Áp dụng: `/setuplpranks` → `/ess reload`.
 
 ---
 
 ## Testing note
 
-* `/sellgui`: mọi rank/VIP/OP phải thấy **cùng giá base** (không còn LEGEND x3 trên shop).
-* Sell All bang: giá base × (1 + Sell upgrade + buff/paragon) → tiền vào **bank bang**, không vào túi player trừ khi rút bank.
+* `/sellgui`: mọi rank/VIP/OP cùng giá base.
+* Sell All bang: base × Sell upgrade / buff / paragon → bank bang.
+* Rank cao vẫn dùng lệnh rank thấp (vd rank 5: `/workbench` + `/feed`).
+* Home: rank3=3, rank9=6; VIP legend=25.
