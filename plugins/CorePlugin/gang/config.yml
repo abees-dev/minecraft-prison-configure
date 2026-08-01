@@ -111,22 +111,52 @@ upgrades:
   sell:
     max-level: 5
     # Reputation cost to reach level 1, 2, ... (last reused).
-    reputation-costs: [100, 250, 500, 1000, 2000]
+    reputation-costs:
+      - 100
+      - 250
+      - 500
+      - 1000
+      - 2000
     # Money cost (from gang bank), same indexing as reputation-costs above.
-    money-costs: [50000, 150000, 400000, 900000, 2000000]
+    money-costs:
+      - 50000
+      - 150000
+      - 400000
+      - 900000
+      - 2000000
     multiplier-per-level: 0.1
   magnet:
     max-level: 5
-    reputation-costs: [100, 250, 500, 1000, 2000]
-    money-costs: [50000, 150000, 400000, 900000, 2000000]
+    reputation-costs:
+      - 100
+      - 250
+      - 500
+      - 1000
+      - 2000
+    money-costs:
+      - 50000
+      - 150000
+      - 400000
+      - 900000
+      - 2000000
     # Extra % ores deposited into vault per level.
     bonus-percent-per-level: 5
   protection:
     max-level: 5
-    reputation-costs: [150, 300, 600, 1200, 2400]
-    money-costs: [75000, 200000, 500000, 1200000, 2500000]
+    reputation-costs:
+      - 150
+      - 300
+      - 600
+      - 1200
+      - 2400
+    money-costs:
+      - 75000
+      - 200000
+      - 500000
+      - 1200000
+      - 2500000
     reduction-per-level: 0.05
-    max-reduction: 0.40
+    max-reduction: 0.4
 
 # Bang Level — permanent gang-wide progression, paid with gang reputation
 # (danh vọng) AND money from the gang bank (both required). Each level:
@@ -137,20 +167,27 @@ upgrades:
 level:
   max-level: 10
   # Reputation cost to reach level 2, 3, ... 10 (index 0 = cost to reach level 2).
-  reputation-costs: [200, 400, 700, 1100, 1600, 2200, 3000, 4000, 5500]
+  reputation-costs:
+    - 200
+    - 400
+    - 700
+    - 1100
+    - 1600
+    - 2200
+    - 3000
+    - 4000
+    - 5500
   # Money cost (from gang bank), same indexing as reputation-costs above.
   money-costs:
-    [
-      500000,
-      1000000,
-      2000000,
-      3500000,
-      5500000,
-      8000000,
-      11000000,
-      15000000,
-      20000000,
-    ]
+    - 500000
+    - 1000000
+    - 2000000
+    - 3500000
+    - 5500000
+    - 8000000
+    - 11000000
+    - 15000000
+    - 20000000
   # Vault capacity gained EACH time the gang levels up (flat bonus, stacks
   # with Shop's "Mở rộng sức chứa kho" purchases).
   vault-capacity-per-level: 50
@@ -191,30 +228,42 @@ quest:
     # Overall board progress only — no per-quest names. Details: /gang quest info
     title: "&eQuest Bang Lv{level} &8| &f{percent}% &7({progress}/{target})"
   levels:
-    1:
+    "1":
       min-members: 1
       min-online: 1
       # Random distinct quests from pool each open (pool smaller → take all).
       pick-count: 3
       duration-minutes: 60
-      open-cost: { money: 10000.0, reputation: 50 }
-      reset-cost: { money: 5000.0, reputation: 25 }
+      open-cost:
+        money: 10000.0
+        reputation: 50
+      reset-cost:
+        money: 5000.0
+        reputation: 25
       reward-reputation: 200
-    2:
+    "2":
       min-members: 3
       min-online: 2
       pick-count: 3
       duration-minutes: 90
-      open-cost: { money: 50000.0, reputation: 150 }
-      reset-cost: { money: 25000.0, reputation: 75 }
+      open-cost:
+        money: 50000.0
+        reputation: 150
+      reset-cost:
+        money: 25000.0
+        reputation: 75
       reward-reputation: 600
-    3:
+    "3":
       min-members: 5
       min-online: 3
       pick-count: 3
       duration-minutes: 120
-      open-cost: { money: 150000.0, reputation: 400 }
-      reset-cost: { money: 75000.0, reputation: 200 }
+      open-cost:
+        money: 150000.0
+        reputation: 400
+      reset-cost:
+        money: 75000.0
+        reputation: 200
       reward-reputation: 1500
 
 # Phase 2 — VIP KOTH mine (WorldGuard region).

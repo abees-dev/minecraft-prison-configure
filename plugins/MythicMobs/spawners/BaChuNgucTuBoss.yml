@@ -26,4 +26,4 @@ BaChuNgucTuBoss:
   Conditions: []
   SpawnConditions: []
   ActiveMobs: 0
-  CooldownTimer: 2
+  CooldownTimer: 1
