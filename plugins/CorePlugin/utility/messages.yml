@@ -1,0 +1,6 @@
+# Docs:
+#   Purpose: Messages for the top-level /utility admin command itself
+#     (no-permission, reload-ok, usage). Not shipped with any keys by
+#     default — built-in Vietnamese defaults live in code (UtilityDefaults);
+#     add keys here only to override them.
+#   Reload: /utility reload

@@ -1,0 +1,63 @@
+# ============================================================================
+# CorePlugin - Black Market ("Chợ Đen") module configuration
+# ============================================================================
+# Kotlin port of Skript/scripts/black_market/ (config, logic, gui, commands):
+# player-to-player listings paid with Vault money or PlayerPoints, browsed
+# through /choden (aliases /blackmarket, /bm), with 24h expiry and a 7-day
+# reclaim window. Admin commands: /chodena cancel <id>, /chodena purge.
+#
+# Unlike the Skript (Skript variables), ALL market state now lives in SQL
+# (storage: below) - listings survive restarts and every mutation is atomic,
+# which also structurally fixes the old "owner buys their own listing" bug:
+# ownership is re-checked in the GUI, when the confirm menu opens, AND inside
+# the buy transaction itself.
+#
+# Changes take effect after either:
+#   - /choden reload   (requires permission: coreplugin.blackmarket.admin)
+#   - a server restart
+# EXCEPT the storage: section, which is read once at startup - switching
+# sqlite/mysql requires a restart.
+#
+# This file is only copied out ONCE, the first time the module starts. If a
+# key is missing the plugin falls back to a safe built-in default instead of
+# breaking - it will NOT overwrite or regenerate this file.
+#
+# Player-facing strings live in messages.yml; GUI titles live in gui.yml
+# (same folder). DB schema files (schema-sqlite.sql/schema-mysql.sql) also
+# live in this folder.
+# ============================================================================
+
+market:
+  # Minimum price per listing (both money and points).
+  min-price: 10
+  # Max simultaneous listings per player.
+  max-listings: 5
+  # Seller-side tax: 0.05 = seller receives 95% of the sale price.
+  tax-rate: 0.05
+  # Listing lifetime before it expires into the reclaim list (seconds).
+  expire-seconds: 86400
+  # Days an expired item stays reclaimable via /choden nhan before deletion.
+  refund-days: 7
+  # Cooldown between market actions per player (seconds).
+  cooldown-seconds: 3
+
+# Read once at startup. type: sqlite or mysql.
+storage:
+  type: sqlite
+  sqlite:
+    # Relative to this plugin's dataFolder.
+    file: blackmarket.db
+  mysql:
+    host: localhost
+    port: 3306
+    database: coreplugin
+    username: root
+    password: ""
+    pool-size: 4
+
+# Console command templates. {player} {amount} are substituted.
+commands:
+  # Used to pay an OFFLINE seller their (post-tax) money share.
+  eco-give: "eco give {player} {amount}"
+  points-take: "points take {player} {amount}"
+  points-give: "points give {player} {amount}"

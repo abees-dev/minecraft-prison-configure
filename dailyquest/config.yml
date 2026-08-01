@@ -1,0 +1,69 @@
+# Docs:
+#   Purpose: Main plugin settings — storage backend, timezone, soft-depend toggles.
+#   Reload: /dailyquest reload (YAML only; storage.type requires restart)
+#   Server: Paper 1.19.4+
+#   See also: quests/*.yml, checkin.yml, gui.yml, messages.yml
+
+# Timezone for daily / weekly / check-in period boundaries (IANA id).
+reset-timezone: Asia/Ho_Chi_Minh
+
+# Storage backend. Change requires full server restart (pool is created on enable).
+#   sqlite — local file under plugin data folder (zero external DB setup)
+#   mysql  — remote/local MySQL via HikariCP
+storage:
+  # Backend: sqlite | mysql
+  type: sqlite
+  # SQLite only: relative path under plugins/CorePlugin/dailyquest/ (created automatically).
+  sqlite-file: data/dailyquest.db
+
+# MySQL connection (used when storage.type is mysql). Never block queries on the main thread.
+mysql:
+  # JDBC host (no jdbc: prefix here — built by the plugin).
+  host: 127.0.0.1
+  # MySQL port.
+  port: 3306
+  # Database name (must exist; schema applied from db/schema-mysql.sql on enable).
+  database: dailyquest
+  # Credentials — prefer env/secrets in production; defaults are for local dev only.
+  username: root
+  password: ''
+  # Hikari pool size.
+  pool-size: 10
+  # Extra JDBC params appended to the URL.
+  properties: useSSL=false&allowPublicKeyRetrieval=true&characterEncoding=utf8
+
+# Soft-depend feature toggles (still no-ops if the plugin is not installed).
+integrations:
+  # Deposit money via Vault Economy when type: vault-money (fallback: eco give).
+  vault: true
+  # Give rewards via MMOItems API when type: mmoitem.
+  mmoitems: true
+  # Grant MMOCore experience when type: mmocore-exp.
+  mmocore: true
+  # Dispatch ExcellentCrates console commands when type: crate (hòm) or
+  # crate-key (chìa — "crates key give").
+  excellentcrates: true
+  # Grant PlayerPoints when type: player-points (API via reflection,
+  # fallback: points give command). Skipped with a warning if PlayerPoints
+  # is not installed.
+  playerpoints: true
+  # Register the %core_dailyquest_*% placeholders on the shared expansion.
+  placeholderapi: true
+
+# Feedback sounds.
+sounds:
+  # Played once per successful claim (quest claim, check-in, clear-all bonus).
+  claim-success:
+    # Master switch for this sound.
+    enabled: true
+    # org.bukkit.Sound name for 1.19.4 (e.g. ENTITY_PLAYER_LEVELUP,
+    # ENTITY_EXPERIENCE_ORB_PICKUP, UI_TOAST_CHALLENGE_COMPLETE).
+    # Invalid names log a warning on load and play nothing.
+    sound: ENTITY_PLAYER_LEVELUP
+    # Volume (0.0-1.0 at the player's position).
+    volume: 1.0
+    # Pitch (0.5-2.0; 1.0 = normal).
+    pitch: 1.0
+
+# Debug logging for reward skips and period resets.
+debug: false

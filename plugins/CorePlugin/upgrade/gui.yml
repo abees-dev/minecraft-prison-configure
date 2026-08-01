@@ -1,0 +1,12 @@
+# Docs:
+#   Purpose: GUI title/rows/slots for the Upgrade menu.
+#   Reload: /cuonghoa reload
+
+title: "&8[&c✦&8] &c&lCƯỜNG HÓA TRANG BỊ"
+rows: 6
+slots:
+  equipment: 19 # player places the gear to upgrade here
+  stone: 25 # player places the upgrade stone here
+  info: 22 # decorative info icon, no action on click
+  confirm: 40 # click to attempt the upgrade
+  close: 49 # click to close the GUI (unplaced items are returned)

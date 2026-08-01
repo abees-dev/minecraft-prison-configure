@@ -4,13 +4,13 @@
   "region": {
     "min": {
       "x": -91.0,
-      "y": -59.0,
+      "y": -60.0,
       "z": 92.0,
       "world": "world_prison"
     },
     "max": {
       "x": -31.0,
-      "y": -59.0,
+      "y": -57.0,
       "z": 152.0,
       "world": "world_prison"
     }

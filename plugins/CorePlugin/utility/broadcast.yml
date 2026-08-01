@@ -1,0 +1,13 @@
+# Docs:
+#   Purpose: /bc command prefix + auto-rotating tip announcements.
+#   Reload: /utility reload
+#   Xóa hết auto.messages (hoặc auto.enabled: false) để tắt announce.
+
+command-prefix: "&6[Server] &f"
+auto:
+  enabled: true
+  interval-seconds: 180
+  messages:
+    - "&e[Tip] &7Làm &f/dailyquest &7mỗi ngày để nhận thưởng."
+    - "&b[Tip] &7Cường hóa trang bị: &f/cuonghoa"
+    - "&a[Tip] &7Đục lỗ trang bị: &f/duclo"

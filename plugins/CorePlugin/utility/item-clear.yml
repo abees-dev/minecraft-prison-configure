@@ -1,0 +1,10 @@
+# Docs:
+#   Purpose: Ground-item clear cycle + SQLite history (/clearitems).
+#   Reload: /utility reload
+
+enabled: true
+interval-seconds: 300          # chu kỳ clear (giây)
+warnings: [60, 30, 10]         # broadcast trước khi clear
+# worlds: []                   # trống = mọi world; hoặc ["world", "world_nether"]
+# exclude-worlds: []
+history-retention-days: 7

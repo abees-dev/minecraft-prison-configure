@@ -58,7 +58,8 @@ weekly:
   accent-material: ORANGE_STAINED_GLASS_PANE
   quest-start-slot: 10
   max-quests: 28
-  # Clear-all bonus (chìa Long Tộc — quests/weekly.yml clear-all-bonus).
+  # Clear-all bonus icon (claimable after every weekly quest is claimed —
+  # rewards in quests/weekly.yml clear-all-bonus).
   clear-all-slot: 47
   clear-all:
     locked-material: GRAY_DYE
@@ -119,6 +120,7 @@ checkin:
       lore: []
 
 # Quest icon appearance by status.
+# %rewards% expands to one lore line per reward (see messages.yml rewards.*).
 quest-icons:
   in-progress:
     material: PAPER
@@ -128,6 +130,9 @@ quest-icons:
       - ''
       - '&7Tiến độ: &f%progress%&7/&f%target%'
       - '&7Trạng thái: &eĐang làm'
+      - ''
+      - '&7Thưởng:'
+      - '%rewards%'
   claimable:
     material: CHEST
     name: '&a%quest_name%'
@@ -136,6 +141,9 @@ quest-icons:
       - ''
       - '&7Tiến độ: &a%progress%&7/&a%target%'
       - '&aClick để nhận thưởng'
+      - ''
+      - '&7Thưởng:'
+      - '%rewards%'
   claimed:
     material: LIME_CONCRETE
     name: '&a%quest_name%'
@@ -144,3 +152,6 @@ quest-icons:
       - ''
       - '&7Tiến độ: &a%progress%&7/&a%target%'
       - '&2Đã nhận thưởng'
+      - ''
+      - '&7Thưởng:'
+      - '%rewards%'

@@ -1,0 +1,31 @@
+# ============================================================================
+# CorePlugin · Support Stats (MMOItems)
+# ============================================================================
+# Đọc 3 custom stats từ đồ mặc/cầm (MythicLib StatMap):
+#   MAGNET_RANGE       — bán kính hút item (blocks; 0 = tắt)
+#   MMOCORE_EXP_BONUS  — % XP MMOCore thêm (10 = ×1.10)
+#   PICKUP_BONUS       — % số lượng khi nhặt (50 = nhặt 10 thành 15)
+#
+# Gắn trên item MMOItems (base:):
+#   MAGNET_RANGE: 5
+#   MMOCORE_EXP_BONUS: 10
+#   PICKUP_BONUS: 25
+#
+# Lore: thêm vào MMOItems language/stats.yml + lore-format.yml
+#   (stat đã được CorePlugin register lúc enable).
+#
+# /supportstats reload  (core.supportstats.admin)
+# File chỉ copy 1 lần; plugin không ghi đè.
+#
+# Tin nhắn người chơi nằm ở messages.yml (cùng thư mục).
+# ============================================================================
+
+magnet:
+  # Chu kỳ quét hút đồ (ticks). 10 = 0.5s.
+  period-ticks: 10
+  # Số item tối đa hút / player / tick.
+  max-items-per-tick: 24
+
+pickup:
+  # Bỏ qua item không stack được (maxStackSize == 1).
+  ignore-max-stack-1: true

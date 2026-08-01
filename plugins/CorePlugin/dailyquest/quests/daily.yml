@@ -3,102 +3,106 @@
 #   Reload: /dailyquest reload
 #   Quest IDs: UPPER_SNAKE_CASE. Bump revision when changing objectives for an existing ID.
 #   Objective types: KILL_MOB | BREAK_BLOCK | CRAFT_ITEM | LOGIN | CHECKIN | CUSTOM
-#     - KILL_MOB filter: EntityType (ZOMBIE) HOẶC Mythic internal name (PRISON_TAN_BINH_BOSS).
-#     - CRAFT_ITEM chỉ craft vanilla — không dùng cho NPC/station MMOItems.
-#     - CUSTOM: /dailyquest admin progress <player> CUSTOM <filter|-> [số]
-#       hoặc DailyQuestAPI.addProgress(player, "CUSTOM", "filter", amount)
-#   worlds: chỉ đếm trong world liệt kê; bỏ trống = mọi world.
+#     - KILL_MOB filter: vanilla EntityType (ZOMBIE) HOẶC internal name của MythicMobs
+#       (vd PRISON_ZOMBIE_BOSS) — kill 1 con Mythic mob đếm cho cả hai loại filter.
+#     - CRAFT_ITEM chỉ đếm craft vanilla (CraftItemEvent) — NPC tinh luyện / trạm rèn
+#       MMOItems KHÔNG đếm; đừng dùng CRAFT_ITEM nếu server chỉ craft qua station.
+#     - CUSTOM không có listener sẵn: cộng tiến độ từ ngoài bằng
+#       /dailyquest admin progress <player> CUSTOM <filter|-> [số]  (console/Skript)
+#       hoặc DailyQuestAPI.addProgress(player, "CUSTOM", "filter", amount) (plugin khác).
+#   worlds: (tùy chọn, mỗi quest) — chỉ đếm tiến độ trong các world liệt kê,
+#     vd worlds: [world_prison]. Bỏ trống/không khai = đếm mọi world.
+#     Nên đặt cho BREAK_BLOCK để tránh farm ngoài khu mỏ.
 #   Reward types: vault-money | mmoitem | crate | crate-key | player-points | command | mmocore-exp
-#
-# Design: login / điểm danh / đào / giết (~10–20 phút). Không có quest bán.
+#     - crate: đưa HÒM ("crates give") — crate: <crateId>
+#     - crate-key: đưa CHÌA ("crates key give") — key: <keyId>
+#     - player-points: cộng điểm PlayerPoints — amount: <số điểm>
+#   clear-all-bonus: granted once after all daily quests are claimed (idempotent per day).
 
+# Extra reward when every daily quest below is claimed today.
 clear-all-bonus:
   enabled: true
   rewards:
-    - type: crate-key
-      key: chia_khoa_trang_suc_free
-      amount: 1
-    - type: player-points
-      amount: 5
+    - type: vault-money
+      amount: 2500
     - type: mmocore-exp
-      amount: 100
-    - type: mmoitem
-      mi-type: MATERIAL
-      mi-id: DA_CUONG_HOA_VU_KHI_SO_CAP
+      amount: 50
+    - type: crate
+      crate: daily_crate
       amount: 1
 
 quests:
+  # Log in once today.
   LOGIN_ONCE:
     name: '&aĐăng nhập nhà tù'
     description: '&7Đăng nhập server 1 lần trong ngày.'
-    revision: 3
+    revision: 1
     type: LOGIN
     target: 1
     filter: ''
     rewards:
       - type: vault-money
-        amount: 2500
+        amount: 500
       - type: mmocore-exp
-        amount: 40
-      - type: player-points
-        amount: 1
+        amount: 25
 
+  # Daily check-in (điểm danh) — progress when /checkin succeeds.
   CHECKIN_TODAY:
     name: '&6Điểm danh hôm nay'
-    description: '&7Nhận điểm danh (/checkin hoặc GUI) trong ngày.'
-    revision: 3
+    description: '&7Nhận điểm danh (/checkin) trong ngày.'
+    revision: 1
     type: CHECKIN
     target: 1
     filter: ''
     rewards:
       - type: vault-money
-        amount: 1500
+        amount: 300
       - type: mmocore-exp
-        amount: 30
-      - type: mmoitem
-        mi-type: MATERIAL
-        mi-id: DA_NANG_CAP_TAN_BINH
-        amount: 2
+        amount: 15
 
-  MINE_BLOCKS_800:
-    name: '&eCa đào trong ngày'
-    description: '&7Phá 800 khối bất kỳ trong mỏ nhà tù.'
-    revision: 3
+  # Mine cobble in the prison mines.
+  MINE_COBBLE_256:
+    name: '&7Thợ mỏ cobble'
+    description: '&7Phá 256 khối COBBLESTONE trong ngày.'
+    revision: 1
     type: BREAK_BLOCK
-    target: 800
-    filter: ''
-    worlds:
-      - world_prison
+    target: 256
+    filter: COBBLESTONE
+    # Bỏ comment để chỉ đếm trong world nhà tù (chống farm ngoài mỏ):
+    # worlds: [world_prison]
     rewards:
       - type: vault-money
-        amount: 8000
+        amount: 1200
       - type: mmocore-exp
-        amount: 80
-      - type: player-points
-        amount: 2
-      - type: mmoitem
-        mi-type: MATERIAL
-        mi-id: DA_CUONG_HOA_GIAP_SO_CAP
+        amount: 40
+
+  # Mine stone (common prison block).
+  MINE_STONE_512:
+    name: '&eThợ mỏ đá'
+    description: '&7Phá 512 khối STONE trong ngày.'
+    revision: 1
+    type: BREAK_BLOCK
+    target: 512
+    filter: STONE
+    rewards:
+      - type: vault-money
+        amount: 1800
+      - type: crate
+        crate: daily_crate
         amount: 1
 
-  KILL_MOBS_25:
-    name: '&cSăn tù nhân nổi loạn'
-    description: '&7Giết 25 quái trong dungeon (mọi loại / Mythic).'
-    revision: 3
+  # Optional PvE / farm objective.
+  KILL_ZOMBIE_15:
+    name: '&cSăn Zombie'
+    description: '&7Giết 15 Zombie trong ngày (farm / arena).'
+    revision: 1
     type: KILL_MOB
-    target: 25
-    filter: ''
-    worlds:
-      - world_dungeon
-      - world_magadungeon
+    target: 15
+    filter: ZOMBIE
     rewards:
       - type: vault-money
-        amount: 5000
-      - type: mmocore-exp
-        amount: 70
+        amount: 800
       - type: mmoitem
-        mi-type: MATERIAL
-        mi-id: DA_CUONG_HOA_VU_KHI_SO_CAP
+        mi-type: CONSUMABLE
+        mi-id: DAILY_TOKEN
         amount: 1
-      - type: player-points
-        amount: 2

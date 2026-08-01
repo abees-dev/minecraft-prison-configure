@@ -26,4 +26,4 @@ DoiTruongBoss:
   Conditions: []
   SpawnConditions: []
   ActiveMobs: 0
-  CooldownTimer: 76
+  CooldownTimer: 1

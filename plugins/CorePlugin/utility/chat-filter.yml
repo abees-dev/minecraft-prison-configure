@@ -1,0 +1,8 @@
+# Docs:
+#   Purpose: Anti-spam chat cooldown/repeat guard (LuckPerms format untouched).
+#   Reload: /utility reload
+
+enabled: true
+cooldown-seconds: 2
+repeat-window-seconds: 5
+max-repeats: 2

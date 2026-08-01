@@ -1,0 +1,7 @@
+# Docs:
+#   Purpose: /maintenance on|off|status — kick message shown when enabled.
+#   Reload: /utility reload
+#   Other maintenance strings (broadcast-on/off, usage, status) have
+#   built-in Vietnamese defaults in code; add them here only to override.
+
+kick-message: "&cServer đang bảo trì.\n&7Vui lòng quay lại sau!"

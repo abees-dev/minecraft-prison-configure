@@ -1,0 +1,502 @@
+# Docs:
+#   Purpose: GUI titles + every button's material/name/lore for the Gang
+#     menus. Reload: /gang reload
+#   Placeholders: each item below documents the {tokens} it supports next
+#     to it. Slots/layout stay in code — only material/name/lore are
+#     configurable here. A missing material/name/lore key (or an unknown
+#     material) falls back to the plugin's built-in default for that item.
+#   Shared buttons: an item can say `template: <name>` instead of defining
+#     its own material/name/lore — the material/name/lore then come from
+#     `templates.<name>` in gui-templates.yml (same folder). See "back" on
+#     every item below for an example.
+
+vault-title: "&8[&a✦&8] &a&lKHO BANG HỘI"
+shop-title: "&8[&a✦&8] &a&lSHOP BANG HỘI"
+upgrade-title: "&8[&a✦&8] &a&lNÂNG CẤP BANG"
+main-title: "&8[&a✦&8] &a&lBANG HỘI"
+members-title: "&8[&a✦&8] &a&lTHÀNH VIÊN"
+member-title: "&8[&a✦&8] &a&lQUẢN LÝ THÀNH VIÊN"
+bank-title: "&8[&a✦&8] &a&lNGÂN HÀNG BANG"
+disband-title: "&8[&c✦&8] &c&lGIẢI TÁN BANG?"
+quest-title: "&8[&e✦&8] &e&lQUEST BANG HỘI"
+# Các mốc tiền cho nút nạp/rút nhanh trong GUI Ngân hàng (tối đa 6 mốc).
+# Nút "Tất cả" luôn có sẵn, không cần khai báo ở đây.
+bank-amounts: [10000, 100000, 1000000]
+
+items:
+  hub:
+    # {gang} {prefix} {level} {max-level} {bank} {members} {member-slots}
+    # {vault-used} {vault-capacity} {reputation} {sell} {magnet} {protection}
+    info:
+      material: NETHER_STAR
+      name: "&a&l✦ {gang}"
+      lore:
+        - "&7Prefix: &f{prefix}"
+        - "&7Bang Lv: &e{level}&7/&e{max-level}"
+        - ""
+        - "&7Bank: &e{bank}"
+        - "&7Thành viên: &e{members}&7/&e{member-slots}"
+        - "&7Kho: &e{vault-used}&7/&e{vault-capacity}"
+        - "&7Danh vọng: &e{reputation}"
+        - ""
+        - "&7Upgrade: &eSell {sell} &8• &eMagnet {magnet} &8• &eProt {protection}"
+    # {player}
+    members:
+      name: "&f{player}"
+      lore:
+        - "&7Xem danh sách & quản lý"
+        - "&7thành viên trong bang"
+        - ""
+        - "&a➤ Click để mở"
+    # {bank}
+    bank:
+      material: GOLD_INGOT
+      name: "&a&l💰 Ngân Hàng Bang"
+      lore:
+        - "&7Số dư: &e{bank}"
+        - ""
+        - "&a➤ Click để nạp / rút tiền"
+    # {vault-used} {vault-capacity} {vault-status}
+    vault:
+      material: ENDER_CHEST
+      name: "&a&l📦 Kho Bang"
+      lore:
+        - "&7Dung lượng: &e{vault-used}&7/&e{vault-capacity}"
+        - "&7Nạp kho của bạn: {vault-status}"
+        - ""
+        - "&a➤ Click để mở kho"
+    shop:
+      material: EMERALD
+      name: "&a&l🛒 Shop Bang"
+      lore:
+        - "&7Mua mở rộng slot / kho, buff"
+        - ""
+        - "&a➤ Click để mở shop"
+    upgrade:
+      material: ANVIL
+      name: "&a&l⭐ Nâng Cấp Bang"
+      lore:
+        - "&7Nâng cấp vĩnh viễn bằng danh vọng"
+        - ""
+        - "&a➤ Click để mở nâng cấp"
+    quest:
+      material: WRITABLE_BOOK
+      name: "&e&l📜 Quest Bang"
+      lore:
+        - "&7Mở quest chung cho bang"
+        - "&8Leader: mở / reset / phiếu trong GUI"
+        - ""
+        - "&e➤ Click để mở"
+    # {owner}
+    koth:
+      material: BEACON
+      name: "&b&l🏆 Mỏ VIP (KOTH)"
+      lore:
+        - "&7Chủ sở hữu: &e{owner}"
+        - ""
+        - "&b➤ Click để xem trạng thái"
+    leave:
+      material: OAK_DOOR
+      name: "&c&l🚪 Rời Bang"
+      lore:
+        - "&7Leader phải thăng chức hoặc"
+        - "&7giải tán bang trước khi rời"
+        - ""
+        - "&c➤ Click để rời bang"
+    disband:
+      material: TNT
+      name: "&c&l💥 Giải Tán Bang"
+      lore:
+        - "&7Xóa vĩnh viễn bang này"
+        - "&7Mất toàn bộ &cbank + kho&7!"
+        - ""
+        - "&c➤ Click để xác nhận"
+
+  members:
+    # {player} {role} {contribution}
+    entry:
+      name: "&f{player}"
+      lore:
+        - "&7Chức vụ: &e{role}"
+        - "&7Đóng góp: &e{contribution}"
+    # appended to entry's lore when the viewer can manage that member
+    manage-hint:
+      lore:
+        - ""
+        - "&a➤ Click để quản lý"
+    back:
+      template: back-button
+
+  member-action:
+    # {role} {contribution}
+    head:
+      lore:
+        - "&7Chức vụ: &e{role}"
+        - "&7Đóng góp: &e{contribution}"
+    # {promote-target}: "CO_LEADER" or "LEADER (chuyển giao)"
+    promote:
+      material: LIME_DYE
+      name: "&a&l⬆ Thăng Chức"
+      lore:
+        - "&7→ {promote-target}"
+        - ""
+        - "&a➤ Click để xác nhận"
+    demote:
+      material: ORANGE_DYE
+      name: "&e&l⬇ Hạ Chức"
+      lore:
+        - "&7→ &fMEMBER"
+        - ""
+        - "&e➤ Click để xác nhận"
+    # {target}
+    kick:
+      material: BARRIER
+      name: "&c&l✖ Kick Khỏi Bang"
+      lore:
+        - "&7Xóa &f{target} &7khỏi bang"
+        - ""
+        - "&c➤ Click để xác nhận"
+    back:
+      template: back-button
+
+  bank:
+    # {bank} {balance}
+    info:
+      material: GOLD_BLOCK
+      name: "&a&l💰 Ngân Hàng Bang"
+      lore:
+        - "&7Số dư bang: &e{bank}"
+        - "&7Tiền của bạn: &e{balance}"
+    deposit-custom:
+      material: PAPER
+      name: "&b&l✎ Nạp Số Tuỳ Chỉnh"
+      lore:
+        - "&7Nhập số tiền bất kỳ để nạp"
+        - ""
+        - "&b➤ Click rồi gõ số vào chat"
+    withdraw-custom:
+      material: PAPER
+      name: "&b&l✎ Rút Số Tuỳ Chỉnh"
+      lore:
+        - "&7Nhập số tiền bất kỳ để rút"
+        - "&8✦ Chỉ LEADER / CO_LEADER"
+        - ""
+        - "&b➤ Click rồi gõ số vào chat"
+    # {amount}
+    deposit-amount:
+      material: LIME_DYE
+      name: "&a&l+ Nạp {amount}"
+      lore:
+        - "&a➤ Click để nạp vào bank"
+    # {amount}
+    withdraw-amount:
+      material: ORANGE_DYE
+      name: "&e&l- Rút {amount}"
+      lore:
+        - "&8✦ Chỉ LEADER / CO_LEADER"
+        - "&e➤ Click để rút khỏi bank"
+    deposit-all:
+      material: EMERALD_BLOCK
+      name: "&a&l⬆ Nạp Tất Cả"
+      lore:
+        - "&7Nạp toàn bộ tiền của bạn"
+        - ""
+        - "&a➤ Click để nạp"
+    withdraw-all:
+      material: REDSTONE_BLOCK
+      name: "&c&l⬇ Rút Tất Cả"
+      lore:
+        - "&7Rút toàn bộ bank bang"
+        - "&8✦ Chỉ LEADER / CO_LEADER"
+        - ""
+        - "&c➤ Click để rút"
+    back:
+      template: back-button
+
+  disband-confirm:
+    confirm:
+      material: TNT
+      name: "&c&l💥 Xác Nhận Giải Tán"
+      lore:
+        - "&7Bang sẽ bị xóa vĩnh viễn"
+        - "&7Mất toàn bộ &cbank + kho&7!"
+        - ""
+        - "&c➤ Click để xác nhận"
+    cancel:
+      material: LIME_WOOL
+      name: "&a&l✖ Hủy"
+      lore:
+        - "&7Giữ nguyên bang"
+        - ""
+        - "&a➤ Click để quay lại"
+
+  vault:
+    # {material} {amount} {price}
+    entry:
+      name: "&f{material}"
+      lore:
+        - "&7Số lượng: &e{amount}"
+        - "&7Giá/cái: &e{price}"
+    # {used} {capacity} {bank}
+    sell-all:
+      material: GOLD_INGOT
+      name: "&a&l💰 Bán Tất Cả"
+      lore:
+        - "&7Quy đổi toàn bộ kho → ngân hàng bang"
+        - ""
+        - "&7Dung lượng: &e{used}&7/&e{capacity}"
+        - "&7Bank hiện tại: &e{bank}"
+        - "&8✦ Chỉ LEADER / CO_LEADER"
+        - ""
+        - "&a➤ Click để bán"
+    toggle-on:
+      material: LIME_DYE
+      name: "&a&l🔌 Nạp Kho: BẬT"
+      lore:
+        - "&7Trạng thái của bạn: &a&lBẬT"
+        - "&7Khoáng bạn đào sẽ tự nạp vào kho bang"
+        - ""
+        - "&e➤ Click để tắt"
+    # {required-level} {level}
+    toggle-off:
+      material: GRAY_DYE
+      name: "&c&l🔌 Nạp Kho: TẮT"
+      lore:
+        - "&7Trạng thái của bạn: &c&lTẮT"
+        - "&7Khoáng bạn đào đang rơi bình thường"
+        - "&7(farm cho riêng bạn)"
+        - "&7Yêu cầu &eBang Lv {required-level} &7(hiện &e{level}&7)"
+        - ""
+        - "&e➤ Click để bật"
+    back:
+      template: back-button
+
+  shop:
+    # {amount} {cost} {bank}
+    expand-slots:
+      material: CHEST
+      name: "&a&l👥 Mở Rộng Slot Thành Viên"
+      lore:
+        - "&7+&a{amount} &7slot thành viên"
+        - ""
+        - "&7Giá: &e{cost}"
+        - "&7Bank hiện tại: &e{bank}"
+        - ""
+        - "&a➤ Click để mua"
+    # {amount} {cost} {bank}
+    expand-capacity:
+      material: ENDER_CHEST
+      name: "&a&l📦 Mở Rộng Sức Chứa Kho"
+      lore:
+        - "&7+&a{amount} &7sức chứa kho"
+        - ""
+        - "&7Giá: &e{cost}"
+        - "&7Bank hiện tại: &e{bank}"
+        - ""
+        - "&a➤ Click để mua"
+    # {multiplier} {duration} {cost} {bank}
+    sell-buff:
+      material: GOLDEN_APPLE
+      name: "&e&l💎 Buff Bán x{multiplier}"
+      lore:
+        - "&7Nhân &e{multiplier}x &7tiền Bán Tất Cả"
+        - "&7Thời hạn: &e{duration}"
+        - ""
+        - "&7Giá: &e{cost}"
+        - "&7Bank hiện tại: &e{bank}"
+        - ""
+        - "&e➤ Click để mua"
+    # {amplifier} {duration} {cost} {bank}
+    haste-buff:
+      material: GOLDEN_PICKAXE
+      name: "&e&l⛏ Buff Haste {amplifier}"
+      lore:
+        - "&7Tăng tốc độ đào cho cả bang"
+        - "&7Thời hạn: &e{duration}"
+        - ""
+        - "&7Giá: &e{cost}"
+        - "&7Bank hiện tại: &e{bank}"
+        - ""
+        - "&e➤ Click để mua"
+    back:
+      template: back-button
+
+  upgrade:
+    # {level} {max} {multiplier} {cost-rep} {cost-money} {reputation} {bank}
+    sell:
+      material: GOLD_INGOT
+      name: "&e&l⭐ Sell Money Multiplier"
+      lore:
+        - "&7Level: &e{level}&7/&e{max}"
+        - "&7Hiện tại: &ex{multiplier}"
+        - ""
+        - "&7Chi phí lên cấp:"
+        - "&7  &8• &e{cost-rep} &7danh vọng"
+        - "&7  &8• &e{cost-money}"
+        - ""
+        - "&a➤ Click để nâng cấp"
+        - ""
+        - "&7Danh vọng bang: &e{reputation} &8• &7Bank: &e{bank}"
+    # {level} {max} {multiplier} {reputation} {bank}
+    sell-maxed:
+      material: GOLD_INGOT
+      name: "&e&l⭐ Sell Money Multiplier"
+      lore:
+        - "&7Level: &e{level}&7/&e{max}"
+        - "&7Hiện tại: &ex{multiplier}"
+        - ""
+        - "&aĐã đạt cấp tối đa!"
+        - ""
+        - "&7Danh vọng bang: &e{reputation} &8• &7Bank: &e{bank}"
+    # {level} {max} {bonus} {cost-rep} {cost-money} {reputation} {bank}
+    magnet:
+      material: HOPPER
+      name: "&b&l🧲 Token Magnet"
+      lore:
+        - "&7Level: &e{level}&7/&e{max}"
+        - "&7Bonus ore: &e+{bonus}%"
+        - ""
+        - "&7Chi phí lên cấp:"
+        - "&7  &8• &e{cost-rep} &7danh vọng"
+        - "&7  &8• &e{cost-money}"
+        - ""
+        - "&a➤ Click để nâng cấp"
+        - ""
+        - "&7Danh vọng bang: &e{reputation} &8• &7Bank: &e{bank}"
+    # {level} {max} {bonus} {reputation} {bank}
+    magnet-maxed:
+      material: HOPPER
+      name: "&b&l🧲 Token Magnet"
+      lore:
+        - "&7Level: &e{level}&7/&e{max}"
+        - "&7Bonus ore: &e+{bonus}%"
+        - ""
+        - "&aĐã đạt cấp tối đa!"
+        - ""
+        - "&7Danh vọng bang: &e{reputation} &8• &7Bank: &e{bank}"
+    # {level} {max} {reduction} {cost-rep} {cost-money} {reputation} {bank}
+    protection:
+      material: SHIELD
+      name: "&a&l🛡 Gang Protection"
+      lore:
+        - "&7Level: &e{level}&7/&e{max}"
+        - "&7Giảm PvP: &e{reduction}%"
+        - ""
+        - "&7Chi phí lên cấp:"
+        - "&7  &8• &e{cost-rep} &7danh vọng"
+        - "&7  &8• &e{cost-money}"
+        - ""
+        - "&a➤ Click để nâng cấp"
+        - ""
+        - "&7Danh vọng bang: &e{reputation} &8• &7Bank: &e{bank}"
+    # {level} {max} {reduction} {reputation} {bank}
+    protection-maxed:
+      material: SHIELD
+      name: "&a&l🛡 Gang Protection"
+      lore:
+        - "&7Level: &e{level}&7/&e{max}"
+        - "&7Giảm PvP: &e{reduction}%"
+        - ""
+        - "&aĐã đạt cấp tối đa!"
+        - ""
+        - "&7Danh vọng bang: &e{reputation} &8• &7Bank: &e{bank}"
+    # {level} {max} {capacity-bonus} {cost-rep} {cost-money} {reputation} {bank}
+    gang-level:
+      material: NETHER_STAR
+      name: "&d&l🌟 BANG LEVEL"
+      lore:
+        - "&7Level: &e{level}&7/&e{max}"
+        - "&7Mở thêm cấp tối đa cho Sell/Magnet/Protection,"
+        - "&7điều kiện bật Kho bang, và &a+{capacity-bonus} &7sức chứa kho/lần"
+        - ""
+        - "&7Chi phí lên cấp:"
+        - "&7  &8• &e{cost-rep} &7danh vọng"
+        - "&7  &8• &e{cost-money}"
+        - ""
+        - "&a➤ Click để nâng cấp"
+        - ""
+        - "&7Danh vọng bang: &e{reputation} &8• &7Bank: &e{bank}"
+    # {level} {max} {reputation} {bank}
+    gang-level-maxed:
+      material: NETHER_STAR
+      name: "&d&l🌟 BANG LEVEL"
+      lore:
+        - "&7Level: &e{level}&7/&e{max}"
+        - "&aĐã đạt cấp tối đa!"
+        - ""
+        - "&7Danh vọng bang: &e{reputation} &8• &7Bank: &e{bank}"
+    back:
+      template: back-button
+
+  # Quest Bang Hội GUI — open/reset/ticket are GUI-only (no command).
+  # /gang quest opens this menu; /gang quest info is read-only chat.
+  quest:
+    info:
+      material: BOOK
+      name: "&e&l✦ Quest Bang"
+      lore:
+        - "&7Lượt mở còn: &e{opens}"
+        - "&7Reset còn: &e{resets}"
+        - "&7Bank: &e{bank}"
+        - "&7Danh vọng: &e{reputation}"
+        - ""
+        - "{active}"
+        - ""
+        - "&8Mở / reset / phiếu: chỉ qua GUI"
+        - "&8/gang quest info &7— xem nhanh trong chat"
+    level-1:
+      material: IRON_SWORD
+      name: "&e&lMở Quest Lv {level}"
+      lore:
+        - "&7Random &e{pick-count} &7quest từ pool cấp này"
+        - "&7Cần thành viên: &e{min-members}"
+        - "&7Cần online: &e{min-online}"
+        - "&7Thời hạn: &e{duration}p"
+        - "&7Phí: &c{money} &8• &e{reputation} danh vọng"
+        - "&7Thưởng bang: &a+{reward} danh vọng &7(khi xong cả bộ)"
+        - ""
+        - "&a➤ Click để mở (Leader)"
+    level-2:
+      material: GOLDEN_SWORD
+      name: "&6&lMở Quest Lv {level}"
+      lore:
+        - "&7Random &e{pick-count} &7quest từ pool cấp này"
+        - "&7Cần thành viên: &e{min-members}"
+        - "&7Cần online: &e{min-online}"
+        - "&7Thời hạn: &e{duration}p"
+        - "&7Phí: &c{money} &8• &e{reputation} danh vọng"
+        - "&7Thưởng bang: &a+{reward} danh vọng &7(khi xong cả bộ)"
+        - ""
+        - "&a➤ Click để mở (Leader)"
+    level-3:
+      material: DIAMOND_SWORD
+      name: "&c&lMở Quest Lv {level}"
+      lore:
+        - "&7Random &e{pick-count} &7quest từ pool cấp này"
+        - "&7Cần thành viên: &e{min-members}"
+        - "&7Cần online: &e{min-online}"
+        - "&7Thời hạn: &e{duration}p"
+        - "&7Phí: &c{money} &8• &e{reputation} danh vọng"
+        - "&7Thưởng bang: &a+{reward} danh vọng &7(khi xong cả bộ)"
+        - ""
+        - "&a➤ Click để mở (Leader)"
+    reset:
+      material: SUNFLOWER
+      name: "&6&lReset nhiệm vụ"
+      lore:
+        - "&7Đổi bộ quest cùng cấp (giữ thời hạn)"
+        - "&7Free: &e{free}&7, trả phí thêm: &e{paid}"
+        - "&7Lần này: {cost-line}"
+        - ""
+        - "&a➤ Click để reset (Leader, GUI only)"
+    ticket:
+      material: PAPER
+      name: "&a&lDùng phiếu mở quest"
+      lore:
+        - "&7Tiêu thụ 1 MMOItem:"
+        - "&e{type}&7/&e{id}"
+        - "&7+1 lượt mở trong ngày"
+        - ""
+        - "&a➤ Click để dùng (Leader, GUI only)"
+    back:
+      template: back-button

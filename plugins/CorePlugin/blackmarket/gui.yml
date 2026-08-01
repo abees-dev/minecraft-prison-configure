@@ -1,0 +1,10 @@
+# Docs:
+#   Purpose: GUI titles for the Black Market menus (slot layout is hardcoded).
+#   Reload: /choden reload
+
+# Legacy '&' color codes.
+main-title: "&8[&c✦&8] &c&lCHỢ ĐEN"
+confirm-title: "&8[&c✦&8] &e&lXÁC NHẬN MUA"
+my-title: "&8[&c✦&8] &6&lLISTINGS CỦA TÔI"
+cancel-title: "&8[&c✦&8] &6&lXÁC NHẬN HỦY"
+expired-title: "&8[&c✦&8] &c&lITEM HẾT HẠN"

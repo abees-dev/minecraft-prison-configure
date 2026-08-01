@@ -1,0 +1,82 @@
+# Docs:
+#   Purpose: Quest Bang Hội pools by level (1/2/3). Reload: /gang reload
+#   GUI-only actions: open level, reset quest, use ticket (no command).
+#   Command: /gang quest (opens GUI), /gang quest info (read-only status).
+#
+#   Each open randomizes pick-count distinct quests from this pool (config.yml
+#   levels.<n>.pick-count). Pool smaller than pick-count → take all. All picked
+#   quests run in parallel; board completes only when every objective hits target
+#   → one gang reputation reward. BossBar shows overall % + Lv only; details via
+#   /gang quest info or the quest GUI.
+#
+#   Objective types:
+#     KILL_MOB     — CHỈ MythicMobs. filter = internal Mythic mob name
+#                    (vd PRISON_ZOMBIE). Kill vanilla EntityType KHÔNG đếm.
+#     BREAK_BLOCK  — Material name in filter. BẮT BUỘC có worlds (hoặc world)
+#                    — chỉ đếm phá block trong world liệt kê (anti-farm ngoài mỏ).
+#                    Ví dụ: filter: [STONE] + worlds: [world_prison]
+#     STATION_CRAFT — MMOItems crafting station (NPC). Filter by mmoitems-type +
+#                     mmoitems-id of the RESULT item. Does NOT count vanilla
+#                     CraftItemEvent or trade/sell at warp shops.
+#     CUSTOM       — no listener; push via GangQuestService.addCustomProgress
+#
+#   CRAFT_ITEM (vanilla table) is intentionally unsupported — this server crafts
+#   via MMOItems stations attached to NPCs.
+
+levels:
+  1:
+    KILL_MYTHIC_ZOMBIE_30:
+      name: "&eTiêu diệt Mythic Zombie"
+      type: KILL_MOB
+      target: 30
+      filter: [PRISON_ZOMBIE]
+    BREAK_STONE_200:
+      name: "&eĐào đá trong mỏ"
+      type: BREAK_BLOCK
+      target: 200
+      filter: [STONE, COBBLESTONE]
+      worlds: [world_prison]
+    STATION_TRADE_IRON_16:
+      name: "&eChế tạo quặng trade (station)"
+      type: STATION_CRAFT
+      target: 16
+      mmoitems-type: MATERIAL
+      mmoitems-id: TRADE_IRON
+
+  2:
+    KILL_MYTHIC_SKELETON_80:
+      name: "&6Tiêu diệt Mythic Skeleton"
+      type: KILL_MOB
+      target: 80
+      filter: [PRISON_SKELETON]
+    BREAK_ORE_400:
+      name: "&6Đào quặng"
+      type: BREAK_BLOCK
+      target: 400
+      filter: [COAL_ORE, IRON_ORE, GOLD_ORE, DEEPSLATE_COAL_ORE, DEEPSLATE_IRON_ORE]
+      worlds: [world_prison]
+    STATION_TRADE_GOLD_32:
+      name: "&6Chế tạo quặng trade vàng"
+      type: STATION_CRAFT
+      target: 32
+      mmoitems-type: MATERIAL
+      mmoitems-id: TRADE_GOLD
+
+  3:
+    KILL_BOSS_10:
+      name: "&cTiêu diệt boss Mythic"
+      type: KILL_MOB
+      target: 10
+      filter: [PRISON_ZOMBIE_BOSS]
+    BREAK_DEEPSLATE_800:
+      name: "&cĐào deepslate"
+      type: BREAK_BLOCK
+      target: 800
+      filter: [DEEPSLATE, COBBLED_DEEPSLATE]
+      worlds: [world_prison]
+    STATION_TRADE_DIAMOND_48:
+      name: "&cChế tạo quặng trade kim cương"
+      type: STATION_CRAFT
+      target: 48
+      mmoitems-type: MATERIAL
+      mmoitems-id: TRADE_DIAMOND

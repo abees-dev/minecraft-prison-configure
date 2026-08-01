@@ -1,0 +1,11 @@
+# Docs:
+#   Purpose: Join/quit messages (vanilla ones are suppressed). Config +
+#     messages are kept together here since this feature has no other
+#     tunables to separate them from.
+#   Reload: /utility reload
+#   Placeholders: %player%  %rank% (X-Prison rank id, "?" if missing/absent)
+
+enabled: true
+join: "&a+ &f%player% &8· &7Rank %rank%"
+quit: "&c- &f%player%"
+first-join: "&e✦ &f%player% &7lần đầu vào server! &8(Rank %rank%)"

@@ -1,0 +1,15 @@
+# Docs:
+#   Purpose: Reusable GUI button templates shared across the Gang menus.
+#     gui.yml items opt in with `template: <name>` instead of defining
+#     their own material/name/lore — restyle one template here and every
+#     item referencing it updates. Reload: /gang reload
+#   Placeholders come from whichever screen renders the item; see the
+#   comment above each template for what it supports.
+
+templates:
+  # {destination} — used by every "back" button across all Gang menus.
+  back-button:
+    material: ARROW
+    name: "&7↩ Quay Lại"
+    lore:
+      - "&8Trở về {destination}"

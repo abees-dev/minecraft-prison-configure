@@ -18,6 +18,10 @@
 # key is missing the plugin falls back to a safe built-in default instead of
 # breaking - it will NOT overwrite or regenerate this file, so your comments
 # and edits are safe.
+#
+# Player-facing strings live in messages.yml; GUI title/rows/slots live in
+# gui.yml (same folder). Exception: `perks.*.display` stays here since it's
+# part of each perk's definition, not a generic message template.
 # ============================================================================
 
 # Maximum rebirth level (the Skript's get_cs_max_level()).
@@ -39,27 +43,6 @@ requirements:
   mmocore-level: 100
   money: 100000000
   stone-id: DA_CHUYEN_SINH
-
-gui:
-  # Inventory title. Legacy '&' color codes.
-  title: "&8[&d✦&8] &d&lCHUYỂN SINH &8❖ &d&lCÂY KỸ NĂNG"
-  rows: 6
-  slots:
-    info: 4
-    req-rank: 10
-    req-level: 11
-    req-money: 12
-    req-stone: 13
-    confirm: 15
-    divider-book: 22
-    aura: 49
-    perks:
-      speed: 28
-      damage: 29
-      defense: 30
-      lifesteal: 31
-      money: 32
-      drop: 33
 
 # The 6 perks. display is used in chat messages; the GUI lore is built in
 # code with the per-level effect values below. money/drop/speed are data-only
@@ -125,39 +108,3 @@ commands:
     - "mmocore admin level set {player} 1"
     - "mmocore admin set level {player} 1"
     - "mmocore admin set-level {player} 1"
-
-# Legacy '&' color codes. {placeholders} substituted per message.
-messages:
-  error:
-    max-level: "&c&l❖ [LỖI] &fBạn đã đạt Cấp Chuyển Sinh tối đa (&e{max}/{max}&f)!"
-    need-rank: "&c&l❖ [LỖI] &fBạn phải đạt &e&l{rank} &fmới có thể Chuyển Sinh!"
-    need-level: "&c&l❖ [LỖI] &fBạn phải đạt &e&lMMOCore Level {level} &fmới có thể Chuyển Sinh!"
-    need-money: "&c&l❖ [LỖI] &fBạn cần &e&l${money} Money &fđể Chuyển Sinh!"
-    need-stone: "&c&l❖ [LỖI] &fBạn cần &d&l1x Đá Chuyển Sinh &ftrong túi đồ để Chuyển Sinh!"
-    no-points: "&c&l❖ [LỖI] &fBạn không có đủ Điểm Kỹ Năng Chuyển Sinh! Hãy Chuyển Sinh để nhận thêm điểm."
-  perk:
-    maxed: "&c&l❖ [NÂNG CẤP] &fKỹ năng {perk} &fđã đạt Cấp tối đa ({max}/{max})!"
-    upgraded: "&a&l❖ [NÂNG CẤP] &fĐã nâng cấp kỹ năng {perk} &flên &e&lCấp {level}/{max}&f!"
-  aura:
-    enabled: "&a&l❖ [HÀO QUANG] &fĐã &a&lBẬT &fhiệu ứng Hào Quang Chuyển Sinh!"
-    disabled: "&c&l❖ [HÀO QUANG] &fĐã &c&lTẮT &fhiệu ứng Hào Quang Chuyển Sinh!"
-  success:
-    title: "&a&lCHUYỂN SINH THÀNH CÔNG!"
-    subtitle: "&fCấp Chuyển Sinh: &e&lLần {level} &7(+{points} Điểm Kỹ Năng)"
-    broadcast:
-      - "&d&l━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
-      - "&d&l❖ HỆ THỐNG CHUYỂN SINH ❖"
-      - "&fNgười chơi &e&l{player} &fđã xuất sắc &a&lCHUYỂN SINH LẦN {level}&f!"
-      - "&7• Reset về &fMMOCore Level 1 &7(Giữ nguyên Rank Prison)."
-      - "&7• Tiêu hao &d1x Đá Chuyển Sinh &7và nhận &a&l+{points} Điểm Kỹ Năng&7!"
-      - "&7• Thưởng vĩnh viễn &a&l+{bonus}% EXP MMOCore &7từ quái!"
-      - "&d&l━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
-  admin:
-    no-permission: "&cBạn không có quyền dùng lệnh này!"
-    gave-stone: "&a&l[ADMIN] &fĐã trao &e{amount}x Đá Chuyển Sinh &fcho &b{player}&f!"
-    set-cs: "&a&l[ADMIN] &fĐã đặt cấp Chuyển Sinh cho &e{player} &fthành &aLần {level}&f!"
-    reset-cs: "&a&l[ADMIN] &fĐã reset toàn bộ dữ liệu Chuyển Sinh & Cây Kỹ Năng của &e{player} &fvề 0!"
-    aura-on: "&a&l[ADMIN] &fĐã &a&lBẬT &fhiệu ứng Hào Quang Particle toàn Server!"
-    aura-off: "&c&l[ADMIN] &fĐã &c&lTẮT &fhiệu ứng Hào Quang Particle toàn Server!"
-    player-not-found: "&cKhông tìm thấy người chơi {player}."
-    reload-ok: "&a[Rebirth] Đã tải lại rebirth.yml."

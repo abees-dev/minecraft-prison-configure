@@ -18,6 +18,10 @@
 # key is missing the plugin falls back to a safe built-in default instead of
 # breaking - it will NOT overwrite or regenerate this file, so your comments
 # and edits are safe.
+#
+# Player-facing strings live in messages.yml (same folder). This module has
+# no configurable GUI (rank menu is delegated to another plugin), so there's
+# no gui.yml.
 # ============================================================================
 
 # The 9 prison ranks, keyed by X-Prison rank id (1 = lowest). Per rank:
@@ -181,49 +185,3 @@ commands:
   setrank: "setrank {player} {rank}"
   points-take: "points take {player} {amount}"
   open-ranks-menu: "dm open ranks_master {player}"
-
-# Legacy '&' color codes. Placeholders in {braces} are substituted per
-# message - see the services in modules/prison for exactly what each one is.
-messages:
-  pickaxe:
-    need-pickaxe: "&cBạn cần cầm cuốc trên tay để nâng cấp."
-    invalid: "&cĐây không phải cuốc Prison hợp lệ."
-    max-level: "&eCuốc này đã đạt cấp tối đa, không thể nâng cấp thêm."
-    need-money: "&cBạn cần &f${cost}&c để thử nâng cấp, hiện bạn có &f${balance}&c."
-    need-stones: "&cBạn cần &f{cost}&c Đá Nâng Cấp, hiện chỉ có &f{count}&c."
-    success: "&a&lTHÀNH CÔNG! &7(tỉ lệ {rate}%) &aNâng cấp lên {next}. Đã tốn &f${money}&a + &f{stones}&a đá."
-    fail: "&c&lTHẤT BẠI! &7(tỉ lệ {rate}%) &cMất &f${money}&c + &f{stones}&c đá, cuốc vẫn giữ nguyên, thử lại sau."
-  mine:
-    no-rank-title: "&c&lCHƯA ĐỦ RANK"
-    no-rank-subtitle: "&fCần Rank {rank} &fđể đào mỏ này"
-    no-rank-line1: "&c&lMỎ ĐÀO &7» &fBạn không đủ Rank để đào tại {mine}&f!"
-    no-rank-line2: "&c&lMỎ ĐÀO &7» &fYêu cầu Rank {required} &7(Rank hiện tại của bạn: {current}&7)"
-    no-rank-line3: "&e&lMỎ ĐÀO &7» &fSử dụng lệnh &e/rank &fđể xem điều kiện RankUp!"
-    limit-title: "&c&lĐẠT GIỚI HẠN ĐÀO"
-    limit-subtitle: "&fĐã đạt {limit} block/ngày"
-    limit-line1: "&c&lGIỚI HẠN &7» &fBạn đã đào đạt giới hạn tối đa &e{limit} block&f hôm nay!"
-    limit-line2: "&c&lGIỚI HẠN &7» &fNâng cấp Rank (&e/rank&f) để tăng giới hạn block đào mỗi ngày."
-  minelimit:
-    no-permission: "&cBạn không có quyền dùng lệnh này!"
-    reset-ok: "&a&lMINELIMIT &7» &fĐã reset giới hạn block đào ngày hôm nay cho &e{player}&f!"
-    reset-usage: "&c&lMINELIMIT &7» &fCú pháp: /minelimit reset <tên_player>"
-    player-not-found: "&c&lMINELIMIT &7» &fKhông tìm thấy người chơi &e{player}&f."
-    reload-ok: "&a&lMINELIMIT &7» &fĐã tải lại prison.yml thành công!"
-    status-header: "&6&m=========================================="
-    status-title: "   &e&lTHÔNG TIN GIỚI HẠN MỎ ĐÀO PRISON"
-    status-rank: " &7• Rank hiện tại: {rank}"
-    status-mines: " &7• Mỏ cao nhất được phép đào: {first} &7đến {highest}"
-    status-mined: " &7• Đã đào hôm nay: &e{current} &7/ &a{limit} blocks"
-    status-unlimited: " &7• Giới hạn block/ngày: &aKhông giới hạn (Un-limited)"
-  rankup:
-    max-rank: "&e&lRANKUP &7» &fBạn đã đạt Rank tối đa {rank}&f rồi!"
-    level-title: "&c&lCHƯA ĐỦ ĐIỀU KIỆN"
-    level-subtitle: "&fCần đạt &eLevel {level} &fđể rankup"
-    level-line1: "&c&lRANKUP &7» &fChưa đủ điều kiện lên {rank}&f!"
-    level-line2: "&c&lRANKUP &7» &fCần &eLevel {level} &7(Level hiện tại của bạn: &e{current}&7)"
-    need-money: "&c&lRANKUP &7» &fBạn không đủ tiền! Cần &f${cost} &7(hiện có &e${balance}&7)"
-    need-points: "&c&lRANKUP &7» &fBạn không đủ point! Cần &f{cost} point &7(hiện có &e{points} point&7)"
-    success-title: "&a&l✔ RANK UP!"
-    success-subtitle: "&fBạn đã lên {rank}"
-    success-money: "&a&lRANKUP &7» &fChúc mừng, bạn đã lên {rank}&7! &7(&f-${cost}&7)"
-    success-points: "&a&lRANKUP &7» &fChúc mừng, bạn đã lên {rank}&7! &7(&f-{cost} point&7)"

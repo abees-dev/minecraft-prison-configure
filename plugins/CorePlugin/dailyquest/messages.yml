@@ -2,8 +2,14 @@
 #   Purpose: Player-facing and console message templates.
 #   Placeholders: %player%, %quest%, %quest_name%, %progress%, %target%, %streak%, %day%, %rows%.
 #   Reload: /dailyquest reload
+#   rewards.*: shared reward preview header/empty line for GUI lore and claim chat.
 
 prefix: '&8[&bDailyQuest&8]&r '
+
+# Shared reward preview (quest icons, clear-all, check-in, claim chat).
+rewards:
+  header: '&7Thưởng:'
+  none: '&8• &7(không có)'
 
 quest:
   progress: '&7%quest_name% &8(%quest%): &f%progress%&7/&f%target%'
@@ -39,6 +45,7 @@ checkin:
   calendar-today: '&6Hôm nay — click nút điểm danh'
   calendar-upcoming: '&7Chưa tới'
   calendar-milestone: '&dMốc thưởng đặc biệt'
+  # Kept for older configs; code prefers rewards.header / rewards.none.
   calendar-rewards-header: '&7Thưởng:'
   calendar-reward-none: '&8• &7(không có)'
 

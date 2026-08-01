@@ -1,0 +1,7 @@
+# Docs:
+#   Purpose: /tps command + chat warning when TPS drops low.
+#   Reload: /utility reload
+
+public: true                   # false → cần core.utility.tps
+warn-below: 18.0
+warn-cooldown-seconds: 120

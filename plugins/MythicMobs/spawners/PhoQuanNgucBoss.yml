@@ -26,4 +26,4 @@ PhoQuanNgucBoss:
   Conditions: []
   SpawnConditions: []
   ActiveMobs: 1
-  CooldownTimer: 103
+  CooldownTimer: 2

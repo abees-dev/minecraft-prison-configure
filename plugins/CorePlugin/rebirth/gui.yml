@@ -1,0 +1,23 @@
+# Docs:
+#   Purpose: GUI title/rows/slots for the Rebirth perk-tree menu.
+#   Reload: /chuyensinh reload
+
+# Inventory title. Legacy '&' color codes.
+title: "&8[&d✦&8] &d&lCHUYỂN SINH &8❖ &d&lCÂY KỸ NĂNG"
+rows: 6
+slots:
+  info: 4
+  req-rank: 10
+  req-level: 11
+  req-money: 12
+  req-stone: 13
+  confirm: 15
+  divider-book: 22
+  aura: 49
+  perks:
+    speed: 28
+    damage: 29
+    defense: 30
+    lifesteal: 31
+    money: 32
+    drop: 33

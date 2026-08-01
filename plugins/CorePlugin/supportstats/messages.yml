@@ -1,0 +1,8 @@
+# Docs:
+#   Purpose: Player-facing messages for the Support Stats module.
+#   Reload: /supportstats reload
+
+no-permission: "&cBạn không có quyền."
+reload-ok: "&aĐã reload config."
+usage:
+  - "&e/supportstats reload"
