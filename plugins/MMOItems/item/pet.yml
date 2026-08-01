@@ -23,7 +23,7 @@ TRADE_PET_HOA_LONG:
     unstackable: true
     disable-interaction: true
     enchants:
-      - 'UNBREAKING +1'
+      unbreaking: 1
     hide-enchants: true
 
 TRADE_PET_HAC_LONG:
@@ -43,7 +43,7 @@ TRADE_PET_HAC_LONG:
     unstackable: true
     disable-interaction: true
     enchants:
-      - 'UNBREAKING +1'
+      unbreaking: 1
     hide-enchants: true
 
 TRADE_PET_LOI_LONG:
@@ -63,7 +63,7 @@ TRADE_PET_LOI_LONG:
     unstackable: true
     disable-interaction: true
     enchants:
-      - 'UNBREAKING +1'
+      unbreaking: 1
     hide-enchants: true
 
 TRADE_PET_PHONG_LONG:
@@ -83,7 +83,7 @@ TRADE_PET_PHONG_LONG:
     unstackable: true
     disable-interaction: true
     enchants:
-      - 'UNBREAKING +1'
+      unbreaking: 1
     hide-enchants: true
 
 TRADE_PET_BANG_LONG:
@@ -102,7 +102,7 @@ TRADE_PET_BANG_LONG:
     unstackable: true
     disable-interaction: true
     enchants:
-      - 'UNBREAKING +1'
+      unbreaking: 1
     hide-enchants: true
 
 # =============================================================================
@@ -126,7 +126,7 @@ DONATE_PET_LONG_CHIEN:
     unstackable: true
     disable-interaction: true
     enchants:
-      - 'UNBREAKING +1'
+      unbreaking: 1
     hide-enchants: true
 
 DONATE_PET_LONG_THAN:
@@ -146,7 +146,7 @@ DONATE_PET_LONG_THAN:
     unstackable: true
     disable-interaction: true
     enchants:
-      - 'UNBREAKING +1'
+      unbreaking: 1
     hide-enchants: true
 
 DONATE_PET_LONG_HOANG:
@@ -166,7 +166,7 @@ DONATE_PET_LONG_HOANG:
     unstackable: true
     disable-interaction: true
     enchants:
-      - 'UNBREAKING +1'
+      unbreaking: 1
     hide-enchants: true
 
 DONATE_PET_LONG_DE:
@@ -186,7 +186,7 @@ DONATE_PET_LONG_DE:
     unstackable: true
     disable-interaction: true
     enchants:
-      - 'UNBREAKING +1'
+      unbreaking: 1
     hide-enchants: true
 
 DONATE_PET_LONG_VE:
@@ -205,5 +205,5 @@ DONATE_PET_LONG_VE:
     unstackable: true
     disable-interaction: true
     enchants:
-      - 'UNBREAKING +1'
+      unbreaking: 1
     hide-enchants: true

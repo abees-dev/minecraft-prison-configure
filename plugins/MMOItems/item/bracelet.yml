@@ -13,7 +13,7 @@ TRADE_BRACELET_HOA_LONG:
     physical-damage: 25
     unstackable: true
     enchants:
-      - 'UNBREAKING +1'
+      unbreaking: 1
     hide-enchants: true
     upgrade:
       reference: armor-upgrade-template
@@ -35,7 +35,7 @@ TRADE_BRACELET_HAC_LONG:
     magic-damage: 35
     unstackable: true
     enchants:
-      - 'UNBREAKING +1'
+      unbreaking: 1
     hide-enchants: true
     upgrade:
       reference: armor-upgrade-template
@@ -57,7 +57,7 @@ TRADE_BRACELET_LOI_LONG:
     attack-speed: 15
     unstackable: true
     enchants:
-      - 'UNBREAKING +1'
+      unbreaking: 1
     hide-enchants: true
     upgrade:
       reference: armor-upgrade-template
@@ -79,7 +79,7 @@ TRADE_BRACELET_PHONG_LONG:
     dodge-rating: 12
     unstackable: true
     enchants:
-      - 'UNBREAKING +1'
+      unbreaking: 1
     hide-enchants: true
     upgrade:
       reference: armor-upgrade-template
@@ -102,7 +102,7 @@ TRADE_BRACELET_BANG_LONG:
     defense: 10
     unstackable: true
     enchants:
-      - 'UNBREAKING +1'
+      unbreaking: 1
     hide-enchants: true
     upgrade:
       reference: armor-upgrade-template
@@ -124,7 +124,7 @@ DONATE_BRACELET_LONG_CHIEN:
     physical-damage: 25
     unstackable: true
     enchants:
-      - 'UNBREAKING +1'
+      unbreaking: 1
     hide-enchants: true
     upgrade:
       reference: armor-upgrade-template
@@ -146,7 +146,7 @@ DONATE_BRACELET_LONG_THAN:
     magic-damage: 35
     unstackable: true
     enchants:
-      - 'UNBREAKING +1'
+      unbreaking: 1
     hide-enchants: true
     upgrade:
       reference: armor-upgrade-template
@@ -168,7 +168,7 @@ DONATE_BRACELET_LONG_HOANG:
     attack-speed: 15
     unstackable: true
     enchants:
-      - 'UNBREAKING +1'
+      unbreaking: 1
     hide-enchants: true
     upgrade:
       reference: armor-upgrade-template
@@ -190,7 +190,7 @@ DONATE_BRACELET_LONG_DE:
     dodge-rating: 12
     unstackable: true
     enchants:
-      - 'UNBREAKING +1'
+      unbreaking: 1
     hide-enchants: true
     upgrade:
       reference: armor-upgrade-template
@@ -213,7 +213,7 @@ DONATE_BRACELET_LONG_VE:
     defense: 10
     unstackable: true
     enchants:
-      - 'UNBREAKING +1'
+      unbreaking: 1
     hide-enchants: true
     upgrade:
       reference: armor-upgrade-template
@@ -235,7 +235,7 @@ FREE_BRACELET_THANH_LONG:
     physical-damage: 25
     unstackable: true
     enchants:
-      - 'UNBREAKING +1'
+      unbreaking: 1
     hide-enchants: true
     upgrade:
       reference: armor-upgrade-template
@@ -257,7 +257,7 @@ FREE_BRACELET_XICH_LONG:
     magic-damage: 35
     unstackable: true
     enchants:
-      - 'UNBREAKING +1'
+      unbreaking: 1
     hide-enchants: true
     upgrade:
       reference: armor-upgrade-template
@@ -279,7 +279,7 @@ FREE_BRACELET_KIM_LONG:
     attack-speed: 15
     unstackable: true
     enchants:
-      - 'UNBREAKING +1'
+      unbreaking: 1
     hide-enchants: true
     upgrade:
       reference: armor-upgrade-template
@@ -301,7 +301,7 @@ FREE_BRACELET_THIEN_LONG:
     dodge-rating: 12
     unstackable: true
     enchants:
-      - 'UNBREAKING +1'
+      unbreaking: 1
     hide-enchants: true
     upgrade:
       reference: armor-upgrade-template
@@ -324,7 +324,7 @@ FREE_BRACELET_BAC_LONG:
     defense: 10
     unstackable: true
     enchants:
-      - 'UNBREAKING +1'
+      unbreaking: 1
     hide-enchants: true
     upgrade:
       reference: armor-upgrade-template

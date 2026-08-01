@@ -12,7 +12,7 @@ LONG_VUONG_RING_1:
     attack-damage: 15.0
     critical-strike-chance: 5.0
     enchants:
-      - 'UNBREAKING +1'
+      unbreaking: 1
     hide-enchants: true
     upgrade:
       template: armor-upgrade-template
@@ -33,7 +33,7 @@ LONG_VUONG_RING_2:
     attack-damage: 15.0
     critical-strike-power: 10.0
     enchants:
-      - 'UNBREAKING +1'
+      unbreaking: 1
     hide-enchants: true
     upgrade:
       template: armor-upgrade-template
@@ -54,7 +54,7 @@ BANG_TINH_RING_1:
     max-health: 80.0
     damage-reduction: 3.0
     enchants:
-      - 'UNBREAKING +1'
+      unbreaking: 1
     hide-enchants: true
     upgrade:
       template: armor-upgrade-template
@@ -75,7 +75,7 @@ BANG_TINH_RING_2:
     max-health: 80.0
     armor: 8.0
     enchants:
-      - 'UNBREAKING +1'
+      unbreaking: 1
     hide-enchants: true
     upgrade:
       template: armor-upgrade-template
@@ -96,7 +96,7 @@ HAC_AM_RING_1:
     magic-damage: 8.0
     max-mana: 50.0
     enchants:
-      - 'UNBREAKING +1'
+      unbreaking: 1
     hide-enchants: true
     upgrade:
       template: armor-upgrade-template
@@ -117,7 +117,7 @@ HAC_AM_RING_2:
     magic-damage: 8.0
     max-mana: 50.0
     enchants:
-      - 'UNBREAKING +1'
+      unbreaking: 1
     hide-enchants: true
     upgrade:
       template: armor-upgrade-template
@@ -138,7 +138,7 @@ LOI_THAN_RING_1:
     attack-speed: 8.0
     movement-speed: 0.01
     enchants:
-      - 'UNBREAKING +1'
+      unbreaking: 1
     hide-enchants: true
     upgrade:
       template: armor-upgrade-template
@@ -159,7 +159,7 @@ LOI_THAN_RING_2:
     attack-speed: 8.0
     dodge-rating: 4.0
     enchants:
-      - 'UNBREAKING +1'
+      unbreaking: 1
     hide-enchants: true
     upgrade:
       template: armor-upgrade-template
@@ -180,7 +180,7 @@ HOANG_GIA_RING_1:
     physical-damage: 8.0
     max-health: 60.0
     enchants:
-      - 'UNBREAKING +1'
+      unbreaking: 1
     hide-enchants: true
     upgrade:
       template: armor-upgrade-template
@@ -201,7 +201,7 @@ HOANG_GIA_RING_2:
     magic-damage: 8.0
     max-mana: 40.0
     enchants:
-      - 'UNBREAKING +1'
+      unbreaking: 1
     hide-enchants: true
     upgrade:
       template: armor-upgrade-template
@@ -223,7 +223,7 @@ LONG_VUONG_AMULET:
     attack-damage: 20.0
     critical-strike-chance: 8.0
     enchants:
-      - 'UNBREAKING +1'
+      unbreaking: 1
     hide-enchants: true
     upgrade:
       template: armor-upgrade-template
@@ -244,7 +244,7 @@ BANG_TINH_AMULET:
     max-health: 120.0
     damage-reduction: 5.0
     enchants:
-      - 'UNBREAKING +1'
+      unbreaking: 1
     hide-enchants: true
     upgrade:
       template: armor-upgrade-template
@@ -265,7 +265,7 @@ HAC_AM_AMULET:
     magic-damage: 12.0
     max-mana: 100.0
     enchants:
-      - 'UNBREAKING +1'
+      unbreaking: 1
     hide-enchants: true
     upgrade:
       template: armor-upgrade-template
@@ -286,7 +286,7 @@ LOI_THAN_AMULET:
     attack-speed: 12.0
     movement-speed: 0.02
     enchants:
-      - 'UNBREAKING +1'
+      unbreaking: 1
     hide-enchants: true
     upgrade:
       template: armor-upgrade-template
@@ -307,7 +307,7 @@ HOANG_GIA_AMULET:
     physical-damage: 12.0
     max-health: 100.0
     enchants:
-      - 'UNBREAKING +1'
+      unbreaking: 1
     hide-enchants: true
     upgrade:
       template: armor-upgrade-template
@@ -329,7 +329,7 @@ LONG_VUONG_BRACELET:
     attack-damage: 10.0
     critical-strike-power: 15.0
     enchants:
-      - 'UNBREAKING +1'
+      unbreaking: 1
     hide-enchants: true
     upgrade:
       template: armor-upgrade-template
@@ -350,7 +350,7 @@ BANG_TINH_BRACELET:
     max-health: 100.0
     armor: 10.0
     enchants:
-      - 'UNBREAKING +1'
+      unbreaking: 1
     hide-enchants: true
     upgrade:
       template: armor-upgrade-template
@@ -371,7 +371,7 @@ HAC_AM_BRACELET:
     magic-damage: 10.0
     max-mana: 80.0
     enchants:
-      - 'UNBREAKING +1'
+      unbreaking: 1
     hide-enchants: true
     upgrade:
       template: armor-upgrade-template
@@ -392,7 +392,7 @@ LOI_THAN_BRACELET:
     attack-speed: 10.0
     dodge-rating: 5.0
     enchants:
-      - 'UNBREAKING +1'
+      unbreaking: 1
     hide-enchants: true
     upgrade:
       template: armor-upgrade-template
@@ -413,7 +413,7 @@ HOANG_GIA_BRACELET:
     physical-damage: 10.0
     magic-damage: 5.0
     enchants:
-      - 'UNBREAKING +1'
+      unbreaking: 1
     hide-enchants: true
     upgrade:
       template: armor-upgrade-template
@@ -435,7 +435,7 @@ LONG_VUONG_GLOVES:
     attack-damage: 12.0
     critical-strike-chance: 6.0
     enchants:
-      - 'UNBREAKING +1'
+      unbreaking: 1
     hide-enchants: true
     upgrade:
       template: armor-upgrade-template
@@ -456,7 +456,7 @@ BANG_TINH_GLOVES:
     max-health: 90.0
     damage-reduction: 4.0
     enchants:
-      - 'UNBREAKING +1'
+      unbreaking: 1
     hide-enchants: true
     upgrade:
       template: armor-upgrade-template
@@ -476,7 +476,7 @@ HAC_AM_GLOVES:
     set: HAC_AM_SET
     magic-damage: 15.0
     enchants:
-      - 'UNBREAKING +1'
+      unbreaking: 1
     hide-enchants: true
     upgrade:
       template: armor-upgrade-template
@@ -497,7 +497,7 @@ LOI_THAN_GLOVES:
     attack-speed: 10.0
     movement-speed: 0.015
     enchants:
-      - 'UNBREAKING +1'
+      unbreaking: 1
     hide-enchants: true
     upgrade:
       template: armor-upgrade-template
@@ -518,7 +518,7 @@ HOANG_GIA_GLOVES:
     physical-damage: 10.0
     max-health: 80.0
     enchants:
-      - 'UNBREAKING +1'
+      unbreaking: 1
     hide-enchants: true
     upgrade:
       template: armor-upgrade-template

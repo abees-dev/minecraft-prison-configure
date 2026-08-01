@@ -11,3 +11,6 @@ leveling:
     level: 1
     last-kill-millis: 1785592577282
     last-reset-year-month: 2026-08
+fired:
+  end:
+    bloodmoon: '2026_8_1'

@@ -10,31 +10,31 @@ items:
     display_name: Dark Angel axe
     resource:
       material: DIAMOND_AXE
-      generate: true
+      generate: false
       model_path: dark_angel_axe
   dark-angel-hoe:
     display_name: Dark Angel hoe
     resource:
       material: DIAMOND_HOE
-      generate: true
+      generate: false
       model_path: dark_angel_hoe
   dark-angel-pickaxe:
     display_name: Dark Angel pickaxe
     resource:
       material: DIAMOND_PICKAXE
-      generate: true
+      generate: false
       model_path: dark_angel_pickaxe
   dark-angel-shovel:
     display_name: Dark Angel shovel
     resource:
       material: DIAMOND_SHOVEL
-      generate: true
+      generate: false
       model_path: dark_angel_shovel
   dark-angel-sword:
     display_name: Dark Angel sword
     resource:
       material: DIAMOND_SWORD
-      generate: true
+      generate: false
       model_path: dark_angel_sword
   dark_angel_helmet:
     display_name: Dark Angel helmet
@@ -104,7 +104,7 @@ items:
     display_name: Dark Angel crate
     resource:
       material: PAPER
-      generate: true
+      generate: false
       model_path: dark_angel_crate
     behaviours:
       furniture:
@@ -125,18 +125,18 @@ items:
     display_name: Dark Angel halo
     resource:
       material: PAPER
-      generate: true
+      generate: false
       model_path: dark_angel_halo
   dark-angel-pitchfork:
     display_name: Dark Angel pitchfork
     resource:
       material: PAPER
-      generate: true
+      generate: false
       model_path: dark_angel_pitchfork
   dark-angel-wings:
     display_name: Dark Angel wings
     resource:
       material: PAPER
-      generate: true
+      generate: false
       model_path: dark_angel_wings
 #f411df77694644c0bd346d69ef86a197

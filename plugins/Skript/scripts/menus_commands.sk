@@ -4,6 +4,18 @@
 # /rank /vip... → DeluxeMenus ranks_master
 # ============================================================================
 
+command /warp:
+	description: Mo menu dich chuyen
+	executable by: players
+	trigger:
+		execute console command "dm open warp_main %player%"
+
+command /warps:
+	description: Mo menu dich chuyen
+	executable by: players
+	trigger:
+		execute console command "dm open warp_main %player%"
+
 command /warpgui:
 	description: Mo menu dich chuyen
 	executable by: players

@@ -13,7 +13,7 @@ TRADE_GLOVES_HOA_LONG:
     critical-strike-power: 20
     unstackable: true
     enchants:
-      - 'UNBREAKING +1'
+      unbreaking: 1
     hide-enchants: true
     upgrade:
       reference: armor-upgrade-template
@@ -35,7 +35,7 @@ TRADE_GLOVES_HAC_LONG:
     magic-damage: 30
     unstackable: true
     enchants:
-      - 'UNBREAKING +1'
+      unbreaking: 1
     hide-enchants: true
     upgrade:
       reference: armor-upgrade-template
@@ -57,7 +57,7 @@ TRADE_GLOVES_LOI_LONG:
     lifesteal: 8
     unstackable: true
     enchants:
-      - 'UNBREAKING +1'
+      unbreaking: 1
     hide-enchants: true
     upgrade:
       reference: armor-upgrade-template
@@ -79,7 +79,7 @@ TRADE_GLOVES_PHONG_LONG:
     dodge-rating: 15
     unstackable: true
     enchants:
-      - 'UNBREAKING +1'
+      unbreaking: 1
     hide-enchants: true
     upgrade:
       reference: armor-upgrade-template
@@ -102,7 +102,7 @@ TRADE_GLOVES_BANG_LONG:
     max-health: 100
     unstackable: true
     enchants:
-      - 'UNBREAKING +1'
+      unbreaking: 1
     hide-enchants: true
     upgrade:
       reference: armor-upgrade-template
@@ -124,7 +124,7 @@ DONATE_GLOVES_LONG_CHIEN:
     critical-strike-power: 20
     unstackable: true
     enchants:
-      - 'UNBREAKING +1'
+      unbreaking: 1
     hide-enchants: true
     upgrade:
       reference: armor-upgrade-template
@@ -146,7 +146,7 @@ DONATE_GLOVES_LONG_THAN:
     magic-damage: 30
     unstackable: true
     enchants:
-      - 'UNBREAKING +1'
+      unbreaking: 1
     hide-enchants: true
     upgrade:
       reference: armor-upgrade-template
@@ -168,7 +168,7 @@ DONATE_GLOVES_LONG_HOANG:
     lifesteal: 8
     unstackable: true
     enchants:
-      - 'UNBREAKING +1'
+      unbreaking: 1
     hide-enchants: true
     upgrade:
       reference: armor-upgrade-template
@@ -190,7 +190,7 @@ DONATE_GLOVES_LONG_DE:
     dodge-rating: 15
     unstackable: true
     enchants:
-      - 'UNBREAKING +1'
+      unbreaking: 1
     hide-enchants: true
     upgrade:
       reference: armor-upgrade-template
@@ -213,7 +213,7 @@ DONATE_GLOVES_LONG_VE:
     max-health: 100
     unstackable: true
     enchants:
-      - 'UNBREAKING +1'
+      unbreaking: 1
     hide-enchants: true
     upgrade:
       reference: armor-upgrade-template
@@ -235,7 +235,7 @@ FREE_GLOVES_THANH_LONG:
     critical-strike-power: 20
     unstackable: true
     enchants:
-      - 'UNBREAKING +1'
+      unbreaking: 1
     hide-enchants: true
     upgrade:
       reference: armor-upgrade-template
@@ -257,7 +257,7 @@ FREE_GLOVES_XICH_LONG:
     magic-damage: 30
     unstackable: true
     enchants:
-      - 'UNBREAKING +1'
+      unbreaking: 1
     hide-enchants: true
     upgrade:
       reference: armor-upgrade-template
@@ -279,7 +279,7 @@ FREE_GLOVES_KIM_LONG:
     lifesteal: 8
     unstackable: true
     enchants:
-      - 'UNBREAKING +1'
+      unbreaking: 1
     hide-enchants: true
     upgrade:
       reference: armor-upgrade-template
@@ -301,7 +301,7 @@ FREE_GLOVES_THIEN_LONG:
     dodge-rating: 15
     unstackable: true
     enchants:
-      - 'UNBREAKING +1'
+      unbreaking: 1
     hide-enchants: true
     upgrade:
       reference: armor-upgrade-template
@@ -324,7 +324,7 @@ FREE_GLOVES_BAC_LONG:
     max-health: 100
     unstackable: true
     enchants:
-      - 'UNBREAKING +1'
+      unbreaking: 1
     hide-enchants: true
     upgrade:
       reference: armor-upgrade-template

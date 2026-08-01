@@ -3,7 +3,8 @@
 #
 # version: 2.10.2
 
-bloodmoon_active, boolean, 01
+bloodmoon_active, boolean, 00
+bloodmoon_flag::bm_end_2026_8_1, boolean, 01
 bloodmoon_flag::bm_start_2026_8_1, boolean, 01
 bloodmoon_flag::bm_warn_2026_8_1, boolean, 01
 bloodmoon_started_date, string, 801132303A30302C2030312F30382F32303236

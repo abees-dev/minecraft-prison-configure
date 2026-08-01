@@ -13,7 +13,7 @@ TRADE_AMULET_HOA_LONG:
     max-health: 120
     unstackable: true
     enchants:
-      - 'UNBREAKING +1'
+      unbreaking: 1
     hide-enchants: true
     upgrade:
       reference: armor-upgrade-template
@@ -36,7 +36,7 @@ TRADE_AMULET_HAC_LONG:
     max-health: 60
     unstackable: true
     enchants:
-      - 'UNBREAKING +1'
+      unbreaking: 1
     hide-enchants: true
     upgrade:
       reference: armor-upgrade-template
@@ -59,7 +59,7 @@ TRADE_AMULET_LOI_LONG:
     max-health: 100
     unstackable: true
     enchants:
-      - 'UNBREAKING +1'
+      unbreaking: 1
     hide-enchants: true
     upgrade:
       reference: armor-upgrade-template
@@ -82,7 +82,7 @@ TRADE_AMULET_PHONG_LONG:
     max-health: 80
     unstackable: true
     enchants:
-      - 'UNBREAKING +1'
+      unbreaking: 1
     hide-enchants: true
     upgrade:
       reference: armor-upgrade-template
@@ -105,7 +105,7 @@ TRADE_AMULET_BANG_LONG:
     damage-reduction: 8
     unstackable: true
     enchants:
-      - 'UNBREAKING +1'
+      unbreaking: 1
     hide-enchants: true
     upgrade:
       reference: armor-upgrade-template
@@ -127,7 +127,7 @@ DONATE_AMULET_LONG_CHIEN:
     max-health: 120
     unstackable: true
     enchants:
-      - 'UNBREAKING +1'
+      unbreaking: 1
     hide-enchants: true
     upgrade:
       reference: armor-upgrade-template
@@ -150,7 +150,7 @@ DONATE_AMULET_LONG_THAN:
     max-health: 60
     unstackable: true
     enchants:
-      - 'UNBREAKING +1'
+      unbreaking: 1
     hide-enchants: true
     upgrade:
       reference: armor-upgrade-template
@@ -173,7 +173,7 @@ DONATE_AMULET_LONG_HOANG:
     max-health: 100
     unstackable: true
     enchants:
-      - 'UNBREAKING +1'
+      unbreaking: 1
     hide-enchants: true
     upgrade:
       reference: armor-upgrade-template
@@ -196,7 +196,7 @@ DONATE_AMULET_LONG_DE:
     max-health: 80
     unstackable: true
     enchants:
-      - 'UNBREAKING +1'
+      unbreaking: 1
     hide-enchants: true
     upgrade:
       reference: armor-upgrade-template
@@ -219,7 +219,7 @@ DONATE_AMULET_LONG_VE:
     damage-reduction: 8
     unstackable: true
     enchants:
-      - 'UNBREAKING +1'
+      unbreaking: 1
     hide-enchants: true
     upgrade:
       reference: armor-upgrade-template
@@ -241,7 +241,7 @@ FREE_AMULET_THANH_LONG:
     max-health: 120
     unstackable: true
     enchants:
-      - 'UNBREAKING +1'
+      unbreaking: 1
     hide-enchants: true
     upgrade:
       reference: armor-upgrade-template
@@ -264,7 +264,7 @@ FREE_AMULET_XICH_LONG:
     max-health: 60
     unstackable: true
     enchants:
-      - 'UNBREAKING +1'
+      unbreaking: 1
     hide-enchants: true
     upgrade:
       reference: armor-upgrade-template
@@ -287,7 +287,7 @@ FREE_AMULET_KIM_LONG:
     max-health: 100
     unstackable: true
     enchants:
-      - 'UNBREAKING +1'
+      unbreaking: 1
     hide-enchants: true
     upgrade:
       reference: armor-upgrade-template
@@ -310,7 +310,7 @@ FREE_AMULET_THIEN_LONG:
     max-health: 80
     unstackable: true
     enchants:
-      - 'UNBREAKING +1'
+      unbreaking: 1
     hide-enchants: true
     upgrade:
       reference: armor-upgrade-template
@@ -333,7 +333,7 @@ FREE_AMULET_BAC_LONG:
     damage-reduction: 8
     unstackable: true
     enchants:
-      - 'UNBREAKING +1'
+      unbreaking: 1
     hide-enchants: true
     upgrade:
       reference: armor-upgrade-template
