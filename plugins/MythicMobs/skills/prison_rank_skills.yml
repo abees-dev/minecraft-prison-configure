@@ -6,9 +6,17 @@
 # Soft-despawn Normal/Elite khi khong con player trong 40 block (~10s check).
 # Dung remove (khong onDeath) de khong drop / khong spam message.
 # Boss KHONG dung skill nay: onDeath bat hologram timer DecentHolograms.
+# QUAN TRONG: playersinradius PHAI khai bao ro "a=>0" (amount). Neu khong,
+# MythicMobs se ngam dinh amount=0 (EQUALS 0) thay vi >0 nhu tai lieu mo ta
+# (do "conditionVar" mac dinh cua SkillCondition la "0" bi dung lam fallback
+# cho thuoc tinh amount). Ket hop voi "false" (alias cua ConditionAction.CANCEL,
+# co tac dung DAO NGUOC ket qua check()), thieu "a=>0" se khien dieu kien tro
+# thanh true khi CO nguoi trong 40 block -> mob bi remove ngay khi co nguoi,
+# thay vi khi vang nguoi. Da kiem chung bang reflection truc tiep tren class
+# that cua MythicMobs 5.6.2 (PlayersInRadiusCondition/RangedInt/ConditionAction).
 Prison_Despawn_No_Players:
   Conditions:
-    - playersInRadius{r=40} false
+    - playersInRadius{r=40;a=>0} false
   Skills:
     - remove @self
 

@@ -318,6 +318,18 @@ items:
         - "&7Bank hiện tại: &e{bank}"
         - ""
         - "&e➤ Click để mua"
+    # {multiplier} {duration} {cost} {bank}
+    mmocore-exp-buff:
+      material: EXPERIENCE_BOTTLE
+      name: "&a&l✦ Buff MMOCore EXP x{multiplier}"
+      lore:
+        - "&7Nhân EXP MMOCore cho mọi thành viên"
+        - "&7Thời hạn: &e{duration}"
+        - ""
+        - "&7Giá: &e{cost}"
+        - "&7Bank hiện tại: &e{bank}"
+        - ""
+        - "&e➤ Click để mua"
     back:
       template: back-button
 
@@ -396,6 +408,131 @@ items:
       lore:
         - "&7Level: &e{level}&7/&e{max}"
         - "&7Giảm PvP: &e{reduction}%"
+        - ""
+        - "&aĐã đạt cấp tối đa!"
+        - ""
+        - "&7Danh vọng bang: &e{reputation} &8• &7Bank: &e{bank}"
+    # {level} {max} {bonus} {cost-rep} {cost-money} {reputation} {bank}
+    warlord:
+      material: IRON_SWORD
+      name: "&c&l⚔ Warlord"
+      lore:
+        - "&7Level: &e{level}&7/&e{max}"
+        - "&7Damage vs gang khác: &e+{bonus}%"
+        - ""
+        - "&7Chi phí lên cấp:"
+        - "&7  &8• &e{cost-rep} &7danh vọng"
+        - "&7  &8• &e{cost-money}"
+        - ""
+        - "&a➤ Click để nâng cấp"
+        - ""
+        - "&7Danh vọng bang: &e{reputation} &8• &7Bank: &e{bank}"
+    warlord-maxed:
+      material: IRON_SWORD
+      name: "&c&l⚔ Warlord"
+      lore:
+        - "&7Level: &e{level}&7/&e{max}"
+        - "&7Damage vs gang khác: &e+{bonus}%"
+        - ""
+        - "&aĐã đạt cấp tối đa!"
+        - ""
+        - "&7Danh vọng bang: &e{reputation} &8• &7Bank: &e{bank}"
+    # {level} {max} {capture} {defense} {cost-rep} {cost-money} {reputation} {bank}
+    koth-control:
+      material: BEACON
+      name: "&6&l🏔 KOTH Control"
+      lore:
+        - "&7Level: &e{level}&7/&e{max}"
+        - "&7Capture: &e{capture}s &8• &7Defense: &e{defense}s"
+        - ""
+        - "&7Chi phí lên cấp:"
+        - "&7  &8• &e{cost-rep} &7danh vọng"
+        - "&7  &8• &e{cost-money}"
+        - ""
+        - "&a➤ Click để nâng cấp"
+        - ""
+        - "&7Danh vọng bang: &e{reputation} &8• &7Bank: &e{bank}"
+    koth-control-maxed:
+      material: BEACON
+      name: "&6&l🏔 KOTH Control"
+      lore:
+        - "&7Level: &e{level}&7/&e{max}"
+        - "&7Capture: &e{capture}s &8• &7Defense: &e{defense}s"
+        - ""
+        - "&aĐã đạt cấp tối đa!"
+        - ""
+        - "&7Danh vọng bang: &e{reputation} &8• &7Bank: &e{bank}"
+    # {level} {max} {bonus} {cost-rep} {cost-money} {reputation} {bank}
+    quest-mastery:
+      material: BOOK
+      name: "&e&l📜 Quest Mastery"
+      lore:
+        - "&7Level: &e{level}&7/&e{max}"
+        - "&7Thưởng quest: &e+{bonus}%"
+        - ""
+        - "&7Chi phí lên cấp:"
+        - "&7  &8• &e{cost-rep} &7danh vọng"
+        - "&7  &8• &e{cost-money}"
+        - ""
+        - "&a➤ Click để nâng cấp"
+        - ""
+        - "&7Danh vọng bang: &e{reputation} &8• &7Bank: &e{bank}"
+    quest-mastery-maxed:
+      material: BOOK
+      name: "&e&l📜 Quest Mastery"
+      lore:
+        - "&7Level: &e{level}&7/&e{max}"
+        - "&7Thưởng quest: &e+{bonus}%"
+        - ""
+        - "&aĐã đạt cấp tối đa!"
+        - ""
+        - "&7Danh vọng bang: &e{reputation} &8• &7Bank: &e{bank}"
+    # {level} {max} {reduction} {cost-rep} {cost-money} {reputation} {bank}
+    quest-efficiency:
+      material: EMERALD
+      name: "&a&l♻ Quest Efficiency"
+      lore:
+        - "&7Level: &e{level}&7/&e{max}"
+        - "&7Giảm phí open/reset: &e{reduction}%"
+        - ""
+        - "&7Chi phí lên cấp:"
+        - "&7  &8• &e{cost-rep} &7danh vọng"
+        - "&7  &8• &e{cost-money}"
+        - ""
+        - "&a➤ Click để nâng cấp"
+        - ""
+        - "&7Danh vọng bang: &e{reputation} &8• &7Bank: &e{bank}"
+    quest-efficiency-maxed:
+      material: EMERALD
+      name: "&a&l♻ Quest Efficiency"
+      lore:
+        - "&7Level: &e{level}&7/&e{max}"
+        - "&7Giảm phí open/reset: &e{reduction}%"
+        - ""
+        - "&aĐã đạt cấp tối đa!"
+        - ""
+        - "&7Danh vọng bang: &e{reputation} &8• &7Bank: &e{bank}"
+    # {level} {max} {opens} {cost-rep} {cost-money} {reputation} {bank}
+    quest-capacity:
+      material: CHEST_MINECART
+      name: "&b&l📦 Quest Capacity"
+      lore:
+        - "&7Level: &e{level}&7/&e{max}"
+        - "&7Daily opens thêm: &e+{opens}"
+        - ""
+        - "&7Chi phí lên cấp:"
+        - "&7  &8• &e{cost-rep} &7danh vọng"
+        - "&7  &8• &e{cost-money}"
+        - ""
+        - "&a➤ Click để nâng cấp"
+        - ""
+        - "&7Danh vọng bang: &e{reputation} &8• &7Bank: &e{bank}"
+    quest-capacity-maxed:
+      material: CHEST_MINECART
+      name: "&b&l📦 Quest Capacity"
+      lore:
+        - "&7Level: &e{level}&7/&e{max}"
+        - "&7Daily opens thêm: &e+{opens}"
         - ""
         - "&aĐã đạt cấp tối đa!"
         - ""
@@ -493,8 +630,8 @@ items:
       material: PAPER
       name: "&a&lDùng phiếu mở quest"
       lore:
-        - "&7Tiêu thụ 1 MMOItem:"
-        - "&e{type}&7/&e{id}"
+        - "&7Tiêu thụ 1 Item:"
+        - "&e{display}"
         - "&7+1 lượt mở trong ngày"
         - ""
         - "&a➤ Click để dùng (Leader, GUI only)"

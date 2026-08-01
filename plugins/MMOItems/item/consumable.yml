@@ -1,3 +1,22 @@
 # MMOItems Consumable Configuration
 # Các Đá Cường Hóa đã được chuyển sang item/material.yml (MATERIAL)
 # để vô hiệu hóa kéo thả và phục vụ hệ thống GUI Cường Hóa (/cuonghoa).
+
+# Vé mở thêm lượt Quest Bang Hội (CorePlugin gang module).
+# Dùng trong GUI /gang quest → "Dùng phiếu mở quest" (chỉ GUI, không right-click
+# ngoài đời) — plugin gang tự kiểm tra + trừ 1 item qua MMOItems API, không phải
+# consume vật lý, nên khoá tương tác ngoài đời để tránh player lỡ tay ăn/dùng.
+# Khớp config.yml: quest.ticket.mmoitems-type: CONSUMABLE / mmoitems-id: GUILD_QUEST_TICKET
+GUILD_QUEST_TICKET:
+  base:
+    revision-id: 1
+    material: PAPER
+    name: "&a✦ Phiếu Quest Bang"
+    tier: UNCOMMON
+    disable-interaction: true
+    inedible: true
+    lore:
+      - "&7Dùng trong &eGUI Quest Bang &7(&e/gang quest&7)"
+      - "&7để nhận thêm &a+1 &7lượt mở quest hôm nay."
+      - ""
+      - "&8Chỉ Leader / Co-Leader mới dùng được."
