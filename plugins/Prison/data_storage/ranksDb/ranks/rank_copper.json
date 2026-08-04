@@ -1,9 +1,0 @@
-{
-  "mines": [
-    "MINE,C,-1,&b[&3Lao Công&b]"
-  ],
-  "cost": 25000,
-  "name": "copper",
-  "tag": "&b[&3Lao Công&b]",
-  "commands": []
-}

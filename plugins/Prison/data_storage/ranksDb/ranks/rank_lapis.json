@@ -1,9 +1,0 @@
-{
-  "mines": [
-    "MINE,G,-1,&d[&5Quản Ngục&d]"
-  ],
-  "cost": 800000,
-  "name": "lapis",
-  "tag": "&d[&5Quản Ngục&d]",
-  "commands": []
-}

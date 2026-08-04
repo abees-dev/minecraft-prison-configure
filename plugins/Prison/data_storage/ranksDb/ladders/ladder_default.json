@@ -1,34 +1,6 @@
 {
-  "ranks": [
-    {
-      "rankName": "cobblestone"
-    },
-    {
-      "rankName": "coal"
-    },
-    {
-      "rankName": "copper"
-    },
-    {
-      "rankName": "iron"
-    },
-    {
-      "rankName": "gold"
-    },
-    {
-      "rankName": "redstone"
-    },
-    {
-      "rankName": "lapis"
-    },
-    {
-      "rankName": "diamond"
-    },
-    {
-      "rankName": "emerald"
-    }
-  ],
-  "rankCostMultiplierPerRank": 0,
+  "ranks": [],
+  "rankCostMultiplierPerRank": 0.0,
   "name": "default",
   "applyRankCostMultiplierToLadder": true,
   "commands": []
