@@ -75,6 +75,8 @@ lp group default permission set xprison.ranks false
 lp group default permission set xprison.ranks.ranks false
 # /kit command (Essentials use-bukkit-permissions: true → cần perm này)
 lp group default permission set essentials.kit true
+# /bal /balance — xem số dư của mình
+lp group default permission set essentials.balance true
 
 # Rank 1: 1 kho, 2 home, kit tân binh
 lp group xprison_rank_1 permission set playervaults.amount.1 true

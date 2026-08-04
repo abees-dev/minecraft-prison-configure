@@ -1,4 +1,3 @@
-&6Welcome, {PLAYER}&6!
-&6Type &c/help&6 for a list of commands.
-&6Type &c/list&6 to see who else is online.
-&6Players online:&c {ONLINE} &6- World time:&c {WORLDTIME12}
+&b&lNovaPrison &8| &7Xin chào, &f{PLAYER}&7!
+&7Lệnh hữu ích: &e/spawn &8· &e/kit &8· &e/warp &8· &e/home
+&7Online: &e{ONLINE} &8| &7Giờ: &e{WORLDTIME12}
