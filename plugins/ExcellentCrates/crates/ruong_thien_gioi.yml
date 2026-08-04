@@ -723,7 +723,7 @@ Rewards:
       Ignored_For_Permissions: []
     reward_p_vuot_helmet:
       Name: '&4&lVượt Ngục Mũ I'
-      Weight: 5.0
+      Weight: 6.0
       Rarity: rare
       Broadcast: false
       Placeholder_Apply: false
@@ -746,7 +746,7 @@ Rewards:
       Ignored_For_Permissions: []
     reward_p_vuot_chestplate:
       Name: '&4&lVượt Ngục Áo I'
-      Weight: 5.0
+      Weight: 6.0
       Rarity: rare
       Broadcast: false
       Placeholder_Apply: false
@@ -769,7 +769,7 @@ Rewards:
       Ignored_For_Permissions: []
     reward_p_vuot_leggings:
       Name: '&4&lVượt Ngục Quần I'
-      Weight: 5.0
+      Weight: 6.0
       Rarity: rare
       Broadcast: false
       Placeholder_Apply: false
@@ -792,7 +792,7 @@ Rewards:
       Ignored_For_Permissions: []
     reward_p_vuot_boots:
       Name: '&4&lVượt Ngục Giày I'
-      Weight: 5.0
+      Weight: 6.0
       Rarity: rare
       Broadcast: false
       Placeholder_Apply: false
@@ -815,7 +815,7 @@ Rewards:
       Ignored_For_Permissions: []
     reward_p_vuot_sword:
       Name: '&4&lVượt Ngục Kiếm I'
-      Weight: 5.0
+      Weight: 6.0
       Rarity: rare
       Broadcast: false
       Placeholder_Apply: false
@@ -838,7 +838,7 @@ Rewards:
       Ignored_For_Permissions: []
     reward_p_vuot_axe:
       Name: '&4&lVượt Ngục Rìu I'
-      Weight: 5.0
+      Weight: 6.0
       Rarity: rare
       Broadcast: false
       Placeholder_Apply: false
@@ -861,7 +861,7 @@ Rewards:
       Ignored_For_Permissions: []
     reward_p_vuot_staff:
       Name: '&4&lVượt Ngục Trượng I'
-      Weight: 5.0
+      Weight: 6.0
       Rarity: rare
       Broadcast: false
       Placeholder_Apply: false
@@ -884,7 +884,7 @@ Rewards:
       Ignored_For_Permissions: []
     reward_ho_sword:
       Name: '&a&lHộ Long Kiếm'
-      Weight: 6.0
+      Weight: 3.0
       Rarity: legendary
       Broadcast: true
       Placeholder_Apply: false
@@ -907,7 +907,7 @@ Rewards:
       Ignored_For_Permissions: []
     reward_ho_helmet:
       Name: '&a&lHộ Long Mũ'
-      Weight: 6.0
+      Weight: 3.0
       Rarity: legendary
       Broadcast: true
       Placeholder_Apply: false
@@ -930,7 +930,7 @@ Rewards:
       Ignored_For_Permissions: []
     reward_ho_chest:
       Name: '&a&lHộ Long Giáp'
-      Weight: 6.0
+      Weight: 3.0
       Rarity: legendary
       Broadcast: true
       Placeholder_Apply: false
@@ -953,7 +953,7 @@ Rewards:
       Ignored_For_Permissions: []
     reward_ho_legs:
       Name: '&a&lHộ Long Hộ Tất'
-      Weight: 6.0
+      Weight: 3.0
       Rarity: legendary
       Broadcast: true
       Placeholder_Apply: false
@@ -976,7 +976,7 @@ Rewards:
       Ignored_For_Permissions: []
     reward_ho_boots:
       Name: '&a&lHộ Long Hài'
-      Weight: 6.0
+      Weight: 3.0
       Rarity: legendary
       Broadcast: true
       Placeholder_Apply: false
@@ -999,7 +999,7 @@ Rewards:
       Ignored_For_Permissions: []
     reward_chien_sword:
       Name: '&e&lChiến Long Kiếm'
-      Weight: 3.0
+      Weight: 2.0
       Rarity: legendary
       Broadcast: true
       Placeholder_Apply: false
@@ -1022,7 +1022,7 @@ Rewards:
       Ignored_For_Permissions: []
     reward_chien_helmet:
       Name: '&e&lChiến Long Mũ'
-      Weight: 3.0
+      Weight: 2.0
       Rarity: legendary
       Broadcast: true
       Placeholder_Apply: false
@@ -1045,7 +1045,7 @@ Rewards:
       Ignored_For_Permissions: []
     reward_chien_chest:
       Name: '&e&lChiến Long Giáp'
-      Weight: 3.0
+      Weight: 2.0
       Rarity: legendary
       Broadcast: true
       Placeholder_Apply: false
@@ -1068,7 +1068,7 @@ Rewards:
       Ignored_For_Permissions: []
     reward_chien_legs:
       Name: '&e&lChiến Long Hộ Tất'
-      Weight: 3.0
+      Weight: 2.0
       Rarity: legendary
       Broadcast: true
       Placeholder_Apply: false
@@ -1091,7 +1091,7 @@ Rewards:
       Ignored_For_Permissions: []
     reward_chien_boots:
       Name: '&e&lChiến Long Hài'
-      Weight: 3.0
+      Weight: 2.0
       Rarity: legendary
       Broadcast: true
       Placeholder_Apply: false
@@ -1252,7 +1252,7 @@ Rewards:
       Ignored_For_Permissions: []
     reward_ch_vk_sieu:
       Name: '&cĐá CH Vũ Khí Siêu'
-      Weight: 3.0
+      Weight: 4.0
       Rarity: rare
       Broadcast: true
       Placeholder_Apply: false
@@ -1275,7 +1275,7 @@ Rewards:
       Ignored_For_Permissions: []
     reward_ch_giap_sieu:
       Name: '&cĐá CH Giáp Siêu'
-      Weight: 3.0
+      Weight: 4.0
       Rarity: rare
       Broadcast: true
       Placeholder_Apply: false
@@ -1459,7 +1459,7 @@ Rewards:
       Ignored_For_Permissions: []
     reward_duc_6:
       Name: '&bMũi Khoan Đục Lỗ Ô 6'
-      Weight: 2.0
+      Weight: 4.0
       Rarity: rare
       Broadcast: true
       Placeholder_Apply: false
