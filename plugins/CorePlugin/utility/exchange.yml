@@ -41,7 +41,9 @@ exchanges:
         ia-id: elitecreatures:elite_crates_ice_key
         name: '&6&l⚔ Chìa Khóa Long Tộc'
         lore:
-        - '&7Click để đổi lấy &6Chìa Khóa Long Tộc'
+        - '&7Cần: &e1x Ấn Tín Long Tộc'
+        - '&7Nhận: &61x Chìa Khóa Long Tộc'
+        - '&8Click để đổi'
         glowing: true
       cost:
         type: mmoitem
