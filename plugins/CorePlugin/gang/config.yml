@@ -472,6 +472,8 @@ roles:
   invite:
   - LEADER
   - CO_LEADER
+  buy-war-lives:
+  - LEADER
 
 # Phase 1 — per-player daily personal quests (pool: quests.yml `personal:`).
 personal-quest:
@@ -550,3 +552,42 @@ storage:
     username: root
     password: ''
     pool-size: 4
+war:
+  enabled: true
+  duration-minutes: 30
+  countdown-seconds: 60
+  win-points: 1000
+  points-per-second: 1
+  kill-points: 5
+  boss-mob-id: TONG_QUAN_NGUC
+  boss-kill-points: 100
+  lives:
+    per-player: 2
+    respawn-seconds: 60
+    buy:
+      enabled: true
+      cost: 500000
+      lives-each: 1
+      max-purchases: 3
+  cancel-friendly-fire: true
+  last-standing-wins: true
+  arena-region: war_arena
+  gates:
+  - id: gate_a
+    region: war_gate_a
+    display: '&eCổng Đông'
+  - id: gate_b
+    region: war_gate_b
+    display: '&eCổng Tây'
+  - id: gate_c
+    region: war_gate_c
+    display: '&eCổng Nam'
+  rewards:
+    bank: 2000000
+    reputation: 500
+    season-points: 100
+  boss-bar:
+    enabled: true
+    color: RED
+    style: SOLID
+    title: '&c&lBANG CHIẾN &8| &f#{rank} {gang} &e{points} &7• &fCòn {remain}'

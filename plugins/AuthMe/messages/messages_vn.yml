@@ -1,0 +1,157 @@
+# List of global tags:
+# %nl% - Goes to new line.
+# %username% - Replaces the username of the player receiving the message.
+# %displayname% - Replaces the nickname (and colors) of the player receiving the message.
+# Style: đồng bộ NovaPrison (✦ + màu success/error/info)
+
+# Registration
+registration:
+  register_request: '&e✦ &fĐăng ký tài khoản bằng lệnh: &a/register <mật khẩu> <nhập lại>'
+  command_usage: '&c✦ &fCú pháp: &e/register <mật khẩu> <nhập lại>'
+  reg_only: '&c✦ &fChỉ tài khoản đã đăng ký mới vào được &bNovaPrison&f!'
+  kicked_admin_registered: '&e✦ &fAdmin vừa đăng ký tài khoản cho bạn — hãy đăng nhập lại.'
+  success: '&a✦ &fĐăng ký thành công! Chào mừng đến &bNovaPrison&f!'
+  disabled: '&c✦ &fĐăng ký trong game đang bị tắt!'
+  name_taken: '&c✦ &fTên này đã được đăng ký rồi!'
+
+# Password errors on registration
+password:
+  match_error: '&c✦ &fHai mật khẩu không khớp, kiểm tra lại!'
+  name_in_password: '&c✦ &fKhông được dùng tên nhân vật làm mật khẩu!'
+  unsafe_password: '&c✦ &fMật khẩu không an toàn, hãy chọn mật khẩu khác!'
+  forbidden_characters: '&c✦ &fMật khẩu chứa ký tự không hợp lệ. Cho phép: &e%valid_chars'
+  wrong_length: '&c✦ &fMật khẩu quá ngắn hoặc quá dài!'
+
+# Login
+login:
+  command_usage: '&c✦ &fCú pháp: &e/login <mật khẩu>'
+  wrong_password: '&c✦ &fSai mật khẩu!'
+  success: '&a✦ &fĐăng nhập thành công!'
+  login_request: '&e✦ &fĐăng nhập bằng lệnh: &a/login <mật khẩu>'
+  timeout_error: '&c✦ &fHết thời gian đăng nhập — bạn đã bị kick. Thử lại!'
+
+# Errors
+error:
+  unregistered_user: '&c✦ &fTài khoản này chưa đăng ký!'
+  denied_command: '&c✦ &fBạn phải đăng nhập trước khi dùng lệnh này!'
+  denied_chat: '&c✦ &fBạn phải đăng nhập trước khi chat!'
+  not_logged_in: '&c✦ &fBạn chưa đăng nhập!'
+  tempban_max_logins: '&c✦ &fBạn bị cấm tạm thời vì đăng nhập sai quá nhiều lần.'
+  max_registration: '&c✦ &fĐã vượt giới hạn đăng ký trên IP này &7(%reg_count/%max_acc %reg_names)&c!'
+  no_permission: '&c✦ &fBạn không có quyền thực hiện hành động này!'
+  unexpected_error: '&c✦ &fLỗi không mong muốn — liên hệ admin!'
+  kick_for_vip: '&e✦ &fMột VIP vừa vào khi server đầy!'
+  logged_in: '&c✦ &fBạn đã đăng nhập rồi!'
+  kick_unresolved_hostname: '&c✦ &fLỗi: không phân giải được hostname!'
+
+# AntiBot
+antibot:
+  kick_antibot: '&c✦ &fAntiBot đang bật! Đợi vài phút rồi vào lại &bNovaPrison&f.'
+  auto_enabled: '&c✦ &8[&bAntiBot&8] &fĐã bật do quá nhiều kết nối!'
+  auto_disabled: '&a✦ &8[&bAntiBot&8] &fĐã tắt sau &e%m &fphút.'
+
+unregister:
+  success: '&a✦ &fHủy đăng ký thành công!'
+  command_usage: '&c✦ &fCú pháp: &e/unregister <mật khẩu>'
+
+# Other messages
+misc:
+  accounts_owned_self: '&e✦ &fBạn sở hữu &a%count &ftài khoản:'
+  accounts_owned_other: '&e✦ &fNgười chơi &a%name &fcó &a%count &ftài khoản:'
+  account_not_activated: '&c✦ &fTài khoản chưa kích hoạt — kiểm tra email!'
+  password_changed: '&a✦ &fĐổi mật khẩu thành công!'
+  logout: '&a✦ &fĐã đăng xuất!'
+  reload: '&a✦ &fĐã reload cấu hình và database AuthMe!'
+  usage_change_password: '&c✦ &fCú pháp: &e/changepassword <mật khẩu cũ> <mật khẩu mới>'
+
+# Session messages
+session:
+  invalid_session: '&c✦ &fIP đã đổi hoặc phiên đăng nhập hết hạn!'
+  valid_session: '&a✦ &fĐăng nhập tự động bằng phiên (session).'
+
+# Error messages when joining
+on_join_validation:
+  name_length: '&c✦ &fTên nhân vật quá ngắn hoặc quá dài!'
+  characters_in_name: '&c✦ &fTên chứa ký tự không hợp lệ. Cho phép: &e%valid_chars'
+  country_banned: '&c✦ &fQuốc gia của bạn bị cấm vào &bNovaPrison&f!'
+  not_owner_error: '&c✦ &fBạn không phải chủ tài khoản này — hãy chọn tên khác!'
+  kick_full_server: '&c✦ &fServer đang đầy, thử lại sau!'
+  same_nick_online: '&c✦ &fTên này đang online trên server!'
+  invalid_name_case: '&c✦ &fVào bằng tên &e%valid&c, không phải &e%invalid&c.'
+  same_ip_online: '&c✦ &fĐã có người chơi cùng IP đang online!'
+  quick_command: '&c✦ &fDùng lệnh quá nhanh — vào lại và đợi một chút!'
+
+# Email
+email:
+  usage_email_add: '&c✦ &fCú pháp: &e/email add <email> <nhập lại email>'
+  usage_email_change: '&c✦ &fCú pháp: &e/email change <email cũ> <email mới>'
+  new_email_invalid: '&c✦ &fEmail mới không hợp lệ!'
+  old_email_invalid: '&c✦ &fEmail cũ không hợp lệ!'
+  invalid: '&c✦ &fĐịa chỉ email không hợp lệ!'
+  added: '&a✦ &fĐã thêm email vào tài khoản!'
+  request_confirmation: '&e✦ &fVui lòng xác nhận địa chỉ email!'
+  changed: '&a✦ &fĐã đổi email thành công!'
+  email_show: '&a✦ &fEmail hiện tại: &f%email'
+  incomplete_settings: '&c✦ &fEmail chưa được cấu hình — liên hệ admin!'
+  already_used: '&c✦ &fEmail này đã được sử dụng!'
+  send_failure: '&c✦ &fKhông gửi được email — liên hệ admin!'
+  no_email_for_account: '&e✦ &fTài khoản này chưa liên kết email.'
+  add_email_request: '&e✦ &fThêm email bằng lệnh: &a/email add <email> <nhập lại>'
+  change_password_expired: '&c✦ &fKhông còn dùng được lệnh đổi mật khẩu này nữa.'
+  email_cooldown_error: '&c✦ &fEmail vừa gửi gần đây — đợi &e%time &frồi thử lại.'
+  add_not_allowed: '&c✦ &fKhông được phép thêm email!'
+  change_not_allowed: '&c✦ &fKhông được phép đổi email!'
+
+# Password recovery by email
+recovery:
+  forgot_password_hint: '&e✦ &fQuên mật khẩu? Dùng: &a/email recovery <email>'
+  command_usage: '&c✦ &fCú pháp: &e/email recovery <email>'
+  email_sent: '&a✦ &fĐã gửi email khôi phục — kiểm tra hộp thư!'
+  code:
+    code_sent: '&a✦ &fMã khôi phục đã được gửi tới email của bạn.'
+    incorrect: '&c✦ &fMã khôi phục sai! Còn &e%count &flần thử.'
+    tries_exceeded: '&c✦ &fHết số lần nhập mã. Dùng &e/email recovery <email> &fđể lấy mã mới.'
+    correct: '&a✦ &fMã khôi phục đúng!'
+    change_password: '&e✦ &fĐổi mật khẩu ngay: &a/email setpassword <mật khẩu mới>'
+
+# Captcha
+captcha:
+  usage_captcha: '&e✦ &fNhập captcha: &a/captcha %captcha_code'
+  wrong_captcha: '&c✦ &fSai captcha! Gõ: &e/captcha %captcha_code'
+  valid_captcha: '&a✦ &fCaptcha đúng!'
+  captcha_for_registration: '&e✦ &fCần captcha trước khi đăng ký: &a/captcha %captcha_code'
+  register_captcha_valid: '&a✦ &fCaptcha đúng! Giờ dùng &e/register &fđể đăng ký.'
+
+# Verification code
+verification:
+  code_required: '&e✦ &fLệnh nhạy cảm — kiểm tra email và làm theo hướng dẫn!'
+  command_usage: '&c✦ &fCú pháp: &e/verification <mã>'
+  incorrect_code: '&c✦ &fSai mã! Gõ &e/verification <mã> &fvới mã trong email.'
+  success: '&a✦ &fĐã xác minh! Bạn có thể dùng lệnh nhạy cảm trong phiên này.'
+  already_verified: '&a✦ &fBạn đã xác minh trong phiên hiện tại rồi!'
+  code_expired: '&e✦ &fMã đã hết hạn — dùng lại lệnh nhạy cảm để nhận mã mới!'
+  email_needed: '&e✦ &fCần liên kết email với tài khoản để xác minh!'
+
+# Two-factor authentication
+two_factor:
+  code_created: '&a✦ &fMã bí mật: &e%code&f. Quét tại: &e%url'
+  confirmation_required: '&e✦ &fXác nhận mã: &a/2fa confirm <mã>'
+  code_required: '&e✦ &fNhập mã 2FA: &a/2fa code <mã>'
+  already_enabled: '&e✦ &f2FA đã được bật trên tài khoản này!'
+  enable_error_no_code: '&c✦ &fChưa có mã 2FA hoặc đã hết hạn. Dùng &e/2fa add'
+  enable_success: '&a✦ &fĐã bật xác thực 2 lớp!'
+  enable_error_wrong_code: '&c✦ &fSai mã hoặc mã hết hạn. Dùng &e/2fa add'
+  not_enabled_error: '&c✦ &f2FA chưa bật. Dùng &e/2fa add'
+  removed_success: '&a✦ &fĐã tắt xác thực 2 lớp!'
+  invalid_code: '&c✦ &fMã không hợp lệ!'
+
+# Time units
+time:
+  second: 'giây'
+  seconds: 'giây'
+  minute: 'phút'
+  minutes: 'phút'
+  hour: 'giờ'
+  hours: 'giờ'
+  day: 'ngày'
+  days: 'ngày'

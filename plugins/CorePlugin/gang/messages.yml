@@ -241,3 +241,53 @@ join-create-prompt: |-
 join-create-invalid: '&c✦ &fCú pháp không hợp lệ! Gõ &e<tên> <prefix>&f hoặc &e''huy''&f.'
 join-create-cancelled: '&e✦ &fĐã hủy tạo bang.'
 join-create-expired: '&c✦ &fHết thời gian nhập tên bang.'
+war-disabled: '&c✦ &fSự kiện Bang Chiến đang tắt.'
+war-no-worldguard: '&c✦ &fCần WorldGuard để chạy Bang Chiến.'
+war-already-active: '&c✦ &fBang Chiến đang diễn ra rồi.'
+war-not-active: '&c✦ &fKhông có Bang Chiến đang chạy.'
+war-spawn-missing: '&c✦ &fChưa đặt spawn arena. Admin: &e/gang war setspawn'
+war-exit-missing: '&c✦ &fChưa đặt điểm thoát. Admin: &e/gang war setexit'
+war-spawn-set: '&a✦ &fĐã lưu spawn Bang Chiến.'
+war-exit-set: '&a✦ &fĐã lưu điểm thoát Bang Chiến.'
+war-countdown: '&c&l⚔ BANG CHIẾN &8» &fBắt đầu sau &e{seconds}s&f! &7(/gang war join
+  hoặc /bangchien)'
+war-started: '&c&l⚔ BANG CHIẾN &8» &aBắt đầu! &fChiếm &e3 Cổng Xuất &fhoặc tiêu diệt
+  địch. Mục tiêu: &e{win} điểm&f.'
+war-stopped: '&c&l⚔ BANG CHIẾN &8» &fTrận đấu đã kết thúc.'
+war-joined: '&a✦ &fBạn đã vào Bang Chiến! Mạng: &e{lives}&f. Chiếm cổng để ghi điểm.'
+war-left: '&e✦ &fBạn đã rời Bang Chiến.'
+war-must-have-gang: '&c✦ &fCần vào bang trước khi tham gia Bang Chiến.'
+war-eliminated: '&c✦ &fBạn đã hết mạng — bị loại khỏi Bang Chiến!'
+war-already-joined: '&e✦ &fBạn đã ở trong trận rồi.'
+war-eliminated-cannot-join: '&c✦ &fBạn đã bị loại — không thể vào lại.'
+war-kill: '&c✦ &f+{points} điểm Bang Chiến &7(hạ {victim})'
+war-boss-kill: '&6✦ &fBang &e{gang} &fdiệt Boss Trùm! &a+{points} điểm'
+war-gate-hold: '&e✦ &fBang đang giữ &6{gate}&f… &7(+{points}/s)'
+war-status: |-
+  &c&l━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+   &c⚔ &fBang Chiến &8({phase})
+   &7Còn: &e{remain} &8• &7Mục tiêu: &e{win}
+   &7Cổng: &f{gates}
+  {scores}
+  &c&l━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+war-score-line: ' &e#{rank} &f{gang} &7— &a{points} điểm &8({alive} sống)'
+war-win-points: '&c&l⚔ BANG CHIẾN &8» &aBang &e&l{gang} &ađạt &e{points} điểm &avà
+  chiến thắng!'
+war-win-time: '&c&l⚔ BANG CHIẾN &8» &fHết giờ! Thắng: &e&l{gang} &7({points} điểm)'
+war-win-last: '&c&l⚔ BANG CHIẾN &8» &aBang &e&l{gang} &alà bang sống sót cuối cùng!'
+war-win-none: '&c&l⚔ BANG CHIẾN &8» &fKết thúc — không có bang nào ghi điểm.'
+war-reward: '&a✦ &fThưởng Bang Chiến: &e+{bank} bank &8• &e+{rep} danh vọng &8• &e+{season}
+  season'
+war-usage: |-
+  &e/gang war &7join|leave|status
+  &e/gang war &7start [phút]|stop|setspawn|setexit &8(admin)
+war-death-respawn: '&e✦ &fBạn còn &a{lives} mạng&f. Hồi sinh sau &e{seconds}s&f…'
+war-respawned: '&a✦ &fĐã hồi sinh! Mạng còn: &e{lives}&f.'
+war-buy-lives-ok: '&a✦ &fĐã mua &e+{lives} mạng &fcho thành viên đang join (&e{cost}&f).
+  Lượt mua còn: &e{left}&f.'
+war-buy-lives-max: '&c✦ &fBang đã mua tối đa &e{max} &flần trong trận này.'
+war-buy-lives-disabled: '&c✦ &fMua mạng Bang Chiến đang tắt.'
+war-buy-lives-wrong-match: '&c✦ &fTrận này đã kết thúc — giao dịch không áp dụng (tránh
+  lẫn trận khác).'
+war-buy-lives-not-running: '&c✦ &fChỉ mua mạng khi Bang Chiến đang chạy.'
+war-gui-info-lore-idle: '&7Không có trận đang chạy.'

@@ -121,6 +121,15 @@ items:
       - '&7Đơn đang chờ: &e{pending}'
       - ''
       - '&a➤ Click để duyệt'
+    war:
+      material: IRON_SWORD
+      name: '&c&l⚔ Bang Chiến'
+      lore:
+      - '&7Trạng thái: &e{phase}'
+      - '&7Mạng của bạn: &e{lives}'
+      - '&7Mua thêm (trận này): &e{purchases}&7/&e{max-purchases}'
+      - ''
+      - '&c➤ Click để mở menu Bang Chiến'
   
   members:
     # {player} {role} {contribution}
@@ -687,5 +696,42 @@ items:
       - '&c➤ Shift-click để từ chối'
     back:
       template: back-button
+  war:
+    info:
+      material: IRON_SWORD
+      name: '&c&l⚔ Bang Chiến'
+      lore:
+      - '&7Trạng thái: &e{phase}'
+      - '&7Match #: &f{match}'
+      - '&7Mạng của bạn: &e{lives}'
+      - '&7Hồi sinh: &e{respawn}s &7sau khi chết (còn mạng)'
+      - ''
+      - '&8Mua mạng chỉ áp dụng trận này'
+      - '&8(match #{match}) — hết trận là hết'
+    buy:
+      material: GOLDEN_APPLE
+      name: '&a&l+ Mạng hồi sinh'
+      lore:
+      - '&7Thêm &e+{lives-each} mạng &7cho mỗi TV đang join'
+      - '&7Chi phí bank: &e{cost}'
+      - '&7Đã mua trận này: &e{purchases}&7/&e{max-purchases}'
+      - '&7Còn: &e{left} &7lượt'
+      - ''
+      - '&a➤ Click để mua (Leader)'
+      - '&8Chỉ match #{match} — không lẫn trận khác'
+    buy-maxed:
+      material: BARRIER
+      name: '&c&lĐã hết lượt mua'
+      lore:
+      - '&7Bang đã mua tối đa trong trận này'
+      - '&7(&e{purchases}&7/&e{max-purchases}&7)'
+    buy-idle:
+      material: GRAY_DYE
+      name: '&7Mua mạng (chưa có trận)'
+      lore:
+      - '&7Chỉ mua khi Bang Chiến đang chạy'
+    back:
+      template: back-button
 browse-title: '&8[&a✦&8] &a&lXIN VÀO BANG HỘI'
 join-requests-title: '&8[&a✦&8] &a&lDUYỆT XIN VÀO'
+war-title: '&8[&c✦&8] &c&lBANG CHIẾN'
