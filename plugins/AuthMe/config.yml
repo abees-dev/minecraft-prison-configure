@@ -328,7 +328,7 @@ settings:
     # Should we remove leave messages altogether?
     removeLeaveMessage: true
     # Do we need to add potion effect Blinding before login/register?
-    applyBlindEffect: false
+    applyBlindEffect: true
     # Do we need to prevent people to login with another case?
     # If Xephi is registered, then Xephi can login, but not XEPHI/xephi/XePhI
     preventOtherCase: true
