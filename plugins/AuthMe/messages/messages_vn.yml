@@ -2,15 +2,15 @@
 # %nl% - Goes to new line.
 # %username% - Replaces the username of the player receiving the message.
 # %displayname% - Replaces the nickname (and colors) of the player receiving the message.
-# Style: đồng bộ NovaPrison (✦ + màu success/error/info)
+# Style: đồng bộ AetherMine (✦ + màu success/error/info)
 
 # Registration
 registration:
   register_request: '&e✦ &fĐăng ký tài khoản bằng lệnh: &a/register <mật khẩu> <nhập lại>'
   command_usage: '&c✦ &fCú pháp: &e/register <mật khẩu> <nhập lại>'
-  reg_only: '&c✦ &fChỉ tài khoản đã đăng ký mới vào được &bNovaPrison&f!'
+  reg_only: '&c✦ &fChỉ tài khoản đã đăng ký mới vào được &bAetherMine&f!'
   kicked_admin_registered: '&e✦ &fAdmin vừa đăng ký tài khoản cho bạn — hãy đăng nhập lại.'
-  success: '&a✦ &fĐăng ký thành công! Chào mừng đến &bNovaPrison&f!'
+  success: '&a✦ &fĐăng ký thành công! Chào mừng đến &bAetherMine&f!'
   disabled: '&c✦ &fĐăng ký trong game đang bị tắt!'
   name_taken: '&c✦ &fTên này đã được đăng ký rồi!'
 
@@ -46,7 +46,7 @@ error:
 
 # AntiBot
 antibot:
-  kick_antibot: '&c✦ &fAntiBot đang bật! Đợi vài phút rồi vào lại &bNovaPrison&f.'
+  kick_antibot: '&c✦ &fAntiBot đang bật! Đợi vài phút rồi vào lại &bAetherMine&f.'
   auto_enabled: '&c✦ &8[&bAntiBot&8] &fĐã bật do quá nhiều kết nối!'
   auto_disabled: '&a✦ &8[&bAntiBot&8] &fĐã tắt sau &e%m &fphút.'
 
@@ -73,7 +73,7 @@ session:
 on_join_validation:
   name_length: '&c✦ &fTên nhân vật quá ngắn hoặc quá dài!'
   characters_in_name: '&c✦ &fTên chứa ký tự không hợp lệ. Cho phép: &e%valid_chars'
-  country_banned: '&c✦ &fQuốc gia của bạn bị cấm vào &bNovaPrison&f!'
+  country_banned: '&c✦ &fQuốc gia của bạn bị cấm vào &bAetherMine&f!'
   not_owner_error: '&c✦ &fBạn không phải chủ tài khoản này — hãy chọn tên khác!'
   kick_full_server: '&c✦ &fServer đang đầy, thử lại sau!'
   same_nick_online: '&c✦ &fTên này đang online trên server!'

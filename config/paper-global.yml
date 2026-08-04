@@ -117,7 +117,7 @@ timings:
   - proxies.velocity.secret
   history-interval: 300
   history-length: 3600
-  server-name: Unknown Server
+  server-name: AetherMine
   server-name-privacy: false
   url: https://timings.aikar.co/
   verbose: true

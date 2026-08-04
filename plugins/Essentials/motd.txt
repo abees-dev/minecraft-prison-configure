@@ -1,3 +1,3 @@
-&b&lNovaPrison &8| &7Xin chào, &f{PLAYER}&7!
+&b&lAetherMine &8| &7Xin chào, &f{PLAYER}&7!
 &7Lệnh hữu ích: &e/spawn &8· &e/kit &8· &e/warp &8· &e/home
 &7Online: &e{ONLINE} &8| &7Giờ: &e{WORLDTIME12}

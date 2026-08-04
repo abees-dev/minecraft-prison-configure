@@ -1,4 +1,4 @@
-# Chunky pregen — NovaPrison
+# Chunky pregen — AetherMine
 
 Cập nhật: 2026-08-04.
 

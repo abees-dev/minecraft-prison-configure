@@ -1,5 +1,5 @@
 &b&l━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
- &b✦ &fChào mừng &e{PLAYER} &fđến &b&lNovaPrison&f!
+ &b✦ &fChào mừng &e{PLAYER} &fđến &b&lAetherMine&f!
  &7Online: &a{ONLINE}&7/&f{MAXPLAYERS} &8| &7World: &f{WORLD}
  &ePrison &8× &dRPG &8— &7Chúc bạn chơi vui!
 &b&l━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
