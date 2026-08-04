@@ -1,72 +1,8 @@
 info:
   namespace: rings_pack
 items:
-  glove_1:
-    display_name: "&fGăng Tay (#1)"
-    enabled: true
-    resource:
-      material: PAPER
-      generate: false
-      model_id: 19501
-      model_path: items/gloves/glove_1
-  glove_2:
-    display_name: "&fGăng Tay (#2)"
-    enabled: true
-    resource:
-      material: PAPER
-      generate: false
-      model_id: 19502
-      model_path: items/gloves/glove_2
-  glove_3:
-    display_name: "&fGăng Tay (#3)"
-    enabled: true
-    resource:
-      material: PAPER
-      generate: false
-      model_id: 19503
-      model_path: items/gloves/glove_3
-  glove_4:
-    display_name: "&fGăng Tay (#4)"
-    enabled: true
-    resource:
-      material: PAPER
-      generate: false
-      model_id: 19504
-      model_path: items/gloves/glove_4
-  glove_5:
-    display_name: "&fGăng Tay (#5)"
-    enabled: true
-    resource:
-      material: PAPER
-      generate: false
-      model_id: 19505
-      model_path: items/gloves/glove_5
-  glove_6:
-    display_name: "&fGăng Tay (#6)"
-    enabled: true
-    resource:
-      material: PAPER
-      generate: false
-      model_id: 19506
-      model_path: items/gloves/glove_6
-  glove_7:
-    display_name: "&fGăng Tay (#7)"
-    enabled: true
-    resource:
-      material: PAPER
-      generate: false
-      model_id: 19507
-      model_path: items/gloves/glove_7
-  glove_8:
-    display_name: "&fGăng Tay (#8)"
-    enabled: true
-    resource:
-      material: PAPER
-      generate: false
-      model_id: 19508
-      model_path: items/gloves/glove_8
   glove_9:
-    display_name: "&fGăng Tay (#9)"
+    display_name: '&fGăng Tay (#9)'
     enabled: true
     resource:
       material: PAPER
@@ -74,455 +10,63 @@ items:
       model_id: 19509
       model_path: items/gloves/glove_9
   glove_10:
-    display_name: "&fGăng Tay (#10)"
+    display_name: '&fGăng Tay (#10)'
     enabled: true
     resource:
       material: PAPER
       generate: false
       model_id: 19510
       model_path: items/gloves/glove_10
-  glove_11:
-    display_name: "&fGăng Tay (#11)"
-    enabled: true
-    resource:
-      material: PAPER
-      generate: false
-      model_id: 19511
-      model_path: items/gloves/glove_11
-  glove_12:
-    display_name: "&fGăng Tay (#12)"
-    enabled: true
-    resource:
-      material: PAPER
-      generate: false
-      model_id: 19512
-      model_path: items/gloves/glove_12
   glove_13:
-    display_name: "&fGăng Tay (#13)"
+    display_name: '&fGăng Tay (#13)'
     enabled: true
     resource:
       material: PAPER
       generate: false
       model_id: 19513
       model_path: items/gloves/glove_13
-  glove_14:
-    display_name: "&fGăng Tay (#14)"
-    enabled: true
-    resource:
-      material: PAPER
-      generate: false
-      model_id: 19514
-      model_path: items/gloves/glove_14
-  glove_15:
-    display_name: "&fGăng Tay (#15)"
-    enabled: true
-    resource:
-      material: PAPER
-      generate: false
-      model_id: 19515
-      model_path: items/gloves/glove_15
-  glove_16:
-    display_name: "&fGăng Tay (#16)"
-    enabled: true
-    resource:
-      material: PAPER
-      generate: false
-      model_id: 19516
-      model_path: items/gloves/glove_16
   glove_17:
-    display_name: "&fGăng Tay (#17)"
+    display_name: '&fGăng Tay (#17)'
     enabled: true
     resource:
       material: PAPER
       generate: false
       model_id: 19517
       model_path: items/gloves/glove_17
-  glove_18:
-    display_name: "&fGăng Tay (#18)"
-    enabled: true
-    resource:
-      material: PAPER
-      generate: false
-      model_id: 19518
-      model_path: items/gloves/glove_18
-  glove_19:
-    display_name: "&fGăng Tay (#19)"
-    enabled: true
-    resource:
-      material: PAPER
-      generate: false
-      model_id: 19519
-      model_path: items/gloves/glove_19
-  glove_20:
-    display_name: "&fGăng Tay (#20)"
-    enabled: true
-    resource:
-      material: PAPER
-      generate: false
-      model_id: 19520
-      model_path: items/gloves/glove_20
-  glove_21:
-    display_name: "&fGăng Tay (#21)"
-    enabled: true
-    resource:
-      material: PAPER
-      generate: false
-      model_id: 19521
-      model_path: items/gloves/glove_21
-  glove_22:
-    display_name: "&fGăng Tay (#22)"
-    enabled: true
-    resource:
-      material: PAPER
-      generate: false
-      model_id: 19522
-      model_path: items/gloves/glove_22
-  glove_23:
-    display_name: "&fGăng Tay (#23)"
-    enabled: true
-    resource:
-      material: PAPER
-      generate: false
-      model_id: 19523
-      model_path: items/gloves/glove_23
-  glove_24:
-    display_name: "&fGăng Tay (#24)"
-    enabled: true
-    resource:
-      material: PAPER
-      generate: false
-      model_id: 19524
-      model_path: items/gloves/glove_24
-  glove_25:
-    display_name: "&fGăng Tay (#25)"
-    enabled: true
-    resource:
-      material: PAPER
-      generate: false
-      model_id: 19525
-      model_path: items/gloves/glove_25
-  glove_26:
-    display_name: "&fGăng Tay (#26)"
-    enabled: true
-    resource:
-      material: PAPER
-      generate: false
-      model_id: 19526
-      model_path: items/gloves/glove_26
-  glove_27:
-    display_name: "&fGăng Tay (#27)"
-    enabled: true
-    resource:
-      material: PAPER
-      generate: false
-      model_id: 19527
-      model_path: items/gloves/glove_27
-  glove_28:
-    display_name: "&fGăng Tay (#28)"
-    enabled: true
-    resource:
-      material: PAPER
-      generate: false
-      model_id: 19528
-      model_path: items/gloves/glove_28
-  glove_29:
-    display_name: "&fGăng Tay (#29)"
-    enabled: true
-    resource:
-      material: PAPER
-      generate: false
-      model_id: 19529
-      model_path: items/gloves/glove_29
-  glove_30:
-    display_name: "&fGăng Tay (#30)"
-    enabled: true
-    resource:
-      material: PAPER
-      generate: false
-      model_id: 19530
-      model_path: items/gloves/glove_30
-  glove_31:
-    display_name: "&fGăng Tay (#31)"
-    enabled: true
-    resource:
-      material: PAPER
-      generate: false
-      model_id: 19531
-      model_path: items/gloves/glove_31
-  glove_32:
-    display_name: "&fGăng Tay (#32)"
-    enabled: true
-    resource:
-      material: PAPER
-      generate: false
-      model_id: 19532
-      model_path: items/gloves/glove_32
-  glove_33:
-    display_name: "&fGăng Tay (#33)"
-    enabled: true
-    resource:
-      material: PAPER
-      generate: false
-      model_id: 19533
-      model_path: items/gloves/glove_33
   glove_34:
-    display_name: "&fGăng Tay (#34)"
+    display_name: '&fGăng Tay (#34)'
     enabled: true
     resource:
       material: PAPER
       generate: false
       model_id: 19534
       model_path: items/gloves/glove_34
-  glove_35:
-    display_name: "&fGăng Tay (#35)"
-    enabled: true
-    resource:
-      material: PAPER
-      generate: false
-      model_id: 19535
-      model_path: items/gloves/glove_35
-  glove_36:
-    display_name: "&fGăng Tay (#36)"
-    enabled: true
-    resource:
-      material: PAPER
-      generate: false
-      model_id: 19536
-      model_path: items/gloves/glove_36
-  glove_37:
-    display_name: "&fGăng Tay (#37)"
-    enabled: true
-    resource:
-      material: PAPER
-      generate: false
-      model_id: 19537
-      model_path: items/gloves/glove_37
-  glove_38:
-    display_name: "&fGăng Tay (#38)"
-    enabled: true
-    resource:
-      material: PAPER
-      generate: false
-      model_id: 19538
-      model_path: items/gloves/glove_38
   glove_39:
-    display_name: "&fGăng Tay (#39)"
+    display_name: '&fGăng Tay (#39)'
     enabled: true
     resource:
       material: PAPER
       generate: false
       model_id: 19539
       model_path: items/gloves/glove_39
-  glove_40:
-    display_name: "&fGăng Tay (#40)"
-    enabled: true
-    resource:
-      material: PAPER
-      generate: false
-      model_id: 19540
-      model_path: items/gloves/glove_40
-  glove_41:
-    display_name: "&fGăng Tay (#41)"
-    enabled: true
-    resource:
-      material: PAPER
-      generate: false
-      model_id: 19541
-      model_path: items/gloves/glove_41
-  glove_42:
-    display_name: "&fGăng Tay (#42)"
-    enabled: true
-    resource:
-      material: PAPER
-      generate: false
-      model_id: 19542
-      model_path: items/gloves/glove_42
-  glove_43:
-    display_name: "&fGăng Tay (#43)"
-    enabled: true
-    resource:
-      material: PAPER
-      generate: false
-      model_id: 19543
-      model_path: items/gloves/glove_43
-  glove_44:
-    display_name: "&fGăng Tay (#44)"
-    enabled: true
-    resource:
-      material: PAPER
-      generate: false
-      model_id: 19544
-      model_path: items/gloves/glove_44
-  glove_45:
-    display_name: "&fGăng Tay (#45)"
-    enabled: true
-    resource:
-      material: PAPER
-      generate: false
-      model_id: 19545
-      model_path: items/gloves/glove_45
-  glove_46:
-    display_name: "&fGăng Tay (#46)"
-    enabled: true
-    resource:
-      material: PAPER
-      generate: false
-      model_id: 19546
-      model_path: items/gloves/glove_46
-  glove_47:
-    display_name: "&fGăng Tay (#47)"
-    enabled: true
-    resource:
-      material: PAPER
-      generate: false
-      model_id: 19547
-      model_path: items/gloves/glove_47
-  glove_48:
-    display_name: "&fGăng Tay (#48)"
-    enabled: true
-    resource:
-      material: PAPER
-      generate: false
-      model_id: 19548
-      model_path: items/gloves/glove_48
-  glove_49:
-    display_name: "&fGăng Tay (#49)"
-    enabled: true
-    resource:
-      material: PAPER
-      generate: false
-      model_id: 19549
-      model_path: items/gloves/glove_49
-  glove_50:
-    display_name: "&fGăng Tay (#50)"
-    enabled: true
-    resource:
-      material: PAPER
-      generate: false
-      model_id: 19550
-      model_path: items/gloves/glove_50
-  glove_51:
-    display_name: "&fGăng Tay (#51)"
-    enabled: true
-    resource:
-      material: PAPER
-      generate: false
-      model_id: 19551
-      model_path: items/gloves/glove_51
-  glove_52:
-    display_name: "&fGăng Tay (#52)"
-    enabled: true
-    resource:
-      material: PAPER
-      generate: false
-      model_id: 19552
-      model_path: items/gloves/glove_52
-  glove_53:
-    display_name: "&fGăng Tay (#53)"
-    enabled: true
-    resource:
-      material: PAPER
-      generate: false
-      model_id: 19553
-      model_path: items/gloves/glove_53
-  glove_54:
-    display_name: "&fGăng Tay (#54)"
-    enabled: true
-    resource:
-      material: PAPER
-      generate: false
-      model_id: 19554
-      model_path: items/gloves/glove_54
-  glove_55:
-    display_name: "&fGăng Tay (#55)"
-    enabled: true
-    resource:
-      material: PAPER
-      generate: false
-      model_id: 19555
-      model_path: items/gloves/glove_55
-  glove_56:
-    display_name: "&fGăng Tay (#56)"
-    enabled: true
-    resource:
-      material: PAPER
-      generate: false
-      model_id: 19556
-      model_path: items/gloves/glove_56
   glove_57:
-    display_name: "&fGăng Tay (#57)"
+    display_name: '&fGăng Tay (#57)'
     enabled: true
     resource:
       material: PAPER
       generate: false
       model_id: 19557
       model_path: items/gloves/glove_57
-  glove_58:
-    display_name: "&fGăng Tay (#58)"
-    enabled: true
-    resource:
-      material: PAPER
-      generate: false
-      model_id: 19558
-      model_path: items/gloves/glove_58
-  glove_59:
-    display_name: "&fGăng Tay (#59)"
-    enabled: true
-    resource:
-      material: PAPER
-      generate: false
-      model_id: 19559
-      model_path: items/gloves/glove_59
-  glove_60:
-    display_name: "&fGăng Tay (#60)"
-    enabled: true
-    resource:
-      material: PAPER
-      generate: false
-      model_id: 19560
-      model_path: items/gloves/glove_60
-  glove_61:
-    display_name: "&fGăng Tay (#61)"
-    enabled: true
-    resource:
-      material: PAPER
-      generate: false
-      model_id: 19561
-      model_path: items/gloves/glove_61
   glove_62:
-    display_name: "&fGăng Tay (#62)"
+    display_name: '&fGăng Tay (#62)'
     enabled: true
     resource:
       material: PAPER
       generate: false
       model_id: 19562
       model_path: items/gloves/glove_62
-  glove_63:
-    display_name: "&fGăng Tay (#63)"
-    enabled: true
-    resource:
-      material: PAPER
-      generate: false
-      model_id: 19563
-      model_path: items/gloves/glove_63
-  glove_64:
-    display_name: "&fGăng Tay (#64)"
-    enabled: true
-    resource:
-      material: PAPER
-      generate: false
-      model_id: 19564
-      model_path: items/gloves/glove_64
-  glove_65:
-    display_name: "&fGăng Tay (#65)"
-    enabled: true
-    resource:
-      material: PAPER
-      generate: false
-      model_id: 19565
-      model_path: items/gloves/glove_65
   glove_66:
-    display_name: "&fGăng Tay (#66)"
+    display_name: '&fGăng Tay (#66)'
     enabled: true
     resource:
       material: PAPER
@@ -530,111 +74,23 @@ items:
       model_id: 19566
       model_path: items/gloves/glove_66
   glove_67:
-    display_name: "&fGăng Tay (#67)"
+    display_name: '&fGăng Tay (#67)'
     enabled: true
     resource:
       material: PAPER
       generate: false
       model_id: 19567
       model_path: items/gloves/glove_67
-  glove_68:
-    display_name: "&fGăng Tay (#68)"
-    enabled: true
-    resource:
-      material: PAPER
-      generate: false
-      model_id: 19568
-      model_path: items/gloves/glove_68
-  glove_69:
-    display_name: "&fGăng Tay (#69)"
-    enabled: true
-    resource:
-      material: PAPER
-      generate: false
-      model_id: 19569
-      model_path: items/gloves/glove_69
-  glove_70:
-    display_name: "&fGăng Tay (#70)"
-    enabled: true
-    resource:
-      material: PAPER
-      generate: false
-      model_id: 19570
-      model_path: items/gloves/glove_70
-  glove_71:
-    display_name: "&fGăng Tay (#71)"
-    enabled: true
-    resource:
-      material: PAPER
-      generate: false
-      model_id: 19571
-      model_path: items/gloves/glove_71
-  glove_72:
-    display_name: "&fGăng Tay (#72)"
-    enabled: true
-    resource:
-      material: PAPER
-      generate: false
-      model_id: 19572
-      model_path: items/gloves/glove_72
-  glove_73:
-    display_name: "&fGăng Tay (#73)"
-    enabled: true
-    resource:
-      material: PAPER
-      generate: false
-      model_id: 19573
-      model_path: items/gloves/glove_73
   glove_74:
-    display_name: "&fGăng Tay (#74)"
+    display_name: '&fGăng Tay (#74)'
     enabled: true
     resource:
       material: PAPER
       generate: false
       model_id: 19574
       model_path: items/gloves/glove_74
-  glove_75:
-    display_name: "&fGăng Tay (#75)"
-    enabled: true
-    resource:
-      material: PAPER
-      generate: false
-      model_id: 19575
-      model_path: items/gloves/glove_75
-  glove_76:
-    display_name: "&fGăng Tay (#76)"
-    enabled: true
-    resource:
-      material: PAPER
-      generate: false
-      model_id: 19576
-      model_path: items/gloves/glove_76
-  glove_77:
-    display_name: "&fGăng Tay (#77)"
-    enabled: true
-    resource:
-      material: PAPER
-      generate: false
-      model_id: 19577
-      model_path: items/gloves/glove_77
-  glove_78:
-    display_name: "&fGăng Tay (#78)"
-    enabled: true
-    resource:
-      material: PAPER
-      generate: false
-      model_id: 19578
-      model_path: items/gloves/glove_78
-  glove_79:
-    display_name: "&fGăng Tay (#79)"
-    enabled: true
-    resource:
-      material: PAPER
-      generate: false
-      model_id: 19579
-      model_path: items/gloves/glove_79
   glove_80:
-    display_name: "&fGăng Tay (#80)"
+    display_name: '&fGăng Tay (#80)'
     enabled: true
     resource:
       material: PAPER
@@ -642,159 +98,55 @@ items:
       model_id: 19580
       model_path: items/gloves/glove_80
   glove_81:
-    display_name: "&fGăng Tay (#81)"
+    display_name: '&fGăng Tay (#81)'
     enabled: true
     resource:
       material: PAPER
       generate: false
       model_id: 19581
       model_path: items/gloves/glove_81
-  glove_82:
-    display_name: "&fGăng Tay (#82)"
-    enabled: true
-    resource:
-      material: PAPER
-      generate: false
-      model_id: 19582
-      model_path: items/gloves/glove_82
-  glove_83:
-    display_name: "&fGăng Tay (#83)"
-    enabled: true
-    resource:
-      material: PAPER
-      generate: false
-      model_id: 19583
-      model_path: items/gloves/glove_83
-  glove_84:
-    display_name: "&fGăng Tay (#84)"
-    enabled: true
-    resource:
-      material: PAPER
-      generate: false
-      model_id: 19584
-      model_path: items/gloves/glove_84
-  glove_85:
-    display_name: "&fGăng Tay (#85)"
-    enabled: true
-    resource:
-      material: PAPER
-      generate: false
-      model_id: 19585
-      model_path: items/gloves/glove_85
   glove_86:
-    display_name: "&fGăng Tay (#86)"
+    display_name: '&fGăng Tay (#86)'
     enabled: true
     resource:
       material: PAPER
       generate: false
       model_id: 19586
       model_path: items/gloves/glove_86
-  glove_87:
-    display_name: "&fGăng Tay (#87)"
-    enabled: true
-    resource:
-      material: PAPER
-      generate: false
-      model_id: 19587
-      model_path: items/gloves/glove_87
-  glove_88:
-    display_name: "&fGăng Tay (#88)"
-    enabled: true
-    resource:
-      material: PAPER
-      generate: false
-      model_id: 19588
-      model_path: items/gloves/glove_88
   glove_89:
-    display_name: "&fGăng Tay (#89)"
+    display_name: '&fGăng Tay (#89)'
     enabled: true
     resource:
       material: PAPER
       generate: false
       model_id: 19589
       model_path: items/gloves/glove_89
-  glove_90:
-    display_name: "&fGăng Tay (#90)"
-    enabled: true
-    resource:
-      material: PAPER
-      generate: false
-      model_id: 19590
-      model_path: items/gloves/glove_90
   glove_91:
-    display_name: "&fGăng Tay (#91)"
+    display_name: '&fGăng Tay (#91)'
     enabled: true
     resource:
       material: PAPER
       generate: false
       model_id: 19591
       model_path: items/gloves/glove_91
-  glove_92:
-    display_name: "&fGăng Tay (#92)"
-    enabled: true
-    resource:
-      material: PAPER
-      generate: false
-      model_id: 19592
-      model_path: items/gloves/glove_92
-  glove_93:
-    display_name: "&fGăng Tay (#93)"
-    enabled: true
-    resource:
-      material: PAPER
-      generate: false
-      model_id: 19593
-      model_path: items/gloves/glove_93
-  glove_94:
-    display_name: "&fGăng Tay (#94)"
-    enabled: true
-    resource:
-      material: PAPER
-      generate: false
-      model_id: 19594
-      model_path: items/gloves/glove_94
-  glove_95:
-    display_name: "&fGăng Tay (#95)"
-    enabled: true
-    resource:
-      material: PAPER
-      generate: false
-      model_id: 19595
-      model_path: items/gloves/glove_95
   glove_96:
-    display_name: "&fGăng Tay (#96)"
+    display_name: '&fGăng Tay (#96)'
     enabled: true
     resource:
       material: PAPER
       generate: false
       model_id: 19596
       model_path: items/gloves/glove_96
-  glove_97:
-    display_name: "&fGăng Tay (#97)"
-    enabled: true
-    resource:
-      material: PAPER
-      generate: false
-      model_id: 19597
-      model_path: items/gloves/glove_97
   glove_98:
-    display_name: "&fGăng Tay (#98)"
+    display_name: '&fGăng Tay (#98)'
     enabled: true
     resource:
       material: PAPER
       generate: false
       model_id: 19598
       model_path: items/gloves/glove_98
-  glove_99:
-    display_name: "&fGăng Tay (#99)"
-    enabled: true
-    resource:
-      material: PAPER
-      generate: false
-      model_id: 19599
-      model_path: items/gloves/glove_99
   glove_100:
-    display_name: "&fGăng Tay (#100)"
+    display_name: '&fGăng Tay (#100)'
     enabled: true
     resource:
       material: PAPER

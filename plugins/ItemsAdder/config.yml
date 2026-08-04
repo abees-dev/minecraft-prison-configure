@@ -19,7 +19,7 @@ resource-pack:
   apply-on-join: true
   kick-player-on-decline: false
   kick-player-on-fail: false
-  delay-ticks: 10
+  delay-ticks: 50
   notify-other-plugins-interfering: true
   title:
     enabled: true
@@ -28,10 +28,10 @@ resource-pack:
   expert_users:
     allow_other_plugins_resourcepacks: false
   protect-player:
-    black-screen: true
+    black-screen: false
     hide-hud: true
-    cancel-movement: true
-    lock-player: true
+    cancel-movement: false
+    lock-player: false
   command:
     usage-cooldown-seconds: 60
   custom-font:
@@ -44,8 +44,8 @@ resource-pack:
     enabled: false
   zip:
     protect-file-from-unzip:
-      protection_1: true
-      protection_2: true
+      protection_1: false
+      protection_2: false
     compress-png-files: true
     compress-json-files: true
     generate-custom-armors-textures:
