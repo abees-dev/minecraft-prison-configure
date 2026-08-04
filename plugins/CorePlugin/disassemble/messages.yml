@@ -1,0 +1,13 @@
+# Docs:
+#   Purpose: Player-facing messages for the Disassemble ("Phân Rã") module.
+#   Reload: /phanra reload
+#   {value1}/{value2} substituted per message — see DisassembleService.
+
+SUCCESS: "&a&l[✦] PHÂN RÃ THÀNH CÔNG! &7Nhận &e{value1}x {value2}&7."
+NO_ITEM: "&c[!] Hãy đặt Trang Sức cần phân rã vào ô giữa!"
+INVALID_ITEM: "&c[!] Vật phẩm này không hợp lệ hoặc không có dữ liệu MMOItems!"
+NOT_MMOITEM: "&c[!] Vật phẩm này không phải là MMOItem hợp lệ!"
+UNSUPPORTED_TYPE: "&c[!] Loại '{value1}' không phải trang sức có thể phân rã!"
+NO_TIER: "&c[!] Trang sức này không có tier — không thể phân rã!"
+UNKNOWN_TIER: "&c[!] Tier '{value1}' chưa có cấu hình phần thưởng phân rã!"
+REWARD_MISSING: "&c[!] Không tạo được đá thưởng ({value1}:{value2}). Kiểm tra MMOItems material!"

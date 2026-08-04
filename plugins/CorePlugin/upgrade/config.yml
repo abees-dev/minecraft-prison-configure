@@ -43,6 +43,7 @@ armor-item-types:
   - LEGGINGS
   - BOOTS
   - SHIELD
+jewelry-item-types:
   - ACCESSORY
   - RING
   - AMULET
@@ -51,8 +52,9 @@ armor-item-types:
 
 # A stone's MMOITEMS_ITEM_ID must contain the matching marker below for the
 # kind of gear it's used on, unless it's the universal stone.
-weapon-stone-marker: "_VU_KHI_"
-armor-stone-marker: "_GIAP_"
+weapon-stone-marker: _VU_KHI_
+armor-stone-marker: _GIAP_
+jewelry-stone-marker: _TRANG_SUC_
 
 # One universal stone that works on anything, at any level, at a guaranteed rate.
 universal-stone:

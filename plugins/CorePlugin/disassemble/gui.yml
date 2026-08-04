@@ -1,0 +1,11 @@
+# Docs:
+#   Purpose: GUI title/rows/slots for the Disassemble menu.
+#   Reload: /phanra reload
+
+title: "&8[&a✦&8] &a&lPHÂN RÃ TRANG SỨC"
+rows: 6
+slots:
+  input: 22 # player places jewelry here
+  info: 13 # decorative info icon
+  confirm: 40 # click to disassemble
+  close: 49 # close and return unconfirmed jewelry

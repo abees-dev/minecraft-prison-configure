@@ -1,0 +1,43 @@
+# ============================================================================
+# CorePlugin - Disassemble ("Phân Rã") module configuration
+# ============================================================================
+# GUI opened by /phanra (alias: /disassemble). Destroys jewelry and grants
+# DA_CUONG_HOA_TRANG_SUC_* stones by MMOItems tier.
+#
+# Reload: /phanra reload (permission: coreplugin.disassemble.reload)
+# ============================================================================
+
+allowed-types:
+  - RING
+  - AMULET
+  - BRACELET
+  - GLOVES
+  - ACCESSORY
+
+# Map MMOITEMS_TIER → reward MMOItem. Amount is how many stacks of 1 are granted.
+rewards:
+  RARE:
+    type: MATERIAL
+    id: DA_CUONG_HOA_TRANG_SUC_SO_CAP
+    amount: 1
+    display: "&a✦ Đá Cường Hóa Trang Sức &7[Sơ Cấp]"
+  UNIQUE:
+    type: MATERIAL
+    id: DA_CUONG_HOA_TRANG_SUC_TRUNG_CAP
+    amount: 1
+    display: "&e✦ Đá Cường Hóa Trang Sức &7[Trung Cấp]"
+  LEGENDARY:
+    type: MATERIAL
+    id: DA_CUONG_HOA_TRANG_SUC_CAO_CAP
+    amount: 1
+    display: "&6✦ Đá Cường Hóa Trang Sức &7[Cao Cấp]"
+  MYTHICAL:
+    type: MATERIAL
+    id: DA_CUONG_HOA_TRANG_SUC_SIEU_CAP
+    amount: 1
+    display: "&c✦ Đá Cường Hóa Trang Sức &7[Siêu Cấp]"
+  EPIC:
+    type: MATERIAL
+    id: DA_CUONG_HOA_TRANG_SUC_HUYEN_THOAI
+    amount: 1
+    display: "&d&l✦ Đá Cường Hóa Trang Sức &7[Huyền Thoại]"
