@@ -1,6 +1,6 @@
 # Mục lục tài liệu server (docs)
 
-Cập nhật: 2026-08-01 (Bang Hội soft-launch trong `loi-choi.md`).
+Cập nhật: 2026-08-04 (Chunky pregen).
 
 Đọc **lối chơi trước**, rồi mới docs vận hành/kỹ thuật theo từng hệ.
 
@@ -30,6 +30,7 @@ Cập nhật: 2026-08-01 (Bang Hội soft-launch trong `loi-choi.md`).
 | [`xprison-config-notes.md`](xprison-config-notes.md) | Ghi chú chuyển Prison → X-Prison, modules, việc in-game |
 | [`pickaxe-upgrade-notes.md`](pickaxe-upgrade-notes.md) | Bảng số cuốc + tỷ lệ forge (NPC station = chuẩn UX) |
 | [`README.md`](README.md) | Ops MMOItems: lệnh give, NPC trạm tinh luyện/rèn, tỷ lệ nâng cấp |
+| [`chunky-pregen-notes.md`](chunky-pregen-notes.md) | Chunky 1.3.146 — pregen world / prison / dungeon (radius + lệnh ops) |
 
 ---
 
