@@ -24,3 +24,5 @@
 	at java.base/java.lang.Thread.run(Unknown Source)
 
 [08-04 20:30:05]: [FINE] ABeess logged in 127.0.0.1
+[08-04 21:19:31]: [FINE] ABeess logged in 127.0.0.1
+[08-04 21:56:16]: [INFO] AuthMe 5.6.0-bCUSTOM disabled!

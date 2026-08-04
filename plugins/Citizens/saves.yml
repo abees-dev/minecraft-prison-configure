@@ -1,6 +1,6 @@
 # Citizens NPC Storage
 
-last-created-npc-id: 62
+last-created-npc-id: 63
 npc:
   '2':
     name: '&f&l✦ Luyện Tân Binh'
@@ -1335,13 +1335,13 @@ npc:
     uuid: f2432d9d-783d-4c16-83ef-a352855d7c31
     traits:
       location:
-        bodyYaw: 133.41132
+        bodyYaw: -157.61082
         world: world
         x: 2.6785
         y: 80.0
         z: 5.5935
-        yaw: 113.4113
-        pitch: 0.0
+        yaw: -157.6108
+        pitch: -2.1375
       owner:
         uuid: 57481db9-38f7-3a96-b52d-ff0f7993c232
       lookclose:
@@ -1388,13 +1388,13 @@ npc:
     uuid: bb397f5b-20b3-4a2e-b9bb-8f1edcdafe2a
     traits:
       location:
-        bodyYaw: 46.81201
+        bodyYaw: -154.8848
         world: world
         x: 2.7003
         y: 80.0
         z: -6.4621
-        yaw: 46.812
-        pitch: 5.1856
+        yaw: -154.8848
+        pitch: -2.3828
       owner:
         uuid: 57481db9-38f7-3a96-b52d-ff0f7993c232
       lookclose:
@@ -1829,13 +1829,13 @@ npc:
     uuid: 1da74271-7b21-4aa9-8e1a-777f9fa454c5
     traits:
       location:
-        bodyYaw: -139.12512
+        bodyYaw: -147.39346
         world: world
         x: 166.358
         y: 82.0
         z: 23.4733
-        yaw: -139.1251
-        pitch: -2.5241
+        yaw: -147.3935
+        pitch: -5.6244
       owner:
         uuid: 57481db9-38f7-3a96-b52d-ff0f7993c232
       lookclose:
@@ -1882,13 +1882,13 @@ npc:
     uuid: 417248af-6b2f-47f2-b59c-8ff088106c69
     traits:
       location:
-        bodyYaw: -140.52994
+        bodyYaw: -148.31369
         world: world
         x: 166.4072
         y: 82.0
         z: 18.5604
-        yaw: -140.5299
-        pitch: -5.9365
+        yaw: -148.3137
+        pitch: -2.3459
       owner:
         uuid: 57481db9-38f7-3a96-b52d-ff0f7993c232
       lookclose:
@@ -1988,13 +1988,13 @@ npc:
     uuid: 7db5a792-d7a7-4424-b64c-8fa1befe86e7
     traits:
       location:
-        bodyYaw: 124.74931
+        bodyYaw: 118.18634
         world: world
         x: 180.6025
         y: 82.0
         z: 18.5669
-        yaw: 144.7493
-        pitch: -6.2731
+        yaw: 138.1863
+        pitch: -6.1248
       owner:
         uuid: 57481db9-38f7-3a96-b52d-ff0f7993c232
       lookclose:
@@ -2585,6 +2585,65 @@ npc:
               top: 0.0
               bottom: 0.0
     traitnames: spawned,scoreboardtrait,owner,skintrait,commandtrait,location,type,hologramtrait,inventory
+    navigator:
+      speedmodifier: 1.0
+      avoidwater: false
+      usedefaultstuckaction: false
+  '63':
+    metadata:
+      cached-skin-uuid: a39ef57a-387c-4cd1-9740-59b732ebc7a5
+      cached-skin-uuid-name: merchant
+      nameplate-visible: 'false'
+    name: '&b&l✦ Sứ Giả Thiên Giới'
+    uuid: 8fdd2520-fde1-42e6-a667-f3ac84648482
+    traits:
+      lookclose:
+        range: 10.0
+        enabled: true
+        randomPitchRange:
+          '0': 0.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+      spawned: true
+      owner:
+        uuid: 57481db9-38f7-3a96-b52d-ff0f7993c232
+      skintrait:
+        signature: YotNWOUMxYvJp/oTcYYfBqL1yz3/cx2+pzjocxSFMAUgFrb99FHeu6uc3tA6F51eKO7kr4EFY3ADNdqjPGJYtnKePciHsVnIfFrYzMH/La/QFABtzlh3/6RxGvrrp9XCr7SAOeiHbG9NQI2iLV4Lam990gnGnBjYFyVBzBnw8kd0RLyodT/1WBCfReaZ7xescMCQ82NWnsXorpc020AoRzdBFIXEunR7NqN3pYUR2DfeTWg0hSMiuM0harQqllEXOgXTJ7x3/vEX4NqxT5uU9aQIwUgKQioW5YSu8foc3LzOrQW5wQytE+2n4cycHJPKfubWSWtGosdMXr0qfBu17QAgXCG+yfx3wSZEzaVu0fGQiTthTJgdXy+s1dKB9071KzL1o/n4dI+xOpq79u1eAeA4HOK2/Gez4VeHYzjyTnqq3RsnvIyKajZ5V+JKuvcFSf2DWAHQuMefRT07UMb4oZ24fmiQpQEKJFZAI9lL7Gv+R7Ag8eafHPLjNN6kl3npbaOzyyP23GOrsnfeRBVCO1BX7c6ApxOz9nGtSK+4DWaP+DBDp2r0SvvbALbGi0F0caU2pzCqu7LBQ2dWBQsQiEnfd+SldFS0tJE4HVNTUYxXeMo0der/RJJ0ivKwhHzFsKME5bueuhnkgmERGLJHLV1hZ2XPcMj74XZuzAbJN6c=
+        skinName: Merchant
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTc4NTg1NDUyNTM2MCwKICAicHJvZmlsZUlkIiA6ICJhMzllZjU3YTM4N2M0Y2QxOTc0MDU5YjczMmViYzdhNSIsCiAgInByb2ZpbGVOYW1lIiA6ICJNZXJjaGFudCIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS84NjRkNDMxNjUxZDhjZTdkYTJkOGY4OGRkODIyZDk1NTdkN2JjZjliMGI1ZDBhOGVkMTNiOTg5ODgxZmFkYmVmIgogICAgfQogIH0KfQ==
+      commandtrait:
+        commands:
+          '0':
+            command: doithiengioi
+            hand: RIGHT
+            player: true
+            npc: false
+            op: false
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+            cost: -1.0
+            experienceCost: -1
+      location:
+        bodyYaw: -35.44683
+        world: world
+        x: 39.6036
+        y: 84.0
+        z: -102.4379
+        yaw: -35.4468
+        pitch: -4.9113
+      type: PLAYER
+      hologramtrait:
+        lines:
+          '0':
+            text: '&b&l✦ Sứ Giả Thiên Giới'
+            margin:
+              top: 0.0
+              bottom: 0.0
+    traitnames: lookclose,spawned,scoreboardtrait,owner,skintrait,commandtrait,location,type,hologramtrait,inventory,rotationtrait
     navigator:
       speedmodifier: 1.0
       avoidwater: false

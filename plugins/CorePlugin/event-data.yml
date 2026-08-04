@@ -1,3 +1,11 @@
+active:
+  bloodmoon: false
+spawn:
+  bloodmoon:
+    world: world
+    x: -5
+    y: 79
+    z: 2
 leveling:
   bloodmoon:
     level: 1

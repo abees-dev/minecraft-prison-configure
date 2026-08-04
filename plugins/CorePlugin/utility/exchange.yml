@@ -28,32 +28,183 @@ exchanges:
     enabled: true
     command: doikey
     aliases: []
-    permission: ""
-    prefix: "&6&l[Đổi]&r"
+    permission: ''
+    prefix: '&6&l[Đổi]&r'
     gui:
-      title: "&8[&6✦&8] &6&lĐỔI CHÌA KHÓA"
+      title: '&8[&6✦&8] &6&lĐỔI CHÌA KHÓA'
       rows: 3
       accent: YELLOW_STAINED_GLASS_PANE
     offers:
-      - slot: 13
-        display:
-          material: itemsadder
-          ia-id: elitecreatures:elite_crates_ice_key
-          name: "&6&l⚔ Chìa Khóa Long Tộc"
-          lore:
-            - "&7Click để đổi lấy &6Chìa Khóa Long Tộc"
-          glowing: true
-        cost:
-          type: mmoitem
-          id: AN_TIN_LONG_TOC
-          amount: 1
-        reward:
-          type: crate-key
-          key: chia_khoa_long_toc
-          amount: 1
-        success: "{prefix} &aĐã đổi &e1x Ấn Tín Long Tộc &alấy &61x Chìa Khóa Long Tộc&a!"
-        missing: "{prefix} &cBạn cần có &e1x Ấn Tín Long Tộc &ctrong túi để đổi!"
-        sound: entity.player.levelup
+    - slot: 13
+      display:
+        material: itemsadder
+        ia-id: elitecreatures:elite_crates_ice_key
+        name: '&6&l⚔ Chìa Khóa Long Tộc'
+        lore:
+        - '&7Click để đổi lấy &6Chìa Khóa Long Tộc'
+        glowing: true
+      cost:
+        type: mmoitem
+        id: AN_TIN_LONG_TOC
+        amount: 1
+      reward:
+        type: crate-key
+        key: chia_khoa_long_toc
+        amount: 1
+      success: '{prefix} &aĐã đổi &e1x Ấn Tín Long Tộc &alấy &61x Chìa Khóa Long Tộc&a!'
+      missing: '{prefix} &cBạn cần có &e1x Ấn Tín Long Tộc &ctrong túi để đổi!'
+      sound: entity.player.levelup
+  
+  # Pity Hòm Thiên Giới: 1x MANH_THIEN_GIOI → 1 món Hộ Long (armor/sword)
+  # NPC: /npc command add -p doithiengioi
+  doithiengioi:
+    enabled: true
+    command: doithiengioi
+    aliases:
+    - doimanhthien
+    - doithien
+    permission: ''
+    prefix: '&b&l[Thiên Giới]&r'
+    gui:
+      title: '&8[&b✦&8] &b&lĐỔI MẢNH THIÊN GIỚI'
+      rows: 3
+      accent: LIGHT_BLUE_STAINED_GLASS_PANE
+    offers:
+    - slot: 11
+      display:
+        type: mmoitem
+        mmo-type: SWORD
+        mmo-id: DONATE_SWORD_LONG_VE
+        material: IRON_SWORD
+        lore:
+        - '&7Click: đổi &b1x Mảnh Thiên Giới'
+        - '&7→ &aHộ Long Bảo Kiếm'
+        glowing: true
+      cost:
+        type: mmoitem
+        id: MANH_THIEN_GIOI
+        amount: 1
+      reward:
+        type: command
+        commands:
+        - mmoitems give SWORD DONATE_SWORD_LONG_VE %player% 1
+      success: '{prefix} &aĐã đổi &b1x Mảnh Thiên Giới &alấy &aHộ Long Bảo Kiếm&a!'
+      missing: '{prefix} &cCần &b1x Mảnh Thiên Giới &ctrong túi (pity 10 lần Hòm Thiên
+        Giới)!'
+      sound: entity.player.levelup
+    - slot: 12
+      display:
+        type: mmoitem
+        mmo-type: ARMOR
+        mmo-id: DONATE_HELMET_LONG_VE
+        material: LEATHER_HELMET
+        lore:
+        - '&7Click: đổi &b1x Mảnh Thiên Giới'
+        - '&7→ &aHộ Long Mũ'
+        glowing: true
+      cost:
+        type: mmoitem
+        id: MANH_THIEN_GIOI
+        amount: 1
+      reward:
+        type: command
+        commands:
+        - mmoitems give ARMOR DONATE_HELMET_LONG_VE %player% 1
+      success: '{prefix} &aĐã đổi &b1x Mảnh Thiên Giới &alấy &aHộ Long Mũ&a!'
+      missing: '{prefix} &cCần &b1x Mảnh Thiên Giới &ctrong túi!'
+      sound: entity.player.levelup
+    - slot: 13
+      display:
+        type: mmoitem
+        mmo-type: ARMOR
+        mmo-id: DONATE_CHESTPLATE_LONG_VE
+        material: LEATHER_CHESTPLATE
+        lore:
+        - '&7Click: đổi &b1x Mảnh Thiên Giới'
+        - '&7→ &aHộ Long Chiến Giáp'
+        glowing: true
+      cost:
+        type: mmoitem
+        id: MANH_THIEN_GIOI
+        amount: 1
+      reward:
+        type: command
+        commands:
+        - mmoitems give ARMOR DONATE_CHESTPLATE_LONG_VE %player% 1
+      success: '{prefix} &aĐã đổi &b1x Mảnh Thiên Giới &alấy &aHộ Long Chiến Giáp&a!'
+      missing: '{prefix} &cCần &b1x Mảnh Thiên Giới &ctrong túi!'
+      sound: entity.player.levelup
+    - slot: 14
+      display:
+        type: mmoitem
+        mmo-type: ARMOR
+        mmo-id: DONATE_LEGGINGS_LONG_VE
+        material: LEATHER_LEGGINGS
+        lore:
+        - '&7Click: đổi &b1x Mảnh Thiên Giới'
+        - '&7→ &aHộ Long Hộ Tất'
+        glowing: true
+      cost:
+        type: mmoitem
+        id: MANH_THIEN_GIOI
+        amount: 1
+      reward:
+        type: command
+        commands:
+        - mmoitems give ARMOR DONATE_LEGGINGS_LONG_VE %player% 1
+      success: '{prefix} &aĐã đổi &b1x Mảnh Thiên Giới &alấy &aHộ Long Hộ Tất&a!'
+      missing: '{prefix} &cCần &b1x Mảnh Thiên Giới &ctrong túi!'
+      sound: entity.player.levelup
+    - slot: 15
+      display:
+        type: mmoitem
+        mmo-type: ARMOR
+        mmo-id: DONATE_BOOTS_LONG_VE
+        material: LEATHER_BOOTS
+        lore:
+        - '&7Click: đổi &b1x Mảnh Thiên Giới'
+        - '&7→ &aHộ Long Hài'
+        glowing: true
+      cost:
+        type: mmoitem
+        id: MANH_THIEN_GIOI
+        amount: 1
+      reward:
+        type: command
+        commands:
+        - mmoitems give ARMOR DONATE_BOOTS_LONG_VE %player% 1
+      success: '{prefix} &aĐã đổi &b1x Mảnh Thiên Giới &alấy &aHộ Long Hài&a!'
+      missing: '{prefix} &cCần &b1x Mảnh Thiên Giới &ctrong túi!'
+      sound: entity.player.levelup
+  doilongtoc:
+    enabled: true
+    command: doilongtoc
+    aliases: []
+    permission: ''
+    prefix: '&6&l[Long Tộc]&r'
+    gui:
+      title: '&8[&6✦&8] &6&lĐỔI CHÌA KHÓA LONG TỘC'
+      rows: 3
+      accent: YELLOW_STAINED_GLASS_PANE
+    offers:
+    - slot: 13
+      display:
+        material: HEART_OF_THE_SEA
+        name: '&6&l⚔ Ấn Tín Long Tộc'
+        lore:
+        - '&7Click để đổi lấy &6Chìa Khóa Long Tộc'
+        glowing: true
+      cost:
+        type: mmoitem
+        id: AN_TIN_LONG_TOC
+        amount: 1
+      reward:
+        type: crate-key
+        key: chia_khoa_long_toc
+        amount: 1
+      success: '{prefix} &aĐã đổi &e1x Ấn Tín Long Tộc &alấy &61x Chìa Khóa Long Tộc&a!'
+      missing: '{prefix} &cBạn cần có &e1x Ấn Tín Long Tộc &ctrong túi để đổi!'
+      sound: entity.player.levelup
 
 # Example multi-offer shop (disabled). Copy / rename to enable.
 # shop_example:

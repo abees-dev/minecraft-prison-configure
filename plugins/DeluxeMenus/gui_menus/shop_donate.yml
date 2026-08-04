@@ -54,7 +54,7 @@ items:
       - '&7+ Mảnh triệu hồi / Long Tộc / Đá CS'
       - ''
       - '&7Mỗi &f10 lần quay&7 → &b1 Mảnh Thiên Giới'
-      - '&7Đổi mảnh tại NPC &eSứ Giả Thiên Giới'
+      - '&7Đổi mảnh: &e/doithiengioi &7hoặc NPC &eSứ Giả Thiên Giới'
       - '&7→ chọn 1 món &aHộ Long&7 (kiếm/giáp).'
       - ''
       - '&7Số dư Point: &b%playerpoints_points%'

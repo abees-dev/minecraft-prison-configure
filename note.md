@@ -42,6 +42,7 @@ mmoitems give RING TRADE_RING_HAC_LONG_1 ABeess
 mmoitems give RING TRADE_RING_HAC_LONG_2 ABeess
 mmoitems give BRACELET TRADE_BRACELET_HAC_LONG ABeess
 mmoitems give GLOVES TRADE_GLOVES_HAC_LONG ABeess
+
 mmoitems give AMULET DONATE_AMULET_LONG_THAN ABeess
 mmoitems give RING DONATE_RING_LONG_THAN_1 ABeess
 mmoitems give RING DONATE_RING_LONG_THAN_2 ABeess
@@ -57,6 +58,7 @@ mmoitems give RING DONATE_RING_LONG_VE_1 ABeess
 mmoitems give RING DONATE_RING_LONG_VE_2 ABeess
 mmoitems give BRACELET DONATE_BRACELET_LONG_VE ABeess
 mmoitems give GLOVES DONATE_GLOVES_LONG_VE ABeess
+
 mmoitems give AMULET TRADE_AMULET_LOI_LONG ABeess
 mmoitems give RING TRADE_RING_LOI_LONG_1 ABeess
 mmoitems give RING TRADE_RING_LOI_LONG_2 ABeess
@@ -77,3 +79,74 @@ mmoitems give RING DONATE_RING_LONG_DE_1 ABeess
 mmoitems give RING DONATE_RING_LONG_DE_2 ABeess
 mmoitems give BRACELET DONATE_BRACELET_LONG_DE ABeess
 mmoitems give GLOVES DONATE_GLOVES_LONG_DE ABeess
+
+## Thien Gioi
+
+mmoitems give ARMOR TRADE_HELMET_HOA_LONG ABeess
+mmoitems give ARMOR TRADE_CHESTPLATE_HOA_LONG ABeess
+mmoitems give ARMOR TRADE_LEGGINGS_HOA_LONG ABeess
+mmoitems give ARMOR TRADE_BOOTS_HOA_LONG ABeess
+mmoitems give SWORD TRADE_SWORD_HOA_LONG ABeess
+mmoitems give ARMOR TRADE_HELMET_BANG_LONG ABeess
+mmoitems give ARMOR TRADE_CHESTPLATE_BANG_LONG ABeess
+mmoitems give ARMOR TRADE_LEGGINGS_BANG_LONG ABeess
+mmoitems give ARMOR TRADE_BOOTS_BANG_LONG ABeess
+mmoitems give SWORD TRADE_SWORD_BANG_LONG ABeess
+mmoitems give ARMOR TRADE_HELMET_HAC_LONG ABeess
+mmoitems give ARMOR TRADE_CHESTPLATE_HAC_LONG ABeess
+mmoitems give ARMOR TRADE_LEGGINGS_HAC_LONG ABeess
+mmoitems give ARMOR TRADE_BOOTS_HAC_LONG ABeess
+mmoitems give SWORD TRADE_SWORD_HAC_LONG ABeess
+
+mmoitems give ARMOR HELMET_QUAN_NGUC_1 ABeess
+mmoitems give ARMOR CHESTPLATE_QUAN_NGUC_1 ABeess
+mmoitems give ARMOR LEGGINGS_QUAN_NGUC_1 ABeess
+mmoitems give ARMOR BOOTS_QUAN_NGUC_1 ABeess
+mmoitems give SWORD SWORD_QUAN_NGUC_1 ABeess
+mmoitems give AXE AXE_QUAN_NGUC_1 ABeess
+mmoitems give STAFF STAFF_QUAN_NGUC_1 ABeess
+mmoitems give ARMOR HELMET_BA_CHU_NGUC_TU_1 ABeess
+mmoitems give ARMOR CHESTPLATE_BA_CHU_NGUC_TU_1 ABeess
+mmoitems give ARMOR LEGGINGS_BA_CHU_NGUC_TU_1 ABeess
+mmoitems give ARMOR BOOTS_BA_CHU_NGUC_TU_1 ABeess
+mmoitems give SWORD SWORD_BA_CHU_NGUC_TU_1 ABeess
+mmoitems give AXE AXE_BA_CHU_NGUC_TU_1 ABeess
+mmoitems give STAFF STAFF_BA_CHU_NGUC_TU_1 ABeess
+mmoitems give ARMOR HELMET_VUOT_NGUC_1 ABeess
+mmoitems give ARMOR CHESTPLATE_VUOT_NGUC_1 ABeess
+mmoitems give ARMOR LEGGINGS_VUOT_NGUC_1 ABeess
+mmoitems give ARMOR BOOTS_VUOT_NGUC_1 ABeess
+mmoitems give SWORD SWORD_VUOT_NGUC_1 ABeess
+mmoitems give AXE AXE_VUOT_NGUC_1 ABeess
+mmoitems give STAFF STAFF_VUOT_NGUC_1 ABeess
+mmoitems give SWORD DONATE_SWORD_LONG_VE ABeess
+mmoitems give ARMOR DONATE_HELMET_LONG_VE ABeess
+mmoitems give ARMOR DONATE_CHESTPLATE_LONG_VE ABeess
+mmoitems give ARMOR DONATE_LEGGINGS_LONG_VE ABeess
+mmoitems give ARMOR DONATE_BOOTS_LONG_VE ABeess
+mmoitems give SWORD DONATE_SWORD_LONG_CHIEN ABeess
+mmoitems give ARMOR DONATE_HELMET_LONG_CHIEN ABeess
+mmoitems give ARMOR DONATE_CHESTPLATE_LONG_CHIEN ABeess
+mmoitems give ARMOR DONATE_LEGGINGS_LONG_CHIEN ABeess
+mmoitems give ARMOR DONATE_BOOTS_LONG_CHIEN ABeess
+
+mmoitems give MATERIAL DA_CUONG_HOA_VU_KHI_SO_CAP ABeess 1
+mmoitems give MATERIAL DA_CUONG_HOA_GIAP_SO_CAP ABeess 1
+mmoitems give MATERIAL DA_CUONG_HOA_VU_KHI_TRUNG_CAP ABeess 1
+mmoitems give MATERIAL DA_CUONG_HOA_GIAP_TRUNG_CAP ABeess 1
+mmoitems give MATERIAL DA_CUONG_HOA_VU_KHI_CAO_CAP ABeess 1
+mmoitems give MATERIAL DA_CUONG_HOA_GIAP_CAO_CAP ABeess 1
+mmoitems give MATERIAL DA_CUONG_HOA_VU_KHI_SIEU_CAP ABeess 1
+mmoitems give MATERIAL DA_CUONG_HOA_GIAP_SIEU_CAP ABeess 1
+mmoitems give MATERIAL DA_CUONG_HOA_VU_KHI_HUYEN_THOAI ABeess 1
+mmoitems give MATERIAL DA_CUONG_HOA_GIAP_HUYEN_THOAI ABeess 1
+mmoitems give MATERIAL DA_DUC_LO_1 ABeess 1
+mmoitems give MATERIAL DA_DUC_LO_2 ABeess 1
+mmoitems give MATERIAL DA_DUC_LO_3 ABeess 1
+mmoitems give MATERIAL DA_DUC_LO_4 ABeess 1
+mmoitems give MATERIAL DA_DUC_LO_5 ABeess 1
+mmoitems give MATERIAL DA_DUC_LO_6 ABeess 1
+mmoitems give MATERIAL DA_DUC_LO_7 ABeess 1
+mmoitems give MATERIAL MANH_HUY_HIEU_TRIEU_HOI ABeess 1
+mmoitems give MATERIAL MANH_LONG_TOC ABeess 1
+mmoitems give MATERIAL DA_CHUYEN_SINH ABeess 1

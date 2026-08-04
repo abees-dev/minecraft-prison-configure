@@ -10,7 +10,7 @@ Cập nhật: 2026-07-30 (refactor weight). Give nhanh: [`give-thien-gioi.md`](g
 | Shop | `/shopdonate` · `/thiengioi` · `/shopthien` |
 | Giá | **21 Point** / chìa · gói **Mua 1 Tặng 1** = 21P → **2 chìa** |
 | Pool | Giáp + vũ khí only + NL (CH / đục / chìa ngọc / mảnh boss / Đá CS) |
-| Pity | Mỗi **10** quay → `MANH_THIEN_GIOI` → NPC đổi 1 món **Hộ Long** |
+| Pity | Mỗi **10** quay → `MANH_THIEN_GIOI` → `/doithiengioi` (NPC) đổi 1 món **Hộ Long** |
 
 ## Weight (total **615**, số nguyên)
 
@@ -30,19 +30,31 @@ Cập nhật: 2026-07-30 (refactor weight). Give nhanh: [`give-thien-gioi.md`](g
 
 **Không** trang sức · **không** Thần/Đế/Hoàng. Trade 3 bộ mặc định Hỏa/Băng/Hắc.
 
+## Đổi mảnh (player)
+
+| | |
+| --- | --- |
+| Lệnh | `/doithiengioi` · alias `/doimanhthien` · `/doithien` |
+| Cost | `1x MANH_THIEN_GIOI` |
+| Pool | 1 trong 5 món **Hộ Long**: kiếm / mũ / giáp / quần / giày |
+
 ## Setup admin
 
 ```
 excellentcrates reload
 mi reload
 dm reload
+# command mới trong exchange.yml cần restart server (hoặc reload CorePlugin utility nếu hỗ trợ)
 
 npc create &b&l✦ Sứ Giả Thiên Giới --type PLAYER
 npc skin Merchant
-npc cmd add mi stations open doi-thien-gioi <p>
+npc command add -p doithiengioi
+npc lookclose
+npc hidename
+npc hologram add &b&l✦ Sứ Giả Thiên Giới
 ```
 
-Đặt khối hòm (Positions đang `0,64,0,world`) rồi chỉnh editor ExcellentCrates.
+Đặt khối hòm rồi chỉnh editor ExcellentCrates. Station MMOItems `doi-thien-gioi` vẫn giữ dự phòng.
 
 ## File
 
@@ -52,7 +64,8 @@ npc cmd add mi stations open doi-thien-gioi <p>
 | `ExcellentCrates/keys/chia_khoa_thien_gioi.yml` | Key |
 | `DeluxeMenus/gui_menus/shop_donate.yml` | Shop Point |
 | `MMOItems/item/material.yml` → `MANH_THIEN_GIOI` | NL pity |
-| `MMOItems/crafting-stations/doi-thien-gioi.yml` | Đổi → Hộ Long (kiếm/giáp) |
+| `CorePlugin/utility/exchange.yml` → `doithiengioi` | GUI đổi mảnh → Hộ Long |
+| `MMOItems/crafting-stations/doi-thien-gioi.yml` | Station dự phòng (cùng pool) |
 
 ## Còn lại
 
