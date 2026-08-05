@@ -1,6 +1,6 @@
 # Mục lục tài liệu server (docs)
 
-Cập nhật: 2026-08-04 (Chunky pregen).
+Cập nhật: 2026-08-05 (world_pvp safezone notes).
 
 Đọc **lối chơi trước**, rồi mới docs vận hành/kỹ thuật theo từng hệ.
 
@@ -38,6 +38,7 @@ Cập nhật: 2026-08-04 (Chunky pregen).
 
 | File | Vai trò |
 | --- | --- |
+| [`world-pvp-safezone-notes.md`](world-pvp-safezone-notes.md) | world_pvp spawn_safe (±9) — title WG; **TODO CorePlugin cooldown** |
 | [`SPAWNER_LIST.md`](SPAWNER_LIST.md) | Danh sách spawner theo rank + trạng thái tọa độ |
 | [`SPAWNER_POSITION_GUIDE.md`](SPAWNER_POSITION_GUIDE.md) | Cách set vị trí spawner |
 | [`HUONG_DAN_DROPS_VA_EXP_NHATU.md`](HUONG_DAN_DROPS_VA_EXP_NHATU.md) | Drop & EXP nhà tù |

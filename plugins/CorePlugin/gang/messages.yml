@@ -251,7 +251,7 @@ war-spawn-set: '&a✦ &fĐã lưu spawn Bang Chiến.'
 war-exit-set: '&a✦ &fĐã lưu điểm thoát Bang Chiến.'
 war-countdown: '&c&l⚔ BANG CHIẾN &8» &fBắt đầu sau &e{seconds}s&f! &7(/gang war join
   hoặc /bangchien)'
-war-started: '&c&l⚔ BANG CHIẾN &8» &aBắt đầu! &fChiếm &e3 Cổng Xuất &fhoặc tiêu diệt
+war-started: '&c&l⚔ BANG CHIẾN &8» &aBắt đầu! &fChiếm &e4 Cổng Xuất &fhoặc tiêu diệt
   địch. Mục tiêu: &e{win} điểm&f.'
 war-stopped: '&c&l⚔ BANG CHIẾN &8» &fTrận đấu đã kết thúc.'
 war-joined: '&a✦ &fBạn đã vào Bang Chiến! Mạng: &e{lives}&f. Chiếm cổng để ghi điểm.'

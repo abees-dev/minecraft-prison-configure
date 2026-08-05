@@ -582,6 +582,9 @@ war:
   - id: gate_c
     region: war_gate_c
     display: '&eCổng Nam'
+  - id: gate_d
+    region: war_gate_d
+    display: '&eCổng Bắc'
   rewards:
     bank: 2000000
     reputation: 500
