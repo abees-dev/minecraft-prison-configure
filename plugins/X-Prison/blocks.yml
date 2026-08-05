@@ -9,10 +9,8 @@ messages:
   admin_give_blocks: <green>✔ <white>Đã cộng <yellow>%blocks%</yellow> Blocks cho <yellow>%player%</yellow>.
   admin_remove_blocks: <green>✔ <white>Đã trừ <yellow>%blocks%</yellow> Blocks của <yellow>%player%</yellow>.
   lucky_block_mined: <gold>✦ <white>Bạn đã đào trúng <yellow><bold>LUCKY BLOCK</bold></yellow> và nhận <yellow>%amount%</yellow> Tokens!
-# LuckyBlocks settings for rewards
-lucky-blocks:
-  SPONGE:
-  - tokens give %player% 1000
+# LuckyBlocks settings for rewards — empty (no token drops on mine).
+lucky-blocks: {}
 # This value determines when will the next weekly top reset be. Updated automatically with /resetblockstopweekly command
 next-reset-weekly: 1785945087518
 # Interval in minutes for saving player data into database
