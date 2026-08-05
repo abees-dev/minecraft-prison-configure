@@ -154,7 +154,7 @@ EXCLUDE_PATTERNS=(
   'plugins/SkinsRestorer/cache/**'
   'plugins/SkinsRestorer/skins/**'
   'plugins/WorldGuard/cache/**'
-  'plugins/X-Prison/mines/*.json'
+  # 'plugins/X-Prison/mines/*.json'
   'plugins/FastAsyncWorldEdit/clipboard/**'
   'plugins/FastAsyncWorldEdit/history/**'
   'plugins/RoseGarden/tmp/**'
