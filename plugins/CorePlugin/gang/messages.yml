@@ -291,3 +291,11 @@ war-buy-lives-wrong-match: '&c✦ &fTrận này đã kết thúc — giao dịch
   lẫn trận khác).'
 war-buy-lives-not-running: '&c✦ &fChỉ mua mạng khi Bang Chiến đang chạy.'
 war-gui-info-lore-idle: '&7Không có trận đang chạy.'
+war-start-missing: '&c✦ &fChưa đặt điểm bắt đầu chiến đấu. Admin: &e/gang war setstart'
+war-start-set: '&a✦ &fĐã lưu điểm bắt đầu chiến đấu Bang Chiến.'
+war-soldier-kill: '&a+{points} điểm Bang Chiến &7(hạ lính)'
+war-gate-captured: '&c✦ &fBang &e{gang} &fđang chiếm &6{gate}&f! &7(+{points}/s)'
+war-gate-contested: '&e✦ &f&6{gate} &fđang bị tranh chấp!'
+war-gate-empty: '&7✦ &f&6{gate} &7đã trống.'
+war-warp-pvp-blocked: '&c✦ &fKhông thể warp PVP khi Bang Chiến đang diễn ra. &7(/gang
+  war join)'

@@ -13,6 +13,7 @@
 TONG_QUAN_NGUC_LINH:
   Type: WITHER_SKELETON
   Display: "&8&lLính Canh &7[Bang Chiến]"
+  Disguise: tongquannguc_linh
   Health: 280
   Damage: 48
   Equipment:
@@ -43,13 +44,14 @@ TONG_QUAN_NGUC:
   - NETHERITE_CHESTPLATE CHEST
   - NETHERITE_LEGGINGS LEGS
   - NETHERITE_BOOTS FEET
-  # Disguise: tongquannguc
+  Disguise: tongquannguc
   Options:
     PreventOtherDrops: true
     FollowRange: 48
     MovementSpeed: 0.28
     Scale: 1.85
     AlwaysShowName: true
+    Glowing: true
     Despawn: false
     PreventSunburn: true
     Silent: false

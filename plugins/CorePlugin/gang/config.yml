@@ -615,3 +615,20 @@ war:
       - "&8▬▬▬▬▬▬▬▬▬▬▬"
       - "&cKhông bang nào ghi điểm"
       - "&8» &7Hạ đối thủ để chiếm"
+  mobs:
+    gate-selection: RANDOM_HELD
+    spawn-offset-y: 1.0
+    soldiers:
+      enabled: true
+      mob-id: TONG_QUAN_NGUC_LINH
+      interval-seconds: 30
+      amount-per-wave: 4
+      kill-points: 3
+      max-alive: 24
+    boss:
+      enabled: true
+      mob-id: TONG_QUAN_NGUC
+      interval-seconds: 300
+      spawn-at-match-start: true
+      max-alive: 1
+      kill-points: 100
