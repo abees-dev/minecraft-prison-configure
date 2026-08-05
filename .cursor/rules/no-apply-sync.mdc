@@ -1,0 +1,12 @@
+---
+description: Agent không được tự chạy sync --apply lên server (chỉ dry-run)
+alwaysApply: true
+---
+
+# Không tự deploy lên server production
+
+- **KHÔNG** tự chạy `scripts/sync-to-server.sh` với `--apply` (push config thật lên server).
+- **KHÔNG** tự chạy bất kỳ lệnh nào ghi/xóa dữ liệu trực tiếp lên server: `rclone copy/sync/delete`, `sftp put`, `rsync`, `scp`, `--delete`, v.v.
+- Agent chỉ được chạy **dry-run** (không có `--apply`) để preview thay đổi.
+- Muốn deploy thật, **user tự chạy** `--apply`. Agent chỉ đưa lệnh gợi ý để user copy chạy.
+- Nếu user yêu cầu deploy, **báo lại lệnh** để user tự thực thi — không tự chạy thay.

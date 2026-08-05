@@ -1,5 +1,9 @@
 # Minecraft Server Git Ignore
 
+# Local secrets / deploy credentials
+.env
+.env.*
+
 # Minecraft/Paper server executables and libraries
 /*.jar
 /cache/
