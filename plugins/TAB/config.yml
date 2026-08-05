@@ -4,18 +4,18 @@ header-footer:
     default:
       display-condition: "%world%!=disabledworld"
       header:
-        - <#FFD700><strikethrough>                                                </strikethrough></#FFD700>
-        - <#FFD700><bold>✦ %animation:Welcome% ✦</bold></#FFA500>
-        - <#DDDDDD>Xin chào, <#FFD966><bold>%player%</bold> <#DDDDDD>!
-        - "<#DDDDDD>Đang online: <#8AFF8A>%online% <#AAAAAA>| <#DDDDDD>Staff: <#4DD0E1>%staffonline%"
+        - <gradient:#FFD54F:#FF8A3D><strikethrough>                                                    </strikethrough></gradient>
+        - <gradient:#FFD54F:#FF8A3D><bold>⛏ AETHER MINE ⛏</bold></gradient>
+        - <#FFF3D6>PRISON <#FFD54F>✦ <#B9F6CA>RPG <#FFD54F>✦ <#FFB3CD>BANG HỘI
+        - "<#FFFFFF>Chào mừng <#FFD54F><bold>%player%</bold> <#FFFFFF>đến với máy chủ!"
+        - "<#BDE8FF>◉ Online <#FFFFFF>%online% <#FFD54F>│ <#FFB3CD>★ Staff <#FFFFFF>%staffonline% <#FFD54F>│ <#B9F6CA>⌁ TPS <#FFFFFF>%tps%"
         - " "
       footer:
         - " "
-        - <#DDDDDD>%animation:time%
-        - "<#DDDDDD>Ping: <#FFFFFF>%ping%ms <#AAAAAA>| <#DDDDDD>TPS: <#8AFF8A>%tps%"
-        - " "
-        - <#DDDDDD>%animation:web%
-        - <#FFD700><strikethrough>                                                </strikethrough></#FFD700>
+        - "<#BDE8FF>⌁ Ping <#FFFFFF>%ping%ms <#FFD54F>│ <#FFF3D6>%date% <#FFD54F>• <#FFFFFF>%time%"
+        - "<#FFFFFF>IP máy chủ: <#FFD54F><bold>%animation:web%</bold>"
+        - <#FFF3D6>Tham gia cộng đồng và chinh phục mọi khu mỏ!
+        - <gradient:#FF8A3D:#FFD54F><strikethrough>                                                    </strikethrough></gradient>
 tablist-name-formatting:
   enabled: true
   disable-condition: "%world%=disabledworld"
@@ -32,15 +32,15 @@ scoreboard-teams:
 playerlist-objective:
   enabled: true
   value: "%ping%"
-  fancy-value: "<#AAAAAA>Ping: <#FFFFFF>%ping%ms"
+  fancy-value: "<#BDE8FF>⌁ <#FFFFFF>%ping%ms"
   disable-condition: "%world%=disabledworld"
-  title: TAB
+  title: Ping
   render-type: INTEGER
 belowname-objective:
   enabled: true
   value: "%mmocore_level%"
-  title: "&aLevel"
-  fancy-value: "&aLv. %mmocore_level%"
+  title: "&eCấp độ"
+  fancy-value: "&eLv. &f%mmocore_level%"
   fancy-value-default: NPC
   disable-condition: "%world%=disabledworld"
 prevent-spectator-effect:
@@ -64,42 +64,42 @@ scoreboard:
   delay-on-join-milliseconds: 0
   scoreboards:
     scoreboard-1.20.3+:
-      title: <#FFD700><bold>✦ AetherMine ✦</bold></#FFB347>
+      title: <gradient:#FFD54F:#FF8A3D><bold>⛏ AETHER MINE ⛏</bold></gradient>
       display-condition: '%player-version-id%>=765;%bedrock%=false'
       lines:
-      - <#FFD54F><strikethrough>                   </strikethrough>
-      - '  <#FFE08A><bold>%player%</bold> %luckperms-suffix%'
-      - <#FFD54F><strikethrough>                   </strikethrough>
-      - ' <#FFB347>● <#FFFFFF><bold>Rank</bold>  <#FFD54F>» %group%'
-      - ' <#7DCEA0>● <#FFFFFF><bold>Level</bold> <#FFD54F>» <#FFFFFF>%mmocore_level% <#E0E0E0>· <#FFFFFF>%mmocore_class%'
-      - ' <#7DCEA0>● <#FFFFFF><bold>EXP</bold>   <#FFD54F>» <#A8FFCF>%mmocore_level_percent%%'
+      - ' <#FFD54F>✦ <#FFFFFF><bold>%player%</bold> %luckperms-suffix%'
+      - ' <#FFF3D6>┃ <#FFD180>Cấp tù <#FFFFFF>› %group%'
+      - ' <#FFF3D6>┃ <#80D8FF>Cấp độ <#FFFFFF>› <bold>%mmocore_level%</bold> <#DDEEFF>· %mmocore_class%'
+      - ' <#FFF3D6>┃ <#B9F6CA>Kinh nghiệm <#FFFFFF>› <#B9F6CA>%mmocore_level_percent%%'
       - ' '
-      - ' <#FF9AC1>● <#FFFFFF><bold>Bang</bold>  <#FFD54F>» %condition:gang_name_val%'
+      - ' <#FF80AB>◆ <#FFFFFF><bold>BANG HỘI</bold>'
+      - ' <#FFE4EE>┃ <#FFB3CD>Tên bang <#FFFFFF>› %condition:gang_name_val%'
       - '%condition:gang_detail_line%'
       - '%condition:gang_rep_line%'
       - ' '
-      - ' <#82E0AA>● <#FFFFFF><bold>Money</bold> <#FFD54F>» <#C8FFC5>%vault_eco_balance_formatted%'
-      - ' <#7FCBFF>● <#FFFFFF><bold>Point</bold> <#FFD54F>» <#C5E8FF>%playerpoints_points_formatted%'
-      - <#FFD54F><strikethrough>                   </strikethrough>
-      - ' <#F2F2F2>%date% <#FFD54F>· <#FFFFFF>%time% <#FFD54F>· <#FFFFFF>%ping%ms'
+      - ' <#69F0AE>◆ <#FFFFFF><bold>TÀI SẢN</bold>'
+      - ' <#E4FFF0>┃ <#8EFFBE>Xu <#FFFFFF>› <#C8FFD9><bold>%vault_eco_balance_formatted%</bold>'
+      - ' <#E4F5FF>┃ <#82D4FF>Điểm <#FFFFFF>› <#BDE8FF><bold>%playerpoints_points_formatted%</bold>'
+      - <#FFB74D><strikethrough>                     </strikethrough>
+      - ' <#FFFFFF>%date% <#FFD54F>• <#FFFFFF>%time% <#FFD54F>• <#BDE8FF>%ping%ms'
     scoreboard:
-      title: <#FFD700><bold>✦ AetherMine ✦</bold></#FFB347>
+      title: <gradient:#FFD54F:#FF8A3D><bold>⛏ AETHER MINE ⛏</bold></gradient>
       lines:
-      - <#FFD54F><strikethrough>                   </strikethrough>
-      - '  <#FFE08A><bold>%player%</bold> %luckperms-suffix%'
-      - <#FFD54F><strikethrough>                   </strikethrough>
-      - ' <#FFB347>● <#FFFFFF><bold>Rank</bold>  <#FFD54F>» %group%'
-      - ' <#7DCEA0>● <#FFFFFF><bold>Level</bold> <#FFD54F>» <#FFFFFF>%mmocore_level% <#E0E0E0>· <#FFFFFF>%mmocore_class%'
-      - ' <#7DCEA0>● <#FFFFFF><bold>EXP</bold>   <#FFD54F>» <#A8FFCF>%mmocore_level_percent%%'
+      - ' <#FFD54F>✦ <#FFFFFF><bold>%player%</bold> %luckperms-suffix%'
+      - ' <#FFF3D6>┃ <#FFD180>Cấp tù <#FFFFFF>› %group%'
+      - ' <#FFF3D6>┃ <#80D8FF>Cấp độ <#FFFFFF>› <bold>%mmocore_level%</bold> <#DDEEFF>· %mmocore_class%'
+      - ' <#FFF3D6>┃ <#B9F6CA>Kinh nghiệm <#FFFFFF>› <#B9F6CA>%mmocore_level_percent%%'
       - ' '
-      - ' <#FF9AC1>● <#FFFFFF><bold>Bang</bold>  <#FFD54F>» %condition:gang_name_val%'
+      - ' <#FF80AB>◆ <#FFFFFF><bold>BANG HỘI</bold>'
+      - ' <#FFE4EE>┃ <#FFB3CD>Tên bang <#FFFFFF>› %condition:gang_name_val%'
       - '%condition:gang_detail_line%'
       - '%condition:gang_rep_line%'
       - ' '
-      - ' <#82E0AA>● <#FFFFFF><bold>Money</bold> <#FFD54F>» <#C8FFC5>%vault_eco_balance_formatted%'
-      - ' <#7FCBFF>● <#FFFFFF><bold>Point</bold> <#FFD54F>» <#C5E8FF>%playerpoints_points_formatted%'
-      - <#FFD54F><strikethrough>                   </strikethrough>
-      - ' <#F2F2F2>%date% <#FFD54F>· <#FFFFFF>%time% <#FFD54F>· <#FFFFFF>%ping%ms'
+      - ' <#69F0AE>◆ <#FFFFFF><bold>TÀI SẢN</bold>'
+      - ' <#E4FFF0>┃ <#8EFFBE>Xu <#FFFFFF>› <#C8FFD9><bold>%vault_eco_balance_formatted%</bold>'
+      - ' <#E4F5FF>┃ <#82D4FF>Điểm <#FFFFFF>› <#BDE8FF><bold>%playerpoints_points_formatted%</bold>'
+      - <#FFB74D><strikethrough>                     </strikethrough>
+      - ' <#FFFFFF>%date% <#FFD54F>• <#FFFFFF>%time% <#FFD54F>• <#BDE8FF>%ping%ms'
 layout:
   enabled: false
   direction: COLUMNS
@@ -183,12 +183,12 @@ conditions:
   gang_detail_line:
     conditions:
       - "%core_gang_name%!="
-    true: ' <#FF9AC1>● <#FFFFFF><bold>Role</bold>  <#FFD54F>» %core_gang_role% <#F2F2F2>· <#FF9AC1>Lv.%core_gang_level%'
+    true: ' <#FFE4EE>┃ <#FFB3CD>Vai trò <#FFFFFF>› %core_gang_role% <#FFFFFF>· <#FFB3CD>Lv.%core_gang_level%'
     false: ''
   gang_rep_line:
     conditions:
     - '%core_gang_name%!='
-    true: ' <#FF9AC1>● <#FFFFFF><bold>Rep</bold>   <#FFD54F>» <#FFD1DC>%core_gang_reputation%'
+    true: ' <#FFE4EE>┃ <#FFB3CD>Danh vọng <#FFFFFF>› <#FFD6E4>%core_gang_reputation%'
     false: ''
 assign-groups-by-permissions: false
 primary-group-finding-list:
