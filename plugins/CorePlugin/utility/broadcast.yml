@@ -3,11 +3,12 @@
 #   Reload: /utility reload
 #   Xóa hết auto.messages (hoặc auto.enabled: false) để tắt announce.
 
-command-prefix: "&6[Server] &f"
+command-prefix: '&6[Server] &f'
 auto:
   enabled: true
-  interval-seconds: 180
+  interval-seconds: 320
   messages:
-    - "&e[Tip] &7Làm &f/dailyquest &7mỗi ngày để nhận thưởng."
-    - "&b[Tip] &7Cường hóa trang bị: &f/cuonghoa"
-    - "&a[Tip] &7Đục lỗ trang bị: &f/duclo"
+    - '&e[Tip] &7Làm &f/dailyquest &7mỗi ngày để nhận thưởng.'
+    - '&b[Tip] &7Cường hóa trang bị: &f/cuonghoa'
+    - '&a[Tip] &7Đục lỗ trang bị: &f/duclo'
+    - '&d[Tip] &7Dùng &f/phanra &7và đặt trang sức vào ô giữa để phân rã.'
