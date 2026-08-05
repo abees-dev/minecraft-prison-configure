@@ -20,7 +20,8 @@ worlds:
     misc_spawn_unowned: false
     road:
       block: minecraft:polished_deepslate
-      flags: {}
+      flags:
+        flight: true
       height: 62
       width: 5
     home:
@@ -56,4 +57,5 @@ worlds:
         custom: true
     natural_mob_spawning: false
     mob_spawner_spawning: false
-    flags: {}
+    flags:
+      flight: true

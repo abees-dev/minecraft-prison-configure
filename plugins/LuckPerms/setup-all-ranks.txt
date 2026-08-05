@@ -91,6 +91,11 @@ lp group default permission set essentials.keepinv true
 # PlotSquared — lệnh quản lý plot cơ bản, tối đa 1 plot mỗi người
 lp group default permission set plots.permpack.basic true
 lp group default permission set plots.plot.1 true
+# Bay trong world_plot (chỉ world này, ra khỏi world là mất)
+#   essentials.fly     → /fly + chặn Essentials reset flight khi đổi world
+#   xprison.fly.keep   → chặn enchant Fly của X-Prison thu hồi flight khi cất cuốc
+lp group default permission set essentials.fly true world=world_plot
+lp group default permission set xprison.fly.keep true world=world_plot
 
 # Rank 1: 1 kho, 2 home, kit tân binh
 lp group xprison_rank_1 permission set playervaults.amount.1 true
