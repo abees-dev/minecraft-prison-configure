@@ -123,7 +123,8 @@ items:
 liquids:
   enabled: true
 huds:
-  enabled: true
+  # Tắt HUD/font shader của ItemsAdder để giảm tải render chữ phía client.
+  enabled: false
   force_color:
     enabled: false
     color: '#FFFFFF'

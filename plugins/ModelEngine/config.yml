@@ -21,7 +21,8 @@ Model-Generator:
   Namespace: modelengine
   Create-Zip: false
   Create-Atlas: true
-  Create-Shader: true
+  # Tắt core shader tùy biến để tránh giảm FPS trên client vanilla/Fabric.
+  Create-Shader: false
   Item-Model: LEATHER_HORSE_ARMOR
 Network-Optimization:
   Bundle-Everything: false
