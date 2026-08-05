@@ -916,11 +916,20 @@ chat:
   # {TEAMPREFIX} - The sender's scoreboard team prefix.
   # {TEAMSUFFIX} - The sender's scoreboard team suffix.
 
-  format: '{PREFIX}&r {DISPLAYNAME} &8» &f{MESSAGE}'
+  format: '{PREFIX}&r {DISPLAYNAME} &8» &7{MESSAGE}'
   #format: '&7[{GROUP}]&r {DISPLAYNAME}&7:&r {MESSAGE}'
   #format: '&7{PREFIX}&r {DISPLAYNAME}&r &7{SUFFIX}&r: {MESSAGE}'
 
   group-formats:
+    xprison_rank_1: '&8[&f&lTân Binh&8] &f{DISPLAYNAME} &8» &7{MESSAGE}'
+    xprison_rank_2: '&8[&7&lTù Nhân&8] &f{DISPLAYNAME} &8» &7{MESSAGE}'
+    xprison_rank_3: '&8[&a&lLao Công&8] &f{DISPLAYNAME} &8» &7{MESSAGE}'
+    xprison_rank_4: '&8[&2&lThợ Đào&8] &f{DISPLAYNAME} &8» &7{MESSAGE}'
+    xprison_rank_5: '&8[&b&lĐội Trưởng&8] &f{DISPLAYNAME} &8» &7{MESSAGE}'
+    xprison_rank_6: '&8[&9&lPhó Quản Ngục&8] &f{DISPLAYNAME} &8» &7{MESSAGE}'
+    xprison_rank_7: '&8[&d&lQuản Ngục&8] &f{DISPLAYNAME} &8» &7{MESSAGE}'
+    xprison_rank_8: '&8[&6&lBá Chủ Ngục Tù&8] &f{DISPLAYNAME} &8» &7{MESSAGE}'
+    xprison_rank_9: '&8[&c&lVượt Ngục&8] &f{DISPLAYNAME} &8» &7{MESSAGE}'
   #  default: '{WORLDNAME} {DISPLAYNAME}&7:&r {MESSAGE}'
   #  admins: '{WORLDNAME} &c[{GROUP}]&r {DISPLAYNAME}&7:&c {MESSAGE}'
 
