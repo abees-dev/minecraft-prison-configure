@@ -1,6 +1,6 @@
 RED_GEM_LV1:
   base:
-    revision-id: 2
+    revision-id: 3
     material: PAPER
     custom-model-data: 15008
     name: "&c&lHồng Ngọc &e&lLv.I"
@@ -12,11 +12,11 @@ RED_GEM_LV1:
     attack-damage: 1.3
     unstackable: true
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 RED_GEM_LV2:
   base:
-    revision-id: 2
+    revision-id: 3
     material: PAPER
     custom-model-data: 15008
     name: "&c&lHồng Ngọc &e&lLv.II"
@@ -28,11 +28,11 @@ RED_GEM_LV2:
     attack-damage: 2
     unstackable: true
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 RED_GEM_LV3:
   base:
-    revision-id: 2
+    revision-id: 3
     material: PAPER
     custom-model-data: 15008
     name: "&c&lHồng Ngọc &e&lLv.III"
@@ -44,11 +44,11 @@ RED_GEM_LV3:
     attack-damage: 2.8
     unstackable: true
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 RED_GEM_LV4:
   base:
-    revision-id: 2
+    revision-id: 3
     material: PAPER
     custom-model-data: 15008
     name: "&c&lHồng Ngọc &e&lLv.IV"
@@ -60,11 +60,11 @@ RED_GEM_LV4:
     attack-damage: 3.5
     unstackable: true
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 RED_GEM_LV5:
   base:
-    revision-id: 2
+    revision-id: 3
     material: PAPER
     custom-model-data: 15008
     name: "&c&lHồng Ngọc &e&lLv.V"
@@ -76,11 +76,11 @@ RED_GEM_LV5:
     attack-damage: 4.3
     unstackable: true
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 RED_GEM_LV6:
   base:
-    revision-id: 2
+    revision-id: 3
     material: PAPER
     custom-model-data: 15008
     name: "&c&lHồng Ngọc &e&lLv.VI"
@@ -92,11 +92,11 @@ RED_GEM_LV6:
     attack-damage: 5
     unstackable: true
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 RED_GEM_LV7:
   base:
-    revision-id: 2
+    revision-id: 3
     material: PAPER
     custom-model-data: 15008
     name: "&c&lHồng Ngọc &e&lLv.VII"
@@ -108,11 +108,11 @@ RED_GEM_LV7:
     attack-damage: 5.8
     unstackable: true
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 RED_GEM_LV8:
   base:
-    revision-id: 2
+    revision-id: 3
     material: PAPER
     custom-model-data: 15008
     name: "&c&lHồng Ngọc &e&lLv.VIII"
@@ -124,11 +124,11 @@ RED_GEM_LV8:
     attack-damage: 6.5
     unstackable: true
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 RED_GEM_LV9:
   base:
-    revision-id: 2
+    revision-id: 3
     material: PAPER
     custom-model-data: 15008
     name: "&c&lHồng Ngọc &e&lLv.IX"
@@ -140,11 +140,11 @@ RED_GEM_LV9:
     attack-damage: 7.3
     unstackable: true
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 RED_GEM_LV10:
   base:
-    revision-id: 2
+    revision-id: 3
     material: PAPER
     custom-model-data: 15008
     name: "&c&lHồng Ngọc &e&lLv.X"
@@ -156,11 +156,11 @@ RED_GEM_LV10:
     attack-damage: 8
     unstackable: true
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 BLUE_GEM_LV1:
   base:
-    revision-id: 2
+    revision-id: 3
     material: PAPER
     custom-model-data: 15002
     name: "&9&lLam Ngọc &e&lLv.I"
@@ -172,11 +172,11 @@ BLUE_GEM_LV1:
     max-mana: 12
     unstackable: true
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 BLUE_GEM_LV2:
   base:
-    revision-id: 2
+    revision-id: 3
     material: PAPER
     custom-model-data: 15002
     name: "&9&lLam Ngọc &e&lLv.II"
@@ -188,11 +188,11 @@ BLUE_GEM_LV2:
     max-mana: 20
     unstackable: true
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 BLUE_GEM_LV3:
   base:
-    revision-id: 2
+    revision-id: 3
     material: PAPER
     custom-model-data: 15002
     name: "&9&lLam Ngọc &e&lLv.III"
@@ -204,11 +204,11 @@ BLUE_GEM_LV3:
     max-mana: 27
     unstackable: true
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 BLUE_GEM_LV4:
   base:
-    revision-id: 2
+    revision-id: 3
     material: PAPER
     custom-model-data: 15002
     name: "&9&lLam Ngọc &e&lLv.IV"
@@ -220,11 +220,11 @@ BLUE_GEM_LV4:
     max-mana: 35
     unstackable: true
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 BLUE_GEM_LV5:
   base:
-    revision-id: 2
+    revision-id: 3
     material: PAPER
     custom-model-data: 15002
     name: "&9&lLam Ngọc &e&lLv.V"
@@ -236,11 +236,11 @@ BLUE_GEM_LV5:
     max-mana: 42
     unstackable: true
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 BLUE_GEM_LV6:
   base:
-    revision-id: 2
+    revision-id: 3
     material: PAPER
     custom-model-data: 15002
     name: "&9&lLam Ngọc &e&lLv.VI"
@@ -252,11 +252,11 @@ BLUE_GEM_LV6:
     max-mana: 50
     unstackable: true
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 BLUE_GEM_LV7:
   base:
-    revision-id: 2
+    revision-id: 3
     material: PAPER
     custom-model-data: 15002
     name: "&9&lLam Ngọc &e&lLv.VII"
@@ -268,11 +268,11 @@ BLUE_GEM_LV7:
     max-mana: 57
     unstackable: true
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 BLUE_GEM_LV8:
   base:
-    revision-id: 2
+    revision-id: 3
     material: PAPER
     custom-model-data: 15002
     name: "&9&lLam Ngọc &e&lLv.VIII"
@@ -284,11 +284,11 @@ BLUE_GEM_LV8:
     max-mana: 65
     unstackable: true
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 BLUE_GEM_LV9:
   base:
-    revision-id: 2
+    revision-id: 3
     material: PAPER
     custom-model-data: 15002
     name: "&9&lLam Ngọc &e&lLv.IX"
@@ -300,11 +300,11 @@ BLUE_GEM_LV9:
     max-mana: 72
     unstackable: true
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 BLUE_GEM_LV10:
   base:
-    revision-id: 2
+    revision-id: 3
     material: PAPER
     custom-model-data: 15002
     name: "&9&lLam Ngọc &e&lLv.X"
@@ -316,11 +316,11 @@ BLUE_GEM_LV10:
     max-mana: 80
     unstackable: true
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 GREEN_GEM_LV1:
   base:
-    revision-id: 2
+    revision-id: 3
     material: PAPER
     custom-model-data: 15004
     name: "&a&lLục Ngọc &e&lLv.I"
@@ -332,11 +332,11 @@ GREEN_GEM_LV1:
     max-health: 4.5
     unstackable: true
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 GREEN_GEM_LV2:
   base:
-    revision-id: 2
+    revision-id: 3
     material: PAPER
     custom-model-data: 15004
     name: "&a&lLục Ngọc &e&lLv.II"
@@ -348,11 +348,11 @@ GREEN_GEM_LV2:
     max-health: 7
     unstackable: true
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 GREEN_GEM_LV3:
   base:
-    revision-id: 2
+    revision-id: 3
     material: PAPER
     custom-model-data: 15004
     name: "&a&lLục Ngọc &e&lLv.III"
@@ -364,11 +364,11 @@ GREEN_GEM_LV3:
     max-health: 9.5
     unstackable: true
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 GREEN_GEM_LV4:
   base:
-    revision-id: 2
+    revision-id: 3
     material: PAPER
     custom-model-data: 15004
     name: "&a&lLục Ngọc &e&lLv.IV"
@@ -380,11 +380,11 @@ GREEN_GEM_LV4:
     max-health: 12
     unstackable: true
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 GREEN_GEM_LV5:
   base:
-    revision-id: 2
+    revision-id: 3
     material: PAPER
     custom-model-data: 15004
     name: "&a&lLục Ngọc &e&lLv.V"
@@ -396,11 +396,11 @@ GREEN_GEM_LV5:
     max-health: 14.5
     unstackable: true
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 GREEN_GEM_LV6:
   base:
-    revision-id: 2
+    revision-id: 3
     material: PAPER
     custom-model-data: 15004
     name: "&a&lLục Ngọc &e&lLv.VI"
@@ -412,11 +412,11 @@ GREEN_GEM_LV6:
     max-health: 17
     unstackable: true
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 GREEN_GEM_LV7:
   base:
-    revision-id: 2
+    revision-id: 3
     material: PAPER
     custom-model-data: 15004
     name: "&a&lLục Ngọc &e&lLv.VII"
@@ -428,11 +428,11 @@ GREEN_GEM_LV7:
     max-health: 19.5
     unstackable: true
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 GREEN_GEM_LV8:
   base:
-    revision-id: 2
+    revision-id: 3
     material: PAPER
     custom-model-data: 15004
     name: "&a&lLục Ngọc &e&lLv.VIII"
@@ -444,11 +444,11 @@ GREEN_GEM_LV8:
     max-health: 22
     unstackable: true
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 GREEN_GEM_LV9:
   base:
-    revision-id: 2
+    revision-id: 3
     material: PAPER
     custom-model-data: 15004
     name: "&a&lLục Ngọc &e&lLv.IX"
@@ -460,11 +460,11 @@ GREEN_GEM_LV9:
     max-health: 24.5
     unstackable: true
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 GREEN_GEM_LV10:
   base:
-    revision-id: 2
+    revision-id: 3
     material: PAPER
     custom-model-data: 15004
     name: "&a&lLục Ngọc &e&lLv.X"
@@ -476,11 +476,11 @@ GREEN_GEM_LV10:
     max-health: 27
     unstackable: true
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 YELLOW_GEM_LV1:
   base:
-    revision-id: 2
+    revision-id: 3
     material: PAPER
     custom-model-data: 15010
     name: "&e&lHoàng Ngọc &e&lLv.I"
@@ -492,11 +492,11 @@ YELLOW_GEM_LV1:
     armor: 1.1
     unstackable: true
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 YELLOW_GEM_LV2:
   base:
-    revision-id: 2
+    revision-id: 3
     material: PAPER
     custom-model-data: 15010
     name: "&e&lHoàng Ngọc &e&lLv.II"
@@ -508,11 +508,11 @@ YELLOW_GEM_LV2:
     armor: 1.7
     unstackable: true
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 YELLOW_GEM_LV3:
   base:
-    revision-id: 2
+    revision-id: 3
     material: PAPER
     custom-model-data: 15010
     name: "&e&lHoàng Ngọc &e&lLv.III"
@@ -524,11 +524,11 @@ YELLOW_GEM_LV3:
     armor: 2.3
     unstackable: true
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 YELLOW_GEM_LV4:
   base:
-    revision-id: 2
+    revision-id: 3
     material: PAPER
     custom-model-data: 15010
     name: "&e&lHoàng Ngọc &e&lLv.IV"
@@ -540,11 +540,11 @@ YELLOW_GEM_LV4:
     armor: 2.9
     unstackable: true
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 YELLOW_GEM_LV5:
   base:
-    revision-id: 2
+    revision-id: 3
     material: PAPER
     custom-model-data: 15010
     name: "&e&lHoàng Ngọc &e&lLv.V"
@@ -556,11 +556,11 @@ YELLOW_GEM_LV5:
     armor: 3.5
     unstackable: true
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 YELLOW_GEM_LV6:
   base:
-    revision-id: 2
+    revision-id: 3
     material: PAPER
     custom-model-data: 15010
     name: "&e&lHoàng Ngọc &e&lLv.VI"
@@ -572,11 +572,11 @@ YELLOW_GEM_LV6:
     armor: 4.1
     unstackable: true
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 YELLOW_GEM_LV7:
   base:
-    revision-id: 2
+    revision-id: 3
     material: PAPER
     custom-model-data: 15010
     name: "&e&lHoàng Ngọc &e&lLv.VII"
@@ -588,11 +588,11 @@ YELLOW_GEM_LV7:
     armor: 4.7
     unstackable: true
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 YELLOW_GEM_LV8:
   base:
-    revision-id: 2
+    revision-id: 3
     material: PAPER
     custom-model-data: 15010
     name: "&e&lHoàng Ngọc &e&lLv.VIII"
@@ -604,11 +604,11 @@ YELLOW_GEM_LV8:
     armor: 5.3
     unstackable: true
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 YELLOW_GEM_LV9:
   base:
-    revision-id: 2
+    revision-id: 3
     material: PAPER
     custom-model-data: 15010
     name: "&e&lHoàng Ngọc &e&lLv.IX"
@@ -620,11 +620,11 @@ YELLOW_GEM_LV9:
     armor: 5.9
     unstackable: true
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 YELLOW_GEM_LV10:
   base:
-    revision-id: 2
+    revision-id: 3
     material: PAPER
     custom-model-data: 15010
     name: "&e&lHoàng Ngọc &e&lLv.X"
@@ -636,11 +636,11 @@ YELLOW_GEM_LV10:
     armor: 6.5
     unstackable: true
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 PURPLE_GEM_LV1:
   base:
-    revision-id: 2
+    revision-id: 3
     material: PAPER
     custom-model-data: 15006
     name: "&5&lTử Ngọc &e&lLv.I"
@@ -652,11 +652,11 @@ PURPLE_GEM_LV1:
     magic-damage: 2.5
     unstackable: true
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 PURPLE_GEM_LV2:
   base:
-    revision-id: 2
+    revision-id: 3
     material: PAPER
     custom-model-data: 15006
     name: "&5&lTử Ngọc &e&lLv.II"
@@ -668,11 +668,11 @@ PURPLE_GEM_LV2:
     magic-damage: 4
     unstackable: true
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 PURPLE_GEM_LV3:
   base:
-    revision-id: 2
+    revision-id: 3
     material: PAPER
     custom-model-data: 15006
     name: "&5&lTử Ngọc &e&lLv.III"
@@ -684,11 +684,11 @@ PURPLE_GEM_LV3:
     magic-damage: 5.5
     unstackable: true
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 PURPLE_GEM_LV4:
   base:
-    revision-id: 2
+    revision-id: 3
     material: PAPER
     custom-model-data: 15006
     name: "&5&lTử Ngọc &e&lLv.IV"
@@ -700,11 +700,11 @@ PURPLE_GEM_LV4:
     magic-damage: 7
     unstackable: true
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 PURPLE_GEM_LV5:
   base:
-    revision-id: 2
+    revision-id: 3
     material: PAPER
     custom-model-data: 15006
     name: "&5&lTử Ngọc &e&lLv.V"
@@ -716,11 +716,11 @@ PURPLE_GEM_LV5:
     magic-damage: 8.5
     unstackable: true
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 PURPLE_GEM_LV6:
   base:
-    revision-id: 2
+    revision-id: 3
     material: PAPER
     custom-model-data: 15006
     name: "&5&lTử Ngọc &e&lLv.VI"
@@ -732,11 +732,11 @@ PURPLE_GEM_LV6:
     magic-damage: 10
     unstackable: true
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 PURPLE_GEM_LV7:
   base:
-    revision-id: 2
+    revision-id: 3
     material: PAPER
     custom-model-data: 15006
     name: "&5&lTử Ngọc &e&lLv.VII"
@@ -748,11 +748,11 @@ PURPLE_GEM_LV7:
     magic-damage: 11.5
     unstackable: true
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 PURPLE_GEM_LV8:
   base:
-    revision-id: 2
+    revision-id: 3
     material: PAPER
     custom-model-data: 15006
     name: "&5&lTử Ngọc &e&lLv.VIII"
@@ -764,11 +764,11 @@ PURPLE_GEM_LV8:
     magic-damage: 13
     unstackable: true
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 PURPLE_GEM_LV9:
   base:
-    revision-id: 2
+    revision-id: 3
     material: PAPER
     custom-model-data: 15006
     name: "&5&lTử Ngọc &e&lLv.IX"
@@ -780,11 +780,11 @@ PURPLE_GEM_LV9:
     magic-damage: 14.5
     unstackable: true
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 PURPLE_GEM_LV10:
   base:
-    revision-id: 2
+    revision-id: 3
     material: PAPER
     custom-model-data: 15006
     name: "&5&lTử Ngọc &e&lLv.X"
@@ -796,11 +796,11 @@ PURPLE_GEM_LV10:
     magic-damage: 16
     unstackable: true
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 CYAN_GEM_LV1:
   base:
-    revision-id: 2
+    revision-id: 3
     material: PAPER
     custom-model-data: 15004
     name: "&b&lBăng Ngọc &e&lLv.I"
@@ -812,11 +812,11 @@ CYAN_GEM_LV1:
     critical-strike-chance: 1
     unstackable: true
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 CYAN_GEM_LV2:
   base:
-    revision-id: 2
+    revision-id: 3
     material: PAPER
     custom-model-data: 15004
     name: "&b&lBăng Ngọc &e&lLv.II"
@@ -828,11 +828,11 @@ CYAN_GEM_LV2:
     critical-strike-chance: 1.5
     unstackable: true
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 CYAN_GEM_LV3:
   base:
-    revision-id: 2
+    revision-id: 3
     material: PAPER
     custom-model-data: 15004
     name: "&b&lBăng Ngọc &e&lLv.III"
@@ -844,11 +844,11 @@ CYAN_GEM_LV3:
     critical-strike-chance: 2
     unstackable: true
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 CYAN_GEM_LV4:
   base:
-    revision-id: 2
+    revision-id: 3
     material: PAPER
     custom-model-data: 15004
     name: "&b&lBăng Ngọc &e&lLv.IV"
@@ -860,11 +860,11 @@ CYAN_GEM_LV4:
     critical-strike-chance: 2.5
     unstackable: true
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 CYAN_GEM_LV5:
   base:
-    revision-id: 2
+    revision-id: 3
     material: PAPER
     custom-model-data: 15004
     name: "&b&lBăng Ngọc &e&lLv.V"
@@ -876,11 +876,11 @@ CYAN_GEM_LV5:
     critical-strike-chance: 3
     unstackable: true
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 CYAN_GEM_LV6:
   base:
-    revision-id: 2
+    revision-id: 3
     material: PAPER
     custom-model-data: 15004
     name: "&b&lBăng Ngọc &e&lLv.VI"
@@ -892,11 +892,11 @@ CYAN_GEM_LV6:
     critical-strike-chance: 3.5
     unstackable: true
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 CYAN_GEM_LV7:
   base:
-    revision-id: 2
+    revision-id: 3
     material: PAPER
     custom-model-data: 15004
     name: "&b&lBăng Ngọc &e&lLv.VII"
@@ -908,11 +908,11 @@ CYAN_GEM_LV7:
     critical-strike-chance: 4
     unstackable: true
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 CYAN_GEM_LV8:
   base:
-    revision-id: 2
+    revision-id: 3
     material: PAPER
     custom-model-data: 15004
     name: "&b&lBăng Ngọc &e&lLv.VIII"
@@ -924,11 +924,11 @@ CYAN_GEM_LV8:
     critical-strike-chance: 4.5
     unstackable: true
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 CYAN_GEM_LV9:
   base:
-    revision-id: 2
+    revision-id: 3
     material: PAPER
     custom-model-data: 15004
     name: "&b&lBăng Ngọc &e&lLv.IX"
@@ -940,11 +940,11 @@ CYAN_GEM_LV9:
     critical-strike-chance: 5
     unstackable: true
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 CYAN_GEM_LV10:
   base:
-    revision-id: 2
+    revision-id: 3
     material: PAPER
     custom-model-data: 15004
     name: "&b&lBăng Ngọc &e&lLv.X"
@@ -956,11 +956,11 @@ CYAN_GEM_LV10:
     critical-strike-chance: 5.5
     unstackable: true
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 BLACK_GEM_LV1:
   base:
-    revision-id: 2
+    revision-id: 3
     material: PAPER
     custom-model-data: 15009
     name: "&8&lHắc Ngọc &e&lLv.I"
@@ -972,11 +972,11 @@ BLACK_GEM_LV1:
     critical-strike-power: 2.5
     unstackable: true
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 BLACK_GEM_LV2:
   base:
-    revision-id: 2
+    revision-id: 3
     material: PAPER
     custom-model-data: 15009
     name: "&8&lHắc Ngọc &e&lLv.II"
@@ -988,11 +988,11 @@ BLACK_GEM_LV2:
     critical-strike-power: 4
     unstackable: true
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 BLACK_GEM_LV3:
   base:
-    revision-id: 2
+    revision-id: 3
     material: PAPER
     custom-model-data: 15009
     name: "&8&lHắc Ngọc &e&lLv.III"
@@ -1004,11 +1004,11 @@ BLACK_GEM_LV3:
     critical-strike-power: 5.5
     unstackable: true
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 BLACK_GEM_LV4:
   base:
-    revision-id: 2
+    revision-id: 3
     material: PAPER
     custom-model-data: 15009
     name: "&8&lHắc Ngọc &e&lLv.IV"
@@ -1020,11 +1020,11 @@ BLACK_GEM_LV4:
     critical-strike-power: 7
     unstackable: true
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 BLACK_GEM_LV5:
   base:
-    revision-id: 2
+    revision-id: 3
     material: PAPER
     custom-model-data: 15009
     name: "&8&lHắc Ngọc &e&lLv.V"
@@ -1036,11 +1036,11 @@ BLACK_GEM_LV5:
     critical-strike-power: 8.5
     unstackable: true
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 BLACK_GEM_LV6:
   base:
-    revision-id: 2
+    revision-id: 3
     material: PAPER
     custom-model-data: 15009
     name: "&8&lHắc Ngọc &e&lLv.VI"
@@ -1052,11 +1052,11 @@ BLACK_GEM_LV6:
     critical-strike-power: 10
     unstackable: true
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 BLACK_GEM_LV7:
   base:
-    revision-id: 2
+    revision-id: 3
     material: PAPER
     custom-model-data: 15009
     name: "&8&lHắc Ngọc &e&lLv.VII"
@@ -1068,11 +1068,11 @@ BLACK_GEM_LV7:
     critical-strike-power: 11.5
     unstackable: true
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 BLACK_GEM_LV8:
   base:
-    revision-id: 2
+    revision-id: 3
     material: PAPER
     custom-model-data: 15009
     name: "&8&lHắc Ngọc &e&lLv.VIII"
@@ -1084,11 +1084,11 @@ BLACK_GEM_LV8:
     critical-strike-power: 13
     unstackable: true
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 BLACK_GEM_LV9:
   base:
-    revision-id: 2
+    revision-id: 3
     material: PAPER
     custom-model-data: 15009
     name: "&8&lHắc Ngọc &e&lLv.IX"
@@ -1100,11 +1100,11 @@ BLACK_GEM_LV9:
     critical-strike-power: 14.5
     unstackable: true
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 BLACK_GEM_LV10:
   base:
-    revision-id: 2
+    revision-id: 3
     material: PAPER
     custom-model-data: 15009
     name: "&8&lHắc Ngọc &e&lLv.X"
@@ -1116,11 +1116,11 @@ BLACK_GEM_LV10:
     critical-strike-power: 16
     unstackable: true
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 WHITE_GEM_LV1:
   base:
-    revision-id: 2
+    revision-id: 3
     material: PAPER
     custom-model-data: 15001
     name: "&f&lBạch Ngọc &e&lLv.I"
@@ -1132,11 +1132,11 @@ WHITE_GEM_LV1:
     health-regeneration: 0.5
     unstackable: true
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 WHITE_GEM_LV2:
   base:
-    revision-id: 2
+    revision-id: 3
     material: PAPER
     custom-model-data: 15001
     name: "&f&lBạch Ngọc &e&lLv.II"
@@ -1148,11 +1148,11 @@ WHITE_GEM_LV2:
     health-regeneration: 0.8
     unstackable: true
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 WHITE_GEM_LV3:
   base:
-    revision-id: 2
+    revision-id: 3
     material: PAPER
     custom-model-data: 15001
     name: "&f&lBạch Ngọc &e&lLv.III"
@@ -1164,11 +1164,11 @@ WHITE_GEM_LV3:
     health-regeneration: 1.1
     unstackable: true
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 WHITE_GEM_LV4:
   base:
-    revision-id: 2
+    revision-id: 3
     material: PAPER
     custom-model-data: 15001
     name: "&f&lBạch Ngọc &e&lLv.IV"
@@ -1180,11 +1180,11 @@ WHITE_GEM_LV4:
     health-regeneration: 1.4
     unstackable: true
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 WHITE_GEM_LV5:
   base:
-    revision-id: 2
+    revision-id: 3
     material: PAPER
     custom-model-data: 15001
     name: "&f&lBạch Ngọc &e&lLv.V"
@@ -1196,11 +1196,11 @@ WHITE_GEM_LV5:
     health-regeneration: 1.7
     unstackable: true
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 WHITE_GEM_LV6:
   base:
-    revision-id: 2
+    revision-id: 3
     material: PAPER
     custom-model-data: 15001
     name: "&f&lBạch Ngọc &e&lLv.VI"
@@ -1212,11 +1212,11 @@ WHITE_GEM_LV6:
     health-regeneration: 2
     unstackable: true
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 WHITE_GEM_LV7:
   base:
-    revision-id: 2
+    revision-id: 3
     material: PAPER
     custom-model-data: 15001
     name: "&f&lBạch Ngọc &e&lLv.VII"
@@ -1228,11 +1228,11 @@ WHITE_GEM_LV7:
     health-regeneration: 2.3
     unstackable: true
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 WHITE_GEM_LV8:
   base:
-    revision-id: 2
+    revision-id: 3
     material: PAPER
     custom-model-data: 15001
     name: "&f&lBạch Ngọc &e&lLv.VIII"
@@ -1244,11 +1244,11 @@ WHITE_GEM_LV8:
     health-regeneration: 2.6
     unstackable: true
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 WHITE_GEM_LV9:
   base:
-    revision-id: 2
+    revision-id: 3
     material: PAPER
     custom-model-data: 15001
     name: "&f&lBạch Ngọc &e&lLv.IX"
@@ -1260,11 +1260,11 @@ WHITE_GEM_LV9:
     health-regeneration: 2.9
     unstackable: true
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 WHITE_GEM_LV10:
   base:
-    revision-id: 2
+    revision-id: 3
     material: PAPER
     custom-model-data: 15001
     name: "&f&lBạch Ngọc &e&lLv.X"
@@ -1276,11 +1276,11 @@ WHITE_GEM_LV10:
     health-regeneration: 3.2
     unstackable: true
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 BROWN_GEM_LV1:
   base:
-    revision-id: 2
+    revision-id: 3
     material: PAPER
     custom-model-data: 15003
     name: "&6&lThổ Ngọc &e&lLv.I"
@@ -1292,11 +1292,11 @@ BROWN_GEM_LV1:
     armor-toughness: 0.7
     unstackable: true
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 BROWN_GEM_LV2:
   base:
-    revision-id: 2
+    revision-id: 3
     material: PAPER
     custom-model-data: 15003
     name: "&6&lThổ Ngọc &e&lLv.II"
@@ -1308,11 +1308,11 @@ BROWN_GEM_LV2:
     armor-toughness: 1.1
     unstackable: true
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 BROWN_GEM_LV3:
   base:
-    revision-id: 2
+    revision-id: 3
     material: PAPER
     custom-model-data: 15003
     name: "&6&lThổ Ngọc &e&lLv.III"
@@ -1324,11 +1324,11 @@ BROWN_GEM_LV3:
     armor-toughness: 1.5
     unstackable: true
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 BROWN_GEM_LV4:
   base:
-    revision-id: 2
+    revision-id: 3
     material: PAPER
     custom-model-data: 15003
     name: "&6&lThổ Ngọc &e&lLv.IV"
@@ -1340,11 +1340,11 @@ BROWN_GEM_LV4:
     armor-toughness: 1.9
     unstackable: true
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 BROWN_GEM_LV5:
   base:
-    revision-id: 2
+    revision-id: 3
     material: PAPER
     custom-model-data: 15003
     name: "&6&lThổ Ngọc &e&lLv.V"
@@ -1356,11 +1356,11 @@ BROWN_GEM_LV5:
     armor-toughness: 2.3
     unstackable: true
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 BROWN_GEM_LV6:
   base:
-    revision-id: 2
+    revision-id: 3
     material: PAPER
     custom-model-data: 15003
     name: "&6&lThổ Ngọc &e&lLv.VI"
@@ -1372,11 +1372,11 @@ BROWN_GEM_LV6:
     armor-toughness: 2.7
     unstackable: true
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 BROWN_GEM_LV7:
   base:
-    revision-id: 2
+    revision-id: 3
     material: PAPER
     custom-model-data: 15003
     name: "&6&lThổ Ngọc &e&lLv.VII"
@@ -1388,11 +1388,11 @@ BROWN_GEM_LV7:
     armor-toughness: 3.1
     unstackable: true
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 BROWN_GEM_LV8:
   base:
-    revision-id: 2
+    revision-id: 3
     material: PAPER
     custom-model-data: 15003
     name: "&6&lThổ Ngọc &e&lLv.VIII"
@@ -1404,11 +1404,11 @@ BROWN_GEM_LV8:
     armor-toughness: 3.5
     unstackable: true
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 BROWN_GEM_LV9:
   base:
-    revision-id: 2
+    revision-id: 3
     material: PAPER
     custom-model-data: 15003
     name: "&6&lThổ Ngọc &e&lLv.IX"
@@ -1420,11 +1420,11 @@ BROWN_GEM_LV9:
     armor-toughness: 3.9
     unstackable: true
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 BROWN_GEM_LV10:
   base:
-    revision-id: 2
+    revision-id: 3
     material: PAPER
     custom-model-data: 15003
     name: "&6&lThổ Ngọc &e&lLv.X"
@@ -1436,11 +1436,11 @@ BROWN_GEM_LV10:
     armor-toughness: 4.3
     unstackable: true
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 ORANGE_GEM_LV1:
   base:
-    revision-id: 2
+    revision-id: 3
     material: PAPER
     custom-model-data: 15006
     name: "&6&lCam Ngọc &e&lLv.I"
@@ -1452,11 +1452,11 @@ ORANGE_GEM_LV1:
     movement-speed: 0.01
     unstackable: true
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 ORANGE_GEM_LV2:
   base:
-    revision-id: 2
+    revision-id: 3
     material: PAPER
     custom-model-data: 15006
     name: "&6&lCam Ngọc &e&lLv.II"
@@ -1468,11 +1468,11 @@ ORANGE_GEM_LV2:
     movement-speed: 0.015
     unstackable: true
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 ORANGE_GEM_LV3:
   base:
-    revision-id: 2
+    revision-id: 3
     material: PAPER
     custom-model-data: 15006
     name: "&6&lCam Ngọc &e&lLv.III"
@@ -1484,11 +1484,11 @@ ORANGE_GEM_LV3:
     movement-speed: 0.02
     unstackable: true
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 ORANGE_GEM_LV4:
   base:
-    revision-id: 2
+    revision-id: 3
     material: PAPER
     custom-model-data: 15006
     name: "&6&lCam Ngọc &e&lLv.IV"
@@ -1500,11 +1500,11 @@ ORANGE_GEM_LV4:
     movement-speed: 0.025
     unstackable: true
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 ORANGE_GEM_LV5:
   base:
-    revision-id: 2
+    revision-id: 3
     material: PAPER
     custom-model-data: 15006
     name: "&6&lCam Ngọc &e&lLv.V"
@@ -1516,11 +1516,11 @@ ORANGE_GEM_LV5:
     movement-speed: 0.03
     unstackable: true
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 ORANGE_GEM_LV6:
   base:
-    revision-id: 2
+    revision-id: 3
     material: PAPER
     custom-model-data: 15006
     name: "&6&lCam Ngọc &e&lLv.VI"
@@ -1532,11 +1532,11 @@ ORANGE_GEM_LV6:
     movement-speed: 0.035
     unstackable: true
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 ORANGE_GEM_LV7:
   base:
-    revision-id: 2
+    revision-id: 3
     material: PAPER
     custom-model-data: 15006
     name: "&6&lCam Ngọc &e&lLv.VII"
@@ -1548,11 +1548,11 @@ ORANGE_GEM_LV7:
     movement-speed: 0.04
     unstackable: true
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 ORANGE_GEM_LV8:
   base:
-    revision-id: 2
+    revision-id: 3
     material: PAPER
     custom-model-data: 15006
     name: "&6&lCam Ngọc &e&lLv.VIII"
@@ -1564,11 +1564,11 @@ ORANGE_GEM_LV8:
     movement-speed: 0.045
     unstackable: true
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 ORANGE_GEM_LV9:
   base:
-    revision-id: 2
+    revision-id: 3
     material: PAPER
     custom-model-data: 15006
     name: "&6&lCam Ngọc &e&lLv.IX"
@@ -1580,11 +1580,11 @@ ORANGE_GEM_LV9:
     movement-speed: 0.05
     unstackable: true
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 ORANGE_GEM_LV10:
   base:
-    revision-id: 2
+    revision-id: 3
     material: PAPER
     custom-model-data: 15006
     name: "&6&lCam Ngọc &e&lLv.X"
@@ -1596,5 +1596,5 @@ ORANGE_GEM_LV10:
     movement-speed: 0.055
     unstackable: true
     will-break: false
-    unbreakable: false
+    unbreakable: true
 

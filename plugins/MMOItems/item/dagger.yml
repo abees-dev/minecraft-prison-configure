@@ -2,7 +2,7 @@ GACHA_DAGGER_GLOOMSTEEL_KNIFE:
   itemsadder-item: "fantasy_weapons:gloomsteel_knife"
   base:
     custom-maxsockets: 7.0
-    revision-id: 1
+    revision-id: 2
     material: IRON_SWORD
     custom-model-data: 10013
     name: "&5&lU Thiết Đoản Đao"
@@ -29,13 +29,13 @@ GACHA_DAGGER_GLOOMSTEEL_KNIFE:
       reference: weapon-upgrade-template
       max: 100
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 GACHA_DAGGER_RUNIC_PIERCER:
   itemsadder-item: "fantasy_weapons:runic_piercer"
   base:
     custom-maxsockets: 7.0
-    revision-id: 2
+    revision-id: 3
     material: IRON_SWORD
     custom-model-data: 10024
     name: "&e&lPhù Văn Trâm Kiếm"
@@ -56,4 +56,4 @@ GACHA_DAGGER_RUNIC_PIERCER:
       reference: weapon-upgrade-template
       max: 100
     will-break: false
-    unbreakable: false
+    unbreakable: true

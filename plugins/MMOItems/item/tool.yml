@@ -1,6 +1,6 @@
 PICKAXE_TAN_BINH_1:
   base:
-    revision-id: 1
+    revision-id: 2
     material: WOODEN_PICKAXE
     name: "&fCúp Tân Binh &e&lI"
     max-durability: 500
@@ -24,11 +24,11 @@ PICKAXE_TAN_BINH_1:
       template: pickaxe-tan-binh-template
       max: 100
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 PICKAXE_TAN_BINH_2:
   base:
-    revision-id: 1
+    revision-id: 2
     material: WOODEN_PICKAXE
     name: "&fCúp Tân Binh &e&lII"
     max-durability: 500
@@ -52,11 +52,11 @@ PICKAXE_TAN_BINH_2:
       template: pickaxe-tan-binh-template
       max: 100
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 PICKAXE_TAN_BINH_3:
   base:
-    revision-id: 1
+    revision-id: 2
     material: WOODEN_PICKAXE
     name: "&fCúp Tân Binh &e&lIII"
     max-durability: 500
@@ -80,11 +80,11 @@ PICKAXE_TAN_BINH_3:
       template: pickaxe-tan-binh-template
       max: 100
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 PICKAXE_TAN_BINH_4:
   base:
-    revision-id: 1
+    revision-id: 2
     material: WOODEN_PICKAXE
     name: "&fCúp Tân Binh &e&lIV"
     max-durability: 500
@@ -108,11 +108,11 @@ PICKAXE_TAN_BINH_4:
       template: pickaxe-tan-binh-template
       max: 100
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 PICKAXE_TAN_BINH_5:
   base:
-    revision-id: 1
+    revision-id: 2
     material: WOODEN_PICKAXE
     name: "&fCúp Tân Binh &e&lV"
     max-durability: 500
@@ -136,11 +136,11 @@ PICKAXE_TAN_BINH_5:
       template: pickaxe-tan-binh-template
       max: 100
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 PICKAXE_TU_NHAN_1:
   base:
-    revision-id: 1
+    revision-id: 2
     material: STONE_PICKAXE
     name: "&aCúp Tù Nhân &e&lI"
     max-durability: 1000
@@ -164,11 +164,11 @@ PICKAXE_TU_NHAN_1:
       template: pickaxe-tu-nhan-template
       max: 100
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 PICKAXE_TU_NHAN_2:
   base:
-    revision-id: 1
+    revision-id: 2
     material: STONE_PICKAXE
     name: "&aCúp Tù Nhân &e&lII"
     max-durability: 1000
@@ -192,11 +192,11 @@ PICKAXE_TU_NHAN_2:
       template: pickaxe-tu-nhan-template
       max: 100
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 PICKAXE_TU_NHAN_3:
   base:
-    revision-id: 1
+    revision-id: 2
     material: STONE_PICKAXE
     name: "&aCúp Tù Nhân &e&lIII"
     max-durability: 1000
@@ -220,11 +220,11 @@ PICKAXE_TU_NHAN_3:
       template: pickaxe-tu-nhan-template
       max: 100
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 PICKAXE_TU_NHAN_4:
   base:
-    revision-id: 1
+    revision-id: 2
     material: STONE_PICKAXE
     name: "&aCúp Tù Nhân &e&lIV"
     max-durability: 1000
@@ -248,11 +248,11 @@ PICKAXE_TU_NHAN_4:
       template: pickaxe-tu-nhan-template
       max: 100
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 PICKAXE_TU_NHAN_5:
   base:
-    revision-id: 1
+    revision-id: 2
     material: STONE_PICKAXE
     name: "&aCúp Tù Nhân &e&lV"
     max-durability: 1000
@@ -276,11 +276,11 @@ PICKAXE_TU_NHAN_5:
       template: pickaxe-tu-nhan-template
       max: 100
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 PICKAXE_LAO_CONG_1:
   base:
-    revision-id: 1
+    revision-id: 2
     material: IRON_PICKAXE
     name: "&bCúp Lao Công &e&lI"
     max-durability: 2000
@@ -304,11 +304,11 @@ PICKAXE_LAO_CONG_1:
       template: pickaxe-lao-cong-template
       max: 100
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 PICKAXE_LAO_CONG_2:
   base:
-    revision-id: 1
+    revision-id: 2
     material: IRON_PICKAXE
     name: "&bCúp Lao Công &e&lII"
     max-durability: 2000
@@ -332,11 +332,11 @@ PICKAXE_LAO_CONG_2:
       template: pickaxe-lao-cong-template
       max: 100
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 PICKAXE_LAO_CONG_3:
   base:
-    revision-id: 1
+    revision-id: 2
     material: IRON_PICKAXE
     name: "&bCúp Lao Công &e&lIII"
     max-durability: 2000
@@ -360,11 +360,11 @@ PICKAXE_LAO_CONG_3:
       template: pickaxe-lao-cong-template
       max: 100
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 PICKAXE_LAO_CONG_4:
   base:
-    revision-id: 1
+    revision-id: 2
     material: IRON_PICKAXE
     name: "&bCúp Lao Công &e&lIV"
     max-durability: 2000
@@ -388,11 +388,11 @@ PICKAXE_LAO_CONG_4:
       template: pickaxe-lao-cong-template
       max: 100
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 PICKAXE_LAO_CONG_5:
   base:
-    revision-id: 1
+    revision-id: 2
     material: IRON_PICKAXE
     name: "&bCúp Lao Công &e&lV"
     max-durability: 2000
@@ -416,11 +416,11 @@ PICKAXE_LAO_CONG_5:
       template: pickaxe-lao-cong-template
       max: 100
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 PICKAXE_THO_DAO_1:
   base:
-    revision-id: 1
+    revision-id: 2
     material: IRON_PICKAXE
     name: "&eCúp Thợ Đào &e&lI"
     max-durability: 3500
@@ -444,11 +444,11 @@ PICKAXE_THO_DAO_1:
       template: pickaxe-tho-dao-template
       max: 100
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 PICKAXE_THO_DAO_2:
   base:
-    revision-id: 1
+    revision-id: 2
     material: IRON_PICKAXE
     name: "&eCúp Thợ Đào &e&lII"
     max-durability: 3500
@@ -472,11 +472,11 @@ PICKAXE_THO_DAO_2:
       template: pickaxe-tho-dao-template
       max: 100
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 PICKAXE_THO_DAO_3:
   base:
-    revision-id: 1
+    revision-id: 2
     material: IRON_PICKAXE
     name: "&eCúp Thợ Đào &e&lIII"
     max-durability: 3500
@@ -500,11 +500,11 @@ PICKAXE_THO_DAO_3:
       template: pickaxe-tho-dao-template
       max: 100
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 PICKAXE_THO_DAO_4:
   base:
-    revision-id: 1
+    revision-id: 2
     material: IRON_PICKAXE
     name: "&eCúp Thợ Đào &e&lIV"
     max-durability: 3500
@@ -528,11 +528,11 @@ PICKAXE_THO_DAO_4:
       template: pickaxe-tho-dao-template
       max: 100
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 PICKAXE_THO_DAO_5:
   base:
-    revision-id: 1
+    revision-id: 2
     material: IRON_PICKAXE
     name: "&eCúp Thợ Đào &e&lV"
     max-durability: 3500
@@ -556,11 +556,11 @@ PICKAXE_THO_DAO_5:
       template: pickaxe-tho-dao-template
       max: 100
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 PICKAXE_DOI_TRUONG_1:
   base:
-    revision-id: 1
+    revision-id: 2
     material: DIAMOND_PICKAXE
     name: "&6Cúp Đội Trưởng &e&lI"
     max-durability: 5000
@@ -584,11 +584,11 @@ PICKAXE_DOI_TRUONG_1:
       template: pickaxe-doi-truong-template
       max: 100
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 PICKAXE_DOI_TRUONG_2:
   base:
-    revision-id: 1
+    revision-id: 2
     material: DIAMOND_PICKAXE
     name: "&6Cúp Đội Trưởng &e&lII"
     max-durability: 5000
@@ -612,11 +612,11 @@ PICKAXE_DOI_TRUONG_2:
       template: pickaxe-doi-truong-template
       max: 100
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 PICKAXE_DOI_TRUONG_3:
   base:
-    revision-id: 1
+    revision-id: 2
     material: DIAMOND_PICKAXE
     name: "&6Cúp Đội Trưởng &e&lIII"
     max-durability: 5000
@@ -640,11 +640,11 @@ PICKAXE_DOI_TRUONG_3:
       template: pickaxe-doi-truong-template
       max: 100
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 PICKAXE_DOI_TRUONG_4:
   base:
-    revision-id: 1
+    revision-id: 2
     material: DIAMOND_PICKAXE
     name: "&6Cúp Đội Trưởng &e&lIV"
     max-durability: 5000
@@ -668,11 +668,11 @@ PICKAXE_DOI_TRUONG_4:
       template: pickaxe-doi-truong-template
       max: 100
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 PICKAXE_DOI_TRUONG_5:
   base:
-    revision-id: 1
+    revision-id: 2
     material: DIAMOND_PICKAXE
     name: "&6Cúp Đội Trưởng &e&lV"
     max-durability: 5000
@@ -696,11 +696,11 @@ PICKAXE_DOI_TRUONG_5:
       template: pickaxe-doi-truong-template
       max: 100
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 PICKAXE_PHO_QUAN_NGUC_1:
   base:
-    revision-id: 1
+    revision-id: 2
     material: DIAMOND_PICKAXE
     name: "&cCúp Phó Quản Ngục &e&lI"
     max-durability: 7000
@@ -724,11 +724,11 @@ PICKAXE_PHO_QUAN_NGUC_1:
       template: pickaxe-pho-quan-nguc-template
       max: 100
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 PICKAXE_PHO_QUAN_NGUC_2:
   base:
-    revision-id: 1
+    revision-id: 2
     material: DIAMOND_PICKAXE
     name: "&cCúp Phó Quản Ngục &e&lII"
     max-durability: 7000
@@ -752,11 +752,11 @@ PICKAXE_PHO_QUAN_NGUC_2:
       template: pickaxe-pho-quan-nguc-template
       max: 100
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 PICKAXE_PHO_QUAN_NGUC_3:
   base:
-    revision-id: 1
+    revision-id: 2
     material: DIAMOND_PICKAXE
     name: "&cCúp Phó Quản Ngục &e&lIII"
     max-durability: 7000
@@ -780,11 +780,11 @@ PICKAXE_PHO_QUAN_NGUC_3:
       template: pickaxe-pho-quan-nguc-template
       max: 100
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 PICKAXE_PHO_QUAN_NGUC_4:
   base:
-    revision-id: 1
+    revision-id: 2
     material: DIAMOND_PICKAXE
     name: "&cCúp Phó Quản Ngục &e&lIV"
     max-durability: 7000
@@ -808,11 +808,11 @@ PICKAXE_PHO_QUAN_NGUC_4:
       template: pickaxe-pho-quan-nguc-template
       max: 100
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 PICKAXE_PHO_QUAN_NGUC_5:
   base:
-    revision-id: 1
+    revision-id: 2
     material: DIAMOND_PICKAXE
     name: "&cCúp Phó Quản Ngục &e&lV"
     max-durability: 7000
@@ -836,11 +836,11 @@ PICKAXE_PHO_QUAN_NGUC_5:
       template: pickaxe-pho-quan-nguc-template
       max: 100
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 PICKAXE_QUAN_NGUC_1:
   base:
-    revision-id: 1
+    revision-id: 2
     material: NETHERITE_PICKAXE
     name: "&dCúp Quản Ngục &e&lI"
     max-durability: 9500
@@ -864,11 +864,11 @@ PICKAXE_QUAN_NGUC_1:
       template: pickaxe-quan-nguc-template
       max: 100
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 PICKAXE_QUAN_NGUC_2:
   base:
-    revision-id: 1
+    revision-id: 2
     material: NETHERITE_PICKAXE
     name: "&dCúp Quản Ngục &e&lII"
     max-durability: 9500
@@ -892,11 +892,11 @@ PICKAXE_QUAN_NGUC_2:
       template: pickaxe-quan-nguc-template
       max: 100
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 PICKAXE_QUAN_NGUC_3:
   base:
-    revision-id: 1
+    revision-id: 2
     material: NETHERITE_PICKAXE
     name: "&dCúp Quản Ngục &e&lIII"
     max-durability: 9500
@@ -920,11 +920,11 @@ PICKAXE_QUAN_NGUC_3:
       template: pickaxe-quan-nguc-template
       max: 100
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 PICKAXE_QUAN_NGUC_4:
   base:
-    revision-id: 1
+    revision-id: 2
     material: NETHERITE_PICKAXE
     name: "&dCúp Quản Ngục &e&lIV"
     max-durability: 9500
@@ -948,11 +948,11 @@ PICKAXE_QUAN_NGUC_4:
       template: pickaxe-quan-nguc-template
       max: 100
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 PICKAXE_QUAN_NGUC_5:
   base:
-    revision-id: 1
+    revision-id: 2
     material: NETHERITE_PICKAXE
     name: "&dCúp Quản Ngục &e&lV"
     max-durability: 9500
@@ -976,11 +976,11 @@ PICKAXE_QUAN_NGUC_5:
       template: pickaxe-quan-nguc-template
       max: 100
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 PICKAXE_BA_CHU_NGUC_TU_1:
   base:
-    revision-id: 1
+    revision-id: 2
     material: NETHERITE_PICKAXE
     name: "&5Cúp Bá Chủ Ngục Tù &e&lI"
     max-durability: 12500
@@ -1004,11 +1004,11 @@ PICKAXE_BA_CHU_NGUC_TU_1:
       template: pickaxe-ba-chu-nguc-tu-template
       max: 100
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 PICKAXE_BA_CHU_NGUC_TU_2:
   base:
-    revision-id: 1
+    revision-id: 2
     material: NETHERITE_PICKAXE
     name: "&5Cúp Bá Chủ Ngục Tù &e&lII"
     max-durability: 12500
@@ -1032,11 +1032,11 @@ PICKAXE_BA_CHU_NGUC_TU_2:
       template: pickaxe-ba-chu-nguc-tu-template
       max: 100
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 PICKAXE_BA_CHU_NGUC_TU_3:
   base:
-    revision-id: 1
+    revision-id: 2
     material: NETHERITE_PICKAXE
     name: "&5Cúp Bá Chủ Ngục Tù &e&lIII"
     max-durability: 12500
@@ -1060,11 +1060,11 @@ PICKAXE_BA_CHU_NGUC_TU_3:
       template: pickaxe-ba-chu-nguc-tu-template
       max: 100
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 PICKAXE_BA_CHU_NGUC_TU_4:
   base:
-    revision-id: 1
+    revision-id: 2
     material: NETHERITE_PICKAXE
     name: "&5Cúp Bá Chủ Ngục Tù &e&lIV"
     max-durability: 12500
@@ -1088,11 +1088,11 @@ PICKAXE_BA_CHU_NGUC_TU_4:
       template: pickaxe-ba-chu-nguc-tu-template
       max: 100
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 PICKAXE_BA_CHU_NGUC_TU_5:
   base:
-    revision-id: 1
+    revision-id: 2
     material: NETHERITE_PICKAXE
     name: "&5Cúp Bá Chủ Ngục Tù &e&lV"
     max-durability: 12500
@@ -1116,11 +1116,11 @@ PICKAXE_BA_CHU_NGUC_TU_5:
       template: pickaxe-ba-chu-nguc-tu-template
       max: 100
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 PICKAXE_VUOT_NGUC_1:
   base:
-    revision-id: 1
+    revision-id: 2
     material: NETHERITE_PICKAXE
     name: "&4Cúp Vượt Ngục &e&lI"
     max-durability: 16000
@@ -1144,11 +1144,11 @@ PICKAXE_VUOT_NGUC_1:
       template: pickaxe-vuot-nguc-template
       max: 100
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 PICKAXE_VUOT_NGUC_2:
   base:
-    revision-id: 1
+    revision-id: 2
     material: NETHERITE_PICKAXE
     name: "&4Cúp Vượt Ngục &e&lII"
     max-durability: 16000
@@ -1172,11 +1172,11 @@ PICKAXE_VUOT_NGUC_2:
       template: pickaxe-vuot-nguc-template
       max: 100
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 PICKAXE_VUOT_NGUC_3:
   base:
-    revision-id: 1
+    revision-id: 2
     material: NETHERITE_PICKAXE
     name: "&4Cúp Vượt Ngục &e&lIII"
     max-durability: 16000
@@ -1200,11 +1200,11 @@ PICKAXE_VUOT_NGUC_3:
       template: pickaxe-vuot-nguc-template
       max: 100
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 PICKAXE_VUOT_NGUC_4:
   base:
-    revision-id: 1
+    revision-id: 2
     material: NETHERITE_PICKAXE
     name: "&4Cúp Vượt Ngục &e&lIV"
     max-durability: 16000
@@ -1228,11 +1228,11 @@ PICKAXE_VUOT_NGUC_4:
       template: pickaxe-vuot-nguc-template
       max: 100
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 PICKAXE_VUOT_NGUC_5:
   base:
-    revision-id: 1
+    revision-id: 2
     material: NETHERITE_PICKAXE
     name: "&4Cúp Vượt Ngục &e&lV"
     max-durability: 16000
@@ -1256,5 +1256,5 @@ PICKAXE_VUOT_NGUC_5:
       template: pickaxe-vuot-nguc-template
       max: 100
     will-break: false
-    unbreakable: false
+    unbreakable: true
 

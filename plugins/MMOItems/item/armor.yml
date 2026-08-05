@@ -1,7 +1,7 @@
 ﻿TEST_ARMOR_FULL_STATS:
   base:
     custom-maxsockets: 7.0
-    revision-id: 1
+    revision-id: 2
     material: NETHERITE_CHESTPLATE
     name: "&c&l🛡 Áo Giáp Thử Nghiệm &e&l[FULL STATS]"
     tier: UNIQUE
@@ -43,12 +43,12 @@
       template: armor-upgrade-template
       max: 100
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 HELMET_TAN_BINH_1:
   base:
     custom-maxsockets: 1.0
-    revision-id: 1
+    revision-id: 2
     material: LEATHER_HELMET
     name: "&fNón Tân Binh &e&lI"
     max-durability: 400
@@ -66,12 +66,12 @@ HELMET_TAN_BINH_1:
       template: armor-upgrade-template
       max: 100
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 HELMET_TAN_BINH_2:
   base:
     custom-maxsockets: 1.0
-    revision-id: 1
+    revision-id: 2
     material: LEATHER_HELMET
     name: "&fNón Tân Binh &e&lII"
     max-durability: 400
@@ -89,12 +89,12 @@ HELMET_TAN_BINH_2:
       template: armor-upgrade-template
       max: 100
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 HELMET_TAN_BINH_3:
   base:
     custom-maxsockets: 1.0
-    revision-id: 1
+    revision-id: 2
     material: LEATHER_HELMET
     name: "&fNón Tân Binh &e&lIII"
     max-durability: 400
@@ -112,12 +112,12 @@ HELMET_TAN_BINH_3:
       template: armor-upgrade-template
       max: 100
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 HELMET_TAN_BINH_4:
   base:
     custom-maxsockets: 1.0
-    revision-id: 1
+    revision-id: 2
     material: LEATHER_HELMET
     name: "&fNón Tân Binh &e&lIV"
     max-durability: 400
@@ -135,12 +135,12 @@ HELMET_TAN_BINH_4:
       template: armor-upgrade-template
       max: 100
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 HELMET_TAN_BINH_5:
   base:
     custom-maxsockets: 1.0
-    revision-id: 1
+    revision-id: 2
     material: LEATHER_HELMET
     name: "&fNón Tân Binh &e&lV"
     max-durability: 400
@@ -158,12 +158,12 @@ HELMET_TAN_BINH_5:
       template: armor-upgrade-template
       max: 100
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 HELMET_TU_NHAN_1:
   base:
     custom-maxsockets: 2.0
-    revision-id: 1
+    revision-id: 2
     material: LEATHER_HELMET
     name: "&aNón Tù Nhân &e&lI"
     max-durability: 800
@@ -181,12 +181,12 @@ HELMET_TU_NHAN_1:
       template: armor-upgrade-template
       max: 100
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 HELMET_TU_NHAN_2:
   base:
     custom-maxsockets: 2.0
-    revision-id: 1
+    revision-id: 2
     material: LEATHER_HELMET
     name: "&aNón Tù Nhân &e&lII"
     max-durability: 800
@@ -204,12 +204,12 @@ HELMET_TU_NHAN_2:
       template: armor-upgrade-template
       max: 100
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 HELMET_TU_NHAN_3:
   base:
     custom-maxsockets: 2.0
-    revision-id: 1
+    revision-id: 2
     material: LEATHER_HELMET
     name: "&aNón Tù Nhân &e&lIII"
     max-durability: 800
@@ -227,12 +227,12 @@ HELMET_TU_NHAN_3:
       template: armor-upgrade-template
       max: 100
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 HELMET_TU_NHAN_4:
   base:
     custom-maxsockets: 2.0
-    revision-id: 1
+    revision-id: 2
     material: LEATHER_HELMET
     name: "&aNón Tù Nhân &e&lIV"
     max-durability: 800
@@ -250,12 +250,12 @@ HELMET_TU_NHAN_4:
       template: armor-upgrade-template
       max: 100
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 HELMET_TU_NHAN_5:
   base:
     custom-maxsockets: 2.0
-    revision-id: 1
+    revision-id: 2
     material: LEATHER_HELMET
     name: "&aNón Tù Nhân &e&lV"
     max-durability: 800
@@ -273,12 +273,12 @@ HELMET_TU_NHAN_5:
       template: armor-upgrade-template
       max: 100
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 HELMET_LAO_CONG_1:
   base:
     custom-maxsockets: 2.0
-    revision-id: 1
+    revision-id: 2
     material: CHAINMAIL_HELMET
     name: "&bNón Lao Công &e&lI"
     max-durability: 1500
@@ -298,12 +298,12 @@ HELMET_LAO_CONG_1:
       template: armor-upgrade-template
       max: 100
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 HELMET_LAO_CONG_2:
   base:
     custom-maxsockets: 2.0
-    revision-id: 1
+    revision-id: 2
     material: CHAINMAIL_HELMET
     name: "&bNón Lao Công &e&lII"
     max-durability: 1500
@@ -323,12 +323,12 @@ HELMET_LAO_CONG_2:
       template: armor-upgrade-template
       max: 100
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 HELMET_LAO_CONG_3:
   base:
     custom-maxsockets: 2.0
-    revision-id: 1
+    revision-id: 2
     material: CHAINMAIL_HELMET
     name: "&bNón Lao Công &e&lIII"
     max-durability: 1500
@@ -348,12 +348,12 @@ HELMET_LAO_CONG_3:
       template: armor-upgrade-template
       max: 100
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 HELMET_LAO_CONG_4:
   base:
     custom-maxsockets: 2.0
-    revision-id: 1
+    revision-id: 2
     material: CHAINMAIL_HELMET
     name: "&bNón Lao Công &e&lIV"
     max-durability: 1500
@@ -373,12 +373,12 @@ HELMET_LAO_CONG_4:
       template: armor-upgrade-template
       max: 100
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 HELMET_LAO_CONG_5:
   base:
     custom-maxsockets: 2.0
-    revision-id: 1
+    revision-id: 2
     material: CHAINMAIL_HELMET
     name: "&bNón Lao Công &e&lV"
     max-durability: 1500
@@ -398,12 +398,12 @@ HELMET_LAO_CONG_5:
       template: armor-upgrade-template
       max: 100
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 HELMET_THO_DAO_1:
   base:
     custom-maxsockets: 3.0
-    revision-id: 1
+    revision-id: 2
     material: IRON_HELMET
     name: "&eNón Thợ Đào &e&lI"
     max-durability: 2500
@@ -424,12 +424,12 @@ HELMET_THO_DAO_1:
       template: armor-upgrade-template
       max: 100
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 HELMET_THO_DAO_2:
   base:
     custom-maxsockets: 3.0
-    revision-id: 1
+    revision-id: 2
     material: IRON_HELMET
     name: "&eNón Thợ Đào &e&lII"
     max-durability: 2500
@@ -450,12 +450,12 @@ HELMET_THO_DAO_2:
       template: armor-upgrade-template
       max: 100
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 HELMET_THO_DAO_3:
   base:
     custom-maxsockets: 3.0
-    revision-id: 1
+    revision-id: 2
     material: IRON_HELMET
     name: "&eNón Thợ Đào &e&lIII"
     max-durability: 2500
@@ -476,12 +476,12 @@ HELMET_THO_DAO_3:
       template: armor-upgrade-template
       max: 100
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 HELMET_THO_DAO_4:
   base:
     custom-maxsockets: 3.0
-    revision-id: 1
+    revision-id: 2
     material: IRON_HELMET
     name: "&eNón Thợ Đào &e&lIV"
     max-durability: 2500
@@ -502,12 +502,12 @@ HELMET_THO_DAO_4:
       template: armor-upgrade-template
       max: 100
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 HELMET_THO_DAO_5:
   base:
     custom-maxsockets: 3.0
-    revision-id: 1
+    revision-id: 2
     material: IRON_HELMET
     name: "&eNón Thợ Đào &e&lV"
     max-durability: 2500
@@ -528,12 +528,12 @@ HELMET_THO_DAO_5:
       template: armor-upgrade-template
       max: 100
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 HELMET_DOI_TRUONG_1:
   base:
     custom-maxsockets: 3.0
-    revision-id: 1
+    revision-id: 2
     material: DIAMOND_HELMET
     name: "&6Nón Đội Trưởng &e&lI"
     max-durability: 3800
@@ -554,12 +554,12 @@ HELMET_DOI_TRUONG_1:
       template: armor-upgrade-template
       max: 100
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 HELMET_DOI_TRUONG_2:
   base:
     custom-maxsockets: 3.0
-    revision-id: 1
+    revision-id: 2
     material: DIAMOND_HELMET
     name: "&6Nón Đội Trưởng &e&lII"
     max-durability: 3800
@@ -580,12 +580,12 @@ HELMET_DOI_TRUONG_2:
       template: armor-upgrade-template
       max: 100
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 HELMET_DOI_TRUONG_3:
   base:
     custom-maxsockets: 3.0
-    revision-id: 1
+    revision-id: 2
     material: DIAMOND_HELMET
     name: "&6Nón Đội Trưởng &e&lIII"
     max-durability: 3800
@@ -606,12 +606,12 @@ HELMET_DOI_TRUONG_3:
       template: armor-upgrade-template
       max: 100
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 HELMET_DOI_TRUONG_4:
   base:
     custom-maxsockets: 3.0
-    revision-id: 1
+    revision-id: 2
     material: DIAMOND_HELMET
     name: "&6Nón Đội Trưởng &e&lIV"
     max-durability: 3800
@@ -632,12 +632,12 @@ HELMET_DOI_TRUONG_4:
       template: armor-upgrade-template
       max: 100
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 HELMET_DOI_TRUONG_5:
   base:
     custom-maxsockets: 3.0
-    revision-id: 1
+    revision-id: 2
     material: DIAMOND_HELMET
     name: "&6Nón Đội Trưởng &e&lV"
     max-durability: 3800
@@ -658,12 +658,12 @@ HELMET_DOI_TRUONG_5:
       template: armor-upgrade-template
       max: 100
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 HELMET_PHO_QUAN_NGUC_1:
   base:
     custom-maxsockets: 4.0
-    revision-id: 1
+    revision-id: 2
     material: DIAMOND_HELMET
     name: "&cNón Phó Quản Ngục &e&lI"
     max-durability: 5200
@@ -684,12 +684,12 @@ HELMET_PHO_QUAN_NGUC_1:
       template: armor-upgrade-template
       max: 100
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 HELMET_PHO_QUAN_NGUC_2:
   base:
     custom-maxsockets: 4.0
-    revision-id: 1
+    revision-id: 2
     material: DIAMOND_HELMET
     name: "&cNón Phó Quản Ngục &e&lII"
     max-durability: 5200
@@ -710,12 +710,12 @@ HELMET_PHO_QUAN_NGUC_2:
       template: armor-upgrade-template
       max: 100
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 HELMET_PHO_QUAN_NGUC_3:
   base:
     custom-maxsockets: 4.0
-    revision-id: 1
+    revision-id: 2
     material: DIAMOND_HELMET
     name: "&cNón Phó Quản Ngục &e&lIII"
     max-durability: 5200
@@ -736,12 +736,12 @@ HELMET_PHO_QUAN_NGUC_3:
       template: armor-upgrade-template
       max: 100
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 HELMET_PHO_QUAN_NGUC_4:
   base:
     custom-maxsockets: 4.0
-    revision-id: 1
+    revision-id: 2
     material: DIAMOND_HELMET
     name: "&cNón Phó Quản Ngục &e&lIV"
     max-durability: 5200
@@ -762,12 +762,12 @@ HELMET_PHO_QUAN_NGUC_4:
       template: armor-upgrade-template
       max: 100
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 HELMET_PHO_QUAN_NGUC_5:
   base:
     custom-maxsockets: 4.0
-    revision-id: 1
+    revision-id: 2
     material: DIAMOND_HELMET
     name: "&cNón Phó Quản Ngục &e&lV"
     max-durability: 5200
@@ -788,12 +788,12 @@ HELMET_PHO_QUAN_NGUC_5:
       template: armor-upgrade-template
       max: 100
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 HELMET_QUAN_NGUC_1:
   base:
     custom-maxsockets: 5.0
-    revision-id: 1
+    revision-id: 2
     material: NETHERITE_HELMET
     name: "&dNón Quản Ngục &e&lI"
     max-durability: 7000
@@ -814,12 +814,12 @@ HELMET_QUAN_NGUC_1:
       template: armor-upgrade-template
       max: 100
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 HELMET_QUAN_NGUC_2:
   base:
     custom-maxsockets: 5.0
-    revision-id: 1
+    revision-id: 2
     material: NETHERITE_HELMET
     name: "&dNón Quản Ngục &e&lII"
     max-durability: 7000
@@ -840,12 +840,12 @@ HELMET_QUAN_NGUC_2:
       template: armor-upgrade-template
       max: 100
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 HELMET_QUAN_NGUC_3:
   base:
     custom-maxsockets: 5.0
-    revision-id: 1
+    revision-id: 2
     material: NETHERITE_HELMET
     name: "&dNón Quản Ngục &e&lIII"
     max-durability: 7000
@@ -866,12 +866,12 @@ HELMET_QUAN_NGUC_3:
       template: armor-upgrade-template
       max: 100
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 HELMET_QUAN_NGUC_4:
   base:
     custom-maxsockets: 5.0
-    revision-id: 1
+    revision-id: 2
     material: NETHERITE_HELMET
     name: "&dNón Quản Ngục &e&lIV"
     max-durability: 7000
@@ -892,12 +892,12 @@ HELMET_QUAN_NGUC_4:
       template: armor-upgrade-template
       max: 100
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 HELMET_QUAN_NGUC_5:
   base:
     custom-maxsockets: 5.0
-    revision-id: 1
+    revision-id: 2
     material: NETHERITE_HELMET
     name: "&dNón Quản Ngục &e&lV"
     max-durability: 7000
@@ -918,12 +918,12 @@ HELMET_QUAN_NGUC_5:
       template: armor-upgrade-template
       max: 100
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 HELMET_BA_CHU_NGUC_TU_1:
   base:
     custom-maxsockets: 6.0
-    revision-id: 1
+    revision-id: 2
     material: NETHERITE_HELMET
     name: "&5Nón Bá Chủ Ngục Tù &e&lI"
     max-durability: 9000
@@ -944,12 +944,12 @@ HELMET_BA_CHU_NGUC_TU_1:
       template: armor-upgrade-template
       max: 100
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 HELMET_BA_CHU_NGUC_TU_2:
   base:
     custom-maxsockets: 6.0
-    revision-id: 1
+    revision-id: 2
     material: NETHERITE_HELMET
     name: "&5Nón Bá Chủ Ngục Tù &e&lII"
     max-durability: 9000
@@ -970,12 +970,12 @@ HELMET_BA_CHU_NGUC_TU_2:
       template: armor-upgrade-template
       max: 100
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 HELMET_BA_CHU_NGUC_TU_3:
   base:
     custom-maxsockets: 6.0
-    revision-id: 1
+    revision-id: 2
     material: NETHERITE_HELMET
     name: "&5Nón Bá Chủ Ngục Tù &e&lIII"
     max-durability: 9000
@@ -996,12 +996,12 @@ HELMET_BA_CHU_NGUC_TU_3:
       template: armor-upgrade-template
       max: 100
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 HELMET_BA_CHU_NGUC_TU_4:
   base:
     custom-maxsockets: 6.0
-    revision-id: 1
+    revision-id: 2
     material: NETHERITE_HELMET
     name: "&5Nón Bá Chủ Ngục Tù &e&lIV"
     max-durability: 9000
@@ -1022,12 +1022,12 @@ HELMET_BA_CHU_NGUC_TU_4:
       template: armor-upgrade-template
       max: 100
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 HELMET_BA_CHU_NGUC_TU_5:
   base:
     custom-maxsockets: 6.0
-    revision-id: 1
+    revision-id: 2
     material: NETHERITE_HELMET
     name: "&5Nón Bá Chủ Ngục Tù &e&lV"
     max-durability: 9000
@@ -1048,12 +1048,12 @@ HELMET_BA_CHU_NGUC_TU_5:
       template: armor-upgrade-template
       max: 100
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 HELMET_VUOT_NGUC_1:
   base:
     custom-maxsockets: 7.0
-    revision-id: 1
+    revision-id: 2
     material: NETHERITE_HELMET
     name: "&4Nón Vượt Ngục &e&lI"
     max-durability: 12000
@@ -1074,12 +1074,12 @@ HELMET_VUOT_NGUC_1:
       template: armor-upgrade-template
       max: 100
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 HELMET_VUOT_NGUC_2:
   base:
     custom-maxsockets: 7.0
-    revision-id: 1
+    revision-id: 2
     material: NETHERITE_HELMET
     name: "&4Nón Vượt Ngục &e&lII"
     max-durability: 12000
@@ -1100,12 +1100,12 @@ HELMET_VUOT_NGUC_2:
       template: armor-upgrade-template
       max: 100
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 HELMET_VUOT_NGUC_3:
   base:
     custom-maxsockets: 7.0
-    revision-id: 1
+    revision-id: 2
     material: NETHERITE_HELMET
     name: "&4Nón Vượt Ngục &e&lIII"
     max-durability: 12000
@@ -1126,12 +1126,12 @@ HELMET_VUOT_NGUC_3:
       template: armor-upgrade-template
       max: 100
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 HELMET_VUOT_NGUC_4:
   base:
     custom-maxsockets: 7.0
-    revision-id: 1
+    revision-id: 2
     material: NETHERITE_HELMET
     name: "&4Nón Vượt Ngục &e&lIV"
     max-durability: 12000
@@ -1152,12 +1152,12 @@ HELMET_VUOT_NGUC_4:
       template: armor-upgrade-template
       max: 100
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 HELMET_VUOT_NGUC_5:
   base:
     custom-maxsockets: 7.0
-    revision-id: 1
+    revision-id: 2
     material: NETHERITE_HELMET
     name: "&4Nón Vượt Ngục &e&lV"
     max-durability: 12000
@@ -1178,12 +1178,12 @@ HELMET_VUOT_NGUC_5:
       template: armor-upgrade-template
       max: 100
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 CHESTPLATE_TAN_BINH_1:
   base:
     custom-maxsockets: 1.0
-    revision-id: 1
+    revision-id: 2
     material: LEATHER_CHESTPLATE
     name: "&fÁo Giáp Tân Binh &e&lI"
     max-durability: 400
@@ -1201,12 +1201,12 @@ CHESTPLATE_TAN_BINH_1:
       template: armor-upgrade-template
       max: 100
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 CHESTPLATE_TAN_BINH_2:
   base:
     custom-maxsockets: 1.0
-    revision-id: 1
+    revision-id: 2
     material: LEATHER_CHESTPLATE
     name: "&fÁo Giáp Tân Binh &e&lII"
     max-durability: 400
@@ -1224,12 +1224,12 @@ CHESTPLATE_TAN_BINH_2:
       template: armor-upgrade-template
       max: 100
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 CHESTPLATE_TAN_BINH_3:
   base:
     custom-maxsockets: 1.0
-    revision-id: 1
+    revision-id: 2
     material: LEATHER_CHESTPLATE
     name: "&fÁo Giáp Tân Binh &e&lIII"
     max-durability: 400
@@ -1247,12 +1247,12 @@ CHESTPLATE_TAN_BINH_3:
       template: armor-upgrade-template
       max: 100
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 CHESTPLATE_TAN_BINH_4:
   base:
     custom-maxsockets: 1.0
-    revision-id: 1
+    revision-id: 2
     material: LEATHER_CHESTPLATE
     name: "&fÁo Giáp Tân Binh &e&lIV"
     max-durability: 400
@@ -1270,12 +1270,12 @@ CHESTPLATE_TAN_BINH_4:
       template: armor-upgrade-template
       max: 100
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 CHESTPLATE_TAN_BINH_5:
   base:
     custom-maxsockets: 1.0
-    revision-id: 1
+    revision-id: 2
     material: LEATHER_CHESTPLATE
     name: "&fÁo Giáp Tân Binh &e&lV"
     max-durability: 400
@@ -1293,12 +1293,12 @@ CHESTPLATE_TAN_BINH_5:
       template: armor-upgrade-template
       max: 100
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 CHESTPLATE_TU_NHAN_1:
   base:
     custom-maxsockets: 2.0
-    revision-id: 1
+    revision-id: 2
     material: LEATHER_CHESTPLATE
     name: "&aÁo Giáp Tù Nhân &e&lI"
     max-durability: 800
@@ -1316,12 +1316,12 @@ CHESTPLATE_TU_NHAN_1:
       template: armor-upgrade-template
       max: 100
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 CHESTPLATE_TU_NHAN_2:
   base:
     custom-maxsockets: 2.0
-    revision-id: 1
+    revision-id: 2
     material: LEATHER_CHESTPLATE
     name: "&aÁo Giáp Tù Nhân &e&lII"
     max-durability: 800
@@ -1339,12 +1339,12 @@ CHESTPLATE_TU_NHAN_2:
       template: armor-upgrade-template
       max: 100
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 CHESTPLATE_TU_NHAN_3:
   base:
     custom-maxsockets: 2.0
-    revision-id: 1
+    revision-id: 2
     material: LEATHER_CHESTPLATE
     name: "&aÁo Giáp Tù Nhân &e&lIII"
     max-durability: 800
@@ -1362,12 +1362,12 @@ CHESTPLATE_TU_NHAN_3:
       template: armor-upgrade-template
       max: 100
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 CHESTPLATE_TU_NHAN_4:
   base:
     custom-maxsockets: 2.0
-    revision-id: 1
+    revision-id: 2
     material: LEATHER_CHESTPLATE
     name: "&aÁo Giáp Tù Nhân &e&lIV"
     max-durability: 800
@@ -1385,12 +1385,12 @@ CHESTPLATE_TU_NHAN_4:
       template: armor-upgrade-template
       max: 100
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 CHESTPLATE_TU_NHAN_5:
   base:
     custom-maxsockets: 2.0
-    revision-id: 1
+    revision-id: 2
     material: LEATHER_CHESTPLATE
     name: "&aÁo Giáp Tù Nhân &e&lV"
     max-durability: 800
@@ -1408,12 +1408,12 @@ CHESTPLATE_TU_NHAN_5:
       template: armor-upgrade-template
       max: 100
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 CHESTPLATE_LAO_CONG_1:
   base:
     custom-maxsockets: 2.0
-    revision-id: 1
+    revision-id: 2
     material: CHAINMAIL_CHESTPLATE
     name: "&bÁo Giáp Lao Công &e&lI"
     max-durability: 1500
@@ -1432,12 +1432,12 @@ CHESTPLATE_LAO_CONG_1:
       template: armor-upgrade-template
       max: 100
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 CHESTPLATE_LAO_CONG_2:
   base:
     custom-maxsockets: 2.0
-    revision-id: 1
+    revision-id: 2
     material: CHAINMAIL_CHESTPLATE
     name: "&bÁo Giáp Lao Công &e&lII"
     max-durability: 1500
@@ -1456,12 +1456,12 @@ CHESTPLATE_LAO_CONG_2:
       template: armor-upgrade-template
       max: 100
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 CHESTPLATE_LAO_CONG_3:
   base:
     custom-maxsockets: 2.0
-    revision-id: 1
+    revision-id: 2
     material: CHAINMAIL_CHESTPLATE
     name: "&bÁo Giáp Lao Công &e&lIII"
     max-durability: 1500
@@ -1480,12 +1480,12 @@ CHESTPLATE_LAO_CONG_3:
       template: armor-upgrade-template
       max: 100
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 CHESTPLATE_LAO_CONG_4:
   base:
     custom-maxsockets: 2.0
-    revision-id: 1
+    revision-id: 2
     material: CHAINMAIL_CHESTPLATE
     name: "&bÁo Giáp Lao Công &e&lIV"
     max-durability: 1500
@@ -1504,12 +1504,12 @@ CHESTPLATE_LAO_CONG_4:
       template: armor-upgrade-template
       max: 100
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 CHESTPLATE_LAO_CONG_5:
   base:
     custom-maxsockets: 2.0
-    revision-id: 1
+    revision-id: 2
     material: CHAINMAIL_CHESTPLATE
     name: "&bÁo Giáp Lao Công &e&lV"
     max-durability: 1500
@@ -1528,12 +1528,12 @@ CHESTPLATE_LAO_CONG_5:
       template: armor-upgrade-template
       max: 100
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 CHESTPLATE_THO_DAO_1:
   base:
     custom-maxsockets: 3.0
-    revision-id: 1
+    revision-id: 2
     material: IRON_CHESTPLATE
     name: "&eÁo Giáp Thợ Đào &e&lI"
     max-durability: 2500
@@ -1553,12 +1553,12 @@ CHESTPLATE_THO_DAO_1:
       template: armor-upgrade-template
       max: 100
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 CHESTPLATE_THO_DAO_2:
   base:
     custom-maxsockets: 3.0
-    revision-id: 1
+    revision-id: 2
     material: IRON_CHESTPLATE
     name: "&eÁo Giáp Thợ Đào &e&lII"
     max-durability: 2500
@@ -1578,12 +1578,12 @@ CHESTPLATE_THO_DAO_2:
       template: armor-upgrade-template
       max: 100
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 CHESTPLATE_THO_DAO_3:
   base:
     custom-maxsockets: 3.0
-    revision-id: 1
+    revision-id: 2
     material: IRON_CHESTPLATE
     name: "&eÁo Giáp Thợ Đào &e&lIII"
     max-durability: 2500
@@ -1603,12 +1603,12 @@ CHESTPLATE_THO_DAO_3:
       template: armor-upgrade-template
       max: 100
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 CHESTPLATE_THO_DAO_4:
   base:
     custom-maxsockets: 3.0
-    revision-id: 1
+    revision-id: 2
     material: IRON_CHESTPLATE
     name: "&eÁo Giáp Thợ Đào &e&lIV"
     max-durability: 2500
@@ -1628,12 +1628,12 @@ CHESTPLATE_THO_DAO_4:
       template: armor-upgrade-template
       max: 100
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 CHESTPLATE_THO_DAO_5:
   base:
     custom-maxsockets: 3.0
-    revision-id: 1
+    revision-id: 2
     material: IRON_CHESTPLATE
     name: "&eÁo Giáp Thợ Đào &e&lV"
     max-durability: 2500
@@ -1653,12 +1653,12 @@ CHESTPLATE_THO_DAO_5:
       template: armor-upgrade-template
       max: 100
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 CHESTPLATE_DOI_TRUONG_1:
   base:
     custom-maxsockets: 3.0
-    revision-id: 1
+    revision-id: 2
     material: DIAMOND_CHESTPLATE
     name: "&6Áo Giáp Đội Trưởng &e&lI"
     max-durability: 3800
@@ -1678,12 +1678,12 @@ CHESTPLATE_DOI_TRUONG_1:
       template: armor-upgrade-template
       max: 100
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 CHESTPLATE_DOI_TRUONG_2:
   base:
     custom-maxsockets: 3.0
-    revision-id: 1
+    revision-id: 2
     material: DIAMOND_CHESTPLATE
     name: "&6Áo Giáp Đội Trưởng &e&lII"
     max-durability: 3800
@@ -1703,12 +1703,12 @@ CHESTPLATE_DOI_TRUONG_2:
       template: armor-upgrade-template
       max: 100
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 CHESTPLATE_DOI_TRUONG_3:
   base:
     custom-maxsockets: 3.0
-    revision-id: 1
+    revision-id: 2
     material: DIAMOND_CHESTPLATE
     name: "&6Áo Giáp Đội Trưởng &e&lIII"
     max-durability: 3800
@@ -1728,12 +1728,12 @@ CHESTPLATE_DOI_TRUONG_3:
       template: armor-upgrade-template
       max: 100
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 CHESTPLATE_DOI_TRUONG_4:
   base:
     custom-maxsockets: 3.0
-    revision-id: 1
+    revision-id: 2
     material: DIAMOND_CHESTPLATE
     name: "&6Áo Giáp Đội Trưởng &e&lIV"
     max-durability: 3800
@@ -1753,12 +1753,12 @@ CHESTPLATE_DOI_TRUONG_4:
       template: armor-upgrade-template
       max: 100
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 CHESTPLATE_DOI_TRUONG_5:
   base:
     custom-maxsockets: 3.0
-    revision-id: 1
+    revision-id: 2
     material: DIAMOND_CHESTPLATE
     name: "&6Áo Giáp Đội Trưởng &e&lV"
     max-durability: 3800
@@ -1778,12 +1778,12 @@ CHESTPLATE_DOI_TRUONG_5:
       template: armor-upgrade-template
       max: 100
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 CHESTPLATE_PHO_QUAN_NGUC_1:
   base:
     custom-maxsockets: 4.0
-    revision-id: 1
+    revision-id: 2
     material: DIAMOND_CHESTPLATE
     name: "&cÁo Giáp Phó Quản Ngục &e&lI"
     max-durability: 5200
@@ -1803,12 +1803,12 @@ CHESTPLATE_PHO_QUAN_NGUC_1:
       template: armor-upgrade-template
       max: 100
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 CHESTPLATE_PHO_QUAN_NGUC_2:
   base:
     custom-maxsockets: 4.0
-    revision-id: 1
+    revision-id: 2
     material: DIAMOND_CHESTPLATE
     name: "&cÁo Giáp Phó Quản Ngục &e&lII"
     max-durability: 5200
@@ -1828,12 +1828,12 @@ CHESTPLATE_PHO_QUAN_NGUC_2:
       template: armor-upgrade-template
       max: 100
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 CHESTPLATE_PHO_QUAN_NGUC_3:
   base:
     custom-maxsockets: 4.0
-    revision-id: 1
+    revision-id: 2
     material: DIAMOND_CHESTPLATE
     name: "&cÁo Giáp Phó Quản Ngục &e&lIII"
     max-durability: 5200
@@ -1853,12 +1853,12 @@ CHESTPLATE_PHO_QUAN_NGUC_3:
       template: armor-upgrade-template
       max: 100
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 CHESTPLATE_PHO_QUAN_NGUC_4:
   base:
     custom-maxsockets: 4.0
-    revision-id: 1
+    revision-id: 2
     material: DIAMOND_CHESTPLATE
     name: "&cÁo Giáp Phó Quản Ngục &e&lIV"
     max-durability: 5200
@@ -1878,12 +1878,12 @@ CHESTPLATE_PHO_QUAN_NGUC_4:
       template: armor-upgrade-template
       max: 100
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 CHESTPLATE_PHO_QUAN_NGUC_5:
   base:
     custom-maxsockets: 4.0
-    revision-id: 1
+    revision-id: 2
     material: DIAMOND_CHESTPLATE
     name: "&cÁo Giáp Phó Quản Ngục &e&lV"
     max-durability: 5200
@@ -1903,12 +1903,12 @@ CHESTPLATE_PHO_QUAN_NGUC_5:
       template: armor-upgrade-template
       max: 100
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 CHESTPLATE_QUAN_NGUC_1:
   base:
     custom-maxsockets: 5.0
-    revision-id: 1
+    revision-id: 2
     material: NETHERITE_CHESTPLATE
     name: "&dÁo Giáp Quản Ngục &e&lI"
     max-durability: 7000
@@ -1928,12 +1928,12 @@ CHESTPLATE_QUAN_NGUC_1:
       template: armor-upgrade-template
       max: 100
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 CHESTPLATE_QUAN_NGUC_2:
   base:
     custom-maxsockets: 5.0
-    revision-id: 1
+    revision-id: 2
     material: NETHERITE_CHESTPLATE
     name: "&dÁo Giáp Quản Ngục &e&lII"
     max-durability: 7000
@@ -1953,12 +1953,12 @@ CHESTPLATE_QUAN_NGUC_2:
       template: armor-upgrade-template
       max: 100
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 CHESTPLATE_QUAN_NGUC_3:
   base:
     custom-maxsockets: 5.0
-    revision-id: 1
+    revision-id: 2
     material: NETHERITE_CHESTPLATE
     name: "&dÁo Giáp Quản Ngục &e&lIII"
     max-durability: 7000
@@ -1978,12 +1978,12 @@ CHESTPLATE_QUAN_NGUC_3:
       template: armor-upgrade-template
       max: 100
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 CHESTPLATE_QUAN_NGUC_4:
   base:
     custom-maxsockets: 5.0
-    revision-id: 1
+    revision-id: 2
     material: NETHERITE_CHESTPLATE
     name: "&dÁo Giáp Quản Ngục &e&lIV"
     max-durability: 7000
@@ -2003,12 +2003,12 @@ CHESTPLATE_QUAN_NGUC_4:
       template: armor-upgrade-template
       max: 100
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 CHESTPLATE_QUAN_NGUC_5:
   base:
     custom-maxsockets: 5.0
-    revision-id: 1
+    revision-id: 2
     material: NETHERITE_CHESTPLATE
     name: "&dÁo Giáp Quản Ngục &e&lV"
     max-durability: 7000
@@ -2028,12 +2028,12 @@ CHESTPLATE_QUAN_NGUC_5:
       template: armor-upgrade-template
       max: 100
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 CHESTPLATE_BA_CHU_NGUC_TU_1:
   base:
     custom-maxsockets: 6.0
-    revision-id: 1
+    revision-id: 2
     material: NETHERITE_CHESTPLATE
     name: "&5Áo Giáp Bá Chủ Ngục Tù &e&lI"
     max-durability: 9000
@@ -2053,12 +2053,12 @@ CHESTPLATE_BA_CHU_NGUC_TU_1:
       template: armor-upgrade-template
       max: 100
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 CHESTPLATE_BA_CHU_NGUC_TU_2:
   base:
     custom-maxsockets: 6.0
-    revision-id: 1
+    revision-id: 2
     material: NETHERITE_CHESTPLATE
     name: "&5Áo Giáp Bá Chủ Ngục Tù &e&lII"
     max-durability: 9000
@@ -2078,12 +2078,12 @@ CHESTPLATE_BA_CHU_NGUC_TU_2:
       template: armor-upgrade-template
       max: 100
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 CHESTPLATE_BA_CHU_NGUC_TU_3:
   base:
     custom-maxsockets: 6.0
-    revision-id: 1
+    revision-id: 2
     material: NETHERITE_CHESTPLATE
     name: "&5Áo Giáp Bá Chủ Ngục Tù &e&lIII"
     max-durability: 9000
@@ -2103,12 +2103,12 @@ CHESTPLATE_BA_CHU_NGUC_TU_3:
       template: armor-upgrade-template
       max: 100
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 CHESTPLATE_BA_CHU_NGUC_TU_4:
   base:
     custom-maxsockets: 6.0
-    revision-id: 1
+    revision-id: 2
     material: NETHERITE_CHESTPLATE
     name: "&5Áo Giáp Bá Chủ Ngục Tù &e&lIV"
     max-durability: 9000
@@ -2128,12 +2128,12 @@ CHESTPLATE_BA_CHU_NGUC_TU_4:
       template: armor-upgrade-template
       max: 100
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 CHESTPLATE_BA_CHU_NGUC_TU_5:
   base:
     custom-maxsockets: 6.0
-    revision-id: 1
+    revision-id: 2
     material: NETHERITE_CHESTPLATE
     name: "&5Áo Giáp Bá Chủ Ngục Tù &e&lV"
     max-durability: 9000
@@ -2153,12 +2153,12 @@ CHESTPLATE_BA_CHU_NGUC_TU_5:
       template: armor-upgrade-template
       max: 100
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 CHESTPLATE_VUOT_NGUC_1:
   base:
     custom-maxsockets: 7.0
-    revision-id: 1
+    revision-id: 2
     material: NETHERITE_CHESTPLATE
     name: "&4Áo Giáp Vượt Ngục &e&lI"
     max-durability: 12000
@@ -2178,12 +2178,12 @@ CHESTPLATE_VUOT_NGUC_1:
       template: armor-upgrade-template
       max: 100
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 CHESTPLATE_VUOT_NGUC_2:
   base:
     custom-maxsockets: 7.0
-    revision-id: 1
+    revision-id: 2
     material: NETHERITE_CHESTPLATE
     name: "&4Áo Giáp Vượt Ngục &e&lII"
     max-durability: 12000
@@ -2203,12 +2203,12 @@ CHESTPLATE_VUOT_NGUC_2:
       template: armor-upgrade-template
       max: 100
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 CHESTPLATE_VUOT_NGUC_3:
   base:
     custom-maxsockets: 7.0
-    revision-id: 1
+    revision-id: 2
     material: NETHERITE_CHESTPLATE
     name: "&4Áo Giáp Vượt Ngục &e&lIII"
     max-durability: 12000
@@ -2228,12 +2228,12 @@ CHESTPLATE_VUOT_NGUC_3:
       template: armor-upgrade-template
       max: 100
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 CHESTPLATE_VUOT_NGUC_4:
   base:
     custom-maxsockets: 7.0
-    revision-id: 1
+    revision-id: 2
     material: NETHERITE_CHESTPLATE
     name: "&4Áo Giáp Vượt Ngục &e&lIV"
     max-durability: 12000
@@ -2253,12 +2253,12 @@ CHESTPLATE_VUOT_NGUC_4:
       template: armor-upgrade-template
       max: 100
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 CHESTPLATE_VUOT_NGUC_5:
   base:
     custom-maxsockets: 7.0
-    revision-id: 1
+    revision-id: 2
     material: NETHERITE_CHESTPLATE
     name: "&4Áo Giáp Vượt Ngục &e&lV"
     max-durability: 12000
@@ -2278,12 +2278,12 @@ CHESTPLATE_VUOT_NGUC_5:
       template: armor-upgrade-template
       max: 100
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 LEGGINGS_TAN_BINH_1:
   base:
     custom-maxsockets: 1.0
-    revision-id: 1
+    revision-id: 2
     material: LEATHER_LEGGINGS
     name: "&fQuần Giáp Tân Binh &e&lI"
     max-durability: 400
@@ -2301,12 +2301,12 @@ LEGGINGS_TAN_BINH_1:
       template: armor-upgrade-template
       max: 100
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 LEGGINGS_TAN_BINH_2:
   base:
     custom-maxsockets: 1.0
-    revision-id: 1
+    revision-id: 2
     material: LEATHER_LEGGINGS
     name: "&fQuần Giáp Tân Binh &e&lII"
     max-durability: 400
@@ -2324,12 +2324,12 @@ LEGGINGS_TAN_BINH_2:
       template: armor-upgrade-template
       max: 100
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 LEGGINGS_TAN_BINH_3:
   base:
     custom-maxsockets: 1.0
-    revision-id: 1
+    revision-id: 2
     material: LEATHER_LEGGINGS
     name: "&fQuần Giáp Tân Binh &e&lIII"
     max-durability: 400
@@ -2347,12 +2347,12 @@ LEGGINGS_TAN_BINH_3:
       template: armor-upgrade-template
       max: 100
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 LEGGINGS_TAN_BINH_4:
   base:
     custom-maxsockets: 1.0
-    revision-id: 1
+    revision-id: 2
     material: LEATHER_LEGGINGS
     name: "&fQuần Giáp Tân Binh &e&lIV"
     max-durability: 400
@@ -2370,12 +2370,12 @@ LEGGINGS_TAN_BINH_4:
       template: armor-upgrade-template
       max: 100
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 LEGGINGS_TAN_BINH_5:
   base:
     custom-maxsockets: 1.0
-    revision-id: 1
+    revision-id: 2
     material: LEATHER_LEGGINGS
     name: "&fQuần Giáp Tân Binh &e&lV"
     max-durability: 400
@@ -2393,12 +2393,12 @@ LEGGINGS_TAN_BINH_5:
       template: armor-upgrade-template
       max: 100
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 LEGGINGS_TU_NHAN_1:
   base:
     custom-maxsockets: 2.0
-    revision-id: 1
+    revision-id: 2
     material: LEATHER_LEGGINGS
     name: "&aQuần Giáp Tù Nhân &e&lI"
     max-durability: 800
@@ -2416,12 +2416,12 @@ LEGGINGS_TU_NHAN_1:
       template: armor-upgrade-template
       max: 100
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 LEGGINGS_TU_NHAN_2:
   base:
     custom-maxsockets: 2.0
-    revision-id: 1
+    revision-id: 2
     material: LEATHER_LEGGINGS
     name: "&aQuần Giáp Tù Nhân &e&lII"
     max-durability: 800
@@ -2439,12 +2439,12 @@ LEGGINGS_TU_NHAN_2:
       template: armor-upgrade-template
       max: 100
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 LEGGINGS_TU_NHAN_3:
   base:
     custom-maxsockets: 2.0
-    revision-id: 1
+    revision-id: 2
     material: LEATHER_LEGGINGS
     name: "&aQuần Giáp Tù Nhân &e&lIII"
     max-durability: 800
@@ -2462,12 +2462,12 @@ LEGGINGS_TU_NHAN_3:
       template: armor-upgrade-template
       max: 100
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 LEGGINGS_TU_NHAN_4:
   base:
     custom-maxsockets: 2.0
-    revision-id: 1
+    revision-id: 2
     material: LEATHER_LEGGINGS
     name: "&aQuần Giáp Tù Nhân &e&lIV"
     max-durability: 800
@@ -2485,12 +2485,12 @@ LEGGINGS_TU_NHAN_4:
       template: armor-upgrade-template
       max: 100
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 LEGGINGS_TU_NHAN_5:
   base:
     custom-maxsockets: 2.0
-    revision-id: 1
+    revision-id: 2
     material: LEATHER_LEGGINGS
     name: "&aQuần Giáp Tù Nhân &e&lV"
     max-durability: 800
@@ -2508,12 +2508,12 @@ LEGGINGS_TU_NHAN_5:
       template: armor-upgrade-template
       max: 100
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 LEGGINGS_LAO_CONG_1:
   base:
     custom-maxsockets: 2.0
-    revision-id: 1
+    revision-id: 2
     material: CHAINMAIL_LEGGINGS
     name: "&bQuần Giáp Lao Công &e&lI"
     max-durability: 1500
@@ -2532,12 +2532,12 @@ LEGGINGS_LAO_CONG_1:
       template: armor-upgrade-template
       max: 100
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 LEGGINGS_LAO_CONG_2:
   base:
     custom-maxsockets: 2.0
-    revision-id: 1
+    revision-id: 2
     material: CHAINMAIL_LEGGINGS
     name: "&bQuần Giáp Lao Công &e&lII"
     max-durability: 1500
@@ -2556,12 +2556,12 @@ LEGGINGS_LAO_CONG_2:
       template: armor-upgrade-template
       max: 100
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 LEGGINGS_LAO_CONG_3:
   base:
     custom-maxsockets: 2.0
-    revision-id: 1
+    revision-id: 2
     material: CHAINMAIL_LEGGINGS
     name: "&bQuần Giáp Lao Công &e&lIII"
     max-durability: 1500
@@ -2580,12 +2580,12 @@ LEGGINGS_LAO_CONG_3:
       template: armor-upgrade-template
       max: 100
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 LEGGINGS_LAO_CONG_4:
   base:
     custom-maxsockets: 2.0
-    revision-id: 1
+    revision-id: 2
     material: CHAINMAIL_LEGGINGS
     name: "&bQuần Giáp Lao Công &e&lIV"
     max-durability: 1500
@@ -2604,12 +2604,12 @@ LEGGINGS_LAO_CONG_4:
       template: armor-upgrade-template
       max: 100
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 LEGGINGS_LAO_CONG_5:
   base:
     custom-maxsockets: 2.0
-    revision-id: 1
+    revision-id: 2
     material: CHAINMAIL_LEGGINGS
     name: "&bQuần Giáp Lao Công &e&lV"
     max-durability: 1500
@@ -2628,12 +2628,12 @@ LEGGINGS_LAO_CONG_5:
       template: armor-upgrade-template
       max: 100
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 LEGGINGS_THO_DAO_1:
   base:
     custom-maxsockets: 3.0
-    revision-id: 1
+    revision-id: 2
     material: IRON_LEGGINGS
     name: "&eQuần Giáp Thợ Đào &e&lI"
     max-durability: 2500
@@ -2653,12 +2653,12 @@ LEGGINGS_THO_DAO_1:
       template: armor-upgrade-template
       max: 100
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 LEGGINGS_THO_DAO_2:
   base:
     custom-maxsockets: 3.0
-    revision-id: 1
+    revision-id: 2
     material: IRON_LEGGINGS
     name: "&eQuần Giáp Thợ Đào &e&lII"
     max-durability: 2500
@@ -2678,12 +2678,12 @@ LEGGINGS_THO_DAO_2:
       template: armor-upgrade-template
       max: 100
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 LEGGINGS_THO_DAO_3:
   base:
     custom-maxsockets: 3.0
-    revision-id: 1
+    revision-id: 2
     material: IRON_LEGGINGS
     name: "&eQuần Giáp Thợ Đào &e&lIII"
     max-durability: 2500
@@ -2703,12 +2703,12 @@ LEGGINGS_THO_DAO_3:
       template: armor-upgrade-template
       max: 100
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 LEGGINGS_THO_DAO_4:
   base:
     custom-maxsockets: 3.0
-    revision-id: 1
+    revision-id: 2
     material: IRON_LEGGINGS
     name: "&eQuần Giáp Thợ Đào &e&lIV"
     max-durability: 2500
@@ -2728,12 +2728,12 @@ LEGGINGS_THO_DAO_4:
       template: armor-upgrade-template
       max: 100
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 LEGGINGS_THO_DAO_5:
   base:
     custom-maxsockets: 3.0
-    revision-id: 1
+    revision-id: 2
     material: IRON_LEGGINGS
     name: "&eQuần Giáp Thợ Đào &e&lV"
     max-durability: 2500
@@ -2753,12 +2753,12 @@ LEGGINGS_THO_DAO_5:
       template: armor-upgrade-template
       max: 100
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 LEGGINGS_DOI_TRUONG_1:
   base:
     custom-maxsockets: 3.0
-    revision-id: 1
+    revision-id: 2
     material: DIAMOND_LEGGINGS
     name: "&6Quần Giáp Đội Trưởng &e&lI"
     max-durability: 3800
@@ -2778,12 +2778,12 @@ LEGGINGS_DOI_TRUONG_1:
       template: armor-upgrade-template
       max: 100
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 LEGGINGS_DOI_TRUONG_2:
   base:
     custom-maxsockets: 3.0
-    revision-id: 1
+    revision-id: 2
     material: DIAMOND_LEGGINGS
     name: "&6Quần Giáp Đội Trưởng &e&lII"
     max-durability: 3800
@@ -2803,12 +2803,12 @@ LEGGINGS_DOI_TRUONG_2:
       template: armor-upgrade-template
       max: 100
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 LEGGINGS_DOI_TRUONG_3:
   base:
     custom-maxsockets: 3.0
-    revision-id: 1
+    revision-id: 2
     material: DIAMOND_LEGGINGS
     name: "&6Quần Giáp Đội Trưởng &e&lIII"
     max-durability: 3800
@@ -2828,12 +2828,12 @@ LEGGINGS_DOI_TRUONG_3:
       template: armor-upgrade-template
       max: 100
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 LEGGINGS_DOI_TRUONG_4:
   base:
     custom-maxsockets: 3.0
-    revision-id: 1
+    revision-id: 2
     material: DIAMOND_LEGGINGS
     name: "&6Quần Giáp Đội Trưởng &e&lIV"
     max-durability: 3800
@@ -2853,12 +2853,12 @@ LEGGINGS_DOI_TRUONG_4:
       template: armor-upgrade-template
       max: 100
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 LEGGINGS_DOI_TRUONG_5:
   base:
     custom-maxsockets: 3.0
-    revision-id: 1
+    revision-id: 2
     material: DIAMOND_LEGGINGS
     name: "&6Quần Giáp Đội Trưởng &e&lV"
     max-durability: 3800
@@ -2878,12 +2878,12 @@ LEGGINGS_DOI_TRUONG_5:
       template: armor-upgrade-template
       max: 100
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 LEGGINGS_PHO_QUAN_NGUC_1:
   base:
     custom-maxsockets: 4.0
-    revision-id: 1
+    revision-id: 2
     material: DIAMOND_LEGGINGS
     name: "&cQuần Giáp Phó Quản Ngục &e&lI"
     max-durability: 5200
@@ -2903,12 +2903,12 @@ LEGGINGS_PHO_QUAN_NGUC_1:
       template: armor-upgrade-template
       max: 100
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 LEGGINGS_PHO_QUAN_NGUC_2:
   base:
     custom-maxsockets: 4.0
-    revision-id: 1
+    revision-id: 2
     material: DIAMOND_LEGGINGS
     name: "&cQuần Giáp Phó Quản Ngục &e&lII"
     max-durability: 5200
@@ -2928,12 +2928,12 @@ LEGGINGS_PHO_QUAN_NGUC_2:
       template: armor-upgrade-template
       max: 100
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 LEGGINGS_PHO_QUAN_NGUC_3:
   base:
     custom-maxsockets: 4.0
-    revision-id: 1
+    revision-id: 2
     material: DIAMOND_LEGGINGS
     name: "&cQuần Giáp Phó Quản Ngục &e&lIII"
     max-durability: 5200
@@ -2953,12 +2953,12 @@ LEGGINGS_PHO_QUAN_NGUC_3:
       template: armor-upgrade-template
       max: 100
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 LEGGINGS_PHO_QUAN_NGUC_4:
   base:
     custom-maxsockets: 4.0
-    revision-id: 1
+    revision-id: 2
     material: DIAMOND_LEGGINGS
     name: "&cQuần Giáp Phó Quản Ngục &e&lIV"
     max-durability: 5200
@@ -2978,12 +2978,12 @@ LEGGINGS_PHO_QUAN_NGUC_4:
       template: armor-upgrade-template
       max: 100
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 LEGGINGS_PHO_QUAN_NGUC_5:
   base:
     custom-maxsockets: 4.0
-    revision-id: 1
+    revision-id: 2
     material: DIAMOND_LEGGINGS
     name: "&cQuần Giáp Phó Quản Ngục &e&lV"
     max-durability: 5200
@@ -3003,12 +3003,12 @@ LEGGINGS_PHO_QUAN_NGUC_5:
       template: armor-upgrade-template
       max: 100
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 LEGGINGS_QUAN_NGUC_1:
   base:
     custom-maxsockets: 5.0
-    revision-id: 1
+    revision-id: 2
     material: NETHERITE_LEGGINGS
     name: "&dQuần Giáp Quản Ngục &e&lI"
     max-durability: 7000
@@ -3028,12 +3028,12 @@ LEGGINGS_QUAN_NGUC_1:
       template: armor-upgrade-template
       max: 100
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 LEGGINGS_QUAN_NGUC_2:
   base:
     custom-maxsockets: 5.0
-    revision-id: 1
+    revision-id: 2
     material: NETHERITE_LEGGINGS
     name: "&dQuần Giáp Quản Ngục &e&lII"
     max-durability: 7000
@@ -3053,12 +3053,12 @@ LEGGINGS_QUAN_NGUC_2:
       template: armor-upgrade-template
       max: 100
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 LEGGINGS_QUAN_NGUC_3:
   base:
     custom-maxsockets: 5.0
-    revision-id: 1
+    revision-id: 2
     material: NETHERITE_LEGGINGS
     name: "&dQuần Giáp Quản Ngục &e&lIII"
     max-durability: 7000
@@ -3078,12 +3078,12 @@ LEGGINGS_QUAN_NGUC_3:
       template: armor-upgrade-template
       max: 100
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 LEGGINGS_QUAN_NGUC_4:
   base:
     custom-maxsockets: 5.0
-    revision-id: 1
+    revision-id: 2
     material: NETHERITE_LEGGINGS
     name: "&dQuần Giáp Quản Ngục &e&lIV"
     max-durability: 7000
@@ -3103,12 +3103,12 @@ LEGGINGS_QUAN_NGUC_4:
       template: armor-upgrade-template
       max: 100
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 LEGGINGS_QUAN_NGUC_5:
   base:
     custom-maxsockets: 5.0
-    revision-id: 1
+    revision-id: 2
     material: NETHERITE_LEGGINGS
     name: "&dQuần Giáp Quản Ngục &e&lV"
     max-durability: 7000
@@ -3128,12 +3128,12 @@ LEGGINGS_QUAN_NGUC_5:
       template: armor-upgrade-template
       max: 100
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 LEGGINGS_BA_CHU_NGUC_TU_1:
   base:
     custom-maxsockets: 6.0
-    revision-id: 1
+    revision-id: 2
     material: NETHERITE_LEGGINGS
     name: "&5Quần Giáp Bá Chủ Ngục Tù &e&lI"
     max-durability: 9000
@@ -3153,12 +3153,12 @@ LEGGINGS_BA_CHU_NGUC_TU_1:
       template: armor-upgrade-template
       max: 100
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 LEGGINGS_BA_CHU_NGUC_TU_2:
   base:
     custom-maxsockets: 6.0
-    revision-id: 1
+    revision-id: 2
     material: NETHERITE_LEGGINGS
     name: "&5Quần Giáp Bá Chủ Ngục Tù &e&lII"
     max-durability: 9000
@@ -3178,12 +3178,12 @@ LEGGINGS_BA_CHU_NGUC_TU_2:
       template: armor-upgrade-template
       max: 100
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 LEGGINGS_BA_CHU_NGUC_TU_3:
   base:
     custom-maxsockets: 6.0
-    revision-id: 1
+    revision-id: 2
     material: NETHERITE_LEGGINGS
     name: "&5Quần Giáp Bá Chủ Ngục Tù &e&lIII"
     max-durability: 9000
@@ -3203,12 +3203,12 @@ LEGGINGS_BA_CHU_NGUC_TU_3:
       template: armor-upgrade-template
       max: 100
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 LEGGINGS_BA_CHU_NGUC_TU_4:
   base:
     custom-maxsockets: 6.0
-    revision-id: 1
+    revision-id: 2
     material: NETHERITE_LEGGINGS
     name: "&5Quần Giáp Bá Chủ Ngục Tù &e&lIV"
     max-durability: 9000
@@ -3228,12 +3228,12 @@ LEGGINGS_BA_CHU_NGUC_TU_4:
       template: armor-upgrade-template
       max: 100
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 LEGGINGS_BA_CHU_NGUC_TU_5:
   base:
     custom-maxsockets: 6.0
-    revision-id: 1
+    revision-id: 2
     material: NETHERITE_LEGGINGS
     name: "&5Quần Giáp Bá Chủ Ngục Tù &e&lV"
     max-durability: 9000
@@ -3253,12 +3253,12 @@ LEGGINGS_BA_CHU_NGUC_TU_5:
       template: armor-upgrade-template
       max: 100
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 LEGGINGS_VUOT_NGUC_1:
   base:
     custom-maxsockets: 7.0
-    revision-id: 1
+    revision-id: 2
     material: NETHERITE_LEGGINGS
     name: "&4Quần Giáp Vượt Ngục &e&lI"
     max-durability: 12000
@@ -3278,12 +3278,12 @@ LEGGINGS_VUOT_NGUC_1:
       template: armor-upgrade-template
       max: 100
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 LEGGINGS_VUOT_NGUC_2:
   base:
     custom-maxsockets: 7.0
-    revision-id: 1
+    revision-id: 2
     material: NETHERITE_LEGGINGS
     name: "&4Quần Giáp Vượt Ngục &e&lII"
     max-durability: 12000
@@ -3303,12 +3303,12 @@ LEGGINGS_VUOT_NGUC_2:
       template: armor-upgrade-template
       max: 100
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 LEGGINGS_VUOT_NGUC_3:
   base:
     custom-maxsockets: 7.0
-    revision-id: 1
+    revision-id: 2
     material: NETHERITE_LEGGINGS
     name: "&4Quần Giáp Vượt Ngục &e&lIII"
     max-durability: 12000
@@ -3328,12 +3328,12 @@ LEGGINGS_VUOT_NGUC_3:
       template: armor-upgrade-template
       max: 100
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 LEGGINGS_VUOT_NGUC_4:
   base:
     custom-maxsockets: 7.0
-    revision-id: 1
+    revision-id: 2
     material: NETHERITE_LEGGINGS
     name: "&4Quần Giáp Vượt Ngục &e&lIV"
     max-durability: 12000
@@ -3353,12 +3353,12 @@ LEGGINGS_VUOT_NGUC_4:
       template: armor-upgrade-template
       max: 100
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 LEGGINGS_VUOT_NGUC_5:
   base:
     custom-maxsockets: 7.0
-    revision-id: 1
+    revision-id: 2
     material: NETHERITE_LEGGINGS
     name: "&4Quần Giáp Vượt Ngục &e&lV"
     max-durability: 12000
@@ -3378,12 +3378,12 @@ LEGGINGS_VUOT_NGUC_5:
       template: armor-upgrade-template
       max: 100
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 BOOTS_TAN_BINH_1:
   base:
     custom-maxsockets: 1.0
-    revision-id: 1
+    revision-id: 2
     material: LEATHER_BOOTS
     name: "&fGiày Tân Binh &e&lI"
     max-durability: 400
@@ -3401,12 +3401,12 @@ BOOTS_TAN_BINH_1:
       template: armor-upgrade-template
       max: 100
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 BOOTS_TAN_BINH_2:
   base:
     custom-maxsockets: 1.0
-    revision-id: 1
+    revision-id: 2
     material: LEATHER_BOOTS
     name: "&fGiày Tân Binh &e&lII"
     max-durability: 400
@@ -3424,12 +3424,12 @@ BOOTS_TAN_BINH_2:
       template: armor-upgrade-template
       max: 100
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 BOOTS_TAN_BINH_3:
   base:
     custom-maxsockets: 1.0
-    revision-id: 1
+    revision-id: 2
     material: LEATHER_BOOTS
     name: "&fGiày Tân Binh &e&lIII"
     max-durability: 400
@@ -3447,12 +3447,12 @@ BOOTS_TAN_BINH_3:
       template: armor-upgrade-template
       max: 100
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 BOOTS_TAN_BINH_4:
   base:
     custom-maxsockets: 1.0
-    revision-id: 1
+    revision-id: 2
     material: LEATHER_BOOTS
     name: "&fGiày Tân Binh &e&lIV"
     max-durability: 400
@@ -3470,12 +3470,12 @@ BOOTS_TAN_BINH_4:
       template: armor-upgrade-template
       max: 100
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 BOOTS_TAN_BINH_5:
   base:
     custom-maxsockets: 1.0
-    revision-id: 1
+    revision-id: 2
     material: LEATHER_BOOTS
     name: "&fGiày Tân Binh &e&lV"
     max-durability: 400
@@ -3493,12 +3493,12 @@ BOOTS_TAN_BINH_5:
       template: armor-upgrade-template
       max: 100
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 BOOTS_TU_NHAN_1:
   base:
     custom-maxsockets: 2.0
-    revision-id: 1
+    revision-id: 2
     material: LEATHER_BOOTS
     name: "&aGiày Tù Nhân &e&lI"
     max-durability: 800
@@ -3516,12 +3516,12 @@ BOOTS_TU_NHAN_1:
       template: armor-upgrade-template
       max: 100
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 BOOTS_TU_NHAN_2:
   base:
     custom-maxsockets: 2.0
-    revision-id: 1
+    revision-id: 2
     material: LEATHER_BOOTS
     name: "&aGiày Tù Nhân &e&lII"
     max-durability: 800
@@ -3539,12 +3539,12 @@ BOOTS_TU_NHAN_2:
       template: armor-upgrade-template
       max: 100
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 BOOTS_TU_NHAN_3:
   base:
     custom-maxsockets: 2.0
-    revision-id: 1
+    revision-id: 2
     material: LEATHER_BOOTS
     name: "&aGiày Tù Nhân &e&lIII"
     max-durability: 800
@@ -3562,12 +3562,12 @@ BOOTS_TU_NHAN_3:
       template: armor-upgrade-template
       max: 100
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 BOOTS_TU_NHAN_4:
   base:
     custom-maxsockets: 2.0
-    revision-id: 1
+    revision-id: 2
     material: LEATHER_BOOTS
     name: "&aGiày Tù Nhân &e&lIV"
     max-durability: 800
@@ -3585,12 +3585,12 @@ BOOTS_TU_NHAN_4:
       template: armor-upgrade-template
       max: 100
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 BOOTS_TU_NHAN_5:
   base:
     custom-maxsockets: 2.0
-    revision-id: 1
+    revision-id: 2
     material: LEATHER_BOOTS
     name: "&aGiày Tù Nhân &e&lV"
     max-durability: 800
@@ -3608,12 +3608,12 @@ BOOTS_TU_NHAN_5:
       template: armor-upgrade-template
       max: 100
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 BOOTS_LAO_CONG_1:
   base:
     custom-maxsockets: 2.0
-    revision-id: 1
+    revision-id: 2
     material: CHAINMAIL_BOOTS
     name: "&bGiày Lao Công &e&lI"
     max-durability: 1500
@@ -3632,12 +3632,12 @@ BOOTS_LAO_CONG_1:
       template: armor-upgrade-template
       max: 100
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 BOOTS_LAO_CONG_2:
   base:
     custom-maxsockets: 2.0
-    revision-id: 1
+    revision-id: 2
     material: CHAINMAIL_BOOTS
     name: "&bGiày Lao Công &e&lII"
     max-durability: 1500
@@ -3656,12 +3656,12 @@ BOOTS_LAO_CONG_2:
       template: armor-upgrade-template
       max: 100
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 BOOTS_LAO_CONG_3:
   base:
     custom-maxsockets: 2.0
-    revision-id: 1
+    revision-id: 2
     material: CHAINMAIL_BOOTS
     name: "&bGiày Lao Công &e&lIII"
     max-durability: 1500
@@ -3680,12 +3680,12 @@ BOOTS_LAO_CONG_3:
       template: armor-upgrade-template
       max: 100
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 BOOTS_LAO_CONG_4:
   base:
     custom-maxsockets: 2.0
-    revision-id: 1
+    revision-id: 2
     material: CHAINMAIL_BOOTS
     name: "&bGiày Lao Công &e&lIV"
     max-durability: 1500
@@ -3704,12 +3704,12 @@ BOOTS_LAO_CONG_4:
       template: armor-upgrade-template
       max: 100
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 BOOTS_LAO_CONG_5:
   base:
     custom-maxsockets: 2.0
-    revision-id: 1
+    revision-id: 2
     material: CHAINMAIL_BOOTS
     name: "&bGiày Lao Công &e&lV"
     max-durability: 1500
@@ -3728,12 +3728,12 @@ BOOTS_LAO_CONG_5:
       template: armor-upgrade-template
       max: 100
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 BOOTS_THO_DAO_1:
   base:
     custom-maxsockets: 3.0
-    revision-id: 1
+    revision-id: 2
     material: IRON_BOOTS
     name: "&eGiày Thợ Đào &e&lI"
     max-durability: 2500
@@ -3753,12 +3753,12 @@ BOOTS_THO_DAO_1:
       template: armor-upgrade-template
       max: 100
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 BOOTS_THO_DAO_2:
   base:
     custom-maxsockets: 3.0
-    revision-id: 1
+    revision-id: 2
     material: IRON_BOOTS
     name: "&eGiày Thợ Đào &e&lII"
     max-durability: 2500
@@ -3778,12 +3778,12 @@ BOOTS_THO_DAO_2:
       template: armor-upgrade-template
       max: 100
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 BOOTS_THO_DAO_3:
   base:
     custom-maxsockets: 3.0
-    revision-id: 1
+    revision-id: 2
     material: IRON_BOOTS
     name: "&eGiày Thợ Đào &e&lIII"
     max-durability: 2500
@@ -3803,12 +3803,12 @@ BOOTS_THO_DAO_3:
       template: armor-upgrade-template
       max: 100
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 BOOTS_THO_DAO_4:
   base:
     custom-maxsockets: 3.0
-    revision-id: 1
+    revision-id: 2
     material: IRON_BOOTS
     name: "&eGiày Thợ Đào &e&lIV"
     max-durability: 2500
@@ -3828,12 +3828,12 @@ BOOTS_THO_DAO_4:
       template: armor-upgrade-template
       max: 100
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 BOOTS_THO_DAO_5:
   base:
     custom-maxsockets: 3.0
-    revision-id: 1
+    revision-id: 2
     material: IRON_BOOTS
     name: "&eGiày Thợ Đào &e&lV"
     max-durability: 2500
@@ -3853,12 +3853,12 @@ BOOTS_THO_DAO_5:
       template: armor-upgrade-template
       max: 100
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 BOOTS_DOI_TRUONG_1:
   base:
     custom-maxsockets: 3.0
-    revision-id: 1
+    revision-id: 2
     material: DIAMOND_BOOTS
     name: "&6Giày Đội Trưởng &e&lI"
     max-durability: 3800
@@ -3879,12 +3879,12 @@ BOOTS_DOI_TRUONG_1:
       template: armor-upgrade-template
       max: 100
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 BOOTS_DOI_TRUONG_2:
   base:
     custom-maxsockets: 3.0
-    revision-id: 1
+    revision-id: 2
     material: DIAMOND_BOOTS
     name: "&6Giày Đội Trưởng &e&lII"
     max-durability: 3800
@@ -3905,12 +3905,12 @@ BOOTS_DOI_TRUONG_2:
       template: armor-upgrade-template
       max: 100
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 BOOTS_DOI_TRUONG_3:
   base:
     custom-maxsockets: 3.0
-    revision-id: 1
+    revision-id: 2
     material: DIAMOND_BOOTS
     name: "&6Giày Đội Trưởng &e&lIII"
     max-durability: 3800
@@ -3931,12 +3931,12 @@ BOOTS_DOI_TRUONG_3:
       template: armor-upgrade-template
       max: 100
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 BOOTS_DOI_TRUONG_4:
   base:
     custom-maxsockets: 3.0
-    revision-id: 1
+    revision-id: 2
     material: DIAMOND_BOOTS
     name: "&6Giày Đội Trưởng &e&lIV"
     max-durability: 3800
@@ -3957,12 +3957,12 @@ BOOTS_DOI_TRUONG_4:
       template: armor-upgrade-template
       max: 100
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 BOOTS_DOI_TRUONG_5:
   base:
     custom-maxsockets: 3.0
-    revision-id: 1
+    revision-id: 2
     material: DIAMOND_BOOTS
     name: "&6Giày Đội Trưởng &e&lV"
     max-durability: 3800
@@ -3983,12 +3983,12 @@ BOOTS_DOI_TRUONG_5:
       template: armor-upgrade-template
       max: 100
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 BOOTS_PHO_QUAN_NGUC_1:
   base:
     custom-maxsockets: 4.0
-    revision-id: 1
+    revision-id: 2
     material: DIAMOND_BOOTS
     name: "&cGiày Phó Quản Ngục &e&lI"
     max-durability: 5200
@@ -4009,12 +4009,12 @@ BOOTS_PHO_QUAN_NGUC_1:
       template: armor-upgrade-template
       max: 100
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 BOOTS_PHO_QUAN_NGUC_2:
   base:
     custom-maxsockets: 4.0
-    revision-id: 1
+    revision-id: 2
     material: DIAMOND_BOOTS
     name: "&cGiày Phó Quản Ngục &e&lII"
     max-durability: 5200
@@ -4035,12 +4035,12 @@ BOOTS_PHO_QUAN_NGUC_2:
       template: armor-upgrade-template
       max: 100
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 BOOTS_PHO_QUAN_NGUC_3:
   base:
     custom-maxsockets: 4.0
-    revision-id: 1
+    revision-id: 2
     material: DIAMOND_BOOTS
     name: "&cGiày Phó Quản Ngục &e&lIII"
     max-durability: 5200
@@ -4061,12 +4061,12 @@ BOOTS_PHO_QUAN_NGUC_3:
       template: armor-upgrade-template
       max: 100
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 BOOTS_PHO_QUAN_NGUC_4:
   base:
     custom-maxsockets: 4.0
-    revision-id: 1
+    revision-id: 2
     material: DIAMOND_BOOTS
     name: "&cGiày Phó Quản Ngục &e&lIV"
     max-durability: 5200
@@ -4087,12 +4087,12 @@ BOOTS_PHO_QUAN_NGUC_4:
       template: armor-upgrade-template
       max: 100
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 BOOTS_PHO_QUAN_NGUC_5:
   base:
     custom-maxsockets: 4.0
-    revision-id: 1
+    revision-id: 2
     material: DIAMOND_BOOTS
     name: "&cGiày Phó Quản Ngục &e&lV"
     max-durability: 5200
@@ -4113,12 +4113,12 @@ BOOTS_PHO_QUAN_NGUC_5:
       template: armor-upgrade-template
       max: 100
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 BOOTS_QUAN_NGUC_1:
   base:
     custom-maxsockets: 5.0
-    revision-id: 1
+    revision-id: 2
     material: NETHERITE_BOOTS
     name: "&dGiày Quản Ngục &e&lI"
     max-durability: 7000
@@ -4139,12 +4139,12 @@ BOOTS_QUAN_NGUC_1:
       template: armor-upgrade-template
       max: 100
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 BOOTS_QUAN_NGUC_2:
   base:
     custom-maxsockets: 5.0
-    revision-id: 1
+    revision-id: 2
     material: NETHERITE_BOOTS
     name: "&dGiày Quản Ngục &e&lII"
     max-durability: 7000
@@ -4165,12 +4165,12 @@ BOOTS_QUAN_NGUC_2:
       template: armor-upgrade-template
       max: 100
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 BOOTS_QUAN_NGUC_3:
   base:
     custom-maxsockets: 5.0
-    revision-id: 1
+    revision-id: 2
     material: NETHERITE_BOOTS
     name: "&dGiày Quản Ngục &e&lIII"
     max-durability: 7000
@@ -4191,12 +4191,12 @@ BOOTS_QUAN_NGUC_3:
       template: armor-upgrade-template
       max: 100
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 BOOTS_QUAN_NGUC_4:
   base:
     custom-maxsockets: 5.0
-    revision-id: 1
+    revision-id: 2
     material: NETHERITE_BOOTS
     name: "&dGiày Quản Ngục &e&lIV"
     max-durability: 7000
@@ -4217,12 +4217,12 @@ BOOTS_QUAN_NGUC_4:
       template: armor-upgrade-template
       max: 100
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 BOOTS_QUAN_NGUC_5:
   base:
     custom-maxsockets: 5.0
-    revision-id: 1
+    revision-id: 2
     material: NETHERITE_BOOTS
     name: "&dGiày Quản Ngục &e&lV"
     max-durability: 7000
@@ -4243,12 +4243,12 @@ BOOTS_QUAN_NGUC_5:
       template: armor-upgrade-template
       max: 100
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 BOOTS_BA_CHU_NGUC_TU_1:
   base:
     custom-maxsockets: 6.0
-    revision-id: 1
+    revision-id: 2
     material: NETHERITE_BOOTS
     name: "&5Giày Bá Chủ Ngục Tù &e&lI"
     max-durability: 9000
@@ -4269,12 +4269,12 @@ BOOTS_BA_CHU_NGUC_TU_1:
       template: armor-upgrade-template
       max: 100
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 BOOTS_BA_CHU_NGUC_TU_2:
   base:
     custom-maxsockets: 6.0
-    revision-id: 1
+    revision-id: 2
     material: NETHERITE_BOOTS
     name: "&5Giày Bá Chủ Ngục Tù &e&lII"
     max-durability: 9000
@@ -4295,12 +4295,12 @@ BOOTS_BA_CHU_NGUC_TU_2:
       template: armor-upgrade-template
       max: 100
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 BOOTS_BA_CHU_NGUC_TU_3:
   base:
     custom-maxsockets: 6.0
-    revision-id: 1
+    revision-id: 2
     material: NETHERITE_BOOTS
     name: "&5Giày Bá Chủ Ngục Tù &e&lIII"
     max-durability: 9000
@@ -4321,12 +4321,12 @@ BOOTS_BA_CHU_NGUC_TU_3:
       template: armor-upgrade-template
       max: 100
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 BOOTS_BA_CHU_NGUC_TU_4:
   base:
     custom-maxsockets: 6.0
-    revision-id: 1
+    revision-id: 2
     material: NETHERITE_BOOTS
     name: "&5Giày Bá Chủ Ngục Tù &e&lIV"
     max-durability: 9000
@@ -4347,12 +4347,12 @@ BOOTS_BA_CHU_NGUC_TU_4:
       template: armor-upgrade-template
       max: 100
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 BOOTS_BA_CHU_NGUC_TU_5:
   base:
     custom-maxsockets: 6.0
-    revision-id: 1
+    revision-id: 2
     material: NETHERITE_BOOTS
     name: "&5Giày Bá Chủ Ngục Tù &e&lV"
     max-durability: 9000
@@ -4373,12 +4373,12 @@ BOOTS_BA_CHU_NGUC_TU_5:
       template: armor-upgrade-template
       max: 100
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 BOOTS_VUOT_NGUC_1:
   base:
     custom-maxsockets: 7.0
-    revision-id: 1
+    revision-id: 2
     material: NETHERITE_BOOTS
     name: "&4Giày Vượt Ngục &e&lI"
     max-durability: 12000
@@ -4399,12 +4399,12 @@ BOOTS_VUOT_NGUC_1:
       template: armor-upgrade-template
       max: 100
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 BOOTS_VUOT_NGUC_2:
   base:
     custom-maxsockets: 7.0
-    revision-id: 1
+    revision-id: 2
     material: NETHERITE_BOOTS
     name: "&4Giày Vượt Ngục &e&lII"
     max-durability: 12000
@@ -4425,12 +4425,12 @@ BOOTS_VUOT_NGUC_2:
       template: armor-upgrade-template
       max: 100
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 BOOTS_VUOT_NGUC_3:
   base:
     custom-maxsockets: 7.0
-    revision-id: 1
+    revision-id: 2
     material: NETHERITE_BOOTS
     name: "&4Giày Vượt Ngục &e&lIII"
     max-durability: 12000
@@ -4451,12 +4451,12 @@ BOOTS_VUOT_NGUC_3:
       template: armor-upgrade-template
       max: 100
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 BOOTS_VUOT_NGUC_4:
   base:
     custom-maxsockets: 7.0
-    revision-id: 1
+    revision-id: 2
     material: NETHERITE_BOOTS
     name: "&4Giày Vượt Ngục &e&lIV"
     max-durability: 12000
@@ -4477,12 +4477,12 @@ BOOTS_VUOT_NGUC_4:
       template: armor-upgrade-template
       max: 100
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 BOOTS_VUOT_NGUC_5:
   base:
     custom-maxsockets: 7.0
-    revision-id: 1
+    revision-id: 2
     material: NETHERITE_BOOTS
     name: "&4Giày Vượt Ngục &e&lV"
     max-durability: 12000
@@ -4503,7 +4503,7 @@ BOOTS_VUOT_NGUC_5:
       template: armor-upgrade-template
       max: 100
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 # ============================================================
 # DONATE ARMOR — Dòng Long Tộc Thiên Giới
@@ -4515,7 +4515,7 @@ DONATE_HELMET_LONG_VE:
   itemsadder-item: "littledragonset:littledragonhelmet"
   base:
     custom-maxsockets: 5.0
-    revision-id: 1
+    revision-id: 2
     material: LEATHER_HELMET
     custom-model-data: 10029
     dye-color: "255 203 68"
@@ -4539,13 +4539,13 @@ DONATE_HELMET_LONG_VE:
       template: armor-upgrade-template
       max: 100
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 DONATE_CHESTPLATE_LONG_VE:
   itemsadder-item: "littledragonset:littledragonchestplate"
   base:
     custom-maxsockets: 5.0
-    revision-id: 1
+    revision-id: 2
     material: LEATHER_CHESTPLATE
     custom-model-data: 10037
     dye-color: "255 203 68"
@@ -4569,13 +4569,13 @@ DONATE_CHESTPLATE_LONG_VE:
       template: armor-upgrade-template
       max: 100
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 DONATE_LEGGINGS_LONG_VE:
   itemsadder-item: "littledragonset:littledragonleggings"
   base:
     custom-maxsockets: 5.0
-    revision-id: 1
+    revision-id: 2
     material: LEATHER_LEGGINGS
     custom-model-data: 10037
     dye-color: "255 203 68"
@@ -4599,13 +4599,13 @@ DONATE_LEGGINGS_LONG_VE:
       template: armor-upgrade-template
       max: 100
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 DONATE_BOOTS_LONG_VE:
   itemsadder-item: "littledragonset:littledragonboots"
   base:
     custom-maxsockets: 5.0
-    revision-id: 1
+    revision-id: 2
     material: LEATHER_BOOTS
     custom-model-data: 10037
     dye-color: "255 203 68"
@@ -4630,7 +4630,7 @@ DONATE_BOOTS_LONG_VE:
       template: armor-upgrade-template
       max: 100
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 # --- CHIẾN LONG (Cấp 2 - VERY_RARE) ---
 
@@ -4638,7 +4638,7 @@ DONATE_HELMET_LONG_CHIEN:
   itemsadder-item: "spartan_set:spartanhelmet"
   base:
     custom-maxsockets: 6.0
-    revision-id: 1
+    revision-id: 2
     material: LEATHER_HELMET
     custom-model-data: 10012
     dye-color: "58 48 48"
@@ -4662,13 +4662,13 @@ DONATE_HELMET_LONG_CHIEN:
       template: armor-upgrade-template
       max: 100
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 DONATE_CHESTPLATE_LONG_CHIEN:
   itemsadder-item: "spartan_set:spartanchestplate"
   base:
     custom-maxsockets: 6.0
-    revision-id: 1
+    revision-id: 2
     material: LEATHER_CHESTPLATE
     custom-model-data: 10016
     dye-color: "58 48 48"
@@ -4692,13 +4692,13 @@ DONATE_CHESTPLATE_LONG_CHIEN:
       template: armor-upgrade-template
       max: 100
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 DONATE_LEGGINGS_LONG_CHIEN:
   itemsadder-item: "spartan_set:spartanleggings"
   base:
     custom-maxsockets: 6.0
-    revision-id: 1
+    revision-id: 2
     material: LEATHER_LEGGINGS
     custom-model-data: 10016
     dye-color: "58 48 48"
@@ -4722,13 +4722,13 @@ DONATE_LEGGINGS_LONG_CHIEN:
       template: armor-upgrade-template
       max: 100
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 DONATE_BOOTS_LONG_CHIEN:
   itemsadder-item: "spartan_set:spartanboots"
   base:
     custom-maxsockets: 6.0
-    revision-id: 1
+    revision-id: 2
     material: LEATHER_BOOTS
     custom-model-data: 10016
     dye-color: "58 48 48"
@@ -4753,7 +4753,7 @@ DONATE_BOOTS_LONG_CHIEN:
       template: armor-upgrade-template
       max: 100
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 # --- THẦN LONG (Cấp 3 - LEGENDARY) ---
 
@@ -4761,7 +4761,7 @@ DONATE_HELMET_LONG_THAN:
   itemsadder-item: "azureset:azurehelmet"
   base:
     custom-maxsockets: 6.0
-    revision-id: 1
+    revision-id: 2
     material: LEATHER_HELMET
     custom-model-data: 10018
     dye-color: "39 77 154"
@@ -4785,13 +4785,13 @@ DONATE_HELMET_LONG_THAN:
       template: armor-upgrade-template
       max: 100
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 DONATE_CHESTPLATE_LONG_THAN:
   itemsadder-item: "azureset:azurechestplate"
   base:
     custom-maxsockets: 6.0
-    revision-id: 1
+    revision-id: 2
     material: LEATHER_CHESTPLATE
     custom-model-data: 10024
     dye-color: "39 77 154"
@@ -4815,13 +4815,13 @@ DONATE_CHESTPLATE_LONG_THAN:
       template: armor-upgrade-template
       max: 100
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 DONATE_LEGGINGS_LONG_THAN:
   itemsadder-item: "azureset:azureleggings"
   base:
     custom-maxsockets: 6.0
-    revision-id: 1
+    revision-id: 2
     material: LEATHER_LEGGINGS
     custom-model-data: 10024
     dye-color: "39 77 154"
@@ -4845,13 +4845,13 @@ DONATE_LEGGINGS_LONG_THAN:
       template: armor-upgrade-template
       max: 100
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 DONATE_BOOTS_LONG_THAN:
   itemsadder-item: "azureset:azureboots"
   base:
     custom-maxsockets: 6.0
-    revision-id: 1
+    revision-id: 2
     material: LEATHER_BOOTS
     custom-model-data: 10024
     dye-color: "39 77 154"
@@ -4876,7 +4876,7 @@ DONATE_BOOTS_LONG_THAN:
       template: armor-upgrade-template
       max: 100
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 # --- ĐẾ LONG (Cấp 4 - EPIC) ---
 
@@ -4884,7 +4884,7 @@ DONATE_HELMET_LONG_DE:
   itemsadder-item: "demon_edgeset:demon_edgehelmet"
   base:
     custom-maxsockets: 7.0
-    revision-id: 1
+    revision-id: 2
     material: LEATHER_HELMET
     custom-model-data: 10032
     dye-color: "171 23 79"
@@ -4908,13 +4908,13 @@ DONATE_HELMET_LONG_DE:
       template: armor-upgrade-template
       max: 100
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 DONATE_CHESTPLATE_LONG_DE:
   itemsadder-item: "demon_edgeset:demon_edgechestplate"
   base:
     custom-maxsockets: 7.0
-    revision-id: 1
+    revision-id: 2
     material: LEATHER_CHESTPLATE
     custom-model-data: 10040
     dye-color: "171 23 79"
@@ -4938,13 +4938,13 @@ DONATE_CHESTPLATE_LONG_DE:
       template: armor-upgrade-template
       max: 100
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 DONATE_LEGGINGS_LONG_DE:
   itemsadder-item: "demon_edgeset:demon_edgeleggings"
   base:
     custom-maxsockets: 7.0
-    revision-id: 1
+    revision-id: 2
     material: LEATHER_LEGGINGS
     custom-model-data: 10040
     dye-color: "171 23 79"
@@ -4968,13 +4968,13 @@ DONATE_LEGGINGS_LONG_DE:
       template: armor-upgrade-template
       max: 100
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 DONATE_BOOTS_LONG_DE:
   itemsadder-item: "demon_edgeset:demon_edgeboots"
   base:
     custom-maxsockets: 7.0
-    revision-id: 1
+    revision-id: 2
     material: LEATHER_BOOTS
     custom-model-data: 10040
     dye-color: "171 23 79"
@@ -4999,7 +4999,7 @@ DONATE_BOOTS_LONG_DE:
       template: armor-upgrade-template
       max: 100
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 # --- HOÀNG LONG (Cấp 5 - UNIQUE) ---
 
@@ -5007,7 +5007,7 @@ DONATE_HELMET_LONG_HOANG:
   itemsadder-item: "lunarset:lunar_helmet"
   base:
     custom-maxsockets: 7.0
-    revision-id: 2
+    revision-id: 3
     material: PAPER
     custom-model-data: 10124
     dye-color: "81 166 102"
@@ -5031,13 +5031,13 @@ DONATE_HELMET_LONG_HOANG:
       template: armor-upgrade-template
       max: 100
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 DONATE_CHESTPLATE_LONG_HOANG:
   itemsadder-item: "lunarset:lunarchestplate"
   base:
     custom-maxsockets: 7.0
-    revision-id: 2
+    revision-id: 3
     material: LEATHER_CHESTPLATE
     custom-model-data: 10000
     dye-color: "81 166 102"
@@ -5061,13 +5061,13 @@ DONATE_CHESTPLATE_LONG_HOANG:
       template: armor-upgrade-template
       max: 100
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 DONATE_LEGGINGS_LONG_HOANG:
   itemsadder-item: "lunarset:lunarleggings"
   base:
     custom-maxsockets: 7.0
-    revision-id: 2
+    revision-id: 3
     material: LEATHER_LEGGINGS
     custom-model-data: 10000
     dye-color: "81 166 102"
@@ -5091,13 +5091,13 @@ DONATE_LEGGINGS_LONG_HOANG:
       template: armor-upgrade-template
       max: 100
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 DONATE_BOOTS_LONG_HOANG:
   itemsadder-item: "lunarset:lunarboots"
   base:
     custom-maxsockets: 7.0
-    revision-id: 2
+    revision-id: 3
     material: LEATHER_BOOTS
     custom-model-data: 10000
     dye-color: "81 166 102"
@@ -5122,7 +5122,7 @@ DONATE_BOOTS_LONG_HOANG:
       template: armor-upgrade-template
       max: 100
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 # ============================================================
 # TRADE ARMOR — Dòng Long Tộc Trần Thế
@@ -5134,7 +5134,7 @@ TRADE_HELMET_HOA_LONG:
   itemsadder-item: "firework_set:fireworkhelmet"
   base:
     custom-maxsockets: 3.0
-    revision-id: 1
+    revision-id: 2
     material: LEATHER_HELMET
     custom-model-data: 10015
     dye-color: "107 0 20"
@@ -5158,13 +5158,13 @@ TRADE_HELMET_HOA_LONG:
       template: armor-upgrade-template
       max: 100
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 TRADE_CHESTPLATE_HOA_LONG:
   itemsadder-item: "firework_set:fireworkchestplate"
   base:
     custom-maxsockets: 3.0
-    revision-id: 1
+    revision-id: 2
     material: LEATHER_CHESTPLATE
     custom-model-data: 10020
     dye-color: "107 0 20"
@@ -5188,13 +5188,13 @@ TRADE_CHESTPLATE_HOA_LONG:
       template: armor-upgrade-template
       max: 100
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 TRADE_LEGGINGS_HOA_LONG:
   itemsadder-item: "firework_set:fireworkleggings"
   base:
     custom-maxsockets: 3.0
-    revision-id: 1
+    revision-id: 2
     material: LEATHER_LEGGINGS
     custom-model-data: 10020
     dye-color: "107 0 20"
@@ -5218,13 +5218,13 @@ TRADE_LEGGINGS_HOA_LONG:
       template: armor-upgrade-template
       max: 100
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 TRADE_BOOTS_HOA_LONG:
   itemsadder-item: "firework_set:fireworkboots"
   base:
     custom-maxsockets: 3.0
-    revision-id: 1
+    revision-id: 2
     material: LEATHER_BOOTS
     custom-model-data: 10020
     dye-color: "107 0 20"
@@ -5249,7 +5249,7 @@ TRADE_BOOTS_HOA_LONG:
       template: armor-upgrade-template
       max: 100
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 # --- BĂNG LONG (Cấp 2 - VERY_RARE) ---
 
@@ -5257,7 +5257,7 @@ TRADE_HELMET_BANG_LONG:
   itemsadder-item: "mysticcyanset:mysticcyanhelmet"
   base:
     custom-maxsockets: 4.0
-    revision-id: 1
+    revision-id: 2
     material: LEATHER_HELMET
     custom-model-data: 10020
     dye-color: "14 175 155"
@@ -5281,13 +5281,13 @@ TRADE_HELMET_BANG_LONG:
       template: armor-upgrade-template
       max: 100
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 TRADE_CHESTPLATE_BANG_LONG:
   itemsadder-item: "mysticcyanset:mysticcyanchestplate"
   base:
     custom-maxsockets: 4.0
-    revision-id: 1
+    revision-id: 2
     material: LEATHER_CHESTPLATE
     custom-model-data: 10027
     dye-color: "14 175 155"
@@ -5311,13 +5311,13 @@ TRADE_CHESTPLATE_BANG_LONG:
       template: armor-upgrade-template
       max: 100
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 TRADE_LEGGINGS_BANG_LONG:
   itemsadder-item: "mysticcyanset:mysticcyanleggings"
   base:
     custom-maxsockets: 4.0
-    revision-id: 1
+    revision-id: 2
     material: LEATHER_LEGGINGS
     custom-model-data: 10027
     dye-color: "14 175 155"
@@ -5341,13 +5341,13 @@ TRADE_LEGGINGS_BANG_LONG:
       template: armor-upgrade-template
       max: 100
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 TRADE_BOOTS_BANG_LONG:
   itemsadder-item: "mysticcyanset:mysticcyanboots"
   base:
     custom-maxsockets: 4.0
-    revision-id: 1
+    revision-id: 2
     material: LEATHER_BOOTS
     custom-model-data: 10027
     dye-color: "14 175 155"
@@ -5372,7 +5372,7 @@ TRADE_BOOTS_BANG_LONG:
       template: armor-upgrade-template
       max: 100
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 # --- LÔI LONG (Cấp 3 - UNIQUE) ---
 
@@ -5380,7 +5380,7 @@ TRADE_HELMET_LOI_LONG:
   itemsadder-item: "elitecreatures:king_arthur_animated_weapon_set_helmet"
   base:
     custom-maxsockets: 5.0
-    revision-id: 1
+    revision-id: 2
     material: PAPER
     custom-model-data: 10353
     dye-color: "140 25 107"
@@ -5404,13 +5404,13 @@ TRADE_HELMET_LOI_LONG:
       template: armor-upgrade-template
       max: 100
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 TRADE_CHESTPLATE_LOI_LONG:
   itemsadder-item: "elitecreatures:king_arthur_animated_weapon_set_chestplate"
   base:
     custom-maxsockets: 5.0
-    revision-id: 1
+    revision-id: 2
     material: LEATHER_CHESTPLATE
     custom-model-data: 10031
     dye-color: "140 25 107"
@@ -5434,13 +5434,13 @@ TRADE_CHESTPLATE_LOI_LONG:
       template: armor-upgrade-template
       max: 100
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 TRADE_LEGGINGS_LOI_LONG:
   itemsadder-item: "elitecreatures:king_arthur_animated_weapon_set_leggings"
   base:
     custom-maxsockets: 5.0
-    revision-id: 1
+    revision-id: 2
     material: LEATHER_LEGGINGS
     custom-model-data: 10031
     dye-color: "140 25 107"
@@ -5464,13 +5464,13 @@ TRADE_LEGGINGS_LOI_LONG:
       template: armor-upgrade-template
       max: 100
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 TRADE_BOOTS_LOI_LONG:
   itemsadder-item: "elitecreatures:king_arthur_animated_weapon_set_boots"
   base:
     custom-maxsockets: 5.0
-    revision-id: 1
+    revision-id: 2
     material: LEATHER_BOOTS
     custom-model-data: 10031
     dye-color: "140 25 107"
@@ -5495,7 +5495,7 @@ TRADE_BOOTS_LOI_LONG:
       template: armor-upgrade-template
       max: 100
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 # --- PHONG LONG (Cấp 4 - EPIC) ---
 
@@ -5503,7 +5503,7 @@ TRADE_HELMET_PHONG_LONG:
   itemsadder-item: "nanoedge_set:nanoedgehelmet"
   base:
     custom-maxsockets: 6.0
-    revision-id: 1
+    revision-id: 2
     material: LEATHER_HELMET
     custom-model-data: 10016
     dye-color: "105 169 58"
@@ -5527,13 +5527,13 @@ TRADE_HELMET_PHONG_LONG:
       template: armor-upgrade-template
       max: 100
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 TRADE_CHESTPLATE_PHONG_LONG:
   itemsadder-item: "nanoedge_set:nanoedgechestplate"
   base:
     custom-maxsockets: 6.0
-    revision-id: 1
+    revision-id: 2
     material: LEATHER_CHESTPLATE
     custom-model-data: 10021
     dye-color: "105 169 58"
@@ -5557,13 +5557,13 @@ TRADE_CHESTPLATE_PHONG_LONG:
       template: armor-upgrade-template
       max: 100
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 TRADE_LEGGINGS_PHONG_LONG:
   itemsadder-item: "nanoedge_set:nanoedgeleggings"
   base:
     custom-maxsockets: 6.0
-    revision-id: 1
+    revision-id: 2
     material: LEATHER_LEGGINGS
     custom-model-data: 10021
     dye-color: "105 169 58"
@@ -5587,13 +5587,13 @@ TRADE_LEGGINGS_PHONG_LONG:
       template: armor-upgrade-template
       max: 100
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 TRADE_BOOTS_PHONG_LONG:
   itemsadder-item: "nanoedge_set:nanoedgeboots"
   base:
     custom-maxsockets: 6.0
-    revision-id: 1
+    revision-id: 2
     material: LEATHER_BOOTS
     custom-model-data: 10021
     dye-color: "105 169 58"
@@ -5618,7 +5618,7 @@ TRADE_BOOTS_PHONG_LONG:
       template: armor-upgrade-template
       max: 100
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 # --- HẮC LONG (Cấp 5 - LEGENDARY) ---
 
@@ -5626,7 +5626,7 @@ TRADE_HELMET_HAC_LONG:
   itemsadder-item: "obsidianset:co_helmet"
   base:
     custom-maxsockets: 7.0
-    revision-id: 1
+    revision-id: 2
     material: LEATHER_HELMET
     custom-model-data: 10002
     dye-color: "9 0 26"
@@ -5650,13 +5650,13 @@ TRADE_HELMET_HAC_LONG:
       template: armor-upgrade-template
       max: 100
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 TRADE_CHESTPLATE_HAC_LONG:
   itemsadder-item: "obsidianset:co_chestplate"
   base:
     custom-maxsockets: 7.0
-    revision-id: 1
+    revision-id: 2
     material: LEATHER_CHESTPLATE
     custom-model-data: 10004
     dye-color: "9 0 26"
@@ -5680,13 +5680,13 @@ TRADE_CHESTPLATE_HAC_LONG:
       template: armor-upgrade-template
       max: 100
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 TRADE_LEGGINGS_HAC_LONG:
   itemsadder-item: "obsidianset:co_leggings"
   base:
     custom-maxsockets: 7.0
-    revision-id: 1
+    revision-id: 2
     material: LEATHER_LEGGINGS
     custom-model-data: 10004
     dye-color: "9 0 26"
@@ -5710,13 +5710,13 @@ TRADE_LEGGINGS_HAC_LONG:
       template: armor-upgrade-template
       max: 100
     will-break: false
-    unbreakable: false
+    unbreakable: true
 
 TRADE_BOOTS_HAC_LONG:
   itemsadder-item: "obsidianset:co_boots"
   base:
     custom-maxsockets: 7.0
-    revision-id: 1
+    revision-id: 2
     material: LEATHER_BOOTS
     custom-model-data: 10004
     dye-color: "9 0 26"
@@ -5741,4 +5741,4 @@ TRADE_BOOTS_HAC_LONG:
       template: armor-upgrade-template
       max: 100
     will-break: false
-    unbreakable: false
+    unbreakable: true
