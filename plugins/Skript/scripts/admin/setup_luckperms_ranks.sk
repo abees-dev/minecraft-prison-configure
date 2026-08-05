@@ -80,6 +80,9 @@ command /setuplpranks:
 		execute console command "lp group default permission set essentials.spawn true"
 		execute console command "lp group default permission set essentials.kit true"
 		execute console command "lp group default permission set essentials.balance true"
+		execute console command "lp group default permission set essentials.disposal true"
+		execute console command "lp group default permission set mmoinventory.open true"
+		execute console command "lp group default permission set essentials.keepinv true"
 		
 		execute console command "lp group default permission set xprison.ranks false"
 		execute console command "lp group default permission set xprison.ranks.ranks false"
