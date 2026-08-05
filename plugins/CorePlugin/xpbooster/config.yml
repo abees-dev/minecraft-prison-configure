@@ -24,7 +24,7 @@ boss-bar:
   overlay: PROGRESS
   # Placeholders: {personal_multiplier} {personal_time} {server_multiplier}
   #   {server_time} {total_multiplier}
-  title: "&eXP &8| &aP {personal_multiplier}x &7{personal_time} &8• &cS {server_multiplier}x &7{server_time} &8• &fTổng {total_multiplier}x"
+  title: "&8[&e✦&8] &aBạn {personal_multiplier}x &7{personal_time} &8│ &cSV {server_multiplier}x &7{server_time} &8│ &eTổng &f{total_multiplier}x"
   inactive-multiplier: "-"
   inactive-time: "--:--"
 

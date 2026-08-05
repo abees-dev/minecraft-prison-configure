@@ -1,6 +1,6 @@
 DA_NANG_CAP_TAN_BINH:
   base:
-    revision-id: 2
+    revision-id: 3
     material: FLINT
     name: "&d✦ Cường Hóa Thạch &f&lTân Binh"
     tier: TRASH
@@ -14,7 +14,7 @@ DA_NANG_CAP_TAN_BINH:
 
 DA_NANG_CAP_TU_NHAN:
   base:
-    revision-id: 2
+    revision-id: 3
     material: COAL
     name: "&d✦ Cường Hóa Thạch &f&lTù Nhân"
     tier: TRASH
@@ -23,12 +23,12 @@ DA_NANG_CAP_TU_NHAN:
     enchants:
       unbreaking: 1
     lore:
-      - "&7 Chế từ Coal Ore đào ở mỏ Tù Nhân"
-      - "&7 Dùng để nâng cấp cúp/giáp rank Tù Nhân"
+      - "&7Tinh luyện từ quặng than tại mỏ Tù Nhân"
+      - "&7Dùng để nâng cấp trang bị cùng rank."
 
 DA_NANG_CAP_LAO_CONG:
   base:
-    revision-id: 2
+    revision-id: 3
     material: IRON_INGOT
     name: "&d✦ Cường Hóa Thạch &f&lLao Công"
     tier: TRASH
@@ -37,12 +37,12 @@ DA_NANG_CAP_LAO_CONG:
     enchants:
       unbreaking: 1
     lore:
-      - "&7 Chế từ Iron Ore đào ở mỏ Lao Công"
-      - "&7 Dùng để nâng cấp cúp/giáp rank Lao Công"
+      - "&7Tinh luyện từ quặng sắt tại mỏ Lao Công"
+      - "&7Dùng để nâng cấp trang bị cùng rank."
 
 DA_NANG_CAP_THO_DAO:
   base:
-    revision-id: 2
+    revision-id: 3
     material: GOLD_INGOT
     name: "&d✦ Cường Hóa Thạch &f&lThợ Đào"
     tier: COMMON
@@ -51,12 +51,12 @@ DA_NANG_CAP_THO_DAO:
     enchants:
       unbreaking: 1
     lore:
-      - "&7 Chế từ Gold Ore đào ở mỏ Thợ Đào"
-      - "&7 Dùng để nâng cấp cúp/giáp rank Thợ Đào"
+      - "&7Tinh luyện từ quặng vàng tại mỏ Thợ Đào"
+      - "&7Dùng để nâng cấp trang bị cùng rank."
 
 DA_NANG_CAP_DOI_TRUONG:
   base:
-    revision-id: 2
+    revision-id: 3
     material: REDSTONE
     name: "&d✦ Cường Hóa Thạch &f&lĐội Trưởng"
     tier: COMMON
@@ -65,12 +65,12 @@ DA_NANG_CAP_DOI_TRUONG:
     enchants:
       unbreaking: 1
     lore:
-      - "&7 Chế từ Redstone Ore đào ở mỏ Đội Trưởng"
-      - "&7 Dùng để nâng cấp cúp/giáp rank Đội Trưởng"
+      - "&7Tinh luyện từ quặng redstone tại mỏ Đội Trưởng"
+      - "&7Dùng để nâng cấp trang bị cùng rank."
 
 DA_NANG_CAP_PHO_QUAN_NGUC:
   base:
-    revision-id: 2
+    revision-id: 3
     material: DIAMOND
     name: "&d✦ Cường Hóa Thạch &f&lPhó Quản Ngục"
     tier: COMMON
@@ -79,12 +79,12 @@ DA_NANG_CAP_PHO_QUAN_NGUC:
     enchants:
       unbreaking: 1
     lore:
-      - "&7 Chế từ Diamond Ore đào ở mỏ Phó Quản Ngục"
-      - "&7 Dùng để nâng cấp cúp/giáp rank Phó Quản Ngục"
+      - "&7Tinh luyện từ quặng kim cương tại mỏ Phó Quản Ngục"
+      - "&7Dùng để nâng cấp trang bị cùng rank."
 
 DA_NANG_CAP_QUAN_NGUC:
   base:
-    revision-id: 2
+    revision-id: 3
     material: EMERALD
     name: "&d✦ Cường Hóa Thạch &f&lQuản Ngục"
     tier: UNCOMMON
@@ -93,12 +93,12 @@ DA_NANG_CAP_QUAN_NGUC:
     enchants:
       unbreaking: 1
     lore:
-      - "&7 Chế từ Emerald Ore đào ở mỏ Quản Ngục"
-      - "&7 Dùng để nâng cấp cúp/giáp rank Quản Ngục"
+      - "&7Tinh luyện từ quặng lục bảo tại mỏ Quản Ngục"
+      - "&7Dùng để nâng cấp trang bị cùng rank."
 
 DA_NANG_CAP_BA_CHU_NGUC_TU:
   base:
-    revision-id: 2
+    revision-id: 3
     material: NETHERITE_SCRAP
     name: "&d✦ Cường Hóa Thạch &f&lBá Chủ Ngục Tù"
     tier: UNCOMMON
@@ -107,12 +107,12 @@ DA_NANG_CAP_BA_CHU_NGUC_TU:
     enchants:
       unbreaking: 1
     lore:
-      - "&7 Chế từ Ancient Debris đào ở mỏ Bá Chủ Ngục Tù"
-      - "&7 Dùng để nâng cấp cúp/giáp rank Bá Chủ Ngục Tù"
+      - "&7Tinh luyện từ mảnh vỡ cổ đại tại mỏ Bá Chủ Ngục Tù"
+      - "&7Dùng để nâng cấp trang bị cùng rank."
 
 DA_NANG_CAP_VUOT_NGUC:
   base:
-    revision-id: 2
+    revision-id: 3
     material: NETHERITE_INGOT
     name: "&d✦ Cường Hóa Thạch &f&lVượt Ngục"
     tier: UNCOMMON
@@ -121,12 +121,12 @@ DA_NANG_CAP_VUOT_NGUC:
     enchants:
       unbreaking: 1
     lore:
-      - "&7 Chế từ Netherite / Ancient Debris đào ở mỏ Vượt Ngục"
-      - "&7 Dùng để nâng cấp cúp/giáp rank Vượt Ngục"
+      - "&7Tinh luyện từ netherite tại mỏ Vượt Ngục."
+      - "&7Dùng để nâng cấp trang bị cùng rank."
 
 NEN_DOI_TAN_BINH:
   base:
-    revision-id: 2
+    revision-id: 3
     material: SMOOTH_STONE
     name: "&e◆ Quặng Tinh Luyện &f&lTân Binh"
     tier: TRASH
@@ -140,7 +140,7 @@ NEN_DOI_TAN_BINH:
 
 NEN_DOI_TU_NHAN:
   base:
-    revision-id: 2
+    revision-id: 3
     material: COAL_BLOCK
     name: "&e◆ Quặng Tinh Luyện &f&lTù Nhân"
     tier: TRASH
@@ -149,12 +149,12 @@ NEN_DOI_TU_NHAN:
     enchants:
       unbreaking: 1
     lore:
-      - "&7 Tinh luyện từ các khối vật phẩm (Block) Tù Nhân"
-      - "&7 Dùng để chế Cường Hóa Thạch & Nâng Cấp Cúp"
+      - "&7Tinh luyện từ nguyên liệu tại mỏ Tù Nhân"
+      - "&7Dùng để chế tạo và nâng cấp trang bị."
 
 NEN_DOI_LAO_CONG:
   base:
-    revision-id: 2
+    revision-id: 3
     material: IRON_BLOCK
     name: "&e◆ Quặng Tinh Luyện &f&lLao Công"
     tier: TRASH
@@ -163,12 +163,12 @@ NEN_DOI_LAO_CONG:
     enchants:
       unbreaking: 1
     lore:
-      - "&7 Tinh luyện từ các khối vật phẩm (Block) Lao Công"
-      - "&7 Dùng để chế Cường Hóa Thạch & Nâng Cấp Cúp"
+      - "&7Tinh luyện từ nguyên liệu tại mỏ Lao Công"
+      - "&7Dùng để chế tạo và nâng cấp trang bị."
 
 NEN_DOI_THO_DAO:
   base:
-    revision-id: 2
+    revision-id: 3
     material: GOLD_BLOCK
     name: "&e◆ Quặng Tinh Luyện &f&lThợ Đào"
     tier: COMMON
@@ -177,12 +177,12 @@ NEN_DOI_THO_DAO:
     enchants:
       unbreaking: 1
     lore:
-      - "&7 Tinh luyện từ các khối vật phẩm (Block) Thợ Đào"
-      - "&7 Dùng để chế Cường Hóa Thạch & Nâng Cấp Cúp"
+      - "&7Tinh luyện từ nguyên liệu tại mỏ Thợ Đào"
+      - "&7Dùng để chế tạo và nâng cấp trang bị."
 
 NEN_DOI_DOI_TRUONG:
   base:
-    revision-id: 2
+    revision-id: 3
     material: REDSTONE_BLOCK
     name: "&e◆ Quặng Tinh Luyện &f&lĐội Trưởng"
     tier: COMMON
@@ -191,12 +191,12 @@ NEN_DOI_DOI_TRUONG:
     enchants:
       unbreaking: 1
     lore:
-      - "&7 Tinh luyện từ các khối vật phẩm (Block) Đội Trưởng"
-      - "&7 Dùng để chế Cường Hóa Thạch & Nâng Cấp Cúp"
+      - "&7Tinh luyện từ nguyên liệu tại mỏ Đội Trưởng"
+      - "&7Dùng để chế tạo và nâng cấp trang bị."
 
 NEN_DOI_PHO_QUAN_NGUC:
   base:
-    revision-id: 2
+    revision-id: 3
     material: DIAMOND_BLOCK
     name: "&e◆ Quặng Tinh Luyện &f&lPhó Quản Ngục"
     tier: COMMON
@@ -205,12 +205,12 @@ NEN_DOI_PHO_QUAN_NGUC:
     enchants:
       unbreaking: 1
     lore:
-      - "&7 Tinh luyện từ các khối vật phẩm (Block) Phó Quản Ngục"
-      - "&7 Dùng để chế Cường Hóa Thạch & Nâng Cấp Cúp"
+      - "&7Tinh luyện từ nguyên liệu tại mỏ Phó Quản Ngục"
+      - "&7Dùng để chế tạo và nâng cấp trang bị."
 
 NEN_DOI_QUAN_NGUC:
   base:
-    revision-id: 2
+    revision-id: 3
     material: EMERALD_BLOCK
     name: "&e◆ Quặng Tinh Luyện &f&lQuản Ngục"
     tier: UNCOMMON
@@ -219,12 +219,12 @@ NEN_DOI_QUAN_NGUC:
     enchants:
       unbreaking: 1
     lore:
-      - "&7 Tinh luyện từ các khối vật phẩm (Block) Quản Ngục"
-      - "&7 Dùng để chế Cường Hóa Thạch & Nâng Cấp Cúp"
+      - "&7Tinh luyện từ nguyên liệu tại mỏ Quản Ngục"
+      - "&7Dùng để chế tạo và nâng cấp trang bị."
 
 NEN_DOI_BA_CHU_NGUC_TU:
   base:
-    revision-id: 2
+    revision-id: 3
     material: ANCIENT_DEBRIS
     name: "&e◆ Quặng Tinh Luyện &f&lBá Chủ Ngục Tù"
     tier: UNCOMMON
@@ -233,12 +233,12 @@ NEN_DOI_BA_CHU_NGUC_TU:
     enchants:
       unbreaking: 1
     lore:
-      - "&7 Tinh luyện từ các khối vật phẩm (Block) Bá Chủ Ngục Tù"
-      - "&7 Dùng để chế Cường Hóa Thạch & Nâng Cấp Cúp"
+      - "&7Tinh luyện từ nguyên liệu tại mỏ Bá Chủ Ngục Tù"
+      - "&7Dùng để chế tạo và nâng cấp trang bị."
 
 NEN_DOI_VUOT_NGUC:
   base:
-    revision-id: 2
+    revision-id: 3
     material: NETHERITE_BLOCK
     name: "&e◆ Quặng Tinh Luyện &f&lVượt Ngục"
     tier: UNCOMMON
@@ -247,12 +247,12 @@ NEN_DOI_VUOT_NGUC:
     enchants:
       unbreaking: 1
     lore:
-      - "&7 Tinh luyện từ các khối vật phẩm (Block) Vượt Ngục"
-      - "&7 Dùng để chế Quặng Đại Tinh Luyện Vượt Ngục"
+      - "&7Tinh luyện từ nguyên liệu tại mỏ Vượt Ngục"
+      - "&7Dùng để chế Quặng Đại Tinh Luyện."
 
 NEN_BA_VUOT_NGUC:
   base:
-    revision-id: 2
+    revision-id: 3
     material: NETHERITE_BLOCK
     name: "&4» Quặng Đại Tinh Luyện &f&lVượt Ngục"
     tier: UNIQUE
@@ -261,13 +261,13 @@ NEN_BA_VUOT_NGUC:
     enchants:
       unbreaking: 1
     lore:
-      - "&7 Tinh luyện từ 9 Quặng Tinh Luyện Vượt Ngục"
-      - "&7 Dùng để chế Cường Hóa Thạch & Nâng Cấp Cúp Vượt Ngục"
-      - "&7 Cấp tinh luyện cao nhất, chỉ có ở rank cuối"
+      - "&7Tinh luyện từ 9 Quặng Tinh Luyện Vượt Ngục"
+      - "&7Dùng để nâng cấp trang bị Vượt Ngục."
+      - "&8Cấp tinh luyện cao nhất."
 
 TINHTHE_HUY_DIET:
   base:
-    revision-id: 2
+    revision-id: 3
     material: PAPER
     custom-model-data: 10006
     name: "&5✦ Tinh Thể Hỗn Mang (Hủy Diệt)"
@@ -277,13 +277,13 @@ TINHTHE_HUY_DIET:
     enchants:
       unbreaking: 1
     lore:
-      - "&7 Tinh thể huyền thoại rớt từ &4Ma Vương Ngục Tù&7 (25%)"
-      - "&7 Đổi tại Bàn Chế Huy Hiệu: &e2× Đá Cường Hóa Thiên Mệnh"
-      - "&7 hoặc &e1× Đá Đục Lỗ Thiên Mệnh"
+      - "&7Rơi từ &4Ma Vương Ngục Tù &7với tỷ lệ &e25%&7."
+      - "&7Đổi &e2× Đá Cường Hóa Thiên Mệnh&7."
+      - "&7hoặc &e1× Đá Đục Lỗ Thiên Mệnh"
 
 HUY_HIEU_TRIEU_HOI:
   base:
-    revision-id: 2
+    revision-id: 3
     material: NETHER_STAR
     name: "&6✪ Huy Hiệu Triệu Hồi &f&lMa Vương Ngục Tù"
     tier: EPIC
@@ -292,13 +292,13 @@ HUY_HIEU_TRIEU_HOI:
     enchants:
       unbreaking: 1
     lore:
-      - "&7 Chế từ &fHuy Hiệu Vỡ&7 (rớt từ Boss trong Nhà Tù)"
-      - "&7 Mang huy hiệu này đến bàn thờ triệu hồi"
-      - "&7 để đánh thức &4&lMa Vương Ngục Tù&7 — trùm cuối cùng"
+      - "&7Chế từ &fHuy Hiệu Vỡ&7 (rớt từ Boss trong Nhà Tù)"
+      - "&7Mang huy hiệu này đến bàn thờ triệu hồi"
+      - "&7để đánh thức &4&lMa Vương Ngục Tù&7 — trùm cuối cùng"
 
 MANH_HUY_HIEU_TRIEU_HOI:
   base:
-    revision-id: 2
+    revision-id: 3
     material: PRISMARINE_SHARD
     name: "&7✪ Huy Hiệu Vỡ &7&l[Mảnh]"
     tier: RARE
@@ -307,9 +307,9 @@ MANH_HUY_HIEU_TRIEU_HOI:
     enchants:
       unbreaking: 1
     lore:
-      - "&7 Mảnh vỡ huy hiệu, rớt ra khi hạ gục bất kỳ Boss nào"
-      - "&7 trong Nhà Tù (9 rank)"
-      - "&7 Dùng để chế thành &6Huy Hiệu Triệu Hồi&7 hoàn chỉnh"
+      - "&7Mảnh vỡ huy hiệu, rớt ra khi hạ gục bất kỳ Boss nào"
+      - "&7trong Nhà Tù (9 rank)"
+      - "&7Dùng để chế thành &6Huy Hiệu Triệu Hồi&7 hoàn chỉnh"
 
 # ==========================================================
 # CHÌA KHÓA LONG TỘC (TRADE/DONATE) - MẢNH & ẤN TÍN
@@ -317,7 +317,7 @@ MANH_HUY_HIEU_TRIEU_HOI:
 
 MANH_LONG_TOC:
   base:
-    revision-id: 2
+    revision-id: 3
     material: DRAGON_BREATH
     name: "&6✦ Mảnh Long Tộc &7&l[Mảnh]"
     tier: RARE
@@ -326,13 +326,13 @@ MANH_LONG_TOC:
     enchants:
       unbreaking: 1
     lore:
-      - "&7 Mảnh linh khí Long Tộc, rớt khi hạ Boss Nhà Tù (9 rank)"
-      - "&7 Tỉ lệ theo rank boss (~12%–25%)"
-      - "&7 Dùng để chế thành &6Ấn Tín Long Tộc&7 tại Bàn Chế"
+      - "&7Rơi từ Boss tại các khu Nhà Tù."
+      - "&7Tỷ lệ rơi tăng theo cấp Boss: &e12%–25%&7."
+      - "&7Dùng để chế thành &6Ấn Tín Long Tộc&7 tại Bàn Chế"
 
 AN_TIN_LONG_TOC:
   base:
-    revision-id: 3
+    revision-id: 4
     material: HEART_OF_THE_SEA
     name: "&6&l⚔ Ấn Tín Long Tộc"
     tier: EPIC
@@ -341,9 +341,9 @@ AN_TIN_LONG_TOC:
     enchants:
       unbreaking: 1
     lore:
-      - "&7 Chế từ &f40 Mảnh Long Tộc &7+ &f5,000,000 tiền"
-      - "&7 Mang ấn tín này đến NPC Sứ Giả Long Tộc"
-      - "&7 và gõ &e/doilongtoc &7để đổi lấy &6Chìa Khóa Long Tộc"
+      - "&7Chế từ &f40 Mảnh Long Tộc &7+ &f5,000,000 tiền"
+      - "&7Mang ấn tín này đến NPC Sứ Giả Long Tộc"
+      - "&7và gõ &e/doilongtoc &7để đổi lấy &6Chìa Khóa Long Tộc"
 
 # ==========================================================
 # ĐÁ CƯỜNG HÓA VŨ KHÍ & GIÁP (MATERIAL)
@@ -351,7 +351,8 @@ AN_TIN_LONG_TOC:
 DA_CUONG_HOA_VU_KHI_SO_CAP:
   itemsadder-item: "iadungeon:crystal_of_invasion_70"
   base:
-    revision-id: 3
+    lore-format: ingredient-simple
+    revision-id: 4
     material: PAPER
     custom-model-data: 10069
     name: "&a✦ Đá Cường Hóa Vũ Khí &7[Sơ Cấp]"
@@ -360,15 +361,15 @@ DA_CUONG_HOA_VU_KHI_SO_CAP:
     enchants:
       unbreaking: 1
     lore:
-      - "&7 Cường hóa Vũ Khí tại &e/cuonghoa &7(&e+1 Cấp&7)"
-      - "&7 Dùng được ở &emọi cấp độ"
-      - "&7 Tỷ lệ gốc: &a15%&7 | Sàn tối thiểu: &a1%"
-      - "&7 Tỷ lệ giảm dần khi cấp trang bị tăng"
+      - "&7Cường hóa vũ khí thêm &e1 cấp &7tại &e/cuonghoa"
+      - "&7Tỷ lệ: &a15%&7 &8• &7Tối thiểu: &a1%"
+      - "&7Tỷ lệ giảm khi cấp cường hóa tăng."
 
 DA_CUONG_HOA_VU_KHI_TRUNG_CAP:
   itemsadder-item: "iadungeon:crystal_of_frost_29"
   base:
-    revision-id: 3
+    lore-format: ingredient-simple
+    revision-id: 4
     material: PAPER
     custom-model-data: 10028
     name: "&e✦ Đá Cường Hóa Vũ Khí &7[Trung Cấp]"
@@ -377,15 +378,15 @@ DA_CUONG_HOA_VU_KHI_TRUNG_CAP:
     enchants:
       unbreaking: 1
     lore:
-      - "&7 Cường hóa Vũ Khí tại &e/cuonghoa &7(&e+1 Cấp&7)"
-      - "&7 Dùng được ở &emọi cấp độ"
-      - "&7 Tỷ lệ gốc: &e25%&7 | Sàn tối thiểu: &e2%"
-      - "&7 Tỷ lệ giảm dần khi cấp trang bị tăng"
+      - "&7Cường hóa vũ khí thêm &e1 cấp &7tại &e/cuonghoa"
+      - "&7Tỷ lệ: &e25%&7 &8• &7Tối thiểu: &e2%"
+      - "&7Tỷ lệ giảm khi cấp cường hóa tăng."
 
 DA_CUONG_HOA_VU_KHI_CAO_CAP:
   itemsadder-item: "iadungeon:crystal_of_fury_19"
   base:
-    revision-id: 3
+    lore-format: ingredient-simple
+    revision-id: 4
     material: PAPER
     custom-model-data: 10018
     name: "&6✦ Đá Cường Hóa Vũ Khí &7[Cao Cấp]"
@@ -394,15 +395,15 @@ DA_CUONG_HOA_VU_KHI_CAO_CAP:
     enchants:
       unbreaking: 1
     lore:
-      - "&7 Cường hóa Vũ Khí tại &e/cuonghoa &7(&e+1 Cấp&7)"
-      - "&7 Dùng được ở &emọi cấp độ"
-      - "&7 Tỷ lệ gốc: &645%&7 | Sàn tối thiểu: &62%"
-      - "&7 Tỷ lệ giảm dần khi cấp trang bị tăng"
+      - "&7Cường hóa vũ khí thêm &e1 cấp &7tại &e/cuonghoa"
+      - "&7Tỷ lệ: &645%&7 &8• &7Tối thiểu: &62%"
+      - "&7Tỷ lệ giảm khi cấp cường hóa tăng."
 
 DA_CUONG_HOA_VU_KHI_SIEU_CAP:
   itemsadder-item: "iadungeon:crystal_of_silence_30"
   base:
-    revision-id: 3
+    lore-format: ingredient-simple
+    revision-id: 4
     material: PAPER
     custom-model-data: 10029
     name: "&c✦ Đá Cường Hóa Vũ Khí &7[Siêu Cấp]"
@@ -411,15 +412,15 @@ DA_CUONG_HOA_VU_KHI_SIEU_CAP:
     enchants:
       unbreaking: 1
     lore:
-      - "&7 Cường hóa Vũ Khí tại &e/cuonghoa &7(&e+1 Cấp&7)"
-      - "&7 Dùng được ở &emọi cấp độ"
-      - "&7 Tỷ lệ gốc: &c65%&7 | Sàn tối thiểu: &c2%"
-      - "&7 Tỷ lệ giảm dần khi cấp trang bị tăng"
+      - "&7Cường hóa vũ khí thêm &e1 cấp &7tại &e/cuonghoa"
+      - "&7Tỷ lệ: &c65%&7 &8• &7Tối thiểu: &c2%"
+      - "&7Tỷ lệ giảm khi cấp cường hóa tăng."
 
 DA_CUONG_HOA_VU_KHI_HUYEN_THOAI:
   itemsadder-item: "iadungeon:crystal_of_contagion_71"
   base:
-    revision-id: 3
+    lore-format: ingredient-simple
+    revision-id: 4
     material: PAPER
     custom-model-data: 10070
     name: "&d&l✦ Đá Cường Hóa Vũ Khí &7[Huyền Thoại]"
@@ -428,15 +429,15 @@ DA_CUONG_HOA_VU_KHI_HUYEN_THOAI:
     enchants:
       unbreaking: 1
     lore:
-      - "&7 Cường hóa Vũ Khí tại &e/cuonghoa &7(&e+1 Cấp&7)"
-      - "&7 Dùng được ở &emọi cấp độ"
-      - "&7 Tỷ lệ gốc: &d85%&7 | Sàn tối thiểu: &d2%"
-      - "&7 Tỷ lệ giảm dần khi cấp trang bị tăng"
+      - "&7Cường hóa vũ khí thêm &e1 cấp &7tại &e/cuonghoa"
+      - "&7Tỷ lệ: &d85%&7 &8• &7Tối thiểu: &d2%"
+      - "&7Tỷ lệ giảm khi cấp cường hóa tăng."
 
 DA_CUONG_HOA_GIAP_SO_CAP:
   itemsadder-item: "iadungeon:crystal_of_chaos_66"
   base:
-    revision-id: 3
+    lore-format: ingredient-simple
+    revision-id: 4
     material: PAPER
     custom-model-data: 10065
     name: "&a✦ Đá Cường Hóa Giáp &7[Sơ Cấp]"
@@ -445,15 +446,15 @@ DA_CUONG_HOA_GIAP_SO_CAP:
     enchants:
       unbreaking: 1
     lore:
-      - "&7 Cường hóa Giáp / Phụ kiện tại &e/cuonghoa &7(&e+1 Cấp&7)"
-      - "&7 Dùng được ở &emọi cấp độ"
-      - "&7 Tỷ lệ gốc: &a15%&7 | Sàn tối thiểu: &a1%"
-      - "&7 Tỷ lệ giảm dần khi cấp trang bị tăng"
+      - "&7Nâng giáp/phụ kiện thêm &e1 cấp &7tại &e/cuonghoa&7."
+      - "&7Tỷ lệ: &a15%&7 &8• &7Tối thiểu: &a1%"
+      - "&7Tỷ lệ giảm khi cấp cường hóa tăng."
 
 DA_CUONG_HOA_GIAP_TRUNG_CAP:
   itemsadder-item: "iadungeon:crystal_of_despair_58"
   base:
-    revision-id: 3
+    lore-format: ingredient-simple
+    revision-id: 4
     material: PAPER
     custom-model-data: 10057
     name: "&e✦ Đá Cường Hóa Giáp &7[Trung Cấp]"
@@ -462,15 +463,15 @@ DA_CUONG_HOA_GIAP_TRUNG_CAP:
     enchants:
       unbreaking: 1
     lore:
-      - "&7 Cường hóa Giáp / Phụ kiện tại &e/cuonghoa &7(&e+1 Cấp&7)"
-      - "&7 Dùng được ở &emọi cấp độ"
-      - "&7 Tỷ lệ gốc: &e25%&7 | Sàn tối thiểu: &e2%"
-      - "&7 Tỷ lệ giảm dần khi cấp trang bị tăng"
+      - "&7Nâng giáp/phụ kiện thêm &e1 cấp &7tại &e/cuonghoa&7."
+      - "&7Tỷ lệ: &e25%&7 &8• &7Tối thiểu: &e2%"
+      - "&7Tỷ lệ giảm khi cấp cường hóa tăng."
 
 DA_CUONG_HOA_GIAP_CAO_CAP:
   itemsadder-item: "iadungeon:crystal_of_destruction_69"
   base:
-    revision-id: 3
+    lore-format: ingredient-simple
+    revision-id: 4
     material: PAPER
     custom-model-data: 10068
     name: "&6✦ Đá Cường Hóa Giáp &7[Cao Cấp]"
@@ -479,15 +480,15 @@ DA_CUONG_HOA_GIAP_CAO_CAP:
     enchants:
       unbreaking: 1
     lore:
-      - "&7 Cường hóa Giáp / Phụ kiện tại &e/cuonghoa &7(&e+1 Cấp&7)"
-      - "&7 Dùng được ở &emọi cấp độ"
-      - "&7 Tỷ lệ gốc: &645%&7 | Sàn tối thiểu: &62%"
-      - "&7 Tỷ lệ giảm dần khi cấp trang bị tăng"
+      - "&7Nâng giáp/phụ kiện thêm &e1 cấp &7tại &e/cuonghoa&7."
+      - "&7Tỷ lệ: &645%&7 &8• &7Tối thiểu: &62%"
+      - "&7Tỷ lệ giảm khi cấp cường hóa tăng."
 
 DA_CUONG_HOA_GIAP_SIEU_CAP:
   itemsadder-item: "iadungeon:crystal_of_frenzy_67"
   base:
-    revision-id: 3
+    lore-format: ingredient-simple
+    revision-id: 4
     material: PAPER
     custom-model-data: 10066
     name: "&c✦ Đá Cường Hóa Giáp &7[Siêu Cấp]"
@@ -496,15 +497,15 @@ DA_CUONG_HOA_GIAP_SIEU_CAP:
     enchants:
       unbreaking: 1
     lore:
-      - "&7 Cường hóa Giáp / Phụ kiện tại &e/cuonghoa &7(&e+1 Cấp&7)"
-      - "&7 Dùng được ở &emọi cấp độ"
-      - "&7 Tỷ lệ gốc: &c65%&7 | Sàn tối thiểu: &c2%"
-      - "&7 Tỷ lệ giảm dần khi cấp trang bị tăng"
+      - "&7Nâng giáp/phụ kiện thêm &e1 cấp &7tại &e/cuonghoa&7."
+      - "&7Tỷ lệ: &c65%&7 &8• &7Tối thiểu: &c2%"
+      - "&7Tỷ lệ giảm khi cấp cường hóa tăng."
 
 DA_CUONG_HOA_GIAP_HUYEN_THOAI:
   itemsadder-item: "iadungeon:crystal_of_madness_68"
   base:
-    revision-id: 3
+    lore-format: ingredient-simple
+    revision-id: 4
     material: PAPER
     custom-model-data: 10067
     name: "&d&l✦ Đá Cường Hóa Giáp &7[Huyền Thoại]"
@@ -513,15 +514,15 @@ DA_CUONG_HOA_GIAP_HUYEN_THOAI:
     enchants:
       unbreaking: 1
     lore:
-      - "&7 Cường hóa Giáp / Phụ kiện tại &e/cuonghoa &7(&e+1 Cấp&7)"
-      - "&7 Dùng được ở &emọi cấp độ"
-      - "&7 Tỷ lệ gốc: &d85%&7 | Sàn tối thiểu: &d2%"
-      - "&7 Tỷ lệ giảm dần khi cấp trang bị tăng"
+      - "&7Nâng giáp/phụ kiện thêm &e1 cấp &7tại &e/cuonghoa&7."
+      - "&7Tỷ lệ: &d85%&7 &8• &7Tối thiểu: &d2%"
+      - "&7Tỷ lệ giảm khi cấp cường hóa tăng."
 
 DA_CUONG_HOA_TRANG_SUC_SO_CAP:
   itemsadder-item: "iadungeon:crystal_of_chaos_66"
   base:
-    revision-id: 2
+    lore-format: ingredient-simple
+    revision-id: 3
     material: PAPER
     custom-model-data: 10065
     name: "&a✦ Đá Cường Hóa Trang Sức &7[Sơ Cấp]"
@@ -530,15 +531,15 @@ DA_CUONG_HOA_TRANG_SUC_SO_CAP:
     enchants:
       unbreaking: 1
     lore:
-      - "&7 Cường hóa Trang Sức tại &e/cuonghoa &7(&e+1 Cấp&7)"
-      - "&7 Dùng được ở &emọi cấp độ"
-      - "&7 Tỷ lệ gốc: &a15%&7 | Sàn tối thiểu: &a1%"
-      - "&7 Tỷ lệ giảm dần khi cấp trang bị tăng"
+      - "&7Cường hóa trang sức thêm &e1 cấp &7tại &e/cuonghoa"
+      - "&7Tỷ lệ: &a15%&7 &8• &7Tối thiểu: &a1%"
+      - "&7Tỷ lệ giảm khi cấp cường hóa tăng."
 
 DA_CUONG_HOA_TRANG_SUC_TRUNG_CAP:
   itemsadder-item: "iadungeon:crystal_of_despair_58"
   base:
-    revision-id: 2
+    lore-format: ingredient-simple
+    revision-id: 3
     material: PAPER
     custom-model-data: 10057
     name: "&e✦ Đá Cường Hóa Trang Sức &7[Trung Cấp]"
@@ -547,15 +548,15 @@ DA_CUONG_HOA_TRANG_SUC_TRUNG_CAP:
     enchants:
       unbreaking: 1
     lore:
-      - "&7 Cường hóa Trang Sức tại &e/cuonghoa &7(&e+1 Cấp&7)"
-      - "&7 Dùng được ở &emọi cấp độ"
-      - "&7 Tỷ lệ gốc: &e25%&7 | Sàn tối thiểu: &e2%"
-      - "&7 Tỷ lệ giảm dần khi cấp trang bị tăng"
+      - "&7Cường hóa trang sức thêm &e1 cấp &7tại &e/cuonghoa"
+      - "&7Tỷ lệ: &e25%&7 &8• &7Tối thiểu: &e2%"
+      - "&7Tỷ lệ giảm khi cấp cường hóa tăng."
 
 DA_CUONG_HOA_TRANG_SUC_CAO_CAP:
   itemsadder-item: "iadungeon:crystal_of_destruction_69"
   base:
-    revision-id: 2
+    lore-format: ingredient-simple
+    revision-id: 3
     material: PAPER
     custom-model-data: 10068
     name: "&6✦ Đá Cường Hóa Trang Sức &7[Cao Cấp]"
@@ -564,15 +565,15 @@ DA_CUONG_HOA_TRANG_SUC_CAO_CAP:
     enchants:
       unbreaking: 1
     lore:
-      - "&7 Cường hóa Trang Sức tại &e/cuonghoa &7(&e+1 Cấp&7)"
-      - "&7 Dùng được ở &emọi cấp độ"
-      - "&7 Tỷ lệ gốc: &645%&7 | Sàn tối thiểu: &62%"
-      - "&7 Tỷ lệ giảm dần khi cấp trang bị tăng"
+      - "&7Cường hóa trang sức thêm &e1 cấp &7tại &e/cuonghoa"
+      - "&7Tỷ lệ: &645%&7 &8• &7Tối thiểu: &62%"
+      - "&7Tỷ lệ giảm khi cấp cường hóa tăng."
 
 DA_CUONG_HOA_TRANG_SUC_SIEU_CAP:
   itemsadder-item: "iadungeon:crystal_of_frenzy_67"
   base:
-    revision-id: 2
+    lore-format: ingredient-simple
+    revision-id: 3
     material: PAPER
     custom-model-data: 10066
     name: "&c✦ Đá Cường Hóa Trang Sức &7[Siêu Cấp]"
@@ -581,15 +582,15 @@ DA_CUONG_HOA_TRANG_SUC_SIEU_CAP:
     enchants:
       unbreaking: 1
     lore:
-      - "&7 Cường hóa Trang Sức tại &e/cuonghoa &7(&e+1 Cấp&7)"
-      - "&7 Dùng được ở &emọi cấp độ"
-      - "&7 Tỷ lệ gốc: &c65%&7 | Sàn tối thiểu: &c2%"
-      - "&7 Tỷ lệ giảm dần khi cấp trang bị tăng"
+      - "&7Cường hóa trang sức thêm &e1 cấp &7tại &e/cuonghoa"
+      - "&7Tỷ lệ: &c65%&7 &8• &7Tối thiểu: &c2%"
+      - "&7Tỷ lệ giảm khi cấp cường hóa tăng."
 
 DA_CUONG_HOA_TRANG_SUC_HUYEN_THOAI:
   itemsadder-item: "iadungeon:crystal_of_madness_68"
   base:
-    revision-id: 2
+    lore-format: ingredient-simple
+    revision-id: 3
     material: PAPER
     custom-model-data: 10067
     name: "&d&l✦ Đá Cường Hóa Trang Sức &7[Huyền Thoại]"
@@ -598,15 +599,15 @@ DA_CUONG_HOA_TRANG_SUC_HUYEN_THOAI:
     enchants:
       unbreaking: 1
     lore:
-      - "&7 Cường hóa Trang Sức tại &e/cuonghoa &7(&e+1 Cấp&7)"
-      - "&7 Dùng được ở &emọi cấp độ"
-      - "&7 Tỷ lệ gốc: &d85%&7 | Sàn tối thiểu: &d2%"
-      - "&7 Tỷ lệ giảm dần khi cấp trang bị tăng"
+      - "&7Cường hóa trang sức thêm &e1 cấp &7tại &e/cuonghoa"
+      - "&7Tỷ lệ: &d85%&7 &8• &7Tối thiểu: &d2%"
+      - "&7Tỷ lệ giảm khi cấp cường hóa tăng."
 
 DA_CUONG_HOA_THIEN_MENH:
   itemsadder-item: "iadungeon:crystal_of_geomagnetic_storm_88"
   base:
-    revision-id: 3
+    lore-format: ingredient-simple
+    revision-id: 4
     material: PAPER
     custom-model-data: 10087
     name: "&d&l✦ Đá Cường Hóa Thiên Mệnh &7[100% Thành Công]"
@@ -615,10 +616,9 @@ DA_CUONG_HOA_THIEN_MENH:
     enchants:
       unbreaking: 1
     lore:
-      - "&7 Viên đá chứa vận mệnh tối cao của ngục tù"
-      - "&7 Cường hóa &ebất kỳ trang bị&7 tại &e/cuonghoa &7(&e+1 Cấp&7)"
-      - "&7 Dùng được ở &emọi cấp độ"
-      - "&7 Tỷ lệ thành công: &a&l100% (Hoàn Hảo)"
+      - "&7Viên đá chứa vận mệnh tối cao của ngục tù"
+      - "&7Nâng mọi trang bị thêm &e1 cấp &7tại &e/cuonghoa&7."
+      - "&7Tỷ lệ: &a100% &8(Hoàn hảo)"
 
 # ==========================================================
 # MŨI KHOAN ĐỤC LỖ TRANG BỊ (DRILLS & SOCKET PUNCH STONES)
@@ -626,7 +626,8 @@ DA_CUONG_HOA_THIEN_MENH:
 DA_DUC_LO_1:
   itemsadder-item: "duclo:mdrill_r226"
   base:
-    revision-id: 2
+    lore-format: ingredient-simple
+    revision-id: 3
     material: PAPER
     custom-model-data: 11001
     name: "&a✦ Mũi Khoan Đục Lỗ Sơ Cấp &7[Ô 1 - 100%]"
@@ -635,14 +636,15 @@ DA_DUC_LO_1:
     enchants:
       unbreaking: 1
     lore:
-      - "&7 Nguyên liệu dùng tại &e/duclo &7để đục ô khảm"
-      - "&7 Dùng để đục: &eÔ Khảm Thứ 1"
-      - "&7 Tỷ lệ thành công: &a100%"
+      - "&7Dùng tại &e/duclo &7để mở ô khảm."
+      - "&7Mở &eô khảm thứ 1"
+      - "&7Tỷ lệ: &a100%"
 
 DA_DUC_LO_2:
   itemsadder-item: "duclo:mdrill_r326"
   base:
-    revision-id: 2
+    lore-format: ingredient-simple
+    revision-id: 3
     material: PAPER
     custom-model-data: 11002
     name: "&e✦ Mũi Khoan Đục Lỗ Trung Cấp &7[Ô 2 - 70%]"
@@ -651,14 +653,15 @@ DA_DUC_LO_2:
     enchants:
       unbreaking: 1
     lore:
-      - "&7 Nguyên liệu dùng tại &e/duclo &7để đục ô khảm"
-      - "&7 Dùng để đục: &eÔ Khảm Thứ 2"
-      - "&7 Tỷ lệ thành công: &e70%"
+      - "&7Dùng tại &e/duclo &7để mở ô khảm."
+      - "&7Mở &eô khảm thứ 2"
+      - "&7Tỷ lệ: &e70%"
 
 DA_DUC_LO_3:
   itemsadder-item: "duclo:tdrill_x355"
   base:
-    revision-id: 2
+    lore-format: ingredient-simple
+    revision-id: 3
     material: PAPER
     custom-model-data: 11003
     name: "&6✦ Mũi Khoan Đục Lỗ Cao Cấp &7[Ô 3 - 40%]"
@@ -667,14 +670,15 @@ DA_DUC_LO_3:
     enchants:
       unbreaking: 1
     lore:
-      - "&7 Nguyên liệu dùng tại &e/duclo &7để đục ô khảm"
-      - "&7 Dùng để đục: &eÔ Khảm Thứ 3"
-      - "&7 Tỷ lệ thành công: &640%"
+      - "&7Dùng tại &e/duclo &7để mở ô khảm."
+      - "&7Mở &eô khảm thứ 3"
+      - "&7Tỷ lệ: &640%"
 
 DA_DUC_LO_4:
   itemsadder-item: "duclo:tdrill_x455"
   base:
-    revision-id: 2
+    lore-format: ingredient-simple
+    revision-id: 3
     material: PAPER
     custom-model-data: 11004
     name: "&c✦ Mũi Khoan Đục Lỗ Siêu Cấp &7[Ô 4 - 25%]"
@@ -683,14 +687,15 @@ DA_DUC_LO_4:
     enchants:
       unbreaking: 1
     lore:
-      - "&7 Nguyên liệu dùng tại &e/duclo &7để đục ô khảm"
-      - "&7 Dùng để đục: &eÔ Khảm Thứ 4"
-      - "&7 Tỷ lệ thành công: &c25%"
+      - "&7Dùng tại &e/duclo &7để mở ô khảm."
+      - "&7Mở &eô khảm thứ 4"
+      - "&7Tỷ lệ: &c25%"
 
 DA_DUC_LO_5:
   itemsadder-item: "duclo:tdrill_x555"
   base:
-    revision-id: 2
+    lore-format: ingredient-simple
+    revision-id: 3
     material: PAPER
     custom-model-data: 11005
     name: "&d&l✦ Mũi Khoan Đục Lỗ Huyền Thoại &7[Ô 5 - 10%]"
@@ -699,14 +704,15 @@ DA_DUC_LO_5:
     enchants:
       unbreaking: 1
     lore:
-      - "&7 Nguyên liệu dùng tại &e/duclo &7để đục ô khảm"
-      - "&7 Dùng để đục: &eÔ Khảm Thứ 5"
-      - "&7 Tỷ lệ thành công: &d10%"
+      - "&7Dùng tại &e/duclo &7để mở ô khảm."
+      - "&7Mở &eô khảm thứ 5"
+      - "&7Tỷ lệ: &d10%"
 
 DA_DUC_LO_6:
   itemsadder-item: "duclo:tdrill_x655"
   base:
-    revision-id: 2
+    lore-format: ingredient-simple
+    revision-id: 3
     material: PAPER
     custom-model-data: 11006
     name: "&6&l✦ Mũi Khoan Đục Lỗ Thần Thoại &7[Ô 6 - 5%]"
@@ -715,14 +721,15 @@ DA_DUC_LO_6:
     enchants:
       unbreaking: 1
     lore:
-      - "&7 Nguyên liệu dùng tại &e/duclo &7để đục ô khảm"
-      - "&7 Dùng để đục: &eÔ Khảm Thứ 6 (Đồ Trade/Donate)"
-      - "&7 Tỷ lệ thành công: &c5%"
+      - "&7Dùng tại &e/duclo &7để mở ô khảm."
+      - "&7Mở &eô khảm thứ 6 &8(Trang bị Trade/Donate)"
+      - "&7Tỷ lệ: &c5%"
 
 DA_DUC_LO_7:
   itemsadder-item: "duclo:topaz_drill"
   base:
-    revision-id: 2
+    lore-format: ingredient-simple
+    revision-id: 3
     material: PAPER
     custom-model-data: 11007
     name: "&4&l✦ Mũi Khoan Đục Lỗ Bá Chủ &7[Ô 7 - 2%]"
@@ -731,14 +738,15 @@ DA_DUC_LO_7:
     enchants:
       unbreaking: 1
     lore:
-      - "&7 Nguyên liệu dùng tại &e/duclo &7để đục ô khảm"
-      - "&7 Dùng để đục: &eÔ Khảm Thứ 7 (Đồ Donate)"
-      - "&7 Tỷ lệ thành công: &c2%"
+      - "&7Dùng tại &e/duclo &7để mở ô khảm."
+      - "&7Mở &eô khảm thứ 7 &8(Trang bị Donate)"
+      - "&7Tỷ lệ: &c2%"
 
 DA_DUC_LO_THIEN_MENH:
   itemsadder-item: "duclo:ruby_drill"
   base:
-    revision-id: 2
+    lore-format: ingredient-simple
+    revision-id: 3
     material: PAPER
     custom-model-data: 11008
     name: "&d&l✦ Mũi Khoan Đục Lỗ Thiên Mệnh &7[Hoàn Hảo 100%]"
@@ -747,13 +755,14 @@ DA_DUC_LO_THIEN_MENH:
     enchants:
       unbreaking: 1
     lore:
-      - "&7 Mũi khoan chứa năng lượng vận mệnh khai mở ô khảm"
-      - "&7 Dùng tại &e/duclo &7cho bất kỳ ô khảm nào"
-      - "&7 Tỷ lệ thành công: &a&l100% (Hoàn Hảo)"
+      - "&7Mũi khoan chứa năng lượng vận mệnh khai mở ô khảm"
+      - "&7Dùng tại &e/duclo &7cho bất kỳ ô khảm nào"
+      - "&7Tỷ lệ: &a100% &8(Hoàn hảo)"
 
 DA_CHUYEN_SINH:
   base:
-    revision-id: 2
+    lore-format: ingredient-simple
+    revision-id: 3
     material: NETHER_STAR
     name: "&d&l✦ ĐÁ CHUYỂN SINH ✦"
     tier: MYTHICAL
@@ -762,7 +771,7 @@ DA_CHUYEN_SINH:
       unbreaking: 1
     lore:
       - "&7Vật phẩm chứa đựng linh khí ngàn năm."
-      - "&7Dùng để Chuyển Sinh tại Menu &e/chuyensinh&7."
+      - "&7Dùng để chuyển sinh tại &e/chuyensinh&7."
 
 # ==========================================================
 # HÒM THIÊN GIỚI — MẢNH PITY (mỗi 10 lần quay)
@@ -770,7 +779,7 @@ DA_CHUYEN_SINH:
 
 MANH_THIEN_GIOI:
   base:
-    revision-id: 2
+    revision-id: 3
     material: PRISMARINE_CRYSTALS
     name: "&b✦ Mảnh Thiên Giới &7&l[Pity]"
     tier: LEGENDARY
@@ -779,6 +788,6 @@ MANH_THIEN_GIOI:
     enchants:
       unbreaking: 1
     lore:
-      - "&7 Nhận khi quay đủ &f10 lần &bHòm Thiên Giới"
-      - "&7 Đổi tại &e/doithiengioi &7hoặc NPC &eSứ Giả Thiên Giới"
-      - "&7 Đổi &f1 Mảnh &7→ &a1 món Hộ Long&7 (kiếm/giáp)"
+      - "&7Nhận khi quay đủ &f10 lần &bHòm Thiên Giới"
+      - "&7Đổi tại &e/doithiengioi &7hoặc Sứ Giả Thiên Giới."
+      - "&7Đổi &f1 Mảnh &7→ &a1 món Hộ Long&7 (kiếm/giáp)"
