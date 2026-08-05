@@ -64,56 +64,56 @@ levels:
       type: KILL_MOB
       target: 70
       filter:
-        - PRISON_TAN_BINH_NORMAL
+      - PRISON_TAN_BINH_NORMAL
     KILL_TU_NHAN_NORMAL_60:
       name: '&eTiêu diệt Tù Nhân Lang Thang'
       type: KILL_MOB
       target: 60
       filter:
-        - PRISON_TU_NHAN_NORMAL
+      - PRISON_TU_NHAN_NORMAL
     KILL_LAO_CONG_NORMAL_50:
       name: '&eTiêu diệt Lao Công Kiệt Sức'
       type: KILL_MOB
       target: 50
       filter:
-        - PRISON_LAO_CONG_NORMAL
+      - PRISON_LAO_CONG_NORMAL
     KILL_TAN_BINH_ELITE_35:
       name: '&eTiêu diệt Tân Binh Cuồng Nộ [Elite]'
       type: KILL_MOB
       target: 35
       filter:
-        - PRISON_TAN_BINH_ELITE
+      - PRISON_TAN_BINH_ELITE
     KILL_TU_NHAN_ELITE_30:
       name: '&eTiêu diệt Tù Nhân Hung Hãn [Elite]'
       type: KILL_MOB
       target: 30
       filter:
-        - PRISON_TU_NHAN_ELITE
+      - PRISON_TU_NHAN_ELITE
     BREAK_STONE_500:
       name: '&eĐào đá trong mỏ Tân Binh/Tù Nhân'
       type: BREAK_BLOCK
       target: 500
       filter:
-        - STONE
-        - COBBLESTONE
+      - STONE
+      - COBBLESTONE
       worlds:
-        - world_prison
+      - world_prison
     BREAK_COAL_350:
       name: '&eĐào quặng than'
       type: BREAK_BLOCK
       target: 350
       filter:
-        - COAL_ORE
+      - COAL_ORE
       worlds:
-        - world_prison
+      - world_prison
     BREAK_IRON_300:
       name: '&eĐào quặng sắt mỏ Tù Nhân/Lao Công'
       type: BREAK_BLOCK
       target: 300
       filter:
-        - IRON_ORE
+      - IRON_ORE
       worlds:
-        - world_prison
+      - world_prison
     STATION_TAN_BINH_20:
       name: '&eTinh luyện đá Tân Binh (station)'
       type: STATION_CRAFT
@@ -141,23 +141,23 @@ levels:
       type: KILL_MOB
       target: 30
       filter:
-        - PRISON_ZOMBIE
+      - PRISON_ZOMBIE
     BREAK_STONE_200:
       name: '&eĐào đá trong mỏ'
       type: BREAK_BLOCK
       target: 200
       filter:
-        - STONE
-        - COBBLESTONE
+      - STONE
+      - COBBLESTONE
       worlds:
-        - world_prison
+      - world_prison
     STATION_TRADE_IRON_16:
       name: '&eChế tạo quặng trade (station)'
       type: STATION_CRAFT
       target: 16
       mmoitems-type: MATERIAL
       mmoitems-id: TRADE_IRON
-
+  
   # ---- Level 2 (mid mines: Thợ Đào / Đội Trưởng / Phó Quản Ngục, rank 4-6) — min-members 3 ----
   '2':
     KILL_THO_DAO_NORMAL_120:
@@ -165,97 +165,97 @@ levels:
       type: KILL_MOB
       target: 120
       filter:
-        - PRISON_THO_DAO_NORMAL
+      - PRISON_THO_DAO_NORMAL
     KILL_DOI_TRUONG_NORMAL_100:
       name: '&6Tiêu diệt Đội Trưởng Phản Loạn'
       type: KILL_MOB
       target: 100
       filter:
-        - PRISON_DOI_TRUONG_NORMAL
+      - PRISON_DOI_TRUONG_NORMAL
     KILL_PHO_QUAN_NGUC_NORMAL_90:
       name: '&6Tiêu diệt Lính Canh Phó Quản Ngục'
       type: KILL_MOB
       target: 90
       filter:
-        - PRISON_PHO_QUAN_NGUC_NORMAL
+      - PRISON_PHO_QUAN_NGUC_NORMAL
     KILL_THO_DAO_ELITE_60:
       name: '&6Tiêu diệt Thợ Đào Cuồng Đá [Elite]'
       type: KILL_MOB
       target: 60
       filter:
-        - PRISON_THO_DAO_ELITE
+      - PRISON_THO_DAO_ELITE
     KILL_DOI_TRUONG_ELITE_50:
       name: '&6Tiêu diệt Đội Trưởng Tinh Nhuệ [Elite]'
       type: KILL_MOB
       target: 50
       filter:
-        - PRISON_DOI_TRUONG_ELITE
+      - PRISON_DOI_TRUONG_ELITE
     KILL_PHO_QUAN_NGUC_ELITE_40:
       name: '&6Tiêu diệt Cận Vệ Phó Quản Ngục [Elite]'
       type: KILL_MOB
       target: 40
       filter:
-        - PRISON_PHO_QUAN_NGUC_ELITE
+      - PRISON_PHO_QUAN_NGUC_ELITE
     BREAK_GOLD_400:
       name: '&6Đào quặng vàng'
       type: BREAK_BLOCK
       target: 400
       filter:
-        - GOLD_ORE
+      - GOLD_ORE
       worlds:
-        - world_prison
+      - world_prison
     BREAK_LAPIS_350:
       name: '&6Đào quặng lapis mỏ Thợ Đào'
       type: BREAK_BLOCK
       target: 350
       filter:
-        - LAPIS_ORE
+      - LAPIS_ORE
       worlds:
-        - world_prison
+      - world_prison
     BREAK_REDSTONE_500:
       name: '&6Đào quặng redstone'
       type: BREAK_BLOCK
       target: 500
       filter:
-        - REDSTONE_ORE
+      - REDSTONE_ORE
       worlds:
-        - world_prison
+      - world_prison
     BREAK_DIAMOND_300:
       name: '&6Đào quặng kim cương'
       type: BREAK_BLOCK
       target: 300
       filter:
-        - DIAMOND_ORE
+      - DIAMOND_ORE
       worlds:
-        - world_prison
+      - world_prison
     BREAK_EMERALD_300:
       name: '&6Đào quặng ngọc lục bảo'
       type: BREAK_BLOCK
       target: 300
       filter:
-        - EMERALD_ORE
+      - EMERALD_ORE
       worlds:
-        - world_prison
+      - world_prison
     BREAK_NETHER_GOLD_100:
       name: '&6Đào quặng vàng Nether mỏ Phó Quản Ngục'
       type: BREAK_BLOCK
       target: 100
       filter:
-        - NETHER_GOLD_ORE
+      - NETHER_GOLD_ORE
       worlds:
-        - world_prison
+      - world_prison
     BREAK_ORE_MIX_800:
       name: '&6Đào quặng tổng hợp'
       type: BREAK_BLOCK
       target: 800
       filter:
-        - GOLD_ORE
-        - LAPIS_ORE
-        - REDSTONE_ORE
-        - DIAMOND_ORE
-        - EMERALD_ORE
+      - GOLD_ORE
+      - LAPIS_ORE
+      - REDSTONE_ORE
+      - DIAMOND_ORE
+      - EMERALD_ORE
       worlds:
-        - world_prison
+      - world_prison
     STATION_THO_DAO_25:
       name: '&6Tinh luyện đá Thợ Đào (station)'
       type: STATION_CRAFT
@@ -283,26 +283,26 @@ levels:
       type: KILL_MOB
       target: 80
       filter:
-        - PRISON_SKELETON
+      - PRISON_SKELETON
     BREAK_ORE_400:
       name: '&6Đào quặng'
       type: BREAK_BLOCK
       target: 400
       filter:
-        - COAL_ORE
-        - IRON_ORE
-        - GOLD_ORE
-        - DEEPSLATE_COAL_ORE
-        - DEEPSLATE_IRON_ORE
+      - COAL_ORE
+      - IRON_ORE
+      - GOLD_ORE
+      - DEEPSLATE_COAL_ORE
+      - DEEPSLATE_IRON_ORE
       worlds:
-        - world_prison
+      - world_prison
     STATION_TRADE_GOLD_32:
       name: '&6Chế tạo quặng trade vàng'
       type: STATION_CRAFT
       target: 32
       mmoitems-type: MATERIAL
       mmoitems-id: TRADE_GOLD
-
+  
   # ---- Level 3 (endgame mines: Quản Ngục / Bá Chủ Ngục Tù / Vượt Ngục, rank 7-9) — min-members 5 ----
   '3':
     KILL_QUAN_NGUC_NORMAL_90:
@@ -310,79 +310,79 @@ levels:
       type: KILL_MOB
       target: 90
       filter:
-        - PRISON_QUAN_NGUC_NORMAL
+      - PRISON_QUAN_NGUC_NORMAL
     KILL_BA_CHU_NGUC_TU_NORMAL_80:
       name: '&cTiêu diệt Thủ Hạ Bá Chủ'
       type: KILL_MOB
       target: 80
       filter:
-        - PRISON_BA_CHU_NGUC_TU_NORMAL
+      - PRISON_BA_CHU_NGUC_TU_NORMAL
     KILL_VUOT_NGUC_NORMAL_60:
       name: '&cTiêu diệt Kẻ Vượt Ngục'
       type: KILL_MOB
       target: 60
       filter:
-        - PRISON_VUOT_NGUC_NORMAL
+      - PRISON_VUOT_NGUC_NORMAL
     KILL_QUAN_NGUC_ELITE_45:
       name: '&cTiêu diệt Cận Vệ Quản Ngục [Elite]'
       type: KILL_MOB
       target: 45
       filter:
-        - PRISON_QUAN_NGUC_ELITE
+      - PRISON_QUAN_NGUC_ELITE
     KILL_BA_CHU_NGUC_TU_ELITE_40:
       name: '&cTiêu diệt Cận Vệ Bá Chủ [Elite]'
       type: KILL_MOB
       target: 40
       filter:
-        - PRISON_BA_CHU_NGUC_TU_ELITE
+      - PRISON_BA_CHU_NGUC_TU_ELITE
     KILL_VUOT_NGUC_ELITE_35:
       name: '&cTiêu diệt Kẻ Vượt Ngục Liều Lĩnh [Elite]'
       type: KILL_MOB
       target: 35
       filter:
-        - PRISON_VUOT_NGUC_ELITE
+      - PRISON_VUOT_NGUC_ELITE
     BREAK_DIAMOND_350:
       name: '&cĐào quặng kim cương'
       type: BREAK_BLOCK
       target: 350
       filter:
-        - DIAMOND_ORE
+      - DIAMOND_ORE
       worlds:
-        - world_prison
+      - world_prison
     BREAK_EMERALD_400:
       name: '&cĐào quặng ngọc lục bảo'
       type: BREAK_BLOCK
       target: 400
       filter:
-        - EMERALD_ORE
+      - EMERALD_ORE
       worlds:
-        - world_prison
+      - world_prison
     BREAK_NETHER_QUARTZ_150:
       name: '&cĐào quặng thạch anh Nether mỏ Quản Ngục'
       type: BREAK_BLOCK
       target: 150
       filter:
-        - NETHER_QUARTZ_ORE
+      - NETHER_QUARTZ_ORE
       worlds:
-        - world_prison
+      - world_prison
     BREAK_ANCIENT_DEBRIS_60:
       name: '&cĐào Ancient Debris'
       type: BREAK_BLOCK
       target: 60
       filter:
-        - ANCIENT_DEBRIS
+      - ANCIENT_DEBRIS
       worlds:
-        - world_prison
+      - world_prison
     BREAK_ORE_MIX_HIGH_450:
       name: '&cĐào quặng cao cấp tổng hợp'
       type: BREAK_BLOCK
       target: 450
       filter:
-        - DIAMOND_ORE
-        - EMERALD_ORE
-        - ANCIENT_DEBRIS
+      - DIAMOND_ORE
+      - EMERALD_ORE
+      - ANCIENT_DEBRIS
       worlds:
-        - world_prison
+      - world_prison
     STATION_QUAN_NGUC_30:
       name: '&cTinh luyện đá Quản Ngục (station)'
       type: STATION_CRAFT
@@ -410,16 +410,16 @@ levels:
       type: KILL_MOB
       target: 10
       filter:
-        - PRISON_ZOMBIE_BOSS
+      - PRISON_ZOMBIE_BOSS
     BREAK_DEEPSLATE_800:
       name: '&cĐào deepslate'
       type: BREAK_BLOCK
       target: 800
       filter:
-        - DEEPSLATE
-        - COBBLED_DEEPSLATE
+      - DEEPSLATE
+      - COBBLED_DEEPSLATE
       worlds:
-        - world_prison
+      - world_prison
     STATION_TRADE_DIAMOND_48:
       name: '&cChế tạo quặng trade kim cương'
       type: STATION_CRAFT
@@ -435,30 +435,30 @@ personal:
     type: KILL_MOB
     target: 20
     filter:
-      - PRISON_TAN_BINH_NORMAL
+    - PRISON_TAN_BINH_NORMAL
   P_KILL_TU_NHAN_NORMAL_15:
     name: '&aTiêu diệt Tù Nhân Lang Thang'
     type: KILL_MOB
     target: 15
     filter:
-      - PRISON_TU_NHAN_NORMAL
+    - PRISON_TU_NHAN_NORMAL
   P_BREAK_COBBLESTONE_100:
     name: '&aĐào đá cá nhân'
     type: BREAK_BLOCK
     target: 100
     filter:
-      - COBBLESTONE
+    - COBBLESTONE
     worlds:
-      - world_prison
+    - world_prison
   P_BREAK_ORE_100:
     name: '&aĐào quặng cá nhân'
     type: BREAK_BLOCK
     target: 100
     filter:
-      - COAL_ORE
-      - IRON_ORE
+    - COAL_ORE
+    - IRON_ORE
     worlds:
-      - world_prison
+    - world_prison
   P_VAULT_DEPOSIT_50:
     name: '&aNạp kho bang'
     type: VAULT_DEPOSIT
@@ -474,10 +474,16 @@ personal:
     type: BREAK_BLOCK
     target: 100
     filter:
-      - STONE
-      - COBBLESTONE
+    - STONE
+    - COBBLESTONE
     worlds:
-      - world_prison
+    - world_prison
+  P_KILL_ZOMBIE_15:
+    name: '&aTiêu diệt Mythic Zombie'
+    type: KILL_MOB
+    target: 15
+    filter:
+    - PRISON_ZOMBIE
 
 # Phase 1 — per-gang weekly board pool (config.yml weekly.pick-count).
 weekly:
@@ -486,37 +492,37 @@ weekly:
     type: BREAK_BLOCK
     target: 3500
     filter:
-      - COAL_ORE
-      - IRON_ORE
-      - GOLD_ORE
-      - REDSTONE_ORE
-      - LAPIS_ORE
+    - COAL_ORE
+    - IRON_ORE
+    - GOLD_ORE
+    - REDSTONE_ORE
+    - LAPIS_ORE
     worlds:
-      - world_prison
+    - world_prison
   W_KILL_ROOKIE_300:
     name: '&6Bang tiêu diệt quái mỏ sơ cấp'
     type: KILL_MOB
     target: 300
     filter:
-      - PRISON_TAN_BINH_NORMAL
-      - PRISON_TU_NHAN_NORMAL
-      - PRISON_LAO_CONG_NORMAL
+    - PRISON_TAN_BINH_NORMAL
+    - PRISON_TU_NHAN_NORMAL
+    - PRISON_LAO_CONG_NORMAL
   W_KILL_MID_150:
     name: '&6Bang tiêu diệt quái mỏ trung cấp'
     type: KILL_MOB
     target: 150
     filter:
-      - PRISON_THO_DAO_NORMAL
-      - PRISON_DOI_TRUONG_NORMAL
-      - PRISON_PHO_QUAN_NGUC_NORMAL
+    - PRISON_THO_DAO_NORMAL
+    - PRISON_DOI_TRUONG_NORMAL
+    - PRISON_PHO_QUAN_NGUC_NORMAL
   W_KILL_ELITE_100:
     name: '&6Bang tiêu diệt Elite'
     type: KILL_MOB
     target: 100
     filter:
-      - PRISON_THO_DAO_ELITE
-      - PRISON_DOI_TRUONG_ELITE
-      - PRISON_PHO_QUAN_NGUC_ELITE
+    - PRISON_THO_DAO_ELITE
+    - PRISON_DOI_TRUONG_ELITE
+    - PRISON_PHO_QUAN_NGUC_ELITE
   W_VAULT_DEPOSIT_900:
     name: '&6Bang nạp kho'
     type: VAULT_DEPOSIT
@@ -538,29 +544,29 @@ weekly:
     type: BREAK_BLOCK
     target: 180
     filter:
-      - DIAMOND_ORE
+    - DIAMOND_ORE
     worlds:
-      - world_prison
+    - world_prison
   W_BREAK_ORE_2000:
     name: '&6Bang đào quặng tuần'
     type: BREAK_BLOCK
     target: 2000
     filter:
-      - COAL_ORE
-      - IRON_ORE
-      - GOLD_ORE
-      - DEEPSLATE_COAL_ORE
-      - DEEPSLATE_IRON_ORE
-      - DEEPSLATE_GOLD_ORE
+    - COAL_ORE
+    - IRON_ORE
+    - GOLD_ORE
+    - DEEPSLATE_COAL_ORE
+    - DEEPSLATE_IRON_ORE
+    - DEEPSLATE_GOLD_ORE
     worlds:
-      - world_prison
+    - world_prison
   W_KILL_100:
     name: '&6Bang tiêu diệt Mythic'
     type: KILL_MOB
     target: 100
     filter:
-      - PRISON_ZOMBIE
-      - PRISON_SKELETON
+    - PRISON_ZOMBIE
+    - PRISON_SKELETON
   W_VAULT_DEPOSIT_500:
     name: '&6Bang nạp kho'
     type: VAULT_DEPOSIT
