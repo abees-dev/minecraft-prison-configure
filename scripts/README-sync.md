@@ -36,6 +36,11 @@ Host UltraServers chỉ mở **SFTP**, không có SSH shell → **không dùng �
 ./scripts/sync-to-server.sh --apply
 ./scripts/sync-to-server.sh --apply plugins/MMOItems
 
+# Đẩy *.jar lần đầu — script TÁCH RIÊNG (sync-to-server.sh exclude *.jar)
+./scripts/sync-jars-to-server.sh              # dry-run
+./scripts/sync-jars-to-server.sh --apply      # đẩy thật
+./scripts/sync-jars-to-server.sh --apply plugins
+
 # Kéo file từ server về local (mặc định cũng dry-run)
 ./scripts/sync-to-server.sh --pull
 ./scripts/sync-to-server.sh --pull --apply plugins/Essentials
@@ -59,9 +64,26 @@ Có thể truyền một hoặc nhiều đường dẫn (tương đối so với
 
 - **Mặc định là dry-run.** Phải thêm `--apply` mới ghi thật.
 - Không `--delete` = chỉ **thêm/ghi đè**, không bao giờ xóa file trên server.
-- Loại trừ (exclude) đồng bộ với `.gitignore`: world data, `*.jar`, `*.db`, logs, cache, userdata, resourcepack, docs/note nội bộ… (xem danh sách `--exclude` trong script).
+- Loại trừ (exclude) đồng bộ với `.gitignore`: world data, `*.jar`, `*.db`, logs, cache, userdata, resourcepack, `plugins/ItemsAdder/contents_disabled`, docs/note nội bộ… (xem mảng `EXCLUDE_PATTERNS` trong script).
+- Pattern exclude được viết **tương đối repo root**. Vì rclone so filter theo thư mục sync, script tự re-anchor pattern khi bạn sync subpath (`build_filters`) — nên `./sync-to-server.sh plugins/ItemsAdder` vẫn bỏ qua `contents_disabled`.
+- Khi chỉ định **một file** cụ thể, script dùng `rclone copyto` (không nhận filter) → file đó luôn được đẩy.
 - Mật khẩu **không** ghi ra đĩa trong repo: script tạo file config `rclone` tạm (`mktemp`), obscure mật khẩu, và xóa khi kết thúc (`trap cleanup EXIT`).
 - Chạy `set +H` để mật khẩu có `!` không bị history expansion khi `source .env`.
+
+## Troubleshooting
+
+**`partial file rename failed: MoveRename failed: sftp: "failure" (SSH_FX_FAILURE)`**
+
+Mặc định rclone upload ra file `.partial` rồi rename đè lên file đích. SFTP của panel
+không cho rename đè file đã tồn tại → lỗi. Script đã bật `--inplace` (ghi thẳng vào file
+đích, bỏ bước `.partial`) nên không còn gặp.
+
+Đánh đổi: nếu kết nối đứt giữa chừng, file trên server có thể bị ghi dở. Chạy lại lệnh
+sync là file được ghi đè hoàn chỉnh.
+
+**`NOTICE: Skipped set directory modification time`**
+
+Panel SFTP không cho set modtime cho thư mục. Đã tắt bằng `--no-update-dir-modtime`.
 
 ## Ghi chú
 

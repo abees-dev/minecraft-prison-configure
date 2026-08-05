@@ -100,74 +100,110 @@ sha1sum_command = none
 known_hosts_file = none
 EOF
 
-# Filters aligned with .gitignore — never push runtime/world/binary junk
-FILTERS=(
-  --exclude '.git/**'
-  --exclude '.env'
-  --exclude '.env.*'
-  --exclude '.DS_Store'
-  --exclude 'Thumbs.db'
-  --exclude '.cursor/**'
-  --exclude '.agents/**'
-  --exclude '.vscode/**'
-  --exclude '.claude/**'
-  --exclude 'scripts/__pycache__/**'
-  --exclude '*.pyc'
-  --exclude '*.jar'
-  --exclude '*.db'
-  --exclude '*.db-shm'
-  --exclude '*.db-wal'
-  --exclude '*.db-journal'
-  --exclude 'cache/**'
-  --exclude 'libraries/**'
-  --exclude 'logs/**'
-  --exclude 'versions/**'
-  --exclude 'jre-17/**'
-  --exclude 'world/**'
-  --exclude 'world_nether/**'
-  --exclude 'world_the_end/**'
-  --exclude 'world_prison/**'
-  --exclude 'world_pvp/**'
-  --exclude 'world_dungeon/**'
-  --exclude 'world_dungeon_2/**'
-  --exclude 'world_magadungeon/**'
-  --exclude 'test/**'
-  --exclude 'world*/**'
-  --exclude 'usercache.json'
-  --exclude 'usernamecache.json'
-  --exclude 'whitelist.json'
-  --exclude 'ops.json'
-  --exclude 'banned-ips.json'
-  --exclude 'banned-players.json'
-  --exclude '.console_history'
-  --exclude 'plugins/update/**'
-  --exclude 'plugins/Updater/**'
-  --exclude 'plugins/bStats/**'
-  --exclude 'plugins/pStats/**'
-  --exclude 'plugins/PluginMetrics/**'
-  --exclude 'plugins/**/userdata/**'
-  --exclude 'plugins/**/backups/**'
-  --exclude 'plugins/Multiverse-Inventories/players/**'
-  --exclude 'plugins/SkinsRestorer/cache/**'
-  --exclude 'plugins/SkinsRestorer/skins/**'
-  --exclude 'plugins/WorldGuard/cache/**'
-  --exclude 'plugins/X-Prison/mines/*.json'
-  --exclude 'plugins/FastAsyncWorldEdit/clipboard/**'
-  --exclude 'plugins/FastAsyncWorldEdit/history/**'
-  --exclude 'plugins/RoseGarden/tmp/**'
-  --exclude 'plugins/CorePlugin/altar-data.yml'
-  --exclude 'plugins/MMOItems/.jar_extracted/**'
-  --exclude '**/resourcepack/**'
-  --exclude '**/mmoinv_rp_3/**'
-  --exclude 'dailyquest/data/**'
-  --exclude 'note.md'
-  --exclude 'debug/**'
-  --exclude 'docs/**'
-  --exclude 'CLAUDE.md'
-  --exclude 'DOCS_HE_THONG_PRISON.md'
-  --exclude 'STAT_BALANCING_STANDARD.md'
-  --exclude 'spritesheet.png'
+# Exclude patterns relative to repo root, aligned with .gitignore.
+# Patterns without '/' (or starting with '**/') match at any depth.
+EXCLUDE_PATTERNS=(
+  '.git/**'
+  '.env'
+  '.env.*'
+  '.DS_Store'
+  'Thumbs.db'
+  '.cursor/**'
+  '.agents/**'
+  '.vscode/**'
+  '.claude/**'
+  'scripts/__pycache__/**'
+  '*.pyc'
+  '*.jar'
+  '*.db'
+  '*.db-shm'
+  '*.db-wal'
+  '*.db-journal'
+  'cache/**'
+  'libraries/**'
+  'logs/**'
+  'versions/**'
+  'jre-17/**'
+  'world/**'
+  'world_nether/**'
+  'world_the_end/**'
+  'world_prison/**'
+  'world_pvp/**'
+  'world_dungeon/**'
+  'world_dungeon_2/**'
+  'world_magadungeon/**'
+  'test/**'
+  'world*/**'
+  'usercache.json'
+  'usernamecache.json'
+  'whitelist.json'
+  'ops.json'
+  'banned-ips.json'
+  'banned-players.json'
+  '.console_history'
+  'plugins/update/**'
+  'plugins/Updater/**'
+  'plugins/bStats/**'
+  'plugins/pStats/**'
+  'plugins/PluginMetrics/**'
+  'plugins/**/userdata/**'
+  'plugins/**/backups/**'
+  'plugins/Multiverse-Inventories/players/**'
+  'plugins/SkinsRestorer/cache/**'
+  'plugins/SkinsRestorer/skins/**'
+  'plugins/WorldGuard/cache/**'
+  'plugins/X-Prison/mines/*.json'
+  'plugins/FastAsyncWorldEdit/clipboard/**'
+  'plugins/FastAsyncWorldEdit/history/**'
+  'plugins/RoseGarden/tmp/**'
+  'plugins/CorePlugin/altar-data.yml'
+  'plugins/MMOItems/.jar_extracted/**'
+  'plugins/ItemsAdder/contents_disabled/**'
+  '**/resourcepack/**'
+  '**/mmoinv_rp_3/**'
+  'dailyquest/data/**'
+  'note.md'
+  'debug/**'
+  'docs/**'
+  'CLAUDE.md'
+  'DOCS_HE_THONG_PRISON.md'
+  'STAT_BALANCING_STANDARD.md'
+  'spritesheet.png'
 )
+
+# rclone matches filters against paths relative to the sync root, so a pattern
+# anchored at repo root must be re-anchored when syncing a sub-directory.
+# Prints the remainder of $1 after consuming the segments of $2, or fails when
+# the pattern targets an unrelated tree.
+rebase_pattern() {
+  local pattern="$1" base="$2"
+  local -a P B
+  IFS='/' read -ra P <<< "$pattern"
+  IFS='/' read -ra B <<< "$base"
+  local i
+  for ((i = 0; i < ${#B[@]}; i++)); do
+    [[ -n "${P[i]:-}" ]] || return 1
+    if [[ "${P[i]}" == '**' ]]; then
+      break
+    fi
+    # shellcheck disable=SC2053
+    [[ "${B[i]}" == ${P[i]} ]] || return 1
+  done
+  (IFS='/'; printf '%s' "${P[*]:i}")
+}
+
+build_filters() {
+  local base="${1%/}"
+  FILTERS=()
+  local p rebased
+  for p in "${EXCLUDE_PATTERNS[@]}"; do
+    if [[ -z "$base" || "$p" != */* || "$p" == '**/'* ]]; then
+      FILTERS+=(--exclude "$p")
+    elif rebased="$(rebase_pattern "$p" "$base")" && [[ -n "$rebased" ]]; then
+      FILTERS+=(--exclude "$rebased")
+    fi
+  done
+}
 
 RCLONE_OPTS=(
   --config "$RCLONE_CONF"
@@ -175,7 +211,9 @@ RCLONE_OPTS=(
   --transfers 8
   --checkers 16
   --sftp-idle-timeout 60s
-  "${FILTERS[@]}"
+  # Panel SFTP không cho rename đè file đã tồn tại → ghi thẳng, bỏ bước .partial
+  --inplace
+  --no-update-dir-modtime
 )
 
 [[ "$APPLY" -eq 0 ]] && RCLONE_OPTS+=(--dry-run)
@@ -208,44 +246,38 @@ remote_uri() {
   fi
 }
 
+# $3 = đường dẫn (tương đối repo root) của thư mục đang sync, để re-anchor filter
 sync_one() {
   local src="$1"
   local dst="$2"
+  build_filters "${3:-}"
   if [[ "$DELETE" -eq 1 ]]; then
-    rclone sync "${RCLONE_OPTS[@]}" "${DELETE_FLAG[@]}" "$src" "$dst"
+    rclone sync "${RCLONE_OPTS[@]}" "${FILTERS[@]}" "${DELETE_FLAG[@]}" "$src" "$dst"
   else
     # copy: chỉ thêm/ghi đè, không xóa file trên remote
-    rclone copy "${RCLONE_OPTS[@]}" "$src" "$dst"
+    rclone copy "${RCLONE_OPTS[@]}" "${FILTERS[@]}" "$src" "$dst"
   fi
 }
 
-# Base rclone flags without path filters (for single-file copyto)
-RCLONE_BASE=(
-  --config "$RCLONE_CONF"
-  --progress
-  --transfers 8
-  --checkers 16
-  --sftp-idle-timeout 60s
-)
-[[ "$APPLY" -eq 0 ]] && RCLONE_BASE+=(--dry-run)
-
+# copyto không nhận filter — dùng cho file đơn lẻ user chỉ định rõ
 copy_file() {
   local src="$1"
   local dst="$2"
-  rclone copyto "${RCLONE_BASE[@]}" "$src" "$dst"
+  rclone copyto "${RCLONE_OPTS[@]}" "$src" "$dst"
 }
 
 if [[ "$PULL" -eq 1 ]]; then
   if [[ ${#PATHS[@]} -eq 0 ]]; then
-    sync_one "$(remote_uri "")" "$ROOT/"
+    sync_one "$(remote_uri "")" "$ROOT/" ""
   else
     for p in "${PATHS[@]}"; do
       rel="${p#/}"
+      rel="${rel%/}"
       loc="$ROOT/$rel"
       info "Pull $rel"
       if [[ -d "$loc" || "$p" == */ ]]; then
         mkdir -p "$loc"
-        sync_one "$(remote_uri "$rel")" "$loc/"
+        sync_one "$(remote_uri "$rel")" "$loc/" "$rel"
       else
         mkdir -p "$(dirname "$loc")"
         copy_file "$(remote_uri "$rel")" "$loc"
@@ -254,16 +286,17 @@ if [[ "$PULL" -eq 1 ]]; then
   fi
 else
   if [[ ${#PATHS[@]} -eq 0 ]]; then
-    sync_one "$ROOT/" "$(remote_uri "")"
+    sync_one "$ROOT/" "$(remote_uri "")" ""
   else
     for p in "${PATHS[@]}"; do
       local_path="$p"
       [[ "$local_path" != /* ]] && local_path="$ROOT/$local_path"
       [[ -e "$local_path" ]] || die "Path not found: $p"
       rel="${local_path#"$ROOT"/}"
+      rel="${rel%/}"
       info "Push $rel"
       if [[ -d "$local_path" ]]; then
-        sync_one "${local_path%/}/" "$(remote_uri "$rel")"
+        sync_one "${local_path%/}/" "$(remote_uri "$rel")" "$rel"
       else
         copy_file "$local_path" "$(remote_uri "$rel")"
       fi
