@@ -123,7 +123,7 @@ violation-reset:
   # Whether or not violations should reset automatically
   enabled: true
   # The interval (in minutes) in which violations should automatically be reset.
-  interval-in-minutes: 8
+  interval-in-minutes: 5
   # Whether or not a message will be sent when violations are reset (this is only sent to staff who have /alerts enabled).
   message-enabled: true
   # The message that is sent (only to staff with /alerts enabled) when violations are reset.
@@ -146,7 +146,7 @@ client-brand-alerts:
   # A list of client brands that will not be allowed and will be kicked automatically when they join. This uses
   # string comparison so it doesnt need to be exact, for example, 'forge' will block Forge, 'lunar' will block lunar, etc.
   blocked-client-brands: []
-  unallowed-client-brand-kick-message: '&cYou can''t join with %client-brand%!'
+  unallowed-client-brand-kick-message: '&cKhông thể vào bằng client %client-brand%!'
   # Whether or not client brand alerts should be sent to the console
   console: false
   # The message that should be printed to the console (if the above option is enabled)
@@ -192,7 +192,7 @@ punishments:
   # The message that will be broadcast to the whole server when a player is punished
   broadcast:
     - "&7&m---»--*-------------------------------------*--«---"
-    - "&cVulcan &7has detected &c%player% &7to be cheating and has removed them from the network."
+    - "&cAetherMine &7đã đá &c%player% &7vì nghi vấn gian lận."
     - "&7&m---»--*-------------------------------------*--«---"
 
 #Judgement Day options
@@ -200,20 +200,20 @@ judgement-days:
   # The message that wil be broadcast to the server when someone has executed /jday start
   started-broadcast:
     - "&7&m---»--*-------------------------------------*--«---"
-    - "&cVulcan Judgement Day v1 has commenced..."
+    - "&cAetherMine Judgement Day đã bắt đầu..."
     - "&7&m---»--*-------------------------------------*--«---"
   # The message that will be broadcast to the server when the judgement day has ended.
   ended-broadcast:
     - "&7&m---»--*-------------------------------------*--«---"
-    - "&cThe Judgement Day has ended... %amount% players were punished."
+    - "&cJudgement Day đã kết thúc... %amount% người chơi bị xử lý."
     - "&7&m---»--*-------------------------------------*--«---"
   # The commands that will be executed, %player% indicates a player who was added to judgement day (/jday add (name)))
   commands:
-    - "ban %player% &c[Vulcan] Judgement Day v1"
+    - "ban %player% &c[AetherMine] Judgement Day"
   # The broadcast that will be sent to the server when someone is punished in a judgement day.
   broadcast:
     - '&7&m---»--*-------------------------------------*--«---'
-    - '&c%player% &7was banned for &c[Vulcan] Judgement Day v1&7.'
+    - '&c%player% &7đã bị ban vì &c[AetherMine] Judgement Day&7.'
     - '&7&m---»--*-------------------------------------*--«---'
   # How long we should wait in between players who are queued in judgement days
   cooldown: 1000
@@ -249,7 +249,7 @@ ghost-blocks-fix:
   # Whether or not the player will get sent a message when ghost blocks around them are updated
   message-enabled: false
   # The message that will get sent to players when they're on a ghost block (if the above is enabled)
-  message: '&cYou were walking on a ghost block. It has been updated!'
+  message: '&cBạn đang đứng trên ghost block. Đã cập nhật lại!'
   # Whether or not staff should be sent a message when someone is setback for being on a ghost block
   staff-message-enabled: true
   # The message that will be sent to staff when a player's position is updated for being on a ghost block.
@@ -324,8 +324,8 @@ messages:
   no-page: '%prefix% &cThere is no page %page% for %player%!'
   update-available: '%prefix% &7A new update for &cVulcan &7is available! (&cv%new-version%&7)'
   latest-version: '%prefix% &aYou are running the latest version of Vulcan!'
-  injection-failure: 'You joined too quickly. Please try again!'
-  frozen: '&cYou are frozen! Please await instructions from staff.'
+  injection-failure: '&cBạn vào server quá nhanh. Thử lại sau!'
+  frozen: '&cBạn đang bị đóng băng! Chờ staff hướng dẫn.'
   logged-out-while-frozen: '%prefix% &c%player% logged out while frozen!'
   froze: '%prefix% &7You froze &a%player%&7!'
   unfroze: '%prefix% &7You unfroze &c%player%!'
@@ -380,11 +380,11 @@ commands:
   ban:
     # The commands that will be executed when /vulcan ban (player) is executed
     commands:
-      - 'ban %player% &c[Vulcan] Unfair Advantage'
+      - 'ban %player% &c[AetherMine] Phát hiện lợi thế không công bằng'
     # The messages that will be broadcast when /vulcan ban (player) is executed
     broadcast:
       - "&7&m---»--*-------------------------------------*--«---"
-      - "&cVulcan &7has detected &c%player% &7to be cheating and has removed them from the network."
+      - "&cAetherMine &7đã đá &c%player% &7vì nghi vấn gian lận."
       - "&7&m---»--*-------------------------------------*--«---"
   # Options for the /vulcan profile (name) command
   profile:
@@ -494,7 +494,7 @@ settings:
   inject-early: true
   # This is the time (in ticks - 20 ticks per second - default value is 80 (4 seconds)) of how long players should be exempt from certain
   # checks after velocity gets applied to them via another plugin or something (such as Launchpads, crate plugins, etc etc).
-  max-velocity-ticks: 50
+  max-velocity-ticks: 80
   # This is the max file size (in KB) before the violations.txt should be zipped and put into the logs folder
   max-logs-file-size: 7500
   # If you have a bungee network and want to have a specific server name for punishment/alert messages, etc
@@ -522,7 +522,7 @@ settings:
   ignore-flags-geyser-client-brand: false
   # How long we should wait for everything to initialize before players start being checked (in milliseconds). Default
   # value is 2500ms.
-  join-check-wait-time: 2500
+  join-check-wait-time: 4000
   # Whether or not players with UUID's starting with '000000' should be ignored and not flagged - used for exemptions of
   # Geyser players if all else fails.
   ignore-geyser-uuids: true
@@ -533,7 +533,7 @@ settings:
   # The max violation (violations above this won't be sent)
   max-alert-violation: 250
   # How long should people be exempt from checks when they were in /fly (default = 40 ticks, 2 seconds)
-  flight-cooldown: 40
+  flight-cooldown: 100
   # What the /vulcan top command should display if there aren't enough users for it to sort
   top-command-unresolved: "Unresolved"
   # Whether or not players who are in the judgement day queue should be able to be banned again.
@@ -692,13 +692,13 @@ checks:
         punishable: true
         discord-alert-interval: 1
         broadcast-punishment: false
-        max-violations: 1
+        max-violations: 8
         alert-interval: 1
         dont-alert-until: 1
         maximum-ping: 100000
         minimum-tps: -1
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'kick %player% &c[AetherMine] Phát hiện lợi thế không công bằng'
         buffer:
           max: 3
           multiple: .75
@@ -722,7 +722,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: -1
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'kick %player% &c[AetherMine] Phát hiện lợi thế không công bằng'
         buffer:
           max: 6
           multiple: .5
@@ -746,7 +746,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: -1
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'kick %player% &c[AetherMine] Phát hiện lợi thế không công bằng'
         buffer:
           max: 5
           multiple: .5
@@ -770,7 +770,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: -1
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'kick %player% &c[AetherMine] Phát hiện lợi thế không công bằng'
         buffer:
           max: 8
           multiple: .5
@@ -794,7 +794,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: -1
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'kick %player% &c[AetherMine] Phát hiện lợi thế không công bằng'
         buffer:
           max: 4
           multiple: .75
@@ -818,7 +818,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: -1
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'kick %player% &c[AetherMine] Phát hiện lợi thế không công bằng'
         buffer:
           max: 12
           multiple: .5
@@ -842,7 +842,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: -1
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'kick %player% &c[AetherMine] Phát hiện lợi thế không công bằng'
         buffer:
           max: 4
           multiple: .5
@@ -866,7 +866,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: -1
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'kick %player% &c[AetherMine] Phát hiện lợi thế không công bằng'
         buffer:
           max: 7
           multiple: .5
@@ -890,7 +890,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: -1
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'kick %player% &c[AetherMine] Phát hiện lợi thế không công bằng'
         buffer:
           max: 7
           multiple: .5
@@ -914,7 +914,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: -1
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'kick %player% &c[AetherMine] Phát hiện lợi thế không công bằng'
         buffer:
           max: 6
           multiple: .5
@@ -938,7 +938,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: -1
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'kick %player% &c[AetherMine] Phát hiện lợi thế không công bằng'
         buffer:
           max: 10
           multiple: .45
@@ -961,7 +961,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: -1
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'kick %player% &c[AetherMine] Phát hiện lợi thế không công bằng'
         buffer:
           max: 2
           multiple: .4
@@ -985,7 +985,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: -1
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'kick %player% &c[AetherMine] Phát hiện lợi thế không công bằng'
         buffer:
           max: 5
           multiple: .5
@@ -1009,7 +1009,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: -1
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'kick %player% &c[AetherMine] Phát hiện lợi thế không công bằng'
         buffer:
           max: 5
           multiple: .5
@@ -1033,7 +1033,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: -1
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'kick %player% &c[AetherMine] Phát hiện lợi thế không công bằng'
         buffer:
           max: 2
           multiple: .4
@@ -1057,7 +1057,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: -1
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'kick %player% &c[AetherMine] Phát hiện lợi thế không công bằng'
         buffer:
           max: 6
           multiple: .5
@@ -1081,7 +1081,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: -1
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'kick %player% &c[AetherMine] Phát hiện lợi thế không công bằng'
         buffer:
           max: 20
           multiple: .3
@@ -1105,7 +1105,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: -1
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'kick %player% &c[AetherMine] Phát hiện lợi thế không công bằng'
         buffer:
           max: 20
           multiple: .25
@@ -1123,13 +1123,13 @@ checks:
         punishable: true
         discord-alert-interval: 1
         broadcast-punishment: false
-        max-violations: 1
+        max-violations: 8
         alert-interval: 1
         dont-alert-until: 1
         maximum-ping: 100000
         minimum-tps: -1
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'kick %player% &c[AetherMine] Phát hiện lợi thế không công bằng'
         hotbar-shuffle:
           enabled: false
           minimum-vl-to-shuffle: 2
@@ -1149,7 +1149,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: -1
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'kick %player% &c[AetherMine] Phát hiện lợi thế không công bằng'
         buffer:
           max: 20
           multiple: .25
@@ -1173,7 +1173,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: -1
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'kick %player% &c[AetherMine] Phát hiện lợi thế không công bằng'
         buffer:
           max: 12
           multiple: .25
@@ -1197,7 +1197,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: -1
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'kick %player% &c[AetherMine] Phát hiện lợi thế không công bằng'
         hotbar-shuffle:
           enabled: false
           minimum-vl-to-shuffle: 2
@@ -1218,7 +1218,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'kick %player% &c[AetherMine] Phát hiện lợi thế không công bằng'
         hotbar-shuffle:
           enabled: false
           minimum-vl-to-shuffle: 2
@@ -1238,7 +1238,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'kick %player% &c[AetherMine] Phát hiện lợi thế không công bằng'
         hotbar-shuffle:
           enabled: false
           minimum-vl-to-shuffle: 2
@@ -1258,7 +1258,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'kick %player% &c[AetherMine] Phát hiện lợi thế không công bằng'
         buffer:
           max: 2
           multiple: .5
@@ -1282,7 +1282,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'kick %player% &c[AetherMine] Phát hiện lợi thế không công bằng'
         hotbar-shuffle:
           enabled: false
           minimum-vl-to-shuffle: 2
@@ -1305,7 +1305,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'kick %player% &c[AetherMine] Phát hiện lợi thế không công bằng'
         max-cps: 25
       b:
         enabled: true
@@ -1318,7 +1318,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'kick %player% &c[AetherMine] Phát hiện lợi thế không công bằng'
         buffer:
           max: 3
           multiple: .5
@@ -1334,7 +1334,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'kick %player% &c[AetherMine] Phát hiện lợi thế không công bằng'
         buffer:
           max: 3
           multiple: .5
@@ -1350,7 +1350,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'kick %player% &c[AetherMine] Phát hiện lợi thế không công bằng'
         buffer:
           max: 3
           multiple: .5
@@ -1366,7 +1366,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'kick %player% &c[AetherMine] Phát hiện lợi thế không công bằng'
         buffer:
           max: 3
           multiple: .5
@@ -1382,7 +1382,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'kick %player% &c[AetherMine] Phát hiện lợi thế không công bằng'
         buffer:
           max: 4
           multiple: .5
@@ -1398,7 +1398,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'kick %player% &c[AetherMine] Phát hiện lợi thế không công bằng'
         buffer:
           max: 5
           multiple: .25
@@ -1414,7 +1414,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'kick %player% &c[AetherMine] Phát hiện lợi thế không công bằng'
         buffer:
           max: 4
           multiple: .5
@@ -1430,7 +1430,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'kick %player% &c[AetherMine] Phát hiện lợi thế không công bằng'
         buffer:
           max: 5
           multiple: .5
@@ -1446,7 +1446,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'kick %player% &c[AetherMine] Phát hiện lợi thế không công bằng'
         buffer:
           max: 4
           multiple: .5
@@ -1462,7 +1462,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'kick %player% &c[AetherMine] Phát hiện lợi thế không công bằng'
         buffer:
           max: 4
           multiple: .5
@@ -1478,7 +1478,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'kick %player% &c[AetherMine] Phát hiện lợi thế không công bằng'
         buffer:
           max: 4
           multiple: .25
@@ -1494,7 +1494,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'kick %player% &c[AetherMine] Phát hiện lợi thế không công bằng'
         buffer:
           max: 4
           multiple: .25
@@ -1510,7 +1510,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'kick %player% &c[AetherMine] Phát hiện lợi thế không công bằng'
         buffer:
           max: 25
           multiple: .15
@@ -1526,7 +1526,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'kick %player% &c[AetherMine] Phát hiện lợi thế không công bằng'
         buffer:
           max: 5
           multiple: .25
@@ -1542,7 +1542,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'kick %player% &c[AetherMine] Phát hiện lợi thế không công bằng'
         buffer:
           max: 2
           multiple: .25
@@ -1557,7 +1557,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'kick %player% &c[AetherMine] Phát hiện lợi thế không công bằng'
         buffer:
           max: 35
           multiple: .3
@@ -1573,7 +1573,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'kick %player% &c[AetherMine] Phát hiện lợi thế không công bằng'
         buffer:
           max: 50
           multiple: .15
@@ -1589,7 +1589,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'kick %player% &c[AetherMine] Phát hiện lợi thế không công bằng'
         buffer:
           max: 30
           multiple: .15
@@ -1605,7 +1605,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'kick %player% &c[AetherMine] Phát hiện lợi thế không công bằng'
         buffer:
           max: 25
           multiple: .15
@@ -1617,35 +1617,35 @@ checks:
         punishable: true
         discord-alert-interval: 1
         broadcast-punishment: false
-        max-violations: 8
+        max-violations: 12
         alert-interval: 1
         dont-alert-until: 1
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'kick %player% &c[AetherMine] Phát hiện lợi thế không công bằng'
         buffer:
-          max: 3
+          max: 5
           multiple: .25
-          decay: .035
-        max-reach: 3.03
+          decay: .08
+        max-reach: 3.10
       b:
         enabled: true
         punishable: true
         discord-alert-interval: 1
         broadcast-punishment: false
-        max-violations: 15
+        max-violations: 20
         alert-interval: 1
         dont-alert-until: 1
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'kick %player% &c[AetherMine] Phát hiện lợi thế không công bằng'
         buffer:
-          max: 6
+          max: 8
           multiple: .25
-          decay: .225
-        max-reach: 3.15
+          decay: .3
+        max-reach: 3.25
     fastbow:
       a:
         enabled: true
@@ -1658,7 +1658,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'kick %player% &c[AetherMine] Phát hiện lợi thế không công bằng'
         buffer:
           max: 3
           multiple: .5
@@ -1683,7 +1683,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'kick %player% &c[AetherMine] Phát hiện lợi thế không công bằng'
         buffer:
           max: 1
           multiple: .5
@@ -1707,7 +1707,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'kick %player% &c[AetherMine] Phát hiện lợi thế không công bằng'
         buffer:
           max: 1
           multiple: .5
@@ -1732,7 +1732,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'kick %player% &c[AetherMine] Phát hiện lợi thế không công bằng'
         buffer:
           max: 3
           multiple: .5
@@ -1756,7 +1756,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'kick %player% &c[AetherMine] Phát hiện lợi thế không công bằng'
         buffer:
           max: 5
           multiple: .6
@@ -1780,7 +1780,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'kick %player% &c[AetherMine] Phát hiện lợi thế không công bằng'
         buffer:
           max: 2
           multiple: .5
@@ -1798,13 +1798,13 @@ checks:
         punishable: true
         discord-alert-interval: 1
         broadcast-punishment: false
-        max-violations: 1
+        max-violations: 8
         alert-interval: 1
         dont-alert-until: 1
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'kick %player% &c[AetherMine] Phát hiện lợi thế không công bằng'
       f:
         enabled: true
         punishable: true
@@ -1816,7 +1816,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'kick %player% &c[AetherMine] Phát hiện lợi thế không công bằng'
         buffer:
           max: 10
           multiple: .25
@@ -1826,13 +1826,13 @@ checks:
         punishable: true
         discord-alert-interval: 1
         broadcast-punishment: false
-        max-violations: 1
+        max-violations: 8
         alert-interval: 1
         dont-alert-until: 1
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'kick %player% &c[AetherMine] Phát hiện lợi thế không công bằng'
       j:
         enabled: true
         punishable: true
@@ -1844,7 +1844,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'kick %player% &c[AetherMine] Phát hiện lợi thế không công bằng'
         buffer:
           max: 1
           multiple: .5
@@ -1860,7 +1860,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'kick %player% &c[AetherMine] Phát hiện lợi thế không công bằng'
         buffer:
           max: 3
           multiple: .5
@@ -1876,7 +1876,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'kick %player% &c[AetherMine] Phát hiện lợi thế không công bằng'
         buffer:
           max: 5
           multiple: .6
@@ -1901,7 +1901,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'kick %player% &c[AetherMine] Phát hiện lợi thế không công bằng'
         buffer:
           max: 4
           multiple: .25
@@ -1918,7 +1918,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'kick %player% &c[AetherMine] Phát hiện lợi thế không công bằng'
         buffer:
           max: 6
           multiple: .25
@@ -1936,7 +1936,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'kick %player% &c[AetherMine] Phát hiện lợi thế không công bằng'
         buffer:
           max: 4
           multiple: .25
@@ -1952,7 +1952,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'kick %player% &c[AetherMine] Phát hiện lợi thế không công bằng'
         buffer:
           max: 4
           multiple: .35
@@ -1968,7 +1968,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'kick %player% &c[AetherMine] Phát hiện lợi thế không công bằng'
         buffer:
           max: 5
           multiple: .25
@@ -1984,7 +1984,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'kick %player% &c[AetherMine] Phát hiện lợi thế không công bằng'
         buffer:
           max: 4
           multiple: .25
@@ -2002,7 +2002,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'kick %player% &c[AetherMine] Phát hiện lợi thế không công bằng'
         buffer:
           max: 3
           multiple: .25
@@ -2018,7 +2018,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'kick %player% &c[AetherMine] Phát hiện lợi thế không công bằng'
         buffer:
           max: 7
           multiple: .25
@@ -2034,7 +2034,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'kick %player% &c[AetherMine] Phát hiện lợi thế không công bằng'
         buffer:
           max: 7
           multiple: .25
@@ -2050,7 +2050,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'kick %player% &c[AetherMine] Phát hiện lợi thế không công bằng'
         buffer:
           max: 7
           multiple: .25
@@ -2066,7 +2066,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'kick %player% &c[AetherMine] Phát hiện lợi thế không công bằng'
         buffer:
           max: 7
           multiple: .25
@@ -2085,7 +2085,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'kick %player% &c[AetherMine] Phát hiện lợi thế không công bằng'
         buffer:
           max: 3
           multiple: .25
@@ -2103,7 +2103,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'kick %player% &c[AetherMine] Phát hiện lợi thế không công bằng'
         buffer:
           max: 3
           multiple: .25
@@ -2115,17 +2115,17 @@ checks:
         min-vl-to-setback: 1
         discord-alert-interval: 1
         broadcast-punishment: false
-        max-violations: 5
+        max-violations: 15
         alert-interval: 1
         dont-alert-until: 1
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'kick %player% &c[AetherMine] Phát hiện lợi thế không công bằng'
         buffer:
-          max: 1
+          max: 4
           multiple: .5
-          decay: .05
+          decay: .15
       d:
         enabled: true
         punishable: true
@@ -2139,7 +2139,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'kick %player% &c[AetherMine] Phát hiện lợi thế không công bằng'
         buffer:
           max: 3
           multiple: .25
@@ -2151,17 +2151,17 @@ checks:
         min-vl-to-setback: 1
         discord-alert-interval: 1
         broadcast-punishment: false
-        max-violations: 3
+        max-violations: 12
         alert-interval: 1
         dont-alert-until: 1
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'kick %player% &c[AetherMine] Phát hiện lợi thế không công bằng'
         buffer:
-          max: 1
+          max: 4
           multiple: .5
-          decay: .05
+          decay: .15
       g:
         enabled: true
         punishable: true
@@ -2175,7 +2175,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'kick %player% &c[AetherMine] Phát hiện lợi thế không công bằng'
         buffer:
           max: 2
           multiple: .25
@@ -2193,7 +2193,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'kick %player% &c[AetherMine] Phát hiện lợi thế không công bằng'
         buffer:
           max: 4
           multiple: .25
@@ -2212,7 +2212,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'kick %player% &c[AetherMine] Phát hiện lợi thế không công bằng'
         buffer:
           max: 2
           multiple: .25
@@ -2230,7 +2230,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'kick %player% &c[AetherMine] Phát hiện lợi thế không công bằng'
         buffer:
           max: 2
           multiple: .25
@@ -2248,7 +2248,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'kick %player% &c[AetherMine] Phát hiện lợi thế không công bằng'
         buffer:
           max: 2
           multiple: .25
@@ -2266,7 +2266,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'kick %player% &c[AetherMine] Phát hiện lợi thế không công bằng'
       b:
         enabled: true
         punishable: true
@@ -2279,7 +2279,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'kick %player% &c[AetherMine] Phát hiện lợi thế không công bằng'
         buffer:
           max: 6
           multiple: .25
@@ -2296,7 +2296,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'kick %player% &c[AetherMine] Phát hiện lợi thế không công bằng'
         buffer:
           max: 4
           multiple: .25
@@ -2307,15 +2307,15 @@ checks:
         punishable: true
         discord-alert-interval: 1
         broadcast-punishment: false
-        max-violations: 15
+        max-violations: 25
         alert-interval: 1
         dont-alert-until: 1
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'kick %player% &c[AetherMine] Phát hiện lợi thế không công bằng'
         buffer:
-          max: 4
+          max: 7
           multiple: .33
           decay: .125
         kick-out: false
@@ -2324,15 +2324,15 @@ checks:
         punishable: true
         discord-alert-interval: 1
         broadcast-punishment: false
-        max-violations: 15
+        max-violations: 25
         alert-interval: 1
         dont-alert-until: 1
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'kick %player% &c[AetherMine] Phát hiện lợi thế không công bằng'
         buffer:
-          max: 5
+          max: 7
           multiple: .25
           decay: .25
         kick-out: false
@@ -2341,15 +2341,15 @@ checks:
         punishable: true
         discord-alert-interval: 1
         broadcast-punishment: false
-        max-violations: 15
+        max-violations: 25
         alert-interval: 1
         dont-alert-until: 1
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'kick %player% &c[AetherMine] Phát hiện lợi thế không công bằng'
         buffer:
-          max: 5
+          max: 7
           multiple: .25
           decay: .125
         kick-out: false
@@ -2359,15 +2359,15 @@ checks:
         punishable: true
         discord-alert-interval: 1
         broadcast-punishment: false
-        max-violations: 15
+        max-violations: 25
         alert-interval: 1
         dont-alert-until: 1
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'kick %player% &c[AetherMine] Phát hiện lợi thế không công bằng'
         buffer:
-          max: 5
+          max: 7
           multiple: .5
           decay: .25
         kick-out: false
@@ -2376,15 +2376,15 @@ checks:
         punishable: true
         discord-alert-interval: 1
         broadcast-punishment: false
-        max-violations: 15
+        max-violations: 25
         alert-interval: 1
         dont-alert-until: 1
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'kick %player% &c[AetherMine] Phát hiện lợi thế không công bằng'
         buffer:
-          max: 5
+          max: 7
           multiple: .5
           decay: .25
     antilevitation:
@@ -2399,7 +2399,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'kick %player% &c[AetherMine] Phát hiện lợi thế không công bằng'
         buffer:
           max: 8
           multiple: .25
@@ -2416,7 +2416,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'kick %player% &c[AetherMine] Phát hiện lợi thế không công bằng'
         buffer:
           max: 6
           multiple: .5
@@ -2433,7 +2433,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'kick %player% &c[AetherMine] Phát hiện lợi thế không công bằng'
         buffer:
           max: 5
           multiple: .5
@@ -2453,7 +2453,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'kick %player% &c[AetherMine] Phát hiện lợi thế không công bằng'
         buffer:
           max: 1
           multiple: .5
@@ -2471,7 +2471,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'kick %player% &c[AetherMine] Phát hiện lợi thế không công bằng'
         buffer:
           max: 8
           multiple: .25
@@ -2488,7 +2488,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'kick %player% &c[AetherMine] Phát hiện lợi thế không công bằng'
         buffer:
           max: 6
           multiple: .5
@@ -2505,7 +2505,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'kick %player% &c[AetherMine] Phát hiện lợi thế không công bằng'
         buffer:
           max: 6
           multiple: .25
@@ -2522,7 +2522,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'kick %player% &c[AetherMine] Phát hiện lợi thế không công bằng'
         buffer:
           max: 3
           multiple: .25
@@ -2539,7 +2539,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'kick %player% &c[AetherMine] Phát hiện lợi thế không công bằng'
         buffer:
           max: 4
           multiple: .25
@@ -2556,7 +2556,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'kick %player% &c[AetherMine] Phát hiện lợi thế không công bằng'
         buffer:
           max: 4
           multiple: .25
@@ -2573,7 +2573,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'kick %player% &c[AetherMine] Phát hiện lợi thế không công bằng'
         buffer:
           max: 4
           multiple: .25
@@ -2590,7 +2590,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'kick %player% &c[AetherMine] Phát hiện lợi thế không công bằng'
         buffer:
           max: 4
           multiple: .25
@@ -2608,7 +2608,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'kick %player% &c[AetherMine] Phát hiện lợi thế không công bằng'
         buffer:
           max: 3
           multiple: .25
@@ -2621,17 +2621,17 @@ checks:
         setback: false
         min-vl-to-setback: 1
         broadcast-punishment: false
-        max-violations: 12
+        max-violations: 20
         alert-interval: 1
         dont-alert-until: 2
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'kick %player% &c[AetherMine] Phát hiện lợi thế không công bằng'
         buffer:
-          max: 5
+          max: 7
           multiple: .35
-          decay: .125
+          decay: .2
       b:
         enabled: true
         punishable: true
@@ -2639,17 +2639,17 @@ checks:
         setback: false
         min-vl-to-setback: 1
         broadcast-punishment: false
-        max-violations: 20
+        max-violations: 30
         alert-interval: 1
         dont-alert-until: 2
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'kick %player% &c[AetherMine] Phát hiện lợi thế không công bằng'
         buffer:
-          max: 3
+          max: 5
           multiple: .25
-          decay: .045
+          decay: .1
         min-difference: .0025
       c:
         enabled: true
@@ -2658,17 +2658,17 @@ checks:
         setback: false
         min-vl-to-setback: 1
         broadcast-punishment: false
-        max-violations: 15
+        max-violations: 25
         alert-interval: 2
         dont-alert-until: 2
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'kick %player% &c[AetherMine] Phát hiện lợi thế không công bằng'
         buffer:
-          max: 3
+          max: 5
           multiple: .25
-          decay: .045
+          decay: .1
         min-difference: .001
       d:
         enabled: true
@@ -2677,17 +2677,17 @@ checks:
         setback: false
         min-vl-to-setback: 1
         broadcast-punishment: false
-        max-violations: 20
+        max-violations: 30
         alert-interval: 1
         dont-alert-until: 2
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'kick %player% &c[AetherMine] Phát hiện lợi thế không công bằng'
         buffer:
-          max: 3
+          max: 5
           multiple: .25
-          decay: .045
+          decay: .1
         min-difference: .0025
       e:
         enabled: true
@@ -2696,17 +2696,17 @@ checks:
         setback: false
         min-vl-to-setback: 1
         broadcast-punishment: false
-        max-violations: 20
+        max-violations: 30
         alert-interval: 1
         dont-alert-until: 2
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'kick %player% &c[AetherMine] Phát hiện lợi thế không công bằng'
         buffer:
-          max: 2
+          max: 4
           multiple: .25
-          decay: .025
+          decay: .08
     fastclimb:
       a:
         enabled: true
@@ -2721,7 +2721,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'kick %player% &c[AetherMine] Phát hiện lợi thế không công bằng'
         buffer:
           max: 4
           multiple: .5
@@ -2740,7 +2740,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'kick %player% &c[AetherMine] Phát hiện lợi thế không công bằng'
         buffer:
           max: 4
           multiple: .35
@@ -2759,7 +2759,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'kick %player% &c[AetherMine] Phát hiện lợi thế không công bằng'
         buffer:
           max: 3
           multiple: .5
@@ -2777,7 +2777,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'kick %player% &c[AetherMine] Phát hiện lợi thế không công bằng'
         buffer:
           max: 4
           multiple: .5
@@ -2795,7 +2795,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'kick %player% &c[AetherMine] Phát hiện lợi thế không công bằng'
         buffer:
           max: 10
           multiple: .45
@@ -2813,7 +2813,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'kick %player% &c[AetherMine] Phát hiện lợi thế không công bằng'
         buffer:
           max: 4
           multiple: .45
@@ -2831,7 +2831,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'kick %player% &c[AetherMine] Phát hiện lợi thế không công bằng'
         buffer:
           max: 10
           multiple: .25
@@ -2844,17 +2844,17 @@ checks:
         setback: false
         min-vl-to-setback: 1
         broadcast-punishment: false
-        max-violations: 30
+        max-violations: 50
         alert-interval: 2
         dont-alert-until: 1
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'kick %player% &c[AetherMine] Phát hiện lợi thế không công bằng'
         buffer:
-          max: 3
+          max: 5
           multiple: .65
-          decay: .275
+          decay: .4
         # Whether or not this check should be disabled for suspected ghost blocks - enabling this will make these checks prone
         # to be bypasses by certain fly modules which spoof onGround values as if the player were on a ghost block, so if you enable
         # this make sure to enable setbacks for ghost-blocks in the ghost-blocks-fix section.
@@ -2866,17 +2866,17 @@ checks:
         setback: false
         min-vl-to-setback: 1
         broadcast-punishment: false
-        max-violations: 30
+        max-violations: 50
         alert-interval: 2
         dont-alert-until: 1
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'kick %player% &c[AetherMine] Phát hiện lợi thế không công bằng'
         buffer:
-          max: 3
+          max: 5
           multiple: .5
-          decay: .275
+          decay: .4
       c:
         enabled: true
         punishable: true
@@ -2884,17 +2884,17 @@ checks:
         setback: false
         min-vl-to-setback: 1
         broadcast-punishment: false
-        max-violations: 30
+        max-violations: 50
         alert-interval: 2
         dont-alert-until: 1
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'kick %player% &c[AetherMine] Phát hiện lợi thế không công bằng'
         buffer:
-          max: 4
+          max: 6
           multiple: .75
-          decay: .225
+          decay: .35
         # Whether or not this check should be disabled for suspected ghost blocks - enabling this will make these checks prone
         # to be bypasses by certain fly modules which spoof onGround values as if the player were on a ghost block, so if you enable
         # this make sure to enable setbacks for ghost-blocks in the ghost-blocks-fix section.
@@ -2906,17 +2906,17 @@ checks:
         setback: false
         min-vl-to-setback: 1
         broadcast-punishment: false
-        max-violations: 30
+        max-violations: 50
         alert-interval: 2
         dont-alert-until: 1
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'kick %player% &c[AetherMine] Phát hiện lợi thế không công bằng'
         buffer:
-          max: 4
+          max: 6
           multiple: .35
-          decay: .275
+          decay: .4
         # Whether or not this check should be disabled for suspected ghost blocks - enabling this will make these checks prone
         # to be bypasses by certain fly modules which spoof onGround values as if the player were on a ghost block, so if you enable
         # this make sure to enable setbacks for ghost-blocks in the ghost-blocks-fix section.
@@ -2928,17 +2928,17 @@ checks:
         setback: false
         min-vl-to-setback: 1
         broadcast-punishment: false
-        max-violations: 30
+        max-violations: 50
         alert-interval: 2
         dont-alert-until: 1
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'kick %player% &c[AetherMine] Phát hiện lợi thế không công bằng'
         buffer:
-          max: 3
+          max: 5
           multiple: .4
-          decay: .5
+          decay: .55
         # Whether or not this check should be disabled for suspected ghost blocks - enabling this will make these checks prone
         # to be bypasses by certain fly modules which spoof onGround values as if the player were on a ghost block, so if you enable
         # this make sure to enable setbacks for ghost-blocks in the ghost-blocks-fix section.
@@ -2950,17 +2950,17 @@ checks:
         setback: false
         min-vl-to-setback: 1
         broadcast-punishment: false
-        max-violations: 30
+        max-violations: 50
         alert-interval: 2
         dont-alert-until: 1
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'kick %player% &c[AetherMine] Phát hiện lợi thế không công bằng'
         buffer:
-          max: 2
+          max: 4
           multiple: .4
-          decay: .04
+          decay: .15
     vclip:
       a:
         enabled: true
@@ -2974,7 +2974,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'kick %player% &c[AetherMine] Phát hiện lợi thế không công bằng'
     sprint:
       a:
         enabled: true
@@ -2987,7 +2987,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'kick %player% &c[AetherMine] Phát hiện lợi thế không công bằng'
         buffer:
           max: 6
           multiple: .25
@@ -3000,33 +3000,33 @@ checks:
         min-vl-to-setback: 1
         discord-alert-interval: 1
         broadcast-punishment: false
-        max-violations: 15
+        max-violations: 25
         alert-interval: 2
         dont-alert-until: 1
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'kick %player% &c[AetherMine] Phát hiện lợi thế không công bằng'
         buffer:
-          max: 2
+          max: 4
           multiple: .5
-          decay: .05
+          decay: .15
       b:
         enabled: true
         punishable: true
         discord-alert-interval: 1
         broadcast-punishment: false
-        max-violations: 15
+        max-violations: 25
         alert-interval: 1
         dont-alert-until: 1
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'kick %player% &c[AetherMine] Phát hiện lợi thế không công bằng'
         buffer:
-          max: 4
+          max: 6
           multiple: .15
-          decay: .075
+          decay: .15
   player:
     fastuse:
       a:
@@ -3040,35 +3040,35 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'kick %player% &c[AetherMine] Phát hiện lợi thế không công bằng'
     fastplace:
       a:
         enabled: true
         punishable: true
         discord-alert-interval: 1
         broadcast-punishment: false
-        max-violations: 5
+        max-violations: 12
         alert-interval: 1
         dont-alert-until: 1
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'kick %player% &c[AetherMine] Phát hiện lợi thế không công bằng'
         max-blocks: 15
       b:
         enabled: true
         punishable: true
         discord-alert-interval: 1
         broadcast-punishment: false
-        max-violations: 5
+        max-violations: 12
         alert-interval: 1
         dont-alert-until: 1
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'kick %player% &c[AetherMine] Phát hiện lợi thế không công bằng'
         buffer:
-          max: 1
+          max: 3
           multiple: .25
           decay: .5
         max-blocks: 4
@@ -3084,7 +3084,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'kick %player% &c[AetherMine] Phát hiện lợi thế không công bằng'
         buffer:
           max: 2
           multiple: .25
@@ -3096,15 +3096,15 @@ checks:
         punishable: true
         discord-alert-interval: 1
         broadcast-punishment: false
-        max-violations: 5
+        max-violations: 12
         alert-interval: 1
         dont-alert-until: 1
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'kick %player% &c[AetherMine] Phát hiện lợi thế không công bằng'
         buffer:
-          max: 4
+          max: 6
           multiple: .5
           decay: .75
     scaffold:
@@ -3113,13 +3113,13 @@ checks:
         punishable: true
         discord-alert-interval: 1
         broadcast-punishment: false
-        max-violations: 3
+        max-violations: 12
         alert-interval: 1
         dont-alert-until: 1
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'kick %player% &c[AetherMine] Phát hiện lợi thế không công bằng'
       b:
         enabled: true
         punishable: true
@@ -3131,7 +3131,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'kick %player% &c[AetherMine] Phát hiện lợi thế không công bằng'
         buffer:
           max: 3
           multiple: .25
@@ -3141,15 +3141,15 @@ checks:
         punishable: true
         discord-alert-interval: 1
         broadcast-punishment: false
-        max-violations: 5
+        max-violations: 12
         alert-interval: 1
         dont-alert-until: 1
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'kick %player% &c[AetherMine] Phát hiện lợi thế không công bằng'
         buffer:
-          max: 2
+          max: 4
           multiple: .25
           decay: .5
       d:
@@ -3163,7 +3163,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'kick %player% &c[AetherMine] Phát hiện lợi thế không công bằng'
         buffer:
           max: 4
           multiple: .25
@@ -3179,7 +3179,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'kick %player% &c[AetherMine] Phát hiện lợi thế không công bằng'
         buffer:
           max: 4
           multiple: .25
@@ -3189,13 +3189,13 @@ checks:
         punishable: true
         discord-alert-interval: 1
         broadcast-punishment: false
-        max-violations: 3
+        max-violations: 12
         alert-interval: 1
         dont-alert-until: 1
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'kick %player% &c[AetherMine] Phát hiện lợi thế không công bằng'
         buffer:
           max: 3
           multiple: .5
@@ -3211,7 +3211,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'kick %player% &c[AetherMine] Phát hiện lợi thế không công bằng'
         buffer:
           max: 2
           multiple: .25
@@ -3227,7 +3227,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'kick %player% &c[AetherMine] Phát hiện lợi thế không công bằng'
         buffer:
           max: 8
           multiple: .25
@@ -3243,7 +3243,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'kick %player% &c[AetherMine] Phát hiện lợi thế không công bằng'
       j:
         enabled: true
         punishable: true
@@ -3255,7 +3255,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'kick %player% &c[AetherMine] Phát hiện lợi thế không công bằng'
       k:
         enabled: true
         punishable: true
@@ -3267,7 +3267,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'kick %player% &c[AetherMine] Phát hiện lợi thế không công bằng'
         buffer:
           max: 1
           multiple: .5
@@ -3284,7 +3284,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'kick %player% &c[AetherMine] Phát hiện lợi thế không công bằng'
         buffer:
           max: 1
           multiple: .5
@@ -3300,7 +3300,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'kick %player% &c[AetherMine] Phát hiện lợi thế không công bằng'
         buffer:
           max: 3
           multiple: .5
@@ -3316,7 +3316,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'kick %player% &c[AetherMine] Phát hiện lợi thế không công bằng'
     timer:
       a:
         enabled: true
@@ -3364,7 +3364,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'kick %player% &c[AetherMine] Phát hiện lợi thế không công bằng'
         buffer:
           max: 20
           multiple: .5
@@ -3380,7 +3380,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'kick %player% &c[AetherMine] Phát hiện lợi thế không công bằng'
         buffer:
           max: 2
           multiple: .5
@@ -3397,7 +3397,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'kick %player% &c[AetherMine] Phát hiện lợi thế không công bằng'
         cancel: true
     airplace:
       a:
@@ -3411,7 +3411,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'kick %player% &c[AetherMine] Phát hiện lợi thế không công bằng'
     badpackets:
       a:
         enabled: true
@@ -3424,7 +3424,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'kick %player% &c[AetherMine] Phát hiện lợi thế không công bằng'
         buffer:
           max: 2
           multiple: .5
@@ -3434,25 +3434,25 @@ checks:
         punishable: true
         discord-alert-interval: 1
         broadcast-punishment: false
-        max-violations: 1
+        max-violations: 8
         alert-interval: 1
         dont-alert-until: 1
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'kick %player% &c[AetherMine] Phát hiện lợi thế không công bằng'
       c:
         enabled: true
         punishable: true
         discord-alert-interval: 1
         broadcast-punishment: false
-        max-violations: 1
+        max-violations: 8
         alert-interval: 1
         dont-alert-until: 1
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'kick %player% &c[AetherMine] Phát hiện lợi thế không công bằng'
       d:
         enabled: true
         punishable: true
@@ -3464,7 +3464,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'kick %player% &c[AetherMine] Phát hiện lợi thế không công bằng'
         buffer:
           max: 3
           multiple: .25
@@ -3474,25 +3474,25 @@ checks:
         punishable: true
         discord-alert-interval: 1
         broadcast-punishment: false
-        max-violations: 1
+        max-violations: 8
         alert-interval: 1
         dont-alert-until: 1
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'kick %player% &c[AetherMine] Phát hiện lợi thế không công bằng'
       f:
         enabled: true
         punishable: true
         discord-alert-interval: 1
         broadcast-punishment: false
-        max-violations: 1
+        max-violations: 8
         alert-interval: 1
         dont-alert-until: 1
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'kick %player% &c[AetherMine] Phát hiện lợi thế không công bằng'
       g:
         enabled: true
         punishable: true
@@ -3504,7 +3504,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'kick %player% &c[AetherMine] Phát hiện lợi thế không công bằng'
       h:
         enabled: true
         punishable: true
@@ -3516,7 +3516,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'kick %player% &c[AetherMine] Phát hiện lợi thế không công bằng'
       i:
         enabled: true
         punishable: true
@@ -3528,7 +3528,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'kick %player% &c[AetherMine] Phát hiện lợi thế không công bằng'
       j:
         enabled: true
         punishable: true
@@ -3540,7 +3540,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'kick %player% &c[AetherMine] Phát hiện lợi thế không công bằng'
       k:
         enabled: true
         punishable: true
@@ -3552,7 +3552,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'kick %player% &c[AetherMine] Phát hiện lợi thế không công bằng'
         buffer:
           max: 3
           multiple: .5
@@ -3568,7 +3568,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'kick %player% &c[AetherMine] Phát hiện lợi thế không công bằng'
         buffer:
           max: 5
           multiple: .33
@@ -3584,7 +3584,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'kick %player% &c[AetherMine] Phát hiện lợi thế không công bằng'
         buffer:
           max: 20
           multiple: .25
@@ -3594,13 +3594,13 @@ checks:
         punishable: true
         discord-alert-interval: 1
         broadcast-punishment: false
-        max-violations: 1
+        max-violations: 8
         alert-interval: 1
         dont-alert-until: 1
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'kick %player% &c[AetherMine] Phát hiện lợi thế không công bằng'
         buffer:
           max: 3
           multiple: .5
@@ -3616,7 +3616,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'kick %player% &c[AetherMine] Phát hiện lợi thế không công bằng'
         buffer:
           max: 3
           multiple: .5
@@ -3626,13 +3626,13 @@ checks:
         punishable: true
         discord-alert-interval: 1
         broadcast-punishment: false
-        max-violations: 1
+        max-violations: 8
         alert-interval: 1
         dont-alert-until: 1
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'kick %player% &c[AetherMine] Phát hiện lợi thế không công bằng'
         buffer:
           max: 3
           multiple: .5
@@ -3648,7 +3648,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'kick %player% &c[AetherMine] Phát hiện lợi thế không công bằng'
         buffer:
           max: 6
           multiple: .5
@@ -3664,31 +3664,31 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'kick %player% &c[AetherMine] Phát hiện lợi thế không công bằng'
       t:
         enabled: true
         punishable: true
         discord-alert-interval: 1
         broadcast-punishment: false
-        max-violations: 1
+        max-violations: 8
         alert-interval: 1
         dont-alert-until: 1
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'kick %player% &c[AetherMine] Phát hiện lợi thế không công bằng'
       u:
         enabled: true
         punishable: true
         discord-alert-interval: 1
         broadcast-punishment: false
-        max-violations: 1
+        max-violations: 8
         alert-interval: 1
         dont-alert-until: 1
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'kick %player% &c[AetherMine] Phát hiện lợi thế không công bằng'
       v:
         enabled: true
         punishable: true
@@ -3700,7 +3700,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'kick %player% &c[AetherMine] Phát hiện lợi thế không công bằng'
         buffer:
           max: 8
           multiple: .5
@@ -3717,7 +3717,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'kick %player% &c[AetherMine] Phát hiện lợi thế không công bằng'
         buffer:
           max: 8
           multiple: .5
@@ -3733,7 +3733,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'kick %player% &c[AetherMine] Phát hiện lợi thế không công bằng'
         buffer:
           max: 6
           multiple: .5
@@ -3743,13 +3743,13 @@ checks:
         punishable: true
         discord-alert-interval: 1
         broadcast-punishment: false
-        max-violations: 1
+        max-violations: 8
         alert-interval: 1
         dont-alert-until: 1
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'kick %player% &c[AetherMine] Phát hiện lợi thế không công bằng'
       z:
         enabled: true
         punishable: true
@@ -3761,7 +3761,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'kick %player% &c[AetherMine] Phát hiện lợi thế không công bằng'
       1:
         enabled: true
         punishable: true
@@ -3773,7 +3773,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'kick %player% &c[AetherMine] Phát hiện lợi thế không công bằng'
         buffer:
           max: 12
           multiple: .25
@@ -3789,7 +3789,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'kick %player% &c[AetherMine] Phát hiện lợi thế không công bằng'
         buffer:
           max: 12
           multiple: .25
@@ -3805,7 +3805,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'kick %player% &c[AetherMine] Phát hiện lợi thế không công bằng'
         buffer:
           max: 4
           multiple: .25
@@ -3821,7 +3821,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'kick %player% &c[AetherMine] Phát hiện lợi thế không công bằng'
       6:
         enabled: true
         punishable: true
@@ -3833,7 +3833,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'kick %player% &c[AetherMine] Phát hiện lợi thế không công bằng'
         buffer:
           max: 3
           multiple: .25
@@ -3849,7 +3849,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'kick %player% &c[AetherMine] Phát hiện lợi thế không công bằng'
         buffer:
           max: 10
           multiple: .25
@@ -3865,7 +3865,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'kick %player% &c[AetherMine] Phát hiện lợi thế không công bằng'
         buffer:
           max: 5
           multiple: .25
@@ -3882,7 +3882,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'kick %player% &c[AetherMine] Phát hiện lợi thế không công bằng'
         buffer:
           max: 2
           multiple: .25
@@ -3898,7 +3898,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'kick %player% &c[AetherMine] Phát hiện lợi thế không công bằng'
         buffer:
           max: 2
           multiple: .25
@@ -3917,7 +3917,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'kick %player% &c[AetherMine] Phát hiện lợi thế không công bằng'
         buffer:
           max: 2
           multiple: .25
@@ -3935,7 +3935,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'kick %player% &c[AetherMine] Phát hiện lợi thế không công bằng'
         buffer:
           max: 3
           multiple: .25
@@ -3951,7 +3951,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'kick %player% &c[AetherMine] Phát hiện lợi thế không công bằng'
         buffer:
           max: 8
           multiple: .25
@@ -3969,7 +3969,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'kick %player% &c[AetherMine] Phát hiện lợi thế không công bằng'
         buffer:
           max: 1
           multiple: .5
@@ -3987,7 +3987,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'kick %player% &c[AetherMine] Phát hiện lợi thế không công bằng'
         buffer:
           max: 1
           multiple: .5
@@ -4005,7 +4005,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'kick %player% &c[AetherMine] Phát hiện lợi thế không công bằng'
         buffer:
           max: 2
           multiple: .5
@@ -4023,7 +4023,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'kick %player% &c[AetherMine] Phát hiện lợi thế không công bằng'
         buffer:
           max: 3
           multiple: .5
@@ -4041,7 +4041,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'kick %player% &c[AetherMine] Phát hiện lợi thế không công bằng'
         buffer:
           max: 3
           multiple: .5
@@ -4059,7 +4059,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'kick %player% &c[AetherMine] Phát hiện lợi thế không công bằng'
         buffer:
           max: 1
           multiple: .5
@@ -4076,7 +4076,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'kick %player% &c[AetherMine] Phát hiện lợi thế không công bằng'
         buffer:
           max: 4
           multiple: .5
@@ -4092,7 +4092,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'kick %player% &c[AetherMine] Phát hiện lợi thế không công bằng'
         buffer:
           max: 4
           multiple: .5
@@ -4108,7 +4108,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'kick %player% &c[AetherMine] Phát hiện lợi thế không công bằng'
         buffer:
           max: 4
           multiple: .5
@@ -4119,77 +4119,77 @@ checks:
         punishable: true
         discord-alert-interval: 1
         broadcast-punishment: false
-        max-violations: 1
+        max-violations: 8
         alert-interval: 1
         dont-alert-until: 1
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'kick %player% &c[AetherMine] Phát hiện lợi thế không công bằng'
         max-combat-violations: 25
       b:
         enabled: true
         punishable: true
         discord-alert-interval: 1
         broadcast-punishment: false
-        max-violations: 1
+        max-violations: 8
         alert-interval: 1
         dont-alert-until: 1
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'kick %player% &c[AetherMine] Phát hiện lợi thế không công bằng'
         max-movement-violations: 30
       c:
         enabled: true
         punishable: true
         discord-alert-interval: 1
         broadcast-punishment: false
-        max-violations: 1
+        max-violations: 8
         alert-interval: 1
         dont-alert-until: 1
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'kick %player% &c[AetherMine] Phát hiện lợi thế không công bằng'
         max-player-violations: 30
       d:
         enabled: true
         punishable: true
         discord-alert-interval: 1
         broadcast-punishment: false
-        max-violations: 1
+        max-violations: 8
         alert-interval: 1
         dont-alert-until: 1
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'kick %player% &c[AetherMine] Phát hiện lợi thế không công bằng'
         max-autoclicker-violations: 30
       e:
         enabled: true
         punishable: true
         discord-alert-interval: 1
         broadcast-punishment: false
-        max-violations: 1
+        max-violations: 8
         alert-interval: 1
         dont-alert-until: 1
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'kick %player% &c[AetherMine] Phát hiện lợi thế không công bằng'
         max-total-violations: 50
       f:
         enabled: true
         punishable: true
         discord-alert-interval: 1
         broadcast-punishment: false
-        max-violations: 1
+        max-violations: 8
         alert-interval: 1
         dont-alert-until: 1
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'kick %player% &c[Vulcan] Unfair Advantage'
+          - 'kick %player% &c[AetherMine] Phát hiện lợi thế không công bằng'
         max-scaffold-violations: 25
 #0UcmF1SxMGbthXSmVXO3lTaBhlVxUFVNlXWE5UeZRlT6VkbhtGT4UHbwEEciFGbGhUNol3N
