@@ -83,6 +83,8 @@ command /setuplpranks:
 		
 		execute console command "lp group default permission set xprison.ranks false"
 		execute console command "lp group default permission set xprison.ranks.ranks false"
+
+		execute console command "lp group default permission set mmocore.class-select true"
 		
 		# Rank 1: Tân Binh — 1 kho, 2 home, kit tân binh
 		execute console command "lp group xprison_rank_1 permission set playervaults.amount.1 true"
