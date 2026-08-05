@@ -1,6 +1,6 @@
 # Mục lục tài liệu server (docs)
 
-Cập nhật: 2026-08-05 (world_pvp safezone notes).
+Cập nhật: 2026-08-05 (hướng dẫn Bang Hội player-facing + Bang Chiến đang phát triển).
 
 Đọc **lối chơi trước**, rồi mới docs vận hành/kỹ thuật theo từng hệ.
 
@@ -11,7 +11,9 @@ Cập nhật: 2026-08-05 (world_pvp safezone notes).
 | File | Vai trò |
 | --- | --- |
 | [`loi-choi.md`](loi-choi.md) | **Lối chơi người chơi** — journey, 3 trục đào/chiến/bang, KOTH+PvP bang, endgame, engagement, roadmap P0–P2 |
-| [`../plugins/CorePlugin/gang/README.md`](../plugins/CorePlugin/gang/README.md) | Bang Hội — lệnh, vault/bank, upgrade, quest, KOTH, config |
+| [`huong-dan-bang-hoi.md`](huong-dan-bang-hoi.md) | **Hướng dẫn chơi Bang Hội** (player) — vault/bank, upgrade, quest, KOTH, Bang Chiến |
+| [`huong-dan-bang-hoi-discord.md`](huong-dan-bang-hoi-discord.md) | Bản paste Discord (chia block) |
+| [`../plugins/CorePlugin/gang/README.md`](../plugins/CorePlugin/gang/README.md) | Bang Hội — lệnh, vault/bank, upgrade, quest, KOTH, config (ops) |
 | [`prison-rpg-plan.md`](prison-rpg-plan.md) | Roadmap kỹ thuật / phase plugin (lịch sử dựng server) |
 | [`../DOCS_HE_THONG_PRISON.md`](../DOCS_HE_THONG_PRISON.md) | Sell multipliers EconomyShopGUI + VIP + trạng thái X-Prison enchants |
 | [`../STAT_BALANCING_STANDARD.md`](../STAT_BALANCING_STANDARD.md) | Quy chuẩn cân bằng chỉ số F2P (vũ khí/giáp/ngọc/skill) |
@@ -71,7 +73,7 @@ Cập nhật: 2026-08-05 (world_pvp safezone notes).
 
 ## Quy ước nguồn sự thật
 
-1. **Lối chơi / ưu tiên làm gì:** `loi-choi.md` (+ Bang Hội: `plugins/CorePlugin/gang/README.md`)
+1. **Lối chơi / ưu tiên làm gì:** `loi-choi.md` (+ Bang Hội player: `huong-dan-bang-hoi.md`; ops: `plugins/CorePlugin/gang/README.md`)
 2. **Sell & multiplier:** `DOCS_HE_THONG_PRISON.md` + EconomyShopGUI config (không phải X-Prison autosell); Sell All bang = CorePlugin vault
 3. **Chỉ số F2P:** `STAT_BALANCING_STANDARD.md`
 4. **Trần donate:** `STAT_BALANCING_GUIDE.md`

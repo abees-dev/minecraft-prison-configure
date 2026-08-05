@@ -1,12 +1,12 @@
 # Hologram hướng dẫn member (DecentHolograms)
 
-Cập nhật: 2026-08-01. Lối chơi: [`loi-choi.md`](loi-choi.md).
+Cập nhật: 2026-08-05. Lối chơi: [`loi-choi.md`](loi-choi.md) · Bang: [`huong-dan-bang-hoi.md`](huong-dan-bang-hoi.md).
 
 ## File
 
 | ID | World | Nội dung | Location mặc định (gần spawn MV) |
 | --- | --- | --- | --- |
-| `GuideHub` | `world` (spawn) | Vòng tân thủ + **menu/lệnh GUI** | Spawn hub |
+| `GuideHub` | `world` (spawn) | Vòng tân thủ + menu/lệnh + tip Bang Hội / Bang Chiến | Spawn hub |
 | `GuidePrison` | gần khu mỏ | Chỉ đào + NPC **ở từng khu mỏ**; GUI → xem spawn | Đặt gần cổng/mỏ |
 
 ## Reload / chỉnh vị trí

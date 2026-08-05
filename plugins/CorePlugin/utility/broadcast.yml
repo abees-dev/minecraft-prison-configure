@@ -12,3 +12,7 @@ auto:
     - '&b[Tip] &7Cường hóa trang bị: &f/cuonghoa'
     - '&a[Tip] &7Đục lỗ trang bị: &f/duclo'
     - '&d[Tip] &7Dùng &f/phanra &7và đặt trang sức vào ô giữa để phân rã.'
+    - '&6[Tip] &7Bang Hội: &f/gang &7— nạp kho → &eBán Tất Cả &7để nhân bán (tiền vào bank bang).'
+    - '&6[Tip] &7Nạp tiền bank bang có thuế &c30%&7. Ưu tiên nạp &equặng &7rồi Sell All.'
+    - '&6[Tip] &7Quest bang: &f/gang quest &7· cá nhân: &f/gang personal &7(khác &f/dailyquest&7).'
+    - '&c[Tip] &7Bang Chiến &f20:00 &7(đang phát triển): &f/gang war join &7hoặc &f/bangchien'

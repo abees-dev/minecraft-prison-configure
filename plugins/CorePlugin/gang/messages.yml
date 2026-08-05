@@ -224,6 +224,7 @@ help:
 - '&e/gang quest info &7- Xem quest đang chạy (read-only)'
 - '&8  Quest: mở/reset/phiếu chỉ trong GUI'
 - '&e/gang koth &7- Trạng thái Mỏ VIP'
+- '&e/gang war join|leave|status &7- Bang Chiến &8(đang phát triển)'
 - '&a&l━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━'
 join-request-sent: '&a✦ &fĐã gửi đơn xin vào bang &a&l{gang}&f. Chờ duyệt &7({seconds}s)&f.'
 join-request-received: '&a✦ &e{player} &fxin vào bang &e&l{gang}&f! Mở menu → &aDuyệt

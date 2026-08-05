@@ -2,9 +2,9 @@
 
 Tài liệu mô tả **trải nghiệm người chơi** từ lúc vào server tới endgame, dựa trên hệ thống đã có. Không thay thế plan kỹ thuật [`prison-rpg-plan.md`](prison-rpg-plan.md) — file đó là roadmap triển khai plugin/config; file này là nguồn “người chơi làm gì / vì sao”.
 
-Cập nhật: 2026-08-01 (Bang Hội soft-launch + KOTH/PvP bang; sell multiplier chỉ qua gang).
+Cập nhật: 2026-08-05 (Bang Hội soft-launch + KOTH/PvP bang; **Bang Chiến đang phát triển**; sell multiplier chỉ qua gang).
 
-Mục lục toàn bộ tài liệu server: [`INDEX.md`](INDEX.md). Chi tiết module bang: [`plugins/CorePlugin/gang/README.md`](../plugins/CorePlugin/gang/README.md).
+Mục lục: [`INDEX.md`](INDEX.md). Hướng dẫn chơi bang: [`huong-dan-bang-hoi.md`](huong-dan-bang-hoi.md). Config/ops: [`plugins/CorePlugin/gang/README.md`](../plugins/CorePlugin/gang/README.md).
 
 ---
 
@@ -61,7 +61,7 @@ flowchart TD
 3. NPC **Lò Rèn Cúp / Giáp / Vũ Khí** → nâng cấp trong rank (I→V).
 4. `/sellgui` → lấy tiền cá nhân → `/rankup` hoặc `/xrankuppoint` khi đủ **tiền/point + level MMOCore**.
 5. Khi đủ đồ combat: vào dungeon cùng rank → farm vũ khí / nguyên liệu → đục lỗ / gắn ngọc / cường hóa → quay lại đào hoặc dungeon cao hơn.
-6. **Bang (soft-launch):** `/gang` — nạp quặng vào vault (hoặc Sell All → bank), làm quest bang / personal bang, check KOTH; daily cá nhân qua `/dailyquest` (tách hệ).
+6. **Bang (soft-launch):** `/gang` — nạp quặng vào vault (hoặc Sell All → bank), làm quest bang / personal bang, check KOTH; daily cá nhân qua `/dailyquest` (tách hệ). Tối: Bang Chiến **20:00** (`/gang war join`) — **đang phát triển tiếp**.
 
 ### Gate rankup (đã có trong code)
 

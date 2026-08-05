@@ -1,6 +1,7 @@
 # Hologram hướng dẫn member — Hub (world spawn)
 # Nội dung: vòng chơi mới (A) + lệnh quan trọng (B)
-# 2026-08-01 — chỉnh vị trí: /dh teleport GuideHub  rồi  /dh move here GuideHub
+# 2026-08-05 — thêm tip quest bang + Bang Chiến (đang phát triển)
+# Chỉnh vị trí: /dh teleport GuideHub  rồi  /dh move here GuideHub
 enabled: true
 location: world:2,542:86,000:5,572
 display-range: 64
@@ -34,6 +35,10 @@ pages:
   - content: '&7Tiền bán cá nhân = giá cố định.'
     height: 0.28
   - content: '&7Nhân bán: nạp kho bang &d/gang &7→ Bán Tất Cả'
+    height: 0.28
+  - content: '&7Quest bang &e/gang quest &8· &7cá nhân &e/gang personal'
+    height: 0.28
+  - content: '&cBang Chiến &f20:00 &7(đang phát triển) &e/gang war join'
     height: 0.28
   actions: {}
 facing: 0.0
