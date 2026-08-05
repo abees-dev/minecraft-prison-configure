@@ -42,42 +42,50 @@ Ranks:
     Cost: 85000
     CMD:
       - lp user %player% parent set xprison_rank_2
+      - mmocore admin attribute-points give %player% 1
   "3":
     Prefix: <green><bold>[Lao Công]</bold></green>
     Cost: 290000
     CMD:
       - lp user %player% parent set xprison_rank_3
+      - mmocore admin attribute-points give %player% 1
   "4":
     Prefix: <dark_green><bold>[Thợ Đào]</bold></dark_green>
     Cost: 1075000
     CMD:
       - lp user %player% parent set xprison_rank_4
+      - mmocore admin attribute-points give %player% 1
   "5":
     Prefix: <aqua><bold>[Đội Trưởng]</bold></aqua>
     Cost: 5400000
     CMD:
       - lp user %player% parent set xprison_rank_5
+      - mmocore admin attribute-points give %player% 1
   "6":
     Prefix: <blue><bold>[Phó Quản Ngục]</bold></blue>
     Cost: 21700000
     CMD:
       - lp user %player% parent set xprison_rank_6
+      - mmocore admin attribute-points give %player% 1
   # Phase 6 balance 2026-07-29: raise late ranks (6→9 were too cheap vs mine EV)
   "7":
     Prefix: <light_purple><bold>[Quản Ngục]</bold></light_purple>
     Cost: 55000000
     CMD:
       - lp user %player% parent set xprison_rank_7
+      - mmocore admin attribute-points give %player% 1
   "8":
     Prefix: <gold><bold>[Bá Chủ Ngục Tù]</bold></gold>
     Cost: 125000000
     CMD:
       - lp user %player% parent set xprison_rank_8
+      - mmocore admin attribute-points give %player% 1
   "9":
     Prefix: <red><bold>[Vượt Ngục]</bold></red>
     Cost: 300000000
     CMD:
       - lp user %player% parent set xprison_rank_9
+      - mmocore admin attribute-points give %player% 1
 
 # ---------------------------------------------------------------------------
 # Ranks GUI (opened with /ranks). Fully configurable.

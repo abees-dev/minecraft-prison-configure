@@ -30,6 +30,9 @@ max-level: 20
 # Skill points awarded per rebirth.
 points-per-rebirth: 3
 
+# Điểm thuộc tính MMOCore nhận sau mỗi lần Chuyển Sinh.
+attribute-points-per-rebirth: 2
+
 # Permanent MMOCore EXP bonus per rebirth level (0.05 = +5%/level).
 exp-bonus-per-level: 0.05
 
@@ -102,6 +105,7 @@ commands:
   give-stone: "mmoitems give MATERIAL {id} {player} {amount}"
   set-suffix: "lp user {player} meta setsuffix 100 \"{prefix}\""
   unset-suffix: "lp user {player} meta unsetsuffix 100"
+  give-attribute-points: "mmocore admin attribute-points give {player} {amount}"
   # Only run when the direct MMOCore API reset fails (the Skript always ran
   # these three syntax variants blindly; the API call is the primary path).
   mmocore-reset-fallbacks:

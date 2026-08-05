@@ -41,13 +41,26 @@ example_exp_table:
       - 'exp{amount=80}'
       - 'command{format="broadcast Boy, %player_name% level up twice in one of his(her) professions!"}'
 
-# Exp table used by class to provide
-# one skill point every level up
+# Class progression rewards.
+#
+# `%player_name%` is the MMOCore trigger placeholder for the player name.
+# Do not change it back to `%player%`: that old placeholder does not resolve
+# on the MMOCore version used by this server, so the console command silently
+# targets an invalid player.
 class_exp_table:
   skill_point:
     period: 1
     triggers:
-      - 'command{format="mmocore admin skill-points give %player% 1"}'
+      - 'command{format="mmocore admin skill-points give %player_name% 1"}'
+      - 'message{format="&a+1 Điểm Kỹ Năng &7(&fthưởng lên cấp&7)"}'
+
+  # Levels 10, 20, ... 100 grant one attribute point. Together with the
+  # default starting point this provides 11 points over a full level cycle.
+  attribute_point:
+    period: 10
+    triggers:
+      - 'command{format="mmocore admin attribute-points give %player_name% 1"}'
+      - 'message{format="&6+1 Điểm ATT &7(&fmốc 10 cấp&7)"}'
 
 second_exp_table:
 
@@ -62,4 +75,3 @@ second_exp_table:
       period: 3
       triggers:
         - 'exp{amount=100}'
-

@@ -13,6 +13,7 @@ error:
 perk:
   maxed: "&e⚠ &fKỹ năng {perk} &fđã đạt Cấp tối đa ({max}/{max})!"
   upgraded: "&a✔ &fĐã nâng cấp kỹ năng {perk} &flên &e&lCấp {level}/{max}&f!"
+attribute-points-reward: "&6✔ &fBạn nhận được &e+{attribute_points} Điểm ATT &fsau khi Chuyển Sinh!"
 aura:
   enabled: "&a✔ &fĐã &a&lBẬT &fhiệu ứng Hào Quang Chuyển Sinh!"
   disabled: "&e⚠ &fĐã &c&lTẮT &fhiệu ứng Hào Quang Chuyển Sinh!"
