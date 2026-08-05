@@ -106,3 +106,84 @@
 	at java.base/java.lang.Thread.run(Unknown Source)
 
 [08-04 22:37:20]: [FINE] ABeess logged in 127.0.0.1
+[08-05 12:20:21]: [INFO] SQLite Setup finished
+[08-05 12:20:21]: [INFO] Hooked into LuckPerms!
+[08-05 12:20:21]: [INFO] Hooked successfully into Essentials
+[08-05 12:20:21]: [INFO] Hooked successfully into Multiverse-Core
+[08-05 12:20:21]: [INFO] AuthMe 5.6.0 build n.CUSTOM successfully enabled!
+[08-05 12:20:25]: [INFO] Downloading GEO IP database, because the old database is older than 30 days or doesn't exist
+[08-05 12:20:25]: [WARN] No MaxMind credentials found in the configuration file! GeoIp protections will be disabled.
+[08-05 12:20:25]: [INFO] There is no newer GEO IP database uploaded to MaxMind. Using the old one for now.
+[08-05 12:20:25]: [WARN] Could not download GeoLiteAPI database [FileNotFoundException]: plugins\AuthMe\GeoLite2-Country.mmdb (The system cannot find the file specified)
+[08-05 12:20:25]: java.io.FileNotFoundException: plugins\AuthMe\GeoLite2-Country.mmdb (The system cannot find the file specified)
+	at java.base/java.io.RandomAccessFile.open0(Native Method)
+	at java.base/java.io.RandomAccessFile.open(Unknown Source)
+	at java.base/java.io.RandomAccessFile.<init>(Unknown Source)
+	at java.base/java.io.RandomAccessFile.<init>(Unknown Source)
+	at AuthMe-5.6.0.jar//fr.xephi.authme.libs.com.maxmind.db.BufferHolder.<init>(BufferHolder.java:20)
+	at AuthMe-5.6.0.jar//fr.xephi.authme.libs.com.maxmind.db.Reader.<init>(Reader.java:121)
+	at AuthMe-5.6.0.jar//fr.xephi.authme.service.GeoIpService.startReading(GeoIpService.java:179)
+	at AuthMe-5.6.0.jar//fr.xephi.authme.service.GeoIpService.updateDatabase(GeoIpService.java:150)
+	at org.bukkit.craftbukkit.v1_19_R3.scheduler.CraftTask.run(CraftTask.java:101)
+	at org.bukkit.craftbukkit.v1_19_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:57)
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+
+[08-05 12:22:04]: [FINE] ABeess logged in 127.0.0.1
+[08-05 12:22:41]: [INFO] AuthMe 5.6.0-bCUSTOM disabled!
+[08-05 12:24:25]: [INFO] SQLite Setup finished
+[08-05 12:24:25]: [INFO] Hooked into LuckPerms!
+[08-05 12:24:25]: [INFO] Hooked successfully into Essentials
+[08-05 12:24:25]: [INFO] Hooked successfully into Multiverse-Core
+[08-05 12:24:25]: [INFO] AuthMe 5.6.0 build n.CUSTOM successfully enabled!
+[08-05 12:24:28]: [INFO] Downloading GEO IP database, because the old database is older than 30 days or doesn't exist
+[08-05 12:24:28]: [WARN] No MaxMind credentials found in the configuration file! GeoIp protections will be disabled.
+[08-05 12:24:28]: [INFO] There is no newer GEO IP database uploaded to MaxMind. Using the old one for now.
+[08-05 12:24:28]: [WARN] Could not download GeoLiteAPI database [FileNotFoundException]: plugins\AuthMe\GeoLite2-Country.mmdb (The system cannot find the file specified)
+[08-05 12:24:28]: java.io.FileNotFoundException: plugins\AuthMe\GeoLite2-Country.mmdb (The system cannot find the file specified)
+	at java.base/java.io.RandomAccessFile.open0(Native Method)
+	at java.base/java.io.RandomAccessFile.open(Unknown Source)
+	at java.base/java.io.RandomAccessFile.<init>(Unknown Source)
+	at java.base/java.io.RandomAccessFile.<init>(Unknown Source)
+	at AuthMe-5.6.0.jar//fr.xephi.authme.libs.com.maxmind.db.BufferHolder.<init>(BufferHolder.java:20)
+	at AuthMe-5.6.0.jar//fr.xephi.authme.libs.com.maxmind.db.Reader.<init>(Reader.java:121)
+	at AuthMe-5.6.0.jar//fr.xephi.authme.service.GeoIpService.startReading(GeoIpService.java:179)
+	at AuthMe-5.6.0.jar//fr.xephi.authme.service.GeoIpService.updateDatabase(GeoIpService.java:150)
+	at org.bukkit.craftbukkit.v1_19_R3.scheduler.CraftTask.run(CraftTask.java:101)
+	at org.bukkit.craftbukkit.v1_19_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:57)
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+
+[08-05 12:24:49]: [FINE] ABeess logged in 127.0.0.1
+[08-05 12:24:57]: [INFO] AuthMe 5.6.0-bCUSTOM disabled!
+[08-05 12:29:54]: [INFO] SQLite Setup finished
+[08-05 12:29:54]: [INFO] Hooked into LuckPerms!
+[08-05 12:29:54]: [INFO] Hooked successfully into Essentials
+[08-05 12:29:54]: [INFO] Hooked successfully into Multiverse-Core
+[08-05 12:29:54]: [INFO] AuthMe 5.6.0 build n.CUSTOM successfully enabled!
+[08-05 12:29:58]: [INFO] Downloading GEO IP database, because the old database is older than 30 days or doesn't exist
+[08-05 12:29:58]: [WARN] No MaxMind credentials found in the configuration file! GeoIp protections will be disabled.
+[08-05 12:29:58]: [INFO] There is no newer GEO IP database uploaded to MaxMind. Using the old one for now.
+[08-05 12:29:58]: [WARN] Could not download GeoLiteAPI database [FileNotFoundException]: plugins\AuthMe\GeoLite2-Country.mmdb (The system cannot find the file specified)
+[08-05 12:29:58]: java.io.FileNotFoundException: plugins\AuthMe\GeoLite2-Country.mmdb (The system cannot find the file specified)
+	at java.base/java.io.RandomAccessFile.open0(Native Method)
+	at java.base/java.io.RandomAccessFile.open(Unknown Source)
+	at java.base/java.io.RandomAccessFile.<init>(Unknown Source)
+	at java.base/java.io.RandomAccessFile.<init>(Unknown Source)
+	at AuthMe-5.6.0.jar//fr.xephi.authme.libs.com.maxmind.db.BufferHolder.<init>(BufferHolder.java:20)
+	at AuthMe-5.6.0.jar//fr.xephi.authme.libs.com.maxmind.db.Reader.<init>(Reader.java:121)
+	at AuthMe-5.6.0.jar//fr.xephi.authme.service.GeoIpService.startReading(GeoIpService.java:179)
+	at AuthMe-5.6.0.jar//fr.xephi.authme.service.GeoIpService.updateDatabase(GeoIpService.java:150)
+	at org.bukkit.craftbukkit.v1_19_R3.scheduler.CraftTask.run(CraftTask.java:101)
+	at org.bukkit.craftbukkit.v1_19_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:57)
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+
+[08-05 12:30:16]: [FINE] ABeess logged in 127.0.0.1
+[08-05 12:31:51]: [FINE] ABeess logged in 127.0.0.1

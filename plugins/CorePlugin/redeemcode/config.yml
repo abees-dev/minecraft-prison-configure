@@ -1,0 +1,25 @@
+# Docs:
+#   Purpose: Redeem-code module — players redeem via /code <mã>; admins manage
+#     codes with /codeadmin. All code state lives in SQL (storage: below).
+#   Reload: /codeadmin reload (messages + attempt-cooldown; storage needs restart)
+#   Rewards are console commands with %player% substituted at redeem time.
+#
+# This file is merge-synced from the jar: missing keys are added; existing
+# values are never overwritten.
+
+# Seconds between /code attempts per player (anti brute-force).
+attempt-cooldown-seconds: 3
+
+# Read once at startup. type: sqlite or mysql.
+storage:
+  type: sqlite
+  sqlite:
+    # Relative to this plugin's dataFolder.
+    file: redeemcode.db
+  mysql:
+    host: localhost
+    port: 3306
+    database: coreplugin
+    username: root
+    password: ""
+    pool-size: 4

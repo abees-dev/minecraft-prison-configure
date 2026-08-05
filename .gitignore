@@ -58,6 +58,7 @@ world_dungeon_2/*
 world_magadungeon/*
 plugins/MMOItems/.jar_extracted/*
 plugins/**/backups/*
+world_pvp/*
 
 # Player runtime data (auto-generated per player, not tracked)
 /plugins/**/userdata/
