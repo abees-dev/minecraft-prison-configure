@@ -2557,7 +2557,7 @@ npc:
       commandtrait:
         commands:
           '0':
-            command: doikey
+            command: shopkey
             hand: RIGHT
             player: true
             npc: false
@@ -2580,7 +2580,7 @@ npc:
       hologramtrait:
         lines:
           '0':
-            text: '&6&lĐổi Chìa Khóa'
+            text: '&6&lĐổi / Mua Chìa'
             margin:
               top: 0.0
               bottom: 0.0

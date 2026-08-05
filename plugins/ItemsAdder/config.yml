@@ -9,12 +9,12 @@ resource-pack:
     lobfile:
       enabled: false
     self-host:
-      enabled: true
+      enabled: false
       server-ip: 127.0.0.1
       pack-port: 8080
     external-host:
-      enabled: false
-      url: https://dl.dropboxusercontent.com/scl/fi/nkcnz9tksu24mw3v88aa6/generated.zip?rlkey=nx6nf187ssnab2yer08pguhsm&st=gmj066ng
+      enabled: true
+      url: https://dl.dropboxusercontent.com/scl/fi/nkcnz9tksu24mw3v88aa6/generated.zip?rlkey=nx6nf187ssnab2yer08pguhsm&st=dh4qhwjw&dl=1
       skip-url-file-type-check___DONT_ASK_HELP_IF_SET_TRUE: true
   apply-on-join: true
   kick-player-on-decline: false

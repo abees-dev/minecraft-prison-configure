@@ -1,0 +1,225 @@
+# =============================================================================
+# SHOP CHÌA KHÓA — mua key bằng Point / Money + lối vào đổi Ấn Tín
+# /shopkey · NPC Đổi Key
+# =============================================================================
+menu_title: '&8❖ &6&lĐỔI / MUA CHÌA KHÓA &8❖'
+open_command:
+  - shopkey
+  - muakey
+  - shopchia
+open_commands:
+  - '[sound] BLOCK_NOTE_BLOCK_CHIME'
+size: 27
+
+items:
+  'filler':
+    material: GRAY_STAINED_GLASS_PANE
+    slots:
+      - 0
+      - 1
+      - 2
+      - 3
+      - 5
+      - 6
+      - 7
+      - 8
+      - 9
+      - 17
+      - 18
+      - 19
+      - 20
+      - 21
+      - 22
+      - 23
+      - 24
+      - 25
+    display_name: ' '
+    lore: []
+
+  'info':
+    material: NETHER_STAR
+    slot: 4
+    glow: true
+    hide_attributes: true
+    display_name: '&6&l✦ CHÌA KHÓA'
+    lore:
+      - '&7Mua chìa bằng &bPoint &7hoặc &aMoney&7.'
+      - '&7Hoặc đổi &eẤn Tín Long Tộc &7→ chìa Long Tộc.'
+      - ''
+      - '&7Số dư Point: &b%playerpoints_points%'
+      - '&7Số dư Money: &a%vault_eco_balance_formatted%'
+
+  # --- Trang Sức Free: Money ---
+  'buy_trang_suc':
+    material: TRIPWIRE_HOOK
+    slot: 10
+    glow: true
+    hide_attributes: true
+    display_name: '&a&l❖ Chìa Trang Sức Miễn Phí'
+    lore:
+      - '&7Giá: &a5,000,000 Money'
+      - '&7Nhận: &f1x Chìa Trang Sức Miễn Phí'
+      - '&7Mở: &aHòm Trang Sức Miễn Phí'
+      - ''
+      - '&7Số dư: &a%vault_eco_balance_formatted% &7money'
+      - ''
+      - '&e» Click để mua'
+    left_click_requirement:
+      requirements:
+        balance_check:
+          type: has money
+          amount: 5000000
+          deny_commands:
+            - '[message] &c&lSHOP &7» Không đủ Money! Cần &a5,000,000&7, hiện có &a%vault_eco_balance_formatted%&7.'
+    left_click_commands:
+      - '[sound] ENTITY_PLAYER_LEVELUP'
+      - '[console] eco take %player_name% 5000000'
+      - '[console] crates key give %player_name% chia_khoa_trang_suc_free 1'
+      - '[message] &a&lSHOP &7» Đã mua &a1x Chìa Trang Sức Miễn Phí &7(-&a5,000,000&7 Money).'
+      - '[refresh]'
+
+  # --- Rương Ngọc: Point ---
+  'buy_ngoc':
+    material: TRIPWIRE_HOOK
+    slot: 11
+    glow: true
+    hide_attributes: true
+    display_name: '&e&l✦ Chìa Rương Ngọc'
+    lore:
+      - '&7Giá: &b10 Point'
+      - '&7Nhận: &f1x Chìa Rương Ngọc'
+      - '&7Mở: &eHòm Rương Ngọc &7(vòng quay đá quý)'
+      - ''
+      - '&7Số dư: &b%playerpoints_points% &7point'
+      - ''
+      - '&e» Click để mua'
+    left_click_requirement:
+      requirements:
+        balance_check:
+          type: greater than or equal to
+          input: '%playerpoints_points%'
+          output: '10'
+          deny_commands:
+            - '[message] &c&lSHOP &7» Không đủ Point! Cần &b10&7, hiện có &b%playerpoints_points%&7.'
+    left_click_commands:
+      - '[sound] ENTITY_PLAYER_LEVELUP'
+      - '[console] points take %player_name% 10'
+      - '[console] crates key give %player_name% chia_khoa_ruong_ngoc 1'
+      - '[message] &a&lSHOP &7» Đã mua &e1x Chìa Rương Ngọc &7(-&b10&7 Point).'
+      - '[refresh]'
+
+  # --- Long Tộc: Point ---
+  'buy_long_toc':
+    material: TRIPWIRE_HOOK
+    slot: 12
+    glow: true
+    hide_attributes: true
+    display_name: '&6&l⚔ Chìa Khóa Long Tộc'
+    lore:
+      - '&7Giá: &b15 Point'
+      - '&7Nhận: &f1x Chìa Khóa Long Tộc'
+      - '&7Mở: &6Hòm Long Tộc'
+      - ''
+      - '&7Số dư: &b%playerpoints_points% &7point'
+      - ''
+      - '&e» Click để mua'
+    left_click_requirement:
+      requirements:
+        balance_check:
+          type: greater than or equal to
+          input: '%playerpoints_points%'
+          output: '15'
+          deny_commands:
+            - '[message] &c&lSHOP &7» Không đủ Point! Cần &b15&7, hiện có &b%playerpoints_points%&7.'
+    left_click_commands:
+      - '[sound] ENTITY_PLAYER_LEVELUP'
+      - '[console] points take %player_name% 15'
+      - '[console] crates key give %player_name% chia_khoa_long_toc 1'
+      - '[message] &a&lSHOP &7» Đã mua &61x Chìa Khóa Long Tộc &7(-&b15&7 Point).'
+      - '[refresh]'
+
+  # --- Thiên Giới: Point ---
+  'buy_thien_gioi':
+    material: TRIPWIRE_HOOK
+    slot: 14
+    glow: true
+    hide_attributes: true
+    display_name: '&b&l✦ Chìa Khóa Thiên Giới'
+    lore:
+      - '&7Giá: &b21 Point'
+      - '&7Nhận: &f1x Chìa Khóa Thiên Giới'
+      - '&7Mở: &bHòm Thiên Giới'
+      - ''
+      - '&7Số dư: &b%playerpoints_points% &7point'
+      - ''
+      - '&e» Click để mua'
+    left_click_requirement:
+      requirements:
+        balance_check:
+          type: greater than or equal to
+          input: '%playerpoints_points%'
+          output: '21'
+          deny_commands:
+            - '[message] &c&lSHOP &7» Không đủ Point! Cần &b21&7, hiện có &b%playerpoints_points%&7.'
+    left_click_commands:
+      - '[sound] ENTITY_PLAYER_LEVELUP'
+      - '[console] points take %player_name% 21'
+      - '[console] crates key give %player_name% chia_khoa_thien_gioi 1'
+      - '[message] &a&lSHOP &7» Đã mua &b1x Chìa Khóa Thiên Giới &7(-&b21&7 Point).'
+      - '[refresh]'
+
+  'buy_thien_gioi_bogo':
+    material: GOLDEN_APPLE
+    slot: 15
+    glow: true
+    hide_attributes: true
+    display_name: '&a&l✦ Thiên Giới — Mua 1 Tặng 1'
+    lore:
+      - '&7Giá: &b21 Point &8(khuyến mãi)'
+      - '&7Nhận: &f2x Chìa Khóa Thiên Giới'
+      - ''
+      - '&7Số dư: &b%playerpoints_points% &7point'
+      - ''
+      - '&a» Click để mua gói'
+    left_click_requirement:
+      requirements:
+        balance_check:
+          type: greater than or equal to
+          input: '%playerpoints_points%'
+          output: '21'
+          deny_commands:
+            - '[message] &c&lSHOP &7» Không đủ Point! Cần &b21&7, hiện có &b%playerpoints_points%&7.'
+    left_click_commands:
+      - '[sound] ENTITY_PLAYER_LEVELUP'
+      - '[console] points take %player_name% 21'
+      - '[console] crates key give %player_name% chia_khoa_thien_gioi 2'
+      - '[message] &a&lSHOP &7» Đã mua gói &aMua 1 Tặng 1 &7→ &b2 chìa Thiên Giới &7(-&b21&7 Point).'
+      - '[refresh]'
+
+  # --- Đổi Ấn Tín (CorePlugin /doikey) ---
+  'exchange_an_tin':
+    material: HEART_OF_THE_SEA
+    slot: 16
+    glow: true
+    hide_attributes: true
+    display_name: '&6&l⚔ Đổi Ấn Tín Long Tộc'
+    lore:
+      - '&7Cần: &e1x Ấn Tín Long Tộc'
+      - '&7Nhận: &61x Chìa Khóa Long Tộc'
+      - ''
+      - '&e» Click để mở menu đổi'
+    click_commands:
+      - '[sound] UI_BUTTON_CLICK'
+      - '[close]'
+      - '[player] doikey'
+
+  'close':
+    material: BARRIER
+    slot: 26
+    hide_attributes: true
+    display_name: '&c&l✖ Đóng'
+    lore:
+      - '&7Đóng menu'
+    click_commands:
+      - '[sound] UI_BUTTON_CLICK'
+      - '[close]'
