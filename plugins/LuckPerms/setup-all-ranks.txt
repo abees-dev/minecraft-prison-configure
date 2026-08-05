@@ -77,6 +77,10 @@ lp group default permission set xprison.ranks.ranks false
 lp group default permission set essentials.kit true
 # /bal /balance — xem số dư của mình
 lp group default permission set essentials.balance true
+# /trash /disposal — mở thùng rác
+lp group default permission set essentials.disposal true
+# /rpginv — mở túi đồ RPG (MMOInventory)
+lp group default permission set mmoinventory.open true
 
 # Rank 1: 1 kho, 2 home, kit tân binh
 lp group xprison_rank_1 permission set playervaults.amount.1 true
