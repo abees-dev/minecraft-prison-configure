@@ -67,39 +67,39 @@ scoreboard:
       title: <#FFD700><bold>✦ AetherMine ✦</bold></#FFB347>
       display-condition: '%player-version-id%>=765;%bedrock%=false'
       lines:
-      - <#444444><strikethrough>                   </strikethrough>
+      - <#FFD54F><strikethrough>                   </strikethrough>
       - '  <#FFE08A><bold>%player%</bold> %luckperms-suffix%'
-      - <#444444><strikethrough>                   </strikethrough>
-      - ' <#FFB347>● <#BDBDBD>Rank  <#4A4A4A>» %group%'
-      - ' <#7DCEA0>● <#BDBDBD>Level <#4A4A4A>» <#FFFFFF>%mmocore_level% <#666666>· <#D5D5D5>%mmocore_class%'
-      - ' <#7DCEA0>● <#BDBDBD>EXP   <#4A4A4A>» <#A8E6CF>%mmocore_level_percent%%'
+      - <#FFD54F><strikethrough>                   </strikethrough>
+      - ' <#FFB347>● <#FFFFFF><bold>Rank</bold>  <#FFD54F>» %group%'
+      - ' <#7DCEA0>● <#FFFFFF><bold>Level</bold> <#FFD54F>» <#FFFFFF>%mmocore_level% <#E0E0E0>· <#FFFFFF>%mmocore_class%'
+      - ' <#7DCEA0>● <#FFFFFF><bold>EXP</bold>   <#FFD54F>» <#A8FFCF>%mmocore_level_percent%%'
       - ' '
-      - ' <#E891B5>● <#BDBDBD>Bang  <#4A4A4A>» %condition:gang_name_val%'
+      - ' <#FF9AC1>● <#FFFFFF><bold>Bang</bold>  <#FFD54F>» %condition:gang_name_val%'
       - '%condition:gang_detail_line%'
       - '%condition:gang_rep_line%'
       - ' '
-      - ' <#82E0AA>● <#BDBDBD>Money <#4A4A4A>» <#C8F7C5>%vault_eco_balance_formatted%'
-      - ' <#7FB3D5>● <#BDBDBD>Point <#4A4A4A>» <#AED6F1>%playerpoints_points_formatted%'
-      - <#444444><strikethrough>                   </strikethrough>
-      - ' <#777777>%date% <#555555>· <#999999>%time% <#555555>· <#CCCCCC>%ping%ms'
+      - ' <#82E0AA>● <#FFFFFF><bold>Money</bold> <#FFD54F>» <#C8FFC5>%vault_eco_balance_formatted%'
+      - ' <#7FCBFF>● <#FFFFFF><bold>Point</bold> <#FFD54F>» <#C5E8FF>%playerpoints_points_formatted%'
+      - <#FFD54F><strikethrough>                   </strikethrough>
+      - ' <#F2F2F2>%date% <#FFD54F>· <#FFFFFF>%time% <#FFD54F>· <#FFFFFF>%ping%ms'
     scoreboard:
       title: <#FFD700><bold>✦ AetherMine ✦</bold></#FFB347>
       lines:
-      - <#444444><strikethrough>                   </strikethrough>
+      - <#FFD54F><strikethrough>                   </strikethrough>
       - '  <#FFE08A><bold>%player%</bold> %luckperms-suffix%'
-      - <#444444><strikethrough>                   </strikethrough>
-      - ' <#FFB347>● <#BDBDBD>Rank  <#4A4A4A>» %group%'
-      - ' <#7DCEA0>● <#BDBDBD>Level <#4A4A4A>» <#FFFFFF>%mmocore_level% <#666666>· <#D5D5D5>%mmocore_class%'
-      - ' <#7DCEA0>● <#BDBDBD>EXP   <#4A4A4A>» <#A8E6CF>%mmocore_level_percent%%'
+      - <#FFD54F><strikethrough>                   </strikethrough>
+      - ' <#FFB347>● <#FFFFFF><bold>Rank</bold>  <#FFD54F>» %group%'
+      - ' <#7DCEA0>● <#FFFFFF><bold>Level</bold> <#FFD54F>» <#FFFFFF>%mmocore_level% <#E0E0E0>· <#FFFFFF>%mmocore_class%'
+      - ' <#7DCEA0>● <#FFFFFF><bold>EXP</bold>   <#FFD54F>» <#A8FFCF>%mmocore_level_percent%%'
       - ' '
-      - ' <#E891B5>● <#BDBDBD>Bang  <#4A4A4A>» %condition:gang_name_val%'
+      - ' <#FF9AC1>● <#FFFFFF><bold>Bang</bold>  <#FFD54F>» %condition:gang_name_val%'
       - '%condition:gang_detail_line%'
       - '%condition:gang_rep_line%'
       - ' '
-      - ' <#82E0AA>● <#BDBDBD>Money <#4A4A4A>» <#C8F7C5>%vault_eco_balance_formatted%'
-      - ' <#7FB3D5>● <#BDBDBD>Point <#4A4A4A>» <#AED6F1>%playerpoints_points_formatted%'
-      - <#444444><strikethrough>                   </strikethrough>
-      - ' <#777777>%date% <#555555>· <#999999>%time% <#555555>· <#CCCCCC>%ping%ms'
+      - ' <#82E0AA>● <#FFFFFF><bold>Money</bold> <#FFD54F>» <#C8FFC5>%vault_eco_balance_formatted%'
+      - ' <#7FCBFF>● <#FFFFFF><bold>Point</bold> <#FFD54F>» <#C5E8FF>%playerpoints_points_formatted%'
+      - <#FFD54F><strikethrough>                   </strikethrough>
+      - ' <#F2F2F2>%date% <#FFD54F>· <#FFFFFF>%time% <#FFD54F>· <#FFFFFF>%ping%ms'
 layout:
   enabled: false
   direction: COLUMNS
@@ -164,7 +164,7 @@ placeholder-output-replacements:
     mvpplus: "<#AF7AC5><bold>[MVP+]</bold>"
     elite: "<#F5B041><bold>[ELITE]</bold>"
     legend: "<gradient:#FF6B6B:#FFD93D><bold>[LEGEND]</bold></gradient>"
-    default: "<#888888>-"
+    default: "<#F2F2F2>-"
   "%core_gang_role%":
     LEADER: "<#FFD966>Chủ Bang"
     CO_LEADER: "<#AED6F1>Phó Bang"
@@ -178,17 +178,17 @@ conditions:
   gang_name_val:
     conditions:
       - "%core_gang_name%!="
-    true: "<#FFFFFF>%core_gang_name% <#777777>[%core_gang_prefix%]"
-    false: "<#666666>Chưa có bang"
+    true: "<#FFFFFF>%core_gang_name% <#F2F2F2>[%core_gang_prefix%]"
+    false: "<#E0E0E0>Chưa có bang"
   gang_detail_line:
     conditions:
       - "%core_gang_name%!="
-    true: ' <#E891B5>● <#BDBDBD>Role  <#4A4A4A>» %core_gang_role% <#666666>· <#E891B5>Lv.%core_gang_level%'
+    true: ' <#FF9AC1>● <#FFFFFF><bold>Role</bold>  <#FFD54F>» %core_gang_role% <#F2F2F2>· <#FF9AC1>Lv.%core_gang_level%'
     false: ''
   gang_rep_line:
     conditions:
     - '%core_gang_name%!='
-    true: ' <#E891B5>● <#BDBDBD>Rep   <#4A4A4A>» <#F5B7B1>%core_gang_reputation%'
+    true: ' <#FF9AC1>● <#FFFFFF><bold>Rep</bold>   <#FFD54F>» <#FFD1DC>%core_gang_reputation%'
     false: ''
 assign-groups-by-permissions: false
 primary-group-finding-list:
