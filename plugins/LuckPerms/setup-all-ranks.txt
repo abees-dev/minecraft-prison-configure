@@ -88,6 +88,9 @@ lp group default permission set essentials.hat true
 lp group default permission set mmoinventory.open true
 # Giữ toàn bộ inventory khi chết, áp dụng ở mọi world
 lp group default permission set essentials.keepinv true
+# PlotSquared — lệnh quản lý plot cơ bản, tối đa 1 plot mỗi người
+lp group default permission set plots.permpack.basic true
+lp group default permission set plots.plot.1 true
 
 # Rank 1: 1 kho, 2 home, kit tân binh
 lp group xprison_rank_1 permission set playervaults.amount.1 true

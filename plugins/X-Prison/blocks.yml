@@ -1,18 +1,30 @@
 messages:
-  cooldown: <yellow>⚠ <white>Vui lòng chờ <yellow>%time% giây <white>trước khi dùng lại lệnh.
+  cooldown:
+    <yellow>⚠ <white>Vui lòng chờ <yellow>%time% giây <white>trước khi dùng
+    lại lệnh.
   no_permission: <red>✘ <white>Bạn không có quyền xem Blocks của người chơi khác.
-  your_blocks: <gradient:#FFFF00:#FFD700:#FFA500><bold>BLOCKS</bold></gradient> <dark_gray>»</dark_gray>
+  your_blocks:
+    <gradient:#FFFF00:#FFD700:#FFA500><bold>BLOCKS</bold></gradient> <dark_gray>»</dark_gray>
     <yellow>◆ <white>Bạn đã đào <yellow>%blocks%</yellow> <white>Blocks.
-  other_blocks: <gradient:#FFFF00:#FFD700:#FFA500><bold>BLOCKS</bold></gradient> <dark_gray>»</dark_gray>
+  other_blocks:
+    <gradient:#FFFF00:#FFD700:#FFA500><bold>BLOCKS</bold></gradient> <dark_gray>»</dark_gray>
     <yellow>◆ %player%</yellow> <white>đã đào <yellow>%blocks%</yellow> <white>Blocks.
   admin_set_blocks: <green>✔ <white>Đã đặt số Blocks thành <yellow>%blocks%</yellow>.
-  admin_give_blocks: <green>✔ <white>Đã cộng <yellow>%blocks%</yellow> Blocks cho <yellow>%player%</yellow>.
-  admin_remove_blocks: <green>✔ <white>Đã trừ <yellow>%blocks%</yellow> Blocks của <yellow>%player%</yellow>.
-  lucky_block_mined: <gold>✦ <white>Bạn đã đào trúng <yellow><bold>LUCKY BLOCK</bold></yellow> và nhận <yellow>%amount%</yellow> Tokens!
-# LuckyBlocks settings for rewards — empty (no token drops on mine).
-lucky-blocks: {}
+  admin_give_blocks:
+    <green>✔ <white>Đã cộng <yellow>%blocks%</yellow> Blocks cho
+    <yellow>%player%</yellow>.
+  admin_remove_blocks:
+    <green>✔ <white>Đã trừ <yellow>%blocks%</yellow> Blocks của
+    <yellow>%player%</yellow>.
+  lucky_block_mined:
+    <gold>✦ <white>Bạn đã đào trúng <yellow><bold>LUCKY BLOCK</bold></yellow>
+    và nhận <yellow>%amount%</yellow> Tokens!
+# LuckyBlocks settings for rewards
+lucky-blocks:
+  SPONGE:
+    - tokens give %player% 1000
 # This value determines when will the next weekly top reset be. Updated automatically with /resetblockstopweekly command
-next-reset-weekly: 1785945087518
+next-reset-weekly: 1786560443087
 # Interval in minutes for saving player data into database
 player_data_save_interval: 10
 # Cooldown in seconds to check other player's blocks (/blocks <player>)
@@ -20,18 +32,18 @@ blocks-command-cooldown: 5
 # Amount of players displayed in top lists
 top_players_amount: 10
 blocks-top-format:
-- <yellow><strikethrough>-------<white><strikethrough>-------<yellow><strikethrough>--------<white><strikethrough>--------<yellow><strikethrough>--------<white><strikethrough>-------<yellow><strikethrough>-------
-- <yellow><bold>BLOCKS TOP</bold>
-- '{FOR_EACH_PLAYER} <white><bold>#%position%.</bold> <yellow>%player% <dark_gray>»</dark_gray>
-  <white>%blocks% Blocks'
-- <yellow><strikethrough>-------<white><strikethrough>-------<yellow><strikethrough>--------<white><strikethrough>--------<yellow><strikethrough>--------<white><strikethrough>-------<yellow><strikethrough>-------
+  - <yellow><strikethrough>-------<white><strikethrough>-------<yellow><strikethrough>--------<white><strikethrough>--------<yellow><strikethrough>--------<white><strikethrough>-------<yellow><strikethrough>-------
+  - <yellow><bold>BLOCKS TOP</bold>
+  - "{FOR_EACH_PLAYER} <white><bold>#%position%.</bold> <yellow>%player% <dark_gray>»</dark_gray>
+    <white>%blocks% Blocks"
+  - <yellow><strikethrough>-------<white><strikethrough>-------<yellow><strikethrough>--------<white><strikethrough>--------<yellow><strikethrough>--------<white><strikethrough>-------<yellow><strikethrough>-------
 blocks-top-weekly-format:
-- <yellow><strikethrough>-------<white><strikethrough>-------<yellow><strikethrough>--------<white><strikethrough>--------<yellow><strikethrough>--------<white><strikethrough>-------<yellow><strikethrough>-------
-- <yellow><bold>BLOCKS TOP WEEKLY</bold>
-- '{FOR_EACH_PLAYER} <white><bold>#%position%.</bold> <yellow>%player% <dark_gray>»</dark_gray>
-  <white>%blocks% Blocks'
-- <yellow><strikethrough>-------<white><strikethrough>-------<yellow><strikethrough>--------<white><strikethrough>--------<yellow><strikethrough>--------<white><strikethrough>-------<yellow><strikethrough>-------
+  - <yellow><strikethrough>-------<white><strikethrough>-------<yellow><strikethrough>--------<white><strikethrough>--------<yellow><strikethrough>--------<white><strikethrough>-------<yellow><strikethrough>-------
+  - <yellow><bold>BLOCKS TOP WEEKLY</bold>
+  - "{FOR_EACH_PLAYER} <white><bold>#%position%.</bold> <yellow>%player% <dark_gray>»</dark_gray>
+    <white>%blocks% Blocks"
+  - <yellow><strikethrough>-------<white><strikethrough>-------<yellow><strikethrough>--------<white><strikethrough>--------<yellow><strikethrough>--------<white><strikethrough>-------<yellow><strikethrough>-------
 # Aliases for /blockstop command
 blocks-top-command-aliases:
-- blockstop
-- blocktop
+  - blockstop
+  - blocktop
