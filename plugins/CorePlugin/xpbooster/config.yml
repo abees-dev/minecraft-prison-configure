@@ -1,0 +1,105 @@
+# Docs:
+#   Purpose: MMOCore XP booster shop (personal, PlayerPoints) + admin
+#     server-wide / personal gives. Buffs persist in xpbooster/active.yml.
+#   Commands: /xpboost (shop), /xpboosta (admin)
+#   Reload: /xpboosta reload (YAML only)
+#   Soft-deps: MMOCore (EXP multiply), PlayerPoints (shop currency)
+#   Copied once on first enable — plugin never overwrites this file.
+
+gui:
+  title: "&8[&e✦&8] &e&lXP BOOSTER"
+  rows: 4
+  accent: YELLOW_STAINED_GLASS_PANE
+  click-cooldown-millis: 300
+
+commands:
+  # PlayerPoints has no reliable take API on every version — use console cmds
+  # like blackmarket. {player} = name, {amount} = integer points.
+  points-take: "points take {player} {amount}"
+  points-give: "points give {player} {amount}"
+
+boss-bar:
+  enabled: true
+  color: YELLOW
+  overlay: PROGRESS
+  # Placeholders: {personal_multiplier} {personal_time} {server_multiplier}
+  #   {server_time} {total_multiplier}
+  title: "&eXP &8| &aP {personal_multiplier}x &7{personal_time} &8• &cS {server_multiplier}x &7{server_time} &8• &fTổng {total_multiplier}x"
+  inactive-multiplier: "-"
+  inactive-time: "--:--"
+
+# Packages with shop-slot >= 0 appear in /xpboost. Both personal and server
+# packages use PlayerPoints; shop-slot: -1 keeps a package admin-only.
+packages:
+  personal-30m:
+    scope: personal
+    multiplier: 1.5
+    duration-seconds: 1800
+    cost: 15
+    shop-slot: 10
+    material: EXPERIENCE_BOTTLE
+    name: "&aXP Boost &f1.5x &7(30p)"
+    lore:
+      - "&7Nhân EXP MMOCore cá nhân."
+      - "&eGiá: &f{cost} điểm"
+      - "&eThời gian: &f30 phút"
+  personal-1h:
+    scope: personal
+    multiplier: 2.0
+    duration-seconds: 3600
+    cost: 50
+    shop-slot: 13
+    material: EXPERIENCE_BOTTLE
+    name: "&aXP Boost &f2.0x &7(1h)"
+    lore:
+      - "&7Nhân EXP MMOCore cá nhân."
+      - "&eGiá: &f{cost} điểm"
+      - "&eThời gian: &f1 giờ"
+  personal-2h:
+    scope: personal
+    multiplier: 2.5
+    duration-seconds: 7200
+    cost: 100
+    shop-slot: 16
+    material: EXPERIENCE_BOTTLE
+    name: "&aXP Boost &f2.5x &7(2h)"
+    lore:
+      - "&7Nhân EXP MMOCore cá nhân."
+      - "&eGiá: &f{cost} điểm"
+      - "&eThời gian: &f2 giờ"
+  server-30m:
+    scope: server
+    multiplier: 1.5
+    duration-seconds: 1800
+    cost: 50
+    shop-slot: 19
+    material: NETHER_STAR
+    name: "&cServer XP &f1.5x &7(30p)"
+    lore:
+      - "&7Nhân EXP MMOCore toàn server."
+      - "&eGiá: &f{cost} điểm"
+      - "&eThời gian: &f30 phút"
+  server-1h:
+    scope: server
+    multiplier: 2.0
+    duration-seconds: 3600
+    cost: 100
+    shop-slot: 22
+    material: NETHER_STAR
+    name: "&cServer XP &f2.0x &7(1h)"
+    lore:
+      - "&7Nhân EXP MMOCore toàn server."
+      - "&eGiá: &f{cost} điểm"
+      - "&eThời gian: &f1 giờ"
+  server-2h:
+    scope: server
+    multiplier: 2.5
+    duration-seconds: 7200
+    cost: 200
+    shop-slot: 25
+    material: NETHER_STAR
+    name: "&cServer XP &f2.5x &7(2h)"
+    lore:
+      - "&7Nhân EXP MMOCore toàn server."
+      - "&eGiá: &f{cost} điểm"
+      - "&eThời gian: &f2 giờ"
