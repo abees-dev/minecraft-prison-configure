@@ -15,6 +15,19 @@ items:
 
 recipes:
     # --- KIẾM (SWORD) ---
+    kiem-lao-cong-1:
+        output:
+            type: SWORD
+            id: SWORD_LAO_CONG_1
+            amount: 1
+        enchantments: MAXIMUM
+        crafting-time: 0
+        options:
+            success-rate: 100
+        ingredients:
+        - mmoitem{type=SWORD,id=SWORD_TU_NHAN_5,amount=1,display="Kiếm Tù Nhân V"}
+        - mmoitem{type=MATERIAL,id=DA_NANG_CAP_LAO_CONG,amount=4,display="Cường Hóa Thạch Lao Công"}
+        - mmoitem{type=MATERIAL,id=NEN_DOI_LAO_CONG,amount=4,display="Quặng Tinh Luyện Lao Công"}
     kiem-lao-cong-2:
         output:
             type: SWORD
@@ -68,6 +81,19 @@ recipes:
         - mmoitem{type=MATERIAL,id=DA_NANG_CAP_LAO_CONG,amount=32,display="Cường Hóa Thạch Lao Công"}
         - mmoitem{type=MATERIAL,id=NEN_DOI_LAO_CONG,amount=32,display="Quặng Tinh Luyện Lao Công"}
     # --- RÌU CHIẾN (AXE) ---
+    riu-lao-cong-1:
+        output:
+            type: AXE
+            id: AXE_LAO_CONG_1
+            amount: 1
+        enchantments: MAXIMUM
+        crafting-time: 0
+        options:
+            success-rate: 100
+        ingredients:
+        - mmoitem{type=AXE,id=AXE_TU_NHAN_5,amount=1,display="Rìu Chiến Tù Nhân V"}
+        - mmoitem{type=MATERIAL,id=DA_NANG_CAP_LAO_CONG,amount=4,display="Cường Hóa Thạch Lao Công"}
+        - mmoitem{type=MATERIAL,id=NEN_DOI_LAO_CONG,amount=4,display="Quặng Tinh Luyện Lao Công"}
     riu-lao-cong-2:
         output:
             type: AXE
@@ -121,6 +147,19 @@ recipes:
         - mmoitem{type=MATERIAL,id=DA_NANG_CAP_LAO_CONG,amount=32,display="Cường Hóa Thạch Lao Công"}
         - mmoitem{type=MATERIAL,id=NEN_DOI_LAO_CONG,amount=32,display="Quặng Tinh Luyện Lao Công"}
     # --- TRƯỢNG PHÉP (STAFF) ---
+    truong-lao-cong-1:
+        output:
+            type: STAFF
+            id: STAFF_LAO_CONG_1
+            amount: 1
+        enchantments: MAXIMUM
+        crafting-time: 0
+        options:
+            success-rate: 100
+        ingredients:
+        - mmoitem{type=STAFF,id=STAFF_TU_NHAN_5,amount=1,display="Trượng Phép Tù Nhân V"}
+        - mmoitem{type=MATERIAL,id=DA_NANG_CAP_LAO_CONG,amount=4,display="Cường Hóa Thạch Lao Công"}
+        - mmoitem{type=MATERIAL,id=NEN_DOI_LAO_CONG,amount=4,display="Quặng Tinh Luyện Lao Công"}
     truong-lao-cong-2:
         output:
             type: STAFF

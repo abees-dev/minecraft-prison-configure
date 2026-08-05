@@ -15,6 +15,19 @@ items:
 
 recipes:
     # --- KIẾM (SWORD) ---
+    kiem-pho-quan-nguc-1:
+        output:
+            type: SWORD
+            id: SWORD_PHO_QUAN_NGUC_1
+            amount: 1
+        enchantments: MAXIMUM
+        crafting-time: 0
+        options:
+            success-rate: 100
+        ingredients:
+        - mmoitem{type=SWORD,id=SWORD_DOI_TRUONG_5,amount=1,display="Kiếm Đội Trưởng V"}
+        - mmoitem{type=MATERIAL,id=DA_NANG_CAP_PHO_QUAN_NGUC,amount=7,display="Cường Hóa Thạch Phó Quản Ngục"}
+        - mmoitem{type=MATERIAL,id=NEN_DOI_PHO_QUAN_NGUC,amount=7,display="Quặng Tinh Luyện Phó Quản Ngục"}
     kiem-pho-quan-nguc-2:
         output:
             type: SWORD
@@ -68,6 +81,19 @@ recipes:
         - mmoitem{type=MATERIAL,id=DA_NANG_CAP_PHO_QUAN_NGUC,amount=56,display="Cường Hóa Thạch Phó Quản Ngục"}
         - mmoitem{type=MATERIAL,id=NEN_DOI_PHO_QUAN_NGUC,amount=56,display="Quặng Tinh Luyện Phó Quản Ngục"}
     # --- RÌU CHIẾN (AXE) ---
+    riu-pho-quan-nguc-1:
+        output:
+            type: AXE
+            id: AXE_PHO_QUAN_NGUC_1
+            amount: 1
+        enchantments: MAXIMUM
+        crafting-time: 0
+        options:
+            success-rate: 100
+        ingredients:
+        - mmoitem{type=AXE,id=AXE_DOI_TRUONG_5,amount=1,display="Rìu Chiến Đội Trưởng V"}
+        - mmoitem{type=MATERIAL,id=DA_NANG_CAP_PHO_QUAN_NGUC,amount=7,display="Cường Hóa Thạch Phó Quản Ngục"}
+        - mmoitem{type=MATERIAL,id=NEN_DOI_PHO_QUAN_NGUC,amount=7,display="Quặng Tinh Luyện Phó Quản Ngục"}
     riu-pho-quan-nguc-2:
         output:
             type: AXE
@@ -121,6 +147,19 @@ recipes:
         - mmoitem{type=MATERIAL,id=DA_NANG_CAP_PHO_QUAN_NGUC,amount=56,display="Cường Hóa Thạch Phó Quản Ngục"}
         - mmoitem{type=MATERIAL,id=NEN_DOI_PHO_QUAN_NGUC,amount=56,display="Quặng Tinh Luyện Phó Quản Ngục"}
     # --- TRƯỢNG PHÉP (STAFF) ---
+    truong-pho-quan-nguc-1:
+        output:
+            type: STAFF
+            id: STAFF_PHO_QUAN_NGUC_1
+            amount: 1
+        enchantments: MAXIMUM
+        crafting-time: 0
+        options:
+            success-rate: 100
+        ingredients:
+        - mmoitem{type=STAFF,id=STAFF_DOI_TRUONG_5,amount=1,display="Trượng Phép Đội Trưởng V"}
+        - mmoitem{type=MATERIAL,id=DA_NANG_CAP_PHO_QUAN_NGUC,amount=7,display="Cường Hóa Thạch Phó Quản Ngục"}
+        - mmoitem{type=MATERIAL,id=NEN_DOI_PHO_QUAN_NGUC,amount=7,display="Quặng Tinh Luyện Phó Quản Ngục"}
     truong-pho-quan-nguc-2:
         output:
             type: STAFF

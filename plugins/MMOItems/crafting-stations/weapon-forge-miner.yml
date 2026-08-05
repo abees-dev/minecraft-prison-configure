@@ -15,6 +15,19 @@ items:
 
 recipes:
   # --- KIẾM (SWORD) ---
+  kiem-tho-dao-1:
+      output:
+          type: SWORD
+          id: SWORD_THO_DAO_1
+          amount: 1
+      enchantments: MAXIMUM
+      crafting-time: 0
+      options:
+          success-rate: 100
+      ingredients:
+      - mmoitem{type=SWORD,id=SWORD_LAO_CONG_5,amount=1,display="Kiếm Lao Công V"}
+      - mmoitem{type=MATERIAL,id=DA_NANG_CAP_THO_DAO,amount=5,display="Cường Hóa Thạch Thợ Đào"}
+      - mmoitem{type=MATERIAL,id=NEN_DOI_THO_DAO,amount=5,display="Quặng Tinh Luyện Thợ Đào"}
   kiem-tho-dao-2:
     output:
       type: SWORD
@@ -68,6 +81,19 @@ recipes:
       - mmoitem{type=MATERIAL,id=DA_NANG_CAP_THO_DAO,amount=40,display="Cường Hóa Thạch Thợ Đào"}
       - mmoitem{type=MATERIAL,id=NEN_DOI_THO_DAO,amount=40,display="Quặng Tinh Luyện Thợ Đào"}
   # --- RÌU CHIẾN (AXE) ---
+  riu-tho-dao-1:
+      output:
+          type: AXE
+          id: AXE_THO_DAO_1
+          amount: 1
+      enchantments: MAXIMUM
+      crafting-time: 0
+      options:
+          success-rate: 100
+      ingredients:
+      - mmoitem{type=AXE,id=AXE_LAO_CONG_5,amount=1,display="Rìu Chiến Lao Công V"}
+      - mmoitem{type=MATERIAL,id=DA_NANG_CAP_THO_DAO,amount=5,display="Cường Hóa Thạch Thợ Đào"}
+      - mmoitem{type=MATERIAL,id=NEN_DOI_THO_DAO,amount=5,display="Quặng Tinh Luyện Thợ Đào"}
   riu-tho-dao-2:
     output:
       type: AXE
@@ -121,6 +147,19 @@ recipes:
       - mmoitem{type=MATERIAL,id=DA_NANG_CAP_THO_DAO,amount=40,display="Cường Hóa Thạch Thợ Đào"}
       - mmoitem{type=MATERIAL,id=NEN_DOI_THO_DAO,amount=40,display="Quặng Tinh Luyện Thợ Đào"}
   # --- TRƯỢNG PHÉP (STAFF) ---
+  truong-tho-dao-1:
+      output:
+          type: STAFF
+          id: STAFF_THO_DAO_1
+          amount: 1
+      enchantments: MAXIMUM
+      crafting-time: 0
+      options:
+          success-rate: 100
+      ingredients:
+      - mmoitem{type=STAFF,id=STAFF_LAO_CONG_5,amount=1,display="Trượng Phép Lao Công V"}
+      - mmoitem{type=MATERIAL,id=DA_NANG_CAP_THO_DAO,amount=5,display="Cường Hóa Thạch Thợ Đào"}
+      - mmoitem{type=MATERIAL,id=NEN_DOI_THO_DAO,amount=5,display="Quặng Tinh Luyện Thợ Đào"}
   truong-tho-dao-2:
     output:
       type: STAFF

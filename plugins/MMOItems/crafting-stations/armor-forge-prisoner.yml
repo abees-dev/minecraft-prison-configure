@@ -15,6 +15,19 @@ items:
 
 recipes:
     # --- NÓN ---
+    non-tu-nhan-1:
+        output:
+            type: ARMOR
+            id: HELMET_TU_NHAN_1
+            amount: 1
+        enchantments: MAXIMUM
+        crafting-time: 0
+        options:
+            success-rate: 100
+        ingredients:
+        - mmoitem{type=ARMOR,id=HELMET_TAN_BINH_5,amount=1,display="Nón Tân Binh V"}
+        - mmoitem{type=MATERIAL,id=DA_NANG_CAP_TU_NHAN,amount=2,display="Cường Hóa Thạch Tù Nhân"}
+        - mmoitem{type=MATERIAL,id=NEN_DOI_TU_NHAN,amount=2,display="Quặng Tinh Luyện Tù Nhân"}
     non-tu-nhan-2:
         output:
             type: ARMOR
@@ -68,6 +81,19 @@ recipes:
         - mmoitem{type=MATERIAL,id=DA_NANG_CAP_TU_NHAN,amount=16,display="Cường Hóa Thạch Tù Nhân"}
         - mmoitem{type=MATERIAL,id=NEN_DOI_TU_NHAN,amount=16,display="Quặng Tinh Luyện Tù Nhân"}
     # --- ÁO ---
+    ao-tu-nhan-1:
+        output:
+            type: ARMOR
+            id: CHESTPLATE_TU_NHAN_1
+            amount: 1
+        enchantments: MAXIMUM
+        crafting-time: 0
+        options:
+            success-rate: 100
+        ingredients:
+        - mmoitem{type=ARMOR,id=CHESTPLATE_TAN_BINH_5,amount=1,display="Áo Tân Binh V"}
+        - mmoitem{type=MATERIAL,id=DA_NANG_CAP_TU_NHAN,amount=3,display="Cường Hóa Thạch Tù Nhân"}
+        - mmoitem{type=MATERIAL,id=NEN_DOI_TU_NHAN,amount=3,display="Quặng Tinh Luyện Tù Nhân"}
     ao-tu-nhan-2:
         output:
             type: ARMOR
@@ -121,6 +147,19 @@ recipes:
         - mmoitem{type=MATERIAL,id=DA_NANG_CAP_TU_NHAN,amount=24,display="Cường Hóa Thạch Tù Nhân"}
         - mmoitem{type=MATERIAL,id=NEN_DOI_TU_NHAN,amount=24,display="Quặng Tinh Luyện Tù Nhân"}
     # --- QUẦN ---
+    quan-tu-nhan-1:
+        output:
+            type: ARMOR
+            id: LEGGINGS_TU_NHAN_1
+            amount: 1
+        enchantments: MAXIMUM
+        crafting-time: 0
+        options:
+            success-rate: 100
+        ingredients:
+        - mmoitem{type=ARMOR,id=LEGGINGS_TAN_BINH_5,amount=1,display="Quần Tân Binh V"}
+        - mmoitem{type=MATERIAL,id=DA_NANG_CAP_TU_NHAN,amount=3,display="Cường Hóa Thạch Tù Nhân"}
+        - mmoitem{type=MATERIAL,id=NEN_DOI_TU_NHAN,amount=3,display="Quặng Tinh Luyện Tù Nhân"}
     quan-tu-nhan-2:
         output:
             type: ARMOR
@@ -174,6 +213,19 @@ recipes:
         - mmoitem{type=MATERIAL,id=DA_NANG_CAP_TU_NHAN,amount=24,display="Cường Hóa Thạch Tù Nhân"}
         - mmoitem{type=MATERIAL,id=NEN_DOI_TU_NHAN,amount=24,display="Quặng Tinh Luyện Tù Nhân"}
     # --- GIÀY ---
+    giay-tu-nhan-1:
+        output:
+            type: ARMOR
+            id: BOOTS_TU_NHAN_1
+            amount: 1
+        enchantments: MAXIMUM
+        crafting-time: 0
+        options:
+            success-rate: 100
+        ingredients:
+        - mmoitem{type=ARMOR,id=BOOTS_TAN_BINH_5,amount=1,display="Giày Tân Binh V"}
+        - mmoitem{type=MATERIAL,id=DA_NANG_CAP_TU_NHAN,amount=2,display="Cường Hóa Thạch Tù Nhân"}
+        - mmoitem{type=MATERIAL,id=NEN_DOI_TU_NHAN,amount=2,display="Quặng Tinh Luyện Tù Nhân"}
     giay-tu-nhan-2:
         output:
             type: ARMOR

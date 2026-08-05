@@ -15,6 +15,19 @@ items:
 
 recipes:
     # --- NÓN ---
+    non-tho-dao-1:
+        output:
+            type: ARMOR
+            id: HELMET_THO_DAO_1
+            amount: 1
+        enchantments: MAXIMUM
+        crafting-time: 0
+        options:
+            success-rate: 100
+        ingredients:
+        - mmoitem{type=ARMOR,id=HELMET_LAO_CONG_5,amount=1,display="Nón Lao Công V"}
+        - mmoitem{type=MATERIAL,id=DA_NANG_CAP_THO_DAO,amount=4,display="Cường Hóa Thạch Thợ Đào"}
+        - mmoitem{type=MATERIAL,id=NEN_DOI_THO_DAO,amount=4,display="Quặng Tinh Luyện Thợ Đào"}
     non-tho-dao-2:
         output:
             type: ARMOR
@@ -68,6 +81,19 @@ recipes:
         - mmoitem{type=MATERIAL,id=DA_NANG_CAP_THO_DAO,amount=30,display="Cường Hóa Thạch Thợ Đào"}
         - mmoitem{type=MATERIAL,id=NEN_DOI_THO_DAO,amount=30,display="Quặng Tinh Luyện Thợ Đào"}
     # --- ÁO ---
+    ao-tho-dao-1:
+        output:
+            type: ARMOR
+            id: CHESTPLATE_THO_DAO_1
+            amount: 1
+        enchantments: MAXIMUM
+        crafting-time: 0
+        options:
+            success-rate: 100
+        ingredients:
+        - mmoitem{type=ARMOR,id=CHESTPLATE_LAO_CONG_5,amount=1,display="Áo Lao Công V"}
+        - mmoitem{type=MATERIAL,id=DA_NANG_CAP_THO_DAO,amount=5,display="Cường Hóa Thạch Thợ Đào"}
+        - mmoitem{type=MATERIAL,id=NEN_DOI_THO_DAO,amount=5,display="Quặng Tinh Luyện Thợ Đào"}
     ao-tho-dao-2:
         output:
             type: ARMOR
@@ -121,6 +147,19 @@ recipes:
         - mmoitem{type=MATERIAL,id=DA_NANG_CAP_THO_DAO,amount=40,display="Cường Hóa Thạch Thợ Đào"}
         - mmoitem{type=MATERIAL,id=NEN_DOI_THO_DAO,amount=40,display="Quặng Tinh Luyện Thợ Đào"}
     # --- QUẦN ---
+    quan-tho-dao-1:
+        output:
+            type: ARMOR
+            id: LEGGINGS_THO_DAO_1
+            amount: 1
+        enchantments: MAXIMUM
+        crafting-time: 0
+        options:
+            success-rate: 100
+        ingredients:
+        - mmoitem{type=ARMOR,id=LEGGINGS_LAO_CONG_5,amount=1,display="Quần Lao Công V"}
+        - mmoitem{type=MATERIAL,id=DA_NANG_CAP_THO_DAO,amount=5,display="Cường Hóa Thạch Thợ Đào"}
+        - mmoitem{type=MATERIAL,id=NEN_DOI_THO_DAO,amount=5,display="Quặng Tinh Luyện Thợ Đào"}
     quan-tho-dao-2:
         output:
             type: ARMOR
@@ -174,6 +213,19 @@ recipes:
         - mmoitem{type=MATERIAL,id=DA_NANG_CAP_THO_DAO,amount=40,display="Cường Hóa Thạch Thợ Đào"}
         - mmoitem{type=MATERIAL,id=NEN_DOI_THO_DAO,amount=40,display="Quặng Tinh Luyện Thợ Đào"}
     # --- GIÀY ---
+    giay-tho-dao-1:
+        output:
+            type: ARMOR
+            id: BOOTS_THO_DAO_1
+            amount: 1
+        enchantments: MAXIMUM
+        crafting-time: 0
+        options:
+            success-rate: 100
+        ingredients:
+        - mmoitem{type=ARMOR,id=BOOTS_LAO_CONG_5,amount=1,display="Giày Lao Công V"}
+        - mmoitem{type=MATERIAL,id=DA_NANG_CAP_THO_DAO,amount=4,display="Cường Hóa Thạch Thợ Đào"}
+        - mmoitem{type=MATERIAL,id=NEN_DOI_THO_DAO,amount=4,display="Quặng Tinh Luyện Thợ Đào"}
     giay-tho-dao-2:
         output:
             type: ARMOR

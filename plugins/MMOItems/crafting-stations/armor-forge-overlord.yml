@@ -15,6 +15,19 @@ items:
 
 recipes:
     # --- NÓN ---
+    non-ba-chu-nguc-tu-1:
+        output:
+            type: ARMOR
+            id: HELMET_BA_CHU_NGUC_TU_1
+            amount: 1
+        enchantments: MAXIMUM
+        crafting-time: 0
+        options:
+            success-rate: 100
+        ingredients:
+        - mmoitem{type=ARMOR,id=HELMET_QUAN_NGUC_5,amount=1,display="Nón Quản Ngục V"}
+        - mmoitem{type=MATERIAL,id=DA_NANG_CAP_BA_CHU_NGUC_TU,amount=8,display="Cường Hóa Thạch Bá Chủ Ngục Tù"}
+        - mmoitem{type=MATERIAL,id=NEN_DOI_BA_CHU_NGUC_TU,amount=8,display="Quặng Tinh Luyện Bá Chủ Ngục Tù"}
     non-ba-chu-nguc-tu-2:
         output:
             type: ARMOR
@@ -68,6 +81,19 @@ recipes:
         - mmoitem{type=MATERIAL,id=DA_NANG_CAP_BA_CHU_NGUC_TU,amount=48,display="Cường Hóa Thạch Bá Chủ Ngục Tù"}
         - mmoitem{type=MATERIAL,id=NEN_DOI_BA_CHU_NGUC_TU,amount=48,display="Quặng Tinh Luyện Bá Chủ Ngục Tù"}
     # --- ÁO ---
+    ao-ba-chu-nguc-tu-1:
+        output:
+            type: ARMOR
+            id: CHESTPLATE_BA_CHU_NGUC_TU_1
+            amount: 1
+        enchantments: MAXIMUM
+        crafting-time: 0
+        options:
+            success-rate: 100
+        ingredients:
+        - mmoitem{type=ARMOR,id=CHESTPLATE_QUAN_NGUC_5,amount=1,display="Áo Quản Ngục V"}
+        - mmoitem{type=MATERIAL,id=DA_NANG_CAP_BA_CHU_NGUC_TU,amount=10,display="Cường Hóa Thạch Bá Chủ Ngục Tù"}
+        - mmoitem{type=MATERIAL,id=NEN_DOI_BA_CHU_NGUC_TU,amount=10,display="Quặng Tinh Luyện Bá Chủ Ngục Tù"}
     ao-ba-chu-nguc-tu-2:
         output:
             type: ARMOR
@@ -121,6 +147,19 @@ recipes:
         - mmoitem{type=MATERIAL,id=DA_NANG_CAP_BA_CHU_NGUC_TU,amount=64,display="Cường Hóa Thạch Bá Chủ Ngục Tù"}
         - mmoitem{type=MATERIAL,id=NEN_DOI_BA_CHU_NGUC_TU,amount=64,display="Quặng Tinh Luyện Bá Chủ Ngục Tù"}
     # --- QUẦN ---
+    quan-ba-chu-nguc-tu-1:
+        output:
+            type: ARMOR
+            id: LEGGINGS_BA_CHU_NGUC_TU_1
+            amount: 1
+        enchantments: MAXIMUM
+        crafting-time: 0
+        options:
+            success-rate: 100
+        ingredients:
+        - mmoitem{type=ARMOR,id=LEGGINGS_QUAN_NGUC_5,amount=1,display="Quần Quản Ngục V"}
+        - mmoitem{type=MATERIAL,id=DA_NANG_CAP_BA_CHU_NGUC_TU,amount=10,display="Cường Hóa Thạch Bá Chủ Ngục Tù"}
+        - mmoitem{type=MATERIAL,id=NEN_DOI_BA_CHU_NGUC_TU,amount=10,display="Quặng Tinh Luyện Bá Chủ Ngục Tù"}
     quan-ba-chu-nguc-tu-2:
         output:
             type: ARMOR
@@ -174,6 +213,19 @@ recipes:
         - mmoitem{type=MATERIAL,id=DA_NANG_CAP_BA_CHU_NGUC_TU,amount=64,display="Cường Hóa Thạch Bá Chủ Ngục Tù"}
         - mmoitem{type=MATERIAL,id=NEN_DOI_BA_CHU_NGUC_TU,amount=64,display="Quặng Tinh Luyện Bá Chủ Ngục Tù"}
     # --- GIÀY ---
+    giay-ba-chu-nguc-tu-1:
+        output:
+            type: ARMOR
+            id: BOOTS_BA_CHU_NGUC_TU_1
+            amount: 1
+        enchantments: MAXIMUM
+        crafting-time: 0
+        options:
+            success-rate: 100
+        ingredients:
+        - mmoitem{type=ARMOR,id=BOOTS_QUAN_NGUC_5,amount=1,display="Giày Quản Ngục V"}
+        - mmoitem{type=MATERIAL,id=DA_NANG_CAP_BA_CHU_NGUC_TU,amount=8,display="Cường Hóa Thạch Bá Chủ Ngục Tù"}
+        - mmoitem{type=MATERIAL,id=NEN_DOI_BA_CHU_NGUC_TU,amount=8,display="Quặng Tinh Luyện Bá Chủ Ngục Tù"}
     giay-ba-chu-nguc-tu-2:
         output:
             type: ARMOR

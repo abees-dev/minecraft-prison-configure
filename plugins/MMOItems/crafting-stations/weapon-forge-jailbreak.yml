@@ -15,6 +15,19 @@ items:
 
 recipes:
   # --- KIẾM (SWORD) ---
+  kiem-vuot-nguc-1:
+      output:
+          type: SWORD
+          id: SWORD_VUOT_NGUC_1
+          amount: 1
+      enchantments: MAXIMUM
+      crafting-time: 0
+      options:
+          success-rate: 100
+      ingredients:
+      - mmoitem{type=SWORD,id=SWORD_BA_CHU_NGUC_TU_5,amount=1,display="Kiếm Bá Chủ Ngục Tù V"}
+      - mmoitem{type=MATERIAL,id=DA_NANG_CAP_VUOT_NGUC,amount=12,display="Cường Hóa Thạch Vượt Ngục"}
+      - mmoitem{type=MATERIAL,id=NEN_DOI_VUOT_NGUC,amount=12,display="Quặng Tinh Luyện Vượt Ngục"}
   kiem-vuot-nguc-2:
     output:
       type: SWORD
@@ -68,6 +81,19 @@ recipes:
       - mmoitem{type=MATERIAL,id=DA_NANG_CAP_VUOT_NGUC,amount=64,display="Cường Hóa Thạch Vượt Ngục"}
       - mmoitem{type=MATERIAL,id=NEN_DOI_VUOT_NGUC,amount=64,display="Quặng Tinh Luyện Vượt Ngục"}
   # --- RÌU CHIẾN (AXE) ---
+  riu-vuot-nguc-1:
+      output:
+          type: AXE
+          id: AXE_VUOT_NGUC_1
+          amount: 1
+      enchantments: MAXIMUM
+      crafting-time: 0
+      options:
+          success-rate: 100
+      ingredients:
+      - mmoitem{type=AXE,id=AXE_BA_CHU_NGUC_TU_5,amount=1,display="Rìu Chiến Bá Chủ Ngục Tù V"}
+      - mmoitem{type=MATERIAL,id=DA_NANG_CAP_VUOT_NGUC,amount=12,display="Cường Hóa Thạch Vượt Ngục"}
+      - mmoitem{type=MATERIAL,id=NEN_DOI_VUOT_NGUC,amount=12,display="Quặng Tinh Luyện Vượt Ngục"}
   riu-vuot-nguc-2:
     output:
       type: AXE
@@ -121,6 +147,19 @@ recipes:
       - mmoitem{type=MATERIAL,id=DA_NANG_CAP_VUOT_NGUC,amount=64,display="Cường Hóa Thạch Vượt Ngục"}
       - mmoitem{type=MATERIAL,id=NEN_DOI_VUOT_NGUC,amount=64,display="Quặng Tinh Luyện Vượt Ngục"}
   # --- TRƯỢNG PHÉP (STAFF) ---
+  truong-vuot-nguc-1:
+      output:
+          type: STAFF
+          id: STAFF_VUOT_NGUC_1
+          amount: 1
+      enchantments: MAXIMUM
+      crafting-time: 0
+      options:
+          success-rate: 100
+      ingredients:
+      - mmoitem{type=STAFF,id=STAFF_BA_CHU_NGUC_TU_5,amount=1,display="Trượng Phép Bá Chủ Ngục Tù V"}
+      - mmoitem{type=MATERIAL,id=DA_NANG_CAP_VUOT_NGUC,amount=12,display="Cường Hóa Thạch Vượt Ngục"}
+      - mmoitem{type=MATERIAL,id=NEN_DOI_VUOT_NGUC,amount=12,display="Quặng Tinh Luyện Vượt Ngục"}
   truong-vuot-nguc-2:
     output:
       type: STAFF

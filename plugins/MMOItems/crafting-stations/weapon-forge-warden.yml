@@ -15,6 +15,19 @@ items:
 
 recipes:
     # --- KIẾM (SWORD) ---
+    kiem-quan-nguc-1:
+        output:
+            type: SWORD
+            id: SWORD_QUAN_NGUC_1
+            amount: 1
+        enchantments: MAXIMUM
+        crafting-time: 0
+        options:
+            success-rate: 100
+        ingredients:
+        - mmoitem{type=SWORD,id=SWORD_PHO_QUAN_NGUC_5,amount=1,display="Kiếm Phó Quản Ngục V"}
+        - mmoitem{type=MATERIAL,id=DA_NANG_CAP_QUAN_NGUC,amount=8,display="Cường Hóa Thạch Quản Ngục"}
+        - mmoitem{type=MATERIAL,id=NEN_DOI_QUAN_NGUC,amount=8,display="Quặng Tinh Luyện Quản Ngục"}
     kiem-quan-nguc-2:
         output:
             type: SWORD
@@ -68,6 +81,19 @@ recipes:
         - mmoitem{type=MATERIAL,id=DA_NANG_CAP_QUAN_NGUC,amount=64,display="Cường Hóa Thạch Quản Ngục"}
         - mmoitem{type=MATERIAL,id=NEN_DOI_QUAN_NGUC,amount=64,display="Quặng Tinh Luyện Quản Ngục"}
     # --- RÌU CHIẾN (AXE) ---
+    riu-quan-nguc-1:
+        output:
+            type: AXE
+            id: AXE_QUAN_NGUC_1
+            amount: 1
+        enchantments: MAXIMUM
+        crafting-time: 0
+        options:
+            success-rate: 100
+        ingredients:
+        - mmoitem{type=AXE,id=AXE_PHO_QUAN_NGUC_5,amount=1,display="Rìu Chiến Phó Quản Ngục V"}
+        - mmoitem{type=MATERIAL,id=DA_NANG_CAP_QUAN_NGUC,amount=8,display="Cường Hóa Thạch Quản Ngục"}
+        - mmoitem{type=MATERIAL,id=NEN_DOI_QUAN_NGUC,amount=8,display="Quặng Tinh Luyện Quản Ngục"}
     riu-quan-nguc-2:
         output:
             type: AXE
@@ -121,6 +147,19 @@ recipes:
         - mmoitem{type=MATERIAL,id=DA_NANG_CAP_QUAN_NGUC,amount=64,display="Cường Hóa Thạch Quản Ngục"}
         - mmoitem{type=MATERIAL,id=NEN_DOI_QUAN_NGUC,amount=64,display="Quặng Tinh Luyện Quản Ngục"}
     # --- TRƯỢNG PHÉP (STAFF) ---
+    truong-quan-nguc-1:
+        output:
+            type: STAFF
+            id: STAFF_QUAN_NGUC_1
+            amount: 1
+        enchantments: MAXIMUM
+        crafting-time: 0
+        options:
+            success-rate: 100
+        ingredients:
+        - mmoitem{type=STAFF,id=STAFF_PHO_QUAN_NGUC_5,amount=1,display="Trượng Phép Phó Quản Ngục V"}
+        - mmoitem{type=MATERIAL,id=DA_NANG_CAP_QUAN_NGUC,amount=8,display="Cường Hóa Thạch Quản Ngục"}
+        - mmoitem{type=MATERIAL,id=NEN_DOI_QUAN_NGUC,amount=8,display="Quặng Tinh Luyện Quản Ngục"}
     truong-quan-nguc-2:
         output:
             type: STAFF

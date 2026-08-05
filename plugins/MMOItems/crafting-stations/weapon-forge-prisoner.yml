@@ -15,6 +15,19 @@ items:
 
 recipes:
     # --- KIẾM (SWORD) ---
+    kiem-tu-nhan-1:
+        output:
+            type: SWORD
+            id: SWORD_TU_NHAN_1
+            amount: 1
+        enchantments: MAXIMUM
+        crafting-time: 0
+        options:
+            success-rate: 100
+        ingredients:
+        - mmoitem{type=SWORD,id=SWORD_TAN_BINH_5,amount=1,display="Kiếm Tân Binh V"}
+        - mmoitem{type=MATERIAL,id=DA_NANG_CAP_TU_NHAN,amount=3,display="Cường Hóa Thạch Tù Nhân"}
+        - mmoitem{type=MATERIAL,id=NEN_DOI_TU_NHAN,amount=3,display="Quặng Tinh Luyện Tù Nhân"}
     kiem-tu-nhan-2:
         output:
             type: SWORD
@@ -68,6 +81,19 @@ recipes:
         - mmoitem{type=MATERIAL,id=DA_NANG_CAP_TU_NHAN,amount=24,display="Cường Hóa Thạch Tù Nhân"}
         - mmoitem{type=MATERIAL,id=NEN_DOI_TU_NHAN,amount=24,display="Quặng Tinh Luyện Tù Nhân"}
     # --- RÌU CHIẾN (AXE) ---
+    riu-tu-nhan-1:
+        output:
+            type: AXE
+            id: AXE_TU_NHAN_1
+            amount: 1
+        enchantments: MAXIMUM
+        crafting-time: 0
+        options:
+            success-rate: 100
+        ingredients:
+        - mmoitem{type=AXE,id=AXE_TAN_BINH_5,amount=1,display="Rìu Chiến Tân Binh V"}
+        - mmoitem{type=MATERIAL,id=DA_NANG_CAP_TU_NHAN,amount=3,display="Cường Hóa Thạch Tù Nhân"}
+        - mmoitem{type=MATERIAL,id=NEN_DOI_TU_NHAN,amount=3,display="Quặng Tinh Luyện Tù Nhân"}
     riu-tu-nhan-2:
         output:
             type: AXE
@@ -121,6 +147,19 @@ recipes:
         - mmoitem{type=MATERIAL,id=DA_NANG_CAP_TU_NHAN,amount=24,display="Cường Hóa Thạch Tù Nhân"}
         - mmoitem{type=MATERIAL,id=NEN_DOI_TU_NHAN,amount=24,display="Quặng Tinh Luyện Tù Nhân"}
     # --- TRƯỢNG PHÉP (STAFF) ---
+    truong-tu-nhan-1:
+        output:
+            type: STAFF
+            id: STAFF_TU_NHAN_1
+            amount: 1
+        enchantments: MAXIMUM
+        crafting-time: 0
+        options:
+            success-rate: 100
+        ingredients:
+        - mmoitem{type=STAFF,id=STAFF_TAN_BINH_5,amount=1,display="Trượng Phép Tân Binh V"}
+        - mmoitem{type=MATERIAL,id=DA_NANG_CAP_TU_NHAN,amount=3,display="Cường Hóa Thạch Tù Nhân"}
+        - mmoitem{type=MATERIAL,id=NEN_DOI_TU_NHAN,amount=3,display="Quặng Tinh Luyện Tù Nhân"}
     truong-tu-nhan-2:
         output:
             type: STAFF

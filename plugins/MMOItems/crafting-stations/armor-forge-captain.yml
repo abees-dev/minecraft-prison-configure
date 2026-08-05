@@ -15,6 +15,19 @@ items:
 
 recipes:
     # --- NÓN ---
+    non-doi-truong-1:
+        output:
+            type: ARMOR
+            id: HELMET_DOI_TRUONG_1
+            amount: 1
+        enchantments: MAXIMUM
+        crafting-time: 0
+        options:
+            success-rate: 100
+        ingredients:
+        - mmoitem{type=ARMOR,id=HELMET_THO_DAO_5,amount=1,display="Nón Thợ Đào V"}
+        - mmoitem{type=MATERIAL,id=DA_NANG_CAP_DOI_TRUONG,amount=4,display="Cường Hóa Thạch Đội Trưởng"}
+        - mmoitem{type=MATERIAL,id=NEN_DOI_DOI_TRUONG,amount=4,display="Quặng Tinh Luyện Đội Trưởng"}
     non-doi-truong-2:
         output:
             type: ARMOR
@@ -68,6 +81,19 @@ recipes:
         - mmoitem{type=MATERIAL,id=DA_NANG_CAP_DOI_TRUONG,amount=36,display="Cường Hóa Thạch Đội Trưởng"}
         - mmoitem{type=MATERIAL,id=NEN_DOI_DOI_TRUONG,amount=36,display="Quặng Tinh Luyện Đội Trưởng"}
     # --- ÁO ---
+    ao-doi-truong-1:
+        output:
+            type: ARMOR
+            id: CHESTPLATE_DOI_TRUONG_1
+            amount: 1
+        enchantments: MAXIMUM
+        crafting-time: 0
+        options:
+            success-rate: 100
+        ingredients:
+        - mmoitem{type=ARMOR,id=CHESTPLATE_THO_DAO_5,amount=1,display="Áo Thợ Đào V"}
+        - mmoitem{type=MATERIAL,id=DA_NANG_CAP_DOI_TRUONG,amount=6,display="Cường Hóa Thạch Đội Trưởng"}
+        - mmoitem{type=MATERIAL,id=NEN_DOI_DOI_TRUONG,amount=6,display="Quặng Tinh Luyện Đội Trưởng"}
     ao-doi-truong-2:
         output:
             type: ARMOR
@@ -121,6 +147,19 @@ recipes:
         - mmoitem{type=MATERIAL,id=DA_NANG_CAP_DOI_TRUONG,amount=48,display="Cường Hóa Thạch Đội Trưởng"}
         - mmoitem{type=MATERIAL,id=NEN_DOI_DOI_TRUONG,amount=48,display="Quặng Tinh Luyện Đội Trưởng"}
     # --- QUẦN ---
+    quan-doi-truong-1:
+        output:
+            type: ARMOR
+            id: LEGGINGS_DOI_TRUONG_1
+            amount: 1
+        enchantments: MAXIMUM
+        crafting-time: 0
+        options:
+            success-rate: 100
+        ingredients:
+        - mmoitem{type=ARMOR,id=LEGGINGS_THO_DAO_5,amount=1,display="Quần Thợ Đào V"}
+        - mmoitem{type=MATERIAL,id=DA_NANG_CAP_DOI_TRUONG,amount=6,display="Cường Hóa Thạch Đội Trưởng"}
+        - mmoitem{type=MATERIAL,id=NEN_DOI_DOI_TRUONG,amount=6,display="Quặng Tinh Luyện Đội Trưởng"}
     quan-doi-truong-2:
         output:
             type: ARMOR
@@ -174,6 +213,19 @@ recipes:
         - mmoitem{type=MATERIAL,id=DA_NANG_CAP_DOI_TRUONG,amount=48,display="Cường Hóa Thạch Đội Trưởng"}
         - mmoitem{type=MATERIAL,id=NEN_DOI_DOI_TRUONG,amount=48,display="Quặng Tinh Luyện Đội Trưởng"}
     # --- GIÀY ---
+    giay-doi-truong-1:
+        output:
+            type: ARMOR
+            id: BOOTS_DOI_TRUONG_1
+            amount: 1
+        enchantments: MAXIMUM
+        crafting-time: 0
+        options:
+            success-rate: 100
+        ingredients:
+        - mmoitem{type=ARMOR,id=BOOTS_THO_DAO_5,amount=1,display="Giày Thợ Đào V"}
+        - mmoitem{type=MATERIAL,id=DA_NANG_CAP_DOI_TRUONG,amount=4,display="Cường Hóa Thạch Đội Trưởng"}
+        - mmoitem{type=MATERIAL,id=NEN_DOI_DOI_TRUONG,amount=4,display="Quặng Tinh Luyện Đội Trưởng"}
     giay-doi-truong-2:
         output:
             type: ARMOR

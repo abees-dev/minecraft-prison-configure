@@ -15,6 +15,19 @@ items:
 
 recipes:
   # --- KIẾM (SWORD) ---
+  kiem-doi-truong-1:
+      output:
+          type: SWORD
+          id: SWORD_DOI_TRUONG_1
+          amount: 1
+      enchantments: MAXIMUM
+      crafting-time: 0
+      options:
+          success-rate: 100
+      ingredients:
+      - mmoitem{type=SWORD,id=SWORD_THO_DAO_5,amount=1,display="Kiếm Thợ Đào V"}
+      - mmoitem{type=MATERIAL,id=DA_NANG_CAP_DOI_TRUONG,amount=6,display="Cường Hóa Thạch Đội Trưởng"}
+      - mmoitem{type=MATERIAL,id=NEN_DOI_DOI_TRUONG,amount=6,display="Quặng Tinh Luyện Đội Trưởng"}
   kiem-doi-truong-2:
     output:
       type: SWORD
@@ -68,6 +81,19 @@ recipes:
       - mmoitem{type=MATERIAL,id=DA_NANG_CAP_DOI_TRUONG,amount=48,display="Cường Hóa Thạch Đội Trưởng"}
       - mmoitem{type=MATERIAL,id=NEN_DOI_DOI_TRUONG,amount=48,display="Quặng Tinh Luyện Đội Trưởng"}
   # --- RÌU CHIẾN (AXE) ---
+  riu-doi-truong-1:
+      output:
+          type: AXE
+          id: AXE_DOI_TRUONG_1
+          amount: 1
+      enchantments: MAXIMUM
+      crafting-time: 0
+      options:
+          success-rate: 100
+      ingredients:
+      - mmoitem{type=AXE,id=AXE_THO_DAO_5,amount=1,display="Rìu Chiến Thợ Đào V"}
+      - mmoitem{type=MATERIAL,id=DA_NANG_CAP_DOI_TRUONG,amount=6,display="Cường Hóa Thạch Đội Trưởng"}
+      - mmoitem{type=MATERIAL,id=NEN_DOI_DOI_TRUONG,amount=6,display="Quặng Tinh Luyện Đội Trưởng"}
   riu-doi-truong-2:
     output:
       type: AXE
@@ -121,6 +147,19 @@ recipes:
       - mmoitem{type=MATERIAL,id=DA_NANG_CAP_DOI_TRUONG,amount=48,display="Cường Hóa Thạch Đội Trưởng"}
       - mmoitem{type=MATERIAL,id=NEN_DOI_DOI_TRUONG,amount=48,display="Quặng Tinh Luyện Đội Trưởng"}
   # --- TRƯỢNG PHÉP (STAFF) ---
+  truong-doi-truong-1:
+      output:
+          type: STAFF
+          id: STAFF_DOI_TRUONG_1
+          amount: 1
+      enchantments: MAXIMUM
+      crafting-time: 0
+      options:
+          success-rate: 100
+      ingredients:
+      - mmoitem{type=STAFF,id=STAFF_THO_DAO_5,amount=1,display="Trượng Phép Thợ Đào V"}
+      - mmoitem{type=MATERIAL,id=DA_NANG_CAP_DOI_TRUONG,amount=6,display="Cường Hóa Thạch Đội Trưởng"}
+      - mmoitem{type=MATERIAL,id=NEN_DOI_DOI_TRUONG,amount=6,display="Quặng Tinh Luyện Đội Trưởng"}
   truong-doi-truong-2:
     output:
       type: STAFF

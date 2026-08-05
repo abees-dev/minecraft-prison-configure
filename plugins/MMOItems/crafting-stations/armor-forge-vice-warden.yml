@@ -15,6 +15,19 @@ items:
 
 recipes:
     # --- NÓN ---
+    non-pho-quan-nguc-1:
+        output:
+            type: ARMOR
+            id: HELMET_PHO_QUAN_NGUC_1
+            amount: 1
+        enchantments: MAXIMUM
+        crafting-time: 0
+        options:
+            success-rate: 100
+        ingredients:
+        - mmoitem{type=ARMOR,id=HELMET_DOI_TRUONG_5,amount=1,display="Nón Đội Trưởng V"}
+        - mmoitem{type=MATERIAL,id=DA_NANG_CAP_PHO_QUAN_NGUC,amount=5,display="Cường Hóa Thạch Phó Quản Ngục"}
+        - mmoitem{type=MATERIAL,id=NEN_DOI_PHO_QUAN_NGUC,amount=5,display="Quặng Tinh Luyện Phó Quản Ngục"}
     non-pho-quan-nguc-2:
         output:
             type: ARMOR
@@ -68,6 +81,19 @@ recipes:
         - mmoitem{type=MATERIAL,id=DA_NANG_CAP_PHO_QUAN_NGUC,amount=42,display="Cường Hóa Thạch Phó Quản Ngục"}
         - mmoitem{type=MATERIAL,id=NEN_DOI_PHO_QUAN_NGUC,amount=42,display="Quặng Tinh Luyện Phó Quản Ngục"}
     # --- ÁO ---
+    ao-pho-quan-nguc-1:
+        output:
+            type: ARMOR
+            id: CHESTPLATE_PHO_QUAN_NGUC_1
+            amount: 1
+        enchantments: MAXIMUM
+        crafting-time: 0
+        options:
+            success-rate: 100
+        ingredients:
+        - mmoitem{type=ARMOR,id=CHESTPLATE_DOI_TRUONG_5,amount=1,display="Áo Đội Trưởng V"}
+        - mmoitem{type=MATERIAL,id=DA_NANG_CAP_PHO_QUAN_NGUC,amount=7,display="Cường Hóa Thạch Phó Quản Ngục"}
+        - mmoitem{type=MATERIAL,id=NEN_DOI_PHO_QUAN_NGUC,amount=7,display="Quặng Tinh Luyện Phó Quản Ngục"}
     ao-pho-quan-nguc-2:
         output:
             type: ARMOR
@@ -121,6 +147,19 @@ recipes:
         - mmoitem{type=MATERIAL,id=DA_NANG_CAP_PHO_QUAN_NGUC,amount=56,display="Cường Hóa Thạch Phó Quản Ngục"}
         - mmoitem{type=MATERIAL,id=NEN_DOI_PHO_QUAN_NGUC,amount=56,display="Quặng Tinh Luyện Phó Quản Ngục"}
     # --- QUẦN ---
+    quan-pho-quan-nguc-1:
+        output:
+            type: ARMOR
+            id: LEGGINGS_PHO_QUAN_NGUC_1
+            amount: 1
+        enchantments: MAXIMUM
+        crafting-time: 0
+        options:
+            success-rate: 100
+        ingredients:
+        - mmoitem{type=ARMOR,id=LEGGINGS_DOI_TRUONG_5,amount=1,display="Quần Đội Trưởng V"}
+        - mmoitem{type=MATERIAL,id=DA_NANG_CAP_PHO_QUAN_NGUC,amount=7,display="Cường Hóa Thạch Phó Quản Ngục"}
+        - mmoitem{type=MATERIAL,id=NEN_DOI_PHO_QUAN_NGUC,amount=7,display="Quặng Tinh Luyện Phó Quản Ngục"}
     quan-pho-quan-nguc-2:
         output:
             type: ARMOR
@@ -174,6 +213,19 @@ recipes:
         - mmoitem{type=MATERIAL,id=DA_NANG_CAP_PHO_QUAN_NGUC,amount=56,display="Cường Hóa Thạch Phó Quản Ngục"}
         - mmoitem{type=MATERIAL,id=NEN_DOI_PHO_QUAN_NGUC,amount=56,display="Quặng Tinh Luyện Phó Quản Ngục"}
     # --- GIÀY ---
+    giay-pho-quan-nguc-1:
+        output:
+            type: ARMOR
+            id: BOOTS_PHO_QUAN_NGUC_1
+            amount: 1
+        enchantments: MAXIMUM
+        crafting-time: 0
+        options:
+            success-rate: 100
+        ingredients:
+        - mmoitem{type=ARMOR,id=BOOTS_DOI_TRUONG_5,amount=1,display="Giày Đội Trưởng V"}
+        - mmoitem{type=MATERIAL,id=DA_NANG_CAP_PHO_QUAN_NGUC,amount=5,display="Cường Hóa Thạch Phó Quản Ngục"}
+        - mmoitem{type=MATERIAL,id=NEN_DOI_PHO_QUAN_NGUC,amount=5,display="Quặng Tinh Luyện Phó Quản Ngục"}
     giay-pho-quan-nguc-2:
         output:
             type: ARMOR
