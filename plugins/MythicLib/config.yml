@@ -39,9 +39,9 @@ defense-application:
 # Delay should be used if your Users experience issues revolving around seeing too many hearts still. This can occur with plugins such as MySQL Inventory Bridge
 # The delay is in ticks. 20 ticks = 1 second
 health-scale:
-  enabled: false
+  enabled: true
   scale: 20
-  delay: 0
+  delay: 20
 
 critical-strikes:
   weapon:
