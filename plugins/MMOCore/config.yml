@@ -26,16 +26,15 @@ mysql:
 # All new players will start with these values
 default-playerdata:
   level: 1
-  class-points: 0
+  class-points: 1
   skill-points: 0
   skill-realloc-points: 0
-  attribute-points: 0
+  attribute-points: 1
   attribute-realloc-points: 0
   health: 20
   mana: 0
   stellium: 0
   stamina: 0
-
 
 # The list of all conditions which must be met for the
 # BLOCK REGEN and BLOCK RESTRICTIONS to apply. Set to
@@ -100,7 +99,6 @@ skill-casting:
   disable-sneak: false
 
 loot-chests:
-
   # Time in seconds it takes for a loot chest to
   # expire after it was spawned. 600 is 10 minutes.
   chest-expire-time: 600
@@ -116,7 +114,6 @@ global-skill-cooldown: 10
 
 # Settings for the default action bar
 action-bar:
-
   # Whether or not to use the default action bar.
   # (This doesn't change any other action bars provided by MMOCore.)
   enabled: true
@@ -129,14 +126,12 @@ action-bar:
   ticks-to-update: 5
 
   # How to display the data.
-  format: "&c❤ {health}/{max_health} &f| {mana_icon} {mana}/{max_mana} &f| &7⛨ {armor}"
+  format: '&c❤ {health}/{max_health} &f| {mana_icon} {mana}/{max_mana} &f| &7⛨ {armor}'
 
 party:
-
   # Edit party buffs here. You may
   # add as many stats as you want.
   buff:
-
     # '3' -> increases health regen by a flat +3pts/s
     # '3%' -> increases current health regen by 3%
     health-regeneration: 3%
@@ -178,7 +173,6 @@ party:
 
 # Not relevant when not using MMOCore as quest plugin
 mmocore-quests:
-
   # Disable boss bar indicating the current objective
   disable-boss-bar: false
 
@@ -220,7 +214,6 @@ death-exp-loss:
 # Maximum number of skill slots. This means that you cannot unlock more than X skill slots.
 max-skill-slots: 8
 
-
 # When set to true, passive skills must be bound in order to take effect.
 # When set to false, unlocked skills will take effect right away.
 # This is only the default behavior for skills but can be overridden by specifying true/false to
@@ -235,7 +228,6 @@ can-creative-cast: false
 prevent-spawner-xp: true
 
 combat-log:
-
   # Timer for combat log to expire (in seconds)
   timer: 10
 
@@ -295,7 +287,6 @@ command-verbose:
 # More info available on the wiki
 # https://gitlab.com/phoenix-dvpmt/mmocore/-/wikis/Combat#pvp-mode
 pvp_mode:
-
   # Requires /reload when changed
   enabled: false
 
@@ -329,7 +320,6 @@ pvp_mode:
     apply_to_pvp_flag: true
 
   cooldown:
-
     # Cooldown before being able to use the /pvpmode
     # command when entering a PvP mode region.
     region_enter: 20
