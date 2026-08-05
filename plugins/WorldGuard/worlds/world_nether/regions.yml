@@ -12,7 +12,7 @@
 regions:
     __global__:
         members: {}
-        flags: {interact: deny, chest-access: deny, block-break: deny, block-place: deny}
+        flags: {block-break: deny, block-place: deny}
         owners: {}
         type: global
         priority: 0
