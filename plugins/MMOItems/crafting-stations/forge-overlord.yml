@@ -14,6 +14,19 @@ items:
         name: '&aNo Item in Queue'
 
 recipes:
+    cup-ba-chu-nguc-tu-1:
+        output:
+            type: TOOL
+            id: PICKAXE_BA_CHU_NGUC_TU_1
+            amount: 1
+        enchantments: MAXIMUM
+        crafting-time: 0
+        options:
+            success-rate: 100
+        ingredients:
+        - mmoitem{type=TOOL,id=PICKAXE_QUAN_NGUC_5,amount=1,display="Cúp Quản Ngục V"}
+        - mmoitem{type=MATERIAL,id=DA_NANG_CAP_BA_CHU_NGUC_TU,amount=10,display="Cường Hóa Thạch Bá Chủ Ngục Tù"}
+        - mmoitem{type=MATERIAL,id=NEN_DOI_BA_CHU_NGUC_TU,amount=10,display="Quặng Tinh Luyện Bá Chủ Ngục Tù"}
     cup-ba-chu-nguc-tu-2:
         output:
             type: TOOL

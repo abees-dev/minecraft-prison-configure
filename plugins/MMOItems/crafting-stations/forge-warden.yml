@@ -14,6 +14,19 @@ items:
         name: '&aNo Item in Queue'
 
 recipes:
+    cup-quan-nguc-1:
+        output:
+            type: TOOL
+            id: PICKAXE_QUAN_NGUC_1
+            amount: 1
+        enchantments: MAXIMUM
+        crafting-time: 0
+        options:
+            success-rate: 100
+        ingredients:
+        - mmoitem{type=TOOL,id=PICKAXE_PHO_QUAN_NGUC_5,amount=1,display="Cúp Phó Quản Ngục V"}
+        - mmoitem{type=MATERIAL,id=DA_NANG_CAP_QUAN_NGUC,amount=8,display="Cường Hóa Thạch Quản Ngục"}
+        - mmoitem{type=MATERIAL,id=NEN_DOI_QUAN_NGUC,amount=8,display="Quặng Tinh Luyện Quản Ngục"}
     cup-quan-nguc-2:
         output:
             type: TOOL
