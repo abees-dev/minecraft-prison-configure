@@ -13,5 +13,6 @@ groups:
     - world_dungeon_2
     - world_magadungeon
     - world_pvp
+    - world_plot
     shares:
     - all
