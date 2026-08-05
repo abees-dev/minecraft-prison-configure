@@ -632,3 +632,8 @@ war:
       spawn-at-match-start: true
       max-alive: 1
       kill-points: 100
+  schedule:
+    enabled: true
+    timezone: Asia/Ho_Chi_Minh
+    hour: 20
+    minute: 0

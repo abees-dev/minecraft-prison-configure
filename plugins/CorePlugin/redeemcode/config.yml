@@ -12,14 +12,15 @@ attempt-cooldown-seconds: 3
 
 # Read once at startup. type: sqlite or mysql.
 storage:
-  type: sqlite
+  type: mysql
   sqlite:
     # Relative to this plugin's dataFolder.
     file: redeemcode.db
   mysql:
-    host: localhost
-    port: 3306
-    database: coreplugin
-    username: root
-    password: ""
+    # Shared database with the other CorePlugin modules (tables are prefixed redeem_).
+    host: 185.207.166.70
+    port: 1026
+    database: s21917_prison-rpg
+    username: u21917_IL5GDThxlJ
+    password: 'WD8uie=gH4p+dlVL2nTuBR9!'
     pool-size: 4
