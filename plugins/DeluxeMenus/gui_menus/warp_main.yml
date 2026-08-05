@@ -24,7 +24,6 @@ items:
       - 9
       - 11
       - 13
-      - 15
       - 17
       - 18
       - 19
@@ -95,6 +94,21 @@ items:
     click_commands:
       - '[sound] UI_BUTTON_CLICK'
       - '[openguimenu] warp_hub'
+
+  'pvp':
+    material: DIAMOND_SWORD
+    slot: 15
+    glow: true
+    hide_attributes: true
+    display_name: '&c&l⚔ KHU PVP'
+    lore:
+      - '&7Khu vực chiến đấu giữa người chơi.'
+      - ''
+      - '&e» Click để dịch chuyển'
+    click_commands:
+      - '[sound] ENTITY_ENDERMAN_TELEPORT'
+      - '[close]'
+      - '[player] essentials:warp pvp'
 
   'close':
     material: BARRIER

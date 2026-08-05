@@ -12,8 +12,8 @@ SPAWNER_PRISON_PHO_QUAN_NGUC_ELITE:
   UseTimer: true
   MaxMobs: '8'
   MobLevel: '1'
-  MobsPerSpawn: 2
-  Cooldown: 5
+  MobsPerSpawn: 4
+  Cooldown: 1
   Warmup: 0
   ActivationRange: 12.0
   ScalingRange: 25.0
