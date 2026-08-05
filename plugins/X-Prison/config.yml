@@ -39,12 +39,23 @@ enable-metrics: false
 # Database type (H2, SQLite, MySQL)
 database_type: MySQL
 # MySQL connection details
+# address: 185.207.166.70:1026
+# # address: 127.0.0.1:3306
+
+# # The name of the database to store LuckPerms data in.
+# # - This must be created already. Don't worry about this setting if you're using MongoDB.
+# database: s21917_prison-rpg
 mysql:
-  host: 127.0.0.1
-  port: 3306
-  database: prison-rpg-db
-  username: root
-  password: abeesdev
+  # host: 127.0.0.1
+  # port: 3306
+  # database: prison-rpg-db
+  # username: root
+  # password: abeesdev
+  host: 185.207.166.70
+  port: 1026
+  database: s21917_prison-rpg
+  username: u21917_IL5GDThxlJ
+  password: WD8uie=gH4p+dlVL2nTuBR9!
   # Connect using SSL/TLS. Leave false for a local/trusted database.
   use-ssl: false
   # Server timezone used by the JDBC driver. Use a valid tz id (e.g. UTC, Europe/Berlin).

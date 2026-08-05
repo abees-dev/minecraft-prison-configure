@@ -12,21 +12,18 @@ reset-timezone: Asia/Ho_Chi_Minh
 #   mysql  — remote/local MySQL via HikariCP
 storage:
   # Backend: sqlite | mysql
-  type: sqlite
+  type: mysql
   # SQLite only: relative path under plugins/CorePlugin/dailyquest/ (created automatically).
   sqlite-file: data/dailyquest.db
 
 # MySQL connection (used when storage.type is mysql). Never block queries on the main thread.
 mysql:
   # JDBC host (no jdbc: prefix here — built by the plugin).
-  host: 127.0.0.1
-  # MySQL port.
-  port: 3306
-  # Database name (must exist; schema applied from db/schema-mysql.sql on enable).
-  database: dailyquest
-  # Credentials — prefer env/secrets in production; defaults are for local dev only.
-  username: root
-  password: ''
+  host: 185.207.166.70
+  port: 1026
+  database: s21917_prison-rpg
+  username: u21917_IL5GDThxlJ
+  password: WD8uie=gH4p+dlVL2nTuBR9!
   # Hikari pool size.
   pool-size: 10
   # Extra JDBC params appended to the URL.
