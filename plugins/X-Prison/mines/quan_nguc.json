@@ -1,0 +1,33 @@
+{
+  "name": "quan_nguc",
+  "teleport-location": null,
+  "region": {
+    "min": {
+      "x": -2020.0,
+      "y": -58.0,
+      "z": -679.0,
+      "world": "world_prison"
+    },
+    "max": {
+      "x": -1958.0,
+      "y": -55.0,
+      "z": -617.0,
+      "world": "world_prison"
+    }
+  },
+  "blocks": {
+    "NETHER_QUARTZ_ORE": 20.0,
+    "EMERALD_ORE": 35.0,
+    "DIAMOND_ORE": 30.0,
+    "ANCIENT_DEBRIS": 15.0
+  },
+  "reset-type": "Instant",
+  "reset-percentage": 50.0,
+  "reset-time": 10,
+  "broadcast-reset": true,
+  "hologram-blocks-mined": null,
+  "hologram-blocks-left": null,
+  "hologram-timed-reset": null,
+  "world-guard-region": "quan_nguc",
+  "effects": {}
+}

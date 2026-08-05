@@ -1,0 +1,32 @@
+{
+  "name": "tu_nhan",
+  "teleport-location": null,
+  "region": {
+    "min": {
+      "x": -519.0,
+      "y": -59.0,
+      "z": 12.0,
+      "world": "world_prison"
+    },
+    "max": {
+      "x": -461.0,
+      "y": -56.0,
+      "z": 70.0,
+      "world": "world_prison"
+    }
+  },
+  "blocks": {
+    "IRON_ORE": 10.0,
+    "COAL_ORE": 30.0,
+    "STONE": 50.0
+  },
+  "reset-type": "Instant",
+  "reset-percentage": 50.0,
+  "reset-time": 10,
+  "broadcast-reset": true,
+  "hologram-blocks-mined": null,
+  "hologram-blocks-left": null,
+  "hologram-timed-reset": null,
+  "world-guard-region": "tu_nhan",
+  "effects": {}
+}

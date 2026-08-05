@@ -77,9 +77,6 @@ world_pvp/*
 /plugins/SkinsRestorer/recommendations.json
 /plugins/WorldGuard/cache/
 
-# Mine runtime state (auto-generated when server runs)
-/plugins/X-Prison/mines/*.json
-
 # Native library extraction temp files
 /plugins/RoseGarden/tmp/
 
