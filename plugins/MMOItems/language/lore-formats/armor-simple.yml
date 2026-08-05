@@ -1,0 +1,18 @@
+# Lore mẫu gọn cho giáp Prison.
+lore-format:
+  - "{bar}&r "
+  - "#armor#"
+  - "#armor-toughness#"
+  - "#defense#"
+  - "#max-health#"
+  - "#damage-reduction#"
+  - "#movement-speed#"
+  - "{bar}&r "
+  - "#custom-maxsockets#"
+  - "#gem-stones#"
+  - "#gem-stone-lore#"
+  - "{bar}&r "
+  - "#lore#"
+  - "{sbar}&8&m──────────────────"
+  - "#tier#"
+  - "#item-type#"

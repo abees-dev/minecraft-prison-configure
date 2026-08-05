@@ -3,7 +3,7 @@
 # Quy tắc {bar}: KHÔNG đặt 2 dòng {bar} liền nhau.
 lore-format:
   # ==================== Yêu Cầu ====================
-  - "{bar}&r \n&8&m┄┄┄┄┄┄┄&r &7&l❖ YÊU CẦU &8&m┄┄┄┄┄┄┄"
+  - "{bar}&r "
   - "#required-class#"
   - "#required-level#"
   - "#required-dexterity#"
@@ -12,7 +12,7 @@ lore-format:
   - "#soulbound#"
 
   # ==================== Nghề Nghiệp ====================
-  - "{bar}&r \n&8&m┄┄┄┄┄┄&r &3&l⚒ NGHỀ NGHIỆP &8&m┄┄┄┄┄┄"
+  - "{bar}&r "
   - "#profession-alchemy#"
   - "#profession-enchanting#"
   - "#profession-farming#"
@@ -23,7 +23,7 @@ lore-format:
   - "#profession-woodcutting#"
 
   # ==================== Chỉ Số ====================
-  - "{bar}&r \n&8&m┄┄┄┄┄┄┄&r &c&l⚔ CHỈ SỐ &8&m┄┄┄┄┄┄┄"
+  - "{bar}&r "
   - "#custom-myluck#"
   - "#custom-miningefficiency#"
   - "#custom-miningfortune#"
@@ -81,7 +81,7 @@ lore-format:
   - "#stamina-cost#"
 
   # ==================== Thuộc Tính ====================
-  - "{bar}&r \n&8&m┄┄┄┄┄┄&r &e&l✨ THUỘC TÍNH &8&m┄┄┄┄┄┄"
+  - "{bar}&r "
   - "#max-mana#"
   - "#max-stamina#"
   - "#health-regeneration#"
@@ -103,7 +103,7 @@ lore-format:
   - "#additional-experience-woodcutting#"
 
   # ==================== Tiêu Thụ & Tiện Ích ====================
-  - "{bar}&r \n&8&m┄┄┄┄┄&r &a&l☘ TIÊU THỤ & TIỆN ÍCH &8&m┄┄┄┄┄"
+  - "{bar}&r "
   - "#success-rate#"
   - "#can-identify#"
   - "#can-deconstruct#"
@@ -119,34 +119,34 @@ lore-format:
   - "#item-cooldown#"
 
   # ==================== Nguyên Tố ====================
-  - "{bar}&r \n&8&m┄┄┄┄┄┄&r &2&l☄ NGUYÊN TỐ &8&m┄┄┄┄┄┄"
+  - "{bar}&r "
   - "#elements#"
 
   # ==================== Hiệu Ứng ====================
-  - "{bar}&r \n&8&m┄┄┄┄┄┄&r &5&l✦ HIỆU ỨNG &8&m┄┄┄┄┄┄"
+  - "{bar}&r "
   - "#effects#"
 
   # ==================== Kỹ Năng ====================
-  - "{bar}&r \n&8&m┄┄┄┄┄┄&r &a&l⚡ KỸ NĂNG &8&m┄┄┄┄┄┄"
+  - "{bar}&r "
   - "#abilities#"
 
   # ==================== Lệnh ====================
-  - "{bar}&r \n&8&m┄┄┄┄┄┄┄┄&r &7&l⌨ LỆNH &8&m┄┄┄┄┄┄┄┄"
+  - "{bar}&r "
   - "#commands#"
 
   # ==================== Đá Quý ====================
-  - "{bar}&r \n&8&m┄┄┄┄┄&r &d&l🔮 Ô KHẢM ĐÁ QUÝ &8&m┄┄┄┄┄"
+  - "{bar}&r "
   - "#custom-maxsockets#"
   - "#gem-stones#"
   - "#gem-stone-lore#"
 
   # ==================== Mô Tả ====================
-  - "{bar}&r \n&8&m┄┄┄┄┄┄┄&r &f&l✦ MÔ TẢ &8&m┄┄┄┄┄┄┄"
+  - "{bar}&r "
   - "#lore#"
   - "#set#"
 
   # ==================== Footer ====================
-  - "{sbar}&8&m┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄"
+  - "{sbar}&8&m──────────────────"
   - "#tier#"
   - "#durability#"
   - "#item-type#"

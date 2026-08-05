@@ -1,9 +1,9 @@
 TRADE_BRACELET_HOA_LONG:
   itemsadder-item: "rings_pack:ring_81"
   base:
-    lore-format: jewelry-lore
+    lore-format: jewelry-simple
     custom-maxsockets: 5.0
-    revision-id: 5
+    revision-id: 6
     material: PAPER
     custom-model-data: 19081
     name: "&6&l🔥 Vòng Tay Hỏa Long"
@@ -23,9 +23,9 @@ TRADE_BRACELET_HOA_LONG:
 TRADE_BRACELET_HAC_LONG:
   itemsadder-item: "rings_pack:ring_17"
   base:
-    lore-format: jewelry-lore
+    lore-format: jewelry-simple
     custom-maxsockets: 5.0
-    revision-id: 5
+    revision-id: 6
     material: PAPER
     custom-model-data: 19017
     name: "&5&l◆ Vòng Tay Hắc Long"
@@ -45,9 +45,9 @@ TRADE_BRACELET_HAC_LONG:
 TRADE_BRACELET_LOI_LONG:
   itemsadder-item: "rings_pack:ring_9"
   base:
-    lore-format: jewelry-lore
+    lore-format: jewelry-simple
     custom-maxsockets: 5.0
-    revision-id: 5
+    revision-id: 6
     material: PAPER
     custom-model-data: 19009
     name: "&e&l⚡ Vòng Tay Lôi Long"
@@ -67,9 +67,9 @@ TRADE_BRACELET_LOI_LONG:
 TRADE_BRACELET_PHONG_LONG:
   itemsadder-item: "rings_pack:ring_23"
   base:
-    lore-format: jewelry-lore
+    lore-format: jewelry-simple
     custom-maxsockets: 5.0
-    revision-id: 5
+    revision-id: 6
     material: PAPER
     custom-model-data: 19023
     name: "&2&l✦ Vòng Tay Phong Long"
@@ -89,9 +89,9 @@ TRADE_BRACELET_PHONG_LONG:
 TRADE_BRACELET_BANG_LONG:
   itemsadder-item: "rings_pack:ring_1"
   base:
-    lore-format: jewelry-lore
+    lore-format: jewelry-simple
     custom-maxsockets: 5.0
-    revision-id: 5
+    revision-id: 6
     material: PAPER
     custom-model-data: 19001
     name: "&3&l✦ Vòng Tay Băng Long"
@@ -112,9 +112,9 @@ TRADE_BRACELET_BANG_LONG:
 DONATE_BRACELET_LONG_CHIEN:
   itemsadder-item: "rings_pack:ring_59"
   base:
-    lore-format: jewelry-lore
+    lore-format: jewelry-simple
     custom-maxsockets: 5.0
-    revision-id: 5
+    revision-id: 6
     material: PAPER
     custom-model-data: 19059
     name: "&e&l⚔ Vòng Tay Chiến Long"
@@ -134,9 +134,9 @@ DONATE_BRACELET_LONG_CHIEN:
 DONATE_BRACELET_LONG_THAN:
   itemsadder-item: "rings_pack:ring_107"
   base:
-    lore-format: jewelry-lore
+    lore-format: jewelry-simple
     custom-maxsockets: 5.0
-    revision-id: 5
+    revision-id: 6
     material: PAPER
     custom-model-data: 19107
     name: "&b&l✦ Vòng Tay Thần Long"
@@ -156,9 +156,9 @@ DONATE_BRACELET_LONG_THAN:
 DONATE_BRACELET_LONG_HOANG:
   itemsadder-item: "rings_pack:ring_2"
   base:
-    lore-format: jewelry-lore
+    lore-format: jewelry-simple
     custom-maxsockets: 5.0
-    revision-id: 5
+    revision-id: 6
     material: PAPER
     custom-model-data: 19002
     name: "&c&l★ Vòng Tay Hoàng Long"
@@ -178,9 +178,9 @@ DONATE_BRACELET_LONG_HOANG:
 DONATE_BRACELET_LONG_DE:
   itemsadder-item: "rings_pack:ring_7"
   base:
-    lore-format: jewelry-lore
+    lore-format: jewelry-simple
     custom-maxsockets: 5.0
-    revision-id: 5
+    revision-id: 6
     material: PAPER
     custom-model-data: 19007
     name: "&4&l◆ Vòng Tay Đế Long"
@@ -200,9 +200,9 @@ DONATE_BRACELET_LONG_DE:
 DONATE_BRACELET_LONG_VE:
   itemsadder-item: "rings_pack:ring_42"
   base:
-    lore-format: jewelry-lore
+    lore-format: jewelry-simple
     custom-maxsockets: 5.0
-    revision-id: 5
+    revision-id: 6
     material: PAPER
     custom-model-data: 19042
     name: "&a&l✦ Vòng Tay Hộ Long"
@@ -223,9 +223,9 @@ DONATE_BRACELET_LONG_VE:
 FREE_BRACELET_THANH_LONG:
   itemsadder-item: "rings_pack:ring_67"
   base:
-    lore-format: jewelry-lore
+    lore-format: jewelry-simple
     custom-maxsockets: 2.0
-    revision-id: 5
+    revision-id: 6
     material: PAPER
     custom-model-data: 19067
     name: "&b&l⚡ Vòng Tay Thanh Long"
@@ -245,9 +245,9 @@ FREE_BRACELET_THANH_LONG:
 FREE_BRACELET_XICH_LONG:
   itemsadder-item: "rings_pack:ring_11"
   base:
-    lore-format: jewelry-lore
+    lore-format: jewelry-simple
     custom-maxsockets: 2.0
-    revision-id: 5
+    revision-id: 6
     material: PAPER
     custom-model-data: 19011
     name: "&c&l🔥 Vòng Tay Xích Long"
@@ -267,9 +267,9 @@ FREE_BRACELET_XICH_LONG:
 FREE_BRACELET_KIM_LONG:
   itemsadder-item: "rings_pack:ring_32"
   base:
-    lore-format: jewelry-lore
+    lore-format: jewelry-simple
     custom-maxsockets: 2.0
-    revision-id: 5
+    revision-id: 6
     material: PAPER
     custom-model-data: 19032
     name: "&e&l★ Vòng Tay Kim Long"
@@ -289,9 +289,9 @@ FREE_BRACELET_KIM_LONG:
 FREE_BRACELET_THIEN_LONG:
   itemsadder-item: "rings_pack:ring_5"
   base:
-    lore-format: jewelry-lore
+    lore-format: jewelry-simple
     custom-maxsockets: 2.0
-    revision-id: 5
+    revision-id: 6
     material: PAPER
     custom-model-data: 19005
     name: "&d&l✦ Vòng Tay Thiên Long"
@@ -311,9 +311,9 @@ FREE_BRACELET_THIEN_LONG:
 FREE_BRACELET_BAC_LONG:
   itemsadder-item: "rings_pack:ring_66"
   base:
-    lore-format: jewelry-lore
+    lore-format: jewelry-simple
     custom-maxsockets: 2.0
-    revision-id: 5
+    revision-id: 6
     material: PAPER
     custom-model-data: 19066
     name: "&f&l✧ Vòng Tay Bạch Long"

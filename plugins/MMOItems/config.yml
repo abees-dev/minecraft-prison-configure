@@ -96,7 +96,7 @@ item-upgrading:
 
     # Whether or not to display which
     # stats are changed in the lore.
-    display-stat-changes: false
+    display-stat-changes: true
     stat-change-suffix: ' &8(<p>#stat#&8)'
     stat-change-positive: '&a'
     stat-change-negative: '&c'

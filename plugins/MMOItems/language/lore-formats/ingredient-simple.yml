@@ -1,0 +1,6 @@
+# Lore mẫu tối giản cho nguyên liệu Prison.
+lore-format:
+  - "{bar}&r "
+  - "#lore#"
+  - "{sbar}&8&m──────────────────"
+  - "#tier#"

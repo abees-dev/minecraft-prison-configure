@@ -1,0 +1,18 @@
+# Lore mẫu gọn cho công cụ Prison.
+lore-format:
+  - "{bar}&r "
+  - "#custom-miningefficiency#"
+  - "#custom-miningfortune#"
+  - "#custom-miningunbreaking#"
+  - "#pickaxe-power#"
+  - "#autosmelt#"
+  - "#bouncing-crack#"
+  - "{bar}&r "
+  - "#custom-maxsockets#"
+  - "#gem-stones#"
+  - "#gem-stone-lore#"
+  - "{bar}&r "
+  - "#lore#"
+  - "{sbar}&8&m──────────────────"
+  - "#tier#"
+  - "#item-type#"

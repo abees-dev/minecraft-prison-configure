@@ -2,18 +2,18 @@ GACHA_DAGGER_GLOOMSTEEL_KNIFE:
   itemsadder-item: "fantasy_weapons:gloomsteel_knife"
   base:
     custom-maxsockets: 7.0
-    revision-id: 2
+    revision-id: 3
     material: IRON_SWORD
     custom-model-data: 10013
     name: "&5&lU Thiết Đoản Đao"
     max-durability: 20000
     tier: UNIQUE
     hide-enchants: true
-    lore-format: weapon-lore
+    lore-format: weapon-simple
     lore:
       - "&b&l✦ Vật Phẩm Độc Quyền"
-      - "&7 &5●&7 Đoản đao sát thủ rèn từ thép u hồn bóng tối"
-      - "&7 &5●&7 Tốc độ chém cực nhanh & khả năng chí mạng bộc phát"
+      - "&7 Đoản đao sát thủ rèn từ thép u hồn bóng tối"
+      - "&7 Tốc độ chém cực nhanh & khả năng chí mạng bộc phát"
     attack-damage: 42.0
     attack-speed: 2.2
     critical-strike-chance: 30.0
@@ -35,18 +35,18 @@ GACHA_DAGGER_RUNIC_PIERCER:
   itemsadder-item: "fantasy_weapons:runic_piercer"
   base:
     custom-maxsockets: 7.0
-    revision-id: 3
+    revision-id: 4
     material: IRON_SWORD
     custom-model-data: 10024
     name: "&e&lPhù Văn Trâm Kiếm"
     max-durability: 20000
     tier: UNIQUE
     hide-enchants: true
-    lore-format: weapon-lore
+    lore-format: weapon-simple
     lore:
       - "&b&l✦ Vật Phẩm Độc Quyền"
-      - "&7 &e●&7 Đoản kiếm đâm xuyên giáp khắc phù văn cổ"
-      - "&7 &e●&7 Tốc độ chém nhanh & xuyên thủng phòng thủ"
+      - "&7 Đoản kiếm đâm xuyên giáp khắc phù văn cổ"
+      - "&7 Tốc độ chém nhanh & xuyên thủng phòng thủ"
     attack-damage: 43.5
     attack-speed: 2.0
     critical-strike-chance: 26.0

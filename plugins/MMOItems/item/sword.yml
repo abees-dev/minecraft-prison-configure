@@ -1,17 +1,17 @@
 TEST_REVISION_SWORD:
-  revision-id: 6
+  revision-id: 7
   base:
     custom-maxsockets: 3.0
-    revision-id: 6
+    revision-id: 7
     material: IRON_SWORD
     name: "&c&l🧪 Kiếm Thử Nghiệm Revision (v5 - REVISION ROOT TEST)"
     hide-enchants: true
-    lore-format: weapon-lore
+    lore-format: weapon-simple
     lore:
       - "&c&l🧪 Revision Test v5"
-      - "&7 &c●&7 Phiên bản Revision ID: &e5"
-      - "&7 &c●&7 Tự động cập nhật Lore & Tên!"
-      - "&7 &c●&7 Sát thương: 150.0"
+      - "&7 Phiên bản Revision ID: &e5"
+      - "&7 Tự động cập nhật Lore & Tên!"
+      - "&7 Sát thương: 150.0"
     attack-damage: 150.0
     attack-speed: 1.6
     upgrade:
@@ -25,17 +25,16 @@ TEST_REVISION_SWORD:
 SWORD_TAN_BINH_1:
   base:
     custom-maxsockets: 1.0
-    revision-id: 2
+    revision-id: 3
     material: WOODEN_SWORD
     name: "&fKiếm Tân Binh &e&lI"
     max-durability: 500
     tier: TRASH
     hide-enchants: true
-    lore-format: weapon-lore
+    lore-format: weapon-simple
     lore:
-      - "&b&l✦ Tiểu Sử"
-      - "&7 &b●&7 Vũ khí cận chiến sắc bén của Tân Binh"
-      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng sát thương"
+      - "&7Kiếm cận chiến cân bằng cho Tân Binh."
+      - "&8Nâng cấp tại Lò Rèn Vũ Khí Tân Binh."
     attack-damage: 3.0
     attack-speed: 1.6
     critical-strike-chance: 1.0
@@ -49,17 +48,16 @@ SWORD_TAN_BINH_1:
 SWORD_TAN_BINH_2:
   base:
     custom-maxsockets: 1.0
-    revision-id: 2
+    revision-id: 3
     material: WOODEN_SWORD
     name: "&fKiếm Tân Binh &e&lII"
     max-durability: 500
     tier: TRASH
     hide-enchants: true
-    lore-format: weapon-lore
+    lore-format: weapon-simple
     lore:
-      - "&b&l✦ Tiểu Sử"
-      - "&7 &b●&7 Vũ khí cận chiến sắc bén của Tân Binh"
-      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng sát thương"
+      - "&7 Vũ khí cận chiến sắc bén của Tân Binh"
+      - "&7 Nâng cấp tại Lò Rèn để tăng sát thương"
     attack-damage: 3.4
     attack-speed: 1.6
     critical-strike-chance: 1.5
@@ -73,17 +71,16 @@ SWORD_TAN_BINH_2:
 SWORD_TAN_BINH_3:
   base:
     custom-maxsockets: 1.0
-    revision-id: 2
+    revision-id: 3
     material: WOODEN_SWORD
     name: "&fKiếm Tân Binh &e&lIII"
     max-durability: 500
     tier: TRASH
     hide-enchants: true
-    lore-format: weapon-lore
+    lore-format: weapon-simple
     lore:
-      - "&b&l✦ Tiểu Sử"
-      - "&7 &b●&7 Vũ khí cận chiến sắc bén của Tân Binh"
-      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng sát thương"
+      - "&7 Vũ khí cận chiến sắc bén của Tân Binh"
+      - "&7 Nâng cấp tại Lò Rèn để tăng sát thương"
     attack-damage: 3.8
     attack-speed: 1.6
     critical-strike-chance: 2.0
@@ -97,17 +94,16 @@ SWORD_TAN_BINH_3:
 SWORD_TAN_BINH_4:
   base:
     custom-maxsockets: 1.0
-    revision-id: 2
+    revision-id: 3
     material: WOODEN_SWORD
     name: "&fKiếm Tân Binh &e&lIV"
     max-durability: 500
     tier: TRASH
     hide-enchants: true
-    lore-format: weapon-lore
+    lore-format: weapon-simple
     lore:
-      - "&b&l✦ Tiểu Sử"
-      - "&7 &b●&7 Vũ khí cận chiến sắc bén của Tân Binh"
-      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng sát thương"
+      - "&7 Vũ khí cận chiến sắc bén của Tân Binh"
+      - "&7 Nâng cấp tại Lò Rèn để tăng sát thương"
     attack-damage: 4.1
     attack-speed: 1.6
     critical-strike-chance: 2.5
@@ -121,17 +117,16 @@ SWORD_TAN_BINH_4:
 SWORD_TAN_BINH_5:
   base:
     custom-maxsockets: 1.0
-    revision-id: 2
+    revision-id: 3
     material: WOODEN_SWORD
     name: "&fKiếm Tân Binh &e&lV"
     max-durability: 500
     tier: TRASH
     hide-enchants: true
-    lore-format: weapon-lore
+    lore-format: weapon-simple
     lore:
-      - "&b&l✦ Tiểu Sử"
-      - "&7 &b●&7 Vũ khí cận chiến sắc bén của Tân Binh"
-      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng sát thương"
+      - "&7 Vũ khí cận chiến sắc bén của Tân Binh"
+      - "&7 Nâng cấp tại Lò Rèn để tăng sát thương"
     attack-damage: 4.5
     attack-speed: 1.6
     critical-strike-chance: 3.0
@@ -145,17 +140,16 @@ SWORD_TAN_BINH_5:
 SWORD_TU_NHAN_1:
   base:
     custom-maxsockets: 2.0
-    revision-id: 2
+    revision-id: 3
     material: STONE_SWORD
     name: "&aKiếm Tù Nhân &e&lI"
     max-durability: 1000
     tier: COMMON
     hide-enchants: true
-    lore-format: weapon-lore
+    lore-format: weapon-simple
     lore:
-      - "&b&l✦ Tiểu Sử"
-      - "&7 &b●&7 Vũ khí cận chiến sắc bén của Tù Nhân"
-      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng sát thương"
+      - "&7 Vũ khí cận chiến sắc bén của Tù Nhân"
+      - "&7 Nâng cấp tại Lò Rèn để tăng sát thương"
     attack-damage: 5.0
     attack-speed: 1.6
     critical-strike-chance: 3.0
@@ -169,17 +163,16 @@ SWORD_TU_NHAN_1:
 SWORD_TU_NHAN_2:
   base:
     custom-maxsockets: 2.0
-    revision-id: 2
+    revision-id: 3
     material: STONE_SWORD
     name: "&aKiếm Tù Nhân &e&lII"
     max-durability: 1000
     tier: COMMON
     hide-enchants: true
-    lore-format: weapon-lore
+    lore-format: weapon-simple
     lore:
-      - "&b&l✦ Tiểu Sử"
-      - "&7 &b●&7 Vũ khí cận chiến sắc bén của Tù Nhân"
-      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng sát thương"
+      - "&7 Vũ khí cận chiến sắc bén của Tù Nhân"
+      - "&7 Nâng cấp tại Lò Rèn để tăng sát thương"
     attack-damage: 5.5
     attack-speed: 1.6
     critical-strike-chance: 3.5
@@ -193,17 +186,16 @@ SWORD_TU_NHAN_2:
 SWORD_TU_NHAN_3:
   base:
     custom-maxsockets: 2.0
-    revision-id: 2
+    revision-id: 3
     material: STONE_SWORD
     name: "&aKiếm Tù Nhân &e&lIII"
     max-durability: 1000
     tier: COMMON
     hide-enchants: true
-    lore-format: weapon-lore
+    lore-format: weapon-simple
     lore:
-      - "&b&l✦ Tiểu Sử"
-      - "&7 &b●&7 Vũ khí cận chiến sắc bén của Tù Nhân"
-      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng sát thương"
+      - "&7 Vũ khí cận chiến sắc bén của Tù Nhân"
+      - "&7 Nâng cấp tại Lò Rèn để tăng sát thương"
     attack-damage: 6.0
     attack-speed: 1.6
     critical-strike-chance: 4.0
@@ -217,17 +209,16 @@ SWORD_TU_NHAN_3:
 SWORD_TU_NHAN_4:
   base:
     custom-maxsockets: 2.0
-    revision-id: 2
+    revision-id: 3
     material: STONE_SWORD
     name: "&aKiếm Tù Nhân &e&lIV"
     max-durability: 1000
     tier: COMMON
     hide-enchants: true
-    lore-format: weapon-lore
+    lore-format: weapon-simple
     lore:
-      - "&b&l✦ Tiểu Sử"
-      - "&7 &b●&7 Vũ khí cận chiến sắc bén của Tù Nhân"
-      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng sát thương"
+      - "&7 Vũ khí cận chiến sắc bén của Tù Nhân"
+      - "&7 Nâng cấp tại Lò Rèn để tăng sát thương"
     attack-damage: 6.5
     attack-speed: 1.6
     critical-strike-chance: 4.5
@@ -241,17 +232,16 @@ SWORD_TU_NHAN_4:
 SWORD_TU_NHAN_5:
   base:
     custom-maxsockets: 2.0
-    revision-id: 2
+    revision-id: 3
     material: STONE_SWORD
     name: "&aKiếm Tù Nhân &e&lV"
     max-durability: 1000
     tier: COMMON
     hide-enchants: true
-    lore-format: weapon-lore
+    lore-format: weapon-simple
     lore:
-      - "&b&l✦ Tiểu Sử"
-      - "&7 &b●&7 Vũ khí cận chiến sắc bén của Tù Nhân"
-      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng sát thương"
+      - "&7 Vũ khí cận chiến sắc bén của Tù Nhân"
+      - "&7 Nâng cấp tại Lò Rèn để tăng sát thương"
     attack-damage: 7.0
     attack-speed: 1.6
     critical-strike-chance: 5.0
@@ -265,17 +255,16 @@ SWORD_TU_NHAN_5:
 SWORD_LAO_CONG_1:
   base:
     custom-maxsockets: 2.0
-    revision-id: 2
+    revision-id: 3
     material: IRON_SWORD
     name: "&bKiếm Lao Công &e&lI"
     max-durability: 2000
     tier: UNCOMMON
     hide-enchants: true
-    lore-format: weapon-lore
+    lore-format: weapon-simple
     lore:
-      - "&b&l✦ Tiểu Sử"
-      - "&7 &b●&7 Vũ khí cận chiến sắc bén của Lao Công"
-      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng sát thương"
+      - "&7 Vũ khí cận chiến sắc bén của Lao Công"
+      - "&7 Nâng cấp tại Lò Rèn để tăng sát thương"
     attack-damage: 7.5
     attack-speed: 1.6
     critical-strike-chance: 5.0
@@ -289,17 +278,16 @@ SWORD_LAO_CONG_1:
 SWORD_LAO_CONG_2:
   base:
     custom-maxsockets: 2.0
-    revision-id: 2
+    revision-id: 3
     material: IRON_SWORD
     name: "&bKiếm Lao Công &e&lII"
     max-durability: 2000
     tier: UNCOMMON
     hide-enchants: true
-    lore-format: weapon-lore
+    lore-format: weapon-simple
     lore:
-      - "&b&l✦ Tiểu Sử"
-      - "&7 &b●&7 Vũ khí cận chiến sắc bén của Lao Công"
-      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng sát thương"
+      - "&7 Vũ khí cận chiến sắc bén của Lao Công"
+      - "&7 Nâng cấp tại Lò Rèn để tăng sát thương"
     attack-damage: 8.1
     attack-speed: 1.6
     critical-strike-chance: 5.5
@@ -313,17 +301,16 @@ SWORD_LAO_CONG_2:
 SWORD_LAO_CONG_3:
   base:
     custom-maxsockets: 2.0
-    revision-id: 2
+    revision-id: 3
     material: IRON_SWORD
     name: "&bKiếm Lao Công &e&lIII"
     max-durability: 2000
     tier: UNCOMMON
     hide-enchants: true
-    lore-format: weapon-lore
+    lore-format: weapon-simple
     lore:
-      - "&b&l✦ Tiểu Sử"
-      - "&7 &b●&7 Vũ khí cận chiến sắc bén của Lao Công"
-      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng sát thương"
+      - "&7 Vũ khí cận chiến sắc bén của Lao Công"
+      - "&7 Nâng cấp tại Lò Rèn để tăng sát thương"
     attack-damage: 8.8
     attack-speed: 1.6
     critical-strike-chance: 6.0
@@ -337,17 +324,16 @@ SWORD_LAO_CONG_3:
 SWORD_LAO_CONG_4:
   base:
     custom-maxsockets: 2.0
-    revision-id: 2
+    revision-id: 3
     material: IRON_SWORD
     name: "&bKiếm Lao Công &e&lIV"
     max-durability: 2000
     tier: UNCOMMON
     hide-enchants: true
-    lore-format: weapon-lore
+    lore-format: weapon-simple
     lore:
-      - "&b&l✦ Tiểu Sử"
-      - "&7 &b●&7 Vũ khí cận chiến sắc bén của Lao Công"
-      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng sát thương"
+      - "&7 Vũ khí cận chiến sắc bén của Lao Công"
+      - "&7 Nâng cấp tại Lò Rèn để tăng sát thương"
     attack-damage: 9.4
     attack-speed: 1.6
     critical-strike-chance: 6.5
@@ -361,17 +347,16 @@ SWORD_LAO_CONG_4:
 SWORD_LAO_CONG_5:
   base:
     custom-maxsockets: 2.0
-    revision-id: 2
+    revision-id: 3
     material: IRON_SWORD
     name: "&bKiếm Lao Công &e&lV"
     max-durability: 2000
     tier: UNCOMMON
     hide-enchants: true
-    lore-format: weapon-lore
+    lore-format: weapon-simple
     lore:
-      - "&b&l✦ Tiểu Sử"
-      - "&7 &b●&7 Vũ khí cận chiến sắc bén của Lao Công"
-      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng sát thương"
+      - "&7 Vũ khí cận chiến sắc bén của Lao Công"
+      - "&7 Nâng cấp tại Lò Rèn để tăng sát thương"
     attack-damage: 10.0
     attack-speed: 1.6
     critical-strike-chance: 7.0
@@ -385,17 +370,16 @@ SWORD_LAO_CONG_5:
 SWORD_THO_DAO_1:
   base:
     custom-maxsockets: 3.0
-    revision-id: 2
+    revision-id: 3
     material: IRON_SWORD
     name: "&eKiếm Thợ Đào &e&lI"
     max-durability: 3000
     tier: RARE
     hide-enchants: true
-    lore-format: weapon-lore
+    lore-format: weapon-simple
     lore:
-      - "&b&l✦ Tiểu Sử"
-      - "&7 &b●&7 Vũ khí cận chiến sắc bén của Thợ Đào"
-      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng sát thương"
+      - "&7 Vũ khí cận chiến sắc bén của Thợ Đào"
+      - "&7 Nâng cấp tại Lò Rèn để tăng sát thương"
     attack-damage: 10.5
     attack-speed: 1.6
     critical-strike-chance: 8.0
@@ -409,17 +393,16 @@ SWORD_THO_DAO_1:
 SWORD_THO_DAO_2:
   base:
     custom-maxsockets: 3.0
-    revision-id: 2
+    revision-id: 3
     material: IRON_SWORD
     name: "&eKiếm Thợ Đào &e&lII"
     max-durability: 3000
     tier: RARE
     hide-enchants: true
-    lore-format: weapon-lore
+    lore-format: weapon-simple
     lore:
-      - "&b&l✦ Tiểu Sử"
-      - "&7 &b●&7 Vũ khí cận chiến sắc bén của Thợ Đào"
-      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng sát thương"
+      - "&7 Vũ khí cận chiến sắc bén của Thợ Đào"
+      - "&7 Nâng cấp tại Lò Rèn để tăng sát thương"
     attack-damage: 11.3
     attack-speed: 1.6
     critical-strike-chance: 8.5
@@ -433,17 +416,16 @@ SWORD_THO_DAO_2:
 SWORD_THO_DAO_3:
   base:
     custom-maxsockets: 3.0
-    revision-id: 2
+    revision-id: 3
     material: IRON_SWORD
     name: "&eKiếm Thợ Đào &e&lIII"
     max-durability: 3000
     tier: RARE
     hide-enchants: true
-    lore-format: weapon-lore
+    lore-format: weapon-simple
     lore:
-      - "&b&l✦ Tiểu Sử"
-      - "&7 &b●&7 Vũ khí cận chiến sắc bén của Thợ Đào"
-      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng sát thương"
+      - "&7 Vũ khí cận chiến sắc bén của Thợ Đào"
+      - "&7 Nâng cấp tại Lò Rèn để tăng sát thương"
     attack-damage: 12.0
     attack-speed: 1.6
     critical-strike-chance: 9.0
@@ -457,17 +439,16 @@ SWORD_THO_DAO_3:
 SWORD_THO_DAO_4:
   base:
     custom-maxsockets: 3.0
-    revision-id: 2
+    revision-id: 3
     material: IRON_SWORD
     name: "&eKiếm Thợ Đào &e&lIV"
     max-durability: 3000
     tier: RARE
     hide-enchants: true
-    lore-format: weapon-lore
+    lore-format: weapon-simple
     lore:
-      - "&b&l✦ Tiểu Sử"
-      - "&7 &b●&7 Vũ khí cận chiến sắc bén của Thợ Đào"
-      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng sát thương"
+      - "&7 Vũ khí cận chiến sắc bén của Thợ Đào"
+      - "&7 Nâng cấp tại Lò Rèn để tăng sát thương"
     attack-damage: 12.8
     attack-speed: 1.6
     critical-strike-chance: 9.5
@@ -481,17 +462,16 @@ SWORD_THO_DAO_4:
 SWORD_THO_DAO_5:
   base:
     custom-maxsockets: 3.0
-    revision-id: 2
+    revision-id: 3
     material: IRON_SWORD
     name: "&eKiếm Thợ Đào &e&lV"
     max-durability: 3000
     tier: RARE
     hide-enchants: true
-    lore-format: weapon-lore
+    lore-format: weapon-simple
     lore:
-      - "&b&l✦ Tiểu Sử"
-      - "&7 &b●&7 Vũ khí cận chiến sắc bén của Thợ Đào"
-      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng sát thương"
+      - "&7 Vũ khí cận chiến sắc bén của Thợ Đào"
+      - "&7 Nâng cấp tại Lò Rèn để tăng sát thương"
     attack-damage: 13.5
     attack-speed: 1.6
     critical-strike-chance: 10.0
@@ -505,17 +485,16 @@ SWORD_THO_DAO_5:
 SWORD_DOI_TRUONG_1:
   base:
     custom-maxsockets: 3.0
-    revision-id: 2
+    revision-id: 3
     material: DIAMOND_SWORD
     name: "&6Kiếm Đội Trưởng &e&lI"
     max-durability: 4500
     tier: VERY_RARE
     hide-enchants: true
-    lore-format: weapon-lore
+    lore-format: weapon-simple
     lore:
-      - "&b&l✦ Tiểu Sử"
-      - "&7 &b●&7 Vũ khí cận chiến sắc bén của Đội Trưởng"
-      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng sát thương"
+      - "&7 Vũ khí cận chiến sắc bén của Đội Trưởng"
+      - "&7 Nâng cấp tại Lò Rèn để tăng sát thương"
     attack-damage: 14.0
     attack-speed: 1.6
     critical-strike-chance: 10.0
@@ -530,17 +509,16 @@ SWORD_DOI_TRUONG_1:
 SWORD_DOI_TRUONG_2:
   base:
     custom-maxsockets: 3.0
-    revision-id: 2
+    revision-id: 3
     material: DIAMOND_SWORD
     name: "&6Kiếm Đội Trưởng &e&lII"
     max-durability: 4500
     tier: VERY_RARE
     hide-enchants: true
-    lore-format: weapon-lore
+    lore-format: weapon-simple
     lore:
-      - "&b&l✦ Tiểu Sử"
-      - "&7 &b●&7 Vũ khí cận chiến sắc bén của Đội Trưởng"
-      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng sát thương"
+      - "&7 Vũ khí cận chiến sắc bén của Đội Trưởng"
+      - "&7 Nâng cấp tại Lò Rèn để tăng sát thương"
     attack-damage: 15.0
     attack-speed: 1.6
     critical-strike-chance: 10.5
@@ -555,17 +533,16 @@ SWORD_DOI_TRUONG_2:
 SWORD_DOI_TRUONG_3:
   base:
     custom-maxsockets: 3.0
-    revision-id: 2
+    revision-id: 3
     material: DIAMOND_SWORD
     name: "&6Kiếm Đội Trưởng &e&lIII"
     max-durability: 4500
     tier: VERY_RARE
     hide-enchants: true
-    lore-format: weapon-lore
+    lore-format: weapon-simple
     lore:
-      - "&b&l✦ Tiểu Sử"
-      - "&7 &b●&7 Vũ khí cận chiến sắc bén của Đội Trưởng"
-      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng sát thương"
+      - "&7 Vũ khí cận chiến sắc bén của Đội Trưởng"
+      - "&7 Nâng cấp tại Lò Rèn để tăng sát thương"
     attack-damage: 16.0
     attack-speed: 1.6
     critical-strike-chance: 11.0
@@ -580,17 +557,16 @@ SWORD_DOI_TRUONG_3:
 SWORD_DOI_TRUONG_4:
   base:
     custom-maxsockets: 3.0
-    revision-id: 2
+    revision-id: 3
     material: DIAMOND_SWORD
     name: "&6Kiếm Đội Trưởng &e&lIV"
     max-durability: 4500
     tier: VERY_RARE
     hide-enchants: true
-    lore-format: weapon-lore
+    lore-format: weapon-simple
     lore:
-      - "&b&l✦ Tiểu Sử"
-      - "&7 &b●&7 Vũ khí cận chiến sắc bén của Đội Trưởng"
-      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng sát thương"
+      - "&7 Vũ khí cận chiến sắc bén của Đội Trưởng"
+      - "&7 Nâng cấp tại Lò Rèn để tăng sát thương"
     attack-damage: 17.0
     attack-speed: 1.6
     critical-strike-chance: 11.5
@@ -605,17 +581,16 @@ SWORD_DOI_TRUONG_4:
 SWORD_DOI_TRUONG_5:
   base:
     custom-maxsockets: 3.0
-    revision-id: 2
+    revision-id: 3
     material: DIAMOND_SWORD
     name: "&6Kiếm Đội Trưởng &e&lV"
     max-durability: 4500
     tier: VERY_RARE
     hide-enchants: true
-    lore-format: weapon-lore
+    lore-format: weapon-simple
     lore:
-      - "&b&l✦ Tiểu Sử"
-      - "&7 &b●&7 Vũ khí cận chiến sắc bén của Đội Trưởng"
-      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng sát thương"
+      - "&7 Vũ khí cận chiến sắc bén của Đội Trưởng"
+      - "&7 Nâng cấp tại Lò Rèn để tăng sát thương"
     attack-damage: 18.0
     attack-speed: 1.6
     critical-strike-chance: 12.0
@@ -630,17 +605,16 @@ SWORD_DOI_TRUONG_5:
 SWORD_PHO_QUAN_NGUC_1:
   base:
     custom-maxsockets: 4.0
-    revision-id: 2
+    revision-id: 3
     material: DIAMOND_SWORD
     name: "&cKiếm Phó Quản Ngục &e&lI"
     max-durability: 6000
     tier: EPIC
     hide-enchants: true
-    lore-format: weapon-lore
+    lore-format: weapon-simple
     lore:
-      - "&b&l✦ Tiểu Sử"
-      - "&7 &b●&7 Vũ khí cận chiến sắc bén của Phó Quản Ngục"
-      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng sát thương"
+      - "&7 Vũ khí cận chiến sắc bén của Phó Quản Ngục"
+      - "&7 Nâng cấp tại Lò Rèn để tăng sát thương"
     attack-damage: 18.5
     attack-speed: 1.6
     critical-strike-chance: 12.0
@@ -655,17 +629,16 @@ SWORD_PHO_QUAN_NGUC_1:
 SWORD_PHO_QUAN_NGUC_2:
   base:
     custom-maxsockets: 4.0
-    revision-id: 2
+    revision-id: 3
     material: DIAMOND_SWORD
     name: "&cKiếm Phó Quản Ngục &e&lII"
     max-durability: 6000
     tier: EPIC
     hide-enchants: true
-    lore-format: weapon-lore
+    lore-format: weapon-simple
     lore:
-      - "&b&l✦ Tiểu Sử"
-      - "&7 &b●&7 Vũ khí cận chiến sắc bén của Phó Quản Ngục"
-      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng sát thương"
+      - "&7 Vũ khí cận chiến sắc bén của Phó Quản Ngục"
+      - "&7 Nâng cấp tại Lò Rèn để tăng sát thương"
     attack-damage: 19.8
     attack-speed: 1.6
     critical-strike-chance: 12.5
@@ -680,17 +653,16 @@ SWORD_PHO_QUAN_NGUC_2:
 SWORD_PHO_QUAN_NGUC_3:
   base:
     custom-maxsockets: 4.0
-    revision-id: 2
+    revision-id: 3
     material: DIAMOND_SWORD
     name: "&cKiếm Phó Quản Ngục &e&lIII"
     max-durability: 6000
     tier: EPIC
     hide-enchants: true
-    lore-format: weapon-lore
+    lore-format: weapon-simple
     lore:
-      - "&b&l✦ Tiểu Sử"
-      - "&7 &b●&7 Vũ khí cận chiến sắc bén của Phó Quản Ngục"
-      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng sát thương"
+      - "&7 Vũ khí cận chiến sắc bén của Phó Quản Ngục"
+      - "&7 Nâng cấp tại Lò Rèn để tăng sát thương"
     attack-damage: 21.0
     attack-speed: 1.6
     critical-strike-chance: 13.0
@@ -705,17 +677,16 @@ SWORD_PHO_QUAN_NGUC_3:
 SWORD_PHO_QUAN_NGUC_4:
   base:
     custom-maxsockets: 4.0
-    revision-id: 2
+    revision-id: 3
     material: DIAMOND_SWORD
     name: "&cKiếm Phó Quản Ngục &e&lIV"
     max-durability: 6000
     tier: EPIC
     hide-enchants: true
-    lore-format: weapon-lore
+    lore-format: weapon-simple
     lore:
-      - "&b&l✦ Tiểu Sử"
-      - "&7 &b●&7 Vũ khí cận chiến sắc bén của Phó Quản Ngục"
-      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng sát thương"
+      - "&7 Vũ khí cận chiến sắc bén của Phó Quản Ngục"
+      - "&7 Nâng cấp tại Lò Rèn để tăng sát thương"
     attack-damage: 22.3
     attack-speed: 1.6
     critical-strike-chance: 13.5
@@ -730,17 +701,16 @@ SWORD_PHO_QUAN_NGUC_4:
 SWORD_PHO_QUAN_NGUC_5:
   base:
     custom-maxsockets: 4.0
-    revision-id: 2
+    revision-id: 3
     material: DIAMOND_SWORD
     name: "&cKiếm Phó Quản Ngục &e&lV"
     max-durability: 6000
     tier: EPIC
     hide-enchants: true
-    lore-format: weapon-lore
+    lore-format: weapon-simple
     lore:
-      - "&b&l✦ Tiểu Sử"
-      - "&7 &b●&7 Vũ khí cận chiến sắc bén của Phó Quản Ngục"
-      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng sát thương"
+      - "&7 Vũ khí cận chiến sắc bén của Phó Quản Ngục"
+      - "&7 Nâng cấp tại Lò Rèn để tăng sát thương"
     attack-damage: 23.5
     attack-speed: 1.6
     critical-strike-chance: 14.0
@@ -755,17 +725,16 @@ SWORD_PHO_QUAN_NGUC_5:
 SWORD_QUAN_NGUC_1:
   base:
     custom-maxsockets: 5.0
-    revision-id: 2
+    revision-id: 3
     material: NETHERITE_SWORD
     name: "&dKiếm Quản Ngục &e&lI"
     max-durability: 8000
     tier: LEGENDARY
     hide-enchants: true
-    lore-format: weapon-lore
+    lore-format: weapon-simple
     lore:
-      - "&b&l✦ Tiểu Sử"
-      - "&7 &b●&7 Vũ khí cận chiến sắc bén của Quản Ngục"
-      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng sát thương"
+      - "&7 Vũ khí cận chiến sắc bén của Quản Ngục"
+      - "&7 Nâng cấp tại Lò Rèn để tăng sát thương"
     attack-damage: 24.0
     attack-speed: 1.6
     critical-strike-chance: 15.0
@@ -780,17 +749,16 @@ SWORD_QUAN_NGUC_1:
 SWORD_QUAN_NGUC_2:
   base:
     custom-maxsockets: 5.0
-    revision-id: 2
+    revision-id: 3
     material: NETHERITE_SWORD
     name: "&dKiếm Quản Ngục &e&lII"
     max-durability: 8000
     tier: LEGENDARY
     hide-enchants: true
-    lore-format: weapon-lore
+    lore-format: weapon-simple
     lore:
-      - "&b&l✦ Tiểu Sử"
-      - "&7 &b●&7 Vũ khí cận chiến sắc bén của Quản Ngục"
-      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng sát thương"
+      - "&7 Vũ khí cận chiến sắc bén của Quản Ngục"
+      - "&7 Nâng cấp tại Lò Rèn để tăng sát thương"
     attack-damage: 25.5
     attack-speed: 1.6
     critical-strike-chance: 15.5
@@ -805,17 +773,16 @@ SWORD_QUAN_NGUC_2:
 SWORD_QUAN_NGUC_3:
   base:
     custom-maxsockets: 5.0
-    revision-id: 2
+    revision-id: 3
     material: NETHERITE_SWORD
     name: "&dKiếm Quản Ngục &e&lIII"
     max-durability: 8000
     tier: LEGENDARY
     hide-enchants: true
-    lore-format: weapon-lore
+    lore-format: weapon-simple
     lore:
-      - "&b&l✦ Tiểu Sử"
-      - "&7 &b●&7 Vũ khí cận chiến sắc bén của Quản Ngục"
-      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng sát thương"
+      - "&7 Vũ khí cận chiến sắc bén của Quản Ngục"
+      - "&7 Nâng cấp tại Lò Rèn để tăng sát thương"
     attack-damage: 27.0
     attack-speed: 1.6
     critical-strike-chance: 16.0
@@ -830,17 +797,16 @@ SWORD_QUAN_NGUC_3:
 SWORD_QUAN_NGUC_4:
   base:
     custom-maxsockets: 5.0
-    revision-id: 2
+    revision-id: 3
     material: NETHERITE_SWORD
     name: "&dKiếm Quản Ngục &e&lIV"
     max-durability: 8000
     tier: LEGENDARY
     hide-enchants: true
-    lore-format: weapon-lore
+    lore-format: weapon-simple
     lore:
-      - "&b&l✦ Tiểu Sử"
-      - "&7 &b●&7 Vũ khí cận chiến sắc bén của Quản Ngục"
-      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng sát thương"
+      - "&7 Vũ khí cận chiến sắc bén của Quản Ngục"
+      - "&7 Nâng cấp tại Lò Rèn để tăng sát thương"
     attack-damage: 28.5
     attack-speed: 1.6
     critical-strike-chance: 16.5
@@ -855,17 +821,16 @@ SWORD_QUAN_NGUC_4:
 SWORD_QUAN_NGUC_5:
   base:
     custom-maxsockets: 5.0
-    revision-id: 2
+    revision-id: 3
     material: NETHERITE_SWORD
     name: "&dKiếm Quản Ngục &e&lV"
     max-durability: 8000
     tier: LEGENDARY
     hide-enchants: true
-    lore-format: weapon-lore
+    lore-format: weapon-simple
     lore:
-      - "&b&l✦ Tiểu Sử"
-      - "&7 &b●&7 Vũ khí cận chiến sắc bén của Quản Ngục"
-      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng sát thương"
+      - "&7 Vũ khí cận chiến sắc bén của Quản Ngục"
+      - "&7 Nâng cấp tại Lò Rèn để tăng sát thương"
     attack-damage: 30.0
     attack-speed: 1.6
     critical-strike-chance: 17.0
@@ -880,17 +845,16 @@ SWORD_QUAN_NGUC_5:
 SWORD_BA_CHU_NGUC_TU_1:
   base:
     custom-maxsockets: 6.0
-    revision-id: 2
+    revision-id: 3
     material: NETHERITE_SWORD
     name: "&5Kiếm Bá Chủ Ngục Tù &e&lI"
     max-durability: 10000
     tier: MYTHICAL
     hide-enchants: true
-    lore-format: weapon-lore
+    lore-format: weapon-simple
     lore:
-      - "&b&l✦ Tiểu Sử"
-      - "&7 &b●&7 Vũ khí cận chiến sắc bén của Bá Chủ Ngục Tù"
-      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng sát thương"
+      - "&7 Vũ khí cận chiến sắc bén của Bá Chủ Ngục Tù"
+      - "&7 Nâng cấp tại Lò Rèn để tăng sát thương"
     attack-damage: 31.0
     attack-speed: 1.6
     critical-strike-chance: 18.0
@@ -905,17 +869,16 @@ SWORD_BA_CHU_NGUC_TU_1:
 SWORD_BA_CHU_NGUC_TU_2:
   base:
     custom-maxsockets: 6.0
-    revision-id: 2
+    revision-id: 3
     material: NETHERITE_SWORD
     name: "&5Kiếm Bá Chủ Ngục Tù &e&lII"
     max-durability: 10000
     tier: MYTHICAL
     hide-enchants: true
-    lore-format: weapon-lore
+    lore-format: weapon-simple
     lore:
-      - "&b&l✦ Tiểu Sử"
-      - "&7 &b●&7 Vũ khí cận chiến sắc bén của Bá Chủ Ngục Tù"
-      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng sát thương"
+      - "&7 Vũ khí cận chiến sắc bén của Bá Chủ Ngục Tù"
+      - "&7 Nâng cấp tại Lò Rèn để tăng sát thương"
     attack-damage: 32.8
     attack-speed: 1.6
     critical-strike-chance: 18.5
@@ -930,17 +893,16 @@ SWORD_BA_CHU_NGUC_TU_2:
 SWORD_BA_CHU_NGUC_TU_3:
   base:
     custom-maxsockets: 6.0
-    revision-id: 2
+    revision-id: 3
     material: NETHERITE_SWORD
     name: "&5Kiếm Bá Chủ Ngục Tù &e&lIII"
     max-durability: 10000
     tier: MYTHICAL
     hide-enchants: true
-    lore-format: weapon-lore
+    lore-format: weapon-simple
     lore:
-      - "&b&l✦ Tiểu Sử"
-      - "&7 &b●&7 Vũ khí cận chiến sắc bén của Bá Chủ Ngục Tù"
-      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng sát thương"
+      - "&7 Vũ khí cận chiến sắc bén của Bá Chủ Ngục Tù"
+      - "&7 Nâng cấp tại Lò Rèn để tăng sát thương"
     attack-damage: 34.5
     attack-speed: 1.6
     critical-strike-chance: 19.0
@@ -955,17 +917,16 @@ SWORD_BA_CHU_NGUC_TU_3:
 SWORD_BA_CHU_NGUC_TU_4:
   base:
     custom-maxsockets: 6.0
-    revision-id: 2
+    revision-id: 3
     material: NETHERITE_SWORD
     name: "&5Kiếm Bá Chủ Ngục Tù &e&lIV"
     max-durability: 10000
     tier: MYTHICAL
     hide-enchants: true
-    lore-format: weapon-lore
+    lore-format: weapon-simple
     lore:
-      - "&b&l✦ Tiểu Sử"
-      - "&7 &b●&7 Vũ khí cận chiến sắc bén của Bá Chủ Ngục Tù"
-      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng sát thương"
+      - "&7 Vũ khí cận chiến sắc bén của Bá Chủ Ngục Tù"
+      - "&7 Nâng cấp tại Lò Rèn để tăng sát thương"
     attack-damage: 36.3
     attack-speed: 1.6
     critical-strike-chance: 19.5
@@ -980,17 +941,16 @@ SWORD_BA_CHU_NGUC_TU_4:
 SWORD_BA_CHU_NGUC_TU_5:
   base:
     custom-maxsockets: 6.0
-    revision-id: 2
+    revision-id: 3
     material: NETHERITE_SWORD
     name: "&5Kiếm Bá Chủ Ngục Tù &e&lV"
     max-durability: 10000
     tier: MYTHICAL
     hide-enchants: true
-    lore-format: weapon-lore
+    lore-format: weapon-simple
     lore:
-      - "&b&l✦ Tiểu Sử"
-      - "&7 &b●&7 Vũ khí cận chiến sắc bén của Bá Chủ Ngục Tù"
-      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng sát thương"
+      - "&7 Vũ khí cận chiến sắc bén của Bá Chủ Ngục Tù"
+      - "&7 Nâng cấp tại Lò Rèn để tăng sát thương"
     attack-damage: 38.0
     attack-speed: 1.6
     critical-strike-chance: 20.0
@@ -1005,17 +965,16 @@ SWORD_BA_CHU_NGUC_TU_5:
 SWORD_VUOT_NGUC_1:
   base:
     custom-maxsockets: 7.0
-    revision-id: 2
+    revision-id: 3
     material: NETHERITE_SWORD
     name: "&4Kiếm Vượt Ngục &e&lI"
     max-durability: 15000
     tier: UNIQUE
     hide-enchants: true
-    lore-format: weapon-lore
+    lore-format: weapon-simple
     lore:
-      - "&b&l✦ Tiểu Sử"
-      - "&7 &b●&7 Vũ khí cận chiến sắc bén của Vượt Ngục"
-      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng sát thương"
+      - "&7 Vũ khí cận chiến sắc bén của Vượt Ngục"
+      - "&7 Nâng cấp tại Lò Rèn để tăng sát thương"
     attack-damage: 39.0
     attack-speed: 1.6
     critical-strike-chance: 20.0
@@ -1030,17 +989,16 @@ SWORD_VUOT_NGUC_1:
 SWORD_VUOT_NGUC_2:
   base:
     custom-maxsockets: 7.0
-    revision-id: 2
+    revision-id: 3
     material: NETHERITE_SWORD
     name: "&4Kiếm Vượt Ngục &e&lII"
     max-durability: 15000
     tier: UNIQUE
     hide-enchants: true
-    lore-format: weapon-lore
+    lore-format: weapon-simple
     lore:
-      - "&b&l✦ Tiểu Sử"
-      - "&7 &b●&7 Vũ khí cận chiến sắc bén của Vượt Ngục"
-      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng sát thương"
+      - "&7 Vũ khí cận chiến sắc bén của Vượt Ngục"
+      - "&7 Nâng cấp tại Lò Rèn để tăng sát thương"
     attack-damage: 41.3
     attack-speed: 1.6
     critical-strike-chance: 20.5
@@ -1055,17 +1013,16 @@ SWORD_VUOT_NGUC_2:
 SWORD_VUOT_NGUC_3:
   base:
     custom-maxsockets: 7.0
-    revision-id: 2
+    revision-id: 3
     material: NETHERITE_SWORD
     name: "&4Kiếm Vượt Ngục &e&lIII"
     max-durability: 15000
     tier: UNIQUE
     hide-enchants: true
-    lore-format: weapon-lore
+    lore-format: weapon-simple
     lore:
-      - "&b&l✦ Tiểu Sử"
-      - "&7 &b●&7 Vũ khí cận chiến sắc bén của Vượt Ngục"
-      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng sát thương"
+      - "&7 Vũ khí cận chiến sắc bén của Vượt Ngục"
+      - "&7 Nâng cấp tại Lò Rèn để tăng sát thương"
     attack-damage: 43.5
     attack-speed: 1.6
     critical-strike-chance: 21.0
@@ -1080,17 +1037,16 @@ SWORD_VUOT_NGUC_3:
 SWORD_VUOT_NGUC_4:
   base:
     custom-maxsockets: 7.0
-    revision-id: 2
+    revision-id: 3
     material: NETHERITE_SWORD
     name: "&4Kiếm Vượt Ngục &e&lIV"
     max-durability: 15000
     tier: UNIQUE
     hide-enchants: true
-    lore-format: weapon-lore
+    lore-format: weapon-simple
     lore:
-      - "&b&l✦ Tiểu Sử"
-      - "&7 &b●&7 Vũ khí cận chiến sắc bén của Vượt Ngục"
-      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng sát thương"
+      - "&7 Vũ khí cận chiến sắc bén của Vượt Ngục"
+      - "&7 Nâng cấp tại Lò Rèn để tăng sát thương"
     attack-damage: 45.8
     attack-speed: 1.6
     critical-strike-chance: 21.5
@@ -1105,17 +1061,16 @@ SWORD_VUOT_NGUC_4:
 SWORD_VUOT_NGUC_5:
   base:
     custom-maxsockets: 7.0
-    revision-id: 2
+    revision-id: 3
     material: NETHERITE_SWORD
     name: "&4Kiếm Vượt Ngục &e&lV"
     max-durability: 15000
     tier: UNIQUE
     hide-enchants: true
-    lore-format: weapon-lore
+    lore-format: weapon-simple
     lore:
-      - "&b&l✦ Tiểu Sử"
-      - "&7 &b●&7 Vũ khí cận chiến sắc bén của Vượt Ngục"
-      - "&7 &b●&7 Nâng cấp tại Lò Rèn để tăng sát thương"
+      - "&7 Vũ khí cận chiến sắc bén của Vượt Ngục"
+      - "&7 Nâng cấp tại Lò Rèn để tăng sát thương"
     attack-damage: 48.0
     attack-speed: 1.6
     critical-strike-chance: 22.0
@@ -1131,18 +1086,18 @@ GACHA_SWORD_AMETHYST:
   itemsadder-item: "fantasy_weapons:amethyst_greatblade"
   base:
     custom-maxsockets: 7.0
-    revision-id: 2
+    revision-id: 3
     material: IRON_SWORD
     custom-model-data: 10000
     name: "&5&lThạch Anh Tím Đại Kiếm"
     max-durability: 20000
     tier: UNIQUE
     hide-enchants: true
-    lore-format: weapon-lore
+    lore-format: weapon-simple
     lore:
       - "&b&l✦ Vật Phẩm Độc Quyền"
-      - "&7 &5●&7 Đại kiếm rèn từ tinh thể thạch anh tím cổ xưa"
-      - "&7 &5●&7 Tỷ lệ chí mạng & sát thương bộc phát cực mạnh"
+      - "&7 Đại kiếm rèn từ tinh thể thạch anh tím cổ xưa"
+      - "&7 Tỷ lệ chí mạng & sát thương bộc phát cực mạnh"
     attack-damage: 53.0
     attack-speed: 1.6
     critical-strike-chance: 26.0
@@ -1164,18 +1119,18 @@ GACHA_SWORD_PHANTOMGUARD:
   itemsadder-item: "fantasy_weapons:phantomguard_greatsword"
   base:
     custom-maxsockets: 7.0
-    revision-id: 2
+    revision-id: 3
     material: IRON_SWORD
     custom-model-data: 10001
     name: "&b&lU Hồn Vệ Kiếm"
     max-durability: 20000
     tier: UNIQUE
     hide-enchants: true
-    lore-format: weapon-lore
+    lore-format: weapon-simple
     lore:
       - "&b&l✦ Vật Phẩm Độc Quyền"
-      - "&7 &b●&7 Đại kiếm linh hồn bảo hộ chủ nhân khỏi hiểm nguy"
-      - "&7 &b●&7 Gia tăng lượng lớn máu tối đa và chỉ số phòng thủ"
+      - "&7 Đại kiếm linh hồn bảo hộ chủ nhân khỏi hiểm nguy"
+      - "&7 Gia tăng lượng lớn máu tối đa và chỉ số phòng thủ"
     attack-damage: 52.0
     attack-speed: 1.6
     defense: 9.0
@@ -1198,18 +1153,18 @@ GACHA_SWORD_VALHAKYRA:
   itemsadder-item: "fantasy_weapons:valhakyra"
   base:
     custom-maxsockets: 7.0
-    revision-id: 3
+    revision-id: 4
     material: IRON_SWORD
     custom-model-data: 10003
     name: "&e&lThần Kiếm Valhakyra"
     max-durability: 20000
     tier: UNIQUE
     hide-enchants: true
-    lore-format: weapon-lore
+    lore-format: weapon-simple
     lore:
       - "&b&l✦ Vật Phẩm Độc Quyền"
-      - "&7 &e●&7 Thánh kiếm huyền thoại của tộc chiến thần"
-      - "&7 &e●&7 Tốc độ vung kiếm xé gió và khả năng xuyên giáp"
+      - "&7 Thánh kiếm huyền thoại của tộc chiến thần"
+      - "&7 Tốc độ vung kiếm xé gió và khả năng xuyên giáp"
     attack-damage: 53.5
     attack-speed: 1.8
     critical-strike-chance: 24.0
@@ -1230,18 +1185,18 @@ GACHA_SWORD_CRYSTAL_FROST:
   itemsadder-item: "fantasy_weapons:crystal_frostblade"
   base:
     custom-maxsockets: 7.0
-    revision-id: 2
+    revision-id: 3
     material: IRON_SWORD
     custom-model-data: 10008
     name: "&3&lBăng Tinh Thần Kiếm"
     max-durability: 20000
     tier: UNIQUE
     hide-enchants: true
-    lore-format: weapon-lore
+    lore-format: weapon-simple
     lore:
       - "&b&l✦ Vật Phẩm Độc Quyền"
-      - "&7 &3●&7 Kiếm tinh thể hàn băng tỏa hơi lạnh ngàn năm"
-      - "&7 &3●&7 Đột phá sát thương vật lý bộc phát"
+      - "&7 Kiếm tinh thể hàn băng tỏa hơi lạnh ngàn năm"
+      - "&7 Đột phá sát thương vật lý bộc phát"
     attack-damage: 54.0
     attack-speed: 1.6
     critical-strike-chance: 22.0
@@ -1263,18 +1218,18 @@ GACHA_SWORD_DEMONS_BLOOD:
   itemsadder-item: "fantasy_weapons:demons_blood_blade"
   base:
     custom-maxsockets: 7.0
-    revision-id: 3
+    revision-id: 4
     material: IRON_SWORD
     custom-model-data: 10016
     name: "&c&lHuyết Ma Diệt Thần Kiếm"
     max-durability: 20000
     tier: UNIQUE
     hide-enchants: true
-    lore-format: weapon-lore
+    lore-format: weapon-simple
     lore:
       - "&b&l✦ Vật Phẩm Độc Quyền"
-      - "&7 &c●&7 Ma kiếm tôi luyện trong máu quỷ dữ"
-      - "&7 &c●&7 Gia tăng sát thương nguyên tố Hỏa bộc phá"
+      - "&7 Ma kiếm tôi luyện trong máu quỷ dữ"
+      - "&7 Gia tăng sát thương nguyên tố Hỏa bộc phá"
     attack-damage: 54.5
     attack-speed: 1.6
     critical-strike-chance: 25.0
@@ -1295,18 +1250,18 @@ GACHA_SWORD_MOONLIGHT:
   itemsadder-item: "fantasy_weapons:moonlight"
   base:
     custom-maxsockets: 7.0
-    revision-id: 2
+    revision-id: 3
     material: IRON_SWORD
     custom-model-data: 10018
     name: "&9&lMinh Nguyệt Quang Kiếm"
     max-durability: 20000
     tier: UNIQUE
     hide-enchants: true
-    lore-format: weapon-lore
+    lore-format: weapon-simple
     lore:
       - "&b&l✦ Vật Phẩm Độc Quyền"
-      - "&7 &9●&7 Kiếm tỏa ánh trăng rực rỡ huyền ảo"
-      - "&7 &9●&7 Tỷ lệ chí mạng & nhát chém chí mạng bạo phát"
+      - "&7 Kiếm tỏa ánh trăng rực rỡ huyền ảo"
+      - "&7 Tỷ lệ chí mạng & nhát chém chí mạng bạo phát"
     attack-damage: 52.5
     attack-speed: 1.7
     critical-strike-chance: 28.0
@@ -1332,18 +1287,18 @@ DONATE_SWORD_LONG_VE:
   itemsadder-item: "littledragonset:littledragon_sword"
   base:
     custom-maxsockets: 5.0
-    revision-id: 2
+    revision-id: 3
     material: IRON_SWORD
     custom-model-data: 10191
     name: "&a&l✦ Hộ Long Bảo Kiếm"
     max-durability: 20000
     tier: LEGENDARY
     hide-enchants: true
-    lore-format: weapon-lore
+    lore-format: weapon-simple
     lore:
       - "&a&l✦ Long Tộc Thiên Giới"
-      - "&7 &a●&7 Bảo kiếm rèn từ Vảy Rồng Hộ Vệ"
-      - "&7 &a●&7 Tỏa sáng bảo hộ, che chở người sở hữu"
+      - "&7 Bảo kiếm rèn từ Vảy Rồng Hộ Vệ"
+      - "&7 Tỏa sáng bảo hộ, che chở người sở hữu"
     attack-damage: 63.0
     attack-speed: 1.6
     critical-strike-chance: 26.0
@@ -1359,18 +1314,18 @@ DONATE_SWORD_LONG_CHIEN:
   itemsadder-item: "spartan_set:spartan_sword"
   base:
     custom-maxsockets: 6.0
-    revision-id: 2
+    revision-id: 3
     material: IRON_SWORD
     custom-model-data: 10086
     name: "&e&l⚔ Chiến Long Cuồng Kiếm"
     max-durability: 20000
     tier: MYTHICAL
     hide-enchants: true
-    lore-format: weapon-lore
+    lore-format: weapon-simple
     lore:
       - "&e&l⚔ Long Tộc Thiên Giới"
-      - "&7 &e●&7 Cuồng kiếm hun đúc từ Nanh Rồng Chiến"
-      - "&7 &e●&7 Mỗi nhát chém mang theo sấm sét long trời"
+      - "&7 Cuồng kiếm hun đúc từ Nanh Rồng Chiến"
+      - "&7 Mỗi nhát chém mang theo sấm sét long trời"
     attack-damage: 73.0
     attack-speed: 1.7
     critical-strike-chance: 28.0
@@ -1386,18 +1341,18 @@ DONATE_SWORD_LONG_THAN:
   itemsadder-item: "azureset:azure_sword"
   base:
     custom-maxsockets: 6.0
-    revision-id: 2
+    revision-id: 3
     material: IRON_SWORD
     custom-model-data: 10122
     name: "&b&l✦ Thần Long Thánh Kiếm"
     max-durability: 20000
     tier: MYTHICAL
     hide-enchants: true
-    lore-format: weapon-lore
+    lore-format: weapon-simple
     lore:
       - "&b&l✦ Long Tộc Thiên Giới"
-      - "&7 &b●&7 Thánh kiếm ngưng tụ từ Tinh Hoa Long Thần"
-      - "&7 &b●&7 Lưỡi kiếm chém xuyên không gian, phá vỡ mọi phòng ngự"
+      - "&7 Thánh kiếm ngưng tụ từ Tinh Hoa Long Thần"
+      - "&7 Lưỡi kiếm chém xuyên không gian, phá vỡ mọi phòng ngự"
     attack-damage: 85.0
     attack-speed: 1.75
     critical-strike-chance: 31.0
@@ -1413,18 +1368,18 @@ DONATE_SWORD_LONG_DE:
   itemsadder-item: "demon_edgeset:demon_edge_sword"
   base:
     custom-maxsockets: 7.0
-    revision-id: 2
+    revision-id: 3
     material: IRON_SWORD
     custom-model-data: 10177
     name: "&4&l◆ Đế Long Diệt Kiếm"
     max-durability: 20000
     tier: UNIQUE
     hide-enchants: true
-    lore-format: weapon-lore
+    lore-format: weapon-simple
     lore:
       - "&4&l◆ Long Tộc Thiên Giới"
-      - "&7 &4●&7 Diệt kiếm tôi luyện trong Hỏa Ngục Rồng Đế"
-      - "&7 &4●&7 Mang sức hủy diệt khiến vạn vật phải quỳ phục"
+      - "&7 Diệt kiếm tôi luyện trong Hỏa Ngục Rồng Đế"
+      - "&7 Mang sức hủy diệt khiến vạn vật phải quỳ phục"
     attack-damage: 100.0
     attack-speed: 1.8
     critical-strike-chance: 35.0
@@ -1440,18 +1395,18 @@ DONATE_SWORD_LONG_HOANG:
   itemsadder-item: "lunarset:lunar_sword"
   base:
     custom-maxsockets: 7.0
-    revision-id: 3
+    revision-id: 4
     material: IRON_SWORD
     custom-model-data: 10034
     name: "&c&l★ Hoàng Long Thiên Kiếm"
     max-durability: 20000
     tier: UNIQUE
     hide-enchants: true
-    lore-format: weapon-lore
+    lore-format: weapon-simple
     lore:
       - "&c&l★ Huyền Thoại Long Tộc"
-      - "&7 &c●&7 Bảo kiếm tối thượng rèn từ Vảy Rồng Hoàng Kim"
-      - "&7 &c●&7 Sức mạnh xé trời, phá đất, vô song thiên hạ"
+      - "&7 Bảo kiếm tối thượng rèn từ Vảy Rồng Hoàng Kim"
+      - "&7 Sức mạnh xé trời, phá đất, vô song thiên hạ"
     attack-damage: 118.0
     attack-speed: 1.85
     critical-strike-chance: 40.0
@@ -1471,18 +1426,18 @@ TRADE_SWORD_HOA_LONG:
   itemsadder-item: "fantasy_weapons:calamity_blade"
   base:
     custom-maxsockets: 3.0
-    revision-id: 2
+    revision-id: 3
     material: IRON_SWORD
     custom-model-data: 10015
     name: "&6✦ Hỏa Long Kiếm"
     max-durability: 18000
     tier: RARE
     hide-enchants: true
-    lore-format: weapon-lore
+    lore-format: weapon-simple
     lore:
       - "&6✦ Long Tộc Trần Thế"
-      - "&7 &6●&7 Kiếm rèn từ ngọn lửa Hỏa Long cổ đại"
-      - "&7 &6●&7 Mỗi nhát chém bùng cháy như dung nham"
+      - "&7 Kiếm rèn từ ngọn lửa Hỏa Long cổ đại"
+      - "&7 Mỗi nhát chém bùng cháy như dung nham"
     attack-damage: 55.0
     attack-speed: 1.6
     critical-strike-chance: 24.0
@@ -1498,18 +1453,18 @@ TRADE_SWORD_BANG_LONG:
   itemsadder-item: "fantasy_weapons:crystal_frostblade"
   base:
     custom-maxsockets: 4.0
-    revision-id: 2
+    revision-id: 3
     material: IRON_SWORD
     custom-model-data: 10008
     name: "&3&l✦ Băng Long Hàn Kiếm"
     max-durability: 18000
     tier: EPIC
     hide-enchants: true
-    lore-format: weapon-lore
+    lore-format: weapon-simple
     lore:
       - "&3&l✦ Long Tộc Trần Thế"
-      - "&7 &3●&7 Hàn kiếm kết tinh từ Hơi Thở Băng Long"
-      - "&7 &3●&7 Đóng băng linh hồn kẻ thù trong giá lạnh vĩnh cửu"
+      - "&7 Hàn kiếm kết tinh từ Hơi Thở Băng Long"
+      - "&7 Đóng băng linh hồn kẻ thù trong giá lạnh vĩnh cửu"
     attack-damage: 63.0
     attack-speed: 1.65
     critical-strike-chance: 26.0
@@ -1525,18 +1480,18 @@ TRADE_SWORD_LOI_LONG:
   itemsadder-item: "elitecreatures:king_arthur_animated_weapon_set_sword"
   base:
     custom-maxsockets: 5.0
-    revision-id: 2
+    revision-id: 3
     material: IRON_SWORD
     custom-model-data: 10167
     name: "&e&l⚡ Lôi Long Chấn Kiếm"
     max-durability: 18000
     tier: LEGENDARY
     hide-enchants: true
-    lore-format: weapon-lore
+    lore-format: weapon-simple
     lore:
       - "&e&l⚡ Long Tộc Trần Thế"
-      - "&7 &e●&7 Chấn kiếm chứa đựng Sấm Sét Lôi Long"
-      - "&7 &e●&7 Vung kiếm triệu hồi sấm chớp từ cửu thiên"
+      - "&7 Chấn kiếm chứa đựng Sấm Sét Lôi Long"
+      - "&7 Vung kiếm triệu hồi sấm chớp từ cửu thiên"
     attack-damage: 100.0
     attack-speed: 1.8
     critical-strike-chance: 35.0
@@ -1552,18 +1507,18 @@ TRADE_SWORD_PHONG_LONG:
   itemsadder-item: "nanoedge_set:nanoedge_sword"
   base:
     custom-maxsockets: 6.0
-    revision-id: 2
+    revision-id: 3
     material: IRON_SWORD
     custom-model-data: 10107
     name: "&2&l✦ Phong Long Liệt Kiếm"
     max-durability: 18000
     tier: MYTHICAL
     hide-enchants: true
-    lore-format: weapon-lore
+    lore-format: weapon-simple
     lore:
       - "&2&l✦ Long Tộc Trần Thế"
-      - "&7 &2●&7 Liệt kiếm cuốn theo Cuồng Phong Phong Long"
-      - "&7 &2●&7 Tốc độ vung kiếm nhanh như gió cuốn"
+      - "&7 Liệt kiếm cuốn theo Cuồng Phong Phong Long"
+      - "&7 Tốc độ vung kiếm nhanh như gió cuốn"
     attack-damage: 85.0
     attack-speed: 1.75
     critical-strike-chance: 31.0
@@ -1579,18 +1534,18 @@ TRADE_SWORD_HAC_LONG:
   itemsadder-item: "fantasy_weapons:demonic_sword"
   base:
     custom-maxsockets: 7.0
-    revision-id: 2
+    revision-id: 3
     material: IRON_SWORD
     custom-model-data: 10025
     name: "&5&l◆ Hắc Long Ma Kiếm"
     max-durability: 18000
     tier: UNIQUE
     hide-enchants: true
-    lore-format: weapon-lore
+    lore-format: weapon-simple
     lore:
       - "&5&l◆ Di Vật Hắc Long"
-      - "&7 &5●&7 Ma kiếm hun đúc từ linh hồn Hắc Long cổ xưa"
-      - "&7 &5●&7 Nguyền rủa kẻ thù, ban sức mạnh cho người sở hữu"
+      - "&7 Ma kiếm hun đúc từ linh hồn Hắc Long cổ xưa"
+      - "&7 Nguyền rủa kẻ thù, ban sức mạnh cho người sở hữu"
     attack-damage: 73.0
     attack-speed: 1.7
     critical-strike-chance: 28.0

@@ -9,7 +9,7 @@
 # Khớp config.yml: quest.ticket.mmoitems-type: CONSUMABLE / mmoitems-id: GUILD_QUEST_TICKET
 GUILD_QUEST_TICKET:
   base:
-    revision-id: 1
+    revision-id: 2
     material: PAPER
     name: "&a✦ Phiếu Quest Bang"
     tier: UNCOMMON

@@ -10,9 +10,17 @@
 # REMEMBER TO KEEP PERIODICAL BACKUPS.
 #
 regions:
+    khu_ruong:
+        min: {x: 28, y: 83, z: -108}
+        max: {x: 45, y: 88, z: -78}
+        members: {}
+        flags: {chest-access: allow}
+        owners: {}
+        type: cuboid
+        priority: 5
     __global__:
         members: {}
-        flags: {block-break: deny, pvp: deny}
+        flags: {block-break: deny, block-place: deny, chest-access: deny, pvp: deny}
         owners: {}
         type: global
         priority: 0

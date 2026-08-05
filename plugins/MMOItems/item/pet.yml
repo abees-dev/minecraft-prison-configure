@@ -8,9 +8,9 @@
 
 TRADE_PET_HOA_LONG:
   base:
-    lore-format: jewelry-lore
+    lore-format: jewelry-simple
     custom-maxsockets: 5.0
-    revision-id: 1
+    revision-id: 2
     material: PLAYER_HEAD
     name: "&6&l🔥 Pet Hỏa Long"
     lore:
@@ -28,9 +28,9 @@ TRADE_PET_HOA_LONG:
 
 TRADE_PET_HAC_LONG:
   base:
-    lore-format: jewelry-lore
+    lore-format: jewelry-simple
     custom-maxsockets: 5.0
-    revision-id: 1
+    revision-id: 2
     material: PLAYER_HEAD
     name: "&5&l◆ Pet Hắc Long"
     lore:
@@ -48,9 +48,9 @@ TRADE_PET_HAC_LONG:
 
 TRADE_PET_LOI_LONG:
   base:
-    lore-format: jewelry-lore
+    lore-format: jewelry-simple
     custom-maxsockets: 5.0
-    revision-id: 1
+    revision-id: 2
     material: PLAYER_HEAD
     name: "&e&l⚡ Pet Lôi Long"
     lore:
@@ -68,9 +68,9 @@ TRADE_PET_LOI_LONG:
 
 TRADE_PET_PHONG_LONG:
   base:
-    lore-format: jewelry-lore
+    lore-format: jewelry-simple
     custom-maxsockets: 5.0
-    revision-id: 1
+    revision-id: 2
     material: PLAYER_HEAD
     name: "&2&l✦ Pet Phong Long"
     lore:
@@ -88,9 +88,9 @@ TRADE_PET_PHONG_LONG:
 
 TRADE_PET_BANG_LONG:
   base:
-    lore-format: jewelry-lore
+    lore-format: jewelry-simple
     custom-maxsockets: 5.0
-    revision-id: 1
+    revision-id: 2
     material: PLAYER_HEAD
     name: "&3&l✦ Pet Băng Long"
     lore:
@@ -111,9 +111,9 @@ TRADE_PET_BANG_LONG:
 
 DONATE_PET_LONG_CHIEN:
   base:
-    lore-format: jewelry-lore
+    lore-format: jewelry-simple
     custom-maxsockets: 5.0
-    revision-id: 1
+    revision-id: 2
     material: PLAYER_HEAD
     name: "&e&l⚔ Pet Chiến Long"
     lore:
@@ -131,9 +131,9 @@ DONATE_PET_LONG_CHIEN:
 
 DONATE_PET_LONG_THAN:
   base:
-    lore-format: jewelry-lore
+    lore-format: jewelry-simple
     custom-maxsockets: 5.0
-    revision-id: 1
+    revision-id: 2
     material: PLAYER_HEAD
     name: "&d&l✦ Pet Thần Long"
     lore:
@@ -151,9 +151,9 @@ DONATE_PET_LONG_THAN:
 
 DONATE_PET_LONG_HOANG:
   base:
-    lore-format: jewelry-lore
+    lore-format: jewelry-simple
     custom-maxsockets: 5.0
-    revision-id: 1
+    revision-id: 2
     material: PLAYER_HEAD
     name: "&6&l👑 Pet Hoàng Long"
     lore:
@@ -171,9 +171,9 @@ DONATE_PET_LONG_HOANG:
 
 DONATE_PET_LONG_DE:
   base:
-    lore-format: jewelry-lore
+    lore-format: jewelry-simple
     custom-maxsockets: 5.0
-    revision-id: 1
+    revision-id: 2
     material: PLAYER_HEAD
     name: "&a&l⚜ Pet Đế Long"
     lore:
@@ -191,9 +191,9 @@ DONATE_PET_LONG_DE:
 
 DONATE_PET_LONG_VE:
   base:
-    lore-format: jewelry-lore
+    lore-format: jewelry-simple
     custom-maxsockets: 5.0
-    revision-id: 1
+    revision-id: 2
     material: PLAYER_HEAD
     name: "&b&l🛡 Pet Hộ Long"
     lore:
