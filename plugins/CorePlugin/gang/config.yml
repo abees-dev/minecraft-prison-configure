@@ -376,11 +376,11 @@ quest:
       pick-count: 2
       duration-minutes: 60
       open-cost:
-        money: 10000.0
-        reputation: 50
+        money: 1000000.0
+        reputation: 0
       reset-cost:
-        money: 5000.0
-        reputation: 25
+        money: 2500000.0
+        reputation: 0
       reward-reputation: 200
     '2':
       min-members: 3
@@ -391,7 +391,7 @@ quest:
         money: 50000.0
         reputation: 150
       reset-cost:
-        money: 25000.0
+        money: 1250000.0
         reputation: 75
       reward-reputation: 600
     '3':
@@ -400,7 +400,7 @@ quest:
       pick-count: 4
       duration-minutes: 120
       open-cost:
-        money: 150000.0
+        money: 7500000.0
         reputation: 400
       reset-cost:
         money: 75000.0

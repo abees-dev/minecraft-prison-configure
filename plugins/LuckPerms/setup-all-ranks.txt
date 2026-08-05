@@ -79,6 +79,9 @@ lp group default permission set essentials.kit true
 lp group default permission set essentials.balance true
 # /trash /disposal — mở thùng rác
 lp group default permission set essentials.disposal true
+# /craft /workbench — mở bàn chế tạo
+lp group default permission set essentials.workbench true
+lp group default permission set essentials.craft true
 # /rpginv — mở túi đồ RPG (MMOInventory)
 lp group default permission set mmoinventory.open true
 # Giữ toàn bộ inventory khi chết, áp dụng ở mọi world
