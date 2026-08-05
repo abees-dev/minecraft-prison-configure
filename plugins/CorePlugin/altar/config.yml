@@ -63,13 +63,13 @@ altars:
     # Per-altar message overrides (fall back to messages.yml).
     messages:
       no-key:
-        "&c&l[Bàn Thờ] &fBạn cần &e1 Huy Hiệu Triệu Hồi &f(chế từ Huy Hiệu Vỡ
+        "&c✘ &fBạn cần &e1 Huy Hiệu Triệu Hồi &f(chế từ Huy Hiệu Vỡ
         rớt ở 9 Boss trong Nhà Tù) để đánh thức Ma Vương!"
       summon-start:
-        "&6&l[Bàn Thờ] &fHuy Hiệu Triệu Hồi đã phát sáng... Ma Vương Ngục
+        "&6◆ &fHuy Hiệu Triệu Hồi đã phát sáng... Ma Vương Ngục
         Tù sắp thức tỉnh!"
-      summoned: "&4&l[TRÙM CUỐI] &fMa Vương Ngục Tù đã xuất hiện!"
-      level-up: "&6&l[Bàn Thờ] &f{altar} &fđã tăng lên cấp &c{level}&f/&c{max_level}&f!"
+      summoned: "&c⚔ &fMa Vương Ngục Tù đã xuất hiện!"
+      level-up: "&6◆ &f{altar} &fđã tăng lên cấp &c{level}&f/&c{max_level}&f!"
     # Built-in floating hologram (a vanilla TextDisplay entity, no hologram
     # plugin needed). It hovers y-offset above the altar block, follows the
     # altar when /altar set moves it, and swaps between lines-ready and

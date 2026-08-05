@@ -3,7 +3,7 @@
 #   Reload: /codeadmin reload
 #   Legacy '&' color codes. {placeholders} substituted per message.
 
-prefix: "&6&l[CODE]&r"
+prefix: "&6◆ &f"
 
 cooldown: "{prefix} &cVui lòng chờ vài giây trước khi nhập lại!"
 usage: "{prefix} &fCú pháp: &e/code <mã>"

@@ -1,27 +1,27 @@
 messages:
   autosell_enable:
     <gradient:#FFFF00:#FFD700:#FFA500><bold>AUTOSELL</bold></gradient>
-    <dark_gray>»</dark_gray> <gray>You've <yellow><bold>ENABLED</bold> <gray>Autosell.
+    <green>✔ <white>Đã <green><bold>BẬT</bold> <white>Autosell.
   autosell_disable:
     <gradient:#FFFF00:#FFD700:#FFA500><bold>AUTOSELL</bold></gradient>
-    <dark_gray>»</dark_gray> <gray>You've <red><bold>DISABLED</bold> <gray>Autosell.
+    <yellow>⚠ <white>Đã <red><bold>TẮT</bold> <white>Autosell.
   sell_all_complete:
     <gradient:#FFFF00:#FFD700:#FFA500><bold>SELLALL</bold></gradient>
-    <dark_gray>»</dark_gray> <gray>You've sold your inventory for <yellow>%price%
+    <green>✔ <white>Đã bán toàn bộ túi đồ với giá <yellow>%price%<white>.
   sell_all_nothing:
     <gradient:#FFFF00:#FFD700:#FFA500><bold>SELLALL</bold></gradient>
-    <dark_gray>»</dark_gray> <red>You have nothing to sell!
-  not_in_region: "&e&l(!) &cYou must be in region to use /sellall"
-  invalid_region: "&e&l(!) &cYou have specified invalid region."
+    <yellow>⚠ <white>Không có vật phẩm nào để bán.
+  not_in_region: "&c✘ &fBạn phải ở trong khu mỏ để dùng &e/sellall&f."
+  invalid_region: "&c✘ &fKhu vực được chỉ định không hợp lệ."
   no_permission_autosell_toggle:
     <gradient:#FFFF00:#FFD700:#FFA500><bold>AUTOSELL</bold></gradient>
-    <dark_gray>»</dark_gray> <red>You do not have permission to toggle autosell feature!
+    <red>✘ <white>Bạn không có quyền bật hoặc tắt Autosell.
   no_permission_sell:
-    "&e&l(!) &cYou do not have permission to sell in this region!
+    "&c✘ &fBạn không có quyền bán vật phẩm trong khu vực này.
     (%perm%)"
   no_permission_sellall:
     <gradient:#FFFF00:#FFD700:#FFA500><bold>SELLALL</bold></gradient>
-    <dark_gray>»</dark_gray> <red>You do not have permission to use /sellall!
+    <red>✘ <white>Bạn không có quyền sử dụng <yellow>/sellall<white>.
 # Should be autosell enabled automatically on player join?
 enable-autosell-automatically: true
 
@@ -39,14 +39,13 @@ inventory_full_notification:
   title:
     # Set enabled: false to fall back to the chat message below instead
     enabled: true
-    text: "&e&lInventory Full!"
-    subtitle: "&7Type /sellall to sell your inventory"
+    text: "&e&lTÚI ĐỒ ĐÃ ĐẦY!"
+    subtitle: "&fDùng &e/sellall &fđể bán vật phẩm"
     fade-in: 1
     stay: 3
     fade-out: 1
   chat:
-    <red><bold>(!)</bold> <yellow>Your inventory is full! Type /sellall to sell
-    your inventory
+    <yellow>⚠ <white>Túi đồ đã đầy! Dùng <yellow>/sellall <white>để bán vật phẩm.
 # Live action bar showing earnings while auto-selling / using /sellall.
 # Earnings are batched and shown once every flush-ticks to avoid spam while mining.
 earnings-actionbar:

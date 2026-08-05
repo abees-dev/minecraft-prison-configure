@@ -4,18 +4,18 @@
 #   Legacy '&' color codes. {placeholders} substituted per message.
 
 error:
-  max-level: "&c&l❖ [LỖI] &fBạn đã đạt Cấp Chuyển Sinh tối đa (&e{max}/{max}&f)!"
-  need-rank: "&c&l❖ [LỖI] &fBạn phải đạt &e&l{rank} &fmới có thể Chuyển Sinh!"
-  need-level: "&c&l❖ [LỖI] &fBạn phải đạt &e&lMMOCore Level {level} &fmới có thể Chuyển Sinh!"
-  need-money: "&c&l❖ [LỖI] &fBạn cần &e&l${money} Money &fđể Chuyển Sinh!"
-  need-stone: "&c&l❖ [LỖI] &fBạn cần &d&l1x Đá Chuyển Sinh &ftrong túi đồ để Chuyển Sinh!"
-  no-points: "&c&l❖ [LỖI] &fBạn không có đủ Điểm Kỹ Năng Chuyển Sinh! Hãy Chuyển Sinh để nhận thêm điểm."
+  max-level: "&c✘ &fBạn đã đạt Cấp Chuyển Sinh tối đa (&e{max}/{max}&f)!"
+  need-rank: "&c✘ &fBạn phải đạt &e&l{rank} &fmới có thể Chuyển Sinh!"
+  need-level: "&c✘ &fBạn phải đạt &e&lMMOCore Level {level} &fmới có thể Chuyển Sinh!"
+  need-money: "&c✘ &fBạn cần &e&l${money} Money &fđể Chuyển Sinh!"
+  need-stone: "&c✘ &fBạn cần &d&l1x Đá Chuyển Sinh &ftrong túi đồ để Chuyển Sinh!"
+  no-points: "&c✘ &fBạn không có đủ Điểm Kỹ Năng Chuyển Sinh! Hãy Chuyển Sinh để nhận thêm điểm."
 perk:
-  maxed: "&c&l❖ [NÂNG CẤP] &fKỹ năng {perk} &fđã đạt Cấp tối đa ({max}/{max})!"
-  upgraded: "&a&l❖ [NÂNG CẤP] &fĐã nâng cấp kỹ năng {perk} &flên &e&lCấp {level}/{max}&f!"
+  maxed: "&e⚠ &fKỹ năng {perk} &fđã đạt Cấp tối đa ({max}/{max})!"
+  upgraded: "&a✔ &fĐã nâng cấp kỹ năng {perk} &flên &e&lCấp {level}/{max}&f!"
 aura:
-  enabled: "&a&l❖ [HÀO QUANG] &fĐã &a&lBẬT &fhiệu ứng Hào Quang Chuyển Sinh!"
-  disabled: "&c&l❖ [HÀO QUANG] &fĐã &c&lTẮT &fhiệu ứng Hào Quang Chuyển Sinh!"
+  enabled: "&a✔ &fĐã &a&lBẬT &fhiệu ứng Hào Quang Chuyển Sinh!"
+  disabled: "&e⚠ &fĐã &c&lTẮT &fhiệu ứng Hào Quang Chuyển Sinh!"
 success:
   title: "&a&lCHUYỂN SINH THÀNH CÔNG!"
   subtitle: "&fCấp Chuyển Sinh: &e&lLần {level} &7(+{points} Điểm Kỹ Năng)"
@@ -29,10 +29,10 @@ success:
     - "&d&l━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
 admin:
   no-permission: "&cBạn không có quyền dùng lệnh này!"
-  gave-stone: "&a&l[ADMIN] &fĐã trao &e{amount}x Đá Chuyển Sinh &fcho &b{player}&f!"
-  set-cs: "&a&l[ADMIN] &fĐã đặt cấp Chuyển Sinh cho &e{player} &fthành &aLần {level}&f!"
-  reset-cs: "&a&l[ADMIN] &fĐã reset toàn bộ dữ liệu Chuyển Sinh & Cây Kỹ Năng của &e{player} &fvề 0!"
-  aura-on: "&a&l[ADMIN] &fĐã &a&lBẬT &fhiệu ứng Hào Quang Particle toàn Server!"
-  aura-off: "&c&l[ADMIN] &fĐã &c&lTẮT &fhiệu ứng Hào Quang Particle toàn Server!"
+  gave-stone: "&a✔ &fĐã trao &e{amount}x Đá Chuyển Sinh &fcho &b{player}&f!"
+  set-cs: "&a✔ &fĐã đặt cấp Chuyển Sinh cho &e{player} &fthành &aLần {level}&f!"
+  reset-cs: "&a✔ &fĐã reset toàn bộ dữ liệu Chuyển Sinh & Cây Kỹ Năng của &e{player} &fvề 0!"
+  aura-on: "&a✔ &fĐã &a&lBẬT &fhiệu ứng Hào Quang Particle toàn Server!"
+  aura-off: "&e⚠ &fĐã &c&lTẮT &fhiệu ứng Hào Quang Particle toàn Server!"
   player-not-found: "&cKhông tìm thấy người chơi {player}."
-  reload-ok: "&a[Rebirth] Đã tải lại config."
+  reload-ok: "&a✔ &fĐã tải lại config."

@@ -48,7 +48,7 @@ messages:
   gang-full: '<gradient:#ff0000:#ff5555><bold>GANGS</bold></gradient> <dark_gray>»</dark_gray> <yellow>Your gang is full!'
   gang-chat-off: '<gradient:#ff0000:#ff5555><bold>GANGS</bold></gradient> <dark_gray>»</dark_gray> <gray>You have toggled gang chat <yellow>OFF'
   gang-chat-on: '<gradient:#ff0000:#ff5555><bold>GANGS</bold></gradient> <dark_gray>»</dark_gray> <gray>You have toggled gang chat <white>ON'
-  gang-chat-format: '<gradient:#ff0000:#ff5555><bold>[GC]</bold></gradient> <white>%player% <dark_gray>»</dark_gray> <white>%message%'
+  gang-chat-format: '<#FF80AB>◆ <white>Bang <dark_gray>│</dark_gray> <white>%player% <dark_gray>»</dark_gray> <white>%message%'
   gang-top-updating: '<gradient:#ff0000:#ff5555><bold>GANGS</bold></gradient> <dark_gray>»</dark_gray> <yellow>Please wait, gang top is updating!'
   gang-name-long: '<gradient:#ff0000:#ff5555><bold>GANGS</bold></gradient> <dark_gray>»</dark_gray> <yellow>Gang name must contain max 10 characters.'
   gang-name-colors: '<gradient:#ff0000:#ff5555><bold>GANGS</bold></gradient> <dark_gray>»</dark_gray> <yellow>Gang name must not contain colors.'

@@ -82,6 +82,8 @@ lp group default permission set essentials.disposal true
 # /craft /workbench — mở bàn chế tạo
 lp group default permission set essentials.workbench true
 lp group default permission set essentials.craft true
+# /hat — đội item lên đầu
+lp group default permission set essentials.hat true
 # /rpginv — mở túi đồ RPG (MMOInventory)
 lp group default permission set mmoinventory.open true
 # Giữ toàn bộ inventory khi chết, áp dụng ở mọi world
@@ -167,13 +169,12 @@ lp group mvpplus meta setprefix 100 "<light_purple><bold>[MVP+]</bold></light_pu
 lp group elite meta setprefix 100 "<gold><bold>[ELITE]</bold></gold> "
 lp group legend meta setprefix 100 "<gradient:#FF5555:#FFD700><bold>[LEGEND]</bold></gradient> "
 
-# VIP: 6 kho, 5 home, /workbench, /hat, kit (không /fly — fly ở LEGEND)
+# VIP: 6 kho, 5 home, /workbench, kit (không /fly — fly ở LEGEND; /hat ở default)
 lp group vip permission set playervaults.amount.6 true
 lp group vip permission set essentials.sethome.multiple true
 lp group vip permission set essentials.sethome.multiple.vip true
 lp group vip permission set essentials.kits.vip true
 lp group vip permission set essentials.workbench true
-lp group vip permission set essentials.hat true
 
 # VIP+: 8 kho, 7 home, /enderchest, chat màu, kit
 lp group vipplus permission set playervaults.amount.8 true

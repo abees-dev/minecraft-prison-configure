@@ -1,9 +1,9 @@
 messages:
-  no_permission: "<red><bold>(!) <white>You do not have a permission to do that!"
+  no_permission: "<red>✘ <white>Bạn không có quyền thực hiện thao tác này."
   rank_up: ""
-  not_enough_currency: "<gradient:#FFD700:#FFEA00><bold>RANKUP</bold> <dark_gray>»</dark_gray></gradient> <white>You don't have enough %currency% to rankup. You need <yellow>%cost% %currency%"
-  prestige_needed: "<gradient:#FFD700:#FFEA00><bold>RANKUP</bold> <dark_gray>»</dark_gray></gradient> <white>Please use <yellow>/prestige"
-  rank_set: "<gradient:#FFD700:#FFEA00><bold>RANKUP</bold> <dark_gray>»</dark_gray></gradient> <white>You have set %player%'s rank to %rank%"
+  not_enough_currency: "<red>✘ <white>Bạn cần <yellow>%cost% %currency% <white>để RankUp."
+  prestige_needed: "<yellow>⚠ <white>Hãy sử dụng <yellow>/prestige <white>để tiếp tục thăng tiến."
+  rank_set: "<green>✔ <white>Đã đặt Rank của <yellow>%player% <white>thành %rank%<white>."
 # Delimiter on progress bar
 progress-bar-delimiter: ":"
 # Length of progress bar

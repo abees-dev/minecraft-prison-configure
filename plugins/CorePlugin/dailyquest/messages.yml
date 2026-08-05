@@ -4,7 +4,7 @@
 #   Reload: /dailyquest reload
 #   rewards.*: shared reward preview header/empty line for GUI lore and claim chat.
 
-prefix: '&8[&bDailyQuest&8]&r '
+prefix: '&b◆ &f'
 
 # Shared reward preview (quest icons, clear-all, check-in, claim chat).
 rewards:

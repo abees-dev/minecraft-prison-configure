@@ -1,16 +1,16 @@
 # Player-facing + admin strings for the xpbooster module.
 # Placeholders use {name} form. Reloaded via /xpboosta reload.
 
-no-permission: "&cBạn không có quyền dùng lệnh này."
-players-only: "&cChỉ người chơi mới dùng được lệnh này."
-mmocore-missing: "&cMMOCore chưa được cài — booster EXP không hoạt động."
-points-missing: "&cPlayerPoints chưa được cài — không thể mua booster."
+no-permission: "&c✘ &fBạn không có quyền dùng lệnh này."
+players-only: "&c✘ &fChỉ người chơi mới dùng được lệnh này."
+mmocore-missing: "&c✘ &fMMOCore chưa được cài — booster EXP không hoạt động."
+points-missing: "&c✘ &fPlayerPoints chưa được cài — không thể mua booster."
 
-shop-need-points: "&cBạn cần &e{cost} &cđiểm (đang có &e{points}&c)."
-shop-buy-ok: "&aĐã kích hoạt &e{name}&a! &7({multiplier}x, {duration})"
-shop-buy-failed: "&cKhông thể kích hoạt booster. Đã hoàn điểm."
-shop-package-unavailable: "&cGói này không bán trong shop."
-shop-click-cooldown: "&cVui lòng chờ một chút."
+shop-need-points: "&c✘ &fBạn cần &e{cost} &cđiểm (đang có &e{points}&c)."
+shop-buy-ok: "&a✔ &fĐã kích hoạt &e{name}&a! &7({multiplier}x, {duration})"
+shop-buy-failed: "&c✘ &fKhông thể kích hoạt booster. Đã hoàn điểm."
+shop-package-unavailable: "&c✘ &fGói này không bán trong shop."
+shop-click-cooldown: "&e⚠ &fVui lòng chờ một chút."
 
 admin:
   usage:
@@ -19,13 +19,13 @@ admin:
     - "&e/xpboosta open <player>"
     - "&e/xpboosta status [player]"
     - "&e/xpboosta reload"
-  unknown-package: "&cKhông tìm thấy gói &e{id}&c."
-  wrong-scope: "&cGói &e{id} &ckhông phải scope &e{scope}&c."
-  player-not-found: "&cKhông tìm thấy người chơi &e{player}&c."
-  give-personal-ok: "&aĐã give booster cá nhân &e{name} &acho &e{player}&a."
-  give-server-ok: "&aĐã kích hoạt booster toàn server &e{name}&a."
-  open-ok: "&aĐã mở shop XP booster cho &e{player}&a."
-  reload-ok: "&aĐã reload xpbooster config."
+  unknown-package: "&c✘ &fKhông tìm thấy gói &e{id}&c."
+  wrong-scope: "&c✘ &fGói &e{id} &ckhông phải scope &e{scope}&c."
+  player-not-found: "&c✘ &fKhông tìm thấy người chơi &e{player}&c."
+  give-personal-ok: "&a✔ &fĐã give booster cá nhân &e{name} &acho &e{player}&a."
+  give-server-ok: "&a✔ &fĐã kích hoạt booster toàn server &e{name}&a."
+  open-ok: "&a✔ &fĐã mở shop XP booster cho &e{player}&a."
+  reload-ok: "&a✔ &fĐã reload xpbooster config."
   status-header: "&e&lXP Booster status &7({player})"
   status-personal: "&7Cá nhân: &a{multiplier}x &8| &f{time}"
   status-server: "&7Server: &c{multiplier}x &8| &f{time}"

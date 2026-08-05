@@ -1,24 +1,14 @@
 messages:
-  cooldown: <yellow>Please wait %time% seconds before executing this command again.
-  no_permission: <gradient:#FFFF00:#FFD700:#FFA500><bold>BLOCKS</bold></gradient>
-    <dark_gray>»</dark_gray> <red>You do not have permission to view other players'
-    blocks!
+  cooldown: <yellow>⚠ <white>Vui lòng chờ <yellow>%time% giây <white>trước khi dùng lại lệnh.
+  no_permission: <red>✘ <white>Bạn không có quyền xem Blocks của người chơi khác.
   your_blocks: <gradient:#FFFF00:#FFD700:#FFA500><bold>BLOCKS</bold></gradient> <dark_gray>»</dark_gray>
-    <white>You mined <yellow>%blocks%</yellow> <white>Blocks
+    <yellow>◆ <white>Bạn đã đào <yellow>%blocks%</yellow> <white>Blocks.
   other_blocks: <gradient:#FFFF00:#FFD700:#FFA500><bold>BLOCKS</bold></gradient> <dark_gray>»</dark_gray>
-    <yellow>%player%</yellow> <white>mined <yellow>%blocks%</yellow> <white>Blocks
-  admin_set_blocks: <gradient:#FFFF00:#FFD700:#FFA500><bold>BLOCKS</bold></gradient>
-    <dark_gray>»</dark_gray> <white>Successfully set <yellow>%blocks%</yellow>'s <white>blocks
-    to <yellow>%blocks%</yellow>.
-  admin_give_blocks: <gradient:#FFFF00:#FFD700:#FFA500><bold>BLOCKS</bold></gradient>
-    <dark_gray>»</dark_gray> <white>Successfully given <yellow>%blocks%</yellow> <white>blocks
-    to <yellow>%player%</yellow>.
-  admin_remove_blocks: <gradient:#FFFF00:#FFD700:#FFA500><bold>BLOCKS</bold></gradient>
-    <dark_gray>»</dark_gray> <white>Successfully removed <yellow>%blocks%</yellow>
-    <white>blocks from <yellow>%player%</yellow>.
-  lucky_block_mined: <gradient:#FFFF00:#FFD700:#FFA500><bold>LUCKY BLOCK</bold></gradient>
-    <dark_gray>»</dark_gray> <white>You have mined a <yellow><bold>LUCKY BLOCK</bold></yellow>
-    <white>and received <yellow>%amount%</yellow> Tokens!
+    <yellow>◆ %player%</yellow> <white>đã đào <yellow>%blocks%</yellow> <white>Blocks.
+  admin_set_blocks: <green>✔ <white>Đã đặt số Blocks thành <yellow>%blocks%</yellow>.
+  admin_give_blocks: <green>✔ <white>Đã cộng <yellow>%blocks%</yellow> Blocks cho <yellow>%player%</yellow>.
+  admin_remove_blocks: <green>✔ <white>Đã trừ <yellow>%blocks%</yellow> Blocks của <yellow>%player%</yellow>.
+  lucky_block_mined: <gold>✦ <white>Bạn đã đào trúng <yellow><bold>LUCKY BLOCK</bold></yellow> và nhận <yellow>%amount%</yellow> Tokens!
 # LuckyBlocks settings for rewards
 lucky-blocks:
   SPONGE:

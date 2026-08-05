@@ -181,7 +181,7 @@ Commands:
   # SUGGEST_COMMAND
   Action: SUGGEST_COMMAND
   HoverMessage:
-    - '&eClick to use command!'
+    - '&eNhấn để sử dụng lệnh!'
 
 Chat:
   # Convert alternate color code character
@@ -206,26 +206,26 @@ Chat:
   MentionedSound: ENTITY_EXPERIENCE_ORB_PICKUP
   # The title to show when mentioned
   # Blank to disable
-  MentionedTitle: '&c&lMentioned'
+  MentionedTitle: '&e&lBẠN ĐƯỢC NHẮC TÊN'
   # How long should the title be shown when mentioned
   # Duration in seconds
   MentionedTitleDuration: 1.5
   # These are currently unused
-  UnknownPlayerMentionSubtitle: '&fSomeone had mentioned you in the chat!'
+  UnknownPlayerMentionSubtitle: '&fCó người vừa nhắc đến bạn trong chat!'
   UnknownPlayerMentionActionbar: ''
   # The subtitle and actionbar  to show when mentioned
   # Note that actionbar might not work if your version of Minecraft does not support it
   # Blank to disable
-  KnownPlayerMentionSubtitle: '&3%player_name% &fmentioned you in the chat!'
+  KnownPlayerMentionSubtitle: '&e%player_name% &fvừa nhắc đến bạn trong chat!'
   KnownPlayerMentionActionbar: ''
   # Use Advancement Grant Toast to show a message
   # Only works on versions 1.12 or above
   # Blank to disable
-  MentionToast: '&3%player_name% &fmentioned you!'
+  MentionToast: '&e%player_name% &fvừa nhắc đến bạn!'
   # Use the bossbar to show a message (1.9+)
   MentionBossBar:
     # Blank to disable
-    Text: '&3%player_name% &fmentioned you!'
+    Text: '&e%player_name% &fvừa nhắc đến bạn!'
     # Color of the bossbar if supported
     # Accepted values:
     # PURPLE

@@ -58,11 +58,11 @@ progress-bar-length: 20
 # Display progress (level + exp) directly on player experience bar
 show-pickaxe-level-progress-on-exp-bar: true
 messages:
-  pickaxe-level-up: '<yellow><bold>PICKAXE <dark_gray>» <white>Your pickaxe just leveled up to <yellow>Level %level%'
-  pickaxe-progress: '<yellow><bold>PICKAXE <dark_gray>» <gray>Current progress: <yellow>%exp%<gray>/<yellow>%exp_required% XP'
-  no-permission: '<yellow><bold>PICKAXE <dark_gray>» <red>You do not have permission to use this command.'
-  admin-usage: '<yellow><bold>PICKAXE <dark_gray>» <gray>Usage: <yellow>/pickaxelevel set <player> <level>'
-  admin-set: '<yellow><bold>PICKAXE <dark_gray>» <white>Set <yellow>%player%''s <white>pickaxe to <yellow>Level %level%<white>.'
-  player-not-online: '<yellow><bold>PICKAXE <dark_gray>» <red>Player <yellow>%player% <red>is not online.'
-  invalid-level: '<yellow><bold>PICKAXE <dark_gray>» <red>There is no pickaxe level <yellow>%level%<red>.'
-  no-pickaxe-found: '<yellow><bold>PICKAXE <dark_gray>» <red>Player <yellow>%player% <red>has no pickaxe in their inventory.'
+  pickaxe-level-up: '<green>✔ <white>Cuốc của bạn đã đạt <yellow>Level %level%<white>!'
+  pickaxe-progress: '<yellow>◆ <white>Tiến độ cuốc: <yellow>%exp%<gray>/<yellow>%exp_required% XP'
+  no-permission: '<red>✘ <white>Bạn không có quyền sử dụng lệnh này.'
+  admin-usage: '<yellow>◆ <white>Cú pháp: <yellow>/pickaxelevel set <player> <level>'
+  admin-set: '<green>✔ <white>Đã đặt cuốc của <yellow>%player% <white>thành <yellow>Level %level%<white>.'
+  player-not-online: '<red>✘ <white>Người chơi <yellow>%player% <white>không online.'
+  invalid-level: '<red>✘ <white>Không tồn tại Level cuốc <yellow>%level%<white>.'
+  no-pickaxe-found: '<red>✘ <white>Không tìm thấy cuốc trong túi đồ của <yellow>%player%<white>.'

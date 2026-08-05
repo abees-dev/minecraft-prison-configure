@@ -1,15 +1,15 @@
 messages:
-  no_permission: '<gradient:#FFD700:#FFAA00><bold>(!)</bold></gradient> <white>You do not have a permission to do that!'
-  prestige_up: '<gradient:#FFD700:#FFAA00><bold>PRESTIGE</bold> <dark_gray>»</dark_gray></gradient> <white>Congratulations, you prestiged up to <white>%Prestige%'
-  not_enough_currency_prestige: '<gradient:#FFD700:#FFAA00><bold>PRESTIGE</bold> <dark_gray>»</dark_gray></gradient> <white>You don''t have enough %currency% to prestige. You need <yellow>%cost% %currency%'
-  last_prestige: '<gradient:#FFD700:#FFAA00><bold>PRESTIGE</bold> <dark_gray>»</dark_gray></gradient> <white>You are at the last Prestige and have no more Prestiges.'
-  not_last_rank: '<gradient:#FFD700:#FFAA00><bold>PRESTIGE</bold> <dark_gray>»</dark_gray></gradient> <white>You must be last rank to prestige.'
-  top_updating: '<gradient:#FFD700:#FFAA00><bold>PRESTIGE</bold> <dark_gray>»</dark_gray></gradient>  <white>currently updating...'
-  prestige_set: '<gradient:#FFD700:#FFAA00><bold>PRESTIGE</bold> <dark_gray>»</dark_gray></gradient> <white>You have set <yellow>%player%''s <white>prestige to <yellow>%amount%'
-  prestige_add: '<gradient:#FFD700:#FFAA00><bold>PRESTIGE</bold> <dark_gray>»</dark_gray></gradient> <white>You have added <yellow>%amount% <white>prestige to  <yellow>%player%'
-  prestige_remove: '<gradient:#FFD700:#FFAA00><bold>PRESTIGE</bold> <dark_gray>»</dark_gray></gradient> <white>You have removed %amount% prestige from <yellow>%player%'
-  max_prestige_started: '<gradient:#FFD700:#FFAA00><bold>PRESTIGE</bold> <dark_gray>»</dark_gray></gradient> <white>Started /maxprestige. This might take a while...'
-  max_prestige_done: '<gradient:#FFD700:#FFAA00><bold>RANKUP</bold> <dark_gray>»</dark_gray></gradient> <white>Congratulations, you''ve max prestiged from <yellow>%start_prestige% <white>to <yellow>%prestige%<white>.'
+  no_permission: '<red>✘ <white>Bạn không có quyền thực hiện thao tác này.'
+  prestige_up: '<green>✔ <white>Chúc mừng! Bạn đã đạt Prestige %Prestige%<white>.'
+  not_enough_currency_prestige: '<red>✘ <white>Bạn cần <yellow>%cost% %currency% <white>để Prestige.'
+  last_prestige: '<yellow>⚠ <white>Bạn đã đạt Prestige tối đa.'
+  not_last_rank: '<red>✘ <white>Bạn cần đạt Rank cuối để Prestige.'
+  top_updating: '<yellow>⚠ <white>Bảng xếp hạng đang cập nhật...'
+  prestige_set: '<green>✔ <white>Đã đặt Prestige của <yellow>%player% <white>thành <yellow>%amount%<white>.'
+  prestige_add: '<green>✔ <white>Đã cộng <yellow>%amount% Prestige <white>cho <yellow>%player%<white>.'
+  prestige_remove: '<green>✔ <white>Đã trừ <yellow>%amount% Prestige <white>của <yellow>%player%<white>.'
+  max_prestige_started: '<yellow>⚠ <white>Đang thực hiện <yellow>/maxprestige<white>, vui lòng chờ...'
+  max_prestige_done: '<green>✔ <white>Chúc mừng! Bạn đã tăng từ Prestige <yellow>%start_prestige% <white>lên <yellow>%prestige%<white>.'
 # Interval in minutes for saving player data into database
 player_data_save_interval: 10
 # Should we reset player rank after he prestiges ?
@@ -26,7 +26,7 @@ auto-prestige-interval: 2
 prestige-title:
   enabled: true
   title: '&6&lPRESTIGE'
-  subtitle: '&aYou reached &e%prestige%'
+  subtitle: '&fBạn đã đạt &e%prestige%'
   fade-in: 1
   stay: 3
   fade-out: 1

@@ -29,7 +29,7 @@ exchanges:
     command: doikey
     aliases: []
     permission: ''
-    prefix: '&6&l[Đổi]&r'
+    prefix: '&6◆ &f'
     gui:
       title: '&8[&6✦&8] &6&lĐỔI CHÌA KHÓA'
       rows: 3
@@ -53,8 +53,8 @@ exchanges:
         type: crate-key
         key: chia_khoa_long_toc
         amount: 1
-      success: '{prefix} &aĐã đổi &e1x Ấn Tín Long Tộc &alấy &61x Chìa Khóa Long Tộc&a!'
-      missing: '{prefix} &cBạn cần có &e1x Ấn Tín Long Tộc &ctrong túi để đổi!'
+      success: '{prefix}&a✔ &fĐã đổi &e1x Ấn Tín Long Tộc &alấy &61x Chìa Khóa Long Tộc&a!'
+      missing: '{prefix}&c✘ &fBạn cần có &e1x Ấn Tín Long Tộc &ctrong túi để đổi!'
       sound: entity.player.levelup
   
   # Pity Hòm Thiên Giới: 1x MANH_THIEN_GIOI → 1 món Hộ Long (armor/sword)
@@ -66,7 +66,7 @@ exchanges:
     - doimanhthien
     - doithien
     permission: ''
-    prefix: '&b&l[Thiên Giới]&r'
+    prefix: '&b◆ &f'
     gui:
       title: '&8[&b✦&8] &b&lĐỔI MẢNH THIÊN GIỚI'
       rows: 3
@@ -90,8 +90,8 @@ exchanges:
         type: command
         commands:
         - mmoitems give SWORD DONATE_SWORD_LONG_VE %player% 1
-      success: '{prefix} &aĐã đổi &b1x Mảnh Thiên Giới &alấy &aHộ Long Bảo Kiếm&a!'
-      missing: '{prefix} &cCần &b1x Mảnh Thiên Giới &ctrong túi (pity 10 lần Hòm Thiên
+      success: '{prefix}&a✔ &fĐã đổi &b1x Mảnh Thiên Giới &alấy &aHộ Long Bảo Kiếm&a!'
+      missing: '{prefix}&c✘ &fCần &b1x Mảnh Thiên Giới &ctrong túi (pity 10 lần Hòm Thiên
         Giới)!'
       sound: entity.player.levelup
     - slot: 12
@@ -112,8 +112,8 @@ exchanges:
         type: command
         commands:
         - mmoitems give ARMOR DONATE_HELMET_LONG_VE %player% 1
-      success: '{prefix} &aĐã đổi &b1x Mảnh Thiên Giới &alấy &aHộ Long Mũ&a!'
-      missing: '{prefix} &cCần &b1x Mảnh Thiên Giới &ctrong túi!'
+      success: '{prefix}&a✔ &fĐã đổi &b1x Mảnh Thiên Giới &alấy &aHộ Long Mũ&a!'
+      missing: '{prefix}&c✘ &fCần &b1x Mảnh Thiên Giới &ctrong túi!'
       sound: entity.player.levelup
     - slot: 13
       display:
@@ -133,8 +133,8 @@ exchanges:
         type: command
         commands:
         - mmoitems give ARMOR DONATE_CHESTPLATE_LONG_VE %player% 1
-      success: '{prefix} &aĐã đổi &b1x Mảnh Thiên Giới &alấy &aHộ Long Chiến Giáp&a!'
-      missing: '{prefix} &cCần &b1x Mảnh Thiên Giới &ctrong túi!'
+      success: '{prefix}&a✔ &fĐã đổi &b1x Mảnh Thiên Giới &alấy &aHộ Long Chiến Giáp&a!'
+      missing: '{prefix}&c✘ &fCần &b1x Mảnh Thiên Giới &ctrong túi!'
       sound: entity.player.levelup
     - slot: 14
       display:
@@ -154,8 +154,8 @@ exchanges:
         type: command
         commands:
         - mmoitems give ARMOR DONATE_LEGGINGS_LONG_VE %player% 1
-      success: '{prefix} &aĐã đổi &b1x Mảnh Thiên Giới &alấy &aHộ Long Hộ Tất&a!'
-      missing: '{prefix} &cCần &b1x Mảnh Thiên Giới &ctrong túi!'
+      success: '{prefix}&a✔ &fĐã đổi &b1x Mảnh Thiên Giới &alấy &aHộ Long Hộ Tất&a!'
+      missing: '{prefix}&c✘ &fCần &b1x Mảnh Thiên Giới &ctrong túi!'
       sound: entity.player.levelup
     - slot: 15
       display:
@@ -175,15 +175,15 @@ exchanges:
         type: command
         commands:
         - mmoitems give ARMOR DONATE_BOOTS_LONG_VE %player% 1
-      success: '{prefix} &aĐã đổi &b1x Mảnh Thiên Giới &alấy &aHộ Long Hài&a!'
-      missing: '{prefix} &cCần &b1x Mảnh Thiên Giới &ctrong túi!'
+      success: '{prefix}&a✔ &fĐã đổi &b1x Mảnh Thiên Giới &alấy &aHộ Long Hài&a!'
+      missing: '{prefix}&c✘ &fCần &b1x Mảnh Thiên Giới &ctrong túi!'
       sound: entity.player.levelup
   doilongtoc:
     enabled: true
     command: doilongtoc
     aliases: []
     permission: ''
-    prefix: '&6&l[Long Tộc]&r'
+    prefix: '&6◆ &f'
     gui:
       title: '&8[&6✦&8] &6&lĐỔI CHÌA KHÓA LONG TỘC'
       rows: 3
@@ -204,8 +204,8 @@ exchanges:
         type: crate-key
         key: chia_khoa_long_toc
         amount: 1
-      success: '{prefix} &aĐã đổi &e1x Ấn Tín Long Tộc &alấy &61x Chìa Khóa Long Tộc&a!'
-      missing: '{prefix} &cBạn cần có &e1x Ấn Tín Long Tộc &ctrong túi để đổi!'
+      success: '{prefix}&a✔ &fĐã đổi &e1x Ấn Tín Long Tộc &alấy &61x Chìa Khóa Long Tộc&a!'
+      missing: '{prefix}&c✘ &fBạn cần có &e1x Ấn Tín Long Tộc &ctrong túi để đổi!'
       sound: entity.player.levelup
 
 # Example multi-offer shop (disabled). Copy / rename to enable.

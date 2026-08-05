@@ -81,4 +81,4 @@ events:
       warn: "&5&l⚔ NGUYỆT HUYẾT &8» &fCòn &e10 phút&f nữa Đêm Nguyệt Huyết bắt đầu! Chuẩn bị vào &dDungeon&f."
       start: "&5&l⚔ ĐÊM NGUYỆT HUYẾT &8» &cBắt đầu! &fBá Tước Huyết Nguyệt đã thức tỉnh. &7(/warp dungeon hoặc vào world_dungeon)"
       end: "&5&l⚔ NGUYỆT HUYẾT &8» &fĐêm đã tàn. Ánh trăng máu phai đi..."
-      level-up: "&6&l[Nguyệt Huyết] &fBá Tước Huyết Nguyệt đã tăng lên cấp &c{level}&f/&c{max_level}&f!"
+      level-up: "&6◆ &fBá Tước Huyết Nguyệt đã tăng lên cấp &c{level}&f/&c{max_level}&f!"

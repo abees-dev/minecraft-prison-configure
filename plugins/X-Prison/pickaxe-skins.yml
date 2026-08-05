@@ -7,10 +7,10 @@ main-command-aliases:
 
 # Messages displayed to players for various events or errors.
 messages:
-  no-permission: '<yellow><bold>SKINS <dark_gray>» <red>You don''t have permission to activate this skin!'
-  no-pickaxe: '<yellow><bold>SKINS <dark_gray>» <red>You must be holding a pickaxe.'
-  skin-activated: '<yellow><bold>SKINS <dark_gray>» <gray>You have activated skin <#ffdd00>%skin%!</#ffdd00>'
-  skin-reset: '<yellow><bold>SKINS <dark_gray>» <gray>You have reset your skin!'
+  no-permission: '<red>✘ <white>Bạn không có quyền kích hoạt skin này.'
+  no-pickaxe: '<red>✘ <white>Bạn cần cầm cuốc trên tay.'
+  skin-activated: '<green>✔ <white>Đã kích hoạt skin <#ffdd00>%skin%</#ffdd00><white>.'
+  skin-reset: '<green>✔ <white>Đã gỡ skin cuốc hiện tại.'
 
 # Sound effects used by the plugin for user feedback.
 # These sounds are triggered by specific actions or responses.

@@ -54,16 +54,16 @@ boosters:
   max-multiplier: 5.0
 
 messages:
-  prefix: "<gradient:#00c6ff:#0072ff><bold>BATTLEPASS</bold> <dark_gray>»</dark_gray></gradient> "
-  tier-up: "<white>You reached <yellow>Tier %tier% <white>of %season%<white>! Open <yellow>/bp <white>to claim your rewards."
-  reward-claimed: "<green>Claimed your <yellow>Tier %tier% <green>reward!"
-  reward-already-claimed: "<red>You have already claimed that reward."
-  reward-locked: "<red>You have not reached Tier %tier% yet."
-  premium-required: "<red>That reward is on the <light_purple>Premium <red>track. Unlock the premium pass to claim it."
-  no-season: "<red>There is no active Battle Pass season right now."
+  prefix: "<#40C4FF>◆ <white>"
+  tier-up: "<green>✔ <white>Bạn đã đạt <yellow>Tier %tier% <white>của %season%<white>! Nhận thưởng tại <yellow>/bp<white>."
+  reward-claimed: "<green>✔ <white>Đã nhận phần thưởng <yellow>Tier %tier%<white>."
+  reward-already-claimed: "<red>✘ <white>Bạn đã nhận phần thưởng này rồi."
+  reward-locked: "<red>✘ <white>Bạn chưa đạt <yellow>Tier %tier%<white>."
+  premium-required: "<red>✘ <white>Phần thưởng này thuộc nhánh <light_purple>Premium<white>."
+  no-season: "<red>✘ <white>Hiện chưa có mùa Battle Pass đang hoạt động."
   # %multiplier% and %time% for global; %player% also available for 'given'.
-  booster-set: "<white>A <yellow>%multiplier% <white>Battle Pass XP booster is now active for <yellow>%time%<white>!"
-  booster-given: "<white>You received a <yellow>%multiplier% <white>Battle Pass XP booster for <yellow>%time%<white>!"
+  booster-set: "<green>✔ <white>Booster Battle Pass XP <yellow>%multiplier% <white>đã kích hoạt trong <yellow>%time%<white>."
+  booster-given: "<green>✔ <white>Bạn nhận Booster Battle Pass XP <yellow>%multiplier% <white>trong <yellow>%time%<white>."
 
 # ----------------------------------------------------------------------------
 #  On-screen titles & sounds for key moments. Each block has an optional 'title'
@@ -77,7 +77,7 @@ effects:
     title:
       enabled: true
       title: "<gradient:#00c6ff:#0072ff><bold>TIER %tier%</bold></gradient>"
-      subtitle: "<white>Open <yellow>/bp <white>to claim your rewards"
+      subtitle: "<white>Nhận phần thưởng tại <yellow>/bp"
       fade-in: 1
       stay: 3
       fade-out: 1

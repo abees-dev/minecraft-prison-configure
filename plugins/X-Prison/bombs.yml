@@ -84,10 +84,10 @@ bombs:
       custom_model_data: 0
 # Messages
 messages:
-  player_offline: "<gradient:#FF5555:#AA0000:#550000><bold>BOMBS</bold></gradient> <dark_gray>»</dark_gray> <yellow>%player% <gray>is not online!"
-  bomb_given: "<gradient:#FF5555:#AA0000:#550000><bold>BOMBS</bold></gradient> <dark_gray>»</dark_gray> <gray>You have given <yellow>x%amount% <reset> %item% <gray>to <yellow>%player%<gray>!"
-  bomb_received: "<gradient:#FF5555:#AA0000:#550000><bold>BOMBS</bold></gradient> <dark_gray>»</dark_gray> <gray>You have received <yellow>x%amount% <reset>%item%<gray>!"
-  bomb_invalid_type: "<gradient:#FF5555:#AA0000:#550000><bold>BOMBS</bold></gradient> <dark_gray>»</dark_gray> <red>%type% <gray>is not a valid bomb!"
-  no-permission: "<gradient:#FF5555:#AA0000:#550000><bold>BOMBS</bold></gradient> <dark_gray>»</dark_gray> <red>Insufficient permissions!"
-  items_sold: "<gradient:#FF5555:#AA0000:#550000><bold>BOMBS</bold></gradient> <dark_gray>»</dark_gray> <gray>Auto-sold %amount% items for <yellow>%price%<gray>."
-  cooldown: "<gradient:#FF5555:#AA0000:#550000><bold>BOMBS</bold></gradient> <dark_gray>»</dark_gray> <red>You can drop next bomb in %time% seconds."
+  player_offline: "<red>✘ <white>Người chơi <yellow>%player% <white>không online."
+  bomb_given: "<green>✔ <white>Đã trao <yellow>x%amount% <reset>%item% <white>cho <yellow>%player%<white>."
+  bomb_received: "<green>✔ <white>Bạn đã nhận <yellow>x%amount% <reset>%item%<white>."
+  bomb_invalid_type: "<red>✘ <yellow>%type% <white>không phải loại bom hợp lệ."
+  no-permission: "<red>✘ <white>Bạn không có quyền sử dụng lệnh này."
+  items_sold: "<green>✔ <white>Đã tự động bán <yellow>%amount% <white>vật phẩm với giá <yellow>%price%<white>."
+  cooldown: "<yellow>⚠ <white>Bạn có thể dùng bom tiếp theo sau <yellow>%time% giây<white>."

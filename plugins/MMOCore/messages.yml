@@ -134,7 +134,7 @@ friend-request:
   - '{"text":""}'
 
 # Parties
-party-chat: '&5[Tổ Đội] {player}: {message}'
+party-chat: '&d◆ &fTổ Đội &8│ &f{player} &8» &f{message}'
 sent-party-invite: '&eBạn đã gửi lời mời vào tổ đội đến &6{player}&e.'
 already-in-party: '&c{player} đã ở trong tổ đội của bạn.'
 party-invite:
@@ -151,7 +151,7 @@ party-invite-cooldown: '&cVui lòng đợi {cooldown} trước khi mời {player
 high-level-difference: '&cKhông thể mời {player} vì chênh lệch cấp độ quá cao ({diff}).'
 
 # Guilds
-guild-chat: '&a[{tag}] {player}: {message}'
+guild-chat: '&a◆ &fBang &7[{tag}] &8│ &f{player} &8» &f{message}'
 sent-guild-invite: '&eBạn đã gửi lời mời gia nhập bang hội đến &6{player}&e.'
 already-in-guild: '&c{player} đã ở trong bang hội của bạn.'
 guild-invite:

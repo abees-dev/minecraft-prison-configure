@@ -16,13 +16,15 @@
 
 enabled: true
 message-delay-ticks: 10
-join: '&8[%rank%&8] &7- &f%player% &7đã tham gia server'
-quit: '&c- &f%player%'
+join: '&a➜ &f%player% &7đã tham gia máy chủ &8[%rank%&8]'
+quit: '&c← &f%player% &7đã rời máy chủ'
 first-join: |2
 
-  &a&l✦ CHÀO MỪNG TÂN BINH ✦
-  &7Bạn đã nhận rank &f%rank%&7, bộ đồ & kit khởi đầu!
-  &7Nhận lại kit: &e/kit tanbinh &8(cooldown 24h)
+  &6&m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  &6&l✦ CHÀO MỪNG ĐẾN AETHER MINE ✦
+  &fBạn đã nhận Rank %rank% &fvà bộ trang bị khởi đầu.
+  &7Nhận lại kit bằng lệnh &e/kit tanbinh &8(24 giờ)
+  &6&m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 # %rank% fallback when LuckPerms isn't installed (X-Prison rank id only). {id} = rank id.
 rank-fallback: '&7Rank {id}'

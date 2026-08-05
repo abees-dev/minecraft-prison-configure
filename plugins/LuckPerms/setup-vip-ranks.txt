@@ -57,7 +57,7 @@ lp group vip permission set essentials.sethome.multiple true
 lp group vip permission set essentials.sethome.multiple.vip true
 lp group vip permission set essentials.kits.vip true
 lp group vip permission set essentials.workbench true
-lp group vip permission set essentials.hat true
+# /hat đã chuyển sang default (toàn member) — xem setup-all-ranks.txt
 lp group vip permission set playervaults.amount.3 true
 
 # --- 6. Perks - VIP+ (tier 2, adds on top of VIP) ---------------------------
