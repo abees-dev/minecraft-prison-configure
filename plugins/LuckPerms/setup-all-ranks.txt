@@ -81,6 +81,8 @@ lp group default permission set essentials.balance true
 lp group default permission set essentials.disposal true
 # /rpginv — mở túi đồ RPG (MMOInventory)
 lp group default permission set mmoinventory.open true
+# Giữ toàn bộ inventory khi chết, áp dụng ở mọi world
+lp group default permission set essentials.keepinv true
 
 # Rank 1: 1 kho, 2 home, kit tân binh
 lp group xprison_rank_1 permission set playervaults.amount.1 true
