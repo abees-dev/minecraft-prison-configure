@@ -78,8 +78,8 @@ scoreboard:
       - '%condition:gang_rep_line%'
       - ' '
       - ' <#69F0AE>◆ <#FFFFFF><bold>TÀI SẢN</bold>'
-      - ' <#E4FFF0>┃ <#8EFFBE>Xu <#FFFFFF>› <#C8FFD9><bold>%vault_eco_balance_formatted%</bold>'
-      - ' <#E4F5FF>┃ <#82D4FF>Điểm <#FFFFFF>› <#BDE8FF><bold>%playerpoints_points_formatted%</bold>'
+      - ' <#E4FFF0>┃ <#8EFFBE>Money <#FFFFFF>› <#C8FFD9><bold>%vault_eco_balance_formatted%</bold>'
+      - ' <#E4F5FF>┃ <#82D4FF>Point <#FFFFFF>› <#BDE8FF><bold>%playerpoints_points_formatted%</bold>'
       - <#FFB74D><strikethrough>                     </strikethrough>
       - ' <#FFFFFF>%date% <#FFD54F>• <#FFFFFF>%time% <#FFD54F>• <#BDE8FF>%ping%ms'
     scoreboard:
@@ -96,8 +96,8 @@ scoreboard:
       - '%condition:gang_rep_line%'
       - ' '
       - ' <#69F0AE>◆ <#FFFFFF><bold>TÀI SẢN</bold>'
-      - ' <#E4FFF0>┃ <#8EFFBE>Xu <#FFFFFF>› <#C8FFD9><bold>%vault_eco_balance_formatted%</bold>'
-      - ' <#E4F5FF>┃ <#82D4FF>Điểm <#FFFFFF>› <#BDE8FF><bold>%playerpoints_points_formatted%</bold>'
+      - ' <#E4FFF0>┃ <#8EFFBE>Money <#FFFFFF>› <#C8FFD9><bold>%vault_eco_balance_formatted%</bold>'
+      - ' <#E4F5FF>┃ <#82D4FF>Point <#FFFFFF>› <#BDE8FF><bold>%playerpoints_points_formatted%</bold>'
       - <#FFB74D><strikethrough>                     </strikethrough>
       - ' <#FFFFFF>%date% <#FFD54F>• <#FFFFFF>%time% <#FFD54F>• <#BDE8FF>%ping%ms'
 layout:
