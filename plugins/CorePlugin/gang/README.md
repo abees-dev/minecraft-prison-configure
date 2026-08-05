@@ -115,6 +115,16 @@ Upgrade **KOTH Control** rút ngắn capture / kéo dài defense.
 - Cùng bang: không áp Warlord/Protection (friendly fire vẫn full).
 - Khác bang: Warlord (attacker) rồi Protection (victim).
 
+### 1.9 Bang Chiến — mob tại cổng (TODO CorePlugin)
+
+MythicMobs đã có `TONG_QUAN_NGUC` và `TONG_QUAN_NGUC_LINH`.
+Spec scheduler/ưu tiên gate đang giữ/điểm kill/cleanup nằm tại
+[`docs/world-pvp-safezone-notes.md`](../../../docs/world-pvp-safezone-notes.md),
+mục **“TODO CorePlugin — tự spawn boss và lính war”**.
+
+Tóm tắt yêu cầu: lính ×4 mỗi 30 giây, boss đầu trận + mỗi 5 phút; chọn ngẫu
+nhiên một cổng đang được bang giữ; kill lính +3 điểm, boss +100 điểm.
+
 ---
 
 ## 2. Lệnh

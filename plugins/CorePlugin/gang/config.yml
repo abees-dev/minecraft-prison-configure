@@ -13,10 +13,10 @@ create:
   # Cost to create a gang, indexed by how many gangs already exist.
   # Index 0 = first gang on the server, last entry reused for overflow.
   costs:
-  - 100000
-  - 250000
-  - 500000
-  - 1000000
+    - 100000
+    - 250000
+    - 500000
+    - 1000000
   default-member-slots: 5
   default-vault-capacity: 256
   name-max-length: 30
@@ -41,30 +41,30 @@ gui:
 # mục 7 + plugins/X-Prison/autosell.yml global-sell-prices) — KHÔNG có copper
 # hay deepslate variant nào trong world_prison, không thêm vào đây.
 ore-whitelist:
-- STONE
-- COBBLESTONE
-- COAL_ORE
-- IRON_ORE
-- GOLD_ORE
-- REDSTONE_ORE
-- LAPIS_ORE
-- DIAMOND_ORE
-- EMERALD_ORE
-- NETHER_GOLD_ORE
-- NETHER_QUARTZ_ORE
-- ANCIENT_DEBRIS
-- RAW_IRON
-- RAW_GOLD
-- COAL
-- DIAMOND
-- EMERALD
-- LAPIS_LAZULI
-- REDSTONE
-- QUARTZ
-- GOLD_NUGGET
-- IRON_INGOT
-- GOLD_INGOT
-- NETHERITE_SCRAP
+  - STONE
+  - COBBLESTONE
+  - COAL_ORE
+  - IRON_ORE
+  - GOLD_ORE
+  - REDSTONE_ORE
+  - LAPIS_ORE
+  - DIAMOND_ORE
+  - EMERALD_ORE
+  - NETHER_GOLD_ORE
+  - NETHER_QUARTZ_ORE
+  - ANCIENT_DEBRIS
+  - RAW_IRON
+  - RAW_GOLD
+  - COAL
+  - DIAMOND
+  - EMERALD
+  - LAPIS_LAZULI
+  - REDSTONE
+  - QUARTZ
+  - GOLD_NUGGET
+  - IRON_INGOT
+  - GOLD_INGOT
+  - NETHERITE_SCRAP
 
 # Fixed sell prices for /gang vault "Bán Tất Cả" (money → gang bank).
 # 2026-08-01: đồng bộ giá base EconomyShopGUI shops/Ores.yml (không qua ESG multiplier).
@@ -118,180 +118,180 @@ upgrades:
   sell:
     max-level: 5
     required-bang-levels:
-    - 1
-    - 2
-    - 3
-    - 4
-    - 5
+      - 1
+      - 2
+      - 3
+      - 4
+      - 5
     # Reputation cost to reach level 1, 2, ... (last reused).
     reputation-costs:
-    - 100
-    - 250
-    - 500
-    - 1000
-    - 2000
+      - 100
+      - 250
+      - 500
+      - 1000
+      - 2000
     # Money cost (from gang bank), same indexing as reputation-costs above.
     money-costs:
-    - 50000
-    - 150000
-    - 400000
-    - 900000
-    - 2000000
+      - 50000
+      - 150000
+      - 400000
+      - 900000
+      - 2000000
     multiplier-per-level: 0.1
   magnet:
     max-level: 5
     required-bang-levels:
-    - 1
-    - 2
-    - 3
-    - 4
-    - 5
+      - 1
+      - 2
+      - 3
+      - 4
+      - 5
     reputation-costs:
-    - 100
-    - 250
-    - 500
-    - 1000
-    - 2000
+      - 100
+      - 250
+      - 500
+      - 1000
+      - 2000
     money-costs:
-    - 50000
-    - 150000
-    - 400000
-    - 900000
-    - 2000000
+      - 50000
+      - 150000
+      - 400000
+      - 900000
+      - 2000000
     # Extra % ores deposited into vault per level.
     bonus-percent-per-level: 5
   protection:
     max-level: 5
     required-bang-levels:
-    - 1
-    - 2
-    - 3
-    - 4
-    - 5
+      - 1
+      - 2
+      - 3
+      - 4
+      - 5
     reputation-costs:
-    - 150
-    - 300
-    - 600
-    - 1200
-    - 2400
+      - 150
+      - 300
+      - 600
+      - 1200
+      - 2400
     money-costs:
-    - 75000
-    - 200000
-    - 500000
-    - 1200000
-    - 2500000
+      - 75000
+      - 200000
+      - 500000
+      - 1200000
+      - 2500000
     reduction-per-level: 0.05
     max-reduction: 0.4
   quest-mastery:
     max-level: 5
     required-bang-levels:
-    - 2
-    - 3
-    - 4
-    - 6
-    - 8
+      - 2
+      - 3
+      - 4
+      - 6
+      - 8
     reputation-costs:
-    - 150
-    - 300
-    - 600
-    - 1200
-    - 2400
+      - 150
+      - 300
+      - 600
+      - 1200
+      - 2400
     money-costs:
-    - 75000
-    - 200000
-    - 500000
-    - 1200000
-    - 2500000
+      - 75000
+      - 200000
+      - 500000
+      - 1200000
+      - 2500000
     # Extra % reputation + season points on shared-quest clear.
     reward-bonus-per-level: 0.05
   quest-efficiency:
     max-level: 5
     required-bang-levels:
-    - 2
-    - 3
-    - 4
-    - 6
-    - 8
+      - 2
+      - 3
+      - 4
+      - 6
+      - 8
     reputation-costs:
-    - 150
-    - 300
-    - 600
-    - 1200
-    - 2400
+      - 150
+      - 300
+      - 600
+      - 1200
+      - 2400
     money-costs:
-    - 75000
-    - 200000
-    - 500000
-    - 1200000
-    - 2500000
+      - 75000
+      - 200000
+      - 500000
+      - 1200000
+      - 2500000
     # % off open/reset money+reputation costs.
     cost-reduction-per-level: 0.05
     max-reduction: 0.4
   quest-capacity:
     max-level: 5
     required-bang-levels:
-    - 2
-    - 3
-    - 4
-    - 6
-    - 8
+      - 2
+      - 3
+      - 4
+      - 6
+      - 8
     reputation-costs:
-    - 150
-    - 300
-    - 600
-    - 1200
-    - 2400
+      - 150
+      - 300
+      - 600
+      - 1200
+      - 2400
     money-costs:
-    - 75000
-    - 200000
-    - 500000
-    - 1200000
-    - 2500000
+      - 75000
+      - 200000
+      - 500000
+      - 1200000
+      - 2500000
     # Extra shared-quest daily opens per level.
     opens-per-level: 1
   warlord:
     max-level: 5
     required-bang-levels:
-    - 3
-    - 4
-    - 6
-    - 8
-    - 10
+      - 3
+      - 4
+      - 6
+      - 8
+      - 10
     reputation-costs:
-    - 150
-    - 300
-    - 600
-    - 1200
-    - 2400
+      - 150
+      - 300
+      - 600
+      - 1200
+      - 2400
     money-costs:
-    - 75000
-    - 200000
-    - 500000
-    - 1200000
-    - 2500000
+      - 75000
+      - 200000
+      - 500000
+      - 1200000
+      - 2500000
     # Extra % PvP damage vs players in another gang.
     damage-bonus-per-level: 0.04
     max-bonus: 0.2
   koth-control:
     max-level: 5
     required-bang-levels:
-    - 3
-    - 4
-    - 6
-    - 8
-    - 10
+      - 3
+      - 4
+      - 6
+      - 8
+      - 10
     reputation-costs:
-    - 150
-    - 300
-    - 600
-    - 1200
-    - 2400
+      - 150
+      - 300
+      - 600
+      - 1200
+      - 2400
     money-costs:
-    - 75000
-    - 200000
-    - 500000
-    - 1200000
-    - 2500000
+      - 75000
+      - 200000
+      - 500000
+      - 1200000
+      - 2500000
     # Seconds shaved off capture / added to post-capture defense per level.
     capture-seconds-per-level: 4
     defense-seconds-per-level: 5
@@ -306,26 +306,26 @@ level:
   max-level: 10
   # Reputation cost to reach level 2, 3, ... 10 (index 0 = cost to reach level 2).
   reputation-costs:
-  - 200
-  - 400
-  - 700
-  - 1100
-  - 1600
-  - 2200
-  - 3000
-  - 4000
-  - 5500
+    - 200
+    - 400
+    - 700
+    - 1100
+    - 1600
+    - 2200
+    - 3000
+    - 4000
+    - 5500
   # Money cost (from gang bank), same indexing as reputation-costs above.
   money-costs:
-  - 500000
-  - 1000000
-  - 2000000
-  - 3500000
-  - 5500000
-  - 8000000
-  - 11000000
-  - 15000000
-  - 20000000
+    - 500000
+    - 1000000
+    - 2000000
+    - 3500000
+    - 5500000
+    - 8000000
+    - 11000000
+    - 15000000
+    - 20000000
   # Vault capacity gained EACH time the gang levels up (flat bonus, stacks
   # with Shop's "Mở rộng sức chứa kho" purchases).
   vault-capacity-per-level: 50
@@ -367,9 +367,9 @@ quest:
     color: YELLOW
     style: SOLID
     # Overall board progress only — no per-quest names. Details: /gang quest info
-    title: '&eQuest Bang Lv{level} &8| &f{percent}% &7({progress}/{target})'
+    title: "&eQuest Bang Lv{level} &8| &f{percent}% &7({progress}/{target})"
   levels:
-    '1':
+    "1":
       min-members: 1
       min-online: 1
       # Random distinct quests from pool each open (pool smaller → take all).
@@ -382,7 +382,7 @@ quest:
         money: 5000.0
         reputation: 25
       reward-reputation: 200
-    '2':
+    "2":
       min-members: 3
       min-online: 2
       pick-count: 3
@@ -394,7 +394,7 @@ quest:
         money: 25000.0
         reputation: 75
       reward-reputation: 600
-    '3':
+    "3":
       min-members: 5
       min-online: 3
       pick-count: 4
@@ -421,7 +421,7 @@ koth:
   # If non-empty, the active KOTH region rotates among these on a timer;
   # otherwise `region` above is always active.
   regions:
-  - gang_vip_mine
+    - gang_vip_mine
   # Hours between rotations across `regions`.
   rotate-hours: 6
   # Seconds after a capture during which the region cannot be contested.
@@ -454,26 +454,26 @@ shop:
 # LEADER-only disband is hardcoded and not configurable here.
 roles:
   open-quest:
-  - LEADER
-  - CO_LEADER
+    - LEADER
+    - CO_LEADER
   # Highest shared-quest level each role may open.
   open-quest-max-level:
     LEADER: 3
     CO_LEADER: 1
   sell-vault:
-  - LEADER
-  - CO_LEADER
+    - LEADER
+    - CO_LEADER
   upgrade:
-  - LEADER
-  - CO_LEADER
+    - LEADER
+    - CO_LEADER
   set-home:
-  - LEADER
-  - CO_LEADER
+    - LEADER
+    - CO_LEADER
   invite:
-  - LEADER
-  - CO_LEADER
+    - LEADER
+    - CO_LEADER
   buy-war-lives:
-  - LEADER
+    - LEADER
 
 # Phase 1 — per-player daily personal quests (pool: quests.yml `personal:`).
 personal-quest:
@@ -507,18 +507,18 @@ paragon:
   max-level: 20
   # Reputation cost per level (last value reused past the list end).
   reputation-costs:
-  - 3000
-  - 4000
-  - 5000
-  - 6500
-  - 8000
+    - 3000
+    - 4000
+    - 5000
+    - 6500
+    - 8000
   # Money cost per level (from the gang bank), same indexing.
   money-costs:
-  - 25000000
-  - 30000000
-  - 35000000
-  - 40000000
-  - 50000000
+    - 25000000
+    - 30000000
+    - 35000000
+    - 40000000
+    - 50000000
   # Absolute bonus added to the Sell multiplier per Paragon level (+1%).
   sell-bonus-per-level: 0.01
 
@@ -550,7 +550,7 @@ storage:
     port: 3306
     database: coreplugin
     username: root
-    password: ''
+    password: ""
     pool-size: 4
 war:
   enabled: true
@@ -573,18 +573,18 @@ war:
   last-standing-wins: true
   arena-region: war_arena
   gates:
-  - id: gate_a
-    region: war_gate_a
-    display: '&eCổng Đông'
-  - id: gate_b
-    region: war_gate_b
-    display: '&eCổng Tây'
-  - id: gate_c
-    region: war_gate_c
-    display: '&eCổng Nam'
-  - id: gate_d
-    region: war_gate_d
-    display: '&eCổng Bắc'
+    - id: gate_a
+      region: war_gate_a
+      display: "&eCổng Đông"
+    - id: gate_b
+      region: war_gate_b
+      display: "&eCổng Tây"
+    - id: gate_c
+      region: war_gate_c
+      display: "&eCổng Nam"
+    - id: gate_d
+      region: war_gate_d
+      display: "&eCổng Bắc"
   rewards:
     bank: 2000000
     reputation: 500
@@ -593,4 +593,25 @@ war:
     enabled: true
     color: RED
     style: SOLID
-    title: '&c&lBANG CHIẾN &8| &f#{rank} {gang} &e{points} &7• &fCòn {remain}'
+    title: "&c&lBANG CHIẾN &8| &f#{rank} {gang} &e{points} &7• &fCòn {remain}"
+  hologram:
+    enabled: true
+    y-offset: 1.0
+    lines-empty:
+      - "&7&l✧ CỔNG XUẤT ✧"
+      - "{gate}"
+      - "&8▬▬▬▬▬▬▬▬▬▬▬"
+      - "&7Chưa bang nào chiếm"
+      - "&8» &7Đứng đây để chiếm"
+    lines-holding:
+      - "&a&l✦ ĐANG CHIẾM ✦"
+      - "{gate}"
+      - "&8▬▬▬▬▬▬▬▬▬▬▬"
+      - "&a&l{gang}"
+      - "&7Ghi &a+{pps} &7điểm/giây"
+    lines-contested:
+      - "&c&l⚔ TRANH CHẤP ⚔"
+      - "{gate}"
+      - "&8▬▬▬▬▬▬▬▬▬▬▬"
+      - "&cKhông bang nào ghi điểm"
+      - "&8» &7Hạ đối thủ để chiếm"

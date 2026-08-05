@@ -38,7 +38,7 @@ Cập nhật: 2026-08-05 (world_pvp safezone notes).
 
 | File | Vai trò |
 | --- | --- |
-| [`world-pvp-safezone-notes.md`](world-pvp-safezone-notes.md) | world_pvp spawn_safe (±9) — title WG; **TODO CorePlugin cooldown** |
+| [`world-pvp-safezone-notes.md`](world-pvp-safezone-notes.md) | world_pvp spawn_safe + Bang Chiến gates; boss `TONG_QUAN_NGUC`; TODO CorePlugin cooldown/auto-spawn |
 | [`SPAWNER_LIST.md`](SPAWNER_LIST.md) | Danh sách spawner theo rank + trạng thái tọa độ |
 | [`SPAWNER_POSITION_GUIDE.md`](SPAWNER_POSITION_GUIDE.md) | Cách set vị trí spawner |
 | [`HUONG_DAN_DROPS_VA_EXP_NHATU.md`](HUONG_DAN_DROPS_VA_EXP_NHATU.md) | Drop & EXP nhà tù |

@@ -1,0 +1,130 @@
+# ============================================================================
+# SKILL — TỔNG QUẢN NGỤC (Bang Chiến)
+# Boss raid 3 phase: telegraph trước, rồi damage. Không drop kinh tế.
+# ============================================================================
+
+# ---------------- PHASE 1 — luôn active ----------------
+Tong_Quan_Nguc_Mark:
+  Cooldown: 12
+  Skills:
+  - message{m="&4&l[Tổng Quản Ngục]&r &7&oNgươi đã bị đánh dấu!"} @target
+  - effect:particles{p=soul_fire_flame;amount=25;hSpread=0.4;ySpread=1;speed=0.02;yOffset=1} @target
+  - potion{type=GLOWING;lvl=1;duration=80} @target
+  - effect:sound{s=entity.wither_skeleton.hurt;volume=1.2;pitch=0.7} @target
+
+Tong_Quan_Nguc_Slam_Telegraph:
+  Cooldown: 8
+  Skills:
+  - message{m="&c&l[!] &fTổng Quản Ngục chuẩn bị &cĐập Nền&f — tránh vòng đỏ!"} @PlayersInRadius{r=12}
+  - effect:sound{s=block.anvil.land;volume=1.0;pitch=0.5} @self
+  - effect:particles{p=smoke;amount=50;hSpread=4;vSpread=0.3;speed=0.01;yOffset=0.1} @self
+  - delay 20
+  - skill{s=Tong_Quan_Nguc_Slam_Hit}
+
+Tong_Quan_Nguc_Slam_Hit:
+  Skills:
+  - effect:sound{s=entity.generic.explode;volume=1.2;pitch=0.7} @self
+  - effect:particles{p=explosion;amount=3;hSpread=2;vSpread=0.5;speed=0} @self
+  - damage{amount=95;ignorearmor=true;ignoreiframes=true} @PlayersInRadius{r=5}
+  - throw{velocity=1.2;velocityY=0.45} @PlayersInRadius{r=5}
+
+# ---------------- PHASE 2 — HP < 65% (5850) ----------------
+Tong_Quan_Nguc_Phase2_Announce:
+  Cooldown: 9999
+  Conditions:
+  - health{h=<5850} true
+  Skills:
+  - message{m="&4&l⚔ BANG CHIẾN &8» &cTổng Quản Ngục &fđã vào &eGiai đoạn 2&f!"} @server
+  - effect:sound{s=entity.wither.spawn;volume=1.5;pitch=0.6} @self
+  - effect:particles{p=soul_fire_flame;amount=80;hSpread=1.5;ySpread=2;speed=0.05;yOffset=1} @self
+  - potion{type=INCREASE_DAMAGE;lvl=1;duration=200} @self
+
+Tong_Quan_Nguc_Summon:
+  Cooldown: 18
+  Conditions:
+  - health{h=<5850} true
+  Skills:
+  - message{m="&4&l[Tổng Quản Ngục]&r &7Lính canh — bắt chúng!"} @PlayersInRadius{r=40}
+  - effect:sound{s=entity.evoker.prepare_summon;volume=1.3;pitch=0.8} @self
+  - effect:particles{p=cloud;amount=40;hSpread=2;vSpread=1;speed=0.02;yOffset=0.5} @self
+  - summon{mob=TONG_QUAN_NGUC_LINH;amount=2;noise=4} @self
+
+Tong_Quan_Nguc_Pull_Slam:
+  Cooldown: 14
+  Conditions:
+  - health{h=<5850} true
+  Skills:
+  - message{m="&c&l[!] &fTổng Quản Ngục &cKéo &fvà &cĐập&f — đứng xa hoặc né!"} @PlayersInRadius{r=16}
+  - effect:sound{s=entity.ender_dragon.flap;volume=1.2;pitch=0.6} @self
+  - effect:particles{p=portal;amount=60;hSpread=3;vSpread=1;speed=0.2;yOffset=1} @self
+  - delay 15
+  - pull{velocity=12} @PlayersInRadius{r=14}
+  - delay 8
+  - skill{s=Tong_Quan_Nguc_Slam_Hit}
+
+Tong_Quan_Nguc_Phase2_Enrage:
+  Cooldown: 22
+  Conditions:
+  - health{h=<5850} true
+  Skills:
+  - effect:sound{s=entity.wither_skeleton.ambient;volume=1.5;pitch=0.4} @self
+  - effect:particles{p=soul_fire_flame;amount=50;hSpread=0.8;ySpread=1.2;speed=0.04;yOffset=1} @self
+  - potion{type=INCREASE_DAMAGE;lvl=2;duration=120} @self
+  - potion{type=SPEED;lvl=1;duration=120} @self
+  - message{m="&4&l[Tổng Quản Ngục]&r &7Luật ngục tù không dung thứ kẻ phản loạn!"} @PlayersInRadius{r=40}
+
+# ---------------- PHASE 3 — HP < 30% (2700) ----------------
+Tong_Quan_Nguc_Phase3_Announce:
+  Cooldown: 9999
+  Conditions:
+  - health{h=<2700} true
+  Skills:
+  - message{m="&4&l⚔ BANG CHIẾN &8» &4&lTổng Quản Ngục CUỒNG NỘ &8— &fGiai đoạn cuối!"} @server
+  - effect:sound{s=entity.wither.spawn;volume=2;pitch=0.4} @self
+  - effect:particles{p=flame;amount=100;hSpread=2;vSpread=2;speed=0.08;yOffset=1} @self
+  - potion{type=INCREASE_DAMAGE;lvl=3;duration=300} @self
+  - potion{type=SPEED;lvl=2;duration=300} @self
+  - potion{type=DAMAGE_RESISTANCE;lvl=1;duration=200} @self
+
+Tong_Quan_Nguc_Hell_Nova:
+  Cooldown: 16
+  Conditions:
+  - health{h=<2700} true
+  Skills:
+  - message{m="&c&l[!] &fNOVA LỬA sau &e1 giây&f — chạy ra ngoài vòng!"} @PlayersInRadius{r=20}
+  - effect:sound{s=entity.ghast.warn;volume=1.5;pitch=0.5} @self
+  - effect:particles{p=lava;amount=40;hSpread=6;vSpread=0.4;speed=0.02;yOffset=0.2} @self
+  - effect:particles{p=flame;amount=60;hSpread=5;vSpread=0.5;speed=0.03;yOffset=0.2} @self
+  - delay 20
+  - effect:sound{s=entity.generic.explode;volume=1.8;pitch=0.5} @self
+  - effect:particles{p=flame;amount=120;hSpread=7;vSpread=1.5;speed=0.1;yOffset=0.5} @self
+  - damage{amount=85;ignorearmor=true;ignoreiframes=true;damagecause=FIRE} @PlayersInRadius{r=8}
+  - potion{type=SLOW;lvl=2;duration=50} @PlayersInRadius{r=8}
+  - throw{velocity=1.6;velocityY=0.55} @PlayersInRadius{r=8}
+
+Tong_Quan_Nguc_Curse:
+  Cooldown: 20
+  Conditions:
+  - health{h=<2700} true
+  Skills:
+  - message{m="&5&l[!] &fNguyền rủa sắp giáng — tránh gần boss!"} @PlayersInRadius{r=18}
+  - effect:sound{s=entity.evoker.cast_spell;volume=1.3;pitch=0.5} @self
+  - effect:particles{p=witch;amount=50;hSpread=2;vSpread=1.5;speed=0.04;yOffset=1} @self
+  - delay 18
+  - effect:sound{s=entity.ender_dragon.growl;volume=1.4;pitch=0.4} @self
+  - effect:particles{p=witch;amount=80;hSpread=3;vSpread=2;speed=0.06;yOffset=1} @PlayersInRadius{r=10}
+  - damage{amount=70;ignorearmor=true;ignoreiframes=true;damagecause=MAGIC} @PlayersInRadius{r=10}
+  - potion{type=BLINDNESS;lvl=1;duration=40} @PlayersInRadius{r=10}
+  - potion{type=SLOW;lvl=2;duration=60} @PlayersInRadius{r=10}
+  - potion{type=WEAKNESS;lvl=1;duration=80} @PlayersInRadius{r=10}
+
+Tong_Quan_Nguc_Phase3_Enrage:
+  Cooldown: 18
+  Conditions:
+  - health{h=<2700} true
+  Skills:
+  - effect:sound{s=entity.wither.ambient;volume=2;pitch=0.35} @self
+  - effect:particles{p=soul_fire_flame;amount=70;hSpread=1;ySpread=1.5;speed=0.06;yOffset=1} @self
+  - potion{type=INCREASE_DAMAGE;lvl=3;duration=140} @self
+  - potion{type=SPEED;lvl=2;duration=140} @self
+  - message{m="&4&l[Tổng Quản Ngục]&r &cCẢ ARENA LÀ NGỤC TỐI CỦA TA!"} @PlayersInRadius{r=50}

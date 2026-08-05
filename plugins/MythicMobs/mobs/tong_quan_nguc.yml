@@ -1,0 +1,86 @@
+# ============================================================================
+# TỔNG QUẢN NGỤC — Boss Bang Chiến (MythicMobs)
+# Internal ID phải khớp CorePlugin: war.boss-mob-id = TONG_QUAN_NGUC
+# CorePlugin chỉ cộng điểm khi kill; KHÔNG tự spawn (ops spawn thủ công).
+#
+# Disguise (khi có skin PNG):
+#   1. Copy skin vào plugins/LibsDisguises/Skins/tongquannguc.png
+#   2. /savedisguise tongquannguc player <inherit> setskin tongquannguc.png setDynamicName
+#   3. Bỏ comment dòng Disguise: bên dưới rồi /mm reload
+# ============================================================================
+
+# Lính triệu hồi — không drop, despawn được, chỉ phục vụ arena war
+TONG_QUAN_NGUC_LINH:
+  Type: WITHER_SKELETON
+  Display: "&8&lLính Canh &7[Bang Chiến]"
+  Health: 280
+  Damage: 48
+  Equipment:
+  - NETHERITE_SWORD HAND
+  Options:
+    PreventOtherDrops: true
+    FollowRange: 32
+    MovementSpeed: 0.26
+    Scale: 1.1
+    Despawn: true
+    PreventSunburn: true
+  Skills:
+  - potion{type=WITHER;duration=40;lvl=1} @target 0.2
+
+TONG_QUAN_NGUC:
+  Type: WITHER_SKELETON
+  Display: "&4&l[BANG CHIẾN] &r&c&lTổng Quản Ngục"
+  Health: 9000
+  Damage: 105
+  Armor: 80
+  DamageModifiers:
+  - ENTITY_ATTACK 0.85
+  - PROJECTILE 0.9
+  - MAGIC 0.8
+  Equipment:
+  - NETHERITE_SWORD HAND
+  - NETHERITE_HELMET HEAD
+  - NETHERITE_CHESTPLATE CHEST
+  - NETHERITE_LEGGINGS LEGS
+  - NETHERITE_BOOTS FEET
+  # Disguise: tongquannguc
+  Options:
+    PreventOtherDrops: true
+    FollowRange: 48
+    MovementSpeed: 0.28
+    Scale: 1.85
+    AlwaysShowName: true
+    Despawn: false
+    PreventSunburn: true
+    Silent: false
+  BossBar:
+    Enabled: true
+    Title: "&4&l[BANG CHIẾN] &c&lTổng Quản Ngục &7❤ <caster.hp{f=0}>&8/&7<caster.mhp{f=0}>"
+    Range: 60
+    Color: RED
+    Style: SEGMENTED_10
+  # Không Drops — điểm war do CorePlugin (boss-kill-points: 100)
+  Skills:
+  # --- Phase 1 (luôn) ---
+  - skill{s=Boss_Anti_Kite_Pull} @target ~onTimer:90
+  - skill{s=Tong_Quan_Nguc_Mark} @target ~onTimer:120
+  - skill{s=Tong_Quan_Nguc_Slam_Telegraph} @self ~onTimer:55
+  # --- Phase 2 (<65% = 5850) ---
+  - skill{s=Tong_Quan_Nguc_Phase2_Announce} @self ~onDamaged
+  - skill{s=Tong_Quan_Nguc_Summon} @self ~onTimer:180
+  - skill{s=Tong_Quan_Nguc_Pull_Slam} @self ~onTimer:140
+  - skill{s=Tong_Quan_Nguc_Phase2_Enrage} @self ~onDamaged
+  # --- Phase 3 (<30% = 2700) ---
+  - skill{s=Tong_Quan_Nguc_Phase3_Announce} @self ~onDamaged
+  - skill{s=Tong_Quan_Nguc_Hell_Nova} @self ~onTimer:160
+  - skill{s=Tong_Quan_Nguc_Curse} @self ~onTimer:200
+  - skill{s=Tong_Quan_Nguc_Phase3_Enrage} @self ~onDamaged
+  # --- Spawn / Death ---
+  - message{m="&4&l⚔ BANG CHIẾN &8» &c&lTổng Quản Ngục &fđã xuất hiện! &7Hạ boss để nhận &e+100 điểm bang&7."} @server ~onSpawn
+  - effect:sound{s=entity.wither.spawn;volume=1.8;pitch=0.55} @self ~onSpawn
+  - effect:particles{p=soul_fire_flame;amount=80;hSpread=2;vSpread=2;speed=0.05;yOffset=1} @self ~onSpawn
+  - message{m="&7[&4&lTổng Quản Ngục&r&7] &fNgục tối... không thể... giam giữ... ta..."} @PlayersInRadius{r=60} ~onDeath
+  - message{m="&4&l⚔ BANG CHIẾN &8» &cTổng Quản Ngục &fđã bị tiêu diệt bởi &e<trigger.name>&f!"} @server ~onDeath
+  - effect:sound{s=entity.wither.death;volume=2;pitch=0.5} @self ~onDeath
+  - effect:explosion @self ~onDeath
+  - effect:particles{p=soul_fire_flame;amount=120;hSpread=2;vSpread=2;speed=0.08;yOffset=1} @self ~onDeath
