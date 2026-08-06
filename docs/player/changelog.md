@@ -2,6 +2,35 @@
 
 > Cập nhật: 2026-08-06 · Dành cho người chơi
 
+## Tính năng mới — Linh Hồn, Thành Tựu và Dungeon Biến Dị
+
+### Mảnh Linh Hồn và Trạm Đổi
+
+- Boss Prison giờ trao **Mảnh Linh Hồn** theo nhóm rank, tạo một lộ trình tích lũy để người chơi chủ động chọn nguyên liệu cần thiết.
+- Bổ sung năm cấp Mảnh Linh Hồn: **Sơ Cấp, Trung Cấp, Cao Cấp, Siêu Cấp** và **Huyền Thoại**.
+- Các Mảnh Linh Hồn sử dụng model ItemsAdder riêng, không trùng với nhóm Đá Cường Hóa.
+- Trạm Đổi Linh Hồn cho phép đổi mảnh lấy nguyên liệu, Mũi Khoan, Vé Dungeon Biến Dị và các vật phẩm giá trị khác.
+- Công thức **Mảnh Long Tộc → Ấn Tín Long Tộc** được gộp vào cùng trạm đổi.
+- Bổ sung NPC **Sứ Giả Linh Hồn** để mở trạm đổi trực tiếp.
+
+### Ghép Đá Đục Lỗ
+
+- Bổ sung **Bàn Ghép Đá Đục Lỗ** và NPC **Thợ Rèn Đục Lỗ**.
+- Có thể dùng **8 Mũi Khoan cấp dưới** để ghép thành **1 Mũi Khoan cấp trên**, từ ô 1 đến ô 7.
+- Mũi Khoan Đục Lỗ Thiên Mệnh không thể ghép theo cách này và vẫn là vật phẩm hiếm.
+
+### Collection và Thành Tựu
+
+- Bổ sung `/collection` và `/thanhtuu` để theo dõi quặng đã đào, quái đã hạ và boss đã tiêu diệt theo từng rank.
+- Các mốc thành tựu có phần thưởng nhận một lần và được lưu vĩnh viễn.
+- Bổ sung **Rương Chọn Nguyên Liệu**, cho phép người chơi tự chọn phần thưởng thay vì quay ngẫu nhiên.
+
+### Dungeon Biến Dị và phần thưởng mùa
+
+- Bổ sung **Vé Dungeon Biến Dị**; vé được dùng cho lần hạ boss kế tiếp để nhận thêm Mảnh Linh Hồn phù hợp.
+- Dungeon có hiệu ứng Biến Dị luân phiên theo tuần: **Kiên Cố, Cuồng Nộ, Độc Tố** hoặc **Bất Ổn**.
+- Bổ sung **Huy Chương Mùa Bang** làm phần thưởng cosmetic cho các Bang Hội dẫn đầu mùa.
+
 ## Cân bằng Class và Kỹ Năng
 
 Hệ thống class và kỹ năng đã được làm mới để mỗi class có vai trò rõ ràng hơn, kỹ năng tạo ảnh hưởng tốt hơn trong chiến đấu và class chuyển sinh thực sự mạnh hơn class gốc.
