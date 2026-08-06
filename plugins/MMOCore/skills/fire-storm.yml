@@ -1,33 +1,29 @@
-name: Fire Storm
+name: '&c🌋 Bão Lửa Nguyên Tố'
 lore:
-- Casts a flurry of 6 fire projectiles onto
-- nearby enemies, proritizing the initial
-- target. Each projectile deals &c{damage} &7damage
-- and ignite the target for &c{ignite} &7seconds.
+- '&7Triệu hồi mưa bão lửa rực cháy trút xuống kẻ địch,'
+- '&7gây &c{damage} &7sát thương diện rộng và thiêu đốt'
+- '&7trong &c{ignite} &7giây.'
 - ''
-- '&e{cooldown}s Cooldown'
-- '&9Costs {mana} {mana_name}'
+- '&e⌛ Hồi chiêu: &f{cooldown}s'
+- '&9⭐ Tiêu hao: &f{mana} {mana_name}'
 material: BLAZE_POWDER
 damage:
-  base: 4.0
-  per-level: 0.25
-  min: 4.0
-  max: 11.25
-  #Optional: The decimal format used for this skill parameter.
-  decimal-format: '0.#'
+  base: 6.0
+  per-level: 2.0
+  min: 6.0
+  max: 64.0
 ignite:
   base: 2.0
-  per-level: 1.1
+  per-level: 0.05
+  min: 2.0
+  max: 3.0
 mana:
-  base: 15.0
-  per-level: 2.0
-stamina:
-  base: 2.0
-  per-level: 1.0
-  max: 0.0
-  min: 0.0
+  base: 25.0
+  per-level: 1.5
+  min: 25.0
+  max: 68.5
 cooldown:
   base: 14.0
   per-level: -0.2
+  min: 5.0
   max: 14.0
-  min: 8.2

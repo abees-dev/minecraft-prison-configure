@@ -1,29 +1,19 @@
-name: Shield Barrier
+name: '&e🛡️ Khiên Chắn Cuồng Bạo'
 lore:
-- '&6Summon 4 shield barriers that protect you and'
-- '&6push away nearby targets. A shield will break'
-- "&6if you get attacked but you don't get any damage"
+- '&7Tạo 4 lớp khiên năng lượng bảo vệ bản thân,'
+- '&7đẩy lùi kẻ địch xung quanh và đỡ các đòn đánh'
+- '&7nhận vào mà không tốn máu.'
 - ''
-- '&e{cooldown}s Cooldown'
-- '&9Costs {mana} {mana_name}'
-material: 'COAL:2057'
-timer:
-  base: 0
-  per-level: 0
-  min: 0
-  max: 0
+- '&e⌛ Hồi chiêu: &f{cooldown}s'
+- '&4♦ Tiêu hao: &f{mana} {mana_name}'
+material: SHIELD
 mana:
-  base: 0
-  per-level: 0
-  min: 0
-  max: 0
-stamina:
-  base: 0
-  per-level: 0
-  min: 0
-  max: 0
+  base: 10.0
+  per-level: 0.3
+  min: 10.0
+  max: 20.0
 cooldown:
-  base: 12
-  per-level: -0.3
-  min: 9
-  max: 12
+  base: 14.0
+  per-level: -0.2
+  min: 6.0
+  max: 14.0

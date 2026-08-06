@@ -1,36 +1,24 @@
-name: Rampage
+name: '&c🔥 Cuồng Nộ Huyết Chiến'
 lore:
-- '&6Your speed and defense increase on'
-- '&6damaged when your health is below 6'
+- '&7Khi máu xuống thấp dưới 30%,'
+- '&7kích hoạt bản năng sinh tồn giúp tăng'
+- '&7Tốc độ di chuyển và Giáp trong &b{duration}s&7.'
 - ''
-- '&b{duration}s Duration'
-- '&e{cooldown}s Cooldown'
-- '&9Costs {mana} {mana_name}'
-material: 'COAL:2056'
-passive-type: DAMAGED
-timer:
-  base: 0
-  per-level: 0
-  min: 0
-  max: 0
+- '&e⌛ Hồi chiêu: &f{cooldown}s'
+- '&4♦ Tiêu hao: &f{mana} {mana_name}'
+material: REDSTONE_TORCH
 mana:
-  base: 0
-  per-level: 0
-  min: 0
-  max: 0
-stamina:
-  base: 0
-  per-level: 0
-  min: 0
-  max: 0
+  base: 0.0
+  per-level: 0.0
+  min: 0.0
+  max: 0.0
 cooldown:
-  base: 30
-  per-level: -0.3
-  min: 27
-  max: 30
+  base: 25.0
+  per-level: -0.4
+  min: 12.0
+  max: 25.0
 duration:
-  base: 10
-  per-level: 0.5
-  min: 10
-  max: 12
-#AXSi5GeFxmNllGZ6lzSYBXMNhEZ3llaOl3aq5UMNRUT5VERTR3VGR1buFjW3YVbDdFdDJFN
+  base: 6.0
+  per-level: 0.2
+  min: 6.0
+  max: 12.0

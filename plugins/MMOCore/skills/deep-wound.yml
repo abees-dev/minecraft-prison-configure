@@ -1,36 +1,30 @@
-name: Vết Thương Sâu
+name: '&c⚔️ Trảm Thể Vết Thương Sâu'
 lore:
-- '&7Đâm xuyên mục tiêu, gây &c{damage} &7sát thương.'
-- '&7Sát thương tăng tối đa &c+{extra}% &7dựa trên'
-- '&7lượng máu mục tiêu đã mất.'
+- '&7Vung kiếm đâm xuyên giáp mục tiêu,'
+- '&7gây &c{damage} &7sát thương vật lý.'
+- '&7Thêm tối đa &c+{extra}% &7sát thương'
+- '&7dựa trên lượng máu kẻ địch đã mất.'
 - ''
 - '&e⌛ Hồi chiêu: &f{cooldown}s'
 - '&4♦ Tiêu hao: &f{mana} {mana_name}'
-material: REDSTONE
+material: NETHERITE_SWORD
 damage:
-  base: 4.0
-  per-level: 0.25
-  min: 4.0
-  max: 11.25
-  #Optional: The decimal format used for this skill parameter.
-  decimal-format: '0.#'
+  base: 8.0
+  per-level: 2.5
+  min: 8.0
+  max: 80.0
 mana:
   base: 6.0
-  per-level: 0.1
+  per-level: 0.2
   min: 6.0
-  max: 8.9
-stamina:
-  base: 2.0
-  per-level: 1.0
-  max: 0.0
-  min: 0.0
+  max: 12.0
 extra:
   base: 20.0
-  per-level: 0.5
+  per-level: 1.0
   min: 20.0
-  max: 34.5
+  max: 50.0
 cooldown:
-  base: 10.0
-  per-level: -0.1
-  max: 10.0
-  min: 7.1
+  base: 9.0
+  per-level: -0.15
+  min: 3.0
+  max: 9.0

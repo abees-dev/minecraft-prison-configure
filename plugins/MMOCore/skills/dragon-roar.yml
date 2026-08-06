@@ -1,13 +1,29 @@
-name: Long Uy
+name: '&c🌋 Long Ngâm Thần Uy'
 lore:
-- '&7Gầm lên bằng uy lực Long Tộc, gây sát thương,'
-- '&7làm chậm và giảm sức tấn công của kẻ địch.'
+- '&7Gầm lên rung chuyển đất trời với thần uy Long Tộc,'
+- '&7gây &c{damage} &7sát thương diện rộng và'
+- '&7làm chậm kẻ địch xung quanh trong &b{duration}s&7.'
 - ''
-- '&c⚔ {damage} sát thương'
-- '&b❄ {duration}s suy yếu'
-- '&e⌛ {cooldown}s hồi chiêu'
+- '&e⌛ Hồi chiêu: &f{cooldown}s'
+- '&4♦ Tiêu hao: &f{mana} {mana_name}'
 material: DRAGON_BREATH
-damage: { base: 5, per-level: 0.35, min: 5, max: 15.15 }
-duration: { base: 3, per-level: 0.1, min: 3, max: 5.9 }
-mana: { base: 18, per-level: 0.25, min: 18, max: 25.25 }
-cooldown: { base: 18, per-level: -0.2, min: 12.2, max: 18 }
+damage:
+  base: 14.0
+  per-level: 3.5
+  min: 14.0
+  max: 115.0
+duration:
+  base: 3.0
+  per-level: 0.1
+  min: 3.0
+  max: 6.0
+mana:
+  base: 15.0
+  per-level: 0.3
+  min: 15.0
+  max: 24.0
+cooldown:
+  base: 16.0
+  per-level: -0.2
+  min: 8.0
+  max: 16.0

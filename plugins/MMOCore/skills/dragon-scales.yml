@@ -1,13 +1,25 @@
-name: Long Lân
+name: '&e🛡️ Vảy Rồng Hỏa Phượng'
 lore:
-- '&7Nội tại, phải gắn vào ô skill.'
-- '&7Khi bị tấn công, nhận Kháng Sát Thương'
-- '&7và Kháng Hất Lùi trong thời gian ngắn.'
+- '&7Bản năng vảy rồng kiên cố bảo vệ,'
+- '&7tăng mạnh Kháng sát thương và Kháng đẩy lùi'
+- '&7khi bị tấn công trong &a{duration}s&7.'
 - ''
-- '&a⏱ {duration}s hiệu lực'
-- '&e⌛ {cooldown}s hồi nội bộ'
+- '&e⌛ Hồi chiêu: &f{cooldown}s'
+- '&4♦ Tiêu hao: &f{mana} {mana_name}'
 material: SCUTE
 passive-type: DAMAGED
-duration: { base: 3, per-level: 0.1, min: 3, max: 5.9 }
-mana: { base: 0, per-level: 0, min: 0, max: 0 }
-cooldown: { base: 20, per-level: -0.2, min: 14.2, max: 20 }
+duration:
+  base: 4.0
+  per-level: 0.15
+  min: 4.0
+  max: 8.0
+mana:
+  base: 0.0
+  per-level: 0.0
+  min: 0.0
+  max: 0.0
+cooldown:
+  base: 18.0
+  per-level: -0.2
+  min: 10.0
+  max: 18.0

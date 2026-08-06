@@ -1,11 +1,23 @@
-name: Đạn Arcane
+name: '&b🔹 Đạn Arcane Xuyên Thấu'
 lore:
-- '&7Bắn một viên đạn ma lực xuyên qua nhiều mục tiêu.'
+- '&7Bắn ra viên đạn ma năng xuyên thấu dồn sát thương,'
+- '&7gây &c{damage} &7sát thương phép lên mọi mục tiêu trúng đòn.'
 - ''
-- '&c⚔ {damage} sát thương'
-- '&e⌛ {cooldown}s hồi chiêu'
-- '&a◆ Tiêu hao {stamina} Thể Lực'
+- '&e⌛ Hồi chiêu: &f{cooldown}s'
+- '&a⚡ Tiêu hao: &f{stamina} Thể Lực'
 material: AMETHYST_SHARD
-damage: { base: 6, per-level: 0.4, min: 6, max: 17.6 }
-stamina: { base: 7, per-level: 0.15, min: 7, max: 11.35 }
-cooldown: { base: 5, per-level: -0.05, min: 3.55, max: 5 }
+damage:
+  base: 10.0
+  per-level: 3.0
+  min: 10.0
+  max: 97.0
+stamina:
+  base: 7.0
+  per-level: 0.3
+  min: 7.0
+  max: 15.7
+cooldown:
+  base: 5.0
+  per-level: -0.1
+  min: 2.0
+  max: 5.0

@@ -58,14 +58,14 @@ options:
 
 attributes:
     attack-damage:
-        base: 2.3
-        per-level: .12
+        base: 2.8
+        per-level: .15
     attack-speed:
-        base: 3.9
-        per-level: 0
+        base: 4.5
+        per-level: 0.06
     max-health:
-        base: 22
-        per-level: .4
+        base: 28
+        per-level: .6
 
 skills:
     # Skill kế thừa từ class Chiến Binh

@@ -1,0 +1,12 @@
+# Generated / binary-heavy paths — do not bulk-format
+**/resource pack/
+**/resourcepack/
+**/node_modules/
+**/cache/
+**/libraries/
+**/logs/
+**/versions/
+**/userdata/
+**/*.jar
+**/world*/
+**/ModelEngine/resource pack/

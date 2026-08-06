@@ -1,45 +1,23 @@
-name: Holy Missile
+name: '&e⚡ Thánh Quang Đạn'
 lore:
-- Launch a swift and sacred projectile
-- towards your intended target
-- inflicting divine damage upon impact
+- '&7Bắn ra tia đạn ánh sáng trừng phạt mục tiêu,'
+- '&7gây &e{damage} &7sát thương phép thánh thần.'
 - ''
-- '&e{cooldown}s Cooldown'
-- '&9Costs {mana} {mana_name}'
-material: BOOK
-duration:
-  base: 2
-  per-level: 0.03
-  min: 2
-  max: 2.87
-  #Optional: The decimal format used for this skill parameter.
-  decimal-format: '0.#'
-timer:
-  base: 0
-  per-level: 0
-  min: 0
-  max: 0
-
+- '&e⌛ Hồi chiêu: &f{cooldown}s'
+- '&e✚ Tiêu hao: &f{mana} {mana_name}'
+material: GLOWSTONE_DUST
 damage:
-  base: 3
-  per-level: 0.25
-  min: 3
-  max: 10.25
-delay:
-  base: 0
-  per-level: 0
-  min: 0
-  max: 0
+  base: 8.0
+  per-level: 2.5
+  min: 8.0
+  max: 80.5
 mana:
-  base: 15
-  per-level: 1.1
-stamina:
-  base: 0
-  per-level: 0
-  min: 0
-  max: 0
+  base: 15.0
+  per-level: 1.0
+  min: 15.0
+  max: 44.0
 cooldown:
-  base: 10
+  base: 7.0
   per-level: -0.1
-  min: 7.1
-  max: 10
+  min: 3.0
+  max: 7.0
