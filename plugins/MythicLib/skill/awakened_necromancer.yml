@@ -1,0 +1,453 @@
+DEATHBOUND_SOULS:
+  passive-type: TIMER
+  name: Deathbound Souls
+  lore:
+  - "&7&m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+  - ""
+  - "&7A spectral scythe floats beside you, constantly harvesting the"
+  - "&7essence of the fallen."
+  - "&7When enemies die within 30 blocks, they leave behind a Soul."
+  - "&7You can absorb and store up to 5 Souls, allowing you to summon"
+  - "&7undead servants anytime, anywhere."
+  - "&7Your summoned army can consist of up to 10 undead minions,"
+  - "&7including a maximum of 2 Necroknights."
+  - ""
+  - "&7&m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+  icon: COAL:2371
+  trigger: TIMER
+  parameters:
+    timer:
+      player:
+        base: 10
+        per-level: 0
+        min: 10
+        max: 10
+      name: Timer
+      item: 0
+    mana:
+      player:
+        base: 0
+        per-level: 0
+        min: 0
+        max: 0
+      name: Mana
+      item: 0
+    stamina:
+      player:
+        base: 0
+        per-level: 0
+        min: 0
+        max: 0
+      name: Stamina
+      item: 0
+    cooldown:
+      player:
+        base: 0
+        per-level: 0
+        min: 0
+        max: 0
+      name: Cooldown
+      item: 0
+    delay:
+      name: Delay
+      item: 0
+  source: mythicmobs:Deathbound_Souls
+
+NECROTIC_COMBO:
+  parameters:
+    damage:
+      player:
+        base: 4
+        per-level: 0.4
+        min: 4
+        max: 7
+      name: Damage
+      item: 0
+    timer:
+      player:
+        base: 0
+        per-level: 0
+        min: 0
+        max: 0
+      name: Timer
+      item: 0
+    mana:
+      player:
+        base: 0
+        per-level: 0
+        min: 0
+        max: 0
+      name: Mana
+      item: 0
+    stamina:
+      player:
+        base: 0
+        per-level: 0
+        min: 0
+        max: 0
+      name: Stamina
+      item: 0
+    cooldown:
+      player:
+        base: 0.3
+        per-level: -0.01
+        min: 0.25
+        max: 0.3
+      name: Cooldown
+      item: 0
+    delay:
+      name: Delay
+      item: 0
+  name: Necrotic Combo
+  lore:
+  - "&7&m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+  - ""
+  - "&7Unleash a chain of sweeping scythe strikes infused with necrotic energy."
+  - "&b1st Strike: &7A horizontal scythe sweep from left to right."
+  - "&b2nd Strike: &7A follow-up horizontal slash from right to left."
+  - "&b3rd Strike: &7Spin the scythe forward, striking vertically."
+  - "&b4th Strike: &7Raise the scythe overhead and smash it into the"
+  - "&7ground, piercing the surface with its blade, slightly knocking up enemies."
+  - ""
+  - "&c🗡 {damage} Damage"
+  - "&e⌛ {cooldown}s Cooldown"
+  - ""
+  - "&7&m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+  icon: COAL:2374
+  source: mythicmobs:Necrotic_Combo
+
+SKULL_WISPS:
+  parameters:
+    damage:
+      player:
+        base: 4
+        per-level: 0.4
+        min: 4
+        max: 7
+      name: Damage
+      item: 0
+    timer:
+      player:
+        base: 0
+        per-level: 0
+        min: 0
+        max: 0
+      name: Timer
+      item: 0
+    mana:
+      player:
+        base: 0
+        per-level: 0
+        min: 0
+        max: 0
+      name: Mana
+      item: 0
+    stamina:
+      player:
+        base: 0
+        per-level: 0
+        min: 0
+        max: 0
+      name: Stamina
+      item: 0
+    cooldown:
+      player:
+        base: 1
+        per-level: -0.01
+        min: 0.5
+        max: 1
+      name: Cooldown
+      item: 0
+    delay:
+      name: Delay
+      item: 0
+  name: Skull Wisps
+  lore:
+  - "&7&m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+  - ""
+  - "&7Launch a haunting skull-shaped wisp of necrotic energy forward."
+  - "&7Upon impact, the wisp explodes with dark energy, damaging enemies"
+  - "&7and slightly knocking them back."
+  - ""
+  - "&c🗡 {damage} Damage"
+  - "&e⌛ {cooldown}s Cooldown"
+  - ""
+  - "&7&m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+  icon: COAL:2377
+  source: mythicmobs:Skull_Wisps
+
+SKELETAL_WARRIOR:
+  parameters:
+    damage:
+      player:
+        base: 4
+        per-level: 0.4
+        min: 4
+        max: 7
+      name: Damage
+      item: 0
+    timer:
+      player:
+        base: 0
+        per-level: 0
+        min: 0
+        max: 0
+      name: Timer
+      item: 0
+    mana:
+      player:
+        base: 0
+        per-level: 0
+        min: 0
+        max: 0
+      name: Mana
+      item: 0
+    stamina:
+      player:
+        base: 0
+        per-level: 0
+        min: 0
+        max: 0
+      name: Stamina
+      item: 0
+    cooldown:
+      player:
+        base: 1
+        per-level: 0
+        min: 1
+        max: 1
+      name: Cooldown
+      item: 0
+    skillcooldown:
+      player:
+        base: 1
+        per-level: 0
+        min: 1
+        max: 1
+      name: SkillCooldown
+      item: 0
+    delay:
+      name: Delay
+      item: 0
+  name: Skeletal Warrior
+  lore:
+  - "&7&m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+  - ""
+  - "&7Consume 1 Soul to summon a Skeletal Warrior to fight at your side."
+  - ""
+  - "&6Skeletal Warrior &f(Melee Minion)"
+  - "&bBone Slash: &7A quick horizontal sword strike."
+  - "&bCleave Down: &7A heavy downward slash aimed at enemies in front."
+  - ""
+  - "&c🗡 {damage} Damage"
+  - "&e⌛ {cooldown}s Cooldown"
+  - ""
+  - "&7&m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+  icon: COAL:2376
+  source: mythicmobs:Skeletal_Warrior
+
+NECROMANCERS_COMMAND:
+  passive-type: TIMER
+  parameters:
+    timer:
+      player:
+        base: 10
+        per-level: 0
+        min: 10
+        max: 10
+      name: Timer
+      item: 10
+    mana:
+      player:
+        base: 0
+        per-level: 0
+        min: 0
+        max: 0
+      name: Mana
+      item: 0
+    stamina:
+      player:
+        base: 0
+        per-level: 0
+        min: 0
+        max: 0
+      name: Stamina
+      item: 0
+    cooldown:
+      player:
+        base: 1
+        per-level: 0
+        min: 1
+        max: 1
+      name: Cooldown
+      item: 0
+    skillcooldown:
+      player:
+        base: 1
+        per-level: 0
+        min: 1
+        max: 1
+      name: SkillCooldown
+      item: 0
+  name: Necromancer's Command
+  lore:
+  - "&7&m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+  - ""
+  - "&7Switch summon modes between Focus, Free, and Idle mode."
+  - ""
+  - "&bFocus Mode: &7Your minions attack only the enemy you last"
+  - "&7dealt damage to."
+  - "&bFree Mode: &7Your minions attack random enemies, excluding"
+  - "&7party/guild members."
+  - "&bIdle Mode: &7Your minions don't attack enemies and only follow you."
+  - ""
+  - "&e⌛ {cooldown}s Cooldown"
+  - ""
+  - "&7&m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+  icon: COAL:2373
+  source: mythicmobs:Necromancers_Command
+
+SKELETAL_MAGE:
+  parameters:
+    damage:
+      player:
+        base: 4
+        per-level: 0.4
+        min: 4
+        max: 7
+      name: Damage
+      item: 0
+    burnduration:
+      player:
+        base: 3
+        per-level: 0.15
+        min: 3
+        max: 5
+      name: Burnduration
+      item: 0
+    burndamage:
+      player:
+        base: 0.5
+        per-level: 0.1
+        min: 0.5
+        max: 1
+      name: Burndamage
+      item: 0
+    timer:
+      player:
+        base: 0
+        per-level: 0
+        min: 0
+        max: 0
+      name: Timer
+      item: 0
+    mana:
+      player:
+        base: 0
+        per-level: 0
+        min: 0
+        max: 0
+      name: Mana
+      item: 0
+    stamina:
+      player:
+        base: 0
+        per-level: 0
+        min: 0
+        max: 0
+      name: Stamina
+      item: 0
+    cooldown:
+      player:
+        base: 1
+        per-level: 0
+        min: 1
+        max: 1
+      name: Cooldown
+      item: 0
+    delay:
+      name: Delay
+      item: 0
+  name: Skeletal Mage
+  lore:
+  - "&7&m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+  - ""
+  - "&7Consume 1 Soul to summon a Skeletal Mage that attacks enemies from range."
+  - ""
+  - "&6Skeletal Mage &f(Ranged Minion)"
+  - "&bNecroball: &7Fires a burning orb of soul energy that applies"
+  - "&7Necrotic Burn, dealing damage over time."
+  - ""
+  - "&c🗡 {damage} Damage"
+  - "&3🔥 {burndamage} Burn Damage"
+  - "&9🕗 {burnduration}s Burn Duration"
+  - "&e⌛ {cooldown}s Cooldown"
+  - ""
+  - "&7&m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+  icon: COAL:2375
+  source: mythicmobs:Skeletal_Mage
+
+NECROKNIGHT:
+  parameters:
+    damage:
+      player:
+        base: 7
+        per-level: 0.4
+        min: 7
+        max: 12
+      name: Damage
+      item: 0
+    timer:
+      player:
+        base: 0
+        per-level: 0
+        min: 0
+        max: 0
+      name: Timer
+      item: 0
+    mana:
+      player:
+        base: 0
+        per-level: 0
+        min: 0
+        max: 0
+      name: Mana
+      item: 0
+    stamina:
+      player:
+        base: 0
+        per-level: 0
+        min: 0
+        max: 0
+      name: Stamina
+      item: 0
+    cooldown:
+      player:
+        base: 3
+        per-level: 0
+        min: 3
+        max: 3
+      name: Cooldown
+      item: 0
+    delay:
+      name: Delay
+      item: 0
+  name: Necroknight
+  lore:
+  - "&7&m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+  - ""
+  - "&7Consume 1 Soul to summon a powerful Necroknight, an elite undead"
+  - "&7warrior clad in cursed armor mounting an undead horse."
+  - ""
+  - "&6Necroknight &f(Melee Minion)"
+  - "&bLance Thrust: &7A long-reaching lance strike that deals high"
+  - "&7damage and knocks enemies back."
+  - "&bLance Charge: &7Charges forward aggressively while striking"
+  - "&7repeatedly with the lance."
+  - ""
+  - "&c🗡 {damage} Damage"
+  - "&e⌛ {cooldown}s Cooldown"
+  - ""
+  - "&7&m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+  icon: COAL:2372
+  source: mythicmobs:Necroknight

@@ -1,0 +1,69 @@
+info:
+  namespace: awakened_necromancer
+items:
+  awakened_necromancer_necrostaff:
+    display_name: "awakened_necromancer_necrostaff"
+    permission: awakened_necromancer_necrostaff
+    resource:
+      material: STONE_SWORD
+      model_id: 2098
+      generate: false
+      model_path: awakened_necromancer_model/awakened_necromancer_necrostaff
+  icon_deathbound_souls:
+    display_name: "icon_deathbound_souls"
+    permission: icon_deathbound_souls
+    resource:
+      material: COAL
+      model_id: 2371
+      generate: false
+      model_path: awakened_necromancer_model/icon_deathbound_souls
+  icon_necroknight:
+    display_name: "icon_necroknight"
+    permission: icon_necroknight
+    resource:
+      material: COAL
+      model_id: 2372
+      generate: false
+      model_path: awakened_necromancer_model/icon_necroknight
+  icon_necromancers_command:
+    display_name: "icon_necromancers_command"
+    permission: icon_necromancers_command
+    resource:
+      material: COAL
+      model_id: 2373
+      generate: false
+      model_path: awakened_necromancer_model/icon_necromancers_command
+  icon_necrotic_combo:
+    display_name: "icon_necrotic_combo"
+    permission: icon_necrotic_combo
+    resource:
+      material: COAL
+      model_id: 2374
+      generate: false
+      model_path: awakened_necromancer_model/icon_necrotic_combo
+  icon_skeletal_mage:
+    display_name: "icon_skeletal_mage"
+    permission: icon_skeletal_mage
+    resource:
+      material: COAL
+      model_id: 2375
+      generate: false
+      model_path: awakened_necromancer_model/icon_skeletal_mage
+  icon_skeletal_warrior:
+    display_name: "icon_skeletal_warrior"
+    permission: icon_skeletal_warrior
+    resource:
+      material: COAL
+      model_id: 2376
+      generate: false
+      model_path: awakened_necromancer_model/icon_skeletal_warrior
+  icon_skull_wisps:
+    display_name: "icon_skull_wisps"
+    permission: icon_skull_wisps
+    resource:
+      material: COAL
+      model_id: 2377
+      generate: false
+      model_path: awakened_necromancer_model/icon_skull_wisps
+
+#IldW1kWR12QPZWeyMUTs5UMN1WYWh3VlpmVxE2cWFTVxx2MVFlVstWVqNWeTFlVstWVq1Wb
