@@ -1,33 +1,23 @@
-name: Brutal Strike
+name: '&c💥 Bạo Nộ Cuồng Trảm'
 lore:
-- '&6Perform a wide range of slash or pierce attack'
+- '&7Dồn toàn bộ sức mạnh vào đòn chém cuồng bạo,'
+- '&7gây &c{damage} &7sát thương diện rộng lên kẻ địch.'
 - ''
-- '&c{damage} Damage'
-- '&e{cooldown}s Cooldown'
-- '&9Costs {mana} {mana_name}'
-material: 'COAL:2052'
-timer:
-  base: 0
-  per-level: 0
-  min: 0
-  max: 0
-mana:
-  base: 0
-  per-level: 0
-  min: 0
-  max: 0
-stamina:
-  base: 0
-  per-level: 0
-  min: 0
-  max: 0
-cooldown:
-  base: 1
-  per-level: -0.1
-  min: 0
-  max: 1
+- '&e⌛ Hồi chiêu: &f{cooldown}s'
+- '&4♦ Tiêu hao: &f{mana} {mana_name}'
+material: DIAMOND_AXE
 damage:
-  base: 4
-  per-level: 1
-  min: 4
-  max: 7
+  base: 10.0
+  per-level: 3.0
+  min: 10.0
+  max: 100.0
+mana:
+  base: 10.0
+  per-level: 0.3
+  min: 10.0
+  max: 20.0
+cooldown:
+  base: 8.0
+  per-level: -0.15
+  min: 2.5
+  max: 8.0

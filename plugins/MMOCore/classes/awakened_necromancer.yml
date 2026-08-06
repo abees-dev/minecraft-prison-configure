@@ -47,17 +47,17 @@ options:
 
 attributes:
     max-health:
-        base: 19
-        per-level: .1
+        base: 22
+        per-level: .25
     max-mana:
-        base: 30
-        per-level: 1.3
+        base: 34
+        per-level: 1.5
     mana-regeneration:
-        base: .22
-        per-level: .04
+        base: .26
+        per-level: .05
     health-regeneration:
-        base: .14
-        per-level: 0
+        base: .18
+        per-level: .01
 
 skills:
     # Skill kế thừa từ Pháp Sư.

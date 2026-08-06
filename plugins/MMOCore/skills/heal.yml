@@ -1,38 +1,23 @@
-name: Heal
+name: '&e✨ Thánh Quang Trị Liệu'
 lore:
-- Use this ability for a rapid
-- healing effect
+- '&7Dẫn lối ánh sáng thần thánh để hồi phục'
+- '&7ngay lập tức &a{heal} máu &7cho bản thân.'
 - ''
-- '&e{cooldown}s Cooldown'
-- '&9Costs {mana} {mana_name}'
-material: BOOK
-timer:
-  base: 0
-  per-level: 0
-  min: 0
-  max: 0
-  #Optional: The decimal format used for this skill parameter.
-  decimal-format: '0.#'
-delay:
-  base: 2
-  per-level: 0.1
-  min: 0
-  max: 0
-mana:
-  base: 4
-  per-level: 0.2
-stamina:
-  base: 0
-  per-level: 0
-  min: 0
-  max: 0
-cooldown:
-  base: 10
-  per-level: -0.1
-  min: 7.1
-  max: 10
+- '&e⌛ Hồi chiêu: &f{cooldown}s'
+- '&e✚ Tiêu hao: &f{mana} {mana_name}'
+material: GOLDEN_APPLE
 heal:
-  base: 4
-  per-level: 0.2
-  min: 4
-  max: 9.8
+  base: 6.0
+  per-level: 2.0
+  min: 6.0
+  max: 64.0
+mana:
+  base: 15.0
+  per-level: 1.0
+  min: 15.0
+  max: 44.0
+cooldown:
+  base: 12.0
+  per-level: -0.15
+  min: 5.0
+  max: 12.0

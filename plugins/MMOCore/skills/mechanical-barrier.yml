@@ -1,13 +1,29 @@
-name: Lá Chắn Cơ Giới
+name: '&b🛡️ Khiên Cơ Giới'
 lore:
-- '&7Tạo lá chắn hấp thụ sát thương.'
-- '&7Khi kích hoạt, đẩy lùi kẻ địch ở gần.'
+- '&7Bật trường lá chắn Arcane cơ giới bảo vệ,'
+- '&7tạo &6{shield} lá chắn &7hấp thụ sát thương'
+- '&7và đẩy lùi kẻ địch xung quanh.'
 - ''
-- '&6⬡ {shield} lá chắn'
-- '&a⏱ {duration}s hiệu lực'
-- '&e⌛ {cooldown}s hồi chiêu'
+- '&e⌛ Hồi chiêu: &f{cooldown}s'
+- '&a⚡ Tiêu hao: &f{stamina} Thể Lực'
 material: SHIELD
-shield: { base: 6, per-level: 0.4, min: 6, max: 17.6 }
-duration: { base: 4, per-level: 0.1, min: 4, max: 6.9 }
-stamina: { base: 14, per-level: 0.2, min: 14, max: 19.8 }
-cooldown: { base: 16, per-level: -0.15, min: 11.65, max: 16 }
+shield:
+  base: 8.0
+  per-level: 2.0
+  min: 8.0
+  max: 66.0
+duration:
+  base: 4.0
+  per-level: 0.1
+  min: 4.0
+  max: 6.9
+stamina:
+  base: 14.0
+  per-level: 0.3
+  min: 14.0
+  max: 22.7
+cooldown:
+  base: 15.0
+  per-level: -0.15
+  min: 8.0
+  max: 15.0

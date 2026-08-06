@@ -1,12 +1,25 @@
-name: Quá Tải Ma Lực
+name: '&b⚡ Quá Tải Năng Lượng'
 lore:
-- '&7Nội tại, phải gắn vào ô skill.'
-- '&7Mỗi phát đánh tích một điện tích. Phát thứ năm'
-- '&7phóng điện, gây thêm sát thương diện rộng.'
+- '&7Bản năng tích điện ma pháp:'
+- '&7Mỗi đòn đánh tích 1 tầng năng lượng.'
+- '&7Đạt 5 tầng kích nổ gây &c{damage} &7sát thương'
+- '&7phép diện rộng lên kẻ địch xung quanh.'
 - ''
-- '&c⚔ {damage} sát thương cộng thêm'
+- '&a⚡ Tiêu hao: &f{stamina} Thể Lực'
 material: REDSTONE
 passive-type: ATTACK
-damage: { base: 5, per-level: 0.35, min: 5, max: 15.15 }
-stamina: { base: 0, per-level: 0, min: 0, max: 0 }
-cooldown: { base: 0, per-level: 0, min: 0, max: 0 }
+damage:
+  base: 10.0
+  per-level: 3.0
+  min: 10.0
+  max: 97.0
+stamina:
+  base: 0.0
+  per-level: 0.0
+  min: 0.0
+  max: 0.0
+cooldown:
+  base: 0.0
+  per-level: 0.0
+  min: 0.0
+  max: 0.0

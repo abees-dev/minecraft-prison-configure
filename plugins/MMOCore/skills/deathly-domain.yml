@@ -1,13 +1,29 @@
-name: Vực Tử Linh
+name: '&3🔮 Vùng Đất Chết'
 lore:
-- '&7Tạo một vùng Tử Khí gây sát thương theo nhịp'
-- '&7và làm chậm mọi kẻ địch bên trong.'
+- '&7Triệu hồi một vùng Tử Khí duy trì trong &a{duration}s&7,'
+- '&7gây &c{damage} &7sát thương phép liên tục'
+- '&7và làm chậm kẻ địch đi vào.'
 - ''
-- '&c⚔ {damage} sát thương mỗi nhịp'
-- '&a⏱ {duration}s tồn tại'
-- '&e⌛ {cooldown}s hồi chiêu'
+- '&e⌛ Hồi chiêu: &f{cooldown}s'
+- '&3☠ Tiêu hao: &f{mana} {mana_name}'
 material: SCULK
-damage: { base: 2, per-level: 0.18, min: 2, max: 7.22 }
-duration: { base: 4, per-level: 0.1, min: 4, max: 6.9 }
-mana: { base: 22, per-level: 0.3, min: 22, max: 30.7 }
-cooldown: { base: 19, per-level: -0.2, min: 13.2, max: 19 }
+damage:
+  base: 4.0
+  per-level: 1.2
+  min: 4.0
+  max: 38.8
+duration:
+  base: 4.0
+  per-level: 0.1
+  min: 4.0
+  max: 6.9
+mana:
+  base: 22.0
+  per-level: 0.4
+  min: 22.0
+  max: 33.6
+cooldown:
+  base: 18.0
+  per-level: -0.2
+  min: 9.0
+  max: 18.0
