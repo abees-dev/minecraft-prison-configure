@@ -1408,6 +1408,8 @@ STONE_SWORD:
   beastmaster:beastmaster_crossbow: 2047
   beastmaster:beastmaster_crossbow_shiny: 2048
   death_knight:death_knight_necroslayer: 2082
+  artificer:artificer_blaster: 2062
+  artificer:artificer_blaster_shiny: 2063
 DIAMOND_SWORD:
   fantasy_weapons:azure_greatsword: 10000
   dark-angel-set:dark-angel-sword: 10001
@@ -2179,6 +2181,13 @@ COAL:
   death_knight:icon_phantom_charge: 2263
   death_knight:icon_soul_barrier: 2264
   death_knight:icon_wraithbound_chains: 2265
+  artificer:icon_arcane_blast: 2200
+  artificer:icon_arcane_mecha: 2201
+  artificer:icon_arcane_turret: 2202
+  artificer:icon_chrono_cataclysm: 2203
+  artificer:icon_engine_glide: 2204
+  artificer:icon_flamethrower: 2205
+  artificer:icon_magical_tinkering: 2206
 SEA_LANTERN:
   protocalset:protocal_chest: 10000
   protocalset:protocal_chest_opening: 10001

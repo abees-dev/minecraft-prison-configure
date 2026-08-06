@@ -1,0 +1,76 @@
+info:
+  namespace: artificer
+items:
+  artificer_blaster:
+    display_name: "artificer_blaster"
+    permission: artificer_blaster
+    resource:
+      material: STONE_SWORD
+      model_id: 2062
+      generate: false
+      model_path: artificer_model/artificer_blaster
+  artificer_blaster_shiny:
+    display_name: "artificer_blaster_shiny"
+    permission: artificer_blaster_shiny
+    resource:
+      material: STONE_SWORD
+      model_id: 2063
+      generate: false
+      model_path: artificer_model/artificer_blaster_shiny
+  icon_arcane_blast:
+    display_name: "icon_arcane_blast"
+    permission: icon_arcane_blast
+    resource:
+      material: COAL
+      model_id: 2200
+      generate: false
+      model_path: artificer_model/icon_arcane_blast
+  icon_arcane_mecha:
+    display_name: "icon_arcane_mecha"
+    permission: icon_arcane_mecha
+    resource:
+      material: COAL
+      model_id: 2201
+      generate: false
+      model_path: artificer_model/icon_arcane_mecha
+  icon_arcane_turret:
+    display_name: "icon_arcane_turret"
+    permission: icon_arcane_turret
+    resource:
+      material: COAL
+      model_id: 2202
+      generate: false
+      model_path: artificer_model/icon_arcane_turret
+  icon_chrono_cataclysm:
+    display_name: "icon_chrono_cataclysm"
+    permission: icon_chrono_cataclysm
+    resource:
+      material: COAL
+      model_id: 2203
+      generate: false
+      model_path: artificer_model/icon_chrono_cataclysm
+  icon_engine_glide:
+    display_name: "icon_engine_glide"
+    permission: icon_engine_glide
+    resource:
+      material: COAL
+      model_id: 2204
+      generate: false
+      model_path: artificer_model/icon_engine_glide
+  icon_flamethrower:
+    display_name: "icon_flamethrower"
+    permission: icon_flamethrower
+    resource:
+      material: COAL
+      model_id: 2205
+      generate: false
+      model_path: artificer_model/icon_flamethrower
+  icon_magical_tinkering:
+    display_name: "icon_magical_tinkering"
+    permission: icon_magical_tinkering
+    resource:
+      material: COAL
+      model_id: 2206
+      generate: false
+      model_path: artificer_model/icon_magical_tinkering
+  
