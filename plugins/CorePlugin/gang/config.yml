@@ -554,11 +554,11 @@ storage:
     pool-size: 4
 war:
   enabled: true
-  duration-minutes: 30
-  countdown-seconds: 240
-  win-points: 3000
-  points-per-second: 1
-  kill-points: 5
+  duration-minutes: 10
+  countdown-seconds: 160
+  win-points: 500
+  points-per-second: 3
+  kill-points: 20
   boss-mob-id: TONG_QUAN_NGUC
   boss-kill-points: 100
   lives:
@@ -628,9 +628,9 @@ war:
     boss:
       enabled: true
       mob-id: TONG_QUAN_NGUC
-      interval-seconds: 300
+      interval-seconds: 60
       spawn-at-match-start: true
-      max-alive: 1
+      max-alive: 2
       kill-points: 100
   schedule:
     enabled: true
