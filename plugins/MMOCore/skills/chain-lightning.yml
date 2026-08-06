@@ -1,21 +1,21 @@
-name: '&e⚡ Lôi Liên Kích'
+name: '&eLôi Liên Kích'
 lore:
 - '&7Phóng luồng sét nảy qua nhiều kẻ địch,'
 - '&7gây &c{damage} &7sát thương Lôi linh lực.'
 - ''
-- '&e⌛ Hồi chiêu: &f{cooldown}s'
-- '&e✚ Tiêu hao: &f{mana} {mana_name}'
+- '&eHồi chiêu: &f{cooldown}s'
+- '&9Tiêu hao: &f{mana} {mana_name}'
 material: LIGHTNING_ROD
 damage:
-  base: 10.0
-  per-level: 3.0
-  min: 10.0
-  max: 97.0
+  base: 11.0
+  per-level: 0.9
+  min: 11.0
+  max: 37.1
 mana:
   base: 12.0
-  per-level: 0.3
+  per-level: 0.0
   min: 12.0
-  max: 20.7
+  max: 12.0
 cooldown:
   base: 7.0
   per-level: -0.1

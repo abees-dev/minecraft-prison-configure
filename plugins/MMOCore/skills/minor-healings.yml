@@ -8,21 +8,14 @@ lore:
 material: GOLDEN_APPLE
 mana:
   base: 8.0
-  per-level: 0.1
+  per-level: 0.0
   min: 8.0
-  max: 10.9
-  #Optional: The decimal format used for this skill parameter.
-  decimal-format: '0.#'
-stamina:
-  base: 2.0
-  per-level: 1.0
-  max: 0.0
-  min: 0.0
+  max: 8.0
 heal:
-  base: 4.0
-  per-level: 0.2
-  min: 4.0
-  max: 9.8
+  base: 5.0
+  per-level: 0.35
+  min: 5.0
+  max: 15.15
 cooldown:
   base: 12.0
   per-level: -0.1

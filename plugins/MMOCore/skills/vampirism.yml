@@ -1,11 +1,10 @@
-name: '&4🩸 Huyết Ma Hút Sinh Lực'
+name: '&4Huyết Ma Hút Sinh Lực'
 lore:
 - '&7Bản năng ma huyết giúp chuyển hóa sát thương'
 - '&7gây ra cho kẻ địch thành máu phục hồi'
 - '&7tương đương &a{drain}% &7lượng sát thương.'
 - ''
-- '&e⌛ Hồi chiêu: &f{cooldown}s'
-- '&4♦ Tiêu hao: &f{mana} {mana_name}'
+- '&eHồi chiêu: &f{cooldown}s'
 material: REDSTONE
 drain:
   base: 15.0
@@ -13,10 +12,10 @@ drain:
   min: 15.0
   max: 44.0
 mana:
-  base: 5.0
-  per-level: 0.2
-  min: 5.0
-  max: 10.8
+  base: 0.0
+  per-level: 0.0
+  min: 0.0
+  max: 0.0
 cooldown:
   base: 12.0
   per-level: -0.15

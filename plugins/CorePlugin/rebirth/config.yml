@@ -145,6 +145,8 @@ class-evolution:
         - COMBO_ATTACK
         - EVADE
         - MINOR_HEALINGS
+        - EXPLOSIVE_ARROW
+        - ARROW_SHOWER
       new-skills:
         - ARCANE_ROUND
         - DETONATION_SHOT

@@ -30,9 +30,6 @@ mana:
   per-level: 1.1
   min: 0
   max: 0
-stamina:
-  base: 2
-  per-level: 1
 cooldown:
   base: 2
   per-level: 1

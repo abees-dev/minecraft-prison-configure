@@ -27,11 +27,6 @@ heal:
   per-level: 1
   min: 2
   max: 4
-stamina:
-  base: 0
-  per-level: 0
-  min: 0
-  max: 0
 cooldown:
   base: 0
   per-level: 0

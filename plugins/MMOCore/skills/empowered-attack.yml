@@ -9,17 +9,10 @@ lore:
 - '&4♦ Tiêu hao: &f{mana} {mana_name}'
 material: BONE_MEAL
 mana:
-  base: 7.0
-  per-level: 0.1
-  min: 7.0
-  max: 9.9
-  #Optional: The decimal format used for this skill parameter.
-  decimal-format: '0.#'
-stamina:
-  base: 2.0
-  per-level: 1.0
-  max: 0.0
-  min: 0.0
+  base: 10.0
+  per-level: 0.0
+  min: 10.0
+  max: 10.0
 extra:
   base: 25.0
   per-level: 1.5

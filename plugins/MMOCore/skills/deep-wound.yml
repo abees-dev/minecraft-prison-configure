@@ -1,23 +1,22 @@
-name: '&c⚔️ Trảm Thể Vết Thương Sâu'
+name: '&cTrảm Thể Vết Thương Sâu'
 lore:
 - '&7Vung kiếm đâm xuyên giáp mục tiêu,'
 - '&7gây &c{damage} &7sát thương vật lý.'
 - '&7Thêm tối đa &c+{extra}% &7sát thương'
 - '&7dựa trên lượng máu kẻ địch đã mất.'
 - ''
-- '&e⌛ Hồi chiêu: &f{cooldown}s'
-- '&4♦ Tiêu hao: &f{mana} {mana_name}'
+- '&eHồi chiêu: &f{cooldown}s'
 material: NETHERITE_SWORD
 damage:
   base: 8.0
-  per-level: 2.5
+  per-level: 0.8
   min: 8.0
-  max: 80.0
+  max: 31.2
 mana:
   base: 6.0
-  per-level: 0.2
+  per-level: 0.0
   min: 6.0
-  max: 12.0
+  max: 6.0
 extra:
   base: 20.0
   per-level: 1.0

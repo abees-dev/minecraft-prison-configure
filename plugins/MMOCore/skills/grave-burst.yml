@@ -1,22 +1,22 @@
-name: '&3🪦 Địa Ngục Bùng Nổ'
+name: '&3Địa Ngục Bùng Nổ'
 lore:
 - '&7Ngưng tụ linh lực tà thuật tạo vụ nổ địa ngục,'
 - '&7gây &c{damage} &7sát thương diện rộng và hất tung'
 - '&7kẻ địch không kịp né tránh.'
 - ''
-- '&e⌛ Hồi chiêu: &f{cooldown}s'
-- '&3☠ Tiêu hao: &f{mana} {mana_name}'
+- '&eHồi chiêu: &f{cooldown}s'
+- '&9Tiêu hao: &f{mana} Mana'
 material: BONE
 damage:
-  base: 15.0
-  per-level: 4.0
-  min: 15.0
-  max: 131.0
+  base: 16.0
+  per-level: 1.15
+  min: 16.0
+  max: 49.35
 mana:
-  base: 18.0
-  per-level: 0.4
-  min: 18.0
-  max: 29.6
+  base: 16.0
+  per-level: 0.0
+  min: 16.0
+  max: 16.0
 cooldown:
   base: 11.0
   per-level: -0.15

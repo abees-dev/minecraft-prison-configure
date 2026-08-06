@@ -1,27 +1,27 @@
-name: '&c🌋 Long Ngâm Thần Uy'
+name: '&cLong Ngâm Thần Uy'
 lore:
 - '&7Gầm lên rung chuyển đất trời với thần uy Long Tộc,'
 - '&7gây &c{damage} &7sát thương diện rộng và'
 - '&7làm chậm kẻ địch xung quanh trong &b{duration}s&7.'
 - ''
-- '&e⌛ Hồi chiêu: &f{cooldown}s'
-- '&4♦ Tiêu hao: &f{mana} {mana_name}'
+- '&eHồi chiêu: &f{cooldown}s'
+- '&9Tiêu hao: &f{mana} {mana_name}'
 material: DRAGON_BREATH
 damage:
-  base: 14.0
-  per-level: 3.5
-  min: 14.0
-  max: 115.0
+  base: 15.0
+  per-level: 1.0
+  min: 15.0
+  max: 44.0
 duration:
   base: 3.0
   per-level: 0.1
   min: 3.0
   max: 6.0
 mana:
-  base: 15.0
-  per-level: 0.3
-  min: 15.0
-  max: 24.0
+  base: 18.0
+  per-level: 0.0
+  min: 18.0
+  max: 18.0
 cooldown:
   base: 16.0
   per-level: -0.2

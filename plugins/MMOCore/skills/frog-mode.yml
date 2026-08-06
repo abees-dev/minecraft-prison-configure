@@ -26,11 +26,6 @@ delay:
 mana:
   base: 2
   per-level: 1
-stamina:
-  base: 2
-  per-level: 1
-  min: 0
-  max: 0
 cooldown:
   base: 2
   per-level: 1

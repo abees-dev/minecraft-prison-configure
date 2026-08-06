@@ -1,13 +1,10 @@
-name: Explosive Arrow
+name: '&aTiễn Nổ Xuyên Phá'
 lore:
-- "&7&m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
-- ""
-- "&7Fire an explosive arrow that causes a small explosion on every"
-- "&7enemy it penetrates, and a huge explosion when landed on a block."
-- "&c🗡 {damage} Damage"
-- "&e⌛ {cooldown}s Cooldown"
-- ""
-- "&7&m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+- '&7Bắn mũi tên nổ xuyên qua kẻ địch,'
+- '&7gây &c{damage} &7sát thương và phát nổ khi chạm đất.'
+- ''
+- '&eHồi chiêu: &f{cooldown}s'
+- '&9Tiêu hao: &f{mana} {mana_name}'
 material: 'COAL:2226'
 timer:
   base: 0
@@ -15,20 +12,15 @@ timer:
   min: 0
   max: 0
 damage:
-  base: 5
-  per-level: 1
-  min: 5
-  max: 8
+  base: 9.0
+  per-level: 0.8
+  min: 9.0
+  max: 32.2
 mana:
-  base: 0
-  per-level: 0
-  min: 0
-  max: 0
-stamina:
-  base: 0
-  per-level: 0
-  min: 0
-  max: 0
+  base: 12.0
+  per-level: 0.0
+  min: 12.0
+  max: 12.0
 cooldown:
   base: 3
   per-level: -0.1

@@ -1,11 +1,10 @@
-name: '&e🛡️ Vảy Rồng Hỏa Phượng'
+name: '&eVảy Rồng Hỏa Phượng'
 lore:
 - '&7Bản năng vảy rồng kiên cố bảo vệ,'
 - '&7tăng mạnh Kháng sát thương và Kháng đẩy lùi'
 - '&7khi bị tấn công trong &a{duration}s&7.'
 - ''
-- '&e⌛ Hồi chiêu: &f{cooldown}s'
-- '&4♦ Tiêu hao: &f{mana} {mana_name}'
+- '&eHồi chiêu: &f{cooldown}s'
 material: SCUTE
 passive-type: DAMAGED
 duration:

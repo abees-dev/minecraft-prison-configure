@@ -1,16 +1,16 @@
-name: '&d🌀 Tốc Dịch Hư Không'
+name: '&dTốc Dịch Hư Không'
 lore:
 - '&7Dịch chuyển tức thời đến vị trí mục tiêu'
 - '&7trong khoảng cách &5{range}m&7.'
 - ''
-- '&e⌛ Hồi chiêu: &f{cooldown}s'
-- '&9⭐ Tiêu hao: &f{mana} {mana_name}'
+- '&eHồi chiêu: &f{cooldown}s'
+- '&9Tiêu hao: &f{mana} Mana'
 material: ENDER_PEARL
 mana:
-  base: 15.0
-  per-level: 1.0
-  min: 15.0
-  max: 44.0
+  base: 10.0
+  per-level: 0.0
+  min: 10.0
+  max: 10.0
 cooldown:
   base: 12.0
   per-level: -0.2

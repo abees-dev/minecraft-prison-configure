@@ -1,17 +1,16 @@
-name: '&e🛡️ Khiên Chắn Cuồng Bạo'
+name: '&eKhiên Chắn Cuồng Bạo'
 lore:
 - '&7Tạo 4 lớp khiên năng lượng bảo vệ bản thân,'
 - '&7đẩy lùi kẻ địch xung quanh và đỡ các đòn đánh'
 - '&7nhận vào mà không tốn máu.'
 - ''
-- '&e⌛ Hồi chiêu: &f{cooldown}s'
-- '&4♦ Tiêu hao: &f{mana} {mana_name}'
+- '&eHồi chiêu: &f{cooldown}s'
 material: SHIELD
 mana:
-  base: 10.0
-  per-level: 0.3
-  min: 10.0
-  max: 20.0
+  base: 0.0
+  per-level: 0.0
+  min: 0.0
+  max: 0.0
 cooldown:
   base: 14.0
   per-level: -0.2
