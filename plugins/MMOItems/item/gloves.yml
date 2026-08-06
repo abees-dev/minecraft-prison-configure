@@ -1,15 +1,15 @@
-TRADE_GLOVES_HOA_LONG:
+﻿TRADE_GLOVES_HOA_LONG:
   itemsadder-item: "rings_pack:glove_17"
   base:
     lore-format: jewelry-simple
     custom-maxsockets: 5.0
-    revision-id: 6
+    revision-id: 7
     material: PAPER
     custom-model-data: 19517
     name: "&6&l🔥 Găng Tay Hỏa Long"
     tier: RARE
     set: HOA_LONG_SET
-    attack-speed: 25
+    physical-damage: 20
     critical-strike-power: 20
     unstackable: true
     enchants:
@@ -25,13 +25,13 @@ TRADE_GLOVES_HAC_LONG:
   base:
     lore-format: jewelry-simple
     custom-maxsockets: 5.0
-    revision-id: 6
+    revision-id: 7
     material: PAPER
     custom-model-data: 19509
     name: "&5&l◆ Găng Tay Hắc Long"
     tier: UNIQUE
     set: HAC_LONG_SET
-    attack-speed: 20
+    skill-damage: 15
     magic-damage: 30
     unstackable: true
     enchants:
@@ -47,13 +47,13 @@ TRADE_GLOVES_LOI_LONG:
   base:
     lore-format: jewelry-simple
     custom-maxsockets: 5.0
-    revision-id: 6
+    revision-id: 7
     material: PAPER
     custom-model-data: 19574
     name: "&e&l⚡ Găng Tay Lôi Long"
     tier: LEGENDARY
     set: LOI_LONG_SET
-    attack-speed: 35
+    physical-damage: 25
     lifesteal: 8
     unstackable: true
     enchants:
@@ -69,13 +69,13 @@ TRADE_GLOVES_PHONG_LONG:
   base:
     lore-format: jewelry-simple
     custom-maxsockets: 5.0
-    revision-id: 6
+    revision-id: 7
     material: PAPER
     custom-model-data: 19510
     name: "&2&l✦ Găng Tay Phong Long"
     tier: MYTHICAL
     set: PHONG_LONG_SET
-    attack-speed: 25
+    cooldown-reduction: 10
     dodge-rating: 15
     unstackable: true
     enchants:
@@ -91,13 +91,13 @@ TRADE_GLOVES_BANG_LONG:
   base:
     lore-format: jewelry-simple
     custom-maxsockets: 5.0
-    revision-id: 6
+    revision-id: 7
     material: PAPER
     custom-model-data: 19591
     name: "&3&l✦ Găng Tay Băng Long"
     tier: EPIC
     set: BANG_LONG_SET
-    attack-speed: 15
+    block-rating: 10
     defense: 15
     max-health: 100
     unstackable: true
@@ -114,13 +114,13 @@ DONATE_GLOVES_LONG_CHIEN:
   base:
     lore-format: jewelry-simple
     custom-maxsockets: 5.0
-    revision-id: 6
+    revision-id: 7
     material: PAPER
     custom-model-data: 19513
     name: "&e&l⚔ Găng Tay Chiến Long"
     tier: MYTHICAL
     set: LONG_CHIEN_SET
-    attack-speed: 25
+    physical-damage: 20
     critical-strike-power: 20
     unstackable: true
     enchants:
@@ -136,13 +136,13 @@ DONATE_GLOVES_LONG_THAN:
   base:
     lore-format: jewelry-simple
     custom-maxsockets: 5.0
-    revision-id: 6
+    revision-id: 7
     material: PAPER
     custom-model-data: 19596
     name: "&b&l✦ Găng Tay Thần Long"
     tier: MYTHICAL
     set: LONG_THAN_SET
-    attack-speed: 20
+    skill-damage: 15
     magic-damage: 30
     unstackable: true
     enchants:
@@ -158,13 +158,13 @@ DONATE_GLOVES_LONG_HOANG:
   base:
     lore-format: jewelry-simple
     custom-maxsockets: 5.0
-    revision-id: 6
+    revision-id: 7
     material: PAPER
     custom-model-data: 19586
     name: "&c&l★ Găng Tay Hoàng Long"
     tier: UNIQUE
     set: LONG_HOANG_SET
-    attack-speed: 35
+    physical-damage: 25
     lifesteal: 8
     unstackable: true
     enchants:
@@ -180,13 +180,13 @@ DONATE_GLOVES_LONG_DE:
   base:
     lore-format: jewelry-simple
     custom-maxsockets: 5.0
-    revision-id: 6
+    revision-id: 7
     material: PAPER
     custom-model-data: 19589
     name: "&4&l◆ Găng Tay Đế Long"
     tier: UNIQUE
     set: LONG_DE_SET
-    attack-speed: 25
+    cooldown-reduction: 10
     dodge-rating: 15
     unstackable: true
     enchants:
@@ -202,13 +202,13 @@ DONATE_GLOVES_LONG_VE:
   base:
     lore-format: jewelry-simple
     custom-maxsockets: 5.0
-    revision-id: 6
+    revision-id: 7
     material: PAPER
     custom-model-data: 19567
     name: "&a&l✦ Găng Tay Hộ Long"
     tier: LEGENDARY
     set: LONG_VE_SET
-    attack-speed: 15
+    block-rating: 10
     defense: 15
     max-health: 100
     unstackable: true
@@ -225,13 +225,13 @@ FREE_GLOVES_THANH_LONG:
   base:
     lore-format: jewelry-simple
     custom-maxsockets: 2.0
-    revision-id: 6
+    revision-id: 7
     material: PAPER
     custom-model-data: 19562
     name: "&b&l⚡ Găng Tay Thanh Long"
     tier: UNIQUE
     set: THANH_LONG_SET
-    attack-speed: 25
+    physical-damage: 20
     critical-strike-power: 20
     unstackable: true
     enchants:
@@ -247,13 +247,13 @@ FREE_GLOVES_XICH_LONG:
   base:
     lore-format: jewelry-simple
     custom-maxsockets: 2.0
-    revision-id: 6
+    revision-id: 7
     material: PAPER
     custom-model-data: 19534
     name: "&c&l🔥 Găng Tay Xích Long"
     tier: UNIQUE
     set: XICH_LONG_SET
-    attack-speed: 20
+    skill-damage: 15
     magic-damage: 30
     unstackable: true
     enchants:
@@ -269,13 +269,13 @@ FREE_GLOVES_KIM_LONG:
   base:
     lore-format: jewelry-simple
     custom-maxsockets: 2.0
-    revision-id: 6
+    revision-id: 7
     material: PAPER
     custom-model-data: 19580
     name: "&e&l★ Găng Tay Kim Long"
     tier: UNIQUE
     set: KIM_LONG_SET
-    attack-speed: 35
+    physical-damage: 25
     lifesteal: 8
     unstackable: true
     enchants:
@@ -291,13 +291,13 @@ FREE_GLOVES_THIEN_LONG:
   base:
     lore-format: jewelry-simple
     custom-maxsockets: 2.0
-    revision-id: 6
+    revision-id: 7
     material: PAPER
     custom-model-data: 19600
     name: "&d&l✦ Găng Tay Thiên Long"
     tier: UNIQUE
     set: THIEN_LONG_SET
-    attack-speed: 25
+    cooldown-reduction: 10
     dodge-rating: 15
     unstackable: true
     enchants:
@@ -313,13 +313,13 @@ FREE_GLOVES_BAC_LONG:
   base:
     lore-format: jewelry-simple
     custom-maxsockets: 2.0
-    revision-id: 6
+    revision-id: 7
     material: PAPER
     custom-model-data: 19566
     name: "&f&l✧ Găng Tay Bạch Long"
     tier: UNIQUE
     set: BAC_LONG_SET
-    attack-speed: 15
+    block-rating: 10
     defense: 15
     max-health: 100
     unstackable: true

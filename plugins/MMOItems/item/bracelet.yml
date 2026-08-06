@@ -1,9 +1,9 @@
-TRADE_BRACELET_HOA_LONG:
+﻿TRADE_BRACELET_HOA_LONG:
   itemsadder-item: "rings_pack:ring_81"
   base:
     lore-format: jewelry-simple
     custom-maxsockets: 5.0
-    revision-id: 6
+    revision-id: 7
     material: PAPER
     custom-model-data: 19081
     name: "&6&l🔥 Vòng Tay Hỏa Long"
@@ -25,7 +25,7 @@ TRADE_BRACELET_HAC_LONG:
   base:
     lore-format: jewelry-simple
     custom-maxsockets: 5.0
-    revision-id: 6
+    revision-id: 7
     material: PAPER
     custom-model-data: 19017
     name: "&5&l◆ Vòng Tay Hắc Long"
@@ -47,14 +47,14 @@ TRADE_BRACELET_LOI_LONG:
   base:
     lore-format: jewelry-simple
     custom-maxsockets: 5.0
-    revision-id: 6
+    revision-id: 7
     material: PAPER
     custom-model-data: 19009
     name: "&e&l⚡ Vòng Tay Lôi Long"
     tier: LEGENDARY
     set: LOI_LONG_SET
     lifesteal: 12
-    attack-speed: 15
+    physical-damage: 20
     unstackable: true
     enchants:
       unbreaking: 1
@@ -69,7 +69,7 @@ TRADE_BRACELET_PHONG_LONG:
   base:
     lore-format: jewelry-simple
     custom-maxsockets: 5.0
-    revision-id: 6
+    revision-id: 7
     material: PAPER
     custom-model-data: 19023
     name: "&2&l✦ Vòng Tay Phong Long"
@@ -91,7 +91,7 @@ TRADE_BRACELET_BANG_LONG:
   base:
     lore-format: jewelry-simple
     custom-maxsockets: 5.0
-    revision-id: 6
+    revision-id: 7
     material: PAPER
     custom-model-data: 19001
     name: "&3&l✦ Vòng Tay Băng Long"
@@ -114,7 +114,7 @@ DONATE_BRACELET_LONG_CHIEN:
   base:
     lore-format: jewelry-simple
     custom-maxsockets: 5.0
-    revision-id: 6
+    revision-id: 7
     material: PAPER
     custom-model-data: 19059
     name: "&e&l⚔ Vòng Tay Chiến Long"
@@ -136,7 +136,7 @@ DONATE_BRACELET_LONG_THAN:
   base:
     lore-format: jewelry-simple
     custom-maxsockets: 5.0
-    revision-id: 6
+    revision-id: 7
     material: PAPER
     custom-model-data: 19107
     name: "&b&l✦ Vòng Tay Thần Long"
@@ -158,14 +158,14 @@ DONATE_BRACELET_LONG_HOANG:
   base:
     lore-format: jewelry-simple
     custom-maxsockets: 5.0
-    revision-id: 6
+    revision-id: 7
     material: PAPER
     custom-model-data: 19002
     name: "&c&l★ Vòng Tay Hoàng Long"
     tier: UNIQUE
     set: LONG_HOANG_SET
     lifesteal: 12
-    attack-speed: 15
+    physical-damage: 20
     unstackable: true
     enchants:
       unbreaking: 1
@@ -180,7 +180,7 @@ DONATE_BRACELET_LONG_DE:
   base:
     lore-format: jewelry-simple
     custom-maxsockets: 5.0
-    revision-id: 6
+    revision-id: 7
     material: PAPER
     custom-model-data: 19007
     name: "&4&l◆ Vòng Tay Đế Long"
@@ -202,7 +202,7 @@ DONATE_BRACELET_LONG_VE:
   base:
     lore-format: jewelry-simple
     custom-maxsockets: 5.0
-    revision-id: 6
+    revision-id: 7
     material: PAPER
     custom-model-data: 19042
     name: "&a&l✦ Vòng Tay Hộ Long"
@@ -225,7 +225,7 @@ FREE_BRACELET_THANH_LONG:
   base:
     lore-format: jewelry-simple
     custom-maxsockets: 2.0
-    revision-id: 6
+    revision-id: 7
     material: PAPER
     custom-model-data: 19067
     name: "&b&l⚡ Vòng Tay Thanh Long"
@@ -247,7 +247,7 @@ FREE_BRACELET_XICH_LONG:
   base:
     lore-format: jewelry-simple
     custom-maxsockets: 2.0
-    revision-id: 6
+    revision-id: 7
     material: PAPER
     custom-model-data: 19011
     name: "&c&l🔥 Vòng Tay Xích Long"
@@ -269,14 +269,14 @@ FREE_BRACELET_KIM_LONG:
   base:
     lore-format: jewelry-simple
     custom-maxsockets: 2.0
-    revision-id: 6
+    revision-id: 7
     material: PAPER
     custom-model-data: 19032
     name: "&e&l★ Vòng Tay Kim Long"
     tier: UNIQUE
     set: KIM_LONG_SET
     lifesteal: 12
-    attack-speed: 15
+    physical-damage: 20
     unstackable: true
     enchants:
       unbreaking: 1
@@ -291,7 +291,7 @@ FREE_BRACELET_THIEN_LONG:
   base:
     lore-format: jewelry-simple
     custom-maxsockets: 2.0
-    revision-id: 6
+    revision-id: 7
     material: PAPER
     custom-model-data: 19005
     name: "&d&l✦ Vòng Tay Thiên Long"
@@ -313,7 +313,7 @@ FREE_BRACELET_BAC_LONG:
   base:
     lore-format: jewelry-simple
     custom-maxsockets: 2.0
-    revision-id: 6
+    revision-id: 7
     material: PAPER
     custom-model-data: 19066
     name: "&f&l✧ Vòng Tay Bạch Long"

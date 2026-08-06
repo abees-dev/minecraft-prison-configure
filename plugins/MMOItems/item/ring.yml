@@ -1,9 +1,9 @@
-TRADE_RING_HOA_LONG_1:
+﻿TRADE_RING_HOA_LONG_1:
   itemsadder-item: "rings_pack:ring_51"
   base:
     lore-format: jewelry-simple
     custom-maxsockets: 5.0
-    revision-id: 7
+    revision-id: 8
     material: PAPER
     custom-model-data: 19051
     name: "&6&l🔥 Nhẫn Hỏa Long I"
@@ -25,7 +25,7 @@ TRADE_RING_HOA_LONG_2:
   base:
     lore-format: jewelry-simple
     custom-maxsockets: 5.0
-    revision-id: 7
+    revision-id: 8
     material: PAPER
     custom-model-data: 19089
     name: "&6&l🔥 Nhẫn Hỏa Long II"
@@ -47,7 +47,7 @@ TRADE_RING_HAC_LONG_1:
   base:
     lore-format: jewelry-simple
     custom-maxsockets: 5.0
-    revision-id: 7
+    revision-id: 8
     material: PAPER
     custom-model-data: 19047
     name: "&5&l◆ Nhẫn Hắc Long I"
@@ -69,7 +69,7 @@ TRADE_RING_HAC_LONG_2:
   base:
     lore-format: jewelry-simple
     custom-maxsockets: 5.0
-    revision-id: 7
+    revision-id: 8
     material: PAPER
     custom-model-data: 19049
     name: "&5&l◆ Nhẫn Hắc Long II"
@@ -91,14 +91,14 @@ TRADE_RING_LOI_LONG_1:
   base:
     lore-format: jewelry-simple
     custom-maxsockets: 5.0
-    revision-id: 7
+    revision-id: 8
     material: PAPER
     custom-model-data: 19029
     name: "&e&l⚡ Nhẫn Lôi Long I"
     tier: LEGENDARY
     set: LOI_LONG_SET
     critical-strike-power: 30
-    attack-speed: 20
+    lifesteal: 8
     physical-damage: 15
     unstackable: true
     enchants:
@@ -114,14 +114,14 @@ TRADE_RING_LOI_LONG_2:
   base:
     lore-format: jewelry-simple
     custom-maxsockets: 5.0
-    revision-id: 7
+    revision-id: 8
     material: PAPER
     custom-model-data: 19094
     name: "&e&l⚡ Nhẫn Lôi Long II"
     tier: LEGENDARY
     set: LOI_LONG_SET
     critical-strike-power: 30
-    attack-speed: 20
+    lifesteal: 8
     physical-damage: 15
     unstackable: true
     enchants:
@@ -137,7 +137,7 @@ TRADE_RING_PHONG_LONG_1:
   base:
     lore-format: jewelry-simple
     custom-maxsockets: 5.0
-    revision-id: 7
+    revision-id: 8
     material: PAPER
     custom-model-data: 19055
     name: "&2&l✦ Nhẫn Phong Long I"
@@ -158,7 +158,7 @@ TRADE_RING_PHONG_LONG_2:
   base:
     lore-format: jewelry-simple
     custom-maxsockets: 5.0
-    revision-id: 7
+    revision-id: 8
     material: PAPER
     custom-model-data: 19109
     name: "&2&l✦ Nhẫn Phong Long II"
@@ -179,7 +179,7 @@ TRADE_RING_BANG_LONG_1:
   base:
     lore-format: jewelry-simple
     custom-maxsockets: 5.0
-    revision-id: 7
+    revision-id: 8
     material: PAPER
     custom-model-data: 19091
     name: "&3&l✦ Nhẫn Băng Long I"
@@ -202,7 +202,7 @@ TRADE_RING_BANG_LONG_2:
   base:
     lore-format: jewelry-simple
     custom-maxsockets: 5.0
-    revision-id: 7
+    revision-id: 8
     material: PAPER
     custom-model-data: 19039
     name: "&3&l✦ Nhẫn Băng Long II"
@@ -225,7 +225,7 @@ DONATE_RING_LONG_CHIEN_1:
   base:
     lore-format: jewelry-simple
     custom-maxsockets: 5.0
-    revision-id: 7
+    revision-id: 8
     material: PAPER
     custom-model-data: 19024
     name: "&e&l⚔ Nhẫn Chiến Long I"
@@ -247,7 +247,7 @@ DONATE_RING_LONG_CHIEN_2:
   base:
     lore-format: jewelry-simple
     custom-maxsockets: 5.0
-    revision-id: 7
+    revision-id: 8
     material: PAPER
     custom-model-data: 19014
     name: "&e&l⚔ Nhẫn Chiến Long II"
@@ -269,7 +269,7 @@ DONATE_RING_LONG_THAN_1:
   base:
     lore-format: jewelry-simple
     custom-maxsockets: 5.0
-    revision-id: 7
+    revision-id: 8
     material: PAPER
     custom-model-data: 19100
     name: "&b&l✦ Nhẫn Thần Long I"
@@ -291,7 +291,7 @@ DONATE_RING_LONG_THAN_2:
   base:
     lore-format: jewelry-simple
     custom-maxsockets: 5.0
-    revision-id: 7
+    revision-id: 8
     material: PAPER
     custom-model-data: 19090
     name: "&b&l✦ Nhẫn Thần Long II"
@@ -313,14 +313,14 @@ DONATE_RING_LONG_HOANG_1:
   base:
     lore-format: jewelry-simple
     custom-maxsockets: 5.0
-    revision-id: 7
+    revision-id: 8
     material: PAPER
     custom-model-data: 19101
     name: "&c&l★ Nhẫn Hoàng Long I"
     tier: UNIQUE
     set: LONG_HOANG_SET
     critical-strike-power: 30
-    attack-speed: 20
+    lifesteal: 8
     physical-damage: 15
     unstackable: true
     enchants:
@@ -336,14 +336,14 @@ DONATE_RING_LONG_HOANG_2:
   base:
     lore-format: jewelry-simple
     custom-maxsockets: 5.0
-    revision-id: 7
+    revision-id: 8
     material: PAPER
     custom-model-data: 19028
     name: "&c&l★ Nhẫn Hoàng Long II"
     tier: UNIQUE
     set: LONG_HOANG_SET
     critical-strike-power: 30
-    attack-speed: 20
+    lifesteal: 8
     physical-damage: 15
     unstackable: true
     enchants:
@@ -359,7 +359,7 @@ DONATE_RING_LONG_DE_1:
   base:
     lore-format: jewelry-simple
     custom-maxsockets: 5.0
-    revision-id: 7
+    revision-id: 8
     material: PAPER
     custom-model-data: 19068
     name: "&4&l◆ Nhẫn Đế Long I"
@@ -380,7 +380,7 @@ DONATE_RING_LONG_DE_2:
   base:
     lore-format: jewelry-simple
     custom-maxsockets: 5.0
-    revision-id: 7
+    revision-id: 8
     material: PAPER
     custom-model-data: 19061
     name: "&4&l◆ Nhẫn Đế Long II"
@@ -401,7 +401,7 @@ DONATE_RING_LONG_VE_1:
   base:
     lore-format: jewelry-simple
     custom-maxsockets: 5.0
-    revision-id: 7
+    revision-id: 8
     material: PAPER
     custom-model-data: 19075
     name: "&a&l✦ Nhẫn Hộ Long I"
@@ -424,7 +424,7 @@ DONATE_RING_LONG_VE_2:
   base:
     lore-format: jewelry-simple
     custom-maxsockets: 5.0
-    revision-id: 7
+    revision-id: 8
     material: PAPER
     custom-model-data: 19020
     name: "&a&l✦ Nhẫn Hộ Long II"
@@ -447,7 +447,7 @@ FREE_RING_THANH_LONG_1:
   base:
     lore-format: jewelry-simple
     custom-maxsockets: 2.0
-    revision-id: 7
+    revision-id: 8
     material: PAPER
     custom-model-data: 19092
     name: "&b&l⚡ Nhẫn Thanh Long I"
@@ -469,7 +469,7 @@ FREE_RING_THANH_LONG_2:
   base:
     lore-format: jewelry-simple
     custom-maxsockets: 2.0
-    revision-id: 7
+    revision-id: 8
     material: PAPER
     custom-model-data: 19106
     name: "&b&l⚡ Nhẫn Thanh Long II"
@@ -491,7 +491,7 @@ FREE_RING_XICH_LONG_1:
   base:
     lore-format: jewelry-simple
     custom-maxsockets: 2.0
-    revision-id: 7
+    revision-id: 8
     material: PAPER
     custom-model-data: 19071
     name: "&c&l🔥 Nhẫn Xích Long I"
@@ -513,7 +513,7 @@ FREE_RING_XICH_LONG_2:
   base:
     lore-format: jewelry-simple
     custom-maxsockets: 2.0
-    revision-id: 7
+    revision-id: 8
     material: PAPER
     custom-model-data: 19076
     name: "&c&l🔥 Nhẫn Xích Long II"
@@ -535,14 +535,14 @@ FREE_RING_KIM_LONG_1:
   base:
     lore-format: jewelry-simple
     custom-maxsockets: 2.0
-    revision-id: 7
+    revision-id: 8
     material: PAPER
     custom-model-data: 19070
     name: "&e&l★ Nhẫn Kim Long I"
     tier: UNIQUE
     set: KIM_LONG_SET
     critical-strike-power: 30
-    attack-speed: 20
+    lifesteal: 8
     physical-damage: 15
     unstackable: true
     enchants:
@@ -558,14 +558,14 @@ FREE_RING_KIM_LONG_2:
   base:
     lore-format: jewelry-simple
     custom-maxsockets: 2.0
-    revision-id: 7
+    revision-id: 8
     material: PAPER
     custom-model-data: 19082
     name: "&e&l★ Nhẫn Kim Long II"
     tier: UNIQUE
     set: KIM_LONG_SET
     critical-strike-power: 30
-    attack-speed: 20
+    lifesteal: 8
     physical-damage: 15
     unstackable: true
     enchants:
@@ -581,7 +581,7 @@ FREE_RING_THIEN_LONG_1:
   base:
     lore-format: jewelry-simple
     custom-maxsockets: 2.0
-    revision-id: 7
+    revision-id: 8
     material: PAPER
     custom-model-data: 19031
     name: "&d&l✦ Nhẫn Thiên Long I"
@@ -602,7 +602,7 @@ FREE_RING_THIEN_LONG_2:
   base:
     lore-format: jewelry-simple
     custom-maxsockets: 2.0
-    revision-id: 7
+    revision-id: 8
     material: PAPER
     custom-model-data: 19060
     name: "&d&l✦ Nhẫn Thiên Long II"
@@ -623,7 +623,7 @@ FREE_RING_BAC_LONG_1:
   base:
     lore-format: jewelry-simple
     custom-maxsockets: 2.0
-    revision-id: 7
+    revision-id: 8
     material: PAPER
     custom-model-data: 19093
     name: "&f&l✧ Nhẫn Bạch Long I"
@@ -646,7 +646,7 @@ FREE_RING_BAC_LONG_2:
   base:
     lore-format: jewelry-simple
     custom-maxsockets: 2.0
-    revision-id: 7
+    revision-id: 8
     material: PAPER
     custom-model-data: 19079
     name: "&f&l✧ Nhẫn Bạch Long II"

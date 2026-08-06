@@ -10,7 +10,7 @@ nodes:
 
 #### A
   a1:
-    name: 'Attack Speed'
+    name: 'Physical Damage'
     coordinates:
       x: -1
       y: 2
@@ -22,14 +22,14 @@ nodes:
     experience-table:
       first_table_item:
         triggers:
-          - 'stat{stat="ATTACK_SPEED";amount=5;type="RELATIVE"}'
+          - 'stat{stat="PHYSICAL_DAMAGE";amount=5;type="RELATIVE"}'
     lores:
       0:
-        - "&eThe speed at which your weapon strikes. +%5"
+        - "&eIncreases physical damage. +%5"
       1:
-        - "&eThe speed at which your weapon strikes. +%5"
+        - "&eIncreases physical damage. +%5"
   a2:
-    name: 'Attack Speed'
+    name: 'Physical Damage'
     coordinates:
       x: -2
       y: 1
@@ -44,14 +44,14 @@ nodes:
     experience-table:
       first_table_item:
         triggers:
-          - 'stat{stat="ATTACK_SPEED";amount=10;type="RELATIVE"}'
+          - 'stat{stat="PHYSICAL_DAMAGE";amount=10;type="RELATIVE"}'
     lores:
       0:
-        - "&eThe speed at which your weapon strikes. +%10"
+        - "&eIncreases physical damage. +%10"
       1:
-        - "&eThe speed at which your weapon strikes. +%10"
+        - "&eIncreases physical damage. +%10"
   a3:
-    name: 'Attack Speed'
+    name: 'Physical Damage'
     coordinates:
       x: -3
       y: 0
@@ -66,12 +66,12 @@ nodes:
     experience-table:
       first_table_item:
         triggers:
-          - 'stat{stat="ATTACK_SPEED";amount=15;type="RELATIVE"}'
+          - 'stat{stat="PHYSICAL_DAMAGE";amount=15;type="RELATIVE"}'
     lores:
       0:
-        - "&eThe speed at which your weapon strikes. +%15"
+        - "&eIncreases physical damage. +%15"
       1:
-        - "&eThe speed at which your weapon strikes. +%15"
+        - "&eIncreases physical damage. +%15"
 
 ## B
 

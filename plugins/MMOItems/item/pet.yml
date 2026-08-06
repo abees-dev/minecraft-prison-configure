@@ -1,4 +1,4 @@
-# Pet items (MMOItems type PET) — gắn vào ô Pet (slot 14) trong RPGInventory / MMOInventory
+﻿# Pet items (MMOItems type PET) — gắn vào ô Pet (slot 14) trong RPGInventory / MMOInventory
 # TRADE = DONATE chỉ số (Non-P2W). Phụ trợ đào: TODO CorePlugin (xem docs/pet-system-notes.md).
 # Material PLAYER_HEAD — skull-texture gắn sau.
 
@@ -10,7 +10,7 @@ TRADE_PET_HOA_LONG:
   base:
     lore-format: jewelry-simple
     custom-maxsockets: 5.0
-    revision-id: 2
+    revision-id: 3
     material: PLAYER_HEAD
     name: "&6&l🔥 Pet Hỏa Long"
     lore:
@@ -30,7 +30,7 @@ TRADE_PET_HAC_LONG:
   base:
     lore-format: jewelry-simple
     custom-maxsockets: 5.0
-    revision-id: 2
+    revision-id: 3
     material: PLAYER_HEAD
     name: "&5&l◆ Pet Hắc Long"
     lore:
@@ -50,14 +50,14 @@ TRADE_PET_LOI_LONG:
   base:
     lore-format: jewelry-simple
     custom-maxsockets: 5.0
-    revision-id: 2
+    revision-id: 3
     material: PLAYER_HEAD
     name: "&e&l⚡ Pet Lôi Long"
     lore:
-      - "&7Pet đồng hành — tốc đánh & hút máu."
+      - "&7Pet đồng hành — sát thương & hút máu."
       - "&e[Phụ trợ] &7Tự nhặt quặng (+3% bán) — &8sắp có"
     tier: LEGENDARY
-    attack-speed: 15.0
+    physical-damage: 12.0
     lifesteal: 4.0
     max-health: 30.0
     unstackable: true
@@ -70,7 +70,7 @@ TRADE_PET_PHONG_LONG:
   base:
     lore-format: jewelry-simple
     custom-maxsockets: 5.0
-    revision-id: 2
+    revision-id: 3
     material: PLAYER_HEAD
     name: "&2&l✦ Pet Phong Long"
     lore:
@@ -90,7 +90,7 @@ TRADE_PET_BANG_LONG:
   base:
     lore-format: jewelry-simple
     custom-maxsockets: 5.0
-    revision-id: 2
+    revision-id: 3
     material: PLAYER_HEAD
     name: "&3&l✦ Pet Băng Long"
     lore:
@@ -113,7 +113,7 @@ DONATE_PET_LONG_CHIEN:
   base:
     lore-format: jewelry-simple
     custom-maxsockets: 5.0
-    revision-id: 2
+    revision-id: 3
     material: PLAYER_HEAD
     name: "&e&l⚔ Pet Chiến Long"
     lore:
@@ -133,7 +133,7 @@ DONATE_PET_LONG_THAN:
   base:
     lore-format: jewelry-simple
     custom-maxsockets: 5.0
-    revision-id: 2
+    revision-id: 3
     material: PLAYER_HEAD
     name: "&d&l✦ Pet Thần Long"
     lore:
@@ -153,14 +153,14 @@ DONATE_PET_LONG_HOANG:
   base:
     lore-format: jewelry-simple
     custom-maxsockets: 5.0
-    revision-id: 2
+    revision-id: 3
     material: PLAYER_HEAD
     name: "&6&l👑 Pet Hoàng Long"
     lore:
-      - "&7Pet đồng hành — tốc đánh & hút máu."
+      - "&7Pet đồng hành — sát thương & hút máu."
       - "&e[Phụ trợ] &7Tự nhặt quặng (+8% bán) — &8sắp có"
     tier: LEGENDARY
-    attack-speed: 15.0
+    physical-damage: 12.0
     lifesteal: 4.0
     max-health: 30.0
     unstackable: true
@@ -173,7 +173,7 @@ DONATE_PET_LONG_DE:
   base:
     lore-format: jewelry-simple
     custom-maxsockets: 5.0
-    revision-id: 2
+    revision-id: 3
     material: PLAYER_HEAD
     name: "&a&l⚜ Pet Đế Long"
     lore:
@@ -193,7 +193,7 @@ DONATE_PET_LONG_VE:
   base:
     lore-format: jewelry-simple
     custom-maxsockets: 5.0
-    revision-id: 2
+    revision-id: 3
     material: PLAYER_HEAD
     name: "&b&l🛡 Pet Hộ Long"
     lore:
