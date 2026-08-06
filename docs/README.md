@@ -21,6 +21,7 @@
 2. Xem [`gangs.md`](player/gangs.md) cho Bang Hội, KOTH và Bang Chiến.
 3. Xem [`systems/rebirth-attributes.md`](systems/rebirth-attributes.md) cho Chuyển Sinh và điểm thuộc tính.
 4. Xem [`player/plots.md`](player/plots.md) cho khu đất cá nhân.
+5. Xem [`player/changelog.md`](player/changelog.md) để theo dõi các thay đổi gameplay mới nhất.
 
 ## Admin và vận hành
 

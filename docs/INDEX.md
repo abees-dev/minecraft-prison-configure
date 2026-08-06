@@ -14,6 +14,7 @@ Cập nhật: 2026-08-06. Bắt đầu tại [`README.md`](README.md).
 | [`quests.md`](player/quests.md) | Daily/Weekly Quest cá nhân |
 | [`rank-ores-mobs.md`](reference/rank-ores-mobs.md) | Bảng ore/mob theo rank cho quest |
 | [`pets.md`](player/pets.md) | Pet TRADE/DONATE và trạng thái tính năng |
+| [`changelog.md`](player/changelog.md) | Thông báo cập nhật gameplay dành cho member |
 
 ## Admin và hệ thống — live
 
