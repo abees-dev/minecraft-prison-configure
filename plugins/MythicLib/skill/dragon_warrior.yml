@@ -1,5 +1,6 @@
 DRAGON_SLASH:
     mythicmobs-skill-id: Dragon_Slash
+    passive-type: ATTACK
     modifiers:
     - damage
 

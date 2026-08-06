@@ -90,9 +90,12 @@ skills:
         max-level: 30
 
     # 4 skill mới của RPG Class Series | Dragon Warrior by SamusDev
+    # Slash: passive ATTACK — tự cast khi chém, không cần gắn ô / bấm skill bar
     DRAGON_SLASH:
         level: 1
         max-level: 30
+        trigger: ATTACK
+        needs-bound: false
     DRAGON_DASH:
         level: 1
         max-level: 30

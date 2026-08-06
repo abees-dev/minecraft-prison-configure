@@ -1,11 +1,12 @@
 name: Dragon Slash
 lore:
-- '&9Perform a dragon slash attack'
+- '&9Tự kích khi chém — đòn chém rồng'
 - ''
 - '&a{damage} Damage'
 - '&e{cooldown}s Cooldown'
 - '&9Costs {mana} {mana_name}'
 material: 'COAL:2079'
+passive-type: ATTACK
 damage:
   base: 4
   per-level: 1
