@@ -17,7 +17,7 @@ _DEFAULT_:
   customtabname: "%player%"
   tabsuffix: "%luckperms-suffix%"
   tagsuffix: "%luckperms-suffix%"
-  belowname: "&c❤ %mmocore_health%/%mmocore_max_health%"
+  belowname: "&c❤ %mmocore_health%/%mmocore_max_health% &9%mmocore_mana_icon%%mmocore_mana% &7⛨%mmocore_stat_armor% &a🛡%mmocore_stat_defense%"
 
 per-world:
   world1:

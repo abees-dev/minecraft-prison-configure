@@ -205,6 +205,7 @@ items:
         - '✤ Hồi Thể Lực: &9{stamina_regeneration} &7(&9{stamina_regeneration_base} &7+ &9{stamina_regeneration_extra}&7)'
         - ''
         - '❖ Giáp: &c{armor} &7(&c{armor_base} &7+ &c{armor_extra}&7)'
+        - '❖ Thủ: &a{defense} &7(&a{defense_base} &7+ &a{defense_extra}&7)'
         - '❖ Kháng Giáp: &c{armor_toughness} &7(&c{armor_toughness_base} &7+ &c{armor_toughness_extra}&7)'
     dex:
         slots: [33]

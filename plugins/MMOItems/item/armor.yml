@@ -1,7 +1,7 @@
-﻿TEST_ARMOR_FULL_STATS:
+TEST_ARMOR_FULL_STATS:
   base:
     custom-maxsockets: 7.0
-    revision-id: 3
+    revision-id: 4
     material: NETHERITE_CHESTPLATE
     name: "&c&l🛡 Áo Giáp Thử Nghiệm &e&l[FULL STATS]"
     tier: UNIQUE
@@ -10,10 +10,10 @@
     lore:
       - "&7Vật phẩm dùng để thử nghiệm toàn bộ chỉ số"
       - "&7và giao diện hiển thị Lore của Giáp MMOItems."
-    armor: 25.0
+    armor: 10.5
     armor-toughness: 10.0
     max-health: 50.0
-    defense: 15.0
+    defense: 29.5
     damage-reduction: 10.0
     fall-damage-reduction: 20.0
     fire-damage-reduction: 15.0
@@ -48,7 +48,7 @@
 HELMET_TAN_BINH_1:
   base:
     custom-maxsockets: 1.0
-    revision-id: 3
+    revision-id: 4
     material: LEATHER_HELMET
     name: "&fNón Tân Binh &e&lI"
     max-durability: 400
@@ -70,7 +70,7 @@ HELMET_TAN_BINH_1:
 HELMET_TAN_BINH_2:
   base:
     custom-maxsockets: 1.0
-    revision-id: 3
+    revision-id: 4
     material: LEATHER_HELMET
     name: "&fNón Tân Binh &e&lII"
     max-durability: 400
@@ -92,7 +92,7 @@ HELMET_TAN_BINH_2:
 HELMET_TAN_BINH_3:
   base:
     custom-maxsockets: 1.0
-    revision-id: 3
+    revision-id: 4
     material: LEATHER_HELMET
     name: "&fNón Tân Binh &e&lIII"
     max-durability: 400
@@ -114,7 +114,7 @@ HELMET_TAN_BINH_3:
 HELMET_TAN_BINH_4:
   base:
     custom-maxsockets: 1.0
-    revision-id: 3
+    revision-id: 4
     material: LEATHER_HELMET
     name: "&fNón Tân Binh &e&lIV"
     max-durability: 400
@@ -136,7 +136,7 @@ HELMET_TAN_BINH_4:
 HELMET_TAN_BINH_5:
   base:
     custom-maxsockets: 1.0
-    revision-id: 3
+    revision-id: 4
     material: LEATHER_HELMET
     name: "&fNón Tân Binh &e&lV"
     max-durability: 400
@@ -158,7 +158,7 @@ HELMET_TAN_BINH_5:
 HELMET_TU_NHAN_1:
   base:
     custom-maxsockets: 2.0
-    revision-id: 3
+    revision-id: 4
     material: LEATHER_HELMET
     name: "&aNón Tù Nhân &e&lI"
     max-durability: 800
@@ -180,7 +180,7 @@ HELMET_TU_NHAN_1:
 HELMET_TU_NHAN_2:
   base:
     custom-maxsockets: 2.0
-    revision-id: 3
+    revision-id: 4
     material: LEATHER_HELMET
     name: "&aNón Tù Nhân &e&lII"
     max-durability: 800
@@ -202,7 +202,7 @@ HELMET_TU_NHAN_2:
 HELMET_TU_NHAN_3:
   base:
     custom-maxsockets: 2.0
-    revision-id: 3
+    revision-id: 4
     material: LEATHER_HELMET
     name: "&aNón Tù Nhân &e&lIII"
     max-durability: 800
@@ -224,7 +224,7 @@ HELMET_TU_NHAN_3:
 HELMET_TU_NHAN_4:
   base:
     custom-maxsockets: 2.0
-    revision-id: 3
+    revision-id: 4
     material: LEATHER_HELMET
     name: "&aNón Tù Nhân &e&lIV"
     max-durability: 800
@@ -246,7 +246,7 @@ HELMET_TU_NHAN_4:
 HELMET_TU_NHAN_5:
   base:
     custom-maxsockets: 2.0
-    revision-id: 3
+    revision-id: 4
     material: LEATHER_HELMET
     name: "&aNón Tù Nhân &e&lV"
     max-durability: 800
@@ -268,7 +268,7 @@ HELMET_TU_NHAN_5:
 HELMET_LAO_CONG_1:
   base:
     custom-maxsockets: 2.0
-    revision-id: 3
+    revision-id: 4
     material: CHAINMAIL_HELMET
     name: "&bNón Lao Công &e&lI"
     max-durability: 1500
@@ -292,7 +292,7 @@ HELMET_LAO_CONG_1:
 HELMET_LAO_CONG_2:
   base:
     custom-maxsockets: 2.0
-    revision-id: 3
+    revision-id: 4
     material: CHAINMAIL_HELMET
     name: "&bNón Lao Công &e&lII"
     max-durability: 1500
@@ -316,7 +316,7 @@ HELMET_LAO_CONG_2:
 HELMET_LAO_CONG_3:
   base:
     custom-maxsockets: 2.0
-    revision-id: 3
+    revision-id: 4
     material: CHAINMAIL_HELMET
     name: "&bNón Lao Công &e&lIII"
     max-durability: 1500
@@ -340,7 +340,7 @@ HELMET_LAO_CONG_3:
 HELMET_LAO_CONG_4:
   base:
     custom-maxsockets: 2.0
-    revision-id: 3
+    revision-id: 4
     material: CHAINMAIL_HELMET
     name: "&bNón Lao Công &e&lIV"
     max-durability: 1500
@@ -364,7 +364,7 @@ HELMET_LAO_CONG_4:
 HELMET_LAO_CONG_5:
   base:
     custom-maxsockets: 2.0
-    revision-id: 3
+    revision-id: 4
     material: CHAINMAIL_HELMET
     name: "&bNón Lao Công &e&lV"
     max-durability: 1500
@@ -388,7 +388,7 @@ HELMET_LAO_CONG_5:
 HELMET_THO_DAO_1:
   base:
     custom-maxsockets: 3.0
-    revision-id: 3
+    revision-id: 4
     material: IRON_HELMET
     name: "&eNón Thợ Đào &e&lI"
     max-durability: 2500
@@ -413,7 +413,7 @@ HELMET_THO_DAO_1:
 HELMET_THO_DAO_2:
   base:
     custom-maxsockets: 3.0
-    revision-id: 3
+    revision-id: 4
     material: IRON_HELMET
     name: "&eNón Thợ Đào &e&lII"
     max-durability: 2500
@@ -438,7 +438,7 @@ HELMET_THO_DAO_2:
 HELMET_THO_DAO_3:
   base:
     custom-maxsockets: 3.0
-    revision-id: 3
+    revision-id: 4
     material: IRON_HELMET
     name: "&eNón Thợ Đào &e&lIII"
     max-durability: 2500
@@ -463,7 +463,7 @@ HELMET_THO_DAO_3:
 HELMET_THO_DAO_4:
   base:
     custom-maxsockets: 3.0
-    revision-id: 3
+    revision-id: 4
     material: IRON_HELMET
     name: "&eNón Thợ Đào &e&lIV"
     max-durability: 2500
@@ -488,7 +488,7 @@ HELMET_THO_DAO_4:
 HELMET_THO_DAO_5:
   base:
     custom-maxsockets: 3.0
-    revision-id: 3
+    revision-id: 4
     material: IRON_HELMET
     name: "&eNón Thợ Đào &e&lV"
     max-durability: 2500
@@ -513,7 +513,7 @@ HELMET_THO_DAO_5:
 HELMET_DOI_TRUONG_1:
   base:
     custom-maxsockets: 3.0
-    revision-id: 3
+    revision-id: 4
     material: DIAMOND_HELMET
     name: "&6Nón Đội Trưởng &e&lI"
     max-durability: 3800
@@ -523,10 +523,10 @@ HELMET_DOI_TRUONG_1:
     lore:
       - "&7 Trang bị phòng thủ kiên cố của Đội Trưởng"
       - "&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
-    armor: 6.4
+    armor: 6.0
     max-health: 8.0
     armor-toughness: 1.4
-    defense: 1.0
+    defense: 1.4
     mana-regeneration: 2.5
     upgrade:
       reference: armor-upgrade-template
@@ -538,7 +538,7 @@ HELMET_DOI_TRUONG_1:
 HELMET_DOI_TRUONG_2:
   base:
     custom-maxsockets: 3.0
-    revision-id: 3
+    revision-id: 4
     material: DIAMOND_HELMET
     name: "&6Nón Đội Trưởng &e&lII"
     max-durability: 3800
@@ -548,10 +548,10 @@ HELMET_DOI_TRUONG_2:
     lore:
       - "&7 Trang bị phòng thủ kiên cố của Đội Trưởng"
       - "&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
-    armor: 6.7
+    armor: 6.0
     max-health: 8.5
     armor-toughness: 1.5
-    defense: 1.1
+    defense: 1.8
     mana-regeneration: 2.7
     upgrade:
       reference: armor-upgrade-template
@@ -563,7 +563,7 @@ HELMET_DOI_TRUONG_2:
 HELMET_DOI_TRUONG_3:
   base:
     custom-maxsockets: 3.0
-    revision-id: 3
+    revision-id: 4
     material: DIAMOND_HELMET
     name: "&6Nón Đội Trưởng &e&lIII"
     max-durability: 3800
@@ -573,10 +573,10 @@ HELMET_DOI_TRUONG_3:
     lore:
       - "&7 Trang bị phòng thủ kiên cố của Đội Trưởng"
       - "&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
-    armor: 7.0
+    armor: 6.0
     max-health: 9.0
     armor-toughness: 1.6
-    defense: 1.2
+    defense: 2.2
     mana-regeneration: 2.9
     upgrade:
       reference: armor-upgrade-template
@@ -588,7 +588,7 @@ HELMET_DOI_TRUONG_3:
 HELMET_DOI_TRUONG_4:
   base:
     custom-maxsockets: 3.0
-    revision-id: 3
+    revision-id: 4
     material: DIAMOND_HELMET
     name: "&6Nón Đội Trưởng &e&lIV"
     max-durability: 3800
@@ -598,10 +598,10 @@ HELMET_DOI_TRUONG_4:
     lore:
       - "&7 Trang bị phòng thủ kiên cố của Đội Trưởng"
       - "&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
-    armor: 7.3
+    armor: 6.0
     max-health: 9.5
     armor-toughness: 1.7
-    defense: 1.3
+    defense: 2.6
     mana-regeneration: 3.1
     upgrade:
       reference: armor-upgrade-template
@@ -613,7 +613,7 @@ HELMET_DOI_TRUONG_4:
 HELMET_DOI_TRUONG_5:
   base:
     custom-maxsockets: 3.0
-    revision-id: 3
+    revision-id: 4
     material: DIAMOND_HELMET
     name: "&6Nón Đội Trưởng &e&lV"
     max-durability: 3800
@@ -623,10 +623,10 @@ HELMET_DOI_TRUONG_5:
     lore:
       - "&7 Trang bị phòng thủ kiên cố của Đội Trưởng"
       - "&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
-    armor: 7.6
+    armor: 6.0
     max-health: 10.0
     armor-toughness: 1.8
-    defense: 1.4
+    defense: 3.0
     mana-regeneration: 3.3
     upgrade:
       reference: armor-upgrade-template
@@ -638,7 +638,7 @@ HELMET_DOI_TRUONG_5:
 HELMET_PHO_QUAN_NGUC_1:
   base:
     custom-maxsockets: 4.0
-    revision-id: 3
+    revision-id: 4
     material: DIAMOND_HELMET
     name: "&cNón Phó Quản Ngục &e&lI"
     max-durability: 5200
@@ -648,10 +648,10 @@ HELMET_PHO_QUAN_NGUC_1:
     lore:
       - "&7 Trang bị phòng thủ kiên cố của Phó Quản Ngục"
       - "&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
-    armor: 8.8
+    armor: 6.0
     max-health: 12.0
     armor-toughness: 2.2
-    defense: 1.8
+    defense: 4.6
     mana-regeneration: 3.0
     upgrade:
       reference: armor-upgrade-template
@@ -663,7 +663,7 @@ HELMET_PHO_QUAN_NGUC_1:
 HELMET_PHO_QUAN_NGUC_2:
   base:
     custom-maxsockets: 4.0
-    revision-id: 3
+    revision-id: 4
     material: DIAMOND_HELMET
     name: "&cNón Phó Quản Ngục &e&lII"
     max-durability: 5200
@@ -673,10 +673,10 @@ HELMET_PHO_QUAN_NGUC_2:
     lore:
       - "&7 Trang bị phòng thủ kiên cố của Phó Quản Ngục"
       - "&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
-    armor: 9.2
+    armor: 6.0
     max-health: 12.6
     armor-toughness: 2.4
-    defense: 2.0
+    defense: 5.2
     mana-regeneration: 3.2
     upgrade:
       reference: armor-upgrade-template
@@ -688,7 +688,7 @@ HELMET_PHO_QUAN_NGUC_2:
 HELMET_PHO_QUAN_NGUC_3:
   base:
     custom-maxsockets: 4.0
-    revision-id: 3
+    revision-id: 4
     material: DIAMOND_HELMET
     name: "&cNón Phó Quản Ngục &e&lIII"
     max-durability: 5200
@@ -698,10 +698,10 @@ HELMET_PHO_QUAN_NGUC_3:
     lore:
       - "&7 Trang bị phòng thủ kiên cố của Phó Quản Ngục"
       - "&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
-    armor: 9.5
+    armor: 6.0
     max-health: 13.2
     armor-toughness: 2.5
-    defense: 2.1
+    defense: 5.6
     mana-regeneration: 3.4
     upgrade:
       reference: armor-upgrade-template
@@ -713,7 +713,7 @@ HELMET_PHO_QUAN_NGUC_3:
 HELMET_PHO_QUAN_NGUC_4:
   base:
     custom-maxsockets: 4.0
-    revision-id: 3
+    revision-id: 4
     material: DIAMOND_HELMET
     name: "&cNón Phó Quản Ngục &e&lIV"
     max-durability: 5200
@@ -723,10 +723,10 @@ HELMET_PHO_QUAN_NGUC_4:
     lore:
       - "&7 Trang bị phòng thủ kiên cố của Phó Quản Ngục"
       - "&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
-    armor: 9.9
+    armor: 6.0
     max-health: 13.8
     armor-toughness: 2.7
-    defense: 2.3
+    defense: 6.2
     mana-regeneration: 3.6
     upgrade:
       reference: armor-upgrade-template
@@ -738,7 +738,7 @@ HELMET_PHO_QUAN_NGUC_4:
 HELMET_PHO_QUAN_NGUC_5:
   base:
     custom-maxsockets: 4.0
-    revision-id: 3
+    revision-id: 4
     material: DIAMOND_HELMET
     name: "&cNón Phó Quản Ngục &e&lV"
     max-durability: 5200
@@ -748,10 +748,10 @@ HELMET_PHO_QUAN_NGUC_5:
     lore:
       - "&7 Trang bị phòng thủ kiên cố của Phó Quản Ngục"
       - "&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
-    armor: 10.2
+    armor: 6.0
     max-health: 14.4
     armor-toughness: 2.8
-    defense: 2.4
+    defense: 6.6
     mana-regeneration: 3.8
     upgrade:
       reference: armor-upgrade-template
@@ -763,7 +763,7 @@ HELMET_PHO_QUAN_NGUC_5:
 HELMET_QUAN_NGUC_1:
   base:
     custom-maxsockets: 5.0
-    revision-id: 3
+    revision-id: 4
     material: NETHERITE_HELMET
     name: "&dNón Quản Ngục &e&lI"
     max-durability: 7000
@@ -773,10 +773,10 @@ HELMET_QUAN_NGUC_1:
     lore:
       - "&7 Trang bị phòng thủ kiên cố của Quản Ngục"
       - "&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
-    armor: 11.6
+    armor: 6.0
     max-health: 17.0
     armor-toughness: 3.2
-    defense: 2.8
+    defense: 8.4
     mana-regeneration: 3.5
     upgrade:
       reference: armor-upgrade-template
@@ -788,7 +788,7 @@ HELMET_QUAN_NGUC_1:
 HELMET_QUAN_NGUC_2:
   base:
     custom-maxsockets: 5.0
-    revision-id: 3
+    revision-id: 4
     material: NETHERITE_HELMET
     name: "&dNón Quản Ngục &e&lII"
     max-durability: 7000
@@ -798,10 +798,10 @@ HELMET_QUAN_NGUC_2:
     lore:
       - "&7 Trang bị phòng thủ kiên cố của Quản Ngục"
       - "&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
-    armor: 12.0
+    armor: 6.0
     max-health: 17.8
     armor-toughness: 3.4
-    defense: 3.0
+    defense: 9.0
     mana-regeneration: 3.7
     upgrade:
       reference: armor-upgrade-template
@@ -813,7 +813,7 @@ HELMET_QUAN_NGUC_2:
 HELMET_QUAN_NGUC_3:
   base:
     custom-maxsockets: 5.0
-    revision-id: 3
+    revision-id: 4
     material: NETHERITE_HELMET
     name: "&dNón Quản Ngục &e&lIII"
     max-durability: 7000
@@ -823,10 +823,10 @@ HELMET_QUAN_NGUC_3:
     lore:
       - "&7 Trang bị phòng thủ kiên cố của Quản Ngục"
       - "&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
-    armor: 12.4
+    armor: 6.0
     max-health: 18.6
     armor-toughness: 3.6
-    defense: 3.2
+    defense: 9.6
     mana-regeneration: 3.9
     upgrade:
       reference: armor-upgrade-template
@@ -838,7 +838,7 @@ HELMET_QUAN_NGUC_3:
 HELMET_QUAN_NGUC_4:
   base:
     custom-maxsockets: 5.0
-    revision-id: 3
+    revision-id: 4
     material: NETHERITE_HELMET
     name: "&dNón Quản Ngục &e&lIV"
     max-durability: 7000
@@ -848,10 +848,10 @@ HELMET_QUAN_NGUC_4:
     lore:
       - "&7 Trang bị phòng thủ kiên cố của Quản Ngục"
       - "&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
-    armor: 12.8
+    armor: 6.0
     max-health: 19.4
     armor-toughness: 3.8
-    defense: 3.4
+    defense: 10.2
     mana-regeneration: 4.1
     upgrade:
       reference: armor-upgrade-template
@@ -863,7 +863,7 @@ HELMET_QUAN_NGUC_4:
 HELMET_QUAN_NGUC_5:
   base:
     custom-maxsockets: 5.0
-    revision-id: 3
+    revision-id: 4
     material: NETHERITE_HELMET
     name: "&dNón Quản Ngục &e&lV"
     max-durability: 7000
@@ -873,10 +873,10 @@ HELMET_QUAN_NGUC_5:
     lore:
       - "&7 Trang bị phòng thủ kiên cố của Quản Ngục"
       - "&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
-    armor: 13.2
+    armor: 6.0
     max-health: 20.2
     armor-toughness: 4.0
-    defense: 3.6
+    defense: 10.8
     mana-regeneration: 4.3
     upgrade:
       reference: armor-upgrade-template
@@ -888,7 +888,7 @@ HELMET_QUAN_NGUC_5:
 HELMET_BA_CHU_NGUC_TU_1:
   base:
     custom-maxsockets: 6.0
-    revision-id: 3
+    revision-id: 4
     material: NETHERITE_HELMET
     name: "&5Nón Bá Chủ Ngục Tù &e&lI"
     max-durability: 9000
@@ -898,10 +898,10 @@ HELMET_BA_CHU_NGUC_TU_1:
     lore:
       - "&7 Trang bị phòng thủ kiên cố của Bá Chủ Ngục Tù"
       - "&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
-    armor: 15.0
+    armor: 6.0
     max-health: 23.0
     armor-toughness: 4.4
-    defense: 4.0
+    defense: 13.0
     mana-regeneration: 4.0
     upgrade:
       reference: armor-upgrade-template
@@ -913,7 +913,7 @@ HELMET_BA_CHU_NGUC_TU_1:
 HELMET_BA_CHU_NGUC_TU_2:
   base:
     custom-maxsockets: 6.0
-    revision-id: 3
+    revision-id: 4
     material: NETHERITE_HELMET
     name: "&5Nón Bá Chủ Ngục Tù &e&lII"
     max-durability: 9000
@@ -923,10 +923,10 @@ HELMET_BA_CHU_NGUC_TU_2:
     lore:
       - "&7 Trang bị phòng thủ kiên cố của Bá Chủ Ngục Tù"
       - "&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
-    armor: 15.5
+    armor: 6.0
     max-health: 24.0
     armor-toughness: 4.7
-    defense: 4.3
+    defense: 13.8
     mana-regeneration: 4.2
     upgrade:
       reference: armor-upgrade-template
@@ -938,7 +938,7 @@ HELMET_BA_CHU_NGUC_TU_2:
 HELMET_BA_CHU_NGUC_TU_3:
   base:
     custom-maxsockets: 6.0
-    revision-id: 3
+    revision-id: 4
     material: NETHERITE_HELMET
     name: "&5Nón Bá Chủ Ngục Tù &e&lIII"
     max-durability: 9000
@@ -948,10 +948,10 @@ HELMET_BA_CHU_NGUC_TU_3:
     lore:
       - "&7 Trang bị phòng thủ kiên cố của Bá Chủ Ngục Tù"
       - "&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
-    armor: 16.0
+    armor: 6.0
     max-health: 25.0
     armor-toughness: 4.9
-    defense: 4.5
+    defense: 14.5
     mana-regeneration: 4.4
     upgrade:
       reference: armor-upgrade-template
@@ -963,7 +963,7 @@ HELMET_BA_CHU_NGUC_TU_3:
 HELMET_BA_CHU_NGUC_TU_4:
   base:
     custom-maxsockets: 6.0
-    revision-id: 3
+    revision-id: 4
     material: NETHERITE_HELMET
     name: "&5Nón Bá Chủ Ngục Tù &e&lIV"
     max-durability: 9000
@@ -973,10 +973,10 @@ HELMET_BA_CHU_NGUC_TU_4:
     lore:
       - "&7 Trang bị phòng thủ kiên cố của Bá Chủ Ngục Tù"
       - "&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
-    armor: 16.5
+    armor: 6.0
     max-health: 26.0
     armor-toughness: 5.2
-    defense: 4.8
+    defense: 15.3
     mana-regeneration: 4.6
     upgrade:
       reference: armor-upgrade-template
@@ -988,7 +988,7 @@ HELMET_BA_CHU_NGUC_TU_4:
 HELMET_BA_CHU_NGUC_TU_5:
   base:
     custom-maxsockets: 6.0
-    revision-id: 3
+    revision-id: 4
     material: NETHERITE_HELMET
     name: "&5Nón Bá Chủ Ngục Tù &e&lV"
     max-durability: 9000
@@ -998,10 +998,10 @@ HELMET_BA_CHU_NGUC_TU_5:
     lore:
       - "&7 Trang bị phòng thủ kiên cố của Bá Chủ Ngục Tù"
       - "&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
-    armor: 17.0
+    armor: 6.0
     max-health: 27.0
     armor-toughness: 5.4
-    defense: 5.0
+    defense: 16.0
     mana-regeneration: 4.8
     upgrade:
       reference: armor-upgrade-template
@@ -1013,7 +1013,7 @@ HELMET_BA_CHU_NGUC_TU_5:
 HELMET_VUOT_NGUC_1:
   base:
     custom-maxsockets: 7.0
-    revision-id: 3
+    revision-id: 4
     material: NETHERITE_HELMET
     name: "&4Nón Vượt Ngục &e&lI"
     max-durability: 12000
@@ -1023,10 +1023,10 @@ HELMET_VUOT_NGUC_1:
     lore:
       - "&7 Trang bị phòng thủ kiên cố của Vượt Ngục"
       - "&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
-    armor: 19.0
+    armor: 6.0
     max-health: 30.0
     armor-toughness: 6.0
-    defense: 5.6
+    defense: 18.6
     mana-regeneration: 4.5
     upgrade:
       reference: armor-upgrade-template
@@ -1038,7 +1038,7 @@ HELMET_VUOT_NGUC_1:
 HELMET_VUOT_NGUC_2:
   base:
     custom-maxsockets: 7.0
-    revision-id: 3
+    revision-id: 4
     material: NETHERITE_HELMET
     name: "&4Nón Vượt Ngục &e&lII"
     max-durability: 12000
@@ -1048,10 +1048,10 @@ HELMET_VUOT_NGUC_2:
     lore:
       - "&7 Trang bị phòng thủ kiên cố của Vượt Ngục"
       - "&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
-    armor: 19.6
+    armor: 6.0
     max-health: 31.2
     armor-toughness: 6.3
-    defense: 5.9
+    defense: 19.5
     mana-regeneration: 4.7
     upgrade:
       reference: armor-upgrade-template
@@ -1063,7 +1063,7 @@ HELMET_VUOT_NGUC_2:
 HELMET_VUOT_NGUC_3:
   base:
     custom-maxsockets: 7.0
-    revision-id: 3
+    revision-id: 4
     material: NETHERITE_HELMET
     name: "&4Nón Vượt Ngục &e&lIII"
     max-durability: 12000
@@ -1073,10 +1073,10 @@ HELMET_VUOT_NGUC_3:
     lore:
       - "&7 Trang bị phòng thủ kiên cố của Vượt Ngục"
       - "&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
-    armor: 20.2
+    armor: 6.0
     max-health: 32.4
     armor-toughness: 6.6
-    defense: 6.2
+    defense: 20.4
     mana-regeneration: 4.9
     upgrade:
       reference: armor-upgrade-template
@@ -1088,7 +1088,7 @@ HELMET_VUOT_NGUC_3:
 HELMET_VUOT_NGUC_4:
   base:
     custom-maxsockets: 7.0
-    revision-id: 3
+    revision-id: 4
     material: NETHERITE_HELMET
     name: "&4Nón Vượt Ngục &e&lIV"
     max-durability: 12000
@@ -1098,10 +1098,10 @@ HELMET_VUOT_NGUC_4:
     lore:
       - "&7 Trang bị phòng thủ kiên cố của Vượt Ngục"
       - "&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
-    armor: 20.8
+    armor: 6.0
     max-health: 33.6
     armor-toughness: 6.9
-    defense: 6.5
+    defense: 21.3
     mana-regeneration: 5.1
     upgrade:
       reference: armor-upgrade-template
@@ -1113,7 +1113,7 @@ HELMET_VUOT_NGUC_4:
 HELMET_VUOT_NGUC_5:
   base:
     custom-maxsockets: 7.0
-    revision-id: 3
+    revision-id: 4
     material: NETHERITE_HELMET
     name: "&4Nón Vượt Ngục &e&lV"
     max-durability: 12000
@@ -1123,10 +1123,10 @@ HELMET_VUOT_NGUC_5:
     lore:
       - "&7 Trang bị phòng thủ kiên cố của Vượt Ngục"
       - "&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
-    armor: 21.4
+    armor: 6.0
     max-health: 34.8
     armor-toughness: 7.2
-    defense: 6.8
+    defense: 22.2
     mana-regeneration: 5.3
     upgrade:
       reference: armor-upgrade-template
@@ -1138,7 +1138,7 @@ HELMET_VUOT_NGUC_5:
 CHESTPLATE_TAN_BINH_1:
   base:
     custom-maxsockets: 1.0
-    revision-id: 3
+    revision-id: 4
     material: LEATHER_CHESTPLATE
     name: "&fÁo Giáp Tân Binh &e&lI"
     max-durability: 400
@@ -1160,7 +1160,7 @@ CHESTPLATE_TAN_BINH_1:
 CHESTPLATE_TAN_BINH_2:
   base:
     custom-maxsockets: 1.0
-    revision-id: 3
+    revision-id: 4
     material: LEATHER_CHESTPLATE
     name: "&fÁo Giáp Tân Binh &e&lII"
     max-durability: 400
@@ -1182,7 +1182,7 @@ CHESTPLATE_TAN_BINH_2:
 CHESTPLATE_TAN_BINH_3:
   base:
     custom-maxsockets: 1.0
-    revision-id: 3
+    revision-id: 4
     material: LEATHER_CHESTPLATE
     name: "&fÁo Giáp Tân Binh &e&lIII"
     max-durability: 400
@@ -1204,7 +1204,7 @@ CHESTPLATE_TAN_BINH_3:
 CHESTPLATE_TAN_BINH_4:
   base:
     custom-maxsockets: 1.0
-    revision-id: 3
+    revision-id: 4
     material: LEATHER_CHESTPLATE
     name: "&fÁo Giáp Tân Binh &e&lIV"
     max-durability: 400
@@ -1226,7 +1226,7 @@ CHESTPLATE_TAN_BINH_4:
 CHESTPLATE_TAN_BINH_5:
   base:
     custom-maxsockets: 1.0
-    revision-id: 3
+    revision-id: 4
     material: LEATHER_CHESTPLATE
     name: "&fÁo Giáp Tân Binh &e&lV"
     max-durability: 400
@@ -1248,7 +1248,7 @@ CHESTPLATE_TAN_BINH_5:
 CHESTPLATE_TU_NHAN_1:
   base:
     custom-maxsockets: 2.0
-    revision-id: 3
+    revision-id: 4
     material: LEATHER_CHESTPLATE
     name: "&aÁo Giáp Tù Nhân &e&lI"
     max-durability: 800
@@ -1270,7 +1270,7 @@ CHESTPLATE_TU_NHAN_1:
 CHESTPLATE_TU_NHAN_2:
   base:
     custom-maxsockets: 2.0
-    revision-id: 3
+    revision-id: 4
     material: LEATHER_CHESTPLATE
     name: "&aÁo Giáp Tù Nhân &e&lII"
     max-durability: 800
@@ -1292,7 +1292,7 @@ CHESTPLATE_TU_NHAN_2:
 CHESTPLATE_TU_NHAN_3:
   base:
     custom-maxsockets: 2.0
-    revision-id: 3
+    revision-id: 4
     material: LEATHER_CHESTPLATE
     name: "&aÁo Giáp Tù Nhân &e&lIII"
     max-durability: 800
@@ -1314,7 +1314,7 @@ CHESTPLATE_TU_NHAN_3:
 CHESTPLATE_TU_NHAN_4:
   base:
     custom-maxsockets: 2.0
-    revision-id: 3
+    revision-id: 4
     material: LEATHER_CHESTPLATE
     name: "&aÁo Giáp Tù Nhân &e&lIV"
     max-durability: 800
@@ -1336,7 +1336,7 @@ CHESTPLATE_TU_NHAN_4:
 CHESTPLATE_TU_NHAN_5:
   base:
     custom-maxsockets: 2.0
-    revision-id: 3
+    revision-id: 4
     material: LEATHER_CHESTPLATE
     name: "&aÁo Giáp Tù Nhân &e&lV"
     max-durability: 800
@@ -1358,7 +1358,7 @@ CHESTPLATE_TU_NHAN_5:
 CHESTPLATE_LAO_CONG_1:
   base:
     custom-maxsockets: 2.0
-    revision-id: 3
+    revision-id: 4
     material: CHAINMAIL_CHESTPLATE
     name: "&bÁo Giáp Lao Công &e&lI"
     max-durability: 1500
@@ -1381,7 +1381,7 @@ CHESTPLATE_LAO_CONG_1:
 CHESTPLATE_LAO_CONG_2:
   base:
     custom-maxsockets: 2.0
-    revision-id: 3
+    revision-id: 4
     material: CHAINMAIL_CHESTPLATE
     name: "&bÁo Giáp Lao Công &e&lII"
     max-durability: 1500
@@ -1404,7 +1404,7 @@ CHESTPLATE_LAO_CONG_2:
 CHESTPLATE_LAO_CONG_3:
   base:
     custom-maxsockets: 2.0
-    revision-id: 3
+    revision-id: 4
     material: CHAINMAIL_CHESTPLATE
     name: "&bÁo Giáp Lao Công &e&lIII"
     max-durability: 1500
@@ -1427,7 +1427,7 @@ CHESTPLATE_LAO_CONG_3:
 CHESTPLATE_LAO_CONG_4:
   base:
     custom-maxsockets: 2.0
-    revision-id: 3
+    revision-id: 4
     material: CHAINMAIL_CHESTPLATE
     name: "&bÁo Giáp Lao Công &e&lIV"
     max-durability: 1500
@@ -1450,7 +1450,7 @@ CHESTPLATE_LAO_CONG_4:
 CHESTPLATE_LAO_CONG_5:
   base:
     custom-maxsockets: 2.0
-    revision-id: 3
+    revision-id: 4
     material: CHAINMAIL_CHESTPLATE
     name: "&bÁo Giáp Lao Công &e&lV"
     max-durability: 1500
@@ -1473,7 +1473,7 @@ CHESTPLATE_LAO_CONG_5:
 CHESTPLATE_THO_DAO_1:
   base:
     custom-maxsockets: 3.0
-    revision-id: 3
+    revision-id: 4
     material: IRON_CHESTPLATE
     name: "&eÁo Giáp Thợ Đào &e&lI"
     max-durability: 2500
@@ -1497,7 +1497,7 @@ CHESTPLATE_THO_DAO_1:
 CHESTPLATE_THO_DAO_2:
   base:
     custom-maxsockets: 3.0
-    revision-id: 3
+    revision-id: 4
     material: IRON_CHESTPLATE
     name: "&eÁo Giáp Thợ Đào &e&lII"
     max-durability: 2500
@@ -1521,7 +1521,7 @@ CHESTPLATE_THO_DAO_2:
 CHESTPLATE_THO_DAO_3:
   base:
     custom-maxsockets: 3.0
-    revision-id: 3
+    revision-id: 4
     material: IRON_CHESTPLATE
     name: "&eÁo Giáp Thợ Đào &e&lIII"
     max-durability: 2500
@@ -1545,7 +1545,7 @@ CHESTPLATE_THO_DAO_3:
 CHESTPLATE_THO_DAO_4:
   base:
     custom-maxsockets: 3.0
-    revision-id: 3
+    revision-id: 4
     material: IRON_CHESTPLATE
     name: "&eÁo Giáp Thợ Đào &e&lIV"
     max-durability: 2500
@@ -1569,7 +1569,7 @@ CHESTPLATE_THO_DAO_4:
 CHESTPLATE_THO_DAO_5:
   base:
     custom-maxsockets: 3.0
-    revision-id: 3
+    revision-id: 4
     material: IRON_CHESTPLATE
     name: "&eÁo Giáp Thợ Đào &e&lV"
     max-durability: 2500
@@ -1593,7 +1593,7 @@ CHESTPLATE_THO_DAO_5:
 CHESTPLATE_DOI_TRUONG_1:
   base:
     custom-maxsockets: 3.0
-    revision-id: 3
+    revision-id: 4
     material: DIAMOND_CHESTPLATE
     name: "&6Áo Giáp Đội Trưởng &e&lI"
     max-durability: 3800
@@ -1603,10 +1603,10 @@ CHESTPLATE_DOI_TRUONG_1:
     lore:
       - "&7 Trang bị phòng thủ kiên cố của Đội Trưởng"
       - "&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
-    armor: 11.2
+    armor: 10.5
     max-health: 14.0
     armor-toughness: 2.4
-    defense: 1.8
+    defense: 2.5
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -1617,7 +1617,7 @@ CHESTPLATE_DOI_TRUONG_1:
 CHESTPLATE_DOI_TRUONG_2:
   base:
     custom-maxsockets: 3.0
-    revision-id: 3
+    revision-id: 4
     material: DIAMOND_CHESTPLATE
     name: "&6Áo Giáp Đội Trưởng &e&lII"
     max-durability: 3800
@@ -1627,10 +1627,10 @@ CHESTPLATE_DOI_TRUONG_2:
     lore:
       - "&7 Trang bị phòng thủ kiên cố của Đội Trưởng"
       - "&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
-    armor: 11.7
+    armor: 10.5
     max-health: 14.9
     armor-toughness: 2.6
-    defense: 1.9
+    defense: 3.1
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -1641,7 +1641,7 @@ CHESTPLATE_DOI_TRUONG_2:
 CHESTPLATE_DOI_TRUONG_3:
   base:
     custom-maxsockets: 3.0
-    revision-id: 3
+    revision-id: 4
     material: DIAMOND_CHESTPLATE
     name: "&6Áo Giáp Đội Trưởng &e&lIII"
     max-durability: 3800
@@ -1651,10 +1651,10 @@ CHESTPLATE_DOI_TRUONG_3:
     lore:
       - "&7 Trang bị phòng thủ kiên cố của Đội Trưởng"
       - "&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
-    armor: 12.3
+    armor: 10.5
     max-health: 15.7
     armor-toughness: 2.8
-    defense: 2.1
+    defense: 3.9
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -1665,7 +1665,7 @@ CHESTPLATE_DOI_TRUONG_3:
 CHESTPLATE_DOI_TRUONG_4:
   base:
     custom-maxsockets: 3.0
-    revision-id: 3
+    revision-id: 4
     material: DIAMOND_CHESTPLATE
     name: "&6Áo Giáp Đội Trưởng &e&lIV"
     max-durability: 3800
@@ -1675,10 +1675,10 @@ CHESTPLATE_DOI_TRUONG_4:
     lore:
       - "&7 Trang bị phòng thủ kiên cố của Đội Trưởng"
       - "&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
-    armor: 12.8
+    armor: 10.5
     max-health: 16.6
     armor-toughness: 3.0
-    defense: 2.3
+    defense: 4.6
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -1689,7 +1689,7 @@ CHESTPLATE_DOI_TRUONG_4:
 CHESTPLATE_DOI_TRUONG_5:
   base:
     custom-maxsockets: 3.0
-    revision-id: 3
+    revision-id: 4
     material: DIAMOND_CHESTPLATE
     name: "&6Áo Giáp Đội Trưởng &e&lV"
     max-durability: 3800
@@ -1699,10 +1699,10 @@ CHESTPLATE_DOI_TRUONG_5:
     lore:
       - "&7 Trang bị phòng thủ kiên cố của Đội Trưởng"
       - "&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
-    armor: 13.3
+    armor: 10.5
     max-health: 17.5
     armor-toughness: 3.1
-    defense: 2.4
+    defense: 5.2
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -1713,7 +1713,7 @@ CHESTPLATE_DOI_TRUONG_5:
 CHESTPLATE_PHO_QUAN_NGUC_1:
   base:
     custom-maxsockets: 4.0
-    revision-id: 3
+    revision-id: 4
     material: DIAMOND_CHESTPLATE
     name: "&cÁo Giáp Phó Quản Ngục &e&lI"
     max-durability: 5200
@@ -1723,10 +1723,10 @@ CHESTPLATE_PHO_QUAN_NGUC_1:
     lore:
       - "&7 Trang bị phòng thủ kiên cố của Phó Quản Ngục"
       - "&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
-    armor: 15.4
+    armor: 10.5
     max-health: 21.0
     armor-toughness: 3.8
-    defense: 3.1
+    defense: 8.0
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -1737,7 +1737,7 @@ CHESTPLATE_PHO_QUAN_NGUC_1:
 CHESTPLATE_PHO_QUAN_NGUC_2:
   base:
     custom-maxsockets: 4.0
-    revision-id: 3
+    revision-id: 4
     material: DIAMOND_CHESTPLATE
     name: "&cÁo Giáp Phó Quản Ngục &e&lII"
     max-durability: 5200
@@ -1747,10 +1747,10 @@ CHESTPLATE_PHO_QUAN_NGUC_2:
     lore:
       - "&7 Trang bị phòng thủ kiên cố của Phó Quản Ngục"
       - "&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
-    armor: 16.0
+    armor: 10.5
     max-health: 22.0
     armor-toughness: 4.1
-    defense: 3.4
+    defense: 8.9
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -1761,7 +1761,7 @@ CHESTPLATE_PHO_QUAN_NGUC_2:
 CHESTPLATE_PHO_QUAN_NGUC_3:
   base:
     custom-maxsockets: 4.0
-    revision-id: 3
+    revision-id: 4
     material: DIAMOND_CHESTPLATE
     name: "&cÁo Giáp Phó Quản Ngục &e&lIII"
     max-durability: 5200
@@ -1771,10 +1771,10 @@ CHESTPLATE_PHO_QUAN_NGUC_3:
     lore:
       - "&7 Trang bị phòng thủ kiên cố của Phó Quản Ngục"
       - "&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
-    armor: 16.6
+    armor: 10.5
     max-health: 23.1
     armor-toughness: 4.4
-    defense: 3.7
+    defense: 9.8
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -1785,7 +1785,7 @@ CHESTPLATE_PHO_QUAN_NGUC_3:
 CHESTPLATE_PHO_QUAN_NGUC_4:
   base:
     custom-maxsockets: 4.0
-    revision-id: 3
+    revision-id: 4
     material: DIAMOND_CHESTPLATE
     name: "&cÁo Giáp Phó Quản Ngục &e&lIV"
     max-durability: 5200
@@ -1795,10 +1795,10 @@ CHESTPLATE_PHO_QUAN_NGUC_4:
     lore:
       - "&7 Trang bị phòng thủ kiên cố của Phó Quản Ngục"
       - "&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
-    armor: 17.2
+    armor: 10.5
     max-health: 24.1
     armor-toughness: 4.6
-    defense: 3.9
+    defense: 10.6
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -1809,7 +1809,7 @@ CHESTPLATE_PHO_QUAN_NGUC_4:
 CHESTPLATE_PHO_QUAN_NGUC_5:
   base:
     custom-maxsockets: 4.0
-    revision-id: 3
+    revision-id: 4
     material: DIAMOND_CHESTPLATE
     name: "&cÁo Giáp Phó Quản Ngục &e&lV"
     max-durability: 5200
@@ -1819,10 +1819,10 @@ CHESTPLATE_PHO_QUAN_NGUC_5:
     lore:
       - "&7 Trang bị phòng thủ kiên cố của Phó Quản Ngục"
       - "&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
-    armor: 17.8
+    armor: 10.5
     max-health: 25.2
     armor-toughness: 4.9
-    defense: 4.2
+    defense: 11.5
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -1833,7 +1833,7 @@ CHESTPLATE_PHO_QUAN_NGUC_5:
 CHESTPLATE_QUAN_NGUC_1:
   base:
     custom-maxsockets: 5.0
-    revision-id: 3
+    revision-id: 4
     material: NETHERITE_CHESTPLATE
     name: "&dÁo Giáp Quản Ngục &e&lI"
     max-durability: 7000
@@ -1843,10 +1843,10 @@ CHESTPLATE_QUAN_NGUC_1:
     lore:
       - "&7 Trang bị phòng thủ kiên cố của Quản Ngục"
       - "&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
-    armor: 20.3
+    armor: 10.5
     max-health: 29.7
     armor-toughness: 5.6
-    defense: 4.9
+    defense: 14.7
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -1857,7 +1857,7 @@ CHESTPLATE_QUAN_NGUC_1:
 CHESTPLATE_QUAN_NGUC_2:
   base:
     custom-maxsockets: 5.0
-    revision-id: 3
+    revision-id: 4
     material: NETHERITE_CHESTPLATE
     name: "&dÁo Giáp Quản Ngục &e&lII"
     max-durability: 7000
@@ -1867,10 +1867,10 @@ CHESTPLATE_QUAN_NGUC_2:
     lore:
       - "&7 Trang bị phòng thủ kiên cố của Quản Ngục"
       - "&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
-    armor: 21.0
+    armor: 10.5
     max-health: 31.1
     armor-toughness: 5.9
-    defense: 5.3
+    defense: 15.8
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -1881,7 +1881,7 @@ CHESTPLATE_QUAN_NGUC_2:
 CHESTPLATE_QUAN_NGUC_3:
   base:
     custom-maxsockets: 5.0
-    revision-id: 3
+    revision-id: 4
     material: NETHERITE_CHESTPLATE
     name: "&dÁo Giáp Quản Ngục &e&lIII"
     max-durability: 7000
@@ -1891,10 +1891,10 @@ CHESTPLATE_QUAN_NGUC_3:
     lore:
       - "&7 Trang bị phòng thủ kiên cố của Quản Ngục"
       - "&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
-    armor: 21.7
+    armor: 10.5
     max-health: 32.5
     armor-toughness: 6.3
-    defense: 5.6
+    defense: 16.8
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -1905,7 +1905,7 @@ CHESTPLATE_QUAN_NGUC_3:
 CHESTPLATE_QUAN_NGUC_4:
   base:
     custom-maxsockets: 5.0
-    revision-id: 3
+    revision-id: 4
     material: NETHERITE_CHESTPLATE
     name: "&dÁo Giáp Quản Ngục &e&lIV"
     max-durability: 7000
@@ -1915,10 +1915,10 @@ CHESTPLATE_QUAN_NGUC_4:
     lore:
       - "&7 Trang bị phòng thủ kiên cố của Quản Ngục"
       - "&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
-    armor: 22.4
+    armor: 10.5
     max-health: 33.9
     armor-toughness: 6.6
-    defense: 5.9
+    defense: 17.8
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -1929,7 +1929,7 @@ CHESTPLATE_QUAN_NGUC_4:
 CHESTPLATE_QUAN_NGUC_5:
   base:
     custom-maxsockets: 5.0
-    revision-id: 3
+    revision-id: 4
     material: NETHERITE_CHESTPLATE
     name: "&dÁo Giáp Quản Ngục &e&lV"
     max-durability: 7000
@@ -1939,10 +1939,10 @@ CHESTPLATE_QUAN_NGUC_5:
     lore:
       - "&7 Trang bị phòng thủ kiên cố của Quản Ngục"
       - "&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
-    armor: 23.1
+    armor: 10.5
     max-health: 35.3
     armor-toughness: 7.0
-    defense: 6.3
+    defense: 18.9
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -1953,7 +1953,7 @@ CHESTPLATE_QUAN_NGUC_5:
 CHESTPLATE_BA_CHU_NGUC_TU_1:
   base:
     custom-maxsockets: 6.0
-    revision-id: 3
+    revision-id: 4
     material: NETHERITE_CHESTPLATE
     name: "&5Áo Giáp Bá Chủ Ngục Tù &e&lI"
     max-durability: 9000
@@ -1963,10 +1963,10 @@ CHESTPLATE_BA_CHU_NGUC_TU_1:
     lore:
       - "&7 Trang bị phòng thủ kiên cố của Bá Chủ Ngục Tù"
       - "&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
-    armor: 26.3
+    armor: 10.5
     max-health: 40.3
     armor-toughness: 7.7
-    defense: 7.0
+    defense: 22.8
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -1977,7 +1977,7 @@ CHESTPLATE_BA_CHU_NGUC_TU_1:
 CHESTPLATE_BA_CHU_NGUC_TU_2:
   base:
     custom-maxsockets: 6.0
-    revision-id: 3
+    revision-id: 4
     material: NETHERITE_CHESTPLATE
     name: "&5Áo Giáp Bá Chủ Ngục Tù &e&lII"
     max-durability: 9000
@@ -1987,10 +1987,10 @@ CHESTPLATE_BA_CHU_NGUC_TU_2:
     lore:
       - "&7 Trang bị phòng thủ kiên cố của Bá Chủ Ngục Tù"
       - "&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
-    armor: 27.1
+    armor: 10.5
     max-health: 42.0
     armor-toughness: 8.1
-    defense: 7.4
+    defense: 24.0
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -2001,7 +2001,7 @@ CHESTPLATE_BA_CHU_NGUC_TU_2:
 CHESTPLATE_BA_CHU_NGUC_TU_3:
   base:
     custom-maxsockets: 6.0
-    revision-id: 3
+    revision-id: 4
     material: NETHERITE_CHESTPLATE
     name: "&5Áo Giáp Bá Chủ Ngục Tù &e&lIII"
     max-durability: 9000
@@ -2011,10 +2011,10 @@ CHESTPLATE_BA_CHU_NGUC_TU_3:
     lore:
       - "&7 Trang bị phòng thủ kiên cố của Bá Chủ Ngục Tù"
       - "&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
-    armor: 28.0
+    armor: 10.5
     max-health: 43.8
     armor-toughness: 8.6
-    defense: 7.9
+    defense: 25.4
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -2025,7 +2025,7 @@ CHESTPLATE_BA_CHU_NGUC_TU_3:
 CHESTPLATE_BA_CHU_NGUC_TU_4:
   base:
     custom-maxsockets: 6.0
-    revision-id: 3
+    revision-id: 4
     material: NETHERITE_CHESTPLATE
     name: "&5Áo Giáp Bá Chủ Ngục Tù &e&lIV"
     max-durability: 9000
@@ -2035,10 +2035,10 @@ CHESTPLATE_BA_CHU_NGUC_TU_4:
     lore:
       - "&7 Trang bị phòng thủ kiên cố của Bá Chủ Ngục Tù"
       - "&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
-    armor: 28.9
+    armor: 10.5
     max-health: 45.5
     armor-toughness: 9.0
-    defense: 8.3
+    defense: 26.7
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -2049,7 +2049,7 @@ CHESTPLATE_BA_CHU_NGUC_TU_4:
 CHESTPLATE_BA_CHU_NGUC_TU_5:
   base:
     custom-maxsockets: 6.0
-    revision-id: 3
+    revision-id: 4
     material: NETHERITE_CHESTPLATE
     name: "&5Áo Giáp Bá Chủ Ngục Tù &e&lV"
     max-durability: 9000
@@ -2059,10 +2059,10 @@ CHESTPLATE_BA_CHU_NGUC_TU_5:
     lore:
       - "&7 Trang bị phòng thủ kiên cố của Bá Chủ Ngục Tù"
       - "&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
-    armor: 29.7
+    armor: 10.5
     max-health: 47.3
     armor-toughness: 9.4
-    defense: 8.8
+    defense: 28.0
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -2073,7 +2073,7 @@ CHESTPLATE_BA_CHU_NGUC_TU_5:
 CHESTPLATE_VUOT_NGUC_1:
   base:
     custom-maxsockets: 7.0
-    revision-id: 3
+    revision-id: 4
     material: NETHERITE_CHESTPLATE
     name: "&4Áo Giáp Vượt Ngục &e&lI"
     max-durability: 12000
@@ -2083,10 +2083,10 @@ CHESTPLATE_VUOT_NGUC_1:
     lore:
       - "&7 Trang bị phòng thủ kiên cố của Vượt Ngục"
       - "&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
-    armor: 33.3
+    armor: 10.5
     max-health: 52.5
     armor-toughness: 10.5
-    defense: 9.8
+    defense: 32.6
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -2097,7 +2097,7 @@ CHESTPLATE_VUOT_NGUC_1:
 CHESTPLATE_VUOT_NGUC_2:
   base:
     custom-maxsockets: 7.0
-    revision-id: 3
+    revision-id: 4
     material: NETHERITE_CHESTPLATE
     name: "&4Áo Giáp Vượt Ngục &e&lII"
     max-durability: 12000
@@ -2107,10 +2107,10 @@ CHESTPLATE_VUOT_NGUC_2:
     lore:
       - "&7 Trang bị phòng thủ kiên cố của Vượt Ngục"
       - "&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
-    armor: 34.3
+    armor: 10.5
     max-health: 54.6
     armor-toughness: 11.0
-    defense: 10.3
+    defense: 34.1
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -2121,7 +2121,7 @@ CHESTPLATE_VUOT_NGUC_2:
 CHESTPLATE_VUOT_NGUC_3:
   base:
     custom-maxsockets: 7.0
-    revision-id: 3
+    revision-id: 4
     material: NETHERITE_CHESTPLATE
     name: "&4Áo Giáp Vượt Ngục &e&lIII"
     max-durability: 12000
@@ -2131,10 +2131,10 @@ CHESTPLATE_VUOT_NGUC_3:
     lore:
       - "&7 Trang bị phòng thủ kiên cố của Vượt Ngục"
       - "&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
-    armor: 35.3
+    armor: 10.5
     max-health: 56.7
     armor-toughness: 11.5
-    defense: 10.8
+    defense: 35.6
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -2145,7 +2145,7 @@ CHESTPLATE_VUOT_NGUC_3:
 CHESTPLATE_VUOT_NGUC_4:
   base:
     custom-maxsockets: 7.0
-    revision-id: 3
+    revision-id: 4
     material: NETHERITE_CHESTPLATE
     name: "&4Áo Giáp Vượt Ngục &e&lIV"
     max-durability: 12000
@@ -2155,10 +2155,10 @@ CHESTPLATE_VUOT_NGUC_4:
     lore:
       - "&7 Trang bị phòng thủ kiên cố của Vượt Ngục"
       - "&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
-    armor: 36.4
+    armor: 10.5
     max-health: 58.8
     armor-toughness: 12.1
-    defense: 11.4
+    defense: 37.3
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -2169,7 +2169,7 @@ CHESTPLATE_VUOT_NGUC_4:
 CHESTPLATE_VUOT_NGUC_5:
   base:
     custom-maxsockets: 7.0
-    revision-id: 3
+    revision-id: 4
     material: NETHERITE_CHESTPLATE
     name: "&4Áo Giáp Vượt Ngục &e&lV"
     max-durability: 12000
@@ -2179,10 +2179,10 @@ CHESTPLATE_VUOT_NGUC_5:
     lore:
       - "&7 Trang bị phòng thủ kiên cố của Vượt Ngục"
       - "&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
-    armor: 37.4
+    armor: 10.5
     max-health: 60.9
     armor-toughness: 12.6
-    defense: 11.9
+    defense: 38.8
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -2193,7 +2193,7 @@ CHESTPLATE_VUOT_NGUC_5:
 LEGGINGS_TAN_BINH_1:
   base:
     custom-maxsockets: 1.0
-    revision-id: 3
+    revision-id: 4
     material: LEATHER_LEGGINGS
     name: "&fQuần Giáp Tân Binh &e&lI"
     max-durability: 400
@@ -2215,7 +2215,7 @@ LEGGINGS_TAN_BINH_1:
 LEGGINGS_TAN_BINH_2:
   base:
     custom-maxsockets: 1.0
-    revision-id: 3
+    revision-id: 4
     material: LEATHER_LEGGINGS
     name: "&fQuần Giáp Tân Binh &e&lII"
     max-durability: 400
@@ -2237,7 +2237,7 @@ LEGGINGS_TAN_BINH_2:
 LEGGINGS_TAN_BINH_3:
   base:
     custom-maxsockets: 1.0
-    revision-id: 3
+    revision-id: 4
     material: LEATHER_LEGGINGS
     name: "&fQuần Giáp Tân Binh &e&lIII"
     max-durability: 400
@@ -2259,7 +2259,7 @@ LEGGINGS_TAN_BINH_3:
 LEGGINGS_TAN_BINH_4:
   base:
     custom-maxsockets: 1.0
-    revision-id: 3
+    revision-id: 4
     material: LEATHER_LEGGINGS
     name: "&fQuần Giáp Tân Binh &e&lIV"
     max-durability: 400
@@ -2281,7 +2281,7 @@ LEGGINGS_TAN_BINH_4:
 LEGGINGS_TAN_BINH_5:
   base:
     custom-maxsockets: 1.0
-    revision-id: 3
+    revision-id: 4
     material: LEATHER_LEGGINGS
     name: "&fQuần Giáp Tân Binh &e&lV"
     max-durability: 400
@@ -2303,7 +2303,7 @@ LEGGINGS_TAN_BINH_5:
 LEGGINGS_TU_NHAN_1:
   base:
     custom-maxsockets: 2.0
-    revision-id: 3
+    revision-id: 4
     material: LEATHER_LEGGINGS
     name: "&aQuần Giáp Tù Nhân &e&lI"
     max-durability: 800
@@ -2325,7 +2325,7 @@ LEGGINGS_TU_NHAN_1:
 LEGGINGS_TU_NHAN_2:
   base:
     custom-maxsockets: 2.0
-    revision-id: 3
+    revision-id: 4
     material: LEATHER_LEGGINGS
     name: "&aQuần Giáp Tù Nhân &e&lII"
     max-durability: 800
@@ -2347,7 +2347,7 @@ LEGGINGS_TU_NHAN_2:
 LEGGINGS_TU_NHAN_3:
   base:
     custom-maxsockets: 2.0
-    revision-id: 3
+    revision-id: 4
     material: LEATHER_LEGGINGS
     name: "&aQuần Giáp Tù Nhân &e&lIII"
     max-durability: 800
@@ -2369,7 +2369,7 @@ LEGGINGS_TU_NHAN_3:
 LEGGINGS_TU_NHAN_4:
   base:
     custom-maxsockets: 2.0
-    revision-id: 3
+    revision-id: 4
     material: LEATHER_LEGGINGS
     name: "&aQuần Giáp Tù Nhân &e&lIV"
     max-durability: 800
@@ -2391,7 +2391,7 @@ LEGGINGS_TU_NHAN_4:
 LEGGINGS_TU_NHAN_5:
   base:
     custom-maxsockets: 2.0
-    revision-id: 3
+    revision-id: 4
     material: LEATHER_LEGGINGS
     name: "&aQuần Giáp Tù Nhân &e&lV"
     max-durability: 800
@@ -2413,7 +2413,7 @@ LEGGINGS_TU_NHAN_5:
 LEGGINGS_LAO_CONG_1:
   base:
     custom-maxsockets: 2.0
-    revision-id: 3
+    revision-id: 4
     material: CHAINMAIL_LEGGINGS
     name: "&bQuần Giáp Lao Công &e&lI"
     max-durability: 1500
@@ -2436,7 +2436,7 @@ LEGGINGS_LAO_CONG_1:
 LEGGINGS_LAO_CONG_2:
   base:
     custom-maxsockets: 2.0
-    revision-id: 3
+    revision-id: 4
     material: CHAINMAIL_LEGGINGS
     name: "&bQuần Giáp Lao Công &e&lII"
     max-durability: 1500
@@ -2459,7 +2459,7 @@ LEGGINGS_LAO_CONG_2:
 LEGGINGS_LAO_CONG_3:
   base:
     custom-maxsockets: 2.0
-    revision-id: 3
+    revision-id: 4
     material: CHAINMAIL_LEGGINGS
     name: "&bQuần Giáp Lao Công &e&lIII"
     max-durability: 1500
@@ -2482,7 +2482,7 @@ LEGGINGS_LAO_CONG_3:
 LEGGINGS_LAO_CONG_4:
   base:
     custom-maxsockets: 2.0
-    revision-id: 3
+    revision-id: 4
     material: CHAINMAIL_LEGGINGS
     name: "&bQuần Giáp Lao Công &e&lIV"
     max-durability: 1500
@@ -2505,7 +2505,7 @@ LEGGINGS_LAO_CONG_4:
 LEGGINGS_LAO_CONG_5:
   base:
     custom-maxsockets: 2.0
-    revision-id: 3
+    revision-id: 4
     material: CHAINMAIL_LEGGINGS
     name: "&bQuần Giáp Lao Công &e&lV"
     max-durability: 1500
@@ -2528,7 +2528,7 @@ LEGGINGS_LAO_CONG_5:
 LEGGINGS_THO_DAO_1:
   base:
     custom-maxsockets: 3.0
-    revision-id: 3
+    revision-id: 4
     material: IRON_LEGGINGS
     name: "&eQuần Giáp Thợ Đào &e&lI"
     max-durability: 2500
@@ -2552,7 +2552,7 @@ LEGGINGS_THO_DAO_1:
 LEGGINGS_THO_DAO_2:
   base:
     custom-maxsockets: 3.0
-    revision-id: 3
+    revision-id: 4
     material: IRON_LEGGINGS
     name: "&eQuần Giáp Thợ Đào &e&lII"
     max-durability: 2500
@@ -2576,7 +2576,7 @@ LEGGINGS_THO_DAO_2:
 LEGGINGS_THO_DAO_3:
   base:
     custom-maxsockets: 3.0
-    revision-id: 3
+    revision-id: 4
     material: IRON_LEGGINGS
     name: "&eQuần Giáp Thợ Đào &e&lIII"
     max-durability: 2500
@@ -2600,7 +2600,7 @@ LEGGINGS_THO_DAO_3:
 LEGGINGS_THO_DAO_4:
   base:
     custom-maxsockets: 3.0
-    revision-id: 3
+    revision-id: 4
     material: IRON_LEGGINGS
     name: "&eQuần Giáp Thợ Đào &e&lIV"
     max-durability: 2500
@@ -2624,7 +2624,7 @@ LEGGINGS_THO_DAO_4:
 LEGGINGS_THO_DAO_5:
   base:
     custom-maxsockets: 3.0
-    revision-id: 3
+    revision-id: 4
     material: IRON_LEGGINGS
     name: "&eQuần Giáp Thợ Đào &e&lV"
     max-durability: 2500
@@ -2648,7 +2648,7 @@ LEGGINGS_THO_DAO_5:
 LEGGINGS_DOI_TRUONG_1:
   base:
     custom-maxsockets: 3.0
-    revision-id: 3
+    revision-id: 4
     material: DIAMOND_LEGGINGS
     name: "&6Quần Giáp Đội Trưởng &e&lI"
     max-durability: 3800
@@ -2658,10 +2658,10 @@ LEGGINGS_DOI_TRUONG_1:
     lore:
       - "&7 Trang bị phòng thủ kiên cố của Đội Trưởng"
       - "&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
-    armor: 8.0
+    armor: 7.5
     max-health: 10.0
     armor-toughness: 1.8
-    defense: 1.3
+    defense: 1.8
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -2672,7 +2672,7 @@ LEGGINGS_DOI_TRUONG_1:
 LEGGINGS_DOI_TRUONG_2:
   base:
     custom-maxsockets: 3.0
-    revision-id: 3
+    revision-id: 4
     material: DIAMOND_LEGGINGS
     name: "&6Quần Giáp Đội Trưởng &e&lII"
     max-durability: 3800
@@ -2682,10 +2682,10 @@ LEGGINGS_DOI_TRUONG_2:
     lore:
       - "&7 Trang bị phòng thủ kiên cố của Đội Trưởng"
       - "&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
-    armor: 8.4
+    armor: 7.5
     max-health: 10.6
     armor-toughness: 1.9
-    defense: 1.4
+    defense: 2.3
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -2696,7 +2696,7 @@ LEGGINGS_DOI_TRUONG_2:
 LEGGINGS_DOI_TRUONG_3:
   base:
     custom-maxsockets: 3.0
-    revision-id: 3
+    revision-id: 4
     material: DIAMOND_LEGGINGS
     name: "&6Quần Giáp Đội Trưởng &e&lIII"
     max-durability: 3800
@@ -2706,10 +2706,10 @@ LEGGINGS_DOI_TRUONG_3:
     lore:
       - "&7 Trang bị phòng thủ kiên cố của Đội Trưởng"
       - "&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
-    armor: 8.8
+    armor: 7.5
     max-health: 11.3
     armor-toughness: 2.0
-    defense: 1.5
+    defense: 2.8
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -2720,7 +2720,7 @@ LEGGINGS_DOI_TRUONG_3:
 LEGGINGS_DOI_TRUONG_4:
   base:
     custom-maxsockets: 3.0
-    revision-id: 3
+    revision-id: 4
     material: DIAMOND_LEGGINGS
     name: "&6Quần Giáp Đội Trưởng &e&lIV"
     max-durability: 3800
@@ -2730,10 +2730,10 @@ LEGGINGS_DOI_TRUONG_4:
     lore:
       - "&7 Trang bị phòng thủ kiên cố của Đội Trưởng"
       - "&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
-    armor: 9.1
+    armor: 7.5
     max-health: 11.9
     armor-toughness: 2.1
-    defense: 1.6
+    defense: 3.2
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -2744,7 +2744,7 @@ LEGGINGS_DOI_TRUONG_4:
 LEGGINGS_DOI_TRUONG_5:
   base:
     custom-maxsockets: 3.0
-    revision-id: 3
+    revision-id: 4
     material: DIAMOND_LEGGINGS
     name: "&6Quần Giáp Đội Trưởng &e&lV"
     max-durability: 3800
@@ -2754,10 +2754,10 @@ LEGGINGS_DOI_TRUONG_5:
     lore:
       - "&7 Trang bị phòng thủ kiên cố của Đội Trưởng"
       - "&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
-    armor: 9.5
+    armor: 7.5
     max-health: 12.5
     armor-toughness: 2.3
-    defense: 1.8
+    defense: 3.8
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -2768,7 +2768,7 @@ LEGGINGS_DOI_TRUONG_5:
 LEGGINGS_PHO_QUAN_NGUC_1:
   base:
     custom-maxsockets: 4.0
-    revision-id: 3
+    revision-id: 4
     material: DIAMOND_LEGGINGS
     name: "&cQuần Giáp Phó Quản Ngục &e&lI"
     max-durability: 5200
@@ -2778,10 +2778,10 @@ LEGGINGS_PHO_QUAN_NGUC_1:
     lore:
       - "&7 Trang bị phòng thủ kiên cố của Phó Quản Ngục"
       - "&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
-    armor: 11.0
+    armor: 7.5
     max-health: 15.0
     armor-toughness: 2.8
-    defense: 2.3
+    defense: 5.8
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -2792,7 +2792,7 @@ LEGGINGS_PHO_QUAN_NGUC_1:
 LEGGINGS_PHO_QUAN_NGUC_2:
   base:
     custom-maxsockets: 4.0
-    revision-id: 3
+    revision-id: 4
     material: DIAMOND_LEGGINGS
     name: "&cQuần Giáp Phó Quản Ngục &e&lII"
     max-durability: 5200
@@ -2802,10 +2802,10 @@ LEGGINGS_PHO_QUAN_NGUC_2:
     lore:
       - "&7 Trang bị phòng thủ kiên cố của Phó Quản Ngục"
       - "&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
-    armor: 11.4
+    armor: 7.5
     max-health: 15.8
     armor-toughness: 2.9
-    defense: 2.4
+    defense: 6.3
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -2816,7 +2816,7 @@ LEGGINGS_PHO_QUAN_NGUC_2:
 LEGGINGS_PHO_QUAN_NGUC_3:
   base:
     custom-maxsockets: 4.0
-    revision-id: 3
+    revision-id: 4
     material: DIAMOND_LEGGINGS
     name: "&cQuần Giáp Phó Quản Ngục &e&lIII"
     max-durability: 5200
@@ -2826,10 +2826,10 @@ LEGGINGS_PHO_QUAN_NGUC_3:
     lore:
       - "&7 Trang bị phòng thủ kiên cố của Phó Quản Ngục"
       - "&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
-    armor: 11.9
+    armor: 7.5
     max-health: 16.5
     armor-toughness: 3.1
-    defense: 2.6
+    defense: 7.0
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -2840,7 +2840,7 @@ LEGGINGS_PHO_QUAN_NGUC_3:
 LEGGINGS_PHO_QUAN_NGUC_4:
   base:
     custom-maxsockets: 4.0
-    revision-id: 3
+    revision-id: 4
     material: DIAMOND_LEGGINGS
     name: "&cQuần Giáp Phó Quản Ngục &e&lIV"
     max-durability: 5200
@@ -2850,10 +2850,10 @@ LEGGINGS_PHO_QUAN_NGUC_4:
     lore:
       - "&7 Trang bị phòng thủ kiên cố của Phó Quản Ngục"
       - "&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
-    armor: 12.3
+    armor: 7.5
     max-health: 17.3
     armor-toughness: 3.3
-    defense: 2.8
+    defense: 7.6
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -2864,7 +2864,7 @@ LEGGINGS_PHO_QUAN_NGUC_4:
 LEGGINGS_PHO_QUAN_NGUC_5:
   base:
     custom-maxsockets: 4.0
-    revision-id: 3
+    revision-id: 4
     material: DIAMOND_LEGGINGS
     name: "&cQuần Giáp Phó Quản Ngục &e&lV"
     max-durability: 5200
@@ -2874,10 +2874,10 @@ LEGGINGS_PHO_QUAN_NGUC_5:
     lore:
       - "&7 Trang bị phòng thủ kiên cố của Phó Quản Ngục"
       - "&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
-    armor: 12.8
+    armor: 7.5
     max-health: 18.0
     armor-toughness: 3.5
-    defense: 3.0
+    defense: 8.3
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -2888,7 +2888,7 @@ LEGGINGS_PHO_QUAN_NGUC_5:
 LEGGINGS_QUAN_NGUC_1:
   base:
     custom-maxsockets: 5.0
-    revision-id: 3
+    revision-id: 4
     material: NETHERITE_LEGGINGS
     name: "&dQuần Giáp Quản Ngục &e&lI"
     max-durability: 7000
@@ -2898,10 +2898,10 @@ LEGGINGS_QUAN_NGUC_1:
     lore:
       - "&7 Trang bị phòng thủ kiên cố của Quản Ngục"
       - "&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
-    armor: 14.5
+    armor: 7.5
     max-health: 21.3
     armor-toughness: 4.0
-    defense: 3.5
+    defense: 10.5
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -2912,7 +2912,7 @@ LEGGINGS_QUAN_NGUC_1:
 LEGGINGS_QUAN_NGUC_2:
   base:
     custom-maxsockets: 5.0
-    revision-id: 3
+    revision-id: 4
     material: NETHERITE_LEGGINGS
     name: "&dQuần Giáp Quản Ngục &e&lII"
     max-durability: 7000
@@ -2922,10 +2922,10 @@ LEGGINGS_QUAN_NGUC_2:
     lore:
       - "&7 Trang bị phòng thủ kiên cố của Quản Ngục"
       - "&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
-    armor: 15.0
+    armor: 7.5
     max-health: 22.3
     armor-toughness: 4.3
-    defense: 3.8
+    defense: 11.3
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -2936,7 +2936,7 @@ LEGGINGS_QUAN_NGUC_2:
 LEGGINGS_QUAN_NGUC_3:
   base:
     custom-maxsockets: 5.0
-    revision-id: 3
+    revision-id: 4
     material: NETHERITE_LEGGINGS
     name: "&dQuần Giáp Quản Ngục &e&lIII"
     max-durability: 7000
@@ -2946,10 +2946,10 @@ LEGGINGS_QUAN_NGUC_3:
     lore:
       - "&7 Trang bị phòng thủ kiên cố của Quản Ngục"
       - "&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
-    armor: 15.5
+    armor: 7.5
     max-health: 23.3
     armor-toughness: 4.5
-    defense: 4.0
+    defense: 12.0
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -2960,7 +2960,7 @@ LEGGINGS_QUAN_NGUC_3:
 LEGGINGS_QUAN_NGUC_4:
   base:
     custom-maxsockets: 5.0
-    revision-id: 3
+    revision-id: 4
     material: NETHERITE_LEGGINGS
     name: "&dQuần Giáp Quản Ngục &e&lIV"
     max-durability: 7000
@@ -2970,10 +2970,10 @@ LEGGINGS_QUAN_NGUC_4:
     lore:
       - "&7 Trang bị phòng thủ kiên cố của Quản Ngục"
       - "&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
-    armor: 16.0
+    armor: 7.5
     max-health: 24.3
     armor-toughness: 4.8
-    defense: 4.3
+    defense: 12.8
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -2984,7 +2984,7 @@ LEGGINGS_QUAN_NGUC_4:
 LEGGINGS_QUAN_NGUC_5:
   base:
     custom-maxsockets: 5.0
-    revision-id: 3
+    revision-id: 4
     material: NETHERITE_LEGGINGS
     name: "&dQuần Giáp Quản Ngục &e&lV"
     max-durability: 7000
@@ -2994,10 +2994,10 @@ LEGGINGS_QUAN_NGUC_5:
     lore:
       - "&7 Trang bị phòng thủ kiên cố của Quản Ngục"
       - "&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
-    armor: 16.5
+    armor: 7.5
     max-health: 25.3
     armor-toughness: 5.0
-    defense: 4.5
+    defense: 13.5
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -3008,7 +3008,7 @@ LEGGINGS_QUAN_NGUC_5:
 LEGGINGS_BA_CHU_NGUC_TU_1:
   base:
     custom-maxsockets: 6.0
-    revision-id: 3
+    revision-id: 4
     material: NETHERITE_LEGGINGS
     name: "&5Quần Giáp Bá Chủ Ngục Tù &e&lI"
     max-durability: 9000
@@ -3018,10 +3018,10 @@ LEGGINGS_BA_CHU_NGUC_TU_1:
     lore:
       - "&7 Trang bị phòng thủ kiên cố của Bá Chủ Ngục Tù"
       - "&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
-    armor: 18.8
+    armor: 7.5
     max-health: 28.8
     armor-toughness: 5.5
-    defense: 5.0
+    defense: 16.3
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -3032,7 +3032,7 @@ LEGGINGS_BA_CHU_NGUC_TU_1:
 LEGGINGS_BA_CHU_NGUC_TU_2:
   base:
     custom-maxsockets: 6.0
-    revision-id: 3
+    revision-id: 4
     material: NETHERITE_LEGGINGS
     name: "&5Quần Giáp Bá Chủ Ngục Tù &e&lII"
     max-durability: 9000
@@ -3042,10 +3042,10 @@ LEGGINGS_BA_CHU_NGUC_TU_2:
     lore:
       - "&7 Trang bị phòng thủ kiên cố của Bá Chủ Ngục Tù"
       - "&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
-    armor: 19.4
+    armor: 7.5
     max-health: 30.0
     armor-toughness: 5.8
-    defense: 5.3
+    defense: 17.2
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -3056,7 +3056,7 @@ LEGGINGS_BA_CHU_NGUC_TU_2:
 LEGGINGS_BA_CHU_NGUC_TU_3:
   base:
     custom-maxsockets: 6.0
-    revision-id: 3
+    revision-id: 4
     material: NETHERITE_LEGGINGS
     name: "&5Quần Giáp Bá Chủ Ngục Tù &e&lIII"
     max-durability: 9000
@@ -3066,10 +3066,10 @@ LEGGINGS_BA_CHU_NGUC_TU_3:
     lore:
       - "&7 Trang bị phòng thủ kiên cố của Bá Chủ Ngục Tù"
       - "&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
-    armor: 20.0
+    armor: 7.5
     max-health: 31.3
     armor-toughness: 6.1
-    defense: 5.6
+    defense: 18.1
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -3080,7 +3080,7 @@ LEGGINGS_BA_CHU_NGUC_TU_3:
 LEGGINGS_BA_CHU_NGUC_TU_4:
   base:
     custom-maxsockets: 6.0
-    revision-id: 3
+    revision-id: 4
     material: NETHERITE_LEGGINGS
     name: "&5Quần Giáp Bá Chủ Ngục Tù &e&lIV"
     max-durability: 9000
@@ -3090,10 +3090,10 @@ LEGGINGS_BA_CHU_NGUC_TU_4:
     lore:
       - "&7 Trang bị phòng thủ kiên cố của Bá Chủ Ngục Tù"
       - "&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
-    armor: 20.6
+    armor: 7.5
     max-health: 32.5
     armor-toughness: 6.4
-    defense: 5.9
+    defense: 19.0
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -3104,7 +3104,7 @@ LEGGINGS_BA_CHU_NGUC_TU_4:
 LEGGINGS_BA_CHU_NGUC_TU_5:
   base:
     custom-maxsockets: 6.0
-    revision-id: 3
+    revision-id: 4
     material: NETHERITE_LEGGINGS
     name: "&5Quần Giáp Bá Chủ Ngục Tù &e&lV"
     max-durability: 9000
@@ -3114,10 +3114,10 @@ LEGGINGS_BA_CHU_NGUC_TU_5:
     lore:
       - "&7 Trang bị phòng thủ kiên cố của Bá Chủ Ngục Tù"
       - "&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
-    armor: 21.3
+    armor: 7.5
     max-health: 33.8
     armor-toughness: 6.8
-    defense: 6.3
+    defense: 20.1
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -3128,7 +3128,7 @@ LEGGINGS_BA_CHU_NGUC_TU_5:
 LEGGINGS_VUOT_NGUC_1:
   base:
     custom-maxsockets: 7.0
-    revision-id: 3
+    revision-id: 4
     material: NETHERITE_LEGGINGS
     name: "&4Quần Giáp Vượt Ngục &e&lI"
     max-durability: 12000
@@ -3138,10 +3138,10 @@ LEGGINGS_VUOT_NGUC_1:
     lore:
       - "&7 Trang bị phòng thủ kiên cố của Vượt Ngục"
       - "&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
-    armor: 23.8
+    armor: 7.5
     max-health: 37.5
     armor-toughness: 7.5
-    defense: 7.0
+    defense: 23.3
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -3152,7 +3152,7 @@ LEGGINGS_VUOT_NGUC_1:
 LEGGINGS_VUOT_NGUC_2:
   base:
     custom-maxsockets: 7.0
-    revision-id: 3
+    revision-id: 4
     material: NETHERITE_LEGGINGS
     name: "&4Quần Giáp Vượt Ngục &e&lII"
     max-durability: 12000
@@ -3162,10 +3162,10 @@ LEGGINGS_VUOT_NGUC_2:
     lore:
       - "&7 Trang bị phòng thủ kiên cố của Vượt Ngục"
       - "&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
-    armor: 24.5
+    armor: 7.5
     max-health: 39.0
     armor-toughness: 7.9
-    defense: 7.4
+    defense: 24.4
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -3176,7 +3176,7 @@ LEGGINGS_VUOT_NGUC_2:
 LEGGINGS_VUOT_NGUC_3:
   base:
     custom-maxsockets: 7.0
-    revision-id: 3
+    revision-id: 4
     material: NETHERITE_LEGGINGS
     name: "&4Quần Giáp Vượt Ngục &e&lIII"
     max-durability: 12000
@@ -3186,10 +3186,10 @@ LEGGINGS_VUOT_NGUC_3:
     lore:
       - "&7 Trang bị phòng thủ kiên cố của Vượt Ngục"
       - "&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
-    armor: 25.3
+    armor: 7.5
     max-health: 40.5
     armor-toughness: 8.3
-    defense: 7.8
+    defense: 25.6
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -3200,7 +3200,7 @@ LEGGINGS_VUOT_NGUC_3:
 LEGGINGS_VUOT_NGUC_4:
   base:
     custom-maxsockets: 7.0
-    revision-id: 3
+    revision-id: 4
     material: NETHERITE_LEGGINGS
     name: "&4Quần Giáp Vượt Ngục &e&lIV"
     max-durability: 12000
@@ -3210,10 +3210,10 @@ LEGGINGS_VUOT_NGUC_4:
     lore:
       - "&7 Trang bị phòng thủ kiên cố của Vượt Ngục"
       - "&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
-    armor: 26.0
+    armor: 7.5
     max-health: 42.0
     armor-toughness: 8.6
-    defense: 8.1
+    defense: 26.6
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -3224,7 +3224,7 @@ LEGGINGS_VUOT_NGUC_4:
 LEGGINGS_VUOT_NGUC_5:
   base:
     custom-maxsockets: 7.0
-    revision-id: 3
+    revision-id: 4
     material: NETHERITE_LEGGINGS
     name: "&4Quần Giáp Vượt Ngục &e&lV"
     max-durability: 12000
@@ -3234,10 +3234,10 @@ LEGGINGS_VUOT_NGUC_5:
     lore:
       - "&7 Trang bị phòng thủ kiên cố của Vượt Ngục"
       - "&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
-    armor: 26.8
+    armor: 7.5
     max-health: 43.5
     armor-toughness: 9.0
-    defense: 8.5
+    defense: 27.8
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -3248,7 +3248,7 @@ LEGGINGS_VUOT_NGUC_5:
 BOOTS_TAN_BINH_1:
   base:
     custom-maxsockets: 1.0
-    revision-id: 3
+    revision-id: 4
     material: LEATHER_BOOTS
     name: "&fGiày Tân Binh &e&lI"
     max-durability: 400
@@ -3270,7 +3270,7 @@ BOOTS_TAN_BINH_1:
 BOOTS_TAN_BINH_2:
   base:
     custom-maxsockets: 1.0
-    revision-id: 3
+    revision-id: 4
     material: LEATHER_BOOTS
     name: "&fGiày Tân Binh &e&lII"
     max-durability: 400
@@ -3292,7 +3292,7 @@ BOOTS_TAN_BINH_2:
 BOOTS_TAN_BINH_3:
   base:
     custom-maxsockets: 1.0
-    revision-id: 3
+    revision-id: 4
     material: LEATHER_BOOTS
     name: "&fGiày Tân Binh &e&lIII"
     max-durability: 400
@@ -3314,7 +3314,7 @@ BOOTS_TAN_BINH_3:
 BOOTS_TAN_BINH_4:
   base:
     custom-maxsockets: 1.0
-    revision-id: 3
+    revision-id: 4
     material: LEATHER_BOOTS
     name: "&fGiày Tân Binh &e&lIV"
     max-durability: 400
@@ -3336,7 +3336,7 @@ BOOTS_TAN_BINH_4:
 BOOTS_TAN_BINH_5:
   base:
     custom-maxsockets: 1.0
-    revision-id: 3
+    revision-id: 4
     material: LEATHER_BOOTS
     name: "&fGiày Tân Binh &e&lV"
     max-durability: 400
@@ -3358,7 +3358,7 @@ BOOTS_TAN_BINH_5:
 BOOTS_TU_NHAN_1:
   base:
     custom-maxsockets: 2.0
-    revision-id: 3
+    revision-id: 4
     material: LEATHER_BOOTS
     name: "&aGiày Tù Nhân &e&lI"
     max-durability: 800
@@ -3380,7 +3380,7 @@ BOOTS_TU_NHAN_1:
 BOOTS_TU_NHAN_2:
   base:
     custom-maxsockets: 2.0
-    revision-id: 3
+    revision-id: 4
     material: LEATHER_BOOTS
     name: "&aGiày Tù Nhân &e&lII"
     max-durability: 800
@@ -3402,7 +3402,7 @@ BOOTS_TU_NHAN_2:
 BOOTS_TU_NHAN_3:
   base:
     custom-maxsockets: 2.0
-    revision-id: 3
+    revision-id: 4
     material: LEATHER_BOOTS
     name: "&aGiày Tù Nhân &e&lIII"
     max-durability: 800
@@ -3424,7 +3424,7 @@ BOOTS_TU_NHAN_3:
 BOOTS_TU_NHAN_4:
   base:
     custom-maxsockets: 2.0
-    revision-id: 3
+    revision-id: 4
     material: LEATHER_BOOTS
     name: "&aGiày Tù Nhân &e&lIV"
     max-durability: 800
@@ -3446,7 +3446,7 @@ BOOTS_TU_NHAN_4:
 BOOTS_TU_NHAN_5:
   base:
     custom-maxsockets: 2.0
-    revision-id: 3
+    revision-id: 4
     material: LEATHER_BOOTS
     name: "&aGiày Tù Nhân &e&lV"
     max-durability: 800
@@ -3468,7 +3468,7 @@ BOOTS_TU_NHAN_5:
 BOOTS_LAO_CONG_1:
   base:
     custom-maxsockets: 2.0
-    revision-id: 3
+    revision-id: 4
     material: CHAINMAIL_BOOTS
     name: "&bGiày Lao Công &e&lI"
     max-durability: 1500
@@ -3491,7 +3491,7 @@ BOOTS_LAO_CONG_1:
 BOOTS_LAO_CONG_2:
   base:
     custom-maxsockets: 2.0
-    revision-id: 3
+    revision-id: 4
     material: CHAINMAIL_BOOTS
     name: "&bGiày Lao Công &e&lII"
     max-durability: 1500
@@ -3514,7 +3514,7 @@ BOOTS_LAO_CONG_2:
 BOOTS_LAO_CONG_3:
   base:
     custom-maxsockets: 2.0
-    revision-id: 3
+    revision-id: 4
     material: CHAINMAIL_BOOTS
     name: "&bGiày Lao Công &e&lIII"
     max-durability: 1500
@@ -3537,7 +3537,7 @@ BOOTS_LAO_CONG_3:
 BOOTS_LAO_CONG_4:
   base:
     custom-maxsockets: 2.0
-    revision-id: 3
+    revision-id: 4
     material: CHAINMAIL_BOOTS
     name: "&bGiày Lao Công &e&lIV"
     max-durability: 1500
@@ -3560,7 +3560,7 @@ BOOTS_LAO_CONG_4:
 BOOTS_LAO_CONG_5:
   base:
     custom-maxsockets: 2.0
-    revision-id: 3
+    revision-id: 4
     material: CHAINMAIL_BOOTS
     name: "&bGiày Lao Công &e&lV"
     max-durability: 1500
@@ -3583,7 +3583,7 @@ BOOTS_LAO_CONG_5:
 BOOTS_THO_DAO_1:
   base:
     custom-maxsockets: 3.0
-    revision-id: 3
+    revision-id: 4
     material: IRON_BOOTS
     name: "&eGiày Thợ Đào &e&lI"
     max-durability: 2500
@@ -3607,7 +3607,7 @@ BOOTS_THO_DAO_1:
 BOOTS_THO_DAO_2:
   base:
     custom-maxsockets: 3.0
-    revision-id: 3
+    revision-id: 4
     material: IRON_BOOTS
     name: "&eGiày Thợ Đào &e&lII"
     max-durability: 2500
@@ -3631,7 +3631,7 @@ BOOTS_THO_DAO_2:
 BOOTS_THO_DAO_3:
   base:
     custom-maxsockets: 3.0
-    revision-id: 3
+    revision-id: 4
     material: IRON_BOOTS
     name: "&eGiày Thợ Đào &e&lIII"
     max-durability: 2500
@@ -3655,7 +3655,7 @@ BOOTS_THO_DAO_3:
 BOOTS_THO_DAO_4:
   base:
     custom-maxsockets: 3.0
-    revision-id: 3
+    revision-id: 4
     material: IRON_BOOTS
     name: "&eGiày Thợ Đào &e&lIV"
     max-durability: 2500
@@ -3679,7 +3679,7 @@ BOOTS_THO_DAO_4:
 BOOTS_THO_DAO_5:
   base:
     custom-maxsockets: 3.0
-    revision-id: 3
+    revision-id: 4
     material: IRON_BOOTS
     name: "&eGiày Thợ Đào &e&lV"
     max-durability: 2500
@@ -3703,7 +3703,7 @@ BOOTS_THO_DAO_5:
 BOOTS_DOI_TRUONG_1:
   base:
     custom-maxsockets: 3.0
-    revision-id: 3
+    revision-id: 4
     material: DIAMOND_BOOTS
     name: "&6Giày Đội Trưởng &e&lI"
     max-durability: 3800
@@ -3713,10 +3713,10 @@ BOOTS_DOI_TRUONG_1:
     lore:
       - "&7 Trang bị phòng thủ kiên cố của Đội Trưởng"
       - "&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
-    armor: 6.4
+    armor: 6.0
     max-health: 8.0
     armor-toughness: 1.4
-    defense: 1.0
+    defense: 1.4
     movement-speed: 0.010
     upgrade:
       reference: armor-upgrade-template
@@ -3728,7 +3728,7 @@ BOOTS_DOI_TRUONG_1:
 BOOTS_DOI_TRUONG_2:
   base:
     custom-maxsockets: 3.0
-    revision-id: 3
+    revision-id: 4
     material: DIAMOND_BOOTS
     name: "&6Giày Đội Trưởng &e&lII"
     max-durability: 3800
@@ -3738,10 +3738,10 @@ BOOTS_DOI_TRUONG_2:
     lore:
       - "&7 Trang bị phòng thủ kiên cố của Đội Trưởng"
       - "&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
-    armor: 6.7
+    armor: 6.0
     max-health: 8.5
     armor-toughness: 1.5
-    defense: 1.1
+    defense: 1.8
     movement-speed: 0.011
     upgrade:
       reference: armor-upgrade-template
@@ -3753,7 +3753,7 @@ BOOTS_DOI_TRUONG_2:
 BOOTS_DOI_TRUONG_3:
   base:
     custom-maxsockets: 3.0
-    revision-id: 3
+    revision-id: 4
     material: DIAMOND_BOOTS
     name: "&6Giày Đội Trưởng &e&lIII"
     max-durability: 3800
@@ -3763,10 +3763,10 @@ BOOTS_DOI_TRUONG_3:
     lore:
       - "&7 Trang bị phòng thủ kiên cố của Đội Trưởng"
       - "&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
-    armor: 7.0
+    armor: 6.0
     max-health: 9.0
     armor-toughness: 1.6
-    defense: 1.2
+    defense: 2.2
     movement-speed: 0.012
     upgrade:
       reference: armor-upgrade-template
@@ -3778,7 +3778,7 @@ BOOTS_DOI_TRUONG_3:
 BOOTS_DOI_TRUONG_4:
   base:
     custom-maxsockets: 3.0
-    revision-id: 3
+    revision-id: 4
     material: DIAMOND_BOOTS
     name: "&6Giày Đội Trưởng &e&lIV"
     max-durability: 3800
@@ -3788,10 +3788,10 @@ BOOTS_DOI_TRUONG_4:
     lore:
       - "&7 Trang bị phòng thủ kiên cố của Đội Trưởng"
       - "&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
-    armor: 7.3
+    armor: 6.0
     max-health: 9.5
     armor-toughness: 1.7
-    defense: 1.3
+    defense: 2.6
     movement-speed: 0.013
     upgrade:
       reference: armor-upgrade-template
@@ -3803,7 +3803,7 @@ BOOTS_DOI_TRUONG_4:
 BOOTS_DOI_TRUONG_5:
   base:
     custom-maxsockets: 3.0
-    revision-id: 3
+    revision-id: 4
     material: DIAMOND_BOOTS
     name: "&6Giày Đội Trưởng &e&lV"
     max-durability: 3800
@@ -3813,10 +3813,10 @@ BOOTS_DOI_TRUONG_5:
     lore:
       - "&7 Trang bị phòng thủ kiên cố của Đội Trưởng"
       - "&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
-    armor: 7.6
+    armor: 6.0
     max-health: 10.0
     armor-toughness: 1.8
-    defense: 1.4
+    defense: 3.0
     movement-speed: 0.014
     upgrade:
       reference: armor-upgrade-template
@@ -3828,7 +3828,7 @@ BOOTS_DOI_TRUONG_5:
 BOOTS_PHO_QUAN_NGUC_1:
   base:
     custom-maxsockets: 4.0
-    revision-id: 3
+    revision-id: 4
     material: DIAMOND_BOOTS
     name: "&cGiày Phó Quản Ngục &e&lI"
     max-durability: 5200
@@ -3838,10 +3838,10 @@ BOOTS_PHO_QUAN_NGUC_1:
     lore:
       - "&7 Trang bị phòng thủ kiên cố của Phó Quản Ngục"
       - "&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
-    armor: 8.8
+    armor: 6.0
     max-health: 12.0
     armor-toughness: 2.2
-    defense: 1.8
+    defense: 4.6
     movement-speed: 0.015
     upgrade:
       reference: armor-upgrade-template
@@ -3853,7 +3853,7 @@ BOOTS_PHO_QUAN_NGUC_1:
 BOOTS_PHO_QUAN_NGUC_2:
   base:
     custom-maxsockets: 4.0
-    revision-id: 3
+    revision-id: 4
     material: DIAMOND_BOOTS
     name: "&cGiày Phó Quản Ngục &e&lII"
     max-durability: 5200
@@ -3863,10 +3863,10 @@ BOOTS_PHO_QUAN_NGUC_2:
     lore:
       - "&7 Trang bị phòng thủ kiên cố của Phó Quản Ngục"
       - "&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
-    armor: 9.2
+    armor: 6.0
     max-health: 12.6
     armor-toughness: 2.4
-    defense: 2.0
+    defense: 5.2
     movement-speed: 0.016
     upgrade:
       reference: armor-upgrade-template
@@ -3878,7 +3878,7 @@ BOOTS_PHO_QUAN_NGUC_2:
 BOOTS_PHO_QUAN_NGUC_3:
   base:
     custom-maxsockets: 4.0
-    revision-id: 3
+    revision-id: 4
     material: DIAMOND_BOOTS
     name: "&cGiày Phó Quản Ngục &e&lIII"
     max-durability: 5200
@@ -3888,10 +3888,10 @@ BOOTS_PHO_QUAN_NGUC_3:
     lore:
       - "&7 Trang bị phòng thủ kiên cố của Phó Quản Ngục"
       - "&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
-    armor: 9.5
+    armor: 6.0
     max-health: 13.2
     armor-toughness: 2.5
-    defense: 2.1
+    defense: 5.6
     movement-speed: 0.017
     upgrade:
       reference: armor-upgrade-template
@@ -3903,7 +3903,7 @@ BOOTS_PHO_QUAN_NGUC_3:
 BOOTS_PHO_QUAN_NGUC_4:
   base:
     custom-maxsockets: 4.0
-    revision-id: 3
+    revision-id: 4
     material: DIAMOND_BOOTS
     name: "&cGiày Phó Quản Ngục &e&lIV"
     max-durability: 5200
@@ -3913,10 +3913,10 @@ BOOTS_PHO_QUAN_NGUC_4:
     lore:
       - "&7 Trang bị phòng thủ kiên cố của Phó Quản Ngục"
       - "&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
-    armor: 9.9
+    armor: 6.0
     max-health: 13.8
     armor-toughness: 2.7
-    defense: 2.3
+    defense: 6.2
     movement-speed: 0.018
     upgrade:
       reference: armor-upgrade-template
@@ -3928,7 +3928,7 @@ BOOTS_PHO_QUAN_NGUC_4:
 BOOTS_PHO_QUAN_NGUC_5:
   base:
     custom-maxsockets: 4.0
-    revision-id: 3
+    revision-id: 4
     material: DIAMOND_BOOTS
     name: "&cGiày Phó Quản Ngục &e&lV"
     max-durability: 5200
@@ -3938,10 +3938,10 @@ BOOTS_PHO_QUAN_NGUC_5:
     lore:
       - "&7 Trang bị phòng thủ kiên cố của Phó Quản Ngục"
       - "&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
-    armor: 10.2
+    armor: 6.0
     max-health: 14.4
     armor-toughness: 2.8
-    defense: 2.4
+    defense: 6.6
     movement-speed: 0.019
     upgrade:
       reference: armor-upgrade-template
@@ -3953,7 +3953,7 @@ BOOTS_PHO_QUAN_NGUC_5:
 BOOTS_QUAN_NGUC_1:
   base:
     custom-maxsockets: 5.0
-    revision-id: 3
+    revision-id: 4
     material: NETHERITE_BOOTS
     name: "&dGiày Quản Ngục &e&lI"
     max-durability: 7000
@@ -3963,10 +3963,10 @@ BOOTS_QUAN_NGUC_1:
     lore:
       - "&7 Trang bị phòng thủ kiên cố của Quản Ngục"
       - "&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
-    armor: 11.6
+    armor: 6.0
     max-health: 17.0
     armor-toughness: 3.2
-    defense: 2.8
+    defense: 8.4
     movement-speed: 0.020
     upgrade:
       reference: armor-upgrade-template
@@ -3978,7 +3978,7 @@ BOOTS_QUAN_NGUC_1:
 BOOTS_QUAN_NGUC_2:
   base:
     custom-maxsockets: 5.0
-    revision-id: 3
+    revision-id: 4
     material: NETHERITE_BOOTS
     name: "&dGiày Quản Ngục &e&lII"
     max-durability: 7000
@@ -3988,10 +3988,10 @@ BOOTS_QUAN_NGUC_2:
     lore:
       - "&7 Trang bị phòng thủ kiên cố của Quản Ngục"
       - "&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
-    armor: 12.0
+    armor: 6.0
     max-health: 17.8
     armor-toughness: 3.4
-    defense: 3.0
+    defense: 9.0
     movement-speed: 0.021
     upgrade:
       reference: armor-upgrade-template
@@ -4003,7 +4003,7 @@ BOOTS_QUAN_NGUC_2:
 BOOTS_QUAN_NGUC_3:
   base:
     custom-maxsockets: 5.0
-    revision-id: 3
+    revision-id: 4
     material: NETHERITE_BOOTS
     name: "&dGiày Quản Ngục &e&lIII"
     max-durability: 7000
@@ -4013,10 +4013,10 @@ BOOTS_QUAN_NGUC_3:
     lore:
       - "&7 Trang bị phòng thủ kiên cố của Quản Ngục"
       - "&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
-    armor: 12.4
+    armor: 6.0
     max-health: 18.6
     armor-toughness: 3.6
-    defense: 3.2
+    defense: 9.6
     movement-speed: 0.022
     upgrade:
       reference: armor-upgrade-template
@@ -4028,7 +4028,7 @@ BOOTS_QUAN_NGUC_3:
 BOOTS_QUAN_NGUC_4:
   base:
     custom-maxsockets: 5.0
-    revision-id: 3
+    revision-id: 4
     material: NETHERITE_BOOTS
     name: "&dGiày Quản Ngục &e&lIV"
     max-durability: 7000
@@ -4038,10 +4038,10 @@ BOOTS_QUAN_NGUC_4:
     lore:
       - "&7 Trang bị phòng thủ kiên cố của Quản Ngục"
       - "&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
-    armor: 12.8
+    armor: 6.0
     max-health: 19.4
     armor-toughness: 3.8
-    defense: 3.4
+    defense: 10.2
     movement-speed: 0.023
     upgrade:
       reference: armor-upgrade-template
@@ -4053,7 +4053,7 @@ BOOTS_QUAN_NGUC_4:
 BOOTS_QUAN_NGUC_5:
   base:
     custom-maxsockets: 5.0
-    revision-id: 3
+    revision-id: 4
     material: NETHERITE_BOOTS
     name: "&dGiày Quản Ngục &e&lV"
     max-durability: 7000
@@ -4063,10 +4063,10 @@ BOOTS_QUAN_NGUC_5:
     lore:
       - "&7 Trang bị phòng thủ kiên cố của Quản Ngục"
       - "&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
-    armor: 13.2
+    armor: 6.0
     max-health: 20.2
     armor-toughness: 4.0
-    defense: 3.6
+    defense: 10.8
     movement-speed: 0.024
     upgrade:
       reference: armor-upgrade-template
@@ -4078,7 +4078,7 @@ BOOTS_QUAN_NGUC_5:
 BOOTS_BA_CHU_NGUC_TU_1:
   base:
     custom-maxsockets: 6.0
-    revision-id: 3
+    revision-id: 4
     material: NETHERITE_BOOTS
     name: "&5Giày Bá Chủ Ngục Tù &e&lI"
     max-durability: 9000
@@ -4088,10 +4088,10 @@ BOOTS_BA_CHU_NGUC_TU_1:
     lore:
       - "&7 Trang bị phòng thủ kiên cố của Bá Chủ Ngục Tù"
       - "&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
-    armor: 15.0
+    armor: 6.0
     max-health: 23.0
     armor-toughness: 4.4
-    defense: 4.0
+    defense: 13.0
     movement-speed: 0.025
     upgrade:
       reference: armor-upgrade-template
@@ -4103,7 +4103,7 @@ BOOTS_BA_CHU_NGUC_TU_1:
 BOOTS_BA_CHU_NGUC_TU_2:
   base:
     custom-maxsockets: 6.0
-    revision-id: 3
+    revision-id: 4
     material: NETHERITE_BOOTS
     name: "&5Giày Bá Chủ Ngục Tù &e&lII"
     max-durability: 9000
@@ -4113,10 +4113,10 @@ BOOTS_BA_CHU_NGUC_TU_2:
     lore:
       - "&7 Trang bị phòng thủ kiên cố của Bá Chủ Ngục Tù"
       - "&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
-    armor: 15.5
+    armor: 6.0
     max-health: 24.0
     armor-toughness: 4.7
-    defense: 4.3
+    defense: 13.8
     movement-speed: 0.026
     upgrade:
       reference: armor-upgrade-template
@@ -4128,7 +4128,7 @@ BOOTS_BA_CHU_NGUC_TU_2:
 BOOTS_BA_CHU_NGUC_TU_3:
   base:
     custom-maxsockets: 6.0
-    revision-id: 3
+    revision-id: 4
     material: NETHERITE_BOOTS
     name: "&5Giày Bá Chủ Ngục Tù &e&lIII"
     max-durability: 9000
@@ -4138,10 +4138,10 @@ BOOTS_BA_CHU_NGUC_TU_3:
     lore:
       - "&7 Trang bị phòng thủ kiên cố của Bá Chủ Ngục Tù"
       - "&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
-    armor: 16.0
+    armor: 6.0
     max-health: 25.0
     armor-toughness: 4.9
-    defense: 4.5
+    defense: 14.5
     movement-speed: 0.027
     upgrade:
       reference: armor-upgrade-template
@@ -4153,7 +4153,7 @@ BOOTS_BA_CHU_NGUC_TU_3:
 BOOTS_BA_CHU_NGUC_TU_4:
   base:
     custom-maxsockets: 6.0
-    revision-id: 3
+    revision-id: 4
     material: NETHERITE_BOOTS
     name: "&5Giày Bá Chủ Ngục Tù &e&lIV"
     max-durability: 9000
@@ -4163,10 +4163,10 @@ BOOTS_BA_CHU_NGUC_TU_4:
     lore:
       - "&7 Trang bị phòng thủ kiên cố của Bá Chủ Ngục Tù"
       - "&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
-    armor: 16.5
+    armor: 6.0
     max-health: 26.0
     armor-toughness: 5.2
-    defense: 4.8
+    defense: 15.3
     movement-speed: 0.028
     upgrade:
       reference: armor-upgrade-template
@@ -4178,7 +4178,7 @@ BOOTS_BA_CHU_NGUC_TU_4:
 BOOTS_BA_CHU_NGUC_TU_5:
   base:
     custom-maxsockets: 6.0
-    revision-id: 3
+    revision-id: 4
     material: NETHERITE_BOOTS
     name: "&5Giày Bá Chủ Ngục Tù &e&lV"
     max-durability: 9000
@@ -4188,10 +4188,10 @@ BOOTS_BA_CHU_NGUC_TU_5:
     lore:
       - "&7 Trang bị phòng thủ kiên cố của Bá Chủ Ngục Tù"
       - "&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
-    armor: 17.0
+    armor: 6.0
     max-health: 27.0
     armor-toughness: 5.4
-    defense: 5.0
+    defense: 16.0
     movement-speed: 0.029
     upgrade:
       reference: armor-upgrade-template
@@ -4203,7 +4203,7 @@ BOOTS_BA_CHU_NGUC_TU_5:
 BOOTS_VUOT_NGUC_1:
   base:
     custom-maxsockets: 7.0
-    revision-id: 3
+    revision-id: 4
     material: NETHERITE_BOOTS
     name: "&4Giày Vượt Ngục &e&lI"
     max-durability: 12000
@@ -4213,10 +4213,10 @@ BOOTS_VUOT_NGUC_1:
     lore:
       - "&7 Trang bị phòng thủ kiên cố của Vượt Ngục"
       - "&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
-    armor: 19.0
+    armor: 6.0
     max-health: 30.0
     armor-toughness: 6.0
-    defense: 5.6
+    defense: 18.6
     movement-speed: 0.030
     upgrade:
       reference: armor-upgrade-template
@@ -4228,7 +4228,7 @@ BOOTS_VUOT_NGUC_1:
 BOOTS_VUOT_NGUC_2:
   base:
     custom-maxsockets: 7.0
-    revision-id: 3
+    revision-id: 4
     material: NETHERITE_BOOTS
     name: "&4Giày Vượt Ngục &e&lII"
     max-durability: 12000
@@ -4238,10 +4238,10 @@ BOOTS_VUOT_NGUC_2:
     lore:
       - "&7 Trang bị phòng thủ kiên cố của Vượt Ngục"
       - "&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
-    armor: 19.6
+    armor: 6.0
     max-health: 31.2
     armor-toughness: 6.3
-    defense: 5.9
+    defense: 19.5
     movement-speed: 0.031
     upgrade:
       reference: armor-upgrade-template
@@ -4253,7 +4253,7 @@ BOOTS_VUOT_NGUC_2:
 BOOTS_VUOT_NGUC_3:
   base:
     custom-maxsockets: 7.0
-    revision-id: 3
+    revision-id: 4
     material: NETHERITE_BOOTS
     name: "&4Giày Vượt Ngục &e&lIII"
     max-durability: 12000
@@ -4263,10 +4263,10 @@ BOOTS_VUOT_NGUC_3:
     lore:
       - "&7 Trang bị phòng thủ kiên cố của Vượt Ngục"
       - "&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
-    armor: 20.2
+    armor: 6.0
     max-health: 32.4
     armor-toughness: 6.6
-    defense: 6.2
+    defense: 20.4
     movement-speed: 0.032
     upgrade:
       reference: armor-upgrade-template
@@ -4278,7 +4278,7 @@ BOOTS_VUOT_NGUC_3:
 BOOTS_VUOT_NGUC_4:
   base:
     custom-maxsockets: 7.0
-    revision-id: 3
+    revision-id: 4
     material: NETHERITE_BOOTS
     name: "&4Giày Vượt Ngục &e&lIV"
     max-durability: 12000
@@ -4288,10 +4288,10 @@ BOOTS_VUOT_NGUC_4:
     lore:
       - "&7 Trang bị phòng thủ kiên cố của Vượt Ngục"
       - "&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
-    armor: 20.8
+    armor: 6.0
     max-health: 33.6
     armor-toughness: 6.9
-    defense: 6.5
+    defense: 21.3
     movement-speed: 0.033
     upgrade:
       reference: armor-upgrade-template
@@ -4303,7 +4303,7 @@ BOOTS_VUOT_NGUC_4:
 BOOTS_VUOT_NGUC_5:
   base:
     custom-maxsockets: 7.0
-    revision-id: 3
+    revision-id: 4
     material: NETHERITE_BOOTS
     name: "&4Giày Vượt Ngục &e&lV"
     max-durability: 12000
@@ -4313,10 +4313,10 @@ BOOTS_VUOT_NGUC_5:
     lore:
       - "&7 Trang bị phòng thủ kiên cố của Vượt Ngục"
       - "&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
-    armor: 21.4
+    armor: 6.0
     max-health: 34.8
     armor-toughness: 7.2
-    defense: 6.8
+    defense: 22.2
     movement-speed: 0.034
     upgrade:
       reference: armor-upgrade-template
@@ -4335,7 +4335,7 @@ DONATE_HELMET_LONG_VE:
   itemsadder-item: "littledragonset:littledragonhelmet"
   base:
     custom-maxsockets: 5.0
-    revision-id: 3
+    revision-id: 4
     material: LEATHER_HELMET
     custom-model-data: 10029
     dye-color: "255 203 68"
@@ -4350,10 +4350,10 @@ DONATE_HELMET_LONG_VE:
       - "&a&l✦ Long Tộc Thiên Giới"
       - "&7 Mũ giáp rèn từ Vảy Rồng Hộ Vệ"
       - "&7 Tỏa sáng bảo hộ, che chở người sở hữu"
-    armor: 39.0
+    armor: 6.0
     max-health: 63.0
     armor-toughness: 13.0
-    defense: 12.0
+    defense: 45.0
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -4365,7 +4365,7 @@ DONATE_CHESTPLATE_LONG_VE:
   itemsadder-item: "littledragonset:littledragonchestplate"
   base:
     custom-maxsockets: 5.0
-    revision-id: 3
+    revision-id: 4
     material: LEATHER_CHESTPLATE
     custom-model-data: 10037
     dye-color: "255 203 68"
@@ -4380,10 +4380,10 @@ DONATE_CHESTPLATE_LONG_VE:
       - "&a&l✦ Long Tộc Thiên Giới"
       - "&7 Chiến giáp rèn từ Vảy Rồng Hộ Vệ"
       - "&7 Tỏa sáng bảo hộ, che chở người sở hữu"
-    armor: 68.3
+    armor: 10.5
     max-health: 110.3
     armor-toughness: 22.8
-    defense: 21.0
+    defense: 78.8
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -4395,7 +4395,7 @@ DONATE_LEGGINGS_LONG_VE:
   itemsadder-item: "littledragonset:littledragonleggings"
   base:
     custom-maxsockets: 5.0
-    revision-id: 3
+    revision-id: 4
     material: LEATHER_LEGGINGS
     custom-model-data: 10037
     dye-color: "255 203 68"
@@ -4410,10 +4410,10 @@ DONATE_LEGGINGS_LONG_VE:
       - "&a&l✦ Long Tộc Thiên Giới"
       - "&7 Hộ tất rèn từ Vảy Rồng Hộ Vệ"
       - "&7 Tỏa sáng bảo hộ, che chở người sở hữu"
-    armor: 48.8
+    armor: 7.5
     max-health: 78.8
     armor-toughness: 16.3
-    defense: 15.0
+    defense: 56.3
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -4425,7 +4425,7 @@ DONATE_BOOTS_LONG_VE:
   itemsadder-item: "littledragonset:littledragonboots"
   base:
     custom-maxsockets: 5.0
-    revision-id: 3
+    revision-id: 4
     material: LEATHER_BOOTS
     custom-model-data: 10037
     dye-color: "255 203 68"
@@ -4440,10 +4440,10 @@ DONATE_BOOTS_LONG_VE:
       - "&a&l✦ Long Tộc Thiên Giới"
       - "&7 Chiến hài rèn từ Vảy Rồng Hộ Vệ"
       - "&7 Tỏa sáng bảo hộ, che chở người sở hữu"
-    armor: 39.0
+    armor: 6.0
     max-health: 63.0
     armor-toughness: 13.0
-    defense: 12.0
+    defense: 45.0
     movement-speed: 0.05
     upgrade:
       reference: armor-upgrade-template
@@ -4458,7 +4458,7 @@ DONATE_HELMET_LONG_CHIEN:
   itemsadder-item: "spartan_set:spartanhelmet"
   base:
     custom-maxsockets: 6.0
-    revision-id: 3
+    revision-id: 4
     material: LEATHER_HELMET
     custom-model-data: 10012
     dye-color: "58 48 48"
@@ -4473,10 +4473,10 @@ DONATE_HELMET_LONG_CHIEN:
       - "&e&l⚔ Long Tộc Thiên Giới"
       - "&7 Mũ giáp hun đúc từ Nanh Rồng Chiến"
       - "&7 Uy áp áp đảo, khiến kẻ thù khiếp sợ"
-    armor: 45.6
+    armor: 6.0
     max-health: 72.4
     armor-toughness: 15.4
-    defense: 14.6
+    defense: 54.2
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -4488,7 +4488,7 @@ DONATE_CHESTPLATE_LONG_CHIEN:
   itemsadder-item: "spartan_set:spartanchestplate"
   base:
     custom-maxsockets: 6.0
-    revision-id: 3
+    revision-id: 4
     material: LEATHER_CHESTPLATE
     custom-model-data: 10016
     dye-color: "58 48 48"
@@ -4503,10 +4503,10 @@ DONATE_CHESTPLATE_LONG_CHIEN:
       - "&e&l⚔ Long Tộc Thiên Giới"
       - "&7 Chiến giáp hun đúc từ Nanh Rồng Chiến"
       - "&7 Vững chắc như núi đá, không thể lung lay"
-    armor: 79.8
+    armor: 10.5
     max-health: 126.7
     armor-toughness: 26.9
-    defense: 25.6
+    defense: 94.9
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -4518,7 +4518,7 @@ DONATE_LEGGINGS_LONG_CHIEN:
   itemsadder-item: "spartan_set:spartanleggings"
   base:
     custom-maxsockets: 6.0
-    revision-id: 3
+    revision-id: 4
     material: LEATHER_LEGGINGS
     custom-model-data: 10016
     dye-color: "58 48 48"
@@ -4533,10 +4533,10 @@ DONATE_LEGGINGS_LONG_CHIEN:
       - "&e&l⚔ Long Tộc Thiên Giới"
       - "&7 Hộ tất hun đúc từ Nanh Rồng Chiến"
       - "&7 Bảo vệ toàn diện, gia tăng sức chịu đựng"
-    armor: 57.0
+    armor: 7.5
     max-health: 90.5
     armor-toughness: 19.3
-    defense: 18.3
+    defense: 67.8
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -4548,7 +4548,7 @@ DONATE_BOOTS_LONG_CHIEN:
   itemsadder-item: "spartan_set:spartanboots"
   base:
     custom-maxsockets: 6.0
-    revision-id: 3
+    revision-id: 4
     material: LEATHER_BOOTS
     custom-model-data: 10016
     dye-color: "58 48 48"
@@ -4563,10 +4563,10 @@ DONATE_BOOTS_LONG_CHIEN:
       - "&e&l⚔ Long Tộc Thiên Giới"
       - "&7 Chiến hài hun đúc từ Nanh Rồng Chiến"
       - "&7 Bước đi vững chãi trên chiến trường"
-    armor: 45.6
+    armor: 6.0
     max-health: 72.4
     armor-toughness: 15.4
-    defense: 14.6
+    defense: 54.2
     movement-speed: 0.055
     upgrade:
       reference: armor-upgrade-template
@@ -4581,7 +4581,7 @@ DONATE_HELMET_LONG_THAN:
   itemsadder-item: "azureset:azurehelmet"
   base:
     custom-maxsockets: 6.0
-    revision-id: 3
+    revision-id: 4
     material: LEATHER_HELMET
     custom-model-data: 10018
     dye-color: "39 77 154"
@@ -4596,10 +4596,10 @@ DONATE_HELMET_LONG_THAN:
       - "&b&l✦ Long Tộc Thiên Giới"
       - "&7 Mũ giáp ngưng tụ từ Tinh Hoa Long Thần"
       - "&7 Ánh sáng thần thánh bảo vệ linh hồn"
-    armor: 53.1
+    armor: 6.0
     max-health: 83.2
     armor-toughness: 18.1
-    defense: 17.5
+    defense: 64.6
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -4611,7 +4611,7 @@ DONATE_CHESTPLATE_LONG_THAN:
   itemsadder-item: "azureset:azurechestplate"
   base:
     custom-maxsockets: 6.0
-    revision-id: 3
+    revision-id: 4
     material: LEATHER_CHESTPLATE
     custom-model-data: 10024
     dye-color: "39 77 154"
@@ -4626,10 +4626,10 @@ DONATE_CHESTPLATE_LONG_THAN:
       - "&b&l✦ Long Tộc Thiên Giới"
       - "&7 Thánh giáp ngưng tụ từ Tinh Hoa Long Thần"
       - "&7 Hấp thụ sát thương, chuyển hóa thành lá chắn"
-    armor: 92.9
+    armor: 10.5
     max-health: 145.7
     armor-toughness: 31.7
-    defense: 30.6
+    defense: 113.0
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -4641,7 +4641,7 @@ DONATE_LEGGINGS_LONG_THAN:
   itemsadder-item: "azureset:azureleggings"
   base:
     custom-maxsockets: 6.0
-    revision-id: 3
+    revision-id: 4
     material: LEATHER_LEGGINGS
     custom-model-data: 10024
     dye-color: "39 77 154"
@@ -4656,10 +4656,10 @@ DONATE_LEGGINGS_LONG_THAN:
       - "&b&l✦ Long Tộc Thiên Giới"
       - "&7 Hộ tất ngưng tụ từ Tinh Hoa Long Thần"
       - "&7 Thần lực bao bọc, di chuyển linh hoạt"
-    armor: 66.4
+    armor: 7.5
     max-health: 104.1
     armor-toughness: 22.6
-    defense: 21.9
+    defense: 80.8
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -4671,7 +4671,7 @@ DONATE_BOOTS_LONG_THAN:
   itemsadder-item: "azureset:azureboots"
   base:
     custom-maxsockets: 6.0
-    revision-id: 3
+    revision-id: 4
     material: LEATHER_BOOTS
     custom-model-data: 10024
     dye-color: "39 77 154"
@@ -4686,10 +4686,10 @@ DONATE_BOOTS_LONG_THAN:
       - "&b&l✦ Long Tộc Thiên Giới"
       - "&7 Chiến hài ngưng tụ từ Tinh Hoa Long Thần"
       - "&7 Bước đi trên mây, không gì cản bước"
-    armor: 53.1
+    armor: 6.0
     max-health: 83.2
     armor-toughness: 18.1
-    defense: 17.5
+    defense: 64.6
     movement-speed: 0.06
     upgrade:
       reference: armor-upgrade-template
@@ -4704,7 +4704,7 @@ DONATE_HELMET_LONG_DE:
   itemsadder-item: "demon_edgeset:demon_edgehelmet"
   base:
     custom-maxsockets: 7.0
-    revision-id: 3
+    revision-id: 4
     material: LEATHER_HELMET
     custom-model-data: 10032
     dye-color: "171 23 79"
@@ -4719,10 +4719,10 @@ DONATE_HELMET_LONG_DE:
       - "&4&l◆ Long Tộc Thiên Giới"
       - "&7 Mũ giáp tôi luyện trong Hỏa Ngục Rồng Đế"
       - "&7 Uy phong lẫm liệt, bộc phá sức mạnh tối thượng"
-    armor: 61.8
+    armor: 6.0
     max-health: 95.7
     armor-toughness: 21.2
-    defense: 20.8
+    defense: 76.6
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -4734,7 +4734,7 @@ DONATE_CHESTPLATE_LONG_DE:
   itemsadder-item: "demon_edgeset:demon_edgechestplate"
   base:
     custom-maxsockets: 7.0
-    revision-id: 3
+    revision-id: 4
     material: LEATHER_CHESTPLATE
     custom-model-data: 10040
     dye-color: "171 23 79"
@@ -4749,10 +4749,10 @@ DONATE_CHESTPLATE_LONG_DE:
       - "&4&l◆ Long Tộc Thiên Giới"
       - "&7 Diệt giáp tôi luyện trong Hỏa Ngục Rồng Đế"
       - "&7 Hủy diệt mọi đòn tấn công của kẻ thù"
-    armor: 108.2
+    armor: 10.5
     max-health: 167.5
     armor-toughness: 37.1
-    defense: 36.4
+    defense: 134.1
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -4764,7 +4764,7 @@ DONATE_LEGGINGS_LONG_DE:
   itemsadder-item: "demon_edgeset:demon_edgeleggings"
   base:
     custom-maxsockets: 7.0
-    revision-id: 3
+    revision-id: 4
     material: LEATHER_LEGGINGS
     custom-model-data: 10040
     dye-color: "171 23 79"
@@ -4779,10 +4779,10 @@ DONATE_LEGGINGS_LONG_DE:
       - "&4&l◆ Long Tộc Thiên Giới"
       - "&7 Hộ tất tôi luyện trong Hỏa Ngục Rồng Đế"
       - "&7 Áp chế ngục hỏa, phòng ngự bất kiên"
-    armor: 77.3
+    armor: 7.5
     max-health: 119.6
     armor-toughness: 26.5
-    defense: 26.0
+    defense: 95.8
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -4794,7 +4794,7 @@ DONATE_BOOTS_LONG_DE:
   itemsadder-item: "demon_edgeset:demon_edgeboots"
   base:
     custom-maxsockets: 7.0
-    revision-id: 3
+    revision-id: 4
     material: LEATHER_BOOTS
     custom-model-data: 10040
     dye-color: "171 23 79"
@@ -4809,10 +4809,10 @@ DONATE_BOOTS_LONG_DE:
       - "&4&l◆ Long Tộc Thiên Giới"
       - "&7 Chiến hài tôi luyện trong Hỏa Ngục Rồng Đế"
       - "&7 Mỗi bước đi giẫm nát hoang tàn"
-    armor: 61.8
+    armor: 6.0
     max-health: 95.7
     armor-toughness: 21.2
-    defense: 20.8
+    defense: 76.6
     movement-speed: 0.065
     upgrade:
       reference: armor-upgrade-template
@@ -4827,7 +4827,7 @@ DONATE_HELMET_LONG_HOANG:
   itemsadder-item: "lunarset:lunar_helmet"
   base:
     custom-maxsockets: 7.0
-    revision-id: 4
+    revision-id: 5
     material: PAPER
     custom-model-data: 10124
     dye-color: "81 166 102"
@@ -4842,10 +4842,10 @@ DONATE_HELMET_LONG_HOANG:
       - "&c&l★ Huyền Thoại Long Tộc"
       - "&7 Mũ giáp tối thượng rèn từ Vảy Rồng Hoàng Kim"
       - "&7 Tỏa hào quang hoàng gia, vạn vật tôn sùng"
-    armor: 72.0
+    armor: 6.0
     max-health: 110.0
     armor-toughness: 24.8
-    defense: 24.5
+    defense: 90.5
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -4857,7 +4857,7 @@ DONATE_CHESTPLATE_LONG_HOANG:
   itemsadder-item: "lunarset:lunarchestplate"
   base:
     custom-maxsockets: 7.0
-    revision-id: 4
+    revision-id: 5
     material: LEATHER_CHESTPLATE
     custom-model-data: 10000
     dye-color: "81 166 102"
@@ -4872,10 +4872,10 @@ DONATE_CHESTPLATE_LONG_HOANG:
       - "&c&l★ Huyền Thoại Long Tộc"
       - "&7 Thiên giáp tối thượng rèn từ Vảy Rồng Hoàng Kim"
       - "&7 Bất tử bất diệt, phòng thủ vô song"
-    armor: 126.0
+    armor: 10.5
     max-health: 192.5
     armor-toughness: 43.4
-    defense: 42.9
+    defense: 158.4
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -4887,7 +4887,7 @@ DONATE_LEGGINGS_LONG_HOANG:
   itemsadder-item: "lunarset:lunarleggings"
   base:
     custom-maxsockets: 7.0
-    revision-id: 4
+    revision-id: 5
     material: LEATHER_LEGGINGS
     custom-model-data: 10000
     dye-color: "81 166 102"
@@ -4902,10 +4902,10 @@ DONATE_LEGGINGS_LONG_HOANG:
       - "&c&l★ Huyền Thoại Long Tộc"
       - "&7 Hộ tất tối thượng rèn từ Vảy Rồng Hoàng Kim"
       - "&7 Kiên cố tuyệt đối, không công phá được"
-    armor: 90.0
+    armor: 7.5
     max-health: 137.5
     armor-toughness: 31.0
-    defense: 30.6
+    defense: 113.1
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -4917,7 +4917,7 @@ DONATE_BOOTS_LONG_HOANG:
   itemsadder-item: "lunarset:lunarboots"
   base:
     custom-maxsockets: 7.0
-    revision-id: 4
+    revision-id: 5
     material: LEATHER_BOOTS
     custom-model-data: 10000
     dye-color: "81 166 102"
@@ -4932,10 +4932,10 @@ DONATE_BOOTS_LONG_HOANG:
       - "&c&l★ Huyền Thoại Long Tộc"
       - "&7 Chiến hài tối thượng rèn từ Vảy Rồng Hoàng Kim"
       - "&7 Lướt trên hư không, xé tan không gian"
-    armor: 72.0
+    armor: 6.0
     max-health: 110.0
     armor-toughness: 24.8
-    defense: 24.5
+    defense: 90.5
     movement-speed: 0.07
     upgrade:
       reference: armor-upgrade-template
@@ -4954,7 +4954,7 @@ TRADE_HELMET_HOA_LONG:
   itemsadder-item: "firework_set:fireworkhelmet"
   base:
     custom-maxsockets: 3.0
-    revision-id: 3
+    revision-id: 4
     material: LEATHER_HELMET
     custom-model-data: 10015
     dye-color: "107 0 20"
@@ -4969,10 +4969,10 @@ TRADE_HELMET_HOA_LONG:
       - "&6✦ Long Tộc Trần Thế"
       - "&7 Giáp miện rèn từ ngọn lửa Hỏa Long"
       - "&7 Bảo vệ đầu, tăng cường khả năng chịu đựng"
-    armor: 25.0
+    armor: 6.0
     max-health: 40.0
     armor-toughness: 8.4
-    defense: 8.0
+    defense: 27.0
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -4984,7 +4984,7 @@ TRADE_CHESTPLATE_HOA_LONG:
   itemsadder-item: "firework_set:fireworkchestplate"
   base:
     custom-maxsockets: 3.0
-    revision-id: 3
+    revision-id: 4
     material: LEATHER_CHESTPLATE
     custom-model-data: 10020
     dye-color: "107 0 20"
@@ -4999,10 +4999,10 @@ TRADE_CHESTPLATE_HOA_LONG:
       - "&6✦ Long Tộc Trần Thế"
       - "&7 Chiến giáp rèn từ ngọn lửa Hỏa Long"
       - "&7 Lửa cháy bảo hộ, kẻ thù không dám đến gần"
-    armor: 43.8
+    armor: 10.5
     max-health: 70.0
     armor-toughness: 14.7
-    defense: 14.0
+    defense: 47.3
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -5014,7 +5014,7 @@ TRADE_LEGGINGS_HOA_LONG:
   itemsadder-item: "firework_set:fireworkleggings"
   base:
     custom-maxsockets: 3.0
-    revision-id: 3
+    revision-id: 4
     material: LEATHER_LEGGINGS
     custom-model-data: 10020
     dye-color: "107 0 20"
@@ -5029,10 +5029,10 @@ TRADE_LEGGINGS_HOA_LONG:
       - "&6✦ Long Tộc Trần Thế"
       - "&7 Hộ tất rèn từ ngọn lửa Hỏa Long"
       - "&7 Bảo vệ đôi chân trong lửa chiến"
-    armor: 31.3
+    armor: 7.5
     max-health: 50.0
     armor-toughness: 10.5
-    defense: 10.0
+    defense: 33.8
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -5044,7 +5044,7 @@ TRADE_BOOTS_HOA_LONG:
   itemsadder-item: "firework_set:fireworkboots"
   base:
     custom-maxsockets: 3.0
-    revision-id: 3
+    revision-id: 4
     material: LEATHER_BOOTS
     custom-model-data: 10020
     dye-color: "107 0 20"
@@ -5059,10 +5059,10 @@ TRADE_BOOTS_HOA_LONG:
       - "&6✦ Long Tộc Trần Thế"
       - "&7 Hỏa hài rèn từ ngọn lửa Hỏa Long"
       - "&7 Bước đi để lại vệt lửa trên mặt đất"
-    armor: 25.0
+    armor: 6.0
     max-health: 40.0
     armor-toughness: 8.4
-    defense: 8.0
+    defense: 27.0
     movement-speed: 0.038
     upgrade:
       reference: armor-upgrade-template
@@ -5077,7 +5077,7 @@ TRADE_HELMET_BANG_LONG:
   itemsadder-item: "mysticcyanset:mysticcyanhelmet"
   base:
     custom-maxsockets: 4.0
-    revision-id: 3
+    revision-id: 4
     material: LEATHER_HELMET
     custom-model-data: 10020
     dye-color: "14 175 155"
@@ -5092,10 +5092,10 @@ TRADE_HELMET_BANG_LONG:
       - "&3&l✦ Long Tộc Trần Thế"
       - "&7 Giáp miện kết tinh từ Hơi Thở Băng Long"
       - "&7 Giá lạnh vĩnh cửu bảo hộ người đội"
-    armor: 29.0
+    armor: 6.0
     max-health: 46.4
     armor-toughness: 9.8
-    defense: 9.2
+    defense: 32.2
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -5107,7 +5107,7 @@ TRADE_CHESTPLATE_BANG_LONG:
   itemsadder-item: "mysticcyanset:mysticcyanchestplate"
   base:
     custom-maxsockets: 4.0
-    revision-id: 3
+    revision-id: 4
     material: LEATHER_CHESTPLATE
     custom-model-data: 10027
     dye-color: "14 175 155"
@@ -5122,10 +5122,10 @@ TRADE_CHESTPLATE_BANG_LONG:
       - "&3&l✦ Long Tộc Trần Thế"
       - "&7 Hàn giáp kết tinh từ Hơi Thở Băng Long"
       - "&7 Đóng băng mọi sát thương đến gần"
-    armor: 50.8
+    armor: 10.5
     max-health: 81.2
     armor-toughness: 17.2
-    defense: 16.1
+    defense: 56.4
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -5137,7 +5137,7 @@ TRADE_LEGGINGS_BANG_LONG:
   itemsadder-item: "mysticcyanset:mysticcyanleggings"
   base:
     custom-maxsockets: 4.0
-    revision-id: 3
+    revision-id: 4
     material: LEATHER_LEGGINGS
     custom-model-data: 10027
     dye-color: "14 175 155"
@@ -5152,10 +5152,10 @@ TRADE_LEGGINGS_BANG_LONG:
       - "&3&l✦ Long Tộc Trần Thế"
       - "&7 Hộ tất kết tinh từ Hơi Thở Băng Long"
       - "&7 Băng giá bảo vệ, không gì xuyên thấu"
-    armor: 36.3
+    armor: 7.5
     max-health: 58.0
     armor-toughness: 12.2
-    defense: 11.5
+    defense: 40.3
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -5167,7 +5167,7 @@ TRADE_BOOTS_BANG_LONG:
   itemsadder-item: "mysticcyanset:mysticcyanboots"
   base:
     custom-maxsockets: 4.0
-    revision-id: 3
+    revision-id: 4
     material: LEATHER_BOOTS
     custom-model-data: 10027
     dye-color: "14 175 155"
@@ -5182,10 +5182,10 @@ TRADE_BOOTS_BANG_LONG:
       - "&3&l✦ Long Tộc Trần Thế"
       - "&7 Hàn hài kết tinh từ Hơi Thở Băng Long"
       - "&7 Bước đi để lại sương giá, đóng băng mặt đất"
-    armor: 29.0
+    armor: 6.0
     max-health: 46.4
     armor-toughness: 9.8
-    defense: 9.2
+    defense: 32.2
     movement-speed: 0.042
     upgrade:
       reference: armor-upgrade-template
@@ -5200,7 +5200,7 @@ TRADE_HELMET_LOI_LONG:
   itemsadder-item: "elitecreatures:king_arthur_animated_weapon_set_helmet"
   base:
     custom-maxsockets: 5.0
-    revision-id: 3
+    revision-id: 4
     material: PAPER
     custom-model-data: 10353
     dye-color: "140 25 107"
@@ -5215,10 +5215,10 @@ TRADE_HELMET_LOI_LONG:
       - "&e&l⚡ Long Tộc Trần Thế"
       - "&7 Giáp miện chứa đựng Sấm Sét Lôi Long"
       - "&7 Sấm sét bảo hộ, phản đòn kẻ tấn công"
-    armor: 45.6
+    armor: 6.0
     max-health: 72.4
     armor-toughness: 15.4
-    defense: 14.6
+    defense: 54.2
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -5230,7 +5230,7 @@ TRADE_CHESTPLATE_LOI_LONG:
   itemsadder-item: "elitecreatures:king_arthur_animated_weapon_set_chestplate"
   base:
     custom-maxsockets: 5.0
-    revision-id: 3
+    revision-id: 4
     material: LEATHER_CHESTPLATE
     custom-model-data: 10031
     dye-color: "140 25 107"
@@ -5245,10 +5245,10 @@ TRADE_CHESTPLATE_LOI_LONG:
       - "&e&l⚡ Long Tộc Trần Thế"
       - "&7 Chấn giáp chứa đựng Sấm Sét Lôi Long"
       - "&7 Mỗi đòn đánh vào sẽ bị phản lại bởi sấm sét"
-    armor: 79.8
+    armor: 10.5
     max-health: 126.7
     armor-toughness: 26.9
-    defense: 25.6
+    defense: 94.9
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -5260,7 +5260,7 @@ TRADE_LEGGINGS_LOI_LONG:
   itemsadder-item: "elitecreatures:king_arthur_animated_weapon_set_leggings"
   base:
     custom-maxsockets: 5.0
-    revision-id: 3
+    revision-id: 4
     material: LEATHER_LEGGINGS
     custom-model-data: 10031
     dye-color: "140 25 107"
@@ -5275,10 +5275,10 @@ TRADE_LEGGINGS_LOI_LONG:
       - "&e&l⚡ Long Tộc Trần Thế"
       - "&7 Hộ tất chứa đựng Sấm Sét Lôi Long"
       - "&7 Điện quang bao bọc, bảo vệ toàn diện"
-    armor: 57.0
+    armor: 7.5
     max-health: 90.5
     armor-toughness: 19.3
-    defense: 18.3
+    defense: 67.8
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -5290,7 +5290,7 @@ TRADE_BOOTS_LOI_LONG:
   itemsadder-item: "elitecreatures:king_arthur_animated_weapon_set_boots"
   base:
     custom-maxsockets: 5.0
-    revision-id: 3
+    revision-id: 4
     material: LEATHER_BOOTS
     custom-model-data: 10031
     dye-color: "140 25 107"
@@ -5305,10 +5305,10 @@ TRADE_BOOTS_LOI_LONG:
       - "&e&l⚡ Long Tộc Trần Thế"
       - "&7 Chấn hài chứa đựng Sấm Sét Lôi Long"
       - "&7 Mỗi bước chân phát ra tia sét"
-    armor: 45.6
+    armor: 6.0
     max-health: 72.4
     armor-toughness: 15.4
-    defense: 14.6
+    defense: 54.2
     movement-speed: 0.055
     upgrade:
       reference: armor-upgrade-template
@@ -5323,7 +5323,7 @@ TRADE_HELMET_PHONG_LONG:
   itemsadder-item: "nanoedge_set:nanoedgehelmet"
   base:
     custom-maxsockets: 6.0
-    revision-id: 3
+    revision-id: 4
     material: LEATHER_HELMET
     custom-model-data: 10016
     dye-color: "105 169 58"
@@ -5338,10 +5338,10 @@ TRADE_HELMET_PHONG_LONG:
       - "&2&l✦ Long Tộc Trần Thế"
       - "&7 Giáp miện cuốn theo Cuồng Phong Phong Long"
       - "&7 Gió cuốn bảo hộ, né tránh mọi đòn đánh"
-    armor: 39.0
+    armor: 6.0
     max-health: 62.4
     armor-toughness: 13.2
-    defense: 12.6
+    defense: 45.6
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -5353,7 +5353,7 @@ TRADE_CHESTPLATE_PHONG_LONG:
   itemsadder-item: "nanoedge_set:nanoedgechestplate"
   base:
     custom-maxsockets: 6.0
-    revision-id: 3
+    revision-id: 4
     material: LEATHER_CHESTPLATE
     custom-model-data: 10021
     dye-color: "105 169 58"
@@ -5368,10 +5368,10 @@ TRADE_CHESTPLATE_PHONG_LONG:
       - "&2&l✦ Long Tộc Trần Thế"
       - "&7 Liệt giáp cuốn theo Cuồng Phong Phong Long"
       - "&7 Bão tố bao bọc, phòng ngự tuyệt hảo"
-    armor: 68.3
+    armor: 10.5
     max-health: 109.2
     armor-toughness: 23.1
-    defense: 22.1
+    defense: 79.9
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -5383,7 +5383,7 @@ TRADE_LEGGINGS_PHONG_LONG:
   itemsadder-item: "nanoedge_set:nanoedgeleggings"
   base:
     custom-maxsockets: 6.0
-    revision-id: 3
+    revision-id: 4
     material: LEATHER_LEGGINGS
     custom-model-data: 10021
     dye-color: "105 169 58"
@@ -5398,10 +5398,10 @@ TRADE_LEGGINGS_PHONG_LONG:
       - "&2&l✦ Long Tộc Trần Thế"
       - "&7 Hộ tất cuốn theo Cuồng Phong Phong Long"
       - "&7 Gió cuốn bảo vệ, linh hoạt phi thường"
-    armor: 48.8
+    armor: 7.5
     max-health: 78.0
     armor-toughness: 16.5
-    defense: 15.8
+    defense: 57.1
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -5413,7 +5413,7 @@ TRADE_BOOTS_PHONG_LONG:
   itemsadder-item: "nanoedge_set:nanoedgeboots"
   base:
     custom-maxsockets: 6.0
-    revision-id: 3
+    revision-id: 4
     material: LEATHER_BOOTS
     custom-model-data: 10021
     dye-color: "105 169 58"
@@ -5428,10 +5428,10 @@ TRADE_BOOTS_PHONG_LONG:
       - "&2&l✦ Long Tộc Trần Thế"
       - "&7 Phong hài cuốn theo Cuồng Phong Phong Long"
       - "&7 Nhanh như gió cuốn, nhẹ như lông hồng"
-    armor: 39.0
+    armor: 6.0
     max-health: 62.4
     armor-toughness: 13.2
-    defense: 12.6
+    defense: 45.6
     movement-speed: 0.050
     upgrade:
       reference: armor-upgrade-template
@@ -5446,7 +5446,7 @@ TRADE_HELMET_HAC_LONG:
   itemsadder-item: "obsidianset:co_helmet"
   base:
     custom-maxsockets: 7.0
-    revision-id: 3
+    revision-id: 4
     material: LEATHER_HELMET
     custom-model-data: 10002
     dye-color: "9 0 26"
@@ -5461,10 +5461,10 @@ TRADE_HELMET_HAC_LONG:
       - "&5&l◆ Di Vật Hắc Long"
       - "&7 Ma miện hun đúc từ linh hồn Hắc Long"
       - "&7 Nguyền rủa kẻ tấn công, hấp thụ sức mạnh"
-    armor: 33.6
+    armor: 6.0
     max-health: 53.8
     armor-toughness: 11.4
-    defense: 10.8
+    defense: 38.4
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -5476,7 +5476,7 @@ TRADE_CHESTPLATE_HAC_LONG:
   itemsadder-item: "obsidianset:co_chestplate"
   base:
     custom-maxsockets: 7.0
-    revision-id: 3
+    revision-id: 4
     material: LEATHER_CHESTPLATE
     custom-model-data: 10004
     dye-color: "9 0 26"
@@ -5491,10 +5491,10 @@ TRADE_CHESTPLATE_HAC_LONG:
       - "&5&l◆ Di Vật Hắc Long"
       - "&7 Ma giáp hun đúc từ linh hồn Hắc Long"
       - "&7 Bóng tối bao trùm, hấp thụ mọi sát thương"
-    armor: 58.8
+    armor: 10.5
     max-health: 94.2
     armor-toughness: 19.9
-    defense: 18.9
+    defense: 67.2
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -5506,7 +5506,7 @@ TRADE_LEGGINGS_HAC_LONG:
   itemsadder-item: "obsidianset:co_leggings"
   base:
     custom-maxsockets: 7.0
-    revision-id: 3
+    revision-id: 4
     material: LEATHER_LEGGINGS
     custom-model-data: 10004
     dye-color: "9 0 26"
@@ -5521,10 +5521,10 @@ TRADE_LEGGINGS_HAC_LONG:
       - "&5&l◆ Di Vật Hắc Long"
       - "&7 Ma tất hun đúc từ linh hồn Hắc Long"
       - "&7 Bóng tối bảo vệ, không gì xuyên thấu"
-    armor: 42.0
+    armor: 7.5
     max-health: 67.3
     armor-toughness: 14.3
-    defense: 13.5
+    defense: 48.0
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -5536,7 +5536,7 @@ TRADE_BOOTS_HAC_LONG:
   itemsadder-item: "obsidianset:co_boots"
   base:
     custom-maxsockets: 7.0
-    revision-id: 3
+    revision-id: 4
     material: LEATHER_BOOTS
     custom-model-data: 10004
     dye-color: "9 0 26"
@@ -5551,10 +5551,10 @@ TRADE_BOOTS_HAC_LONG:
       - "&5&l◆ Di Vật Hắc Long"
       - "&7 Ma hài hun đúc từ linh hồn Hắc Long"
       - "&7 Bước đi trong bóng tối, vô hình trước kẻ thù"
-    armor: 33.6
+    armor: 6.0
     max-health: 53.8
     armor-toughness: 11.4
-    defense: 10.8
+    defense: 38.4
     movement-speed: 0.046
     upgrade:
       reference: armor-upgrade-template

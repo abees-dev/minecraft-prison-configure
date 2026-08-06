@@ -117,10 +117,16 @@ pieces.forEach((p) => {
       const id = `${p.key}_${r.id}_${t + 1}`;
       const setStats = getSetStats(rIdx, t);
 
-      const itemArmor = setStats.armor * p.ratio.armor;
+      const rawArmor = setStats.armor * p.ratio.armor;
       const itemHealth = setStats.maxHealth * p.ratio.health;
       const itemToughness = setStats.toughness * p.ratio.toughness;
-      const itemDefense = setStats.defense * p.ratio.defense;
+      // Vanilla generic.armor hard-cap = 30 / full set.
+      // Write armor ≤ slot share; fold excess into MythicLib defense (uncapped).
+      const VANILLA_ARMOR_CAP = 30;
+      const slotArmorShare = VANILLA_ARMOR_CAP * p.ratio.armor;
+      const itemArmor = Math.min(rawArmor, slotArmorShare);
+      const armorExcess = Math.max(0, rawArmor - slotArmorShare);
+      const itemDefense = setStats.defense * p.ratio.defense + armorExcess;
 
       armorContent += `${id}:
   base:
