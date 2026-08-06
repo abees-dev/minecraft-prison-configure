@@ -1,0 +1,114 @@
+name: '&8[&5✦&8] &5&lTRẠM ĐỔI LINH HỒN (#page#/#max#)'
+max-queue-size: 10
+sound: BLOCK_RESPAWN_ANCHOR_CHARGE
+layout: default
+
+items:
+    fill:
+        material: AIR
+    no-recipe:
+        material: GRAY_STAINED_GLASS_PANE
+        name: '&7Chọn phần thưởng muốn đổi'
+    no-queue-item:
+        material: GRAY_STAINED_GLASS_PANE
+        name: '&7Hàng chờ trống'
+
+recipes:
+    soul-low-weapon:
+        item:
+            type: MATERIAL
+            id: DA_CUONG_HOA_VU_KHI_TRUNG_CAP
+        crafting-time: 0
+        ingredients:
+        - mmoitem{type=MATERIAL,id=MANH_LINH_HON_SO_CAP,amount=12,display="Mảnh Linh Hồn Sơ Cấp"}
+    soul-low-armor:
+        item:
+            type: MATERIAL
+            id: DA_CUONG_HOA_GIAP_TRUNG_CAP
+        crafting-time: 0
+        ingredients:
+        - mmoitem{type=MATERIAL,id=MANH_LINH_HON_SO_CAP,amount=12,display="Mảnh Linh Hồn Sơ Cấp"}
+    soul-mid-weapon:
+        item:
+            type: MATERIAL
+            id: DA_CUONG_HOA_VU_KHI_CAO_CAP
+        crafting-time: 0
+        ingredients:
+        - mmoitem{type=MATERIAL,id=MANH_LINH_HON_TRUNG_CAP,amount=15,display="Mảnh Linh Hồn Trung Cấp"}
+    soul-mid-armor:
+        item:
+            type: MATERIAL
+            id: DA_CUONG_HOA_GIAP_CAO_CAP
+        crafting-time: 0
+        ingredients:
+        - mmoitem{type=MATERIAL,id=MANH_LINH_HON_TRUNG_CAP,amount=15,display="Mảnh Linh Hồn Trung Cấp"}
+    soul-high-weapon:
+        item:
+            type: MATERIAL
+            id: DA_CUONG_HOA_VU_KHI_SIEU_CAP
+        crafting-time: 0
+        ingredients:
+        - mmoitem{type=MATERIAL,id=MANH_LINH_HON_CAO_CAP,amount=18,display="Mảnh Linh Hồn Cao Cấp"}
+    soul-high-armor:
+        item:
+            type: MATERIAL
+            id: DA_CUONG_HOA_GIAP_SIEU_CAP
+        crafting-time: 0
+        ingredients:
+        - mmoitem{type=MATERIAL,id=MANH_LINH_HON_CAO_CAP,amount=18,display="Mảnh Linh Hồn Cao Cấp"}
+    soul-ultra-weapon:
+        item:
+            type: MATERIAL
+            id: DA_CUONG_HOA_VU_KHI_HUYEN_THOAI
+        crafting-time: 0
+        ingredients:
+        - mmoitem{type=MATERIAL,id=MANH_LINH_HON_SIEU_CAP,amount=22,display="Mảnh Linh Hồn Siêu Cấp"}
+    soul-ultra-armor:
+        item:
+            type: MATERIAL
+            id: DA_CUONG_HOA_GIAP_HUYEN_THOAI
+        crafting-time: 0
+        ingredients:
+        - mmoitem{type=MATERIAL,id=MANH_LINH_HON_SIEU_CAP,amount=22,display="Mảnh Linh Hồn Siêu Cấp"}
+    soul-legend-destiny:
+        item:
+            type: MATERIAL
+            id: DA_CUONG_HOA_THIEN_MENH
+        crafting-time: 0
+        ingredients:
+        - mmoitem{type=MATERIAL,id=MANH_LINH_HON_HUYEN_THOAI,amount=30,display="Mảnh Linh Hồn Huyền Thoại"}
+    soul-legend-drill:
+        item:
+            type: MATERIAL
+            id: DA_DUC_LO_THIEN_MENH
+        crafting-time: 0
+        ingredients:
+        - mmoitem{type=MATERIAL,id=MANH_LINH_HON_HUYEN_THOAI,amount=40,display="Mảnh Linh Hồn Huyền Thoại"}
+    soul-mutated-ticket:
+        item:
+            type: MATERIAL
+            id: VE_DUNGEON_BIEN_DI
+        crafting-time: 0
+        ingredients:
+        - mmoitem{type=MATERIAL,id=MANH_LINH_HON_CAO_CAP,amount=10,display="Mảnh Linh Hồn Cao Cấp"}
+    choice-chest-weapon:
+        item:
+            type: MATERIAL
+            id: DA_CUONG_HOA_VU_KHI_HUYEN_THOAI
+        crafting-time: 0
+        ingredients:
+        - mmoitem{type=MATERIAL,id=RUONG_CHON_NGUYEN_LIEU,amount=1,display="Rương Chọn Nguyên Liệu"}
+    choice-chest-armor:
+        item:
+            type: MATERIAL
+            id: DA_CUONG_HOA_GIAP_HUYEN_THOAI
+        crafting-time: 0
+        ingredients:
+        - mmoitem{type=MATERIAL,id=RUONG_CHON_NGUYEN_LIEU,amount=1,display="Rương Chọn Nguyên Liệu"}
+    choice-chest-socket:
+        item:
+            type: MATERIAL
+            id: DA_DUC_LO_5
+        crafting-time: 0
+        ingredients:
+        - mmoitem{type=MATERIAL,id=RUONG_CHON_NGUYEN_LIEU,amount=1,display="Rương Chọn Nguyên Liệu"}

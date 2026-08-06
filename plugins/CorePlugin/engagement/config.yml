@@ -1,0 +1,153 @@
+# CorePlugin engagement — server override.
+# Storage changes require restart; other keys: /collection reload.
+enabled: true
+debug: false
+
+storage:
+  type: sqlite
+  sqlite:
+    file: engagement/engagement.db
+  mysql:
+    host: localhost
+    port: 3306
+    database: coreplugin
+    username: root
+    password: ''
+    pool-size: 4
+
+collection:
+  ore-worlds:
+    - world_prison
+  ore-regions: []
+  # COBBLESTONE is required for the Tân Binh mine; the other entries match
+  # the live X-Prison rank ores.
+  ore-whitelist:
+    - COBBLESTONE
+    - COAL_ORE
+    - DEEPSLATE_COAL_ORE
+    - COPPER_ORE
+    - DEEPSLATE_COPPER_ORE
+    - IRON_ORE
+    - DEEPSLATE_IRON_ORE
+    - GOLD_ORE
+    - DEEPSLATE_GOLD_ORE
+    - REDSTONE_ORE
+    - DEEPSLATE_REDSTONE_ORE
+    - LAPIS_ORE
+    - DEEPSLATE_LAPIS_ORE
+    - DIAMOND_ORE
+    - DEEPSLATE_DIAMOND_ORE
+    - EMERALD_ORE
+    - DEEPSLATE_EMERALD_ORE
+  dungeon-worlds:
+    - world_dungeon
+    - world_dungeon_2
+    - world_magadungeon
+  kill-credit-timeout-seconds: 15
+
+bosses:
+  PRISON_TAN_BINH_BOSS: 1
+  PRISON_TU_NHAN_BOSS: 2
+  PRISON_LAO_CONG_BOSS: 3
+  PRISON_THO_DAO_BOSS: 4
+  PRISON_DOI_TRUONG_BOSS: 5
+  PRISON_PHO_QUAN_NGUC_BOSS: 6
+  PRISON_QUAN_NGUC_BOSS: 7
+  PRISON_BA_CHU_NGUC_TU_BOSS: 8
+  PRISON_VUOT_NGUC_BOSS: 9
+  PRISON_MA_VUONG_BOSS: 10
+
+mutation:
+  timezone: Asia/Ho_Chi_Minh
+  worlds:
+    - world_dungeon
+    - world_dungeon_2
+    - world_magadungeon
+  elite-mob-ids:
+    - '*_ELITE'
+    - '*_BOSS'
+  rotation:
+    - FORTIFIED
+    - ENRAGED
+    - TOXIC
+    - UNSTABLE
+  affixes:
+    FORTIFIED:
+      resistance-amplifier: 0
+      resistance-duration-ticks: 2000000
+    ENRAGED:
+      strength-amplifier: 0
+      strength-duration-ticks: 2000000
+      speed-amplifier: 0
+      speed-duration-ticks: 2000000
+    TOXIC:
+      chance: 0.20
+      poison-amplifier: 0
+      poison-duration-ticks: 60
+      cooldown-millis: 3000
+    UNSTABLE:
+      power: 2.0
+      fire: false
+      break-blocks: false
+
+ticket:
+  type: MATERIAL
+  id: VE_DUNGEON_BIEN_DI
+  fragments:
+    '1-2': MANH_LINH_HON_SO_CAP
+    '3-4': MANH_LINH_HON_TRUNG_CAP
+    '5-6': MANH_LINH_HON_CAO_CAP
+    '7-8': MANH_LINH_HON_SIEU_CAP
+    '9-10': MANH_LINH_HON_HUYEN_THOAI
+  success-sound: ENTITY_PLAYER_LEVELUP
+  success-sound-volume: 1.0
+  success-sound-pitch: 1.2
+
+soul-exchange:
+  station-id: soul-exchange
+  open-command: 'mi stations open {station} {player}'
+
+achievements:
+  ores_1000:
+    type: ores
+    threshold: 1000
+    rewards:
+      - type: player-points
+        amount: 5
+  ores_10000:
+    type: ores
+    threshold: 10000
+    rewards:
+      - type: player-points
+        amount: 20
+  bosses_10:
+    type: bosses
+    threshold: 10
+    rewards:
+      - type: mmoitem
+        item-type: MATERIAL
+        item-id: VE_DUNGEON_BIEN_DI
+        amount: 1
+  bosses_50:
+    type: bosses
+    threshold: 50
+    rewards:
+      - type: player-points
+        amount: 50
+      - type: mmoitem
+        item-type: MATERIAL
+        item-id: RUONG_CHON_NGUYEN_LIEU
+        amount: 1
+
+rewards:
+  player-points-fallback: 'points give {player} {amount}'
+  audit-log: true
+
+season-cosmetics:
+  enabled: true
+  item-type: MATERIAL
+  item-id: HUY_CHUONG_MUA_BANG
+  top:
+    '1': 3
+    '2': 2
+    '3': 1

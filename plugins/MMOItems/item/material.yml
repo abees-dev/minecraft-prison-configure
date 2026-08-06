@@ -791,3 +791,103 @@ MANH_THIEN_GIOI:
       - "&7Nhận khi quay đủ &f10 lần &bHòm Thiên Giới"
       - "&7Đổi tại &e/doithiengioi &7hoặc Sứ Giả Thiên Giới."
       - "&7Đổi &f1 Mảnh &7→ &a1 món Hộ Long&7 (kiếm/giáp)"
+
+# ==========================================================
+# BOSS PITY + ENGAGEMENT — token chắc chắn, không phụ thuộc RNG
+# ==========================================================
+
+MANH_LINH_HON_SO_CAP:
+  base:
+    revision-id: 1
+    material: ECHO_SHARD
+    name: "&a✦ Mảnh Linh Hồn &7[Sơ Cấp]"
+    tier: UNCOMMON
+    lore-format: ingredient-simple
+    lore:
+      - "&7Rơi chắc chắn từ boss rank &fTân Binh–Tù Nhân&7."
+      - "&7Dùng tại Trạm Đổi Linh Hồn để chọn nguyên liệu."
+
+MANH_LINH_HON_TRUNG_CAP:
+  base:
+    revision-id: 1
+    material: ECHO_SHARD
+    name: "&b✦ Mảnh Linh Hồn &7[Trung Cấp]"
+    tier: RARE
+    lore-format: ingredient-simple
+    lore:
+      - "&7Rơi chắc chắn từ boss rank &fLao Công–Thợ Đào&7."
+      - "&7Dùng tại Trạm Đổi Linh Hồn để chọn nguyên liệu."
+
+MANH_LINH_HON_CAO_CAP:
+  base:
+    revision-id: 1
+    material: ECHO_SHARD
+    name: "&6✦ Mảnh Linh Hồn &7[Cao Cấp]"
+    tier: LEGENDARY
+    lore-format: ingredient-simple
+    lore:
+      - "&7Rơi chắc chắn từ boss rank &fĐội Trưởng–Phó Quản Ngục&7."
+      - "&7Dùng tại Trạm Đổi Linh Hồn để chọn nguyên liệu."
+
+MANH_LINH_HON_SIEU_CAP:
+  base:
+    revision-id: 1
+    material: ECHO_SHARD
+    name: "&c✦ Mảnh Linh Hồn &7[Siêu Cấp]"
+    tier: MYTHICAL
+    lore-format: ingredient-simple
+    lore:
+      - "&7Rơi chắc chắn từ boss rank &fQuản Ngục–Bá Chủ&7."
+      - "&7Dùng tại Trạm Đổi Linh Hồn để chọn nguyên liệu."
+
+MANH_LINH_HON_HUYEN_THOAI:
+  base:
+    revision-id: 1
+    material: NETHER_STAR
+    name: "&d&l✦ Mảnh Linh Hồn &7[Huyền Thoại]"
+    tier: MYTHICAL
+    lore-format: ingredient-simple
+    hide-enchants: true
+    enchants:
+      unbreaking: 1
+    lore:
+      - "&7Rơi chắc chắn từ boss &4Vượt Ngục &7và Ma Vương."
+      - "&7Dùng tại Trạm Đổi Linh Hồn để chọn nguyên liệu."
+
+VE_DUNGEON_BIEN_DI:
+  base:
+    revision-id: 1
+    material: PAPER
+    name: "&5✦ Vé Dungeon Biến Dị"
+    tier: LEGENDARY
+    lore-format: ingredient-simple
+    disable-interaction: true
+    lore:
+      - "&7Vé tham gia lượt thưởng của Dungeon Biến Dị tuần."
+      - "&7Affix hiện tại xem bằng &e/dungeonbiendi&7."
+
+RUONG_CHON_NGUYEN_LIEU:
+  base:
+    revision-id: 1
+    material: CHEST
+    name: "&e✦ Rương Chọn Nguyên Liệu"
+    tier: LEGENDARY
+    lore-format: ingredient-simple
+    disable-interaction: true
+    lore:
+      - "&7Đổi từ Mảnh Linh Hồn; phần thưởng không ngẫu nhiên."
+      - "&7Mở tại Trạm Đổi Linh Hồn để chọn nhánh trang bị."
+
+HUY_CHUONG_MUA_BANG:
+  base:
+    revision-id: 1
+    material: AMETHYST_SHARD
+    name: "&d&l✦ Huy Chương Mùa Bang Hội"
+    tier: MYTHICAL
+    lore-format: ingredient-simple
+    hide-enchants: true
+    enchants:
+      unbreaking: 1
+    lore:
+      - "&7Kỷ vật giới hạn dành cho Top Bang Hội cuối mùa."
+      - "&8Chỉ dùng đổi cosmetic; không cộng chỉ số chiến đấu."

@@ -26,6 +26,7 @@ prison_rank1_elite_drops:
 
 prison_rank1_boss_drops:
   Drops:
+  - mmoitem{type=MATERIAL;id=MANH_LINH_HON_SO_CAP} 1 1.0
   - mmoitem{type=MATERIAL;id=DA_CUONG_HOA_VU_KHI_SO_CAP} 1 0.18
   - mmoitem{type=MATERIAL;id=DA_CUONG_HOA_GIAP_SO_CAP} 1 0.18
   - mmoitem{type=MATERIAL;id=TINHTHE_CUONGHOA_VUKHI} 1 0.10
@@ -53,6 +54,7 @@ prison_rank2_elite_drops:
 
 prison_rank2_boss_drops:
   Drops:
+  - mmoitem{type=MATERIAL;id=MANH_LINH_HON_SO_CAP} 1 1.0
   - mmoitem{type=MATERIAL;id=DA_CUONG_HOA_VU_KHI_SO_CAP} 1 0.18
   - mmoitem{type=MATERIAL;id=DA_CUONG_HOA_GIAP_SO_CAP} 1 0.18
   - mmoitem{type=MATERIAL;id=TINHTHE_CUONGHOA_VUKHI} 1 0.10
@@ -80,6 +82,7 @@ prison_rank3_elite_drops:
 
 prison_rank3_boss_drops:
   Drops:
+  - mmoitem{type=MATERIAL;id=MANH_LINH_HON_TRUNG_CAP} 1 1.0
   - mmoitem{type=MATERIAL;id=DA_CUONG_HOA_VU_KHI_TRUNG_CAP} 1 0.15
   - mmoitem{type=MATERIAL;id=DA_CUONG_HOA_GIAP_TRUNG_CAP} 1 0.15
   - mmoitem{type=MATERIAL;id=TINHTHE_CUONGHOA_VUKHI} 1 0.10
@@ -107,6 +110,7 @@ prison_rank4_elite_drops:
 
 prison_rank4_boss_drops:
   Drops:
+  - mmoitem{type=MATERIAL;id=MANH_LINH_HON_TRUNG_CAP} 1 1.0
   - mmoitem{type=MATERIAL;id=DA_CUONG_HOA_VU_KHI_TRUNG_CAP} 1 0.15
   - mmoitem{type=MATERIAL;id=DA_CUONG_HOA_GIAP_TRUNG_CAP} 1 0.15
   - mmoitem{type=MATERIAL;id=TINHTHE_CUONGHOA_VUKHI} 1 0.10
@@ -134,6 +138,7 @@ prison_rank5_elite_drops:
 
 prison_rank5_boss_drops:
   Drops:
+  - mmoitem{type=MATERIAL;id=MANH_LINH_HON_CAO_CAP} 1 1.0
   - mmoitem{type=MATERIAL;id=DA_CUONG_HOA_VU_KHI_CAO_CAP} 1 0.14
   - mmoitem{type=MATERIAL;id=DA_CUONG_HOA_GIAP_CAO_CAP} 1 0.14
   - mmoitem{type=MATERIAL;id=TINHTHE_CUONGHOA_VUKHI} 1 0.10
@@ -161,6 +166,7 @@ prison_rank6_elite_drops:
 
 prison_rank6_boss_drops:
   Drops:
+  - mmoitem{type=MATERIAL;id=MANH_LINH_HON_CAO_CAP} 1 1.0
   - mmoitem{type=MATERIAL;id=DA_CUONG_HOA_VU_KHI_CAO_CAP} 1 0.14
   - mmoitem{type=MATERIAL;id=DA_CUONG_HOA_GIAP_CAO_CAP} 1 0.14
   - mmoitem{type=MATERIAL;id=TINHTHE_CUONGHOA_VUKHI} 1 0.10
@@ -188,6 +194,7 @@ prison_rank7_elite_drops:
 
 prison_rank7_boss_drops:
   Drops:
+  - mmoitem{type=MATERIAL;id=MANH_LINH_HON_SIEU_CAP} 1 1.0
   - mmoitem{type=MATERIAL;id=DA_CUONG_HOA_VU_KHI_SIEU_CAP} 1 0.12
   - mmoitem{type=MATERIAL;id=DA_CUONG_HOA_GIAP_SIEU_CAP} 1 0.12
   - mmoitem{type=MATERIAL;id=TINHTHE_CUONGHOA_VUKHI} 1 0.10
@@ -215,6 +222,7 @@ prison_rank8_elite_drops:
 
 prison_rank8_boss_drops:
   Drops:
+  - mmoitem{type=MATERIAL;id=MANH_LINH_HON_SIEU_CAP} 1 1.0
   - mmoitem{type=MATERIAL;id=DA_CUONG_HOA_VU_KHI_SIEU_CAP} 1 0.12
   - mmoitem{type=MATERIAL;id=DA_CUONG_HOA_GIAP_SIEU_CAP} 1 0.12
   - mmoitem{type=MATERIAL;id=TINHTHE_CUONGHOA_VUKHI} 1 0.10
@@ -244,6 +252,7 @@ prison_rank9_elite_drops:
 
 prison_rank9_boss_drops:
   Drops:
+  - mmoitem{type=MATERIAL;id=MANH_LINH_HON_HUYEN_THOAI} 1 1.0
   - mmoitem{type=MATERIAL;id=DA_CUONG_HOA_VU_KHI_HUYEN_THOAI} 1 0.10
   - mmoitem{type=MATERIAL;id=DA_CUONG_HOA_GIAP_HUYEN_THOAI} 1 0.10
   - mmoitem{type=MATERIAL;id=DA_CUONG_HOA_THIEN_MENH} 1 0.04
@@ -260,6 +269,7 @@ prison_rank9_boss_drops:
 # Không dùng TINHTHE_CUONGHOA_* — chỉ đá Thiên Mệnh + đá cường hóa + Huy Diệt.
 prison_ma_vuong_boss_drops:
   Drops:
+  - mmoitem{type=MATERIAL;id=MANH_LINH_HON_HUYEN_THOAI} 2 1.0
   - mmoitem{type=MATERIAL;id=TINHTHE_HUY_DIET} 1 0.25
   - mmoitem{type=MATERIAL;id=DA_CUONG_HOA_THIEN_MENH} 1 0.15
   - mmoitem{type=MATERIAL;id=DA_CUONG_HOA_VU_KHI_HUYEN_THOAI} 1 0.20

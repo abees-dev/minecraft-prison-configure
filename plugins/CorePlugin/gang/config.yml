@@ -335,7 +335,7 @@ level:
 # the leader online to flip a shared switch.
 vault:
   # Minimum Bang Level required before a member can toggle their own switch on.
-  required-level: 3
+  required-level: 1
   # Cho phép member lấy khoáng ra khỏi kho (click trong GUI).
   # Khi BẬT: cùng lúc chỉ 1 người được mở kho bang (anti-dupe).
   allow-take: true
@@ -434,8 +434,8 @@ shop:
     cost: 50000
     amount: 1
   expand-capacity:
-    cost: 25000
-    amount: 64
+    cost: 2500000
+    amount: 500
   buff-sell-2x:
     cost: 100000
     duration-seconds: 3600

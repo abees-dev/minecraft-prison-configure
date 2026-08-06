@@ -44,6 +44,7 @@ Cập nhật: 2026-08-06. Bắt đầu tại [`README.md`](README.md).
 | Tài liệu | Trạng thái | Nội dung |
 | --- | --- | --- |
 | [`blood-moon-event.md`](systems/blood-moon-event.md) | Live | Đêm Nguyệt Huyết và boss Bá Tước |
+| [`engagement-expansion.md`](systems/engagement-expansion.md) | Live | Boss Pity, Collection, item tiện ích và Dungeon Biến Dị tuần |
 | [`world-pvp-safezone.md`](systems/world-pvp-safezone.md) | Live/Draft | Safezone, Bang Chiến và các TODO còn lại |
 | [`spawners.md`](reference/spawners.md) | Reference | Spawner theo rank và trạng thái tọa độ |
 | [`spawner-positions.md`](admin/spawner-positions.md) | Live | Cách đặt vị trí spawner |
