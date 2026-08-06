@@ -1,104 +1,122 @@
 display:
-    name: 'Cung Thủ'
-    lore:
-    - '&7Cung thủ là chiến binh tầm xa nhanh nhẹn và'
-    - '&7chính xác, hiếm khi bắn trượt mục tiêu.'
-    attribute-lore:
-    - '&a+ &7Kháng Hất Lùi'
-    - '&a+ &7Giảm Hiệu Ứng Chậm'
-    - '&c- &7Máu Tối Đa'
-    - '&c- &7Tốc Độ Di Chuyển'
-    - ''
-    - '&8&lSức Mạnh'
-    - '&7  Máu Tối Đa: &c18 &7(+&c0&7/cấp)'
-    - ''
-    - '&8&lNhanh Nhẹn'
-    - '&7  Tốc Độ Di Chuyển: &a0.105 &7(+&a0&7/cấp)'
-    - '&7  Kháng Hất Lùi: &a15% &7(+&a1%&7/cấp)'
-    - '&7  Giảm Hiệu Ứng Chậm: &a10% &7(+&a2%&7/cấp)'
-    - ''
-    - '&8&lÝ Chí'
-    - '&7  Mana Tối Đa: &b25 &7(+&b1.0&7/cấp)'
-    - '&7  Hồi Mana: &b0.20 &7(+&b0.03&7/cấp)'
-    item: BOW
+  name: "Cung Thủ"
+  lore:
+    - "&7Cung thủ là chiến binh tầm xa nhanh nhẹn và"
+    - "&7chính xác, hiếm khi bắn trượt mục tiêu."
+  attribute-lore:
+    - "&a+ &7Kháng Hất Lùi"
+    - "&a+ &7Giảm Hiệu Ứng Chậm"
+    - "&c- &7Máu Tối Đa"
+    - "&c- &7Tốc Độ Di Chuyển"
+    - ""
+    - "&8&lSức Mạnh"
+    - "&7  Máu Tối Đa: &c18 &7(+&c0&7/cấp)"
+    - ""
+    - "&8&lNhanh Nhẹn"
+    - "&7  Tốc Độ Di Chuyển: &a0.105 &7(+&a0&7/cấp)"
+    - "&7  Kháng Hất Lùi: &a15% &7(+&a1%&7/cấp)"
+    - "&7  Giảm Hiệu Ứng Chậm: &a10% &7(+&a2%&7/cấp)"
+    - ""
+    - "&8&lÝ Chí"
+    - "&7  Mana Tối Đa: &b25 &7(+&b1.0&7/cấp)"
+    - "&7  Hồi Mana: &b0.20 &7(+&b0.03&7/cấp)"
+  item: BOW
 
 exp-curve: levels
 max-level: 100
 exp-table: class_exp_table
 
 skill-trees:
-    - 'general'
-    - 'rogue-marksman'
+  - "general"
+  - "rogue-marksman"
 
 skill-slots:
-    1:
-        name: "&aSkill Slot I"
-        unlocked-by-default: true
-    2:
-        name: "&aSkill Slot II"
-        unlocked-by-default: true
-    3:
-        name: "&aSkill Slot III"
-        unlocked-by-default: true
-    4:
-        name: "&aSkill Slot IV"
-        unlocked-by-default: true
+  1:
+    name: "&aÔ Kỹ Năng I"
+    lore: ["&7Chỉ gắn kỹ năng chủ động.", "&7Dùng &f[F] + phím số &7để thi triển."]
+    formula: "<ACTIVE>"
+    unlocked-by-default: true
+  2:
+    name: "&aÔ Kỹ Năng II"
+    lore: ["&7Chỉ gắn kỹ năng chủ động.", "&7Dùng &f[F] + phím số &7để thi triển."]
+    formula: "<ACTIVE>"
+    unlocked-by-default: true
+  3:
+    name: "&aÔ Kỹ Năng III"
+    lore: ["&7Chỉ gắn kỹ năng chủ động.", "&7Dùng &f[F] + phím số &7để thi triển."]
+    formula: "<ACTIVE>"
+    unlocked-by-default: true
+  4:
+    name: "&aÔ Kỹ Năng IV"
+    lore: ["&7Chỉ gắn kỹ năng chủ động.", "&7Dùng &f[F] + phím số &7để thi triển."]
+    formula: "<ACTIVE>"
+    unlocked-by-default: true
+  5:
+    name: "&dÔ Passive I"
+    lore: ["&dChỉ gắn kỹ năng passive.", "&ePassive chỉ có hiệu lực khi được gắn vào ô này."]
+    formula: "<PASSIVE>"
+    unlocked-by-default: true
+  6:
+    name: "&dÔ Passive II"
+    lore: ["&dChỉ gắn kỹ năng passive.", "&ePassive chỉ có hiệu lực khi được gắn vào ô này."]
+    formula: "<PASSIVE>"
+    unlocked-by-default: true
 
 cast-particle:
-    particle: CRIT
+  particle: CRIT
 
 mana:
-    char: ■
-    icon: '&b➜'
-    color:
-        full: AQUA
-        half: AQUA
-        empty: AQUA
-    name: 'Mana'
+  char: ■
+  icon: "&b➜"
+  color:
+    full: AQUA
+    half: AQUA
+    empty: AQUA
+  name: "Mana"
 
 options:
-    off-combat-mana-regen: true
-    needs-permission: false
+  off-combat-mana-regen: true
+  needs-permission: false
 
 attributes:
-    knockback-resistance:
-        base: .15
-        per-level: .01
-    speed-malus-reduction:
-        base: 10
-        per-level: 2
-    max-health:
-        base: 18
-        per-level: 0
-    movement-speed:
-        base: .105
-        per-level: 0
-    max-mana:
-        base: 25
-        per-level: 1.0
-    mana-regeneration:
-        base: .20
-        per-level: .03
+  knockback-resistance:
+    base: .15
+    per-level: .01
+  speed-malus-reduction:
+    base: 10
+    per-level: 2
+  max-health:
+    base: 18
+    per-level: 0
+  movement-speed:
+    base: .105
+    per-level: 0
+  max-mana:
+    base: 25
+    per-level: 1.0
+  mana-regeneration:
+    base: .20
+    per-level: .03
 
 skills:
-    WEAKEN:
-        level: 3
-        max-level: 30
-    COMBO_ATTACK:
-        level: 7
-        max-level: 30
-    EVADE:
-        level: 9
-        max-level: 30
-    MINOR_HEALINGS:
-        level: 10
-        max-level: 30
-    EXPLOSIVE_ARROW:
-        level: 12
-        max-level: 30
-    ARROW_SHOWER:
-        level: 15
-        max-level: 30
+  WEAKEN:
+    level: 1
+    max-level: 30
+  COMBO_ATTACK:
+    level: 7
+    max-level: 30
+  EVADE:
+    level: 9
+    max-level: 30
+  MINOR_HEALINGS:
+    level: 10
+    max-level: 30
+  EXPLOSIVE_ARROW:
+    level: 12
+    max-level: 30
+  ARROW_SHOWER:
+    level: 15
+    max-level: 30
 
 main-exp-sources:
-- 'from{source=prison_mobs_exp}'
+  - "from{source=prison_mobs_exp}"

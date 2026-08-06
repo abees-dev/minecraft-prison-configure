@@ -26,16 +26,34 @@ skill-trees:
 
 skill-slots:
     1:
-        name: "&aSkill Slot I"
+        name: '&aÔ Kỹ Năng I'
+        lore: [ '&7Chỉ gắn kỹ năng chủ động.', '&7Dùng &f[F] + phím số &7để thi triển.' ]
+        formula: '<ACTIVE>'
         unlocked-by-default: true
     2:
-        name: "&aSkill Slot II"
+        name: '&aÔ Kỹ Năng II'
+        lore: [ '&7Chỉ gắn kỹ năng chủ động.', '&7Dùng &f[F] + phím số &7để thi triển.' ]
+        formula: '<ACTIVE>'
         unlocked-by-default: true
     3:
-        name: "&aSkill Slot III"
+        name: '&aÔ Kỹ Năng III'
+        lore: [ '&7Chỉ gắn kỹ năng chủ động.', '&7Dùng &f[F] + phím số &7để thi triển.' ]
+        formula: '<ACTIVE>'
         unlocked-by-default: true
     4:
-        name: "&aSkill Slot IV"
+        name: '&aÔ Kỹ Năng IV'
+        lore: [ '&7Chỉ gắn kỹ năng chủ động.', '&7Dùng &f[F] + phím số &7để thi triển.' ]
+        formula: '<ACTIVE>'
+        unlocked-by-default: true
+    5:
+        name: '&dÔ Passive I'
+        lore: [ '&dChỉ gắn kỹ năng passive.', '&ePassive chỉ có hiệu lực khi được gắn vào ô này.' ]
+        formula: '<PASSIVE>'
+        unlocked-by-default: true
+    6:
+        name: '&dÔ Passive II'
+        lore: [ '&dChỉ gắn kỹ năng passive.', '&ePassive chỉ có hiệu lực khi được gắn vào ô này.' ]
+        formula: '<PASSIVE>'
         unlocked-by-default: true
 
 mana:

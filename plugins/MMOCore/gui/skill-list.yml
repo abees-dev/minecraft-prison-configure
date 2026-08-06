@@ -47,8 +47,8 @@ items:
       - '&e◆ Điểm Tẩy Kỹ Năng Có Sẵn: &6{points}'
 
   slot:
-    # Lưới 2x4 cân đối ở bên phải, khớp max-skill-slots: 8.
-    slots: [ 7,8,16,17,25,26,34,35 ]
+    # Xếp dọc ở cột ngoài cùng bên phải (cột 9).
+    slots: [ 8,17,26,35,44,53 ]
     function: slot
     item: GRAY_DYE
 
@@ -58,9 +58,6 @@ items:
       - '&7Kỹ năng hiện tại: &6{skill}'
       - ''
       - '{slot-lore}'
-      - ''
-      - '&7&oNhấn [F], sau đó nhấn phím số tương ứng'
-      - '&7&otrên thanh vật phẩm để thi triển kỹ năng.'
       - ''
       - '&e► Chuột trái để gán {selected}.'
       - '&e► Chuột phải để gỡ gán.'
@@ -80,8 +77,8 @@ items:
       - ''
       - '{lore}'
   upgrade:
-    # Không chồng lên skill-level (slot 15) như cấu hình cũ.
-    slots: [ 49 ]
+    # Giữ nút nâng cấp ở vị trí cũ.
+    slots: [ 15 ]
     function: upgrade
     item: GREEN_STAINED_GLASS_PANE
     name: '&a&lNÂNG CẤP {skill_caps}'

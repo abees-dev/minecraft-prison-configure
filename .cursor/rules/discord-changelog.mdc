@@ -20,26 +20,42 @@ Guild: `1534230453027078174`
 ## Quy tắc nội dung
 
 1. **Không** dump nguyên changelog / bảng chỉ số / nhiều tin dài lên Discord.
-2. Mỗi bản cập nhật = **1 forum post** TL;DR (~8–12 dòng), bọc trong code block `` ``` ``.
+2. Mỗi bản cập nhật = **1 forum post** TL;DR (~8–12 dòng), dùng **Discord Markdown** (không bọc code block).
 3. Title post: `📌 DD/MM — <tiêu đề ngắn>`.
 4. Nội dung chỉ bullet “có gì mới”; chi tiết để trong `docs/player/changelog.md`.
 5. Ghim post mới nhất nếu là patch quan trọng.
 6. `thông-báo` / `chat-chung`: tối đa **2–3 dòng** + link/mention `<#1534893598674518056>` — không lặp lại toàn bộ TL;DR.
 7. Member chỉ đọc/react trên forum; **không** mở quyền tạo post cho @everyone.
 
-## Mẫu TL;DR
+## Markdown Discord dùng được
+
+- `**in đậm**`, `*nghiêng*`, `` `lệnh/phím` ``
+- Bullet `•` hoặc `-`
+- Quote `>` cho dòng kết
+- Mention kênh `<#id>`
+- **Không** bọc toàn bộ TL;DR trong `` ``` `` (sẽ mất render MD)
+
+## Mẫu TL;DR (forum)
 
 ```
-📌 CẬP NHẬT DD/MM — <tiêu đề>
+📌 **CẬP NHẬT DD/MM — <tiêu đề>**
 
-• bullet ngắn 1
-• bullet ngắn 2
+• bullet ngắn 1 — nhấn **từ khóa**
+• bullet ngắn 2 — lệnh `/cmd`
 • …
 
-Vào game trải nghiệm & góp ý giúp team!
+> Vào game trải nghiệm & góp ý giúp team!
+```
+
+## Mẫu ping (`thông-báo` / `chat-chung`)
+
+```
+📌 **Cập nhật DD/MM** — <tiêu đề ngắn>
+Chi tiết: <#1534893598674518056>
 ```
 
 ## Không làm
 
-- Không đăng 4–5 tin code block nối tiếp cho một patch.
+- Không đăng 4–5 tin nối tiếp cho một patch.
+- Không dump bảng chỉ số / changelog dài.
 - Không chuyển lại `📌・cập-nhật` thành text channel thường.

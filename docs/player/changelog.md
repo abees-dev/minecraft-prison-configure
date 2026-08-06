@@ -1,6 +1,35 @@
 # Nhật ký cập nhật
 
-> Cập nhật: 2026-08-06 · Dành cho người chơi
+> Cập nhật: 2026-08-07 · Dành cho người chơi
+
+## Tính năng mới — Linh Hồn, Thành Tựu và Dungeon Biến Dị
+
+### Mảnh Linh Hồn và Trạm Đổi
+
+- Boss Prison giờ trao **Mảnh Linh Hồn** theo nhóm rank, tạo một lộ trình tích lũy để người chơi chủ động chọn nguyên liệu cần thiết.
+- Bổ sung năm cấp Mảnh Linh Hồn: **Sơ Cấp, Trung Cấp, Cao Cấp, Siêu Cấp** và **Huyền Thoại**.
+- Các Mảnh Linh Hồn sử dụng model ItemsAdder riêng, không trùng với nhóm Đá Cường Hóa.
+- Trạm Đổi Linh Hồn cho phép đổi mảnh lấy nguyên liệu, Mũi Khoan, Vé Dungeon Biến Dị và các vật phẩm giá trị khác.
+- Công thức **Mảnh Long Tộc → Ấn Tín Long Tộc** được gộp vào cùng trạm đổi.
+- Bổ sung NPC **Sứ Giả Linh Hồn** để mở trạm đổi trực tiếp.
+
+### Ghép Đá Đục Lỗ
+
+- Bổ sung **Bàn Ghép Đá Đục Lỗ** và NPC **Thợ Rèn Đục Lỗ**.
+- Có thể dùng **8 Mũi Khoan cấp dưới** để ghép thành **1 Mũi Khoan cấp trên**, từ ô 1 đến ô 7.
+- Mũi Khoan Đục Lỗ Thiên Mệnh không thể ghép theo cách này và vẫn là vật phẩm hiếm.
+
+### Collection và Thành Tựu
+
+- Bổ sung `/collection` và `/thanhtuu` để theo dõi quặng đã đào, quái đã hạ và boss đã tiêu diệt theo từng rank.
+- Các mốc thành tựu có phần thưởng nhận một lần và được lưu vĩnh viễn.
+- Bổ sung **Rương Chọn Nguyên Liệu**, cho phép người chơi tự chọn phần thưởng thay vì quay ngẫu nhiên.
+
+### Dungeon Biến Dị và phần thưởng mùa
+
+- Bổ sung **Vé Dungeon Biến Dị**; vé được dùng cho lần hạ boss kế tiếp để nhận thêm Mảnh Linh Hồn phù hợp.
+- Dungeon có hiệu ứng Biến Dị luân phiên theo tuần: **Kiên Cố, Cuồng Nộ, Độc Tố** hoặc **Bất Ổn**.
+- Bổ sung **Huy Chương Mùa Bang** làm phần thưởng cosmetic cho các Bang Hội dẫn đầu mùa.
 
 ## Cân bằng Class và Kỹ Năng
 
@@ -56,6 +85,15 @@ Một số chỉ số nền nổi bật sau chuyển sinh:
   - **Tử Linh Pháp Sư:** gây Wither, kiểm soát vùng và hồi sinh lực trong Vùng Đất Chết.
   - **Đại Tế Thức Tỉnh:** hồi máu, tạo lá chắn và tăng kháng sát thương cho đồng đội trong Thiên Địa Trận.
 - Các thông số hồi chiêu, phạm vi, sát thương và hồi phục bất thường của skill MMOcore mặc định đã được điều chỉnh.
+
+### Ô Kỹ Năng và Passive
+
+- Giao diện kỹ năng giờ hiển thị sáu ô gắn kỹ năng thành một cột ở mép phải để dễ theo dõi.
+- Bốn ô đầu chỉ nhận **kỹ năng chủ động**; dùng **[F] + phím số tương ứng** để thi triển kỹ năng đã gắn.
+- Mở thêm hai ô riêng chỉ nhận **kỹ năng passive**.
+- Kỹ năng passive chỉ có hiệu lực khi được gắn vào một trong hai ô passive; lore của ô có ghi chú để người chơi dễ nhận biết.
+- Kỹ năng chủ động không thể gắn nhầm vào ô passive và kỹ năng passive cũng không thể chiếm ô chủ động.
+- Nút kính xanh dùng để nâng cấp kỹ năng được giữ tại vị trí cũ.
 
 ### Cây kỹ năng theo Class
 
