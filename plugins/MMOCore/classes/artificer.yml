@@ -1,21 +1,80 @@
 display:
-    name: '&f&lArtificer Class'
+    name: '&bKỹ Sư Ma Pháp'
     lore:
-    - '&bChoose the Artificer Class'
-    item: STONE_SWORD:2062 # Supports custom model data/texture by durability
+    - '&7Class tiến hóa của Cung Thủ, kết hợp'
+    - '&7vũ khí tầm xa với công nghệ Arcane.'
+    - '&7Sử dụng pháo, lửa và lá chắn ma pháp.'
+    attribute-lore:
+    - '&a+ &7Sát thương tầm xa và diện rộng'
+    - '&a+ &7Khả năng triệu hồi pháo tự động'
+    - '&a+ &7Lá chắn hồi phục theo thời gian'
+    item: STONE_SWORD:2062
 
-# Must match an existing exp curve filename from the 'expcurves' folder
 exp-curve: levels
-
-# The maximum level players can reach
 max-level: 100
-
 exp-table: class_exp_table
 
+skill-slots:
+    1:
+        name: '&aÔ Kỹ Năng I'
+        unlocked-by-default: true
+    2:
+        name: '&aÔ Kỹ Năng II'
+        unlocked-by-default: true
+    3:
+        name: '&aÔ Kỹ Năng III'
+        unlocked-by-default: true
+    4:
+        name: '&aÔ Kỹ Năng IV'
+        unlocked-by-default: true
+
+cast-particle:
+    particle: SPELL_INSTANT
+
+options:
+    # Class tiến hóa, chỉ nhận qua Chuyển Sinh.
+    display: false
+    needs-permission: false
+
+resource:
+    stamina:
+        type: MISSING
+        value:
+            base: 6
+            per-level: .2
+            max: 14
+        off-combat: true
+
+attributes:
+    knockback-resistance:
+        base: .15
+        per-level: .01
+    speed-malus-reduction:
+        base: 12
+        per-level: 2
+    max-health:
+        base: 19
+        per-level: .1
+    movement-speed:
+        base: .11
+        per-level: 0
+
 skills:
-    MAGICAL_TINKERING:
+    # Skill kế thừa từ Cung Thủ.
+    WEAKEN:
         level: 1
         max-level: 30
+    COMBO_ATTACK:
+        level: 1
+        max-level: 30
+    EVADE:
+        level: 1
+        max-level: 30
+    MINOR_HEALINGS:
+        level: 1
+        max-level: 30
+
+    # 4 skill mới của RPG Class Series | Artificer.
     ARCANE_BLAST:
         level: 1
         max-level: 30
@@ -25,36 +84,10 @@ skills:
     ARCANE_TURRET:
         level: 1
         max-level: 30
-    ENGINE_GLIDE:
-        level: 1
-        max-level: 20
-    CHRONO_CATACLYSM:
+    MAGICAL_TINKERING:
         level: 1
         max-level: 30
-    ARCANE_MECHA:
-        level: 1
-        max-level: 20
+        needs-bound: true
 
-skill-slots:
-    1:
-        name: "&aSkill Slot I (Passive)"
-        formula: "<PASSIVE>"
-        unlocked-by-default: true
-    2:
-        name: "&aSkill Slot II"
-        unlocked-by-default: true
-    3:
-        name: "&aSkill Slot III"
-        unlocked-by-default: true
-    4:
-        name: "&aSkill Slot IV"
-        unlocked-by-default: true
-    5:
-        name: "&aSkill Slot V"
-        unlocked-by-default: true
-    6:
-        name: "&aSkill Slot VI"
-        unlocked-by-default: true
-    7:
-        name: "&aSkill Slot VII"
-        unlocked-by-default: true
+main-exp-sources:
+- 'from{source=prison_mobs_exp}'

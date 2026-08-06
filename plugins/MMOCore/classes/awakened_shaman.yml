@@ -1,58 +1,86 @@
 display:
-    name: '&a&lAwakened Shaman Class'
+    name: '&aĐại Tế Thức Tỉnh'
     lore:
-    - '&eChoose the Awakened Shaman Class'
-    item: STONE_SWORD:2090 # Supports custom model data/texture by durability
+    - '&7Class thức tỉnh của Tu Sĩ, luân chuyển'
+    - '&7giữa Lôi Thế tấn công và Thổ Thế hỗ trợ.'
+    attribute-lore:
+    - '&a+ &7Hồi phục và bảo vệ đồng đội'
+    - '&a+ &7Sát thương Lôi linh hoạt'
+    - '&a+ &7Totem kiểm soát khu vực'
+    item: STONE_SWORD:2090
 
 exp-curve: levels
-
 max-level: 100
-
 exp-table: class_exp_table
 
+skill-slots:
+    1:
+        name: '&aÔ Kỹ Năng I'
+        unlocked-by-default: true
+    2:
+        name: '&aÔ Kỹ Năng II'
+        unlocked-by-default: true
+    3:
+        name: '&aÔ Kỹ Năng III'
+        unlocked-by-default: true
+    4:
+        name: '&aÔ Kỹ Năng IV'
+        unlocked-by-default: true
+
+mana:
+    char: ■
+    icon: '&e✚'
+    color:
+        full: GREEN
+        half: YELLOW
+        empty: WHITE
+    name: 'Linh Lực'
+
+cast-particle:
+    particle: VILLAGER_HAPPY
+
+options:
+    display: false
+    needs-permission: false
+    off-combat-mana-regen: true
+
+attributes:
+    max-mana:
+        base: 30
+        per-level: 1.3
+    mana-regeneration:
+        base: .24
+        per-level: .04
+    health-regeneration:
+        base: .17
+        per-level: .01
+    max-health:
+        base: 20
+        per-level: .25
+
 skills:
+    # Skill kế thừa từ Tu Sĩ.
+    HEAL: { level: 1, max-level: 30 }
+    HOLY_MISSILE: { level: 1, max-level: 30 }
+    REGEN_ALLY: { level: 1, max-level: 30 }
+    SMITE: { level: 1, max-level: 30 }
+    GRAND_HEAL: { level: 1, max-level: 30 }
+    GREATER_HEALINGS: { level: 1, max-level: 30 }
+
+    # 4 skill mới của RPG Class Awakened | Shaman.
     SOUL_LINK:
         level: 1
         max-level: 30
+        needs-bound: true
     PRIMAL_COMBO:
         level: 1
         max-level: 30
     ECHO_STEP:
         level: 1
-        max-level: 30
+        max-level: 1
     RITUAL_TOTEM:
         level: 1
         max-level: 30
-    STANCE_SWITCH:
-        level: 1
-        max-level: 20
-    EARTHEN_EMBRACE:
-        level: 1
-        max-level: 30
-    ANCESTRAL_HANDS:
-        level: 1
-        max-level: 20
 
-skill-slots:
-    1:
-        name: "&aSkill Slot I (Passive)"
-        formula: "<PASSIVE>"
-        unlocked-by-default: true
-    2:
-        name: "&aSkill Slot II"
-        unlocked-by-default: true
-    3:
-        name: "&aSkill Slot III"
-        unlocked-by-default: true
-    4:
-        name: "&aSkill Slot IV"
-        unlocked-by-default: true
-    5:
-        name: "&aSkill Slot V"
-        unlocked-by-default: true
-    6:
-        name: "&aSkill Slot VI"
-        unlocked-by-default: true
-    7:
-        name: "&aSkill Slot VII"
-        unlocked-by-default: true
+main-exp-sources:
+- 'from{source=prison_mobs_exp}'

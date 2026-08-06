@@ -8,8 +8,10 @@ lore:
 - '&9Costs {mana} {mana_name}'
 material: BOOK
 duration:
-  base: 4
-  per-level: 3
+  base: 2
+  per-level: 0.03
+  min: 2
+  max: 2.87
   #Optional: The decimal format used for this skill parameter.
   decimal-format: '0.#'
 timer:
@@ -20,7 +22,9 @@ timer:
 
 damage:
   base: 3
-  per-level: 0.5
+  per-level: 0.25
+  min: 3
+  max: 10.25
 delay:
   base: 0
   per-level: 0
@@ -36,4 +40,6 @@ stamina:
   max: 0
 cooldown:
   base: 10
-  per-level: 0.2
+  per-level: -0.1
+  min: 7.1
+  max: 10

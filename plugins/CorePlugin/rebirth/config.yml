@@ -137,3 +137,55 @@ class-evolution:
         - DRAGON_ZONE
       new-skill-level: 1
       success-message: "&6✔ &fChiến Binh của bạn đã thức tỉnh thành Chiến Binh Rồng!"
+    archer_expansion:
+      to-class: artificer
+      required-rebirth: 1
+      inherited-skills:
+        - WEAKEN
+        - COMBO_ATTACK
+        - EVADE
+        - MINOR_HEALINGS
+      new-skills:
+        - ARCANE_BLAST
+        - FLAMETHROWER
+        - ARCANE_TURRET
+        - MAGICAL_TINKERING
+      new-skill-level: 1
+      success-message: "&b✔ &fCung Thủ của bạn đã thức tỉnh thành Kỹ Sư Ma Pháp!"
+    mage:
+      to-class: awakened_necromancer
+      required-rebirth: 1
+      inherited-skills:
+        - FIRE_STORM
+        - POWER_MARK
+        - FIREBALL
+        - MINOR_HEALINGS
+        - ICE_SPIKES
+        - AMBERS
+        - WEAKEN
+        - WARP
+        - GREATER_HEALINGS
+      new-skills:
+        - DEATHBOUND_SOULS
+        - NECROTIC_COMBO
+        - SKULL_WISPS
+        - SKELETAL_WARRIOR
+      new-skill-level: 1
+      success-message: "&3✔ &fPháp Sư của bạn đã thức tỉnh thành Tử Linh Pháp Sư!"
+    cleric:
+      to-class: awakened_shaman
+      required-rebirth: 1
+      inherited-skills:
+        - HEAL
+        - HOLY_MISSILE
+        - REGEN_ALLY
+        - SMITE
+        - GRAND_HEAL
+        - GREATER_HEALINGS
+      new-skills:
+        - SOUL_LINK
+        - PRIMAL_COMBO
+        - ECHO_STEP
+        - RITUAL_TOTEM
+      new-skill-level: 1
+      success-message: "&a✔ &fTu Sĩ của bạn đã thức tỉnh thành Đại Tế Thức Tỉnh!"

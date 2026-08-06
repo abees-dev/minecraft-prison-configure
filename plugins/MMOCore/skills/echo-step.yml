@@ -1,10 +1,10 @@
-name: Echo Step
+name: Bước Chân Linh Hồn
 lore:
 - "&7&m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
 - ""
-- "&7Enter spirit form, swiftly dashing towards your moving direction"
-- "&7for 2 seconds. You are immune to damage while in spirit form."
-- "&e⌛ {cooldown}s Cooldown"
+- '&7Hóa linh thể và lướt theo hướng di chuyển'
+- '&7trong 2 giây. Miễn nhiễm sát thương khi lướt.'
+- '&e⌛ Hồi chiêu: &f{cooldown}s'
 - ""
 - "&7&m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
 material: 'COAL:2317'
@@ -24,7 +24,7 @@ stamina:
   min: 0
   max: 0
 cooldown:
-  base: 5
-  per-level: -0.01
-  min: 4
-  max: 5
+  base: 12
+  per-level: 0
+  min: 12
+  max: 12

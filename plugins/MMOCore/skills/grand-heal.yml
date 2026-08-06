@@ -27,11 +27,15 @@ stamina:
   min: 0
   max: 0
 cooldown:
-  base: 8
-  per-level: 1.1
+  base: 20
+  per-level: -0.25
+  min: 12.75
+  max: 20
 heal:
-  base: 4
-  per-level: 3
+  base: 7
+  per-level: 0.3
+  min: 7
+  max: 15.7
 radius:
   base: 3
   per-level: 1

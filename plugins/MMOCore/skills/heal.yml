@@ -27,8 +27,12 @@ stamina:
   min: 0
   max: 0
 cooldown:
-  base: 4
-  per-level: 0.5
+  base: 10
+  per-level: -0.1
+  min: 7.1
+  max: 10
 heal:
   base: 4
-  per-level: 0.5
+  per-level: 0.2
+  min: 4
+  max: 9.8

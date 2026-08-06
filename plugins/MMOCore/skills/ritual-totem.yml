@@ -1,17 +1,14 @@
-name: Ritual Totem
+name: Totem Nghi Lễ
 lore:
 - "&7&m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
 - ""
-- "&bHunter Totem (Thunder Stance): &7Summon a Hunter Totem that"
-- "&7constantly creates small spiritual wisps that are fired towards enemies."
-- "&c🗡 {damage} Damage"
-- "&e⌛ {cooldown}s Cooldown"
+- '&eLôi Thế: &7Triệu hồi Totem Thợ Săn tấn công kẻ địch.'
+- '&c⚔ Sát thương: &f{damage}'
 - ""
-- "&bGuardian Totem (Earth Stance): &7Summon a Guardian Totem that creates a"
-- "&7shielded area where enemies cannot enter. You and allies are healed"
-- "&7inside the area."
-- "&a❤ {heal} Heal"
-- "&e⌛ {cooldown}s Cooldown"
+- '&aThổ Thế: &7Triệu hồi Totem Hộ Vệ chắn kẻ địch'
+- '&7và hồi máu cho đồng minh trong khu vực.'
+- '&a❤ Hồi phục: &f{heal}'
+- '&e⌛ Hồi chiêu: &f{cooldown}s'
 - ""
 - "&7&m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
 material: 'COAL:2319'
@@ -22,14 +19,14 @@ timer:
   max: 0
 damage:
   base: 3
-  per-level: 1
+  per-level: 0.3
   min: 3
-  max: 6
+  max: 11.7
 heal:
   base: 3
-  per-level: 1
+  per-level: 0.3
   min: 3
-  max: 6
+  max: 11.7
 mana:
   base: 0
   per-level: 0
@@ -41,7 +38,7 @@ stamina:
   min: 0
   max: 0
 cooldown:
-  base: 12
-  per-level: -0.01
-  min: 11
-  max: 12
+  base: 18
+  per-level: -0.2
+  min: 12.2
+  max: 18

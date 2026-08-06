@@ -1,16 +1,13 @@
 DEATHBOUND_SOULS:
   passive-type: TIMER
-  name: Deathbound Souls
+  name: Linh Hồn Tử Phệ
   lore:
   - "&7&m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
   - ""
-  - "&7A spectral scythe floats beside you, constantly harvesting the"
-  - "&7essence of the fallen."
-  - "&7When enemies die within 30 blocks, they leave behind a Soul."
-  - "&7You can absorb and store up to 5 Souls, allowing you to summon"
-  - "&7undead servants anytime, anywhere."
-  - "&7Your summoned army can consist of up to 10 undead minions,"
-  - "&7including a maximum of 2 Necroknights."
+  - "&7Nội tại. Phải trang bị vào ô skill."
+  - "&7Lưỡi hái linh hồn thu thập tinh hoa từ kẻ bị hạ"
+  - "&7trong bán kính 30 block, tích trữ tối đa 5 Linh Hồn."
+  - "&7Linh Hồn được dùng để triệu hồi tay sai bất tử."
   - ""
   - "&7&m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
   icon: COAL:2371
@@ -57,10 +54,10 @@ NECROTIC_COMBO:
   parameters:
     damage:
       player:
-        base: 4
-        per-level: 0.4
-        min: 4
-        max: 7
+        base: 3
+        per-level: 0.25
+        min: 3
+        max: 10.25
       name: Damage
       item: 0
     timer:
@@ -89,28 +86,25 @@ NECROTIC_COMBO:
       item: 0
     cooldown:
       player:
-        base: 0.3
+        base: 0.6
         per-level: -0.01
-        min: 0.25
-        max: 0.3
+        min: 0.31
+        max: 0.6
       name: Cooldown
       item: 0
     delay:
       name: Delay
       item: 0
-  name: Necrotic Combo
+  name: Liên Trảm Tử Khí
   lore:
   - "&7&m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
   - ""
-  - "&7Unleash a chain of sweeping scythe strikes infused with necrotic energy."
-  - "&b1st Strike: &7A horizontal scythe sweep from left to right."
-  - "&b2nd Strike: &7A follow-up horizontal slash from right to left."
-  - "&b3rd Strike: &7Spin the scythe forward, striking vertically."
-  - "&b4th Strike: &7Raise the scythe overhead and smash it into the"
-  - "&7ground, piercing the surface with its blade, slightly knocking up enemies."
+  - "&7Tung chuỗi bốn nhát liêm trảm bằng lưỡi hái Tử Khí."
+  - "&7Ba nhát đầu quét ngang và xoay lưỡi hái."
+  - "&7Nhát cuối bổ xuống đất, hất tung kẻ địch."
   - ""
-  - "&c🗡 {damage} Damage"
-  - "&e⌛ {cooldown}s Cooldown"
+  - "&c⚔ Sát thương mỗi nhát: &f{damage}"
+  - "&e⌛ Hồi giữa combo: &f{cooldown}s"
   - ""
   - "&7&m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
   icon: COAL:2374
@@ -120,10 +114,10 @@ SKULL_WISPS:
   parameters:
     damage:
       player:
-        base: 4
-        per-level: 0.4
-        min: 4
-        max: 7
+        base: 5
+        per-level: 0.45
+        min: 5
+        max: 18.05
       name: Damage
       item: 0
     timer:
@@ -152,25 +146,24 @@ SKULL_WISPS:
       item: 0
     cooldown:
       player:
-        base: 1
-        per-level: -0.01
-        min: 0.5
-        max: 1
+        base: 7
+        per-level: -0.1
+        min: 4.1
+        max: 7
       name: Cooldown
       item: 0
     delay:
       name: Delay
       item: 0
-  name: Skull Wisps
+  name: Ma Trơ Khô Lâu
   lore:
   - "&7&m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
   - ""
-  - "&7Launch a haunting skull-shaped wisp of necrotic energy forward."
-  - "&7Upon impact, the wisp explodes with dark energy, damaging enemies"
-  - "&7and slightly knocking them back."
+  - "&7Phóng ma trơ khô lâu về phía trước. Khi va chạm,"
+  - "&7nó phát nổ Tử Khí, gây sát thương và đẩy lùi."
   - ""
-  - "&c🗡 {damage} Damage"
-  - "&e⌛ {cooldown}s Cooldown"
+  - "&c⚔ Sát thương: &f{damage}"
+  - "&e⌛ Hồi chiêu: &f{cooldown}s"
   - ""
   - "&7&m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
   icon: COAL:2377
@@ -180,10 +173,10 @@ SKELETAL_WARRIOR:
   parameters:
     damage:
       player:
-        base: 4
-        per-level: 0.4
-        min: 4
-        max: 7
+        base: 3
+        per-level: 0.25
+        min: 3
+        max: 10.25
       name: Damage
       item: 0
     timer:
@@ -220,27 +213,26 @@ SKELETAL_WARRIOR:
       item: 0
     skillcooldown:
       player:
-        base: 1
-        per-level: 0
-        min: 1
-        max: 1
+        base: 25
+        per-level: -0.15
+        min: 20.65
+        max: 25
       name: SkillCooldown
       item: 0
     delay:
       name: Delay
       item: 0
-  name: Skeletal Warrior
+  name: Chiến Binh Xương
   lore:
   - "&7&m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
   - ""
-  - "&7Consume 1 Soul to summon a Skeletal Warrior to fight at your side."
+  - "&7Tiêu hao 1 Linh Hồn để triệu hồi Chiến Binh Xương."
   - ""
-  - "&6Skeletal Warrior &f(Melee Minion)"
-  - "&bBone Slash: &7A quick horizontal sword strike."
-  - "&bCleave Down: &7A heavy downward slash aimed at enemies in front."
+  - "&6Chiến Binh Xương &f(Tay sai cận chiến)"
+  - "&7Tự truy đuổi và chém kẻ địch của chủ nhân."
   - ""
-  - "&c🗡 {damage} Damage"
-  - "&e⌛ {cooldown}s Cooldown"
+  - "&c⚔ Sát thương mỗi đòn: &f{damage}"
+  - "&e⌛ Hồi triệu hồi: &f{skillcooldown}s"
   - ""
   - "&7&m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
   icon: COAL:2376

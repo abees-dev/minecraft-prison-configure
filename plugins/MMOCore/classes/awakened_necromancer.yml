@@ -1,19 +1,80 @@
 display:
-    name: '&3&lAwakened Necromancer Class'
+    name: '&3Tử Linh Pháp Sư'
     lore:
-    - '&bChoose the Awakened Necromancer Class'
-    item: STONE_SWORD:2098 # Supports custom model data/texture by durability
+    - '&7Class thức tỉnh của Pháp Sư, điều khiển'
+    - '&7linh hồn và triệu hồi chiến binh bất tử.'
+    attribute-lore:
+    - '&a+ &7Sát thương phép và triệu hồi'
+    - '&a+ &7Thu thập linh hồn từ kẻ địch bị hạ'
+    - '&c- &7Phụ thuộc vào lượng linh hồn dự trữ'
+    item: STONE_SWORD:2098
 
 exp-curve: levels
-
 max-level: 100
-
 exp-table: class_exp_table
 
+skill-slots:
+    1:
+        name: '&aÔ Kỹ Năng I'
+        unlocked-by-default: true
+    2:
+        name: '&aÔ Kỹ Năng II'
+        unlocked-by-default: true
+    3:
+        name: '&aÔ Kỹ Năng III'
+        unlocked-by-default: true
+    4:
+        name: '&aÔ Kỹ Năng IV'
+        unlocked-by-default: true
+
+mana:
+    char: ■
+    icon: '&3☠'
+    color:
+        full: DARK_AQUA
+        half: DARK_PURPLE
+        empty: WHITE
+    name: 'Tử Khí'
+
+cast-particle:
+    particle: SOUL
+
+options:
+    display: false
+    needs-permission: false
+    off-combat-health-regen: true
+
+attributes:
+    max-health:
+        base: 19
+        per-level: .1
+    max-mana:
+        base: 30
+        per-level: 1.3
+    mana-regeneration:
+        base: .22
+        per-level: .04
+    health-regeneration:
+        base: .14
+        per-level: 0
+
 skills:
+    # Skill kế thừa từ Pháp Sư.
+    FIRE_STORM: { level: 1, max-level: 30 }
+    POWER_MARK: { level: 1, max-level: 30 }
+    FIREBALL: { level: 1, max-level: 30 }
+    MINOR_HEALINGS: { level: 1, max-level: 30 }
+    ICE_SPIKES: { level: 1, max-level: 30 }
+    AMBERS: { level: 1, max-level: 30 }
+    WEAKEN: { level: 1, max-level: 30 }
+    WARP: { level: 1, max-level: 30 }
+    GREATER_HEALINGS: { level: 1, max-level: 30 }
+
+    # 4 skill mới của RPG Class Awakened | Necromancer.
     DEATHBOUND_SOULS:
         level: 1
-        max-level: 30
+        max-level: 1
+        needs-bound: true
     NECROTIC_COMBO:
         level: 1
         max-level: 30
@@ -23,36 +84,6 @@ skills:
     SKELETAL_WARRIOR:
         level: 1
         max-level: 30
-    NECROMANCERS_COMMAND:
-        level: 1
-        max-level: 20
-    SKELETAL_MAGE:
-        level: 1
-        max-level: 30
-    NECROKNIGHT:
-        level: 1
-        max-level: 20
 
-skill-slots:
-    1:
-        name: "&aSkill Slot I (Passive)"
-        formula: "<PASSIVE>"
-        unlocked-by-default: true
-    2:
-        name: "&aSkill Slot II"
-        unlocked-by-default: true
-    3:
-        name: "&aSkill Slot III"
-        unlocked-by-default: true
-    4:
-        name: "&aSkill Slot IV"
-        unlocked-by-default: true
-    5:
-        name: "&aSkill Slot V"
-        unlocked-by-default: true
-    6:
-        name: "&aSkill Slot VI"
-        unlocked-by-default: true
-    7:
-        name: "&aSkill Slot VII"
-        unlocked-by-default: true
+main-exp-sources:
+- 'from{source=prison_mobs_exp}'

@@ -1,18 +1,17 @@
-name: Arcane Turret
+name: Pháo Arcane
 lore:
-- '&bBuild a turret of arcane energy that tirelessly'
-- '&bdefends your position. It tracks down enemies and'
-- '&bfires bullets that pierce through them.'
+- '&7Dựng một tháp pháo Arcane tự động truy tìm'
+- '&7và bắn xuyên qua kẻ địch trong khu vực.'
 - ''
-- '&c{damage} Damage'
-- '&e{cooldown}s Cooldown'
-- '&9Costs {mana} {mana_name}'
+- '&c⚔ Sát thương mỗi viên: &f{damage}'
+- '&e⌛ Hồi chiêu: &f{cooldown}s'
+- '&a◆ Tiêu hao: &f{stamina} Thể Lực'
 material: 'COAL:2202'
 damage:
-  base: 5
-  per-level: 1
-  min: 5
-  max: 7
+  base: 3
+  per-level: 0.2
+  min: 3
+  max: 8.8
 timer:
   base: 0
   per-level: 0
@@ -24,12 +23,12 @@ mana:
   min: 0
   max: 0
 stamina:
-  base: 0
-  per-level: 0
-  min: 0
-  max: 0
-cooldown:
   base: 15
-  per-level: -0.1
-  min: 14
-  max: 15
+  per-level: 0.2
+  min: 15
+  max: 20.8
+cooldown:
+  base: 18
+  per-level: -0.2
+  min: 12.2
+  max: 18

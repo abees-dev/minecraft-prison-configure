@@ -1,30 +1,22 @@
-name: Flamethrower
+name: Súng Phun Lửa
 lore:
-- '&9[Flamethrower]'
-- '&bEmit a short-range stream of arcanic flames that'
-- '&bburns enemies. You can continuously cast this'
-- '&bskill by holding it.'
+- '&7Phun luồng lửa Arcane tầm gần, thiêu đốt'
+- '&7kẻ địch. Giữ phím thi triển để duy trì.'
 - ''
-- '&9[Arcane Bullets] &f(Arcane Mecha Mode)'
-- '&bFire rapid-fire arcane bullets upon your enemies'
-- '&bwith deadly precision. You can continuously cast'
-- '&bthis skill by holding it.'
-- ''
-- '&c{damage} Damage'
-- '&c{duration}s Burn Duration'
-- '&e{cooldown}s Cooldown'
-- '&9Costs {mana} {mana_name}'
+- '&c⚔ Sát thương mỗi nhịp: &f{damage}'
+- '&6✹ Thiêu đốt: &f{duration}s'
+- '&a◆ Tiêu hao mỗi nhịp: &f{stamina} Thể Lực'
 material: 'COAL:2205'
 damage:
-  base: 3
-  per-level: 1
-  min: 3
-  max: 6
+  base: 2.5
+  per-level: 0.2
+  min: 2.5
+  max: 8.3
 duration:
-  base: 4
-  per-level: 1
-  min: 4
-  max: 6
+  base: 2
+  per-level: 0.04
+  min: 2
+  max: 3
 timer:
   base: 0
   per-level: 0
@@ -36,10 +28,10 @@ mana:
   min: 0
   max: 0
 stamina:
-  base: 0
-  per-level: 0
-  min: 0
-  max: 0
+  base: 1
+  per-level: 0.03
+  min: 1
+  max: 1.87
 cooldown:
   base: 0
   per-level: 0
