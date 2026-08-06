@@ -1,0 +1,31 @@
+# Disabled: replaced by lightweight prison rebirth skills.
+name: Bước Chân Linh Hồn
+lore:
+- "&7&m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+- ""
+- '&7Hóa linh thể và lướt theo hướng di chuyển'
+- '&7trong 2 giây. Miễn nhiễm sát thương khi lướt.'
+- '&e⌛ Hồi chiêu: &f{cooldown}s'
+- ""
+- "&7&m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+material: 'COAL:2317'
+timer:
+  base: 0
+  per-level: 0
+  min: 0
+  max: 0
+mana:
+  base: 0
+  per-level: 0
+  min: 0
+  max: 0
+stamina:
+  base: 0
+  per-level: 0
+  min: 0
+  max: 0
+cooldown:
+  base: 12
+  per-level: 0
+  min: 12
+  max: 12

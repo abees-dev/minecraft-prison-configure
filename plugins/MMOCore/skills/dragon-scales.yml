@@ -1,0 +1,13 @@
+name: Long Lân
+lore:
+- '&7Nội tại, phải gắn vào ô skill.'
+- '&7Khi bị tấn công, nhận Kháng Sát Thương'
+- '&7và Kháng Hất Lùi trong thời gian ngắn.'
+- ''
+- '&a⏱ {duration}s hiệu lực'
+- '&e⌛ {cooldown}s hồi nội bộ'
+material: SCUTE
+passive-type: DAMAGED
+duration: { base: 3, per-level: 0.1, min: 3, max: 5.9 }
+mana: { base: 0, per-level: 0, min: 0, max: 0 }
+cooldown: { base: 20, per-level: -0.2, min: 14.2, max: 20 }

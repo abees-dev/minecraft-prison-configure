@@ -30,7 +30,7 @@ recipes:
         conditions:
         - 'placeholder{placeholder="%playerpoints_points%~>=~180";display="&b180 Point"}'
         on-use:
-        - 'command{format="points take {player} 180";sender=CONSOLE}'
+        - 'command{format="points take %player% 180";sender=CONSOLE}'
 
     non-de-long:
         output:
@@ -44,7 +44,7 @@ recipes:
         conditions:
         - 'placeholder{placeholder="%playerpoints_points%~>=~180";display="&b180 Point"}'
         on-use:
-        - 'command{format="points take {player} 180";sender=CONSOLE}'
+        - 'command{format="points take %player% 180";sender=CONSOLE}'
 
     ao-de-long:
         output:
@@ -58,7 +58,7 @@ recipes:
         conditions:
         - 'placeholder{placeholder="%playerpoints_points%~>=~180";display="&b180 Point"}'
         on-use:
-        - 'command{format="points take {player} 180";sender=CONSOLE}'
+        - 'command{format="points take %player% 180";sender=CONSOLE}'
 
     quan-de-long:
         output:
@@ -72,7 +72,7 @@ recipes:
         conditions:
         - 'placeholder{placeholder="%playerpoints_points%~>=~180";display="&b180 Point"}'
         on-use:
-        - 'command{format="points take {player} 180";sender=CONSOLE}'
+        - 'command{format="points take %player% 180";sender=CONSOLE}'
 
     giay-de-long:
         output:
@@ -86,4 +86,4 @@ recipes:
         conditions:
         - 'placeholder{placeholder="%playerpoints_points%~>=~180";display="&b180 Point"}'
         on-use:
-        - 'command{format="points take {player} 180";sender=CONSOLE}'
+        - 'command{format="points take %player% 180";sender=CONSOLE}'

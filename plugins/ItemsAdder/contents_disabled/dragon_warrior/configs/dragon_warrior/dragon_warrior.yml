@@ -1,0 +1,438 @@
+# Disabled: advanced classes now use vanilla-only effects.
+# Downloaded from https://nullforums.net/resources/rpg-class-series-dragon-warrior.4653/
+info:
+  namespace: dragon_warrior
+items:
+  dragon_warrior_spear:
+    display_name: "dragon_warrior_spear"
+    permission: dragon_warrior_spear
+    resource:
+      material: STONE_SWORD
+      model_id: 2025
+      generate: false
+      model_path: dragon_warrior_model/dragon_warrior_spear
+  dragon_warrior_spear_shiny:
+    display_name: "dragon_warrior_spear_shiny"
+    permission: dragon_warrior_spear_shiny
+    resource:
+      material: STONE_SWORD
+      model_id: 2026
+      generate: false
+      model_path: dragon_warrior_model/dragon_warrior_spear_shiny
+  icon_dragon_breath:
+    display_name: "icon_dragon_breath"
+    permission: icon_dragon_breath
+    resource:
+      material: COAL
+      model_id: 2076
+      generate: false
+      model_path: dragon_warrior_model/icon_dragon_breath
+  icon_dragon_dash:
+    display_name: "icon_dragon_dash"
+    permission: icon_dragon_dash
+    resource:
+      material: COAL
+      model_id: 2077
+      generate: false
+      model_path: dragon_warrior_model/icon_dragon_dash
+  icon_dragon_skin:
+    display_name: "icon_dragon_skin"
+    permission: icon_dragon_skin
+    resource:
+      material: COAL
+      model_id: 2078
+      generate: false
+      model_path: dragon_warrior_model/icon_dragon_skin
+  icon_dragon_slash:
+    display_name: "icon_dragon_slash"
+    permission: icon_dragon_slash
+    resource:
+      material: COAL
+      model_id: 2079
+      generate: false
+      model_path: dragon_warrior_model/icon_dragon_slash
+  icon_dragon_zone:
+    display_name: "icon_dragon_zone"
+    permission: icon_dragon_zone
+    resource:
+      material: COAL
+      model_id: 2080
+      generate: false
+      model_path: dragon_warrior_model/icon_dragon_zone
+  icon_dragonborn:
+    display_name: "icon_dragonborn"
+    permission: icon_dragonborn
+    resource:
+      material: COAL
+      model_id: 2081
+      generate: false
+      model_path: dragon_warrior_model/icon_dragonborn
+  dragon_circle_1:
+    display_name: "dragon_circle_1"
+    permission: dragon_circle_1
+    resource:
+      material: PAPER
+      model_id: 20320
+      generate: false
+      model_path: dragon_warrior_model/dragon_circle_1
+  dragon_circle_2:
+    display_name: "dragon_circle_2"
+    permission: dragon_circle_2
+    resource:
+      material: PAPER
+      model_id: 20321
+      generate: false
+      model_path: dragon_warrior_model/dragon_circle_2
+  dragon_circle_3:
+    display_name: "dragon_circle_3"
+    permission: dragon_circle_3
+    resource:
+      material: PAPER
+      model_id: 20322
+      generate: false
+      model_path: dragon_warrior_model/dragon_circle_3
+  dragon_circle_4:
+    display_name: "dragon_circle_4"
+    permission: dragon_circle_4
+    resource:
+      material: PAPER
+      model_id: 20323
+      generate: false
+      model_path: dragon_warrior_model/dragon_circle_4
+  dragon_circle_5:
+    display_name: "dragon_circle_5"
+    permission: dragon_circle_5
+    resource:
+      material: PAPER
+      model_id: 20324
+      generate: false
+      model_path: dragon_warrior_model/dragon_circle_5
+  dragon_dash_charge_1:
+    display_name: "dragon_dash_charge_1"
+    permission: dragon_dash_charge_1
+    resource:
+      material: PAPER
+      model_id: 20325
+      generate: false
+      model_path: dragon_warrior_model/dragon_dash_charge_1
+  dragon_dash_charge_2:
+    display_name: "dragon_dash_charge_2"
+    permission: dragon_dash_charge_2
+    resource:
+      material: PAPER
+      model_id: 20326
+      generate: false
+      model_path: dragon_warrior_model/dragon_dash_charge_2
+  dragon_dash_charge_3:
+    display_name: "dragon_dash_charge_3"
+    permission: dragon_dash_charge_3
+    resource:
+      material: PAPER
+      model_id: 20327
+      generate: false
+      model_path: dragon_warrior_model/dragon_dash_charge_3
+  dragon_dash_charge_4:
+    display_name: "dragon_dash_charge_4"
+    permission: dragon_dash_charge_4
+    resource:
+      material: PAPER
+      model_id: 20328
+      generate: false
+      model_path: dragon_warrior_model/dragon_dash_charge_4
+  dragon_dash_pierce_1:
+    display_name: "dragon_dash_pierce_1"
+    permission: dragon_dash_pierce_1
+    resource:
+      material: PAPER
+      model_id: 20329
+      generate: false
+      model_path: dragon_warrior_model/dragon_dash_pierce_1
+  dragon_dash_pierce_2:
+    display_name: "dragon_dash_pierce_2"
+    permission: dragon_dash_pierce_2
+    resource:
+      material: PAPER
+      model_id: 20330
+      generate: false
+      model_path: dragon_warrior_model/dragon_dash_pierce_2
+  dragon_dash_pierce_3:
+    display_name: "dragon_dash_pierce_3"
+    permission: dragon_dash_pierce_3
+    resource:
+      material: PAPER
+      model_id: 20331
+      generate: false
+      model_path: dragon_warrior_model/dragon_dash_pierce_3
+  dragon_dash_pierce_4:
+    display_name: "dragon_dash_pierce_4"
+    permission: dragon_dash_pierce_4
+    resource:
+      material: PAPER
+      model_id: 20332
+      generate: false
+      model_path: dragon_warrior_model/dragon_dash_pierce_4
+  dragon_dash_pierce_5:
+    display_name: "dragon_dash_pierce_5"
+    permission: dragon_dash_pierce_5
+    resource:
+      material: PAPER
+      model_id: 20333
+      generate: false
+      model_path: dragon_warrior_model/dragon_dash_pierce_5
+  dragon_ground_slash:
+    display_name: "dragon_ground_slash"
+    permission: dragon_ground_slash
+    resource:
+      material: PAPER
+      model_id: 20334
+      generate: false
+      model_path: dragon_warrior_model/dragon_ground_slash
+  dragon_slash_1:
+    display_name: "dragon_slash_1"
+    permission: dragon_slash_1
+    resource:
+      material: PAPER
+      model_id: 20335
+      generate: false
+      model_path: dragon_warrior_model/dragon_slash_1
+  dragon_slash_2:
+    display_name: "dragon_slash_2"
+    permission: dragon_slash_2
+    resource:
+      material: PAPER
+      model_id: 20336
+      generate: false
+      model_path: dragon_warrior_model/dragon_slash_2
+  dragon_slash_3:
+    display_name: "dragon_slash_3"
+    permission: dragon_slash_3
+    resource:
+      material: PAPER
+      model_id: 20337
+      generate: false
+      model_path: dragon_warrior_model/dragon_slash_3
+  dragon_slash_4:
+    display_name: "dragon_slash_4"
+    permission: dragon_slash_4
+    resource:
+      material: PAPER
+      model_id: 20338
+      generate: false
+      model_path: dragon_warrior_model/dragon_slash_4
+  dragon_slash_5:
+    display_name: "dragon_slash_5"
+    permission: dragon_slash_5
+    resource:
+      material: PAPER
+      model_id: 20339
+      generate: false
+      model_path: dragon_warrior_model/dragon_slash_5
+  dragon_slash_6:
+    display_name: "dragon_slash_6"
+    permission: dragon_slash_6
+    resource:
+      material: PAPER
+      model_id: 20340
+      generate: false
+      model_path: dragon_warrior_model/dragon_slash_6
+  dragon_smash_rupture_1:
+    display_name: "dragon_smash_rupture_1"
+    permission: dragon_smash_rupture_1
+    resource:
+      material: PAPER
+      model_id: 20341
+      generate: false
+      model_path: dragon_warrior_model/dragon_smash_rupture_1
+  dragon_smash_rupture_2:
+    display_name: "dragon_smash_rupture_2"
+    permission: dragon_smash_rupture_2
+    resource:
+      material: PAPER
+      model_id: 20342
+      generate: false
+      model_path: dragon_warrior_model/dragon_smash_rupture_2
+  dragon_smash_rupture_3:
+    display_name: "dragon_smash_rupture_3"
+    permission: dragon_smash_rupture_3
+    resource:
+      material: PAPER
+      model_id: 20343
+      generate: false
+      model_path: dragon_warrior_model/dragon_smash_rupture_3
+  dragon_smash_rupture_4:
+    display_name: "dragon_smash_rupture_4"
+    permission: dragon_smash_rupture_4
+    resource:
+      material: PAPER
+      model_id: 20344
+      generate: false
+      model_path: dragon_warrior_model/dragon_smash_rupture_4
+  dragon_smash_rupture_5:
+    display_name: "dragon_smash_rupture_5"
+    permission: dragon_smash_rupture_5
+    resource:
+      material: PAPER
+      model_id: 20345
+      generate: false
+      model_path: dragon_warrior_model/dragon_smash_rupture_5
+  dragon_smash_rupture_6:
+    display_name: "dragon_smash_rupture_6"
+    permission: dragon_smash_rupture_6
+    resource:
+      material: PAPER
+      model_id: 20346
+      generate: false
+      model_path: dragon_warrior_model/dragon_smash_rupture_6
+  dragon_spin:
+    display_name: "dragon_spin"
+    permission: dragon_spin
+    resource:
+      material: PAPER
+      model_id: 20347
+      generate: false
+      model_path: dragon_warrior_model/dragon_spin
+  dragon_spin_1:
+    display_name: "dragon_spin_1"
+    permission: dragon_spin_1
+    resource:
+      material: PAPER
+      model_id: 20348
+      generate: false
+      model_path: dragon_warrior_model/dragon_spin_1
+  dragon_spin_2:
+    display_name: "dragon_spin_2"
+    permission: dragon_spin_2
+    resource:
+      material: PAPER
+      model_id: 20349
+      generate: false
+      model_path: dragon_warrior_model/dragon_spin_2
+  dragon_spin_3:
+    display_name: "dragon_spin_3"
+    permission: dragon_spin_3
+    resource:
+      material: PAPER
+      model_id: 20350
+      generate: false
+      model_path: dragon_warrior_model/dragon_spin_3
+  dragon_warrior_spear_spirit_1:
+    display_name: "dragon_warrior_spear_spirit_1"
+    permission: dragon_warrior_spear_spirit_1
+    resource:
+      material: PAPER
+      model_id: 20351
+      generate: false
+      model_path: dragon_warrior_model/dragon_warrior_spear_spirit_1
+  dragon_warrior_spear_spirit_2:
+    display_name: "dragon_warrior_spear_spirit_2"
+    permission: dragon_warrior_spear_spirit_2
+    resource:
+      material: PAPER
+      model_id: 20352
+      generate: false
+      model_path: dragon_warrior_model/dragon_warrior_spear_spirit_2
+  dragon_warrior_spear_spirit_3:
+    display_name: "dragon_warrior_spear_spirit_3"
+    permission: dragon_warrior_spear_spirit_3
+    resource:
+      material: PAPER
+      model_id: 20353
+      generate: false
+      model_path: dragon_warrior_model/dragon_warrior_spear_spirit_3
+  dragon_warrior_spear_spirit_4:
+    display_name: "dragon_warrior_spear_spirit_4"
+    permission: dragon_warrior_spear_spirit_4
+    resource:
+      material: PAPER
+      model_id: 20354
+      generate: false
+      model_path: dragon_warrior_model/dragon_warrior_spear_spirit_4
+  dragon_wings_1:
+    display_name: "dragon_wings_1"
+    permission: dragon_wings_1
+    resource:
+      material: PAPER
+      model_id: 20355
+      generate: false
+      model_path: dragon_warrior_model/dragon_wings_1
+  dragon_wings_2:
+    display_name: "dragon_wings_2"
+    permission: dragon_wings_2
+    resource:
+      material: PAPER
+      model_id: 20356
+      generate: false
+      model_path: dragon_warrior_model/dragon_wings_2
+  dragon_wings_3:
+    display_name: "dragon_wings_3"
+    permission: dragon_wings_3
+    resource:
+      material: PAPER
+      model_id: 20357
+      generate: false
+      model_path: dragon_warrior_model/dragon_wings_3
+  dragon_wings_4:
+    display_name: "dragon_wings_4"
+    permission: dragon_wings_4
+    resource:
+      material: PAPER
+      model_id: 20358
+      generate: false
+      model_path: dragon_warrior_model/dragon_wings_4
+  dragon_wings_5:
+    display_name: "dragon_wings_5"
+    permission: dragon_wings_5
+    resource:
+      material: PAPER
+      model_id: 20359
+      generate: false
+      model_path: dragon_warrior_model/dragon_wings_5
+  dragon_wings_6:
+    display_name: "dragon_wings_6"
+    permission: dragon_wings_6
+    resource:
+      material: PAPER
+      model_id: 20360
+      generate: false
+      model_path: dragon_warrior_model/dragon_wings_6
+  dragon_wings_7:
+    display_name: "dragon_wings_7"
+    permission: dragon_wings_7
+    resource:
+      material: PAPER
+      model_id: 20361
+      generate: false
+      model_path: dragon_warrior_model/dragon_wings_7
+  dragon_wings_8:
+    display_name: "dragon_wings_8"
+    permission: dragon_wings_8
+    resource:
+      material: PAPER
+      model_id: 20362
+      generate: false
+      model_path: dragon_warrior_model/dragon_wings_8
+  dragon_wings_9:
+    display_name: "dragon_wings_9"
+    permission: dragon_wings_9
+    resource:
+      material: PAPER
+      model_id: 20363
+      generate: false
+      model_path: dragon_warrior_model/dragon_wings_9
+  dragon_wings_a:
+    display_name: "dragon_wings_a"
+    permission: dragon_wings_a
+    resource:
+      material: PAPER
+      model_id: 20364
+      generate: false
+      model_path: dragon_warrior_model/dragon_wings_a
+  dragon_slash_2_opp:
+    display_name: "dragon_slash_2_opp"
+    permission: dragon_slash_2_opp
+    resource:
+      material: PAPER
+      model_id: 20365
+      generate: false
+      model_path: dragon_warrior_model/dragon_slash_2_opp
+# eb49b8be573ffb25aa51af71342947063b35db0c . 45353

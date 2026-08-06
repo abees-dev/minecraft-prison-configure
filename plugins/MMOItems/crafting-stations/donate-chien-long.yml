@@ -30,7 +30,7 @@ recipes:
         conditions:
         - 'placeholder{placeholder="%playerpoints_points%~>=~80";display="&b80 Point"}'
         on-use:
-        - 'command{format="points take {player} 80";sender=CONSOLE}'
+        - 'command{format="points take %player% 80";sender=CONSOLE}'
 
     non-chien-long:
         output:
@@ -44,7 +44,7 @@ recipes:
         conditions:
         - 'placeholder{placeholder="%playerpoints_points%~>=~80";display="&b80 Point"}'
         on-use:
-        - 'command{format="points take {player} 80";sender=CONSOLE}'
+        - 'command{format="points take %player% 80";sender=CONSOLE}'
 
     ao-chien-long:
         output:
@@ -58,7 +58,7 @@ recipes:
         conditions:
         - 'placeholder{placeholder="%playerpoints_points%~>=~80";display="&b80 Point"}'
         on-use:
-        - 'command{format="points take {player} 80";sender=CONSOLE}'
+        - 'command{format="points take %player% 80";sender=CONSOLE}'
 
     quan-chien-long:
         output:
@@ -72,7 +72,7 @@ recipes:
         conditions:
         - 'placeholder{placeholder="%playerpoints_points%~>=~80";display="&b80 Point"}'
         on-use:
-        - 'command{format="points take {player} 80";sender=CONSOLE}'
+        - 'command{format="points take %player% 80";sender=CONSOLE}'
 
     giay-chien-long:
         output:
@@ -86,4 +86,4 @@ recipes:
         conditions:
         - 'placeholder{placeholder="%playerpoints_points%~>=~80";display="&b80 Point"}'
         on-use:
-        - 'command{format="points take {player} 80";sender=CONSOLE}'
+        - 'command{format="points take %player% 80";sender=CONSOLE}'

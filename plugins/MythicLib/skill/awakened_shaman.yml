@@ -1,37 +1,15 @@
-SOUL_LINK:
-    mythicmobs-skill-id: Soul_Link
+CHAIN_LIGHTNING:
+    mythicmobs-skill-id: Rebirth_Chain_Lightning
+    modifiers: [damage]
+
+EARTHEN_WARD:
+    mythicmobs-skill-id: Rebirth_Earthen_Ward
+    modifiers: [heal, shield, duration]
+
+HEAVEN_EARTH_FIELD:
+    mythicmobs-skill-id: Rebirth_Heaven_Earth_Field
+    modifiers: [damage, heal, duration]
+
+SPIRIT_FLOW:
+    mythicmobs-skill-id: Rebirth_Spirit_Flow
     passive-type: TIMER
-    modifiers:
-    - heal
-    - healinterval
-
-PRIMAL_COMBO:
-    mythicmobs-skill-id: Primal_Combo
-    modifiers:
-    - damage
-    - heal
-    
-ECHO_STEP:
-    mythicmobs-skill-id: Echo_Step
-
-RITUAL_TOTEM:
-    mythicmobs-skill-id: Ritual_Totem
-    modifiers:
-    - damage
-    - heal
-    - skillcooldown
-
-STANCE_SWITCH:
-    mythicmobs-skill-id: Stance_Switch
-    passive-type: TIMER
-    modifiers:
-    - skillcooldown
-    
-EARTHEN_EMBRACE:
-    mythicmobs-skill-id: Earthen_Embrace
-    
-ANCESTRAL_HANDS:
-    mythicmobs-skill-id: Ancestral_Hands
-    modifiers:
-    - damage
-    - heal

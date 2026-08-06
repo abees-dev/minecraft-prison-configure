@@ -1,0 +1,13 @@
+name: Vực Tử Linh
+lore:
+- '&7Tạo một vùng Tử Khí gây sát thương theo nhịp'
+- '&7và làm chậm mọi kẻ địch bên trong.'
+- ''
+- '&c⚔ {damage} sát thương mỗi nhịp'
+- '&a⏱ {duration}s tồn tại'
+- '&e⌛ {cooldown}s hồi chiêu'
+material: SCULK
+damage: { base: 2, per-level: 0.18, min: 2, max: 7.22 }
+duration: { base: 4, per-level: 0.1, min: 4, max: 6.9 }
+mana: { base: 22, per-level: 0.3, min: 22, max: 30.7 }
+cooldown: { base: 19, per-level: -0.2, min: 13.2, max: 19 }

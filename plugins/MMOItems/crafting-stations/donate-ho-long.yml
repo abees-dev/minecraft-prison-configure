@@ -30,7 +30,7 @@ recipes:
         conditions:
         - 'placeholder{placeholder="%playerpoints_points%~>=~50";display="&b50 Point"}'
         on-use:
-        - 'command{format="points take {player} 50";sender=CONSOLE}'
+        - 'command{format="points take %player% 50";sender=CONSOLE}'
 
     non-ho-long:
         output:
@@ -44,7 +44,7 @@ recipes:
         conditions:
         - 'placeholder{placeholder="%playerpoints_points%~>=~50";display="&b50 Point"}'
         on-use:
-        - 'command{format="points take {player} 50";sender=CONSOLE}'
+        - 'command{format="points take %player% 50";sender=CONSOLE}'
 
     ao-ho-long:
         output:
@@ -58,7 +58,7 @@ recipes:
         conditions:
         - 'placeholder{placeholder="%playerpoints_points%~>=~50";display="&b50 Point"}'
         on-use:
-        - 'command{format="points take {player} 50";sender=CONSOLE}'
+        - 'command{format="points take %player% 50";sender=CONSOLE}'
 
     quan-ho-long:
         output:
@@ -72,7 +72,7 @@ recipes:
         conditions:
         - 'placeholder{placeholder="%playerpoints_points%~>=~50";display="&b50 Point"}'
         on-use:
-        - 'command{format="points take {player} 50";sender=CONSOLE}'
+        - 'command{format="points take %player% 50";sender=CONSOLE}'
 
     giay-ho-long:
         output:
@@ -86,4 +86,4 @@ recipes:
         conditions:
         - 'placeholder{placeholder="%playerpoints_points%~>=~50";display="&b50 Point"}'
         on-use:
-        - 'command{format="points take {player} 50";sender=CONSOLE}'
+        - 'command{format="points take %player% 50";sender=CONSOLE}'

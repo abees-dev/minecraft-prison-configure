@@ -1,0 +1,13 @@
+name: Long Uy
+lore:
+- '&7Gầm lên bằng uy lực Long Tộc, gây sát thương,'
+- '&7làm chậm và giảm sức tấn công của kẻ địch.'
+- ''
+- '&c⚔ {damage} sát thương'
+- '&b❄ {duration}s suy yếu'
+- '&e⌛ {cooldown}s hồi chiêu'
+material: DRAGON_BREATH
+damage: { base: 5, per-level: 0.35, min: 5, max: 15.15 }
+duration: { base: 3, per-level: 0.1, min: 3, max: 5.9 }
+mana: { base: 18, per-level: 0.25, min: 18, max: 25.25 }
+cooldown: { base: 18, per-level: -0.2, min: 12.2, max: 18 }

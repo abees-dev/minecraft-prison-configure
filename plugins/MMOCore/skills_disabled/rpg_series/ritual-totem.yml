@@ -1,0 +1,45 @@
+# Disabled: replaced by lightweight prison rebirth skills.
+name: Totem Nghi Lễ
+lore:
+- "&7&m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+- ""
+- '&eLôi Thế: &7Triệu hồi Totem Thợ Săn tấn công kẻ địch.'
+- '&c⚔ Sát thương: &f{damage}'
+- ""
+- '&aThổ Thế: &7Triệu hồi Totem Hộ Vệ chắn kẻ địch'
+- '&7và hồi máu cho đồng minh trong khu vực.'
+- '&a❤ Hồi phục: &f{heal}'
+- '&e⌛ Hồi chiêu: &f{cooldown}s'
+- ""
+- "&7&m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+material: 'COAL:2319'
+timer:
+  base: 0
+  per-level: 0
+  min: 0
+  max: 0
+damage:
+  base: 3
+  per-level: 0.3
+  min: 3
+  max: 11.7
+heal:
+  base: 3
+  per-level: 0.3
+  min: 3
+  max: 11.7
+mana:
+  base: 0
+  per-level: 0
+  min: 0
+  max: 0
+stamina:
+  base: 0
+  per-level: 0
+  min: 0
+  max: 0
+cooldown:
+  base: 18
+  per-level: -0.2
+  min: 12.2
+  max: 18

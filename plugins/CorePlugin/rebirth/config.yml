@@ -131,10 +131,10 @@ class-evolution:
         - MINOR_HEALINGS
         - FIRE_BERSERKER
       new-skills:
-        - DRAGON_SLASH
-        - DRAGON_DASH
-        - DRAGON_SKIN
-        - DRAGON_ZONE
+        - DRAGON_CLEAVE
+        - DRAGON_CHARGE
+        - DRAGON_SCALES
+        - DRAGON_ROAR
       new-skill-level: 1
       success-message: "&6✔ &fChiến Binh của bạn đã thức tỉnh thành Chiến Binh Rồng!"
     archer_expansion:
@@ -146,10 +146,10 @@ class-evolution:
         - EVADE
         - MINOR_HEALINGS
       new-skills:
-        - ARCANE_BLAST
-        - FLAMETHROWER
-        - ARCANE_TURRET
-        - MAGICAL_TINKERING
+        - ARCANE_ROUND
+        - DETONATION_SHOT
+        - MECHANICAL_BARRIER
+        - OVERCHARGE
       new-skill-level: 1
       success-message: "&b✔ &fCung Thủ của bạn đã thức tỉnh thành Kỹ Sư Ma Pháp!"
     mage:
@@ -166,10 +166,10 @@ class-evolution:
         - WARP
         - GREATER_HEALINGS
       new-skills:
-        - NECROMANCERS_COMMAND
-        - NECROTIC_COMBO
-        - SKELETAL_MAGE
-        - NECROKNIGHT
+        - NECROTIC_BOLT
+        - GRAVE_BURST
+        - DEATHLY_DOMAIN
+        - UNDYING_PACT
       new-skill-level: 1
       success-message: "&3✔ &fPháp Sư của bạn đã thức tỉnh thành Tử Linh Pháp Sư!"
     cleric:
@@ -183,9 +183,9 @@ class-evolution:
         - GRAND_HEAL
         - GREATER_HEALINGS
       new-skills:
-        - SOUL_LINK
-        - PRIMAL_COMBO
-        - ECHO_STEP
-        - RITUAL_TOTEM
+        - CHAIN_LIGHTNING
+        - EARTHEN_WARD
+        - HEAVEN_EARTH_FIELD
+        - SPIRIT_FLOW
       new-skill-level: 1
       success-message: "&a✔ &fTu Sĩ của bạn đã thức tỉnh thành Đại Tế Thức Tỉnh!"

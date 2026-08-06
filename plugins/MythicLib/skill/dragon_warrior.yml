@@ -1,31 +1,16 @@
-DRAGON_SLASH:
-    mythicmobs-skill-id: Dragon_Slash
-    passive-type: ATTACK
-    modifiers:
-    - damage
+DRAGON_CLEAVE:
+    mythicmobs-skill-id: Rebirth_Dragon_Cleave
+    modifiers: [damage, burn-duration]
 
-DRAGON_DASH:
-    mythicmobs-skill-id: Dragon_Dash
-    modifiers:
-    - damage
-    
-DRAGON_SKIN:
-    mythicmobs-skill-id: Dragon_Skin
+DRAGON_CHARGE:
+    mythicmobs-skill-id: Rebirth_Dragon_Charge
+    modifiers: [damage]
+
+DRAGON_SCALES:
+    mythicmobs-skill-id: Rebirth_Dragon_Scales
     passive-type: DAMAGED
-    modifiers:
-    - damage
-    
-DRAGON_ZONE:
-    mythicmobs-skill-id: Dragon_Zone
-    modifiers:
-    - duration
-    
-DRAGON_BREATH:
-    mythicmobs-skill-id: Dragon_Breath
-    modifiers:
-    - damage
-    
-DRAGONBORN:
-    mythicmobs-skill-id: Dragonborn
-    modifiers:
-    - damage
+    modifiers: [duration]
+
+DRAGON_ROAR:
+    mythicmobs-skill-id: Rebirth_Dragon_Roar
+    modifiers: [damage, duration]

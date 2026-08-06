@@ -3,12 +3,12 @@ display:
     lore:
     - '&7Class tiến hóa của Cung Thủ, kết hợp'
     - '&7vũ khí tầm xa với công nghệ Arcane.'
-    - '&7Sử dụng pháo, lửa và lá chắn ma pháp.'
+    - '&7Sử dụng đạn xuyên, kích nổ và lá chắn ma pháp.'
     attribute-lore:
     - '&a+ &7Sát thương tầm xa và diện rộng'
-    - '&a+ &7Khả năng triệu hồi pháo tự động'
-    - '&a+ &7Lá chắn hồi phục theo thời gian'
-    item: STONE_SWORD:2062
+    - '&a+ &7Đòn đánh tích điện và phát nổ'
+    - '&a+ &7Lá chắn cơ giới chủ động'
+    item: CROSSBOW
 
 exp-curve: levels
 max-level: 100
@@ -74,17 +74,17 @@ skills:
         level: 1
         max-level: 30
 
-    # 4 skill mới của RPG Class Series | Artificer.
-    ARCANE_BLAST:
+    # Bộ skill chuyển sinh nhẹ, không dùng model hoặc mob triệu hồi.
+    ARCANE_ROUND:
         level: 1
         max-level: 30
-    FLAMETHROWER:
+    DETONATION_SHOT:
         level: 1
         max-level: 30
-    ARCANE_TURRET:
+    MECHANICAL_BARRIER:
         level: 1
         max-level: 30
-    MAGICAL_TINKERING:
+    OVERCHARGE:
         level: 1
         max-level: 30
         needs-bound: true

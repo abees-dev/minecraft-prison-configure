@@ -1,0 +1,14 @@
+name: Long Trảm
+lore:
+- '&7Chém một vòng cung Long Hỏa trước mặt,'
+- '&7gây sát thương và thiêu đốt kẻ địch.'
+- ''
+- '&c⚔ {damage} sát thương'
+- '&6✹ Thiêu đốt {burn-duration}s'
+- '&e⌛ {cooldown}s hồi chiêu'
+- '&4♦ Tiêu hao {mana} Cuồng Nộ'
+material: BLAZE_POWDER
+damage: { base: 7, per-level: 0.45, min: 7, max: 20.05 }
+burn-duration: { base: 2, per-level: 0.05, min: 2, max: 3.45 }
+mana: { base: 10, per-level: 0.2, min: 10, max: 15.8 }
+cooldown: { base: 6, per-level: -0.05, min: 4.55, max: 6 }

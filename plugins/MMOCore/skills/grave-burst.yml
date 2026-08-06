@@ -1,0 +1,11 @@
+name: Mộ Bạo
+lore:
+- '&7Tử khí tụ lại tại vị trí nhắm tới rồi phát nổ.'
+- '&7Kẻ địch có một giây để thoát khỏi khu vực.'
+- ''
+- '&c⚔ {damage} sát thương diện rộng'
+- '&e⌛ {cooldown}s hồi chiêu'
+material: BONE
+damage: { base: 9, per-level: 0.55, min: 9, max: 24.95 }
+mana: { base: 18, per-level: 0.25, min: 18, max: 25.25 }
+cooldown: { base: 11, per-level: -0.12, min: 7.52, max: 11 }

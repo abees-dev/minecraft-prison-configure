@@ -1,0 +1,11 @@
+name: Đạn Arcane
+lore:
+- '&7Bắn một viên đạn ma lực xuyên qua nhiều mục tiêu.'
+- ''
+- '&c⚔ {damage} sát thương'
+- '&e⌛ {cooldown}s hồi chiêu'
+- '&a◆ Tiêu hao {stamina} Thể Lực'
+material: AMETHYST_SHARD
+damage: { base: 6, per-level: 0.4, min: 6, max: 17.6 }
+stamina: { base: 7, per-level: 0.15, min: 7, max: 11.35 }
+cooldown: { base: 5, per-level: -0.05, min: 3.55, max: 5 }

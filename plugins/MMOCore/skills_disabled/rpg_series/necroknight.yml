@@ -1,0 +1,14 @@
+# Disabled: replaced by lightweight prison rebirth skills.
+name: Kỵ Sĩ Tử Linh
+lore:
+- '&7Triệu hồi Kỵ Sĩ Tử Linh cận chiến.'
+- '&7Tồn tại bền bỉ, lao tới và càn quét kẻ địch.'
+- ''
+- '&c⚔ Sát thương: &f{damage}'
+- '&e⌛ Hồi triệu hồi: &f{cooldown}s'
+material: 'COAL:2372'
+damage: { base: 6, per-level: 0.45, min: 6, max: 19.05 }
+timer: { base: 0, per-level: 0, min: 0, max: 0 }
+mana: { base: 25, per-level: 0.3, min: 25, max: 33.7 }
+stamina: { base: 0, per-level: 0, min: 0, max: 0 }
+cooldown: { base: 40, per-level: -0.3, min: 31.3, max: 40 }

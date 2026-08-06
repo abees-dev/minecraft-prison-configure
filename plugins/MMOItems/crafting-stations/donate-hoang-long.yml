@@ -30,7 +30,7 @@ recipes:
         conditions:
         - 'placeholder{placeholder="%playerpoints_points%~>=~270";display="&b270 Point"}'
         on-use:
-        - 'command{format="points take {player} 270";sender=CONSOLE}'
+        - 'command{format="points take %player% 270";sender=CONSOLE}'
 
     non-hoang-long:
         output:
@@ -44,7 +44,7 @@ recipes:
         conditions:
         - 'placeholder{placeholder="%playerpoints_points%~>=~270";display="&b270 Point"}'
         on-use:
-        - 'command{format="points take {player} 270";sender=CONSOLE}'
+        - 'command{format="points take %player% 270";sender=CONSOLE}'
 
     ao-hoang-long:
         output:
@@ -58,7 +58,7 @@ recipes:
         conditions:
         - 'placeholder{placeholder="%playerpoints_points%~>=~270";display="&b270 Point"}'
         on-use:
-        - 'command{format="points take {player} 270";sender=CONSOLE}'
+        - 'command{format="points take %player% 270";sender=CONSOLE}'
 
     quan-hoang-long:
         output:
@@ -72,7 +72,7 @@ recipes:
         conditions:
         - 'placeholder{placeholder="%playerpoints_points%~>=~270";display="&b270 Point"}'
         on-use:
-        - 'command{format="points take {player} 270";sender=CONSOLE}'
+        - 'command{format="points take %player% 270";sender=CONSOLE}'
 
     giay-hoang-long:
         output:
@@ -86,4 +86,4 @@ recipes:
         conditions:
         - 'placeholder{placeholder="%playerpoints_points%~>=~270";display="&b270 Point"}'
         on-use:
-        - 'command{format="points take {player} 270";sender=CONSOLE}'
+        - 'command{format="points take %player% 270";sender=CONSOLE}'

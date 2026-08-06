@@ -1,0 +1,12 @@
+name: Mũi Tên Phát Nổ
+lore:
+- '&7Bắn một mũi tên Arcane phát nổ khi va chạm,'
+- '&7gây sát thương cho các mục tiêu xung quanh.'
+- ''
+- '&c⚔ {damage} sát thương'
+- '&e⌛ {cooldown}s hồi chiêu'
+- '&a◆ Tiêu hao {stamina} Thể Lực'
+material: SPECTRAL_ARROW
+damage: { base: 8, per-level: 0.55, min: 8, max: 23.95 }
+stamina: { base: 12, per-level: 0.2, min: 12, max: 17.8 }
+cooldown: { base: 10, per-level: -0.1, min: 7.1, max: 10 }
