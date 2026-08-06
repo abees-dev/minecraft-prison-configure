@@ -1,5 +1,5 @@
 # Should plugin show debug messages?
-debug-mode: true
+debug-mode: false
 # Should plugin log all SQL queries?
 debug-sql-queries: false
 # Should plugin use mini message for all messages/texts/prefixes ?
@@ -108,8 +108,7 @@ main-command-aliases:
   - xprison
   - prison
 # Plugin prefix, usable via PAPI %xprison_prefix%, can be used across all messages
-prefix:
-  "<dark_gray>[</dark_gray><gradient:#f7b733:#fc4a1a><bold>X-PRISON</bold></gradient><dark_gray>]</dark_gray>
+prefix: "<dark_gray>[</dark_gray><gradient:#f7b733:#fc4a1a><bold>X-PRISON</bold></gradient><dark_gray>]</dark_gray>
   <gray>»</gray> "
 # How often (in minutes) all online player data is saved to the database as a safety checkpoint.
 # Set to 0 to disable the periodic save entirely.
