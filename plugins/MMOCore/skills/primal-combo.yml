@@ -1,0 +1,55 @@
+name: Primal Combo
+lore:
+- "&7&m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+- ""
+- "&bThunder Combo (Thunder Stance): &7Unleash a chain of thunder:"
+- "&fFirst & Second Strike: &7Shoot a thunder strike forward."
+- "&fThird Strike: &7Shoot a constant thunder strike forward, lasting"
+- "&7for 2 seconds."
+- "&fFourth Strike: &7Call down a thunder strike at the location"
+- "&7you're looking at."
+- "&c🗡 {damage} Damage"
+- "&e⌛ {cooldown}s Cooldown"
+- ""
+- "&bLife Combo (Earth Stance): &7Unleash a chain of beams:"
+- "&fFirst & Second Strike: &7Shoot a healing beam forward."
+- "&fThird Strike: &7Shoot a constant healing beam forward, lasting"
+- "&7for 2 seconds."
+- "&fFourth Strike: &7Call down a healing beam strike at the location"
+- "&7you're looking at."
+- "&a❤ {heal} Heal"
+- "&e⌛ {cooldown}s Cooldown"
+- ""
+- "&7&m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+material: 'COAL:2318'
+timer:
+  base: 0
+  per-level: 0
+  min: 0
+  max: 0
+damage:
+  base: 3
+  per-level: 1
+  min: 3
+  max: 5
+heal:
+  base: 3
+  per-level: 1
+  min: 3
+  max: 5
+mana:
+  base: 0
+  per-level: 0
+  min: 0
+  max: 0
+stamina:
+  base: 0
+  per-level: 0
+  min: 0
+  max: 0
+cooldown:
+  base: 0.3
+  per-level: -0.01
+  min: 0.2
+  max: 0.3
+#ATVyoUMzpndSljbIRlS2x2VoVlUycWbWNnWqJ1baR0UG5ESNh2XfZkNFxmVINHMoZkNFVVV

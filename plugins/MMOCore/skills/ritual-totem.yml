@@ -1,0 +1,47 @@
+name: Ritual Totem
+lore:
+- "&7&m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+- ""
+- "&bHunter Totem (Thunder Stance): &7Summon a Hunter Totem that"
+- "&7constantly creates small spiritual wisps that are fired towards enemies."
+- "&c🗡 {damage} Damage"
+- "&e⌛ {cooldown}s Cooldown"
+- ""
+- "&bGuardian Totem (Earth Stance): &7Summon a Guardian Totem that creates a"
+- "&7shielded area where enemies cannot enter. You and allies are healed"
+- "&7inside the area."
+- "&a❤ {heal} Heal"
+- "&e⌛ {cooldown}s Cooldown"
+- ""
+- "&7&m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+material: 'COAL:2319'
+timer:
+  base: 0
+  per-level: 0
+  min: 0
+  max: 0
+damage:
+  base: 3
+  per-level: 1
+  min: 3
+  max: 6
+heal:
+  base: 3
+  per-level: 1
+  min: 3
+  max: 6
+mana:
+  base: 0
+  per-level: 0
+  min: 0
+  max: 0
+stamina:
+  base: 0
+  per-level: 0
+  min: 0
+  max: 0
+cooldown:
+  base: 12
+  per-level: -0.01
+  min: 11
+  max: 12
