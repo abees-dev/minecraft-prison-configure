@@ -25,10 +25,18 @@ clear-all-bonus:
   - type: player-points
     amount: 1
     display: '&#AED6F11 Point'
-  - type: crate
-    crate: daily_crate
+  - type: crate-key
+    key: chia_khoa_trang_suc_free
     amount: 1
-    display: '&dHòm Ngày &7x1'
+    display: '&aChìa Khóa Trang Sức Free &7x1'
+  # Daily progression: one point for class skills and one global point for
+  # the class-oriented skill trees. Both are granted only once per day.
+  - type: command
+    command: 'mmocore admin skill-points give %player% 1'
+    display: '&a+1 Điểm Kỹ Năng'
+  - type: command
+    command: 'mmocore admin skill-tree-points give %player% 1 global'
+    display: '&6+1 Điểm Cây Kỹ Năng'
 
 quests:
   # --- Always included (do not consume random-count) ---
@@ -1131,4 +1139,3 @@ quests:
       amount: 2400
     - type: mmocore-exp
       amount: 70
-

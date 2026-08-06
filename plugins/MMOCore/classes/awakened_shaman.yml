@@ -19,6 +19,10 @@ exp-curve: levels
 max-level: 100
 exp-table: class_exp_table
 
+skill-trees:
+    - 'general'
+    - 'combat'
+
 skill-slots:
     1:
         name: '&aÔ Kỹ Năng I'

@@ -6,7 +6,7 @@
 #   STATION_CRAFT: mmoitems-type + mmoitems-id (DA_NANG_CAP_<RANK> tại refinery).
 #   global: true — mix pool mọi rank (CONSUME_ITEM, …).
 #   PlayerPoints: keep quests + clear-all ≤ 15 points/week total.
-#   Clear-all grants 2 MMOCore ATT points via a console command (once/week).
+#   Clear-all grants 2 MMOCore ATT points and 3 class skill points (once/week).
 
 clear-all-bonus:
   enabled: true
@@ -21,6 +21,9 @@ clear-all-bonus:
   - type: command
     command: 'mmocore admin attribute-points give %player% 2'
     display: '&6+2 Điểm ATT'
+  - type: command
+    command: 'mmocore admin skill-points give %player% 3'
+    display: '&a+3 Điểm Kỹ Năng'
 
 quests:
   # --- Global mix pool (mọi rank) ---

@@ -1,16 +1,17 @@
 id: 'rogue-marksman'
-name: '&4Rogue&Marksman'
+name: '&aCung Thủ & Kỹ Sư'
 type: 'custom'
-item: 'DIAMOND_AXE'
+item: 'BOW'
 lore: 
-- '&6This skill tree is used for Rogue & Marksman class only!'
+- '&7Dành cho Cung Thủ và Kỹ Sư Ma Pháp.'
+- '&7Tập trung tầm xa, chí mạng và cơ động.'
 max-point-spent: 21
 
 nodes:
 
 #### A
   a1:
-    name: 'Additional Experience'
+    name: 'Kinh Nghiệm Bổ Sung'
     coordinates:
       x: -3
       y: 0
@@ -25,11 +26,11 @@ nodes:
           - 'stat{stat="ADDITIONAL_EXPERIENCE";amount=2;type="FLAT"}'
     lores:
       0:
-        - "&eAdditional MMOCore main class experience +%2"
+        - "&eKinh nghiệm class nhận thêm +%2"
       1:
-        - "&eAdditional MMOCore main class experience +%2"
+        - "&eKinh nghiệm class nhận thêm +%2"
   a2:
-    name: 'Additional Experience'
+    name: 'Kinh Nghiệm Bổ Sung'
     coordinates:
       x: -2
       y: 0
@@ -47,11 +48,11 @@ nodes:
           - 'stat{stat="ADDITIONAL_EXPERIENCE";amount=3;type="FLAT"}'
     lores:
       0:
-        - "&eAdditional MMOCore main class experience +%3"
+        - "&eKinh nghiệm class nhận thêm +%3"
       1:
-        - "&eAdditional MMOCore main class experience +%3"
+        - "&eKinh nghiệm class nhận thêm +%3"
   a3:
-    name: 'Additional Experience'
+    name: 'Kinh Nghiệm Bổ Sung'
     coordinates:
       x: -1
       y: 0
@@ -69,14 +70,14 @@ nodes:
           - 'stat{stat="ADDITIONAL_EXPERIENCE";amount=5;type="FLAT"}'
     lores:
       0:
-        - "&eAdditional MMOCore main class experience +%5"
+        - "&eKinh nghiệm class nhận thêm +%5"
       1:
-        - "&eAdditional MMOCore main class experience +%5"
+        - "&eKinh nghiệm class nhận thêm +%5"
 
 ## B
 
   b1:
-    name: 'Arrow Velocity'
+    name: 'Tốc Độ Mũi Tên'
     coordinates:
       x: -1
       y: -1
@@ -98,7 +99,7 @@ nodes:
       1:
         - "&eDetermines how far your weapon can shoot +%10"
   b2:
-    name: 'Arrow Velocity'
+    name: 'Tốc Độ Mũi Tên'
     coordinates:
       x: -1
       y: -2
@@ -120,7 +121,7 @@ nodes:
       1:
         - "&eDetermines how far your weapon can shoot +%15"
   b3:
-    name: 'Arrow Velocity'
+    name: 'Tốc Độ Mũi Tên'
     coordinates:
       x: 0
       y: -2
@@ -145,7 +146,7 @@ nodes:
 ## C
 
   c1:
-    name: 'Life Steal'
+    name: 'Hút Máu'
     coordinates:
       x: 1
       y: -2
@@ -167,7 +168,7 @@ nodes:
       1:
         - "&ePercentage of damage you gain back as health when inflicting weapon damage +%1"
   c2:
-    name: 'Life Steal'
+    name: 'Hút Máu'
     coordinates:
       x: 2
       y: -2
@@ -189,7 +190,7 @@ nodes:
       1:
         - "&ePercentage of damage you gain back as health when inflicting weapon damage +%2"
   c3:
-    name: 'Life Steal'
+    name: 'Hút Máu'
     coordinates:
       x: 3
       y: -2
@@ -214,7 +215,7 @@ nodes:
 ## D
 
   d1:
-    name: 'Knockback Resistance'
+    name: 'Kháng Hất Tung'
     coordinates:
       x: 3
       y: -1
@@ -236,7 +237,7 @@ nodes:
       1:
         - "&eThe chance of you to block the knockback +%5"
   d2:
-    name: 'Knockback Resistance'
+    name: 'Kháng Hất Tung'
     coordinates:
       x: 4
       y: -1
@@ -258,7 +259,7 @@ nodes:
       1:
         - "&eThe chance of you to block the knockback +%5"
   d3:
-    name: 'Knockback Resistance'
+    name: 'Kháng Hất Tung'
     coordinates:
       x: 4
       y: 0
@@ -283,7 +284,7 @@ nodes:
 ## E
 
   e1:
-    name: 'Critical Strike Chance'
+    name: 'Tỷ Lệ Chí Mạng'
     coordinates:
       x: 4
       y: 1
@@ -305,7 +306,7 @@ nodes:
       1:
         - "&eCritical Strikes deal more damage in +%2 chance"
   e2:
-    name: 'Critical Strike Chance'
+    name: 'Tỷ Lệ Chí Mạng'
     coordinates:
       x: 4
       y: 2
@@ -327,7 +328,7 @@ nodes:
       1:
         - "&eCritical Strikes deal more damage in +%3 chance"
   e3:
-    name: 'Critical Strike Chance'
+    name: 'Tỷ Lệ Chí Mạng'
     coordinates:
       x: 3
       y: 2
@@ -352,7 +353,7 @@ nodes:
 ## F
 
   f1:
-    name: 'Movement Speed'
+    name: 'Tốc Độ Di Chuyển'
     coordinates:
       x: 2
       y: 2
@@ -374,7 +375,7 @@ nodes:
       1:
         - "&eMovement Speed increase walk speed. +%2"
   f2:
-    name: 'Movement Speed'
+    name: 'Tốc Độ Di Chuyển'
     coordinates:
       x: 2
       y: 1
@@ -396,7 +397,7 @@ nodes:
       1:
         - "&eMovement Speed increase walk speed. +%2"
   f3:
-    name: 'Movement Speed'
+    name: 'Tốc Độ Di Chuyển'
     coordinates:
       x: 1
       y: 1
@@ -421,7 +422,7 @@ nodes:
 ## G
 
   g1:
-    name: 'Projectile Damage'
+    name: 'Sát Thương Tầm Xa'
     coordinates:
       x: 0
       y: 1
@@ -443,7 +444,7 @@ nodes:
       1:
         - "&eAdditional skill/weapon projectile damage +%2"
   g2:
-    name: 'Projectile Damage'
+    name: 'Sát Thương Tầm Xa'
     coordinates:
       x: 0
       y: 2
@@ -465,7 +466,7 @@ nodes:
       1:
         - "&eAdditional skill/weapon projectile damage +%2"
   g3:
-    name: 'Projectile Damage'
+    name: 'Sát Thương Tầm Xa'
     coordinates:
       x: -1
       y: 2

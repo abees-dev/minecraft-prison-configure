@@ -1,13 +1,14 @@
 id: 'combat'
-name: '&4Combat'
-lore: 
-  - '&6This skill tree is used for combat abilities!'
+name: '&bTu Sĩ & Đại Tế'
+lore:
+  - '&7Dành cho Tu Sĩ và Đại Tế Thức Tỉnh.'
+  - '&7Tập trung hồi phục, mana và khả năng hỗ trợ.'
 type: 'custom'
-item: 'DIAMOND_AXE'
+item: 'GOLDEN_APPLE'
 max-point-spent: 20
 nodes:
   a1:
-    name: 'Cooldown Reduction'
+    name: 'Giảm Hồi Chiêu'
     coordinates:
       x: -3
       y: -2
@@ -22,14 +23,14 @@ nodes:
           - 'stat{stat="COOLDOWN_REDUCTION";amount=5;type="FLAT"}'
     lores:
       0:
-        - "&eReduces item/class skill cooldowns (5%)"
+        - "&eGiảm hồi chiêu kỹ năng và trang bị (5%)"
       1:
-        - "&eReduces item/class skill cooldowns (5%)"
+        - "&eGiảm hồi chiêu kỹ năng và trang bị (5%)"
     
 
 
   a2:
-    name: 'Cooldown Reduction'
+    name: 'Giảm Hồi Chiêu'
     size: 1
     point-consumed: 1
     max-children: 1
@@ -42,12 +43,12 @@ nodes:
       y: -2
     lores:
       0:
-        - "&eReduces item/class skill cooldowns (10%)"
+        - "&eGiảm hồi chiêu kỹ năng và trang bị (10%)"
       1:
-        - "&eReduces item/class skill cooldowns (20%)"
+        - "&eGiảm hồi chiêu kỹ năng và trang bị (20%)"
 
   a3:
-    name: 'Cooldown Reduction'
+    name: 'Giảm Hồi Chiêu'
     size: 1
     point-consumed: 1
     max-children: 1
@@ -60,126 +61,126 @@ nodes:
       y: -2
     lores:
       0:
-        - "&eReduces item/class skill cooldowns (15%)"
+        - "&eGiảm hồi chiêu kỹ năng và trang bị (15%)"
       1:
-        - "&eReduces item/class skill cooldowns (30%)"
+        - "&eGiảm hồi chiêu kỹ năng và trang bị (30%)"
 
 ### B
 
   b1:
-    name: 'Critical Strike Chance'
+    name: 'Sức Mạnh Thánh Thuật'
     size: 1
     point-consumed: 1
     max-children: 1
     experience-table:
       first_table_item:
         triggers:
-          - 'stat{stat="CRITICAL_STRIKE_CHANCE";amount=1;type="FLAT"}'
+          - 'stat{stat="SKILL_DAMAGE";amount=1;type="FLAT"}'
     coordinates:
       x: 0
       y: -2
     lores:
       0:
-        - "&eCritical Strikes deal more damage in % chance"
+        - "&eTăng sát thương kỹ năng"
       1:
-        - "&eCritical Strikes deal more damage in +%1 chance"
+        - "&eTăng sát thương kỹ năng +1"
 
   b2:
-    name: 'Critical Strike Chance'
+    name: 'Sức Mạnh Thánh Thuật'
     size: 1
     point-consumed: 1
     max-children: 1
     experience-table:
       first_table_item:
         triggers:
-          - 'stat{stat="CRITICAL_STRIKE_CHANCE";amount=2;type="FLAT"}'
+          - 'stat{stat="SKILL_DAMAGE";amount=2;type="FLAT"}'
     coordinates:
       x: 0
       y: -1
     lores:
       0:
-        - "&eCritical Strikes deal more damage in % chance"
+        - "&eTăng sát thương kỹ năng"
       1:
-        - "&eCritical Strikes deal more damage in +%3 chance"
+        - "&eTăng sát thương kỹ năng +2"
 
   b3:
-    name: 'Critical Strike Chance'
+    name: 'Sức Mạnh Thánh Thuật'
     size: 1
     point-consumed: 1
     max-children: 2
     experience-table:
       first_table_item:
         triggers:
-          - 'stat{stat="CRITICAL_STRIKE_CHANCE";amount=3;type="FLAT"}'
+          - 'stat{stat="SKILL_DAMAGE";amount=3;type="FLAT"}'
     coordinates:
       x: 0
       y: 0
     lores:
       0:
-        - "&eCritical Strikes deal more damage in % chance"
+        - "&eTăng sát thương kỹ năng"
       1:
-        - "&eCritical Strikes deal more damage in +%5 chance"
+        - "&eTăng sát thương kỹ năng +3"
 
 ## C
 
   c1:
-    name: 'Life Steal'
+    name: 'Hút Máu Phép'
     size: 1
     point-consumed: 1
     max-children: 1
     experience-table:
       first_table_item:
         triggers:
-          - 'stat{stat="LIFESTEAL";amount=1;type="FLAT"}'
+          - 'stat{stat="SPELL_VAMPIRISM";amount=1;type="FLAT"}'
     coordinates:
       x: -1
       y: 0
     lores:
       0:
-        - "&ePercentage of damage you gain back as health when inflicting weapon damage +%1"
+        - "&eHồi máu theo sát thương phép gây ra +%1"
       1:
-        - "&ePercentage of damage you gain back as health when inflicting weapon damage +%1"
+        - "&eHồi máu theo sát thương phép gây ra +%1"
 
   c2:
-    name: 'Life Steal'
+    name: 'Hút Máu Phép'
     size: 1
     point-consumed: 1
     max-children: 1
     experience-table:
       first_table_item:
         triggers:
-          - 'stat{stat="LIFESTEAL";amount=2;type="FLAT"}'
+          - 'stat{stat="SPELL_VAMPIRISM";amount=2;type="FLAT"}'
     coordinates:
       x: -2
       y: 0
     lores:
       0:
-        - "&ePercentage of damage you gain back as health when inflicting weapon damage +%2"
+        - "&eHồi máu theo sát thương phép gây ra +%2"
       1:
-        - "&ePercentage of damage you gain back as health when inflicting weapon damage +%2"
+        - "&eHồi máu theo sát thương phép gây ra +%2"
 
   c3:
-    name: 'Life Steal'
+    name: 'Hút Máu Phép'
     size: 1
     point-consumed: 1
     max-children: 1
     experience-table:
       first_table_item:
         triggers:
-          - 'stat{stat="LIFESTEAL";amount=3;type="FLAT"}'
+          - 'stat{stat="SPELL_VAMPIRISM";amount=3;type="FLAT"}'
     coordinates:
       x: -3
       y: 0
     lores:
       0:
-        - "&ePercentage of damage you gain back as health when inflicting weapon damage +%3"
+        - "&eHồi máu theo sát thương phép gây ra +%3"
       1:
-        - "&ePercentage of damage you gain back as health when inflicting weapon damage +%3"
+        - "&eHồi máu theo sát thương phép gây ra +%3"
 
 ## D
 
   d1:
-    name: 'Damage Reduction'
+    name: 'Giảm Sát Thương'
     size: 1
     point-consumed: 1
     max-children: 1
@@ -192,12 +193,12 @@ nodes:
       y: 1
     lores:
       0:
-        - "&eReduces damage from any source in +%1"
+        - "&eGiảm sát thương nhận từ mọi nguồn +%1"
       1:
-        - "&eReduces damage from any source in +%1"
+        - "&eGiảm sát thương nhận từ mọi nguồn +%1"
 
   d2:
-    name: 'Damage Reduction'
+    name: 'Giảm Sát Thương'
     size: 1
     point-consumed: 1
     max-children: 2
@@ -210,12 +211,12 @@ nodes:
       y: 2
     lores:
       0:
-        - "&eReduces damage from any source in +%2"
+        - "&eGiảm sát thương nhận từ mọi nguồn +%2"
       1:
-        - "&eReduces damage from any source in +%2"
+        - "&eGiảm sát thương nhận từ mọi nguồn +%2"
 
   d3:
-    name: 'Damage Reduction'
+    name: 'Giảm Sát Thương'
     size: 1
     point-consumed: 1
     max-children: 1
@@ -228,14 +229,14 @@ nodes:
       y: 2
     lores:
       0:
-        - "&eReduces damage from any source in +%2"
+        - "&eGiảm sát thương nhận từ mọi nguồn +%2"
       1:
-        - "&eReduces damage from any source in +%2"
+        - "&eGiảm sát thương nhận từ mọi nguồn +%2"
 
 ## E
 
   e1:
-    name: 'Health Regeneration'
+    name: 'Hồi Phục Sinh Lực'
     size: 1
     point-consumed: 1
     max-children: 1
@@ -248,12 +249,12 @@ nodes:
       y: 2
     lores:
       0:
-        - "&eHealth regen in pts/sec +1"
+        - "&eHồi máu mỗi giây +1"
       1:
-        - "&eHealth regen in pts/sec +1"
+        - "&eHồi máu mỗi giây +1"
 
   e2:
-    name: 'Health Regeneration'
+    name: 'Hồi Phục Sinh Lực'
     size: 1
     point-consumed: 1
     max-children: 1
@@ -266,12 +267,12 @@ nodes:
       y: 2
     lores:
       0:
-        - "&eHealth regen in pts/sec +2"
+        - "&eHồi máu mỗi giây +2"
       1:
-        - "&eHealth regen in pts/sec +2"
+        - "&eHồi máu mỗi giây +2"
 
   e3:
-    name: 'Health Regeneration'
+    name: 'Hồi Phục Sinh Lực'
     size: 1
     point-consumed: 1
     max-children: 1
@@ -284,14 +285,14 @@ nodes:
       y: 1
     lores:
       0:
-        - "&eHealth regen in pts/sec +2"
+        - "&eHồi máu mỗi giây +2"
       1:
-        - "&eHealth regen in pts/sec +2"
+        - "&eHồi máu mỗi giây +2"
 
 ## F
 
   f1:
-    name: 'Mana Regeneration'
+    name: 'Hồi Phục Mana'
     size: 1
     point-consumed: 1
     max-children: 1
@@ -304,12 +305,12 @@ nodes:
       y: 2
     lores:
       0:
-        - "&eMana regen in pts/sec +1"
+        - "&eHồi mana mỗi giây +1"
       1:
-        - "&eMana regen in pts/sec +1"
+        - "&eHồi mana mỗi giây +1"
 
   f2:
-    name: 'Mana Regeneration'
+    name: 'Hồi Phục Mana'
     size: 1
     point-consumed: 1
     max-children: 1
@@ -322,12 +323,12 @@ nodes:
       y: 2
     lores:
       0:
-        - "&eMana regen in pts/sec +2"
+        - "&eHồi mana mỗi giây +2"
       1:
-        - "&eMana regen in pts/sec +2"
+        - "&eHồi mana mỗi giây +2"
 
   f3:
-    name: 'Mana Regeneration'
+    name: 'Hồi Phục Mana'
     size: 1
     point-consumed: 1
     max-children: 1
@@ -340,14 +341,14 @@ nodes:
       y: 2
     lores:
       0:
-        - "&eMana regen in pts/sec +2"
+        - "&eHồi mana mỗi giây +2"
       1:
-        - "&eMana regen in pts/sec +2"
+        - "&eHồi mana mỗi giây +2"
 
 ## G
 
   g1:
-    name: 'Magic Damage'
+    name: 'Sát Thương Phép'
     size: 1
     point-consumed: 1
     max-children: 1
@@ -360,12 +361,12 @@ nodes:
       y: 1
     lores:
       0:
-        - "&eAdditional magic skill damage in +%1"
+        - "&eTăng sát thương phép +%1"
       1:
-        - "&eAdditional magic skill damage in +%1"
+        - "&eTăng sát thương phép +%1"
 
   g2:
-    name: 'Magic Damage'
+    name: 'Sát Thương Phép'
     size: 1
     point-consumed: 1
     max-children: 1
@@ -378,12 +379,12 @@ nodes:
       y: 1
     lores:
       0:
-        - "&eAdditional magic skill damage in +%2"
+        - "&eTăng sát thương phép +%2"
       1:
-        - "&eAdditional magic skill damage in +%2"
+        - "&eTăng sát thương phép +%2"
 
   g3:
-    name: 'Magic Damage'
+    name: 'Sát Thương Phép'
     size: 1
     point-consumed: 1
     max-children: 1
@@ -396,14 +397,14 @@ nodes:
       y: 0
     lores:
       0:
-        - "&eAdditional magic skill damage in +%2"
+        - "&eTăng sát thương phép +%2"
       1:
-        - "&eAdditional magic skill damage in +%2"
+        - "&eTăng sát thương phép +%2"
 
 ## H
 
   h1:
-    name: 'Max Health'
+    name: 'Sinh Lực Tối Đa'
     size: 1
     point-consumed: 1
     max-children: 1
@@ -416,12 +417,12 @@ nodes:
       y: -1
     lores:
       0:
-        - "&eAdditional amount of health in +%2"
+        - "&eTăng sinh lực tối đa +%2"
       1:
-        - "&eAdditional amount of health in +%2"
+        - "&eTăng sinh lực tối đa +%2"
 
   h2:
-    name: 'Max Health'
+    name: 'Sinh Lực Tối Đa'
     size: 1
     point-consumed: 1
     max-children: 1
@@ -434,12 +435,12 @@ nodes:
       y: -2
     lores:
       0:
-        - "&eAdditional amount of health in +%4"
+        - "&eTăng sinh lực tối đa +%4"
       1:
-        - "&eAdditional amount of health in +%4"
+        - "&eTăng sinh lực tối đa +%4"
 
   h3:
-    name: 'Max Health'
+    name: 'Sinh Lực Tối Đa'
     size: 1
     point-consumed: 1
     max-children: 1
@@ -452,65 +453,65 @@ nodes:
       y: -2
     lores:
       0:
-        - "&eAdditional amount of health in +%4"
+        - "&eTăng sinh lực tối đa +%4"
       1:
-        - "&eAdditional amount of health in +%4"
+        - "&eTăng sinh lực tối đa +%4"
 
 ## J
 
   j1:
-    name: 'Weapon Damage'
+    name: 'Sát Thương Kỹ Năng'
     size: 1
     point-consumed: 1
     max-children: 1
     experience-table:
       first_table_item:
         triggers:
-          - 'stat{stat="WEAPON_DAMAGE";amount=2;type="FLAT"}'
+          - 'stat{stat="SKILL_DAMAGE";amount=2;type="FLAT"}'
     coordinates:
       x: 2
       y: -2
     lores:
       0:
-        - "&eAdditional on-hit weapon damage in +%2."
+        - "&eTăng sát thương kỹ năng +%2."
       1:
-        - "&eAdditional on-hit weapon damage in +%2."
+        - "&eTăng sát thương kỹ năng +%2."
 
   j2:
-    name: 'Weapon Damage'
+    name: 'Sát Thương Kỹ Năng'
     size: 1
     point-consumed: 1
     max-children: 1
     experience-table:
       first_table_item:
         triggers:
-          - 'stat{stat="WEAPON_DAMAGE";amount=4;type="FLAT"}'
+          - 'stat{stat="SKILL_DAMAGE";amount=4;type="FLAT"}'
     coordinates:
       x: 2
       y: -1
     lores:
       0:
-        - "&eAdditional on-hit weapon damage in +%4"
+        - "&eTăng sát thương kỹ năng +%4"
       1:
-        - "&eAdditional on-hit weapon damage in +%4"
+        - "&eTăng sát thương kỹ năng +%4"
 
   j3:
-    name: 'Weapon Damage'
+    name: 'Sát Thương Kỹ Năng'
     size: 1
     point-consumed: 1
     max-children: 1
     experience-table:
       first_table_item:
         triggers:
-          - 'stat{stat="WEAPON_DAMAGE";amount=4;type="FLAT"}'
+          - 'stat{stat="SKILL_DAMAGE";amount=4;type="FLAT"}'
     coordinates:
       x: 2
       y: 0
     lores:
       0:
-        - "&eAdditional on-hit weapon damage in +%4"
+        - "&eTăng sát thương kỹ năng +%4"
       1:
-        - "&eAdditional on-hit weapon damage in +%4"
+        - "&eTăng sát thương kỹ năng +%4"
 
 
 paths:

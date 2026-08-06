@@ -1,16 +1,17 @@
 id: 'mage-arcane-mage'
-name: '&4Mage'
+name: '&9Pháp Sư & Tử Linh'
 type: 'custom'
-item: 'DIAMOND_AXE'
+item: 'BLAZE_ROD'
 lore: 
-- '&6This skill tree is used for Mage & Arcane Mage class only!'
+- '&7Dành cho Pháp Sư và Tử Linh Pháp Sư.'
+- '&7Tập trung phép thuật, mana và hút máu phép.'
 max-point-spent: 21
 
 nodes:
 
 #### A
   a1:
-    name: 'Mana Regeneration'
+    name: 'Hồi Phục Mana'
     coordinates:
       x: 1
       y: -2
@@ -25,11 +26,11 @@ nodes:
           - 'stat{stat="MANA_REGENERATION";amount=1;type="FLAT"}'
     lores:
       0:
-        - "&eMana regen in pts/sec +1"
+        - "&eHồi mana mỗi giây +1"
       1:
-        - "&eMana regen in pts/sec +1"
+        - "&eHồi mana mỗi giây +1"
   a2:
-    name: 'Mana Regeneration'
+    name: 'Hồi Phục Mana'
     coordinates:
       x: 0
       y: -2
@@ -47,11 +48,11 @@ nodes:
           - 'stat{stat="MANA_REGENERATION";amount=2;type="FLAT"}'
     lores:
       0:
-        - "&eMana regen in pts/sec +2"
+        - "&eHồi mana mỗi giây +2"
       1:
-        - "&eMana regen in pts/sec +2"
+        - "&eHồi mana mỗi giây +2"
   a3:
-    name: 'Mana Regeneration'
+    name: 'Hồi Phục Mana'
     coordinates:
       x: -1
       y: -2
@@ -69,14 +70,14 @@ nodes:
           - 'stat{stat="MANA_REGENERATION";amount=2;type="FLAT"}'
     lores:
       0:
-        - "&eMana regen in pts/sec +2"
+        - "&eHồi mana mỗi giây +2"
       1:
-        - "&eMana regen in pts/sec +2"
+        - "&eHồi mana mỗi giây +2"
 
 ## B
 
   b1:
-    name: 'Skill Damage'
+    name: 'Sát Thương Kỹ Năng'
     coordinates:
       x: -2
       y: -1
@@ -98,7 +99,7 @@ nodes:
       1:
         - "&eAdditional ability damage in +%5"
   b2:
-    name: 'Skill Damage'
+    name: 'Sát Thương Kỹ Năng'
     coordinates:
       x: -3
       y: 0
@@ -120,7 +121,7 @@ nodes:
       1:
         - "&eAdditional ability damage in +%5"
   b3:
-    name: 'Skill Damage'
+    name: 'Sát Thương Kỹ Năng'
     coordinates:
       x: -2
       y: 1
@@ -145,7 +146,7 @@ nodes:
 ## C
 
   c1:
-    name: 'Spell Vampirism'
+    name: 'Hút Máu Phép'
     coordinates:
       x: -2
       y: 2
@@ -167,7 +168,7 @@ nodes:
       1:
         - "&ePercentage of damage you gain back as health when inflicting skill damage +%2"
   c2:
-    name: 'Spell Vampirism'
+    name: 'Hút Máu Phép'
     coordinates:
       x: -1
       y: 2
@@ -189,7 +190,7 @@ nodes:
       1:
         - "&ePercentage of damage you gain back as health when inflicting skill damage +%2"
   c3:
-    name: 'Spell Vampirism'
+    name: 'Hút Máu Phép'
     coordinates:
       x: 0
       y: 2
@@ -214,7 +215,7 @@ nodes:
 ## D
 
   d1:
-    name: 'Additional Experience'
+    name: 'Kinh Nghiệm Bổ Sung'
     coordinates:
       x: 0
       y: 1
@@ -232,11 +233,11 @@ nodes:
           - 'stat{stat="ADDITIONAL_EXPERIENCE";amount=2;type="FLAT"}'
     lores:
       0:
-        - "&eAdditional MMOCore main class experience +%2"
+        - "&eKinh nghiệm class nhận thêm +%2"
       1:
-        - "&eAdditional MMOCore main class experience +%2"
+        - "&eKinh nghiệm class nhận thêm +%2"
   d2:
-    name: 'Additional Experience'
+    name: 'Kinh Nghiệm Bổ Sung'
     coordinates:
       x: 0
       y: 0
@@ -254,11 +255,11 @@ nodes:
           - 'stat{stat="ADDITIONAL_EXPERIENCE";amount=3;type="FLAT"}'
     lores:
       0:
-        - "&eAdditional MMOCore main class experience +%3"
+        - "&eKinh nghiệm class nhận thêm +%3"
       1:
-        - "&eAdditional MMOCore main class experience +%3"
+        - "&eKinh nghiệm class nhận thêm +%3"
   d3:
-    name: 'Additional Experience'
+    name: 'Kinh Nghiệm Bổ Sung'
     coordinates:
       x: 1
       y: 0
@@ -276,14 +277,14 @@ nodes:
           - 'stat{stat="ADDITIONAL_EXPERIENCE";amount=5;type="FLAT"}'
     lores:
       0:
-        - "&eAdditional MMOCore main class experience +%5"
+        - "&eKinh nghiệm class nhận thêm +%5"
       1:
-        - "&eAdditional MMOCore main class experience +%5"
+        - "&eKinh nghiệm class nhận thêm +%5"
 
 ## E
 
   e1:
-    name: 'Magic Damage Reduction'
+    name: 'Kháng Sát Thương Phép'
     coordinates:
       x: 2
       y: 0
@@ -305,7 +306,7 @@ nodes:
       1:
         - "&eReduce magic damage dealt by potions %5"
   e2:
-    name: 'Magic Damage Reduction'
+    name: 'Kháng Sát Thương Phép'
     coordinates:
       x: 2
       y: 1
@@ -327,7 +328,7 @@ nodes:
       1:
         - "&eReduce magic damage dealt by potions %5"
   e3:
-    name: 'Magic Damage Reduction'
+    name: 'Kháng Sát Thương Phép'
     coordinates:
       x: 2
       y: 2
@@ -352,7 +353,7 @@ nodes:
 ## F
 
   f1:
-    name: 'Skill Critical Strike Chance'
+    name: 'Chí Mạng Kỹ Năng'
     coordinates:
       x: 3
       y: 2
@@ -374,7 +375,7 @@ nodes:
       1:
         - "&eIncreases the chance of dealing skill crits +%5"
   f2:
-    name: 'Skill Critical Strike Chance'
+    name: 'Chí Mạng Kỹ Năng'
     coordinates:
       x: 4
       y: 2
@@ -396,7 +397,7 @@ nodes:
       1:
         - "&eIncreases the chance of dealing skill crits +%10"
   f3:
-    name: 'Skill Critical Strike Chance'
+    name: 'Chí Mạng Kỹ Năng'
     coordinates:
       x: 4
       y: 1
@@ -421,7 +422,7 @@ nodes:
 ## G
 
   g1:
-    name: 'Magic Damage'
+    name: 'Sát Thương Phép'
     coordinates:
       x: 4
       y: 0
@@ -443,7 +444,7 @@ nodes:
       1:
         - "&eAdditional magic skill damage in +%1"
   g2:
-    name: 'Magic Damage'
+    name: 'Sát Thương Phép'
     coordinates:
       x: 4
       y: -1
@@ -465,7 +466,7 @@ nodes:
       1:
         - "&eAdditional magic skill damage in +%2"
   g3:
-    name: 'Magic Damage'
+    name: 'Sát Thương Phép'
     coordinates:
       x: 4
       y: -2

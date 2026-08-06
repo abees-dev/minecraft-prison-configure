@@ -1,16 +1,17 @@
 id: 'general'
-name: '&4General'
+name: '&eNền Tảng Chung'
 type: 'custom'
-item: 'DIAMOND_AXE'
+item: 'NETHER_STAR'
 lore: 
-- '&6This skill tree is used for combat abilities!'
+- '&7Cây kỹ năng nền tảng dành cho mọi class.'
+- '&7Cân bằng sinh tồn, hồi phục và sát thương.'
 max-point-spent: 11
 
 nodes:
 
 #### A
   a1:
-    name: 'Mana Regeneration'
+    name: 'Hồi Phục Mana'
     coordinates:
       x: -3
       y: -2
@@ -25,11 +26,11 @@ nodes:
           - 'stat{stat="MANA_REGENERATION";amount=1;type="FLAT"}'
     lores:
       0:
-        - "&eMana regen in pts/sec +1"
+        - "&eHồi mana mỗi giây +1"
       1:
-        - "&eMana regen in pts/sec +1"
+        - "&eHồi mana mỗi giây +1"
   a2:
-    name: 'Mana Regeneration'
+    name: 'Hồi Phục Mana'
     coordinates:
       x: -2
       y: -2
@@ -47,11 +48,11 @@ nodes:
           - 'stat{stat="MANA_REGENERATION";amount=2;type="FLAT"}'
     lores:
       0:
-        - "&eMana regen in pts/sec +2"
+        - "&eHồi mana mỗi giây +2"
       1:
-        - "&eMana regen in pts/sec +2"
+        - "&eHồi mana mỗi giây +2"
   a3:
-    name: 'Mana Regeneration'
+    name: 'Hồi Phục Mana'
     coordinates:
       x: -1
       y: -1
@@ -69,13 +70,13 @@ nodes:
           - 'stat{stat="MANA_REGENERATION";amount=2;type="FLAT"}'
     lores:
       0:
-        - "&eMana regen in pts/sec +2"
+        - "&eHồi mana mỗi giây +2"
       1:
-        - "&eMana regen in pts/sec +2"
+        - "&eHồi mana mỗi giây +2"
         
 #### B
   b1:
-    name: 'Health Regeneration'
+    name: 'Hồi Phục Sinh Lực'
     coordinates:
       x: -3
       y: -0
@@ -90,12 +91,12 @@ nodes:
           - 'stat{stat="HEALTH_REGENERATION";amount=1;type="FLAT"}'
     lores:
       0:
-        - "&eHealth regen in pts/sec +1"
+        - "&eHồi máu mỗi giây +1"
       1:
-        - "&eHealth regen in pts/sec +1"
+        - "&eHồi máu mỗi giây +1"
 
   b2:
-    name: 'Health Regeneration'
+    name: 'Hồi Phục Sinh Lực'
     coordinates:
       x: -2
       y: -0
@@ -113,12 +114,12 @@ nodes:
           - 'stat{stat="HEALTH_REGENERATION";amount=2;type="FLAT"}'
     lores:
       0:
-        - "&eHealth regen in pts/sec +2"
+        - "&eHồi máu mỗi giây +2"
       1:
-        - "&eHealth regen in pts/sec +2"
+        - "&eHồi máu mỗi giây +2"
 
   b3:
-    name: 'Health Regeneration'
+    name: 'Hồi Phục Sinh Lực'
     coordinates:
       x: -1
       y: -0
@@ -136,13 +137,13 @@ nodes:
           - 'stat{stat="HEALTH_REGENERATION";amount=2;type="FLAT"}'
     lores:
       0:
-        - "&eHealth regen in pts/sec +2"
+        - "&eHồi máu mỗi giây +2"
       1:
-        - "&eHealth regen in pts/sec +2"
+        - "&eHồi máu mỗi giây +2"
 
 #### C
   c1:
-    name: 'Cooldown Reduction'
+    name: 'Giảm Hồi Chiêu'
     coordinates:
       x: -3
       y: 2
@@ -162,7 +163,7 @@ nodes:
         - "&eReduces cooldowns of item and player skills (5%)"
 
   c2:
-    name: 'Cooldown Reduction'
+    name: 'Giảm Hồi Chiêu'
     coordinates:
       x: -2
       y: 2
@@ -185,7 +186,7 @@ nodes:
         - "&eReduces cooldowns of item and player skills (10%)"
 
   c3:
-    name: 'Cooldown Reduction'
+    name: 'Giảm Hồi Chiêu'
     coordinates:
       x: -1
       y: 1
@@ -209,7 +210,7 @@ nodes:
 
 #### D
   d1:
-    name: 'Critical Strike Chance'
+    name: 'Tỷ Lệ Chí Mạng'
     coordinates:
       x: 0
       y: 0
@@ -234,7 +235,7 @@ nodes:
         - "&eCritical Strikes deal more damage in +%2 chance"
 
   d2:
-    name: 'Critical Strike Chance'
+    name: 'Tỷ Lệ Chí Mạng'
     coordinates:
       x: 1
       y: 0
@@ -257,7 +258,7 @@ nodes:
         - "&eCritical Strikes deal more damage in +%3 chance"
 
   d3:
-    name: 'Critical Strike Chance'
+    name: 'Tỷ Lệ Chí Mạng'
     coordinates:
       x: 2
       y: 0
@@ -282,7 +283,7 @@ nodes:
 
 #### E
   e1:
-    name: 'Damage Reduction'
+    name: 'Giảm Sát Thương'
     coordinates:
       x: 2
       y: 1
@@ -305,7 +306,7 @@ nodes:
         - "&eReduces damage from any source in +%1."
 
   e2:
-    name: 'Damage Reduction'
+    name: 'Giảm Sát Thương'
     coordinates:
       x: 2
       y: 2
@@ -328,7 +329,7 @@ nodes:
         - "&eReduces damage from any source in +%2."
 
   e3:
-    name: 'Damage Reduction'
+    name: 'Giảm Sát Thương'
     coordinates:
       x: 3
       y: 2
@@ -352,7 +353,7 @@ nodes:
 
 #### F
   f1:
-    name: 'Weapon Damage'
+    name: 'Sát Thương Vũ Khí'
     coordinates:
       x: 2
       y: -1
@@ -375,7 +376,7 @@ nodes:
         - "&eAdditional on-hit weapon damage in +%1."
 
   f2:
-    name: 'Weapon Damage'
+    name: 'Sát Thương Vũ Khí'
     coordinates:
       x: 2
       y: -2
@@ -398,7 +399,7 @@ nodes:
         - "&eAdditional on-hit weapon damage in +%2."
 
   f3:
-    name: 'Weapon Damage'
+    name: 'Sát Thương Vũ Khí'
     coordinates:
       x: 3
       y: -2
@@ -423,7 +424,7 @@ nodes:
 
 ##last line
   g1:
-    name: 'Life Steal'
+    name: 'Hút Máu'
     coordinates:
       x: 4
       y: -1
@@ -446,7 +447,7 @@ nodes:
         - "&ePercentage of damage you gain back as health when inflicting weapon damage +%3"
 
   j1:
-    name: 'Max Health'
+    name: 'Sinh Lực Tối Đa'
     coordinates:
       x: 4
       y: 0
@@ -470,7 +471,7 @@ nodes:
         - "&eAdditional amount of health in +%5"
 
   h1:
-    name: 'Magic Damage'
+    name: 'Sát Thương Phép'
     coordinates:
       x: 4
       y: 1

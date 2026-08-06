@@ -1,16 +1,17 @@
 id: 'warrior-paladin'
-name: '&4Warrior&Paladin'
+name: '&cChiến Binh & Rồng'
 type: 'custom'
-item: 'DIAMOND_AXE'
+item: 'NETHERITE_SWORD'
 lore: 
-- '&6This skill tree is used for Warrior and Paladin class only!'
+- '&7Dành cho Chiến Binh và Chiến Binh Rồng.'
+- '&7Tập trung cận chiến, chống chịu và áp sát.'
 max-point-spent: 21
 
 nodes:
 
 #### A
   a1:
-    name: 'Physical Damage'
+    name: 'Sát Thương Vật Lý'
     coordinates:
       x: -1
       y: 2
@@ -25,11 +26,11 @@ nodes:
           - 'stat{stat="PHYSICAL_DAMAGE";amount=5;type="RELATIVE"}'
     lores:
       0:
-        - "&eIncreases physical damage. +%5"
+        - "&eTăng sát thương vật lý. +%5"
       1:
-        - "&eIncreases physical damage. +%5"
+        - "&eTăng sát thương vật lý. +%5"
   a2:
-    name: 'Physical Damage'
+    name: 'Sát Thương Vật Lý'
     coordinates:
       x: -2
       y: 1
@@ -47,11 +48,11 @@ nodes:
           - 'stat{stat="PHYSICAL_DAMAGE";amount=10;type="RELATIVE"}'
     lores:
       0:
-        - "&eIncreases physical damage. +%10"
+        - "&eTăng sát thương vật lý. +%10"
       1:
-        - "&eIncreases physical damage. +%10"
+        - "&eTăng sát thương vật lý. +%10"
   a3:
-    name: 'Physical Damage'
+    name: 'Sát Thương Vật Lý'
     coordinates:
       x: -3
       y: 0
@@ -69,14 +70,14 @@ nodes:
           - 'stat{stat="PHYSICAL_DAMAGE";amount=15;type="RELATIVE"}'
     lores:
       0:
-        - "&eIncreases physical damage. +%15"
+        - "&eTăng sát thương vật lý. +%15"
       1:
-        - "&eIncreases physical damage. +%15"
+        - "&eTăng sát thương vật lý. +%15"
 
 ## B
 
   b1:
-    name: 'Health Regeneration'
+    name: 'Hồi Phục Sinh Lực'
     coordinates:
       x: -2
       y: -1
@@ -98,7 +99,7 @@ nodes:
       1:
         - "&eIncreases health regeneration by 1%"
   b2:
-    name: 'Health Regeneration'
+    name: 'Hồi Phục Sinh Lực'
     coordinates:
       x: -1
       y: -2
@@ -120,7 +121,7 @@ nodes:
       1:
         - "&eIncreases health regeneration by 1%"
   b3:
-    name: 'Health Regeneration'
+    name: 'Hồi Phục Sinh Lực'
     coordinates:
       x: 0
       y: -2
@@ -145,7 +146,7 @@ nodes:
 ## C
 
   c1:
-    name: 'Physical Damage Reduction'
+    name: 'Kháng Sát Thương Vật Lý'
     coordinates:
       x: 0
       y: -1
@@ -167,7 +168,7 @@ nodes:
       1:
         - "&eReduces physical damage In -%5"
   c2:
-    name: 'Physical Damage Reduction'
+    name: 'Kháng Sát Thương Vật Lý'
     coordinates:
       x: -1
       y: 0
@@ -189,7 +190,7 @@ nodes:
       1:
         - "&eReduces physical damage In -%10"
   c3:
-    name: 'Physical Damage Reduction'
+    name: 'Kháng Sát Thương Vật Lý'
     coordinates:
       x: 0
       y: 1
@@ -214,7 +215,7 @@ nodes:
 ## D
 
   d1:
-    name: 'Parry Rating'
+    name: 'Tỷ Lệ Đỡ Đòn'
     coordinates:
       x: 1
       y: 1
@@ -236,7 +237,7 @@ nodes:
       1:
         - "&eThe chance to parry an attack. Parrying negates the damage and knocks the attacker back +%5"
   d2:
-    name: 'Parry Rating'
+    name: 'Tỷ Lệ Đỡ Đòn'
     coordinates:
       x: 2
       y: 1
@@ -258,7 +259,7 @@ nodes:
       1:
         - "&eThe chance to parry an attack. Parrying negates the damage and knocks the attacker back +%5"
   d3:
-    name: 'Parry Rating'
+    name: 'Tỷ Lệ Đỡ Đòn'
     coordinates:
       x: 2
       y: 2
@@ -283,7 +284,7 @@ nodes:
 ## E
 
   e1:
-    name: 'Knockback Resistance'
+    name: 'Kháng Hất Tung'
     coordinates:
       x: 3
       y: 2
@@ -305,7 +306,7 @@ nodes:
       1:
         - "&eThe chance of you to block the knockback +%5"
   e2:
-    name: 'Knockback Resistance'
+    name: 'Kháng Hất Tung'
     coordinates:
       x: 4
       y: 2
@@ -327,7 +328,7 @@ nodes:
       1:
         - "&eThe chance of you to block the knockback +%5"
   e3:
-    name: 'Knockback Resistance'
+    name: 'Kháng Hất Tung'
     coordinates:
       x: 4
       y: 1
@@ -352,7 +353,7 @@ nodes:
 ## F
 
   f1:
-    name: 'Dodge Rating'
+    name: 'Tỷ Lệ Né Tránh'
     coordinates:
       x: 4
       y: 0
@@ -374,7 +375,7 @@ nodes:
       1:
         - "&eThe change to dodge an attack. Dodging completely negates the attack damage. +%2"
   f2:
-    name: 'Dodge Rating'
+    name: 'Tỷ Lệ Né Tránh'
     coordinates:
       x: 4
       y: -1
@@ -396,7 +397,7 @@ nodes:
       1:
         - "&eThe change to dodge an attack. Dodging completely negates the attack damage. +%3"
   f3:
-    name: 'Dodge Rating'
+    name: 'Tỷ Lệ Né Tránh'
     coordinates:
       x: 4
       y: -2
@@ -421,7 +422,7 @@ nodes:
 ## G
 
   g1:
-    name: 'Weapon Damage'
+    name: 'Sát Thương Vũ Khí'
     coordinates:
       x: 3
       y: -2
@@ -443,7 +444,7 @@ nodes:
       1:
         - "&eAdditional on-hit weapon damage in +%1."
   g2:
-    name: 'Weapon Damage'
+    name: 'Sát Thương Vũ Khí'
     coordinates:
       x: 2
       y: -2
@@ -465,7 +466,7 @@ nodes:
       1:
         - "&eAdditional on-hit weapon damage in +%2."
   g3:
-    name: 'Weapon Damage'
+    name: 'Sát Thương Vũ Khí'
     coordinates:
       x: 2
       y: -1

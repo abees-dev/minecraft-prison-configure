@@ -32,6 +32,11 @@ exp-curve: levels
 max-level: 100
 exp-table: class_exp_table
 
+# Cây chung + cây chuyên biệt; ID cũ được giữ để bảo toàn tiến độ người chơi.
+skill-trees:
+    - 'general'
+    - 'warrior-paladin'
+
 skill-slots:
     1:
         name: "&aSkill Slot I"
