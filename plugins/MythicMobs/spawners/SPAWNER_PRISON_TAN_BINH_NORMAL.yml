@@ -25,4 +25,4 @@ SPAWNER_PRISON_TAN_BINH_NORMAL:
   Conditions: []
   SpawnConditions: []
   CooldownTimer: 1
-  ActiveMobs: 3
+  ActiveMobs: 7
