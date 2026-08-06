@@ -1,13 +1,17 @@
-name: '&c🔥 Cuồng Nộ Huyết Chiến'
+name: '&cCuồng Nộ Huyết Chiến'
 lore:
 - '&7Khi máu xuống thấp dưới 30%,'
 - '&7kích hoạt bản năng sinh tồn giúp tăng'
 - '&7Tốc độ di chuyển và Giáp trong &b{duration}s&7.'
 - ''
-- '&e⌛ Hồi chiêu: &f{cooldown}s'
-- '&4♦ Tiêu hao: &f{mana} {mana_name}'
+- '&eHồi chiêu: &f{cooldown}s'
 material: REDSTONE_TORCH
 mana:
+  base: 0.0
+  per-level: 0.0
+  min: 0.0
+  max: 0.0
+stamina:
   base: 0.0
   per-level: 0.0
   min: 0.0

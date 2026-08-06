@@ -1,11 +1,10 @@
-name: '&3✨ Khế Ước Bất Tử'
+name: '&3Khế Ước Bất Tử'
 lore:
 - '&7Bản năng tà thuật giúp giao kèo với cõi chết:'
 - '&7Khi máu xuống dưới 30%, lập tức hồi &a{heal} máu&7,'
 - '&7tạo &6{shield} lá chắn bảo vệ khỏi cái chết.'
 - ''
-- '&e⌛ Hồi chiêu: &f{cooldown}s'
-- '&3☠ Tiêu hao: &f{mana} {mana_name}'
+- '&eHồi chiêu: &f{cooldown}s'
 material: TOTEM_OF_UNDYING
 passive-type: DAMAGED
 heal:
@@ -19,6 +18,11 @@ shield:
   min: 6.0
   max: 49.5
 mana:
+  base: 0.0
+  per-level: 0.0
+  min: 0.0
+  max: 0.0
+stamina:
   base: 0.0
   per-level: 0.0
   min: 0.0

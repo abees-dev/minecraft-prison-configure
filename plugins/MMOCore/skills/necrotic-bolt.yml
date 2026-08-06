@@ -1,11 +1,11 @@
-name: '&3☠️ U Hồn Tiễn'
+name: '&3U Hồn Tiễn'
 lore:
 - '&7Bắn luồng u hồn tử khí đâm xuyên mục tiêu,'
 - '&7gây &c{damage} &7sát thương phép và làm suy yếu'
 - '&7kẻ địch trong &5{duration}s&7.'
 - ''
-- '&e⌛ Hồi chiêu: &f{cooldown}s'
-- '&3☠ Tiêu hao: &f{mana} {mana_name}'
+- '&eHồi chiêu: &f{cooldown}s'
+- '&9Tiêu hao: &f{mana} Mana'
 material: ECHO_SHARD
 damage:
   base: 12.0
@@ -22,6 +22,11 @@ mana:
   per-level: 0.3
   min: 12.0
   max: 20.7
+stamina:
+  base: 0.0
+  per-level: 0.0
+  min: 0.0
+  max: 0.0
 cooldown:
   base: 6.0
   per-level: -0.1

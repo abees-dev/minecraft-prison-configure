@@ -1,21 +1,25 @@
-name: '&b💥 Pháo Bộc Nổ'
+name: '&bPháo Bộc Nổ'
 lore:
 - '&7Bắn mũi tên Arcane kích nổ dữ dội khi va chạm,'
 - '&7gây &c{damage} &7sát thương diện rộng lên các mục tiêu.'
 - ''
-- '&e⌛ Hồi chiêu: &f{cooldown}s'
-- '&a⚡ Tiêu hao: &f{stamina} Thể Lực'
+- '&eHồi chiêu: &f{cooldown}s'
 material: SPECTRAL_ARROW
 damage:
   base: 14.0
   per-level: 3.5
   min: 14.0
   max: 115.5
+mana:
+  base: 0.0
+  per-level: 0.0
+  min: 0.0
+  max: 0.0
 stamina:
-  base: 12.0
-  per-level: 0.3
-  min: 12.0
-  max: 20.7
+  base: 0.0
+  per-level: 0.0
+  min: 0.0
+  max: 0.0
 cooldown:
   base: 9.0
   per-level: -0.1

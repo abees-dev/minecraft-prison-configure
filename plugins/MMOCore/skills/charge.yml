@@ -1,21 +1,20 @@
-name: '&a⚡ Đột Kích Đao Phong'
+name: '&aĐột Kích Đao Phong'
 lore:
 - '&7Lao nhanh về phía trước chém lướt qua kẻ địch,'
 - '&7gây sát thương và tiếp cận mục tiêu tức thì.'
 - ''
-- '&e⌛ Hồi chiêu: &f{cooldown}s'
-- '&4♦ Tiêu hao: &f{mana} {mana_name}'
+- '&eHồi chiêu: &f{cooldown}s'
 material: FEATHER
 mana:
-  base: 5.0
-  per-level: 0.2
-  min: 5.0
-  max: 10.0
+  base: 0.0
+  per-level: 0.0
+  min: 0.0
+  max: 0.0
 stamina:
-  base: 10.0
-  per-level: 0.5
-  min: 10.0
-  max: 20.0
+  base: 0.0
+  per-level: 0.0
+  min: 0.0
+  max: 0.0
 cooldown:
   base: 6.0
   per-level: -0.1

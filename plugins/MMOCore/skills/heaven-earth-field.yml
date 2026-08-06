@@ -1,11 +1,10 @@
-name: '&a🌀 Thiên Địa Trận'
+name: '&aThiên Địa Trận'
 lore:
 - '&7Triệu hồi Thiên Địa Trận kéo dài &a{duration}s&7:'
 - '&7Hồi phục &a{heal} máu &7cho đồng đội và gây'
 - '&c{damage} &7sát thương Lôi phạt lên kẻ địch.'
 - ''
-- '&e⌛ Hồi chiêu: &f{cooldown}s'
-- '&e✚ Tiêu hao: &f{mana} {mana_name}'
+- '&eHồi chiêu: &f{cooldown}s'
 material: HEART_OF_THE_SEA
 damage:
   base: 4.0
@@ -23,10 +22,15 @@ duration:
   min: 5.0
   max: 7.9
 mana:
-  base: 24.0
-  per-level: 0.4
-  min: 24.0
-  max: 35.6
+  base: 0.0
+  per-level: 0.0
+  min: 0.0
+  max: 0.0
+stamina:
+  base: 0.0
+  per-level: 0.0
+  min: 0.0
+  max: 0.0
 cooldown:
   base: 20.0
   per-level: -0.2

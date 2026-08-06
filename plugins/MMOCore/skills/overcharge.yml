@@ -1,11 +1,9 @@
-name: '&b⚡ Quá Tải Năng Lượng'
+name: '&bQuá Tải Năng Lượng'
 lore:
 - '&7Bản năng tích điện ma pháp:'
 - '&7Mỗi đòn đánh tích 1 tầng năng lượng.'
 - '&7Đạt 5 tầng kích nổ gây &c{damage} &7sát thương'
 - '&7phép diện rộng lên kẻ địch xung quanh.'
-- ''
-- '&a⚡ Tiêu hao: &f{stamina} Thể Lực'
 material: REDSTONE
 passive-type: ATTACK
 damage:
@@ -13,6 +11,11 @@ damage:
   per-level: 3.0
   min: 10.0
   max: 97.0
+mana:
+  base: 0.0
+  per-level: 0.0
+  min: 0.0
+  max: 0.0
 stamina:
   base: 0.0
   per-level: 0.0

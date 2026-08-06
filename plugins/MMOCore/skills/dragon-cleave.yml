@@ -1,11 +1,10 @@
-name: '&c🐉 Long Thiêng Trảm'
+name: '&cLong Thiêng Trảm'
 lore:
 - '&7Vung đao chém một vệt Long Hỏa rực rỡ,'
 - '&7gây &c{damage} &7sát thương và thiêu đốt'
 - '&7kẻ địch trong &6{burn-duration}s&7.'
 - ''
-- '&e⌛ Hồi chiêu: &f{cooldown}s'
-- '&4♦ Tiêu hao: &f{mana} {mana_name}'
+- '&eHồi chiêu: &f{cooldown}s'
 material: BLAZE_POWDER
 damage:
   base: 12.0
@@ -18,10 +17,15 @@ burn-duration:
   min: 2.0
   max: 3.0
 mana:
-  base: 10.0
-  per-level: 0.3
-  min: 10.0
-  max: 20.0
+  base: 0.0
+  per-level: 0.0
+  min: 0.0
+  max: 0.0
+stamina:
+  base: 0.0
+  per-level: 0.0
+  min: 0.0
+  max: 0.0
 cooldown:
   base: 7.0
   per-level: -0.1

@@ -1,11 +1,11 @@
-name: '&c🌋 Bão Lửa Nguyên Tố'
+name: '&cBão Lửa Nguyên Tố'
 lore:
 - '&7Triệu hồi mưa bão lửa rực cháy trút xuống kẻ địch,'
 - '&7gây &c{damage} &7sát thương diện rộng và thiêu đốt'
 - '&7trong &c{ignite} &7giây.'
 - ''
-- '&e⌛ Hồi chiêu: &f{cooldown}s'
-- '&9⭐ Tiêu hao: &f{mana} {mana_name}'
+- '&eHồi chiêu: &f{cooldown}s'
+- '&9Tiêu hao: &f{mana} Mana'
 material: BLAZE_POWDER
 damage:
   base: 6.0
@@ -22,6 +22,11 @@ mana:
   per-level: 1.5
   min: 25.0
   max: 68.5
+stamina:
+  base: 0.0
+  per-level: 0.0
+  min: 0.0
+  max: 0.0
 cooldown:
   base: 14.0
   per-level: -0.2

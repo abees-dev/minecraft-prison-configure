@@ -1,10 +1,9 @@
-name: '&c💥 Bạo Nộ Cuồng Trảm'
+name: '&cBạo Nộ Cuồng Trảm'
 lore:
 - '&7Dồn toàn bộ sức mạnh vào đòn chém cuồng bạo,'
 - '&7gây &c{damage} &7sát thương diện rộng lên kẻ địch.'
 - ''
-- '&e⌛ Hồi chiêu: &f{cooldown}s'
-- '&4♦ Tiêu hao: &f{mana} {mana_name}'
+- '&eHồi chiêu: &f{cooldown}s'
 material: DIAMOND_AXE
 damage:
   base: 10.0
@@ -12,10 +11,15 @@ damage:
   min: 10.0
   max: 100.0
 mana:
-  base: 10.0
-  per-level: 0.3
-  min: 10.0
-  max: 20.0
+  base: 0.0
+  per-level: 0.0
+  min: 0.0
+  max: 0.0
+stamina:
+  base: 0.0
+  per-level: 0.0
+  min: 0.0
+  max: 0.0
 cooldown:
   base: 8.0
   per-level: -0.15

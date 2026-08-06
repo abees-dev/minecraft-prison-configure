@@ -1,11 +1,10 @@
-name: '&a🛡️ Thổ Linh Chắn'
+name: '&aThổ Linh Chắn'
 lore:
 - '&7Dẫn lối sức mạnh Thổ linh hồi &a{heal} máu'
 - '&7và trao &6{shield} lá chắn &7bảo vệ bản thân'
 - '&7cùng đồng đội xung quanh.'
 - ''
-- '&e⌛ Hồi chiêu: &f{cooldown}s'
-- '&e✚ Tiêu hao: &f{mana} {mana_name}'
+- '&eHồi chiêu: &f{cooldown}s'
 material: MOSS_BLOCK
 heal:
   base: 6.0
@@ -23,10 +22,15 @@ duration:
   min: 4.0
   max: 6.9
 mana:
-  base: 16.0
-  per-level: 0.3
-  min: 16.0
-  max: 24.7
+  base: 0.0
+  per-level: 0.0
+  min: 0.0
+  max: 0.0
+stamina:
+  base: 0.0
+  per-level: 0.0
+  min: 0.0
+  max: 0.0
 cooldown:
   base: 14.0
   per-level: -0.15
