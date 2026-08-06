@@ -96,6 +96,12 @@ lp group default permission set plots.plot.1 true
 #   xprison.fly.keep   → chặn enchant Fly của X-Prison thu hồi flight khi cất cuốc
 lp group default permission set essentials.fly true world=world_plot
 lp group default permission set xprison.fly.keep true world=world_plot
+# TPA — /tpa /tpahere /tpaccept /tpdeny /tpacancel
+lp group default permission set essentials.tpa true
+lp group default permission set essentials.tpahere true
+lp group default permission set essentials.tpaccept true
+lp group default permission set essentials.tpdeny true
+lp group default permission set essentials.tpacancel true
 
 # Rank 1: 1 kho, 2 home, kit tân binh
 lp group xprison_rank_1 permission set playervaults.amount.1 true
