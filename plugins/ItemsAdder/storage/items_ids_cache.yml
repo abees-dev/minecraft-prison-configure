@@ -1410,6 +1410,8 @@ STONE_SWORD:
   death_knight:death_knight_necroslayer: 2082
   artificer:artificer_blaster: 2062
   artificer:artificer_blaster_shiny: 2063
+  awakened_necromancer:awakened_necromancer_necrostaff: 2098
+  awakened_shaman:awakened_shaman_lifescepter: 2090
 DIAMOND_SWORD:
   fantasy_weapons:azure_greatsword: 10000
   dark-angel-set:dark-angel-sword: 10001
@@ -2188,6 +2190,20 @@ COAL:
   artificer:icon_engine_glide: 2204
   artificer:icon_flamethrower: 2205
   artificer:icon_magical_tinkering: 2206
+  awakened_necromancer:icon_deathbound_souls: 2371
+  awakened_necromancer:icon_necroknight: 2372
+  awakened_necromancer:icon_necromancers_command: 2373
+  awakened_necromancer:icon_necrotic_combo: 2374
+  awakened_necromancer:icon_skeletal_mage: 2375
+  awakened_necromancer:icon_skeletal_warrior: 2376
+  awakened_necromancer:icon_skull_wisps: 2377
+  awakened_shaman:icon_ancestral_hands: 2315
+  awakened_shaman:icon_earthen_embrace: 2316
+  awakened_shaman:icon_echo_step: 2317
+  awakened_shaman:icon_primal_combo: 2318
+  awakened_shaman:icon_ritual_totem: 2319
+  awakened_shaman:icon_soul_link: 2320
+  awakened_shaman:icon_stance_switch: 2321
 SEA_LANTERN:
   protocalset:protocal_chest: 10000
   protocalset:protocal_chest_opening: 10001
