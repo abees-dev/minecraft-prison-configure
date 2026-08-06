@@ -1,0 +1,16 @@
+name: Linh Hồn Tử Phệ
+lore:
+- '&7Nội tại. Phải trang bị vào ô skill.'
+- '&7Thu thập Linh Hồn từ kẻ địch bị hạ trong'
+- '&7bán kính 30 block, tích trữ tối đa 5 Linh Hồn.'
+- '&7Linh Hồn dùng để triệu hồi tay sai bất tử.'
+material: 'COAL:2371'
+passive-type: TIMER
+timer:
+  base: 10
+  per-level: 0
+  min: 10
+  max: 10
+mana: { base: 0, per-level: 0, min: 0, max: 0 }
+stamina: { base: 0, per-level: 0, min: 0, max: 0 }
+cooldown: { base: 0, per-level: 0, min: 0, max: 0 }

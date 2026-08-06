@@ -52,10 +52,9 @@ cast-particle:
     particle: FLAME
 
 options:
-    # Class tiến hoá, không cho chọn trực tiếp trong /class.
-    # CorePlugin sẽ chuyển Chiến Binh sang class này khi Chuyển Sinh lần 1.
-    display: false
-    needs-permission: false
+    # Chỉ OP/admin có mmocore.class.dragon_warrior mới xem/chọn được.
+    display: true
+    needs-permission: true
 
 attributes:
     attack-damage:

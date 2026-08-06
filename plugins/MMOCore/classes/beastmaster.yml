@@ -39,6 +39,7 @@ cast-particle:
     particle: SPELL_WITCH
 
 options:
+    display: false
     off-combat-mana-regen: true
     off-combat-health-regen: true
     needs-permission: false

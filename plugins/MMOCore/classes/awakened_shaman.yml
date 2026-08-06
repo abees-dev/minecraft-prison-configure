@@ -40,8 +40,9 @@ cast-particle:
     particle: VILLAGER_HAPPY
 
 options:
-    display: false
-    needs-permission: false
+    # Chỉ OP/admin có mmocore.class.awakened_shaman mới xem/chọn được.
+    display: true
+    needs-permission: true
     off-combat-mana-regen: true
 
 attributes:

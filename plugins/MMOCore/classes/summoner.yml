@@ -39,6 +39,7 @@ cast-particle:
     particle: PORTAL
 
 options:
+    display: false
     off-combat-mana-regen: true
     needs-permission: false
 

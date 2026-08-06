@@ -32,9 +32,9 @@ cast-particle:
     particle: SPELL_INSTANT
 
 options:
-    # Class tiến hóa, chỉ nhận qua Chuyển Sinh.
-    display: false
-    needs-permission: false
+    # Chỉ OP/admin có mmocore.class.artificer mới xem/chọn được.
+    display: true
+    needs-permission: true
 
 resource:
     stamina:

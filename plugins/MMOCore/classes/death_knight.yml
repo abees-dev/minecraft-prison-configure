@@ -41,6 +41,7 @@ cast-particle:
     particle: SMOKE_NORMAL
 
 options:
+    display: false
     needs-permission: false
 
 attributes:

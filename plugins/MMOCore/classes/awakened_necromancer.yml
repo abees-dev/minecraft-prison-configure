@@ -40,8 +40,9 @@ cast-particle:
     particle: SOUL
 
 options:
-    display: false
-    needs-permission: false
+    # Chỉ OP/admin có mmocore.class.awakened_necromancer mới xem/chọn được.
+    display: true
+    needs-permission: true
     off-combat-health-regen: true
 
 attributes:
