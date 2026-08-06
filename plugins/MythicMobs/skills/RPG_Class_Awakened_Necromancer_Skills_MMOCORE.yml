@@ -632,13 +632,9 @@ Skeletal_Mage:
   - skill{s=Skeletal_Mage_CAST;damage=<modifier.damage>;burnduration=<modifier.burnduration>;burndamage=<modifier.burndamage>}
 Skeletal_Mage_CAST:
   Conditions:
-  - hasaura{n=NECROMANCER_SOULS} true
   - variableInRange{var=caster.minionsize;value=>9} false
   Skills:
   - aura{auraName=CASTING;duration=10} @self
-
-  - auraremove{aura=NECROMANCER_SOULS;stacks=1} @self
-  - skill{s=DEATHBOUNDSOUL_SOUL_ORBITAL_CLEAR_COOLDOWN} @self
 
   - skill{s=Skeletal_Mage_PRO;origin=@SelfEyeLocation{fo=-0.5;yo=-0.2}} @forward{f=12;uel=true}
 
@@ -757,14 +753,10 @@ Necroknight:
   - skill{s=Necroknight_CAST;damage=<modifier.damage>}
 Necroknight_CAST:
   Conditions:
-  - hasaura{n=NECROMANCER_SOULS} true
   - variableInRange{var=caster.minionsize;value=>9} false
   - variableInRange{var=caster.necroknights;value=>1} false
   Skills:
   - aura{auraName=CASTING;duration=20} @self
-
-  - auraremove{aura=NECROMANCER_SOULS;stacks=1} @self
-  - skill{s=DEATHBOUNDSOUL_SOUL_ORBITAL_CLEAR_COOLDOWN} @self
   
   - skill{s=Necroknight_PRO;origin=@SelfEyeLocation{fo=-0.5;yo=-0.2}} @forward{f=12;uel=true}
 

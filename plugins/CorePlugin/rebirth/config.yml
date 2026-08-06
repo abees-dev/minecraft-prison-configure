@@ -166,10 +166,10 @@ class-evolution:
         - WARP
         - GREATER_HEALINGS
       new-skills:
-        - DEATHBOUND_SOULS
+        - NECROMANCERS_COMMAND
         - NECROTIC_COMBO
-        - SKULL_WISPS
-        - SKELETAL_WARRIOR
+        - SKELETAL_MAGE
+        - NECROKNIGHT
       new-skill-level: 1
       success-message: "&3✔ &fPháp Sư của bạn đã thức tỉnh thành Tử Linh Pháp Sư!"
     cleric:

@@ -29,8 +29,8 @@ SKELETAL_MAGE:
     mythicmobs-skill-id: Skeletal_Mage
     modifiers:
     - damage
-    - duration
-    - heal
+    - burnduration
+    - burndamage
 
 NECROKNIGHT:
     mythicmobs-skill-id: Necroknight

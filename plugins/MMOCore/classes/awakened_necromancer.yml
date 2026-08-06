@@ -2,11 +2,11 @@ display:
     name: '&3Tử Linh Pháp Sư'
     lore:
     - '&7Class thức tỉnh của Pháp Sư, điều khiển'
-    - '&7linh hồn và triệu hồi chiến binh bất tử.'
+    - '&7Tử Khí và triệu hồi chiến binh bất tử.'
     attribute-lore:
     - '&a+ &7Sát thương phép và triệu hồi'
-    - '&a+ &7Thu thập linh hồn từ kẻ địch bị hạ'
-    - '&c- &7Phụ thuộc vào lượng linh hồn dự trữ'
+    - '&a+ &7Triệu hồi tay sai theo hồi chiêu'
+    - '&a+ &7Ra lệnh cho đội quân Tử Linh'
     item: STONE_SWORD:2098
 
 exp-curve: levels
@@ -72,17 +72,17 @@ skills:
     GREATER_HEALINGS: { level: 1, max-level: 30 }
 
     # 4 skill mới của RPG Class Awakened | Necromancer.
-    DEATHBOUND_SOULS:
+    NECROMANCERS_COMMAND:
         level: 1
         max-level: 1
         needs-bound: true
     NECROTIC_COMBO:
         level: 1
         max-level: 30
-    SKULL_WISPS:
+    SKELETAL_MAGE:
         level: 1
         max-level: 30
-    SKELETAL_WARRIOR:
+    NECROKNIGHT:
         level: 1
         max-level: 30
 
