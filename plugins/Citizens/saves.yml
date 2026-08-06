@@ -1340,8 +1340,8 @@ npc:
         x: 2.6785
         y: 80.0
         z: 5.5935
-        yaw: 135.9576
-        pitch: 5.5276
+        yaw: 141.3344
+        pitch: 5.2874
       owner:
         uuid: 57481db9-38f7-3a96-b52d-ff0f7993c232
       lookclose:
@@ -1388,13 +1388,13 @@ npc:
     uuid: bb397f5b-20b3-4a2e-b9bb-8f1edcdafe2a
     traits:
       location:
-        bodyYaw: 128.96803
+        bodyYaw: 89.23427
         world: world
         x: 2.7003
         y: 80.0
         z: -6.4621
-        yaw: 148.968
-        pitch: 5.2498
+        yaw: 100.1165
+        pitch: 5.1752
       owner:
         uuid: 57481db9-38f7-3a96-b52d-ff0f7993c232
       lookclose:

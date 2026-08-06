@@ -102,3 +102,5 @@ Reload nếu cần rồi spawn thử:
 - Named disguise: `plugins/LibsDisguises/configs/disguises.yml` → khóa
   `vampirelordboss`
 - File skin gốc: `plugins/LibsDisguises/Skins/VAMPIRE_LORD_BOSS_SKIN.png`
+- Training dummy: `plugins/MythicMobs/mobs/training_dummy.yml` (`TrainingDummy`)
+  → disguise `trainingdummy`, skin `plugins/LibsDisguises/Skins/training_dummy.png`

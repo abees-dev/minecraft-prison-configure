@@ -1,10 +1,16 @@
 ######## Mob test damage - dùng để thử skill/dame class mới ########
+# Skin: theo docs/admin/mob-skins-disguises.md
+#   1. File: plugins/LibsDisguises/Skins/training_dummy.png
+#   2. Ingame (OP): /savedisguise trainingdummy player <inherit> setskin training_dummy.png setDynamicName
+#   3. Test: /disguise player trainingdummy
+#   4. Reload: /libsdisguises reload  rồi spawn lại mob
 
 TrainingDummy:
   Type: VILLAGER
   Display: "&6&lNPC Test Damage"
   Health: 100000000
   Damage: 0
+  Disguise: trainingdummy
   BossBar:
     Enabled: true
     Title: "&6NPC Test &7| &c❤ <caster.hp{f=0}>&7/&c<caster.mhp{f=0}>"
@@ -14,7 +20,7 @@ TrainingDummy:
   Options:
     MovementSpeed: 0
     AlwaysShowName: true
-    Knockback: false
+    KnockbackResistance: 1
     NoDamageTicks: 0
     PreventItemPickup: true
     PreventOtherDrops: true
@@ -27,7 +33,7 @@ TrainingDummy:
   AITargetSelectors:
     - none
   Skills:
-    - disguise{d="player Steve"} ~onSpawn
+    - velocity{m=set;x=0;y=0;z=0} @self ~onDamaged
     - message{m="&7[&6NPC&7] &fBạn vừa gây &c<trigger.damage.round(2)> &fsát thương!"} ~onDamaged
     - heal{amount=100000000} ~onTimer:5
     - effect:particles{particle=heart;amount=2;hS=0.4;vS=0.2;y=2.2} ~onTimer:5
