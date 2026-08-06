@@ -1,4 +1,4 @@
-enabled: false
+enabled: true
 location: world_dungeon:-194,544:67,000:-9,539
 display-range: 48
 update-range: 48

@@ -349,7 +349,7 @@ AN_TIN_LONG_TOC:
 # ĐÁ CƯỜNG HÓA VŨ KHÍ & GIÁP (MATERIAL)
 # ==========================================================
 DA_CUONG_HOA_VU_KHI_SO_CAP:
-  itemsadder-item: "iadungeon:crystal_of_invasion_70"
+  itemsadder-item: iadungeon:crystal_of_invasion_70
   base:
     lore-format: ingredient-simple
     revision-id: 4
@@ -366,7 +366,7 @@ DA_CUONG_HOA_VU_KHI_SO_CAP:
       - "&7Tỷ lệ giảm khi cấp cường hóa tăng."
 
 DA_CUONG_HOA_VU_KHI_TRUNG_CAP:
-  itemsadder-item: "iadungeon:crystal_of_frost_29"
+  itemsadder-item: iadungeon:crystal_of_frost_29
   base:
     lore-format: ingredient-simple
     revision-id: 4
@@ -383,7 +383,7 @@ DA_CUONG_HOA_VU_KHI_TRUNG_CAP:
       - "&7Tỷ lệ giảm khi cấp cường hóa tăng."
 
 DA_CUONG_HOA_VU_KHI_CAO_CAP:
-  itemsadder-item: "iadungeon:crystal_of_fury_19"
+  itemsadder-item: iadungeon:crystal_of_fury_19
   base:
     lore-format: ingredient-simple
     revision-id: 4
@@ -400,7 +400,7 @@ DA_CUONG_HOA_VU_KHI_CAO_CAP:
       - "&7Tỷ lệ giảm khi cấp cường hóa tăng."
 
 DA_CUONG_HOA_VU_KHI_SIEU_CAP:
-  itemsadder-item: "iadungeon:crystal_of_silence_30"
+  itemsadder-item: iadungeon:crystal_of_silence_30
   base:
     lore-format: ingredient-simple
     revision-id: 4
@@ -417,7 +417,7 @@ DA_CUONG_HOA_VU_KHI_SIEU_CAP:
       - "&7Tỷ lệ giảm khi cấp cường hóa tăng."
 
 DA_CUONG_HOA_VU_KHI_HUYEN_THOAI:
-  itemsadder-item: "iadungeon:crystal_of_contagion_71"
+  itemsadder-item: iadungeon:crystal_of_contagion_71
   base:
     lore-format: ingredient-simple
     revision-id: 4
@@ -434,7 +434,7 @@ DA_CUONG_HOA_VU_KHI_HUYEN_THOAI:
       - "&7Tỷ lệ giảm khi cấp cường hóa tăng."
 
 DA_CUONG_HOA_GIAP_SO_CAP:
-  itemsadder-item: "iadungeon:crystal_of_chaos_66"
+  itemsadder-item: iadungeon:crystal_of_chaos_66
   base:
     lore-format: ingredient-simple
     revision-id: 4
@@ -451,7 +451,7 @@ DA_CUONG_HOA_GIAP_SO_CAP:
       - "&7Tỷ lệ giảm khi cấp cường hóa tăng."
 
 DA_CUONG_HOA_GIAP_TRUNG_CAP:
-  itemsadder-item: "iadungeon:crystal_of_despair_58"
+  itemsadder-item: iadungeon:crystal_of_despair_58
   base:
     lore-format: ingredient-simple
     revision-id: 4
@@ -468,7 +468,7 @@ DA_CUONG_HOA_GIAP_TRUNG_CAP:
       - "&7Tỷ lệ giảm khi cấp cường hóa tăng."
 
 DA_CUONG_HOA_GIAP_CAO_CAP:
-  itemsadder-item: "iadungeon:crystal_of_destruction_69"
+  itemsadder-item: iadungeon:crystal_of_destruction_69
   base:
     lore-format: ingredient-simple
     revision-id: 4
@@ -485,7 +485,7 @@ DA_CUONG_HOA_GIAP_CAO_CAP:
       - "&7Tỷ lệ giảm khi cấp cường hóa tăng."
 
 DA_CUONG_HOA_GIAP_SIEU_CAP:
-  itemsadder-item: "iadungeon:crystal_of_frenzy_67"
+  itemsadder-item: iadungeon:crystal_of_frenzy_67
   base:
     lore-format: ingredient-simple
     revision-id: 4
@@ -502,7 +502,7 @@ DA_CUONG_HOA_GIAP_SIEU_CAP:
       - "&7Tỷ lệ giảm khi cấp cường hóa tăng."
 
 DA_CUONG_HOA_GIAP_HUYEN_THOAI:
-  itemsadder-item: "iadungeon:crystal_of_madness_68"
+  itemsadder-item: iadungeon:crystal_of_madness_68
   base:
     lore-format: ingredient-simple
     revision-id: 4
@@ -519,7 +519,7 @@ DA_CUONG_HOA_GIAP_HUYEN_THOAI:
       - "&7Tỷ lệ giảm khi cấp cường hóa tăng."
 
 DA_CUONG_HOA_TRANG_SUC_SO_CAP:
-  itemsadder-item: "iadungeon:crystal_of_chaos_66"
+  itemsadder-item: iadungeon:crystal_of_chaos_66
   base:
     lore-format: ingredient-simple
     revision-id: 3
@@ -536,7 +536,7 @@ DA_CUONG_HOA_TRANG_SUC_SO_CAP:
       - "&7Tỷ lệ giảm khi cấp cường hóa tăng."
 
 DA_CUONG_HOA_TRANG_SUC_TRUNG_CAP:
-  itemsadder-item: "iadungeon:crystal_of_despair_58"
+  itemsadder-item: iadungeon:crystal_of_despair_58
   base:
     lore-format: ingredient-simple
     revision-id: 3
@@ -553,7 +553,7 @@ DA_CUONG_HOA_TRANG_SUC_TRUNG_CAP:
       - "&7Tỷ lệ giảm khi cấp cường hóa tăng."
 
 DA_CUONG_HOA_TRANG_SUC_CAO_CAP:
-  itemsadder-item: "iadungeon:crystal_of_destruction_69"
+  itemsadder-item: iadungeon:crystal_of_destruction_69
   base:
     lore-format: ingredient-simple
     revision-id: 3
@@ -570,7 +570,7 @@ DA_CUONG_HOA_TRANG_SUC_CAO_CAP:
       - "&7Tỷ lệ giảm khi cấp cường hóa tăng."
 
 DA_CUONG_HOA_TRANG_SUC_SIEU_CAP:
-  itemsadder-item: "iadungeon:crystal_of_frenzy_67"
+  itemsadder-item: iadungeon:crystal_of_frenzy_67
   base:
     lore-format: ingredient-simple
     revision-id: 3
@@ -587,7 +587,7 @@ DA_CUONG_HOA_TRANG_SUC_SIEU_CAP:
       - "&7Tỷ lệ giảm khi cấp cường hóa tăng."
 
 DA_CUONG_HOA_TRANG_SUC_HUYEN_THOAI:
-  itemsadder-item: "iadungeon:crystal_of_madness_68"
+  itemsadder-item: iadungeon:crystal_of_madness_68
   base:
     lore-format: ingredient-simple
     revision-id: 3
@@ -604,7 +604,7 @@ DA_CUONG_HOA_TRANG_SUC_HUYEN_THOAI:
       - "&7Tỷ lệ giảm khi cấp cường hóa tăng."
 
 DA_CUONG_HOA_THIEN_MENH:
-  itemsadder-item: "iadungeon:crystal_of_geomagnetic_storm_88"
+  itemsadder-item: iadungeon:crystal_of_geomagnetic_storm_88
   base:
     lore-format: ingredient-simple
     revision-id: 4
@@ -624,7 +624,7 @@ DA_CUONG_HOA_THIEN_MENH:
 # MŨI KHOAN ĐỤC LỖ TRANG BỊ (DRILLS & SOCKET PUNCH STONES)
 # ==========================================================
 DA_DUC_LO_1:
-  itemsadder-item: "duclo:mdrill_r226"
+  itemsadder-item: duclo:mdrill_r226
   base:
     lore-format: ingredient-simple
     revision-id: 3
@@ -641,7 +641,7 @@ DA_DUC_LO_1:
       - "&7Tỷ lệ: &a100%"
 
 DA_DUC_LO_2:
-  itemsadder-item: "duclo:mdrill_r326"
+  itemsadder-item: duclo:mdrill_r326
   base:
     lore-format: ingredient-simple
     revision-id: 3
@@ -658,7 +658,7 @@ DA_DUC_LO_2:
       - "&7Tỷ lệ: &e70%"
 
 DA_DUC_LO_3:
-  itemsadder-item: "duclo:tdrill_x355"
+  itemsadder-item: duclo:tdrill_x355
   base:
     lore-format: ingredient-simple
     revision-id: 3
@@ -675,7 +675,7 @@ DA_DUC_LO_3:
       - "&7Tỷ lệ: &640%"
 
 DA_DUC_LO_4:
-  itemsadder-item: "duclo:tdrill_x455"
+  itemsadder-item: duclo:tdrill_x455
   base:
     lore-format: ingredient-simple
     revision-id: 3
@@ -692,7 +692,7 @@ DA_DUC_LO_4:
       - "&7Tỷ lệ: &c25%"
 
 DA_DUC_LO_5:
-  itemsadder-item: "duclo:tdrill_x555"
+  itemsadder-item: duclo:tdrill_x555
   base:
     lore-format: ingredient-simple
     revision-id: 3
@@ -709,7 +709,7 @@ DA_DUC_LO_5:
       - "&7Tỷ lệ: &d10%"
 
 DA_DUC_LO_6:
-  itemsadder-item: "duclo:tdrill_x655"
+  itemsadder-item: duclo:tdrill_x655
   base:
     lore-format: ingredient-simple
     revision-id: 3
@@ -726,7 +726,7 @@ DA_DUC_LO_6:
       - "&7Tỷ lệ: &c5%"
 
 DA_DUC_LO_7:
-  itemsadder-item: "duclo:topaz_drill"
+  itemsadder-item: duclo:topaz_drill
   base:
     lore-format: ingredient-simple
     revision-id: 3
@@ -743,7 +743,7 @@ DA_DUC_LO_7:
       - "&7Tỷ lệ: &c2%"
 
 DA_DUC_LO_THIEN_MENH:
-  itemsadder-item: "duclo:ruby_drill"
+  itemsadder-item: duclo:ruby_drill
   base:
     lore-format: ingredient-simple
     revision-id: 3
@@ -797,7 +797,7 @@ MANH_THIEN_GIOI:
 # ==========================================================
 
 MANH_LINH_HON_SO_CAP:
-  itemsadder-item: "iadungeon:crystal_of_mutation_61"
+  itemsadder-item: iadungeon:crystal_of_mutation_61
   base:
     revision-id: 3
     material: PAPER
@@ -810,7 +810,7 @@ MANH_LINH_HON_SO_CAP:
       - "&7Dùng tại Trạm Đổi Linh Hồn để chọn nguyên liệu."
 
 MANH_LINH_HON_TRUNG_CAP:
-  itemsadder-item: "iadungeon:crystal_of_corruption_62"
+  itemsadder-item: iadungeon:crystal_of_corruption_62
   base:
     revision-id: 3
     material: PAPER
@@ -823,7 +823,7 @@ MANH_LINH_HON_TRUNG_CAP:
       - "&7Dùng tại Trạm Đổi Linh Hồn để chọn nguyên liệu."
 
 MANH_LINH_HON_CAO_CAP:
-  itemsadder-item: "iadungeon:crystal_of_deformity_63"
+  itemsadder-item: iadungeon:crystal_of_deformity_63
   base:
     revision-id: 3
     material: PAPER
@@ -836,7 +836,7 @@ MANH_LINH_HON_CAO_CAP:
       - "&7Dùng tại Trạm Đổi Linh Hồn để chọn nguyên liệu."
 
 MANH_LINH_HON_SIEU_CAP:
-  itemsadder-item: "iadungeon:crystal_of_abnormality_64"
+  itemsadder-item: iadungeon:crystal_of_abnormality_64
   base:
     revision-id: 3
     material: PAPER
@@ -849,7 +849,7 @@ MANH_LINH_HON_SIEU_CAP:
       - "&7Dùng tại Trạm Đổi Linh Hồn để chọn nguyên liệu."
 
 MANH_LINH_HON_HUYEN_THOAI:
-  itemsadder-item: "iadungeon:crystal_of_uncontrolled_65"
+  itemsadder-item: iadungeon:crystal_of_uncontrolled_65
   base:
     revision-id: 3
     material: PAPER
@@ -880,7 +880,9 @@ RUONG_CHON_NGUYEN_LIEU:
   base:
     revision-id: 1
     material: PLAYER_HEAD
-    skull-texture: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjU0NGE3NzBlODk0YTFmYWIxMWUyYTJiYWMxNWZlM2Q5Njk0NmZhNTIzOTZiNTMxOTc4ZWIzN2FjNjRiOGE5MCJ9fX0="
+    skull-texture:
+      value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTdiYzI1MWE2Y2IwZDZkOWYwNWM1NzExOTExYTZlYzI0YjIwOWRiZTY0MjY3OTAxYTRiMDM3NjFkZWJjZjczOCJ9fX0=
+      uuid: 633439a1-883f-4026-bddb-e50031fb953a
     name: "&e✦ Rương Chọn Nguyên Liệu"
     tier: LEGENDARY
     lore-format: ingredient-simple
@@ -890,7 +892,7 @@ RUONG_CHON_NGUYEN_LIEU:
       - "&7Mở tại Trạm Đổi Linh Hồn để chọn nhánh trang bị."
 
 HUY_CHUONG_MUA_BANG:
-  itemsadder-item: "rings_pack:ring_75"
+  itemsadder-item: rings_pack:ring_75
   base:
     revision-id: 1
     material: AMETHYST_SHARD

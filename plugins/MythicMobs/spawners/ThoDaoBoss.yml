@@ -25,5 +25,5 @@ ThoDaoBoss:
   ShowFlames: false
   Conditions: []
   SpawnConditions: []
-  ActiveMobs: 0
-  CooldownTimer: 1
+  ActiveMobs: 1
+  CooldownTimer: 61

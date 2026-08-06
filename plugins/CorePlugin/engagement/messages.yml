@@ -1,0 +1,21 @@
+prefix: '&6&l[ENGAGEMENT]&r'
+
+no-permission: '{prefix} &cBạn không có quyền.'
+player-only: '{prefix} &cChỉ người chơi mới dùng được lệnh này.'
+reloaded: '{prefix} &aĐã reload cấu hình engagement.'
+module-disabled: '{prefix} &cModule engagement đang tắt.'
+
+mmoitems-missing: '{prefix} &cMMOItems chưa được cài — không mở được Trạm Đổi Linh Hồn.'
+station-missing: '{prefix} &cKhông tìm thấy station &e{station}&c.'
+station-opened: '{prefix} &aĐã mở Trạm Đổi Linh Hồn.'
+
+ticket-success: '{prefix} &aĐã dùng Vé Dungeon Biến Dị — nhận &e{fragment}&a!'
+ticket-no-ticket: ''
+ticket-failed: '{prefix} &cKhông thể phát thưởng — vé không bị trừ.'
+
+mutation-info: '{prefix} &7Affix tuần này: &e{affix}&7. Còn &e{remaining}&7 đến tuần mới.'
+mutation-unknown: '{prefix} &cKhông xác định được affix tuần hiện tại.'
+
+achievement-granted: '{prefix} &aThành tựu &e{id}&a: nhận thưởng!'
+season-medal-granted: '{prefix} &aBang Top &e{rank}&a mùa &e{season}&a — nhận &e{amount}x &aHuy Chương Mùa Bang!'
+pending-rewards-delivered: '{prefix} &aĐã nhận &e{count}&a phần thưởng đang chờ.'

@@ -1,0 +1,151 @@
+# Collection / Thành tựu GUI
+title: '&8[&6✦&8] &6&lTHÀNH TỰU'
+size: 54
+accent: ORANGE_STAINED_GLASS_PANE
+
+labels:
+  next-threshold: '{achievement_name} — {current}/{threshold}'
+  next-threshold-done: '&aHoàn thành'
+
+items:
+  ores:
+    slot: 10
+    material: DIAMOND_PICKAXE
+    name: '&aQuặng đã đào'
+    lore:
+      - '&7Tổng: &e{ores}'
+      - '&7Mốc kế: &e{next_ores_label}'
+  dungeon_mobs:
+    slot: 12
+    material: IRON_SWORD
+    name: '&cQuái Dungeon'
+    lore:
+      - '&7Tổng: &e{dungeon_mobs}'
+  bosses_total:
+    slot: 14
+    material: NETHERITE_SWORD
+    name: '&4Boss đã hạ'
+    lore:
+      - '&7Tổng: &e{bosses}'
+      - '&7Mốc kế: &e{next_bosses_label}'
+  bosses_ranks:
+    slot: 16
+    material: WITHER_SKELETON_SKULL
+    name: '&6Boss theo rank'
+    lore:
+      - '&7R1: &e{boss_r1} &8| &7R2: &e{boss_r2}'
+      - '&7R3: &e{boss_r3} &8| &7R4: &e{boss_r4}'
+      - '&7R5: &e{boss_r5} &8| &7R6: &e{boss_r6}'
+      - '&7R7: &e{boss_r7} &8| &7R8: &e{boss_r8}'
+      - '&7R9: &e{boss_r9} &8| &7R10: &e{boss_r10}'
+  achievements:
+    slot: 28
+    material: GOLD_INGOT
+    name: '&eThành tựu'
+    lore:
+      - '&7Đã nhận: &a{achievements_done}&7/&e{achievements_total}'
+      - '&7Kế tiếp: &e{next_achievement_name}'
+      - '&7Phần thưởng: &f{next_achievement_rewards}'
+      - ''
+      - '&eClick để xem chi tiết'
+  mutation:
+    slot: 30
+    material: END_CRYSTAL
+    name: '&dDungeon Biến Dị'
+    lore:
+      - '&7Affix: &e{affix}'
+      - '&7Còn: &e{remaining}'
+  info:
+    slot: 49
+    material: BOOK
+    name: '&fHướng dẫn'
+    lore:
+      - '&7Theo dõi tiến độ Collection'
+      - '&7và thành tựu tại đây.'
+
+# Submenu — mỗi achievement một item, có phân trang
+achievements-menu:
+  title: '&8[&6✦&8] &6&lDANH SÁCH THÀNH TỰU'
+  size: 54
+  accent: ORANGE_STAINED_GLASS_PANE
+  content-slots:
+    - 10
+    - 11
+    - 12
+    - 13
+    - 14
+    - 15
+    - 16
+    - 19
+    - 20
+    - 21
+    - 22
+    - 23
+    - 24
+    - 25
+    - 28
+    - 29
+    - 30
+    - 31
+    - 32
+    - 33
+    - 34
+  previous-slot: 45
+  next-slot: 53
+  back-slot: 49
+  previous:
+    material: ARROW
+    name: '&eTrang trước'
+    lore:
+      - '&7Trang &e{page}&7/&e{pages}'
+  next:
+    material: ARROW
+    name: '&eTrang sau'
+    lore:
+      - '&7Trang &e{page}&7/&e{pages}'
+  back:
+    material: BARRIER
+    name: '&cQuay lại'
+    lore:
+      - '&7Về menu Collection'
+  empty:
+    slot: 22
+    material: GRAY_STAINED_GLASS_PANE
+    name: '&7Chưa có thành tựu'
+    lore:
+      - '&8Thêm mốc trong config.yml'
+  materials:
+    not-started: GRAY_DYE
+    in-progress: YELLOW_DYE
+    ready: ORANGE_DYE
+    claimed: LIME_DYE
+  status:
+    not-started: '&cChưa hoàn thành'
+    in-progress: '&eĐang tiến hành'
+    ready: '&6Đang phát thưởng'
+    claimed: '&aĐã nhận'
+  progress-bar:
+    length: 20
+    filled: '■'
+    empty: '■'
+    filled-color: '&a'
+    empty-color: '&7'
+    percent-color: '&e'
+    template: '{bar} {percent_color}{percent}%'
+  reward-fallbacks:
+    player-points: '{amount} Point'
+    mmoitem: '{amount}x {item-id}'
+    command: 'Phần thưởng đặc biệt'
+  item:
+    name: '{achievement_name}'
+    reward-bullet: ' &8• &f{reward}'
+    lore:
+      - '{achievement_description}'
+      - ''
+      - '&7Tiến độ: &e{current}&7/&e{threshold}'
+      - '{progress_bar}'
+      - ''
+      - '&7Phần thưởng (&e{reward_count}&7):'
+      - '{rewards}'
+      - ''
+      - '&7Trạng thái: {status}'

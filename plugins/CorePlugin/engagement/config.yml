@@ -1,5 +1,7 @@
-# CorePlugin engagement — server override.
-# Storage changes require restart; other keys: /collection reload.
+# Engagement module — Collection, achievements, mutation dungeon, soul exchange.
+# Copy-if-missing only: add new keys by hand after upgrades (see CHANGELOG).
+# Restart required to change storage.type / schema.
+
 enabled: true
 debug: false
 
@@ -16,19 +18,18 @@ storage:
     pool-size: 4
 
 collection:
+  # Worlds where ore mining counts.
   ore-worlds:
     - world_prison
+  # Optional WorldGuard region ids (empty = any region in ore-worlds).
   ore-regions: []
-  # COBBLESTONE is required for the Tân Binh mine; the other entries match
-  # the live X-Prison rank ores.
   ore-whitelist:
-    - COBBLESTONE
     - COAL_ORE
     - DEEPSLATE_COAL_ORE
-    - COPPER_ORE
-    - DEEPSLATE_COPPER_ORE
     - IRON_ORE
     - DEEPSLATE_IRON_ORE
+    - COPPER_ORE
+    - DEEPSLATE_COPPER_ORE
     - GOLD_ORE
     - DEEPSLATE_GOLD_ORE
     - REDSTONE_ORE
@@ -39,12 +40,17 @@ collection:
     - DEEPSLATE_DIAMOND_ORE
     - EMERALD_ORE
     - DEEPSLATE_EMERALD_ORE
+    - NETHER_QUARTZ_ORE
+    - NETHER_GOLD_ORE
+    - ANCIENT_DEBRIS
   dungeon-worlds:
     - world_dungeon
     - world_dungeon_2
     - world_magadungeon
+  # Seconds: last damager credit window when killer is missing.
   kill-credit-timeout-seconds: 15
 
+# MythicMobs internal mob id → prison boss rank (1–10). Verify IDs on live server.
 bosses:
   PRISON_TAN_BINH_BOSS: 1
   PRISON_TU_NHAN_BOSS: 2
@@ -57,12 +63,14 @@ bosses:
   PRISON_VUOT_NGUC_BOSS: 9
   PRISON_MA_VUONG_BOSS: 10
 
+# Elite/boss Mythic IDs (or glob patterns) for weekly mutation affixes.
 mutation:
   timezone: Asia/Ho_Chi_Minh
   worlds:
     - world_dungeon
     - world_dungeon_2
     - world_magadungeon
+  # Exact ids and/or simple * wildcards matching Mythic internal names.
   elite-mob-ids:
     - '*_ELITE'
     - '*_BOSS'
@@ -93,6 +101,7 @@ mutation:
 ticket:
   type: MATERIAL
   id: VE_DUNGEON_BIEN_DI
+  # Rank bands → fragment MMOItem id (type MATERIAL).
   fragments:
     '1-2': MANH_LINH_HON_SO_CAP
     '3-4': MANH_LINH_HON_TRUNG_CAP
@@ -105,22 +114,39 @@ ticket:
 
 soul-exchange:
   station-id: soul-exchange
+  # Fallback when API open fails (console).
   open-command: 'mi stations open {station} {player}'
 
 achievements:
   ores_1000:
+    display:
+      name: '&aThợ Mỏ Tập Sự'
+      description:
+        - '&7Đào đủ &e1.000 quặng &7trong khu Prison.'
     type: ores
     threshold: 1000
     rewards:
       - type: player-points
         amount: 5
+        display: '&b5 Point'
+
   ores_10000:
+    display:
+      name: '&6Bậc Thầy Khai Khoáng'
+      description:
+        - '&7Đào đủ &e10.000 quặng &7trong khu Prison.'
     type: ores
     threshold: 10000
     rewards:
       - type: player-points
         amount: 20
+        display: '&b20 Point'
+
   bosses_10:
+    display:
+      name: '&cKẻ Săn Trùm'
+      description:
+        - '&7Hạ tổng cộng &e10 Boss Prison&7.'
     type: bosses
     threshold: 10
     rewards:
@@ -128,18 +154,27 @@ achievements:
         item-type: MATERIAL
         item-id: VE_DUNGEON_BIEN_DI
         amount: 1
+        display: '&51 Vé Dungeon Biến Dị'
+
   bosses_50:
+    display:
+      name: '&4Khắc Tinh Ngục Tù'
+      description:
+        - '&7Hạ tổng cộng &e50 Boss Prison&7.'
     type: bosses
     threshold: 50
     rewards:
       - type: player-points
         amount: 50
+        display: '&b50 Point'
       - type: mmoitem
         item-type: MATERIAL
         item-id: RUONG_CHON_NGUYEN_LIEU
         amount: 1
+        display: '&e1 Rương Chọn Nguyên Liệu'
 
 rewards:
+  # Used when PlayerPoints API is missing.
   player-points-fallback: 'points give {player} {amount}'
   audit-log: true
 
@@ -147,6 +182,7 @@ season-cosmetics:
   enabled: true
   item-type: MATERIAL
   item-id: HUY_CHUONG_MUA_BANG
+  # Rank → amount granted per eligible member.
   top:
     '1': 3
     '2': 2
