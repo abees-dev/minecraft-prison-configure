@@ -1,18 +1,18 @@
 name: Dragon Skin
 lore:
-- '&9You have a 25% chance to deal'
-- '&9damage to nearby enemies when attacked'
+- '&7Nội tại phản kích. Phải trang bị vào ô skill.'
+- '&7Khi bị đánh, có 25% cơ hội gây sát thương'
+- '&7lên kẻ địch trong bán kính 3 block.'
 - ''
-- '&a{damage} Damage'
-- '&e{cooldown}s Cooldown'
-- '&9Costs {mana} {mana_name}'
+- '&c⚔ {damage} Sát thương phản kích'
+- '&e⌛ {cooldown}s Hồi nội bộ'
 material: 'COAL:2078'
 passive-type: DAMAGED
 damage:
-  base: 2
-  per-level: 1
-  min: 2
-  max: 4
+  base: 3
+  per-level: 0.25
+  min: 3
+  max: 10.25
 timer:
   base: 0
   per-level: 0
@@ -29,7 +29,7 @@ stamina:
   min: 0
   max: 0
 cooldown:
-  base: 0
-  per-level: 0
-  min: 0
-  max: 0
+  base: 2.5
+  per-level: -0.03
+  min: 1.63
+  max: 2.5

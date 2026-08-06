@@ -1,5 +1,5 @@
 # GUI display name
-name: 'Kỹ Năng Đã Chọn: &6{skill}'
+name: '&8Kỹ Năng &7• &6{skill}'
 
 # Number of slots in your inventory. Must be
 # between 9 and 54 and must be a multiple of 9.
@@ -10,12 +10,12 @@ items:
     slots: [ 10,11,12,19,20,21,28,29,30,37,38,39]
 
     function: skill
-    name: '&a{skill} &6[Cấp {level}]'
+    name: '&a{skill} &7• &6Cấp {level}'
     lore:
       - ''
-      - '{unlocked}&a✔ Yêu cầu Cấp độ {unlock}'
-      - '{locked}&c✖ Yêu cầu Cấp độ {unlock}'
-      - '{max_level}&e✔ Đã đạt cấp độ tối đa!'
+      - '{unlocked}&a✔ Yêu cầu cấp nhân vật {unlock}'
+      - '{locked}&c✖ Yêu cầu cấp nhân vật {unlock}'
+      - '{max_level}&e✔ Kỹ năng đã đạt cấp tối đa!'
       - ''
       - '{lore}'
   next:
@@ -23,14 +23,14 @@ items:
     function: next
     item: PLAYER_HEAD
     texture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTliZjMyOTJlMTI2YTEwNWI1NGViYTcxM2FhMWIxNTJkNTQxYTFkODkzODgyOWM1NjM2NGQxNzhlZDIyYmYifX19
-    name: '&aTiếp Theo'
+    name: '&aTrang Sau'
     lore: { }
   previous:
     slots: [ 2 ]
     function: previous
     item: PLAYER_HEAD
     texture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmQ2OWUwNmU1ZGFkZmQ4NGU1ZjNkMWMyMTA2M2YyNTUzYjJmYTk0NWVlMWQ0ZDcxNTJmZGM1NDI1YmMxMmE5In19fQ==
-    name: '&aQuay Lại'
+    name: '&aTrang Trước'
     lore: { }
 
   reallocate:
@@ -47,19 +47,20 @@ items:
       - '&e◆ Điểm Tẩy Kỹ Năng Có Sẵn: &6{points}'
 
   slot:
-    slots: [ 7,8,17,26,35,44,53 ]
+    # Lưới 2x4 cân đối ở bên phải, khớp max-skill-slots: 8.
+    slots: [ 7,8,16,17,25,26,34,35 ]
     function: slot
     item: GRAY_DYE
 
-    name: '&aÔ Kỹ Năng {slot}'
+    name: '&aÔ Kỹ Năng &f#{slot}'
     no-skill: '&cChưa Gán'
     lore:
       - '&7Kỹ năng hiện tại: &6{skill}'
       - ''
       - '{slot-lore}'
       - ''
-      - '&7&oThi triển phép bằng cách nhấn nút [F]'
-      - '&7&otheo sau là phím tắt tương ứng trên thanh Actionbar.'
+      - '&7&oNhấn [F], sau đó nhấn phím số tương ứng'
+      - '&7&otrên thanh vật phẩm để thi triển kỹ năng.'
       - ''
       - '&e► Chuột trái để gán {selected}.'
       - '&e► Chuột phải để gỡ gán.'
@@ -74,12 +75,13 @@ items:
       item: AIR
 
     item: LIME_DYE
-    name: '&a{skill} Cấp {roman}'
+    name: '&a{skill} &7• &6Cấp {roman}'
     lore:
       - ''
       - '{lore}'
   upgrade:
-    slots: [ 15 ]
+    # Không chồng lên skill-level (slot 15) như cấu hình cũ.
+    slots: [ 49 ]
     function: upgrade
     item: GREEN_STAINED_GLASS_PANE
     name: '&a&lNÂNG CẤP {skill_caps}'

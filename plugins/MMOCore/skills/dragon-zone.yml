@@ -1,35 +1,35 @@
 name: Dragon Zone
 lore:
-- '&9Summon 3 dragon spears that form a dragon zone.' 
-- '&9While you are in the dragon zone,'
-- '&9you gain speed and resistance'
+- '&7Triệu hồi 3 long thương tạo thành Long Vực.'
+- '&7Khi đứng trong vùng, bạn nhận Tốc Độ'
+- '&7và Kháng Sát Thương.'
 - ''
-- '&a{duration}s Duration'
-- '&e{cooldown}s Cooldown'
-- '&9Costs {mana} {mana_name}'
+- '&a⏱ {duration}s Thời gian tồn tại'
+- '&e⌛ {cooldown}s Hồi chiêu'
+- '&4♦ Tiêu hao {mana} {mana_name}'
 material: 'COAL:2080'
 duration:
   base: 7
   per-level: 0.2
   min: 7
-  max: 9
+  max: 12.8
 timer:
   base: 0
   per-level: 0
   min: 0
   max: 0
 mana:
-  base: 0
-  per-level: 0
-  min: 0
-  max: 0
+  base: 15
+  per-level: 0.35
+  min: 15
+  max: 25.15
 stamina:
   base: 0
   per-level: 0
   min: 0
   max: 0
 cooldown:
-  base: 13
-  per-level: -0.1
-  min: 12
-  max: 13
+  base: 18
+  per-level: -0.25
+  min: 10.75
+  max: 18

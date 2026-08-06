@@ -53,7 +53,7 @@ mana:
         full: DARK_RED
         half: RED
         empty: WHITE
-    name: 'Rage'
+    name: 'Cuồng Nộ'
 
 triggers:
     weapon-damage:

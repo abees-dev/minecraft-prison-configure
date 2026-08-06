@@ -1,34 +1,34 @@
 name: Dragon Dash
 lore:
-- '&9Charge your energy and dash forwards,'
-- '&9piercing enemies with your spear'
+- '&7Tích tụ long lực rồi lao về phía trước,'
+- '&7xuyên qua kẻ địch bằng long thương.'
 - ''
-- '&a{damage} Damage'
-- '&e{cooldown}s Cooldown'
-- '&9Costs {mana} {mana_name}'
+- '&c⚔ {damage} Sát thương mỗi lần trúng'
+- '&e⌛ {cooldown}s Hồi chiêu'
+- '&4♦ Tiêu hao {mana} {mana_name}'
 material: 'COAL:2077'
 damage:
   base: 5
-  per-level: 1
+  per-level: 0.4
   min: 5
-  max: 8
+  max: 16.6
 timer:
   base: 0
   per-level: 0
   min: 0
   max: 0
 mana:
-  base: 0
-  per-level: 0
-  min: 0
-  max: 0
+  base: 8
+  per-level: 0.2
+  min: 8
+  max: 13.8
 stamina:
   base: 0
   per-level: 0
   min: 0
   max: 0
 cooldown:
-  base: 3
+  base: 7
   per-level: -0.1
-  min: 2.5
-  max: 3
+  min: 4.1
+  max: 7

@@ -1,10 +1,12 @@
-name: Fire Berserker
+name: Cuồng Chiến Hỏa
 lore:
-- You deal &c{extra}% &7more damage when on fire.
+- '&7Nội tại. Phải trang bị vào ô skill.'
+- '&7Khi đang bị thiêu đốt, bạn gây thêm'
+- '&c{extra}% &7sát thương.'
 material: FLINT_AND_STEEL
 mana:
-  base: 2.0
-  per-level: 1.0
+  base: 0.0
+  per-level: 0.0
   max: 0.0
   min: 0.0
   #Optional: The decimal format used for this skill parameter.
@@ -15,5 +17,7 @@ stamina:
   max: 0.0
   min: 0.0
 extra:
-  base: 10.0
-  per-level: 5.0
+  base: 8.0
+  per-level: 0.4
+  min: 8.0
+  max: 19.6
