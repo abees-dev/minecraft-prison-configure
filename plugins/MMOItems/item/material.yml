@@ -797,6 +797,7 @@ MANH_THIEN_GIOI:
 # ==========================================================
 
 MANH_LINH_HON_SO_CAP:
+  itemsadder-item: "iadungeon:crystal_of_invasion_70"
   base:
     revision-id: 1
     material: ECHO_SHARD
@@ -808,6 +809,7 @@ MANH_LINH_HON_SO_CAP:
       - "&7Dùng tại Trạm Đổi Linh Hồn để chọn nguyên liệu."
 
 MANH_LINH_HON_TRUNG_CAP:
+  itemsadder-item: "iadungeon:crystal_of_frost_29"
   base:
     revision-id: 1
     material: ECHO_SHARD
@@ -819,6 +821,7 @@ MANH_LINH_HON_TRUNG_CAP:
       - "&7Dùng tại Trạm Đổi Linh Hồn để chọn nguyên liệu."
 
 MANH_LINH_HON_CAO_CAP:
+  itemsadder-item: "iadungeon:crystal_of_fury_19"
   base:
     revision-id: 1
     material: ECHO_SHARD
@@ -830,6 +833,7 @@ MANH_LINH_HON_CAO_CAP:
       - "&7Dùng tại Trạm Đổi Linh Hồn để chọn nguyên liệu."
 
 MANH_LINH_HON_SIEU_CAP:
+  itemsadder-item: "iadungeon:crystal_of_chaos_66"
   base:
     revision-id: 1
     material: ECHO_SHARD
@@ -841,6 +845,7 @@ MANH_LINH_HON_SIEU_CAP:
       - "&7Dùng tại Trạm Đổi Linh Hồn để chọn nguyên liệu."
 
 MANH_LINH_HON_HUYEN_THOAI:
+  itemsadder-item: "iadungeon:crystal_of_destruction_69"
   base:
     revision-id: 1
     material: NETHER_STAR
@@ -869,7 +874,8 @@ VE_DUNGEON_BIEN_DI:
 RUONG_CHON_NGUYEN_LIEU:
   base:
     revision-id: 1
-    material: CHEST
+    material: PLAYER_HEAD
+    skull-texture: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjU0NGE3NzBlODk0YTFmYWIxMWUyYTJiYWMxNWZlM2Q5Njk0NmZhNTIzOTZiNTMxOTc4ZWIzN2FjNjRiOGE5MCJ9fX0="
     name: "&e✦ Rương Chọn Nguyên Liệu"
     tier: LEGENDARY
     lore-format: ingredient-simple
@@ -879,6 +885,7 @@ RUONG_CHON_NGUYEN_LIEU:
       - "&7Mở tại Trạm Đổi Linh Hồn để chọn nhánh trang bị."
 
 HUY_CHUONG_MUA_BANG:
+  itemsadder-item: "rings_pack:ring_75"
   base:
     revision-id: 1
     material: AMETHYST_SHARD

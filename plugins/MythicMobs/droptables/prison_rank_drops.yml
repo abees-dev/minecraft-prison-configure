@@ -1,6 +1,6 @@
 # ============================================================================
 # BẢNG RỚT ĐỒ (DROP TABLES) — PRISON 9 RANK + MA VƯƠNG
-# Cập nhật 2026-07-30: scale theo rank, thêm tinh thể rèn + đá đục lỗ
+# Cập nhật 2026-08-06: scale theo rank; đã loại bỏ tinh thể rèn, giữ đá đục lỗ
 # ============================================================================
 
 # ---------------- CHÌA TRANG SỨC FREE (command; tỉ lệ gắn ở dòng gọi) ----------------
@@ -8,247 +8,193 @@ free_jewelry_key_drop:
   Drops:
   - command{c="crates key give <target> chia_khoa_trang_suc_free 1"} 1 1.0
 
-# ---------------- RANK 1: TÂN BINH (SƠ CẤP) — đá 5/10/18% ----------------
+# ---------------- RANK 1: TÂN BINH (SƠ CẤP) — đá 2.5/5/18% ----------------
 prison_rank1_normal_drops:
   Drops:
-  - mmoitem{type=MATERIAL;id=DA_CUONG_HOA_VU_KHI_SO_CAP} 1 0.05
-  - mmoitem{type=MATERIAL;id=DA_CUONG_HOA_GIAP_SO_CAP} 1 0.05
-  - mmoitem{type=MATERIAL;id=TINHTHE_CUONGHOA_VUKHI} 1 0.02
-  - mmoitem{type=MATERIAL;id=TINHTHE_CUONGHOA_GIAP} 1 0.02
+  - mmoitem{type=MATERIAL;id=DA_CUONG_HOA_VU_KHI_SO_CAP} 1 0.025
+  - mmoitem{type=MATERIAL;id=DA_CUONG_HOA_GIAP_SO_CAP} 1 0.025
 
 prison_rank1_elite_drops:
   Drops:
-  - mmoitem{type=MATERIAL;id=DA_CUONG_HOA_VU_KHI_SO_CAP} 1 0.10
-  - mmoitem{type=MATERIAL;id=DA_CUONG_HOA_GIAP_SO_CAP} 1 0.10
-  - mmoitem{type=MATERIAL;id=TINHTHE_CUONGHOA_VUKHI} 1 0.05
-  - mmoitem{type=MATERIAL;id=TINHTHE_CUONGHOA_GIAP} 1 0.05
-  - mmoitem{type=MATERIAL;id=DA_DUC_LO_1} 1 0.02
+  - mmoitem{type=MATERIAL;id=DA_CUONG_HOA_VU_KHI_SO_CAP} 1 0.05
+  - mmoitem{type=MATERIAL;id=DA_CUONG_HOA_GIAP_SO_CAP} 1 0.05
+  - mmoitem{type=MATERIAL;id=DA_DUC_LO_1} 1 0.01
 
 prison_rank1_boss_drops:
   Drops:
   - mmoitem{type=MATERIAL;id=MANH_LINH_HON_SO_CAP} 1 1.0
   - mmoitem{type=MATERIAL;id=DA_CUONG_HOA_VU_KHI_SO_CAP} 1 0.18
   - mmoitem{type=MATERIAL;id=DA_CUONG_HOA_GIAP_SO_CAP} 1 0.18
-  - mmoitem{type=MATERIAL;id=TINHTHE_CUONGHOA_VUKHI} 1 0.10
-  - mmoitem{type=MATERIAL;id=TINHTHE_CUONGHOA_GIAP} 1 0.10
   - mmoitem{type=MATERIAL;id=DA_DUC_LO_1} 1 0.06
   - mmoitem{type=MATERIAL;id=MANH_HUY_HIEU_TRIEU_HOI} 1 0.30
   - mmoitem{type=MATERIAL;id=MANH_LONG_TOC} 1 0.12
   - free_jewelry_key_drop 1 0.08
 
-# ---------------- RANK 2: TÙ NHÂN (SƠ CẤP) — đá 5/10/18% ----------------
+# ---------------- RANK 2: TÙ NHÂN (SƠ CẤP) — đá 2.5/5/18% ----------------
 prison_rank2_normal_drops:
   Drops:
-  - mmoitem{type=MATERIAL;id=DA_CUONG_HOA_VU_KHI_SO_CAP} 1 0.05
-  - mmoitem{type=MATERIAL;id=DA_CUONG_HOA_GIAP_SO_CAP} 1 0.05
-  - mmoitem{type=MATERIAL;id=TINHTHE_CUONGHOA_VUKHI} 1 0.02
-  - mmoitem{type=MATERIAL;id=TINHTHE_CUONGHOA_GIAP} 1 0.02
+  - mmoitem{type=MATERIAL;id=DA_CUONG_HOA_VU_KHI_SO_CAP} 1 0.025
+  - mmoitem{type=MATERIAL;id=DA_CUONG_HOA_GIAP_SO_CAP} 1 0.025
 
 prison_rank2_elite_drops:
   Drops:
-  - mmoitem{type=MATERIAL;id=DA_CUONG_HOA_VU_KHI_SO_CAP} 1 0.10
-  - mmoitem{type=MATERIAL;id=DA_CUONG_HOA_GIAP_SO_CAP} 1 0.10
-  - mmoitem{type=MATERIAL;id=TINHTHE_CUONGHOA_VUKHI} 1 0.05
-  - mmoitem{type=MATERIAL;id=TINHTHE_CUONGHOA_GIAP} 1 0.05
-  - mmoitem{type=MATERIAL;id=DA_DUC_LO_1} 1 0.02
+  - mmoitem{type=MATERIAL;id=DA_CUONG_HOA_VU_KHI_SO_CAP} 1 0.05
+  - mmoitem{type=MATERIAL;id=DA_CUONG_HOA_GIAP_SO_CAP} 1 0.05
+  - mmoitem{type=MATERIAL;id=DA_DUC_LO_1} 1 0.01
 
 prison_rank2_boss_drops:
   Drops:
   - mmoitem{type=MATERIAL;id=MANH_LINH_HON_SO_CAP} 1 1.0
   - mmoitem{type=MATERIAL;id=DA_CUONG_HOA_VU_KHI_SO_CAP} 1 0.18
   - mmoitem{type=MATERIAL;id=DA_CUONG_HOA_GIAP_SO_CAP} 1 0.18
-  - mmoitem{type=MATERIAL;id=TINHTHE_CUONGHOA_VUKHI} 1 0.10
-  - mmoitem{type=MATERIAL;id=TINHTHE_CUONGHOA_GIAP} 1 0.10
   - mmoitem{type=MATERIAL;id=DA_DUC_LO_1} 1 0.06
   - mmoitem{type=MATERIAL;id=MANH_HUY_HIEU_TRIEU_HOI} 1 0.30
   - mmoitem{type=MATERIAL;id=MANH_LONG_TOC} 1 0.12
   - free_jewelry_key_drop 1 0.08
 
-# ---------------- RANK 3: LAO CÔNG (TRUNG CẤP) — đá 4/8/15% ----------------
+# ---------------- RANK 3: LAO CÔNG (TRUNG CẤP) — đá 2/4/15% ----------------
 prison_rank3_normal_drops:
   Drops:
-  - mmoitem{type=MATERIAL;id=DA_CUONG_HOA_VU_KHI_TRUNG_CAP} 1 0.04
-  - mmoitem{type=MATERIAL;id=DA_CUONG_HOA_GIAP_TRUNG_CAP} 1 0.04
-  - mmoitem{type=MATERIAL;id=TINHTHE_CUONGHOA_VUKHI} 1 0.02
-  - mmoitem{type=MATERIAL;id=TINHTHE_CUONGHOA_GIAP} 1 0.02
+  - mmoitem{type=MATERIAL;id=DA_CUONG_HOA_VU_KHI_TRUNG_CAP} 1 0.02
+  - mmoitem{type=MATERIAL;id=DA_CUONG_HOA_GIAP_TRUNG_CAP} 1 0.02
 
 prison_rank3_elite_drops:
   Drops:
-  - mmoitem{type=MATERIAL;id=DA_CUONG_HOA_VU_KHI_TRUNG_CAP} 1 0.08
-  - mmoitem{type=MATERIAL;id=DA_CUONG_HOA_GIAP_TRUNG_CAP} 1 0.08
-  - mmoitem{type=MATERIAL;id=TINHTHE_CUONGHOA_VUKHI} 1 0.05
-  - mmoitem{type=MATERIAL;id=TINHTHE_CUONGHOA_GIAP} 1 0.05
-  - mmoitem{type=MATERIAL;id=DA_DUC_LO_2} 1 0.02
+  - mmoitem{type=MATERIAL;id=DA_CUONG_HOA_VU_KHI_TRUNG_CAP} 1 0.04
+  - mmoitem{type=MATERIAL;id=DA_CUONG_HOA_GIAP_TRUNG_CAP} 1 0.04
+  - mmoitem{type=MATERIAL;id=DA_DUC_LO_2} 1 0.01
 
 prison_rank3_boss_drops:
   Drops:
   - mmoitem{type=MATERIAL;id=MANH_LINH_HON_TRUNG_CAP} 1 1.0
   - mmoitem{type=MATERIAL;id=DA_CUONG_HOA_VU_KHI_TRUNG_CAP} 1 0.15
   - mmoitem{type=MATERIAL;id=DA_CUONG_HOA_GIAP_TRUNG_CAP} 1 0.15
-  - mmoitem{type=MATERIAL;id=TINHTHE_CUONGHOA_VUKHI} 1 0.10
-  - mmoitem{type=MATERIAL;id=TINHTHE_CUONGHOA_GIAP} 1 0.10
   - mmoitem{type=MATERIAL;id=DA_DUC_LO_2} 1 0.05
   - mmoitem{type=MATERIAL;id=MANH_HUY_HIEU_TRIEU_HOI} 1 0.35
   - mmoitem{type=MATERIAL;id=MANH_LONG_TOC} 1 0.15
   - free_jewelry_key_drop 1 0.09
 
-# ---------------- RANK 4: THỢ ĐÀO (TRUNG CẤP) — đá 4/8/15% ----------------
+# ---------------- RANK 4: THỢ ĐÀO (TRUNG CẤP) — đá 2/4/15% ----------------
 prison_rank4_normal_drops:
   Drops:
-  - mmoitem{type=MATERIAL;id=DA_CUONG_HOA_VU_KHI_TRUNG_CAP} 1 0.04
-  - mmoitem{type=MATERIAL;id=DA_CUONG_HOA_GIAP_TRUNG_CAP} 1 0.04
-  - mmoitem{type=MATERIAL;id=TINHTHE_CUONGHOA_VUKHI} 1 0.02
-  - mmoitem{type=MATERIAL;id=TINHTHE_CUONGHOA_GIAP} 1 0.02
+  - mmoitem{type=MATERIAL;id=DA_CUONG_HOA_VU_KHI_TRUNG_CAP} 1 0.02
+  - mmoitem{type=MATERIAL;id=DA_CUONG_HOA_GIAP_TRUNG_CAP} 1 0.02
 
 prison_rank4_elite_drops:
   Drops:
-  - mmoitem{type=MATERIAL;id=DA_CUONG_HOA_VU_KHI_TRUNG_CAP} 1 0.08
-  - mmoitem{type=MATERIAL;id=DA_CUONG_HOA_GIAP_TRUNG_CAP} 1 0.08
-  - mmoitem{type=MATERIAL;id=TINHTHE_CUONGHOA_VUKHI} 1 0.05
-  - mmoitem{type=MATERIAL;id=TINHTHE_CUONGHOA_GIAP} 1 0.05
-  - mmoitem{type=MATERIAL;id=DA_DUC_LO_2} 1 0.02
+  - mmoitem{type=MATERIAL;id=DA_CUONG_HOA_VU_KHI_TRUNG_CAP} 1 0.04
+  - mmoitem{type=MATERIAL;id=DA_CUONG_HOA_GIAP_TRUNG_CAP} 1 0.04
+  - mmoitem{type=MATERIAL;id=DA_DUC_LO_2} 1 0.01
 
 prison_rank4_boss_drops:
   Drops:
   - mmoitem{type=MATERIAL;id=MANH_LINH_HON_TRUNG_CAP} 1 1.0
   - mmoitem{type=MATERIAL;id=DA_CUONG_HOA_VU_KHI_TRUNG_CAP} 1 0.15
   - mmoitem{type=MATERIAL;id=DA_CUONG_HOA_GIAP_TRUNG_CAP} 1 0.15
-  - mmoitem{type=MATERIAL;id=TINHTHE_CUONGHOA_VUKHI} 1 0.10
-  - mmoitem{type=MATERIAL;id=TINHTHE_CUONGHOA_GIAP} 1 0.10
   - mmoitem{type=MATERIAL;id=DA_DUC_LO_2} 1 0.05
   - mmoitem{type=MATERIAL;id=MANH_HUY_HIEU_TRIEU_HOI} 1 0.35
   - mmoitem{type=MATERIAL;id=MANH_LONG_TOC} 1 0.15
   - free_jewelry_key_drop 1 0.09
 
-# ---------------- RANK 5: ĐỘI TRƯỞNG (CAO CẤP) — đá 3.5/7/14% ----------------
+# ---------------- RANK 5: ĐỘI TRƯỞNG (CAO CẤP) — đá 1.75/3.5/14% ----------------
 prison_rank5_normal_drops:
   Drops:
-  - mmoitem{type=MATERIAL;id=DA_CUONG_HOA_VU_KHI_CAO_CAP} 1 0.035
-  - mmoitem{type=MATERIAL;id=DA_CUONG_HOA_GIAP_CAO_CAP} 1 0.035
-  - mmoitem{type=MATERIAL;id=TINHTHE_CUONGHOA_VUKHI} 1 0.02
-  - mmoitem{type=MATERIAL;id=TINHTHE_CUONGHOA_GIAP} 1 0.02
+  - mmoitem{type=MATERIAL;id=DA_CUONG_HOA_VU_KHI_CAO_CAP} 1 0.0175
+  - mmoitem{type=MATERIAL;id=DA_CUONG_HOA_GIAP_CAO_CAP} 1 0.0175
 
 prison_rank5_elite_drops:
   Drops:
-  - mmoitem{type=MATERIAL;id=DA_CUONG_HOA_VU_KHI_CAO_CAP} 1 0.07
-  - mmoitem{type=MATERIAL;id=DA_CUONG_HOA_GIAP_CAO_CAP} 1 0.07
-  - mmoitem{type=MATERIAL;id=TINHTHE_CUONGHOA_VUKHI} 1 0.05
-  - mmoitem{type=MATERIAL;id=TINHTHE_CUONGHOA_GIAP} 1 0.05
-  - mmoitem{type=MATERIAL;id=DA_DUC_LO_3} 1 0.015
+  - mmoitem{type=MATERIAL;id=DA_CUONG_HOA_VU_KHI_CAO_CAP} 1 0.035
+  - mmoitem{type=MATERIAL;id=DA_CUONG_HOA_GIAP_CAO_CAP} 1 0.035
+  - mmoitem{type=MATERIAL;id=DA_DUC_LO_3} 1 0.0075
 
 prison_rank5_boss_drops:
   Drops:
   - mmoitem{type=MATERIAL;id=MANH_LINH_HON_CAO_CAP} 1 1.0
   - mmoitem{type=MATERIAL;id=DA_CUONG_HOA_VU_KHI_CAO_CAP} 1 0.14
   - mmoitem{type=MATERIAL;id=DA_CUONG_HOA_GIAP_CAO_CAP} 1 0.14
-  - mmoitem{type=MATERIAL;id=TINHTHE_CUONGHOA_VUKHI} 1 0.10
-  - mmoitem{type=MATERIAL;id=TINHTHE_CUONGHOA_GIAP} 1 0.10
   - mmoitem{type=MATERIAL;id=DA_DUC_LO_3} 1 0.04
   - mmoitem{type=MATERIAL;id=MANH_HUY_HIEU_TRIEU_HOI} 1 0.40
   - mmoitem{type=MATERIAL;id=MANH_LONG_TOC} 1 0.18
   - free_jewelry_key_drop 1 0.10
 
-# ---------------- RANK 6: PHÓ QUẢN NGỤC (CAO CẤP) — đá 3.5/7/14% ----------------
+# ---------------- RANK 6: PHÓ QUẢN NGỤC (CAO CẤP) — đá 1.75/3.5/14% ----------------
 prison_rank6_normal_drops:
   Drops:
-  - mmoitem{type=MATERIAL;id=DA_CUONG_HOA_VU_KHI_CAO_CAP} 1 0.035
-  - mmoitem{type=MATERIAL;id=DA_CUONG_HOA_GIAP_CAO_CAP} 1 0.035
-  - mmoitem{type=MATERIAL;id=TINHTHE_CUONGHOA_VUKHI} 1 0.02
-  - mmoitem{type=MATERIAL;id=TINHTHE_CUONGHOA_GIAP} 1 0.02
+  - mmoitem{type=MATERIAL;id=DA_CUONG_HOA_VU_KHI_CAO_CAP} 1 0.0175
+  - mmoitem{type=MATERIAL;id=DA_CUONG_HOA_GIAP_CAO_CAP} 1 0.0175
 
 prison_rank6_elite_drops:
   Drops:
-  - mmoitem{type=MATERIAL;id=DA_CUONG_HOA_VU_KHI_CAO_CAP} 1 0.07
-  - mmoitem{type=MATERIAL;id=DA_CUONG_HOA_GIAP_CAO_CAP} 1 0.07
-  - mmoitem{type=MATERIAL;id=TINHTHE_CUONGHOA_VUKHI} 1 0.05
-  - mmoitem{type=MATERIAL;id=TINHTHE_CUONGHOA_GIAP} 1 0.05
-  - mmoitem{type=MATERIAL;id=DA_DUC_LO_3} 1 0.015
+  - mmoitem{type=MATERIAL;id=DA_CUONG_HOA_VU_KHI_CAO_CAP} 1 0.035
+  - mmoitem{type=MATERIAL;id=DA_CUONG_HOA_GIAP_CAO_CAP} 1 0.035
+  - mmoitem{type=MATERIAL;id=DA_DUC_LO_3} 1 0.0075
 
 prison_rank6_boss_drops:
   Drops:
   - mmoitem{type=MATERIAL;id=MANH_LINH_HON_CAO_CAP} 1 1.0
   - mmoitem{type=MATERIAL;id=DA_CUONG_HOA_VU_KHI_CAO_CAP} 1 0.14
   - mmoitem{type=MATERIAL;id=DA_CUONG_HOA_GIAP_CAO_CAP} 1 0.14
-  - mmoitem{type=MATERIAL;id=TINHTHE_CUONGHOA_VUKHI} 1 0.10
-  - mmoitem{type=MATERIAL;id=TINHTHE_CUONGHOA_GIAP} 1 0.10
   - mmoitem{type=MATERIAL;id=DA_DUC_LO_3} 1 0.04
   - mmoitem{type=MATERIAL;id=MANH_HUY_HIEU_TRIEU_HOI} 1 0.40
   - mmoitem{type=MATERIAL;id=MANH_LONG_TOC} 1 0.18
   - free_jewelry_key_drop 1 0.10
 
-# ---------------- RANK 7: QUẢN NGỤC (SIÊU CẤP) — đá 3/6/12% ----------------
+# ---------------- RANK 7: QUẢN NGỤC (SIÊU CẤP) — đá 1.5/3/12% ----------------
 prison_rank7_normal_drops:
   Drops:
-  - mmoitem{type=MATERIAL;id=DA_CUONG_HOA_VU_KHI_SIEU_CAP} 1 0.03
-  - mmoitem{type=MATERIAL;id=DA_CUONG_HOA_GIAP_SIEU_CAP} 1 0.03
-  - mmoitem{type=MATERIAL;id=TINHTHE_CUONGHOA_VUKHI} 1 0.02
-  - mmoitem{type=MATERIAL;id=TINHTHE_CUONGHOA_GIAP} 1 0.02
+  - mmoitem{type=MATERIAL;id=DA_CUONG_HOA_VU_KHI_SIEU_CAP} 1 0.015
+  - mmoitem{type=MATERIAL;id=DA_CUONG_HOA_GIAP_SIEU_CAP} 1 0.015
 
 prison_rank7_elite_drops:
   Drops:
-  - mmoitem{type=MATERIAL;id=DA_CUONG_HOA_VU_KHI_SIEU_CAP} 1 0.06
-  - mmoitem{type=MATERIAL;id=DA_CUONG_HOA_GIAP_SIEU_CAP} 1 0.06
-  - mmoitem{type=MATERIAL;id=TINHTHE_CUONGHOA_VUKHI} 1 0.05
-  - mmoitem{type=MATERIAL;id=TINHTHE_CUONGHOA_GIAP} 1 0.05
-  - mmoitem{type=MATERIAL;id=DA_DUC_LO_4} 1 0.015
+  - mmoitem{type=MATERIAL;id=DA_CUONG_HOA_VU_KHI_SIEU_CAP} 1 0.03
+  - mmoitem{type=MATERIAL;id=DA_CUONG_HOA_GIAP_SIEU_CAP} 1 0.03
+  - mmoitem{type=MATERIAL;id=DA_DUC_LO_4} 1 0.0075
 
 prison_rank7_boss_drops:
   Drops:
   - mmoitem{type=MATERIAL;id=MANH_LINH_HON_SIEU_CAP} 1 1.0
   - mmoitem{type=MATERIAL;id=DA_CUONG_HOA_VU_KHI_SIEU_CAP} 1 0.12
   - mmoitem{type=MATERIAL;id=DA_CUONG_HOA_GIAP_SIEU_CAP} 1 0.12
-  - mmoitem{type=MATERIAL;id=TINHTHE_CUONGHOA_VUKHI} 1 0.10
-  - mmoitem{type=MATERIAL;id=TINHTHE_CUONGHOA_GIAP} 1 0.10
   - mmoitem{type=MATERIAL;id=DA_DUC_LO_4} 1 0.04
   - mmoitem{type=MATERIAL;id=MANH_HUY_HIEU_TRIEU_HOI} 1 0.45
   - mmoitem{type=MATERIAL;id=MANH_LONG_TOC} 1 0.22
   - free_jewelry_key_drop 1 0.12
 
-# ---------------- RANK 8: BÁ CHỦ NGỤC TÙ (SIÊU CẤP) — đá 3/6/12% ----------------
+# ---------------- RANK 8: BÁ CHỦ NGỤC TÙ (SIÊU CẤP) — đá 1.5/3/12% ----------------
 prison_rank8_normal_drops:
   Drops:
-  - mmoitem{type=MATERIAL;id=DA_CUONG_HOA_VU_KHI_SIEU_CAP} 1 0.03
-  - mmoitem{type=MATERIAL;id=DA_CUONG_HOA_GIAP_SIEU_CAP} 1 0.03
-  - mmoitem{type=MATERIAL;id=TINHTHE_CUONGHOA_VUKHI} 1 0.02
-  - mmoitem{type=MATERIAL;id=TINHTHE_CUONGHOA_GIAP} 1 0.02
+  - mmoitem{type=MATERIAL;id=DA_CUONG_HOA_VU_KHI_SIEU_CAP} 1 0.015
+  - mmoitem{type=MATERIAL;id=DA_CUONG_HOA_GIAP_SIEU_CAP} 1 0.015
 
 prison_rank8_elite_drops:
   Drops:
-  - mmoitem{type=MATERIAL;id=DA_CUONG_HOA_VU_KHI_SIEU_CAP} 1 0.06
-  - mmoitem{type=MATERIAL;id=DA_CUONG_HOA_GIAP_SIEU_CAP} 1 0.06
-  - mmoitem{type=MATERIAL;id=TINHTHE_CUONGHOA_VUKHI} 1 0.05
-  - mmoitem{type=MATERIAL;id=TINHTHE_CUONGHOA_GIAP} 1 0.05
-  - mmoitem{type=MATERIAL;id=DA_DUC_LO_4} 1 0.015
+  - mmoitem{type=MATERIAL;id=DA_CUONG_HOA_VU_KHI_SIEU_CAP} 1 0.03
+  - mmoitem{type=MATERIAL;id=DA_CUONG_HOA_GIAP_SIEU_CAP} 1 0.03
+  - mmoitem{type=MATERIAL;id=DA_DUC_LO_4} 1 0.0075
 
 prison_rank8_boss_drops:
   Drops:
   - mmoitem{type=MATERIAL;id=MANH_LINH_HON_SIEU_CAP} 1 1.0
   - mmoitem{type=MATERIAL;id=DA_CUONG_HOA_VU_KHI_SIEU_CAP} 1 0.12
   - mmoitem{type=MATERIAL;id=DA_CUONG_HOA_GIAP_SIEU_CAP} 1 0.12
-  - mmoitem{type=MATERIAL;id=TINHTHE_CUONGHOA_VUKHI} 1 0.10
-  - mmoitem{type=MATERIAL;id=TINHTHE_CUONGHOA_GIAP} 1 0.10
   - mmoitem{type=MATERIAL;id=DA_DUC_LO_4} 1 0.04
   - mmoitem{type=MATERIAL;id=MANH_HUY_HIEU_TRIEU_HOI} 1 0.45
   - mmoitem{type=MATERIAL;id=MANH_LONG_TOC} 1 0.22
   - free_jewelry_key_drop 1 0.12
 
-# ---------------- RANK 9: VƯỢT NGỤC (HUYỀN THOẠI & THIÊN MỆNH) ----------------
+# ---------------- RANK 9: VƯỢT NGỤC — đá 1.5/3/10%; Thiên Mệnh chỉ Boss ----------------
 prison_rank9_normal_drops:
   Drops:
-  - mmoitem{type=MATERIAL;id=DA_CUONG_HOA_VU_KHI_HUYEN_THOAI} 1 0.03
-  - mmoitem{type=MATERIAL;id=DA_CUONG_HOA_GIAP_HUYEN_THOAI} 1 0.03
-  - mmoitem{type=MATERIAL;id=DA_CUONG_HOA_THIEN_MENH} 1 0.005
-  - mmoitem{type=MATERIAL;id=TINHTHE_CUONGHOA_VUKHI} 1 0.02
-  - mmoitem{type=MATERIAL;id=TINHTHE_CUONGHOA_GIAP} 1 0.02
+  - mmoitem{type=MATERIAL;id=DA_CUONG_HOA_VU_KHI_HUYEN_THOAI} 1 0.015
+  - mmoitem{type=MATERIAL;id=DA_CUONG_HOA_GIAP_HUYEN_THOAI} 1 0.015
 
 prison_rank9_elite_drops:
   Drops:
-  - mmoitem{type=MATERIAL;id=DA_CUONG_HOA_VU_KHI_HUYEN_THOAI} 1 0.06
-  - mmoitem{type=MATERIAL;id=DA_CUONG_HOA_GIAP_HUYEN_THOAI} 1 0.06
-  - mmoitem{type=MATERIAL;id=DA_CUONG_HOA_THIEN_MENH} 1 0.015
-  - mmoitem{type=MATERIAL;id=TINHTHE_CUONGHOA_VUKHI} 1 0.05
-  - mmoitem{type=MATERIAL;id=TINHTHE_CUONGHOA_GIAP} 1 0.05
-  - mmoitem{type=MATERIAL;id=DA_DUC_LO_5} 1 0.01
+  - mmoitem{type=MATERIAL;id=DA_CUONG_HOA_VU_KHI_HUYEN_THOAI} 1 0.03
+  - mmoitem{type=MATERIAL;id=DA_CUONG_HOA_GIAP_HUYEN_THOAI} 1 0.03
+  - mmoitem{type=MATERIAL;id=DA_DUC_LO_5} 1 0.005
 
 prison_rank9_boss_drops:
   Drops:
@@ -256,8 +202,6 @@ prison_rank9_boss_drops:
   - mmoitem{type=MATERIAL;id=DA_CUONG_HOA_VU_KHI_HUYEN_THOAI} 1 0.10
   - mmoitem{type=MATERIAL;id=DA_CUONG_HOA_GIAP_HUYEN_THOAI} 1 0.10
   - mmoitem{type=MATERIAL;id=DA_CUONG_HOA_THIEN_MENH} 1 0.04
-  - mmoitem{type=MATERIAL;id=TINHTHE_CUONGHOA_VUKHI} 1 0.10
-  - mmoitem{type=MATERIAL;id=TINHTHE_CUONGHOA_GIAP} 1 0.10
   - mmoitem{type=MATERIAL;id=DA_DUC_LO_5} 1 0.03
   - mmoitem{type=MATERIAL;id=DA_DUC_LO_THIEN_MENH} 1 0.01
   - mmoitem{type=MATERIAL;id=MANH_HUY_HIEU_TRIEU_HOI} 1 0.50

@@ -18,44 +18,50 @@ Toàn bộ tỷ lệ rơi đồ của quái Nhà Tù đã được tách riêng 
 - **Đá Cường Hóa Cao Cấp (Rank 5-6):** `DA_CUONG_HOA_VU_KHI_CAO_CAP`, `DA_CUONG_HOA_GIAP_CAO_CAP`
 - **Đá Cường Hóa Siêu Cấp (Rank 7-8):** `DA_CUONG_HOA_VU_KHI_SIEU_CAP`, `DA_CUONG_HOA_GIAP_SIEU_CAP`
 - **Đá Huyền Thoại & Thiên Mệnh (Rank 9 / Ma Vương):** `DA_CUONG_HOA_VU_KHI_HUYEN_THOAI`, `DA_CUONG_HOA_GIAP_HUYEN_THOAI`, `DA_CUONG_HOA_THIEN_MENH`
-- **Tinh thể rèn (mọi rank):** `TINHTHE_CUONGHOA_VUKHI`, `TINHTHE_CUONGHOA_GIAP` — dùng tại Lò Rèn vũ khí/giáp
+- Hệ `TINHTHE_CUONGHOA_VUKHI` / `TINHTHE_CUONGHOA_GIAP` đã được loại bỏ khỏi gameplay và bảng drop.
 - **Đá đục lỗ (Elite/Boss):** `DA_DUC_LO_1`…`5`, Boss R9 thêm `DA_DUC_LO_THIEN_MENH`
 - **Mảnh Huy Hiệu Triệu Hồi (Boss Rank 1-9):** `MANH_HUY_HIEU_TRIEU_HOI`
 - **Mảnh Long Tộc (Boss Rank 1-9):** `MANH_LONG_TOC`
 - **Tinh Thể Hủy Diệt (Ma Vương):** `TINHTHE_HUY_DIET` — đổi tại Bàn Chế Huy Hiệu → Đá Thiên Mệnh / Đục lỗ TM
 - **Chìa:** `chia_khoa_trang_suc_free` (droptable), `chia_khoa_ruong_ngoc` (skill 50%)
 
-### 2. Bảng Tỷ Lệ Drop (cập nhật 2026-07-30)
+### 2. Bảng Tỷ Lệ Drop (cập nhật 2026-08-06)
 
 #### Đá cường hóa (mỗi dòng vũ khí / giáp)
 
 | Band | Normal | Elite | Boss |
 | :--- | ---: | ---: | ---: |
-| Rank 1–2 | 5% | 10% | 18% |
-| Rank 3–4 | 4% | 8% | 15% |
-| Rank 5–6 | 3.5% | 7% | 14% |
-| Rank 7–8 | 3% | 6% | 12% |
-| Rank 9 HT | 3% | 6% | 10% |
-| Rank 9 Thiên Mệnh | 0.5% | 1.5% | 4% |
+| Rank 1–2 | 2,5% | 5% | 18% |
+| Rank 3–4 | 2% | 4% | 15% |
+| Rank 5–6 | 1,75% | 3,5% | 14% |
+| Rank 7–8 | 1,5% | 3% | 12% |
+| Rank 9 Huyền Thoại | 1,5% | 3% | 10% |
+| Rank 9 Thiên Mệnh | — | — | 4% |
 
-#### Tinh thể rèn (mọi rank)
-
-| Tier | VUKHI | GIAP |
-| :--- | ---: | ---: |
-| Normal | 2% | 2% |
-| Elite | 5% | 5% |
-| Boss | 10% | 10% |
+> Mỗi dòng vũ khí và giáp roll độc lập. `DA_CUONG_HOA_THIEN_MENH` không còn
+> rơi từ mob thường hoặc Elite; chỉ Boss rank 9 và Ma Vương có thể rơi.
 
 #### Đá đục lỗ (Elite + Boss)
 
 | Rank | Item | Elite | Boss |
 | ---: | :--- | ---: | ---: |
-| 1–2 | `DA_DUC_LO_1` | 2% | 6% |
-| 3–4 | `DA_DUC_LO_2` | 2% | 5% |
-| 5–6 | `DA_DUC_LO_3` | 1.5% | 4% |
-| 7–8 | `DA_DUC_LO_4` | 1.5% | 4% |
-| 9 | `DA_DUC_LO_5` | 1% | 3% |
+| 1–2 | `DA_DUC_LO_1` | 1% | 6% |
+| 3–4 | `DA_DUC_LO_2` | 1% | 5% |
+| 5–6 | `DA_DUC_LO_3` | 0,75% | 4% |
+| 7–8 | `DA_DUC_LO_4` | 0,75% | 4% |
+| 9 | `DA_DUC_LO_5` | 0,5% | 3% |
 | 9 | `DA_DUC_LO_THIEN_MENH` | — | 1% |
+
+#### Mảnh Linh Hồn Boss Pity
+
+| Boss | Item | Tỷ lệ / số lượng |
+| :--- | :--- | :---: |
+| Rank 1–2 | `MANH_LINH_HON_SO_CAP` | 100% ×1 |
+| Rank 3–4 | `MANH_LINH_HON_TRUNG_CAP` | 100% ×1 |
+| Rank 5–6 | `MANH_LINH_HON_CAO_CAP` | 100% ×1 |
+| Rank 7–8 | `MANH_LINH_HON_SIEU_CAP` | 100% ×1 |
+| Rank 9 | `MANH_LINH_HON_HUYEN_THOAI` | 100% ×1 |
+| Ma Vương | `MANH_LINH_HON_HUYEN_THOAI` | 100% ×2 |
 
 #### Boss extras + chìa
 
@@ -73,7 +79,9 @@ Toàn bộ tỷ lệ rơi đồ của quái Nhà Tù đã được tách riêng 
 | :--- | ---: |
 | `TINHTHE_HUY_DIET` | 25% |
 | `DA_CUONG_HOA_THIEN_MENH` | 15% |
-| `TINHTHE_CUONGHOA_VUKHI` / `GIAP` | 20% mỗi loại |
+| `DA_CUONG_HOA_VU_KHI_HUYEN_THOAI` | 20% |
+| `DA_CUONG_HOA_GIAP_HUYEN_THOAI` | 20% |
+| `MANH_LINH_HON_HUYEN_THOAI` | 100% ×2 |
 | Chìa trang sức free | 15% |
 | Chìa ngọc (skill) | 50% |
 

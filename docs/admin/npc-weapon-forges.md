@@ -20,7 +20,7 @@ NPC **chưa đặt in-game** — chỉ chuẩn bị station + lệnh Citizens đ
 
 Mỗi station: **Kiếm / Rìu Chiến / Trượng Phép** nâng `I→II→III→IV→V` (12 recipe).
 
-**Nguyên liệu:** vũ khí tier trước + `DA_NANG_CAP_<RANK>` + `NEN_DOI_<RANK>` + `TINHTHE_CUONGHOA_VUKHI` ×2.
+**Nguyên liệu:** xem trực tiếp recipe sống trong station tương ứng; hệ Tinh Thể Cường Hóa Vũ Khí/Giáp đã được loại bỏ.
 
 **Tỷ lệ / số đá:** mirror `forge-*` (cúp). Xịt giữ vũ khí, mất nguyên liệu tiêu hao.
 
@@ -31,7 +31,6 @@ Mỗi station: **Kiếm / Rìu Chiến / Trượng Phép** nâng `I→II→III�
 /mi give SWORD SWORD_TAN_BINH_1
 /mi give MATERIAL DA_NANG_CAP_TAN_BINH 64
 /mi give MATERIAL NEN_DOI_TAN_BINH 64
-/mi give MATERIAL TINHTHE_CUONGHOA_VUKHI 16
 ```
 
 Reload sau khi sửa station: `/mi reload all` (hoặc `/mi reload stations`).
