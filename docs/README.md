@@ -1,347 +1,62 @@
-# 📘 HƯỚNG DẪN VẬN HÀNH HỆ THỐNG TINH LUYỆN & NÂNG CẤP CÚP (MMOITEMS 9 RANK)
-
-> Lối chơi tổng: [`loi-choi.md`](loi-choi.md) · Mục lục docs: [`INDEX.md`](INDEX.md) · Bảng số cuốc: [`pickaxe-upgrade-notes.md`](pickaxe-upgrade-notes.md)
-
-Tài liệu hướng dẫn chi tiết cấu trúc item, trạm rèn, tỷ lệ xịt/thành công, công thức cấp số nhân và cách gán NPC cho hệ thống Prison.
-
----
-
-## 🛠️ 1. Lệnh Lấy Vật Phẩm Để Test (Admin Commands)
-
-### ⛏️ Lấy Cúp (TOOL):
-Lệnh tổng quát: `/mi give TOOL <ITEM_ID> [player] [amount]`
-* **Item ID mẫu**: `PICKAXE_TAN_BINH_1` đến `PICKAXE_VUOT_NGUC_5`
-
-### 🗡️ Lấy Kiếm (SWORD):
-Lệnh tổng quát: `/mi give SWORD <ITEM_ID> [player] [amount]`
-* **Item ID mẫu**: `SWORD_TAN_BINH_1` đến `SWORD_VUOT_NGUC_5`
-
-### 🪓 Lấy Rìu Chiến Cận Chiến (AXE):
-Lệnh tổng quát: `/mi give AXE <ITEM_ID> [player] [amount]`
-* **Item ID mẫu**: `AXE_TAN_BINH_1` đến `AXE_VUOT_NGUC_5`
-
-### 🪄 Lấy Trượng Phép (STAFF):
-Lệnh tổng quát: `/mi give STAFF <ITEM_ID> [player] [amount]`
-* **Item ID mẫu**: `STAFF_TAN_BINH_1` đến `STAFF_VUOT_NGUC_5`
-
----
-
-### 💎 Lấy Nguyên Liệu Tinh Luyện & Đá Nâng Cấp (MATERIAL):
-Lệnh tổng quát: `/mi give MATERIAL <ITEM_ID> [player] [amount]`
-
-| Rank | Quặng Tinh Luyện (Dạng BLOCK) | Cường Hóa Thạch (Dạng GEM/INGOT) |
-| :--- | :--- | :--- |
-| **Rank 1: Tân Binh** | `NEN_DOI_TAN_BINH` | `DA_NANG_CAP_TAN_BINH` |
-| **Rank 2: Tù Nhân** | `NEN_DOI_TU_NHAN` | `DA_NANG_CAP_TU_NHAN` |
-| **Rank 3: Lao Công** | `NEN_DOI_LAO_CONG` | `DA_NANG_CAP_LAO_CONG` |
-| **Rank 4: Thợ Đào** | `NEN_DOI_THO_DAO` | `DA_NANG_CAP_THO_DAO` |
-| **Rank 5: Đội Trưởng** | `NEN_DOI_DOI_TRUONG` | `DA_NANG_CAP_DOI_TRUONG` |
-| **Rank 6: Phó Quản Ngục** | `NEN_DOI_PHO_QUAN_NGUC` | `DA_NANG_CAP_PHO_QUAN_NGUC` |
-| **Rank 7: Quản Ngục** | `NEN_DOI_QUAN_NGUC` | `DA_NANG_CAP_QUAN_NGUC` |
-| **Rank 8: Bá Chủ Ngục Tù** | `NEN_DOI_BA_CHU_NGUC_TU` | `DA_NANG_CAP_BA_CHU_NGUC_TU` |
-| **Rank 9: Vượt Ngục** | `NEN_DOI_VUOT_NGUC` & `NEN_BA_VUOT_NGUC` | `DA_NANG_CAP_VUOT_NGUC` |
-
-### Recipe Tinh Luyện (live — `refinery-*.yml`, cập nhật 2026-07-30)
-
-Block → 1 `NEN_DOI` (hiếm hơn = ít block hơn). NÊN → 1 `DA_NANG_CAP`:
-
-| Rank | Station | Block → 1 NÊN (chính) | NÊN / 1 ĐÁ |
-| ---: | --- | --- | ---: |
-| 1 | `refinery-rookie` | Smooth×6 / Cobble×24 / Coal Block×3 | 2 |
-| 2 | `refinery-prisoner` | Smooth×10 / Coal×5 / Iron×4 | 3 |
-| 3 | `refinery-worker` | Iron×5 / Coal×6 / Gold×4 / Lapis×4 | 4 |
-| 4 | `refinery-miner` | Gold×5 / Lapis×6 / Redstone×5 / Diamond×4 | 5 |
-| 5 | `refinery-captain` | Redstone×6 / Diamond×5 / Emerald×4 / Iron×10 | 6 |
-| 6 | `refinery-vice-warden` | Diamond×6 / Emerald×6 / Gold Block×10 / Gold Ingot×36 | 8 |
-| 7 | `refinery-warden` | Emerald×7 / Diamond×7 / Quartz×10 / Debris×5 | 10 |
-| 8 | `refinery-overlord` | Netherite×3 / Emerald×10 / Diamond×10 / Debris×8 | 12 |
-| 9 | `refinery-jailbreak` | Netherite×4 / Emerald×12 / Diamond×12 / Debris×6; rồi NÊN×6→`NEN_BA`, `NEN_BA`×4→ĐÁ (=24 NÊN/ĐÁ) | 24 |
-
----
-
-## 🏛️ 2. Cấu Hình & Quản Lý NPC Mở Trạm GUI (Crafting Stations)
-
-Hệ thống được tách thành 3 loại NPC cho mỗi Rank để người chơi tương tác rõ ràng.
-
-### 🤖 A. Hướng Dẫn Tạo & Lệnh Quản Lý NPC (Citizens & CommandNPC)
-
-#### 1. Tạo & Cài Đặt NPC:
-* **Tạo NPC mới**: `/npc create <Tên NPC> --type PLAYER` (Ví dụ: `/npc create &f&l✦ Luyện Tân Binh --type PLAYER`)
-* **Đổi skin cho NPC**: `/npc skin <tên_player_hoặc_skin>`
-  * *Skin Tinh Luyện (Merchant/Quản đốc)*: `Merchant`, `Alchemist`, `Worker`, `Trader`
-  * *Skin Lò Rèn Cúp (Thợ Đào Mỏ)*: `Miner`, `Dwarf`, `Diggy`, `Blacksmith`
-  * *Skin Lò Rèn Giáp (Vệ Binh/Quản Ngục)*: `Guard`, `Warden`, `Knight`, `Armor`
-* **Bật/Tắt chế độ NPC xoay đầu nhìn người chơi khi đi qua**: `/npc look` (hoặc `/npc lookclose`)
-* **Chỉnh độ cao của tên bay trên đầu NPC**: `/npc height 2.5` (nâng cao lên 2.5 cho đẹp)
-
-#### 2. Gán Lệnh Mở GUI Cho NPC (Fix lỗi "Please specify a valid player"):
-> ⚠️ **Lý do lỗi:** Mặc định Citizens chạy lệnh dưới quyền Console, nên cần truyền thêm tên người chơi `<p>`.
-* **Cách 1: Chạy dưới quyền Console (Khuyên dùng - tự động bypass quyền & có tham số `<p>`):**
-  `/npc cmd add mi stations open <STATION_ID> <p>`
-* **Cách 2: Chạy dưới quyền OP (`-o` flag):**
-  `/npc cmd add -o mi stations open <STATION_ID>`
-* **Cách 3: Chạy dưới quyền Người Chơi thường (`-p` flag):**
-  `/npc cmd add -p mi stations open <STATION_ID>` *(Yêu cầu người chơi có quyền `mmoitems.station.<STATION_ID>`)*
-
-#### 3. Xóa / Tìm Lại NPC Khi Bị Mất Vị Trí:
-* **Xóa NPC trực tiếp theo ID/Tên (không cần tìm đến tận nơi):**
-  `/npc remove <ID>` hoặc `/npc remove <Tên_NPC>`
-* **Xem danh sách tất cả NPC (kèm ID & thế giới):**
-  `/npc list` (hoặc `/npc list 2`, `/npc list 3`)
-* **Chọn NPC theo ID:**
-  `/npc select <ID>`
-* **Kéo NPC bị mất về vị trí bạn đang đứng:**
-  `/npc tphere`
-* **Dịch chuyển bạn đến tận vị trí NPC:**
-  `/npc tp`
-
----
-
-### 📜 B. Danh Sách Lệnh Tạo & Gán NPC Nhóm Theo 9 Rank (Dùng Skin Chuẩn Đã Kiểm Tra)
-
-#### ⚪ Rank 1: Tân Binh (Rookie)
-```bash
-# 1. Trạm Tinh Luyện
-/npc create &f&l✦ Luyện Tân Binh --type PLAYER
-/npc skin Merchant
-/npc cmd add mi stations open refinery-rookie <p>
-
-# 2. Lò Rèn Cúp
-/npc create &f&l⚔ Rèn Tân Binh --type PLAYER
-/npc skin Steve
-/npc cmd add mi stations open forge-rookie <p>
-
-# 3. Lò Rèn Giáp
-/npc create &f&l◆ Giáp Tân Binh --type PLAYER
-/npc skin Guard
-/npc cmd add mi stations open armor-forge-rookie <p>
-```
-
-#### 🟢 Rank 2: Tù Nhân (Prisoner)
-```bash
-# 1. Trạm Tinh Luyện
-/npc create &a&l✦ Luyện Tù Nhân --type PLAYER
-/npc skin Trader
-/npc cmd add mi stations open refinery-prisoner <p>
-
-# 2. Lò Rèn Cúp
-/npc create &a&l⚔ Rèn Tù Nhân --type PLAYER
-/npc skin Miner
-/npc cmd add mi stations open forge-prisoner <p>
-
-# 3. Lò Rèn Giáp
-/npc create &a&l◆ Giáp Tù Nhân --type PLAYER
-/npc skin Knight
-/npc cmd add mi stations open armor-forge-prisoner <p>
-```
-
-#### 🔵 Rank 3: Lao Công (Worker)
-```bash
-# 1. Trạm Tinh Luyện
-/npc create &b&l✦ Luyện Lao Công --type PLAYER
-/npc skin Alchemist
-/npc cmd add mi stations open refinery-worker <p>
-
-# 2. Lò Rèn Cúp
-/npc create &b&l⚔ Rèn Lao Công --type PLAYER
-/npc skin Dwarf
-/npc cmd add mi stations open forge-worker <p>
-
-# 3. Lò Rèn Giáp
-/npc create &b&l◆ Giáp Lao Công --type PLAYER
-/npc skin Captain
-/npc cmd add mi stations open armor-forge-worker <p>
-```
-
-#### 🟡 Rank 4: Thợ Đào (Miner)
-```bash
-# 1. Trạm Tinh Luyện
-/npc create &e&l✦ Luyện Thợ Đào --type PLAYER
-/npc skin Merchant
-/npc cmd add mi stations open refinery-miner <p>
-
-# 2. Lò Rèn Cúp
-/npc create &e&l⚔ Rèn Thợ Đào --type PLAYER
-/npc skin Miner
-/npc cmd add mi stations open forge-miner <p>
-
-# 3. Lò Rèn Giáp
-/npc create &e&l◆ Giáp Thợ Đào --type PLAYER
-/npc skin Knight
-/npc cmd add mi stations open armor-forge-miner <p>
-```
-
-#### 🟠 Rank 5: Đội Trưởng (Captain)
-```bash
-# 1. Trạm Tinh Luyện
-/npc create &6&l✦ Luyện Đội Trưởng --type PLAYER
-/npc skin Trader
-/npc cmd add mi stations open refinery-captain <p>
-
-# 2. Lò Rèn Cúp
-/npc create &6&l⚔ Rèn Đội Trưởng --type PLAYER
-/npc skin Blacksmith
-/npc cmd add mi stations open forge-captain <p>
-
-# 3. Lò Rèn Giáp
-/npc create &6&l◆ Giáp Đội Trưởng --type PLAYER
-/npc skin Captain
-/npc cmd add mi stations open armor-forge-captain <p>
-```
-
-#### 🔴 Rank 6: Phó Quản Ngục (Vice Warden)
-```bash
-# 1. Trạm Tinh Luyện
-/npc create &c&l✦ Luyện Phó Quản Ngục --type PLAYER
-/npc skin Alchemist
-/npc cmd add mi stations open refinery-vice-warden <p>
-
-# 2. Lò Rèn Cúp
-/npc create &c&l⚔ Rèn Phó Quản Ngục --type PLAYER
-/npc skin Dwarf
-/npc cmd add mi stations open forge-vice-warden <p>
-
-# 3. Lò Rèn Giáp
-/npc create &c&l◆ Giáp Phó Quản Ngục --type PLAYER
-/npc skin Guard
-/npc cmd add mi stations open armor-forge-vice-warden <p>
-```
-
-#### 🟣 Rank 7: Quản Ngục (Warden)
-```bash
-# 1. Trạm Tinh Luyện
-/npc create &d&l✦ Luyện Quản Ngục --type PLAYER
-/npc skin King
-/npc cmd add mi stations open refinery-warden <p>
-
-# 2. Lò Rèn Cúp
-/npc create &d&l⚔ Rèn Quản Ngục --type PLAYER
-/npc skin Blacksmith
-/npc cmd add mi stations open forge-warden <p>
-
-# 3. Lò Rèn Giáp
-/npc create &d&l◆ Giáp Quản Ngục --type PLAYER
-/npc skin Warden
-/npc cmd add mi stations open armor-forge-warden <p>
-```
-
-#### 🔮 Rank 8: Bá Chủ Ngục Tù (Overlord)
-```bash
-# 1. Trạm Tinh Luyện
-/npc create &5&l✦ Luyện Bá Chủ --type PLAYER
-/npc skin King
-/npc cmd add mi stations open refinery-overlord <p>
-
-# 2. Lò Rèn Cúp
-/npc create &5&l⚔ Rèn Bá Chủ --type PLAYER
-/npc skin Miner
-/npc cmd add mi stations open forge-overlord <p>
-
-# 3. Lò Rèn Giáp
-/npc create &5&l◆ Giáp Bá Chủ --type PLAYER
-/npc skin Warden
-/npc cmd add mi stations open armor-forge-overlord <p>
-```
-
-#### 🔥 Rank 9: Vượt Ngục (Jailbreak)
-```bash
-# 1. Trạm Tinh Luyện
-/npc create &4&l✦ Luyện Vượt Ngục --type PLAYER
-/npc skin Merchant
-/npc cmd add mi stations open refinery-jailbreak <p>
-
-# 2. Lò Rèn Cúp
-/npc create &4&l⚔ Rèn Vượt Ngục --type PLAYER
-/npc skin Blacksmith
-/npc cmd add mi stations open forge-jailbreak <p>
-
-# 3. Lò Rèn Giáp
-/npc create &4&l◆ Giáp Vượt Ngục --type PLAYER
-/npc skin Knight
-/npc cmd add mi stations open armor-forge-jailbreak <p>
-```
-
-### 🗡️ C. Lò Rèn Vũ Khí (NPC chưa đặt — chỉ lệnh)
-
-Chi tiết: [`npc-weapon-forge-stations-notes.md`](npc-weapon-forge-stations-notes.md).
-
-| Rank | Station ID | Lệnh gán NPC |
-| --- | --- | --- |
-| 1 Tân Binh | `weapon-forge-rookie` | `/npc cmd add mi stations open weapon-forge-rookie <p>` |
-| 2 Tù Nhân | `weapon-forge-prisoner` | `... weapon-forge-prisoner <p>` |
-| 3 Lao Công | `weapon-forge-worker` | `... weapon-forge-worker <p>` |
-| 4 Thợ Đào | `weapon-forge-miner` | `... weapon-forge-miner <p>` |
-| 5 Đội Trưởng | `weapon-forge-captain` | `... weapon-forge-captain <p>` |
-| 6 Phó Quản Ngục | `weapon-forge-vice-warden` | `... weapon-forge-vice-warden <p>` |
-| 7 Quản Ngục | `weapon-forge-warden` | `... weapon-forge-warden <p>` |
-| 8 Bá Chủ | `weapon-forge-overlord` | `... weapon-forge-overlord <p>` |
-| 9 Vượt Ngục | `weapon-forge-jailbreak` | `... weapon-forge-jailbreak <p>` |
-
-Mẫu tạo (Rank 1):
-```bash
-/npc create &f&l⚔ Vũ Khí Tân Binh --type PLAYER
-/npc skin Blacksmith
-/npc cmd add mi stations open weapon-forge-rookie <p>
-```
-
-Test không NPC: `/mi stations open weapon-forge-rookie`
-
----
-
-## ⚖️ 3. Cơ Chế Thăng Tiến & Tỷ Lệ Xịt/Thành Công
-
-### 📈 Bảng Cấp Số Nhân Yêu Cầu Nguyên Liệu Nâng Cấp Cúp:
-
-| Rank / Lò Rèn | Cúp I ➔ II | Cúp II ➔ III | Cúp III ➔ IV | Cúp IV ➔ V (Cấp Cuối) |
-| :--- | :---: | :---: | :---: | :---: |
-| **Rank 1: Tân Binh** | **2x** CHT + **2x** QTL | **4x** CHT + **4x** QTL | **8x** CHT + **8x** QTL | **16x** CHT + **16x** QTL |
-| **Rank 2: Tù Nhân** | **3x** CHT + **3x** QTL | **6x** CHT + **6x** QTL | **12x** CHT + **12x** QTL | **24x** CHT + **24x** QTL |
-| **Rank 3: Lao Công** | **4x** CHT + **4x** QTL | **8x** CHT + **8x** QTL | **16x** CHT + **16x** QTL | **32x** CHT + **32x** QTL |
-| **Rank 4: Thợ Đào** | **5x** CHT + **5x** QTL | **10x** CHT + **10x** QTL | **20x** CHT + **20x** QTL | **40x** CHT + **40x** QTL |
-| **Rank 5: Đội Trưởng** | **6x** CHT + **6x** QTL | **12x** CHT + **12x** QTL | **24x** CHT + **24x** QTL | **48x** CHT + **48x** QTL |
-| **Rank 6: Phó Quản Ngục** | **7x** CHT + **7x** QTL | **14x** CHT + **14x** QTL | **28x** CHT + **28x** QTL | **56x** CHT + **56x** QTL |
-| **Rank 7: Quản Ngục** | **8x** CHT + **8x** QTL | **16x** CHT + **16x** QTL | **32x** CHT + **32x** QTL | **64x** CHT + **64x** QTL |
-| **Rank 8: Bá Chủ Ngục Tù** | **10x** CHT + **10x** QTL | **20x** CHT + **20x** QTL | **40x** CHT + **40x** QTL | **64x** CHT + **64x** QTL |
-| **Rank 9: Vượt Ngục** | **12x** CHT + **12x** QTL | **24x** CHT + **24x** QTL | **48x** CHT + **48x** QTL | **64x** CHT + **64x** QTL |
-
----
-
-### 🎲 Bảng Tỷ Lệ Thành Công Nâng Cấp Cúp:
-
-| Rank / Lò Rèn | Cúp I ➔ II | Cúp II ➔ III | Cúp III ➔ IV | Cúp IV ➔ V (Cấp Cuối) |
-| :--- | :---: | :---: | :---: | :---: |
-| **Rank 1: Tân Binh** | **85%** | **75%** | **65%** | **55%** |
-| **Rank 2: Tù Nhân** | **80%** | **70%** | **60%** | **50%** |
-| **Rank 3: Lao Công** | **75%** | **65%** | **55%** | **45%** |
-| **Rank 4: Thợ Đào** | **70%** | **60%** | **50%** | **40%** |
-| **Rank 5: Đội Trưởng** | **65%** | **55%** | **45%** | **35%** |
-| **Rank 6: Phó Quản Ngục** | **60%** | **50%** | **40%** | **30%** |
-| **Rank 7: Quản Ngục** | **55%** | **45%** | **35%** | **25%** |
-| **Rank 8: Bá Chủ Ngục Tù** | **50%** | **40%** | **30%** | **20%** |
-| **Rank 9: Vượt Ngục** | **45%** | **35%** | **25%** | **15%** |
-
-### 🛡️ Cơ chế thất bại (Xịt):
-- **KHÔNG BỊ MẤT CÚP**: Cúp cấp dưới đặt làm nguyên liệu đầu vào luôn được bảo toàn khi xịt.
-- Chỉ bị khấu trừ các nguyên liệu tiêu hao (`Cường Hóa Thạch` & `Quặng Tinh Luyện`) dùng cho lượt ép đó.
-
----
-
-## ⚡ 4. Lệnh Reload MMOItems
-Sau khi chỉnh sửa bất kỳ file config nào trong MMOItems:
-* Gõ lệnh in-game: `/mi reload` (yêu cầu quyền OP hoặc `mmoitems.admin`).
-
----
-
-## ⚙️ 5. Các Script Hỗ Trợ Tự Động (Scripts & Utilities)
-
-Tệp script tự động khởi tạo và cập nhật hàng loạt vũ khí theo 9 Rank được lưu tại:
-* 📁 **[scripts/generate_weapons.js](file:///d:/server-minecraft/plugins/MMOItems/scripts/generate_weapons.js)**
-
-### 🚀 Cách sử dụng:
-Nếu bạn muốn chỉnh sửa lại công thức tính sát thương / cấp độ vũ khí toàn bộ 135 vật phẩm (Kiếm, Rìu Chiến, Trượng Phép):
-1. Mở file [generate_weapons.js](file:///d:/server-minecraft/plugins/MMOItems/scripts/generate_weapons.js) và thay đổi công thức chỉ số trong các hàm `getSwordStats`, `getAxeStats`, `getStaffStats`.
-2. Mở Terminal tại thư mục `plugins/MMOItems` và gõ:
-   ```bash
-   node scripts/generate_weapons.js
-   ```
-3. Script sẽ tự động ghi đè và tính toán lại 3 file `item/sword.yml`, `item/axe.yml`, `item/staff.yml` lập tức.
+# Tài liệu AetherMine Prison-RPG
+
+Đây là điểm bắt đầu duy nhất của bộ tài liệu server. Chọn đúng nhóm bên dưới để tránh dùng nhầm ghi chú lịch sử hoặc cấu hình đã ngừng hoạt động.
+
+> Cập nhật: 2026-08-06 · Mục lục đầy đủ: [`INDEX.md`](INDEX.md)
+
+## Cấu trúc thư mục
+
+| Thư mục | Phạm vi |
+| --- | --- |
+| `player/` | Hướng dẫn và journey dành cho người chơi |
+| `admin/` | Thiết lập NPC, quyền, world và thao tác quản trị |
+| `systems/` | Thiết kế và cấu hình nguồn của từng hệ thống |
+| `operations/` | Runbook deploy, reset, backup và hiệu năng |
+| `reference/` | Bảng tra cứu item, stat, spawner và rank |
+| `archive/` | Kế hoạch hoặc hệ thống lịch sử, không dùng để vận hành production |
+
+## Người chơi
+
+1. Bắt đầu với [`gameplay.md`](player/gameplay.md) để hiểu vòng lặp đào, chiến đấu và Bang Hội.
+2. Xem [`gangs.md`](player/gangs.md) cho Bang Hội, KOTH và Bang Chiến.
+3. Xem [`systems/rebirth-attributes.md`](systems/rebirth-attributes.md) cho Chuyển Sinh và điểm thuộc tính.
+4. Xem [`player/plots.md`](player/plots.md) cho khu đất cá nhân.
+
+## Admin và vận hành
+
+- [`admin/ranks-permissions-worlds.md`](admin/ranks-permissions-worlds.md): rank, VIP, quyền, world và inventory.
+- [`systems/coreplugin-modules.md`](systems/coreplugin-modules.md): bản đồ toàn bộ module CorePlugin, lệnh reload và config nguồn.
+- [`systems/equipment-crafting.md`](systems/equipment-crafting.md): MMOItems, trạm tinh luyện/rèn và NPC.
+- [`operations/deploy-sync.md`](operations/deploy-sync.md): preview, deploy và kiểm tra sau đồng bộ.
+- [`operations/reset-backup.md`](operations/reset-backup.md): reset dữ liệu local, backup và khôi phục.
+
+## Nguồn sự thật
+
+Khi tài liệu và config mâu thuẫn, config đang chạy là nguồn kỹ thuật cuối cùng. Sửa lại tài liệu ngay trong cùng thay đổi.
+
+| Phạm vi | Nguồn chuẩn |
+| --- | --- |
+| Journey và ưu tiên gameplay | [`gameplay.md`](player/gameplay.md) |
+| Prison rank, mine và enchant | `plugins/X-Prison/` |
+| Hệ thống gameplay tùy biến | `plugins/CorePlugin/` |
+| Trang bị và crafting | `plugins/MMOItems/` |
+| Kinh tế bán quặng | [`../DOCS_HE_THONG_PRISON.md`](../DOCS_HE_THONG_PRISON.md) và `plugins/EconomyShopGUI/` |
+| Rank/VIP/permission | `plugins/LuckPerms/setup-all-ranks.txt` và `setup-vip-ranks.txt` |
+| World và inventory | `plugins/Multiverse-Core/`, `plugins/Multiverse-Inventories/`, `plugins/WorldGuard/` |
+
+## Trạng thái tài liệu
+
+- **Live:** mô tả hệ thống đang dùng; phải khớp config.
+- **Draft:** thiết kế hoặc công việc chưa hoàn tất; không dùng làm runbook production.
+- **Deprecated:** hệ thống đã thay thế; chỉ giữ để tra lịch sử.
+- **Reference:** bảng tra cứu, không phải hướng dẫn triển khai.
+
+Các file có chữ `plan`, `phase`, `notes` hoặc nội dung TODO không tự động được coi là nguồn production. Kiểm tra trạng thái trong [`INDEX.md`](INDEX.md) trước khi thao tác.
+
+## Khi cập nhật docs
+
+1. Ghi trạng thái và nguồn config ở đầu tài liệu mới.
+2. Thêm tài liệu vào [`INDEX.md`](INDEX.md).
+3. Không dùng đường dẫn tuyệt đối hoặc đưa credential vào Markdown.
+4. Chạy `python3 scripts/check-docs.py` trước khi commit để kiểm tra link và coverage.
+5. Khi đổi gameplay/config, cập nhật docs liên quan trong cùng commit.

@@ -119,7 +119,7 @@ Upgrade **KOTH Control** rút ngắn capture / kéo dài defense.
 
 MythicMobs đã có `TONG_QUAN_NGUC` và `TONG_QUAN_NGUC_LINH`.
 Spec scheduler/ưu tiên gate đang giữ/điểm kill/cleanup nằm tại
-[`docs/world-pvp-safezone-notes.md`](../../../docs/world-pvp-safezone-notes.md),
+[`docs/systems/world-pvp-safezone.md`](../../../docs/systems/world-pvp-safezone.md),
 mục **“TODO CorePlugin — tự spawn boss và lính war”**.
 
 Tóm tắt yêu cầu: lính ×4 mỗi 30 giây, boss đầu trận + mỗi 5 phút; chọn ngẫu

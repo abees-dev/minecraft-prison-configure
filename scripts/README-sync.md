@@ -14,14 +14,15 @@ Host UltraServers chỉ mở **SFTP**, không có SSH shell → **không dùng �
   ```
 - File `.env` ở root repo (đã có, bị `.gitignore` bỏ qua vì chứa mật khẩu):
   ```env
-  SFTP_HOST=matcha.ultraservers.com
-  SFTP_PORT=60002
-  SFTP_USER="tqfxnkco.10cbb10b"
-  SFTP_PASSWORD='NU9SZrFC6Bs!Dvp'
-  SFTP_PATH='/'
+  SFTP_HOST=sftp.example.com
+  SFTP_PORT=22
+  SFTP_USER="your-user"
+  SFTP_PASSWORD='your-password'
+  SFTP_PATH='/path-on-server'
   ```
   - `SFTP_PASSWORD` nên đặt trong nháy đơn `'...'` vì có ký tự đặc biệt (`!`).
-  - `SFTP_PATH` là thư mục gốc trên server (`/`).
+  - Lấy host/user/path thật từ nơi quản lý secret của đội, không ghi vào docs hoặc commit.
+  - `SFTP_PATH` phải trỏ đúng thư mục server Minecraft trên remote.
 
 ## Cách dùng
 

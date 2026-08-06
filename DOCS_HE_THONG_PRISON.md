@@ -2,7 +2,7 @@
 
 Tài liệu vận hành **bán quặng** (EconomyShopGUI + Bang Hội), tích hợp **LuckPerms**, và ghi chú module X-Prison liên quan bán/đào.
 
-**Nguồn lối chơi:** [`docs/loi-choi.md`](docs/loi-choi.md) · **Mục lục docs:** [`docs/INDEX.md`](docs/INDEX.md)
+**Nguồn lối chơi:** [`docs/player/gameplay.md`](docs/player/gameplay.md) · **Mục lục docs:** [`docs/INDEX.md`](docs/INDEX.md)
 
 Cập nhật: 2026-08-01 — `/sellgui` **không** còn sell-multiplier; multiplier bán chỉ qua **Bang Hội**; command bonus rank đã sửa (thừa kế + home Essentials).
 
@@ -74,7 +74,7 @@ Người chơi **không** dùng Nuke/Layer làm core. Sức đào = cuốc MMOIt
 
 * `supported-pickaxes` đủ material cúp MMOItems.
 * Enchant `countBlocksBroken: true` nếu cần `/blocks` đúng.
-* Đối chiếu [`docs/loi-choi.md`](docs/loi-choi.md) §6.4 + Vulcan `fastbreak`.
+* Đối chiếu [`docs/player/gameplay.md`](docs/player/gameplay.md) §6.4 + Vulcan `fastbreak`.
 
 ---
 
