@@ -35,15 +35,16 @@ options:
     # Chỉ OP/admin có mmocore.class.artificer mới xem/chọn được.
     display: true
     needs-permission: true
+    off-combat-mana-regen: true
 
-resource:
-    stamina:
-        type: MISSING
-        value:
-            base: 6
-            per-level: .2
-            max: 14
-        off-combat: true
+mana:
+    char: ■
+    icon: '&b⚙'
+    color:
+        full: AQUA
+        half: BLUE
+        empty: WHITE
+    name: 'Năng Lượng Arcane'
 
 attributes:
     knockback-resistance:
@@ -58,6 +59,12 @@ attributes:
     movement-speed:
         base: .11
         per-level: 0
+    max-mana:
+        base: 34
+        per-level: 1.35
+    mana-regeneration:
+        base: .26
+        per-level: .04
 
 skills:
     # Skill kế thừa từ Cung Thủ.
@@ -71,6 +78,12 @@ skills:
         level: 1
         max-level: 30
     MINOR_HEALINGS:
+        level: 1
+        max-level: 30
+    EXPLOSIVE_ARROW:
+        level: 1
+        max-level: 30
+    ARROW_SHOWER:
         level: 1
         max-level: 30
 

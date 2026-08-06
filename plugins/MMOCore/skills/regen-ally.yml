@@ -1,11 +1,10 @@
-name: Regen Ally
+name: '&aTái Sinh Đồng Minh'
 lore:
-- Provide a potent and restorative
-- healing effact to any ally
-- in close proximity
+- '&7Ban hiệu ứng tái sinh cho đồng minh gần nhất,'
+- '&7hồi &a{heal} HP &7liên tục trong &e{duration}s&7.'
 - ''
-- '&e{cooldown}s Cooldown'
-- '&9Costs {mana} {mana_name}'
+- '&eHồi chiêu: &f{cooldown}s'
+- '&9Tiêu hao: &f{mana} {mana_name}'
 material: BOOK
 duration:
   base: 4
@@ -25,20 +24,17 @@ delay:
   min: 0
   max: 0
 mana:
-  base: 3
-  per-level: 0.4
-stamina:
-  base: 0
-  per-level: 0
-  min: 0
-  max: 0
+  base: 10.0
+  per-level: 0.0
+  min: 10.0
+  max: 10.0
 cooldown:
   base: 14
   per-level: -0.15
   min: 9.65
   max: 14
 heal:
-  base: 4
-  per-level: 0.2
-  min: 4
-  max: 9.8
+  base: 3.0
+  per-level: 0.25
+  min: 3.0
+  max: 10.25

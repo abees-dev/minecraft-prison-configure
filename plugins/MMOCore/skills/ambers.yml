@@ -1,25 +1,18 @@
-name: Mana Ambers
+name: '&bHổ Phách Ma Năng'
 lore:
-- Dealing magic damage has &630% &7chance
-- of dropping an amber on the ground.
+- '&7Nội tại. Sát thương phép có &630% &7tỷ lệ'
+- '&7làm rơi Hổ Phách Ma Năng.'
 - ''
-- When picked up, ambers refund &9{percent}% &7of your missing mana.
+- '&7Nhặt hổ phách để hồi &9{percent}% &7mana đang thiếu.'
 - ''
-- '&e{cooldown}s Cooldown'
+- '&eHồi nội tại: &f{cooldown}s'
 material: EMERALD
 mana:
-  base: 2.0
-  per-level: 1.0
-  max: 0.0
+  base: 0.0
+  per-level: 0.0
   min: 0.0
-  #Optional: The decimal format used for this skill parameter.
-  decimal-format: '0.#'
+  max: 0.0
 
-stamina:
-  base: 2.0
-  per-level: 1.0
-  max: 0.0
-  min: 0.0
 cooldown:
   base: 3.0
   per-level: -0.1

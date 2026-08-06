@@ -4,22 +4,18 @@ lore:
 - '&7gây &c{damage} &7sát thương diện rộng liên tục.'
 - ''
 - '&eHồi chiêu: &f{cooldown}s'
+- '&9Tiêu hao: &f{mana} {mana_name}'
 material: ARROW
 damage:
-  base: 6.0
-  per-level: 2.0
-  min: 6.0
-  max: 64.0
+  base: 4.0
+  per-level: 0.35
+  min: 4.0
+  max: 14.15
 mana:
-  base: 0.0
+  base: 18.0
   per-level: 0.0
-  min: 0.0
-  max: 0.0
-stamina:
-  base: 0.0
-  per-level: 0.0
-  min: 0.0
-  max: 0.0
+  min: 18.0
+  max: 18.0
 cooldown:
   base: 10.0
   per-level: -0.15

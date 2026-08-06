@@ -7,15 +7,10 @@ lore:
 - '&9Tiêu hao: &f{mana} Mana'
 material: ENDER_PEARL
 mana:
-  base: 15.0
-  per-level: 1.0
-  min: 15.0
-  max: 44.0
-stamina:
-  base: 0.0
+  base: 10.0
   per-level: 0.0
-  min: 0.0
-  max: 0.0
+  min: 10.0
+  max: 10.0
 cooldown:
   base: 12.0
   per-level: -0.2

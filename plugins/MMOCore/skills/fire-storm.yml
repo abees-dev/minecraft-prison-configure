@@ -8,25 +8,20 @@ lore:
 - '&9Tiêu hao: &f{mana} Mana'
 material: BLAZE_POWDER
 damage:
-  base: 6.0
-  per-level: 2.0
-  min: 6.0
-  max: 64.0
+  base: 7.0
+  per-level: 0.7
+  min: 7.0
+  max: 27.3
 ignite:
   base: 2.0
   per-level: 0.05
   min: 2.0
   max: 3.0
 mana:
-  base: 25.0
-  per-level: 1.5
-  min: 25.0
-  max: 68.5
-stamina:
-  base: 0.0
+  base: 22.0
   per-level: 0.0
-  min: 0.0
-  max: 0.0
+  min: 22.0
+  max: 22.0
 cooldown:
   base: 14.0
   per-level: -0.2

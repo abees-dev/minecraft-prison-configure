@@ -8,15 +8,10 @@ material: REDSTONE
 passive-type: ATTACK
 damage:
   base: 10.0
-  per-level: 3.0
+  per-level: 0.8
   min: 10.0
-  max: 97.0
+  max: 33.2
 mana:
-  base: 0.0
-  per-level: 0.0
-  min: 0.0
-  max: 0.0
-stamina:
   base: 0.0
   per-level: 0.0
   min: 0.0

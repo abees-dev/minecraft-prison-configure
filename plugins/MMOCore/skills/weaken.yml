@@ -15,14 +15,9 @@ duration:
   decimal-format: '0.#'
 mana:
   base: 8.0
-  per-level: 0.1
+  per-level: 0.0
   min: 8.0
-  max: 10.9
-stamina:
-  base: 2.0
-  per-level: 1.0
-  max: 0.0
-  min: 0.0
+  max: 8.0
 cooldown:
   base: 16.0
   per-level: -0.2

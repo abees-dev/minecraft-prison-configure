@@ -7,19 +7,14 @@ lore:
 material: GLOWSTONE_DUST
 damage:
   base: 8.0
-  per-level: 2.5
+  per-level: 0.75
   min: 8.0
-  max: 80.5
+  max: 29.75
 mana:
-  base: 0.0
+  base: 8.0
   per-level: 0.0
-  min: 0.0
-  max: 0.0
-stamina:
-  base: 0.0
-  per-level: 0.0
-  min: 0.0
-  max: 0.0
+  min: 8.0
+  max: 8.0
 cooldown:
   base: 7.0
   per-level: -0.1

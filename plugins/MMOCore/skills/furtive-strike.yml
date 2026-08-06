@@ -14,11 +14,6 @@ damage:
 mana:
   base: 8.0
   per-level: 3.0
-stamina:
-  base: 2.0
-  per-level: 1.0
-  max: 0.0
-  min: 0.0
 extra:
   base: 50.0
   per-level: 20.0

@@ -5,27 +5,23 @@ lore:
 - '&7làm chậm kẻ địch xung quanh trong &b{duration}s&7.'
 - ''
 - '&eHồi chiêu: &f{cooldown}s'
+- '&9Tiêu hao: &f{mana} {mana_name}'
 material: DRAGON_BREATH
 damage:
-  base: 14.0
-  per-level: 3.5
-  min: 14.0
-  max: 115.0
+  base: 15.0
+  per-level: 1.0
+  min: 15.0
+  max: 44.0
 duration:
   base: 3.0
   per-level: 0.1
   min: 3.0
   max: 6.0
 mana:
-  base: 0.0
+  base: 18.0
   per-level: 0.0
-  min: 0.0
-  max: 0.0
-stamina:
-  base: 0.0
-  per-level: 0.0
-  min: 0.0
-  max: 0.0
+  min: 18.0
+  max: 18.0
 cooldown:
   base: 16.0
   per-level: -0.2

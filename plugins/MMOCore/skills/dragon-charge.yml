@@ -5,22 +5,18 @@ lore:
 - '&7kẻ địch xung quanh.'
 - ''
 - '&eHồi chiêu: &f{cooldown}s'
+- '&9Tiêu hao: &f{mana} {mana_name}'
 material: FIRE_CHARGE
 damage:
-  base: 10.0
-  per-level: 3.0
-  min: 10.0
-  max: 97.0
+  base: 11.0
+  per-level: 0.85
+  min: 11.0
+  max: 35.65
 mana:
-  base: 0.0
+  base: 10.0
   per-level: 0.0
-  min: 0.0
-  max: 0.0
-stamina:
-  base: 0.0
-  per-level: 0.0
-  min: 0.0
-  max: 0.0
+  min: 10.0
+  max: 10.0
 cooldown:
   base: 8.0
   per-level: -0.1

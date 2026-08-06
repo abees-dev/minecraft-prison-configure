@@ -9,24 +9,19 @@ lore:
 material: SCULK
 damage:
   base: 4.0
-  per-level: 1.2
+  per-level: 0.35
   min: 4.0
-  max: 38.8
+  max: 14.15
 duration:
   base: 4.0
   per-level: 0.1
   min: 4.0
   max: 6.9
 mana:
-  base: 22.0
-  per-level: 0.4
-  min: 22.0
-  max: 33.6
-stamina:
-  base: 0.0
+  base: 24.0
   per-level: 0.0
-  min: 0.0
-  max: 0.0
+  min: 24.0
+  max: 24.0
 cooldown:
   base: 18.0
   per-level: -0.2

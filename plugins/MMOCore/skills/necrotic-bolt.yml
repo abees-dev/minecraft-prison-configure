@@ -8,25 +8,20 @@ lore:
 - '&9Tiêu hao: &f{mana} Mana'
 material: ECHO_SHARD
 damage:
-  base: 12.0
-  per-level: 3.5
-  min: 12.0
-  max: 113.5
+  base: 13.0
+  per-level: 1.0
+  min: 13.0
+  max: 42.0
 duration:
   base: 3.0
   per-level: 0.08
   min: 3.0
   max: 5.3
 mana:
-  base: 12.0
-  per-level: 0.3
-  min: 12.0
-  max: 20.7
-stamina:
-  base: 0.0
+  base: 10.0
   per-level: 0.0
-  min: 0.0
-  max: 0.0
+  min: 10.0
+  max: 10.0
 cooldown:
   base: 6.0
   per-level: -0.1

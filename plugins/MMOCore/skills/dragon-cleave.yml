@@ -5,27 +5,23 @@ lore:
 - '&7kẻ địch trong &6{burn-duration}s&7.'
 - ''
 - '&eHồi chiêu: &f{cooldown}s'
+- '&9Tiêu hao: &f{mana} {mana_name}'
 material: BLAZE_POWDER
 damage:
-  base: 12.0
-  per-level: 3.5
-  min: 12.0
-  max: 120.0
+  base: 13.0
+  per-level: 1.0
+  min: 13.0
+  max: 42.0
 burn-duration:
   base: 2.0
   per-level: 0.05
   min: 2.0
   max: 3.0
 mana:
-  base: 0.0
+  base: 12.0
   per-level: 0.0
-  min: 0.0
-  max: 0.0
-stamina:
-  base: 0.0
-  per-level: 0.0
-  min: 0.0
-  max: 0.0
+  min: 12.0
+  max: 12.0
 cooldown:
   base: 7.0
   per-level: -0.1

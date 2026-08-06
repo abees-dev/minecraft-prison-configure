@@ -9,19 +9,14 @@ lore:
 material: NETHERITE_SWORD
 damage:
   base: 8.0
-  per-level: 2.5
+  per-level: 0.8
   min: 8.0
-  max: 80.0
+  max: 31.2
 mana:
-  base: 0.0
+  base: 6.0
   per-level: 0.0
-  min: 0.0
-  max: 0.0
-stamina:
-  base: 0.0
-  per-level: 0.0
-  min: 0.0
-  max: 0.0
+  min: 6.0
+  max: 6.0
 extra:
   base: 20.0
   per-level: 1.0

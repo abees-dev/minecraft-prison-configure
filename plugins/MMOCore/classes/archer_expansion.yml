@@ -18,7 +18,8 @@ display:
     - '&7  Giảm Hiệu Ứng Chậm: &a10% &7(+&a2%&7/cấp)'
     - ''
     - '&8&lÝ Chí'
-    - '&7  Hồi Thể Lực: &95 &7(+&90.2&7/cấp, tối đa &913%&7)'
+    - '&7  Mana Tối Đa: &925 &7(+&91.0&7/cấp)'
+    - '&7  Hồi Mana: &90.20 &7(+&90.03&7/cấp)'
     item: BOW
 
 exp-curve: levels
@@ -42,14 +43,18 @@ skill-slots:
 cast-particle:
     particle: CRIT
 
-resource:
-    stamina:
-        type: MISSING
-        value:
-            base: 5
-            per-level: .2
-            max: 13
-        off-combat: true
+mana:
+    char: ■
+    icon: '&a➜'
+    color:
+        full: GREEN
+        half: YELLOW
+        empty: WHITE
+    name: 'Tập Trung'
+
+options:
+    off-combat-mana-regen: true
+    needs-permission: false
 
 attributes:
     knockback-resistance:
@@ -64,6 +69,12 @@ attributes:
     movement-speed:
         base: .105
         per-level: 0
+    max-mana:
+        base: 25
+        per-level: 1.0
+    mana-regeneration:
+        base: .20
+        per-level: .03
 
 skills:
     WEAKEN:
@@ -77,6 +88,12 @@ skills:
         max-level: 30
     MINOR_HEALINGS:
         level: 10
+        max-level: 30
+    EXPLOSIVE_ARROW:
+        level: 12
+        max-level: 30
+    ARROW_SHOWER:
+        level: 15
         max-level: 30
 
 main-exp-sources:
