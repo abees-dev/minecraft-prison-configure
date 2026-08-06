@@ -1,8 +1,8 @@
-# NPC cho bàn ghép đá cường hóa
+# NPC cho bàn ghép đá (cường hóa + đục lỗ)
 
-Station: `plugins/MMOItems/crafting-stations/equipment-upgrade-station.yml` (sinh bởi
-`plugins/MMOItems/scripts/generate_upgrade_station.js`) — 1 station duy nhất, không tách theo
-tier như trade/donate, dùng `layout: default` (có phân trang vì rất nhiều recipe).
+Station: `plugins/MMOItems/crafting-stations/equipment-upgrade-station.yml` — 1 station duy nhất
+gồm ghép đá cường hóa vũ khí/giáp, đá Thiên Mệnh, và mũi khoan đục lỗ. Layout `instant`
+(nhiều ô công thức, hàng chờ tối thiểu 1 ô vì craft tức thì).
 
 ## Lệnh tạo NPC
 
@@ -19,3 +19,4 @@ Ghi chú:
   trong tiêu đề GUI, không dùng cho tên NPC.
 - Station ID dùng trong lệnh `mi stations open` = tên file yml không có đuôi
   (`equipment-upgrade-station`).
+- Station `socket-stone-exchange` đã gộp vào đây; NPC Thợ Rèn Đục Lỗ không còn dùng.

@@ -1,0 +1,18 @@
+# Layout cho station chế tạo tức thì (crafting-time: 0)
+# Nhiều ô công thức, chỉ 1 ô hàng chờ góc dưới (MMOItems vẫn bắt buộc có queue tối thiểu)
+slots: 45
+
+layout:
+  recipe-slots: [
+    10, 11, 12, 13, 14, 15, 16,
+    19, 20, 21, 22, 23, 24, 25,
+    28, 29, 30, 31, 32, 33, 34
+  ]
+
+  queue-slots: [40]
+
+  recipe-previous-slot: 18
+  recipe-next-slot: 26
+
+  queue-previous-slot: 39
+  queue-next-slot: 41
