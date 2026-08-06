@@ -797,10 +797,11 @@ MANH_THIEN_GIOI:
 # ==========================================================
 
 MANH_LINH_HON_SO_CAP:
-  itemsadder-item: "iadungeon:crystal_of_invasion_70"
+  itemsadder-item: "iadungeon:crystal_of_mutation_61"
   base:
-    revision-id: 1
-    material: ECHO_SHARD
+    revision-id: 3
+    material: PAPER
+    custom-model-data: 10060
     name: "&a✦ Mảnh Linh Hồn &7[Sơ Cấp]"
     tier: UNCOMMON
     lore-format: ingredient-simple
@@ -809,10 +810,11 @@ MANH_LINH_HON_SO_CAP:
       - "&7Dùng tại Trạm Đổi Linh Hồn để chọn nguyên liệu."
 
 MANH_LINH_HON_TRUNG_CAP:
-  itemsadder-item: "iadungeon:crystal_of_frost_29"
+  itemsadder-item: "iadungeon:crystal_of_corruption_62"
   base:
-    revision-id: 1
-    material: ECHO_SHARD
+    revision-id: 3
+    material: PAPER
+    custom-model-data: 10061
     name: "&b✦ Mảnh Linh Hồn &7[Trung Cấp]"
     tier: RARE
     lore-format: ingredient-simple
@@ -821,10 +823,11 @@ MANH_LINH_HON_TRUNG_CAP:
       - "&7Dùng tại Trạm Đổi Linh Hồn để chọn nguyên liệu."
 
 MANH_LINH_HON_CAO_CAP:
-  itemsadder-item: "iadungeon:crystal_of_fury_19"
+  itemsadder-item: "iadungeon:crystal_of_deformity_63"
   base:
-    revision-id: 1
-    material: ECHO_SHARD
+    revision-id: 3
+    material: PAPER
+    custom-model-data: 10062
     name: "&6✦ Mảnh Linh Hồn &7[Cao Cấp]"
     tier: LEGENDARY
     lore-format: ingredient-simple
@@ -833,10 +836,11 @@ MANH_LINH_HON_CAO_CAP:
       - "&7Dùng tại Trạm Đổi Linh Hồn để chọn nguyên liệu."
 
 MANH_LINH_HON_SIEU_CAP:
-  itemsadder-item: "iadungeon:crystal_of_chaos_66"
+  itemsadder-item: "iadungeon:crystal_of_abnormality_64"
   base:
-    revision-id: 1
-    material: ECHO_SHARD
+    revision-id: 3
+    material: PAPER
+    custom-model-data: 10063
     name: "&c✦ Mảnh Linh Hồn &7[Siêu Cấp]"
     tier: MYTHICAL
     lore-format: ingredient-simple
@@ -845,10 +849,11 @@ MANH_LINH_HON_SIEU_CAP:
       - "&7Dùng tại Trạm Đổi Linh Hồn để chọn nguyên liệu."
 
 MANH_LINH_HON_HUYEN_THOAI:
-  itemsadder-item: "iadungeon:crystal_of_destruction_69"
+  itemsadder-item: "iadungeon:crystal_of_uncontrolled_65"
   base:
-    revision-id: 1
-    material: NETHER_STAR
+    revision-id: 3
+    material: PAPER
+    custom-model-data: 10064
     name: "&d&l✦ Mảnh Linh Hồn &7[Huyền Thoại]"
     tier: MYTHICAL
     lore-format: ingredient-simple
