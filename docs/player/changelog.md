@@ -1,6 +1,6 @@
 # Nhật ký cập nhật
 
-> Cập nhật: 2026-08-06 · Dành cho người chơi
+> Cập nhật: 2026-08-07 · Dành cho người chơi
 
 ## Tính năng mới — Linh Hồn, Thành Tựu và Dungeon Biến Dị
 
@@ -85,6 +85,15 @@ Một số chỉ số nền nổi bật sau chuyển sinh:
   - **Tử Linh Pháp Sư:** gây Wither, kiểm soát vùng và hồi sinh lực trong Vùng Đất Chết.
   - **Đại Tế Thức Tỉnh:** hồi máu, tạo lá chắn và tăng kháng sát thương cho đồng đội trong Thiên Địa Trận.
 - Các thông số hồi chiêu, phạm vi, sát thương và hồi phục bất thường của skill MMOcore mặc định đã được điều chỉnh.
+
+### Ô Kỹ Năng và Passive
+
+- Giao diện kỹ năng giờ hiển thị sáu ô gắn kỹ năng thành một cột ở mép phải để dễ theo dõi.
+- Bốn ô đầu chỉ nhận **kỹ năng chủ động**; dùng **[F] + phím số tương ứng** để thi triển kỹ năng đã gắn.
+- Mở thêm hai ô riêng chỉ nhận **kỹ năng passive**.
+- Kỹ năng passive chỉ có hiệu lực khi được gắn vào một trong hai ô passive; lore của ô có ghi chú để người chơi dễ nhận biết.
+- Kỹ năng chủ động không thể gắn nhầm vào ô passive và kỹ năng passive cũng không thể chiếm ô chủ động.
+- Nút kính xanh dùng để nâng cấp kỹ năng được giữ tại vị trí cũ.
 
 ### Cây kỹ năng theo Class
 
