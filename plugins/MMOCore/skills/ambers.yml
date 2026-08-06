@@ -3,7 +3,7 @@ lore:
 - '&7Nội tại. Sát thương phép có &630% &7tỷ lệ'
 - '&7làm rơi Hổ Phách Ma Năng.'
 - ''
-- '&7Nhặt hổ phách để hồi &9{percent}% &7mana đang thiếu.'
+- '&7Nhặt hổ phách để hồi &9{percent}% &7năng lượng đang thiếu.'
 - ''
 - '&eHồi nội tại: &f{cooldown}s'
 material: EMERALD

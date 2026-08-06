@@ -1,7 +1,7 @@
 name: '&aTái Sinh Đồng Minh'
 lore:
 - '&7Ban hiệu ứng tái sinh cho đồng minh gần nhất,'
-- '&7hồi &a{heal} HP &7liên tục trong &e{duration}s&7.'
+- '&7hồi &a{heal} máu &7liên tục trong &e{duration}s&7.'
 - ''
 - '&eHồi chiêu: &f{cooldown}s'
 - '&9Tiêu hao: &f{mana} {mana_name}'

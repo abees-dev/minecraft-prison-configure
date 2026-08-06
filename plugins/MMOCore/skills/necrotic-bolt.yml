@@ -5,7 +5,7 @@ lore:
 - '&7kẻ địch trong &5{duration}s&7.'
 - ''
 - '&eHồi chiêu: &f{cooldown}s'
-- '&9Tiêu hao: &f{mana} Mana'
+- '&9Tiêu hao: &f{mana} {mana_name}'
 material: ECHO_SHARD
 damage:
   base: 13.0

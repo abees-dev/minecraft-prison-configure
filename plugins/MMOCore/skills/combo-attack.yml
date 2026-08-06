@@ -4,7 +4,7 @@ lore:
 - '&7gây tổng cộng &c{damage} &7sát thương.'
 - ''
 - '&e⌛ Hồi chiêu: &f{cooldown}s'
-- '&4♦ Tiêu hao: &f{mana} {mana_name}'
+- '&9Tiêu hao: &f{mana} {mana_name}'
 material: IRON_SWORD
 damage:
   base: 9.0

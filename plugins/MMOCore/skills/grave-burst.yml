@@ -5,7 +5,7 @@ lore:
 - '&7kẻ địch không kịp né tránh.'
 - ''
 - '&eHồi chiêu: &f{cooldown}s'
-- '&9Tiêu hao: &f{mana} Mana'
+- '&9Tiêu hao: &f{mana} {mana_name}'
 material: BONE
 damage:
   base: 16.0

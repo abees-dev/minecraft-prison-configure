@@ -4,7 +4,7 @@ lore:
 - '&7trong khoảng cách &5{range}m&7.'
 - ''
 - '&eHồi chiêu: &f{cooldown}s'
-- '&9Tiêu hao: &f{mana} Mana'
+- '&9Tiêu hao: &f{mana} {mana_name}'
 material: ENDER_PEARL
 mana:
   base: 10.0

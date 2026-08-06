@@ -1,6 +1,6 @@
 name: '&aĐại Hồi Phục'
 lore:
-- '&7Hồi ngay &a{heal} HP &7cho mục tiêu.'
+- '&7Hồi ngay &a{heal} máu &7cho mục tiêu.'
 - '&7Giữ phím cúi để thi triển lên bản thân.'
 - ''
 - '&eHồi chiêu: &f{cooldown}s'
