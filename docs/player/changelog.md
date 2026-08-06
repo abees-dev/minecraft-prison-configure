@@ -56,3 +56,23 @@ Một số chỉ số nền nổi bật sau chuyển sinh:
   - **Tử Linh Pháp Sư:** gây Wither, kiểm soát vùng và hồi sinh lực trong Vùng Đất Chết.
   - **Đại Tế Thức Tỉnh:** hồi máu, tạo lá chắn và tăng kháng sát thương cho đồng đội trong Thiên Địa Trận.
 - Các thông số hồi chiêu, phạm vi, sát thương và hồi phục bất thường của skill MMOcore mặc định đã được điều chỉnh.
+
+### Cây kỹ năng theo Class
+
+- Mỗi class cơ bản và class chuyển sinh giờ có cây kỹ năng phù hợp với vai trò của mình:
+  - **Chiến Binh và Chiến Binh Rồng:** sát thương vật lý, chống chịu và cận chiến.
+  - **Cung Thủ và Kỹ Sư Ma Pháp:** sát thương tầm xa, chí mạng và cơ động.
+  - **Pháp Sư và Tử Linh Pháp Sư:** sát thương phép, Mana và hút máu phép.
+  - **Tu Sĩ và Đại Tế Thức Tỉnh:** hồi phục, hỗ trợ, Mana và giảm sát thương.
+- Tất cả class đều có thêm cây **Nền Tảng Chung** để nâng các chỉ số sinh tồn và chiến đấu cơ bản.
+- Việt hóa tên cây, tên điểm nâng cấp và giao diện cây kỹ năng.
+- Giữ nguyên tiến độ các cây kỹ năng cũ của người chơi khi chuyển sang tên và định hướng mới.
+
+## Nhiệm vụ ngày và tuần
+
+- Hoàn thành và nhận toàn bộ nhiệm vụ ngày sẽ nhận thêm:
+  - **1 Điểm Kỹ Năng** để nâng kỹ năng class.
+  - **1 Điểm Cây Kỹ Năng chung** để sử dụng cho bất kỳ cây kỹ năng nào của class hiện tại.
+- Hoàn thành và nhận toàn bộ nhiệm vụ tuần sẽ nhận thêm **3 Điểm Kỹ Năng**.
+- Phần thưởng tuần vẫn giữ nguyên **2 Điểm Thuộc Tính** cùng các phần thưởng trước đó.
+- Nút **Bonus Clear-All** được đổi thành **Thưởng Hoàn Thành Tất Cả** để dễ hiểu hơn.
