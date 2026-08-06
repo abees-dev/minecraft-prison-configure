@@ -112,3 +112,28 @@ commands:
     - "mmocore admin level set {player} 1"
     - "mmocore admin set level {player} 1"
     - "mmocore admin set-level {player} 1"
+  force-class-fallback: "mmocore admin force-class {player} {class}"
+  set-skill-level-fallback: "mmocore admin skill level set {player} {skill} {level}"
+
+# MMOCore class evolution paths — keyed by base class id.
+# Add more entries under paths: later without code changes.
+class-evolution:
+  enabled: true
+  paths:
+    warrior:
+      to-class: dragon_warrior
+      required-rebirth: 1
+      inherited-skills:
+        - DEEP_WOUND
+        - WEAKEN
+        - EMPOWERED_ATTACK
+        - COMBO_ATTACK
+        - MINOR_HEALINGS
+        - FIRE_BERSERKER
+      new-skills:
+        - DRAGON_SLASH
+        - DRAGON_DASH
+        - DRAGON_SKIN
+        - DRAGON_ZONE
+      new-skill-level: 1
+      success-message: "&6✔ &fChiến Binh của bạn đã thức tỉnh thành Chiến Binh Rồng!"

@@ -33,10 +33,28 @@ skill-slots:
         name: "&aSkill Slot IV"
         unlocked-by-default: true
 
+mana:
+    char: ♦
+    icon: '&4♦'
+    color:
+        full: DARK_RED
+        half: RED
+        empty: WHITE
+    name: 'Rage'
+
+triggers:
+    weapon-damage:
+    - 'mana{operation=GIVE;amount=2-3}'
+    physical-damage:
+    - 'mana{operation=GIVE;amount=2-3}'
+
 cast-particle:
     particle: FLAME
 
 options:
+    # Class tiến hoá, không cho chọn trực tiếp trong /class.
+    # CorePlugin sẽ chuyển Chiến Binh sang class này khi Chuyển Sinh lần 1.
+    display: false
     needs-permission: false
 
 attributes:
@@ -51,23 +69,38 @@ attributes:
         per-level: .4
 
 skills:
-    BURNING_HANDS:
+    # Skill kế thừa từ class Chiến Binh
+    DEEP_WOUND:
         level: 1
         max-level: 30
-    IGNITE:
-        level: 3
+    WEAKEN:
+        level: 1
         max-level: 30
-    FIRE_RAGE:
-        level: 5
+    EMPOWERED_ATTACK:
+        level: 1
         max-level: 30
-    MAGMA_FISSURE:
-        level: 8
+    COMBO_ATTACK:
+        level: 1
         max-level: 30
-    EARTHQUAKE:
-        level: 11
+    MINOR_HEALINGS:
+        level: 1
         max-level: 30
-    FIRE_CRITICAL_STRIKE:
-        level: 15
+    FIRE_BERSERKER:
+        level: 1
+        max-level: 30
+
+    # 4 skill mới của RPG Class Series | Dragon Warrior by SamusDev
+    DRAGON_SLASH:
+        level: 1
+        max-level: 30
+    DRAGON_DASH:
+        level: 1
+        max-level: 30
+    DRAGON_SKIN:
+        level: 1
+        max-level: 30
+    DRAGON_ZONE:
+        level: 1
         max-level: 30
 
 main-exp-sources:

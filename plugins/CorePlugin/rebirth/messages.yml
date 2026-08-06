@@ -10,6 +10,7 @@ error:
   need-money: "&c✘ &fBạn cần &e&l${money} Money &fđể Chuyển Sinh!"
   need-stone: "&c✘ &fBạn cần &d&l1x Đá Chuyển Sinh &ftrong túi đồ để Chuyển Sinh!"
   no-points: "&c✘ &fBạn không có đủ Điểm Kỹ Năng Chuyển Sinh! Hãy Chuyển Sinh để nhận thêm điểm."
+  evolution-failed: "&c✘ &fKhông thể tiến hóa class sang &e{class}&f. Chuyển Sinh đã bị hủy, không trừ tiền/đá."
 perk:
   maxed: "&e⚠ &fKỹ năng {perk} &fđã đạt Cấp tối đa ({max}/{max})!"
   upgraded: "&a✔ &fĐã nâng cấp kỹ năng {perk} &flên &e&lCấp {level}/{max}&f!"
@@ -20,6 +21,9 @@ aura:
 success:
   title: "&a&lCHUYỂN SINH THÀNH CÔNG!"
   subtitle: "&fCấp Chuyển Sinh: &e&lLần {level} &7(+{points} Điểm Kỹ Năng)"
+  evolution: "&6✔ &fClass &e{from} &fcủa bạn đã tiến hóa thành &e{to}&f!"
+  evolutions:
+    warrior: "&6✔ &fChiến Binh của bạn đã thức tỉnh thành Chiến Binh Rồng!"
   broadcast:
     - "&d&l━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
     - "&d&l❖ HỆ THỐNG CHUYỂN SINH ❖"
