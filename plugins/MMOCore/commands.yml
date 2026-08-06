@@ -20,10 +20,8 @@ waypoints:
   - wp
   description: Display discovered waypoints
 quests:
-  main: quests
-  aliases:
-  - q
-  - journal
+  main: mmocorequests
+  aliases: []
   description: Display available quests
 skills:
   main: skills

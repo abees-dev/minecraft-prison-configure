@@ -18,7 +18,7 @@ create:
     - 500000
     - 1000000
   default-member-slots: 5
-  default-vault-capacity: 256
+  default-vault-capacity: 1000
   name-max-length: 30
   # Visible characters after stripping & color codes (and hex &#rrggbb).
   prefix-max-length: 6
@@ -328,7 +328,7 @@ level:
     - 20000000
   # Vault capacity gained EACH time the gang levels up (flat bonus, stacks
   # with Shop's "Mở rộng sức chứa kho" purchases).
-  vault-capacity-per-level: 50
+  vault-capacity-per-level: 500
 
 # Ore vault auto-deposit toggle — PER MEMBER (any member can flip their own,
 # see /gang vault GUI), so one player farming for themselves doesn't need
@@ -367,9 +367,9 @@ quest:
     color: YELLOW
     style: SOLID
     # Overall board progress only — no per-quest names. Details: /gang quest info
-    title: '&eQuest Bang Lv{level} &8| &f{percent}% &7({progress}/{target})'
+    title: "&eQuest Bang Lv{level} &8| &f{percent}% &7({progress}/{target})"
   levels:
-    '1':
+    "1":
       min-members: 1
       min-online: 1
       # Random distinct quests from pool each open (pool smaller → take all).
@@ -382,7 +382,7 @@ quest:
         money: 2500000.0
         reputation: 0
       reward-reputation: 200
-    '2':
+    "2":
       min-members: 3
       min-online: 2
       pick-count: 3
@@ -394,7 +394,7 @@ quest:
         money: 1250000.0
         reputation: 75
       reward-reputation: 600
-    '3':
+    "3":
       min-members: 5
       min-online: 3
       pick-count: 4
@@ -550,7 +550,7 @@ storage:
     port: 3306
     database: coreplugin
     username: root
-    password: ''
+    password: ""
     pool-size: 4
 war:
   enabled: true
@@ -575,16 +575,16 @@ war:
   gates:
     - id: gate_a
       region: war_gate_a
-      display: '&eCổng Đông'
+      display: "&eCổng Đông"
     - id: gate_b
       region: war_gate_b
-      display: '&eCổng Tây'
+      display: "&eCổng Tây"
     - id: gate_c
       region: war_gate_c
-      display: '&eCổng Nam'
+      display: "&eCổng Nam"
     - id: gate_d
       region: war_gate_d
-      display: '&eCổng Bắc'
+      display: "&eCổng Bắc"
   rewards:
     bank: 2000000
     reputation: 500
@@ -593,28 +593,28 @@ war:
     enabled: true
     color: RED
     style: SOLID
-    title: '&c&lBANG CHIẾN &8| &f#{rank} {gang} &e{points} &7• &fCòn {remain}'
+    title: "&c&lBANG CHIẾN &8| &f#{rank} {gang} &e{points} &7• &fCòn {remain}"
   hologram:
     enabled: true
     y-offset: 1.0
     lines-empty:
-      - '&7&l✧ CỔNG XUẤT ✧'
-      - '{gate}'
-      - '&8▬▬▬▬▬▬▬▬▬▬▬'
-      - '&7Chưa bang nào chiếm'
-      - '&8» &7Đứng đây để chiếm'
+      - "&7&l✧ CỔNG XUẤT ✧"
+      - "{gate}"
+      - "&8▬▬▬▬▬▬▬▬▬▬▬"
+      - "&7Chưa bang nào chiếm"
+      - "&8» &7Đứng đây để chiếm"
     lines-holding:
-      - '&a&l✦ ĐANG CHIẾM ✦'
-      - '{gate}'
-      - '&8▬▬▬▬▬▬▬▬▬▬▬'
-      - '&a&l{gang}'
-      - '&7Ghi &a+{pps} &7điểm/giây'
+      - "&a&l✦ ĐANG CHIẾM ✦"
+      - "{gate}"
+      - "&8▬▬▬▬▬▬▬▬▬▬▬"
+      - "&a&l{gang}"
+      - "&7Ghi &a+{pps} &7điểm/giây"
     lines-contested:
-      - '&c&l⚔ TRANH CHẤP ⚔'
-      - '{gate}'
-      - '&8▬▬▬▬▬▬▬▬▬▬▬'
-      - '&cKhông bang nào ghi điểm'
-      - '&8» &7Hạ đối thủ để chiếm'
+      - "&c&l⚔ TRANH CHẤP ⚔"
+      - "{gate}"
+      - "&8▬▬▬▬▬▬▬▬▬▬▬"
+      - "&cKhông bang nào ghi điểm"
+      - "&8» &7Hạ đối thủ để chiếm"
   mobs:
     gate-selection: RANDOM_HELD
     spawn-offset-y: 1.0

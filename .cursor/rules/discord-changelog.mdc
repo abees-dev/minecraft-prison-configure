@@ -1,0 +1,45 @@
+---
+description: Cách đăng patch note Discord từ changelog — TL;DR forum, không dump dài
+alwaysApply: true
+---
+
+# Discord patch note (changelog)
+
+Khi user yêu cầu đăng / update thông báo Discord từ `docs/player/changelog.md` (hoặc cập nhật gameplay):
+
+## Kênh
+
+| Vai trò | Kênh | ID |
+| --- | --- | --- |
+| Patch note chính | Forum `📌・cập-nhật` | `1534893598674518056` |
+| Ping ngắn (tuỳ chọn) | `📢・thông-báo` | `1534230455002337446` |
+| Ping ngắn (tuỳ chọn) | `💬・chat-chung` | `1534230455518363897` |
+
+Guild: `1534230453027078174`
+
+## Quy tắc nội dung
+
+1. **Không** dump nguyên changelog / bảng chỉ số / nhiều tin dài lên Discord.
+2. Mỗi bản cập nhật = **1 forum post** TL;DR (~8–12 dòng), bọc trong code block `` ``` ``.
+3. Title post: `📌 DD/MM — <tiêu đề ngắn>`.
+4. Nội dung chỉ bullet “có gì mới”; chi tiết để trong `docs/player/changelog.md`.
+5. Ghim post mới nhất nếu là patch quan trọng.
+6. `thông-báo` / `chat-chung`: tối đa **2–3 dòng** + link/mention `<#1534893598674518056>` — không lặp lại toàn bộ TL;DR.
+7. Member chỉ đọc/react trên forum; **không** mở quyền tạo post cho @everyone.
+
+## Mẫu TL;DR
+
+```
+📌 CẬP NHẬT DD/MM — <tiêu đề>
+
+• bullet ngắn 1
+• bullet ngắn 2
+• …
+
+Vào game trải nghiệm & góp ý giúp team!
+```
+
+## Không làm
+
+- Không đăng 4–5 tin code block nối tiếp cho một patch.
+- Không chuyển lại `📌・cập-nhật` thành text channel thường.
