@@ -14,9 +14,9 @@ display:
     - '&7  Máu Tối Đa: &c19 &7(+&c0.2&7/cấp)'
     - ''
     - '&8&lTrí Tuệ'
-    - '&7  Mana Tối Đa: &926 &7(+&91.2&7/cấp)'
-    - '&7  Hồi Mana: &90.22 &7(+&90.04&7/cấp)'
-    - '&7  Hồi Máu: &90.15 &7(+&90.01&7/cấp)'
+    - '&7  Mana Tối Đa: &b26 &7(+&b1.2&7/cấp)'
+    - '&7  Hồi Mana: &b0.22 &7(+&b0.04&7/cấp)'
+    - '&7  Hồi Máu: &a0.15 &7(+&a0.01&7/cấp)'
     item: ENCHANTED_GOLDEN_APPLE
 
 exp-curve: levels
@@ -39,7 +39,7 @@ skill-slots:
 
 mana:
     char: ■
-    icon: '&e✚'
+    icon: '&b✚'
     color:
         full: AQUA
         half: AQUA

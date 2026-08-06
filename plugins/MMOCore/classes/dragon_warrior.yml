@@ -35,7 +35,7 @@ skill-slots:
 
 mana:
     char: ♦
-    icon: '&4♦'
+    icon: '&b♦'
     color:
         full: AQUA
         half: AQUA
@@ -52,8 +52,8 @@ cast-particle:
     particle: FLAME
 
 options:
-    # Chỉ OP/admin có mmocore.class.dragon_warrior mới xem/chọn được.
-    display: true
+    # Chỉ nhận qua hệ thống chuyển sinh, không hiện trong menu chọn class.
+    display: false
     needs-permission: true
 
 attributes:

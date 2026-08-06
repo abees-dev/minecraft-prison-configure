@@ -2,10 +2,10 @@ display:
     name: '&3Tử Linh Pháp Sư'
     lore:
     - '&7Class thức tỉnh của Pháp Sư, điều khiển'
-    - '&7Tử Khí và gieo rắc những vùng đất chết.'
+    - '&7Ma thuật hắc ám và gieo rắc những vùng đất chết.'
     attribute-lore:
     - '&a+ &7Sát thương phép và triệu hồi'
-    - '&a+ &7Kiểm soát khu vực bằng Tử Khí'
+    - '&a+ &7Kiểm soát khu vực bằng ma thuật hắc ám'
     - '&a+ &7Khế Ước Bất Tử khi nguy cấp'
     item: ECHO_SHARD
 
@@ -29,7 +29,7 @@ skill-slots:
 
 mana:
     char: ■
-    icon: '&3☠'
+    icon: '&b☠'
     color:
         full: AQUA
         half: AQUA
@@ -40,8 +40,8 @@ cast-particle:
     particle: SOUL
 
 options:
-    # Chỉ OP/admin có mmocore.class.awakened_necromancer mới xem/chọn được.
-    display: true
+    # Chỉ nhận qua hệ thống chuyển sinh, không hiện trong menu chọn class.
+    display: false
     needs-permission: true
     off-combat-health-regen: true
 

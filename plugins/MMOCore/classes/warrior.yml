@@ -5,7 +5,7 @@ display:
     - '&7chỉ số tăng mạnh theo cấp độ hơn hẳn các lớp'
     - '&7nhân vật khác.'
     - ''
-    - '&7Càng ra đòn, càng tích lũy &c&lCuồng Nộ&7, giúp'
+    - '&7Càng ra đòn, càng hồi phục &b&lMana&7, giúp'
     - '&7tạm thời tăng thêm sát thương cơ bản.'
     attribute-lore:
     - '&a+ &7Sát Thương Đánh Thường'
@@ -24,8 +24,8 @@ display:
     - '&7  Giảm Hiệu Ứng Chậm: &a50% &7(+&a2%&7/cấp)'
     - ''
     - '&8&lÝ Chí'
-    - '&7  Cuồng Nộ Tối Đa: &c20 &7(+&c1&7/cấp)'
-    - '&7  Hồi Cuồng Nộ: &9-0.5&7/giây'
+    - '&7  Mana Tối Đa: &b20 &7(+&b1&7/cấp)'
+    - '&7  Mana tự giảm: &b0.5&7/giây'
     item: IRON_SWORD
 
 exp-curve: levels
@@ -48,7 +48,7 @@ skill-slots:
 
 mana:
     char: ♦
-    icon: '&4♦'
+    icon: '&b♦'
     color:
         full: AQUA
         half: AQUA

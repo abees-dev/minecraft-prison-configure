@@ -18,8 +18,8 @@ display:
     - '&7  Giảm Hiệu Ứng Chậm: &a10% &7(+&a2%&7/cấp)'
     - ''
     - '&8&lÝ Chí'
-    - '&7  Mana Tối Đa: &925 &7(+&91.0&7/cấp)'
-    - '&7  Hồi Mana: &90.20 &7(+&90.03&7/cấp)'
+    - '&7  Mana Tối Đa: &b25 &7(+&b1.0&7/cấp)'
+    - '&7  Hồi Mana: &b0.20 &7(+&b0.03&7/cấp)'
     item: BOW
 
 exp-curve: levels
@@ -45,7 +45,7 @@ cast-particle:
 
 mana:
     char: ■
-    icon: '&a➜'
+    icon: '&b➜'
     color:
         full: AQUA
         half: AQUA

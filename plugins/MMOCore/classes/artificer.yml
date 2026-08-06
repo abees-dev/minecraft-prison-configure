@@ -2,7 +2,7 @@ display:
     name: '&bKỹ Sư Ma Pháp'
     lore:
     - '&7Class tiến hóa của Cung Thủ, kết hợp'
-    - '&7vũ khí tầm xa với công nghệ Arcane.'
+    - '&7vũ khí tầm xa với công nghệ Ma Năng.'
     - '&7Sử dụng đạn xuyên, kích nổ và lá chắn ma pháp.'
     attribute-lore:
     - '&a+ &7Sát thương tầm xa và diện rộng'
@@ -32,8 +32,8 @@ cast-particle:
     particle: SPELL_INSTANT
 
 options:
-    # Chỉ OP/admin có mmocore.class.artificer mới xem/chọn được.
-    display: true
+    # Chỉ nhận qua hệ thống chuyển sinh, không hiện trong menu chọn class.
+    display: false
     needs-permission: true
     off-combat-mana-regen: true
 
