@@ -100,7 +100,8 @@ attributes:
 
 skills:
     WEAKEN:
-        level: 3
+        # Kỹ năng khởi đầu để Cung Thủ cấp 1 luôn có skill trong giao diện.
+        level: 1
         max-level: 30
     COMBO_ATTACK:
         level: 7
