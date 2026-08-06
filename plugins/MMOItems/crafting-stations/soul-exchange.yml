@@ -14,6 +14,16 @@ items:
         name: '&7Hàng chờ trống'
 
 recipes:
+    long-toc-seal:
+        item:
+            type: MATERIAL
+            id: AN_TIN_LONG_TOC
+        name: "&6⚔ Chế Ấn Tín Long Tộc"
+        crafting-time: 0
+        ingredients:
+        - mmoitem{type=MATERIAL,id=MANH_LONG_TOC,amount=40,display="Mảnh Long Tộc"}
+        conditions:
+        - 'money{amount=5000000}'
     soul-low-weapon:
         item:
             type: MATERIAL

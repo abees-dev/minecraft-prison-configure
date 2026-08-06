@@ -1,6 +1,6 @@
 # Citizens NPC Storage
 
-last-created-npc-id: 63
+last-created-npc-id: 65
 npc:
   '2':
     name: '&f&l✦ Luyện Tân Binh'
@@ -2644,6 +2644,112 @@ npc:
               top: 0.0
               bottom: 0.0
     traitnames: location,hologramtrait,scoreboardtrait,skintrait,lookclose,spawned,owner,commandtrait,inventory,type,rotationtrait
+    navigator:
+      speedmodifier: 1.0
+      avoidwater: false
+      usedefaultstuckaction: false
+  '64':
+    metadata:
+      nameplate-visible: 'false'
+    name: '&5&l✦ Sứ Giả Linh Hồn'
+    uuid: 10874922-a837-45a6-a7fd-9ff2606a8cbc
+    traits:
+      spawned: false
+      owner:
+        uuid: 57481db9-38f7-3a96-b52d-ff0f7993c232
+      commandtrait:
+        commands:
+          '0':
+            command: mi stations open soul-exchange <p>
+            hand: RIGHT
+            player: false
+            npc: false
+            op: false
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+            cost: -1.0
+            experienceCost: -1
+      location:
+        bodyYaw: 0.0
+        world: world
+        x: 0.5
+        y: 100.0
+        z: 0.5
+        yaw: 0.0
+        pitch: 0.0
+      type: PLAYER
+      hologramtrait:
+        lines:
+          '0':
+            text: '&5&l✦ Đổi Linh Hồn & Long Tộc'
+            margin:
+              top: 0.0
+              bottom: 0.0
+      lookclose:
+        range: 10.0
+        enabled: true
+        randomPitchRange:
+          '0': 0.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+    traitnames: location,hologramtrait,lookclose,spawned,owner,commandtrait,type
+    navigator:
+      speedmodifier: 1.0
+      avoidwater: false
+      usedefaultstuckaction: false
+  '65':
+    metadata:
+      nameplate-visible: 'false'
+    name: '&b&l✦ Thợ Rèn Đục Lỗ'
+    uuid: fbfb9035-7492-4c0a-af51-9a73ce0a93f5
+    traits:
+      spawned: false
+      owner:
+        uuid: 57481db9-38f7-3a96-b52d-ff0f7993c232
+      commandtrait:
+        commands:
+          '0':
+            command: mi stations open socket-stone-exchange <p>
+            hand: RIGHT
+            player: false
+            npc: false
+            op: false
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+            cost: -1.0
+            experienceCost: -1
+      location:
+        bodyYaw: 0.0
+        world: world
+        x: 1.5
+        y: 100.0
+        z: 0.5
+        yaw: 0.0
+        pitch: 0.0
+      type: PLAYER
+      hologramtrait:
+        lines:
+          '0':
+            text: '&b&l✦ Ghép Đá Đục Lỗ'
+            margin:
+              top: 0.0
+              bottom: 0.0
+      lookclose:
+        range: 10.0
+        enabled: true
+        randomPitchRange:
+          '0': 0.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+    traitnames: location,hologramtrait,lookclose,spawned,owner,commandtrait,type
     navigator:
       speedmodifier: 1.0
       avoidwater: false
