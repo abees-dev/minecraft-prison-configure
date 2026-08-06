@@ -3,5 +3,5 @@ players:
   57481db9-38f7-3a96-b52d-ff0f7993c232:
     rebirth: 1
     points: 3
-    aura: false
-    evolved-class: dragon_warrior
+    aura: true
+    evolved-class: awakened_necromancer
