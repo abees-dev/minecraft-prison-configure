@@ -1,0 +1,12 @@
+name: Long Bộ
+lore:
+- '&7Lao về phía trước bằng Long Lực,'
+- '&7gây sát thương và hất kẻ địch sang hai bên.'
+- ''
+- '&c⚔ {damage} sát thương'
+- '&e⌛ {cooldown}s hồi chiêu'
+- '&4♦ Tiêu hao {mana} Cuồng Nộ'
+material: FIRE_CHARGE
+damage: { base: 6, per-level: 0.4, min: 6, max: 17.6 }
+mana: { base: 12, per-level: 0.2, min: 12, max: 17.8 }
+cooldown: { base: 9, per-level: -0.1, min: 6.1, max: 9 }

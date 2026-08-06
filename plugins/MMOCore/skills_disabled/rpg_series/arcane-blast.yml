@@ -1,0 +1,35 @@
+# Disabled: replaced by lightweight prison rebirth skills.
+name: Bùng Nổ Arcane
+lore:
+- '&7Bắn quả cầu Arcane phát nổ khi va chạm,'
+- '&7gây sát thương lên kẻ địch xung quanh.'
+- ''
+- '&c⚔ Sát thương: &f{damage}'
+- '&e⌛ Hồi chiêu: &f{cooldown}s'
+- '&a◆ Tiêu hao: &f{stamina} Thể Lực'
+material: 'COAL:2200'
+damage:
+  base: 5
+  per-level: 0.45
+  min: 5
+  max: 18.05
+timer:
+  base: 0
+  per-level: 0
+  min: 0
+  max: 0
+mana:
+  base: 0
+  per-level: 0
+  min: 0
+  max: 0
+stamina:
+  base: 8
+  per-level: 0.2
+  min: 8
+  max: 13.8
+cooldown:
+  base: 8
+  per-level: -0.1
+  min: 5.1
+  max: 8

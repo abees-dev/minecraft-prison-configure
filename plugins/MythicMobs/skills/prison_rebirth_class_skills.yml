@@ -1,0 +1,279 @@
+# Lightweight rebirth-class skills.
+# Vanilla particles/sounds only. No custom mobs, models, orbitals or permanent tasks.
+
+# -----------------------------------------------------------------------------
+# Dragon Warrior
+# -----------------------------------------------------------------------------
+Rebirth_Dragon_Cleave:
+  Skills:
+  - effect:sound{s=entity.player.attack.sweep;volume=1;pitch=0.65} @self
+  - particles{p=SWEEP_ATTACK;amount=8;hS=1.8;vS=0.45;y=1} @forward{f=2}
+  - particles{p=FLAME;amount=24;hS=2;vS=0.5;y=0.8;speed=0.05} @forward{f=2}
+  - skill{s=Rebirth_Dragon_Cleave_Hit;damage=<modifier.damage>;burn=<modifier.burn-duration>} @EIR{r=4.5;limit=8;sort=NEAREST}
+
+Rebirth_Dragon_Cleave_Hit:
+  TargetConditions:
+  - mmoCanTarget{interaction=OFFENSE_ACTION} true
+  - entitytype{t=ARMOR_STAND} false
+  Skills:
+  - damage{a=<skill.damage>;pkb=true;hnp=true;hp=true}
+  - ignite{ticks="<skill.burn> * 20"}
+
+Rebirth_Dragon_Charge:
+  Skills:
+  - effect:sound{s=entity.ender_dragon.flap;volume=0.8;pitch=1.3} @self
+  - particles{p=FLAME;amount=20;hS=0.35;vS=0.5;y=0.8;speed=0.08} @self
+  - lunge{velocity=1.25;velocityY=0.08} @forward{f=10;y=0.1}
+  - skill{s=Rebirth_Dragon_Charge_Hit;damage=<modifier.damage>;repeat=5;repeati=2} @EIR{r=2.5;limit=5;sort=NEAREST}
+
+Rebirth_Dragon_Charge_Hit:
+  TargetConditions:
+  - mmoCanTarget{interaction=OFFENSE_ACTION} true
+  - entitytype{t=ARMOR_STAND} false
+  - hasaura{aura=REBIRTH_DRAGON_CHARGE_IMMUNE} false
+  Skills:
+  - aura{auraName=REBIRTH_DRAGON_CHARGE_IMMUNE;duration=15}
+  - damage{a=<skill.damage>;pkb=true;hnp=true;hp=true}
+  - throw{velocity=4;velocityY=1}
+
+Rebirth_Dragon_Scales:
+  Skills:
+  - effect:sound{s=item.armor.equip_turtle;volume=0.8;pitch=0.7} @self
+  - particles{p=FLAME;amount=16;hS=0.45;vS=0.8;y=0.8;speed=0.02} @self
+  - potion{type=DAMAGE_RESISTANCE;duration="<modifier.duration> * 20";level=1;hasParticles=false} @self
+  - potion{type=SLOW;duration="<modifier.duration> * 20";level=0;hasParticles=false} @self
+
+Rebirth_Dragon_Roar:
+  Skills:
+  - effect:sound{s=entity.ender_dragon.growl;volume=1.2;pitch=0.75} @self
+  - particles{p=FLAME;amount=36;hS=4;vS=0.8;y=0.8;speed=0.05} @self
+  - skill{s=Rebirth_Dragon_Roar_Hit;damage=<modifier.damage>;duration=<modifier.duration>} @EIR{r=7;limit=12;sort=NEAREST}
+
+Rebirth_Dragon_Roar_Hit:
+  TargetConditions:
+  - mmoCanTarget{interaction=OFFENSE_ACTION} true
+  - entitytype{t=ARMOR_STAND} false
+  Skills:
+  - damage{a=<skill.damage>;pkb=true;hnp=true;hp=true}
+  - potion{type=SLOW;duration="<skill.duration> * 20";level=1;hasParticles=false}
+  - potion{type=WEAKNESS;duration="<skill.duration> * 20";level=0;hasParticles=false}
+
+# -----------------------------------------------------------------------------
+# Artificer
+# -----------------------------------------------------------------------------
+Rebirth_Arcane_Round:
+  Skills:
+  - effect:sound{s=entity.firework_rocket.launch;volume=0.7;pitch=1.7} @self
+  - projectile{onTick=Rebirth_Arcane_Round_Tick;onHit=Rebirth_Arcane_Round_Hit;v=32;i=1;hR=0.8;vR=0.8;mr=24;hnp=true;hO=0;sE=false;sB=false;hs=true;syo=1.4;tyo=1.1} @Forward{f=24;y=0}
+
+Rebirth_Arcane_Round_Tick:
+  Skills:
+  - particles{p=ENCHANT;amount=3;hS=0.08;vS=0.08;speed=0.02} @origin
+
+Rebirth_Arcane_Round_Hit:
+  TargetConditions:
+  - mmoCanTarget{interaction=OFFENSE_ACTION} true
+  - entitytype{t=ARMOR_STAND} false
+  Skills:
+  - damage{a=<modifier.damage>;pkb=true;hnp=true;hp=true}
+  - effect:sound{s=block.amethyst_block.hit;volume=0.8;pitch=1.6}
+
+Rebirth_Detonation_Shot:
+  Skills:
+  - effect:sound{s=entity.arrow.shoot;volume=1;pitch=0.8} @self
+  - projectile{onTick=Rebirth_Detonation_Tick;onHit=Rebirth_Detonation_Impact;onEnd=Rebirth_Detonation_Impact;v=26;i=1;hR=1;vR=1;mr=28;hnp=true;hO=0;sE=true;sB=true;hs=true;syo=1.4;tyo=1} @Forward{f=28;y=0}
+
+Rebirth_Detonation_Tick:
+  Skills:
+  - particles{p=ELECTRIC_SPARK;amount=3;hS=0.1;vS=0.1;speed=0.02} @origin
+
+Rebirth_Detonation_Impact:
+  Skills:
+  - effect:sound{s=entity.generic.explode;volume=0.8;pitch=1.4} @origin
+  - particles{p=EXPLOSION;amount=2;hS=0.2;vS=0.2} @origin
+  - skill{s=Rebirth_Detonation_Damage;damage=<modifier.damage>} @EntitiesNearOrigin{r=4.5;limit=8;sort=NEAREST}
+
+Rebirth_Detonation_Damage:
+  TargetConditions:
+  - mmoCanTarget{interaction=OFFENSE_ACTION} true
+  - entitytype{t=ARMOR_STAND} false
+  Skills:
+  - damage{a=<skill.damage>;pkb=true;hnp=true;hp=true}
+
+Rebirth_Mechanical_Barrier:
+  Skills:
+  - effect:sound{s=block.beacon.activate;volume=0.8;pitch=1.5} @self
+  - particles{p=END_ROD;amount=24;hS=1.5;vS=1;y=0.8;speed=0.02} @self
+  - shield{amount=1;maxShield=<modifier.shield>;repeat=<modifier.shield>;repeati=1} @self
+  - potion{type=DAMAGE_RESISTANCE;duration="<modifier.duration> * 20";level=0;hasParticles=false} @self
+  - throw{velocity=7;velocityY=1} @EIR{r=4;conditions=[- mmoCanTarget{interaction=OFFENSE_ACTION} true]}
+
+Rebirth_Overcharge:
+  Skills:
+  - skill{s=Rebirth_Overcharge_Proc;damage=<modifier.damage>} ?hasaurastacks{aura=REBIRTH_OVERCHARGE;stacks=4}
+  - aura{auraName=REBIRTH_OVERCHARGE;duration=200;maxStacks=4} @self ?!hasaurastacks{aura=REBIRTH_OVERCHARGE;stacks=4}
+
+Rebirth_Overcharge_Proc:
+  Skills:
+  - auraremove{aura=REBIRTH_OVERCHARGE} @self
+  - effect:sound{s=entity.lightning_bolt.impact;volume=0.7;pitch=1.7} @self
+  - particles{p=ELECTRIC_SPARK;amount=22;hS=1.8;vS=1;y=0.8;speed=0.08} @target
+  - skill{s=Rebirth_Overcharge_Damage;damage=<skill.damage>} @EIR{r=3.5;limit=6;sort=NEAREST}
+
+Rebirth_Overcharge_Damage:
+  TargetConditions:
+  - mmoCanTarget{interaction=OFFENSE_ACTION} true
+  - entitytype{t=ARMOR_STAND} false
+  Skills:
+  - damage{a=<skill.damage>;pkb=true;hnp=true;hp=true}
+
+# -----------------------------------------------------------------------------
+# Awakened Necromancer
+# -----------------------------------------------------------------------------
+Rebirth_Necrotic_Bolt:
+  Skills:
+  - effect:sound{s=block.sculk_shrieker.shriek;volume=0.5;pitch=1.5} @self
+  - projectile{onTick=Rebirth_Necrotic_Bolt_Tick;onHit=Rebirth_Necrotic_Bolt_Hit;v=28;i=1;hR=0.9;vR=0.9;mr=25;hnp=true;hO=0;sE=false;sB=false;hs=true;syo=1.4;tyo=1.1} @Forward{f=25;y=0}
+
+Rebirth_Necrotic_Bolt_Tick:
+  Skills:
+  - particles{p=SOUL_FIRE_FLAME;amount=4;hS=0.12;vS=0.12;speed=0.01} @origin
+
+Rebirth_Necrotic_Bolt_Hit:
+  TargetConditions:
+  - mmoCanTarget{interaction=OFFENSE_ACTION} true
+  - entitytype{t=ARMOR_STAND} false
+  Skills:
+  - damage{a=<modifier.damage>;pkb=true;hnp=true;hp=true}
+  - potion{type=WEAKNESS;duration="<modifier.duration> * 20";level=0;hasParticles=false}
+  - particles{p=SOUL;amount=12;hS=0.4;vS=0.8;y=0.8;speed=0.03}
+
+Rebirth_Grave_Burst:
+  Skills:
+  - effect:sound{s=block.soul_sand.break;volume=1;pitch=0.7} @self
+  - particles{p=SOUL;amount=20;hS=2.5;vS=0.1;speed=0.01} @forward{f=9;y=0.2}
+  - skill{s=Rebirth_Grave_Burst_Explode;damage=<modifier.damage>;delay=20;origin=@forward{f=9;y=0.2}} @forward{f=9;y=0.2}
+
+Rebirth_Grave_Burst_Explode:
+  Skills:
+  - effect:sound{s=entity.warden.sonic_boom;volume=0.7;pitch=0.6} @origin
+  - particles{p=SCULK_SOUL;amount=35;hS=3;vS=1;speed=0.06} @origin
+  - skill{s=Rebirth_Grave_Burst_Damage;damage=<skill.damage>} @EntitiesNearOrigin{r=4.5;limit=10;sort=NEAREST}
+
+Rebirth_Grave_Burst_Damage:
+  TargetConditions:
+  - mmoCanTarget{interaction=OFFENSE_ACTION} true
+  - entitytype{t=ARMOR_STAND} false
+  Skills:
+  - damage{a=<skill.damage>;pkb=true;hnp=true;hp=true}
+  - throw{velocity=0;velocityY=3}
+
+Rebirth_Deathly_Domain:
+  Skills:
+  - effect:sound{s=ambient.soul_sand_valley.mood;volume=0.7;pitch=1} @self
+  - skill{s=Rebirth_Deathly_Domain_Tick;damage=<modifier.damage>;repeat=<modifier.duration>;repeati=20;origin=@forward{f=7;y=0.2}} @forward{f=7;y=0.2}
+
+Rebirth_Deathly_Domain_Tick:
+  Skills:
+  - particles{p=SOUL;amount=24;hS=4;vS=0.2;speed=0.02} @origin
+  - skill{s=Rebirth_Deathly_Domain_Damage;damage=<skill.damage>} @EntitiesNearOrigin{r=5;limit=12;sort=NEAREST}
+
+Rebirth_Deathly_Domain_Damage:
+  TargetConditions:
+  - mmoCanTarget{interaction=OFFENSE_ACTION} true
+  - entitytype{t=ARMOR_STAND} false
+  Skills:
+  - damage{a=<skill.damage>;pkb=true;hnp=true;hp=true}
+  - potion{type=SLOW;duration=30;level=1;hasParticles=false}
+
+Rebirth_Undying_Pact:
+  Conditions:
+  - health{h=<30%} true
+  Skills:
+  - effect:sound{s=item.totem.use;volume=0.8;pitch=1.2} @self
+  - particles{p=TOTEM_OF_UNDYING;amount=35;hS=0.8;vS=1;y=0.8;speed=0.08} @self
+  - heal{a=<modifier.heal>} @self
+  - shield{amount=1;maxShield=<modifier.shield>;repeat=<modifier.shield>;repeati=1} @self
+  - potion{type=DAMAGE_RESISTANCE;duration=40;level=4;hasParticles=false} @self
+
+# -----------------------------------------------------------------------------
+# Awakened Shaman
+# -----------------------------------------------------------------------------
+Rebirth_Chain_Lightning:
+  Skills:
+  - effect:sound{s=entity.lightning_bolt.thunder;volume=0.55;pitch=1.7} @self
+  - skill{s=Rebirth_Chain_Lightning_Hit;damage=<modifier.damage>} @EIR{r=14;limit=1;sort=NEAREST}
+  - skill{s=Rebirth_Chain_Lightning_Bounce;damage="<modifier.damage> * 0.72";delay=3} @EIR{r=14;limit=3;sort=NEAREST}
+  - skill{s=Rebirth_Chain_Lightning_Bounce;damage="<modifier.damage> * 0.35"} @EIR{r=14;limit=1;sort=NEAREST} ?hasaura{aura=REBIRTH_THUNDER_EMPOWERED}
+  - aura{auraName=REBIRTH_EARTH_EMPOWERED;duration=300} @self ?hasaura{aura=REBIRTH_SPIRIT_FLOW_ACTIVE}
+  - auraremove{aura=REBIRTH_THUNDER_EMPOWERED} @self
+
+Rebirth_Chain_Lightning_Hit:
+  TargetConditions:
+  - mmoCanTarget{interaction=OFFENSE_ACTION} true
+  - entitytype{t=ARMOR_STAND} false
+  Skills:
+  - damage{a=<skill.damage>;pkb=true;hnp=true;hp=true}
+  - particles{p=ELECTRIC_SPARK;amount=18;hS=0.5;vS=0.8;y=0.8;speed=0.08}
+
+Rebirth_Chain_Lightning_Bounce:
+  TargetConditions:
+  - mmoCanTarget{interaction=OFFENSE_ACTION} true
+  - entitytype{t=ARMOR_STAND} false
+  Skills:
+  - damage{a=<skill.damage>;pkb=true;hnp=true;hp=true}
+  - particles{p=ELECTRIC_SPARK;amount=12;hS=0.4;vS=0.7;y=0.8;speed=0.06}
+
+Rebirth_Earthen_Ward:
+  Skills:
+  - effect:sound{s=block.amethyst_block.chime;volume=0.8;pitch=0.8} @self
+  - particles{p=HAPPY_VILLAGER;amount=22;hS=3;vS=0.7;y=0.5;speed=0.02} @self
+  - skill{s=Rebirth_Earthen_Ward_Target;heal=<modifier.heal>;shield=<modifier.shield>;duration=<modifier.duration>} @self
+  - skill{s=Rebirth_Earthen_Ward_Target;heal=<modifier.heal>;shield=<modifier.shield>;duration=<modifier.duration>} @PIR{r=7;limit=5;sort=NEAREST}
+  - skill{s=Rebirth_Earthen_Ward_Empowered;bonus=<modifier.heal>} @self ?hasaura{aura=REBIRTH_EARTH_EMPOWERED}
+  - aura{auraName=REBIRTH_THUNDER_EMPOWERED;duration=300} @self ?hasaura{aura=REBIRTH_SPIRIT_FLOW_ACTIVE}
+  - auraremove{aura=REBIRTH_EARTH_EMPOWERED} @self
+
+Rebirth_Earthen_Ward_Target:
+  TargetConditions:
+  - mmoCanTarget{interaction=SUPPORT_ACTION} true
+  Skills:
+  - heal{a=<skill.heal>}
+  - shield{amount=1;maxShield=<skill.shield>;repeat=<skill.shield>;repeati=1}
+  - potion{type=DAMAGE_RESISTANCE;duration="<skill.duration> * 20";level=0;hasParticles=false}
+
+Rebirth_Earthen_Ward_Empowered:
+  Skills:
+  - heal{a="<skill.bonus> * 0.5"} @self
+  - particles{p=COMPOSTER;amount=18;hS=0.6;vS=1;y=0.5} @self
+
+Rebirth_Heaven_Earth_Field:
+  Skills:
+  - effect:sound{s=block.beacon.power_select;volume=0.8;pitch=1.4} @self
+  - skill{s=Rebirth_Heaven_Earth_Field_Tick;damage=<modifier.damage>;heal=<modifier.heal>;repeat=<modifier.duration>;repeati=20;origin=@selflocation} @self
+
+Rebirth_Heaven_Earth_Field_Tick:
+  Skills:
+  - particles{p=ELECTRIC_SPARK;amount=18;hS=5;vS=0.2;speed=0.04} @origin
+  - particles{p=HAPPY_VILLAGER;amount=14;hS=5;vS=0.2;speed=0.01} @origin
+  - skill{s=Rebirth_Heaven_Earth_Damage;damage=<skill.damage>} @EntitiesNearOrigin{r=6;limit=12;sort=NEAREST}
+  - skill{s=Rebirth_Heaven_Earth_Heal;heal=<skill.heal>} @PlayersNearOrigin{r=6}
+
+Rebirth_Heaven_Earth_Heal:
+  TargetConditions:
+  - mmoCanTarget{interaction=SUPPORT_ACTION} true
+  Skills:
+  - heal{a=<skill.heal>}
+
+Rebirth_Heaven_Earth_Damage:
+  TargetConditions:
+  - mmoCanTarget{interaction=OFFENSE_ACTION} true
+  - entitytype{t=ARMOR_STAND} false
+  Skills:
+  - damage{a=<skill.damage>;pkb=true;hnp=true;hp=true}
+  - potion{type=SLOW;duration=30;level=0;hasParticles=false}
+
+Rebirth_Spirit_Flow:
+  Skills:
+  - aura{auraName=REBIRTH_SPIRIT_FLOW_ACTIVE;duration=60} @self
+  - particles{p=ENCHANT;amount=5;hS=0.3;vS=0.7;y=0.8;speed=0.01} @self

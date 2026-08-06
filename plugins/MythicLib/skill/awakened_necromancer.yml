@@ -1,38 +1,16 @@
-# Bridge tương thích với MythicLib/MMOCore hiện tại.
-DEATHBOUND_SOULS:
-    mythicmobs-skill-id: Deathbound_Souls
-    passive-type: TIMER
+NECROTIC_BOLT:
+    mythicmobs-skill-id: Rebirth_Necrotic_Bolt
+    modifiers: [damage, duration]
 
-NECROTIC_COMBO:
-    mythicmobs-skill-id: Necrotic_Combo
-    modifiers:
-    - damage
+GRAVE_BURST:
+    mythicmobs-skill-id: Rebirth_Grave_Burst
+    modifiers: [damage]
 
-SKULL_WISPS:
-    mythicmobs-skill-id: Skull_Wisps
-    modifiers:
-    - damage
+DEATHLY_DOMAIN:
+    mythicmobs-skill-id: Rebirth_Deathly_Domain
+    modifiers: [damage, duration]
 
-SKELETAL_WARRIOR:
-    mythicmobs-skill-id: Skeletal_Warrior
-    modifiers:
-    - damage
-    - skillcooldown
-
-NECROMANCERS_COMMAND:
-    mythicmobs-skill-id: Necromancers_Command
-    passive-type: TIMER
-    modifiers:
-    - skillcooldown
-
-SKELETAL_MAGE:
-    mythicmobs-skill-id: Skeletal_Mage
-    modifiers:
-    - damage
-    - duration
-    - heal
-
-NECROKNIGHT:
-    mythicmobs-skill-id: Necroknight
-    modifiers:
-    - damage
+UNDYING_PACT:
+    mythicmobs-skill-id: Rebirth_Undying_Pact
+    passive-type: DAMAGED
+    modifiers: [heal, shield]

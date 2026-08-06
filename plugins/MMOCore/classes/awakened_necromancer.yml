@@ -2,12 +2,12 @@ display:
     name: '&3Tử Linh Pháp Sư'
     lore:
     - '&7Class thức tỉnh của Pháp Sư, điều khiển'
-    - '&7linh hồn và triệu hồi chiến binh bất tử.'
+    - '&7Tử Khí và gieo rắc những vùng đất chết.'
     attribute-lore:
     - '&a+ &7Sát thương phép và triệu hồi'
-    - '&a+ &7Thu thập linh hồn từ kẻ địch bị hạ'
-    - '&c- &7Phụ thuộc vào lượng linh hồn dự trữ'
-    item: STONE_SWORD:2098
+    - '&a+ &7Kiểm soát khu vực bằng Tử Khí'
+    - '&a+ &7Khế Ước Bất Tử khi nguy cấp'
+    item: ECHO_SHARD
 
 exp-curve: levels
 max-level: 100
@@ -71,20 +71,20 @@ skills:
     WARP: { level: 1, max-level: 30 }
     GREATER_HEALINGS: { level: 1, max-level: 30 }
 
-    # 4 skill mới của RPG Class Awakened | Necromancer.
-    DEATHBOUND_SOULS:
+    # Bộ skill chuyển sinh nhẹ, không triệu hồi tay sai hoặc vật thể tồn tại lâu.
+    NECROTIC_BOLT:
         level: 1
-        max-level: 1
+        max-level: 30
+    GRAVE_BURST:
+        level: 1
+        max-level: 30
+    DEATHLY_DOMAIN:
+        level: 1
+        max-level: 30
+    UNDYING_PACT:
+        level: 1
+        max-level: 30
         needs-bound: true
-    NECROTIC_COMBO:
-        level: 1
-        max-level: 30
-    SKULL_WISPS:
-        level: 1
-        max-level: 30
-    SKELETAL_WARRIOR:
-        level: 1
-        max-level: 30
 
 main-exp-sources:
 - 'from{source=prison_mobs_exp}'

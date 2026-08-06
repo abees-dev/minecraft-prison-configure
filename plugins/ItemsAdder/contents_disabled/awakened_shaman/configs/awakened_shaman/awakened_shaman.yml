@@ -1,0 +1,68 @@
+# Disabled: advanced classes now use vanilla-only effects.
+info:
+  namespace: awakened_shaman
+items:
+  awakened_shaman_lifescepter:
+    display_name: "awakened_shaman_lifescepter"
+    permission: awakened_shaman_lifescepter
+    resource:
+      material: STONE_SWORD
+      model_id: 2090
+      generate: false
+      model_path: awakened_shaman_model/awakened_shaman_lifescepter
+  icon_ancestral_hands:
+    display_name: "icon_ancestral_hands"
+    permission: icon_ancestral_hands
+    resource:
+      material: COAL
+      model_id: 2315
+      generate: false
+      model_path: awakened_shaman_model/icon_ancestral_hands
+  icon_earthen_embrace:
+    display_name: "icon_earthen_embrace"
+    permission: icon_earthen_embrace
+    resource:
+      material: COAL
+      model_id: 2316
+      generate: false
+      model_path: awakened_shaman_model/icon_earthen_embrace
+  icon_echo_step:
+    display_name: "icon_echo_step"
+    permission: icon_echo_step
+    resource:
+      material: COAL
+      model_id: 2317
+      generate: false
+      model_path: awakened_shaman_model/icon_echo_step
+  icon_primal_combo:
+    display_name: "icon_primal_combo"
+    permission: icon_primal_combo
+    resource:
+      material: COAL
+      model_id: 2318
+      generate: false
+      model_path: awakened_shaman_model/icon_primal_combo
+  icon_ritual_totem:
+    display_name: "icon_ritual_totem"
+    permission: icon_ritual_totem
+    resource:
+      material: COAL
+      model_id: 2319
+      generate: false
+      model_path: awakened_shaman_model/icon_ritual_totem
+  icon_soul_link:
+    display_name: "icon_soul_link"
+    permission: icon_soul_link
+    resource:
+      material: COAL
+      model_id: 2320
+      generate: false
+      model_path: awakened_shaman_model/icon_soul_link
+  icon_stance_switch:
+    display_name: "icon_stance_switch"
+    permission: icon_stance_switch
+    resource:
+      material: COAL
+      model_id: 2321
+      generate: false
+      model_path: awakened_shaman_model/icon_stance_switch

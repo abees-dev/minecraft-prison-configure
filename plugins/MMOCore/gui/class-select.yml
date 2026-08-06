@@ -9,7 +9,7 @@ slots: 27
 items:
 
     border:
-        slots: [0,1,6,7,8,9,10,11,12,13,14,15,16,17,18,19,23,24,25,26]
+        slots: [0,1,6,7,8,9,10,11,12,13,14,15,16,17,18,19,24,25,26]
         item: BLACK_STAINED_GLASS_PANE
         name: '&r'
         lore: {}
@@ -54,30 +54,42 @@ items:
             - ''
             - '{attribute-lore}'
 
-    class-death_knight:
+    # Các class tiến hóa dùng needs-permission trong file class.
+    # Vì vậy chỉ OP hoặc người có mmocore.class.<class_id> mới thấy/chọn được.
+    class-dragon_warrior:
         slots: [20]
-        function: class-death_knight
-        name: '&a&lHiệp Sĩ Tử Thần'
+        function: class-dragon_warrior
+        name: '&6&lChiến Binh Rồng'
         hide-flags: true
         lore:
             - '{lore}'
             - ''
             - '{attribute-lore}'
 
-    class-beastmaster:
+    class-artificer:
         slots: [21]
-        function: class-beastmaster
-        name: '&a&lChủ Thú'
+        function: class-artificer
+        name: '&b&lKỹ Sư Ma Pháp'
         hide-flags: true
         lore:
             - '{lore}'
             - ''
             - '{attribute-lore}'
 
-    class-summoner:
+    class-awakened_necromancer:
         slots: [22]
-        function: class-summoner
-        name: '&a&lTriệu Hồi Sư'
+        function: class-awakened_necromancer
+        name: '&3&lTử Linh Pháp Sư'
+        hide-flags: true
+        lore:
+            - '{lore}'
+            - ''
+            - '{attribute-lore}'
+
+    class-awakened_shaman:
+        slots: [23]
+        function: class-awakened_shaman
+        name: '&a&lĐại Tế Thức Tỉnh'
         hide-flags: true
         lore:
             - '{lore}'

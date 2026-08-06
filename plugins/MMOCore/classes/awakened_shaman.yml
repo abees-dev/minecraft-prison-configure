@@ -6,8 +6,8 @@ display:
     attribute-lore:
     - '&a+ &7Hồi phục và bảo vệ đồng đội'
     - '&a+ &7Sát thương Lôi linh hoạt'
-    - '&a+ &7Totem kiểm soát khu vực'
-    item: STONE_SWORD:2090
+    - '&a+ &7Thiên Địa Trận kiểm soát khu vực'
+    item: LIGHTNING_ROD
 
 exp-curve: levels
 max-level: 100
@@ -68,20 +68,20 @@ skills:
     GRAND_HEAL: { level: 1, max-level: 30 }
     GREATER_HEALINGS: { level: 1, max-level: 30 }
 
-    # 4 skill mới của RPG Class Awakened | Shaman.
-    SOUL_LINK:
+    # Bộ skill chuyển sinh nhẹ, chỉ dùng sét và particle Minecraft mặc định.
+    CHAIN_LIGHTNING:
         level: 1
         max-level: 30
-        needs-bound: true
-    PRIMAL_COMBO:
+    EARTHEN_WARD:
         level: 1
         max-level: 30
-    ECHO_STEP:
+    HEAVEN_EARTH_FIELD:
+        level: 1
+        max-level: 30
+    SPIRIT_FLOW:
         level: 1
         max-level: 1
-    RITUAL_TOTEM:
-        level: 1
-        max-level: 30
+        needs-bound: true
 
 main-exp-sources:
 - 'from{source=prison_mobs_exp}'

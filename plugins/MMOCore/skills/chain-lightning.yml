@@ -1,0 +1,11 @@
+name: Lôi Liên Hoàn
+lore:
+- '&7Phóng sét nảy qua tối đa bốn kẻ địch.'
+- '&7Mỗi lần nảy gây ít sát thương hơn lần trước.'
+- ''
+- '&c⚔ {damage} sát thương ban đầu'
+- '&e⌛ {cooldown}s hồi chiêu'
+material: LIGHTNING_ROD
+damage: { base: 6, per-level: 0.4, min: 6, max: 17.6 }
+mana: { base: 12, per-level: 0.2, min: 12, max: 17.8 }
+cooldown: { base: 7, per-level: -0.07, min: 4.97, max: 7 }

@@ -1,0 +1,15 @@
+name: Khế Ước Bất Tử
+lore:
+- '&7Nội tại, phải gắn vào ô skill.'
+- '&7Khi máu xuống mức nguy hiểm, lập tức hồi máu,'
+- '&7nhận lá chắn và miễn nhiễm ngắn hạn.'
+- ''
+- '&a❤ {heal} hồi phục'
+- '&6⬡ {shield} lá chắn'
+- '&e⌛ {cooldown}s hồi nội bộ'
+material: TOTEM_OF_UNDYING
+passive-type: DAMAGED
+heal: { base: 6, per-level: 0.35, min: 6, max: 16.15 }
+shield: { base: 4, per-level: 0.25, min: 4, max: 11.25 }
+mana: { base: 0, per-level: 0, min: 0, max: 0 }
+cooldown: { base: 100, per-level: -0.5, min: 85.5, max: 100 }

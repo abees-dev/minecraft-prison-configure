@@ -1,0 +1,12 @@
+name: Quá Tải Ma Lực
+lore:
+- '&7Nội tại, phải gắn vào ô skill.'
+- '&7Mỗi phát đánh tích một điện tích. Phát thứ năm'
+- '&7phóng điện, gây thêm sát thương diện rộng.'
+- ''
+- '&c⚔ {damage} sát thương cộng thêm'
+material: REDSTONE
+passive-type: ATTACK
+damage: { base: 5, per-level: 0.35, min: 5, max: 15.15 }
+stamina: { base: 0, per-level: 0, min: 0, max: 0 }
+cooldown: { base: 0, per-level: 0, min: 0, max: 0 }

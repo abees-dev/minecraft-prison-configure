@@ -1,0 +1,13 @@
+name: Tử Khí Xung Kích
+lore:
+- '&7Bắn luồng Tử Khí xuyên mục tiêu,'
+- '&7gây sát thương và làm suy yếu chúng.'
+- ''
+- '&c⚔ {damage} sát thương'
+- '&5☠ {duration}s suy yếu'
+- '&e⌛ {cooldown}s hồi chiêu'
+material: ECHO_SHARD
+damage: { base: 7, per-level: 0.45, min: 7, max: 20.05 }
+duration: { base: 3, per-level: 0.08, min: 3, max: 5.32 }
+mana: { base: 12, per-level: 0.2, min: 12, max: 17.8 }
+cooldown: { base: 6, per-level: -0.06, min: 4.26, max: 6 }

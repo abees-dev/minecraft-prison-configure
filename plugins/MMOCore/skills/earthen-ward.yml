@@ -1,0 +1,14 @@
+name: Thổ Hộ
+lore:
+- '&7Hồi phục và tạo lá chắn cho bản thân cùng'
+- '&7đồng đội ở gần, đồng thời tăng kháng hất lùi.'
+- ''
+- '&a❤ {heal} hồi phục'
+- '&6⬡ {shield} lá chắn'
+- '&e⌛ {cooldown}s hồi chiêu'
+material: MOSS_BLOCK
+heal: { base: 5, per-level: 0.3, min: 5, max: 13.7 }
+shield: { base: 5, per-level: 0.3, min: 5, max: 13.7 }
+duration: { base: 4, per-level: 0.08, min: 4, max: 6.32 }
+mana: { base: 16, per-level: 0.25, min: 16, max: 23.25 }
+cooldown: { base: 14, per-level: -0.13, min: 10.23, max: 14 }

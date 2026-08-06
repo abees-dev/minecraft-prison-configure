@@ -1,0 +1,14 @@
+# Disabled: replaced by lightweight prison rebirth skills.
+name: Liên Trảm Tử Khí
+lore:
+- '&7Tung chuỗi bốn nhát liên trảm bằng lưỡi hái.'
+- '&7Nhát cuối bổ xuống đất và hất tung kẻ địch.'
+- ''
+- '&c⚔ Sát thương mỗi nhát: &f{damage}'
+- '&e⌛ Hồi giữa combo: &f{cooldown}s'
+material: 'COAL:2374'
+damage: { base: 3, per-level: 0.25, min: 3, max: 10.25 }
+timer: { base: 0, per-level: 0, min: 0, max: 0 }
+mana: { base: 0, per-level: 0, min: 0, max: 0 }
+stamina: { base: 0, per-level: 0, min: 0, max: 0 }
+cooldown: { base: 0.6, per-level: -0.01, min: 0.31, max: 0.6 }
