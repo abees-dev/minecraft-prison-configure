@@ -23,6 +23,7 @@ VAMPIRE_LORD_BOSS:
     MovementSpeed: 0.32
     Scale: 1.7
     AlwaysShowName: true
+    Glowing: true
     Despawn: false
     PreventSunburn: true
     Unbreakable: true
@@ -52,7 +53,7 @@ VAMPIRE_LORD_BOSS:
     - damage{amount=94;ignorearmor=true;damagecause=MAGIC} @PlayersInRadius{r=6} ~onTimer:98
 
     # ---- KIM GAI TỬ VONG ----
-    - message{m="&5&l[Bá Tước Huyết Nguyệt]&r &7Máu của các ngươi... sẽ nở hoa!"} @PlayersInRadius{r=35} ~onTimer:130
+    - message{cooldown=60;m="&5&l[Bá Tước Huyết Nguyệt]&r &7Máu của các ngươi... sẽ nở hoa!"} @PlayersInRadius{r=35} ~onTimer:130
     - effect:sound{s=entity.silverfish.hurt;volume=1;pitch=0.5} @self ~onTimer:130
     - summon{type=VFX_BLOODSPIKES_MEDIUM;amount=1;radius=0;yRadius=0;onSurface=true} @PlayersInRadius{r=16;limit=3;sort=RANDOM} ~onTimer:130
     - damage{amount=128;ignorearmor=true} @PlayersInRadius{r=16} ~onTimer:130
@@ -65,7 +66,7 @@ VAMPIRE_LORD_BOSS:
     - damage{amount=43;ignorearmor=true;damagecause=MAGIC} @PlayersInRadius{r=16} ~onTimer:160
 
     # ---- VẪN THẠCH HUYẾT NGUYỆT ----
-    - message{m="&c&l[Bá Tước Huyết Nguyệt]&r &7Bầu trời sẽ đổ máu!"} @PlayersInRadius{r=35} ~onTimer:180
+    - message{cooldown=60;m="&c&l[Bá Tước Huyết Nguyệt]&r &7Bầu trời sẽ đổ máu!"} @PlayersInRadius{r=35} ~onTimer:180
     - effect:sound{s=entity.warden.dig;volume=1;pitch=1.6} @self ~onTimer:180
     - effect:particlering{p=dust_color_transition;color1=#FF0000;color2=#330101;radius=4;points=40;amount=1;hS=0;vS=0;y=0.1} @PlayersInRadius{r=40;limit=1} ~onTimer:180
     - summon{type=VFX_BLOOD_METEOR;amount=1;radius=0;yRadius=0;onSurface=true} @PlayersInRadius{r=40;limit=1} ~onTimer:190
@@ -78,7 +79,7 @@ VAMPIRE_LORD_BOSS:
     - skill{s=Vampire_Lord_Scythe_Reap} @target ~onTimer:230
 
     # ---- ĐÀN DƠI HUYẾT NGUYỆT (lifesteal) ----
-    - message{m="&d&l[Bá Tước Huyết Nguyệt]&r &7Hút cạn sinh lực của các ngươi!"} @PlayersInRadius{r=35} ~onTimer:270
+    - message{cooldown=60;m="&d&l[Bá Tước Huyết Nguyệt]&r &7Hút cạn sinh lực của các ngươi!"} @PlayersInRadius{r=35} ~onTimer:270
     - effect:sound{s=entity.bat.loop;volume=1;pitch=1} @self ~onTimer:270
     - summon{type=VFX_BLOOD_BAT;amount=3;radius=6;yRadius=1;onSurface=false} @self ~onTimer:270
     - damage{amount=95;ignorearmor=true} @PlayersInRadius{r=10} ~onTimer:272

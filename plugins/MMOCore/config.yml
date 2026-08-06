@@ -187,7 +187,8 @@ vanilla-exp-redirection:
 # Enable this open to override vanilla EXP and display
 # level progress on the vanilla experience bar.
 # Requires a SERVER reload when changed.
-override-vanilla-exp: true
+# Off: tránh race mất level khi chết (vanilla reset XP bar).
+override-vanilla-exp: false
 
 # When enabled and when using a profile plugin, MMOCore will
 # force the user to choose a class. The profile will not be

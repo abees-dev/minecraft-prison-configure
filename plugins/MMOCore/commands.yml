@@ -1,7 +1,6 @@
 player:
   main: player
   aliases:
-  - p
   - profile
   description: Displays player stats
 attributes:

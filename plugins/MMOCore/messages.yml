@@ -2,7 +2,7 @@
 level-up:
   - ''
   - '&eChúc mừng, bạn đã đạt cấp độ &6{level}&e!'
-  - '&eDùng lệnh &6/p &eđể xem chỉ số mới của bạn!'
+  - '&eDùng lệnh &6/player &eđể xem chỉ số mới của bạn!'
   - ''
 profession-level-up:
   - '&eBạn đã đạt cấp độ &6{level}&e trong nghề &6{profession}&e!'
