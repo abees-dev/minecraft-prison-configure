@@ -1,0 +1,6483 @@
+# << Example configuration >>
+# lastchance:    <-- Enchantment name
+#  display: "%group-color%Last Chance"    <-- Display in item lore
+#  description: "Has a chance to heal when on low hearts"    <-- Enchantment Description
+#  applies-to: "Chestplate"    <-- What applies to (display purposes)
+#  type: "DEFENSE"    <-- Enchantment type (controls when enchantment activates)
+#  group: "COMMON"    <-- Enchantment group (For enchanter and right-click random books)
+#  settings:
+#    required-enchants:
+#      - "springs:1" # Can require specific level
+#      - "gears"
+#    not-applyable-with:
+#      - "frozen"
+#  applies:    <-- List of items that it applies
+#    - ALL_CHESTPLATE    <-- Item(s) list
+#  levels:    < -- All Levels are under here
+#    1:     <-- Level indicator
+#      item:  <-- Item settings (optional). Used to set custom model data, force glow.
+#                       If any value is not present, it will be taken from the config.yml
+#        type: ENCHANTED_BOOK
+#        id: 6
+#        custom-model-data: 0
+#        force-glow: false
+#        name: Frozen Enchantment
+#        lore:
+#          - "&cCustom lore for the enchantment book on level 1"
+#      chance: 30    <-- Chance for enchantment to activate
+#      conditions: "%victim health% > 5 : %stop%"    <-- Condition (read more about it at Conditions)
+#      description: "Has the lowest chance to heal when on low hearts"    <-- Per level description (different description for each level - optional)
+#      effects:    <-- All enchantment effects
+#        - "ADD_HEALTH:2 %victim%"    <-- Effect(s) list
+
+#  Display (String) (No spaces or enchantment will break)
+#    Determines how will enchantment look in item lore
+
+#  Applies-to (String)
+#    Display used in Custom Enchantment books for %description% variable
+
+#  Group (Setting)
+#    INFO: Create enchantment groups in config.yml under enchanter configuration.
+#   Enchantment groups are used for enchanter, to sell specific type books. You can group them
+#   and add a group-wide color, then obtain it with variable %group-color% (shown in example enchantments below).
+
+#  Enchantment Types List: https://ae.advancedplugins.net/enchantments/creating-enchantments/type-list
+
+#  Applies (Material)
+#    Determines which items will have the effects
+#    The Latest Materials list: https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Material.html
+#    NOTICE: You can use "LEATHER_ARMOR, IRON_ARMOR, CHAIN_ARMOR, GOLD_ARMOR or DIAMOND_ARMOR" to
+#    instantly add availability for all specific armor type pieces.
+#    Use "ALL_ARMOR" to add all armor pieces.
+#    Use "ALL_HELMET" to add all helmets.
+#    Use "ALL_CHESTPLATE" to add all chestplates.
+#    Use "ALL_BOOTS" to add all boots.
+#    Use "ALL_SWORD" to add all swords.
+#    Use "ALL_PICKAXE" to add all pickaxes.
+#    Use "ALL_AXE" to add all axes.
+#    Use "ALL_EDIBLE" to add all foods.
+#    And so on, but make sure to use non-plural names of items!
+
+#  Levels (Numbers)
+#    Effects for each level, use as display in examples.
+
+#  Enchantment Effect List: https://ae.advancedplugins.net/enchantments/creating-enchantments/effect-list
+
+#        # You can use tags <random word>word1,word2,word3</random word>, it will get a random word from listed words.
+#        # You can use tags <random number>x-y</random number> while x < y, it will generate a random number between two given integers.
+#        # e.g.: "STEAL_MONEY:<random number>10000-50000</random number>"
+#        # Use <chance>x</chance> to set per-effect chance, x being a chance percentage.
+#        # e.g.: "POTION:SPEED:1:100 %attacker% <chance>25</chance>"
+
+#        # You also may use %victim% or %attacker% flag to give effects to different players (in ATTACK, BOW, DEATH, KILL_PLAYER and DEFENSE types).
+#        # Example usage: - "POTION:POISON:1:50 %attacker%', this will give Level 2 POISON potion effect to the player who attacked.
+#        # If none is provided, effects will be given to the player who had custom enchanted item.
+#        # You can add %combo% instead of numbers, to use number of combo's player has (eg. to limit combo number: "%combo% > 0 && %combo% < 5 : %continue%')
+#        # You can add %damage% instead of numbers, to use number of damage has been done (for ATTACK and DEFENSE)
+
+#  Area of effect: https://ae.advancedplugins.net/enchantments/radius-of-effect-enchantments
+#  Conditions:  https://ae.advancedplugins.net/enchantments/enchantment-conditions
+
+# Settings for enchantments
+# *** This is not a required configuration section and each enchantment doesn't need to have it ***
+#  settings:
+#    required-enchants:
+#      - "springs"
+#    not-applyable-with:
+#      - "frozen"
+#    removeable: false # Makes enchantment non-removeable with blackscrolls
+#    disable-in-enchanter: true # Players can no longer obtain enchantment from Enchanter
+
+harvest:
+  display: '%group-color%Thu Hoạch'
+  description: Có tỉ lệ thu hoạch trong vùng 3x3.
+  applies-to: Cuốc nông
+  type: MINING
+  group: ULTIMATE
+  applies:
+    - ALL_HOE
+  levels:
+    '1':
+      item:
+        custom-model-data: 99
+      settings:
+        whitelist:
+          - CROPS
+          - WHEAT
+          - CARROT
+          - CARROTS
+          - POTATO
+          - POTATOES
+          - BEETROOT
+          - BEETROOTS
+          - COCOA
+          - NETHER_WART
+          - NETHER_WARTS
+          - TORCHFLOWER
+          - PITCHER_CROP
+      chance: 13
+      effects:
+        - BREAK_BLOCK @Trench{r=3,it=true}
+    '2':
+      settings:
+        whitelist:
+          - CROPS
+          - WHEAT
+          - CARROT
+          - CARROTS
+          - POTATO
+          - POTATOES
+          - BEETROOT
+          - BEETROOTS
+          - COCOA
+          - NETHER_WART
+          - NETHER_WARTS
+          - TORCHFLOWER
+          - PITCHER_CROP
+      chance: 26
+      effects:
+        - BREAK_BLOCK @Trench{r=3,it=true}
+    '3':
+      settings:
+        whitelist:
+          - CROPS
+          - WHEAT
+          - CARROT
+          - CARROTS
+          - POTATO
+          - POTATOES
+          - BEETROOT
+          - BEETROOTS
+          - COCOA
+          - NETHER_WART
+          - NETHER_WARTS
+          - TORCHFLOWER
+          - PITCHER_CROP
+      chance: 36
+      effects:
+        - BREAK_BLOCK @Trench{r=3,it=true}
+    '4':
+      settings:
+        whitelist:
+          - CROPS
+          - WHEAT
+          - CARROT
+          - CARROTS
+          - POTATO
+          - POTATOES
+          - BEETROOT
+          - BEETROOTS
+          - COCOA
+          - NETHER_WART
+          - NETHER_WARTS
+          - TORCHFLOWER
+          - PITCHER_CROP
+      chance: 49
+      effects:
+        - BREAK_BLOCK @Trench{r=3,it=true}
+    '5':
+      settings:
+        whitelist:
+          - CROPS
+          - WHEAT
+          - CARROT
+          - CARROTS
+          - POTATO
+          - POTATOES
+          - BEETROOT
+          - BEETROOTS
+          - COCOA
+          - NETHER_WART
+          - NETHER_WARTS
+          - TORCHFLOWER
+          - PITCHER_CROP
+      chance: 59
+      effects:
+        - BREAK_BLOCK @Trench{r=3,it=true}
+    '6':
+      settings:
+        whitelist:
+          - CROPS
+          - WHEAT
+          - CARROT
+          - CARROTS
+          - POTATO
+          - POTATOES
+          - BEETROOT
+          - BEETROOTS
+          - COCOA
+          - NETHER_WART
+          - NETHER_WARTS
+          - TORCHFLOWER
+          - PITCHER_CROP
+      chance: 72
+      effects:
+        - BREAK_BLOCK @Trench{r=3,it=true}
+    '7':
+      settings:
+        whitelist:
+          - CROPS
+          - WHEAT
+          - CARROT
+          - CARROTS
+          - POTATO
+          - POTATOES
+          - BEETROOT
+          - BEETROOTS
+          - COCOA
+          - NETHER_WART
+          - NETHER_WARTS
+          - TORCHFLOWER
+          - PITCHER_CROP
+      chance: 85
+      effects:
+        - BREAK_BLOCK @Trench{r=3,it=true}
+    '8':
+      settings:
+        whitelist:
+          - CROPS
+          - WHEAT
+          - CARROT
+          - CARROTS
+          - POTATO
+          - POTATOES
+          - BEETROOT
+          - BEETROOTS
+          - COCOA
+          - NETHER_WART
+          - NETHER_WARTS
+          - TORCHFLOWER
+          - PITCHER_CROP
+      chance: 90
+      effects:
+        - BREAK_BLOCK @Trench{r=3,it=true}
+    '9':
+      settings:
+        whitelist:
+          - CROPS
+          - WHEAT
+          - CARROT
+          - CARROTS
+          - POTATO
+          - POTATOES
+          - BEETROOT
+          - BEETROOTS
+          - COCOA
+          - NETHER_WART
+          - NETHER_WARTS
+          - TORCHFLOWER
+          - PITCHER_CROP
+      chance: 100
+      effects:
+        - BREAK_BLOCK @Trench{r=3,it=true}
+
+autoreel:
+  display: '%group-color%Tự Cuốn'
+  description: Tự động cuốn cần khi cá cắn câu.
+  applies-to: Cần câu
+  type: BITE_HOOK
+  group: ULTIMATE
+  settings:
+    showActionBar: true
+  applies:
+    - FISHING_ROD
+  levels:
+    '1':
+      chance: 25
+      effects:
+        - AUTO_REEL
+    '2':
+      chance: 50
+      effects:
+        - AUTO_REEL
+    '3':
+      chance: 75
+      effects:
+        - AUTO_REEL
+    '4':
+      effects:
+        - AUTO_REEL
+gemify:
+  display: '%group-color%Hóa Khối'
+  description: Có tỉ lệ biến quặng thành khối quặng.
+  applies-to: Cuốc
+  type: MINING
+  group: FABLED
+  settings:
+    showActionBar: true
+  applies:
+    - ALL_PICKAXE
+  levels:
+    '1':
+      conditions:
+        - '%block natural% = true && %block type% contains ORE : %allow%'
+      chance: 3
+      cooldown: 5
+      effects:
+        - PARTICLE:GLOW:30:0.5 @Block
+        - PLAY_SOUND:ENTITY_PLAYER_LEVELUP @Self
+        - 'SET_BLOCK:GOLD_BLOCK @Block <condition>%block type% contains GOLD_ORE : %allow%</condition>'
+        - 'SET_BLOCK:IRON_BLOCK @Block <condition>%block type% contains IRON_ORE : %allow%</condition>'
+        - 'SET_BLOCK:COAL_BLOCK @Block <condition>%block type% contains COAL_ORE : %allow%</condition>'
+        - 'SET_BLOCK:EMERALD_BLOCK @Block <condition>%block type% contains EMERALD_ORE : %allow%</condition>'
+        - 'SET_BLOCK:COPPER_BLOCK @Block <condition>%block type% contains copper_ore : %allow%</condition>'
+        - 'SET_BLOCK:REDSTONE_BLOCK @Block <condition>%block type% contains redstone_ore : %allow%</condition>'
+        - 'SET_BLOCK:LAPIS_BLOCK @Block <condition>%block type% contains lapis_ore : %allow%</condition>'
+        - 'SET_BLOCK:DIAMOND_BLOCK @Block <condition>%block type% contains diamond_ore : %allow%</condition>'
+planter:
+  display: '%group-color%Gieo Hạt'
+  description: |-
+    Gieo hạt trong vùng 3x3
+    bằng shift+chuột phải.
+  applies-to: Cuốc nông
+  type: RIGHT_CLICK
+  settings:
+    showActionBar: true
+  group: ULTIMATE
+  applies:
+    - ALL_HOE
+  levels:
+    '1':
+      conditions:
+        - '%player is sneaking% = true : %allow%'
+      cooldown: 3
+      effects:
+        - PLANT_SEEDS:1
+    '2':
+      conditions:
+        - '%player is sneaking% = true : %allow%'
+      cooldown: 2
+      effects:
+        - PLANT_SEEDS:1
+    '3':
+      conditions:
+        - '%player is sneaking% = true : %allow%'
+      effects:
+        - PLANT_SEEDS:1
+potatoplanter:
+  display: '%group-color%Gieo Khoai'
+  description: |-
+    Trồng khoai trong vùng 3x3
+    bằng shift+chuột phải.
+  applies-to: Cuốc nông
+  type: RIGHT_CLICK
+  settings:
+    showActionBar: true
+  group: ULTIMATE
+  applies:
+    - ALL_HOE
+  levels:
+    '1':
+      conditions:
+        - '%player is sneaking% = true : %allow%'
+      cooldown: 3
+      effects:
+        - PLANT_SEEDS:1:POTATO
+    '2':
+      conditions:
+        - '%player is sneaking% = true : %allow%'
+      cooldown: 2
+      effects:
+        - PLANT_SEEDS:1:POTATO
+    '3':
+      conditions:
+        - '%player is sneaking% = true : %allow%'
+      effects:
+        - PLANT_SEEDS:1:POTATO
+carrotplanter:
+  display: '%group-color%Gieo Cà Rốt'
+  description: |-
+    Trồng cà rốt trong vùng 3x3
+    bằng shift+chuột phải.
+  applies-to: Cuốc nông
+  type: RIGHT_CLICK
+  group: ULTIMATE
+  settings:
+    showActionBar: true
+  applies:
+    - ALL_HOE
+  levels:
+    '1':
+      conditions:
+        - '%player is sneaking% = true : %allow%'
+      cooldown: 3
+      effects:
+        - PLANT_SEEDS:1:CARROT
+    '2':
+      conditions:
+        - '%player is sneaking% = true : %allow%'
+      cooldown: 2
+      effects:
+        - PLANT_SEEDS:1:CARROT
+    '3':
+      conditions:
+        - '%player is sneaking% = true : %allow%'
+      effects:
+        - PLANT_SEEDS:2:CARROT
+replanter:
+  display: '%group-color%Trồng Lại'
+  description: Tự trồng lại nông sản khi thu hoạch.
+  applies-to: Cuốc nông
+  type: MINING
+  group: UNIQUE
+  applies:
+    - ALL_HOE
+  levels:
+    '1':
+      conditions:
+        - '%is crop% = false : %stop%'
+        - '%is fully grown% = false : %stop%'
+      effects:
+        - PLANT_SEEDS:0:%block drop type%
+strike:
+  display: '%group-color%Sét Đánh'
+  description: |-
+    Có tỉ lệ gọi sét đánh
+    lên đối thủ.
+  applies-to: Kiếm, Cung, Nỏ, Đinh ba
+  type: ATTACK;ATTACK_MOB;SHOOT;SHOOT_MOB
+  settings:
+    showActionBar: true
+  group: SIMPLE
+  applies:
+    - TRIDENT
+    - BOW
+    - CROSSBOW
+    - ALL_SWORD
+  levels:
+    '1':
+      chance: 24
+      cooldown: 3
+      effects:
+        - LIGHTNING @Victim
+    '2':
+      chance: 32
+      cooldown: 3
+      effects:
+        - LIGHTNING @Victim
+    '3':
+      chance: 40
+      cooldown: 4
+      effects:
+        - LIGHTNING @Victim
+impact:
+  display: '%group-color%Va Đập'
+  description: Có tỉ lệ nhân đôi sát thương.
+  applies-to: Đinh ba
+  type: SHOOT;SHOOT_MOB
+  settings:
+    showActionBar: true
+  group: ELITE
+  applies:
+    - TRIDENT
+  levels:
+    '1':
+      chance: 5
+      cooldown: 3
+      effects:
+        - DOUBLE_DAMAGE @Victim
+    '2':
+      chance: 8
+      cooldown: 3
+      effects:
+        - DOUBLE_DAMAGE @Victim
+    '3':
+      chance: 11
+      cooldown: 5
+      effects:
+        - DOUBLE_DAMAGE @Victim
+    '4':
+      chance: 14
+      cooldown: 6
+      effects:
+        - DOUBLE_DAMAGE @Victim
+twinge:
+  display: '%group-color%Rỉ Máu'
+  description: |-
+    Khiến đối thủ chảy máu nếu
+    đánh cận chiến.
+  applies-to: Đinh ba
+  type: ATTACK
+  group: LEGENDARY
+  settings:
+    showActionBar: true
+  applies:
+    - TRIDENT
+  levels:
+    '1':
+      chance: 5
+      cooldown: 3
+      effects:
+        - POTION:SLOW:0:100 @Victim
+        - DO_HARM:<random number>1-3</random number> @Victim
+        - MESSAGE:§4You're bleeding! @Victim
+        - WAIT:20
+        - DO_HARM:<random number>1-3</random number> @Victim
+        - WAIT:20
+        - DO_HARM:<random number>1-3</random number> @Victim
+    '2':
+      chance: 8
+      cooldown: 3
+      effects:
+        - POTION:SLOW:0:100 @Victim
+        - DO_HARM:<random number>1-3</random number> @Victim
+        - MESSAGE:§4You're bleeding! @Victim
+        - WAIT:20
+        - DO_HARM:<random number>1-3</random number> @Victim
+        - WAIT:20
+        - DO_HARM:<random number>1-3</random number> @Victim
+    '3':
+      chance: 11
+      cooldown: 5
+      effects:
+        - POTION:SLOW:0:100 @Victim
+        - DO_HARM:<random number>1-3</random number> @Victim
+        - MESSAGE:§4You're bleeding! @Victim
+        - WAIT:20
+        - DO_HARM:<random number>1-3</random number> @Victim
+        - WAIT:20
+        - DO_HARM:<random number>1-3</random number> @Victim
+    '4':
+      chance: 14
+      cooldown: 6
+      effects:
+        - POTION:SLOW:0:100 @Victim
+        - DO_HARM:<random number>1-3</random number> @Victim
+        - MESSAGE:§4You're bleeding! @Victim
+        - WAIT:20
+        - DO_HARM:<random number>1-3</random number> @Victim
+        - WAIT:20
+        - DO_HARM:<random number>1-3</random number> @Victim
+jellylegs:
+  display: '%group-color%Chân Thạch'
+  description: Có tỉ lệ hủy sát thương rơi.
+  applies-to: Giày
+  type: FALL_DAMAGE
+  settings:
+    showActionBar: true
+  group: ULTIMATE
+  applies:
+    - ALL_BOOTS
+  levels:
+    '1':
+      chance: 40
+      effects:
+        - CANCEL_EVENT
+    '2':
+      chance: 80
+      effects:
+        - CANCEL_EVENT
+    '3':
+      effects:
+        - CANCEL_EVENT
+wings:
+  display: '%group-color%Đôi Cánh'
+  description: Cho phép bay khi mang.
+  applies-to: Giày
+  type: EFFECT_STATIC
+  group: LEGENDARY
+  applies:
+    - ALL_BOOTS
+  levels:
+    '1':
+      effects:
+        - FLY
+aquatic:
+  display: '%group-color%Thủy Sinh'
+  description: Thở được dưới nước.
+  applies-to: Mũ
+  type: EFFECT_STATIC
+  group: SIMPLE
+  applies:
+    - ALL_HELMET
+  levels:
+    '1':
+      effects:
+        - POTION:WATER_BREATHING:0
+smelting:
+  display: '%group-color%Nung Chảy'
+  description: Có tỉ lệ nung khối đào được.
+  applies-to: Cuốc
+  type: MINING
+  group: SIMPLE
+  applies:
+    - ALL_PICKAXE
+    - ALL_SHOVEL
+  levels:
+    '1':
+      chance: 33
+      effects:
+        - SMELT
+    '2':
+      chance: 66
+      effects:
+        - SMELT
+    '3':
+      chance: 100
+      effects:
+        - SMELT
+experience:
+  display: '%group-color%Kinh Nghiệm'
+  description: Có tỉ lệ nhận thêm EXP từ quặng.
+  applies-to: Công cụ
+  type: MINING
+  group: SIMPLE
+  applies:
+    - ALL_PICKAXE
+    - ALL_SPADE
+    - ALL_AXE
+  levels:
+    '1':
+      chance: 15
+      cooldown: 1
+      conditions:
+        - '%block type% contains ORE : %allow%'
+      effects:
+        - EXP:<random number>2-5</random number> @Block
+    '2':
+      chance: 30
+      cooldown: 2
+      conditions:
+        - '%block type% contains ORE : %allow%'
+      effects:
+        - EXP:<random number>2-5</random number>
+    '3':
+      chance: 45
+      cooldown: 3
+      conditions:
+        - '%block type% contains ORE : %allow%'
+      effects:
+        - EXP:<random number>2-5</random number> @Block
+    '4':
+      chance: 60
+      cooldown: 4
+      conditions:
+        - '%block type% contains ORE : %allow%'
+      effects:
+        - EXP:<random number>2-5</random number> @Block
+    '5':
+      chance: 75
+      cooldown: 5
+      conditions:
+        - '%block type% contains ORE : %allow%'
+      effects:
+        - EXP:<random number>2-5</random number> @Block
+hasten:
+  display: '%group-color%Nhanh Tay'
+  description: Có tỉ lệ nhận Haste sau khi phá khối.
+  applies-to: Công cụ
+  type: MINING
+  group: SIMPLE
+  applies:
+    - ALL_PICKAXE
+    - ALL_SPADE
+    - ALL_AXE
+  levels:
+    '1':
+      chance: 15
+      cooldown: 3
+      effects:
+        - POTION:FAST_DIGGING:0:40
+    '2':
+      chance: 25
+      cooldown: 3
+      effects:
+        - POTION:FAST_DIGGING:1:60
+    '3':
+      chance: 45
+      cooldown: 3
+      effects:
+        - POTION:FAST_DIGGING:2:80
+haste:
+  display: '%group-color%Gia Tốc'
+  description: Vung công cụ nhanh hơn.
+  applies-to: Công cụ
+  type: HELD
+  group: FABLED
+  applies:
+    - ALL_PICKAXE
+    - ALL_SPADE
+    - ALL_AXE
+  levels:
+    '1':
+      effects:
+        - POTION:FAST_DIGGING:0
+    '2':
+      effects:
+        - POTION:FAST_DIGGING:1
+    '3':
+      effects:
+        - POTION:FAST_DIGGING:2
+rebreather:
+  display: '%group-color%Thở Lại'
+  description: |-
+    Có tỉ lệ hồi không khí
+    khi đào dưới nước.
+  applies-to: Cuốc
+  type: MINING
+  group: SIMPLE
+  applies:
+    - ALL_PICKAXE
+  levels:
+    '1':
+      cooldown: 3
+      chance: 30
+      effects:
+        - AIR
+    '2':
+      cooldown: 3
+      chance: 60
+      effects:
+        - AIR
+glowing:
+  display: '%group-color%Phát Sáng'
+  description: Nhận Night Vision vĩnh viễn.
+  applies-to: Mũ
+  type: EFFECT_STATIC
+  group: SIMPLE
+  applies:
+    - ALL_HELMET
+  levels:
+    '1':
+      effects:
+        - POTION:NIGHT_VISION:0
+decapitation:
+  display: '%group-color%Chém Đầu'
+  description: |-
+    Có tỉ lệ rơi đầu đối thủ
+    khi giết.
+  applies-to: Kiếm, Rìu
+  type: KILL_PLAYER
+  settings:
+    showActionBar: true
+  group: SIMPLE
+  applies:
+    - ALL_SWORD
+    - ALL_AXE
+  levels:
+    '1':
+      chance: 5
+      cooldown: 10
+      effects:
+        - DROP_HEAD @Victim
+    '2':
+      chance: 10
+      cooldown: 10
+      effects:
+        - DROP_HEAD @Victim
+    '3':
+      chance: 15
+      cooldown: 10
+      effects:
+        - DROP_HEAD @Victim
+forcefield:
+  display: '%group-color%Lá Chắn Lực'
+  description: Có tỉ lệ đẩy lùi đối thủ.
+  applies-to: Kiếm
+  type: ATTACK;ATTACK_MOB
+  settings:
+    showActionBar: true
+  group: SIMPLE
+  applies:
+    - ALL_SWORD
+  levels:
+    '1':
+      chance: 30
+      cooldown: 12
+      effects:
+        - PULL_AWAY:1.0 @Victim
+    '2':
+      chance: 36
+      cooldown: 12
+      effects:
+        - PULL_AWAY:1.5 @Victim
+    '3':
+      chance: 42
+      cooldown: 12
+      effects:
+        - PULL_AWAY:2.0 @Victim
+    '4':
+      chance: 48
+      cooldown: 13
+      effects:
+        - PULL_AWAY:2.5 @Victim
+    '5':
+      chance: 54
+      cooldown: 13
+      effects:
+        - PULL_AWAY:3.0 @Victim
+epicness:
+  display: '%group-color%Huyền Ảo'
+  description: Tạo hiệu ứng hạt và âm thanh.
+  applies-to: Kiếm
+  type: ATTACK;ATTACK_MOB
+  group: SIMPLE
+  applies:
+    - ALL_SWORD
+  levels:
+    '1':
+      chance: 20
+      cooldown: 3
+      effects:
+        - PARTICLE:SMOKE_LARGE:50:1 @Victim
+        - PLAY_SOUND:ENTITY_GHAST_SCREAM
+    '2':
+      chance: 40
+      cooldown: 3
+      effects:
+        - PARTICLE:SMOKE_LARGE:50:1 @Victim
+        - PLAY_SOUND:ENTITY_GHAST_SCREAM
+    '3':
+      chance: 60
+      cooldown: 3
+      effects:
+        - PARTICLE:SMOKE_LARGE:50:1 @Victim
+        - PLAY_SOUND:ENTITY_GHAST_SCREAM
+famine:
+  display: '%group-color%Nạn Đói'
+  description: Có tỉ lệ gây hiệu ứng đói cho đối thủ.
+  applies-to: Vũ khí
+  type: ATTACK
+  group: UNIQUE
+  applies:
+    - ALL_SWORD
+    - ALL_AXE
+  levels:
+    '1':
+      chance: 12
+      cooldown: 8
+      effects:
+        - POTION:HUNGER:0:80 @Victim
+    '2':
+      chance: 15
+      cooldown: 8
+      effects:
+        - POTION:HUNGER:0:120 @Victim
+    '3':
+      chance: 18
+      cooldown: 8
+      effects:
+        - POTION:HUNGER:1:80 @Victim
+    '4':
+      chance: 22
+      cooldown: 8
+      effects:
+        - POTION:HUNGER:1:120 @Victim
+berserk:
+  display: '%group-color%Cuồng Nộ'
+  description: |-
+    Có tỉ lệ nhận Strength
+    và Mining Fatigue.
+  applies-to: Kiếm, Rìu
+  type: ATTACK;ATTACK_MOB
+  group: UNIQUE
+  applies:
+    - ALL_SWORD
+    - ALL_AXE
+  levels:
+    '1':
+      chance: 4
+      cooldown: 8
+      effects:
+        - POTION:SLOW_DIGGING:0:60 @Attacker
+        - POTION:INCREASE_DAMAGE:0:60 @Attacker
+    '2':
+      chance: 8
+      cooldown: 7
+      effects:
+        - POTION:SLOW_DIGGING:0:80 @Attacker
+        - POTION:INCREASE_DAMAGE:0:80 @Attacker
+    '3':
+      chance: 12
+      cooldown: 6
+      effects:
+        - POTION:SLOW_DIGGING:0:100 @Attacker
+        - POTION:INCREASE_DAMAGE:0:100 @Attacker
+    '4':
+      chance: 16
+      cooldown: 5
+      effects:
+        - POTION:SLOW_DIGGING:1:80 @Attacker
+        - POTION:INCREASE_DAMAGE:1:80 @Attacker
+    '5':
+      chance: 20
+      cooldown: 4
+      effects:
+        - POTION:SLOW_DIGGING:1:100 @Attacker
+        - POTION:INCREASE_DAMAGE:1:100 @Attacker
+reflect:
+  display: '%group-color%Phản Đòn'
+  description: |-
+    Hấp thụ sát thương và
+    phản lại đối thủ.
+  applies-to: Giáp
+  type: DEFENSE;DEFENSE_MOB
+  group: UNIQUE
+  applies:
+    - ALL_ARMOR
+  levels:
+    '1':
+      chance: 3
+      cooldown: 5
+      effects:
+        - CANCEL_EVENT
+        - DO_HARM:%damage% @Attacker
+        - CACTUS @Victim
+    '2':
+      chance: 4
+      cooldown: 5
+      effects:
+        - CANCEL_EVENT
+        - DO_HARM:%damage% @Attacker
+        - CACTUS @Victim
+    '3':
+      chance: 5
+      cooldown: 5
+      effects:
+        - CANCEL_EVENT
+        - DO_HARM:%damage% @Attacker
+        - CACTUS @Victim
+    '4':
+      chance: 6
+      cooldown: 5
+      effects:
+        - CANCEL_EVENT
+        - DO_HARM:%damage% @Attacker
+        - CACTUS @Victim
+    '5':
+      chance: 7
+      cooldown: 5
+      effects:
+        - CANCEL_EVENT
+        - DO_HARM:%damage% @Attacker
+        - CACTUS @Victim
+ward:
+  display: '%group-color%Phòng Hộ'
+  description: Có tỉ lệ hấp thụ sát thương địch.
+  applies-to: Giáp
+  type: DEFENSE;DEFENSE_MOB
+  group: UNIQUE
+  applies:
+    - ALL_ARMOR
+  levels:
+    '1':
+      chance: 3
+      cooldown: 5
+      effects:
+        - CANCEL_EVENT
+    '2':
+      chance: 7
+      cooldown: 5
+      effects:
+        - CANCEL_EVENT
+    '3':
+      chance: 11
+      cooldown: 5
+      effects:
+        - CANCEL_EVENT
+    '4':
+      chance: 15
+      cooldown: 5
+      effects:
+        - CANCEL_EVENT
+explosive:
+  display: '%group-color%Nổ Mũi Tên'
+  description: Có tỉ lệ mũi tên phát nổ.
+  applies-to: Cung
+  type: SHOOT;SHOOT_MOB
+  settings:
+    showActionBar: true
+  group: UNIQUE
+  applies:
+    - BOW
+  levels:
+    '1':
+      chance: 20
+      cooldown: 7
+      effects:
+        - TNT @Victim
+    '2':
+      chance: 30
+      cooldown: 8
+      effects:
+        - TNT @Victim
+    '3':
+      chance: 40
+      cooldown: 8
+      effects:
+        - TNT @Victim
+    '4':
+      chance: 50
+      cooldown: 8
+      effects:
+        - TNT @Victim
+    '5':
+      chance: 60
+      cooldown: 9
+      effects:
+        - TNT @Victim
+frenzy:
+  display: '%group-color%Cuồng Xạ'
+  description: Có tỉ lệ mũi tên phát nổ.
+  applies-to: Nỏ
+  type: SHOOT;SHOOT_MOB
+  settings:
+    showActionBar: true
+  group: UNIQUE
+  applies:
+    - CROSSBOW
+  levels:
+    '1':
+      chance: 20
+      cooldown: 7
+      effects:
+        - TNT @Victim
+    '2':
+      chance: 30
+      cooldown: 8
+      effects:
+        - TNT @Victim
+    '3':
+      chance: 40
+      cooldown: 8
+      effects:
+        - TNT @Victim
+    '4':
+      chance: 50
+      cooldown: 8
+      effects:
+        - TNT @Victim
+    '5':
+      chance: 60
+      cooldown: 9
+      effects:
+        - TNT @Victim
+featherweight:
+  display: '%group-color%Nhẹ Như Lông'
+  description: Có tỉ lệ nhận Haste đột ngột.
+  applies-to: Kiếm, Rìu
+  type: ATTACK;ATTACK_MOB
+  group: UNIQUE
+  applies:
+    - ALL_SWORD
+    - ALL_AXE
+  levels:
+    '1':
+      chance: 35
+      cooldown: 2
+      effects:
+        - POTION:FAST_DIGGING:0:60
+    '2':
+      chance: 55
+      cooldown: 2
+      effects:
+        - POTION:FAST_DIGGING:1:80
+    '3':
+      chance: 75
+      cooldown: 2
+      effects:
+        - POTION:FAST_DIGGING:2:100
+sharpnesshook:
+  display: '%group-color%Lưỡi Câu Sắc'
+  description: Gây sát thương bằng lưỡi câu.
+  applies-to: Cần câu
+  type: HOOK_ENTITY
+  group: ULTIMATE
+  applies:
+    - FISHING_ROD
+  levels:
+    '1':
+      effects:
+        - DO_HARM:2 @Victim
+    '2':
+      effects:
+        - DO_HARM:4 @Victim
+    '3':
+      effects:
+        - DO_HARM:6 @Victim
+    '4':
+      effects:
+        - DO_HARM:9 @Victim
+    '5':
+      effects:
+        - DO_HARM:12 @Victim
+    '6':
+      effects:
+        - DO_HARM:15 @Victim
+    '7':
+      effects:
+        - DO_HARM:19 @Victim
+    '8':
+      effects:
+        - DO_HARM:23 @Victim
+    '9':
+      effects:
+        - DO_HARM:27 @Victim
+poisonedhook:
+  display: '%group-color%Lưỡi Câu Độc'
+  description: Tẩm độc lưỡi câu.
+  applies-to: Cần câu
+  type: HOOK_ENTITY
+  group: ELITE
+  applies:
+    - FISHING_ROD
+  levels:
+    '1':
+      chance: 6
+      cooldown: 2
+      effects:
+        - POTION:POISON:0:80 @Victim
+    '2':
+      chance: 22
+      cooldown: 2
+      effects:
+        - POTION:POISON:0:120 @Victim
+    '3':
+      chance: 35
+      cooldown: 2
+      effects:
+        - POTION:POISON:1:80 @Victim
+firehook:
+  display: '%group-color%Lưỡi Câu Lửa'
+  description: Lưỡi câu đang cháy.
+  applies-to: Cần câu
+  type: HOOK_ENTITY
+  group: ELITE
+  applies:
+    - FISHING_ROD
+  levels:
+    '1':
+      chance: 25
+      cooldown: 3
+      effects:
+        - BURN:40 @Victim
+    '2':
+      chance: 35
+      cooldown: 6
+      effects:
+        - BURN:40 @Victim
+    '3':
+      chance: 100
+      cooldown: 8
+      effects:
+        - BURN:40 @Victim
+molten:
+  display: '%group-color%Nóng Chảy'
+  description: Có tỉ lệ đốt cháy kẻ tấn công.
+  applies-to: Giáp
+  type: DEFENSE;DEFENSE_MOB
+  group: UNIQUE
+  applies:
+    - ALL_ARMOR
+  levels:
+    '1':
+      chance: 21
+      cooldown: 2
+      effects:
+        - BURN:2 @Attacker
+    '2':
+      chance: 32
+      cooldown: 2
+      effects:
+        - BURN:4 @Attacker
+    '3':
+      chance: 49
+      cooldown: 2
+      effects:
+        - BURN:6 @Attacker
+    '4':
+      chance: 63
+      cooldown: 2
+      effects:
+        - BURN:8 @Attacker
+ravenous:
+  display: '%group-color%Háu Đói'
+  description: |-
+    Có tỉ lệ hồi đói
+    khi chiến đấu.
+  applies-to: Kiếm, Rìu
+  type: ATTACK;ATTACK_MOB
+  group: UNIQUE
+  applies:
+    - ALL_SWORD
+    - ALL_AXE
+  levels:
+    '1':
+      chance: 14
+      cooldown: 2
+      effects:
+        - ADD_FOOD:<random number>1-4</random number> @Attacker
+    '2':
+      chance: 18
+      cooldown: 2
+      effects:
+        - ADD_FOOD:<random number>1-4</random number> @Attacker
+    '3':
+      chance: 22
+      cooldown: 2
+      effects:
+        - ADD_FOOD:<random number>1-4</random number> @Attacker
+    '4':
+      chance: 26
+      cooldown: 2
+      effects:
+        - ADD_FOOD:<random number>1-4</random number> @Attacker
+veinminer:
+  display: '%group-color%Đào Mạch'
+  description: Đào cả mạch quặng.
+  applies-to: Cuốc
+  group: ELITE
+  type: MINING
+  applies:
+    - ALL_PICKAXE
+  levels:
+    '1':
+      chance: 15
+      cooldown: 4
+      settings:
+        whitelist:
+          - "COAL_ORE"
+          - "COPPER_ORE"
+          - "IRON_ORE"
+          - "GOLD_ORE"
+          - "LAPIS_ORE"
+          - "REDSTONE_ORE"
+          - "DIAMOND_ORE"
+          - "EMERALD_ORE"
+          - "NETHER_QUARTZ_ORE"
+          - "NETHER_GOLD_ORE"
+          - "ANCIENT_DEBRIS"
+          - "DEEPSLATE_COAL_ORE"
+          - "DEEPSLATE_COPPER_ORE"
+          - "DEEPSLATE_IRON_ORE"
+          - "DEEPSLATE_GOLD_ORE"
+          - "DEEPSLATE_LAPIS_ORE"
+          - "DEEPSLATE_REDSTONE_ORE"
+          - "DEEPSLATE_DIAMOND_ORE"
+          - "DEEPSLATE_EMERALD_ORE"
+      effects:
+        - BREAK_BLOCK @Veinmine
+    '2':
+      chance: 35
+      cooldown: 3
+      settings:
+        whitelist:
+          - "COAL_ORE"
+          - "COPPER_ORE"
+          - "IRON_ORE"
+          - "GOLD_ORE"
+          - "LAPIS_ORE"
+          - "REDSTONE_ORE"
+          - "DIAMOND_ORE"
+          - "EMERALD_ORE"
+          - "NETHER_QUARTZ_ORE"
+          - "NETHER_GOLD_ORE"
+          - "ANCIENT_DEBRIS"
+          - "DEEPSLATE_COAL_ORE"
+          - "DEEPSLATE_COPPER_ORE"
+          - "DEEPSLATE_IRON_ORE"
+          - "DEEPSLATE_GOLD_ORE"
+          - "DEEPSLATE_LAPIS_ORE"
+          - "DEEPSLATE_REDSTONE_ORE"
+          - "DEEPSLATE_DIAMOND_ORE"
+          - "DEEPSLATE_EMERALD_ORE"
+      effects:
+        - BREAK_BLOCK @Veinmine
+    '3':
+      settings:
+        whitelist:
+          - "COAL_ORE"
+          - "COPPER_ORE"
+          - "IRON_ORE"
+          - "GOLD_ORE"
+          - "LAPIS_ORE"
+          - "REDSTONE_ORE"
+          - "DIAMOND_ORE"
+          - "EMERALD_ORE"
+          - "NETHER_QUARTZ_ORE"
+          - "NETHER_GOLD_ORE"
+          - "ANCIENT_DEBRIS"
+          - "DEEPSLATE_COAL_ORE"
+          - "DEEPSLATE_COPPER_ORE"
+          - "DEEPSLATE_IRON_ORE"
+          - "DEEPSLATE_GOLD_ORE"
+          - "DEEPSLATE_LAPIS_ORE"
+          - "DEEPSLATE_REDSTONE_ORE"
+          - "DEEPSLATE_DIAMOND_ORE"
+          - "DEEPSLATE_EMERALD_ORE"
+      effects:
+        - BREAK_BLOCK @Veinmine
+telepathy:
+  display: '%group-color%Thần Giao'
+  description: |-
+    Tự đưa khối phá được
+    vào túi đồ.
+  applies-to: Công cụ
+  type: MINING
+  group: UNIQUE
+  applies:
+    - ALL_TOOLS
+  levels:
+    '1':
+      chance: 40
+      effects:
+        - TP_DROPS @Block
+    '2':
+      chance: 60
+      effects:
+        - TP_DROPS @Block
+    '3':
+      chance: 80
+      effects:
+        - TP_DROPS @Block
+    '4':
+      effects:
+        - TP_DROPS @Block
+explosivedemise:
+  display: '%group-color%Cái Chết Nổ'
+  description: |-
+    Triệu hồi creeper hộ vệ
+    khi gần chết.
+  applies-to: Quần
+  type: DEFENSE;DEFENSE_MOB
+  settings:
+    showActionBar: true
+  group: UNIQUE
+  applies:
+    - ALL_LEGGINGS
+  levels:
+    '1':
+      chance: 13
+      cooldown: 3
+      conditions:
+        - '%victim health% > 6 : %stop%'
+      effects:
+        - GUARD:CREEPER:8:1:@Victim
+        - POTION:BLINDNESS:0:40 @Attacker
+    '2':
+      chance: 17
+      cooldown: 3
+      conditions:
+        - '%victim health% > 6 : %stop%'
+      effects:
+        - GUARD:CREEPER:8:1:@Victim
+        - POTION:BLINDNESS:0:60 @Attacker
+    '3':
+      chance: 24
+      cooldown: 3
+      conditions:
+        - '%victim health% > 7 : %stop%'
+      effects:
+        - GUARD:CREEPER:8:1:@Victim
+        - POTION:BLINDNESS:0:100 @Attacker
+    '4':
+      chance: 30
+      cooldown: 3
+      conditions:
+        - '%victim health% > 7 : %stop%'
+      effects:
+        - GUARD:CREEPER:8:1:@Victim
+        - POTION:BLINDNESS:1:40 @Attacker
+    '5':
+      chance: 38
+      cooldown: 3
+      conditions:
+        - '%victim health% > 8 : %stop%'
+      effects:
+        - GUARD:CREEPER:8:2:@Victim
+        - POTION:BLINDNESS:1:80 @Attacker
+    '6':
+      chance: 46
+      cooldown: 3
+      conditions:
+        - '%victim health% > 8 : %stop%'
+      effects:
+        - GUARD:CREEPER:8:2:@Victim
+        - POTION:BLINDNESS:1:120 @Attacker
+    '7':
+      chance: 55
+      cooldown: 3
+      conditions:
+        - '%victim health% > 8 : %stop%'
+      effects:
+        - GUARD:CREEPER:8:2:@Victim
+        - POTION:BLINDNESS:2:60 @Attacker
+    '8':
+      chance: 69
+      cooldown: 3
+      conditions:
+        - '%victim health% > 8 : %stop%'
+      effects:
+        - GUARD:CREEPER:8:3:@Victim
+        - POTION:BLINDNESS:2:100 @Attacker
+enderslayer:
+  display: '%group-color%Sát Enderman'
+  description: Tăng sát thương lên Enderman và Ender Dragon.
+  applies-to: Vũ khí
+  type: ATTACK_MOB
+  group: ELITE
+  applies:
+    - ALL_SWORD
+    - ALL_AXE
+  levels:
+    '1':
+      chance: 16
+      cooldown: 2
+      conditions:
+        - '%mob type% = ENDERMAN or %mob type% = ENDER_DRAGON or %mob type% = ENDERDRAGON : %allow%'
+      effects:
+        - INCREASE_DAMAGE:<random number>10-40</random number> @Attacker
+    '2':
+      chance: 21
+      cooldown: 2
+      conditions:
+        - '%mob type% = ENDERMAN or %mob type% = ENDER_DRAGON or %mob type% = ENDERDRAGON : %allow%'
+      effects:
+        - INCREASE_DAMAGE:<random number>10-40</random number> @Attacker
+    '3':
+      chance: 29
+      cooldown: 2
+      conditions:
+        - '%mob type% = ENDERMAN or %mob type% = ENDER_DRAGON or %mob type% = ENDERDRAGON : %allow%'
+      effects:
+        - INCREASE_DAMAGE:<random number>10-40</random number> @Attacker
+    '4':
+      chance: 34
+      cooldown: 2
+      conditions:
+        - '%mob type% = ENDERMAN or %mob type% = ENDER_DRAGON or %mob type% = ENDERDRAGON : %allow%'
+      effects:
+        - INCREASE_DAMAGE:<random number>10-40</random number> @Attacker
+    '5':
+      chance: 41
+      cooldown: 2
+      conditions:
+        - '%mob type% = ENDERMAN or %mob type% = ENDER_DRAGON or %mob type% = ENDERDRAGON : %allow%'
+      effects:
+        - INCREASE_DAMAGE:<random number>10-40</random number> @Attacker
+deathpunch:
+  display: '%group-color%Đấm Tử Thần'
+  description: Tăng sát thương lên Zombie.
+  applies-to: Kiếm, Rìu
+  type: ATTACK_MOB
+  group: SIMPLE
+  applies:
+    - ALL_SWORD
+    - ALL_AXE
+  levels:
+    '1':
+      chance: 16
+      cooldown: 2
+      conditions:
+        - '%mob type% = ZOMBIE : %allow%'
+      effects:
+        - INCREASE_DAMAGE:<random number>10-40</random number> @Attacker
+    '2':
+      chance: 20
+      cooldown: 2
+      conditions:
+        - '%mob type% = ZOMBIE : %allow%'
+      effects:
+        - INCREASE_DAMAGE:<random number>10-40</random number> @Attacker
+    '3':
+      chance: 40
+      cooldown: 2
+      conditions:
+        - '%mob type% = ZOMBIE : %allow%'
+      effects:
+        - INCREASE_DAMAGE:<random number>10-40</random number> @Attacker
+    '4':
+      chance: 60
+      cooldown: 1
+      conditions:
+        - '%mob type% = ZOMBIE : %allow%'
+      effects:
+        - INCREASE_DAMAGE:<random number>10-40</random number> @Attacker
+    '5':
+      chance: 80
+      conditions:
+        - '%mob type% = ZOMBIE : %allow%'
+      effects:
+        - INCREASE_DAMAGE:<random number>10-40</random number> @Attacker
+bonecrusher:
+  display: '%group-color%Nghiền Xương'
+  description: Tăng sát thương lên Skeleton.
+  applies-to: Kiếm, Rìu
+  type: ATTACK_MOB
+  group: SIMPLE
+  applies:
+    - ALL_SWORD
+    - ALL_AXE
+  levels:
+    '1':
+      chance: 25
+      cooldown: 2
+      conditions:
+        - '%mob type% = SKELETON : %allow%'
+      effects:
+        - INCREASE_DAMAGE:<random number>10-40</random number> @Attacker
+    '2':
+      chance: 50
+      cooldown: 2
+      conditions:
+        - '%mob type% = SKELETON : %allow%'
+      effects:
+        - INCREASE_DAMAGE:<random number>10-40</random number> @Attacker
+    '3':
+      chance: 75
+      cooldown: 1
+      conditions:
+        - '%mob type% = SKELETON : %allow%'
+      effects:
+        - INCREASE_DAMAGE:<random number>10-40</random number> @Attacker
+immolate:
+  display: '%group-color%Thiêu Nhện'
+  description: Tăng sát thương lên Spider.
+  applies-to: Kiếm, Rìu
+  type: ATTACK_MOB
+  group: ELITE
+  applies:
+    - ALL_SWORD
+    - ALL_AXE
+  levels:
+    '1':
+      chance: 25
+      cooldown: 2
+      conditions:
+        - '%mob type% = SPIDER : %allow%'
+      effects:
+        - INCREASE_DAMAGE:<random number>10-40</random number> @Attacker
+    '2':
+      chance: 50
+      cooldown: 2
+      conditions:
+        - '%mob type% = SPIDER : %allow%'
+      effects:
+        - INCREASE_DAMAGE:<random number>10-40</random number> @Attacker
+    '3':
+      chance: 75
+      conditions:
+        - '%mob type% = SPIDER : %allow%'
+      effects:
+        - INCREASE_DAMAGE:<random number>10-40</random number> @Attacker
+slayer:
+  display: '%group-color%Đồ Tể'
+  description: Tăng sát thương lên mob trung lập.
+  applies-to: Kiếm, Rìu
+  type: ATTACK_MOB
+  group: UNIQUE
+  applies:
+    - ALL_SWORD
+    - ALL_AXE
+  levels:
+    '1':
+      chance: 25
+      cooldown: 2
+      conditions:
+        - '%is hostile% = false : %allow%'
+      effects:
+        - INCREASE_DAMAGE:<random number>10-40</random number> @Attacker
+    '2':
+      chance: 50
+      cooldown: 2
+      conditions:
+        - '%is hostile% = false : %allow%'
+      effects:
+        - INCREASE_DAMAGE:<random number>10-40</random number> @Attacker
+    '3':
+      chance: 75
+      conditions:
+        - '%is hostile% = false : %allow%'
+      effects:
+        - INCREASE_DAMAGE:<random number>10-40</random number> @Attacker
+    '4':
+      conditions:
+        - '%is hostile% = false : %allow%'
+      effects:
+        - INCREASE_DAMAGE:<random number>10-40</random number> @Attacker
+hunter:
+  display: '%group-color%Thợ Săn'
+  description: Tăng sát thương lên mob trung lập.
+  applies-to: Cung, Nỏ, Đinh ba
+  type: SHOOT_MOB
+  group: UNIQUE
+  applies:
+    - TRIDENT
+    - BOW
+    - CROSSBOW
+  levels:
+    '1':
+      chance: 25
+      cooldown: 2
+      conditions:
+        - '%is hostile% = false : %allow%'
+      effects:
+        - INCREASE_DAMAGE:<random number>10-40</random number> @Attacker
+    '2':
+      chance: 50
+      cooldown: 2
+      conditions:
+        - '%is hostile% = false : %allow%'
+      effects:
+        - INCREASE_DAMAGE:<random number>10-40</random number> @Attacker
+    '3':
+      chance: 75
+      conditions:
+        - '%is hostile% = false : %allow%'
+      effects:
+        - INCREASE_DAMAGE:<random number>10-40</random number> @Attacker
+    '4':
+      conditions:
+        - '%is hostile% = false : %allow%'
+      effects:
+        - INCREASE_DAMAGE:<random number>10-40</random number> @Attacker
+beastslayer:
+  display: '%group-color%Sát Thú'
+  description: Tăng sát thương lên mob thù địch.
+  applies-to: Kiếm, Rìu
+  type: ATTACK_MOB
+  group: LEGENDARY
+  applies:
+    - ALL_SWORD
+    - ALL_AXE
+  levels:
+    '1':
+      chance: 25
+      cooldown: 2
+      conditions:
+        - '%is hostile% = true : %allow%'
+      effects:
+        - INCREASE_DAMAGE:<random number>10-40</random number> @Attacker
+    '2':
+      chance: 50
+      cooldown: 2
+      conditions:
+        - '%is hostile% = true : %allow%'
+      effects:
+        - INCREASE_DAMAGE:<random number>10-40</random number> @Attacker
+    '3':
+      chance: 75
+      conditions:
+        - '%is hostile% = true : %allow%'
+      effects:
+        - INCREASE_DAMAGE:<random number>10-40</random number> @Attacker
+    '4':
+      conditions:
+        - '%is hostile% = true : %allow%'
+      effects:
+        - INCREASE_DAMAGE:<random number>10-40</random number> @Attacker
+hook:
+  display: '%group-color%Lưỡi Câu'
+  description: Nhận thêm EXP khi câu cá.
+  applies-to: Cần câu
+  type: CATCH_FISH
+  group: ELITE
+  applies:
+    - FISHING_ROD
+  levels:
+    '1':
+      chance: 15
+      cooldown: 12
+      effects:
+        - EXP:%exp%
+    '2':
+      chance: 25
+      cooldown: 12
+      effects:
+        - EXP:%exp%
+    '3':
+      chance: 35
+      cooldown: 12
+      effects:
+        - EXP:%exp%
+bait:
+  display: '%group-color%Mồi Câu'
+  description: Có tỉ lệ nhân đôi vật phẩm câu được.
+  applies-to: Cần câu
+  type: CATCH_FISH
+  settings:
+    showActionBar: true
+  group: LEGENDARY
+  applies:
+    - FISHING_ROD
+  levels:
+    '1':
+      chance: 15
+      cooldown: 10
+      effects:
+        - MORE_DROPS:1
+    '2':
+      chance: 18
+      cooldown: 15
+      effects:
+        - MORE_DROPS:1
+    '3':
+      chance: 26
+      cooldown: 20
+      effects:
+        - MORE_DROPS:1
+snap:
+  display: '%group-color%Giật Câu'
+  description: Kéo thực thể bị trúng về phía bạn.
+  applies-to: Cần câu
+  type: CATCH_FISH
+  group: ELITE
+  applies:
+    - FISHING_ROD
+  levels:
+    '1':
+      chance: 15
+      cooldown: 4
+      conditions:
+        - '%caught% = PLAYER : %allow%'
+      effects:
+        - PULL_CLOSER:1 @Victim
+    '2':
+      chance: 25
+      cooldown: 6
+      conditions:
+        - '%caught% = PLAYER : %allow%'
+      effects:
+        - PULL_CLOSER:1.5 @Victim
+    '3':
+      conditions:
+        - '%caught% = PLAYER : %allow%'
+      effects:
+        - PULL_CLOSER:2 @Victim
+lucky:
+  display: '%group-color%May Mắn'
+  description: Có tỉ lệ tăng luck khi câu cá.
+  applies-to: Cần câu
+  type: RIGHT_CLICK
+  group: ULTIMATE
+  applies:
+    - FISHING_ROD
+  levels:
+    '1':
+      chance: 75
+      cooldown: 12
+      effects:
+        - POTION:LUCK:1:1000
+    '2':
+      chance: 85
+      cooldown: 12
+      effects:
+        - POTION:LUCK:2:1000
+    '3':
+      chance: 95
+      cooldown: 12
+      effects:
+        - POTION:LUCK:3:1000
+permafrost:
+  display: '%group-color%Băng Vĩnh Cửu'
+  description: Có tỉ lệ làm chậm và gây chảy máu.
+  applies-to: Kiếm
+  type: ATTACK;ATTACK_MOB
+  group: ULTIMATE
+  applies:
+    - ALL_SWORD
+  levels:
+    '1':
+      chance: 15
+      cooldown: 12
+      effects:
+        - DO_HARM:1 @Victim
+        - BLOOD @Victim
+        - POTION:SLOW:0:20 @Victim
+        - WAIT:20
+        - DO_HARM:1 @Victim
+        - BLOOD @Victim
+        - WAIT:20
+        - DO_HARM:1 @Victim
+        - BLOOD @Victim
+    '2':
+      chance: 18
+      cooldown: 12
+      effects:
+        - DO_HARM:2 @Victim
+        - BLOOD @Victim
+        - POTION:SLOW:0:40 @Victim
+        - WAIT:20
+        - DO_HARM:2 @Victim
+        - BLOOD @Victim
+        - WAIT:20
+        - DO_HARM:1 @Victim
+        - BLOOD @Victim
+    '3':
+      chance: 19
+      cooldown: 12
+      effects:
+        - DO_HARM:3 @Victim
+        - BLOOD @Victim
+        - POTION:SLOW:0:50 @Victim
+        - WAIT:20
+        - DO_HARM:2 @Victim
+        - BLOOD @Victim
+        - WAIT:20
+        - DO_HARM:1 @Victim
+        - BLOOD @Victim
+    '4':
+      chance: 21
+      cooldown: 13
+      effects:
+        - DO_HARM:3 @Victim
+        - BLOOD @Victim
+        - POTION:SLOW:0:60 @Victim
+        - WAIT:20
+        - DO_HARM:2 @Victim
+        - BLOOD @Victim
+        - WAIT:20
+        - DO_HARM:2 @Victim
+        - BLOOD @Victim
+    '5':
+      chance: 25
+      cooldown: 13
+      effects:
+        - DO_HARM:3 @Victim
+        - BLOOD @Victim
+        - POTION:SLOW:1:60 @Victim
+        - WAIT:20
+        - DO_HARM:3 @Victim
+        - BLOOD @Victim
+        - WAIT:20
+        - DO_HARM:2 @Victim
+        - BLOOD @Victim
+soulless:
+  display: '%group-color%Vô Hồn'
+  description: Tăng sát thương lên mob thù địch.
+  applies-to: Cung, Nỏ, Đinh ba
+  type: SHOOT_MOB
+  group: UNIQUE
+  applies:
+    - TRIDENT
+    - BOW
+    - CROSSBOW
+  levels:
+    '1':
+      chance: 25
+      cooldown: 2
+      conditions:
+        - '%is hostile% = true : %allow%'
+      effects:
+        - INCREASE_DAMAGE:<random number>10-40</random number> @Attacker
+    '2':
+      chance: 50
+      cooldown: 2
+      conditions:
+        - '%is hostile% = true : %allow%'
+      effects:
+        - INCREASE_DAMAGE:<random number>10-40</random number> @Attacker
+    '3':
+      chance: 75
+      conditions:
+        - '%is hostile% = true : %allow%'
+      effects:
+        - INCREASE_DAMAGE:<random number>10-40</random number> @Attacker
+    '4':
+      conditions:
+        - '%is hostile% = true : %allow%'
+      effects:
+        - INCREASE_DAMAGE:<random number>10-40</random number> @Attacker
+reaper:
+  display: '%group-color%Tử Thần'
+  description: |-
+    Có tỉ lệ gây Wither và Blindness
+    khi gây sát thương.
+  applies-to: Rìu
+  settings:
+    showActionBar: true
+  type: ATTACK
+  group: ELITE
+  applies:
+    - ALL_AXE
+  levels:
+    '1':
+      chance: 8
+      cooldown: 16
+      effects:
+        - POTION:WITHER:0:35 @Victim
+        - POTION:BLINDNESS:0:35 @Victim
+    '2':
+      chance: 10
+      cooldown: 14
+      effects:
+        - POTION:WITHER:0:40 @Victim
+        - POTION:BLINDNESS:0:40 @Victim
+    '3':
+      chance: 12
+      cooldown: 12
+      effects:
+        - POTION:WITHER:0:50 @Victim
+        - POTION:BLINDNESS:0:50 @Victim
+    '4':
+      chance: 14
+      cooldown: 10
+      effects:
+        - POTION:WITHER:0:60 @Victim
+        - POTION:BLINDNESS:0:60 @Victim
+netherslayer:
+  display: '%group-color%Sát Nether'
+  description: Tăng sát thương lên mob Nether.
+  applies-to: Vũ khí
+  type: ATTACK_MOB
+  group: ELITE
+  applies:
+    - ALL_SWORD
+    - ALL_AXE
+  levels:
+    '1':
+      chance: 16
+      cooldown: 2
+      conditions:
+        - '%mob type% = BLAZE or %mob type% = ZOMBIE_PIGMAN or %mob type% = PIG_ZOMBIE or %mob type% = GHAST : %allow%'
+      effects:
+        - INCREASE_DAMAGE:<random number>10-40</random number> @Attacker
+    '2':
+      chance: 21
+      cooldown: 2
+      conditions:
+        - '%mob type% = BLAZE or %mob type% = ZOMBIE_PIGMAN or %mob type% = PIG_ZOMBIEor %mob type% = GHAST : %allow%'
+      effects:
+        - INCREASE_DAMAGE:<random number>10-40</random number> @Attacker
+    '3':
+      chance: 29
+      cooldown: 2
+      conditions:
+        - '%mob type% = BLAZE or %mob type% = ZOMBIE_PIGMAN or %mob type% = PIG_ZOMBIE or %mob type% = GHAST : %allow%'
+      effects:
+        - INCREASE_DAMAGE:<random number>10-40</random number> @Attacker
+    '4':
+      chance: 34
+      cooldown: 2
+      conditions:
+        - '%mob type% = BLAZE or %mob type% = ZOMBIE_PIGMAN or %mob type% = PIG_ZOMBIE or %mob type% = GHAST : %allow%'
+      effects:
+        - INCREASE_DAMAGE:<random number>10-40</random number> @Attacker
+    '5':
+      chance: 41
+      cooldown: 2
+      conditions:
+        - '%mob type% = BLAZE or %mob type% = ZOMBIE_PIGMAN or %mob type% = PIG_ZOMBIE or %mob type% = GHAST : %allow%'
+      effects:
+        - INCREASE_DAMAGE:<random number>10-40</random number> @Attacker
+blind:
+  display: '%group-color%Chói Mắt'
+  description: |-
+    Có tỉ lệ gây mù
+    khi tấn công.
+  applies-to: Kiếm
+  type: ATTACK
+  group: ELITE
+  applies:
+    - ALL_SWORD
+  levels:
+    '1':
+      chance: 17
+      cooldown: 5
+      effects:
+        - POTION:BLINDNESS:0:60 @Victim
+    '2':
+      chance: 25
+      cooldown: 5
+      effects:
+        - POTION:BLINDNESS:1:80 @Victim
+    '3':
+      chance: 33
+      cooldown: 5
+      effects:
+        - POTION:BLINDNESS:2:100 @Victim
+allure:
+  display: '%group-color%Quyến Rũ'
+  description: Đòn đánh kéo mob về phía bạn.
+  applies-to: Kiếm
+  type: ATTACK_MOB
+  group: ELITE
+  applies:
+    - ALL_SWORD
+  levels:
+    '1':
+      chance: 30
+      effects:
+        - PULL_CLOSER:1 @Victim
+    '2':
+      chance: 60
+      effects:
+        - PULL_CLOSER:1.5 @Victim
+    '3':
+      effects:
+        - PULL_CLOSER:2 @Victim
+frozen:
+  display: '%group-color%Đóng Băng'
+  description: |-
+    Có tỉ lệ làm chậm kẻ tấn công
+    khi phòng thủ.
+  applies-to: Giáp
+  type: DEFENSE;DEFENSE_MOB
+  group: ELITE
+  applies:
+    - ALL_ARMOR
+  levels:
+    '1':
+      chance: 19
+      cooldown: 6
+      effects:
+        - POTION:SLOW:0:40 @Attacker
+    '2':
+      chance: 19
+      cooldown: 6
+      effects:
+        - POTION:SLOW:1:50 @Attacker
+    '3':
+      chance: 26
+      cooldown: 6
+      effects:
+        - POTION:SLOW:2:60 @Attacker
+paralyze:
+  display: '%group-color%Tê Liệt'
+  description: |-
+    Gây sét và có tỉ lệ
+    làm chậm / chậm vung.
+  applies-to: Kiếm, Rìu
+  type: ATTACK;ATTACK_MOB
+  group: ELITE
+  applies:
+    - ALL_SWORD
+    - ALL_AXE
+  levels:
+    '1':
+      chance: 7
+      cooldown: 3
+      effects:
+        - LIGHTNING @Victim
+        - EXTINGUISH @Victim
+        - POTION:SLOW:0:60 @Victim
+        - POTION:SLOW_DIGGING:0:60 @Victim
+    '2':
+      chance: 10
+      cooldown: 3
+      effects:
+        - LIGHTNING @Victim
+        - EXTINGUISH @Victim
+        - POTION:SLOW:0:100 @Victim
+        - POTION:SLOW_DIGGING:0:100 @Victim
+    '3':
+      chance: 13
+      cooldown: 3
+      effects:
+        - LIGHTNING @Victim
+        - EXTINGUISH @Victim
+        - POTION:SLOW:1:60 @Victim
+        - POTION:SLOW_DIGGING:1:60 @Victim
+    '4':
+      chance: 16
+      cooldown: 3
+      effects:
+        - LIGHTNING @Victim
+        - EXTINGUISH @Victim
+        - POTION:SLOW:1:100 @Victim
+        - POTION:SLOW_DIGGING:1:100 @Victim
+poison:
+  display: '%group-color%Độc'
+  description: Có tỉ lệ gây hiệu ứng độc.
+  applies-to: Kiếm, Rìu
+  type: ATTACK;ATTACK_MOB
+  group: ELITE
+  applies:
+    - ALL_SWORD
+    - ALL_AXE
+  levels:
+    '1':
+      chance: 6
+      cooldown: 2
+      effects:
+        - POTION:POISON:0:80 @Victim
+    '2':
+      chance: 22
+      cooldown: 2
+      effects:
+        - POTION:POISON:0:120 @Victim
+    '3':
+      chance: 35
+      cooldown: 2
+      effects:
+        - POTION:POISON:1:80 @Victim
+virus:
+  display: '%group-color%Virus'
+  description: Có tỉ lệ gây hiệu ứng độc.
+  applies-to: Cung, Nỏ, Đinh ba
+  type: SHOOT_MOB;SHOOT
+  settings:
+    showActionBar: true
+  group: UNIQUE
+  applies:
+    - TRIDENT
+    - BOW
+    - CROSSBOW
+  levels:
+    '1':
+      chance: 6
+      cooldown: 2
+      effects:
+        - POTION:POISON:0:80 @Victim
+    '2':
+      chance: 22
+      cooldown: 2
+      effects:
+        - POTION:POISON:0:120 @Victim
+    '3':
+      chance: 35
+      cooldown: 2
+      effects:
+        - POTION:POISON:1:80 @Victim
+poisoned:
+  display: '%group-color%Tẩm Độc'
+  description: Có tỉ lệ gây độc cho kẻ tấn công.
+  applies-to: Giáp
+  type: DEFENSE;DEFENSE_MOB;DEFENSE_PROJECTILE
+  group: ELITE
+  applies:
+    - ALL_ARMOR
+  levels:
+    '1':
+      chance: 8
+      cooldown: 6
+      effects:
+        - POTION:POISON:0:60 @Attacker
+    '2':
+      chance: 12
+      cooldown: 6
+      effects:
+        - POTION:POISON:0:120 @Attacker
+    '3':
+      chance: 17
+      cooldown: 6
+      effects:
+        - POTION:POISON:1:60 @Attacker
+    '4':
+      chance: 23
+      cooldown: 6
+      effects:
+        - POTION:POISON:1:120 @Attacker
+reforged:
+  display: '%group-color%Rèn Lại'
+  description: |-
+    Bảo vệ độ bền vũ khí và công cụ,
+    làm chậm hao mòn.
+  applies-to: Vũ khí và công cụ
+  type: ATTACK_MOB;MINING
+  group: ELITE
+  applies:
+    - ALL_AXE
+    - ALL_SWORD
+    - ALL_PICKAXE
+    - ALL_SPADE
+  levels:
+    '1':
+      chance: 10
+      effects:
+        - ADD_DURABILITY_ITEM:1
+    '2':
+      chance: 20
+      effects:
+        - ADD_DURABILITY_ITEM:1
+    '3':
+      chance: 30
+      effects:
+        - ADD_DURABILITY_ITEM:1
+    '4':
+      chance: 40
+      effects:
+        - ADD_DURABILITY_ITEM:1
+    '5':
+      chance: 50
+      effects:
+        - ADD_DURABILITY_ITEM:1
+    '6':
+      chance: 60
+      effects:
+        - ADD_DURABILITY_ITEM:1
+    '7':
+      chance: 70
+      effects:
+        - ADD_DURABILITY_ITEM:1
+    '8':
+      chance: 80
+      effects:
+        - ADD_DURABILITY_ITEM:1
+    '9':
+      chance: 90
+      effects:
+        - ADD_DURABILITY_ITEM:1
+    '10':
+      effects:
+        - ADD_DURABILITY_ITEM:1
+snare:
+  display: '%group-color%Bẫy Tên'
+  description: |-
+    Có tỉ lệ làm chậm và mệt
+    kẻ địch bằng đạn.
+  applies-to: Cung
+  type: SHOOT;SHOOT_MOB
+  settings:
+    showActionBar: true
+  group: ELITE
+  applies:
+    - BOW
+    - CROSSBOW
+  levels:
+    '1':
+      chance: 12
+      cooldown: 3
+      effects:
+        - POTION:SLOW:0:80 @Victim
+        - POTION:SLOW_DIGGING:0:80 @Victim
+    '2':
+      chance: 19
+      cooldown: 3
+      effects:
+        - POTION:SLOW:0:120 @Victim
+        - POTION:SLOW_DIGGING:0:120 @Victim
+    '3':
+      chance: 24
+      cooldown: 3
+      effects:
+        - POTION:SLOW:1:80 @Victim
+        - POTION:SLOW_DIGGING:1:80 @Victim
+    '4':
+      chance: 29
+      cooldown: 3
+      effects:
+        - POTION:SLOW:1:120 @Victim
+        - POTION:SLOW_DIGGING:1:120 @Victim
+springs:
+  display: '%group-color%Lò Xo'
+  description: Nhận Jump Boost.
+  applies-to: Giày
+  type: EFFECT_STATIC
+  group: ELITE
+  applies:
+    - ALL_BOOTS
+  levels:
+    '1':
+      effects:
+        - POTION:JUMP:0
+    '2':
+      effects:
+        - POTION:JUMP:1
+    '3':
+      effects:
+        - POTION:JUMP:2
+undeadruse:
+  display: '%group-color%Mưu Undead'
+  description: |-
+    Khi bị đánh có tỉ lệ triệu hồi
+    zombie để đánh lạc hướng đối thủ.
+  applies-to: Giày
+  type: DEFENSE;DEFENSE_MOB
+  settings:
+    showActionBar: true
+  group: ELITE
+  applies:
+    - ALL_BOOTS
+  levels:
+    '1':
+      chance: 3
+      cooldown: 6
+      effects:
+        - GUARD:ZOMBIE:8:2:@Victim
+    '2':
+      chance: 4
+      cooldown: 6
+      effects:
+        - GUARD:ZOMBIE:8:2:@Victim
+    '3':
+      chance: 5
+      cooldown: 6
+      effects:
+        - GUARD:ZOMBIE:8:2:@Victim
+    '4':
+      chance: 6
+      cooldown: 6
+      effects:
+        - GUARD:ZOMBIE:8:2:@Victim
+    '5':
+      chance: 7
+      cooldown: 6
+      effects:
+        - GUARD:ZOMBIE:8:2:@Victim
+    '6':
+      chance: 8
+      cooldown: 6
+      effects:
+        - GUARD:ZOMBIE:8:3:@Victim
+    '7':
+      chance: 10
+      cooldown: 6
+      effects:
+        - GUARD:ZOMBIE:8:3:@Victim
+    '8':
+      chance: 14
+      cooldown: 6
+      effects:
+        - GUARD:ZOMBIE:8:4:@Victim
+    '9':
+      chance: 18
+      cooldown: 6
+      effects:
+        - GUARD:ZOMBIE:8:4:@Victim
+    '10':
+      chance: 22
+      cooldown: 6
+      effects:
+        - GUARD:ZOMBIE:8:5:@Victim
+voodoo:
+  display: '%group-color%Bùa Ngải'
+  description: Có tỉ lệ gây Weakness.
+  applies-to: Giáp
+  type: DEFENSE;DEFENSE_MOB
+  group: ELITE
+  applies:
+    - ALL_ARMOR
+  levels:
+    '1':
+      chance: 5
+      cooldown: 2
+      effects:
+        - POTION:WEAKNESS:0:60 @Attacker
+    '2':
+      chance: 7
+      cooldown: 2
+      effects:
+        - POTION:WEAKNESS:0:100 @Attacker
+    '3':
+      chance: 9
+      cooldown: 2
+      effects:
+        - POTION:WEAKNESS:0:140 @Attacker
+    '4':
+      chance: 13
+      cooldown: 2
+      effects:
+        - POTION:WEAKNESS:0:60 @Attacker
+    '5':
+      chance: 16
+      cooldown: 2
+      effects:
+        - POTION:WEAKNESS:0:100 @Attacker
+    '6':
+      chance: 21
+      cooldown: 2
+      effects:
+        - POTION:WEAKNESS:0:120 @Attacker
+wither:
+  display: '%group-color%Wither'
+  description: Có tỉ lệ gây hiệu ứng Wither.
+  applies-to: Giáp
+  type: DEFENSE;DEFENSE_MOB
+  group: ELITE
+  applies:
+    - ALL_ARMOR
+  levels:
+    '1':
+      chance: 9
+      cooldown: 3
+      effects:
+        - POTION:WITHER:0:60 @Attacker
+    '2':
+      chance: 11
+      cooldown: 3
+      effects:
+        - POTION:WITHER:0:100 @Attacker
+    '3':
+      chance: 14
+      cooldown: 3
+      effects:
+        - POTION:WITHER:0:140 @Attacker
+    '4':
+      chance: 17
+      cooldown: 3
+      effects:
+        - POTION:WITHER:1:60 @Attacker
+    '5':
+      chance: 21
+      cooldown: 3
+      effects:
+        - POTION:WITHER:1:100 @Attacker
+perish:
+  display: '%group-color%Hủy Hoại'
+  description: Có tỉ lệ gây hiệu ứng Wither.
+  applies-to: Cung, Nỏ, Đinh ba
+  type: SHOOT;SHOOT_MOB
+  settings:
+    showActionBar: true
+  group: UNIQUE
+  applies:
+    - TRIDENT
+    - BOW
+    - CROSSBOW
+  levels:
+    '1':
+      chance: 9
+      cooldown: 3
+      effects:
+        - POTION:WITHER:0:60 @Victim
+    '2':
+      chance: 11
+      cooldown: 3
+      effects:
+        - POTION:WITHER:0:100 @Victim
+    '3':
+      chance: 14
+      cooldown: 3
+      effects:
+        - POTION:WITHER:0:140 @Victim
+    '4':
+      chance: 17
+      cooldown: 3
+      effects:
+        - POTION:WITHER:1:60 @Victim
+    '5':
+      chance: 21
+      cooldown: 3
+      effects:
+        - POTION:WITHER:1:100 @Victim
+smokebomb:
+  display: '%group-color%Bom Khói'
+  description: |-
+    Khi gần chết, tạo bom khói
+    để đánh lạc hướng kẻ địch.
+  applies-to: Mũ
+  type: DEFENSE;DEFENSE_MOB
+  settings:
+    showActionBar: true
+  group: ELITE
+  applies:
+    - ALL_HELMET
+  levels:
+    '1':
+      chance: 9
+      cooldown: 2
+      conditions:
+        - '%victim health% > 4 : %stop%'
+      effects:
+        - PARTICLE:CLOUD:200:3 @Victim
+        - POTION:BLINDNESS:0:60 @Attacker
+    '2':
+      chance: 15
+      cooldown: 2
+      conditions:
+        - '%victim health% > 4 : %stop%'
+      effects:
+        - PARTICLE:CLOUD:200:3 @Victim
+        - POTION:BLINDNESS:0:60 @Attacker
+    '3':
+      chance: 23
+      cooldown: 2
+      conditions:
+        - '%victim health% > 4 : %stop%'
+      effects:
+        - PARTICLE:CLOUD:200:3 @Victim
+        - POTION:BLINDNESS:0:100 @Attacker
+    '4':
+      chance: 28
+      cooldown: 2
+      conditions:
+        - '%victim health% > 5 : %stop%'
+      effects:
+        - PARTICLE:CLOUD:200:3 @Victim
+        - POTION:BLINDNESS:0:100 @Attacker
+    '5':
+      chance: 30
+      cooldown: 2
+      conditions:
+        - '%victim health% > 5 : %stop%'
+      effects:
+        - PARTICLE:CLOUD:200:3 @Victim
+        - POTION:BLINDNESS:1:60 @Attacker
+    '6':
+      chance: 34
+      cooldown: 2
+      conditions:
+        - '%victim health% > 5 : %stop%'
+      effects:
+        - PARTICLE:CLOUD:200:3 @Victim
+        - POTION:BLINDNESS:1:100 @Attacker
+    '7':
+      chance: 36
+      cooldown: 2
+      conditions:
+        - '%victim health% > 6 : %stop%'
+      effects:
+        - PARTICLE:CLOUD:200:3 @Victim
+        - POTION:BLINDNESS:1:140 @Attacker
+    '8':
+      chance: 38
+      cooldown: 2
+      conditions:
+        - '%victim health% > 6 : %stop%'
+      effects:
+        - PARTICLE:CLOUD:200:3 @Victim
+        - POTION:BLINDNESS:2:120 @Attacker
+infernal:
+  display: '%group-color%Địa Ngục'
+  description: Hiệu ứng lửa nổ.
+  applies-to: Kiếm, Rìu
+  type: ATTACK;ATTACK_MOB
+  group: ELITE
+  applies:
+    - ALL_SWORD
+    - ALL_AXE
+  levels:
+    '1':
+      chance: 15
+      cooldown: 2
+      effects:
+        - PARTICLE:BURN:2:20
+        - BURN:2 @Victim
+    '2':
+      chance: 30
+      cooldown: 2
+      effects:
+        - PARTICLE:BURN:2:40
+        - BURN:4 @Victim
+    '3':
+      chance: 50
+      cooldown: 2
+      effects:
+        - PARTICLE:BURN:3:20
+        - BURN:6 @Victim
+extinguish:
+  display: '%group-color%Dập Lửa'
+  description: |-
+    Có tỉ lệ tự dập lửa
+    khi đang cháy.
+  applies-to: Quần
+  type: DEFENSE;DEFENSE_MOB;FIRE
+  group: ELITE
+  applies:
+    - ALL_LEGGINGS
+  levels:
+    '1':
+      chance: 20
+      effects:
+        - WAIT:1
+        - EXTINGUISH @Victim
+    '2':
+      chance: 60
+      effects:
+        - WAIT:1
+        - EXTINGUISH @Victim
+    '3':
+      chance: 80
+      effects:
+        - WAIT:1
+        - EXTINGUISH @Victim
+shockwave:
+  display: '%group-color%Sóng Xung'
+  description: |-
+    Có tỉ lệ đẩy lùi kẻ tấn công
+    khi máu thấp.
+  applies-to: Áo giáp
+  type: DEFENSE;DEFENSE_MOB
+  settings:
+    showActionBar: true
+  group: ELITE
+  applies:
+    - ALL_CHESTPLATE
+  levels:
+    '1':
+      chance: 10
+      cooldown: 4
+      conditions:
+        - '%victim health% > 5 : %stop%'
+      effects:
+        - PULL_AWAY:0.5 @Attacker
+    '2':
+      chance: 20
+      cooldown: 4
+      conditions:
+        - '%victim health% > 5 : %stop%'
+      effects:
+        - PULL_AWAY:1.0 @Attacker
+    '3':
+      chance: 30
+      cooldown: 4
+      conditions:
+        - '%victim health% > 5 : %stop%'
+      effects:
+        - PULL_AWAY:1.5 @Attacker
+    '4':
+      chance: 40
+      cooldown: 4
+      conditions:
+        - '%victim health% > 5 : %stop%'
+      effects:
+        - PULL_AWAY:2.0 @Attacker
+    '5':
+      chance: 50
+      cooldown: 4
+      conditions:
+        - '%victim health% > 5 : %stop%'
+      effects:
+        - PULL_AWAY:2.5 @Attacker
+vampire:
+  display: '%group-color%Ma Cà Rồng'
+  description: |-
+    Có tỉ lệ hồi đến 3 máu
+    vài giây sau khi đánh.
+  applies-to: Kiếm
+  type: ATTACK;ATTACK_MOB
+  group: ELITE
+  applies:
+    - ALL_SWORD
+  levels:
+    '1':
+      chance: 7
+      cooldown: 4
+      effects:
+        - WAIT:40
+        - ADD_HEALTH:<random number>1-6</random number>
+    '2':
+      chance: 12
+      cooldown: 4
+      effects:
+        - WAIT:40
+        - ADD_HEALTH:<random number>1-6</random number>
+    '3':
+      chance: 15
+      cooldown: 4
+      effects:
+        - WAIT:40
+        - ADD_HEALTH:<random number>1-6</random number>
+greatsword:
+  display: '%group-color%Đại Kiếm'
+  description: |-
+    Nhân sát thương lên người chơi
+    đang cầm Cung khi bị đánh.
+  applies-to: Kiếm
+  type: ATTACK
+  group: ELITE
+  settings:
+    showActionBar: true
+  applies:
+    - ALL_SWORD
+  levels:
+    '1':
+      chance: 15
+      cooldown: 2
+      conditions:
+        - '%victim is holding% contains BOW : %allow%'
+      effects:
+        - INCREASE_DAMAGE:<random number>45-70</random number> @Attacker
+    '2':
+      chance: 25
+      cooldown: 2
+      conditions:
+        - '%victim is holding% contains BOW : %allow%'
+      effects:
+        - INCREASE_DAMAGE:<random number>75-90</random number> @Attacker
+    '3':
+      chance: 35
+      cooldown: 2
+      conditions:
+        - '%victim is holding% contains BOW : %allow%'
+      effects:
+        - INCREASE_DAMAGE:<random number>85-165</random number> @Attacker
+    '4':
+      chance: 45
+      cooldown: 2
+      conditions:
+        - '%victim is holding% contains BOW : %allow%'
+      effects:
+        - INCREASE_DAMAGE:<random number>105-205</random number>
+    '5':
+      chance: 55
+      cooldown: 2
+      conditions:
+        - '%victim is holding% contains BOW : %allow%'
+      effects:
+        - INCREASE_DAMAGE:<random number>105-205</random number>
+bowmaster:
+  display: '%group-color%Bậc Thầy Cung'
+  description: |-
+    Nhân sát thương lên người chơi
+    đang cầm Kiếm khi bị đánh.
+  applies-to: Cung, Nỏ, Đinh ba
+  type: SHOOT
+  group: ELITE
+  applies:
+    - TRIDENT
+    - BOW
+    - CROSSBOW
+  levels:
+    '1':
+      chance: 15
+      cooldown: 2
+      conditions:
+        - '%victim is holding% contains SWORD : %allow%'
+      effects:
+        - INCREASE_DAMAGE:<random number>45-70</random number> @Attacker
+    '2':
+      chance: 25
+      cooldown: 2
+      conditions:
+        - '%victim is holding% contains SWORD : %allow%'
+      effects:
+        - INCREASE_DAMAGE:<random number>75-90</random number> @Attacker
+    '3':
+      chance: 35
+      cooldown: 2
+      conditions:
+        - '%victim is holding% contains SWORD : %allow%'
+      effects:
+        - INCREASE_DAMAGE:<random number>85-165</random number> @Attacker
+    '4':
+      chance: 45
+      cooldown: 2
+      conditions:
+        - '%victim is holding% contains SWORD : %allow%'
+      effects:
+        - INCREASE_DAMAGE:<random number>105-205</random number>
+    '5':
+      chance: 55
+      cooldown: 2
+      conditions:
+        - '%victim is holding% contains SWORD : %allow%'
+      effects:
+        - INCREASE_DAMAGE:<random number>105-205</random number>
+hardened:
+  display: '%group-color%Cứng Cáp'
+  description: Có tỉ lệ hồi độ bền khi bị người chơi đánh.
+  applies-to: Giáp
+  type: DEFENSE
+  group: LEGENDARY
+  applies:
+    - ALL_ARMOR
+  levels:
+    '1':
+      chance: 25
+      cooldown: 7
+      effects:
+        - ADD_DURABILITY_CURRENT_ITEM:1 @Victim
+    '2':
+      chance: 35
+      cooldown: 7
+      effects:
+        - ADD_DURABILITY_CURRENT_ITEM:1 @Victim
+    '3':
+      chance: 45
+      cooldown: 7
+      effects:
+        - ADD_DURABILITY_CURRENT_ITEM:2 @Victim
+patch:
+  display: '%group-color%Vá Lại'
+  description: Có tỉ lệ hồi độ bền khi bị mob đánh.
+  applies-to: Giáp
+  type: DEFENSE_MOB
+  group: LEGENDARY
+  applies:
+    - ALL_ARMOR
+  levels:
+    '1':
+      chance: 25
+      cooldown: 7
+      effects:
+        - ADD_DURABILITY_CURRENT_ITEM:1 @Victim
+    '2':
+      chance: 35
+      cooldown: 7
+      effects:
+        - ADD_DURABILITY_CURRENT_ITEM:1 @Victim
+    '3':
+      chance: 45
+      cooldown: 7
+      effects:
+        - ADD_DURABILITY_CURRENT_ITEM:2 @Victim
+rocketescape:
+  display: '%group-color%Tên Lửa Thoát'
+  description: Bắn lên trời khi máu thấp.
+  applies-to: Giày
+  type: DEFENSE;DEFENSE_MOB
+  settings:
+    showActionBar: true
+  group: ELITE
+  applies:
+    - ALL_BOOTS
+  levels:
+    '1':
+      chance: 20
+      cooldown: 8
+      conditions:
+        - '%victim health% > 6 : %stop%'
+      effects:
+        - BOOST:UP:20 @Victim
+    '2':
+      chance: 34
+      cooldown: 8
+      conditions:
+        - '%victim health% > 6 : %stop%'
+      effects:
+        - BOOST:UP:25 @Victim
+    '3':
+      chance: 40
+      cooldown: 8
+      conditions:
+        - '%victim health% > 6 : %stop%'
+      effects:
+        - BOOST:UP:30 @Victim
+trickster:
+  display: '%group-color%Lừa Đảo'
+  description: |-
+    Khi bị đánh có tỉ lệ
+    dịch chuyển ra sau lưng đối thủ.
+  applies-to: Giáp
+  type: DEFENSE;DEFENSE_MOB
+  settings:
+    showActionBar: true
+  group: ELITE
+  applies:
+    - ALL_ARMOR
+  levels:
+    '1':
+      chance: 8
+      cooldown: 5
+      effects:
+        - TELEPORT_BEHIND @Victim
+    '2':
+      chance: 14
+      cooldown: 5
+      effects:
+        - TELEPORT_BEHIND @Victim
+    '3':
+      chance: 17
+      cooldown: 5
+      effects:
+        - TELEPORT_BEHIND @Victim
+    '4':
+      chance: 21
+      cooldown: 5
+      effects:
+        - TELEPORT_BEHIND @Victim
+    '5':
+      chance: 29
+      cooldown: 5
+      effects:
+        - TELEPORT_BEHIND @Victim
+    '6':
+      chance: 37
+      cooldown: 5
+      effects:
+        - TELEPORT_BEHIND @Victim
+    '7':
+      chance: 46
+      cooldown: 5
+      effects:
+        - TELEPORT_BEHIND @Victim
+    '8':
+      chance: 51
+      cooldown: 5
+      effects:
+        - TELEPORT_BEHIND @Victim
+timber:
+  display: '%group-color%Chặt Cây'
+  description: Có tỉ lệ chặt cả cây trong một nhát.
+  applies-to: Rìu
+  group: ULTIMATE
+  type: MINING
+  settings:
+    showActionBar: true
+  applies:
+    - ALL_AXE
+  levels:
+    '1':
+      chance: 15
+      cooldown: 5
+      effects:
+        - BREAK_TREE @Block
+    '2':
+      chance: 35
+      cooldown: 5
+      effects:
+        - BREAK_TREE @Block
+    '3':
+      chance: 55
+      cooldown: 6
+      effects:
+        - BREAK_TREE @Block
+distance:
+  display: '%group-color%Khoảng Cách'
+  description: |-
+    Có tỉ lệ đẩy xa kẻ địch
+    và nhận Regeneration.
+  applies-to: Vũ khí
+  type: ATTACK
+  group: ULTIMATE
+  applies:
+    - ALL_SWORD
+    - ALL_AXE
+  levels:
+    '1':
+      chance: 16
+      cooldown: 6
+      effects:
+        - PULL_AWAY:3.0 @Victim
+        - POTION:REGENERATION:0:20 @Attacker
+    '2':
+      chance: 20
+      cooldown: 6
+      effects:
+        - PULL_AWAY:4.5 @Victim
+        - POTION:REGENERATION:0:20 @Attacker
+    '3':
+      chance: 24
+      cooldown: 6
+      effects:
+        - PULL_AWAY:5.0 @Victim
+        - POTION:REGENERATION:1:20 @Attacker
+    '4':
+      chance: 28
+      cooldown: 6
+      effects:
+        - PULL_AWAY:6.5 @Victim
+        - POTION:REGENERATION:1:40 @Attacker
+cleave:
+  display: '%group-color%Chém Quét'
+  description: |-
+    Gây sát thương người chơi trong bán kính
+    tăng theo cấp phù phép.
+  applies-to: Rìu
+  type: ATTACK
+  settings:
+    showActionBar: true
+  group: ULTIMATE
+  applies:
+    - ALL_AXE
+  levels:
+    '1':
+      chance: 4
+      cooldown: 8
+      effects:
+        - DO_HARM:<random number>1-2</random number> @Aoe{radius=2,target=damageable}
+    '2':
+      chance: 5
+      cooldown: 8
+      effects:
+        - DO_HARM:<random number>1-2</random number> @Aoe{radius=2,target=damageable}
+    '3':
+      chance: 6
+      cooldown: 9
+      effects:
+        - DO_HARM:<random number>1-3</random number> @Aoe{radius=3,target=damageable}
+    '4':
+      chance: 7
+      cooldown: 9
+      effects:
+        - DO_HARM:<random number>1-3</random number> @Aoe{radius=4,target=damageable}
+    '5':
+      chance: 9
+      cooldown: 10
+      effects:
+        - DO_HARM:<random number>2-3</random number> @Aoe{radius=5,target=damageable}
+    '6':
+      chance: 12
+      cooldown: 12
+      effects:
+        - DO_HARM:<random number>2-3</random number> @Aoe{radius=6,target=damageable}
+    '7':
+      chance: 15
+      cooldown: 14
+      effects:
+        - DO_HARM:<random number>2-3</random number> @Aoe{radius=7,target=damageable}
+ambit:
+  display: '%group-color%Vùng Sát'
+  description: |-
+    Gây sát thương mob trong bán kính
+    tăng theo cấp phù phép.
+  applies-to: Kiếm, Rìu
+  type: ATTACK_MOB
+  settings:
+    showActionBar: true
+  group: ULTIMATE
+  applies:
+    - ALL_SWORD
+    - ALL_AXE
+  levels:
+    '1':
+      chance: 4
+      cooldown: 8
+      effects:
+        - DO_HARM:<random number>1-2</random number> @Aoe{radius=7,target=mobs}
+    '2':
+      chance: 5
+      cooldown: 8
+      effects:
+        - DO_HARM:<random number>1-2</random number> @Aoe{radius=2,target=mobs}
+    '3':
+      chance: 6
+      cooldown: 9
+      effects:
+        - DO_HARM:<random number>1-3</random number> @Aoe{radius=3,target=mobs}
+    '4':
+      chance: 7
+      cooldown: 9
+      effects:
+        - DO_HARM:<random number>1-3</random number> @Aoe{radius=4,target=mobs}
+    '5':
+      chance: 9
+      cooldown: 10
+      effects:
+        - DO_HARM:<random number>2-3</random number> @Aoe{radius=5,target=mobs}
+    '6':
+      chance: 12
+      cooldown: 12
+      effects:
+        - DO_HARM:<random number>2-3</random number> @Aoe{radius=6,target=mobs}
+    '7':
+      chance: 15
+      cooldown: 14
+      effects:
+        - DO_HARM:<random number>2-3</random number> @Aoe{radius=7,target=mobs}
+angelic:
+  display: '%group-color%Thiên Thần'
+  description: Hồi máu khi bị thương.
+  applies-to: Giáp
+  type: DEFENSE;DEFENSE_MOB
+  group: ULTIMATE
+  applies:
+    - ALL_CHESTPLATE
+  levels:
+    '1':
+      chance: 9
+      cooldown: 7
+      effects:
+        - ADD_HEALTH:<random number>1-3</random number> @Victim
+    '2':
+      chance: 14
+      cooldown: 9
+      effects:
+        - ADD_HEALTH:<random number>1-3</random number> @Victim
+    '3':
+      chance: 17
+      cooldown: 11
+      effects:
+        - ADD_HEALTH:<random number>1-3</random number> @Victim
+    '4':
+      chance: 26
+      cooldown: 13
+      effects:
+        - ADD_HEALTH:<random number>1-4</random number> @Victim
+    '5':
+      chance: 34
+      cooldown: 15
+      effects:
+        - ADD_HEALTH:<random number>1-4</random number> @Victim
+arrowdeflect:
+  display: '%group-color%Chặn Tên'
+  description: Có tỉ lệ chặn sát thương mũi tên địch.
+  applies-to: Giáp
+  type: DEFENSE_PROJECTILE
+  group: ULTIMATE
+  applies:
+    - ALL_ARMOR
+  levels:
+    '1':
+      chance: 15
+      cooldown: 6
+      effects:
+        - CANCEL_EVENT
+    '2':
+      chance: 25
+      cooldown: 6
+      effects:
+        - CANCEL_EVENT
+    '3':
+      chance: 35
+      cooldown: 6
+      effects:
+        - CANCEL_EVENT
+    '4':
+      chance: 45
+      cooldown: 6
+      effects:
+        - CANCEL_EVENT
+arrowbreak:
+  display: '%group-color%Phá Tên'
+  description: |-
+    Có tỉ lệ khiến mũi tên nảy ra
+    khi cầm vật phẩm này.
+  applies-to: Rìu
+  type: DEFENSE_PROJECTILE
+  group: ULTIMATE
+  applies:
+    - ALL_AXE
+  levels:
+    '1':
+      chance: 15
+      cooldown: 8
+      effects:
+        - CANCEL_EVENT
+        - PLAY_SOUND:ENTITY_ITEM_BREAK:2 @Victim
+    '2':
+      chance: 25
+      cooldown: 8
+      effects:
+        - CANCEL_EVENT
+        - PLAY_SOUND:ENTITY_ITEM_BREAK:2 @Victim
+    '3':
+      chance: 35
+      cooldown: 8
+      effects:
+        - CANCEL_EVENT
+        - PLAY_SOUND:ENTITY_ITEM_BREAK:2 @Victim
+    '4':
+      chance: 45
+      cooldown: 9
+      effects:
+        - CANCEL_EVENT
+        - PLAY_SOUND:ENTITY_ITEM_BREAK:2 @Victim
+    '5':
+      chance: 55
+      cooldown: 9
+      effects:
+        - CANCEL_EVENT
+        - PLAY_SOUND:ENTITY_ITEM_BREAK:2 @Victim
+    '6':
+      chance: 65
+      cooldown: 10
+      effects:
+        - CANCEL_EVENT
+        - PLAY_SOUND:ENTITY_ITEM_BREAK:2 @Victim
+curse:
+  display: '%group-color%Nguyền Rủa'
+  description: Có tỉ lệ gây Mining Fatigue cho địch.
+  applies-to: Giáp
+  type: DEFENSE;DEFENSE_MOB
+  group: ELITE
+  applies:
+    - ALL_ARMOR
+  levels:
+    '1':
+      chance: 13
+      effects:
+        - POTION:SLOW_DIGGING:0:100 @Attacker
+    '2':
+      chance: 17
+      cooldown: 15
+      effects:
+        - POTION:SLOW_DIGGING:1:100 @Attacker
+diminish:
+  display: '%group-color%Suy Yếu'
+  description: Có tỉ lệ gây Mining Fatigue cho địch.
+  applies-to: Rìu
+  type: ATTACK;ATTACK_MOB
+  group: ULTIMATE
+  applies:
+    - ALL_AXE
+  levels:
+    '1':
+      chance: 13
+      effects:
+        - POTION:SLOW_DIGGING:0:100 @Victim
+interrupt:
+  display: '%group-color%Gián Đoạn'
+  description: Có tỉ lệ gây Mining Fatigue cho địch.
+  applies-to: Kiếm
+  type: ATTACK;ATTACK_MOB
+  group: ULTIMATE
+  applies:
+    - ALL_SWORD
+  levels:
+    '1':
+      chance: 13
+      effects:
+        - POTION:SLOW_DIGGING:0:100 @Victim
+    '2':
+      chance: 17
+      cooldown: 15
+      effects:
+        - POTION:SLOW_DIGGING:1:100 @Victim
+exalted:
+  display: '%group-color%Thanh Tẩy'
+  description: |-
+    Có tỉ lệ gỡ
+    hiệu ứng xấu.
+  applies-to: Kiếm
+  type: ATTACK
+  group: ULTIMATE
+  applies:
+    - ALL_SWORD
+  levels:
+    '1':
+      chance: 12
+      cooldown: 8
+      effects:
+        - CURE:SLOW @Attacker
+        - CURE:CONFUSION @Attacker
+        - CURE:BLINDNESS @Attacker
+        - CURE:POISON @Attacker
+        - CURE:WITHER @Attacker
+        - CURE:HUNGER @Attacker
+        - CURE:WEAKNESS @Attacker
+        - CURE:SLOW_DIGGING @Attacker
+    '2':
+      chance: 16
+      cooldown: 8
+      effects:
+        - CURE:SLOW @Attacker
+        - CURE:CONFUSION @Attacker
+        - CURE:BLINDNESS @Attacker
+        - CURE:POISON @Attacker
+        - CURE:WITHER @Attacker
+        - CURE:HUNGER @Attacker
+        - CURE:WEAKNESS @Attacker
+        - CURE:SLOW_DIGGING @Attacker
+    '3':
+      chance: 22
+      cooldown: 8
+      effects:
+        - CURE:SLOW @Attacker
+        - CURE:CONFUSION @Attacker
+        - CURE:BLINDNESS @Attacker
+        - CURE:POISON @Attacker
+        - CURE:WITHER @Attacker
+        - CURE:HUNGER @Attacker
+        - CURE:WEAKNESS @Attacker
+        - CURE:SLOW_DIGGING @Attacker
+    '4':
+      chance: 36
+      cooldown: 8
+      effects:
+        - CURE:SLOW @Attacker
+        - CURE:CONFUSION @Attacker
+        - CURE:BLINDNESS @Attacker
+        - CURE:POISON @Attacker
+        - CURE:WITHER @Attacker
+        - CURE:HUNGER @Attacker
+        - CURE:WEAKNESS @Attacker
+        - CURE:SLOW_DIGGING @Attacker
+ragdoll:
+  display: '%group-color%Bật Lưng'
+  description: |-
+    Có tỉ lệ bị đẩy lùi
+    khi bị đánh.
+  applies-to: Giáp
+  type: DEFENSE;DEFENSE_MOB
+  group: ULTIMATE
+  applies:
+    - ALL_ARMOR
+  levels:
+    '1':
+      chance: 10
+      cooldown: 4
+      effects:
+        - PULL_AWAY:0.1 @Victim
+    '2':
+      chance: 20
+      cooldown: 4
+      effects:
+        - PULL_AWAY:0.2 @Victim
+    '3':
+      chance: 30
+      cooldown: 4
+      effects:
+        - PULL_AWAY:0.3 @Victim
+    '4':
+      chance: 50
+      cooldown: 4
+      effects:
+        - PULL_AWAY:0.4 @Victim
+block:
+  display: '%group-color%Đỡ Đòn'
+  description: |-
+    Có tỉ lệ hủy đòn đánh
+    và phản đến 4 sát thương.
+  applies-to: Kiếm
+  type: DEFENSE;DEFENSE_MOB
+  group: ULTIMATE
+  applies:
+    - ALL_SWORD
+  levels:
+    '1':
+      chance: 16
+      cooldown: 4
+      effects:
+        - NEGATE_DAMAGE:50 @Victim
+        - DO_HARM:<random number>1-4</random number> @Attacker
+    '2':
+      chance: 22
+      cooldown: 4
+      effects:
+        - NEGATE_DAMAGE:50 @Victim
+        - DO_HARM:<random number>1-4</random number> @Attacker
+    '3':
+      chance: 30
+      cooldown: 4
+      effects:
+        - NEGATE_DAMAGE:50 @Victim
+        - DO_HARM:<random number>1-4</random number> @Attacker
+trench:
+  display: '%group-color%Đào Rãnh'
+  description: Có tỉ lệ phá trong vùng 3x3.
+  applies-to: Cuốc, Xẻng
+  type: MINING
+  group: ULTIMATE
+  applies:
+    - ALL_PICKAXE
+    - ALL_SPADE
+  levels:
+    '1':
+      chance: 13
+      effects:
+        - BREAK_BLOCK @Trench{r=3}
+    '2':
+      chance: 26
+      effects:
+        - BREAK_BLOCK @Trench{r=3}
+    '3':
+      chance: 36
+      effects:
+        - BREAK_BLOCK @Trench{r=3}
+    '4':
+      chance: 49
+      effects:
+        - BREAK_BLOCK @Trench{r=3}
+    '5':
+      chance: 59
+      effects:
+        - BREAK_BLOCK @Trench{r=3}
+    '6':
+      chance: 72
+      effects:
+        - BREAK_BLOCK @Trench{r=3}
+    '7':
+      chance: 85
+      effects:
+        - BREAK_BLOCK @Trench{r=3}
+    '8':
+      chance: 90
+      effects:
+        - BREAK_BLOCK @Trench{r=3}
+    '9':
+      chance: 100
+      effects:
+        - BREAK_BLOCK @Trench{r=3}
+
+tunnel:
+  display: '%group-color%Đào Hầm'
+  description: |-
+    Có tỉ lệ đào đường hầm / cầu thang
+    theo hướng bạn nhìn.
+  applies-to: Cuốc, Xẻng
+  type: MINING
+  group: ULTIMATE
+  applies:
+    - ALL_PICKAXE
+    - ALL_SPADE
+  levels:
+    '1':
+      chance: 10
+      effects:
+        - 'BREAK_BLOCK @Tunnel{radiuscustom=1x3x5,mode=UP} <condition>%pitch% <= -30 : %allow%</condition>'
+        - 'BREAK_BLOCK @Tunnel{radiuscustom=1x3x5,mode=DOWN} <condition>%pitch% >= 30 : %allow%</condition>'
+        - 'BREAK_BLOCK @Tunnel{radiuscustom=1x3x5,mode=STRAIGHT} <condition>%pitch% >= -10 && %pitch% <= 10 : %allow%</condition>'
+        #- 'BREAK_BLOCK @Tunnel{radiuscustom=1x3x5,mode=AUTO}'
+    '2':
+      chance: 20
+      effects:
+        - 'BREAK_BLOCK @Tunnel{radiuscustom=1x3x5,mode=UP} <condition>%pitch% <= -30 : %allow%</condition>'
+        - 'BREAK_BLOCK @Tunnel{radiuscustom=1x3x5,mode=DOWN} <condition>%pitch% >= 30 : %allow%</condition>'
+        - 'BREAK_BLOCK @Tunnel{radiuscustom=1x3x5,mode=STRAIGHT} <condition>%pitch% >= -10 && %pitch% <= 10 : %allow%</condition>'
+        #- 'BREAK_BLOCK @Tunnel{radiuscustom=1x3x5,mode=AUTO}'
+    '3':
+      chance: 30
+      effects:
+        - 'BREAK_BLOCK @Tunnel{radiuscustom=1x3x5,mode=UP} <condition>%pitch% <= -30 : %allow%</condition>'
+        - 'BREAK_BLOCK @Tunnel{radiuscustom=1x3x5,mode=DOWN} <condition>%pitch% >= 30 : %allow%</condition>'
+        - 'BREAK_BLOCK @Tunnel{radiuscustom=1x3x5,mode=STRAIGHT} <condition>%pitch% >= -10 && %pitch% <= 10 : %allow%</condition>'
+        #- 'BREAK_BLOCK @Tunnel{radiuscustom=1x3x5,mode=AUTO}'
+    '4':
+      chance: 40
+      effects:
+        - 'BREAK_BLOCK @Tunnel{radiuscustom=1x3x5,mode=UP} <condition>%pitch% <= -30 : %allow%</condition>'
+        - 'BREAK_BLOCK @Tunnel{radiuscustom=1x3x5,mode=DOWN} <condition>%pitch% >= 30 : %allow%</condition>'
+        - 'BREAK_BLOCK @Tunnel{radiuscustom=1x3x5,mode=STRAIGHT} <condition>%pitch% >= -10 && %pitch% <= 10 : %allow%</condition>'
+        #- 'BREAK_BLOCK @Tunnel{radiuscustom=1x3x5,mode=AUTO}'
+    '5':
+      chance: 50
+      effects:
+        - 'BREAK_BLOCK @Tunnel{radiuscustom=1x3x5,mode=UP} <condition>%pitch% <= -30 : %allow%</condition>'
+        - 'BREAK_BLOCK @Tunnel{radiuscustom=1x3x5,mode=DOWN} <condition>%pitch% >= 30 : %allow%</condition>'
+        - 'BREAK_BLOCK @Tunnel{radiuscustom=1x3x5,mode=STRAIGHT} <condition>%pitch% >= -10 && %pitch% <= 10 : %allow%</condition>'
+        #- 'BREAK_BLOCK @Tunnel{radiuscustom=1x3x5,mode=AUTO}'
+    '6':
+      chance: 60
+      effects:
+        - 'BREAK_BLOCK @Tunnel{radiuscustom=1x3x5,mode=UP} <condition>%pitch% <= -30 : %allow%</condition>'
+        - 'BREAK_BLOCK @Tunnel{radiuscustom=1x3x5,mode=DOWN} <condition>%pitch% >= 30 : %allow%</condition>'
+        - 'BREAK_BLOCK @Tunnel{radiuscustom=1x3x5,mode=STRAIGHT} <condition>%pitch% >= -10 && %pitch% <= 10 : %allow%</condition>'
+        #- 'BREAK_BLOCK @Tunnel{radiuscustom=1x3x5,mode=AUTO}'
+    '7':
+      chance: 70
+      effects:
+        - 'BREAK_BLOCK @Tunnel{radiuscustom=1x3x5,mode=UP} <condition>%pitch% <= -30 : %allow%</condition>'
+        - 'BREAK_BLOCK @Tunnel{radiuscustom=1x3x5,mode=DOWN} <condition>%pitch% >= 30 : %allow%</condition>'
+        - 'BREAK_BLOCK @Tunnel{radiuscustom=1x3x5,mode=STRAIGHT} <condition>%pitch% >= -10 && %pitch% <= 10 : %allow%</condition>'
+        #- 'BREAK_BLOCK @Tunnel{radiuscustom=1x3x5,mode=AUTO}'
+    '8':
+      chance: 80
+      effects:
+        - 'BREAK_BLOCK @Tunnel{radiuscustom=1x3x5,mode=UP} <condition>%pitch% <= -30 : %allow%</condition>'
+        - 'BREAK_BLOCK @Tunnel{radiuscustom=1x3x5,mode=DOWN} <condition>%pitch% >= 30 : %allow%</condition>'
+        - 'BREAK_BLOCK @Tunnel{radiuscustom=1x3x5,mode=STRAIGHT} <condition>%pitch% >= -10 && %pitch% <= 10 : %allow%</condition>'
+        #- 'BREAK_BLOCK @Tunnel{radiuscustom=1x3x5,mode=AUTO}'
+    '9':
+      chance: 100
+      effects:
+        - 'BREAK_BLOCK @Tunnel{radiuscustom=1x3x5,mode=UP} <condition>%pitch% <= -30 : %allow%</condition>'
+        - 'BREAK_BLOCK @Tunnel{radiuscustom=1x3x5,mode=DOWN} <condition>%pitch% >= 30 : %allow%</condition>'
+        - 'BREAK_BLOCK @Tunnel{radiuscustom=1x3x5,mode=STRAIGHT} <condition>%pitch% >= -10 && %pitch% <= 10 : %allow%</condition>'
+        #- 'BREAK_BLOCK @Tunnel{radiuscustom=1x3x5,mode=AUTO}'
+
+dodge:
+  display: '%group-color%Né Tránh'
+  description: |-
+    Có tỉ lệ né đòn cận chiến,
+    tỉ lệ tăng khi cúi.
+  applies-to: Giáp
+  type: DEFENSE
+  group: ULTIMATE
+  applies:
+    - ALL_ARMOR
+  levels:
+    '1':
+      chance: 7
+      cooldown: 8
+      conditions:
+        - '%victim is sneaking% = true : %chance%+7'
+      effects:
+        - CANCEL_EVENT
+        - PLAY_SOUND:ENTITY_BAT_TAKEOFF:0.7 @Victim
+    '2':
+      chance: 12
+      cooldown: 8
+      conditions:
+        - '%victim is sneaking% = true : %chance%+7'
+      effects:
+        - CANCEL_EVENT
+        - PLAY_SOUND:ENTITY_BAT_TAKEOFF:0.7 @Victim
+    '3':
+      chance: 16
+      cooldown: 8
+      conditions:
+        - '%victim is sneaking% = true : %chance%+7'
+      effects:
+        - CANCEL_EVENT
+        - PLAY_SOUND:ENTITY_BAT_TAKEOFF:0.7 @Victim
+    '4':
+      chance: 22
+      cooldown: 8
+      conditions:
+        - '%victim is sneaking% = true : %chance%+7'
+      effects:
+        - CANCEL_EVENT
+        - PLAY_SOUND:ENTITY_BAT_TAKEOFF:0.7 @Victim
+    '5':
+      chance: 27
+      cooldown: 8
+      conditions:
+        - '%victim is sneaking% = true : %chance%+7'
+      effects:
+        - CANCEL_EVENT
+        - PLAY_SOUND:ENTITY_BAT_TAKEOFF:0.7 @Victim
+fumble:
+  display: '%group-color%Lúng Túng'
+  description: |-
+    Có tỉ lệ khiến địch nổ
+    khi bị mũi tên của họ đánh.
+  applies-to: Áo giáp
+  type: DEFENSE_PROJECTILE
+  group: LEGENDARY
+  applies:
+    - ALL_CHESTPLATE
+  levels:
+    '1':
+      chance: 10
+      cooldown: 8
+      effects:
+        - TNT:1 @Attacker
+        - PLAY_SOUND:ENCHANT_THORNS_HIT:1:1 @Victim
+    '2':
+      chance: 15
+      cooldown: 8
+      effects:
+        - TNT:1 @Attacker
+        - PLAY_SOUND:ENCHANT_THORNS_HIT:1:1 @Victim
+    '3':
+      chance: 25
+      cooldown: 8
+      effects:
+        - TNT:1 @Attacker
+        - PLAY_SOUND:ENCHANT_THORNS_HIT:1:1 @Victim
+turmoil:
+  display: '%group-color%Hỗn Loạn'
+  description: |-
+    Có tỉ lệ ngăn hộ vệ
+    của đối thủ xuất hiện.
+  applies-to: Giáp
+  type: DEFENSE
+  group: LEGENDARY
+  applies:
+    - ALL_ARMOR
+  levels:
+    '1':
+      chance: 10
+      cooldown: 8
+      effects:
+        - DISABLE_ACTIVATION:guardians:4
+        - DISABLE_ACTIVATION:spirits:4
+        - DISABLE_ACTIVATION:explosivedemise:4
+        - DISABLE_ACTIVATION:undeadruse:4
+    '2':
+      chance: 14
+      cooldown: 8
+      effects:
+        - DISABLE_ACTIVATION:guardians:4
+        - DISABLE_ACTIVATION:spirits:4
+        - DISABLE_ACTIVATION:explosivedemise:4
+        - DISABLE_ACTIVATION:undeadruse:4
+    '3':
+      chance: 18
+      cooldown: 8
+      effects:
+        - DISABLE_ACTIVATION:guardians:4
+        - DISABLE_ACTIVATION:spirits:4
+        - DISABLE_ACTIVATION:explosivedemise:4
+        - DISABLE_ACTIVATION:undeadruse:4
+guardians:
+  display: '%group-color%Hộ Vệ'
+  description: |-
+    Có tỉ lệ triệu hồi Iron Golem
+    trợ giúp và bảo vệ bạn.
+  applies-to: Giáp
+  type: DEFENSE
+  settings:
+    showActionBar: true
+  group: ULTIMATE
+  applies:
+    - ALL_ARMOR
+  levels:
+    '1':
+      chance: 6
+      cooldown: 8
+      effects:
+        - GUARD:IRON_GOLEM:8:1 @Victim
+    '2':
+      chance: 9
+      cooldown: 8
+      effects:
+        - GUARD:IRON_GOLEM:8:1 @Victim
+    '3':
+      chance: 13
+      cooldown: 8
+      effects:
+        - GUARD:IRON_GOLEM:8:1 @Victim
+    '4':
+      chance: 14
+      cooldown: 8
+      effects:
+        - GUARD:IRON_GOLEM:8:1 @Victim
+    '5':
+      chance: 16
+      cooldown: 9
+      effects:
+        - GUARD:IRON_GOLEM:8:1 @Victim
+    '6':
+      chance: 17
+      cooldown: 10
+      effects:
+        - GUARD:IRON_GOLEM:8:2 @Victim
+    '7':
+      chance: 18
+      cooldown: 12
+      effects:
+        - GUARD:IRON_GOLEM:8:2 @Victim
+    '8':
+      chance: 20
+      cooldown: 12
+      effects:
+        - GUARD:IRON_GOLEM:8:3 @Victim
+    '9':
+      chance: 22
+      cooldown: 15
+      effects:
+        - GUARD:IRON_GOLEM:8:3 @Victim
+    '10':
+      chance: 24
+      cooldown: 15
+      effects:
+        - GUARD:IRON_GOLEM:8:4 @Victim
+iceaspect:
+  display: '%group-color%Băng Lưỡi'
+  description: |-
+    Có tỉ lệ gây hiệu ứng
+    làm chậm lên địch.
+  applies-to: Kiếm
+  type: ATTACK;ATTACK_MOB
+  group: ULTIMATE
+  applies:
+    - ALL_SWORD
+  levels:
+    '1':
+      chance: 15
+      cooldown: 2
+      effects:
+        - POTION:SLOW:1:100 @Victim
+    '2':
+      chance: 23
+      cooldown: 2
+      effects:
+        - POTION:SLOW:1:100 @Victim
+    '3':
+      chance: 31
+      cooldown: 2
+      effects:
+        - POTION:SLOW:1:100 @Victim
+momentum:
+  display: '%group-color%Đà Bay'
+  description: |-
+    Có tỉ lệ nhận tốc độ
+    kèm pháo hoa.
+  applies-to: Cánh Elytra
+  type: RIGHT_CLICK
+  group: ELITE
+  applies:
+    - ELYTRA
+  levels:
+    '1':
+      chance: 10
+      cooldown: 5
+      conditions:
+        - '%player is holding% = FIREWORK_ROCKET : %allow%'
+      effects:
+        - POTION:SPEED:0:40
+    '2':
+      chance: 25
+      cooldown: 5
+      conditions:
+        - '%player is holding% = FIREWORK_ROCKET : %allow%'
+      effects:
+        - POTION:SPEED:1:60
+    '3':
+      chance: 45
+      cooldown: 5
+      conditions:
+        - '%player is holding% = FIREWORK_ROCKET : %allow%'
+      effects:
+        - POTION:SPEED:2:80
+reinforced:
+  display: '%group-color%Gia Cố'
+  description: Giảm sát thương nhận vào.
+  applies-to: Cánh Elytra
+  type: DEFENSE;DEFENSE_MOB;DEFENSE_PROJECTILE
+  group: ULTIMATE
+  applies:
+    - ELYTRA
+  levels:
+    '1':
+      chance: 15
+      cooldown: 1
+      effects:
+        - DECREASE_DAMAGE:15
+    '2':
+      chance: 45
+      cooldown: 1
+      effects:
+        - DECREASE_DAMAGE:25
+    '3':
+      chance: 60
+      cooldown: 1
+      effects:
+        - DECREASE_DAMAGE:35
+    '4':
+      chance: 75
+      cooldown: 1
+      effects:
+        - DECREASE_DAMAGE:45
+restore:
+  display: '%group-color%Khôi Phục'
+  description: |-
+    Khi vỡ, có tỉ lệ mất phù phép này
+    và sửa một nửa độ bền.
+  applies-to: Công cụ
+  type: ITEM_BREAK
+  group: FABLED
+  settings:
+    showActionBar: true
+  applies:
+    - ALL_PICKAXE
+    - ALL_SPADE
+    - ALL_AXE
+  levels:
+    '1':
+      chance: 40
+      effects:
+        - ADD_DURABILITY_CURRENT_ITEM:<round><math>(%maximum durability%/2)</math></round>
+        - REMOVE_ENCHANT:restore
+        - PLAY_SOUND:ITEM_TOTEM_USE
+    '2':
+      chance: 60
+      effects:
+        - ADD_DURABILITY_CURRENT_ITEM:<round><math>(%maximum durability%/2)</math></round>
+        - REMOVE_ENCHANT:restore
+        - PLAY_SOUND:ITEM_TOTEM_USE
+    '3':
+      chance: 80
+      effects:
+        - ADD_DURABILITY_CURRENT_ITEM:<round><math>(%maximum durability%/2)</math></round>
+        - REMOVE_ENCHANT:restore
+        - PLAY_SOUND:ITEM_TOTEM_USE
+    '4':
+      chance: 100
+      effects:
+        - ADD_DURABILITY_CURRENT_ITEM:<round><math>(%maximum durability%/2)</math></round>
+        - REMOVE_ENCHANT:restore
+        - PLAY_SOUND:ITEM_TOTEM_USE
+implants:
+  display: '%group-color%Cấy Ghép'
+  description: Có tỉ lệ hồi đói mỗi vài giây.
+  applies-to: Mũ
+  type: REPEATING
+  group: ULTIMATE
+  applies:
+    - ALL_HELMET
+  levels:
+    '1':
+      chance: 30
+      time: 5
+      effects:
+        - ADD_FOOD:1
+    '2':
+      chance: 50
+      time: 5
+      effects:
+        - ADD_FOOD:1
+    '3':
+      chance: 70
+      time: 5
+      effects:
+        - ADD_FOOD:1
+obsidianshield:
+  display: '%group-color%Khiên Obsidian'
+  description: Nhận kháng lửa vĩnh viễn.
+  applies-to: Giáp
+  type: EFFECT_STATIC
+  group: ULTIMATE
+  applies:
+    - ALL_ARMOR
+  levels:
+    '1':
+      effects:
+        - POTION:FIRE_RESISTANCE:0
+piercing:
+  display: '%group-color%Xuyên Thấu'
+  description: Gây thêm sát thương.
+  applies-to: Cung
+  type: SHOOT;SHOOT_MOB
+  group: ULTIMATE
+  applies:
+    - BOW
+    - CROSSBOW
+  levels:
+    '1':
+      chance: 13
+      cooldown: 3
+      effects:
+        - INCREASE_DAMAGE:<random number>50-150</random number> @Victim
+    '2':
+      chance: 19
+      cooldown: 3
+      effects:
+        - INCREASE_DAMAGE:<random number>50-150</random number> @Victim
+    '3':
+      chance: 25
+      cooldown: 3
+      effects:
+        - INCREASE_DAMAGE:<random number>50-150</random number> @Victim
+    '4':
+      chance: 32
+      cooldown: 3
+      effects:
+        - INCREASE_DAMAGE:<random number>50-150</random number> @Victim
+    '5':
+      chance: 37
+      cooldown: 3
+      effects:
+        - INCREASE_DAMAGE:<random number>50-150</random number> @Victim
+archer:
+  display: '%group-color%Cung Thủ'
+  description: Tăng sát thương bằng cung.
+  applies-to: Cung
+  type: SHOOT;SHOOT_MOB
+  group: ULTIMATE
+  applies:
+    - BOW
+  levels:
+    '1':
+      chance: 13
+      cooldown: 3
+      conditions:
+        - '%attacker is holding% = BOW : %allow%'
+      effects:
+        - INCREASE_DAMAGE:<random number>50-150</random number> @Victim
+    '2':
+      chance: 19
+      cooldown: 3
+      conditions:
+        - '%attacker is holding% = BOW : %allow%'
+      effects:
+        - INCREASE_DAMAGE:<random number>50-150</random number> @Victim
+    '3':
+      chance: 25
+      cooldown: 3
+      conditions:
+        - '%attacker is holding% = BOW : %allow%'
+      effects:
+        - INCREASE_DAMAGE:<random number>50-150</random number> @Victim
+    '4':
+      chance: 32
+      cooldown: 3
+      conditions:
+        - '%attacker is holding% = BOW : %allow%'
+      effects:
+        - INCREASE_DAMAGE:<random number>50-150</random number> @Victim
+marksman:
+  display: '%group-color%Xạ Thủ'
+  description: Tăng sát thương bằng nỏ.
+  applies-to: Nỏ
+  type: SHOOT;SHOOT_MOB
+  group: ELITE
+  applies:
+    - CROSSBOW
+  levels:
+    '1':
+      chance: 13
+      cooldown: 3
+      conditions:
+        - '%attacker is holding% = CROSSBOW : %allow%'
+      effects:
+        - INCREASE_DAMAGE:<random number>50-150</random number> @Victim
+    '2':
+      chance: 19
+      cooldown: 3
+      conditions:
+        - '%attacker is holding% = CROSSBOW : %allow%'
+      effects:
+        - INCREASE_DAMAGE:<random number>50-150</random number> @Victim
+    '3':
+      chance: 25
+      cooldown: 3
+      conditions:
+        - '%attacker is holding% = CROSSBOW : %allow%'
+      effects:
+        - INCREASE_DAMAGE:<random number>50-150</random number> @Victim
+    '4':
+      chance: 32
+      cooldown: 3
+      conditions:
+        - '%attacker is holding% = CROSSBOW : %allow%'
+      effects:
+        - INCREASE_DAMAGE:<random number>50-150</random number> @Victim
+poseidon:
+  display: '%group-color%Poseidon'
+  description: Tăng sát thương bằng đinh ba.
+  applies-to: Đinh ba
+  type: SHOOT;SHOOT_MOB
+  group: ELITE
+  applies:
+    - TRIDENT
+  levels:
+    '1':
+      chance: 13
+      cooldown: 3
+      conditions:
+        - '%item type% = TRIDENT : %allow%'
+      effects:
+        - INCREASE_DAMAGE:<random number>50-150</random number> @Victim
+    '2':
+      chance: 19
+      cooldown: 3
+      conditions:
+        - '%item type% = TRIDENT : %allow%'
+      effects:
+        - INCREASE_DAMAGE:<random number>50-150</random number> @Victim
+    '3':
+      chance: 25
+      cooldown: 3
+      conditions:
+        - '%item type% = TRIDENT : %allow%'
+      effects:
+        - INCREASE_DAMAGE:<random number>50-150</random number> @Victim
+    '4':
+      chance: 32
+      cooldown: 3
+      conditions:
+        - '%item type% = TRIDENT : %allow%'
+      effects:
+        - INCREASE_DAMAGE:<random number>50-150</random number> @Victim
+safeguard:
+  display: '%group-color%Bảo Hộ'
+  description: |-
+    Có tỉ lệ nhận kháng sát thương
+    khi phòng thủ.
+  applies-to: Giáp
+  type: DEFENSE;DEFENSE_MOB
+  group: ULTIMATE
+  applies:
+    - ALL_ARMOR
+  levels:
+    '1':
+      chance: 5
+      cooldown: 5
+      effects:
+        - POTION:DAMAGE_RESISTANCE:0:60 @Victim
+    '2':
+      chance: 9
+      cooldown: 5
+      effects:
+        - POTION:DAMAGE_RESISTANCE:1:60 @Victim
+disappear:
+  display: '%group-color%Biến Mất'
+  description: |-
+    Có tỉ lệ tàng hình
+    khi máu thấp.
+  applies-to: Giáp
+  type: DEFENSE;DEFENSE_MOB
+  settings:
+    showActionBar: true
+  group: ULTIMATE
+  applies:
+    - ALL_ARMOR
+  levels:
+    '1':
+      chance: 20
+      cooldown: 20
+      conditions:
+        - '%victim health% > 5 : %stop%'
+      effects:
+        - POTION:INVISIBILITY:2:60 @Victim
+    '2':
+      chance: 23
+      cooldown: 20
+      conditions:
+        - '%victim health% > 6 : %stop%'
+      effects:
+        - POTION:INVISIBILITY:2:80 @Victim
+    '3':
+      chance: 26
+      cooldown: 20
+      conditions:
+        - '%victim health% > 7 : %stop%'
+      effects:
+        - POTION:INVISIBILITY:2:100 @Victim
+    '4':
+      chance: 30
+      cooldown: 20
+      conditions:
+        - '%victim health% > 8 : %stop%'
+      effects:
+        - POTION:INVISIBILITY:2:120 @Victim
+confuse:
+  display: '%group-color%Gây Rối'
+  description: Có tỉ lệ gây Nausea.
+  applies-to: Kiếm
+  type: ATTACK
+  group: ULTIMATE
+  applies:
+    - ALL_SWORD
+  levels:
+    '1':
+      chance: 12
+      cooldown: 6
+      effects:
+        - POTION:CONFUSION:0:60 @Victim
+    '2':
+      chance: 14
+      cooldown: 7
+      effects:
+        - POTION:CONFUSION:1:60 @Victim
+    '3':
+      chance: 16
+      cooldown: 8
+      effects:
+        - POTION:CONFUSION:2:60 @Victim
+    '4':
+      chance: 18
+      cooldown: 8
+      effects:
+        - POTION:CONFUSION:3:60 @Victim
+disintegrate:
+  display: '%group-color%Phân Rã'
+  description: |-
+    Có tỉ lệ gây thêm hao độ bền
+    toàn bộ giáp địch mỗi đòn.
+  applies-to: Kiếm
+  type: ATTACK
+  group: ULTIMATE
+  applies:
+    - ALL_SWORD
+  levels:
+    '1':
+      chance: 12
+      cooldown: 2
+      effects:
+        - ADD_DURABILITY_ARMOR:-2 @Victim
+    '2':
+      chance: 25
+      cooldown: 2
+      effects:
+        - ADD_DURABILITY_ARMOR:-2 @Victim
+    '3':
+      chance: 39
+      cooldown: 2
+      effects:
+        - ADD_DURABILITY_ARMOR:-2 @Victim
+    '4':
+      chance: 46
+      cooldown: 2
+      effects:
+        - ADD_DURABILITY_ARMOR:-2 @Victim
+shatter:
+  display: '%group-color%Nghiền Nát'
+  description: |-
+    Có tỉ lệ gây thêm hao độ bền
+    toàn bộ giáp địch mỗi đòn.
+  applies-to: Rìu
+  type: ATTACK
+  group: ULTIMATE
+  applies:
+    - ALL_AXE
+  levels:
+    '1':
+      chance: 12
+      cooldown: 2
+      effects:
+        - ADD_DURABILITY_ARMOR:-2 @Victim
+    '2':
+      chance: 25
+      cooldown: 2
+      effects:
+        - ADD_DURABILITY_ARMOR:-2 @Victim
+    '3':
+      chance: 39
+      cooldown: 2
+      effects:
+        - ADD_DURABILITY_ARMOR:-2 @Victim
+    '4':
+      chance: 46
+      cooldown: 2
+      effects:
+        - ADD_DURABILITY_ARMOR:-2 @Victim
+heavy:
+  display: '%group-color%Nặng Ký'
+  description: |-
+    Giảm sát thương từ cung địch
+    2% mỗi cấp.
+  applies-to: Giáp
+  type: DEFENSE;DEFENSE_PROJECTILE
+  group: ULTIMATE
+  applies:
+    - ALL_ARMOR
+  levels:
+    '1':
+      chance: 4
+      cooldown: 4
+      conditions:
+        - '%attacker is holding% = BOW : %allow%'
+      effects:
+        - DECREASE_DAMAGE:2 @Victim
+    '2':
+      chance: 9
+      cooldown: 4
+      conditions:
+        - '%attacker is holding% = BOW : %allow%'
+      effects:
+        - DECREASE_DAMAGE:4 @Victim
+    '3':
+      chance: 12
+      cooldown: 4
+      conditions:
+        - '%attacker is holding% = BOW : %allow%'
+      effects:
+        - DECREASE_DAMAGE:6 @Victim
+    '4':
+      chance: 16
+      cooldown: 4
+      conditions:
+        - '%attacker is holding% = BOW : %allow%'
+      effects:
+        - DECREASE_DAMAGE:8 @Victim
+    '5':
+      chance: 21
+      cooldown: 4
+      conditions:
+        - '%attacker is holding% = BOW : %allow%'
+      effects:
+        - DECREASE_DAMAGE:10 @Victim
+devour:
+  display: '%group-color%Nuốt Chửng'
+  description: Có tỉ lệ hồi đói khi giết mob.
+  applies-to: Vũ khí
+  type: KILL_MOB
+  group: UNIQUE
+  applies:
+    - ALL_SWORD
+    - ALL_AXE
+  levels:
+    '1':
+      chance: 10
+      effects:
+        - ADD_FOOD:1
+    '2':
+      chance: 15
+      effects:
+        - ADD_FOOD:1
+    '3':
+      chance: 20
+      effects:
+        - ADD_FOOD:1
+replenish:
+  display: '%group-color%Bổ Sung'
+  description: Có tỉ lệ hồi đói khi đào.
+  applies-to: Cuốc
+  type: MINING
+  group: ELITE
+  applies:
+    - ALL_PICKAXE
+  levels:
+    '1':
+      chance: 30
+      effects:
+        - ADD_FOOD:1
+    '2':
+      chance: 40
+      effects:
+        - ADD_FOOD:2
+    '3':
+      chance: 60
+      effects:
+        - ADD_FOOD:3
+hellfire:
+  display: '%group-color%Hỏa Ngục'
+  description: Mũi tên biến thành cầu lửa.
+  applies-to: Cung
+  type: SHOOT;SHOOT_MOB
+  settings:
+    showActionBar: true
+  group: ULTIMATE
+  applies:
+    - BOW
+  levels:
+    '1':
+      chance: 10
+      cooldown: 3
+      effects:
+        - FIREBALL @Victim
+    '2':
+      chance: 25
+      cooldown: 3
+      effects:
+        - FIREBALL @Victim
+    '3':
+      chance: 35
+      cooldown: 3
+      effects:
+        - FIREBALL @Victim
+    '4':
+      chance: 50
+      cooldown: 3
+      effects:
+        - FIREBALL @Victim
+    '5':
+      chance: 70
+      cooldown: 3
+      effects:
+        - FIREBALL @Victim
+missile:
+  display: '%group-color%Tên Lửa'
+  description: Mũi tên biến thành cầu lửa.
+  applies-to: Nỏ
+  settings:
+    showActionBar: true
+  type: SHOOT;SHOOT_MOB
+  group: ELITE
+  applies:
+    - CROSSBOW
+  levels:
+    '1':
+      chance: 10
+      cooldown: 3
+      effects:
+        - FIREBALL @Victim
+    '2':
+      chance: 25
+      cooldown: 3
+      effects:
+        - FIREBALL @Victim
+    '3':
+      chance: 35
+      cooldown: 3
+      effects:
+        - FIREBALL @Victim
+    '4':
+      chance: 50
+      cooldown: 3
+      effects:
+        - FIREBALL @Victim
+    '5':
+      chance: 70
+      cooldown: 3
+      effects:
+        - FIREBALL @Victim
+longbow:
+  display: '%group-color%Cung Dài'
+  description: |-
+    Tăng mạnh sát thương lên
+    người chơi đang cầm cung.
+  applies-to: Cung
+  settings:
+    showActionBar: true
+  type: SHOOT
+  group: ULTIMATE
+  applies:
+    - BOW
+    - CROSSBOW
+  levels:
+    '1':
+      chance: 12
+      cooldown: 4
+      conditions:
+        - '%victim is holding% = BOW : %allow%'
+      effects:
+        - INCREASE_DAMAGE:<random number>25-50</random number> @Attacker
+    '2':
+      chance: 17
+      cooldown: 4
+      conditions:
+        - '%victim is holding% = BOW : %allow%'
+      effects:
+        - INCREASE_DAMAGE:<random number>25-50</random number> @Attacker
+    '3':
+      chance: 25
+      cooldown: 4
+      conditions:
+        - '%victim is holding% = BOW : %allow%'
+      effects:
+        - INCREASE_DAMAGE:<random number>50-100</random number> @Attacker
+    '4':
+      chance: 33
+      cooldown: 4
+      conditions:
+        - '%victim is holding% = BOW : %allow%'
+      effects:
+        - INCREASE_DAMAGE:<random number>50-100</random number> @Attacker
+tank:
+  display: '%group-color%Xe Tăng'
+  description: |-
+    Có tỉ lệ giảm sát thương từ rìu địch
+    2% mỗi cấp.
+  applies-to: Giáp
+  type: DEFENSE;DEFENSE_MOB
+  group: ULTIMATE
+  applies:
+    - ALL_ARMOR
+  levels:
+    '1':
+      chance: 5
+      cooldown: 3
+      conditions:
+        - '%attacker is holding% contains AXE : %allow%'
+      effects:
+        - DECREASE_DAMAGE:2 @Victim
+    '2':
+      chance: 8
+      cooldown: 3
+      conditions:
+        - '%attacker is holding% contains AXE : %allow%'
+      effects:
+        - DECREASE_DAMAGE:4 @Victim
+    '3':
+      chance: 12
+      cooldown: 3
+      conditions:
+        - '%attacker is holding% contains AXE : %allow%'
+      effects:
+        - DECREASE_DAMAGE:6 @Victim
+    '4':
+      chance: 16
+      cooldown: 3
+      conditions:
+        - '%attacker is holding% contains AXE : %allow%'
+      effects:
+        - DECREASE_DAMAGE:8 @Victim
+swordsman:
+  display: '%group-color%Kiếm Sĩ'
+  description: |-
+    Có tỉ lệ giảm sát thương khi
+    cầm kiếm, tối đa 22% ở cấp cao nhất.
+  applies-to: Giáp
+  type: DEFENSE;DEFENSE_MOB
+  group: ULTIMATE
+  applies:
+    - ALL_ARMOR
+  levels:
+    '1':
+      chance: 4
+      cooldown: 4
+      conditions:
+        - '%victim is holding% contains SWORD : %allow%'
+      effects:
+        - DECREASE_DAMAGE:<random number>1-4</random number> @Victim
+    '2':
+      chance: 9
+      cooldown: 4
+      conditions:
+        - '%attacker is holding% contains SWORD : %allow%'
+      effects:
+        - DECREASE_DAMAGE:<random number>8-12</random number> @Victim
+    '3':
+      chance: 13
+      cooldown: 4
+      conditions:
+        - '%attacker is holding% contains SWORD : %allow%'
+      effects:
+        - DECREASE_DAMAGE:<random number>12-15</random number> @Victim
+    '4':
+      chance: 16
+      cooldown: 4
+      conditions:
+        - '%attacker is holding% contains SWORD : %allow%'
+      effects:
+        - DECREASE_DAMAGE:<random number>15-18</random number> @Victim
+    '5':
+      chance: 21
+      cooldown: 4
+      conditions:
+        - '%attacker is holding% contains SWORD : %allow%'
+      effects:
+        - DECREASE_DAMAGE:<random number>18-22</random number> @Victim
+critical:
+  display: '%group-color%Chí Mạng'
+  description: Tăng sát thương đòn chí mạng.
+  applies-to: Kiếm
+  type: ATTACK_MOB;ATTACK
+  group: ELITE
+  applies:
+    - ALL_SWORD
+  levels:
+    '1':
+      chance: 7
+      cooldown: 5
+      conditions:
+        - '%is critical% = true : %allow%'
+      effects:
+        - INCREASE_DAMAGE:10
+    '2':
+      chance: 8
+      cooldown: 5
+      conditions:
+        - '%is critical% = true : %allow%'
+      effects:
+        - INCREASE_DAMAGE:15
+    '3':
+      chance: 12
+      cooldown: 5
+      conditions:
+        - '%is critical% = true : %allow%'
+      effects:
+        - INCREASE_DAMAGE:20
+rebound:
+  display: '%group-color%Hồi Sinh Lực'
+  description: Hồi một phần máu sau khi giết.
+  applies-to: Vũ khí
+  type: KILL_PLAYER;KILL_MOB
+  settings:
+    showActionBar: true
+  group: LEGENDARY
+  applies:
+    - ALL_AXE
+    - ALL_SWORD
+  levels:
+    '1':
+      chance: 25
+      cooldown: 5
+      effects:
+        - ADD_HEALTH:2 @Attacker
+    '2':
+      chance: 35
+      cooldown: 5
+      effects:
+        - ADD_HEALTH:4 @Attacker
+    '3':
+      chance: 45
+      cooldown: 5
+      effects:
+        - ADD_HEALTH:6 @Attacker
+thunderlord:
+  display: '%group-color%Chúa Sấm'
+  description: |-
+    Gọi sét đánh quái
+    mỗi 3 đòn liên tiếp.
+  applies-to: Vũ khí
+  type: ATTACK_MOB
+  group: LEGENDARY
+  applies:
+    - ALL_AXE
+    - ALL_SWORD
+  levels:
+    '1':
+      chance: 25
+      cooldown: 2
+      conditions:
+        - '%attacker combo% > 2 : %allow%'
+      effects:
+        - LIGHTNING @Victim
+        - RESET_COMBO @Attacker
+    '2':
+      chance: 45
+      cooldown: 2
+      conditions:
+        - '%attacker combo% > 2 : %allow%'
+      effects:
+        - LIGHTNING @Victim
+        - RESET_COMBO @Attacker
+    '3':
+      chance: 75
+      cooldown: 2
+      conditions:
+        - '%attacker combo% > 2 : %allow%'
+      effects:
+        - LIGHTNING @Victim
+        - RESET_COMBO @Attacker
+netherling:
+  display: '%group-color%Con Nether'
+  description: Gấp đôi sát thương lên mob ở Nether.
+  applies-to: Kiếm
+  type: ATTACK_MOB
+  group: ULTIMATE
+  applies:
+    - ALL_SWORD
+  levels:
+    '1':
+      chance: 25
+      conditions:
+        - '%player world% contains NETHER : %allow%'
+      effects:
+        - INCREASE_DAMAGE:50
+    '2':
+      chance: 50
+      conditions:
+        - '%player world% contains NETHER : %allow%'
+      effects:
+        - INCREASE_DAMAGE:50
+    '3':
+      chance: 75
+      conditions:
+        - '%player world% contains NETHER : %allow%'
+      effects:
+        - INCREASE_DAMAGE:50
+endmaster:
+  display: '%group-color%Chủ Nhân End'
+  description: Gấp đôi sát thương lên mob ở End.
+  applies-to: Kiếm
+  type: ATTACK_MOB
+  group: ULTIMATE
+  applies:
+    - ALL_SWORD
+  levels:
+    '1':
+      chance: 25
+      conditions:
+        - '%player world% contains _END : %allow%'
+      effects:
+        - INCREASE_DAMAGE:50
+    '2':
+      chance: 50
+      conditions:
+        - '%player world% contains _END : %allow%'
+      effects:
+        - INCREASE_DAMAGE:50
+    '3':
+      chance: 75
+      conditions:
+        - '%player world% contains _END : %allow%'
+      effects:
+        - INCREASE_DAMAGE:50
+creeperarmor:
+  display: '%group-color%Giáp Creeper'
+  description: |-
+    Có tỉ lệ miễn sát thương nổ;
+    cấp cao hơn có tỉ lệ hồi máu.
+  applies-to: Giáp
+  type: EXPLOSION
+  group: ULTIMATE
+  applies:
+    - ALL_ARMOR
+  levels:
+    '1':
+      chance: 25
+      effects:
+        - CANCEL_EVENT
+    '2':
+      chance: 50
+      effects:
+        - CANCEL_EVENT
+    '3':
+      chance: 75
+      effects:
+        - CANCEL_EVENT
+        - ADD_HEALTH:<random number>1-2</random number>
+spirits:
+  display: '%group-color%Linh Hồn'
+  description: Có tỉ lệ triệu hồi blaze hộ vệ.
+  applies-to: Giáp
+  type: DEFENSE
+  settings:
+    showActionBar: true
+  group: ULTIMATE
+  applies:
+    - ALL_ARMOR
+  levels:
+    '1':
+      chance: 2
+      cooldown: 8
+      effects:
+        - GUARD:BLAZE:8:3:@Victim
+    '2':
+      chance: 2
+      cooldown: 8
+      effects:
+        - GUARD:BLAZE:8:4:@Victim
+    '3':
+      chance: 3
+      cooldown: 8
+      effects:
+        - GUARD:BLAZE:8:4:@Victim
+    '4':
+      chance: 5
+      cooldown: 8
+      effects:
+        - GUARD:BLAZE:8:4:@Victim
+    '5':
+      chance: 8
+      cooldown: 8
+      effects:
+        - GUARD:BLAZE:8:4:@Victim
+    '6':
+      chance: 12
+      cooldown: 8
+      effects:
+        - GUARD:BLAZE:8:4:@Victim
+    '7':
+      chance: 15
+      cooldown: 8
+      effects:
+        - GUARD:BLAZE:8:4:@Victim
+    '8':
+      chance: 19
+      cooldown: 8
+      effects:
+        - GUARD:BLAZE:8:4:@Victim
+    '9':
+      chance: 22
+      cooldown: 8
+      effects:
+        - GUARD:BLAZE:8:4:@Victim
+    '10':
+      chance: 27
+      cooldown: 8
+      effects:
+        - GUARD:BLAZE:8:5:@Victim
+bleed:
+  display: '%group-color%Chảy Máu'
+  description: Khiến đối thủ chảy máu.
+  applies-to: Rìu
+  type: ATTACK;ATTACK_MOB
+  settings:
+    showActionBar: true
+  group: ULTIMATE
+  applies:
+    - ALL_AXE
+  levels:
+    '1':
+      chance: 8
+      effects:
+        - POTION:SLOW:0:100 @Victim
+        - DO_HARM:<random number>1-3</random number> @Victim
+        - WAIT:20
+        - DO_HARM:<random number>1-3</random number> @Victim
+        - WAIT:20
+        - DO_HARM:<random number>1-3</random number> @Victim
+    '2':
+      chance: 15
+      effects:
+        - POTION:SLOW:0:100 @Victim
+        - DO_HARM:<random number>1-3</random number> @Victim
+        - WAIT:20
+        - DO_HARM:<random number>1-3</random number> @Victim
+        - WAIT:20
+        - DO_HARM:<random number>1-3</random number> @Victim
+    '3':
+      chance: 23
+      effects:
+        - POTION:SLOW:0:100 @Victim
+        - DO_HARM:<random number>1-3</random number> @Victim
+        - WAIT:20
+        - DO_HARM:<random number>1-3</random number> @Victim
+        - WAIT:20
+        - DO_HARM:<random number>1-3</random number> @Victim
+    '4':
+      chance: 30
+      effects:
+        - POTION:SLOW:0:100 @Victim
+        - DO_HARM:<random number>1-3</random number> @Victim
+        - WAIT:20
+        - DO_HARM:<random number>1-3</random number> @Victim
+        - WAIT:20
+        - DO_HARM:<random number>1-3</random number> @Victim
+    '5':
+      chance: 44
+      effects:
+        - POTION:SLOW:0:100 @Victim
+        - DO_HARM:<random number>1-3</random number> @Victim
+        - WAIT:20
+        - DO_HARM:<random number>1-3</random number> @Victim
+        - WAIT:20
+        - DO_HARM:<random number>1-3</random number> @Victim
+    '6':
+      chance: 60
+      effects:
+        - POTION:SLOW:0:100 @Victim
+        - DO_HARM:<random number>1-3</random number> @Victim
+        - WAIT:20
+        - DO_HARM:<random number>1-3</random number> @Victim
+        - WAIT:20
+        - DO_HARM:<random number>1-3</random number> @Victim
+lavawalker:
+  display: '%group-color%Đạp Dung Nham'
+  description: Đi trên dung nham.
+  applies-to: Giày
+  type: EFFECT_STATIC
+  group: LEGENDARY
+  applies:
+    - ALL_BOOTS
+  levels:
+    '1':
+      effects:
+        - LAVA_WALKER
+waterwalker:
+  display: '%group-color%Đạp Nước'
+  description: Đi trên mặt nước.
+  applies-to: Giày
+  type: EFFECT_STATIC
+  group: LEGENDARY
+  applies:
+    - ALL_BOOTS
+  levels:
+    '1':
+      effects:
+        - WATER_WALKER
+aqua:
+  display: '%group-color%Thủy Chiến'
+  description: Gấp đôi sát thương khi ở trong nước.
+  applies-to: Giày
+  type: ATTACK;ATTACK_MOB
+  group: LEGENDARY
+  applies:
+    - ALL_BOOTS
+  levels:
+    '1':
+      chance: 8
+      cooldown: 3
+      conditions:
+        - '%is under water% = TRUE : %allow%'
+      effects:
+        - DOUBLE_DAMAGE
+    '2':
+      chance: 13
+      cooldown: 3
+      conditions:
+        - '%is under water% = TRUE : %allow%'
+      effects:
+        - DOUBLE_DAMAGE
+    '3':
+      chance: 19
+      cooldown: 5
+      conditions:
+        - '%is under water% = TRUE : %allow%'
+      effects:
+        - DOUBLE_DAMAGE
+    '4':
+      chance: 23
+      cooldown: 5
+      conditions:
+        - '%is under water% = TRUE : %allow%'
+      effects:
+        - DOUBLE_DAMAGE
+judgement:
+  display: '%group-color%Phán Quyết'
+  description: |-
+    Có tỉ lệ gây độc đối thủ
+    và nhận Regeneration.
+  applies-to: Cánh Elytra
+  type: DEFENSE;DEFENSE_MOB
+  group: LEGENDARY
+  applies:
+    - ELYTRA
+  levels:
+    '1':
+      chance: 6
+      cooldown: 20
+      effects:
+        - POTION:POISON:0:100 @Attacker
+        - POTION:REGENERATION:0:100 @Victim
+    '2':
+      chance: 8
+      cooldown: 20
+      effects:
+        - POTION:POISON:0:100 @Attacker
+        - POTION:REGENERATION:0:100 @Victim
+    '3':
+      chance: 10
+      cooldown: 20
+      effects:
+        - POTION:POISON:0:100 @Attacker
+        - POTION:REGENERATION:0:100 @Victim
+    '4':
+      chance: 12
+      cooldown: 20
+      effects:
+        - POTION:POISON:0:100 @Attacker
+        - POTION:REGENERATION:1:60 @Victim
+    '5':
+      chance: 16
+      cooldown: 25
+      effects:
+        - POTION:POISON:0:100 @Attacker
+        - POTION:REGENERATION:1:100 @Victim
+divert:
+  display: '%group-color%Chuyển Hướng'
+  description: |-
+    Có tỉ lệ gây độc đối thủ
+    và nhận Regeneration.
+  applies-to: Giáp
+  type: DEFENSE;DEFENSE_MOB
+  group: LEGENDARY
+  applies:
+    - ALL_ARMOR
+  levels:
+    '1':
+      chance: 6
+      cooldown: 20
+      effects:
+        - POTION:POISON:0:100 @Attacker
+        - POTION:REGENERATION:0:100 @Victim
+    '2':
+      chance: 8
+      cooldown: 20
+      effects:
+        - POTION:POISON:0:100 @Attacker
+        - POTION:REGENERATION:0:100 @Victim
+    '3':
+      chance: 10
+      cooldown: 20
+      effects:
+        - POTION:POISON:0:100 @Attacker
+        - POTION:REGENERATION:0:100 @Victim
+    '4':
+      chance: 12
+      cooldown: 20
+      effects:
+        - POTION:POISON:0:100 @Attacker
+        - POTION:REGENERATION:1:60 @Victim
+    '5':
+      chance: 16
+      cooldown: 25
+      effects:
+        - POTION:POISON:0:100 @Attacker
+        - POTION:REGENERATION:1:100 @Victim
+unholy:
+  display: '%group-color%Bất Thánh'
+  description: Phòng thủ bằng Weakness và Wither.
+  applies-to: Giáp
+  type: DEFENSE
+  group: LEGENDARY
+  applies:
+    - ALL_ARMOR
+  levels:
+    '1':
+      chance: 2
+      cooldown: 40
+      effects:
+        - POTION:WITHER:0:60 @Attacker
+        - POTION:WEAKNESS:0:100 @Attacker
+    '2':
+      chance: 4
+      cooldown: 40
+      effects:
+        - POTION:WITHER:1:60 @Attacker
+        - POTION:WEAKNESS:0:5 @Attacker
+    '3':
+      chance: 6
+      cooldown: 40
+      effects:
+        - POTION:WITHER:1:60 @Attacker
+        - POTION:WEAKNESS:0:100 @Attacker
+    '4':
+      chance: 8
+      cooldown: 40
+      effects:
+        - POTION:WITHER:1:60 @Attacker
+        - POTION:WEAKNESS:0:100 @Attacker
+    '5':
+      chance: 10
+      cooldown: 40
+      effects:
+        - POTION:WITHER:1:60 @Attacker
+        - POTION:WEAKNESS:0:100 @Attacker
+chaos:
+  display: '%group-color%Hỗn Mang'
+  description: Gây Weakness và Wither.
+  applies-to: Đinh ba
+  type: SHOOT;SHOOT_MOB
+  settings:
+    showActionBar: true
+  group: LEGENDARY
+  applies:
+    - TRIDENT
+  levels:
+    '1':
+      chance: 2
+      cooldown: 40
+      effects:
+        - POTION:WITHER:0:60 @Victim
+        - POTION:WEAKNESS:0:100 @Victim
+    '2':
+      chance: 4
+      cooldown: 40
+      effects:
+        - POTION:WITHER:1:60 @Victim
+        - POTION:WEAKNESS:0:5 @Victim
+    '3':
+      chance: 6
+      cooldown: 40
+      effects:
+        - POTION:WITHER:1:60 @Victim
+        - POTION:WEAKNESS:0:100 @Victim
+    '4':
+      chance: 8
+      cooldown: 40
+      effects:
+        - POTION:WITHER:1:60 @Victim
+        - POTION:WEAKNESS:0:100 @Victim
+    '5':
+      chance: 10
+      cooldown: 40
+      effects:
+        - POTION:WITHER:1:60 @Victim
+        - POTION:WEAKNESS:0:100 @Victim
+convulse:
+  display: '%group-color%Co Giật'
+  description: |-
+    Có tỉ lệ phóng kẻ tấn công
+    lên không trung.
+  applies-to: Giày
+  type: DEFENSE;DEFENSE_MOB
+  group: LEGENDARY
+  applies:
+    - ALL_BOOTS
+  levels:
+    '1':
+      chance: 8
+      cooldown: 10
+      effects:
+        - BOOST:UP:5 @Attacker
+    '2':
+      chance: 10
+      cooldown: 10
+      effects:
+        - BOOST:UP:6 @Attacker
+    '3':
+      chance: 12
+      cooldown: 10
+      effects:
+        - BOOST:UP:7 @Attacker
+    '4':
+      chance: 14
+      cooldown: 10
+      effects:
+        - BOOST:UP:8 @Attacker
+    '5':
+      chance: 16
+      cooldown: 10
+      effects:
+        - BOOST:UP:9 @Attacker
+    '6':
+      chance: 18
+      cooldown: 10
+      effects:
+        - BOOST:UP:10 @Attacker
+chunky:
+  display: '%group-color%Dày Dặn'
+  description: Có tỉ lệ nhận ít sát thương hơn.
+  applies-to: Áo giáp
+  type: DEFENSE;DEFENSE_MOB
+  group: LEGENDARY
+  applies:
+    - ALL_CHESTPLATE
+  levels:
+    '1':
+      chance: 5
+      cooldown: 10
+      effects:
+        - NEGATE_DAMAGE:10 @Victim
+    '2':
+      chance: 10
+      cooldown: 10
+      effects:
+        - NEGATE_DAMAGE:20 @Victim
+    '3':
+      chance: 12
+      cooldown: 10
+      effects:
+        - NEGATE_DAMAGE:30 @Victim
+    '4':
+      chance: 15
+      cooldown: 10
+      effects:
+        - NEGATE_DAMAGE:40 @Victim
+    '5':
+      chance: 18
+      cooldown: 10
+      effects:
+        - NEGATE_DAMAGE:50 @Victim
+    '6':
+      chance: 20
+      cooldown: 10
+      effects:
+        - NEGATE_DAMAGE:60 @Victim
+barbarian:
+  display: '%group-color%Man Rợ'
+  description: Có tỉ lệ tăng sát thương rìu.
+  applies-to: Rìu
+  type: ATTACK;ATTACK_MOB
+  settings:
+    showActionBar: true
+  group: LEGENDARY
+  applies:
+    - ALL_AXE
+  levels:
+    '1':
+      chance: 8
+      cooldown: 8
+      conditions:
+        - '%attacker is holding% contains AXE : %allow%'
+      effects:
+        - INCREASE_DAMAGE:<random number>25-100</random number> @Victim
+    '2':
+      chance: 15
+      cooldown: 8
+      conditions:
+        - '%attacker is holding% contains AXE : %allow%'
+      effects:
+        - INCREASE_DAMAGE:<random number>25-100</random number> @Victim
+    '3':
+      chance: 19
+      cooldown: 8
+      conditions:
+        - '%attacker is holding% contains AXE : %allow%'
+      effects:
+        - INCREASE_DAMAGE:<random number>25-100</random number> @Victim
+    '4':
+      chance: 25
+      cooldown: 8
+      conditions:
+        - '%attacker is holding% contains AXE : %allow%'
+      effects:
+        - INCREASE_DAMAGE:<random number>25-100</random number> @Victim
+lucid:
+  display: '%group-color%Tỉnh Táo'
+  description: |-
+    Có tỉ lệ chữa mù và
+    nhận Night Vision khi bị đánh.
+  applies-to: Giáp
+  type: DEFENSE;DEFENSE_MOB
+  group: LEGENDARY
+  applies:
+    - ALL_ARMOR
+  levels:
+    '1':
+      chance: 22
+      cooldown: 5
+      effects:
+        - CURE:BLINDNESS @Victim
+        - POTION:NIGHT_VISION:0:40 @Victim
+    '2':
+      chance: 32
+      cooldown: 5
+      effects:
+        - CURE:BLINDNESS @Victim
+        - POTION:NIGHT_VISION:0:60 @Victim
+    '3':
+      chance: 42
+      cooldown: 5
+      effects:
+        - CURE:BLINDNESS @Victim
+        - POTION:NIGHT_VISION:0:80 @Victim
+doublestrike:
+  display: '%group-color%Đòn Đôi'
+  description: Có tỉ lệ đánh hai lần.
+  applies-to: Kiếm
+  type: ATTACK;ATTACK_MOB
+  settings:
+    showActionBar: true
+  group: LEGENDARY
+  applies:
+    - ALL_SWORD
+  levels:
+    '1':
+      chance: 8
+      cooldown: 15
+      effects:
+        - WAIT:20
+        - DO_HARM:%damage% @Victim
+        - BLOOD @Victim
+    '2':
+      chance: 13
+      cooldown: 15
+      effects:
+        - WAIT:20
+        - DO_HARM:%damage% @Victim
+        - BLOOD @Victim
+    '3':
+      chance: 19
+      cooldown: 15
+      effects:
+        - WAIT:20
+        - DO_HARM:%damage% @Victim
+        - BLOOD @Victim
+gears:
+  display: '%group-color%Bánh Răng'
+  description: Tăng tốc độ khi trang bị.
+  applies-to: Giày
+  type: EFFECT_STATIC
+  group: LEGENDARY
+  applies:
+    - ALL_BOOTS
+  levels:
+    '1':
+      effects:
+        - POTION:SPEED:0
+    '2':
+      effects:
+        - POTION:SPEED:1
+    '3':
+      effects:
+        - POTION:SPEED:2
+inflame:
+  display: '%group-color%Thiêu Đốt'
+  description: Đốt tất cả người chơi trong bán kính.
+  applies-to: Rìu
+  group: LEGENDARY
+  type: ATTACK
+  settings:
+    showActionBar: true
+  applies:
+    - ALL_AXE
+  levels:
+    '1':
+      chance: 10
+      cooldown: 4
+      effects:
+        - PARTICLE:FALLING_LAVA:5:0 @Aoe{radius=2,target=damageable}
+        - BURN:40 @Aoe{radius=2,target=damageable}
+    '2':
+      chance: 12
+      cooldown: 5
+      effects:
+        - PARTICLE:FALLING_LAVA:5:0 @Aoe{radius=4,target=damageable}
+        - BURN:50 @Aoe{radius=4,target=damageable}
+    '3':
+      chance: 16
+      cooldown: 5
+      effects:
+        - PARTICLE:FALLING_LAVA:5:0 @Aoe{radius=6,target=damageable}
+        - BURN:60 @Aoe{radius=6,target=damageable}
+immolation:
+  display: '%group-color%Hỏa Thiêu'
+  description: Đốt tất cả mob trong bán kính.
+  applies-to: Kiếm
+  group: ULTIMATE
+  type: ATTACK_MOB
+  settings:
+    showActionBar: true
+  applies:
+    - ALL_SWORD
+  levels:
+    '1':
+      chance: 10
+      cooldown: 4
+      effects:
+        - PARTICLE:FALLING_LAVA:5:0 @Aoe{radius=2,target=mobs}
+        - BURN:40 @Aoe{radius=2,target=mobs}
+    '2':
+      chance: 12
+      cooldown: 5
+      effects:
+        - PARTICLE:FALLING_LAVA:5:0@Aoe{radius=4,target=mobs}
+        - BURN:50 @Aoe{radius=4,target=mobs}
+    '3':
+      chance: 16
+      cooldown: 5
+      effects:
+        - PARTICLE:FALLING_LAVA:5:0 @Aoe{radius=6,target=mobs}
+        - BURN:60 @Aoe{radius=6,target=mobs}
+killaura:
+  display: '%group-color%Vòng Sát'
+  description: |-
+    Có tỉ lệ giết nhiều
+    quái trong bán kính.
+  applies-to: Kiếm
+  group: LEGENDARY
+  type: ATTACK_MOB
+  settings:
+    showActionBar: true
+  applies:
+    - ALL_SWORD
+  levels:
+    '1':
+      chance: 5
+      cooldown: 3
+      effects:
+        - PARTICLE:SPELL_MOB:5:0 @Aoe{radius=2,target=mobs}
+        - KILL:1 @Aoe{radius=2,target=mobs}
+    '2':
+      chance: 8
+      cooldown: 4
+      effects:
+        - PARTICLE:SPELL_MOB:5:0 @Aoe{radius=2,target=mobs}
+        - KILL:1 @Aoe{radius=2,target=mobs}
+    '3':
+      chance: 12
+      cooldown: 5
+      effects:
+        - PARTICLE:SPELL_MOB:5:0 @Aoe{radius=3,target=mobs}
+        - KILL:1 @Aoe{radius=3,target=mobs}
+    '4':
+      chance: 15
+      cooldown: 5
+      effects:
+        - PARTICLE:SPELL_MOB:5:0 @Aoe{radius=3,target=mobs}
+        - KILL:1 @Aoe{radius=3,target=mobs}
+    '5':
+      chance: 18
+      cooldown: 6
+      effects:
+        - PARTICLE:SPELL_MOB:5:0 @Aoe{radius=4,target=mobs}
+        - KILL:1 @Aoe{radius=4,target=mobs}
+inquisitive:
+  display: '%group-color%Tò Mò'
+  description: Có tỉ lệ tăng EXP rơi từ mob.
+  applies-to: Kiếm
+  type: KILL_MOB
+  group: LEGENDARY
+  applies:
+    - ALL_SWORD
+  levels:
+    '1':
+      chance: 30
+      cooldown: 4
+      effects:
+        - EXP:<math>%exp% * (1.0 + 0.25 * %level%)</math> @Victim
+    '2':
+      chance: 35
+      cooldown: 4
+      effects:
+        - EXP:<math>%exp% * (1.0 + 0.25 * %level%)</math> @Victim
+    '3':
+      chance: 40
+      cooldown: 4
+      effects:
+        - EXP:<math>%exp% * (1.0 + 0.25 * %level%)</math> @Victim
+    '4':
+      chance: 45
+      cooldown: 4
+      effects:
+        - EXP:<math>%exp% * (1.0 + 0.25 * %level%)</math> @Victim
+lifesteal:
+  display: '%group-color%Hút Máu'
+  description: |-
+    Có tỉ lệ hút máu
+    khi tấn công.
+  applies-to: Kiếm
+  type: ATTACK;ATTACK_MOB
+  group: LEGENDARY
+  applies:
+    - ALL_SWORD
+  levels:
+    '1':
+      chance: 9
+      cooldown: 15
+      effects:
+        - STEAL_HEALTH:<random number>1-3</random number> @Attacker
+    '2':
+      chance: 13
+      cooldown: 15
+      effects:
+        - STEAL_HEALTH:<random number>1-3</random number> @Attacker
+    '3':
+      chance: 17
+      cooldown: 15
+      effects:
+        - STEAL_HEALTH:<random number>1-4</random number> @Attacker
+    '4':
+      chance: 21
+      cooldown: 15
+      effects:
+        - STEAL_HEALTH:<random number>1-5</random number> @Attacker
+    '5':
+      chance: 25
+      cooldown: 15
+      effects:
+        - STEAL_HEALTH:<random number>1-5</random number> @Attacker
+overload:
+  display: '%group-color%Quá Tải'
+  description: Mở thêm trái tim.
+  applies-to: Giáp
+  type: EFFECT_STATIC
+  group: LEGENDARY
+  applies:
+    - ALL_ARMOR
+  levels:
+    '1':
+      effects:
+        - POTION:HEALTH_BOOST:0
+    '2':
+      effects:
+        - POTION:HEALTH_BOOST:1
+    '3':
+      effects:
+        - POTION:HEALTH_BOOST:2
+armored:
+  display: '%group-color%Giáp Cứng'
+  description: |-
+    Giảm sát thương từ kiếm địch
+    2% mỗi cấp.
+  applies-to: Giáp
+  type: DEFENSE
+  group: LEGENDARY
+  applies:
+    - ALL_ARMOR
+  levels:
+    '1':
+      chance: 6
+      cooldown: 8
+      conditions:
+        - '%attacker is holding% contains SWORD : %allow%'
+      effects:
+        - DECREASE_DAMAGE:2 @Attacker
+    '2':
+      chance: 12
+      cooldown: 8
+      conditions:
+        - '%attacker is holding% contains SWORD : %allow%'
+      effects:
+        - DECREASE_DAMAGE:4 @Attacker
+    '3':
+      chance: 16
+      cooldown: 8
+      conditions:
+        - '%attacker is holding% contains SWORD : %allow%'
+      effects:
+        - DECREASE_DAMAGE:6 @Attacker
+    '4':
+      chance: 20
+      cooldown: 8
+      conditions:
+        - '%attacker is holding% contains SWORD : %allow%'
+      effects:
+        - DECREASE_DAMAGE:8 @Attacker
+blacksmith:
+  display: '%group-color%Thợ Rèn'
+  description: |-
+    Sửa vũ khí đổi lấy
+    việc gây ít sát thương hơn.
+  applies-to: Rìu
+  type: ATTACK;ATTACK_MOB
+  group: LEGENDARY
+  applies:
+    - ALL_AXE
+  levels:
+    '1':
+      chance: 9
+      cooldown: 3
+      effects:
+        - ADD_DURABILITY_CURRENT_ITEM:3
+        - HALF_DAMAGE
+        - PARTICLE:BLOCK_DUST:20:1
+    '2':
+      chance: 15
+      cooldown: 3
+      effects:
+        - ADD_DURABILITY_CURRENT_ITEM:3
+        - HALF_DAMAGE
+        - PARTICLE:BLOCK_DUST:20:1
+    '3':
+      chance: 23
+      cooldown: 3
+      effects:
+        - ADD_DURABILITY_CURRENT_ITEM:3
+        - HALF_DAMAGE
+        - PARTICLE:BLOCK_DUST:20:1
+    '4':
+      chance: 31
+      cooldown: 3
+      effects:
+        - ADD_DURABILITY_CURRENT_ITEM:4
+        - HALF_DAMAGE
+        - PARTICLE:BLOCK_DUST:20:1
+    '5':
+      chance: 39
+      cooldown: 3
+      effects:
+        - ADD_DURABILITY_CURRENT_ITEM:4
+        - HALF_DAMAGE
+        - PARTICLE:BLOCK_DUST:20:1
+immortal:
+  display: '%group-color%Bất Tử'
+  description: |-
+    Có tỉ lệ ngăn giáp
+    hao độ bền.
+  applies-to: Giáp
+  type: DEFENSE;DEFENSE_MOB
+  group: FABLED
+  applies:
+    - ALL_ARMOR
+  levels:
+    '1':
+      chance: 12
+      cooldown: 40
+      effects:
+        - ADD_DURABILITY_ARMOR:10 @Victim
+    '2':
+      chance: 18
+      cooldown: 40
+      effects:
+        - ADD_DURABILITY_ARMOR:10 @Victim
+    '3':
+      chance: 25
+      cooldown: 40
+      effects:
+        - ADD_DURABILITY_ARMOR:10 @Victim
+    '4':
+      chance: 31
+      cooldown: 40
+      effects:
+        - ADD_DURABILITY_ARMOR:10 @Victim
+unbreakable:
+  display: '%group-color%Không Vỡ'
+  description: Công cụ với phù phép này không thể vỡ.
+  applies-to: Công cụ
+  type: MINING;ATTACK;ATTACK_MOB
+  group: FABLED
+  applies:
+    - ALL_TOOLS
+  levels:
+    '1':
+      effects:
+        - REPAIR
+abiding:
+  display: '%group-color%Bền Bỉ'
+  description: Vũ khí với phù phép này không thể vỡ.
+  applies-to: Vũ khí
+  type: ATTACK;ATTACK_MOB;SHOOT;SHOOT_MOB
+  group: LEGENDARY
+  applies:
+    - ALL_SWORD
+    - BOW
+  levels:
+    '1':
+      effects:
+        - REPAIR @Attacker
+disarmor:
+  display: '%group-color%Lột Giáp'
+  description: |-
+    Có tỉ lệ tháo ngẫu nhiên
+    một mảnh giáp của đối thủ.
+  applies-to: Kiếm
+  type: ATTACK
+  settings:
+    showActionBar: true
+  group: LEGENDARY
+  applies:
+    - ALL_SWORD
+  levels:
+    '1':
+      chance: 0.4
+      cooldown: 6
+      effects:
+        - REMOVE_RANDOM_ARMOR @Victim
+        - MESSAGE:§6§l** YOU HAVE BEEN DISARMORED ** @Victim
+    '2':
+      chance: 0.8
+      cooldown: 6
+      effects:
+        - REMOVE_RANDOM_ARMOR @Victim
+        - MESSAGE:§6§l** YOU HAVE BEEN DISARMORED ** @Victim
+    '3':
+      chance: 1.0
+      cooldown: 6
+      effects:
+        - REMOVE_RANDOM_ARMOR @Victim
+        - MESSAGE:§6§l** YOU HAVE BEEN DISARMORED ** @Victim
+    '4':
+      chance: 1.2
+      cooldown: 6
+      effects:
+        - REMOVE_RANDOM_ARMOR @Victim
+        - MESSAGE:§6§l** YOU HAVE BEEN DISARMORED ** @Victim
+    '5':
+      chance: 1.4
+      cooldown: 6
+      effects:
+        - REMOVE_RANDOM_ARMOR @Victim
+        - MESSAGE:§6§l** YOU HAVE BEEN DISARMORED ** @Victim
+    '6':
+      chance: 1.6
+      cooldown: 6
+      effects:
+        - REMOVE_RANDOM_ARMOR @Victim
+        - MESSAGE:§6§l** YOU HAVE BEEN DISARMORED ** @Victim
+    '7':
+      chance: 1.8
+      cooldown: 6
+      effects:
+        - REMOVE_RANDOM_ARMOR @Victim
+        - MESSAGE:§6§l** YOU HAVE BEEN DISARMORED ** @Victim
+    '8':
+      chance: 2
+      cooldown: 6
+      effects:
+        - REMOVE_RANDOM_ARMOR @Victim
+        - MESSAGE:§6§l** YOU HAVE BEEN DISARMORED ** @Victim
+striker:
+  display: '%group-color%Mưa Tên'
+  description: Mưa mũi tên lên đối thủ.
+  applies-to: Cung
+  type: SHOOT;SHOOT_MOB
+  settings:
+    showActionBar: true
+  group: ULTIMATE
+  applies:
+    - BOW
+  levels:
+    '1':
+      chance: 15
+      cooldown: 8
+      effects:
+        - SPAWN_ARROWS @Victim
+    '2':
+      chance: 18
+      cooldown: 8
+      effects:
+        - SPAWN_ARROWS @Victim
+    '3':
+      chance: 22
+      cooldown: 8
+      effects:
+        - SPAWN_ARROWS @Victim
+sniper:
+  display: '%group-color%Bắn Tỉa'
+  description: |-
+    Headshot bằng cung
+    gây gấp đôi sát thương.
+  applies-to: Cung
+  type: SHOOT;SHOOT_MOB
+  settings:
+    showActionBar: true
+  group: ULTIMATE
+  applies:
+    - BOW
+  levels:
+    '1':
+      chance: 15
+      cooldown: 5
+      conditions:
+        - '%is headshot% = true : %allow%'
+      effects:
+        - INCREASE_DAMAGE:100 @Attacker
+    '2':
+      chance: 20
+      cooldown: 5
+      conditions:
+        - '%is headshot% = true : %allow%'
+      effects:
+        - INCREASE_DAMAGE:100 @Attacker
+    '3':
+      chance: 25
+      cooldown: 5
+      conditions:
+        - '%is headshot% = false : %stop%'
+      effects:
+        - INCREASE_DAMAGE:100 @Attacker
+    '4':
+      chance: 30
+      cooldown: 5
+      conditions:
+        - '%is headshot% = false : %stop%'
+      effects:
+        - INCREASE_DAMAGE:100 @Attacker
+    '5':
+      chance: 35
+      cooldown: 5
+      conditions:
+        - '%is headshot% = false : %stop%'
+      effects:
+        - INCREASE_DAMAGE:100 @Attacker
+deadshot:
+  display: '%group-color%Đòn Chí Tử'
+  description: |-
+    Headshot bằng đinh ba
+    gây gấp đôi sát thương.
+  applies-to: Đinh ba
+  type: SHOOT;SHOOT_MOB
+  settings:
+    showActionBar: true
+  group: LEGENDARY
+  applies:
+    - TRIDENT
+  levels:
+    '1':
+      chance: 15
+      cooldown: 5
+      conditions:
+        - '%is headshot% = true : %allow%'
+      effects:
+        - INCREASE_DAMAGE:100 @Attacker
+    '2':
+      chance: 20
+      cooldown: 5
+      conditions:
+        - '%is headshot% = true : %allow%'
+      effects:
+        - INCREASE_DAMAGE:100 @Attacker
+    '3':
+      chance: 25
+      cooldown: 5
+      conditions:
+        - '%is headshot% = false : %stop%'
+      effects:
+        - INCREASE_DAMAGE:100 @Attacker
+    '4':
+      chance: 30
+      cooldown: 5
+      conditions:
+        - '%is headshot% = false : %stop%'
+      effects:
+        - INCREASE_DAMAGE:100 @Attacker
+    '5':
+      chance: 35
+      cooldown: 5
+      conditions:
+        - '%is headshot% = false : %stop%'
+      effects:
+        - INCREASE_DAMAGE:100 @Attacker
+soulbound:
+  display: '%group-color%Gắn Hồn'
+  description: Có tỉ lệ giữ vật phẩm khi chết.
+  applies-to: Vũ khí + Công cụ + Cung
+  type: DEATH;PASSIVE_DEATH
+  group: FABLED
+  applies:
+    - ALL_TOOLS
+    - ALL_SWORD
+    - BOW
+    - CROSSBOW
+  levels:
+    '1':
+      chance: 4
+      effects:
+        - KEEP_ON_DEATH
+    '2':
+      chance: 6
+      effects:
+        - KEEP_ON_DEATH
+    '3':
+      chance: 8
+      effects:
+        - KEEP_ON_DEATH
+neutralize:
+  display: '%group-color%Vô Hiệu'
+  description: Có tỉ lệ làm đối thủ rớt vũ khí.
+  applies-to: Cung, Nỏ
+  settings:
+    showActionBar: true
+  type: SHOOT
+  group: FABLED
+  applies:
+    - BOW
+    - CROSSBOW
+  levels:
+    '1':
+      chance: 5
+      cooldown: 20
+      effects:
+        - DISARM @Victim
+    '2':
+      chance: 10
+      cooldown: 20
+      effects:
+        - DISARM @Victim
+disarm:
+  display: '%group-color%Tước Vũ Khí'
+  description: Có tỉ lệ làm đối thủ rớt vũ khí.
+  applies-to: Kiếm
+  type: ATTACK
+  settings:
+    showActionBar: true
+  group: FABLED
+  applies:
+    - ALL_SWORD
+  levels:
+    '1':
+      chance: 2
+      cooldown: 20
+      effects:
+        - DISARM @Victim
+    '2':
+      chance: 4
+      cooldown: 20
+      effects:
+        - DISARM @Victim
+    '3':
+      chance: 5
+      cooldown: 20
+      effects:
+        - DISARM @Victim
+phoenix:
+  display: '%group-color%Phượng Hoàng'
+  description: Có tỉ lệ hồi sinh khi bị giết.
+  applies-to: Áo giáp
+  type: DEATH
+  group: FABLED
+  applies:
+    - ALL_CHESTPLATE
+  levels:
+    '1':
+      chance: 5
+      cooldown: 20
+      conditions:
+        - "%victim has enchantment in CHESTPLATE of phoenix% = true : %allow%"
+      effects:
+        - REVIVE @Victim
+    '2':
+      chance: 7
+      cooldown: 20
+      conditions:
+        - "%victim has enchantment in CHESTPLATE of phoenix% = true : %allow%"
+      effects:
+        - REVIVE @Victim
+    '3':
+      chance: 9
+      cooldown: 20
+      conditions:
+        - "%victim has enchantment in CHESTPLATE of phoenix% = true : %allow%"
+      effects:
+        - REVIVE @Victim
+scare:
+  display: '%group-color%Hù Dọa'
+  description: |-
+    Có tỉ lệ đổi mũ đối thủ
+    thành bí ngô trong thời gian ngắn.
+  applies-to: Vũ khí
+  type: ATTACK
+  group: FABLED
+  applies:
+    - ALL_SWORD
+    - ALL_AXE
+  levels:
+    '1':
+      chance: 1.8
+      cooldown: 20
+      effects:
+        - PUMPKIN:40 @Victim
+        - PLAY_SOUND_OUTLOUD:BLOCK_ANVIL_LAND
+    '2':
+      chance: 3.6
+      cooldown: 20
+      effects:
+        - PUMPKIN:40 @Victim
+        - PLAY_SOUND_OUTLOUD:BLOCK_ANVIL_LAND
+    '3':
+      chance: 4.4
+      cooldown: 20
+      effects:
+        - PUMPKIN:60 @Victim
+        - PLAY_SOUND_OUTLOUD:BLOCK_ANVIL_LAND
+    '4':
+      chance: 5.2
+      cooldown: 20
+      effects:
+        - PUMPKIN:60 @Victim
+        - PLAY_SOUND_OUTLOUD:BLOCK_ANVIL_LAND
+    '5':
+      chance: 6
+      cooldown: 20
+      effects:
+        - PUMPKIN:80 @Victim
+        - PLAY_SOUND_OUTLOUD:BLOCK_ANVIL_LAND
+strife:
+  display: '%group-color%Cận Chiến'
+  description: Tăng sát thương cận chiến của đinh ba.
+  applies-to: Đinh ba
+  type: ATTACK;ATTACK_MOB
+  group: LEGENDARY
+  applies:
+    - TRIDENT
+  levels:
+    '1':
+      chance: 5
+      cooldown: 3
+      effects:
+        - INCREASE_DAMAGE:15
+    '2':
+      chance: 10
+      cooldown: 6
+      effects:
+        - INCREASE_DAMAGE:25
+    '3':
+      chance: 15
+      cooldown: 8
+      effects:
+        - INCREASE_DAMAGE:30
+spark:
+  display: '%group-color%Tia Lửa'
+  description: Đốt cháy đối thủ.
+  applies-to: Đinh ba
+  type: ATTACK;ATTACK_MOB;SHOOT;SHOOT_MOB
+  group: ELITE
+  applies:
+    - TRIDENT
+  levels:
+    '1':
+      chance: 25
+      cooldown: 3
+      effects:
+        - BURN:40 @Victim
+    '2':
+      chance: 35
+      cooldown: 6
+      effects:
+        - BURN:40 @Victim
+    '3':
+      chance: 15
+      cooldown: 8
+      effects:
+        - BURN:40 @Victim
+bluntforce:
+  display: '%group-color%Lực Nặng'
+  description: Có tỉ lệ đánh với lực cực mạnh.
+  applies-to: Rìu
+  group: ELITE
+  type: ATTACK
+  settings:
+    showActionBar: true
+  applies:
+    - ALL_AXE
+  levels:
+    '1':
+      chance: 5
+      cooldown: 5
+      effects:
+        - DO_HARM:1 @Attacker
+    '2':
+      chance: 8
+      cooldown: 5
+      effects:
+        - DO_HARM:2 @Attacker
+    '3':
+      chance: 10
+      cooldown: 5
+      effects:
+        - DO_HARM:3 @Attacker
+    '4':
+      chance: 12
+      cooldown: 5
+      effects:
+        - DO_HARM:4 @Attacker
+aegis:
+  display: '%group-color%Aegis'
+  description: Có tỉ lệ nhận tốc độ khi nhận sát thương rơi.
+  applies-to: Giày
+  type: FALL_DAMAGE
+  group: ULTIMATE
+  applies:
+    - ALL_BOOTS
+  levels:
+    '1':
+      chance: 40
+      cooldown: 3
+      effects:
+        - POTION:SPEED:0:60
+    '2':
+      chance: 60
+      cooldown: 3
+      effects:
+        - POTION:SPEED:1:60
+    '3':
+      chance: 70
+      cooldown: 3
+      effects:
+        - POTION:SPEED:2:60
+plummet:
+  display: '%group-color%Rơi Đập'
+  description: |-
+    Gây sát thương mob gần đó
+    khi nhận sát thương rơi.
+  applies-to: Giày
+  type: FALL_DAMAGE
+  settings:
+    showActionBar: true
+  group: ULTIMATE
+  applies:
+    - ALL_BOOTS
+  levels:
+    '1':
+      chance: 40
+      effects:
+        - DO_HARM:2 @Aoe{radius=3,target=mobs}
+    '2':
+      chance: 80
+      effects:
+        - DO_HARM:3 @Aoe{radius=5,target=mobs}
+    '3':
+      effects:
+        - DO_HARM:5 @Aoe{radius=8,target=mobs}
+suspend:
+  display: '%group-color%Đình Chỉ'
+  description: Có tỉ lệ không đẩy lùi mob.
+  applies-to: Kiếm
+  type: ATTACK_MOB
+  group: ELITE
+  applies:
+    - ALL_SWORD
+  levels:
+    '1':
+      chance: 40
+      effects:
+        - STOP_KNOCKBACK @Victim
+    '2':
+      chance: 80
+      effects:
+        - STOP_KNOCKBACK @Victim
+    '3':
+      effects:
+        - STOP_KNOCKBACK @Victim
+nightowl:
+  display: '%group-color%Cú Đêm'
+  description: Gây thêm sát thương lên mob ban đêm.
+  applies-to: Kiếm
+  type: ATTACK_MOB
+  group: ULTIMATE
+  applies:
+    - ALL_SWORD
+  levels:
+    '1':
+      chance: 40
+      conditions:
+        - '%is night% = true : %allow%'
+      effects:
+        - INCREASE_DAMAGE:25
+    '2':
+      chance: 60
+      conditions:
+        - '%is night% = true : %allow%'
+      effects:
+        - INCREASE_DAMAGE:35
+    '3':
+      chance: 80
+      conditions:
+        - '%is night% = true : %allow%'
+      effects:
+        - INCREASE_DAMAGE:45
+nightwalker:
+  display: '%group-color%Kẻ Đêm'
+  description: Đóng băng mob ban đêm.
+  applies-to: Kiếm
+  type: ATTACK_MOB
+  group: ELITE
+  applies:
+    - ALL_SWORD
+  levels:
+    '1':
+      chance: 40
+      conditions:
+        - '%is night% = true : %allow%'
+      effects:
+        - POTION:SLOW:10:400 @Victim
+    '2':
+      chance: 70
+      conditions:
+        - '%is night% = true : %allow%'
+      effects:
+        - POTION:SLOW:10:400 @Victim
+    '3':
+      chance: 100
+      conditions:
+        - '%is night% = true : %allow%'
+      effects:
+        - POTION:SLOW:10:400 @Victim
+launch:
+  display: '%group-color%Phóng'
+  description: Phóng bản thân bằng chuột phải.
+  applies-to: Kiếm
+  type: RIGHT_CLICK
+  settings:
+    showActionBar: true
+  group: LEGENDARY
+  applies:
+    - ALL_SWORD
+  levels:
+    '1':
+      chance: 20
+      cooldown: 15
+      effects:
+        - BOOST:UP:8
+        - PARTICLE:CLOUD:20:2
+    '2':
+      chance: 27
+      cooldown: 15
+      effects:
+        - BOOST:UP:9
+        - PARTICLE:CLOUD:20:2
+    '3':
+      chance: 35
+      cooldown: 10
+      effects:
+        - BOOST:UP:10
+        - PARTICLE:CLOUD:20:2
+slingshot:
+  display: '%group-color%Ná Cao Su'
+  description: Tăng lực bay bằng chuột phải.
+  applies-to: Cánh Elytra
+  type: RIGHT_CLICK
+  group: LEGENDARY
+  applies:
+    - ELYTRA
+  levels:
+    '1':
+      chance: 20
+      cooldown: 15
+      conditions:
+        - '%is holding% contains FIREWORK : %stop%'
+      effects:
+        - BOOST:UP:10
+    '2':
+      chance: 40
+      cooldown: 10
+      conditions:
+        - '%is holding% contains FIREWORK : %stop%'
+      effects:
+        - BOOST:UP:12
+    '3':
+      chance: 50
+      cooldown: 5
+      conditions:
+        - '%is holding% contains FIREWORK : %stop%'
+      effects:
+        - BOOST:UP:16
+nulify:
+  display: '%group-color%Hủy Diệt'
+  description: |-
+    Có tỉ lệ gấp đôi sát thương
+    và làm mù địch.
+    Tốn 40 linh hồn / lần kích.
+  applies-to: Vũ khí
+  type: ATTACK
+  group: FABLED
+  applies:
+    - ALL_SWORD
+    - ALL_AXE
+  levels:
+    '1':
+      chance: 8
+      cooldown: 10
+      conditions:
+        - '%souls on item% < 40 : %stop%'
+      effects:
+        - REMOVE_SOULS:40 @Attacker
+        - INCREASE_DAMAGE:100
+        - POTION:BLINDNESS:0:80 @Victim
+        - PARTICLE:FLASH:1:0 @Victim
+    '2':
+      chance: 10
+      cooldown: 10
+      conditions:
+        - '%souls on item% < 40 : %stop%'
+      effects:
+        - REMOVE_SOULS:40 @Attacker
+        - POTION:BLINDNESS:1:80 @Victim
+        - PARTICLE:FLASH:2:0 @Victim
+    '3':
+      chance: 12
+      cooldown: 10
+      souls: 40
+      effects:
+        - INCREASE_DAMAGE:100
+        - POTION:BLINDNESS:2:80 @Victim
+        - PARTICLE:FLASH:3:0 @Victim
+    '4':
+      chance: 14
+      cooldown: 10
+      conditions:
+        - '%souls on item% < 40 : %stop%'
+      effects:
+        - REMOVE_SOULS:40 @Attacker
+        - POTION:BLINDNESS:3:80 @Victim
+        - PARTICLE:FLASH:4:0 @Victim
+rush:
+  display: '%group-color%Xốc Tới'
+  description: |-
+    Có tỉ lệ tăng tốc khi
+    cất cánh bằng elytra.
+    Tốn 10 linh hồn / lần kích.
+  applies-to: Cánh Elytra
+  type: ELYTRA_FLY
+  group: FABLED
+  applies:
+    - ELYTRA
+  levels:
+    '1':
+      chance: 15
+      cooldown: 5
+      conditions:
+        - '%souls on item% < 10 : %stop%'
+      effects:
+        - REMOVE_SOULS:10
+        - POTION:SPEED:3:60
+    '2':
+      chance: 25
+      cooldown: 5
+      conditions:
+        - '%souls on item% < 10 : %stop%'
+      effects:
+        - REMOVE_SOULS:10
+        - POTION:SPEED:4:60
+    '3':
+      chance: 26
+      cooldown: 5
+      conditions:
+        - '%souls on item% < 10 : %stop%'
+      effects:
+        - REMOVE_SOULS:10
+        - POTION:SPEED:5:60
+diploid:
+  display: '%group-color%Nhân Đôi'
+  description: |-
+    Có tỉ lệ nhân drop mob.
+    Tốn 5 linh hồn / lần kích.
+  applies-to: Kiếm
+  type: KILL_MOB
+  group: FABLED
+  applies:
+    - ALL_SWORD
+  levels:
+    '1':
+      chance: 15
+      cooldown: 5
+      souls: 5
+      effects:
+        - MORE_DROPS:1
+    '2':
+      chance: 20
+      cooldown: 5
+      souls: 5
+      effects:
+        - MORE_DROPS:1
+    '3':
+      chance: 25
+      cooldown: 6
+      souls: 5
+      effects:
+        - MORE_DROPS:1
+    '4':
+      chance: 28
+      cooldown: 7
+      souls: 5
+      effects:
+        - MORE_DROPS:1
+    '5':
+      chance: 30
+      cooldown: 8
+      souls: 5
+      effects:
+        - MORE_DROPS:1
+multiplication:
+  display: '%group-color%Nhân Quặng'
+  description: |-
+    Có tỉ lệ nhân drop quặng.
+    Tốn 5 linh hồn / lần kích.
+  applies-to: Cuốc
+  type: MINING
+  group: FABLED
+  applies:
+    - ALL_PICKAXE
+  levels:
+    '1':
+      chance: 15
+      cooldown: 5
+      settings:
+        whitelist:
+          - "COAL_ORE"
+          - "COPPER_ORE"
+          - "IRON_ORE"
+          - "GOLD_ORE"
+          - "LAPIS_ORE"
+          - "REDSTONE_ORE"
+          - "DIAMOND_ORE"
+          - "EMERALD_ORE"
+          - "NETHER_QUARTZ_ORE"
+          - "NETHER_GOLD_ORE"
+          - "ANCIENT_DEBRIS"
+          - "DEEPSLATE_COAL_ORE"
+          - "DEEPSLATE_COPPER_ORE"
+          - "DEEPSLATE_IRON_ORE"
+          - "DEEPSLATE_GOLD_ORE"
+          - "DEEPSLATE_LAPIS_ORE"
+          - "DEEPSLATE_REDSTONE_ORE"
+          - "DEEPSLATE_DIAMOND_ORE"
+          - "DEEPSLATE_EMERALD_ORE"
+      conditions:
+        - '%block type% contains ORE : %allow%'
+        - '%souls on item% > 4 : %allow%'
+      effects:
+        - MORE_DROPS:1
+        - 'REMOVE_SOULS:5'
+    '2':
+      chance: 20
+      cooldown: 5
+      settings:
+        whitelist:
+          - "COAL_ORE"
+          - "COPPER_ORE"
+          - "IRON_ORE"
+          - "GOLD_ORE"
+          - "LAPIS_ORE"
+          - "REDSTONE_ORE"
+          - "DIAMOND_ORE"
+          - "EMERALD_ORE"
+          - "NETHER_QUARTZ_ORE"
+          - "NETHER_GOLD_ORE"
+          - "ANCIENT_DEBRIS"
+          - "DEEPSLATE_COAL_ORE"
+          - "DEEPSLATE_COPPER_ORE"
+          - "DEEPSLATE_IRON_ORE"
+          - "DEEPSLATE_GOLD_ORE"
+          - "DEEPSLATE_LAPIS_ORE"
+          - "DEEPSLATE_REDSTONE_ORE"
+          - "DEEPSLATE_DIAMOND_ORE"
+          - "DEEPSLATE_EMERALD_ORE"
+      conditions:
+        - '%block type% contains ORE : %allow%'
+        - '%souls on item% > 4 : %allow%'
+      effects:
+        - MORE_DROPS:1
+        - 'REMOVE_SOULS:5'
+    '3':
+      chance: 25
+      cooldown: 6
+      settings:
+        whitelist:
+          - "COAL_ORE"
+          - "COPPER_ORE"
+          - "IRON_ORE"
+          - "GOLD_ORE"
+          - "LAPIS_ORE"
+          - "REDSTONE_ORE"
+          - "DIAMOND_ORE"
+          - "EMERALD_ORE"
+          - "NETHER_QUARTZ_ORE"
+          - "NETHER_GOLD_ORE"
+          - "ANCIENT_DEBRIS"
+          - "DEEPSLATE_COAL_ORE"
+          - "DEEPSLATE_COPPER_ORE"
+          - "DEEPSLATE_IRON_ORE"
+          - "DEEPSLATE_GOLD_ORE"
+          - "DEEPSLATE_LAPIS_ORE"
+          - "DEEPSLATE_REDSTONE_ORE"
+          - "DEEPSLATE_DIAMOND_ORE"
+          - "DEEPSLATE_EMERALD_ORE"
+      conditions:
+        - '%block type% contains ORE : %allow%'
+        - '%souls on item% > 4 : %allow%'
+      effects:
+        - MORE_DROPS:1
+        - 'REMOVE_SOULS:5'
+    '4':
+      chance: 28
+      cooldown: 7
+      settings:
+        whitelist:
+          - "COAL_ORE"
+          - "COPPER_ORE"
+          - "IRON_ORE"
+          - "GOLD_ORE"
+          - "LAPIS_ORE"
+          - "REDSTONE_ORE"
+          - "DIAMOND_ORE"
+          - "EMERALD_ORE"
+          - "NETHER_QUARTZ_ORE"
+          - "NETHER_GOLD_ORE"
+          - "ANCIENT_DEBRIS"
+          - "DEEPSLATE_COAL_ORE"
+          - "DEEPSLATE_COPPER_ORE"
+          - "DEEPSLATE_IRON_ORE"
+          - "DEEPSLATE_GOLD_ORE"
+          - "DEEPSLATE_LAPIS_ORE"
+          - "DEEPSLATE_REDSTONE_ORE"
+          - "DEEPSLATE_DIAMOND_ORE"
+          - "DEEPSLATE_EMERALD_ORE"
+      conditions:
+        - '%block type% contains ORE : %allow%'
+        - '%souls on item% > 4 : %allow%'
+      effects:
+        - MORE_DROPS:1
+        - 'REMOVE_SOULS:5'
+    '5':
+      chance: 30
+      cooldown: 8
+      settings:
+        whitelist:
+          - "COAL_ORE"
+          - "COPPER_ORE"
+          - "IRON_ORE"
+          - "GOLD_ORE"
+          - "LAPIS_ORE"
+          - "REDSTONE_ORE"
+          - "DIAMOND_ORE"
+          - "EMERALD_ORE"
+          - "NETHER_QUARTZ_ORE"
+          - "NETHER_GOLD_ORE"
+          - "ANCIENT_DEBRIS"
+          - "DEEPSLATE_COAL_ORE"
+          - "DEEPSLATE_COPPER_ORE"
+          - "DEEPSLATE_IRON_ORE"
+          - "DEEPSLATE_GOLD_ORE"
+          - "DEEPSLATE_LAPIS_ORE"
+          - "DEEPSLATE_REDSTONE_ORE"
+          - "DEEPSLATE_DIAMOND_ORE"
+          - "DEEPSLATE_EMERALD_ORE"
+      conditions:
+        - '%block type% contains ORE : %allow%'
+        - '%souls on item% > 4 : %allow%'
+      effects:
+        - MORE_DROPS:1
+        - 'REMOVE_SOULS:5'
+fuddle:
+  display: '%group-color%Rối Loạn'
+  description: Làm loạn hotbar của đối thủ.
+  applies-to: Kiếm
+  type: ATTACK
+  settings:
+    showActionBar: true
+  group: ULTIMATE
+  applies:
+    - ALL_SWORD
+  levels:
+    '1':
+      chance: 5
+      cooldown: 15
+      effects:
+        - SHUFFLE_HOTBAR @Victim
+    '2':
+      chance: 7
+      cooldown: 15
+      effects:
+        - SHUFFLE_HOTBAR @Victim
+    '3':
+      chance: 9
+      cooldown: 15
+      effects:
+        - SHUFFLE_HOTBAR @Victim
+spiritmaster:
+  display: '%group-color%Chủ Linh Hồn'
+  description: |-
+    Có tỉ lệ nhận thêm linh hồn
+    khi giết người chơi.
+  applies-to: Kiếm
+  type: KILL_PLAYER
+  group: FABLED
+  applies:
+    - ALL_SWORD
+  levels:
+    '1':
+      chance: 35
+      effects:
+        - ADD_SOULS:1
+        - PARTICLE:HEART:1:0
+    '2':
+      chance: 45
+      effects:
+        - ADD_SOULS:1
+        - PARTICLE:HEART:1:0
+    '3':
+      chance: 55
+      effects:
+        - ADD_SOULS:1
+        - PARTICLE:HEART:1:0
+axeofspirits:
+  display: '%group-color%Rìu Linh Hồn'
+  description: |-
+    Có tỉ lệ nhận thêm linh hồn
+    khi giết người chơi.
+  applies-to: Rìu
+  type: KILL_PLAYER
+  group: FABLED
+  applies:
+    - ALL_AXE
+  levels:
+    '1':
+      chance: 45
+      effects:
+        - ADD_SOULS:1
+        - PARTICLE:HEART:1:0
+    '2':
+      chance: 65
+      effects:
+        - ADD_SOULS:1
+        - PARTICLE:HEART:1:0
+    '3':
+      chance: 75
+      effects:
+        - ADD_SOULS:1
+        - PARTICLE:HEART:1:0
+soulminer:
+  display: '%group-color%Đào Hồn'
+  description: Có tỉ lệ nhận linh hồn khi đào.
+  applies-to: Cuốc
+  type: MINING
+  group: FABLED
+  applies:
+    - ALL_PICKAXE
+  levels:
+    '1':
+      chance: 5
+      effects:
+        - ADD_SOULS:1
+        - PARTICLE:HEART:1:0
+    '2':
+      chance: 10
+      effects:
+        - ADD_SOULS:1
+        - PARTICLE:HEART:1:0
+    '3':
+      chance: 15
+      effects:
+        - ADD_SOULS:1
+        - PARTICLE:HEART:1:0
+soulgrind:
+  display: '%group-color%Nghiền Hồn'
+  description: Có tỉ lệ nhận linh hồn khi giết mob.
+  applies-to: Kiếm
+  type: KILL_MOB
+  group: FABLED
+  applies:
+    - ALL_SWORD
+  levels:
+    '1':
+      chance: 30
+      effects:
+        - ADD_SOULS:1
+        - PARTICLE:HEART:1:0
+    '2':
+      chance: 60
+      effects:
+        - ADD_SOULS:1
+        - PARTICLE:HEART:1:0
+    '3':
+      chance: 90
+      effects:
+        - ADD_SOULS:1
+        - PARTICLE:HEART:1:0
+deranged:
+  display: '%group-color%Điên Loạn'
+  description: Gọi sét đánh người chơi gần đó.
+  applies-to: Kiếm
+  type: ATTACK
+  settings:
+    showActionBar: true
+  group: LEGENDARY
+  applies:
+    - ALL_SWORD
+  levels:
+    '1':
+      chance: 5
+      cooldown: 10
+      effects:
+        - LIGHTNING @Aoe{radius=5,target=damageable}
+    '2':
+      chance: 8
+      cooldown: 12
+      effects:
+        - LIGHTNING @Aoe{radius=6,target=damageable}
+    '3':
+      chance: 12
+      cooldown: 14
+      effects:
+        - LIGHTNING @Aoe{radius=7,target=damageable}
+magnet:
+  display: '%group-color%Nam Châm'
+  description: Đòn đánh kéo người chơi về phía bạn.
+  applies-to: Kiếm
+  type: ATTACK
+  group: ELITE
+  applies:
+    - ALL_SWORD
+  levels:
+    '1':
+      chance: 30
+      cooldown: 5
+      effects:
+        - PULL_CLOSER:1 @Victim
+    '2':
+      chance: 60
+      cooldown: 5
+      effects:
+        - PULL_CLOSER:2 @Victim
+    '3':
+      cooldown: 5
+      effects:
+        - PULL_CLOSER:3 @Victim
+
+callallies:
+  display: '%group-color%Gọi Đồng Minh'
+  description: |-
+    Gọi đồng minh đến trợ giúp
+    khi bạn gặp nguy hiểm.
+  applies-to: Sừng dê
+  type: HORN
+  group: ULTIMATE
+  applies:
+    - GOAT_HORN
+  levels:
+    '1':
+      cooldown: 60
+      effects:
+        - "GUARD:IRON_GOLEM:3:2:%player name%'s Ally:true @Aoe{radius=5,target=all}"
+    '2':
+      cooldown: 45
+      effects:
+        - "GUARD:IRON_GOLEM:4:2:%player name%'s Ally:true @Aoe{radius=5,target=all}"
+    '3':
+      cooldown: 30
+      effects:
+        - "GUARD:IRON_GOLEM:5:2:%player name%'s Ally:true @Aoe{radius=5,target=all}"

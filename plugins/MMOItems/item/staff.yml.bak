@@ -303,7 +303,7 @@ STAFF_LAO_CONG_1:
   base:
     custom-maxsockets: 2.0
     revision-id: 3
-    material: STICK
+    material: IRON_SWORD
     name: "&bTrượng Phép Lao Công &e&lI"
     max-durability: 2000
     tier: UNCOMMON
@@ -339,7 +339,7 @@ STAFF_LAO_CONG_2:
   base:
     custom-maxsockets: 2.0
     revision-id: 3
-    material: STICK
+    material: IRON_SWORD
     name: "&bTrượng Phép Lao Công &e&lII"
     max-durability: 2000
     tier: UNCOMMON
@@ -375,7 +375,7 @@ STAFF_LAO_CONG_3:
   base:
     custom-maxsockets: 2.0
     revision-id: 3
-    material: STICK
+    material: IRON_SWORD
     name: "&bTrượng Phép Lao Công &e&lIII"
     max-durability: 2000
     tier: UNCOMMON
@@ -411,7 +411,7 @@ STAFF_LAO_CONG_4:
   base:
     custom-maxsockets: 2.0
     revision-id: 3
-    material: STICK
+    material: IRON_SWORD
     name: "&bTrượng Phép Lao Công &e&lIV"
     max-durability: 2000
     tier: UNCOMMON
@@ -447,7 +447,7 @@ STAFF_LAO_CONG_5:
   base:
     custom-maxsockets: 2.0
     revision-id: 3
-    material: STICK
+    material: IRON_SWORD
     name: "&bTrượng Phép Lao Công &e&lV"
     max-durability: 2000
     tier: UNCOMMON
@@ -483,7 +483,7 @@ STAFF_THO_DAO_1:
   base:
     custom-maxsockets: 3.0
     revision-id: 3
-    material: STICK
+    material: IRON_SWORD
     name: "&eTrượng Phép Thợ Đào &e&lI"
     max-durability: 3000
     tier: RARE
@@ -519,7 +519,7 @@ STAFF_THO_DAO_2:
   base:
     custom-maxsockets: 3.0
     revision-id: 3
-    material: STICK
+    material: IRON_SWORD
     name: "&eTrượng Phép Thợ Đào &e&lII"
     max-durability: 3000
     tier: RARE
@@ -555,7 +555,7 @@ STAFF_THO_DAO_3:
   base:
     custom-maxsockets: 3.0
     revision-id: 3
-    material: STICK
+    material: IRON_SWORD
     name: "&eTrượng Phép Thợ Đào &e&lIII"
     max-durability: 3000
     tier: RARE
@@ -591,7 +591,7 @@ STAFF_THO_DAO_4:
   base:
     custom-maxsockets: 3.0
     revision-id: 3
-    material: STICK
+    material: IRON_SWORD
     name: "&eTrượng Phép Thợ Đào &e&lIV"
     max-durability: 3000
     tier: RARE
@@ -627,7 +627,7 @@ STAFF_THO_DAO_5:
   base:
     custom-maxsockets: 3.0
     revision-id: 3
-    material: STICK
+    material: IRON_SWORD
     name: "&eTrượng Phép Thợ Đào &e&lV"
     max-durability: 3000
     tier: RARE
@@ -663,7 +663,7 @@ STAFF_DOI_TRUONG_1:
   base:
     custom-maxsockets: 3.0
     revision-id: 3
-    material: STICK
+    material: IRON_SWORD
     name: "&6Trượng Phép Đội Trưởng &e&lI"
     max-durability: 4500
     tier: VERY_RARE
@@ -700,7 +700,7 @@ STAFF_DOI_TRUONG_2:
   base:
     custom-maxsockets: 3.0
     revision-id: 3
-    material: STICK
+    material: IRON_SWORD
     name: "&6Trượng Phép Đội Trưởng &e&lII"
     max-durability: 4500
     tier: VERY_RARE
@@ -737,7 +737,7 @@ STAFF_DOI_TRUONG_3:
   base:
     custom-maxsockets: 3.0
     revision-id: 3
-    material: STICK
+    material: IRON_SWORD
     name: "&6Trượng Phép Đội Trưởng &e&lIII"
     max-durability: 4500
     tier: VERY_RARE
@@ -774,7 +774,7 @@ STAFF_DOI_TRUONG_4:
   base:
     custom-maxsockets: 3.0
     revision-id: 3
-    material: STICK
+    material: IRON_SWORD
     name: "&6Trượng Phép Đội Trưởng &e&lIV"
     max-durability: 4500
     tier: VERY_RARE
@@ -811,7 +811,7 @@ STAFF_DOI_TRUONG_5:
   base:
     custom-maxsockets: 3.0
     revision-id: 3
-    material: STICK
+    material: IRON_SWORD
     name: "&6Trượng Phép Đội Trưởng &e&lV"
     max-durability: 4500
     tier: VERY_RARE
@@ -848,7 +848,7 @@ STAFF_PHO_QUAN_NGUC_1:
   base:
     custom-maxsockets: 4.0
     revision-id: 3
-    material: STICK
+    material: IRON_SWORD
     name: "&cTrượng Phép Phó Quản Ngục &e&lI"
     max-durability: 6000
     tier: EPIC
@@ -886,7 +886,7 @@ STAFF_PHO_QUAN_NGUC_2:
   base:
     custom-maxsockets: 4.0
     revision-id: 3
-    material: STICK
+    material: IRON_SWORD
     name: "&cTrượng Phép Phó Quản Ngục &e&lII"
     max-durability: 6000
     tier: EPIC
@@ -924,7 +924,7 @@ STAFF_PHO_QUAN_NGUC_3:
   base:
     custom-maxsockets: 4.0
     revision-id: 3
-    material: STICK
+    material: IRON_SWORD
     name: "&cTrượng Phép Phó Quản Ngục &e&lIII"
     max-durability: 6000
     tier: EPIC
@@ -962,7 +962,7 @@ STAFF_PHO_QUAN_NGUC_4:
   base:
     custom-maxsockets: 4.0
     revision-id: 3
-    material: STICK
+    material: IRON_SWORD
     name: "&cTrượng Phép Phó Quản Ngục &e&lIV"
     max-durability: 6000
     tier: EPIC
@@ -1000,7 +1000,7 @@ STAFF_PHO_QUAN_NGUC_5:
   base:
     custom-maxsockets: 4.0
     revision-id: 3
-    material: STICK
+    material: IRON_SWORD
     name: "&cTrượng Phép Phó Quản Ngục &e&lV"
     max-durability: 6000
     tier: EPIC
@@ -1038,7 +1038,7 @@ STAFF_QUAN_NGUC_1:
   base:
     custom-maxsockets: 5.0
     revision-id: 3
-    material: STICK
+    material: IRON_SWORD
     name: "&dTrượng Phép Quản Ngục &e&lI"
     max-durability: 8000
     tier: LEGENDARY
@@ -1081,7 +1081,7 @@ STAFF_QUAN_NGUC_2:
   base:
     custom-maxsockets: 5.0
     revision-id: 3
-    material: STICK
+    material: IRON_SWORD
     name: "&dTrượng Phép Quản Ngục &e&lII"
     max-durability: 8000
     tier: LEGENDARY
@@ -1124,7 +1124,7 @@ STAFF_QUAN_NGUC_3:
   base:
     custom-maxsockets: 5.0
     revision-id: 3
-    material: STICK
+    material: IRON_SWORD
     name: "&dTrượng Phép Quản Ngục &e&lIII"
     max-durability: 8000
     tier: LEGENDARY
@@ -1167,7 +1167,7 @@ STAFF_QUAN_NGUC_4:
   base:
     custom-maxsockets: 5.0
     revision-id: 3
-    material: STICK
+    material: IRON_SWORD
     name: "&dTrượng Phép Quản Ngục &e&lIV"
     max-durability: 8000
     tier: LEGENDARY
@@ -1210,7 +1210,7 @@ STAFF_QUAN_NGUC_5:
   base:
     custom-maxsockets: 5.0
     revision-id: 3
-    material: STICK
+    material: IRON_SWORD
     name: "&dTrượng Phép Quản Ngục &e&lV"
     max-durability: 8000
     tier: LEGENDARY
@@ -1253,7 +1253,7 @@ STAFF_BA_CHU_NGUC_TU_1:
   base:
     custom-maxsockets: 6.0
     revision-id: 3
-    material: STICK
+    material: IRON_SWORD
     name: "&5Trượng Phép Bá Chủ Ngục Tù &e&lI"
     max-durability: 10000
     tier: MYTHICAL
@@ -1296,7 +1296,7 @@ STAFF_BA_CHU_NGUC_TU_2:
   base:
     custom-maxsockets: 6.0
     revision-id: 3
-    material: STICK
+    material: IRON_SWORD
     name: "&5Trượng Phép Bá Chủ Ngục Tù &e&lII"
     max-durability: 10000
     tier: MYTHICAL
@@ -1339,7 +1339,7 @@ STAFF_BA_CHU_NGUC_TU_3:
   base:
     custom-maxsockets: 6.0
     revision-id: 3
-    material: STICK
+    material: IRON_SWORD
     name: "&5Trượng Phép Bá Chủ Ngục Tù &e&lIII"
     max-durability: 10000
     tier: MYTHICAL
@@ -1382,7 +1382,7 @@ STAFF_BA_CHU_NGUC_TU_4:
   base:
     custom-maxsockets: 6.0
     revision-id: 3
-    material: STICK
+    material: IRON_SWORD
     name: "&5Trượng Phép Bá Chủ Ngục Tù &e&lIV"
     max-durability: 10000
     tier: MYTHICAL
@@ -1425,7 +1425,7 @@ STAFF_BA_CHU_NGUC_TU_5:
   base:
     custom-maxsockets: 6.0
     revision-id: 3
-    material: STICK
+    material: IRON_SWORD
     name: "&5Trượng Phép Bá Chủ Ngục Tù &e&lV"
     max-durability: 10000
     tier: MYTHICAL
@@ -1468,7 +1468,7 @@ STAFF_VUOT_NGUC_1:
   base:
     custom-maxsockets: 7.0
     revision-id: 3
-    material: STICK
+    material: STONE_SWORD
     custom-model-data: 2043
     name: "&4Trượng Phép Vượt Ngục &e&lI"
     max-durability: 15000
@@ -1512,7 +1512,7 @@ STAFF_VUOT_NGUC_2:
   base:
     custom-maxsockets: 7.0
     revision-id: 3
-    material: STICK
+    material: STONE_SWORD
     custom-model-data: 2043
     name: "&4Trượng Phép Vượt Ngục &e&lII"
     max-durability: 15000
@@ -1556,7 +1556,7 @@ STAFF_VUOT_NGUC_3:
   base:
     custom-maxsockets: 7.0
     revision-id: 3
-    material: STICK
+    material: STONE_SWORD
     custom-model-data: 2043
     name: "&4Trượng Phép Vượt Ngục &e&lIII"
     max-durability: 15000
@@ -1600,7 +1600,7 @@ STAFF_VUOT_NGUC_4:
   base:
     custom-maxsockets: 7.0
     revision-id: 3
-    material: STICK
+    material: STONE_SWORD
     custom-model-data: 2043
     name: "&4Trượng Phép Vượt Ngục &e&lIV"
     max-durability: 15000
@@ -1644,7 +1644,7 @@ STAFF_VUOT_NGUC_5:
   base:
     custom-maxsockets: 7.0
     revision-id: 3
-    material: STICK
+    material: STONE_SWORD
     custom-model-data: 2044
     name: "&4Trượng Phép Vượt Ngục &e&lV"
     max-durability: 15000
@@ -1688,7 +1688,7 @@ GACHA_STAFF_REVENANT:
   base:
     custom-maxsockets: 7.0
     revision-id: 3
-    material: STICK
+    material: IRON_AXE
     custom-model-data: 10005
     name: "&d&lU Hồn Quyền Trượng"
     max-durability: 20000
@@ -1736,7 +1736,7 @@ GACHA_STAFF_AZURE_SCYTHE:
   base:
     custom-maxsockets: 7.0
     revision-id: 3
-    material: STICK
+    material: IRON_HOE
     custom-model-data: 10000
     name: "&3&lBăng Long Tử Thần Lưỡi Hái"
     max-durability: 20000
@@ -1783,7 +1783,7 @@ GACHA_STAFF_OCULUS:
   base:
     custom-maxsockets: 7.0
     revision-id: 3
-    material: STICK
+    material: IRON_SWORD
     custom-model-data: 10019
     name: "&b&lMa Nhãn Thần Trượng"
     max-durability: 20000

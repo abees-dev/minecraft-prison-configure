@@ -1,0 +1,34 @@
+# Configuration for Armor Sets GUI
+# This guy will let players preview armor sets on the server
+
+# Command list that will open the GUI
+commands:
+- /armorsets
+- /previewsets
+
+gui:
+  name: '&7Bộ Giáp'
+  size: 27
+  items:
+    0-27:
+      material: STAINED_GLASS_PANE
+      damage: 15
+      name: ' '
+      lore: []
+      armorSet: ''
+
+previewArmorSet:
+  name: '&7Xem trước Bộ Giáp'
+  size: 27
+  items:
+    0-27:
+      material: STAINED_GLASS_PANE
+      damage: 15
+      name: ' '
+      lore: []
+    '26':
+      itemType: GO_BACK
+      material: PAPER
+      damage: 0
+      name: '&cQuay lại'
+      lore: []

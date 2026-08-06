@@ -1,0 +1,212 @@
+# Create customized commands.
+enchantment-info:
+  # Is this command enabled?
+  enabled: true
+  # Change the start of the command
+  # Use it in game: /<command> <enchantment>
+  command: /enchant
+  aliases:
+  - /enchantment
+  # Permission for command
+  # Set to "" to disable
+  permission: ''
+  inventory:
+    # Inventory size (9-18-27-36-45-54)
+    size: 9
+    # Inventory name
+    name: '&e%enchant%&7 thông tin'
+    items:
+      # Slots start from 0
+      # This number defines the inventory slot.
+      '2':
+        type: STAINED_GLASS_PANE
+        id: 15
+        custom-model-data: 0
+        force-glow: false
+        name: ' '
+        lore: []
+        prefix-addon: ' &f* &7'
+      '3':
+        type: ENCHANTED_BOOK
+        id: 0
+        custom-model-data: 0
+        force-glow: false
+        name: '&7Thông tin phù phép &e%enchant%'
+        lore:
+        - ' &f* &ePhù phép &7>> &r%ench-colors%'
+        - ' &f* &eÁp dụng &7>> &r%applies-to%'
+        - ' &f* &eCấp tối đa &7>> &r%max-lvl%'
+        - ' &f* &eMô tả &7>> &r%desc%'
+        # you can as well use %group-color% to get enchantment color
+        prefix-addon: ' &f* &7'
+      '4':
+        type: STAINED_GLASS_PANE
+        id: 15
+        custom-model-data: 0
+        force-glow: false
+        name: ' '
+        lore: []
+        prefix-addon: ' &f* &7'
+      '5':
+        type: CHEST
+        id: 0
+        custom-model-data: 0
+        force-glow: false
+        name: '&eÁp dụng cho &7>>'
+        lore:
+        - '&7%applies-to%'
+        prefix-addon: ' &f* &7'
+      '6':
+        type: STAINED_GLASS_PANE
+        id: 15
+        custom-model-data: 0
+        force-glow: false
+        name: ' '
+        lore: []
+        prefix-addon: ' &f* &7'
+enchantments:
+  # Is this command enabled?
+  enabled: true
+  # Change the command
+  # Use it in game: /<command>
+  command: /enchants
+  aliases:
+  - /enchantments
+  # Permission for command
+  # Set to "" to disable
+  permission: ''
+  mode:
+    # Modes: GROUPS, ALL
+    # If set to GROUPS, first group selection inventory will show up
+    # If set to ALL, first inventory will show all available enchants
+    currentMode: GROUPS
+  inventory:
+    # Inventory size (18-27-36-45-54)
+    size: 36
+    # Display page number with next/previous page item amounts?
+    display-page-number: true
+    # Inventory name
+    name: '&7Phù phép Máy Chủ'
+    items:
+      # Slots start from 0
+      # This number defines the inventory slot.
+      '11':
+        type: STAINED_GLASS_PANE
+        id: 0
+        custom-model-data: 0
+        force-glow: false
+        # What enchantment group list should it open?
+        group: SIMPLE
+        name: '&7Tất cả phù phép &f&lCơ bản'
+        lore:
+        - ' &7Nhấn để &fxem trước&7 tất cả'
+        - ' &7phù phép nhóm &fCơ bản&7!'
+      '12':
+        type: STAINED_GLASS_PANE
+        id: 5
+        custom-model-data: 0
+        force-glow: false
+        group: UNIQUE
+        name: '&7Tất cả phù phép &a&lĐộc đáo'
+        lore:
+        - ' &7Nhấn để &fxem trước&7 tất cả'
+        - ' &7phù phép nhóm &aĐộc đáo&7!'
+      '13':
+        type: STAINED_GLASS_PANE
+        id: 3
+        custom-model-data: 0
+        force-glow: false
+        group: ELITE
+        name: '&7Tất cả phù phép &b&lTinh anh &7(Nhấn để mở)'
+        lore:
+        - ' &7Nhấn để &fxem trước&7 tất cả'
+        - ' &7phù phép nhóm &bTinh anh&7!'
+      '14':
+        type: STAINED_GLASS_PANE
+        id: 4
+        custom-model-data: 0
+        force-glow: false
+        group: ULTIMATE
+        name: '&7Tất cả phù phép &e&lTối thượng &7(Nhấn để mở)'
+        lore:
+        - ' &7Nhấn để &fxem trước&7 tất cả'
+        - ' &7phù phép nhóm &eTối thượng&7!'
+      '15':
+        type: STAINED_GLASS_PANE
+        id: 1
+        custom-model-data: 0
+        force-glow: false
+        group: LEGENDARY
+        name: '&7Tất cả phù phép &6&lHuyền thoại &7(Nhấn để mở)'
+        lore:
+        - ' &7Nhấn để &fxem trước&7 tất cả'
+        - ' &7phù phép nhóm &6Huyền thoại&7!'
+      '22':
+        type: STAINED_GLASS_PANE
+        id: 6
+        custom-model-data: 0
+        force-glow: false
+        group: FABLED
+        name: '&7Tất cả phù phép &d&lThần thoại &7(Nhấn để mở)'
+        lore:
+        - ' &7Nhấn để &fxem trước&7 tất cả'
+        - ' &7phù phép nhóm &dThần thoại&7!'
+      fill:
+        type: STAINED_GLASS_PANE
+        id: 15
+        custom-model-data: 0
+        force-glow: false
+        name: ' '
+        lore: []
+  group-enchantment-inventory:
+    name: '%color%%group%&7 Phù phép'
+    # Fills empty slots with this item
+    fill-item:
+      material: STAINED_GLASS_PANE
+      id: 15
+      custom-model-data: 0
+      name: ' '
+      lore: []
+    go-back-item:
+      # Show "Go Back" item?
+      enabled: true
+      slot: '%invSize% - 7'
+      item:
+        type: NETHER_STAR
+        id: 0
+        custom-model-data: 0
+      name: '&c&lQuay lại'
+      lore: []
+    previous-page:
+      material: STAINED_GLASS_PANE
+      id: 14
+      custom-model-data: 0
+      name: '&cTrang trước.'
+      lore: []
+      slot: '%invSize% - 3'
+    next-page:
+      material: STAINED_GLASS_PANE
+      id: 5
+      custom-model-data: 0
+      name: '&aTrang sau.'
+      lore: []
+      slot: '%invSize% - 2'
+    item:
+      type: ENCHANTED_BOOK
+      id: 0
+      custom-model-data: 0
+      force-glow: false
+      # What command should be run when player clicks on one of the enchantments?
+      # %max-lvl% - Displays max. level in numbers, %max-lvl-roman% - displays max. level in roman numerals
+      command: /enchant %enchantment%
+      name: '&ePhù phép %enchant%'
+      lore:
+      - ' &f* &ePhù phép &7>> &r%ench-colors%'
+      - ' &f* &eÁp dụng &7>> &r%applies-to%'
+      - ' &f* &eCấp tối đa &7>> &r%max-lvl-roman%'
+      - ' &f* &eMô tả &7>> &r%desc%'
+      prefix-addon: ' &f* &7'
+enchants:
+  group-enchantment-inventory:
+    item:
+      prefix-addon: ' &f* &7'

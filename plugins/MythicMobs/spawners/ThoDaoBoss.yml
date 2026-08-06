@@ -26,4 +26,4 @@ ThoDaoBoss:
   Conditions: []
   SpawnConditions: []
   ActiveMobs: 1
-  CooldownTimer: 61
+  CooldownTimer: 1

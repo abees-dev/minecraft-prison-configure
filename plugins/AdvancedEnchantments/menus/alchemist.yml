@@ -1,0 +1,91 @@
+# General settings related to alchemist inventory system.
+general:
+  settings:
+    # The alchemist should accept books.
+    # If false, the alchemist will not accept books.
+    combine-books: true
+    # The alchemist should accept dust.
+    # If false, the alchemist will not accept dusts.
+    combine-dust: true
+    books:
+      # This method adds chances together and splits by 2 (x+y/2)
+      add-up-chances: true
+      pre-set-chances:
+        enabled: false
+        success: 50
+        destroy: 50
+    dusts:
+      # This method just adds up chances together
+      add-up: true
+    price:
+      economy: EXP # MONEY, EXP, LEVEL
+      # If true the plugin will calculate the price.
+      let-plugin-count: true
+      # Your custom price here.
+      # Only works if let-plugin-count is false.
+      custom-price: 250
+    other-items-slot:
+      first-item-slot: 3
+      second-item-slot: 5
+
+# Options for customization of alchemist inventory.
+inventory:
+  # Set to "none' to disable
+  # the sound when opening the inventory.
+  open-sound: "BLOCK_CHEST_OPEN"
+
+  # The title of the inventory.
+  name: "&8Alchemist"
+
+  # The size of the inventory.
+  # Must be a multiple of 9. (9, 18, 27, 36, 45, 54)
+  size: 27
+
+  items:
+    preview-item:
+      type: STAINED_GLASS_PANE
+      damage: 0
+      custom-model-data: 0
+      slot: 13
+      name: "&e&lXem trước vật phẩm"
+      lore:
+        - "&7Xem trước vật phẩm bạn sẽ"
+        - "&7nhận từ Alchemist"
+        - "&7sẽ hiện ở đây."
+    explanation-item:
+      type: STAINED_GLASS_PANE
+      damage: 14
+      custom-model-data: 0
+      slot: 22
+      name: "&e&lAlchemist"
+      lore:
+        - "&7Alchemist sẽ đổi..."
+        - ""
+        - "&b&l* &f2X Sách Phù Phép"
+        - "&7(cùng loại và cấp)"
+        - "&d= &f1X Sách Phù Phép"
+        - "&7(cấp cao hơn)"
+        - ""
+        - "&b&l* &f2X Bụi Ma Thuật"
+        - "&7(cùng độ hiếm)"
+        - "&d= &f1X Bụi Ma Thuật"
+        - "&7(tỉ lệ cao hơn)"
+    confirm-item:
+      type: STAINED_GLASS_PANE
+      damage: 5
+      custom-model-data: 0
+      slot: 22
+      name: "&b&lNHẤN ĐỂ ĐỔI"
+      lore:
+        - "&c&lGIÁ &c%price% EXP"
+        - ""
+        - "&7Nhấn để xác nhận"
+        - "&7giao dịch và nhận vật phẩm"
+        - "&7mới ở phía trên!"
+    filler-item:
+      # Enable or disable the filler item.
+      enabled: true
+      type: STAINED_GLASS_PANE
+      damage: 15
+      name: " "
+      lore: [ ]
