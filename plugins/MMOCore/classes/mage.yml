@@ -42,8 +42,8 @@ mana:
     icon: '&9⭐'
     color:
         full: AQUA
-        half: BLUE
-        empty: WHITE
+        half: AQUA
+        empty: AQUA
     name: 'Mana'
 
 cast-particle:

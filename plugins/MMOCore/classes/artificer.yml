@@ -42,9 +42,9 @@ mana:
     icon: '&b⚙'
     color:
         full: AQUA
-        half: BLUE
-        empty: WHITE
-    name: 'Năng Lượng Arcane'
+        half: AQUA
+        empty: AQUA
+    name: 'Mana'
 
 attributes:
     knockback-resistance:

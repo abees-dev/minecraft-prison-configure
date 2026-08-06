@@ -31,10 +31,10 @@ mana:
     char: ■
     icon: '&3☠'
     color:
-        full: DARK_AQUA
-        half: DARK_PURPLE
-        empty: WHITE
-    name: 'Tử Khí'
+        full: AQUA
+        half: AQUA
+        empty: AQUA
+    name: 'Mana'
 
 cast-particle:
     particle: SOUL

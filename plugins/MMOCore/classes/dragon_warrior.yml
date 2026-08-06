@@ -37,10 +37,10 @@ mana:
     char: ♦
     icon: '&4♦'
     color:
-        full: DARK_RED
-        half: RED
-        empty: WHITE
-    name: 'Cuồng Nộ'
+        full: AQUA
+        half: AQUA
+        empty: AQUA
+    name: 'Mana'
 
 triggers:
     weapon-damage:

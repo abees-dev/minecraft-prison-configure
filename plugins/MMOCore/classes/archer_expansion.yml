@@ -47,10 +47,10 @@ mana:
     char: ■
     icon: '&a➜'
     color:
-        full: GREEN
-        half: YELLOW
-        empty: WHITE
-    name: 'Tập Trung'
+        full: AQUA
+        half: AQUA
+        empty: AQUA
+    name: 'Mana'
 
 options:
     off-combat-mana-regen: true
