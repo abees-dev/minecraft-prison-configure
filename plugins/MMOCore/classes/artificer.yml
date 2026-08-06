@@ -8,6 +8,11 @@ display:
     - '&a+ &7Sát thương tầm xa và diện rộng'
     - '&a+ &7Đòn đánh tích điện và phát nổ'
     - '&a+ &7Lá chắn cơ giới chủ động'
+    - ''
+    - '&8&lChỉ Số Chuyển Sinh'
+    - '&7  Máu Tối Đa: &c37 &7(+&c0.1&7/cấp)'
+    - '&7  Mana Tối Đa: &b159 &7(+&b1.35&7/cấp)'
+    - '&7  Hồi Mana: &b3.46 &7(+&b0.04&7/cấp)'
     item: CROSSBOW
 
 exp-curve: levels
@@ -48,22 +53,22 @@ mana:
 
 attributes:
     knockback-resistance:
-        base: .15
+        base: 1.3
         per-level: .01
     speed-malus-reduction:
-        base: 12
+        base: 222
         per-level: 2
     max-health:
-        base: 19
+        base: 37
         per-level: .1
     movement-speed:
-        base: .11
+        base: .215
         per-level: 0
     max-mana:
-        base: 34
+        base: 159
         per-level: 1.35
     mana-regeneration:
-        base: .26
+        base: 3.46
         per-level: .04
 
 skills:

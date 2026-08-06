@@ -7,6 +7,12 @@ display:
     - '&a+ &7Sát thương phép và triệu hồi'
     - '&a+ &7Kiểm soát khu vực bằng ma thuật hắc ám'
     - '&a+ &7Khế Ước Bất Tử khi nguy cấp'
+    - ''
+    - '&8&lChỉ Số Chuyển Sinh'
+    - '&7  Máu Tối Đa: &c40 &7(+&c0.25&7/cấp)'
+    - '&7  Mana Tối Đa: &b181 &7(+&b1.5&7/cấp)'
+    - '&7  Hồi Mana: &b4.46 &7(+&b0.05&7/cấp)'
+    - '&7  Hồi Máu: &a0.31 &7(+&a0.01&7/cấp)'
     item: ECHO_SHARD
 
 exp-curve: levels
@@ -47,16 +53,16 @@ options:
 
 attributes:
     max-health:
-        base: 22
+        base: 40
         per-level: .25
     max-mana:
-        base: 34
+        base: 181
         per-level: 1.5
     mana-regeneration:
-        base: .26
+        base: 4.46
         per-level: .05
     health-regeneration:
-        base: .18
+        base: .31
         per-level: .01
 
 skills:

@@ -7,6 +7,12 @@ display:
     - '&a+ &7Hồi phục và bảo vệ đồng đội'
     - '&a+ &7Sát thương Lôi linh hoạt'
     - '&a+ &7Thiên Địa Trận kiểm soát khu vực'
+    - ''
+    - '&8&lChỉ Số Chuyển Sinh'
+    - '&7  Máu Tối Đa: &c59 &7(+&c0.25&7/cấp)'
+    - '&7  Mana Tối Đa: &b176 &7(+&b1.3&7/cấp)'
+    - '&7  Hồi Mana: &b4.46 &7(+&b0.04&7/cấp)'
+    - '&7  Hồi Máu: &a1.32 &7(+&a0.01&7/cấp)'
     item: LIGHTNING_ROD
 
 exp-curve: levels
@@ -47,16 +53,16 @@ options:
 
 attributes:
     max-mana:
-        base: 30
+        base: 176
         per-level: 1.3
     mana-regeneration:
-        base: .24
+        base: 4.46
         per-level: .04
     health-regeneration:
-        base: .17
+        base: 1.32
         per-level: .01
     max-health:
-        base: 20
+        base: 59
         per-level: .25
 
 skills:

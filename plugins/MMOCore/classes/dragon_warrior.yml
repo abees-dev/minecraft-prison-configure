@@ -9,10 +9,11 @@ display:
     - '&a+ &7Máu Tối Đa'
     - '&c- &7Tốc Độ Đánh'
     - ''
-    - '&8&lSức Mạnh'
-    - '&7  Sát Thương: &c2.3 &7(+&c0.12&7/cấp)'
-    - '&7  Tốc Độ Đánh: &c3.9 &7(+&c0&7/cấp)'
-    - '&7  Máu Tối Đa: &c22 &7(+&c0.4&7/cấp)'
+    - '&8&lChỉ Số Chuyển Sinh'
+    - '&7  Sát Thương: &c14.8 &7(+&c0.15&7/cấp)'
+    - '&7  Tốc Độ Đánh: &c13.7 &7(+&c0.06&7/cấp)'
+    - '&7  Máu Tối Đa: &c102 &7(+&c0.6&7/cấp)'
+    - '&7  Mana Tối Đa: &b120 &7(+&b1&7/cấp)'
     item: BLAZE_ROD
 
 exp-curve: levels
@@ -58,14 +59,26 @@ options:
 
 attributes:
     attack-damage:
-        base: 2.8
+        base: 14.8
         per-level: .15
     attack-speed:
-        base: 4.5
+        base: 13.7
         per-level: 0.06
     max-health:
-        base: 28
+        base: 102
         per-level: .6
+    mana-regeneration:
+        base: -0.5
+        per-level: 0
+    max-mana:
+        base: 120
+        per-level: 1
+    movement-speed:
+        base: .12
+        per-level: 0
+    speed-malus-reduction:
+        base: 250
+        per-level: 2
 
 skills:
     # Skill kế thừa từ class Chiến Binh
