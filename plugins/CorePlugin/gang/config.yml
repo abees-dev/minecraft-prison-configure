@@ -37,12 +37,14 @@ gui:
 
 # Materials accepted into the vault (any pickaxe works — gated only by
 # the gang's vault toggle, see `vault:` below).
-# Khớp đúng block/item thật từ 9 mine X-Prison (docs/xprison-config-notes.md
-# mục 7 + plugins/X-Prison/autosell.yml global-sell-prices) — KHÔNG có copper
-# hay deepslate variant nào trong world_prison, không thêm vào đây.
+# Khớp block/item từ 9 mine X-Prison + drop + dạng nấu/nén (Ores.yml) —
+# KHÔNG thêm copper / deepslate (không có trong world_prison).
 ore-whitelist:
+  # Đá mỏ sơ cấp
   - STONE
   - COBBLESTONE
+  - SMOOTH_STONE
+  # Quặng block (Silk Touch / block trong mỏ)
   - COAL_ORE
   - IRON_ORE
   - GOLD_ORE
@@ -53,48 +55,71 @@ ore-whitelist:
   - NETHER_GOLD_ORE
   - NETHER_QUARTZ_ORE
   - ANCIENT_DEBRIS
+  # Drop thô khi đào (không Silk Touch)
+  - COAL
   - RAW_IRON
   - RAW_GOLD
-  - COAL
+  - REDSTONE
+  - LAPIS_LAZULI
   - DIAMOND
   - EMERALD
-  - LAPIS_LAZULI
-  - REDSTONE
   - QUARTZ
   - GOLD_NUGGET
+  # Quặng đã nấu (furnace / blast)
   - IRON_INGOT
   - GOLD_INGOT
   - NETHERITE_SCRAP
+  - NETHERITE_INGOT
+  # Block nén (9 ore → 1 block; dùng refinery + Sell All)
 
 # Fixed sell prices for /gang vault "Bán Tất Cả" (money → gang bank).
-# 2026-08-01: đồng bộ giá base EconomyShopGUI shops/Ores.yml (không qua ESG multiplier).
+# Đồng bộ giá base EconomyShopGUI shops/Ores.yml (không qua ESG multiplier).
 # Ore block = giá item drop tương ứng. Sau Sell All còn nhân upgrade Sell / buff shop / paragon.
 sell-prices:
+  # Đá
   STONE: 10
   COBBLESTONE: 25
+  SMOOTH_STONE: 15
+  # Than
   COAL: 150
   COAL_ORE: 150
+  COAL_BLOCK: 1350
+  # Sắt
   RAW_IRON: 200
   IRON_ORE: 200
   IRON_INGOT: 400
+  RAW_IRON_BLOCK: 1800
+  IRON_BLOCK: 3600
+  # Vàng
   RAW_GOLD: 400
   GOLD_ORE: 400
   GOLD_NUGGET: 60
   NETHER_GOLD_ORE: 240
   GOLD_INGOT: 800
+  RAW_GOLD_BLOCK: 3600
+  GOLD_BLOCK: 7200
+  # Redstone / Lapis / Quartz
   REDSTONE: 270
   REDSTONE_ORE: 270
+  REDSTONE_BLOCK: 2430
   LAPIS_LAZULI: 140
   LAPIS_ORE: 140
-  DIAMOND: 2200
-  DIAMOND_ORE: 2200
-  EMERALD: 3000
-  EMERALD_ORE: 3000
+  LAPIS_BLOCK: 1260
   QUARTZ: 20
   NETHER_QUARTZ_ORE: 20
+  QUARTZ_BLOCK: 180
+  # Kim cương / Emerald / Netherite
+  DIAMOND: 2200
+  DIAMOND_ORE: 2200
+  DIAMOND_BLOCK: 19800
+  EMERALD: 3000
+  EMERALD_ORE: 3000
+  EMERALD_BLOCK: 27000
   ANCIENT_DEBRIS: 3800
   NETHERITE_SCRAP: 3800
-  # Không có trong Ores.yml (không nằm 9 mỏ) — giữ stub theo drop gần nhất
+  NETHERITE_INGOT: 12000
+  NETHERITE_BLOCK: 108000
+  # Stub — không nằm 9 mỏ, không trong whitelist (phòng Sell All legacy)
   DEEPSLATE_COAL_ORE: 150
   DEEPSLATE_IRON_ORE: 200
   RAW_COPPER: 100
