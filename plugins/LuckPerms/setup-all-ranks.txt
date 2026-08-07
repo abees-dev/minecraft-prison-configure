@@ -53,15 +53,15 @@ lp group xprison_rank_7 setweight 7
 lp group xprison_rank_8 setweight 8
 lp group xprison_rank_9 setweight 9
 
-lp group xprison_rank_1 meta setprefix 1 "<white><bold>[Tân Binh]</bold></white> "
-lp group xprison_rank_2 meta setprefix 2 "<gray><bold>[Tù Nhân]</bold></gray> "
-lp group xprison_rank_3 meta setprefix 3 "<green><bold>[Lao Công]</bold></green> "
-lp group xprison_rank_4 meta setprefix 4 "<dark_green><bold>[Thợ Đào]</bold></dark_green> "
-lp group xprison_rank_5 meta setprefix 5 "<aqua><bold>[Đội Trưởng]</bold></aqua> "
-lp group xprison_rank_6 meta setprefix 6 "<blue><bold>[Phó Quản Ngục]</bold></blue> "
-lp group xprison_rank_7 meta setprefix 7 "<light_purple><bold>[Quản Ngục]</bold></light_purple> "
-lp group xprison_rank_8 meta setprefix 8 "<gold><bold>[Bá Chủ Ngục Tù]</bold></gold> "
-lp group xprison_rank_9 meta setprefix 9 "<red><bold>[Vượt Ngục]</bold></red> "
+lp group xprison_rank_1 meta setprefix 1 "&f&l[Tân Binh]&r "
+lp group xprison_rank_2 meta setprefix 2 "&7&l[Tù Nhân]&r "
+lp group xprison_rank_3 meta setprefix 3 "&a&l[Lao Công]&r "
+lp group xprison_rank_4 meta setprefix 4 "&2&l[Thợ Đào]&r "
+lp group xprison_rank_5 meta setprefix 5 "&b&l[Đội Trưởng]&r "
+lp group xprison_rank_6 meta setprefix 6 "&9&l[Phó Quản Ngục]&r "
+lp group xprison_rank_7 meta setprefix 7 "&d&l[Quản Ngục]&r "
+lp group xprison_rank_8 meta setprefix 8 "&6&l[Bá Chủ Ngục Tù]&r "
+lp group xprison_rank_9 meta setprefix 9 "&c&l[Vượt Ngục]&r "
 
 lp group default permission set deluxemenus.open true
 lp group default permission set deluxemenus.menu.ranks_master true
@@ -176,12 +176,12 @@ lp group mvpplus setweight 40
 lp group elite setweight 50
 lp group legend setweight 60
 
-lp group vip meta setprefix 100 "<green><bold>[VIP]</bold></green> "
-lp group vipplus meta setprefix 100 "<dark_aqua><bold>[VIP+]</bold></dark_aqua> "
-lp group mvp meta setprefix 100 "<aqua><bold>[MVP]</bold></aqua> "
-lp group mvpplus meta setprefix 100 "<light_purple><bold>[MVP+]</bold></light_purple> "
-lp group elite meta setprefix 100 "<gold><bold>[ELITE]</bold></gold> "
-lp group legend meta setprefix 100 "<gradient:#FF5555:#FFD700><bold>[LEGEND]</bold></gradient> "
+lp group vip meta setprefix 100 "&a&l[VIP]&r "
+lp group vipplus meta setprefix 110 "&3&l[VIP+]&r "
+lp group mvp meta setprefix 120 "&b&l[MVP]&r "
+lp group mvpplus meta setprefix 130 "&d&l[MVP+]&r "
+lp group elite meta setprefix 140 "&6&l[ELITE]&r "
+lp group legend meta setprefix 150 "&c&l[LEGEND]&r "
 
 # VIP: 6 kho, 5 home, /workbench, kit (không /fly — fly ở LEGEND; /hat ở default)
 lp group vip permission set playervaults.amount.6 true

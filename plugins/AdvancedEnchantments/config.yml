@@ -176,6 +176,7 @@ items:
     - ALL_HOE
     - ALL_EDIBLE
     - BOOK
+    - ENCHANTED_BOOK
     - BOW
     - CROSSBOW
     - SKULL_ITEM

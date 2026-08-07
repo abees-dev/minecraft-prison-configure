@@ -45,12 +45,12 @@ lp group legend setweight 60
 
 # --- 4. Prefixes (TAB + EssentialsX chat already read %luckperms-prefix%,
 #        no extra config needed - this alone makes it show in tab/chat) ----
-lp group vip meta setprefix 100 "<green><bold>[VIP]</bold></green> "
-lp group vipplus meta setprefix 100 "<dark_aqua><bold>[VIP+]</bold></dark_aqua> "
-lp group mvp meta setprefix 100 "<aqua><bold>[MVP]</bold></aqua> "
-lp group mvpplus meta setprefix 100 "<light_purple><bold>[MVP+]</bold></light_purple> "
-lp group elite meta setprefix 100 "<gold><bold>[ELITE]</bold></gold> "
-lp group legend meta setprefix 100 "<gradient:#FF5555:#FFD700><bold>[LEGEND]</bold></gradient> "
+lp group vip meta setprefix 100 "&a&l[VIP]&r "
+lp group vipplus meta setprefix 110 "&3&l[VIP+]&r "
+lp group mvp meta setprefix 120 "&b&l[MVP]&r "
+lp group mvpplus meta setprefix 130 "&d&l[MVP+]&r "
+lp group elite meta setprefix 140 "&6&l[ELITE]&r "
+lp group legend meta setprefix 150 "&c&l[LEGEND]&r "
 
 # --- 5. Perks - VIP (tier 1) -------------------------------------------------
 lp group vip permission set essentials.sethome.multiple true

@@ -5,7 +5,7 @@ settings:
   magic-dust:
     # Limit applying of Magic dust per group
     # If false, magic dust can be applied to different groups
-    limit-applying-per-group: true
+    limit-applying-per-group: false
   randomization-scrolls:
     # Limit applying of Randomization scrolls per group
     # If false, Randomization scrolls can be applied to different groups

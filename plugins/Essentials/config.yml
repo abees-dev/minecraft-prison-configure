@@ -539,8 +539,8 @@ allow-silent-join-quit: false
 # {ONLINE} - The number of players online.
 # {UNIQUE} - The number of unique players to join the server.
 # {UPTIME} - The amount of time the server has been online.
-custom-join-message: "none"
-custom-quit-message: "none"
+custom-join-message: '&a➜ &f{USERNAME} &7đã tham gia máy chủ {PREFIX}'
+custom-quit-message: '&c← &f{USERNAME} &7đã rời máy chủ'
 
 # You can set a custom join message for users who join with a new username here.
 # This message will only be used if a user has joined before and have since changed their username.
@@ -916,20 +916,13 @@ chat:
   # {TEAMPREFIX} - The sender's scoreboard team prefix.
   # {TEAMSUFFIX} - The sender's scoreboard team suffix.
 
-  format: '{PREFIX}&r {DISPLAYNAME} &8» &7{MESSAGE}'
+  format: '{PREFIX}&r{NICKNAME} &8» &7{MESSAGE}'
   #format: '&7[{GROUP}]&r {DISPLAYNAME}&7:&r {MESSAGE}'
   #format: '&7{PREFIX}&r {DISPLAYNAME}&r &7{SUFFIX}&r: {MESSAGE}'
 
-  group-formats:
-    xprison_rank_1: '&8[&f&lTân Binh&8] &f{DISPLAYNAME} &8» &7{MESSAGE}'
-    xprison_rank_2: '&8[&7&lTù Nhân&8] &f{DISPLAYNAME} &8» &7{MESSAGE}'
-    xprison_rank_3: '&8[&a&lLao Công&8] &f{DISPLAYNAME} &8» &7{MESSAGE}'
-    xprison_rank_4: '&8[&2&lThợ Đào&8] &f{DISPLAYNAME} &8» &7{MESSAGE}'
-    xprison_rank_5: '&8[&b&lĐội Trưởng&8] &f{DISPLAYNAME} &8» &7{MESSAGE}'
-    xprison_rank_6: '&8[&9&lPhó Quản Ngục&8] &f{DISPLAYNAME} &8» &7{MESSAGE}'
-    xprison_rank_7: '&8[&d&lQuản Ngục&8] &f{DISPLAYNAME} &8» &7{MESSAGE}'
-    xprison_rank_8: '&8[&6&lBá Chủ Ngục Tù&8] &f{DISPLAYNAME} &8» &7{MESSAGE}'
-    xprison_rank_9: '&8[&c&lVượt Ngục&8] &f{DISPLAYNAME} &8» &7{MESSAGE}'
+  # Keep this empty so every group uses the format above and {PREFIX} is
+  # always read live from LuckPerms. Do not duplicate rank prefixes here.
+  group-formats: {}
   #  default: '{WORLDNAME} {DISPLAYNAME}&7:&r {MESSAGE}'
   #  admins: '{WORLDNAME} &c[{GROUP}]&r {DISPLAYNAME}&7:&c {MESSAGE}'
 

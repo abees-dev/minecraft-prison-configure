@@ -71,11 +71,13 @@ inventory:
         - "&d= &f1X Bụi Ma Thuật"
         - "&7(tỉ lệ cao hơn)"
     confirm-item:
-      type: STAINED_GLASS_PANE
-      damage: 5
+      # Use a distinct modern material so the resource pack cannot make the
+      # confirmation button look identical to the filler panes.
+      type: EMERALD
+      damage: 0
       custom-model-data: 0
       slot: 22
-      name: "&b&lNHẤN ĐỂ ĐỔI"
+      name: "&a&lNHẤN VÀO ĐÂY ĐỂ GHÉP"
       lore:
         - "&c&lGIÁ &c%price% EXP"
         - ""

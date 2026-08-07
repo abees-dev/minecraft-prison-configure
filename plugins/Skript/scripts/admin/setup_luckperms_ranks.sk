@@ -59,15 +59,15 @@ command /setuplpranks:
 		execute console command "lp group xprison_rank_8 setweight 8"
 		execute console command "lp group xprison_rank_9 setweight 9"
 		
-		execute console command "lp group xprison_rank_1 meta setprefix 1 '<white><bold>[Tân Binh]</bold></white> '"
-		execute console command "lp group xprison_rank_2 meta setprefix 2 '<gray><bold>[Tù Nhân]</bold></gray> '"
-		execute console command "lp group xprison_rank_3 meta setprefix 3 '<green><bold>[Lao Công]</bold></green> '"
-		execute console command "lp group xprison_rank_4 meta setprefix 4 '<dark_green><bold>[Thợ Đào]</bold></dark_green> '"
-		execute console command "lp group xprison_rank_5 meta setprefix 5 '<aqua><bold>[Đội Trưởng]</bold></aqua> '"
-		execute console command "lp group xprison_rank_6 meta setprefix 6 '<blue><bold>[Phó Quản Ngục]</bold></blue> '"
-		execute console command "lp group xprison_rank_7 meta setprefix 7 '<light_purple><bold>[Quản Ngục]</bold></light_purple> '"
-		execute console command "lp group xprison_rank_8 meta setprefix 8 '<gold><bold>[Bá Chủ Ngục Tù]</bold></gold> '"
-		execute console command "lp group xprison_rank_9 meta setprefix 9 '<red><bold>[Vượt Ngục]</bold></red> '"
+		execute console command "lp group xprison_rank_1 meta setprefix 1 '&f&l[Tân Binh]&r '"
+		execute console command "lp group xprison_rank_2 meta setprefix 2 '&7&l[Tù Nhân]&r '"
+		execute console command "lp group xprison_rank_3 meta setprefix 3 '&a&l[Lao Công]&r '"
+		execute console command "lp group xprison_rank_4 meta setprefix 4 '&2&l[Thợ Đào]&r '"
+		execute console command "lp group xprison_rank_5 meta setprefix 5 '&b&l[Đội Trưởng]&r '"
+		execute console command "lp group xprison_rank_6 meta setprefix 6 '&9&l[Phó Quản Ngục]&r '"
+		execute console command "lp group xprison_rank_7 meta setprefix 7 '&d&l[Quản Ngục]&r '"
+		execute console command "lp group xprison_rank_8 meta setprefix 8 '&6&l[Bá Chủ Ngục Tù]&r '"
+		execute console command "lp group xprison_rank_9 meta setprefix 9 '&c&l[Vượt Ngục]&r '"
 		
 		send "&7[2/4] Đang gán command bonus Prison (không sell-multiplier ESG)..." to sender
 		execute console command "lp group default permission set deluxemenus.open true"
@@ -163,12 +163,12 @@ command /setuplpranks:
 		execute console command "lp group elite setweight 50"
 		execute console command "lp group legend setweight 60"
 		
-		execute console command "lp group vip meta setprefix 100 '<green><bold>[VIP]</bold></green> '"
-		execute console command "lp group vipplus meta setprefix 100 '<dark_aqua><bold>[VIP+]</bold></dark_aqua> '"
-		execute console command "lp group mvp meta setprefix 100 '<aqua><bold>[MVP]</bold></aqua> '"
-		execute console command "lp group mvpplus meta setprefix 100 '<light_purple><bold>[MVP+]</bold></light_purple> '"
-		execute console command "lp group elite meta setprefix 100 '<gold><bold>[ELITE]</bold></gold> '"
-		execute console command "lp group legend meta setprefix 100 '<gradient:#FF5555:#FFD700><bold>[LEGEND]</bold></gradient> '"
+		execute console command "lp group vip meta setprefix 100 '&a&l[VIP]&r '"
+		execute console command "lp group vipplus meta setprefix 110 '&3&l[VIP+]&r '"
+		execute console command "lp group mvp meta setprefix 120 '&b&l[MVP]&r '"
+		execute console command "lp group mvpplus meta setprefix 130 '&d&l[MVP+]&r '"
+		execute console command "lp group elite meta setprefix 140 '&6&l[ELITE]&r '"
+		execute console command "lp group legend meta setprefix 150 '&c&l[LEGEND]&r '"
 		
 		send "&7[4/4] Đang gán command bonus VIP (không sell-multiplier ESG)..." to sender
 		# VIP — 6 kho, 5 home, /workbench, /hat, kit (không /fly — fly ở LEGEND)
