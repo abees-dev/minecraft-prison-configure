@@ -23,6 +23,8 @@
 - Cấp tối đa của Nung Chảy được giữ ở **V**.
 - Tỉ lệ tự nung lần lượt là **33% / 66% / 100% / 100% / 100%** từ cấp I đến V.
 - Nung Chảy chỉ tự xử lý quặng; level cao không nhân thêm sản lượng đào được.
+- Fix: khi bật **nạp Kho Bang**, quặng Nung Chảy (vd. sắt/vàng → thỏi) vẫn nạp
+  vào kho bang thay vì vào túi cá nhân.
 
 ### Lệnh Phù Phép
 

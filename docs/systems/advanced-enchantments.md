@@ -56,18 +56,20 @@ sách, nhưng không nhân thêm sản lượng quặng. Script có khóa riêng
 
 ### Tương thích Kho Bang
 
-AdvancedEnchantments xử lý trigger đào ở priority `NORMAL`. Thiết lập này để
-effect `SMELT` hoàn tất trước khi CorePlugin Gang thu drop cuối cùng vào Kho
-Bang, đồng thời vẫn đứng sau bước kiểm tra quyền đào/rank sớm của Prison.
+CorePlugin `GangMineListener` chạy ở priority `NORMAL` (sau kiểm tra rank
+Prison, trước MiningTrigger AE ở `HIGH`). Khi thành viên bật nạp Kho Bang:
 
-Kho Bang đã whitelist `IRON_INGOT`, `GOLD_INGOT`, `NETHERITE_SCRAP` và
-`NETHERITE_INGOT`. Nếu quặng tự nung vẫn rơi vào túi cá nhân, kiểm tra theo thứ
-tự:
+1. CorePlugin lấy drop vanilla, áp Nung Chảy (cùng tỉ lệ I–V) nếu cuốc có CE
+   `smelting`, rồi nạp vào kho.
+2. `setDropItems(false)` — AE thấy không còn drop nên bỏ qua `SMELT`, tránh
+   đưa ingot vào túi cá nhân và để block thành AIR trước khi kho thu.
 
-1. Người chơi đã bật nạp Kho Bang cho chính mình.
-2. Bang đạt `vault.required-level` và kho chưa đầy.
-3. Reload AdvancedEnchantments và CorePlugin Gang, hoặc restart server thử.
-4. Đào thử `IRON_ORE` và `GOLD_ORE` trong đúng mine WorldGuard.
+Kho Bang whitelist gồm `IRON_INGOT`, `GOLD_INGOT`, `NETHERITE_SCRAP`,
+`NETHERITE_INGOT`. Nếu vẫn lệch:
+
+1. Đã bật nạp Kho Bang; Bang Lv ≥ `vault.required-level`; kho chưa đầy.
+2. Build/deploy lại `CorePlugin.jar` (không chỉ `/ae reload`).
+3. Đào thử `IRON_ORE` / `GOLD_ORE` trong đúng mine WorldGuard.
 
 ## Danh sách enchant theo trang bị
 

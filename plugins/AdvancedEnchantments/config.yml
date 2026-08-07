@@ -683,9 +683,10 @@ settings:
   # This helps keep compatibility with other plugins that use block break events
   # but puts a more strain on the server.
   call-block-break-events: true
-  # Run SMELT before CorePlugin Gang collects the final drop into its ore vault.
-  # NORMAL still leaves CorePlugin's early prison/rank checks ahead of the trigger.
-  mining-trigger-block-break-event-priority: NORMAL
+  # Keep HIGH. CorePlugin GangMineListener runs at NORMAL (after Prison checks,
+  # before this trigger): when Kho Bang nạp is on it setDropItems=false and applies
+  # Nung Chảy itself so AE SMELT does not steal drops into the player inventory.
+  mining-trigger-block-break-event-priority: HIGH
   # Should enchantment descriptions be added under enchant names in lores?
   #   for per level descriptions use %level-description%. (will default to %description% if level description is not setup)
   #   if level description is set, but here it's still to %description%, the placeholder won't parse!
