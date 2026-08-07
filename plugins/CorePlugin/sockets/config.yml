@@ -26,51 +26,56 @@ unsupported-item-types:
   - MISCELLANEOUS
   - TOOL
 
-# Master switch for money cost, charged through Vault + whatever economy
-# plugin is registered. The actual amount is set per-stone below (see
-# `cost:` under each entry in `stones:`) so rarer/stronger stones can cost
-# more. Charged once per punch ATTEMPT (success or fail) - same rule as the
-# stone itself, which is always consumed either way.
-# Disabled by default: nothing is charged unless you set this to true, even
-# if a stone below has a non-zero cost.
+# Master switch for money cost (money sink - money is destroyed, not moved
+# anywhere), charged through Vault + whatever economy plugin is registered.
+# The actual amount is set per-stone below (see `cost:` under each entry in
+# `stones:`) so rarer/stronger stones cost more. Charged once per punch
+# ATTEMPT (success or fail) - same rule as the stone itself, which is always
+# consumed either way. Order of operations is fee-first: money is withdrawn
+# BEFORE the stone is consumed, so a failed Vault transaction never eats the
+# player's items. Set to false to instantly roll the money sink back.
 cost:
-  enabled: false
+  enabled: true
+
+# Min milliseconds between two confirm-button clicks. Blocks double-click /
+# spam-click from charging the fee (and consuming stones) more than once.
+confirm-click-cooldown-ms: 400
 
 # Which MMOItems stone (MMOITEMS_ITEM_ID) works at which current socket count,
 # its success rate (0-100), and its money cost (only charged if cost.enabled
 # above is true). requires-current-sockets: -1 means "works at any socket
-# count" (e.g. the guaranteed stone below). cost defaults to 0.0 for all of
-# them - nothing is charged until you raise these.
+# count" (e.g. the guaranteed stone below). Costs must be finite and >= 0;
+# invalid values are treated as 0 (free) with a console warning.
 stones:
   DA_DUC_LO_THIEN_MENH:
     requires-current-sockets: -1
     rate: 100
-    cost: 1000000
+    cost: 250000000
   DA_DUC_LO_1:
     requires-current-sockets: 0
     rate: 100
-    cost: 0.0
+    cost: 1000000
   DA_DUC_LO_2:
     requires-current-sockets: 1
     rate: 70
-    cost: 0.0
+    cost: 2000000
   DA_DUC_LO_3:
     requires-current-sockets: 2
     rate: 40
-    cost: 0.0
+    cost: 4000000
   DA_DUC_LO_4:
     requires-current-sockets: 3
     rate: 25
-    cost: 0.0
+    cost: 8000000
   DA_DUC_LO_5:
     requires-current-sockets: 4
     rate: 10
-    cost: 0.0
+    cost: 15000000
   DA_DUC_LO_6:
     requires-current-sockets: 5
     rate: 5
-    cost: 0.0
+    cost: 25000000
   DA_DUC_LO_7:
     requires-current-sockets: 6
     rate: 2
-    cost: 0.0
+    cost: 40000000

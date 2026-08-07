@@ -21,9 +21,42 @@
 # Max upgrade level an item can reach.
 max-level: 100
 
-# MMOItems item types (MMOITEMS_ITEM_TYPE) counted as a "weapon" vs "armor"
-# for the purposes of matching a stone's weapon/armor marker below. Anything
-# not in either list can't be upgraded at all (UNSUPPORTED_TYPE).
+# Money sink: Vault fee charged per upgrade ATTEMPT (money is destroyed, not
+# moved anywhere). The fee is looked up from the item's level BEFORE the
+# attempt: upgrading "+20 -> +21" pays the "0-20" bracket. Order of
+# operations is fee-first: money is withdrawn BEFORE the stone is consumed,
+# so a failed Vault transaction never eats the player's items.
+#
+#   enabled                    - master switch; false = no money is ever
+#                                charged (instant rollback knob).
+#   charge-on-failure          - true: a failed roll still costs the fee
+#                                (and the stone). false: the fee is refunded
+#                                on failure (stone is still lost).
+#   levels                     - "min-max" level brackets -> fee per attempt.
+#                                Brackets must not overlap; levels not
+#                                covered by any bracket upgrade for FREE and
+#                                a warning is logged on load/reload.
+#   universal-stone-multiplier - fee multiplier when the universal stone
+#                                (Đá Thiên Mệnh, universal-stone.id below)
+#                                is used, e.g. 2.0 = double fee.
+cost:
+  enabled: true
+  charge-on-failure: true
+  levels:
+    "0-20": 100000
+    "21-40": 500000
+    "41-60": 2000000
+    "61-80": 5000000
+    "81-99": 10000000
+  universal-stone-multiplier: 2.0
+
+# Min milliseconds between two confirm-button clicks. Blocks double-click /
+# spam-click from charging the fee (and consuming stones) more than once.
+confirm-click-cooldown-ms: 400
+
+# MMOItems item types (MMOITEMS_ITEM_TYPE) counted as weapon / armor / jewelry
+# for matching a stone's marker below. Anything not in these lists can't be
+# upgraded (UNSUPPORTED_TYPE).
 weapon-item-types:
   - SWORD
   - AXE
@@ -52,9 +85,9 @@ jewelry-item-types:
 
 # A stone's MMOITEMS_ITEM_ID must contain the matching marker below for the
 # kind of gear it's used on, unless it's the universal stone.
-weapon-stone-marker: _VU_KHI_
-armor-stone-marker: _GIAP_
-jewelry-stone-marker: _TRANG_SUC_
+weapon-stone-marker: "_VU_KHI_"
+armor-stone-marker: "_GIAP_"
+jewelry-stone-marker: "_TRANG_SUC_"
 
 # One universal stone that works on anything, at any level, at a guaranteed rate.
 universal-stone:

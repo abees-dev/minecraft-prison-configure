@@ -17,3 +17,4 @@ INVALID_STONE: "&c✘ &fVật phẩm này không phải Đá Đục Lỗ hợp l
 NEED_PREVIOUS_SOCKET: "&c✘ &fCần mở ô thứ &e{value1} &ftrước khi dùng loại đá này."
 MISMATCH_STONE: "&c✘ &fĐá không phù hợp với thứ tự ô hiện tại &7(đang có {value1} ô)&f."
 NOT_ENOUGH_MONEY: "&c✘ &fBạn cần &e{value1} &fđể đục lỗ trang bị này."
+MONEY_ERROR: "&c✘ &fKhông thể xử lý giao dịch. Vật phẩm và đá chưa bị tiêu hao."
