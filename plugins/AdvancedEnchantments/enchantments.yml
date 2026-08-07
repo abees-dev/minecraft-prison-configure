@@ -1,15 +1,16 @@
 # AdvancedEnchantments — curated for AetherMine class/item fit
 # Pool slimmed: Warrior sword/axe, Mage/Cleric staff (STICK), Archer bow ready,
 # pickaxe smelting+experience only, armor by piece. VN lore polished.
+# Level caps: SIMPLE/UNIQUE V, ELITE VI, ULTIMATE VII, LEGENDARY VIII, FABLED X.
+# Binary passive enchants remain level I; regenerate with scripts/extend_enchant_levels.js.
 # Do not restore full default pack without review.
-
 
 smelting:
   display: '%group-color%Nung Chảy'
   description: "Đào quặng: có tỉ lệ nhận dạng đã nung."
   applies-to: Cuốc
   type: MINING
-  group: SIMPLE
+  group: LEGENDARY
   applies:
     - ALL_PICKAXE
   levels:
@@ -26,6 +27,15 @@ smelting:
       effects:
         - SMELT
 
+    '4':
+      chance: 100
+      effects:
+        - SMELT
+
+    '5':
+      chance: 100
+      effects:
+        - SMELT
 experience:
   display: '%group-color%Kinh Nghiệm'
   description: "Đào quặng: có tỉ lệ nhận thêm EXP."
@@ -100,6 +110,17 @@ decapitation:
       effects:
         - DROP_HEAD @Victim
 
+    '4':
+      chance: 20
+      cooldown: 9
+      effects:
+        - DROP_HEAD @Victim
+
+    '5':
+      chance: 25
+      cooldown: 9
+      effects:
+        - DROP_HEAD @Victim
 blind:
   display: '%group-color%Chói Mắt'
   description: |-
@@ -127,6 +148,23 @@ blind:
       effects:
         - POTION:BLINDNESS:2:100 @Victim
 
+    '4':
+      chance: 38
+      cooldown: 4
+      effects:
+        - POTION:BLINDNESS:2:100 @Victim
+
+    '5':
+      chance: 43
+      cooldown: 4
+      effects:
+        - POTION:BLINDNESS:2:100 @Victim
+
+    '6':
+      chance: 48
+      cooldown: 3
+      effects:
+        - POTION:BLINDNESS:2:100 @Victim
 poison:
   display: '%group-color%Độc'
   description: "Khi đánh: có tỉ lệ gây độc."
@@ -152,6 +190,23 @@ poison:
       effects:
         - POTION:POISON:1:80 @Victim
 
+    '4':
+      chance: 40
+      cooldown: 1
+      effects:
+        - POTION:POISON:1:80 @Victim
+
+    '5':
+      chance: 45
+      cooldown: 1
+      effects:
+        - POTION:POISON:1:80 @Victim
+
+    '6':
+      chance: 50
+      cooldown: 1
+      effects:
+        - POTION:POISON:1:80 @Victim
 vampire:
   display: '%group-color%Ma Cà Rồng'
   description: |-
@@ -182,6 +237,26 @@ vampire:
         - WAIT:40
         - ADD_HEALTH:<random number>1-6</random number>
 
+    '4':
+      chance: 18
+      cooldown: 3
+      effects:
+        - WAIT:40
+        - ADD_HEALTH:<random number>1-6</random number>
+
+    '5':
+      chance: 21
+      cooldown: 3
+      effects:
+        - WAIT:40
+        - ADD_HEALTH:<random number>1-6</random number>
+
+    '6':
+      chance: 24
+      cooldown: 2
+      effects:
+        - WAIT:40
+        - ADD_HEALTH:<random number>1-6</random number>
 confuse:
   display: '%group-color%Gây Rối'
   description: "Khi đánh: có tỉ lệ gây Nausea."
@@ -212,6 +287,23 @@ confuse:
       effects:
         - POTION:CONFUSION:3:60 @Victim
 
+    '5':
+      chance: 20
+      cooldown: 7
+      effects:
+        - POTION:CONFUSION:3:60 @Victim
+
+    '6':
+      chance: 22
+      cooldown: 7
+      effects:
+        - POTION:CONFUSION:3:60 @Victim
+
+    '7':
+      chance: 24
+      cooldown: 6
+      effects:
+        - POTION:CONFUSION:3:60 @Victim
 iceaspect:
   display: '%group-color%Băng Lưỡi'
   description: |-
@@ -239,6 +331,29 @@ iceaspect:
       effects:
         - POTION:SLOW:1:100 @Victim
 
+    '4':
+      chance: 36
+      cooldown: 1
+      effects:
+        - POTION:SLOW:1:100 @Victim
+
+    '5':
+      chance: 41
+      cooldown: 1
+      effects:
+        - POTION:SLOW:1:100 @Victim
+
+    '6':
+      chance: 46
+      cooldown: 1
+      effects:
+        - POTION:SLOW:1:100 @Victim
+
+    '7':
+      chance: 51
+      cooldown: 1
+      effects:
+        - POTION:SLOW:1:100 @Victim
 critical:
   display: '%group-color%Chí Mạng'
   description: Tăng sát thương đòn chí mạng.
@@ -270,6 +385,37 @@ critical:
       effects:
         - INCREASE_DAMAGE:20
 
+    '4':
+      chance: 16
+      cooldown: 4
+      conditions:
+        - '%is critical% = true : %allow%'
+      effects:
+        - INCREASE_DAMAGE:20
+
+    '5':
+      chance: 20
+      cooldown: 4
+      conditions:
+        - '%is critical% = true : %allow%'
+      effects:
+        - INCREASE_DAMAGE:20
+
+    '6':
+      chance: 24
+      cooldown: 3
+      conditions:
+        - '%is critical% = true : %allow%'
+      effects:
+        - INCREASE_DAMAGE:20
+
+    '7':
+      chance: 28
+      cooldown: 3
+      conditions:
+        - '%is critical% = true : %allow%'
+      effects:
+        - INCREASE_DAMAGE:20
 block:
   display: '%group-color%Đỡ Đòn'
   description: |-
@@ -300,6 +446,33 @@ block:
         - NEGATE_DAMAGE:50 @Victim
         - DO_HARM:<random number>1-4</random number> @Attacker
 
+    '4':
+      chance: 35
+      cooldown: 3
+      effects:
+        - NEGATE_DAMAGE:50 @Victim
+        - DO_HARM:<random number>1-4</random number> @Attacker
+
+    '5':
+      chance: 40
+      cooldown: 3
+      effects:
+        - NEGATE_DAMAGE:50 @Victim
+        - DO_HARM:<random number>1-4</random number> @Attacker
+
+    '6':
+      chance: 45
+      cooldown: 2
+      effects:
+        - NEGATE_DAMAGE:50 @Victim
+        - DO_HARM:<random number>1-4</random number> @Attacker
+
+    '7':
+      chance: 50
+      cooldown: 2
+      effects:
+        - NEGATE_DAMAGE:50 @Victim
+        - DO_HARM:<random number>1-4</random number> @Attacker
 lifesteal:
   display: '%group-color%Hút Máu'
   description: |-
@@ -337,6 +510,23 @@ lifesteal:
       effects:
         - STEAL_HEALTH:<random number>1-5</random number> @Attacker
 
+    '6':
+      chance: 29
+      cooldown: 14
+      effects:
+        - STEAL_HEALTH:<random number>1-5</random number> @Attacker
+
+    '7':
+      chance: 33
+      cooldown: 14
+      effects:
+        - STEAL_HEALTH:<random number>1-5</random number> @Attacker
+
+    '8':
+      chance: 37
+      cooldown: 13
+      effects:
+        - STEAL_HEALTH:<random number>1-5</random number> @Attacker
 doublestrike:
   display: '%group-color%Đòn Đôi'
   description: "Khi đánh: có tỉ lệ đánh thêm một lần."
@@ -370,6 +560,45 @@ doublestrike:
         - DO_HARM:%damage% @Victim
         - BLOOD @Victim
 
+    '4':
+      chance: 24
+      cooldown: 14
+      effects:
+        - WAIT:20
+        - DO_HARM:%damage% @Victim
+        - BLOOD @Victim
+
+    '5':
+      chance: 29
+      cooldown: 14
+      effects:
+        - WAIT:20
+        - DO_HARM:%damage% @Victim
+        - BLOOD @Victim
+
+    '6':
+      chance: 34
+      cooldown: 13
+      effects:
+        - WAIT:20
+        - DO_HARM:%damage% @Victim
+        - BLOOD @Victim
+
+    '7':
+      chance: 39
+      cooldown: 13
+      effects:
+        - WAIT:20
+        - DO_HARM:%damage% @Victim
+        - BLOOD @Victim
+
+    '8':
+      chance: 44
+      cooldown: 12
+      effects:
+        - WAIT:20
+        - DO_HARM:%damage% @Victim
+        - BLOOD @Victim
 inquisitive:
   display: '%group-color%Tò Mò'
   description: "Giết mob: có tỉ lệ tăng EXP rơi."
@@ -400,6 +629,29 @@ inquisitive:
       effects:
         - EXP:<math>%exp% * (1.0 + 0.25 * %level%)</math> @Victim
 
+    '5':
+      chance: 50
+      cooldown: 3
+      effects:
+        - EXP:<math>%exp% * (1.0 + 0.25 * %level%)</math> @Victim
+
+    '6':
+      chance: 55
+      cooldown: 3
+      effects:
+        - EXP:<math>%exp% * (1.0 + 0.25 * %level%)</math> @Victim
+
+    '7':
+      chance: 60
+      cooldown: 2
+      effects:
+        - EXP:<math>%exp% * (1.0 + 0.25 * %level%)</math> @Victim
+
+    '8':
+      chance: 65
+      cooldown: 2
+      effects:
+        - EXP:<math>%exp% * (1.0 + 0.25 * %level%)</math> @Victim
 disarm:
   display: '%group-color%Tước Vũ Khí'
   description: "Khi đánh: có tỉ lệ làm rớt vũ khí địch."
@@ -427,6 +679,47 @@ disarm:
       effects:
         - DISARM @Victim
 
+    '4':
+      chance: 6
+      cooldown: 19
+      effects:
+        - DISARM @Victim
+
+    '5':
+      chance: 7
+      cooldown: 19
+      effects:
+        - DISARM @Victim
+
+    '6':
+      chance: 8
+      cooldown: 18
+      effects:
+        - DISARM @Victim
+
+    '7':
+      chance: 9
+      cooldown: 18
+      effects:
+        - DISARM @Victim
+
+    '8':
+      chance: 10
+      cooldown: 17
+      effects:
+        - DISARM @Victim
+
+    '9':
+      chance: 11
+      cooldown: 17
+      effects:
+        - DISARM @Victim
+
+    '10':
+      chance: 12
+      cooldown: 16
+      effects:
+        - DISARM @Victim
 diminish:
   display: '%group-color%Suy Yếu'
   description: "Khi đánh: có tỉ lệ gây Mining Fatigue."
@@ -441,6 +734,30 @@ diminish:
       effects:
         - POTION:SLOW_DIGGING:0:100 @Victim
 
+    '2':
+      chance: 15
+      effects:
+        - POTION:SLOW_DIGGING:0:100 @Victim
+
+    '3':
+      chance: 17
+      effects:
+        - POTION:SLOW_DIGGING:0:100 @Victim
+
+    '4':
+      chance: 19
+      effects:
+        - POTION:SLOW_DIGGING:0:100 @Victim
+
+    '5':
+      chance: 21
+      effects:
+        - POTION:SLOW_DIGGING:0:100 @Victim
+
+    '6':
+      chance: 23
+      effects:
+        - POTION:SLOW_DIGGING:0:100 @Victim
 infernal:
   display: '%group-color%Địa Ngục'
   description: "Khi đánh: hiệu ứng lửa nổ."
@@ -469,6 +786,26 @@ infernal:
         - PARTICLE:BURN:3:20
         - BURN:6 @Victim
 
+    '4':
+      chance: 55
+      cooldown: 1
+      effects:
+        - PARTICLE:BURN:3:20
+        - BURN:6 @Victim
+
+    '5':
+      chance: 60
+      cooldown: 1
+      effects:
+        - PARTICLE:BURN:3:20
+        - BURN:6 @Victim
+
+    '6':
+      chance: 65
+      cooldown: 1
+      effects:
+        - PARTICLE:BURN:3:20
+        - BURN:6 @Victim
 cleave:
   display: '%group-color%Chém Quét'
   description: |-
@@ -584,6 +921,15 @@ bleed:
         - WAIT:20
         - DO_HARM:<random number>1-3</random number> @Victim
 
+    '7':
+      chance: 65
+      effects:
+        - POTION:SLOW:0:100 @Victim
+        - DO_HARM:<random number>1-3</random number> @Victim
+        - WAIT:20
+        - DO_HARM:<random number>1-3</random number> @Victim
+        - WAIT:20
+        - DO_HARM:<random number>1-3</random number> @Victim
 shatter:
   display: '%group-color%Nghiền Nát'
   description: |-
@@ -616,6 +962,23 @@ shatter:
       effects:
         - ADD_DURABILITY_ARMOR:-2 @Victim
 
+    '5':
+      chance: 51
+      cooldown: 1
+      effects:
+        - ADD_DURABILITY_ARMOR:-2 @Victim
+
+    '6':
+      chance: 56
+      cooldown: 1
+      effects:
+        - ADD_DURABILITY_ARMOR:-2 @Victim
+
+    '7':
+      chance: 61
+      cooldown: 1
+      effects:
+        - ADD_DURABILITY_ARMOR:-2 @Victim
 barbarian:
   display: '%group-color%Man Rợ'
   description: "Khi đánh: có tỉ lệ tăng sát thương rìu."
@@ -656,6 +1019,37 @@ barbarian:
       effects:
         - INCREASE_DAMAGE:<random number>25-100</random number> @Victim
 
+    '5':
+      chance: 30
+      cooldown: 7
+      conditions:
+        - '%attacker is holding% contains AXE : %allow%'
+      effects:
+        - INCREASE_DAMAGE:<random number>25-100</random number> @Victim
+
+    '6':
+      chance: 35
+      cooldown: 7
+      conditions:
+        - '%attacker is holding% contains AXE : %allow%'
+      effects:
+        - INCREASE_DAMAGE:<random number>25-100</random number> @Victim
+
+    '7':
+      chance: 40
+      cooldown: 6
+      conditions:
+        - '%attacker is holding% contains AXE : %allow%'
+      effects:
+        - INCREASE_DAMAGE:<random number>25-100</random number> @Victim
+
+    '8':
+      chance: 45
+      cooldown: 6
+      conditions:
+        - '%attacker is holding% contains AXE : %allow%'
+      effects:
+        - INCREASE_DAMAGE:<random number>25-100</random number> @Victim
 inflame:
   display: '%group-color%Thiêu Đốt'
   description: Đốt người chơi trong bán kính.
@@ -686,6 +1080,40 @@ inflame:
         - PARTICLE:FALLING_LAVA:5:0 @Aoe{radius=6,target=damageable}
         - BURN:60 @Aoe{radius=6,target=damageable}
 
+    '4':
+      chance: 20
+      cooldown: 4
+      effects:
+        - PARTICLE:FALLING_LAVA:5:0 @Aoe{radius=6,target=damageable}
+        - BURN:60 @Aoe{radius=6,target=damageable}
+
+    '5':
+      chance: 24
+      cooldown: 4
+      effects:
+        - PARTICLE:FALLING_LAVA:5:0 @Aoe{radius=6,target=damageable}
+        - BURN:60 @Aoe{radius=6,target=damageable}
+
+    '6':
+      chance: 28
+      cooldown: 3
+      effects:
+        - PARTICLE:FALLING_LAVA:5:0 @Aoe{radius=6,target=damageable}
+        - BURN:60 @Aoe{radius=6,target=damageable}
+
+    '7':
+      chance: 32
+      cooldown: 3
+      effects:
+        - PARTICLE:FALLING_LAVA:5:0 @Aoe{radius=6,target=damageable}
+        - BURN:60 @Aoe{radius=6,target=damageable}
+
+    '8':
+      chance: 36
+      cooldown: 2
+      effects:
+        - PARTICLE:FALLING_LAVA:5:0 @Aoe{radius=6,target=damageable}
+        - BURN:60 @Aoe{radius=6,target=damageable}
 bluntforce:
   display: '%group-color%Lực Nặng'
   description: "Khi đánh: có tỉ lệ đòn cực mạnh."
@@ -718,6 +1146,41 @@ bluntforce:
       effects:
         - DO_HARM:4 @Attacker
 
+    '5':
+      chance: 14
+      cooldown: 4
+      effects:
+        - DO_HARM:4 @Attacker
+
+    '6':
+      chance: 16
+      cooldown: 4
+      effects:
+        - DO_HARM:4 @Attacker
+
+    '7':
+      chance: 18
+      cooldown: 3
+      effects:
+        - DO_HARM:4 @Attacker
+
+    '8':
+      chance: 20
+      cooldown: 3
+      effects:
+        - DO_HARM:4 @Attacker
+
+    '9':
+      chance: 22
+      cooldown: 2
+      effects:
+        - DO_HARM:4 @Attacker
+
+    '10':
+      chance: 24
+      cooldown: 2
+      effects:
+        - DO_HARM:4 @Attacker
 paralyze:
   display: '%group-color%Tê Liệt'
   description: |-
@@ -762,6 +1225,23 @@ paralyze:
         - POTION:SLOW:1:100 @Victim
         - POTION:SLOW_DIGGING:1:100 @Victim
 
+    '5':
+      chance: 19
+      cooldown: 2
+      effects:
+        - LIGHTNING @Victim
+        - EXTINGUISH @Victim
+        - POTION:SLOW:1:100 @Victim
+        - POTION:SLOW_DIGGING:1:100 @Victim
+
+    '6':
+      chance: 22
+      cooldown: 2
+      effects:
+        - LIGHTNING @Victim
+        - EXTINGUISH @Victim
+        - POTION:SLOW:1:100 @Victim
+        - POTION:SLOW_DIGGING:1:100 @Victim
 snare:
   display: '%group-color%Bẫy Phép'
   description: |-
@@ -800,6 +1280,19 @@ snare:
         - POTION:SLOW:1:120 @Victim
         - POTION:SLOW_DIGGING:1:120 @Victim
 
+    '5':
+      chance: 34
+      cooldown: 2
+      effects:
+        - POTION:SLOW:1:120 @Victim
+        - POTION:SLOW_DIGGING:1:120 @Victim
+
+    '6':
+      chance: 39
+      cooldown: 2
+      effects:
+        - POTION:SLOW:1:120 @Victim
+        - POTION:SLOW_DIGGING:1:120 @Victim
 virus:
   display: '%group-color%Virus'
   description: "Khi đánh: có tỉ lệ gây độc."
@@ -827,6 +1320,23 @@ virus:
       effects:
         - POTION:POISON:1:80 @Victim
 
+    '4':
+      chance: 40
+      cooldown: 1
+      effects:
+        - POTION:POISON:1:80 @Victim
+
+    '5':
+      chance: 45
+      cooldown: 1
+      effects:
+        - POTION:POISON:1:80 @Victim
+
+    '6':
+      chance: 50
+      cooldown: 1
+      effects:
+        - POTION:POISON:1:80 @Victim
 perish:
   display: '%group-color%Hủy Hoại'
   description: "Khi đánh: có tỉ lệ gây Wither."
@@ -864,6 +1374,11 @@ perish:
       effects:
         - POTION:WITHER:1:100 @Victim
 
+    '6':
+      chance: 25
+      cooldown: 2
+      effects:
+        - POTION:WITHER:1:100 @Victim
 wither:
   display: '%group-color%Wither'
   description: "Khi bị đánh: có tỉ lệ gây Wither lên kẻ đánh."
@@ -899,6 +1414,11 @@ wither:
       effects:
         - POTION:WITHER:1:100 @Victim
 
+    '6':
+      chance: 25
+      cooldown: 2
+      effects:
+        - POTION:WITHER:1:100 @Victim
 chaos:
   display: '%group-color%Hỗn Mang'
   description: "Khi đánh: gây Weakness và Wither."
@@ -941,6 +1461,26 @@ chaos:
         - POTION:WITHER:1:60 @Victim
         - POTION:WEAKNESS:0:100 @Victim
 
+    '6':
+      chance: 12
+      cooldown: 39
+      effects:
+        - POTION:WITHER:1:60 @Victim
+        - POTION:WEAKNESS:0:100 @Victim
+
+    '7':
+      chance: 14
+      cooldown: 39
+      effects:
+        - POTION:WITHER:1:60 @Victim
+        - POTION:WEAKNESS:0:100 @Victim
+
+    '8':
+      chance: 16
+      cooldown: 38
+      effects:
+        - POTION:WITHER:1:60 @Victim
+        - POTION:WEAKNESS:0:100 @Victim
 hunter:
   display: '%group-color%Thợ Săn'
   description: Tăng sát thương lên mob trung lập.
@@ -977,6 +1517,11 @@ hunter:
       effects:
         - INCREASE_DAMAGE:<random number>10-40</random number> @Attacker
 
+    '5':
+      conditions:
+        - '%is hostile% = false : %allow%'
+      effects:
+        - INCREASE_DAMAGE:<random number>10-40</random number> @Attacker
 explosive:
   display: '%group-color%Nổ Mũi Tên'
   description: Có tỉ lệ mũi tên phát nổ.
@@ -1089,6 +1634,29 @@ archer:
       effects:
         - INCREASE_DAMAGE:<random number>50-150</random number> @Victim
 
+    '5':
+      chance: 37
+      cooldown: 2
+      conditions:
+        - '%attacker is holding% = BOW : %allow%'
+      effects:
+        - INCREASE_DAMAGE:<random number>50-150</random number> @Victim
+
+    '6':
+      chance: 42
+      cooldown: 2
+      conditions:
+        - '%attacker is holding% = BOW : %allow%'
+      effects:
+        - INCREASE_DAMAGE:<random number>50-150</random number> @Victim
+
+    '7':
+      chance: 47
+      cooldown: 1
+      conditions:
+        - '%attacker is holding% = BOW : %allow%'
+      effects:
+        - INCREASE_DAMAGE:<random number>50-150</random number> @Victim
 marksman:
   display: '%group-color%Xạ Thủ'
   description: Tăng sát thương bằng nỏ.
@@ -1127,6 +1695,29 @@ marksman:
       effects:
         - INCREASE_DAMAGE:<random number>50-150</random number> @Victim
 
+    '5':
+      chance: 37
+      cooldown: 2
+      conditions:
+        - '%attacker is holding% = CROSSBOW : %allow%'
+      effects:
+        - INCREASE_DAMAGE:<random number>50-150</random number> @Victim
+
+    '6':
+      chance: 42
+      cooldown: 2
+      conditions:
+        - '%attacker is holding% = CROSSBOW : %allow%'
+      effects:
+        - INCREASE_DAMAGE:<random number>50-150</random number> @Victim
+
+    '7':
+      chance: 47
+      cooldown: 1
+      conditions:
+        - '%attacker is holding% = CROSSBOW : %allow%'
+      effects:
+        - INCREASE_DAMAGE:<random number>50-150</random number> @Victim
 piercing:
   display: '%group-color%Xuyên Thấu'
   description: Gây thêm sát thương tầm xa.
@@ -1162,6 +1753,17 @@ piercing:
       effects:
         - INCREASE_DAMAGE:<random number>50-150</random number> @Victim
 
+    '6':
+      chance: 42
+      cooldown: 2
+      effects:
+        - INCREASE_DAMAGE:<random number>50-150</random number> @Victim
+
+    '7':
+      chance: 47
+      cooldown: 2
+      effects:
+        - INCREASE_DAMAGE:<random number>50-150</random number> @Victim
 hellfire:
   display: '%group-color%Hỏa Ngục'
   description: Mũi tên biến thành cầu lửa.
@@ -1199,6 +1801,17 @@ hellfire:
       effects:
         - FIREBALL @Victim
 
+    '6':
+      chance: 75
+      cooldown: 2
+      effects:
+        - FIREBALL @Victim
+
+    '7':
+      chance: 80
+      cooldown: 2
+      effects:
+        - FIREBALL @Victim
 missile:
   display: '%group-color%Tên Lửa'
   description: Mũi tên nỏ biến thành cầu lửa.
@@ -1236,6 +1849,17 @@ missile:
       effects:
         - FIREBALL @Victim
 
+    '6':
+      chance: 75
+      cooldown: 2
+      effects:
+        - FIREBALL @Victim
+
+    '7':
+      chance: 80
+      cooldown: 2
+      effects:
+        - FIREBALL @Victim
 longbow:
   display: '%group-color%Cung Dài'
   description: |-
@@ -1278,6 +1902,29 @@ longbow:
       effects:
         - INCREASE_DAMAGE:<random number>50-100</random number> @Attacker
 
+    '5':
+      chance: 38
+      cooldown: 3
+      conditions:
+        - '%victim is holding% = BOW : %allow%'
+      effects:
+        - INCREASE_DAMAGE:<random number>50-100</random number> @Attacker
+
+    '6':
+      chance: 43
+      cooldown: 3
+      conditions:
+        - '%victim is holding% = BOW : %allow%'
+      effects:
+        - INCREASE_DAMAGE:<random number>50-100</random number> @Attacker
+
+    '7':
+      chance: 48
+      cooldown: 2
+      conditions:
+        - '%victim is holding% = BOW : %allow%'
+      effects:
+        - INCREASE_DAMAGE:<random number>50-100</random number> @Attacker
 sniper:
   display: '%group-color%Bắn Tỉa'
   description: |-
@@ -1327,6 +1974,45 @@ sniper:
       effects:
         - INCREASE_DAMAGE:100 @Attacker
 
+    '6':
+      chance: 40
+      cooldown: 4
+      conditions:
+        - '%is headshot% = false : %stop%'
+      effects:
+        - INCREASE_DAMAGE:100 @Attacker
+
+    '7':
+      chance: 45
+      cooldown: 4
+      conditions:
+        - '%is headshot% = false : %stop%'
+      effects:
+        - INCREASE_DAMAGE:100 @Attacker
+
+    '8':
+      chance: 50
+      cooldown: 3
+      conditions:
+        - '%is headshot% = false : %stop%'
+      effects:
+        - INCREASE_DAMAGE:100 @Attacker
+
+    '9':
+      chance: 55
+      cooldown: 3
+      conditions:
+        - '%is headshot% = false : %stop%'
+      effects:
+        - INCREASE_DAMAGE:100 @Attacker
+
+    '10':
+      chance: 60
+      cooldown: 2
+      conditions:
+        - '%is headshot% = false : %stop%'
+      effects:
+        - INCREASE_DAMAGE:100 @Attacker
 striker:
   display: '%group-color%Mưa Tên'
   description: Mưa mũi tên lên đối thủ.
@@ -1354,6 +2040,47 @@ striker:
       effects:
         - SPAWN_ARROWS @Victim
 
+    '4':
+      chance: 26
+      cooldown: 7
+      effects:
+        - SPAWN_ARROWS @Victim
+
+    '5':
+      chance: 30
+      cooldown: 7
+      effects:
+        - SPAWN_ARROWS @Victim
+
+    '6':
+      chance: 34
+      cooldown: 6
+      effects:
+        - SPAWN_ARROWS @Victim
+
+    '7':
+      chance: 38
+      cooldown: 6
+      effects:
+        - SPAWN_ARROWS @Victim
+
+    '8':
+      chance: 42
+      cooldown: 5
+      effects:
+        - SPAWN_ARROWS @Victim
+
+    '9':
+      chance: 46
+      cooldown: 5
+      effects:
+        - SPAWN_ARROWS @Victim
+
+    '10':
+      chance: 50
+      cooldown: 4
+      effects:
+        - SPAWN_ARROWS @Victim
 neutralize:
   display: '%group-color%Vô Hiệu'
   description: Có tỉ lệ làm đối thủ rớt vũ khí.
@@ -1377,6 +2104,53 @@ neutralize:
       effects:
         - DISARM @Victim
 
+    '3':
+      chance: 15
+      cooldown: 19
+      effects:
+        - DISARM @Victim
+
+    '4':
+      chance: 20
+      cooldown: 19
+      effects:
+        - DISARM @Victim
+
+    '5':
+      chance: 25
+      cooldown: 18
+      effects:
+        - DISARM @Victim
+
+    '6':
+      chance: 30
+      cooldown: 18
+      effects:
+        - DISARM @Victim
+
+    '7':
+      chance: 35
+      cooldown: 17
+      effects:
+        - DISARM @Victim
+
+    '8':
+      chance: 40
+      cooldown: 17
+      effects:
+        - DISARM @Victim
+
+    '9':
+      chance: 45
+      cooldown: 16
+      effects:
+        - DISARM @Victim
+
+    '10':
+      chance: 50
+      cooldown: 16
+      effects:
+        - DISARM @Victim
 glowing:
   display: '%group-color%Phát Sáng'
   description: "Khi trang bị: Night Vision."
@@ -1430,6 +2204,17 @@ battlefocus:
       effects:
         - POTION:INCREASE_DAMAGE:1:80 @Victim
 
+    '4':
+      chance: 45
+      cooldown: 5
+      effects:
+        - POTION:INCREASE_DAMAGE:1:80 @Victim
+
+    '5':
+      chance: 50
+      cooldown: 5
+      effects:
+        - POTION:INCREASE_DAMAGE:1:80 @Victim
 mindveil:
   display: '%group-color%Màn Ảo'
   description: |-
@@ -1459,6 +2244,26 @@ mindveil:
         - POTION:BLINDNESS:0:60 @Attacker
         - POTION:CONFUSION:0:50 @Attacker
 
+    '4':
+      chance: 43
+      cooldown: 4
+      effects:
+        - POTION:BLINDNESS:0:60 @Attacker
+        - POTION:CONFUSION:0:50 @Attacker
+
+    '5':
+      chance: 48
+      cooldown: 4
+      effects:
+        - POTION:BLINDNESS:0:60 @Attacker
+        - POTION:CONFUSION:0:50 @Attacker
+
+    '6':
+      chance: 53
+      cooldown: 3
+      effects:
+        - POTION:BLINDNESS:0:60 @Attacker
+        - POTION:CONFUSION:0:50 @Attacker
 smokebomb:
   display: '%group-color%Bom Khói'
   description: |-
@@ -1562,6 +2367,29 @@ implants:
       effects:
         - ADD_FOOD:1
 
+    '4':
+      chance: 75
+      time: 5
+      effects:
+        - ADD_FOOD:1
+
+    '5':
+      chance: 80
+      time: 5
+      effects:
+        - ADD_FOOD:1
+
+    '6':
+      chance: 85
+      time: 5
+      effects:
+        - ADD_FOOD:1
+
+    '7':
+      chance: 90
+      time: 5
+      effects:
+        - ADD_FOOD:1
 lucid:
   display: '%group-color%Tỉnh Táo'
   description: |-
@@ -1592,6 +2420,40 @@ lucid:
         - CURE:BLINDNESS @Victim
         - POTION:NIGHT_VISION:0:80 @Victim
 
+    '4':
+      chance: 47
+      cooldown: 4
+      effects:
+        - CURE:BLINDNESS @Victim
+        - POTION:NIGHT_VISION:0:80 @Victim
+
+    '5':
+      chance: 52
+      cooldown: 4
+      effects:
+        - CURE:BLINDNESS @Victim
+        - POTION:NIGHT_VISION:0:80 @Victim
+
+    '6':
+      chance: 57
+      cooldown: 3
+      effects:
+        - CURE:BLINDNESS @Victim
+        - POTION:NIGHT_VISION:0:80 @Victim
+
+    '7':
+      chance: 62
+      cooldown: 3
+      effects:
+        - CURE:BLINDNESS @Victim
+        - POTION:NIGHT_VISION:0:80 @Victim
+
+    '8':
+      chance: 67
+      cooldown: 2
+      effects:
+        - CURE:BLINDNESS @Victim
+        - POTION:NIGHT_VISION:0:80 @Victim
 reflect:
   display: '%group-color%Phản Đòn'
   description: |-
@@ -1688,6 +2550,13 @@ shockwave:
       effects:
         - PULL_AWAY:2.5 @Attacker
 
+    '6':
+      chance: 55
+      cooldown: 3
+      conditions:
+        - '%victim health% > 5 : %stop%'
+      effects:
+        - PULL_AWAY:2.5 @Attacker
 angelic:
   display: '%group-color%Thiên Thần'
   description: "Khi bị thương: có tỉ lệ hồi máu."
@@ -1723,6 +2592,17 @@ angelic:
       effects:
         - ADD_HEALTH:<random number>1-4</random number> @Victim
 
+    '6':
+      chance: 39
+      cooldown: 14
+      effects:
+        - ADD_HEALTH:<random number>1-4</random number> @Victim
+
+    '7':
+      chance: 44
+      cooldown: 14
+      effects:
+        - ADD_HEALTH:<random number>1-4</random number> @Victim
 obsidianshield:
   display: '%group-color%Khiên Obsidian'
   description: "Khi trang bị: kháng lửa."
@@ -1761,6 +2641,35 @@ hardened:
       effects:
         - ADD_DURABILITY_CURRENT_ITEM:2 @Victim
 
+    '4':
+      chance: 50
+      cooldown: 6
+      effects:
+        - ADD_DURABILITY_CURRENT_ITEM:2 @Victim
+
+    '5':
+      chance: 55
+      cooldown: 6
+      effects:
+        - ADD_DURABILITY_CURRENT_ITEM:2 @Victim
+
+    '6':
+      chance: 60
+      cooldown: 5
+      effects:
+        - ADD_DURABILITY_CURRENT_ITEM:2 @Victim
+
+    '7':
+      chance: 65
+      cooldown: 5
+      effects:
+        - ADD_DURABILITY_CURRENT_ITEM:2 @Victim
+
+    '8':
+      chance: 70
+      cooldown: 4
+      effects:
+        - ADD_DURABILITY_CURRENT_ITEM:2 @Victim
 patch:
   display: '%group-color%Vá Lại'
   description: "Khi bị mob đánh: có tỉ lệ hồi độ bền."
@@ -1786,6 +2695,35 @@ patch:
       effects:
         - ADD_DURABILITY_CURRENT_ITEM:2 @Victim
 
+    '4':
+      chance: 50
+      cooldown: 6
+      effects:
+        - ADD_DURABILITY_CURRENT_ITEM:2 @Victim
+
+    '5':
+      chance: 55
+      cooldown: 6
+      effects:
+        - ADD_DURABILITY_CURRENT_ITEM:2 @Victim
+
+    '6':
+      chance: 60
+      cooldown: 5
+      effects:
+        - ADD_DURABILITY_CURRENT_ITEM:2 @Victim
+
+    '7':
+      chance: 65
+      cooldown: 5
+      effects:
+        - ADD_DURABILITY_CURRENT_ITEM:2 @Victim
+
+    '8':
+      chance: 70
+      cooldown: 4
+      effects:
+        - ADD_DURABILITY_CURRENT_ITEM:2 @Victim
 fumble:
   display: '%group-color%Lúng Túng'
   description: |-
@@ -1816,6 +2754,40 @@ fumble:
         - TNT:1 @Attacker
         - PLAY_SOUND:ENCHANT_THORNS_HIT:1:1 @Victim
 
+    '4':
+      chance: 30
+      cooldown: 7
+      effects:
+        - TNT:1 @Attacker
+        - PLAY_SOUND:ENCHANT_THORNS_HIT:1:1 @Victim
+
+    '5':
+      chance: 35
+      cooldown: 7
+      effects:
+        - TNT:1 @Attacker
+        - PLAY_SOUND:ENCHANT_THORNS_HIT:1:1 @Victim
+
+    '6':
+      chance: 40
+      cooldown: 6
+      effects:
+        - TNT:1 @Attacker
+        - PLAY_SOUND:ENCHANT_THORNS_HIT:1:1 @Victim
+
+    '7':
+      chance: 45
+      cooldown: 6
+      effects:
+        - TNT:1 @Attacker
+        - PLAY_SOUND:ENCHANT_THORNS_HIT:1:1 @Victim
+
+    '8':
+      chance: 50
+      cooldown: 5
+      effects:
+        - TNT:1 @Attacker
+        - PLAY_SOUND:ENCHANT_THORNS_HIT:1:1 @Victim
 chunky:
   display: '%group-color%Dày Dặn'
   description: "Khi bị đánh: có tỉ lệ giảm sát thương."
@@ -1856,6 +2828,17 @@ chunky:
       effects:
         - NEGATE_DAMAGE:60 @Victim
 
+    '7':
+      chance: 22
+      cooldown: 9
+      effects:
+        - NEGATE_DAMAGE:60 @Victim
+
+    '8':
+      chance: 24
+      cooldown: 9
+      effects:
+        - NEGATE_DAMAGE:60 @Victim
 creeperarmor:
   display: '%group-color%Giáp Creeper'
   description: |-
@@ -1881,6 +2864,29 @@ creeperarmor:
         - CANCEL_EVENT
         - ADD_HEALTH:<random number>1-2</random number>
 
+    '4':
+      chance: 80
+      effects:
+        - CANCEL_EVENT
+        - ADD_HEALTH:<random number>1-2</random number>
+
+    '5':
+      chance: 85
+      effects:
+        - CANCEL_EVENT
+        - ADD_HEALTH:<random number>1-2</random number>
+
+    '6':
+      chance: 90
+      effects:
+        - CANCEL_EVENT
+        - ADD_HEALTH:<random number>1-2</random number>
+
+    '7':
+      chance: 95
+      effects:
+        - CANCEL_EVENT
+        - ADD_HEALTH:<random number>1-2</random number>
 innerflame:
   display: '%group-color%Hỏa Thân'
   description: |-
@@ -1907,6 +2913,47 @@ innerflame:
       effects:
         - BURN:7 @Victim
 
+    '4':
+      chance: 60
+      cooldown: 2
+      effects:
+        - BURN:7 @Victim
+
+    '5':
+      chance: 65
+      cooldown: 2
+      effects:
+        - BURN:7 @Victim
+
+    '6':
+      chance: 70
+      cooldown: 1
+      effects:
+        - BURN:7 @Victim
+
+    '7':
+      chance: 75
+      cooldown: 1
+      effects:
+        - BURN:7 @Victim
+
+    '8':
+      chance: 80
+      cooldown: 1
+      effects:
+        - BURN:7 @Victim
+
+    '9':
+      chance: 85
+      cooldown: 1
+      effects:
+        - BURN:7 @Victim
+
+    '10':
+      chance: 90
+      cooldown: 1
+      effects:
+        - BURN:7 @Victim
 molten:
   display: '%group-color%Nóng Chảy'
   description: "Khi bị đánh: có tỉ lệ đốt kẻ tấn công."
@@ -1937,6 +2984,11 @@ molten:
       effects:
         - BURN:8 @Attacker
 
+    '5':
+      chance: 68
+      cooldown: 1
+      effects:
+        - BURN:8 @Attacker
 ragdoll:
   display: '%group-color%Bật Lưng'
   description: |-
@@ -1969,6 +3021,23 @@ ragdoll:
       effects:
         - PULL_AWAY:0.4 @Victim
 
+    '5':
+      chance: 55
+      cooldown: 3
+      effects:
+        - PULL_AWAY:0.4 @Victim
+
+    '6':
+      chance: 60
+      cooldown: 3
+      effects:
+        - PULL_AWAY:0.4 @Victim
+
+    '7':
+      chance: 65
+      cooldown: 2
+      effects:
+        - PULL_AWAY:0.4 @Victim
 dodge:
   display: '%group-color%Né Tránh'
   description: |-
@@ -2021,6 +3090,23 @@ dodge:
         - CANCEL_EVENT
         - PLAY_SOUND:ENTITY_BAT_TAKEOFF:0.7 @Victim
 
+    '6':
+      chance: 32
+      cooldown: 7
+      conditions:
+        - '%victim is sneaking% = true : %chance%+7'
+      effects:
+        - CANCEL_EVENT
+        - PLAY_SOUND:ENTITY_BAT_TAKEOFF:0.7 @Victim
+
+    '7':
+      chance: 37
+      cooldown: 7
+      conditions:
+        - '%victim is sneaking% = true : %chance%+7'
+      effects:
+        - CANCEL_EVENT
+        - PLAY_SOUND:ENTITY_BAT_TAKEOFF:0.7 @Victim
 safeguard:
   display: '%group-color%Bảo Hộ'
   description: |-
@@ -2043,6 +3129,35 @@ safeguard:
       effects:
         - POTION:DAMAGE_RESISTANCE:1:60 @Victim
 
+    '3':
+      chance: 13
+      cooldown: 4
+      effects:
+        - POTION:DAMAGE_RESISTANCE:1:60 @Victim
+
+    '4':
+      chance: 17
+      cooldown: 4
+      effects:
+        - POTION:DAMAGE_RESISTANCE:1:60 @Victim
+
+    '5':
+      chance: 21
+      cooldown: 3
+      effects:
+        - POTION:DAMAGE_RESISTANCE:1:60 @Victim
+
+    '6':
+      chance: 25
+      cooldown: 3
+      effects:
+        - POTION:DAMAGE_RESISTANCE:1:60 @Victim
+
+    '7':
+      chance: 29
+      cooldown: 2
+      effects:
+        - POTION:DAMAGE_RESISTANCE:1:60 @Victim
 ironwill:
   display: '%group-color%Ý Chí Sắt'
   description: |-
@@ -2079,6 +3194,45 @@ ironwill:
         - CURE:WITHER @Victim
         - CURE:BLINDNESS @Victim
 
+    '4':
+      chance: 53
+      cooldown: 5
+      effects:
+        - CURE:SLOW @Victim
+        - CURE:WEAKNESS @Victim
+        - CURE:POISON @Victim
+        - CURE:WITHER @Victim
+        - CURE:BLINDNESS @Victim
+
+    '5':
+      chance: 58
+      cooldown: 5
+      effects:
+        - CURE:SLOW @Victim
+        - CURE:WEAKNESS @Victim
+        - CURE:POISON @Victim
+        - CURE:WITHER @Victim
+        - CURE:BLINDNESS @Victim
+
+    '6':
+      chance: 63
+      cooldown: 4
+      effects:
+        - CURE:SLOW @Victim
+        - CURE:WEAKNESS @Victim
+        - CURE:POISON @Victim
+        - CURE:WITHER @Victim
+        - CURE:BLINDNESS @Victim
+
+    '7':
+      chance: 68
+      cooldown: 4
+      effects:
+        - CURE:SLOW @Victim
+        - CURE:WEAKNESS @Victim
+        - CURE:POISON @Victim
+        - CURE:WITHER @Victim
+        - CURE:BLINDNESS @Victim
 spineguard:
   display: '%group-color%Gai Lưng'
   description: |-
@@ -2106,6 +3260,23 @@ spineguard:
       effects:
         - DO_HARM:3 @Attacker
 
+    '4':
+      chance: 50
+      cooldown: 1
+      effects:
+        - DO_HARM:3 @Attacker
+
+    '5':
+      chance: 55
+      cooldown: 1
+      effects:
+        - DO_HARM:3 @Attacker
+
+    '6':
+      chance: 60
+      cooldown: 1
+      effects:
+        - DO_HARM:3 @Attacker
 springs:
   display: '%group-color%Lò Xo'
   description: "Khi trang bị: Jump Boost."
@@ -2125,6 +3296,17 @@ springs:
       effects:
         - POTION:JUMP:2
 
+    '4':
+      effects:
+        - POTION:JUMP:2
+
+    '5':
+      effects:
+        - POTION:JUMP:2
+
+    '6':
+      effects:
+        - POTION:JUMP:2
 rocketescape:
   display: '%group-color%Tên Lửa Thoát'
   description: "Khi máu thấp: bắn lên trời."
@@ -2158,6 +3340,29 @@ rocketescape:
       effects:
         - BOOST:UP:30 @Victim
 
+    '4':
+      chance: 45
+      cooldown: 7
+      conditions:
+        - '%victim health% > 6 : %stop%'
+      effects:
+        - BOOST:UP:30 @Victim
+
+    '5':
+      chance: 50
+      cooldown: 7
+      conditions:
+        - '%victim health% > 6 : %stop%'
+      effects:
+        - BOOST:UP:30 @Victim
+
+    '6':
+      chance: 55
+      cooldown: 6
+      conditions:
+        - '%victim health% > 6 : %stop%'
+      effects:
+        - BOOST:UP:30 @Victim
 jellylegs:
   display: '%group-color%Chân Thạch'
   description: Có tỉ lệ hủy sát thương rơi.
@@ -2181,6 +3386,21 @@ jellylegs:
       effects:
         - CANCEL_EVENT
 
+    '4':
+      effects:
+        - CANCEL_EVENT
+
+    '5':
+      effects:
+        - CANCEL_EVENT
+
+    '6':
+      effects:
+        - CANCEL_EVENT
+
+    '7':
+      effects:
+        - CANCEL_EVENT
 gears:
   display: '%group-color%Bánh Răng'
   description: "Khi trang bị: tăng tốc độ di chuyển."
@@ -2200,6 +3420,25 @@ gears:
       effects:
         - POTION:SPEED:2
 
+    '4':
+      effects:
+        - POTION:SPEED:2
+
+    '5':
+      effects:
+        - POTION:SPEED:2
+
+    '6':
+      effects:
+        - POTION:SPEED:2
+
+    '7':
+      effects:
+        - POTION:SPEED:2
+
+    '8':
+      effects:
+        - POTION:SPEED:2
 lavawalker:
   display: '%group-color%Đạp Dung Nham'
   description: "Khi trang bị: đi trên dung nham."
@@ -2264,6 +3503,37 @@ aqua:
       effects:
         - DOUBLE_DAMAGE
 
+    '5':
+      chance: 27
+      cooldown: 4
+      conditions:
+        - '%is under water% = TRUE : %allow%'
+      effects:
+        - DOUBLE_DAMAGE
+
+    '6':
+      chance: 31
+      cooldown: 4
+      conditions:
+        - '%is under water% = TRUE : %allow%'
+      effects:
+        - DOUBLE_DAMAGE
+
+    '7':
+      chance: 35
+      cooldown: 3
+      conditions:
+        - '%is under water% = TRUE : %allow%'
+      effects:
+        - DOUBLE_DAMAGE
+
+    '8':
+      chance: 39
+      cooldown: 3
+      conditions:
+        - '%is under water% = TRUE : %allow%'
+      effects:
+        - DOUBLE_DAMAGE
 convulse:
   display: '%group-color%Co Giật'
   description: |-
@@ -2306,6 +3576,17 @@ convulse:
       effects:
         - BOOST:UP:10 @Attacker
 
+    '7':
+      chance: 20
+      cooldown: 9
+      effects:
+        - BOOST:UP:10 @Attacker
+
+    '8':
+      chance: 22
+      cooldown: 9
+      effects:
+        - BOOST:UP:10 @Attacker
 aegis:
   display: '%group-color%Aegis'
   description: "Khi nhận sát thương rơi: có tỉ lệ tăng tốc."
@@ -2331,3 +3612,26 @@ aegis:
       effects:
         - POTION:SPEED:2:60
 
+    '4':
+      chance: 75
+      cooldown: 2
+      effects:
+        - POTION:SPEED:2:60
+
+    '5':
+      chance: 80
+      cooldown: 2
+      effects:
+        - POTION:SPEED:2:60
+
+    '6':
+      chance: 85
+      cooldown: 1
+      effects:
+        - POTION:SPEED:2:60
+
+    '7':
+      chance: 90
+      cooldown: 1
+      effects:
+        - POTION:SPEED:2:60

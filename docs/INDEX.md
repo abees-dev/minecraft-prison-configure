@@ -22,6 +22,7 @@ Cập nhật: 2026-08-06. Bắt đầu tại [`README.md`](README.md).
 | --- | --- |
 | [`systems/coreplugin-modules.md`](systems/coreplugin-modules.md) | Bản đồ module CorePlugin và config nguồn |
 | [`systems/equipment-crafting.md`](systems/equipment-crafting.md) | MMOItems, tinh luyện, rèn và NPC station |
+| [`systems/advanced-enchantments.md`](systems/advanced-enchantments.md) | AdvancedEnchantments, rarity, level và danh sách enchant trang bị |
 | [`admin/ranks-permissions-worlds.md`](admin/ranks-permissions-worlds.md) | LuckPerms, rank/VIP, world và inventory |
 | [`../plugins/CorePlugin/gang/README.md`](../plugins/CorePlugin/gang/README.md) | Bang Hội dành cho ops |
 | [`../DOCS_HE_THONG_PRISON.md`](../DOCS_HE_THONG_PRISON.md) | Kênh bán quặng, multiplier và trạng thái X-Prison |
