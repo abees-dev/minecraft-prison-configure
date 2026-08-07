@@ -60,3 +60,6 @@ help:
   - "&e/choden my &7- Xem listings của bạn"
   - "&e/choden hethan &7- Xem danh sách item hết hạn"
   - "&e/choden nhan &7- Nhận tất cả item hết hạn"
+
+list-announce-money: "&a&l[CHỢ ĐEN] &e{seller} &fđăng bán &b{item} &fx{amount} &f— &e${price}"
+list-announce-point: "&a&l[CHỢ ĐEN] &e{seller} &fđăng bán &b{item} &fx{amount} &f— &b{price} Points"
