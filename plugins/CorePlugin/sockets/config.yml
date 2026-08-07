@@ -50,7 +50,7 @@ stones:
   DA_DUC_LO_THIEN_MENH:
     requires-current-sockets: -1
     rate: 100
-    cost: 250000000
+    cost: 100000000
   DA_DUC_LO_1:
     requires-current-sockets: 0
     rate: 100
