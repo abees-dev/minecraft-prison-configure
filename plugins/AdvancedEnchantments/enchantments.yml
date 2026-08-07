@@ -15,23 +15,21 @@ smelting:
     - ALL_PICKAXE
   levels:
     '1':
-      chance: 33
+      chance: 20
       effects:
         - SMELT
     '2':
-      chance: 66
+      chance: 40
       effects:
         - SMELT
     '3':
-      chance: 100
+      chance: 60
       effects:
         - SMELT
-
     '4':
-      chance: 100
+      chance: 80
       effects:
         - SMELT
-
     '5':
       chance: 100
       effects:

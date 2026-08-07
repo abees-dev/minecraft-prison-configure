@@ -21,7 +21,7 @@
 
 - Enchant cuốc **Nung Chảy** được nâng từ nhóm Cơ bản lên **Huyền thoại**.
 - Cấp tối đa của Nung Chảy được giữ ở **V**.
-- Tỉ lệ tự nung lần lượt là **33% / 66% / 100% / 100% / 100%** từ cấp I đến V.
+- Tỉ lệ tự nung lần lượt là **20% / 40% / 60% / 80% / 100%** từ cấp I đến V.
 - Nung Chảy chỉ tự xử lý quặng; level cao không nhân thêm sản lượng đào được.
 - Fix: khi bật **nạp Kho Bang**, quặng Nung Chảy (vd. sắt/vàng → thỏi) vẫn nạp
   vào kho bang thay vì vào túi cá nhân.

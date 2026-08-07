@@ -44,15 +44,16 @@ không xuất hiện quá sớm trong progression.
 
 | Level | Tỉ lệ tự nung |
 | --- | ---: |
-| I | 33% |
-| II | 66% |
-| III | 100% |
-| IV | 100% |
+| I | 20% |
+| II | 40% |
+| III | 60% |
+| IV | 80% |
 | V | 100% |
 
-Cấp IV–V giữ 100% thay vì vượt trần. Level cao vẫn có giá trị sưu tầm và ghép
-sách, nhưng không nhân thêm sản lượng quặng. Script có khóa riêng `smelting: 5`
-để việc regenerate không tự nâng enchant này lên VIII theo group Legendary.
+Scale tuyến tính đều theo cấp; chỉ cấp V đạt 100%. Level cao vẫn có giá trị
+sưu tầm và ghép sách, nhưng không nhân thêm sản lượng quặng. Script có khóa
+riêng `smelting: 5` để việc regenerate không tự nâng enchant này lên VIII theo
+group Legendary.
 
 ### Tương thích Kho Bang
 
