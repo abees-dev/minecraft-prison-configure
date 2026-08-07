@@ -1,0 +1,9 @@
+# AuthMe đã chuyển sang Hub (lobby-hub).
+# Jar local đã rename: AuthMe-5.6.0.jar.disabled
+#
+# Trên VPS RPG (185.207.166.70:19013) cần:
+# 1. Stop server
+# 2. Đổi tên / xóa plugins/AuthMe*.jar (hoặc .disabled)
+# 3. Restart RPG
+#
+# Không cần AuthMe trên backend khi login chỉ ở Hub + Velocity.

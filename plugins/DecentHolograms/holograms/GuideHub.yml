@@ -3,7 +3,7 @@
 # 2026-08-05 — thêm tip quest bang + Bang Chiến (đang phát triển)
 # Chỉnh vị trí: /dh teleport GuideHub  rồi  /dh move here GuideHub
 enabled: true
-location: world:2,542:86,000:5,572
+location: world_spawn:3,728:-53,380:22,048
 display-range: 64
 update-range: 64
 update-interval: 20

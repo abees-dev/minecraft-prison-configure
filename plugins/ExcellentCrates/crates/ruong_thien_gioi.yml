@@ -21,7 +21,7 @@ Block:
       Name: LANDING_OBSIDIAN_TEAR
   # TODO: đặt khối hòm in-game rồi /excellentcrates editor cập nhật tọa độ
   Positions:
-  - 43,85,-106,world
+  - 8,-53,94,world_spawn
 Milestones:
   Repeatable: true
   List:
@@ -1572,9 +1572,9 @@ Rewards:
       - execute as %player_name% at @s run playsound entity.player.levelup master @s ~ ~ ~ 1 1.0
       Items: []
       Ignored_For_Permissions: []
+Last_Opener: ABeess
+Last_Reward: '&5&lBá Chủ Rìu I'
 Item:
   Material: PAPER
   Name: '&fLava Chest'
   Custom_Model_Data: 10117
-Last_Opener: ABeess
-Last_Reward: '&5&lBá Chủ Rìu I'

@@ -96,7 +96,7 @@ proxies:
     online-mode: false
   proxy-protocol: false
   velocity:
-    enabled: true
+    enabled: false
     online-mode: false
     secret: COXr26qGmjZx7cHJ8zSupBhIRnfsvlTQ
 scoreboards:

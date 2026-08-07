@@ -20,6 +20,7 @@ Block:
     Particle:
       Name: CRIT_MAGIC
   Positions:
+  - 13,-53,94,world_spawn
   - 30,85,-93,world
 Milestones:
   Repeatable: true
@@ -648,4 +649,6 @@ Rewards:
 Last_Opener: ABeess
 Last_Reward: '&b&l⚡ Dây Chuyền Thanh Long'
 Item:
-  Material: ENDER_CHEST
+  Material: PAPER
+  Name: '&fWind Chest'
+  Custom_Model_Data: 10116

@@ -2,7 +2,7 @@
 # Nội dung: vòng đào–bán–nâng (A) + lệnh nhanh (B)
 # 2026-08-01 — chỉnh vị trí: /dh teleport GuidePrison  rồi  /dh move here GuidePrison
 enabled: true
-location: world:2,272:86,000:-6,546
+location: world_spawn:13,404:-54,125:22,336
 display-range: 48
 update-range: 48
 update-interval: 20
