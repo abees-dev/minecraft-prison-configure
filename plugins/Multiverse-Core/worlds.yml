@@ -428,7 +428,7 @@ worlds:
     alias: world_spawn
     color: WHITE
     style: NORMAL
-    pvp: 'true'
+    pvp: 'false'
     scale: '1.0'
     respawnWorld: ''
     allowWeather: 'true'
