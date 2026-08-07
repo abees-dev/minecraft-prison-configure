@@ -132,6 +132,21 @@ enchantments` và không tạo diff.
    nhận sách, ghép sách và gắn vào từng loại MMOItems.
 7. Khi thay đổi rarity/cấp/giá, cập nhật tài liệu này trong cùng commit.
 
+## Lệnh đang sử dụng
+
+| Lệnh | Đối tượng | Chức năng |
+| --- | --- | --- |
+| `/enchanter` | Người chơi | Mua sách ngẫu nhiên theo rarity |
+| `/tinkerer` | Người chơi | Đổi sách không cần dùng |
+| `/alchemist` | Người chơi | Ghép sách và Bụi Ma thuật |
+| `/enchants` | Người chơi | Xem toàn bộ danh sách enchant |
+| `/enchant <tên>` | Người chơi | Xem chi tiết một enchant |
+| `/ae ...` | Admin có permission | Give, kiểm tra và reload cấu hình |
+
+Không đăng ký alias ngắn để tránh xung đột với plugin khác. Các lệnh mặc định
+`/gkit`, `/gkits`, `/armorsets`, `/previewsets`, `/withdrawsouls`, `/wsouls`,
+`/apply` và `/reapply` đang tắt vì không thuộc gameplay live.
+
 ## File liên quan
 
 | File | Vai trò |
@@ -142,4 +157,3 @@ enchantments` và không tạo diff.
 | `plugins/AdvancedEnchantments/config.yml` | Slot, ghép sách và luật áp dụng |
 | `plugins/AdvancedEnchantments/locale/vi.yml` | Thông báo tiếng Việt |
 | `plugins/AdvancedEnchantments/scripts/extend_enchant_levels.js` | Bổ sung level còn thiếu |
-

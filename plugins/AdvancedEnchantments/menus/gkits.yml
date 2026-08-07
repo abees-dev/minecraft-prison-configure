@@ -2,7 +2,7 @@
 # Permission to ignore cooldown: "ae.nocooldown"
 
 # Should GKits/this configuration/GKits command be enabled? [true/false]
-gkits-enabled: true
+gkits-enabled: false
 
 inventory:
   # Size of inventory
@@ -13,9 +13,7 @@ inventory:
   name: "&7Kit Toàn Cầu"
   # Custom inventory command
   # * Create a handy command to open GKits inventory
-  custom-command:
-    - "/gkit"
-    - "/gkits"
+  custom-command: []
   sounds:
     # Inventory opening sound
     # * Sound is played on inventory open via command

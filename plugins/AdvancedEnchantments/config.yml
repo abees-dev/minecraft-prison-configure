@@ -6,7 +6,6 @@
 # ** Commands and permissions
 # /enchanter - Open Enchanter; no permission
 # /tinkerer - Open Tinkerer; no permission
-# /gkits - Open GKits; no permission
 # /ae - Main plugin command; ae.help
 # /ae about - Information about current build; no permission
 # /ae list - List all custom enchantments; ae.list
@@ -21,13 +20,6 @@
 # /ae giverandombook <player> <group> - Gives random book from group; ae.giverandombook
 # /ae pasteenchants - Pastes formatted enchantments list; ae.admin
 # /alchemist - Open alchemist; no permission
-# /ae givegkit <player> <gkit> - Give player gkit items; ae.givegkit
-
-# /aegive - Give player gkit items; ae.give
-# Example: /aegive GC diamond_helmet 1 name:&&7cItem_name protection:5 glowing:1 lore:&&7cLore_line_#1|&&7cSecond_Line
-
-# /asets - Advanced Sets commands; asets.admin
-
 # Some configurable settings are explained, others should be self-explanatory.
 # Join support discord for help or with questions: https://advancedplugins.net/discord
 
@@ -47,29 +39,25 @@ commands:
     # Main command to open Enchanter
     command: /enchanter
     # List of commands that will act as the command
-    aliases:
-    - e
-    - ce
+    aliases: []
   tinkerer:
     enabled: true
     command: /tinkerer
-    aliases:
-    - tinker
+    aliases: []
   alchemist:
     enabled: true
     command: /alchemist
-    aliases:
-    - alchem
+    aliases: []
   withdrawsouls:
-    enabled: true
+    # Soul collection is not part of the live gameplay loop.
+    enabled: false
     command: /withdrawsouls
-    aliases:
-    - wsouls
+    aliases: []
   apply: # Reapplies current worn armor's effects, repeating effects as well
-    enabled: true
+    # Armor effects apply automatically; disabling this avoids a public spam command.
+    enabled: false
     command: /apply
-    aliases:
-    - reapply
+    aliases: []
 
 permissions:
   enchanter:

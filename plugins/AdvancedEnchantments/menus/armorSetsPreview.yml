@@ -2,9 +2,7 @@
 # This guy will let players preview armor sets on the server
 
 # Command list that will open the GUI
-commands:
-- /armorsets
-- /previewsets
+commands: []
 
 gui:
   name: '&7Bộ Giáp'
