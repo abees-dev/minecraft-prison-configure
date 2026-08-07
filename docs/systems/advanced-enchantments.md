@@ -54,6 +54,21 @@ Cấp IV–V giữ 100% thay vì vượt trần. Level cao vẫn có giá trị 
 sách, nhưng không nhân thêm sản lượng quặng. Script có khóa riêng `smelting: 5`
 để việc regenerate không tự nâng enchant này lên VIII theo group Legendary.
 
+### Tương thích Kho Bang
+
+AdvancedEnchantments xử lý trigger đào ở priority `NORMAL`. Thiết lập này để
+effect `SMELT` hoàn tất trước khi CorePlugin Gang thu drop cuối cùng vào Kho
+Bang, đồng thời vẫn đứng sau bước kiểm tra quyền đào/rank sớm của Prison.
+
+Kho Bang đã whitelist `IRON_INGOT`, `GOLD_INGOT`, `NETHERITE_SCRAP` và
+`NETHERITE_INGOT`. Nếu quặng tự nung vẫn rơi vào túi cá nhân, kiểm tra theo thứ
+tự:
+
+1. Người chơi đã bật nạp Kho Bang cho chính mình.
+2. Bang đạt `vault.required-level` và kho chưa đầy.
+3. Reload AdvancedEnchantments và CorePlugin Gang, hoặc restart server thử.
+4. Đào thử `IRON_ORE` và `GOLD_ORE` trong đúng mine WorldGuard.
+
 ## Danh sách enchant theo trang bị
 
 | Trang bị | Enchant (`id`) | Group | Cấp tối đa |

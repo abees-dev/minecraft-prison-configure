@@ -2,6 +2,36 @@
 
 > Cập nhật: 2026-08-07 · Dành cho người chơi
 
+## Mở rộng hệ thống Phù Phép
+
+- Nâng cấp toàn bộ pool AdvancedEnchantments lên **72 enchant** với tổng cộng
+  **474 cấp độ**, bổ sung **210 level mới** cho vũ khí, giáp và cuốc.
+- Cấp tối đa mới theo độ hiếm:
+  - **Cơ bản** và **Độc đáo:** cấp V.
+  - **Tinh anh:** cấp VI.
+  - **Tối thượng:** cấp VII.
+  - **Huyền thoại:** cấp VIII.
+  - **Thần thoại:** cấp X.
+- Level cao tăng tỉ lệ kích hoạt và giảm nhẹ hồi chiêu; tỉ lệ luôn được giới
+  hạn tối đa 100%.
+- Những enchant có hiệu ứng bật/tắt như Thủy Sinh, Phát Sáng, Khiên Obsidian,
+  Đạp Dung Nham và Đạp Nước vẫn giữ cấp I để tránh tạo level không có giá trị.
+
+### Nung Chảy
+
+- Enchant cuốc **Nung Chảy** được nâng từ nhóm Cơ bản lên **Huyền thoại**.
+- Cấp tối đa của Nung Chảy được giữ ở **V**.
+- Tỉ lệ tự nung lần lượt là **33% / 66% / 100% / 100% / 100%** từ cấp I đến V.
+- Nung Chảy chỉ tự xử lý quặng; level cao không nhân thêm sản lượng đào được.
+
+### Lệnh Phù Phép
+
+- Giữ các lệnh người chơi cần dùng: `/enchanter`, `/tinkerer`, `/alchemist`,
+  `/enchants` và `/enchant <tên>`.
+- Loại bỏ các alias ngắn dễ xung đột với plugin khác.
+- Tắt các lệnh GKit, ArmorSet, Soul và `/apply` mặc định vì không thuộc gameplay
+  hiện tại của server.
+
 ## Tính năng mới — Linh Hồn, Thành Tựu và Dungeon Biến Dị
 
 ### Mảnh Linh Hồn và Trạm Đổi
