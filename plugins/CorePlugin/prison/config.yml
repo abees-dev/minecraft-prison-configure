@@ -44,7 +44,7 @@ ranks:
     daily-block-limit: 5000
     level-for-next-rank: 10
     point-cost: 0
-    pickaxe-base-value: 5000
+    pickaxe-base-value: 50000
   2:
     slug: TU_NHAN
     display: "&7&lTù Nhân"
@@ -54,7 +54,7 @@ ranks:
     level-for-next-rank: 20
     # Tổng Prison point-cost 2→9 = 2.000 (~2tr). Toàn bộ Rank+VIP ≈ 5.000 (~5tr).
     point-cost: 20
-    pickaxe-base-value: 10000
+    pickaxe-base-value: 100000
   3:
     slug: LAO_CONG
     display: "&a&lLao Công"
@@ -63,7 +63,7 @@ ranks:
     daily-block-limit: 20000
     level-for-next-rank: 30
     point-cost: 40
-    pickaxe-base-value: 25000
+    pickaxe-base-value: 250000
   4:
     slug: THO_DAO
     display: "&2&lThợ Đào"
@@ -72,7 +72,7 @@ ranks:
     daily-block-limit: 35000
     level-for-next-rank: 45
     point-cost: 80
-    pickaxe-base-value: 60000
+    pickaxe-base-value: 600000
   5:
     slug: DOI_TRUONG
     display: "&b&lĐội Trưởng"
@@ -81,7 +81,7 @@ ranks:
     daily-block-limit: 50000
     level-for-next-rank: 60
     point-cost: 150
-    pickaxe-base-value: 150000
+    pickaxe-base-value: 1500000
   6:
     slug: PHO_QUAN_NGUC
     display: "&1&lPhó Quản Ngục"
@@ -90,7 +90,7 @@ ranks:
     daily-block-limit: 75000
     level-for-next-rank: 75
     point-cost: 250
-    pickaxe-base-value: 350000
+    pickaxe-base-value: 3500000
   7:
     slug: QUAN_NGUC
     display: "&d&lQuản Ngục"
@@ -99,7 +99,7 @@ ranks:
     daily-block-limit: 100000
     level-for-next-rank: 90
     point-cost: 360
-    pickaxe-base-value: 800000
+    pickaxe-base-value: 8000000
   8:
     slug: BA_CHU_NGUC_TU
     display: "&6&lBá Chủ Ngục Tù"
@@ -108,7 +108,7 @@ ranks:
     daily-block-limit: 150000
     level-for-next-rank: 100
     point-cost: 500
-    pickaxe-base-value: 1800000
+    pickaxe-base-value: 18000000
   9:
     slug: VUOT_NGUC
     display: "&c&lVượt Ngục"
@@ -117,7 +117,7 @@ ranks:
     daily-block-limit: -1
     level-for-next-rank: 100
     point-cost: 600
-    pickaxe-base-value: 4000000
+    pickaxe-base-value: 40000000
 
 # Optional daily mining cap (per player, per rank, resets at midnight server
 # time). Off by default - same as the Skript's ENABLE_DAILY_LIMIT option.

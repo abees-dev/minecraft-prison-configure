@@ -36,6 +36,7 @@ Cập nhật: 2026-08-06. Bắt đầu tại [`README.md`](README.md).
 | Tài liệu | Trạng thái | Nội dung |
 | --- | --- | --- |
 | [`pickaxe-upgrades.md`](systems/pickaxe-upgrades.md) | Live | Chỉ số cuốc và tỷ lệ forge |
+| [`economy-balance.md`](systems/economy-balance.md) | Live | Giá Gang Sell, multiplier và money sink hiện hành |
 | [`xprison.md`](systems/xprison.md) | Live | Modules X-Prison và phần cần thao tác in-game |
 | [`economy-phase6.md`](archive/economy-phase6.md) | Historical | Lịch sử cân bằng kinh tế phase 6 |
 | [`battlepass-daily.md`](archive/battlepass-daily.md) | Deprecated | Thử nghiệm BattlePass cũ; dùng CorePlugin DailyQuest |

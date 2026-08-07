@@ -2,9 +2,9 @@
 
 Tài liệu vận hành **bán quặng** (EconomyShopGUI + Bang Hội), tích hợp **LuckPerms**, và ghi chú module X-Prison liên quan bán/đào.
 
-**Nguồn lối chơi:** [`docs/player/gameplay.md`](docs/player/gameplay.md) · **Mục lục docs:** [`docs/INDEX.md`](docs/INDEX.md)
+**Nguồn lối chơi:** [`docs/player/gameplay.md`](docs/player/gameplay.md) · **Kinh tế live:** [`docs/systems/economy-balance.md`](docs/systems/economy-balance.md) · **Mục lục docs:** [`docs/INDEX.md`](docs/INDEX.md)
 
-Cập nhật: 2026-08-01 — `/sellgui` **không** còn sell-multiplier; multiplier bán chỉ qua **Bang Hội**; command bonus rank đã sửa (thừa kế + home Essentials).
+Cập nhật: 2026-08-07 — `/sellgui` **không** còn sell-multiplier; hai kênh dùng cùng giá base và multiplier bán chỉ qua **Bang Hội**.
 
 ---
 
@@ -19,26 +19,26 @@ File giá cá nhân: `plugins/EconomyShopGUI/shops/Ores.yml`
 File giá bang: `plugins/CorePlugin/gang/config.yml` (`sell-prices`)  
 Chế độ bán cá nhân: chỉ `/sellgui`. `commands.sellall: false`. `/sell` và `/sellall` mở `/sellgui`.
 
-### Bảng giá base (đồng bộ — mẫu chính)
+### Bảng giá hai kênh (mẫu chính)
 
-| Material | Sell `/sellgui` & gang |
-| --- | ---: |
-| STONE | 10 |
-| COBBLESTONE | 25 |
-| COAL / COAL_ORE | 150 |
-| RAW_IRON / IRON_ORE | 200 |
-| IRON_INGOT | 400 |
-| RAW_GOLD / GOLD_ORE | 400 |
-| GOLD_NUGGET | 60 |
-| GOLD_INGOT | 800 |
-| REDSTONE / REDSTONE_ORE | 270 |
-| LAPIS_LAZULI / LAPIS_ORE | 140 |
-| QUARTZ / NETHER_QUARTZ_ORE | 20 |
-| DIAMOND / DIAMOND_ORE | 2 200 |
-| EMERALD / EMERALD_ORE | 3 000 |
-| ANCIENT_DEBRIS / NETHERITE_SCRAP | 3 800 |
+| Material | Cá nhân `/sellgui` | Gang Sell |
+| --- | ---: | ---: |
+| STONE | 10 | 10 |
+| COBBLESTONE | 20 | 20 |
+| COAL / COAL_ORE | 80 | 80 |
+| RAW_IRON / IRON_ORE | 100 | 100 |
+| IRON_INGOT | 200 | 200 |
+| RAW_GOLD / GOLD_ORE | 200 | 200 |
+| GOLD_NUGGET | 30 | 30 |
+| GOLD_INGOT | 400 | 400 |
+| REDSTONE / REDSTONE_ORE | 150 | 150 |
+| LAPIS_LAZULI / LAPIS_ORE | 80 | 80 |
+| QUARTZ / NETHER_QUARTZ_ORE | 20 | 20 |
+| DIAMOND / DIAMOND_ORE | 1 000 | 1 000 |
+| EMERALD / EMERALD_ORE | 1 500 | 1 500 |
+| ANCIENT_DEBRIS / NETHERITE_SCRAP | 2 000 | 2 000 |
 
-Khi sửa giá: **đổi cả hai file** cho khớp, rồi `/sreload` + `/gang reload`.
+Khi sửa giá phải đồng bộ cả hai file. Chạy reload EconomyShopGUI và `/gang reload` sau thay đổi.
 
 ---
 

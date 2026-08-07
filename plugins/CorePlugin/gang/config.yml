@@ -13,10 +13,10 @@ create:
   # Cost to create a gang, indexed by how many gangs already exist.
   # Index 0 = first gang on the server, last entry reused for overflow.
   costs:
-    - 100000
-    - 250000
-    - 500000
     - 1000000
+    - 2500000
+    - 5000000
+    - 10000000
   default-member-slots: 5
   default-vault-capacity: 1000
   name-max-length: 30
@@ -73,64 +73,68 @@ ore-whitelist:
   # Block nén (9 ore → 1 block; dùng refinery + Sell All)
 
 # Fixed sell prices for /gang vault "Bán Tất Cả" (money → gang bank).
-# Đồng bộ giá base EconomyShopGUI shops/Ores.yml (không qua ESG multiplier).
-# Ore block = giá item drop tương ứng. Sau Sell All còn nhân upgrade Sell / buff shop / paragon.
+# Đồng bộ với EconomyShopGUI/shops/Ores.yml; server không dùng X-Prison AutoSell.
+# Item, ore, thỏi và block nén dùng cùng mặt bằng giá để không lách qua chế tạo.
+# Sau Sell All còn nhân upgrade Sell / buff shop / paragon.
 sell-prices:
+  # Economy scale 2026-08-07: toàn bộ bảng giá ×10; money sink chính cũng ×10.
   # Đá
   STONE: 10
-  COBBLESTONE: 25
-  SMOOTH_STONE: 15
+  COBBLESTONE: 20
+  SMOOTH_STONE: 10
   # Than
-  COAL: 150
-  COAL_ORE: 150
-  COAL_BLOCK: 1350
+  COAL: 80
+  COAL_ORE: 80
+  COAL_BLOCK: 720
   # Sắt
-  RAW_IRON: 200
-  IRON_ORE: 200
-  IRON_INGOT: 400
-  RAW_IRON_BLOCK: 1800
-  IRON_BLOCK: 3600
+  RAW_IRON: 100
+  IRON_ORE: 100
+  IRON_INGOT: 200
+  RAW_IRON_BLOCK: 900
+  IRON_BLOCK: 1800
   # Vàng
-  RAW_GOLD: 400
-  GOLD_ORE: 400
-  GOLD_NUGGET: 60
-  NETHER_GOLD_ORE: 240
-  GOLD_INGOT: 800
-  RAW_GOLD_BLOCK: 3600
-  GOLD_BLOCK: 7200
+  RAW_GOLD: 200
+  GOLD_ORE: 200
+  GOLD_NUGGET: 30
+  NETHER_GOLD_ORE: 120
+  GOLD_INGOT: 400
+  RAW_GOLD_BLOCK: 1800
+  GOLD_BLOCK: 3600
   # Redstone / Lapis / Quartz
-  REDSTONE: 270
-  REDSTONE_ORE: 270
-  REDSTONE_BLOCK: 2430
-  LAPIS_LAZULI: 140
-  LAPIS_ORE: 140
-  LAPIS_BLOCK: 1260
+  REDSTONE: 150
+  REDSTONE_ORE: 150
+  REDSTONE_BLOCK: 1350
+  LAPIS_LAZULI: 80
+  LAPIS_ORE: 80
+  LAPIS_BLOCK: 720
   QUARTZ: 20
   NETHER_QUARTZ_ORE: 20
-  QUARTZ_BLOCK: 180
+  QUARTZ_BLOCK: 80
   # Kim cương / Emerald / Netherite
-  DIAMOND: 2200
-  DIAMOND_ORE: 2200
-  DIAMOND_BLOCK: 19800
-  EMERALD: 3000
-  EMERALD_ORE: 3000
-  EMERALD_BLOCK: 27000
-  ANCIENT_DEBRIS: 3800
-  NETHERITE_SCRAP: 3800
-  NETHERITE_INGOT: 12000
-  NETHERITE_BLOCK: 108000
+  # Balance 2026-08-07: giá nền nhắm ~500K/phút với cuốc max tại map gần
+  # cuối khi Bang chưa nâng Sell; đồng bộ cả item, ore và block nén.
+  DIAMOND: 1000
+  DIAMOND_ORE: 1000
+  DIAMOND_BLOCK: 9000
+  EMERALD: 1500
+  EMERALD_ORE: 1500
+  EMERALD_BLOCK: 13500
+  ANCIENT_DEBRIS: 2000
+  NETHERITE_SCRAP: 2000
+  NETHERITE_INGOT: 6000
+  NETHERITE_BLOCK: 54000
   # Stub — không nằm 9 mỏ, không trong whitelist (phòng Sell All legacy)
-  DEEPSLATE_COAL_ORE: 150
-  DEEPSLATE_IRON_ORE: 200
-  RAW_COPPER: 100
-  COPPER_ORE: 100
-  DEEPSLATE_COPPER_ORE: 100
-  COPPER_INGOT: 200
-  DEEPSLATE_GOLD_ORE: 400
-  DEEPSLATE_REDSTONE_ORE: 270
-  DEEPSLATE_LAPIS_ORE: 140
-  DEEPSLATE_DIAMOND_ORE: 2200
-  DEEPSLATE_EMERALD_ORE: 3000
+  DEEPSLATE_COAL_ORE: 80
+  DEEPSLATE_IRON_ORE: 100
+  RAW_COPPER: 50
+  COPPER_ORE: 50
+  DEEPSLATE_COPPER_ORE: 50
+  COPPER_INGOT: 100
+  DEEPSLATE_GOLD_ORE: 200
+  DEEPSLATE_REDSTONE_ORE: 150
+  DEEPSLATE_LAPIS_ORE: 80
+  DEEPSLATE_DIAMOND_ORE: 1000
+  DEEPSLATE_EMERALD_ORE: 1500
 
 # Danh vọng (reputation) gained per item deposited into the vault.
 reputation-per-item: 1
@@ -157,11 +161,11 @@ upgrades:
       - 2000
     # Money cost (from gang bank), same indexing as reputation-costs above.
     money-costs:
-      - 50000
-      - 150000
-      - 400000
-      - 900000
-      - 2000000
+      - 500000
+      - 1500000
+      - 4000000
+      - 9000000
+      - 20000000
     multiplier-per-level: 0.1
   magnet:
     max-level: 5
@@ -178,11 +182,11 @@ upgrades:
       - 1000
       - 2000
     money-costs:
-      - 50000
-      - 150000
-      - 400000
-      - 900000
-      - 2000000
+      - 500000
+      - 1500000
+      - 4000000
+      - 9000000
+      - 20000000
     # Extra % ores deposited into vault per level.
     bonus-percent-per-level: 5
   protection:
@@ -200,11 +204,11 @@ upgrades:
       - 1200
       - 2400
     money-costs:
-      - 75000
-      - 200000
-      - 500000
-      - 1200000
-      - 2500000
+      - 750000
+      - 2000000
+      - 5000000
+      - 12000000
+      - 25000000
     reduction-per-level: 0.05
     max-reduction: 0.4
   quest-mastery:
@@ -222,11 +226,11 @@ upgrades:
       - 1200
       - 2400
     money-costs:
-      - 75000
-      - 200000
-      - 500000
-      - 1200000
-      - 2500000
+      - 750000
+      - 2000000
+      - 5000000
+      - 12000000
+      - 25000000
     # Extra % reputation + season points on shared-quest clear.
     reward-bonus-per-level: 0.05
   quest-efficiency:
@@ -244,11 +248,11 @@ upgrades:
       - 1200
       - 2400
     money-costs:
-      - 75000
-      - 200000
-      - 500000
-      - 1200000
-      - 2500000
+      - 750000
+      - 2000000
+      - 5000000
+      - 12000000
+      - 25000000
     # % off open/reset money+reputation costs.
     cost-reduction-per-level: 0.05
     max-reduction: 0.4
@@ -267,11 +271,11 @@ upgrades:
       - 1200
       - 2400
     money-costs:
-      - 75000
-      - 200000
-      - 500000
-      - 1200000
-      - 2500000
+      - 750000
+      - 2000000
+      - 5000000
+      - 12000000
+      - 25000000
     # Extra shared-quest daily opens per level.
     opens-per-level: 1
   warlord:
@@ -289,11 +293,11 @@ upgrades:
       - 1200
       - 2400
     money-costs:
-      - 75000
-      - 200000
-      - 500000
-      - 1200000
-      - 2500000
+      - 750000
+      - 2000000
+      - 5000000
+      - 12000000
+      - 25000000
     # Extra % PvP damage vs players in another gang.
     damage-bonus-per-level: 0.04
     max-bonus: 0.2
@@ -312,11 +316,11 @@ upgrades:
       - 1200
       - 2400
     money-costs:
-      - 75000
-      - 200000
-      - 500000
-      - 1200000
-      - 2500000
+      - 750000
+      - 2000000
+      - 5000000
+      - 12000000
+      - 25000000
     # Seconds shaved off capture / added to post-capture defense per level.
     capture-seconds-per-level: 4
     defense-seconds-per-level: 5
@@ -342,15 +346,15 @@ level:
     - 5500
   # Money cost (from gang bank), same indexing as reputation-costs above.
   money-costs:
-    - 500000
-    - 1000000
-    - 2000000
-    - 3500000
-    - 5500000
-    - 8000000
-    - 11000000
-    - 15000000
+    - 5000000
+    - 10000000
     - 20000000
+    - 35000000
+    - 55000000
+    - 80000000
+    - 110000000
+    - 150000000
+    - 200000000
   # Vault capacity gained EACH time the gang levels up (flat bonus, stacks
   # with Shop's "Mở rộng sức chứa kho" purchases).
   vault-capacity-per-level: 500
@@ -401,10 +405,10 @@ quest:
       pick-count: 2
       duration-minutes: 60
       open-cost:
-        money: 1000000.0
+        money: 10000000.0
         reputation: 0
       reset-cost:
-        money: 2500000.0
+        money: 25000000.0
         reputation: 0
       reward-reputation: 200
     "2":
@@ -413,10 +417,10 @@ quest:
       pick-count: 3
       duration-minutes: 90
       open-cost:
-        money: 50000.0
+        money: 500000.0
         reputation: 150
       reset-cost:
-        money: 1250000.0
+        money: 12500000.0
         reputation: 75
       reward-reputation: 600
     "3":
@@ -425,10 +429,10 @@ quest:
       pick-count: 4
       duration-minutes: 120
       open-cost:
-        money: 7500000.0
+        money: 75000000.0
         reputation: 400
       reset-cost:
-        money: 75000.0
+        money: 750000.0
         reputation: 200
       reward-reputation: 1500
 
@@ -456,21 +460,21 @@ koth:
 
 shop:
   expand-slots:
-    cost: 50000
+    cost: 500000
     amount: 1
   expand-capacity:
-    cost: 2500000
+    cost: 25000000
     amount: 500
   buff-sell-2x:
-    cost: 100000
+    cost: 1000000
     duration-seconds: 3600
     multiplier: 2.0
   buff-haste:
-    cost: 50000
+    cost: 500000
     duration-seconds: 3600
     amplifier: 2
   buff-mmocore-exp:
-    cost: 75000
+    cost: 750000
     duration-seconds: 3600
     # Multiplier on MMOCore EXP gains for all gang members while active.
     multiplier: 1.25
@@ -539,11 +543,11 @@ paragon:
     - 8000
   # Money cost per level (from the gang bank), same indexing.
   money-costs:
-    - 25000000
-    - 30000000
-    - 35000000
-    - 40000000
-    - 50000000
+    - 250000000
+    - 300000000
+    - 350000000
+    - 400000000
+    - 500000000
   # Absolute bonus added to the Sell multiplier per Paragon level (+1%).
   sell-bonus-per-level: 0.01
 
@@ -563,7 +567,7 @@ home:
   enabled: true
   warp-cooldown-seconds: 120
   # Player money cost (Vault) to warp; 0 disables the cost.
-  warp-cost: 1000
+  warp-cost: 10000
 
 # Read once at startup. type: sqlite or mysql.
 storage:
@@ -591,7 +595,7 @@ war:
     respawn-seconds: 60
     buy:
       enabled: true
-      cost: 2500000
+      cost: 25000000
       lives-each: 1
       max-purchases: 1
   cancel-friendly-fire: true

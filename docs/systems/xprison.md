@@ -51,7 +51,7 @@ Rank cuối cùng được định nghĩa (ID 9) tự động là "last rank" m�
 
 Chuyển từ manual `Prestige:` (chỉ có stub `0`) sang **unlimited prestige**:
 - `unlimited_prestiges.enabled: true`, `max_prestige: 100`
-- `prestige_cost: 3,000,000,000` (money) — cao hơn cost rank 9 để prestige luôn là bước tốn kém nhất
+- `prestige_cost: 7,500,000,000` (money) — cao hơn cost rank 9 để prestige luôn là bước tốn kém nhất
 - `increase_cost_by: 1.3` mỗi lần prestige
 - `rewards-per-prestige`: mỗi lần prestige nhận `money give 10,000,000` + `tokens give 5,000`
 - Mốc thưởng thêm: prestige 10 → 100 gems, 25 → 300 gems, 50 → 750 gems + 100,000 tokens, 100 → 2,000 gems + 500,000 tokens
