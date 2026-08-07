@@ -64,6 +64,7 @@ plugins/MMOItems/.jar_extracted/*
 plugins/**/backups/*
 world_pvp/*
 world_plot/*
+world_hub/*
 
 # Player runtime data (auto-generated per player, not tracked)
 /plugins/**/userdata/
