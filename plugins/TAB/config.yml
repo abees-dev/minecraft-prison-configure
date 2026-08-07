@@ -68,7 +68,7 @@ scoreboard:
       display-condition: '%player-version-id%>=765;%bedrock%=false'
       lines:
       - ' <#FFD54F>✦ <#FFFFFF><bold>%player%</bold> %luckperms-suffix%'
-      - ' <#FFF3D6>┃ <#FFD180>Cấp tù <#FFFFFF>› %group%'
+      - ' <#FFF3D6>┃ <#FFD180>Danh hiệu <#FFFFFF>› %luckperms-prefix%'
       - ' <#FFF3D6>┃ <#80D8FF>Cấp độ <#FFFFFF>› <bold>%mmocore_level%</bold> <#DDEEFF>· %mmocore_class%'
       - ' <#FFF3D6>┃ <#B9F6CA>Kinh nghiệm <#FFFFFF>› <#B9F6CA>%mmocore_level_percent%%'
       - ' '
@@ -86,7 +86,7 @@ scoreboard:
       title: <gradient:#FFD54F:#FF8A3D><bold>⛏ AETHER MINE ⛏</bold></gradient>
       lines:
       - ' <#FFD54F>✦ <#FFFFFF><bold>%player%</bold> %luckperms-suffix%'
-      - ' <#FFF3D6>┃ <#FFD180>Cấp tù <#FFFFFF>› %group%'
+      - ' <#FFF3D6>┃ <#FFD180>Danh hiệu <#FFFFFF>› %luckperms-prefix%'
       - ' <#FFF3D6>┃ <#80D8FF>Cấp độ <#FFFFFF>› <bold>%mmocore_level%</bold> <#DDEEFF>· %mmocore_class%'
       - ' <#FFF3D6>┃ <#B9F6CA>Kinh nghiệm <#FFFFFF>› <#B9F6CA>%mmocore_level_percent%%'
       - ' '
