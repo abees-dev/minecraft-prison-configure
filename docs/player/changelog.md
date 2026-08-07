@@ -2,6 +2,26 @@
 
 > Cập nhật: 2026-08-07 · Dành cho người chơi
 
+## Sảnh chính mới và kết nối máy chủ
+
+### Map Spawn mới
+
+- Sảnh chính đã được chuyển từ map `world` sang map **`world_spawn`** mới.
+- Cập nhật vị trí xuất hiện mặc định và các khu **Rương**, **Chế Tạo**,
+  **Ủng Hộ** và **Giao Dịch** theo bố cục của sảnh mới.
+- Chuyển toàn bộ **17 NPC** tại sảnh cũ sang các khu tương ứng trong map mới.
+- Người chơi tại sảnh được dùng chung túi đồ với các world gameplay hiện tại.
+- Sảnh mới đã tắt PvP và được bảo vệ khỏi phá/đặt block, cháy nổ và các hành
+  vi phá hoại môi trường.
+
+### Kết nối qua Velocity
+
+- Hệ thống kết nối giữa Hub và các server gameplay đã được chuyển sang
+  **Velocity**.
+- Đăng nhập và xác thực tài khoản được xử lý tập trung tại Hub; server gameplay
+  không còn yêu cầu đăng nhập lại.
+- Đã kiểm thử luồng kết nối qua proxy và xác nhận hoạt động ổn định.
+
 ## Mở rộng hệ thống Phù Phép
 
 - Nâng cấp toàn bộ pool AdvancedEnchantments lên **72 enchant** với tổng cộng
