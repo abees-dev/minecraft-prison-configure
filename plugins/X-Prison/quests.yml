@@ -15,10 +15,10 @@
 
 # How many DAILY quests each player is assigned (randomly, weighted) per day.
 daily:
-  count: 3
+  count: 0
 # How many WEEKLY quests each player is assigned per week.
 weekly:
-  count: 2
+  count: 0
 
 rotation:
   # Empty = server's system timezone. Otherwise an IANA id, e.g. "Europe/Bratislava".
@@ -163,10 +163,8 @@ quests:
         - ""
         - "%status%"
     rewards:
-      commands:
-        - "money give %player% 25000"
-      messages:
-        - "<green>+ $25,000 <gray>(goal scaled x%multiplier% for your rank)"
+      commands: []
+      messages: []
       sound: ENTITY_PLAYER_LEVELUP
   daily_earn_tokens:
     type: EARN_CURRENCY
@@ -187,10 +185,8 @@ quests:
         - ""
         - "%status%"
     rewards:
-      commands:
-        - "tokens give %player% 250"
-      messages:
-        - "<aqua>+ 250 Tokens"
+      commands: []
+      messages: []
   daily_rankup:
     type: RANKUP
     category: DAILY
@@ -209,10 +205,8 @@ quests:
         - ""
         - "%status%"
     rewards:
-      commands:
-        - "tokens give %player% 300"
-      messages:
-        - "<aqua>+ 300 Tokens"
+      commands: []
+      messages: []
   daily_use_bombs:
     type: USE_BOMB
     category: DAILY
@@ -231,10 +225,8 @@ quests:
         - ""
         - "%status%"
     rewards:
-      commands:
-        - "money give %player% 50000"
-      messages:
-        - "<green>+ $50,000"
+      commands: []
+      messages: []
   daily_trigger_enchants:
     type: TRIGGER_ENCHANT
     category: DAILY
@@ -253,10 +245,8 @@ quests:
         - ""
         - "%status%"
     rewards:
-      commands:
-        - "tokens give %player% 200"
-      messages:
-        - "<aqua>+ 200 Tokens"
+      commands: []
+      messages: []
   weekly_mine_blocks:
     type: MINE_BLOCKS
     category: WEEKLY
@@ -275,10 +265,8 @@ quests:
         - ""
         - "%status%"
     rewards:
-      commands:
-        - "money give %player% 1000000"
-      messages:
-        - "<green><bold>+ $1,000,000"
+      commands: []
+      messages: []
       sound: UI_TOAST_CHALLENGE_COMPLETE
   weekly_prestige:
     type: PRESTIGE
@@ -298,10 +286,8 @@ quests:
         - ""
         - "%status%"
     rewards:
-      commands:
-        - "gems give %player% 100"
-      messages:
-        - "<green>+ 100 Gems"
+      commands: []
+      messages: []
       sound: UI_TOAST_CHALLENGE_COMPLETE
   weekly_earn_gems:
     type: EARN_CURRENCY
@@ -322,10 +308,8 @@ quests:
         - ""
         - "%status%"
     rewards:
-      commands:
-        - "tokens give %player% 5000"
-      messages:
-        - "<aqua>+ 5,000 Tokens"
+      commands: []
+      messages: []
   permanent_join_gang:
     type: JOIN_GANG
     category: PERMANENT
@@ -344,10 +328,8 @@ quests:
         - ""
         - "%status%"
     rewards:
-      commands:
-        - "money give %player% 100000"
-      messages:
-        - "<green>+ $100,000"
+      commands: []
+      messages: []
   permanent_first_rebirth:
     type: REBIRTH
     category: PERMANENT
@@ -366,10 +348,8 @@ quests:
         - ""
         - "%status%"
     rewards:
-      commands:
-        - "gems give %player% 50"
-      messages:
-        - "<green>+ 50 Gems"
+      commands: []
+      messages: []
       sound: UI_TOAST_CHALLENGE_COMPLETE
   # ---- New objective types ----
   # SELL_BLOCKS counts items sold (auto-sell + /sellall). MINE_SPECIFIC needs a 'filter'
@@ -393,10 +373,8 @@ quests:
         - ""
         - "%status%"
     rewards:
-      commands:
-        - "money give %player% 50000"
-      messages:
-        - "<green>+ $50,000"
+      commands: []
+      messages: []
   daily_mine_emerald:
     type: MINE_SPECIFIC
     category: DAILY
@@ -416,10 +394,8 @@ quests:
         - ""
         - "%status%"
     rewards:
-      commands:
-        - "tokens give %player% 500"
-      messages:
-        - "<aqua>+ 500 Tokens"
+      commands: []
+      messages: []
   permanent_playtime:
     type: PLAYTIME
     category: PERMANENT
@@ -438,10 +414,8 @@ quests:
         - ""
         - "%status%"
     rewards:
-      commands:
-        - "money give %player% 250000"
-      messages:
-        - "<green>+ $250,000"
+      commands: []
+      messages: []
   permanent_reach_balance:
     type: REACH_BALANCE
     category: PERMANENT
@@ -461,10 +435,8 @@ quests:
         - ""
         - "%status%"
     rewards:
-      commands:
-        - "gems give %player% 25"
-      messages:
-        - "<green>+ 25 Gems"
+      commands: []
+      messages: []
 
 gui:
   title: "<dark_gray>Your Quests"

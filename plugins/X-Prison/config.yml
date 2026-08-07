@@ -77,10 +77,10 @@ connection_properties:
 # Enabling / Disabling of specific modules
 modules:
   currencies: true
-  blocks: true
+  blocks: false
   ranks: true
   prestiges: true
-  rebirths: true
+  rebirths: false
   multipliers: false
   enchants: false
   autosell: false
