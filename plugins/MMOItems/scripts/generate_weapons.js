@@ -118,6 +118,7 @@ ranks.forEach((r, rIdx) => {
     swordContent += getSocketsYAML(rIdx);
     swordContent += `    upgrade:
       template: weapon-upgrade-template
+      reference: weapon-upgrade-template
       max: 100
     will-break: false
     unbreakable: false
@@ -358,6 +359,7 @@ ranks.forEach((r, rIdx) => {
     axeContent += getSocketsYAML(rIdx);
     axeContent += `    upgrade:
       template: weapon-upgrade-template
+      reference: weapon-upgrade-template
       max: 100
     will-break: false
     unbreakable: false
@@ -530,6 +532,7 @@ ranks.forEach((r, rIdx) => {
     staffContent += getSocketsYAML(rIdx);
     staffContent += `    upgrade:
       template: weapon-upgrade-template
+      reference: weapon-upgrade-template
       max: 100
     will-break: false
     unbreakable: false
@@ -684,7 +687,6 @@ GACHA_STAFF_OCULUS:
 fs.writeFileSync(path.join(baseDir, 'item', 'staff.yml'), staffContent, 'utf8');
 
 console.log('✅ Đã tích hợp staff-spirit và kỹ năng chủ động cho toàn bộ Trượng Phép!');
-
 
 
 

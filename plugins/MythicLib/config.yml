@@ -30,7 +30,9 @@ number-format:
 # natural   <-> non-elemental damage
 # elemental <-> fire/water/.. damage
 defense-application:
-  natural: "#damage# - #defense#"
+  # Diminishing returns: defense equal to incoming damage reduces it by 33%,
+  # and defense equal to twice the incoming damage reduces it by 50%.
+  natural: "#damage# * (1 - (#defense# / (2 * #damage# + #defense#)))"
   elemental: "#damage# * (1 - (#defense# / (5 * #damage# + #defense#)))"
 
 # Allows to scale health up/down to a specific

@@ -33,8 +33,8 @@
 PRISON_TAN_BINH_NORMAL:
   Type: ZOMBIE
   Display: "&f&lTân Binh Nổi Loạn"
-  Health: 17
-  Damage: 9
+  Health: 90
+  Damage: 26
   Equipment:
     - WOODEN_SWORD HAND
   Options:
@@ -52,8 +52,8 @@ PRISON_TAN_BINH_NORMAL:
 PRISON_TAN_BINH_ELITE:
   Type: ZOMBIE
   Display: "&f&lTân Binh Cuồng Nộ &7[Elite]"
-  Health: 34
-  Damage: 14
+  Health: 320
+  Damage: 49
   Equipment:
     - WOODEN_SWORD HAND
   Options:
@@ -74,8 +74,8 @@ PRISON_TAN_BINH_ELITE:
 PRISON_TAN_BINH_BOSS:
   Type: ZOMBIE
   Display: "&4&l[BOSS] &r&e&lĐầu Sỏ Tân Binh"
-  Health: 143
-  Damage: 20
+  Health: 1240
+  Damage: 75
   Equipment:
     - STONE_SWORD HAND
   Options:
@@ -93,7 +93,7 @@ PRISON_TAN_BINH_BOSS:
   Drops:
     - prison_rank1_boss_drops
   Skills:
-    - damage{amount=19;ignorearmor=true;ignoreiframes=true} @PlayersInRadius{r=5} ~onTimer:60
+    - damage{amount=56;ignorearmor=true;ignoreiframes=true} @PlayersInRadius{r=5} ~onTimer:60
     - skill{s=Prison_Tan_Binh_Enrage} @self ~onDamaged
     - summon{mob=PRISON_TAN_BINH_NORMAL;amount=2;noise=5} @self ~onTimer:240
     - command{c="dh holograms disable TanBinhTimer"} ~onSpawn
@@ -109,8 +109,8 @@ PRISON_TAN_BINH_BOSS:
 PRISON_TU_NHAN_NORMAL:
   Type: ZOMBIE
   Display: "&a&lTù Nhân Lang Thang"
-  Health: 27
-  Damage: 10
+  Health: 170
+  Damage: 49
   Equipment:
     - STONE_SWORD HAND
   Options:
@@ -128,8 +128,8 @@ PRISON_TU_NHAN_NORMAL:
 PRISON_TU_NHAN_ELITE:
   Type: ZOMBIE
   Display: "&a&lTù Nhân Hung Hãn &7[Elite]"
-  Health: 54
-  Damage: 16
+  Health: 610
+  Damage: 91
   Equipment:
     - STONE_SWORD HAND
     - LEATHER_CHESTPLATE CHEST
@@ -151,8 +151,8 @@ PRISON_TU_NHAN_ELITE:
 PRISON_TU_NHAN_BOSS:
   Type: HUSK
   Display: "&2&lTrùm Tù Nhân &7[Boss]"
-  Health: 225
-  Damage: 23
+  Health: 2380
+  Damage: 140
   Equipment:
     - IRON_SWORD HAND
     - LEATHER_CHESTPLATE CHEST
@@ -171,7 +171,7 @@ PRISON_TU_NHAN_BOSS:
   Drops:
     - prison_rank2_boss_drops
   Skills:
-    - damage{amount=22;ignorearmor=true;ignoreiframes=true} @PlayersInRadius{r=5} ~onTimer:60
+    - damage{amount=105;ignorearmor=true;ignoreiframes=true} @PlayersInRadius{r=5} ~onTimer:60
     - skill{s=Prison_Tu_Nhan_Enrage} @self ~onDamaged
     - summon{mob=PRISON_TU_NHAN_NORMAL;amount=2;noise=5} @self ~onTimer:240
     - command{c="dh holograms disable TuNhanTimer"} ~onSpawn
@@ -187,8 +187,8 @@ PRISON_TU_NHAN_BOSS:
 PRISON_LAO_CONG_NORMAL:
   Type: HUSK
   Display: "&b&lLao Công Kiệt Sức"
-  Health: 40
-  Damage: 13
+  Health: 255
+  Damage: 74
   Equipment:
     - IRON_SWORD HAND
   Options:
@@ -206,8 +206,8 @@ PRISON_LAO_CONG_NORMAL:
 PRISON_LAO_CONG_ELITE:
   Type: HUSK
   Display: "&b&lLao Công Điên Loạn &7[Elite]"
-  Health: 79
-  Damage: 20
+  Health: 915
+  Damage: 137
   Equipment:
     - IRON_SWORD HAND
     - IRON_HELMET HEAD
@@ -224,14 +224,14 @@ PRISON_LAO_CONG_ELITE:
   Skills:
     - skill{s=Prison_Despawn_No_Players} @self ~onTimer:200
     - throw{velocity=1.3;velocityY=0.4} @target 0.3
-    - damage{amount=8;ignorearmor=true} @PlayersInRadius{r=3} 0.2
+    - damage{amount=95;ignorearmor=true} @PlayersInRadius{r=3} 0.2
     - heal{amount=7} @self ~onTimer:100
 
 PRISON_LAO_CONG_BOSS:
   Type: HUSK
   Display: "&3&lĐốc Công Lao Công &7[Boss]"
-  Health: 330
-  Damage: 29
+  Health: 3550
+  Damage: 210
   Equipment:
     - IRON_SWORD HAND
     - IRON_HELMET HEAD
@@ -253,7 +253,7 @@ PRISON_LAO_CONG_BOSS:
   Drops:
     - prison_rank3_boss_drops
   Skills:
-    - damage{amount=27;ignorearmor=true;ignoreiframes=true} @PlayersInRadius{r=5} ~onTimer:60
+    - damage{amount=158;ignorearmor=true;ignoreiframes=true} @PlayersInRadius{r=5} ~onTimer:60
     - skill{s=Prison_Lao_Cong_Enrage} @self ~onDamaged
     - summon{mob=PRISON_LAO_CONG_NORMAL;amount=2;noise=5} @self ~onTimer:220
     - command{c="dh holograms disable LaoCongTimer"} ~onSpawn
@@ -269,8 +269,8 @@ PRISON_LAO_CONG_BOSS:
 PRISON_THO_DAO_NORMAL:
   Type: HUSK
   Display: "&e&lThợ Đào Lạc Lối"
-  Health: 54
-  Damage: 16
+  Health: 340
+  Damage: 98
   Equipment:
     - IRON_SWORD HAND
     - IRON_HELMET HEAD
@@ -289,8 +289,8 @@ PRISON_THO_DAO_NORMAL:
 PRISON_THO_DAO_ELITE:
   Type: HUSK
   Display: "&e&lThợ Đào Cuồng Đá &7[Elite]"
-  Health: 108
-  Damage: 24
+  Health: 1225
+  Damage: 182
   Equipment:
     - IRON_SWORD HAND
     - IRON_HELMET HEAD
@@ -314,8 +314,8 @@ PRISON_THO_DAO_ELITE:
 PRISON_THO_DAO_BOSS:
   Type: DROWNED
   Display: "&6&lTrưởng Nhóm Thợ Đào &7[Boss]"
-  Health: 450
-  Damage: 34
+  Health: 4760
+  Damage: 280
   Equipment:
     - IRON_SWORD HAND
     - IRON_HELMET HEAD
@@ -337,7 +337,7 @@ PRISON_THO_DAO_BOSS:
   Drops:
     - prison_rank4_boss_drops
   Skills:
-    - damage{amount=33;ignorearmor=true;ignoreiframes=true} @PlayersInRadius{r=5} ~onTimer:60
+    - damage{amount=210;ignorearmor=true;ignoreiframes=true} @PlayersInRadius{r=5} ~onTimer:60
     - skill{s=Prison_Tho_Dao_Enrage} @self ~onDamaged
     - summon{mob=PRISON_THO_DAO_NORMAL;amount=2;noise=5} @self ~onTimer:220
     - command{c="dh holograms disable ThoDaoTimer"} ~onSpawn
@@ -353,8 +353,8 @@ PRISON_THO_DAO_BOSS:
 PRISON_DOI_TRUONG_NORMAL:
   Type: VINDICATOR
   Display: "&6&lĐội Trưởng Phản Loạn"
-  Health: 144
-  Damage: 32
+  Health: 450
+  Damage: 124
   Equipment:
     - DIAMOND_SWORD HAND
   Options:
@@ -372,8 +372,8 @@ PRISON_DOI_TRUONG_NORMAL:
 PRISON_DOI_TRUONG_ELITE:
   Type: VINDICATOR
   Display: "&6&lĐội Trưởng Tinh Nhuệ &7[Elite]"
-  Health: 288
-  Damage: 52
+  Health: 1620
+  Damage: 231
   Equipment:
     - DIAMOND_SWORD HAND
     - DIAMOND_CHESTPLATE CHEST
@@ -395,8 +395,8 @@ PRISON_DOI_TRUONG_ELITE:
 PRISON_DOI_TRUONG_BOSS:
   Type: VINDICATOR
   Display: "&6&lĐại Đội Trưởng &7[Boss]"
-  Health: 1200
-  Damage: 76
+  Health: 6300
+  Damage: 355
   Equipment:
     - DIAMOND_SWORD HAND
     - DIAMOND_HELMET HEAD
@@ -419,7 +419,7 @@ PRISON_DOI_TRUONG_BOSS:
     - prison_rank5_boss_drops
   Skills:
     - skill{s=Boss_Anti_Kite_Pull} @target ~onTimer:100
-    - damage{amount=71;ignorearmor=true;ignoreiframes=true} @PlayersInRadius{r=5} ~onTimer:60
+    - damage{amount=266;ignorearmor=true;ignoreiframes=true} @PlayersInRadius{r=5} ~onTimer:60
     - skill{s=Prison_Doi_Truong_Enrage} @self ~onDamaged
     - summon{mob=PRISON_DOI_TRUONG_NORMAL;amount=2;noise=5} @self ~onTimer:220
     - command{c="dh holograms disable DoiTruongTimer"} ~onSpawn
@@ -435,8 +435,8 @@ PRISON_DOI_TRUONG_BOSS:
 PRISON_PHO_QUAN_NGUC_NORMAL:
   Type: PILLAGER
   Display: "&c&lLính Canh Phó Quản Ngục"
-  Health: 189
-  Damage: 38
+  Health: 560
+  Damage: 149
   Equipment:
     - DIAMOND_SWORD HAND
   Options:
@@ -454,8 +454,8 @@ PRISON_PHO_QUAN_NGUC_NORMAL:
 PRISON_PHO_QUAN_NGUC_ELITE:
   Type: VINDICATOR
   Display: "&c&lCận Vệ Phó Quản Ngục &7[Elite]"
-  Health: 378
-  Damage: 59
+  Health: 2015
+  Damage: 276
   Equipment:
     - DIAMOND_SWORD HAND
     - DIAMOND_CHESTPLATE CHEST
@@ -472,14 +472,14 @@ PRISON_PHO_QUAN_NGUC_ELITE:
   Skills:
     - skill{s=Prison_Despawn_No_Players} @self ~onTimer:200
     - throw{velocity=1.4;velocityY=0.4} @target 0.3
-    - damage{amount=24;ignorearmor=true} @PlayersInRadius{r=3} 0.2
+    - damage{amount=191;ignorearmor=true} @PlayersInRadius{r=3} 0.2
     - heal{amount=30} @self ~onTimer:100
 
 PRISON_PHO_QUAN_NGUC_BOSS:
   Type: VINDICATOR
   Display: "&4&lPhó Quản Ngục &7[Boss]"
-  Health: 1575
-  Damage: 86
+  Health: 7840
+  Damage: 425
   Equipment:
     - DIAMOND_SWORD HAND
     - DIAMOND_HELMET HEAD
@@ -502,7 +502,7 @@ PRISON_PHO_QUAN_NGUC_BOSS:
     - prison_rank6_boss_drops
   Skills:
     - skill{s=Boss_Anti_Kite_Pull} @target ~onTimer:100
-    - damage{amount=81;ignorearmor=true;ignoreiframes=true} @PlayersInRadius{r=5} ~onTimer:50
+    - damage{amount=319;ignorearmor=true;ignoreiframes=true} @PlayersInRadius{r=5} ~onTimer:50
     - skill{s=Prison_Pho_Quan_Nguc_Enrage} @self ~onDamaged
     - summon{mob=PRISON_PHO_QUAN_NGUC_NORMAL;amount=2;noise=5} @self ~onTimer:200
     - command{c="dh holograms disable PhoQuanNgucTimer"} ~onSpawn
@@ -518,8 +518,8 @@ PRISON_PHO_QUAN_NGUC_BOSS:
 PRISON_QUAN_NGUC_NORMAL:
   Type: WITHER_SKELETON
   Display: "&5&lLính Canh Quản Ngục"
-  Health: 243
-  Damage: 43
+  Health: 675
+  Damage: 175
   Equipment:
     - NETHERITE_SWORD HAND
   Options:
@@ -537,8 +537,8 @@ PRISON_QUAN_NGUC_NORMAL:
 PRISON_QUAN_NGUC_ELITE:
   Type: WITHER_SKELETON
   Display: "&5&lCận Vệ Quản Ngục &7[Elite]"
-  Health: 486
-  Damage: 67
+  Health: 2430
+  Damage: 325
   Equipment:
     - NETHERITE_SWORD HAND
     - NETHERITE_CHESTPLATE CHEST
@@ -560,8 +560,8 @@ PRISON_QUAN_NGUC_ELITE:
 PRISON_QUAN_NGUC_BOSS:
   Type: WITHER_SKELETON
   Display: "&5&lQuản Ngục Tối Cao &7[Boss]"
-  Health: 2025
-  Damage: 96
+  Health: 9450
+  Damage: 500
   Equipment:
     - NETHERITE_SWORD HAND
     - NETHERITE_HELMET HEAD
@@ -584,7 +584,7 @@ PRISON_QUAN_NGUC_BOSS:
     - prison_rank7_boss_drops
   Skills:
     - skill{s=Boss_Anti_Kite_Pull} @target ~onTimer:100
-    - damage{amount=92;ignorearmor=true;ignoreiframes=true} @PlayersInRadius{r=5} ~onTimer:50
+    - damage{amount=375;ignorearmor=true;ignoreiframes=true} @PlayersInRadius{r=5} ~onTimer:50
     - skill{s=Prison_Quan_Nguc_Enrage} @self ~onDamaged
     - summon{mob=PRISON_QUAN_NGUC_NORMAL;amount=2;noise=5} @self ~onTimer:200
     - command{c="dh holograms disable QuanNgucTimer"} ~onSpawn
@@ -600,8 +600,8 @@ PRISON_QUAN_NGUC_BOSS:
 PRISON_BA_CHU_NGUC_TU_NORMAL:
   Type: WITHER_SKELETON
   Display: "&d&lThủ Hạ Bá Chủ"
-  Health: 311
-  Damage: 45
+  Health: 835
+  Damage: 214
   Equipment:
     - NETHERITE_SWORD HAND
     - NETHERITE_HELMET HEAD
@@ -620,8 +620,8 @@ PRISON_BA_CHU_NGUC_TU_NORMAL:
 PRISON_BA_CHU_NGUC_TU_ELITE:
   Type: WITHER_SKELETON
   Display: "&d&lCận Vệ Bá Chủ &7[Elite]"
-  Health: 621
-  Damage: 72
+  Health: 2995
+  Damage: 397
   Equipment:
     - NETHERITE_SWORD HAND
     - NETHERITE_HELMET HEAD
@@ -645,8 +645,8 @@ PRISON_BA_CHU_NGUC_TU_ELITE:
 PRISON_BA_CHU_NGUC_TU_BOSS:
   Type: PIGLIN_BRUTE
   Display: "&d&lBá Chủ Ngục Tù &7[Boss]"
-  Health: 2590
-  Damage: 104
+  Health: 11660
+  Damage: 610
   Equipment:
     - NETHERITE_SWORD HAND
     - NETHERITE_HELMET HEAD
@@ -669,7 +669,7 @@ PRISON_BA_CHU_NGUC_TU_BOSS:
     - prison_rank8_boss_drops
   Skills:
     - skill{s=Boss_Anti_Kite_Pull} @target ~onTimer:90
-    - damage{amount=98;ignorearmor=true;ignoreiframes=true} @PlayersInRadius{r=5} ~onTimer:50
+    - damage{amount=458;ignorearmor=true;ignoreiframes=true} @PlayersInRadius{r=5} ~onTimer:50
     - skill{s=Prison_Ba_Chu_Nguc_Tu_Enrage} @self ~onDamaged
     - summon{mob=PRISON_BA_CHU_NGUC_TU_NORMAL;amount=2;noise=5} @self ~onTimer:180
     - command{c="dh holograms disable BaChuNgucTuTimer"} ~onSpawn
@@ -685,8 +685,8 @@ PRISON_BA_CHU_NGUC_TU_BOSS:
 PRISON_VUOT_NGUC_NORMAL:
   Type: PIGLIN_BRUTE
   Display: "&4&lKẻ Vượt Ngục"
-  Health: 392
-  Damage: 50
+  Health: 1005
+  Damage: 254
   Equipment:
     - NETHERITE_SWORD HAND
     - NETHERITE_HELMET HEAD
@@ -705,8 +705,8 @@ PRISON_VUOT_NGUC_NORMAL:
 PRISON_VUOT_NGUC_ELITE:
   Type: PIGLIN_BRUTE
   Display: "&4&lKẻ Vượt Ngục Liều Lĩnh &7[Elite]"
-  Health: 784
-  Damage: 79
+  Health: 3610
+  Damage: 471
   Equipment:
     - NETHERITE_SWORD HAND
     - NETHERITE_HELMET HEAD
@@ -724,14 +724,14 @@ PRISON_VUOT_NGUC_ELITE:
   Skills:
     - skill{s=Prison_Despawn_No_Players} @self ~onTimer:200
     - throw{velocity=1.6;velocityY=0.4} @target 0.3
-    - damage{amount=32;ignorearmor=true} @PlayersInRadius{r=3} 0.2
+    - damage{amount=326;ignorearmor=true} @PlayersInRadius{r=3} 0.2
     - heal{amount=63} @self ~onTimer:100
 
 PRISON_VUOT_NGUC_BOSS:
   Type: RAVAGER
   Display: "&4&lTrùm Vượt Ngục Tối Thượng &7[Boss]"
-  Health: 3260
-  Damage: 114
+  Health: 14040
+  Damage: 725
   Equipment:
     - NETHERITE_SWORD HAND
     - NETHERITE_HELMET HEAD
@@ -754,7 +754,7 @@ PRISON_VUOT_NGUC_BOSS:
     - prison_rank9_boss_drops
   Skills:
     - skill{s=Boss_Anti_Kite_Pull} @target ~onTimer:90
-    - damage{amount=108;ignorearmor=true;ignoreiframes=true} @PlayersInRadius{r=5} ~onTimer:45
+    - damage{amount=544;ignorearmor=true;ignoreiframes=true} @PlayersInRadius{r=5} ~onTimer:45
     - skill{s=Prison_Vuot_Nguc_Enrage} @self ~onDamaged
     - summon{mob=PRISON_VUOT_NGUC_NORMAL;amount=2;noise=5} @self ~onTimer:180
     - command{c="dh holograms disable VuotNgucTimer"} ~onSpawn
@@ -784,8 +784,8 @@ PRISON_MA_VUONG_BOSS:
   # SERVER để áp dụng (không chỉ /mm reload hay /reload). Sau restart, Health
   # dưới đây mới thực sự có tác dụng.
   # Base nerf 50% HP (2026-08-01): trước 5500/120; Damage chỉnh lại 75.
-  Health: 2750
-  Damage: 75
+  Health: 21100
+  Damage: 905
   # LevelModifiers: +flat mỗi level trên base (L1 = đúng số Health/Damage ở trên).
   # Thiết kế world-level: max 50, soft-cap từ 20 do CorePlugin (MM chỉ linear).
   # Ước lượng nếu LevelModifiers có hiệu lực (không bị ScalingEquations ghi đè):
@@ -850,7 +850,7 @@ PRISON_MA_VUONG_BOSS:
     - prison_ma_vuong_bonus_lv50
   Skills:
     - skill{s=Boss_Anti_Kite_Pull} @target ~onTimer:80
-    - damage{amount=65;ignorearmor=true;ignoreiframes=true} @PlayersInRadius{r=6} ~onTimer:45
+    - damage{amount=690;ignorearmor=true;ignoreiframes=true} @PlayersInRadius{r=6} ~onTimer:45
     - skill{s=Prison_Ma_Vuong_Enrage} @self ~onDamaged
     - skill{s=Prison_Ma_Vuong_Hell_Nova} @self ~onTimer:110
     - skill{s=Prison_Ma_Vuong_Nguyen_Rua} @self ~onTimer:180

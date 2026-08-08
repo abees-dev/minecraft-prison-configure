@@ -162,6 +162,7 @@ pieces.forEach((p) => {
       armorContent += getSocketsYAML(rIdx);
       armorContent += `    upgrade:
       template: armor-upgrade-template
+      reference: armor-upgrade-template
       max: 100
     will-break: false
     unbreakable: false

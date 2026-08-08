@@ -2,17 +2,20 @@
 # text you need to enter in the edition GUI in order
 # to setup item upgrading for a specific item.
 weapon-upgrade-template:
-  attack-damage: 0.3
-  physical-damage: 0.1
+  attack-damage: 1.0
+  physical-damage: 0.4
 
 armor-upgrade-template:
-  max-health: 3.0
-  armor: 0.3
-  defense: 0.3
+  # Applied to every equipped piece: a full +100 set grants +2000 health,
+  # +140 toughness and +700 defense. Base armor remains capped at 30 and is
+  # intentionally not upgraded because every point past that cap is wasted.
+  max-health: 5.0
+  armor-toughness: 0.35
+  defense: 1.75
 
 weapon-default:
-  attack-damage: 0.3
-  physical-damage: 0.1
+  attack-damage: 1.0
+  physical-damage: 0.4
 
 armor-template-example:
   armor: 3%
@@ -132,6 +135,3 @@ pickaxe-vuot-nguc-template:
     - 'EFFICIENCY +0.25'
     - 'FORTUNE +0.5'
     - 'UNBREAKING +0.25'
-
-
-
