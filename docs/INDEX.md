@@ -93,3 +93,8 @@ Cập nhật: 2026-08-06. Bắt đầu tại [`README.md`](README.md).
 3. Bang Hội sống thuộc **CorePlugin**; không dùng X-Prison gangs.
 4. Sell và multiplier: `DOCS_HE_THONG_PRISON.md` cùng EconomyShopGUI/CorePlugin.
 5. Khi docs mâu thuẫn config, xác minh config rồi sửa docs trong cùng commit.
+6. **Config CorePlugin sống = repo này** (`plugins/CorePlugin/`). Jar trong
+   `minecraft-plugin-core` chỉ là template fresh-install (shape + default an
+   toàn). Sửa balance/lore/quest/messages ở đây trước; port key/shape sang jar
+   (không copy nguyên file / không đè số tiền live). Deploy: `scripts/sync-to-server.sh`
+   (agent chỉ dry-run; `--apply` do người chạy).

@@ -1,0 +1,13 @@
+---
+description: CorePlugin live config lives in this repo; jar is install template only
+alwaysApply: true
+---
+
+# CorePlugin config — nguồn sống
+
+- **Nguồn sự thật live:** `plugins/CorePlugin/` trong repo này.
+- **Jar** (`minecraft-plugin-core` `modules/*/resources/`): template fresh-install
+  (shape + default an toàn), **không** mirror byte-for-byte số tiền/lore live.
+- Thêm/sửa key: sửa ở đây trước → port **cấu trúc** sang jar + CHANGELOG bên
+  plugin-core. Cấm overwrite nguyên file qua lại hai repo.
+- Deploy server: `scripts/sync-to-server.sh` — agent chỉ dry-run; `--apply` do user.
