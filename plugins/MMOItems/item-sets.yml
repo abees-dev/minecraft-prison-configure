@@ -35,25 +35,25 @@ LONG_VUONG_SET:
       attack-damage: 15
       critical-strike-chance: 5
     "3":
-      attack-damage: 30
-      critical-strike-chance: 10
+      attack-damage: 15
+      critical-strike-chance: 5
     "4":
-      attack-damage: 45
-      critical-strike-chance: 15
-      critical-strike-power: 25
-      lifesteal: 8
+      attack-damage: 15
+      critical-strike-chance: 5
+      critical-strike-power: 20
+      lifesteal: 2
     "5":
-      attack-damage: 75
-      critical-strike-chance: 25
-      critical-strike-power: 50
-      lifesteal: 15
+      attack-damage: 15
+      critical-strike-chance: 3
+      critical-strike-power: 15
+      lifesteal: 3
       potion-increase_damage: 2
   lore-tag:
     - "&c&lBỘ Long Vương"
     - "&8[2] &c+15 Sát Thương Cơ Bản &7| &6+5% Tỷ Lệ Chí Mạng"
     - "&8[3] &c+30 Sát Thương Cơ Bản &7| &6+10% Tỷ Lệ Chí Mạng"
-    - "&8[4] &c+45 Sát Thương Cơ Bản &7| &6+15% Tỷ Lệ Chí Mạng &7| &6+25% Sát Thương Chí Mạng"
-    - "&8[5] &c+75 Sát Thương Cơ Bản &7| &6+25% Tỷ Lệ Chí Mạng &7| &6+50% Sát Thương Chí Mạng &7| &c+15% Hút Máu"
+    - "&8[4] &c+45 Sát Thương Cơ Bản &7| &6+15% Tỷ Lệ Chí Mạng &7| &6+20% Sát Thương Chí Mạng &7| &c+2% Hút Máu"
+    - "&8[5] &c+60 Sát Thương Cơ Bản &7| &6+18% Tỷ Lệ Chí Mạng &7| &6+35% Sát Thương Chí Mạng &7| &c+5% Hút Máu"
     - "&8↳ &cSức mạnh II"
 
 BANG_TINH_SET:
@@ -63,24 +63,24 @@ BANG_TINH_SET:
       max-health: 150
       damage-reduction: 5
     "3":
-      max-health: 300
-      damage-reduction: 10
+      max-health: 150
+      damage-reduction: 3
     "4":
-      max-health: 500
-      damage-reduction: 15
-      armor-toughness: 20
+      max-health: 200
+      damage-reduction: 4
+      armor-toughness: 15
     "5":
-      max-health: 800
-      damage-reduction: 25
-      armor-toughness: 35
+      max-health: 300
+      damage-reduction: 6
+      armor-toughness: 20
       potion-speed: 2
       potion-damage_resistance: 1
   lore-tag:
     - "&b&lBỘ Băng Tinh"
     - "&8[2] &c+150 Máu Tối Đa &7| &b+5% Giảm Mọi Sát Thương"
-    - "&8[3] &c+300 Máu Tối Đa &7| &b+10% Giảm Mọi Sát Thương"
-    - "&8[4] &c+500 Máu Tối Đa &7| &b+15% Giảm Mọi Sát Thương &7| &3+20 Kháng Xuyên Giáp"
-    - "&8[5] &c+800 Máu Tối Đa &7| &b+25% Giảm Mọi Sát Thương &7| &3+35 Kháng Xuyên Giáp"
+    - "&8[3] &c+300 Máu Tối Đa &7| &b+8% Giảm Mọi Sát Thương"
+    - "&8[4] &c+500 Máu Tối Đa &7| &b+12% Giảm Mọi Sát Thương &7| &3+15 Kháng Xuyên Giáp"
+    - "&8[5] &c+800 Máu Tối Đa &7| &b+18% Giảm Mọi Sát Thương &7| &3+35 Kháng Xuyên Giáp"
     - "&8↳ &eTốc độ II &8| &bGiảm Mọi Sát Thương I"
 
 HAC_AM_SET:
@@ -90,23 +90,23 @@ HAC_AM_SET:
       magic-damage: 10
       max-mana: 100
     "3":
-      magic-damage: 20
-      max-mana: 200
+      magic-damage: 10
+      max-mana: 100
     "4":
-      magic-damage: 35
-      max-mana: 350
-      lifesteal: 8
+      magic-damage: 15
+      max-mana: 150
+      lifesteal: 2
     "5":
-      magic-damage: 55
-      max-mana: 500
-      lifesteal: 15
+      magic-damage: 15
+      max-mana: 150
+      lifesteal: 3
       cooldown-reduction: 15
   lore-tag:
     - "&d&lBỘ Hắc Ám"
     - "&8[2] &d+10% Sát Thương Phép &7| &9+100 Mana Tối Đa"
     - "&8[3] &d+20% Sát Thương Phép &7| &9+200 Mana Tối Đa"
-    - "&8[4] &d+35% Sát Thương Phép &7| &9+350 Mana Tối Đa &7| &c+8% Hút Máu"
-    - "&8[5] &d+55% Sát Thương Phép &7| &9+500 Mana Tối Đa &7| &c+15% Hút Máu"
+    - "&8[4] &d+35% Sát Thương Phép &7| &9+350 Mana Tối Đa &7| &c+2% Hút Máu"
+    - "&8[5] &d+50% Sát Thương Phép &7| &9+500 Mana Tối Đa &7| &c+5% Hút Máu"
     - "&8↳ &6+15% Giảm hồi chiêu"
 
 LOI_THAN_SET:
@@ -114,25 +114,25 @@ LOI_THAN_SET:
   bonuses:
     "2":
       movement-speed: 0.02
-      attack-speed: 10
+      attack-speed: 0.10
     "3":
-      movement-speed: 0.04
-      attack-speed: 20
+      movement-speed: 0.02
+      attack-speed: 0.10
     "4":
-      movement-speed: 0.06
-      attack-speed: 30
-      dodge-rating: 10
+      movement-speed: 0.02
+      attack-speed: 0.07
+      dodge-rating: 5
     "5":
-      movement-speed: 0.10
-      attack-speed: 45
-      dodge-rating: 20
+      movement-speed: 0.04
+      attack-speed: 0.08
+      dodge-rating: 10
       potion-speed: 3
   lore-tag:
     - "&e&lBỘ Lôi Thần"
-    - "&8[2] &e+0.02 Tốc độ &7| &e+10% Tốc Độ Đánh"
-    - "&8[3] &e+0.04 Tốc độ &7| &e+20% Tốc Độ Đánh"
-    - "&8[4] &e+0.06 Tốc độ &7| &e+30% Tốc Độ Đánh &7| &f+10% Né Tránh"
-    - "&8[5] &e+0.10 Tốc độ &7| &e+45% Tốc Độ Đánh &7| &f+20% Né Tránh"
+    - "&8[2] &e+0.02 Tốc độ &7| &e+0.10 Tốc Độ Đánh"
+    - "&8[3] &e+0.04 Tốc độ &7| &e+0.20 Tốc Độ Đánh"
+    - "&8[4] &e+0.06 Tốc độ &7| &e+0.27 Tốc Độ Đánh &7| &f+5% Né Tránh"
+    - "&8[5] &e+0.10 Tốc độ &7| &e+0.35 Tốc Độ Đánh &7| &f+15% Né Tránh"
     - "&8↳ &eTốc độ III"
 
 HOANG_GIA_SET:
@@ -142,26 +142,26 @@ HOANG_GIA_SET:
       physical-damage: 10
       max-health: 100
     "3":
-      physical-damage: 20
-      max-health: 200
+      physical-damage: 10
+      max-health: 100
     "4":
-      physical-damage: 30
-      max-health: 350
-      magic-damage: 20
-      lifesteal: 7
+      physical-damage: 10
+      max-health: 150
+      magic-damage: 10
+      lifesteal: 2
     "5":
-      physical-damage: 45
-      magic-damage: 35
-      max-health: 500
+      physical-damage: 10
+      magic-damage: 15
+      max-health: 150
       max-mana: 300
-      lifesteal: 12
+      lifesteal: 3
       potion-regeneration: 2
   lore-tag:
     - "&6&lBỘ Hoàng Gia"
     - "&8[2] &c+10% Sát Thương Vật Lý &7| &c+100 Máu Tối Đa"
     - "&8[3] &c+20% Sát Thương Vật Lý &7| &c+200 Máu Tối Đa"
-    - "&8[4] &c+30% Sát Thương Vật Lý &7| &c+350 Máu Tối Đa &7| &d+20% Sát Thương Phép"
-    - "&8[5] &c+45% Sát Thương Vật Lý &7| &d+35% Sát Thương Phép &7| &c+500 Máu Tối Đa"
+    - "&8[4] &c+30% Sát Thương Vật Lý &7| &c+350 Máu Tối Đa &7| &d+10% Sát Thương Phép &7| &c+2% Hút Máu"
+    - "&8[5] &c+40% Sát Thương Vật Lý &7| &d+25% Sát Thương Phép &7| &c+500 Máu Tối Đa &7| &c+5% Hút Máu"
     - "&8↳ &aHồi phục II"
 
 # ============================================================
@@ -175,13 +175,13 @@ HOA_LONG_SET:
       attack-damage: 15
       critical-strike-chance: 5
     "3":
-      attack-damage: 25
-      critical-strike-chance: 8
+      attack-damage: 10
+      critical-strike-chance: 3
       critical-strike-power: 15
     "4":
-      attack-damage: 40
-      critical-strike-chance: 12
-      critical-strike-power: 30
+      attack-damage: 15
+      critical-strike-chance: 4
+      critical-strike-power: 15
       potion-speed: 1
   lore-tag:
     - "&6&lBỘ Hỏa Long"
@@ -197,13 +197,13 @@ HAC_LONG_SET:
       magic-damage: 15
       max-mana: 150
     "3":
-      magic-damage: 25
-      max-mana: 250
+      magic-damage: 10
+      max-mana: 100
       cooldown-reduction: 8
     "4":
-      magic-damage: 40
-      max-mana: 400
-      cooldown-reduction: 15
+      magic-damage: 15
+      max-mana: 150
+      cooldown-reduction: 7
       potion-regeneration: 1
   lore-tag:
     - "&5&lBỘ Hắc Long"
@@ -216,22 +216,22 @@ LOI_LONG_SET:
   name: "&e&l⚡ Bộ Lôi Long"
   bonuses:
     "2":
-      attack-speed: 12
-      lifesteal: 5
+      attack-speed: 0.10
+      lifesteal: 2
     "3":
-      attack-speed: 22
-      lifesteal: 8
+      attack-speed: 0.10
+      lifesteal: 2
       attack-damage: 18
     "4":
-      attack-speed: 35
-      lifesteal: 12
-      attack-damage: 30
+      attack-speed: 0.15
+      lifesteal: 2
+      attack-damage: 12
       potion-speed: 2
   lore-tag:
     - "&e&lBỘ Lôi Long"
-    - "&8[2] &e+12% Tốc Độ Đánh &7| &c+5% Hút Máu"
-    - "&8[3] &e+22% Tốc Độ Đánh &7| &c+8% Hút Máu &7| &c+18 Sát Thương Cơ Bản"
-    - "&8[4] &e+35% Tốc Độ Đánh &7| &c+12% Hút Máu &7| &c+30 Sát Thương Cơ Bản"
+    - "&8[2] &e+0.10 Tốc Độ Đánh &7| &c+2% Hút Máu"
+    - "&8[3] &e+0.20 Tốc Độ Đánh &7| &c+4% Hút Máu &7| &c+18 Sát Thương Cơ Bản"
+    - "&8[4] &e+0.35 Tốc Độ Đánh &7| &c+6% Hút Máu &7| &c+30 Sát Thương Cơ Bản"
     - "&8↳ &eHiệu ứng tốc độ II"
 
 PHONG_LONG_SET:
@@ -241,13 +241,13 @@ PHONG_LONG_SET:
       physical-damage: 8
       dodge-rating: 8
     "3":
-      physical-damage: 14
-      dodge-rating: 14
+      physical-damage: 6
+      dodge-rating: 6
       critical-strike-power: 20
     "4":
-      physical-damage: 22
-      dodge-rating: 20
-      critical-strike-power: 35
+      physical-damage: 8
+      dodge-rating: 6
+      critical-strike-power: 15
       potion-speed: 2
   lore-tag:
     - "&2&lBỘ Phong Long"
@@ -263,13 +263,13 @@ BANG_LONG_SET:
       max-health: 150
       defense: 12
     "3":
-      max-health: 300
-      defense: 22
+      max-health: 150
+      defense: 10
       damage-reduction: 10
     "4":
-      max-health: 500
-      defense: 35
-      damage-reduction: 18
+      max-health: 200
+      defense: 13
+      damage-reduction: 8
       potion-damage_resistance: 1
   lore-tag:
     - "&3&lBỘ Băng Long"
@@ -289,13 +289,13 @@ LONG_CHIEN_SET:
       attack-damage: 15
       critical-strike-chance: 5
     "3":
-      attack-damage: 25
-      critical-strike-chance: 8
+      attack-damage: 10
+      critical-strike-chance: 3
       critical-strike-power: 15
     "4":
-      attack-damage: 40
-      critical-strike-chance: 12
-      critical-strike-power: 30
+      attack-damage: 15
+      critical-strike-chance: 4
+      critical-strike-power: 15
       potion-speed: 1
   lore-tag:
     - "&e&lBỘ Chiến Long"
@@ -311,13 +311,13 @@ LONG_THAN_SET:
       magic-damage: 15
       max-mana: 150
     "3":
-      magic-damage: 25
-      max-mana: 250
+      magic-damage: 10
+      max-mana: 100
       cooldown-reduction: 8
     "4":
-      magic-damage: 40
-      max-mana: 400
-      cooldown-reduction: 15
+      magic-damage: 15
+      max-mana: 150
+      cooldown-reduction: 7
       potion-regeneration: 1
   lore-tag:
     - "&b&lBỘ Thần Long"
@@ -330,22 +330,22 @@ LONG_HOANG_SET:
   name: "&c&l★ Bộ Hoàng Long"
   bonuses:
     "2":
-      attack-speed: 12
-      lifesteal: 5
+      attack-speed: 0.10
+      lifesteal: 2
     "3":
-      attack-speed: 22
-      lifesteal: 8
+      attack-speed: 0.10
+      lifesteal: 2
       attack-damage: 18
     "4":
-      attack-speed: 35
-      lifesteal: 12
-      attack-damage: 30
+      attack-speed: 0.15
+      lifesteal: 2
+      attack-damage: 12
       potion-speed: 2
   lore-tag:
     - "&c&lBỘ Hoàng Long"
-    - "&8[2] &e+12% Tốc Độ Đánh &7| &c+5% Hút Máu"
-    - "&8[3] &e+22% Tốc Độ Đánh &7| &c+8% Hút Máu &7| &c+18 Sát Thương Cơ Bản"
-    - "&8[4] &e+35% Tốc Độ Đánh &7| &c+12% Hút Máu &7| &c+30 Sát Thương Cơ Bản"
+    - "&8[2] &e+0.10 Tốc Độ Đánh &7| &c+2% Hút Máu"
+    - "&8[3] &e+0.20 Tốc Độ Đánh &7| &c+4% Hút Máu &7| &c+18 Sát Thương Cơ Bản"
+    - "&8[4] &e+0.35 Tốc Độ Đánh &7| &c+6% Hút Máu &7| &c+30 Sát Thương Cơ Bản"
     - "&8↳ &eHiệu ứng tốc độ II"
 
 LONG_DE_SET:
@@ -355,13 +355,13 @@ LONG_DE_SET:
       physical-damage: 8
       dodge-rating: 8
     "3":
-      physical-damage: 14
-      dodge-rating: 14
+      physical-damage: 6
+      dodge-rating: 6
       critical-strike-power: 20
     "4":
-      physical-damage: 22
-      dodge-rating: 20
-      critical-strike-power: 35
+      physical-damage: 8
+      dodge-rating: 6
+      critical-strike-power: 15
       potion-speed: 2
   lore-tag:
     - "&4&lBỘ Đế Long"
@@ -377,13 +377,13 @@ LONG_VE_SET:
       max-health: 150
       defense: 12
     "3":
-      max-health: 300
-      defense: 22
+      max-health: 150
+      defense: 10
       damage-reduction: 10
     "4":
-      max-health: 500
-      defense: 35
-      damage-reduction: 18
+      max-health: 200
+      defense: 13
+      damage-reduction: 8
       potion-damage_resistance: 1
   lore-tag:
     - "&a&lBỘ Hộ Long"
@@ -403,13 +403,13 @@ THANH_LONG_SET:
       attack-damage: 15
       critical-strike-chance: 5
     "3":
-      attack-damage: 25
-      critical-strike-chance: 8
+      attack-damage: 10
+      critical-strike-chance: 3
       critical-strike-power: 15
     "4":
-      attack-damage: 40
-      critical-strike-chance: 12
-      critical-strike-power: 30
+      attack-damage: 15
+      critical-strike-chance: 4
+      critical-strike-power: 15
       potion-speed: 1
   lore-tag:
     - "&b&lBỘ Thanh Long Linh"
@@ -425,13 +425,13 @@ XICH_LONG_SET:
       magic-damage: 15
       max-mana: 150
     "3":
-      magic-damage: 25
-      max-mana: 250
+      magic-damage: 10
+      max-mana: 100
       cooldown-reduction: 8
     "4":
-      magic-damage: 40
-      max-mana: 400
-      cooldown-reduction: 15
+      magic-damage: 15
+      max-mana: 150
+      cooldown-reduction: 7
       potion-regeneration: 1
   lore-tag:
     - "&c&lBỘ Xích Long Linh"
@@ -444,22 +444,22 @@ KIM_LONG_SET:
   name: "&e&l★ Bộ Kim Long Linh"
   bonuses:
     "2":
-      attack-speed: 12
-      lifesteal: 5
+      attack-speed: 0.10
+      lifesteal: 2
     "3":
-      attack-speed: 22
-      lifesteal: 8
+      attack-speed: 0.10
+      lifesteal: 2
       attack-damage: 18
     "4":
-      attack-speed: 35
-      lifesteal: 12
-      attack-damage: 30
+      attack-speed: 0.15
+      lifesteal: 2
+      attack-damage: 12
       potion-speed: 2
   lore-tag:
     - "&e&lBỘ Kim Long Linh"
-    - "&8[2] &e+12% Tốc Độ Đánh &7| &c+5% Hút Máu"
-    - "&8[3] &e+22% Tốc Độ Đánh &7| &c+8% Hút Máu &7| &c+18 Sát Thương Cơ Bản"
-    - "&8[4] &e+35% Tốc Độ Đánh &7| &c+12% Hút Máu &7| &c+30 Sát Thương Cơ Bản"
+    - "&8[2] &e+0.10 Tốc Độ Đánh &7| &c+2% Hút Máu"
+    - "&8[3] &e+0.20 Tốc Độ Đánh &7| &c+4% Hút Máu &7| &c+18 Sát Thương Cơ Bản"
+    - "&8[4] &e+0.35 Tốc Độ Đánh &7| &c+6% Hút Máu &7| &c+30 Sát Thương Cơ Bản"
     - "&8↳ &eHiệu ứng tốc độ II"
 
 THIEN_LONG_SET:
@@ -469,13 +469,13 @@ THIEN_LONG_SET:
       physical-damage: 8
       dodge-rating: 8
     "3":
-      physical-damage: 14
-      dodge-rating: 14
+      physical-damage: 6
+      dodge-rating: 6
       critical-strike-power: 20
     "4":
-      physical-damage: 22
-      dodge-rating: 20
-      critical-strike-power: 35
+      physical-damage: 8
+      dodge-rating: 6
+      critical-strike-power: 15
       potion-speed: 2
   lore-tag:
     - "&d&lBỘ Thiên Long Linh"
@@ -491,13 +491,13 @@ BAC_LONG_SET:
       max-health: 150
       defense: 12
     "3":
-      max-health: 300
-      defense: 22
+      max-health: 150
+      defense: 10
       damage-reduction: 10
     "4":
-      max-health: 500
-      defense: 35
-      damage-reduction: 18
+      max-health: 200
+      defense: 13
+      damage-reduction: 8
       potion-damage_resistance: 1
   lore-tag:
     - "&f&lBỘ Bạch Long Linh"

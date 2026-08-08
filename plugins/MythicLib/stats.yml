@@ -53,6 +53,16 @@ min-max-values:
   DEFENSE: '0 = 10000'
   SPEED_MALUS_REDUCTION: '0=80'
 
+  # Sustain caps: mixed sets, gems and accessories must never create an
+  # effectively immortal player through 100% life recovery.
+  LIFESTEAL: '0 = 15'
+  SPELL_VAMPIRISM: '0 = 15'
+
+  # Global mitigation caps leave room for counterplay in both PvE and PvP.
+  DAMAGE_REDUCTION: '0 = 50'
+  PVE_DAMAGE_REDUCTION: '0 = 50'
+  PVP_DAMAGE_REDUCTION: '0 = 50'
+
   # Add as many as you want.
 
 # This is where you can edit the base value of any stat. This has the
