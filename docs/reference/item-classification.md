@@ -87,6 +87,8 @@ Tất cả 15 bộ Trang Sức đều được cân bằng **ngang bằng ngân 
 
 ## 🐾 4. HỆ THỐNG PET (`PET` — 10 món)
 
+> **Chưa ra mắt:** các item dưới đây mới là cấu hình nội bộ, không thuộc nội dung người chơi hiện tại.
+
 - **Ô gắn**: RPGInventory / MMOInventory slot **PET** (slot 14).
 - **Chỉ số**: TRADE = DONATE (~50 pts/món). Không thuộc item-sets jewelry.
 - **Material**: `PLAYER_HEAD` (skin gắn sau). Chi tiết: [`pets.md`](../player/pets.md).

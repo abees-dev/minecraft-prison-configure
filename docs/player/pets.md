@@ -1,13 +1,15 @@
-# Hệ thống Pet — ghi chú
+# Hệ thống Pet — chưa ra mắt
 
 Cập nhật: 2026-07-29.
+
+> Trạng thái: **Chưa ra mắt**. Đây là ghi chú nội bộ về item/config đang chuẩn bị, không phải hướng dẫn tính năng dành cho người chơi. Không quảng bá, phân phối hoặc đưa Pet vào hành trình chơi cho đến khi hệ thống được hoàn thiện và kiểm thử.
 
 ## Trạng thái
 
 | Phần | Trạng thái |
 | --- | --- |
-| Type MMOItems `PET` + ô RPGInventory slot 14 | Đã có |
-| 10 pet TRADE/DONATE (chỉ số) | Đã có — [`plugins/MMOItems/item/pet.yml`](../../plugins/MMOItems/item/pet.yml) |
+| Type MMOItems `PET` + ô RPGInventory slot 14 | Đã cấu hình nội bộ |
+| 10 pet TRADE/DONATE (chỉ số) | Đã cấu hình nội bộ — [`plugins/MMOItems/item/pet.yml`](../../plugins/MMOItems/item/pet.yml) |
 | `skull-texture` / skin đầu | Chưa — gắn sau |
 | Phụ trợ đào (auto-pickup + buff bán) | **TODO CorePlugin** (không làm Skript) |
 

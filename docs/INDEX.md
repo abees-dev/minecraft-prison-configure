@@ -1,11 +1,12 @@
 # Mục lục tài liệu server
 
-Cập nhật: 2026-08-06. Bắt đầu tại [`README.md`](README.md).
+Cập nhật: 2026-08-08. Bắt đầu tại [`README.md`](README.md).
 
 ## Người chơi — live
 
 | Tài liệu | Nội dung |
 | --- | --- |
+| [`guide.md`](player/guide.md) | Cẩm nang hoàn chỉnh dành cho người chơi: cá nhân, đồng đội và endgame |
 | [`gameplay.md`](player/gameplay.md) | Journey Prison-RPG, đào, chiến đấu, Bang Hội và endgame |
 | [`gangs.md`](player/gangs.md) | Bang Hội, vault/bank, quest, KOTH và Bang Chiến |
 | [`gangs-discord.md`](player/gangs-discord.md) | Bản rút gọn để đăng Discord |
@@ -13,7 +14,6 @@ Cập nhật: 2026-08-06. Bắt đầu tại [`README.md`](README.md).
 | [`player/plots.md`](player/plots.md) | Khu đất cá nhân `world_plot` |
 | [`quests.md`](player/quests.md) | Daily/Weekly Quest cá nhân |
 | [`rank-ores-mobs.md`](reference/rank-ores-mobs.md) | Bảng ore/mob theo rank cho quest |
-| [`pets.md`](player/pets.md) | Pet TRADE/DONATE và trạng thái tính năng |
 | [`changelog.md`](player/changelog.md) | Thông báo cập nhật gameplay dành cho member |
 
 ## Admin và hệ thống — live
@@ -84,6 +84,7 @@ Cập nhật: 2026-08-06. Bắt đầu tại [`README.md`](README.md).
 
 | Tài liệu | Trạng thái |
 | --- | --- |
+| [`pets.md`](player/pets.md) | Chưa ra mắt — ghi chú nội bộ, không quảng bá cho người chơi |
 | [`prison-rpg-plan.md`](archive/prison-rpg-plan.md) | Draft/Historical — không phải runbook production |
 
 ## Quy tắc nguồn sự thật

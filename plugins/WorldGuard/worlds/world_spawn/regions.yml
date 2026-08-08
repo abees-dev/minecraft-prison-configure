@@ -17,6 +17,7 @@ regions:
             block-place: deny
             chest-access: deny
             pvp: deny
+            mob-spawning: deny
             tnt: deny
             creeper-explosion: deny
             other-explosion: deny

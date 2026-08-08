@@ -2,7 +2,7 @@
 
 Đây là điểm bắt đầu duy nhất của bộ tài liệu server. Chọn đúng nhóm bên dưới để tránh dùng nhầm ghi chú lịch sử hoặc cấu hình đã ngừng hoạt động.
 
-> Cập nhật: 2026-08-06 · Mục lục đầy đủ: [`INDEX.md`](INDEX.md)
+> Cập nhật: 2026-08-08 · Mục lục đầy đủ: [`INDEX.md`](INDEX.md)
 
 ## Cấu trúc thư mục
 
@@ -17,11 +17,12 @@
 
 ## Người chơi
 
-1. Bắt đầu với [`gameplay.md`](player/gameplay.md) để hiểu vòng lặp đào, chiến đấu và Bang Hội.
-2. Xem [`gangs.md`](player/gangs.md) cho Bang Hội, KOTH và Bang Chiến.
-3. Xem [`systems/rebirth-attributes.md`](systems/rebirth-attributes.md) cho Chuyển Sinh và điểm thuộc tính.
-4. Xem [`player/plots.md`](player/plots.md) cho khu đất cá nhân.
-5. Xem [`player/changelog.md`](player/changelog.md) để theo dõi các thay đổi gameplay mới nhất.
+1. Bắt đầu với [`guide.md`](player/guide.md) — cẩm nang hoàn chỉnh dành cho người chơi.
+2. Xem [`gameplay.md`](player/gameplay.md) nếu cần hiểu sâu thiết kế vòng lặp đào, chiến đấu và Bang Hội.
+3. Xem [`gangs.md`](player/gangs.md) cho Bang Hội, KOTH và Bang Chiến.
+4. Xem [`systems/rebirth-attributes.md`](systems/rebirth-attributes.md) cho Chuyển Sinh và điểm thuộc tính.
+5. Xem [`player/plots.md`](player/plots.md) cho khu đất cá nhân.
+6. Xem [`player/changelog.md`](player/changelog.md) để theo dõi các thay đổi gameplay mới nhất.
 
 ## Admin và vận hành
 
