@@ -313,40 +313,60 @@ items:
       - '&7Bank hiện tại: &e{bank}'
       - ''
       - '&a➤ Click để mua'
-    # {multiplier} {duration} {cost} {bank}
+    # {multiplier} {duration} {cost} {bank} {status} {remaining} {active-value} {source}
+    # sell-buff also has: {shop-status} {shop-remaining} {weekly-status} {weekly-remaining} {effective-sell-multiplier}
     sell-buff:
       material: GOLDEN_APPLE
       name: '&e&l💎 Buff Bán x{multiplier}'
       lore:
-      - '&7Nhân &e{multiplier}x &7tiền Bán Tất Cả'
-      - '&7Thời hạn: &e{duration}'
+      - '&7Hiệu ứng mua: &e{multiplier}x'
+      - '&7Thời hạn mua: &e{duration}'
+      - ''
+      - '&7Trạng thái: {status}'
+      - '&7Đang áp dụng: &e{active-value}'
+      - '&7Còn lại: &e{remaining}'
+      - '&7Nguồn: &e{source}'
+      - ''
+      - '&7[Shop] {shop-status} &8• &7Còn: &e{shop-remaining}'
+      - '&7[Weekly] {weekly-status} &8• &7Còn: &e{weekly-remaining}'
+      - '&7Multiplier Sell tổng: &e{effective-sell-multiplier}'
       - ''
       - '&7Giá: &e{cost}'
-      - '&7Bank hiện tại: &e{bank}'
+      - '&7Bank: &e{bank}'
       - ''
       - '&e➤ Click để mua'
-    # {amplifier} {duration} {cost} {bank}
+    # {amplifier} {multiplier} {duration} {cost} {bank} {status} {remaining} {active-value} {source}
     haste-buff:
       material: GOLDEN_PICKAXE
       name: '&e&l⛏ Buff Haste {amplifier}'
       lore:
-      - '&7Tăng tốc độ đào cho cả bang'
-      - '&7Thời hạn: &e{duration}'
+      - '&7Hiệu ứng mua: &e{multiplier}x'
+      - '&7Thời hạn mua: &e{duration}'
+      - ''
+      - '&7Trạng thái: {status}'
+      - '&7Đang áp dụng: &e{active-value}'
+      - '&7Còn lại: &e{remaining}'
+      - '&7Nguồn: &e{source}'
       - ''
       - '&7Giá: &e{cost}'
-      - '&7Bank hiện tại: &e{bank}'
+      - '&7Bank: &e{bank}'
       - ''
       - '&e➤ Click để mua'
-    # {multiplier} {duration} {cost} {bank}
+    # {multiplier} {duration} {cost} {bank} {status} {remaining} {active-value} {source}
     mmocore-exp-buff:
       material: EXPERIENCE_BOTTLE
-      name: '&a&l✦ Buff MMOCore EXP x{multiplier}'
+      name: '&a&l✦ Buff EXP x{multiplier}'
       lore:
-      - '&7Nhân EXP MMOCore cho mọi thành viên'
-      - '&7Thời hạn: &e{duration}'
+      - '&7Hiệu ứng mua: &e{multiplier}x'
+      - '&7Thời hạn mua: &e{duration}'
+      - ''
+      - '&7Trạng thái: {status}'
+      - '&7Đang áp dụng: &e{active-value}'
+      - '&7Còn lại: &e{remaining}'
+      - '&7Nguồn: &e{source}'
       - ''
       - '&7Giá: &e{cost}'
-      - '&7Bank hiện tại: &e{bank}'
+      - '&7Bank: &e{bank}'
       - ''
       - '&e➤ Click để mua'
     back:
@@ -581,6 +601,143 @@ items:
       - '&aĐã đạt cấp tối đa!'
       - ''
       - '&7Danh vọng bang: &e{reputation} &8• &7Bank: &e{bank}'
+    # Page 2 (5 new upgrades). {level} {max} {bonus} {cost-rep} {cost-money} {reputation} {bank}
+    vitality:
+      material: GOLDEN_APPLE
+      name: '&d&l❤ Vitality'
+      lore:
+      - '&7Level: &e{level}&7/&e{max}'
+      - '&7Máu tối đa: &e+{bonus} HP'
+      - ''
+      - '&7Chi phí lên cấp:'
+      - '&7  &8• &e{cost-rep} &7danh vọng'
+      - '&7  &8• &e{cost-money}'
+      - ''
+      - '&a➤ Click để nâng cấp'
+      - ''
+      - '&7Danh vọng bang: &e{reputation} &8• &7Bank: &e{bank}'
+    # {level} {max} {bonus} {reputation} {bank}
+    vitality-maxed:
+      material: GOLDEN_APPLE
+      name: '&d&l❤ Vitality'
+      lore:
+      - '&7Level: &e{level}&7/&e{max}'
+      - '&7Máu tối đa: &e+{bonus} HP'
+      - ''
+      - '&aĐã đạt cấp tối đa!'
+      - ''
+      - '&7Danh vọng bang: &e{reputation} &8• &7Bank: &e{bank}'
+    # {level} {max} {bonus} {cost-rep} {cost-money} {reputation} {bank}
+    pve-power:
+      material: DIAMOND_SWORD
+      name: '&c&l⚔ PvE Power'
+      lore:
+      - '&7Level: &e{level}&7/&e{max}'
+      - '&7Damage vs mob: &e+{bonus}%'
+      - ''
+      - '&7Chi phí lên cấp:'
+      - '&7  &8• &e{cost-rep} &7danh vọng'
+      - '&7  &8• &e{cost-money}'
+      - ''
+      - '&a➤ Click để nâng cấp'
+      - ''
+      - '&7Danh vọng bang: &e{reputation} &8• &7Bank: &e{bank}'
+    pve-power-maxed:
+      material: DIAMOND_SWORD
+      name: '&c&l⚔ PvE Power'
+      lore:
+      - '&7Level: &e{level}&7/&e{max}'
+      - '&7Damage vs mob: &e+{bonus}%'
+      - ''
+      - '&aĐã đạt cấp tối đa!'
+      - ''
+      - '&7Danh vọng bang: &e{reputation} &8• &7Bank: &e{bank}'
+    # {level} {max} {bonus} {cost-rep} {cost-money} {reputation} {bank}
+    pve-resilience:
+      material: TURTLE_HELMET
+      name: '&b&l🛡 PvE Resilience'
+      lore:
+      - '&7Level: &e{level}&7/&e{max}'
+      - '&7Giảm dmg từ mob: &e{bonus}%'
+      - ''
+      - '&7Chi phí lên cấp:'
+      - '&7  &8• &e{cost-rep} &7danh vọng'
+      - '&7  &8• &e{cost-money}'
+      - ''
+      - '&a➤ Click để nâng cấp'
+      - ''
+      - '&7Danh vọng bang: &e{reputation} &8• &7Bank: &e{bank}'
+    pve-resilience-maxed:
+      material: TURTLE_HELMET
+      name: '&b&l🛡 PvE Resilience'
+      lore:
+      - '&7Level: &e{level}&7/&e{max}'
+      - '&7Giảm dmg từ mob: &e{bonus}%'
+      - ''
+      - '&aĐã đạt cấp tối đa!'
+      - ''
+      - '&7Danh vọng bang: &e{reputation} &8• &7Bank: &e{bank}'
+    # {level} {max} {bonus} {cost-rep} {cost-money} {reputation} {bank}
+    buff-mastery:
+      material: CLOCK
+      name: '&6&l⏳ Buff Mastery'
+      lore:
+      - '&7Level: &e{level}&7/&e{max}'
+      - '&7Thời hạn buff Shop: &e+{bonus}%'
+      - ''
+      - '&7Chi phí lên cấp:'
+      - '&7  &8• &e{cost-rep} &7danh vọng'
+      - '&7  &8• &e{cost-money}'
+      - ''
+      - '&a➤ Click để nâng cấp'
+      - ''
+      - '&7Danh vọng bang: &e{reputation} &8• &7Bank: &e{bank}'
+    buff-mastery-maxed:
+      material: CLOCK
+      name: '&6&l⏳ Buff Mastery'
+      lore:
+      - '&7Level: &e{level}&7/&e{max}'
+      - '&7Thời hạn buff Shop: &e+{bonus}%'
+      - ''
+      - '&aĐã đạt cấp tối đa!'
+      - ''
+      - '&7Danh vọng bang: &e{reputation} &8• &7Bank: &e{bank}'
+    # {level} {max} {bonus} {cost-rep} {cost-money} {reputation} {bank}
+    boss-hunter:
+      material: NETHERITE_SWORD
+      name: '&4&l☠ Boss Hunter'
+      lore:
+      - '&7Level: &e{level}&7/&e{max}'
+      - '&7Damage vs Boss: &e+{bonus}%'
+      - ''
+      - '&7Chi phí lên cấp:'
+      - '&7  &8• &e{cost-rep} &7danh vọng'
+      - '&7  &8• &e{cost-money}'
+      - ''
+      - '&a➤ Click để nâng cấp'
+      - ''
+      - '&7Danh vọng bang: &e{reputation} &8• &7Bank: &e{bank}'
+    boss-hunter-maxed:
+      material: NETHERITE_SWORD
+      name: '&4&l☠ Boss Hunter'
+      lore:
+      - '&7Level: &e{level}&7/&e{max}'
+      - '&7Damage vs Boss: &e+{bonus}%'
+      - ''
+      - '&aĐã đạt cấp tối đa!'
+      - ''
+      - '&7Danh vọng bang: &e{reputation} &8• &7Bank: &e{bank}'
+    # {page} {pages} — pagination nav between page 1 (8 stat upgrades) and page 2 (5 new upgrades)
+    prev-page:
+      material: ARROW
+      name: '&7◀ Trang trước'
+      lore:
+      - '&8Trang &e{page}&7/&e{pages}'
+    next-page:
+      material: ARROW
+      name: '&7Trang sau ▶'
+      lore:
+      - '&8Trang &e{page}&7/&e{pages}'
     back:
       template: back-button
   

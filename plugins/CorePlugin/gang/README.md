@@ -37,8 +37,14 @@ Role: `LEADER` · `CO_LEADER` · `MEMBER`. Gate hành động trong `roles:`
   - Sell All (role) → tiền vào bank, có nhân Sell upgrade + buff shop/paragon
     (**đây là kênh sell-multiplier duy nhất** — `/sellgui` cá nhân không nhân).
 
-**Danh vọng (reputation):** cộng khi nạp kho (`reputation-per-item`). Dùng
-chung với money bank để mua Bang Level / upgrade permanent.
+**Danh vọng (reputation):** CHỈ cộng từ 4 nguồn — Shared Quest, Personal
+Quest, Weekly Quest, và admin `/gang givereputation` (qua
+`GangReputationService`). Đào/nạp kho, Sell All, KOTH, Bang Chiến (war) và
+giết mob ngoài quest **không** cộng danh vọng — đã hard-remove ở code, không
+chỉ config-gate (`reputation-per-item: 0`, `war.rewards.reputation: 0` chỉ để
+tương thích config cũ, không còn tác dụng). Bật `reputation.debug-source-log`
+để log mỗi lần cộng ra console (audit). Dùng chung với money bank để mua
+Bang Level / upgrade permanent.
 
 ### 1.3 Bang Level & Upgrade permanent
 
@@ -58,9 +64,25 @@ upgrade** theo `required-bang-levels`.
 | Quest Capacity | + daily opens shared quest |
 | Warlord | +% damage gây ra vs player bang khác |
 | KOTH Control | Capture nhanh hơn / defense dài hơn |
+| Vitality | +HP máu tối đa (AttributeModifier, join/leave/reload tự áp lại) |
+| PvE Power | +% damage gây ra cho mob thường (không áp dụng PvP) |
+| PvE Resilience | −% damage nhận từ mob thường (không áp dụng PvP) |
+| Buff Mastery | +% thời hạn buff Shop (sell/haste/mmocore-exp) lúc **mua** |
+| Boss Hunter | +% damage thêm vs boss (`upgrades.boss-hunter.boss-types`), cộng dồn với PvE Power nhưng tổng bị chặn ở `hard-cap` |
+
+GUI Nâng cấp có **2 trang**: trang 1 = 8 upgrade cũ + Bang Level/Paragon,
+trang 2 = 5 upgrade mới. Nút chuyển trang ở `gui.upgrade-pagination.prev-slot`
+/ `next-slot` (mặc định slot 45/53); vị trí trang hiện tại được giữ nguyên
+sau khi mua.
 
 Gate: để mua upgrade **Lv N** cần Bang Level ≥ `required-bang-levels[N-1]`.
 Thiếu list → fallback 1:1 (Lv N cần Bang Lv N).
+
+**Vitality** không áp dụng trong world/region nằm trong
+`upgrades.vitality.blacklist.worlds` / `.regions` (WorldGuard). **PvE
+Power/Resilience/Boss Hunter** chỉ tính khi bên còn lại (mob) không phải
+player và không phải ArmorStand/Citizens NPC — PvP vẫn do
+Warlord/Protection xử lý riêng.
 
 **Paragon Sell:** chỉ khi Bang Level max + `paragon.enabled` — cộng thêm %
 Sell (stack với Sell upgrade).
@@ -74,12 +96,17 @@ Trả **chỉ bank** (không rep):
 | Expand slots / capacity | Vĩnh viễn |
 | Buff Sell xN | Timed |
 | Buff Haste | Timed (áp online members) |
-| Buff MMOCore EXP | Timed (cần MMOCore) |
+| Buff EXP | Timed (cần soft-depend EXP) |
 
-Mặt bằng live 2026-08-08: Sell `x1.5`, Haste I và MMOCore EXP `x1.15`, đều
+Mặt bằng live 2026-08-08: Sell `x1.5`, Haste I và Buff EXP `x1.15`, đều
 30 phút. Giá lần lượt `100M / 50M / 75M` từ bank. Weekly Sell là `x1.25`
 trong 30 phút. GUI trạng thái buff đang chạy cần CorePlugin cung cấp thời gian
 còn lại; không thêm placeholder chưa được code hỗ trợ vào `gui.yml`.
+
+Upgrade **Buff Mastery** kéo dài thời hạn cả 3 buff Shop ở trên — tính lúc
+**mua**, không áp dụng lại cho buff đang chạy. Buff Weekly (miễn phí, xem
+1.5) mặc định **không** được Buff Mastery kéo dài — đổi bằng
+`weekly.apply-buff-mastery: true`.
 
 ### 1.5 Quest
 
@@ -176,6 +203,7 @@ DB: SQLite mặc định (`storage.sqlite.file`) hoặc MySQL (`storage.type: my
 ```yaml
 create.costs: [...]          # Phí tạo theo số bang hiện có
 gui.click-cooldown-millis    # Anti double-click menu
+gui.upgrade-pagination.prev-slot / next-slot  # Nút chuyển trang GUI Nâng cấp
 ```
 
 ### Upgrade + Bang Level
@@ -189,7 +217,18 @@ paragon.enabled / max-level / sell-bonus-per-level / costs
 ```
 
 Ví dụ mặc định: Sell/Magnet/Protection `[1,2,3,4,5]`; Quest `[2,3,4,6,8]`;
-Warlord/KOTH `[3,4,6,8,10]`.
+Warlord/KOTH `[3,4,6,8,10]`; Vitality/PvE Power/Resilience `[2,3,4,6,8]`;
+Buff Mastery `[3,4,6,8,10]`; Boss Hunter `[4,5,7,9,10]`.
+
+5 upgrade mới thêm effect-specific keys riêng:
+
+```yaml
+upgrades.vitality.health-per-level / blacklist.worlds / blacklist.regions
+upgrades.pve-power.damage-bonus-per-level / max-bonus
+upgrades.pve-resilience.reduction-per-level / max-reduction
+upgrades.buff-mastery.duration-bonus-per-level / max-bonus
+upgrades.boss-hunter.damage-bonus-per-level / max-bonus / boss-types / hard-cap
+```
 
 ### Quest shared
 
@@ -237,4 +276,5 @@ Xem comment trong `config.yml` tại các block `koth:`, `roles:`, `season:`,
 ---
 
 *CorePlugin module `gang` — cập nhật theo code hiện tại (upgrade gates,
-shop MMOCore EXP, Warlord/KOTH Control, GUI layout).*
+shop Buff EXP, Warlord/KOTH Control, Vitality/PvE Power/PvE Resilience/
+Buff Mastery/Boss Hunter, GUI Nâng cấp 2 trang).*

@@ -61,6 +61,9 @@ Nguồn cấu hình:
 
 Điểm, token, gem, danh vọng và chi phí vật phẩm không bị nhân trong đợt này.
 
+Danh vọng Bang chỉ được cấp qua quest cá nhân, quest chung và weekly quest.
+Đào/nạp vault, KOTH và Bang Chiến không được cộng danh vọng.
+
 ## Cân bằng Shop Bang 2026-08-08
 
 Sau test thực tế, giá buff cũ hoàn vốn chỉ trong vài giây nên đã chỉnh lại:

@@ -34,6 +34,10 @@ disband:
 gui:
   # Milliseconds between action clicks per player (spam guard).
   click-cooldown-millis: 100
+  # Upgrade GUI page 1/2 nav button slots (54-slot inventory, 0-53).
+  upgrade-pagination:
+    prev-slot: 45
+    next-slot: 53
 
 # Materials accepted into the vault (any pickaxe works — gated only by
 # the gang's vault toggle, see `vault:` below).
@@ -136,8 +140,15 @@ sell-prices:
   DEEPSLATE_DIAMOND_ORE: 1000
   DEEPSLATE_EMERALD_ORE: 1500
 
-# Danh vọng (reputation) gained per item deposited into the vault.
-reputation-per-item: 1
+# Danh vọng chỉ nhận từ quest. Tuyệt đối không cộng khi đào/nạp kho.
+# NOT reputation anymore — chỉ feed chỉ số "contribution" hiển thị trong gang
+# info, không spend được (xem GangReputationService).
+reputation-per-item: 0
+
+# When true, logs every gang reputation gain (gang/amount/source/player) to
+# the console. Useful for auditing that only quests/admin grant reputation.
+reputation:
+  debug-source-log: false
 
 # Phase 2 — permanent upgrades (paid with the gang's shared reputation AND
 # money from the gang bank — both are required). Each tier lists the minimum
@@ -324,6 +335,136 @@ upgrades:
     # Seconds shaved off capture / added to post-capture defense per level.
     capture-seconds-per-level: 4
     defense-seconds-per-level: 5
+  vitality:
+    max-level: 5
+    required-bang-levels:
+      - 2
+      - 3
+      - 4
+      - 6
+      - 8
+    reputation-costs:
+      - 150
+      - 300
+      - 600
+      - 1200
+      - 2400
+    money-costs:
+      - 7500000
+      - 20000000
+      - 50000000
+      - 120000000
+      - 250000000
+    # Flat max-health bonus (in half-hearts/HP, 2 HP = 1 heart) per level,
+    # applied via an AttributeModifier — never touches MMOItems/MMOCore's
+    # own max-health stat.
+    health-per-level: 2.0
+    # Worlds/WorldGuard regions where the Vitality bonus never applies
+    # (e.g. minigame arenas). Case-insensitive.
+    blacklist:
+      worlds: []
+      regions: []
+  pve-power:
+    max-level: 5
+    required-bang-levels:
+      - 2
+      - 3
+      - 4
+      - 6
+      - 8
+    reputation-costs:
+      - 150
+      - 300
+      - 600
+      - 1200
+      - 2400
+    money-costs:
+      - 7500000
+      - 20000000
+      - 50000000
+      - 120000000
+      - 250000000
+    # Extra % damage dealt to non-player mobs per level (capped at max-bonus).
+    damage-bonus-per-level: 0.03
+    max-bonus: 0.3
+  pve-resilience:
+    max-level: 5
+    required-bang-levels:
+      - 2
+      - 3
+      - 4
+      - 6
+      - 8
+    reputation-costs:
+      - 150
+      - 300
+      - 600
+      - 1200
+      - 2400
+    money-costs:
+      - 7500000
+      - 20000000
+      - 50000000
+      - 120000000
+      - 250000000
+    # % damage reduction taken from non-player mobs per level (capped at max-reduction).
+    reduction-per-level: 0.03
+    max-reduction: 0.3
+  buff-mastery:
+    max-level: 5
+    required-bang-levels:
+      - 3
+      - 4
+      - 6
+      - 8
+      - 10
+    reputation-costs:
+      - 150
+      - 300
+      - 600
+      - 1200
+      - 2400
+    money-costs:
+      - 7500000
+      - 20000000
+      - 50000000
+      - 120000000
+      - 250000000
+    # Extra % duration applied to Gang Shop buffs (sell/haste/mmocore-exp)
+    # at PURCHASE time only — never re-applies retroactively to an already
+    # active buff, and by default does not stretch the free Weekly Sell
+    # Buff (see weekly.apply-buff-mastery below).
+    duration-bonus-per-level: 0.05
+    max-bonus: 0.5
+  boss-hunter:
+    max-level: 5
+    required-bang-levels:
+      - 4
+      - 5
+      - 7
+      - 9
+      - 10
+    reputation-costs:
+      - 200
+      - 400
+      - 800
+      - 1600
+      - 3200
+    money-costs:
+      - 10000000
+      - 25000000
+      - 60000000
+      - 150000000
+      - 300000000
+    # Extra % damage dealt to configured MythicMobs bosses per level, ON TOP
+    # of pve-power's bonus — the combined total is clamped at hard-cap.
+    damage-bonus-per-level: 0.05
+    max-bonus: 0.5
+    # MythicMobs internal mob-type ids (getMobType) treated as bosses.
+    # Case-insensitive; blank entries are dropped with a warning on reload.
+    boss-types: []
+    # Combined PvE Power + Boss Hunter damage multiplier cap on a single hit.
+    hard-cap: 0.25
 
 # Bang Level — permanent gang-wide progression, paid with gang reputation
 # (danh vọng) AND money from the gang bank (both required). Each level:
@@ -529,6 +670,9 @@ weekly:
   season-points: 50
   # Broadcast weekly completions to the top-N gangs of the season.
   top-broadcast: 3
+  # Whether Buff Mastery's duration bonus also stretches this FREE reward
+  # buff. Default false: Buff Mastery only stretches paid Gang Shop buffs.
+  apply-buff-mastery: false
 
 # Phase 2 — Paragon Sell prestige (only once Bang Level is maxed).
 paragon:
@@ -616,7 +760,8 @@ war:
       display: "&eCổng Bắc"
   rewards:
     bank: 2000000
-    reputation: 500
+    # Danh vọng chỉ đến từ quest; Bang Chiến không thưởng reputation.
+    reputation: 0
     season-points: 100
   boss-bar:
     enabled: true

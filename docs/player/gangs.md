@@ -56,7 +56,7 @@ Leader **không** leave được — phải `/gang promote` rồi leave, hoặc 
 
 1. Đào mỏ theo rank → giữ quặng whitelist (xem §4).
 2. `/gang` → **Kho** → bỏ quặng vào (hoặc bật auto-nạp nếu đủ Bang Lv).
-3. Leader/Co: **Bán Tất Cả** → tiền + danh vọng phục vụ nâng cấp.
+3. Leader/Co: **Bán Tất Cả** → tiền vào bank; danh vọng chỉ nhận qua nhiệm vụ.
 4. `/gang personal` — 2 quest cá nhân/ngày → `/gang personal claim` (+5k tiền, +20 danh vọng bang).
 5. Leader/Co mở `/gang quest` shared nếu còn lượt ngày.
 6. Check `/gang koth` — tranh Mỏ VIP khi bang online.

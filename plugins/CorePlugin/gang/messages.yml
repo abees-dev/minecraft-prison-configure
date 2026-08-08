@@ -12,7 +12,7 @@ no-gang: '&c✦ &fBạn chưa có bang hội!'
 already-in-gang: '&c✦ &fBạn đã ở trong một bang hội rồi!'
 target-in-gang: '&c✦ &fNgười chơi đó đã có bang hội!'
 no-permission-role: '&c✦ &fBạn không đủ quyền trong bang!'
-economy-missing: '&c✦ &fHệ thống economy (Vault) chưa sẵn sàng!'
+economy-missing: '&c✦ &fHệ thống economy chưa sẵn sàng!'
 not-enough-money: '&c✦ &fKhông đủ tiền! Cần &e{amount}&f.'
 not-enough-bank: '&c✦ &fNgân hàng bang không đủ! Cần &e{amount}&f.'
 name-taken: '&c✦ &fTên bang đã được dùng!'
@@ -78,6 +78,12 @@ vault-taken: '&a✦ &fĐã lấy &e{amount}x {material} &ftừ kho bang.'
 vault-busy: '&c✦ &fKho bang đang được thành viên khác thao tác!'
 vault-inventory-full: '&c✦ &fTúi đồ đã đầy, không thể lấy thêm!'
 shop-bought: '&a✦ &fĐã mua &e{item}&f! Trừ bank &e{cost}&f.'
+shop-buff-bought: |-
+  &a✦ &fĐã mua &e{item}&f, trừ &e{cost}&f.
+  &7Buff đang hoạt động:
+  &7- Sell: &e{sell-value} &7— còn &e{sell-remaining}
+  &7- Haste: &e{haste-value} &7— còn &e{haste-remaining}
+  &7- EXP: &e{exp-value} &7— còn &e{exp-remaining}
 vault-enabled: '&a✦ &fĐã &a&lBẬT &fnạp kho — khoáng bạn đào sẽ tự nạp vào kho bang.'
 vault-disabled: '&e✦ &fĐã &c&lTẮT &fnạp kho — khoáng bạn đào sẽ rơi bình thường &7(farm
   riêng)&f.'
@@ -92,6 +98,9 @@ upgrade-max: '&c✦ &fUpgrade này đã đạt cấp tối đa!'
 upgrade-need-bang-level: '&c✦ &fCần Bang Lv &e{need} &fđể nâng &e{type} &flên cấp
   &e{level}&f (hiện &e{have}&f).'
 not-enough-reputation: '&c✦ &fBang không đủ danh vọng! Cần &e{need}&f, hiện có &e{have}&f.'
+upgrade-not-enough-reputation: '&c✦ &fBang không đủ danh vọng! Cần &e{need}&f, hiện có &e{have}&f.'
+upgrade-not-enough-money: '&c✦ &fNgân hàng bang không đủ! Cần &e{amount}&f.'
+upgrade-purchase-failed: '&c✦ &fGiao dịch thất bại &7(lỗi dữ liệu)&f. Danh vọng/tiền của bang không bị trừ. Thử lại!'
 upgrade-success: |-
   &a&l━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
    &a✦ &fNâng cấp &a&l{type} &flên &a&lCấp {level}&r&f!
@@ -243,7 +252,7 @@ join-create-invalid: '&c✦ &fCú pháp không hợp lệ! Gõ &e<tên> <prefix>
 join-create-cancelled: '&e✦ &fĐã hủy tạo bang.'
 join-create-expired: '&c✦ &fHết thời gian nhập tên bang.'
 war-disabled: '&c✦ &fSự kiện Bang Chiến đang tắt.'
-war-no-worldguard: '&c✦ &fCần WorldGuard để chạy Bang Chiến.'
+war-no-worldguard: '&c✦ &fKhông thể chạy Bang Chiến — hệ thống khu vực chưa sẵn sàng.'
 war-already-active: '&c✦ &fBang Chiến đang diễn ra rồi.'
 war-not-active: '&c✦ &fKhông có Bang Chiến đang chạy.'
 war-spawn-missing: '&c✦ &fChưa đặt spawn arena. Admin: &e/gang war setspawn'
