@@ -53,7 +53,7 @@ Role: Leader (full) · Co (invite/sell/upgrade/quest Lv1) · Member (nạp + là
 ⬆ NÂNG CẤP (ưu tiên)
 Sớm: Sell → Magnet → Quest (Capacity/Efficiency)
 Muộn: Warlord / Protection / KOTH Control
-Shop: mở rộng kho + buff tạm (Sell×2, Haste, EXP)
+Shop: mở rộng kho + buff 30 phút (Sell×1,5, Haste I, EXP×1,15)
 
 /gang bank nap|rut <số>
 /gang upgrade · /gang shop · /gang vault

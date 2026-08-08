@@ -161,11 +161,11 @@ upgrades:
       - 2000
     # Money cost (from gang bank), same indexing as reputation-costs above.
     money-costs:
-      - 500000
-      - 1500000
-      - 4000000
-      - 9000000
-      - 20000000
+      - 5000000
+      - 15000000
+      - 40000000
+      - 90000000
+      - 200000000
     multiplier-per-level: 0.1
   magnet:
     max-level: 5
@@ -182,11 +182,11 @@ upgrades:
       - 1000
       - 2000
     money-costs:
-      - 500000
-      - 1500000
-      - 4000000
-      - 9000000
-      - 20000000
+      - 5000000
+      - 15000000
+      - 40000000
+      - 90000000
+      - 200000000
     # Extra % ores deposited into vault per level.
     bonus-percent-per-level: 5
   protection:
@@ -204,11 +204,11 @@ upgrades:
       - 1200
       - 2400
     money-costs:
-      - 750000
-      - 2000000
-      - 5000000
-      - 12000000
-      - 25000000
+      - 7500000
+      - 20000000
+      - 50000000
+      - 120000000
+      - 250000000
     reduction-per-level: 0.05
     max-reduction: 0.4
   quest-mastery:
@@ -226,11 +226,11 @@ upgrades:
       - 1200
       - 2400
     money-costs:
-      - 750000
-      - 2000000
-      - 5000000
-      - 12000000
-      - 25000000
+      - 7500000
+      - 20000000
+      - 50000000
+      - 120000000
+      - 250000000
     # Extra % reputation + season points on shared-quest clear.
     reward-bonus-per-level: 0.05
   quest-efficiency:
@@ -248,11 +248,11 @@ upgrades:
       - 1200
       - 2400
     money-costs:
-      - 750000
-      - 2000000
-      - 5000000
-      - 12000000
-      - 25000000
+      - 7500000
+      - 20000000
+      - 50000000
+      - 120000000
+      - 250000000
     # % off open/reset money+reputation costs.
     cost-reduction-per-level: 0.05
     max-reduction: 0.4
@@ -271,11 +271,11 @@ upgrades:
       - 1200
       - 2400
     money-costs:
-      - 750000
-      - 2000000
-      - 5000000
-      - 12000000
-      - 25000000
+      - 7500000
+      - 20000000
+      - 50000000
+      - 120000000
+      - 250000000
     # Extra shared-quest daily opens per level.
     opens-per-level: 1
   warlord:
@@ -293,11 +293,11 @@ upgrades:
       - 1200
       - 2400
     money-costs:
-      - 750000
-      - 2000000
-      - 5000000
-      - 12000000
-      - 25000000
+      - 7500000
+      - 20000000
+      - 50000000
+      - 120000000
+      - 250000000
     # Extra % PvP damage vs players in another gang.
     damage-bonus-per-level: 0.04
     max-bonus: 0.2
@@ -316,11 +316,11 @@ upgrades:
       - 1200
       - 2400
     money-costs:
-      - 750000
-      - 2000000
-      - 5000000
-      - 12000000
-      - 25000000
+      - 7500000
+      - 20000000
+      - 50000000
+      - 120000000
+      - 250000000
     # Seconds shaved off capture / added to post-capture defense per level.
     capture-seconds-per-level: 4
     defense-seconds-per-level: 5
@@ -460,24 +460,24 @@ koth:
 
 shop:
   expand-slots:
-    cost: 500000
+    cost: 5000000
     amount: 1
   expand-capacity:
-    cost: 25000000
+    cost: 250000000
     amount: 500
   buff-sell-2x:
-    cost: 1000000
-    duration-seconds: 3600
-    multiplier: 2.0
+    cost: 100000000
+    duration-seconds: 1800
+    multiplier: 1.5
   buff-haste:
-    cost: 500000
-    duration-seconds: 3600
-    amplifier: 2
+    cost: 50000000
+    duration-seconds: 1800
+    amplifier: 1
   buff-mmocore-exp:
-    cost: 750000
-    duration-seconds: 3600
+    cost: 75000000
+    duration-seconds: 1800
     # Multiplier on MMOCore EXP gains for all gang members while active.
-    multiplier: 1.25
+    multiplier: 1.15
 
 # Phase 1 — role gates. Each action lists the roles allowed to perform it.
 # LEADER-only disband is hardcoded and not configurable here.
@@ -524,8 +524,8 @@ weekly:
   # Distinct quests rolled per gang per week.
   pick-count: 4
   reward-reputation: 800
-  reward-sell-buff-seconds: 3600
-  reward-sell-buff-multiplier: 2.0
+  reward-sell-buff-seconds: 1800
+  reward-sell-buff-multiplier: 1.25
   season-points: 50
   # Broadcast weekly completions to the top-N gangs of the season.
   top-broadcast: 3

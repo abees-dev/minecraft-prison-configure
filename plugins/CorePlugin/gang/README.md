@@ -76,6 +76,11 @@ Trả **chỉ bank** (không rep):
 | Buff Haste | Timed (áp online members) |
 | Buff MMOCore EXP | Timed (cần MMOCore) |
 
+Mặt bằng live 2026-08-08: Sell `x1.5`, Haste I và MMOCore EXP `x1.15`, đều
+30 phút. Giá lần lượt `100M / 50M / 75M` từ bank. Weekly Sell là `x1.25`
+trong 30 phút. GUI trạng thái buff đang chạy cần CorePlugin cung cấp thời gian
+còn lại; không thêm placeholder chưa được code hỗ trợ vào `gui.yml`.
+
 ### 1.5 Quest
 
 **Shared board (GUI `/gang quest`):**

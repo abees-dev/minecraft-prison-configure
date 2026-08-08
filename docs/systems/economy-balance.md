@@ -20,7 +20,8 @@ Hệ số Bang gồm:
 
 - Sell Upgrade: `+10%` mỗi cấp, tối đa `+50%`.
 - Paragon Sell: `+1%` mỗi cấp, tối đa `+20%`.
-- Buff Sell trong shop hoặc thưởng tuần: hệ số cấu hình, hiện là `x2`.
+- Buff Sell shop: hiện `x1,5` trong 30 phút, giá `100M` bank.
+- Buff Sell thưởng tuần: hiện `x1,25` trong 30 phút.
 
 Mốc kiểm thử nền: cuốc max, map gần cuối, Bang chưa nâng Sell đạt khoảng
 `5 triệu/phút`. Các multiplier được áp dụng sau mốc nền này.
@@ -60,6 +61,22 @@ Nguồn cấu hình:
 
 Điểm, token, gem, danh vọng và chi phí vật phẩm không bị nhân trong đợt này.
 
+## Cân bằng Shop Bang 2026-08-08
+
+Sau test thực tế, giá buff cũ hoàn vốn chỉ trong vài giây nên đã chỉnh lại:
+
+| Hạng mục | Giá | Hiệu lực |
+| --- | ---: | --- |
+| Mở slot thành viên | 5M | +1 slot vĩnh viễn |
+| Mở sức chứa kho | 250M | +500 vĩnh viễn |
+| Buff Sell | 100M | ×1,5 trong 30 phút |
+| Buff Haste | 50M | Haste I trong 30 phút |
+| Buff MMOCore EXP | 75M | ×1,15 trong 30 phút |
+| Weekly Sell | Thưởng quest | ×1,25 trong 30 phút |
+
+Money cost của toàn bộ permanent upgrade cũng tăng thêm `×10`. Riêng đường
+Sell Upgrade tốn tổng `350M` để đạt cấp 5, thay vì `35M`.
+
 ## Quy tắc quy đổi và chống lách giá
 
 - Ore có cùng giá với item thô tương ứng.
@@ -74,7 +91,7 @@ Nguồn cấu hình:
 2. Dọn sạch vault, đào đúng 60 giây tại map 8 và map 9.
 3. Ghi số lượng từng item trong vault rồi bấm **Bán Tất Cả**.
 4. Đối chiếu tiền thực nhận với công thức trong tài liệu này.
-5. Lặp lại với Sell cấp 5, Paragon tối đa và buff `x2` riêng biệt.
+5. Lặp lại với Sell cấp 5, Paragon tối đa và buff Sell `x1,5` riêng biệt.
 6. Nếu chỉnh giá bán, đồng bộ cả Gang và EconomyShopGUI.
 7. Nếu chỉnh giá bán theo hệ số `k`, chỉnh money sink chính cùng hệ số `k`.
 

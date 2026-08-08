@@ -74,7 +74,7 @@ Leader **không** leave được — phải `/gang promote` rồi leave, hoặc 
 - Có thể lấy quặng ra; **cùng lúc chỉ 1 người mở kho** (chống dupe).
 - **Bán Tất Cả** (Leader/Co): tiền vào **bank bang**, nhân bởi:
   - Upgrade **Sell** (+10%/cấp, tối đa 5)
-  - Buff shop Sell ×2 (1 giờ)
+  - Buff shop Sell ×1,5 (30 phút)
   - **Paragon Sell** (sau khi Bang Level max)
 
 ### Ngân hàng
@@ -119,7 +119,7 @@ Cùng bang: **không** áp Warlord/Protection (friendly fire vẫn full ngoài w
 ### Shop (chỉ trừ bank)
 
 - Mở rộng slot / sức chứa kho (vĩnh viễn)
-- Buff tạm: Sell ×2, Haste, EXP MMOCore ×1.25 (mỗi buff ~1 giờ)
+- Buff tạm: Sell ×1,5, Haste I, EXP MMOCore ×1,15 (mỗi buff 30 phút)
 
 ### Paragon Sell
 
