@@ -1,6 +1,7 @@
+# balanced-random-gems: 1
 RED_GEM_LV1:
   base:
-    revision-id: 4
+    revision-id: 5
     material: PAPER
     custom-model-data: 15008
     name: "&c&lHồng Ngọc &e&lLv.I"
@@ -9,14 +10,17 @@ RED_GEM_LV1:
     lore:
       - "&7Đá quý mang năng lượng nguyên tố Hỏa."
       - "&7Kéo thả vào trang bị có ô khảm để tăng sát thương."
-    attack-damage: 1.3
+      - "&8Chỉ số được tạo ngẫu nhiên khi nhận đá."
+    attack-damage:
+      min: 0.9
+      max: 1.1
     unstackable: true
     will-break: false
     unbreakable: true
 
 RED_GEM_LV2:
   base:
-    revision-id: 4
+    revision-id: 5
     material: PAPER
     custom-model-data: 15008
     name: "&c&lHồng Ngọc &e&lLv.II"
@@ -25,14 +29,17 @@ RED_GEM_LV2:
     lore:
       - "&7Đá quý mang năng lượng nguyên tố Hỏa."
       - "&7Kéo thả vào trang bị có ô khảm để tăng sát thương."
-    attack-damage: 2
+      - "&8Chỉ số được tạo ngẫu nhiên khi nhận đá."
+    attack-damage:
+      min: 1.35
+      max: 1.65
     unstackable: true
     will-break: false
     unbreakable: true
 
 RED_GEM_LV3:
   base:
-    revision-id: 4
+    revision-id: 5
     material: PAPER
     custom-model-data: 15008
     name: "&c&lHồng Ngọc &e&lLv.III"
@@ -41,14 +48,17 @@ RED_GEM_LV3:
     lore:
       - "&7Đá quý mang năng lượng nguyên tố Hỏa."
       - "&7Kéo thả vào trang bị có ô khảm để tăng sát thương."
-    attack-damage: 2.8
+      - "&8Chỉ số được tạo ngẫu nhiên khi nhận đá."
+    attack-damage:
+      min: 1.89
+      max: 2.31
     unstackable: true
     will-break: false
     unbreakable: true
 
 RED_GEM_LV4:
   base:
-    revision-id: 4
+    revision-id: 5
     material: PAPER
     custom-model-data: 15008
     name: "&c&lHồng Ngọc &e&lLv.IV"
@@ -57,14 +67,17 @@ RED_GEM_LV4:
     lore:
       - "&7Đá quý mang năng lượng nguyên tố Hỏa."
       - "&7Kéo thả vào trang bị có ô khảm để tăng sát thương."
-    attack-damage: 3.5
+      - "&8Chỉ số được tạo ngẫu nhiên khi nhận đá."
+    attack-damage:
+      min: 2.52
+      max: 3.08
     unstackable: true
     will-break: false
     unbreakable: true
 
 RED_GEM_LV5:
   base:
-    revision-id: 4
+    revision-id: 5
     material: PAPER
     custom-model-data: 15008
     name: "&c&lHồng Ngọc &e&lLv.V"
@@ -73,14 +86,17 @@ RED_GEM_LV5:
     lore:
       - "&7Đá quý mang năng lượng nguyên tố Hỏa."
       - "&7Kéo thả vào trang bị có ô khảm để tăng sát thương."
-    attack-damage: 4.3
+      - "&8Chỉ số được tạo ngẫu nhiên khi nhận đá."
+    attack-damage:
+      min: 3.24
+      max: 3.96
     unstackable: true
     will-break: false
     unbreakable: true
 
 RED_GEM_LV6:
   base:
-    revision-id: 4
+    revision-id: 5
     material: PAPER
     custom-model-data: 15008
     name: "&c&lHồng Ngọc &e&lLv.VI"
@@ -89,14 +105,17 @@ RED_GEM_LV6:
     lore:
       - "&7Đá quý mang năng lượng nguyên tố Hỏa."
       - "&7Kéo thả vào trang bị có ô khảm để tăng sát thương."
-    attack-damage: 5
+      - "&8Chỉ số được tạo ngẫu nhiên khi nhận đá."
+    attack-damage:
+      min: 4.05
+      max: 4.95
     unstackable: true
     will-break: false
     unbreakable: true
 
 RED_GEM_LV7:
   base:
-    revision-id: 4
+    revision-id: 5
     material: PAPER
     custom-model-data: 15008
     name: "&c&lHồng Ngọc &e&lLv.VII"
@@ -105,14 +124,17 @@ RED_GEM_LV7:
     lore:
       - "&7Đá quý mang năng lượng nguyên tố Hỏa."
       - "&7Kéo thả vào trang bị có ô khảm để tăng sát thương."
-    attack-damage: 5.8
+      - "&8Chỉ số được tạo ngẫu nhiên khi nhận đá."
+    attack-damage:
+      min: 4.95
+      max: 6.05
     unstackable: true
     will-break: false
     unbreakable: true
 
 RED_GEM_LV8:
   base:
-    revision-id: 4
+    revision-id: 5
     material: PAPER
     custom-model-data: 15008
     name: "&c&lHồng Ngọc &e&lLv.VIII"
@@ -121,14 +143,17 @@ RED_GEM_LV8:
     lore:
       - "&7Đá quý mang năng lượng nguyên tố Hỏa."
       - "&7Kéo thả vào trang bị có ô khảm để tăng sát thương."
-    attack-damage: 6.5
+      - "&8Chỉ số được tạo ngẫu nhiên khi nhận đá."
+    attack-damage:
+      min: 5.94
+      max: 7.26
     unstackable: true
     will-break: false
     unbreakable: true
 
 RED_GEM_LV9:
   base:
-    revision-id: 4
+    revision-id: 5
     material: PAPER
     custom-model-data: 15008
     name: "&c&lHồng Ngọc &e&lLv.IX"
@@ -137,14 +162,17 @@ RED_GEM_LV9:
     lore:
       - "&7Đá quý mang năng lượng nguyên tố Hỏa."
       - "&7Kéo thả vào trang bị có ô khảm để tăng sát thương."
-    attack-damage: 7.3
+      - "&8Chỉ số được tạo ngẫu nhiên khi nhận đá."
+    attack-damage:
+      min: 7.02
+      max: 8.58
     unstackable: true
     will-break: false
     unbreakable: true
 
 RED_GEM_LV10:
   base:
-    revision-id: 4
+    revision-id: 5
     material: PAPER
     custom-model-data: 15008
     name: "&c&lHồng Ngọc &e&lLv.X"
@@ -153,14 +181,17 @@ RED_GEM_LV10:
     lore:
       - "&7Đá quý mang năng lượng nguyên tố Hỏa."
       - "&7Kéo thả vào trang bị có ô khảm để tăng sát thương."
-    attack-damage: 8
+      - "&8Chỉ số được tạo ngẫu nhiên khi nhận đá."
+    attack-damage:
+      min: 8.1
+      max: 9.9
     unstackable: true
     will-break: false
     unbreakable: true
 
 BLUE_GEM_LV1:
   base:
-    revision-id: 4
+    revision-id: 5
     material: PAPER
     custom-model-data: 15002
     name: "&9&lLam Ngọc &e&lLv.I"
@@ -169,14 +200,17 @@ BLUE_GEM_LV1:
     lore:
       - "&7Đá quý mang năng lượng nguyên tố Nước."
       - "&7Kéo thả vào trang bị có ô khảm để tăng Năng Lượng."
-    max-mana: 12
+      - "&8Chỉ số được tạo ngẫu nhiên khi nhận đá."
+    max-mana:
+      min: 9
+      max: 11
     unstackable: true
     will-break: false
     unbreakable: true
 
 BLUE_GEM_LV2:
   base:
-    revision-id: 4
+    revision-id: 5
     material: PAPER
     custom-model-data: 15002
     name: "&9&lLam Ngọc &e&lLv.II"
@@ -185,14 +219,17 @@ BLUE_GEM_LV2:
     lore:
       - "&7Đá quý mang năng lượng nguyên tố Nước."
       - "&7Kéo thả vào trang bị có ô khảm để tăng Năng Lượng."
-    max-mana: 20
+      - "&8Chỉ số được tạo ngẫu nhiên khi nhận đá."
+    max-mana:
+      min: 16.2
+      max: 19.8
     unstackable: true
     will-break: false
     unbreakable: true
 
 BLUE_GEM_LV3:
   base:
-    revision-id: 4
+    revision-id: 5
     material: PAPER
     custom-model-data: 15002
     name: "&9&lLam Ngọc &e&lLv.III"
@@ -201,14 +238,17 @@ BLUE_GEM_LV3:
     lore:
       - "&7Đá quý mang năng lượng nguyên tố Nước."
       - "&7Kéo thả vào trang bị có ô khảm để tăng Năng Lượng."
-    max-mana: 27
+      - "&8Chỉ số được tạo ngẫu nhiên khi nhận đá."
+    max-mana:
+      min: 25.2
+      max: 30.8
     unstackable: true
     will-break: false
     unbreakable: true
 
 BLUE_GEM_LV4:
   base:
-    revision-id: 4
+    revision-id: 5
     material: PAPER
     custom-model-data: 15002
     name: "&9&lLam Ngọc &e&lLv.IV"
@@ -217,14 +257,17 @@ BLUE_GEM_LV4:
     lore:
       - "&7Đá quý mang năng lượng nguyên tố Nước."
       - "&7Kéo thả vào trang bị có ô khảm để tăng Năng Lượng."
-    max-mana: 35
+      - "&8Chỉ số được tạo ngẫu nhiên khi nhận đá."
+    max-mana:
+      min: 36
+      max: 44
     unstackable: true
     will-break: false
     unbreakable: true
 
 BLUE_GEM_LV5:
   base:
-    revision-id: 4
+    revision-id: 5
     material: PAPER
     custom-model-data: 15002
     name: "&9&lLam Ngọc &e&lLv.V"
@@ -233,14 +276,17 @@ BLUE_GEM_LV5:
     lore:
       - "&7Đá quý mang năng lượng nguyên tố Nước."
       - "&7Kéo thả vào trang bị có ô khảm để tăng Năng Lượng."
-    max-mana: 42
+      - "&8Chỉ số được tạo ngẫu nhiên khi nhận đá."
+    max-mana:
+      min: 49.5
+      max: 60.5
     unstackable: true
     will-break: false
     unbreakable: true
 
 BLUE_GEM_LV6:
   base:
-    revision-id: 4
+    revision-id: 5
     material: PAPER
     custom-model-data: 15002
     name: "&9&lLam Ngọc &e&lLv.VI"
@@ -249,14 +295,17 @@ BLUE_GEM_LV6:
     lore:
       - "&7Đá quý mang năng lượng nguyên tố Nước."
       - "&7Kéo thả vào trang bị có ô khảm để tăng Năng Lượng."
-    max-mana: 50
+      - "&8Chỉ số được tạo ngẫu nhiên khi nhận đá."
+    max-mana:
+      min: 64.8
+      max: 79.2
     unstackable: true
     will-break: false
     unbreakable: true
 
 BLUE_GEM_LV7:
   base:
-    revision-id: 4
+    revision-id: 5
     material: PAPER
     custom-model-data: 15002
     name: "&9&lLam Ngọc &e&lLv.VII"
@@ -265,14 +314,17 @@ BLUE_GEM_LV7:
     lore:
       - "&7Đá quý mang năng lượng nguyên tố Nước."
       - "&7Kéo thả vào trang bị có ô khảm để tăng Năng Lượng."
-    max-mana: 57
+      - "&8Chỉ số được tạo ngẫu nhiên khi nhận đá."
+    max-mana:
+      min: 81
+      max: 99
     unstackable: true
     will-break: false
     unbreakable: true
 
 BLUE_GEM_LV8:
   base:
-    revision-id: 4
+    revision-id: 5
     material: PAPER
     custom-model-data: 15002
     name: "&9&lLam Ngọc &e&lLv.VIII"
@@ -281,14 +333,17 @@ BLUE_GEM_LV8:
     lore:
       - "&7Đá quý mang năng lượng nguyên tố Nước."
       - "&7Kéo thả vào trang bị có ô khảm để tăng Năng Lượng."
-    max-mana: 65
+      - "&8Chỉ số được tạo ngẫu nhiên khi nhận đá."
+    max-mana:
+      min: 99
+      max: 121
     unstackable: true
     will-break: false
     unbreakable: true
 
 BLUE_GEM_LV9:
   base:
-    revision-id: 4
+    revision-id: 5
     material: PAPER
     custom-model-data: 15002
     name: "&9&lLam Ngọc &e&lLv.IX"
@@ -297,14 +352,17 @@ BLUE_GEM_LV9:
     lore:
       - "&7Đá quý mang năng lượng nguyên tố Nước."
       - "&7Kéo thả vào trang bị có ô khảm để tăng Năng Lượng."
-    max-mana: 72
+      - "&8Chỉ số được tạo ngẫu nhiên khi nhận đá."
+    max-mana:
+      min: 121.5
+      max: 148.5
     unstackable: true
     will-break: false
     unbreakable: true
 
 BLUE_GEM_LV10:
   base:
-    revision-id: 4
+    revision-id: 5
     material: PAPER
     custom-model-data: 15002
     name: "&9&lLam Ngọc &e&lLv.X"
@@ -313,14 +371,17 @@ BLUE_GEM_LV10:
     lore:
       - "&7Đá quý mang năng lượng nguyên tố Nước."
       - "&7Kéo thả vào trang bị có ô khảm để tăng Năng Lượng."
-    max-mana: 80
+      - "&8Chỉ số được tạo ngẫu nhiên khi nhận đá."
+    max-mana:
+      min: 144
+      max: 176
     unstackable: true
     will-break: false
     unbreakable: true
 
 GREEN_GEM_LV1:
   base:
-    revision-id: 5
+    revision-id: 6
     material: PAPER
     custom-model-data: 15005
     name: "&a&lLục Ngọc &e&lLv.I"
@@ -329,14 +390,17 @@ GREEN_GEM_LV1:
     lore:
       - "&7Đá quý mang năng lượng nguyên tố Phong."
       - "&7Kéo thả vào trang bị có ô khảm để tăng Máu Tối Đa."
-    max-health: 4.5
+      - "&8Chỉ số được tạo ngẫu nhiên khi nhận đá."
+    max-health:
+      min: 7.2
+      max: 8.8
     unstackable: true
     will-break: false
     unbreakable: true
 
 GREEN_GEM_LV2:
   base:
-    revision-id: 5
+    revision-id: 6
     material: PAPER
     custom-model-data: 15005
     name: "&a&lLục Ngọc &e&lLv.II"
@@ -345,14 +409,17 @@ GREEN_GEM_LV2:
     lore:
       - "&7Đá quý mang năng lượng nguyên tố Phong."
       - "&7Kéo thả vào trang bị có ô khảm để tăng Máu Tối Đa."
-    max-health: 7
+      - "&8Chỉ số được tạo ngẫu nhiên khi nhận đá."
+    max-health:
+      min: 12.6
+      max: 15.4
     unstackable: true
     will-break: false
     unbreakable: true
 
 GREEN_GEM_LV3:
   base:
-    revision-id: 5
+    revision-id: 6
     material: PAPER
     custom-model-data: 15005
     name: "&a&lLục Ngọc &e&lLv.III"
@@ -361,14 +428,17 @@ GREEN_GEM_LV3:
     lore:
       - "&7Đá quý mang năng lượng nguyên tố Phong."
       - "&7Kéo thả vào trang bị có ô khảm để tăng Máu Tối Đa."
-    max-health: 9.5
+      - "&8Chỉ số được tạo ngẫu nhiên khi nhận đá."
+    max-health:
+      min: 19.8
+      max: 24.2
     unstackable: true
     will-break: false
     unbreakable: true
 
 GREEN_GEM_LV4:
   base:
-    revision-id: 5
+    revision-id: 6
     material: PAPER
     custom-model-data: 15005
     name: "&a&lLục Ngọc &e&lLv.IV"
@@ -377,14 +447,17 @@ GREEN_GEM_LV4:
     lore:
       - "&7Đá quý mang năng lượng nguyên tố Phong."
       - "&7Kéo thả vào trang bị có ô khảm để tăng Máu Tối Đa."
-    max-health: 12
+      - "&8Chỉ số được tạo ngẫu nhiên khi nhận đá."
+    max-health:
+      min: 28.8
+      max: 35.2
     unstackable: true
     will-break: false
     unbreakable: true
 
 GREEN_GEM_LV5:
   base:
-    revision-id: 5
+    revision-id: 6
     material: PAPER
     custom-model-data: 15005
     name: "&a&lLục Ngọc &e&lLv.V"
@@ -393,14 +466,17 @@ GREEN_GEM_LV5:
     lore:
       - "&7Đá quý mang năng lượng nguyên tố Phong."
       - "&7Kéo thả vào trang bị có ô khảm để tăng Máu Tối Đa."
-    max-health: 14.5
+      - "&8Chỉ số được tạo ngẫu nhiên khi nhận đá."
+    max-health:
+      min: 40.5
+      max: 49.5
     unstackable: true
     will-break: false
     unbreakable: true
 
 GREEN_GEM_LV6:
   base:
-    revision-id: 5
+    revision-id: 6
     material: PAPER
     custom-model-data: 15005
     name: "&a&lLục Ngọc &e&lLv.VI"
@@ -409,14 +485,17 @@ GREEN_GEM_LV6:
     lore:
       - "&7Đá quý mang năng lượng nguyên tố Phong."
       - "&7Kéo thả vào trang bị có ô khảm để tăng Máu Tối Đa."
-    max-health: 17
+      - "&8Chỉ số được tạo ngẫu nhiên khi nhận đá."
+    max-health:
+      min: 54
+      max: 66
     unstackable: true
     will-break: false
     unbreakable: true
 
 GREEN_GEM_LV7:
   base:
-    revision-id: 5
+    revision-id: 6
     material: PAPER
     custom-model-data: 15005
     name: "&a&lLục Ngọc &e&lLv.VII"
@@ -425,14 +504,17 @@ GREEN_GEM_LV7:
     lore:
       - "&7Đá quý mang năng lượng nguyên tố Phong."
       - "&7Kéo thả vào trang bị có ô khảm để tăng Máu Tối Đa."
-    max-health: 19.5
+      - "&8Chỉ số được tạo ngẫu nhiên khi nhận đá."
+    max-health:
+      min: 70.2
+      max: 85.8
     unstackable: true
     will-break: false
     unbreakable: true
 
 GREEN_GEM_LV8:
   base:
-    revision-id: 5
+    revision-id: 6
     material: PAPER
     custom-model-data: 15005
     name: "&a&lLục Ngọc &e&lLv.VIII"
@@ -441,14 +523,17 @@ GREEN_GEM_LV8:
     lore:
       - "&7Đá quý mang năng lượng nguyên tố Phong."
       - "&7Kéo thả vào trang bị có ô khảm để tăng Máu Tối Đa."
-    max-health: 22
+      - "&8Chỉ số được tạo ngẫu nhiên khi nhận đá."
+    max-health:
+      min: 88.2
+      max: 107.8
     unstackable: true
     will-break: false
     unbreakable: true
 
 GREEN_GEM_LV9:
   base:
-    revision-id: 5
+    revision-id: 6
     material: PAPER
     custom-model-data: 15005
     name: "&a&lLục Ngọc &e&lLv.IX"
@@ -457,14 +542,17 @@ GREEN_GEM_LV9:
     lore:
       - "&7Đá quý mang năng lượng nguyên tố Phong."
       - "&7Kéo thả vào trang bị có ô khảm để tăng Máu Tối Đa."
-    max-health: 24.5
+      - "&8Chỉ số được tạo ngẫu nhiên khi nhận đá."
+    max-health:
+      min: 108
+      max: 132
     unstackable: true
     will-break: false
     unbreakable: true
 
 GREEN_GEM_LV10:
   base:
-    revision-id: 5
+    revision-id: 6
     material: PAPER
     custom-model-data: 15005
     name: "&a&lLục Ngọc &e&lLv.X"
@@ -473,14 +561,17 @@ GREEN_GEM_LV10:
     lore:
       - "&7Đá quý mang năng lượng nguyên tố Phong."
       - "&7Kéo thả vào trang bị có ô khảm để tăng Máu Tối Đa."
-    max-health: 27
+      - "&8Chỉ số được tạo ngẫu nhiên khi nhận đá."
+    max-health:
+      min: 130.5
+      max: 159.5
     unstackable: true
     will-break: false
     unbreakable: true
 
 YELLOW_GEM_LV1:
   base:
-    revision-id: 4
+    revision-id: 5
     material: PAPER
     custom-model-data: 15010
     name: "&e&lHoàng Ngọc &e&lLv.I"
@@ -489,14 +580,17 @@ YELLOW_GEM_LV1:
     lore:
       - "&7Đá quý mang năng lượng nguyên tố Thổ."
       - "&7Kéo thả vào trang bị có ô khảm để tăng Phòng Thủ."
-    armor: 1.1
+      - "&8Chỉ số được tạo ngẫu nhiên khi nhận đá."
+    defense:
+      min: 1.8
+      max: 2.2
     unstackable: true
     will-break: false
     unbreakable: true
 
 YELLOW_GEM_LV2:
   base:
-    revision-id: 4
+    revision-id: 5
     material: PAPER
     custom-model-data: 15010
     name: "&e&lHoàng Ngọc &e&lLv.II"
@@ -505,14 +599,17 @@ YELLOW_GEM_LV2:
     lore:
       - "&7Đá quý mang năng lượng nguyên tố Thổ."
       - "&7Kéo thả vào trang bị có ô khảm để tăng Phòng Thủ."
-    armor: 1.7
+      - "&8Chỉ số được tạo ngẫu nhiên khi nhận đá."
+    defense:
+      min: 3.6
+      max: 4.4
     unstackable: true
     will-break: false
     unbreakable: true
 
 YELLOW_GEM_LV3:
   base:
-    revision-id: 4
+    revision-id: 5
     material: PAPER
     custom-model-data: 15010
     name: "&e&lHoàng Ngọc &e&lLv.III"
@@ -521,14 +618,17 @@ YELLOW_GEM_LV3:
     lore:
       - "&7Đá quý mang năng lượng nguyên tố Thổ."
       - "&7Kéo thả vào trang bị có ô khảm để tăng Phòng Thủ."
-    armor: 2.3
+      - "&8Chỉ số được tạo ngẫu nhiên khi nhận đá."
+    defense:
+      min: 5.4
+      max: 6.6
     unstackable: true
     will-break: false
     unbreakable: true
 
 YELLOW_GEM_LV4:
   base:
-    revision-id: 4
+    revision-id: 5
     material: PAPER
     custom-model-data: 15010
     name: "&e&lHoàng Ngọc &e&lLv.IV"
@@ -537,14 +637,17 @@ YELLOW_GEM_LV4:
     lore:
       - "&7Đá quý mang năng lượng nguyên tố Thổ."
       - "&7Kéo thả vào trang bị có ô khảm để tăng Phòng Thủ."
-    armor: 2.9
+      - "&8Chỉ số được tạo ngẫu nhiên khi nhận đá."
+    defense:
+      min: 8.1
+      max: 9.9
     unstackable: true
     will-break: false
     unbreakable: true
 
 YELLOW_GEM_LV5:
   base:
-    revision-id: 4
+    revision-id: 5
     material: PAPER
     custom-model-data: 15010
     name: "&e&lHoàng Ngọc &e&lLv.V"
@@ -553,14 +656,17 @@ YELLOW_GEM_LV5:
     lore:
       - "&7Đá quý mang năng lượng nguyên tố Thổ."
       - "&7Kéo thả vào trang bị có ô khảm để tăng Phòng Thủ."
-    armor: 3.5
+      - "&8Chỉ số được tạo ngẫu nhiên khi nhận đá."
+    defense:
+      min: 11.7
+      max: 14.3
     unstackable: true
     will-break: false
     unbreakable: true
 
 YELLOW_GEM_LV6:
   base:
-    revision-id: 4
+    revision-id: 5
     material: PAPER
     custom-model-data: 15010
     name: "&e&lHoàng Ngọc &e&lLv.VI"
@@ -569,14 +675,17 @@ YELLOW_GEM_LV6:
     lore:
       - "&7Đá quý mang năng lượng nguyên tố Thổ."
       - "&7Kéo thả vào trang bị có ô khảm để tăng Phòng Thủ."
-    armor: 4.1
+      - "&8Chỉ số được tạo ngẫu nhiên khi nhận đá."
+    defense:
+      min: 16.2
+      max: 19.8
     unstackable: true
     will-break: false
     unbreakable: true
 
 YELLOW_GEM_LV7:
   base:
-    revision-id: 4
+    revision-id: 5
     material: PAPER
     custom-model-data: 15010
     name: "&e&lHoàng Ngọc &e&lLv.VII"
@@ -585,14 +694,17 @@ YELLOW_GEM_LV7:
     lore:
       - "&7Đá quý mang năng lượng nguyên tố Thổ."
       - "&7Kéo thả vào trang bị có ô khảm để tăng Phòng Thủ."
-    armor: 4.7
+      - "&8Chỉ số được tạo ngẫu nhiên khi nhận đá."
+    defense:
+      min: 21.6
+      max: 26.4
     unstackable: true
     will-break: false
     unbreakable: true
 
 YELLOW_GEM_LV8:
   base:
-    revision-id: 4
+    revision-id: 5
     material: PAPER
     custom-model-data: 15010
     name: "&e&lHoàng Ngọc &e&lLv.VIII"
@@ -601,14 +713,17 @@ YELLOW_GEM_LV8:
     lore:
       - "&7Đá quý mang năng lượng nguyên tố Thổ."
       - "&7Kéo thả vào trang bị có ô khảm để tăng Phòng Thủ."
-    armor: 5.3
+      - "&8Chỉ số được tạo ngẫu nhiên khi nhận đá."
+    defense:
+      min: 27.9
+      max: 34.1
     unstackable: true
     will-break: false
     unbreakable: true
 
 YELLOW_GEM_LV9:
   base:
-    revision-id: 4
+    revision-id: 5
     material: PAPER
     custom-model-data: 15010
     name: "&e&lHoàng Ngọc &e&lLv.IX"
@@ -617,14 +732,17 @@ YELLOW_GEM_LV9:
     lore:
       - "&7Đá quý mang năng lượng nguyên tố Thổ."
       - "&7Kéo thả vào trang bị có ô khảm để tăng Phòng Thủ."
-    armor: 5.9
+      - "&8Chỉ số được tạo ngẫu nhiên khi nhận đá."
+    defense:
+      min: 35.1
+      max: 42.9
     unstackable: true
     will-break: false
     unbreakable: true
 
 YELLOW_GEM_LV10:
   base:
-    revision-id: 4
+    revision-id: 5
     material: PAPER
     custom-model-data: 15010
     name: "&e&lHoàng Ngọc &e&lLv.X"
@@ -633,14 +751,17 @@ YELLOW_GEM_LV10:
     lore:
       - "&7Đá quý mang năng lượng nguyên tố Thổ."
       - "&7Kéo thả vào trang bị có ô khảm để tăng Phòng Thủ."
-    armor: 6.5
+      - "&8Chỉ số được tạo ngẫu nhiên khi nhận đá."
+    defense:
+      min: 43.2
+      max: 52.8
     unstackable: true
     will-break: false
     unbreakable: true
 
 PURPLE_GEM_LV1:
   base:
-    revision-id: 5
+    revision-id: 6
     material: PAPER
     custom-model-data: 15007
     name: "&5&lTử Ngọc &e&lLv.I"
@@ -649,14 +770,17 @@ PURPLE_GEM_LV1:
     lore:
       - "&7Đá quý mang năng lượng Huyền Bí."
       - "&7Kéo thả vào trang bị có ô khảm để tăng Sát Thương Phép."
-    magic-damage: 2.5
+      - "&8Chỉ số được tạo ngẫu nhiên khi nhận đá."
+    magic-damage:
+      min: 1.35
+      max: 1.65
     unstackable: true
     will-break: false
     unbreakable: true
 
 PURPLE_GEM_LV2:
   base:
-    revision-id: 5
+    revision-id: 6
     material: PAPER
     custom-model-data: 15007
     name: "&5&lTử Ngọc &e&lLv.II"
@@ -665,14 +789,17 @@ PURPLE_GEM_LV2:
     lore:
       - "&7Đá quý mang năng lượng Huyền Bí."
       - "&7Kéo thả vào trang bị có ô khảm để tăng Sát Thương Phép."
-    magic-damage: 4
+      - "&8Chỉ số được tạo ngẫu nhiên khi nhận đá."
+    magic-damage:
+      min: 2.25
+      max: 2.75
     unstackable: true
     will-break: false
     unbreakable: true
 
 PURPLE_GEM_LV3:
   base:
-    revision-id: 5
+    revision-id: 6
     material: PAPER
     custom-model-data: 15007
     name: "&5&lTử Ngọc &e&lLv.III"
@@ -681,14 +808,17 @@ PURPLE_GEM_LV3:
     lore:
       - "&7Đá quý mang năng lượng Huyền Bí."
       - "&7Kéo thả vào trang bị có ô khảm để tăng Sát Thương Phép."
-    magic-damage: 5.5
+      - "&8Chỉ số được tạo ngẫu nhiên khi nhận đá."
+    magic-damage:
+      min: 3.15
+      max: 3.85
     unstackable: true
     will-break: false
     unbreakable: true
 
 PURPLE_GEM_LV4:
   base:
-    revision-id: 5
+    revision-id: 6
     material: PAPER
     custom-model-data: 15007
     name: "&5&lTử Ngọc &e&lLv.IV"
@@ -697,14 +827,17 @@ PURPLE_GEM_LV4:
     lore:
       - "&7Đá quý mang năng lượng Huyền Bí."
       - "&7Kéo thả vào trang bị có ô khảm để tăng Sát Thương Phép."
-    magic-damage: 7
+      - "&8Chỉ số được tạo ngẫu nhiên khi nhận đá."
+    magic-damage:
+      min: 4.05
+      max: 4.95
     unstackable: true
     will-break: false
     unbreakable: true
 
 PURPLE_GEM_LV5:
   base:
-    revision-id: 5
+    revision-id: 6
     material: PAPER
     custom-model-data: 15007
     name: "&5&lTử Ngọc &e&lLv.V"
@@ -713,14 +846,17 @@ PURPLE_GEM_LV5:
     lore:
       - "&7Đá quý mang năng lượng Huyền Bí."
       - "&7Kéo thả vào trang bị có ô khảm để tăng Sát Thương Phép."
-    magic-damage: 8.5
+      - "&8Chỉ số được tạo ngẫu nhiên khi nhận đá."
+    magic-damage:
+      min: 4.95
+      max: 6.05
     unstackable: true
     will-break: false
     unbreakable: true
 
 PURPLE_GEM_LV6:
   base:
-    revision-id: 5
+    revision-id: 6
     material: PAPER
     custom-model-data: 15007
     name: "&5&lTử Ngọc &e&lLv.VI"
@@ -729,14 +865,17 @@ PURPLE_GEM_LV6:
     lore:
       - "&7Đá quý mang năng lượng Huyền Bí."
       - "&7Kéo thả vào trang bị có ô khảm để tăng Sát Thương Phép."
-    magic-damage: 10
+      - "&8Chỉ số được tạo ngẫu nhiên khi nhận đá."
+    magic-damage:
+      min: 5.85
+      max: 7.15
     unstackable: true
     will-break: false
     unbreakable: true
 
 PURPLE_GEM_LV7:
   base:
-    revision-id: 5
+    revision-id: 6
     material: PAPER
     custom-model-data: 15007
     name: "&5&lTử Ngọc &e&lLv.VII"
@@ -745,14 +884,17 @@ PURPLE_GEM_LV7:
     lore:
       - "&7Đá quý mang năng lượng Huyền Bí."
       - "&7Kéo thả vào trang bị có ô khảm để tăng Sát Thương Phép."
-    magic-damage: 11.5
+      - "&8Chỉ số được tạo ngẫu nhiên khi nhận đá."
+    magic-damage:
+      min: 6.75
+      max: 8.25
     unstackable: true
     will-break: false
     unbreakable: true
 
 PURPLE_GEM_LV8:
   base:
-    revision-id: 5
+    revision-id: 6
     material: PAPER
     custom-model-data: 15007
     name: "&5&lTử Ngọc &e&lLv.VIII"
@@ -761,14 +903,17 @@ PURPLE_GEM_LV8:
     lore:
       - "&7Đá quý mang năng lượng Huyền Bí."
       - "&7Kéo thả vào trang bị có ô khảm để tăng Sát Thương Phép."
-    magic-damage: 13
+      - "&8Chỉ số được tạo ngẫu nhiên khi nhận đá."
+    magic-damage:
+      min: 7.65
+      max: 9.35
     unstackable: true
     will-break: false
     unbreakable: true
 
 PURPLE_GEM_LV9:
   base:
-    revision-id: 5
+    revision-id: 6
     material: PAPER
     custom-model-data: 15007
     name: "&5&lTử Ngọc &e&lLv.IX"
@@ -777,14 +922,17 @@ PURPLE_GEM_LV9:
     lore:
       - "&7Đá quý mang năng lượng Huyền Bí."
       - "&7Kéo thả vào trang bị có ô khảm để tăng Sát Thương Phép."
-    magic-damage: 14.5
+      - "&8Chỉ số được tạo ngẫu nhiên khi nhận đá."
+    magic-damage:
+      min: 8.55
+      max: 10.45
     unstackable: true
     will-break: false
     unbreakable: true
 
 PURPLE_GEM_LV10:
   base:
-    revision-id: 5
+    revision-id: 6
     material: PAPER
     custom-model-data: 15007
     name: "&5&lTử Ngọc &e&lLv.X"
@@ -793,14 +941,17 @@ PURPLE_GEM_LV10:
     lore:
       - "&7Đá quý mang năng lượng Huyền Bí."
       - "&7Kéo thả vào trang bị có ô khảm để tăng Sát Thương Phép."
-    magic-damage: 16
+      - "&8Chỉ số được tạo ngẫu nhiên khi nhận đá."
+    magic-damage:
+      min: 9.9
+      max: 12.1
     unstackable: true
     will-break: false
     unbreakable: true
 
 CYAN_GEM_LV1:
   base:
-    revision-id: 4
+    revision-id: 5
     material: PAPER
     custom-model-data: 15004
     name: "&b&lBăng Ngọc &e&lLv.I"
@@ -809,14 +960,17 @@ CYAN_GEM_LV1:
     lore:
       - "&7Đá quý mang năng lượng Băng Giá."
       - "&7Kéo thả vào trang bị có ô khảm để tăng Tỷ Lệ Bạo Kích."
-    critical-strike-chance: 1
+      - "&8Chỉ số được tạo ngẫu nhiên khi nhận đá."
+    critical-strike-chance:
+      min: 0.72
+      max: 0.88
     unstackable: true
     will-break: false
     unbreakable: true
 
 CYAN_GEM_LV2:
   base:
-    revision-id: 4
+    revision-id: 5
     material: PAPER
     custom-model-data: 15004
     name: "&b&lBăng Ngọc &e&lLv.II"
@@ -825,14 +979,17 @@ CYAN_GEM_LV2:
     lore:
       - "&7Đá quý mang năng lượng Băng Giá."
       - "&7Kéo thả vào trang bị có ô khảm để tăng Tỷ Lệ Bạo Kích."
-    critical-strike-chance: 1.5
+      - "&8Chỉ số được tạo ngẫu nhiên khi nhận đá."
+    critical-strike-chance:
+      min: 1.08
+      max: 1.32
     unstackable: true
     will-break: false
     unbreakable: true
 
 CYAN_GEM_LV3:
   base:
-    revision-id: 4
+    revision-id: 5
     material: PAPER
     custom-model-data: 15004
     name: "&b&lBăng Ngọc &e&lLv.III"
@@ -841,14 +998,17 @@ CYAN_GEM_LV3:
     lore:
       - "&7Đá quý mang năng lượng Băng Giá."
       - "&7Kéo thả vào trang bị có ô khảm để tăng Tỷ Lệ Bạo Kích."
-    critical-strike-chance: 2
+      - "&8Chỉ số được tạo ngẫu nhiên khi nhận đá."
+    critical-strike-chance:
+      min: 1.44
+      max: 1.76
     unstackable: true
     will-break: false
     unbreakable: true
 
 CYAN_GEM_LV4:
   base:
-    revision-id: 4
+    revision-id: 5
     material: PAPER
     custom-model-data: 15004
     name: "&b&lBăng Ngọc &e&lLv.IV"
@@ -857,14 +1017,17 @@ CYAN_GEM_LV4:
     lore:
       - "&7Đá quý mang năng lượng Băng Giá."
       - "&7Kéo thả vào trang bị có ô khảm để tăng Tỷ Lệ Bạo Kích."
-    critical-strike-chance: 2.5
+      - "&8Chỉ số được tạo ngẫu nhiên khi nhận đá."
+    critical-strike-chance:
+      min: 1.8
+      max: 2.2
     unstackable: true
     will-break: false
     unbreakable: true
 
 CYAN_GEM_LV5:
   base:
-    revision-id: 4
+    revision-id: 5
     material: PAPER
     custom-model-data: 15004
     name: "&b&lBăng Ngọc &e&lLv.V"
@@ -873,14 +1036,17 @@ CYAN_GEM_LV5:
     lore:
       - "&7Đá quý mang năng lượng Băng Giá."
       - "&7Kéo thả vào trang bị có ô khảm để tăng Tỷ Lệ Bạo Kích."
-    critical-strike-chance: 3
+      - "&8Chỉ số được tạo ngẫu nhiên khi nhận đá."
+    critical-strike-chance:
+      min: 2.25
+      max: 2.75
     unstackable: true
     will-break: false
     unbreakable: true
 
 CYAN_GEM_LV6:
   base:
-    revision-id: 4
+    revision-id: 5
     material: PAPER
     custom-model-data: 15004
     name: "&b&lBăng Ngọc &e&lLv.VI"
@@ -889,14 +1055,17 @@ CYAN_GEM_LV6:
     lore:
       - "&7Đá quý mang năng lượng Băng Giá."
       - "&7Kéo thả vào trang bị có ô khảm để tăng Tỷ Lệ Bạo Kích."
-    critical-strike-chance: 3.5
+      - "&8Chỉ số được tạo ngẫu nhiên khi nhận đá."
+    critical-strike-chance:
+      min: 2.7
+      max: 3.3
     unstackable: true
     will-break: false
     unbreakable: true
 
 CYAN_GEM_LV7:
   base:
-    revision-id: 4
+    revision-id: 5
     material: PAPER
     custom-model-data: 15004
     name: "&b&lBăng Ngọc &e&lLv.VII"
@@ -905,14 +1074,17 @@ CYAN_GEM_LV7:
     lore:
       - "&7Đá quý mang năng lượng Băng Giá."
       - "&7Kéo thả vào trang bị có ô khảm để tăng Tỷ Lệ Bạo Kích."
-    critical-strike-chance: 4
+      - "&8Chỉ số được tạo ngẫu nhiên khi nhận đá."
+    critical-strike-chance:
+      min: 3.15
+      max: 3.85
     unstackable: true
     will-break: false
     unbreakable: true
 
 CYAN_GEM_LV8:
   base:
-    revision-id: 4
+    revision-id: 5
     material: PAPER
     custom-model-data: 15004
     name: "&b&lBăng Ngọc &e&lLv.VIII"
@@ -921,14 +1093,17 @@ CYAN_GEM_LV8:
     lore:
       - "&7Đá quý mang năng lượng Băng Giá."
       - "&7Kéo thả vào trang bị có ô khảm để tăng Tỷ Lệ Bạo Kích."
-    critical-strike-chance: 4.5
+      - "&8Chỉ số được tạo ngẫu nhiên khi nhận đá."
+    critical-strike-chance:
+      min: 3.6
+      max: 4.4
     unstackable: true
     will-break: false
     unbreakable: true
 
 CYAN_GEM_LV9:
   base:
-    revision-id: 4
+    revision-id: 5
     material: PAPER
     custom-model-data: 15004
     name: "&b&lBăng Ngọc &e&lLv.IX"
@@ -937,14 +1112,17 @@ CYAN_GEM_LV9:
     lore:
       - "&7Đá quý mang năng lượng Băng Giá."
       - "&7Kéo thả vào trang bị có ô khảm để tăng Tỷ Lệ Bạo Kích."
-    critical-strike-chance: 5
+      - "&8Chỉ số được tạo ngẫu nhiên khi nhận đá."
+    critical-strike-chance:
+      min: 4.05
+      max: 4.95
     unstackable: true
     will-break: false
     unbreakable: true
 
 CYAN_GEM_LV10:
   base:
-    revision-id: 4
+    revision-id: 5
     material: PAPER
     custom-model-data: 15004
     name: "&b&lBăng Ngọc &e&lLv.X"
@@ -953,14 +1131,17 @@ CYAN_GEM_LV10:
     lore:
       - "&7Đá quý mang năng lượng Băng Giá."
       - "&7Kéo thả vào trang bị có ô khảm để tăng Tỷ Lệ Bạo Kích."
-    critical-strike-chance: 5.5
+      - "&8Chỉ số được tạo ngẫu nhiên khi nhận đá."
+    critical-strike-chance:
+      min: 4.5
+      max: 5.5
     unstackable: true
     will-break: false
     unbreakable: true
 
 BLACK_GEM_LV1:
   base:
-    revision-id: 6
+    revision-id: 7
     material: PAPER
     custom-model-data: 15009
     name: "&8&lHắc Ngọc &e&lLv.I"
@@ -969,14 +1150,17 @@ BLACK_GEM_LV1:
     lore:
       - "&7Đá quý mang năng lượng Bóng Tối."
       - "&7Kéo thả vào trang bị có ô khảm để tăng Sát Thương Bạo Kích."
-    critical-strike-power: 2.5
+      - "&8Chỉ số được tạo ngẫu nhiên khi nhận đá."
+    critical-strike-power:
+      min: 1.8
+      max: 2.2
     unstackable: true
     will-break: false
     unbreakable: true
 
 BLACK_GEM_LV2:
   base:
-    revision-id: 6
+    revision-id: 7
     material: PAPER
     custom-model-data: 15009
     name: "&8&lHắc Ngọc &e&lLv.II"
@@ -985,14 +1169,17 @@ BLACK_GEM_LV2:
     lore:
       - "&7Đá quý mang năng lượng Bóng Tối."
       - "&7Kéo thả vào trang bị có ô khảm để tăng Sát Thương Bạo Kích."
-    critical-strike-power: 4
+      - "&8Chỉ số được tạo ngẫu nhiên khi nhận đá."
+    critical-strike-power:
+      min: 2.7
+      max: 3.3
     unstackable: true
     will-break: false
     unbreakable: true
 
 BLACK_GEM_LV3:
   base:
-    revision-id: 6
+    revision-id: 7
     material: PAPER
     custom-model-data: 15009
     name: "&8&lHắc Ngọc &e&lLv.III"
@@ -1001,14 +1188,17 @@ BLACK_GEM_LV3:
     lore:
       - "&7Đá quý mang năng lượng Bóng Tối."
       - "&7Kéo thả vào trang bị có ô khảm để tăng Sát Thương Bạo Kích."
-    critical-strike-power: 5.5
+      - "&8Chỉ số được tạo ngẫu nhiên khi nhận đá."
+    critical-strike-power:
+      min: 3.6
+      max: 4.4
     unstackable: true
     will-break: false
     unbreakable: true
 
 BLACK_GEM_LV4:
   base:
-    revision-id: 6
+    revision-id: 7
     material: PAPER
     custom-model-data: 15009
     name: "&8&lHắc Ngọc &e&lLv.IV"
@@ -1017,14 +1207,17 @@ BLACK_GEM_LV4:
     lore:
       - "&7Đá quý mang năng lượng Bóng Tối."
       - "&7Kéo thả vào trang bị có ô khảm để tăng Sát Thương Bạo Kích."
-    critical-strike-power: 7
+      - "&8Chỉ số được tạo ngẫu nhiên khi nhận đá."
+    critical-strike-power:
+      min: 4.5
+      max: 5.5
     unstackable: true
     will-break: false
     unbreakable: true
 
 BLACK_GEM_LV5:
   base:
-    revision-id: 6
+    revision-id: 7
     material: PAPER
     custom-model-data: 15009
     name: "&8&lHắc Ngọc &e&lLv.V"
@@ -1033,14 +1226,17 @@ BLACK_GEM_LV5:
     lore:
       - "&7Đá quý mang năng lượng Bóng Tối."
       - "&7Kéo thả vào trang bị có ô khảm để tăng Sát Thương Bạo Kích."
-    critical-strike-power: 8.5
+      - "&8Chỉ số được tạo ngẫu nhiên khi nhận đá."
+    critical-strike-power:
+      min: 5.4
+      max: 6.6
     unstackable: true
     will-break: false
     unbreakable: true
 
 BLACK_GEM_LV6:
   base:
-    revision-id: 6
+    revision-id: 7
     material: PAPER
     custom-model-data: 15009
     name: "&8&lHắc Ngọc &e&lLv.VI"
@@ -1049,14 +1245,17 @@ BLACK_GEM_LV6:
     lore:
       - "&7Đá quý mang năng lượng Bóng Tối."
       - "&7Kéo thả vào trang bị có ô khảm để tăng Sát Thương Bạo Kích."
-    critical-strike-power: 10
+      - "&8Chỉ số được tạo ngẫu nhiên khi nhận đá."
+    critical-strike-power:
+      min: 6.3
+      max: 7.7
     unstackable: true
     will-break: false
     unbreakable: true
 
 BLACK_GEM_LV7:
   base:
-    revision-id: 6
+    revision-id: 7
     material: PAPER
     custom-model-data: 15009
     name: "&8&lHắc Ngọc &e&lLv.VII"
@@ -1065,14 +1264,17 @@ BLACK_GEM_LV7:
     lore:
       - "&7Đá quý mang năng lượng Bóng Tối."
       - "&7Kéo thả vào trang bị có ô khảm để tăng Sát Thương Bạo Kích."
-    critical-strike-power: 11.5
+      - "&8Chỉ số được tạo ngẫu nhiên khi nhận đá."
+    critical-strike-power:
+      min: 7.2
+      max: 8.8
     unstackable: true
     will-break: false
     unbreakable: true
 
 BLACK_GEM_LV8:
   base:
-    revision-id: 6
+    revision-id: 7
     material: PAPER
     custom-model-data: 15009
     name: "&8&lHắc Ngọc &e&lLv.VIII"
@@ -1081,14 +1283,17 @@ BLACK_GEM_LV8:
     lore:
       - "&7Đá quý mang năng lượng Bóng Tối."
       - "&7Kéo thả vào trang bị có ô khảm để tăng Sát Thương Bạo Kích."
-    critical-strike-power: 13
+      - "&8Chỉ số được tạo ngẫu nhiên khi nhận đá."
+    critical-strike-power:
+      min: 8.1
+      max: 9.9
     unstackable: true
     will-break: false
     unbreakable: true
 
 BLACK_GEM_LV9:
   base:
-    revision-id: 6
+    revision-id: 7
     material: PAPER
     custom-model-data: 15009
     name: "&8&lHắc Ngọc &e&lLv.IX"
@@ -1097,14 +1302,17 @@ BLACK_GEM_LV9:
     lore:
       - "&7Đá quý mang năng lượng Bóng Tối."
       - "&7Kéo thả vào trang bị có ô khảm để tăng Sát Thương Bạo Kích."
-    critical-strike-power: 14.5
+      - "&8Chỉ số được tạo ngẫu nhiên khi nhận đá."
+    critical-strike-power:
+      min: 9
+      max: 11
     unstackable: true
     will-break: false
     unbreakable: true
 
 BLACK_GEM_LV10:
   base:
-    revision-id: 6
+    revision-id: 7
     material: PAPER
     custom-model-data: 15009
     name: "&8&lHắc Ngọc &e&lLv.X"
@@ -1113,14 +1321,17 @@ BLACK_GEM_LV10:
     lore:
       - "&7Đá quý mang năng lượng Bóng Tối."
       - "&7Kéo thả vào trang bị có ô khảm để tăng Sát Thương Bạo Kích."
-    critical-strike-power: 16
+      - "&8Chỉ số được tạo ngẫu nhiên khi nhận đá."
+    critical-strike-power:
+      min: 10.8
+      max: 13.2
     unstackable: true
     will-break: false
     unbreakable: true
 
 WHITE_GEM_LV1:
   base:
-    revision-id: 6
+    revision-id: 7
     material: PAPER
     custom-model-data: 15001
     name: "&f&lBạch Ngọc &e&lLv.I"
@@ -1129,14 +1340,17 @@ WHITE_GEM_LV1:
     lore:
       - "&7Đá quý mang năng lượng Ánh Sáng."
       - "&7Kéo thả vào trang bị có ô khảm để tăng Hồi Phục Máu."
-    health-regeneration: 0.5
+      - "&8Chỉ số được tạo ngẫu nhiên khi nhận đá."
+    health-regeneration:
+      min: 0.18
+      max: 0.22
     unstackable: true
     will-break: false
     unbreakable: true
 
 WHITE_GEM_LV2:
   base:
-    revision-id: 6
+    revision-id: 7
     material: PAPER
     custom-model-data: 15001
     name: "&f&lBạch Ngọc &e&lLv.II"
@@ -1145,14 +1359,17 @@ WHITE_GEM_LV2:
     lore:
       - "&7Đá quý mang năng lượng Ánh Sáng."
       - "&7Kéo thả vào trang bị có ô khảm để tăng Hồi Phục Máu."
-    health-regeneration: 0.8
+      - "&8Chỉ số được tạo ngẫu nhiên khi nhận đá."
+    health-regeneration:
+      min: 0.27
+      max: 0.33
     unstackable: true
     will-break: false
     unbreakable: true
 
 WHITE_GEM_LV3:
   base:
-    revision-id: 6
+    revision-id: 7
     material: PAPER
     custom-model-data: 15001
     name: "&f&lBạch Ngọc &e&lLv.III"
@@ -1161,14 +1378,17 @@ WHITE_GEM_LV3:
     lore:
       - "&7Đá quý mang năng lượng Ánh Sáng."
       - "&7Kéo thả vào trang bị có ô khảm để tăng Hồi Phục Máu."
-    health-regeneration: 1.1
+      - "&8Chỉ số được tạo ngẫu nhiên khi nhận đá."
+    health-regeneration:
+      min: 0.36
+      max: 0.44
     unstackable: true
     will-break: false
     unbreakable: true
 
 WHITE_GEM_LV4:
   base:
-    revision-id: 6
+    revision-id: 7
     material: PAPER
     custom-model-data: 15001
     name: "&f&lBạch Ngọc &e&lLv.IV"
@@ -1177,14 +1397,17 @@ WHITE_GEM_LV4:
     lore:
       - "&7Đá quý mang năng lượng Ánh Sáng."
       - "&7Kéo thả vào trang bị có ô khảm để tăng Hồi Phục Máu."
-    health-regeneration: 1.4
+      - "&8Chỉ số được tạo ngẫu nhiên khi nhận đá."
+    health-regeneration:
+      min: 0.45
+      max: 0.55
     unstackable: true
     will-break: false
     unbreakable: true
 
 WHITE_GEM_LV5:
   base:
-    revision-id: 6
+    revision-id: 7
     material: PAPER
     custom-model-data: 15001
     name: "&f&lBạch Ngọc &e&lLv.V"
@@ -1193,14 +1416,17 @@ WHITE_GEM_LV5:
     lore:
       - "&7Đá quý mang năng lượng Ánh Sáng."
       - "&7Kéo thả vào trang bị có ô khảm để tăng Hồi Phục Máu."
-    health-regeneration: 1.7
+      - "&8Chỉ số được tạo ngẫu nhiên khi nhận đá."
+    health-regeneration:
+      min: 0.54
+      max: 0.66
     unstackable: true
     will-break: false
     unbreakable: true
 
 WHITE_GEM_LV6:
   base:
-    revision-id: 6
+    revision-id: 7
     material: PAPER
     custom-model-data: 15001
     name: "&f&lBạch Ngọc &e&lLv.VI"
@@ -1209,14 +1435,17 @@ WHITE_GEM_LV6:
     lore:
       - "&7Đá quý mang năng lượng Ánh Sáng."
       - "&7Kéo thả vào trang bị có ô khảm để tăng Hồi Phục Máu."
-    health-regeneration: 2
+      - "&8Chỉ số được tạo ngẫu nhiên khi nhận đá."
+    health-regeneration:
+      min: 0.63
+      max: 0.77
     unstackable: true
     will-break: false
     unbreakable: true
 
 WHITE_GEM_LV7:
   base:
-    revision-id: 6
+    revision-id: 7
     material: PAPER
     custom-model-data: 15001
     name: "&f&lBạch Ngọc &e&lLv.VII"
@@ -1225,14 +1454,17 @@ WHITE_GEM_LV7:
     lore:
       - "&7Đá quý mang năng lượng Ánh Sáng."
       - "&7Kéo thả vào trang bị có ô khảm để tăng Hồi Phục Máu."
-    health-regeneration: 2.3
+      - "&8Chỉ số được tạo ngẫu nhiên khi nhận đá."
+    health-regeneration:
+      min: 0.72
+      max: 0.88
     unstackable: true
     will-break: false
     unbreakable: true
 
 WHITE_GEM_LV8:
   base:
-    revision-id: 6
+    revision-id: 7
     material: PAPER
     custom-model-data: 15001
     name: "&f&lBạch Ngọc &e&lLv.VIII"
@@ -1241,14 +1473,17 @@ WHITE_GEM_LV8:
     lore:
       - "&7Đá quý mang năng lượng Ánh Sáng."
       - "&7Kéo thả vào trang bị có ô khảm để tăng Hồi Phục Máu."
-    health-regeneration: 2.6
+      - "&8Chỉ số được tạo ngẫu nhiên khi nhận đá."
+    health-regeneration:
+      min: 0.81
+      max: 0.99
     unstackable: true
     will-break: false
     unbreakable: true
 
 WHITE_GEM_LV9:
   base:
-    revision-id: 6
+    revision-id: 7
     material: PAPER
     custom-model-data: 15001
     name: "&f&lBạch Ngọc &e&lLv.IX"
@@ -1257,14 +1492,17 @@ WHITE_GEM_LV9:
     lore:
       - "&7Đá quý mang năng lượng Ánh Sáng."
       - "&7Kéo thả vào trang bị có ô khảm để tăng Hồi Phục Máu."
-    health-regeneration: 2.9
+      - "&8Chỉ số được tạo ngẫu nhiên khi nhận đá."
+    health-regeneration:
+      min: 0.9
+      max: 1.1
     unstackable: true
     will-break: false
     unbreakable: true
 
 WHITE_GEM_LV10:
   base:
-    revision-id: 6
+    revision-id: 7
     material: PAPER
     custom-model-data: 15001
     name: "&f&lBạch Ngọc &e&lLv.X"
@@ -1273,14 +1511,17 @@ WHITE_GEM_LV10:
     lore:
       - "&7Đá quý mang năng lượng Ánh Sáng."
       - "&7Kéo thả vào trang bị có ô khảm để tăng Hồi Phục Máu."
-    health-regeneration: 3.2
+      - "&8Chỉ số được tạo ngẫu nhiên khi nhận đá."
+    health-regeneration:
+      min: 1.08
+      max: 1.32
     unstackable: true
     will-break: false
     unbreakable: true
 
 BROWN_GEM_LV1:
   base:
-    revision-id: 4
+    revision-id: 5
     material: PAPER
     custom-model-data: 15003
     name: "&6&lThổ Ngọc &e&lLv.I"
@@ -1288,15 +1529,18 @@ BROWN_GEM_LV1:
     success-rate: 95
     lore:
       - "&7Đá quý mang năng lượng Thổ Nguyên."
-      - "&7Kéo thả vào trang bị có ô khảm để tăng Độ Bền Sắt (Armor Toughness)."
-    armor-toughness: 0.7
+      - "&7Kéo thả vào trang bị có ô khảm để tăng Kháng Xuyên Giáp."
+      - "&8Chỉ số được tạo ngẫu nhiên khi nhận đá."
+    armor-toughness:
+      min: 0.45
+      max: 0.55
     unstackable: true
     will-break: false
     unbreakable: true
 
 BROWN_GEM_LV2:
   base:
-    revision-id: 4
+    revision-id: 5
     material: PAPER
     custom-model-data: 15003
     name: "&6&lThổ Ngọc &e&lLv.II"
@@ -1304,15 +1548,18 @@ BROWN_GEM_LV2:
     success-rate: 85
     lore:
       - "&7Đá quý mang năng lượng Thổ Nguyên."
-      - "&7Kéo thả vào trang bị có ô khảm để tăng Độ Bền Sắt (Armor Toughness)."
-    armor-toughness: 1.1
+      - "&7Kéo thả vào trang bị có ô khảm để tăng Kháng Xuyên Giáp."
+      - "&8Chỉ số được tạo ngẫu nhiên khi nhận đá."
+    armor-toughness:
+      min: 0.72
+      max: 0.88
     unstackable: true
     will-break: false
     unbreakable: true
 
 BROWN_GEM_LV3:
   base:
-    revision-id: 4
+    revision-id: 5
     material: PAPER
     custom-model-data: 15003
     name: "&6&lThổ Ngọc &e&lLv.III"
@@ -1320,15 +1567,18 @@ BROWN_GEM_LV3:
     success-rate: 70
     lore:
       - "&7Đá quý mang năng lượng Thổ Nguyên."
-      - "&7Kéo thả vào trang bị có ô khảm để tăng Độ Bền Sắt (Armor Toughness)."
-    armor-toughness: 1.5
+      - "&7Kéo thả vào trang bị có ô khảm để tăng Kháng Xuyên Giáp."
+      - "&8Chỉ số được tạo ngẫu nhiên khi nhận đá."
+    armor-toughness:
+      min: 0.99
+      max: 1.21
     unstackable: true
     will-break: false
     unbreakable: true
 
 BROWN_GEM_LV4:
   base:
-    revision-id: 4
+    revision-id: 5
     material: PAPER
     custom-model-data: 15003
     name: "&6&lThổ Ngọc &e&lLv.IV"
@@ -1336,15 +1586,18 @@ BROWN_GEM_LV4:
     success-rate: 55
     lore:
       - "&7Đá quý mang năng lượng Thổ Nguyên."
-      - "&7Kéo thả vào trang bị có ô khảm để tăng Độ Bền Sắt (Armor Toughness)."
-    armor-toughness: 1.9
+      - "&7Kéo thả vào trang bị có ô khảm để tăng Kháng Xuyên Giáp."
+      - "&8Chỉ số được tạo ngẫu nhiên khi nhận đá."
+    armor-toughness:
+      min: 1.35
+      max: 1.65
     unstackable: true
     will-break: false
     unbreakable: true
 
 BROWN_GEM_LV5:
   base:
-    revision-id: 4
+    revision-id: 5
     material: PAPER
     custom-model-data: 15003
     name: "&6&lThổ Ngọc &e&lLv.V"
@@ -1352,15 +1605,18 @@ BROWN_GEM_LV5:
     success-rate: 40
     lore:
       - "&7Đá quý mang năng lượng Thổ Nguyên."
-      - "&7Kéo thả vào trang bị có ô khảm để tăng Độ Bền Sắt (Armor Toughness)."
-    armor-toughness: 2.3
+      - "&7Kéo thả vào trang bị có ô khảm để tăng Kháng Xuyên Giáp."
+      - "&8Chỉ số được tạo ngẫu nhiên khi nhận đá."
+    armor-toughness:
+      min: 1.71
+      max: 2.09
     unstackable: true
     will-break: false
     unbreakable: true
 
 BROWN_GEM_LV6:
   base:
-    revision-id: 4
+    revision-id: 5
     material: PAPER
     custom-model-data: 15003
     name: "&6&lThổ Ngọc &e&lLv.VI"
@@ -1368,15 +1624,18 @@ BROWN_GEM_LV6:
     success-rate: 28
     lore:
       - "&7Đá quý mang năng lượng Thổ Nguyên."
-      - "&7Kéo thả vào trang bị có ô khảm để tăng Độ Bền Sắt (Armor Toughness)."
-    armor-toughness: 2.7
+      - "&7Kéo thả vào trang bị có ô khảm để tăng Kháng Xuyên Giáp."
+      - "&8Chỉ số được tạo ngẫu nhiên khi nhận đá."
+    armor-toughness:
+      min: 2.07
+      max: 2.53
     unstackable: true
     will-break: false
     unbreakable: true
 
 BROWN_GEM_LV7:
   base:
-    revision-id: 4
+    revision-id: 5
     material: PAPER
     custom-model-data: 15003
     name: "&6&lThổ Ngọc &e&lLv.VII"
@@ -1384,15 +1643,18 @@ BROWN_GEM_LV7:
     success-rate: 18
     lore:
       - "&7Đá quý mang năng lượng Thổ Nguyên."
-      - "&7Kéo thả vào trang bị có ô khảm để tăng Độ Bền Sắt (Armor Toughness)."
-    armor-toughness: 3.1
+      - "&7Kéo thả vào trang bị có ô khảm để tăng Kháng Xuyên Giáp."
+      - "&8Chỉ số được tạo ngẫu nhiên khi nhận đá."
+    armor-toughness:
+      min: 2.43
+      max: 2.97
     unstackable: true
     will-break: false
     unbreakable: true
 
 BROWN_GEM_LV8:
   base:
-    revision-id: 4
+    revision-id: 5
     material: PAPER
     custom-model-data: 15003
     name: "&6&lThổ Ngọc &e&lLv.VIII"
@@ -1400,15 +1662,18 @@ BROWN_GEM_LV8:
     success-rate: 10
     lore:
       - "&7Đá quý mang năng lượng Thổ Nguyên."
-      - "&7Kéo thả vào trang bị có ô khảm để tăng Độ Bền Sắt (Armor Toughness)."
-    armor-toughness: 3.5
+      - "&7Kéo thả vào trang bị có ô khảm để tăng Kháng Xuyên Giáp."
+      - "&8Chỉ số được tạo ngẫu nhiên khi nhận đá."
+    armor-toughness:
+      min: 2.79
+      max: 3.41
     unstackable: true
     will-break: false
     unbreakable: true
 
 BROWN_GEM_LV9:
   base:
-    revision-id: 4
+    revision-id: 5
     material: PAPER
     custom-model-data: 15003
     name: "&6&lThổ Ngọc &e&lLv.IX"
@@ -1416,15 +1681,18 @@ BROWN_GEM_LV9:
     success-rate: 5
     lore:
       - "&7Đá quý mang năng lượng Thổ Nguyên."
-      - "&7Kéo thả vào trang bị có ô khảm để tăng Độ Bền Sắt (Armor Toughness)."
-    armor-toughness: 3.9
+      - "&7Kéo thả vào trang bị có ô khảm để tăng Kháng Xuyên Giáp."
+      - "&8Chỉ số được tạo ngẫu nhiên khi nhận đá."
+    armor-toughness:
+      min: 3.15
+      max: 3.85
     unstackable: true
     will-break: false
     unbreakable: true
 
 BROWN_GEM_LV10:
   base:
-    revision-id: 4
+    revision-id: 5
     material: PAPER
     custom-model-data: 15003
     name: "&6&lThổ Ngọc &e&lLv.X"
@@ -1432,15 +1700,18 @@ BROWN_GEM_LV10:
     success-rate: 3
     lore:
       - "&7Đá quý mang năng lượng Thổ Nguyên."
-      - "&7Kéo thả vào trang bị có ô khảm để tăng Độ Bền Sắt (Armor Toughness)."
-    armor-toughness: 4.3
+      - "&7Kéo thả vào trang bị có ô khảm để tăng Kháng Xuyên Giáp."
+      - "&8Chỉ số được tạo ngẫu nhiên khi nhận đá."
+    armor-toughness:
+      min: 3.6
+      max: 4.4
     unstackable: true
     will-break: false
     unbreakable: true
 
 ORANGE_GEM_LV1:
   base:
-    revision-id: 4
+    revision-id: 5
     material: PAPER
     custom-model-data: 15006
     name: "&6&lCam Ngọc &e&lLv.I"
@@ -1449,14 +1720,17 @@ ORANGE_GEM_LV1:
     lore:
       - "&7Đá quý mang năng lượng Năng Lượng."
       - "&7Kéo thả vào trang bị có ô khảm để tăng Tốc Độ Di Chuyển."
-    movement-speed: 0.01
+      - "&8Chỉ số được tạo ngẫu nhiên khi nhận đá."
+    movement-speed:
+      min: 0.0036
+      max: 0.0044
     unstackable: true
     will-break: false
     unbreakable: true
 
 ORANGE_GEM_LV2:
   base:
-    revision-id: 4
+    revision-id: 5
     material: PAPER
     custom-model-data: 15006
     name: "&6&lCam Ngọc &e&lLv.II"
@@ -1465,14 +1739,17 @@ ORANGE_GEM_LV2:
     lore:
       - "&7Đá quý mang năng lượng Năng Lượng."
       - "&7Kéo thả vào trang bị có ô khảm để tăng Tốc Độ Di Chuyển."
-    movement-speed: 0.015
+      - "&8Chỉ số được tạo ngẫu nhiên khi nhận đá."
+    movement-speed:
+      min: 0.0054
+      max: 0.0066
     unstackable: true
     will-break: false
     unbreakable: true
 
 ORANGE_GEM_LV3:
   base:
-    revision-id: 4
+    revision-id: 5
     material: PAPER
     custom-model-data: 15006
     name: "&6&lCam Ngọc &e&lLv.III"
@@ -1481,14 +1758,17 @@ ORANGE_GEM_LV3:
     lore:
       - "&7Đá quý mang năng lượng Năng Lượng."
       - "&7Kéo thả vào trang bị có ô khảm để tăng Tốc Độ Di Chuyển."
-    movement-speed: 0.02
+      - "&8Chỉ số được tạo ngẫu nhiên khi nhận đá."
+    movement-speed:
+      min: 0.0072
+      max: 0.0088
     unstackable: true
     will-break: false
     unbreakable: true
 
 ORANGE_GEM_LV4:
   base:
-    revision-id: 4
+    revision-id: 5
     material: PAPER
     custom-model-data: 15006
     name: "&6&lCam Ngọc &e&lLv.IV"
@@ -1497,14 +1777,17 @@ ORANGE_GEM_LV4:
     lore:
       - "&7Đá quý mang năng lượng Năng Lượng."
       - "&7Kéo thả vào trang bị có ô khảm để tăng Tốc Độ Di Chuyển."
-    movement-speed: 0.025
+      - "&8Chỉ số được tạo ngẫu nhiên khi nhận đá."
+    movement-speed:
+      min: 0.009
+      max: 0.011
     unstackable: true
     will-break: false
     unbreakable: true
 
 ORANGE_GEM_LV5:
   base:
-    revision-id: 4
+    revision-id: 5
     material: PAPER
     custom-model-data: 15006
     name: "&6&lCam Ngọc &e&lLv.V"
@@ -1513,14 +1796,17 @@ ORANGE_GEM_LV5:
     lore:
       - "&7Đá quý mang năng lượng Năng Lượng."
       - "&7Kéo thả vào trang bị có ô khảm để tăng Tốc Độ Di Chuyển."
-    movement-speed: 0.03
+      - "&8Chỉ số được tạo ngẫu nhiên khi nhận đá."
+    movement-speed:
+      min: 0.0108
+      max: 0.0132
     unstackable: true
     will-break: false
     unbreakable: true
 
 ORANGE_GEM_LV6:
   base:
-    revision-id: 4
+    revision-id: 5
     material: PAPER
     custom-model-data: 15006
     name: "&6&lCam Ngọc &e&lLv.VI"
@@ -1529,14 +1815,17 @@ ORANGE_GEM_LV6:
     lore:
       - "&7Đá quý mang năng lượng Năng Lượng."
       - "&7Kéo thả vào trang bị có ô khảm để tăng Tốc Độ Di Chuyển."
-    movement-speed: 0.035
+      - "&8Chỉ số được tạo ngẫu nhiên khi nhận đá."
+    movement-speed:
+      min: 0.0126
+      max: 0.0154
     unstackable: true
     will-break: false
     unbreakable: true
 
 ORANGE_GEM_LV7:
   base:
-    revision-id: 4
+    revision-id: 5
     material: PAPER
     custom-model-data: 15006
     name: "&6&lCam Ngọc &e&lLv.VII"
@@ -1545,14 +1834,17 @@ ORANGE_GEM_LV7:
     lore:
       - "&7Đá quý mang năng lượng Năng Lượng."
       - "&7Kéo thả vào trang bị có ô khảm để tăng Tốc Độ Di Chuyển."
-    movement-speed: 0.04
+      - "&8Chỉ số được tạo ngẫu nhiên khi nhận đá."
+    movement-speed:
+      min: 0.0144
+      max: 0.0176
     unstackable: true
     will-break: false
     unbreakable: true
 
 ORANGE_GEM_LV8:
   base:
-    revision-id: 4
+    revision-id: 5
     material: PAPER
     custom-model-data: 15006
     name: "&6&lCam Ngọc &e&lLv.VIII"
@@ -1561,14 +1853,17 @@ ORANGE_GEM_LV8:
     lore:
       - "&7Đá quý mang năng lượng Năng Lượng."
       - "&7Kéo thả vào trang bị có ô khảm để tăng Tốc Độ Di Chuyển."
-    movement-speed: 0.045
+      - "&8Chỉ số được tạo ngẫu nhiên khi nhận đá."
+    movement-speed:
+      min: 0.0162
+      max: 0.0198
     unstackable: true
     will-break: false
     unbreakable: true
 
 ORANGE_GEM_LV9:
   base:
-    revision-id: 4
+    revision-id: 5
     material: PAPER
     custom-model-data: 15006
     name: "&6&lCam Ngọc &e&lLv.IX"
@@ -1577,14 +1872,17 @@ ORANGE_GEM_LV9:
     lore:
       - "&7Đá quý mang năng lượng Năng Lượng."
       - "&7Kéo thả vào trang bị có ô khảm để tăng Tốc Độ Di Chuyển."
-    movement-speed: 0.05
+      - "&8Chỉ số được tạo ngẫu nhiên khi nhận đá."
+    movement-speed:
+      min: 0.018
+      max: 0.022
     unstackable: true
     will-break: false
     unbreakable: true
 
 ORANGE_GEM_LV10:
   base:
-    revision-id: 4
+    revision-id: 5
     material: PAPER
     custom-model-data: 15006
     name: "&6&lCam Ngọc &e&lLv.X"
@@ -1593,7 +1891,10 @@ ORANGE_GEM_LV10:
     lore:
       - "&7Đá quý mang năng lượng Năng Lượng."
       - "&7Kéo thả vào trang bị có ô khảm để tăng Tốc Độ Di Chuyển."
-    movement-speed: 0.055
+      - "&8Chỉ số được tạo ngẫu nhiên khi nhận đá."
+    movement-speed:
+      min: 0.0225
+      max: 0.0275
     unstackable: true
     will-break: false
     unbreakable: true
