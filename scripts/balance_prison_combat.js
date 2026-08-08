@@ -22,6 +22,7 @@ const upgrade = {
   healthPerPiece: 5,
   defensePerPiece: 1.75,
 };
+const equipmentBaseMultiplier = 1.05;
 
 const ranks = [
   { id: 'TAN_BINH', skill: 'Tan_Binh', level: 10, attack: 3.75, physical: 0, health: 5, defense: 0 },
@@ -46,10 +47,12 @@ function incomingDamageForTarget(targetDamage, defense) {
 }
 
 function buildStats(rank) {
-  const weaponHit = rank.attack + rank.physical
+  const weaponHit = (rank.attack + rank.physical) * equipmentBaseMultiplier
     + rank.level * (upgrade.attackDamage + upgrade.physicalDamage);
-  const playerHealth = 20 + rank.health + rank.level * upgrade.healthPerPiece * 4;
-  const playerDefense = rank.defense + rank.level * upgrade.defensePerPiece * 4;
+  const playerHealth = 20 + rank.health * equipmentBaseMultiplier
+    + rank.level * upgrade.healthPerPiece * 4;
+  const playerDefense = rank.defense * equipmentBaseMultiplier
+    + rank.level * upgrade.defensePerPiece * 4;
   const bossDamage = rounded(incomingDamageForTarget(playerHealth * 0.22, playerDefense));
 
   return {

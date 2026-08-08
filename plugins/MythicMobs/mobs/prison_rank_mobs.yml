@@ -52,7 +52,7 @@ PRISON_TAN_BINH_NORMAL:
 PRISON_TAN_BINH_ELITE:
   Type: ZOMBIE
   Display: "&f&lTân Binh Cuồng Nộ &7[Elite]"
-  Health: 320
+  Health: 325
   Damage: 49
   Equipment:
     - WOODEN_SWORD HAND
@@ -74,7 +74,7 @@ PRISON_TAN_BINH_ELITE:
 PRISON_TAN_BINH_BOSS:
   Type: ZOMBIE
   Display: "&4&l[BOSS] &r&e&lĐầu Sỏ Tân Binh"
-  Health: 1240
+  Health: 1260
   Damage: 75
   Equipment:
     - STONE_SWORD HAND
@@ -128,7 +128,7 @@ PRISON_TU_NHAN_NORMAL:
 PRISON_TU_NHAN_ELITE:
   Type: ZOMBIE
   Display: "&a&lTù Nhân Hung Hãn &7[Elite]"
-  Health: 610
+  Health: 615
   Damage: 91
   Equipment:
     - STONE_SWORD HAND
@@ -151,7 +151,7 @@ PRISON_TU_NHAN_ELITE:
 PRISON_TU_NHAN_BOSS:
   Type: HUSK
   Display: "&2&lTrùm Tù Nhân &7[Boss]"
-  Health: 2380
+  Health: 2400
   Damage: 140
   Equipment:
     - IRON_SWORD HAND
@@ -206,7 +206,7 @@ PRISON_LAO_CONG_NORMAL:
 PRISON_LAO_CONG_ELITE:
   Type: HUSK
   Display: "&b&lLao Công Điên Loạn &7[Elite]"
-  Health: 915
+  Health: 920
   Damage: 137
   Equipment:
     - IRON_SWORD HAND
@@ -230,7 +230,7 @@ PRISON_LAO_CONG_ELITE:
 PRISON_LAO_CONG_BOSS:
   Type: HUSK
   Display: "&3&lĐốc Công Lao Công &7[Boss]"
-  Health: 3550
+  Health: 3580
   Damage: 210
   Equipment:
     - IRON_SWORD HAND
@@ -269,7 +269,7 @@ PRISON_LAO_CONG_BOSS:
 PRISON_THO_DAO_NORMAL:
   Type: HUSK
   Display: "&e&lThợ Đào Lạc Lối"
-  Health: 340
+  Health: 345
   Damage: 98
   Equipment:
     - IRON_SWORD HAND
@@ -289,7 +289,7 @@ PRISON_THO_DAO_NORMAL:
 PRISON_THO_DAO_ELITE:
   Type: HUSK
   Display: "&e&lThợ Đào Cuồng Đá &7[Elite]"
-  Health: 1225
+  Health: 1235
   Damage: 182
   Equipment:
     - IRON_SWORD HAND
@@ -314,7 +314,7 @@ PRISON_THO_DAO_ELITE:
 PRISON_THO_DAO_BOSS:
   Type: DROWNED
   Display: "&6&lTrưởng Nhóm Thợ Đào &7[Boss]"
-  Health: 4760
+  Health: 4800
   Damage: 280
   Equipment:
     - IRON_SWORD HAND
@@ -353,7 +353,7 @@ PRISON_THO_DAO_BOSS:
 PRISON_DOI_TRUONG_NORMAL:
   Type: VINDICATOR
   Display: "&6&lĐội Trưởng Phản Loạn"
-  Health: 450
+  Health: 455
   Damage: 124
   Equipment:
     - DIAMOND_SWORD HAND
@@ -372,7 +372,7 @@ PRISON_DOI_TRUONG_NORMAL:
 PRISON_DOI_TRUONG_ELITE:
   Type: VINDICATOR
   Display: "&6&lĐội Trưởng Tinh Nhuệ &7[Elite]"
-  Health: 1620
+  Health: 1640
   Damage: 231
   Equipment:
     - DIAMOND_SWORD HAND
@@ -395,7 +395,7 @@ PRISON_DOI_TRUONG_ELITE:
 PRISON_DOI_TRUONG_BOSS:
   Type: VINDICATOR
   Display: "&6&lĐại Đội Trưởng &7[Boss]"
-  Health: 6300
+  Health: 6370
   Damage: 355
   Equipment:
     - DIAMOND_SWORD HAND
@@ -435,7 +435,7 @@ PRISON_DOI_TRUONG_BOSS:
 PRISON_PHO_QUAN_NGUC_NORMAL:
   Type: PILLAGER
   Display: "&c&lLính Canh Phó Quản Ngục"
-  Health: 560
+  Health: 565
   Damage: 149
   Equipment:
     - DIAMOND_SWORD HAND
@@ -454,7 +454,7 @@ PRISON_PHO_QUAN_NGUC_NORMAL:
 PRISON_PHO_QUAN_NGUC_ELITE:
   Type: VINDICATOR
   Display: "&c&lCận Vệ Phó Quản Ngục &7[Elite]"
-  Health: 2015
+  Health: 2040
   Damage: 276
   Equipment:
     - DIAMOND_SWORD HAND
@@ -478,7 +478,7 @@ PRISON_PHO_QUAN_NGUC_ELITE:
 PRISON_PHO_QUAN_NGUC_BOSS:
   Type: VINDICATOR
   Display: "&4&lPhó Quản Ngục &7[Boss]"
-  Health: 7840
+  Health: 7940
   Damage: 425
   Equipment:
     - DIAMOND_SWORD HAND
@@ -518,7 +518,7 @@ PRISON_PHO_QUAN_NGUC_BOSS:
 PRISON_QUAN_NGUC_NORMAL:
   Type: WITHER_SKELETON
   Display: "&5&lLính Canh Quản Ngục"
-  Health: 675
+  Health: 685
   Damage: 175
   Equipment:
     - NETHERITE_SWORD HAND
@@ -537,7 +537,7 @@ PRISON_QUAN_NGUC_NORMAL:
 PRISON_QUAN_NGUC_ELITE:
   Type: WITHER_SKELETON
   Display: "&5&lCận Vệ Quản Ngục &7[Elite]"
-  Health: 2430
+  Health: 2465
   Damage: 325
   Equipment:
     - NETHERITE_SWORD HAND
@@ -560,7 +560,7 @@ PRISON_QUAN_NGUC_ELITE:
 PRISON_QUAN_NGUC_BOSS:
   Type: WITHER_SKELETON
   Display: "&5&lQuản Ngục Tối Cao &7[Boss]"
-  Health: 9450
+  Health: 9580
   Damage: 500
   Equipment:
     - NETHERITE_SWORD HAND
@@ -600,8 +600,8 @@ PRISON_QUAN_NGUC_BOSS:
 PRISON_BA_CHU_NGUC_TU_NORMAL:
   Type: WITHER_SKELETON
   Display: "&d&lThủ Hạ Bá Chủ"
-  Health: 835
-  Damage: 214
+  Health: 845
+  Damage: 215
   Equipment:
     - NETHERITE_SWORD HAND
     - NETHERITE_HELMET HEAD
@@ -620,8 +620,8 @@ PRISON_BA_CHU_NGUC_TU_NORMAL:
 PRISON_BA_CHU_NGUC_TU_ELITE:
   Type: WITHER_SKELETON
   Display: "&d&lCận Vệ Bá Chủ &7[Elite]"
-  Health: 2995
-  Damage: 397
+  Health: 3040
+  Damage: 400
   Equipment:
     - NETHERITE_SWORD HAND
     - NETHERITE_HELMET HEAD
@@ -645,8 +645,8 @@ PRISON_BA_CHU_NGUC_TU_ELITE:
 PRISON_BA_CHU_NGUC_TU_BOSS:
   Type: PIGLIN_BRUTE
   Display: "&d&lBá Chủ Ngục Tù &7[Boss]"
-  Health: 11660
-  Damage: 610
+  Health: 11820
+  Damage: 615
   Equipment:
     - NETHERITE_SWORD HAND
     - NETHERITE_HELMET HEAD
@@ -669,7 +669,7 @@ PRISON_BA_CHU_NGUC_TU_BOSS:
     - prison_rank8_boss_drops
   Skills:
     - skill{s=Boss_Anti_Kite_Pull} @target ~onTimer:90
-    - damage{amount=458;ignorearmor=true;ignoreiframes=true} @PlayersInRadius{r=5} ~onTimer:50
+    - damage{amount=461;ignorearmor=true;ignoreiframes=true} @PlayersInRadius{r=5} ~onTimer:50
     - skill{s=Prison_Ba_Chu_Nguc_Tu_Enrage} @self ~onDamaged
     - summon{mob=PRISON_BA_CHU_NGUC_TU_NORMAL;amount=2;noise=5} @self ~onTimer:180
     - command{c="dh holograms disable BaChuNgucTuTimer"} ~onSpawn
@@ -685,8 +685,8 @@ PRISON_BA_CHU_NGUC_TU_BOSS:
 PRISON_VUOT_NGUC_NORMAL:
   Type: PIGLIN_BRUTE
   Display: "&4&lKẻ Vượt Ngục"
-  Health: 1005
-  Damage: 254
+  Health: 1020
+  Damage: 255
   Equipment:
     - NETHERITE_SWORD HAND
     - NETHERITE_HELMET HEAD
@@ -705,8 +705,8 @@ PRISON_VUOT_NGUC_NORMAL:
 PRISON_VUOT_NGUC_ELITE:
   Type: PIGLIN_BRUTE
   Display: "&4&lKẻ Vượt Ngục Liều Lĩnh &7[Elite]"
-  Health: 3610
-  Damage: 471
+  Health: 3665
+  Damage: 475
   Equipment:
     - NETHERITE_SWORD HAND
     - NETHERITE_HELMET HEAD
@@ -724,14 +724,14 @@ PRISON_VUOT_NGUC_ELITE:
   Skills:
     - skill{s=Prison_Despawn_No_Players} @self ~onTimer:200
     - throw{velocity=1.6;velocityY=0.4} @target 0.3
-    - damage{amount=326;ignorearmor=true} @PlayersInRadius{r=3} 0.2
+    - damage{amount=329;ignorearmor=true} @PlayersInRadius{r=3} 0.2
     - heal{amount=63} @self ~onTimer:100
 
 PRISON_VUOT_NGUC_BOSS:
   Type: RAVAGER
   Display: "&4&lTrùm Vượt Ngục Tối Thượng &7[Boss]"
-  Health: 14040
-  Damage: 725
+  Health: 14250
+  Damage: 730
   Equipment:
     - NETHERITE_SWORD HAND
     - NETHERITE_HELMET HEAD
@@ -754,7 +754,7 @@ PRISON_VUOT_NGUC_BOSS:
     - prison_rank9_boss_drops
   Skills:
     - skill{s=Boss_Anti_Kite_Pull} @target ~onTimer:90
-    - damage{amount=544;ignorearmor=true;ignoreiframes=true} @PlayersInRadius{r=5} ~onTimer:45
+    - damage{amount=548;ignorearmor=true;ignoreiframes=true} @PlayersInRadius{r=5} ~onTimer:45
     - skill{s=Prison_Vuot_Nguc_Enrage} @self ~onDamaged
     - summon{mob=PRISON_VUOT_NGUC_NORMAL;amount=2;noise=5} @self ~onTimer:180
     - command{c="dh holograms disable VuotNgucTimer"} ~onSpawn
@@ -784,8 +784,8 @@ PRISON_MA_VUONG_BOSS:
   # SERVER để áp dụng (không chỉ /mm reload hay /reload). Sau restart, Health
   # dưới đây mới thực sự có tác dụng.
   # Base nerf 50% HP (2026-08-01): trước 5500/120; Damage chỉnh lại 75.
-  Health: 21100
-  Damage: 905
+  Health: 21400
+  Damage: 915
   # LevelModifiers: +flat mỗi level trên base (L1 = đúng số Health/Damage ở trên).
   # Thiết kế world-level: max 50, soft-cap từ 20 do CorePlugin (MM chỉ linear).
   # Ước lượng nếu LevelModifiers có hiệu lực (không bị ScalingEquations ghi đè):
@@ -850,7 +850,7 @@ PRISON_MA_VUONG_BOSS:
     - prison_ma_vuong_bonus_lv50
   Skills:
     - skill{s=Boss_Anti_Kite_Pull} @target ~onTimer:80
-    - damage{amount=690;ignorearmor=true;ignoreiframes=true} @PlayersInRadius{r=6} ~onTimer:45
+    - damage{amount=695;ignorearmor=true;ignoreiframes=true} @PlayersInRadius{r=6} ~onTimer:45
     - skill{s=Prison_Ma_Vuong_Enrage} @self ~onDamaged
     - skill{s=Prison_Ma_Vuong_Hell_Nova} @self ~onTimer:110
     - skill{s=Prison_Ma_Vuong_Nguyen_Rua} @self ~onTimer:180

@@ -1,3 +1,4 @@
+# base-combat-stats-multiplier: 1.05
 GACHA_DAGGER_GLOOMSTEEL_KNIFE:
   itemsadder-item: "fantasy_weapons:gloomsteel_knife"
   base:
@@ -14,11 +15,11 @@ GACHA_DAGGER_GLOOMSTEEL_KNIFE:
       - "&b&l✦ Vật Phẩm Độc Quyền"
       - "&7 Đoản đao sát thủ rèn từ thép u hồn bóng tối"
       - "&7 Tốc độ chém cực nhanh & khả năng chí mạng bộc phát"
-    attack-damage: 42.0
-    attack-speed: 2.2
-    critical-strike-chance: 30.0
-    critical-strike-power: 40.0
-    movement-speed: 0.03
+    attack-damage: 44.1
+    attack-speed: 2.31
+    critical-strike-chance: 31.5
+    critical-strike-power: 42
+    movement-speed: 0.032
     ability:
       ability-1:
         type: QUICK_DASH
@@ -47,10 +48,10 @@ GACHA_DAGGER_RUNIC_PIERCER:
       - "&b&l✦ Vật Phẩm Độc Quyền"
       - "&7 Đoản kiếm đâm xuyên giáp khắc phù văn cổ"
       - "&7 Tốc độ chém nhanh & xuyên thủng phòng thủ"
-    attack-damage: 43.5
-    attack-speed: 2.0
-    critical-strike-chance: 26.0
-    movement-speed: 0.02
+    attack-damage: 45.675
+    attack-speed: 2.1
+    critical-strike-chance: 27.3
+    movement-speed: 0.021
     upgrade:
       template: weapon-upgrade-template
       reference: weapon-upgrade-template

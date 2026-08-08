@@ -1,3 +1,4 @@
+# base-combat-stats-multiplier: 1.05
 TEST_REVISION_SWORD:
   revision-id: 7
   base:
@@ -12,8 +13,8 @@ TEST_REVISION_SWORD:
       - "&7 Phiên bản Revision ID: &e5"
       - "&7 Tự động cập nhật Lore & Tên!"
       - "&7 Sát thương: 150.0"
-    attack-damage: 150.0
-    attack-speed: 1.6
+    attack-damage: 157.5
+    attack-speed: 1.68
     upgrade:
       reference: weapon-upgrade-template
       template: weapon-upgrade-template
@@ -35,9 +36,9 @@ SWORD_TAN_BINH_1:
     lore:
       - "&7Kiếm cận chiến cân bằng cho Tân Binh."
       - "&8Nâng cấp tại Lò Rèn Vũ Khí Tân Binh."
-    attack-damage: 3.0
-    attack-speed: 1.6
-    critical-strike-chance: 1.0
+    attack-damage: 3.15
+    attack-speed: 1.68
+    critical-strike-chance: 1.05
     upgrade:
       reference: weapon-upgrade-template
       template: weapon-upgrade-template
@@ -58,9 +59,9 @@ SWORD_TAN_BINH_2:
     lore:
       - "&7 Vũ khí cận chiến sắc bén của Tân Binh"
       - "&7 Nâng cấp tại Lò Rèn để tăng sát thương"
-    attack-damage: 3.4
-    attack-speed: 1.6
-    critical-strike-chance: 1.5
+    attack-damage: 3.57
+    attack-speed: 1.68
+    critical-strike-chance: 1.575
     upgrade:
       reference: weapon-upgrade-template
       template: weapon-upgrade-template
@@ -81,9 +82,9 @@ SWORD_TAN_BINH_3:
     lore:
       - "&7 Vũ khí cận chiến sắc bén của Tân Binh"
       - "&7 Nâng cấp tại Lò Rèn để tăng sát thương"
-    attack-damage: 3.8
-    attack-speed: 1.6
-    critical-strike-chance: 2.0
+    attack-damage: 3.99
+    attack-speed: 1.68
+    critical-strike-chance: 2.1
     upgrade:
       reference: weapon-upgrade-template
       template: weapon-upgrade-template
@@ -104,9 +105,9 @@ SWORD_TAN_BINH_4:
     lore:
       - "&7 Vũ khí cận chiến sắc bén của Tân Binh"
       - "&7 Nâng cấp tại Lò Rèn để tăng sát thương"
-    attack-damage: 4.1
-    attack-speed: 1.6
-    critical-strike-chance: 2.5
+    attack-damage: 4.305
+    attack-speed: 1.68
+    critical-strike-chance: 2.625
     upgrade:
       reference: weapon-upgrade-template
       template: weapon-upgrade-template
@@ -127,9 +128,9 @@ SWORD_TAN_BINH_5:
     lore:
       - "&7 Vũ khí cận chiến sắc bén của Tân Binh"
       - "&7 Nâng cấp tại Lò Rèn để tăng sát thương"
-    attack-damage: 4.5
-    attack-speed: 1.6
-    critical-strike-chance: 3.0
+    attack-damage: 4.725
+    attack-speed: 1.68
+    critical-strike-chance: 3.15
     upgrade:
       reference: weapon-upgrade-template
       template: weapon-upgrade-template
@@ -150,9 +151,9 @@ SWORD_TU_NHAN_1:
     lore:
       - "&7 Vũ khí cận chiến sắc bén của Tù Nhân"
       - "&7 Nâng cấp tại Lò Rèn để tăng sát thương"
-    attack-damage: 5.0
-    attack-speed: 1.6
-    critical-strike-chance: 3.0
+    attack-damage: 5.25
+    attack-speed: 1.68
+    critical-strike-chance: 3.15
     upgrade:
       reference: weapon-upgrade-template
       template: weapon-upgrade-template
@@ -173,9 +174,9 @@ SWORD_TU_NHAN_2:
     lore:
       - "&7 Vũ khí cận chiến sắc bén của Tù Nhân"
       - "&7 Nâng cấp tại Lò Rèn để tăng sát thương"
-    attack-damage: 5.5
-    attack-speed: 1.6
-    critical-strike-chance: 3.5
+    attack-damage: 5.775
+    attack-speed: 1.68
+    critical-strike-chance: 3.675
     upgrade:
       reference: weapon-upgrade-template
       template: weapon-upgrade-template
@@ -196,9 +197,9 @@ SWORD_TU_NHAN_3:
     lore:
       - "&7 Vũ khí cận chiến sắc bén của Tù Nhân"
       - "&7 Nâng cấp tại Lò Rèn để tăng sát thương"
-    attack-damage: 6.0
-    attack-speed: 1.6
-    critical-strike-chance: 4.0
+    attack-damage: 6.3
+    attack-speed: 1.68
+    critical-strike-chance: 4.2
     upgrade:
       reference: weapon-upgrade-template
       template: weapon-upgrade-template
@@ -219,9 +220,9 @@ SWORD_TU_NHAN_4:
     lore:
       - "&7 Vũ khí cận chiến sắc bén của Tù Nhân"
       - "&7 Nâng cấp tại Lò Rèn để tăng sát thương"
-    attack-damage: 6.5
-    attack-speed: 1.6
-    critical-strike-chance: 4.5
+    attack-damage: 6.825
+    attack-speed: 1.68
+    critical-strike-chance: 4.725
     upgrade:
       reference: weapon-upgrade-template
       template: weapon-upgrade-template
@@ -242,9 +243,9 @@ SWORD_TU_NHAN_5:
     lore:
       - "&7 Vũ khí cận chiến sắc bén của Tù Nhân"
       - "&7 Nâng cấp tại Lò Rèn để tăng sát thương"
-    attack-damage: 7.0
-    attack-speed: 1.6
-    critical-strike-chance: 5.0
+    attack-damage: 7.35
+    attack-speed: 1.68
+    critical-strike-chance: 5.25
     upgrade:
       reference: weapon-upgrade-template
       template: weapon-upgrade-template
@@ -265,9 +266,9 @@ SWORD_LAO_CONG_1:
     lore:
       - "&7 Vũ khí cận chiến sắc bén của Lao Công"
       - "&7 Nâng cấp tại Lò Rèn để tăng sát thương"
-    attack-damage: 7.5
-    attack-speed: 1.6
-    critical-strike-chance: 5.0
+    attack-damage: 7.875
+    attack-speed: 1.68
+    critical-strike-chance: 5.25
     upgrade:
       reference: weapon-upgrade-template
       template: weapon-upgrade-template
@@ -288,9 +289,9 @@ SWORD_LAO_CONG_2:
     lore:
       - "&7 Vũ khí cận chiến sắc bén của Lao Công"
       - "&7 Nâng cấp tại Lò Rèn để tăng sát thương"
-    attack-damage: 8.1
-    attack-speed: 1.6
-    critical-strike-chance: 5.5
+    attack-damage: 8.505
+    attack-speed: 1.68
+    critical-strike-chance: 5.775
     upgrade:
       reference: weapon-upgrade-template
       template: weapon-upgrade-template
@@ -311,9 +312,9 @@ SWORD_LAO_CONG_3:
     lore:
       - "&7 Vũ khí cận chiến sắc bén của Lao Công"
       - "&7 Nâng cấp tại Lò Rèn để tăng sát thương"
-    attack-damage: 8.8
-    attack-speed: 1.6
-    critical-strike-chance: 6.0
+    attack-damage: 9.24
+    attack-speed: 1.68
+    critical-strike-chance: 6.3
     upgrade:
       reference: weapon-upgrade-template
       template: weapon-upgrade-template
@@ -334,9 +335,9 @@ SWORD_LAO_CONG_4:
     lore:
       - "&7 Vũ khí cận chiến sắc bén của Lao Công"
       - "&7 Nâng cấp tại Lò Rèn để tăng sát thương"
-    attack-damage: 9.4
-    attack-speed: 1.6
-    critical-strike-chance: 6.5
+    attack-damage: 9.87
+    attack-speed: 1.68
+    critical-strike-chance: 6.825
     upgrade:
       reference: weapon-upgrade-template
       template: weapon-upgrade-template
@@ -357,9 +358,9 @@ SWORD_LAO_CONG_5:
     lore:
       - "&7 Vũ khí cận chiến sắc bén của Lao Công"
       - "&7 Nâng cấp tại Lò Rèn để tăng sát thương"
-    attack-damage: 10.0
-    attack-speed: 1.6
-    critical-strike-chance: 7.0
+    attack-damage: 10.5
+    attack-speed: 1.68
+    critical-strike-chance: 7.35
     upgrade:
       reference: weapon-upgrade-template
       template: weapon-upgrade-template
@@ -380,9 +381,9 @@ SWORD_THO_DAO_1:
     lore:
       - "&7 Vũ khí cận chiến sắc bén của Thợ Đào"
       - "&7 Nâng cấp tại Lò Rèn để tăng sát thương"
-    attack-damage: 10.5
-    attack-speed: 1.6
-    critical-strike-chance: 8.0
+    attack-damage: 11.025
+    attack-speed: 1.68
+    critical-strike-chance: 8.4
     upgrade:
       reference: weapon-upgrade-template
       template: weapon-upgrade-template
@@ -403,9 +404,9 @@ SWORD_THO_DAO_2:
     lore:
       - "&7 Vũ khí cận chiến sắc bén của Thợ Đào"
       - "&7 Nâng cấp tại Lò Rèn để tăng sát thương"
-    attack-damage: 11.3
-    attack-speed: 1.6
-    critical-strike-chance: 8.5
+    attack-damage: 11.865
+    attack-speed: 1.68
+    critical-strike-chance: 8.925
     upgrade:
       reference: weapon-upgrade-template
       template: weapon-upgrade-template
@@ -426,9 +427,9 @@ SWORD_THO_DAO_3:
     lore:
       - "&7 Vũ khí cận chiến sắc bén của Thợ Đào"
       - "&7 Nâng cấp tại Lò Rèn để tăng sát thương"
-    attack-damage: 12.0
-    attack-speed: 1.6
-    critical-strike-chance: 9.0
+    attack-damage: 12.6
+    attack-speed: 1.68
+    critical-strike-chance: 9.45
     upgrade:
       reference: weapon-upgrade-template
       template: weapon-upgrade-template
@@ -449,9 +450,9 @@ SWORD_THO_DAO_4:
     lore:
       - "&7 Vũ khí cận chiến sắc bén của Thợ Đào"
       - "&7 Nâng cấp tại Lò Rèn để tăng sát thương"
-    attack-damage: 12.8
-    attack-speed: 1.6
-    critical-strike-chance: 9.5
+    attack-damage: 13.44
+    attack-speed: 1.68
+    critical-strike-chance: 9.975
     upgrade:
       reference: weapon-upgrade-template
       template: weapon-upgrade-template
@@ -472,9 +473,9 @@ SWORD_THO_DAO_5:
     lore:
       - "&7 Vũ khí cận chiến sắc bén của Thợ Đào"
       - "&7 Nâng cấp tại Lò Rèn để tăng sát thương"
-    attack-damage: 13.5
-    attack-speed: 1.6
-    critical-strike-chance: 10.0
+    attack-damage: 14.175
+    attack-speed: 1.68
+    critical-strike-chance: 10.5
     upgrade:
       reference: weapon-upgrade-template
       template: weapon-upgrade-template
@@ -495,10 +496,10 @@ SWORD_DOI_TRUONG_1:
     lore:
       - "&7 Vũ khí cận chiến sắc bén của Đội Trưởng"
       - "&7 Nâng cấp tại Lò Rèn để tăng sát thương"
-    attack-damage: 14.0
-    attack-speed: 1.6
-    critical-strike-chance: 10.0
-    physical-damage: 3.0
+    attack-damage: 14.7
+    attack-speed: 1.68
+    critical-strike-chance: 10.5
+    physical-damage: 3.15
     upgrade:
       reference: weapon-upgrade-template
       template: weapon-upgrade-template
@@ -519,10 +520,10 @@ SWORD_DOI_TRUONG_2:
     lore:
       - "&7 Vũ khí cận chiến sắc bén của Đội Trưởng"
       - "&7 Nâng cấp tại Lò Rèn để tăng sát thương"
-    attack-damage: 15.0
-    attack-speed: 1.6
-    critical-strike-chance: 10.5
-    physical-damage: 3.5
+    attack-damage: 15.75
+    attack-speed: 1.68
+    critical-strike-chance: 11.025
+    physical-damage: 3.675
     upgrade:
       reference: weapon-upgrade-template
       template: weapon-upgrade-template
@@ -543,10 +544,10 @@ SWORD_DOI_TRUONG_3:
     lore:
       - "&7 Vũ khí cận chiến sắc bén của Đội Trưởng"
       - "&7 Nâng cấp tại Lò Rèn để tăng sát thương"
-    attack-damage: 16.0
-    attack-speed: 1.6
-    critical-strike-chance: 11.0
-    physical-damage: 4.0
+    attack-damage: 16.8
+    attack-speed: 1.68
+    critical-strike-chance: 11.55
+    physical-damage: 4.2
     upgrade:
       reference: weapon-upgrade-template
       template: weapon-upgrade-template
@@ -567,10 +568,10 @@ SWORD_DOI_TRUONG_4:
     lore:
       - "&7 Vũ khí cận chiến sắc bén của Đội Trưởng"
       - "&7 Nâng cấp tại Lò Rèn để tăng sát thương"
-    attack-damage: 17.0
-    attack-speed: 1.6
-    critical-strike-chance: 11.5
-    physical-damage: 4.5
+    attack-damage: 17.85
+    attack-speed: 1.68
+    critical-strike-chance: 12.075
+    physical-damage: 4.725
     upgrade:
       reference: weapon-upgrade-template
       template: weapon-upgrade-template
@@ -591,10 +592,10 @@ SWORD_DOI_TRUONG_5:
     lore:
       - "&7 Vũ khí cận chiến sắc bén của Đội Trưởng"
       - "&7 Nâng cấp tại Lò Rèn để tăng sát thương"
-    attack-damage: 18.0
-    attack-speed: 1.6
-    critical-strike-chance: 12.0
-    physical-damage: 5.0
+    attack-damage: 18.9
+    attack-speed: 1.68
+    critical-strike-chance: 12.6
+    physical-damage: 5.25
     upgrade:
       reference: weapon-upgrade-template
       template: weapon-upgrade-template
@@ -615,10 +616,10 @@ SWORD_PHO_QUAN_NGUC_1:
     lore:
       - "&7 Vũ khí cận chiến sắc bén của Phó Quản Ngục"
       - "&7 Nâng cấp tại Lò Rèn để tăng sát thương"
-    attack-damage: 18.5
-    attack-speed: 1.6
-    critical-strike-chance: 12.0
-    physical-damage: 6.0
+    attack-damage: 19.425
+    attack-speed: 1.68
+    critical-strike-chance: 12.6
+    physical-damage: 6.3
     upgrade:
       reference: weapon-upgrade-template
       template: weapon-upgrade-template
@@ -639,10 +640,10 @@ SWORD_PHO_QUAN_NGUC_2:
     lore:
       - "&7 Vũ khí cận chiến sắc bén của Phó Quản Ngục"
       - "&7 Nâng cấp tại Lò Rèn để tăng sát thương"
-    attack-damage: 19.8
-    attack-speed: 1.6
-    critical-strike-chance: 12.5
-    physical-damage: 6.5
+    attack-damage: 20.79
+    attack-speed: 1.68
+    critical-strike-chance: 13.125
+    physical-damage: 6.825
     upgrade:
       reference: weapon-upgrade-template
       template: weapon-upgrade-template
@@ -663,10 +664,10 @@ SWORD_PHO_QUAN_NGUC_3:
     lore:
       - "&7 Vũ khí cận chiến sắc bén của Phó Quản Ngục"
       - "&7 Nâng cấp tại Lò Rèn để tăng sát thương"
-    attack-damage: 21.0
-    attack-speed: 1.6
-    critical-strike-chance: 13.0
-    physical-damage: 7.0
+    attack-damage: 22.05
+    attack-speed: 1.68
+    critical-strike-chance: 13.65
+    physical-damage: 7.35
     upgrade:
       reference: weapon-upgrade-template
       template: weapon-upgrade-template
@@ -687,10 +688,10 @@ SWORD_PHO_QUAN_NGUC_4:
     lore:
       - "&7 Vũ khí cận chiến sắc bén của Phó Quản Ngục"
       - "&7 Nâng cấp tại Lò Rèn để tăng sát thương"
-    attack-damage: 22.3
-    attack-speed: 1.6
-    critical-strike-chance: 13.5
-    physical-damage: 7.5
+    attack-damage: 23.415
+    attack-speed: 1.68
+    critical-strike-chance: 14.175
+    physical-damage: 7.875
     upgrade:
       reference: weapon-upgrade-template
       template: weapon-upgrade-template
@@ -711,10 +712,10 @@ SWORD_PHO_QUAN_NGUC_5:
     lore:
       - "&7 Vũ khí cận chiến sắc bén của Phó Quản Ngục"
       - "&7 Nâng cấp tại Lò Rèn để tăng sát thương"
-    attack-damage: 23.5
-    attack-speed: 1.6
-    critical-strike-chance: 14.0
-    physical-damage: 8.0
+    attack-damage: 24.675
+    attack-speed: 1.68
+    critical-strike-chance: 14.7
+    physical-damage: 8.4
     upgrade:
       reference: weapon-upgrade-template
       template: weapon-upgrade-template
@@ -735,10 +736,10 @@ SWORD_QUAN_NGUC_1:
     lore:
       - "&7 Vũ khí cận chiến sắc bén của Quản Ngục"
       - "&7 Nâng cấp tại Lò Rèn để tăng sát thương"
-    attack-damage: 24.0
-    attack-speed: 1.6
-    critical-strike-chance: 15.0
-    physical-damage: 9.0
+    attack-damage: 25.2
+    attack-speed: 1.68
+    critical-strike-chance: 15.75
+    physical-damage: 9.45
     upgrade:
       reference: weapon-upgrade-template
       template: weapon-upgrade-template
@@ -759,10 +760,10 @@ SWORD_QUAN_NGUC_2:
     lore:
       - "&7 Vũ khí cận chiến sắc bén của Quản Ngục"
       - "&7 Nâng cấp tại Lò Rèn để tăng sát thương"
-    attack-damage: 25.5
-    attack-speed: 1.6
-    critical-strike-chance: 15.5
-    physical-damage: 9.5
+    attack-damage: 26.775
+    attack-speed: 1.68
+    critical-strike-chance: 16.275
+    physical-damage: 9.975
     upgrade:
       reference: weapon-upgrade-template
       template: weapon-upgrade-template
@@ -783,10 +784,10 @@ SWORD_QUAN_NGUC_3:
     lore:
       - "&7 Vũ khí cận chiến sắc bén của Quản Ngục"
       - "&7 Nâng cấp tại Lò Rèn để tăng sát thương"
-    attack-damage: 27.0
-    attack-speed: 1.6
-    critical-strike-chance: 16.0
-    physical-damage: 10.0
+    attack-damage: 28.35
+    attack-speed: 1.68
+    critical-strike-chance: 16.8
+    physical-damage: 10.5
     upgrade:
       reference: weapon-upgrade-template
       template: weapon-upgrade-template
@@ -807,10 +808,10 @@ SWORD_QUAN_NGUC_4:
     lore:
       - "&7 Vũ khí cận chiến sắc bén của Quản Ngục"
       - "&7 Nâng cấp tại Lò Rèn để tăng sát thương"
-    attack-damage: 28.5
-    attack-speed: 1.6
-    critical-strike-chance: 16.5
-    physical-damage: 10.5
+    attack-damage: 29.925
+    attack-speed: 1.68
+    critical-strike-chance: 17.325
+    physical-damage: 11.025
     upgrade:
       reference: weapon-upgrade-template
       template: weapon-upgrade-template
@@ -831,10 +832,10 @@ SWORD_QUAN_NGUC_5:
     lore:
       - "&7 Vũ khí cận chiến sắc bén của Quản Ngục"
       - "&7 Nâng cấp tại Lò Rèn để tăng sát thương"
-    attack-damage: 30.0
-    attack-speed: 1.6
-    critical-strike-chance: 17.0
-    physical-damage: 11.0
+    attack-damage: 31.5
+    attack-speed: 1.68
+    critical-strike-chance: 17.85
+    physical-damage: 11.55
     upgrade:
       reference: weapon-upgrade-template
       template: weapon-upgrade-template
@@ -855,10 +856,10 @@ SWORD_BA_CHU_NGUC_TU_1:
     lore:
       - "&7 Vũ khí cận chiến sắc bén của Bá Chủ Ngục Tù"
       - "&7 Nâng cấp tại Lò Rèn để tăng sát thương"
-    attack-damage: 31.0
-    attack-speed: 1.6
-    critical-strike-chance: 18.0
-    physical-damage: 12.0
+    attack-damage: 32.55
+    attack-speed: 1.68
+    critical-strike-chance: 18.9
+    physical-damage: 12.6
     upgrade:
       reference: weapon-upgrade-template
       template: weapon-upgrade-template
@@ -879,10 +880,10 @@ SWORD_BA_CHU_NGUC_TU_2:
     lore:
       - "&7 Vũ khí cận chiến sắc bén của Bá Chủ Ngục Tù"
       - "&7 Nâng cấp tại Lò Rèn để tăng sát thương"
-    attack-damage: 32.8
-    attack-speed: 1.6
-    critical-strike-chance: 18.5
-    physical-damage: 12.5
+    attack-damage: 34.44
+    attack-speed: 1.68
+    critical-strike-chance: 19.425
+    physical-damage: 13.125
     upgrade:
       reference: weapon-upgrade-template
       template: weapon-upgrade-template
@@ -903,10 +904,10 @@ SWORD_BA_CHU_NGUC_TU_3:
     lore:
       - "&7 Vũ khí cận chiến sắc bén của Bá Chủ Ngục Tù"
       - "&7 Nâng cấp tại Lò Rèn để tăng sát thương"
-    attack-damage: 34.5
-    attack-speed: 1.6
-    critical-strike-chance: 19.0
-    physical-damage: 13.0
+    attack-damage: 36.225
+    attack-speed: 1.68
+    critical-strike-chance: 19.95
+    physical-damage: 13.65
     upgrade:
       reference: weapon-upgrade-template
       template: weapon-upgrade-template
@@ -927,10 +928,10 @@ SWORD_BA_CHU_NGUC_TU_4:
     lore:
       - "&7 Vũ khí cận chiến sắc bén của Bá Chủ Ngục Tù"
       - "&7 Nâng cấp tại Lò Rèn để tăng sát thương"
-    attack-damage: 36.3
-    attack-speed: 1.6
-    critical-strike-chance: 19.5
-    physical-damage: 13.5
+    attack-damage: 38.115
+    attack-speed: 1.68
+    critical-strike-chance: 20.475
+    physical-damage: 14.175
     upgrade:
       reference: weapon-upgrade-template
       template: weapon-upgrade-template
@@ -951,10 +952,10 @@ SWORD_BA_CHU_NGUC_TU_5:
     lore:
       - "&7 Vũ khí cận chiến sắc bén của Bá Chủ Ngục Tù"
       - "&7 Nâng cấp tại Lò Rèn để tăng sát thương"
-    attack-damage: 38.0
-    attack-speed: 1.6
-    critical-strike-chance: 20.0
-    physical-damage: 14.0
+    attack-damage: 39.9
+    attack-speed: 1.68
+    critical-strike-chance: 21
+    physical-damage: 14.7
     upgrade:
       reference: weapon-upgrade-template
       template: weapon-upgrade-template
@@ -975,10 +976,10 @@ SWORD_VUOT_NGUC_1:
     lore:
       - "&7 Vũ khí cận chiến sắc bén của Vượt Ngục"
       - "&7 Nâng cấp tại Lò Rèn để tăng sát thương"
-    attack-damage: 39.0
-    attack-speed: 1.6
-    critical-strike-chance: 20.0
-    physical-damage: 15.0
+    attack-damage: 40.95
+    attack-speed: 1.68
+    critical-strike-chance: 21
+    physical-damage: 15.75
     upgrade:
       reference: weapon-upgrade-template
       template: weapon-upgrade-template
@@ -999,10 +1000,10 @@ SWORD_VUOT_NGUC_2:
     lore:
       - "&7 Vũ khí cận chiến sắc bén của Vượt Ngục"
       - "&7 Nâng cấp tại Lò Rèn để tăng sát thương"
-    attack-damage: 41.3
-    attack-speed: 1.6
-    critical-strike-chance: 20.5
-    physical-damage: 16.0
+    attack-damage: 43.365
+    attack-speed: 1.68
+    critical-strike-chance: 21.525
+    physical-damage: 16.8
     upgrade:
       reference: weapon-upgrade-template
       template: weapon-upgrade-template
@@ -1023,10 +1024,10 @@ SWORD_VUOT_NGUC_3:
     lore:
       - "&7 Vũ khí cận chiến sắc bén của Vượt Ngục"
       - "&7 Nâng cấp tại Lò Rèn để tăng sát thương"
-    attack-damage: 43.5
-    attack-speed: 1.6
-    critical-strike-chance: 21.0
-    physical-damage: 17.0
+    attack-damage: 45.675
+    attack-speed: 1.68
+    critical-strike-chance: 22.05
+    physical-damage: 17.85
     upgrade:
       reference: weapon-upgrade-template
       template: weapon-upgrade-template
@@ -1047,10 +1048,10 @@ SWORD_VUOT_NGUC_4:
     lore:
       - "&7 Vũ khí cận chiến sắc bén của Vượt Ngục"
       - "&7 Nâng cấp tại Lò Rèn để tăng sát thương"
-    attack-damage: 45.8
-    attack-speed: 1.6
-    critical-strike-chance: 21.5
-    physical-damage: 18.0
+    attack-damage: 48.09
+    attack-speed: 1.68
+    critical-strike-chance: 22.575
+    physical-damage: 18.9
     upgrade:
       reference: weapon-upgrade-template
       template: weapon-upgrade-template
@@ -1071,10 +1072,10 @@ SWORD_VUOT_NGUC_5:
     lore:
       - "&7 Vũ khí cận chiến sắc bén của Vượt Ngục"
       - "&7 Nâng cấp tại Lò Rèn để tăng sát thương"
-    attack-damage: 48.0
-    attack-speed: 1.6
-    critical-strike-chance: 22.0
-    physical-damage: 19.0
+    attack-damage: 50.4
+    attack-speed: 1.68
+    critical-strike-chance: 23.1
+    physical-damage: 19.95
     upgrade:
       reference: weapon-upgrade-template
       template: weapon-upgrade-template
@@ -1098,10 +1099,10 @@ GACHA_SWORD_AMETHYST:
       - "&b&l✦ Vật Phẩm Độc Quyền"
       - "&7 Đại kiếm rèn từ tinh thể thạch anh tím cổ xưa"
       - "&7 Tỷ lệ chí mạng & sát thương bộc phát cực mạnh"
-    attack-damage: 53.0
-    attack-speed: 1.6
-    critical-strike-chance: 26.0
-    physical-damage: 22.0
+    attack-damage: 55.65
+    attack-speed: 1.68
+    critical-strike-chance: 27.3
+    physical-damage: 23.1
     ability:
       ability-1:
         type: CIRCULAR_SLASH
@@ -1131,11 +1132,11 @@ GACHA_SWORD_PHANTOMGUARD:
       - "&b&l✦ Vật Phẩm Độc Quyền"
       - "&7 Đại kiếm linh hồn bảo hộ chủ nhân khỏi hiểm nguy"
       - "&7 Gia tăng lượng lớn máu tối đa và chỉ số phòng thủ"
-    attack-damage: 52.0
-    attack-speed: 1.6
-    defense: 9.0
-    max-health: 12.0
-    physical-damage: 15.0
+    attack-damage: 54.6
+    attack-speed: 1.68
+    defense: 9.45
+    max-health: 12.6
+    physical-damage: 15.75
     ability:
       ability-1:
         type: FROST_NOVA
@@ -1165,9 +1166,9 @@ GACHA_SWORD_VALHAKYRA:
       - "&b&l✦ Vật Phẩm Độc Quyền"
       - "&7 Thánh kiếm huyền thoại của tộc chiến thần"
       - "&7 Tốc độ vung kiếm xé gió và khả năng xuyên giáp"
-    attack-damage: 53.5
-    attack-speed: 1.8
-    critical-strike-chance: 24.0
+    attack-damage: 56.175
+    attack-speed: 1.89
+    critical-strike-chance: 25.2
     ability:
       ability-1:
         type: THRUST
@@ -1197,10 +1198,10 @@ GACHA_SWORD_CRYSTAL_FROST:
       - "&b&l✦ Vật Phẩm Độc Quyền"
       - "&7 Kiếm tinh thể hàn băng tỏa hơi lạnh ngàn năm"
       - "&7 Đột phá sát thương vật lý bộc phát"
-    attack-damage: 54.0
-    attack-speed: 1.6
-    critical-strike-chance: 22.0
-    physical-damage: 24.0
+    attack-damage: 56.7
+    attack-speed: 1.68
+    critical-strike-chance: 23.1
+    physical-damage: 25.2
     ability:
       ability-1:
         type: DRAGON_BREATH
@@ -1230,9 +1231,9 @@ GACHA_SWORD_DEMONS_BLOOD:
       - "&b&l✦ Vật Phẩm Độc Quyền"
       - "&7 Ma kiếm tôi luyện trong máu quỷ dữ"
       - "&7 Gia tăng sát thương nguyên tố Hỏa bộc phá"
-    attack-damage: 54.5
-    attack-speed: 1.6
-    critical-strike-chance: 25.0
+    attack-damage: 57.225
+    attack-speed: 1.68
+    critical-strike-chance: 26.25
     ability:
       ability-1:
         type: FIREBALL
@@ -1262,10 +1263,10 @@ GACHA_SWORD_MOONLIGHT:
       - "&b&l✦ Vật Phẩm Độc Quyền"
       - "&7 Kiếm tỏa ánh trăng rực rỡ huyền ảo"
       - "&7 Tỷ lệ chí mạng & nhát chém chí mạng bạo phát"
-    attack-damage: 52.5
-    attack-speed: 1.7
-    critical-strike-chance: 28.0
-    critical-strike-power: 32.0
+    attack-damage: 55.125
+    attack-speed: 1.785
+    critical-strike-chance: 29.4
+    critical-strike-power: 33.6
     ability:
       ability-1:
         type: ARCANE_RIFT
@@ -1299,10 +1300,10 @@ DONATE_SWORD_LONG_VE:
       - "&a&l✦ Long Tộc Thiên Giới"
       - "&7 Bảo kiếm rèn từ Vảy Rồng Hộ Vệ"
       - "&7 Tỏa sáng bảo hộ, che chở người sở hữu"
-    attack-damage: 63.0
-    attack-speed: 1.6
-    critical-strike-chance: 26.0
-    physical-damage: 25.0
+    attack-damage: 66.15
+    attack-speed: 1.68
+    critical-strike-chance: 27.3
+    physical-damage: 26.25
     upgrade:
       reference: weapon-upgrade-template
       template: weapon-upgrade-template
@@ -1326,10 +1327,10 @@ DONATE_SWORD_LONG_CHIEN:
       - "&e&l⚔ Long Tộc Thiên Giới"
       - "&7 Cuồng kiếm hun đúc từ Nanh Rồng Chiến"
       - "&7 Mỗi nhát chém mang theo sấm sét long trời"
-    attack-damage: 73.0
-    attack-speed: 1.7
-    critical-strike-chance: 28.0
-    physical-damage: 29.0
+    attack-damage: 76.65
+    attack-speed: 1.785
+    critical-strike-chance: 29.4
+    physical-damage: 30.45
     upgrade:
       reference: weapon-upgrade-template
       template: weapon-upgrade-template
@@ -1353,10 +1354,10 @@ DONATE_SWORD_LONG_THAN:
       - "&b&l✦ Long Tộc Thiên Giới"
       - "&7 Thánh kiếm ngưng tụ từ Tinh Hoa Long Thần"
       - "&7 Lưỡi kiếm chém xuyên không gian, phá vỡ mọi phòng ngự"
-    attack-damage: 85.0
-    attack-speed: 1.75
-    critical-strike-chance: 31.0
-    physical-damage: 34.0
+    attack-damage: 89.25
+    attack-speed: 1.838
+    critical-strike-chance: 32.55
+    physical-damage: 35.7
     upgrade:
       reference: weapon-upgrade-template
       template: weapon-upgrade-template
@@ -1380,10 +1381,10 @@ DONATE_SWORD_LONG_DE:
       - "&4&l◆ Long Tộc Thiên Giới"
       - "&7 Diệt kiếm tôi luyện trong Hỏa Ngục Rồng Đế"
       - "&7 Mang sức hủy diệt khiến vạn vật phải quỳ phục"
-    attack-damage: 100.0
-    attack-speed: 1.8
-    critical-strike-chance: 35.0
-    physical-damage: 40.0
+    attack-damage: 105
+    attack-speed: 1.89
+    critical-strike-chance: 36.75
+    physical-damage: 42
     upgrade:
       reference: weapon-upgrade-template
       template: weapon-upgrade-template
@@ -1407,10 +1408,10 @@ DONATE_SWORD_LONG_HOANG:
       - "&c&l★ Huyền Thoại Long Tộc"
       - "&7 Bảo kiếm tối thượng rèn từ Vảy Rồng Hoàng Kim"
       - "&7 Sức mạnh xé trời, phá đất, vô song thiên hạ"
-    attack-damage: 118.0
-    attack-speed: 1.85
-    critical-strike-chance: 40.0
-    physical-damage: 47.0
+    attack-damage: 123.9
+    attack-speed: 1.943
+    critical-strike-chance: 42
+    physical-damage: 49.35
     upgrade:
       reference: weapon-upgrade-template
       template: weapon-upgrade-template
@@ -1438,10 +1439,10 @@ TRADE_SWORD_HOA_LONG:
       - "&6✦ Long Tộc Trần Thế"
       - "&7 Kiếm rèn từ ngọn lửa Hỏa Long cổ đại"
       - "&7 Mỗi nhát chém bùng cháy như dung nham"
-    attack-damage: 55.0
-    attack-speed: 1.6
-    critical-strike-chance: 24.0
-    physical-damage: 22.0
+    attack-damage: 57.75
+    attack-speed: 1.68
+    critical-strike-chance: 25.2
+    physical-damage: 23.1
     upgrade:
       reference: weapon-upgrade-template
       template: weapon-upgrade-template
@@ -1465,10 +1466,10 @@ TRADE_SWORD_BANG_LONG:
       - "&3&l✦ Long Tộc Trần Thế"
       - "&7 Hàn kiếm kết tinh từ Hơi Thở Băng Long"
       - "&7 Đóng băng linh hồn kẻ thù trong giá lạnh vĩnh cửu"
-    attack-damage: 63.0
-    attack-speed: 1.65
-    critical-strike-chance: 26.0
-    physical-damage: 25.0
+    attack-damage: 66.15
+    attack-speed: 1.732
+    critical-strike-chance: 27.3
+    physical-damage: 26.25
     upgrade:
       reference: weapon-upgrade-template
       template: weapon-upgrade-template
@@ -1492,10 +1493,10 @@ TRADE_SWORD_LOI_LONG:
       - "&e&l⚡ Long Tộc Trần Thế"
       - "&7 Chấn kiếm chứa đựng Sấm Sét Lôi Long"
       - "&7 Vung kiếm triệu hồi sấm chớp từ cửu thiên"
-    attack-damage: 100.0
-    attack-speed: 1.8
-    critical-strike-chance: 35.0
-    physical-damage: 40.0
+    attack-damage: 105
+    attack-speed: 1.89
+    critical-strike-chance: 36.75
+    physical-damage: 42
     upgrade:
       reference: weapon-upgrade-template
       template: weapon-upgrade-template
@@ -1519,10 +1520,10 @@ TRADE_SWORD_PHONG_LONG:
       - "&2&l✦ Long Tộc Trần Thế"
       - "&7 Liệt kiếm cuốn theo Cuồng Phong Phong Long"
       - "&7 Tốc độ vung kiếm nhanh như gió cuốn"
-    attack-damage: 85.0
-    attack-speed: 1.75
-    critical-strike-chance: 31.0
-    physical-damage: 34.0
+    attack-damage: 89.25
+    attack-speed: 1.838
+    critical-strike-chance: 32.55
+    physical-damage: 35.7
     upgrade:
       reference: weapon-upgrade-template
       template: weapon-upgrade-template
@@ -1546,10 +1547,10 @@ TRADE_SWORD_HAC_LONG:
       - "&5&l◆ Di Vật Hắc Long"
       - "&7 Ma kiếm hun đúc từ linh hồn Hắc Long cổ xưa"
       - "&7 Nguyền rủa kẻ thù, ban sức mạnh cho người sở hữu"
-    attack-damage: 73.0
-    attack-speed: 1.7
-    critical-strike-chance: 28.0
-    physical-damage: 29.0
+    attack-damage: 76.65
+    attack-speed: 1.785
+    critical-strike-chance: 29.4
+    physical-damage: 30.45
     upgrade:
       reference: weapon-upgrade-template
       template: weapon-upgrade-template

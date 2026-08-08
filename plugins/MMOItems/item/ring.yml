@@ -1,3 +1,4 @@
+# base-combat-stats-multiplier: 1.05
 ﻿TRADE_RING_HOA_LONG_1:
   itemsadder-item: "rings_pack:ring_51"
   base:
@@ -9,8 +10,8 @@
     name: "&6&l🔥 Nhẫn Hỏa Long I"
     tier: RARE
     set: HOA_LONG_SET
-    critical-strike-power: 45
-    physical-damage: 25
+    critical-strike-power: 47.25
+    physical-damage: 26.25
     unstackable: true
     enchants:
       unbreaking: 1
@@ -31,8 +32,8 @@ TRADE_RING_HOA_LONG_2:
     name: "&6&l🔥 Nhẫn Hỏa Long II"
     tier: RARE
     set: HOA_LONG_SET
-    critical-strike-power: 45
-    physical-damage: 25
+    critical-strike-power: 47.25
+    physical-damage: 26.25
     unstackable: true
     enchants:
       unbreaking: 1
@@ -53,8 +54,8 @@ TRADE_RING_HAC_LONG_1:
     name: "&5&l◆ Nhẫn Hắc Long I"
     tier: UNIQUE
     set: HAC_LONG_SET
-    critical-strike-power: 45
-    magic-damage: 40
+    critical-strike-power: 47.25
+    magic-damage: 42
     unstackable: true
     enchants:
       unbreaking: 1
@@ -75,8 +76,8 @@ TRADE_RING_HAC_LONG_2:
     name: "&5&l◆ Nhẫn Hắc Long II"
     tier: UNIQUE
     set: HAC_LONG_SET
-    critical-strike-power: 45
-    magic-damage: 40
+    critical-strike-power: 47.25
+    magic-damage: 42
     unstackable: true
     enchants:
       unbreaking: 1
@@ -97,9 +98,9 @@ TRADE_RING_LOI_LONG_1:
     name: "&e&l⚡ Nhẫn Lôi Long I"
     tier: LEGENDARY
     set: LOI_LONG_SET
-    critical-strike-power: 30
-    lifesteal: 8
-    physical-damage: 15
+    critical-strike-power: 31.5
+    lifesteal: 8.4
+    physical-damage: 15.75
     unstackable: true
     enchants:
       unbreaking: 1
@@ -120,9 +121,9 @@ TRADE_RING_LOI_LONG_2:
     name: "&e&l⚡ Nhẫn Lôi Long II"
     tier: LEGENDARY
     set: LOI_LONG_SET
-    critical-strike-power: 30
-    lifesteal: 8
-    physical-damage: 15
+    critical-strike-power: 31.5
+    lifesteal: 8.4
+    physical-damage: 15.75
     unstackable: true
     enchants:
       unbreaking: 1
@@ -143,7 +144,7 @@ TRADE_RING_PHONG_LONG_1:
     name: "&2&l✦ Nhẫn Phong Long I"
     tier: MYTHICAL
     set: PHONG_LONG_SET
-    critical-strike-power: 45
+    critical-strike-power: 47.25
     unstackable: true
     enchants:
       unbreaking: 1
@@ -164,7 +165,7 @@ TRADE_RING_PHONG_LONG_2:
     name: "&2&l✦ Nhẫn Phong Long II"
     tier: MYTHICAL
     set: PHONG_LONG_SET
-    critical-strike-power: 45
+    critical-strike-power: 47.25
     unstackable: true
     enchants:
       unbreaking: 1
@@ -185,9 +186,9 @@ TRADE_RING_BANG_LONG_1:
     name: "&3&l✦ Nhẫn Băng Long I"
     tier: EPIC
     set: BANG_LONG_SET
-    critical-strike-power: 30
-    max-health: 160
-    defense: 12
+    critical-strike-power: 31.5
+    max-health: 168
+    defense: 12.6
     unstackable: true
     enchants:
       unbreaking: 1
@@ -208,9 +209,9 @@ TRADE_RING_BANG_LONG_2:
     name: "&3&l✦ Nhẫn Băng Long II"
     tier: EPIC
     set: BANG_LONG_SET
-    critical-strike-power: 30
-    max-health: 160
-    defense: 12
+    critical-strike-power: 31.5
+    max-health: 168
+    defense: 12.6
     unstackable: true
     enchants:
       unbreaking: 1
@@ -231,8 +232,8 @@ DONATE_RING_LONG_CHIEN_1:
     name: "&e&l⚔ Nhẫn Chiến Long I"
     tier: MYTHICAL
     set: LONG_CHIEN_SET
-    critical-strike-power: 45
-    physical-damage: 25
+    critical-strike-power: 47.25
+    physical-damage: 26.25
     unstackable: true
     enchants:
       unbreaking: 1
@@ -253,8 +254,8 @@ DONATE_RING_LONG_CHIEN_2:
     name: "&e&l⚔ Nhẫn Chiến Long II"
     tier: MYTHICAL
     set: LONG_CHIEN_SET
-    critical-strike-power: 45
-    physical-damage: 25
+    critical-strike-power: 47.25
+    physical-damage: 26.25
     unstackable: true
     enchants:
       unbreaking: 1
@@ -275,8 +276,8 @@ DONATE_RING_LONG_THAN_1:
     name: "&b&l✦ Nhẫn Thần Long I"
     tier: MYTHICAL
     set: LONG_THAN_SET
-    critical-strike-power: 45
-    magic-damage: 40
+    critical-strike-power: 47.25
+    magic-damage: 42
     unstackable: true
     enchants:
       unbreaking: 1
@@ -297,8 +298,8 @@ DONATE_RING_LONG_THAN_2:
     name: "&b&l✦ Nhẫn Thần Long II"
     tier: MYTHICAL
     set: LONG_THAN_SET
-    critical-strike-power: 45
-    magic-damage: 40
+    critical-strike-power: 47.25
+    magic-damage: 42
     unstackable: true
     enchants:
       unbreaking: 1
@@ -319,9 +320,9 @@ DONATE_RING_LONG_HOANG_1:
     name: "&c&l★ Nhẫn Hoàng Long I"
     tier: UNIQUE
     set: LONG_HOANG_SET
-    critical-strike-power: 30
-    lifesteal: 8
-    physical-damage: 15
+    critical-strike-power: 31.5
+    lifesteal: 8.4
+    physical-damage: 15.75
     unstackable: true
     enchants:
       unbreaking: 1
@@ -342,9 +343,9 @@ DONATE_RING_LONG_HOANG_2:
     name: "&c&l★ Nhẫn Hoàng Long II"
     tier: UNIQUE
     set: LONG_HOANG_SET
-    critical-strike-power: 30
-    lifesteal: 8
-    physical-damage: 15
+    critical-strike-power: 31.5
+    lifesteal: 8.4
+    physical-damage: 15.75
     unstackable: true
     enchants:
       unbreaking: 1
@@ -365,7 +366,7 @@ DONATE_RING_LONG_DE_1:
     name: "&4&l◆ Nhẫn Đế Long I"
     tier: UNIQUE
     set: LONG_DE_SET
-    critical-strike-power: 45
+    critical-strike-power: 47.25
     unstackable: true
     enchants:
       unbreaking: 1
@@ -386,7 +387,7 @@ DONATE_RING_LONG_DE_2:
     name: "&4&l◆ Nhẫn Đế Long II"
     tier: UNIQUE
     set: LONG_DE_SET
-    critical-strike-power: 45
+    critical-strike-power: 47.25
     unstackable: true
     enchants:
       unbreaking: 1
@@ -407,9 +408,9 @@ DONATE_RING_LONG_VE_1:
     name: "&a&l✦ Nhẫn Hộ Long I"
     tier: LEGENDARY
     set: LONG_VE_SET
-    critical-strike-power: 30
-    max-health: 160
-    defense: 12
+    critical-strike-power: 31.5
+    max-health: 168
+    defense: 12.6
     unstackable: true
     enchants:
       unbreaking: 1
@@ -430,9 +431,9 @@ DONATE_RING_LONG_VE_2:
     name: "&a&l✦ Nhẫn Hộ Long II"
     tier: LEGENDARY
     set: LONG_VE_SET
-    critical-strike-power: 30
-    max-health: 160
-    defense: 12
+    critical-strike-power: 31.5
+    max-health: 168
+    defense: 12.6
     unstackable: true
     enchants:
       unbreaking: 1
@@ -453,8 +454,8 @@ FREE_RING_THANH_LONG_1:
     name: "&b&l⚡ Nhẫn Thanh Long I"
     tier: UNIQUE
     set: THANH_LONG_SET
-    critical-strike-power: 45
-    physical-damage: 25
+    critical-strike-power: 47.25
+    physical-damage: 26.25
     unstackable: true
     enchants:
       unbreaking: 1
@@ -475,8 +476,8 @@ FREE_RING_THANH_LONG_2:
     name: "&b&l⚡ Nhẫn Thanh Long II"
     tier: UNIQUE
     set: THANH_LONG_SET
-    critical-strike-power: 45
-    physical-damage: 25
+    critical-strike-power: 47.25
+    physical-damage: 26.25
     unstackable: true
     enchants:
       unbreaking: 1
@@ -497,8 +498,8 @@ FREE_RING_XICH_LONG_1:
     name: "&c&l🔥 Nhẫn Xích Long I"
     tier: UNIQUE
     set: XICH_LONG_SET
-    critical-strike-power: 45
-    magic-damage: 40
+    critical-strike-power: 47.25
+    magic-damage: 42
     unstackable: true
     enchants:
       unbreaking: 1
@@ -519,8 +520,8 @@ FREE_RING_XICH_LONG_2:
     name: "&c&l🔥 Nhẫn Xích Long II"
     tier: UNIQUE
     set: XICH_LONG_SET
-    critical-strike-power: 45
-    magic-damage: 40
+    critical-strike-power: 47.25
+    magic-damage: 42
     unstackable: true
     enchants:
       unbreaking: 1
@@ -541,9 +542,9 @@ FREE_RING_KIM_LONG_1:
     name: "&e&l★ Nhẫn Kim Long I"
     tier: UNIQUE
     set: KIM_LONG_SET
-    critical-strike-power: 30
-    lifesteal: 8
-    physical-damage: 15
+    critical-strike-power: 31.5
+    lifesteal: 8.4
+    physical-damage: 15.75
     unstackable: true
     enchants:
       unbreaking: 1
@@ -564,9 +565,9 @@ FREE_RING_KIM_LONG_2:
     name: "&e&l★ Nhẫn Kim Long II"
     tier: UNIQUE
     set: KIM_LONG_SET
-    critical-strike-power: 30
-    lifesteal: 8
-    physical-damage: 15
+    critical-strike-power: 31.5
+    lifesteal: 8.4
+    physical-damage: 15.75
     unstackable: true
     enchants:
       unbreaking: 1
@@ -587,7 +588,7 @@ FREE_RING_THIEN_LONG_1:
     name: "&d&l✦ Nhẫn Thiên Long I"
     tier: UNIQUE
     set: THIEN_LONG_SET
-    critical-strike-power: 45
+    critical-strike-power: 47.25
     unstackable: true
     enchants:
       unbreaking: 1
@@ -608,7 +609,7 @@ FREE_RING_THIEN_LONG_2:
     name: "&d&l✦ Nhẫn Thiên Long II"
     tier: UNIQUE
     set: THIEN_LONG_SET
-    critical-strike-power: 45
+    critical-strike-power: 47.25
     unstackable: true
     enchants:
       unbreaking: 1
@@ -629,9 +630,9 @@ FREE_RING_BAC_LONG_1:
     name: "&f&l✧ Nhẫn Bạch Long I"
     tier: UNIQUE
     set: BAC_LONG_SET
-    critical-strike-power: 30
-    max-health: 160
-    defense: 12
+    critical-strike-power: 31.5
+    max-health: 168
+    defense: 12.6
     unstackable: true
     enchants:
       unbreaking: 1
@@ -652,9 +653,9 @@ FREE_RING_BAC_LONG_2:
     name: "&f&l✧ Nhẫn Bạch Long II"
     tier: UNIQUE
     set: BAC_LONG_SET
-    critical-strike-power: 30
-    max-health: 160
-    defense: 12
+    critical-strike-power: 31.5
+    max-health: 168
+    defense: 12.6
     unstackable: true
     enchants:
       unbreaking: 1

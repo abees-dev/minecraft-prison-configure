@@ -12,6 +12,7 @@ lore-format:
   - "#physical-damage#"
   - "#skill-damage#"
   - "#armor#"
+  - "#armor-toughness#"
   - "#defense#"
   - "#damage-reduction#"
   - "#max-health#"

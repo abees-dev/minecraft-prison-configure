@@ -23,7 +23,7 @@ Prison_Despawn_No_Players:
 Prison_Tan_Binh_Enrage:
   Cooldown: 20
   Conditions:
-    - health{h=<620} true
+    - health{h=<630} true
   Skills:
     - effect:sound{s=entity.zombie.ambient;volume=1.5;pitch=0.6} @self
     - effect:particles{p=flame;amount=25;hSpread=0.5;ySpread=1;speed=0.02;yOffset=1} @self
@@ -34,7 +34,7 @@ Prison_Tan_Binh_Enrage:
 Prison_Tu_Nhan_Enrage:
   Cooldown: 20
   Conditions:
-    - health{h=<1190} true
+    - health{h=<1200} true
   Skills:
     - effect:sound{s=entity.husk.ambient;volume=1.5;pitch=0.6} @self
     - effect:particles{p=flame;amount=25;hSpread=0.5;ySpread=1;speed=0.02;yOffset=1} @self
@@ -45,7 +45,7 @@ Prison_Tu_Nhan_Enrage:
 Prison_Lao_Cong_Enrage:
   Cooldown: 20
   Conditions:
-    - health{h=<1775} true
+    - health{h=<1790} true
   Skills:
     - effect:sound{s=entity.husk.ambient;volume=1.5;pitch=0.5} @self
     - effect:particles{p=flame;amount=30;hSpread=0.5;ySpread=1;speed=0.03;yOffset=1} @self
@@ -56,7 +56,7 @@ Prison_Lao_Cong_Enrage:
 Prison_Tho_Dao_Enrage:
   Cooldown: 20
   Conditions:
-    - health{h=<2380} true
+    - health{h=<2400} true
   Skills:
     - effect:sound{s=entity.drowned.ambient;volume=1.5;pitch=0.5} @self
     - effect:particles{p=flame;amount=30;hSpread=0.5;ySpread=1;speed=0.03;yOffset=1} @self
@@ -67,7 +67,7 @@ Prison_Tho_Dao_Enrage:
 Prison_Doi_Truong_Enrage:
   Cooldown: 20
   Conditions:
-    - health{h=<3150} true
+    - health{h=<3185} true
   Skills:
     - effect:sound{s=entity.vindicator.ambient;volume=1.5;pitch=0.5} @self
     - effect:particles{p=flame;amount=35;hSpread=0.6;ySpread=1;speed=0.03;yOffset=1} @self
@@ -78,7 +78,7 @@ Prison_Doi_Truong_Enrage:
 Prison_Pho_Quan_Nguc_Enrage:
   Cooldown: 20
   Conditions:
-    - health{h=<3920} true
+    - health{h=<3970} true
   Skills:
     - effect:sound{s=entity.vindicator.ambient;volume=1.5;pitch=0.4} @self
     - effect:particles{p=flame;amount=35;hSpread=0.6;ySpread=1;speed=0.03;yOffset=1} @self
@@ -89,7 +89,7 @@ Prison_Pho_Quan_Nguc_Enrage:
 Prison_Quan_Nguc_Enrage:
   Cooldown: 20
   Conditions:
-    - health{h=<4725} true
+    - health{h=<4790} true
   Skills:
     - effect:sound{s=entity.wither_skeleton.ambient;volume=1.5;pitch=0.5} @self
     - effect:particles{p=soul_fire_flame;amount=40;hSpread=0.6;ySpread=1;speed=0.03;yOffset=1} @self
@@ -100,7 +100,7 @@ Prison_Quan_Nguc_Enrage:
 Prison_Ba_Chu_Nguc_Tu_Enrage:
   Cooldown: 20
   Conditions:
-    - health{h=<5830} true
+    - health{h=<5910} true
   Skills:
     - effect:sound{s=entity.piglin_brute.angry;volume=1.5;pitch=0.5} @self
     - effect:particles{p=soul_fire_flame;amount=45;hSpread=0.6;ySpread=1;speed=0.03;yOffset=1} @self
@@ -111,7 +111,7 @@ Prison_Ba_Chu_Nguc_Tu_Enrage:
 Prison_Vuot_Nguc_Enrage:
   Cooldown: 20
   Conditions:
-    - health{h=<7020} true
+    - health{h=<7125} true
   Skills:
     - effect:sound{s=entity.ravager.roar;volume=1.5;pitch=0.4} @self
     - effect:particles{p=soul_fire_flame;amount=50;hSpread=0.7;ySpread=1;speed=0.04;yOffset=1} @self
@@ -122,7 +122,7 @@ Prison_Vuot_Nguc_Enrage:
 Prison_Ma_Vuong_Enrage:
   Cooldown: 20
   Conditions:
-    - health{h=<10550} true
+    - health{h=<10700} true
   Skills:
     - effect:sound{s=entity.ravager.roar;volume=2;pitch=0.3} @self
     - effect:particles{p=soul_fire_flame;amount=60;hSpread=0.8;ySpread=1.2;speed=0.05;yOffset=1} @self
@@ -137,7 +137,7 @@ Prison_Ma_Vuong_Hell_Nova:
     - effect:sound{s=entity.blaze.shoot;volume=1;pitch=0.8} @self
     - effect:particles{p=flame;amount=80;hSpread=3;vSpread=1;speed=0.06;yOffset=0.2} @self
     - effect:particles{p=lava;amount=20;hSpread=2;vSpread=0.5;speed=0.02} @self
-    - damage{amount=690;ignorearmor=true;damagecause=FIRE} @PlayersInRadius{r=8}
+    - damage{amount=695;ignorearmor=true;damagecause=FIRE} @PlayersInRadius{r=8}
     - potion{type=SLOW;lvl=1;duration=40} @PlayersInRadius{r=8}
 
 # Skill khống chế — dame mở màn ~ ngang base melee (75), ignorearmor nên
@@ -148,7 +148,7 @@ Prison_Ma_Vuong_Nguyen_Rua:
     - effect:sound{s=entity.evoker.cast_spell;volume=1.2;pitch=0.6} @self
     - effect:sound{s=entity.ender_dragon.growl;volume=1.3;pitch=0.4} @self
     - effect:particles{p=witch;amount=60;hSpread=2;vSpread=1.5;speed=0.05;yOffset=1} @PlayersInRadius{r=10}
-    - damage{amount=760;ignorearmor=true;damagecause=MAGIC} @PlayersInRadius{r=10}
+    - damage{amount=765;ignorearmor=true;damagecause=MAGIC} @PlayersInRadius{r=10}
     - potion{type=BLINDNESS;lvl=1;duration=60} @PlayersInRadius{r=10}
     - potion{type=SLOW;lvl=250;duration=50} @PlayersInRadius{r=10}
     - potion{type=WEAKNESS;lvl=2;duration=100} @PlayersInRadius{r=10}
@@ -161,7 +161,7 @@ Prison_Ma_Vuong_Am_Anh:
     - effect:sound{s=entity.illusioner.cast_spell;volume=1.3;pitch=0.7} @self
     - effect:particles{p=portal;amount=100;hSpread=2;vSpread=2;speed=0.3;yOffset=1} @self
     - effect:particles{p=portal;amount=30;hSpread=0.5;vSpread=1;speed=0.2;yOffset=1} @PlayersInRadius{r=12;limit=3;sort=NEAREST}
-    - damage{amount=620;ignorearmor=true;damagecause=MAGIC} @PlayersInRadius{r=12;limit=3;sort=NEAREST}
+    - damage{amount=625;ignorearmor=true;damagecause=MAGIC} @PlayersInRadius{r=12;limit=3;sort=NEAREST}
     - potion{type=LEVITATION;lvl=1;duration=30} @PlayersInRadius{r=12;limit=3;sort=NEAREST}
 
 Give_Crate_Key_On_Death:

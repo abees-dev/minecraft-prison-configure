@@ -1,3 +1,4 @@
+# base-combat-stats-multiplier: 1.05
 AXE_TAN_BINH_1:
   base:
     custom-maxsockets: 1.0
@@ -11,9 +12,9 @@ AXE_TAN_BINH_1:
     lore:
       - "&7Rìu nặng với sát thương bộc phát cao."
       - "&8Nâng cấp tại Lò Rèn Vũ Khí Tân Binh."
-    attack-damage: 4.0
-    attack-speed: 1
-    knockback: 0.2
+    attack-damage: 4.2
+    attack-speed: 1.05
+    knockback: 0.21
     upgrade:
       reference: weapon-upgrade-template
       template: weapon-upgrade-template
@@ -34,9 +35,9 @@ AXE_TAN_BINH_2:
     lore:
       - "&7 Rìu chiến hạng nặng - Chuyên cận chiến & phá giáp"
       - "&7 Nâng cấp tại Lò Rèn để tăng sát thương bộc phát"
-    attack-damage: 4.5
-    attack-speed: 1
-    knockback: 0.3
+    attack-damage: 4.725
+    attack-speed: 1.05
+    knockback: 0.315
     upgrade:
       reference: weapon-upgrade-template
       template: weapon-upgrade-template
@@ -57,9 +58,9 @@ AXE_TAN_BINH_3:
     lore:
       - "&7 Rìu chiến hạng nặng - Chuyên cận chiến & phá giáp"
       - "&7 Nâng cấp tại Lò Rèn để tăng sát thương bộc phát"
-    attack-damage: 5.0
-    attack-speed: 1
-    knockback: 0.3
+    attack-damage: 5.25
+    attack-speed: 1.05
+    knockback: 0.315
     upgrade:
       reference: weapon-upgrade-template
       template: weapon-upgrade-template
@@ -80,9 +81,9 @@ AXE_TAN_BINH_4:
     lore:
       - "&7 Rìu chiến hạng nặng - Chuyên cận chiến & phá giáp"
       - "&7 Nâng cấp tại Lò Rèn để tăng sát thương bộc phát"
-    attack-damage: 5.5
-    attack-speed: 1
-    knockback: 0.4
+    attack-damage: 5.775
+    attack-speed: 1.05
+    knockback: 0.42
     upgrade:
       reference: weapon-upgrade-template
       template: weapon-upgrade-template
@@ -103,9 +104,9 @@ AXE_TAN_BINH_5:
     lore:
       - "&7 Rìu chiến hạng nặng - Chuyên cận chiến & phá giáp"
       - "&7 Nâng cấp tại Lò Rèn để tăng sát thương bộc phát"
-    attack-damage: 6.0
-    attack-speed: 1
-    knockback: 0.4
+    attack-damage: 6.3
+    attack-speed: 1.05
+    knockback: 0.42
     upgrade:
       reference: weapon-upgrade-template
       template: weapon-upgrade-template
@@ -126,9 +127,9 @@ AXE_TU_NHAN_1:
     lore:
       - "&7 Rìu chiến hạng nặng - Chuyên cận chiến & phá giáp"
       - "&7 Nâng cấp tại Lò Rèn để tăng sát thương bộc phát"
-    attack-damage: 6.5
-    attack-speed: 1
-    knockback: 0.4
+    attack-damage: 6.825
+    attack-speed: 1.05
+    knockback: 0.42
     upgrade:
       reference: weapon-upgrade-template
       template: weapon-upgrade-template
@@ -149,9 +150,9 @@ AXE_TU_NHAN_2:
     lore:
       - "&7 Rìu chiến hạng nặng - Chuyên cận chiến & phá giáp"
       - "&7 Nâng cấp tại Lò Rèn để tăng sát thương bộc phát"
-    attack-damage: 7.1
-    attack-speed: 1
-    knockback: 0.5
+    attack-damage: 7.455
+    attack-speed: 1.05
+    knockback: 0.525
     upgrade:
       reference: weapon-upgrade-template
       template: weapon-upgrade-template
@@ -172,9 +173,9 @@ AXE_TU_NHAN_3:
     lore:
       - "&7 Rìu chiến hạng nặng - Chuyên cận chiến & phá giáp"
       - "&7 Nâng cấp tại Lò Rèn để tăng sát thương bộc phát"
-    attack-damage: 7.8
-    attack-speed: 1
-    knockback: 0.5
+    attack-damage: 8.19
+    attack-speed: 1.05
+    knockback: 0.525
     upgrade:
       reference: weapon-upgrade-template
       template: weapon-upgrade-template
@@ -195,9 +196,9 @@ AXE_TU_NHAN_4:
     lore:
       - "&7 Rìu chiến hạng nặng - Chuyên cận chiến & phá giáp"
       - "&7 Nâng cấp tại Lò Rèn để tăng sát thương bộc phát"
-    attack-damage: 8.4
-    attack-speed: 1
-    knockback: 0.6
+    attack-damage: 8.82
+    attack-speed: 1.05
+    knockback: 0.63
     upgrade:
       reference: weapon-upgrade-template
       template: weapon-upgrade-template
@@ -218,9 +219,9 @@ AXE_TU_NHAN_5:
     lore:
       - "&7 Rìu chiến hạng nặng - Chuyên cận chiến & phá giáp"
       - "&7 Nâng cấp tại Lò Rèn để tăng sát thương bộc phát"
-    attack-damage: 9.0
-    attack-speed: 1
-    knockback: 0.6
+    attack-damage: 9.45
+    attack-speed: 1.05
+    knockback: 0.63
     upgrade:
       reference: weapon-upgrade-template
       template: weapon-upgrade-template
@@ -241,9 +242,9 @@ AXE_LAO_CONG_1:
     lore:
       - "&7 Rìu chiến hạng nặng - Chuyên cận chiến & phá giáp"
       - "&7 Nâng cấp tại Lò Rèn để tăng sát thương bộc phát"
-    attack-damage: 9.5
-    attack-speed: 1
-    knockback: 0.6
+    attack-damage: 9.975
+    attack-speed: 1.05
+    knockback: 0.63
     upgrade:
       reference: weapon-upgrade-template
       template: weapon-upgrade-template
@@ -264,9 +265,9 @@ AXE_LAO_CONG_2:
     lore:
       - "&7 Rìu chiến hạng nặng - Chuyên cận chiến & phá giáp"
       - "&7 Nâng cấp tại Lò Rèn để tăng sát thương bộc phát"
-    attack-damage: 10.3
-    attack-speed: 1
-    knockback: 0.7
+    attack-damage: 10.815
+    attack-speed: 1.05
+    knockback: 0.735
     upgrade:
       reference: weapon-upgrade-template
       template: weapon-upgrade-template
@@ -287,9 +288,9 @@ AXE_LAO_CONG_3:
     lore:
       - "&7 Rìu chiến hạng nặng - Chuyên cận chiến & phá giáp"
       - "&7 Nâng cấp tại Lò Rèn để tăng sát thương bộc phát"
-    attack-damage: 11.0
-    attack-speed: 1
-    knockback: 0.7
+    attack-damage: 11.55
+    attack-speed: 1.05
+    knockback: 0.735
     upgrade:
       reference: weapon-upgrade-template
       template: weapon-upgrade-template
@@ -310,9 +311,9 @@ AXE_LAO_CONG_4:
     lore:
       - "&7 Rìu chiến hạng nặng - Chuyên cận chiến & phá giáp"
       - "&7 Nâng cấp tại Lò Rèn để tăng sát thương bộc phát"
-    attack-damage: 11.8
-    attack-speed: 1
-    knockback: 0.8
+    attack-damage: 12.39
+    attack-speed: 1.05
+    knockback: 0.84
     upgrade:
       reference: weapon-upgrade-template
       template: weapon-upgrade-template
@@ -333,9 +334,9 @@ AXE_LAO_CONG_5:
     lore:
       - "&7 Rìu chiến hạng nặng - Chuyên cận chiến & phá giáp"
       - "&7 Nâng cấp tại Lò Rèn để tăng sát thương bộc phát"
-    attack-damage: 12.5
-    attack-speed: 1
-    knockback: 0.8
+    attack-damage: 13.125
+    attack-speed: 1.05
+    knockback: 0.84
     upgrade:
       reference: weapon-upgrade-template
       template: weapon-upgrade-template
@@ -356,9 +357,9 @@ AXE_THO_DAO_1:
     lore:
       - "&7 Rìu chiến hạng nặng - Chuyên cận chiến & phá giáp"
       - "&7 Nâng cấp tại Lò Rèn để tăng sát thương bộc phát"
-    attack-damage: 13.0
-    attack-speed: 1
-    knockback: 0.8
+    attack-damage: 13.65
+    attack-speed: 1.05
+    knockback: 0.84
     upgrade:
       reference: weapon-upgrade-template
       template: weapon-upgrade-template
@@ -379,9 +380,9 @@ AXE_THO_DAO_2:
     lore:
       - "&7 Rìu chiến hạng nặng - Chuyên cận chiến & phá giáp"
       - "&7 Nâng cấp tại Lò Rèn để tăng sát thương bộc phát"
-    attack-damage: 13.9
-    attack-speed: 1
-    knockback: 0.9
+    attack-damage: 14.595
+    attack-speed: 1.05
+    knockback: 0.945
     upgrade:
       reference: weapon-upgrade-template
       template: weapon-upgrade-template
@@ -402,9 +403,9 @@ AXE_THO_DAO_3:
     lore:
       - "&7 Rìu chiến hạng nặng - Chuyên cận chiến & phá giáp"
       - "&7 Nâng cấp tại Lò Rèn để tăng sát thương bộc phát"
-    attack-damage: 14.8
-    attack-speed: 1
-    knockback: 0.9
+    attack-damage: 15.54
+    attack-speed: 1.05
+    knockback: 0.945
     upgrade:
       reference: weapon-upgrade-template
       template: weapon-upgrade-template
@@ -425,9 +426,9 @@ AXE_THO_DAO_4:
     lore:
       - "&7 Rìu chiến hạng nặng - Chuyên cận chiến & phá giáp"
       - "&7 Nâng cấp tại Lò Rèn để tăng sát thương bộc phát"
-    attack-damage: 15.6
-    attack-speed: 1
-    knockback: 1.0
+    attack-damage: 16.38
+    attack-speed: 1.05
+    knockback: 1.05
     upgrade:
       reference: weapon-upgrade-template
       template: weapon-upgrade-template
@@ -448,9 +449,9 @@ AXE_THO_DAO_5:
     lore:
       - "&7 Rìu chiến hạng nặng - Chuyên cận chiến & phá giáp"
       - "&7 Nâng cấp tại Lò Rèn để tăng sát thương bộc phát"
-    attack-damage: 16.5
-    attack-speed: 1
-    knockback: 1.0
+    attack-damage: 17.325
+    attack-speed: 1.05
+    knockback: 1.05
     upgrade:
       reference: weapon-upgrade-template
       template: weapon-upgrade-template
@@ -471,10 +472,10 @@ AXE_DOI_TRUONG_1:
     lore:
       - "&7 Rìu chiến hạng nặng - Chuyên cận chiến & phá giáp"
       - "&7 Nâng cấp tại Lò Rèn để tăng sát thương bộc phát"
-    attack-damage: 17.5
-    attack-speed: 1
-    knockback: 1.0
-    critical-strike-power: 10.0
+    attack-damage: 18.375
+    attack-speed: 1.05
+    knockback: 1.05
+    critical-strike-power: 10.5
     upgrade:
       reference: weapon-upgrade-template
       template: weapon-upgrade-template
@@ -495,10 +496,10 @@ AXE_DOI_TRUONG_2:
     lore:
       - "&7 Rìu chiến hạng nặng - Chuyên cận chiến & phá giáp"
       - "&7 Nâng cấp tại Lò Rèn để tăng sát thương bộc phát"
-    attack-damage: 18.6
-    attack-speed: 1
-    knockback: 1.1
-    critical-strike-power: 11.0
+    attack-damage: 19.53
+    attack-speed: 1.05
+    knockback: 1.155
+    critical-strike-power: 11.55
     upgrade:
       reference: weapon-upgrade-template
       template: weapon-upgrade-template
@@ -519,10 +520,10 @@ AXE_DOI_TRUONG_3:
     lore:
       - "&7 Rìu chiến hạng nặng - Chuyên cận chiến & phá giáp"
       - "&7 Nâng cấp tại Lò Rèn để tăng sát thương bộc phát"
-    attack-damage: 19.8
-    attack-speed: 1
-    knockback: 1.1
-    critical-strike-power: 12.0
+    attack-damage: 20.79
+    attack-speed: 1.05
+    knockback: 1.155
+    critical-strike-power: 12.6
     upgrade:
       reference: weapon-upgrade-template
       template: weapon-upgrade-template
@@ -543,10 +544,10 @@ AXE_DOI_TRUONG_4:
     lore:
       - "&7 Rìu chiến hạng nặng - Chuyên cận chiến & phá giáp"
       - "&7 Nâng cấp tại Lò Rèn để tăng sát thương bộc phát"
-    attack-damage: 20.9
-    attack-speed: 1
-    knockback: 1.1
-    critical-strike-power: 13.0
+    attack-damage: 21.945
+    attack-speed: 1.05
+    knockback: 1.155
+    critical-strike-power: 13.65
     upgrade:
       reference: weapon-upgrade-template
       template: weapon-upgrade-template
@@ -567,10 +568,10 @@ AXE_DOI_TRUONG_5:
     lore:
       - "&7 Rìu chiến hạng nặng - Chuyên cận chiến & phá giáp"
       - "&7 Nâng cấp tại Lò Rèn để tăng sát thương bộc phát"
-    attack-damage: 22.0
-    attack-speed: 1
-    knockback: 1.2
-    critical-strike-power: 14.0
+    attack-damage: 23.1
+    attack-speed: 1.05
+    knockback: 1.26
+    critical-strike-power: 14.7
     upgrade:
       reference: weapon-upgrade-template
       template: weapon-upgrade-template
@@ -591,10 +592,10 @@ AXE_PHO_QUAN_NGUC_1:
     lore:
       - "&7 Rìu chiến hạng nặng - Chuyên cận chiến & phá giáp"
       - "&7 Nâng cấp tại Lò Rèn để tăng sát thương bộc phát"
-    attack-damage: 23.0
-    attack-speed: 1
-    knockback: 1.2
-    critical-strike-power: 15.0
+    attack-damage: 24.15
+    attack-speed: 1.05
+    knockback: 1.26
+    critical-strike-power: 15.75
     upgrade:
       reference: weapon-upgrade-template
       template: weapon-upgrade-template
@@ -615,10 +616,10 @@ AXE_PHO_QUAN_NGUC_2:
     lore:
       - "&7 Rìu chiến hạng nặng - Chuyên cận chiến & phá giáp"
       - "&7 Nâng cấp tại Lò Rèn để tăng sát thương bộc phát"
-    attack-damage: 24.4
-    attack-speed: 1
-    knockback: 1.3
-    critical-strike-power: 16.0
+    attack-damage: 25.62
+    attack-speed: 1.05
+    knockback: 1.365
+    critical-strike-power: 16.8
     upgrade:
       reference: weapon-upgrade-template
       template: weapon-upgrade-template
@@ -639,10 +640,10 @@ AXE_PHO_QUAN_NGUC_3:
     lore:
       - "&7 Rìu chiến hạng nặng - Chuyên cận chiến & phá giáp"
       - "&7 Nâng cấp tại Lò Rèn để tăng sát thương bộc phát"
-    attack-damage: 25.8
-    attack-speed: 1
-    knockback: 1.3
-    critical-strike-power: 17.0
+    attack-damage: 27.09
+    attack-speed: 1.05
+    knockback: 1.365
+    critical-strike-power: 17.85
     upgrade:
       reference: weapon-upgrade-template
       template: weapon-upgrade-template
@@ -663,10 +664,10 @@ AXE_PHO_QUAN_NGUC_4:
     lore:
       - "&7 Rìu chiến hạng nặng - Chuyên cận chiến & phá giáp"
       - "&7 Nâng cấp tại Lò Rèn để tăng sát thương bộc phát"
-    attack-damage: 27.1
-    attack-speed: 1
-    knockback: 1.4
-    critical-strike-power: 18.0
+    attack-damage: 28.455
+    attack-speed: 1.05
+    knockback: 1.47
+    critical-strike-power: 18.9
     upgrade:
       reference: weapon-upgrade-template
       template: weapon-upgrade-template
@@ -687,10 +688,10 @@ AXE_PHO_QUAN_NGUC_5:
     lore:
       - "&7 Rìu chiến hạng nặng - Chuyên cận chiến & phá giáp"
       - "&7 Nâng cấp tại Lò Rèn để tăng sát thương bộc phát"
-    attack-damage: 28.5
-    attack-speed: 1
-    knockback: 1.4
-    critical-strike-power: 19.0
+    attack-damage: 29.925
+    attack-speed: 1.05
+    knockback: 1.47
+    critical-strike-power: 19.95
     upgrade:
       reference: weapon-upgrade-template
       template: weapon-upgrade-template
@@ -711,10 +712,10 @@ AXE_QUAN_NGUC_1:
     lore:
       - "&7 Rìu chiến hạng nặng - Chuyên cận chiến & phá giáp"
       - "&7 Nâng cấp tại Lò Rèn để tăng sát thương bộc phát"
-    attack-damage: 29.0
-    attack-speed: 1
-    knockback: 1.5
-    critical-strike-power: 20.0
+    attack-damage: 30.45
+    attack-speed: 1.05
+    knockback: 1.575
+    critical-strike-power: 21
     upgrade:
       reference: weapon-upgrade-template
       template: weapon-upgrade-template
@@ -735,10 +736,10 @@ AXE_QUAN_NGUC_2:
     lore:
       - "&7 Rìu chiến hạng nặng - Chuyên cận chiến & phá giáp"
       - "&7 Nâng cấp tại Lò Rèn để tăng sát thương bộc phát"
-    attack-damage: 30.8
-    attack-speed: 1
-    knockback: 1.6
-    critical-strike-power: 21.0
+    attack-damage: 32.34
+    attack-speed: 1.05
+    knockback: 1.68
+    critical-strike-power: 22.05
     upgrade:
       reference: weapon-upgrade-template
       template: weapon-upgrade-template
@@ -759,10 +760,10 @@ AXE_QUAN_NGUC_3:
     lore:
       - "&7 Rìu chiến hạng nặng - Chuyên cận chiến & phá giáp"
       - "&7 Nâng cấp tại Lò Rèn để tăng sát thương bộc phát"
-    attack-damage: 32.5
-    attack-speed: 1
-    knockback: 1.6
-    critical-strike-power: 22.0
+    attack-damage: 34.125
+    attack-speed: 1.05
+    knockback: 1.68
+    critical-strike-power: 23.1
     upgrade:
       reference: weapon-upgrade-template
       template: weapon-upgrade-template
@@ -783,10 +784,10 @@ AXE_QUAN_NGUC_4:
     lore:
       - "&7 Rìu chiến hạng nặng - Chuyên cận chiến & phá giáp"
       - "&7 Nâng cấp tại Lò Rèn để tăng sát thương bộc phát"
-    attack-damage: 34.3
-    attack-speed: 1
-    knockback: 1.6
-    critical-strike-power: 23.0
+    attack-damage: 36.015
+    attack-speed: 1.05
+    knockback: 1.68
+    critical-strike-power: 24.15
     upgrade:
       reference: weapon-upgrade-template
       template: weapon-upgrade-template
@@ -807,10 +808,10 @@ AXE_QUAN_NGUC_5:
     lore:
       - "&7 Rìu chiến hạng nặng - Chuyên cận chiến & phá giáp"
       - "&7 Nâng cấp tại Lò Rèn để tăng sát thương bộc phát"
-    attack-damage: 36.0
-    attack-speed: 1
-    knockback: 1.7
-    critical-strike-power: 24.0
+    attack-damage: 37.8
+    attack-speed: 1.05
+    knockback: 1.785
+    critical-strike-power: 25.2
     upgrade:
       reference: weapon-upgrade-template
       template: weapon-upgrade-template
@@ -831,10 +832,10 @@ AXE_BA_CHU_NGUC_TU_1:
     lore:
       - "&7 Rìu chiến hạng nặng - Chuyên cận chiến & phá giáp"
       - "&7 Nâng cấp tại Lò Rèn để tăng sát thương bộc phát"
-    attack-damage: 37.0
-    attack-speed: 1
-    knockback: 1.8
-    critical-strike-power: 25.0
+    attack-damage: 38.85
+    attack-speed: 1.05
+    knockback: 1.89
+    critical-strike-power: 26.25
     upgrade:
       reference: weapon-upgrade-template
       template: weapon-upgrade-template
@@ -855,10 +856,10 @@ AXE_BA_CHU_NGUC_TU_2:
     lore:
       - "&7 Rìu chiến hạng nặng - Chuyên cận chiến & phá giáp"
       - "&7 Nâng cấp tại Lò Rèn để tăng sát thương bộc phát"
-    attack-damage: 39.0
-    attack-speed: 1
-    knockback: 1.9
-    critical-strike-power: 26.0
+    attack-damage: 40.95
+    attack-speed: 1.05
+    knockback: 1.995
+    critical-strike-power: 27.3
     upgrade:
       reference: weapon-upgrade-template
       template: weapon-upgrade-template
@@ -879,10 +880,10 @@ AXE_BA_CHU_NGUC_TU_3:
     lore:
       - "&7 Rìu chiến hạng nặng - Chuyên cận chiến & phá giáp"
       - "&7 Nâng cấp tại Lò Rèn để tăng sát thương bộc phát"
-    attack-damage: 41.0
-    attack-speed: 1
-    knockback: 1.9
-    critical-strike-power: 27.0
+    attack-damage: 43.05
+    attack-speed: 1.05
+    knockback: 1.995
+    critical-strike-power: 28.35
     upgrade:
       reference: weapon-upgrade-template
       template: weapon-upgrade-template
@@ -903,10 +904,10 @@ AXE_BA_CHU_NGUC_TU_4:
     lore:
       - "&7 Rìu chiến hạng nặng - Chuyên cận chiến & phá giáp"
       - "&7 Nâng cấp tại Lò Rèn để tăng sát thương bộc phát"
-    attack-damage: 43.0
-    attack-speed: 1
-    knockback: 2.0
-    critical-strike-power: 28.0
+    attack-damage: 45.15
+    attack-speed: 1.05
+    knockback: 2.1
+    critical-strike-power: 29.4
     upgrade:
       reference: weapon-upgrade-template
       template: weapon-upgrade-template
@@ -927,10 +928,10 @@ AXE_BA_CHU_NGUC_TU_5:
     lore:
       - "&7 Rìu chiến hạng nặng - Chuyên cận chiến & phá giáp"
       - "&7 Nâng cấp tại Lò Rèn để tăng sát thương bộc phát"
-    attack-damage: 45.0
-    attack-speed: 1
-    knockback: 2.0
-    critical-strike-power: 29.0
+    attack-damage: 47.25
+    attack-speed: 1.05
+    knockback: 2.1
+    critical-strike-power: 30.45
     upgrade:
       reference: weapon-upgrade-template
       template: weapon-upgrade-template
@@ -951,10 +952,10 @@ AXE_VUOT_NGUC_1:
     lore:
       - "&7 Rìu chiến hạng nặng - Chuyên cận chiến & phá giáp"
       - "&7 Nâng cấp tại Lò Rèn để tăng sát thương bộc phát"
-    attack-damage: 46.0
-    attack-speed: 1
-    knockback: 2.0
-    critical-strike-power: 30.0
+    attack-damage: 48.3
+    attack-speed: 1.05
+    knockback: 2.1
+    critical-strike-power: 31.5
     upgrade:
       reference: weapon-upgrade-template
       template: weapon-upgrade-template
@@ -975,10 +976,10 @@ AXE_VUOT_NGUC_2:
     lore:
       - "&7 Rìu chiến hạng nặng - Chuyên cận chiến & phá giáp"
       - "&7 Nâng cấp tại Lò Rèn để tăng sát thương bộc phát"
-    attack-damage: 48.5
-    attack-speed: 1
-    knockback: 2.0
-    critical-strike-power: 31.0
+    attack-damage: 50.925
+    attack-speed: 1.05
+    knockback: 2.1
+    critical-strike-power: 32.55
     upgrade:
       reference: weapon-upgrade-template
       template: weapon-upgrade-template
@@ -999,10 +1000,10 @@ AXE_VUOT_NGUC_3:
     lore:
       - "&7 Rìu chiến hạng nặng - Chuyên cận chiến & phá giáp"
       - "&7 Nâng cấp tại Lò Rèn để tăng sát thương bộc phát"
-    attack-damage: 51.0
-    attack-speed: 1
-    knockback: 2.1
-    critical-strike-power: 32.0
+    attack-damage: 53.55
+    attack-speed: 1.05
+    knockback: 2.205
+    critical-strike-power: 33.6
     upgrade:
       reference: weapon-upgrade-template
       template: weapon-upgrade-template
@@ -1023,10 +1024,10 @@ AXE_VUOT_NGUC_4:
     lore:
       - "&7 Rìu chiến hạng nặng - Chuyên cận chiến & phá giáp"
       - "&7 Nâng cấp tại Lò Rèn để tăng sát thương bộc phát"
-    attack-damage: 53.5
-    attack-speed: 1
-    knockback: 2.1
-    critical-strike-power: 33.0
+    attack-damage: 56.175
+    attack-speed: 1.05
+    knockback: 2.205
+    critical-strike-power: 34.65
     upgrade:
       reference: weapon-upgrade-template
       template: weapon-upgrade-template
@@ -1047,10 +1048,10 @@ AXE_VUOT_NGUC_5:
     lore:
       - "&7 Rìu chiến hạng nặng - Chuyên cận chiến & phá giáp"
       - "&7 Nâng cấp tại Lò Rèn để tăng sát thương bộc phát"
-    attack-damage: 56.0
-    attack-speed: 1
-    knockback: 2.2
-    critical-strike-power: 34.0
+    attack-damage: 58.8
+    attack-speed: 1.05
+    knockback: 2.31
+    critical-strike-power: 35.7
     upgrade:
       reference: weapon-upgrade-template
       template: weapon-upgrade-template
@@ -1074,10 +1075,10 @@ GACHA_AXE_VIRIDIAN:
       - "&b&l✦ Vật Phẩm Độc Quyền"
       - "&7 Đại rìu khảm ngọc lục bảo tinh khiết"
       - "&7 Đẩy lùi mạnh mẽ & sát thương bộc phát cực lớn"
-    attack-damage: 63.0
-    attack-speed: 1.0
-    knockback: 2.2
-    critical-strike-power: 35.0
+    attack-damage: 66.15
+    attack-speed: 1.05
+    knockback: 2.31
+    critical-strike-power: 36.75
     ability:
       ability-1:
         type: MAGMA_FISSURE
@@ -1107,10 +1108,10 @@ GACHA_AXE_AZURE:
       - "&b&l✦ Vật Phẩm Độc Quyền"
       - "&7 Rìu chiến rèn từ xương rồng băng vĩnh cửu"
       - "&7 Khả năng phá giáp & chí mạng tàn phá"
-    attack-damage: 61.5
-    attack-speed: 1.0
-    knockback: 2.0
-    critical-strike-power: 30.0
+    attack-damage: 64.575
+    attack-speed: 1.05
+    knockback: 2.1
+    critical-strike-power: 31.5
     ability:
       ability-1:
         type: MAGMA_FISSURE
@@ -1140,10 +1141,10 @@ GACHA_AXE_SACRIFICIAL:
       - "&b&l✦ Vật Phẩm Độc Quyền"
       - "&7 Đại đao dùng trong các nghi lễ tế thần cổ đại"
       - "&7 Sát thương vật lý bộc phát khủng khiếp"
-    attack-damage: 63.5
-    attack-speed: 1.0
-    knockback: 2.5
-    physical-damage: 20.0
+    attack-damage: 66.675
+    attack-speed: 1.05
+    knockback: 2.625
+    physical-damage: 21
     ability:
       ability-1:
         type: MAGMA_FISSURE

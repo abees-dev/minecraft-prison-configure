@@ -1,3 +1,4 @@
+# base-combat-stats-multiplier: 1.05
 TEST_ARMOR_FULL_STATS:
   base:
     custom-maxsockets: 7.0
@@ -10,33 +11,33 @@ TEST_ARMOR_FULL_STATS:
     lore:
       - "&7Vật phẩm dùng để thử nghiệm toàn bộ chỉ số"
       - "&7và giao diện hiển thị Lore của Giáp MMOItems."
-    armor: 10.5
-    armor-toughness: 10.0
-    max-health: 50.0
-    defense: 29.5
-    damage-reduction: 10.0
-    fall-damage-reduction: 20.0
-    fire-damage-reduction: 15.0
-    magic-damage-reduction: 15.0
-    projectile-damage-reduction: 15.0
-    physical-damage-reduction: 15.0
-    pve-damage-reduction: 10.0
-    pvp-damage-reduction: 10.0
-    knockback-resistance: 30.0
-    block-power: 25.0
-    block-rating: 15.0
-    dodge-rating: 10.0
-    parry-rating: 10.0
-    health-regeneration: 5.0
-    max-mana: 100.0
-    mana-regeneration: 10.0
-    max-stamina: 50.0
-    stamina-regeneration: 5.0
-    movement-speed: 0.05
-    cooldown-reduction: 10.0
-    additional-dexterity: 15.0
-    additional-strength: 20.0
-    additional-intelligence: 15.0
+    armor: 11.025
+    armor-toughness: 10.5
+    max-health: 52.5
+    defense: 30.975
+    damage-reduction: 10.5
+    fall-damage-reduction: 21
+    fire-damage-reduction: 15.75
+    magic-damage-reduction: 15.75
+    projectile-damage-reduction: 15.75
+    physical-damage-reduction: 15.75
+    pve-damage-reduction: 10.5
+    pvp-damage-reduction: 10.5
+    knockback-resistance: 31.5
+    block-power: 26.25
+    block-rating: 15.75
+    dodge-rating: 10.5
+    parry-rating: 10.5
+    health-regeneration: 5.25
+    max-mana: 105
+    mana-regeneration: 10.5
+    max-stamina: 52.5
+    stamina-regeneration: 5.25
+    movement-speed: 0.053
+    cooldown-reduction: 10.5
+    additional-dexterity: 15.75
+    additional-strength: 21
+    additional-intelligence: 15.75
     max-durability: 1000
     upgrade:
       reference: armor-upgrade-template
@@ -58,8 +59,8 @@ HELMET_TAN_BINH_1:
     lore:
       - "&7Nón bảo hộ dành cho Tân Binh."
       - "&8Nâng cấp tại Lò Rèn Giáp Tân Binh."
-    armor: 0.8
-    max-health: 0.8
+    armor: 0.84
+    max-health: 0.84
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -80,8 +81,8 @@ HELMET_TAN_BINH_2:
     lore:
       - "&7 Trang bị phòng thủ kiên cố của Tân Binh"
       - "&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
-    armor: 0.9
-    max-health: 0.9
+    armor: 0.945
+    max-health: 0.945
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -102,8 +103,8 @@ HELMET_TAN_BINH_3:
     lore:
       - "&7 Trang bị phòng thủ kiên cố của Tân Binh"
       - "&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
-    armor: 1.0
-    max-health: 1.0
+    armor: 1.05
+    max-health: 1.05
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -124,8 +125,8 @@ HELMET_TAN_BINH_4:
     lore:
       - "&7 Trang bị phòng thủ kiên cố của Tân Binh"
       - "&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
-    armor: 1.1
-    max-health: 1.1
+    armor: 1.155
+    max-health: 1.155
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -146,8 +147,8 @@ HELMET_TAN_BINH_5:
     lore:
       - "&7 Trang bị phòng thủ kiên cố của Tân Binh"
       - "&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
-    armor: 1.2
-    max-health: 1.2
+    armor: 1.26
+    max-health: 1.26
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -168,8 +169,8 @@ HELMET_TU_NHAN_1:
     lore:
       - "&7 Trang bị phòng thủ kiên cố của Tù Nhân"
       - "&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
-    armor: 1.6
-    max-health: 1.6
+    armor: 1.68
+    max-health: 1.68
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -190,8 +191,8 @@ HELMET_TU_NHAN_2:
     lore:
       - "&7 Trang bị phòng thủ kiên cố của Tù Nhân"
       - "&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
-    armor: 1.8
-    max-health: 1.8
+    armor: 1.89
+    max-health: 1.89
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -212,8 +213,8 @@ HELMET_TU_NHAN_3:
     lore:
       - "&7 Trang bị phòng thủ kiên cố của Tù Nhân"
       - "&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
-    armor: 1.9
-    max-health: 2.0
+    armor: 1.995
+    max-health: 2.1
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -234,8 +235,8 @@ HELMET_TU_NHAN_4:
     lore:
       - "&7 Trang bị phòng thủ kiên cố của Tù Nhân"
       - "&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
-    armor: 2.1
-    max-health: 2.2
+    armor: 2.205
+    max-health: 2.31
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -256,8 +257,8 @@ HELMET_TU_NHAN_5:
     lore:
       - "&7 Trang bị phòng thủ kiên cố của Tù Nhân"
       - "&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
-    armor: 2.2
-    max-health: 2.4
+    armor: 2.31
+    max-health: 2.52
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -278,10 +279,10 @@ HELMET_LAO_CONG_1:
     lore:
       - "&7 Trang bị phòng thủ kiên cố của Lao Công"
       - "&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
-    armor: 2.8
-    max-health: 3.0
-    armor-toughness: 0.4
-    mana-regeneration: 1.5
+    armor: 2.94
+    max-health: 3.15
+    armor-toughness: 0.42
+    mana-regeneration: 1.575
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -302,10 +303,10 @@ HELMET_LAO_CONG_2:
     lore:
       - "&7 Trang bị phòng thủ kiên cố của Lao Công"
       - "&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
-    armor: 3.0
-    max-health: 3.3
-    armor-toughness: 0.5
-    mana-regeneration: 1.7
+    armor: 3.15
+    max-health: 3.465
+    armor-toughness: 0.525
+    mana-regeneration: 1.785
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -326,10 +327,10 @@ HELMET_LAO_CONG_3:
     lore:
       - "&7 Trang bị phòng thủ kiên cố của Lao Công"
       - "&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
-    armor: 3.2
-    max-health: 3.6
-    armor-toughness: 0.5
-    mana-regeneration: 1.9
+    armor: 3.36
+    max-health: 3.78
+    armor-toughness: 0.525
+    mana-regeneration: 1.995
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -350,10 +351,10 @@ HELMET_LAO_CONG_4:
     lore:
       - "&7 Trang bị phòng thủ kiên cố của Lao Công"
       - "&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
-    armor: 3.4
-    max-health: 3.9
-    armor-toughness: 0.6
-    mana-regeneration: 2.1
+    armor: 3.57
+    max-health: 4.095
+    armor-toughness: 0.63
+    mana-regeneration: 2.205
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -374,10 +375,10 @@ HELMET_LAO_CONG_5:
     lore:
       - "&7 Trang bị phòng thủ kiên cố của Lao Công"
       - "&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
-    armor: 3.6
-    max-health: 4.2
-    armor-toughness: 0.6
-    mana-regeneration: 2.3
+    armor: 3.78
+    max-health: 4.41
+    armor-toughness: 0.63
+    mana-regeneration: 2.415
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -398,11 +399,11 @@ HELMET_THO_DAO_1:
     lore:
       - "&7 Trang bị phòng thủ kiên cố của Thợ Đào"
       - "&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
-    armor: 4.4
-    max-health: 5.0
-    armor-toughness: 0.8
-    defense: 0.4
-    mana-regeneration: 2.0
+    armor: 4.62
+    max-health: 5.25
+    armor-toughness: 0.84
+    defense: 0.42
+    mana-regeneration: 2.1
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -423,11 +424,11 @@ HELMET_THO_DAO_2:
     lore:
       - "&7 Trang bị phòng thủ kiên cố của Thợ Đào"
       - "&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
-    armor: 4.7
-    max-health: 5.4
-    armor-toughness: 0.9
-    defense: 0.5
-    mana-regeneration: 2.2
+    armor: 4.935
+    max-health: 5.67
+    armor-toughness: 0.945
+    defense: 0.525
+    mana-regeneration: 2.31
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -448,11 +449,11 @@ HELMET_THO_DAO_3:
     lore:
       - "&7 Trang bị phòng thủ kiên cố của Thợ Đào"
       - "&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
-    armor: 4.9
-    max-health: 5.8
-    armor-toughness: 1.0
-    defense: 0.5
-    mana-regeneration: 2.4
+    armor: 5.145
+    max-health: 6.09
+    armor-toughness: 1.05
+    defense: 0.525
+    mana-regeneration: 2.52
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -473,11 +474,11 @@ HELMET_THO_DAO_4:
     lore:
       - "&7 Trang bị phòng thủ kiên cố của Thợ Đào"
       - "&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
-    armor: 5.2
-    max-health: 6.2
-    armor-toughness: 1.1
-    defense: 0.6
-    mana-regeneration: 2.6
+    armor: 5.46
+    max-health: 6.51
+    armor-toughness: 1.155
+    defense: 0.63
+    mana-regeneration: 2.73
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -498,11 +499,11 @@ HELMET_THO_DAO_5:
     lore:
       - "&7 Trang bị phòng thủ kiên cố của Thợ Đào"
       - "&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
-    armor: 5.4
-    max-health: 6.6
-    armor-toughness: 1.2
-    defense: 0.6
-    mana-regeneration: 2.8
+    armor: 5.67
+    max-health: 6.93
+    armor-toughness: 1.26
+    defense: 0.63
+    mana-regeneration: 2.94
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -523,11 +524,11 @@ HELMET_DOI_TRUONG_1:
     lore:
       - "&7 Trang bị phòng thủ kiên cố của Đội Trưởng"
       - "&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
-    armor: 6.0
-    max-health: 8.0
-    armor-toughness: 1.4
-    defense: 1.4
-    mana-regeneration: 2.5
+    armor: 6.3
+    max-health: 8.4
+    armor-toughness: 1.47
+    defense: 1.47
+    mana-regeneration: 2.625
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -548,11 +549,11 @@ HELMET_DOI_TRUONG_2:
     lore:
       - "&7 Trang bị phòng thủ kiên cố của Đội Trưởng"
       - "&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
-    armor: 6.0
-    max-health: 8.5
-    armor-toughness: 1.5
-    defense: 1.8
-    mana-regeneration: 2.7
+    armor: 6.3
+    max-health: 8.925
+    armor-toughness: 1.575
+    defense: 1.89
+    mana-regeneration: 2.835
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -573,11 +574,11 @@ HELMET_DOI_TRUONG_3:
     lore:
       - "&7 Trang bị phòng thủ kiên cố của Đội Trưởng"
       - "&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
-    armor: 6.0
-    max-health: 9.0
-    armor-toughness: 1.6
-    defense: 2.2
-    mana-regeneration: 2.9
+    armor: 6.3
+    max-health: 9.45
+    armor-toughness: 1.68
+    defense: 2.31
+    mana-regeneration: 3.045
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -598,11 +599,11 @@ HELMET_DOI_TRUONG_4:
     lore:
       - "&7 Trang bị phòng thủ kiên cố của Đội Trưởng"
       - "&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
-    armor: 6.0
-    max-health: 9.5
-    armor-toughness: 1.7
-    defense: 2.6
-    mana-regeneration: 3.1
+    armor: 6.3
+    max-health: 9.975
+    armor-toughness: 1.785
+    defense: 2.73
+    mana-regeneration: 3.255
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -623,11 +624,11 @@ HELMET_DOI_TRUONG_5:
     lore:
       - "&7 Trang bị phòng thủ kiên cố của Đội Trưởng"
       - "&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
-    armor: 6.0
-    max-health: 10.0
-    armor-toughness: 1.8
-    defense: 3.0
-    mana-regeneration: 3.3
+    armor: 6.3
+    max-health: 10.5
+    armor-toughness: 1.89
+    defense: 3.15
+    mana-regeneration: 3.465
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -648,11 +649,11 @@ HELMET_PHO_QUAN_NGUC_1:
     lore:
       - "&7 Trang bị phòng thủ kiên cố của Phó Quản Ngục"
       - "&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
-    armor: 6.0
-    max-health: 12.0
-    armor-toughness: 2.2
-    defense: 4.6
-    mana-regeneration: 3.0
+    armor: 6.3
+    max-health: 12.6
+    armor-toughness: 2.31
+    defense: 4.83
+    mana-regeneration: 3.15
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -673,11 +674,11 @@ HELMET_PHO_QUAN_NGUC_2:
     lore:
       - "&7 Trang bị phòng thủ kiên cố của Phó Quản Ngục"
       - "&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
-    armor: 6.0
-    max-health: 12.6
-    armor-toughness: 2.4
-    defense: 5.2
-    mana-regeneration: 3.2
+    armor: 6.3
+    max-health: 13.23
+    armor-toughness: 2.52
+    defense: 5.46
+    mana-regeneration: 3.36
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -698,11 +699,11 @@ HELMET_PHO_QUAN_NGUC_3:
     lore:
       - "&7 Trang bị phòng thủ kiên cố của Phó Quản Ngục"
       - "&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
-    armor: 6.0
-    max-health: 13.2
-    armor-toughness: 2.5
-    defense: 5.6
-    mana-regeneration: 3.4
+    armor: 6.3
+    max-health: 13.86
+    armor-toughness: 2.625
+    defense: 5.88
+    mana-regeneration: 3.57
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -723,11 +724,11 @@ HELMET_PHO_QUAN_NGUC_4:
     lore:
       - "&7 Trang bị phòng thủ kiên cố của Phó Quản Ngục"
       - "&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
-    armor: 6.0
-    max-health: 13.8
-    armor-toughness: 2.7
-    defense: 6.2
-    mana-regeneration: 3.6
+    armor: 6.3
+    max-health: 14.49
+    armor-toughness: 2.835
+    defense: 6.51
+    mana-regeneration: 3.78
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -748,11 +749,11 @@ HELMET_PHO_QUAN_NGUC_5:
     lore:
       - "&7 Trang bị phòng thủ kiên cố của Phó Quản Ngục"
       - "&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
-    armor: 6.0
-    max-health: 14.4
-    armor-toughness: 2.8
-    defense: 6.6
-    mana-regeneration: 3.8
+    armor: 6.3
+    max-health: 15.12
+    armor-toughness: 2.94
+    defense: 6.93
+    mana-regeneration: 3.99
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -773,11 +774,11 @@ HELMET_QUAN_NGUC_1:
     lore:
       - "&7 Trang bị phòng thủ kiên cố của Quản Ngục"
       - "&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
-    armor: 6.0
-    max-health: 17.0
-    armor-toughness: 3.2
-    defense: 8.4
-    mana-regeneration: 3.5
+    armor: 6.3
+    max-health: 17.85
+    armor-toughness: 3.36
+    defense: 8.82
+    mana-regeneration: 3.675
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -798,11 +799,11 @@ HELMET_QUAN_NGUC_2:
     lore:
       - "&7 Trang bị phòng thủ kiên cố của Quản Ngục"
       - "&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
-    armor: 6.0
-    max-health: 17.8
-    armor-toughness: 3.4
-    defense: 9.0
-    mana-regeneration: 3.7
+    armor: 6.3
+    max-health: 18.69
+    armor-toughness: 3.57
+    defense: 9.45
+    mana-regeneration: 3.885
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -823,11 +824,11 @@ HELMET_QUAN_NGUC_3:
     lore:
       - "&7 Trang bị phòng thủ kiên cố của Quản Ngục"
       - "&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
-    armor: 6.0
-    max-health: 18.6
-    armor-toughness: 3.6
-    defense: 9.6
-    mana-regeneration: 3.9
+    armor: 6.3
+    max-health: 19.53
+    armor-toughness: 3.78
+    defense: 10.08
+    mana-regeneration: 4.095
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -848,11 +849,11 @@ HELMET_QUAN_NGUC_4:
     lore:
       - "&7 Trang bị phòng thủ kiên cố của Quản Ngục"
       - "&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
-    armor: 6.0
-    max-health: 19.4
-    armor-toughness: 3.8
-    defense: 10.2
-    mana-regeneration: 4.1
+    armor: 6.3
+    max-health: 20.37
+    armor-toughness: 3.99
+    defense: 10.71
+    mana-regeneration: 4.305
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -873,11 +874,11 @@ HELMET_QUAN_NGUC_5:
     lore:
       - "&7 Trang bị phòng thủ kiên cố của Quản Ngục"
       - "&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
-    armor: 6.0
-    max-health: 20.2
-    armor-toughness: 4.0
-    defense: 10.8
-    mana-regeneration: 4.3
+    armor: 6.3
+    max-health: 21.21
+    armor-toughness: 4.2
+    defense: 11.34
+    mana-regeneration: 4.515
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -898,11 +899,11 @@ HELMET_BA_CHU_NGUC_TU_1:
     lore:
       - "&7 Trang bị phòng thủ kiên cố của Bá Chủ Ngục Tù"
       - "&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
-    armor: 6.0
-    max-health: 23.0
-    armor-toughness: 4.4
-    defense: 13.0
-    mana-regeneration: 4.0
+    armor: 6.3
+    max-health: 24.15
+    armor-toughness: 4.62
+    defense: 13.65
+    mana-regeneration: 4.2
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -923,11 +924,11 @@ HELMET_BA_CHU_NGUC_TU_2:
     lore:
       - "&7 Trang bị phòng thủ kiên cố của Bá Chủ Ngục Tù"
       - "&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
-    armor: 6.0
-    max-health: 24.0
-    armor-toughness: 4.7
-    defense: 13.8
-    mana-regeneration: 4.2
+    armor: 6.3
+    max-health: 25.2
+    armor-toughness: 4.935
+    defense: 14.49
+    mana-regeneration: 4.41
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -948,11 +949,11 @@ HELMET_BA_CHU_NGUC_TU_3:
     lore:
       - "&7 Trang bị phòng thủ kiên cố của Bá Chủ Ngục Tù"
       - "&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
-    armor: 6.0
-    max-health: 25.0
-    armor-toughness: 4.9
-    defense: 14.5
-    mana-regeneration: 4.4
+    armor: 6.3
+    max-health: 26.25
+    armor-toughness: 5.145
+    defense: 15.225
+    mana-regeneration: 4.62
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -973,11 +974,11 @@ HELMET_BA_CHU_NGUC_TU_4:
     lore:
       - "&7 Trang bị phòng thủ kiên cố của Bá Chủ Ngục Tù"
       - "&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
-    armor: 6.0
-    max-health: 26.0
-    armor-toughness: 5.2
-    defense: 15.3
-    mana-regeneration: 4.6
+    armor: 6.3
+    max-health: 27.3
+    armor-toughness: 5.46
+    defense: 16.065
+    mana-regeneration: 4.83
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -998,11 +999,11 @@ HELMET_BA_CHU_NGUC_TU_5:
     lore:
       - "&7 Trang bị phòng thủ kiên cố của Bá Chủ Ngục Tù"
       - "&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
-    armor: 6.0
-    max-health: 27.0
-    armor-toughness: 5.4
-    defense: 16.0
-    mana-regeneration: 4.8
+    armor: 6.3
+    max-health: 28.35
+    armor-toughness: 5.67
+    defense: 16.8
+    mana-regeneration: 5.04
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -1023,11 +1024,11 @@ HELMET_VUOT_NGUC_1:
     lore:
       - "&7 Trang bị phòng thủ kiên cố của Vượt Ngục"
       - "&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
-    armor: 6.0
-    max-health: 30.0
-    armor-toughness: 6.0
-    defense: 18.6
-    mana-regeneration: 4.5
+    armor: 6.3
+    max-health: 31.5
+    armor-toughness: 6.3
+    defense: 19.53
+    mana-regeneration: 4.725
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -1048,11 +1049,11 @@ HELMET_VUOT_NGUC_2:
     lore:
       - "&7 Trang bị phòng thủ kiên cố của Vượt Ngục"
       - "&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
-    armor: 6.0
-    max-health: 31.2
-    armor-toughness: 6.3
-    defense: 19.5
-    mana-regeneration: 4.7
+    armor: 6.3
+    max-health: 32.76
+    armor-toughness: 6.615
+    defense: 20.475
+    mana-regeneration: 4.935
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -1073,11 +1074,11 @@ HELMET_VUOT_NGUC_3:
     lore:
       - "&7 Trang bị phòng thủ kiên cố của Vượt Ngục"
       - "&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
-    armor: 6.0
-    max-health: 32.4
-    armor-toughness: 6.6
-    defense: 20.4
-    mana-regeneration: 4.9
+    armor: 6.3
+    max-health: 34.02
+    armor-toughness: 6.93
+    defense: 21.42
+    mana-regeneration: 5.145
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -1098,11 +1099,11 @@ HELMET_VUOT_NGUC_4:
     lore:
       - "&7 Trang bị phòng thủ kiên cố của Vượt Ngục"
       - "&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
-    armor: 6.0
-    max-health: 33.6
-    armor-toughness: 6.9
-    defense: 21.3
-    mana-regeneration: 5.1
+    armor: 6.3
+    max-health: 35.28
+    armor-toughness: 7.245
+    defense: 22.365
+    mana-regeneration: 5.355
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -1123,11 +1124,11 @@ HELMET_VUOT_NGUC_5:
     lore:
       - "&7 Trang bị phòng thủ kiên cố của Vượt Ngục"
       - "&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
-    armor: 6.0
-    max-health: 34.8
-    armor-toughness: 7.2
-    defense: 22.2
-    mana-regeneration: 5.3
+    armor: 6.3
+    max-health: 36.54
+    armor-toughness: 7.56
+    defense: 23.31
+    mana-regeneration: 5.565
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -1148,8 +1149,8 @@ CHESTPLATE_TAN_BINH_1:
     lore:
       - "&7Áo giáp dành cho Tân Binh."
       - "&8Nâng cấp tại Lò Rèn Giáp Tân Binh."
-    armor: 1.4
-    max-health: 1.4
+    armor: 1.47
+    max-health: 1.47
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -1170,8 +1171,8 @@ CHESTPLATE_TAN_BINH_2:
     lore:
       - "&7 Trang bị phòng thủ kiên cố của Tân Binh"
       - "&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
-    armor: 1.6
-    max-health: 1.6
+    armor: 1.68
+    max-health: 1.68
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -1192,8 +1193,8 @@ CHESTPLATE_TAN_BINH_3:
     lore:
       - "&7 Trang bị phòng thủ kiên cố của Tân Binh"
       - "&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
-    armor: 1.8
-    max-health: 1.8
+    armor: 1.89
+    max-health: 1.89
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -1214,8 +1215,8 @@ CHESTPLATE_TAN_BINH_4:
     lore:
       - "&7 Trang bị phòng thủ kiên cố của Tân Binh"
       - "&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
-    armor: 1.9
-    max-health: 1.9
+    armor: 1.995
+    max-health: 1.995
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -1236,8 +1237,8 @@ CHESTPLATE_TAN_BINH_5:
     lore:
       - "&7 Trang bị phòng thủ kiên cố của Tân Binh"
       - "&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
-    armor: 2.1
-    max-health: 2.1
+    armor: 2.205
+    max-health: 2.205
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -1258,8 +1259,8 @@ CHESTPLATE_TU_NHAN_1:
     lore:
       - "&7 Trang bị phòng thủ kiên cố của Tù Nhân"
       - "&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
-    armor: 2.8
-    max-health: 2.8
+    armor: 2.94
+    max-health: 2.94
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -1280,8 +1281,8 @@ CHESTPLATE_TU_NHAN_2:
     lore:
       - "&7 Trang bị phòng thủ kiên cố của Tù Nhân"
       - "&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
-    armor: 3.1
-    max-health: 3.1
+    armor: 3.255
+    max-health: 3.255
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -1302,8 +1303,8 @@ CHESTPLATE_TU_NHAN_3:
     lore:
       - "&7 Trang bị phòng thủ kiên cố của Tù Nhân"
       - "&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
-    armor: 3.3
-    max-health: 3.5
+    armor: 3.465
+    max-health: 3.675
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -1324,8 +1325,8 @@ CHESTPLATE_TU_NHAN_4:
     lore:
       - "&7 Trang bị phòng thủ kiên cố của Tù Nhân"
       - "&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
-    armor: 3.6
-    max-health: 3.8
+    armor: 3.78
+    max-health: 3.99
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -1346,8 +1347,8 @@ CHESTPLATE_TU_NHAN_5:
     lore:
       - "&7 Trang bị phòng thủ kiên cố của Tù Nhân"
       - "&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
-    armor: 3.8
-    max-health: 4.2
+    armor: 3.99
+    max-health: 4.41
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -1368,9 +1369,9 @@ CHESTPLATE_LAO_CONG_1:
     lore:
       - "&7 Trang bị phòng thủ kiên cố của Lao Công"
       - "&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
-    armor: 4.9
-    max-health: 5.3
-    armor-toughness: 0.7
+    armor: 5.145
+    max-health: 5.565
+    armor-toughness: 0.735
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -1391,9 +1392,9 @@ CHESTPLATE_LAO_CONG_2:
     lore:
       - "&7 Trang bị phòng thủ kiên cố của Lao Công"
       - "&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
-    armor: 5.3
-    max-health: 5.8
-    armor-toughness: 0.8
+    armor: 5.565
+    max-health: 6.09
+    armor-toughness: 0.84
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -1414,9 +1415,9 @@ CHESTPLATE_LAO_CONG_3:
     lore:
       - "&7 Trang bị phòng thủ kiên cố của Lao Công"
       - "&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
-    armor: 5.6
-    max-health: 6.3
-    armor-toughness: 0.9
+    armor: 5.88
+    max-health: 6.615
+    armor-toughness: 0.945
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -1437,9 +1438,9 @@ CHESTPLATE_LAO_CONG_4:
     lore:
       - "&7 Trang bị phòng thủ kiên cố của Lao Công"
       - "&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
-    armor: 5.9
-    max-health: 6.8
-    armor-toughness: 1.0
+    armor: 6.195
+    max-health: 7.14
+    armor-toughness: 1.05
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -1460,9 +1461,9 @@ CHESTPLATE_LAO_CONG_5:
     lore:
       - "&7 Trang bị phòng thủ kiên cố của Lao Công"
       - "&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
-    armor: 6.3
-    max-health: 7.3
-    armor-toughness: 1.0
+    armor: 6.615
+    max-health: 7.665
+    armor-toughness: 1.05
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -1483,10 +1484,10 @@ CHESTPLATE_THO_DAO_1:
     lore:
       - "&7 Trang bị phòng thủ kiên cố của Thợ Đào"
       - "&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
-    armor: 7.7
-    max-health: 8.8
-    armor-toughness: 1.4
-    defense: 0.7
+    armor: 8.085
+    max-health: 9.24
+    armor-toughness: 1.47
+    defense: 0.735
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -1507,10 +1508,10 @@ CHESTPLATE_THO_DAO_2:
     lore:
       - "&7 Trang bị phòng thủ kiên cố của Thợ Đào"
       - "&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
-    armor: 8.1
-    max-health: 9.4
-    armor-toughness: 1.6
-    defense: 0.8
+    armor: 8.505
+    max-health: 9.87
+    armor-toughness: 1.68
+    defense: 0.84
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -1531,10 +1532,10 @@ CHESTPLATE_THO_DAO_3:
     lore:
       - "&7 Trang bị phòng thủ kiên cố của Thợ Đào"
       - "&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
-    armor: 8.6
-    max-health: 10.1
-    armor-toughness: 1.8
-    defense: 0.9
+    armor: 9.03
+    max-health: 10.605
+    armor-toughness: 1.89
+    defense: 0.945
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -1555,10 +1556,10 @@ CHESTPLATE_THO_DAO_4:
     lore:
       - "&7 Trang bị phòng thủ kiên cố của Thợ Đào"
       - "&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
-    armor: 9.0
-    max-health: 10.8
-    armor-toughness: 1.9
-    defense: 1.0
+    armor: 9.45
+    max-health: 11.34
+    armor-toughness: 1.995
+    defense: 1.05
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -1579,10 +1580,10 @@ CHESTPLATE_THO_DAO_5:
     lore:
       - "&7 Trang bị phòng thủ kiên cố của Thợ Đào"
       - "&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
-    armor: 9.4
-    max-health: 11.5
-    armor-toughness: 2.1
-    defense: 1.0
+    armor: 9.87
+    max-health: 12.075
+    armor-toughness: 2.205
+    defense: 1.05
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -1603,10 +1604,10 @@ CHESTPLATE_DOI_TRUONG_1:
     lore:
       - "&7 Trang bị phòng thủ kiên cố của Đội Trưởng"
       - "&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
-    armor: 10.5
-    max-health: 14.0
-    armor-toughness: 2.4
-    defense: 2.5
+    armor: 11.025
+    max-health: 14.7
+    armor-toughness: 2.52
+    defense: 2.625
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -1627,10 +1628,10 @@ CHESTPLATE_DOI_TRUONG_2:
     lore:
       - "&7 Trang bị phòng thủ kiên cố của Đội Trưởng"
       - "&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
-    armor: 10.5
-    max-health: 14.9
-    armor-toughness: 2.6
-    defense: 3.1
+    armor: 11.025
+    max-health: 15.645
+    armor-toughness: 2.73
+    defense: 3.255
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -1651,10 +1652,10 @@ CHESTPLATE_DOI_TRUONG_3:
     lore:
       - "&7 Trang bị phòng thủ kiên cố của Đội Trưởng"
       - "&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
-    armor: 10.5
-    max-health: 15.7
-    armor-toughness: 2.8
-    defense: 3.9
+    armor: 11.025
+    max-health: 16.485
+    armor-toughness: 2.94
+    defense: 4.095
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -1675,10 +1676,10 @@ CHESTPLATE_DOI_TRUONG_4:
     lore:
       - "&7 Trang bị phòng thủ kiên cố của Đội Trưởng"
       - "&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
-    armor: 10.5
-    max-health: 16.6
-    armor-toughness: 3.0
-    defense: 4.6
+    armor: 11.025
+    max-health: 17.43
+    armor-toughness: 3.15
+    defense: 4.83
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -1699,10 +1700,10 @@ CHESTPLATE_DOI_TRUONG_5:
     lore:
       - "&7 Trang bị phòng thủ kiên cố của Đội Trưởng"
       - "&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
-    armor: 10.5
-    max-health: 17.5
-    armor-toughness: 3.1
-    defense: 5.2
+    armor: 11.025
+    max-health: 18.375
+    armor-toughness: 3.255
+    defense: 5.46
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -1723,10 +1724,10 @@ CHESTPLATE_PHO_QUAN_NGUC_1:
     lore:
       - "&7 Trang bị phòng thủ kiên cố của Phó Quản Ngục"
       - "&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
-    armor: 10.5
-    max-health: 21.0
-    armor-toughness: 3.8
-    defense: 8.0
+    armor: 11.025
+    max-health: 22.05
+    armor-toughness: 3.99
+    defense: 8.4
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -1747,10 +1748,10 @@ CHESTPLATE_PHO_QUAN_NGUC_2:
     lore:
       - "&7 Trang bị phòng thủ kiên cố của Phó Quản Ngục"
       - "&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
-    armor: 10.5
-    max-health: 22.0
-    armor-toughness: 4.1
-    defense: 8.9
+    armor: 11.025
+    max-health: 23.1
+    armor-toughness: 4.305
+    defense: 9.345
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -1771,10 +1772,10 @@ CHESTPLATE_PHO_QUAN_NGUC_3:
     lore:
       - "&7 Trang bị phòng thủ kiên cố của Phó Quản Ngục"
       - "&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
-    armor: 10.5
-    max-health: 23.1
-    armor-toughness: 4.4
-    defense: 9.8
+    armor: 11.025
+    max-health: 24.255
+    armor-toughness: 4.62
+    defense: 10.29
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -1795,10 +1796,10 @@ CHESTPLATE_PHO_QUAN_NGUC_4:
     lore:
       - "&7 Trang bị phòng thủ kiên cố của Phó Quản Ngục"
       - "&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
-    armor: 10.5
-    max-health: 24.1
-    armor-toughness: 4.6
-    defense: 10.6
+    armor: 11.025
+    max-health: 25.305
+    armor-toughness: 4.83
+    defense: 11.13
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -1819,10 +1820,10 @@ CHESTPLATE_PHO_QUAN_NGUC_5:
     lore:
       - "&7 Trang bị phòng thủ kiên cố của Phó Quản Ngục"
       - "&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
-    armor: 10.5
-    max-health: 25.2
-    armor-toughness: 4.9
-    defense: 11.5
+    armor: 11.025
+    max-health: 26.46
+    armor-toughness: 5.145
+    defense: 12.075
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -1843,10 +1844,10 @@ CHESTPLATE_QUAN_NGUC_1:
     lore:
       - "&7 Trang bị phòng thủ kiên cố của Quản Ngục"
       - "&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
-    armor: 10.5
-    max-health: 29.7
-    armor-toughness: 5.6
-    defense: 14.7
+    armor: 11.025
+    max-health: 31.185
+    armor-toughness: 5.88
+    defense: 15.435
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -1867,10 +1868,10 @@ CHESTPLATE_QUAN_NGUC_2:
     lore:
       - "&7 Trang bị phòng thủ kiên cố của Quản Ngục"
       - "&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
-    armor: 10.5
-    max-health: 31.1
-    armor-toughness: 5.9
-    defense: 15.8
+    armor: 11.025
+    max-health: 32.655
+    armor-toughness: 6.195
+    defense: 16.59
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -1891,10 +1892,10 @@ CHESTPLATE_QUAN_NGUC_3:
     lore:
       - "&7 Trang bị phòng thủ kiên cố của Quản Ngục"
       - "&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
-    armor: 10.5
-    max-health: 32.5
-    armor-toughness: 6.3
-    defense: 16.8
+    armor: 11.025
+    max-health: 34.125
+    armor-toughness: 6.615
+    defense: 17.64
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -1915,10 +1916,10 @@ CHESTPLATE_QUAN_NGUC_4:
     lore:
       - "&7 Trang bị phòng thủ kiên cố của Quản Ngục"
       - "&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
-    armor: 10.5
-    max-health: 33.9
-    armor-toughness: 6.6
-    defense: 17.8
+    armor: 11.025
+    max-health: 35.595
+    armor-toughness: 6.93
+    defense: 18.69
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -1939,10 +1940,10 @@ CHESTPLATE_QUAN_NGUC_5:
     lore:
       - "&7 Trang bị phòng thủ kiên cố của Quản Ngục"
       - "&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
-    armor: 10.5
-    max-health: 35.3
-    armor-toughness: 7.0
-    defense: 18.9
+    armor: 11.025
+    max-health: 37.065
+    armor-toughness: 7.35
+    defense: 19.845
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -1963,10 +1964,10 @@ CHESTPLATE_BA_CHU_NGUC_TU_1:
     lore:
       - "&7 Trang bị phòng thủ kiên cố của Bá Chủ Ngục Tù"
       - "&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
-    armor: 10.5
-    max-health: 40.3
-    armor-toughness: 7.7
-    defense: 22.8
+    armor: 11.025
+    max-health: 42.315
+    armor-toughness: 8.085
+    defense: 23.94
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -1987,10 +1988,10 @@ CHESTPLATE_BA_CHU_NGUC_TU_2:
     lore:
       - "&7 Trang bị phòng thủ kiên cố của Bá Chủ Ngục Tù"
       - "&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
-    armor: 10.5
-    max-health: 42.0
-    armor-toughness: 8.1
-    defense: 24.0
+    armor: 11.025
+    max-health: 44.1
+    armor-toughness: 8.505
+    defense: 25.2
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -2011,10 +2012,10 @@ CHESTPLATE_BA_CHU_NGUC_TU_3:
     lore:
       - "&7 Trang bị phòng thủ kiên cố của Bá Chủ Ngục Tù"
       - "&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
-    armor: 10.5
-    max-health: 43.8
-    armor-toughness: 8.6
-    defense: 25.4
+    armor: 11.025
+    max-health: 45.99
+    armor-toughness: 9.03
+    defense: 26.67
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -2035,10 +2036,10 @@ CHESTPLATE_BA_CHU_NGUC_TU_4:
     lore:
       - "&7 Trang bị phòng thủ kiên cố của Bá Chủ Ngục Tù"
       - "&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
-    armor: 10.5
-    max-health: 45.5
-    armor-toughness: 9.0
-    defense: 26.7
+    armor: 11.025
+    max-health: 47.775
+    armor-toughness: 9.45
+    defense: 28.035
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -2059,10 +2060,10 @@ CHESTPLATE_BA_CHU_NGUC_TU_5:
     lore:
       - "&7 Trang bị phòng thủ kiên cố của Bá Chủ Ngục Tù"
       - "&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
-    armor: 10.5
-    max-health: 47.3
-    armor-toughness: 9.4
-    defense: 28.0
+    armor: 11.025
+    max-health: 49.665
+    armor-toughness: 9.87
+    defense: 29.4
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -2083,10 +2084,10 @@ CHESTPLATE_VUOT_NGUC_1:
     lore:
       - "&7 Trang bị phòng thủ kiên cố của Vượt Ngục"
       - "&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
-    armor: 10.5
-    max-health: 52.5
-    armor-toughness: 10.5
-    defense: 32.6
+    armor: 11.025
+    max-health: 55.125
+    armor-toughness: 11.025
+    defense: 34.23
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -2107,10 +2108,10 @@ CHESTPLATE_VUOT_NGUC_2:
     lore:
       - "&7 Trang bị phòng thủ kiên cố của Vượt Ngục"
       - "&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
-    armor: 10.5
-    max-health: 54.6
-    armor-toughness: 11.0
-    defense: 34.1
+    armor: 11.025
+    max-health: 57.33
+    armor-toughness: 11.55
+    defense: 35.805
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -2131,10 +2132,10 @@ CHESTPLATE_VUOT_NGUC_3:
     lore:
       - "&7 Trang bị phòng thủ kiên cố của Vượt Ngục"
       - "&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
-    armor: 10.5
-    max-health: 56.7
-    armor-toughness: 11.5
-    defense: 35.6
+    armor: 11.025
+    max-health: 59.535
+    armor-toughness: 12.075
+    defense: 37.38
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -2155,10 +2156,10 @@ CHESTPLATE_VUOT_NGUC_4:
     lore:
       - "&7 Trang bị phòng thủ kiên cố của Vượt Ngục"
       - "&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
-    armor: 10.5
-    max-health: 58.8
-    armor-toughness: 12.1
-    defense: 37.3
+    armor: 11.025
+    max-health: 61.74
+    armor-toughness: 12.705
+    defense: 39.165
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -2179,10 +2180,10 @@ CHESTPLATE_VUOT_NGUC_5:
     lore:
       - "&7 Trang bị phòng thủ kiên cố của Vượt Ngục"
       - "&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
-    armor: 10.5
-    max-health: 60.9
-    armor-toughness: 12.6
-    defense: 38.8
+    armor: 11.025
+    max-health: 63.945
+    armor-toughness: 13.23
+    defense: 40.74
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -2203,8 +2204,8 @@ LEGGINGS_TAN_BINH_1:
     lore:
       - "&7Quần giáp dành cho Tân Binh."
       - "&8Nâng cấp tại Lò Rèn Giáp Tân Binh."
-    armor: 1.0
-    max-health: 1.0
+    armor: 1.05
+    max-health: 1.05
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -2225,8 +2226,8 @@ LEGGINGS_TAN_BINH_2:
     lore:
       - "&7 Trang bị phòng thủ kiên cố của Tân Binh"
       - "&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
-    armor: 1.1
-    max-health: 1.1
+    armor: 1.155
+    max-health: 1.155
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -2247,8 +2248,8 @@ LEGGINGS_TAN_BINH_3:
     lore:
       - "&7 Trang bị phòng thủ kiên cố của Tân Binh"
       - "&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
-    armor: 1.3
-    max-health: 1.3
+    armor: 1.365
+    max-health: 1.365
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -2269,8 +2270,8 @@ LEGGINGS_TAN_BINH_4:
     lore:
       - "&7 Trang bị phòng thủ kiên cố của Tân Binh"
       - "&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
-    armor: 1.4
-    max-health: 1.4
+    armor: 1.47
+    max-health: 1.47
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -2291,8 +2292,8 @@ LEGGINGS_TAN_BINH_5:
     lore:
       - "&7 Trang bị phòng thủ kiên cố của Tân Binh"
       - "&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
-    armor: 1.5
-    max-health: 1.5
+    armor: 1.575
+    max-health: 1.575
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -2313,8 +2314,8 @@ LEGGINGS_TU_NHAN_1:
     lore:
       - "&7 Trang bị phòng thủ kiên cố của Tù Nhân"
       - "&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
-    armor: 2.0
-    max-health: 2.0
+    armor: 2.1
+    max-health: 2.1
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -2335,8 +2336,8 @@ LEGGINGS_TU_NHAN_2:
     lore:
       - "&7 Trang bị phòng thủ kiên cố của Tù Nhân"
       - "&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
-    armor: 2.2
-    max-health: 2.3
+    armor: 2.31
+    max-health: 2.415
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -2357,8 +2358,8 @@ LEGGINGS_TU_NHAN_3:
     lore:
       - "&7 Trang bị phòng thủ kiên cố của Tù Nhân"
       - "&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
-    armor: 2.4
-    max-health: 2.5
+    armor: 2.52
+    max-health: 2.625
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -2379,8 +2380,8 @@ LEGGINGS_TU_NHAN_4:
     lore:
       - "&7 Trang bị phòng thủ kiên cố của Tù Nhân"
       - "&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
-    armor: 2.6
-    max-health: 2.8
+    armor: 2.73
+    max-health: 2.94
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -2401,8 +2402,8 @@ LEGGINGS_TU_NHAN_5:
     lore:
       - "&7 Trang bị phòng thủ kiên cố của Tù Nhân"
       - "&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
-    armor: 2.8
-    max-health: 3.0
+    armor: 2.94
+    max-health: 3.15
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -2423,9 +2424,9 @@ LEGGINGS_LAO_CONG_1:
     lore:
       - "&7 Trang bị phòng thủ kiên cố của Lao Công"
       - "&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
-    armor: 3.5
-    max-health: 3.8
-    armor-toughness: 0.5
+    armor: 3.675
+    max-health: 3.99
+    armor-toughness: 0.525
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -2446,9 +2447,9 @@ LEGGINGS_LAO_CONG_2:
     lore:
       - "&7 Trang bị phòng thủ kiên cố của Lao Công"
       - "&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
-    armor: 3.8
-    max-health: 4.1
-    armor-toughness: 0.6
+    armor: 3.99
+    max-health: 4.305
+    armor-toughness: 0.63
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -2469,9 +2470,9 @@ LEGGINGS_LAO_CONG_3:
     lore:
       - "&7 Trang bị phòng thủ kiên cố của Lao Công"
       - "&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
-    armor: 4.0
-    max-health: 4.5
-    armor-toughness: 0.6
+    armor: 4.2
+    max-health: 4.725
+    armor-toughness: 0.63
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -2492,9 +2493,9 @@ LEGGINGS_LAO_CONG_4:
     lore:
       - "&7 Trang bị phòng thủ kiên cố của Lao Công"
       - "&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
-    armor: 4.3
-    max-health: 4.9
-    armor-toughness: 0.7
+    armor: 4.515
+    max-health: 5.145
+    armor-toughness: 0.735
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -2515,9 +2516,9 @@ LEGGINGS_LAO_CONG_5:
     lore:
       - "&7 Trang bị phòng thủ kiên cố của Lao Công"
       - "&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
-    armor: 4.5
-    max-health: 5.3
-    armor-toughness: 0.8
+    armor: 4.725
+    max-health: 5.565
+    armor-toughness: 0.84
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -2538,10 +2539,10 @@ LEGGINGS_THO_DAO_1:
     lore:
       - "&7 Trang bị phòng thủ kiên cố của Thợ Đào"
       - "&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
-    armor: 5.5
-    max-health: 6.3
-    armor-toughness: 1.0
-    defense: 0.5
+    armor: 5.775
+    max-health: 6.615
+    armor-toughness: 1.05
+    defense: 0.525
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -2562,10 +2563,10 @@ LEGGINGS_THO_DAO_2:
     lore:
       - "&7 Trang bị phòng thủ kiên cố của Thợ Đào"
       - "&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
-    armor: 5.8
-    max-health: 6.8
-    armor-toughness: 1.1
-    defense: 0.6
+    armor: 6.09
+    max-health: 7.14
+    armor-toughness: 1.155
+    defense: 0.63
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -2586,10 +2587,10 @@ LEGGINGS_THO_DAO_3:
     lore:
       - "&7 Trang bị phòng thủ kiên cố của Thợ Đào"
       - "&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
-    armor: 6.1
-    max-health: 7.3
-    armor-toughness: 1.3
-    defense: 0.6
+    armor: 6.405
+    max-health: 7.665
+    armor-toughness: 1.365
+    defense: 0.63
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -2610,10 +2611,10 @@ LEGGINGS_THO_DAO_4:
     lore:
       - "&7 Trang bị phòng thủ kiên cố của Thợ Đào"
       - "&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
-    armor: 6.4
-    max-health: 7.8
-    armor-toughness: 1.4
-    defense: 0.7
+    armor: 6.72
+    max-health: 8.19
+    armor-toughness: 1.47
+    defense: 0.735
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -2634,10 +2635,10 @@ LEGGINGS_THO_DAO_5:
     lore:
       - "&7 Trang bị phòng thủ kiên cố của Thợ Đào"
       - "&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
-    armor: 6.8
-    max-health: 8.3
-    armor-toughness: 1.5
-    defense: 0.8
+    armor: 7.14
+    max-health: 8.715
+    armor-toughness: 1.575
+    defense: 0.84
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -2658,10 +2659,10 @@ LEGGINGS_DOI_TRUONG_1:
     lore:
       - "&7 Trang bị phòng thủ kiên cố của Đội Trưởng"
       - "&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
-    armor: 7.5
-    max-health: 10.0
-    armor-toughness: 1.8
-    defense: 1.8
+    armor: 7.875
+    max-health: 10.5
+    armor-toughness: 1.89
+    defense: 1.89
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -2682,10 +2683,10 @@ LEGGINGS_DOI_TRUONG_2:
     lore:
       - "&7 Trang bị phòng thủ kiên cố của Đội Trưởng"
       - "&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
-    armor: 7.5
-    max-health: 10.6
-    armor-toughness: 1.9
-    defense: 2.3
+    armor: 7.875
+    max-health: 11.13
+    armor-toughness: 1.995
+    defense: 2.415
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -2706,10 +2707,10 @@ LEGGINGS_DOI_TRUONG_3:
     lore:
       - "&7 Trang bị phòng thủ kiên cố của Đội Trưởng"
       - "&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
-    armor: 7.5
-    max-health: 11.3
-    armor-toughness: 2.0
-    defense: 2.8
+    armor: 7.875
+    max-health: 11.865
+    armor-toughness: 2.1
+    defense: 2.94
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -2730,10 +2731,10 @@ LEGGINGS_DOI_TRUONG_4:
     lore:
       - "&7 Trang bị phòng thủ kiên cố của Đội Trưởng"
       - "&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
-    armor: 7.5
-    max-health: 11.9
-    armor-toughness: 2.1
-    defense: 3.2
+    armor: 7.875
+    max-health: 12.495
+    armor-toughness: 2.205
+    defense: 3.36
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -2754,10 +2755,10 @@ LEGGINGS_DOI_TRUONG_5:
     lore:
       - "&7 Trang bị phòng thủ kiên cố của Đội Trưởng"
       - "&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
-    armor: 7.5
-    max-health: 12.5
-    armor-toughness: 2.3
-    defense: 3.8
+    armor: 7.875
+    max-health: 13.125
+    armor-toughness: 2.415
+    defense: 3.99
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -2778,10 +2779,10 @@ LEGGINGS_PHO_QUAN_NGUC_1:
     lore:
       - "&7 Trang bị phòng thủ kiên cố của Phó Quản Ngục"
       - "&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
-    armor: 7.5
-    max-health: 15.0
-    armor-toughness: 2.8
-    defense: 5.8
+    armor: 7.875
+    max-health: 15.75
+    armor-toughness: 2.94
+    defense: 6.09
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -2802,10 +2803,10 @@ LEGGINGS_PHO_QUAN_NGUC_2:
     lore:
       - "&7 Trang bị phòng thủ kiên cố của Phó Quản Ngục"
       - "&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
-    armor: 7.5
-    max-health: 15.8
-    armor-toughness: 2.9
-    defense: 6.3
+    armor: 7.875
+    max-health: 16.59
+    armor-toughness: 3.045
+    defense: 6.615
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -2826,10 +2827,10 @@ LEGGINGS_PHO_QUAN_NGUC_3:
     lore:
       - "&7 Trang bị phòng thủ kiên cố của Phó Quản Ngục"
       - "&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
-    armor: 7.5
-    max-health: 16.5
-    armor-toughness: 3.1
-    defense: 7.0
+    armor: 7.875
+    max-health: 17.325
+    armor-toughness: 3.255
+    defense: 7.35
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -2850,10 +2851,10 @@ LEGGINGS_PHO_QUAN_NGUC_4:
     lore:
       - "&7 Trang bị phòng thủ kiên cố của Phó Quản Ngục"
       - "&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
-    armor: 7.5
-    max-health: 17.3
-    armor-toughness: 3.3
-    defense: 7.6
+    armor: 7.875
+    max-health: 18.165
+    armor-toughness: 3.465
+    defense: 7.98
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -2874,10 +2875,10 @@ LEGGINGS_PHO_QUAN_NGUC_5:
     lore:
       - "&7 Trang bị phòng thủ kiên cố của Phó Quản Ngục"
       - "&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
-    armor: 7.5
-    max-health: 18.0
-    armor-toughness: 3.5
-    defense: 8.3
+    armor: 7.875
+    max-health: 18.9
+    armor-toughness: 3.675
+    defense: 8.715
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -2898,10 +2899,10 @@ LEGGINGS_QUAN_NGUC_1:
     lore:
       - "&7 Trang bị phòng thủ kiên cố của Quản Ngục"
       - "&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
-    armor: 7.5
-    max-health: 21.3
-    armor-toughness: 4.0
-    defense: 10.5
+    armor: 7.875
+    max-health: 22.365
+    armor-toughness: 4.2
+    defense: 11.025
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -2922,10 +2923,10 @@ LEGGINGS_QUAN_NGUC_2:
     lore:
       - "&7 Trang bị phòng thủ kiên cố của Quản Ngục"
       - "&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
-    armor: 7.5
-    max-health: 22.3
-    armor-toughness: 4.3
-    defense: 11.3
+    armor: 7.875
+    max-health: 23.415
+    armor-toughness: 4.515
+    defense: 11.865
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -2946,10 +2947,10 @@ LEGGINGS_QUAN_NGUC_3:
     lore:
       - "&7 Trang bị phòng thủ kiên cố của Quản Ngục"
       - "&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
-    armor: 7.5
-    max-health: 23.3
-    armor-toughness: 4.5
-    defense: 12.0
+    armor: 7.875
+    max-health: 24.465
+    armor-toughness: 4.725
+    defense: 12.6
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -2970,10 +2971,10 @@ LEGGINGS_QUAN_NGUC_4:
     lore:
       - "&7 Trang bị phòng thủ kiên cố của Quản Ngục"
       - "&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
-    armor: 7.5
-    max-health: 24.3
-    armor-toughness: 4.8
-    defense: 12.8
+    armor: 7.875
+    max-health: 25.515
+    armor-toughness: 5.04
+    defense: 13.44
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -2994,10 +2995,10 @@ LEGGINGS_QUAN_NGUC_5:
     lore:
       - "&7 Trang bị phòng thủ kiên cố của Quản Ngục"
       - "&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
-    armor: 7.5
-    max-health: 25.3
-    armor-toughness: 5.0
-    defense: 13.5
+    armor: 7.875
+    max-health: 26.565
+    armor-toughness: 5.25
+    defense: 14.175
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -3018,10 +3019,10 @@ LEGGINGS_BA_CHU_NGUC_TU_1:
     lore:
       - "&7 Trang bị phòng thủ kiên cố của Bá Chủ Ngục Tù"
       - "&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
-    armor: 7.5
-    max-health: 28.8
-    armor-toughness: 5.5
-    defense: 16.3
+    armor: 7.875
+    max-health: 30.24
+    armor-toughness: 5.775
+    defense: 17.115
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -3042,10 +3043,10 @@ LEGGINGS_BA_CHU_NGUC_TU_2:
     lore:
       - "&7 Trang bị phòng thủ kiên cố của Bá Chủ Ngục Tù"
       - "&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
-    armor: 7.5
-    max-health: 30.0
-    armor-toughness: 5.8
-    defense: 17.2
+    armor: 7.875
+    max-health: 31.5
+    armor-toughness: 6.09
+    defense: 18.06
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -3066,10 +3067,10 @@ LEGGINGS_BA_CHU_NGUC_TU_3:
     lore:
       - "&7 Trang bị phòng thủ kiên cố của Bá Chủ Ngục Tù"
       - "&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
-    armor: 7.5
-    max-health: 31.3
-    armor-toughness: 6.1
-    defense: 18.1
+    armor: 7.875
+    max-health: 32.865
+    armor-toughness: 6.405
+    defense: 19.005
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -3090,10 +3091,10 @@ LEGGINGS_BA_CHU_NGUC_TU_4:
     lore:
       - "&7 Trang bị phòng thủ kiên cố của Bá Chủ Ngục Tù"
       - "&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
-    armor: 7.5
-    max-health: 32.5
-    armor-toughness: 6.4
-    defense: 19.0
+    armor: 7.875
+    max-health: 34.125
+    armor-toughness: 6.72
+    defense: 19.95
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -3114,10 +3115,10 @@ LEGGINGS_BA_CHU_NGUC_TU_5:
     lore:
       - "&7 Trang bị phòng thủ kiên cố của Bá Chủ Ngục Tù"
       - "&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
-    armor: 7.5
-    max-health: 33.8
-    armor-toughness: 6.8
-    defense: 20.1
+    armor: 7.875
+    max-health: 35.49
+    armor-toughness: 7.14
+    defense: 21.105
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -3138,10 +3139,10 @@ LEGGINGS_VUOT_NGUC_1:
     lore:
       - "&7 Trang bị phòng thủ kiên cố của Vượt Ngục"
       - "&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
-    armor: 7.5
-    max-health: 37.5
-    armor-toughness: 7.5
-    defense: 23.3
+    armor: 7.875
+    max-health: 39.375
+    armor-toughness: 7.875
+    defense: 24.465
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -3162,10 +3163,10 @@ LEGGINGS_VUOT_NGUC_2:
     lore:
       - "&7 Trang bị phòng thủ kiên cố của Vượt Ngục"
       - "&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
-    armor: 7.5
-    max-health: 39.0
-    armor-toughness: 7.9
-    defense: 24.4
+    armor: 7.875
+    max-health: 40.95
+    armor-toughness: 8.295
+    defense: 25.62
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -3186,10 +3187,10 @@ LEGGINGS_VUOT_NGUC_3:
     lore:
       - "&7 Trang bị phòng thủ kiên cố của Vượt Ngục"
       - "&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
-    armor: 7.5
-    max-health: 40.5
-    armor-toughness: 8.3
-    defense: 25.6
+    armor: 7.875
+    max-health: 42.525
+    armor-toughness: 8.715
+    defense: 26.88
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -3210,10 +3211,10 @@ LEGGINGS_VUOT_NGUC_4:
     lore:
       - "&7 Trang bị phòng thủ kiên cố của Vượt Ngục"
       - "&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
-    armor: 7.5
-    max-health: 42.0
-    armor-toughness: 8.6
-    defense: 26.6
+    armor: 7.875
+    max-health: 44.1
+    armor-toughness: 9.03
+    defense: 27.93
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -3234,10 +3235,10 @@ LEGGINGS_VUOT_NGUC_5:
     lore:
       - "&7 Trang bị phòng thủ kiên cố của Vượt Ngục"
       - "&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
-    armor: 7.5
-    max-health: 43.5
-    armor-toughness: 9.0
-    defense: 27.8
+    armor: 7.875
+    max-health: 45.675
+    armor-toughness: 9.45
+    defense: 29.19
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -3258,8 +3259,8 @@ BOOTS_TAN_BINH_1:
     lore:
       - "&7Giày bảo hộ dành cho Tân Binh."
       - "&8Nâng cấp tại Lò Rèn Giáp Tân Binh."
-    armor: 0.8
-    max-health: 0.8
+    armor: 0.84
+    max-health: 0.84
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -3280,8 +3281,8 @@ BOOTS_TAN_BINH_2:
     lore:
       - "&7 Trang bị phòng thủ kiên cố của Tân Binh"
       - "&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
-    armor: 0.9
-    max-health: 0.9
+    armor: 0.945
+    max-health: 0.945
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -3302,8 +3303,8 @@ BOOTS_TAN_BINH_3:
     lore:
       - "&7 Trang bị phòng thủ kiên cố của Tân Binh"
       - "&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
-    armor: 1.0
-    max-health: 1.0
+    armor: 1.05
+    max-health: 1.05
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -3324,8 +3325,8 @@ BOOTS_TAN_BINH_4:
     lore:
       - "&7 Trang bị phòng thủ kiên cố của Tân Binh"
       - "&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
-    armor: 1.1
-    max-health: 1.1
+    armor: 1.155
+    max-health: 1.155
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -3346,8 +3347,8 @@ BOOTS_TAN_BINH_5:
     lore:
       - "&7 Trang bị phòng thủ kiên cố của Tân Binh"
       - "&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
-    armor: 1.2
-    max-health: 1.2
+    armor: 1.26
+    max-health: 1.26
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -3368,8 +3369,8 @@ BOOTS_TU_NHAN_1:
     lore:
       - "&7 Trang bị phòng thủ kiên cố của Tù Nhân"
       - "&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
-    armor: 1.6
-    max-health: 1.6
+    armor: 1.68
+    max-health: 1.68
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -3390,8 +3391,8 @@ BOOTS_TU_NHAN_2:
     lore:
       - "&7 Trang bị phòng thủ kiên cố của Tù Nhân"
       - "&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
-    armor: 1.8
-    max-health: 1.8
+    armor: 1.89
+    max-health: 1.89
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -3412,8 +3413,8 @@ BOOTS_TU_NHAN_3:
     lore:
       - "&7 Trang bị phòng thủ kiên cố của Tù Nhân"
       - "&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
-    armor: 1.9
-    max-health: 2.0
+    armor: 1.995
+    max-health: 2.1
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -3434,8 +3435,8 @@ BOOTS_TU_NHAN_4:
     lore:
       - "&7 Trang bị phòng thủ kiên cố của Tù Nhân"
       - "&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
-    armor: 2.1
-    max-health: 2.2
+    armor: 2.205
+    max-health: 2.31
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -3456,8 +3457,8 @@ BOOTS_TU_NHAN_5:
     lore:
       - "&7 Trang bị phòng thủ kiên cố của Tù Nhân"
       - "&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
-    armor: 2.2
-    max-health: 2.4
+    armor: 2.31
+    max-health: 2.52
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -3478,9 +3479,9 @@ BOOTS_LAO_CONG_1:
     lore:
       - "&7 Trang bị phòng thủ kiên cố của Lao Công"
       - "&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
-    armor: 2.8
-    max-health: 3.0
-    armor-toughness: 0.4
+    armor: 2.94
+    max-health: 3.15
+    armor-toughness: 0.42
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -3501,9 +3502,9 @@ BOOTS_LAO_CONG_2:
     lore:
       - "&7 Trang bị phòng thủ kiên cố của Lao Công"
       - "&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
-    armor: 3.0
-    max-health: 3.3
-    armor-toughness: 0.5
+    armor: 3.15
+    max-health: 3.465
+    armor-toughness: 0.525
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -3524,9 +3525,9 @@ BOOTS_LAO_CONG_3:
     lore:
       - "&7 Trang bị phòng thủ kiên cố của Lao Công"
       - "&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
-    armor: 3.2
-    max-health: 3.6
-    armor-toughness: 0.5
+    armor: 3.36
+    max-health: 3.78
+    armor-toughness: 0.525
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -3547,9 +3548,9 @@ BOOTS_LAO_CONG_4:
     lore:
       - "&7 Trang bị phòng thủ kiên cố của Lao Công"
       - "&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
-    armor: 3.4
-    max-health: 3.9
-    armor-toughness: 0.6
+    armor: 3.57
+    max-health: 4.095
+    armor-toughness: 0.63
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -3570,9 +3571,9 @@ BOOTS_LAO_CONG_5:
     lore:
       - "&7 Trang bị phòng thủ kiên cố của Lao Công"
       - "&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
-    armor: 3.6
-    max-health: 4.2
-    armor-toughness: 0.6
+    armor: 3.78
+    max-health: 4.41
+    armor-toughness: 0.63
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -3593,10 +3594,10 @@ BOOTS_THO_DAO_1:
     lore:
       - "&7 Trang bị phòng thủ kiên cố của Thợ Đào"
       - "&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
-    armor: 4.4
-    max-health: 5.0
-    armor-toughness: 0.8
-    defense: 0.4
+    armor: 4.62
+    max-health: 5.25
+    armor-toughness: 0.84
+    defense: 0.42
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -3617,10 +3618,10 @@ BOOTS_THO_DAO_2:
     lore:
       - "&7 Trang bị phòng thủ kiên cố của Thợ Đào"
       - "&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
-    armor: 4.7
-    max-health: 5.4
-    armor-toughness: 0.9
-    defense: 0.5
+    armor: 4.935
+    max-health: 5.67
+    armor-toughness: 0.945
+    defense: 0.525
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -3641,10 +3642,10 @@ BOOTS_THO_DAO_3:
     lore:
       - "&7 Trang bị phòng thủ kiên cố của Thợ Đào"
       - "&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
-    armor: 4.9
-    max-health: 5.8
-    armor-toughness: 1.0
-    defense: 0.5
+    armor: 5.145
+    max-health: 6.09
+    armor-toughness: 1.05
+    defense: 0.525
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -3665,10 +3666,10 @@ BOOTS_THO_DAO_4:
     lore:
       - "&7 Trang bị phòng thủ kiên cố của Thợ Đào"
       - "&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
-    armor: 5.2
-    max-health: 6.2
-    armor-toughness: 1.1
-    defense: 0.6
+    armor: 5.46
+    max-health: 6.51
+    armor-toughness: 1.155
+    defense: 0.63
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -3689,10 +3690,10 @@ BOOTS_THO_DAO_5:
     lore:
       - "&7 Trang bị phòng thủ kiên cố của Thợ Đào"
       - "&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
-    armor: 5.4
-    max-health: 6.6
-    armor-toughness: 1.2
-    defense: 0.6
+    armor: 5.67
+    max-health: 6.93
+    armor-toughness: 1.26
+    defense: 0.63
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -3713,11 +3714,11 @@ BOOTS_DOI_TRUONG_1:
     lore:
       - "&7 Trang bị phòng thủ kiên cố của Đội Trưởng"
       - "&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
-    armor: 6.0
-    max-health: 8.0
-    armor-toughness: 1.4
-    defense: 1.4
-    movement-speed: 0.010
+    armor: 6.3
+    max-health: 8.4
+    armor-toughness: 1.47
+    defense: 1.47
+    movement-speed: 0.011
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -3738,11 +3739,11 @@ BOOTS_DOI_TRUONG_2:
     lore:
       - "&7 Trang bị phòng thủ kiên cố của Đội Trưởng"
       - "&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
-    armor: 6.0
-    max-health: 8.5
-    armor-toughness: 1.5
-    defense: 1.8
-    movement-speed: 0.011
+    armor: 6.3
+    max-health: 8.925
+    armor-toughness: 1.575
+    defense: 1.89
+    movement-speed: 0.012
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -3763,11 +3764,11 @@ BOOTS_DOI_TRUONG_3:
     lore:
       - "&7 Trang bị phòng thủ kiên cố của Đội Trưởng"
       - "&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
-    armor: 6.0
-    max-health: 9.0
-    armor-toughness: 1.6
-    defense: 2.2
-    movement-speed: 0.012
+    armor: 6.3
+    max-health: 9.45
+    armor-toughness: 1.68
+    defense: 2.31
+    movement-speed: 0.013
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -3788,11 +3789,11 @@ BOOTS_DOI_TRUONG_4:
     lore:
       - "&7 Trang bị phòng thủ kiên cố của Đội Trưởng"
       - "&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
-    armor: 6.0
-    max-health: 9.5
-    armor-toughness: 1.7
-    defense: 2.6
-    movement-speed: 0.013
+    armor: 6.3
+    max-health: 9.975
+    armor-toughness: 1.785
+    defense: 2.73
+    movement-speed: 0.014
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -3813,11 +3814,11 @@ BOOTS_DOI_TRUONG_5:
     lore:
       - "&7 Trang bị phòng thủ kiên cố của Đội Trưởng"
       - "&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
-    armor: 6.0
-    max-health: 10.0
-    armor-toughness: 1.8
-    defense: 3.0
-    movement-speed: 0.014
+    armor: 6.3
+    max-health: 10.5
+    armor-toughness: 1.89
+    defense: 3.15
+    movement-speed: 0.015
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -3838,11 +3839,11 @@ BOOTS_PHO_QUAN_NGUC_1:
     lore:
       - "&7 Trang bị phòng thủ kiên cố của Phó Quản Ngục"
       - "&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
-    armor: 6.0
-    max-health: 12.0
-    armor-toughness: 2.2
-    defense: 4.6
-    movement-speed: 0.015
+    armor: 6.3
+    max-health: 12.6
+    armor-toughness: 2.31
+    defense: 4.83
+    movement-speed: 0.016
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -3863,11 +3864,11 @@ BOOTS_PHO_QUAN_NGUC_2:
     lore:
       - "&7 Trang bị phòng thủ kiên cố của Phó Quản Ngục"
       - "&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
-    armor: 6.0
-    max-health: 12.6
-    armor-toughness: 2.4
-    defense: 5.2
-    movement-speed: 0.016
+    armor: 6.3
+    max-health: 13.23
+    armor-toughness: 2.52
+    defense: 5.46
+    movement-speed: 0.017
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -3888,11 +3889,11 @@ BOOTS_PHO_QUAN_NGUC_3:
     lore:
       - "&7 Trang bị phòng thủ kiên cố của Phó Quản Ngục"
       - "&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
-    armor: 6.0
-    max-health: 13.2
-    armor-toughness: 2.5
-    defense: 5.6
-    movement-speed: 0.017
+    armor: 6.3
+    max-health: 13.86
+    armor-toughness: 2.625
+    defense: 5.88
+    movement-speed: 0.018
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -3913,11 +3914,11 @@ BOOTS_PHO_QUAN_NGUC_4:
     lore:
       - "&7 Trang bị phòng thủ kiên cố của Phó Quản Ngục"
       - "&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
-    armor: 6.0
-    max-health: 13.8
-    armor-toughness: 2.7
-    defense: 6.2
-    movement-speed: 0.018
+    armor: 6.3
+    max-health: 14.49
+    armor-toughness: 2.835
+    defense: 6.51
+    movement-speed: 0.019
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -3938,11 +3939,11 @@ BOOTS_PHO_QUAN_NGUC_5:
     lore:
       - "&7 Trang bị phòng thủ kiên cố của Phó Quản Ngục"
       - "&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
-    armor: 6.0
-    max-health: 14.4
-    armor-toughness: 2.8
-    defense: 6.6
-    movement-speed: 0.019
+    armor: 6.3
+    max-health: 15.12
+    armor-toughness: 2.94
+    defense: 6.93
+    movement-speed: 0.02
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -3963,11 +3964,11 @@ BOOTS_QUAN_NGUC_1:
     lore:
       - "&7 Trang bị phòng thủ kiên cố của Quản Ngục"
       - "&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
-    armor: 6.0
-    max-health: 17.0
-    armor-toughness: 3.2
-    defense: 8.4
-    movement-speed: 0.020
+    armor: 6.3
+    max-health: 17.85
+    armor-toughness: 3.36
+    defense: 8.82
+    movement-speed: 0.021
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -3988,11 +3989,11 @@ BOOTS_QUAN_NGUC_2:
     lore:
       - "&7 Trang bị phòng thủ kiên cố của Quản Ngục"
       - "&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
-    armor: 6.0
-    max-health: 17.8
-    armor-toughness: 3.4
-    defense: 9.0
-    movement-speed: 0.021
+    armor: 6.3
+    max-health: 18.69
+    armor-toughness: 3.57
+    defense: 9.45
+    movement-speed: 0.022
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -4013,11 +4014,11 @@ BOOTS_QUAN_NGUC_3:
     lore:
       - "&7 Trang bị phòng thủ kiên cố của Quản Ngục"
       - "&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
-    armor: 6.0
-    max-health: 18.6
-    armor-toughness: 3.6
-    defense: 9.6
-    movement-speed: 0.022
+    armor: 6.3
+    max-health: 19.53
+    armor-toughness: 3.78
+    defense: 10.08
+    movement-speed: 0.023
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -4038,11 +4039,11 @@ BOOTS_QUAN_NGUC_4:
     lore:
       - "&7 Trang bị phòng thủ kiên cố của Quản Ngục"
       - "&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
-    armor: 6.0
-    max-health: 19.4
-    armor-toughness: 3.8
-    defense: 10.2
-    movement-speed: 0.023
+    armor: 6.3
+    max-health: 20.37
+    armor-toughness: 3.99
+    defense: 10.71
+    movement-speed: 0.024
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -4063,11 +4064,11 @@ BOOTS_QUAN_NGUC_5:
     lore:
       - "&7 Trang bị phòng thủ kiên cố của Quản Ngục"
       - "&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
-    armor: 6.0
-    max-health: 20.2
-    armor-toughness: 4.0
-    defense: 10.8
-    movement-speed: 0.024
+    armor: 6.3
+    max-health: 21.21
+    armor-toughness: 4.2
+    defense: 11.34
+    movement-speed: 0.025
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -4088,11 +4089,11 @@ BOOTS_BA_CHU_NGUC_TU_1:
     lore:
       - "&7 Trang bị phòng thủ kiên cố của Bá Chủ Ngục Tù"
       - "&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
-    armor: 6.0
-    max-health: 23.0
-    armor-toughness: 4.4
-    defense: 13.0
-    movement-speed: 0.025
+    armor: 6.3
+    max-health: 24.15
+    armor-toughness: 4.62
+    defense: 13.65
+    movement-speed: 0.026
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -4113,11 +4114,11 @@ BOOTS_BA_CHU_NGUC_TU_2:
     lore:
       - "&7 Trang bị phòng thủ kiên cố của Bá Chủ Ngục Tù"
       - "&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
-    armor: 6.0
-    max-health: 24.0
-    armor-toughness: 4.7
-    defense: 13.8
-    movement-speed: 0.026
+    armor: 6.3
+    max-health: 25.2
+    armor-toughness: 4.935
+    defense: 14.49
+    movement-speed: 0.027
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -4138,11 +4139,11 @@ BOOTS_BA_CHU_NGUC_TU_3:
     lore:
       - "&7 Trang bị phòng thủ kiên cố của Bá Chủ Ngục Tù"
       - "&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
-    armor: 6.0
-    max-health: 25.0
-    armor-toughness: 4.9
-    defense: 14.5
-    movement-speed: 0.027
+    armor: 6.3
+    max-health: 26.25
+    armor-toughness: 5.145
+    defense: 15.225
+    movement-speed: 0.028
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -4163,11 +4164,11 @@ BOOTS_BA_CHU_NGUC_TU_4:
     lore:
       - "&7 Trang bị phòng thủ kiên cố của Bá Chủ Ngục Tù"
       - "&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
-    armor: 6.0
-    max-health: 26.0
-    armor-toughness: 5.2
-    defense: 15.3
-    movement-speed: 0.028
+    armor: 6.3
+    max-health: 27.3
+    armor-toughness: 5.46
+    defense: 16.065
+    movement-speed: 0.029
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -4188,11 +4189,11 @@ BOOTS_BA_CHU_NGUC_TU_5:
     lore:
       - "&7 Trang bị phòng thủ kiên cố của Bá Chủ Ngục Tù"
       - "&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
-    armor: 6.0
-    max-health: 27.0
-    armor-toughness: 5.4
-    defense: 16.0
-    movement-speed: 0.029
+    armor: 6.3
+    max-health: 28.35
+    armor-toughness: 5.67
+    defense: 16.8
+    movement-speed: 0.03
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -4213,11 +4214,11 @@ BOOTS_VUOT_NGUC_1:
     lore:
       - "&7 Trang bị phòng thủ kiên cố của Vượt Ngục"
       - "&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
-    armor: 6.0
-    max-health: 30.0
-    armor-toughness: 6.0
-    defense: 18.6
-    movement-speed: 0.030
+    armor: 6.3
+    max-health: 31.5
+    armor-toughness: 6.3
+    defense: 19.53
+    movement-speed: 0.032
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -4238,11 +4239,11 @@ BOOTS_VUOT_NGUC_2:
     lore:
       - "&7 Trang bị phòng thủ kiên cố của Vượt Ngục"
       - "&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
-    armor: 6.0
-    max-health: 31.2
-    armor-toughness: 6.3
-    defense: 19.5
-    movement-speed: 0.031
+    armor: 6.3
+    max-health: 32.76
+    armor-toughness: 6.615
+    defense: 20.475
+    movement-speed: 0.033
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -4263,11 +4264,11 @@ BOOTS_VUOT_NGUC_3:
     lore:
       - "&7 Trang bị phòng thủ kiên cố của Vượt Ngục"
       - "&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
-    armor: 6.0
-    max-health: 32.4
-    armor-toughness: 6.6
-    defense: 20.4
-    movement-speed: 0.032
+    armor: 6.3
+    max-health: 34.02
+    armor-toughness: 6.93
+    defense: 21.42
+    movement-speed: 0.034
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -4288,11 +4289,11 @@ BOOTS_VUOT_NGUC_4:
     lore:
       - "&7 Trang bị phòng thủ kiên cố của Vượt Ngục"
       - "&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
-    armor: 6.0
-    max-health: 33.6
-    armor-toughness: 6.9
-    defense: 21.3
-    movement-speed: 0.033
+    armor: 6.3
+    max-health: 35.28
+    armor-toughness: 7.245
+    defense: 22.365
+    movement-speed: 0.035
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -4313,11 +4314,11 @@ BOOTS_VUOT_NGUC_5:
     lore:
       - "&7 Trang bị phòng thủ kiên cố của Vượt Ngục"
       - "&7 Nâng cấp tại Lò Rèn để tăng chỉ số phòng thủ"
-    armor: 6.0
-    max-health: 34.8
-    armor-toughness: 7.2
-    defense: 22.2
-    movement-speed: 0.034
+    armor: 6.3
+    max-health: 36.54
+    armor-toughness: 7.56
+    defense: 23.31
+    movement-speed: 0.036
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -4350,10 +4351,10 @@ DONATE_HELMET_LONG_VE:
       - "&a&l✦ Long Tộc Thiên Giới"
       - "&7 Mũ giáp rèn từ Vảy Rồng Hộ Vệ"
       - "&7 Tỏa sáng bảo hộ, che chở người sở hữu"
-    armor: 6.0
-    max-health: 63.0
-    armor-toughness: 13.0
-    defense: 45.0
+    armor: 6.3
+    max-health: 66.15
+    armor-toughness: 13.65
+    defense: 47.25
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -4380,10 +4381,10 @@ DONATE_CHESTPLATE_LONG_VE:
       - "&a&l✦ Long Tộc Thiên Giới"
       - "&7 Chiến giáp rèn từ Vảy Rồng Hộ Vệ"
       - "&7 Tỏa sáng bảo hộ, che chở người sở hữu"
-    armor: 10.5
-    max-health: 110.3
-    armor-toughness: 22.8
-    defense: 78.8
+    armor: 11.025
+    max-health: 115.815
+    armor-toughness: 23.94
+    defense: 82.74
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -4410,10 +4411,10 @@ DONATE_LEGGINGS_LONG_VE:
       - "&a&l✦ Long Tộc Thiên Giới"
       - "&7 Hộ tất rèn từ Vảy Rồng Hộ Vệ"
       - "&7 Tỏa sáng bảo hộ, che chở người sở hữu"
-    armor: 7.5
-    max-health: 78.8
-    armor-toughness: 16.3
-    defense: 56.3
+    armor: 7.875
+    max-health: 82.74
+    armor-toughness: 17.115
+    defense: 59.115
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -4440,11 +4441,11 @@ DONATE_BOOTS_LONG_VE:
       - "&a&l✦ Long Tộc Thiên Giới"
       - "&7 Chiến hài rèn từ Vảy Rồng Hộ Vệ"
       - "&7 Tỏa sáng bảo hộ, che chở người sở hữu"
-    armor: 6.0
-    max-health: 63.0
-    armor-toughness: 13.0
-    defense: 45.0
-    movement-speed: 0.05
+    armor: 6.3
+    max-health: 66.15
+    armor-toughness: 13.65
+    defense: 47.25
+    movement-speed: 0.053
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -4473,10 +4474,10 @@ DONATE_HELMET_LONG_CHIEN:
       - "&e&l⚔ Long Tộc Thiên Giới"
       - "&7 Mũ giáp hun đúc từ Nanh Rồng Chiến"
       - "&7 Uy áp áp đảo, khiến kẻ thù khiếp sợ"
-    armor: 6.0
-    max-health: 72.4
-    armor-toughness: 15.4
-    defense: 54.2
+    armor: 6.3
+    max-health: 76.02
+    armor-toughness: 16.17
+    defense: 56.91
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -4503,10 +4504,10 @@ DONATE_CHESTPLATE_LONG_CHIEN:
       - "&e&l⚔ Long Tộc Thiên Giới"
       - "&7 Chiến giáp hun đúc từ Nanh Rồng Chiến"
       - "&7 Vững chắc như núi đá, không thể lung lay"
-    armor: 10.5
-    max-health: 126.7
-    armor-toughness: 26.9
-    defense: 94.9
+    armor: 11.025
+    max-health: 133.035
+    armor-toughness: 28.245
+    defense: 99.645
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -4533,10 +4534,10 @@ DONATE_LEGGINGS_LONG_CHIEN:
       - "&e&l⚔ Long Tộc Thiên Giới"
       - "&7 Hộ tất hun đúc từ Nanh Rồng Chiến"
       - "&7 Bảo vệ toàn diện, gia tăng sức chịu đựng"
-    armor: 7.5
-    max-health: 90.5
-    armor-toughness: 19.3
-    defense: 67.8
+    armor: 7.875
+    max-health: 95.025
+    armor-toughness: 20.265
+    defense: 71.19
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -4563,11 +4564,11 @@ DONATE_BOOTS_LONG_CHIEN:
       - "&e&l⚔ Long Tộc Thiên Giới"
       - "&7 Chiến hài hun đúc từ Nanh Rồng Chiến"
       - "&7 Bước đi vững chãi trên chiến trường"
-    armor: 6.0
-    max-health: 72.4
-    armor-toughness: 15.4
-    defense: 54.2
-    movement-speed: 0.055
+    armor: 6.3
+    max-health: 76.02
+    armor-toughness: 16.17
+    defense: 56.91
+    movement-speed: 0.058
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -4596,10 +4597,10 @@ DONATE_HELMET_LONG_THAN:
       - "&b&l✦ Long Tộc Thiên Giới"
       - "&7 Mũ giáp ngưng tụ từ Tinh Hoa Long Thần"
       - "&7 Ánh sáng thần thánh bảo vệ linh hồn"
-    armor: 6.0
-    max-health: 83.2
-    armor-toughness: 18.1
-    defense: 64.6
+    armor: 6.3
+    max-health: 87.36
+    armor-toughness: 19.005
+    defense: 67.83
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -4626,10 +4627,10 @@ DONATE_CHESTPLATE_LONG_THAN:
       - "&b&l✦ Long Tộc Thiên Giới"
       - "&7 Thánh giáp ngưng tụ từ Tinh Hoa Long Thần"
       - "&7 Hấp thụ sát thương, chuyển hóa thành lá chắn"
-    armor: 10.5
-    max-health: 145.7
-    armor-toughness: 31.7
-    defense: 113.0
+    armor: 11.025
+    max-health: 152.985
+    armor-toughness: 33.285
+    defense: 118.65
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -4656,10 +4657,10 @@ DONATE_LEGGINGS_LONG_THAN:
       - "&b&l✦ Long Tộc Thiên Giới"
       - "&7 Hộ tất ngưng tụ từ Tinh Hoa Long Thần"
       - "&7 Thần lực bao bọc, di chuyển linh hoạt"
-    armor: 7.5
-    max-health: 104.1
-    armor-toughness: 22.6
-    defense: 80.8
+    armor: 7.875
+    max-health: 109.305
+    armor-toughness: 23.73
+    defense: 84.84
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -4686,11 +4687,11 @@ DONATE_BOOTS_LONG_THAN:
       - "&b&l✦ Long Tộc Thiên Giới"
       - "&7 Chiến hài ngưng tụ từ Tinh Hoa Long Thần"
       - "&7 Bước đi trên mây, không gì cản bước"
-    armor: 6.0
-    max-health: 83.2
-    armor-toughness: 18.1
-    defense: 64.6
-    movement-speed: 0.06
+    armor: 6.3
+    max-health: 87.36
+    armor-toughness: 19.005
+    defense: 67.83
+    movement-speed: 0.063
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -4719,10 +4720,10 @@ DONATE_HELMET_LONG_DE:
       - "&4&l◆ Long Tộc Thiên Giới"
       - "&7 Mũ giáp tôi luyện trong Hỏa Ngục Rồng Đế"
       - "&7 Uy phong lẫm liệt, bộc phá sức mạnh tối thượng"
-    armor: 6.0
-    max-health: 95.7
-    armor-toughness: 21.2
-    defense: 76.6
+    armor: 6.3
+    max-health: 100.485
+    armor-toughness: 22.26
+    defense: 80.43
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -4749,10 +4750,10 @@ DONATE_CHESTPLATE_LONG_DE:
       - "&4&l◆ Long Tộc Thiên Giới"
       - "&7 Diệt giáp tôi luyện trong Hỏa Ngục Rồng Đế"
       - "&7 Hủy diệt mọi đòn tấn công của kẻ thù"
-    armor: 10.5
-    max-health: 167.5
-    armor-toughness: 37.1
-    defense: 134.1
+    armor: 11.025
+    max-health: 175.875
+    armor-toughness: 38.955
+    defense: 140.805
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -4779,10 +4780,10 @@ DONATE_LEGGINGS_LONG_DE:
       - "&4&l◆ Long Tộc Thiên Giới"
       - "&7 Hộ tất tôi luyện trong Hỏa Ngục Rồng Đế"
       - "&7 Áp chế ngục hỏa, phòng ngự bất kiên"
-    armor: 7.5
-    max-health: 119.6
-    armor-toughness: 26.5
-    defense: 95.8
+    armor: 7.875
+    max-health: 125.58
+    armor-toughness: 27.825
+    defense: 100.59
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -4809,11 +4810,11 @@ DONATE_BOOTS_LONG_DE:
       - "&4&l◆ Long Tộc Thiên Giới"
       - "&7 Chiến hài tôi luyện trong Hỏa Ngục Rồng Đế"
       - "&7 Mỗi bước đi giẫm nát hoang tàn"
-    armor: 6.0
-    max-health: 95.7
-    armor-toughness: 21.2
-    defense: 76.6
-    movement-speed: 0.065
+    armor: 6.3
+    max-health: 100.485
+    armor-toughness: 22.26
+    defense: 80.43
+    movement-speed: 0.068
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -4842,10 +4843,10 @@ DONATE_HELMET_LONG_HOANG:
       - "&c&l★ Huyền Thoại Long Tộc"
       - "&7 Mũ giáp tối thượng rèn từ Vảy Rồng Hoàng Kim"
       - "&7 Tỏa hào quang hoàng gia, vạn vật tôn sùng"
-    armor: 6.0
-    max-health: 110.0
-    armor-toughness: 24.8
-    defense: 90.5
+    armor: 6.3
+    max-health: 115.5
+    armor-toughness: 26.04
+    defense: 95.025
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -4872,10 +4873,10 @@ DONATE_CHESTPLATE_LONG_HOANG:
       - "&c&l★ Huyền Thoại Long Tộc"
       - "&7 Thiên giáp tối thượng rèn từ Vảy Rồng Hoàng Kim"
       - "&7 Bất tử bất diệt, phòng thủ vô song"
-    armor: 10.5
-    max-health: 192.5
-    armor-toughness: 43.4
-    defense: 158.4
+    armor: 11.025
+    max-health: 202.125
+    armor-toughness: 45.57
+    defense: 166.32
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -4902,10 +4903,10 @@ DONATE_LEGGINGS_LONG_HOANG:
       - "&c&l★ Huyền Thoại Long Tộc"
       - "&7 Hộ tất tối thượng rèn từ Vảy Rồng Hoàng Kim"
       - "&7 Kiên cố tuyệt đối, không công phá được"
-    armor: 7.5
-    max-health: 137.5
-    armor-toughness: 31.0
-    defense: 113.1
+    armor: 7.875
+    max-health: 144.375
+    armor-toughness: 32.55
+    defense: 118.755
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -4932,11 +4933,11 @@ DONATE_BOOTS_LONG_HOANG:
       - "&c&l★ Huyền Thoại Long Tộc"
       - "&7 Chiến hài tối thượng rèn từ Vảy Rồng Hoàng Kim"
       - "&7 Lướt trên hư không, xé tan không gian"
-    armor: 6.0
-    max-health: 110.0
-    armor-toughness: 24.8
-    defense: 90.5
-    movement-speed: 0.07
+    armor: 6.3
+    max-health: 115.5
+    armor-toughness: 26.04
+    defense: 95.025
+    movement-speed: 0.074
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -4969,10 +4970,10 @@ TRADE_HELMET_HOA_LONG:
       - "&6✦ Long Tộc Trần Thế"
       - "&7 Giáp miện rèn từ ngọn lửa Hỏa Long"
       - "&7 Bảo vệ đầu, tăng cường khả năng chịu đựng"
-    armor: 6.0
-    max-health: 40.0
-    armor-toughness: 8.4
-    defense: 27.0
+    armor: 6.3
+    max-health: 42
+    armor-toughness: 8.82
+    defense: 28.35
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -4999,10 +5000,10 @@ TRADE_CHESTPLATE_HOA_LONG:
       - "&6✦ Long Tộc Trần Thế"
       - "&7 Chiến giáp rèn từ ngọn lửa Hỏa Long"
       - "&7 Lửa cháy bảo hộ, kẻ thù không dám đến gần"
-    armor: 10.5
-    max-health: 70.0
-    armor-toughness: 14.7
-    defense: 47.3
+    armor: 11.025
+    max-health: 73.5
+    armor-toughness: 15.435
+    defense: 49.665
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -5029,10 +5030,10 @@ TRADE_LEGGINGS_HOA_LONG:
       - "&6✦ Long Tộc Trần Thế"
       - "&7 Hộ tất rèn từ ngọn lửa Hỏa Long"
       - "&7 Bảo vệ đôi chân trong lửa chiến"
-    armor: 7.5
-    max-health: 50.0
-    armor-toughness: 10.5
-    defense: 33.8
+    armor: 7.875
+    max-health: 52.5
+    armor-toughness: 11.025
+    defense: 35.49
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -5059,11 +5060,11 @@ TRADE_BOOTS_HOA_LONG:
       - "&6✦ Long Tộc Trần Thế"
       - "&7 Hỏa hài rèn từ ngọn lửa Hỏa Long"
       - "&7 Bước đi để lại vệt lửa trên mặt đất"
-    armor: 6.0
-    max-health: 40.0
-    armor-toughness: 8.4
-    defense: 27.0
-    movement-speed: 0.038
+    armor: 6.3
+    max-health: 42
+    armor-toughness: 8.82
+    defense: 28.35
+    movement-speed: 0.04
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -5092,10 +5093,10 @@ TRADE_HELMET_BANG_LONG:
       - "&3&l✦ Long Tộc Trần Thế"
       - "&7 Giáp miện kết tinh từ Hơi Thở Băng Long"
       - "&7 Giá lạnh vĩnh cửu bảo hộ người đội"
-    armor: 6.0
-    max-health: 46.4
-    armor-toughness: 9.8
-    defense: 32.2
+    armor: 6.3
+    max-health: 48.72
+    armor-toughness: 10.29
+    defense: 33.81
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -5122,10 +5123,10 @@ TRADE_CHESTPLATE_BANG_LONG:
       - "&3&l✦ Long Tộc Trần Thế"
       - "&7 Hàn giáp kết tinh từ Hơi Thở Băng Long"
       - "&7 Đóng băng mọi sát thương đến gần"
-    armor: 10.5
-    max-health: 81.2
-    armor-toughness: 17.2
-    defense: 56.4
+    armor: 11.025
+    max-health: 85.26
+    armor-toughness: 18.06
+    defense: 59.22
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -5152,10 +5153,10 @@ TRADE_LEGGINGS_BANG_LONG:
       - "&3&l✦ Long Tộc Trần Thế"
       - "&7 Hộ tất kết tinh từ Hơi Thở Băng Long"
       - "&7 Băng giá bảo vệ, không gì xuyên thấu"
-    armor: 7.5
-    max-health: 58.0
-    armor-toughness: 12.2
-    defense: 40.3
+    armor: 7.875
+    max-health: 60.9
+    armor-toughness: 12.81
+    defense: 42.315
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -5182,11 +5183,11 @@ TRADE_BOOTS_BANG_LONG:
       - "&3&l✦ Long Tộc Trần Thế"
       - "&7 Hàn hài kết tinh từ Hơi Thở Băng Long"
       - "&7 Bước đi để lại sương giá, đóng băng mặt đất"
-    armor: 6.0
-    max-health: 46.4
-    armor-toughness: 9.8
-    defense: 32.2
-    movement-speed: 0.042
+    armor: 6.3
+    max-health: 48.72
+    armor-toughness: 10.29
+    defense: 33.81
+    movement-speed: 0.044
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -5215,10 +5216,10 @@ TRADE_HELMET_LOI_LONG:
       - "&e&l⚡ Long Tộc Trần Thế"
       - "&7 Giáp miện chứa đựng Sấm Sét Lôi Long"
       - "&7 Sấm sét bảo hộ, phản đòn kẻ tấn công"
-    armor: 6.0
-    max-health: 72.4
-    armor-toughness: 15.4
-    defense: 54.2
+    armor: 6.3
+    max-health: 76.02
+    armor-toughness: 16.17
+    defense: 56.91
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -5245,10 +5246,10 @@ TRADE_CHESTPLATE_LOI_LONG:
       - "&e&l⚡ Long Tộc Trần Thế"
       - "&7 Chấn giáp chứa đựng Sấm Sét Lôi Long"
       - "&7 Mỗi đòn đánh vào sẽ bị phản lại bởi sấm sét"
-    armor: 10.5
-    max-health: 126.7
-    armor-toughness: 26.9
-    defense: 94.9
+    armor: 11.025
+    max-health: 133.035
+    armor-toughness: 28.245
+    defense: 99.645
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -5275,10 +5276,10 @@ TRADE_LEGGINGS_LOI_LONG:
       - "&e&l⚡ Long Tộc Trần Thế"
       - "&7 Hộ tất chứa đựng Sấm Sét Lôi Long"
       - "&7 Điện quang bao bọc, bảo vệ toàn diện"
-    armor: 7.5
-    max-health: 90.5
-    armor-toughness: 19.3
-    defense: 67.8
+    armor: 7.875
+    max-health: 95.025
+    armor-toughness: 20.265
+    defense: 71.19
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -5305,11 +5306,11 @@ TRADE_BOOTS_LOI_LONG:
       - "&e&l⚡ Long Tộc Trần Thế"
       - "&7 Chấn hài chứa đựng Sấm Sét Lôi Long"
       - "&7 Mỗi bước chân phát ra tia sét"
-    armor: 6.0
-    max-health: 72.4
-    armor-toughness: 15.4
-    defense: 54.2
-    movement-speed: 0.055
+    armor: 6.3
+    max-health: 76.02
+    armor-toughness: 16.17
+    defense: 56.91
+    movement-speed: 0.058
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -5338,10 +5339,10 @@ TRADE_HELMET_PHONG_LONG:
       - "&2&l✦ Long Tộc Trần Thế"
       - "&7 Giáp miện cuốn theo Cuồng Phong Phong Long"
       - "&7 Gió cuốn bảo hộ, né tránh mọi đòn đánh"
-    armor: 6.0
-    max-health: 62.4
-    armor-toughness: 13.2
-    defense: 45.6
+    armor: 6.3
+    max-health: 65.52
+    armor-toughness: 13.86
+    defense: 47.88
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -5368,10 +5369,10 @@ TRADE_CHESTPLATE_PHONG_LONG:
       - "&2&l✦ Long Tộc Trần Thế"
       - "&7 Liệt giáp cuốn theo Cuồng Phong Phong Long"
       - "&7 Bão tố bao bọc, phòng ngự tuyệt hảo"
-    armor: 10.5
-    max-health: 109.2
-    armor-toughness: 23.1
-    defense: 79.9
+    armor: 11.025
+    max-health: 114.66
+    armor-toughness: 24.255
+    defense: 83.895
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -5398,10 +5399,10 @@ TRADE_LEGGINGS_PHONG_LONG:
       - "&2&l✦ Long Tộc Trần Thế"
       - "&7 Hộ tất cuốn theo Cuồng Phong Phong Long"
       - "&7 Gió cuốn bảo vệ, linh hoạt phi thường"
-    armor: 7.5
-    max-health: 78.0
-    armor-toughness: 16.5
-    defense: 57.1
+    armor: 7.875
+    max-health: 81.9
+    armor-toughness: 17.325
+    defense: 59.955
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -5428,11 +5429,11 @@ TRADE_BOOTS_PHONG_LONG:
       - "&2&l✦ Long Tộc Trần Thế"
       - "&7 Phong hài cuốn theo Cuồng Phong Phong Long"
       - "&7 Nhanh như gió cuốn, nhẹ như lông hồng"
-    armor: 6.0
-    max-health: 62.4
-    armor-toughness: 13.2
-    defense: 45.6
-    movement-speed: 0.050
+    armor: 6.3
+    max-health: 65.52
+    armor-toughness: 13.86
+    defense: 47.88
+    movement-speed: 0.053
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -5461,10 +5462,10 @@ TRADE_HELMET_HAC_LONG:
       - "&5&l◆ Di Vật Hắc Long"
       - "&7 Ma miện hun đúc từ linh hồn Hắc Long"
       - "&7 Nguyền rủa kẻ tấn công, hấp thụ sức mạnh"
-    armor: 6.0
-    max-health: 53.8
-    armor-toughness: 11.4
-    defense: 38.4
+    armor: 6.3
+    max-health: 56.49
+    armor-toughness: 11.97
+    defense: 40.32
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -5491,10 +5492,10 @@ TRADE_CHESTPLATE_HAC_LONG:
       - "&5&l◆ Di Vật Hắc Long"
       - "&7 Ma giáp hun đúc từ linh hồn Hắc Long"
       - "&7 Bóng tối bao trùm, hấp thụ mọi sát thương"
-    armor: 10.5
-    max-health: 94.2
-    armor-toughness: 19.9
-    defense: 67.2
+    armor: 11.025
+    max-health: 98.91
+    armor-toughness: 20.895
+    defense: 70.56
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -5521,10 +5522,10 @@ TRADE_LEGGINGS_HAC_LONG:
       - "&5&l◆ Di Vật Hắc Long"
       - "&7 Ma tất hun đúc từ linh hồn Hắc Long"
       - "&7 Bóng tối bảo vệ, không gì xuyên thấu"
-    armor: 7.5
-    max-health: 67.3
-    armor-toughness: 14.3
-    defense: 48.0
+    armor: 7.875
+    max-health: 70.665
+    armor-toughness: 15.015
+    defense: 50.4
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template
@@ -5551,11 +5552,11 @@ TRADE_BOOTS_HAC_LONG:
       - "&5&l◆ Di Vật Hắc Long"
       - "&7 Ma hài hun đúc từ linh hồn Hắc Long"
       - "&7 Bước đi trong bóng tối, vô hình trước kẻ thù"
-    armor: 6.0
-    max-health: 53.8
-    armor-toughness: 11.4
-    defense: 38.4
-    movement-speed: 0.046
+    armor: 6.3
+    max-health: 56.49
+    armor-toughness: 11.97
+    defense: 40.32
+    movement-speed: 0.048
     upgrade:
       reference: armor-upgrade-template
       template: armor-upgrade-template

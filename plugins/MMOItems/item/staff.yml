@@ -1,3 +1,4 @@
+# base-combat-stats-multiplier: 1.05
 STAFF_TAN_BINH_1:
   base:
     custom-maxsockets: 1.0
@@ -11,8 +12,8 @@ STAFF_TAN_BINH_1:
     lore:
       - "&7Trượng phép nhập môn sử dụng năng lượng mana."
       - "&8Nâng cấp tại Lò Rèn Vũ Khí Tân Binh."
-    attack-damage: 2.5
-    magic-damage: 5.0
+    attack-damage: 2.625
+    magic-damage: 5.25
     mana-cost: 3
     staff-spirit: MANA_SPIRIT
     ability:
@@ -41,8 +42,8 @@ STAFF_TAN_BINH_2:
     lore:
       - "&7 Trượng phép chứa quyền năng ma thuật ngục tù"
       - "&7 Nâng cấp tại Lò Rèn để tăng sát thương & mở kỹ năng mới"
-    attack-damage: 2.9
-    magic-damage: 7.0
+    attack-damage: 3.045
+    magic-damage: 7.35
     mana-cost: 3
     staff-spirit: MANA_SPIRIT
     ability:
@@ -71,8 +72,8 @@ STAFF_TAN_BINH_3:
     lore:
       - "&7 Trượng phép chứa quyền năng ma thuật ngục tù"
       - "&7 Nâng cấp tại Lò Rèn để tăng sát thương & mở kỹ năng mới"
-    attack-damage: 3.3
-    magic-damage: 9.0
+    attack-damage: 3.465
+    magic-damage: 9.45
     mana-cost: 3
     staff-spirit: MANA_SPIRIT
     ability:
@@ -101,8 +102,8 @@ STAFF_TAN_BINH_4:
     lore:
       - "&7 Trượng phép chứa quyền năng ma thuật ngục tù"
       - "&7 Nâng cấp tại Lò Rèn để tăng sát thương & mở kỹ năng mới"
-    attack-damage: 3.6
-    magic-damage: 11.0
+    attack-damage: 3.78
+    magic-damage: 11.55
     mana-cost: 3
     staff-spirit: MANA_SPIRIT
     ability:
@@ -131,8 +132,8 @@ STAFF_TAN_BINH_5:
     lore:
       - "&7 Trượng phép chứa quyền năng ma thuật ngục tù"
       - "&7 Nâng cấp tại Lò Rèn để tăng sát thương & mở kỹ năng mới"
-    attack-damage: 4.0
-    magic-damage: 13.0
+    attack-damage: 4.2
+    magic-damage: 13.65
     mana-cost: 3
     staff-spirit: MANA_SPIRIT
     ability:
@@ -161,8 +162,8 @@ STAFF_TU_NHAN_1:
     lore:
       - "&7 Trượng phép chứa quyền năng ma thuật ngục tù"
       - "&7 Nâng cấp tại Lò Rèn để tăng sát thương & mở kỹ năng mới"
-    attack-damage: 4.5
-    magic-damage: 10.0
+    attack-damage: 4.725
+    magic-damage: 10.5
     mana-cost: 4
     staff-spirit: MANA_SPIRIT
     ability:
@@ -191,8 +192,8 @@ STAFF_TU_NHAN_2:
     lore:
       - "&7 Trượng phép chứa quyền năng ma thuật ngục tù"
       - "&7 Nâng cấp tại Lò Rèn để tăng sát thương & mở kỹ năng mới"
-    attack-damage: 5.0
-    magic-damage: 12.0
+    attack-damage: 5.25
+    magic-damage: 12.6
     mana-cost: 4
     staff-spirit: MANA_SPIRIT
     ability:
@@ -221,8 +222,8 @@ STAFF_TU_NHAN_3:
     lore:
       - "&7 Trượng phép chứa quyền năng ma thuật ngục tù"
       - "&7 Nâng cấp tại Lò Rèn để tăng sát thương & mở kỹ năng mới"
-    attack-damage: 5.5
-    magic-damage: 14.0
+    attack-damage: 5.775
+    magic-damage: 14.7
     mana-cost: 4
     staff-spirit: MANA_SPIRIT
     ability:
@@ -251,8 +252,8 @@ STAFF_TU_NHAN_4:
     lore:
       - "&7 Trượng phép chứa quyền năng ma thuật ngục tù"
       - "&7 Nâng cấp tại Lò Rèn để tăng sát thương & mở kỹ năng mới"
-    attack-damage: 6.0
-    magic-damage: 16.0
+    attack-damage: 6.3
+    magic-damage: 16.8
     mana-cost: 4
     staff-spirit: MANA_SPIRIT
     ability:
@@ -281,8 +282,8 @@ STAFF_TU_NHAN_5:
     lore:
       - "&7 Trượng phép chứa quyền năng ma thuật ngục tù"
       - "&7 Nâng cấp tại Lò Rèn để tăng sát thương & mở kỹ năng mới"
-    attack-damage: 6.5
-    magic-damage: 18.0
+    attack-damage: 6.825
+    magic-damage: 18.9
     mana-cost: 4
     staff-spirit: MANA_SPIRIT
     ability:
@@ -312,8 +313,8 @@ STAFF_LAO_CONG_1:
     lore:
       - "&7 Trượng phép chứa quyền năng ma thuật ngục tù"
       - "&7 Nâng cấp tại Lò Rèn để tăng sát thương & mở kỹ năng mới"
-    attack-damage: 7.0
-    magic-damage: 18.0
+    attack-damage: 7.35
+    magic-damage: 18.9
     mana-cost: 5
     staff-spirit: NETHER_SPIRIT
     ability:
@@ -348,8 +349,8 @@ STAFF_LAO_CONG_2:
     lore:
       - "&7 Trượng phép chứa quyền năng ma thuật ngục tù"
       - "&7 Nâng cấp tại Lò Rèn để tăng sát thương & mở kỹ năng mới"
-    attack-damage: 7.6
-    magic-damage: 20.0
+    attack-damage: 7.98
+    magic-damage: 21
     mana-cost: 5
     staff-spirit: NETHER_SPIRIT
     ability:
@@ -384,8 +385,8 @@ STAFF_LAO_CONG_3:
     lore:
       - "&7 Trượng phép chứa quyền năng ma thuật ngục tù"
       - "&7 Nâng cấp tại Lò Rèn để tăng sát thương & mở kỹ năng mới"
-    attack-damage: 8.3
-    magic-damage: 22.0
+    attack-damage: 8.715
+    magic-damage: 23.1
     mana-cost: 5
     staff-spirit: NETHER_SPIRIT
     ability:
@@ -420,8 +421,8 @@ STAFF_LAO_CONG_4:
     lore:
       - "&7 Trượng phép chứa quyền năng ma thuật ngục tù"
       - "&7 Nâng cấp tại Lò Rèn để tăng sát thương & mở kỹ năng mới"
-    attack-damage: 8.9
-    magic-damage: 24.0
+    attack-damage: 9.345
+    magic-damage: 25.2
     mana-cost: 5
     staff-spirit: NETHER_SPIRIT
     ability:
@@ -456,8 +457,8 @@ STAFF_LAO_CONG_5:
     lore:
       - "&7 Trượng phép chứa quyền năng ma thuật ngục tù"
       - "&7 Nâng cấp tại Lò Rèn để tăng sát thương & mở kỹ năng mới"
-    attack-damage: 9.5
-    magic-damage: 26.0
+    attack-damage: 9.975
+    magic-damage: 27.3
     mana-cost: 5
     staff-spirit: NETHER_SPIRIT
     ability:
@@ -492,8 +493,8 @@ STAFF_THO_DAO_1:
     lore:
       - "&7 Trượng phép chứa quyền năng ma thuật ngục tù"
       - "&7 Nâng cấp tại Lò Rèn để tăng sát thương & mở kỹ năng mới"
-    attack-damage: 10.0
-    magic-damage: 28.0
+    attack-damage: 10.5
+    magic-damage: 29.4
     mana-cost: 6
     staff-spirit: NETHER_SPIRIT
     ability:
@@ -528,8 +529,8 @@ STAFF_THO_DAO_2:
     lore:
       - "&7 Trượng phép chứa quyền năng ma thuật ngục tù"
       - "&7 Nâng cấp tại Lò Rèn để tăng sát thương & mở kỹ năng mới"
-    attack-damage: 10.8
-    magic-damage: 30.0
+    attack-damage: 11.34
+    magic-damage: 31.5
     mana-cost: 6
     staff-spirit: NETHER_SPIRIT
     ability:
@@ -564,8 +565,8 @@ STAFF_THO_DAO_3:
     lore:
       - "&7 Trượng phép chứa quyền năng ma thuật ngục tù"
       - "&7 Nâng cấp tại Lò Rèn để tăng sát thương & mở kỹ năng mới"
-    attack-damage: 11.5
-    magic-damage: 32.0
+    attack-damage: 12.075
+    magic-damage: 33.6
     mana-cost: 6
     staff-spirit: NETHER_SPIRIT
     ability:
@@ -600,8 +601,8 @@ STAFF_THO_DAO_4:
     lore:
       - "&7 Trượng phép chứa quyền năng ma thuật ngục tù"
       - "&7 Nâng cấp tại Lò Rèn để tăng sát thương & mở kỹ năng mới"
-    attack-damage: 12.3
-    magic-damage: 34.0
+    attack-damage: 12.915
+    magic-damage: 35.7
     mana-cost: 6
     staff-spirit: NETHER_SPIRIT
     ability:
@@ -636,8 +637,8 @@ STAFF_THO_DAO_5:
     lore:
       - "&7 Trượng phép chứa quyền năng ma thuật ngục tù"
       - "&7 Nâng cấp tại Lò Rèn để tăng sát thương & mở kỹ năng mới"
-    attack-damage: 13.0
-    magic-damage: 36.0
+    attack-damage: 13.65
+    magic-damage: 37.8
     mana-cost: 6
     staff-spirit: NETHER_SPIRIT
     ability:
@@ -672,11 +673,11 @@ STAFF_DOI_TRUONG_1:
     lore:
       - "&7 Trượng phép chứa quyền năng ma thuật ngục tù"
       - "&7 Nâng cấp tại Lò Rèn để tăng sát thương & mở kỹ năng mới"
-    attack-damage: 13.5
-    magic-damage: 40.0
+    attack-damage: 14.175
+    magic-damage: 42
     mana-cost: 8
     staff-spirit: LIGHTNING_SPIRIT
-    spell-vampirism: 1.5
+    spell-vampirism: 1.575
     ability:
       ability-1:
         type: CURSED_BEAM
@@ -709,11 +710,11 @@ STAFF_DOI_TRUONG_2:
     lore:
       - "&7 Trượng phép chứa quyền năng ma thuật ngục tù"
       - "&7 Nâng cấp tại Lò Rèn để tăng sát thương & mở kỹ năng mới"
-    attack-damage: 14.5
-    magic-damage: 42.0
+    attack-damage: 15.225
+    magic-damage: 44.1
     mana-cost: 8
     staff-spirit: LIGHTNING_SPIRIT
-    spell-vampirism: 1.8
+    spell-vampirism: 1.89
     ability:
       ability-1:
         type: CURSED_BEAM
@@ -746,11 +747,11 @@ STAFF_DOI_TRUONG_3:
     lore:
       - "&7 Trượng phép chứa quyền năng ma thuật ngục tù"
       - "&7 Nâng cấp tại Lò Rèn để tăng sát thương & mở kỹ năng mới"
-    attack-damage: 15.5
-    magic-damage: 44.0
+    attack-damage: 16.275
+    magic-damage: 46.2
     mana-cost: 8
     staff-spirit: LIGHTNING_SPIRIT
-    spell-vampirism: 2.1
+    spell-vampirism: 2.205
     ability:
       ability-1:
         type: CURSED_BEAM
@@ -783,11 +784,11 @@ STAFF_DOI_TRUONG_4:
     lore:
       - "&7 Trượng phép chứa quyền năng ma thuật ngục tù"
       - "&7 Nâng cấp tại Lò Rèn để tăng sát thương & mở kỹ năng mới"
-    attack-damage: 16.5
-    magic-damage: 46.0
+    attack-damage: 17.325
+    magic-damage: 48.3
     mana-cost: 8
     staff-spirit: LIGHTNING_SPIRIT
-    spell-vampirism: 2.4
+    spell-vampirism: 2.52
     ability:
       ability-1:
         type: CURSED_BEAM
@@ -820,11 +821,11 @@ STAFF_DOI_TRUONG_5:
     lore:
       - "&7 Trượng phép chứa quyền năng ma thuật ngục tù"
       - "&7 Nâng cấp tại Lò Rèn để tăng sát thương & mở kỹ năng mới"
-    attack-damage: 17.5
-    magic-damage: 48.0
+    attack-damage: 18.375
+    magic-damage: 50.4
     mana-cost: 8
     staff-spirit: LIGHTNING_SPIRIT
-    spell-vampirism: 2.7
+    spell-vampirism: 2.835
     ability:
       ability-1:
         type: CURSED_BEAM
@@ -857,11 +858,11 @@ STAFF_PHO_QUAN_NGUC_1:
     lore:
       - "&7 Trượng phép chứa quyền năng ma thuật ngục tù"
       - "&7 Nâng cấp tại Lò Rèn để tăng sát thương & mở kỹ năng mới"
-    attack-damage: 18.0
-    magic-damage: 55.0
+    attack-damage: 18.9
+    magic-damage: 57.75
     mana-cost: 10
     staff-spirit: LIGHTNING_SPIRIT
-    spell-vampirism: 3.0
+    spell-vampirism: 3.15
     ability:
       ability-1:
         type: BLIZZARD
@@ -895,11 +896,11 @@ STAFF_PHO_QUAN_NGUC_2:
     lore:
       - "&7 Trượng phép chứa quyền năng ma thuật ngục tù"
       - "&7 Nâng cấp tại Lò Rèn để tăng sát thương & mở kỹ năng mới"
-    attack-damage: 19.3
-    magic-damage: 57.0
+    attack-damage: 20.265
+    magic-damage: 59.85
     mana-cost: 10
     staff-spirit: LIGHTNING_SPIRIT
-    spell-vampirism: 3.3
+    spell-vampirism: 3.465
     ability:
       ability-1:
         type: BLIZZARD
@@ -933,11 +934,11 @@ STAFF_PHO_QUAN_NGUC_3:
     lore:
       - "&7 Trượng phép chứa quyền năng ma thuật ngục tù"
       - "&7 Nâng cấp tại Lò Rèn để tăng sát thương & mở kỹ năng mới"
-    attack-damage: 20.5
-    magic-damage: 59.0
+    attack-damage: 21.525
+    magic-damage: 61.95
     mana-cost: 10
     staff-spirit: LIGHTNING_SPIRIT
-    spell-vampirism: 3.6
+    spell-vampirism: 3.78
     ability:
       ability-1:
         type: BLIZZARD
@@ -971,11 +972,11 @@ STAFF_PHO_QUAN_NGUC_4:
     lore:
       - "&7 Trượng phép chứa quyền năng ma thuật ngục tù"
       - "&7 Nâng cấp tại Lò Rèn để tăng sát thương & mở kỹ năng mới"
-    attack-damage: 21.8
-    magic-damage: 61.0
+    attack-damage: 22.89
+    magic-damage: 64.05
     mana-cost: 10
     staff-spirit: LIGHTNING_SPIRIT
-    spell-vampirism: 3.9
+    spell-vampirism: 4.095
     ability:
       ability-1:
         type: BLIZZARD
@@ -1009,11 +1010,11 @@ STAFF_PHO_QUAN_NGUC_5:
     lore:
       - "&7 Trượng phép chứa quyền năng ma thuật ngục tù"
       - "&7 Nâng cấp tại Lò Rèn để tăng sát thương & mở kỹ năng mới"
-    attack-damage: 23.0
-    magic-damage: 63.0
+    attack-damage: 24.15
+    magic-damage: 66.15
     mana-cost: 10
     staff-spirit: LIGHTNING_SPIRIT
-    spell-vampirism: 4.2
+    spell-vampirism: 4.41
     ability:
       ability-1:
         type: BLIZZARD
@@ -1047,11 +1048,11 @@ STAFF_QUAN_NGUC_1:
     lore:
       - "&7 Trượng phép chứa quyền năng ma thuật ngục tù"
       - "&7 Nâng cấp tại Lò Rèn để tăng sát thương & mở kỹ năng mới"
-    attack-damage: 23.5
-    magic-damage: 75.0
+    attack-damage: 24.675
+    magic-damage: 78.75
     mana-cost: 12
     staff-spirit: THUNDER_SPIRIT
-    spell-vampirism: 4.5
+    spell-vampirism: 4.725
     ability:
       ability-1:
         type: BLACK_HOLE
@@ -1090,11 +1091,11 @@ STAFF_QUAN_NGUC_2:
     lore:
       - "&7 Trượng phép chứa quyền năng ma thuật ngục tù"
       - "&7 Nâng cấp tại Lò Rèn để tăng sát thương & mở kỹ năng mới"
-    attack-damage: 25.0
-    magic-damage: 77.0
+    attack-damage: 26.25
+    magic-damage: 80.85
     mana-cost: 12
     staff-spirit: THUNDER_SPIRIT
-    spell-vampirism: 4.8
+    spell-vampirism: 5.04
     ability:
       ability-1:
         type: BLACK_HOLE
@@ -1133,11 +1134,11 @@ STAFF_QUAN_NGUC_3:
     lore:
       - "&7 Trượng phép chứa quyền năng ma thuật ngục tù"
       - "&7 Nâng cấp tại Lò Rèn để tăng sát thương & mở kỹ năng mới"
-    attack-damage: 26.5
-    magic-damage: 79.0
+    attack-damage: 27.825
+    magic-damage: 82.95
     mana-cost: 12
     staff-spirit: THUNDER_SPIRIT
-    spell-vampirism: 5.1
+    spell-vampirism: 5.355
     ability:
       ability-1:
         type: BLACK_HOLE
@@ -1176,11 +1177,11 @@ STAFF_QUAN_NGUC_4:
     lore:
       - "&7 Trượng phép chứa quyền năng ma thuật ngục tù"
       - "&7 Nâng cấp tại Lò Rèn để tăng sát thương & mở kỹ năng mới"
-    attack-damage: 28.0
-    magic-damage: 81.0
+    attack-damage: 29.4
+    magic-damage: 85.05
     mana-cost: 12
     staff-spirit: THUNDER_SPIRIT
-    spell-vampirism: 5.4
+    spell-vampirism: 5.67
     ability:
       ability-1:
         type: BLACK_HOLE
@@ -1219,11 +1220,11 @@ STAFF_QUAN_NGUC_5:
     lore:
       - "&7 Trượng phép chứa quyền năng ma thuật ngục tù"
       - "&7 Nâng cấp tại Lò Rèn để tăng sát thương & mở kỹ năng mới"
-    attack-damage: 29.5
-    magic-damage: 83.0
+    attack-damage: 30.975
+    magic-damage: 87.15
     mana-cost: 12
     staff-spirit: THUNDER_SPIRIT
-    spell-vampirism: 5.7
+    spell-vampirism: 5.985
     ability:
       ability-1:
         type: BLACK_HOLE
@@ -1262,11 +1263,11 @@ STAFF_BA_CHU_NGUC_TU_1:
     lore:
       - "&7 Trượng phép chứa quyền năng ma thuật ngục tù"
       - "&7 Nâng cấp tại Lò Rèn để tăng sát thương & mở kỹ năng mới"
-    attack-damage: 30.0
-    magic-damage: 100.0
+    attack-damage: 31.5
+    magic-damage: 105
     mana-cost: 14
     staff-spirit: THUNDER_SPIRIT
-    spell-vampirism: 6.0
+    spell-vampirism: 6.3
     ability:
       ability-1:
         type: BLACK_HOLE
@@ -1305,11 +1306,11 @@ STAFF_BA_CHU_NGUC_TU_2:
     lore:
       - "&7 Trượng phép chứa quyền năng ma thuật ngục tù"
       - "&7 Nâng cấp tại Lò Rèn để tăng sát thương & mở kỹ năng mới"
-    attack-damage: 31.8
-    magic-damage: 102.0
+    attack-damage: 33.39
+    magic-damage: 107.1
     mana-cost: 14
     staff-spirit: THUNDER_SPIRIT
-    spell-vampirism: 6.3
+    spell-vampirism: 6.615
     ability:
       ability-1:
         type: BLACK_HOLE
@@ -1348,11 +1349,11 @@ STAFF_BA_CHU_NGUC_TU_3:
     lore:
       - "&7 Trượng phép chứa quyền năng ma thuật ngục tù"
       - "&7 Nâng cấp tại Lò Rèn để tăng sát thương & mở kỹ năng mới"
-    attack-damage: 33.5
-    magic-damage: 104.0
+    attack-damage: 35.175
+    magic-damage: 109.2
     mana-cost: 14
     staff-spirit: THUNDER_SPIRIT
-    spell-vampirism: 6.6
+    spell-vampirism: 6.93
     ability:
       ability-1:
         type: BLACK_HOLE
@@ -1391,11 +1392,11 @@ STAFF_BA_CHU_NGUC_TU_4:
     lore:
       - "&7 Trượng phép chứa quyền năng ma thuật ngục tù"
       - "&7 Nâng cấp tại Lò Rèn để tăng sát thương & mở kỹ năng mới"
-    attack-damage: 35.3
-    magic-damage: 106.0
+    attack-damage: 37.065
+    magic-damage: 111.3
     mana-cost: 14
     staff-spirit: THUNDER_SPIRIT
-    spell-vampirism: 6.9
+    spell-vampirism: 7.245
     ability:
       ability-1:
         type: BLACK_HOLE
@@ -1434,11 +1435,11 @@ STAFF_BA_CHU_NGUC_TU_5:
     lore:
       - "&7 Trượng phép chứa quyền năng ma thuật ngục tù"
       - "&7 Nâng cấp tại Lò Rèn để tăng sát thương & mở kỹ năng mới"
-    attack-damage: 37.0
-    magic-damage: 108.0
+    attack-damage: 38.85
+    magic-damage: 113.4
     mana-cost: 14
     staff-spirit: THUNDER_SPIRIT
-    spell-vampirism: 7.2
+    spell-vampirism: 7.56
     ability:
       ability-1:
         type: BLACK_HOLE
@@ -1478,11 +1479,11 @@ STAFF_VUOT_NGUC_1:
     lore:
       - "&7 Trượng phép chứa quyền năng ma thuật ngục tù"
       - "&7 Nâng cấp tại Lò Rèn để tăng sát thương & mở kỹ năng mới"
-    attack-damage: 38.0
-    magic-damage: 130.0
+    attack-damage: 39.9
+    magic-damage: 136.5
     mana-cost: 16
     staff-spirit: SUNFIRE_SPIRIT
-    spell-vampirism: 8.0
+    spell-vampirism: 8.4
     ability:
       ability-1:
         type: BLACK_HOLE
@@ -1522,11 +1523,11 @@ STAFF_VUOT_NGUC_2:
     lore:
       - "&7 Trượng phép chứa quyền năng ma thuật ngục tù"
       - "&7 Nâng cấp tại Lò Rèn để tăng sát thương & mở kỹ năng mới"
-    attack-damage: 40.0
-    magic-damage: 132.0
+    attack-damage: 42
+    magic-damage: 138.6
     mana-cost: 16
     staff-spirit: SUNFIRE_SPIRIT
-    spell-vampirism: 8.3
+    spell-vampirism: 8.715
     ability:
       ability-1:
         type: BLACK_HOLE
@@ -1566,11 +1567,11 @@ STAFF_VUOT_NGUC_3:
     lore:
       - "&7 Trượng phép chứa quyền năng ma thuật ngục tù"
       - "&7 Nâng cấp tại Lò Rèn để tăng sát thương & mở kỹ năng mới"
-    attack-damage: 42.0
-    magic-damage: 134.0
+    attack-damage: 44.1
+    magic-damage: 140.7
     mana-cost: 16
     staff-spirit: SUNFIRE_SPIRIT
-    spell-vampirism: 8.6
+    spell-vampirism: 9.03
     ability:
       ability-1:
         type: BLACK_HOLE
@@ -1610,11 +1611,11 @@ STAFF_VUOT_NGUC_4:
     lore:
       - "&7 Trượng phép chứa quyền năng ma thuật ngục tù"
       - "&7 Nâng cấp tại Lò Rèn để tăng sát thương & mở kỹ năng mới"
-    attack-damage: 44.0
-    magic-damage: 136.0
+    attack-damage: 46.2
+    magic-damage: 142.8
     mana-cost: 16
     staff-spirit: SUNFIRE_SPIRIT
-    spell-vampirism: 8.9
+    spell-vampirism: 9.345
     ability:
       ability-1:
         type: BLACK_HOLE
@@ -1654,11 +1655,11 @@ STAFF_VUOT_NGUC_5:
     lore:
       - "&7 Trượng phép chứa quyền năng ma thuật ngục tù"
       - "&7 Nâng cấp tại Lò Rèn để tăng sát thương & mở kỹ năng mới"
-    attack-damage: 46.0
-    magic-damage: 138.0
+    attack-damage: 48.3
+    magic-damage: 144.9
     mana-cost: 16
     staff-spirit: SUNFIRE_SPIRIT
-    spell-vampirism: 9.2
+    spell-vampirism: 9.66
     ability:
       ability-1:
         type: BLACK_HOLE
@@ -1699,13 +1700,13 @@ GACHA_STAFF_REVENANT:
       - "&b&l✦ Vật Phẩm Độc Quyền"
       - "&7 Quyền trượng triệu hồi linh hồn cõi âm"
       - "&7 Chuyên trảm Boss: Sát thương phép & Hố đen tàn phá"
-    attack-damage: 40.0
-    magic-damage: 175.0
-    pve-damage: 30.0
-    critical-strike-chance: 25.0
-    critical-strike-power: 35.0
+    attack-damage: 42
+    magic-damage: 183.75
+    pve-damage: 31.5
+    critical-strike-chance: 26.25
+    critical-strike-power: 36.75
     mana-cost: 15
-    spell-vampirism: 8.5
+    spell-vampirism: 8.925
     staff-spirit: VOID_SPIRIT
     ability:
       ability-1:
@@ -1747,13 +1748,13 @@ GACHA_STAFF_AZURE_SCYTHE:
       - "&b&l✦ Vật Phẩm Độc Quyền"
       - "&7 Lưỡi hái đóng băng linh hồn kẻ địch"
       - "&7 Chuyên trảm Boss: Bão băng giá & Lôi điện tàn phá"
-    attack-damage: 42.0
-    magic-damage: 185.0
-    pve-damage: 32.0
-    critical-strike-chance: 26.0
-    critical-strike-power: 38.0
+    attack-damage: 44.1
+    magic-damage: 194.25
+    pve-damage: 33.6
+    critical-strike-chance: 27.3
+    critical-strike-power: 39.9
     mana-cost: 16
-    spell-vampirism: 9.0
+    spell-vampirism: 9.45
     staff-spirit: MANA_SPIRIT
     ability:
       ability-1:
@@ -1794,13 +1795,13 @@ GACHA_STAFF_OCULUS:
       - "&b&l✦ Vật Phẩm Độc Quyền"
       - "&7 Trượng phép mang con mắt nhãn giới ma thuật"
       - "&7 Chuyên trảm Boss: Sấm sét bộc phá & Thiên thạch ma nhãn"
-    attack-damage: 45.0
-    magic-damage: 195.0
-    pve-damage: 35.0
-    critical-strike-chance: 28.0
-    critical-strike-power: 40.0
+    attack-damage: 47.25
+    magic-damage: 204.75
+    pve-damage: 36.75
+    critical-strike-chance: 29.4
+    critical-strike-power: 42
     mana-cost: 18
-    spell-vampirism: 10.0
+    spell-vampirism: 10.5
     staff-spirit: THUNDER_SPIRIT
     ability:
       ability-1:

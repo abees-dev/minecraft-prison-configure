@@ -1,4 +1,4 @@
-﻿
+# base-combat-stats-multiplier: 1.05
 LONG_VUONG_RING_1:
   itemsadder-item: "rings_pack:ring_34"
   base:
@@ -9,8 +9,8 @@ LONG_VUONG_RING_1:
     custom-model-data: 19034
     name: "&c&lNhẫn Long Vương &7[Hữu]"
     set: LONG_VUONG_SET
-    attack-damage: 15.0
-    critical-strike-chance: 5.0
+    attack-damage: 15.75
+    critical-strike-chance: 5.25
     enchants:
       unbreaking: 1
     hide-enchants: true
@@ -30,8 +30,8 @@ LONG_VUONG_RING_2:
     custom-model-data: 19105
     name: "&c&lNhẫn Long Vương &7[Tả]"
     set: LONG_VUONG_SET
-    attack-damage: 15.0
-    critical-strike-power: 10.0
+    attack-damage: 15.75
+    critical-strike-power: 10.5
     enchants:
       unbreaking: 1
     hide-enchants: true
@@ -51,8 +51,8 @@ BANG_TINH_RING_1:
     custom-model-data: 19096
     name: "&b&lNhẫn Băng Tinh &7[Hữu]"
     set: BANG_TINH_SET
-    max-health: 80.0
-    damage-reduction: 3.0
+    max-health: 84
+    damage-reduction: 3.15
     enchants:
       unbreaking: 1
     hide-enchants: true
@@ -72,8 +72,8 @@ BANG_TINH_RING_2:
     custom-model-data: 19087
     name: "&b&lNhẫn Băng Tinh &7[Tả]"
     set: BANG_TINH_SET
-    max-health: 80.0
-    armor: 8.0
+    max-health: 84
+    armor: 8.4
     enchants:
       unbreaking: 1
     hide-enchants: true
@@ -93,8 +93,8 @@ HAC_AM_RING_1:
     custom-model-data: 19065
     name: "&d&lNhẫn Hắc Ám &7[Hữu]"
     set: HAC_AM_SET
-    magic-damage: 8.0
-    max-mana: 50.0
+    magic-damage: 8.4
+    max-mana: 52.5
     enchants:
       unbreaking: 1
     hide-enchants: true
@@ -114,8 +114,8 @@ HAC_AM_RING_2:
     custom-model-data: 19074
     name: "&d&lNhẫn Hắc Ám &7[Tả]"
     set: HAC_AM_SET
-    magic-damage: 8.0
-    max-mana: 50.0
+    magic-damage: 8.4
+    max-mana: 52.5
     enchants:
       unbreaking: 1
     hide-enchants: true
@@ -135,8 +135,8 @@ LOI_THAN_RING_1:
     custom-model-data: 19104
     name: "&e&lNhẫn Lôi Thần &7[Hữu]"
     set: LOI_THAN_SET
-    physical-damage: 8.0
-    movement-speed: 0.01
+    physical-damage: 8.4
+    movement-speed: 0.011
     enchants:
       unbreaking: 1
     hide-enchants: true
@@ -156,8 +156,8 @@ LOI_THAN_RING_2:
     custom-model-data: 19021
     name: "&e&lNhẫn Lôi Thần &7[Tả]"
     set: LOI_THAN_SET
-    physical-damage: 8.0
-    dodge-rating: 4.0
+    physical-damage: 8.4
+    dodge-rating: 4.2
     enchants:
       unbreaking: 1
     hide-enchants: true
@@ -177,8 +177,8 @@ HOANG_GIA_RING_1:
     custom-model-data: 19022
     name: "&6&lNhẫn Hoàng Gia &7[Hữu]"
     set: HOANG_GIA_SET
-    physical-damage: 8.0
-    max-health: 60.0
+    physical-damage: 8.4
+    max-health: 63
     enchants:
       unbreaking: 1
     hide-enchants: true
@@ -198,8 +198,8 @@ HOANG_GIA_RING_2:
     custom-model-data: 19072
     name: "&6&lNhẫn Hoàng Gia &7[Tả]"
     set: HOANG_GIA_SET
-    magic-damage: 8.0
-    max-mana: 40.0
+    magic-damage: 8.4
+    max-mana: 42
     enchants:
       unbreaking: 1
     hide-enchants: true
@@ -207,7 +207,6 @@ HOANG_GIA_RING_2:
       template: armor-upgrade-template
       reference: armor-upgrade-template
       max: 100
-
 
     tier: RARE
 LONG_VUONG_AMULET:
@@ -220,8 +219,8 @@ LONG_VUONG_AMULET:
     custom-model-data: 19403
     name: "&c&lDây Chuyền Long Vương"
     set: LONG_VUONG_SET
-    attack-damage: 20.0
-    critical-strike-chance: 8.0
+    attack-damage: 21
+    critical-strike-chance: 8.4
     enchants:
       unbreaking: 1
     hide-enchants: true
@@ -241,8 +240,8 @@ BANG_TINH_AMULET:
     custom-model-data: 19408
     name: "&b&lDây Chuyền Băng Tinh"
     set: BANG_TINH_SET
-    max-health: 120.0
-    damage-reduction: 5.0
+    max-health: 126
+    damage-reduction: 5.25
     enchants:
       unbreaking: 1
     hide-enchants: true
@@ -262,8 +261,8 @@ HAC_AM_AMULET:
     custom-model-data: 19430
     name: "&d&lDây Chuyền Hắc Ám"
     set: HAC_AM_SET
-    magic-damage: 12.0
-    max-mana: 100.0
+    magic-damage: 12.6
+    max-mana: 105
     enchants:
       unbreaking: 1
     hide-enchants: true
@@ -283,8 +282,8 @@ LOI_THAN_AMULET:
     custom-model-data: 19417
     name: "&e&lDây Chuyền Lôi Thần"
     set: LOI_THAN_SET
-    physical-damage: 12.0
-    movement-speed: 0.02
+    physical-damage: 12.6
+    movement-speed: 0.021
     enchants:
       unbreaking: 1
     hide-enchants: true
@@ -304,8 +303,8 @@ HOANG_GIA_AMULET:
     custom-model-data: 19435
     name: "&6&lDây Chuyền Hoàng Gia"
     set: HOANG_GIA_SET
-    physical-damage: 12.0
-    max-health: 100.0
+    physical-damage: 12.6
+    max-health: 105
     enchants:
       unbreaking: 1
     hide-enchants: true
@@ -313,7 +312,6 @@ HOANG_GIA_AMULET:
       template: armor-upgrade-template
       reference: armor-upgrade-template
       max: 100
-
 
     tier: RARE
 LONG_VUONG_BRACELET:
@@ -326,8 +324,8 @@ LONG_VUONG_BRACELET:
     custom-model-data: 19006
     name: "&c&lVòng Tay Long Vương"
     set: LONG_VUONG_SET
-    attack-damage: 10.0
-    critical-strike-power: 15.0
+    attack-damage: 10.5
+    critical-strike-power: 15.75
     enchants:
       unbreaking: 1
     hide-enchants: true
@@ -347,8 +345,8 @@ BANG_TINH_BRACELET:
     custom-model-data: 19083
     name: "&b&lVòng Tay Băng Tinh"
     set: BANG_TINH_SET
-    max-health: 100.0
-    armor: 10.0
+    max-health: 105
+    armor: 10.5
     enchants:
       unbreaking: 1
     hide-enchants: true
@@ -368,8 +366,8 @@ HAC_AM_BRACELET:
     custom-model-data: 19041
     name: "&d&lVòng Tay Hắc Ám"
     set: HAC_AM_SET
-    magic-damage: 10.0
-    max-mana: 80.0
+    magic-damage: 10.5
+    max-mana: 84
     enchants:
       unbreaking: 1
     hide-enchants: true
@@ -389,8 +387,8 @@ LOI_THAN_BRACELET:
     custom-model-data: 19045
     name: "&e&lVòng Tay Lôi Thần"
     set: LOI_THAN_SET
-    physical-damage: 10.0
-    dodge-rating: 5.0
+    physical-damage: 10.5
+    dodge-rating: 5.25
     enchants:
       unbreaking: 1
     hide-enchants: true
@@ -410,8 +408,8 @@ HOANG_GIA_BRACELET:
     custom-model-data: 19048
     name: "&6&lVòng Tay Hoàng Gia"
     set: HOANG_GIA_SET
-    physical-damage: 10.0
-    magic-damage: 5.0
+    physical-damage: 10.5
+    magic-damage: 5.25
     enchants:
       unbreaking: 1
     hide-enchants: true
@@ -419,7 +417,6 @@ HOANG_GIA_BRACELET:
       template: armor-upgrade-template
       reference: armor-upgrade-template
       max: 100
-
 
     tier: RARE
 LONG_VUONG_GLOVES:
@@ -432,8 +429,8 @@ LONG_VUONG_GLOVES:
     custom-model-data: 19539
     name: "&c&lGăng Tay Long Vương"
     set: LONG_VUONG_SET
-    attack-damage: 12.0
-    critical-strike-chance: 6.0
+    attack-damage: 12.6
+    critical-strike-chance: 6.3
     enchants:
       unbreaking: 1
     hide-enchants: true
@@ -453,8 +450,8 @@ BANG_TINH_GLOVES:
     custom-model-data: 19581
     name: "&b&lGăng Tay Băng Tinh"
     set: BANG_TINH_SET
-    max-health: 90.0
-    damage-reduction: 4.0
+    max-health: 94.5
+    damage-reduction: 4.2
     enchants:
       unbreaking: 1
     hide-enchants: true
@@ -474,7 +471,7 @@ HAC_AM_GLOVES:
     custom-model-data: 19557
     name: "&d&lGăng Tay Hắc Ám"
     set: HAC_AM_SET
-    magic-damage: 15.0
+    magic-damage: 15.75
     enchants:
       unbreaking: 1
     hide-enchants: true
@@ -494,8 +491,8 @@ LOI_THAN_GLOVES:
     custom-model-data: 19602
     name: "&e&lGăng Tay Lôi Thần"
     set: LOI_THAN_SET
-    physical-damage: 10.0
-    movement-speed: 0.015
+    physical-damage: 10.5
+    movement-speed: 0.016
     enchants:
       unbreaking: 1
     hide-enchants: true
@@ -515,8 +512,8 @@ HOANG_GIA_GLOVES:
     custom-model-data: 19598
     name: "&6&lGăng Tay Hoàng Gia"
     set: HOANG_GIA_SET
-    physical-damage: 10.0
-    max-health: 80.0
+    physical-damage: 10.5
+    max-health: 84
     enchants:
       unbreaking: 1
     hide-enchants: true

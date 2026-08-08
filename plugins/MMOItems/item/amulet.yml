@@ -1,3 +1,4 @@
+# base-combat-stats-multiplier: 1.05
 TRADE_AMULET_HOA_LONG:
   itemsadder-item: "rings_pack:set1_necklace_1"
   base:
@@ -9,8 +10,8 @@ TRADE_AMULET_HOA_LONG:
     name: "&6&l🔥 Dây Chuyền Hỏa Long"
     tier: RARE
     set: HOA_LONG_SET
-    critical-strike-chance: 18
-    max-health: 120
+    critical-strike-chance: 18.9
+    max-health: 126
     unstackable: true
     enchants:
       unbreaking: 1
@@ -31,9 +32,9 @@ TRADE_AMULET_HAC_LONG:
     name: "&5&l◆ Dây Chuyền Hắc Long"
     tier: UNIQUE
     set: HAC_LONG_SET
-    critical-strike-chance: 18
-    max-mana: 250
-    max-health: 60
+    critical-strike-chance: 18.9
+    max-mana: 262.5
+    max-health: 63
     unstackable: true
     enchants:
       unbreaking: 1
@@ -54,9 +55,9 @@ TRADE_AMULET_LOI_LONG:
     name: "&e&l⚡ Dây Chuyền Lôi Long"
     tier: LEGENDARY
     set: LOI_LONG_SET
-    critical-strike-chance: 14
-    lifesteal: 8
-    max-health: 100
+    critical-strike-chance: 14.7
+    lifesteal: 8.4
+    max-health: 105
     unstackable: true
     enchants:
       unbreaking: 1
@@ -77,9 +78,9 @@ TRADE_AMULET_PHONG_LONG:
     name: "&2&l✦ Dây Chuyền Phong Long"
     tier: MYTHICAL
     set: PHONG_LONG_SET
-    critical-strike-chance: 14
-    dodge-rating: 15
-    max-health: 80
+    critical-strike-chance: 14.7
+    dodge-rating: 15.75
+    max-health: 84
     unstackable: true
     enchants:
       unbreaking: 1
@@ -100,9 +101,9 @@ TRADE_AMULET_BANG_LONG:
     name: "&3&l✦ Dây Chuyền Băng Long"
     tier: EPIC
     set: BANG_LONG_SET
-    max-health: 220
-    defense: 20
-    damage-reduction: 8
+    max-health: 231
+    defense: 21
+    damage-reduction: 8.4
     unstackable: true
     enchants:
       unbreaking: 1
@@ -123,8 +124,8 @@ DONATE_AMULET_LONG_CHIEN:
     name: "&e&l⚔ Dây Chuyền Chiến Long"
     tier: MYTHICAL
     set: LONG_CHIEN_SET
-    critical-strike-chance: 18
-    max-health: 120
+    critical-strike-chance: 18.9
+    max-health: 126
     unstackable: true
     enchants:
       unbreaking: 1
@@ -145,9 +146,9 @@ DONATE_AMULET_LONG_THAN:
     name: "&b&l✦ Dây Chuyền Thần Long"
     tier: MYTHICAL
     set: LONG_THAN_SET
-    critical-strike-chance: 18
-    max-mana: 250
-    max-health: 60
+    critical-strike-chance: 18.9
+    max-mana: 262.5
+    max-health: 63
     unstackable: true
     enchants:
       unbreaking: 1
@@ -168,9 +169,9 @@ DONATE_AMULET_LONG_HOANG:
     name: "&c&l★ Dây Chuyền Hoàng Long"
     tier: UNIQUE
     set: LONG_HOANG_SET
-    critical-strike-chance: 14
-    lifesteal: 8
-    max-health: 100
+    critical-strike-chance: 14.7
+    lifesteal: 8.4
+    max-health: 105
     unstackable: true
     enchants:
       unbreaking: 1
@@ -191,9 +192,9 @@ DONATE_AMULET_LONG_DE:
     name: "&4&l◆ Dây Chuyền Đế Long"
     tier: UNIQUE
     set: LONG_DE_SET
-    critical-strike-chance: 14
-    dodge-rating: 15
-    max-health: 80
+    critical-strike-chance: 14.7
+    dodge-rating: 15.75
+    max-health: 84
     unstackable: true
     enchants:
       unbreaking: 1
@@ -214,9 +215,9 @@ DONATE_AMULET_LONG_VE:
     name: "&a&l✦ Dây Chuyền Hộ Long"
     tier: LEGENDARY
     set: LONG_VE_SET
-    max-health: 220
-    defense: 20
-    damage-reduction: 8
+    max-health: 231
+    defense: 21
+    damage-reduction: 8.4
     unstackable: true
     enchants:
       unbreaking: 1
@@ -237,8 +238,8 @@ FREE_AMULET_THANH_LONG:
     name: "&b&l⚡ Dây Chuyền Thanh Long"
     tier: UNIQUE
     set: THANH_LONG_SET
-    critical-strike-chance: 18
-    max-health: 120
+    critical-strike-chance: 18.9
+    max-health: 126
     unstackable: true
     enchants:
       unbreaking: 1
@@ -259,9 +260,9 @@ FREE_AMULET_XICH_LONG:
     name: "&c&l🔥 Dây Chuyền Xích Long"
     tier: UNIQUE
     set: XICH_LONG_SET
-    critical-strike-chance: 18
-    max-mana: 250
-    max-health: 60
+    critical-strike-chance: 18.9
+    max-mana: 262.5
+    max-health: 63
     unstackable: true
     enchants:
       unbreaking: 1
@@ -282,9 +283,9 @@ FREE_AMULET_KIM_LONG:
     name: "&e&l★ Dây Chuyền Kim Long"
     tier: UNIQUE
     set: KIM_LONG_SET
-    critical-strike-chance: 14
-    lifesteal: 8
-    max-health: 100
+    critical-strike-chance: 14.7
+    lifesteal: 8.4
+    max-health: 105
     unstackable: true
     enchants:
       unbreaking: 1
@@ -305,9 +306,9 @@ FREE_AMULET_THIEN_LONG:
     name: "&d&l✦ Dây Chuyền Thiên Long"
     tier: UNIQUE
     set: THIEN_LONG_SET
-    critical-strike-chance: 14
-    dodge-rating: 15
-    max-health: 80
+    critical-strike-chance: 14.7
+    dodge-rating: 15.75
+    max-health: 84
     unstackable: true
     enchants:
       unbreaking: 1
@@ -328,9 +329,9 @@ FREE_AMULET_BAC_LONG:
     name: "&f&l✧ Dây Chuyền Bạch Long"
     tier: UNIQUE
     set: BAC_LONG_SET
-    max-health: 220
-    defense: 20
-    damage-reduction: 8
+    max-health: 231
+    defense: 21
+    damage-reduction: 8.4
     unstackable: true
     enchants:
       unbreaking: 1

@@ -1,3 +1,4 @@
+# base-combat-stats-multiplier: 1.05
 BOOK_OF_STRENGTH:
   base:
     revision-id: 1
@@ -8,11 +9,11 @@ BOOK_OF_STRENGTH:
       - §7Will give you stats even when
       - §7in §9inventory§7!
     tier: RARE
-    projectile-damage: 15.0
-    physical-damage: 10.0
-    magic-damage: 10.0
-    weapon-damage: 10.0
-    damage-reduction: 5.0
+    projectile-damage: 15.75
+    physical-damage: 10.5
+    magic-damage: 10.5
+    weapon-damage: 10.5
+    damage-reduction: 5.25
     required-class:
       - Warrior
     required-level: 15.0
