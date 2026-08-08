@@ -51,6 +51,23 @@
 - Công thức sát thương, Defense và bảng ngọc chi tiết được ghi tại
   [`gems-combat-damage.md`](../reference/gems-combat-damage.md).
 
+### Sửa lỗi Máu sau Chuyển Sinh
+
+- Sửa perk **Bất Hoại** chỉ giảm sát thương nhưng không cộng Máu như lore:
+  mỗi cấp nay cộng đúng `+50 Máu Tối Đa`; ví dụ cấp 3 cộng `+150 HP`. Bonus
+  được áp lại sau khi đăng nhập hoặc reload mà không cộng chồng.
+- Hoàn thiện các perk trước đây chỉ có lore: **Thần Phong** cộng tốc độ chạy và
+  tốc độ đánh; **Học Giả** cộng EXP MMOCore; **May Mắn Thần Thánh** có cơ hội
+  nhân đôi Đá Cường Hóa thực sự rơi từ quái.
+- `/stats` hiển thị riêng các bonus Chuyển Sinh và Máu tối đa thực tế sau
+  modifier Bất Hoại.
+- Sửa node **Sinh Lực Tối Đa** trong cây kỹ năng chung: trước đây node bị cấu
+  hình nhầm thành `+5 Hút Máu`; nay cộng đúng `+5 Máu Tối Đa`.
+- Điểm thuộc tính **Sức Mạnh** nhận từ Chuyển Sinh giờ cộng cố định `+2 HP`
+  (`1 tim`) mỗi điểm, thay cho `+1%` quá nhỏ và không khớp nội dung GUI.
+- Chỉ số Máu mới được áp qua MMOCore; người chơi cần cộng điểm Sức Mạnh hoặc
+  mở node Sinh Lực, không tự cộng ngay khi chỉ mới nhận điểm chưa sử dụng.
+
 ## Đại cập nhật Kinh tế và Bang Hội
 
 ### Cân bằng tiền tệ Prison

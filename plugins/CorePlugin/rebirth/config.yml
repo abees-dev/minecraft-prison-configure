@@ -47,10 +47,8 @@ requirements:
   money: 100000000
   stone-id: DA_CHUYEN_SINH
 
-# The 6 perks. display is used in chat messages; the GUI lore is built in
-# code with the per-level effect values below. money/drop/speed are data-only
-# exactly like the Skript (no listener applies them - other systems may read
-# their levels), while damage/defense/lifesteal are applied on combat here.
+# The 6 perks. display is used in chat messages; effect strengths are below.
+# The saved key `money` stays for compatibility but now represents Học Giả.
 perks:
   speed:
     display: "&e⚡ Thần Phong"
@@ -65,7 +63,8 @@ perks:
     display: "&4🩸 HUYẾT MA"
     max-level: 10
   money:
-    display: "&6💰 PHÚ HỘ"
+    # Key kept as `money` for backward-compatible saved player data.
+    display: "&6✦ HỌC GIẢ"
     max-level: 10
   drop:
     display: "&a💎 MAY MẮN THẦN THÁNH"
@@ -73,9 +72,17 @@ perks:
 
 # Combat effect strength per perk level (fractions: 0.04 = 4%).
 effects:
+  speed-movement-per-level: 0.02
+  speed-attack-per-level: 0.02
   damage-per-level: 0.04
   defense-per-level: 0.03
+  # Bất Hoại: flat HP gained per perk level (50 HP = 25 hearts).
+  defense-health-per-level: 50.0
   lifesteal-per-level: 0.015
+  # Legacy `money` perk now grants reliable MMOCore EXP.
+  money-exp-per-level: 0.05
+  # Chance to duplicate an MMOItems upgrade stone which actually dropped.
+  drop-duplicate-chance-per-level: 0.05
 
 # Server-wide particle aura loop (per-player toggle lives in the GUI).
 # The server-wide on/off switch itself (/csaura) is stored in rebirth-data.yml.

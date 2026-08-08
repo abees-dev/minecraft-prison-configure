@@ -463,12 +463,12 @@ nodes:
     experience-table:
       first_table_item:
         triggers:
-          - 'stat{stat="LIFESTEAL";amount=5;type="FLAT"}'
+          - 'stat{stat="MAX_HEALTH";amount=5;type="FLAT"}'
     lores:
       0:
-        - "&eAdditional amount of health in +%5"
+        - "&eTăng Máu Tối Đa +5"
       1:
-        - "&eAdditional amount of health in +%5"
+        - "&eTăng Máu Tối Đa +5"
 
   h1:
     name: 'Sát Thương Phép'

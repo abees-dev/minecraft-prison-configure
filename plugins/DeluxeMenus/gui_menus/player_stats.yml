@@ -33,7 +33,7 @@ items:
     display_name: '&e&l%player_name%'
     lore:
       - '&7Cấp nhân vật: &b%mmocore_level%'
-      - '&7Máu hiện tại: &c%mmocore_health%&7/&c%mmocore_max_health%'
+      - '&7Máu hiện tại: &c%mmocore_health%&7/&c%core_rebirth_actual_max_health%'
       - '&7Mana hiện tại: &9%mmocore_mana%&7/&9%mmocore_max_mana%'
       - ''
       - '&8Các giá trị bên dưới là tổng chỉ số'
@@ -51,6 +51,7 @@ items:
       - '&7Sát thương vật lý: &c%mmocore_stat_physical_damage%%'
       - '&7Sát thương phép: &d%mmocore_stat_magic_damage%%'
       - '&7Sát thương kỹ năng: &6%mmocore_stat_skill_damage%%'
+      - '&7Sát thương từ Chuyển Sinh: &c+%core_rebirth_damage_percent%%'
       - ''
       - '&aSát thương lên quái: &f%mmocore_stat_pve_damage%%'
 
@@ -62,6 +63,7 @@ items:
     lore:
       - '&7Giảm sát thương từ quái: &a%mmocore_stat_pve_damage_reduction%%'
       - '&7Hút máu: &c%mmocore_stat_lifesteal%%'
+      - '&7Hút máu từ Chuyển Sinh: &c+%core_rebirth_lifesteal_percent%%'
       - '&7Hút máu phép: &d%mmocore_stat_spell_vampirism%%'
       - '&7Hồi máu: &c%mmocore_stat_health_regeneration%/giây'
       - '&7Kháng lửa: &c%mmocore_stat_fire_damage_reduction%%'
@@ -85,11 +87,13 @@ items:
     hide_attributes: true
     display_name: '&b&l🛡 PHÒNG THỦ CHUNG'
     lore:
-      - '&7Máu tối đa: &c%mmocore_max_health%'
+      - '&7Máu tối đa thực tế: &c%core_rebirth_actual_max_health%'
+      - '&7Máu từ Bất Hoại: &c+%core_rebirth_defense_health%'
       - '&7Giáp: &b%mmocore_stat_armor% &8(tối đa 30)'
       - '&7Kháng xuyên giáp: &3%mmocore_stat_armor_toughness%'
-      - '&7Phòng thủ bổ sung: &b%mmocore_stat_defense%'
+      - '&7Phòng thủ: &b%mmocore_stat_defense%'
       - '&7Giảm mọi sát thương: &b%mmocore_stat_damage_reduction%%'
+      - '&7Giảm ST từ Bất Hoại: &b%core_rebirth_defense_reduction_percent%%'
       - '&7Kháng vật lý: &c%mmocore_stat_physical_damage_reduction%%'
       - '&7Kháng tầm xa: &e%mmocore_stat_projectile_damage_reduction%%'
 
@@ -128,7 +132,7 @@ items:
       - '&7Giảm sát thương từ người chơi:'
       - '&c%mmocore_stat_pvp_damage_reduction%%'
       - ''
-      - '&7Phòng thủ bổ sung: &b%mmocore_stat_defense%'
+      - '&7Phòng thủ: &b%mmocore_stat_defense%'
       - '&7Giảm mọi sát thương: &b%mmocore_stat_damage_reduction%%'
       - '&7Hồi máu: &c%mmocore_stat_health_regeneration%/giây'
 
@@ -144,6 +148,12 @@ items:
       - '&7Hồi thể lực: &e%mmocore_stat_stamina_regeneration%/giây'
       - '&7Giảm hồi chiêu: &6%mmocore_stat_cooldown_reduction%%'
       - '&7Tốc độ di chuyển: &e%mmocore_stat_movement_speed%'
+      - ''
+      - '&6Chuyển Sinh:'
+      - '&7Tốc độ chạy: &e+%core_rebirth_movement_percent%%'
+      - '&7Tốc độ đánh: &e+%core_rebirth_attack_speed_percent%%'
+      - '&7EXP MMOCore: &6+%core_rebirth_exp_percent%%'
+      - '&7Nhân đôi Đá Cường Hóa: &a%core_rebirth_drop_percent%%'
 
   'refresh':
     material: CLOCK

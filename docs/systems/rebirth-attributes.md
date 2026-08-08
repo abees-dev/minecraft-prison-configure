@@ -20,6 +20,10 @@ Mỗi lần Chuyển Sinh:
 - Cấp MMOCore được reset về 1.
 - Cập nhật suffix Chuyển Sinh qua LuckPerms.
 
+Hai điểm thuộc tính được trao ở trạng thái **chưa sử dụng**. Chuyển Sinh không
+tự cộng Máu ngay; người chơi mở menu thuộc tính và cộng vào **Sức Mạnh**. Mỗi
+điểm Sức Mạnh hiện cộng `+2 HP` (`1 tim`) cùng `+2% Sát Thương Vũ Khí`.
+
 Cấp Chuyển Sinh tối đa là 20.
 
 ## Tiến hóa class (theo từng base class)
@@ -46,17 +50,35 @@ Class YAML ví dụ: `plugins/MMOCore/classes/dragon_warrior.yml`.
 
 ## Perk
 
-Có sáu nhánh, tối đa 10 cấp mỗi nhánh: tốc độ, sát thương, phòng thủ, hút máu, tiền và drop. Hiện CorePlugin trực tiếp áp dụng sát thương, phòng thủ và hút máu. Tiền/drop là dữ liệu cho hệ thống khác đọc; không được mô tả như buff hoạt động nếu chưa xác minh consumer.
+Có sáu nhánh, tối đa 10 cấp mỗi nhánh. Tất cả hiện có consumer runtime trong
+CorePlugin; key dữ liệu `money` được giữ để không mất tiến độ cũ nhưng hiệu ứng
+đã đổi từ Sell ngoài plugin sang EXP MMOCore.
 
 Hiệu lực mỗi cấp đang cấu hình:
 
 | Perk | Mỗi cấp |
 | --- | ---: |
-| Sát thương | +4% |
-| Phòng thủ | +3% |
-| Hút máu | +1,5% |
+| Thần Phong | +2% tốc độ chạy và +2% tốc độ đánh |
+| Sát thương | +4% sát thương đánh/skill |
+| Bất Hoại | −3% sát thương nhận vào và +50 Máu Tối Đa |
+| Hút máu | +1,5%, tối đa 15% ở cấp 10 |
+| Học Giả (`money`) | +5% EXP MMOCore |
+| May Mắn | +5% cơ hội nhân đôi Đá Cường Hóa đã rơi |
 
 Aura có thể bật/tắt trong GUI; tier hình ảnh đổi tại cấp 5 và 10.
+
+Máu từ Bất Hoại được tính bằng:
+
+```text
+Máu Bất Hoại = Cấp Bất Hoại × 50 HP
+```
+
+Ví dụ Bất Hoại cấp 3 cộng `150 HP`. Modifier được áp lại khi join/reload và
+thay thế giá trị cũ, vì vậy không cộng chồng qua nhiều lần đăng nhập.
+
+Menu `/stats` hiển thị bonus từng nhánh qua placeholder
+`%core_rebirth_<key>%`, gồm Máu thực tế, Máu/giảm sát thương Bất Hoại, tốc độ,
+EXP và tỷ lệ nhân đôi đá.
 
 ## Admin và reload
 

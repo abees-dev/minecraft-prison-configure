@@ -11,7 +11,9 @@ strength:
     # in this specific attribute.
     buff:
         weapon_damage: 2
-        max_health: 1%
+        # Flat HP: 2 HP = 1 tim. Percentage scaling was too small on low-level
+        # classes and did not match the flat value shown in the attribute GUI.
+        max_health: 2
 
 dexterity:
     name: Khéo Léo
