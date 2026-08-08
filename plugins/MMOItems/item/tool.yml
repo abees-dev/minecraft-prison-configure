@@ -1,7 +1,7 @@
 PICKAXE_TAN_BINH_1:
   base:
     custom-maxsockets: 1.0
-    revision-id: 3
+    revision-id: 4
     material: WOODEN_PICKAXE
     name: "&fCúp Tân Binh &e&lI"
     max-durability: 500
@@ -29,7 +29,7 @@ PICKAXE_TAN_BINH_1:
 PICKAXE_TAN_BINH_2:
   base:
     custom-maxsockets: 1.0
-    revision-id: 3
+    revision-id: 4
     material: WOODEN_PICKAXE
     name: "&fCúp Tân Binh &e&lII"
     max-durability: 500
@@ -57,7 +57,7 @@ PICKAXE_TAN_BINH_2:
 PICKAXE_TAN_BINH_3:
   base:
     custom-maxsockets: 1.0
-    revision-id: 3
+    revision-id: 4
     material: WOODEN_PICKAXE
     name: "&fCúp Tân Binh &e&lIII"
     max-durability: 500
@@ -85,7 +85,7 @@ PICKAXE_TAN_BINH_3:
 PICKAXE_TAN_BINH_4:
   base:
     custom-maxsockets: 1.0
-    revision-id: 3
+    revision-id: 4
     material: WOODEN_PICKAXE
     name: "&fCúp Tân Binh &e&lIV"
     max-durability: 500
@@ -113,7 +113,7 @@ PICKAXE_TAN_BINH_4:
 PICKAXE_TAN_BINH_5:
   base:
     custom-maxsockets: 1.0
-    revision-id: 3
+    revision-id: 4
     material: WOODEN_PICKAXE
     name: "&fCúp Tân Binh &e&lV"
     max-durability: 500
@@ -141,7 +141,7 @@ PICKAXE_TAN_BINH_5:
 PICKAXE_TU_NHAN_1:
   base:
     custom-maxsockets: 2.0
-    revision-id: 3
+    revision-id: 4
     material: STONE_PICKAXE
     name: "&aCúp Tù Nhân &e&lI"
     max-durability: 1000
@@ -169,7 +169,7 @@ PICKAXE_TU_NHAN_1:
 PICKAXE_TU_NHAN_2:
   base:
     custom-maxsockets: 2.0
-    revision-id: 3
+    revision-id: 4
     material: STONE_PICKAXE
     name: "&aCúp Tù Nhân &e&lII"
     max-durability: 1000
@@ -197,7 +197,7 @@ PICKAXE_TU_NHAN_2:
 PICKAXE_TU_NHAN_3:
   base:
     custom-maxsockets: 2.0
-    revision-id: 3
+    revision-id: 4
     material: STONE_PICKAXE
     name: "&aCúp Tù Nhân &e&lIII"
     max-durability: 1000
@@ -225,7 +225,7 @@ PICKAXE_TU_NHAN_3:
 PICKAXE_TU_NHAN_4:
   base:
     custom-maxsockets: 2.0
-    revision-id: 3
+    revision-id: 4
     material: STONE_PICKAXE
     name: "&aCúp Tù Nhân &e&lIV"
     max-durability: 1000
@@ -253,7 +253,7 @@ PICKAXE_TU_NHAN_4:
 PICKAXE_TU_NHAN_5:
   base:
     custom-maxsockets: 2.0
-    revision-id: 3
+    revision-id: 4
     material: STONE_PICKAXE
     name: "&aCúp Tù Nhân &e&lV"
     max-durability: 1000
@@ -281,7 +281,7 @@ PICKAXE_TU_NHAN_5:
 PICKAXE_LAO_CONG_1:
   base:
     custom-maxsockets: 2.0
-    revision-id: 3
+    revision-id: 4
     material: IRON_PICKAXE
     name: "&bCúp Lao Công &e&lI"
     max-durability: 2000
@@ -309,7 +309,7 @@ PICKAXE_LAO_CONG_1:
 PICKAXE_LAO_CONG_2:
   base:
     custom-maxsockets: 2.0
-    revision-id: 3
+    revision-id: 4
     material: IRON_PICKAXE
     name: "&bCúp Lao Công &e&lII"
     max-durability: 2000
@@ -337,7 +337,7 @@ PICKAXE_LAO_CONG_2:
 PICKAXE_LAO_CONG_3:
   base:
     custom-maxsockets: 2.0
-    revision-id: 3
+    revision-id: 4
     material: IRON_PICKAXE
     name: "&bCúp Lao Công &e&lIII"
     max-durability: 2000
@@ -365,7 +365,7 @@ PICKAXE_LAO_CONG_3:
 PICKAXE_LAO_CONG_4:
   base:
     custom-maxsockets: 2.0
-    revision-id: 3
+    revision-id: 4
     material: IRON_PICKAXE
     name: "&bCúp Lao Công &e&lIV"
     max-durability: 2000
@@ -393,7 +393,7 @@ PICKAXE_LAO_CONG_4:
 PICKAXE_LAO_CONG_5:
   base:
     custom-maxsockets: 2.0
-    revision-id: 3
+    revision-id: 4
     material: IRON_PICKAXE
     name: "&bCúp Lao Công &e&lV"
     max-durability: 2000
@@ -421,7 +421,7 @@ PICKAXE_LAO_CONG_5:
 PICKAXE_THO_DAO_1:
   base:
     custom-maxsockets: 3.0
-    revision-id: 3
+    revision-id: 4
     material: IRON_PICKAXE
     name: "&eCúp Thợ Đào &e&lI"
     max-durability: 3500
@@ -449,7 +449,7 @@ PICKAXE_THO_DAO_1:
 PICKAXE_THO_DAO_2:
   base:
     custom-maxsockets: 3.0
-    revision-id: 3
+    revision-id: 4
     material: IRON_PICKAXE
     name: "&eCúp Thợ Đào &e&lII"
     max-durability: 3500
@@ -477,7 +477,7 @@ PICKAXE_THO_DAO_2:
 PICKAXE_THO_DAO_3:
   base:
     custom-maxsockets: 3.0
-    revision-id: 3
+    revision-id: 4
     material: IRON_PICKAXE
     name: "&eCúp Thợ Đào &e&lIII"
     max-durability: 3500
@@ -505,7 +505,7 @@ PICKAXE_THO_DAO_3:
 PICKAXE_THO_DAO_4:
   base:
     custom-maxsockets: 3.0
-    revision-id: 3
+    revision-id: 4
     material: IRON_PICKAXE
     name: "&eCúp Thợ Đào &e&lIV"
     max-durability: 3500
@@ -533,7 +533,7 @@ PICKAXE_THO_DAO_4:
 PICKAXE_THO_DAO_5:
   base:
     custom-maxsockets: 3.0
-    revision-id: 3
+    revision-id: 4
     material: IRON_PICKAXE
     name: "&eCúp Thợ Đào &e&lV"
     max-durability: 3500
@@ -561,7 +561,7 @@ PICKAXE_THO_DAO_5:
 PICKAXE_DOI_TRUONG_1:
   base:
     custom-maxsockets: 3.0
-    revision-id: 3
+    revision-id: 4
     material: DIAMOND_PICKAXE
     name: "&6Cúp Đội Trưởng &e&lI"
     max-durability: 5000
@@ -589,7 +589,7 @@ PICKAXE_DOI_TRUONG_1:
 PICKAXE_DOI_TRUONG_2:
   base:
     custom-maxsockets: 3.0
-    revision-id: 3
+    revision-id: 4
     material: DIAMOND_PICKAXE
     name: "&6Cúp Đội Trưởng &e&lII"
     max-durability: 5000
@@ -617,7 +617,7 @@ PICKAXE_DOI_TRUONG_2:
 PICKAXE_DOI_TRUONG_3:
   base:
     custom-maxsockets: 3.0
-    revision-id: 3
+    revision-id: 4
     material: DIAMOND_PICKAXE
     name: "&6Cúp Đội Trưởng &e&lIII"
     max-durability: 5000
@@ -645,7 +645,7 @@ PICKAXE_DOI_TRUONG_3:
 PICKAXE_DOI_TRUONG_4:
   base:
     custom-maxsockets: 3.0
-    revision-id: 3
+    revision-id: 4
     material: DIAMOND_PICKAXE
     name: "&6Cúp Đội Trưởng &e&lIV"
     max-durability: 5000
@@ -673,7 +673,7 @@ PICKAXE_DOI_TRUONG_4:
 PICKAXE_DOI_TRUONG_5:
   base:
     custom-maxsockets: 3.0
-    revision-id: 3
+    revision-id: 4
     material: DIAMOND_PICKAXE
     name: "&6Cúp Đội Trưởng &e&lV"
     max-durability: 5000
@@ -701,7 +701,7 @@ PICKAXE_DOI_TRUONG_5:
 PICKAXE_PHO_QUAN_NGUC_1:
   base:
     custom-maxsockets: 4.0
-    revision-id: 3
+    revision-id: 4
     material: DIAMOND_PICKAXE
     name: "&cCúp Phó Quản Ngục &e&lI"
     max-durability: 7000
@@ -729,7 +729,7 @@ PICKAXE_PHO_QUAN_NGUC_1:
 PICKAXE_PHO_QUAN_NGUC_2:
   base:
     custom-maxsockets: 4.0
-    revision-id: 3
+    revision-id: 4
     material: DIAMOND_PICKAXE
     name: "&cCúp Phó Quản Ngục &e&lII"
     max-durability: 7000
@@ -757,7 +757,7 @@ PICKAXE_PHO_QUAN_NGUC_2:
 PICKAXE_PHO_QUAN_NGUC_3:
   base:
     custom-maxsockets: 4.0
-    revision-id: 3
+    revision-id: 4
     material: DIAMOND_PICKAXE
     name: "&cCúp Phó Quản Ngục &e&lIII"
     max-durability: 7000
@@ -785,7 +785,7 @@ PICKAXE_PHO_QUAN_NGUC_3:
 PICKAXE_PHO_QUAN_NGUC_4:
   base:
     custom-maxsockets: 4.0
-    revision-id: 3
+    revision-id: 4
     material: DIAMOND_PICKAXE
     name: "&cCúp Phó Quản Ngục &e&lIV"
     max-durability: 7000
@@ -813,7 +813,7 @@ PICKAXE_PHO_QUAN_NGUC_4:
 PICKAXE_PHO_QUAN_NGUC_5:
   base:
     custom-maxsockets: 4.0
-    revision-id: 3
+    revision-id: 4
     material: DIAMOND_PICKAXE
     name: "&cCúp Phó Quản Ngục &e&lV"
     max-durability: 7000
@@ -841,7 +841,7 @@ PICKAXE_PHO_QUAN_NGUC_5:
 PICKAXE_QUAN_NGUC_1:
   base:
     custom-maxsockets: 5.0
-    revision-id: 3
+    revision-id: 4
     material: NETHERITE_PICKAXE
     name: "&dCúp Quản Ngục &e&lI"
     max-durability: 9500
@@ -869,7 +869,7 @@ PICKAXE_QUAN_NGUC_1:
 PICKAXE_QUAN_NGUC_2:
   base:
     custom-maxsockets: 5.0
-    revision-id: 3
+    revision-id: 4
     material: NETHERITE_PICKAXE
     name: "&dCúp Quản Ngục &e&lII"
     max-durability: 9500
@@ -897,7 +897,7 @@ PICKAXE_QUAN_NGUC_2:
 PICKAXE_QUAN_NGUC_3:
   base:
     custom-maxsockets: 5.0
-    revision-id: 3
+    revision-id: 4
     material: NETHERITE_PICKAXE
     name: "&dCúp Quản Ngục &e&lIII"
     max-durability: 9500
@@ -925,7 +925,7 @@ PICKAXE_QUAN_NGUC_3:
 PICKAXE_QUAN_NGUC_4:
   base:
     custom-maxsockets: 5.0
-    revision-id: 3
+    revision-id: 4
     material: NETHERITE_PICKAXE
     name: "&dCúp Quản Ngục &e&lIV"
     max-durability: 9500
@@ -953,7 +953,7 @@ PICKAXE_QUAN_NGUC_4:
 PICKAXE_QUAN_NGUC_5:
   base:
     custom-maxsockets: 5.0
-    revision-id: 3
+    revision-id: 4
     material: NETHERITE_PICKAXE
     name: "&dCúp Quản Ngục &e&lV"
     max-durability: 9500
@@ -981,7 +981,7 @@ PICKAXE_QUAN_NGUC_5:
 PICKAXE_BA_CHU_NGUC_TU_1:
   base:
     custom-maxsockets: 6.0
-    revision-id: 3
+    revision-id: 4
     material: NETHERITE_PICKAXE
     name: "&5Cúp Bá Chủ Ngục Tù &e&lI"
     max-durability: 12500
@@ -1009,7 +1009,7 @@ PICKAXE_BA_CHU_NGUC_TU_1:
 PICKAXE_BA_CHU_NGUC_TU_2:
   base:
     custom-maxsockets: 6.0
-    revision-id: 3
+    revision-id: 4
     material: NETHERITE_PICKAXE
     name: "&5Cúp Bá Chủ Ngục Tù &e&lII"
     max-durability: 12500
@@ -1037,7 +1037,7 @@ PICKAXE_BA_CHU_NGUC_TU_2:
 PICKAXE_BA_CHU_NGUC_TU_3:
   base:
     custom-maxsockets: 6.0
-    revision-id: 3
+    revision-id: 4
     material: NETHERITE_PICKAXE
     name: "&5Cúp Bá Chủ Ngục Tù &e&lIII"
     max-durability: 12500
@@ -1065,7 +1065,7 @@ PICKAXE_BA_CHU_NGUC_TU_3:
 PICKAXE_BA_CHU_NGUC_TU_4:
   base:
     custom-maxsockets: 6.0
-    revision-id: 3
+    revision-id: 4
     material: NETHERITE_PICKAXE
     name: "&5Cúp Bá Chủ Ngục Tù &e&lIV"
     max-durability: 12500
@@ -1093,7 +1093,7 @@ PICKAXE_BA_CHU_NGUC_TU_4:
 PICKAXE_BA_CHU_NGUC_TU_5:
   base:
     custom-maxsockets: 6.0
-    revision-id: 3
+    revision-id: 4
     material: NETHERITE_PICKAXE
     name: "&5Cúp Bá Chủ Ngục Tù &e&lV"
     max-durability: 12500
@@ -1121,7 +1121,7 @@ PICKAXE_BA_CHU_NGUC_TU_5:
 PICKAXE_VUOT_NGUC_1:
   base:
     custom-maxsockets: 7.0
-    revision-id: 3
+    revision-id: 4
     material: NETHERITE_PICKAXE
     name: "&4Cúp Vượt Ngục &e&lI"
     max-durability: 16000
@@ -1149,7 +1149,7 @@ PICKAXE_VUOT_NGUC_1:
 PICKAXE_VUOT_NGUC_2:
   base:
     custom-maxsockets: 7.0
-    revision-id: 3
+    revision-id: 4
     material: NETHERITE_PICKAXE
     name: "&4Cúp Vượt Ngục &e&lII"
     max-durability: 16000
@@ -1177,7 +1177,7 @@ PICKAXE_VUOT_NGUC_2:
 PICKAXE_VUOT_NGUC_3:
   base:
     custom-maxsockets: 7.0
-    revision-id: 3
+    revision-id: 4
     material: NETHERITE_PICKAXE
     name: "&4Cúp Vượt Ngục &e&lIII"
     max-durability: 16000
@@ -1205,7 +1205,7 @@ PICKAXE_VUOT_NGUC_3:
 PICKAXE_VUOT_NGUC_4:
   base:
     custom-maxsockets: 7.0
-    revision-id: 3
+    revision-id: 4
     material: NETHERITE_PICKAXE
     name: "&4Cúp Vượt Ngục &e&lIV"
     max-durability: 16000
@@ -1233,7 +1233,7 @@ PICKAXE_VUOT_NGUC_4:
 PICKAXE_VUOT_NGUC_5:
   base:
     custom-maxsockets: 7.0
-    revision-id: 3
+    revision-id: 4
     material: NETHERITE_PICKAXE
     name: "&4Cúp Vượt Ngục &e&lV"
     max-durability: 16000

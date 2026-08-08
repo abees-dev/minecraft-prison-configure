@@ -2,7 +2,7 @@
 STAFF_TAN_BINH_1:
   base:
     custom-maxsockets: 1.0
-    revision-id: 3
+    revision-id: 4
     material: STICK
     name: "&fTrượng Phép Tân Binh &e&lI"
     max-durability: 500
@@ -32,7 +32,7 @@ STAFF_TAN_BINH_1:
 STAFF_TAN_BINH_2:
   base:
     custom-maxsockets: 1.0
-    revision-id: 3
+    revision-id: 4
     material: STICK
     name: "&fTrượng Phép Tân Binh &e&lII"
     max-durability: 500
@@ -62,7 +62,7 @@ STAFF_TAN_BINH_2:
 STAFF_TAN_BINH_3:
   base:
     custom-maxsockets: 1.0
-    revision-id: 3
+    revision-id: 4
     material: STICK
     name: "&fTrượng Phép Tân Binh &e&lIII"
     max-durability: 500
@@ -92,7 +92,7 @@ STAFF_TAN_BINH_3:
 STAFF_TAN_BINH_4:
   base:
     custom-maxsockets: 1.0
-    revision-id: 3
+    revision-id: 4
     material: STICK
     name: "&fTrượng Phép Tân Binh &e&lIV"
     max-durability: 500
@@ -122,7 +122,7 @@ STAFF_TAN_BINH_4:
 STAFF_TAN_BINH_5:
   base:
     custom-maxsockets: 1.0
-    revision-id: 3
+    revision-id: 4
     material: STICK
     name: "&fTrượng Phép Tân Binh &e&lV"
     max-durability: 500
@@ -152,7 +152,7 @@ STAFF_TAN_BINH_5:
 STAFF_TU_NHAN_1:
   base:
     custom-maxsockets: 2.0
-    revision-id: 3
+    revision-id: 4
     material: STICK
     name: "&aTrượng Phép Tù Nhân &e&lI"
     max-durability: 1000
@@ -182,7 +182,7 @@ STAFF_TU_NHAN_1:
 STAFF_TU_NHAN_2:
   base:
     custom-maxsockets: 2.0
-    revision-id: 3
+    revision-id: 4
     material: STICK
     name: "&aTrượng Phép Tù Nhân &e&lII"
     max-durability: 1000
@@ -212,7 +212,7 @@ STAFF_TU_NHAN_2:
 STAFF_TU_NHAN_3:
   base:
     custom-maxsockets: 2.0
-    revision-id: 3
+    revision-id: 4
     material: STICK
     name: "&aTrượng Phép Tù Nhân &e&lIII"
     max-durability: 1000
@@ -242,7 +242,7 @@ STAFF_TU_NHAN_3:
 STAFF_TU_NHAN_4:
   base:
     custom-maxsockets: 2.0
-    revision-id: 3
+    revision-id: 4
     material: STICK
     name: "&aTrượng Phép Tù Nhân &e&lIV"
     max-durability: 1000
@@ -272,7 +272,7 @@ STAFF_TU_NHAN_4:
 STAFF_TU_NHAN_5:
   base:
     custom-maxsockets: 2.0
-    revision-id: 3
+    revision-id: 4
     material: STICK
     name: "&aTrượng Phép Tù Nhân &e&lV"
     max-durability: 1000
@@ -303,7 +303,7 @@ STAFF_LAO_CONG_1:
   itemsadder-item: "firework_set:firework_staff"
   base:
     custom-maxsockets: 2.0
-    revision-id: 3
+    revision-id: 4
     material: STICK
     name: "&bTrượng Phép Lao Công &e&lI"
     max-durability: 2000
@@ -339,7 +339,7 @@ STAFF_LAO_CONG_2:
   itemsadder-item: "firework_set:firework_staff"
   base:
     custom-maxsockets: 2.0
-    revision-id: 3
+    revision-id: 4
     material: STICK
     name: "&bTrượng Phép Lao Công &e&lII"
     max-durability: 2000
@@ -375,7 +375,7 @@ STAFF_LAO_CONG_3:
   itemsadder-item: "firework_set:firework_staff"
   base:
     custom-maxsockets: 2.0
-    revision-id: 3
+    revision-id: 4
     material: STICK
     name: "&bTrượng Phép Lao Công &e&lIII"
     max-durability: 2000
@@ -411,7 +411,7 @@ STAFF_LAO_CONG_4:
   itemsadder-item: "firework_set:firework_staff"
   base:
     custom-maxsockets: 2.0
-    revision-id: 3
+    revision-id: 4
     material: STICK
     name: "&bTrượng Phép Lao Công &e&lIV"
     max-durability: 2000
@@ -447,7 +447,7 @@ STAFF_LAO_CONG_5:
   itemsadder-item: "firework_set:firework_staff"
   base:
     custom-maxsockets: 2.0
-    revision-id: 3
+    revision-id: 4
     material: STICK
     name: "&bTrượng Phép Lao Công &e&lV"
     max-durability: 2000
@@ -483,7 +483,7 @@ STAFF_THO_DAO_1:
   itemsadder-item: "mysticcyanset:mysticcyan_staff"
   base:
     custom-maxsockets: 3.0
-    revision-id: 3
+    revision-id: 4
     material: STICK
     name: "&eTrượng Phép Thợ Đào &e&lI"
     max-durability: 3000
@@ -519,7 +519,7 @@ STAFF_THO_DAO_2:
   itemsadder-item: "mysticcyanset:mysticcyan_staff"
   base:
     custom-maxsockets: 3.0
-    revision-id: 3
+    revision-id: 4
     material: STICK
     name: "&eTrượng Phép Thợ Đào &e&lII"
     max-durability: 3000
@@ -555,7 +555,7 @@ STAFF_THO_DAO_3:
   itemsadder-item: "mysticcyanset:mysticcyan_staff"
   base:
     custom-maxsockets: 3.0
-    revision-id: 3
+    revision-id: 4
     material: STICK
     name: "&eTrượng Phép Thợ Đào &e&lIII"
     max-durability: 3000
@@ -591,7 +591,7 @@ STAFF_THO_DAO_4:
   itemsadder-item: "mysticcyanset:mysticcyan_staff"
   base:
     custom-maxsockets: 3.0
-    revision-id: 3
+    revision-id: 4
     material: STICK
     name: "&eTrượng Phép Thợ Đào &e&lIV"
     max-durability: 3000
@@ -627,7 +627,7 @@ STAFF_THO_DAO_5:
   itemsadder-item: "mysticcyanset:mysticcyan_staff"
   base:
     custom-maxsockets: 3.0
-    revision-id: 3
+    revision-id: 4
     material: STICK
     name: "&eTrượng Phép Thợ Đào &e&lV"
     max-durability: 3000
@@ -663,7 +663,7 @@ STAFF_DOI_TRUONG_1:
   itemsadder-item: "nanoedge_set:nanoedge_staff"
   base:
     custom-maxsockets: 3.0
-    revision-id: 3
+    revision-id: 4
     material: STICK
     name: "&6Trượng Phép Đội Trưởng &e&lI"
     max-durability: 4500
@@ -700,7 +700,7 @@ STAFF_DOI_TRUONG_2:
   itemsadder-item: "nanoedge_set:nanoedge_staff"
   base:
     custom-maxsockets: 3.0
-    revision-id: 3
+    revision-id: 4
     material: STICK
     name: "&6Trượng Phép Đội Trưởng &e&lII"
     max-durability: 4500
@@ -737,7 +737,7 @@ STAFF_DOI_TRUONG_3:
   itemsadder-item: "nanoedge_set:nanoedge_staff"
   base:
     custom-maxsockets: 3.0
-    revision-id: 3
+    revision-id: 4
     material: STICK
     name: "&6Trượng Phép Đội Trưởng &e&lIII"
     max-durability: 4500
@@ -774,7 +774,7 @@ STAFF_DOI_TRUONG_4:
   itemsadder-item: "nanoedge_set:nanoedge_staff"
   base:
     custom-maxsockets: 3.0
-    revision-id: 3
+    revision-id: 4
     material: STICK
     name: "&6Trượng Phép Đội Trưởng &e&lIV"
     max-durability: 4500
@@ -811,7 +811,7 @@ STAFF_DOI_TRUONG_5:
   itemsadder-item: "nanoedge_set:nanoedge_staff"
   base:
     custom-maxsockets: 3.0
-    revision-id: 3
+    revision-id: 4
     material: STICK
     name: "&6Trượng Phép Đội Trưởng &e&lV"
     max-durability: 4500
@@ -848,7 +848,7 @@ STAFF_PHO_QUAN_NGUC_1:
   itemsadder-item: "demon_edgeset:demon_edge_staff"
   base:
     custom-maxsockets: 4.0
-    revision-id: 3
+    revision-id: 4
     material: STICK
     name: "&cTrượng Phép Phó Quản Ngục &e&lI"
     max-durability: 6000
@@ -886,7 +886,7 @@ STAFF_PHO_QUAN_NGUC_2:
   itemsadder-item: "demon_edgeset:demon_edge_staff"
   base:
     custom-maxsockets: 4.0
-    revision-id: 3
+    revision-id: 4
     material: STICK
     name: "&cTrượng Phép Phó Quản Ngục &e&lII"
     max-durability: 6000
@@ -924,7 +924,7 @@ STAFF_PHO_QUAN_NGUC_3:
   itemsadder-item: "demon_edgeset:demon_edge_staff"
   base:
     custom-maxsockets: 4.0
-    revision-id: 3
+    revision-id: 4
     material: STICK
     name: "&cTrượng Phép Phó Quản Ngục &e&lIII"
     max-durability: 6000
@@ -962,7 +962,7 @@ STAFF_PHO_QUAN_NGUC_4:
   itemsadder-item: "demon_edgeset:demon_edge_staff"
   base:
     custom-maxsockets: 4.0
-    revision-id: 3
+    revision-id: 4
     material: STICK
     name: "&cTrượng Phép Phó Quản Ngục &e&lIV"
     max-durability: 6000
@@ -1000,7 +1000,7 @@ STAFF_PHO_QUAN_NGUC_5:
   itemsadder-item: "demon_edgeset:demon_edge_staff"
   base:
     custom-maxsockets: 4.0
-    revision-id: 3
+    revision-id: 4
     material: STICK
     name: "&cTrượng Phép Phó Quản Ngục &e&lV"
     max-durability: 6000
@@ -1038,7 +1038,7 @@ STAFF_QUAN_NGUC_1:
   itemsadder-item: "necros_set:necros_staff"
   base:
     custom-maxsockets: 5.0
-    revision-id: 3
+    revision-id: 4
     material: STICK
     name: "&dTrượng Phép Quản Ngục &e&lI"
     max-durability: 8000
@@ -1081,7 +1081,7 @@ STAFF_QUAN_NGUC_2:
   itemsadder-item: "necros_set:necros_staff"
   base:
     custom-maxsockets: 5.0
-    revision-id: 3
+    revision-id: 4
     material: STICK
     name: "&dTrượng Phép Quản Ngục &e&lII"
     max-durability: 8000
@@ -1124,7 +1124,7 @@ STAFF_QUAN_NGUC_3:
   itemsadder-item: "necros_set:necros_staff"
   base:
     custom-maxsockets: 5.0
-    revision-id: 3
+    revision-id: 4
     material: STICK
     name: "&dTrượng Phép Quản Ngục &e&lIII"
     max-durability: 8000
@@ -1167,7 +1167,7 @@ STAFF_QUAN_NGUC_4:
   itemsadder-item: "necros_set:necros_staff"
   base:
     custom-maxsockets: 5.0
-    revision-id: 3
+    revision-id: 4
     material: STICK
     name: "&dTrượng Phép Quản Ngục &e&lIV"
     max-durability: 8000
@@ -1210,7 +1210,7 @@ STAFF_QUAN_NGUC_5:
   itemsadder-item: "necros_set:necros_staff"
   base:
     custom-maxsockets: 5.0
-    revision-id: 3
+    revision-id: 4
     material: STICK
     name: "&dTrượng Phép Quản Ngục &e&lV"
     max-durability: 8000
@@ -1253,7 +1253,7 @@ STAFF_BA_CHU_NGUC_TU_1:
   itemsadder-item: "royal_crystal:royal_crysta_staff"
   base:
     custom-maxsockets: 6.0
-    revision-id: 3
+    revision-id: 4
     material: STICK
     name: "&5Trượng Phép Bá Chủ Ngục Tù &e&lI"
     max-durability: 10000
@@ -1296,7 +1296,7 @@ STAFF_BA_CHU_NGUC_TU_2:
   itemsadder-item: "royal_crystal:royal_crysta_staff"
   base:
     custom-maxsockets: 6.0
-    revision-id: 3
+    revision-id: 4
     material: STICK
     name: "&5Trượng Phép Bá Chủ Ngục Tù &e&lII"
     max-durability: 10000
@@ -1339,7 +1339,7 @@ STAFF_BA_CHU_NGUC_TU_3:
   itemsadder-item: "royal_crystal:royal_crysta_staff"
   base:
     custom-maxsockets: 6.0
-    revision-id: 3
+    revision-id: 4
     material: STICK
     name: "&5Trượng Phép Bá Chủ Ngục Tù &e&lIII"
     max-durability: 10000
@@ -1382,7 +1382,7 @@ STAFF_BA_CHU_NGUC_TU_4:
   itemsadder-item: "royal_crystal:royal_crysta_staff"
   base:
     custom-maxsockets: 6.0
-    revision-id: 3
+    revision-id: 4
     material: STICK
     name: "&5Trượng Phép Bá Chủ Ngục Tù &e&lIV"
     max-durability: 10000
@@ -1425,7 +1425,7 @@ STAFF_BA_CHU_NGUC_TU_5:
   itemsadder-item: "royal_crystal:royal_crysta_staff"
   base:
     custom-maxsockets: 6.0
-    revision-id: 3
+    revision-id: 4
     material: STICK
     name: "&5Trượng Phép Bá Chủ Ngục Tù &e&lV"
     max-durability: 10000
@@ -1468,7 +1468,7 @@ STAFF_VUOT_NGUC_1:
   itemsadder-item: "archmage:archmage_staff"
   base:
     custom-maxsockets: 7.0
-    revision-id: 3
+    revision-id: 4
     material: STICK
     custom-model-data: 2043
     name: "&4Trượng Phép Vượt Ngục &e&lI"
@@ -1512,7 +1512,7 @@ STAFF_VUOT_NGUC_2:
   itemsadder-item: "archmage:archmage_staff"
   base:
     custom-maxsockets: 7.0
-    revision-id: 3
+    revision-id: 4
     material: STICK
     custom-model-data: 2043
     name: "&4Trượng Phép Vượt Ngục &e&lII"
@@ -1556,7 +1556,7 @@ STAFF_VUOT_NGUC_3:
   itemsadder-item: "archmage:archmage_staff"
   base:
     custom-maxsockets: 7.0
-    revision-id: 3
+    revision-id: 4
     material: STICK
     custom-model-data: 2043
     name: "&4Trượng Phép Vượt Ngục &e&lIII"
@@ -1600,7 +1600,7 @@ STAFF_VUOT_NGUC_4:
   itemsadder-item: "archmage:archmage_staff"
   base:
     custom-maxsockets: 7.0
-    revision-id: 3
+    revision-id: 4
     material: STICK
     custom-model-data: 2043
     name: "&4Trượng Phép Vượt Ngục &e&lIV"
@@ -1644,7 +1644,7 @@ STAFF_VUOT_NGUC_5:
   itemsadder-item: "archmage:archmage_staff_shiny"
   base:
     custom-maxsockets: 7.0
-    revision-id: 3
+    revision-id: 4
     material: STICK
     custom-model-data: 2044
     name: "&4Trượng Phép Vượt Ngục &e&lV"
@@ -1688,7 +1688,7 @@ GACHA_STAFF_REVENANT:
   itemsadder-item: "fantasy_weapons:revenants_gravescepter"
   base:
     custom-maxsockets: 7.0
-    revision-id: 3
+    revision-id: 4
     material: STICK
     custom-model-data: 10005
     name: "&d&lU Hồn Quyền Trượng"
@@ -1736,7 +1736,7 @@ GACHA_STAFF_AZURE_SCYTHE:
   itemsadder-item: "fantasy_weapons:azure_scythe"
   base:
     custom-maxsockets: 7.0
-    revision-id: 3
+    revision-id: 4
     material: STICK
     custom-model-data: 10000
     name: "&3&lBăng Long Tử Thần Lưỡi Hái"
@@ -1783,7 +1783,7 @@ GACHA_STAFF_OCULUS:
   itemsadder-item: "fantasy_weapons:oculus"
   base:
     custom-maxsockets: 7.0
-    revision-id: 3
+    revision-id: 4
     material: STICK
     custom-model-data: 10019
     name: "&b&lMa Nhãn Thần Trượng"

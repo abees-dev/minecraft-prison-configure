@@ -327,6 +327,11 @@ Test không NPC: `/mi stations open weapon-forge-rookie`
 ---
 
 ## ⚡ 4. Lệnh Reload MMOItems
+
+> Cách định nghĩa sức mạnh một món đồ, công thức damage mỗi hit/DPS, cường hóa,
+> gem, set bonus và Defense được tổng hợp tại
+> [`gems-combat-damage.md`](../reference/gems-combat-damage.md).
+
 Sau khi chỉnh sửa bất kỳ file config nào trong MMOItems:
 * Gõ lệnh in-game: `/mi reload` (yêu cầu quyền OP hoặc `mmoitems.admin`).
 

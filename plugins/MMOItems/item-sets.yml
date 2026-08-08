@@ -273,9 +273,9 @@ BANG_LONG_SET:
       potion-damage_resistance: 1
   lore-tag:
     - "&3&lBỘ Băng Long"
-    - "&8[2] &c+150 Máu Tối Đa &7| &a+12 Phòng Thủ Bổ Sung"
-    - "&8[3] &c+300 Máu Tối Đa &7| &a+22 Phòng Thủ Bổ Sung &7| &b+10% Giảm Mọi Sát Thương"
-    - "&8[4] &c+500 Máu Tối Đa &7| &a+35 Phòng Thủ Bổ Sung &7| &b+18% Giảm Mọi Sát Thương"
+    - "&8[2] &c+150 Máu Tối Đa &7| &a+12 Phòng Thủ"
+    - "&8[3] &c+300 Máu Tối Đa &7| &a+22 Phòng Thủ &7| &b+10% Giảm Mọi Sát Thương"
+    - "&8[4] &c+500 Máu Tối Đa &7| &a+35 Phòng Thủ &7| &b+18% Giảm Mọi Sát Thương"
     - "&8↳ &bHiệu ứng giảm sát thương I"
 
 # ============================================================
@@ -387,9 +387,9 @@ LONG_VE_SET:
       potion-damage_resistance: 1
   lore-tag:
     - "&a&lBỘ Hộ Long"
-    - "&8[2] &c+150 Máu Tối Đa &7| &a+12 Phòng Thủ Bổ Sung"
-    - "&8[3] &c+300 Máu Tối Đa &7| &a+22 Phòng Thủ Bổ Sung &7| &b+10% Giảm Mọi Sát Thương"
-    - "&8[4] &c+500 Máu Tối Đa &7| &a+35 Phòng Thủ Bổ Sung &7| &b+18% Giảm Mọi Sát Thương"
+    - "&8[2] &c+150 Máu Tối Đa &7| &a+12 Phòng Thủ"
+    - "&8[3] &c+300 Máu Tối Đa &7| &a+22 Phòng Thủ &7| &b+10% Giảm Mọi Sát Thương"
+    - "&8[4] &c+500 Máu Tối Đa &7| &a+35 Phòng Thủ &7| &b+18% Giảm Mọi Sát Thương"
     - "&8↳ &bHiệu ứng giảm sát thương I"
 
 # ============================================================
@@ -501,7 +501,7 @@ BAC_LONG_SET:
       potion-damage_resistance: 1
   lore-tag:
     - "&f&lBỘ Bạch Long Linh"
-    - "&8[2] &f+150 Máu Tối Đa &7| &a+12 Phòng Thủ Bổ Sung"
-    - "&8[3] &f+300 Máu Tối Đa &7| &a+22 Phòng Thủ Bổ Sung &7| &b+10% Giảm Mọi Sát Thương"
-    - "&8[4] &f+500 Máu Tối Đa &7| &a+35 Phòng Thủ Bổ Sung &7| &b+18% Giảm Mọi Sát Thương"
+    - "&8[2] &f+150 Máu Tối Đa &7| &a+12 Phòng Thủ"
+    - "&8[3] &f+300 Máu Tối Đa &7| &a+22 Phòng Thủ &7| &b+10% Giảm Mọi Sát Thương"
+    - "&8[4] &f+500 Máu Tối Đa &7| &a+35 Phòng Thủ &7| &b+18% Giảm Mọi Sát Thương"
     - "&8↳ &bHiệu ứng giảm sát thương I"

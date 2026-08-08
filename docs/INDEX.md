@@ -29,6 +29,7 @@ Cập nhật: 2026-08-08. Bắt đầu tại [`README.md`](README.md).
 | [`../STAT_BALANCING_STANDARD.md`](../STAT_BALANCING_STANDARD.md) | Chuẩn cân bằng chỉ số F2P |
 | [`stat-balancing-donate.md`](reference/stat-balancing-donate.md) | Trần donate/gacha và Non-P2W |
 | [`stat-abbreviations.md`](reference/stat-abbreviations.md) | Quy chuẩn viết tắt chỉ số |
+| [`gems-combat-damage.md`](reference/gems-combat-damage.md) | Bảng ngọc random, trần chỉ số và công thức sát thương PvE/PvP |
 | [`item-classification.md`](reference/item-classification.md) | Phân loại item FREE/TRADE/DONATE |
 
 ## Prison, kinh tế và cuốc

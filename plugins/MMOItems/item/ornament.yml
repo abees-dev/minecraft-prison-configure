@@ -1,7 +1,7 @@
 # base-combat-stats-multiplier: 1.05
 BOOK_OF_STRENGTH:
   base:
-    revision-id: 1
+    revision-id: 2
     custom-maxsockets: 3.0
     material: BOOK
     name: §cBook of Strength

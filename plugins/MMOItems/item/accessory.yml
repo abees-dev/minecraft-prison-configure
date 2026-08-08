@@ -4,7 +4,7 @@ LONG_VUONG_RING_1:
   base:
     lore-format: jewelry-simple
     custom-maxsockets: 3.0
-    revision-id: 4
+    revision-id: 5
     material: PAPER
     custom-model-data: 19034
     name: "&c&lNhẫn Long Vương &7[Hữu]"
@@ -25,7 +25,7 @@ LONG_VUONG_RING_2:
   base:
     lore-format: jewelry-simple
     custom-maxsockets: 3.0
-    revision-id: 4
+    revision-id: 5
     material: PAPER
     custom-model-data: 19105
     name: "&c&lNhẫn Long Vương &7[Tả]"
@@ -46,7 +46,7 @@ BANG_TINH_RING_1:
   base:
     lore-format: jewelry-simple
     custom-maxsockets: 3.0
-    revision-id: 4
+    revision-id: 5
     material: PAPER
     custom-model-data: 19096
     name: "&b&lNhẫn Băng Tinh &7[Hữu]"
@@ -67,7 +67,7 @@ BANG_TINH_RING_2:
   base:
     lore-format: jewelry-simple
     custom-maxsockets: 3.0
-    revision-id: 4
+    revision-id: 5
     material: PAPER
     custom-model-data: 19087
     name: "&b&lNhẫn Băng Tinh &7[Tả]"
@@ -88,7 +88,7 @@ HAC_AM_RING_1:
   base:
     lore-format: jewelry-simple
     custom-maxsockets: 3.0
-    revision-id: 4
+    revision-id: 5
     material: PAPER
     custom-model-data: 19065
     name: "&d&lNhẫn Hắc Ám &7[Hữu]"
@@ -109,7 +109,7 @@ HAC_AM_RING_2:
   base:
     lore-format: jewelry-simple
     custom-maxsockets: 3.0
-    revision-id: 4
+    revision-id: 5
     material: PAPER
     custom-model-data: 19074
     name: "&d&lNhẫn Hắc Ám &7[Tả]"
@@ -130,7 +130,7 @@ LOI_THAN_RING_1:
   base:
     lore-format: jewelry-simple
     custom-maxsockets: 3.0
-    revision-id: 4
+    revision-id: 5
     material: PAPER
     custom-model-data: 19104
     name: "&e&lNhẫn Lôi Thần &7[Hữu]"
@@ -151,7 +151,7 @@ LOI_THAN_RING_2:
   base:
     lore-format: jewelry-simple
     custom-maxsockets: 3.0
-    revision-id: 4
+    revision-id: 5
     material: PAPER
     custom-model-data: 19021
     name: "&e&lNhẫn Lôi Thần &7[Tả]"
@@ -172,7 +172,7 @@ HOANG_GIA_RING_1:
   base:
     lore-format: jewelry-simple
     custom-maxsockets: 3.0
-    revision-id: 4
+    revision-id: 5
     material: PAPER
     custom-model-data: 19022
     name: "&6&lNhẫn Hoàng Gia &7[Hữu]"
@@ -193,7 +193,7 @@ HOANG_GIA_RING_2:
   base:
     lore-format: jewelry-simple
     custom-maxsockets: 3.0
-    revision-id: 4
+    revision-id: 5
     material: PAPER
     custom-model-data: 19072
     name: "&6&lNhẫn Hoàng Gia &7[Tả]"
@@ -214,7 +214,7 @@ LONG_VUONG_AMULET:
   base:
     lore-format: jewelry-simple
     custom-maxsockets: 3.0
-    revision-id: 4
+    revision-id: 5
     material: PAPER
     custom-model-data: 19403
     name: "&c&lDây Chuyền Long Vương"
@@ -235,7 +235,7 @@ BANG_TINH_AMULET:
   base:
     lore-format: jewelry-simple
     custom-maxsockets: 3.0
-    revision-id: 4
+    revision-id: 5
     material: PAPER
     custom-model-data: 19408
     name: "&b&lDây Chuyền Băng Tinh"
@@ -256,7 +256,7 @@ HAC_AM_AMULET:
   base:
     lore-format: jewelry-simple
     custom-maxsockets: 3.0
-    revision-id: 4
+    revision-id: 5
     material: PAPER
     custom-model-data: 19430
     name: "&d&lDây Chuyền Hắc Ám"
@@ -277,7 +277,7 @@ LOI_THAN_AMULET:
   base:
     lore-format: jewelry-simple
     custom-maxsockets: 3.0
-    revision-id: 4
+    revision-id: 5
     material: PAPER
     custom-model-data: 19417
     name: "&e&lDây Chuyền Lôi Thần"
@@ -298,7 +298,7 @@ HOANG_GIA_AMULET:
   base:
     lore-format: jewelry-simple
     custom-maxsockets: 3.0
-    revision-id: 4
+    revision-id: 5
     material: PAPER
     custom-model-data: 19435
     name: "&6&lDây Chuyền Hoàng Gia"
@@ -319,7 +319,7 @@ LONG_VUONG_BRACELET:
   base:
     lore-format: jewelry-simple
     custom-maxsockets: 3.0
-    revision-id: 4
+    revision-id: 5
     material: PAPER
     custom-model-data: 19006
     name: "&c&lVòng Tay Long Vương"
@@ -340,7 +340,7 @@ BANG_TINH_BRACELET:
   base:
     lore-format: jewelry-simple
     custom-maxsockets: 3.0
-    revision-id: 4
+    revision-id: 5
     material: PAPER
     custom-model-data: 19083
     name: "&b&lVòng Tay Băng Tinh"
@@ -361,7 +361,7 @@ HAC_AM_BRACELET:
   base:
     lore-format: jewelry-simple
     custom-maxsockets: 3.0
-    revision-id: 4
+    revision-id: 5
     material: PAPER
     custom-model-data: 19041
     name: "&d&lVòng Tay Hắc Ám"
@@ -382,7 +382,7 @@ LOI_THAN_BRACELET:
   base:
     lore-format: jewelry-simple
     custom-maxsockets: 3.0
-    revision-id: 4
+    revision-id: 5
     material: PAPER
     custom-model-data: 19045
     name: "&e&lVòng Tay Lôi Thần"
@@ -403,7 +403,7 @@ HOANG_GIA_BRACELET:
   base:
     lore-format: jewelry-simple
     custom-maxsockets: 3.0
-    revision-id: 4
+    revision-id: 5
     material: PAPER
     custom-model-data: 19048
     name: "&6&lVòng Tay Hoàng Gia"
@@ -424,7 +424,7 @@ LONG_VUONG_GLOVES:
   base:
     lore-format: jewelry-simple
     custom-maxsockets: 3.0
-    revision-id: 4
+    revision-id: 5
     material: PAPER
     custom-model-data: 19539
     name: "&c&lGăng Tay Long Vương"
@@ -445,7 +445,7 @@ BANG_TINH_GLOVES:
   base:
     lore-format: jewelry-simple
     custom-maxsockets: 3.0
-    revision-id: 4
+    revision-id: 5
     material: PAPER
     custom-model-data: 19581
     name: "&b&lGăng Tay Băng Tinh"
@@ -466,7 +466,7 @@ HAC_AM_GLOVES:
   base:
     lore-format: jewelry-simple
     custom-maxsockets: 3.0
-    revision-id: 4
+    revision-id: 5
     material: PAPER
     custom-model-data: 19557
     name: "&d&lGăng Tay Hắc Ám"
@@ -486,7 +486,7 @@ LOI_THAN_GLOVES:
   base:
     lore-format: jewelry-simple
     custom-maxsockets: 3.0
-    revision-id: 4
+    revision-id: 5
     material: PAPER
     custom-model-data: 19602
     name: "&e&lGăng Tay Lôi Thần"
@@ -507,7 +507,7 @@ HOANG_GIA_GLOVES:
   base:
     lore-format: jewelry-simple
     custom-maxsockets: 3.0
-    revision-id: 4
+    revision-id: 5
     material: PAPER
     custom-model-data: 19598
     name: "&6&lGăng Tay Hoàng Gia"

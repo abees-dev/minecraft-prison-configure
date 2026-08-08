@@ -50,7 +50,7 @@ max-health: "&7Máu Tối Đa: &c<plus>{value}"
 movement-speed: "&7Tốc Độ Di Chuyển: &e<plus>{value}"
 
 # Damage Reduction Stats
-defense: "&7Phòng Thủ Bổ Sung: &b<plus>{value}"
+defense: "&7Phòng Thủ: &b<plus>{value}"
 damage-reduction: "&7Giảm Mọi Sát Thương: &b<plus>{value}%"
 fall-damage-reduction: "&7Giảm Sát Thương Rơi: &b<plus>{value}%"
 fire-damage-reduction: "&7Kháng Sát Thương Lửa: &c<plus>{value}%"

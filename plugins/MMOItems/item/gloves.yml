@@ -4,7 +4,7 @@
   base:
     lore-format: jewelry-simple
     custom-maxsockets: 5.0
-    revision-id: 7
+    revision-id: 8
     material: PAPER
     custom-model-data: 19517
     name: "&6&l🔥 Găng Tay Hỏa Long"
@@ -26,7 +26,7 @@ TRADE_GLOVES_HAC_LONG:
   base:
     lore-format: jewelry-simple
     custom-maxsockets: 5.0
-    revision-id: 7
+    revision-id: 8
     material: PAPER
     custom-model-data: 19509
     name: "&5&l◆ Găng Tay Hắc Long"
@@ -48,7 +48,7 @@ TRADE_GLOVES_LOI_LONG:
   base:
     lore-format: jewelry-simple
     custom-maxsockets: 5.0
-    revision-id: 7
+    revision-id: 8
     material: PAPER
     custom-model-data: 19574
     name: "&e&l⚡ Găng Tay Lôi Long"
@@ -70,7 +70,7 @@ TRADE_GLOVES_PHONG_LONG:
   base:
     lore-format: jewelry-simple
     custom-maxsockets: 5.0
-    revision-id: 7
+    revision-id: 8
     material: PAPER
     custom-model-data: 19510
     name: "&2&l✦ Găng Tay Phong Long"
@@ -92,7 +92,7 @@ TRADE_GLOVES_BANG_LONG:
   base:
     lore-format: jewelry-simple
     custom-maxsockets: 5.0
-    revision-id: 7
+    revision-id: 8
     material: PAPER
     custom-model-data: 19591
     name: "&3&l✦ Găng Tay Băng Long"
@@ -115,7 +115,7 @@ DONATE_GLOVES_LONG_CHIEN:
   base:
     lore-format: jewelry-simple
     custom-maxsockets: 5.0
-    revision-id: 7
+    revision-id: 8
     material: PAPER
     custom-model-data: 19513
     name: "&e&l⚔ Găng Tay Chiến Long"
@@ -137,7 +137,7 @@ DONATE_GLOVES_LONG_THAN:
   base:
     lore-format: jewelry-simple
     custom-maxsockets: 5.0
-    revision-id: 7
+    revision-id: 8
     material: PAPER
     custom-model-data: 19596
     name: "&b&l✦ Găng Tay Thần Long"
@@ -159,7 +159,7 @@ DONATE_GLOVES_LONG_HOANG:
   base:
     lore-format: jewelry-simple
     custom-maxsockets: 5.0
-    revision-id: 7
+    revision-id: 8
     material: PAPER
     custom-model-data: 19586
     name: "&c&l★ Găng Tay Hoàng Long"
@@ -181,7 +181,7 @@ DONATE_GLOVES_LONG_DE:
   base:
     lore-format: jewelry-simple
     custom-maxsockets: 5.0
-    revision-id: 7
+    revision-id: 8
     material: PAPER
     custom-model-data: 19589
     name: "&4&l◆ Găng Tay Đế Long"
@@ -203,7 +203,7 @@ DONATE_GLOVES_LONG_VE:
   base:
     lore-format: jewelry-simple
     custom-maxsockets: 5.0
-    revision-id: 7
+    revision-id: 8
     material: PAPER
     custom-model-data: 19567
     name: "&a&l✦ Găng Tay Hộ Long"
@@ -226,7 +226,7 @@ FREE_GLOVES_THANH_LONG:
   base:
     lore-format: jewelry-simple
     custom-maxsockets: 2.0
-    revision-id: 7
+    revision-id: 8
     material: PAPER
     custom-model-data: 19562
     name: "&b&l⚡ Găng Tay Thanh Long"
@@ -248,7 +248,7 @@ FREE_GLOVES_XICH_LONG:
   base:
     lore-format: jewelry-simple
     custom-maxsockets: 2.0
-    revision-id: 7
+    revision-id: 8
     material: PAPER
     custom-model-data: 19534
     name: "&c&l🔥 Găng Tay Xích Long"
@@ -270,7 +270,7 @@ FREE_GLOVES_KIM_LONG:
   base:
     lore-format: jewelry-simple
     custom-maxsockets: 2.0
-    revision-id: 7
+    revision-id: 8
     material: PAPER
     custom-model-data: 19580
     name: "&e&l★ Găng Tay Kim Long"
@@ -292,7 +292,7 @@ FREE_GLOVES_THIEN_LONG:
   base:
     lore-format: jewelry-simple
     custom-maxsockets: 2.0
-    revision-id: 7
+    revision-id: 8
     material: PAPER
     custom-model-data: 19600
     name: "&d&l✦ Găng Tay Thiên Long"
@@ -314,7 +314,7 @@ FREE_GLOVES_BAC_LONG:
   base:
     lore-format: jewelry-simple
     custom-maxsockets: 2.0
-    revision-id: 7
+    revision-id: 8
     material: PAPER
     custom-model-data: 19566
     name: "&f&l✧ Găng Tay Bạch Long"

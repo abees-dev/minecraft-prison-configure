@@ -2,6 +2,9 @@
 
 > Lối chơi: [`docs/player/gameplay.md`](docs/player/gameplay.md) · Trần donate/gacha: [`docs/reference/stat-balancing-donate.md`](docs/reference/stat-balancing-donate.md) · Mục lục: [`docs/INDEX.md`](docs/INDEX.md)
 
+> Bảng ngọc và công thức sát thương hiện hành:
+> [`docs/reference/gems-combat-damage.md`](docs/reference/gems-combat-damage.md).
+
 Tài liệu này quy định tiêu chuẩn cân bằng chỉ số cho hệ thống Vật Phẩm (MMOItems), Trang Bị, Kỹ Năng (MMOCore Skills), Ngọc Khảm (Gem Stones) và Ô Khảm (Gem Sockets) cho server.
 
 ---
@@ -82,6 +85,11 @@ Mọi kỹ năng trong MMOCore đều quy định theo cấu trúc `base` (cơ b
 ---
 
 ## 💎 4. BẢNG NGUYÊN TẮC 10 NGUYÊN TỐ NGỌC KHẢM
+
+> Bảng cũ bên dưới chỉ còn mang tính thiết kế ban đầu. Số liệu live, cơ chế
+> random ±10% và tên chỉ số chuẩn nằm tại
+> [`gems-combat-damage.md`](docs/reference/gems-combat-damage.md); không dùng
+> bảng này để chỉnh config production.
 
 | Màu Ngọc | Phẩm Cấp | Nguyên Tố | Chỉ Số | Lv.I | Lv.V | Lv.X (Max) | Vai Trò Combat |
 |----------|----------|-----------|--------|------|------|------------|----------------|

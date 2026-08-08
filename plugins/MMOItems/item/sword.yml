@@ -3,7 +3,7 @@ TEST_REVISION_SWORD:
   revision-id: 7
   base:
     custom-maxsockets: 3.0
-    revision-id: 7
+    revision-id: 8
     material: IRON_SWORD
     name: "&c&l🧪 Kiếm Thử Nghiệm Revision (v5 - REVISION ROOT TEST)"
     hide-enchants: true
@@ -26,7 +26,7 @@ TEST_REVISION_SWORD:
 SWORD_TAN_BINH_1:
   base:
     custom-maxsockets: 1.0
-    revision-id: 3
+    revision-id: 4
     material: WOODEN_SWORD
     name: "&fKiếm Tân Binh &e&lI"
     max-durability: 500
@@ -49,7 +49,7 @@ SWORD_TAN_BINH_1:
 SWORD_TAN_BINH_2:
   base:
     custom-maxsockets: 1.0
-    revision-id: 3
+    revision-id: 4
     material: WOODEN_SWORD
     name: "&fKiếm Tân Binh &e&lII"
     max-durability: 500
@@ -72,7 +72,7 @@ SWORD_TAN_BINH_2:
 SWORD_TAN_BINH_3:
   base:
     custom-maxsockets: 1.0
-    revision-id: 3
+    revision-id: 4
     material: WOODEN_SWORD
     name: "&fKiếm Tân Binh &e&lIII"
     max-durability: 500
@@ -95,7 +95,7 @@ SWORD_TAN_BINH_3:
 SWORD_TAN_BINH_4:
   base:
     custom-maxsockets: 1.0
-    revision-id: 3
+    revision-id: 4
     material: WOODEN_SWORD
     name: "&fKiếm Tân Binh &e&lIV"
     max-durability: 500
@@ -118,7 +118,7 @@ SWORD_TAN_BINH_4:
 SWORD_TAN_BINH_5:
   base:
     custom-maxsockets: 1.0
-    revision-id: 3
+    revision-id: 4
     material: WOODEN_SWORD
     name: "&fKiếm Tân Binh &e&lV"
     max-durability: 500
@@ -141,7 +141,7 @@ SWORD_TAN_BINH_5:
 SWORD_TU_NHAN_1:
   base:
     custom-maxsockets: 2.0
-    revision-id: 3
+    revision-id: 4
     material: STONE_SWORD
     name: "&aKiếm Tù Nhân &e&lI"
     max-durability: 1000
@@ -164,7 +164,7 @@ SWORD_TU_NHAN_1:
 SWORD_TU_NHAN_2:
   base:
     custom-maxsockets: 2.0
-    revision-id: 3
+    revision-id: 4
     material: STONE_SWORD
     name: "&aKiếm Tù Nhân &e&lII"
     max-durability: 1000
@@ -187,7 +187,7 @@ SWORD_TU_NHAN_2:
 SWORD_TU_NHAN_3:
   base:
     custom-maxsockets: 2.0
-    revision-id: 3
+    revision-id: 4
     material: STONE_SWORD
     name: "&aKiếm Tù Nhân &e&lIII"
     max-durability: 1000
@@ -210,7 +210,7 @@ SWORD_TU_NHAN_3:
 SWORD_TU_NHAN_4:
   base:
     custom-maxsockets: 2.0
-    revision-id: 3
+    revision-id: 4
     material: STONE_SWORD
     name: "&aKiếm Tù Nhân &e&lIV"
     max-durability: 1000
@@ -233,7 +233,7 @@ SWORD_TU_NHAN_4:
 SWORD_TU_NHAN_5:
   base:
     custom-maxsockets: 2.0
-    revision-id: 3
+    revision-id: 4
     material: STONE_SWORD
     name: "&aKiếm Tù Nhân &e&lV"
     max-durability: 1000
@@ -256,7 +256,7 @@ SWORD_TU_NHAN_5:
 SWORD_LAO_CONG_1:
   base:
     custom-maxsockets: 2.0
-    revision-id: 3
+    revision-id: 4
     material: IRON_SWORD
     name: "&bKiếm Lao Công &e&lI"
     max-durability: 2000
@@ -279,7 +279,7 @@ SWORD_LAO_CONG_1:
 SWORD_LAO_CONG_2:
   base:
     custom-maxsockets: 2.0
-    revision-id: 3
+    revision-id: 4
     material: IRON_SWORD
     name: "&bKiếm Lao Công &e&lII"
     max-durability: 2000
@@ -302,7 +302,7 @@ SWORD_LAO_CONG_2:
 SWORD_LAO_CONG_3:
   base:
     custom-maxsockets: 2.0
-    revision-id: 3
+    revision-id: 4
     material: IRON_SWORD
     name: "&bKiếm Lao Công &e&lIII"
     max-durability: 2000
@@ -325,7 +325,7 @@ SWORD_LAO_CONG_3:
 SWORD_LAO_CONG_4:
   base:
     custom-maxsockets: 2.0
-    revision-id: 3
+    revision-id: 4
     material: IRON_SWORD
     name: "&bKiếm Lao Công &e&lIV"
     max-durability: 2000
@@ -348,7 +348,7 @@ SWORD_LAO_CONG_4:
 SWORD_LAO_CONG_5:
   base:
     custom-maxsockets: 2.0
-    revision-id: 3
+    revision-id: 4
     material: IRON_SWORD
     name: "&bKiếm Lao Công &e&lV"
     max-durability: 2000
@@ -371,7 +371,7 @@ SWORD_LAO_CONG_5:
 SWORD_THO_DAO_1:
   base:
     custom-maxsockets: 3.0
-    revision-id: 3
+    revision-id: 4
     material: IRON_SWORD
     name: "&eKiếm Thợ Đào &e&lI"
     max-durability: 3000
@@ -394,7 +394,7 @@ SWORD_THO_DAO_1:
 SWORD_THO_DAO_2:
   base:
     custom-maxsockets: 3.0
-    revision-id: 3
+    revision-id: 4
     material: IRON_SWORD
     name: "&eKiếm Thợ Đào &e&lII"
     max-durability: 3000
@@ -417,7 +417,7 @@ SWORD_THO_DAO_2:
 SWORD_THO_DAO_3:
   base:
     custom-maxsockets: 3.0
-    revision-id: 3
+    revision-id: 4
     material: IRON_SWORD
     name: "&eKiếm Thợ Đào &e&lIII"
     max-durability: 3000
@@ -440,7 +440,7 @@ SWORD_THO_DAO_3:
 SWORD_THO_DAO_4:
   base:
     custom-maxsockets: 3.0
-    revision-id: 3
+    revision-id: 4
     material: IRON_SWORD
     name: "&eKiếm Thợ Đào &e&lIV"
     max-durability: 3000
@@ -463,7 +463,7 @@ SWORD_THO_DAO_4:
 SWORD_THO_DAO_5:
   base:
     custom-maxsockets: 3.0
-    revision-id: 3
+    revision-id: 4
     material: IRON_SWORD
     name: "&eKiếm Thợ Đào &e&lV"
     max-durability: 3000
@@ -486,7 +486,7 @@ SWORD_THO_DAO_5:
 SWORD_DOI_TRUONG_1:
   base:
     custom-maxsockets: 3.0
-    revision-id: 3
+    revision-id: 4
     material: DIAMOND_SWORD
     name: "&6Kiếm Đội Trưởng &e&lI"
     max-durability: 4500
@@ -510,7 +510,7 @@ SWORD_DOI_TRUONG_1:
 SWORD_DOI_TRUONG_2:
   base:
     custom-maxsockets: 3.0
-    revision-id: 3
+    revision-id: 4
     material: DIAMOND_SWORD
     name: "&6Kiếm Đội Trưởng &e&lII"
     max-durability: 4500
@@ -534,7 +534,7 @@ SWORD_DOI_TRUONG_2:
 SWORD_DOI_TRUONG_3:
   base:
     custom-maxsockets: 3.0
-    revision-id: 3
+    revision-id: 4
     material: DIAMOND_SWORD
     name: "&6Kiếm Đội Trưởng &e&lIII"
     max-durability: 4500
@@ -558,7 +558,7 @@ SWORD_DOI_TRUONG_3:
 SWORD_DOI_TRUONG_4:
   base:
     custom-maxsockets: 3.0
-    revision-id: 3
+    revision-id: 4
     material: DIAMOND_SWORD
     name: "&6Kiếm Đội Trưởng &e&lIV"
     max-durability: 4500
@@ -582,7 +582,7 @@ SWORD_DOI_TRUONG_4:
 SWORD_DOI_TRUONG_5:
   base:
     custom-maxsockets: 3.0
-    revision-id: 3
+    revision-id: 4
     material: DIAMOND_SWORD
     name: "&6Kiếm Đội Trưởng &e&lV"
     max-durability: 4500
@@ -606,7 +606,7 @@ SWORD_DOI_TRUONG_5:
 SWORD_PHO_QUAN_NGUC_1:
   base:
     custom-maxsockets: 4.0
-    revision-id: 3
+    revision-id: 4
     material: DIAMOND_SWORD
     name: "&cKiếm Phó Quản Ngục &e&lI"
     max-durability: 6000
@@ -630,7 +630,7 @@ SWORD_PHO_QUAN_NGUC_1:
 SWORD_PHO_QUAN_NGUC_2:
   base:
     custom-maxsockets: 4.0
-    revision-id: 3
+    revision-id: 4
     material: DIAMOND_SWORD
     name: "&cKiếm Phó Quản Ngục &e&lII"
     max-durability: 6000
@@ -654,7 +654,7 @@ SWORD_PHO_QUAN_NGUC_2:
 SWORD_PHO_QUAN_NGUC_3:
   base:
     custom-maxsockets: 4.0
-    revision-id: 3
+    revision-id: 4
     material: DIAMOND_SWORD
     name: "&cKiếm Phó Quản Ngục &e&lIII"
     max-durability: 6000
@@ -678,7 +678,7 @@ SWORD_PHO_QUAN_NGUC_3:
 SWORD_PHO_QUAN_NGUC_4:
   base:
     custom-maxsockets: 4.0
-    revision-id: 3
+    revision-id: 4
     material: DIAMOND_SWORD
     name: "&cKiếm Phó Quản Ngục &e&lIV"
     max-durability: 6000
@@ -702,7 +702,7 @@ SWORD_PHO_QUAN_NGUC_4:
 SWORD_PHO_QUAN_NGUC_5:
   base:
     custom-maxsockets: 4.0
-    revision-id: 3
+    revision-id: 4
     material: DIAMOND_SWORD
     name: "&cKiếm Phó Quản Ngục &e&lV"
     max-durability: 6000
@@ -726,7 +726,7 @@ SWORD_PHO_QUAN_NGUC_5:
 SWORD_QUAN_NGUC_1:
   base:
     custom-maxsockets: 5.0
-    revision-id: 3
+    revision-id: 4
     material: NETHERITE_SWORD
     name: "&dKiếm Quản Ngục &e&lI"
     max-durability: 8000
@@ -750,7 +750,7 @@ SWORD_QUAN_NGUC_1:
 SWORD_QUAN_NGUC_2:
   base:
     custom-maxsockets: 5.0
-    revision-id: 3
+    revision-id: 4
     material: NETHERITE_SWORD
     name: "&dKiếm Quản Ngục &e&lII"
     max-durability: 8000
@@ -774,7 +774,7 @@ SWORD_QUAN_NGUC_2:
 SWORD_QUAN_NGUC_3:
   base:
     custom-maxsockets: 5.0
-    revision-id: 3
+    revision-id: 4
     material: NETHERITE_SWORD
     name: "&dKiếm Quản Ngục &e&lIII"
     max-durability: 8000
@@ -798,7 +798,7 @@ SWORD_QUAN_NGUC_3:
 SWORD_QUAN_NGUC_4:
   base:
     custom-maxsockets: 5.0
-    revision-id: 3
+    revision-id: 4
     material: NETHERITE_SWORD
     name: "&dKiếm Quản Ngục &e&lIV"
     max-durability: 8000
@@ -822,7 +822,7 @@ SWORD_QUAN_NGUC_4:
 SWORD_QUAN_NGUC_5:
   base:
     custom-maxsockets: 5.0
-    revision-id: 3
+    revision-id: 4
     material: NETHERITE_SWORD
     name: "&dKiếm Quản Ngục &e&lV"
     max-durability: 8000
@@ -846,7 +846,7 @@ SWORD_QUAN_NGUC_5:
 SWORD_BA_CHU_NGUC_TU_1:
   base:
     custom-maxsockets: 6.0
-    revision-id: 3
+    revision-id: 4
     material: NETHERITE_SWORD
     name: "&5Kiếm Bá Chủ Ngục Tù &e&lI"
     max-durability: 10000
@@ -870,7 +870,7 @@ SWORD_BA_CHU_NGUC_TU_1:
 SWORD_BA_CHU_NGUC_TU_2:
   base:
     custom-maxsockets: 6.0
-    revision-id: 3
+    revision-id: 4
     material: NETHERITE_SWORD
     name: "&5Kiếm Bá Chủ Ngục Tù &e&lII"
     max-durability: 10000
@@ -894,7 +894,7 @@ SWORD_BA_CHU_NGUC_TU_2:
 SWORD_BA_CHU_NGUC_TU_3:
   base:
     custom-maxsockets: 6.0
-    revision-id: 3
+    revision-id: 4
     material: NETHERITE_SWORD
     name: "&5Kiếm Bá Chủ Ngục Tù &e&lIII"
     max-durability: 10000
@@ -918,7 +918,7 @@ SWORD_BA_CHU_NGUC_TU_3:
 SWORD_BA_CHU_NGUC_TU_4:
   base:
     custom-maxsockets: 6.0
-    revision-id: 3
+    revision-id: 4
     material: NETHERITE_SWORD
     name: "&5Kiếm Bá Chủ Ngục Tù &e&lIV"
     max-durability: 10000
@@ -942,7 +942,7 @@ SWORD_BA_CHU_NGUC_TU_4:
 SWORD_BA_CHU_NGUC_TU_5:
   base:
     custom-maxsockets: 6.0
-    revision-id: 3
+    revision-id: 4
     material: NETHERITE_SWORD
     name: "&5Kiếm Bá Chủ Ngục Tù &e&lV"
     max-durability: 10000
@@ -966,7 +966,7 @@ SWORD_BA_CHU_NGUC_TU_5:
 SWORD_VUOT_NGUC_1:
   base:
     custom-maxsockets: 7.0
-    revision-id: 3
+    revision-id: 4
     material: NETHERITE_SWORD
     name: "&4Kiếm Vượt Ngục &e&lI"
     max-durability: 15000
@@ -990,7 +990,7 @@ SWORD_VUOT_NGUC_1:
 SWORD_VUOT_NGUC_2:
   base:
     custom-maxsockets: 7.0
-    revision-id: 3
+    revision-id: 4
     material: NETHERITE_SWORD
     name: "&4Kiếm Vượt Ngục &e&lII"
     max-durability: 15000
@@ -1014,7 +1014,7 @@ SWORD_VUOT_NGUC_2:
 SWORD_VUOT_NGUC_3:
   base:
     custom-maxsockets: 7.0
-    revision-id: 3
+    revision-id: 4
     material: NETHERITE_SWORD
     name: "&4Kiếm Vượt Ngục &e&lIII"
     max-durability: 15000
@@ -1038,7 +1038,7 @@ SWORD_VUOT_NGUC_3:
 SWORD_VUOT_NGUC_4:
   base:
     custom-maxsockets: 7.0
-    revision-id: 3
+    revision-id: 4
     material: NETHERITE_SWORD
     name: "&4Kiếm Vượt Ngục &e&lIV"
     max-durability: 15000
@@ -1062,7 +1062,7 @@ SWORD_VUOT_NGUC_4:
 SWORD_VUOT_NGUC_5:
   base:
     custom-maxsockets: 7.0
-    revision-id: 3
+    revision-id: 4
     material: NETHERITE_SWORD
     name: "&4Kiếm Vượt Ngục &e&lV"
     max-durability: 15000
@@ -1087,7 +1087,7 @@ GACHA_SWORD_AMETHYST:
   itemsadder-item: "fantasy_weapons:amethyst_greatblade"
   base:
     custom-maxsockets: 7.0
-    revision-id: 3
+    revision-id: 4
     material: IRON_SWORD
     custom-model-data: 10000
     name: "&5&lThạch Anh Tím Đại Kiếm"
@@ -1120,7 +1120,7 @@ GACHA_SWORD_PHANTOMGUARD:
   itemsadder-item: "fantasy_weapons:phantomguard_greatsword"
   base:
     custom-maxsockets: 7.0
-    revision-id: 3
+    revision-id: 4
     material: IRON_SWORD
     custom-model-data: 10001
     name: "&b&lU Hồn Vệ Kiếm"
@@ -1154,7 +1154,7 @@ GACHA_SWORD_VALHAKYRA:
   itemsadder-item: "fantasy_weapons:valhakyra"
   base:
     custom-maxsockets: 7.0
-    revision-id: 4
+    revision-id: 5
     material: IRON_SWORD
     custom-model-data: 10003
     name: "&e&lThần Kiếm Valhakyra"
@@ -1186,7 +1186,7 @@ GACHA_SWORD_CRYSTAL_FROST:
   itemsadder-item: "fantasy_weapons:crystal_frostblade"
   base:
     custom-maxsockets: 7.0
-    revision-id: 3
+    revision-id: 4
     material: IRON_SWORD
     custom-model-data: 10008
     name: "&3&lBăng Tinh Thần Kiếm"
@@ -1219,7 +1219,7 @@ GACHA_SWORD_DEMONS_BLOOD:
   itemsadder-item: "fantasy_weapons:demons_blood_blade"
   base:
     custom-maxsockets: 7.0
-    revision-id: 4
+    revision-id: 5
     material: IRON_SWORD
     custom-model-data: 10016
     name: "&c&lHuyết Ma Diệt Thần Kiếm"
@@ -1251,7 +1251,7 @@ GACHA_SWORD_MOONLIGHT:
   itemsadder-item: "fantasy_weapons:moonlight"
   base:
     custom-maxsockets: 7.0
-    revision-id: 3
+    revision-id: 4
     material: IRON_SWORD
     custom-model-data: 10018
     name: "&9&lMinh Nguyệt Quang Kiếm"
@@ -1288,7 +1288,7 @@ DONATE_SWORD_LONG_VE:
   itemsadder-item: "littledragonset:littledragon_sword"
   base:
     custom-maxsockets: 5.0
-    revision-id: 3
+    revision-id: 4
     material: IRON_SWORD
     custom-model-data: 10191
     name: "&a&l✦ Hộ Long Bảo Kiếm"
@@ -1315,7 +1315,7 @@ DONATE_SWORD_LONG_CHIEN:
   itemsadder-item: "spartan_set:spartan_sword"
   base:
     custom-maxsockets: 6.0
-    revision-id: 3
+    revision-id: 4
     material: IRON_SWORD
     custom-model-data: 10086
     name: "&e&l⚔ Chiến Long Cuồng Kiếm"
@@ -1342,7 +1342,7 @@ DONATE_SWORD_LONG_THAN:
   itemsadder-item: "azureset:azure_sword"
   base:
     custom-maxsockets: 6.0
-    revision-id: 3
+    revision-id: 4
     material: IRON_SWORD
     custom-model-data: 10122
     name: "&b&l✦ Thần Long Thánh Kiếm"
@@ -1369,7 +1369,7 @@ DONATE_SWORD_LONG_DE:
   itemsadder-item: "demon_edgeset:demon_edge_sword"
   base:
     custom-maxsockets: 7.0
-    revision-id: 3
+    revision-id: 4
     material: IRON_SWORD
     custom-model-data: 10177
     name: "&4&l◆ Đế Long Diệt Kiếm"
@@ -1396,7 +1396,7 @@ DONATE_SWORD_LONG_HOANG:
   itemsadder-item: "lunarset:lunar_sword"
   base:
     custom-maxsockets: 7.0
-    revision-id: 4
+    revision-id: 5
     material: IRON_SWORD
     custom-model-data: 10034
     name: "&c&l★ Hoàng Long Thiên Kiếm"
@@ -1427,7 +1427,7 @@ TRADE_SWORD_HOA_LONG:
   itemsadder-item: "fantasy_weapons:calamity_blade"
   base:
     custom-maxsockets: 3.0
-    revision-id: 3
+    revision-id: 4
     material: IRON_SWORD
     custom-model-data: 10015
     name: "&6✦ Hỏa Long Kiếm"
@@ -1454,7 +1454,7 @@ TRADE_SWORD_BANG_LONG:
   itemsadder-item: "fantasy_weapons:crystal_frostblade"
   base:
     custom-maxsockets: 4.0
-    revision-id: 3
+    revision-id: 4
     material: IRON_SWORD
     custom-model-data: 10008
     name: "&3&l✦ Băng Long Hàn Kiếm"
@@ -1481,7 +1481,7 @@ TRADE_SWORD_LOI_LONG:
   itemsadder-item: "elitecreatures:king_arthur_animated_weapon_set_sword"
   base:
     custom-maxsockets: 5.0
-    revision-id: 3
+    revision-id: 4
     material: IRON_SWORD
     custom-model-data: 10167
     name: "&e&l⚡ Lôi Long Chấn Kiếm"
@@ -1508,7 +1508,7 @@ TRADE_SWORD_PHONG_LONG:
   itemsadder-item: "nanoedge_set:nanoedge_sword"
   base:
     custom-maxsockets: 6.0
-    revision-id: 3
+    revision-id: 4
     material: IRON_SWORD
     custom-model-data: 10107
     name: "&2&l✦ Phong Long Liệt Kiếm"
@@ -1535,7 +1535,7 @@ TRADE_SWORD_HAC_LONG:
   itemsadder-item: "fantasy_weapons:demonic_sword"
   base:
     custom-maxsockets: 7.0
-    revision-id: 3
+    revision-id: 4
     material: IRON_SWORD
     custom-model-data: 10025
     name: "&5&l◆ Hắc Long Ma Kiếm"

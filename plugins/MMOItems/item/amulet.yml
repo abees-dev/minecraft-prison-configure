@@ -4,7 +4,7 @@ TRADE_AMULET_HOA_LONG:
   base:
     lore-format: jewelry-simple
     custom-maxsockets: 5.0
-    revision-id: 6
+    revision-id: 7
     material: PAPER
     custom-model-data: 19401
     name: "&6&l🔥 Dây Chuyền Hỏa Long"
@@ -26,7 +26,7 @@ TRADE_AMULET_HAC_LONG:
   base:
     lore-format: jewelry-simple
     custom-maxsockets: 5.0
-    revision-id: 6
+    revision-id: 7
     material: PAPER
     custom-model-data: 19429
     name: "&5&l◆ Dây Chuyền Hắc Long"
@@ -49,7 +49,7 @@ TRADE_AMULET_LOI_LONG:
   base:
     lore-format: jewelry-simple
     custom-maxsockets: 5.0
-    revision-id: 6
+    revision-id: 7
     material: PAPER
     custom-model-data: 19440
     name: "&e&l⚡ Dây Chuyền Lôi Long"
@@ -72,7 +72,7 @@ TRADE_AMULET_PHONG_LONG:
   base:
     lore-format: jewelry-simple
     custom-maxsockets: 5.0
-    revision-id: 6
+    revision-id: 7
     material: PAPER
     custom-model-data: 19431
     name: "&2&l✦ Dây Chuyền Phong Long"
@@ -95,7 +95,7 @@ TRADE_AMULET_BANG_LONG:
   base:
     lore-format: jewelry-simple
     custom-maxsockets: 5.0
-    revision-id: 6
+    revision-id: 7
     material: PAPER
     custom-model-data: 19409
     name: "&3&l✦ Dây Chuyền Băng Long"
@@ -118,7 +118,7 @@ DONATE_AMULET_LONG_CHIEN:
   base:
     lore-format: jewelry-simple
     custom-maxsockets: 5.0
-    revision-id: 6
+    revision-id: 7
     material: PAPER
     custom-model-data: 19413
     name: "&e&l⚔ Dây Chuyền Chiến Long"
@@ -140,7 +140,7 @@ DONATE_AMULET_LONG_THAN:
   base:
     lore-format: jewelry-simple
     custom-maxsockets: 5.0
-    revision-id: 6
+    revision-id: 7
     material: PAPER
     custom-model-data: 19412
     name: "&b&l✦ Dây Chuyền Thần Long"
@@ -163,7 +163,7 @@ DONATE_AMULET_LONG_HOANG:
   base:
     lore-format: jewelry-simple
     custom-maxsockets: 5.0
-    revision-id: 6
+    revision-id: 7
     material: PAPER
     custom-model-data: 19419
     name: "&c&l★ Dây Chuyền Hoàng Long"
@@ -186,7 +186,7 @@ DONATE_AMULET_LONG_DE:
   base:
     lore-format: jewelry-simple
     custom-maxsockets: 5.0
-    revision-id: 6
+    revision-id: 7
     material: PAPER
     custom-model-data: 19407
     name: "&4&l◆ Dây Chuyền Đế Long"
@@ -209,7 +209,7 @@ DONATE_AMULET_LONG_VE:
   base:
     lore-format: jewelry-simple
     custom-maxsockets: 5.0
-    revision-id: 6
+    revision-id: 7
     material: PAPER
     custom-model-data: 19424
     name: "&a&l✦ Dây Chuyền Hộ Long"
@@ -232,7 +232,7 @@ FREE_AMULET_THANH_LONG:
   base:
     lore-format: jewelry-simple
     custom-maxsockets: 2.0
-    revision-id: 6
+    revision-id: 7
     material: PAPER
     custom-model-data: 19411
     name: "&b&l⚡ Dây Chuyền Thanh Long"
@@ -254,7 +254,7 @@ FREE_AMULET_XICH_LONG:
   base:
     lore-format: jewelry-simple
     custom-maxsockets: 2.0
-    revision-id: 6
+    revision-id: 7
     material: PAPER
     custom-model-data: 19421
     name: "&c&l🔥 Dây Chuyền Xích Long"
@@ -277,7 +277,7 @@ FREE_AMULET_KIM_LONG:
   base:
     lore-format: jewelry-simple
     custom-maxsockets: 2.0
-    revision-id: 6
+    revision-id: 7
     material: PAPER
     custom-model-data: 19416
     name: "&e&l★ Dây Chuyền Kim Long"
@@ -300,7 +300,7 @@ FREE_AMULET_THIEN_LONG:
   base:
     lore-format: jewelry-simple
     custom-maxsockets: 2.0
-    revision-id: 6
+    revision-id: 7
     material: PAPER
     custom-model-data: 19436
     name: "&d&l✦ Dây Chuyền Thiên Long"
@@ -323,7 +323,7 @@ FREE_AMULET_BAC_LONG:
   base:
     lore-format: jewelry-simple
     custom-maxsockets: 2.0
-    revision-id: 6
+    revision-id: 7
     material: PAPER
     custom-model-data: 19434
     name: "&f&l✧ Dây Chuyền Bạch Long"

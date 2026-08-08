@@ -2,6 +2,55 @@
 
 > Cập nhật: 2026-08-08 · Dành cho người chơi
 
+## Cân bằng Combat, Trang Bị và Ngọc Khảm
+
+### Trang bị và cường hóa
+
+- Tăng **5% chỉ số combat cơ bản** cho toàn bộ trang bị để sức mạnh món đồ
+  theo kịp máu và sát thương của quái theo rank.
+- Mở rộng sức mạnh cường hóa đến cấp cao: mỗi cấp vũ khí cộng thêm `1 Sát
+  Thương Cơ Bản` và `0.4 Sát Thương Vật Lý`.
+- Mỗi cấp cường hóa trên một món giáp cộng `5 Máu`, `1.75 Phòng Thủ`
+  và `0.35 Kháng Xuyên Giáp`.
+- Cường hóa giáp không tiếp tục cộng `Armor`; bộ giáp vẫn giữ trần 30 Armor
+  và phát triển sức chống chịu bằng Máu, Defense và Toughness. Nhờ vậy chỉ số
+  nâng cấp vẫn có ý nghĩa khi đã mặc đủ bộ.
+- Đồng bộ lại máu và sát thương Normal Mob, Elite và Boss Prison theo trang bị
+  Tier III cùng mức nâng cấp khuyến nghị của từng rank.
+
+### Set bonus và giới hạn chỉ số
+
+- Set bonus giờ cộng theo **phần tăng thêm của từng mốc**, không cộng lại toàn
+  bộ tổng của các mốc trước. Điều này loại bỏ tình trạng tốc độ đánh, hút máu
+  và sát thương tăng vượt thiết kế khi mặc đủ set.
+- Chia lại vai trò giữa các set: sát thương cơ bản, phép, vật lý, chí mạng,
+  cơ động và chống chịu thay vì mọi set cùng dồn một nhóm chỉ số mạnh nhất.
+- Giảm lượng hút máu trên các set; đặt trần **Hút Máu** và **Hút Máu Phép** ở
+  `15%` để PvP không rơi vào trạng thái hai bên không thể hạ nhau.
+- Giới hạn Giảm Sát Thương chung, PvE và PvP ở `50%`; Tỷ Lệ Chí Mạng và Sức
+  Mạnh Chí Mạng cộng thêm ở `80%`.
+
+### Ngọc khảm
+
+- Cân bằng lại toàn bộ **100 viên ngọc**, gồm 10 loại và 10 cấp.
+- Chỉ số mỗi viên được random trong khoảng **±10%** khi viên ngọc được tạo.
+  Giá trị đã roll được giữ nguyên khi tháo ra, không thể tháo/lắp để roll lại.
+- Hoàng Ngọc chuyển từ Armor sang **Phòng Thủ**, nên vẫn hữu ích khi
+  người chơi đã đạt trần Armor.
+- Giảm chỉ số Hồi Máu và Tốc Độ Di Chuyển từ gem để tránh build hồi phục hoặc
+  cơ động vượt kiểm soát.
+- Đổi tên `Armor Toughness` thành **Kháng Xuyên Giáp** trong nội dung hiển thị
+  để dễ hiểu hơn.
+
+### Hiển thị chỉ số
+
+- Bổ sung menu xem tổng quan combat của nhân vật bằng `/stats` hoặc `/chiso`.
+- Menu tách rõ chỉ số dùng chung, PvE và PvP để người chơi kiểm tra build mà
+  không cần lệnh kỹ thuật.
+- Chuẩn hóa tên và mô tả stat trên trang bị, set và giao diện chỉ số.
+- Công thức sát thương, Defense và bảng ngọc chi tiết được ghi tại
+  [`gems-combat-damage.md`](../reference/gems-combat-damage.md).
+
 ## Đại cập nhật Kinh tế và Bang Hội
 
 ### Cân bằng tiền tệ Prison

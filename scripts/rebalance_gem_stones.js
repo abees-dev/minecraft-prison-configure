@@ -93,7 +93,7 @@ for (const [family, config] of Object.entries(families)) {
       /(      - "&7Kéo thả[^\n]+"\n)/,
       `$1      - "&8Chỉ số được tạo ngẫu nhiên khi nhận đá."\n`,
     );
-    block = block.replace('để tăng Giáp.', 'để tăng Phòng Thủ Bổ Sung.');
+    block = block.replace('để tăng Giáp.', 'để tăng Phòng Thủ.');
     block = block.replace(
       'để tăng Độ Bền Sắt (Armor Toughness).',
       'để tăng Kháng Xuyên Giáp.',
