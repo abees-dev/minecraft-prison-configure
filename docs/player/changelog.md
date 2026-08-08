@@ -1,6 +1,58 @@
 # Nhật ký cập nhật
 
-> Cập nhật: 2026-08-07 · Dành cho người chơi
+> Cập nhật: 2026-08-08 · Dành cho người chơi
+
+## Đại cập nhật Kinh tế và Bang Hội
+
+### Cân bằng tiền tệ Prison
+
+- Đồng bộ giá bán khoáng giữa `/sellgui` và **Bán Tất Cả** trong Kho Bang.
+- Điều chỉnh toàn bộ giá item đào được, ore, thỏi và block nén theo cùng một
+  mặt bằng, tránh chế tạo hoặc nung khoáng để bán chênh lệch giá.
+- Nâng thang tiền bán khoáng và đồng thời tăng các khoản tiêu tiền quan trọng
+  như Rank, Prestige, nâng cuốc, nâng Bang, Quest Bang và đục lỗ trang bị.
+- Cuốc max tại mine gần cuối được cân bằng quanh mốc thu nhập nền khoảng
+  **5 triệu/phút** khi Bang chưa có Sell Upgrade.
+- Bổ sung phí tiền cho mỗi lần **Cường Hóa** và **Đục Lỗ**; thất bại vẫn tiêu
+  hao tiền và nguyên liệu. Phí tăng dần theo cấp trang bị hoặc số ô đã mở.
+
+### Cân bằng Shop Bang
+
+- Buff Sell được chỉnh từ `x2 trong 60 phút` thành **x1,5 trong 30 phút**, giá
+  **100 triệu** từ Bank Bang.
+- Buff Haste được chỉnh còn **Haste I trong 30 phút**, giá **50 triệu**.
+- Buff EXP được chỉnh còn **x1,15 trong 30 phút**, giá **75 triệu**.
+- Buff Sell từ Weekly Quest còn **x1,25 trong 30 phút**.
+- Giá mở rộng kho, slot thành viên và các nâng cấp vĩnh viễn đã tăng để phù
+  hợp với lượng tiền mới; riêng Sell Upgrade cấp 5 cần tổng cộng **350 triệu**.
+- GUI Shop Bang giờ hiển thị buff đang hoạt động, nguồn buff, hiệu ứng thực tế,
+  thời gian còn lại và tổng multiplier Sell hiện tại.
+- Mua thêm buff khi buff cũ đang chạy sẽ cập nhật trạng thái và thời gian ngay
+  trong GUI.
+
+### Nâng cấp Bang mở rộng
+
+- GUI Nâng Cấp Bang được chia thành **2 trang** và giữ nguyên trang hiện tại
+  sau khi mua.
+- Bổ sung năm hướng nâng cấp mới:
+  - **Vitality:** tăng máu tối đa cho thành viên Bang.
+  - **PvE Power:** tăng sát thương gây ra cho quái.
+  - **PvE Resilience:** giảm sát thương nhận từ quái.
+  - **Buff Mastery:** kéo dài thời gian buff mua tại Shop Bang.
+  - **Boss Hunter:** tăng sát thương lên các boss được chỉ định.
+- PvE Power và Boss Hunter có giới hạn tổng để tránh sát thương boss tăng quá
+  mạnh; các chỉ số PvE không tác động lên PvP.
+- Mọi nâng cấp mới đều yêu cầu đồng thời **Bang Level, danh vọng và tiền Bank**.
+
+### Danh vọng chỉ nhận từ nhiệm vụ
+
+- Sửa lỗi đào hoặc tự nạp khoáng vào Kho Bang vẫn được cộng danh vọng.
+- Bán khoáng, KOTH, Bang Chiến và giết quái ngoài nhiệm vụ không còn trao danh
+  vọng.
+- Danh vọng gameplay giờ chỉ nhận từ **Quest Bang chung, Quest cá nhân và
+  Weekly Quest**.
+- Chỉ số đóng góp khi đào vẫn được ghi nhận để theo dõi hoạt động thành viên,
+  nhưng không thể dùng thay cho danh vọng.
 
 ## Sảnh chính mới và kết nối máy chủ
 

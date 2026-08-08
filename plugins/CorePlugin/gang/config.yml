@@ -604,7 +604,7 @@ shop:
     cost: 5000000
     amount: 1
   expand-capacity:
-    cost: 250000000
+    cost: 25000000
     amount: 500
   buff-sell-2x:
     cost: 100000000
@@ -702,9 +702,9 @@ season:
   points-quest-clear: 10
   points-koth-capture: 25
   points-weekly-complete: 50
-  reward-top1-bank: 5000000
-  reward-top2-bank: 2500000
-  reward-top3-bank: 1000000
+  reward-top1-bank: 50000000
+  reward-top2-bank: 25000000
+  reward-top3-bank: 10000000
 
 # Phase 1 — gang home warp.
 home:
@@ -759,7 +759,7 @@ war:
       region: war_gate_d
       display: "&eCổng Bắc"
   rewards:
-    bank: 2000000
+    bank: 20000000
     # Danh vọng chỉ đến từ quest; Bang Chiến không thưởng reputation.
     reputation: 0
     season-points: 100
