@@ -12,8 +12,8 @@ ARCANE:
       potion-speed: 1
   lore-tag:
     - "&7BỘ BÍ THUẬT"
-    - "&8[3] &d+20% Sát thương phép"
-    - "&8[4] &9+30 Mana"
+    - "&8[3] &d+20% Sát Thương Phép"
+    - "&8[4] &9+30 Mana Tối Đa"
     - "&8↳ &7Tốc độ I"
 
 STEEL:
@@ -25,8 +25,8 @@ STEEL:
       damage-reduction: 5
   lore-tag:
     - "&7BỘ THÉP"
-    - "&8[3] &b+5% Giảm sát thương"
-    - "&8[4] &b+10% Giảm sát thương"
+    - "&8[3] &b+5% Giảm Mọi Sát Thương"
+    - "&8[4] &b+10% Giảm Mọi Sát Thương"
 
 LONG_VUONG_SET:
   name: "&c&lBộ Long Vương"
@@ -50,10 +50,10 @@ LONG_VUONG_SET:
       potion-increase_damage: 2
   lore-tag:
     - "&c&lBỘ Long Vương"
-    - "&8[2] &c+15 Sát thương &7| &6+5% Chí mạng"
-    - "&8[3] &c+30 Sát thương &7| &6+10% Chí mạng"
-    - "&8[4] &c+45 Sát thương &7| &6+15% Chí mạng &7| &6+25% Lực chí mạng"
-    - "&8[5] &c+75 Sát thương &7| &6+25% Chí mạng &7| &6+50% Lực chí mạng &7| &c+15% Hút máu"
+    - "&8[2] &c+15 Sát Thương Cơ Bản &7| &6+5% Tỷ Lệ Chí Mạng"
+    - "&8[3] &c+30 Sát Thương Cơ Bản &7| &6+10% Tỷ Lệ Chí Mạng"
+    - "&8[4] &c+45 Sát Thương Cơ Bản &7| &6+15% Tỷ Lệ Chí Mạng &7| &6+25% Sát Thương Chí Mạng"
+    - "&8[5] &c+75 Sát Thương Cơ Bản &7| &6+25% Tỷ Lệ Chí Mạng &7| &6+50% Sát Thương Chí Mạng &7| &c+15% Hút Máu"
     - "&8↳ &cSức mạnh II"
 
 BANG_TINH_SET:
@@ -68,20 +68,20 @@ BANG_TINH_SET:
     "4":
       max-health: 500
       damage-reduction: 15
-      armor: 20
+      armor-toughness: 20
     "5":
       max-health: 800
       damage-reduction: 25
-      armor: 35
+      armor-toughness: 35
       potion-speed: 2
       potion-damage_resistance: 1
   lore-tag:
     - "&b&lBỘ Băng Tinh"
-    - "&8[2] &c+150 Máu &7| &b+5% Giảm sát thương"
-    - "&8[3] &c+300 Máu &7| &b+10% Giảm sát thương"
-    - "&8[4] &c+500 Máu &7| &b+15% Giảm sát thương &7| &a+20 Giáp"
-    - "&8[5] &c+800 Máu &7| &b+25% Giảm sát thương &7| &a+35 Giáp"
-    - "&8↳ &eTốc độ II &8| &bGiảm sát thương I"
+    - "&8[2] &c+150 Máu Tối Đa &7| &b+5% Giảm Mọi Sát Thương"
+    - "&8[3] &c+300 Máu Tối Đa &7| &b+10% Giảm Mọi Sát Thương"
+    - "&8[4] &c+500 Máu Tối Đa &7| &b+15% Giảm Mọi Sát Thương &7| &3+20 Kháng Xuyên Giáp"
+    - "&8[5] &c+800 Máu Tối Đa &7| &b+25% Giảm Mọi Sát Thương &7| &3+35 Kháng Xuyên Giáp"
+    - "&8↳ &eTốc độ II &8| &bGiảm Mọi Sát Thương I"
 
 HAC_AM_SET:
   name: "&d&lBộ Hắc Ám"
@@ -103,10 +103,10 @@ HAC_AM_SET:
       cooldown-reduction: 15
   lore-tag:
     - "&d&lBỘ Hắc Ám"
-    - "&8[2] &d+10% Sát thương phép &7| &9+100 Mana"
-    - "&8[3] &d+20% Sát thương phép &7| &9+200 Mana"
-    - "&8[4] &d+35% Sát thương phép &7| &9+350 Mana &7| &c+8% Hút máu"
-    - "&8[5] &d+55% Sát thương phép &7| &9+500 Mana &7| &c+15% Hút máu"
+    - "&8[2] &d+10% Sát Thương Phép &7| &9+100 Mana Tối Đa"
+    - "&8[3] &d+20% Sát Thương Phép &7| &9+200 Mana Tối Đa"
+    - "&8[4] &d+35% Sát Thương Phép &7| &9+350 Mana Tối Đa &7| &c+8% Hút Máu"
+    - "&8[5] &d+55% Sát Thương Phép &7| &9+500 Mana Tối Đa &7| &c+15% Hút Máu"
     - "&8↳ &6+15% Giảm hồi chiêu"
 
 LOI_THAN_SET:
@@ -129,10 +129,10 @@ LOI_THAN_SET:
       potion-speed: 3
   lore-tag:
     - "&e&lBỘ Lôi Thần"
-    - "&8[2] &e+0.02 Tốc độ &7| &e+10% Tốc đánh"
-    - "&8[3] &e+0.04 Tốc độ &7| &e+20% Tốc đánh"
-    - "&8[4] &e+0.06 Tốc độ &7| &e+30% Tốc đánh &7| &f+10% Né"
-    - "&8[5] &e+0.10 Tốc độ &7| &e+45% Tốc đánh &7| &f+20% Né"
+    - "&8[2] &e+0.02 Tốc độ &7| &e+10% Tốc Độ Đánh"
+    - "&8[3] &e+0.04 Tốc độ &7| &e+20% Tốc Độ Đánh"
+    - "&8[4] &e+0.06 Tốc độ &7| &e+30% Tốc Độ Đánh &7| &f+10% Né Tránh"
+    - "&8[5] &e+0.10 Tốc độ &7| &e+45% Tốc Độ Đánh &7| &f+20% Né Tránh"
     - "&8↳ &eTốc độ III"
 
 HOANG_GIA_SET:
@@ -158,10 +158,10 @@ HOANG_GIA_SET:
       potion-regeneration: 2
   lore-tag:
     - "&6&lBỘ Hoàng Gia"
-    - "&8[2] &c+10% Sát thương vật lý &7| &c+100 Máu"
-    - "&8[3] &c+20% Sát thương vật lý &7| &c+200 Máu"
-    - "&8[4] &c+30% Sát thương vật lý &7| &c+350 Máu &7| &d+20% Sát thương phép"
-    - "&8[5] &c+45% Sát thương vật lý &7| &d+35% Sát thương phép &7| &c+500 Máu"
+    - "&8[2] &c+10% Sát Thương Vật Lý &7| &c+100 Máu Tối Đa"
+    - "&8[3] &c+20% Sát Thương Vật Lý &7| &c+200 Máu Tối Đa"
+    - "&8[4] &c+30% Sát Thương Vật Lý &7| &c+350 Máu Tối Đa &7| &d+20% Sát Thương Phép"
+    - "&8[5] &c+45% Sát Thương Vật Lý &7| &d+35% Sát Thương Phép &7| &c+500 Máu Tối Đa"
     - "&8↳ &aHồi phục II"
 
 # ============================================================
@@ -185,9 +185,9 @@ HOA_LONG_SET:
       potion-speed: 1
   lore-tag:
     - "&6&lBỘ Hỏa Long"
-    - "&8[2] &c+15 Sát thương &7| &6+5% Chí mạng"
-    - "&8[3] &c+25 Sát thương &7| &6+8% Chí mạng &7| &6+15% Lực chí mạng"
-    - "&8[4] &c+40 Sát thương &7| &6+12% Chí mạng &7| &6+30% Lực chí mạng"
+    - "&8[2] &c+15 Sát Thương Cơ Bản &7| &6+5% Tỷ Lệ Chí Mạng"
+    - "&8[3] &c+25 Sát Thương Cơ Bản &7| &6+8% Tỷ Lệ Chí Mạng &7| &6+15% Sát Thương Chí Mạng"
+    - "&8[4] &c+40 Sát Thương Cơ Bản &7| &6+12% Tỷ Lệ Chí Mạng &7| &6+30% Sát Thương Chí Mạng"
     - "&8↳ &eHiệu ứng tốc độ I"
 
 HAC_LONG_SET:
@@ -207,9 +207,9 @@ HAC_LONG_SET:
       potion-regeneration: 1
   lore-tag:
     - "&5&lBỘ Hắc Long"
-    - "&8[2] &d+15% Sát thương phép &7| &9+150 Mana"
-    - "&8[3] &d+25% Sát thương phép &7| &9+250 Mana &7| &6+8% Hồi chiêu"
-    - "&8[4] &d+40% Sát thương phép &7| &9+400 Mana &7| &6+15% Hồi chiêu"
+    - "&8[2] &d+15% Sát Thương Phép &7| &9+150 Mana Tối Đa"
+    - "&8[3] &d+25% Sát Thương Phép &7| &9+250 Mana Tối Đa &7| &6+8% Giảm Hồi Chiêu"
+    - "&8[4] &d+40% Sát Thương Phép &7| &9+400 Mana Tối Đa &7| &6+15% Giảm Hồi Chiêu"
     - "&8↳ &aHiệu ứng hồi phục I"
 
 LOI_LONG_SET:
@@ -229,9 +229,9 @@ LOI_LONG_SET:
       potion-speed: 2
   lore-tag:
     - "&e&lBỘ Lôi Long"
-    - "&8[2] &e+12% Tốc đánh &7| &c+5% Hút máu"
-    - "&8[3] &e+22% Tốc đánh &7| &c+8% Hút máu &7| &c+18 Sát thương"
-    - "&8[4] &e+35% Tốc đánh &7| &c+12% Hút máu &7| &c+30 Sát thương"
+    - "&8[2] &e+12% Tốc Độ Đánh &7| &c+5% Hút Máu"
+    - "&8[3] &e+22% Tốc Độ Đánh &7| &c+8% Hút Máu &7| &c+18 Sát Thương Cơ Bản"
+    - "&8[4] &e+35% Tốc Độ Đánh &7| &c+12% Hút Máu &7| &c+30 Sát Thương Cơ Bản"
     - "&8↳ &eHiệu ứng tốc độ II"
 
 PHONG_LONG_SET:
@@ -251,9 +251,9 @@ PHONG_LONG_SET:
       potion-speed: 2
   lore-tag:
     - "&2&lBỘ Phong Long"
-    - "&8[2] &a+8% Sát thương vật lý &7| &f+8% Né"
-    - "&8[3] &a+14% Sát thương vật lý &7| &f+14% Né &7| &6+20% Lực chí mạng"
-    - "&8[4] &a+22% Sát thương vật lý &7| &f+20% Né &7| &6+35% Lực chí mạng"
+    - "&8[2] &a+8% Sát Thương Vật Lý &7| &f+8% Né Tránh"
+    - "&8[3] &a+14% Sát Thương Vật Lý &7| &f+14% Né Tránh &7| &6+20% Sát Thương Chí Mạng"
+    - "&8[4] &a+22% Sát Thương Vật Lý &7| &f+20% Né Tránh &7| &6+35% Sát Thương Chí Mạng"
     - "&8↳ &eHiệu ứng tốc độ II"
 
 BANG_LONG_SET:
@@ -273,9 +273,9 @@ BANG_LONG_SET:
       potion-damage_resistance: 1
   lore-tag:
     - "&3&lBỘ Băng Long"
-    - "&8[2] &c+150 Máu &7| &a+12 Phòng thủ"
-    - "&8[3] &c+300 Máu &7| &a+22 Phòng thủ &7| &b+10% Giảm sát thương"
-    - "&8[4] &c+500 Máu &7| &a+35 Phòng thủ &7| &b+18% Giảm sát thương"
+    - "&8[2] &c+150 Máu Tối Đa &7| &a+12 Phòng Thủ Bổ Sung"
+    - "&8[3] &c+300 Máu Tối Đa &7| &a+22 Phòng Thủ Bổ Sung &7| &b+10% Giảm Mọi Sát Thương"
+    - "&8[4] &c+500 Máu Tối Đa &7| &a+35 Phòng Thủ Bổ Sung &7| &b+18% Giảm Mọi Sát Thương"
     - "&8↳ &bHiệu ứng giảm sát thương I"
 
 # ============================================================
@@ -299,9 +299,9 @@ LONG_CHIEN_SET:
       potion-speed: 1
   lore-tag:
     - "&e&lBỘ Chiến Long"
-    - "&8[2] &c+15 Sát thương &7| &6+5% Chí mạng"
-    - "&8[3] &c+25 Sát thương &7| &6+8% Chí mạng &7| &6+15% Lực chí mạng"
-    - "&8[4] &c+40 Sát thương &7| &6+12% Chí mạng &7| &6+30% Lực chí mạng"
+    - "&8[2] &c+15 Sát Thương Cơ Bản &7| &6+5% Tỷ Lệ Chí Mạng"
+    - "&8[3] &c+25 Sát Thương Cơ Bản &7| &6+8% Tỷ Lệ Chí Mạng &7| &6+15% Sát Thương Chí Mạng"
+    - "&8[4] &c+40 Sát Thương Cơ Bản &7| &6+12% Tỷ Lệ Chí Mạng &7| &6+30% Sát Thương Chí Mạng"
     - "&8↳ &eHiệu ứng tốc độ I"
 
 LONG_THAN_SET:
@@ -321,9 +321,9 @@ LONG_THAN_SET:
       potion-regeneration: 1
   lore-tag:
     - "&b&lBỘ Thần Long"
-    - "&8[2] &d+15% Sát thương phép &7| &9+150 Mana"
-    - "&8[3] &d+25% Sát thương phép &7| &9+250 Mana &7| &6+8% Hồi chiêu"
-    - "&8[4] &d+40% Sát thương phép &7| &9+400 Mana &7| &6+15% Hồi chiêu"
+    - "&8[2] &d+15% Sát Thương Phép &7| &9+150 Mana Tối Đa"
+    - "&8[3] &d+25% Sát Thương Phép &7| &9+250 Mana Tối Đa &7| &6+8% Giảm Hồi Chiêu"
+    - "&8[4] &d+40% Sát Thương Phép &7| &9+400 Mana Tối Đa &7| &6+15% Giảm Hồi Chiêu"
     - "&8↳ &aHiệu ứng hồi phục I"
 
 LONG_HOANG_SET:
@@ -343,9 +343,9 @@ LONG_HOANG_SET:
       potion-speed: 2
   lore-tag:
     - "&c&lBỘ Hoàng Long"
-    - "&8[2] &e+12% Tốc đánh &7| &c+5% Hút máu"
-    - "&8[3] &e+22% Tốc đánh &7| &c+8% Hút máu &7| &c+18 Sát thương"
-    - "&8[4] &e+35% Tốc đánh &7| &c+12% Hút máu &7| &c+30 Sát thương"
+    - "&8[2] &e+12% Tốc Độ Đánh &7| &c+5% Hút Máu"
+    - "&8[3] &e+22% Tốc Độ Đánh &7| &c+8% Hút Máu &7| &c+18 Sát Thương Cơ Bản"
+    - "&8[4] &e+35% Tốc Độ Đánh &7| &c+12% Hút Máu &7| &c+30 Sát Thương Cơ Bản"
     - "&8↳ &eHiệu ứng tốc độ II"
 
 LONG_DE_SET:
@@ -365,9 +365,9 @@ LONG_DE_SET:
       potion-speed: 2
   lore-tag:
     - "&4&lBỘ Đế Long"
-    - "&8[2] &a+8% Sát thương vật lý &7| &f+8% Né"
-    - "&8[3] &a+14% Sát thương vật lý &7| &f+14% Né &7| &6+20% Lực chí mạng"
-    - "&8[4] &a+22% Sát thương vật lý &7| &f+20% Né &7| &6+35% Lực chí mạng"
+    - "&8[2] &a+8% Sát Thương Vật Lý &7| &f+8% Né Tránh"
+    - "&8[3] &a+14% Sát Thương Vật Lý &7| &f+14% Né Tránh &7| &6+20% Sát Thương Chí Mạng"
+    - "&8[4] &a+22% Sát Thương Vật Lý &7| &f+20% Né Tránh &7| &6+35% Sát Thương Chí Mạng"
     - "&8↳ &eHiệu ứng tốc độ II"
 
 LONG_VE_SET:
@@ -387,9 +387,9 @@ LONG_VE_SET:
       potion-damage_resistance: 1
   lore-tag:
     - "&a&lBỘ Hộ Long"
-    - "&8[2] &c+150 Máu &7| &a+12 Phòng thủ"
-    - "&8[3] &c+300 Máu &7| &a+22 Phòng thủ &7| &b+10% Giảm sát thương"
-    - "&8[4] &c+500 Máu &7| &a+35 Phòng thủ &7| &b+18% Giảm sát thương"
+    - "&8[2] &c+150 Máu Tối Đa &7| &a+12 Phòng Thủ Bổ Sung"
+    - "&8[3] &c+300 Máu Tối Đa &7| &a+22 Phòng Thủ Bổ Sung &7| &b+10% Giảm Mọi Sát Thương"
+    - "&8[4] &c+500 Máu Tối Đa &7| &a+35 Phòng Thủ Bổ Sung &7| &b+18% Giảm Mọi Sát Thương"
     - "&8↳ &bHiệu ứng giảm sát thương I"
 
 # ============================================================
@@ -413,9 +413,9 @@ THANH_LONG_SET:
       potion-speed: 1
   lore-tag:
     - "&b&lBỘ Thanh Long Linh"
-    - "&8[2] &c+15 Sát thương &7| &6+5% Chí mạng"
-    - "&8[3] &c+25 Sát thương &7| &6+8% Chí mạng &7| &6+15% Lực chí mạng"
-    - "&8[4] &c+40 Sát thương &7| &6+12% Chí mạng &7| &6+30% Lực chí mạng"
+    - "&8[2] &c+15 Sát Thương Cơ Bản &7| &6+5% Tỷ Lệ Chí Mạng"
+    - "&8[3] &c+25 Sát Thương Cơ Bản &7| &6+8% Tỷ Lệ Chí Mạng &7| &6+15% Sát Thương Chí Mạng"
+    - "&8[4] &c+40 Sát Thương Cơ Bản &7| &6+12% Tỷ Lệ Chí Mạng &7| &6+30% Sát Thương Chí Mạng"
     - "&8↳ &eHiệu ứng tốc độ I"
 
 XICH_LONG_SET:
@@ -435,9 +435,9 @@ XICH_LONG_SET:
       potion-regeneration: 1
   lore-tag:
     - "&c&lBỘ Xích Long Linh"
-    - "&8[2] &d+15% Sát thương phép &7| &9+150 Mana"
-    - "&8[3] &d+25% Sát thương phép &7| &9+250 Mana &7| &6+8% Hồi chiêu"
-    - "&8[4] &d+40% Sát thương phép &7| &9+400 Mana &7| &6+15% Hồi chiêu"
+    - "&8[2] &d+15% Sát Thương Phép &7| &9+150 Mana Tối Đa"
+    - "&8[3] &d+25% Sát Thương Phép &7| &9+250 Mana Tối Đa &7| &6+8% Giảm Hồi Chiêu"
+    - "&8[4] &d+40% Sát Thương Phép &7| &9+400 Mana Tối Đa &7| &6+15% Giảm Hồi Chiêu"
     - "&8↳ &aHiệu ứng hồi phục I"
 
 KIM_LONG_SET:
@@ -457,9 +457,9 @@ KIM_LONG_SET:
       potion-speed: 2
   lore-tag:
     - "&e&lBỘ Kim Long Linh"
-    - "&8[2] &e+12% Tốc đánh &7| &c+5% Hút máu"
-    - "&8[3] &e+22% Tốc đánh &7| &c+8% Hút máu &7| &c+18 Sát thương"
-    - "&8[4] &e+35% Tốc đánh &7| &c+12% Hút máu &7| &c+30 Sát thương"
+    - "&8[2] &e+12% Tốc Độ Đánh &7| &c+5% Hút Máu"
+    - "&8[3] &e+22% Tốc Độ Đánh &7| &c+8% Hút Máu &7| &c+18 Sát Thương Cơ Bản"
+    - "&8[4] &e+35% Tốc Độ Đánh &7| &c+12% Hút Máu &7| &c+30 Sát Thương Cơ Bản"
     - "&8↳ &eHiệu ứng tốc độ II"
 
 THIEN_LONG_SET:
@@ -479,9 +479,9 @@ THIEN_LONG_SET:
       potion-speed: 2
   lore-tag:
     - "&d&lBỘ Thiên Long Linh"
-    - "&8[2] &a+8% Sát thương vật lý &7| &f+8% Né"
-    - "&8[3] &a+14% Sát thương vật lý &7| &f+14% Né &7| &6+20% Lực chí mạng"
-    - "&8[4] &a+22% Sát thương vật lý &7| &f+20% Né &7| &6+35% Lực chí mạng"
+    - "&8[2] &a+8% Sát Thương Vật Lý &7| &f+8% Né Tránh"
+    - "&8[3] &a+14% Sát Thương Vật Lý &7| &f+14% Né Tránh &7| &6+20% Sát Thương Chí Mạng"
+    - "&8[4] &a+22% Sát Thương Vật Lý &7| &f+20% Né Tránh &7| &6+35% Sát Thương Chí Mạng"
     - "&8↳ &eHiệu ứng tốc độ II"
 
 BAC_LONG_SET:
@@ -501,7 +501,7 @@ BAC_LONG_SET:
       potion-damage_resistance: 1
   lore-tag:
     - "&f&lBỘ Bạch Long Linh"
-    - "&8[2] &f+150 Máu &7| &a+12 Phòng thủ"
-    - "&8[3] &f+300 Máu &7| &a+22 Phòng thủ &7| &b+10% Giảm sát thương"
-    - "&8[4] &f+500 Máu &7| &a+35 Phòng thủ &7| &b+18% Giảm sát thương"
+    - "&8[2] &f+150 Máu Tối Đa &7| &a+12 Phòng Thủ Bổ Sung"
+    - "&8[3] &f+300 Máu Tối Đa &7| &a+22 Phòng Thủ Bổ Sung &7| &b+10% Giảm Mọi Sát Thương"
+    - "&8[4] &f+500 Máu Tối Đa &7| &a+35 Phòng Thủ Bổ Sung &7| &b+18% Giảm Mọi Sát Thương"
     - "&8↳ &bHiệu ứng giảm sát thương I"

@@ -7,7 +7,6 @@ attributes:
   main: attributes
   aliases:
   - att
-  - stats
   description: Display and manage attributes
 class:
   main: class

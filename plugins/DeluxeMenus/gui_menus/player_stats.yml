@@ -1,0 +1,169 @@
+# Tổng chỉ số thực tế sau khi cộng trang bị, gem, set và buff của người chơi.
+# DeluxeMenus đăng ký trực tiếp lệnh /stats và /chiso.
+menu_title: '&8✦ &6&lCHỈ SỐ CHIẾN ĐẤU &8✦'
+open_command:
+  - stats
+  - chiso
+open_commands:
+  - '[sound] BLOCK_BEACON_ACTIVATE'
+size: 45
+
+items:
+  'filler':
+    material: BLACK_STAINED_GLASS_PANE
+    slots:
+      - 0-3
+      - 5-9
+      - 17-18
+      - 19-21
+      - 23-25
+      - 26-27
+      - 28-34
+      - 35-39
+      - 41-43
+    display_name: ' '
+    lore: []
+
+  'player':
+    material: PLAYER_HEAD
+    slot: 4
+    skull_owner: '%player_name%'
+    glow: true
+    hide_attributes: true
+    display_name: '&e&l%player_name%'
+    lore:
+      - '&7Cấp nhân vật: &b%mmocore_level%'
+      - '&7Máu hiện tại: &c%mmocore_health%&7/&c%mmocore_max_health%'
+      - '&7Mana hiện tại: &9%mmocore_mana%&7/&9%mmocore_max_mana%'
+      - ''
+      - '&8Các giá trị bên dưới là tổng chỉ số'
+      - '&8sau trang bị, gem, set và buff.'
+
+  'pve_offense':
+    material: NETHERITE_SWORD
+    slot: 10
+    glow: true
+    hide_attributes: true
+    display_name: '&a&l⚔ TẤN CÔNG PvE'
+    lore:
+      - '&7Sát thương cơ bản: &c%mmocore_stat_attack_damage%'
+      - '&7Sát thương vũ khí: &c%mmocore_stat_weapon_damage%%'
+      - '&7Sát thương vật lý: &c%mmocore_stat_physical_damage%%'
+      - '&7Sát thương phép: &d%mmocore_stat_magic_damage%%'
+      - '&7Sát thương kỹ năng: &6%mmocore_stat_skill_damage%%'
+      - ''
+      - '&aSát thương lên quái: &f%mmocore_stat_pve_damage%%'
+
+  'pve_survival':
+    material: TOTEM_OF_UNDYING
+    slot: 11
+    hide_attributes: true
+    display_name: '&a&l❤ SINH TỒN PvE'
+    lore:
+      - '&7Giảm sát thương từ quái: &a%mmocore_stat_pve_damage_reduction%%'
+      - '&7Hút máu: &c%mmocore_stat_lifesteal%%'
+      - '&7Hút máu phép: &d%mmocore_stat_spell_vampirism%%'
+      - '&7Hồi máu: &c%mmocore_stat_health_regeneration%/giây'
+      - '&7Kháng lửa: &c%mmocore_stat_fire_damage_reduction%%'
+      - '&7Kháng phép: &d%mmocore_stat_magic_damage_reduction%%'
+
+  'critical':
+    material: NETHER_STAR
+    slot: 12
+    hide_attributes: true
+    display_name: '&6&l✦ CHÍ MẠNG'
+    lore:
+      - '&7Tỷ lệ chí mạng: &6%mmocore_stat_critical_strike_chance%%'
+      - '&7Sát thương chí mạng: &6%mmocore_stat_critical_strike_power%%'
+      - '&7Chí mạng kỹ năng: &e%mmocore_stat_skill_critical_strike_chance%%'
+      - '&7Sát thương chí mạng kỹ năng: &e%mmocore_stat_skill_critical_strike_power%%'
+
+  'core_defense':
+    material: NETHERITE_CHESTPLATE
+    slot: 13
+    glow: true
+    hide_attributes: true
+    display_name: '&b&l🛡 PHÒNG THỦ CHUNG'
+    lore:
+      - '&7Máu tối đa: &c%mmocore_max_health%'
+      - '&7Giáp: &b%mmocore_stat_armor% &8(tối đa 30)'
+      - '&7Kháng xuyên giáp: &3%mmocore_stat_armor_toughness%'
+      - '&7Phòng thủ bổ sung: &b%mmocore_stat_defense%'
+      - '&7Giảm mọi sát thương: &b%mmocore_stat_damage_reduction%%'
+      - '&7Kháng vật lý: &c%mmocore_stat_physical_damage_reduction%%'
+      - '&7Kháng tầm xa: &e%mmocore_stat_projectile_damage_reduction%%'
+
+  'mitigation':
+    material: SHIELD
+    slot: 14
+    hide_attributes: true
+    display_name: '&b&l✥ NÉ TRÁNH & ĐỠ ĐÒN'
+    lore:
+      - '&7Tỷ lệ đỡ đòn: &b%mmocore_stat_block_rating%%'
+      - '&7Hiệu quả đỡ đòn: &b%mmocore_stat_block_power%%'
+      - '&7Tỷ lệ né tránh: &f%mmocore_stat_dodge_rating%%'
+      - '&7Tỷ lệ phản đòn: &e%mmocore_stat_parry_rating%%'
+      - '&7Kháng đẩy lùi: &f%mmocore_stat_knockback_resistance%%'
+
+  'pvp_offense':
+    material: DIAMOND_SWORD
+    slot: 15
+    glow: true
+    hide_attributes: true
+    display_name: '&c&l⚔ TẤN CÔNG PvP'
+    lore:
+      - '&7Sát thương cơ bản: &c%mmocore_stat_attack_damage%'
+      - '&7Sát thương vật lý: &c%mmocore_stat_physical_damage%%'
+      - '&7Sát thương phép: &d%mmocore_stat_magic_damage%%'
+      - '&7Sát thương kỹ năng: &6%mmocore_stat_skill_damage%%'
+      - ''
+      - '&cSát thương lên người chơi: &f%mmocore_stat_pvp_damage%%'
+
+  'pvp_survival':
+    material: GOLDEN_APPLE
+    slot: 16
+    hide_attributes: true
+    display_name: '&c&l❤ SINH TỒN PvP'
+    lore:
+      - '&7Giảm sát thương từ người chơi:'
+      - '&c%mmocore_stat_pvp_damage_reduction%%'
+      - ''
+      - '&7Phòng thủ bổ sung: &b%mmocore_stat_defense%'
+      - '&7Giảm mọi sát thương: &b%mmocore_stat_damage_reduction%%'
+      - '&7Hồi máu: &c%mmocore_stat_health_regeneration%/giây'
+
+  'resources':
+    material: EXPERIENCE_BOTTLE
+    slot: 22
+    hide_attributes: true
+    display_name: '&e&l✦ TÀI NGUYÊN & HỒI CHIÊU'
+    lore:
+      - '&7Mana tối đa: &9%mmocore_stat_max_mana%'
+      - '&7Hồi mana: &9%mmocore_stat_mana_regeneration%/giây'
+      - '&7Thể lực tối đa: &e%mmocore_stat_max_stamina%'
+      - '&7Hồi thể lực: &e%mmocore_stat_stamina_regeneration%/giây'
+      - '&7Giảm hồi chiêu: &6%mmocore_stat_cooldown_reduction%%'
+      - '&7Tốc độ di chuyển: &e%mmocore_stat_movement_speed%'
+
+  'refresh':
+    material: CLOCK
+    slot: 40
+    hide_attributes: true
+    display_name: '&e&l⟳ LÀM MỚI CHỈ SỐ'
+    lore:
+      - '&7Trang bị thay đổi khi menu đang mở?'
+      - '&eClick để cập nhật lại toàn bộ số liệu.'
+    click_commands:
+      - '[sound] UI_BUTTON_CLICK'
+      - '[refresh]'
+
+  'close':
+    material: BARRIER
+    slot: 44
+    hide_attributes: true
+    display_name: '&c&l✖ ĐÓNG'
+    lore:
+      - '&7Đóng bảng chỉ số.'
+    click_commands:
+      - '[sound] UI_BUTTON_CLICK'
+      - '[close]'

@@ -28,3 +28,5 @@ gui_menus:
     file: shop_donate.yml
   shop_keys:
     file: shop_keys.yml
+  player_stats:
+    file: player_stats.yml
